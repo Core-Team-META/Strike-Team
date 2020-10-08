@@ -1,6 +1,54 @@
 ﻿Name: "SAR_Level_WhiteBox_v2"
 RootId: 162845132827085145
 Objects {
+  Id: 14282806261390898639
+  Name: "Whitebox Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 3710
+      Y: -3025
+      Z: 1190.00317
+    }
+    Rotation {
+      Pitch: 1.36603776e-05
+      Yaw: -90.000061
+      Roll: -3.05175781e-05
+    }
+    Scale {
+      X: 1.1
+      Y: 3.3
+      Z: 0.7
+    }
+  }
+  ParentId: 162845132827085145
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11635162136967954539
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7200478757260421459
+    SubobjectId: 8118770897674605710
+    InstanceId: 7200268292723218010
+    TemplateId: 15952124285543764006
+  }
+}
+Objects {
   Id: 11172480551666445949
   Name: "Whitebox Stairs 01 Straight"
   Transform {
