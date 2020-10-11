@@ -23,7 +23,7 @@ Objects {
       value {
         Overrides {
           Name: "PlayerJumpMaxCount"
-          Int: 2
+          Int: 1
         }
       }
     }

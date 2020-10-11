@@ -137,6 +137,10 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:RequiredPlayers"
+          Int: 2
+        }
       }
     }
     TemplateAsset {
