@@ -251,15 +251,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12116638634341843713
-  Name: "Bone Human Skull Pile 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_skull_pile_02_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1

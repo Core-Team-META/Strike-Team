@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9536141319314062468
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
+  }
+}
+Assets {
   Id: 7531058706496198656
   Name: "Whitebox Wall 01 Doorway"
   PlatformAssetType: 1

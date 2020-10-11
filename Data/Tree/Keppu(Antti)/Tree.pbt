@@ -1202,7 +1202,6 @@ Objects {
     }
   }
   ParentId: 9204574029799982530
-  ChildIds: 4960233689563037215
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1211,63 +1210,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 4960233689563037215
-  Name: "mesh"
-  Transform {
-    Location {
-      X: 12973.7188
-      Y: -26827.9277
-      Z: -6513.25439
-    }
-    Rotation {
-      Pitch: -0.695258558
-      Yaw: -148.669418
-      Roll: 29.952919
-    }
-    Scale {
-      X: 1572.39795
-      Y: 100.94986
-      Z: 268.889435
-    }
-  }
-  ParentId: 10777383936591060549
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4975710977286325610
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        A: 0.399000019
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12116638634341843713
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
