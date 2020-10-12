@@ -1,6 +1,35 @@
 ﻿Name: "Keppu(Antti)"
 RootId: 15084389731420460127
 Objects {
+  Id: 16373807130785117515
+  Name: "SAR_Level_Art"
+  Transform {
+    Location {
+      X: -35
+      Y: -6560
+      Z: -115
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "SAR_Level_Art"
+  }
+}
+Objects {
   Id: 1293870226649543397
   Name: "Ladder"
   Transform {
