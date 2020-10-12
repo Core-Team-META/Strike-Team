@@ -9,6 +9,9 @@
       Overrides {
         Name: "gradient_color"
         Color {
+          R: 0.376000017
+          G: 0.376000017
+          B: 0.376000017
           A: 1
         }
       }
