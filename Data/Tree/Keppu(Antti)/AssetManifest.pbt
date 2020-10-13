@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16933361490793048899
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -68,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 16078509291572704976
+  Name: "Chain Link 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_chainlink_001_uv_ref"
   }
 }
 Assets {
@@ -287,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11888319101300529438
-  Name: "Metal Grates 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_006_uv"
-  }
-}
-Assets {
   Id: 11692130059731908639
   Name: "Sphere"
   PlatformAssetType: 1
@@ -428,6 +437,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "sfxabp_nature_earthquake_loops_ref"
+  }
+}
+Assets {
+  Id: 9255501325909582329
+  Name: "Barbed Wire 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_barbed_wire_001_uv_ref"
   }
 }
 Assets {

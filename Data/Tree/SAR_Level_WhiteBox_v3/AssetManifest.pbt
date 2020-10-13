@@ -26,6 +26,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16855776306829432893
+  Name: "Plane"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_001"
+  }
+}
+Assets {
+  Id: 15099145682907254516
+  Name: "Bricks Rough Stone Floor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_floor_rough_001"
+  }
+}
+Assets {
   Id: 13372691205743875705
   Name: "Fern 03"
   PlatformAssetType: 1

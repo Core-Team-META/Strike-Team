@@ -30,6 +30,18 @@
           Id: 15016852232051002953
         }
       }
+      Overrides {
+        Name: "cmp:Material2"
+        AssetReference {
+          Id: 6425642891952514697
+        }
+      }
+      Overrides {
+        Name: "cmp:Material2_Sides"
+        AssetReference {
+          Id: 6425642891952514697
+        }
+      }
     }
     Assets {
       Id: 1766288375643485995
@@ -74,6 +86,24 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_brick_cobblestone_floor_arch_001"
+      }
+    }
+    Assets {
+      Id: 6425642891952514697
+      Name: "Terrain Desert 4-way Blend"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_terrain_4blend_desert_001_wa"
+      }
+    }
+    Assets {
+      Id: 6425642891952514697
+      Name: "Terrain Desert 4-way Blend"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_terrain_4blend_desert_001_wa"
       }
     }
   }

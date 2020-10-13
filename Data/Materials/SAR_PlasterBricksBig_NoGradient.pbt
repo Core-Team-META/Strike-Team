@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 8676259161612548826
-  Name: "SAR_PlasterBricks_Gradient"
+  Id: 8623809405539843674
+  Name: "SAR_PlasterBricksBig_NoGradient"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -40,11 +40,11 @@
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 1
+        Float: 0
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.141422346
+        Float: 0
       }
     }
     Assets {

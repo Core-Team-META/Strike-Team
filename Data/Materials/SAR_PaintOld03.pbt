@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 17915598922251763197
-  Name: "SAR_PaintOldWallWornPlaster"
+  Name: "SAR_PaintOld03"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -17,25 +17,27 @@
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 0.624
-          G: 0.624
-          B: 0.624
+          R: 0.74
+          G: 0.432914585
+          B: 0.26195997
           A: 1
         }
       }
       Overrides {
         Name: "gradient_color"
         Color {
+          R: 0.88
+          G: 0.209801316
           A: 1
         }
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.168812096
+        Float: 0
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.668675125
+        Float: 0.404659748
       }
       Overrides {
         Name: "u_tiles2"
@@ -58,9 +60,9 @@
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 0.177288473
-          G: 0.192
-          B: 0.16704
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
