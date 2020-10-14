@@ -1,6 +1,62 @@
 ﻿Name: "Keppu(Antti)"
 RootId: 15084389731420460127
 Objects {
+  Id: 14703033484704143951
+  Name: "SAR_SatelliteDish"
+  Transform {
+    Location {
+      X: 1810
+      Y: 6110
+      Z: 1730
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16815547193470422076
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SatelliteDish"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3075
+            Y: -450
+            Z: 1615
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.75
+            Y: 1.75
+            Z: 1.75
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12945772463365654918
+    }
+  }
+}
+Objects {
   Id: 1293870226649543397
   Name: "Ladder"
   Transform {
@@ -2130,7 +2186,6 @@ Objects {
   ChildIds: 4943918998664974796
   ChildIds: 10029508080954718568
   ChildIds: 2253385015241930817
-  ChildIds: 2701224286368381235
   ChildIds: 11669367982702352425
   ChildIds: 14004010927748771633
   ChildIds: 14625866932367174618
@@ -5000,54 +5055,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 7958593884984975193
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9570713371252913165
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2701224286368381235
-  Name: "Parallelepiped - Horizontal "
-  Transform {
-    Location {
-      X: -2365
-      Y: -590
-      Z: 165
-    }
-    Rotation {
-      Roll: 89.9999542
-    }
-    Scale {
-      X: 3.3
-      Y: 2.2
-      Z: 3.2
-    }
-  }
-  ParentId: 9204574029799982530
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17915598922251763197
       }
     }
   }
@@ -29647,7 +29654,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 4.0279355
+      Float: 5
     }
     Overrides {
       Name: "bp:Lower Hemisphere Color"
@@ -29690,14 +29697,22 @@ Objects {
     Overrides {
       Name: "bp:Blend Target Image"
       Enum {
-        Value: "mc:eambientcubemapssmall:2"
+        Value: "mc:eambientcubemapssmall:0"
       }
     }
     Overrides {
       Name: "bp:Ambient Image"
       Enum {
-        Value: "mc:eambientcubemapssmall:10"
+        Value: "mc:eambientcubemapssmall:27"
       }
+    }
+    Overrides {
+      Name: "bp:Blend Amount"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Indirect Intensity"
+      Float: 2
     }
   }
   Collidable_v2 {

@@ -12,7 +12,7 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.38685295
+        Float: 0.345303774
       }
       Overrides {
         Name: "gradient_color"
@@ -67,6 +67,10 @@
           B: 0.26195997
           A: 1
         }
+      }
+      Overrides {
+        Name: "mask_scale"
+        Float: 1
       }
     }
     Assets {

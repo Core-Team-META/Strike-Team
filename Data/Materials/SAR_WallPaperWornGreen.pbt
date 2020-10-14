@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 17915598922251763197
-  Name: "SAR_PaintOld03"
+  Id: 2216153378691566259
+  Name: "SAR_WallPaperWornGreen"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -8,26 +8,18 @@
     ParameterOverrides {
       Overrides {
         Name: "material2_scale"
-        Float: 2.5171051
+        Float: 1
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.271523684
-      }
-      Overrides {
-        Name: "cmpc:Material2"
-        Color {
-          R: 0.74
-          G: 0.432914585
-          B: 0.26195997
-          A: 1
-        }
+        Float: 0.131622195
       }
       Overrides {
         Name: "gradient_color"
         Color {
-          R: 0.88
-          G: 0.209801316
+          R: 0.75000006
+          G: 0.687275052
+          B: 0.605250061
           A: 1
         }
       }
@@ -37,11 +29,17 @@
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.404659748
+        Float: 0
+      }
+      Overrides {
+        Name: "cmp:Material2"
+        AssetReference {
+          Id: 10044556425249133227
+        }
       }
       Overrides {
         Name: "u_tiles2"
-        Float: 4.66866922
+        Float: 0
       }
       Overrides {
         Name: "rotate_material2"
@@ -49,36 +47,34 @@
       }
       Overrides {
         Name: "v_tiles2"
-        Float: 6.42161369
+        Float: 1
       }
       Overrides {
-        Name: "cmp:Material2"
+        Name: "cmp:Material1"
         AssetReference {
-          Id: 2677493793978752599
+          Id: 11541705719099405078
         }
+      }
+      Overrides {
+        Name: "invert_height"
+        Bool: true
+      }
+      Overrides {
+        Name: "material1_scale"
+        Float: 2
       }
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 1
-          G: 1
+          R: 0.213999987
+          G: 0.502199888
           B: 1
           A: 1
         }
       }
       Overrides {
-        Name: "invert_height"
-        Bool: false
-      }
-      Overrides {
-        Name: "cmp:Material1"
-        AssetReference {
-          Id: 2677493793978752599
-        }
-      }
-      Overrides {
-        Name: "gradient_worldspace"
-        Bool: true
+        Name: "mask_scale"
+        Float: 5
       }
     }
     Assets {
@@ -91,21 +87,21 @@
       }
     }
     Assets {
-      Id: 2677493793978752599
-      Name: "Stucco Tintable"
+      Id: 10044556425249133227
+      Name: "Wood Raw"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_tint_001_uv"
+        AssetId: "mi_wood_raw_001_uv"
       }
     }
     Assets {
-      Id: 2677493793978752599
-      Name: "Stucco Tintable"
+      Id: 11541705719099405078
+      Name: "Fabric Burlap New 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_tint_001_uv"
+        AssetId: "mi_fan_fabric_burlap_002_uv"
       }
     }
   }

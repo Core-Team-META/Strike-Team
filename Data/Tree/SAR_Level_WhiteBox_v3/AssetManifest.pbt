@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16931630116077975102
+  Name: "Pillar 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_pillar_001_ref"
+  }
+}
+Assets {
   Id: 16855776306829432893
   Name: "Plane"
   PlatformAssetType: 1
@@ -35,21 +44,21 @@ Assets {
   }
 }
 Assets {
-  Id: 15099145682907254516
-  Name: "Bricks Rough Stone Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_floor_rough_001"
-  }
-}
-Assets {
   Id: 13372691205743875705
   Name: "Fern 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_003"
+  }
+}
+Assets {
+  Id: 13130266659711307422
+  Name: "Wallpaper Fleur De Lis 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wallpaper_fleurdelis_001_uv"
   }
 }
 Assets {
@@ -140,6 +149,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_porch_001_rail"
+  }
+}
+Assets {
+  Id: 8831838522590132896
+  Name: "Wood Floor Weave Light"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_floor_weave_light_001_uv"
   }
 }
 Assets {
