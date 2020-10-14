@@ -1,13 +1,4 @@
 ﻿Assets {
-  Id: 18044128746290206539
-  Name: "Whitebox Window Insert - Arch Top"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_winInsert_001_archTop"
-  }
-}
-Assets {
   Id: 17489731258955383362
   Name: "Bricks Red 01"
   PlatformAssetType: 2
@@ -419,15 +410,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_parallelepiped_003"
-  }
-}
-Assets {
-  Id: 9536141319314062468
-  Name: "Craftsman Porch Fence Railing 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
   }
 }
 Assets {
