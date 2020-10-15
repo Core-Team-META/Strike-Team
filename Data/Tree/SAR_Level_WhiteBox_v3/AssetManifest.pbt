@@ -107,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10863862208740259149
+  Name: "Bricks Mismatched Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_mismatch_001"
+  }
+}
+Assets {
   Id: 10510456914403889366
   Name: "Arch"
   PlatformAssetType: 1
@@ -212,6 +221,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tx_gen_whitebox_foundation_001"
+  }
+}
+Assets {
+  Id: 2647109416399480979
+  Name: "Bricks Chunky Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_chunky_001"
   }
 }
 Assets {

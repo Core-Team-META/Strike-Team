@@ -296,6 +296,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15435266645019974066
+  Name: "Bricks Layered Stone Floor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_floor_layered_001"
+  }
+}
+Assets {
   Id: 15407703558458270810
   Name: "Wall Blank Downtown 02"
   PlatformAssetType: 1
@@ -845,6 +854,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7646766915752802364
+  Name: "Bricks Stone Block 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bricks_stone_block_001"
+  }
+}
+Assets {
   Id: 7531323142721961800
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -1040,15 +1058,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_tiles_001"
-  }
-}
-Assets {
-  Id: 2796668673432131982
-  Name: "Hesco Barrier Fill"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_hesco_fill_001"
   }
 }
 Assets {

@@ -33,13 +33,13 @@
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 6425642891952514697
+          Id: 9906048860044247049
         }
       }
       Overrides {
         Name: "cmp:Material2_Sides"
         AssetReference {
-          Id: 6425642891952514697
+          Id: 9906048860044247049
         }
       }
     }
@@ -89,21 +89,21 @@
       }
     }
     Assets {
-      Id: 6425642891952514697
-      Name: "Terrain Desert 4-way Blend"
+      Id: 9906048860044247049
+      Name: "Grass Clumps"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_terrain_4blend_desert_001_wa"
+        AssetId: "mi_grass_002_uv"
       }
     }
     Assets {
-      Id: 6425642891952514697
-      Name: "Terrain Desert 4-way Blend"
+      Id: 9906048860044247049
+      Name: "Grass Clumps"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_terrain_4blend_desert_001_wa"
+        AssetId: "mi_grass_002_uv"
       }
     }
   }

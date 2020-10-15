@@ -56,30 +56,30 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -132,13 +132,13 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
@@ -159,18 +159,18 @@
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -218,30 +218,30 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -290,30 +290,30 @@
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 0.545
+              G: 0.448998243
+              B: 0.397305
               A: 1
             }
           }
@@ -362,30 +362,30 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -434,13 +434,13 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
@@ -461,18 +461,18 @@
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -520,30 +520,30 @@
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 12841693225497865048
+              Id: 7073292077687017536
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.858823597
-              G: 0.707541823
-              B: 0.626082361
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }

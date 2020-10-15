@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 12841693225497865048
-  Name: "SAR_PaintOld02_LessWear"
+  Id: 7073292077687017536
+  Name: "SAR_PaintOldFloor"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -12,7 +12,7 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.268140614
+        Float: 0.362009674
       }
       Overrides {
         Name: "gradient_color"
@@ -62,15 +62,24 @@
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 0.74
-          G: 0.432914585
-          B: 0.26195997
+          R: 0.72300005
+          G: 0.587799
+          B: 0.587799
           A: 1
         }
       }
       Overrides {
         Name: "mask_scale"
         Float: 1
+      }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
+          R: 0.462
+          G: 0.425240219
+          B: 0.304458
+          A: 1
+        }
       }
     }
     Assets {

@@ -66,8 +66,8 @@
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 0.213999987
-          G: 0.502199888
+          R: 0.369999945
+          G: 0.873999834
           B: 1
           A: 1
         }

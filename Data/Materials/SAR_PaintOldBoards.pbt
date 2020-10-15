@@ -15,21 +15,12 @@
         Float: 0.47009939
       }
       Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.423281372
-          G: 0.549999952
-          B: 0.280499965
-          A: 1
-        }
-      }
-      Overrides {
         Name: "gradient_shift"
         Float: 0
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.298913419
+        Float: 0
       }
       Overrides {
         Name: "u_tiles2"
