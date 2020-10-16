@@ -1,6 +1,3069 @@
 ﻿Name: "SAR_Level_Art"
 RootId: 16373807130785117515
 Objects {
+  Id: 7512502000305764296
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -20
+      Y: 3160
+      Z: 74.9999542
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 0.4
+      Y: 0.3
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3259986192364460681
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -75
+      Y: 3085
+      Z: -9.99990845
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 3.20000029
+      Y: 0.5
+      Z: 0.8
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.634
+        G: 0.634
+        B: 0.634
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15679785702956772461
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 500
+      Y: 3455
+      Z: -9.99993896
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 3.20000029
+      Y: 0.5
+      Z: 0.8
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.634
+        G: 0.634
+        B: 0.634
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18121216705808583009
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: 357.732147
+      Y: 3535.1582
+      Z: 75
+    }
+    Rotation {
+      Yaw: -135
+      Roll: 9.74202919
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15212399202235508601
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: 290.557
+      Y: 3460.91235
+      Z: 75
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4510688287110165001
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: 216.310776
+      Y: 3393.73682
+      Z: 75
+    }
+    Rotation {
+      Yaw: -135
+      Roll: 9.74205112
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16444321047133568964
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 304.699127
+      Y: 3453.84106
+      Z: -9.99993896
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 3.20000029
+      Y: 0.5
+      Z: 0.8
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.634
+        G: 0.634
+        B: 0.634
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17985486048122510534
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: 390
+      Y: 3530
+      Z: 575
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1.61082375
+      Y: 0.699999154
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17250569693471017863
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: 325
+      Y: 1650
+      Z: 575
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.599999964
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11976270084829661542
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: 1305
+      Y: 2660
+      Z: 575
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1.8
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 764579389746611621
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -185
+      Y: 3210
+      Z: -4.99996948
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 0.2
+      Y: 0.5
+      Z: 0.900000036
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7731219571388396416
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -465
+      Y: 3490
+      Z: -4.99996948
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 0.2
+      Y: 0.5
+      Z: 0.900000036
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2469429965770887371
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -535
+      Y: 2660
+      Z: -4.99993896
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 0.8
+      Y: 0.5
+      Z: 0.900000036
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8957454529951151236
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -1227.62378
+      Y: 2660
+      Z: -4.99996948
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.900000036
+      Y: 0.5
+      Z: 0.900000095
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11385232582276471834
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -785
+      Y: 3175
+      Z: -4.99996948
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 0.6
+      Y: 0.5
+      Z: 0.900000036
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17481181311171557829
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -1227.62378
+      Y: 3195
+      Z: -4.99996948
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.5
+      Z: 0.900000036
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15017558132923310695
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -1227.62378
+      Y: 2595
+      Z: -4.99996948
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 0.8
+      Y: 0.5
+      Z: 0.900000036
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12631014601989729529
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -1245
+      Y: 1615
+      Z: -5
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9569768819083550190
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -895
+      Y: 1621.64233
+      Z: 525
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.466796845
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12841693225497865048
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.784666657
+        B: 0.62
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11465882301660868922
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12446388869787147838
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -647.53479
+      Y: 1650
+      Z: 575
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.716753
+      Y: 0.699999809
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18070638667399259707
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -1270
+      Y: 2065
+      Z: 80
+    }
+    Rotation {
+      Yaw: -90
+      Roll: 9.74201393
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16639332379461621164
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -1265.00024
+      Y: 1965.00024
+      Z: 80
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12687062457994374470
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -1250
+      Y: 1955
+      Z: -4.99993896
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 3.20000029
+      Y: 0.5
+      Z: 0.8
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.634
+        G: 0.634
+        B: 0.634
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2636656931381610357
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -545
+      Y: 2595
+      Z: 1175
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1.69999993
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 12841693225497865048
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 7.11132145
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 5.36126566
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7012324255378327138
+  Name: "Group"
+  Transform {
+    Location {
+      X: -315
+      Y: 2855
+      Z: -10.0001221
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 2124812945245769004
+  ChildIds: 5889557636711485095
+  ChildIds: 5228932061185190035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5228932061185190035
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -309.999664
+      Y: -5.78566
+      Z: 535
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65336275
+      Y: 0.700001657
+      Z: 1
+    }
+  }
+  ParentId: 7012324255378327138
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12841693225497865048
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.784666657
+        B: 0.62
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11465882301660868922
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5889557636711485095
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      X: -309.996338
+      Y: -30.0024414
+      Z: 2.14911938
+    }
+    Rotation {
+      Pitch: 2.04905664e-05
+      Yaw: -9.15527344e-05
+      Roll: -3.05175727e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7012324255378327138
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2515235952476239543
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2124812945245769004
+  Name: "Group"
+  Transform {
+    Location {
+      X: 75
+      Y: -25
+      Z: 140
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7012324255378327138
+  ChildIds: 12655545388215699504
+  ChildIds: 275485766752640909
+  ChildIds: 11712165726620202845
+  ChildIds: 673640001779462747
+  ChildIds: 17697157003381030864
+  ChildIds: 4858060827796754735
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4858060827796754735
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: -62.4467697
+      Z: 305
+    }
+    Rotation {
+      Pitch: -3.05175781e-05
+      Yaw: -179.999985
+      Roll: -89.9998474
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.250000209
+      Z: 1.57582557
+    }
+  }
+  ParentId: 2124812945245769004
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.295371085
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17697157003381030864
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -0.251353979
+      Y: 13.3884172
+      Z: 15.0001221
+    }
+    Rotation {
+      Pitch: 0.389880836
+      Yaw: -89.999939
+      Roll: 1.05390109e-06
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.441068709
+      Z: 0.25
+    }
+  }
+  ParentId: 2124812945245769004
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.181516171
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.653000057
+        G: 0.555137098
+        B: 0.469507039
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 673640001779462747
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 4.74877548
+      Y: -64.0584412
+      Z: 24.9309082
+    }
+    Rotation {
+      Pitch: -3.05175781e-05
+      Yaw: -179.999954
+      Roll: -89.9998779
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.250000209
+      Z: 1.57582557
+    }
+  }
+  ParentId: 2124812945245769004
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.295371085
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11712165726620202845
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: -75
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 2124812945245769004
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 275485766752640909
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: 105
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 2124812945245769004
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12655545388215699504
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      Y: 14.9999981
+      Z: 325
+    }
+    Rotation {
+      Pitch: 0.389880836
+      Yaw: -89.999939
+      Roll: 1.05390109e-06
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.441068709
+      Z: 0.25
+    }
+  }
+  ParentId: 2124812945245769004
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.181516171
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.653000057
+        G: 0.555137098
+        B: 0.469507039
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9483580823711372586
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -1265
+      Y: 1621.64233
+      Z: 525
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1.26644254
+      Y: 0.699999928
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12841693225497865048
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.784666657
+        B: 0.62
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11465882301660868922
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14031175752574590241
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -1270
+      Y: 2590
+      Z: 80
+    }
+    Rotation {
+      Yaw: -90
+      Roll: 9.74198818
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12622918143833063120
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -1265.00024
+      Y: 2490.00024
+      Z: 80
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11473269965339180870
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -1270
+      Y: 2390
+      Z: 80
+    }
+    Rotation {
+      Yaw: -90
+      Roll: 9.74201
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2341536406072805499
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -1250
+      Y: 2495
+      Z: -4.99993896
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 3.20000029
+      Y: 0.5
+      Z: 0.8
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.634
+        G: 0.634
+        B: 0.634
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1793864173103448632
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -515
+      Y: 2610
+      Z: 575
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 1.67894459
+      Y: 0.700000286
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5827809013616658219
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -1235
+      Y: 1675
+      Z: 575
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1.1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13510198162884338180
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -1190
+      Y: 2615
+      Z: 575
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.900000036
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12571460512518266036
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: 3250
+      Y: 2645
+      Z: -0.000457763672
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1.2
+      Y: 0.7
+      Z: 1.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11602040304084961943
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: 3250
+      Y: 540
+      Z: -0.000457763672
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1.5
+      Y: 0.7
+      Z: 1.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 2718006810244014813
   Name: "Fantasy Castle Pillar 01 Cap"
   Transform {
@@ -1766,11 +4829,12 @@ Objects {
   Name: "Barrier Plastic 01"
   Transform {
     Location {
-      X: 2680
-      Y: 2650
-      Z: -15
+      X: 2785
+      Y: 2480
+      Z: -10.069397
     }
     Rotation {
+      Yaw: -45
     }
     Scale {
       X: 1
@@ -1805,9 +4869,9 @@ Objects {
   Name: "Barrier Plastic 01"
   Transform {
     Location {
-      X: 2100
+      X: 2420
       Y: 2650
-      Z: -15
+      Z: -10.069397
     }
     Rotation {
     }
@@ -1844,9 +4908,9 @@ Objects {
   Name: "Barrier Plastic 01"
   Transform {
     Location {
-      X: 1660
+      X: 1920
       Y: 2650
-      Z: -15
+      Z: -10.069458
     }
     Rotation {
     }
@@ -2368,15 +5432,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1353.40662
-            Y: 2671.79834
-            Z: -0.100585938
+            X: 1315
+            Y: 650
+            Z: -40
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -91.5960541
+            Yaw: -91.5960693
           }
         }
         Overrides {
@@ -5368,7 +8432,7 @@ Objects {
     Location {
       X: 3855
       Y: 6960
-      Z: 1230
+      Z: 1250
     }
     Rotation {
     }
@@ -5401,46 +8465,6 @@ Objects {
       AnimationPlaybackRateMultiplier: 1
       PlayOnStartAnimation {
         PlaybackRate: 1
-      }
-    }
-  }
-}
-Objects {
-  Id: 16508599561677994897
-  Name: "Craftsman Part - Window 01 2x"
-  Transform {
-    Location {
-      X: 3505
-      Y: 7800
-      Z: 1150
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3866944689192743613
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
       }
     }
   }
@@ -10285,12 +13309,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18116709823522618958
-    SubobjectId: 7744241776645751409
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7720219196438819020
@@ -11828,12 +14846,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17821097316938801441
-    SubobjectId: 7440835893996100894
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2648498349878283204
@@ -12651,7 +15663,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 16934956479094795360
+        Id: 1036725943543811742
       }
     }
     Overrides {
@@ -12732,7 +15744,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 16934956479094795360
+        Id: 1036725943543811742
       }
     }
     Overrides {
@@ -12807,13 +15819,13 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 4050684096473859852
+        Id: 2272860747802035541
       }
     }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 16934956479094795360
+        Id: 1036725943543811742
       }
     }
     Overrides {
@@ -13222,6 +16234,15 @@ Objects {
       Name: "ma:Shared_Detail1:id"
       AssetReference {
         Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.26000002
+        G: 0.26000002
+        B: 0.26000002
+        A: 1
       }
     }
   }
@@ -16732,7 +19753,7 @@ Objects {
       Z: 276.330902
     }
     Rotation {
-      Pitch: -36.6786461
+      Pitch: -17.479126
     }
     Scale {
       X: 2.96613145
@@ -16785,10 +19806,10 @@ Objects {
     Location {
       X: 280
       Y: 4785
-      Z: 305
+      Z: 365.001923
     }
     Rotation {
-      Pitch: 44.9999924
+      Pitch: -29.6477661
     }
     Scale {
       X: 3.40000033
@@ -17675,6 +20696,69 @@ Objects {
   }
 }
 Objects {
+  Id: 14085532824767933977
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -1245
+      Y: 2615
+      Z: -5
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.2
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 1508733423554432798
   Name: "Wall 02 Mainstreet"
   Transform {
@@ -17826,12 +20910,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5812276448014783132
-    SubobjectId: 13887750939166289571
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10510861825116681658
@@ -17871,12 +20949,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10510861825116681658
-    SubobjectId: 129615243043916165
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -17925,12 +20997,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3217435541428445361
-    SubobjectId: 13597715071888252046
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -17992,12 +21058,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9828866197770160829
-    SubobjectId: 1762399488774747778
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18080,12 +21140,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11585838114070657312
-    SubobjectId: 3520481360719119647
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 3240694358592450442
@@ -18147,12 +21201,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3240694358592450442
-    SubobjectId: 13613021702409884597
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18216,12 +21264,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14218658003680370299
-    SubobjectId: 6143115889277592132
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6573129270480675198
@@ -18284,12 +21326,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6573129270480675198
-    SubobjectId: 14639543752539626817
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15648740543429382324
@@ -18339,12 +21375,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15648740543429382324
-    SubobjectId: 5276274661213891723
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18433,12 +21463,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15965608996956444287
-    SubobjectId: 5585402037552441920
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5897089891293539986
@@ -18478,12 +21502,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 5897089891293539986
-    SubobjectId: 13962501655590720173
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18533,12 +21551,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15370022996778333519
-    SubobjectId: 4998752865949206896
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15831932628660110969
@@ -18578,12 +21590,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15831932628660110969
-    SubobjectId: 5450546991725754950
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18661,12 +21667,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7496641363251202274
-    SubobjectId: 17877886297063191773
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13889449005759556376
@@ -18705,12 +21705,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13889449005759556376
-    SubobjectId: 5824092254966617895
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18759,12 +21753,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6826087625600364219
-    SubobjectId: 14891516947790926468
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13705766573461252314
@@ -18812,12 +21800,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13705766573461252314
-    SubobjectId: 3325560129663030501
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12442985493368864663
@@ -18858,12 +21840,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12442985493368864663
-    SubobjectId: 4376430271613240232
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6751608941444523534
@@ -18902,12 +21878,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6751608941444523534
-    SubobjectId: 14817091039926819377
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -18957,12 +21927,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18029048963730525311
-    SubobjectId: 7648912921956233280
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 372897984087540269
@@ -19002,12 +21966,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 372897984087540269
-    SubobjectId: 10754215452439723538
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -19085,12 +22043,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7569367277127814379
-    SubobjectId: 17949556096536129748
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18116709823522618958
@@ -19130,12 +22082,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18116709823522618958
-    SubobjectId: 7744241776645751409
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -27588,7 +30534,7 @@ Objects {
   Transform {
     Location {
       X: 3425
-      Y: 4300
+      Y: 4305
       Z: 740
     }
     Rotation {
@@ -31545,12 +34491,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 10715327096196196912
-    SubobjectId: 334977747958142479
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 1666511034733514159
@@ -31602,12 +34542,6 @@ Objects {
     }
     DecalBP {
     }
-  }
-  InstanceHistory {
-    SelfId: 1666511034733514159
-    SubobjectId: 9742072903714714000
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -31661,12 +34595,6 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 15355225783598171415
-    SubobjectId: 4975018788829870376
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9316692953382637944
@@ -31705,12 +34633,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9316692953382637944
-    SubobjectId: 1250280671018036551
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -31794,12 +34716,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13959985509020527398
-    SubobjectId: 5884442879146071833
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15518664800950318683
@@ -31829,12 +34745,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 15518664800950318683
-    SubobjectId: 5138385271843228260
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -31872,12 +34782,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 8921715554055035358
-    SubobjectId: 16988180612912768481
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17419109118790825884
@@ -31906,12 +34810,6 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 17419109118790825884
-    SubobjectId: 7038970294951447459
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -31962,12 +34860,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16209737898578670452
-    SubobjectId: 8135444829441560395
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15319720860623407744
@@ -31997,12 +34889,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 15319720860623407744
-    SubobjectId: 4938475928025659071
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -32050,12 +34936,6 @@ Objects {
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
-  }
-  InstanceHistory {
-    SelfId: 13127018165161011204
-    SubobjectId: 2755886573669405755
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -32106,12 +34986,6 @@ Objects {
       IsAttenuationEnabled: true
     }
   }
-  InstanceHistory {
-    SelfId: 6396505769022966111
-    SubobjectId: 14471927484889249120
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 1130018382256903721
@@ -32159,12 +35033,6 @@ Objects {
       Id: 16671922487102006195
     }
   }
-  InstanceHistory {
-    SelfId: 1130018382256903721
-    SubobjectId: 11510295745836444182
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9585084330844831429
@@ -32193,12 +35061,6 @@ Objects {
   }
   NetworkContext {
     Type: Server
-  }
-  InstanceHistory {
-    SelfId: 9585084330844831429
-    SubobjectId: 1519795748432757498
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -32234,12 +35096,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 10780775500069227195
-    SubobjectId: 400657049270924932
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -32294,12 +35150,6 @@ Objects {
       Id: 756228652924012759
     }
   }
-  InstanceHistory {
-    SelfId: 9698517956470429912
-    SubobjectId: 1624224922508862695
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9243241953193159150
@@ -32351,12 +35201,6 @@ Objects {
     }
     DecalBP {
     }
-  }
-  InstanceHistory {
-    SelfId: 9243241953193159150
-    SubobjectId: 1176845576373802449
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -32410,12 +35254,6 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 9519893444863532469
-    SubobjectId: 1445406862562943370
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14964368890354844692
@@ -32468,12 +35306,6 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 14964368890354844692
-    SubobjectId: 6899083057728403499
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5030155656275450764
@@ -32522,12 +35354,6 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 5030155656275450764
-    SubobjectId: 15410432471441385395
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9980093236448224687
@@ -32537,51 +35363,6 @@ Objects {
       X: -725
       Y: 4370
       Z: 250
-    }
-    Rotation {
-      Yaw: 179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11128748032088952967
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-    }
-  }
-}
-Objects {
-  Id: 18114373470648323749
-  Name: "Fantasy Human Guy 1"
-  Transform {
-    Location {
-      X: -1024.41504
-      Y: 2254.46777
-      Z: 105
     }
     Rotation {
       Yaw: 179.999954
@@ -37517,6 +40298,24 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1974155163810516963
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.000274658203
+            Y: -400.000519
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.999939
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13807873696502829725
       value {
         Overrides {
@@ -37582,13 +40381,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 14878324958026659777
-    SubobjectId: 6802692717895814142
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-    WasRoot: true
-  }
 }
 Objects {
   Id: 8050472380687993230
@@ -37618,12 +40410,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 8050472380687993230
-    SubobjectId: 18422938265923401137
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -37659,12 +40445,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12343742482874140226
-    SubobjectId: 4278315360115784317
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -37720,12 +40500,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 374123280430948660
-    SubobjectId: 10746519311638764811
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10029071482566853222
@@ -37779,12 +40553,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10029071482566853222
-    SubobjectId: 1962445895147798105
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -37840,12 +40608,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9637620344631235667
-    SubobjectId: 1562148601243789420
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17659861193114622708
@@ -37899,12 +40661,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17659861193114622708
-    SubobjectId: 7279514042490513099
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -37960,12 +40716,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16589412109093924090
-    SubobjectId: 8514907420484145349
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14964739867045203364
@@ -38019,12 +40769,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14964739867045203364
-    SubobjectId: 6899240692712468891
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38080,12 +40824,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13111679894299157568
-    SubobjectId: 2730415169074485375
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11074409183310105072
@@ -38140,12 +40878,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11074409183310105072
-    SubobjectId: 694219814827537871
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12993686748493761006
@@ -38183,12 +40915,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12993686748493761006
-    SubobjectId: 2612281321425941969
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38237,12 +40963,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17821097316938801441
-    SubobjectId: 7440835893996100894
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38294,12 +41014,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6941377426389638651
-    SubobjectId: 17313755316525883844
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7671108284135508575
@@ -38349,12 +41063,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7671108284135508575
-    SubobjectId: 18043435594656577120
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38406,12 +41114,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17837373173200221980
-    SubobjectId: 7465135439859321635
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14383915227069244106
@@ -38462,12 +41164,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14383915227069244106
-    SubobjectId: 6309411089215626997
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17821097316938801441
@@ -38515,12 +41211,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17821097316938801441
-    SubobjectId: 7440835893996100894
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38572,12 +41262,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18336790417644566784
-    SubobjectId: 7956511436806374719
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6079357121405162974
@@ -38626,12 +41310,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6079357121405162974
-    SubobjectId: 14144784244438231521
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4210881259536874455
@@ -38678,12 +41356,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4210881259536874455
-    SubobjectId: 12277489292487133160
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38733,12 +41405,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1030093019146904601
-    SubobjectId: 11410372548388231206
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38790,12 +41456,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4773949851965219436
-    SubobjectId: 15155196984659975763
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16466560134758022831
@@ -38844,12 +41504,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16466560134758022831
-    SubobjectId: 8401060994046804624
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -38901,12 +41555,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17694300256871128142
-    SubobjectId: 7321904191297347697
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2825299554574949766
@@ -38941,12 +41589,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 2825299554574949766
-    SubobjectId: 13197538938200433081
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5380119726196104905
@@ -38975,12 +41617,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 5380119726196104905
-    SubobjectId: 15760469107778872054
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10535695536693506090
@@ -39008,12 +41644,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 10535695536693506090
-    SubobjectId: 154290074183797781
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39050,12 +41680,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 7155287539922387478
-    SubobjectId: 17536693001551265321
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39107,12 +41731,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17945672855950753176
-    SubobjectId: 7573294417054826919
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4709436144565551783
@@ -39162,12 +41780,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4709436144565551783
-    SubobjectId: 15080635940146249368
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39219,12 +41831,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5617195958573829259
-    SubobjectId: 15989503480177717428
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17310184064706122077
@@ -39274,12 +41880,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17310184064706122077
-    SubobjectId: 6928869347137908066
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39331,12 +41931,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7864999687802689197
-    SubobjectId: 18245347421269355154
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13696779859453836465
@@ -39386,12 +41980,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13696779859453836465
-    SubobjectId: 3316573414305071246
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39443,12 +42031,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10575976036813757816
-    SubobjectId: 204636085576474951
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15137519575180404274
@@ -39499,12 +42081,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15137519575180404274
-    SubobjectId: 4756131740432898573
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12493815059478834800
@@ -39548,12 +42124,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12493815059478834800
-    SubobjectId: 4427209809677881935
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13698902224141912639
@@ -39593,12 +42163,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13698902224141912639
-    SubobjectId: 3318642452882617856
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39674,12 +42238,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15424798479762593704
-    SubobjectId: 5052349637905410967
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6607474064260423550
@@ -39731,12 +42289,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6607474064260423550
-    SubobjectId: 14672762646337004353
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16747612608975844851
@@ -39787,12 +42339,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16747612608975844851
-    SubobjectId: 8680989182996990412
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -39868,12 +42414,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 842440194630010955
-    SubobjectId: 11214697136543118452
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10364815229391997877
@@ -39925,12 +42465,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10364815229391997877
-    SubobjectId: 2289325927976990602
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7993372931335164635
@@ -39981,12 +42515,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7993372931335164635
-    SubobjectId: 18373634320043896548
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40061,12 +42589,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 872915922695211931
-    SubobjectId: 11245296045285390244
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7094683247465398100
@@ -40115,12 +42637,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7094683247465398100
-    SubobjectId: 17466940225690665835
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40178,12 +42694,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13464439723931779795
-    SubobjectId: 3083037008932388588
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40258,12 +42768,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17428978979741577141
-    SubobjectId: 7057779769423680394
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4608406456382073079
@@ -40312,12 +42816,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4608406456382073079
-    SubobjectId: 12674870999768224968
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40391,12 +42889,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17353566053531938722
-    SubobjectId: 6973306314090648477
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 3703095394781864649
@@ -40446,12 +42938,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3703095394781864649
-    SubobjectId: 11778708391311662838
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15459754671212590528
@@ -40497,12 +42983,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15459754671212590528
-    SubobjectId: 5088642835555486207
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40578,12 +43058,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17230581535408387867
-    SubobjectId: 9155039420795783972
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15850146973651768393
@@ -40635,12 +43109,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15850146973651768393
-    SubobjectId: 5468885029762361462
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11930898808526309266
@@ -40691,12 +43159,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11930898808526309266
-    SubobjectId: 3855494717182016429
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40770,12 +43232,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17410732843901846563
-    SubobjectId: 7029327382463903772
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6441428996247699294
@@ -40827,12 +43283,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6441428996247699294
-    SubobjectId: 14517042027950916449
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7227118316311541206
@@ -40883,12 +43333,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7227118316311541206
-    SubobjectId: 17607254392638474729
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -40945,12 +43389,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2414003868846484705
-    SubobjectId: 12795336766006726878
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41024,12 +43462,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8307541799848470177
-    SubobjectId: 16381905234911140510
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 368458704698403721
@@ -41079,12 +43511,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 368458704698403721
-    SubobjectId: 10740925103104726966
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7344874050529975153
@@ -41130,12 +43556,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7344874050529975153
-    SubobjectId: 17725136021877827406
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41183,12 +43603,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6737302321747847754
-    SubobjectId: 14802731094182532725
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17219277697830281772
@@ -41234,12 +43648,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17219277697830281772
-    SubobjectId: 9143785613410573843
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41295,12 +43703,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1176976967904464426
-    SubobjectId: 9243390937111196181
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41383,12 +43785,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 16131413172879906934
-    SubobjectId: 5750009944833303625
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4764292772358218627
@@ -41418,12 +43814,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 4764292772358218627
-    SubobjectId: 15135545345361027004
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41461,12 +43851,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 16407785688777394250
-    SubobjectId: 8333422251701466229
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 3262855043361982708
@@ -41495,12 +43879,6 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 3262855043361982708
-    SubobjectId: 13642973492214117579
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41539,12 +43917,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 616394826478670148
-    SubobjectId: 10997709546263588219
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10253428866664778493
@@ -41574,12 +43946,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 10253428866664778493
-    SubobjectId: 2186803827726530242
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41627,12 +43993,6 @@ Objects {
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
-  }
-  InstanceHistory {
-    SelfId: 6116541778664136523
-    SubobjectId: 14190907379394831220
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41683,12 +44043,6 @@ Objects {
       IsAttenuationEnabled: true
     }
   }
-  InstanceHistory {
-    SelfId: 4732407685281795266
-    SubobjectId: 15113670175982629117
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17198579208444427612
@@ -41736,12 +44090,6 @@ Objects {
       Id: 321472518781775172
     }
   }
-  InstanceHistory {
-    SelfId: 17198579208444427612
-    SubobjectId: 9133240599391977827
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2809183046071646338
@@ -41770,12 +44118,6 @@ Objects {
   }
   NetworkContext {
     Type: Server
-  }
-  InstanceHistory {
-    SelfId: 2809183046071646338
-    SubobjectId: 13181561518320682173
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41811,12 +44153,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 8183402563720260426
-    SubobjectId: 16249867075034666869
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41870,12 +44206,6 @@ Objects {
     ScriptAsset {
       Id: 1031736639489708352
     }
-  }
-  InstanceHistory {
-    SelfId: 3062435673556977819
-    SubobjectId: 13433565068307068068
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -41931,12 +44261,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3527129285906444055
-    SubobjectId: 11592415118532825896
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13681899243036044243
@@ -41977,12 +44301,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13681899243036044243
-    SubobjectId: 3300495979480455148
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16794271833567059176
@@ -42015,12 +44333,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 16794271833567059176
-    SubobjectId: 8719905683355214039
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42061,12 +44373,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12753409292673578660
-    SubobjectId: 2373220437697596059
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9595218495308509489
@@ -42105,12 +44411,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9595218495308509489
-    SubobjectId: 1529949703298338062
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42163,12 +44463,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5714297771889466242
-    SubobjectId: 16095630632467031997
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8270241184634265294
@@ -42207,12 +44501,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8270241184634265294
-    SubobjectId: 16345715678335902449
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42265,12 +44553,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9494566338316534630
-    SubobjectId: 1427940714597973849
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6682130604645130570
@@ -42301,12 +44583,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 6682130604645130570
-    SubobjectId: 14747559410099510645
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42358,12 +44634,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 5664272185561046442
-    SubobjectId: 16035595126368444821
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42424,12 +44694,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3718056406907398308
-    SubobjectId: 11784611660814374043
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 545340565909587666
@@ -42461,12 +44725,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 545340565909587666
-    SubobjectId: 10917597540848646893
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42503,12 +44761,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 8027236973621687078
-    SubobjectId: 18407355423545544473
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42560,12 +44812,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10680572672489813902
-    SubobjectId: 300453670593432497
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12778908341772357524
@@ -42615,12 +44861,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12778908341772357524
-    SubobjectId: 2397502877054464939
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42672,12 +44912,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 780435484283060804
-    SubobjectId: 11152813407841664635
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17532112061111949787
@@ -42727,12 +44961,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17532112061111949787
-    SubobjectId: 7159872676012205540
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42784,12 +45012,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9366189760982316784
-    SubobjectId: 1290574531262450383
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2840785393658453222
@@ -42839,12 +45061,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2840785393658453222
-    SubobjectId: 13222029779058925785
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -42896,12 +45112,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 1091407443529111060
-    SubobjectId: 11472669422181018155
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2872651201720663623
@@ -42952,12 +45162,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2872651201720663623
-    SubobjectId: 13245047231527535224
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 679590524426018378
@@ -42998,12 +45202,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 679590524426018378
-    SubobjectId: 11059726601837257333
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43071,12 +45269,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7646562767062765623
-    SubobjectId: 18017887357148195848
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43152,12 +45344,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11170880010350477615
-    SubobjectId: 798431716965563664
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10629946661244273083
@@ -43209,12 +45395,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10629946661244273083
-    SubobjectId: 258747449844202884
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10801674862355788556
@@ -43265,12 +45445,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10801674862355788556
-    SubobjectId: 429296939862544179
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43359,12 +45533,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4366489524968295834
-    SubobjectId: 12432901810218594725
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7392367844642204934
@@ -43416,12 +45584,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7392367844642204934
-    SubobjectId: 17763496720777072953
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11918851555157914648
@@ -43472,12 +45634,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11918851555157914648
-    SubobjectId: 3853441992367032359
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43553,12 +45709,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 558070727678890772
-    SubobjectId: 10929324915723661099
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8236828342450515281
@@ -43607,12 +45757,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8236828342450515281
-    SubobjectId: 16311333032477921646
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43671,12 +45815,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3102963715138108103
-    SubobjectId: 13483100309084129016
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43752,12 +45890,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5909265779580014753
-    SubobjectId: 13984667153281707166
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12482883764144109675
@@ -43806,12 +45938,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12482883764144109675
-    SubobjectId: 4408590694874874964
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -43899,12 +46025,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18268301442176559972
-    SubobjectId: 7896043916147840859
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13384328485917592429
@@ -43954,12 +46074,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13384328485917592429
-    SubobjectId: 3002993425639438162
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6079144492398359611
@@ -44006,12 +46120,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6079144492398359611
-    SubobjectId: 14145556777784952836
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44087,12 +46195,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8365319588034907699
-    SubobjectId: 16430816564139323916
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5198322838780961820
@@ -44144,12 +46246,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5198322838780961820
-    SubobjectId: 15579726066825435171
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14841245191260935431
@@ -44200,12 +46296,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14841245191260935431
-    SubobjectId: 6765770700176615736
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44292,12 +46382,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13280967421474936604
-    SubobjectId: 2908499374673521443
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17087173062533335684
@@ -44349,12 +46433,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17087173062533335684
-    SubobjectId: 9021761299242858171
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2429009592053276226
@@ -44405,12 +46483,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2429009592053276226
-    SubobjectId: 12801475475466281597
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44498,12 +46570,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7208265001595924558
-    SubobjectId: 17589529175991094385
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17483917144643755043
@@ -44552,12 +46618,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17483917144643755043
-    SubobjectId: 7111521662579417116
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44629,12 +46689,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2436707185220616135
-    SubobjectId: 12808946534819791864
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17200632439432214504
@@ -44681,12 +46735,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17200632439432214504
-    SubobjectId: 9126128300638997463
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44735,12 +46783,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3296741781264764217
-    SubobjectId: 13678004271955144966
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10738362211909216635
@@ -44787,12 +46829,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10738362211909216635
-    SubobjectId: 365982126027527492
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44861,12 +46897,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 696834643050129057
-    SubobjectId: 11077111455867247262
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -44949,12 +46979,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 16506461005116694236
-    SubobjectId: 8430971118579458787
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5520259346495158101
@@ -44984,12 +47008,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 5520259346495158101
-    SubobjectId: 15891390972413561706
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45027,12 +47045,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 6808855033668167101
-    SubobjectId: 14875249726793128322
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12214184646606836578
@@ -45061,12 +47073,6 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 12214184646606836578
-    SubobjectId: 4148916403012317021
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45105,12 +47111,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5678025261129785211
-    SubobjectId: 16059287204010468164
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2535067113116365229
@@ -45140,12 +47140,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 2535067113116365229
-    SubobjectId: 12915258715929808274
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45193,12 +47187,6 @@ Objects {
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
-  }
-  InstanceHistory {
-    SelfId: 17930908637258297952
-    SubobjectId: 7549452595871567455
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45249,12 +47237,6 @@ Objects {
       IsAttenuationEnabled: true
     }
   }
-  InstanceHistory {
-    SelfId: 16485060928379314464
-    SubobjectId: 8418594219591507231
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 403626993662162690
@@ -45302,12 +47284,6 @@ Objects {
       Id: 321472518781775172
     }
   }
-  InstanceHistory {
-    SelfId: 403626993662162690
-    SubobjectId: 10775866893881117501
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12188849884987902322
@@ -45336,12 +47312,6 @@ Objects {
   }
   NetworkContext {
     Type: Server
-  }
-  InstanceHistory {
-    SelfId: 12188849884987902322
-    SubobjectId: 4122226462031033677
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45377,12 +47347,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 5074940542448965349
-    SubobjectId: 15456255847414819546
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45437,12 +47401,6 @@ Objects {
       Id: 1031736639489708352
     }
   }
-  InstanceHistory {
-    SelfId: 4098720103260390177
-    SubobjectId: 12174352890806566686
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16207527761325536421
@@ -45476,12 +47434,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 16207527761325536421
-    SubobjectId: 8142189151333632154
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45522,12 +47474,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 1906142972160433896
-    SubobjectId: 9971413414585180887
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4399466285467026623
@@ -45566,12 +47512,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4399466285467026623
-    SubobjectId: 12473952831134578816
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45624,12 +47564,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8903322788713494401
-    SubobjectId: 16977618022505679806
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16562581394047898929
@@ -45668,12 +47602,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16562581394047898929
-    SubobjectId: 8487162427965237518
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45726,12 +47654,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10041062955354537470
-    SubobjectId: 1966785280126828993
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4173096998017318561
@@ -45762,12 +47684,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 4173096998017318561
-    SubobjectId: 12248586851467838110
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45819,12 +47735,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7829743582113925955
-    SubobjectId: 18211078091556222844
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -45885,12 +47795,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14188485788776342489
-    SubobjectId: 6122021244249432038
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10319413324503807418
@@ -45923,12 +47827,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 10319413324503807418
-    SubobjectId: 2244906949909645701
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9329598603517698710
@@ -45959,12 +47857,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9329598603517698710
-    SubobjectId: 1255111470588878505
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46023,12 +47915,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2235910289250811775
-    SubobjectId: 10310399584697811776
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2665004318310959732
@@ -46078,12 +47964,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2665004318310959732
-    SubobjectId: 13036115568973739595
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15148999122712276860
@@ -46119,12 +47999,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 15148999122712276860
-    SubobjectId: 4768862528965497667
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46176,12 +48050,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15951950343999552970
-    SubobjectId: 5580768175166030325
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18168256324843102595
@@ -46231,12 +48099,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18168256324843102595
-    SubobjectId: 7796000997839773116
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46288,12 +48150,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13254730018777876851
-    SubobjectId: 2873344931456791884
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6019891077062521272
@@ -46343,12 +48199,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6019891077062521272
-    SubobjectId: 14094184695206645127
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46400,12 +48250,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12333714952072582301
-    SubobjectId: 4267232263389128866
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15241320072454890531
@@ -46455,12 +48299,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15241320072454890531
-    SubobjectId: 4870188481900746780
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46512,12 +48350,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12985307788284066357
-    SubobjectId: 2605189336481138186
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16697705108528639228
@@ -46568,12 +48400,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16697705108528639228
-    SubobjectId: 8622215255218704579
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18237456580899255683
@@ -46614,12 +48440,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 18237456580899255683
-    SubobjectId: 7857127023809710524
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46695,12 +48515,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11746331176479914641
-    SubobjectId: 3679775954726454958
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9299604493123112998
@@ -46752,12 +48566,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9299604493123112998
-    SubobjectId: 1233067414114675737
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7442342713470715425
@@ -46808,12 +48616,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7442342713470715425
-    SubobjectId: 17823815761722047006
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -46889,12 +48691,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4890053603188205039
-    SubobjectId: 15262308344542927312
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8419956811585384845
@@ -46946,12 +48742,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8419956811585384845
-    SubobjectId: 16486512064487853490
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 1201463190491174679
@@ -47001,12 +48791,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1201463190491174679
-    SubobjectId: 9276884321170352936
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47082,12 +48866,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 1984889900103809476
-    SubobjectId: 10059308313824347643
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16739222550936891180
@@ -47136,12 +48914,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16739222550936891180
-    SubobjectId: 8673866347410477843
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47217,12 +48989,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8943530603031432737
-    SubobjectId: 17009995697188434462
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15277768152242673576
@@ -47271,12 +49037,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15277768152242673576
-    SubobjectId: 4906637108223126423
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47335,12 +49095,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14431592595062697326
-    SubobjectId: 6365055516112998737
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47415,12 +49169,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11179325734195334054
-    SubobjectId: 808001142709057433
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10825274612931142201
@@ -47469,12 +49217,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10825274612931142201
-    SubobjectId: 444009886699773446
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47530,12 +49272,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8836252627400417864
-    SubobjectId: 16911796939819884151
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47618,12 +49354,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 1639421196071365169
-    SubobjectId: 9714842327629207054
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15668050645220914315
@@ -47653,12 +49383,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 15668050645220914315
-    SubobjectId: 5287912370942249140
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47696,12 +49420,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 2492181876653727670
-    SubobjectId: 12863524573580911497
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9433413480929148647
@@ -47730,12 +49448,6 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 9433413480929148647
-    SubobjectId: 1366946738387632856
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47774,12 +49486,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12352580886249418439
-    SubobjectId: 4287224100897542904
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 1488698356781058539
@@ -47809,12 +49515,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 1488698356781058539
-    SubobjectId: 9564099699279164884
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47862,12 +49562,6 @@ Objects {
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
-  }
-  InstanceHistory {
-    SelfId: 84118952046398565
-    SubobjectId: 10464308321208397914
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -47918,12 +49612,6 @@ Objects {
       IsAttenuationEnabled: true
     }
   }
-  InstanceHistory {
-    SelfId: 14325912858265583361
-    SubobjectId: 6259357604163486526
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17616261638569473220
@@ -47971,12 +49659,6 @@ Objects {
       Id: 321472518781775172
     }
   }
-  InstanceHistory {
-    SelfId: 17616261638569473220
-    SubobjectId: 7236125597734717691
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5858668462122052306
@@ -48005,12 +49687,6 @@ Objects {
   }
   NetworkContext {
     Type: Server
-  }
-  InstanceHistory {
-    SelfId: 5858668462122052306
-    SubobjectId: 13933084638978332397
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48046,12 +49722,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 14706658253185738270
-    SubobjectId: 6632362472724699681
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48105,12 +49775,6 @@ Objects {
     ScriptAsset {
       Id: 1031736639489708352
     }
-  }
-  InstanceHistory {
-    SelfId: 8702623842044824111
-    SubobjectId: 16778027383490721296
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48185,12 +49849,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17706589610202139752
-    SubobjectId: 7325131369932681303
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8161817817899977131
@@ -48239,12 +49897,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8161817817899977131
-    SubobjectId: 16237433012180039060
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48318,12 +49970,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17695509000786513942
-    SubobjectId: 7314262415297440809
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8005045735985108911
@@ -48375,12 +50021,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8005045735985108911
-    SubobjectId: 18376318066317667216
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10518725637598545099
@@ -48430,12 +50070,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10518725637598545099
-    SubobjectId: 137479055322380532
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48511,12 +50145,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14635473395419310372
-    SubobjectId: 6559999486170830107
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16283044709107519197
@@ -48568,12 +50196,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16283044709107519197
-    SubobjectId: 8208539984999264994
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15331872186080629914
@@ -48624,12 +50246,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15331872186080629914
-    SubobjectId: 4960620164981188773
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48688,12 +50304,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5334795432716440457
-    SubobjectId: 15716271229467914166
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6810062694229207915
@@ -48740,12 +50350,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6810062694229207915
-    SubobjectId: 14884496497700443988
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48794,12 +50398,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6643801202248251189
-    SubobjectId: 14709298142986177290
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6944807780375586076
@@ -48847,12 +50445,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6944807780375586076
-    SubobjectId: 17326052166379968803
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14955699205153502729
@@ -48899,12 +50491,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14955699205153502729
-    SubobjectId: 6890288027186547254
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -48960,12 +50546,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16873626929421072569
-    SubobjectId: 8807144276640875654
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7848126736684687254
@@ -48998,12 +50578,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 7848126736684687254
-    SubobjectId: 18228404068177863593
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49044,12 +50618,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6263547661048095995
-    SubobjectId: 14339177733170452676
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49103,12 +50671,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5195304273129038538
-    SubobjectId: 15567541972447796981
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18137509490826379295
@@ -49148,12 +50710,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18137509490826379295
-    SubobjectId: 7757179386120076320
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49207,12 +50763,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2831342566118421771
-    SubobjectId: 13211479194552142132
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11760496097662434988
@@ -49253,12 +50803,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11760496097662434988
-    SubobjectId: 3686132112988668563
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7752731037550139306
@@ -49288,12 +50832,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 7752731037550139306
-    SubobjectId: 18123983027578252181
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49339,12 +50877,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 5634469332835345500
-    SubobjectId: 16006850002822060131
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49400,12 +50932,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8021973948505821662
-    SubobjectId: 18393175358794919393
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9777155553492979397
@@ -49451,12 +50977,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 9777155553492979397
-    SubobjectId: 1710530481277055738
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16576491186272668440
@@ -49496,12 +51016,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16576491186272668440
-    SubobjectId: 8510096492948485927
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49543,12 +51057,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15619016123254163804
-    SubobjectId: 5247693216739308899
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4145081883456928860
@@ -49588,12 +51096,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4145081883456928860
-    SubobjectId: 12219430474699472995
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49635,12 +51137,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3228080931445197988
-    SubobjectId: 13609345658616033435
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17932136755264896745
@@ -49680,12 +51176,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17932136755264896745
-    SubobjectId: 7550801660627043030
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49727,12 +51217,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11288249048444524254
-    SubobjectId: 915783199391328993
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12158743640237766512
@@ -49772,12 +51256,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12158743640237766512
-    SubobjectId: 4084450056646265679
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49819,12 +51297,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10614083443142834099
-    SubobjectId: 242813827298806668
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 538608713934149317
@@ -49864,12 +51336,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 538608713934149317
-    SubobjectId: 10911074564866403066
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -49911,12 +51377,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 805656863962654626
-    SubobjectId: 11185866024728239005
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17170802672916497615
@@ -49956,12 +51416,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17170802672916497615
-    SubobjectId: 9104197389091404016
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50003,12 +51457,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2251454380457958634
-    SubobjectId: 10316810584655487189
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4703655173860813621
@@ -50048,12 +51496,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4703655173860813621
-    SubobjectId: 15083914362273273610
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50095,12 +51537,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8232205059649653926
-    SubobjectId: 16297616272848826521
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 3135176368112655221
@@ -50140,12 +51576,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3135176368112655221
-    SubobjectId: 13515314643741779786
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50187,12 +51617,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6710815554172274488
-    SubobjectId: 14786428583862221575
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6344713799781934349
@@ -50233,12 +51657,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6344713799781934349
-    SubobjectId: 14420133282074433842
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4219646854027543279
@@ -50278,12 +51696,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 4219646854027543279
-    SubobjectId: 12294082825643687632
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50339,12 +51751,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 561675361672412919
-    SubobjectId: 10941796043704124104
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8446351839454496041
@@ -50398,12 +51804,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8446351839454496041
-    SubobjectId: 16511622829355563286
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50459,12 +51859,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 421959997485116186
-    SubobjectId: 10793284587436283685
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18193817966402481139
@@ -50518,12 +51912,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18193817966402481139
-    SubobjectId: 7813468619313698764
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50579,12 +51967,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9485874021948289252
-    SubobjectId: 1420588188438990043
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12277050484808665177
@@ -50638,12 +52020,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12277050484808665177
-    SubobjectId: 4211623330578314342
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50699,12 +52075,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6206276003348494553
-    SubobjectId: 14281889001832891622
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17547489960564325002
@@ -50758,12 +52128,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17547489960564325002
-    SubobjectId: 7176306108984428213
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50819,12 +52183,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18357521999241715135
-    SubobjectId: 7985284262476145024
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15166264144536993426
@@ -50878,12 +52236,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15166264144536993426
-    SubobjectId: 4785934039763518125
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -50939,12 +52291,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15177071332178480932
-    SubobjectId: 4795665870541271835
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11417948299599835214
@@ -50999,12 +52345,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11417948299599835214
-    SubobjectId: 1037756731011927153
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7892549089426888538
@@ -51055,12 +52395,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7892549089426888538
-    SubobjectId: 18272685683104525157
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -51136,12 +52470,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6121211086203223051
-    SubobjectId: 14186479878479773748
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2293087344320268059
@@ -51195,12 +52523,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2293087344320268059
-    SubobjectId: 10358498556649126692
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -51275,12 +52597,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13859120763803313574
-    SubobjectId: 5784616038484957593
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7703725198701385619
@@ -51354,12 +52670,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7703725198701385619
-    SubobjectId: 18085127914503973804
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14912482121445320134
@@ -51432,12 +52742,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14912482121445320134
-    SubobjectId: 6836937293829003769
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -51530,12 +52834,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16364805559066171780
-    SubobjectId: 8289190364643517883
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10072508381700440016
@@ -51586,12 +52884,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10072508381700440016
-    SubobjectId: 2007149980358722543
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11647084684843526159
@@ -51641,12 +52933,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11647084684843526159
-    SubobjectId: 3580547021711168560
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -51736,12 +53022,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11649176664811874423
-    SubobjectId: 3582711568576631880
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18010088830338981087
@@ -51788,12 +53068,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18010088830338981087
-    SubobjectId: 7629899427897221344
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -51845,12 +53119,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9764921453957203145
-    SubobjectId: 1698298063353100534
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9898512559638167961
@@ -51900,12 +53168,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9898512559638167961
-    SubobjectId: 1823111216938696102
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6676417729950278771
@@ -51954,12 +53216,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6676417729950278771
-    SubobjectId: 14750713511350802508
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52043,12 +53299,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13289066148315799323
-    SubobjectId: 2917864186737910564
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10110013212904704238
@@ -52078,12 +53328,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 10110013212904704238
-    SubobjectId: 2044513524459254993
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52121,12 +53365,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 11836038666152175369
-    SubobjectId: 3769626346609253174
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 3010276214224069110
@@ -52155,12 +53393,6 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 3010276214224069110
-    SubobjectId: 13390555194860953033
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52211,12 +53443,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7051319628158070531
-    SubobjectId: 17422518840898163516
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2394862602929087718
@@ -52246,12 +53472,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 2394862602929087718
-    SubobjectId: 12767189947541379289
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52299,12 +53519,6 @@ Objects {
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
-  }
-  InstanceHistory {
-    SelfId: 16770443469408124257
-    SubobjectId: 8696165278977343838
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52355,12 +53569,6 @@ Objects {
       IsAttenuationEnabled: true
     }
   }
-  InstanceHistory {
-    SelfId: 10691650551279443469
-    SubobjectId: 320378738901393970
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16334304797183165608
@@ -52408,12 +53616,6 @@ Objects {
       Id: 321472518781775172
     }
   }
-  InstanceHistory {
-    SelfId: 16334304797183165608
-    SubobjectId: 8267890866029279383
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14138111916488462447
@@ -52442,12 +53644,6 @@ Objects {
   }
   NetworkContext {
     Type: Server
-  }
-  InstanceHistory {
-    SelfId: 14138111916488462447
-    SubobjectId: 6063745767486778448
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52483,12 +53679,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 15295259462701238605
-    SubobjectId: 4922931603428980082
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52542,12 +53732,6 @@ Objects {
     ScriptAsset {
       Id: 1031736639489708352
     }
-  }
-  InstanceHistory {
-    SelfId: 12060848239179822360
-    SubobjectId: 3995489838851000615
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52640,12 +53824,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8861614476781251156
-    SubobjectId: 16926970712589178475
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13564227241022422705
@@ -52694,12 +53872,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13564227241022422705
-    SubobjectId: 3183967469828145806
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52750,12 +53922,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11049897082919987391
-    SubobjectId: 669760491396191360
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -52808,12 +53974,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11226396855799867081
-    SubobjectId: 855197059086785270
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5278234667239610580
@@ -52865,12 +54025,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5278234667239610580
-    SubobjectId: 15659692320975545579
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9794132350503933726
@@ -52921,12 +54075,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9794132350503933726
-    SubobjectId: 1727647499698711329
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53018,12 +54166,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13240532173505694899
-    SubobjectId: 2859144302106308748
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10120603859103298344
@@ -53073,12 +54215,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10120603859103298344
-    SubobjectId: 2045182692783050519
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53130,23 +54266,17 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8491154613357547863
-    SubobjectId: 16556583966216842600
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17342795562082438114
   Name: "Wall 01 Doorway Mainstreet"
   Transform {
     Location {
-      X: 0.000274658203
-      Y: -400.000519
+      X: 525.000244
+      Y: -400.000153
     }
     Rotation {
-      Yaw: -89.9999619
+      Yaw: -89.9999695
     }
     Scale {
       X: 1
@@ -53223,20 +54353,14 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17342795562082438114
-    SubobjectId: 6971455576496011229
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 17009738589538813752
   Name: "Awning 01 Mainstreet"
   Transform {
     Location {
-      X: 394.99704
-      Y: 55.0007
+      X: 394.996979
+      Y: 370.000092
       Z: 465
     }
     Rotation {
@@ -53275,12 +54399,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17009738589538813752
-    SubobjectId: 8943254288095247111
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53332,12 +54450,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14029109664542174152
-    SubobjectId: 5954604976874051575
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13661357164561496436
@@ -53387,12 +54499,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13661357164561496436
-    SubobjectId: 3279898924151473483
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12092874020971651134
@@ -53441,12 +54547,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12092874020971651134
-    SubobjectId: 4017472128390552577
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53530,12 +54630,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 14959690183840403068
-    SubobjectId: 6884059559554740803
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9802254049935189632
@@ -53565,12 +54659,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9802254049935189632
-    SubobjectId: 1736968182143752895
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53608,12 +54696,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 17236657493254182192
-    SubobjectId: 9162153355264223503
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10714245382268000772
@@ -53642,12 +54724,6 @@ Objects {
   }
   NetworkContext {
     Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 10714245382268000772
-    SubobjectId: 334053815758415419
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53698,12 +54774,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8926747526096940679
-    SubobjectId: 17001164254856483512
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18218192164647188797
@@ -53733,12 +54803,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 18218192164647188797
-    SubobjectId: 7838071479333373186
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53786,12 +54850,6 @@ Objects {
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
-  }
-  InstanceHistory {
-    SelfId: 732157491984570037
-    SubobjectId: 11113560173362375306
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53842,12 +54900,6 @@ Objects {
       IsAttenuationEnabled: true
     }
   }
-  InstanceHistory {
-    SelfId: 12546143891044763280
-    SubobjectId: 4471707338737842863
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 18317407062566416737
@@ -53895,12 +54947,6 @@ Objects {
       Id: 321472518781775172
     }
   }
-  InstanceHistory {
-    SelfId: 18317407062566416737
-    SubobjectId: 7937288576412175710
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13507026300634125606
@@ -53929,12 +54975,6 @@ Objects {
   }
   NetworkContext {
     Type: Server
-  }
-  InstanceHistory {
-    SelfId: 13507026300634125606
-    SubobjectId: 3125763806655359257
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -53970,12 +55010,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 16009128339293019999
-    SubobjectId: 5636730077252412256
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54029,12 +55063,6 @@ Objects {
     ScriptAsset {
       Id: 1031736639489708352
     }
-  }
-  InstanceHistory {
-    SelfId: 4749085023366663647
-    SubobjectId: 15130488287115162080
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54124,12 +55152,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12412169336849543041
-    SubobjectId: 4346689953862341566
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2162283240251014697
@@ -54178,12 +55200,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2162283240251014697
-    SubobjectId: 10237685132695814678
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54234,12 +55250,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12056207111028448
-    SubobjectId: 10392263166579966687
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54331,12 +55341,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8015014950523310817
-    SubobjectId: 18386337891601346270
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 989495030233969637
@@ -54387,12 +55391,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 989495030233969637
-    SubobjectId: 11360626071978168282
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16416120108926111215
@@ -54442,12 +55440,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16416120108926111215
-    SubobjectId: 8341703380172861904
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8833383311517943672
@@ -54496,12 +55488,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8833383311517943672
-    SubobjectId: 16898651589138774855
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54557,12 +55543,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4727232002338880197
-    SubobjectId: 15098574150107956986
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12070873191248725280
@@ -54594,12 +55574,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12070873191248725280
-    SubobjectId: 4005444388019403039
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54641,12 +55615,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 4451973539074900278
-    SubobjectId: 12527605812693007625
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15954839151521992654
@@ -54686,12 +55654,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15954839151521992654
-    SubobjectId: 5582371070216139761
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54746,12 +55708,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8838902588731775226
-    SubobjectId: 16913407310635967685
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 785597867693615840
@@ -54794,12 +55750,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 785597867693615840
-    SubobjectId: 11165945601361598175
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2243323709712408760
@@ -54839,12 +55789,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2243323709712408760
-    SubobjectId: 10318743192405433479
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -54899,12 +55843,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4453245625957725305
-    SubobjectId: 12528858071861381190
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6363847136727488250
@@ -54947,12 +55885,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6363847136727488250
-    SubobjectId: 14430241311377828549
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 1951816371257781148
@@ -54994,12 +55926,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 1951816371257781148
-    SubobjectId: 10017228101195159459
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11361019574969769182
@@ -55040,12 +55966,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11361019574969769182
-    SubobjectId: 988569084977602785
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55097,12 +56017,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8335458122095438847
-    SubobjectId: 16410861662744369088
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2913772894670000039
@@ -55144,12 +56058,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2913772894670000039
-    SubobjectId: 13293962299525526424
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16718019126553186910
@@ -55190,12 +56098,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16718019126553186910
-    SubobjectId: 8651481497849785953
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55254,12 +56156,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4605759395558804442
-    SubobjectId: 12680052430602483685
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8619179519658377067
@@ -55309,12 +56205,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8619179519658377067
-    SubobjectId: 16685576444161540948
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2937101147234404897
@@ -55345,12 +56235,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 2937101147234404897
-    SubobjectId: 13317360336720655902
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55403,12 +56287,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10280817323490016036
-    SubobjectId: 2215390202738575131
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4789857191899218968
@@ -55459,12 +56337,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4789857191899218968
-    SubobjectId: 15162094894514714663
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55517,12 +56389,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15059392601024619216
-    SubobjectId: 4679201032711380719
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 15078679301155663083
@@ -55574,12 +56440,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15078679301155663083
-    SubobjectId: 4706353605802447060
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 5622407875525194610
@@ -55619,12 +56479,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 5622407875525194610
-    SubobjectId: 16002599444920487757
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16518535661997714461
@@ -55658,12 +56512,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 16518535661997714461
-    SubobjectId: 8444189850527993890
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7813691435193921069
@@ -55695,12 +56543,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 7813691435193921069
-    SubobjectId: 18193882453757530642
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55749,12 +56591,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14317672731942711811
-    SubobjectId: 6242268607052320316
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55806,12 +56642,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8848181233887589291
-    SubobjectId: 16922667814990729108
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 11051447731844741801
@@ -55859,12 +56689,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 11051447731844741801
-    SubobjectId: 670130814380803734
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55914,12 +56738,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3360926180771668123
-    SubobjectId: 13742173278441856164
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -55971,12 +56789,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17377598678991131875
-    SubobjectId: 7006414277653342428
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14525652396635733388
@@ -56008,12 +56820,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14525652396635733388
-    SubobjectId: 6451145475777544627
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56065,12 +56871,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2991724964782093459
-    SubobjectId: 13373112835980249260
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9450796974724181151
@@ -56118,12 +56918,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9450796974724181151
-    SubobjectId: 1384171351804580000
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56173,12 +56967,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 362664960746483396
-    SubobjectId: 10743926903562212091
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56230,12 +57018,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7170837951344535033
-    SubobjectId: 17550956951756020166
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2082219666961734204
@@ -56283,12 +57065,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2082219666961734204
-    SubobjectId: 10157849740222850563
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56345,12 +57121,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6403892711532755940
-    SubobjectId: 14469321480410728411
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4740683940556707878
@@ -56405,12 +57175,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4740683940556707878
-    SubobjectId: 15120874959047025689
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56468,12 +57232,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12510367701398676953
-    SubobjectId: 4435949289011911142
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 2575303969104437452
@@ -56524,12 +57282,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2575303969104437452
-    SubobjectId: 12947629115842714867
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56582,12 +57334,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 1240338960149567507
-    SubobjectId: 9305836448833479724
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 16122505334443797403
@@ -56639,12 +57385,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16122505334443797403
-    SubobjectId: 5741188381611399076
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 6500526159262271533
@@ -56695,12 +57435,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6500526159262271533
-    SubobjectId: 14566025883004875794
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -56758,12 +57492,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10592111734461913326
-    SubobjectId: 210777223669064913
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 8437507498552696781
@@ -56820,12 +57548,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8437507498552696781
-    SubobjectId: 16504114946103927794
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 10592106778704690704
@@ -56881,12 +57603,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10592106778704690704
-    SubobjectId: 210773881552880175
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 9240670699690405835
@@ -56920,12 +57636,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 9240670699690405835
-    SubobjectId: 1166181952583685108
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12435693212251001964
@@ -56957,12 +57667,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12435693212251001964
-    SubobjectId: 4361204430044260435
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57011,12 +57715,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13518638770979285784
-    SubobjectId: 3137235506159146791
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57068,12 +57766,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5166079222857883848
-    SubobjectId: 15538528031225715959
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 14606197459368602610
@@ -57121,12 +57813,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14606197459368602610
-    SubobjectId: 6530723549843298253
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57176,12 +57862,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 228513341990808266
-    SubobjectId: 10608720301185062645
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57239,12 +57919,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6177093804423442643
-    SubobjectId: 14243508285670690028
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 13996350810767556745
@@ -57276,12 +57950,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 13996350810767556745
-    SubobjectId: 5922074821652249782
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57333,12 +58001,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9970962578767355683
-    SubobjectId: 1895330342126281500
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 7374485012963672062
@@ -57386,12 +58048,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7374485012963672062
-    SubobjectId: 17745596814128890817
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57441,12 +58097,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7254734516478629825
-    SubobjectId: 17635981651654323198
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57498,12 +58148,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6470416532020118901
-    SubobjectId: 14544903628508838218
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 4349526524042678881
@@ -57551,12 +58195,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4349526524042678881
-    SubobjectId: 12416131772375690846
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -57613,12 +58251,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8266182059701313984
-    SubobjectId: 16331470128873266687
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
-  }
 }
 Objects {
   Id: 12718986077409564719
@@ -57673,12 +58305,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12718986077409564719
-    SubobjectId: 2346519679875556368
-    InstanceId: 7949130692239190340
-    TemplateId: 12269222798214214195
   }
 }
 Objects {
@@ -79982,6 +80608,576 @@ Objects {
   }
 }
 Objects {
+  Id: 8424036024409759214
+  Name: "Group"
+  Transform {
+    Location {
+      X: -3240
+      Y: 1135
+      Z: -69.9998779
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 13271673668854574353
+  ChildIds: 1448183501541644988
+  ChildIds: 13364393307725053281
+  ChildIds: 9568952942671563015
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9568952942671563015
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      Y: 303.75
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 0.5
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8424036024409759214
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 783814044870915271
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13364393307725053281
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      Y: -296.25
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 0.5
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8424036024409759214
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 783814044870915271
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1448183501541644988
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      Y: 103.75
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8424036024409759214
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4232391847469820774
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13271673668854574353
+  Name: "Group"
+  Transform {
+    Location {
+      Y: -111.25
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8424036024409759214
+  ChildIds: 6739329474419834098
+  ChildIds: 7641600878190688829
+  ChildIds: 3782037929325374619
+  ChildIds: 17081282001714775218
+  ChildIds: 8306481910164624462
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8306481910164624462
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -12.0473633
+      Y: 15
+      Z: 0.0692138672
+    }
+    Rotation {
+      Pitch: 0.389880836
+      Yaw: -89.999939
+      Roll: 1.05390109e-06
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.441068709
+      Z: 0.25
+    }
+  }
+  ParentId: 13271673668854574353
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.181516171
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.653000057
+        G: 0.555137098
+        B: 0.469507039
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17081282001714775218
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: -62.4467773
+      Z: 10
+    }
+    Rotation {
+      Pitch: -3.4150944e-05
+      Yaw: -179.999954
+      Roll: -89.9998703
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.250000209
+      Z: 1.57582557
+    }
+  }
+  ParentId: 13271673668854574353
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.295371085
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3782037929325374619
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: -75
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 13271673668854574353
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7641600878190688829
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: 105
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 13271673668854574353
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6739329474419834098
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -12.0473633
+      Y: 15
+      Z: 325
+    }
+    Rotation {
+      Pitch: 0.389880836
+      Yaw: -89.999939
+      Roll: 1.05390109e-06
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.441068709
+      Z: 0.25
+    }
+  }
+  ParentId: 13271673668854574353
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.181516171
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.653000057
+        G: 0.555137098
+        B: 0.469507039
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 974903953674143735
   Name: "Military Propane Tank"
   Transform {
@@ -80124,12 +81320,9 @@ Objects {
   }
   ParentId: 16373807130785117515
   ChildIds: 10995279992681653303
-  ChildIds: 7450357403711454882
   ChildIds: 16221077027844922195
+  ChildIds: 6087327052669193097
   ChildIds: 12925729368106056135
-  ChildIds: 14825085363214799556
-  ChildIds: 8854953285055479743
-  ChildIds: 8869823763403853292
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80138,162 +81331,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 8869823763403853292
-  Name: "Whitebox Wall 01 Window Slot 1x"
-  Transform {
-    Location {
-      Y: 1785
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 0.5
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12560025995829468571
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 8676259161612548826
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 15505603493108819243
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 783814044870915271
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8854953285055479743
-  Name: "Whitebox Wall 01 Window Slot 1x"
-  Transform {
-    Location {
-      Y: 1185
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 0.5
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12560025995829468571
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 8676259161612548826
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 15505603493108819243
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 783814044870915271
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14825085363214799556
-  Name: "Whitebox Wall 01 Window Slot 1x"
-  Transform {
-    Location {
-      Y: 1585
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12560025995829468571
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 8676259161612548826
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 15505603493108819243
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4232391847469820774
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -80351,62 +81388,179 @@ Objects {
   }
 }
 Objects {
-  Id: 16221077027844922195
-  Name: "Cube - bottom aligned"
+  Id: 6087327052669193097
+  Name: "Group"
   Transform {
     Location {
-      X: 5.61987305
-      Y: 1305
-      Z: 437.275452
+      Y: 1481.25
     }
     Rotation {
-      Roll: 89.9999542
     }
     Scale {
-      X: 0.5
-      Y: 0.250000089
-      Z: 1.59549725
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 12560025995829468571
+  ChildIds: 7450357403711454882
+  ChildIds: 14825085363214799556
+  ChildIds: 8854953285055479743
+  ChildIds: 8869823763403853292
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8869823763403853292
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      Y: 303.75
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 0.5
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6087327052669193097
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14181301450008760998
+        Id: 8676259161612548826
       }
     }
     Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 0.125
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 0.535562515
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.635099292
-        B: 0.0500000119
-        A: 1
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15505603493108819243
       }
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 10128884331981734128
+      Id: 783814044870915271
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8854953285055479743
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      Y: -296.25
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 0.5
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6087327052669193097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 783814044870915271
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14825085363214799556
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      Y: 103.75
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6087327052669193097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4232391847469820774
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -80424,7 +81578,7 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      Y: 1370
+      Y: -111.25
       Z: 135
     }
     Rotation {
@@ -80435,7 +81589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12560025995829468571
+  ParentId: 6087327052669193097
   ChildIds: 9311020735353892378
   ChildIds: 9018727506009363847
   ChildIds: 14226106148901662792
@@ -80801,6 +81955,75 @@ Objects {
   }
 }
 Objects {
+  Id: 16221077027844922195
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5.61987305
+      Y: 1305
+      Z: 437.275452
+    }
+    Rotation {
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 0.5
+      Y: 0.250000089
+      Z: 1.59549725
+    }
+  }
+  ParentId: 12560025995829468571
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 10995279992681653303
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
@@ -80841,6 +82064,772 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 2515235952476239543
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17154550733197543547
+  Name: "Group"
+  Transform {
+    Location {
+      X: -955
+      Y: 2645
+      Z: -10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 8130617634107760727
+  ChildIds: 426185111341412830
+  ChildIds: 5328888130528952761
+  ChildIds: 16622676890353614364
+  ChildIds: 10209516611692912281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10209516611692912281
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: 1380
+      Y: 915
+      Z: 85
+    }
+    Rotation {
+      Yaw: 135
+      Roll: 9.74201679
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 17154550733197543547
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16622676890353614364
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: -285.000244
+      Y: 10.1313477
+      Z: 90
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: 9.74197292
+    }
+    Scale {
+      X: 0.3
+      Y: 0.2
+      Z: 0.2
+    }
+  }
+  ParentId: 17154550733197543547
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12295149545954923323
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.213500828
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.697
+        G: 0.697
+        B: 0.697
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5328888130528952761
+  Name: "Foundation 01 Mainstreet"
+  Transform {
+    Location {
+      X: -310
+      Y: -5
+      Z: 535
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.7
+      Z: 1
+    }
+  }
+  ParentId: 17154550733197543547
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 11627215628706112418
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 2.28188038
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 0.77866447
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:color"
+      Color {
+        R: 0.694
+        G: 0.694
+        B: 0.694
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12841693225497865048
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.784666657
+        B: 0.62
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11465882301660868922
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 426185111341412830
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  Transform {
+    Location {
+      X: -309.996338
+      Y: -30.0024414
+      Z: 2.14911938
+    }
+    Rotation {
+      Pitch: 2.04905664e-05
+      Yaw: -9.15527344e-05
+      Roll: -3.05175727e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17154550733197543547
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8676259161612548826
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2515235952476239543
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8130617634107760727
+  Name: "Group"
+  Transform {
+    Location {
+      X: 75
+      Y: -25
+      Z: 140
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17154550733197543547
+  ChildIds: 8037395732413105260
+  ChildIds: 12170398548583608050
+  ChildIds: 5174681678302605258
+  ChildIds: 14647928815571990819
+  ChildIds: 3738075799075918042
+  ChildIds: 8062791782419877439
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8062791782419877439
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: -62.4467697
+      Z: 305
+    }
+    Rotation {
+      Pitch: -3.05175781e-05
+      Yaw: -179.999985
+      Roll: -89.9998474
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.250000209
+      Z: 1.57582557
+    }
+  }
+  ParentId: 8130617634107760727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.295371085
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3738075799075918042
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      X: 0.961914063
+      Y: 13.6827374
+      Z: 15.0001221
+    }
+    Rotation {
+      Pitch: 0.389880836
+      Yaw: -89.999939
+      Roll: 1.05390109e-06
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.441068709
+      Z: 0.25
+    }
+  }
+  ParentId: 8130617634107760727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.181516171
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.653000057
+        G: 0.555137098
+        B: 0.469507039
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14647928815571990819
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5.96191025
+      Y: -63.7640305
+      Z: 24.9309082
+    }
+    Rotation {
+      Pitch: -3.05175781e-05
+      Yaw: -179.999954
+      Roll: -89.9998779
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.250000209
+      Z: 1.57582557
+    }
+  }
+  ParentId: 8130617634107760727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.295371085
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5174681678302605258
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: -75
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 8130617634107760727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12170398548583608050
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 5
+      Y: 105
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 8130617634107760727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14181301450008760998
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.635099292
+        B: 0.0500000119
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8037395732413105260
+  Name: "Rock Block 02"
+  Transform {
+    Location {
+      Y: 14.9999981
+      Z: 325
+    }
+    Rotation {
+      Pitch: 0.389880836
+      Yaw: -89.999939
+      Roll: 1.05390109e-06
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.441068709
+      Z: 0.25
+    }
+  }
+  ParentId: 8130617634107760727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.138497397
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.181516171
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.653000057
+        G: 0.555137098
+        B: 0.469507039
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13739503613467942724
     }
     Teams {
       IsTeamCollisionEnabled: true

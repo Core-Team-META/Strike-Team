@@ -431,6 +431,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15210171892498863686
+  Name: "Bricks Mortar Thick 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_bricks_mortar_001_uv"
+  }
+}
+Assets {
   Id: 14835887402309025688
   Name: "Pyramid - 7-Sided Truncated Hollow Thick"
   PlatformAssetType: 1
@@ -674,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12295149545954923323
+  Name: "Bricks Worn Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_worn_001"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -698,6 +716,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_part_window_001_ref"
+  }
+}
+Assets {
+  Id: 11627215628706112418
+  Name: "Bricks Wall Flat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_wall_flat_001"
   }
 }
 Assets {
@@ -1340,15 +1367,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3866944689192743613
-  Name: "Craftsman Part - Window 01 2x"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_part_window_001_2x"
-  }
-}
-Assets {
   Id: 3804561942186383868
   Name: "Craftsman Stairs 01 150cm"
   PlatformAssetType: 1
@@ -1445,6 +1463,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stucco_tint_001_uv"
+  }
+}
+Assets {
+  Id: 2647109416399480979
+  Name: "Bricks Chunky Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_chunky_001"
   }
 }
 Assets {

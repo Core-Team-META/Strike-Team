@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 1751123364316479961
-  Name: "SAR_PlasterBricks_NoGradientLessBricks"
+  Id: 1526264640232633132
+  Name: "SAR_PlasterBricks_NoGradientLessBricks02"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -9,16 +9,16 @@
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 10863862208740259149
+          Id: 15210171892498863686
         }
       }
       Overrides {
         Name: "material2_scale"
-        Float: 2
+        Float: 0.5
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.148269787
+        Float: 0.380746812
       }
       Overrides {
         Name: "cmpc:Material2"
@@ -46,6 +46,14 @@
         Name: "gradient_falloff"
         Float: 0.203049287
       }
+      Overrides {
+        Name: "u_tiles2"
+        Float: 0
+      }
+      Overrides {
+        Name: "v_tiles2"
+        Float: 0
+      }
     }
     Assets {
       Id: 6620060143328752136
@@ -57,12 +65,12 @@
       }
     }
     Assets {
-      Id: 10863862208740259149
-      Name: "Bricks Mismatched Stone 01"
+      Id: 15210171892498863686
+      Name: "Bricks Mortar Thick 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_brick_stone_mismatch_001"
+        AssetId: "mi_fan_bricks_mortar_001_uv"
       }
     }
   }
