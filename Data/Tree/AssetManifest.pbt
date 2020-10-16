@@ -1,64 +1,91 @@
 ﻿Assets {
-  Id: 16855776306829432893
-  Name: "Plane"
+  Id: 18436779110353119232
+  Name: "Barrier Plastic 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
+    AssetId: "sm_street_barrier_002"
   }
 }
 Assets {
-  Id: 16754690508371648370
-  Name: "Craftsman Part - Window 03"
+  Id: 18284797980705166826
+  Name: "Fantasy Pot Debris 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_part_window_003"
+    AssetId: "sm_prop_fantasy_clay_pot_debris_001_ref"
   }
 }
 Assets {
-  Id: 16469235602445101834
-  Name: "Whitebox Window Insert - Rounded Top"
+  Id: 18060551105007504909
+  Name: "Park Bench"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_winInsert_001_roundTop"
+    AssetId: "sm_park_bench_001"
   }
 }
 Assets {
-  Id: 14835887402309025688
-  Name: "Pyramid - 7-Sided Truncated Hollow Thick"
+  Id: 18060226610933033475
+  Name: "Fantasy Castle Pillar 01 Cap"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_7_sided_truncated_hollow_thick_001"
+    AssetId: "sm_ts_fan_cas_pillar_001_cap"
   }
 }
 Assets {
-  Id: 14119828286639213320
-  Name: "Dodecahedron - Polished"
+  Id: 17416186193098799152
+  Name: "Bush 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_dodecahedron_hq_001"
+    AssetId: "sm_bush_generic_001"
   }
 }
 Assets {
-  Id: 10635704511188767222
-  Name: "Curb 8m"
+  Id: 16274543285047416186
+  Name: "Branches Cluster Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_8m_001"
+    AssetId: "sm_gen_branches_small_001"
   }
 }
 Assets {
-  Id: 10415104586946721638
-  Name: "Cylinder - bottom aligned"
+  Id: 14272986521887390608
+  Name: "Decal Road Sign Symbols"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_roadsigns_001"
+  }
+}
+Assets {
+  Id: 13978055662709018660
+  Name: "Military Hazard Barrel"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_001"
+    AssetId: "sm_prop_mil_barrel_01_ref"
+  }
+}
+Assets {
+  Id: 10293000499676642776
+  Name: "Fantasy Sack Laying"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_sack_003_ref"
+  }
+}
+Assets {
+  Id: 10134057492958128464
+  Name: "Ivy 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ivy_generic_005"
   }
 }
 Assets {
@@ -71,60 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8243311917055672270
-  Name: "Curb 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_4m_001"
-  }
-}
-Assets {
-  Id: 7169757630002721361
-  Name: "Clear Coat 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_clear-coat_001"
-  }
-}
-Assets {
-  Id: 6753872738224760520
-  Name: "Fantasy Castle Bannister 01 - Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_bannister_001_straight"
-  }
-}
-Assets {
-  Id: 6445541368222225009
-  Name: "Ring - Quarter Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_quarter_torus_003"
-  }
-}
-Assets {
-  Id: 5635417991178029864
-  Name: "Rubber Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_rubber_panels_004_uv"
-  }
-}
-Assets {
-  Id: 5540981160775459077
-  Name: "Metal Complex Tech Panel Wall 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_complex_tech_panel_001_uv"
-  }
-}
-Assets {
   Id: 5253811867366632597
   Name: "Grass Tall"
   PlatformAssetType: 1
@@ -134,48 +107,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4054058819891290923
-  Name: "Engine LoFi Generic 02 SFX "
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_engine_loop_02_Cue_ref"
-  }
-}
-Assets {
-  Id: 3998592366905403415
-  Name: "Glass 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
-  }
-}
-Assets {
-  Id: 2513330173715104405
-  Name: "Military Tank Historic Hull 01 Mid"
+  Id: 3433416882178080463
+  Name: "Street Sign - Rectangle"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
-  }
-}
-Assets {
-  Id: 1936447668697306516
-  Name: "Trim 02 Mainstreet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_002_ref"
-  }
-}
-Assets {
-  Id: 1778431521583031773
-  Name: "Pyramid - 4-Sided Truncated Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_truncated_hq_001"
+    AssetId: "sm_street-sign_rectangle_001"
   }
 }
 Assets {
@@ -185,14 +122,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
-  }
-}
-Assets {
-  Id: 1315438047815824613
-  Name: "Military Tank Historic Hatch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_hatch_001_ref"
   }
 }

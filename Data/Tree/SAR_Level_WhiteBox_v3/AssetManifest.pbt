@@ -35,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16855776306829432893
-  Name: "Plane"
-  PlatformAssetType: 1
+  Id: 15435266645019974066
+  Name: "Bricks Layered Stone Floor 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_floor_layered_001"
   }
 }
 Assets {
@@ -167,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_floor_weave_light_001_uv"
+  }
+}
+Assets {
+  Id: 8416062130471792746
+  Name: "9Slice Shipping Container 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_shipping_container001_ref"
   }
 }
 Assets {
