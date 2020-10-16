@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 18436779110353119232
+  Name: "Barrier Plastic 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street_barrier_002"
+  }
+}
+Assets {
   Id: 18379924532194096666
   Name: "Landing 01 4m x 4m Mainstreet"
   PlatformAssetType: 1
@@ -26,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18284797980705166826
+  Name: "Fantasy Pot Debris 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_clay_pot_debris_001_ref"
+  }
+}
+Assets {
   Id: 18203793883226836462
   Name: "Urban Pipe Cap 01"
   PlatformAssetType: 1
@@ -44,12 +62,30 @@ Assets {
   }
 }
 Assets {
+  Id: 18060551105007504909
+  Name: "Park Bench"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_park_bench_001"
+  }
+}
+Assets {
   Id: 18060329028560889226
   Name: "Urban Cinderblock Debris 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_03_ref"
+  }
+}
+Assets {
+  Id: 18060226610933033475
+  Name: "Fantasy Castle Pillar 01 Cap"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_pillar_001_cap"
   }
 }
 Assets {
@@ -104,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_wall_002_ref"
+  }
+}
+Assets {
+  Id: 17416186193098799152
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
   }
 }
 Assets {
@@ -269,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16274543285047416186
+  Name: "Branches Cluster Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_small_001"
+  }
+}
+Assets {
   Id: 16225996946116169271
   Name: "Railing 01 1m Mainstreet"
   PlatformAssetType: 1
@@ -401,6 +455,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_001_window_ref"
+  }
+}
+Assets {
+  Id: 14272986521887390608
+  Name: "Decal Road Sign Symbols"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_roadsigns_001"
   }
 }
 Assets {
@@ -782,6 +845,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10293000499676642776
+  Name: "Fantasy Sack Laying"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_sack_003_ref"
+  }
+}
+Assets {
+  Id: 10134057492958128464
+  Name: "Ivy 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ivy_generic_005"
+  }
+}
+Assets {
   Id: 10128884331981734128
   Name: "Cube - bottom aligned"
   PlatformAssetType: 1
@@ -833,6 +914,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_001"
+  }
+}
+Assets {
+  Id: 9643743770374877205
+  Name: "Military Tank Fuel Container 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_container_001_ref"
   }
 }
 Assets {
@@ -1274,6 +1364,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_part_window_002_ref"
+  }
+}
+Assets {
+  Id: 3433416882178080463
+  Name: "Street Sign - Rectangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street-sign_rectangle_001"
   }
 }
 Assets {
