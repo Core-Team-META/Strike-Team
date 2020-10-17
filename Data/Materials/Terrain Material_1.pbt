@@ -27,26 +27,62 @@
       Overrides {
         Name: "cmp:Material1_Sides"
         AssetReference {
-          Id: 15016852232051002953
+          Id: 3713504403173644544
         }
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 1418982233034104077
+          Id: 16307885738901788481
         }
       }
       Overrides {
         Name: "cmp:Material2_Sides"
         AssetReference {
-          Id: 9906048860044247049
+          Id: 3713504403173644544
         }
       }
       Overrides {
         Name: "cmp:Material3"
         AssetReference {
-          Id: 841534158063459245
+          Id: 3756141379889822314
         }
+      }
+      Overrides {
+        Name: "cmpc:Material3"
+        Color {
+          R: 0.63500005
+          G: 0.575310051
+          B: 0.575310051
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cmp:Material3_Sides"
+        AssetReference {
+          Id: 3756141379889822314
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material3_Sides"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "material2_scale"
+        Float: 1
+      }
+      Overrides {
+        Name: "material3_genmask"
+        Float: 1
+      }
+      Overrides {
+        Name: "material3_scale"
+        Float: 0.5
       }
     }
     Assets {
@@ -86,30 +122,48 @@
       }
     }
     Assets {
-      Id: 15016852232051002953
-      Name: "Bricks Cobblestone Floor Arches 001"
+      Id: 3713504403173644544
+      Name: "Rocky Ground 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_brick_cobblestone_floor_arch_001"
+        AssetId: "rocky_001"
       }
     }
     Assets {
-      Id: 1418982233034104077
-      Name: "Grass Basic"
+      Id: 16307885738901788481
+      Name: "Dirt 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_grass_001_uv"
+        AssetId: "dirt_001"
       }
     }
     Assets {
-      Id: 9906048860044247049
-      Name: "Grass Clumps"
+      Id: 3713504403173644544
+      Name: "Rocky Ground 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_grass_002_uv"
+        AssetId: "rocky_001"
+      }
+    }
+    Assets {
+      Id: 3756141379889822314
+      Name: "Sand 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_sand_001_uv"
+      }
+    }
+    Assets {
+      Id: 3756141379889822314
+      Name: "Sand 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_sand_001_uv"
       }
     }
   }

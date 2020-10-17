@@ -17,7 +17,7 @@
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.0544594117
+        Float: 0
       }
       Overrides {
         Name: "gradient_falloff"

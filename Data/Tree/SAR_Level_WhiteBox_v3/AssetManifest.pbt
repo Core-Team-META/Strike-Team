@@ -134,15 +134,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10863862208740259149
-  Name: "Bricks Mismatched Stone 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_mismatch_001"
-  }
-}
-Assets {
   Id: 10510456914403889366
   Name: "Arch"
   PlatformAssetType: 1
@@ -176,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
+  }
+}
+Assets {
+  Id: 9842143421296066252
+  Name: "Fantasy Castle Stairs 01 - 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001_150cm"
   }
 }
 Assets {
@@ -275,15 +275,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_winSlot1x"
-  }
-}
-Assets {
-  Id: 1950785304427037534
-  Name: "Wedge - Corner-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_002"
   }
 }
 Assets {

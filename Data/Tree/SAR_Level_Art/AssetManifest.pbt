@@ -89,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18044128746290206539
-  Name: "Whitebox Window Insert - Arch Top"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_winInsert_001_archTop"
-  }
-}
-Assets {
   Id: 18033389860248816225
   Name: "Craftsman Interior Door 01"
   PlatformAssetType: 1
@@ -302,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_cracked_001_uv"
+  }
+}
+Assets {
+  Id: 16371622500121573784
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -530,6 +530,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13956636611275209512
+  Name: "Pipe - 4-Sided Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_4_sided_thick_001"
+  }
+}
+Assets {
   Id: 13917357971978040212
   Name: "Sci-fi Cargo Crate 01"
   PlatformAssetType: 1
@@ -647,15 +656,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12922564793841951858
-  Name: "Fantasy Human Gal 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_001_ref"
-  }
-}
-Assets {
   Id: 12878037503987541012
   Name: "Distant War Battle Ambience Loop 02"
   PlatformAssetType: 7
@@ -761,15 +761,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_001_half_window_ref"
-  }
-}
-Assets {
-  Id: 11128748032088952967
-  Name: "Fantasy Human Guy 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_guy_fantasy_001_ref"
   }
 }
 Assets {
@@ -1322,6 +1313,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4516960129496142829
+  Name: "Prism - 3-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hq_001"
+  }
+}
+Assets {
   Id: 4247430867898109902
   Name: "Stucco Tintable"
   PlatformAssetType: 2
@@ -1445,6 +1445,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stucco_001_uv"
+  }
+}
+Assets {
+  Id: 2727467945905195560
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -1580,6 +1589,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_downtown_office_wall_corner_int_003"
+  }
+}
+Assets {
+  Id: 1411445044141844320
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
   }
 }
 Assets {
