@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 17469064793397066371
+  Name: "Hill 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_005"
+  }
+}
+Assets {
   Id: 17091585152308057626
   Name: "Curb 2m"
   PlatformAssetType: 1
@@ -53,12 +62,30 @@ Assets {
   }
 }
 Assets {
+  Id: 16469235602445101834
+  Name: "Whitebox Window Insert - Rounded Top"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_winInsert_001_roundTop"
+  }
+}
+Assets {
   Id: 16456125436832700204
   Name: "Falling Leaves Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_falling_leaves_volume_vfx"
+  }
+}
+Assets {
+  Id: 16442067914662662686
+  Name: "Foundation 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
   }
 }
 Assets {
@@ -104,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_bricks_mortar_001_uv"
+  }
+}
+Assets {
+  Id: 15192972135103277447
+  Name: "Fantasy Castle Trim - Parapet 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_parapet_001"
   }
 }
 Assets {
@@ -161,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13874502513103367460
+  Name: "Awning 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_awning_001_ref"
+  }
+}
+Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
@@ -197,6 +242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13304908840312358092
+  Name: "Fantasy Castle Pillar 01 Top"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_pillar_001_top"
+  }
+}
+Assets {
   Id: 13103517599490266136
   Name: "Stone Railing Curved 6m"
   PlatformAssetType: 1
@@ -221,6 +275,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_disc_001"
+  }
+}
+Assets {
+  Id: 12638322602440850207
+  Name: "Fantasy Castle Trim - Parapet 01 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_parapet_001_4m"
   }
 }
 Assets {
@@ -287,6 +350,24 @@ Assets {
   }
 }
 Assets {
+  Id: 11998078646685907456
+  Name: "Trim Roof Corner 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_003_corner_ref"
+  }
+}
+Assets {
+  Id: 11917278043255778288
+  Name: "Trim Large Brick 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_brick_6m_001"
+  }
+}
+Assets {
   Id: 11905645224756837966
   Name: "AO Recolor Post Process"
   PlatformAssetType: 6
@@ -305,6 +386,24 @@ Assets {
   }
 }
 Assets {
+  Id: 11635162136967954539
+  Name: "Whitebox Floor 01 8m x 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
+  }
+}
+Assets {
+  Id: 11627215628706112418
+  Name: "Bricks Wall Flat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_wall_flat_001"
+  }
+}
+Assets {
   Id: 11541705719099405078
   Name: "Fabric Burlap New 01"
   PlatformAssetType: 2
@@ -320,6 +419,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 11465882301660868922
+  Name: "Trim Top 6m 001"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_top_6m_001"
   }
 }
 Assets {
@@ -359,6 +467,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11128748032088952967
+  Name: "Fantasy Human Guy 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_fantasy_001_ref"
+  }
+}
+Assets {
   Id: 10415104586946721638
   Name: "Cylinder - bottom aligned"
   PlatformAssetType: 1
@@ -374,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_006"
+  }
+}
+Assets {
+  Id: 10341589645857685186
+  Name: "Whitebox Stairs 01 Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001"
   }
 }
 Assets {
@@ -404,12 +530,39 @@ Assets {
   }
 }
 Assets {
+  Id: 9842143421296066252
+  Name: "Fantasy Castle Stairs 01 - 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001_150cm"
+  }
+}
+Assets {
+  Id: 9662723091772095612
+  Name: "Fantasy Castle Door 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_door_001"
+  }
+}
+Assets {
   Id: 9570713371252913165
   Name: "Parallelepiped - Horizontal "
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_parallelepiped_003"
+  }
+}
+Assets {
+  Id: 9536141319314062468
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
   }
 }
 Assets {
@@ -521,6 +674,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7531058706496198656
+  Name: "Whitebox Wall 01 Doorway"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
+  }
+}
+Assets {
   Id: 7006799737943661873
   Name: "Metal Floor Panel 01"
   PlatformAssetType: 2
@@ -617,6 +779,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
+  Id: 5542138581416259037
+  Name: "Trim Crenellated 4m 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_crenellated_6m_003"
   }
 }
 Assets {
@@ -755,6 +926,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3604252656281658198
+  Name: "Whitebox Stairs 01 L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001_L"
+  }
+}
+Assets {
+  Id: 3511944487587149772
+  Name: "Curb 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curb_8m_001"
+  }
+}
+Assets {
   Id: 2937979307963491573
   Name: "Chain Tile 01"
   PlatformAssetType: 1
@@ -782,12 +971,57 @@ Assets {
   }
 }
 Assets {
+  Id: 2647109416399480979
+  Name: "Bricks Chunky Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_chunky_001"
+  }
+}
+Assets {
+  Id: 2515235952476239543
+  Name: "Whitebox Wall 01 Window Slot 1x"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_winSlot1x"
+  }
+}
+Assets {
+  Id: 2372157500114421235
+  Name: "Fantasy Castle Trim - Parapet Corner 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_parapet_001_corner_01"
+  }
+}
+Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 1950785304427037534
+  Name: "Wedge - Corner-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_002"
+  }
+}
+Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
   }
 }
 Assets {
