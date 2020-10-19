@@ -1,13 +1,4 @@
 ﻿Assets {
-  Id: 18436779110353119232
-  Name: "Barrier Plastic 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_street_barrier_002"
-  }
-}
-Assets {
   Id: 18379924532194096666
   Name: "Landing 01 4m x 4m Mainstreet"
   PlatformAssetType: 1
@@ -242,15 +233,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16494569199894755235
-  Name: "Wall Blank Downtown 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_downtown_office_wall_blank_001"
-  }
-}
-Assets {
   Id: 16469235602445101834
   Name: "Whitebox Window Insert - Rounded Top"
   PlatformAssetType: 1
@@ -341,15 +323,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16170193558729157138
-  Name: "Military Propane Tank"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_barrel_02_ref"
-  }
-}
-Assets {
   Id: 16110182342503554212
   Name: "Bush 02"
   PlatformAssetType: 1
@@ -401,24 +374,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_floor_002_ref"
-  }
-}
-Assets {
-  Id: 15435266645019974066
-  Name: "Bricks Layered Stone Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_floor_layered_001"
-  }
-}
-Assets {
-  Id: 15407703558458270810
-  Name: "Wall Blank Downtown 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_downtown_office_wall_blank_002"
   }
 }
 Assets {
@@ -644,15 +599,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_001_ref"
-  }
-}
-Assets {
-  Id: 12922646630225064104
-  Name: "Wall Blank Downtown 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_downtown_office_wall_blank_003"
   }
 }
 Assets {

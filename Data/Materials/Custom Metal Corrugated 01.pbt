@@ -14,6 +14,14 @@
         Name: "rust_amount"
         Float: 0.00601078058
       }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "v_tiles"
+        Float: 1
+      }
     }
     Assets {
       Id: 13171200732535708403

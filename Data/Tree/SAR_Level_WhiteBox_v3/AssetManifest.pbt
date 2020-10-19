@@ -26,12 +26,39 @@ Assets {
   }
 }
 Assets {
+  Id: 17393961314713938594
+  Name: "Wood Planks White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_white_001_uv"
+  }
+}
+Assets {
+  Id: 17167473041082958233
+  Name: "Wedge - Convex Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_hq_001"
+  }
+}
+Assets {
   Id: 16931630116077975102
   Name: "Pillar 01 Mainstreet"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_001_ref"
+  }
+}
+Assets {
+  Id: 16307885738901788481
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
 Assets {
@@ -188,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8856967052442566524
+  Name: "Marble Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_marble_tiles_001_uv"
+  }
+}
+Assets {
   Id: 8831838522590132896
   Name: "Wood Floor Weave Light"
   PlatformAssetType: 2
@@ -242,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4054828314136076149
+  Name: "Wood Siding White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_siding_white_001_uv"
+  }
+}
+Assets {
   Id: 3604252656281658198
   Name: "Whitebox Stairs 01 L"
   PlatformAssetType: 1
@@ -257,6 +302,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tx_gen_whitebox_foundation_001"
+  }
+}
+Assets {
+  Id: 2723232960546970913
+  Name: "Wood Floor Dark"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_floor_dark_001_uv"
   }
 }
 Assets {

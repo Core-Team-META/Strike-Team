@@ -27,7 +27,7 @@
       Overrides {
         Name: "cmp:Material1_Sides"
         AssetReference {
-          Id: 3713504403173644544
+          Id: 10934087791914836081
         }
       }
       Overrides {
@@ -39,7 +39,7 @@
       Overrides {
         Name: "cmp:Material2_Sides"
         AssetReference {
-          Id: 3713504403173644544
+          Id: 16307885738901788481
         }
       }
       Overrides {
@@ -122,12 +122,12 @@
       }
     }
     Assets {
-      Id: 3713504403173644544
-      Name: "Rocky Ground 01"
+      Id: 10934087791914836081
+      Name: "Cliff 03"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "rocky_001"
+        AssetId: "cliff_003"
       }
     }
     Assets {
@@ -140,12 +140,12 @@
       }
     }
     Assets {
-      Id: 3713504403173644544
-      Name: "Rocky Ground 01"
+      Id: 16307885738901788481
+      Name: "Dirt 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "rocky_001"
+        AssetId: "dirt_001"
       }
     }
     Assets {

@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 257782221353076758
-  Name: "SAR_BrickDefaultPlaster"
+  Id: 9524317757610818993
+  Name: "SAR_BrickMixRedWhite"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -10,18 +10,18 @@
         Name: "gradient_color"
         Color {
           R: 0.436000019
-          G: 0.436000019
-          B: 0.436000019
+          G: 0.401287138
+          B: 0.313484
           A: 1
         }
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0
+        Float: 0.0372387841
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.48775813
+        Float: 0.474430829
       }
       Overrides {
         Name: "gradient_worldspace"
@@ -42,25 +42,38 @@
       Overrides {
         Name: "cmp:Material1"
         AssetReference {
-          Id: 15210171892498863686
+          Id: 6796731983360300670
         }
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.549378037
+        Float: 0.324536413
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 2758266643690185227
+          Id: 11627215628706112418
         }
+      }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
+          R: 1
+          G: 0.953907251
+          B: 0.826
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1.34417534
       }
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 0.793049395
-          G: 0.736920059
-          B: 0.890000045
+          R: 0.702
+          G: 0.51561904
+          B: 0.453492045
           A: 1
         }
       }
@@ -75,21 +88,21 @@
       }
     }
     Assets {
-      Id: 15210171892498863686
-      Name: "Bricks Mortar Thick 01"
+      Id: 6796731983360300670
+      Name: "Brick Red Old 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_bricks_mortar_001_uv"
+        AssetId: "mi_brick_red_old_001_uv"
       }
     }
     Assets {
-      Id: 2758266643690185227
-      Name: "Stucco Wall"
+      Id: 11627215628706112418
+      Name: "Bricks Wall Flat 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_001_uv"
+        AssetId: "mi_brick_wall_flat_001"
       }
     }
   }

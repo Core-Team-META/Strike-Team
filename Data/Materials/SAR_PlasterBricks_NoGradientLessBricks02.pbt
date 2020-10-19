@@ -40,11 +40,11 @@
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.271523684
+        Float: 0
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.203049287
+        Float: 0
       }
       Overrides {
         Name: "u_tiles2"

@@ -1,58 +1,58 @@
 ﻿Assets {
-  Id: 8175011540988578628
-  Name: "SAR_PaintOldPipes"
+  Id: 14451728702703606040
+  Name: "SAR_ConcretePanelsPlasterGradient"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
       Overrides {
-        Name: "material2_scale"
-        Float: 2.5171051
-      }
-      Overrides {
-        Name: "blend_amount"
-        Float: 0.536886811
-      }
-      Overrides {
         Name: "gradient_color"
         Color {
-          R: 1
-          G: 1
-          B: 1
+          R: 0.436000019
+          G: 0.401287138
+          B: 0.313484
           A: 1
         }
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.271523684
+        Float: 0.337027609
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.203049287
+        Float: 0.48775813
       }
       Overrides {
-        Name: "cmp:Material2"
-        AssetReference {
-          Id: 7646766915752802364
-        }
+        Name: "gradient_worldspace"
+        Bool: false
       }
       Overrides {
-        Name: "u_tiles2"
+        Name: "roughness_multiplier"
+        Float: 0.707375288
+      }
+      Overrides {
+        Name: "u_offset"
         Float: 0
       }
       Overrides {
-        Name: "rotate_material2"
-        Float: 0.543621302
-      }
-      Overrides {
-        Name: "v_tiles2"
-        Float: 1
+        Name: "v_offset"
+        Float: 0
       }
       Overrides {
         Name: "cmp:Material1"
         AssetReference {
-          Id: 6921744610000133130
+          Id: 4247430867898109902
+        }
+      }
+      Overrides {
+        Name: "blend_amount"
+        Float: 0.249589205
+      }
+      Overrides {
+        Name: "cmp:Material2"
+        AssetReference {
+          Id: 6317093348408192352
         }
       }
     }
@@ -66,21 +66,21 @@
       }
     }
     Assets {
-      Id: 7646766915752802364
-      Name: "Bricks Stone Block 01"
+      Id: 4247430867898109902
+      Name: "Stucco Tintable"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_bricks_stone_block_001"
+        AssetId: "mi_stucco_tint_001_uv"
       }
     }
     Assets {
-      Id: 6921744610000133130
-      Name: "Concrete Panels 01"
+      Id: 6317093348408192352
+      Name: "Concrete Panels 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_panels_001"
+        AssetId: "mi_gen_concrete_panels_002"
       }
     }
   }

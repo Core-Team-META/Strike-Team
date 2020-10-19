@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 696856107140800809
-  Name: "Custom Concrete Panels 02"
+  Name: "ConcretePanels"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {

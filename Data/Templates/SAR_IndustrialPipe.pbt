@@ -1,13 +1,13 @@
 ﻿Assets {
-  Id: 1357543690385142555
-  Name: "SAR_PillarOutSide"
+  Id: 10959928887313729696
+  Name: "SAR_IndustrialPipe"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 2952799863943722561
+      RootId: 9894821115203843469
       Objects {
-        Id: 2952799863943722561
-        Name: "SAR_PillarOutSide"
+        Id: 9894821115203843469
+        Name: "SAR_IndustrialPipe"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,9 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 17504876111679896446
-        ChildIds: 1716865206098062496
-        ChildIds: 8662051476944830060
+        ChildIds: 9264325567487855058
+        ChildIds: 11745680765428085091
+        ChildIds: 1739491987200793448
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -30,45 +30,26 @@
         }
       }
       Objects {
-        Id: 17504876111679896446
-        Name: "Fantasy Castle Pillar 01 Base"
+        Id: 9264325567487855058
+        Name: "Cone - Truncated Wide"
         Transform {
           Location {
-            X: 5
+            Y: 5
           }
           Rotation {
-            Yaw: -90
           }
           Scale {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
+            X: 4.5
+            Y: 4.5
+            Z: 82.4000168
           }
         }
-        ParentId: 2952799863943722561
+        ParentId: 9894821115203843469
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Trim2:id"
-            AssetReference {
-              Id: 15210171892498863686
-            }
-          }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15210171892498863686
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 2831195365620696759
-            }
-          }
-          Overrides {
-            Name: "ma:Building_LowerTrimOuter:id"
-            AssetReference {
-              Id: 1036725943543811742
+              Id: 9524317757610818993
             }
           }
         }
@@ -80,7 +61,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 14452616722762075696
+            Id: 7401668056649956294
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -94,34 +75,26 @@
         }
       }
       Objects {
-        Id: 1716865206098062496
-        Name: "Fantasy Castle Pillar 01 Mid"
+        Id: 11745680765428085091
+        Name: "Cylinder"
         Transform {
           Location {
-            X: 5
-            Z: 475
+            Z: 3930
           }
           Rotation {
-            Yaw: -90
           }
           Scale {
-            X: 0.8
-            Y: 0.8
+            X: 4
+            Y: 4
             Z: 0.5
           }
         }
-        ParentId: 2952799863943722561
+        ParentId: 9894821115203843469
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Trim2:id"
-            AssetReference {
-              Id: 15210171892498863686
-            }
-          }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15210171892498863686
+              Id: 16280113279026806375
             }
           }
         }
@@ -133,7 +106,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 7822473577673662489
+            Id: 16371622500121573784
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -147,28 +120,26 @@
         }
       }
       Objects {
-        Id: 8662051476944830060
-        Name: "Fantasy Castle Pillar 02 - Top"
+        Id: 1739491987200793448
+        Name: "Cylinder"
         Transform {
           Location {
-            X: 5
-            Y: -5
-            Z: 790
+            Z: 3450
           }
           Rotation {
           }
           Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
+            X: 4
+            Y: 4
+            Z: 0.4
           }
         }
-        ParentId: 2952799863943722561
+        ParentId: 9894821115203843469
         UnregisteredParameters {
           Overrides {
-            Name: "ma:Shared_Trim:id"
+            Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 16280113279026806375
             }
           }
         }
@@ -180,7 +151,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 18200200076012147990
+            Id: 16371622500121573784
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -195,39 +166,21 @@
       }
     }
     Assets {
-      Id: 14452616722762075696
-      Name: "Fantasy Castle Pillar 01 Base"
+      Id: 7401668056649956294
+      Name: "Cone - Truncated Wide"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_fan_cas_pillar_001_base"
+        AssetId: "sm_cone_truncated_003"
       }
     }
     Assets {
-      Id: 15210171892498863686
-      Name: "Bricks Mortar Thick 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_bricks_mortar_001_uv"
-      }
-    }
-    Assets {
-      Id: 7822473577673662489
-      Name: "Fantasy Castle Pillar 01 Mid"
+      Id: 16371622500121573784
+      Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_fan_cas_pillar_001_mid"
-      }
-    }
-    Assets {
-      Id: 18200200076012147990
-      Name: "Fantasy Castle Pillar 02 - Top"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_fan_cas_pillar_002_top"
+        AssetId: "sm_cylinder_002"
       }
     }
     PrimaryAssetId {
