@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16855776306829432893
+  Name: "Plane"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_001"
+  }
+}
+Assets {
   Id: 16307885738901788481
   Name: "Dirt 01"
   PlatformAssetType: 2
@@ -86,6 +95,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_001_uv"
+  }
+}
+Assets {
+  Id: 13958279215617601928
+  Name: "9Slice Wooden Crate 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_wooden_crates_001_ref"
   }
 }
 Assets {
@@ -140,15 +158,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
-  }
-}
-Assets {
-  Id: 11691100420648372282
-  Name: "Whitebox Wall 01 Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
   }
 }
 Assets {
@@ -341,12 +350,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1341903260145724511
-  Name: "Whitebox Floor 01 4m x 4m"
-  PlatformAssetType: 1
+  Id: 1021900992666891515
+  Name: "Metal Corrugated 02"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
   }
 }
 Assets {

@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 257782221353076758
-  Name: "SAR_BrickDefaultPlaster"
+  Id: 8173848993185204084
+  Name: "SAR_BrickDefaultPlasterGradient"
   PlatformAssetType: 13
   SerializationVersion: 65
   CustomMaterialAsset {
@@ -17,11 +17,11 @@
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0
+        Float: 0.343273222
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0
+        Float: 0.449448436
       }
       Overrides {
         Name: "gradient_worldspace"
