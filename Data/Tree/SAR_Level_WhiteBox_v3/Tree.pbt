@@ -27148,6 +27148,7 @@ Objects {
     }
   }
   ParentId: 162845132827085145
+  ChildIds: 1507835813773442430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27175,6 +27176,32 @@ Objects {
       Physics {
       }
     }
+  }
+}
+Objects {
+  Id: 1507835813773442430
+  Name: "NewFolder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7631265609298305373
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder"
   }
 }
 Objects {

@@ -16,6 +16,7 @@ Objects {
   }
   ChildIds: 11471976360075692302
   ChildIds: 1280603503854378228
+  ChildIds: 12605585393435046040
   ChildIds: 4565846863626438544
   ChildIds: 15084389731420460127
   ChildIds: 3966018257971206342
@@ -2745,6 +2746,33 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Knar"
+  }
+}
+Objects {
+  Id: 12605585393435046040
+  Name: "PlayerTitles"
+  Transform {
+    Location {
+      Z: -209.259277
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PlayerTitles"
   }
 }
 Objects {
