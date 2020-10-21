@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 18151428822017384440
+  Name: "Trim Crenellated 4m 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_crenellated_6m_001"
+  }
+}
+Assets {
   Id: 17489731258955383362
   Name: "Bricks Red 01"
   PlatformAssetType: 2
@@ -284,15 +293,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_crenellated_6m_002"
-  }
-}
-Assets {
-  Id: 11998078646685907456
-  Name: "Trim Roof Corner 01 Mainstreet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_003_corner_ref"
   }
 }
 Assets {

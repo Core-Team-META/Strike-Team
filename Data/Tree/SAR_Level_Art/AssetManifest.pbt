@@ -143,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17393961314713938594
+  Name: "Wood Planks White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_white_001_uv"
+  }
+}
+Assets {
   Id: 17186211943097161607
   Name: "Damaged Concrete Floor 01"
   PlatformAssetType: 1
@@ -347,6 +356,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_numbers_002"
+  }
+}
+Assets {
+  Id: 15851271444363751188
+  Name: "Whitebox Window Insert - Basic Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_winInsert_001_frame"
   }
 }
 Assets {
@@ -1175,6 +1193,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
+  }
+}
+Assets {
+  Id: 7407234558516877871
+  Name: "Wood Planks Beveled Raised 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
   }
 }
 Assets {

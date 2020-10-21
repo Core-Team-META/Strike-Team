@@ -1,41 +1,7 @@
-﻿Name: "Stuff from Nick"
-RootId: 14957264365764284475
+﻿Name: "PlayerTitles"
+RootId: 12605585393435046040
 Objects {
-  Id: 16302900641549947693
-  Name: "PlayerNameplates (PlayerTitles)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14957264365764284475
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5332119631449535659
-      value {
-        Overrides {
-          Name: "Name"
-          String: "PlayerNameplates (PlayerTitles)"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3311435453803541544
-    }
-  }
-}
-Objects {
-  Id: 11211721966116595270
+  Id: 1782005634663936214
   Name: "Scoreboard (PlayerTitles)"
   Transform {
     Scale {
@@ -44,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14957264365764284475
+  ParentId: 12605585393435046040
   TemplateInstance {
     ParameterOverrideMap {
       key: 10032235820682127814
@@ -69,7 +35,41 @@ Objects {
   }
 }
 Objects {
-  Id: 8747565799088353835
+  Id: 17136767454182996250
+  Name: "PlayerNameplates (PlayerTitles)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12605585393435046040
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5332119631449535659
+      value {
+        Overrides {
+          Name: "Name"
+          String: "PlayerNameplates (PlayerTitles)"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3311435453803541544
+    }
+  }
+}
+Objects {
+  Id: 13333180719839562194
   Name: "PlayerList (PlayerTitles)"
   Transform {
     Scale {
@@ -78,7 +78,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14957264365764284475
+  ParentId: 12605585393435046040
   TemplateInstance {
     ParameterOverrideMap {
       key: 7621446724159773466
