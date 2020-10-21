@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 17186211943097161607
+  Name: "Damaged Concrete Floor 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_floor_001_ref"
+  }
+}
+Assets {
   Id: 17091585152308057626
   Name: "Curb 2m"
   PlatformAssetType: 1
@@ -53,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16542590046639866815
+  Name: "Trim Roof 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_003_ref"
+  }
+}
+Assets {
   Id: 16456125436832700204
   Name: "Falling Leaves Volume VFX"
   PlatformAssetType: 8
@@ -68,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 16245899296389337529
+  Name: "Damaged Concrete Chunk 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
   }
 }
 Assets {
@@ -260,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11998078646685907456
+  Name: "Trim Roof Corner 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_003_corner_ref"
+  }
+}
+Assets {
   Id: 11905645224756837966
   Name: "AO Recolor Post Process"
   PlatformAssetType: 6
@@ -374,6 +410,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 9662723091772095612
+  Name: "Fantasy Castle Door 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_door_001"
   }
 }
 Assets {
@@ -503,6 +548,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6432912761929814416
+  Name: "Craftsman Porch Pillar 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
+  }
+}
+Assets {
   Id: 6388401066989036925
   Name: "Pipe (thin)"
   PlatformAssetType: 1
@@ -611,6 +665,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4693264132494587556
+  Name: "SciFi Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scifi_trim_001_4m"
+  }
+}
+Assets {
   Id: 4679924433031865767
   Name: "Metal Frame 03"
   PlatformAssetType: 2
@@ -683,12 +746,39 @@ Assets {
   }
 }
 Assets {
+  Id: 2647109416399480979
+  Name: "Bricks Chunky Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_chunky_001"
+  }
+}
+Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 1936447668697306516
+  Name: "Trim 02 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_002_ref"
+  }
+}
+Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
   }
 }
 Assets {
