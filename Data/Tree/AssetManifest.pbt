@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 16542590046639866815
+  Name: "Trim Roof 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_003_ref"
+  }
+}
+Assets {
   Id: 16245899296389337529
   Name: "Damaged Concrete Chunk 02"
   PlatformAssetType: 1
@@ -35,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11998078646685907456
+  Name: "Trim Roof Corner 01 Mainstreet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_trim_003_corner_ref"
+  }
+}
+Assets {
   Id: 10128884331981734128
   Name: "Cube - bottom aligned"
   PlatformAssetType: 1
@@ -59,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
+  }
+}
+Assets {
+  Id: 4693264132494587556
+  Name: "SciFi Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scifi_trim_001_4m"
   }
 }
 Assets {

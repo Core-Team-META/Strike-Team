@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18313350111590970000
-  Name: "Urban Cinderblock Debris 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urban_destruction_debris_cinderblock_02_ref"
-  }
-}
-Assets {
   Id: 18292448005538599011
   Name: "Part - Pillar Small Mainstreet"
   PlatformAssetType: 1
@@ -77,15 +68,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_park_bench_001"
-  }
-}
-Assets {
-  Id: 18060329028560889226
-  Name: "Urban Cinderblock Debris 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urban_destruction_debris_cinderblock_03_ref"
   }
 }
 Assets {
@@ -179,15 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17048644064931168072
-  Name: "Scaffold Wood Wall Vertical Planks Damage 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_scaff_wood_wall_v_dmg_001_ref"
-  }
-}
-Assets {
   Id: 16931855142661323466
   Name: "Craftsman Roof 01 Beam"
   PlatformAssetType: 1
@@ -275,15 +248,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_winInsert_001_roundTop"
-  }
-}
-Assets {
-  Id: 16460941369685026325
-  Name: "Damaged Concrete Pillar Bottom 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_pillar_bottom_01_ref"
   }
 }
 Assets {
@@ -674,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13088025716868111825
-  Name: "Rebar Twisted Ends 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_rebar_004_ref"
-  }
-}
-Assets {
   Id: 13084610212546141882
   Name: "Military Fence Gate 01"
   PlatformAssetType: 1
@@ -908,15 +863,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10473249237876545326
-  Name: "sm_trash_can_001"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trash_can_001"
-  }
-}
-Assets {
   Id: 10431978243425830506
   Name: "Arch Fancy 3m"
   PlatformAssetType: 1
@@ -995,15 +941,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_001_uv"
-  }
-}
-Assets {
-  Id: 9865065398478189517
-  Name: "Damaged Concrete Pillar Bottom 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_pillar_bottom_002_ref"
   }
 }
 Assets {
@@ -1187,15 +1124,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8123433948210408284
-  Name: "Road Block 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_road_block_001"
-  }
-}
-Assets {
   Id: 8081775035435034954
   Name: "Wall 02 Half Doorway Mainstreet"
   PlatformAssetType: 1
@@ -1220,15 +1148,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_stair_001_rail"
-  }
-}
-Assets {
-  Id: 7875706399061105465
-  Name: "Damaged Concrete Pillar Top 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_pillar_top_01_ref"
   }
 }
 Assets {
@@ -1301,15 +1220,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_003"
-  }
-}
-Assets {
-  Id: 6425642891952514697
-  Name: "Terrain Desert 4-way Blend"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_4blend_desert_001_wa"
   }
 }
 Assets {
@@ -1472,15 +1382,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_intTrim_001_up"
-  }
-}
-Assets {
-  Id: 4725820830802404452
-  Name: "Damaged Concrete Chunk 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
   }
 }
 Assets {
@@ -1772,15 +1673,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2030021682640723688
-  Name: "Rubble Concrete 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_rubble_002_uv_ref"
-  }
-}
-Assets {
   Id: 2000960576407746609
   Name: "Ivy 04"
   PlatformAssetType: 1
@@ -1814,15 +1706,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_001_half_ref"
-  }
-}
-Assets {
-  Id: 1852528057349867144
-  Name: "Hesco Barrier"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_hesco_001"
   }
 }
 Assets {
