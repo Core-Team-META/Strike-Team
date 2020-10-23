@@ -2,7 +2,7 @@
   Id: 2419904853245225569
   Name: "Metal Basic Steel - Brown"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 14212988502358508072
     ParameterOverrides {

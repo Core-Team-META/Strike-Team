@@ -2,7 +2,7 @@
   Id: 12841693225497865048
   Name: "SAR_PaintOld02_LessWear"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -13,15 +13,6 @@
       Overrides {
         Name: "blend_amount"
         Float: 0.268140614
-      }
-      Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.75000006
-          G: 0.687275052
-          B: 0.605250061
-          A: 1
-        }
       }
       Overrides {
         Name: "gradient_shift"
@@ -71,6 +62,15 @@
       Overrides {
         Name: "mask_scale"
         Float: 1
+      }
+      Overrides {
+        Name: "gradient_color"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
       }
     }
     Assets {

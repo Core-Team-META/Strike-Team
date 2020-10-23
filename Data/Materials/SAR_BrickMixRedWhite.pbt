@@ -2,7 +2,7 @@
   Id: 9524317757610818993
   Name: "SAR_BrickMixRedWhite"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -42,7 +42,7 @@
       Overrides {
         Name: "cmp:Material1"
         AssetReference {
-          Id: 6796731983360300670
+          Id: 8384112962392952594
         }
       }
       Overrides {
@@ -56,26 +56,8 @@
         }
       }
       Overrides {
-        Name: "cmpc:Material1"
-        Color {
-          R: 1
-          G: 0.953907251
-          B: 0.826
-          A: 1
-        }
-      }
-      Overrides {
         Name: "u_tiles"
         Float: 1.34417534
-      }
-      Overrides {
-        Name: "cmpc:Material2"
-        Color {
-          R: 0.702
-          G: 0.51561904
-          B: 0.453492045
-          A: 1
-        }
       }
     }
     Assets {
@@ -88,12 +70,12 @@
       }
     }
     Assets {
-      Id: 6796731983360300670
-      Name: "Brick Red Old 01"
+      Id: 8384112962392952594
+      Name: "Brick Wall Sandstone 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_brick_red_old_001_uv"
+        AssetId: "mi_brick_sandstone_wall_face_001"
       }
     }
     Assets {

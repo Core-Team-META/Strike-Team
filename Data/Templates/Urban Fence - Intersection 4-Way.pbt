@@ -438,5 +438,5 @@
       AssetId: "Urban_Fence_-_Intersection_4-Way"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

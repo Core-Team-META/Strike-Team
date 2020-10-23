@@ -575,5 +575,5 @@
       AssetId: "Mainstreet_Wall_02_Half_Doorway_-_Basic_Template"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

@@ -1,8 +1,8 @@
 ﻿Assets {
   Id: 1526264640232633132
-  Name: "SAR_PlasterBricks_NoGradientLessBricks02"
+  Name: "SAR_PlasterBricks_LessBricks02"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -53,6 +53,10 @@
       Overrides {
         Name: "v_tiles2"
         Float: 0
+      }
+      Overrides {
+        Name: "invert_height"
+        Bool: true
       }
     }
     Assets {

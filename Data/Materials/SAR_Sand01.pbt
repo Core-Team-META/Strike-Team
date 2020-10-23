@@ -2,7 +2,7 @@
   Id: 15671270707563720117
   Name: "SAR_Sand01"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 11216067682808882030
     ParameterOverrides {

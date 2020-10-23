@@ -2,7 +2,7 @@
   Id: 7073292077687017536
   Name: "SAR_PaintOldFloor"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -13,15 +13,6 @@
       Overrides {
         Name: "blend_amount"
         Float: 0.362009674
-      }
-      Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.75000006
-          G: 0.687275052
-          B: 0.605250061
-          A: 1
-        }
       }
       Overrides {
         Name: "gradient_shift"

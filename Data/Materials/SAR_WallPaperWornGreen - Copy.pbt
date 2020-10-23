@@ -2,7 +2,7 @@
   Id: 342000739070501677
   Name: "SAR_WallPaperWornGreen - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

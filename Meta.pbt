@@ -1,5 +1,5 @@
 ﻿GameId: "34253646444D2E3604C92F9573041504"
 DisplayName: "META SA Remix"
-GameSerializationVersion: 65
+GameSerializationVersion: 66
 Framework: "Empty Project"
 StorageVersion: 1

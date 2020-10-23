@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17186211943097161607
-  Name: "Damaged Concrete Floor 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_floor_001_ref"
-  }
-}
-Assets {
   Id: 17091585152308057626
   Name: "Curb 2m"
   PlatformAssetType: 1
@@ -98,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16245899296389337529
-  Name: "Damaged Concrete Chunk 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
-  }
-}
-Assets {
   Id: 16078509291572704976
   Name: "Chain Link 01"
   PlatformAssetType: 2
@@ -149,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crescent_002"
+  }
+}
+Assets {
+  Id: 14791357265404000066
+  Name: "Urban Damaged Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_001_ref"
   }
 }
 Assets {
@@ -665,15 +656,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4693264132494587556
-  Name: "SciFi Trim 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scifi_trim_001_4m"
-  }
-}
-Assets {
   Id: 4679924433031865767
   Name: "Metal Frame 03"
   PlatformAssetType: 2
@@ -782,6 +764,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1465760310458331463
+  Name: "Urban Damaged Wall 01 Half - Vertical 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_half_001_vrt_01_ref"
+  }
+}
+Assets {
   Id: 1411445044141844320
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -806,6 +797,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
+  }
+}
+Assets {
+  Id: 361376666361477953
+  Name: "Urban Damaged Wall 02 Half - Vertical 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_half_002_vrt_01_ref"
   }
 }
 Assets {

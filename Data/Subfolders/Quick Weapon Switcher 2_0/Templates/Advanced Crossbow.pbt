@@ -1099,5 +1099,5 @@
       AssetId: "Advanced_Crossbow"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

@@ -2,7 +2,7 @@
   Id: 890630142870194454
   Name: "SAR_PaintOldWallWornInterior"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

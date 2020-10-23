@@ -165,5 +165,5 @@
       AssetId: "Whitebox_Wall_01_-_Window_2x_Arch_Template"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

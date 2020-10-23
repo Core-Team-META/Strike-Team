@@ -1146,5 +1146,5 @@
       AssetId: "Basic_Assault_Rifle"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

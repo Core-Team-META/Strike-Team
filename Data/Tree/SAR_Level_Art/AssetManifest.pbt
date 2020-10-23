@@ -1376,15 +1376,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4976500066538387737
-  Name: "Urban Cinderblock Debris 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urban_destruction_debris_cinderblock_01_ref"
-  }
-}
-Assets {
   Id: 4846662083301446138
   Name: "Craftsman Part - Stair Balust"
   PlatformAssetType: 1

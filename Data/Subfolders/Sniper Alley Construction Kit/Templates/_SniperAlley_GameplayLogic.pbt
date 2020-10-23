@@ -173,6 +173,8 @@
             AppearanceChannelingTime: 2
             MountChannelingTime: 2
             FlipOnMultiJump: true
+            CanMoveUp: true
+            CanMoveDown: true
           }
         }
       }
@@ -1131,6 +1133,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
   DirectlyPublished: true
 }

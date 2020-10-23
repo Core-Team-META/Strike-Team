@@ -2,19 +2,10 @@
   Id: 257782221353076758
   Name: "SAR_BrickDefaultPlaster"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
-      Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.436000019
-          G: 0.436000019
-          B: 0.436000019
-          A: 1
-        }
-      }
       Overrides {
         Name: "gradient_shift"
         Float: 0

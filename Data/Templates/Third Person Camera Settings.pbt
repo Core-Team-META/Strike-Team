@@ -100,6 +100,8 @@
             AppearanceChannelingTime: 2
             MountChannelingTime: 2
             FlipOnMultiJump: true
+            CanMoveUp: true
+            CanMoveDown: true
           }
         }
       }
@@ -181,5 +183,5 @@
       AssetId: "Third_Person_Camera_Settings"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

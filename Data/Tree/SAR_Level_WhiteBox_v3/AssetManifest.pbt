@@ -260,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6699046124404190379
+  Name: "Trim Side 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_side_6m_001"
+  }
+}
+Assets {
   Id: 6445541368222225009
   Name: "Ring - Quarter Thick"
   PlatformAssetType: 1
@@ -311,6 +320,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tx_gen_whitebox_foundation_001"
+  }
+}
+Assets {
+  Id: 2727467945905195560
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {

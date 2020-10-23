@@ -2,7 +2,7 @@
   Id: 2831195365620696759
   Name: "SAR_BrickPlasterDefault"
   PlatformAssetType: 13
-  SerializationVersion: 65
+  SerializationVersion: 66
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

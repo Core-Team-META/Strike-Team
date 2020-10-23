@@ -99,6 +99,8 @@
             AppearanceChannelingTime: 2
             MountChannelingTime: 2
             FlipOnMultiJump: true
+            CanMoveUp: true
+            CanMoveDown: true
           }
         }
       }
@@ -179,5 +181,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }

@@ -1110,5 +1110,5 @@
       AssetId: "Advanced_Submachine_Gun"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 66
 }
