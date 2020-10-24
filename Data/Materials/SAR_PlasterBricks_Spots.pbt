@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 1526264640232633132
-  Name: "SAR_PlasterBricks_LessBricks02"
+  Name: "SAR_PlasterBricks_Spots"
   PlatformAssetType: 13
   SerializationVersion: 66
   CustomMaterialAsset {

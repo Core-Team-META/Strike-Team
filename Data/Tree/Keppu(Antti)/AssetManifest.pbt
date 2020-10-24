@@ -1,13 +1,4 @@
 ﻿Assets {
-  Id: 18151428822017384440
-  Name: "Trim Crenellated 4m 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trim_crenellated_6m_001"
-  }
-}
-Assets {
   Id: 17489731258955383362
   Name: "Bricks Red 01"
   PlatformAssetType: 2
@@ -59,15 +50,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_rounded_002"
-  }
-}
-Assets {
-  Id: 16542590046639866815
-  Name: "Trim Roof 01 Mainstreet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_003_ref"
   }
 }
 Assets {
@@ -131,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crescent_002"
-  }
-}
-Assets {
-  Id: 14791357265404000066
-  Name: "Urban Damaged Wall 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_wall_001_ref"
   }
 }
 Assets {
@@ -404,15 +377,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9662723091772095612
-  Name: "Fantasy Castle Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_door_001"
-  }
-}
-Assets {
   Id: 9379470803662256360
   Name: "Nature Earthquake Rumble Shake Set 01 SFX"
   PlatformAssetType: 10
@@ -536,15 +500,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_002"
-  }
-}
-Assets {
-  Id: 6432912761929814416
-  Name: "Craftsman Porch Pillar 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
   }
 }
 Assets {
@@ -728,48 +683,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2647109416399480979
-  Name: "Bricks Chunky Stone 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_chunky_001"
-  }
-}
-Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
-  }
-}
-Assets {
-  Id: 1936447668697306516
-  Name: "Trim 02 Mainstreet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_002_ref"
-  }
-}
-Assets {
-  Id: 1628849511756280386
-  Name: "Whitebox Wall 01 Doorway 01 Frame"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_whitebox_wall_001_doorframe"
-  }
-}
-Assets {
-  Id: 1465760310458331463
-  Name: "Urban Damaged Wall 01 Half - Vertical 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_wall_half_001_vrt_01_ref"
   }
 }
 Assets {
@@ -797,15 +716,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
-  }
-}
-Assets {
-  Id: 361376666361477953
-  Name: "Urban Damaged Wall 02 Half - Vertical 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_wall_half_002_vrt_01_ref"
   }
 }
 Assets {
