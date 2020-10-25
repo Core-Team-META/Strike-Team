@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 12618498618537666676
-  Name: "Potted Plants"
+  Name: "SAR_Potted Plants"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1332,116 +1332,12 @@
       }
     }
     Assets {
-      Id: 17829956314758502204
-      Name: "Ellipsoid - Truncated"
+      Id: 12617664793519417206
+      Name: "Cone - Truncated Concave"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ellipsoid_truncated_001"
-      }
-    }
-    Assets {
-      Id: 2990952851577250343
-      Name: "Custom Leaves from Kelp Tall Bush 01_1"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 10476715235748636939
-        ParameterOverrides {
-          Overrides {
-            Name: "wind_weight"
-            Float: 0
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 10476715235748636939
-      Name: "Kelp (default)"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_kelp_001_uv"
-      }
-    }
-    Assets {
-      Id: 18014941405078390650
-      Name: "Kelp Tall Bush 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_kelp_tall_bush_01"
-      }
-    }
-    Assets {
-      Id: 5944393796542654307
-      Name: "Capsule"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_capsule_001"
-      }
-    }
-    Assets {
-      Id: 3249839256999270199
-      Name: "Bush 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bush_generic_002"
-      }
-    }
-    Assets {
-      Id: 12905923173550510229
-      Name: "Cylinder - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 5704998740082466501
-      Name: "Fern 04"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_fern_generic_004"
-      }
-    }
-    Assets {
-      Id: 14643090495247569259
-      Name: "Dirt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "dirt_001"
-      }
-    }
-    Assets {
-      Id: 16402944291752128359
-      Name: "Lens - Half"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_half_lense_001"
-      }
-    }
-    Assets {
-      Id: 15311550138640852139
-      Name: "Cone - Truncated Hollow Concave"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_hollow_convex_001"
-      }
-    }
-    Assets {
-      Id: 3702365963781758101
-      Name: "Teardrop - Truncated"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_truncated_teardrop_001"
+        AssetId: "sm_cone_truncated_concave_001"
       }
     }
     Assets {
@@ -1454,12 +1350,93 @@
       }
     }
     Assets {
-      Id: 12617664793519417206
-      Name: "Cone - Truncated Concave"
+      Id: 3702365963781758101
+      Name: "Teardrop - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_concave_001"
+        AssetId: "sm_truncated_teardrop_001"
+      }
+    }
+    Assets {
+      Id: 15311550138640852139
+      Name: "Cone - Truncated Hollow Concave"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cone_truncated_hollow_convex_001"
+      }
+    }
+    Assets {
+      Id: 16402944291752128359
+      Name: "Lens - Half"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_half_lense_001"
+      }
+    }
+    Assets {
+      Id: 14643090495247569259
+      Name: "Dirt 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "dirt_001"
+      }
+    }
+    Assets {
+      Id: 5704998740082466501
+      Name: "Fern 04"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_fern_generic_004"
+      }
+    }
+    Assets {
+      Id: 12905923173550510229
+      Name: "Cylinder - Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 3249839256999270199
+      Name: "Bush 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bush_generic_002"
+      }
+    }
+    Assets {
+      Id: 5944393796542654307
+      Name: "Capsule"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_capsule_001"
+      }
+    }
+    Assets {
+      Id: 18014941405078390650
+      Name: "Kelp Tall Bush 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_kelp_tall_bush_01"
+      }
+    }
+    Assets {
+      Id: 17829956314758502204
+      Name: "Ellipsoid - Truncated"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ellipsoid_truncated_001"
       }
     }
     PrimaryAssetId {
@@ -1467,6 +1444,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

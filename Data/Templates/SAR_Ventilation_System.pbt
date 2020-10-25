@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 4196459096957492371
-  Name: "Ventilation System"
+  Name: "SAR_Ventilation System"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1715,111 +1715,12 @@
       }
     }
     Assets {
-      Id: 11444910120334123213
-      Name: "Decal Stains Top 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_top_001"
-      }
-    }
-    Assets {
-      Id: 17860750842844291223
-      Name: "2D Basic Shapes Decal"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "dcl_basicShapes"
-      }
-    }
-    Assets {
-      Id: 4794041361382728409
-      Name: "Cylinder - Chamfered Polished"
+      Id: 13442965192408425307
+      Name: "Modern Weapon Accessory - Rail 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_002"
-      }
-    }
-    Assets {
-      Id: 16933361490793048899
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
-      }
-    }
-    Assets {
-      Id: 15514326864313295999
-      Name: "Text 01: {"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "F1_Text_051"
-      }
-    }
-    Assets {
-      Id: 12630862952169066180
-      Name: "Pipe"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_001"
-      }
-    }
-    Assets {
-      Id: 17106988624978751290
-      Name: "Custom Metal 9 Slice Frame 005_1"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 6588567122613861857
-        ParameterOverrides {
-          Overrides {
-            Name: "emissive_boost"
-            Float: 0
-          }
-          Overrides {
-            Name: "color_lights"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "top_border_xy"
-            Vector2 {
-              X: 0.2
-              Y: 0.358225226
-            }
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 6588567122613861857
-      Name: "Metal 9 Slice Frame 005"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_frames_9slice_005"
-      }
-    }
-    Assets {
-      Id: 1411445044141844320
-      Name: "Cube - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 11353461757709897270
-      Name: "Container - Rectangle"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_container_rectangle_ref"
+        AssetId: "sm_weap_modern_acc_rail_001"
       }
     }
     Assets {
@@ -1832,12 +1733,75 @@
       }
     }
     Assets {
-      Id: 13442965192408425307
-      Name: "Modern Weapon Accessory - Rail 01"
+      Id: 11353461757709897270
+      Name: "Container - Rectangle"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_acc_rail_001"
+        AssetId: "sm_container_rectangle_ref"
+      }
+    }
+    Assets {
+      Id: 1411445044141844320
+      Name: "Cube - Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 12630862952169066180
+      Name: "Pipe"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_pipe_001"
+      }
+    }
+    Assets {
+      Id: 15514326864313295999
+      Name: "Text 01: {"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "F1_Text_051"
+      }
+    }
+    Assets {
+      Id: 16933361490793048899
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
+      }
+    }
+    Assets {
+      Id: 4794041361382728409
+      Name: "Cylinder - Chamfered Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_002"
+      }
+    }
+    Assets {
+      Id: 17860750842844291223
+      Name: "2D Basic Shapes Decal"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "dcl_basicShapes"
+      }
+    }
+    Assets {
+      Id: 11444910120334123213
+      Name: "Decal Stains Top 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_top_001"
       }
     }
     PrimaryAssetId {
@@ -1845,6 +1809,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

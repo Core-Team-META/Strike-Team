@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 7934360290626373457
-  Name: "Antenna 1"
+  Name: "SAR_Antenna 1"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1296,21 +1296,12 @@
       }
     }
     Assets {
-      Id: 16933361490793048899
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
-      }
-    }
-    Assets {
-      Id: 4794041361382728409
-      Name: "Cylinder - Chamfered Polished"
+      Id: 12905923173550510229
+      Name: "Cylinder - Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_002"
+        AssetId: "sm_cylinder_hq_test_001"
       }
     }
     Assets {
@@ -1323,12 +1314,21 @@
       }
     }
     Assets {
-      Id: 12905923173550510229
-      Name: "Cylinder - Polished"
+      Id: 4794041361382728409
+      Name: "Cylinder - Chamfered Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_test_001"
+        AssetId: "sm_cylinder_hq_002"
+      }
+    }
+    Assets {
+      Id: 16933361490793048899
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
       }
     }
     PrimaryAssetId {
@@ -1336,6 +1336,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

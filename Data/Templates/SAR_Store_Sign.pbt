@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 4242870009763947079
-  Name: "Store Sign"
+  Name: "SAR_Store Sign"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1178,138 +1178,12 @@
       }
     }
     Assets {
-      Id: 13083661641693275655
-      Name: "Text 02: T"
+      Id: 10128884331981734128
+      Name: "Cube - bottom aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_019"
-      }
-    }
-    Assets {
-      Id: 10444807281834100333
-      Name: "Text 02: S"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_018"
-      }
-    }
-    Assets {
-      Id: 1102953858725591507
-      Name: "Text 02: Y"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_024"
-      }
-    }
-    Assets {
-      Id: 18393888041398592342
-      Name: "Text 02: E"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_004"
-      }
-    }
-    Assets {
-      Id: 14831429118183852393
-      Name: "Text 02: C"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_002"
-      }
-    }
-    Assets {
-      Id: 3464280307164272030
-      Name: "Text 02: 0"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_026"
-      }
-    }
-    Assets {
-      Id: 6515192203865619302
-      Name: "Text 02: R"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_017"
-      }
-    }
-    Assets {
-      Id: 211821385602626091
-      Name: "Basic Material"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_pbr_material_001"
-      }
-    }
-    Assets {
-      Id: 12531473813183755053
-      Name: "Text 02: G"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "Text_006"
-      }
-    }
-    Assets {
-      Id: 5617183404275168642
-      Name: "Pipe - Half Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_half-pipe_002"
-      }
-    }
-    Assets {
-      Id: 17167473041082958233
-      Name: "Wedge - Convex Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_wedge_curved_convex_hq_001"
-      }
-    }
-    Assets {
-      Id: 3184356387751164974
-      Name: "Metal Basic 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_basic_001"
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
-      }
-    }
-    Assets {
-      Id: 16933361490793048899
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
-      }
-    }
-    Assets {
-      Id: 3164251070761236489
-      Name: "Container - Rectangle Thin 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_container_rectangle_thin_ref"
+        AssetId: "sm_cube_001"
       }
     }
     Assets {
@@ -1322,12 +1196,138 @@
       }
     }
     Assets {
-      Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Id: 3164251070761236489
+      Name: "Container - Rectangle Thin 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_001"
+        AssetId: "sm_container_rectangle_thin_ref"
+      }
+    }
+    Assets {
+      Id: 16933361490793048899
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
+      }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
+      }
+    }
+    Assets {
+      Id: 3184356387751164974
+      Name: "Metal Basic 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_basic_001"
+      }
+    }
+    Assets {
+      Id: 17167473041082958233
+      Name: "Wedge - Convex Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_wedge_curved_convex_hq_001"
+      }
+    }
+    Assets {
+      Id: 5617183404275168642
+      Name: "Pipe - Half Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_half-pipe_002"
+      }
+    }
+    Assets {
+      Id: 12531473813183755053
+      Name: "Text 02: G"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_006"
+      }
+    }
+    Assets {
+      Id: 211821385602626091
+      Name: "Basic Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_pbr_material_001"
+      }
+    }
+    Assets {
+      Id: 6515192203865619302
+      Name: "Text 02: R"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_017"
+      }
+    }
+    Assets {
+      Id: 3464280307164272030
+      Name: "Text 02: 0"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_026"
+      }
+    }
+    Assets {
+      Id: 14831429118183852393
+      Name: "Text 02: C"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_002"
+      }
+    }
+    Assets {
+      Id: 18393888041398592342
+      Name: "Text 02: E"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_004"
+      }
+    }
+    Assets {
+      Id: 1102953858725591507
+      Name: "Text 02: Y"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_024"
+      }
+    }
+    Assets {
+      Id: 10444807281834100333
+      Name: "Text 02: S"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_018"
+      }
+    }
+    Assets {
+      Id: 13083661641693275655
+      Name: "Text 02: T"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "Text_019"
       }
     }
     PrimaryAssetId {
@@ -1335,6 +1335,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

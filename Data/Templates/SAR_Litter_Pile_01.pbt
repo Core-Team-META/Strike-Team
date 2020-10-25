@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 2968498237332813418
-  Name: "Litter Pile 01"
+  Name: "SAR_Litter Pile 01"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1053,194 +1053,12 @@
       }
     }
     Assets {
-      Id: 13810683256700423382
-      Name: "Urban Pipe Coupling 02"
-      PlatformAssetType: 1
+      Id: 8255770948128779959
+      Name: "2D Basic Shapes Decal"
+      PlatformAssetType: 14
       PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
-      }
-    }
-    Assets {
-      Id: 10378479423839914021
-      Name: "Metal Iron 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
-      }
-    }
-    Assets {
-      Id: 8611358649670232198
-      Name: "Crowbar"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_crowbar_001"
-      }
-    }
-    Assets {
-      Id: 2715939630273116812
-      Name: "Ceramic Terracotta Pots Old 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_terracotta_pots_002_uv"
-      }
-    }
-    Assets {
-      Id: 3396001719245941860
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
-      }
-    }
-    Assets {
-      Id: 13571523696922725659
-      Name: "Counter Drawer"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_counter_drawer_001"
-      }
-    }
-    Assets {
-      Id: 17558906830656801305
-      Name: "Branches Cluster Medium"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_gen_branches_medium_001"
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
-      }
-    }
-    Assets {
-      Id: 10184847056121543272
-      Name: "Basic Material"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_pbr_material_001"
-      }
-    }
-    Assets {
-      Id: 17031634298675327065
-      Name: "Custom Base Material from Bottle 01"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 17523104077729324043
-        ParameterOverrides {
-          Overrides {
-            Name: "color"
-            Color {
-              R: 0.38
-              G: 0.105695352
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "opacity"
-            Float: 0.957973838
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 17523104077729324043
-      Name: "Bottle Glass"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_prop_fantasy_bottle_base_001"
-      }
-    }
-    Assets {
-      Id: 6540545606237595083
-      Name: "Bottle 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bottle_001"
-      }
-    }
-    Assets {
-      Id: 13195050103081992736
-      Name: "Custom Basic Material"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 10184847056121543272
-        ParameterOverrides {
-          Overrides {
-            Name: "metallic"
-            Float: 0.914147317
-          }
-          Overrides {
-            Name: "fresnel_emissive_boost"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "fresnel_power"
-            Float: 1.6199832
-          }
-          Overrides {
-            Name: "fresnel_sharpness"
-            Float: 0.0183070898
-          }
-          Overrides {
-            Name: "fresnel_color"
-            Color {
-              R: 1
-              G: 0.36
-              B: 0.779602349
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "roughness"
-            Float: 0.276657104
-          }
-          Overrides {
-            Name: "specular"
-            Float: 0.944146812
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 5814329836194446418
-      Name: "Wood Planks White"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_planks_white_001_uv"
-      }
-    }
-    Assets {
-      Id: 16435456726063022908
-      Name: "Cylinder - Chamfered Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_002"
-      }
-    }
-    Assets {
-      Id: 16630259605395466384
-      Name: "Frosted Glass"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxma_frosted_glass"
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "dcl_basicShapes"
       }
     }
     Assets {
@@ -1253,12 +1071,120 @@
       }
     }
     Assets {
-      Id: 8255770948128779959
-      Name: "2D Basic Shapes Decal"
-      PlatformAssetType: 14
+      Id: 16630259605395466384
+      Name: "Frosted Glass"
+      PlatformAssetType: 2
       PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "dcl_basicShapes"
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxma_frosted_glass"
+      }
+    }
+    Assets {
+      Id: 16435456726063022908
+      Name: "Cylinder - Chamfered Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_002"
+      }
+    }
+    Assets {
+      Id: 5814329836194446418
+      Name: "Wood Planks White"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_planks_white_001_uv"
+      }
+    }
+    Assets {
+      Id: 6540545606237595083
+      Name: "Bottle 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_fantasy_bottle_001"
+      }
+    }
+    Assets {
+      Id: 10184847056121543272
+      Name: "Basic Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_pbr_material_001"
+      }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
+      }
+    }
+    Assets {
+      Id: 17558906830656801305
+      Name: "Branches Cluster Medium"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_gen_branches_medium_001"
+      }
+    }
+    Assets {
+      Id: 13571523696922725659
+      Name: "Counter Drawer"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_urb_counter_drawer_001"
+      }
+    }
+    Assets {
+      Id: 3396001719245941860
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
+      }
+    }
+    Assets {
+      Id: 2715939630273116812
+      Name: "Ceramic Terracotta Pots Old 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_terracotta_pots_002_uv"
+      }
+    }
+    Assets {
+      Id: 8611358649670232198
+      Name: "Crowbar"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_crowbar_001"
+      }
+    }
+    Assets {
+      Id: 10378479423839914021
+      Name: "Metal Iron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_001"
+      }
+    }
+    Assets {
+      Id: 13810683256700423382
+      Name: "Urban Pipe Coupling 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
       }
     }
     PrimaryAssetId {
@@ -1266,6 +1192,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

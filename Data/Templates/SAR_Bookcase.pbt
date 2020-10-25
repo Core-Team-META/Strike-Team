@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 8592862026844569860
-  Name: "Bookcase"
+  Name: "SAR_Bookcase"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -2075,94 +2075,12 @@
       }
     }
     Assets {
-      Id: 7304090448405195378
-      Name: "Custom Wood Planks White"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 17393961314713938594
-        ParameterOverrides {
-          Overrides {
-            Name: "color"
-            Color {
-              R: 0.306000024
-              G: 0.259092838
-              B: 0.216342017
-              A: 1
-            }
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 17393961314713938594
-      Name: "Wood Planks White"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_planks_white_001_uv"
-      }
-    }
-    Assets {
-      Id: 3189005529281241184
-      Name: "Large Wood Board 8m"
+      Id: 12538411275129688839
+      Name: "Cube - Chamfered Small Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_large_board_6m"
-      }
-    }
-    Assets {
-      Id: 12484798020569700940
-      Name: "Wood Raw"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_raw_001_uv"
-      }
-    }
-    Assets {
-      Id: 11162297399913732681
-      Name: "Cube - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 8750377587233045914
-      Name: "Wicker Basket 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_wicker_001_uv"
-      }
-    }
-    Assets {
-      Id: 8135608440073285146
-      Name: "Wallpaper Stars 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_wallpaper_005"
-      }
-    }
-    Assets {
-      Id: 5129947906523120000
-      Name: "Roof Square Shingles 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_roof_square_shingles_001_uv"
-      }
-    }
-    Assets {
-      Id: 11232881163684059331
-      Name: "Concrete Basic 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_001"
+        AssetId: "sm_cube_hq_003"
       }
     }
     Assets {
@@ -2175,12 +2093,66 @@
       }
     }
     Assets {
-      Id: 12538411275129688839
-      Name: "Cube - Chamfered Small Polished"
+      Id: 11232881163684059331
+      Name: "Concrete Basic 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_gen_concrete_001"
+      }
+    }
+    Assets {
+      Id: 5129947906523120000
+      Name: "Roof Square Shingles 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_roof_square_shingles_001_uv"
+      }
+    }
+    Assets {
+      Id: 8135608440073285146
+      Name: "Wallpaper Stars 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_gen_wallpaper_005"
+      }
+    }
+    Assets {
+      Id: 8750377587233045914
+      Name: "Wicker Basket 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_wicker_001_uv"
+      }
+    }
+    Assets {
+      Id: 11162297399913732681
+      Name: "Cube - Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_003"
+        AssetId: "sm_cube_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 12484798020569700940
+      Name: "Wood Raw"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_raw_001_uv"
+      }
+    }
+    Assets {
+      Id: 3189005529281241184
+      Name: "Large Wood Board 8m"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_large_board_6m"
       }
     }
     PrimaryAssetId {
@@ -2188,6 +2160,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

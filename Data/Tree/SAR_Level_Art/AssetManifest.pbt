@@ -611,15 +611,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13958279215617601928
-  Name: "9Slice Wooden Crate 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mat_advanced_9slice_wooden_crates_001_ref"
-  }
-}
-Assets {
   Id: 13956636611275209512
   Name: "Pipe - 4-Sided Thick"
   PlatformAssetType: 1
@@ -2039,15 +2030,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cabinet_door_full_001"
-  }
-}
-Assets {
-  Id: 595999529483215844
-  Name: "Fantasy Human Gal 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }
 Assets {

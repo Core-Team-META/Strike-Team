@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 12941988196082019395
-  Name: "Market Stall Frame"
+  Name: "SAR_Market Stall Frame"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1093,21 +1093,12 @@
       }
     }
     Assets {
-      Id: 1739996898153061063
-      Name: "Small Open Crate"
+      Id: 4437160827424791669
+      Name: "Large Wood Beam 8m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_crate_narrow_open_simple_160cm_001"
-      }
-    }
-    Assets {
-      Id: 10044556425249133227
-      Name: "Wood Raw"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_raw_001_uv"
+        AssetId: "sm_large_beam_6m"
       }
     }
     Assets {
@@ -1120,12 +1111,21 @@
       }
     }
     Assets {
-      Id: 4437160827424791669
-      Name: "Large Wood Beam 8m"
+      Id: 10044556425249133227
+      Name: "Wood Raw"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_raw_001_uv"
+      }
+    }
+    Assets {
+      Id: 1739996898153061063
+      Name: "Small Open Crate"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_large_beam_6m"
+        AssetId: "sm_crate_narrow_open_simple_160cm_001"
       }
     }
     PrimaryAssetId {
@@ -1133,6 +1133,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

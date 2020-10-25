@@ -59,15 +59,6 @@
         }
       }
       Overrides {
-        Name: "cmpc:Material1"
-        Color {
-          R: 0.359043568
-          G: 0.61
-          B: 0.18422
-          A: 1
-        }
-      }
-      Overrides {
         Name: "invert_height"
         Bool: true
       }

@@ -20,8 +20,11 @@ Objects {
   ChildIds: 4565846863626438544
   ChildIds: 15084389731420460127
   ChildIds: 11191079541876128101
+  ChildIds: 2274095183686015661
+  ChildIds: 12077543125149959053
   ChildIds: 15063178408267041427
   ChildIds: 5285880927420386329
+  ChildIds: 11175661805086451178
   ChildIds: 17624805303090452141
   ChildIds: 3854102269117467899
   ChildIds: 8703389121412026840
@@ -58,9 +61,7 @@ Objects {
   ChildIds: 2993399802547978280
   ChildIds: 9969037466691801829
   ChildIds: 3406594009119817584
-  ChildIds: 16087478228906224362
   ChildIds: 13324513254275813054
-  ChildIds: 12504433198890245514
   ChildIds: 14047960970584145742
   ChildIds: 2260860186316251173
   ChildIds: 4715521943673479872
@@ -70,6 +71,66 @@ Objects {
   ChildIds: 2583761570783306919
   ChildIds: 8929228637845792294
   ChildIds: 4984653224247167443
+  ChildIds: 6808223395082394418
+  ChildIds: 16108410933375675221
+  ChildIds: 2884741195768520548
+  ChildIds: 5037358177014661725
+  ChildIds: 17986940756948355080
+  ChildIds: 10572250675501684289
+  ChildIds: 13758461863628138937
+  ChildIds: 15488173609115501297
+  ChildIds: 5367660245744774643
+  ChildIds: 13664763283315062046
+  ChildIds: 6293801718107990358
+  ChildIds: 16386324400091053632
+  ChildIds: 2025606135456166248
+  ChildIds: 831706994795563115
+  ChildIds: 958971535016174538
+  ChildIds: 2489069335952198341
+  ChildIds: 11649134026390356318
+  ChildIds: 4930864157821785629
+  ChildIds: 13178679728731688841
+  ChildIds: 2563251984818974836
+  ChildIds: 6854543837933546814
+  ChildIds: 12100732177958898008
+  ChildIds: 15538937363342712750
+  ChildIds: 5776847328821974831
+  ChildIds: 11152119559840271767
+  ChildIds: 15867609040958396396
+  ChildIds: 7241767295079130631
+  ChildIds: 15075960534071742686
+  ChildIds: 7590991027438875300
+  ChildIds: 9186620788564300544
+  ChildIds: 512653628056818618
+  ChildIds: 12082439837802406796
+  ChildIds: 5591970971218857869
+  ChildIds: 2458389637195132288
+  ChildIds: 4541354802047822475
+  ChildIds: 2262366058045385565
+  ChildIds: 4263153650380622813
+  ChildIds: 15507725059796819834
+  ChildIds: 11522505945570124883
+  ChildIds: 14243572225364310578
+  ChildIds: 7936888758479810752
+  ChildIds: 7572094756461445249
+  ChildIds: 1408540626595649038
+  ChildIds: 11743179430810636265
+  ChildIds: 18382751874679357898
+  ChildIds: 5722014013473488499
+  ChildIds: 2359270035716686952
+  ChildIds: 2031894678258035052
+  ChildIds: 15933565399249945699
+  ChildIds: 10219397144006684284
+  ChildIds: 2280006650136477021
+  ChildIds: 2188932368642617097
+  ChildIds: 12704554379401383678
+  ChildIds: 11157981369561165308
+  ChildIds: 13083353925351705209
+  ChildIds: 6808942696992107150
+  ChildIds: 7303768843428668593
+  ChildIds: 9393962362498597975
+  ChildIds: 10311272102638502779
+  ChildIds: 12638967259040817176
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -79,6 +140,3509 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12638967259040817176
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -6265
+      Y: 7325
+      Z: -14.9998779
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10311272102638502779
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -6535
+      Y: 7600
+      Z: 560
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.32112789
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9393962362498597975
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5980
+      Y: 7055
+      Z: 560
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.32112789
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7303768843428668593
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5965
+      Y: 6275
+      Z: 560
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.37174332
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6808942696992107150
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -5105
+      Y: 4205
+      Z: -15
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13083353925351705209
+  Name: "SAR_AirConditioner"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16253280924196043871
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_AirConditioner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7130
+            Y: 6235
+            Z: 320
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2136343586724684752
+    }
+  }
+}
+Objects {
+  Id: 11157981369561165308
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -6820
+      Y: 5995
+      Z: -14.9998779
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12704554379401383678
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -6260
+      Y: 6000
+      Z: -15
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2188932368642617097
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -5660
+      Y: 5420
+      Z: -15
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2280006650136477021
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -4400
+      Y: 4515
+      Z: 600
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10219397144006684284
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -4020
+      Y: 5945
+      Z: -14.999939
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15933565399249945699
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -3400
+      Y: 4935
+      Z: -15
+    }
+    Rotation {
+      Yaw: 44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2031894678258035052
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5975
+      Y: 7065
+      Z: -29.9997864
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 2.00000048
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2359270035716686952
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5965
+      Y: 6275
+      Z: -29.9997559
+    }
+    Rotation {
+      Yaw: -112.499954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.96333206
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5722014013473488499
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -6530
+      Y: 5700
+      Z: -29.9997864
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 2.00000024
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18382751874679357898
+  Name: "SAR_WindowDoubleClosed"
+  Transform {
+    Location {
+      X: -3130
+      Y: 5170
+      Z: 1030
+    }
+    Rotation {
+      Yaw: -44.9999924
+      Roll: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3954555981650091361
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowDoubleClosed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3610
+            Y: 4690
+            Z: 1030
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7658338032141156500
+    }
+  }
+}
+Objects {
+  Id: 11743179430810636265
+  Name: "SAR_WindowDoubleClosed"
+  Transform {
+    Location {
+      X: -5365
+      Y: 4560
+      Z: 1030
+    }
+    Rotation {
+      Yaw: -135
+      Roll: -90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3954555981650091361
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowDoubleClosed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5760
+            Y: 5255
+            Z: 1030
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7658338032141156500
+    }
+  }
+}
+Objects {
+  Id: 1408540626595649038
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -2465
+      Y: 3295
+      Z: -15
+    }
+    Rotation {
+      Yaw: 44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7572094756461445249
+  Name: "Craftsman Part - Doorway"
+  Transform {
+    Location {
+      X: -3230
+      Y: 3970
+      Z: -15
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18075009058174876361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7936888758479810752
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: -5475
+      Y: 4735
+      Z: 569.999817
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.6
+      Y: 7.6
+      Z: 0.3
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2946846378138735618
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14243572225364310578
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: -5385
+      Y: 5150
+      Z: 570
+    }
+    Rotation {
+      Pitch: 1.36603776e-05
+      Yaw: -45
+    }
+    Scale {
+      X: 7.6
+      Y: 7.6
+      Z: 0.3
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2946846378138735618
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11522505945570124883
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5380
+      Y: 5740
+      Z: -29.9996948
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.01486087
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15507725059796819834
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5945
+      Y: 5175
+      Z: -29.9996948
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.01486087
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4263153650380622813
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5945
+      Y: 4485
+      Z: -29.9995728
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.01486087
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2262366058045385565
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5380
+      Y: 3920
+      Z: -29.9995728
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.01486087
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4541354802047822475
+  Name: "SAR_Antenna 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11499602539280894888
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Antenna 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5910
+            Y: 3665
+            Z: 1205
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -67.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6363991226564515595
+    }
+  }
+}
+Objects {
+  Id: 2458389637195132288
+  Name: "SAR_Antenna 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11499602539280894888
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Antenna 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3065
+            Y: 7450
+            Z: 1480
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6363991226564515595
+    }
+  }
+}
+Objects {
+  Id: 5591970971218857869
+  Name: "SAR_Antenna 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8716125709893613384
+      value {
+        Overrides {
+          Name: "StaticMesh"
+          AssetReference {
+            Id: 16371622500121573784
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14096722037078002686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Antenna 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3045
+            Y: 5755
+            Z: 1480
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7934360290626373457
+    }
+  }
+}
+Objects {
+  Id: 12082439837802406796
+  Name: "SAR_Store Sign"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 633896146710703799
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1261089996652971328
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5578454037314059634
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Store Sign"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6060
+            Y: 6290
+            Z: 585
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6189386151854116311
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8927008370676366725
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9270747364296381076
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9572672377031062091
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9594879863423714962
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13862073083286750326
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15322676446948868862
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 17743160960146116138
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.710000038
+            G: 0.643372893
+            B: 0.61770004
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15760919709293481994
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16082048687887126034
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16332998822252761630
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16602215800768933905
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 17743160960146116138
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.710000038
+            G: 0.643372893
+            B: 0.61770004
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17749039973686163860
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 17743160960146116138
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.710000038
+            G: 0.643372893
+            B: 0.61770004
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18181938078216310758
+      value {
+        Overrides {
+          Name: "ma:Font.Faces:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:id"
+          AssetReference {
+            Id: 16280113279026806375
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Faces:color"
+          Color {
+            R: 1
+            G: 0.694966912
+            B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Font.Bevel:color"
+          Color {
+            R: 0.621000051
+            G: 0.621000051
+            B: 0.621000051
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4242870009763947079
+    }
+  }
+}
+Objects {
+  Id: 512653628056818618
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -5405
+      Y: 3970
+      Z: -30
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9186620788564300544
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -4360
+      Y: 3960
+      Z: -30
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.01486087
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7590991027438875300
+  Name: "SAR_WindowDoubleClosed"
+  Transform {
+    Location {
+      X: -3130
+      Y: 5170
+      Z: 925
+    }
+    Rotation {
+      Yaw: -44.9999924
+      Roll: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3954555981650091361
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowDoubleClosed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4820
+            Y: 5410
+            Z: 989.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7658338032141156500
+    }
+  }
+}
+Objects {
+  Id: 15075960534071742686
+  Name: "SAR_WindowDoubleClosed"
+  Transform {
+    Location {
+      X: -3630
+      Y: 4670
+      Z: 925
+    }
+    Rotation {
+      Yaw: -44.9999924
+      Roll: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3954555981650091361
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowDoubleClosed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4320
+            Y: 5909.99951
+            Z: 990.000305
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7658338032141156500
+    }
+  }
+}
+Objects {
+  Id: 7241767295079130631
+  Name: "SAR_WindowDoubleClosed"
+  Transform {
+    Location {
+      X: -3630
+      Y: 4670
+      Z: 840
+    }
+    Rotation {
+      Yaw: -44.9999924
+      Roll: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3954555981650091361
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowDoubleClosed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5365
+            Y: 4560
+            Z: 1030
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -135
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7658338032141156500
+    }
+  }
+}
+Objects {
+  Id: 15867609040958396396
+  Name: "SAR_WindowDoubleClosed"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3954555981650091361
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowDoubleClosed"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3130
+            Y: 5170
+            Z: 1030
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7658338032141156500
+    }
+  }
+}
+Objects {
+  Id: 11152119559840271767
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1190.77258
+      Y: 4555.5918
+      Z: 750
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5776847328821974831
+  Name: "Fantasy Human Gal 2"
+  Transform {
+    Location {
+      X: -2190
+      Y: 7465
+      Z: 955
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12922564793841951858
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 15538937363342712750
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: -2085
+      Y: 5990
+      Z: 785
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12100732177958898008
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: -2085
+      Y: 6300
+      Z: 785
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6854543837933546814
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: -2085
+      Y: 6660
+      Z: 785
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2563251984818974836
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: -2085
+      Y: 6970
+      Z: 785
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13178679728731688841
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: -2085
+      Y: 7245
+      Z: 785
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4930864157821785629
+  Name: "SAR_AirConditioner"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16253280924196043871
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_AirConditioner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3610
+            Y: 6600
+            Z: 990
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2136343586724684752
+    }
+  }
+}
+Objects {
+  Id: 11649134026390356318
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -4095
+      Y: 4225
+      Z: 585
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2489069335952198341
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: -4390
+      Y: 7730
+      Z: 850
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4005
+            Y: 5185
+            Z: 1100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 958971535016174538
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: -3705
+      Y: 10130
+      Z: 1170
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4295
+            Y: 7730
+            Z: 850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 831706994795563115
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: 3590
+      Y: 12270
+      Z: 1185
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3705
+            Y: 10130
+            Z: 1170
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 2025606135456166248
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: 3590
+      Y: 12270
+      Z: 1185
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6335
+            Y: 10380
+            Z: 1140
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 157.500046
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 16386324400091053632
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: 210
+      Y: 4850
+      Z: 1345
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8614467501951046886
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 172.817383
+            Y: 135.992676
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Yaw: -14.0362549
+            Roll: -104.03627
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2725
+            Y: 4905
+            Z: 1345
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 6293801718107990358
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: 210
+      Y: 9305
+      Z: 1345
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2630
+            Y: 9305
+            Z: 1345
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 13664763283315062046
+  Name: "SAR_Ventilation System"
+  Transform {
+    Location {
+      X: 210
+      Y: 4850
+      Z: 1345
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 210
+            Y: 9305
+            Z: 1345
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 5367660245744774643
+  Name: "SAR_Ventilation System"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8614467501951046886
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 172.817383
+            Y: 135.992676
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Yaw: -14.0362549
+            Roll: -104.03627
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 210
+            Y: 4905
+            Z: 1345
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 15488173609115501297
+  Name: "Fantasy Human Gal 1"
+  Transform {
+    Location {
+      X: 4230
+      Y: 12085
+      Z: 1310
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 595999529483215844
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 13758461863628138937
+  Name: "SAR_Ventilation System"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16517545823905491799
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Ventilation System"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3590
+            Y: 12270
+            Z: 1185
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4196459096957492371
+    }
+  }
+}
+Objects {
+  Id: 10572250675501684289
+  Name: "SAR_Market Stall Frame"
+  Transform {
+    Location {
+      X: 5495
+      Y: 9900
+      Z: 6.10351563e-05
+    }
+    Rotation {
+      Yaw: 44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13347763729883849749
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Market Stall Frame"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6880
+            Y: 9275
+            Z: 6.10351563e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12941988196082019395
+    }
+  }
+}
+Objects {
+  Id: 17986940756948355080
+  Name: "SAR_Market Stall Frame"
+  Transform {
+    Location {
+      X: 5565
+      Y: 8325
+      Z: 6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13347763729883849749
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Market Stall Frame"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5500
+            Y: 9895
+            Z: 6.10351563e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12941988196082019395
+    }
+  }
+}
+Objects {
+  Id: 5037358177014661725
+  Name: "SAR_Market Stall Frame"
+  Transform {
+    Location {
+      X: 5565
+      Y: 7550
+      Z: 6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13347763729883849749
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Market Stall Frame"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5565
+            Y: 8325
+            Z: 6.10351563e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12941988196082019395
+    }
+  }
+}
+Objects {
+  Id: 2884741195768520548
+  Name: "SAR_Market Stall Frame"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13347763729883849749
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Market Stall Frame"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5565
+            Y: 7550
+            Z: 6.10351563e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12941988196082019395
+    }
+  }
+}
+Objects {
+  Id: 16108410933375675221
+  Name: "SAR_Bookcase"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 677404416182785957
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Bookcase"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -315
+            Y: 4605
+            Z: 785
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8592862026844569860
+    }
+  }
+}
+Objects {
+  Id: 6808223395082394418
+  Name: "SAR_Antenna 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14096722037078002686
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Antenna 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6590
+            Y: 7900
+            Z: 1225
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 67.5000305
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7934360290626373457
+    }
   }
 }
 Objects {
@@ -166,9 +3730,9 @@ Objects {
   Name: "Large Wood Board 8m"
   Transform {
     Location {
-      X: -3582.92627
-      Y: 6530.46
-      Z: 1098.76233
+      X: -3575
+      Y: 6540
+      Z: 1085
     }
     Rotation {
       Pitch: 14.2463055
@@ -228,14 +3792,14 @@ Objects {
   Name: "Large Wood Board 8m"
   Transform {
     Location {
-      X: -3575.48706
-      Y: 7240.59619
-      Z: 876.257446
+      X: -3604.51367
+      Y: 7239.13
+      Z: 877.700928
     }
     Rotation {
-      Pitch: 20.8446426
-      Yaw: -92.8104248
-      Roll: 0.636487544
+      Pitch: 20.6411171
+      Yaw: -86.0352783
+      Roll: 3.03852487
     }
     Scale {
       X: 2.08932972
@@ -485,50 +4049,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12504433198890245514
-  Name: "Fantasy Human Gal 2"
-  Transform {
-    Location {
-      X: -4160
-      Y: 7700
-      Z: 955
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12922564793841951858
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-    }
-  }
-}
-Objects {
   Id: 13324513254275813054
   Name: "Fantasy Human Gal 2"
   Transform {
@@ -573,51 +4093,12 @@ Objects {
   }
 }
 Objects {
-  Id: 16087478228906224362
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  Transform {
-    Location {
-      X: -3210
-      Y: 7430
-      Z: 875
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9906491685923217027
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 3406594009119817584
   Name: "House_BG"
   Transform {
     Location {
-      X: -7670.37695
-      Y: 8424.62305
+      X: -7610
+      Y: 8395
       Z: 549.999939
     }
     Rotation {
@@ -8133,12 +11614,12 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -5975
-      Y: 6940
+      X: -5970
+      Y: 7045
       Z: 5.00006104
     }
     Rotation {
-      Yaw: 112.499969
+      Yaw: 112.499893
     }
     Scale {
       X: 0.6
@@ -8214,8 +11695,8 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -6586.49561
-      Y: 7551.49561
+      X: -6585
+      Y: 7650
       Z: -30
     }
     Rotation {
@@ -12065,15 +15546,15 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -6345
-      Y: 7815
+      X: -6350
+      Y: 7800
       Z: 545
     }
     Rotation {
       Yaw: 45
     }
     Scale {
-      X: 4.70000029
+      X: 4.99999952
       Y: 0.7
       Z: 1.7
     }
@@ -20245,8 +23726,8 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -6185.01758
-      Y: 7150.02197
+      X: -6183.52197
+      Y: 7248.52637
       Z: -30
     }
     Rotation {
@@ -20321,14 +23802,14 @@ Objects {
   Transform {
     Location {
       X: -5975
-      Y: 6950
+      Y: 7030
       Z: -30
     }
     Rotation {
       Yaw: -90
     }
     Scale {
-      X: 0.854496956
+      X: 0.99999994
       Y: 0.5
       Z: 0.900000036
     }
@@ -20551,8 +24032,8 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -6335.00293
-      Y: 5900.00146
+      X: -6320
+      Y: 5915
       Z: -30
     }
     Rotation {
@@ -20845,6 +24326,70 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11175661805086451178
+  Name: "Craftsman Wall Interior 01 Corner"
+  Transform {
+    Location {
+      X: -2965
+      Y: 5355
+      Z: -30
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 696856107140800809
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12663918421043863170
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.822251678
+        B: 0.56
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13913679398007785057
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -21315,9 +24860,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -2745
-      Y: 1470
-      Z: 0.289367676
+      X: -2740
+      Y: 1475
+      Z: -40
     }
     Rotation {
       Yaw: -45
@@ -21325,7 +24870,7 @@ Objects {
     Scale {
       X: 0.7
       Y: 14.4000006
-      Z: 1.4
+      Z: 1.8
     }
   }
   ParentId: 5285880927420386329
@@ -21564,8 +25109,8 @@ Objects {
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
-      X: -1870.32507
-      Y: -2796.65234
+      X: -1824.34338
+      Y: -2796.66821
       Z: 675
     }
     Rotation {
@@ -21627,8 +25172,8 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -1842.04248
-      Y: -2591.59473
+      X: -1796.0625
+      Y: -2591.60938
       Z: 680
     }
     Rotation {
@@ -21772,7 +25317,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 1751123364316479961
+        Id: 1526264640232633132
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 1
+        G: 0.77525
+        B: 0.534999967
+        A: 1
       }
     }
   }
@@ -21930,8 +25484,8 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: -162.634583
-      Y: -120.208176
+      X: -190.918671
+      Y: -120.208374
       Z: 1160
     }
     Rotation {
@@ -23343,12 +26897,12 @@ Objects {
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
-      X: -200
-      Y: -260
+      X: -194.454361
+      Y: -258.094
       Z: 665
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -23391,8 +26945,8 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: -162.634735
-      Y: 395.98
+      X: -190.918884
+      Y: 395.979858
       Z: 1160
     }
     Rotation {
@@ -23965,6 +27519,108 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 16442067914662662686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12077543125149959053
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: -2085
+      Y: 7530
+      Z: 785
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.900000036
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2274095183686015661
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: -5205
+      Y: 4660
+      Z: 570
+    }
+    Rotation {
+      Pitch: 1.36603776e-05
+      Yaw: -45
+    }
+    Scale {
+      X: 7.6
+      Y: 13
+      Z: 0.3
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2946846378138735618
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
     }
     Teams {
       IsTeamCollisionEnabled: true

@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16371622500121573784
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 15210171892498863686
   Name: "Bricks Mortar Thick 01"
   PlatformAssetType: 2
@@ -161,21 +170,21 @@ Assets {
   }
 }
 Assets {
-  Id: 9906491685923217027
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
-  }
-}
-Assets {
   Id: 7531058706496198656
   Name: "Whitebox Wall 01 Doorway"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
+  }
+}
+Assets {
+  Id: 6432912761929814416
+  Name: "Craftsman Porch Pillar 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
   }
 }
 Assets {
@@ -266,5 +275,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
+  }
+}
+Assets {
+  Id: 595999529483215844
+  Name: "Fantasy Human Gal 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }

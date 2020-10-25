@@ -170,15 +170,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13642204757580273705
-  Name: "Cube - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
   Id: 13103517599490266136
   Name: "Stone Railing Curved 6m"
   PlatformAssetType: 1
@@ -503,15 +494,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6388401066989036925
-  Name: "Pipe (thin)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_003"
-  }
-}
-Assets {
   Id: 6280154984963467322
   Name: "Ring - Quarter Thin"
   PlatformAssetType: 1
@@ -593,30 +575,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4794041361382728409
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
   Id: 4759156474278201804
   Name: "Sphere - Half Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_002"
-  }
-}
-Assets {
-  Id: 4679924433031865767
-  Name: "Metal Frame 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {

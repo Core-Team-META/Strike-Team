@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 13621518803226842666
-  Name: "Flourescent Light "
+  Name: "SAR_Flourescent Light "
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -547,48 +547,12 @@
       }
     }
     Assets {
-      Id: 16435456726063022908
-      Name: "Cylinder - Chamfered Polished"
+      Id: 7708829302333976186
+      Name: "Cube - Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_002"
-      }
-    }
-    Assets {
-      Id: 10378479423839914021
-      Name: "Metal Iron 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
-      }
-    }
-    Assets {
-      Id: 504910307171759106
-      Name: "Metal Iron Rusted 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_002"
-      }
-    }
-    Assets {
-      Id: 3164251070761236489
-      Name: "Container - Rectangle Thin 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_container_rectangle_thin_ref"
-      }
-    }
-    Assets {
-      Id: 5721670808471238661
-      Name: "Emissive Glow Transparent"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetId: "sm_cube_hq_test_001"
       }
     }
     Assets {
@@ -601,35 +565,48 @@
       }
     }
     Assets {
-      Id: 2600162356333131706
-      Name: "Custom Screen Overlay 04_2"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 15886669772294030408
-        ParameterOverrides {
-          Overrides {
-            Name: "Scale"
-            Float: 6
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 15886669772294030408
-      Name: "Screen Overlay 04"
+      Id: 5721670808471238661
+      Name: "Emissive Glow Transparent"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_screen_overlay_04"
+        AssetId: "mi_basic_emissive_001"
       }
     }
     Assets {
-      Id: 7708829302333976186
-      Name: "Cube - Polished"
+      Id: 3164251070761236489
+      Name: "Container - Rectangle Thin 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
+        AssetId: "sm_container_rectangle_thin_ref"
+      }
+    }
+    Assets {
+      Id: 504910307171759106
+      Name: "Metal Iron Rusted 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_002"
+      }
+    }
+    Assets {
+      Id: 10378479423839914021
+      Name: "Metal Iron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_001"
+      }
+    }
+    Assets {
+      Id: 16435456726063022908
+      Name: "Cylinder - Chamfered Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_002"
       }
     }
     PrimaryAssetId {
@@ -637,6 +614,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true
