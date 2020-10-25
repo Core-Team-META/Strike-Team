@@ -100,5 +100,5 @@
       AssetId: "Mainstreet_Wall_02_Half_Window_-_Basic_Window_Template"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

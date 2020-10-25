@@ -101,6 +101,7 @@
             FlipOnMultiJump: true
             CanMoveUp: true
             CanMoveDown: true
+            IsMountEnabled: true
           }
         }
       }
@@ -181,5 +182,5 @@
       AssetId: "First_Person_Camera_Settings"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

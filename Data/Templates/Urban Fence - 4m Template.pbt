@@ -218,5 +218,5 @@
       AssetId: "Urban_Fence_-_4m_Template"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

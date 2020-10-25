@@ -3284,6 +3284,6 @@
   Marketplace {
     Description: "Real ladder you can climb up and down, jump from it and so on"
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
   DirectlyPublished: true
 }

@@ -20183,5 +20183,5 @@
       AssetId: "Main_Street_Building_-_Corner_Template"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

@@ -126,5 +126,5 @@
       AssetId: "Whitebox_Wall_01_-_Window_1x_Square_Template_"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

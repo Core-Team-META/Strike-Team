@@ -694,5 +694,5 @@
       AssetId: "Urban_Fence_Gate_-_Single_End_Template"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

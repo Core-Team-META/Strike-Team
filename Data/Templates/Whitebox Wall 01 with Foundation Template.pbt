@@ -125,5 +125,5 @@
       AssetId: "Whitebox_Wall_01_with_Foundation_Template"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

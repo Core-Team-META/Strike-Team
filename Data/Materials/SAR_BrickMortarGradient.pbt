@@ -2,7 +2,7 @@
   Id: 1036725943543811742
   Name: "SAR_BrickMortarGradient"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

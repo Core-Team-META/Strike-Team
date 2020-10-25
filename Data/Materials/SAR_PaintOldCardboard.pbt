@@ -2,7 +2,7 @@
   Id: 2701809347362884034
   Name: "SAR_PaintOldCardboard"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

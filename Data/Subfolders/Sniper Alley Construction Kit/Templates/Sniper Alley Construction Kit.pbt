@@ -231,5 +231,5 @@
     Version: "1.0.0"
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

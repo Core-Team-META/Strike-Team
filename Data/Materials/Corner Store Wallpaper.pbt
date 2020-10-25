@@ -2,7 +2,7 @@
   Id: 1285253153044322378
   Name: "Corner Store Wallpaper"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 2046248182654598336
     ParameterOverrides {

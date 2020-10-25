@@ -1207,5 +1207,5 @@
       AssetId: "Advanced_Shotgun"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

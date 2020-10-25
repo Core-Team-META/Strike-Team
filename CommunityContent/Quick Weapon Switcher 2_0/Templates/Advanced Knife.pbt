@@ -775,5 +775,5 @@
       AssetId: "Advanced_Knife"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

@@ -2,7 +2,7 @@
   Id: 9524317757610818993
   Name: "SAR_BrickMixRedWhite"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

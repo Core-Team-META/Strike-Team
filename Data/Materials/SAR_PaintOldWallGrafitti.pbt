@@ -2,7 +2,7 @@
   Id: 10549384422286763674
   Name: "SAR_PaintOldWallGrafitti"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

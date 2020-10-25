@@ -5514,5 +5514,5 @@
       AssetId: "Military_Tank_Modern_01__Prop_"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

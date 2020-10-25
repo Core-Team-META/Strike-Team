@@ -2,7 +2,7 @@
   Id: 13412464127967364327
   Name: "SAR_Black"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 211821385602626091
     ParameterOverrides {

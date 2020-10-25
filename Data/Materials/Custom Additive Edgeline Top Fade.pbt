@@ -2,7 +2,7 @@
   Id: 12663918421043863170
   Name: "SAR_Invisible"
   PlatformAssetType: 13
-  SerializationVersion: 66
+  SerializationVersion: 67
   CustomMaterialAsset {
     BaseMaterialId: 17958961814962950436
     ParameterOverrides {

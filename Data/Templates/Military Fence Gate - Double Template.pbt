@@ -1074,5 +1074,5 @@
       AssetId: "Military_Fence_Gate_-_Double_Template"
     }
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
 }

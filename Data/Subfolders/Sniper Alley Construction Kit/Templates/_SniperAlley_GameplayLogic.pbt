@@ -175,6 +175,7 @@
             FlipOnMultiJump: true
             CanMoveUp: true
             CanMoveDown: true
+            IsMountEnabled: true
           }
         }
       }
@@ -1133,6 +1134,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 66
+  SerializationVersion: 67
   DirectlyPublished: true
 }
