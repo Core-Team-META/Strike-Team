@@ -17,6 +17,33 @@ Assets {
   }
 }
 Assets {
+  Id: 17091585152308057626
+  Name: "Curb 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curb_2m_001"
+  }
+}
+Assets {
+  Id: 16844107203508180063
+  Name: "Rubble Concrete 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_rubble_002_uv_ref"
+  }
+}
+Assets {
+  Id: 16754690508371648370
+  Name: "Craftsman Part - Window 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_window_003"
+  }
+}
+Assets {
   Id: 16442067914662662686
   Name: "Foundation 01 Mainstreet"
   PlatformAssetType: 1
@@ -32,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 15851271444363751188
+  Name: "Whitebox Window Insert - Basic Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_winInsert_001_frame"
   }
 }
 Assets {
@@ -107,12 +143,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12306622679456331034
+  Name: "Concrete Sidewalk"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_sidewalk_001"
+  }
+}
+Assets {
   Id: 12056825294615652422
   Name: "Simple Crate 150cm"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_simple_150cm_001"
+  }
+}
+Assets {
+  Id: 11917278043255778288
+  Name: "Trim Large Brick 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_brick_6m_001"
   }
 }
 Assets {
@@ -158,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_base_001_ref"
+  }
+}
+Assets {
+  Id: 10341589645857685186
+  Name: "Whitebox Stairs 01 Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001"
   }
 }
 Assets {
@@ -224,6 +287,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3511944487587149772
+  Name: "Curb 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curb_8m_001"
+  }
+}
+Assets {
+  Id: 3460313629886282064
+  Name: "Fantasy Human Guy 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_fantasy_003_ref"
+  }
+}
+Assets {
   Id: 2727467945905195560
   Name: "Wedge"
   PlatformAssetType: 1
@@ -257,6 +338,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_narrow_open_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
   }
 }
 Assets {

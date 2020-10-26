@@ -59,6 +59,14 @@
         Name: "u_tiles"
         Float: 1.34417534
       }
+      Overrides {
+        Name: "material1_scale"
+        Float: 2
+      }
+      Overrides {
+        Name: "material2_scale"
+        Float: 2
+      }
     }
     Assets {
       Id: 6620060143328752136
