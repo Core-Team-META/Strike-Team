@@ -55,6 +55,14 @@
           Id: 11627215628706112418
         }
       }
+      Overrides {
+        Name: "material1_scale"
+        Float: 1
+      }
+      Overrides {
+        Name: "material2_scale"
+        Float: 1
+      }
     }
     Assets {
       Id: 6620060143328752136

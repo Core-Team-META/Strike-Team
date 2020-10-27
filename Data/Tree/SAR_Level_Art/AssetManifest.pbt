@@ -143,15 +143,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17647188478075389819
-  Name: "Damaged Concrete Wall 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_wall_002_ref"
-  }
-}
-Assets {
   Id: 17469064793397066371
   Name: "Hill 05"
   PlatformAssetType: 1
@@ -302,15 +293,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
-  }
-}
-Assets {
-  Id: 16374988853335957394
-  Name: "Concrete Damaged 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_cracked_001_uv"
   }
 }
 Assets {
@@ -926,15 +908,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11372574660582448664
-  Name: "Damaged Concrete Wall 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_wall_001_ref"
-  }
-}
-Assets {
   Id: 11180821767795272231
   Name: "Wall 01 Half Window Mainstreet"
   PlatformAssetType: 1
@@ -1274,15 +1247,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mat_advanced_9slice_shipping_container001_ref"
-  }
-}
-Assets {
-  Id: 8243311917055672270
-  Name: "Curb 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_4m_001"
   }
 }
 Assets {

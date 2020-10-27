@@ -7,7 +7,7 @@
       RootId: 11550135456780394965
       Objects {
         Id: 11550135456780394965
-        Name: "SAR_WindowDoorsClosed"
+        Name: "SAR_WindowDoorsClosedMidBuilding"
         Transform {
           Scale {
             X: 1

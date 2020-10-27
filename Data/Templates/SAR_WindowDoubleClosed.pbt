@@ -2294,9 +2294,9 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 25.2736092
-            Y: 23.4709206
-            Z: -24.9999161
+            X: 45.9636688
+            Y: 23.4709377
+            Z: -24.7476959
           }
           Rotation {
           }
@@ -2330,8 +2330,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2462,9 +2462,9 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 25.2718506
-            Y: -297.015137
-            Z: -25.0009766
+            X: 45.961937
+            Y: -297.014526
+            Z: -24.7487488
           }
           Rotation {
           }
@@ -2498,8 +2498,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
