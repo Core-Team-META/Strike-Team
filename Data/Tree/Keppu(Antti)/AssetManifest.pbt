@@ -980,6 +980,15 @@ Assets {
   }
 }
 Assets {
+  Id: 780506516886625447
+  Name: "Small False Window"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_false_window_001"
+  }
+}
+Assets {
   Id: 595999529483215844
   Name: "Fantasy Human Gal 1"
   PlatformAssetType: 17
