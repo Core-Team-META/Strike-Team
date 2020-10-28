@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
+        ParentId: 4781671109827199097
         ChildIds: 14156493944531317529
         ChildIds: 11327532215872316783
         ChildIds: 6677841021592232975
@@ -37,11 +37,11 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 1.90734863e-06
-            Y: 9.99999809
-            Z: -28.2842655
+            Y: 8.53515625
+            Z: 309.998779
           }
           Rotation {
+            Roll: -90
           }
           Scale {
             X: 0.5
@@ -105,14 +105,13 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.96206665
-            Y: -292.69809
-            Z: 168.764206
+            X: 0.961914063
+            Y: -188.513672
+            Z: 7.30053711
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: 180
+            Roll: 180
           }
           Scale {
             X: 0.5
@@ -176,14 +175,13 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.961921692
-            Y: -292.69751
-            Z: -11.2356873
+            X: 0.961914063
+            Y: -8.51269531
+            Z: 7.30200195
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: 180
+            Roll: 180
           }
           Scale {
             X: 0.5
@@ -247,14 +245,12 @@
         Name: "SAR_WindowDoorsClosedMedium"
         Transform {
           Location {
-            X: 10.0001068
-            Y: -304.999481
-            Z: 74.9989624
+            X: 10
+            Y: -94.7490234
+            Z: -5.00036621
           }
           Rotation {
-            Pitch: 90
-            Yaw: -9.46234131
-            Roll: 80.5374451
+            Yaw: -90
           }
           Scale {
             X: 1
@@ -1037,11 +1033,12 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 17.6776695
-            Y: 19.9999332
-            Z: -31.8197975
+            X: 17.6777344
+            Y: 12.0712891
+            Z: 319.999146
           }
           Rotation {
+            Roll: -90
           }
           Scale {
             X: 0.7
@@ -1105,11 +1102,12 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 10.6065979
-            Y: -284.999451
-            Z: -24.7487488
+            X: 25.0878906
+            Y: 5
+            Z: 15
           }
           Rotation {
+            Roll: -90
           }
           Scale {
             X: 0.572952747

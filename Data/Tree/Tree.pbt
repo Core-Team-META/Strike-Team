@@ -184,25 +184,24 @@ Objects {
         Min: 10000
         Max: 20000
       }
-      ReceivesDecals: true
       GroundSlopeAngle {
         Max: 90
       }
       Scaling {
+        Scaling: Free
         ScaleX {
-          Min: 1
+          Min: 0.5
           Max: 1
         }
         ScaleY {
-          Min: 1
+          Min: 0.5
           Max: 1
         }
         ScaleZ {
-          Min: 1
+          Min: 0.5
           Max: 1
         }
       }
-      RotationAlignment: AlignToWorldUp
       RandomYaw: true
       RandomPitchAngle: 6
       Materials {
