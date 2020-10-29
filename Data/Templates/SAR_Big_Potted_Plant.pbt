@@ -710,74 +710,12 @@
       }
     }
     Assets {
-      Id: 8327237471500940677
-      Name: "Custom Leaves from Fern 01"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 13204959317183337169
-        ParameterOverrides {
-          Overrides {
-            Name: "sss"
-            Color {
-              R: 0.147152334
-              G: 0.220000029
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "color_accent"
-            Color {
-              R: 0.109271497
-              G: 0.149999976
-              A: 1
-            }
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 13204959317183337169
-      Name: "Fern (default)"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_ferns_001_uv"
-      }
-    }
-    Assets {
-      Id: 6129695392876390005
-      Name: "Fern 01"
+      Id: 12852942272030767333
+      Name: "Cone - Truncated Hollow Wide Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_fern_generic_001"
-      }
-    }
-    Assets {
-      Id: 14643090495247569259
-      Name: "Dirt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "dirt_001"
-      }
-    }
-    Assets {
-      Id: 16402944291752128359
-      Name: "Lens - Half"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_half_lense_001"
-      }
-    }
-    Assets {
-      Id: 14746711894802914664
-      Name: "Pipe"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_001"
+        AssetId: "sm_cone_truncated_hollow_006"
       }
     }
     Assets {
@@ -790,12 +728,39 @@
       }
     }
     Assets {
-      Id: 12852942272030767333
-      Name: "Cone - Truncated Hollow Wide Thin"
+      Id: 14746711894802914664
+      Name: "Pipe"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_hollow_006"
+        AssetId: "sm_pipe_001"
+      }
+    }
+    Assets {
+      Id: 16402944291752128359
+      Name: "Lens - Half"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_half_lense_001"
+      }
+    }
+    Assets {
+      Id: 14643090495247569259
+      Name: "Dirt 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "dirt_001"
+      }
+    }
+    Assets {
+      Id: 6129695392876390005
+      Name: "Fern 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_fern_generic_001"
       }
     }
     PrimaryAssetId {
@@ -803,6 +768,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

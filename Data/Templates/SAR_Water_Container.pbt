@@ -10,9 +10,9 @@
         Name: "SAR_Water Container"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.526720762
+            Y: 0.526720762
+            Z: 0.526720762
           }
         }
         ParentId: 4781671109827199097
@@ -1559,57 +1559,12 @@
       }
     }
     Assets {
-      Id: 12905923173550510229
-      Name: "Cylinder - Polished"
+      Id: 17485881147669499682
+      Name: "Cube - Rounded - bottom aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 4519163911553529386
-      Name: "Railing 01 Post Mainstreet"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_urb_dtn_mst_railing_001_post_ref"
-      }
-    }
-    Assets {
-      Id: 17493021233879119744
-      Name: "Craftsman Roof 02 Arch"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_sub_craftsman_roof_002_arch"
-      }
-    }
-    Assets {
-      Id: 3396001719245941860
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
-      }
-    }
-    Assets {
-      Id: 16435456726063022908
-      Name: "Cylinder - Chamfered Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_002"
-      }
-    }
-    Assets {
-      Id: 15389123512634345687
-      Name: "Crescent - 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_crescent_002"
+        AssetId: "sm_cube_rounded_001"
       }
     }
     Assets {
@@ -1622,12 +1577,57 @@
       }
     }
     Assets {
-      Id: 17485881147669499682
-      Name: "Cube - Rounded - bottom aligned"
+      Id: 15389123512634345687
+      Name: "Crescent - 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_rounded_001"
+        AssetId: "sm_crescent_002"
+      }
+    }
+    Assets {
+      Id: 16435456726063022908
+      Name: "Cylinder - Chamfered Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_002"
+      }
+    }
+    Assets {
+      Id: 3396001719245941860
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
+      }
+    }
+    Assets {
+      Id: 17493021233879119744
+      Name: "Craftsman Roof 02 Arch"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_urb_sub_craftsman_roof_002_arch"
+      }
+    }
+    Assets {
+      Id: 4519163911553529386
+      Name: "Railing 01 Post Mainstreet"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ts_urb_dtn_mst_railing_001_post_ref"
+      }
+    }
+    Assets {
+      Id: 12905923173550510229
+      Name: "Cylinder - Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_test_001"
       }
     }
     PrimaryAssetId {
@@ -1635,6 +1635,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

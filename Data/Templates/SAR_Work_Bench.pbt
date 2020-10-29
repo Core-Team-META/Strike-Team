@@ -591,15 +591,6 @@
       }
     }
     Assets {
-      Id: 12484798020569700940
-      Name: "Wood Raw"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_raw_001_uv"
-      }
-    }
-    Assets {
       Id: 7708829302333976186
       Name: "Cube - Polished"
       PlatformAssetType: 1
@@ -608,11 +599,19 @@
         AssetId: "sm_cube_hq_test_001"
       }
     }
+    Assets {
+      Id: 12484798020569700940
+      Name: "Wood Raw"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_raw_001_uv"
+      }
+    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

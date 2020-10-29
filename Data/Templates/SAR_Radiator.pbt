@@ -1203,16 +1203,25 @@
       }
     }
     Assets {
-      Id: 16435456726063022908
-      Name: "Cylinder - Chamfered Polished"
+      Id: 5397130837365487334
+      Name: "Pipe - 90-Degree Long Thick"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_002"
+        AssetId: "sm_pipe_curve90_005"
       }
     }
     Assets {
-      Id: 16628730901845472849
+      Id: 1621043139137004612
+      Name: "Bricks Stone Block 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_bricks_stone_block_001"
+      }
+    }
+    Assets {
+      Id: 5920223932982244516
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1230,7 +1239,7 @@
       }
     }
     Assets {
-      Id: 5920223932982244516
+      Id: 16628730901845472849
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1239,21 +1248,12 @@
       }
     }
     Assets {
-      Id: 1621043139137004612
-      Name: "Bricks Stone Block 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_bricks_stone_block_001"
-      }
-    }
-    Assets {
-      Id: 5397130837365487334
-      Name: "Pipe - 90-Degree Long Thick"
+      Id: 16435456726063022908
+      Name: "Cylinder - Chamfered Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_curve90_005"
+        AssetId: "sm_cylinder_hq_002"
       }
     }
     PrimaryAssetId {
@@ -1261,6 +1261,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

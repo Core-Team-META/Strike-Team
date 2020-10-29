@@ -619,39 +619,12 @@
       }
     }
     Assets {
-      Id: 8270742777843752984
-      Name: "Decal Stains Round 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_round_001"
-      }
-    }
-    Assets {
-      Id: 11478803472724618344
-      Name: "Arch Fancy 3m"
+      Id: 17485881147669499682
+      Name: "Cube - Rounded - bottom aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_arch_fancy_3m_001"
-      }
-    }
-    Assets {
-      Id: 10378479423839914021
-      Name: "Metal Iron 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
-      }
-    }
-    Assets {
-      Id: 10782364704761574435
-      Name: "Arch"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_arch_001"
+        AssetId: "sm_cube_rounded_001"
       }
     }
     Assets {
@@ -664,12 +637,39 @@
       }
     }
     Assets {
-      Id: 17485881147669499682
-      Name: "Cube - Rounded - bottom aligned"
+      Id: 10782364704761574435
+      Name: "Arch"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_rounded_001"
+        AssetId: "sm_arch_001"
+      }
+    }
+    Assets {
+      Id: 10378479423839914021
+      Name: "Metal Iron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_001"
+      }
+    }
+    Assets {
+      Id: 11478803472724618344
+      Name: "Arch Fancy 3m"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_arch_fancy_3m_001"
+      }
+    }
+    Assets {
+      Id: 8270742777843752984
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
       }
     }
     PrimaryAssetId {
@@ -677,6 +677,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

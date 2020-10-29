@@ -1,6 +1,779 @@
 ﻿Name: "Keppu(Antti)"
 RootId: 15084389731420460127
 Objects {
+  Id: 15729812769808856219
+  Name: "SAR_Door01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11864754703862499566
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Door01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2755
+            Y: 95
+            Z: 760
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -135
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15122506977501745679
+    }
+  }
+}
+Objects {
+  Id: 7682107273458549781
+  Name: "SAR_Door01"
+  Transform {
+    Location {
+      X: 3440
+      Y: 12295
+      Z: 615
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11864754703862499566
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Door01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4565
+            Y: 5730
+            Z: 500
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15122506977501745679
+    }
+  }
+}
+Objects {
+  Id: 9912510278143895282
+  Name: "SAR_Door01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11864754703862499566
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Door01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3405
+            Y: 5735
+            Z: 500
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15122506977501745679
+    }
+  }
+}
+Objects {
+  Id: 9358575459905744847
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Location {
+      X: 3385
+      Y: 11465
+      Z: 745
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4270
+            Y: 5985
+            Z: 650
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 13858603412187012470
+  Name: "SAR_WindowClosedResidential"
+  Transform {
+    Location {
+      X: 3925
+      Y: 12545
+      Z: 750
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18236531438999725126
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowClosedResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3490
+            Y: 5990
+            Z: 635
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3999691626989080493
+    }
+  }
+}
+Objects {
+  Id: 12516786631097924263
+  Name: "SAR_WindowClosedResidential"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18236531438999725126
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowClosedResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3890
+            Y: 5990
+            Z: 635
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3999691626989080493
+    }
+  }
+}
+Objects {
+  Id: 9057029559520872414
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Location {
+      X: 3725
+      Y: 10835
+      Z: 745
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4095
+            Y: 4275
+            Z: 630
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 7560977000495550414
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Location {
+      X: 3385
+      Y: 11465
+      Z: 745
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3690
+            Y: 4275
+            Z: 630
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 9455271063593034530
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3350
+            Y: 4905
+            Z: 630
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 12206367316687264694
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Location {
+      X: -4090
+      Y: 8950
+      Z: 705
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3585
+            Y: 2385
+            Z: 590
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 2800539069248683162
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Location {
+      X: -3765
+      Y: 11180
+      Z: 705
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4125
+            Y: 2385
+            Z: 590
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 10596299172929808428
+  Name: "SAR_WindowClosedResidential"
+  Transform {
+    Location {
+      X: -4390
+      Y: 10865
+      Z: 695.000061
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18236531438999725126
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowClosedResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4615
+            Y: 3610
+            Z: 580.000061
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3999691626989080493
+    }
+  }
+}
+Objects {
+  Id: 12641923947178363712
+  Name: "SAR_WindowOpenResidential"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10468190069564645179
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowOpenResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3800
+            Y: 4635
+            Z: 590
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8919921038626765735
+    }
+  }
+}
+Objects {
+  Id: 3738536591898394193
+  Name: "SAR_WindowClosedResidential"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18236531438999725126
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_WindowClosedResidential"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4410
+            Y: 4290
+            Z: 580.000061
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3999691626989080493
+    }
+  }
+}
+Objects {
+  Id: 3954211882247367349
+  Name: "Door, Rounded Top"
+  Transform {
+    Location {
+      X: -580
+      Y: -5875
+      Z: 640
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9662723091772095612
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 16373807130785117515
   Name: "SAR_Level_Art"
   Transform {

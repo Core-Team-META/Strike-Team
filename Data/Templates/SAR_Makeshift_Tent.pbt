@@ -1300,93 +1300,12 @@
       }
     }
     Assets {
-      Id: 5129947906523120000
-      Name: "Roof Square Shingles 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_roof_square_shingles_001_uv"
-      }
-    }
-    Assets {
-      Id: 10336753659301606132
-      Name: "Carpet Tile 01"
+      Id: 3844709690263076331
+      Name: "Military Fence Pole - Gate End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_carpet_tile_001"
-      }
-    }
-    Assets {
-      Id: 11444910120334123213
-      Name: "Decal Stains Top 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_top_001"
-      }
-    }
-    Assets {
-      Id: 8270742777843752984
-      Name: "Decal Stains Round 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_round_001"
-      }
-    }
-    Assets {
-      Id: 8426050052786335746
-      Name: "Custom Metal Iron Rusted 01_1"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 7531323142721961800
-        ParameterOverrides {
-          Overrides {
-            Name: "roughness_multiplier"
-            Float: 1
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 7531323142721961800
-      Name: "Metal Iron Rusted 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_002"
-      }
-    }
-    Assets {
-      Id: 5193022344663447621
-      Name: "Custom Metal Iron Rusted 02_2"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 16933361490793048899
-        ParameterOverrides {
-          Overrides {
-            Name: "color"
-            Color {
-              R: 0.441
-              G: 0.355486929
-              B: 0.22932
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_color"
-            Color {
-              R: 0.64
-              G: 0.394172162
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_shift"
-            Float: 0
-          }
-        }
+        AssetId: "sm_ts_mil_fence_pole_02_end_002"
       }
     }
     Assets {
@@ -1399,15 +1318,6 @@
       }
     }
     Assets {
-      Id: 16308536753500132652
-      Name: "Curtains Straight"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_curtain_02"
-      }
-    }
-    Assets {
       Id: 12905923173550510229
       Name: "Cylinder - Polished"
       PlatformAssetType: 1
@@ -1417,38 +1327,48 @@
       }
     }
     Assets {
-      Id: 8835922010835074793
-      Name: "Custom Metal Iron Rusted 02_1"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 16933361490793048899
-        ParameterOverrides {
-          Overrides {
-            Name: "gradient_color"
-            Color {
-              R: 0.322000027
-              G: 0.172728479
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_falloff"
-            Float: 0.30375421
-          }
-          Overrides {
-            Name: "gradient_shift"
-            Float: 0.078201443
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 3844709690263076331
-      Name: "Military Fence Pole - Gate End"
+      Id: 16308536753500132652
+      Name: "Curtains Straight"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_mil_fence_pole_02_end_002"
+        AssetId: "sm_curtain_02"
+      }
+    }
+    Assets {
+      Id: 8270742777843752984
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
+      }
+    }
+    Assets {
+      Id: 11444910120334123213
+      Name: "Decal Stains Top 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_top_001"
+      }
+    }
+    Assets {
+      Id: 10336753659301606132
+      Name: "Carpet Tile 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_carpet_tile_001"
+      }
+    }
+    Assets {
+      Id: 5129947906523120000
+      Name: "Roof Square Shingles 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_roof_square_shingles_001_uv"
       }
     }
     PrimaryAssetId {
@@ -1456,6 +1376,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

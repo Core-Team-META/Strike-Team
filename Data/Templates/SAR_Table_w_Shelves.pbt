@@ -329,12 +329,12 @@
       }
     }
     Assets {
-      Id: 11162297399913732681
-      Name: "Cube - Polished"
+      Id: 14899145682027975412
+      Name: "Counter - Cabinet"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
+        AssetId: "sm_urb_counter_cabinet_001"
       }
     }
     Assets {
@@ -347,12 +347,12 @@
       }
     }
     Assets {
-      Id: 14899145682027975412
-      Name: "Counter - Cabinet"
+      Id: 11162297399913732681
+      Name: "Cube - Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_counter_cabinet_001"
+        AssetId: "sm_cube_hq_test_001"
       }
     }
     PrimaryAssetId {
@@ -360,6 +360,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

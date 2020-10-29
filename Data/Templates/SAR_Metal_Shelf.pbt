@@ -659,12 +659,12 @@
       }
     }
     Assets {
-      Id: 11162297399913732681
-      Name: "Cube - Polished"
+      Id: 1693487723880974477
+      Name: "Street Post Square 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
+        AssetId: "sm_urb_st_post_lights_post_sq_001"
       }
     }
     Assets {
@@ -677,12 +677,12 @@
       }
     }
     Assets {
-      Id: 1693487723880974477
-      Name: "Street Post Square 01"
+      Id: 11162297399913732681
+      Name: "Cube - Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_st_post_lights_post_sq_001"
+        AssetId: "sm_cube_hq_test_001"
       }
     }
     PrimaryAssetId {
@@ -690,6 +690,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

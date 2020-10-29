@@ -912,84 +912,12 @@
       }
     }
     Assets {
-      Id: 8270742777843752984
-      Name: "Decal Stains Round 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_round_001"
-      }
-    }
-    Assets {
-      Id: 11162297399913732681
-      Name: "Cube - Polished"
+      Id: 10518798692866023120
+      Name: "Sci-fi Base Capsule 02 8m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 14380297253967703300
-      Name: "Girder Small 4m"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_girder_19th_century_4m_001"
-      }
-    }
-    Assets {
-      Id: 15913316996402879617
-      Name: "Custom Metal Floor Panel 01"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 4156576600873206312
-        ParameterOverrides {
-          Overrides {
-            Name: "emissive_boost"
-            Float: 0
-          }
-          Overrides {
-            Name: "color_lights"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_color"
-            Color {
-              R: 0.26
-              G: 0.108476825
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_shift"
-            Float: 0
-          }
-          Overrides {
-            Name: "roughness_multiplier"
-            Float: 1
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 4156576600873206312
-      Name: "Metal Floor Panel 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_scf_simple_floor_panel_001_uv"
-      }
-    }
-    Assets {
-      Id: 935061001246908516
-      Name: "Cone - Truncated Narrow"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_002"
+        AssetId: "sm_ts_scf_base_acc_cap_whole_001_ref"
       }
     }
     Assets {
@@ -1002,56 +930,39 @@
       }
     }
     Assets {
-      Id: 5788799417362559115
-      Name: "Custom Metal Diamond Plates 01"
-      PlatformAssetType: 13
-      CustomMaterialAsset {
-        BaseMaterialId: 13844995264650658061
-        ParameterOverrides {
-          Overrides {
-            Name: "rust_amount"
-            Float: 0.100179777
-          }
-          Overrides {
-            Name: "color_rust"
-            Color {
-              R: 1
-              G: 0.580397367
-              B: 0.279999971
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_color"
-            Color {
-              R: 0.350000024
-              G: 0.194702
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "gradient_shift"
-            Float: 0.00263933884
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 13844995264650658061
-      Name: "Metal Diamond Plates 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_rust_diamond-plate_001"
-      }
-    }
-    Assets {
-      Id: 10518798692866023120
-      Name: "Sci-fi Base Capsule 02 8m"
+      Id: 935061001246908516
+      Name: "Cone - Truncated Narrow"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_scf_base_acc_cap_whole_001_ref"
+        AssetId: "sm_cone_truncated_002"
+      }
+    }
+    Assets {
+      Id: 14380297253967703300
+      Name: "Girder Small 4m"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_girder_19th_century_4m_001"
+      }
+    }
+    Assets {
+      Id: 11162297399913732681
+      Name: "Cube - Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 8270742777843752984
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
       }
     }
     PrimaryAssetId {
@@ -1059,6 +970,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

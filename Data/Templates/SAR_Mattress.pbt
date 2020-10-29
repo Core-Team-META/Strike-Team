@@ -656,12 +656,12 @@
       }
     }
     Assets {
-      Id: 8270742777843752984
-      Name: "Decal Stains Round 01"
-      PlatformAssetType: 14
+      Id: 8847410236676091177
+      Name: "Cube - Rounded - bottom aligned"
+      PlatformAssetType: 1
       PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_round_001"
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_rounded_001"
       }
     }
     Assets {
@@ -674,12 +674,12 @@
       }
     }
     Assets {
-      Id: 8847410236676091177
-      Name: "Cube - Rounded - bottom aligned"
-      PlatformAssetType: 1
+      Id: 8270742777843752984
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
       PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_rounded_001"
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
       }
     }
     PrimaryAssetId {
@@ -687,6 +687,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

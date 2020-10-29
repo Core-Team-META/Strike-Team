@@ -474,21 +474,12 @@
       }
     }
     Assets {
-      Id: 13642204757580273705
-      Name: "Cube - Chamfered Small Polished"
+      Id: 14473260020056395203
+      Name: "Wood 2x4 4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_003"
-      }
-    }
-    Assets {
-      Id: 17493021233879119744
-      Name: "Craftsman Roof 02 Arch"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_sub_craftsman_roof_002_arch"
+        AssetId: "sm_two-by-four_3m"
       }
     }
     Assets {
@@ -501,12 +492,21 @@
       }
     }
     Assets {
-      Id: 14473260020056395203
-      Name: "Wood 2x4 4m"
+      Id: 17493021233879119744
+      Name: "Craftsman Roof 02 Arch"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_two-by-four_3m"
+        AssetId: "sm_urb_sub_craftsman_roof_002_arch"
+      }
+    }
+    Assets {
+      Id: 13642204757580273705
+      Name: "Cube - Chamfered Small Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_hq_003"
       }
     }
     PrimaryAssetId {
@@ -514,6 +514,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true

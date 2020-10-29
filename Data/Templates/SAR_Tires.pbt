@@ -1610,39 +1610,12 @@
       }
     }
     Assets {
-      Id: 8270742777843752984
-      Name: "Decal Stains Round 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_round_001"
-      }
-    }
-    Assets {
-      Id: 16933361490793048899
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
-      }
-    }
-    Assets {
-      Id: 8693171753808980773
-      Name: "Gear - generic large two-spoked"
+      Id: 11036095586913707253
+      Name: "Donut"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_gen_gear_001_spoke2x"
-      }
-    }
-    Assets {
-      Id: 9836084195101250106
-      Name: "Gear - generic small hollow"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_gen_gear_small_001_wide-hole"
+        AssetId: "sm_torus_001"
       }
     }
     Assets {
@@ -1655,12 +1628,39 @@
       }
     }
     Assets {
-      Id: 11036095586913707253
-      Name: "Donut"
+      Id: 9836084195101250106
+      Name: "Gear - generic small hollow"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_torus_001"
+        AssetId: "sm_gen_gear_small_001_wide-hole"
+      }
+    }
+    Assets {
+      Id: 8693171753808980773
+      Name: "Gear - generic large two-spoked"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_gen_gear_001_spoke2x"
+      }
+    }
+    Assets {
+      Id: 16933361490793048899
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
+      }
+    }
+    Assets {
+      Id: 8270742777843752984
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
       }
     }
     PrimaryAssetId {
@@ -1668,6 +1668,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 67
 }
-IncludesAllDependencies: true
