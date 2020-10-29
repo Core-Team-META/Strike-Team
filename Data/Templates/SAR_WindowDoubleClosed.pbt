@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
+        ParentId: 16373807130785117515
         ChildIds: 15316924750711951118
         ChildIds: 9703415271635005953
         ChildIds: 11895365005395668717
@@ -47,8 +47,11 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
+            Y: -20
+            Z: 295
           }
           Rotation {
+            Roll: -89.9999924
           }
           Scale {
             X: 0.49999994
@@ -112,14 +115,13 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.000122070313
-            Y: -290.000519
-            Z: 167.445831
+            Y: -187.445801
+            Z: 4.99951172
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: -4.09811328e-05
+            Yaw: -179.999954
+            Roll: 0.000184415054
           }
           Scale {
             X: 0.5
@@ -183,14 +185,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.000152587891
-            Y: -289.999939
-            Z: -12.5541687
+            X: 0.000244140625
+            Y: -7.44580078
+            Z: 5
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: -4.09811328e-05
+            Yaw: -179.999954
+            Roll: 0.000184415054
           }
           Scale {
             X: 0.5
@@ -254,14 +256,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -0.961792
-            Y: -280.069061
-            Z: -1.31829834
+            X: -0.961914063
+            Y: -18.6816406
+            Z: 14.9311523
           }
           Rotation {
-            Pitch: -2.73207552e-05
-            Yaw: -3.41508189e-06
-            Roll: -5.9764152e-05
+            Pitch: -6.83018879e-06
+            Yaw: 2.73207515e-05
+            Roll: -90.0000534
           }
           Scale {
             X: 0.49999994
@@ -325,14 +327,13 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 9.15527344e-05
-            Y: -290.001129
-            Z: 357.445801
+            Y: -377.445801
+            Z: 4.99902344
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: -4.09811328e-05
+            Yaw: -179.999954
+            Roll: 0.000184415054
           }
           Scale {
             X: 0.5
@@ -396,14 +397,13 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.000122070313
-            Y: -290.000549
-            Z: 177.445831
+            Y: -197.445801
+            Z: 4.99951172
           }
           Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: -4.09811328e-05
+            Yaw: -179.999985
+            Roll: 0.000184415068
           }
           Scale {
             X: 0.5
@@ -467,14 +467,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -0.961792
-            Y: -280.069672
-            Z: 188.681671
+            X: -0.961914063
+            Y: -208.681641
+            Z: 14.9301758
           }
           Rotation {
-            Pitch: -2.73207552e-05
-            Yaw: -3.41508189e-06
-            Roll: -5.9764152e-05
+            Pitch: -6.83018879e-06
+            Yaw: 2.73207515e-05
+            Roll: -90.0000534
           }
           Scale {
             X: 0.49999994
@@ -538,11 +538,11 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -3.05175781e-05
-            Y: -0.000602722168
-            Z: 190
+            Y: -210
+            Z: 294.999512
           }
           Rotation {
+            Roll: -89.9999924
           }
           Scale {
             X: 0.49999994
@@ -606,14 +606,13 @@
         Name: "Whitebox Window Insert - Basic Frame"
         Transform {
           Location {
-            X: 5.0001297
-            Y: -284.999908
-            Z: -22.5541382
+            X: 5.00024414
+            Y: 2.55419922
+            Z: 10
           }
           Rotation {
-            Pitch: 90
-            Yaw: -92.1409
-            Roll: -2.14111328
+            Yaw: -89.9999847
+            Roll: -0.000222164934
           }
           Scale {
             X: 1
@@ -633,6 +632,24 @@
             Name: "ma:Building_WallInner2:id"
             AssetReference {
               Id: 16280113279026806375
+            }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner2:color"
+            Color {
+              R: 0.567000031
+              G: 0.489406079
+              B: 0.345303
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner:color"
+            Color {
+              R: 0.567000031
+              G: 0.489406079
+              B: 0.345303
+              A: 1
             }
           }
         }
@@ -662,14 +679,13 @@
         Name: "Whitebox Window Insert - Basic Frame"
         Transform {
           Location {
-            X: 5.00009155
-            Y: -285.000519
-            Z: 167.445831
+            X: 5
+            Y: -187.445801
+            Z: 9.99951172
           }
           Rotation {
-            Pitch: 90
-            Yaw: -92.1409
-            Roll: -2.14111328
+            Yaw: -89.9999847
+            Roll: -0.000222164934
           }
           Scale {
             X: 1
@@ -689,6 +705,24 @@
             Name: "ma:Building_WallInner2:id"
             AssetReference {
               Id: 16280113279026806375
+            }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner2:color"
+            Color {
+              R: 0.567000031
+              G: 0.489406079
+              B: 0.345303
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner:color"
+            Color {
+              R: 0.567000031
+              G: 0.489406079
+              B: 0.345303
+              A: 1
             }
           }
         }
@@ -718,14 +752,14 @@
         Name: "SAR_WindowDoorsClosedMedium"
         Transform {
           Location {
-            X: 10.0001068
-            Y: -304.999481
-            Z: 74.9989624
+            X: 10
+            Y: -94.9990234
+            Z: -9.99951172
           }
           Rotation {
-            Pitch: 90
-            Yaw: -9.46234131
-            Roll: 80.5374451
+            Pitch: -1.36603776e-05
+            Yaw: -89.9999771
+            Roll: -0.000212505562
           }
           Scale {
             X: 1
@@ -1506,14 +1540,14 @@
         Name: "SAR_WindowDoorsClosedMedium"
         Transform {
           Location {
-            X: 10.0001221
-            Y: -305.000549
-            Z: 267.44574
+            X: 10
+            Y: -287.445801
+            Z: -10.0004883
           }
           Rotation {
-            Pitch: 90
-            Yaw: -9.46234131
-            Roll: 80.5374451
+            Pitch: -1.36603776e-05
+            Yaw: -89.9999771
+            Roll: -0.000212505562
           }
           Scale {
             X: 1
@@ -1574,15 +1608,15 @@
           Location {
             X: 5.36132813
             Y: 4
-            Z: 35.0515747
+            Z: 35.0517578
           }
           Rotation {
             Yaw: 89.9999924
           }
           Scale {
-            X: -0.00642047916
-            Y: 0.599999368
-            Z: 2.65435624
+            X: -0.00642962335
+            Y: 0.600001693
+            Z: 2.56747627
           }
         }
         ParentId: 11863883109528798862
@@ -1641,9 +1675,9 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 3.9296875
-            Y: 5.32714844
-            Z: 285.000092
+            X: 3.92791748
+            Y: 5.33300781
+            Z: 277.361694
           }
           Rotation {
             Yaw: -179.999985
@@ -1718,9 +1752,9 @@
             Yaw: -179.999985
           }
           Scale {
-            X: 0.129069403
-            Y: 0.121098787
-            Z: 2.61263204
+            X: 0.129069477
+            Y: 0.121099018
+            Z: 2.54595232
           }
         }
         ParentId: 11863883109528798862
@@ -2294,11 +2328,12 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 45.9636688
-            Y: 23.4709377
-            Z: -24.7476959
+            X: 35.8950195
+            Y: 5
+            Z: 318.471191
           }
           Rotation {
+            Roll: -89.9999924
           }
           Scale {
             X: 0.572955549
@@ -2362,14 +2397,14 @@
         Name: "Plane"
         Transform {
           Location {
-            X: 10.000061
-            Y: -145.000809
-            Z: 264.999512
+            X: 10
+            Y: -284.999512
+            Z: 149.999023
           }
           Rotation {
-            Pitch: 90
-            Yaw: -92.1313477
-            Roll: 87.8684082
+            Pitch: -6.83018879e-06
+            Yaw: -89.9999695
+            Roll: 89.9997253
           }
           Scale {
             X: 0.4
@@ -2412,14 +2447,14 @@
         Name: "Plane"
         Transform {
           Location {
-            X: 10.000061
-            Y: -145.000244
-            Z: 79.999527
+            X: 10
+            Y: -99.9995117
+            Z: 150
           }
           Rotation {
-            Pitch: 90
-            Yaw: -92.1313477
-            Roll: 87.8684235
+            Pitch: -6.83018879e-06
+            Yaw: -89.9999847
+            Roll: 89.9997559
           }
           Scale {
             X: 0.4
@@ -2462,11 +2497,12 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 45.961937
-            Y: -297.014526
-            Z: -24.7487488
+            X: 35.8930664
+            Y: 5.00097656
+            Z: -2.01416016
           }
           Rotation {
+            Roll: -89.9999924
           }
           Scale {
             X: 0.572955549

@@ -1277,15 +1277,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10290517315936280325
-  Name: "Wood Floor Herringbone Light"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_floor_herringbone_light_001_uv"
-  }
-}
-Assets {
   Id: 10134057492958128464
   Name: "Ivy 05"
   PlatformAssetType: 1

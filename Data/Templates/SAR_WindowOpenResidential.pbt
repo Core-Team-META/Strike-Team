@@ -15,13 +15,14 @@
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
+        ParentId: 16373807130785117515
         ChildIds: 18121002956252431742
         ChildIds: 18242547346825939848
         ChildIds: 2888682508732861027
         ChildIds: 10156510585270169404
         ChildIds: 4812296227012777095
         ChildIds: 1163135062573871556
+        ChildIds: 18040391766688203901
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -37,14 +38,15 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 1.90734863e-06
-            Y: 9.99999809
-            Z: -28.2842655
+            X: -8.30142593
+            Y: -1.46444988
+            Z: 294.999512
           }
           Rotation {
+            Roll: -90
           }
           Scale {
-            X: 0.5
+            X: 0.411142111
             Y: 0.3
             Z: 2.10000014
           }
@@ -105,14 +107,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 3.53552246
-            Y: -294.999573
-            Z: 166.170044
+            X: 3.53564453
+            Y: -195.918457
+            Z: -9.99996948
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: -3.05175781e-05
+            Yaw: -179.999954
+            Roll: 0.000184415054
           }
           Scale {
             X: 0.5
@@ -176,14 +178,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.961921692
-            Y: -292.69751
-            Z: -11.2356873
+            X: 0.961914063
+            Y: -18.5126953
+            Z: -7.69775391
           }
           Rotation {
-            Pitch: 3.4150944e-05
-            Yaw: -179.999969
-            Roll: -89.9998169
+            Pitch: -3.05175781e-05
+            Yaw: -179.999954
+            Roll: 0.000184415054
           }
           Scale {
             X: 0.5
@@ -247,14 +249,13 @@
         Name: "SAR_WindowDoorsClosedMedium"
         Transform {
           Location {
-            X: 10.0001068
-            Y: -304.999481
-            Z: 74.9989624
+            X: 10
+            Y: -104.747559
+            Z: -19.9999695
           }
           Rotation {
-            Pitch: 90
-            Yaw: -9.46234131
-            Roll: 80.5374451
+            Yaw: -89.9999695
+            Roll: -0.000213623047
           }
           Scale {
             X: 1
@@ -1038,11 +1039,12 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 17.6776695
-            Y: 19.9999332
-            Z: -31.8197975
+            X: 21.4296856
+            Y: 2.07128906
+            Z: 304.999512
           }
           Rotation {
+            Roll: -90
           }
           Scale {
             X: 0.7
@@ -1106,16 +1108,16 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 3.53553772
-            Y: -284.999451
-            Z: -24.7487488
+            X: 8.87577724
+            Y: -4.99981117
           }
           Rotation {
+            Roll: -90
           }
           Scale {
-            X: 0.6
+            X: 0.711738527
             Y: 0.3
-            Z: 2.05049896
+            Z: 2.05050254
           }
         }
         ParentId: 10468190069564645179
@@ -1167,6 +1169,35 @@
             Physics {
             }
           }
+        }
+      }
+      Objects {
+        Id: 18040391766688203901
+        Name: "Group"
+        Transform {
+          Location {
+            X: 5
+            Y: -190
+            Z: -30
+          }
+          Rotation {
+            Roll: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10468190069564645179
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
         }
       }
     }

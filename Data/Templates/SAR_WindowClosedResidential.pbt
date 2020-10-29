@@ -37,7 +37,8 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            Y: 8.53515625
+            X: -9.53674316e-07
+            Y: 6.85424137
             Z: 309.998779
           }
           Rotation {
@@ -46,7 +47,7 @@
           Scale {
             X: 0.5
             Y: 0.3
-            Z: 2.10000014
+            Z: 2.13864231
           }
         }
         ParentId: 18236531438999725126
@@ -1102,17 +1103,17 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 25.0878906
-            Y: 5
+            X: 10.6066027
+            Y: 6.93779564
             Z: 15
           }
           Rotation {
             Roll: -90
           }
           Scale {
-            X: 0.572952747
+            X: 0.727822185
             Y: 0.250008225
-            Z: 2.11113119
+            Z: 2.11113477
           }
         }
         ParentId: 18236531438999725126
