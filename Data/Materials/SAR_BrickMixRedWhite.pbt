@@ -7,23 +7,6 @@
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
       Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.436000019
-          G: 0.401287138
-          B: 0.313484
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.0372387841
-      }
-      Overrides {
-        Name: "gradient_falloff"
-        Float: 0.474430829
-      }
-      Overrides {
         Name: "gradient_worldspace"
         Bool: false
       }
