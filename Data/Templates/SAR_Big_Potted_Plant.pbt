@@ -49,7 +49,6 @@
             Z: 12.7666473
           }
           Rotation {
-            Pitch: -1.36603776e-05
             Yaw: 180
             Roll: 180
           }
@@ -64,7 +63,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17896875939226086188
+              Id: 5653586931015645791
             }
           }
           Overrides {
@@ -124,7 +123,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17896875939226086188
+              Id: 5653586931015645791
             }
           }
           Overrides {
@@ -182,7 +181,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14643090495247569259
+              Id: 5653586931015645791
             }
           }
           Overrides {
@@ -719,12 +718,12 @@
       }
     }
     Assets {
-      Id: 17896875939226086188
-      Name: "Rock Obsidian 01"
+      Id: 5653586931015645791
+      Name: "Ceramic Terracotta Pots 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_fresnel_rock_obsidian_001_uv"
+        AssetId: "mi_fan_terracotta_pots_001_uv"
       }
     }
     Assets {
@@ -743,15 +742,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_half_lense_001"
-      }
-    }
-    Assets {
-      Id: 14643090495247569259
-      Name: "Dirt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "dirt_001"
       }
     }
     Assets {

@@ -357,7 +357,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3396001719245941860
+              Id: 13085174305471638229
             }
           }
           Overrides {
@@ -367,9 +367,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -390,7 +390,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 11162297399913732681
+            Id: 12095835209017042614
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -424,7 +424,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3396001719245941860
+              Id: 13085174305471638229
             }
           }
           Overrides {
@@ -434,9 +434,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -457,7 +457,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 11162297399913732681
+            Id: 12095835209017042614
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -490,7 +490,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3396001719245941860
+              Id: 13085174305471638229
             }
           }
           Overrides {
@@ -500,9 +500,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -523,7 +523,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 11162297399913732681
+            Id: 12095835209017042614
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -557,7 +557,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3396001719245941860
+              Id: 13085174305471638229
             }
           }
           Overrides {
@@ -567,9 +567,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -586,7 +586,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 11162297399913732681
+            Id: 12095835209017042614
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -674,6 +674,24 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_iron_003"
+      }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
+      }
+    }
+    Assets {
+      Id: 13085174305471638229
+      Name: "Metal Painted Old 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_painted_old_001_uv"
       }
     }
     Assets {

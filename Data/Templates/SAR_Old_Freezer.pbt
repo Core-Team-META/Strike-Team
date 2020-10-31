@@ -59,7 +59,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2715939630273116812
+              Id: 12323985707452299925
             }
           }
           Overrides {
@@ -70,8 +70,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 0.833907306
-              B: 0.669999957
+              G: 0.780662298
+              B: 0.279999971
               A: 1
             }
           }
@@ -118,7 +118,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2715939630273116812
+              Id: 12323985707452299925
             }
           }
           Overrides {
@@ -129,8 +129,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 0.833907306
-              B: 0.669999957
+              G: 0.780662298
+              B: 0.279999971
               A: 1
             }
           }
@@ -235,7 +235,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2715939630273116812
+              Id: 12323985707452299925
             }
           }
           Overrides {
@@ -245,9 +245,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.029000001
-              G: 0.0241833124
-              B: 0.01943
+              R: 1
+              G: 0.780662298
+              B: 0.279999971
               A: 1
             }
           }

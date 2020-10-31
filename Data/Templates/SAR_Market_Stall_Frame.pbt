@@ -7,7 +7,7 @@
       RootId: 13347763729883849749
       Objects {
         Id: 13347763729883849749
-        Name: "Market Stall Frame"
+        Name: "SAR_Market Stall Frame"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,9 @@
             Z: 1
           }
         }
-        ParentId: 1953268745856848552
+        ParentId: 16373807130785117515
         ChildIds: 2713744969005791818
         ChildIds: 1822471932878911324
-        ChildIds: 12722709485384499311
         ChildIds: 12680148921456305280
         ChildIds: 10639387235292555750
         ChildIds: 1524383547065254683
@@ -36,6 +35,7 @@
         ChildIds: 5494163127623222329
         ChildIds: 8432305063700131698
         ChildIds: 15310449524563900321
+        ChildIds: 17638599694234256080
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -85,8 +85,9 @@
         Name: "Large Wood Beam 8m"
         Transform {
           Location {
-            X: 5.06689453
+            X: 6.52880859
             Y: -241.799316
+            Z: -10.6758041
           }
           Rotation {
             Pitch: 90
@@ -125,8 +126,9 @@
         Name: "Large Wood Beam 8m"
         Transform {
           Location {
-            X: 5.06689453
-            Y: 492.235352
+            X: 5.06672668
+            Y: 492.235046
+            Z: -6.91799927
           }
           Rotation {
             Pitch: 90
@@ -165,8 +167,9 @@
         Name: "Large Wood Beam 8m"
         Transform {
           Location {
-            X: 5.06689453
-            Y: 116.75
+            X: 5.0671196
+            Y: 116.749954
+            Z: -6.91799927
           }
           Rotation {
             Pitch: 90
@@ -380,57 +383,18 @@
         }
       }
       Objects {
-        Id: 12722709485384499311
-        Name: "Small Open Crate"
-        Transform {
-          Location {
-            X: -1.94824219
-            Y: -139.678711
-            Z: 125.506325
-          }
-          Rotation {
-            Yaw: -89.9999924
-            Roll: -18.1703854
-          }
-          Scale {
-            X: 0.903320253
-            Y: 0.650588572
-            Z: 0.607699335
-          }
-        }
-        ParentId: 13347763729883849749
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1739996898153061063
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 12680148921456305280
         Name: "Small Open Crate"
         Transform {
           Location {
             X: -1.94824219
-            Y: -61.6914063
+            Y: -107.037109
             Z: 125.506325
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: -18.1703854
+            Pitch: 21.9523697
+            Yaw: -4.25283813
+            Roll: 0.996416032
           }
           Scale {
             X: 0.903320253
@@ -544,13 +508,14 @@
         Name: "Small Open Crate"
         Transform {
           Location {
-            X: -1.94824219
-            Y: 381.351563
-            Z: 125.506325
+            X: -9.66210938
+            Y: 395.978516
+            Z: 122.974449
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: -18.1703854
+            Pitch: -4.60488892
+            Yaw: -104.20575
+            Roll: -17.5963745
           }
           Scale {
             X: 0.903320253
@@ -584,13 +549,13 @@
         Name: "Small Open Crate"
         Transform {
           Location {
-            X: -1.94824219
-            Y: 224.545898
-            Z: 125.506325
+            X: 15
+            Y: 225
+            Z: 129.999939
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: -18.1703854
+            Yaw: -90
+            Roll: -18.1703796
           }
           Scale {
             X: 0.903320253
@@ -1080,6 +1045,46 @@
         CoreMesh {
           MeshAsset {
             Id: 1739996898153061063
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17638599694234256080
+        Name: "Large Wood Beam 8m"
+        Transform {
+          Location {
+            X: 24.9999619
+            Y: 105.000008
+            Z: 107.40789
+          }
+          Rotation {
+            Yaw: 89.9999695
+            Roll: 10.8472633
+          }
+          Scale {
+            X: 0.375611633
+            Y: 0.15063028
+            Z: 0.551515579
+          }
+        }
+        ParentId: 13347763729883849749
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4437160827424791669
           }
           Teams {
             IsTeamCollisionEnabled: true

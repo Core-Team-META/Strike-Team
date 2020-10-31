@@ -7,7 +7,7 @@
       RootId: 2812305585066073476
       Objects {
         Id: 2812305585066073476
-        Name: "OldWasher"
+        Name: "SAR_OldWasher"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 8571211272006611107
+        ParentId: 4781671109827199097
         ChildIds: 238400269143377226
         ChildIds: 13832904071215217749
         ChildIds: 7418588941088093172
@@ -379,12 +379,9 @@
           }
         }
         ParentId: 2812305585066073476
-        ChildIds: 6792328432555643643
         ChildIds: 16370250471240634470
         ChildIds: 14297105302663541686
         ChildIds: 15382663989352412909
-        ChildIds: 7434696095042575471
-        ChildIds: 16649439441127972242
         ChildIds: 16101160058252126125
         ChildIds: 15649836106358973753
         ChildIds: 4666136110311801614
@@ -405,44 +402,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6792328432555643643
-        Name: "Decal Moss Patch"
-        Transform {
-          Location {
-            X: 52.4730263
-            Y: 2.21630859
-            Z: 105.301086
-          }
-          Rotation {
-            Yaw: -89.9999924
-            Roll: 89.9998703
-          }
-          Scale {
-            X: 0.325350076
-            Y: 0.374271274
-            Z: 0.134334043
-          }
-        }
-        ParentId: 13832904071215217749
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16775729324219786789
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
         }
       }
       Objects {
@@ -573,75 +532,6 @@
         }
       }
       Objects {
-        Id: 7434696095042575471
-        Name: "Decal Moss Patch"
-        Transform {
-          Location {
-            X: 38.8687744
-            Y: 23.6203613
-            Z: 156.035461
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.141719565
-            Y: 0.141719565
-            Z: 0.141719565
-          }
-        }
-        ParentId: 13832904071215217749
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16775729324219786789
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 16649439441127972242
-        Name: "Decal Moss Patch"
-        Transform {
-          Location {
-            X: 40.7887726
-            Y: -4.50854492
-            Z: 156.035461
-          }
-          Rotation {
-            Yaw: 56.9043846
-          }
-          Scale {
-            X: 0.141719565
-            Y: 0.141719565
-            Z: 0.141719565
-          }
-        }
-        ParentId: 13832904071215217749
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16775729324219786789
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
         Id: 16101160058252126125
         Name: "Decal Stains Round 01"
         Transform {
@@ -682,18 +572,18 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 57.3841476
-            Y: 32.3383789
-            Z: 23.569603
+            X: 55.3898048
+            Y: 9.97821236
+            Z: 46.2866058
           }
           Rotation {
-            Yaw: -89.9999924
+            Yaw: -90
             Roll: 89.9999466
           }
           Scale {
-            X: 0.160434633
-            Y: 0.160434633
-            Z: 0.160434633
+            X: 0.2
+            Y: 0.4
+            Z: 0.2
           }
         }
         ParentId: 13832904071215217749
@@ -2172,15 +2062,6 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_moss_001_uv"
-      }
-    }
-    Assets {
-      Id: 16775729324219786789
-      Name: "Decal Moss Patch"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_moss_patch_001"
       }
     }
     Assets {

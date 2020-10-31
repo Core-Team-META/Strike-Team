@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18014941405078390650
+  Name: "Kelp Tall Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_kelp_tall_bush_01"
+  }
+}
+Assets {
   Id: 18005806658245892960
   Name: "Decal Stains Top 01"
   PlatformAssetType: 14
@@ -89,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17829956314758502204
+  Name: "Ellipsoid - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_truncated_001"
+  }
+}
+Assets {
   Id: 17828004970017454132
   Name: "Text 01: Y"
   PlatformAssetType: 1
@@ -104,15 +122,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_001"
-  }
-}
-Assets {
-  Id: 17674899513825131923
-  Name: "Pyramid - 4-Sided Truncated Hollow Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_4_sided_truncated_hollow_thick_001"
   }
 }
 Assets {
@@ -185,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_signbracket_round_001"
+  }
+}
+Assets {
+  Id: 16868128301849728287
+  Name: "Text 06: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_027"
   }
 }
 Assets {
@@ -314,6 +332,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16402944291752128359
+  Name: "Lens - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_lense_001"
+  }
+}
+Assets {
   Id: 16169522450405576987
   Name: "Cone - Truncated"
   PlatformAssetType: 1
@@ -356,6 +383,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
+  Id: 16068473372521218516
+  Name: "Cabinet - Upper"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_001"
   }
 }
 Assets {
@@ -410,6 +446,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_rust_diamond-plate_002"
+  }
+}
+Assets {
+  Id: 15799450904369931688
+  Name: "Text 06: B"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_001"
   }
 }
 Assets {
@@ -491,6 +536,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ring_faceted_002"
+  }
+}
+Assets {
+  Id: 15311550138640852139
+  Name: "Cone - Truncated Hollow Concave"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_convex_001"
   }
 }
 Assets {
@@ -599,6 +653,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_bullet_wood_001"
+  }
+}
+Assets {
+  Id: 14643090495247569259
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
 Assets {
@@ -743,6 +806,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_rounded_001"
+  }
+}
+Assets {
+  Id: 13810683256700423382
+  Name: "Urban Pipe Coupling 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
   }
 }
 Assets {
@@ -935,12 +1007,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12922564793841951858
+  Name: "Fantasy Human Gal 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_001_ref"
+  }
+}
+Assets {
   Id: 12905923173550510229
   Name: "Cylinder - Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_test_001"
+  }
+}
+Assets {
+  Id: 12892959837975079301
+  Name: "Sci-fi Console Screen 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_004_ref"
   }
 }
 Assets {
@@ -998,6 +1088,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12617664793519417206
+  Name: "Cone - Truncated Concave"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_concave_001"
+  }
+}
+Assets {
   Id: 12610149741243116648
   Name: "Urban Pipe Coupling 05"
   PlatformAssetType: 1
@@ -1049,6 +1148,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pyramid_truncated_hq_001"
+  }
+}
+Assets {
+  Id: 12484798020569700940
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
   }
 }
 Assets {
@@ -1421,6 +1529,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10378479423839914021
+  Name: "Metal Iron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_001"
+  }
+}
+Assets {
   Id: 10329954110938891035
   Name: "Text 04: D"
   PlatformAssetType: 1
@@ -1592,15 +1709,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9264199874234761630
-  Name: "Crescent - 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crescent_003"
-  }
-}
-Assets {
   Id: 9244087183072239885
   Name: "Glass 01"
   PlatformAssetType: 2
@@ -1745,12 +1853,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8264236312157117638
-  Name: "Pipe Curved 90 Large"
-  PlatformAssetType: 1
+  Id: 8255770948128779959
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_curve90_002"
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
   }
 }
 Assets {
@@ -1850,15 +1958,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_rounded_001"
-  }
-}
-Assets {
-  Id: 7718014147298196068
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -1988,6 +2087,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6855011683502292403
+  Name: "Text 06: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_000"
+  }
+}
+Assets {
   Id: 6842182368712984865
   Name: "^"
   PlatformAssetType: 1
@@ -2006,12 +2114,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6562906316860330309
+  Name: "Text 06: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_011"
+  }
+}
+Assets {
   Id: 6541869078320299860
   Name: "Branches Cluster Medium"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_branches_medium_001"
+  }
+}
+Assets {
+  Id: 6540545606237595083
+  Name: "Bottle 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_bottle_001"
   }
 }
 Assets {
@@ -2123,12 +2249,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5814329836194446418
+  Name: "Wood Planks White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_white_001_uv"
+  }
+}
+Assets {
   Id: 5717544946372160630
   Name: "Scifi Cockpit Back 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_cockpit_back_001_ref"
+  }
+}
+Assets {
+  Id: 5704998740082466501
+  Name: "Fern 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_004"
   }
 }
 Assets {
@@ -2255,24 +2399,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_008"
-  }
-}
-Assets {
-  Id: 4880170813277602281
-  Name: "Car Paint 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_car-paint_001"
-  }
-}
-Assets {
-  Id: 4854270377050611262
-  Name: "Pipe"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_001"
   }
 }
 Assets {
@@ -2438,6 +2564,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3702365963781758101
+  Name: "Teardrop - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_truncated_teardrop_001"
+  }
+}
+Assets {
   Id: 3591426441437721646
   Name: "Pipe - Half Thin"
   PlatformAssetType: 1
@@ -2483,6 +2618,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3433416882178080463
+  Name: "Street Sign - Rectangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street-sign_rectangle_001"
+  }
+}
+Assets {
   Id: 3396001719245941860
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -2498,6 +2642,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_skull_01_ref"
+  }
+}
+Assets {
+  Id: 3249839256999270199
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
   }
 }
 Assets {
@@ -2597,6 +2750,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_rust_diamond-plate_002"
+  }
+}
+Assets {
+  Id: 2715939630273116812
+  Name: "Ceramic Terracotta Pots Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_002_uv"
   }
 }
 Assets {
