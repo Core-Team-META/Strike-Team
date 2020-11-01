@@ -2,7 +2,7 @@
   Id: 11092500421190767333
   Name: "Custom Base Material from Modern Weapon Accessory - Rail 01"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 8874565153702541199
     ParameterOverrides {

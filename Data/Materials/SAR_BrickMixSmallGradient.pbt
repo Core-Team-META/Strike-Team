@@ -1,18 +1,27 @@
 ﻿Assets {
-  Id: 2946846378138735618
-  Name: "SAR_BrickMortarPlaster"
+  Id: 176336906599936429
+  Name: "SAR_BrickMixSmallGradient"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
+      Overrides {
+        Name: "gradient_color"
+        Color {
+          R: 0.436000019
+          G: 0.436000019
+          B: 0.436000019
+          A: 1
+        }
+      }
       Overrides {
         Name: "gradient_shift"
         Float: 0
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0
+        Float: 0.48775813
       }
       Overrides {
         Name: "gradient_worldspace"
@@ -38,13 +47,17 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.686781228
+        Float: 0.452144563
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 4247430867898109902
+          Id: 11627215628706112418
         }
+      }
+      Overrides {
+        Name: "material2_scale"
+        Float: 2
       }
     }
     Assets {
@@ -66,12 +79,12 @@
       }
     }
     Assets {
-      Id: 4247430867898109902
-      Name: "Stucco Tintable"
+      Id: 11627215628706112418
+      Name: "Bricks Wall Flat 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_tint_001_uv"
+        AssetId: "mi_brick_wall_flat_001"
       }
     }
   }

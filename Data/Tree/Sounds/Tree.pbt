@@ -36,12 +36,6 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 14597824538265811925
-    SubobjectId: 1270338593054345880
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 10848999214779277671
@@ -77,12 +71,6 @@ Objects {
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 10848999214779277671
-    SubobjectId: 5601248018251649066
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -121,12 +109,6 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 1975867344146275578
-    SubobjectId: 13861924394081398199
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 13394807333191534516
@@ -163,12 +145,6 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 13394807333191534516
-    SubobjectId: 7122205756241540857
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 7670926716389040774
@@ -204,11 +180,5 @@ Objects {
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 7670926716389040774
-    SubobjectId: 12772306536051839947
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }

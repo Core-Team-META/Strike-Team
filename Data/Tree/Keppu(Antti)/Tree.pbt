@@ -1108,6 +1108,20 @@ Objects {
   ParentId: 15084389731420460127
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2881406341628859226
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.567000031
+            G: 0.567000031
+            B: 0.567000031
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 3954555981650091361
       value {
         Overrides {
@@ -1134,6 +1148,20 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6087073030442801397
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.567000031
+            G: 0.567000031
+            B: 0.567000031
+            A: 1
           }
         }
       }
@@ -1218,6 +1246,20 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2881406341628859226
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.567000031
+            G: 0.567000031
+            B: 0.567000031
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 3954555981650091361
       value {
         Overrides {
@@ -1244,6 +1286,20 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6087073030442801397
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.567000031
+            G: 0.567000031
+            B: 0.567000031
+            A: 1
           }
         }
       }
@@ -1278,6 +1334,127 @@ Objects {
       AssetReference {
         Id: 14457488546648838430
       }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17089571245181675188
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 10848.085
+      Y: -9560
+      Z: 2445
+    }
+    Rotation {
+      Yaw: 180
+      Roll: 22.4996414
+    }
+    Scale {
+      X: 27.6448
+      Y: 9.10071945
+      Z: 0.0428390913
+    }
+  }
+  ParentId: 15084389731420460127
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13171200732535708403
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 1.84604275
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3.02433729
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11834978435167729199
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 10848.085
+      Y: -8725
+      Z: 2445
+    }
+    Rotation {
+      Roll: 22.4998112
+    }
+    Scale {
+      X: 27.6448
+      Y: 9.10071945
+      Z: 0.0428390913
+    }
+  }
+  ParentId: 15084389731420460127
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13171200732535708403
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 1.84604275
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 3.02433729
     }
   }
   Collidable_v2 {

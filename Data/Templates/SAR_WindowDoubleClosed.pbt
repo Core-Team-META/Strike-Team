@@ -83,8 +83,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -153,8 +153,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -224,8 +224,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -295,8 +295,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -365,8 +365,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -435,8 +435,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -506,8 +506,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -574,8 +574,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -842,8 +842,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -923,8 +923,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -992,8 +992,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1061,8 +1061,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1130,8 +1130,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1220,8 +1220,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1301,8 +1301,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1370,8 +1370,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1439,8 +1439,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1508,8 +1508,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1631,8 +1631,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1712,8 +1712,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1781,8 +1781,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1850,8 +1850,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -1919,8 +1919,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2008,8 +2008,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2089,8 +2089,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2158,8 +2158,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2227,8 +2227,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2296,8 +2296,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.567000031
-              G: 0.567000031
-              B: 0.567000031
+              G: 0.489406079
+              B: 0.345303
               A: 1
             }
           }
@@ -2612,5 +2612,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 67
+  SerializationVersion: 68
 }

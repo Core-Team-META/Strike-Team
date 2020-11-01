@@ -1,8 +1,8 @@
 ﻿Assets {
-  Id: 12108691033992984612
-  Name: "SAR_BrickMoreMortar"
+  Id: 1036725943543811742
+  Name: "SAR_BrickMix"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -38,17 +38,13 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.452144563
+        Float: 0.330782026
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
           Id: 11627215628706112418
         }
-      }
-      Overrides {
-        Name: "material2_scale"
-        Float: 2
       }
     }
     Assets {

@@ -1,8 +1,8 @@
 ﻿Assets {
-  Id: 17500648384538540572
-  Name: "SAR_BricksBig"
+  Id: 12108691033992984612
+  Name: "SAR_BrickMixSmall"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -38,7 +38,7 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.330782026
+        Float: 0.452144563
       }
       Overrides {
         Name: "cmp:Material2"
@@ -47,30 +47,8 @@
         }
       }
       Overrides {
-        Name: "material1_scale"
-        Float: 0.5
-      }
-      Overrides {
         Name: "material2_scale"
-        Float: 0.5
-      }
-      Overrides {
-        Name: "cmpc:Material1"
-        Color {
-          R: 0.452000022
-          G: 0.452000022
-          B: 0.452000022
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "cmpc:Material2"
-        Color {
-          R: 0.326
-          G: 0.309015393
-          B: 0.156153992
-          A: 1
-        }
+        Float: 2
       }
     }
     Assets {

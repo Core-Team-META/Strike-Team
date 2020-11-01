@@ -285,5 +285,5 @@
       AssetId: "Sign_-_Pedestrian_Crossing"
     }
   }
-  SerializationVersion: 67
+  SerializationVersion: 68
 }

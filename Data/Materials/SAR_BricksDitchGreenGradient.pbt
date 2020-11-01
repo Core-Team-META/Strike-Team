@@ -1,27 +1,27 @@
 ﻿Assets {
-  Id: 176336906599936429
-  Name: "SAR_BrickMoreMortarGradient"
+  Id: 6817137537984669908
+  Name: "SAR_BricksDitchGreenGradient"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
       Overrides {
         Name: "gradient_color"
         Color {
-          R: 0.436000019
-          G: 0.436000019
-          B: 0.436000019
+          R: 0.311000019
+          G: 0.303432375
+          B: 0.197485015
           A: 1
         }
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0
+        Float: 0.349518806
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.48775813
+        Float: 0.736746073
       }
       Overrides {
         Name: "gradient_worldspace"
@@ -47,7 +47,7 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.452144563
+        Float: 0.330782026
       }
       Overrides {
         Name: "cmp:Material2"
@@ -56,8 +56,12 @@
         }
       }
       Overrides {
+        Name: "material1_scale"
+        Float: 1
+      }
+      Overrides {
         Name: "material2_scale"
-        Float: 2
+        Float: 1
       }
     }
     Assets {

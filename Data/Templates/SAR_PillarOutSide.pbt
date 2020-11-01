@@ -50,19 +50,19 @@
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 15210171892498863686
+              Id: 1036725943543811742
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15210171892498863686
+              Id: 1036725943543811742
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 2831195365620696759
+              Id: 1036725943543811742
             }
           }
           Overrides {
@@ -121,7 +121,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15210171892498863686
+              Id: 1036725943543811742
             }
           }
         }
@@ -153,14 +153,14 @@
           Location {
             X: 5
             Y: -5
-            Z: 855
+            Z: 860
           }
           Rotation {
           }
           Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
+            X: 1.2
+            Y: 1.2
+            Z: 1.2
           }
         }
         ParentId: 2952799863943722561
@@ -204,21 +204,21 @@
       }
     }
     Assets {
-      Id: 15210171892498863686
-      Name: "Bricks Mortar Thick 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_bricks_mortar_001_uv"
-      }
-    }
-    Assets {
       Id: 7822473577673662489
       Name: "Fantasy Castle Pillar 01 Mid"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_fan_cas_pillar_001_mid"
+      }
+    }
+    Assets {
+      Id: 15210171892498863686
+      Name: "Bricks Mortar Thick 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_bricks_mortar_001_uv"
       }
     }
     Assets {
@@ -235,5 +235,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 67
+  SerializationVersion: 68
 }

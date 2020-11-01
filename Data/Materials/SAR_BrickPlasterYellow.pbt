@@ -1,27 +1,18 @@
 ﻿Assets {
-  Id: 6817137537984669908
-  Name: "SAR_BrickMortarStrongGradient"
+  Id: 257782221353076758
+  Name: "SAR_BrickPlasterYellow"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
       Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.311000019
-          G: 0.303432375
-          B: 0.197485015
-          A: 1
-        }
-      }
-      Overrides {
         Name: "gradient_shift"
-        Float: 0.349518806
+        Float: 0
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.736746073
+        Float: 0
       }
       Overrides {
         Name: "gradient_worldspace"
@@ -47,21 +38,26 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.330782026
+        Float: 0.549378037
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 11627215628706112418
+          Id: 2758266643690185227
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material2"
+        Color {
+          R: 0.793049395
+          G: 0.736920059
+          B: 0.890000045
+          A: 1
         }
       }
       Overrides {
         Name: "material1_scale"
-        Float: 1
-      }
-      Overrides {
-        Name: "material2_scale"
-        Float: 1
+        Float: 2
       }
     }
     Assets {
@@ -83,12 +79,12 @@
       }
     }
     Assets {
-      Id: 11627215628706112418
-      Name: "Bricks Wall Flat 01"
+      Id: 2758266643690185227
+      Name: "Stucco Wall"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_brick_wall_flat_001"
+        AssetId: "mi_stucco_001_uv"
       }
     }
   }

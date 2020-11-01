@@ -46,12 +46,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6080951261083311730
-    SubobjectId: 10328762612962864959
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 7743745926790155619
@@ -92,11 +86,5 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7743745926790155619
-    SubobjectId: 12701151294759222318
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }

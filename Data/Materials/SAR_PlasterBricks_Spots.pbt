@@ -2,7 +2,7 @@
   Id: 1526264640232633132
   Name: "SAR_PlasterBricks_Spots"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

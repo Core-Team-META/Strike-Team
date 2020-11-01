@@ -2,7 +2,7 @@
   Id: 5281190641049283644
   Name: "SAR_Cloth01"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 11541705719099405078
     ParameterOverrides {

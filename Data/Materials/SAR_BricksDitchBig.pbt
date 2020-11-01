@@ -1,8 +1,8 @@
 ﻿Assets {
-  Id: 257782221353076758
-  Name: "SAR_BrickDefaultPlaster"
+  Id: 17500648384538540572
+  Name: "SAR_BricksDitchBig"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -38,26 +38,39 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.549378037
+        Float: 0.330782026
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 2758266643690185227
+          Id: 11627215628706112418
+        }
+      }
+      Overrides {
+        Name: "material1_scale"
+        Float: 0.5
+      }
+      Overrides {
+        Name: "material2_scale"
+        Float: 0.5
+      }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
+          R: 0.452000022
+          G: 0.452000022
+          B: 0.452000022
+          A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 0.793049395
-          G: 0.736920059
-          B: 0.890000045
+          R: 0.326
+          G: 0.309015393
+          B: 0.156153992
           A: 1
         }
-      }
-      Overrides {
-        Name: "material1_scale"
-        Float: 2
       }
     }
     Assets {
@@ -79,12 +92,12 @@
       }
     }
     Assets {
-      Id: 2758266643690185227
-      Name: "Stucco Wall"
+      Id: 11627215628706112418
+      Name: "Bricks Wall Flat 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_001_uv"
+        AssetId: "mi_brick_wall_flat_001"
       }
     }
   }

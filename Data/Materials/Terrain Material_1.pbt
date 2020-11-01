@@ -2,7 +2,7 @@
   Id: 12677512695886412351
   Name: "Terrain Material_1"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 1766288375643485995
     ParameterOverrides {
@@ -45,22 +45,22 @@
       Overrides {
         Name: "cmp:Material3"
         AssetReference {
-          Id: 3756141379889822314
+          Id: 3713504403173644544
         }
       }
       Overrides {
         Name: "cmpc:Material3"
         Color {
-          R: 0.755000055
-          G: 0.617000043
-          B: 0.302000016
+          R: 1
+          G: 0.688733339
+          B: 0.332999885
           A: 1
         }
       }
       Overrides {
         Name: "cmp:Material3_Sides"
         AssetReference {
-          Id: 3756141379889822314
+          Id: 3713504403173644544
         }
       }
       Overrides {
@@ -78,11 +78,11 @@
       }
       Overrides {
         Name: "material3_genmask"
-        Float: 1
+        Float: 0.5
       }
       Overrides {
         Name: "material3_scale"
-        Float: 0.5
+        Float: 2
       }
       Overrides {
         Name: "material1_scale"
@@ -100,6 +100,10 @@
           B: 0.501270056
           A: 1
         }
+      }
+      Overrides {
+        Name: "material3side_scale"
+        Float: 2
       }
     }
     Assets {
@@ -166,21 +170,21 @@
       }
     }
     Assets {
-      Id: 3756141379889822314
-      Name: "Sand 01"
+      Id: 3713504403173644544
+      Name: "Rocky Ground 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_sand_001_uv"
+        AssetId: "rocky_001"
       }
     }
     Assets {
-      Id: 3756141379889822314
-      Name: "Sand 01"
+      Id: 3713504403173644544
+      Name: "Rocky Ground 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_sand_001_uv"
+        AssetId: "rocky_001"
       }
     }
   }

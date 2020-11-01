@@ -51,12 +51,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13558151039087041027
-    SubobjectId: 7430086861404072782
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 17499621894939788886
@@ -108,12 +102,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17499621894939788886
-    SubobjectId: 3021888197318801179
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -167,12 +155,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11241010296055574962
-    SubobjectId: 5130960509466542335
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 2196305160925051890
@@ -224,12 +206,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2196305160925051890
-    SubobjectId: 14217325001738177215
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -288,12 +264,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6614104260072483164
-    SubobjectId: 9295085360921810961
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -354,12 +324,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8065365418555326543
-    SubobjectId: 13031496709998178562
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 3426341959886567173
@@ -418,12 +382,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3426341959886567173
-    SubobjectId: 17633859667855984200
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -484,12 +442,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8465118730670027657
-    SubobjectId: 12560229890571272900
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 6149203408982019709
@@ -548,12 +500,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6149203408982019709
-    SubobjectId: 10259931954712919856
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 3354633511440356357
@@ -611,12 +557,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 3354633511440356357
-    SubobjectId: 17706692813618357576
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -677,12 +617,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12840806535600207996
-    SubobjectId: 7568149269780089137
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 16959156263347400675
@@ -741,12 +675,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16959156263347400675
-    SubobjectId: 3490224770912394926
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 180159009096371580
@@ -804,12 +732,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 180159009096371580
-    SubobjectId: 15687391557075319857
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }
 Objects {
@@ -870,12 +792,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5818987576422705091
-    SubobjectId: 10085231328598365838
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
-  }
 }
 Objects {
   Id: 4843468303513708756
@@ -933,11 +849,5 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4843468303513708756
-    SubobjectId: 10953799834437769625
-    InstanceId: 8622477172037435947
-    TemplateId: 4046581150182523328
   }
 }

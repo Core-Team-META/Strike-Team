@@ -2497,6 +2497,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 67
+  SerializationVersion: 68
   DirectlyPublished: true
 }

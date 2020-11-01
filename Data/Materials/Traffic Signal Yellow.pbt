@@ -2,7 +2,7 @@
   Id: 4266211963032573870
   Name: "Traffic Signal Yellow"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 13281635528469464144
     ParameterOverrides {

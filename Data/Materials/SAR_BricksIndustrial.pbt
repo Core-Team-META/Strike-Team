@@ -1,28 +1,11 @@
 ﻿Assets {
-  Id: 2831195365620696759
-  Name: "SAR_BrickPlasterDefault"
+  Id: 9524317757610818993
+  Name: "SAR_BricksIndustrial"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
-      Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.248000011
-          G: 0.248000011
-          B: 0.248000011
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0
-      }
-      Overrides {
-        Name: "gradient_falloff"
-        Float: 0
-      }
       Overrides {
         Name: "gradient_worldspace"
         Bool: false
@@ -42,18 +25,30 @@
       Overrides {
         Name: "cmp:Material1"
         AssetReference {
-          Id: 15210171892498863686
+          Id: 8384112962392952594
         }
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.330782026
+        Float: 0.324536413
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
           Id: 11627215628706112418
         }
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1.34417534
+      }
+      Overrides {
+        Name: "material1_scale"
+        Float: 2
+      }
+      Overrides {
+        Name: "material2_scale"
+        Float: 2
       }
     }
     Assets {
@@ -66,12 +61,12 @@
       }
     }
     Assets {
-      Id: 15210171892498863686
-      Name: "Bricks Mortar Thick 01"
+      Id: 8384112962392952594
+      Name: "Brick Wall Sandstone 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_bricks_mortar_001_uv"
+        AssetId: "mi_brick_sandstone_wall_face_001"
       }
     }
     Assets {

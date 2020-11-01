@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 14344424322214149797
-  Name: "SAR_BarrelRusty"
+  Name: "SAR_Barrel"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -421,5 +421,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 67
+  SerializationVersion: 68
 }

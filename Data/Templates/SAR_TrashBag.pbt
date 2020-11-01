@@ -35,7 +35,7 @@
           Location {
             X: -6.8581543
             Y: -4.55664063
-            Z: 120.832909
+            Z: 70
           }
           Rotation {
             Yaw: 126.164719
@@ -100,8 +100,8 @@
         Transform {
           Location {
             X: -6.00512695
-            Y: -6.80643368
-            Z: 71.8394852
+            Y: -6.80664063
+            Z: 20
           }
           Rotation {
             Pitch: 10.8043957
@@ -181,5 +181,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 67
+  SerializationVersion: 68
 }

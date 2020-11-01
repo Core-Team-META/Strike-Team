@@ -2,7 +2,7 @@
   Id: 8633185090194859931
   Name: "Metal Green"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 215340117871446266
     ParameterOverrides {

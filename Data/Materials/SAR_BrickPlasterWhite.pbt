@@ -1,8 +1,8 @@
 ﻿Assets {
-  Id: 1036725943543811742
-  Name: "SAR_BrickMortar"
+  Id: 2946846378138735618
+  Name: "SAR_BrickPlasterWhite"
   PlatformAssetType: 13
-  SerializationVersion: 67
+  SerializationVersion: 68
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -38,12 +38,12 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.330782026
+        Float: 0.686781228
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 11627215628706112418
+          Id: 4247430867898109902
         }
       }
     }
@@ -66,12 +66,12 @@
       }
     }
     Assets {
-      Id: 11627215628706112418
-      Name: "Bricks Wall Flat 01"
+      Id: 4247430867898109902
+      Name: "Stucco Tintable"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_brick_wall_flat_001"
+        AssetId: "mi_stucco_tint_001_uv"
       }
     }
   }
