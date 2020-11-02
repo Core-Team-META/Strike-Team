@@ -1,5 +1,5 @@
 ﻿Assets {
-  Id: 257782221353076758
+  Id: 2946846378138735618
   Name: "SAR_BrickPlasterYellow"
   PlatformAssetType: 13
   SerializationVersion: 68
@@ -38,26 +38,13 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.549378037
+        Float: 0.686781228
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 2758266643690185227
+          Id: 4247430867898109902
         }
-      }
-      Overrides {
-        Name: "cmpc:Material2"
-        Color {
-          R: 0.793049395
-          G: 0.736920059
-          B: 0.890000045
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "material1_scale"
-        Float: 2
       }
     }
     Assets {
@@ -79,12 +66,12 @@
       }
     }
     Assets {
-      Id: 2758266643690185227
-      Name: "Stucco Wall"
+      Id: 4247430867898109902
+      Name: "Stucco Tintable"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_001_uv"
+        AssetId: "mi_stucco_tint_001_uv"
       }
     }
   }

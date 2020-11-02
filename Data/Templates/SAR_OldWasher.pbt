@@ -22,7 +22,6 @@
         ChildIds: 8140697872344978958
         ChildIds: 8432875406742375362
         ChildIds: 3166988338317641089
-        ChildIds: 2292953436669994493
         ChildIds: 12122487200276330517
         ChildIds: 18345156207671789609
         ChildIds: 14877525523923744856
@@ -1204,54 +1203,6 @@
         }
       }
       Objects {
-        Id: 2292953436669994493
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 22.5000381
-            Y: -18.5759277
-            Z: 116.06057
-          }
-          Rotation {
-            Pitch: 90
-          }
-          Scale {
-            X: 0.619336128
-            Y: 0.619336188
-            Z: -0.0141493008
-          }
-        }
-        ParentId: 2812305585066073476
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9244087183072239885
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5920223932982244516
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 12122487200276330517
         Name: "Craftsman Roof 02 Arch"
         Transform {
@@ -2143,24 +2094,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_pipe_004"
-      }
-    }
-    Assets {
-      Id: 5920223932982244516
-      Name: "Cylinder"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_002"
-      }
-    }
-    Assets {
-      Id: 9244087183072239885
-      Name: "Glass 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_glass_refrac_001"
       }
     }
     Assets {

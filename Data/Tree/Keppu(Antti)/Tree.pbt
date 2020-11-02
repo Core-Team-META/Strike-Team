@@ -1,6 +1,149 @@
 ﻿Name: "Keppu(Antti)"
 RootId: 15084389731420460127
 Objects {
+  Id: 14806839853287381188
+  Name: "Whitebox Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 6220
+      Y: 3475
+      Z: 436.013123
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 0.4
+      Y: 4.00000095
+      Z: 0.6
+    }
+  }
+  ParentId: 15084389731420460127
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 8173848993185204084
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Floor:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Building_Floor:vtile"
+      Float: 2.44048858
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5078240311733915528
+  Name: "Whitebox Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 7122.53809
+      Y: 3814.73828
+      Z: 436.013123
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.4
+      Y: 9.58916283
+      Z: 0.6
+    }
+  }
+  ParentId: 15084389731420460127
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 8173848993185204084
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Floor:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Building_Floor:vtile"
+      Float: 2.44048858
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 6214617470805368512
   Name: "Arch"
   Transform {
@@ -147,108 +290,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7682107273458549781
-  Name: "SAR_Door01"
-  Transform {
-    Location {
-      X: 3440
-      Y: 12295
-      Z: 615
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11864754703862499566
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Door01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4565
-            Y: 5730
-            Z: 500
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15122506977501745679
-    }
-  }
-}
-Objects {
-  Id: 9912510278143895282
-  Name: "SAR_Door01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11864754703862499566
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Door01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3405
-            Y: 5735
-            Z: 500
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15122506977501745679
-    }
-  }
-}
-Objects {
   Id: 9358575459905744847
   Name: "SAR_WindowOpenResidential"
   Transform {
@@ -361,54 +402,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12516786631097924263
-  Name: "SAR_WindowClosedResidential"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 18236531438999725126
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_WindowClosedResidential"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3890
-            Y: 5990
-            Z: 635
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3999691626989080493
-    }
-  }
-}
-Objects {
   Id: 9057029559520872414
   Name: "SAR_WindowOpenResidential"
   Transform {
@@ -438,7 +431,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4095
+            X: 4090
             Y: 4275
             Z: 630
           }
@@ -446,7 +439,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999924
+            Yaw: -90
           }
         }
         Overrides {
@@ -459,58 +452,15 @@ Objects {
         }
       }
     }
-    TemplateAsset {
-      Id: 8919921038626765735
-    }
-  }
-}
-Objects {
-  Id: 7560977000495550414
-  Name: "SAR_WindowOpenResidential"
-  Transform {
-    Location {
-      X: 3385
-      Y: 11465
-      Z: 745
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
     ParameterOverrideMap {
-      key: 10468190069564645179
+      key: 15754583441020792724
       value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_WindowOpenResidential"
-        }
         Overrides {
           Name: "Position"
           Vector {
-            X: 3690
-            Y: 4275
-            Z: 630
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 80.2524414
+            Y: 44.9990234
+            Z: -0.000122070313
           }
         }
       }
@@ -1466,6 +1416,78 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3433596566587875158
+  Name: "Whitebox Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 6785
+      Y: 3345
+      Z: 436.013123
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.4
+      Y: 8.90000057
+      Z: 0.6
+    }
+  }
+  ParentId: 15084389731420460127
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 8173848993185204084
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Floor:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Building_Floor:vtile"
+      Float: 2.44048858
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true

@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18033389860248816225
+  Name: "Craftsman Interior Door 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_door_002"
+  }
+}
+Assets {
   Id: 18028822145942940452
   Name: "Metal Diamond Plates 01"
   PlatformAssetType: 2
@@ -275,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_000"
+  }
+}
+Assets {
+  Id: 16659134902607601101
+  Name: "Urban Damaged Concrete Panel 02 - 8x8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_002_8x8m_ref"
   }
 }
 Assets {
@@ -584,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15213960724393536037
+  Name: "Fantasy Human Guy 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_fantasy_003_ref"
+  }
+}
+Assets {
   Id: 15191120951180189582
   Name: "Concrete Bunker"
   PlatformAssetType: 2
@@ -674,6 +701,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14700740330522261672
+  Name: "Urban Damaged Wall 02 Half - Horizontal 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_half_002_hzn_01_ref"
+  }
+}
+Assets {
   Id: 14697098180180354462
   Name: "Decal Bullet Damage Wood"
   PlatformAssetType: 14
@@ -701,6 +737,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14620898149910383266
+  Name: "Urban Damaged Wall 02- Corner Inner 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_002_ci_03_ref"
+  }
+}
+Assets {
   Id: 14582790818618070150
   Name: "Asphalt 01"
   PlatformAssetType: 2
@@ -725,6 +770,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_19th_century_4m_001"
+  }
+}
+Assets {
+  Id: 14345153403763633307
+  Name: "Damaged Concrete Chunk 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
   }
 }
 Assets {
@@ -896,6 +950,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_reinforced_150cm_001"
+  }
+}
+Assets {
+  Id: 13623709644591849412
+  Name: "Urban Damaged Concrete Panel 02 - 2x4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_002_2x4m_ref"
   }
 }
 Assets {
@@ -1223,12 +1286,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12361381158317033180
+  Name: "Urban Damaged Mainstreet Window 02 Frame 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_dtn_mst_part_window_002_frame_01_ref"
+  }
+}
+Assets {
   Id: 12324955990015312091
   Name: "I-Beam 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_i-beam_4m_001"
+  }
+}
+Assets {
+  Id: 12277679943025200494
+  Name: "Urban Damaged Wall 01 Half - Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_half_001_win_01_ref"
   }
 }
 Assets {
@@ -1301,6 +1382,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_street-sign_octagon_001"
+  }
+}
+Assets {
+  Id: 11725283362190867038
+  Name: "Urban Damaged Wall 02- Corner Inner 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_002_ci_04_ref"
+  }
+}
+Assets {
+  Id: 11715746936947904291
+  Name: "Urban Damaged Wall 02- Corner Inner 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_002_ci_01_ref"
   }
 }
 Assets {
@@ -1412,6 +1511,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11126221559030198933
+  Name: "Urban Damaged Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_002_ref"
+  }
+}
+Assets {
   Id: 11021707493166331499
   Name: "Modern Weapon - Grenade Canister 03"
   PlatformAssetType: 1
@@ -1481,6 +1589,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_ulna_01_ref"
+  }
+}
+Assets {
+  Id: 10651116236196901044
+  Name: "Damaged Concrete Chunk 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_001_ref"
   }
 }
 Assets {
@@ -1661,6 +1778,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_007"
+  }
+}
+Assets {
+  Id: 9854300118954762980
+  Name: "Rebar Lattice 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mlt_rebar_001_ref"
   }
 }
 Assets {
@@ -2222,12 +2348,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6333982242246389428
+  Name: "Damaged Urban Glass Shard  - 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_glass_shard_003_ref"
+  }
+}
+Assets {
   Id: 6280154984963467322
   Name: "Ring - Quarter Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_001"
+  }
+}
+Assets {
+  Id: 6227102845467366987
+  Name: "Urban Damaged Mainstreet Window 02 Frame 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_dtn_mst_part_window_002_frame_02_ref"
   }
 }
 Assets {
@@ -2372,6 +2516,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_001"
+  }
+}
+Assets {
+  Id: 5483772166785938526
+  Name: "Damaged Concrete Chunk 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
   }
 }
 Assets {
@@ -2600,6 +2753,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4073649351087129527
+  Name: "Urban Damaged Wall Chunk 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_chunk_001_ref"
+  }
+}
+Assets {
   Id: 4017745581160784246
   Name: "Text 03: E"
   PlatformAssetType: 1
@@ -2735,6 +2897,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3211234481207640377
+  Name: "Urban Damaged Wall 01 - End 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_001_end_02_ref"
+  }
+}
+Assets {
   Id: 3189005529281241184
   Name: "Large Wood Board 8m"
   PlatformAssetType: 1
@@ -2840,6 +3011,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_terracotta_pots_002_uv"
+  }
+}
+Assets {
+  Id: 2656266634595511912
+  Name: "Damaged Urban Glass Shard  - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_glass_shard_001_ref"
   }
 }
 Assets {
@@ -3032,6 +3212,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1528828075473598358
+  Name: "Urban Damaged Wall 02- Corner Inner 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_002_ci_02_ref"
+  }
+}
+Assets {
   Id: 1456813209646203172
   Name: "Gear - generic large two-spoked"
   PlatformAssetType: 1
@@ -3149,6 +3338,15 @@ Assets {
   }
 }
 Assets {
+  Id: 973126561231212200
+  Name: "Urban Damaged Wall 01 - End 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_001_end_01_ref"
+  }
+}
+Assets {
   Id: 962531297881391870
   Name: "Text 04: E"
   PlatformAssetType: 1
@@ -3236,6 +3434,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_concave_001"
+  }
+}
+Assets {
+  Id: 361376666361477953
+  Name: "Urban Damaged Wall 02 Half - Vertical 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_wall_half_002_vrt_01_ref"
   }
 }
 Assets {

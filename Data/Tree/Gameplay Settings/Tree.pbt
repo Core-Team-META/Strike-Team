@@ -128,12 +128,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 6181.31445
-      Y: 2668.97754
-      Z: 0.000854492188
+      X: 4990.44482
+      Y: 5645.46191
+      Z: -63.0661621
     }
     Rotation {
-      Yaw: -160.000092
+      Yaw: -129.123734
     }
     Scale {
       X: 1
@@ -158,12 +158,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -3768.68555
-      Y: 3518.97754
-      Z: 0.00122070313
+      X: -3953.00049
+      Y: 3532.87598
+      Z: 69.8293152
     }
     Rotation {
-      Yaw: -70.0000305
+      Yaw: 2.0170691
     }
     Scale {
       X: 1
@@ -188,11 +188,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2952.77246
-      Y: -6700.14258
-      Z: 202.332153
+      X: 3338.06738
+      Y: -5627.90088
+      Z: 202.332031
     }
     Rotation {
+      Yaw: 155.477112
     }
     Scale {
       X: 1
@@ -217,11 +218,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -368.685425
-      Y: -4781.02246
-      Z: 0.00048828125
+      X: -413.789612
+      Y: -5157.45508
+      Z: 0.000457763672
     }
     Rotation {
+      Yaw: 108.35482
     }
     Scale {
       X: 1
@@ -251,6 +253,7 @@ Objects {
       Z: 738.905151
     }
     Rotation {
+      Yaw: 165.838455
     }
     Scale {
       X: 1
@@ -275,11 +278,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 7799.62598
-      Y: 43.6513672
-      Z: 0.00048828125
+      X: 7937.78906
+      Y: 37.5073242
+      Z: 33.6732788
     }
     Rotation {
+      Yaw: 177.453766
     }
     Scale {
       X: 1
@@ -304,11 +308,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 6954.75195
-      Y: 1636.26563
+      X: 6987.28027
+      Y: 1666.25879
       Z: 0.00048828125
     }
     Rotation {
+      Yaw: -157.217484
     }
     Scale {
       X: 1
@@ -333,11 +338,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 6886.91309
-      Y: 4172.5918
+      X: 7058.39746
+      Y: 4073.86035
       Z: 0.000732421875
     }
     Rotation {
+      Yaw: 150.06897
     }
     Scale {
       X: 1
@@ -362,12 +368,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2465.14551
-      Y: 4512.3252
-      Z: 0.00122070313
+      X: 2918.146
+      Y: 4123.08789
+      Z: 83.2258148
     }
     Rotation {
-      Yaw: -140.000015
+      Yaw: -142.989777
     }
     Scale {
       X: 1
@@ -393,8 +399,8 @@ Objects {
   Transform {
     Location {
       X: 1253.80554
-      Y: 4762.65625
-      Z: 0.000732421875
+      Y: 5578.14648
+      Z: 70.6359863
     }
     Rotation {
     }
@@ -423,7 +429,7 @@ Objects {
     Location {
       X: -2118.68555
       Y: 4318.97754
-      Z: 0.00170898438
+      Z: 57.586792
     }
     Rotation {
     }
@@ -450,9 +456,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -5972.47754
-      Y: 2206.62207
-      Z: 0.0009765625
+      X: -6329.74463
+      Y: 4158.84473
+      Z: 674.339722
     }
     Rotation {
     }
@@ -479,9 +485,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -9426.80762
-      Y: -1404.23047
-      Z: 0.000732421875
+      X: -9415.70508
+      Y: -1458.17676
+      Z: 0.000762939453
     }
     Rotation {
     }
@@ -508,9 +514,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -7668.68555
-      Y: 468.977539
-      Z: 0.00122070313
+      X: -7843.40137
+      Y: 1171.91309
+      Z: 724.9021
     }
     Rotation {
     }

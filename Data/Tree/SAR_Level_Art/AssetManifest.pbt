@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17559831473507692943
+  Name: "Urban Damaged Floor 01 - 4m - Straight 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_floor_001_4m_str_01_ref"
+  }
+}
+Assets {
   Id: 17469064793397066371
   Name: "Hill 05"
   PlatformAssetType: 1
@@ -647,6 +656,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12484798020569700940
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
   Id: 12306622679456331034
   Name: "Concrete Sidewalk"
   PlatformAssetType: 2
@@ -752,6 +770,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_top_6m_001"
+  }
+}
+Assets {
+  Id: 11217229546352659442
+  Name: "Urban Damaged Floor 02 - 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_floor_002_8m_ref"
   }
 }
 Assets {
@@ -1205,6 +1232,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5341919936727545826
+  Name: "Wood 2x4 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_two-by-four_3m"
+  }
+}
+Assets {
   Id: 5253811867366632597
   Name: "Grass Tall"
   PlatformAssetType: 1
@@ -1589,15 +1625,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cabinet_door_full_001"
-  }
-}
-Assets {
-  Id: 595999529483215844
-  Name: "Fantasy Human Gal 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }
 Assets {

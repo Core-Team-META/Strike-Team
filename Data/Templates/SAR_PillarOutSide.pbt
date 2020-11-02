@@ -153,7 +153,7 @@
           Location {
             X: 5
             Y: -5
-            Z: 860
+            Z: 858.709717
           }
           Rotation {
           }

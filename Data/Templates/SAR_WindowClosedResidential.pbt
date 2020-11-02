@@ -37,17 +37,17 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -9.53674316e-07
-            Y: 6.85424137
-            Z: 309.998779
+            X: -12.4882803
+            Y: 6.85424805
+            Z: 300
           }
           Rotation {
             Roll: -90
           }
           Scale {
-            X: 0.5
+            X: 0.3
             Y: 0.3
-            Z: 2.13864231
+            Z: 2.10000014
           }
         }
         ParentId: 18236531438999725126
@@ -246,9 +246,9 @@
         Name: "SAR_WindowDoorsClosedMedium"
         Transform {
           Location {
-            X: 10
-            Y: -94.7490234
-            Z: -5.00036621
+            X: 9.99999237
+            Y: -94.7490082
+            Z: -15
           }
           Rotation {
             Yaw: -90
@@ -1034,9 +1034,9 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 17.6777344
-            Y: 12.0712891
-            Z: 319.999146
+            X: 20
+            Y: 12.0712881
+            Z: 310
           }
           Rotation {
             Roll: -90
@@ -1103,17 +1103,17 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 10.6066027
-            Y: 6.93779564
-            Z: 15
+            X: 9.99999905
+            Y: 4.99999952
+            Z: 5
           }
           Rotation {
             Roll: -90
           }
           Scale {
-            X: 0.727822185
-            Y: 0.250008225
-            Z: 2.11113477
+            X: 0.7
+            Y: 0.3
+            Z: 2.10000014
           }
         }
         ParentId: 18236531438999725126

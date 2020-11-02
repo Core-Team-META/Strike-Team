@@ -44,18 +44,17 @@
         Name: "Cone - Truncated Hollow Wide Thin"
         Transform {
           Location {
-            X: 2.06335449
-            Y: 0.349182129
-            Z: 12.7666473
+            X: 2.06347656
+            Y: 0.349609375
+            Z: -29.9754028
           }
           Rotation {
             Yaw: 180
-            Roll: 180
           }
           Scale {
-            X: 1.12254488
-            Y: 1.12254405
-            Z: 2.39622021
+            X: 1.1
+            Y: 1.1
+            Z: 0.5
           }
         }
         ParentId: 15877809462822465698
@@ -63,7 +62,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5653586931015645791
+              Id: 12719830577678574531
             }
           }
           Overrides {
@@ -78,6 +77,14 @@
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 2.17420959
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.976000071
+              G: 0.445986629
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -87,7 +94,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 12852942272030767333
+            Id: 17829956314758502204
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -123,7 +130,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5653586931015645791
+              Id: 12719830577678574531
             }
           }
           Overrides {
@@ -137,6 +144,14 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 0.216348767
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.976000071
+              G: 0.445986629
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -241,6 +256,14 @@
               Id: 8327237471500940677
             }
           }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.640000045
+              G: 0.320000023
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -287,6 +310,14 @@
               Id: 8327237471500940677
             }
           }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.640000045
+              G: 0.320000023
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -331,6 +362,14 @@
             Name: "ma:Nature_Leaves:id"
             AssetReference {
               Id: 8327237471500940677
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.640000045
+              G: 0.320000023
+              A: 1
             }
           }
         }
@@ -380,6 +419,14 @@
               Id: 8327237471500940677
             }
           }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.640000045
+              G: 0.320000023
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -425,6 +472,14 @@
             Name: "ma:Nature_Leaves:id"
             AssetReference {
               Id: 8327237471500940677
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.640000045
+              G: 0.320000023
+              A: 1
             }
           }
         }
@@ -474,6 +529,14 @@
               Id: 8327237471500940677
             }
           }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.640000045
+              G: 0.320000023
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -518,8 +581,8 @@
           Overrides {
             Name: "ma:Nature_Leaves:color"
             Color {
-              R: 0.103841037
-              G: 0.159999967
+              R: 0.134
+              G: 0.109433345
               A: 1
             }
           }
@@ -573,8 +636,8 @@
           Overrides {
             Name: "ma:Nature_Leaves:color"
             Color {
-              R: 0.103841037
-              G: 0.159999967
+              R: 0.640000045
+              G: 0.320000023
               A: 1
             }
           }
@@ -628,8 +691,8 @@
           Overrides {
             Name: "ma:Nature_Leaves:color"
             Color {
-              R: 0.103841037
-              G: 0.159999967
+              R: 0.640000045
+              G: 0.320000023
               A: 1
             }
           }
@@ -686,6 +749,15 @@
               Id: 8327237471500940677
             }
           }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.0800000057
+              G: 0.0648960099
+              B: 0.02336
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -709,21 +781,21 @@
       }
     }
     Assets {
-      Id: 12852942272030767333
-      Name: "Cone - Truncated Hollow Wide Thin"
+      Id: 17829956314758502204
+      Name: "Ellipsoid - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_hollow_006"
+        AssetId: "sm_ellipsoid_truncated_001"
       }
     }
     Assets {
-      Id: 5653586931015645791
-      Name: "Ceramic Terracotta Pots 01"
+      Id: 12719830577678574531
+      Name: "Cliff 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_terracotta_pots_001_uv"
+        AssetId: "cliff_002"
       }
     }
     Assets {
@@ -742,6 +814,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_half_lense_001"
+      }
+    }
+    Assets {
+      Id: 5653586931015645791
+      Name: "Ceramic Terracotta Pots 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_terracotta_pots_001_uv"
       }
     }
     Assets {

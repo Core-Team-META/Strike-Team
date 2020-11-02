@@ -12,7 +12,7 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.47009939
+        Float: 0.173171386
       }
       Overrides {
         Name: "gradient_shift"
@@ -42,7 +42,7 @@
       }
       Overrides {
         Name: "invert_height"
-        Bool: false
+        Bool: true
       }
       Overrides {
         Name: "gradient_direction"
@@ -57,9 +57,18 @@
       Overrides {
         Name: "cmpc:Material2"
         Color {
+          R: 0.658099949
+          G: 1
+          B: 0.473999977
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
           R: 1
           G: 1
           B: 1
+          A: 1
         }
       }
     }
