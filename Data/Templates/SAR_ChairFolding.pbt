@@ -15,7 +15,7 @@
             Z: 0.0767777115
           }
         }
-        ParentId: 7978364239758505505
+        ParentId: 4781671109827199097
         ChildIds: 14658835546400994469
         ChildIds: 16421486121968421080
         ChildIds: 4317804702966809060
@@ -29,7 +29,6 @@
         ChildIds: 17579093090995559002
         ChildIds: 3079274449600870332
         ChildIds: 6760429820051329404
-        ChildIds: 10650573592774326418
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -806,61 +805,11 @@
           Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:none:none"
         }
         CoreMesh {
           MeshAsset {
             Id: 7718014147298196068
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10650573592774326418
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 34.2993202
-            Y: -290.723419
-            Z: 116.521378
-          }
-          Rotation {
-          }
-          Scale {
-            X: 11.2655325
-            Y: 10.8121901
-            Z: 18.398735
-          }
-        }
-        ParentId: 2082747040726771702
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -935,15 +884,6 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "plastic_matte_001"
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
       }
     }
     PrimaryAssetId {

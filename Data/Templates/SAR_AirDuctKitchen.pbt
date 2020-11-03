@@ -33,6 +33,7 @@
         Name: "black"
         Transform {
           Location {
+            X: 0.509765625
             Z: 20
           }
           Rotation {
@@ -93,7 +94,7 @@
           Scale {
             X: 0.7
             Y: 0.7
-            Z: 0.7
+            Z: 2.29999971
           }
         }
         ParentId: 17018866505817441072
@@ -101,7 +102,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18298649095315083710
+              Id: 13085174305471638229
             }
           }
           Overrides {
@@ -111,6 +112,15 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 19.7264614
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.223958
+              G: 0.223958
+              B: 0.223958
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -153,12 +163,12 @@
       }
     }
     Assets {
-      Id: 18298649095315083710
-      Name: "Metal Iron Rusted 02"
+      Id: 13085174305471638229
+      Name: "Metal Painted Old 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
+        AssetId: "mi_metal_painted_old_001_uv"
       }
     }
     PrimaryAssetId {

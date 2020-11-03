@@ -46,6 +46,10 @@
           Id: 11627215628706112418
         }
       }
+      Overrides {
+        Name: "mask_scale"
+        Float: 0.5
+      }
     }
     Assets {
       Id: 6620060143328752136

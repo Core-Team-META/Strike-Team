@@ -701,6 +701,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14781885955149681198
+  Name: "Wallpaper Moroccan 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_wallpaper_002"
+  }
+}
+Assets {
   Id: 14700740330522261672
   Name: "Urban Damaged Wall 02 Half - Horizontal 01"
   PlatformAssetType: 1
@@ -1349,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12056825294615652422
+  Name: "Simple Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_simple_150cm_001"
+  }
+}
+Assets {
   Id: 12036265987143389800
   Name: "Modern Weapon - Gas Cylinder 01"
   PlatformAssetType: 1
@@ -1589,6 +1607,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_ulna_01_ref"
+  }
+}
+Assets {
+  Id: 10793223361614525412
+  Name: "Text 06: 2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_028"
   }
 }
 Assets {

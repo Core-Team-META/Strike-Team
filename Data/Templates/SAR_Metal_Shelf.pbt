@@ -24,7 +24,6 @@
         ChildIds: 18258866044211641454
         ChildIds: 16192769899686200915
         ChildIds: 15031825856411795811
-        ChildIds: 7791082377888963977
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -598,65 +597,6 @@
           }
         }
       }
-      Objects {
-        Id: 7791082377888963977
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 0.370788574
-            Y: 0.165893555
-            Z: 84.5244
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.17091715
-            Y: 2.58757758
-            Z: 2.93100095
-          }
-        }
-        ParentId: 13695070644680022787
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 3396001719245941860
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: true
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 11162297399913732681
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
     }
     Assets {
       Id: 1693487723880974477
@@ -692,15 +632,6 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_painted_old_001_uv"
-      }
-    }
-    Assets {
-      Id: 11162297399913732681
-      Name: "Cube - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
       }
     }
     PrimaryAssetId {

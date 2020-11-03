@@ -11,7 +11,7 @@
         Transform {
           Scale {
             X: 1
-            Y: 1
+            Y: -1
             Z: 1
           }
         }
@@ -1052,7 +1052,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17393961314713938594
+              Id: 7407234558516877871
             }
           }
           Overrides {
@@ -1103,15 +1103,15 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 9.99999905
-            Y: 4.99999952
+            X: 9.99962807
+            Y: 5.00014591
             Z: 5
           }
           Rotation {
             Roll: -90
           }
           Scale {
-            X: 0.7
+            X: 0.8
             Y: 0.3
             Z: 2.10000014
           }

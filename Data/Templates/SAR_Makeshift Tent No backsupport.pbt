@@ -7,7 +7,7 @@
       RootId: 5173534193896389415
       Objects {
         Id: 5173534193896389415
-        Name: "SAR_Makeshift Tent02"
+        Name: "SAR_Makeshift Tent No backsupport"
         Transform {
           Scale {
             X: 1
@@ -220,8 +220,9 @@
         Name: "Military Fence Pole - Gate End"
         Transform {
           Location {
-            X: -173.522949
-            Y: 205.999023
+            X: -125.006241
+            Y: 205.246
+            Z: 15
           }
           Rotation {
           }
@@ -297,8 +298,9 @@
         Name: "Military Fence Pole - Gate End"
         Transform {
           Location {
-            X: -173.522949
-            Y: -204.442871
+            X: -125.006332
+            Y: -205.196136
+            Z: 15
           }
           Rotation {
           }
@@ -874,7 +876,6 @@
         }
         ParentId: 5173534193896389415
         ChildIds: 3655310348357456410
-        ChildIds: 3196714669375884986
         ChildIds: 11777265750420452920
         ChildIds: 11372528484909286255
         Collidable_v2 {
@@ -902,69 +903,6 @@
             X: 0.436315656
             Y: 0.533991396
             Z: 0.513649642
-          }
-        }
-        ParentId: 14350001653992639130
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5129947906523120000
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 13.7565985
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 26.2887306
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.180661976
-              B: 0.88
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10336753659301606132
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3196714669375884986
-        Name: "Carpet Tile 01"
-        Transform {
-          Location {
-            X: -79.0014648
-          }
-          Rotation {
-            Pitch: 89.2561111
-            Yaw: 180
-            Roll: 180
-          }
-          Scale {
-            X: 0.0792265609
-            Y: 0.533991396
-            Z: 0.513649106
           }
         }
         ParentId: 14350001653992639130

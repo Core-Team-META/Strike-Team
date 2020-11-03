@@ -15,8 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 7978364239758505505
-        ChildIds: 4446303743929194522
+        ParentId: 4781671109827199097
         ChildIds: 3249671001037682344
         ChildIds: 6914197554033257135
         ChildIds: 16887692985352587870
@@ -37,45 +36,6 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 4446303743929194522
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 1.37194824
-            Y: 2.61914063
-            Z: -5.09546661
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.45812058
-            Y: 2.09864759
-            Z: 0.366419613
-          }
-        }
-        ParentId: 12467583695951776878
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -610,15 +570,6 @@
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
       }
     }
     Assets {

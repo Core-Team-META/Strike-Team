@@ -7,7 +7,7 @@
       RootId: 677404416182785957
       Objects {
         Id: 677404416182785957
-        Name: "Bookcase"
+        Name: "SAR_Bookcase"
         Transform {
           Scale {
             X: 1
@@ -17,7 +17,6 @@
         }
         ParentId: 4781671109827199097
         ChildIds: 7728954156347780654
-        ChildIds: 8714781911636633234
         ChildIds: 10692125035634590815
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1502,66 +1501,6 @@
         }
       }
       Objects {
-        Id: 8714781911636633234
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 4.38317871
-            Y: -0.652404785
-            Z: 151.101196
-          }
-          Rotation {
-            Pitch: 90
-          }
-          Scale {
-            X: 2.96894479
-            Y: 2.31344843
-            Z: 0.814175308
-          }
-        }
-        ParentId: 677404416182785957
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12484798020569700940
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.163
-              G: 0.074483417
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 11162297399913732681
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableCastShadows: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 10692125035634590815
         Name: "ClientContext"
         Transform {
@@ -2129,30 +2068,21 @@
       }
     }
     Assets {
-      Id: 11162297399913732681
-      Name: "Cube - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 12484798020569700940
-      Name: "Wood Raw"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_raw_001_uv"
-      }
-    }
-    Assets {
       Id: 3189005529281241184
       Name: "Large Wood Board 8m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_large_board_6m"
+      }
+    }
+    Assets {
+      Id: 11162297399913732681
+      Name: "Cube - Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_hq_test_001"
       }
     }
     PrimaryAssetId {
