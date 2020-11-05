@@ -1108,8 +1108,8 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 8.87577724
-            Y: -4.99981117
+            X: 8.87548733
+            Y: -4.99999952
           }
           Rotation {
             Roll: -90

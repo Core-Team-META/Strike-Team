@@ -325,14 +325,14 @@
         Name: "Plane 4m - Two Sided"
         Transform {
           Location {
-            X: 9.58349609
-            Y: 70
+            X: 10.4460564
+            Y: 69.9997787
             Z: 4.63220215
           }
           Rotation {
             Pitch: 90
-            Yaw: -1.26596069
-            Roll: -1.26602173
+            Yaw: -160.528763
+            Roll: -160.528793
           }
           Scale {
             X: 1.99999988

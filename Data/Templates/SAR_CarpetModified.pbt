@@ -220,7 +220,6 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -283,7 +282,6 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {

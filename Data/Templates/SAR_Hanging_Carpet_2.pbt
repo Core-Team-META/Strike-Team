@@ -18,6 +18,7 @@
         ParentId: 4781671109827199097
         ChildIds: 5516947292120769307
         ChildIds: 1010815594191702213
+        ChildIds: 7527349592652221302
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -106,6 +107,71 @@
             Pitch: -90
             Yaw: -90
             Roll: -89.8162231
+          }
+          Scale {
+            X: 2.71697831
+            Y: 0.0347993672
+            Z: 2.69480515
+          }
+        }
+        ParentId: 1671761249407110280
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10315652150087392724
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.944329381
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0700000525
+              B: 0.0361589305
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11162297399913732681
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7527349592652221302
+        Name: "Pipe - Quarter Thin"
+        Transform {
+          Location {
+            X: -67.1609879
+            Y: -149.41394
+            Z: 161.234863
+          }
+          Rotation {
+            Yaw: -89.81604
+            Roll: -90
           }
           Scale {
             X: 2.71697831

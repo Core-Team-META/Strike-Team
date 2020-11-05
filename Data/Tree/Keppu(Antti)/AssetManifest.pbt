@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 13913679398007785057
-  Name: "Craftsman Wall Interior 01 Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_int_001_corner"
-  }
-}
-Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
@@ -26,30 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13171200732535708403
-  Name: "Metal Corrugated 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
-  }
-}
-Assets {
   Id: 12149544217203441937
   Name: "Simple Exposure Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_simple_exposure"
-  }
-}
-Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
   }
 }
 Assets {
@@ -71,33 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10510456914403889366
-  Name: "Arch"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
-  }
-}
-Assets {
-  Id: 10128884331981734128
-  Name: "Cube - bottom aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 9662723091772095612
-  Name: "Fantasy Castle Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_door_001"
-  }
-}
-Assets {
   Id: 8173247588564110467
   Name: "Bloom Post Process"
   PlatformAssetType: 6
@@ -113,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 5978376276488537426
+  Name: "Bleach Bypass Post Process"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_ppm_bleachbypass"
   }
 }
 Assets {
