@@ -59,7 +59,7 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 22.0363693
+          Intensity: 5
           Color {
             R: 1
             G: 1
@@ -178,14 +178,15 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13206135842285396679
+              Id: 16703493352990103549
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.789999962
-              G: 0.219735071
+              R: 1
+              G: 0.815733314
+              B: 0.308999956
               A: 1
             }
           }
@@ -234,14 +235,15 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13206135842285396679
+              Id: 16703493352990103549
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.789999962
-              G: 0.219735071
+              R: 1
+              G: 0.815733314
+              B: 0.308999956
               A: 1
             }
           }
@@ -546,15 +548,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cone_truncated_001"
-      }
-    }
-    Assets {
-      Id: 13206135842285396679
-      Name: "Emissive Glow Transparent"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
       }
     }
     Assets {

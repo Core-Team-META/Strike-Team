@@ -21,6 +21,7 @@
         ChildIds: 17247868871495188235
         ChildIds: 15053116489359315666
         ChildIds: 15626292700542554673
+        ChildIds: 13921328239379444626
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -318,6 +319,60 @@
           StaticMesh {
             Physics {
             }
+          }
+        }
+      }
+      Objects {
+        Id: 13921328239379444626
+        Name: "Area Light"
+        Transform {
+          Location {
+            X: -14.2926588
+            Y: 4.74651909
+            Z: 15.5359936
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -26.565033
+            Roll: 116.564972
+          }
+          Scale {
+            X: 1.55359936
+            Y: 1.55359936
+            Z: 1.55359936
+          }
+        }
+        ParentId: 798555311668383677
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 59.5894585
+          Color {
+            R: 1
+            G: 0.758013248
+            B: 0.37
+            A: 1
+          }
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 1000
+              AreaLight {
+                BarnDoorAngle: 50
+                BarnDoorLength: 20
+                SourceWidth: 197.253342
+                SourceHeight: 60.869812
+              }
+            }
+            MaxDrawDistance: 5000
+            MaxDistanceFadeRange: 1000
           }
         }
       }

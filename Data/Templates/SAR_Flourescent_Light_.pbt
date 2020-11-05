@@ -7,7 +7,7 @@
       RootId: 5115756929945128663
       Objects {
         Id: 5115756929945128663
-        Name: "Flourescent Lights"
+        Name: "SAR_Flourescent Light "
         Transform {
           Scale {
             X: 1
@@ -16,6 +16,7 @@
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 3900514121880036075
         ChildIds: 17886886293274361244
         ChildIds: 9132099424925599250
         ChildIds: 17553542196297326124
@@ -33,6 +34,57 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3900514121880036075
+        Name: "Area Light"
+        Transform {
+          Location {
+            Z: 23.5963745
+          }
+          Rotation {
+            Pitch: -90
+            Roll: 89.999939
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5115756929945128663
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 59.5894585
+          Color {
+            R: 1
+            G: 0.758013248
+            B: 0.37
+            A: 1
+          }
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 1000
+              AreaLight {
+                BarnDoorAngle: 50
+                BarnDoorLength: 20
+                SourceWidth: 197.253342
+                SourceHeight: 60.869812
+              }
+            }
+            MaxDrawDistance: 5000
+            MaxDistanceFadeRange: 1000
+          }
         }
       }
       Objects {

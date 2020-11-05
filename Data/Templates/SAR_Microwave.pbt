@@ -10,9 +10,9 @@
         Name: "SAR_Microwave"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.36464739
+            Y: 1.36464739
+            Z: 1.36464739
           }
         }
         ParentId: 4781671109827199097

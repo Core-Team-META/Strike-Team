@@ -787,7 +787,7 @@ Objects {
   Name: "Arch"
   Transform {
     Location {
-      X: -1315
+      X: -1318.2345
       Y: -5780
       Z: -40
     }
@@ -1670,6 +1670,9 @@ Objects {
   Name: "Simple Exposure Post Process"
   Transform {
     Location {
+      X: 0.00048828125
+      Y: 7553.87695
+      Z: -327.33728
     }
     Rotation {
     }
@@ -1683,7 +1686,15 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Exposure"
-      Float: 0.253674507
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Blend Weight"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Unbounded"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1757,7 +1768,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 7.62913513
     }
     Overrides {
       Name: "bp:Size Scale"
@@ -1876,7 +1887,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density"
-      Float: 2.45907283
+      Float: 4
     }
     Overrides {
       Name: "bp:Volumetric Fog"
@@ -1892,7 +1903,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Directional Inscattering Exponent"
-      Float: 10.9293203
+      Float: 2
     }
     Overrides {
       Name: "bp:Directional Inscattering Color"
@@ -1934,7 +1945,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Directional Inscattering Start Distance"
-      Float: 30000
+      Float: 1000
     }
     Overrides {
       Name: "bp:Layered Fog Falloff"
@@ -2131,7 +2142,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 2
     }
     Overrides {
       Name: "bp:Occlusion Tint"
@@ -2196,8 +2207,8 @@ Objects {
       Z: 700
     }
     Rotation {
-      Pitch: -49.5028076
-      Yaw: -26.1483459
+      Pitch: -30.1450958
+      Yaw: -22.9528198
     }
     Scale {
       X: 1
