@@ -4283,15 +4283,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2723232960546970913
-  Name: "Wood Floor Dark"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_floor_dark_001_uv"
-  }
-}
-Assets {
   Id: 2715939630273116812
   Name: "Ceramic Terracotta Pots Old 01"
   PlatformAssetType: 2

@@ -119,7 +119,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Exposure"
-      Float: 0.505300045
+      Float: 0
     }
     Overrides {
       Name: "bp:Blend Weight"
@@ -254,7 +254,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Opacity"
-      Float: 0.595894575
+      Float: 0.497698277
     }
   }
   Collidable_v2 {
@@ -775,7 +775,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Shadow Bias"
-      Float: 0.121617101
+      Float: 0.584983885
     }
   }
   Collidable_v2 {
