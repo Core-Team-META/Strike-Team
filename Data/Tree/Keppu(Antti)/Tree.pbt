@@ -1,6 +1,1286 @@
 ﻿Name: "Keppu(Antti)"
 RootId: 15084389731420460127
 Objects {
+  Id: 7467349741449828406
+  Name: "SAR_Mattress"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2609095079914769209
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Mattress"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3115
+            Y: -3310
+            Z: -116.208466
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.02612662
+            Y: 1.02612662
+            Z: 1.02612662
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12056169230858519920
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2.02497411
+            Y: -14.6264029
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8559018484838499271
+    }
+  }
+}
+Objects {
+  Id: 18212262639287556310
+  Name: "Tire Pile 01 - Small Tire Pile Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2992268648835037434
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tire Pile 01 - Small Tire Pile Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2272.78638
+            Y: -4759.8125
+            Z: -121.447754
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 73.3272858
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7436402086977909878
+    }
+  }
+}
+Objects {
+  Id: 17280656490838130886
+  Name: "Tire Pile 01 - Small Tire Pile Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2992268648835037434
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tire Pile 01 - Small Tire Pile Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3280
+            Y: -5360
+            Z: -280
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 35.2339668
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7436402086977909878
+    }
+  }
+}
+Objects {
+  Id: 12160640773998739127
+  Name: "Military Worn Tire 02"
+  Transform {
+    Location {
+      X: 755
+      Y: -4260
+      Z: 45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9605197959426201295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4913740088186101940
+  Name: "Military Worn Tire 02"
+  Transform {
+    Location {
+      X: 4630
+      Y: -1960
+      Z: -130
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9605197959426201295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3021590841320016567
+  Name: "Military Tire Stack 02 - Medium Tire Stack"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15759961593107942960
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Military Tire Stack 02 - Medium Tire Stack"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5215
+            Y: -3010
+            Z: -114.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7581540349486780124
+    }
+  }
+}
+Objects {
+  Id: 11698208379835797892
+  Name: "SAR_Metal Shelves"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2600853687861082119
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Metal Shelves"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6246.25488
+            Y: -2971.71436
+            Z: 1.33792114
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999962
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14215928534800440833
+    }
+  }
+}
+Objects {
+  Id: 7272783609381205729
+  Name: "Small Open Crate"
+  Transform {
+    Location {
+      X: 6457.53418
+      Y: -2852.53418
+      Z: -115
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9433895716700165127
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7542117224937871722
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 6696.91748
+      Y: -2816.91748
+      Z: 35
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17656549223173966794
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 6565
+      Y: -2935
+      Z: 35
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11859724229243447115
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 6790
+      Y: -2710
+      Z: -115
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14423392318638845658
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 6648.98291
+      Y: -2818.98291
+      Z: -115
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12672067335258042607
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 6540
+      Y: -2960
+      Z: -114.999969
+    }
+    Rotation {
+      Yaw: -22.4999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4106617307132174670
+  Name: "SAR_Work Bench"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11460442521884478572
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Work Bench"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5684.06299
+            Y: -2476.43262
+            Z: -128.230286
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.0857048
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4224185008295043699
+    }
+  }
+}
+Objects {
+  Id: 2514642417852502761
+  Name: "SAR_Sturdy WorkBench"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3750458158962818203
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Sturdy WorkBench"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5965
+            Y: -2735
+            Z: -107.826141
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.9999962
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10258675931005749454
+    }
+  }
+}
+Objects {
+  Id: 17565664501645502447
+  Name: "SAR_Flourescent Light "
+  Transform {
+    Location {
+      X: 3950
+      Y: 3130.37183
+      Z: 386.012756
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5115756929945128663
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Flourescent Light "
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5965
+            Y: -2735
+            Z: 271.012726
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.9999962
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13621518803226842666
+    }
+  }
+}
+Objects {
+  Id: 8481946010447746327
+  Name: "SAR_AirConditionerAbandoned"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1511647198609329516
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_AirConditionerAbandoned"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4139.20313
+            Y: -3800.15869
+            Z: -114.602905
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+            Roll: 18.8978577
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.2
+            Y: 1.2
+            Z: 1.2
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13314303199162651240
+    }
+  }
+}
+Objects {
+  Id: 728983085193298312
+  Name: "SAR_Barrel"
+  Transform {
+    Location {
+      X: 3830.20874
+      Y: 3497.44775
+      Z: -7.62939453e-06
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17853856335133973883
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Barrel"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3461.39551
+            Y: -3274.2583
+            Z: -115.000008
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14344424322214149797
+    }
+  }
+}
+Objects {
+  Id: 11959047125773351034
+  Name: "SAR_Microwave"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10765595967736747033
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Microwave"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3943.05908
+            Y: -3493.16235
+            Z: 23.0808716
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -30.6501884
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.36464739
+            Y: 1.36464739
+            Z: 1.36464739
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 204298140375861882
+    }
+  }
+}
+Objects {
+  Id: 12814064886773289960
+  Name: "SAR_Sturdy WorkBench"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3750458158962818203
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Sturdy WorkBench"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3915
+            Y: -3485
+            Z: -102.911499
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10258675931005749454
+    }
+  }
+}
+Objects {
+  Id: 10120069774983674154
+  Name: "SAR_Flourescent Light "
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5115756929945128663
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Flourescent Light "
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3915
+            Y: -3429.62817
+            Z: 271.012756
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13621518803226842666
+    }
+  }
+}
+Objects {
+  Id: 12475897898780749167
+  Name: "SAR_Barrel"
+  Transform {
+    Location {
+      X: 3830.20874
+      Y: 3497.44775
+      Z: -7.62939453e-06
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17853856335133973883
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Barrel"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3904.32568
+            Y: -3062.55225
+            Z: -115.000008
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -124.397408
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14344424322214149797
+    }
+  }
+}
+Objects {
+  Id: 12342232580872853008
+  Name: "SAR_Barrel"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17853856335133973883
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Barrel"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3795.20874
+            Y: -3062.55225
+            Z: -115.000008
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14344424322214149797
+    }
+  }
+}
+Objects {
+  Id: 4752680859023021544
+  Name: "SAR_Metal Shelf"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13695070644680022787
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Metal Shelf"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4489.51025
+            Y: -3462.62939
+            Z: -41.4571381
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.7970924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15208057603242142098
+    }
+  }
+}
+Objects {
+  Id: 563360968964756510
+  Name: "SAR_Door01"
+  Transform {
+    Location {
+      X: 3546.54126
+      Y: 2714.84277
+      Z: -3.81469727e-05
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11864754703862499566
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Door01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4515.86
+            Y: -3050.90894
+            Z: -115.000069
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -98.6423416
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13570508380346786231
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 24.4081707
+            Y: 25.2113018
+            Z: 11.7371521
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15122506977501745679
+    }
+  }
+}
+Objects {
+  Id: 7422736864899116868
+  Name: "SAR_Door01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11864754703862499566
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Door01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3511.54126
+            Y: -3845.15723
+            Z: -115.000038
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15122506977501745679
+    }
+  }
+}
+Objects {
+  Id: 11175886490065411062
+  Name: "Tire Pile 01 - Small Tire Pile Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2992268648835037434
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tire Pile 01 - Small Tire Pile Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8121.61084
+            Y: -1465.50781
+            Z: -291.157501
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 21.7278423
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7436402086977909878
+    }
+  }
+}
+Objects {
   Id: 16373807130785117515
   Name: "SAR_Level_Art"
   Transform {

@@ -41,7 +41,7 @@
         Name: "Area Light"
         Transform {
           Location {
-            Z: 23.5963745
+            Z: 23.3453064
           }
           Rotation {
             Pitch: -90

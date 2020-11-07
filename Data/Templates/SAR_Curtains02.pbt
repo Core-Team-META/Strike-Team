@@ -21,7 +21,6 @@
         ChildIds: 9279756775324938451
         ChildIds: 8234193007618732081
         ChildIds: 15857501988232937447
-        ChildIds: 12158827554494069753
         ChildIds: 6095401827735832606
         ChildIds: 12703931295384610355
         Collidable_v2 {
@@ -314,76 +313,6 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12158827554494069753
-        Name: "Plane 4m - Two Sided"
-        Transform {
-          Location {
-            X: 11.3593903
-            Y: -95
-            Z: 4.65423584
-          }
-          Rotation {
-            Pitch: 90
-            Roll: -6.10351563e-05
-          }
-          Scale {
-            X: 1.99999988
-            Y: 0.3
-          }
-        }
-        ParentId: 578748373799149597
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 13468074497763587438
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.143115833
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.133896008
-              G: 0.152084783
-              B: 0.168000013
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.294893444
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:none:none"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 16855776306829432893
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {

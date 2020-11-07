@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18164646649886689595
-  Name: "Distant War Battle Ambience Loop 01"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_distant_war_battle_ambience_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 18153973887378156106
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -248,6 +239,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_winInsert_001_frame"
+  }
+}
+Assets {
+  Id: 17620359405672570059
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
   }
 }
 Assets {
@@ -989,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15070196404854630903
+  Name: "Pyramid - 6-Sided Truncated Hollow Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_6_sided_truncated_hollow_thick_001"
+  }
+}
+Assets {
   Id: 15050133856862891177
   Name: "Bricks Stone Floor Large 01"
   PlatformAssetType: 2
@@ -1457,15 +1466,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13623709644591849412
-  Name: "Urban Damaged Concrete Panel 02 - 2x4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_concrete_panel_002_2x4m_ref"
-  }
-}
-Assets {
   Id: 13583156742950437506
   Name: "Text 01: B"
   PlatformAssetType: 1
@@ -1601,6 +1601,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13085174305471638229
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
   Id: 13084610212546141882
   Name: "Military Fence Gate 01"
   PlatformAssetType: 1
@@ -1688,15 +1697,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_screen_004_ref"
-  }
-}
-Assets {
-  Id: 12878037503987541012
-  Name: "Distant War Battle Ambience Loop 02"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_distant_war_battle_ambience_loop_02_Cue_ref"
   }
 }
 Assets {
@@ -2240,6 +2240,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11111447611931661974
+  Name: "Craftsman Stairs 01 Railing"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001_rail"
+  }
+}
+Assets {
   Id: 11021707493166331499
   Name: "Modern Weapon - Grenade Canister 03"
   PlatformAssetType: 1
@@ -2570,15 +2579,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_012"
-  }
-}
-Assets {
-  Id: 10044556425249133227
-  Name: "Wood Raw"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_raw_001_uv"
   }
 }
 Assets {
@@ -3536,6 +3536,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5768059525754404581
+  Name: "Metal Painted Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_painted_metal_basic_001"
+  }
+}
+Assets {
   Id: 5717544946372160630
   Name: "Scifi Cockpit Back 01"
   PlatformAssetType: 1
@@ -3704,6 +3713,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
+  Id: 5143822868545457076
+  Name: "Street Utility Box 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_utility_box_001"
   }
 }
 Assets {
@@ -3938,6 +3956,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 4130593004320210600
+  Name: "Craftsman Coffee Table"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_coffee_table_001"
   }
 }
 Assets {
@@ -4247,6 +4274,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2801050667471875383
+  Name: "Prism - octagon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
   Id: 2777530842543105839
   Name: "Whitebox Wall 01 - Foundation"
   PlatformAssetType: 1
@@ -4280,6 +4316,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_001"
+  }
+}
+Assets {
+  Id: 2723232960546970913
+  Name: "Wood Floor Dark"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_floor_dark_001_uv"
   }
 }
 Assets {
@@ -4874,6 +4919,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve90_006"
+  }
+}
+Assets {
+  Id: 731222537627396385
+  Name: "Cabinet Door - Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_door_002"
   }
 }
 Assets {
