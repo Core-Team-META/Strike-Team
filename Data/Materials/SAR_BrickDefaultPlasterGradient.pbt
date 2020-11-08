@@ -17,11 +17,11 @@
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.343273222
+        Float: 0.0663302466
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.449448436
+        Float: 0.832022548
       }
       Overrides {
         Name: "gradient_worldspace"
