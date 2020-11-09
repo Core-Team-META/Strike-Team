@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 18393888041398592342
+  Name: "Text 02: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_004"
+  }
+}
+Assets {
   Id: 18393437648231545508
   Name: "Urban Pipe Flange 01"
   PlatformAssetType: 1
@@ -593,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14831429118183852393
+  Name: "Text 02: C"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_002"
+  }
+}
+Assets {
   Id: 14791357265404000066
   Name: "Urban Damaged Wall 01"
   PlatformAssetType: 1
@@ -890,6 +908,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13083661641693275655
+  Name: "Text 02: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_019"
+  }
+}
+Assets {
   Id: 12988223822026641316
   Name: "Bark Redwood 01"
   PlatformAssetType: 2
@@ -968,6 +995,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_concave_001"
+  }
+}
+Assets {
+  Id: 12531473813183755053
+  Name: "Text 02: G"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_006"
   }
 }
 Assets {
@@ -1202,6 +1238,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_arch_001"
+  }
+}
+Assets {
+  Id: 10444807281834100333
+  Name: "Text 02: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_018"
   }
 }
 Assets {
@@ -1583,6 +1628,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6515192203865619302
+  Name: "Text 02: R"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_017"
+  }
+}
+Assets {
   Id: 6513725703093912292
   Name: "Decal Stains Bottom 01"
   PlatformAssetType: 14
@@ -1742,6 +1796,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
+  Id: 5617183404275168642
+  Name: "Pipe - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_002"
   }
 }
 Assets {
@@ -1952,6 +2015,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3990206109129786480
+  Name: "Metal Iron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_001"
+  }
+}
+Assets {
   Id: 3702365963781758101
   Name: "Teardrop - Truncated"
   PlatformAssetType: 1
@@ -1976,6 +2048,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_8m_001"
+  }
+}
+Assets {
+  Id: 3464280307164272030
+  Name: "Text 02: 0"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_026"
   }
 }
 Assets {
@@ -2012,6 +2093,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dmg_wall_001_end_02_ref"
+  }
+}
+Assets {
+  Id: 3164251070761236489
+  Name: "Container - Rectangle Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_rectangle_thin_ref"
   }
 }
 Assets {
@@ -2282,6 +2372,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "sfxabp_object_domestic_door_ref"
+  }
+}
+Assets {
+  Id: 1102953858725591507
+  Name: "Text 02: Y"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_024"
   }
 }
 Assets {

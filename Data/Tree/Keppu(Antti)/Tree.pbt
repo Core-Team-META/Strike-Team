@@ -1610,56 +1610,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13384645093273632919
-  Name: "SAR_MetalSheet"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16972899740920159435
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_MetalSheet"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2599.02026
-            Y: 5789.65039
-            Z: 499.632141
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 2.14988399
-            Yaw: -79.4263077
-            Roll: -11.36339
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.39999676
-            Y: 0.0202053525
-            Z: 3.7
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10664552781314197443
-    }
-  }
-}
-Objects {
   Id: 18440928350645272327
   Name: "SAR_LightPost"
   Transform {
@@ -3156,54 +3106,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12605860512774530476
-  Name: "Decal Rubble Concrete 01"
-  Transform {
-    Location {
-      X: 3019.60107
-      Y: -3791.62671
-      Z: -58.6608582
-    }
-    Rotation {
-      Pitch: 0.0853773579
-      Yaw: -34.9920425
-      Roll: -1.66752856e-09
-    }
-    Scale {
-      X: 1.00000072
-      Y: 0.999996781
-      Z: 0.614954352
-    }
-  }
-  ParentId: 15084389731420460127
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 1
-        G: 0.765333354
-        B: 0.36
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 12850629055110127445
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-}
-Objects {
   Id: 15691937463903357430
   Name: "Decal Rubble Concrete 01"
   Transform {
@@ -3257,7 +3159,7 @@ Objects {
     Location {
       X: -96.0672
       Y: -4648.63379
-      Z: 493.941162
+      Z: 457.956543
     }
     Rotation {
     }
@@ -3290,15 +3192,15 @@ Objects {
   Transform {
     Location {
       X: -304.169556
-      Y: -4634.39844
-      Z: 493.940674
+      Y: -4607.18408
+      Z: 488.043945
     }
     Rotation {
     }
     Scale {
       X: 1
       Y: 1
-      Z: 0.44017458
+      Z: 0.0423510745
     }
   }
   ParentId: 15084389731420460127
@@ -3514,12 +3416,12 @@ Objects {
   Name: "Decals Tracks 01"
   Transform {
     Location {
-      X: -6529.58105
-      Y: -1454.05127
-      Z: -99.6062622
+      X: -6938.3291
+      Y: -1904.40381
+      Z: -149.011505
     }
     Rotation {
-      Pitch: -2.74398065
+      Pitch: -2.74398804
       Yaw: 137.549515
       Roll: 4.6494832
     }
@@ -4315,8 +4217,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3202.83667
-            Y: 5551.79688
+            X: -3205
+            Y: 5565
             Z: 480.094299
           }
         }
@@ -4846,7 +4748,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3155
+            X: 3125
             Y: -3665
             Z: -125
           }
@@ -4948,14 +4850,14 @@ Objects {
           Name: "Position"
           Vector {
             X: 3460
-            Y: 4170
+            Y: 4135
             Z: -144.999939
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999924
+            Yaw: -90
           }
         }
         Overrides {
@@ -4995,8 +4897,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6060
-            Y: 675
+            X: -6055
+            Y: 680
             Z: 185
           }
         }
@@ -5049,15 +4951,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2020.03662
-            Y: -2914.96338
+            X: -2145
+            Y: -3090
             Z: -123.630219
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -44.9999962
+            Yaw: -45
           }
         }
         Overrides {
@@ -6432,7 +6334,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 2946846378138735618
       }
     }
   }
@@ -8228,7 +8130,6 @@ Objects {
     }
   }
   ParentId: 17525193500194171463
-  ChildIds: 13963046211539363956
   ChildIds: 11708117089856935235
   UnregisteredParameters {
   }
@@ -8293,100 +8194,6 @@ Objects {
   InstanceHistory {
     SelfId: 11708117089856935235
     SubobjectId: 1986900548023926106
-    InstanceId: 8747371573451257331
-    TemplateId: 2573618891007445939
-  }
-}
-Objects {
-  Id: 13963046211539363956
-  Name: "Sun Light"
-  Transform {
-    Location {
-      X: -50
-      Z: 300
-    }
-    Rotation {
-      Pitch: -17.1020966
-      Yaw: 22.6643143
-      Roll: 2.61077094
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13353554786713576383
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 3.5
-    }
-    Overrides {
-      Name: "bp:Light Color"
-      Color {
-        R: 0.89
-        G: 0.300596029
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Scale"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Threshold"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Tint"
-      Color {
-        R: 1
-        G: 0.779602647
-        B: 0.480000019
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Use Temperature"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Sun Disc Color"
-      Color {
-        R: 50
-        G: 10
-        B: 2
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Size"
-      Float: 3
-    }
-    Overrides {
-      Name: "bp:Shape"
-      Int: 0
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16910278292812118833
-    }
-  }
-  InstanceHistory {
-    SelfId: 13963046211539363956
-    SubobjectId: 8660353362686771309
     InstanceId: 8747371573451257331
     TemplateId: 2573618891007445939
   }
