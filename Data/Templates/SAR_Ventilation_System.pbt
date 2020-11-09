@@ -7,7 +7,7 @@
       RootId: 16517545823905491799
       Objects {
         Id: 16517545823905491799
-        Name: "Ventilation System"
+        Name: "SAR_Ventilation System"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
         ChildIds: 15573388070264513375
         ChildIds: 8110673547773570631
         ChildIds: 9760175131385083679
@@ -26,6 +26,7 @@
         ChildIds: 13424924040099468145
         ChildIds: 9312512743142399564
         ChildIds: 9057228371348040653
+        ChildIds: 4232371111323489037
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -135,7 +136,7 @@
           }
           Rotation {
             Pitch: 90
-            Yaw: -14.0362635
+            Yaw: -14.0362549
             Roll: -104.03627
           }
           Scale {
@@ -1713,6 +1714,60 @@
           }
         }
       }
+      Objects {
+        Id: 4232371111323489037
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            X: 160
+            Y: -155
+            Z: 235
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: -4.76364136
+            Roll: -94.7636414
+          }
+          Scale {
+            X: 4.21861935
+            Y: 3.97643185
+            Z: 0.138837
+          }
+        }
+        ParentId: 16517545823905491799
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13412464127967364327
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableCastShadows: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 13442965192408425307
@@ -1802,6 +1857,15 @@
       PrimaryAsset {
         AssetType: "DecalBlueprintAssetRef"
         AssetId: "bp_decal_stain_top_001"
+      }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
       }
     }
     PrimaryAssetId {

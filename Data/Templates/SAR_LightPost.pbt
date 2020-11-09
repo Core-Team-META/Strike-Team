@@ -90,7 +90,7 @@
         Name: "Street Light Pole 02"
         Transform {
           Location {
-            Y: -70
+            Y: -69.9999924
             Z: 101.76004
           }
           Rotation {
@@ -98,7 +98,7 @@
           Scale {
             X: 1
             Y: 1
-            Z: 1
+            Z: 1.25
           }
         }
         ParentId: 12715071574255577530
@@ -146,11 +146,12 @@
         Transform {
           Location {
             X: 0.905273438
-            Y: -82.6948242
-            Z: 710
+            Y: -59.9999924
+            Z: 860
           }
           Rotation {
-            Yaw: 89.9999924
+            Pitch: -20
+            Yaw: 90
           }
           Scale {
             X: 0.5
@@ -202,15 +203,16 @@
         Name: "Street Light 01"
         Transform {
           Location {
-            Y: 220
-            Z: 885
+            X: 3.05175781e-05
+            Y: 269.999969
+            Z: 930
           }
           Rotation {
             Yaw: 89.9999924
           }
           Scale {
-            X: 1
-            Y: 1
+            X: 2
+            Y: 1.5
             Z: 1
           }
         }
