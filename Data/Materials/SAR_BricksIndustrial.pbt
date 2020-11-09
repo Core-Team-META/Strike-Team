@@ -30,7 +30,7 @@
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.324536413
+        Float: 0.38091737
       }
       Overrides {
         Name: "cmp:Material2"
@@ -40,7 +40,7 @@
       }
       Overrides {
         Name: "u_tiles"
-        Float: 1.34417534
+        Float: 1.03836489
       }
       Overrides {
         Name: "material1_scale"
@@ -49,6 +49,15 @@
       Overrides {
         Name: "material2_scale"
         Float: 2
+      }
+      Overrides {
+        Name: "cmpc:Material2"
+        Color {
+          R: 0.520000041
+          G: 0.346988201
+          B: 0.111799993
+          A: 1
+        }
       }
     }
     Assets {

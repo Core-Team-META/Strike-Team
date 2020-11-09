@@ -1,6 +1,64 @@
 ﻿Name: "Keppu(Antti)"
 RootId: 15084389731420460127
 Objects {
+  Id: 1426699511562718504
+  Name: "SAR_Barrel"
+  Transform {
+    Location {
+      X: 3939.32568
+      Y: 3497.44775
+      Z: -7.62939453e-06
+    }
+    Rotation {
+      Yaw: -124.397408
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17853856335133973883
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Barrel"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3965
+            Y: -3070
+            Z: -75
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -55.6026
+            Yaw: -90
+            Roll: 90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14344424322214149797
+    }
+  }
+}
+Objects {
   Id: 8587768956777282953
   Name: "FakeGI"
   Transform {
@@ -1810,114 +1868,6 @@ Objects {
   }
 }
 Objects {
-  Id: 971071356955363829
-  Name: "SAR_LightPost"
-  Transform {
-    Location {
-      X: 11080
-      Y: 8830
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12715071574255577530
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_LightPost"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 9594.99805
-            Y: 1235
-            Z: -150
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6946112434529840790
-    }
-  }
-}
-Objects {
-  Id: 8236933101640201486
-  Name: "SAR_LightPost"
-  Transform {
-    Location {
-      X: 9905
-      Y: 8830
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15084389731420460127
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12715071574255577530
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_LightPost"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 10620
-            Y: 1235
-            Z: -150
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6946112434529840790
-    }
-  }
-}
-Objects {
   Id: 1542985864193680256
   Name: "SAR_TrashCan"
   Transform {
@@ -2215,7 +2165,7 @@ Objects {
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 0.1
     }
   }
   ParentId: 15084389731420460127
@@ -2249,7 +2199,7 @@ Objects {
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 0.1
     }
   }
   ParentId: 15084389731420460127
@@ -3174,9 +3124,9 @@ Objects {
   Name: "Decal Burnt Streaks 01"
   Transform {
     Location {
-      X: -2059.71436
-      Y: -2854.97559
-      Z: 722.125854
+      X: -2013.77148
+      Y: -2823.87573
+      Z: 622.220337
     }
     Rotation {
       Yaw: -135
