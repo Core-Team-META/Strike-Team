@@ -1,6 +1,60 @@
 ﻿Name: "FakeGI"
 RootId: 8587768956777282953
 Objects {
+  Id: 8988012108388762198
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -4667.6709
+      Y: 8568.4248
+      Z: 1386.09851
+    }
+    Rotation {
+      Pitch: -9.49688721
+      Yaw: -5.13961792
+      Roll: 6.88697433
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8587768956777282953
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 98.2630157
+    Color {
+      R: 0.93785
+      G: 1
+      B: 0.661
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1032.73633
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1520.01843
+          SourceHeight: 200.466736
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
   Id: 14363370505558326680
   Name: "Area Light"
   Transform {
@@ -135,7 +189,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 16.4921837
+    Intensity: 44.9422531
     Color {
       R: 1
       G: 0.814357519
@@ -189,7 +243,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 16.4921837
+    Intensity: 100
     Color {
       R: 1
       G: 0.690596
@@ -351,7 +405,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 30.676096
+    Intensity: 55.7141228
     Color {
       R: 1
       G: 0.673642397

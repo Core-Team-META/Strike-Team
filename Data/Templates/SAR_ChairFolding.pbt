@@ -44,16 +44,16 @@
         Name: "Chair Seat"
         Transform {
           Location {
-            X: 29.670166
-            Y: -325.348755
+            X: 29.6710606
+            Y: -325.348236
           }
           Rotation {
-            Roll: -84.1035385
+            Roll: -84.1035461
           }
           Scale {
-            X: 10.1017714
-            Y: 1.26272094
-            Z: 9.849226
+            X: 9.30298328
+            Y: 1.25
+            Z: 9.75
           }
         }
         ParentId: 2082747040726771702
@@ -61,19 +61,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.103199966
+              G: 0.287160218
+              B: 0.429999948
               A: 1
             }
           }
@@ -124,19 +124,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -187,19 +187,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -250,19 +250,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -312,19 +312,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -375,19 +375,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -438,19 +438,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.103199966
+              G: 0.287160218
+              B: 0.429999948
               A: 1
             }
           }
@@ -500,19 +500,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -562,19 +562,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4880170813277602281
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.201
+              G: 0.201
+              B: 0.201
               A: 1
             }
           }
@@ -833,12 +833,12 @@
       }
     }
     Assets {
-      Id: 4880170813277602281
-      Name: "Car Paint 01"
+      Id: 13085174305471638229
+      Name: "Metal Painted Old 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_car-paint_001"
+        AssetId: "mi_metal_painted_old_001_uv"
       }
     }
     Assets {

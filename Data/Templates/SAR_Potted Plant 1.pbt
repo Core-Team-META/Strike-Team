@@ -10,9 +10,9 @@
         Name: "SAR_Potted Plant 1"
         Transform {
           Scale {
-            X: 0.6
-            Y: 0.6
-            Z: 0.6
+            X: 0.438979208
+            Y: 0.438979208
+            Z: 0.438979208
           }
         }
         ParentId: 4781671109827199097

@@ -84,6 +84,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -138,6 +140,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -192,6 +196,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -246,6 +252,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -300,6 +308,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -354,6 +364,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -408,6 +420,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -462,6 +476,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -516,6 +532,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -571,6 +589,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -626,6 +646,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -681,6 +703,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -736,6 +760,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -791,6 +817,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -846,6 +874,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -901,6 +931,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -956,6 +988,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1013,6 +1047,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1070,6 +1106,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1127,6 +1165,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1184,6 +1224,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1239,6 +1281,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1294,6 +1338,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1349,6 +1395,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1404,6 +1452,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1459,6 +1509,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1514,6 +1566,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1569,6 +1623,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1624,6 +1680,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }
@@ -1678,6 +1736,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
+              G: 0.176999986
+              B: 0.176999986
               A: 1
             }
           }

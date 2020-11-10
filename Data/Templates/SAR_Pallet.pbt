@@ -15,12 +15,10 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 11691511621386293328
         ChildIds: 3249671001037682344
         ChildIds: 6914197554033257135
-        ChildIds: 16887692985352587870
-        ChildIds: 2945030952690320132
-        ChildIds: 7622087609054635334
         ChildIds: 16706831782819845878
         ChildIds: 17270247824790794943
         ChildIds: 16167542554691137144
@@ -36,6 +34,41 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 11691511621386293328
+        Name: "Decal Stains Round 01"
+        Transform {
+          Location {
+            X: -19.9039249
+            Y: 9.40519
+            Z: 16.562439
+          }
+          Rotation {
+            Yaw: 90.786705
+          }
+          Scale {
+            X: 0.25
+            Y: 0.25
+            Z: 0.105175473
+          }
+        }
+        ParentId: 12467583695951776878
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 14075465413141390957
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
         }
       }
       Objects {
@@ -87,129 +120,6 @@
             X: 122.885986
             Y: 98.7919922
             Z: -23.3410187
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: -91.2978
-            Roll: 1.27570202e-05
-          }
-          Scale {
-            X: 0.678788662
-            Y: 0.795601428
-            Z: 0.316719234
-          }
-        }
-        ParentId: 12467583695951776878
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5341919936727545826
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16887692985352587870
-        Name: "Wood 2x4 4m"
-        Transform {
-          Location {
-            X: 71.9845581
-            Y: 99.9455566
-            Z: -23.3410225
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: -91.2978
-            Roll: 1.27570202e-05
-          }
-          Scale {
-            X: 0.678788662
-            Y: 0.795601428
-            Z: 0.316719234
-          }
-        }
-        ParentId: 12467583695951776878
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5341919936727545826
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2945030952690320132
-        Name: "Wood 2x4 4m"
-        Transform {
-          Location {
-            X: 22.4486084
-            Y: 101.067871
-            Z: -23.3410244
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: -91.2978
-            Roll: 1.27570202e-05
-          }
-          Scale {
-            X: 0.678788662
-            Y: 0.795601428
-            Z: 0.316719234
-          }
-        }
-        ParentId: 12467583695951776878
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5341919936727545826
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7622087609054635334
-        Name: "Wood 2x4 4m"
-        Transform {
-          Location {
-            X: -28.453064
-            Y: 102.220703
-            Z: -23.3410263
           }
           Rotation {
             Pitch: 1.36603776e-05
@@ -570,6 +480,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 14075465413141390957
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
       }
     }
     Assets {

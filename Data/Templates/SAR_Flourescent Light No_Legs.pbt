@@ -327,14 +327,14 @@
         Name: "Area Light"
         Transform {
           Location {
-            X: -14.2926588
-            Y: 4.74651909
-            Z: 15.5359936
+            X: -14.2926579
+            Y: 4.74670887
+            Z: 1.99841964
           }
           Rotation {
             Pitch: -90
-            Yaw: -26.565033
-            Roll: 116.564972
+            Yaw: 20.5560398
+            Roll: 69.4438629
           }
           Scale {
             X: 1.55359936
@@ -357,17 +357,18 @@
             B: 0.37
             A: 1
           }
+          CastShadows: true
           VolumetricIntensity: 5
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 1000
+              AttenuationRadius: 807.280884
               AreaLight {
-                BarnDoorAngle: 50
-                BarnDoorLength: 20
-                SourceWidth: 197.253342
+                BarnDoorAngle: 55.4747887
+                BarnDoorLength: 37.0953674
+                SourceWidth: 173.537109
                 SourceHeight: 60.869812
               }
             }

@@ -56,7 +56,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5814329836194446418
+              Id: 14231809728886464860
             }
           }
           Overrides {
@@ -66,11 +66,19 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.682119191
-              B: 0.25
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
               A: 1
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.32505703
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.4398323
           }
         }
         Collidable_v2 {
@@ -127,9 +135,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.682119191
-              B: 0.25
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
               A: 1
             }
           }
@@ -188,9 +196,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.682119191
-              B: 0.25
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
               A: 1
             }
           }
@@ -271,7 +279,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5814329836194446418
+              Id: 17393961314713938594
             }
           }
           Overrides {
@@ -281,11 +289,15 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.682119191
-              B: 0.25
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
               A: 1
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 2.79154515
           }
         }
         Collidable_v2 {
@@ -337,6 +349,15 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -386,6 +407,15 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -492,6 +522,15 @@
               Id: 11519736006564138369
             }
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -596,6 +635,15 @@
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 11519736006564138369
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
             }
           }
         }
@@ -737,6 +785,15 @@
               Id: 11519736006564138369
             }
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -843,6 +900,15 @@
               Id: 11519736006564138369
             }
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -887,7 +953,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5814329836194446418
+              Id: 17393961314713938594
             }
           }
           Overrides {
@@ -897,11 +963,15 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.682119191
-              B: 0.25
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
               A: 1
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 2.79154515
           }
         }
         Collidable_v2 {
@@ -953,6 +1023,15 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -1003,6 +1082,15 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.493000031
+              G: 0.336284876
+              B: 0.123250008
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -1035,12 +1123,12 @@
       }
     }
     Assets {
-      Id: 5814329836194446418
-      Name: "Wood Planks White"
+      Id: 14231809728886464860
+      Name: "Wood Raw White"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_planks_white_001_uv"
+        AssetId: "mi_wood_raw_white_001_uv"
       }
     }
     Assets {
@@ -1050,6 +1138,24 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 5814329836194446418
+      Name: "Wood Planks White"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_planks_white_001_uv"
+      }
+    }
+    Assets {
+      Id: 17393961314713938594
+      Name: "Wood Planks White"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_planks_white_001_uv"
       }
     }
     Assets {

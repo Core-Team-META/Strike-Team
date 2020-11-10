@@ -18,7 +18,6 @@
         ParentId: 4781671109827199097
         ChildIds: 8591823801424012027
         ChildIds: 1722591059128240975
-        ChildIds: 10270162786075282855
         ChildIds: 9565672498727621661
         ChildIds: 5144959319628768508
         ChildIds: 15088126158997072597
@@ -96,7 +95,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17619731731262860672
+              Id: 18298649095315083710
             }
           }
         }
@@ -141,7 +140,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17619731731262860672
+              Id: 18298649095315083710
             }
           }
         }
@@ -186,7 +185,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17619731731262860672
+              Id: 18298649095315083710
             }
           }
         }
@@ -231,7 +230,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17619731731262860672
+              Id: 18298649095315083710
             }
           }
         }
@@ -276,7 +275,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17619731731262860672
+              Id: 18298649095315083710
             }
           }
         }
@@ -321,7 +320,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17619731731262860672
+              Id: 18298649095315083710
             }
           }
         }
@@ -414,68 +413,21 @@
         }
       }
       Objects {
-        Id: 10270162786075282855
-        Name: "Glass top"
-        Transform {
-          Location {
-            X: -5.390625
-            Y: 0.687501609
-            Z: 331.709229
-          }
-          Rotation {
-            Yaw: 1.35536557e-05
-          }
-          Scale {
-            X: 0.621489167
-            Y: 0.696054578
-            Z: 0.749278545
-          }
-        }
-        ParentId: 9994154779130924644
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17329295947487291966
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9372939288148738240
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 9565672498727621661
         Name: "Glass bottom"
         Transform {
           Location {
             X: -5.390625
-            Y: 0.687501609
-            Z: 307.797363
+            Y: 0.6875
+            Z: 275.771973
           }
           Rotation {
             Yaw: 1.35536557e-05
           }
           Scale {
-            X: 0.803613
-            Y: 0.803613
-            Z: 0.803613
+            X: 0.64336586
+            Y: 0.64336586
+            Z: 0.64336586
           }
         }
         ParentId: 9994154779130924644
@@ -495,7 +447,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 746242229766735565
+            Id: 3702365963781758101
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -864,12 +816,12 @@
       }
     }
     Assets {
-      Id: 17619731731262860672
-      Name: "Emissive Glow Transparent"
+      Id: 18298649095315083710
+      Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {
@@ -891,12 +843,12 @@
       }
     }
     Assets {
-      Id: 9372939288148738240
-      Name: "Truncated Cone"
+      Id: 3702365963781758101
+      Name: "Teardrop - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_001"
+        AssetId: "sm_truncated_teardrop_001"
       }
     }
     Assets {
@@ -906,15 +858,6 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_basic_glass_001"
-      }
-    }
-    Assets {
-      Id: 746242229766735565
-      Name: "Sphere"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
       }
     }
     Assets {
