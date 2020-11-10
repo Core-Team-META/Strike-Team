@@ -114,6 +114,7 @@ Objects {
   ChildIds: 6410390922523157409
   ChildIds: 13156667044698472102
   ChildIds: 698681604748042681
+  ChildIds: 4269205476615662137
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -122,6 +123,43 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4269205476615662137
+  Name: "Decal Debris 02"
+  Transform {
+    Location {
+      X: -7497.27295
+      Y: -6064.56055
+      Z: -129.312134
+    }
+    Rotation {
+      Pitch: 0.308314711
+      Yaw: 52.862751
+      Roll: -1.07559204
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9786462415611388372
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
   }
 }
 Objects {
@@ -619,7 +657,9 @@ Objects {
       Z: 75.8154297
     }
     Rotation {
-      Yaw: -78.6288757
+      Pitch: -6.80303955
+      Yaw: -80.8670044
+      Roll: 36.3844
     }
     Scale {
       X: 1
@@ -711,7 +751,9 @@ Objects {
       Z: 75.8155518
     }
     Rotation {
-      Yaw: -78.6289368
+      Pitch: -4.256073
+      Yaw: -79.4447632
+      Roll: 21.7181129
     }
     Scale {
       X: 1
@@ -3483,14 +3525,14 @@ Objects {
   Name: "Decal Debris 02"
   Transform {
     Location {
-      X: -8027.30078
-      Y: -6076.20947
-      Z: -1.33221436
+      X: -7585.95508
+      Y: -5372.05469
+      Z: -108.791016
     }
     Rotation {
       Pitch: 0.308314711
       Yaw: 52.8627357
-      Roll: -1.0755918
+      Roll: -1.07559204
     }
     Scale {
       X: 1
@@ -4040,9 +4082,6 @@ Objects {
   Name: "SAR_Atmosphere"
   Transform {
     Location {
-      X: -35
-      Y: -6560
-      Z: -115
     }
     Rotation {
     }
@@ -4077,7 +4116,7 @@ Objects {
     Location {
     }
     Rotation {
-      Pitch: -30.4593983
+      Pitch: -30.4594116
       Yaw: 175.393066
       Roll: 175.531296
     }
@@ -4101,11 +4140,9 @@ Objects {
 }
 Objects {
   Id: 9298601716501198180
-  Name: "ClientContext"
+  Name: "ClienEffects"
   Transform {
     Location {
-      X: -2752.5
-      Y: -2515
       Z: 1798.5188
     }
     Rotation {
@@ -4670,8 +4707,6 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      Y: -3145
-      Z: 700
     }
     Rotation {
     }
@@ -4754,8 +4789,6 @@ Objects {
   Name: "Sun Light"
   Transform {
     Location {
-      Y: -3145
-      Z: 700
     }
     Rotation {
       Pitch: -33.2421341

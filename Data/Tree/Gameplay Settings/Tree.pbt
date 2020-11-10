@@ -127,8 +127,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -3858.68555
-      Y: 3508.97754
+      X: -3859.69922
+      Y: 3537.84766
       Z: 69.8293152
     }
     Rotation {
@@ -159,7 +159,7 @@ Objects {
     Location {
       X: 3338.06738
       Y: -5627.90088
-      Z: 202.332031
+      Z: 231.744263
     }
     Rotation {
       Yaw: 155.477112
@@ -187,9 +187,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -413.789612
-      Y: -4866.02246
-      Z: 0.000457763672
+      X: -219.942749
+      Y: -4918.17676
+      Z: 19.7539063
     }
     Rotation {
       Yaw: 108.35482
@@ -372,6 +372,7 @@ Objects {
       Z: 70.6359863
     }
     Rotation {
+      Yaw: -84.921875
     }
     Scale {
       X: 1
@@ -396,12 +397,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -2258.68555
-      Y: 4053.97754
-      Z: 57.586792
+      X: -1567.78943
+      Y: 3871.93359
+      Z: 57.5867767
     }
     Rotation {
-      Yaw: -67.5000305
+      Yaw: 172.688416
     }
     Scale {
       X: 1
@@ -455,9 +456,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -9415.70508
-      Y: -1506.02246
-      Z: 0.000762939453
+      X: -9531.61719
+      Y: -1849.84082
+      Z: -41.7526855
     }
     Rotation {
     }
@@ -484,8 +485,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -7843.40137
-      Y: 1171.91309
+      X: -7854.90918
+      Y: 1236.69531
       Z: 724.9021
     }
     Rotation {
@@ -513,9 +514,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -6168.68555
+      X: -6616.13184
       Y: -4731.02246
-      Z: 0.00048828125
+      Z: -59.6807251
     }
     Rotation {
     }
@@ -542,11 +543,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -2038.68555
-      Y: -5431.02246
+      X: -2072.1709
+      Y: -5521.86328
       Z: 17.0979
     }
     Rotation {
+      Yaw: 46.6009254
     }
     Scale {
       X: 1
@@ -658,6 +660,7 @@ Objects {
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
+      EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
         }

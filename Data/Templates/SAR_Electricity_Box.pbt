@@ -367,8 +367,9 @@
         Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
         Transform {
           Location {
-            X: -14.9999981
-            Z: 169.999939
+            X: 38.1861801
+            Y: -1.90734863e-06
+            Z: 181.497238
           }
           Rotation {
             Yaw: 89.9999924
@@ -391,8 +392,8 @@
             Id: 7757061955395221575
           }
           AutoPlay: true
-          Volume: 1
-          Falloff: 1000
+          Volume: 0.935940444
+          Falloff: 500
           Radius: 100
           EnableOcclusion: true
           IsSpatializationEnabled: true

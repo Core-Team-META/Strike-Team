@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 15070196404854630903
+  Name: "Pyramid - 6-Sided Truncated Hollow Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_6_sided_truncated_hollow_thick_001"
+  }
+}
+Assets {
   Id: 14565993562237882178
   Name: "Military Worn Tire 01"
   PlatformAssetType: 1
@@ -35,12 +44,39 @@ Assets {
   }
 }
 Assets {
+  Id: 13085174305471638229
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
   Id: 12598129352734110789
   Name: "Corrugated Sheet Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
+  }
+}
+Assets {
+  Id: 12484798020569700940
+  Name: "Wood Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 10128884331981734128
+  Name: "Cube - bottom aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -71,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5931224016695282927
+  Name: "Liquid Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_liquid"
+  }
+}
+Assets {
   Id: 5154493427538871909
   Name: "Corrugated Sheet Medium"
   PlatformAssetType: 1
@@ -86,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_sand_patch_001"
+  }
+}
+Assets {
+  Id: 2801050667471875383
+  Name: "Prism - octagon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_001"
   }
 }
 Assets {

@@ -1007,15 +1007,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12922564793841951858
-  Name: "Fantasy Human Gal 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_001_ref"
-  }
-}
-Assets {
   Id: 12905923173550510229
   Name: "Cylinder - Polished"
   PlatformAssetType: 1
@@ -2156,15 +2147,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_winHalfSlot1x"
-  }
-}
-Assets {
-  Id: 4212003115047915526
-  Name: "Fantasy Human Gal 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }
 Assets {

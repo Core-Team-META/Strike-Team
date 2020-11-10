@@ -5,9 +5,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -4667.6709
-      Y: 8568.4248
-      Z: 1386.09851
+      X: -5036.10547
+      Y: 2123.72852
+      Z: 2261.15088
     }
     Rotation {
       Pitch: -9.49688721
@@ -59,9 +59,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -6787.19092
-      Y: 6181.35107
-      Z: 2488.19434
+      X: -7155.17334
+      Y: -263.368408
+      Z: 3363.03613
     }
     Rotation {
       Pitch: 6.83018879e-06
@@ -112,9 +112,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -4217.3252
-      Y: 8056.38867
-      Z: 1043.55811
+      X: -4585.86963
+      Y: 1611.70288
+      Z: 1918.68909
     }
     Rotation {
       Pitch: 59.2456741
@@ -166,14 +166,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 2784.33252
-      Y: 3539.64941
-      Z: -2925.61841
+      X: 2414.15552
+      Y: -2904.85547
+      Z: -2049.53174
     }
     Rotation {
-      Pitch: -25.8108463
+      Pitch: -25.8108521
       Yaw: 43.1757698
-      Roll: -17.3303986
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -220,14 +220,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3231.51
-      Y: 3039.1394
-      Z: -2585.91772
+      X: 2861.21826
+      Y: -3405.36353
+      Z: -1709.90259
     }
     Rotation {
-      Pitch: -25.8108387
+      Pitch: -25.8108521
       Yaw: 43.1757393
-      Roll: -17.3303947
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -274,9 +274,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 326.358765
-      Y: 7023.92773
-      Z: -2027.27734
+      X: -43.1983643
+      Y: 579.384338
+      Z: -1151.44824
     }
     Rotation {
       Pitch: 59.2456741
@@ -328,9 +328,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 326.358765
-      Y: 7023.92773
-      Z: -2027.27734
+      X: -43.1983643
+      Y: 579.384338
+      Z: -1151.44824
     }
     Rotation {
       Pitch: 59.2456741
@@ -382,12 +382,12 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3462.04102
-      Y: 7650.45898
-      Z: -3315.01807
+      X: 3091.75146
+      Y: 1205.98108
+      Z: -2438.89502
     }
     Rotation {
-      Pitch: -6.79139328
+      Pitch: -6.79138184
       Yaw: 86.0018616
       Roll: -30.066925
     }
@@ -436,14 +436,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 5012.59668
-      Y: 4680.20117
-      Z: -3863.71558
+      X: 4641.92529
+      Y: -1764.25586
+      Z: -2987.42285
     }
     Rotation {
-      Pitch: -25.8108387
+      Pitch: -25.8108521
       Yaw: 43.1757393
-      Roll: -17.3303947
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -490,14 +490,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3453.27563
-      Y: 5793.98
-      Z: -2804.0293
+      X: 3082.96118
+      Y: -650.501465
+      Z: -1927.99646
     }
     Rotation {
-      Pitch: -25.8108463
+      Pitch: -25.8108521
       Yaw: 43.1757698
-      Roll: -17.3303986
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -544,14 +544,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 4068.75781
-      Y: 4918.26563
-      Z: -3098.65454
+      X: 3698.28809
+      Y: -1526.20386
+      Z: -2222.54517
     }
     Rotation {
-      Pitch: -25.8108387
+      Pitch: -25.8108521
       Yaw: 43.1757393
-      Roll: -17.3303947
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -598,14 +598,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3768.48438
-      Y: 5165.42
-      Z: -3656.48486
+      X: 3398.09863
+      Y: -1279.05212
+      Z: -2780.25781
     }
     Rotation {
-      Pitch: -25.810833
+      Pitch: -25.8108215
       Yaw: 43.1757278
-      Roll: -17.3303986
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -652,13 +652,13 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 4323.90332
-      Y: 6892.81738
-      Z: -3956.20703
+      X: 3953.38916
+      Y: 448.362061
+      Z: -3079.91846
     }
     Rotation {
       Pitch: -29.8344421
-      Yaw: -7.91441917
+      Yaw: -7.91442871
       Roll: 7.8351078
     }
     Scale {
@@ -706,14 +706,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -3964.56714
-      Y: 4182.76416
-      Z: 1173.91919
+      X: -4333.21
+      Y: -2261.90234
+      Z: 2049.06348
     }
     Rotation {
-      Pitch: -6.79142046
+      Pitch: -6.79141235
       Yaw: 86.0018539
-      Roll: -30.0669117
+      Roll: -30.066925
     }
     Scale {
       X: 1
@@ -760,14 +760,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -4692.02
-      Y: 4658.6875
-      Z: 1944.02271
+      X: -5060.49707
+      Y: -1785.99414
+      Z: 2818.99536
     }
     Rotation {
-      Pitch: -25.810833
+      Pitch: -25.8108215
       Yaw: 43.1757278
-      Roll: -17.3303986
+      Roll: -17.3303833
     }
     Scale {
       X: 1
@@ -814,12 +814,11 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -6787.19092
-      Y: 6181.35107
-      Z: 2488.19434
+      X: -7155.17334
+      Y: -263.368408
+      Z: 3363.03613
     }
     Rotation {
-      Yaw: -1.06721693e-07
       Roll: 2.48480821e-16
     }
     Scale {
@@ -866,13 +865,13 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -6842.96045
-      Y: 11436.3594
-      Z: 2395.29053
+      X: -7210.88721
+      Y: 4991.63721
+      Z: 3270.09692
     }
     Rotation {
       Pitch: 1.18277013
-      Yaw: -3.85724974
+      Yaw: -3.85723877
       Roll: 6.79289198
     }
     Scale {
@@ -920,13 +919,13 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -6842.96045
-      Y: 11436.3594
-      Z: 2395.29053
+      X: -7210.86768
+      Y: 4991.63086
+      Z: 3270.08984
     }
     Rotation {
       Pitch: 1.18276334
-      Yaw: -3.85723948
+      Yaw: -3.85723877
       Roll: 6.79287672
     }
     Scale {
@@ -974,9 +973,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -7078.92676
-      Y: 7350.67041
-      Z: 2755.25684
+      X: -7446.82227
+      Y: 905.934814
+      Z: 3630.00488
     }
     Rotation {
       Pitch: 2.73207552e-05
