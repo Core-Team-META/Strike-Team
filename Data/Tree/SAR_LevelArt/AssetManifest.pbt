@@ -305,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16804313491192481366
-  Name: "Container - Square Thin 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_square_thin_ref"
-  }
-}
-Assets {
   Id: 16775729324219786789
   Name: "Decal Moss Patch"
   PlatformAssetType: 14
@@ -1466,6 +1457,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10187957317271521407
+  Name: "Pyramid - 4-Sided Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_truncated_001"
+  }
+}
+Assets {
   Id: 10184847056121543272
   Name: "Basic Material"
   PlatformAssetType: 2
@@ -1589,15 +1589,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_roadsigns_001"
-  }
-}
-Assets {
-  Id: 8856967052442566524
-  Name: "Marble Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_marble_tiles_001_uv"
   }
 }
 Assets {
@@ -2150,6 +2141,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4299095625223753362
+  Name: "Forest Floor 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "forest-floor_002"
+  }
+}
+Assets {
   Id: 4232391847469820774
   Name: "Whitebox Wall 01 Half - Window Slot 1x"
   PlatformAssetType: 1
@@ -2165,15 +2165,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AnimatedMeshAssetRef"
     AssetId: "npc_human_gal_fantasy_003_ref"
-  }
-}
-Assets {
-  Id: 4130593004320210600
-  Name: "Craftsman Coffee Table"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_coffee_table_001"
   }
 }
 Assets {

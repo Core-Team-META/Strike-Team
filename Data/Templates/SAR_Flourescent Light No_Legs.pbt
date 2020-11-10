@@ -350,7 +350,7 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 59.5894585
+          Intensity: 100
           Color {
             R: 1
             G: 0.758013248

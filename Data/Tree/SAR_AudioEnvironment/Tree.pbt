@@ -1,6 +1,47 @@
 ﻿Name: "SAR_AudioEnvironment"
 RootId: 8849669081362303247
 Objects {
+  Id: 6554089544094711560
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8849669081362303247
+  ChildIds: 1184742141741919549
+  ChildIds: 4725715137766846288
+  ChildIds: 4481678459153564207
+  ChildIds: 9544551835178094259
+  ChildIds: 7452641482552479386
+  ChildIds: 855477033764406765
+  ChildIds: 10987068631257938660
+  ChildIds: 9325810296631144991
+  ChildIds: 8854721221583934047
+  ChildIds: 9437627509173326651
+  ChildIds: 3028148353224451936
+  ChildIds: 16722650076621823557
+  ChildIds: 9535502928736810111
+  ChildIds: 3114312607185769712
+  ChildIds: 803480580152922340
+  ChildIds: 1356273912470852145
+  ChildIds: 16318142426076401961
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 16318142426076401961
   Name: "Ambience Suburbs Neighborhood 01 SFX"
   Transform {
@@ -17,10 +58,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   UnregisteredParameters {
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -64,10 +104,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   UnregisteredParameters {
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,10 +151,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   UnregisteredParameters {
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -147,8 +185,8 @@ Objects {
   Name: "Ambience Nature Cicadas Set 01 SFX"
   Transform {
     Location {
-      X: 2060.95898
-      Y: 855.148193
+      X: 1941.16016
+      Y: 685.451355
       Z: 101.573059
     }
     Rotation {
@@ -159,7 +197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -200,7 +238,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -241,7 +279,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -282,7 +320,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -323,7 +361,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -364,7 +402,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -405,7 +443,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -441,7 +479,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -477,7 +515,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -518,7 +556,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -559,7 +597,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -596,7 +634,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -630,7 +668,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -667,10 +705,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8849669081362303247
+  ParentId: 6554089544094711560
   UnregisteredParameters {
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

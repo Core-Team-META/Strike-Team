@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14744911882658878240
+  Name: "Decal Hay Patch 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_fan_hay_001"
+  }
+}
+Assets {
   Id: 14075465413141390957
   Name: "Decal Stains Round 01"
   PlatformAssetType: 14
@@ -68,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_001_ref"
+  }
+}
+Assets {
+  Id: 12792204639440691452
+  Name: "Decal Leaves 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_002"
   }
 }
 Assets {
@@ -176,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "dcl_liquid"
+  }
+}
+Assets {
+  Id: 3738850035184511142
+  Name: "Decal Leaves 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_001"
   }
 }
 Assets {

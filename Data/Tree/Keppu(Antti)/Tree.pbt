@@ -44,6 +44,52 @@ Objects {
   ChildIds: 2466280363575935417
   ChildIds: 15691937463903357430
   ChildIds: 1589197054884465777
+  ChildIds: 14624072255953553946
+  ChildIds: 5219960978820815692
+  ChildIds: 11330821307027066924
+  ChildIds: 18328337305613913415
+  ChildIds: 8685529593061014772
+  ChildIds: 12789932965306292309
+  ChildIds: 6129176629771209896
+  ChildIds: 7797973115367855250
+  ChildIds: 3564351184092739836
+  ChildIds: 10431780350521295404
+  ChildIds: 1477503833891112395
+  ChildIds: 9357872687375465029
+  ChildIds: 13540401779971967588
+  ChildIds: 9309563972235495772
+  ChildIds: 4038016279240528568
+  ChildIds: 11418997483985085388
+  ChildIds: 4484754819904503983
+  ChildIds: 3062793418241729594
+  ChildIds: 14317316379580921210
+  ChildIds: 10654267188084807745
+  ChildIds: 6264925729531636669
+  ChildIds: 4089273153433585728
+  ChildIds: 16761597983642708512
+  ChildIds: 11851350720410002775
+  ChildIds: 3399390249387003323
+  ChildIds: 10829148308676314264
+  ChildIds: 7273933073838991916
+  ChildIds: 3884196876847233553
+  ChildIds: 7969351540650982158
+  ChildIds: 13878150974777976204
+  ChildIds: 12171724129516422086
+  ChildIds: 4944430634089838290
+  ChildIds: 3708039333355035988
+  ChildIds: 12939697314585604564
+  ChildIds: 11845752897254426317
+  ChildIds: 10430698522187659089
+  ChildIds: 5579689056063518951
+  ChildIds: 18399422799850762990
+  ChildIds: 10527972225368627787
+  ChildIds: 5391283435826042131
+  ChildIds: 10225614784298770918
+  ChildIds: 12682731966112604755
+  ChildIds: 11708759719468815396
+  ChildIds: 13811199400883072029
+  ChildIds: 7647327305271406
+  ChildIds: 10555734916825530807
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -52,6 +98,1820 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10555734916825530807
+  Name: "Decal Leaves 01"
+  Transform {
+    Location {
+      X: -3587.59766
+      Y: -969.879883
+      Z: 29.9524536
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3738850035184511142
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 7647327305271406
+  Name: "Decal Leaves 02"
+  Transform {
+    Location {
+      X: -3634.32324
+      Y: -1370.73926
+      Z: 47.3437805
+    }
+    Rotation {
+      Yaw: -104.771492
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12792204639440691452
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 13811199400883072029
+  Name: "Decal Leaves 02"
+  Transform {
+    Location {
+      X: -3634.32324
+      Y: -1811.62939
+      Z: 37.1458435
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12792204639440691452
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 11708759719468815396
+  Name: "Decal Leaves 02"
+  Transform {
+    Location {
+      X: -3634.32324
+      Y: -534.048828
+      Z: 37.1458435
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12792204639440691452
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 12682731966112604755
+  Name: "Decal Leaves 02"
+  Transform {
+    Location {
+      X: -3614.77393
+      Y: -118.272461
+      Z: 37.1457825
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12792204639440691452
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10225614784298770918
+  Name: "Decal Leaves 02"
+  Transform {
+    Location {
+      X: -3928.54248
+      Y: -1662.20264
+      Z: -18.513855
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12792204639440691452
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5391283435826042131
+  Name: "Decal Leaves 01"
+  Transform {
+    Location {
+      X: -4091.7085
+      Y: -1632.65918
+      Z: -18.513916
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3738850035184511142
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10527972225368627787
+  Name: "Decal Leaves 01"
+  Transform {
+    Location {
+      X: -4071.19434
+      Y: -275.391602
+      Z: 16.2087402
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3738850035184511142
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 18399422799850762990
+  Name: "Decal Leaves 02"
+  Transform {
+    Location {
+      X: -3908.02832
+      Y: -304.935059
+      Z: -48.9866943
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.587
+        G: 0.365133584
+        B: 0.195470974
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12792204639440691452
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5579689056063518951
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -5722.59668
+      Y: -1956.34473
+      Z: 23.2160339
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10430698522187659089
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4417.38428
+      Y: -1204.16064
+      Z: -19.659729
+    }
+    Rotation {
+      Yaw: 9.01939869
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 11845752897254426317
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -3836.69336
+      Y: -2252.29395
+      Z: -19.659729
+    }
+    Rotation {
+      Yaw: 9.0193882
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 12939697314585604564
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4087.88745
+      Y: -2814.50879
+      Z: 103.026459
+    }
+    Rotation {
+      Yaw: 9.01937675
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 3708039333355035988
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4087.88745
+      Y: 898.306152
+      Z: 103.026459
+    }
+    Rotation {
+      Yaw: 9.01936531
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 4944430634089838290
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -3518.62061
+      Y: 357.252441
+      Z: 103.026459
+    }
+    Rotation {
+      Yaw: 9.01935387
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 12171724129516422086
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4056.04956
+      Y: 357.252441
+      Z: -16.3542175
+    }
+    Rotation {
+      Yaw: 9.01934242
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 13878150974777976204
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4052.35815
+      Y: -909.408203
+      Z: -16.3542175
+    }
+    Rotation {
+      Yaw: 9.01933098
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 7969351540650982158
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -5457.46777
+      Y: 240.845215
+      Z: -16.3542175
+    }
+    Rotation {
+      Yaw: 9.01932
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 3884196876847233553
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -6146.67725
+      Y: -1969.08594
+      Z: -16.3542175
+    }
+    Rotation {
+      Yaw: 9.01930904
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 7273933073838991916
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4803.20264
+      Y: -2221.82275
+      Z: -16.3540955
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10829148308676314264
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -7410.57959
+      Y: -287.188
+      Z: 154.183807
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 3399390249387003323
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -7578.47607
+      Y: -792.370117
+      Z: -26.0656433
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 11851350720410002775
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -7578.47607
+      Y: -1465.9834
+      Z: -26.0656433
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 16761597983642708512
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -7525.55566
+      Y: -1465.9834
+      Z: 186.100616
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 4089273153433585728
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -6917.35938
+      Y: -1803.95313
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 6264925729531636669
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -5722.59668
+      Y: -1803.95313
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10654267188084807745
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4803.20264
+      Y: -1803.95313
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 14317316379580921210
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4355.19775
+      Y: -1621.19336
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 3062793418241729594
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4355.19775
+      Y: -396.64502
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 4484754819904503983
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -4773.47461
+      Y: 101.76416
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 11418997483985085388
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -5619.82422
+      Y: 101.76416
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 4038016279240528568
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -5920.97949
+      Y: 101.76416
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 9309563972235495772
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -6828.06885
+      Y: 101.76416
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 13540401779971967588
+  Name: "Decal Hay Patch 01"
+  Transform {
+    Location {
+      X: -7177.06396
+      Y: 101.76416
+      Z: 186.100555
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.387437761
+    }
+  }
+  ParentId: 16184674334645498489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14744911882658878240
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 9357872687375465029
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6607.58496
+      Y: -788.277344
+      Z: -24.508606
+    }
+    Rotation {
+      Pitch: 6.77648973
+      Yaw: -42.0809326
+      Roll: -3.97702026
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 0.44371748
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 1477503833891112395
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6804.26758
+      Y: -800.342285
+      Z: 159.158875
+    }
+    Rotation {
+      Yaw: -42.080658
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.062223509
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10431780350521295404
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6923.1709
+      Y: -800.342285
+      Z: 339.42218
+    }
+    Rotation {
+      Yaw: -42.0806274
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.062223509
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 3564351184092739836
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6923.1709
+      Y: -400.342285
+      Z: -93.7912
+    }
+    Rotation {
+      Yaw: -42.0805969
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 7797973115367855250
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -7168.1709
+      Y: -1485.34229
+    }
+    Rotation {
+      Yaw: -42.0805664
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 6129176629771209896
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -4518.1709
+      Y: -1315.34229
+      Z: -123.791138
+    }
+    Rotation {
+      Yaw: -42.0805969
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 12789932965306292309
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -4593.1709
+      Y: -670.342285
+      Z: -118.791199
+    }
+    Rotation {
+      Yaw: -42.0805969
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 8685529593061014772
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -4923.1709
+      Y: -1350.34229
+      Z: -98.7912
+    }
+    Rotation {
+      Yaw: -42.0805664
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 18328337305613913415
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -5738.1709
+      Y: -1260.34229
+    }
+    Rotation {
+      Yaw: -42.0805359
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 11330821307027066924
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6503.1709
+      Y: -1325.34229
+    }
+    Rotation {
+      Yaw: -42.0805054
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5219960978820815692
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6663.1709
+      Y: -210.342285
+    }
+    Rotation {
+      Yaw: -42.0804749
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 14624072255953553946
+  Name: "SAR_DeadGrassDeacal"
+  Transform {
+    Location {
+      X: -6053.1709
+      Y: -350.342285
+    }
+    Rotation {
+      Yaw: -42.0804443
+    }
+    Scale {
+      X: 1.16412389
+      Y: 1.16412389
+      Z: 1.16412389
+    }
+  }
+  ParentId: 16184674334645498489
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.436000019
+        G: 0.436000019
+        B: 0.436000019
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15792411245571524944
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
   }
 }
 Objects {
@@ -1931,5 +3791,34 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "SAR_AudioEnvironment"
+  }
+}
+Objects {
+  Id: 3844101252731550927
+  Name: "SAR_LevelColliders"
+  Transform {
+    Location {
+      X: -35
+      Y: -6560
+      Z: -115
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15084389731420460127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "SAR_LevelColliders"
   }
 }

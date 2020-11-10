@@ -7,7 +7,7 @@
       RootId: 17927232284895885065
       Objects {
         Id: 17927232284895885065
-        Name: "SAR_Awning"
+        Name: "SAR_AwningLong"
         Transform {
           Scale {
             X: 1
@@ -558,8 +558,8 @@
         Name: "Plane 4m - Two Sided"
         Transform {
           Location {
-            X: -77.0354
-            Y: 207.191406
+            X: -77.0353546
+            Y: 211.4
             Z: 105.109558
           }
           Rotation {
@@ -628,17 +628,17 @@
         Name: "Plane 4m - Two Sided"
         Transform {
           Location {
-            X: -95.6940918
-            Y: 213.720703
-            Z: 93.161438
+            X: -87.4000778
+            Y: 220.861877
+            Z: 93.9224548
           }
           Rotation {
-            Pitch: 27.0267429
+            Pitch: 28.5007725
           }
           Scale {
-            X: 0.898214161
-            Y: 0.957322836
-            Z: 0.0165801384
+            X: 0.898216605
+            Y: 1.03061867
+            Z: 0.0165789146
           }
         }
         ParentId: 9638595735747019243
