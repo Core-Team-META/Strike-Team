@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 17620359405672570059
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
   Id: 17280976981586363031
   Name: "Corrugated Sheet Tall"
   PlatformAssetType: 1
@@ -98,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7128102797736711867
+  Name: "Volumetric Fog Injector Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_volumetric_fog_injector"
+  }
+}
+Assets {
   Id: 6865249745567109080
   Name: "Corrugated Sheet Bent"
   PlatformAssetType: 1
@@ -116,12 +134,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5904229792949433869
+  Name: "Craftsman Stairs 01 Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001"
+  }
+}
+Assets {
   Id: 5154493427538871909
   Name: "Corrugated Sheet Medium"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
+  Id: 5051254060641997872
+  Name: "Dust Motes Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_dust_motes"
   }
 }
 Assets {

@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
         ChildIds: 4541106029410501416
         ChildIds: 2981354650850475898
         ChildIds: 929161617184360267
@@ -393,7 +393,7 @@
           }
           AutoPlay: true
           Volume: 0.935940444
-          Falloff: 500
+          Falloff: 1500
           Radius: 100
           EnableOcclusion: true
           IsSpatializationEnabled: true

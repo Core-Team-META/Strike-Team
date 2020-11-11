@@ -6,11 +6,6 @@
   CustomMaterialAsset {
     BaseMaterialId: 16447630291553548532
     ParameterOverrides {
-      Overrides {
-        Color {
-          A: 1
-        }
-      }
     }
     Assets {
       Id: 16447630291553548532

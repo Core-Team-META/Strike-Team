@@ -20,9 +20,6 @@
         Float: 0
       }
       Overrides {
-        Float: 0
-      }
-      Overrides {
         Name: "roughness"
         Float: 1
       }

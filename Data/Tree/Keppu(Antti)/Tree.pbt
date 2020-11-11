@@ -4448,7 +4448,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Volumetric Fog"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
