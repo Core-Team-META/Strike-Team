@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18016376055940338681
+  Name: "Cylinder - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_001"
+  }
+}
+Assets {
   Id: 18014941405078390650
   Name: "Kelp Tall Bush 01"
   PlatformAssetType: 1
@@ -332,15 +341,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16630259605395466384
-  Name: "Frosted Glass"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_frosted_glass"
-  }
-}
-Assets {
   Id: 16626931919023374994
   Name: "Stair Bannister - Mid"
   PlatformAssetType: 1
@@ -383,15 +383,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
-  }
-}
-Assets {
-  Id: 16435456726063022908
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -458,21 +449,21 @@ Assets {
   }
 }
 Assets {
-  Id: 16068473372521218516
-  Name: "Cabinet - Upper"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_001"
-  }
-}
-Assets {
   Id: 16019017186942744945
   Name: "Decal Bullet Damage Stone"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_bullet_stone_001"
+  }
+}
+Assets {
+  Id: 16010337041681156581
+  Name: "Prism - 6-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_hexagon_001"
   }
 }
 Assets {
@@ -509,6 +500,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_001"
+  }
+}
+Assets {
+  Id: 15779622614613154330
+  Name: "Pyramid - 6-Sided Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_sixsided_truncated_001"
   }
 }
 Assets {
@@ -881,15 +881,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13810683256700423382
-  Name: "Urban Pipe Coupling 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_coupling_002_ref"
-  }
-}
-Assets {
   Id: 13739503613467942724
   Name: "Rock Block 02"
   PlatformAssetType: 1
@@ -1250,15 +1241,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11235153861991886070
-  Name: "Decal Soil Cracks Smal Variants 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_soil_cracks_002"
-  }
-}
-Assets {
   Id: 11217229546352659442
   Name: "Urban Damaged Floor 02 - 8m"
   PlatformAssetType: 1
@@ -1400,15 +1382,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_006"
-  }
-}
-Assets {
-  Id: 10378479423839914021
-  Name: "Metal Iron 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_001"
   }
 }
 Assets {
@@ -1556,15 +1529,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9536141319314062468
-  Name: "Craftsman Porch Fence Railing 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
-  }
-}
-Assets {
   Id: 9433895716700165127
   Name: "Small Open Crate"
   PlatformAssetType: 1
@@ -1661,15 +1625,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_round_001"
-  }
-}
-Assets {
-  Id: 8255770948128779959
-  Name: "2D Basic Shapes Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_basicShapes"
   }
 }
 Assets {
@@ -1778,15 +1733,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_011"
-  }
-}
-Assets {
-  Id: 6540545606237595083
-  Name: "Bottle 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_001"
   }
 }
 Assets {
@@ -1913,15 +1859,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_liane_002"
-  }
-}
-Assets {
-  Id: 5814329836194446418
-  Name: "Wood Planks White"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_planks_white_001_uv"
   }
 }
 Assets {
@@ -2660,6 +2597,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 198353679974341757
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {

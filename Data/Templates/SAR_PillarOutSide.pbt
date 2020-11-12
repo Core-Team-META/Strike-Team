@@ -99,7 +99,7 @@
         Transform {
           Location {
             X: 5
-            Z: 475
+            Z: 480
           }
           Rotation {
             Yaw: -90

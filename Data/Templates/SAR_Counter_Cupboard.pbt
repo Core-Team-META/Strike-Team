@@ -56,7 +56,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5814329836194446418
+              Id: 14231809728886464860
             }
           }
           Overrides {
@@ -811,12 +811,12 @@
       }
     }
     Assets {
-      Id: 5814329836194446418
-      Name: "Wood Planks White"
+      Id: 14231809728886464860
+      Name: "Wood Raw White"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_planks_white_001_uv"
+        AssetId: "mi_wood_raw_white_001_uv"
       }
     }
     Assets {
@@ -835,6 +835,15 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_wood_raw_white_001_uv"
+      }
+    }
+    Assets {
+      Id: 5814329836194446418
+      Name: "Wood Planks White"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_planks_white_001_uv"
       }
     }
     Assets {

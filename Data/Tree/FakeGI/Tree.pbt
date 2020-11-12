@@ -59,9 +59,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -7155.17334
-      Y: -263.368408
-      Z: 3363.03613
+      X: -7154.89746
+      Y: -209.417725
+      Z: 3362.90381
     }
     Rotation {
       Pitch: 6.83018879e-06
@@ -220,9 +220,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 2861.21826
-      Y: -3405.36353
-      Z: -1709.90259
+      X: 2892.15137
+      Y: -3403.09497
+      Z: -1655.35034
     }
     Rotation {
       Pitch: -25.8108521
@@ -243,7 +243,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 100
+    Intensity: 21.2441368
     Color {
       R: 1
       G: 0.690596

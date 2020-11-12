@@ -35,9 +35,9 @@
         Name: "Corrugated Sheet Small"
         Transform {
           Location {
-            X: 162.903564
-            Y: 118.400879
-            Z: 371.451508
+            X: 184.999969
+            Y: 119.999893
+            Z: 375
           }
           Rotation {
             Yaw: 90
@@ -76,12 +76,12 @@
         Name: "Corrugated Sheet Small"
         Transform {
           Location {
-            X: 162.903564
-            Y: 2.31738281
-            Z: 371.451508
+            X: 184.999939
+            Y: 3.91694617
+            Z: 375
           }
           Rotation {
-            Pitch: -8.52749729
+            Pitch: -8.52749634
             Yaw: 89.0312653
             Roll: 96.5043869
           }
@@ -118,9 +118,9 @@
         Name: "Corrugated Sheet Small"
         Transform {
           Location {
-            X: 163.016113
-            Y: -165.823
-            Z: 370.940491
+            X: 185.112793
+            Y: -164.231445
+            Z: 374.488953
           }
           Rotation {
             Pitch: 1.55775428

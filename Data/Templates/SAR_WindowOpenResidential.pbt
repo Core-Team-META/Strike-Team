@@ -23,6 +23,8 @@
         ChildIds: 2888682508732861027
         ChildIds: 4812296227012777095
         ChildIds: 1163135062573871556
+        ChildIds: 4259491781069072410
+        ChildIds: 8719882128743541880
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -503,6 +505,139 @@
         CoreMesh {
           MeshAsset {
             Id: 10128884331981734128
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4259491781069072410
+        Name: "Cabinet Door - Upper Full"
+        Transform {
+          Location {
+            X: 70.7133789
+            Y: -174.12085
+            Z: 15.000061
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: -0.85
+            Y: 2.31422281
+            Z: 1.95
+          }
+        }
+        ParentId: 10468190069564645179
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Prop_Handle:id"
+            AssetReference {
+              Id: 12663918421043863170
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17393961314713938594
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.567000031
+              G: 0.489406079
+              B: 0.345303
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 630716509692050905
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8719882128743541880
+        Name: "Cabinet Door - Upper Full"
+        Transform {
+          Location {
+            X: -4.65576172
+            Y: -42.2990723
+            Z: 15.000061
+          }
+          Rotation {
+          }
+          Scale {
+            X: -0.85
+            Y: 2.31422281
+            Z: 1.95
+          }
+        }
+        ParentId: 10468190069564645179
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Prop_Handle:id"
+            AssetReference {
+              Id: 12663918421043863170
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17393961314713938594
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.567000031
+              G: 0.489406079
+              B: 0.345303
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 630716509692050905
           }
           Teams {
             IsTeamCollisionEnabled: true

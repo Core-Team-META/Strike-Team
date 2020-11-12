@@ -15,7 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 5607356318896918997
         ChildIds: 3900514121880036075
         ChildIds: 17886886293274361244
         ChildIds: 9132099424925599250
@@ -34,6 +35,41 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5607356318896918997
+        Name: "Electricity Light Buzzing Loop 01 SFX"
+        Transform {
+          Location {
+            Z: -15
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5115756929945128663
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 16142492781514315346
+          }
+          Volume: 0.203453198
+          Falloff: 1000
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -597,6 +633,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 16142492781514315346
+      Name: "Electricity Light Buzzing Loop 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_electricity_light_buzzing_loop_01_Cue_ref"
       }
     }
     Assets {
