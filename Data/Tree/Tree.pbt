@@ -14,6 +14,7 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 15584196638228012316
   ChildIds: 11471976360075692302
   ChildIds: 1280603503854378228
   ChildIds: 12605585393435046040
@@ -221,5 +222,31 @@ Objects {
         Max: 102400
       }
     }
+  }
+}
+Objects {
+  Id: 15584196638228012316
+  Name: "WIP"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "WIP"
   }
 }
