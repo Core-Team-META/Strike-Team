@@ -50,7 +50,7 @@ Objects {
       Z: -249.999756
     }
     Rotation {
-      Yaw: -45.3664742
+      Yaw: -45.3664856
     }
     Scale {
       X: 24.2500019
@@ -219,6 +219,14 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

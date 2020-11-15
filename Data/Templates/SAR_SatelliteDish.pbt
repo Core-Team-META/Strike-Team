@@ -15,11 +15,7 @@
             Z: 1.75
           }
         }
-        ParentId: 15084389731420460127
-        ChildIds: 14686698666626164445
-        ChildIds: 6440929513725645012
-        ChildIds: 11423379677582898190
-        ChildIds: 402102682492736738
+        ParentId: 16373807130785117515
         ChildIds: 16274339974108315350
         ChildIds: 11953940537594862386
         ChildIds: 9749578133469616980
@@ -32,12 +28,14 @@
         ChildIds: 4797667834615476926
         ChildIds: 7276902228670802708
         ChildIds: 15756239009096821406
+        ChildIds: 15796636680596431255
         ChildIds: 10955581587295836016
         ChildIds: 11808018881130273464
         ChildIds: 15569771167967906253
         ChildIds: 15709450203322394898
         ChildIds: 12385545922765953729
         ChildIds: 16250252887757969194
+        ChildIds: 2325241195180094296
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -46,230 +44,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 14686698666626164445
-        Name: "Ring - Quarter Thin"
-        Transform {
-          Location {
-            X: -28.0485229
-            Y: 5
-            Z: 140.508057
-          }
-          Rotation {
-            Pitch: -43.5435677
-            Yaw: -179.999985
-            Roll: 90.0000381
-          }
-          Scale {
-            X: 0.828791201
-            Y: 1.30000067
-            Z: 1.30000019
-          }
-        }
-        ParentId: 16815547193470422076
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 211821385602626091
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6280154984963467322
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6440929513725645012
-        Name: "Ring - Quarter Thin"
-        Transform {
-          Location {
-            X: -95.8654785
-            Y: 5
-            Z: 221.391113
-          }
-          Rotation {
-            Pitch: -56.2499237
-            Yaw: 6.14699684e-06
-            Roll: -89.9999084
-          }
-          Scale {
-            X: 0.9
-            Y: 0.9
-            Z: 0.9
-          }
-        }
-        ParentId: 16815547193470422076
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 211821385602626091
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6280154984963467322
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11423379677582898190
-        Name: "Ring - Quarter Thin"
-        Transform {
-          Location {
-            X: -95.8654785
-            Y: 5
-            Z: 221.391113
-          }
-          Rotation {
-            Pitch: -33.7499
-            Yaw: -179.999985
-            Roll: 89.9999466
-          }
-          Scale {
-            X: 0.9
-            Y: 0.9
-            Z: 0.9
-          }
-        }
-        ParentId: 16815547193470422076
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 211821385602626091
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6280154984963467322
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 402102682492736738
-        Name: "Ring - Quarter Thin"
-        Transform {
-          Location {
-            X: -28.0485229
-            Y: 5
-            Z: 140.508057
-          }
-          Rotation {
-            Pitch: -46.4563637
-            Yaw: 4.9572659e-06
-            Roll: -89.999939
-          }
-          Scale {
-            X: 1.53310502
-            Y: 0.827231705
-            Z: 1.29999971
-          }
-        }
-        ParentId: 16815547193470422076
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 211821385602626091
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6280154984963467322
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -844,19 +618,19 @@
         Name: "Cylinder"
         Transform {
           Location {
-            X: 75.0061646
-            Y: -15.4719238
-            Z: 51.2851563
+            X: 75.0061951
+            Y: -15.4718952
+            Z: 51.2851524
           }
           Rotation {
             Pitch: 5.46415104e-05
             Yaw: 89.9998856
-            Roll: -33.7496834
+            Roll: -33.7496948
           }
           Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 1.0999999
+            X: 0.200000212
+            Y: 0.199998021
+            Z: 1.20661616
           }
         }
         ParentId: 16815547193470422076
@@ -908,7 +682,7 @@
             Z: -1.09014893
           }
           Rotation {
-            Pitch: -9.56226431e-05
+            Pitch: -9.15527344e-05
             Yaw: -89.999939
             Roll: 179.99971
           }
@@ -945,6 +719,58 @@
         CoreMesh {
           MeshAsset {
             Id: 16371622500121573784
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15796636680596431255
+        Name: "Street Air Conditioner 01"
+        Transform {
+          Location {
+            X: 137.371231
+            Y: -109.086922
+            Z: -48.5714264
+          }
+          Rotation {
+            Yaw: -134.999985
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 1.02857137
+            Y: 1.02857137
+            Z: 1.02857137
+          }
+        }
+        ParentId: 16815547193470422076
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.824000061
+              G: 0.751823485
+              B: 0.62826848
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2408615898608840834
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1235,17 +1061,15 @@
         Name: "Cylinder"
         Transform {
           Location {
-            X: -69.4955444
-            Y: 5
-            Z: 186.726563
+            X: -69.4955292
+            Y: 5.00004673
+            Z: 186.726547
           }
           Rotation {
-            Pitch: 33.749958
-            Yaw: 6.70679292e-05
-            Roll: 1.73045028e-05
+            Pitch: 40.5736275
           }
           Scale {
-            X: 0.151431635
+            X: 0.15143162
             Y: 0.151431575
             Z: 0.140559942
           }
@@ -1280,23 +1104,64 @@
           }
         }
       }
-    }
-    Assets {
-      Id: 6280154984963467322
-      Name: "Ring - Quarter Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_quarter_torus_001"
-      }
-    }
-    Assets {
-      Id: 211821385602626091
-      Name: "Basic Material"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_pbr_material_001"
+      Objects {
+        Id: 2325241195180094296
+        Name: "Urban Pipe Straight"
+        Transform {
+          Location {
+            X: -62.2156754
+            Y: 7.89669
+            Z: 164.126389
+          }
+          Rotation {
+            Pitch: -38.7810974
+            Yaw: -179.999863
+            Roll: 179.999954
+          }
+          Scale {
+            X: 0.04
+            Y: 0.04
+            Z: 2.2
+          }
+        }
+        ParentId: 16815547193470422076
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 211821385602626091
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.137334
+              G: 0.138159454
+              B: 0.141
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16371622500121573784
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
     }
     Assets {
@@ -1306,6 +1171,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_001"
+      }
+    }
+    Assets {
+      Id: 211821385602626091
+      Name: "Basic Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_pbr_material_001"
       }
     }
     Assets {
@@ -1324,6 +1198,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
+      Id: 2408615898608840834
+      Name: "Street Air Conditioner 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_urb_airconditioner_001_ref"
       }
     }
     Assets {
