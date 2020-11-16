@@ -37,7 +37,7 @@
             Z: -2.32226563
           }
           Rotation {
-            Yaw: -179.999985
+            Yaw: 180
           }
           Scale {
             X: 1
@@ -52,6 +52,25 @@
             AssetReference {
               Id: 12663918421043863170
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9165597677916952237
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.577
+              G: 0.445703685
+              B: 0.384859025
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -100,6 +119,33 @@
               Id: 12663918421043863170
             }
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9165597677916952237
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.577
+              G: 0.445703685
+              B: 0.384859025
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.217993215
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.125
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -130,6 +176,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_urb_dresser_001"
+      }
+    }
+    Assets {
+      Id: 9165597677916952237
+      Name: "Wood Strand Board 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_mil_wood_strand_001_uv_ref"
       }
     }
     Assets {

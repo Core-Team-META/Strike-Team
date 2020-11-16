@@ -66,6 +66,7 @@ Objects {
   ChildIds: 14341031661119248906
   ChildIds: 8248611817029388387
   ChildIds: 9014887345724831767
+  ChildIds: 13740585590886773217
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -73,6 +74,43 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 13740585590886773217
+  Name: "Ambience Desert Wind and Sand 01 SFX"
+  Transform {
+    Location {
+      X: -910
+      Y: 4870
+      Z: 1811.75049
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6554089544094711560
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11179827780822674035
+    }
+    AutoPlay: true
+    Volume: 1.08094621
+    Falloff: 2000
+    Radius: 500
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
   }
 }
 Objects {

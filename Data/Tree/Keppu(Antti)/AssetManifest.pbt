@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15741743050259949563
+  Name: "Cube - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_002"
+  }
+}
+Assets {
   Id: 15210171892498863686
   Name: "Bricks Mortar Thick 01"
   PlatformAssetType: 2
@@ -563,6 +572,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_emissive_001"
+  }
+}
+Assets {
+  Id: 5483772166785938526
+  Name: "Damaged Concrete Chunk 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
   }
 }
 Assets {

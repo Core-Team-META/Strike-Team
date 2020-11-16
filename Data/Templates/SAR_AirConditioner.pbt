@@ -15,7 +15,8 @@
             Z: 1.2
           }
         }
-        ParentId: 16373807130785117515
+        ParentId: 4781671109827199097
+        ChildIds: 14045942061727599613
         ChildIds: 681776946453677041
         ChildIds: 3861890707548165533
         ChildIds: 14766289033662617190
@@ -37,6 +38,42 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14045942061727599613
+        Name: "Industrial Room Tone Loop 01 SFX"
+        Transform {
+          Location {
+            X: -12.5
+            Y: -16.666666
+            Z: 45.8333321
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.833333313
+            Y: 0.833333313
+            Z: 0.833333313
+          }
+        }
+        ParentId: 16253280924196043871
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 17331405778350051027
+          }
+          Volume: 1
+          Falloff: 1000
+          Radius: 500
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -731,6 +768,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 17331405778350051027
+      Name: "Industrial Room Tone Loop 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_industrial_room_tone_loop_01_Cue_ref"
       }
     }
     Assets {

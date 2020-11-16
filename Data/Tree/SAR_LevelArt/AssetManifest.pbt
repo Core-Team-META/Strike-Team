@@ -80,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18056721847181861571
-  Name: "Smoke Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_smoke_volume_vfx"
-  }
-}
-Assets {
   Id: 18044128746290206539
   Name: "Whitebox Window Insert - Arch Top"
   PlatformAssetType: 1
@@ -113,15 +104,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_kelp_tall_bush_01"
-  }
-}
-Assets {
-  Id: 18005806658245892960
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
   }
 }
 Assets {
@@ -251,15 +233,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16964117855639857004
-  Name: "Decal Spray Manticore 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_spray_manticore_001"
-  }
-}
-Assets {
   Id: 16931630116077975102
   Name: "Pillar 01 Mainstreet"
   PlatformAssetType: 1
@@ -284,15 +257,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_rubble_002_uv_ref"
-  }
-}
-Assets {
-  Id: 16775729324219786789
-  Name: "Decal Moss Patch"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_moss_patch_001"
   }
 }
 Assets {
@@ -575,15 +539,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14861199613442717671
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
   Id: 14835887402309025688
   Name: "Pyramid - 7-Sided Truncated Hollow Thick"
   PlatformAssetType: 1
@@ -635,15 +590,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dmg_wall_half_002_hzn_01_ref"
-  }
-}
-Assets {
-  Id: 14697098180180354462
-  Name: "Decal Bullet Damage Wood"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_bullet_wood_001"
   }
 }
 Assets {
@@ -725,15 +671,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_extTrim_001_low"
-  }
-}
-Assets {
-  Id: 14272986521887390608
-  Name: "Decal Road Sign Symbols"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_roadsigns_001"
   }
 }
 Assets {
@@ -1367,15 +1304,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10293000499676642776
-  Name: "Fantasy Sack Laying"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_sack_003_ref"
-  }
-}
-Assets {
   Id: 10221011215825579366
   Name: "Damaged Concrete Pillar 01"
   PlatformAssetType: 1
@@ -1493,15 +1421,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9398431931771867526
-  Name: "Decal Road Sign Symbols"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_roadsigns_001"
-  }
-}
-Assets {
   Id: 8831838522590132896
   Name: "Wood Floor Weave Light"
   PlatformAssetType: 2
@@ -1610,15 +1529,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6865249745567109080
-  Name: "Corrugated Sheet Bent"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
-  }
-}
-Assets {
   Id: 6855011683502292403
   Name: "Text 06: A"
   PlatformAssetType: 1
@@ -1661,15 +1571,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "Text_017"
-  }
-}
-Assets {
-  Id: 6513725703093912292
-  Name: "Decal Stains Bottom 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_bottom_001"
   }
 }
 Assets {
@@ -1934,30 +1835,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4722373859701555227
-  Name: "Decal Stains Round 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_round_001"
-  }
-}
-Assets {
   Id: 4679924433031865767
   Name: "Metal Frame 03"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_003_uv"
-  }
-}
-Assets {
-  Id: 4535818839126406977
-  Name: "Cabinet Door"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_door_001"
   }
 }
 Assets {
@@ -2267,15 +2150,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2409153251245080766
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
   Id: 2372157500114421235
   Name: "Fantasy Castle Trim - Parapet Corner 01"
   PlatformAssetType: 1
@@ -2303,30 +2177,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2017483418934463446
-  Name: "Decal Hazard Symbols 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_hazard_symbols_001"
-  }
-}
-Assets {
   Id: 2000960576407746609
   Name: "Ivy 04"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ivy_generic_004"
-  }
-}
-Assets {
-  Id: 1950785304427037534
-  Name: "Wedge - Corner-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_002"
   }
 }
 Assets {
@@ -2453,15 +2309,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
-  }
-}
-Assets {
-  Id: 630716509692050905
-  Name: "Cabinet Door - Upper Full"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_door_full_001"
   }
 }
 Assets {

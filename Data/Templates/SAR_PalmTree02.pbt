@@ -16,6 +16,8 @@
           }
         }
         ParentId: 16373807130785117515
+        ChildIds: 17199658923983500617
+        ChildIds: 1408403857211212292
         ChildIds: 7906924300235917409
         ChildIds: 268275951703505832
         ChildIds: 11899725759196734307
@@ -33,6 +35,107 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 17199658923983500617
+        Name: "Falling Leaves Volume VFX"
+        Transform {
+          Location {
+            X: 3.18798828
+            Y: 48.1461105
+            Z: 1770.21704
+          }
+          Rotation {
+            Roll: -4.47763062
+          }
+          Scale {
+            X: 2.37848091
+            Y: 7.68852139
+            Z: 3.2681489
+          }
+        }
+        ParentId: 7904855526696816715
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0.293957621
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.192116082
+          }
+          Overrides {
+            Name: "bp:Leaf Scale"
+            Float: 1.44458902
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3611338848201376430
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 1408403857211212292
+        Name: "Falling Leaves Volume VFX"
+        Transform {
+          Location {
+            X: 3.18798828
+            Y: 48.1462936
+            Z: 1770.21484
+          }
+          Rotation {
+            Pitch: -4.47763062
+            Yaw: -90
+          }
+          Scale {
+            X: 2.37848091
+            Y: 7.68852139
+            Z: 3.2681489
+          }
+        }
+        ParentId: 7904855526696816715
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0.293957621
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.192116082
+          }
+          Overrides {
+            Name: "bp:Leaf Scale"
+            Float: 1.44458902
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3611338848201376430
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
         }
       }
       Objects {
@@ -575,6 +678,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 3611338848201376430
+      Name: "Falling Leaves Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_falling_leaves_volume_vfx"
       }
     }
     Assets {
