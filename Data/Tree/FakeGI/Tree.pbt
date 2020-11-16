@@ -1,18 +1,16 @@
 ﻿Name: "FakeGI"
-RootId: 8587768956777282953
+RootId: 10734059996242719164
 Objects {
-  Id: 8988012108388762198
+  Id: 17906974294099200535
   Name: "Area Light"
   Transform {
     Location {
-      X: -5036.10547
-      Y: 2123.72852
-      Z: 2261.15088
+      X: 6460
+      Y: 4325
+      Z: 715
     }
     Rotation {
-      Pitch: -9.49688721
-      Yaw: -5.13961792
-      Roll: 6.88697433
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -20,7 +18,635 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 100
+    Color {
+      R: 1
+      G: 0.785496771
+      B: 0.59
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1483.64673
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1223.79248
+          SourceHeight: 388.974152
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 1461277641970004079
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 6310
+      Y: 6145
+      Z: 970
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 100
+    Color {
+      R: 1
+      G: 0.785496771
+      B: 0.59
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1626.0697
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 819.848145
+          SourceHeight: 1143.00366
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 2188213647345881116
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 7260
+      Y: 1970
+      Z: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 5.08633
+    Color {
+      R: 0.18
+      G: 1
+      B: 0.93483448
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 646.241455
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 496.692657
+          SourceHeight: 388.974152
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 13622897545940961106
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 6365
+      Y: 1970
+      Z: 125
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 5.08633
+    Color {
+      R: 0.18
+      G: 1
+      B: 0.93483448
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 646.241455
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 577.481506
+          SourceHeight: 388.974152
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 16818517352452236371
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 6055
+      Y: 1300
+      Z: 125
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 12.6266394
+    Color {
+      R: 0.18
+      G: 1
+      B: 0.93483448
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 646.241455
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1250.72205
+          SourceHeight: 388.974152
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 8534377923642314134
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 6090
+      Y: 1520
+      Z: 770
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 48.1738167
+    Color {
+      R: 0.18
+      G: 1
+      B: 0.93483448
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 646.241455
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 712.1297
+          SourceHeight: 388.974152
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 7082374561525696289
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 3755
+      Y: 3350
+      Z: 249.984131
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 3.50000024
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 33.0931969
+    Color {
+      R: 1
+      G: 0.335761547
+      B: 0.149999976
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1064.94409
+        AreaLight {
+          BarnDoorAngle: 50
+          SourceWidth: 550.55188
+          SourceHeight: 631.340698
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 10461964325703658090
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 5860
+      Y: 3445
+      Z: 480
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 9.93367195
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1626.0697
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 846.777771
+          SourceHeight: 227.396378
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 17623289818416679393
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 7915
+      Y: 1930
+      Z: 290
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 33.0931969
+    Color {
+      R: 0.18
+      G: 1
+      B: 0.93483448
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1626.0697
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 227.396378
+          SourceHeight: 308.185272
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 13518290783455185038
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 7220
+      Y: 1930
+      Z: 750
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 48.1738167
+    Color {
+      R: 0.18
+      G: 1
+      B: 0.93483448
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1626.0697
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1546.94812
+          SourceHeight: 308.185272
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 853953462313956594
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -1464.80908
+      Y: 4455
+      Z: 249.968506
+    }
+    Rotation {
+      Pitch: -7.51320767e-05
+      Yaw: -179.999939
+      Roll: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 3.50000024
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 23.9371052
+    Color {
+      R: 1
+      G: 0.673642397
+      B: 0.295999944
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1201.97058
+        AreaLight {
+          BarnDoorAngle: 50
+          SourceWidth: 254.325989
+          SourceHeight: 631.340698
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 2329003199044509265
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -1464.86377
+      Y: 5135
+      Z: 249.984131
+    }
+    Rotation {
+      Pitch: -8.19622655e-05
+      Yaw: -179.999969
+      Roll: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 3.50000024
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 33.0931969
+    Color {
+      R: 1
+      G: 0.673642397
+      B: 0.295999944
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1201.97058
+        AreaLight {
+          BarnDoorAngle: 50
+          SourceWidth: 604.411133
+          SourceHeight: 631.340698
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 8988012108388762198
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 5705.61865
+      Y: 1487.62988
+      Z: 467.148926
+    }
+    Rotation {
+      Pitch: -20.5023136
+      Yaw: 179.999954
+      Roll: -179.999237
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,14 +685,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -7154.89746
-      Y: -209.417725
-      Z: 3362.90381
+      X: 7795.52832
+      Y: -1100.48828
+      Z: 751.110352
     }
     Rotation {
-      Pitch: 6.83018879e-06
-      Yaw: 7.47051899e-06
-      Roll: 1.23797172e-05
+      Pitch: -30.459404
+      Yaw: 175.393066
+      Roll: 175.531296
     }
     Scale {
       X: 1
@@ -74,7 +700,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,14 +738,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -4585.86963
-      Y: 1611.70288
-      Z: 1918.68909
+      X: 5087.24316
+      Y: 1052.10449
+      Z: 605
     }
     Rotation {
-      Pitch: 59.2456741
-      Yaw: 7.54701042
-      Roll: 13.3711262
+      Pitch: -90
+      Yaw: 155.106888
+      Roll: -155.106873
     }
     Scale {
       X: 1
@@ -127,7 +753,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -166,14 +792,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 2414.15552
-      Y: -2904.85547
-      Z: -2049.53174
+      X: -3440.85352
+      Y: -2467.94238
+      Z: 732.593262
     }
     Rotation {
-      Pitch: -25.8108521
-      Yaw: 43.1757698
-      Roll: -17.3303833
+      Pitch: -6.83018879e-06
+      Yaw: 134.999954
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -181,7 +807,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -220,14 +846,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 2892.15137
-      Y: -3403.09497
-      Z: -1655.35034
+      X: -3714.95728
+      Y: -2975.0022
+      Z: 184.999512
     }
     Rotation {
-      Pitch: -25.8108521
-      Yaw: 43.1757393
-      Roll: -17.3303833
+      Pitch: -1.36603776e-05
+      Yaw: 135
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -235,7 +861,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -274,14 +900,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -43.1983643
-      Y: 579.384338
-      Z: -1151.44824
+      X: -466.520203
+      Y: 707.092773
+      Z: 972.503784
     }
     Rotation {
-      Pitch: 59.2456741
-      Yaw: 7.54701042
-      Roll: 13.3711262
+      Pitch: -90
+      Yaw: 155.106888
+      Roll: -155.106873
     }
     Scale {
       X: 1
@@ -289,7 +915,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -328,14 +954,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -43.1983643
-      Y: 579.384338
-      Z: -1151.44824
+      X: -466.520203
+      Y: 707.092773
+      Z: 972.503784
     }
     Rotation {
-      Pitch: 59.2456741
-      Yaw: 7.54701042
-      Roll: 13.3711262
+      Pitch: -90
+      Yaw: 155.106888
+      Roll: -155.106873
     }
     Scale {
       X: 1
@@ -343,7 +969,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -382,14 +1008,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3091.75146
-      Y: 1205.98108
-      Z: -2438.89502
+      X: -3725.73511
+      Y: 1697.07227
+      Z: 447.617676
     }
     Rotation {
-      Pitch: -6.79138184
-      Yaw: 86.0018616
-      Roll: -30.066925
+      Pitch: -4.09811328e-05
+      Yaw: 89.9999924
+      Roll: -179.999985
     }
     Scale {
       X: 1
@@ -397,7 +1023,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -436,14 +1062,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 4641.92529
-      Y: -1764.25586
-      Z: -2987.42285
+      X: -5685.31836
+      Y: -1072.9541
+      Z: 332.664063
     }
     Rotation {
-      Pitch: -25.8108521
-      Yaw: 43.1757393
-      Roll: -17.3303833
+      Pitch: -1.36603776e-05
+      Yaw: 135
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -451,7 +1077,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -490,14 +1116,13 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3082.96118
-      Y: -650.501465
-      Z: -1927.99646
+      X: -3685.75928
+      Y: -202.922363
+      Z: 355.658356
     }
     Rotation {
-      Pitch: -25.8108521
-      Yaw: 43.1757698
-      Roll: -17.3303833
+      Yaw: 134.999954
+      Roll: -179.999954
     }
     Scale {
       X: 1
@@ -505,7 +1130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -516,8 +1141,8 @@ Objects {
     Intensity: 26.8573532
     Color {
       R: 1
-      G: 0.95351
-      B: 0.459999979
+      G: 0.857
+      B: 0.714
       A: 1
     }
     VolumetricIntensity: 5
@@ -526,12 +1151,12 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 680.002502
+        AttenuationRadius: 926.75415
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
           SourceWidth: 306.360168
-          SourceHeight: 470.020386
+          SourceHeight: 718.62915
         }
       }
       MaxDrawDistance: 5000
@@ -544,14 +1169,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3698.28809
-      Y: -1526.20386
-      Z: -2222.54517
+      X: -4465.58496
+      Y: -992.930664
+      Z: 137.721191
     }
     Rotation {
-      Pitch: -25.8108521
-      Yaw: 43.1757393
-      Roll: -17.3303833
+      Pitch: -1.36603776e-05
+      Yaw: 135
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -559,7 +1184,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -570,8 +1195,8 @@ Objects {
     Intensity: 44.314476
     Color {
       R: 1
-      G: 0.95351
-      B: 0.459999979
+      G: 1
+      B: 1
       A: 1
     }
     VolumetricIntensity: 5
@@ -598,14 +1223,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3398.09863
-      Y: -1279.05212
-      Z: -2780.25781
+      X: -4455.6
+      Y: -702.941406
+      Z: 752.575684
     }
     Rotation {
-      Pitch: -25.8108215
-      Yaw: 43.1757278
-      Roll: -17.3303833
+      Pitch: -3.05175781e-05
+      Yaw: 135
+      Roll: -179.999985
     }
     Scale {
       X: 1
@@ -613,7 +1238,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -652,14 +1277,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 3953.38916
-      Y: 448.362061
-      Z: -3079.91846
+      X: -4875.45703
+      Y: 1082.05957
+      Z: 612.586426
     }
     Rotation {
-      Pitch: -29.8344421
-      Yaw: -7.91442871
-      Roll: 7.8351078
+      Pitch: -2.73207552e-05
+      Yaw: -179.999985
+      Roll: 180
     }
     Scale {
       X: 1
@@ -667,7 +1292,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -706,14 +1331,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -4333.21
-      Y: -2261.90234
-      Z: 2049.06348
+      X: 4570
+      Y: -2970
+      Z: 587.637939
     }
     Rotation {
-      Pitch: -6.79141235
-      Yaw: 86.0018539
-      Roll: -30.066925
+      Pitch: -3.05175781e-05
+      Yaw: 90.0000229
+      Roll: -179.999985
     }
     Scale {
       X: 1
@@ -721,7 +1346,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -746,7 +1371,7 @@ Objects {
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
-          SourceWidth: 1179.21472
+          SourceWidth: 900.637
           SourceHeight: 524.573792
         }
       }
@@ -760,14 +1385,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -5060.49707
-      Y: -1785.99414
-      Z: 2818.99536
+      X: 5537.10596
+      Y: -2452.86768
+      Z: 262.703125
     }
     Rotation {
-      Pitch: -25.8108215
-      Yaw: 43.1757278
-      Roll: -17.3303833
+      Pitch: -4.09811328e-05
+      Yaw: 135
+      Roll: -179.999985
     }
     Scale {
       X: 1
@@ -775,7 +1400,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -783,7 +1408,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 84.1385422
+    Intensity: 48.71241
     Color {
       R: 1
       G: 1
@@ -796,7 +1421,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 1104.10156
+        AttenuationRadius: 1097.15198
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -810,69 +1435,18 @@ Objects {
   }
 }
 Objects {
-  Id: 3691297096879636844
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -7155.17334
-      Y: -263.368408
-      Z: 3363.03613
-    }
-    Rotation {
-      Roll: 2.48480821e-16
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8587768956777282953
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 100
-    Color {
-      R: 1
-      G: 0.496688783
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1626.0697
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 824.617554
-          SourceHeight: 715.510742
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
   Id: 13473293427050978597
   Name: "Area Light"
   Transform {
     Location {
-      X: -7210.88721
-      Y: 4991.63721
-      Z: 3270.09692
+      X: 8418.70215
+      Y: 4058.60156
+      Z: 509.938477
     }
     Rotation {
-      Pitch: 1.18277013
-      Yaw: -3.85723877
-      Roll: 6.79289198
+      Pitch: -31.2580585
+      Yaw: -180
+      Roll: -179.999969
     }
     Scale {
       X: 1
@@ -880,7 +1454,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -919,14 +1493,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -7210.86768
-      Y: 4991.63086
-      Z: 3270.08984
+      X: 8418.68066
+      Y: 4058.59766
+      Z: 509.934082
     }
     Rotation {
-      Pitch: 1.18276334
-      Yaw: -3.85723877
-      Roll: 6.79287672
+      Pitch: -31.2580509
+      Yaw: -180
+      Roll: -180
     }
     Scale {
       X: 1
@@ -934,7 +1508,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -973,14 +1547,14 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -7446.82227
-      Y: 905.934814
-      Z: 3630.00488
+      X: 8312.45508
+      Y: -47.4541
+      Z: 594.648438
     }
     Rotation {
-      Pitch: 2.73207552e-05
-      Yaw: 33.0147743
-      Roll: 0.000342447514
+      Pitch: -27.4947815
+      Yaw: 137.632431
+      Roll: -165.647354
     }
     Scale {
       X: 1
@@ -988,7 +1562,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8587768956777282953
+  ParentId: 10734059996242719164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

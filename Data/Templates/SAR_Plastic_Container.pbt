@@ -16,6 +16,34 @@
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 5097691632550801624
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5097691632550801624
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 0.000195312517
+            Y: -0.000585937523
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5174660683043004675
         ChildIds: 8108090804749457474
         ChildIds: 18009577860967134746
         ChildIds: 18432167320432983714
@@ -53,7 +81,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -61,8 +90,8 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -0.324462891
-            Y: -0.274414063
+            X: -0.32421875
+            Y: -0.2734375
           }
           Rotation {
           }
@@ -72,7 +101,7 @@
             Z: 0.61187017
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -116,9 +145,9 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.4875488
-            Y: -0.274414063
-            Z: 11.4877319
+            X: -32.4873047
+            Y: -0.2734375
+            Z: 11.487793
           }
           Rotation {
           }
@@ -128,7 +157,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -172,9 +201,9 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.4875488
-            Y: -0.274414063
-            Z: 23.8027954
+            X: -32.4873047
+            Y: -0.2734375
+            Z: 23.8027344
           }
           Rotation {
           }
@@ -184,7 +213,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -228,8 +257,8 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.4875488
-            Y: -0.274414063
+            X: -32.4873047
+            Y: -0.2734375
             Z: 46.9827881
           }
           Rotation {
@@ -240,7 +269,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -284,8 +313,8 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.4875488
-            Y: -0.274414063
+            X: -32.4873047
+            Y: -0.2734375
             Z: 34.6677246
           }
           Rotation {
@@ -296,7 +325,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -340,8 +369,8 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.3591309
-            Y: -0.274414063
+            X: 32.359375
+            Y: -0.2734375
             Z: 46.9827881
           }
           Rotation {
@@ -352,7 +381,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -396,8 +425,8 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.3591309
-            Y: -0.274414063
+            X: 32.359375
+            Y: -0.2734375
             Z: 34.6677246
           }
           Rotation {
@@ -408,7 +437,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -452,9 +481,9 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.3591309
-            Y: -0.274414063
-            Z: 23.8027954
+            X: 32.359375
+            Y: -0.2734375
+            Z: 23.8027344
           }
           Rotation {
           }
@@ -464,7 +493,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -508,9 +537,9 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.3591309
-            Y: -0.274414063
-            Z: 11.4877319
+            X: 32.359375
+            Y: -0.2734375
+            Z: 11.487793
           }
           Rotation {
           }
@@ -520,7 +549,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -565,11 +594,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: -57.0166
+            Y: -57.015625
             Z: 46.9827881
           }
           Rotation {
-            Yaw: 89.9999924
+            Yaw: 89.9999847
           }
           Scale {
             X: 0.0383107141
@@ -577,7 +606,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -622,11 +651,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: -57.0166
+            Y: -57.015625
             Z: 34.6677246
           }
           Rotation {
-            Yaw: 89.9999924
+            Yaw: 89.9999847
           }
           Scale {
             X: 0.0383107141
@@ -634,7 +663,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -679,11 +708,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: -57.0166
-            Z: 23.8027954
+            Y: -57.015625
+            Z: 23.8027344
           }
           Rotation {
-            Yaw: 89.9999924
+            Yaw: 89.9999847
           }
           Scale {
             X: 0.0383107141
@@ -691,7 +720,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -736,11 +765,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: -57.0166
-            Z: 11.4877319
+            Y: -57.015625
+            Z: 11.487793
           }
           Rotation {
-            Yaw: 89.9999924
+            Yaw: 89.9999847
           }
           Scale {
             X: 0.0383107141
@@ -748,7 +777,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -793,11 +822,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: 56.7412109
+            Y: 56.7421875
             Z: 46.9827881
           }
           Rotation {
-            Yaw: 89.9999847
+            Yaw: 89.9999771
           }
           Scale {
             X: 0.0383107141
@@ -805,7 +834,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -850,11 +879,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: 56.7412109
+            Y: 56.7421875
             Z: 34.6677246
           }
           Rotation {
-            Yaw: 89.9999847
+            Yaw: 89.9999771
           }
           Scale {
             X: 0.0383107141
@@ -862,7 +891,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -907,11 +936,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: 56.7412109
-            Z: 23.8027954
+            Y: 56.7421875
+            Z: 23.8027344
           }
           Rotation {
-            Yaw: 89.9999847
+            Yaw: 89.9999771
           }
           Scale {
             X: 0.0383107141
@@ -919,7 +948,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -964,11 +993,11 @@
         Transform {
           Location {
             X: 0.307128906
-            Y: 56.7412109
-            Z: 11.4877319
+            Y: 56.7421875
+            Z: 11.487793
           }
           Rotation {
-            Yaw: 89.9999847
+            Yaw: 89.9999771
           }
           Scale {
             X: 0.0383107141
@@ -976,7 +1005,7 @@
             Z: 0.0407679044
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1020,14 +1049,14 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -10.4274902
-            Y: 56.7412109
+            X: -10.4277344
+            Y: 56.7421875
             Z: 30.6722412
           }
           Rotation {
-            Pitch: -2.04905664e-05
-            Yaw: 89.9999771
-            Roll: -89.9999847
+            Pitch: -3.4150944e-05
+            Yaw: 89.9999466
+            Roll: -89.9999619
           }
           Scale {
             X: -0.0188767277
@@ -1035,7 +1064,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1080,13 +1109,13 @@
         Transform {
           Location {
             X: 9.859375
-            Y: 56.7412109
+            Y: 56.7421875
             Z: 30.6722412
           }
           Rotation {
-            Pitch: -4.78113216e-05
-            Yaw: 89.9999619
-            Roll: -89.9999695
+            Pitch: -4.09811328e-05
+            Yaw: 89.9999466
+            Roll: -89.9999619
           }
           Scale {
             X: -0.0188767277
@@ -1094,7 +1123,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1139,13 +1168,13 @@
         Transform {
           Location {
             X: 9.859375
-            Y: -57.1943359
+            Y: -57.1933594
             Z: 30.6722412
           }
           Rotation {
             Pitch: -3.4150944e-05
-            Yaw: 89.9999619
-            Roll: -89.9999619
+            Yaw: 89.9999466
+            Roll: -89.9999466
           }
           Scale {
             X: -0.0188767277
@@ -1153,7 +1182,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1197,14 +1226,14 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -10.4274902
-            Y: -57.1943359
+            X: -10.4277344
+            Y: -57.1933594
             Z: 30.6722412
           }
           Rotation {
-            Pitch: -4.09811328e-05
-            Yaw: 89.9999466
-            Roll: -89.9999847
+            Pitch: -6.14717e-05
+            Yaw: 89.9999237
+            Roll: -89.9999542
           }
           Scale {
             X: -0.0188767277
@@ -1212,7 +1241,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1256,12 +1285,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.9875488
-            Y: -10.8486328
+            X: -32.9873047
+            Y: -10.8476563
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1269,7 +1298,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1313,12 +1342,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.9875488
-            Y: -31.1357422
+            X: -32.9873047
+            Y: -31.1347656
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1326,7 +1355,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1370,12 +1399,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.9875488
-            Y: 32.3193359
+            X: -32.9873047
+            Y: 32.3203125
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1383,7 +1412,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1427,12 +1456,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -32.9875488
-            Y: 12.0322266
+            X: -32.9873047
+            Y: 12.0332031
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1440,7 +1469,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1484,12 +1513,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.9494629
-            Y: 32.3193359
+            X: 32.9492188
+            Y: 32.3203125
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1497,7 +1526,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1541,12 +1570,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.9494629
-            Y: 12.0322266
+            X: 32.9492188
+            Y: 12.0332031
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1554,7 +1583,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1598,12 +1627,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.9494629
-            Y: -31.1357422
+            X: 32.9492188
+            Y: -31.1347656
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1611,7 +1640,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1655,12 +1684,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 32.9494629
-            Y: -10.8486328
+            X: 32.9492188
+            Y: -10.8476563
             Z: 30.6722412
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: -0.0188767277
@@ -1668,7 +1697,7 @@
             Z: 0.0765540302
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1712,8 +1741,8 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -0.324462891
-            Y: -0.274414063
+            X: -0.32421875
+            Y: -0.2734375
             Z: 2.83557129
           }
           Rotation {
@@ -1724,7 +1753,7 @@
             Z: 0.0454297662
           }
         }
-        ParentId: 5174660683043004675
+        ParentId: 5097691632550801624
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

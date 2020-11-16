@@ -1735,7 +1735,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7304090448405195378
+              Id: 9165597677916952237
             }
           }
           Overrides {
@@ -1795,7 +1795,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7304090448405195378
+              Id: 9165597677916952237
             }
           }
           Overrides {
@@ -1855,7 +1855,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7304090448405195378
+              Id: 9165597677916952237
             }
           }
           Overrides {
@@ -2083,6 +2083,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 9165597677916952237
+      Name: "Wood Strand Board 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_mil_wood_strand_001_uv_ref"
       }
     }
     PrimaryAssetId {

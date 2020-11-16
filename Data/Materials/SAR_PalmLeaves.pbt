@@ -25,10 +25,22 @@
       Overrides {
         Name: "sss"
         Color {
-          R: 0.409999967
-          G: 0.0977483317
+          R: 0.279735148
+          G: 0.330000043
           A: 1
         }
+      }
+      Overrides {
+        Name: "wind_speed"
+        Float: 0.2
+      }
+      Overrides {
+        Name: "wind_weight"
+        Float: 1
+      }
+      Overrides {
+        Name: "wind_intensity"
+        Float: 0.4
       }
     }
     Assets {

@@ -31,6 +31,14 @@
           A: 1
         }
       }
+      Overrides {
+        Name: "wind_weight"
+        Float: 0.537281215
+      }
+      Overrides {
+        Name: "wind_speed"
+        Float: 0.6
+      }
     }
     Assets {
       Id: 17956201822540550512

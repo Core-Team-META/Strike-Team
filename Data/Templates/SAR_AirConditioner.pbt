@@ -16,6 +16,7 @@
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 14045942061727599613
         ChildIds: 681776946453677041
         ChildIds: 3861890707548165533
         ChildIds: 14766289033662617190
@@ -40,6 +41,42 @@
         }
       }
       Objects {
+        Id: 14045942061727599613
+        Name: "Industrial Room Tone Loop 01 SFX"
+        Transform {
+          Location {
+            X: -12.5
+            Y: -16.666666
+            Z: 45.8333321
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.833333313
+            Y: 0.833333313
+            Z: 0.833333313
+          }
+        }
+        ParentId: 16253280924196043871
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 17331405778350051027
+          }
+          Volume: 1
+          Falloff: 1000
+          Radius: 500
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
         Id: 681776946453677041
         Name: "Cylinder - bottom aligned"
         Transform {
@@ -54,8 +91,8 @@
             Roll: -179.999847
           }
           Scale {
-            X: 0.0701775253
-            Y: 0.0701772496
+            X: 0.05
+            Y: 0.05
             Z: 1.95438194
           }
         }
@@ -70,9 +107,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.446
-              G: 0.446
-              B: 0.446
+              R: 0.164
+              G: 0.164
+              B: 0.164
               A: 1
             }
           }
@@ -103,19 +140,19 @@
         Name: "Ring - Quarter Thin"
         Transform {
           Location {
-            X: -14.9926147
-            Y: 14.9760742
+            X: -43.5174446
+            Y: 14.9760246
             Z: 5
           }
           Rotation {
             Pitch: 1.36603776e-05
             Yaw: 179.999893
-            Roll: -89.9999619
+            Roll: -89.9999695
           }
           Scale {
-            X: 1.37040257
-            Y: 1.37040257
-            Z: 1.37040257
+            X: 0.807204783
+            Y: 0.807204783
+            Z: 0.807204783
           }
         }
         ParentId: 16253280924196043871
@@ -129,9 +166,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.446
-              G: 0.446
-              B: 0.446
+              R: 0.164
+              G: 0.164
+              B: 0.164
               A: 1
             }
           }
@@ -162,8 +199,8 @@
         Name: "Ring - Quarter Thin"
         Transform {
           Location {
-            X: -14.9926147
-            Y: 14.9760742
+            X: -43.5174446
+            Y: 14.9760246
             Z: 5
           }
           Rotation {
@@ -172,9 +209,9 @@
             Roll: -6.10351563e-05
           }
           Scale {
-            X: 1.37040257
-            Y: 1.37040257
-            Z: 1.37040257
+            X: 0.807204783
+            Y: 0.807204783
+            Z: 0.807204783
           }
         }
         ParentId: 16253280924196043871
@@ -188,9 +225,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.446
-              G: 0.446
-              B: 0.446
+              R: 0.164
+              G: 0.164
+              B: 0.164
               A: 1
             }
           }
@@ -731,6 +768,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 17331405778350051027
+      Name: "Industrial Room Tone Loop 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_industrial_room_tone_loop_01_Cue_ref"
       }
     }
     Assets {

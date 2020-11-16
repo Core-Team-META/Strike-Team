@@ -15,8 +15,11 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 10704071068778816088
+        ParentId: 16373807130785117515
+        ChildIds: 17610626956292848868
+        ChildIds: 7958717929864870170
+        ChildIds: 16869024641610011945
+        ChildIds: 371568392696857399
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -28,49 +31,16 @@
         }
       }
       Objects {
-        Id: 10704071068778816088
-        Name: "Supply Cabinet - closed"
-        Transform {
-          Location {
-            X: 9.63439941
-            Y: -5.17089844
-            Z: 2.02253342
-          }
-          Rotation {
-            Yaw: 89.9999542
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12285703180843931377
-        ChildIds: 17610626956292848868
-        ChildIds: 7958717929864870170
-        ChildIds: 16869024641610011945
-        ChildIds: 371568392696857399
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
         Id: 17610626956292848868
         Name: "Collision"
         Transform {
           Location {
-            X: -1.15479374
-            Y: 11.9497061
-            Z: 136.026535
+            X: -2.31530762
+            Y: -6.32568359
+            Z: 138.049072
           }
           Rotation {
-            Yaw: -89.999939
+            Yaw: 1.36603776e-05
           }
           Scale {
             X: 0.799507082
@@ -78,7 +48,7 @@
             Z: 2.48708773
           }
         }
-        ParentId: 10704071068778816088
+        ParentId: 12285703180843931377
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -105,8 +75,12 @@
         Name: "Main"
         Transform {
           Location {
+            X: 9.63439941
+            Y: -5.17089844
+            Z: 2.02253723
           }
           Rotation {
+            Yaw: 89.9999542
           }
           Scale {
             X: 1
@@ -114,7 +88,7 @@
             Z: 1
           }
         }
-        ParentId: 10704071068778816088
+        ParentId: 12285703180843931377
         ChildIds: 15639882276854795308
         ChildIds: 6650351810197716480
         ChildIds: 7554237726262073506
@@ -605,11 +579,12 @@
         Name: "Door L"
         Transform {
           Location {
-            X: 23.6051159
-            Y: -25.7905979
-            Z: 21.0487213
+            X: 35.4250488
+            Y: 18.434082
+            Z: 23.0712585
           }
           Rotation {
+            Yaw: 89.9999542
           }
           Scale {
             X: 1
@@ -617,7 +592,7 @@
             Z: 1
           }
         }
-        ParentId: 10704071068778816088
+        ParentId: 12285703180843931377
         ChildIds: 8223043468524748001
         ChildIds: 17180246905055731584
         ChildIds: 15651081632416072309
@@ -1561,11 +1536,12 @@
         Name: "Door R"
         Transform {
           Location {
-            X: -23.4697361
-            Y: -25.7905979
-            Z: 21.0487213
+            X: 35.4249268
+            Y: -28.640625
+            Z: 23.0712585
           }
           Rotation {
+            Yaw: 89.9999542
           }
           Scale {
             X: 1
@@ -1573,7 +1549,7 @@
             Z: 1
           }
         }
-        ParentId: 10704071068778816088
+        ParentId: 12285703180843931377
         ChildIds: 14170662074244792249
         ChildIds: 4360995266054006994
         ChildIds: 4709535145583682395

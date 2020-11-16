@@ -17,7 +17,7 @@
         }
         ParentId: 16373807130785117515
         ChildIds: 4541106029410501416
-        ChildIds: 2981354650850475898
+        ChildIds: 4018067258271676038
         ChildIds: 929161617184360267
         ChildIds: 10632159645422395300
         ChildIds: 13661601179111032889
@@ -363,16 +363,12 @@
         }
       }
       Objects {
-        Id: 2981354650850475898
-        Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
+        Id: 4018067258271676038
+        Name: "ClientContext"
         Transform {
           Location {
-            X: 38.1861801
-            Y: -1.90734863e-06
-            Z: 181.497238
           }
           Rotation {
-            Yaw: 89.9999924
           }
           Scale {
             X: 1
@@ -381,6 +377,36 @@
           }
         }
         ParentId: 15031833508756360257
+        ChildIds: 2981354650850475898
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 2981354650850475898
+        Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
+        Transform {
+          Location {
+            X: 38.1865158
+            Y: -9.91821289e-05
+            Z: 181.497238
+          }
+          Rotation {
+            Yaw: 89.9999771
+            Roll: 9.75818963e-08
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4018067258271676038
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

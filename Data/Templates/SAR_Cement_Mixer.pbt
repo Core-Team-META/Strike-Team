@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
         ChildIds: 3118614858567813933
         ChildIds: 17674492136405071722
         ChildIds: 6009013290599561790
@@ -45,6 +45,7 @@
         ChildIds: 5717636054845391480
         ChildIds: 1683295215675372862
         ChildIds: 9837177075096216161
+        ChildIds: 17602796235666359191
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2100,6 +2101,54 @@
           }
         }
       }
+      Objects {
+        Id: 17602796235666359191
+        Name: "Decal Stains Round 01"
+        Transform {
+          Location {
+            X: -38.1055946
+            Y: 30.8826485
+            Z: 191.852478
+          }
+          Rotation {
+            Pitch: -1.95846105
+            Yaw: -27.4696693
+            Roll: -0.919861
+          }
+          Scale {
+            X: 0.398063809
+            Y: 0.530737
+            Z: 1.05332124
+          }
+        }
+        ParentId: 2314785761143057857
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.358
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 14075465413141390957
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+      }
     }
     Assets {
       Id: 15244508396752909442
@@ -2243,6 +2292,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
+      }
+    }
+    Assets {
+      Id: 14075465413141390957
+      Name: "Decal Stains Round 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_round_001"
       }
     }
     PrimaryAssetId {
