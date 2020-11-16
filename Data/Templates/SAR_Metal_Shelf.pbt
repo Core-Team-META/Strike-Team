@@ -15,7 +15,35 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 18018540176850519787
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 18018540176850519787
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 9.15527344e-05
+            Y: 3.05175781e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13695070644680022787
         ChildIds: 1473656363706873095
         ChildIds: 8810840263647906288
         ChildIds: 10874323351967586271
@@ -31,7 +59,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -39,12 +68,12 @@
         Name: "Street Post Square 01"
         Transform {
           Location {
-            X: 54.6628418
-            Y: 130.082397
+            X: 54.6628723
+            Y: 130.082352
             Z: 243.320618
           }
           Rotation {
-            Roll: -179.999985
+            Roll: -179.999969
           }
           Scale {
             X: 1
@@ -52,7 +81,7 @@
             Z: 0.922362268
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -114,12 +143,12 @@
         Name: "Street Post Square 01"
         Transform {
           Location {
-            X: -55.4040527
-            Y: 130.082397
+            X: -55.4040222
+            Y: 130.082382
             Z: 243.320618
           }
           Rotation {
-            Roll: -179.999969
+            Roll: -179.999954
           }
           Scale {
             X: 1
@@ -127,7 +156,7 @@
             Z: 0.922362268
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -189,8 +218,8 @@
         Name: "Street Post Square 01"
         Transform {
           Location {
-            X: -55.4040527
-            Y: -130.414063
+            X: -55.4040833
+            Y: -130.414093
             Z: 243.320618
           }
           Rotation {
@@ -202,7 +231,7 @@
             Z: 0.922362268
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -264,12 +293,12 @@
         Name: "Street Post Square 01"
         Transform {
           Location {
-            X: 54.6628418
-            Y: -130.414063
+            X: 54.6628113
+            Y: -130.414093
             Z: 243.320618
           }
           Rotation {
-            Roll: -179.999969
+            Roll: -179.999954
           }
           Scale {
             X: 1
@@ -277,7 +306,7 @@
             Z: 0.922362268
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -339,8 +368,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 0.370788574
-            Y: 0.165893555
+            X: 0.370849639
+            Y: 0.165862948
             Z: 226.80423
           }
           Rotation {
@@ -351,7 +380,7 @@
             Z: 0.109199524
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -406,8 +435,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 0.370788574
-            Y: 0.165893555
+            X: 0.370849639
+            Y: 0.165862948
             Z: 150.043732
           }
           Rotation {
@@ -418,7 +447,7 @@
             Z: 0.109199524
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -473,8 +502,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 0.370788574
-            Y: 0.165893555
+            X: 0.370849639
+            Y: 0.165862948
           }
           Rotation {
           }
@@ -484,7 +513,7 @@
             Z: 0.109199524
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -539,8 +568,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 0.370788574
-            Y: 0.165893555
+            X: 0.370849639
+            Y: 0.165862948
             Z: 76.7605
           }
           Rotation {
@@ -551,7 +580,7 @@
             Z: 0.109199524
           }
         }
-        ParentId: 13695070644680022787
+        ParentId: 18018540176850519787
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

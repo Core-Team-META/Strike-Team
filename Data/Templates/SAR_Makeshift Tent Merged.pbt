@@ -1,13 +1,13 @@
 ﻿Assets {
   Id: 3829408514917117108
-  Name: "SAR_Makeshift Tent"
+  Name: "SAR_Makeshift Tent Merged"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 11897301687392180576
       Objects {
         Id: 11897301687392180576
-        Name: "SAR_Makeshift Tent"
+        Name: "SAR_Makeshift Tent Merged"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 16373807130785117515
-        ChildIds: 7904082477910924560
-        ChildIds: 9337727807024031262
-        ChildIds: 16611886601429180793
+        ParentId: 4781671109827199097
+        ChildIds: 6645485959167479583
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -30,18 +28,49 @@
         }
       }
       Objects {
+        Id: 6645485959167479583
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 90
+            Y: -55
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11897301687392180576
+        ChildIds: 7904082477910924560
+        ChildIds: 9337727807024031262
+        ChildIds: 16611886601429180793
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
         Id: 7904082477910924560
         Name: "Corrugated Sheet Large"
         Transform {
           Location {
-            X: 183.50441
-            Y: -104.999954
+            X: 93.5043945
+            Y: -50
             Z: 370
           }
           Rotation {
-            Pitch: -7.09677124
-            Yaw: -89.4708252
-            Roll: -92.1814575
+            Pitch: -7.09676409
+            Yaw: -89.4708176
+            Roll: -92.1814499
           }
           Scale {
             X: 1.49999523
@@ -49,7 +78,7 @@
             Z: 0.56671536
           }
         }
-        ParentId: 11897301687392180576
+        ParentId: 6645485959167479583
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -87,8 +116,8 @@
         Name: "Frame"
         Transform {
           Location {
-            X: 65.0063477
-            Y: -10.246582
+            X: -24.9936523
+            Y: 44.753418
           }
           Rotation {
           }
@@ -98,7 +127,7 @@
             Z: 1
           }
         }
-        ParentId: 11897301687392180576
+        ParentId: 6645485959167479583
         ChildIds: 3262808714308058818
         ChildIds: 5797025637371090128
         ChildIds: 7986010851357376546
@@ -830,14 +859,14 @@
         Name: "Corrugated Sheet Large"
         Transform {
           Location {
-            X: 19.6201286
-            Y: -44.9999924
+            X: -70.3798828
+            Y: 10
             Z: 345
           }
           Rotation {
-            Pitch: -2.16473389
+            Pitch: -2.16473269
             Yaw: -179.740509
-            Roll: -81.2759705
+            Roll: -81.2759323
           }
           Scale {
             X: 1.29492235
@@ -845,7 +874,7 @@
             Z: 0.444311857
           }
         }
-        ParentId: 11897301687392180576
+        ParentId: 6645485959167479583
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"

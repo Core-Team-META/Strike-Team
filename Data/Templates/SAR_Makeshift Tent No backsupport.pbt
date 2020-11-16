@@ -7,7 +7,7 @@
       RootId: 5173534193896389415
       Objects {
         Id: 5173534193896389415
-        Name: "SAR_Makeshift Tent No backsupport"
+        Name: "SAR_Makeshift Tent No backsupport Merged"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 16373807130785117515
-        ChildIds: 1880772257477170814
-        ChildIds: 956709213554805524
-        ChildIds: 1166637403918036970
+        ParentId: 4781671109827199097
+        ChildIds: 2927064215527504400
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -30,17 +28,14 @@
         }
       }
       Objects {
-        Id: 1880772257477170814
-        Name: "Corrugated Sheet Bent"
+        Id: 2927064215527504400
+        Name: "MergedModel"
         Transform {
           Location {
-            X: 179.999893
-            Y: -110.000031
-            Z: 360
+            X: 140
+            Y: -15
           }
           Rotation {
-            Yaw: -89.9999847
-            Roll: -89.9999466
           }
           Scale {
             X: 1
@@ -49,6 +44,40 @@
           }
         }
         ParentId: 5173534193896389415
+        ChildIds: 1880772257477170814
+        ChildIds: 956709213554805524
+        ChildIds: 1166637403918036970
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 1880772257477170814
+        Name: "Corrugated Sheet Bent"
+        Transform {
+          Location {
+            X: 40
+            Y: -95
+            Z: 360
+          }
+          Rotation {
+            Yaw: -89.9999771
+            Roll: -89.9999466
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2927064215527504400
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -75,13 +104,12 @@
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: 179.999969
-            Y: 79.9999084
+            X: 40
+            Y: 95
             Z: 360
           }
           Rotation {
-            Pitch: -6.83018879e-06
-            Yaw: -90.0000076
+            Yaw: -90
             Roll: -89.9999466
           }
           Scale {
@@ -90,7 +118,7 @@
             Z: 1
           }
         }
-        ParentId: 5173534193896389415
+        ParentId: 2927064215527504400
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -117,8 +145,8 @@
         Name: "Frame"
         Transform {
           Location {
-            X: 65.0063477
-            Y: -10.246582
+            X: -74.9936523
+            Y: 4.75390625
           }
           Rotation {
           }
@@ -128,7 +156,7 @@
             Z: 1
           }
         }
-        ParentId: 5173534193896389415
+        ParentId: 2927064215527504400
         ChildIds: 8569640290766568842
         ChildIds: 15316399512241699256
         ChildIds: 5725997067841476309

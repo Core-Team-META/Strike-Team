@@ -10,9 +10,9 @@
         Name: "SAR_GrassLong"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.557379186
+            Y: 0.557379186
+            Z: 1.82673144
           }
         }
         ParentId: 4781671109827199097

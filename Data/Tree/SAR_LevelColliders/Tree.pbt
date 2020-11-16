@@ -1,6 +1,85 @@
 ﻿Name: "SAR_LevelColliders"
 RootId: 3844101252731550927
 Objects {
+  Id: 6759361555162834525
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -908.346252
+      Y: 4603.69092
+      Z: 1333.37305
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.29709244
+      Y: 4.0145793
+      Z: 0.471279323
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10914920065026564142
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -535
+      Y: 9810.44434
+      Z: 792.39679
+    }
+    Rotation {
+      Roll: -26.519968
+    }
+    Scale {
+      X: 1.69999993
+      Y: 1.82336307
+      Z: 0.533307254
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 11044301985405331672
   Name: "Cube - bottom aligned"
   Transform {
@@ -98,6 +177,14 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2946846378138735618
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -546,6 +633,14 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9524317757610818993
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -586,6 +681,14 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2946846378138735618
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

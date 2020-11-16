@@ -15,12 +15,54 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 15084389731420460127
+        ChildIds: 4447144690673905569
+        ChildIds: 3133433755398538271
+        ChildIds: 3380054598291011788
+        ChildIds: 7195164701222140783
+        ChildIds: 8798750429027352670
+        ChildIds: 16774615976781680854
+        ChildIds: 3826582693817739497
+        ChildIds: 13917817728194213523
+        ChildIds: 563327232475968095
+        ChildIds: 5868638797619073966
+        ChildIds: 7511960685385570258
+        ChildIds: 11624462459009711128
+        ChildIds: 6794775324342647447
+        ChildIds: 2513594018227467802
+        ChildIds: 9049676288366158122
+        ChildIds: 18429503479608260918
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 4447144690673905569
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 10
+            Y: -5
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16170758792047843383
         ChildIds: 6727915620091772321
         ChildIds: 15535629776186172063
         ChildIds: 13878725382293716196
         ChildIds: 933280158004051748
-        ChildIds: 1455155165024850035
         ChildIds: 11957059601113247597
         ChildIds: 13489564775046034629
         ChildIds: 15517275863395757878
@@ -34,22 +76,7 @@
         ChildIds: 8138709327723775878
         ChildIds: 17508325733593033204
         ChildIds: 9065147436160979668
-        ChildIds: 3133433755398538271
-        ChildIds: 3380054598291011788
-        ChildIds: 7195164701222140783
         ChildIds: 1307901464391319671
-        ChildIds: 8798750429027352670
-        ChildIds: 16774615976781680854
-        ChildIds: 3826582693817739497
-        ChildIds: 13917817728194213523
-        ChildIds: 563327232475968095
-        ChildIds: 5868638797619073966
-        ChildIds: 7511960685385570258
-        ChildIds: 11624462459009711128
-        ChildIds: 6794775324342647447
-        ChildIds: 2513594018227467802
-        ChildIds: 9049676288366158122
-        ChildIds: 18429503479608260918
         ChildIds: 13657059226718698985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -58,7 +85,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -66,8 +94,8 @@
         Name: "Shipping Pallet - Square"
         Transform {
           Location {
-            X: 23.1083984
-            Y: -0.713867188
+            X: 13.1083965
+            Y: 4.28613567
           }
           Rotation {
           }
@@ -77,7 +105,7 @@
             Z: 1
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -103,14 +131,14 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 98.4123535
-            Y: -0.333496094
+            X: 88.4123459
+            Y: 4.66651917
             Z: 94.5699463
           }
           Rotation {
-            Pitch: -6.4677124
-            Yaw: -179.223541
-            Roll: -0.0874328613
+            Pitch: -6.46771049
+            Yaw: -179.223526
+            Roll: -0.0874328911
           }
           Scale {
             X: 0.703708172
@@ -118,7 +146,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 11712742834170890556
         ChildIds: 3725935850614643297
         Collidable_v2 {
@@ -276,8 +304,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 65.512085
-            Y: -0.333496094
+            X: 55.512085
+            Y: 4.66651535
             Z: 65.9213257
           }
           Rotation {
@@ -288,7 +316,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 9893858905871897808
         ChildIds: 4731751649843025108
         Collidable_v2 {
@@ -445,8 +473,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 76.2685547
-            Y: -0.333496094
+            X: 66.2685547
+            Y: 4.66651917
             Z: 39.979187
           }
           Rotation {
@@ -457,7 +485,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 11509235650295113374
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -540,54 +568,16 @@
         }
       }
       Objects {
-        Id: 1455155165024850035
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 23.1083965
-            Y: -0.713861465
-            Z: 71.9504395
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.89794946
-            Y: 3.11209106
-            Z: 1.33436096
-          }
-        }
-        ParentId: 16170758792047843383
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 11957059601113247597
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 100.39032
-            Y: 94.6604
+            X: 90.390358
+            Y: 99.6604156
             Z: 82.2005615
           }
           Rotation {
-            Yaw: -179.2285
+            Yaw: -179.228485
           }
           Scale {
             X: 0.703708172
@@ -595,7 +585,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 7347260477587684226
         ChildIds: 10297767748881468786
         Collidable_v2 {
@@ -753,8 +743,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 53.43396
-            Y: 88.4519043
+            X: 43.4339371
+            Y: 93.4519119
             Z: 51.3683472
           }
           Rotation {
@@ -765,7 +755,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 4262654182340650967
         ChildIds: 567671735882671082
         Collidable_v2 {
@@ -922,12 +912,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 113.296387
-            Y: 92.5303955
+            X: 103.296356
+            Y: 97.5304184
             Z: 25.4262085
           }
           Rotation {
-            Yaw: -173.710739
+            Yaw: -173.710724
           }
           Scale {
             X: 0.703708172
@@ -935,7 +925,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 10903682049275505639
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1022,8 +1012,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 53.43396
-            Y: -101.779663
+            X: 43.4339828
+            Y: -96.7796478
             Z: 51.3683472
           }
           Rotation {
@@ -1034,7 +1024,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 10925318539535907424
         ChildIds: 845581036264685256
         Collidable_v2 {
@@ -1191,8 +1181,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 55.6602783
-            Y: -101.779663
+            X: 45.6603
+            Y: -96.7796478
             Z: 25.4262085
           }
           Rotation {
@@ -1203,7 +1193,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 7390066079520320989
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1290,12 +1280,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -31.527832
-            Y: -105.884033
+            X: -41.5278091
+            Y: -100.884041
             Z: 82.2005615
           }
           Rotation {
-            Yaw: -179.2285
+            Yaw: -179.228485
           }
           Scale {
             X: 0.703708172
@@ -1303,7 +1293,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 2472731484229678174
         ChildIds: 13205079034899475829
         Collidable_v2 {
@@ -1461,8 +1451,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -85.2437744
-            Y: -101.779663
+            X: -95.2437439
+            Y: -96.779686
             Z: 51.3683472
           }
           Rotation {
@@ -1473,7 +1463,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 15448532717106193372
         ChildIds: 2130997595361811305
         Collidable_v2 {
@@ -1630,8 +1620,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -83.0174561
-            Y: -101.779663
+            X: -93.0174332
+            Y: -96.7796783
             Z: 25.4262085
           }
           Rotation {
@@ -1642,7 +1632,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 15983026826131719280
         ChildIds: 6676585236079634738
         Collidable_v2 {
@@ -1799,12 +1789,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -31.527832
-            Y: -9.72045898
+            X: -41.527832
+            Y: -4.72046661
             Z: 82.2005615
           }
           Rotation {
-            Yaw: -179.2285
+            Yaw: -179.228485
           }
           Scale {
             X: 0.703708172
@@ -1812,7 +1802,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 17011092065515657709
         ChildIds: 14580402602508090049
         Collidable_v2 {
@@ -1970,8 +1960,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -85.2437744
-            Y: -9.72045898
+            X: -95.2437668
+            Y: -4.72048187
             Z: 51.3683472
           }
           Rotation {
@@ -1982,7 +1972,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 3546525588337985556
         ChildIds: 9699898056221721694
         Collidable_v2 {
@@ -2139,8 +2129,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -83.0174561
-            Y: -9.72045898
+            X: -93.0174561
+            Y: -4.72047424
             Z: 25.4262085
           }
           Rotation {
@@ -2151,7 +2141,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 4741254100183914696
         ChildIds: 4545486838244967779
         Collidable_v2 {
@@ -2308,12 +2298,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -71.8050537
-            Y: 86.5106201
+            X: -81.8050766
+            Y: 91.5106
             Z: 82.2005615
           }
           Rotation {
-            Yaw: -8.09320068
+            Yaw: -8.09321499
           }
           Scale {
             X: 0.703708172
@@ -2321,7 +2311,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 930044939206488639
         ChildIds: 8550823539134224556
         Collidable_v2 {
@@ -2479,12 +2469,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -24.4520264
-            Y: 85.4091797
+            X: -34.4520493
+            Y: 90.4091644
             Z: 51.3684692
           }
           Rotation {
-            Yaw: 171.135071
+            Yaw: 171.135056
           }
           Scale {
             X: 0.703708172
@@ -2492,7 +2482,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 4447144690673905569
         ChildIds: 5229385522034406532
         ChildIds: 3064935117848315429
         Collidable_v2 {
@@ -2595,6 +2585,277 @@
           }
         }
         ParentId: 9065147436160979668
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11541705719099405078
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.467
+              G: 0.467
+              B: 0.467
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.414150387
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.282461882
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4233572198356242960
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1307901464391319671
+        Name: "Cement Mix"
+        Transform {
+          Location {
+            X: -34.4520493
+            Y: 90.4091644
+            Z: 30.4414063
+          }
+          Rotation {
+            Yaw: 171.135
+          }
+          Scale {
+            X: 0.703708172
+            Y: 0.703708172
+            Z: 0.703708172
+          }
+        }
+        ParentId: 4447144690673905569
+        ChildIds: 14071716215902102387
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14071716215902102387
+        Name: "Gem - Radiant Polished"
+        Transform {
+          Location {
+            X: 41.0175629
+            Y: -1.55840516
+            Z: 34.8578911
+          }
+          Rotation {
+            Pitch: 0.722272
+            Yaw: 5.43879557
+            Roll: 180
+          }
+          Scale {
+            X: 1.99999857
+            Y: 1.4999969
+            Z: 2.22304559
+          }
+        }
+        ParentId: 1307901464391319671
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11541705719099405078
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.467
+              G: 0.467
+              B: 0.467
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.414150387
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.282461882
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4233572198356242960
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13657059226718698985
+        Name: "Cement Mix"
+        Transform {
+          Location {
+            X: 97.1499252
+            Y: -96.7796402
+            Z: 82.2005615
+          }
+          Rotation {
+            Yaw: -179.228485
+          }
+          Scale {
+            X: 0.703708172
+            Y: 0.703708172
+            Z: 0.703708172
+          }
+        }
+        ParentId: 4447144690673905569
+        ChildIds: 9366516016640447873
+        ChildIds: 3985556237227623428
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9366516016640447873
+        Name: "Fantasy Chest Treasure Pile 01"
+        Transform {
+          Location {
+            X: 42.2122116
+            Y: 1.55846751
+            Z: 40.2711105
+          }
+          Rotation {
+            Pitch: -0.722351074
+            Yaw: 180
+            Roll: 1.36600984e-05
+          }
+          Scale {
+            X: 2.75
+            Y: 2.81845713
+            Z: 1.75
+          }
+        }
+        ParentId: 13657059226718698985
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11541705719099405078
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.467
+              G: 0.467
+              B: 0.467
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.414150387
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.282461882
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3795895254758699320
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3985556237227623428
+        Name: "Gem - Radiant Polished"
+        Transform {
+          Location {
+            X: 41.017437
+            Y: -1.55854511
+            Z: 34.8578911
+          }
+          Rotation {
+            Pitch: 0.722272
+            Yaw: -179.999985
+            Roll: -179.999985
+          }
+          Scale {
+            X: 1.99999952
+            Y: 1.49999738
+            Z: 2.32356429
+          }
+        }
+        ParentId: 13657059226718698985
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2783,106 +3044,6 @@
           TeamSettings {
           }
           DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 1307901464391319671
-        Name: "Cement Mix"
-        Transform {
-          Location {
-            X: -24.4520264
-            Y: 85.4091797
-            Z: 30.4414063
-          }
-          Rotation {
-            Yaw: 171.135025
-          }
-          Scale {
-            X: 0.703708172
-            Y: 0.703708172
-            Z: 0.703708172
-          }
-        }
-        ParentId: 16170758792047843383
-        ChildIds: 14071716215902102387
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 14071716215902102387
-        Name: "Gem - Radiant Polished"
-        Transform {
-          Location {
-            X: 41.0175629
-            Y: -1.55840516
-            Z: 34.8578911
-          }
-          Rotation {
-            Pitch: 0.722272
-            Yaw: 5.43879557
-            Roll: 180
-          }
-          Scale {
-            X: 1.99999857
-            Y: 1.4999969
-            Z: 2.22304559
-          }
-        }
-        ParentId: 1307901464391319671
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11541705719099405078
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.414150387
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.282461882
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4233572198356242960
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
           }
         }
       }
@@ -3760,177 +3921,6 @@
           }
         }
       }
-      Objects {
-        Id: 13657059226718698985
-        Name: "Cement Mix"
-        Transform {
-          Location {
-            X: 107.149902
-            Y: -101.779663
-            Z: 82.2005615
-          }
-          Rotation {
-            Yaw: -179.2285
-          }
-          Scale {
-            X: 0.703708172
-            Y: 0.703708172
-            Z: 0.703708172
-          }
-        }
-        ParentId: 16170758792047843383
-        ChildIds: 9366516016640447873
-        ChildIds: 3985556237227623428
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9366516016640447873
-        Name: "Fantasy Chest Treasure Pile 01"
-        Transform {
-          Location {
-            X: 42.2122116
-            Y: 1.55846751
-            Z: 40.2711105
-          }
-          Rotation {
-            Pitch: -0.722351074
-            Yaw: 180
-            Roll: 1.36600984e-05
-          }
-          Scale {
-            X: 2.75
-            Y: 2.81845713
-            Z: 1.75
-          }
-        }
-        ParentId: 13657059226718698985
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11541705719099405078
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.414150387
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.282461882
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3795895254758699320
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3985556237227623428
-        Name: "Gem - Radiant Polished"
-        Transform {
-          Location {
-            X: 41.017437
-            Y: -1.55854511
-            Z: 34.8578911
-          }
-          Rotation {
-            Pitch: 0.722272
-            Yaw: -179.999985
-            Roll: -179.999985
-          }
-          Scale {
-            X: 1.99999952
-            Y: 1.49999738
-            Z: 2.32356429
-          }
-        }
-        ParentId: 13657059226718698985
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11541705719099405078
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.467
-              G: 0.467
-              B: 0.467
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.414150387
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.282461882
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4233572198356242960
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
     }
     Assets {
       Id: 2347011262942164268
@@ -3966,15 +3956,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_gem_radiant_polished_001"
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
       }
     }
     Assets {

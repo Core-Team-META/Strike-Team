@@ -63,11 +63,11 @@
           }
           Overrides {
             Name: "bp:Density"
-            Float: 0.192116082
+            Float: 0.5
           }
           Overrides {
             Name: "bp:Leaf Scale"
-            Float: 1.44458902
+            Float: 0.747319877
           }
         }
         Collidable_v2 {
@@ -114,11 +114,11 @@
           }
           Overrides {
             Name: "bp:Density"
-            Float: 0.192116082
+            Float: 0.5
           }
           Overrides {
             Name: "bp:Leaf Scale"
-            Float: 1.44458902
+            Float: 0.747319877
           }
         }
         Collidable_v2 {

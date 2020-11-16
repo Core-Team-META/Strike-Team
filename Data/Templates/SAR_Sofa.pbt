@@ -15,19 +15,8 @@
             Z: 0.994426906
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 13781225415806283011
-        ChildIds: 6324023411938847998
-        ChildIds: 14528729686520811151
-        ChildIds: 15172620472074966581
-        ChildIds: 13852061476809232878
-        ChildIds: 14073120886830027537
-        ChildIds: 12136842531373876206
-        ChildIds: 9413320219169931754
-        ChildIds: 17174245387714948569
-        ChildIds: 1476373819711053670
-        ChildIds: 2898109642999702002
-        ChildIds: 15202935606711712002
+        ParentId: 16373807130785117515
+        ChildIds: 16542936998117278177
         ChildIds: 6111729723414001567
         ChildIds: 3322145825242906890
         ChildIds: 4772531942740975863
@@ -44,13 +33,13 @@
         }
       }
       Objects {
-        Id: 13781225415806283011
-        Name: "Collision"
+        Id: 16542936998117278177
+        Name: "MergedModel"
         Transform {
           Location {
-            X: -52.9260254
-            Y: -3.28833
-            Z: 35.4577026
+            X: -20.25424
+            Y: -2.96109295
+            Z: 4.74139404
           }
           Rotation {
           }
@@ -61,8 +50,17 @@
           }
         }
         ParentId: 17905869722399791182
-        ChildIds: 7748325906458170028
-        ChildIds: 16023191332936579020
+        ChildIds: 6324023411938847998
+        ChildIds: 14528729686520811151
+        ChildIds: 15172620472074966581
+        ChildIds: 13852061476809232878
+        ChildIds: 14073120886830027537
+        ChildIds: 12136842531373876206
+        ChildIds: 9413320219169931754
+        ChildIds: 17174245387714948569
+        ChildIds: 1476373819711053670
+        ChildIds: 2898109642999702002
+        ChildIds: 15202935606711712002
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -70,112 +68,7 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7748325906458170028
-        Name: "Cube - Rounded - bottom aligned"
-        Transform {
-          Location {
-            X: 40.498291
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.46415389
-            Y: 4.1130929
-            Z: 0.512153685
-          }
-        }
-        ParentId: 13781225415806283011
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14781885955149681198
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0815893561
-              G: 0.159999967
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17485881147669499682
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16023191332936579020
-        Name: "Cube - Rounded - bottom aligned"
-        Transform {
-          Location {
-            X: -40.498291
-            Z: 62.0100708
-          }
-          Rotation {
-            Pitch: -77.8951645
-          }
-          Scale {
-            X: 1.46415389
-            Y: 4.1130929
-            Z: 0.512153685
-          }
-        }
-        ParentId: 13781225415806283011
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14781885955149681198
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0815893561
-              G: 0.159999967
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17485881147669499682
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
+          Model {
           }
         }
       }
@@ -184,19 +77,19 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: 0.618164063
-            Y: -2.72412109
-            Z: 47.8145142
+            X: 20.8724289
+            Y: 0.236670569
+            Z: 43.0731239
           }
           Rotation {
           }
           Scale {
-            X: 1.1505214
+            X: 1.15052152
             Y: 1.25084889
-            Z: 0.40132618
+            Z: 0.401326209
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -207,8 +100,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -242,19 +135,19 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: 0.618164063
-            Y: 121.424805
-            Z: 47.8145142
+            X: 20.8724289
+            Y: 124.385605
+            Z: 43.0731239
           }
           Rotation {
           }
           Scale {
-            X: 1.1505214
+            X: 1.15052152
             Y: 1.25084889
-            Z: 0.40132618
+            Z: 0.401326209
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -265,8 +158,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -300,19 +193,19 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: 0.618164063
-            Y: -127.100586
-            Z: 47.8145142
+            X: 20.8724289
+            Y: -124.139725
+            Z: 43.0731239
           }
           Rotation {
           }
           Scale {
-            X: 1.1505214
+            X: 1.15052152
             Y: 1.25084889
-            Z: 0.40132618
+            Z: 0.401326209
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -323,8 +216,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -358,22 +251,22 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -96.4567871
-            Y: -2.75463867
-            Z: 97.4053955
+            X: -76.2025223
+            Y: 0.206227466
+            Z: 92.6640167
           }
           Rotation {
-            Pitch: -73.2293549
-            Yaw: 1.77361453
-            Roll: -0.53768903
+            Pitch: -73.229332
+            Yaw: 1.77361405
+            Roll: -0.537688494
           }
           Scale {
-            X: 1.15052092
+            X: 1.15052104
             Y: 1.25084889
             Z: 0.543122649
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -384,8 +277,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -419,22 +312,22 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -93.7246094
-            Y: -127.100586
-            Z: 97.0686
+            X: -73.4703751
+            Y: -124.139725
+            Z: 92.3272247
           }
           Rotation {
-            Pitch: -73.2293549
-            Yaw: 1.77361453
-            Roll: -0.53768903
+            Pitch: -73.229332
+            Yaw: 1.77361405
+            Roll: -0.537688494
           }
           Scale {
-            X: 1.15052092
+            X: 1.15052104
             Y: 1.25084889
             Z: 0.543122649
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -445,8 +338,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -480,21 +373,21 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            X: 53.6035156
-            Y: 192.708008
-            Z: 101.971863
+            X: 73.8577881
+            Y: 195.668869
+            Z: 97.2304764
           }
           Rotation {
             Pitch: 90
             Roll: 6.83019061e-06
           }
           Scale {
-            X: 0.460665971
+            X: 0.460666
             Y: 0.460666567
-            Z: 1.38349104
+            Z: 1.38349116
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -509,8 +402,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -544,22 +437,22 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -99.1508789
-            Y: 119.855957
-            Z: 97.7374878
+            X: -78.8966141
+            Y: 122.816803
+            Z: 92.9961
           }
           Rotation {
-            Pitch: -73.2293549
-            Yaw: 1.77361453
-            Roll: -0.53768903
+            Pitch: -73.229332
+            Yaw: 1.77361405
+            Roll: -0.537688494
           }
           Scale {
-            X: 1.15052092
+            X: 1.15052104
             Y: 1.25084889
             Z: 0.543122649
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -570,8 +463,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -605,21 +498,21 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            X: 53.6035156
-            Y: -198.795166
-            Z: 101.971863
+            X: 73.8577881
+            Y: -195.834335
+            Z: 97.2304764
           }
           Rotation {
             Pitch: 90
             Roll: 6.83019061e-06
           }
           Scale {
-            X: 0.460665971
+            X: 0.460666
             Y: 0.460666567
-            Z: 1.38349104
+            Z: 1.38349116
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -634,8 +527,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -669,19 +562,19 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -12.4277344
-            Y: -3.28833
-            Z: 4.74139404
+            X: 7.82645512
+            Y: -0.327508837
+            Z: 3.8360763e-06
           }
           Rotation {
           }
           Scale {
-            X: 1.46415389
-            Y: 3.72714067
+            X: 1.46415401
+            Y: 3.7271409
             Z: 0.512153685
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -692,8 +585,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -727,22 +620,22 @@
         Name: "Wedge - Convex Polished"
         Transform {
           Location {
-            X: -15.0490723
-            Y: -171.562012
-            Z: 87.7171631
+            X: 5.2051568
+            Y: -168.601135
+            Z: 82.9757767
           }
           Rotation {
             Pitch: 1.36603776e-05
-            Yaw: 1.69038449e-05
-            Roll: -89.9999924
+            Yaw: 1.69038431e-05
+            Roll: -89.9999847
           }
           Scale {
             X: 1.3633157
-            Y: 0.488208085
-            Z: 0.43111828
+            Y: 0.488208115
+            Z: 0.431118309
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -765,8 +658,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -796,22 +689,22 @@
         Name: "Wedge - Convex Polished"
         Transform {
           Location {
-            X: -15.0490723
-            Y: 166.764648
-            Z: 87.7171631
+            X: 5.2051568
+            Y: 169.725449
+            Z: 82.9757767
           }
           Rotation {
             Pitch: 2.04905664e-05
             Yaw: -179.999954
-            Roll: -89.9999847
+            Roll: -89.9999619
           }
           Scale {
             X: 1.3633157
-            Y: 0.488208085
-            Z: 0.43111828
+            Y: 0.488208115
+            Z: 0.431118309
           }
         }
-        ParentId: 17905869722399791182
+        ParentId: 16542936998117278177
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -834,8 +727,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.231788054
-              G: 0.279999971
+              G: 0.125999928
+              B: 0.279999971
               A: 1
             }
           }
@@ -1038,15 +931,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_rounded_001"
-      }
-    }
-    Assets {
-      Id: 14781885955149681198
-      Name: "Wallpaper Moroccan 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_wallpaper_002"
       }
     }
     Assets {

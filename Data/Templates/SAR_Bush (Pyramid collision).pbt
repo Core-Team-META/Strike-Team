@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 17534345071700735697
-  Name: "SAR_Bush (Triangle collision)"
+  Name: "SAR_Bush (Pyramid collision)"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

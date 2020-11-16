@@ -15,8 +15,8 @@
             Z: 1.2
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 14045942061727599613
+        ParentId: 16373807130785117515
+        ChildIds: 14944146350335522350
         ChildIds: 681776946453677041
         ChildIds: 3861890707548165533
         ChildIds: 14766289033662617190
@@ -41,12 +41,12 @@
         }
       }
       Objects {
-        Id: 14045942061727599613
-        Name: "Industrial Room Tone Loop 01 SFX"
+        Id: 14944146350335522350
+        Name: "ClientContext"
         Transform {
           Location {
-            X: -12.5
-            Y: -16.666666
+            X: -12.4998169
+            Y: -16.6666126
             Z: 45.8333321
           }
           Rotation {
@@ -58,6 +58,31 @@
           }
         }
         ParentId: 16253280924196043871
+        ChildIds: 14045942061727599613
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 14045942061727599613
+        Name: "Industrial Room Tone Loop 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14944146350335522350
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

@@ -15,8 +15,8 @@
             Z: 0.643666625
           }
         }
-        ParentId: 16373807130785117515
-        ChildIds: 7330922432632034414
+        ParentId: 15084389731420460127
+        ChildIds: 6858443070863209497
         ChildIds: 9956336147489780267
         ChildIds: 10180560852969229849
         ChildIds: 17247868871495188235
@@ -34,16 +34,42 @@
         }
       }
       Objects {
+        Id: 6858443070863209497
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 6.83018879e-06
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 798555311668383677
+        ChildIds: 7330922432632034414
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
         Id: 7330922432632034414
         Name: "Electricity Light Buzzing Loop 01 SFX"
         Transform {
           Location {
-            X: -10.9856071
-            Y: 10.9856052
-            Z: -41.8865891
+            X: -10.9859447
+            Y: 10.9859543
+            Z: -41.8864937
           }
           Rotation {
-            Yaw: -44.9999924
+            Yaw: -45.0000038
           }
           Scale {
             X: 1.55359936
@@ -51,7 +77,7 @@
             Z: 1.55359936
           }
         }
-        ParentId: 798555311668383677
+        ParentId: 6858443070863209497
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

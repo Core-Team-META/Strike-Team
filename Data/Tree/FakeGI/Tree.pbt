@@ -1,6 +1,110 @@
 ﻿Name: "FakeGI"
 RootId: 10734059996242719164
 Objects {
+  Id: 6347394349298036180
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -4885
+      Y: 1085
+      Z: 480
+    }
+    Rotation {
+      Yaw: 180
+      Roll: 180
+    }
+    Scale {
+      X: 1
+      Y: 2
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 26.8573532
+    Color {
+      R: 1
+      G: 0.857
+      B: 0.714
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 742.60437
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1198.30994
+          SourceHeight: 718.62915
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 6060249532366615043
+  Name: "Point Light (Area)"
+  Transform {
+    Location {
+      X: 3745.36523
+      Y: -3445.3396
+      Z: 626.939758
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10734059996242719164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 6.70211029
+    Color {
+      R: 1
+      G: 0.691470265
+      B: 0.386999965
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
   Id: 17906974294099200535
   Name: "Area Light"
   Transform {
@@ -286,7 +390,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 48.1738167
+    Intensity: 18.4209442
     Color {
       R: 0.18
       G: 1

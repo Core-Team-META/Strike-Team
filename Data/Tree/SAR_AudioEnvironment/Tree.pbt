@@ -15,6 +15,9 @@ Objects {
     }
   }
   ParentId: 8849669081362303247
+  ChildIds: 15082202891922257018
+  ChildIds: 15421692866500565832
+  ChildIds: 13502270662809195005
   ChildIds: 1184742141741919549
   ChildIds: 4725715137766846288
   ChildIds: 4481678459153564207
@@ -67,6 +70,7 @@ Objects {
   ChildIds: 8248611817029388387
   ChildIds: 9014887345724831767
   ChildIds: 13740585590886773217
+  ChildIds: 7549378933466104478
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -74,6 +78,46 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 7549378933466104478
+  Name: "Ambience Suburbs Neighborhood 01 SFX"
+  Transform {
+    Location {
+      X: 9703.59375
+      Y: 8441.71094
+      Z: 779.020447
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6554089544094711560
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 7174965259302524614
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: 1
+    Volume: 4
+    Falloff: 6000
+    Radius: 2000
+    EnableOcclusion: true
+    IsAttenuationEnabled: true
   }
 }
 Objects {
@@ -782,9 +826,9 @@ Objects {
   Name: "Ambience Nature Wind and Trees Set 01 SFX"
   Transform {
     Location {
-      X: -3586.43604
-      Y: 2803.48096
-      Z: 88.2545166
+      X: -4226.56348
+      Y: 2819.99854
+      Z: 88.2545776
     }
     Rotation {
     }
@@ -1233,9 +1277,9 @@ Objects {
   Name: "Ambience Suburbs Neighborhood 01 SFX"
   Transform {
     Location {
-      X: 3496.11719
-      Y: 1528.10046
-      Z: 2529.75293
+      X: 3778.19897
+      Y: -417.869873
+      Z: 1300.38953
     }
     Rotation {
     }
@@ -1682,8 +1726,8 @@ Objects {
   Name: "Ambience Nature Cicadas Set 01 SFX"
   Transform {
     Location {
-      X: -2745.52368
-      Y: 10234.7295
+      X: -2598.71265
+      Y: 9421.06055
       Z: 159.866577
     }
     Rotation {
@@ -1710,7 +1754,7 @@ Objects {
     AudioBP {
       AutoPlay: true
       Volume: 0.179616377
-      Falloff: 2000
+      Falloff: 1000
       Radius: 100
       EnableOcclusion: true
       IsSpatializationEnabled: true
@@ -2106,9 +2150,9 @@ Objects {
   Name: "Ambience Suburbs Neighborhood 01 SFX"
   Transform {
     Location {
-      X: 8528.00879
-      Y: 9300.82
-      Z: 2728.31201
+      X: 9703.59375
+      Y: 8441.71094
+      Z: 779.020447
     }
     Rotation {
     }
@@ -2140,10 +2184,127 @@ Objects {
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 803480580152922340
-    SubobjectId: 1301385465935293382
-    InstanceId: 1089162071274814075
-    TemplateId: 13721027148223412995
+}
+Objects {
+  Id: 13502270662809195005
+  Name: "Ambience Nature Wind and Trees Set 01 SFX"
+  Transform {
+    Location {
+      X: -555
+      Y: 7210
+      Z: 1565
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6554089544094711560
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7860026190175258646
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
+  }
+}
+Objects {
+  Id: 15421692866500565832
+  Name: "Ambience Nature Insects Buzzing Set 01 SFX"
+  Transform {
+    Location {
+      X: 4456.67725
+      Y: 2024.71533
+      Z: 272.849945
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6554089544094711560
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14786149351500180553
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Volume: 1
+      Falloff: 1000
+      Radius: 100
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
+  }
+}
+Objects {
+  Id: 15082202891922257018
+  Name: "Ambience Nature Insects Buzzing Set 01 SFX"
+  Transform {
+    Location {
+      X: 6835.90869
+      Y: 5652.87549
+      Z: 191.108887
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6554089544094711560
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14786149351500180553
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Volume: 1
+      Falloff: 1000
+      Radius: 100
+      EnableOcclusion: true
+      IsSpatializationEnabled: true
+      IsAttenuationEnabled: true
+    }
   }
 }
