@@ -97,6 +97,7 @@ Objects {
     }
   }
   ParentId: 16962308734055015238
+  ChildIds: 10922094561149491937
   ChildIds: 3439067888150019379
   ChildIds: 6304957680341998301
   ChildIds: 15711584865423265543
@@ -111,7 +112,6 @@ Objects {
   ChildIds: 1360824232860992316
   ChildIds: 7224756548663269671
   ChildIds: 3022889814022185315
-  ChildIds: 10922094561149491937
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -120,36 +120,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 10922094561149491937
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -3859.69922
-      Y: 3537.84766
-      Z: 69.8293152
-    }
-    Rotation {
-      Yaw: 2.0170691
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16178623774537817549
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
   }
 }
 Objects {
@@ -418,7 +388,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }
@@ -447,7 +417,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }
@@ -476,7 +446,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }
@@ -505,7 +475,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }
@@ -534,7 +504,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }
@@ -564,7 +534,37 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
+    PlayerScaleMultiplier: 1
+  }
+}
+Objects {
+  Id: 10922094561149491937
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -3859.69922
+      Y: 3537.84766
+      Z: 69.8293152
+    }
+    Rotation {
+      Yaw: 2.0170691
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16178623774537817549
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 2
     PlayerScaleMultiplier: 1
   }
 }
@@ -657,6 +657,7 @@ Objects {
   Settings {
     GameSettings {
       RagdollOnDeath: true
+      EnablePlayerStorage: true
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
@@ -665,7 +666,8 @@ Objects {
         ChatMode {
         }
         ChatPosition {
-          X: 40
+          X: 1.64782715
+          Y: 176.343597
         }
         ChatSize {
           X: 450

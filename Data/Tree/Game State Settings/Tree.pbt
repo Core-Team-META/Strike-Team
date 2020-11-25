@@ -1,8 +1,8 @@
 ﻿Name: "Game State Settings"
 RootId: 15718157928396756218
 Objects {
-  Id: 15213012754898193370
-  Name: "Round Kill Limit"
+  Id: 6826418555127655771
+  Name: "Kill Team Score"
   Transform {
     Scale {
       X: 1
@@ -11,21 +11,89 @@ Objects {
     }
   }
   ParentId: 15718157928396756218
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 625654611704035548
+      key: 7522103914088346876
       value {
         Overrides {
           Name: "Name"
-          String: "Round Kill Limit"
+          String: "Kill Team Score"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15586421751950533206
+    }
+  }
+}
+Objects {
+  Id: 4536888205100665781
+  Name: "Lobby Start Reset Team Scores"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15718157928396756218
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8580180728907619638
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Lobby Start Reset Team Scores"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11214083309314696127
+    }
+  }
+}
+Objects {
+  Id: 15194599660256664735
+  Name: "Team Autobalancer"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15718157928396756218
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8101005287434700507
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Team Autobalancer"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
         }
         Overrides {
           Name: "Position"
@@ -38,23 +106,23 @@ Objects {
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
+          Name: "cs:KillOnTeamSwitch"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:OnlySwitchDeadPlayers"
+          Bool: false
         }
       }
     }
     TemplateAsset {
-      Id: 10226583373665735959
+      Id: 3035707431314987134
     }
   }
 }
 Objects {
-  Id: 9865901862442604871
-  Name: "Lobby Start Reset KD"
+  Id: 15515656172286656058
+  Name: "Round Team Score Limit"
   Transform {
     Scale {
       X: 1
@@ -63,19 +131,13 @@ Objects {
     }
   }
   ParentId: 15718157928396756218
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 14905522075498841611
+      key: 5768415112764031484
       value {
         Overrides {
           Name: "Name"
-          String: "Lobby Start Reset KD"
+          String: "Round Team Score Limit"
         }
         Overrides {
           Name: "Scale"
@@ -85,10 +147,14 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:TeamScoreLimit"
+          Int: 50
+        }
       }
     }
     TemplateAsset {
-      Id: 17154454822903296868
+      Id: 18243928981338754581
     }
   }
 }

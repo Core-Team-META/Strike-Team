@@ -147,7 +147,7 @@ Objects {
         }
         Overrides {
           Name: "cs:ShowOnEnemies"
-          Bool: true
+          Bool: false
         }
         Overrides {
           Name: "cs:ShowHealthbars"
@@ -155,7 +155,11 @@ Objects {
         }
         Overrides {
           Name: "cs:ShowOnTeammates"
-          Bool: false
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:ShowNames"
+          Bool: true
         }
       }
     }
@@ -253,6 +257,19 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4038066346690083071
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 318.832245
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 7.47413635
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10799293802348467178
       value {
         Overrides {
@@ -273,129 +290,6 @@ Objects {
     }
     TemplateAsset {
       Id: 15016807997413534948
-    }
-  }
-}
-Objects {
-  Id: 11985494728997715452
-  Name: "Killboard"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6153464260326768231
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9959803019513904387
-      value {
-        Overrides {
-          Name: "UIX"
-          Float: 30
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 100
-        }
-        Overrides {
-          Name: "Width"
-          Int: 475
-        }
-        Overrides {
-          Name: "Height"
-          Int: 409
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14294627710056487706
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Killboard"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2291986645519660550
-    }
-  }
-}
-Objects {
-  Id: 2187288032500760416
-  Name: "Kill Feed"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6153464260326768231
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2956060663263325828
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Feed"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17602874323132382533
     }
   }
 }

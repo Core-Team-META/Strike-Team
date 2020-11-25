@@ -20,10 +20,10 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject()
-local RELOAD_ABILITY = script:GetCustomProperty("ReloadAbility"):WaitForObject()
-local ZOOM_SOUND = script:GetCustomProperty("ZoomSound"):WaitForObject()
-local TOGGLE_SOUND = script:GetCustomProperty("ToggleZoomSound"):WaitForObject()
+--local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject()
+--local RELOAD_ABILITY = script:GetCustomProperty("ReloadAbility"):WaitForObject()
+--local ZOOM_SOUND = script:GetCustomProperty("ZoomSound"):WaitForObject()
+--local TOGGLE_SOUND = script:GetCustomProperty("ToggleZoomSound"):WaitForObject()
 
 -- Exposed variables --
 local CAN_AIM = WEAPON:GetCustomProperty("EnableAim")

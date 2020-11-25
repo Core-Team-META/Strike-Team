@@ -7,7 +7,7 @@
       RootId: 6246242700242467092
       Objects {
         Id: 6246242700242467092
-        Name: "Generic Impact Surface Aligned"
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,10 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 15676067918659116593
+        ChildIds: 3337482753359517784
+        ChildIds: 11244076573502085025
+        ChildIds: 6983234237468868165
+        ChildIds: 8007739458989036561
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -30,8 +33,50 @@
         }
       }
       Objects {
-        Id: 15676067918659116593
-        Name: "Impact Geo"
+        Id: 3337482753359517784
+        Name: "Decal Bullet Damage Stone"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -25.2393742
+            Roll: 25.239336
+          }
+          Scale {
+            X: 0.1
+            Y: 0.1
+            Z: 0.1
+          }
+        }
+        ParentId: 6246242700242467092
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Fade Delay"
+            Float: 4
+          }
+          Overrides {
+            Name: "bp:Fade Time"
+            Float: 2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11302073280474298634
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
+        Id: 11244076573502085025
+        Name: "Impact Ground Dirt 01 SFX"
         Transform {
           Location {
           }
@@ -45,35 +90,6 @@
           }
         }
         ParentId: 6246242700242467092
-        ChildIds: 11244076573502085025
-        ChildIds: 6983234237468868165
-        ChildIds: 8007739458989036561
-        ChildIds: 3337482753359517784
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11244076573502085025
-        Name: "Impact Ground Dirt 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15676067918659116593
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -102,6 +118,7 @@
           Location {
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
             X: 1
@@ -109,7 +126,7 @@
             Z: 1
           }
         }
-        ParentId: 15676067918659116593
+        ParentId: 6246242700242467092
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -134,6 +151,7 @@
           Location {
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
             X: 0.4
@@ -141,7 +159,7 @@
             Z: 0.4
           }
         }
-        ParentId: 15676067918659116593
+        ParentId: 6246242700242467092
         UnregisteredParameters {
           Overrides {
             Name: "bp:Density"
@@ -189,45 +207,14 @@
           }
         }
       }
-      Objects {
-        Id: 3337482753359517784
-        Name: "Decal Bullet Damage Stone"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: 5.46414412e-05
-          }
-          Scale {
-            X: 0.1
-            Y: 0.1
-            Z: 0.1
-          }
-        }
-        ParentId: 15676067918659116593
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Fade Delay"
-            Float: 4
-          }
-          Overrides {
-            Name: "bp:Fade Time"
-            Float: 2
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 11302073280474298634
-          }
-          DecalBP {
-          }
-        }
+    }
+    Assets {
+      Id: 11302073280474298634
+      Name: "Decal Bullet Damage Stone"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_bullet_stone_001"
       }
     }
     Assets {
@@ -255,15 +242,6 @@
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_impact_sparks"
-      }
-    }
-    Assets {
-      Id: 11302073280474298634
-      Name: "Decal Bullet Damage Stone"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_bullet_stone_001"
       }
     }
     PrimaryAssetId {

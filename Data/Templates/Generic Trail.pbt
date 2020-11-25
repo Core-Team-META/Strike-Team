@@ -4,9 +4,9 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11388592286874595498
+      RootId: 11584901805065674989
       Objects {
-        Id: 11388592286874595498
+        Id: 11584901805065674989
         Name: "Generic Trail"
         Transform {
           Scale {
@@ -16,6 +16,35 @@
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 11388592286874595498
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11388592286874595498
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11584901805065674989
         ChildIds: 7928271528055639521
         UnregisteredParameters {
         }

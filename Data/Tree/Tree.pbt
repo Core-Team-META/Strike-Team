@@ -14,11 +14,14 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 14192324357425605751
   ChildIds: 11471976360075692302
   ChildIds: 1280603503854378228
-  ChildIds: 12605585393435046040
+  ChildIds: 16962308734055015238
+  ChildIds: 15900364157994414074
   ChildIds: 4565846863626438544
   ChildIds: 15084389731420460127
+  ChildIds: 10671565427701169845
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -28,6 +31,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10671565427701169845
+  Name: "Blake"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Blake"
   }
 }
 Objects {
@@ -86,11 +115,10 @@ Objects {
   }
 }
 Objects {
-  Id: 12605585393435046040
-  Name: "PlayerTitles"
+  Id: 15900364157994414074
+  Name: "UI Settings"
   Transform {
     Location {
-      Z: -209.259277
     }
     Rotation {
     }
@@ -101,6 +129,8 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,7 +139,35 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "PlayerTitles"
+    FilePartitionName: "UI Settings"
+  }
+}
+Objects {
+  Id: 16962308734055015238
+  Name: "Game Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Gameplay Settings"
   }
 }
 Objects {
@@ -220,6 +278,32 @@ Objects {
         Min: -102400
         Max: 102400
       }
+    }
+  }
+}
+Objects {
+  Id: 14192324357425605751
+  Name: "Aj Kill Feed v3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14913383469609323285
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Aj Kill Feed v3"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12215234784578847343
     }
   }
 }
