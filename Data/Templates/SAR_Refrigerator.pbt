@@ -15,7 +15,35 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 6770833016540458864
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 6770833016540458864
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 5.7220459e-06
+            Y: -3.05175781e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13379832754378031242
         ChildIds: 17095996029246531748
         ChildIds: 17599350005942416661
         ChildIds: 1727431514346060073
@@ -30,8 +58,9 @@
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        NetworkContext {
-          Type: RuntimeStatic
+        Folder {
+          Model {
+          }
         }
       }
       Objects {
@@ -39,8 +68,8 @@
         Name: "Cube - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: -60.7005463
-            Y: -47.6540527
+            X: -60.7003632
+            Y: -47.6541
           }
           Rotation {
           }
@@ -50,7 +79,7 @@
             Z: 3.27810979
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -96,12 +125,12 @@
         Name: "Cube - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 4.11221313
-            Y: -47.6540527
+            X: 4.11247635
+            Y: -47.6541
             Z: 26.1710815
           }
           Rotation {
-            Yaw: 4.9884429
+            Yaw: 4.98844671
           }
           Scale {
             X: 0.110050775
@@ -109,7 +138,7 @@
             Z: 1.94724178
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -155,12 +184,12 @@
         Name: "Cube - Rounded Bottom-Aligned"
         Transform {
           Location {
-            X: 3.8666687
-            Y: -47.6540527
-            Z: 221.708817
+            X: 3.86664581
+            Y: -47.6541023
+            Z: 221.708801
           }
           Rotation {
-            Yaw: 3.85238481
+            Yaw: 3.85238314
           }
           Scale {
             X: 0.110050775
@@ -168,7 +197,7 @@
             Z: 0.901877761
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -214,8 +243,8 @@
         Name: "Bannister Single Post"
         Transform {
           Location {
-            X: 3.24124146
-            Y: 23.8833
+            X: 3.24136734
+            Y: 23.883503
             Z: 256.466553
           }
           Rotation {
@@ -226,7 +255,7 @@
             Z: 0.312291473
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -264,9 +293,9 @@
         Name: "Bannister Single Post"
         Transform {
           Location {
-            X: 3.24124146
-            Y: 23.8833
-            Z: 166.105865
+            X: 3.24136734
+            Y: 23.883503
+            Z: 166.105835
           }
           Rotation {
           }
@@ -276,7 +305,7 @@
             Z: 0.312291473
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -314,9 +343,9 @@
         Name: "Bannister Single Post"
         Transform {
           Location {
-            X: 3.24124146
-            Y: 23.8833
-            Z: 51.7999344
+            X: 3.24136734
+            Y: 23.883503
+            Z: 51.7999268
           }
           Rotation {
           }
@@ -326,7 +355,7 @@
             Z: 0.312291473
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -364,13 +393,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: 21.4989929
-            Y: 35.6560059
+            X: 21.4987431
+            Y: 35.6560707
             Z: 265.011719
           }
           Rotation {
-            Yaw: -5.92847
-            Roll: -89.9999924
+            Pitch: -6.83018879e-06
+            Yaw: -5.9284749
+            Roll: -90
           }
           Scale {
             X: 0.794058681
@@ -378,7 +408,7 @@
             Z: 1.11611164
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -463,13 +493,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: 21.4989929
-            Y: 35.6560059
-            Z: 136.38591
+            X: 21.4987431
+            Y: 35.6560707
+            Z: 136.385925
           }
           Rotation {
-            Yaw: -5.92847
-            Roll: -89.9999924
+            Pitch: -6.83018879e-06
+            Yaw: -5.9284749
+            Roll: -90
           }
           Scale {
             X: 0.794058681
@@ -477,7 +508,7 @@
             Z: 1.11611164
           }
         }
-        ParentId: 13379832754378031242
+        ParentId: 6770833016540458864
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"

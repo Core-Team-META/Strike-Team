@@ -15,7 +15,36 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 7495305104493651218
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 7495305104493651218
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 0.000112680296
+            Y: 0.000131460343
+            Z: -29.9754028
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15877809462822465698
         ChildIds: 12502333620465025354
         ChildIds: 5708979969107929601
         ChildIds: 2234340755660498911
@@ -36,7 +65,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -46,10 +76,9 @@
           Location {
             X: 2.06347656
             Y: 0.349609375
-            Z: -29.9754028
           }
           Rotation {
-            Yaw: 180
+            Yaw: -179.999985
           }
           Scale {
             X: 1.1
@@ -57,7 +86,7 @@
             Z: 0.5
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -111,13 +140,13 @@
         Name: "Cone - Truncated Hollow Wide Thin"
         Transform {
           Location {
-            X: 2.06335449
-            Y: 0.349182129
-            Z: 13.9523621
+            X: 2.06347656
+            Y: 0.349609375
+            Z: 43.9277344
           }
           Rotation {
-            Yaw: -179.999985
-            Roll: -179.999985
+            Yaw: -179.999969
+            Roll: -179.999969
           }
           Scale {
             X: 1.21751797
@@ -125,7 +154,7 @@
             Z: 0.149533361
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -179,9 +208,9 @@
         Name: "Cone - Truncated Hollow Wide Thin"
         Transform {
           Location {
-            X: 2.06335449
-            Y: 0.349182129
-            Z: 6.16881561
+            X: 2.06347656
+            Y: 0.349609375
+            Z: 36.1442261
           }
           Rotation {
           }
@@ -191,7 +220,7 @@
             Z: 0.640109897
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -238,7 +267,8 @@
         Transform {
           Location {
             X: -9.39013672
-            Y: 0.272277832
+            Y: 0.272460938
+            Z: 29.9754028
           }
           Rotation {
           }
@@ -248,7 +278,7 @@
             Z: 1.15544701
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"
@@ -291,10 +321,11 @@
         Transform {
           Location {
             X: -9.39013672
-            Y: 0.272277832
+            Y: 0.272460938
+            Z: 29.9754028
           }
           Rotation {
-            Yaw: -162.529526
+            Yaw: -162.52951
           }
           Scale {
             X: 0.422322035
@@ -302,7 +333,7 @@
             Z: 1.15544701
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"
@@ -344,11 +375,12 @@
         Name: "Fern 03"
         Transform {
           Location {
-            X: 6.95129395
-            Y: 0.272277832
+            X: 6.95117188
+            Y: 0.272460938
+            Z: 29.9754028
           }
           Rotation {
-            Yaw: -139.855087
+            Yaw: -139.855103
           }
           Scale {
             X: 0.422322035
@@ -356,7 +388,7 @@
             Z: 1.15544701
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"
@@ -399,8 +431,8 @@
         Transform {
           Location {
             X: 15.487793
-            Y: -6.85998535
-            Z: 89.7368469
+            Y: -6.86035156
+            Z: 119.71228
           }
           Rotation {
             Yaw: 177.543533
@@ -411,7 +443,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"
@@ -454,11 +486,11 @@
         Transform {
           Location {
             X: 3.45922852
-            Y: 4.20147705
-            Z: 89.7368469
+            Y: 4.20117188
+            Z: 119.71228
           }
           Rotation {
-            Yaw: 154.86908
+            Yaw: 154.869095
           }
           Scale {
             X: 0.53445524
@@ -466,7 +498,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"
@@ -509,11 +541,11 @@
         Transform {
           Location {
             X: 3.45922852
-            Y: 4.20147705
-            Z: 89.7368469
+            Y: 4.20117188
+            Z: 119.71228
           }
           Rotation {
-            Yaw: -42.6014
+            Yaw: -42.6014175
           }
           Scale {
             X: 0.53445524
@@ -521,7 +553,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"
@@ -563,12 +595,12 @@
         Name: "Fern 03"
         Transform {
           Location {
-            X: -1.74206543
-            Y: -0.373779297
-            Z: 144.9897
+            X: -1.7421875
+            Y: -0.374023438
+            Z: 174.965088
           }
           Rotation {
-            Yaw: -156.614563
+            Yaw: -156.614578
           }
           Scale {
             X: 0.53445524
@@ -576,7 +608,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:color"
@@ -618,9 +650,9 @@
         Name: "Fern 03"
         Transform {
           Location {
-            X: -1.74206543
-            Y: -0.373779297
-            Z: 144.9897
+            X: -1.7421875
+            Y: -0.374023438
+            Z: 174.965088
           }
           Rotation {
             Yaw: 40.8554726
@@ -631,7 +663,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:color"
@@ -673,12 +705,12 @@
         Name: "Fern 03"
         Transform {
           Location {
-            X: -16.7410889
-            Y: -6.85998535
-            Z: 144.9897
+            X: -16.7412109
+            Y: -6.86035156
+            Z: 174.965088
           }
           Rotation {
-            Yaw: 63.5302162
+            Yaw: 63.5302277
           }
           Scale {
             X: 0.53445524
@@ -686,7 +718,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:color"
@@ -729,11 +761,11 @@
         Transform {
           Location {
             X: 3.45922852
-            Y: 4.20147705
-            Z: 51.022995
+            Y: 4.20117188
+            Z: 80.9984131
           }
           Rotation {
-            Yaw: 71.4149
+            Yaw: 71.4148865
           }
           Scale {
             X: 0.53445524
@@ -741,7 +773,7 @@
             Z: 0.883181095
           }
         }
-        ParentId: 15877809462822465698
+        ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:id"

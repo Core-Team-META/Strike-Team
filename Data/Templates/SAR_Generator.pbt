@@ -25,6 +25,7 @@
         ChildIds: 15989712341090710019
         ChildIds: 12444002976235341090
         ChildIds: 13654234565420900274
+        ChildIds: 12739419914296017418
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -602,6 +603,46 @@
           }
         }
       }
+      Objects {
+        Id: 12739419914296017418
+        Name: "Sci-fi Console Screen 04"
+        Transform {
+          Location {
+            X: 59.8444214
+            Y: -187.123657
+            Z: -45
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15081886060341139586
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12892959837975079301
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 4054058819891290923
@@ -682,6 +723,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_pyramid_7_sided_truncated_hollow_thick_001"
+      }
+    }
+    Assets {
+      Id: 12892959837975079301
+      Name: "Sci-fi Console Screen 04"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_scf_screen_004_ref"
       }
     }
     PrimaryAssetId {

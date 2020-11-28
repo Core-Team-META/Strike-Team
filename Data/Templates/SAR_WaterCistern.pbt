@@ -15,7 +15,34 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 13863716527188611992
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13863716527188611992
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -10
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16317019082853725053
         ChildIds: 7906007497799303929
         ChildIds: 5819174647290576006
         ChildIds: 18439870766054369218
@@ -43,7 +70,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -51,8 +79,8 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -25
-            Y: -5
+            X: -15.0000019
+            Y: -4.99999428
             Z: 15
           }
           Rotation {
@@ -64,7 +92,7 @@
             Z: 0.3
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -97,13 +125,13 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 75
-            Y: 120
+            X: 85.0000458
+            Y: 119.999969
             Z: 190
           }
           Rotation {
-            Yaw: -52.5000763
-            Roll: 89.9999161
+            Yaw: -52.5000839
+            Roll: 89.9999084
           }
           Scale {
             X: 0.3
@@ -111,7 +139,7 @@
             Z: 0.4
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -144,12 +172,12 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -130
-            Y: 70
+            X: -119.999977
+            Y: 70.0000458
             Z: 165
           }
           Rotation {
-            Yaw: 59.9999847
+            Yaw: 59.9999695
             Roll: 89.9999924
           }
           Scale {
@@ -158,7 +186,7 @@
             Z: 0.4
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -191,13 +219,13 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -60
-            Y: -85
+            X: -50.0000305
+            Y: -84.9999847
             Z: 165
           }
           Rotation {
-            Yaw: 149.999985
-            Roll: 89.9999924
+            Yaw: 149.999954
+            Roll: 89.9999695
           }
           Scale {
             X: 0.3
@@ -205,7 +233,7 @@
             Z: 0.4
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -238,12 +266,12 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -25
-            Y: -5
+            X: -15.0000019
+            Y: -4.99999428
             Z: 260
           }
           Rotation {
-            Yaw: 149.999985
+            Yaw: 149.999954
           }
           Scale {
             X: 0.3
@@ -251,7 +279,7 @@
             Z: 0.4
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -284,12 +312,12 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -25
-            Y: -5
+            X: -15.0000019
+            Y: -4.99999428
             Z: 15
           }
           Rotation {
-            Yaw: 149.999969
+            Yaw: 149.999954
           }
           Scale {
             X: 0.6
@@ -297,7 +325,7 @@
             Z: 0.3
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -330,7 +358,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
           }
           Rotation {
           }
@@ -340,7 +369,7 @@
             Z: 2.60000038
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -384,7 +413,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 135
           }
           Rotation {
@@ -395,7 +425,7 @@
             Z: 1.6
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -439,11 +469,14 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 250
           }
           Rotation {
             Pitch: -90
+            Yaw: 13.2626944
+            Roll: -13.2626953
           }
           Scale {
             X: 0.7
@@ -451,7 +484,7 @@
             Z: 1.2
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -495,11 +528,14 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 250
           }
           Rotation {
             Pitch: 90
+            Yaw: 13.2626944
+            Roll: 13.2626991
           }
           Scale {
             X: 0.7
@@ -507,7 +543,7 @@
             Z: 1.2
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -551,7 +587,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 250
           }
           Rotation {
@@ -564,7 +601,7 @@
             Z: 1.2
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -608,7 +645,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 250
           }
           Rotation {
@@ -621,7 +659,7 @@
             Z: 1.2
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -665,7 +703,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 185
           }
           Rotation {
@@ -676,7 +715,7 @@
             Z: 1.2
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -720,13 +759,14 @@
         Name: "Urban Pipe Wall Attachment - 02 (Prop)"
         Transform {
           Location {
+            X: 10.0000381
             Y: 105
             Z: 140
           }
           Rotation {
             Pitch: 90
-            Yaw: 13.2627
-            Roll: -166.737335
+            Yaw: -54.7356186
+            Roll: 125.264343
           }
           Scale {
             X: 1
@@ -734,7 +774,7 @@
             Z: 1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         ChildIds: 7216088791604406382
         ChildIds: 14003461415753746450
         ChildIds: 16602621779685095087
@@ -1102,7 +1142,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 225
           }
           Rotation {
@@ -1113,7 +1154,7 @@
             Z: 0.1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1157,7 +1198,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 205
           }
           Rotation {
@@ -1168,7 +1210,7 @@
             Z: 0.1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1212,7 +1254,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 185
           }
           Rotation {
@@ -1223,7 +1266,7 @@
             Z: 0.1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1267,7 +1310,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 35
           }
           Rotation {
@@ -1278,7 +1322,7 @@
             Z: 0.1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1322,7 +1366,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 75
           }
           Rotation {
@@ -1333,7 +1378,7 @@
             Z: 0.1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1377,7 +1422,8 @@
         Name: "Cylinder - Rounded Small"
         Transform {
           Location {
-            Y: -15
+            X: 9.99999332
+            Y: -15.0000038
             Z: 55
           }
           Rotation {
@@ -1388,7 +1434,7 @@
             Z: 0.1
           }
         }
-        ParentId: 16317019082853725053
+        ParentId: 13863716527188611992
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

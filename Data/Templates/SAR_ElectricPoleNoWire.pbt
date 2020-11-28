@@ -15,11 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 16373807130785117515
-        ChildIds: 13146389211443708006
-        ChildIds: 8535508855576321182
-        ChildIds: 3081780559920032098
-        ChildIds: 12391005058322094153
+        ParentId: 5287395137570563087
+        ChildIds: 1025431900625620257
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -31,18 +28,14 @@
         }
       }
       Objects {
-        Id: 13146389211443708006
-        Name: "WireConnector"
+        Id: 1025431900625620257
+        Name: "MergedModel"
         Transform {
           Location {
-            X: 115.251953
-            Y: 160
-            Z: 1406.11609
+            X: 116.375977
+            Y: 17.6020508
           }
           Rotation {
-            Pitch: -4.46572876
-            Yaw: -0.482025146
-            Roll: 6.52062035
           }
           Scale {
             X: 1
@@ -51,6 +44,42 @@
           }
         }
         ParentId: 3242540698645027493
+        ChildIds: 13146389211443708006
+        ChildIds: 8535508855576321182
+        ChildIds: 3081780559920032098
+        ChildIds: 12391005058322094153
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 13146389211443708006
+        Name: "WireConnector"
+        Transform {
+          Location {
+            X: -1.12396717
+            Y: 142.397919
+            Z: 1406.11597
+          }
+          Rotation {
+            Pitch: -4.46572781
+            Yaw: -0.48202461
+            Roll: 6.52062654
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1025431900625620257
         ChildIds: 2551565588944076770
         ChildIds: 7047008505370746452
         ChildIds: 1269801177194745861
@@ -234,8 +263,8 @@
         Name: "WireConnector"
         Transform {
           Location {
-            X: 115
-            Y: 20.4082031
+            X: -1.37593889
+            Y: 2.80615044
             Z: 1505
           }
           Rotation {
@@ -246,7 +275,7 @@
             Z: 1
           }
         }
-        ParentId: 3242540698645027493
+        ParentId: 1025431900625620257
         ChildIds: 8317300917782525173
         ChildIds: 5548177962323549120
         ChildIds: 4223861931810914540
@@ -430,14 +459,14 @@
         Name: "WireConnector"
         Transform {
           Location {
-            X: 115.251953
-            Y: -130
+            X: -1.12397766
+            Y: -147.602036
             Z: 1406.11609
           }
           Rotation {
             Pitch: 3.13347197
-            Yaw: 0.034529902
-            Roll: -4.53274536
+            Yaw: 0.0345280729
+            Roll: -4.53274822
           }
           Scale {
             X: 1
@@ -445,7 +474,7 @@
             Z: 1
           }
         }
-        ParentId: 3242540698645027493
+        ParentId: 1025431900625620257
         ChildIds: 7468590155136813634
         ChildIds: 5078457079501801618
         ChildIds: 2480251967347699781
@@ -629,8 +658,9 @@
         Name: "Group"
         Transform {
           Location {
-            X: 120
-            Y: 20
+            X: 3.62409496
+            Y: 2.3979497
+            Z: -8.0075115e-06
           }
           Rotation {
           }
@@ -640,7 +670,7 @@
             Z: 1
           }
         }
-        ParentId: 3242540698645027493
+        ParentId: 1025431900625620257
         ChildIds: 13260311840620462628
         ChildIds: 13350463918910774059
         Collidable_v2 {

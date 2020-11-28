@@ -15,7 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 8108090804749457474
         ChildIds: 5097691632550801624
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -25,6 +26,61 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 8108090804749457474
+        Name: "Container - Rectangle Thin 01"
+        Transform {
+          Location {
+            X: -0.32379657
+            Y: -0.273890257
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.698300779
+            Y: 0.589394569
+            Z: 0.61187017
+          }
+        }
+        ParentId: 5174660683043004675
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12728146833340731999
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.176999986
+              B: 0.176999986
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3164251070761236489
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
         }
       }
       Objects {
@@ -44,7 +100,6 @@
           }
         }
         ParentId: 5174660683043004675
-        ChildIds: 8108090804749457474
         ChildIds: 18009577860967134746
         ChildIds: 18432167320432983714
         ChildIds: 976260505690867141
@@ -82,61 +137,6 @@
         }
         Folder {
           Model {
-          }
-        }
-      }
-      Objects {
-        Id: 8108090804749457474
-        Name: "Container - Rectangle Thin 01"
-        Transform {
-          Location {
-            X: -0.32421875
-            Y: -0.2734375
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.698300779
-            Y: 0.589394569
-            Z: 0.61187017
-          }
-        }
-        ParentId: 5097691632550801624
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12728146833340731999
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 0.176999986
-              B: 0.176999986
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3164251070761236489
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
           }
         }
       }

@@ -7,7 +7,7 @@
       RootId: 17853856335133973883
       Objects {
         Id: 17853856335133973883
-        Name: "SAR_BarrelRusty"
+        Name: "SAR_Barrel"
         Transform {
           Scale {
             X: 1
@@ -16,6 +16,34 @@
           }
         }
         ParentId: 16373807130785117515
+        ChildIds: 9523916693631230280
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9523916693631230280
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -5
+            Y: -5
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17853856335133973883
         ChildIds: 10433026613302115667
         ChildIds: 6326975459169512982
         ChildIds: 8828489172132149720
@@ -40,7 +68,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -48,9 +77,9 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -6.07100677
-            Y: -0.307373047
-            Z: 71.9058762
+            X: -1.07094824
+            Y: 4.69265
+            Z: 71.9058685
           }
           Rotation {
           }
@@ -60,7 +89,7 @@
             Z: 1.41607666
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -108,12 +137,13 @@
         Name: "Urban Pipe Flange 01"
         Transform {
           Location {
-            X: 19.0476074
-            Y: -20.7763672
-            Z: 147.38562
+            X: 24.0475445
+            Y: -15.7763214
+            Z: 147.38559
           }
           Rotation {
-            Roll: -179.999985
+            Yaw: 1.62844369e-12
+            Roll: -179.999969
           }
           Scale {
             X: 0.4
@@ -121,7 +151,7 @@
             Z: 0.4
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -156,13 +186,14 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -1.29394531
-            Y: 31.9179688
-            Z: 39.3543625
+            X: 3.70603895
+            Y: 36.9179878
+            Z: 39.3543816
           }
           Rotation {
-            Yaw: -45.2246399
-            Roll: -90
+            Pitch: -6.83018879e-06
+            Yaw: -45.2246361
+            Roll: -89.9999771
           }
           Scale {
             X: 0.08100795
@@ -170,7 +201,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -203,13 +234,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: 27.4116211
-            Y: 25.6474609
-            Z: 103.526817
+            X: 32.4115715
+            Y: 30.6475067
+            Z: 103.526741
           }
           Rotation {
-            Yaw: -38.0362854
-            Roll: 90
+            Yaw: -38.0362473
+            Roll: 89.9999771
           }
           Scale {
             X: 0.08100795
@@ -217,7 +248,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -239,13 +270,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: 31.9594727
-            Y: -13.5527344
-            Z: 103.526817
+            X: 36.9594231
+            Y: -8.5526886
+            Z: 103.526726
           }
           Rotation {
-            Yaw: -99.4404297
-            Roll: 89.9999924
+            Yaw: -99.4404221
+            Roll: 89.9999619
           }
           Scale {
             X: 0.08100795
@@ -253,7 +284,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -275,13 +306,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -10.8393555
-            Y: -46.887207
-            Z: 103.526817
+            X: -5.83939123
+            Y: -41.887146
+            Z: 103.52681
           }
           Rotation {
             Yaw: 174.509842
-            Roll: 89.9999847
+            Roll: 89.9999466
           }
           Scale {
             X: 0.08100795
@@ -289,7 +320,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -311,13 +342,14 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -44.5996094
-            Y: -14.503418
-            Z: 103.526825
+            X: -39.5996284
+            Y: -9.50336456
+            Z: 103.52681
           }
           Rotation {
-            Yaw: 134.775558
-            Roll: 89.9999924
+            Pitch: 6.83018879e-06
+            Yaw: 134.775528
+            Roll: 89.9999542
           }
           Scale {
             X: 0.08100795
@@ -325,7 +357,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -347,9 +379,9 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -8.81591797
-            Y: 4.27392578
-            Z: 145.080872
+            X: -3.81596851
+            Y: 9.27398682
+            Z: 145.080795
           }
           Rotation {
           }
@@ -359,7 +391,7 @@
             Z: 0.120112799
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -392,13 +424,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -58.2475586
-            Y: 18.6674805
-            Z: 40.0002747
+            X: -53.2475471
+            Y: 23.6674671
+            Z: 40.0002289
           }
           Rotation {
-            Yaw: -127.948769
-            Roll: -89.9999924
+            Yaw: -127.948723
+            Roll: -89.9999542
           }
           Scale {
             X: 0.08100795
@@ -406,7 +438,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -439,13 +471,14 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -42.0073242
-            Y: -39.7763672
-            Z: 40.0004578
+            X: -37.0073242
+            Y: -34.7763367
+            Z: 40.0004425
           }
           Rotation {
-            Yaw: -52.412674
-            Roll: -89.9999924
+            Pitch: -6.83018879e-06
+            Yaw: -52.4126701
+            Roll: -89.9999619
           }
           Scale {
             X: 0.08100795
@@ -453,7 +486,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -486,13 +519,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -2.84472656
-            Y: -44.6313477
-            Z: 39.999939
+            X: 2.15525818
+            Y: -39.6313171
+            Z: 39.9999695
           }
           Rotation {
-            Yaw: 8.99154282
-            Roll: -89.9999924
+            Yaw: 8.99154854
+            Roll: -89.9999542
           }
           Scale {
             X: 0.08100795
@@ -500,7 +533,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -533,13 +566,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: 30.8242188
-            Y: -2.09521484
-            Z: 40.0002136
+            X: 35.8241959
+            Y: 2.90480804
+            Z: 40.0002556
           }
           Rotation {
-            Yaw: 95.0413284
-            Roll: -89.9999924
+            Yaw: 95.0413132
+            Roll: -89.9999695
           }
           Scale {
             X: 0.08100795
@@ -547,7 +580,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -580,13 +613,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -30.902832
-            Y: 42.3442383
-            Z: 101.699738
+            X: -25.9028568
+            Y: 47.3442764
+            Z: 101.699707
           }
           Rotation {
-            Yaw: 37.5000687
-            Roll: 90.0000076
+            Yaw: 37.5000343
+            Roll: 89.9999847
           }
           Scale {
             X: 0.08100795
@@ -594,7 +627,7 @@
             Z: 0.0810079724
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -616,8 +649,8 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -6.07100677
-            Y: -0.307373047
+            X: -1.07097363
+            Y: 4.69267273
             Z: 143.492157
           }
           Rotation {
@@ -628,7 +661,7 @@
             Z: 0.0317733213
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -676,9 +709,9 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -6.07100677
-            Y: -0.307373047
-            Z: 96.7438
+            X: -1.07095695
+            Y: 4.69268036
+            Z: 96.7437515
           }
           Rotation {
           }
@@ -688,7 +721,7 @@
             Z: 0.0317733213
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -736,9 +769,9 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -6.07100677
-            Y: -0.307373047
-            Z: 49.5101852
+            X: -1.07106221
+            Y: 4.69265
+            Z: 49.5101242
           }
           Rotation {
           }
@@ -748,7 +781,7 @@
             Z: 0.0317733213
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -796,8 +829,9 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -6.07100677
-            Y: -0.307373047
+            X: -1.07104456
+            Y: 4.692626
+            Z: 2.38418579e-06
           }
           Rotation {
           }
@@ -807,7 +841,7 @@
             Z: 0.0317733213
           }
         }
-        ParentId: 17853856335133973883
+        ParentId: 9523916693631230280
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

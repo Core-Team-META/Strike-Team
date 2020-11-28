@@ -15,7 +15,36 @@
             Z: 0.042055022
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 1390898227957420877
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1390898227957420877
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -316.187408
+            Y: -213.051987
+            Z: -3031.13135
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2617982291725790261
         ChildIds: 11228950437476447189
         ChildIds: 8689326696154879764
         ChildIds: 7928982620211791612
@@ -32,7 +61,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -40,9 +70,9 @@
         Name: "Group"
         Transform {
           Location {
-            X: -480.295868
-            Y: -464.371979
-            Z: 0.408908486
+            X: -164.103271
+            Y: -251.321594
+            Z: 3031.54077
           }
           Rotation {
           }
@@ -52,7 +82,7 @@
             Z: 0.611958206
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         ChildIds: 17832139490875039757
         ChildIds: 5884208979677289007
         ChildIds: 7532124198886904820
@@ -257,22 +287,22 @@
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: -1806.07642
-            Y: -15.6713181
-            Z: -1578.00586
+            X: -1489.88684
+            Y: 197.379059
+            Z: 1453.12646
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: 90
-            Roll: 89.9999466
+            Yaw: 89.9999924
+            Roll: 89.999939
           }
           Scale {
-            X: 12.5
-            Y: 9.90000057
-            Z: 12.3
+            X: 12.499999
+            Y: 9.9
+            Z: 12.2999992
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -311,22 +341,22 @@
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: -562.765381
-            Y: -15.6712732
-            Z: -1578.00659
+            X: -246.572891
+            Y: 197.379059
+            Z: 1453.125
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: 90
-            Roll: 89.9999466
+            Yaw: 89.9999924
+            Roll: 89.999939
           }
           Scale {
-            X: 12.5
-            Y: 9.90000057
-            Z: 12.3
+            X: 12.499999
+            Y: 9.9
+            Z: 12.2999992
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -365,22 +395,21 @@
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: -1171.90039
-            Y: -15.6712275
-            Z: -1578.00586
+            X: -855.707886
+            Y: 197.379059
+            Z: 1453.12646
           }
           Rotation {
-            Pitch: 6.83018879e-06
             Yaw: 90
-            Roll: 89.9999237
+            Roll: 89.9999084
           }
           Scale {
-            X: 12.5
-            Y: 9.90000057
-            Z: 12.3
+            X: 12.499999
+            Y: 9.9
+            Z: 12.2999992
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -419,22 +448,22 @@
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: 632.234131
-            Y: -15.6713638
-            Z: -1578.00586
+            X: 948.423828
+            Y: 197.379059
+            Z: 1453.12646
           }
           Rotation {
             Pitch: 6.83018879e-06
             Yaw: 90
-            Roll: 89.9999
+            Roll: 89.9998856
           }
           Scale {
-            X: 12.5
-            Y: 9.90000057
-            Z: 12.3
+            X: 12.499999
+            Y: 9.9
+            Z: 12.2999992
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -473,22 +502,21 @@
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: 1241.36914
-            Y: -15.6714087
-            Z: -1578.00659
+            X: 1557.55884
+            Y: 197.379059
+            Z: 1453.125
           }
           Rotation {
-            Pitch: 6.83018879e-06
             Yaw: 90
-            Roll: 89.9999237
+            Roll: 89.9999084
           }
           Scale {
-            X: 12.5
-            Y: 9.90000057
-            Z: 12.3
+            X: 12.499999
+            Y: 9.9
+            Z: 12.2999992
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -527,22 +555,21 @@
         Name: "Scifi Panel 1x4m"
         Transform {
           Location {
-            X: -1.94186187
-            Y: -15.6713171
-            Z: -1578.00586
+            X: 314.244873
+            Y: 197.379059
+            Z: 1453.12646
           }
           Rotation {
-            Pitch: 6.83018879e-06
             Yaw: 90
-            Roll: 89.9999237
+            Roll: 89.9999084
           }
           Scale {
-            X: 12.5
-            Y: 9.90000057
-            Z: 12.3
+            X: 12.499999
+            Y: 9.9
+            Z: 12.2999992
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -581,12 +608,11 @@
         Name: "Group"
         Transform {
           Location {
-            X: -480.295868
-            Y: -464.371979
-            Z: -3031.13135
+            X: -164.103271
+            Y: -251.321594
           }
           Rotation {
-            Yaw: 1.02452814e-05
+            Yaw: 1.02452805e-05
           }
           Scale {
             X: 0.611958265
@@ -594,7 +620,7 @@
             Z: 0.611958265
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         ChildIds: 2007779080835938445
         ChildIds: 14402689037128965257
         ChildIds: 5663553542211667019
@@ -923,20 +949,20 @@
         Name: "End Caps"
         Transform {
           Location {
-            X: -216.013992
-            Y: -894.696045
-            Z: -3025.22
+            X: 100.175682
+            Y: -681.631165
+            Z: 5.91121244
           }
           Rotation {
-            Yaw: 89.9999924
+            Yaw: 89.9999847
           }
           Scale {
-            X: 23.7783737
-            Y: 23.7783737
-            Z: 23.7783737
+            X: 23.7783718
+            Y: 23.7783718
+            Z: 23.7783718
           }
         }
-        ParentId: 2617982291725790261
+        ParentId: 1390898227957420877
         ChildIds: 1228432261413941034
         ChildIds: 4572036655306526481
         ChildIds: 7766501448901977240

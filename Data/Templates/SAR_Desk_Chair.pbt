@@ -15,7 +15,36 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 3774644121213432972
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3774644121213432972
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 1.94147146
+            Y: -77.6563873
+            Z: -552.661865
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12803495430091857615
         ChildIds: 11144681527679646918
         ChildIds: 11367141175539903391
         ChildIds: 15568894204239402765
@@ -38,7 +67,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -46,14 +76,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: 20.5292969
-            Y: -276.987305
-            Z: -58.7360229
+            X: 18.5877075
+            Y: -199.331055
+            Z: 493.926208
           }
           Rotation {
-            Pitch: -78.8788528
-            Yaw: 89.9999084
-            Roll: 0.00123052613
+            Pitch: -78.8788834
+            Yaw: 89.9999313
+            Roll: 0.00125708501
           }
           Scale {
             X: 1.79369366
@@ -61,7 +91,7 @@
             Z: 2.73147
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -148,14 +178,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: 34.6650391
-            Y: -258.599609
-            Z: -57.1295166
+            X: 32.7235107
+            Y: -180.943176
+            Z: 495.532684
           }
           Rotation {
-            Pitch: -78.8789902
-            Yaw: 89.9999619
-            Roll: 0.00131907198
+            Pitch: -78.8790436
+            Yaw: 90
+            Roll: 0.00133677688
           }
           Scale {
             X: 1.67437875
@@ -163,7 +193,7 @@
             Z: 2.54978013
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -250,14 +280,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: -11.5844727
-            Y: -258.599609
-            Z: -57.1295166
+            X: -13.526062
+            Y: -180.943176
+            Z: 495.532562
           }
           Rotation {
-            Pitch: -78.8789902
-            Yaw: 89.9999619
-            Roll: 0.00131907198
+            Pitch: -78.8790436
+            Yaw: 90
+            Roll: 0.00133677688
           }
           Scale {
             X: 1.67437875
@@ -265,7 +295,7 @@
             Z: 2.54978013
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -352,14 +382,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: -20.5297852
-            Y: 7.015625
-            Z: -552.661865
+            X: -22.4713287
+            Y: 84.6720886
+            Z: -0.000221252441
           }
           Rotation {
             Pitch: -0.343544841
-            Yaw: -89.9999619
-            Roll: 0.00112525385
+            Yaw: -89.9999847
+            Roll: 0.00112504035
           }
           Scale {
             X: 1.74999905
@@ -367,7 +397,7 @@
             Z: 5.2499876
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -462,14 +492,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: -34.6650391
-            Y: 4.93554688
-            Z: -519.934448
+            X: -36.606514
+            Y: 82.5919495
+            Z: 32.7273865
           }
           Rotation {
             Pitch: -0.343763411
-            Yaw: -89.9999619
-            Roll: 0.0013450511
+            Yaw: -89.9999847
+            Roll: 0.00134693214
           }
           Scale {
             X: 1.6335907
@@ -477,7 +507,7 @@
             Z: 4.90077305
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -572,14 +602,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: 11.5839844
-            Y: 4.93554688
-            Z: -519.934448
+            X: 9.64252472
+            Y: 82.5920258
+            Z: 32.7275238
           }
           Rotation {
             Pitch: -0.343763411
-            Yaw: -89.9999619
-            Roll: 0.0013450511
+            Yaw: -89.9999847
+            Roll: 0.00134693214
           }
           Scale {
             X: 1.6335907
@@ -587,7 +617,7 @@
             Z: 4.90077305
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -682,14 +712,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: -34.1586914
-            Y: -258.599609
-            Z: -29.6853638
+            X: -36.1002197
+            Y: -180.943207
+            Z: 522.976868
           }
           Rotation {
-            Pitch: -78.8789673
-            Yaw: 89.9999771
-            Roll: 0.00129251264
+            Pitch: -78.8790207
+            Yaw: 90.0000305
+            Roll: 0.00129250938
           }
           Scale {
             X: 1.67438138
@@ -697,7 +727,7 @@
             Z: 2.54979444
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -784,14 +814,14 @@
         Name: "Text 05: \'"
         Transform {
           Location {
-            X: 50.3710938
-            Y: -258.599609
-            Z: -29.6853638
+            X: 48.4296265
+            Y: -180.943207
+            Z: 522.976746
           }
           Rotation {
-            Pitch: -78.8789673
-            Yaw: 89.9999771
-            Roll: 0.00129250786
+            Pitch: -78.8790207
+            Yaw: 90.0000305
+            Roll: 0.00129250938
           }
           Scale {
             X: 1.67438138
@@ -799,7 +829,7 @@
             Z: 2.54979444
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Faces:id"
@@ -886,12 +916,14 @@
         Name: "Text 06: ("
         Transform {
           Location {
-            X: 26.4375
-            Y: 21.5947266
-            Z: -31.0593262
+            X: 24.4959106
+            Y: 99.2512207
+            Z: 521.602478
           }
           Rotation {
             Pitch: 90
+            Yaw: 165.741959
+            Roll: 165.741959
           }
           Scale {
             X: 0.497918725
@@ -899,7 +931,7 @@
             Z: 0.426992416
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -957,12 +989,14 @@
         Name: "Text 06: ("
         Transform {
           Location {
-            X: 40.7114258
-            Y: 29.0615234
-            Z: -0.917114258
+            X: 38.7698669
+            Y: 106.717957
+            Z: 551.745
           }
           Rotation {
             Pitch: 90
+            Yaw: 165.741959
+            Roll: 165.741959
           }
           Scale {
             X: 0.232674941
@@ -970,7 +1004,7 @@
             Z: 0.0650423467
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1008,12 +1042,14 @@
         Name: "Text 06: ("
         Transform {
           Location {
-            X: -44.6196289
-            Y: 29.0615234
-            Z: -0.917114258
+            X: -46.5612259
+            Y: 106.717957
+            Z: 551.744629
           }
           Rotation {
             Pitch: 90
+            Yaw: 165.741959
+            Roll: 165.741959
           }
           Scale {
             X: 0.232674941
@@ -1021,7 +1057,7 @@
             Z: 0.0650423467
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1059,14 +1095,14 @@
         Name: "Text 06: ("
         Transform {
           Location {
-            X: -4.65576172
-            Y: -25.046875
-            Z: 55.6446533
+            X: -6.59735107
+            Y: 52.6095581
+            Z: 608.306519
           }
           Rotation {
             Pitch: 11.3823462
             Yaw: 89.9999847
-            Roll: -179.999985
+            Roll: -179.999969
           }
           Scale {
             X: 0.162742868
@@ -1074,7 +1110,7 @@
             Z: 0.426992327
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -1132,11 +1168,12 @@
         Name: "Cone - Truncated Concave"
         Transform {
           Location {
-            X: -1.65429688
-            Y: 24.9941406
-            Z: -65.2302856
+            X: -3.59585571
+            Y: 102.650635
+            Z: 487.431885
           }
           Rotation {
+            Yaw: 1.70754743e-06
           }
           Scale {
             X: 0.594652712
@@ -1144,7 +1181,7 @@
             Z: 0.226246789
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1178,11 +1215,12 @@
         Name: "Cone - Truncated Concave"
         Transform {
           Location {
-            X: -1.65429688
-            Y: 24.9941406
-            Z: -37.6123657
+            X: -3.5958786
+            Y: 102.650604
+            Z: 515.049438
           }
           Rotation {
+            Yaw: 1.70754743e-06
           }
           Scale {
             X: 0.112559497
@@ -1190,7 +1228,7 @@
             Z: 0.28602463
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1228,11 +1266,12 @@
         Name: "Cone - Truncated Concave"
         Transform {
           Location {
-            X: -1.65429688
-            Y: 24.9941406
-            Z: -67.0054932
+            X: -3.59588623
+            Y: 102.650513
+            Z: 485.656311
           }
           Rotation {
+            Yaw: 1.70754743e-06
           }
           Scale {
             X: 0.594652712
@@ -1240,7 +1279,7 @@
             Z: 0.0413713
           }
         }
-        ParentId: 12803495430091857615
+        ParentId: 3774644121213432972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

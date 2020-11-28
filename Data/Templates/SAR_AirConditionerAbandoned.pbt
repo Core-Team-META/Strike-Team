@@ -15,15 +15,9 @@
             Z: 1.2
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 2340963389216861269
-        ChildIds: 1064057903181718111
-        ChildIds: 1039058462932510831
-        ChildIds: 11813872897644993635
-        ChildIds: 10721463296210132992
+        ParentId: 16373807130785117515
         ChildIds: 15347832514430753182
-        ChildIds: 3021453377684767766
-        ChildIds: 11578087726760870833
+        ChildIds: 4443488875018866522
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -35,261 +29,21 @@
         }
       }
       Objects {
-        Id: 2340963389216861269
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 9.44696
-            Y: -3.16210938
-            Z: 48.8818665
-          }
-          Rotation {
-            Roll: -89.9999847
-          }
-          Scale {
-            X: 0.728653371
-            Y: 0.728653312
-            Z: 0.215341926
-          }
-        }
-        ParentId: 1511647198609329516
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 13412464127967364327
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 16371622500121573784
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1064057903181718111
-        Name: "Pipe (thin)"
-        Transform {
-          Location {
-            X: 9.44696
-            Y: -8.16210938
-            Z: 48.8818665
-          }
-          Rotation {
-            Roll: -89.9999924
-          }
-          Scale {
-            X: 0.8
-            Y: 0.8
-            Z: 0.1
-          }
-        }
-        ParentId: 1511647198609329516
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16280113279026806375
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6388401066989036925
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1039058462932510831
-        Name: "Pipe (thin)"
-        Transform {
-          Location {
-            X: 9.44696
-            Y: -8.16210938
-            Z: 48.8818665
-          }
-          Rotation {
-            Roll: -89.9999924
-          }
-          Scale {
-            X: 0.6
-            Y: 0.599999964
-            Z: 0.1
-          }
-        }
-        ParentId: 1511647198609329516
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16280113279026806375
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6388401066989036925
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11813872897644993635
-        Name: "Pipe (thin)"
-        Transform {
-          Location {
-            X: 9.44696
-            Y: -8.16210938
-            Z: 48.8818665
-          }
-          Rotation {
-            Roll: -89.9999924
-          }
-          Scale {
-            X: 0.4
-            Y: 0.4
-            Z: 0.1
-          }
-        }
-        ParentId: 1511647198609329516
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16280113279026806375
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6388401066989036925
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10721463296210132992
-        Name: "Pipe (thin)"
-        Transform {
-          Location {
-            X: 9.44696
-            Y: -8.16210938
-            Z: 48.8818665
-          }
-          Rotation {
-            Roll: -89.9999924
-          }
-          Scale {
-            X: 0.213639989
-            Y: 0.213639975
-            Z: 0.22098273
-          }
-        }
-        ParentId: 1511647198609329516
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16280113279026806375
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4794041361382728409
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 15347832514430753182
         Name: "Cylinder"
         Transform {
           Location {
-            X: 9.44696
-            Y: -10.6220703
-            Z: 48.8818665
+            X: 9.44702148
+            Y: -10.6220684
+            Z: 48.8818398
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999771
           }
           Scale {
             X: 0.792176664
             Y: 0.792176664
-            Z: 0.113168128
+            Z: 0.113168135
           }
         }
         ParentId: 1511647198609329516
@@ -327,13 +81,289 @@
         }
       }
       Objects {
+        Id: 4443488875018866522
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 5
+            Y: -5
+            Z: 50
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1511647198609329516
+        ChildIds: 2340963389216861269
+        ChildIds: 1064057903181718111
+        ChildIds: 1039058462932510831
+        ChildIds: 11813872897644993635
+        ChildIds: 10721463296210132992
+        ChildIds: 3021453377684767766
+        ChildIds: 11578087726760870833
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 2340963389216861269
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: 4.44702148
+            Y: 1.8378824
+            Z: -1.11816478
+          }
+          Rotation {
+            Roll: -89.9999771
+          }
+          Scale {
+            X: 0.728653431
+            Y: 0.728653312
+            Z: 0.215341941
+          }
+        }
+        ParentId: 4443488875018866522
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13412464127967364327
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16371622500121573784
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1064057903181718111
+        Name: "Pipe (thin)"
+        Transform {
+          Location {
+            X: 4.44702148
+            Y: -3.16211724
+            Z: -1.11816287
+          }
+          Rotation {
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 0.8
+            Y: 0.8
+            Z: 0.1
+          }
+        }
+        ParentId: 4443488875018866522
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16280113279026806375
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6388401066989036925
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1039058462932510831
+        Name: "Pipe (thin)"
+        Transform {
+          Location {
+            X: 4.44702148
+            Y: -3.16211724
+            Z: -1.11816287
+          }
+          Rotation {
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 0.6
+            Y: 0.599999964
+            Z: 0.1
+          }
+        }
+        ParentId: 4443488875018866522
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16280113279026806375
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6388401066989036925
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11813872897644993635
+        Name: "Pipe (thin)"
+        Transform {
+          Location {
+            X: 4.44702148
+            Y: -3.16211724
+            Z: -1.11816287
+          }
+          Rotation {
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 0.4
+            Y: 0.4
+            Z: 0.1
+          }
+        }
+        ParentId: 4443488875018866522
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16280113279026806375
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6388401066989036925
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10721463296210132992
+        Name: "Pipe (thin)"
+        Transform {
+          Location {
+            X: 4.44702148
+            Y: -3.16211724
+            Z: -1.11816287
+          }
+          Rotation {
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 0.21364
+            Y: 0.213639975
+            Z: 0.22098273
+          }
+        }
+        ParentId: 4443488875018866522
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16280113279026806375
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4794041361382728409
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 3021453377684767766
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -15.5529785
-            Y: 6.16455078
-            Z: 48.3562317
+            X: -20.5529785
+            Y: 11.1645374
+            Z: -1.64388418
           }
           Rotation {
           }
@@ -343,7 +373,7 @@
             Z: 0.900000036
           }
         }
-        ParentId: 1511647198609329516
+        ParentId: 4443488875018866522
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -387,19 +417,19 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -15.5529785
-            Y: 5.58349609
-            Z: 94.7833862
+            X: -20.5529785
+            Y: 10.5835018
+            Z: 44.7835197
           }
           Rotation {
           }
           Scale {
             X: 1.6
             Y: 0.404014796
-            Z: 0.0599622242
+            Z: 0.0599622279
           }
         }
-        ParentId: 1511647198609329516
+        ParentId: 4443488875018866522
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -449,6 +479,15 @@
       }
     }
     Assets {
+      Id: 4679924433031865767
+      Name: "Metal Frame 03"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_frames_003_uv"
+      }
+    }
+    Assets {
       Id: 6388401066989036925
       Name: "Pipe (thin)"
       PlatformAssetType: 1
@@ -464,15 +503,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_hq_002"
-      }
-    }
-    Assets {
-      Id: 4679924433031865767
-      Name: "Metal Frame 03"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_frames_003_uv"
       }
     }
     Assets {

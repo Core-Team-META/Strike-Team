@@ -16,8 +16,96 @@
           }
         }
         ParentId: 16373807130785117515
-        ChildIds: 4541106029410501416
         ChildIds: 4018067258271676038
+        ChildIds: 17129984262005486440
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 4018067258271676038
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15031833508756360257
+        ChildIds: 2981354650850475898
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 2981354650850475898
+        Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
+        Transform {
+          Location {
+            X: -14.9999981
+            Z: 169.999939
+          }
+          Rotation {
+            Yaw: 89.9999924
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4018067258271676038
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 7757061955395221575
+          }
+          AutoPlay: true
+          Volume: 1
+          Falloff: 1500
+          Radius: 300
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 17129984262005486440
+        Name: "MergedModel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15031833508756360257
+        ChildIds: 4541106029410501416
         ChildIds: 929161617184360267
         ChildIds: 10632159645422395300
         ChildIds: 13661601179111032889
@@ -34,7 +122,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -42,9 +131,9 @@
         Name: "Decals"
         Transform {
           Location {
-            X: 15.0000038
-            Y: 46.2905083
-            Z: 211.058777
+            X: 14.9996834
+            Y: 46.2905273
+            Z: 211.058792
           }
           Rotation {
           }
@@ -54,7 +143,7 @@
             Z: 1.2
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         ChildIds: 11645337305083630870
         ChildIds: 11403247880817824232
         ChildIds: 6500071689857780233
@@ -363,76 +452,12 @@
         }
       }
       Objects {
-        Id: 4018067258271676038
-        Name: "ClientContext"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15031833508756360257
-        ChildIds: 2981354650850475898
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 2981354650850475898
-        Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
-        Transform {
-          Location {
-            X: 38.1865158
-            Y: -9.91821289e-05
-            Z: 181.497238
-          }
-          Rotation {
-            Yaw: 89.9999771
-            Roll: 9.75818963e-08
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4018067258271676038
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 7757061955395221575
-          }
-          AutoPlay: true
-          Volume: 0.935940444
-          Falloff: 1500
-          Radius: 100
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-      }
-      Objects {
         Id: 929161617184360267
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -30.8024902
-            Y: 2.20214844
+            X: -30.8026581
+            Y: 2.20205879
             Z: 155.504578
           }
           Rotation {
@@ -443,7 +468,7 @@
             Z: 2.45528173
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -486,9 +511,9 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -30.8024902
-            Y: 2.20214844
-            Z: 274.64093
+            X: -30.8020859
+            Y: 2.20195961
+            Z: 274.6409
           }
           Rotation {
           }
@@ -498,7 +523,7 @@
             Z: 0.11177054
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -541,9 +566,9 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: 12.1000977
+            X: 12.1004791
             Y: 47.6298828
-            Z: 154.041321
+            Z: 154.04129
           }
           Rotation {
           }
@@ -553,7 +578,7 @@
             Z: 2.19347024
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -608,9 +633,9 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: 12.1000977
-            Y: -43.9941406
-            Z: 154.041321
+            X: 12.0999603
+            Y: -43.9940643
+            Z: 154.041306
           }
           Rotation {
           }
@@ -620,7 +645,7 @@
             Z: 2.19347024
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -675,13 +700,13 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: 13.0661621
-            Y: 6.57421875
+            X: 13.0660343
+            Y: 6.5742836
             Z: 226.507263
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: 89.9999695
+            Yaw: -89.9999771
+            Roll: 89.9999542
           }
           Scale {
             X: 0.20054163
@@ -689,7 +714,7 @@
             Z: 0.0247846488
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -711,13 +736,13 @@
         Name: "Decal Stains Bottom 01"
         Transform {
           Location {
-            X: 13.4050293
-            Y: -0.797851563
-            Z: 120.52124
+            X: 13.4045315
+            Y: -0.797870636
+            Z: 120.521263
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: 89.9999695
+            Yaw: -89.9999771
+            Roll: 89.9999542
           }
           Scale {
             X: 0.198321447
@@ -725,7 +750,7 @@
             Z: 0.040337652
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -747,13 +772,13 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 13.4052734
-            Y: -44.7714844
-            Z: 222.271179
+            X: 13.4048233
+            Y: -44.7713661
+            Z: 222.271164
           }
           Rotation {
-            Yaw: -90
-            Roll: 89.9999695
+            Yaw: -89.9999771
+            Roll: 89.9999466
           }
           Scale {
             X: 0.341951042
@@ -761,7 +786,7 @@
             Z: 0.0151346736
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -811,8 +836,8 @@
         Name: "World Text"
         Transform {
           Location {
-            X: 13.6572943
-            Y: -19.9402905
+            X: 13.6574268
+            Y: -19.9403477
             Z: 208.624557
           }
           Rotation {
@@ -823,7 +848,7 @@
             Z: 0.614082515
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -853,8 +878,9 @@
         Name: "Foundation 01 Corner Mainstreet"
         Transform {
           Location {
-            X: -29.5349121
-            Y: 2.85644531
+            X: -29.5348969
+            Y: 2.85648727
+            Z: 1.1920929e-06
           }
           Rotation {
           }
@@ -864,7 +890,7 @@
             Z: 0.230245486
           }
         }
-        ParentId: 15031833508756360257
+        ParentId: 17129984262005486440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -904,21 +930,21 @@
       }
     }
     Assets {
-      Id: 12704764869057814971
-      Name: "2D Basic Shapes Decal"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "dcl_basicShapes"
-      }
-    }
-    Assets {
       Id: 7757061955395221575
       Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_scifi_electric_laser_tractor_beam_loop_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 12704764869057814971
+      Name: "2D Basic Shapes Decal"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "dcl_basicShapes"
       }
     }
     Assets {

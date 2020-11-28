@@ -16,6 +16,34 @@
           }
         }
         ParentId: 16373807130785117515
+        ChildIds: 4203829837030642256
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 4203829837030642256
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -6.99318552
+            Y: 3.0380826
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8673932528201026438
         ChildIds: 8993371693239938807
         ChildIds: 16360426706150133832
         ChildIds: 12646734085278826933
@@ -32,7 +60,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -40,8 +69,8 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -28.1263428
-            Y: -7.66949463
+            X: -21.1329098
+            Y: -10.707674
             Z: 3.46668
           }
           Rotation {
@@ -52,7 +81,7 @@
             Z: 1.2920146
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -99,8 +128,8 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -28.1263428
-            Y: -7.66949463
+            X: -21.1329098
+            Y: -10.707674
             Z: 125.009453
           }
           Rotation {
@@ -111,7 +140,7 @@
             Z: 0.0929272
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -158,8 +187,8 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -28.1263428
-            Y: -7.66949463
+            X: -21.1329098
+            Y: -10.707674
             Z: 119.890518
           }
           Rotation {
@@ -170,7 +199,7 @@
             Z: 0.0590058677
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -217,8 +246,8 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -28.1263428
-            Y: -7.66949463
+            X: -21.1329098
+            Y: -10.707674
           }
           Rotation {
           }
@@ -228,7 +257,7 @@
             Z: 0.141564906
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -275,12 +304,12 @@
         Name: "Arch"
         Transform {
           Location {
-            X: 35.9125977
-            Y: -8.01251221
+            X: 42.9059563
+            Y: -11.0508327
             Z: 124.445831
           }
           Rotation {
-            Yaw: -89.9999771
+            Yaw: -89.9999619
           }
           Scale {
             X: 0.31264773
@@ -288,7 +317,7 @@
             Z: 0.0494805835
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -343,8 +372,8 @@
         Name: "Arch"
         Transform {
           Location {
-            X: 28.7784424
-            Y: -24.227356
+            X: 35.7716675
+            Y: -27.2657185
             Z: 124.445831
           }
           Rotation {
@@ -356,7 +385,7 @@
             Z: 0.0494805686
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -407,14 +436,14 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 32.9507332
-            Y: 19.985014
+            X: 39.9438553
+            Y: 16.9467144
             Z: 84.0285
           }
           Rotation {
-            Pitch: -3.05175781e-05
-            Yaw: -89.999939
-            Roll: 89.9999466
+            Pitch: -2.73207552e-05
+            Yaw: -89.9999466
+            Roll: 89.9999542
           }
           Scale {
             X: 0.2310054
@@ -422,7 +451,7 @@
             Z: 0.0621572211
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -455,11 +484,12 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -12.0145264
-            Y: 16.4238892
+            X: -5.02124
+            Y: 13.3857422
             Z: 134.30217
           }
           Rotation {
+            Yaw: 1.4482473e-06
           }
           Scale {
             X: 0.147380486
@@ -467,7 +497,7 @@
             Z: -0.0429094061
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -489,12 +519,12 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -36.0605469
-            Y: 53.8516846
+            X: -29.067627
+            Y: 50.8134766
             Z: 134.30217
           }
           Rotation {
-            Yaw: -28.8096466
+            Yaw: -28.8096371
           }
           Scale {
             X: 0.147380486
@@ -502,7 +532,7 @@
             Z: -0.0429094061
           }
         }
-        ParentId: 8673932528201026438
+        ParentId: 4203829837030642256
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

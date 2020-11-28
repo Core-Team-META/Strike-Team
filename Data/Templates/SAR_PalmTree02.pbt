@@ -16,8 +16,7 @@
           }
         }
         ParentId: 16373807130785117515
-        ChildIds: 17199658923983500617
-        ChildIds: 1408403857211212292
+        ChildIds: 16881055372421742582
         ChildIds: 7906924300235917409
         ChildIds: 268275951703505832
         ChildIds: 11899725759196734307
@@ -38,16 +37,42 @@
         }
       }
       Objects {
+        Id: 16881055372421742582
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7904855526696816715
+        ChildIds: 17199658923983500617
+        ChildIds: 1408403857211212292
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
         Id: 17199658923983500617
         Name: "Falling Leaves Volume VFX"
         Transform {
           Location {
-            X: 3.18798828
-            Y: 48.1461105
+            X: 3.1880455
+            Y: 48.1461182
             Z: 1770.21704
           }
           Rotation {
-            Roll: -4.47763062
+            Roll: -4.47763252
           }
           Scale {
             X: 2.37848091
@@ -55,7 +80,7 @@
             Z: 3.2681489
           }
         }
-        ParentId: 7904855526696816715
+        ParentId: 16881055372421742582
         UnregisteredParameters {
           Overrides {
             Name: "bp:Curl Variance"
@@ -92,12 +117,12 @@
         Name: "Falling Leaves Volume VFX"
         Transform {
           Location {
-            X: 3.18798828
-            Y: 48.1462936
+            X: 3.18803787
+            Y: 48.1462555
             Z: 1770.21484
           }
           Rotation {
-            Pitch: -4.47763062
+            Pitch: -4.47762585
             Yaw: -90
           }
           Scale {
@@ -106,7 +131,7 @@
             Z: 3.2681489
           }
         }
-        ParentId: 7904855526696816715
+        ParentId: 16881055372421742582
         UnregisteredParameters {
           Overrides {
             Name: "bp:Curl Variance"
@@ -143,11 +168,13 @@
         Name: "Teardrop - Truncated"
         Transform {
           Location {
-            X: 5.45031738
-            Y: -86.5927734
+            X: 5.45039368
+            Y: -86.5925827
+            Z: 2.28881836e-05
           }
           Rotation {
-            Roll: 4.63034
+            Yaw: -4.31116831e-09
+            Roll: 4.63034391
           }
           Scale {
             X: 1
@@ -211,8 +238,8 @@
         Name: "Fern 04"
         Transform {
           Location {
-            X: 0.866210938
-            Y: 56.2392578
+            X: 0.866226196
+            Y: 56.23909
             Z: 1644.82349
           }
           Rotation {
@@ -258,8 +285,8 @@
         Name: "Fern 03"
         Transform {
           Location {
-            X: -7.87365723
-            Y: 45.7959
+            X: -7.87363052
+            Y: 45.7960358
             Z: 1753.24158
           }
           Rotation {
@@ -305,12 +332,13 @@
         Name: "Fern 04"
         Transform {
           Location {
-            X: 0.866210938
+            X: 0.865905762
             Y: 56.2392578
-            Z: 1644.82349
+            Z: 1644.82324
           }
           Rotation {
-            Yaw: 70.3818436
+            Yaw: 70.3818283
+            Roll: -8.66774371e-07
           }
           Scale {
             X: -3.889
@@ -353,8 +381,8 @@
         Name: "Bush 01"
         Transform {
           Location {
-            X: -8.68591309
-            Y: -53.6015625
+            X: -8.68589783
+            Y: -53.6018
             Z: 490.226746
           }
           Rotation {
@@ -411,9 +439,9 @@
         Name: "Grass Tall"
         Transform {
           Location {
-            X: 2.76806641
-            Y: -69.1953125
-            Z: 480.398499
+            X: 2.76805878
+            Y: -69.1954651
+            Z: 480.398468
           }
           Rotation {
             Pitch: 2.04905664e-05
@@ -462,14 +490,14 @@
         Name: "Bush 01"
         Transform {
           Location {
-            X: 6.60839844
+            X: 6.60809326
             Y: 51.1064453
-            Z: 1802.6814
+            Z: 1802.68127
           }
           Rotation {
             Pitch: 2.12117672
-            Yaw: 0.363813937
-            Roll: 2.43365192
+            Yaw: 0.363806486
+            Roll: 2.43365169
           }
           Scale {
             X: 0.870375156
@@ -536,14 +564,14 @@
         Name: "Bush 01"
         Transform {
           Location {
-            X: 6.60839844
-            Y: 51.1064758
-            Z: 1802.68127
+            X: 6.60797119
+            Y: 51.105957
+            Z: 1802.68091
           }
           Rotation {
             Pitch: 3.09735394
-            Yaw: -32.2171021
-            Roll: 0.909153402
+            Yaw: -32.2171364
+            Roll: 0.909155428
           }
           Scale {
             X: 0.870377362
@@ -610,14 +638,14 @@
         Name: "Bush 01"
         Transform {
           Location {
-            X: 6.60839844
-            Y: 51.1064453
+            X: 6.60821533
+            Y: 51.105957
             Z: 1726.15527
           }
           Rotation {
             Pitch: 3.09735394
-            Yaw: -32.2171021
-            Roll: 0.909153402
+            Yaw: -32.2171326
+            Roll: 0.909154713
           }
           Scale {
             X: 0.577282727

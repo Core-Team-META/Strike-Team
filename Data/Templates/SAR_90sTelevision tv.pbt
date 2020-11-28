@@ -15,9 +15,36 @@
             Z: 0.8
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 15754171699432513143
-        ChildIds: 1207809280820452690
+        ParentId: 16373807130785117515
+        ChildIds: 1281261981210423329
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1281261981210423329
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 3.21158242
+            Y: -0.82829833
+            Z: 8.95986176
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15017831607802135879
         ChildIds: 18376626812544700095
         ChildIds: 1380928797233768259
         ChildIds: 16696284534362781145
@@ -32,6 +59,8 @@
         ChildIds: 2278284305307849585
         ChildIds: 4272235368613301809
         ChildIds: 17122109350023406954
+        ChildIds: 1207809280820452690
+        ChildIds: 15754171699432513143
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -39,115 +68,7 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 15754171699432513143
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 28.7169914
-            Y: -23.8023224
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.665418
-            Y: 1.40253794
-            Z: 1.12905085
-          }
-        }
-        ParentId: 15017831607802135879
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 132672053610873933
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.016
-              G: 0.016
-              B: 0.016
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17485881147669499682
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1207809280820452690
-        Name: "Collision"
-        Transform {
-          Location {
-            X: 65.897049
-            Y: -23.8023224
-            Z: 3.54562378
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.536928952
-            Y: 1.13171446
-            Z: 0.911036491
-          }
-        }
-        ParentId: 15017831607802135879
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 132672053610873933
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.016
-              G: 0.016
-              B: 0.016
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17485881147669499682
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
+          Model {
           }
         }
       }
@@ -156,9 +77,9 @@
         Name: "Hemisphere"
         Transform {
           Location {
-            X: 26.0022888
-            Y: -23.5204468
-            Z: 112.403961
+            X: 22.7910767
+            Y: -22.6922398
+            Z: 103.444099
           }
           Rotation {
           }
@@ -168,7 +89,7 @@
             Z: 0.213878512
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -206,20 +127,21 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: 28.3219147
-            Y: -4.89537048
-            Z: 154.102356
+            X: 25.1105652
+            Y: -4.06723499
+            Z: 145.142487
           }
           Rotation {
-            Roll: 21.8164349
+            Yaw: 3.35338927e-06
+            Roll: 21.8164272
           }
           Scale {
             X: 0.01875
             Y: 0.01875
-            Z: 0.763265371
+            Z: 0.763265431
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -257,12 +179,13 @@
         Name: "Sphere"
         Transform {
           Location {
-            X: 28.3327637
-            Y: 9.38673401
-            Z: 189.749298
+            X: 25.1212387
+            Y: 10.2152205
+            Z: 180.789459
           }
           Rotation {
-            Roll: 21.8164349
+            Yaw: 3.35338927e-06
+            Roll: 21.8164272
           }
           Scale {
             X: 0.0449999981
@@ -270,7 +193,7 @@
             Z: 0.0276548788
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -308,20 +231,21 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: 28.3219147
-            Y: -36.8105316
-            Z: 154.09903
+            X: 25.1103764
+            Y: -35.9819794
+            Z: 145.13916
           }
           Rotation {
-            Roll: -11.9859314
+            Yaw: -3.39643043e-06
+            Roll: -11.9859514
           }
           Scale {
             X: 0.01875
             Y: 0.01875
-            Z: 0.763265371
+            Z: 0.763265431
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -359,12 +283,13 @@
         Name: "Sphere"
         Transform {
           Location {
-            X: 28.3327637
-            Y: -44.7740936
-            Z: 191.665802
+            X: 25.1211147
+            Y: -43.9458542
+            Z: 182.705963
           }
           Rotation {
-            Roll: -11.9859314
+            Yaw: -3.39643043e-06
+            Roll: -11.9859514
           }
           Scale {
             X: 0.0449999981
@@ -372,7 +297,7 @@
             Z: 0.0276548788
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -410,20 +335,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -7.75947571
-            Y: -35.1797943
-            Z: 59.2222137
+            X: -10.971097
+            Y: -34.3515472
+            Z: 50.2623558
           }
           Rotation {
             Pitch: 90
+            Yaw: 180
+            Roll: 180
           }
           Scale {
             X: 0.825921953
-            Y: 0.866748512
+            Y: 0.866748571
             Z: 0.00150015415
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -466,19 +393,18 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -3.41091156
-            Y: -24.5773468
-            Z: 8.95986176
+            X: -6.62264729
+            Y: -23.7491
           }
           Rotation {
           }
           Scale {
             X: 0.084871687
             Y: 1.18795586
-            Z: 0.96548903
+            Z: 0.965489089
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -516,22 +442,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -10.1778412
-            Y: 21.0510559
-            Z: 65.2177734
+            X: -13.3896103
+            Y: 21.8795414
+            Z: 56.2579155
           }
           Rotation {
             Pitch: 35.9834976
-            Yaw: -89.9999924
-            Roll: -89.9999847
+            Yaw: -90
+            Roll: -89.9999924
           }
           Scale {
             X: 0.1875
             Y: 0.1875
-            Z: 0.03
+            Z: 0.0300000012
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -565,22 +491,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -12.6438141
-            Y: 21.0510559
-            Z: 65.2177734
+            X: -15.8550978
+            Y: 21.8791561
+            Z: 56.2579155
           }
           Rotation {
             Pitch: 35.9834976
-            Yaw: -89.9999924
-            Roll: -89.9999847
+            Yaw: -90
+            Roll: -89.9999924
           }
           Scale {
             X: 0.15
             Y: 0.15
-            Z: 0.03
+            Z: 0.0300000012
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -623,22 +549,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -14.7164993
-            Y: 21.0510101
-            Z: 65.2177734
+            X: -17.9281788
+            Y: 21.879406
+            Z: 56.2579155
           }
           Rotation {
             Pitch: 35.9834976
-            Yaw: -89.9999924
-            Roll: -89.9999847
+            Yaw: -90
+            Roll: -89.9999924
           }
           Scale {
             X: 0.136899725
             Y: 0.0295948796
-            Z: 0.0300000012
+            Z: 0.0300000031
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -681,20 +607,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -10.1778412
-            Y: 21.0510559
-            Z: 86.696167
+            X: -13.3896103
+            Y: 21.8795414
+            Z: 77.7363
           }
           Rotation {
             Pitch: 90
+            Yaw: 180
+            Roll: 180
           }
           Scale {
             X: 0.1875
             Y: 0.1875
-            Z: 0.03
+            Z: 0.0300000012
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -737,20 +665,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -12.6438141
-            Y: 21.0510559
-            Z: 86.696167
+            X: -15.8550978
+            Y: 21.8791561
+            Z: 77.7363
           }
           Rotation {
             Pitch: 90
+            Yaw: 180
+            Roll: 180
           }
           Scale {
             X: 0.15
             Y: 0.15
-            Z: 0.03
+            Z: 0.0300000012
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -793,20 +723,22 @@
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -14.7164993
-            Y: 21.0510101
-            Z: 86.696167
+            X: -17.9281788
+            Y: 21.879406
+            Z: 77.7363
           }
           Rotation {
             Pitch: 90
+            Yaw: 180
+            Roll: 180
           }
           Scale {
             X: 0.136899725
             Y: 0.0295948796
-            Z: 0.0300000012
+            Z: 0.0300000031
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -849,20 +781,22 @@
         Name: "Cube - Rounded"
         Transform {
           Location {
-            X: -8.10280609
-            Y: 22.4684296
-            Z: 39.236908
+            X: -11.3142891
+            Y: 23.2967739
+            Z: 30.2770424
           }
           Rotation {
             Pitch: -0.156315699
+            Yaw: -3.41510417e-06
+            Roll: 4.65858685e-09
           }
           Scale {
             X: 0.0326183215
-            Y: 0.181957379
+            Y: 0.181957394
             Z: 0.263581634
           }
         }
-        ParentId: 15017831607802135879
+        ParentId: 1281261981210423329
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -901,23 +835,115 @@
           }
         }
       }
-    }
-    Assets {
-      Id: 17485881147669499682
-      Name: "Cube - Rounded - bottom aligned"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_rounded_001"
+      Objects {
+        Id: 1207809280820452690
+        Name: "Collision"
+        Transform {
+          Location {
+            X: 62.6852951
+            Y: -22.9739494
+            Z: -5.41423798
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.536928952
+            Y: 1.13171446
+            Z: 0.911036491
+          }
+        }
+        ParentId: 1281261981210423329
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 132672053610873933
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.016
+              G: 0.016
+              B: 0.016
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17485881147669499682
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
-    }
-    Assets {
-      Id: 132672053610873933
-      Name: "Plastic Matte"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "plastic_matte_001"
+      Objects {
+        Id: 15754171699432513143
+        Name: "Collision"
+        Transform {
+          Location {
+            X: 25.5054283
+            Y: -22.9740143
+            Z: -8.95986557
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.665418
+            Y: 1.40253794
+            Z: 1.12905085
+          }
+        }
+        ParentId: 1281261981210423329
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 132672053610873933
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.016
+              G: 0.016
+              B: 0.016
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17485881147669499682
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
     }
     Assets {
@@ -975,6 +1001,15 @@
       }
     }
     Assets {
+      Id: 17485881147669499682
+      Name: "Cube - Rounded - bottom aligned"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_rounded_001"
+      }
+    }
+    Assets {
       Id: 17177425172148499381
       Name: "Metal Steel Brushed"
       PlatformAssetType: 2
@@ -999,6 +1034,15 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_reflector_hex_003"
+      }
+    }
+    Assets {
+      Id: 132672053610873933
+      Name: "Plastic Matte"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "plastic_matte_001"
       }
     }
     PrimaryAssetId {

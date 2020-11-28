@@ -15,9 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 13926785300744349160
-        ChildIds: 1726958471589080529
+        ParentId: 16373807130785117515
+        ChildIds: 42326234012598088
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -29,13 +28,157 @@
         }
       }
       Objects {
+        Id: 42326234012598088
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -0.709678888
+            Y: 11.6003218
+            Z: 47.6251602
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11460442521884478572
+        ChildIds: 6814356587868312930
+        ChildIds: 16623958684992015466
+        ChildIds: 13926785300744349160
+        ChildIds: 9081800505193850280
+        ChildIds: 11500279211800676408
+        ChildIds: 11055321603173534818
+        ChildIds: 7475724548463222139
+        ChildIds: 16725638427068562331
+        ChildIds: 6673028568261076742
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 6814356587868312930
+        Name: "Collision"
+        Transform {
+          Location {
+            X: -3.92297244
+            Y: 0.439340949
+            Z: 61.2811661
+          }
+          Rotation {
+            Yaw: -0.914309
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.96915078
+            Z: 0.1
+          }
+        }
+        ParentId: 42326234012598088
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10128884331981734128
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16623958684992015466
+        Name: "Cube - Chamfered Small Polished"
+        Transform {
+          Location {
+            X: 31.8115311
+            Y: 88.3087158
+            Z: 13.6562462
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.0914583877
+            Y: 0.0986624509
+            Z: 1.04060256
+          }
+        }
+        ParentId: 42326234012598088
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12484798020569700940
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.569960058
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.983514309
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.47062245
+              G: 0.504
+              B: 0.252
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7708829302333976186
+          }
+          Teams {
+          }
+          DisableCastShadows: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 13926785300744349160
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -0.826782227
-            Y: 11.5479126
-            Z: 113.820953
+            X: -0.117205128
+            Y: -0.0523433387
+            Z: 66.1957932
           }
           Rotation {
           }
@@ -45,7 +188,7 @@
             Z: 0.0917135626
           }
         }
-        ParentId: 11460442521884478572
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -95,46 +238,12 @@
         }
       }
       Objects {
-        Id: 1726958471589080529
-        Name: "ClientContext"
-        Transform {
-          Location {
-            X: -0.743835449
-            Y: -0.768249512
-            Z: 47.6251602
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11460442521884478572
-        ChildIds: 9081800505193850280
-        ChildIds: 11500279211800676408
-        ChildIds: 16623958684992015466
-        ChildIds: 11055321603173534818
-        ChildIds: 7475724548463222139
-        ChildIds: 16725638427068562331
-        ChildIds: 6673028568261076742
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
         Id: 9081800505193850280
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -31.543457
-            Y: 100.677246
+            X: -31.5778923
+            Y: 88.3085785
             Z: 13.6562462
           }
           Rotation {
@@ -145,7 +254,7 @@
             Z: 1.04060256
           }
         }
-        ParentId: 1726958471589080529
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -199,8 +308,8 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -0.0828857422
-            Y: 12.3161621
+            X: -0.117035285
+            Y: -0.052518703
           }
           Rotation {
           }
@@ -210,73 +319,7 @@
             Z: 0.0650998577
           }
         }
-        ParentId: 1726958471589080529
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12484798020569700940
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.569960058
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.983514309
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.47062245
-              G: 0.504
-              B: 0.252
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7708829302333976186
-          }
-          Teams {
-          }
-          DisableCastShadows: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16623958684992015466
-        Name: "Cube - Chamfered Small Polished"
-        Transform {
-          Location {
-            X: 31.8455811
-            Y: 100.677246
-            Z: 13.6562462
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.0914583877
-            Y: 0.0986624509
-            Z: 1.04060256
-          }
-        }
-        ParentId: 1726958471589080529
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -330,8 +373,8 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: 31.8455811
-            Y: -76.0730896
+            X: 31.8114414
+            Y: -88.4416275
             Z: 13.6562462
           }
           Rotation {
@@ -342,7 +385,7 @@
             Z: 1.04060256
           }
         }
-        ParentId: 1726958471589080529
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -396,8 +439,8 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -31.543457
-            Y: -76.0730896
+            X: -31.5778122
+            Y: -88.4419327
             Z: 13.6562462
           }
           Rotation {
@@ -408,7 +451,7 @@
             Z: 1.04060256
           }
         }
-        ParentId: 1726958471589080529
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -462,11 +505,11 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -0.0828857422
-            Y: 100.960327
+            X: -0.116924286
+            Y: 88.5917358
           }
           Rotation {
-            Yaw: 90
+            Yaw: 89.9999847
           }
           Scale {
             X: 0.0861844867
@@ -474,7 +517,7 @@
             Z: 0.0915096104
           }
         }
-        ParentId: 1726958471589080529
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -528,8 +571,8 @@
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
-            X: -0.0828857422
-            Y: -75.8517761
+            X: -0.116968155
+            Y: -88.2204208
           }
           Rotation {
             Yaw: 89.9999847
@@ -540,7 +583,7 @@
             Z: 0.0915096104
           }
         }
-        ParentId: 1726958471589080529
+        ParentId: 42326234012598088
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -588,6 +631,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 10128884331981734128
+      Name: "Cube - bottom aligned"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_001"
       }
     }
     Assets {

@@ -15,7 +15,34 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 9442837068365637487
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9442837068365637487
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -0.000390625
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14715581946814791020
         ChildIds: 7205780853281127461
         ChildIds: 3371551276344227106
         ChildIds: 4027872369390398992
@@ -28,7 +55,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -36,14 +64,13 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -0.156738281
-            Y: 38.453125
+            X: -0.156257629
+            Y: 38.4531212
             Z: 49.0922241
           }
           Rotation {
             Pitch: 90
-            Yaw: -14.0362635
-            Roll: -104.03627
+            Roll: -90
           }
           Scale {
             X: 0.99999994
@@ -51,7 +78,7 @@
             Z: 0.67232424
           }
         }
-        ParentId: 14715581946814791020
+        ParentId: 9442837068365637487
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -106,13 +133,13 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -0.156738281
+            X: -0.156250954
             Y: 4.546875
             Z: 97.5201416
           }
           Rotation {
             Pitch: 90
-            Yaw: 90
+            Roll: -90
           }
           Scale {
             X: 0.104550466
@@ -120,7 +147,7 @@
             Z: 0.733026743
           }
         }
-        ParentId: 14715581946814791020
+        ParentId: 9442837068365637487
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -167,13 +194,12 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: -0.156738281
+            X: -0.156250954
             Y: 4.546875
           }
           Rotation {
             Pitch: 90
-            Yaw: -14.0362635
-            Roll: -104.03627
+            Roll: -90
           }
           Scale {
             X: 0.0734371841
@@ -181,7 +207,7 @@
             Z: 0.733026743
           }
         }
-        ParentId: 14715581946814791020
+        ParentId: 9442837068365637487
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -228,8 +254,8 @@
         Name: "Cupboard Pivot"
         Transform {
           Location {
-            X: 61.8818359
-            Y: -23.7734375
+            X: 61.8818398
+            Y: -23.7734261
             Z: 49.0922241
           }
           Rotation {
@@ -240,7 +266,7 @@
             Z: 1
           }
         }
-        ParentId: 14715581946814791020
+        ParentId: 9442837068365637487
         ChildIds: 9995587456281110505
         ChildIds: 13948645494383763237
         ChildIds: 8851189254209679765
@@ -672,8 +698,8 @@
         Name: "Cupboard Pivot"
         Transform {
           Location {
-            X: -61.4135742
-            Y: -23.7734375
+            X: -61.4140587
+            Y: -23.7734489
             Z: 49.0922241
           }
           Rotation {
@@ -684,7 +710,7 @@
             Z: 1
           }
         }
-        ParentId: 14715581946814791020
+        ParentId: 9442837068365637487
         ChildIds: 2614693151165299771
         ChildIds: 4595615265562283282
         ChildIds: 5759758585147369327

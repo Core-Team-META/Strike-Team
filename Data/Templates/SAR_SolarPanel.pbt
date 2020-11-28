@@ -15,8 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 17410427458095897124
+        ParentId: 16373807130785117515
+        ChildIds: 18364202427349425623
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -28,15 +28,14 @@
         }
       }
       Objects {
-        Id: 17410427458095897124
-        Name: "Group"
+        Id: 18364202427349425623
+        Name: "MergedModel"
         Transform {
           Location {
             X: -15
             Z: -145
           }
           Rotation {
-            Pitch: -45
           }
           Scale {
             X: 1
@@ -45,6 +44,36 @@
           }
         }
         ParentId: 5674763858852220405
+        ChildIds: 17410427458095897124
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 17410427458095897124
+        Name: "Group"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -44.9999886
+            Yaw: 3.53791779e-06
+            Roll: 3.82782218e-07
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18364202427349425623
         ChildIds: 6955414734345209629
         ChildIds: 13890086306814457874
         ChildIds: 16305065764627672483

@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 14996244734760216571
+  Name: "Flare Ray VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_ray_system"
+  }
+}
+Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6

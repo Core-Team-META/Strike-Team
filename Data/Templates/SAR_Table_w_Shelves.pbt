@@ -16,10 +16,7 @@
           }
         }
         ParentId: 16373807130785117515
-        ChildIds: 11969538221022341226
-        ChildIds: 1246896754260585503
-        ChildIds: 302205588902545873
-        ChildIds: 7593624903882016045
+        ChildIds: 14265670870724125234
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -31,15 +28,47 @@
         }
       }
       Objects {
+        Id: 14265670870724125234
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 28.9519615
+            Y: -5.64828873
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16143481190423050169
+        ChildIds: 11969538221022341226
+        ChildIds: 1246896754260585503
+        ChildIds: 302205588902545873
+        ChildIds: 7593624903882016045
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
         Id: 11969538221022341226
         Name: "Counter - Cabinet"
         Transform {
           Location {
-            X: -45.2429314
-            Y: 106.547485
+            X: -74.1949539
+            Y: 112.195709
           }
           Rotation {
-            Yaw: -90.0000076
+            Yaw: -90.0000153
           }
           Scale {
             X: 2.69999981
@@ -47,7 +76,7 @@
             Z: 1
           }
         }
-        ParentId: 16143481190423050169
+        ParentId: 14265670870724125234
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -64,18 +93,18 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.847019911
-              B: 0.580000043
+              R: 0.535
+              G: 0.453155667
+              B: 0.310300052
               A: 1
             }
           }
           Overrides {
             Name: "ma:Prop_Top:color"
             Color {
-              R: 1
-              G: 0.847019911
-              B: 0.580000043
+              R: 0.535
+              G: 0.453155667
+              B: 0.310300052
               A: 1
             }
           }
@@ -117,8 +146,8 @@
         Name: "Cabinet Door"
         Transform {
           Location {
-            X: 53.6836777
-            Y: -161.51123
+            X: 24.7316628
+            Y: -155.863022
             Z: 5.00006104
           }
           Rotation {
@@ -130,7 +159,7 @@
             Z: 1.18492544
           }
         }
-        ParentId: 16143481190423050169
+        ParentId: 14265670870724125234
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -150,9 +179,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.847019911
-              B: 0.580000043
+              R: 0.420000017
+              G: 0.355748385
+              B: 0.243600026
               A: 1
             }
           }
@@ -183,8 +212,8 @@
         Name: "Cabinet Door"
         Transform {
           Location {
-            X: 53.6835022
-            Y: -72.2837067
+            X: 24.7314796
+            Y: -66.6354904
             Z: 5.00009155
           }
           Rotation {
@@ -196,7 +225,7 @@
             Z: 1.18492544
           }
         }
-        ParentId: 16143481190423050169
+        ParentId: 14265670870724125234
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -216,9 +245,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.847019911
-              B: 0.580000043
+              R: 0.535
+              G: 0.453155667
+              B: 0.310300052
               A: 1
             }
           }
@@ -249,12 +278,12 @@
         Name: "Cabinet Door"
         Transform {
           Location {
-            X: 53.6835938
-            Y: 104.654297
+            X: 24.7316895
+            Y: 110.302246
             Z: 5.00006104
           }
           Rotation {
-            Yaw: -89.9999771
+            Yaw: -89.9999619
           }
           Scale {
             X: -0.98
@@ -262,7 +291,7 @@
             Z: 1.18492544
           }
         }
-        ParentId: 16143481190423050169
+        ParentId: 14265670870724125234
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -282,9 +311,9 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.847019911
-              B: 0.580000043
+              R: 0.420000017
+              G: 0.355748385
+              B: 0.243600026
               A: 1
             }
           }

@@ -15,7 +15,35 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 2098591116700717968
+        ChildIds: 11833189887104697767
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11833189887104697767
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 115.939453
+            Y: 16.8775387
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13650685944074694113
         ChildIds: 1512014722093013350
         ChildIds: 16753749377504318148
         ChildIds: 8846179679860973062
@@ -33,7 +61,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -41,9 +70,9 @@
         Name: "WireConnector"
         Transform {
           Location {
-            X: 115.251953
-            Y: 160
-            Z: 1406.11609
+            X: -0.687744141
+            Y: 143.122375
+            Z: 1406.11597
           }
           Rotation {
           }
@@ -53,7 +82,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 6540970141405415585
         ChildIds: 16893845129249697799
         ChildIds: 4001649346074971217
@@ -237,8 +266,8 @@
         Name: "SAR_ElectricWire"
         Transform {
           Location {
-            X: -338.535156
-            Y: 159.591797
+            X: -454.474976
+            Y: 142.714172
             Z: 1364.04688
           }
           Rotation {
@@ -249,7 +278,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 1038912040932343401
         ChildIds: 12224818477839808427
         ChildIds: 11904700463016150887
@@ -557,9 +586,9 @@
         Name: "WireConnector"
         Transform {
           Location {
-            X: 115
-            Y: 20.4082031
-            Z: 1505
+            X: -0.939680099
+            Y: 3.53066444
+            Z: 1505.00012
           }
           Rotation {
           }
@@ -569,7 +598,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 18402442569994825249
         ChildIds: 13842996279128891029
         ChildIds: 15367804563816479252
@@ -753,8 +782,8 @@
         Name: "SAR_ElectricWire"
         Transform {
           Location {
-            X: -338.787109
-            Y: 20
+            X: -454.727081
+            Y: 3.12213135
             Z: 1462.93079
           }
           Rotation {
@@ -765,7 +794,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 9341752660989181704
         ChildIds: 12673659790894426077
         ChildIds: 1068260358097161136
@@ -1073,8 +1102,8 @@
         Name: "SAR_ElectricWire"
         Transform {
           Location {
-            X: -338.535156
-            Y: -130.408203
+            X: -454.475067
+            Y: -147.285843
             Z: 1364.04688
           }
           Rotation {
@@ -1085,7 +1114,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 5606324170158550739
         ChildIds: 13461695933527340707
         ChildIds: 10912770578896442142
@@ -1393,8 +1422,8 @@
         Name: "WireConnector"
         Transform {
           Location {
-            X: 115.251953
-            Y: -130
+            X: -0.687789917
+            Y: -146.877655
             Z: 1406.11609
           }
           Rotation {
@@ -1405,7 +1434,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 7065708631745841391
         ChildIds: 12239001313667174746
         ChildIds: 11239603814728315420
@@ -1589,12 +1618,13 @@
         Name: "SAR_ElectricWire"
         Transform {
           Location {
-            X: 570
-            Y: -130.408203
+            X: 454.060425
+            Y: -147.286133
             Z: 1364.04688
           }
           Rotation {
             Yaw: -179.999954
+            Roll: -1.82881884e-14
           }
           Scale {
             X: 1
@@ -1602,7 +1632,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 11143776136496246767
         ChildIds: 11115236854522631227
         ChildIds: 4992248216921381701
@@ -1910,8 +1940,9 @@
         Name: "Group"
         Transform {
           Location {
-            X: 120
-            Y: 20
+            X: 4.06010723
+            Y: 3.12215233
+            Z: -1.71363354e-07
           }
           Rotation {
           }
@@ -1921,7 +1952,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 13407344747072992340
         ChildIds: 5827629799096782014
         Collidable_v2 {
@@ -2077,12 +2108,13 @@
         Name: "SAR_ElectricWire"
         Transform {
           Location {
-            X: 569.748047
-            Y: 20
+            X: 453.808197
+            Y: 3.12210083
             Z: 1462.93079
           }
           Rotation {
             Yaw: -179.999954
+            Roll: -1.82881884e-14
           }
           Scale {
             X: 1
@@ -2090,7 +2122,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 14542443960273572263
         ChildIds: 10229737468991843904
         ChildIds: 13423449182589604539
@@ -2398,8 +2430,8 @@
         Name: "SAR_ElectricWire"
         Transform {
           Location {
-            X: 570
-            Y: 159.591797
+            X: 454.060608
+            Y: 142.714066
             Z: 1364.04688
           }
           Rotation {
@@ -2411,7 +2443,7 @@
             Z: 1
           }
         }
-        ParentId: 13650685944074694113
+        ParentId: 11833189887104697767
         ChildIds: 9655834447299782462
         ChildIds: 544695764782721729
         ChildIds: 2223483793536338217

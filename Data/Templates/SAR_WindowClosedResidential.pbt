@@ -15,8 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 16575314382531230052
-        ChildIds: 1266312308477530931
+        ParentId: 16373807130785117515
         ChildIds: 669817799358324998
         ChildIds: 13678095130573957057
         ChildIds: 14156493944531317529
@@ -32,56 +31,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1266312308477530931
-        Name: "Plane 1m - One Sided"
-        Transform {
-          Location {
-            X: 8.22346497
-            Y: -89.9759
-            Z: 130
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 46.6861382
-            Roll: -46.6861267
-          }
-          Scale {
-            X: 3.59999704
-            Y: 2.10577869
-            Z: 1.00000954
-          }
-        }
-        ParentId: 18236531438999725126
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 13412464127967364327
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17620359405672570059
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -223,12 +172,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -12.4882803
-            Y: 6.85424805
-            Z: 300
+            X: -12.4870605
+            Y: 6.85400391
+            Z: 299.999939
           }
           Rotation {
-            Roll: -90
+            Pitch: -1.36603776e-05
+            Yaw: -4.17918318e-06
+            Roll: -89.9999847
           }
           Scale {
             X: 0.3
@@ -292,13 +243,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.961914063
+            X: 0.962890625
             Y: -188.513672
-            Z: 7.30053711
+            Z: 7.30047607
           }
           Rotation {
-            Pitch: 180
-            Roll: 180
+            Pitch: -1.36603776e-05
+            Yaw: -179.999985
+            Roll: 1.36603894e-05
           }
           Scale {
             X: 0.5
@@ -362,13 +314,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 0.961914063
-            Y: -8.51269531
-            Z: 7.30200195
+            X: 0.963134766
+            Y: -8.51318359
+            Z: 7.30194092
           }
           Rotation {
-            Pitch: 180
-            Roll: 180
+            Pitch: -1.36603776e-05
+            Yaw: -179.999985
+            Roll: 1.36603894e-05
           }
           Scale {
             X: 0.5
@@ -432,12 +385,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 18.8308754
-            Y: 12.5552683
-            Z: 295
+            X: 18.8320313
+            Y: 12.5546875
+            Z: 294.999939
           }
           Rotation {
-            Roll: -90
+            Pitch: -6.83018879e-06
+            Yaw: -5.51334369e-06
+            Roll: -89.9999619
           }
           Scale {
             X: 0.7
@@ -501,12 +456,14 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 9.99962807
-            Y: 5.00014591
-            Z: 5
+            X: 10.0007324
+            Y: 5
+            Z: 4.99993896
           }
           Rotation {
-            Roll: -90
+            Pitch: -6.83018879e-06
+            Yaw: -3.50432538e-06
+            Roll: -89.9999847
           }
           Scale {
             X: 0.8
@@ -564,15 +521,6 @@
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 17620359405672570059
-      Name: "Plane 1m - One Sided"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_1m_001"
       }
     }
     Assets {

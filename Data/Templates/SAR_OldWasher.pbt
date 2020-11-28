@@ -16,6 +16,7 @@
           }
         }
         ParentId: 16373807130785117515
+        ChildIds: 1512490766002285572
         ChildIds: 238400269143377226
         ChildIds: 13832904071215217749
         ChildIds: 7418588941088093172
@@ -38,18 +39,47 @@
         }
       }
       Objects {
-        Id: 238400269143377226
-        Name: "Buttons"
+        Id: 1512490766002285572
+        Name: "MergedModel"
         Transform {
           Location {
-            X: 31.3836098
-            Y: 24.5478039
-            Z: 226.539551
+            X: -1.6239264
+            Y: 1.08464921
+            Z: 1.52587891e-05
           }
           Rotation {
           }
           Scale {
             X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2812305585066073476
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 238400269143377226
+        Name: "Buttons"
+        Transform {
+          Location {
+            X: 31.3836517
+            Y: 24.5478687
+            Z: 226.539536
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
             Y: 1
             Z: 1
           }
@@ -365,14 +395,14 @@
         Name: "Stains"
         Transform {
           Location {
-            X: -34.1766968
-            Y: -31.1914063
+            X: -34.1767464
+            Y: -31.191433
             Z: 78.7134094
           }
           Rotation {
           }
           Scale {
-            X: 1
+            X: 0.99999994
             Y: 1
             Z: 1
           }
@@ -880,15 +910,16 @@
         Name: "Counter - Cabinet"
         Transform {
           Location {
-            X: -96.1590652
-            Y: 62.472168
+            X: -96.159
+            Y: 62.4719772
+            Z: 1.52587891e-05
           }
           Rotation {
-            Yaw: -90
+            Yaw: -89.9999771
           }
           Scale {
-            X: 1.68029225
-            Y: 0.927325
+            X: 1.68029213
+            Y: 0.92732507
             Z: 1.73888052
           }
         }
@@ -951,9 +982,9 @@
         Name: "Cube"
         Transform {
           Location {
-            X: 13.4258499
-            Y: -20.5092773
-            Z: 111.251801
+            X: 13.4257221
+            Y: -20.5091286
+            Z: 111.251816
           }
           Rotation {
           }
@@ -1007,15 +1038,15 @@
         Name: "Cone - Truncated Wide"
         Transform {
           Location {
-            X: 21.8155746
-            Y: -19.6540527
-            Z: 115.727531
+            X: 21.815712
+            Y: -19.6540203
+            Z: 115.727524
           }
           Rotation {
             Pitch: 90
           }
           Scale {
-            X: 1
+            X: 0.99999994
             Y: 1
             Z: 1
           }
@@ -1063,8 +1094,8 @@
         Name: "Pipe - Thick"
         Transform {
           Location {
-            X: 26.9004974
-            Y: -19.6262207
+            X: 26.9004364
+            Y: -19.6263332
             Z: 115.946487
           }
           Rotation {
@@ -1120,8 +1151,8 @@
         Name: "Craftsman Roof 02 Arch"
         Transform {
           Location {
-            X: 22.4007
-            Y: -55.8400879
+            X: 22.4005871
+            Y: -55.8399
             Z: 125.708603
           }
           Rotation {
@@ -1172,16 +1203,16 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: 21.4442596
-            Y: 31.7993164
-            Z: 115.015419
+            X: 21.4442692
+            Y: 31.7991848
+            Z: 115.015427
           }
           Rotation {
           }
           Scale {
             X: 0.151041895
-            Y: 0.0641457587
-            Z: 0.31876871
+            Y: 0.0641457662
+            Z: 0.31876868
           }
         }
         ParentId: 2812305585066073476
@@ -1227,16 +1258,16 @@
         Name: "Craftsman Porch 01 Foundation"
         Transform {
           Location {
-            X: -85.5809555
-            Y: 61.5141602
+            X: -85.5808792
+            Y: 61.5138474
             Z: 238.040146
           }
           Rotation {
-            Yaw: -90
-            Roll: 1.22611403
+            Yaw: -90.0000153
+            Roll: 1.22611427
           }
           Scale {
-            X: 0.205773622
+            X: 0.205773607
             Y: 0.18715544
             Z: 0.18715544
           }
@@ -1285,16 +1316,17 @@
         Name: "Knobs"
         Transform {
           Location {
-            X: 30.0436478
-            Y: -45.9492188
-            Z: 226.724152
+            X: 30.0435486
+            Y: -45.9491272
+            Z: 226.724167
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: 89.9999
+            Pitch: -6.83018879e-06
+            Yaw: -89.9999695
+            Roll: 89.9998627
           }
           Scale {
-            X: 1
+            X: 0.99999994
             Y: 1
             Z: 1
           }
@@ -1827,14 +1859,14 @@
         Name: "Buttons"
         Transform {
           Location {
-            X: 30.6397133
-            Y: 24.3681641
+            X: 30.6395054
+            Y: 24.3682098
             Z: 226.523605
           }
           Rotation {
           }
           Scale {
-            X: 1
+            X: 0.99999994
             Y: 1
             Z: 1
           }

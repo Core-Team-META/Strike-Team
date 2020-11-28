@@ -16,6 +16,35 @@
           }
         }
         ParentId: 16373807130785117515
+        ChildIds: 9110715199240200967
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9110715199240200967
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 1.46088815
+            Y: -0.773644269
+            Z: 39.8158569
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2127900730668041274
         ChildIds: 11989184584728383909
         ChildIds: 17168201359685054477
         ChildIds: 12574463035772730758
@@ -31,7 +60,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -39,9 +69,9 @@
         Name: "Books"
         Transform {
           Location {
-            X: 7.72869873
-            Y: -6.52270508
-            Z: 40.5898094
+            X: 6.26782227
+            Y: -5.74877357
+            Z: 0.773956299
           }
           Rotation {
           }
@@ -51,7 +81,7 @@
             Z: 1
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         ChildIds: 11638834125281340689
         ChildIds: 15162962502984100421
         ChildIds: 6494508221079981855
@@ -1492,9 +1522,9 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 0.524603307
-            Y: 1.64134812
-            Z: 195.80661
+            X: -0.936270177
+            Y: 2.41460323
+            Z: 155.990753
           }
           Rotation {
           }
@@ -1504,7 +1534,7 @@
             Z: 0.0942120552
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1552,9 +1582,9 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 0.524603307
-            Y: 1.64134812
-            Z: 100.752106
+            X: -0.936270177
+            Y: 2.41460323
+            Z: 60.9362488
           }
           Rotation {
           }
@@ -1564,7 +1594,7 @@
             Z: 0.0942120552
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1612,13 +1642,13 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 2.52618217
-            Y: 104.311958
-            Z: 139.602234
+            X: 1.06530333
+            Y: 105.085747
+            Z: 99.786377
           }
           Rotation {
-            Yaw: -7.54636176e-08
-            Roll: 89.9999313
+            Yaw: -7.5463646e-08
+            Roll: 89.999939
           }
           Scale {
             X: 0.605117381
@@ -1626,7 +1656,7 @@
             Z: 0.0974161178
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1674,13 +1704,13 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 2.52617598
-            Y: -104.985046
-            Z: 139.602234
+            X: 1.06530809
+            Y: -104.211845
+            Z: 99.786377
           }
           Rotation {
-            Yaw: -7.54636176e-08
-            Roll: 89.9999313
+            Yaw: -7.5463646e-08
+            Roll: 89.999939
           }
           Scale {
             X: 0.605117381
@@ -1688,7 +1718,7 @@
             Z: 0.0974161178
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1736,14 +1766,14 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -24.3058395
-            Y: -0.652596235
-            Z: 149.631897
+            X: -25.766737
+            Y: 0.121604383
+            Z: 109.81604
           }
           Rotation {
             Pitch: 90
-            Yaw: -0.070337154
-            Roll: -0.0703430176
+            Yaw: 179.683487
+            Roll: 179.683487
           }
           Scale {
             X: 2.88797688
@@ -1751,7 +1781,7 @@
             Z: 0.0974149406
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1799,9 +1829,9 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 4.8931632
-            Y: -1.95312619
-            Z: 293.253601
+            X: 3.43228912
+            Y: -1.17937994
+            Z: 253.437744
           }
           Rotation {
           }
@@ -1811,7 +1841,7 @@
             Z: 0.0942120552
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1859,14 +1889,13 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 17.2695179
-            Y: 0.329662025
-            Z: 39.8158569
+            X: 15.8086462
+            Y: 1.10342419
           }
           Rotation {
             Pitch: 90
-            Yaw: -0.0703430176
-            Roll: -0.0703430176
+            Yaw: 179.683487
+            Roll: 179.683487
           }
           Scale {
             X: 1.08632064
@@ -1874,7 +1903,7 @@
             Z: 0.0974143147
           }
         }
-        ParentId: 2127900730668041274
+        ParentId: 9110715199240200967
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

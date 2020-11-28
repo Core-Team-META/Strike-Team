@@ -159,54 +159,6 @@ Objects {
   }
 }
 Objects {
-  Id: 575725130991249774
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 8435
-      Y: 4685
-      Z: -50.2941284
-    }
-    Rotation {
-      Yaw: 89.6337357
-    }
-    Scale {
-      X: 29.5000076
-      Y: 3.75
-      Z: 24.75
-    }
-  }
-  ParentId: 3844101252731550927
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2946846378138735618
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10128884331981734128
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 8484977920206966469
   Name: "Cube - bottom aligned"
   Transform {
@@ -728,6 +680,54 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 575725130991249774
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 8435
+      Y: 4685
+      Z: -50.2941284
+    }
+    Rotation {
+      Yaw: 89.6337357
+    }
+    Scale {
+      X: 29.5000076
+      Y: 3.75
+      Z: 24.75
+    }
+  }
+  ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2946846378138735618
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -15,7 +15,33 @@
             Z: 1
           }
         }
-        ParentId: 7978364239758505505
+        ParentId: 16373807130785117515
+        ChildIds: 6100733515630426039
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 6100733515630426039
+        Name: "MergedModel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2107594330407021503
         ChildIds: 10530811016145627315
         ChildIds: 16286110170203550646
         ChildIds: 6878591560078766357
@@ -28,7 +54,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -36,9 +63,9 @@
         Name: "Tub"
         Transform {
           Location {
-            X: 42.3624115
-            Y: 4.19519043
-            Z: 111.823242
+            X: 42.3622627
+            Y: 4.19494247
+            Z: 111.823212
           }
           Rotation {
           }
@@ -48,7 +75,7 @@
             Z: 1
           }
         }
-        ParentId: 2107594330407021503
+        ParentId: 6100733515630426039
         ChildIds: 12463260472420483550
         ChildIds: 9160791754917053761
         ChildIds: 7035549219192460343
@@ -358,9 +385,9 @@
         Name: "TubEdge"
         Transform {
           Location {
-            X: 25.3678722
-            Y: 3.40130615
-            Z: 113.757233
+            X: 25.367527
+            Y: 3.40158653
+            Z: 113.757278
           }
           Rotation {
           }
@@ -370,7 +397,7 @@
             Z: 1
           }
         }
-        ParentId: 2107594330407021503
+        ParentId: 6100733515630426039
         ChildIds: 9163427976727025216
         ChildIds: 5289436176214559777
         ChildIds: 13085749378444848775
@@ -732,9 +759,9 @@
         Name: "Faucet"
         Transform {
           Location {
-            X: -128.167313
-            Y: -0.489746094
-            Z: 108.165482
+            X: -128.167328
+            Y: -0.489379883
+            Z: 108.165535
           }
           Rotation {
           }
@@ -744,7 +771,7 @@
             Z: 1
           }
         }
-        ParentId: 2107594330407021503
+        ParentId: 6100733515630426039
         ChildIds: 13959840185588512639
         ChildIds: 5981911963214332783
         ChildIds: 1271759046018536120
@@ -1509,8 +1536,9 @@
         Name: "Legs"
         Transform {
           Location {
-            X: 21.8651867
-            Y: 2.8057251
+            X: 21.8652458
+            Y: 2.80588531
+            Z: 2.69413e-05
           }
           Rotation {
           }
@@ -1520,7 +1548,7 @@
             Z: 1
           }
         }
-        ParentId: 2107594330407021503
+        ParentId: 6100733515630426039
         ChildIds: 5405782848303868508
         ChildIds: 561695073019124560
         ChildIds: 15486847841946220604
@@ -1760,9 +1788,9 @@
         Name: "Stains"
         Transform {
           Location {
-            X: 38.5718536
-            Y: -9.91259766
-            Z: 19.6018219
+            X: 38.5719757
+            Y: -9.91233826
+            Z: 19.601862
           }
           Rotation {
           }
@@ -1772,7 +1800,7 @@
             Z: 1
           }
         }
-        ParentId: 2107594330407021503
+        ParentId: 6100733515630426039
         ChildIds: 3853051633654635842
         ChildIds: 17343376394108365176
         ChildIds: 3268657580372758908

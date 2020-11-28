@@ -15,7 +15,33 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 1524627336936237323
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1524627336936237323
+        Name: "MergedModel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8161964612837858728
         ChildIds: 1267074145175364080
         ChildIds: 5294132848636024934
         ChildIds: 7477776964289511778
@@ -29,7 +55,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -49,7 +76,7 @@
             Z: 0.199630946
           }
         }
-        ParentId: 8161964612837858728
+        ParentId: 1524627336936237323
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -108,7 +135,7 @@
             Z: 0.334581256
           }
         }
-        ParentId: 8161964612837858728
+        ParentId: 1524627336936237323
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -167,7 +194,7 @@
             Z: 0.216447115
           }
         }
-        ParentId: 8161964612837858728
+        ParentId: 1524627336936237323
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -225,7 +252,7 @@
             Z: 0.182295248
           }
         }
-        ParentId: 8161964612837858728
+        ParentId: 1524627336936237323
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -276,7 +303,7 @@
             Y: -51.3388672
           }
           Rotation {
-            Yaw: -125.317657
+            Yaw: -125.317665
           }
           Scale {
             X: 0.360431671
@@ -284,7 +311,7 @@
             Z: 0.182295248
           }
         }
-        ParentId: 8161964612837858728
+        ParentId: 1524627336936237323
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -335,7 +362,7 @@
             Y: -22.0498047
           }
           Rotation {
-            Yaw: 113.68927
+            Yaw: 113.689247
           }
           Scale {
             X: 0.360431671
@@ -343,7 +370,7 @@
             Z: 0.182295248
           }
         }
-        ParentId: 8161964612837858728
+        ParentId: 1524627336936237323
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

@@ -15,11 +15,8 @@
             Z: 0.526720762
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 8868629231076689304
-        ChildIds: 2130549435117219460
-        ChildIds: 7133466357773598443
-        ChildIds: 11921997861169319528
+        ParentId: 16373807130785117515
+        ChildIds: 3717212590983615473
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -31,23 +28,55 @@
         }
       }
       Objects {
+        Id: 3717212590983615473
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -6.10351563e-05
+            Y: 3.05175781e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10120891325869536093
+        ChildIds: 8868629231076689304
+        ChildIds: 2130549435117219460
+        ChildIds: 7133466357773598443
+        ChildIds: 11921997861169319528
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
         Id: 8868629231076689304
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: 51.3824463
-            Y: 1.17565918
-            Z: 51.1230774
+            X: 51.3827133
+            Y: 1.176157
+            Z: 51.1230659
           }
           Rotation {
           }
           Scale {
             X: 3.13566589
             Y: 3.13566589
-            Z: 3.67893553
+            Z: 3.67893529
           }
         }
-        ParentId: 10120891325869536093
+        ParentId: 3717212590983615473
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -95,18 +124,18 @@
         Name: "Plastic Platform"
         Transform {
           Location {
-            X: 51.0246582
-            Y: 0.23059082
+            X: 51.0248108
+            Y: 0.230580181
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 10120891325869536093
+        ParentId: 3717212590983615473
         ChildIds: 10003952134834361980
         ChildIds: 8827927555213660623
         ChildIds: 12610085238990602166
@@ -491,19 +520,19 @@
         Name: "Water Spout"
         Transform {
           Location {
-            X: -149.061646
-            Y: -0.311645508
-            Z: 125.211563
+            X: -149.061157
+            Y: -0.311866522
+            Z: 125.211571
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 10120891325869536093
+        ParentId: 3717212590983615473
         ChildIds: 13516639385706898064
         ChildIds: 5769911953100780881
         ChildIds: 17102969695614653422
@@ -1074,19 +1103,19 @@
         Name: "Cage"
         Transform {
           Location {
-            X: 46.6542969
-            Y: -1.09448242
-            Z: 79.3124237
+            X: 46.6545334
+            Y: -1.09472859
+            Z: 79.3124466
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 10120891325869536093
+        ParentId: 3717212590983615473
         ChildIds: 7666204922292757701
         ChildIds: 112884946369875223
         ChildIds: 17657968739521539280

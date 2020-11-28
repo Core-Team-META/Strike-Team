@@ -15,23 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
-        ChildIds: 4447144690673905569
-        ChildIds: 3133433755398538271
-        ChildIds: 3380054598291011788
-        ChildIds: 7195164701222140783
-        ChildIds: 8798750429027352670
-        ChildIds: 16774615976781680854
-        ChildIds: 3826582693817739497
-        ChildIds: 13917817728194213523
-        ChildIds: 563327232475968095
-        ChildIds: 5868638797619073966
-        ChildIds: 7511960685385570258
-        ChildIds: 11624462459009711128
-        ChildIds: 6794775324342647447
-        ChildIds: 2513594018227467802
-        ChildIds: 9049676288366158122
-        ChildIds: 18429503479608260918
+        ParentId: 16373807130785117515
+        ChildIds: 13407646551194800581
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -43,12 +28,13 @@
         }
       }
       Objects {
-        Id: 4447144690673905569
+        Id: 13407646551194800581
         Name: "MergedModel"
         Transform {
           Location {
-            X: 10
-            Y: -5
+            X: 13.3402176
+            Y: -8.3897419
+            Z: 25.4262085
           }
           Rotation {
           }
@@ -59,7 +45,6 @@
           }
         }
         ParentId: 16170758792047843383
-        ChildIds: 6727915620091772321
         ChildIds: 15535629776186172063
         ChildIds: 13878725382293716196
         ChildIds: 933280158004051748
@@ -78,6 +63,22 @@
         ChildIds: 9065147436160979668
         ChildIds: 1307901464391319671
         ChildIds: 13657059226718698985
+        ChildIds: 3133433755398538271
+        ChildIds: 3380054598291011788
+        ChildIds: 7195164701222140783
+        ChildIds: 8798750429027352670
+        ChildIds: 16774615976781680854
+        ChildIds: 3826582693817739497
+        ChildIds: 13917817728194213523
+        ChildIds: 563327232475968095
+        ChildIds: 5868638797619073966
+        ChildIds: 7511960685385570258
+        ChildIds: 11624462459009711128
+        ChildIds: 6794775324342647447
+        ChildIds: 2513594018227467802
+        ChildIds: 9049676288366158122
+        ChildIds: 18429503479608260918
+        ChildIds: 6727915620091772321
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -90,55 +91,18 @@
         }
       }
       Objects {
-        Id: 6727915620091772321
-        Name: "Shipping Pallet - Square"
-        Transform {
-          Location {
-            X: 13.1083965
-            Y: 4.28613567
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4447144690673905569
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2347011262942164268
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 15535629776186172063
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 88.4123459
-            Y: 4.66651917
-            Z: 94.5699463
+            X: 85.0721436
+            Y: 8.05664063
+            Z: 69.1437378
           }
           Rotation {
             Pitch: -6.46771049
-            Yaw: -179.223526
-            Roll: -0.0874328911
+            Yaw: -179.223541
+            Roll: -0.0874328613
           }
           Scale {
             X: 0.703708172
@@ -146,7 +110,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 11712742834170890556
         ChildIds: 3725935850614643297
         Collidable_v2 {
@@ -304,9 +268,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 55.512085
-            Y: 4.66651535
-            Z: 65.9213257
+            X: 52.171875
+            Y: 8.05664063
+            Z: 40.4951172
           }
           Rotation {
           }
@@ -316,7 +280,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 9893858905871897808
         ChildIds: 4731751649843025108
         Collidable_v2 {
@@ -473,9 +437,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 66.2685547
-            Y: 4.66651917
-            Z: 39.979187
+            X: 62.9283447
+            Y: 8.05664063
+            Z: 14.5529785
           }
           Rotation {
           }
@@ -485,7 +449,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 11509235650295113374
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -572,12 +536,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 90.390358
-            Y: 99.6604156
-            Z: 82.2005615
+            X: 87.0501099
+            Y: 103.049805
+            Z: 56.774353
           }
           Rotation {
-            Yaw: -179.228485
+            Yaw: -179.2285
           }
           Scale {
             X: 0.703708172
@@ -585,7 +549,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 7347260477587684226
         ChildIds: 10297767748881468786
         Collidable_v2 {
@@ -743,9 +707,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 43.4339371
-            Y: 93.4519119
-            Z: 51.3683472
+            X: 40.09375
+            Y: 96.8418
+            Z: 25.9421387
           }
           Rotation {
           }
@@ -755,7 +719,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 4262654182340650967
         ChildIds: 567671735882671082
         Collidable_v2 {
@@ -912,9 +876,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 103.296356
-            Y: 97.5304184
-            Z: 25.4262085
+            X: 99.9561768
+            Y: 100.919922
           }
           Rotation {
             Yaw: -173.710724
@@ -925,7 +888,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 10903682049275505639
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1012,9 +975,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 43.4339828
-            Y: -96.7796478
-            Z: 51.3683472
+            X: 40.09375
+            Y: -93.3896484
+            Z: 25.9421387
           }
           Rotation {
           }
@@ -1024,7 +987,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 10925318539535907424
         ChildIds: 845581036264685256
         Collidable_v2 {
@@ -1181,9 +1144,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 45.6603
-            Y: -96.7796478
-            Z: 25.4262085
+            X: 42.3200684
+            Y: -93.3896484
           }
           Rotation {
           }
@@ -1193,7 +1155,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 7390066079520320989
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1280,12 +1242,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -41.5278091
-            Y: -100.884041
-            Z: 82.2005615
+            X: -44.868042
+            Y: -97.4941406
+            Z: 56.774353
           }
           Rotation {
-            Yaw: -179.228485
+            Yaw: -179.2285
           }
           Scale {
             X: 0.703708172
@@ -1293,7 +1255,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 2472731484229678174
         ChildIds: 13205079034899475829
         Collidable_v2 {
@@ -1451,9 +1413,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -95.2437439
-            Y: -96.779686
-            Z: 51.3683472
+            X: -98.5839844
+            Y: -93.3896484
+            Z: 25.9421387
           }
           Rotation {
           }
@@ -1463,7 +1425,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 15448532717106193372
         ChildIds: 2130997595361811305
         Collidable_v2 {
@@ -1620,9 +1582,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -93.0174332
-            Y: -96.7796783
-            Z: 25.4262085
+            X: -96.357666
+            Y: -93.3896484
           }
           Rotation {
           }
@@ -1632,7 +1593,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 15983026826131719280
         ChildIds: 6676585236079634738
         Collidable_v2 {
@@ -1789,12 +1750,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -41.527832
-            Y: -4.72046661
-            Z: 82.2005615
+            X: -44.868042
+            Y: -1.33105469
+            Z: 56.774353
           }
           Rotation {
-            Yaw: -179.228485
+            Yaw: -179.2285
           }
           Scale {
             X: 0.703708172
@@ -1802,7 +1763,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 17011092065515657709
         ChildIds: 14580402602508090049
         Collidable_v2 {
@@ -1960,9 +1921,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -95.2437668
-            Y: -4.72048187
-            Z: 51.3683472
+            X: -98.5839844
+            Y: -1.33105469
+            Z: 25.9421387
           }
           Rotation {
           }
@@ -1972,7 +1933,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 3546525588337985556
         ChildIds: 9699898056221721694
         Collidable_v2 {
@@ -2129,9 +2090,8 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -93.0174561
-            Y: -4.72047424
-            Z: 25.4262085
+            X: -96.357666
+            Y: -1.33105469
           }
           Rotation {
           }
@@ -2141,7 +2101,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 4741254100183914696
         ChildIds: 4545486838244967779
         Collidable_v2 {
@@ -2298,12 +2258,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -81.8050766
-            Y: 91.5106
-            Z: 82.2005615
+            X: -85.1452637
+            Y: 94.9003906
+            Z: 56.774353
           }
           Rotation {
-            Yaw: -8.09321499
+            Yaw: -8.09320927
           }
           Scale {
             X: 0.703708172
@@ -2311,7 +2271,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 930044939206488639
         ChildIds: 8550823539134224556
         Collidable_v2 {
@@ -2469,9 +2429,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -34.4520493
-            Y: 90.4091644
-            Z: 51.3684692
+            X: -37.7922363
+            Y: 93.7988281
+            Z: 25.9422607
           }
           Rotation {
             Yaw: 171.135056
@@ -2482,7 +2442,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 5229385522034406532
         ChildIds: 3064935117848315429
         Collidable_v2 {
@@ -2639,9 +2599,9 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: -34.4520493
-            Y: 90.4091644
-            Z: 30.4414063
+            X: -37.7922363
+            Y: 93.7988281
+            Z: 5.01519775
           }
           Rotation {
             Yaw: 171.135
@@ -2652,7 +2612,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 14071716215902102387
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2739,12 +2699,12 @@
         Name: "Cement Mix"
         Transform {
           Location {
-            X: 97.1499252
-            Y: -96.7796402
-            Z: 82.2005615
+            X: 93.8096924
+            Y: -93.3896484
+            Z: 56.774353
           }
           Rotation {
-            Yaw: -179.228485
+            Yaw: -179.2285
           }
           Scale {
             X: 0.703708172
@@ -2752,7 +2712,7 @@
             Z: 0.703708172
           }
         }
-        ParentId: 4447144690673905569
+        ParentId: 13407646551194800581
         ChildIds: 9366516016640447873
         ChildIds: 3985556237227623428
         Collidable_v2 {
@@ -2910,14 +2870,14 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 85.6290283
-            Y: -68.3183594
-            Z: 99.9389648
+            X: 72.2888184
+            Y: -59.9287109
+            Z: 74.5127563
           }
           Rotation {
-            Pitch: 6.94555759
-            Yaw: -15.5772295
-            Roll: -33.6486664
+            Pitch: 6.94555092
+            Yaw: -15.5772476
+            Roll: -33.6486778
           }
           Scale {
             X: 0.245338961
@@ -2925,7 +2885,7 @@
             Z: 0.564702749
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -2958,12 +2918,12 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 74.3443604
-            Y: 59.6895752
-            Z: 96.319458
+            X: 61.0041504
+            Y: 68.0791
+            Z: 70.8932495
           }
           Rotation {
-            Roll: 15.7975521
+            Roll: 15.7975674
           }
           Scale {
             X: 0.313671291
@@ -2971,7 +2931,7 @@
             Z: 0.721983492
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -3004,14 +2964,14 @@
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: -67.2839355
-            Y: -68.3183594
-            Z: 99.9389648
+            X: -80.6241455
+            Y: -59.9287109
+            Z: 74.5127563
           }
           Rotation {
             Pitch: 17.7665291
-            Yaw: -10.5131388
-            Roll: -15.5087442
+            Yaw: -10.513155
+            Roll: -15.5087633
           }
           Scale {
             X: 0.245338961
@@ -3019,7 +2979,7 @@
             Z: 0.564702749
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -3052,9 +3012,9 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 65.0135498
-            Y: 94.628418
-            Z: 136.725586
+            X: 51.6733398
+            Y: 103.017578
+            Z: 111.299377
           }
           Rotation {
             Pitch: 0.722272
@@ -3066,7 +3026,7 @@
             Z: 0.292220771
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3127,9 +3087,9 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 91.7597656
-            Y: -22.9174805
-            Z: 160.919128
+            X: 78.4195557
+            Y: -14.5273438
+            Z: 135.49292
           }
           Rotation {
             Pitch: 0.722272
@@ -3141,7 +3101,7 @@
             Z: 0.292220771
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3202,9 +3162,9 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -59.7896729
-            Y: 83.9876709
-            Z: 121.059387
+            X: -73.1298828
+            Y: 92.3769531
+            Z: 95.6331787
           }
           Rotation {
             Pitch: 0.722272
@@ -3216,7 +3176,7 @@
             Z: 0.292220742
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3277,9 +3237,9 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -61.5556641
-            Y: -12.3162842
-            Z: 140.374268
+            X: -74.895874
+            Y: -3.92675781
+            Z: 114.948059
           }
           Rotation {
             Pitch: 0.722272
@@ -3291,7 +3251,7 @@
             Z: 0.292220771
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3352,9 +3312,9 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -72.6777344
-            Y: -101.785034
-            Z: 126.296265
+            X: -86.0179443
+            Y: -93.3955078
+            Z: 100.870056
           }
           Rotation {
             Pitch: 0.722272
@@ -3366,7 +3326,7 @@
             Z: 0.292220771
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3423,9 +3383,9 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 82.791748
-            Y: -101.785034
-            Z: 126.296265
+            X: 69.4515381
+            Y: -93.3955078
+            Z: 100.870056
           }
           Rotation {
             Pitch: 0.722272
@@ -3437,7 +3397,7 @@
             Z: 0.292220771
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3494,14 +3454,14 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 75.5822754
-            Y: 98.6663818
-            Z: 134.840515
+            X: 62.2420654
+            Y: 107.055664
+            Z: 109.414307
           }
           Rotation {
             Pitch: 0.819923162
             Yaw: 0.664764643
-            Roll: -7.79971313
+            Roll: -7.79972219
           }
           Scale {
             X: 0.29856512
@@ -3509,7 +3469,7 @@
             Z: 0.448005676
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3566,14 +3526,14 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 78.203064
-            Y: -18.3494873
-            Z: 146.973206
+            X: 64.862854
+            Y: -9.95996094
+            Z: 121.547
           }
           Rotation {
             Pitch: 0.928113401
             Yaw: 0.502805173
-            Roll: -18.3869934
+            Roll: -18.387
           }
           Scale {
             X: 0.298565269
@@ -3581,7 +3541,7 @@
             Z: 0.448006511
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3638,14 +3598,14 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -48.039917
-            Y: 88.0256348
-            Z: 132.911621
+            X: -61.380127
+            Y: 96.4150391
+            Z: 107.485413
           }
           Rotation {
             Pitch: 0.819923162
             Yaw: 0.664764643
-            Roll: -7.79971313
+            Roll: -7.79972219
           }
           Scale {
             X: 0.29856512
@@ -3653,7 +3613,7 @@
             Z: 0.448005676
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3710,14 +3670,14 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -48.039917
-            Y: -8.27832
-            Z: 137.778687
+            X: -61.380127
+            Y: 0.111328125
+            Z: 112.352478
           }
           Rotation {
             Pitch: 0.819923162
             Yaw: 0.664764643
-            Roll: -7.79971313
+            Roll: -7.79972219
           }
           Scale {
             X: 0.29856512
@@ -3725,7 +3685,7 @@
             Z: 0.448005676
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3782,14 +3742,14 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: -62.1090088
-            Y: -97.7470703
-            Z: 141.527039
+            X: -75.4492188
+            Y: -89.3574219
+            Z: 116.10083
           }
           Rotation {
             Pitch: 0.819923162
             Yaw: 0.664764643
-            Roll: -7.79971313
+            Roll: -7.79972219
           }
           Scale {
             X: 0.29856512
@@ -3797,7 +3757,7 @@
             Z: 0.448005676
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3854,14 +3814,14 @@
         Name: "2D Basic Shapes Decal"
         Transform {
           Location {
-            X: 93.3604736
-            Y: -97.7470703
-            Z: 141.527039
+            X: 80.0202637
+            Y: -89.3574219
+            Z: 116.10083
           }
           Rotation {
             Pitch: 0.819923162
             Yaw: 0.664764643
-            Roll: -7.79971313
+            Roll: -7.79972219
           }
           Scale {
             X: 0.29856512
@@ -3869,7 +3829,7 @@
             Z: 0.448005676
           }
         }
-        ParentId: 16170758792047843383
+        ParentId: 13407646551194800581
         UnregisteredParameters {
           Overrides {
             Name: "bp:Sides"
@@ -3921,14 +3881,43 @@
           }
         }
       }
-    }
-    Assets {
-      Id: 2347011262942164268
-      Name: "Shipping Pallet - Square"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_shipping_pallet_002"
+      Objects {
+        Id: 6727915620091772321
+        Name: "Shipping Pallet - Square"
+        Transform {
+          Location {
+            X: 9.76818848
+            Y: 7.67578125
+            Z: -25.4262085
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13407646551194800581
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2347011262942164268
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
     }
     Assets {
@@ -3974,6 +3963,15 @@
       PrimaryAsset {
         AssetType: "DecalBlueprintAssetRef"
         AssetId: "dcl_basicShapes"
+      }
+    }
+    Assets {
+      Id: 2347011262942164268
+      Name: "Shipping Pallet - Square"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_mil_shipping_pallet_002"
       }
     }
     PrimaryAssetId {

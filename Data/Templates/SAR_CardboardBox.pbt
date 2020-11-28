@@ -10,12 +10,40 @@
         Name: "SAR_CardboardBox"
         Transform {
           Scale {
+            X: 0.87151593
+            Y: 0.87151593
+            Z: 0.87151593
+          }
+        }
+        ParentId: 16373807130785117515
+        ChildIds: 6521087275050660737
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 6521087275050660737
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -2.97404361
+            Y: 1.55045068
+          }
+          Rotation {
+          }
+          Scale {
             X: 1
             Y: 1
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 647263379746625074
         ChildIds: 1277046181722558263
         ChildIds: 14305844087393245505
         ChildIds: 15146634893118300654
@@ -29,7 +57,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -37,16 +66,18 @@
         Name: "Collision"
         Transform {
           Location {
+            X: 2.97378612
+            Y: -1.55063915
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 647263379746625074
+        ParentId: 6521087275050660737
         ChildIds: 1225026563709392758
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -102,19 +133,19 @@
         Name: "Decals"
         Transform {
           Location {
-            X: -17.8442612
-            Y: 9.3002615
-            Z: 27.7357788
+            X: -14.8706017
+            Y: 7.74964619
+            Z: 27.7357769
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 647263379746625074
+        ParentId: 6521087275050660737
         ChildIds: 4742964576129478806
         ChildIds: 17138756979979369853
         ChildIds: 1324667500093154051
@@ -374,20 +405,21 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: 10.4467773
-            Y: -52.3740234
+            X: 13.4204102
+            Y: -53.9257813
             Z: 99.4165039
           }
           Rotation {
+            Yaw: 6.87825491e-07
             Roll: 88.2234802
           }
           Scale {
-            X: 0.989990473
-            Y: -0.012
+            X: 0.989990413
+            Y: -0.0119999992
             Z: 0.545185566
           }
         }
-        ParentId: 647263379746625074
+        ParentId: 6521087275050660737
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -422,18 +454,18 @@
         Name: "Container - Square Thin 01"
         Transform {
           Location {
-            X: 10.2592773
-            Y: -2.61376953
+            X: 13.2330036
+            Y: -4.16449642
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 647263379746625074
+        ParentId: 6521087275050660737
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -472,21 +504,22 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: 10.3457031
-            Y: 47.3896484
+            X: 13.3195801
+            Y: 45.8378906
             Z: 99.5164795
           }
           Rotation {
-            Yaw: -179.999985
-            Roll: 84.1856689
+            Pitch: -1.36603776e-05
+            Yaw: -179.999954
+            Roll: 84.1856537
           }
           Scale {
-            X: 0.997988224
-            Y: -0.012
+            X: 0.997988164
+            Y: -0.0119999992
             Z: 0.545185566
           }
         }
-        ParentId: 647263379746625074
+        ParentId: 6521087275050660737
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -521,22 +554,22 @@
         Name: "Cube - Rounded - bottom aligned"
         Transform {
           Location {
-            X: -31.0517578
-            Y: 7.60058594
+            X: -28.0778809
+            Y: 6.04882813
             Z: 103.98877
           }
           Rotation {
-            Pitch: 5.13053751
+            Pitch: 5.13053036
             Yaw: 178.859314
-            Roll: 77.4474564
+            Roll: 77.4474182
           }
           Scale {
             X: 0.155048504
-            Y: -0.0120003484
-            Z: 0.152004391
+            Y: -0.0120003475
+            Z: 0.152004376
           }
         }
-        ParentId: 647263379746625074
+        ParentId: 6521087275050660737
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
