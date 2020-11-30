@@ -54,6 +54,7 @@
         ChildIds: 13930589561691189866
         ChildIds: 8656010210847409083
         ChildIds: 766014253442854305
+        ChildIds: 3547575358162168523
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -467,6 +468,55 @@
           }
         }
       }
+      Objects {
+        Id: 3547575358162168523
+        Name: "Epic Explosions Set 01 SFX"
+        Transform {
+          Location {
+            X: -678.691772
+            Y: 412.210541
+            Z: -3.81469727e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12652109128740801931
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_explosions_standalone:17"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15800999642521067511
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Volume: 1
+            Falloff: 3600
+            Radius: 400
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
     }
     Assets {
       Id: 4754983591477676959
@@ -538,6 +588,15 @@
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_shell_ejection"
+      }
+    }
+    Assets {
+      Id: 15800999642521067511
+      Name: "Epic Explosions Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_epic_explosion_set_01_ref"
       }
     }
     PrimaryAssetId {

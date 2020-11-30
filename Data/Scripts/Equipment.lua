@@ -8,9 +8,13 @@ function Equipment.New(data)
 end
 
 function Equipment:SpawnEquipment()
-    self.data.spawnItem = World.SpawnAsset(self.data.weapon)
-    World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
-    return self.data.spawnItem
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self.data.weapon)
+        if(self:GetEquippedSkin()) then
+            World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
+        end
+        return self.data.spawnItem
+    end
 end
 
 function Equipment:SpawnEquipmentWithSkin(skinid)
@@ -18,6 +22,15 @@ function Equipment:SpawnEquipmentWithSkin(skinid)
     self:SpawnEquipment()
     return self.data.spawnItem
 end
+
+function Equipment:EquipSkinByRandom()
+    if(self:HasSkins()) then
+        self.data.EquippedSkin = self.data.skins[ math.random( #self.data.skins) ]
+        if(math.random( #self.data.skins + 1) >  #self.data.skins ) then self.data.EquippedSkin = nil end
+    end
+    
+end
+
 
 function Equipment:EquipSkinByID(skinid)
     for _, skin in pairs(self.data.skins) do

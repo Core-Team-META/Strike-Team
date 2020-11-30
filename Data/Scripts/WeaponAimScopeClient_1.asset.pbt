@@ -3,6 +3,18 @@
   Name: "WeaponAimScopeClient"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+      Overrides {
+        Name: "cs:ScopeTemplate"
+        AssetReference {
+        }
+      }
+      Overrides {
+        Name: "cs:ClientArt"
+        ObjectReference {
+        }
+      }
+    }
   }
   SerializationVersion: 68
 }

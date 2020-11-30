@@ -25,6 +25,14 @@ function GetSlot(player,slot)
     return Data["Loadouts"][slot]
 end
 
+function UnequipPlayer(player)
+    player.serverUserData.PrimaryWeapon:Destroy()
+    player.serverUserData.SecondaryWeapon:Destroy()
+    player.serverUserData.Equipment:Destroy()
+    player.serverUserData.Perk:Destroy()
+end
+
+
 function EquipPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     local EquipString = GetSlot(player,tostring( Data["EquipSlot"]))
@@ -41,16 +49,16 @@ function EquipPlayer(player)
 
     local Primary = primaryItem:SpawnEquipment()
     local Secondary = secondaryItem:SpawnEquipment()
-    --local Equipment = equipmentItem:SpawnEquipment()
-    --local Perk = perkItem:SpawnEquipment()
+    local Equipment = equipmentItem:SpawnEquipment()
+    local Perk = perkItem:SpawnEquipment()
 
     player.serverUserData.PrimaryWeapon = Primary
     player.serverUserData.SecondaryWeapon = Secondary
-    --player.serverUserData.Equipment = Equipment
-    --player.serverUserData.Perk = Perk
+    player.serverUserData.Equipment = Equipment
+    player.serverUserData.Perk = Perk
 
-    Events.Broadcast("AddWeaponToBackPack", player, Primary, primaryItem.data.Hoister)
-    Events.Broadcast("AddWeaponToBackPack", player, Secondary, secondaryItem.data.Hoister)
+    Events.Broadcast("AddWeaponToBackPack", player, Primary, primaryItem.data.Hoister, {rotation = primaryItem.data.Rotation_Offset})
+    Events.Broadcast("AddWeaponToBackPack", player, Secondary, secondaryItem.data.Hoister,  {rotation = secondaryItem.data.Rotation_Offset})
     Task.Wait()
     Events.Broadcast("EquipWeapon", player, Primary)
 end
@@ -85,6 +93,12 @@ function SetupPlayer(player)
 end
 
 Events.ConnectForPlayer("EquipLoadout",SetEquiped)
+Events.ConnectForPlayer("EquipSlot",function ( player,slot)
+    SetEquiped(player,slot)
+    UnequipPlayer(player)
+    EquipPlayer(player)
+end)
+
 Events.ConnectForPlayer("RequestData", RequestData)
 
 Game.playerJoinedEvent:Connect(function (player )

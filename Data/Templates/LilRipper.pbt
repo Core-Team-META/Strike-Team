@@ -79,14 +79,13 @@
         Name: "Hitbox Trigger"
         Transform {
           Location {
-            X: 115
           }
           Rotation {
           }
           Scale {
-            X: 4
-            Y: 4
-            Z: 4
+            X: 0.518295407
+            Y: 0.518295407
+            Z: 0.518295407
           }
         }
         ParentId: 7828459315062628861

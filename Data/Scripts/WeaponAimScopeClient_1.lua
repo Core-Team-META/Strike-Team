@@ -34,9 +34,9 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
---local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject()
---local ZOOM_SOUND = script:GetCustomProperty("ZoomSound"):WaitForObject()
+local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject(2)
 local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+--local ZOOM_SOUND = script:GetCustomProperty("ZoomSound"):WaitForObject()
 
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
 while not Object.IsValid(RELOAD_ABILITY) do
@@ -50,7 +50,7 @@ local AIM_BINDING = WEAPON:GetCustomProperty("AimBinding")
 local ZOOM_DISTANCE = WEAPON:GetCustomProperty("AimZoomDistance")
 local ZOOM_FOV = WEAPON:GetCustomProperty("AimZoomFOV")
 local AIM_ZOOM_SPEED = WEAPON:GetCustomProperty("AimZoomSpeed")
-local SCOPE_TEMPLATE = WEAPON:GetCustomProperty("ScopeTemplate")
+local SCOPE_TEMPLATE = script:GetCustomProperty("ScopeTemplate")
 
 -- Internal constant variable
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -88,16 +88,25 @@ function Tick(deltaTime)
 end
 
 -- Lerps the camera distance and FOV
+function LerpScope(deltaTime)
+    if not activeCamera then return end
+    if not scopeInstance then return end
+
+    scopeInstance:SetPosition(activeCamera:GetPositionOffset() - cameraResetPosOffset)
+    scopeInstance:SetRotation(activeCamera:GetRotationOffset() - cameraResetRotOffset)
+end
+
+-- Lerps the camera distance and FOV
 function LerpCamera(deltaTime)
     if not activeCamera then return end
     if lerpTime >= 1 then
         if isScoping and scopeInstance and not scopeInstance:IsVisibleInHierarchy() then
-            scopeInstance.visibility = Visibility.FORCE_ON
+            scopeInstance.visibility = Visibility.INHERIT
         end
         return
     end
 
-    lerpTime = CoreMath.Clamp(lerpTime + deltaTime * AIM_ZOOM_SPEED)
+    lerpTime = lerpTime + deltaTime * AIM_ZOOM_SPEED
     activeCamera.fieldOfView = CoreMath.Lerp(activeCamera.fieldOfView, cameraTargetFOV, lerpTime)
     activeCamera.currentDistance = CoreMath.Lerp(activeCamera.currentDistance, cameraTargetDistance, lerpTime)
 end
@@ -107,6 +116,9 @@ end
     if not Object.IsValid(player) then
         return nil
     end
+    
+    if not player.GetOverrideCamera then
+	end
 
     if player:GetOverrideCamera() then
         return player:GetOverrideCamera()
@@ -122,7 +134,11 @@ function EnableScoping(player)
     -- Set camera scoping values
     cameraTargetDistance = ZOOM_DISTANCE
     cameraTargetFOV = ZOOM_FOV
-
+    --move Camera to the right
+    activeCamera = GetPlayerActiveCamera(player)
+    if activeCamera then
+        activeCamera:SetPositionOffset(Vector3.New(0,12,0))
+    end
     -- Set internal scoping values
     lerpTime = 0
     isScoping = true
@@ -134,14 +150,17 @@ function EnableScoping(player)
     end
     if SCOPE_TEMPLATE and not Object.IsValid(scopeInstance) then
         scopeInstance = World.SpawnAsset(SCOPE_TEMPLATE)
-        scopeInstance.visibility = Visibility.FORCE_ON
+        scopeInstance.visibility = Visibility.INHERIT
         scopeInstance:AttachToLocalView(player)
+        scopeInstance.clientUserData.attackAbility = ATTACK_ABILITY
     end
 
     -- Play scoping sound to the local player
     if Object.IsValid(ZOOM_SOUND) and player == LOCAL_PLAYER then
         ZOOM_SOUND:Play()
     end
+
+
 
     -- Broadcast to client scripts the state of weapon aiming
     Events.Broadcast("WeaponAiming", player, true)
@@ -157,19 +176,29 @@ function ResetScoping(player)
     isScoping = false
     player.isVisibleToSelf = true
 
+        --move Camera to the right
+    activeCamera = GetPlayerActiveCamera(player)
+    if activeCamera then
+        activeCamera:SetPositionOffset(Vector3.New(0,0,0))
+    end
+
     -- Reset weapon's art visibility and scope instance
     if Object.IsValid(WEAPON_ART) then
-        WEAPON_ART.visibility = Visibility.FORCE_ON
+        WEAPON_ART.visibility = Visibility.INHERIT
     end
     if Object.IsValid(scopeInstance) then
         scopeInstance.visibility = Visibility.FORCE_OFF
     end
 
     -- Play scoping sound to the local player
+    if Object.IsValid(WEAPON) then
     if Object.IsValid(ZOOM_SOUND) and player == LOCAL_PLAYER then
+    
         if RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.CAST then
             ZOOM_SOUND:Play()
         end
+        
+    end
     end
 
     -- Broadcast to client scripts the state of weapon aiming
@@ -207,6 +236,8 @@ function OnEquipped(weapon, player)
     if activeCamera then
         cameraResetDistance = activeCamera.currentDistance
         cameraResetFOV = activeCamera.fieldOfView
+        cameraResetPosOffset = activeCamera:GetPositionOffset()
+        cameraResetRotOffset = activeCamera:GetRotationOffset()
 
         cameraTargetDistance = cameraResetDistance
         cameraTargetFOV = cameraResetFOV
@@ -243,6 +274,21 @@ function OnReload(ability)
     ResetScoping(ability.owner)
 end
 
+-- Check sprint
+function CheckSprint(states)
+    if not Object.IsValid(WEAPON) then return end
+    if LOCAL_PLAYER ~= WEAPON.owner then return end
+    if not isScoping then return end
+
+    local speedType = states.Running and "Run" or "Walk"
+
+	if speedType == "Run" then
+		ResetScoping(LOCAL_PLAYER)
+	end
+end
+
 -- Initialize
 WEAPON.unequippedEvent:Connect(OnUnequipped)
 RELOAD_ABILITY.castEvent:Connect(OnReload)
+
+Events.Connect("ChangeMovementType", CheckSprint)

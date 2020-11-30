@@ -147,7 +147,7 @@ Objects {
         }
         Overrides {
           Name: "cs:ShowOnEnemies"
-          Bool: false
+          Bool: true
         }
         Overrides {
           Name: "cs:ShowHealthbars"
@@ -188,6 +188,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 10226105580396347048
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 6707503471255184328
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 10626000548712262320
       value {

@@ -21,6 +21,8 @@ local SINGLE_LINE = ROOT:GetCustomProperty("LineTemplate")
 
 local LINE_NUM = ROOT:GetCustomProperty("NumLines")
 local LINE_DURATION = ROOT:GetCustomProperty("LineDuration")
+local LINE_HEIGHT = ROOT:GetCustomProperty("LineHeight")
+local FONT_SIZE = math.ceil(LINE_HEIGHT/2)
 local TEXT_COLOR = ROOT:GetCustomProperty("TextColor")
 local SELF_COLOR = ROOT:GetCustomProperty("SelfTextColor")
 
@@ -117,6 +119,8 @@ if not (_G.AjKillFeed) then
     _G.AjKillFeed.TextCountingUtils = require(script:GetCustomProperty("TextCountingUtils"))
     _G.AjKillFeed.ReactionTable = {}
     _G.AjKillFeed.LocalReactionToggle = ALLOW_REACTING
+    _G.AjKillFeed.lineHeight = LINE_HEIGHT
+    _G.AjKillFeed.fontSize = FONT_SIZE
 end
 
 local function updateCurrentLines()
@@ -148,6 +152,7 @@ local function AddLine(killer,killed,source,extraCode)
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
+    line.height = LINE_HEIGHT
     local lineContent = {}
     --initialize left text
     local leftText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
@@ -160,14 +165,14 @@ local function AddLine(killer,killed,source,extraCode)
             if(killer.team == thisPlayer.team) then
                 leftText:SetColor(TEAM_COLORS[1])
             else
-                --print("Using secondary color for: " .. tostring(killed.name))
                 leftText:SetColor(TEAM_COLORS[2])
             end
         end
     else --posibility of no killer
         leftText.text = ""
     end
-
+    leftText.height = LINE_HEIGHT
+    leftText.fontSize = FONT_SIZE
     leftText.width = TCU.CalculateWidth(leftText.text,leftText.fontSize)
     table.insert(lineContent,leftText)
 
@@ -198,6 +203,8 @@ local function AddLine(killer,killed,source,extraCode)
     end
 
     if Object.IsValid(basicImage) then
+        basicImage.width = LINE_HEIGHT
+        basicImage.height = LINE_HEIGHT
         basicImage.x = calculateOffset(lineContent)
         table.insert(lineContent,basicImage)
     end
@@ -235,6 +242,8 @@ local function AddLine(killer,killed,source,extraCode)
         end
        
         if Object.IsValid(extraImage) then
+            extraImage.width = LINE_HEIGHT
+            extraImage.height = LINE_HEIGHT
             extraImage.x = calculateOffset(lineContent)
             table.insert(lineContent,extraImage)
         end
@@ -250,11 +259,12 @@ local function AddLine(killer,killed,source,extraCode)
         if(killed.team == thisPlayer.team) then
             rightText:SetColor(TEAM_COLORS[1])
         else
-            --print("Using secondary color for: " .. tostring(killed.name))
+            print("Using secondary color for: " .. tostring(killed.name))
             rightText:SetColor(TEAM_COLORS[2])
         end
     end
-
+    rightText.fontSize = FONT_SIZE
+    rightText.height = LINE_HEIGHT
     rightText.width = TCU.CalculateWidth(rightText.text,rightText.fontSize)
     rightText.x = calculateOffset(lineContent)
     table.insert(lineContent,rightText)
@@ -277,6 +287,7 @@ local function AddSingleLine(killer,killed,source)
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
+    line.height = LINE_HEIGHT
     local lineContent = {}
 
     --initialize text
@@ -297,6 +308,8 @@ local function AddSingleLine(killer,killed,source)
             Text.text = Text.text .. " to " .. source.name
         end
     end
+    Text.fontSize = FONT_SIZE
+    Text.height = LINE_HEIGHT
     Text.width = TCU.CalculateWidth(Text.text,Text.fontSize)
     table.insert(lineContent,Text)
 
@@ -486,12 +499,15 @@ function OnPlayerJoined(player)
 
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
+    line.height = LINE_HEIGHT
     local lineContent = {}
 
     --initialize left text
     local leftText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
     leftText.text = player.name .. " has joined"
 
+    leftText.fontSize = FONT_SIZE
+    leftText.height = LINE_HEIGHT
     leftText.width = TCU.CalculateWidth(leftText.text,leftText.fontSize)
     table.insert(lineContent,leftText)
 
@@ -507,6 +523,8 @@ function OnPlayerJoined(player)
     end
 
     if Object.IsValid(image) then
+        image.height = LINE_HEIGHT
+        image.width = LINE_HEIGHT
         image.x = calculateOffset(lineContent)
     end
 
@@ -532,12 +550,14 @@ function OnPlayerLeft(player)
 
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
+    line.height = LINE_HEIGHT
     local lineContent = {}
 
     --initialize left text
     local leftText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
     leftText.text = player.name .. " has left"
-
+    leftText.height = LINE_HEIGHT
+    leftText.fontSize = FONT_SIZE
     leftText.width = TCU.CalculateWidth(leftText.text,leftText.fontSize)
     table.insert(lineContent,leftText)
 
@@ -553,6 +573,8 @@ function OnPlayerLeft(player)
     end
 
     if Object.IsValid(image) then
+        image.height = LINE_HEIGHT
+        image.width = LINE_HEIGHT
         image.x = calculateOffset(lineContent)
     end
 

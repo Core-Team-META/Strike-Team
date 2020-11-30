@@ -299,6 +299,10 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:RoundEndDuration"
+          Float: 30
+        }
       }
     }
     TemplateAsset {

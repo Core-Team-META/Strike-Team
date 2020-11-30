@@ -17,6 +17,7 @@
         }
         ParentId: 4781671109827199097
         ChildIds: 7727032921054867838
+        ChildIds: 7791156977695207987
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -2556,6 +2557,47 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 7791156977695207987
+        Name: "WeaponAimScopeClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15595152309687486240
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ScopeTemplate"
+            AssetReference {
+              Id: 15731763832375897749
+            }
+          }
+          Overrides {
+            Name: "cs:ClientArt"
+            ObjectReference {
+              SubObjectId: 7727032921054867838
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13511250510657008800
+          }
         }
       }
     }

@@ -15,11 +15,6 @@
         }
       }
       Overrides {
-        Name: "cs:ADSSkin"
-        AssetReference {
-        }
-      }
-      Overrides {
         Name: "cs:Description"
         String: ""
       }

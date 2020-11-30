@@ -23,11 +23,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 35
+            Float: 42
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 70
+            Float: 56
           }
           Overrides {
             Name: "cs:EnableAutoReload"
@@ -217,7 +217,7 @@
               Id: 841534158063459245
             }
             BurstCount: 30
-            BurstDuration: 7.5
+            BurstDuration: 9
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -385,7 +385,6 @@
         ChildIds: 17743033836073121176
         ChildIds: 13418161704827006226
         ChildIds: 9560006649715218522
-        ChildIds: 17130276210910448628
         ChildIds: 13719460846294078010
         UnregisteredParameters {
         }
@@ -694,53 +693,6 @@
         }
       }
       Objects {
-        Id: 17130276210910448628
-        Name: "WeaponAimScopeClient"
-        Transform {
-          Location {
-            X: -820.000244
-            Y: -2760.00024
-            Z: -75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 10873547885058510860
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SelfId: 3794737698704237247
-            }
-          }
-          Overrides {
-            Name: "cs:ZoomSound"
-            ObjectReference {
-              SelfId: 17686650604073824764
-              SubObjectId: 13319689260128336710
-              InstanceId: 10289681412662137291
-              TemplateId: 4858933102386001352
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 15639168507136770568
-          }
-        }
-      }
-      Objects {
         Id: 13719460846294078010
         Name: "Recoil"
         Transform {
@@ -755,6 +707,16 @@
           }
         }
         ParentId: 10873547885058510860
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:AMMOUNT"
+            Float: 3
+          }
+          Overrides {
+            Name: "cs:DURATION"
+            Float: 0.05
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

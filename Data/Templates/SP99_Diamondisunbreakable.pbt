@@ -16,13 +16,8 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 9044403124331672842
-        ChildIds: 1882305295761158752
-        ChildIds: 11314502075259249340
-        ChildIds: 3072829017001383134
-        ChildIds: 8016482631751620410
-        ChildIds: 18429824413507638440
-        ChildIds: 17209120983179615657
+        ChildIds: 3909401435773668377
+        ChildIds: 10994175205051545506
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -36,12 +31,11 @@
         }
       }
       Objects {
-        Id: 9044403124331672842
-        Name: "Sights"
+        Id: 3909401435773668377
+        Name: "Skin"
         Transform {
           Location {
-            X: 15.6519165
-            Z: 20.9868774
+            X: 16.9868679
           }
           Rotation {
           }
@@ -52,6 +46,40 @@
           }
         }
         ParentId: 13247470073293686434
+        ChildIds: 9044403124331672842
+        ChildIds: 1882305295761158752
+        ChildIds: 11314502075259249340
+        ChildIds: 3072829017001383134
+        ChildIds: 8016482631751620410
+        ChildIds: 18429824413507638440
+        ChildIds: 17209120983179615657
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9044403124331672842
+        Name: "Sights"
+        Transform {
+          Location {
+            X: -1.33496094
+            Z: 20.9868774
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3909401435773668377
         ChildIds: 14368908182227240878
         ChildIds: 14580534626773943436
         Collidable_v2 {
@@ -199,6 +227,7 @@
         Name: "Frame"
         Transform {
           Location {
+            X: -16.9868774
           }
           Rotation {
           }
@@ -208,7 +237,7 @@
             Z: 1
           }
         }
-        ParentId: 13247470073293686434
+        ParentId: 3909401435773668377
         ChildIds: 4892084844665477250
         ChildIds: 17602686557742803781
         ChildIds: 7424009221021121072
@@ -2036,7 +2065,7 @@
         Name: "Barrel Attatchment"
         Transform {
           Location {
-            X: 55.9694214
+            X: 38.9825439
             Z: 14.7339478
           }
           Rotation {
@@ -2047,7 +2076,7 @@
             Z: 1
           }
         }
-        ParentId: 13247470073293686434
+        ParentId: 3909401435773668377
         ChildIds: 6367621818706562928
         ChildIds: 2206581041855102289
         Collidable_v2 {
@@ -2096,7 +2125,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17177425172148499381
+              Id: 14212988502358508072
             }
           }
           Overrides {
@@ -2169,7 +2198,7 @@
         Name: "Front Grip"
         Transform {
           Location {
-            X: 30.8572235
+            X: 13.8703613
             Z: 10.2255402
           }
           Rotation {
@@ -2180,7 +2209,7 @@
             Z: 1
           }
         }
-        ParentId: 13247470073293686434
+        ParentId: 3909401435773668377
         ChildIds: 17883965604329651868
         ChildIds: 18126012014201769809
         Collidable_v2 {
@@ -2311,7 +2340,7 @@
         Name: "Pistol Grip"
         Transform {
           Location {
-            X: 1.16152954
+            X: -15.8253784
             Z: 10.0285645
           }
           Rotation {
@@ -2322,7 +2351,7 @@
             Z: 1
           }
         }
-        ParentId: 13247470073293686434
+        ParentId: 3909401435773668377
         ChildIds: 13779221250550399607
         ChildIds: 16524683554693360102
         Collidable_v2 {
@@ -2490,7 +2519,7 @@
         Name: "Mag"
         Transform {
           Location {
-            X: 23.3313675
+            X: 6.34448242
             Z: 4.31669617
           }
           Rotation {
@@ -2501,7 +2530,7 @@
             Z: 1
           }
         }
-        ParentId: 13247470073293686434
+        ParentId: 3909401435773668377
         ChildIds: 16487751066362730646
         ChildIds: 18101100272688490747
         ChildIds: 7205735750021365741
@@ -3062,7 +3091,7 @@
         Name: "Stock"
         Transform {
           Location {
-            X: -8.06339264
+            X: -25.050293
             Z: 14.6015778
           }
           Rotation {
@@ -3073,7 +3102,7 @@
             Z: 1
           }
         }
-        ParentId: 13247470073293686434
+        ParentId: 3909401435773668377
         ChildIds: 10840842855635270512
         ChildIds: 3122527772047861957
         ChildIds: 5096718741450757165
@@ -3294,6 +3323,47 @@
           StaticMesh {
             Physics {
             }
+          }
+        }
+      }
+      Objects {
+        Id: 10994175205051545506
+        Name: "WeaponAimScopeClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13247470073293686434
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ClientArt"
+            ObjectReference {
+              SubObjectId: 3909401435773668377
+            }
+          }
+          Overrides {
+            Name: "cs:ScopeTemplate"
+            AssetReference {
+              Id: 16324774529860835244
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13511250510657008800
           }
         }
       }

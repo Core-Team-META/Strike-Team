@@ -23,11 +23,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 35
+            Float: 84
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 70
+            Float: 175
           }
           Overrides {
             Name: "cs:EnableAutoReload"
@@ -217,7 +217,7 @@
               Id: 841534158063459245
             }
             BurstCount: 30
-            BurstDuration: 7.5
+            BurstDuration: 1.4
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -227,7 +227,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 30
+            MaxAmmo: 6
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 25000
@@ -385,7 +385,6 @@
         ChildIds: 16178003727689148145
         ChildIds: 13875824776426719028
         ChildIds: 9177895740570040474
-        ChildIds: 5160048828369824484
         ChildIds: 5087193835861723281
         UnregisteredParameters {
         }
@@ -694,53 +693,6 @@
         }
       }
       Objects {
-        Id: 5160048828369824484
-        Name: "WeaponAimScopeClient"
-        Transform {
-          Location {
-            X: -820.000244
-            Y: -2760.00024
-            Z: -75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 10166803458318353738
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SelfId: 2194130947676905584
-            }
-          }
-          Overrides {
-            Name: "cs:ZoomSound"
-            ObjectReference {
-              SelfId: 17686650604073824764
-              SubObjectId: 13319689260128336710
-              InstanceId: 10289681412662137291
-              TemplateId: 4858933102386001352
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 15639168507136770568
-          }
-        }
-      }
-      Objects {
         Id: 5087193835861723281
         Name: "Recoil"
         Transform {
@@ -758,7 +710,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 15
+            Float: 7
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -854,7 +806,7 @@
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.3
+            Duration: 3.5
             CanMove: true
             CanJump: true
             CanRotate: true

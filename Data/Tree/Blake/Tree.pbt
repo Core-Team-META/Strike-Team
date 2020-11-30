@@ -1,6 +1,47 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 17418436480729624583
+  Name: "Reverb Zone"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Unbounded"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Reverb Effect Preset"
+      Enum {
+        Value: "mc:ereverbtype:7"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17846875740691099057
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 4104079476752493667
   Name: "SwapEquipment"
   Transform {
@@ -192,6 +233,18 @@ Objects {
   ParentId: 10671565427701169845
   TemplateInstance {
     ParameterOverrideMap {
+      key: 307255051771986596
+      value {
+        Overrides {
+          Name: "cs:RotationOffset"
+          Rotator {
+            Pitch: -71
+            Yaw: 13
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 777066251803753357
       value {
         Overrides {
@@ -208,12 +261,62 @@ Objects {
           Rotator {
           }
         }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4201634781127740499
+      value {
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          Name: "cs:RotationOffset"
+          Rotator {
+            Pitch: -71
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8452794817047380797
+      value {
+        Overrides {
+          Name: "cs:RotationOffset"
+          Rotator {
+            Pitch: -71
+            Yaw: 13
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13588467930671998640
+      value {
+        Overrides {
+          Name: "cs:RotationOffset"
+          Rotator {
+            Pitch: -71
+            Yaw: 13
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15126386574946989924
+      value {
+        Overrides {
+          Name: "cs:RotationOffset"
+          Rotator {
+            Pitch: -71
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16640052744043416664
+      value {
+        Overrides {
+          Name: "cs:RotationOffset"
+          Rotator {
+            Pitch: -71
+            Yaw: 13
           }
         }
       }

@@ -1,8 +1,8 @@
-﻿WEAPON = script:FindAncestorByType("Weapon")
-LOCAL_PLAYER = Game.GetLocalPlayer()
+﻿local WEAPON = script:FindAncestorByType("Weapon")
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 assert(WEAPON, "Please Add to the child of a weapon")
 local RECOIL_DIRECTION = script:GetCustomProperty("RECOIL_DIRECTION")
-local RECOIL_ROTATION = Rotation.New(Vector3.New(RECOIL_DIRECTION.y,RECOIL_DIRECTION.x,RECOIL_DIRECTION.y), Vector3.UP )
+local RECOIL_ROTATION = Rotation.New(0,RECOIL_DIRECTION.y*90,RECOIL_DIRECTION.x*90)
 local DURATION = script:GetCustomProperty("DURATION")
 local AMMOUNT = script:GetCustomProperty("AMMOUNT")
 

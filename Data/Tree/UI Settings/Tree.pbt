@@ -1,6 +1,93 @@
 ﻿Name: "UI Settings"
 RootId: 15900364157994414074
 Objects {
+  Id: 13367903298334009240
+  Name: "CommandPanel"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15900364157994414074
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7228477085439609747
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11047162740706383888
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CommandPanel"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1586377358280468348
+    }
+  }
+}
+Objects {
+  Id: 4783270221671108352
+  Name: "Aj Kill Feed v3.1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15900364157994414074
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14913383469609323285
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Aj Kill Feed v3.1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:UseTeamColors"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:LineHeight"
+          Int: 40
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12215234784578847343
+    }
+  }
+}
+Objects {
   Id: 9599836145816608806
   Name: "Scoreboard (PlayerTitles)"
   Transform {

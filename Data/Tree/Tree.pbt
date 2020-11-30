@@ -14,7 +14,6 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 14192324357425605751
   ChildIds: 11471976360075692302
   ChildIds: 1280603503854378228
   ChildIds: 16962308734055015238
@@ -278,32 +277,6 @@ Objects {
         Min: -102400
         Max: 102400
       }
-    }
-  }
-}
-Objects {
-  Id: 14192324357425605751
-  Name: "Aj Kill Feed v3"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14913383469609323285
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Aj Kill Feed v3"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12215234784578847343
     }
   }
 }

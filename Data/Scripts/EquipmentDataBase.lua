@@ -16,8 +16,10 @@ end
 function Database:SetupItemWithSkin(id)
     local eq,sk = CoreString.Split(id,"_")
     local item = self:ReturnEquipmentById(eq)
-    item:EquipSkinByID(sk)
-    return item
+    if(item) then
+        item:EquipSkinByID(sk)
+        return item
+    end
 end
 
 function Database:ReturnEquipmentById(id)
@@ -78,6 +80,13 @@ function Database:GetPerk(weaponString)
     return weapons[4]
 end
 
+function VerifyID(Data, NewItem)
+    for k,Item in pairs(Data) do
+        if(Item["id"] == NewItem["id"]) then return false end 
+    end
+    
+    return true
+end
 
 function Database:RegisterEquipment()
     local NewData = {}
@@ -97,14 +106,17 @@ function Database:RegisterEquipment()
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
                 local ItemSkins = {}
                 for _, Skin in pairs(Item:GetChildren()) do
-                    ItemSkins[Skin.name] = {}
-                    ItemSkins[Skin.name]["id"] = Skin:GetCustomProperty("ID")
-                    ItemSkins[Skin.name]["skin"] = Skin:GetCustomProperty("SKIN")
-                    ItemSkins[Skin.name]["level"] = Skin:GetCustomProperty("LEVEL")
-                    ItemSkins[Skin.name]["ads_skin"] = Skin:GetCustomProperty("ADSSkin")
-                    ItemSkins[Skin.name]["name"] = Skin.name
+                    local NewSkin = {}
+                    NewSkin["id"] = Skin:GetCustomProperty("ID")
+                    NewSkin["skin"] = Skin:GetCustomProperty("SKIN")
+                    NewSkin["level"] = Skin:GetCustomProperty("LEVEL")
+                    NewSkin["ads_skin"] = Skin:GetCustomProperty("ADSSkin")
+                    NewSkin["name"] = Skin.name
+                    assert(VerifyID(ItemSkins, NewSkin),"Clashing Id ".. NewSkin.name .. " in equipment ".. NewItem.name)
+                    table.insert( ItemSkins, NewSkin)
                 end
                 NewItem["skins"] = ItemSkins
+                assert(VerifyID(NewData, NewItem),"Clashing Id".. NewItem.name)
                 table.insert(NewData,NewItem)
             end
         end

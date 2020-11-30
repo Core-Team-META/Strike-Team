@@ -10,11 +10,6 @@
         }
       }
       Overrides {
-        Name: "cs:ADSSkin"
-        AssetReference {
-        }
-      }
-      Overrides {
         Name: "cs:LEVEL"
         Int: 0
       }

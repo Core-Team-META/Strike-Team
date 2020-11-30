@@ -20,18 +20,26 @@
           Overrides {
             Name: "bp:Sword/Blade Type"
             Enum {
-              Value: "mc:esfx_swordbladeswipes:20"
+              Value: "mc:esfx_swordbladeswipes:18"
             }
           }
           Overrides {
             Name: "bp:Air Swoosh Type"
             Enum {
-              Value: "mc:esfx_airswooshes:14"
+              Value: "mc:esfx_airswooshes:13"
             }
           }
           Overrides {
             Name: "bp:Sword/Blade Pitch"
-            Float: -250
+            Float: -155.833252
+          }
+          Overrides {
+            Name: "bp:Air Swoosh Volume"
+            Float: 6.56122351
+          }
+          Overrides {
+            Name: "bp:Sword/Blade Volume"
+            Float: 22.1915417
           }
         }
         WantsNetworking: true

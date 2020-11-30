@@ -23,11 +23,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 65
+            Float: 97
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 100
+            Float: 175
           }
           Overrides {
             Name: "cs:EnableAutoReload"
@@ -228,7 +228,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 8
+            BurstDuration: 3.16
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -237,7 +237,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 5
+            MaxAmmo: 10
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 100000
@@ -392,7 +392,6 @@
         }
         ParentId: 12037246519279192378
         ChildIds: 13301317744296125202
-        ChildIds: 2857791055171887064
         ChildIds: 16611586764865074433
         ChildIds: 4559106591681728661
         ChildIds: 10746481930143743920
@@ -436,62 +435,6 @@
         Script {
           ScriptAsset {
             Id: 440168262593430639
-          }
-        }
-      }
-      Objects {
-        Id: 2857791055171887064
-        Name: "WeaponAimScopeClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 17640891203268728961
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ReloadAbility"
-            ObjectReference {
-              SelfId: 3107246114231997896
-              SubObjectId: 15161767160644289291
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SelfId: 7640444477552235379
-              SubObjectId: 10627935210260956592
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-          Overrides {
-            Name: "cs:ZoomSound"
-            ObjectReference {
-              SelfId: 15633781916054981290
-              SubObjectId: 2413952303041223785
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 13511250510657008800
           }
         }
       }

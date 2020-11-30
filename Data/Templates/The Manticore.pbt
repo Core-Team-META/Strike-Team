@@ -90,13 +90,13 @@
           }
           Overrides {
             Name: "cs:FriendlyExplosionDamage"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ExplosionDamageRange"
             Vector2 {
               X: 30
-              Y: 100
+              Y: 200
             }
           }
           Overrides {
@@ -248,7 +248,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 1
+            BurstDuration: 0.5
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -258,7 +258,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 3
+            MaxAmmo: 2
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 3200
@@ -419,7 +419,6 @@
         ChildIds: 2549642268670924169
         ChildIds: 16233189982626620861
         ChildIds: 14502853283785094665
-        ChildIds: 2188434075448872262
         ChildIds: 14430409314514476484
         ChildIds: 7478634871560694087
         UnregisteredParameters {
@@ -579,53 +578,6 @@
         }
       }
       Objects {
-        Id: 2188434075448872262
-        Name: "WeaponAimScopeClient"
-        Transform {
-          Location {
-            X: -1235.00037
-            Y: -2360.00024
-            Z: -110
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 4284893312571811236
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SelfId: 11855469725240573376
-            }
-          }
-          Overrides {
-            Name: "cs:ZoomSound"
-            ObjectReference {
-              SelfId: 17686650604073824764
-              SubObjectId: 13319689260128336710
-              InstanceId: 10289681412662137291
-              TemplateId: 4858933102386001352
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 15639168507136770568
-          }
-        }
-      }
-      Objects {
         Id: 14430409314514476484
         Name: "WeaponCameraRecoilClient"
         Transform {
@@ -714,6 +666,13 @@
             Name: "cs:DURATION"
             Float: 0.1
           }
+          Overrides {
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              X: 0.2
+              Y: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -801,7 +760,7 @@
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 3
+            Duration: 8
             CanMove: true
             CanJump: true
             CanRotate: true

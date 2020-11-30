@@ -24,6 +24,8 @@ local REACTION_BINDING = _G.AjKillFeed.ReactionBinding
 local TEXT_BOX_TEMPL = _G.AjKillFeed.TextBoxTempl
 local UI_IMAGE_TEMPL = _G.AjKillFeed.UiImageTempl
 local TCU = _G.AjKillFeed.TextCountingUtils
+local LINE_HEIGHT = _G.AjKillFeed.lineHeight
+local FONT_SIZE = _G.AjKillFeed.fontSize
 
 if(EVENT_NAME == "") then error("Can't have \"EventName\" be empty") end
 if(MESSAGE == "") then error("You left \"Message\" empty") end
@@ -106,6 +108,7 @@ local function AddDoubleLine(arg1,arg2,arg3)
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
+    line.height = LINE_HEIGHT
     local lineContent = {}
     local messageParts = getIconSegmentedString(arg1,arg2,arg3)
     
@@ -116,12 +119,16 @@ local function AddDoubleLine(arg1,arg2,arg3)
             curText:SetColor(TEXT_COLOR)
             curText.width = TCU.CalculateWidth(string,curText.fontSize)
             curText.x = calculateOffset(lineContent)
+            curText.height = LINE_HEIGHT
+            curText.fontSize = FONT_SIZE
             table.insert(lineContent,curText)
 
             local curIcon = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
             curIcon:SetImage(ICON)
             curIcon:SetColor(ICON_COLOR)
             curIcon.x = calculateOffset(lineContent)
+            curIcon.height = LINE_HEIGHT
+            curIcon.width = LINE_HEIGHT
             table.insert(lineContent,curIcon)
         end
     else
@@ -129,6 +136,8 @@ local function AddDoubleLine(arg1,arg2,arg3)
         curText.text = getProperFormattedString(arg1,arg2,arg3)
         curText:SetColor(TEXT_COLOR)
         curText.width = TCU.CalculateWidth(string,curText.fontSize)
+        curText.height = LINE_HEIGHT
+        curText.fontSize = FONT_SIZE
     end
 
     line.x = 0

@@ -27,7 +27,7 @@
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 70
+            Float: 48
           }
           Overrides {
             Name: "cs:EnableAutoReload"
@@ -217,7 +217,7 @@
               Id: 841534158063459245
             }
             BurstCount: 100
-            BurstDuration: 9
+            BurstDuration: 12
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -384,7 +384,6 @@
         ChildIds: 10544407500446283217
         ChildIds: 11927760566242556346
         ChildIds: 6466903322055011374
-        ChildIds: 726775176972090111
         ChildIds: 1404255985621175794
         ChildIds: 13440994670206598668
         UnregisteredParameters {
@@ -641,56 +640,6 @@
         }
       }
       Objects {
-        Id: 726775176972090111
-        Name: "WeaponAimScopeClient"
-        Transform {
-          Location {
-            X: -115.000259
-            Y: -2710.00024
-            Z: -75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 12086322870890397651
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SelfId: 6610678977847455102
-              SubObjectId: 17244259023728448207
-              InstanceId: 12868472648991126454
-              TemplateId: 15651442488692511858
-            }
-          }
-          Overrides {
-            Name: "cs:ZoomSound"
-            ObjectReference {
-              SelfId: 4720239369214053965
-              SubObjectId: 17686650604073824764
-              InstanceId: 12868472648991126454
-              TemplateId: 15651442488692511858
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 15639168507136770568
-          }
-        }
-      }
-      Objects {
         Id: 1404255985621175794
         Name: "WeaponCameraRecoilClient"
         Transform {
@@ -770,6 +719,16 @@
           }
         }
         ParentId: 12086322870890397651
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:AMMOUNT"
+            Float: 3
+          }
+          Overrides {
+            Name: "cs:DURATION"
+            Float: 0.04
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -856,7 +815,7 @@
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.3
+            Duration: 6.94
             CanMove: true
             CanJump: true
             CanRotate: true

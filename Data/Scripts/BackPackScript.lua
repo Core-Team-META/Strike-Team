@@ -17,7 +17,7 @@ local HolsterPositions = {
 
 local HolsterRotations = {
     ["LHip"]    = Rotation.New(9.871,-80.198,-16.113),
-    ["RHip"]    = Rotation.New(-62.999,-83.625,53.431),
+    ["RHip"]    = Rotation.New(9.871,-80.198,-16.113),
     ["LChest"]  = Rotation.New(0,-53.839,-180),
     ["RChest"]  = Rotation.New(0,-53.839,-180),
     ["Back"]    = Rotation.New(-5.79,-53.21,85.586),
@@ -37,11 +37,16 @@ function AttatchWeapon(player, weapon)
     if(Weapon)then
         local wepObj = Weapon["Weapon"]
         local holster = Weapon["Holser"]
+        local offset = Weapon["Offset"]
         wepObj:AttachToPlayer(player, HolsterPoints[holster])
-        wepObj:SetRotation(HolsterRotations[holster])
+        wepObj:SetRotation(HolsterRotations[holster] + offset)
         wepObj:SetPosition(HolsterPositions[holster])
         return
     end
+end
+
+function EmptyBackpack(player)
+    player.serverUserData.Backpack = {}
 end
 
 function DeequipWeapon(player, weapon)
@@ -79,8 +84,10 @@ end
 
 Events.Connect("EquipWeapon", EquipWeapon)
 Events.Connect("UnEquipWeapon", DeequipWeapon)
-Events.Connect("AddWeaponToBackPack",function( player, weapon, holster) 
-    table.insert( player.serverUserData.Backpack, {["Weapon"] = weapon,["Holser"] = holster})
+Events.Connect("EmptyBackpack",EmptyBackpack)
+Events.Connect("AddWeaponToBackPack",function( player, weapon, holster, extraData)
+    extraData = extraData or {} 
+    table.insert( player.serverUserData.Backpack, {["Weapon"] = weapon,["Holser"] = holster, ["Offset"] = extraData.rotation or Rotation.New(0,0,0)})
     AttatchWeapon(player, weapon)
 end)    
 Game.playerLeftEvent:Connect(RemovePlayer)

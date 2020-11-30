@@ -51,6 +51,8 @@
         ChildIds: 3113359017320683399
         ChildIds: 18186706223873245286
         ChildIds: 3122540590480141285
+        ChildIds: 1710192287256964144
+        ChildIds: 13665360829327283546
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -369,6 +371,102 @@
           }
           Vfx {
             AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 1710192287256964144
+        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
+        Transform {
+          Location {
+            Z: 2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11736491869790306490
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunshot_assaultrifle_carbine:12"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 1338486902032220300
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Pitch: -1646.17053
+            Volume: 2.55087185
+            Falloff: 7000
+            Radius: 1500
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 13665360829327283546
+        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
+        Transform {
+          Location {
+            Z: 2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11736491869790306490
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunshot_assaultrifle_carbine:6"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 1338486902032220300
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Pitch: -649.905518
+            Volume: 2.55087185
+            Falloff: 7000
+            Radius: 1500
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
           }
         }
       }
