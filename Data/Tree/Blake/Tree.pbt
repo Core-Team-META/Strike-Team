@@ -326,3 +326,37 @@ Objects {
     }
   }
 }
+Objects {
+  Id: 11160865443191670110
+  Name: "lookatkiller"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9374846198566407657
+      value {
+        Overrides {
+          Name: "Name"
+          String: "lookatkiller"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1279395778555042343
+    }
+  }
+}

@@ -46,7 +46,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4783270221671108352
+  Id: 13087447598067785209
   Name: "Aj Kill Feed v3.1"
   Transform {
     Scale {
@@ -56,35 +56,144 @@ Objects {
     }
   }
   ParentId: 15900364157994414074
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14913383469609323285
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Aj Kill Feed v3.1"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:UseTeamColors"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:LineHeight"
-          Int: 40
-        }
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ShowJoinAndLeave"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:UseTeamColors"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:UseEquipmentId"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ShowKills"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:UseIconsOnKill"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:NumLines"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:LineDuration"
+      Float: 2
+    }
+    Overrides {
+      Name: "cs:LineHeight"
+      Int: 40
+    }
+    Overrides {
+      Name: "cs:SelfTextColor"
+      Color {
+        R: 0.955973685
+        G: 0.356400251
+        B: 0.010329823
+        A: 1
       }
     }
-    TemplateAsset {
-      Id: 12215234784578847343
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
     }
+    Overrides {
+      Name: "cs:LineTemplate"
+      AssetReference {
+        Id: 15006363769250822773
+      }
+    }
+    Overrides {
+      Name: "cs:AllowReacting"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:AllowSelfReaction"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:KillsAreReactable"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:HeadshotsAreReactable"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:SuicidesAreReactable"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WorldKillsAreReactable"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:ReactionTime"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:ReactionPositiveBinding"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:ReactionNegativeBinding"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:ReactionToggleBinding"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:ShowJoinAndLeave:tooltip"
+      String: "Prints a line each time a player joins or leaves the game"
+    }
+    Overrides {
+      Name: "cs:NumLines:tooltip"
+      String: "Number of lines to display"
+    }
+    Overrides {
+      Name: "cs:LineDuration:tooltip"
+      String: "How long to display each line"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Text color of messages"
+    }
+    Overrides {
+      Name: "cs:SelfTextColor:tooltip"
+      String: "Color for events that involve the local player"
+    }
+    Overrides {
+      Name: "cs:AllowReacting:tooltip"
+      String: "Allow use of the reaction system"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Aj Kill Feed v3_1"
+  }
+  InstanceHistory {
+    SelfId: 13087447598067785209
+    SubobjectId: 14913383469609323285
+    InstanceId: 4783270221671108352
+    TemplateId: 12215234784578847343
+    WasRoot: true
   }
 }
 Objects {

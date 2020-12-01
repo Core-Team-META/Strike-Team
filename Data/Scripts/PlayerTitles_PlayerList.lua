@@ -75,7 +75,12 @@ local lastTask
 --	nil UpdatePlayerEntries()
 --	Re-orders all of the players in the list
 local function UpdatePlayerEntries()
-	for index, entry in pairs(Entries:GetChildren()) do
+	local sort = Entries:GetChildren()
+	table.sort( sort, function(a,b)
+		return a.clientUserData.owner.team < b.clientUserData.owner.team 
+	end )
+
+	for index, entry in pairs(sort) do
 		entry.y = (entry.height * (index - 1)) + (GAP_BETWEEN_ENTRIES * (index - 1))
 	end
 end
@@ -91,7 +96,7 @@ local function CreatePlayerEntry(player)
 		parent = Entries
 	})
 	entry.name = player.name
-
+	entry.clientUserData.owner = player
 	local playerNameText, teamColorImage, playerIconImage, socialIconImage =
 		entry:GetCustomProperty("PlayerName"):WaitForObject(),
 		entry:GetCustomProperty("TeamColor"):WaitForObject(),

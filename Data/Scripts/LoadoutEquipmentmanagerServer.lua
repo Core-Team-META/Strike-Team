@@ -18,7 +18,7 @@ end
 
 function GetSlot(player,slot)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
-
+    if(not Data["Loadouts"]) then Data["Loadouts"] = {} end
     if(not Data["Loadouts"][slot]) then
         Data["Loadouts"][slot] = "HK_00-LI_00-EL_00-EP_00"
     end

@@ -72,7 +72,7 @@ local localPlayerTitle = PlayerTitles.GetPlayerTitle(LocalPlayer)
 
 local playerTeams = {}
 local entries = {}
-local isVisible = false
+local isVis	ible = false
 
 local leaderstatCount = 0
 
@@ -135,7 +135,15 @@ end
 --	nil UpdatePlayerEntries()
 --	Re-orders all of the players in the list
 local function UpdatePlayerEntries()
-	for index, entry in pairs(Entries:GetChildren()) do
+	local sort = Entries:GetChildren()
+	table.sort( sort, function(a,b)
+		if(a.clientUserData.owner.team == b.clientUserData.owner.team) then
+			return a.clientUserData.owner.kills > b.clientUserData.owner.kills
+		else
+			return a.clientUserData.owner.team < b.clientUserData.owner.team
+		end
+	end )
+	for index, entry in pairs(sort) do
 		entry.y = (entry.height * (index - 1)) + (GAP_BETWEEN_ENTRIES * (index - 1))
 	end
 end
@@ -151,7 +159,7 @@ local function CreatePlayerEntry(player)
 		parent = Entries
 	})
 	entry.name = player.name
-
+	entry.clientUserData.owner = player
 	entries[player] = {
 		entry = entry,
 		leaderstats = {},
@@ -249,6 +257,8 @@ local function UpdatePlayerEntry(player)
 	else
 		playerNameText:SetColor(PLAYER_NAME_COLOR)
 	end
+
+	UpdatePlayerEntries()
 end
 
 --	nil UpdateHeader()
@@ -313,6 +323,7 @@ local function UpdatePlayer(player)
 			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource) or 0)
 		end
 	end
+	UpdatePlayerEntries()
 end
 
 local function CreateHeaderLeaderstats()
