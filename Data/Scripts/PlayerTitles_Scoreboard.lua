@@ -72,7 +72,7 @@ local localPlayerTitle = PlayerTitles.GetPlayerTitle(LocalPlayer)
 
 local playerTeams = {}
 local entries = {}
-local isVis	ible = false
+local isVisible = false
 
 local leaderstatCount = 0
 
@@ -320,11 +320,17 @@ local function UpdatePlayer(player)
 		elseif(leaderstatType == "DEATHS") then
 			leaderstat.text.text = tostring(player.deaths)
 		elseif(leaderstatType == "RESOURCE") then
-			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource) or 0)
+			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource))
+		elseif(leaderstatType == "KD") then
+			if(player.deaths == 0) then 
+				leaderstat.text.text = tostring(CoreMath.Round(player.kills,1))
+			else
+				leaderstat.text.text = tostring(CoreMath.Round( player.kills/player.deaths,2 ))
+			end	
 		end
 	end
 	UpdatePlayerEntries()
-end
+	end
 
 local function CreateHeaderLeaderstats()
 	local count = 0

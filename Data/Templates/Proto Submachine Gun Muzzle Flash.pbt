@@ -50,8 +50,6 @@
         ChildIds: 15834613661215658142
         ChildIds: 15201800124507795132
         ChildIds: 5404125646895113474
-        ChildIds: 5021804493067084949
-        ChildIds: 6515931172313495861
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -365,100 +363,6 @@
           }
         }
       }
-      Objects {
-        Id: 5021804493067084949
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12391300809687005807
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:12"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1338486902032220300
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            AutoPlay: true
-            Pitch: -1646.17053
-            Volume: 2.55087185
-            Falloff: 7000
-            Radius: 1500
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 6515931172313495861
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12391300809687005807
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:6"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1338486902032220300
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            AutoPlay: true
-            Pitch: -649.905518
-            Volume: 2.55087185
-            Falloff: 7000
-            Radius: 1500
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
     }
     Assets {
       Id: 13442051517733671574
@@ -485,15 +389,6 @@
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_shell_ejection"
-      }
-    }
-    Assets {
-      Id: 1338486902032220300
-      Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_assaultrifle_carbine_ref"
       }
     }
     PrimaryAssetId {

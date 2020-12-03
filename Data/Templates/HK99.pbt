@@ -18,7 +18,7 @@
         ParentId: 4781671109827199097
         ChildIds: 13851398588279806788
         ChildIds: 12625338494810582693
-        ChildIds: 1887213120382680667
+        ChildIds: 9663091701426025995
         ChildIds: 14527409942549062946
         UnregisteredParameters {
           Overrides {
@@ -239,7 +239,7 @@
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 1
             DefaultAbility {
-              SubObjectId: 1887213120382680667
+              SubObjectId: 9663091701426025995
             }
             ReloadAbility {
               SubObjectId: 14527409942549062946
@@ -383,8 +383,6 @@
         ChildIds: 9695639905351861525
         ChildIds: 11171362571862341825
         ChildIds: 17743033836073121176
-        ChildIds: 13418161704827006226
-        ChildIds: 9560006649715218522
         ChildIds: 13719460846294078010
         UnregisteredParameters {
         }
@@ -543,156 +541,6 @@
         }
       }
       Objects {
-        Id: 13418161704827006226
-        Name: "WeaponFeedbackAnimation"
-        Transform {
-          Scale {
-            X: 1.00000024
-            Y: 1.00000024
-            Z: 1
-          }
-        }
-        ParentId: 10873547885058510860
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ShootingResetPositionTime"
-            Float: 0.025
-          }
-          Overrides {
-            Name: "cs:ShootingDelay"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:ShootingDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ShootAbility"
-            ObjectReference {
-              SubObjectId: 1887213120382680667
-            }
-          }
-          Overrides {
-            Name: "cs:ShootingMovementGroup"
-            ObjectReference {
-              SelfId: 17933397311114271644
-            }
-          }
-          Overrides {
-            Name: "cs:hasShootingAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadAbility"
-            ObjectReference {
-              SubObjectId: 14527409942549062946
-            }
-          }
-          Overrides {
-            Name: "cs:hasReloadAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadMovementGroup"
-            ObjectReference {
-              SelfId: 17933397311114271644
-            }
-          }
-          Overrides {
-            Name: "cs:ReloadDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ReloadRresetPositionTime"
-            Float: 0.025
-          }
-          Overrides {
-            Name: "cs:ReloadDelay"
-            Float: 0.5
-          }
-          Overrides {
-            Name: "cs:FalseSlideBack"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 5264131641106444057
-          }
-        }
-      }
-      Objects {
-        Id: 9560006649715218522
-        Name: "WeaponCameraRecoilClient"
-        Transform {
-          Location {
-            X: -820.000244
-            Y: -2760.00024
-            Z: -75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 10873547885058510860
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Duration"
-            Float: 0.18
-          }
-          Overrides {
-            Name: "cs:Magnitude"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:Roughness"
-            Float: 0.6
-          }
-          Overrides {
-            Name: "cs:PositionInfluence"
-            Vector {
-              X: 0.1
-              Y: 0.1
-              Z: 0.1
-            }
-          }
-          Overrides {
-            Name: "cs:RotationInfluence"
-            Vector {
-              X: 0.5
-              Y: 0.1
-            }
-          }
-          Overrides {
-            Name: "cs:AttackAbility"
-            ObjectReference {
-              SubObjectId: 1887213120382680667
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 9969509539844301900
-          }
-        }
-      }
-      Objects {
         Id: 13719460846294078010
         Name: "Recoil"
         Transform {
@@ -710,11 +558,15 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 3
+            Float: 1
           }
           Overrides {
             Name: "cs:DURATION"
             Float: 0.05
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 0.8
           }
         }
         Collidable_v2 {
@@ -730,8 +582,22 @@
         }
       }
       Objects {
-        Id: 1887213120382680667
+        Id: 9663091701426025995
         Name: "Shoot"
+        Transform {
+          Location {
+            X: 181.768799
+            Y: 312.176178
+            Z: 2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
         ParentId: 15635051474287082455
         UnregisteredParameters {
         }
@@ -757,7 +623,6 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.05
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -776,7 +641,7 @@
             IsTargetDataUpdated: true
           }
           CooldownPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true

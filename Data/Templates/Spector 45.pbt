@@ -23,11 +23,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 56
+            Float: 24
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 75
+            Float: 54
           }
           Overrides {
             Name: "cs:EnableAutoReload"
@@ -710,6 +710,16 @@
           }
         }
         ParentId: 18236832114190578099
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:AMMOUNT"
+            Float: 1
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 2
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

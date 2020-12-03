@@ -5,12 +5,12 @@ while not _G["DataBase"] do Task.Wait() end
 function SetUp(player)
     return {
         ["1"] = "HK_00-LI_00-EL_00-EP_00",
-        ["2"] = "HK_00-LI_00-EL_00-EP_00",
-        ["3"] = "HK_00-LI_00-EL_00-EP_00",
-        ["4"] = "HK_00-LI_00-EL_00-EP_00",
-        ["5"] = "HK_00-LI_00-EL_00-EP_00",
-        ["6"] = "HK_00-LI_00-EL_00-EP_00",
-        ["7"] = "HK_00-LI_00-EL_00-EP_00",
+        ["2"] = "SP_00-LI_00-EL_00-EP_00",
+        ["3"] = "MC_00-LI_00-EL_00-EP_00",
+        ["4"] = "LM_00-LI_00-EL_00-EP_00",
+        ["5"] = "SV_00-LI_00-EL_00-EP_00",
+        ["6"] = "SR_00-LI_00-EL_00-EP_00",
+        ["7"] = "NE_00-LI_00-EL_00-EP_00",
         ["8"] = "HK_00-LI_00-EL_00-EP_00",
     }
 end
@@ -35,6 +35,7 @@ end
 
 function EquipPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
+    if(not Data["Loadouts"] ) then FullSetup(player) end
     local EquipString = GetSlot(player,tostring( Data["EquipSlot"]))
 
     local primaryStr = _G["DataBase"]:GetPrimary(EquipString)
@@ -64,7 +65,7 @@ function EquipPlayer(player)
 end
 
 
-function FullSetup(player,slot)
+function FullSetup(player)
     local Data = {}
     Data["Loadouts"] = SetUp(player)
     Data["EquipSlot"] = 1

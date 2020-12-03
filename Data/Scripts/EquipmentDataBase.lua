@@ -13,6 +13,10 @@ function Database:_Init()
     return self
 end
 
+function Database:GetDatabase()
+    return self.data
+end
+
 function Database:SetupItemWithSkin(id)
     local eq,sk = CoreString.Split(id,"_")
     local item = self:ReturnEquipmentById(eq)

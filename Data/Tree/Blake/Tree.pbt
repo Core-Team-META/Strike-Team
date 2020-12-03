@@ -1,6 +1,32 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 4357706706468832932
+  Name: "KillManager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "KillManager"
+  }
+}
+Objects {
   Id: 17418436480729624583
   Name: "Reverb Zone"
   Transform {
@@ -327,7 +353,49 @@ Objects {
   }
 }
 Objects {
-  Id: 11160865443191670110
+  Id: 10288110445807727604
+  Name: "HealthScreen"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6061567258760865665
+      value {
+        Overrides {
+          Name: "Name"
+          String: "HealthScreen"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18254605239533031477
+    }
+  }
+}
+Objects {
+  Id: 3242084157255297486
   Name: "lookatkiller"
   Transform {
     Scale {

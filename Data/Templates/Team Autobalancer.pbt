@@ -28,7 +28,7 @@
           }
           Overrides {
             Name: "cs:OnlySwitchDeadPlayers"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:KillOnTeamSwitch"

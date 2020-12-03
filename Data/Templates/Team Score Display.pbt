@@ -15,16 +15,16 @@
             Z: 1
           }
         }
-        ParentId: 6344321037654884984
+        ParentId: 1372466132249557023
         ChildIds: 550241206985019223
         UnregisteredParameters {
           Overrides {
             Name: "cs:Team"
-            Int: 1
+            Int: 2
           }
           Overrides {
             Name: "cs:Label"
-            String: "Score:"
+            String: "Team 2 Score:"
           }
           Overrides {
             Name: "cs:ShowMaxScore"
@@ -32,7 +32,7 @@
           }
           Overrides {
             Name: "cs:MaxScore"
-            Int: 100
+            Int: 50
           }
           Overrides {
             Name: "cs:Team:tooltip"
@@ -117,6 +117,12 @@
               SubObjectId: 5886080550476808348
             }
           }
+          Overrides {
+            Name: "cs:UIProgressBar"
+            ObjectReference {
+              SubObjectId: 16413983844084248976
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -191,6 +197,7 @@
           }
         }
         ParentId: 15438075784487216825
+        ChildIds: 16413983844084248976
         ChildIds: 10122521962685187127
         ChildIds: 5886080550476808348
         UnregisteredParameters {
@@ -203,9 +210,9 @@
         }
         Control {
           Width: 300
-          Height: 44
-          UIX: 25
-          UIY: 25
+          Height: 27
+          UIX: -23.0478516
+          UIY: -45.2599487
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -216,7 +223,65 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:bottomright"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomright"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16413983844084248976
+        Name: "UI Progress Bar"
+        Transform {
+          Location {
+            X: -2938.39453
+            Y: 12930
+            Z: 1209.81824
+          }
+          Rotation {
+            Yaw: 56.0354652
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18108744771157573570
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 60
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          StatBar {
+            Color {
+              A: 1
+            }
+            BackgroundColor {
+            }
+            Percent: 0.688910604
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomright"
               }
             }
             TargetAnchor {
@@ -251,21 +316,20 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 300
+          Width: 346
           Height: 44
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          UseParentWidth: true
+          UseParentHeight: true
           Image {
             Brush {
-              Id: 5196377603841433560
+              Id: 622433789355555801
             }
             Color {
-              R: 0.205078766
-              G: 0.205078766
-              B: 0.205078766
               A: 0.5
             }
             TeamSettings {
@@ -319,11 +383,14 @@
           Text {
             Label: "Team Score"
             Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
-            Size: 20
+            Size: 14
             Justification {
-              Value: "mc:etextjustify:left"
+              Value: "mc:etextjustify:right"
             }
             AutoWrapText: true
           }
@@ -343,12 +410,12 @@
       }
     }
     Assets {
-      Id: 5196377603841433560
-      Name: "Background Flat 020"
+      Id: 622433789355555801
+      Name: "BG Flat 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundFlat_020"
+        AssetId: "BackgroundNoOutline_020"
       }
     }
     PrimaryAssetId {

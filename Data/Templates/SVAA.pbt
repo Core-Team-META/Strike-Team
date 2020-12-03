@@ -18,7 +18,7 @@
         ParentId: 4781671109827199097
         ChildIds: 6799823395412209531
         ChildIds: 17398692646900530305
-        ChildIds: 5625094159037807480
+        ChildIds: 12828712797110302583
         ChildIds: 1815357269142859447
         UnregisteredParameters {
           Overrides {
@@ -234,15 +234,18 @@
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
-            SpreadMax: 3
+            SpreadMax: 1
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 1
             DefaultAbility {
-              SubObjectId: 5625094159037807480
+              SubObjectId: 12828712797110302583
             }
             ReloadAbility {
               SubObjectId: 1815357269142859447
+            }
+            WeaponTrajectoryMode {
+              Value: "mc:eweapontrajectorymode:followlookvector"
             }
           }
         }
@@ -383,8 +386,6 @@
         ChildIds: 15578909779351520117
         ChildIds: 15088140971486189713
         ChildIds: 16178003727689148145
-        ChildIds: 13875824776426719028
-        ChildIds: 9177895740570040474
         ChildIds: 5087193835861723281
         UnregisteredParameters {
         }
@@ -543,156 +544,6 @@
         }
       }
       Objects {
-        Id: 13875824776426719028
-        Name: "WeaponFeedbackAnimation"
-        Transform {
-          Scale {
-            X: 1.00000024
-            Y: 1.00000024
-            Z: 1
-          }
-        }
-        ParentId: 10166803458318353738
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ShootingResetPositionTime"
-            Float: 0.025
-          }
-          Overrides {
-            Name: "cs:ShootingDelay"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:ShootingDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ShootAbility"
-            ObjectReference {
-              SubObjectId: 5625094159037807480
-            }
-          }
-          Overrides {
-            Name: "cs:ShootingMovementGroup"
-            ObjectReference {
-              SelfId: 9728590608181272536
-            }
-          }
-          Overrides {
-            Name: "cs:hasShootingAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadAbility"
-            ObjectReference {
-              SubObjectId: 1815357269142859447
-            }
-          }
-          Overrides {
-            Name: "cs:hasReloadAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadMovementGroup"
-            ObjectReference {
-              SelfId: 9728590608181272536
-            }
-          }
-          Overrides {
-            Name: "cs:ReloadDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ReloadRresetPositionTime"
-            Float: 0.025
-          }
-          Overrides {
-            Name: "cs:ReloadDelay"
-            Float: 0.5
-          }
-          Overrides {
-            Name: "cs:FalseSlideBack"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 5264131641106444057
-          }
-        }
-      }
-      Objects {
-        Id: 9177895740570040474
-        Name: "WeaponCameraRecoilClient"
-        Transform {
-          Location {
-            X: -820.000244
-            Y: -2760.00024
-            Z: -75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 10166803458318353738
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Duration"
-            Float: 0.18
-          }
-          Overrides {
-            Name: "cs:Magnitude"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:Roughness"
-            Float: 0.6
-          }
-          Overrides {
-            Name: "cs:PositionInfluence"
-            Vector {
-              X: 0.1
-              Y: 0.1
-              Z: 0.1
-            }
-          }
-          Overrides {
-            Name: "cs:RotationInfluence"
-            Vector {
-              X: 0.5
-              Y: 0.1
-            }
-          }
-          Overrides {
-            Name: "cs:AttackAbility"
-            ObjectReference {
-              SubObjectId: 5625094159037807480
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 9969509539844301900
-          }
-        }
-      }
-      Objects {
         Id: 5087193835861723281
         Name: "Recoil"
         Transform {
@@ -710,14 +561,17 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 7
+            Float: 5
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
             Vector2 {
-              X: 0.3
-              Y: 0.7
+              Y: 1
             }
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 4
           }
         }
         Collidable_v2 {
@@ -733,8 +587,22 @@
         }
       }
       Objects {
-        Id: 5625094159037807480
+        Id: 12828712797110302583
         Name: "Shoot"
+        Transform {
+          Location {
+            X: 181.768799
+            Y: 312.176178
+            Z: 2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
         ParentId: 1912775792876999971
         UnregisteredParameters {
         }
@@ -749,7 +617,7 @@
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.05
+            Duration: 0.03
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -760,7 +628,7 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.05
+            Duration: 0.1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -779,7 +647,7 @@
             IsTargetDataUpdated: true
           }
           CooldownPhaseSettings {
-            Duration: 0.4
+            Duration: 0.2
             CanMove: true
             CanJump: true
             CanRotate: true

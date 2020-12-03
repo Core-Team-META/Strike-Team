@@ -413,7 +413,7 @@
           AudioBP {
             AutoPlay: true
             Pitch: -1646.17053
-            Volume: 2.55087185
+            Volume: 0.14003861
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true

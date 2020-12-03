@@ -722,11 +722,15 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 3
+            Float: 1.2
           }
           Overrides {
             Name: "cs:DURATION"
             Float: 0.04
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 1
           }
         }
         Collidable_v2 {
@@ -769,7 +773,6 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.1
             CanMove: true
             CanJump: true
             CanRotate: true

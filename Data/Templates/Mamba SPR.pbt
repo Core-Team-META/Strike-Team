@@ -63,7 +63,7 @@
           }
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.5
+            Float: 1
           }
           Overrides {
             Name: "cs:SpreadWalkPrecision"
@@ -75,7 +75,7 @@
           }
           Overrides {
             Name: "cs:SpreadCrouchPrecision"
-            Float: 0.7
+            Float: 1
           }
           Overrides {
             Name: "cs:SpreadSlidingPrecision"
@@ -245,7 +245,7 @@
             ProjectileLength: 35
             ProjectileRadius: 1
             ProjectileDrag: -5
-            SpreadMax: 2
+            SpreadMax: 1
             SpreadDecreaseSpeed: 10
             DefaultAbility {
               SubObjectId: 12759996614357210127
@@ -668,6 +668,20 @@
           }
         }
         ParentId: 17640891203268728961
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:DURATION"
+            Float: 0.06
+          }
+          Overrides {
+            Name: "cs:AMMOUNT"
+            Float: 4
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 2
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

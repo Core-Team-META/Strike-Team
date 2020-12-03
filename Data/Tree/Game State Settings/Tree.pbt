@@ -88,14 +88,6 @@ Objects {
           String: "Team Autobalancer"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
           }
@@ -104,14 +96,6 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
-        }
-        Overrides {
-          Name: "cs:KillOnTeamSwitch"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:OnlySwitchDeadPlayers"
-          Bool: false
         }
       }
     }

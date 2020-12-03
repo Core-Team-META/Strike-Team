@@ -45,14 +45,12 @@
           }
         }
         ParentId: 17035684860207208329
-        ChildIds: 9124873603230429680
         ChildIds: 13614593215932494344
         ChildIds: 14857492663691378798
         ChildIds: 3113359017320683399
         ChildIds: 18186706223873245286
         ChildIds: 3122540590480141285
-        ChildIds: 1710192287256964144
-        ChildIds: 13665360829327283546
+        ChildIds: 13001544567120869564
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -63,49 +61,6 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 9124873603230429680
-        Name: "Gunshot Assualt Rifle AK Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_ak:14"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 6491078578190431103
-          }
-          AudioBP {
-            AutoPlay: true
-            Volume: 1.90997839
-            Falloff: 3600
-            Radius: 400
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
         }
       }
       Objects {
@@ -375,11 +330,10 @@
         }
       }
       Objects {
-        Id: 1710192287256964144
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
+        Id: 13001544567120869564
+        Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
         Transform {
           Location {
-            Z: 2.28881836e-05
           }
           Rotation {
           }
@@ -394,7 +348,7 @@
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:12"
+              Value: "mc:esfx_gunshot_smg:2"
             }
           }
         }
@@ -406,78 +360,19 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1338486902032220300
+            Id: 13442051517733671574
           }
           TeamSettings {
           }
           AudioBP {
-            AutoPlay: true
-            Pitch: -1646.17053
-            Volume: 2.55087185
-            Falloff: 7000
-            Radius: 1500
+            Volume: 1
+            Falloff: 3600
+            Radius: 400
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
         }
-      }
-      Objects {
-        Id: 13665360829327283546
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
-        Transform {
-          Location {
-            Z: 2.28881836e-05
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:6"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1338486902032220300
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            AutoPlay: true
-            Pitch: -649.905518
-            Volume: 2.55087185
-            Falloff: 7000
-            Radius: 1500
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 6491078578190431103
-      Name: "Gunshot Assualt Rifle AK Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_assaultrifle_ak_ref"
       }
     }
     Assets {
@@ -505,6 +400,15 @@
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_shell_ejection"
+      }
+    }
+    Assets {
+      Id: 13442051517733671574
+      Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_gunshot_smg_ref"
       }
     }
     PrimaryAssetId {

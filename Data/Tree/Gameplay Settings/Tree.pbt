@@ -19,15 +19,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 503681998163126313
-      value {
-        Overrides {
-          Name: "PlayerJumpMaxCount"
-          Int: 1
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 18143788354451018607
       value {
         Overrides {
@@ -624,7 +615,7 @@ Objects {
   }
   Settings {
     RespawnSettings {
-      RespawnDelay: 1
+      RespawnDelay: 5
       RespawnMode_v2 {
         Value: "mc:erespawnmode:farthestfromenemy"
       }

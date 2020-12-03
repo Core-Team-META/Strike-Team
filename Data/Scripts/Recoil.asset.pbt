@@ -16,7 +16,11 @@
       }
       Overrides {
         Name: "cs:AMMOUNT"
-        Float: 7
+        Float: 4
+      }
+      Overrides {
+        Name: "cs:SCOPE_AMMOUNT"
+        Float: 4
       }
     }
   }

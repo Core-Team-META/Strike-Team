@@ -718,17 +718,21 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 5
+            Float: 6
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
             Vector2 {
-              Y: -1
+              Y: 1
             }
           }
           Overrides {
             Name: "cs:DURATION"
             Float: 0.04
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 4
           }
         }
         Collidable_v2 {

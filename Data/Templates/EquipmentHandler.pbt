@@ -235,6 +235,8 @@
         ChildIds: 13154765874369386800
         ChildIds: 8178425636511318757
         ChildIds: 10140499601500717076
+        ChildIds: 15949626322732622456
+        ChildIds: 14290165114766666960
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -426,6 +428,84 @@
         }
       }
       Objects {
+        Id: 15949626322732622456
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 9759507413622050223
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14290165114766666960
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 18423642364815085402
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2411214559175194743
         Name: "Sub Machine Gun"
         Transform {
@@ -472,6 +552,8 @@
         ChildIds: 5248272598641172266
         ChildIds: 6500198699851746535
         ChildIds: 1296518427045335565
+        ChildIds: 18352586635243585147
+        ChildIds: 4593871113840028907
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -706,6 +788,84 @@
         }
       }
       Objects {
+        Id: 18352586635243585147
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16054986377230682878
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 4593871113840028907
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 192938860807147413
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 3005556808871161596
         Name: "Rocket Launcher"
         Transform {
@@ -751,6 +911,8 @@
         ChildIds: 7264802459124641122
         ChildIds: 16069445876942325938
         ChildIds: 5866771755006682276
+        ChildIds: 14736571128427096552
+        ChildIds: 11138863980903535024
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -942,6 +1104,84 @@
         }
       }
       Objects {
+        Id: 14736571128427096552
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9110716462400792456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 8897966304867363982
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 11138863980903535024
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9110716462400792456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2665263833087461297
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -987,6 +1227,8 @@
         ChildIds: 9384097724358746974
         ChildIds: 1398573755816217066
         ChildIds: 650054011012764429
+        ChildIds: 15028357033270769529
+        ChildIds: 1330842254014705300
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -1178,6 +1420,84 @@
         }
       }
       Objects {
+        Id: 15028357033270769529
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10603368743983156177
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 1330842254014705300
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16340710139968181918
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksmen Rifle"
         Transform {
@@ -1223,6 +1543,8 @@
         ChildIds: 4165573209281759327
         ChildIds: 10346179316096550837
         ChildIds: 18099085081694749371
+        ChildIds: 6104757118545260935
+        ChildIds: 15841477914011716528
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -1414,6 +1736,84 @@
         }
       }
       Objects {
+        Id: 6104757118545260935
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2993531969050915480
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 15841477914011716528
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 374738431442973425
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -1459,6 +1859,8 @@
         ChildIds: 893751899614631939
         ChildIds: 2724930230825314826
         ChildIds: 6993737921212835351
+        ChildIds: 17176433073047961143
+        ChildIds: 14490382481188861381
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -1598,7 +2000,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 17851473022404192999
+              Id: 11936028515199700152
             }
           }
         }
@@ -1638,6 +2040,84 @@
             Name: "cs:SKIN"
             AssetReference {
               Id: 3087065121514230297
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 17176433073047961143
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 3727421843460108403
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14490382481188861381
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 17805120535617629521
             }
           }
         }
@@ -1699,6 +2179,8 @@
         ChildIds: 173641834739591791
         ChildIds: 15498696244434260897
         ChildIds: 16895349808641563348
+        ChildIds: 18321665495611670854
+        ChildIds: 16840370703545334633
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -1834,7 +2316,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 17851473022404192999
+              Id: 11623540953029695393
             }
           }
         }
@@ -1874,6 +2356,84 @@
             Name: "cs:SKIN"
             AssetReference {
               Id: 17615903694473364786
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 18321665495611670854
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1889372568210474308
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 16840370703545334633
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 3926013586283109924
             }
           }
         }
@@ -6294,6 +6854,8 @@
         ChildIds: 68637127969630803
         ChildIds: 6378948557920919982
         ChildIds: 10034310235068228116
+        ChildIds: 14922265487132919700
+        ChildIds: 10235649203003544940
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6429,7 +6991,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 17851473022404192999
+              Id: 8848164820123044348
             }
           }
         }
@@ -6469,6 +7031,84 @@
             Name: "cs:SKIN"
             AssetReference {
               Id: 620843233732755758
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14922265487132919700
+        Name: "Lol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "LO"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 18123346164003048593
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 10235649203003544940
+        Name: "DD"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DD"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2876351170322310836
             }
           }
         }

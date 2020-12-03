@@ -202,60 +202,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4625777732906080789
-  Name: "Headshots"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7653472450926179451
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Headshot"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 15918351247767818628
-      }
-    }
-    Overrides {
-      Name: "cs:Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 9925429280593477268
-    }
-  }
-  InstanceHistory {
-    SelfId: 4625777732906080789
-    SubobjectId: 4277046728326565113
-    InstanceId: 4783270221671108352
-    TemplateId: 12215234784578847343
-  }
-}
-Objects {
   Id: 6890102413622871078
   Name: "pistol"
   Transform {
@@ -662,6 +608,60 @@ Objects {
   InstanceHistory {
     SelfId: 12107163377109367880
     SubobjectId: 15234630742724668068
+    InstanceId: 4783270221671108352
+    TemplateId: 12215234784578847343
+  }
+}
+Objects {
+  Id: 4625777732906080789
+  Name: "Headshots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7653472450926179451
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Headshot"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 15918351247767818628
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9925429280593477268
+    }
+  }
+  InstanceHistory {
+    SelfId: 4625777732906080789
+    SubobjectId: 4277046728326565113
     InstanceId: 4783270221671108352
     TemplateId: 12215234784578847343
   }

@@ -18,7 +18,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Internal custom properties --
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
-
+local PROGRESSBAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 -- User exposed properties --
 local TEAM = COMPONENT_ROOT:GetCustomProperty("Team")
 local LABEL = COMPONENT_ROOT:GetCustomProperty("Label")
@@ -36,11 +36,18 @@ if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     MAX_SCORE = 100
 end
 
+if(TEAM == Game.GetLocalPlayer().team) then
+    TEXT_BOX:SetColor(Color.FromStandardHex("#2196F3FF"))
+else
+    TEXT_BOX:SetColor(Color.FromStandardHex("#F44336FF"))
+end
+
+
 -- nil Tick(float)
 -- Update the display
 function Tick(deltaTime)
     local score = Game.GetTeamScore(TEAM)
-    
+    PROGRESSBAR.progress = score/MAX_SCORE
     if SHOW_MAX_SCORE then
         TEXT_BOX.text = string.format("%s %d / %d", LABEL, score, MAX_SCORE)
     else

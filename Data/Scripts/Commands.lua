@@ -46,16 +46,14 @@ end
 function equip(player,message)
     while not _G["DataBase"] do Task.Wait() end
     local Database = _G["DataBase"]
-    local item = Database:SetupItemWithSkin(message[3])
+    local item = Database:SetupItemWithSkin(message[3].."_"..(message[4] or "00"))
     if(item) then
-        local GUN = item:SpawnEquipment()
-        Events.Broadcast("EquipWeapon", player )
-        GUN:Equip(player)
-    else
-        Events.Broadcast("EquipWeapon", player )
-        for k,v in pairs(player:GetEquipment()) do
-            v:Destroy()
+        Events.Broadcast("EmptyBackpack", player )
+        for k,Equipment in pairs(player:GetEquipment()) do
+            Equipment:Destroy()
         end
+        local GUN = item:SpawnEquipment()
+        GUN:Equip(player)
     end
 end
 

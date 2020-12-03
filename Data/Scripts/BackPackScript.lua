@@ -46,6 +46,11 @@ function AttatchWeapon(player, weapon)
 end
 
 function EmptyBackpack(player)
+    for _,Weapon in pairs(player.serverUserData.Backpack) do
+        if Object.IsValid( Weapon["Weapon"]) then
+            Weapon["Weapon"]:Destroy()
+        end
+    end
     player.serverUserData.Backpack = {}
 end
 

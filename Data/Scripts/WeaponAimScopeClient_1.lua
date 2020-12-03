@@ -117,14 +117,8 @@ end
         return nil
     end
     
-    if not player.GetOverrideCamera then
-	end
-
-    if player:GetOverrideCamera() then
-        return player:GetOverrideCamera()
-    else
-        return player:GetDefaultCamera()
-    end
+    return player:GetDefaultCamera()
+    
 end
 
 function EnableScoping(player)
@@ -163,6 +157,7 @@ function EnableScoping(player)
 
 
     -- Broadcast to client scripts the state of weapon aiming
+    player.clientUserData.isScoping = true
     Events.Broadcast("WeaponAiming", player, true)
 end
 
@@ -200,7 +195,7 @@ function ResetScoping(player)
         
     end
     end
-
+    player.clientUserData.isScoping = false
     -- Broadcast to client scripts the state of weapon aiming
     Events.Broadcast("WeaponAiming", player, false)
 end

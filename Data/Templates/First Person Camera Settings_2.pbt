@@ -58,11 +58,11 @@
           PlayerMovementSettings {
             WalkSpeed: 640
             MaxAcceleration: 1800
-            WalkableFloorAngle: 44
+            WalkableFloorAngle: 60
             JumpMaxCount: 1
-            JumpVelocity: 900
+            JumpVelocity: 1000
             GroundFriction: 8
-            GravityScale: 1.9
+            GravityScale: 3
             MaxSwimSpeed: 420
             Buoyancy: 1
             TouchForceFactor: 1
@@ -96,12 +96,10 @@
             AbilityAimMode {
               Value: "mc:eabilityaimmode:viewrelative"
             }
-            AppearanceChannelingTime: 2
             MountChannelingTime: 2
             FlipOnMultiJump: true
             CanMoveUp: true
             CanMoveDown: true
-            IsMountEnabled: true
           }
         }
       }
