@@ -6,6 +6,7 @@ local RECOIL_ROTATION = Rotation.New(0,RECOIL_DIRECTION.y*90,RECOIL_DIRECTION.x*
 local DURATION = script:GetCustomProperty("DURATION")
 local AMMOUNT = script:GetCustomProperty("AMMOUNT")
 local SCOPE_AMMOUNT = script:GetCustomProperty("SCOPE_AMMOUNT")
+local RECENTER = script:GetCustomProperty("RECENTER")
 local SHOOT_ABILITY 
 while not SHOOT_ABILITY do
     SHOOT_ABILITY = WEAPON:GetAbilities()[1]
@@ -21,6 +22,8 @@ function calculateRecoil()
     end
 end 
 
+
+
 function Recoil()
     if(WEAPON.owner == LOCAL_PLAYER) then
         Task.Spawn(function()
@@ -28,12 +31,14 @@ function Recoil()
             local Time = 0
             while Time < DURATION do
                 local oldLook = LOCAL_PLAYER:GetLookWorldRotation() 
-                LOCAL_PLAYER:SetLookWorldRotation(oldLook+(RECOIL_ROTATION * (calculateRecoil()/100)  *(LastFrame/DURATION)) )	 
+                LOCAL_PLAYER:SetLookWorldRotation(oldLook+(RECOIL_ROTATION * (calculateRecoil()/100) * (LastFrame/DURATION)) )
                 LastFrame =  Task.Wait()
                 Time = Time + LastFrame
             end
         end)
     end
 end
+
+
 SHOOT_ABILITY.executeEvent:Connect(Recoil)
 

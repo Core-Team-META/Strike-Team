@@ -213,6 +213,7 @@
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
+            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
@@ -722,7 +723,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 1.2
+            Float: 0.9
           }
           Overrides {
             Name: "cs:DURATION"
@@ -730,7 +731,7 @@
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 1
+            Float: 0.8
           }
         }
         Collidable_v2 {

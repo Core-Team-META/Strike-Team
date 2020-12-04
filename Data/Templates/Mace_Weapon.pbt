@@ -7,7 +7,7 @@
       RootId: 7686519051001135265
       Objects {
         Id: 7686519051001135265
-        Name: "Hatchet_Weapon"
+        Name: "Mace_Weapon"
         Transform {
           Scale {
             X: 1
@@ -154,7 +154,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 75
+            Float: 40
           }
           Overrides {
             Name: "cs:Hitbox"
@@ -179,6 +179,10 @@
           Overrides {
             Name: "cs:SwingRotationY"
             Float: 0
+          }
+          Overrides {
+            Name: "cs:BackStab"
+            Bool: true
           }
           Overrides {
             Name: "cs:Damage:tooltip"

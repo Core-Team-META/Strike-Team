@@ -4,73 +4,84 @@ while not _G["DataBase"] do Task.Wait() end
 
 function SetUp(player)
     return {
-        ["1"] = "HK_00-LI_00-EL_00-EP_00",
-        ["2"] = "SP_00-LI_00-EL_00-EP_00",
-        ["3"] = "MC_00-LI_00-EL_00-EP_00",
-        ["4"] = "LM_00-LI_00-EL_00-EP_00",
-        ["5"] = "SV_00-LI_00-EL_00-EP_00",
-        ["6"] = "SR_00-LI_00-EL_00-EP_00",
-        ["7"] = "NE_00-LI_00-EL_00-EP_00",
-        ["8"] = "HK_00-LI_00-EL_00-EP_00",
+        ["1"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
+        ["2"] = "SP_00-S4_00-LI_00-EL_00-EP_00",
+        ["3"] = "MC_00-S4_00-LI_00-EL_00-EP_00",
+        ["4"] = "LM_00-S4_00-LI_00-EL_00-EP_00",
+        ["5"] = "SV_00-S4_00-LI_00-EL_00-EP_00",
+        ["6"] = "SR_00-S4_00-LI_00-EL_00-EP_00",
+        ["7"] = "NE_00-S4_00-LI_00-EL_00-EP_00",
+        ["8"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
     }
 end
 
+function FullSetup(player)
+    local Data = {}
+    print("Setting up ", player)
+    Data["Loadouts"] = SetUp(player)
+    Data["EquipSlot"] = 1
+    Storage.SetSharedPlayerData(LoadoutKey,player, Data)
+    return Data
+end
 
 function GetSlot(player,slot)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
-    if(not Data["Loadouts"]) then Data["Loadouts"] = {} end
-    if(not Data["Loadouts"][slot]) then
-        Data["Loadouts"][slot] = "HK_00-LI_00-EL_00-EP_00"
-    end
-    return Data["Loadouts"][slot]
+    if(not Data["Loadouts"]) then Data = FullSetup(player) end
+    return Data["Loadouts"][tostring(slot)]
 end
 
 function UnequipPlayer(player)
-    player.serverUserData.PrimaryWeapon:Destroy()
-    player.serverUserData.SecondaryWeapon:Destroy()
-    player.serverUserData.Equipment:Destroy()
-    player.serverUserData.Perk:Destroy()
+    if(player.serverUserData.Weapons) then
+        for _,v in pairs(player.serverUserData.Weapons) do
+            if Object.IsValid(v) then
+                v:Destroy()
+            end
+        end
+    end
+    for _,Equipment in pairs(player:GetEquipment()) do
+        if(Object.IsValid(Equipment)) then
+            Equipment:Destroy()
+        end
+    end
 end
 
+
+function equipItem(player,equipstring,slot)
+    --this is dumb code cant reference self 
+    local t = {
+        ["Primary"]     =   _G["DataBase"]:GetPrimary(equipstring),
+        ["Secondary"]   =   _G["DataBase"]:GetSecondary(equipstring),
+        ["Melee"]       =   _G["DataBase"]:GetMelee(equipstring),
+        ["Equipment"]   =   _G["DataBase"]:GetEquipment(equipstring),
+        ["Perk"]        =   _G["DataBase"]:GetPerk(equipstring),  
+    }
+    local str = t[slot]
+    local item = _G["DataBase"]:SetupItemWithSkin(str)
+    local equipment = item:SpawnEquipment()
+    player.serverUserData.Weapons[slot.."Weapon"] = equipment
+    Events.Broadcast("AddWeaponToBackPack", player, equipment, item.data.Hoister, {rotation = item.data.Rotation_Offset})
+end
 
 function EquipPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
-    if(not Data["Loadouts"] ) then FullSetup(player) end
-    local EquipString = GetSlot(player,tostring( Data["EquipSlot"]))
-
-    local primaryStr = _G["DataBase"]:GetPrimary(EquipString)
-    local secondaryStr =  _G["DataBase"]:GetSecondary(EquipString)
-    local equipmentStr =  _G["DataBase"]:GetEquipment(EquipString)
-    local perkStr =  _G["DataBase"]:GetPerk(EquipString)
-
-    local primaryItem = _G["DataBase"]:SetupItemWithSkin(primaryStr)
-    local secondaryItem = _G["DataBase"]:SetupItemWithSkin(secondaryStr)
-    local equipmentItem = _G["DataBase"]:SetupItemWithSkin(equipmentStr)
-    local perkItem = _G["DataBase"]:SetupItemWithSkin(perkStr)
-
-    local Primary = primaryItem:SpawnEquipment()
-    local Secondary = secondaryItem:SpawnEquipment()
-    local Equipment = equipmentItem:SpawnEquipment()
-    local Perk = perkItem:SpawnEquipment()
-
-    player.serverUserData.PrimaryWeapon = Primary
-    player.serverUserData.SecondaryWeapon = Secondary
-    player.serverUserData.Equipment = Equipment
-    player.serverUserData.Perk = Perk
-
-    Events.Broadcast("AddWeaponToBackPack", player, Primary, primaryItem.data.Hoister, {rotation = primaryItem.data.Rotation_Offset})
-    Events.Broadcast("AddWeaponToBackPack", player, Secondary, secondaryItem.data.Hoister,  {rotation = secondaryItem.data.Rotation_Offset})
-    Task.Wait()
-    Events.Broadcast("EquipWeapon", player, Primary)
+    if( not Data["Loadouts"] ) then Data = FullSetup(player) end
+    player.serverUserData.Weapons = {}
+    local EquipString = GetSlot(player,tostring( player:GetResource("EquipSlot")))
+    equipItem(player,EquipString,"Primary")
+    equipItem(player,EquipString,"Secondary")
+    equipItem(player,EquipString,"Melee")
+    equipItem(player,EquipString,"Equipment")
+    equipItem(player,EquipString,"Perk")
+    
+    local starterEquipmentitem = _G["DataBase"]:ReturnEquipmentById("SK")
+    local starterEquipment = starterEquipmentitem:SpawnEquipment()
+    
+    
+    starterEquipment:Equip(player)
+    Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
+    player.serverUserData.Weapons.EquipmentWeapon:Equip(player)
 end
 
-
-function FullSetup(player)
-    local Data = {}
-    Data["Loadouts"] = SetUp(player)
-    Data["EquipSlot"] = 1
-    return Data
-end
 
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
@@ -81,14 +92,11 @@ end
 
 function SetEquiped(player,slot)
     player:SetResource("EquipSlot", slot)
-    local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
-    Data["EquipSlot"] = slot
-    Storage.SetSharedPlayerData(LoadoutKey,player, Data)
 end
 
 function SetupPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
-    if(not Data["Loadouts"] ) then print( player, "Setup") Data = FullSetup(player) end
+    if(not Data["Loadouts"] ) then  Data = FullSetup(player) end
     player:SetResource("EquipSlot", Data["EquipSlot"])
     Storage.SetSharedPlayerData(LoadoutKey,player, Data)
 end
@@ -103,6 +111,6 @@ end)
 Events.ConnectForPlayer("RequestData", RequestData)
 
 Game.playerJoinedEvent:Connect(function (player )
-    Task.Spawn(function() SetupPlayer(player) end)
+    SetupPlayer(player)
     EquipPlayer(player)
 end)

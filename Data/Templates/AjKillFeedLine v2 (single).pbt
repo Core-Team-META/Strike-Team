@@ -15,7 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8373315198424379985
+        ChildIds: 14021105304702689672
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -25,17 +26,13 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -10
-          Height: 100
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
           Panel {
-            IsClipping: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -50,6 +47,70 @@
             }
           }
         }
+      }
+      Objects {
+        Id: 14021105304702689672
+        Name: "UI Image"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15528838785502270767
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Height: 5
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 16583936388927273216
+            }
+            Color {
+              A: 0.5
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+    }
+    Assets {
+      Id: 16583936388927273216
+      Name: "BG Flat 002"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_019"
       }
     }
     PrimaryAssetId {

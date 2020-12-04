@@ -19,7 +19,7 @@ function Tick(dt)
             slidingTimers[player] = time() + SLIDING_DURATION
             slidingDelayTimers[player] = time() + SLIDING_DELAY_DURATION
 
-            local impulse = player:GetVelocity():GetNormalized() * SLIDING_VELOCITY * 50
+            local impulse = player:GetVelocity():GetNormalized() * SLIDING_VELOCITY 
             impulse.z = 0
             Task.Wait()
             player:AddImpulse(impulse)
@@ -27,7 +27,7 @@ function Tick(dt)
     end
 
     for player, slidingTimer in pairs(slidingTimers) do
-        if not player.isCrouching or time() >= slidingTimer then
+        if not player.isCrouching then
             player.groundFriction = 8
             player.brakingDecelerationWalking = 1000
             slidingTimers[player] = nil
@@ -43,6 +43,11 @@ end
 
 function OnBindingPressed(player, key)
     if key == "ability_feet" then -- Shift
+        if(player.isCrouching) then 
+            player.serverUserData.isSprinting = false
+        else
+            player.serverUserData.isSprinting = true
+        end
         sprintingPlayers[player] = true
         player.maxWalkSpeed = SPRINT_SPEED
     elseif key == "ability_extra_41" then -- C
@@ -52,6 +57,7 @@ end
 
 function OnBindingReleased(player, key)
     if key == "ability_feet" then -- Shift
+        player.serverUserData.isSprinting = false
         sprintingPlayers[player] = false
         player.maxWalkSpeed = WALK_SPEED
     elseif key == "ability_extra_41" then -- C

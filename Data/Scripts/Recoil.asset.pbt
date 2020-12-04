@@ -22,6 +22,10 @@
         Name: "cs:SCOPE_AMMOUNT"
         Float: 4
       }
+      Overrides {
+        Name: "cs:RECENTER"
+        Bool: false
+      }
     }
   }
   SerializationVersion: 68

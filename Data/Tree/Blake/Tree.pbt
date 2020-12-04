@@ -1,6 +1,85 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 6757807270496787334
+  Name: "FragGrenadeExplosion"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3547787129964795936
+      value {
+        Overrides {
+          Name: "Name"
+          String: "FragGrenadeExplosion"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15898919505606004880
+    }
+  }
+}
+Objects {
+  Id: 13367903298334009240
+  Name: "CommandPanel"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11047162740706383888
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CommandPanel"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1586377358280468348
+    }
+  }
+}
+Objects {
   Id: 4357706706468832932
   Name: "KillManager"
   Transform {
@@ -68,113 +147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4104079476752493667
-  Name: "SwapEquipment"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  ChildIds: 9109756796319143878
-  ChildIds: 2735185986166689733
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 2735185986166689733
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4104079476752493667
-  ChildIds: 16421410534875662320
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 16421410534875662320
-  Name: "SwapEquipmentClent"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2735185986166689733
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10929582158323239302
-    }
-  }
-}
-Objects {
-  Id: 9109756796319143878
-  Name: "SwapEquipment"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4104079476752493667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17652041530245147042
-    }
-  }
-}
-Objects {
-  Id: 4355175678147851601
+  Id: 4975704287466969891
   Name: "LoadoutEquipment"
   Transform {
     Scale {
@@ -190,16 +163,29 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "LoadoutEquipment"
-  }
-  InstanceHistory {
-    SelfId: 4355175678147851601
-    SubobjectId: 15973117888364099070
-    InstanceId: 4975704287466969891
-    TemplateId: 10798511928395917419
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15973117888364099070
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LoadoutEquipment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10798511928395917419
+    }
   }
 }
 Objects {
@@ -229,14 +215,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }

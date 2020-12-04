@@ -154,7 +154,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 100
+            Float: 40
           }
           Overrides {
             Name: "cs:Hitbox"
@@ -179,6 +179,10 @@
           Overrides {
             Name: "cs:SwingRotationY"
             Float: 0
+          }
+          Overrides {
+            Name: "cs:BackStab"
+            Bool: true
           }
           Overrides {
             Name: "cs:Damage:tooltip"

@@ -12,17 +12,20 @@ local REACTION_PROGRESS_BAR = REACTION_DISPLAY_PANEL:GetCustomProperty("Progress
 local REACTION_TEXT_BOX = REACTION_DISPLAY_PANEL:GetCustomProperty("TextBox"):WaitForObject()
 
 --exposed
-local SHOW_JOIN_LEAVE = ROOT:GetCustomProperty("ShowJoinAndLeave")
+--local SHOW_JOIN_LEAVE = ROOT:GetCustomProperty("ShowJoinAndLeave")
 local USE_TEAM_COLORS = ROOT:GetCustomProperty("UseTeamColors")
 local SHOW_EQUIPMENT_NAME = ROOT:GetCustomProperty("UseEquipmentId")
 local SHOW_KILLS = ROOT:GetCustomProperty("ShowKills")
 local USE_ICONS_ON_KILL = ROOT:GetCustomProperty("UseIconsOnKill")
+local USE_PLAYER_ICONS = ROOT:GetCustomProperty("UsePlayerIcons")
 local SINGLE_LINE = ROOT:GetCustomProperty("LineTemplate")
 
 local LINE_NUM = ROOT:GetCustomProperty("NumLines")
 local LINE_DURATION = ROOT:GetCustomProperty("LineDuration")
 local LINE_HEIGHT = ROOT:GetCustomProperty("LineHeight")
 local FONT_SIZE = math.ceil(LINE_HEIGHT/2)
+local HEIGHT_PADDING = ROOT:GetCustomProperty("HeightPadding")
+local WIDTH_PADDING = ROOT:GetCustomProperty("WidthPadding")
 local TEXT_COLOR = ROOT:GetCustomProperty("TextColor")
 local SELF_COLOR = ROOT:GetCustomProperty("SelfTextColor")
 
@@ -41,13 +44,7 @@ local ALLOW_SELF_REACTION = ROOT:GetCustomProperty("AllowSelfReaction")
 
 
 
---local hasReacted = false
 local curReactionTime = 0
---[[
-    this returns a key-pair table of all the customproperties
-
-    at the moment, does not have a check for thing
---]]
 local iconTable = {}
 local colorTable = {}
 math.randomseed(os.time())
@@ -80,24 +77,11 @@ for i,v in ipairs(iconTable) do
 end
 
 --error checking
-if LINE_NUM < 1 then
-    warn("NumLines can't be less than 0")
-    LINE_NUM = 1
-end
-
-if LINE_DURATION < 0.0 then
-    warn("LineDuration can't be less than 0")
-    LINE_DURATION = 5.0
-end
-
-if ALLOW_REACTING and (REACTION_BINDING_NEGATIVE == "" or REACTION_BINDING_NEGATIVE == "") then
-    error("\"ReactionPositiveBinding\" and \"ReactionNegativeBinding\" can't be empty if you have \"AllowReacting\" on")
-end
-
-if REACTION_TIME <= 0 then
-    warn("ReactionTime can't be less than or equal to 0. Players aren't gods at reaction speed")
-    REACTION_TIME = 1
-end
+if LINE_NUM < 1 then warn("NumLines can't be less than 0");LINE_NUM = 1;end
+if LINE_DURATION < 0.0 then warn("LineDuration can't be less than 0");LINE_DURATION = 5.0;end
+if ALLOW_REACTING and (REACTION_BINDING_NEGATIVE == "" or REACTION_BINDING_NEGATIVE == "") then error("\"ReactionPositiveBinding\" and \"ReactionNegativeBinding\" can't be empty if you have \"AllowReacting\" on");end
+if REACTION_TIME <= 0 then warn("ReactionTime can't be less than or equal to 0. Players aren't gods at reaction speed");REACTION_TIME = 1;end
+if USE_PLAYER_ICONS and not USE_ICONS_ON_KILL then warn("\"UsePlayerIcons\" is set to true while \"UseIconsOnKill\" is false, player icons will not show") end
 
 local thisPlayer = Game.GetLocalPlayer()
 
@@ -121,6 +105,8 @@ if not (_G.AjKillFeed) then
     _G.AjKillFeed.LocalReactionToggle = ALLOW_REACTING
     _G.AjKillFeed.lineHeight = LINE_HEIGHT
     _G.AjKillFeed.fontSize = FONT_SIZE
+    _G.AjKillFeed.heightPadding = HEIGHT_PADDING
+    _G.AjKillFeed.widthPadding = WIDTH_PADDING
 end
 
 local function updateCurrentLines()
@@ -139,12 +125,27 @@ local function updateCurrentLines()
 end
 
 local function calculateOffset(lc)
-    local offset = 0
+    local offset = WIDTH_PADDING
     for i,v in ipairs(lc) do
-        offset = offset + v.width + 5
+        offset = offset + v.width + WIDTH_PADDING
     end
 
     return offset
+end
+
+local function standardizeElement(lineContent,element)
+
+    element.height = LINE_HEIGHT
+
+    if element:IsA("UIText") then
+        element.fontSize = FONT_SIZE
+        element.width = TCU.CalculateWidth(element.text,element.fontSize)
+    else --is an image
+        element.width = LINE_HEIGHT
+    end
+
+    element.x = calculateOffset(lineContent)
+    table.insert(lineContent,element)
 end
 
 local function AddLine(killer,killed,source,extraCode)
@@ -152,11 +153,11 @@ local function AddLine(killer,killed,source,extraCode)
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
-    line.height = LINE_HEIGHT
+    line.height = LINE_HEIGHT + HEIGHT_PADDING
     local lineContent = {}
+
     --initialize left text
     local leftText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
-    
     if(Object.IsValid(killer)) then
         leftText.text = killer.name
         if(killer == thisPlayer) then
@@ -165,16 +166,21 @@ local function AddLine(killer,killed,source,extraCode)
             if(killer.team == thisPlayer.team) then
                 leftText:SetColor(TEAM_COLORS[1])
             else
+                print("Using secondary color for: " .. tostring(killed.name))
                 leftText:SetColor(TEAM_COLORS[2])
             end
         end
     else --posibility of no killer
         leftText.text = ""
     end
-    leftText.height = LINE_HEIGHT
-    leftText.fontSize = FONT_SIZE
-    leftText.width = TCU.CalculateWidth(leftText.text,leftText.fontSize)
-    table.insert(lineContent,leftText)
+    standardizeElement(lineContent,leftText)
+
+    --init left player icon
+    if Object.IsValid(killer) and USE_PLAYER_ICONS then
+        local leftImage = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
+        leftImage:SetImage(killer)
+        standardizeElement(lineContent,leftImage)
+    end
 
     --initialize middle images
     local basicImage = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
@@ -203,10 +209,7 @@ local function AddLine(killer,killed,source,extraCode)
     end
 
     if Object.IsValid(basicImage) then
-        basicImage.width = LINE_HEIGHT
-        basicImage.height = LINE_HEIGHT
-        basicImage.x = calculateOffset(lineContent)
-        table.insert(lineContent,basicImage)
+        standardizeElement(lineContent,basicImage)
     end
 
     --initialize extra image, if applicable
@@ -242,13 +245,17 @@ local function AddLine(killer,killed,source,extraCode)
         end
        
         if Object.IsValid(extraImage) then
-            extraImage.width = LINE_HEIGHT
-            extraImage.height = LINE_HEIGHT
-            extraImage.x = calculateOffset(lineContent)
-            table.insert(lineContent,extraImage)
+            standardizeElement(lineContent,extraImage)
         end
     end
     
+    --init right icon
+    if Object.IsValid(killed) and USE_PLAYER_ICONS then
+        local rightImage = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
+        rightImage:SetImage(killed)
+        standardizeElement(lineContent,rightImage)
+    end
+
     --initialize right text
     local rightText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
     rightText.text = killed.name
@@ -263,17 +270,18 @@ local function AddLine(killer,killed,source,extraCode)
             rightText:SetColor(TEAM_COLORS[2])
         end
     end
-    rightText.fontSize = FONT_SIZE
-    rightText.height = LINE_HEIGHT
-    rightText.width = TCU.CalculateWidth(rightText.text,rightText.fontSize)
-    rightText.x = calculateOffset(lineContent)
-    table.insert(lineContent,rightText)
+    standardizeElement(lineContent,rightText)
 
 
+    for i,v in ipairs(lineContent) do
+        line.width = line.width + v.width + WIDTH_PADDING
+    end
 
+    line.width = line.width + WIDTH_PADDING --extra one for the right side
+    
     line.x = 0
     line.y = SPAWN_PANEL.height
-    AUU.LerpAlphaChildren(line,1,0.05)
+    --AUU.LerpAlphaChildren(line,1,0.05)
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
 
@@ -287,7 +295,7 @@ local function AddSingleLine(killer,killed,source)
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
-    line.height = LINE_HEIGHT
+    line.height = LINE_HEIGHT + HEIGHT_PADDING
     local lineContent = {}
 
     --initialize text
@@ -308,14 +316,17 @@ local function AddSingleLine(killer,killed,source)
             Text.text = Text.text .. " to " .. source.name
         end
     end
-    Text.fontSize = FONT_SIZE
-    Text.height = LINE_HEIGHT
-    Text.width = TCU.CalculateWidth(Text.text,Text.fontSize)
-    table.insert(lineContent,Text)
+    standardizeElement(lineContent,Text)
+
+    for i,v in ipairs(lineContent) do
+        line.width = line.width + v.width + WIDTH_PADDING
+    end
+
+    line.width = line.width + WIDTH_PADDING --extra one for the right side
 
     line.x = 0
     line.y = SPAWN_PANEL.height
-    AUU.LerpAlphaChildren(line,1,0.05)
+    --AUU.LerpAlphaChildren(line,1,0.05)
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
 
@@ -450,6 +461,13 @@ function OnAddKillFeedKill(killerPlayer, killedPlayer, sourceId,extraCode)
         sourceObject = World.FindObjectById(sourceId)
     end
 
+    if(USE_ICONS_ON_KILL) then
+        AddLine(killerPlayer,killedPlayer,sourceObject,extraCode)
+    else
+        AddSingleLine(killerPlayer,killedPlayer,sourceObject,extraCode)
+    end
+
+    if not _G.AjKillFeed.LocalReactionToggle then return end
     if Object.IsValid(killerPlayer) and Object.IsValid(sourceObject) then
         if extraCode == 1 and HEADSHOTS_ARE_REACTABLE then --headshot
             Events.Broadcast("AR","Headshot",killerPlayer.name,killedPlayer.name,sourceObject.name)
@@ -482,11 +500,6 @@ function OnAddKillFeedKill(killerPlayer, killedPlayer, sourceId,extraCode)
         end
     end
 
-    if(USE_ICONS_ON_KILL) then
-        AddLine(killerPlayer,killedPlayer,sourceObject,extraCode)
-    else
-        AddSingleLine(killerPlayer,killedPlayer,sourceObject,extraCode)
-    end
 end
 
 function OnPlayerJoined(player)
@@ -499,17 +512,19 @@ function OnPlayerJoined(player)
 
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
-    line.height = LINE_HEIGHT
+    line.height = LINE_HEIGHT + HEIGHT_PADDING
     local lineContent = {}
 
+    --init player icon
+    if USE_PLAYER_ICONS then
+        local leftImage = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
+        leftImage:SetImage(player)
+        standardizeElement(lineContent,leftImage)
+    end  
     --initialize left text
     local leftText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
     leftText.text = player.name .. " has joined"
-
-    leftText.fontSize = FONT_SIZE
-    leftText.height = LINE_HEIGHT
-    leftText.width = TCU.CalculateWidth(leftText.text,leftText.fontSize)
-    table.insert(lineContent,leftText)
+    standardizeElement(lineContent,leftText)
 
     local image = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
 
@@ -523,14 +538,18 @@ function OnPlayerJoined(player)
     end
 
     if Object.IsValid(image) then
-        image.height = LINE_HEIGHT
-        image.width = LINE_HEIGHT
-        image.x = calculateOffset(lineContent)
+        standardizeElement(lineContent,image)
     end
+
+    for i,v in ipairs(lineContent) do
+        line.width = line.width + v.width + WIDTH_PADDING
+    end
+
+    line.width = line.width + WIDTH_PADDING --extra one for the right side
 
     line.x = 0
     line.y = SPAWN_PANEL.height
-    AUU.LerpAlphaChildren(line,1,0.05)
+    --AUU.LerpAlphaChildren(line,1,0.05)
 
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
@@ -550,16 +569,19 @@ function OnPlayerLeft(player)
 
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
-    line.height = LINE_HEIGHT
+    line.height = LINE_HEIGHT + HEIGHT_PADDING
     local lineContent = {}
 
+    --init player icon
+    if USE_PLAYER_ICONS then
+        local leftImage = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
+        leftImage:SetImage(player)
+        standardizeElement(lineContent,leftImage)
+    end
     --initialize left text
     local leftText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
     leftText.text = player.name .. " has left"
-    leftText.height = LINE_HEIGHT
-    leftText.fontSize = FONT_SIZE
-    leftText.width = TCU.CalculateWidth(leftText.text,leftText.fontSize)
-    table.insert(lineContent,leftText)
+    standardizeElement(lineContent,leftText)
 
     local image = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
 
@@ -573,14 +595,18 @@ function OnPlayerLeft(player)
     end
 
     if Object.IsValid(image) then
-        image.height = LINE_HEIGHT
-        image.width = LINE_HEIGHT
-        image.x = calculateOffset(lineContent)
+        standardizeElement(lineContent,image)
     end
+
+    for i,v in ipairs(lineContent) do
+        line.width = line.width + v.width + WIDTH_PADDING
+    end
+    
+    line.width = line.width + WIDTH_PADDING --extra one for the right side
 
     line.x = 0
     line.y = SPAWN_PANEL.height
-    AUU.LerpAlphaChildren(line,1,0.05)
+    --AUU.LerpAlphaChildren(line,1,0.05)
 
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
@@ -598,7 +624,6 @@ function OnAddedEvent(eventName,arg1,arg2,arg3)
         if(arg1 == thisPlayer.name) then
             return 
         end
-
     end
 
     curReactionTime = REACTION_TIME
@@ -631,9 +656,16 @@ function OnBindingPressed(player,name)
     end
 end
 
+--"PK" is Player Killed
 Events.Connect("PK", OnAddKillFeedKill)
+--"PJ" is Player Joined
 Events.Connect("PJ",OnPlayerJoined)
+--"PL" is PLayer Left
 Events.Connect("PL",OnPlayerLeft)
-Events.Connect("AR",OnAddedEvent)
+
+if ALLOW_REACTING then
+    --"AR" is "Added Reaction"
+    Events.Connect("AR",OnAddedEvent)
+end
 
 Game.GetLocalPlayer().bindingPressedEvent:Connect(OnBindingPressed)

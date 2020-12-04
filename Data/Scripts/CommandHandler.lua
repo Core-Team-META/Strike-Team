@@ -18,6 +18,13 @@ function ReturnPlayerByName(string)
     end
 end
 
+function ReturnCommandsAsString()
+    local helpstring = ""
+        for name,_ in pairs(Commands) do
+            helpstring = helpstring .. name .." "
+        end
+    return helpstring 
+end
 
 local PlayerHandler = 
 {
@@ -26,9 +33,6 @@ local PlayerHandler =
     ["@P"] = function(func, player, message) func(player,message) end,
     
 }
-
-
-
 
 if(Environment.IsServer()) then
     Events.ConnectForPlayer("CommandPanel.Recieve",function(player,message)
@@ -50,11 +54,11 @@ if(Environment.IsServer()) then
     end)
 end
 
-
 if(Environment.IsClient())then 
     Events.Connect("CommandPanel.Submit", function(message)
         Newmessage = seperateMessage(message)
         if(Commands[Newmessage[1]]) then 
+            if(Commands[Newmessage[1]] == "HELP") then return Events.Broadcast("CommandPanel.WriteToPanel", ReturnCommandsAsString()) end
             ReliableEvents.BroadcastToServer("CommandPanel.Recieve", message)
         else
             Events.Broadcast("CommandPanel.WriteToPanel", "404, Not Found")

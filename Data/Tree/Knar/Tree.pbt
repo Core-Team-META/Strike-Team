@@ -38,7 +38,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SlidingFriction"
-      Float: -9999
+      Float: 3
     }
     Overrides {
       Name: "cs:SlidingBraking"
@@ -46,7 +46,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SlidingVelocity"
-      Float: 1500
+      Float: 4000
     }
   }
   Collidable_v2 {

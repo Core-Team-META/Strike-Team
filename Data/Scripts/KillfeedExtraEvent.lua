@@ -26,6 +26,8 @@ local UI_IMAGE_TEMPL = _G.AjKillFeed.UiImageTempl
 local TCU = _G.AjKillFeed.TextCountingUtils
 local LINE_HEIGHT = _G.AjKillFeed.lineHeight
 local FONT_SIZE = _G.AjKillFeed.fontSize
+local HEIGHT_PADDING = _G.AjKillFeed.heightPadding
+local WIDTH_PADDING = _G.AjKillFeed.widthPadding
 
 if(EVENT_NAME == "") then error("Can't have \"EventName\" be empty") end
 if(MESSAGE == "") then error("You left \"Message\" empty") end
@@ -94,55 +96,71 @@ local function getIconSegmentedString(arg1,arg2,arg3)
 end
 
 local function calculateOffset(lc)
-    local offset = 0
+    local offset = WIDTH_PADDING
     for i,v in ipairs(lc) do
-        offset = offset + v.width + 5
+        offset = offset + v.width + WIDTH_PADDING
     end
 
     return offset
 end
 
+local function standardizeElement(lineContent,element)
+
+    element.height = LINE_HEIGHT
+
+    if element:IsA("UIText") then
+        element.fontSize = FONT_SIZE
+        element.width = TCU.CalculateWidth(element.text,element.fontSize)
+    else --is an image
+        element.width = LINE_HEIGHT
+    end
+
+    element.x = calculateOffset(lineContent)
+    table.insert(lineContent,element)
+end
 
 local function AddDoubleLine(arg1,arg2,arg3)
     --reset line timer
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
     local line = World.SpawnAsset(SINGLE_LINE,{parent = SPAWN_PANEL})
-    line.height = LINE_HEIGHT
+    line.height = LINE_HEIGHT + HEIGHT_PADDING
     local lineContent = {}
     local messageParts = getIconSegmentedString(arg1,arg2,arg3)
     
     if(USE_ICON) then
         for i,string in ipairs(messageParts) do
-            local curText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
-            curText.text = string
-            curText:SetColor(TEXT_COLOR)
-            curText.width = TCU.CalculateWidth(string,curText.fontSize)
-            curText.x = calculateOffset(lineContent)
-            curText.height = LINE_HEIGHT
-            curText.fontSize = FONT_SIZE
-            table.insert(lineContent,curText)
+                if string ~= "" then
+                    local curText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
+                    curText.text = string
+                    curText:SetColor(TEXT_COLOR)
+                    standardizeElement(lineContent,curText)
+                end
 
-            local curIcon = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
-            curIcon:SetImage(ICON)
-            curIcon:SetColor(ICON_COLOR)
-            curIcon.x = calculateOffset(lineContent)
-            curIcon.height = LINE_HEIGHT
-            curIcon.width = LINE_HEIGHT
-            table.insert(lineContent,curIcon)
+                if i ~= #messageParts then
+                    local curIcon = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
+                    curIcon:SetImage(ICON)
+                    curIcon:SetColor(ICON_COLOR)
+                    standardizeElement(lineContent,curIcon)
+                end
         end
     else
         local curText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
         curText.text = getProperFormattedString(arg1,arg2,arg3)
+        print(curText.text)
         curText:SetColor(TEXT_COLOR)
-        curText.width = TCU.CalculateWidth(string,curText.fontSize)
-        curText.height = LINE_HEIGHT
-        curText.fontSize = FONT_SIZE
+        standardizeElement(lineContent,curText)
     end
 
+    for i,v in ipairs(lineContent) do
+        line.width = line.width + v.width + WIDTH_PADDING
+    end
+    
+    line.width = line.width + WIDTH_PADDING --extra one for the right side
+    
     line.x = 0
     line.y = SPAWN_PANEL.height
-    AUU.LerpAlphaChildren(line,1,0.05)
+    --AUU.LerpAlphaChildren(line,1,0.05)
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
     AUU.MoveTo(line,Vector2.New(0,(line.height * (#_G.AjKillFeed.currentLines - 1))),0.05,true)

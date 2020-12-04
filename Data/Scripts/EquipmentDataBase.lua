@@ -74,14 +74,20 @@ function Database:GetSecondary(weaponString)
     local weapons = self:SplitString(weaponString)
     return weapons[2]
 end
-function Database:GetEquipment(weaponString)
+
+function Database:GetMelee(weaponString)
     local weapons = self:SplitString(weaponString)
     return weapons[3]
 end
 
-function Database:GetPerk(weaponString)
+function Database:GetEquipment(weaponString)
     local weapons = self:SplitString(weaponString)
     return weapons[4]
+end
+
+function Database:GetPerk(weaponString)
+    local weapons = self:SplitString(weaponString)
+    return weapons[5]
 end
 
 function VerifyID(Data, NewItem)

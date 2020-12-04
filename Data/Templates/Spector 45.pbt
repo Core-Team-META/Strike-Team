@@ -717,7 +717,7 @@
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 2
+            Float: 1
           }
         }
         Collidable_v2 {

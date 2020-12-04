@@ -50,10 +50,20 @@ function Tick()
     end
 end
 
+function CalculateBackStab(player,damage)
+    local playerLookDirection = (player:GetViewWorldRotation() * Vector3.FORWARD)
+    local sourceLookDirection = (damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD)
+    playerLookDirection = Vector2.New(playerLookDirection.x,playerLookDirection.y)
+    sourceLookDirection = Vector2.New(sourceLookDirection.x,sourceLookDirection.y)
+    if((playerLookDirection .. sourceLookDirection) >=  .8) then
+        damage.amount = 100
+        damage.sourcePlayer:AddResource("Backstab", 1)
+    end
+end
+
 -- nil MeleeAttack(Player)
 -- Detect players within hitbox to apply damage
 function MeleeAttack(player, abilityInfo)
-
     local ability = abilityInfo.ability
 
     -- Ignore if the hitbox is overlapping with the owner
@@ -68,6 +78,11 @@ function MeleeAttack(player, abilityInfo)
         local damage = Damage.New(abilityInfo.damage)
         damage.sourcePlayer = ability.owner
         damage.sourceAbility = ability
+        
+        if(abilityInfo.canBackstab) then
+            CalculateBackStab(player,damage)
+        end
+        
         player:ApplyDamage(damage)
 
         abilityInfo.ignoreList[player] = 1
@@ -141,6 +156,7 @@ for _, ability in ipairs(abilityDescendants) do
             damage = ability:GetCustomProperty("Damage"),
             hitBox = hitBox,
             canAttack = false,
+            canBackstab = ability:GetCustomProperty("BackStab"),
             ignoreList = {}
         })
     end

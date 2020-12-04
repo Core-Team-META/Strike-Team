@@ -31,6 +31,12 @@
         Rotator {
         }
       }
+      Overrides {
+        Name: "cs:ICON"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
     }
   }
   SerializationVersion: 68

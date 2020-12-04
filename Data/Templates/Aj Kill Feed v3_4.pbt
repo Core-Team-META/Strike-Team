@@ -1,13 +1,13 @@
 ﻿Assets {
-  Id: 12215234784578847343
-  Name: "Aj Kill Feed v3.1"
+  Id: 8866404971844225099
+  Name: "Aj Kill Feed v3.4"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 14913383469609323285
+      RootId: 11742115500922717953
       Objects {
-        Id: 14913383469609323285
-        Name: "Aj Kill Feed v3.1"
+        Id: 11742115500922717953
+        Name: "Aj Kill Feed v3.4"
         Transform {
           Scale {
             X: 1
@@ -15,11 +15,11 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 18393571400381243934
-        ChildIds: 1251885954978865815
-        ChildIds: 8773223650328948590
-        ChildIds: 3214185859698844189
+        ParentId: 15900364157994414074
+        ChildIds: 18281317331301128458
+        ChildIds: 4478863184475229124
+        ChildIds: 3860833943356343380
+        ChildIds: 13205275631467096371
         UnregisteredParameters {
           Overrides {
             Name: "cs:ShowJoinAndLeave"
@@ -27,7 +27,7 @@
           }
           Overrides {
             Name: "cs:UseTeamColors"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:UseEquipmentId"
@@ -42,8 +42,12 @@
             Bool: true
           }
           Overrides {
+            Name: "cs:UsePlayerIcons"
+            Bool: true
+          }
+          Overrides {
             Name: "cs:NumLines"
-            Int: 3
+            Int: 5
           }
           Overrides {
             Name: "cs:LineDuration"
@@ -51,7 +55,15 @@
           }
           Overrides {
             Name: "cs:LineHeight"
-            Int: 100
+            Int: 25
+          }
+          Overrides {
+            Name: "cs:HeightPadding"
+            Int: 7
+          }
+          Overrides {
+            Name: "cs:WidthPadding"
+            Int: 7
           }
           Overrides {
             Name: "cs:SelfTextColor"
@@ -150,10 +162,11 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Aj Kill Feed v3_2"
         }
       }
       Objects {
-        Id: 18393571400381243934
+        Id: 18281317331301128458
         Name: "README "
         Transform {
           Location {
@@ -166,7 +179,7 @@
             Z: 1
           }
         }
-        ParentId: 14913383469609323285
+        ParentId: 11742115500922717953
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -182,7 +195,7 @@
         }
       }
       Objects {
-        Id: 1251885954978865815
+        Id: 4478863184475229124
         Name: "Icons"
         Transform {
           Location {
@@ -195,13 +208,21 @@
             Z: 1
           }
         }
-        ParentId: 14913383469609323285
-        ChildIds: 15234630742724668068
-        ChildIds: 4277046728326565113
-        ChildIds: 14304954386883692264
-        ChildIds: 15304390942395396237
-        ChildIds: 10588568364437701847
-        ChildIds: 971630430304846201
+        ParentId: 11742115500922717953
+        ChildIds: 1453702410992002474
+        ChildIds: 18166340034506064887
+        ChildIds: 17630666790187154251
+        ChildIds: 7345769869039606584
+        ChildIds: 6658123525375321353
+        ChildIds: 8523759337628423388
+        ChildIds: 14111911854478521208
+        ChildIds: 821389179325204990
+        ChildIds: 6623429063577642867
+        ChildIds: 828672575831047065
+        ChildIds: 16857784621217492923
+        ChildIds: 18091970752957290974
+        ChildIds: 13656514001672596868
+        ChildIds: 2453447260188420138
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -214,52 +235,7 @@
         }
       }
       Objects {
-        Id: 15234630742724668068
-        Name: "Sniper"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1251885954978865815
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:EquipmentTemplate"
-            AssetReference {
-              Id: 7685885112817678222
-            }
-          }
-          Overrides {
-            Name: "cs:Icon"
-            AssetReference {
-              Id: 2197302330802219150
-            }
-          }
-          Overrides {
-            Name: "cs:UseTemplate"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 9925429280593477268
-          }
-        }
-      }
-      Objects {
-        Id: 4277046728326565113
+        Id: 1453702410992002474
         Name: "Headshots"
         Transform {
           Location {
@@ -272,7 +248,7 @@
             Z: 1
           }
         }
-        ParentId: 1251885954978865815
+        ParentId: 4478863184475229124
         UnregisteredParameters {
           Overrides {
             Name: "cs:Name"
@@ -281,7 +257,7 @@
           Overrides {
             Name: "cs:Icon"
             AssetReference {
-              Id: 16642429999705570072
+              Id: 15918351247767818628
             }
           }
           Overrides {
@@ -307,7 +283,412 @@
         }
       }
       Objects {
-        Id: 14304954386883692264
+        Id: 18166340034506064887
+        Name: "hk99"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 3772783788081685654
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 17630666790187154251
+        Name: "SP"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 2014244595946923048
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 7345769869039606584
+        Name: "Rocket"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 9934992039656428311
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 6658123525375321353
+        Name: "Shotgun"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 1089507744638609654
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 8523759337628423388
+        Name: "SVAA"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 17397341478246606362
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 14111911854478521208
+        Name: "Sniper"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 17397341478246606362
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 821389179325204990
+        Name: "LMG"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 15364828027963080746
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 2014244595946923048
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 6623429063577642867
+        Name: "Knife"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 11534212189449765959
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 7857068568420460772
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 828672575831047065
+        Name: "pistol"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4478863184475229124
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EquipmentTemplate"
+            AssetReference {
+              Id: 11534212189449765959
+            }
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 5471655330366632404
+            }
+          }
+          Overrides {
+            Name: "cs:UseTemplate"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9925429280593477268
+          }
+        }
+      }
+      Objects {
+        Id: 16857784621217492923
         Name: "World Kills"
         Transform {
           Location {
@@ -320,7 +701,7 @@
             Z: 1
           }
         }
-        ParentId: 1251885954978865815
+        ParentId: 4478863184475229124
         UnregisteredParameters {
           Overrides {
             Name: "cs:Name"
@@ -353,7 +734,7 @@
         }
       }
       Objects {
-        Id: 15304390942395396237
+        Id: 18091970752957290974
         Name: "Player Left"
         Transform {
           Location {
@@ -366,7 +747,7 @@
             Z: 1
           }
         }
-        ParentId: 1251885954978865815
+        ParentId: 4478863184475229124
         UnregisteredParameters {
           Overrides {
             Name: "cs:Name"
@@ -398,7 +779,7 @@
         }
       }
       Objects {
-        Id: 10588568364437701847
+        Id: 13656514001672596868
         Name: "Default icon"
         Transform {
           Location {
@@ -411,11 +792,17 @@
             Z: 1
           }
         }
-        ParentId: 1251885954978865815
+        ParentId: 4478863184475229124
         UnregisteredParameters {
           Overrides {
             Name: "cs:UseTemplate"
             Bool: false
+          }
+          Overrides {
+            Name: "cs:Icon"
+            AssetReference {
+              Id: 9384520849142346961
+            }
           }
         }
         Collidable_v2 {
@@ -431,7 +818,7 @@
         }
       }
       Objects {
-        Id: 971630430304846201
+        Id: 2453447260188420138
         Name: "Player Joined"
         Transform {
           Location {
@@ -444,7 +831,7 @@
             Z: 1
           }
         }
-        ParentId: 1251885954978865815
+        ParentId: 4478863184475229124
         UnregisteredParameters {
           Overrides {
             Name: "cs:Name"
@@ -478,7 +865,7 @@
         }
       }
       Objects {
-        Id: 8773223650328948590
+        Id: 3860833943356343380
         Name: "KillFeedManagerServer"
         Transform {
           Location {
@@ -491,12 +878,12 @@
             Z: 1
           }
         }
-        ParentId: 14913383469609323285
+        ParentId: 11742115500922717953
         UnregisteredParameters {
           Overrides {
             Name: "cs:ComponentRoot"
             ObjectReference {
-              SubObjectId: 14913383469609323285
+              SubObjectId: 11742115500922717953
             }
           }
           Overrides {
@@ -519,7 +906,7 @@
         }
       }
       Objects {
-        Id: 3214185859698844189
+        Id: 13205275631467096371
         Name: "ClientContext"
         Transform {
           Location {
@@ -532,15 +919,15 @@
             Z: 1
           }
         }
-        ParentId: 14913383469609323285
-        ChildIds: 9470464284618756572
-        ChildIds: 16868958762806643478
-        ChildIds: 2007450802700551675
+        ParentId: 11742115500922717953
+        ChildIds: 9699595104291121629
+        ChildIds: 8205447056492997757
+        ChildIds: 6755839954148604268
         UnregisteredParameters {
           Overrides {
             Name: "cs:SpawnPanel"
             ObjectReference {
-              SubObjectId: 8205737830011591352
+              SubObjectId: 9651657935210424421
             }
           }
           Overrides {
@@ -558,7 +945,7 @@
         }
       }
       Objects {
-        Id: 9470464284618756572
+        Id: 9699595104291121629
         Name: "KillFeedManagerClient"
         Transform {
           Location {
@@ -571,7 +958,7 @@
             Z: 1
           }
         }
-        ParentId: 3214185859698844189
+        ParentId: 13205275631467096371
         UnregisteredParameters {
           Overrides {
             Name: "cs:ApiUIUtilities"
@@ -600,25 +987,25 @@
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 14913383469609323285
+              SubObjectId: 11742115500922717953
             }
           }
           Overrides {
             Name: "cs:Icons"
             ObjectReference {
-              SubObjectId: 1251885954978865815
+              SubObjectId: 4478863184475229124
             }
           }
           Overrides {
             Name: "cs:SpawnPanel"
             ObjectReference {
-              SubObjectId: 8205737830011591352
+              SubObjectId: 9651657935210424421
             }
           }
           Overrides {
             Name: "cs:ReactPanel"
             ObjectReference {
-              SubObjectId: 4957922931614655528
+              SubObjectId: 16788250053017095924
             }
           }
           Overrides {
@@ -663,7 +1050,7 @@
         }
       }
       Objects {
-        Id: 16868958762806643478
+        Id: 8205447056492997757
         Name: "KillfeedExtraEvent"
         Transform {
           Location {
@@ -676,7 +1063,7 @@
             Z: 1
           }
         }
-        ParentId: 3214185859698844189
+        ParentId: 13205275631467096371
         UnregisteredParameters {
           Overrides {
             Name: "cs:EventName"
@@ -684,7 +1071,7 @@
           }
           Overrides {
             Name: "cs:Message"
-            String: "{arg1} pressed a butotn at {arg2} {icon}"
+            String: "testing thingy"
           }
           Overrides {
             Name: "cs:TextColor"
@@ -696,7 +1083,7 @@
           }
           Overrides {
             Name: "cs:UseIcon"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:Icon"
@@ -722,7 +1109,7 @@
         }
       }
       Objects {
-        Id: 2007450802700551675
+        Id: 6755839954148604268
         Name: "UI Container"
         Transform {
           Location {
@@ -735,9 +1122,9 @@
             Z: 1
           }
         }
-        ParentId: 3214185859698844189
-        ChildIds: 8205737830011591352
-        ChildIds: 4957922931614655528
+        ParentId: 13205275631467096371
+        ChildIds: 9651657935210424421
+        ChildIds: 16788250053017095924
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -767,7 +1154,7 @@
         }
       }
       Objects {
-        Id: 8205737830011591352
+        Id: 9651657935210424421
         Name: "SpawnPanel"
         Transform {
           Location {
@@ -780,7 +1167,7 @@
             Z: 1
           }
         }
-        ParentId: 2007450802700551675
+        ParentId: 6755839954148604268
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -788,7 +1175,7 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 500
+          Width: 1031
           Height: 440
           UIX: -20
           UIY: 20
@@ -814,7 +1201,7 @@
         }
       }
       Objects {
-        Id: 4957922931614655528
+        Id: 16788250053017095924
         Name: "ReactPanel"
         Transform {
           Location {
@@ -827,22 +1214,22 @@
             Z: 1
           }
         }
-        ParentId: 2007450802700551675
-        ChildIds: 2213005068299484291
-        ChildIds: 12180386296984770083
-        ChildIds: 5107373695006130518
-        ChildIds: 12625300110930276961
+        ParentId: 6755839954148604268
+        ChildIds: 16723551469000255471
+        ChildIds: 11202510046476026414
+        ChildIds: 2200630606119089
+        ChildIds: 1289596940712031984
         UnregisteredParameters {
           Overrides {
             Name: "cs:ProgressBar"
             ObjectReference {
-              SubObjectId: 5107373695006130518
+              SubObjectId: 2200630606119089
             }
           }
           Overrides {
             Name: "cs:TextBox"
             ObjectReference {
-              SubObjectId: 12180386296984770083
+              SubObjectId: 11202510046476026414
             }
           }
         }
@@ -879,7 +1266,7 @@
         }
       }
       Objects {
-        Id: 2213005068299484291
+        Id: 16723551469000255471
         Name: "UI Image"
         Transform {
           Location {
@@ -892,7 +1279,7 @@
             Z: 1
           }
         }
-        ParentId: 4957922931614655528
+        ParentId: 16788250053017095924
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -932,7 +1319,7 @@
         }
       }
       Objects {
-        Id: 12180386296984770083
+        Id: 11202510046476026414
         Name: "UI Text Box"
         Transform {
           Location {
@@ -945,7 +1332,7 @@
             Z: 1
           }
         }
-        ParentId: 4957922931614655528
+        ParentId: 16788250053017095924
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -991,7 +1378,7 @@
         }
       }
       Objects {
-        Id: 5107373695006130518
+        Id: 2200630606119089
         Name: "UI Progress Bar"
         Transform {
           Location {
@@ -1004,7 +1391,7 @@
             Z: 1
           }
         }
-        ParentId: 4957922931614655528
+        ParentId: 16788250053017095924
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1047,7 +1434,7 @@
         }
       }
       Objects {
-        Id: 12625300110930276961
+        Id: 1289596940712031984
         Name: "UI Text Box"
         Transform {
           Location {
@@ -1060,7 +1447,7 @@
             Z: 1
           }
         }
-        ParentId: 4957922931614655528
+        ParentId: 16788250053017095924
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1107,21 +1494,75 @@
       }
     }
     Assets {
-      Id: 2197302330802219150
-      Name: "Weapon Sniper Rifle 003"
+      Id: 15918351247767818628
+      Name: "Icon Skull"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Weapon_SniperRifle_003"
+        AssetId: "Icon_Skull"
       }
     }
     Assets {
-      Id: 16642429999705570072
-      Name: "Icon Target"
+      Id: 3772783788081685654
+      Name: "Icon Assault Rifle"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Target"
+        AssetId: "Icon_WeaponAssaultRifle"
+      }
+    }
+    Assets {
+      Id: 2014244595946923048
+      Name: "Icon Weapon SMG"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_WeaponSMG"
+      }
+    }
+    Assets {
+      Id: 9934992039656428311
+      Name: "Icon Weapon Rocket Launcher"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_WeaponRocketLauncher"
+      }
+    }
+    Assets {
+      Id: 1089507744638609654
+      Name: "Icon Weapon Shotgun"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_WeaponShotgun"
+      }
+    }
+    Assets {
+      Id: 17397341478246606362
+      Name: "Icon Weapon Rifle"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_WeaponRifle"
+      }
+    }
+    Assets {
+      Id: 7857068568420460772
+      Name: "Knife"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_011"
+      }
+    }
+    Assets {
+      Id: 5471655330366632404
+      Name: "Icon Weapon Gun"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_WeaponGun"
       }
     }
     Assets {
@@ -1143,6 +1584,15 @@
       }
     }
     Assets {
+      Id: 9384520849142346961
+      Name: "Icon Death"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Death"
+      }
+    }
+    Assets {
       Id: 3337364725595916388
       Name: "Apple 2"
       PlatformAssetType: 9
@@ -1156,5 +1606,9 @@
       AssetId: "None"
     }
   }
+  Marketplace {
+    Description: "ffdsfsdzfsd"
+  }
   SerializationVersion: 68
+  DirectlyPublished: true
 }

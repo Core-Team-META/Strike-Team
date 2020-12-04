@@ -274,7 +274,7 @@
               B: 1
               A: 1
             }
-            Size: 30
+            Size: 18
             Justification {
               Value: "mc:etextjustify:center"
             }

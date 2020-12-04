@@ -15,7 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10671565427701169845
+        ChildIds: 206803550957873213
         ChildIds: 683780868078058379
         ChildIds: 4993447437596126054
         Collidable_v2 {
@@ -27,6 +28,44 @@
         Folder {
           IsFilePartition: true
           FilePartitionName: "Command"
+        }
+      }
+      Objects {
+        Id: 206803550957873213
+        Name: "GlobalStorageKeys"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11047162740706383888
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:WeaponStorage"
+            NetReference {
+              Key: "fd268eca9a464d4eb4cad63f36cd3898"
+              Type {
+                Value: "mc:enetreferencetype:sharedpersistence"
+              }
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 567040519138770933
+          }
         }
       }
       Objects {
@@ -249,7 +288,7 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           RenderTransformPivot {

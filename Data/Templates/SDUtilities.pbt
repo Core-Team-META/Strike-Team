@@ -75,6 +75,10 @@
             Name: "cs:TimeBeforeHealing"
             Float: 2
           }
+          Overrides {
+            Name: "cs:HealinigPerSecond"
+            Float: 25
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

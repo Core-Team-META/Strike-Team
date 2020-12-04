@@ -72,7 +72,7 @@ local scopeInstance = nil
 local isScoping = false
 
 function Tick(deltaTime)
-    if not CAN_AIM then return end
+    if not CAN_AIM  then return end
     if not Object.IsValid(WEAPON) then return end
 
     -- We call OnEquipped function after player is fully loaded in client
@@ -201,9 +201,11 @@ function ResetScoping(player)
 end
 
 function OnBindingPressed(player, actionName)
-    if actionName == AIM_BINDING then
+    if actionName == AIM_BINDING and not WEAPON.owner.clientUserData.isSprinting then
         EnableScoping(player)
-    end
+    elseif (player.clientUserData.isSprinting) then
+        ResetScoping(player)
+    end 
 end
 
 function OnBindingReleased(player, actionName)

@@ -2,6 +2,7 @@
 local BindingToSlot = {
     ["ability_extra_1"] = "PrimaryWeapon",
     ["ability_extra_2"] = "SecondaryWeapon",
+    ["ability_extra_3"] = "MeleeWeapon",
 }
 
 

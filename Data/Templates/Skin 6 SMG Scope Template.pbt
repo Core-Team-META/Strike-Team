@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 6052876659036258130
+        ParentId: 4781671109827199097
         ChildIds: 2482311978330240312
         ChildIds: 17517807607448349857
         WantsNetworking: true
@@ -119,6 +119,7 @@
         ChildIds: 14187296178944116941
         ChildIds: 4894899147813275502
         ChildIds: 6761060538807622058
+        ChildIds: 5338675088395270305
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2719,6 +2720,77 @@
           }
         }
       }
+      Objects {
+        Id: 5338675088395270305
+        Name: "Modern Weapon - Body 02"
+        Transform {
+          Location {
+            X: -5.9675293
+            Y: -0.271972656
+            Z: 37.7762756
+          }
+          Rotation {
+            Pitch: 44.9997635
+            Yaw: 89.9999466
+            Roll: -90.0002365
+          }
+          Scale {
+            X: 0.001
+            Y: 0.001
+            Z: 0.001
+          }
+        }
+        ParentId: 17517807607448349857
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 18402088162155752250
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 5390120376389660115
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 15387941303173424625
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3294723259559680467
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 9468343199086191247
@@ -2925,6 +2997,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_fan_head_staff_001"
+      }
+    }
+    Assets {
+      Id: 3294723259559680467
+      Name: "Cylinder"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_002"
       }
     }
     PrimaryAssetId {
