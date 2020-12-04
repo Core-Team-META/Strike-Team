@@ -81,7 +81,7 @@
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16583936388927273216
+              Id: 622433789355555801
             }
             Color {
               A: 0.5
@@ -105,12 +105,12 @@
       }
     }
     Assets {
-      Id: 16583936388927273216
-      Name: "BG Flat 002"
+      Id: 622433789355555801
+      Name: "BG Flat 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundNoOutline_019"
+        AssetId: "BackgroundNoOutline_020"
       }
     }
     PrimaryAssetId {

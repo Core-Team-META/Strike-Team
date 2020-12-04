@@ -326,6 +326,25 @@ Objects {
           Name: "cs:ShowNames"
           Bool: true
         }
+        Overrides {
+          Name: "cs:FriendlyNameColor"
+          Color {
+            G: 0.266949415
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "cs:EnemyNameColor"
+          Color {
+            R: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "cs:MaxDistanceOnEnemies"
+          Float: 25000
+        }
       }
     }
     TemplateAsset {

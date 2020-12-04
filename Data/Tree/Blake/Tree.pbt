@@ -165,31 +165,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1877040087555513316
-      value {
-        Overrides {
-          Name: "cs:LoadoutKey"
-          NetReference {
-            Key: "5be15c17d2bd439b849671003cc6f3d5"
-            Type {
-              Value: "mc:enetreferencetype:sharedpersistence"
-            }
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9393590813340262665
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 15973117888364099070
       value {
         Overrides {

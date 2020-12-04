@@ -1,10 +1,10 @@
 ﻿Assets {
-  Id: 2585576730319148080
-  Name: "SniperDutyLoadout2"
+  Id: 9792758013708024085
+  Name: "SniperDutyLoadoutKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5be15c17d2bd439b849671003cc6f3d5"
+      Key: "fd268eca9a464d4eb4cad63f36cd3898"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

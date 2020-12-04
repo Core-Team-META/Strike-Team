@@ -51,7 +51,7 @@
           }
           Overrides {
             Name: "cs:LineDuration"
-            Float: 2
+            Float: 4
           }
           Overrides {
             Name: "cs:LineHeight"
