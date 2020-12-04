@@ -26,7 +26,7 @@
           }
           Overrides {
             Name: "cs:Binding"
-            String: ""
+            String: "ability_secondary"
           }
           Overrides {
             Name: "cs:Ability"
@@ -42,7 +42,7 @@
           }
           Overrides {
             Name: "cs:StartingGrenades"
-            Int: 1
+            Int: -1
           }
         }
         WantsNetworking: true
@@ -138,7 +138,7 @@
             }
           }
           RecoveryPhaseSettings {
-            Duration: 10
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -149,7 +149,7 @@
             }
           }
           CooldownPhaseSettings {
-            Duration: 1
+            Duration: 10
             CanMove: true
             CanJump: true
             CanRotate: true

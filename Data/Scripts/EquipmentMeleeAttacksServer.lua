@@ -51,10 +51,8 @@ function Tick()
 end
 
 function CalculateBackStab(player,damage)
-    local playerLookDirection = (player:GetViewWorldRotation() * Vector3.FORWARD)
-    local sourceLookDirection = (damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD)
-    playerLookDirection = Vector2.New(playerLookDirection.x,playerLookDirection.y)
-    sourceLookDirection = Vector2.New(sourceLookDirection.x,sourceLookDirection.y)
+    local playerLookDirection = player:GetViewWorldRotation() * Vector3.FORWARD
+    local sourceLookDirection = damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD
     if((playerLookDirection .. sourceLookDirection) >=  .8) then
         damage.amount = 100
         damage.sourcePlayer:AddResource("Backstab", 1)

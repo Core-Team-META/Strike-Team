@@ -180,9 +180,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
+    Width: 250
     Height: 27
-    UIX: 100
     UIY: 48.2902451
     RenderTransformPivot {
       Anchor {
@@ -194,7 +193,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
@@ -237,6 +236,7 @@ Objects {
   Control {
     Width: 250
     Height: 44
+    UIX: 10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -253,7 +253,7 @@ Objects {
       }
       Size: 14
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
     }
@@ -368,7 +368,6 @@ Objects {
   Control {
     Width: 200
     Height: 60
-    RotationAngle: 180
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -387,7 +386,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
@@ -637,9 +636,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
+    Width: 250
     Height: 27
-    UIX: -100
     UIY: 48.2902451
     RenderTransformPivot {
       Anchor {
@@ -651,7 +649,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:topright"
         }
       }
       TargetAnchor {
@@ -694,6 +692,7 @@ Objects {
   Control {
     Width: 250
     Height: 44
+    UIX: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

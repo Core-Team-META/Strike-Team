@@ -48,7 +48,7 @@
           Overrides {
             Name: "cs:LoadoutKey"
             NetReference {
-              Key: "fd268eca9a464d4eb4cad63f36cd3898"
+              Key: "5be15c17d2bd439b849671003cc6f3d5"
               Type {
                 Value: "mc:enetreferencetype:sharedpersistence"
               }
