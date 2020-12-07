@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SprintSpeed"
-      Float: 1000
+      Float: 1160
     }
     Overrides {
       Name: "cs:SlidingDelay"
@@ -38,7 +38,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SlidingFriction"
-      Float: 3
+      Float: 1.5
     }
     Overrides {
       Name: "cs:SlidingBraking"

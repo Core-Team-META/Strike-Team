@@ -657,11 +657,10 @@ Objects {
         ChatMode {
         }
         ChatPosition {
-          X: 1.64782715
-          Y: 176.343597
+          X: -112.290634
         }
         ChatSize {
-          X: 450
+          X: 332.539581
           Y: 400
         }
         ChatHorizontalAlignment {

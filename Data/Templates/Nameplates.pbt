@@ -24,11 +24,11 @@
           }
           Overrides {
             Name: "cs:ShowHealthbars"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ShowOnSelf"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ShowOnTeammates"
@@ -44,7 +44,7 @@
           }
           Overrides {
             Name: "cs:MaxDistanceOnEnemies"
-            Float: 2000
+            Float: 25000
           }
           Overrides {
             Name: "cs:ShowOnDeadPlayers"
@@ -69,15 +69,18 @@
           Overrides {
             Name: "cs:FriendlyNameColor"
             Color {
-              G: 0.0762913
-              B: 0.72
+              R: 0.0152085554
+              G: 0.304987341
+              B: 0.896269679
               A: 1
             }
           }
           Overrides {
             Name: "cs:EnemyNameColor"
             Color {
-              R: 0.450000048
+              R: 0.904661477
+              G: 0.0561284609
+              B: 0.0368894599
               A: 1
             }
           }

@@ -147,6 +147,53 @@ Objects {
   }
 }
 Objects {
+  Id: 17450326200040241075
+  Name: "Motion Blur Post Process"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Blend Weight"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Max"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Per Object Amount"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3471881598561556181
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 4975704287466969891
   Name: "LoadoutEquipment"
   Transform {
@@ -327,48 +374,6 @@ Objects {
     }
     TemplateAsset {
       Id: 12469272091380785429
-    }
-  }
-}
-Objects {
-  Id: 10288110445807727604
-  Name: "HealthScreen"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6061567258760865665
-      value {
-        Overrides {
-          Name: "Name"
-          String: "HealthScreen"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18254605239533031477
     }
   }
 }

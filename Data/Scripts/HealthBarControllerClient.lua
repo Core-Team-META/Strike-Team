@@ -22,6 +22,7 @@ local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("ProgressBar"):WaitForObject()
 local AMMO_PANEL = script:GetCustomProperty("AmmoPanel"):WaitForObject()
 local AMMO_TEXT = script:GetCustomProperty("AmmoText"):WaitForObject()
+local MAX_AMMO_TEXT = script:GetCustomProperty("MaxAmmo"):WaitForObject()
 
 -- User exposed properties
 local SHOW_NUMBER = COMPONENT_ROOT:GetCustomProperty("ShowNumber")
@@ -68,8 +69,12 @@ function Tick(deltaTime)
 		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
 			if weapon ~= nil then
-				AMMO_TEXT.text = tostring(weapon.currentAmmo)
-			end
+                AMMO_TEXT.text = tostring(weapon.currentAmmo)
+                MAX_AMMO_TEXT.text = tostring(weapon.maxAmmo)
+            else
+                AMMO_TEXT.text = tostring("∞")
+                MAX_AMMO_TEXT.text = tostring("∞")
+            end
             AMMO_PANEL.visibility = Visibility.INHERIT
         else
             AMMO_PANEL.visibility = Visibility.FORCE_OFF
