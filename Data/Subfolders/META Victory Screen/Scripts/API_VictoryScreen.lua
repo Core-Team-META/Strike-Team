@@ -140,7 +140,14 @@ API.playerRestoredEvent = {
 --	table CalculateWinners(string, string)
 --	Returns a sorted table of all players dependant on the WINNER_SORT_TYPE
 function API.CalculateWinners(winnerSortType, winnerSortResource)
-	local winners = Game.GetPlayers()
+	local highestTeam = 1
+	for i = 1, 4 do
+		if (Game.GetTeamScore(i) > Game.GetTeamScore(highestTeam)) then 
+			highestTeam = i
+		end
+	end
+
+	local winners = Game.GetPlayers({includeTeams = highestTeam})
 
 	table.sort(winners, function(a, b)
 		if(winnerSortType == "KILL_DEATH") then
@@ -167,9 +174,7 @@ function API.CalculateWinners(winnerSortType, winnerSortResource)
 	return winners
 end
 
---	nil API.OnPlayerTeleported(Player, CoreObject, table, float, CoreObject, bool)
---	Callback, overwriteable, called when a player is spawned
-function API.OnPlayerTeleported(victoryScreen, player, spawnObject, topThreePlayerStats, duration, respawnOnDeactivate)
+function API.TeleportWinners( player, spawnObject, overrideCamera)
 	local spawnPosition = spawnObject:GetWorldPosition()
 	local spawnRotation = spawnObject:GetWorldRotation()
 	if player.isDead then -- respawn the player so they can be teleported
@@ -179,11 +184,20 @@ function API.OnPlayerTeleported(victoryScreen, player, spawnObject, topThreePlay
 		player:SetWorldRotation(spawnRotation)
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 	end
+	player:SetWorldRotation(spawnRotation)
+end
+
+
+
+--	nil API.OnPlayerTeleported(Player, CoreObject, table, float, CoreObject, bool)
+--	Callback, overwriteable, called when a player is spawned
+function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, duration, respawnOnDeactivate)
 	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 		equipment:Destroy()
 	end
 	player.animationStance = "unarmed_stance"
 
+	
 	local data = {
 		originalMovementControlMode = player.movementControlMode,
 		originalLookControlMode = player.lookControlMode
@@ -192,6 +206,11 @@ function API.OnPlayerTeleported(victoryScreen, player, spawnObject, topThreePlay
 	-- prevent player from moving or turning
 	player.movementControlMode = MovementControlMode.NONE
 	player.lookControlMode = LookControlMode.NONE
+
+		
+	if player.isDead then -- respawn the player so they can be teleported
+		player:Respawn()
+	end
 
 	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id, topThreePlayerStats)
 
@@ -204,6 +223,7 @@ function API.OnPlayerTeleported(victoryScreen, player, spawnObject, topThreePlay
 
 	return data
 end
+
 
 --	nil API.OnPlayerRestored(CoreObject, Player, table)
 --	Restores original settings passed in the data table when a player on the victory Screen is sent back
@@ -236,6 +256,9 @@ function API.TeleportPlayers(victoryScreen, playerList)
 		victoryScreen:GetCustomProperty("WinnerSortType"),
 		victoryScreen:GetCustomProperty("WinnerSortResource"),
 		victoryScreen:GetCustomProperty("Spawns"):WaitForObject()
+
+
+	local OverrideCamera = victoryScreen:GetCustomProperty("OverrideCamera"):WaitForObject()
 	winnerSortType = GetProperty(winnerSortType, WINNER_SORT_TYPES)
 
 	if(not playerList) then
@@ -250,6 +273,14 @@ function API.TeleportPlayers(victoryScreen, playerList)
 			topThreePlayerStats[index] = playerList[index].name
 		end
 	end
+ 
+	for _, player in pairs(Game.GetPlayers()) do
+		if(Object.IsValid(player)) then
+			API.OnPlayerTeleported(victoryScreen, player, topThreePlayerStats, duration, respawnOnDeactivate, OverrideCamera)
+			API.playerTeleportedEvent:_Fire(victoryScreen, player, topThreePlayerStats)
+		end
+	end
+
 
 	for place, spawnObject in pairs(spawnsGroup:GetChildren()) do
 		if(place > numberOfWinners) then break end
@@ -257,11 +288,12 @@ function API.TeleportPlayers(victoryScreen, playerList)
 		local player = playerList[place]
 		if(Object.IsValid(player)) then
 			FastSpawn(function()
-				API.OnPlayerTeleported(victoryScreen, player, spawnObject, topThreePlayerStats, duration, respawnOnDeactivate)
-				API.playerTeleportedEvent:_Fire(victoryScreen, player, spawnObject, topThreePlayerStats)
+				API.TeleportWinners( player, spawnObject, OverrideCamera)
+				
 			end)
 		end
 	end
+
 end
 
 return API

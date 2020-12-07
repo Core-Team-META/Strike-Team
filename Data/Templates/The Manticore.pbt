@@ -673,6 +673,10 @@
               Y: 1
             }
           }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 20
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

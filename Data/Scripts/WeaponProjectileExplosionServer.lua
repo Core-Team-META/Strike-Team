@@ -66,11 +66,16 @@ function Blast(center)
         -- Checks to blast the enemy team
         if Teams.AreTeamsEnemies(player.team, WEAPON.owner.team) then
             canDamage = true
+
+
         -- Checks to blast the ally team (including damaging to self)
         elseif FRIENDLY_EXPLOSION then
             canDamage = true
         end
 
+        if WEAPON.owner == player then
+            canDamage = true
+        end
         -- If canDamage is true and there is no objects obstructing the explosion then damage the player
         if canDamage then
             local displacement = player:GetWorldPosition() - center

@@ -869,14 +869,14 @@ Objects {
   Transform {
     Location {
       X: 29.2382774
-      Y: -46.3990555
+      Y: -46.3990593
       Z: 1734.66516
     }
     Rotation {
     }
     Scale {
-      X: 7.50142574
-      Y: 7.50142574
+      X: 7.50142527
+      Y: 7.50142527
       Z: 4.20196199
     }
   }
@@ -8947,166 +8947,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1619839266671861410
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -2521.5603
-      Y: 3432.12329
-      Z: 755
-    }
-    Rotation {
-      Yaw: -38.0262909
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8301557943544729189
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -2651.21436
-      Y: 3533.11646
-      Z: 612.678162
-    }
-    Rotation {
-      Yaw: -48.5445824
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15058388027068317967
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -2411.53
-      Y: 3530.38013
-      Z: 612.678162
-    }
-    Rotation {
-      Yaw: -48.5445824
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16046020022287677426
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -2529.0437
-      Y: 3426.57544
-      Z: 612.678162
-    }
-    Rotation {
-      Yaw: -48.5445824
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 11486884661309917741
   Name: "SAR_Makeshift Tent 3"
   Transform {
@@ -11107,6 +10947,1500 @@ Objects {
     }
     TemplateAsset {
       Id: 3829408514917117108
+    }
+  }
+}
+Objects {
+  Id: 17017710612631277714
+  Name: "MergedModel"
+  Transform {
+    Location {
+      X: 2202.51
+      Y: 5306.13574
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 3787271540771482711
+  ChildIds: 14136242593416468919
+  ChildIds: 11929734861210582893
+  ChildIds: 8927736001843722198
+  ChildIds: 18285464977818396576
+  ChildIds: 2898743135633365611
+  ChildIds: 14104242409435706851
+  ChildIds: 15036396979045595133
+  ChildIds: 12990381289923528882
+  ChildIds: 13096649054480764770
+  ChildIds: 18212502373262984400
+  ChildIds: 8055604453624010820
+  ChildIds: 11154921938926949155
+  ChildIds: 8865271162609045928
+  ChildIds: 12359399076074776214
+  ChildIds: 3139576808855287784
+  ChildIds: 11794731681054199953
+  ChildIds: 6413997254469284432
+  ChildIds: 2891041776814954663
+  ChildIds: 17591840659372372447
+  ChildIds: 16919134514724821420
+  ChildIds: 719090744840032598
+  ChildIds: 4946772841660238108
+  ChildIds: 3482442344781943972
+  ChildIds: 2699442171543988224
+  ChildIds: 11167983413410953315
+  ChildIds: 7376712051704418531
+  ChildIds: 12672067335258042607
+  ChildIds: 14423392318638845658
+  ChildIds: 11859724229243447115
+  ChildIds: 17656549223173966794
+  ChildIds: 7542117224937871722
+  ChildIds: 16046020022287677426
+  ChildIds: 15058388027068317967
+  ChildIds: 8301557943544729189
+  ChildIds: 1619839266671861410
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 1619839266671861410
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -4724.07031
+      Y: -1874.01245
+      Z: 760
+    }
+    Rotation {
+      Yaw: -38.0262222
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8301557943544729189
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -4853.72412
+      Y: -1773.01929
+      Z: 617.678162
+    }
+    Rotation {
+      Yaw: -48.5445366
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15058388027068317967
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -4614.04
+      Y: -1775.75562
+      Z: 617.678162
+    }
+    Rotation {
+      Yaw: -48.5445366
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16046020022287677426
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -4731.55371
+      Y: -1879.5603
+      Z: 617.678162
+    }
+    Rotation {
+      Yaw: -48.5445366
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7542117224937871722
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4529.40723
+      Y: -1563.05322
+      Z: 155
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17656549223173966794
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4397.49
+      Y: -1681.13574
+      Z: 155
+    }
+    Rotation {
+      Yaw: -44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11859724229243447115
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4622.49
+      Y: -1456.13574
+      Z: 5
+    }
+    Rotation {
+      Yaw: -44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14423392318638845658
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4481.47266
+      Y: -1565.11865
+      Z: 5
+    }
+    Rotation {
+      Yaw: -44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12672067335258042607
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4372.49
+      Y: -1706.13574
+      Z: 5.00003052
+    }
+    Rotation {
+      Yaw: -22.4999199
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7376712051704418531
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 552.49
+      Y: -1181.13574
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11167983413410953315
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1097.47559
+      Y: -2666.31372
+      Z: 158.945023
+    }
+    Rotation {
+      Yaw: 36.9226303
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2699442171543988224
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1093.27625
+      Y: -2671.9021
+      Z: 15
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3482442344781943972
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1804.23901
+      Y: -1958.21143
+      Z: 157.699936
+    }
+    Rotation {
+      Yaw: 45.224
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4946772841660238108
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1794.96045
+      Y: -1948.86011
+      Z: 15
+    }
+    Rotation {
+      Yaw: 45.2239876
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 719090744840032598
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1987.51
+      Y: -2496.13574
+      Z: 165
+    }
+    Rotation {
+      Yaw: -44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16919134514724821420
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2492.51
+      Y: -2671.13574
+      Z: 15
+    }
+    Rotation {
+      Yaw: 22.4998913
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17591840659372372447
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1932.51
+      Y: -2551.13574
+      Z: 15
+    }
+    Rotation {
+      Yaw: 22.4998875
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2891041776814954663
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2077.51
+      Y: -2351.13574
+      Z: 165
+    }
+    Rotation {
+      Yaw: 22.4998722
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6413997254469284432
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2027.51
+      Y: -2416.13574
+      Z: 15
+    }
+    Rotation {
+      Yaw: 22.4998913
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11794731681054199953
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2162.51
+      Y: -2301.13574
+      Z: 15
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3139576808855287784
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1367.51
+      Y: -2946.13574
+      Z: 15
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12359399076074776214
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -1492.51
+      Y: -3056.13574
+      Z: 15
+    }
+    Rotation {
+      Yaw: 22.4999046
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8865271162609045928
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2512.51
+      Y: 6578.86426
+      Z: 155
+    }
+    Rotation {
+      Yaw: -112.499863
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11154921938926949155
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2612.51
+      Y: 6578.86426
+      Z: 10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8055604453624010820
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2437.51
+      Y: 6533.86426
+      Z: 10
+    }
+    Rotation {
+      Yaw: -22.4999371
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18212502373262984400
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -3642.51025
+      Y: 3798.86426
+      Z: 3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13096649054480764770
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -3164.08838
+      Y: -1130.33887
+      Z: 3.71008301
+    }
+    Rotation {
+      Roll: -14.6922941
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12990381289923528882
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -2778.56665
+      Y: 325.491699
+      Z: 18.7035828
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15036396979045595133
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 1007.85254
+      Y: 7196.79492
+      Z: 4.90094
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14104242409435706851
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4367.49
+      Y: 6428.86426
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2898743135633365611
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4167.49
+      Y: 6428.86426
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18285464977818396576
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 5502.49
+      Y: 5418.86426
+      Z: 5.00012207
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8927736001843722198
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 5507.49
+      Y: 5593.86426
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11929734861210582893
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4682.49
+      Y: -2391.13574
+      Z: 585
+    }
+    Rotation {
+      Yaw: -67.5001068
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14136242593416468919
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4552.49
+      Y: -2491.13574
+      Z: 585
+    }
+    Rotation {
+      Yaw: -44.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3787271540771482711
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 4657.49
+      Y: -2381.13574
+      Z: 730
+    }
+    Rotation {
+      Yaw: -67.5001068
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17017710612631277714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
@@ -28924,62 +30258,6 @@ Objects {
   }
 }
 Objects {
-  Id: 8314472248818094680
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 410.287628
-      Y: 13974.0273
-      Z: 620.176941
-    }
-    Rotation {
-      Yaw: -10.0000448
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 502.850433
-            Y: 13957.7061
-            Z: 745.915833
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -10.000061
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 15072890643833178313
   Name: "Hills 01"
   Transform {
@@ -29257,564 +30535,6 @@ Objects {
     }
     TemplateAsset {
       Id: 7079804439142703367
-    }
-  }
-}
-Objects {
-  Id: 6388113494056889452
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3590.00024
-      Y: 400.000214
-      Z: 208.805878
-    }
-    Rotation {
-      Yaw: -179.459869
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 9280
-            Y: 7765
-            Z: -15
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -44.4598389
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 14116073578202701481
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3710
-      Y: 345
-      Z: 333.805969
-    }
-    Rotation {
-      Yaw: -170.857224
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 9110
-            Y: 7895
-            Z: 110.000153
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -35.8571167
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 18053352934692919229
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3730
-      Y: 355
-      Z: 208.805939
-    }
-    Rotation {
-      Yaw: -170.817505
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 9148.78711
-            Y: 7857.07031
-            Z: -14.9998779
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -35.8174438
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 8798649077488905397
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3880
-      Y: 405
-      Z: 208.805969
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 9071.40332
-            Y: 7966.52539
-            Z: -14.9999084
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 16135196862968203917
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 4030
-      Y: 405
-      Z: 208.805969
-    }
-    Rotation {
-      Yaw: -157.499985
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 8965.33691
-            Y: 8072.5918
-            Z: -14.9999084
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -67.5000305
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 16609947911146929667
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3900
-      Y: 405
-      Z: 208.805969
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4030
-            Y: 405
-            Z: 208.805969
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -157.499985
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 7507422192672954236
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2180
-      Y: 2725
-      Z: -3.05175781e-05
-    }
-    Rotation {
-      Yaw: 9.18246937
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3730
-            Y: 355
-            Z: 208.805939
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -170.81752
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 7515102495759250220
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2055
-      Y: 2680
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3880
-            Y: 405
-            Z: 208.805969
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 701613522516494119
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2120
-      Y: 2720
-      Z: 125
-    }
-    Rotation {
-      Yaw: 9.14276123
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3710
-            Y: 345
-            Z: 333.805969
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -170.857254
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 13590270796453558457
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2320
-      Y: 2680
-      Z: -9.15527344e-05
-    }
-    Rotation {
-      Yaw: 0.540122926
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3590.00024
-            Y: 400.000214
-            Z: 208.805878
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -179.459869
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
     }
   }
 }
@@ -30285,224 +31005,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16317433510728908828
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1792.10498
-      Y: 6395
-      Z: 4.91412354
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2255
-            Y: 6750
-            Z: 10.0000305
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 1012369589622367590
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1945
-      Y: 6395
-      Z: 136.018372
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1705
-            Y: 6395
-            Z: 136.018372
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 16641836938402530440
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1947.10498
-      Y: 6405
-      Z: 4.91412354
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1650
-            Y: 6405
-            Z: 4.91412354
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 1362649611469634159
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -7423.38916
-      Y: 3971.61133
-      Z: 0.0241012573
-    }
-    Rotation {
-      Yaw: -46.5744553
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7372.08105
-            Y: 3917.40283
-            Z: 122.536247
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -60.1959839
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 4626549119009668444
   Name: "Military Hazard Barrel"
   Transform {
@@ -30549,174 +31051,6 @@ Objects {
     StaticMesh {
       Physics {
       }
-    }
-  }
-}
-Objects {
-  Id: 5542245485973075413
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2305
-      Y: 7755
-      Z: 144.999466
-    }
-    Rotation {
-      Yaw: -26.8203259
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2310
-            Y: 7905
-            Z: 144.999527
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.32034302
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 8017823469770875761
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2305
-      Y: 7605
-      Z: 144.999512
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2305
-            Y: 7755
-            Z: 144.999466
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -26.820343
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 15343100600447337910
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2323.93262
-      Y: 8884.40527
-      Z: 144.999603
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2305
-            Y: 7605
-            Z: 144.999512
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.32037354
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
     }
   }
 }
@@ -34669,6 +35003,1111 @@ Objects {
   }
 }
 Objects {
+  Id: 10073522544166000002
+  Name: "MergedModel"
+  Transform {
+    Location {
+      X: 200
+      Y: 5800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 11499908415200933768
+  ChildIds: 2130387821802019803
+  ChildIds: 15325803957842615271
+  ChildIds: 15075261844790238995
+  ChildIds: 2038155474037959444
+  ChildIds: 8379383411255238153
+  ChildIds: 16864953623666377597
+  ChildIds: 7982873639629635242
+  ChildIds: 90782022694674897
+  ChildIds: 2423528252876424079
+  ChildIds: 17886799659755451526
+  ChildIds: 9364585696896364373
+  ChildIds: 9907678696868942273
+  ChildIds: 7410875237618488873
+  ChildIds: 4984546340705773956
+  ChildIds: 15198752495714910374
+  ChildIds: 13955623797824997734
+  ChildIds: 6456008331193994722
+  ChildIds: 17999815744126777727
+  ChildIds: 14562676613236347118
+  ChildIds: 391465696272522306
+  ChildIds: 15285225340410671695
+  ChildIds: 4287801837667316687
+  ChildIds: 2238540253834484196
+  ChildIds: 12272834433005926093
+  ChildIds: 5119627123452854791
+  ChildIds: 6198312668769828919
+  ChildIds: 5538843004783888682
+  ChildIds: 14030900246697996376
+  ChildIds: 11424306665800538148
+  ChildIds: 16457663821841920343
+  ChildIds: 1278784125947412669
+  ChildIds: 8432725912179569448
+  ChildIds: 70890524051351357
+  ChildIds: 5421033512339587154
+  ChildIds: 3501176189184208082
+  ChildIds: 9055443418660678502
+  ChildIds: 11213869464867888165
+  ChildIds: 3491313488055449758
+  ChildIds: 1097413289966460483
+  ChildIds: 2492472068573326830
+  ChildIds: 14567454995788759851
+  ChildIds: 16076892857296454423
+  ChildIds: 16610768017998727626
+  ChildIds: 14812882793822688762
+  ChildIds: 7637793010355614402
+  ChildIds: 18005083164512511754
+  ChildIds: 2733921841461749934
+  ChildIds: 13153562192728720249
+  ChildIds: 10081318493242525375
+  ChildIds: 12905047747732461942
+  ChildIds: 4375424575860963981
+  ChildIds: 12237625670192226125
+  ChildIds: 6822501394389593683
+  ChildIds: 6392619430574451844
+  ChildIds: 8219712119989081307
+  ChildIds: 740818641223969220
+  ChildIds: 10219600476360837811
+  ChildIds: 14046609401061095440
+  ChildIds: 15343100600447337910
+  ChildIds: 8017823469770875761
+  ChildIds: 5542245485973075413
+  ChildIds: 1362649611469634159
+  ChildIds: 16641836938402530440
+  ChildIds: 1012369589622367590
+  ChildIds: 16317433510728908828
+  ChildIds: 13590270796453558457
+  ChildIds: 701613522516494119
+  ChildIds: 7515102495759250220
+  ChildIds: 7507422192672954236
+  ChildIds: 16609947911146929667
+  ChildIds: 16135196862968203917
+  ChildIds: 8798649077488905397
+  ChildIds: 18053352934692919229
+  ChildIds: 14116073578202701481
+  ChildIds: 6388113494056889452
+  ChildIds: 8314472248818094680
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 8314472248818094680
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 410.287628
+      Y: 13974.0273
+      Z: 620.176941
+    }
+    Rotation {
+      Yaw: -10.0000448
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 302.850433
+            Y: 8157.70605
+            Z: 745.915833
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -10.0000753
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 6388113494056889452
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3590.00024
+      Y: 400.000214
+      Z: 208.805878
+    }
+    Rotation {
+      Yaw: -179.459869
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9080
+            Y: 1965
+            Z: -15
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.459816
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 14116073578202701481
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3710
+      Y: 345
+      Z: 333.805969
+    }
+    Rotation {
+      Yaw: -170.857224
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8910
+            Y: 2095
+            Z: 110.000153
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.8571167
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 18053352934692919229
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3730
+      Y: 355
+      Z: 208.805939
+    }
+    Rotation {
+      Yaw: -170.817505
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8948.78711
+            Y: 2057.07031
+            Z: -14.9998779
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.8174438
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 8798649077488905397
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3880
+      Y: 405
+      Z: 208.805969
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8871.40332
+            Y: 2166.52539
+            Z: -14.9999084
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999962
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 16135196862968203917
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 4030
+      Y: 405
+      Z: 208.805969
+    }
+    Rotation {
+      Yaw: -157.499985
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8765.33691
+            Y: 2272.5918
+            Z: -14.9999084
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -67.5000381
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 16609947911146929667
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3900
+      Y: 405
+      Z: 208.805969
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3830
+            Y: -5395
+            Z: 208.805969
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -157.499985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 7507422192672954236
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2180
+      Y: 2725
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 9.18246937
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3530
+            Y: -5445
+            Z: 208.805939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -170.817505
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 7515102495759250220
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2055
+      Y: 2680
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3680
+            Y: -5395
+            Z: 208.805969
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 701613522516494119
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2120
+      Y: 2720
+      Z: 125
+    }
+    Rotation {
+      Yaw: 9.14276123
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3510
+            Y: -5455
+            Z: 333.805969
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -170.857224
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 13590270796453558457
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2320
+      Y: 2680
+      Z: -9.15527344e-05
+    }
+    Rotation {
+      Yaw: 0.540122926
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3390.00024
+            Y: -5400
+            Z: 208.805878
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.459869
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 16317433510728908828
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1792.10498
+      Y: 6395
+      Z: 4.91412354
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2455
+            Y: 950
+            Z: 10.0000305
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 1012369589622367590
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1945
+      Y: 6395
+      Z: 136.018372
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1905
+            Y: 595
+            Z: 136.018372
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 16641836938402530440
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1947.10498
+      Y: 6405
+      Z: 4.91412354
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1850
+            Y: 605
+            Z: 4.91412354
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 1362649611469634159
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -7423.38916
+      Y: 3971.61133
+      Z: 0.0241012573
+    }
+    Rotation {
+      Yaw: -46.5744553
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7572.08105
+            Y: -1882.59717
+            Z: 122.536247
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -60.1959763
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 5542245485973075413
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2305
+      Y: 7755
+      Z: 144.999466
+    }
+    Rotation {
+      Yaw: -26.8203259
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2110
+            Y: 2105
+            Z: 144.999527
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32034492
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 8017823469770875761
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2305
+      Y: 7605
+      Z: 144.999512
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2105
+            Y: 1955
+            Z: 144.999466
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -26.8203259
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 15343100600447337910
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2323.93262
+      Y: 8884.40527
+      Z: 144.999603
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2105
+            Y: 1805
+            Z: 144.999512
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037497
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
   Id: 14046609401061095440
   Name: "SAR_HescoBarrier"
   Transform {
@@ -34686,7 +36125,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -34698,8 +36137,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 913.160889
-            Y: 7998.30908
+            X: 713.160889
+            Y: 2198.30908
             Z: 122.926727
           }
         }
@@ -34742,7 +36181,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -34754,15 +36193,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 758.580872
-            Y: 8003.35693
+            X: 558.580872
+            Y: 2203.35693
             Z: 4.91409302
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -27.5046082
+            Yaw: -27.5045929
           }
         }
         Overrides {
@@ -34797,7 +36236,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -34809,15 +36248,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 909.694763
-            Y: 7842.04688
+            X: 709.694763
+            Y: 2042.04688
             Z: 4.91415405
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -27.5046387
+            Yaw: -27.5046253
           }
         }
         Overrides {
@@ -34852,7 +36291,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -34864,8 +36303,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 909.694763
-            Y: 8008.11768
+            X: 709.694763
+            Y: 2208.11768
             Z: 4.91415405
           }
         }
@@ -34906,7 +36345,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -34918,8 +36357,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 909.694763
-            Y: 6532.49756
+            X: 709.694763
+            Y: 732.497559
             Z: 4.91415405
           }
         }
@@ -34960,7 +36399,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -34972,15 +36411,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 773.373901
-            Y: 6389.125
+            X: 573.373901
+            Y: 589.125
             Z: 136.018372
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -12.6383972
+            Yaw: -12.6384153
           }
         }
         Overrides {
@@ -35015,7 +36454,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35027,15 +36466,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 923.445
-            Y: 6375.02197
+            X: 723.445
+            Y: 575.022
             Z: 136.018372
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 12.502471
+            Yaw: 12.502491
           }
         }
         Overrides {
@@ -35070,7 +36509,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35082,8 +36521,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 910.775269
-            Y: 6387.4043
+            X: 710.775269
+            Y: 587.404297
             Z: 4.91412354
           }
         }
@@ -35124,7 +36563,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35136,8 +36575,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 575.725891
-            Y: 6385.96045
+            X: 375.725891
+            Y: 585.960449
             Z: 4.91412354
           }
         }
@@ -35178,7 +36617,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35190,8 +36629,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 750.824
-            Y: 6387.4043
+            X: 550.824
+            Y: 587.404297
             Z: 4.91412354
           }
         }
@@ -35232,7 +36671,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35244,8 +36683,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -713.412048
-            Y: 6360
+            X: -913.412048
+            Y: 560
             Z: 136.018372
           }
         }
@@ -35286,7 +36725,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35298,8 +36737,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -599.071167
-            Y: 6330
+            X: -799.071167
+            Y: 530
             Z: 4.91412354
           }
         }
@@ -35340,7 +36779,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35352,8 +36791,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -914.022461
-            Y: 6360
+            X: -1114.02246
+            Y: 560
             Z: 4.91412354
           }
         }
@@ -35394,7 +36833,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35406,8 +36845,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -860.585938
-            Y: 6360
+            X: -1060.58594
+            Y: 560
             Z: 136.018372
           }
         }
@@ -35448,7 +36887,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35460,8 +36899,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -759.022461
-            Y: 6330
+            X: -959.022461
+            Y: 530
             Z: 4.91412354
           }
         }
@@ -35502,7 +36941,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35514,8 +36953,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1945
-            Y: 6395
+            X: -2145
+            Y: 595
             Z: 136.018372
           }
         }
@@ -35556,7 +36995,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35568,8 +37007,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1947.10498
-            Y: 6405
+            X: -2147.10498
+            Y: 605
             Z: 4.91412354
           }
         }
@@ -35610,7 +37049,7 @@ Objects {
       Z: 0.649433315
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 10073522544166000002
   TemplateInstance {
     ParameterOverrideMap {
       key: 13396233290311227742
@@ -35622,9 +37061,2233 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1792.10498
-            Y: 6395
+            X: -1992.10498
+            Y: 595
             Z: 4.91412354
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 2492472068573326830
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2328.73828
+      Y: 9040.07324
+      Z: 144.999603
+    }
+    Rotation {
+      Yaw: -19.7303467
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1966.44458
+            Y: 3114.48828
+            Z: 144.999603
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -19.7303467
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 1097413289966460483
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2323.93262
+      Y: 8884.40527
+      Z: 144.999603
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2128.73828
+            Y: 3240.07324
+            Z: 144.999603
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -19.7303467
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 3491313488055449758
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2016.4801
+      Y: 9275.60938
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2123.93262
+            Y: 3084.40527
+            Z: 144.999603
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037497
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 11213869464867888165
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 714.734253
+      Y: 13790.0322
+      Z: 605
+    }
+    Rotation {
+      Yaw: -10.0000143
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 210.287628
+            Y: 8174.02734
+            Z: 620.176941
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -10.0000448
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 9055443418660678502
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 571.586792
+      Y: 13790.0322
+      Z: 605
+    }
+    Rotation {
+      Yaw: 3.44177222
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 70.6482239
+            Y: 8211.99902
+            Z: 620.176941
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 3.44177389
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 3501176189184208082
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 578.766602
+      Y: 13790.0322
+      Z: 605
+    }
+    Rotation {
+      Yaw: -10.0000143
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 361.197388
+            Y: 8162.77344
+            Z: 620.176941
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 3.44177389
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 5421033512339587154
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1290
+      Y: 12005
+      Z: 605
+    }
+    Rotation {
+      Yaw: -10.0000143
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 522.424194
+            Y: 8200.6377
+            Z: 620.176819
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -10.0000448
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 70890524051351357
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3677.9104
+      Y: 7025.729
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -17.237133
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3477.979
+            Y: 1101.05127
+            Z: 275.765747
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -17.237154
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 8432725912179569448
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3671.11279
+      Y: 6886.70654
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2210.50928
+            Y: 1374.09619
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037783
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 1278784125947412669
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3677.9104
+      Y: 7025.729
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -17.237133
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2217.30688
+            Y: 1513.11865
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -17.237154
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 16457663821841920343
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 3671.11279
+      Y: 6886.70654
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3471.82983
+            Y: 1206.13086
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -17.237154
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 11424306665800538148
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2057.3186
+      Y: 6757.53516
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3465.03223
+            Y: 1067.1084
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037783
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 14030900246697996376
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -7240
+      Y: 4150
+      Z: 0.0241034217
+    }
+    Rotation {
+      Yaw: -54.9999886
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7503.38916
+            Y: -1923.38916
+            Z: 0.0241012573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999962
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 5538843004783888682
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -7285
+      Y: 4250
+      Z: 0.0241034217
+    }
+    Rotation {
+      Yaw: -35.0000038
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7623.38916
+            Y: -1828.38867
+            Z: 0.0241012573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -46.5744553
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 6198312668769828919
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -7390
+      Y: 4370
+      Z: 0.0241034217
+    }
+    Rotation {
+      Yaw: -35.0000038
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7683.38916
+            Y: -1703.38867
+            Z: 0.0241012573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999962
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 5119627123452854791
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -7538.36914
+      Y: 4425.08643
+      Z: 0.0240729041
+    }
+    Rotation {
+      Yaw: -35.0000038
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7771.45215
+            Y: -1593.78564
+            Z: 0.0241012573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.0000038
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 12272834433005926093
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7888.75342
+            Y: -1502.44482
+            Z: 0.0240707397
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.0000038
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 2238540253834484196
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1359.55029
+      Y: 2891.77148
+      Z: 21.7010612
+    }
+    Rotation {
+      Yaw: -15.7798624
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1708.073
+            Y: -2866.25708
+            Z: 21.7010651
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.66563511
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 4287801837667316687
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1559.55029
+            Y: -2908.22852
+            Z: 21.7010651
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -15.7798977
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 15285225340410671695
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -100.01001
+      Y: 2089.74585
+      Z: 610
+    }
+    Rotation {
+      Yaw: 46.8416557
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -693.241577
+            Y: -3349.23413
+            Z: 609.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 72.3172
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 391465696272522306
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -842.876709
+            Y: -3318.23853
+            Z: 609.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 92.4319763
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 14562676613236347118
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1305
+      Y: 11850
+      Z: 605
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1490
+            Y: 6205
+            Z: 605
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -10.0000439
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 17999815744126777727
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1490
+            Y: 6050
+            Z: 605
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 10.0000439
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 6456008331193994722
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1950
+      Y: 8010
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2190
+            Y: 2210
+            Z: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 13955623797824997734
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1795
+      Y: 8010
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2045
+            Y: 2215
+            Z: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -15.0000505
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 15198752495714910374
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1645
+      Y: 8010
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1905
+            Y: 2215
+            Z: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 4984546340705773956
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1795
+      Y: 8010
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1845
+            Y: 2210
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 7410875237618488873
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: -1950
+      Y: 8010
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1995
+            Y: 2180
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 9907678696868942273
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2150
+            Y: 2210
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 9364585696896364373
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 1926.75903
+      Y: 6767.39844
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -9.05430126
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1392.77
+            Y: -646.533203
+            Z: 144.999542
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 82.9312744
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 17886799659755451526
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2057.3186
+      Y: 6757.53516
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1398.10315
+            Y: -515.709
+            Z: 144.999542
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 87.6649704
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 2423528252876424079
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 1872.54956
+      Y: 7403.65576
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1816.4801
+            Y: 3475.60938
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037783
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 90782022694674897
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 1741.99
+      Y: 7413.51904
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -9.05430126
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1685.92053
+            Y: 3485.47266
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -9.05432415
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 7982873639629635242
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2057.3186
+      Y: 6757.53516
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -4.32037497
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1672.54956
+            Y: 1603.65576
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037783
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 16864953623666377597
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 1926.75903
+      Y: 6767.39844
+      Z: 144.999573
+    }
+    Rotation {
+      Yaw: -9.05430126
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1541.99
+            Y: 1613.51904
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -9.05432415
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 8379383411255238153
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2057.3186
+      Y: 6757.53516
+      Z: 144.999573
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1726.75903
+            Y: 967.398438
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -9.05432415
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 2038155474037959444
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1857.3186
+            Y: 957.535156
+            Z: 144.999573
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -4.32037783
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 15075261844790238995
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 2108.48706
+      Y: 3159.4231
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 9.18244553
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2120
+            Y: -3120
+            Z: -9.15527344e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 0.540122926
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 15325803957842615271
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 1812.07861
+      Y: 3166.66553
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: -13.3572884
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1980
+            Y: -3075
+            Z: -3.05175781e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.18246937
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 2130387821802019803
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Location {
+      X: 1960
+      Y: 3150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.649433315
+      Y: 0.649433315
+      Z: 0.649433315
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1920
+            Y: -3080
+            Z: 125
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.14276123
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.649433315
+            Y: 0.649433315
+            Z: 0.649433315
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13220638757548590314
+    }
+  }
+}
+Objects {
+  Id: 11499908415200933768
+  Name: "SAR_HescoBarrier"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10073522544166000002
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13396233290311227742
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_HescoBarrier"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1855
+            Y: -3120
           }
         }
         Overrides {
@@ -36012,174 +39675,6 @@ Objects {
     SubobjectId: 8095001813333191011
     InstanceId: 18083427911534873558
     TemplateId: 15302579671590695720
-  }
-}
-Objects {
-  Id: 2492472068573326830
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2328.73828
-      Y: 9040.07324
-      Z: 144.999603
-    }
-    Rotation {
-      Yaw: -19.7303467
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2166.44458
-            Y: 8914.48828
-            Z: 144.999603
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -19.7303467
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 1097413289966460483
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2323.93262
-      Y: 8884.40527
-      Z: 144.999603
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2328.73828
-            Y: 9040.07324
-            Z: 144.999603
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -19.7303467
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 3491313488055449758
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2016.4801
-      Y: 9275.60938
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2323.93262
-            Y: 8884.40527
-            Z: 144.999603
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.32037354
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
   }
 }
 Objects {
@@ -37477,7 +40972,7 @@ Objects {
       Z: 580
     }
     Rotation {
-      Yaw: -45
+      Yaw: -44.9999924
     }
     Scale {
       X: 1
@@ -37560,174 +41055,6 @@ Objects {
   }
 }
 Objects {
-  Id: 11213869464867888165
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 714.734253
-      Y: 13790.0322
-      Z: 605
-    }
-    Rotation {
-      Yaw: -10.0000143
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 410.287628
-            Y: 13974.0273
-            Z: 620.176941
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -10.0000305
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 9055443418660678502
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 571.586792
-      Y: 13790.0322
-      Z: 605
-    }
-    Rotation {
-      Yaw: 3.44177222
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 270.648224
-            Y: 14011.999
-            Z: 620.176941
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 3.44177318
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 3501176189184208082
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 578.766602
-      Y: 13790.0322
-      Z: 605
-    }
-    Rotation {
-      Yaw: -10.0000143
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 561.197388
-            Y: 13962.7734
-            Z: 620.176941
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 3.44177318
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 16206033431689390074
   Name: "Cube - bottom aligned"
   Transform {
@@ -37776,62 +41103,6 @@ Objects {
     StaticMesh {
       Physics {
       }
-    }
-  }
-}
-Objects {
-  Id: 5421033512339587154
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1290
-      Y: 12005
-      Z: 605
-    }
-    Rotation {
-      Yaw: -10.0000143
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 722.424194
-            Y: 14000.6377
-            Z: 620.176819
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -10.0000305
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
     }
   }
 }
@@ -38617,286 +41888,6 @@ Objects {
   }
 }
 Objects {
-  Id: 70890524051351357
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3677.9104
-      Y: 7025.729
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -17.237133
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3677.979
-            Y: 6901.05127
-            Z: 275.765747
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.2371445
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 8432725912179569448
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3671.11279
-      Y: 6886.70654
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2410.50928
-            Y: 7174.09619
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.3203764
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 1278784125947412669
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3677.9104
-      Y: 7025.729
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -17.237133
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2417.30688
-            Y: 7313.11865
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.2371445
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 16457663821841920343
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3671.11279
-      Y: 6886.70654
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3671.82983
-            Y: 7006.13086
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.2371445
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 11424306665800538148
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2057.3186
-      Y: 6757.53516
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3665.03223
-            Y: 6867.1084
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.3203764
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 2570597151845018743
   Name: "SAR_Barrel"
   Transform {
@@ -39337,486 +42328,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14030900246697996376
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -7240
-      Y: 4150
-      Z: 0.0241034217
-    }
-    Rotation {
-      Yaw: -54.9999886
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7303.38916
-            Y: 3876.61084
-            Z: 0.0241012573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 5538843004783888682
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -7285
-      Y: 4250
-      Z: 0.0241034217
-    }
-    Rotation {
-      Yaw: -35.0000038
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7423.38916
-            Y: 3971.61133
-            Z: 0.0241012573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -46.5744629
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 6198312668769828919
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -7390
-      Y: 4370
-      Z: 0.0241034217
-    }
-    Rotation {
-      Yaw: -35.0000038
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7483.38916
-            Y: 4096.61133
-            Z: 0.0241012573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 5119627123452854791
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -7538.36914
-      Y: 4425.08643
-      Z: 0.0240729041
-    }
-    Rotation {
-      Yaw: -35.0000038
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7571.45215
-            Y: 4206.21436
-            Z: 0.0241012573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -35
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 12272834433005926093
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -7688.75342
-            Y: 4297.55518
-            Z: 0.0240707397
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -35
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 2238540253834484196
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1359.55029
-      Y: 2891.77148
-      Z: 21.7010612
-    }
-    Rotation {
-      Yaw: -15.7798624
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1508.073
-            Y: 2933.74292
-            Z: 21.7010651
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 9.6656208
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 4287801837667316687
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1359.55029
-            Y: 2891.77148
-            Z: 21.7010651
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -15.7798805
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 15285225340410671695
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -100.01001
-      Y: 2089.74585
-      Z: 610
-    }
-    Rotation {
-      Yaw: 46.8416557
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -493.241608
-            Y: 2450.76587
-            Z: 609.999939
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 72.317215
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 391465696272522306
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -642.876709
-            Y: 2481.76147
-            Z: 609.999939
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 92.4319763
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 2873746411804635314
   Name: "Military Fence Lock"
   Transform {
@@ -40008,427 +42519,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14562676613236347118
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1305
-      Y: 11850
-      Z: 605
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1290
-            Y: 12005
-            Z: 605
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -10.0000286
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 17999815744126777727
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1290
-            Y: 11850
-            Z: 605
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 10.0000286
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 6456008331193994722
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1950
-      Y: 8010
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1990
-            Y: 8010
-            Z: 125
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 13955623797824997734
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1795
-      Y: 8010
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1845
-            Y: 8015
-            Z: 125
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -15.0000305
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 15198752495714910374
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1645
-      Y: 8010
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1705
-            Y: 8015
-            Z: 125
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 4984546340705773956
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1795
-      Y: 8010
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1645
-            Y: 8010
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 7410875237618488873
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: -1950
-      Y: 8010
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1795
-            Y: 7980
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 9907678696868942273
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1950
-            Y: 8010
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 6103101929114969692
   Name: "SAR_Sofa"
   Transform {
@@ -40520,445 +42610,6 @@ Objects {
     }
     TemplateAsset {
       Id: 17824978440386110214
-    }
-  }
-}
-Objects {
-  Id: 9364585696896364373
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1926.75903
-      Y: 6767.39844
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -9.05430126
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1592.77
-            Y: 5153.4668
-            Z: 144.999542
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 82.931282
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 17886799659755451526
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2057.3186
-      Y: 6757.53516
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1598.10315
-            Y: 5284.29102
-            Z: 144.999542
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 87.6649704
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 2423528252876424079
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1872.54956
-      Y: 7403.65576
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2016.4801
-            Y: 9275.60938
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.3203764
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 90782022694674897
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1741.99
-      Y: 7413.51904
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -9.05430126
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1885.92053
-            Y: 9285.47266
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -9.05431271
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 7982873639629635242
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2057.3186
-      Y: 6757.53516
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1872.54956
-            Y: 7403.65576
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.3203764
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 16864953623666377597
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1926.75903
-      Y: 6767.39844
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -9.05430126
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1741.99
-            Y: 7413.51904
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -9.05431271
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 8379383411255238153
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2057.3186
-      Y: 6757.53516
-      Z: 144.999573
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1926.75903
-            Y: 6767.39844
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -9.05431271
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 2038155474037959444
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2057.3186
-            Y: 6757.53516
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.3203764
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
     }
   }
 }
@@ -41059,218 +42710,6 @@ Objects {
     }
     TemplateAsset {
       Id: 4795006726164404533
-    }
-  }
-}
-Objects {
-  Id: 15075261844790238995
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2108.48706
-      Y: 3159.4231
-      Z: -3.05175781e-05
-    }
-    Rotation {
-      Yaw: 9.18244553
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2320
-            Y: 2680
-            Z: -9.15527344e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 0.540122926
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 15325803957842615271
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1812.07861
-      Y: 3166.66553
-      Z: -3.05175781e-05
-    }
-    Rotation {
-      Yaw: -13.3572884
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2180
-            Y: 2725
-            Z: -3.05175781e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 9.18245792
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 2130387821802019803
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1960
-      Y: 3150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2120
-            Y: 2720
-            Z: 125
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 9.14275
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 11499908415200933768
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2055
-            Y: 2680
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
     }
   }
 }
@@ -46088,204 +47527,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 9433895716700165127
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7542117224937871722
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6731.91748
-      Y: 3743.08252
-      Z: 150
-    }
-    Rotation {
-      Yaw: -135
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17656549223173966794
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6600
-      Y: 3625
-      Z: 150
-    }
-    Rotation {
-      Yaw: -44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11859724229243447115
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6825
-      Y: 3850
-    }
-    Rotation {
-      Yaw: -44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14423392318638845658
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6683.98291
-      Y: 3741.01709
-    }
-    Rotation {
-      Yaw: -44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12672067335258042607
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6575
-      Y: 3600
-      Z: 3.05175781e-05
-    }
-    Rotation {
-      Yaw: -22.4999695
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -57460,10 +58701,13 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -426.344727
-      Y: -0.145507813
+      X: -426.344421
+      Y: -0.145568848
+      Z: -3.14712524e-05
     }
     Rotation {
+      Yaw: -2.04905646e-05
+      Roll: 2.13443457e-07
     }
     Scale {
       X: 2
@@ -59805,10 +61049,12 @@ Objects {
   Transform {
     Location {
       X: -1314.76758
-      Y: -0.147674561
+      Y: -0.147521973
       Z: -8.20159912e-05
     }
     Rotation {
+      Yaw: 1.02452832e-05
+      Roll: 4.26886857e-07
     }
     Scale {
       X: 22.3828678
@@ -60168,10 +61414,12 @@ Objects {
   Transform {
     Location {
       X: -1314.76904
-      Y: -0.14666748
-      Z: -2.47955322e-05
+      Y: -0.146698
+      Z: -3.43322754e-05
     }
     Rotation {
+      Yaw: 1.02452832e-05
+      Roll: 4.26886857e-07
     }
     Scale {
       X: 22.3828678
@@ -60750,11 +61998,13 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -1314.7699
-      Y: -0.145874023
-      Z: 2.28881836e-05
+      X: -1314.76978
+      Y: -0.145904541
+      Z: 9.53674316e-06
     }
     Rotation {
+      Yaw: 1.02452832e-05
+      Roll: 4.26886857e-07
     }
     Scale {
       X: 22.3828678
@@ -62904,45 +64154,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7376712051704418531
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 2755
-      Y: 4125
-      Z: 10
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 13898407435502665138
   Name: "SAR_Makeshift Tent 3"
   Transform {
@@ -63131,246 +64342,6 @@ Objects {
   }
 }
 Objects {
-  Id: 11167983413410953315
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 1105.03442
-      Y: 2639.82202
-      Z: 153.945023
-    }
-    Rotation {
-      Yaw: 36.9226761
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2699442171543988224
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 1109.23376
-      Y: 2634.23364
-      Z: 10
-    }
-    Rotation {
-      Yaw: 44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3482442344781943972
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 398.270905
-      Y: 3347.92432
-      Z: 152.699936
-    }
-    Rotation {
-      Yaw: 45.2239571
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4946772841660238108
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 407.549469
-      Y: 3357.27563
-      Z: 10
-    }
-    Rotation {
-      Yaw: 45.223938
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 719090744840032598
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 215
-      Y: 2810
-      Z: 160
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16919134514724821420
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -290
-      Y: 2635
-      Z: 10
-    }
-    Rotation {
-      Yaw: 22.4999447
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 16346511221782941903
   Name: "SAR_Metal Shelf"
   Transform {
@@ -63413,246 +64384,6 @@ Objects {
     }
     TemplateAsset {
       Id: 15208057603242142098
-    }
-  }
-}
-Objects {
-  Id: 17591840659372372447
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 270
-      Y: 2755
-      Z: 10
-    }
-    Rotation {
-      Yaw: 22.4999371
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2891041776814954663
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 125
-      Y: 2955
-      Z: 160
-    }
-    Rotation {
-      Yaw: 22.4999275
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6413997254469284432
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 175
-      Y: 2890
-      Z: 10
-    }
-    Rotation {
-      Yaw: 22.4999447
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11794731681054199953
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 40
-      Y: 3005
-      Z: 10
-    }
-    Rotation {
-      Yaw: 44.9999962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3139576808855287784
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 835
-      Y: 2360
-      Z: 10
-    }
-    Rotation {
-      Yaw: 44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12359399076074776214
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 710
-      Y: 2250
-      Z: 10
-    }
-    Rotation {
-      Yaw: 22.4999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
     }
   }
 }
@@ -67367,125 +68098,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 18033389860248816225
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8865271162609045928
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -310
-      Y: 11885
-      Z: 150
-    }
-    Rotation {
-      Yaw: -112.499916
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11154921938926949155
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -410
-      Y: 11885
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8055604453624010820
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -235
-      Y: 11840
-      Z: 5
-    }
-    Rotation {
-      Yaw: -22.4999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -76801,6 +77413,12 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1769349993561539904
@@ -76821,14 +77439,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 101.352432
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -83668,14 +84278,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -44.9999962
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -91886,7 +92488,7 @@ Objects {
       Z: -226.699219
     }
     Rotation {
-      Yaw: -81.0855408
+      Yaw: -81.0855179
     }
     Scale {
       X: 14.9291353
@@ -93767,345 +94369,6 @@ Objects {
   }
 }
 Objects {
-  Id: 11128760987945805436
-  Name: "Crates"
-  Transform {
-    Location {
-      X: 5616.94629
-      Y: 8895.13574
-      Z: -4.99998474
-    }
-    Rotation {
-      Yaw: 93.9628143
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  ChildIds: 2664790375872682373
-  ChildIds: 18111058500038280001
-  ChildIds: 424085008083136750
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 424085008083136750
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -4.19759
-      Y: 56.4798088
-      Z: 139.999939
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11128760987945805436
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18111058500038280001
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -20
-      Y: 90
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11128760987945805436
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2664790375872682373
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 34.1387
-      Y: -45.0000801
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11128760987945805436
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18245343979649559090
-  Name: "Crates"
-  Transform {
-    Location {
-      X: 5070
-      Y: 10335
-      Z: -5.00001526
-    }
-    Rotation {
-      Yaw: -49.3965759
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  ChildIds: 17879323536444618881
-  ChildIds: 16827094315121018231
-  ChildIds: 14168048765256514022
-  ChildIds: 11811033784000382214
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11811033784000382214
-  Name: "Small Open Crate"
-  Transform {
-    Location {
-      X: -50
-      Y: -70
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18245343979649559090
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1739996898153061063
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14168048765256514022
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 32.0549469
-      Y: 56.4796371
-      Z: 146.894241
-    }
-    Rotation {
-      Pitch: 3.1547823
-      Yaw: -0.20614624
-      Roll: -3.74020386
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18245343979649559090
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16827094315121018231
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -20
-      Y: 90
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18245343979649559090
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17879323536444618881
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 80
-      Y: -45
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18245343979649559090
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 13951297735468746734
   Name: "Cube - bottom aligned"
   Transform {
@@ -94297,6 +94560,905 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10082631578027871813
+  Name: "MergedModel"
+  Transform {
+    Location {
+      X: 6176.11816
+      Y: 8050.0166
+      Z: -5.00001526
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 17687707248420619201
+  ChildIds: 271128111925795159
+  ChildIds: 13906251835672499183
+  ChildIds: 18245343979649559090
+  ChildIds: 11128760987945805436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 11128760987945805436
+  Name: "Crates"
+  Transform {
+    Location {
+      X: -559.171875
+      Y: 845.119141
+      Z: 3.05175781e-05
+    }
+    Rotation {
+      Yaw: 93.9628143
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10082631578027871813
+  ChildIds: 2664790375872682373
+  ChildIds: 18111058500038280001
+  ChildIds: 424085008083136750
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 424085008083136750
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -4.19759
+      Y: 56.4798088
+      Z: 139.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11128760987945805436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18111058500038280001
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -20
+      Y: 90
+      Z: -6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11128760987945805436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2664790375872682373
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 34.1387
+      Y: -45.0000801
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11128760987945805436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18245343979649559090
+  Name: "Crates"
+  Transform {
+    Location {
+      X: -1106.11816
+      Y: 2284.9834
+    }
+    Rotation {
+      Yaw: -49.3965759
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10082631578027871813
+  ChildIds: 17879323536444618881
+  ChildIds: 16827094315121018231
+  ChildIds: 14168048765256514022
+  ChildIds: 11811033784000382214
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11811033784000382214
+  Name: "Small Open Crate"
+  Transform {
+    Location {
+      X: -50
+      Y: -70
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18245343979649559090
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1739996898153061063
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14168048765256514022
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 32.0549469
+      Y: 56.4796371
+      Z: 146.894241
+    }
+    Rotation {
+      Pitch: 3.1547823
+      Yaw: -0.20614624
+      Roll: -3.74020386
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18245343979649559090
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16827094315121018231
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -20
+      Y: 90
+      Z: -6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18245343979649559090
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17879323536444618881
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 80
+      Y: -45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18245343979649559090
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13906251835672499183
+  Name: "Crates"
+  Transform {
+    Location {
+      X: 2473.88184
+      Y: -785.016602
+      Z: 3.05175781e-05
+    }
+    Rotation {
+      Yaw: 44.2691727
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10082631578027871813
+  ChildIds: 15467707879903853236
+  ChildIds: 13414302425500649382
+  ChildIds: 16406258428558130816
+  ChildIds: 15496126420526148682
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15496126420526148682
+  Name: "Small Open Crate"
+  Transform {
+    Location {
+      X: -50
+      Y: -70
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13906251835672499183
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1739996898153061063
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16406258428558130816
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -7.60602665
+      Y: 50.5353355
+      Z: 139.999939
+    }
+    Rotation {
+      Yaw: -22.4999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13906251835672499183
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13414302425500649382
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -20
+      Y: 90
+      Z: -6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13906251835672499183
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15467707879903853236
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 80
+      Y: -45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13906251835672499183
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 271128111925795159
+  Name: "Crates"
+  Transform {
+    Location {
+      X: -518.196777
+      Y: -949.191895
+      Z: 6.10351563e-05
+    }
+    Rotation {
+      Yaw: 0.889344
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10082631578027871813
+  ChildIds: 3767026600876055941
+  ChildIds: 471283698797377500
+  ChildIds: 1369920588190060490
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1369920588190060490
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 28.3042603
+      Y: 78.7454605
+      Z: 139.999939
+    }
+    Rotation {
+      Yaw: -22.4999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 271128111925795159
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 471283698797377500
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -20
+      Y: 90
+      Z: -6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 271128111925795159
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3767026600876055941
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 80
+      Y: -45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 271128111925795159
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17687707248420619201
+  Name: "Crates"
+  Transform {
+    Location {
+      X: -290.396484
+      Y: -1395.89404
+      Z: 3.05175781e-05
+    }
+    Rotation {
+      Yaw: 44.2692146
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10082631578027871813
+  ChildIds: 6199400306732689815
+  ChildIds: 15577360365269221999
+  ChildIds: 16639497399008329352
+  ChildIds: 1648902040258769747
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1648902040258769747
+  Name: "Small Open Crate"
+  Transform {
+    Location {
+      X: -50
+      Y: -70
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17687707248420619201
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1739996898153061063
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16639497399008329352
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -7.60602665
+      Y: 50.5353355
+      Z: 139.999939
+    }
+    Rotation {
+      Yaw: -22.4999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17687707248420619201
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15577360365269221999
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -20
+      Y: 90
+      Z: -6.10351563e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17687707248420619201
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6199400306732689815
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 80
+      Y: -45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17687707248420619201
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -95891,195 +97053,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13906251835672499183
-  Name: "Crates"
-  Transform {
-    Location {
-      X: 8650
-      Y: 7265
-      Z: -4.99998474
-    }
-    Rotation {
-      Yaw: 44.2692337
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  ChildIds: 15467707879903853236
-  ChildIds: 13414302425500649382
-  ChildIds: 16406258428558130816
-  ChildIds: 15496126420526148682
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15496126420526148682
-  Name: "Small Open Crate"
-  Transform {
-    Location {
-      X: -50
-      Y: -70
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13906251835672499183
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1739996898153061063
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16406258428558130816
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -7.60602665
-      Y: 50.5353355
-      Z: 139.999939
-    }
-    Rotation {
-      Yaw: -22.4999695
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13906251835672499183
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13414302425500649382
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -20
-      Y: 90
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13906251835672499183
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15467707879903853236
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 80
-      Y: -45
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13906251835672499183
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 4392693374051933240
   Name: "Hills 01"
   Transform {
@@ -96089,7 +97062,7 @@ Objects {
       Z: 134.550781
     }
     Rotation {
-      Yaw: -81.0855713
+      Yaw: -81.0855484
     }
     Scale {
       X: 12.7318373
@@ -96137,7 +97110,7 @@ Objects {
       Z: 570
     }
     Rotation {
-      Yaw: -67.5
+      Yaw: -67.5000305
     }
     Scale {
       X: 8.99999714
@@ -96185,7 +97158,7 @@ Objects {
       Z: 570
     }
     Rotation {
-      Yaw: 180
+      Yaw: -179.999969
     }
     Scale {
       X: 8.99999714
@@ -102097,16 +103070,14 @@ Objects {
   }
 }
 Objects {
-  Id: 2059726286395918828
-  Name: "SAR_Market Stall "
+  Id: 7493883186163172412
+  Name: "MergedModel"
   Transform {
     Location {
-      X: 6880
-      Y: 9275
-      Z: 6.10351563e-05
+      X: 6200
+      Y: 9600
     }
     Rotation {
-      Yaw: 89.9999847
     }
     Scale {
       X: 1
@@ -102115,6 +103086,38 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
+  ChildIds: 8420535500134127428
+  ChildIds: 2059726286395918828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 2059726286395918828
+  Name: "SAR_Market Stall "
+  Transform {
+    Location {
+      X: 680
+      Y: -325
+      Z: 6.10351563e-05
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7493883186163172412
   ChildIds: 9223511581586872243
   ChildIds: 13610985079167113893
   ChildIds: 3895582975131649055
@@ -102939,8 +103942,8 @@ Objects {
   Name: "SAR_Market Stall Frame"
   Transform {
     Location {
-      X: 5500
-      Y: 9895
+      X: -700
+      Y: 295
       Z: 6.10351563e-05
     }
     Rotation {
@@ -102952,7 +103955,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 7493883186163172412
   ChildIds: 16739352749988743451
   ChildIds: 15325099281774511117
   ChildIds: 15618688886779686986
@@ -104667,45 +105670,6 @@ Objects {
   }
 }
 Objects {
-  Id: 18212502373262984400
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -1440
-      Y: 9105
-      Z: -4.99996948
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 6204790117945437375
   Name: "Craftsman Part - Doorway"
   Transform {
@@ -104740,85 +105704,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 18075009058174876361
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13096649054480764770
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -961.578369
-      Y: 4175.79688
-      Z: -1.28991699
-    }
-    Rotation {
-      Roll: -14.6922398
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12990381289923528882
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -576.056702
-      Y: 5631.62744
-      Z: 13.7035828
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -105325,344 +106210,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 5356997660449093087
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 271128111925795159
-  Name: "Crates"
-  Transform {
-    Location {
-      X: 5657.92139
-      Y: 7100.82471
-      Z: -4.99995422
-    }
-    Rotation {
-      Yaw: 0.889344
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  ChildIds: 3767026600876055941
-  ChildIds: 471283698797377500
-  ChildIds: 1369920588190060490
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 1369920588190060490
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 28.3042603
-      Y: 78.7454605
-      Z: 139.999939
-    }
-    Rotation {
-      Yaw: -22.4999695
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 271128111925795159
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 471283698797377500
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -20
-      Y: 90
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 271128111925795159
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3767026600876055941
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 80
-      Y: -45
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 271128111925795159
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17687707248420619201
-  Name: "Crates"
-  Transform {
-    Location {
-      X: 5885.72168
-      Y: 6654.12256
-      Z: -4.99998474
-    }
-    Rotation {
-      Yaw: 44.2692833
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  ChildIds: 6199400306732689815
-  ChildIds: 15577360365269221999
-  ChildIds: 16639497399008329352
-  ChildIds: 1648902040258769747
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 1648902040258769747
-  Name: "Small Open Crate"
-  Transform {
-    Location {
-      X: -50
-      Y: -70
-      Z: 5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17687707248420619201
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1739996898153061063
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 16639497399008329352
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -7.60602665
-      Y: 50.5353355
-      Z: 139.999939
-    }
-    Rotation {
-      Yaw: -22.4999695
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17687707248420619201
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15577360365269221999
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -20
-      Y: 90
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17687707248420619201
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6199400306732689815
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 80
-      Y: -45
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17687707248420619201
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -109716,162 +110263,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15036396979045595133
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 3210.36255
-      Y: 12502.9307
-      Z: -0.0990600586
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14104242409435706851
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6570
-      Y: 11735
-      Z: -5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2898743135633365611
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6370
-      Y: 11735
-      Z: -5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18285464977818396576
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 7705
-      Y: 10725
-      Z: 0.000122070313
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 7154241690220213630
   Name: "Small Open Crate"
   Transform {
@@ -109897,44 +110288,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 1739996898153061063
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8927736001843722198
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 7710
-      Y: 10900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -110896,126 +111249,6 @@ Objects {
     }
     TemplateAsset {
       Id: 12837702759071236825
-    }
-  }
-}
-Objects {
-  Id: 11929734861210582893
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6885
-      Y: 2915
-      Z: 580
-    }
-    Rotation {
-      Yaw: -67.5000687
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14136242593416468919
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6755
-      Y: 2815
-      Z: 580
-    }
-    Rotation {
-      Yaw: -44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3787271540771482711
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: 6860
-      Y: 2925
-      Z: 725
-    }
-    Rotation {
-      Yaw: -67.5000687
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
     }
   }
 }
@@ -114869,6 +115102,35 @@ Objects {
   ChildIds: 10123358124509633263
   ChildIds: 18270745232081809898
   ChildIds: 18064887883616089938
+  ChildIds: 17447229967284491520
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17447229967284491520
+  Name: "MergedModel"
+  Transform {
+    Location {
+      X: -350
+      Y: 2600
+      Z: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4118424550046766430
   ChildIds: 43104547072909729
   ChildIds: 10674252677873963998
   ChildIds: 6906396016585131150
@@ -114882,7 +115144,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
+    Model {
+    }
   }
 }
 Objects {
@@ -114895,7 +115158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4118424550046766430
+  ParentId: 17447229967284491520
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114913,17 +115176,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1512.34546
-            Y: 736.120117
-            Z: -492.134521
+            X: -1162.34546
+            Y: -1863.87988
+            Z: 7.86547852
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Pitch: -0.569057167
-            Yaw: -98.8460236
-            Roll: -3.65146
+            Yaw: -98.8460388
+            Roll: -3.65146112
           }
         }
         Overrides {
@@ -114951,7 +115214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4118424550046766430
+  ParentId: 17447229967284491520
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114969,16 +115232,16 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1484.72083
-            Y: -503.499023
-            Z: -492.134521
+            X: -1134.72083
+            Y: -3103.49902
+            Z: 7.86547852
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -170.402908
-            Roll: 3.64474154
+            Yaw: -170.402878
+            Roll: 3.64474106
           }
         }
         Overrides {
@@ -115014,7 +115277,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4118424550046766430
+  ParentId: 17447229967284491520
   TemplateInstance {
     ParameterOverrideMap {
       key: 7904855526696816715
@@ -115026,15 +115289,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -406.144531
-            Y: -497.241211
-            Z: -492.134521
+            X: -56.1445313
+            Y: -3097.24121
+            Z: 7.86547852
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 81.4682312
+            Yaw: 81.4682159
           }
         }
         Overrides {
@@ -115062,7 +115325,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4118424550046766430
+  ParentId: 17447229967284491520
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115080,9 +115343,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 700.037354
-            Y: -490.82666
-            Z: -492.134521
+            X: 1050.03735
+            Y: -3090.82666
+            Z: 7.86547852
           }
         }
         Overrides {
@@ -115090,7 +115353,6 @@ Objects {
           Rotator {
             Pitch: 5.04859543
             Yaw: 81.468132
-            Roll: -4.28549384e-07
           }
         }
         Overrides {
@@ -115118,7 +115380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4118424550046766430
+  ParentId: 17447229967284491520
   TemplateInstance {
     ParameterOverrideMap {
       key: 7904855526696816715
@@ -115130,9 +115392,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 672.449951
-            Y: 736.120117
-            Z: -492.134521
+            X: 1022.44995
+            Y: -1863.87988
+            Z: 7.86547852
           }
         }
         Overrides {
@@ -115173,7 +115435,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4118424550046766430
+  ParentId: 17447229967284491520
   TemplateInstance {
     ParameterOverrideMap {
       key: 7904855526696816715
@@ -115185,9 +115447,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -406.144531
-            Y: 736.120117
-            Z: -492.134521
+            X: -56.1445313
+            Y: -1863.87988
+            Z: 7.86547852
           }
         }
         Overrides {
@@ -115492,7 +115754,7 @@ Objects {
       Z: -85.0000305
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 6.9
@@ -117234,6 +117496,33 @@ Objects {
   }
 }
 Objects {
+  Id: 13359579191009339570
+  Name: "MergedModel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 7560471041159094325
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
   Id: 7560471041159094325
   Name: "SAR_Foliage"
   Transform {
@@ -117247,7 +117536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16373807130785117515
+  ParentId: 13359579191009339570
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

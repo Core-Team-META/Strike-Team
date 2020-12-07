@@ -98,7 +98,7 @@ Objects {
       Z: 2075
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351453e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -147,7 +147,7 @@ Objects {
       Z: 2075
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351453e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -1763,7 +1763,7 @@ Objects {
       Z: 2075
     }
     Rotation {
-      Yaw: -6.10351453e-05
+      Yaw: -6.10351344e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -2889,7 +2889,7 @@ Objects {
       Z: 1130
     }
     Rotation {
-      Yaw: -6.10351381e-05
+      Yaw: -6.10351344e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -2947,7 +2947,7 @@ Objects {
       Z: 1975
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 89.9999542
     }
     Scale {
       X: 1.80000019
@@ -3042,7 +3042,7 @@ Objects {
       Z: 2075
     }
     Rotation {
-      Yaw: -6.10351453e-05
+      Yaw: -6.10351344e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -3091,7 +3091,7 @@ Objects {
       Z: 2075
     }
     Rotation {
-      Yaw: -6.10351453e-05
+      Yaw: -6.10351344e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -30708,10 +30708,11 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
+      X: -1.53779984e-05
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -4.78113216e-05
     }
     Scale {
       X: 4.4
@@ -31740,10 +31741,10 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      Y: 330
+      Y: 330.000031
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -5.46415104e-05
     }
     Scale {
       X: 4.4
@@ -31835,7 +31836,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -5.46415104e-05
     }
     Scale {
       X: 4.4
@@ -31881,7 +31882,7 @@ Objects {
       Z: 515
     }
     Rotation {
-      Yaw: -6.10351453e-05
+      Yaw: -5.46415104e-05
     }
     Scale {
       X: 4.4
@@ -32401,7 +32402,8 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -185
+      X: -185.000015
+      Y: 0.000122070313
       Z: -39.0031738
     }
     Rotation {
@@ -32864,10 +32866,10 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      Y: 330
+      Y: 330.000092
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -5.46415104e-05
     }
     Scale {
       X: 4.4
@@ -33065,15 +33067,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -170
-            Y: -190
+            X: -170.000015
+            Y: -190.000031
             Z: 195
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -179.999954
+            Yaw: -179.999969
           }
         }
         Overrides {

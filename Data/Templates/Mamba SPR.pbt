@@ -276,6 +276,7 @@
         ParentId: 2884328923896887091
         ChildIds: 4167807690864107813
         ChildIds: 17752372259942595374
+        ChildIds: 2186230319622914248
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -344,6 +345,33 @@
         Script {
           ScriptAsset {
             Id: 12210489528647249200
+          }
+        }
+      }
+      Objects {
+        Id: 2186230319622914248
+        Name: "GunBrokenScript"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 4658108544730262521
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13911397627490080919
           }
         }
       }

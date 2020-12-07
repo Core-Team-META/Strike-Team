@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 7978364239758505505
+        ParentId: 16373807130785117515
         ChildIds: 8195221053063754759
         ChildIds: 10475913201834190959
         ChildIds: 1240921187486601006
@@ -23,9 +23,9 @@
         ChildIds: 4985870572454312511
         ChildIds: 3677855981518592990
         ChildIds: 11079550836896177669
+        ChildIds: 3606407139145472489
         ChildIds: 7330466458496025293
         ChildIds: 15724781214044169367
-        ChildIds: 3606407139145472489
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -440,6 +440,53 @@
         CoreMesh {
           MeshAsset {
             Id: 10461071391094496575
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3606407139145472489
+        Name: "Collision"
+        Transform {
+          Location {
+            X: -4.760921
+            Y: -6.62209272
+            Z: 53.2305374
+          }
+          Rotation {
+            Yaw: 1.70754702e-05
+          }
+          Scale {
+            X: 1.21541202
+            Y: 1.26120937
+            Z: 2.03701377
+          }
+        }
+        ParentId: 1769349993561539904
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3396001719245941860
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1575,52 +1622,6 @@
           }
         }
       }
-      Objects {
-        Id: 3606407139145472489
-        Name: "Collision"
-        Transform {
-          Location {
-            X: -4.7611084
-            Y: -6.62207031
-            Z: 53.2305374
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.3971169
-            Y: 1.32374573
-            Z: 2.02419782
-          }
-        }
-        ParentId: 1769349993561539904
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 3396001719245941860
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
     }
     Assets {
       Id: 16435456726063022908
@@ -1686,6 +1687,15 @@
       }
     }
     Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
+      }
+    }
+    Assets {
       Id: 17493021233879119744
       Name: "Craftsman Roof 02 Arch"
       PlatformAssetType: 1
@@ -1728,15 +1738,6 @@
       PrimaryAsset {
         AssetType: "DecalBlueprintAssetRef"
         AssetId: "dcl_liquid"
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
       }
     }
     PrimaryAssetId {

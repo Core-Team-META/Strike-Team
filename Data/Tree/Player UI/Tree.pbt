@@ -2617,6 +2617,7 @@ Objects {
     }
   }
   ParentId: 13535165240597865375
+  ChildIds: 5773721291845311713
   ChildIds: 5163734984623233450
   ChildIds: 14735680921445652772
   ChildIds: 11109968555379128229
@@ -2630,10 +2631,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 400
-    Height: 84
-    UIX: -35.4186401
-    UIY: -77.6358
+    Width: 170
+    Height: 91
+    UIX: -77.5095215
+    UIY: -67.2022705
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2699,12 +2700,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -2744,10 +2745,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
-    Height: 73
-    UIX: -287.430542
-    UIY: -61.305542
+    Width: 59
+    Height: 61
+    UIX: -24.545105
+    UIY: -36.1851807
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2815,10 +2816,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
+    Width: 50
     Height: 44
-    UIX: -79.8887939
-    UIY: -17.5863037
+    UIX: 33.5880127
+    UIY: 18.0925293
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2827,9 +2828,9 @@ Objects {
     Text {
       Label: "100"
       Color {
-        R: 0.457000017
-        G: 0.457000017
-        B: 0.457000017
+        R: 0.661
+        G: 0.661
+        B: 0.661
         A: 1
       }
       Size: 16
@@ -3063,6 +3064,60 @@ Objects {
     SubobjectId: 2122568507985227842
     InstanceId: 14509025596205278547
     TemplateId: 2594737190888074108
+  }
+}
+Objects {
+  Id: 5773721291845311713
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17709056323876254785
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 143
+    Height: 225
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+      }
+      Color {
+        A: 0.373000026
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {

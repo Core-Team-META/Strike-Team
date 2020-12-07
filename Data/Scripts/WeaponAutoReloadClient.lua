@@ -50,21 +50,21 @@ function SpawnReloadingAudio()
     end
 end
 
-function Tick(deltaTime)
+function Reload()
 
     -- If auto reload is not actiavted ignore the script
     if not AUTO_RELOAD then return end
 
     -- Makes sure that the weapon owner is the local player
     if not Object.IsValid(WEAPON) then return end
-    if not WEAPON.owner == LOCAL_PLAYER then return end
+    if WEAPON.owner ~= LOCAL_PLAYER or not RELOAD_ABILITY.owner == LOCAL_PLAYER  then return end
 
     if not WEAPON.isAmmoFinite then
         -- Checks when the weapon has empty ammo to reload
         if WEAPON.currentAmmo == 0
         and not autoReloaded then
-            SpawnReloadingAudio()
             RELOAD_ABILITY:Activate()
+            SpawnReloadingAudio()
             autoReloaded = true
             Task.Wait(RELOAD_ABILITY.castPhaseSettings.duration)
         end
@@ -85,3 +85,8 @@ function Tick(deltaTime)
         end
     end
 end
+
+Task.Spawn(function()
+    Reload()
+    Task.Wait()
+end).repeatCount = -1

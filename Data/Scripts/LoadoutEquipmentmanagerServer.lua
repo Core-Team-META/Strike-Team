@@ -114,3 +114,8 @@ Game.playerJoinedEvent:Connect(function (player )
     SetupPlayer(player)
     EquipPlayer(player)
 end)
+
+Game.roundStartEvent:Connect(function(player)
+    UnequipPlayer(player)
+    EquipPlayer(player)
+end)

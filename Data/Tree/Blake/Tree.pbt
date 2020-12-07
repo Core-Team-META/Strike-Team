@@ -1,43 +1,6 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
-  Id: 6757807270496787334
-  Name: "FragGrenadeExplosion"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3547787129964795936
-      value {
-        Overrides {
-          Name: "Name"
-          String: "FragGrenadeExplosion"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15898919505606004880
-    }
-  }
-}
-Objects {
   Id: 13367903298334009240
   Name: "CommandPanel"
   Transform {
@@ -402,6 +365,11 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
           }
         }
       }

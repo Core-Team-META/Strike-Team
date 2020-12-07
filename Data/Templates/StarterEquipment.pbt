@@ -19,7 +19,6 @@
         ChildIds: 12390822350002054019
         ChildIds: 14680330768932694379
         ChildIds: 905376451753411405
-        ChildIds: 7078138179041209477
         UnregisteredParameters {
           Overrides {
             Name: "cs:PlayerImpact"
@@ -59,42 +58,6 @@
         ParentId: 11172210842436518555
         ChildIds: 3205854687229230435
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:Damage"
-            Float: 20
-          }
-          Overrides {
-            Name: "cs:Hitbox"
-            ObjectReference {
-              SubObjectId: 7078138179041209477
-            }
-          }
-          Overrides {
-            Name: "cs:SwingEffect"
-            AssetReference {
-              Id: 171090409284182791
-            }
-          }
-          Overrides {
-            Name: "cs:SwingSpawnDelay"
-            Float: 0.04
-          }
-          Overrides {
-            Name: "cs:SwingRotationX"
-            Float: 85
-          }
-          Overrides {
-            Name: "cs:SwingRotationY"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:Damage:tooltip"
-            String: "Damage value applied to a player hit by hitbox trigger."
-          }
-          Overrides {
-            Name: "cs:Hitbox:tooltip"
-            String: "Reference to the hitbox trigger that this ability will use for damaging enemies."
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -106,7 +69,7 @@
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -117,7 +80,7 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.16
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -242,42 +205,6 @@
         ParentId: 11172210842436518555
         ChildIds: 12717063321394023676
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:Damage"
-            Float: 20
-          }
-          Overrides {
-            Name: "cs:Hitbox"
-            ObjectReference {
-              SubObjectId: 7078138179041209477
-            }
-          }
-          Overrides {
-            Name: "cs:SwingEffect"
-            AssetReference {
-              Id: 171090409284182791
-            }
-          }
-          Overrides {
-            Name: "cs:SwingSpawnDelay"
-            Float: 0.04
-          }
-          Overrides {
-            Name: "cs:SwingRotationX"
-            Float: 85
-          }
-          Overrides {
-            Name: "cs:SwingRotationY"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:Damage:tooltip"
-            String: "Damage value applied to a player hit by hitbox trigger."
-          }
-          Overrides {
-            Name: "cs:Hitbox:tooltip"
-            String: "Reference to the hitbox trigger that this ability will use for damaging enemies."
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -289,7 +216,7 @@
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -300,7 +227,7 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.16
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -425,42 +352,6 @@
         ParentId: 11172210842436518555
         ChildIds: 4494503508166183388
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:Damage"
-            Float: 20
-          }
-          Overrides {
-            Name: "cs:Hitbox"
-            ObjectReference {
-              SubObjectId: 7078138179041209477
-            }
-          }
-          Overrides {
-            Name: "cs:SwingEffect"
-            AssetReference {
-              Id: 171090409284182791
-            }
-          }
-          Overrides {
-            Name: "cs:SwingSpawnDelay"
-            Float: 0.04
-          }
-          Overrides {
-            Name: "cs:SwingRotationX"
-            Float: 85
-          }
-          Overrides {
-            Name: "cs:SwingRotationY"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:Damage:tooltip"
-            String: "Damage value applied to a player hit by hitbox trigger."
-          }
-          Overrides {
-            Name: "cs:Hitbox:tooltip"
-            String: "Reference to the hitbox trigger that this ability will use for damaging enemies."
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -472,7 +363,7 @@
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -483,7 +374,7 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.16
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -584,68 +475,6 @@
         Script {
           ScriptAsset {
             Id: 3607832189621070226
-          }
-        }
-      }
-      Objects {
-        Id: 7078138179041209477
-        Name: "Hitbox Trigger"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-        ParentId: 11172210842436518555
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:PlayerSocket"
-            String: "root"
-          }
-          Overrides {
-            Name: "cs:LocalPosition"
-            Vector {
-              X: 100
-              Z: 150
-            }
-          }
-          Overrides {
-            Name: "cs:LocalRotation"
-            Rotator {
-            }
-          }
-          Overrides {
-            Name: "cs:LocalPosition:tooltip"
-            String: "Specify the local position of the object when attached to the player socket."
-          }
-          Overrides {
-            Name: "cs:LocalRotation:tooltip"
-            String: "Specify the local rotation of the object when attached to the player socket."
-          }
-          Overrides {
-            Name: "cs:PlayerSocket:tooltip"
-            String: "Specify the player socket to attach the object."
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:sphere"
           }
         }
       }

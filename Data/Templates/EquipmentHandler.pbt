@@ -5684,6 +5684,7 @@
         ChildIds: 5530278277760554858
         ChildIds: 17203989111236663669
         ChildIds: 1968999446568345533
+        ChildIds: 10498185678499448444
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -5990,6 +5991,45 @@
           Overrides {
             Name: "cs:ID"
             String: "BA"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 10498185678499448444
+        Name: "Sketch"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11540109332908334588
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 12943612204042916016
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "SC"
           }
         }
         Collidable_v2 {

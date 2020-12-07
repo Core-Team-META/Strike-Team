@@ -16,7 +16,6 @@
           }
         }
         ParentId: 7057860369515092191
-        ChildIds: 9760175131385083679
         ChildIds: 6927188144648585050
         ChildIds: 13412922705908481060
         Collidable_v2 {
@@ -30,54 +29,6 @@
         }
       }
       Objects {
-        Id: 9760175131385083679
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            X: 196.221313
-            Y: -182.442017
-            Z: 249.433746
-          }
-          Rotation {
-            Roll: -89.9999542
-          }
-          Scale {
-            X: 2.56337762
-            Y: 2.32768273
-            Z: 0.138836727
-          }
-        }
-        ParentId: 16517545823905491799
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17106988624978751290
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1411445044141844320
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableCastShadows: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 6927188144648585050
         Name: "Container - Rectangle"
         Transform {
@@ -87,7 +38,7 @@
             Z: 249.108276
           }
           Rotation {
-            Roll: -89.9999542
+            Roll: -89.999939
           }
           Scale {
             X: 2.56337762
@@ -144,10 +95,6 @@
         }
         ParentId: 16517545823905491799
         ChildIds: 15573388070264513375
-        ChildIds: 8110673547773570631
-        ChildIds: 8330443870261292069
-        ChildIds: 11076503468271714247
-        ChildIds: 6353259629136503870
         ChildIds: 13424924040099468145
         ChildIds: 9312512743142399564
         ChildIds: 9057228371348040653
@@ -181,8 +128,13 @@
           }
         }
         ParentId: 13412922705908481060
+        ChildIds: 8110673547773570631
         ChildIds: 7791698016452909982
         ChildIds: 8614467501951046886
+        ChildIds: 9760175131385083679
+        ChildIds: 8330443870261292069
+        ChildIds: 6353259629136503870
+        ChildIds: 11076503468271714247
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -191,6 +143,59 @@
         }
         NetworkContext {
           Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 8110673547773570631
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            X: 28.2327271
+            Y: -308.736572
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: -4.76364374
+            Roll: -94.7636414
+          }
+          Scale {
+            X: 4.21861935
+            Y: 3.97643185
+            Z: 0.138837
+          }
+        }
+        ParentId: 15573388070264513375
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8329339828071933523
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1411445044141844320
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableCastShadows: true
+          StaticMesh {
+            Physics {
+            }
+          }
         }
       }
       Objects {
@@ -281,7 +286,7 @@
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -306,40 +311,34 @@
         }
       }
       Objects {
-        Id: 8110673547773570631
+        Id: 9760175131385083679
         Name: "Container - Rectangle"
         Transform {
           Location {
-            X: -211.283569
-            Y: -62.4420166
-            Z: 157.86026
+            X: 360.73761
+            Y: -308.736572
+            Z: 16.5734863
           }
           Rotation {
-            Pitch: 90
-            Yaw: 180
-            Roll: 90.0000153
+            Roll: -89.9999542
           }
           Scale {
-            X: 4.21861935
-            Y: 3.97643185
-            Z: 0.138837
+            X: 2.56337762
+            Y: 2.32768273
+            Z: 0.138836727
           }
         }
-        ParentId: 13412922705908481060
+        ParentId: 15573388070264513375
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8329339828071933523
+              Id: 17106988624978751290
             }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -364,14 +363,14 @@
         Name: "Container - Rectangle"
         Transform {
           Location {
-            X: 137.18689
-            Y: -62.4420166
-            Z: 2.29263306
+            X: 376.703186
+            Y: -308.736572
+            Z: -155.567627
           }
           Rotation {
             Pitch: 90
-            Yaw: -4.76364374
-            Roll: -94.7636414
+            Yaw: 90
+            Roll: 7.62939453e-06
           }
           Scale {
             X: 1.08307064
@@ -379,7 +378,7 @@
             Z: 0.138836429
           }
         }
-        ParentId: 13412922705908481060
+        ParentId: 15573388070264513375
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -393,61 +392,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1411445044141844320
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableCastShadows: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11076503468271714247
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            X: 137.18689
-            Y: -62.4420166
-            Z: 326.976166
-          }
-          Rotation {
-            Pitch: 90
-            Yaw: 180
-            Roll: 90.0000153
-          }
-          Scale {
-            X: 0.749149799
-            Y: 2.98269725
-            Z: 0.138836309
-          }
-        }
-        ParentId: 13412922705908481060
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 8329339828071933523
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -472,14 +417,14 @@
         Name: "Container - Rectangle"
         Transform {
           Location {
-            X: 266.353149
-            Y: -62.4420166
-            Z: 173.553314
+            X: 505.869446
+            Y: -308.736572
+            Z: 15.6930542
           }
           Rotation {
             Pitch: 90
-            Yaw: -4.76364374
-            Roll: -94.7636414
+            Yaw: 90
+            Roll: 7.62939453e-06
           }
           Scale {
             X: 2.3245542
@@ -487,7 +432,7 @@
             Z: 0.138836652
           }
         }
-        ParentId: 13412922705908481060
+        ParentId: 15573388070264513375
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -501,7 +446,61 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1411445044141844320
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableCastShadows: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11076503468271714247
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            X: 376.703186
+            Y: -308.736572
+            Z: 169.115906
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: -4.76364374
+            Roll: -94.7636414
+          }
+          Scale {
+            X: 0.749149859
+            Y: 2.98269725
+            Z: 0.138836309
+          }
+        }
+        ParentId: 15573388070264513375
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8329339828071933523
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1809,21 +1808,21 @@
       }
     }
     Assets {
-      Id: 13442965192408425307
-      Name: "Modern Weapon Accessory - Rail 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_acc_rail_001"
-      }
-    }
-    Assets {
       Id: 8329339828071933523
       Name: "Concrete Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_gen_concrete_001"
+      }
+    }
+    Assets {
+      Id: 13442965192408425307
+      Name: "Modern Weapon Accessory - Rail 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_acc_rail_001"
       }
     }
     Assets {

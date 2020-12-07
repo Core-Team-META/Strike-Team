@@ -73,7 +73,7 @@ function Tick(deltaTime)
                 MAX_AMMO_TEXT.text = tostring(weapon.maxAmmo)
             else
                 AMMO_TEXT.text = tostring("∞")
-                MAX_AMMO_TEXT.text = tostring("∞")
+                MAX_AMMO_TEXT.text = tostring("")
             end
             AMMO_PANEL.visibility = Visibility.INHERIT
         else

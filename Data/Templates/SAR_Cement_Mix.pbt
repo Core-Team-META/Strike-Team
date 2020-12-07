@@ -17,6 +17,8 @@
         }
         ParentId: 16373807130785117515
         ChildIds: 13407646551194800581
+        ChildIds: 8747162727398105969
+        ChildIds: 14059093528090318862
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3919,6 +3921,84 @@
           }
         }
       }
+      Objects {
+        Id: 8747162727398105969
+        Name: "Cube"
+        Transform {
+          Location {
+            X: 17.4332428
+            Y: -8.73632813
+            Z: 94.796875
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.86877608
+            Y: 3
+            Z: 0.889981449
+          }
+        }
+        ParentId: 16170758792047843383
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14059093528090318862
+        Name: "Cube"
+        Transform {
+          Location {
+            X: 17.4332428
+            Y: -8.73632813
+            Z: 29.8093872
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.11839604
+            Y: 3.1790421
+            Z: 0.317369133
+          }
+        }
+        ParentId: 16170758792047843383
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 3795895254758699320
@@ -3972,6 +4052,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_mil_shipping_pallet_002"
+      }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
       }
     }
     PrimaryAssetId {

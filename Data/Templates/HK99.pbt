@@ -217,7 +217,7 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 30
+            BurstCount: 400
             BurstDuration: 9
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
@@ -263,6 +263,7 @@
           }
         }
         ParentId: 15635051474287082455
+        ChildIds: 11229018153611259313
         ChildIds: 15383533503138151090
         ChildIds: 14826578973025482064
         UnregisteredParameters {
@@ -276,6 +277,33 @@
         }
         NetworkContext {
           Type: Server
+        }
+      }
+      Objects {
+        Id: 11229018153611259313
+        Name: "GunBrokenScript"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13851398588279806788
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13911397627490080919
+          }
         }
       }
       Objects {

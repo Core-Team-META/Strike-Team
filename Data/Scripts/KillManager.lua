@@ -49,15 +49,19 @@ function DamageUpdate(player,damage)
     end
 end
 
+function ResetData(player)
+    for k,v in pairs(database:GetDatabase()) do
+        player:SetResource(v["type"].." Kills", 0) 
+    end
+    player:SetResource("DamageDone", 0)
+    player:SetResource("Backstab", 0)
+end
+
+Game.playerLeftEvent:Connect(function(player) ResetData(player) end)
 Game.playerJoinedEvent:Connect(function(player) player.diedEvent:Connect(UpdateResouces) player.damagedEvent:Connect(DamageUpdate) end )
 
-Events.Connect("RoundEnd", function()
-    for player in Game.GetPlayers() do
-        for k,v in pairs(database:GetDatabase()) do
-            player:SetResource(v["type"].." Kills", 0) 
-        end
-        player:SetResource("DamageDone", 0)
-        player:SetResource("Backstab", 0)
+Game.roundStartEvent:Connect(function()
+    for _, player in Game.GetPlayers() do
+        ResetData(player)   
     end
-
 end)
