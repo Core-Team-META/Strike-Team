@@ -14,7 +14,7 @@ Events.Connect("Died",function(damageplayer)
         while not LOCAL_PLAYER.isDead do Task.Wait() end 
         while LOCAL_PLAYER.isDead and enemey do
             pcall(function() 
-                LOCAL_PLAYER:GetActiveCamera():SetPositionOffset(Vector3.UP*100)
+                LOCAL_PLAYER:GetDefaultCamera():SetPositionOffset(Vector3.UP*100)
                 local LookDir =  enemey:GetWorldPosition() - LOCAL_PLAYER:GetWorldPosition()
                 local newQuaternion = Quaternion.New(Rotation.New(LookDir , Vector3.UP))
                 local Slerp = Quaternion.Slerp(Quaternion.New(LOCAL_PLAYER:GetLookWorldRotation()), newQuaternion, 0.011)

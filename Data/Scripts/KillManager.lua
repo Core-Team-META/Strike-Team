@@ -55,13 +55,16 @@ function ResetData(player)
     end
     player:SetResource("DamageDone", 0)
     player:SetResource("Backstab", 0)
+    player:SetResource("Headshots", 0)
+    player.kills = 0
+    player.deaths = 0
 end
 
 Game.playerLeftEvent:Connect(function(player) ResetData(player) end)
 Game.playerJoinedEvent:Connect(function(player) player.diedEvent:Connect(UpdateResouces) player.damagedEvent:Connect(DamageUpdate) end )
 
 Game.roundStartEvent:Connect(function()
-    for _, player in Game.GetPlayers() do
+    for _, player in pairs( Game.GetPlayers()) do
         ResetData(player)   
     end
 end)

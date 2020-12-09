@@ -2462,6 +2462,73 @@ Objects {
   }
 }
 Objects {
+  Id: 15598768181740164643
+  Name: "Ability Display"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6153464260326768231
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1197405803885299036
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ability Display"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Binding"
+          String: "ability_extra_22"
+        }
+        Overrides {
+          Name: "cs:BindingHint"
+          String: "E"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13280367607995188053
+      value {
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomright"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomright"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -36.9523926
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -150.493286
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16547668008490765818
+    }
+  }
+}
+Objects {
   Id: 4449031099042379016
   Name: "HealthBar"
   Transform {

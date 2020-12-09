@@ -134,4 +134,4 @@ function OnRoundEnd()
 end
 
 -- Initialize
-Game.roundEndEvent:Connect(OnRoundEnd)
+Game.roundStartEvent:Connect(OnRoundEnd)

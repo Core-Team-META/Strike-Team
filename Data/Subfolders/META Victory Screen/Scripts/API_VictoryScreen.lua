@@ -140,14 +140,8 @@ API.playerRestoredEvent = {
 --	table CalculateWinners(string, string)
 --	Returns a sorted table of all players dependant on the WINNER_SORT_TYPE
 function API.CalculateWinners(winnerSortType, winnerSortResource)
-	local highestTeam = 1
-	for i = 1, 4 do
-		if (Game.GetTeamScore(i) > Game.GetTeamScore(highestTeam)) then 
-			highestTeam = i
-		end
-	end
-
-	local winners = Game.GetPlayers({includeTeams = highestTeam})
+	
+	local winners = Game.GetPlayers({includeTeams = _G["GameWinner"]})
 
 	table.sort(winners, function(a, b)
 		if(winnerSortType == "KILL_DEATH") then
@@ -184,7 +178,6 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		player:SetWorldRotation(spawnRotation)
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 	end
-	player:SetWorldRotation(spawnRotation)
 end
 
 
@@ -203,11 +196,17 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 		originalLookControlMode = player.lookControlMode
 	}
 
+	if(_G["HeadPlayerSetting"] ) then
+		_G["HeadPlayerSetting"]:ApplyToPlayer(player)
+	end
+
+	Task.Wait()
+
 	-- prevent player from moving or turning
 	player.movementControlMode = MovementControlMode.NONE
 	player.lookControlMode = LookControlMode.NONE
 
-		
+
 	if player.isDead then -- respawn the player so they can be teleported
 		player:Respawn()
 	end
@@ -230,15 +229,21 @@ end
 function API.OnPlayerRestored(victoryScreen, player, data)
 	local respawnOnDeactivate = victoryScreen:GetCustomProperty("RespawnOnDeactivate")
 
-	player.movementControlMode = data.originalMovementControlMode or MovementControlMode.LOOK_RELATIVE
-	player.lookControlMode = data.originalLookControlMode or LookControlMode.RELATIVE
-
+	if(_G["DefaultPlayerSetting"] ) then
+		_G["DefaultPlayerSetting"]:ApplyToPlayer(player)
+	end
+	
+	
 	if(respawnOnDeactivate) then
 		player:Respawn()
 	end
 
 	SendBroadcast(player, "RestoreFromVictoryScreen", victoryScreen:GetReference().id)
 
+	player.movementControlMode = data.originalMovementControlMode
+	player.lookControlMode = data.originalLookControlMode 
+	
+	
 	if(tasks[player]) then
 		tasks[player]:Cancel()
 		tasks[player] = nil
@@ -276,10 +281,13 @@ function API.TeleportPlayers(victoryScreen, playerList)
  
 	for _, player in pairs(Game.GetPlayers()) do
 		if(Object.IsValid(player)) then
-			API.OnPlayerTeleported(victoryScreen, player, topThreePlayerStats, duration, respawnOnDeactivate, OverrideCamera)
-			API.playerTeleportedEvent:_Fire(victoryScreen, player, topThreePlayerStats)
+			FastSpawn(function()
+				API.OnPlayerTeleported(victoryScreen, player, topThreePlayerStats, duration, respawnOnDeactivate, OverrideCamera)
+				API.playerTeleportedEvent:_Fire(victoryScreen, player, topThreePlayerStats)
+			end)
 		end
 	end
+
 
 
 	for place, spawnObject in pairs(spawnsGroup:GetChildren()) do

@@ -59,7 +59,9 @@ function equipItem(player,equipstring,slot)
     local item = _G["DataBase"]:SetupItemWithSkin(str)
     local equipment = item:SpawnEquipment()
     player.serverUserData.Weapons[slot.."Weapon"] = equipment
-    Events.Broadcast("AddWeaponToBackPack", player, equipment, item.data.Hoister, {rotation = item.data.Rotation_Offset})
+    if(slot ~= "Equipment"  ) then
+        Events.Broadcast("AddWeaponToBackPack", player, equipment, item.data.Hoister, {rotation = item.data.Rotation_Offset})
+    end
 end
 
 function EquipPlayer(player)
@@ -115,7 +117,9 @@ Game.playerJoinedEvent:Connect(function (player )
     EquipPlayer(player)
 end)
 
-Game.roundStartEvent:Connect(function(player)
-    UnequipPlayer(player)
-    EquipPlayer(player)
+Game.roundStartEvent:Connect(function()
+    for k,player in pairs(Game.GetPlayers()) do
+        UnequipPlayer(player)
+        EquipPlayer(player)
+    end
 end)
