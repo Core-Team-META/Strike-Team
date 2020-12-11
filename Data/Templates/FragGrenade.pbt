@@ -15,8 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
-        ChildIds: 15920384256450089000
+        ParentId: 4781671109827199097
+        ChildIds: 17052009674990856270
         ChildIds: 9498494279621009614
         ChildIds: 4606364190682349871
         UnregisteredParameters {
@@ -45,28 +45,24 @@
             LinearDamping: 0.4
             AngularDamping: 0.4
           }
-          Radius: 30
+          Radius: 15.0928183
           Length: 200
         }
       }
       Objects {
-        Id: 15920384256450089000
-        Name: "ClientContext"
+        Id: 17052009674990856270
+        Name: "Grenade Projectile"
         Transform {
-          Location {
-          }
           Rotation {
           }
           Scale {
-            X: 0.6
-            Y: 0.6
-            Z: 0.6
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 13103791187343230813
-        ChildIds: 3534985096331857638
-        ChildIds: 12938171559474879737
-        ChildIds: 4571766168467755521
+        ChildIds: 12556873140490184055
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -80,21 +76,23 @@
         }
       }
       Objects {
-        Id: 3534985096331857638
-        Name: "Modern Weapon - Grenade Canister 04"
+        Id: 12556873140490184055
+        Name: "Modern Weapon - Grenade 02 (Prop)"
         Transform {
           Location {
-            Z: -56.8535843
+            Z: -10
           }
           Rotation {
           }
           Scale {
-            X: 4
-            Y: 4
-            Z: 4
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 15920384256450089000
+        ParentId: 17052009674990856270
+        ChildIds: 862767991627674895
+        ChildIds: 2028387880637442154
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -103,24 +101,13 @@
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        CoreMesh {
-          MeshAsset {
-            Id: 7485678937229013951
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
-        Id: 12938171559474879737
-        Name: "PhysicsSphereMesh"
+        Id: 862767991627674895
+        Name: "Grenade Canister 04"
         Transform {
           Location {
           }
@@ -132,22 +119,12 @@
             Z: 1
           }
         }
-        ParentId: 15920384256450089000
+        ParentId: 12556873140490184055
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 10804604911218672783
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              B: 0.00500000035
+              Id: 8762770251388164140
             }
           }
         }
@@ -155,11 +132,11 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 11692130059731908639
+            Id: 6855348992067761797
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -173,21 +150,31 @@
         }
       }
       Objects {
-        Id: 4571766168467755521
+        Id: 2028387880637442154
         Name: "Grenade Handle 01"
         Transform {
           Location {
+            Z: 14.3585129
           }
           Rotation {
           }
           Scale {
-            X: 4
-            Y: 4
-            Z: 4
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 15920384256450089000
+        ParentId: 12556873140490184055
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.140625
+              G: 0.140625
+              B: 0.140625
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -228,7 +215,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:GravityScale"
-            Float: 1000
+            Float: 2000
           }
         }
         WantsNetworking: true
@@ -289,8 +276,8 @@
       }
     }
     Assets {
-      Id: 7485678937229013951
-      Name: "Modern Weapon - Grenade Canister 04"
+      Id: 6855348992067761797
+      Name: "Grenade Canister 04"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -298,21 +285,12 @@
       }
     }
     Assets {
-      Id: 11692130059731908639
-      Name: "Sphere"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
-      }
-    }
-    Assets {
-      Id: 10804604911218672783
-      Name: "Fog Cloud"
+      Id: 8762770251388164140
+      Name: "Camouflage - Digital"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_fog_material"
+        AssetId: "camo_digital_001"
       }
     }
     Assets {

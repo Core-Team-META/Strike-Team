@@ -32,6 +32,10 @@
         }
       }
       Overrides {
+        Name: "cs:Scale"
+        Float: 1
+      }
+      Overrides {
         Name: "cs:ICON"
         AssetReference {
           Id: 841534158063459245

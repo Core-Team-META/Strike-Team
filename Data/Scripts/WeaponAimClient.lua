@@ -22,7 +22,6 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     This script also sends an event when the weapon owner aims:
     WeaponAiming (Player owner, bool isAiming) [Client]
     owner       - local player that aims
-    isAiming    - if the owner is aiming or not
 
     Note:   This aiming script works best for first-person and third-person camera angles.
             Disable aiming if the weapon is used in other camera angles.
@@ -43,6 +42,9 @@ local ZOOM_DISTANCE = WEAPON:GetCustomProperty("AimZoomDistance")
 local pressedHandle = nil              -- Event handle when player presses the aim binding
 local releasedHandle = nil             -- Event handle when player releases the aim binding
 local playerDieHandle = nil            -- Event handle when player dies
+
+-- Internal constant variable
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 -- Internal camera variables --
 local cameraResetDistance = 0
@@ -89,13 +91,13 @@ function EnableScoping(player)
     if player.isDead then return end
     cameraTargetDistance = ZOOM_DISTANCE
     lerpTime = 0
-    Events.Broadcast("WeaponAiming", player, true)
+    Events.Broadcast("WeaponAiming", player, true, WEAPON.name)
 end
 
 function ResetScoping(player)
     cameraTargetDistance = cameraResetDistance
     lerpTime = 0
-    Events.Broadcast("WeaponAiming", player, false)
+    Events.Broadcast("WeaponAiming", player, false, WEAPON.name)
 end
 
 function OnBindingPressed(player, actionName)
@@ -150,5 +152,17 @@ function OnUnequipped(weapon, player)
     end
 end
 
+function CheckSprint(states)
+    if not Object.IsValid(WEAPON) then return end
+    if LOCAL_PLAYER ~= WEAPON.owner then return end
+
+    local speedType = states.Running and "Run" or "Walk"
+
+	if speedType == "Run" then
+		ResetScoping(LOCAL_PLAYER)
+	end
+end
+
 -- Initialize
 WEAPON.unequippedEvent:Connect(OnUnequipped)
+Events.Connect("ChangeMovementType", CheckSprint)

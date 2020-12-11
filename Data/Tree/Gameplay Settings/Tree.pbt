@@ -3630,11 +3630,12 @@ Objects {
     PlayerMovementSettings {
       WalkSpeed: 640
       MaxAcceleration: 1800
+      BrakingDecelerationFalling: 8
       WalkableFloorAngle: 60
       JumpMaxCount: 1
-      JumpVelocity: 1000
+      JumpVelocity: 1100
       GroundFriction: 8
-      GravityScale: 3
+      GravityScale: 3.3
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1
@@ -3669,7 +3670,6 @@ Objects {
         Value: "mc:eabilityaimmode:viewrelative"
       }
       MountChannelingTime: 2
-      FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
     }

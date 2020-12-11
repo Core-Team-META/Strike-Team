@@ -65,6 +65,18 @@ function Database:SplitString(String)
     return {CoreString.Split(String ,"-")}
 end
 
+function Database:GetSlot(weaponString,Slot)
+    local SlotIndex = {
+        ["Primary"] = 1,
+        ["Secondary"] = 2,
+        ["Melee"] = 3,
+        ["Equipment"] = 4,
+        ["Perk"] = 5,
+    }
+    local weapons = self:SplitString(weaponString)
+    return weapons[SlotIndex[Slot]]
+end
+
 function Database:GetPrimary(weaponString)
     local weapons = self:SplitString(weaponString)
     return weapons[1]
@@ -114,6 +126,8 @@ function Database:RegisterEquipment()
                 NewItem["ads_skin"] = Item:GetCustomProperty("ADSSkin")
                 NewItem["Hoister"] = Item:GetCustomProperty("Hoister")
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
+                NewItem["scale"] = Item:GetCustomProperty("Scale")
+                NewItem["icon"] = Item:GetCustomProperty("ICON")
                 local ItemSkins = {}
                 for _, Skin in pairs(Item:GetChildren()) do
                     local NewSkin = {}

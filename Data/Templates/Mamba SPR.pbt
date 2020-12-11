@@ -424,7 +424,6 @@
         ChildIds: 4559106591681728661
         ChildIds: 10746481930143743920
         ChildIds: 17776167742236723183
-        ChildIds: 8938376971546433831
         ChildIds: 11105209942191262734
         UnregisteredParameters {
         }
@@ -581,103 +580,6 @@
         Script {
           ScriptAsset {
             Id: 17169051963161242240
-          }
-        }
-      }
-      Objects {
-        Id: 8938376971546433831
-        Name: "WeaponFeedbackAnimation"
-        Transform {
-          Scale {
-            X: 1.00000024
-            Y: 1.00000024
-            Z: 1
-          }
-        }
-        ParentId: 17640891203268728961
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ShootingResetPositionTime"
-            Float: 0.05
-          }
-          Overrides {
-            Name: "cs:ShootingDelay"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:ShootingDistance"
-            Float: 25
-          }
-          Overrides {
-            Name: "cs:ShootAbility"
-            ObjectReference {
-              SelfId: 14848962880451307937
-              SubObjectId: 3991403230438555490
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-          Overrides {
-            Name: "cs:ShootingMovementGroup"
-            ObjectReference {
-              SelfId: 1032338314484320119
-              SubObjectId: 17808876954460164532
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-          Overrides {
-            Name: "cs:hasShootingAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadAbility"
-            ObjectReference {
-              SelfId: 18436111872377350770
-              SubObjectId: 480890203264384177
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-          Overrides {
-            Name: "cs:hasReloadAnimation"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:ReloadMovementGroup"
-            ObjectReference {
-              SelfId: 1032338314484320119
-              SubObjectId: 17808876954460164532
-              InstanceId: 3882127909753081094
-              TemplateId: 17962165611967201275
-            }
-          }
-          Overrides {
-            Name: "cs:ReloadDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ReloadRresetPositionTime"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "cs:ReloadDelay"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:FalseSlideBack"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 5264131641106444057
           }
         }
       }
@@ -863,6 +765,7 @@
             CanRotate: true
           }
           Animation: "2hand_rifle_reload_magazine"
+          CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_33"
           }

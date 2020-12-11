@@ -59,7 +59,7 @@ function equipItem(player,equipstring,slot)
     local item = _G["DataBase"]:SetupItemWithSkin(str)
     local equipment = item:SpawnEquipment()
     player.serverUserData.Weapons[slot.."Weapon"] = equipment
-    if(slot ~= "Equipment"  ) then
+    if(slot ~= "Equipment" and slot ~= "Perks" ) then
         Events.Broadcast("AddWeaponToBackPack", player, equipment, item.data.Hoister, {rotation = item.data.Rotation_Offset})
     end
 end
@@ -78,12 +78,19 @@ function EquipPlayer(player)
     local starterEquipmentitem = _G["DataBase"]:ReturnEquipmentById("SK")
     local starterEquipment = starterEquipmentitem:SpawnEquipment()
     
-    
-    starterEquipment:Equip(player)
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
+    Task.Wait()
+    starterEquipment:Equip(player)
     player.serverUserData.Weapons.EquipmentWeapon:Equip(player)
+    player.serverUserData.Weapons.PerkWeapon:Equip(player)
+    
+
+    ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", EquipString)
 end
 
+function GetString(player)
+    ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", GetSlot(player,tostring( player:GetResource("EquipSlot"))))
+end
 
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
@@ -104,17 +111,25 @@ function SetupPlayer(player)
 end
 
 Events.ConnectForPlayer("EquipLoadout",SetEquiped)
+Events.ConnectForPlayer("SetSlot",function ( player,slot)
+    SetEquiped(player,slot)
+end)
 Events.ConnectForPlayer("EquipSlot",function ( player,slot)
     SetEquiped(player,slot)
     UnequipPlayer(player)
     EquipPlayer(player)
 end)
 
-Events.ConnectForPlayer("RequestData", RequestData)
+Events.ConnectForPlayer("GetString", GetString)
 
 Game.playerJoinedEvent:Connect(function (player )
     SetupPlayer(player)
     EquipPlayer(player)
+    player:SetResource("WeaponSlot", 1)
+    player.diedEvent:Connect(function() 
+        UnequipPlayer(player)
+        EquipPlayer(player)
+    end)
 end)
 
 Game.roundStartEvent:Connect(function()

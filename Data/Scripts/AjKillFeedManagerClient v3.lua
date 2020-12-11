@@ -26,6 +26,7 @@ local LINE_HEIGHT = ROOT:GetCustomProperty("LineHeight")
 local FONT_SIZE = math.ceil(LINE_HEIGHT/2)
 local HEIGHT_PADDING = ROOT:GetCustomProperty("HeightPadding")
 local WIDTH_PADDING = ROOT:GetCustomProperty("WidthPadding")
+local LINE_SPACING = ROOT:GetCustomProperty("LineSpacing")
 local TEXT_COLOR = ROOT:GetCustomProperty("TextColor")
 local SELF_COLOR = ROOT:GetCustomProperty("SelfTextColor")
 
@@ -40,9 +41,6 @@ local REACTION_BINDING_NEGATIVE = ROOT:GetCustomProperty("ReactionNegativeBindin
 local REACTION_TOGGLE_BINDING = ROOT:GetCustomProperty("ReactionToggleBinding")
 local REACTION_TIME = ROOT:GetCustomProperty("ReactionTime")
 local ALLOW_SELF_REACTION = ROOT:GetCustomProperty("AllowSelfReaction")
-
-
-
 
 local curReactionTime = 0
 local iconTable = {}
@@ -107,6 +105,7 @@ if not (_G.AjKillFeed) then
     _G.AjKillFeed.fontSize = FONT_SIZE
     _G.AjKillFeed.heightPadding = HEIGHT_PADDING
     _G.AjKillFeed.widthPadding = WIDTH_PADDING
+    _G.AjKillFeed.lineSpacing = LINE_SPACING
 end
 
 local function updateCurrentLines()
@@ -120,7 +119,7 @@ local function updateCurrentLines()
 
     --move up existing lines
     for i,v in ipairs(_G.AjKillFeed.currentLines) do
-        AUU.MoveTo(v,Vector2.New(0,(v.height * (i-1))),0.05,true)
+        AUU.MoveTo(v,Vector2.New(0,((v.height + LINE_SPACING) * (i-1))),0.05,true)
     end
 end
 
@@ -285,7 +284,11 @@ local function AddLine(killer,killed,source,extraCode)
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
 
-    AUU.MoveTo(line,Vector2.New(0,(line.height * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
+    AUU.MoveTo(line,
+    Vector2.New(0,
+    ((line.height + LINE_SPACING) * (#_G.AjKillFeed.currentLines - 1))
+    )
+    ,0.05,true)
 
     updateCurrentLines()
 end
@@ -330,7 +333,7 @@ local function AddSingleLine(killer,killed,source)
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
 
-    AUU.MoveTo(line,Vector2.New(0,(line.height * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
+    AUU.MoveTo(line,Vector2.New(0,((line.height + LINE_SPACING) * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
 
     updateCurrentLines()
 end
@@ -468,6 +471,7 @@ function OnAddKillFeedKill(killerPlayer, killedPlayer, sourceId,extraCode)
     end
 
     if not _G.AjKillFeed.LocalReactionToggle then return end
+
     if Object.IsValid(killerPlayer) and Object.IsValid(sourceObject) then
         if extraCode == 1 and HEADSHOTS_ARE_REACTABLE then --headshot
             Events.Broadcast("AR","Headshot",killerPlayer.name,killedPlayer.name,sourceObject.name)
@@ -549,12 +553,11 @@ function OnPlayerJoined(player)
 
     line.x = 0
     line.y = SPAWN_PANEL.height
-    --AUU.LerpAlphaChildren(line,1,0.05)
 
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
 
-    AUU.MoveTo(line,Vector2.New(0,(line.height * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
+    AUU.MoveTo(line,Vector2.New(0,((line.height + LINE_SPACING) * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
 
     updateCurrentLines()
 end
@@ -611,7 +614,7 @@ function OnPlayerLeft(player)
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
 
-    AUU.MoveTo(line,Vector2.New(0,(line.height * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
+    AUU.MoveTo(line,Vector2.New(0,((line.height + LINE_SPACING) * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
 
     updateCurrentLines()
 end

@@ -8,6 +8,7 @@ local BindingToSlot = {
 
 function SwapWeapon()
     Events.Broadcast("EquipWeapon", Ability.owner, Ability.owner.serverUserData.Weapons[BindingToSlot[Slot]])
+    Ability.owner:SetResource("WeaponSlot",Slot )
 end
 
 Ability.executeEvent:Connect(SwapWeapon)

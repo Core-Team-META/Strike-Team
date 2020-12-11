@@ -32,6 +32,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Internal custom properties
 local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
+    return
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
 local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject(2)

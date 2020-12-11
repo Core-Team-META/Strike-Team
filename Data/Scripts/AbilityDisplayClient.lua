@@ -71,12 +71,6 @@ function UpdateCurrentAbility()
 
         local icon = AOI.GetObjectIcon(currentAbility)
 
-        if icon then
-            ICON:SetImage(icon)
-        else
-            ICON:SetImage(DEFAULT_IMAGE)
-        end
-
         NAME_TEXT.text = currentAbility.name
         executeDuration = currentAbility.executePhaseSettings.duration
         recoveryDuration = currentAbility.recoveryPhaseSettings.duration

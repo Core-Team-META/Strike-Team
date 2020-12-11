@@ -721,6 +721,7 @@
             CanRotate: true
           }
           Animation: "2hand_rifle_reload_magazine"
+          CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_33"
           }

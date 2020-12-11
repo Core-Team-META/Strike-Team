@@ -2,5 +2,5 @@
 local Slot = script:GetCustomProperty("Slot")
 
 Button.pressedEvent:Connect(function() 
-    Events.BroadcastToServer("EquipSlot", Slot)
+    Events.BroadcastToServer("SetSlot", Slot)
 end)

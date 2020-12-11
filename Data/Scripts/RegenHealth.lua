@@ -37,3 +37,8 @@ Game.playerLeftEvent:Connect(function(player)
 end)
 
 Task.Spawn(function() Regen() end)
+
+
+Events.Connect("ActivateRegen", function(player)
+    player.serverUserData["Regen"]["LastDamage"] = 0
+end)

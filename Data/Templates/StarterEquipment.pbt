@@ -113,7 +113,6 @@
             }
           }
           Animation: "1hand_melee_unsheathe"
-          CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_13"
           }
@@ -260,7 +259,6 @@
             }
           }
           Animation: "1hand_pistol_unsheathe"
-          CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_12"
           }
@@ -407,7 +405,6 @@
             }
           }
           Animation: "2hand_rifle_unsheathe"
-          CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_11"
           }

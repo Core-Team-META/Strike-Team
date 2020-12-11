@@ -15,7 +15,6 @@ Objects {
     }
   }
   ChildIds: 11471976360075692302
-  ChildIds: 1280603503854378228
   ChildIds: 16962308734055015238
   ChildIds: 15900364157994414074
   ChildIds: 4565846863626438544
@@ -167,37 +166,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gameplay Settings"
-  }
-}
-Objects {
-  Id: 1280603503854378228
-  Name: "Terrain_BG"
-  Transform {
-    Location {
-      Z: -170
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Terrain {
-    Material {
-      Id: 13223596880576250512
-    }
-    VoxelSize: 100
-    OctreeDepth: 5
-    GeneratorID: "DEPRECATED"
   }
 }
 Objects {

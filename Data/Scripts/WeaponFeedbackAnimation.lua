@@ -6,9 +6,7 @@
 -------------------------------------------------------------------------------
 -- Objects
 -------------------------------------------------------------------------------
-local ShootAbility = script:GetCustomProperty("ShootAbility"):WaitForObject()
 local ShootMovementGroup = script:GetCustomProperty("ShootingMovementGroup"):WaitForObject()
-local ReloadAbility = script:GetCustomProperty("ReloadAbility"):WaitForObject()
 local ReloadMovementGroup = script:GetCustomProperty("ReloadMovementGroup"):WaitForObject()
 -------------------------------------------------------------------------------
 -- Custom Properties
@@ -31,16 +29,10 @@ local HAZAMMO
 --------------------------------------------------
 -- 
 --------------------------------------------------
-local CodeBeingMean = script:GetCustomProperty("Scope") or false
-local WEAPON = script:FindAncestorByType('Weapon')
-
-if CodeBeingMean == true then
-local WEAPON = script:GetCustomProperty("ComponentRoot"):WaitForObject()
-
---local WEAPON = COMPONENT_ROOT.parent:FindChildByType ('Weapon')
---print(COMPONENT_ROOT)
-print(WEAPON)
-end
+WEAPON = script:FindAncestorByType("Weapon")
+assert(WEAPON, "Please Add to the child of a weapon")
+local ShootAbility = WEAPON:GetAbilities()[1]
+local ReloadAbility = WEAPON:GetAbilities()[2]
 
 
 local propFalseSlideBack = script:GetCustomProperty("FalseSlideBack")

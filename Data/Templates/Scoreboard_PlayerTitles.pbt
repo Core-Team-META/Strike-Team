@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 7949726774975659069
+        ParentId: 6153464260326768231
         ChildIds: 1242232350871663812
         ChildIds: 11946210082953481421
         UnregisteredParameters {
@@ -880,7 +880,10 @@
         ParentId: 10032235820682127814
         ChildIds: 4929138087329972775
         ChildIds: 9238619091742033055
-        ChildIds: 6515389984053748710
+        ChildIds: 4485231687009819675
+        ChildIds: 14598022913293398892
+        ChildIds: 9117172803944682455
+        ChildIds: 12790624406459724147
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -970,8 +973,8 @@
         }
       }
       Objects {
-        Id: 6515389984053748710
-        Name: "Currency"
+        Id: 4485231687009819675
+        Name: "KD"
         Transform {
           Location {
           }
@@ -987,7 +990,46 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:Enabled"
-            Bool: false
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Type"
+            String: "KD"
+          }
+          Overrides {
+            Name: "cs:Resource"
+            String: ""
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14598022913293398892
+        Name: "HEADSHOTS"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11946210082953481421
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Enabled"
+            Bool: true
           }
           Overrides {
             Name: "cs:Type"
@@ -995,7 +1037,85 @@
           }
           Overrides {
             Name: "cs:Resource"
-            String: "Currency"
+            String: "Headshots"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9117172803944682455
+        Name: "Damage"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11946210082953481421
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Enabled"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Type"
+            String: "RESOURCE"
+          }
+          Overrides {
+            Name: "cs:Resource"
+            String: "DamageDone"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 12790624406459724147
+        Name: "Melee"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11946210082953481421
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Enabled"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Type"
+            String: "RESOURCE"
+          }
+          Overrides {
+            Name: "cs:Resource"
+            String: "Melee Kills"
           }
         }
         Collidable_v2 {

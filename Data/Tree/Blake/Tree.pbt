@@ -247,18 +247,6 @@ Objects {
   ParentId: 10671565427701169845
   TemplateInstance {
     ParameterOverrideMap {
-      key: 307255051771986596
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Pitch: -71
-            Yaw: 13
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 777066251803753357
       value {
         Overrides {
@@ -273,64 +261,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4201634781127740499
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Pitch: -71
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8452794817047380797
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Pitch: -71
-            Yaw: 13
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13588467930671998640
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Pitch: -71
-            Yaw: 13
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15126386574946989924
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Pitch: -71
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16640052744043416664
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Pitch: -71
-            Yaw: 13
           }
         }
       }
