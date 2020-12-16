@@ -2,7 +2,7 @@
   Id: 17672227288321429994
   Name: "Custom Rubble Bricks 01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 3605340864599853533
     ParameterOverrides {

@@ -2338,7 +2338,7 @@
     }
     Assets {
       Id: 4054211681159130604
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2497,6 +2497,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

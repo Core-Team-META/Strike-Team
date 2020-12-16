@@ -109256,7 +109256,7 @@
     }
     Assets {
       Id: 4054211681159130604
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109355,7 +109355,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109517,7 +109517,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109544,7 +109544,7 @@
     }
     Assets {
       Id: 18120287186582886745
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109661,7 +109661,7 @@
     }
     Assets {
       Id: 346569595489746007
-      Name: "Bullet"
+      Name: "Cone - Bullet"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109931,7 +109931,7 @@
     }
     Assets {
       Id: 4693264132494587556
-      Name: "SciFi Trim 01"
+      Name: "Sci-fi Trim 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109967,7 +109967,7 @@
     }
     Assets {
       Id: 12089714488282857510
-      Name: "Trim Crenellated 6m 02"
+      Name: "Trim Crenellated 8m 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -109976,7 +109976,7 @@
     }
     Assets {
       Id: 16105687716078266600
-      Name: "Chamfered Cube"
+      Name: "Cube - Chamfered Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -110054,6 +110054,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

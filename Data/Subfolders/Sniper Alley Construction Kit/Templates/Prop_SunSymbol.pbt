@@ -1959,7 +1959,7 @@
     }
     Assets {
       Id: 18120287186582886745
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1968,7 +1968,7 @@
     }
     Assets {
       Id: 16855776306829432893
-      Name: "Plane"
+      Name: "Plane 4m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1983,6 +1983,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

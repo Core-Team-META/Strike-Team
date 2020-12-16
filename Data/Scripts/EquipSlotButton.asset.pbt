@@ -8,7 +8,12 @@
         Name: "cs:Slot"
         Int: 1
       }
+      Overrides {
+        Name: "cs:BackgroundImage"
+        ObjectReference {
+        }
+      }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

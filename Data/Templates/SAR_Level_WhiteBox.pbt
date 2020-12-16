@@ -15713,7 +15713,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -15776,7 +15776,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -15896,5 +15896,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

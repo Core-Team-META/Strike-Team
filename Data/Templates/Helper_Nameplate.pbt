@@ -377,7 +377,7 @@
     }
     Assets {
       Id: 15802833172957316655
-      Name: "Opaque Emissive"
+      Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
@@ -389,5 +389,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

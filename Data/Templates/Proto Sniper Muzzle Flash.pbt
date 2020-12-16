@@ -19,7 +19,7 @@
         ChildIds: 3949730406865326438
         UnregisteredParameters {
         }
-        Lifespan: 3
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -645,5 +645,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

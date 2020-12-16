@@ -7930,7 +7930,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -7966,7 +7966,7 @@
     }
     Assets {
       Id: 16542590046639866815
-      Name: "Trim Roof 01 Mainstreet"
+      Name: "Main Street Trim Roof 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -8002,7 +8002,7 @@
     }
     Assets {
       Id: 16442067914662662686
-      Name: "Foundation 01 Mainstreet"
+      Name: "Main Street Foundation 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -8038,7 +8038,7 @@
     }
     Assets {
       Id: 13874502513103367460
-      Name: "Awning 01 Mainstreet"
+      Name: "Main Street Awning 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -8074,7 +8074,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -8086,5 +8086,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

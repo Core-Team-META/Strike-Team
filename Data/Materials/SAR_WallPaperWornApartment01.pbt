@@ -2,7 +2,7 @@
   Id: 12192651093684900518
   Name: "SAR_WallPaperWornApartment01"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

@@ -852,7 +852,7 @@
     }
     Assets {
       Id: 8264236312157117638
-      Name: "Pipe Curved 90 Large"
+      Name: "Pipe - 90-Degree Long"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -891,5 +891,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

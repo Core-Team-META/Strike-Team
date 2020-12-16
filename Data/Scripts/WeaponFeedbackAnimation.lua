@@ -30,6 +30,7 @@ local HAZAMMO
 -- 
 --------------------------------------------------
 WEAPON = script:FindAncestorByType("Weapon")
+if(not WEAPON) then return end
 assert(WEAPON, "Please Add to the child of a weapon")
 local ShootAbility = WEAPON:GetAbilities()[1]
 local ReloadAbility = WEAPON:GetAbilities()[2]

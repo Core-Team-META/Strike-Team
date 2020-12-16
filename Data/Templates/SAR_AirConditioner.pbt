@@ -853,7 +853,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -880,7 +880,7 @@
     }
     Assets {
       Id: 6388401066989036925
-      Name: "Pipe (thin)"
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -910,5 +910,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

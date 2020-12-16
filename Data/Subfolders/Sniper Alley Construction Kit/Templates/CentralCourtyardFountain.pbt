@@ -7908,7 +7908,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -8022,6 +8022,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

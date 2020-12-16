@@ -1851,41 +1851,6 @@
               A: 1
             }
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Speed"
-            Float: 1
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Color B"
-            Color {
-              B: 0.0541977882
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Glass Color"
-            Color {
-              R: 0.580000043
-              G: 0.184370846
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Scale (CM)"
-            Float: 600
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Specular"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Metallic"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Roughness"
-            Float: 0
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2437,41 +2402,6 @@
               A: 1
             }
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Speed"
-            Float: 1
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Color B"
-            Color {
-              B: 0.0541977882
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Glass Color"
-            Color {
-              R: 0.580000043
-              G: 0.184370846
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Scale (CM)"
-            Float: 600
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Specular"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Metallic"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:Roughness"
-            Float: 0
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2887,7 +2817,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2986,7 +2916,7 @@
     }
     Assets {
       Id: 15972825592445059763
-      Name: "Truncated Cone"
+      Name: "Cone - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3004,7 +2934,7 @@
     }
     Assets {
       Id: 17683201677434688252
-      Name: "Chamfered Cylinder"
+      Name: "Cylinder - Chamfered"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3031,7 +2961,7 @@
     }
     Assets {
       Id: 14960009196618633521
-      Name: "Aircraft Plane Jet Engines Set 01 SFX"
+      Name: "Vehicle Aircraft Plane Misc Engine Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -3046,6 +2976,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

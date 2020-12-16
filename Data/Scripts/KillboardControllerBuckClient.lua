@@ -28,8 +28,8 @@ local HIDE_AT_ROUND_END = COMPONENT_ROOT:GetCustomProperty("HideAtRoundEnd")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FRIENDLY_COLOR = Color.New(0.0, 0.25, 1.0)
 local ENEMY_COLOR = Color.New(1.0, 0.0, 0.0)
-local BG_FRIENDLY_COLOR = Color.New(0.2, 0.2, 0.2, 0.7)
-local BG_ENEMY_COLOR = Color.New(0, 0.0, 0.0, 0.7)
+local BG_FRIENDLY_COLOR = Color.New(0.05, 0.05, 0.05, 0.9)
+local BG_ENEMY_COLOR = Color.New(0.02, 0.02, 0.02, 0.9)
 
 --[[ BG_FRIENDLY_COLOR.a = .7
 BG_ENEMY_COLOR.a = .7 ]]
@@ -128,7 +128,7 @@ end
 -- Initialize
 local headerLine = World.SpawnAsset(LINE_TEMPLATE, {parent = PANEL})
 headerLine:GetCustomProperty("Order"):WaitForObject().text = "#"
-headerLine:GetCustomProperty("Name"):WaitForObject().text = "Snipers"
+headerLine:GetCustomProperty("Name"):WaitForObject().text = "Players"
 headerLine:GetCustomProperty("KillsText"):WaitForObject().text = "Kills"
 headerLine:GetCustomProperty("DeathsText"):WaitForObject().text = "Deaths"
 headerLine:GetCustomProperty("KDRText"):WaitForObject().text = "KDR"

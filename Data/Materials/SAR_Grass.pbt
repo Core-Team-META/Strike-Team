@@ -2,7 +2,7 @@
   Id: 7901542850051251631
   Name: "SAR_Grass"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 10803714657411653271
     ParameterOverrides {

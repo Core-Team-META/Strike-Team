@@ -673,7 +673,7 @@
     }
     Assets {
       Id: 2513330173715104405
-      Name: "Military Tank Historic Hull 01 Mid"
+      Name: "Military Tank Historic Hull 01 - Mid"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -739,5 +739,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

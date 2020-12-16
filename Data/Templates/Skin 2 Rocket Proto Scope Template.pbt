@@ -2462,7 +2462,7 @@
     }
     Assets {
       Id: 16965777294932964901
-      Name: "Cube - Polished"
+      Name: "Cube - Chamfered Large Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2672,5 +2672,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

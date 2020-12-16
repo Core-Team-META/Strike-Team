@@ -2,7 +2,7 @@
   Id: 2753101109375824093
   Name: "Urben Fence Chainlink"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 10670482223963451862
     ParameterOverrides {

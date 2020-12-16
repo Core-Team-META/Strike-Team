@@ -9,7 +9,7 @@
 }
 Assets {
   Id: 18292448005538599011
-  Name: "Part - Pillar Small Mainstreet"
+  Name: "Main Street Pillar 01 - Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -27,7 +27,7 @@ Assets {
 }
 Assets {
   Id: 18120287186582886745
-  Name: "Hemisphere"
+  Name: "Sphere - Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -72,7 +72,7 @@ Assets {
 }
 Assets {
   Id: 17882896792933737184
-  Name: "Trim 01 Mainstreet"
+  Name: "Main Street Trim 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -81,7 +81,7 @@ Assets {
 }
 Assets {
   Id: 17827621072606588980
-  Name: "Damaged Concrete Pillar Bottom 02"
+  Name: "Urban Damaged Concrete Pillar - Bottom 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -90,7 +90,7 @@ Assets {
 }
 Assets {
   Id: 17775019098342521252
-  Name: "Wall 02 Mainstreet"
+  Name: "Main Street Wall 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -99,7 +99,7 @@ Assets {
 }
 Assets {
   Id: 17559831473507692943
-  Name: "Urban Damaged Floor 01 - 4m - Straight 01"
+  Name: "Urban Damaged Floor 01 - 4m Straight 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -108,7 +108,7 @@ Assets {
 }
 Assets {
   Id: 17485881147669499682
-  Name: "Cube - Rounded - bottom aligned"
+  Name: "Cube - Rounded Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -135,7 +135,7 @@ Assets {
 }
 Assets {
   Id: 16931630116077975102
-  Name: "Pillar 01 Mainstreet"
+  Name: "Main Street Pillar 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -144,7 +144,7 @@ Assets {
 }
 Assets {
   Id: 16855776306829432893
-  Name: "Plane"
+  Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -180,7 +180,7 @@ Assets {
 }
 Assets {
   Id: 16542590046639866815
-  Name: "Trim Roof 01 Mainstreet"
+  Name: "Main Street Trim Roof 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -198,7 +198,7 @@ Assets {
 }
 Assets {
   Id: 16442067914662662686
-  Name: "Foundation 01 Mainstreet"
+  Name: "Main Street Foundation 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -243,7 +243,7 @@ Assets {
 }
 Assets {
   Id: 15614794363849386760
-  Name: "Door Downtown Steel 02"
+  Name: "Urban Door Steel 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -252,7 +252,7 @@ Assets {
 }
 Assets {
   Id: 15402296587404581505
-  Name: "Trim 02 Corner Mainstreet"
+  Name: "Main Street Trim 02 - Corner"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -261,7 +261,7 @@ Assets {
 }
 Assets {
   Id: 15346862706019904249
-  Name: "Urban Damaged Concrete Panel End 02"
+  Name: "Urban Damaged Concrete Panel - End 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -324,7 +324,7 @@ Assets {
 }
 Assets {
   Id: 14620898149910383266
-  Name: "Urban Damaged Wall 02- Corner Inner 03"
+  Name: "Urban Damaged Wall 02 - Corner Inner 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -333,7 +333,7 @@ Assets {
 }
 Assets {
   Id: 14345153403763633307
-  Name: "Damaged Concrete Chunk 02"
+  Name: "Urban Damaged Concrete Chunk 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -387,7 +387,7 @@ Assets {
 }
 Assets {
   Id: 13219973207836793111
-  Name: "Wall 02 Half Window Mainstreet"
+  Name: "Main Street Wall 02 - Half Window 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -432,7 +432,7 @@ Assets {
 }
 Assets {
   Id: 12361381158317033180
-  Name: "Urban Damaged Mainstreet Window 02 Frame 01"
+  Name: "Main Street Damaged Window 02 - Frame 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -468,7 +468,7 @@ Assets {
 }
 Assets {
   Id: 12247910394616419067
-  Name: "Damaged Concrete Pillar Bottom 01"
+  Name: "Urban Damaged Concrete Pillar - Bottom 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -477,7 +477,7 @@ Assets {
 }
 Assets {
   Id: 12209528205531445270
-  Name: "Damaged Concrete Pillar Top 01"
+  Name: "Urban Damaged Concrete Pillar - Top 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -495,7 +495,7 @@ Assets {
 }
 Assets {
   Id: 12089714488282857510
-  Name: "Trim Crenellated 6m 02"
+  Name: "Trim Crenellated 8m 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -504,7 +504,7 @@ Assets {
 }
 Assets {
   Id: 11998078646685907456
-  Name: "Trim Roof Corner 01 Mainstreet"
+  Name: "Main Street Trim Roof 01 - Corner"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -522,7 +522,7 @@ Assets {
 }
 Assets {
   Id: 11725283362190867038
-  Name: "Urban Damaged Wall 02- Corner Inner 04"
+  Name: "Urban Damaged Wall 02 - Corner Inner 04"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -531,7 +531,7 @@ Assets {
 }
 Assets {
   Id: 11715746936947904291
-  Name: "Urban Damaged Wall 02- Corner Inner 01"
+  Name: "Urban Damaged Wall 02 - Corner Inner 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -558,7 +558,7 @@ Assets {
 }
 Assets {
   Id: 11465882301660868922
-  Name: "Trim Top 6m 001"
+  Name: "Trim Top 8m 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -612,7 +612,7 @@ Assets {
 }
 Assets {
   Id: 10651116236196901044
-  Name: "Damaged Concrete Chunk 01"
+  Name: "Urban Damaged Concrete Chunk 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -648,7 +648,7 @@ Assets {
 }
 Assets {
   Id: 10396917736734746205
-  Name: "Foundation 01 Corner Mainstreet"
+  Name: "Main Street Foundation 01 - Corner"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -675,7 +675,7 @@ Assets {
 }
 Assets {
   Id: 10221011215825579366
-  Name: "Damaged Concrete Pillar 01"
+  Name: "Urban Damaged Concrete Pillar 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -693,7 +693,7 @@ Assets {
 }
 Assets {
   Id: 10128884331981734128
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -711,7 +711,7 @@ Assets {
 }
 Assets {
   Id: 9854300118954762980
-  Name: "Rebar Lattice 02"
+  Name: "Urban Damaged Rebar Lattice 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -765,7 +765,7 @@ Assets {
 }
 Assets {
   Id: 8081775035435034954
-  Name: "Wall 02 Half Doorway Mainstreet"
+  Name: "Main Street Wall 02 - Half Doorway 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -774,7 +774,7 @@ Assets {
 }
 Assets {
   Id: 7531058706496198656
-  Name: "Whitebox Wall 01 Doorway"
+  Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -801,7 +801,7 @@ Assets {
 }
 Assets {
   Id: 6333982242246389428
-  Name: "Damaged Urban Glass Shard  - 03"
+  Name: "Urban Damaged Glass Shard  - 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -837,7 +837,7 @@ Assets {
 }
 Assets {
   Id: 5483772166785938526
-  Name: "Damaged Concrete Chunk 03"
+  Name: "Urban Damaged Concrete Chunk 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -855,7 +855,7 @@ Assets {
 }
 Assets {
   Id: 4832010047877921553
-  Name: "Railing 01 2m Mainstreet"
+  Name: "Main Street Railing 01 - 2m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -864,7 +864,7 @@ Assets {
 }
 Assets {
   Id: 4519163911553529386
-  Name: "Railing 01 Post Mainstreet"
+  Name: "Main Street Railing 01 - Post"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -936,7 +936,7 @@ Assets {
 }
 Assets {
   Id: 3088461807778437432
-  Name: "Rebar Lattice 01"
+  Name: "Urban Damaged Rebar - Lattice 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -981,7 +981,7 @@ Assets {
 }
 Assets {
   Id: 2656266634595511912
-  Name: "Damaged Urban Glass Shard  - 01"
+  Name: "Urban Damaged Glass Shard  - 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1008,7 +1008,7 @@ Assets {
 }
 Assets {
   Id: 2469313280627759486
-  Name: "Wall 02 Corner Trim Mainstreet"
+  Name: "Main Street Wall 02 - Corner Trim 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1035,7 +1035,7 @@ Assets {
 }
 Assets {
   Id: 1936447668697306516
-  Name: "Trim 02 Mainstreet"
+  Name: "Main Street Trim 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1053,7 +1053,7 @@ Assets {
 }
 Assets {
   Id: 1528828075473598358
-  Name: "Urban Damaged Wall 02- Corner Inner 02"
+  Name: "Urban Damaged Wall 02 - Corner Inner 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1098,7 +1098,7 @@ Assets {
 }
 Assets {
   Id: 567193264820089861
-  Name: "Military Fence Lock"
+  Name: "Urban Fence Lock"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1134,7 +1134,7 @@ Assets {
 }
 Assets {
   Id: 99428546513861114
-  Name: "Floor Grate Fire Escape 2m x 2m"
+  Name: "Urban Floor Grate Fire Escape - 2m x 2m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

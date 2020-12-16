@@ -4789,7 +4789,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -4834,7 +4834,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -4915,7 +4915,7 @@
     }
     Assets {
       Id: 346569595489746007
-      Name: "Bullet"
+      Name: "Cone - Bullet"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5002,6 +5002,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

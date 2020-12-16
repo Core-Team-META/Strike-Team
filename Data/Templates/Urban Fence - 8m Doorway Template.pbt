@@ -717,7 +717,7 @@
     }
     Assets {
       Id: 16198346205888411814
-      Name: "Military Fence Door"
+      Name: "Urban Fence Door"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -726,7 +726,7 @@
     }
     Assets {
       Id: 567193264820089861
-      Name: "Military Fence Lock"
+      Name: "Urban Fence Lock"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -735,7 +735,7 @@
     }
     Assets {
       Id: 7720350652240094542
-      Name: "Military Fence Pole - Connecting"
+      Name: "Urban Fence Pole - Connecting"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -744,7 +744,7 @@
     }
     Assets {
       Id: 9279130763178750287
-      Name: "Military Fence Doorway"
+      Name: "Urban Fence Doorway"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -756,5 +756,5 @@
       AssetId: "Urban_Fence_-_8m_Doorway_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

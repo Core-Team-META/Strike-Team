@@ -36,7 +36,7 @@ Assets {
 }
 Assets {
   Id: 11905645224756837966
-  Name: "AO Recolor Post Process"
+  Name: "Ambient Occlusion Recolor Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"

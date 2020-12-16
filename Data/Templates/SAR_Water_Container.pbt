@@ -1589,7 +1589,7 @@
     }
     Assets {
       Id: 17485881147669499682
-      Name: "Cube - Rounded - bottom aligned"
+      Name: "Cube - Rounded Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1643,7 +1643,7 @@
     }
     Assets {
       Id: 4519163911553529386
-      Name: "Railing 01 Post Mainstreet"
+      Name: "Main Street Railing 01 - Post"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1664,5 +1664,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

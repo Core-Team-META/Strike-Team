@@ -1052,7 +1052,7 @@
     }
     Assets {
       Id: 13084610212546141882
-      Name: "Military Fence Gate 01"
+      Name: "Urban Fence Gate 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1061,7 +1061,7 @@
     }
     Assets {
       Id: 12267691052109532985
-      Name: "Military Fence Crossbar - Gate"
+      Name: "Urban Fence Crossbar - Gate"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1070,7 +1070,7 @@
     }
     Assets {
       Id: 14523494161843827332
-      Name: "Military Fence Pole - Extender Connecting"
+      Name: "Urban Fence Pole - End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1082,5 +1082,5 @@
       AssetId: "Urban_Fence_Gate_-_Double_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

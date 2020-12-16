@@ -59,7 +59,7 @@ function equipItem(player,equipstring,slot)
     local item = _G["DataBase"]:SetupItemWithSkin(str)
     local equipment = item:SpawnEquipment()
     player.serverUserData.Weapons[slot.."Weapon"] = equipment
-    if(slot ~= "Equipment" and slot ~= "Perks" ) then
+    if(slot ~= "Equipment" and slot ~= "Perk" ) then
         Events.Broadcast("AddWeaponToBackPack", player, equipment, item.data.Hoister, {rotation = item.data.Rotation_Offset})
     end
 end
@@ -81,6 +81,7 @@ function EquipPlayer(player)
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
     Task.Wait()
     starterEquipment:Equip(player)
+    player.serverUserData.Weapons.EquipmentWeapon.name = "Equipment"
     player.serverUserData.Weapons.EquipmentWeapon:Equip(player)
     player.serverUserData.Weapons.PerkWeapon:Equip(player)
     
@@ -126,7 +127,7 @@ Game.playerJoinedEvent:Connect(function (player )
     SetupPlayer(player)
     EquipPlayer(player)
     player:SetResource("WeaponSlot", 1)
-    player.diedEvent:Connect(function() 
+    player.respawnedEvent:Connect(function() 
         UnequipPlayer(player)
         EquipPlayer(player)
     end)
@@ -138,3 +139,4 @@ Game.roundStartEvent:Connect(function()
         EquipPlayer(player)
     end
 end)
+Events.ConnectForPlayer("RequestData",RequestData)

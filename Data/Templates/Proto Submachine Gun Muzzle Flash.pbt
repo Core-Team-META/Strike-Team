@@ -19,6 +19,7 @@
         ChildIds: 12391300809687005807
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -47,8 +48,6 @@
         ParentId: 17033298466445978272
         ChildIds: 17616793892455375496
         ChildIds: 7361243837954488935
-        ChildIds: 15834613661215658142
-        ChildIds: 15201800124507795132
         ChildIds: 5404125646895113474
         UnregisteredParameters {
         }
@@ -189,136 +188,6 @@
         }
       }
       Objects {
-        Id: 15834613661215658142
-        Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12391300809687005807
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_smg:10"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13442051517733671574
-          }
-          AudioBP {
-            AutoPlay: true
-            Pitch: 2400
-            Volume: 1.2
-            Falloff: 1000
-            Radius: 200
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 15201800124507795132
-        Name: "Shell Ejection VFX"
-        Transform {
-          Location {
-            X: -57
-            Y: -2.44848633
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12391300809687005807
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Spawn Rate"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: -15
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity High"
-            Vector {
-              X: -50
-              Y: -150
-              Z: 175
-            }
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity Low"
-            Vector {
-              X: -50
-              Y: -125
-              Z: 150
-            }
-          }
-          Overrides {
-            Name: "bp:Size"
-            Vector {
-              X: 0.4
-              Y: 0.4
-              Z: 0.4
-            }
-          }
-          Overrides {
-            Name: "bp:Burst"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 2.83338094
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.799999952
-              G: 0.596895337
-              B: 0.320799947
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 2605295070901352170
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-      }
-      Objects {
         Id: 5404125646895113474
         Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
         Transform {
@@ -366,7 +235,7 @@
     }
     Assets {
       Id: 13442051517733671574
-      Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
+      Name: "Gunshot Sub-Machine Gun SMG Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -382,19 +251,10 @@
         AssetId: "fxbp_explosion"
       }
     }
-    Assets {
-      Id: 2605295070901352170
-      Name: "Shell Ejection VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_shell_ejection"
-      }
-    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

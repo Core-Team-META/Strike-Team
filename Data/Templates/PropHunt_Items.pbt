@@ -148383,7 +148383,7 @@
     }
     Assets {
       Id: 1938148825372685458
-      Name: "Truncated Teardrop"
+      Name: "Teardrop - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -148446,7 +148446,7 @@
     }
     Assets {
       Id: 5489775416547967874
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -148491,7 +148491,7 @@
     }
     Assets {
       Id: 7102179285187063772
-      Name: "Scifi Panel 1x4m"
+      Name: "Sci-fi Panel 1x4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -148761,7 +148761,7 @@
     }
     Assets {
       Id: 2452321333043362821
-      Name: "Lense - Half"
+      Name: "Lens - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149418,7 +149418,7 @@
     }
     Assets {
       Id: 17485881147669499682
-      Name: "Cube - Rounded - bottom aligned"
+      Name: "Cube - Rounded Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149427,7 +149427,7 @@
     }
     Assets {
       Id: 15444479746233137098
-      Name: "Sci-Fi Gear Med 01"
+      Name: "Sci-fi Gear Med 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149562,7 +149562,7 @@
     }
     Assets {
       Id: 6842182368712984865
-      Name: "^"
+      Name: "Text 03: ^"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149787,7 +149787,7 @@
     }
     Assets {
       Id: 7178889058090749315
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149814,7 +149814,7 @@
     }
     Assets {
       Id: 12610149741243116648
-      Name: "Urban Pipe Coupling 05"
+      Name: "Urban Pipe Wrap 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149976,7 +149976,7 @@
     }
     Assets {
       Id: 5525156053417254110
-      Name: "Scifi Ship Cockpit Canopy 01"
+      Name: "Sci-fi Ship Cockpit Canopy 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149985,7 +149985,7 @@
     }
     Assets {
       Id: 8120172434194110335
-      Name: "Scifi Ship Wing Small 01"
+      Name: "Sci-fi Ship Wing Small 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -149994,7 +149994,7 @@
     }
     Assets {
       Id: 4661518878847934894
-      Name: "Scifi Ship Chair 01"
+      Name: "Sci-fi Ship Chair 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150021,7 +150021,7 @@
     }
     Assets {
       Id: 5717544946372160630
-      Name: "Scifi Cockpit Back 01"
+      Name: "Sci-fi Cockpit Back 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150165,7 +150165,7 @@
     }
     Assets {
       Id: 3715487088176351191
-      Name: "Chamfered Cube"
+      Name: "Cube - Chamfered Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150201,7 +150201,7 @@
     }
     Assets {
       Id: 8264236312157117638
-      Name: "Pipe Curved 90 Large"
+      Name: "Pipe - 90-Degree Long"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150246,7 +150246,7 @@
     }
     Assets {
       Id: 6862343156420990692
-      Name: "Scifi Panel 1x4m"
+      Name: "Sci-fi Panel 1x4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150282,7 +150282,7 @@
     }
     Assets {
       Id: 6775289462274361152
-      Name: "SciFi Trim 01"
+      Name: "Sci-fi Trim 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150291,7 +150291,7 @@
     }
     Assets {
       Id: 4563967851793804383
-      Name: "SciFi Trim 01 bend 90"
+      Name: "Sci-fi Trim 01 bend 90"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150345,7 +150345,7 @@
     }
     Assets {
       Id: 17674899513825131923
-      Name: "Pyramid - 4-Sided Truncated Hollow Thick"
+      Name: "Pyramid - 4-Sided Truncated Hollow Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150363,7 +150363,7 @@
     }
     Assets {
       Id: 7409974748338403079
-      Name: "Grenade Canister 01"
+      Name: "Modern Weapon - Grenade Canister 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150570,7 +150570,7 @@
     }
     Assets {
       Id: 9826710443425479508
-      Name: "Modern Weapon - Bullet 01"
+      Name: "Modern Weapon Ammo - Bullet 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150660,7 +150660,7 @@
     }
     Assets {
       Id: 12568056527589784687
-      Name: "Pyramid"
+      Name: "Pyramid - 4-Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150786,7 +150786,7 @@
     }
     Assets {
       Id: 10112920148419396287
-      Name: "Scifi Panel 2x3m Triangle"
+      Name: "Sci-fi Panel 2x3m Triangle"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150822,7 +150822,7 @@
     }
     Assets {
       Id: 12026254012291944302
-      Name: "SciFi Trim 01 End"
+      Name: "Sci-fi Trim 01 End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -150831,7 +150831,7 @@
     }
     Assets {
       Id: 9221427926419068128
-      Name: "SciFi Trim 01"
+      Name: "Sci-fi Trim 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151029,7 +151029,7 @@
     }
     Assets {
       Id: 17767528040251760458
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151065,7 +151065,7 @@
     }
     Assets {
       Id: 8455476848519957619
-      Name: "Modern Weapon - Bullet 01 Casing"
+      Name: "Modern Weapon Ammo - Bullet 01 Casing"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151110,7 +151110,7 @@
     }
     Assets {
       Id: 2500740463401777128
-      Name: ")"
+      Name: "Text 01: )"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151155,7 +151155,7 @@
     }
     Assets {
       Id: 15001748559136319091
-      Name: "Scifi Panel 1x4m"
+      Name: "Sci-fi Panel 1x4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151164,7 +151164,7 @@
     }
     Assets {
       Id: 1157444486122330678
-      Name: "["
+      Name: "Text 02: ["
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151227,7 +151227,7 @@
     }
     Assets {
       Id: 11588290385508407355
-      Name: "W"
+      Name: "Text 01: W"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151236,7 +151236,7 @@
     }
     Assets {
       Id: 14335950073606978576
-      Name: "R"
+      Name: "Text 01: R"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151245,7 +151245,7 @@
     }
     Assets {
       Id: 13240777799557061907
-      Name: "4"
+      Name: "Text 01: 4"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151254,7 +151254,7 @@
     }
     Assets {
       Id: 1882399476102658604
-      Name: "U"
+      Name: "Text 01: U"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151344,7 +151344,7 @@
     }
     Assets {
       Id: 2986790912371252552
-      Name: "("
+      Name: "Text 01: ("
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151371,7 +151371,7 @@
     }
     Assets {
       Id: 4506676792560583798
-      Name: "Cube - Polished"
+      Name: "Cube - Chamfered Large Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151398,7 +151398,7 @@
     }
     Assets {
       Id: 962099196015237473
-      Name: "Modern Weapon - Bullet 02 Casing"
+      Name: "Modern Weapon Ammo - Bullet 02 Casing"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151518,5 +151518,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

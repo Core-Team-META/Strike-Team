@@ -687,7 +687,7 @@
     }
     Assets {
       Id: 8847410236676091177
-      Name: "Cube - Rounded - bottom aligned"
+      Name: "Cube - Rounded Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -717,5 +717,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

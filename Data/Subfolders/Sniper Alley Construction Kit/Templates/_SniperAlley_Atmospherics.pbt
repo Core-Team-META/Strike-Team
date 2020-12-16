@@ -3463,7 +3463,7 @@
     }
     Assets {
       Id: 11905645224756837966
-      Name: "AO Recolor Post Process"
+      Name: "Ambient Occlusion Recolor Post Process"
       PlatformAssetType: 6
       PrimaryAsset {
         AssetType: "BlueprintAssetRef"
@@ -3526,7 +3526,7 @@
     }
     Assets {
       Id: 7443569836154553489
-      Name: "Aircraft Helicopters Engines Set 01 SFX"
+      Name: "Vehicle Aircraft Helicopter Misc Engine Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -3589,7 +3589,7 @@
     }
     Assets {
       Id: 3507308942008586250
-      Name: "Pyramid - 4-Sided Truncated Hollow Thin"
+      Name: "Pyramid - 4-Sided Truncated Hollow Thick"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3607,7 +3607,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3640,6 +3640,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

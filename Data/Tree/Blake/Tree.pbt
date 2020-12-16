@@ -1,6 +1,59 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 14823429656765854296
+  Name: "Respawn"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  ChildIds: 11859706942549986879
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11859706942549986879
+  Name: "RespawnServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14823429656765854296
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1251385908874761482
+    }
+  }
+}
+Objects {
   Id: 13367903298334009240
   Name: "CommandPanel"
   Transform {
@@ -157,9 +210,13 @@ Objects {
   }
 }
 Objects {
-  Id: 4975704287466969891
+  Id: 4355175678147851601
   Name: "LoadoutEquipment"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -173,29 +230,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15973117888364099070
-      value {
-        Overrides {
-          Name: "Name"
-          String: "LoadoutEquipment"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10798511928395917419
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LoadoutEquipment"
+  }
+  InstanceHistory {
+    SelfId: 4355175678147851601
+    SubobjectId: 15973117888364099070
+    InstanceId: 4975704287466969891
+    TemplateId: 10798511928395917419
+    WasRoot: true
   }
 }
 Objects {

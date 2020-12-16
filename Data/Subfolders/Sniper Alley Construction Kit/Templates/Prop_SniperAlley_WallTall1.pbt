@@ -1136,7 +1136,7 @@
     }
     Assets {
       Id: 12089714488282857510
-      Name: "Trim Crenellated 6m 02"
+      Name: "Trim Crenellated 8m 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1154,7 +1154,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1169,6 +1169,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

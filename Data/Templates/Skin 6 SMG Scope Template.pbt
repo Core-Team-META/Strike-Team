@@ -2875,7 +2875,7 @@
     }
     Assets {
       Id: 3350581364753243189
-      Name: "Scifi Cockpit Console 001"
+      Name: "Sci-fi Cockpit Console 001"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3013,5 +3013,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

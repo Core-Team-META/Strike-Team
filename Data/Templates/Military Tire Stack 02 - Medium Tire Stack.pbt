@@ -245,7 +245,7 @@
     }
     Assets {
       Id: 14565993562237882178
-      Name: "Military Worn Tire 01"
+      Name: "Tire Worn"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -257,5 +257,5 @@
       AssetId: "Military_Tire_Stack_02_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

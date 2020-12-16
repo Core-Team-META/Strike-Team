@@ -19,6 +19,7 @@
         ChildIds: 11736491869790306490
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -49,7 +50,6 @@
         ChildIds: 13614593215932494344
         ChildIds: 14857492663691378798
         ChildIds: 18161609088861503931
-        ChildIds: 6113991034239741245
         ChildIds: 7650927056114017145
         ChildIds: 17230655641079284285
         ChildIds: 8824579841997050472
@@ -244,90 +244,6 @@
         }
       }
       Objects {
-        Id: 6113991034239741245
-        Name: "Shell Ejection VFX"
-        Transform {
-          Location {
-            X: -60.7790298
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Spawn Rate"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: -15
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity High"
-            Vector {
-              X: -80
-              Y: -250
-              Z: 175
-            }
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity Low"
-            Vector {
-              X: -80
-              Y: -150
-              Z: 150
-            }
-          }
-          Overrides {
-            Name: "bp:Size"
-            Vector {
-              X: 0.4
-              Y: 0.4
-              Z: 0.6
-            }
-          }
-          Overrides {
-            Name: "bp:Burst"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 2.83338094
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.799999952
-              G: 0.596895337
-              B: 0.320799947
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 2605295070901352170
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-      }
-      Objects {
         Id: 7650927056114017145
         Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
         Transform {
@@ -473,7 +389,7 @@
     }
     Assets {
       Id: 6491078578190431103
-      Name: "Gunshot Assualt Rifle AK Set 01 SFX"
+      Name: "Gunshot Assault Rifle AK Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -498,19 +414,10 @@
         AssetId: "sfxabp_gunshot_assaultrifle_carbine_ref"
       }
     }
-    Assets {
-      Id: 2605295070901352170
-      Name: "Shell Ejection VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_shell_ejection"
-      }
-    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

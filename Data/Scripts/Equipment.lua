@@ -111,9 +111,11 @@ end
 function Equipment:GetHoiseter()
     return self.data.hoiseter
 end
+--[[
 
-function Equipment:__tostring()
-    return tostring(self:GetName())
-end
+    function Equipment:__tostring()
+        return tostring(self:GetName())
+    end
+    ]]
 
 return Equipment

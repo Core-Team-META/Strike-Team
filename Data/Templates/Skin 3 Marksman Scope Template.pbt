@@ -2859,7 +2859,7 @@
     }
     Assets {
       Id: 16965777294932964901
-      Name: "Cube - Polished"
+      Name: "Cube - Chamfered Large Polished"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2967,7 +2967,7 @@
     }
     Assets {
       Id: 10761805965836715766
-      Name: "Damaged Urban Glass Shard  - 02"
+      Name: "Urban Damaged Glass Shard  - 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2979,5 +2979,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

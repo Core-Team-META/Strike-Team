@@ -489,7 +489,7 @@
     }
     Assets {
       Id: 12610149741243116648
-      Name: "Urban Pipe Coupling 05"
+      Name: "Urban Pipe Wrap 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -528,5 +528,5 @@
       AssetId: "Urban_Pipe_Straight__-_01__Prop_"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

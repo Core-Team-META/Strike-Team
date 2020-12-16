@@ -2274,7 +2274,7 @@
     }
     Assets {
       Id: 14565993562237882178
-      Name: "Military Worn Tire 01"
+      Name: "Tire Worn"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2283,7 +2283,7 @@
     }
     Assets {
       Id: 9605197959426201295
-      Name: "Military Worn Tire 02"
+      Name: "Tire Worn - Small"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2292,7 +2292,7 @@
     }
     Assets {
       Id: 8606699818147202890
-      Name: "Military Worn Tire Large 01"
+      Name: "Tire Worn - Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -2304,5 +2304,5 @@
       AssetId: "Military_Tire_Pile_03_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

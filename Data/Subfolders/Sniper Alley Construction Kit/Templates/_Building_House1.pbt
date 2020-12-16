@@ -12675,7 +12675,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12702,7 +12702,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12837,7 +12837,7 @@
     }
     Assets {
       Id: 4054211681159130604
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12891,7 +12891,7 @@
     }
     Assets {
       Id: 9997662856599198468
-      Name: "Lense - Half"
+      Name: "Lens - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12927,7 +12927,7 @@
     }
     Assets {
       Id: 6388401066989036925
-      Name: "Pipe (thin)"
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12942,6 +12942,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

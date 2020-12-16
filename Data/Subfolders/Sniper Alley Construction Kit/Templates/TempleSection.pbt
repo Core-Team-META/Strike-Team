@@ -27166,7 +27166,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27175,7 +27175,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27193,7 +27193,7 @@
     }
     Assets {
       Id: 4693264132494587556
-      Name: "SciFi Trim 01"
+      Name: "Sci-fi Trim 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27220,7 +27220,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27256,7 +27256,7 @@
     }
     Assets {
       Id: 17571588744402375434
-      Name: "Truncated Ellipsoid - hollow"
+      Name: "Ellipsoid - Truncated Hollow"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27265,7 +27265,7 @@
     }
     Assets {
       Id: 1938148825372685458
-      Name: "Truncated Teardrop"
+      Name: "Teardrop - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27274,7 +27274,7 @@
     }
     Assets {
       Id: 13432417776101595464
-      Name: "Truncated Cone - Hollow, concave"
+      Name: "Cone - Truncated Hollow Concave"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27364,7 +27364,7 @@
     }
     Assets {
       Id: 11465882301660868922
-      Name: "Trim Top 6m 001"
+      Name: "Trim Top 8m 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -27388,6 +27388,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

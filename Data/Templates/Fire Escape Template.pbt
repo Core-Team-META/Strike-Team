@@ -1599,7 +1599,7 @@
     }
     Assets {
       Id: 16361900871520744060
-      Name: "Stairs Fire Escape 6m 01"
+      Name: "Urban Stairs Fire Escape - 6m 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1608,7 +1608,7 @@
     }
     Assets {
       Id: 4832010047877921553
-      Name: "Railing 01 2m Mainstreet"
+      Name: "Main Street Railing 01 - 2m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1617,7 +1617,7 @@
     }
     Assets {
       Id: 4519163911553529386
-      Name: "Railing 01 Post Mainstreet"
+      Name: "Main Street Railing 01 - Post"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1626,7 +1626,7 @@
     }
     Assets {
       Id: 99428546513861114
-      Name: "Floor Grate Fire Escape 2m x 2m"
+      Name: "Urban Floor Grate Fire Escape - 2m x 2m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1638,5 +1638,5 @@
       AssetId: "Fire_Escape_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

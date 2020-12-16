@@ -184,5 +184,5 @@
       AssetId: "Third_Person_Camera_Settings"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

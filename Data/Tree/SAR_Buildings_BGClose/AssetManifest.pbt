@@ -45,7 +45,7 @@ Assets {
 }
 Assets {
   Id: 16855776306829432893
-  Name: "Plane"
+  Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -63,7 +63,7 @@ Assets {
 }
 Assets {
   Id: 16442067914662662686
-  Name: "Foundation 01 Mainstreet"
+  Name: "Main Street Foundation 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -99,7 +99,7 @@ Assets {
 }
 Assets {
   Id: 15614794363849386760
-  Name: "Door Downtown Steel 02"
+  Name: "Urban Door Steel 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -225,7 +225,7 @@ Assets {
 }
 Assets {
   Id: 11465882301660868922
-  Name: "Trim Top 6m 001"
+  Name: "Trim Top 8m 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -270,7 +270,7 @@ Assets {
 }
 Assets {
   Id: 10128884331981734128
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -297,7 +297,7 @@ Assets {
 }
 Assets {
   Id: 7531058706496198656
-  Name: "Whitebox Wall 01 Doorway"
+  Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

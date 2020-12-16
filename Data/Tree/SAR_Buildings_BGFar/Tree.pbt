@@ -1,6 +1,90 @@
 ﻿Name: "SAR_Buildings_BGFar"
 RootId: 13385345388441639341
 Objects {
+  Id: 17673884516029744835
+  Name: "FarBGbuildings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13385345388441639341
+  ChildIds: 16746923195384421267
+  ChildIds: 8471097248559030958
+  ChildIds: 16522970299340502661
+  ChildIds: 149885158834329435
+  ChildIds: 537630513411093361
+  ChildIds: 14721171815542501440
+  ChildIds: 18256375586128111636
+  ChildIds: 6285997814884597227
+  ChildIds: 4921033779727238408
+  ChildIds: 14058695130185217359
+  ChildIds: 5586162669808842528
+  ChildIds: 6158893321362294390
+  ChildIds: 17299851898536796091
+  ChildIds: 6282515565540674169
+  ChildIds: 17134818579932026204
+  ChildIds: 1150711110990087679
+  ChildIds: 12882079665531659980
+  ChildIds: 15517955716407219001
+  ChildIds: 2167530396311764735
+  ChildIds: 10509055216535162900
+  ChildIds: 8168980630507817695
+  ChildIds: 5964672798691288493
+  ChildIds: 5809907594598178998
+  ChildIds: 5348013082383599002
+  ChildIds: 451651357570624961
+  ChildIds: 12432283985948883740
+  ChildIds: 11581951251548227012
+  ChildIds: 11442334320534452841
+  ChildIds: 12611412875577304961
+  ChildIds: 2927720693935284731
+  ChildIds: 15816348396092332386
+  ChildIds: 5217119450792831340
+  ChildIds: 12339365298214194355
+  ChildIds: 13838916124443735843
+  ChildIds: 11351082549206339325
+  ChildIds: 5054259783326013718
+  ChildIds: 17911547718398192704
+  ChildIds: 15956646834230696348
+  ChildIds: 7312473602083448537
+  ChildIds: 16199123325513486549
+  ChildIds: 16825696775926861164
+  ChildIds: 10667230896495516074
+  ChildIds: 10783065638055066815
+  ChildIds: 16625066335744300841
+  ChildIds: 1820802611089102358
+  ChildIds: 16129988315594329822
+  ChildIds: 18380642832137826439
+  ChildIds: 11587417596732877555
+  ChildIds: 16068120175154497660
+  ChildIds: 10266964378144263716
+  ChildIds: 9096011606599292891
+  ChildIds: 15508316123290454603
+  ChildIds: 3457141577470154714
+  ChildIds: 16227989592245555845
+  ChildIds: 6646822298805198440
+  ChildIds: 8804273597208399695
+  ChildIds: 13027924580409674370
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+      AggressiveMerge: true
+    }
+  }
+}
+Objects {
   Id: 13027924580409674370
   Name: "Cube - bottom aligned"
   Transform {
@@ -18,7 +102,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -50,6 +134,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -75,7 +162,7 @@ Objects {
       Z: 35.4063301
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -107,6 +194,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -131,7 +221,7 @@ Objects {
       Z: 66.5217133
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -163,6 +253,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -188,7 +281,7 @@ Objects {
       Z: 66.5217133
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -220,6 +313,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -245,7 +341,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -277,6 +373,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -302,7 +401,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -334,6 +433,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -359,7 +461,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -391,6 +493,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -408,7 +513,7 @@ Objects {
       Z: 480
     }
     Rotation {
-      Yaw: -165.991821
+      Yaw: -165.991791
     }
     Scale {
       X: 123.300064
@@ -416,7 +521,7 @@ Objects {
       Z: 40.7999954
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -448,6 +553,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -465,7 +573,7 @@ Objects {
       Z: 1165
     }
     Rotation {
-      Yaw: -165.991852
+      Yaw: -165.991821
     }
     Scale {
       X: 24.7
@@ -473,7 +581,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -505,6 +613,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -530,7 +641,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -562,6 +673,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -587,7 +701,7 @@ Objects {
       Z: 52.5982361
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -619,6 +733,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -644,7 +761,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -676,6 +793,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -701,7 +821,7 @@ Objects {
       Z: 21.9999981
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -733,6 +853,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -758,7 +881,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -790,6 +913,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -815,7 +941,7 @@ Objects {
       Z: 40.7759
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -847,6 +973,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -864,7 +993,7 @@ Objects {
       Z: 2800
     }
     Rotation {
-      Yaw: -117.002365
+      Yaw: -117.00235
     }
     Scale {
       X: 24.7000027
@@ -872,7 +1001,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -904,6 +1033,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -929,7 +1061,7 @@ Objects {
       Z: 48.6295242
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -961,6 +1093,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -978,7 +1113,7 @@ Objects {
       Z: 855
     }
     Rotation {
-      Yaw: -113.236946
+      Yaw: -113.236931
     }
     Scale {
       X: 24.7000027
@@ -986,7 +1121,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1018,6 +1153,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1035,7 +1173,7 @@ Objects {
       Z: 2366.08496
     }
     Rotation {
-      Yaw: -67.4105759
+      Yaw: -67.4105835
     }
     Scale {
       X: 53.4733124
@@ -1043,7 +1181,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1075,6 +1213,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
     DisableCastShadows: true
     DisableReceiveDecals: true
     EnableCameraCollision: true
@@ -1094,7 +1233,7 @@ Objects {
       Z: 2291.96582
     }
     Rotation {
-      Yaw: -156.762314
+      Yaw: -156.762329
     }
     Scale {
       X: 24.7000027
@@ -1102,7 +1241,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1134,6 +1273,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1159,7 +1301,7 @@ Objects {
       Z: 35.4063301
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1191,6 +1333,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1216,7 +1361,7 @@ Objects {
       Z: 35.4063301
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1248,6 +1393,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1273,7 +1421,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1305,6 +1453,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1330,7 +1481,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1362,6 +1513,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1387,7 +1541,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1419,6 +1573,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1444,7 +1601,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1476,6 +1633,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
     DisableCastShadows: true
     DisableReceiveDecals: true
     EnableCameraCollision: true
@@ -1503,7 +1661,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1535,6 +1693,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1552,7 +1713,7 @@ Objects {
       Z: 154.780151
     }
     Rotation {
-      Yaw: -113.236946
+      Yaw: -113.236931
     }
     Scale {
       X: 24.7000027
@@ -1560,7 +1721,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1592,6 +1753,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1610,8 +1774,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: 180
-      Roll: -126.256287
+      Yaw: 5.71059704
+      Roll: 59.4542847
     }
     Scale {
       X: 49.2240067
@@ -1619,7 +1783,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1651,6 +1815,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1669,7 +1836,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: 69.6247635
+      Yaw: -90
+      Roll: -20.3752136
     }
     Scale {
       X: 38.662735
@@ -1677,7 +1845,7 @@ Objects {
       Z: 52.9834
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1709,6 +1877,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1727,8 +1898,7 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: 4.76364374
-      Roll: 74.3883896
+      Roll: 69.6247635
     }
     Scale {
       X: 19.2463531
@@ -1736,7 +1906,7 @@ Objects {
       Z: 52.9833832
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1768,6 +1938,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1785,7 +1958,7 @@ Objects {
       Z: 165
     }
     Rotation {
-      Yaw: -113.236977
+      Yaw: -113.236946
     }
     Scale {
       X: 24.7000027
@@ -1793,7 +1966,7 @@ Objects {
       Z: 41.466095
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1825,6 +1998,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1842,7 +2018,7 @@ Objects {
       Z: 995.213867
     }
     Rotation {
-      Yaw: -146.270096
+      Yaw: -146.270081
     }
     Scale {
       X: 67.776741
@@ -1850,7 +2026,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1882,6 +2058,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1900,8 +2079,8 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: -14.0362635
-      Roll: 39.7074776
+      Yaw: 180
+      Roll: -126.256287
     }
     Scale {
       X: 49.2240067
@@ -1909,7 +2088,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1941,6 +2120,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -1966,7 +2148,7 @@ Objects {
       Z: 39.2766533
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1998,6 +2180,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2015,7 +2200,7 @@ Objects {
       Z: 1200
     }
     Rotation {
-      Yaw: -146.270111
+      Yaw: -146.270096
     }
     Scale {
       X: 24.7000027
@@ -2023,7 +2208,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2055,6 +2240,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2073,8 +2261,7 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: 7.12502289
-      Roll: 52.1248741
+      Roll: 44.9998207
     }
     Scale {
       X: 49.2240067
@@ -2082,7 +2269,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2114,6 +2301,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2132,8 +2322,7 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Yaw: 7.12502289
-      Roll: 52.1248741
+      Roll: 44.9998207
     }
     Scale {
       X: 49.2240067
@@ -2141,7 +2330,7 @@ Objects {
       Z: 52.9833641
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2173,6 +2362,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2190,7 +2382,7 @@ Objects {
       Z: 352.622559
     }
     Rotation {
-      Yaw: -146.270111
+      Yaw: -146.270096
     }
     Scale {
       X: 24.7000027
@@ -2198,7 +2390,7 @@ Objects {
       Z: 41.449379
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2230,6 +2422,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2247,7 +2442,7 @@ Objects {
       Z: 2530
     }
     Rotation {
-      Yaw: -146.270142
+      Yaw: -146.270111
     }
     Scale {
       X: 18.222002
@@ -2255,7 +2450,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2287,6 +2482,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2312,7 +2510,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2344,6 +2542,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2369,7 +2570,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2401,6 +2602,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2426,7 +2630,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2458,6 +2662,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2483,7 +2690,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2515,6 +2722,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2540,7 +2750,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2572,6 +2782,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2589,7 +2802,7 @@ Objects {
       Z: 2355
     }
     Rotation {
-      Yaw: -104.261017
+      Yaw: -104.261024
     }
     Scale {
       X: 24.7000027
@@ -2597,7 +2810,7 @@ Objects {
       Z: 26.6059723
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2629,6 +2842,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2646,7 +2862,7 @@ Objects {
       Z: 2070.14282
     }
     Rotation {
-      Yaw: -106.51416
+      Yaw: -106.514168
     }
     Scale {
       X: 24.7
@@ -2654,7 +2870,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2686,6 +2902,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2703,7 +2922,7 @@ Objects {
       Z: 2070.14282
     }
     Rotation {
-      Yaw: -106.51416
+      Yaw: -106.514168
     }
     Scale {
       X: 24.7
@@ -2711,7 +2930,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2743,6 +2962,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2760,7 +2982,7 @@ Objects {
       Z: 1639.21423
     }
     Rotation {
-      Yaw: -106.514168
+      Yaw: -106.514175
     }
     Scale {
       X: 63.4999962
@@ -2768,7 +2990,7 @@ Objects {
       Z: 27.1
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2800,6 +3022,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2825,7 +3050,7 @@ Objects {
       Z: 18.3245316
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2857,6 +3082,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2882,7 +3110,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2914,6 +3142,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2939,7 +3170,7 @@ Objects {
       Z: 27.0563488
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2971,6 +3202,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -2996,7 +3230,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3028,6 +3262,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -3053,7 +3290,7 @@ Objects {
       Z: 21.9999981
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3085,6 +3322,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -3110,7 +3350,7 @@ Objects {
       Z: 22
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3142,6 +3382,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -3159,7 +3402,7 @@ Objects {
       Z: 2334.37598
     }
     Rotation {
-      Yaw: -78.6873779
+      Yaw: -78.687355
     }
     Scale {
       X: 24.7000027
@@ -3167,7 +3410,7 @@ Objects {
       Z: 14.9000006
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3199,6 +3442,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -3224,7 +3470,7 @@ Objects {
       Z: 14.9000006
     }
   }
-  ParentId: 13385345388441639341
+  ParentId: 17673884516029744835
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3256,6 +3502,9 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {

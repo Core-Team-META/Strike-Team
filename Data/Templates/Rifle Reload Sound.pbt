@@ -4,9 +4,9 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16722238589671619012
+      RootId: 4545369828039637509
       Objects {
-        Id: 16722238589671619012
+        Id: 4545369828039637509
         Name: "Rifle Reload Sound"
         Transform {
           Scale {
@@ -16,38 +16,10 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 4545369828039637509
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 4545369828039637509
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16722238589671619012
         ChildIds: 8454893697076786295
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -94,7 +66,7 @@
           AudioBP {
             AutoPlay: true
             Volume: 1
-            Falloff: 1000
+            Falloff: 2000
             Radius: 100
             EnableOcclusion: true
             IsSpatializationEnabled: true
@@ -117,5 +89,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

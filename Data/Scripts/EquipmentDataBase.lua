@@ -29,7 +29,8 @@ end
 function Database:ReturnEquipmentById(id)
     for _, eqp in pairs(self.data) do
         if(eqp["id"] == id ) then
-            return Equipment.New(eqp)
+            local item = Equipment.New(eqp)
+            return item
         end
     end
 end

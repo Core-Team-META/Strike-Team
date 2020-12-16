@@ -67,7 +67,7 @@
     }
     Assets {
       Id: 14523494161843827332
-      Name: "Military Fence Pole - Extender Connecting"
+      Name: "Urban Fence Pole - End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -79,5 +79,5 @@
       AssetId: "Urban_Fence_-_End_Pole_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

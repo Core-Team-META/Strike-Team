@@ -46,8 +46,8 @@ end
 -- Returns weapon that player is using
 function GetWeapon(player)
 	for i,v in ipairs(player:GetEquipment()) do
-		if v:IsA("Weapon") then
-			return v
+		if v:IsA("Weapon") and v.name ~= "Equipment" then
+			return v    
 		end
 	end
 end
@@ -55,17 +55,6 @@ end
 function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
-        local healthFraction = player.hitPoints / player.maxHitPoints
-        PROGRESS_BAR.progress = healthFraction
-
-        if SHOW_NUMBER then
-            if SHOW_MAXIMUM then
-                TEXT_BOX.text = string.format("%.0f / %.0f", player.hitPoints, player.maxHitPoints)
-            else
-                TEXT_BOX.text = string.format("%.0f", player.hitPoints)
-            end
-        end
-		
 		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
 			if weapon ~= nil then

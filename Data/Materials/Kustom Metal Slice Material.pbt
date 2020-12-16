@@ -2,7 +2,7 @@
   Id: 8134244252957463672
   Name: "Kustom Metal Slice Material"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 11565621179026659030
     ParameterOverrides {

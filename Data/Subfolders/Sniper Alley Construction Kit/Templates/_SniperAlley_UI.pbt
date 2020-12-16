@@ -5927,7 +5927,7 @@
     }
     Assets {
       Id: 17586365689296088662
-      Name: "Background Flat 020"
+      Name: "BG Gradient 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -5963,7 +5963,7 @@
     }
     Assets {
       Id: 13575128885289472533
-      Name: "Frame Flat Outlined 001"
+      Name: "Frame Outlined Thick 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -5990,7 +5990,7 @@
     }
     Assets {
       Id: 15646943606220630931
-      Name: "BG Flat Outlined 002"
+      Name: "BG Gradient 002"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -6032,6 +6032,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

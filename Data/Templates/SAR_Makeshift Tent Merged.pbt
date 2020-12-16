@@ -919,7 +919,7 @@
     }
     Assets {
       Id: 3844709690263076331
-      Name: "Military Fence Pole - Gate End"
+      Name: "Urban Fence Pole - Gate End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -949,5 +949,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

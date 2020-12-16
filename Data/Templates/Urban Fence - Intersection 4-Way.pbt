@@ -408,7 +408,7 @@
     }
     Assets {
       Id: 472496642976630875
-      Name: "Military Fence Panel"
+      Name: "Urban Fence Panel"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -417,7 +417,7 @@
     }
     Assets {
       Id: 5457962044230310640
-      Name: "Military Fence Crossbar - Panel"
+      Name: "Urban Fence Crossbar - Panel"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -426,7 +426,7 @@
     }
     Assets {
       Id: 8499429241992895471
-      Name: "Military Fence Pole - Connecting 4-Way"
+      Name: "Urban Fence Pole - Connecting 4-Way"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -438,5 +438,5 @@
       AssetId: "Urban_Fence_-_Intersection_4-Way"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

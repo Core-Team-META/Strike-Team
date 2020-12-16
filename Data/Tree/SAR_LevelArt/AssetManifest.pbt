@@ -117,7 +117,7 @@ Assets {
 }
 Assets {
   Id: 17485881147669499682
-  Name: "Cube - Rounded - bottom aligned"
+  Name: "Cube - Rounded Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -162,7 +162,7 @@ Assets {
 }
 Assets {
   Id: 16855776306829432893
-  Name: "Plane"
+  Name: "Plane 4m - One Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -179,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16628730901845472849
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 16586908890029824577
   Name: "Cube - Rounded"
   PlatformAssetType: 1
@@ -189,7 +198,7 @@ Assets {
 }
 Assets {
   Id: 16442067914662662686
-  Name: "Foundation 01 Mainstreet"
+  Name: "Main Street Foundation 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -342,7 +351,7 @@ Assets {
 }
 Assets {
   Id: 14565993562237882178
-  Name: "Military Worn Tire 01"
+  Name: "Tire Worn"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -360,7 +369,7 @@ Assets {
 }
 Assets {
   Id: 14523494161843827332
-  Name: "Military Fence Pole - Extender Connecting"
+  Name: "Urban Fence Pole - End"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -396,7 +405,7 @@ Assets {
 }
 Assets {
   Id: 14345153403763633307
-  Name: "Damaged Concrete Chunk 02"
+  Name: "Urban Damaged Concrete Chunk 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -449,8 +458,17 @@ Assets {
   }
 }
 Assets {
+  Id: 13904304706208065102
+  Name: "Container - Square Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_thin_ref"
+  }
+}
+Assets {
   Id: 13874502513103367460
-  Name: "Awning 01 Mainstreet"
+  Name: "Main Street Awning 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -522,7 +540,7 @@ Assets {
 }
 Assets {
   Id: 13084610212546141882
-  Name: "Military Fence Gate 01"
+  Name: "Urban Fence Gate 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -549,7 +567,7 @@ Assets {
 }
 Assets {
   Id: 12977585700991343703
-  Name: "Decal Debris 01"
+  Name: "Decal Street Litter 01"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
@@ -594,7 +612,7 @@ Assets {
 }
 Assets {
   Id: 12758036443323469769
-  Name: "Military Fence Pole - Extender End"
+  Name: "Urban Fence Pole - Extender End"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -684,7 +702,7 @@ Assets {
 }
 Assets {
   Id: 12209528205531445270
-  Name: "Damaged Concrete Pillar Top 01"
+  Name: "Urban Damaged Concrete Pillar - Top 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -738,7 +756,7 @@ Assets {
 }
 Assets {
   Id: 11465882301660868922
-  Name: "Trim Top 6m 001"
+  Name: "Trim Top 8m 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -801,7 +819,7 @@ Assets {
 }
 Assets {
   Id: 10651116236196901044
-  Name: "Damaged Concrete Chunk 01"
+  Name: "Urban Damaged Concrete Chunk 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -837,7 +855,7 @@ Assets {
 }
 Assets {
   Id: 10415104586946721638
-  Name: "Cylinder - bottom aligned"
+  Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -846,7 +864,7 @@ Assets {
 }
 Assets {
   Id: 10396917736734746205
-  Name: "Foundation 01 Corner Mainstreet"
+  Name: "Main Street Foundation 01 - Corner"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -882,7 +900,7 @@ Assets {
 }
 Assets {
   Id: 10128884331981734128
-  Name: "Cube - bottom aligned"
+  Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -909,7 +927,7 @@ Assets {
 }
 Assets {
   Id: 9786462415611388372
-  Name: "Decal Debris 02"
+  Name: "Decal Street Litter 02"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
@@ -918,7 +936,7 @@ Assets {
 }
 Assets {
   Id: 9643743770374877205
-  Name: "Military Tank Fuel Container 01"
+  Name: "Military Tank Historic Container 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -927,7 +945,7 @@ Assets {
 }
 Assets {
   Id: 9605197959426201295
-  Name: "Military Worn Tire 02"
+  Name: "Tire Worn - Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -972,7 +990,7 @@ Assets {
 }
 Assets {
   Id: 8606699818147202890
-  Name: "Military Worn Tire Large 01"
+  Name: "Tire Worn - Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -981,7 +999,7 @@ Assets {
 }
 Assets {
   Id: 8506161953749730807
-  Name: "Decals Tracks 01"
+  Name: "Decal Tread Tracks 01"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
@@ -990,7 +1008,7 @@ Assets {
 }
 Assets {
   Id: 8416062130471792746
-  Name: "9Slice Shipping Container 01"
+  Name: "Metal 9 Slice Shipping Container 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
@@ -1098,7 +1116,7 @@ Assets {
 }
 Assets {
   Id: 6388401066989036925
-  Name: "Pipe (thin)"
+  Name: "Pipe - Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1116,7 +1134,7 @@ Assets {
 }
 Assets {
   Id: 6227102845467366987
-  Name: "Urban Damaged Mainstreet Window 02 Frame 02"
+  Name: "Main Street Damaged Window 02 - Frame 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1197,7 +1215,7 @@ Assets {
 }
 Assets {
   Id: 5483772166785938526
-  Name: "Damaged Concrete Chunk 03"
+  Name: "Urban Damaged Concrete Chunk 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1268,6 +1286,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4880170813277602281
+  Name: "Car Paint 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_car-paint_001"
+  }
+}
+Assets {
   Id: 4794041361382728409
   Name: "Cylinder - Chamfered Polished"
   PlatformAssetType: 1
@@ -1313,8 +1340,26 @@ Assets {
   }
 }
 Assets {
+  Id: 4156576600873206312
+  Name: "Metal Floor Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}
+Assets {
+  Id: 4154706281836675321
+  Name: "Metal Frame 04"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_001_uv"
+  }
+}
+Assets {
   Id: 4054211681159130604
-  Name: "Hills 01"
+  Name: "Hill 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1332,7 +1377,7 @@ Assets {
 }
 Assets {
   Id: 3844709690263076331
-  Name: "Military Fence Pole - Gate End"
+  Name: "Urban Fence Pole - Gate End"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1346,6 +1391,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_leaves_001"
+  }
+}
+Assets {
+  Id: 3715487088176351191
+  Name: "Cube - Chamfered Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -1422,7 +1476,7 @@ Assets {
 }
 Assets {
   Id: 2801050667471875383
-  Name: "Prism - octagon"
+  Name: "Prism - 8-Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1475,6 +1529,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2344375418771611947
+  Name: "Metal 9 Slice Lockers 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_advanced_9slice_lockers_001_ref"
+  }
+}
+Assets {
   Id: 1739996898153061063
   Name: "Small Open Crate"
   PlatformAssetType: 1
@@ -1512,7 +1575,7 @@ Assets {
 }
 Assets {
   Id: 567193264820089861
-  Name: "Military Fence Lock"
+  Name: "Urban Fence Lock"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

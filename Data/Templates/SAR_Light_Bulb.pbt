@@ -497,14 +497,6 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:u_tiles"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:v_tiles"
-            Float: 7
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -660,14 +652,6 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:u_tiles"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:v_tiles"
-            Float: 7
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -725,14 +709,6 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:u_tiles"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:v_tiles"
-            Float: 7
           }
         }
         Collidable_v2 {
@@ -901,5 +877,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

@@ -2962,7 +2962,7 @@
     }
     Assets {
       Id: 9117384065423546074
-      Name: "Modern Weapon - Sight Rear 01"
+      Name: "Modern Weapon - Sight Rear 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3019,5 +3019,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

@@ -57353,7 +57353,7 @@
     }
     Assets {
       Id: 4054211681159130604
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57416,7 +57416,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57533,7 +57533,7 @@
     }
     Assets {
       Id: 3472803888131222677
-      Name: "SciFi Trim 01 End"
+      Name: "Sci-fi Trim 01 End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57596,7 +57596,7 @@
     }
     Assets {
       Id: 346569595489746007
-      Name: "Bullet"
+      Name: "Cone - Bullet"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57641,7 +57641,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57650,7 +57650,7 @@
     }
     Assets {
       Id: 18120287186582886745
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57659,7 +57659,7 @@
     }
     Assets {
       Id: 16105687716078266600
-      Name: "Chamfered Cube"
+      Name: "Cube - Chamfered Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57695,7 +57695,7 @@
     }
     Assets {
       Id: 15770600922316285590
-      Name: "Ring"
+      Name: "Ring 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57704,7 +57704,7 @@
     }
     Assets {
       Id: 17691083277889022349
-      Name: "Pipe Curved 90"
+      Name: "Pipe - 90-Degree Short"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57722,7 +57722,7 @@
     }
     Assets {
       Id: 2801050667471875383
-      Name: "Prism - octagon"
+      Name: "Prism - 8-Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -57857,7 +57857,7 @@
     }
     Assets {
       Id: 4693264132494587556
-      Name: "SciFi Trim 01"
+      Name: "Sci-fi Trim 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -58052,6 +58052,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

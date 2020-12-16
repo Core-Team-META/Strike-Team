@@ -99,7 +99,7 @@
     }
     Assets {
       Id: 9826710443425479508
-      Name: "Modern Weapon - Bullet 01"
+      Name: "Modern Weapon Ammo - Bullet 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -111,5 +111,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

@@ -5198,7 +5198,7 @@
     }
     Assets {
       Id: 10746051325900785529
-      Name: "Military Tank Modern Hull 01 Front"
+      Name: "Military Tank Modern Hull 01 - Front"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5207,7 +5207,7 @@
     }
     Assets {
       Id: 14823448561875281729
-      Name: "Military Tank Modern Hull 01 Mid"
+      Name: "Military Tank Modern Hull 01 - Mid"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5216,7 +5216,7 @@
     }
     Assets {
       Id: 13316526583594249120
-      Name: "Military Tank Modern Hull 01 Rear"
+      Name: "Military Tank Modern Hull 01 - Rear"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5225,7 +5225,7 @@
     }
     Assets {
       Id: 18348342505020437805
-      Name: "Military Tank Historic Turret 01 Ring"
+      Name: "Military Tank Historic Turret Seal 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5288,7 +5288,7 @@
     }
     Assets {
       Id: 7444698281278331687
-      Name: "Military Tank Antenna 01"
+      Name: "Military Tank Historic Antenna 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5351,7 +5351,7 @@
     }
     Assets {
       Id: 9643743770374877205
-      Name: "Military Tank Fuel Container 01"
+      Name: "Military Tank Historic Container 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5369,7 +5369,7 @@
     }
     Assets {
       Id: 13373724591692948914
-      Name: "Sci-Fi Base Railing 02 - 4m"
+      Name: "Sci-fi Base Railing 02 - 4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5387,7 +5387,7 @@
     }
     Assets {
       Id: 3514123805376682357
-      Name: "Military Tank Modern Skirt 01 Front"
+      Name: "Military Tank Modern Skirt 01 - Front"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5396,7 +5396,7 @@
     }
     Assets {
       Id: 2249012237014100713
-      Name: "Military Tank Modern Skirt 01 Mid"
+      Name: "Military Tank Modern Skirt 01 - Mid"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5414,7 +5414,7 @@
     }
     Assets {
       Id: 17656879326769127107
-      Name: "Military Tank Modern Skirt 01 Rear"
+      Name: "Military Tank Modern Skirt 01 - Rear"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5432,7 +5432,7 @@
     }
     Assets {
       Id: 1748985416970121260
-      Name: "Military Tank Modern Tread Frame 01 - Mid - 1m"
+      Name: "Military Tank Modern Tread Frame 01 - Mid 1m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5459,7 +5459,7 @@
     }
     Assets {
       Id: 6394808998012018068
-      Name: "Military Tank Modern Tread 01 Front"
+      Name: "Military Tank Modern Tread 01 - Front"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5468,7 +5468,7 @@
     }
     Assets {
       Id: 11060527996314972227
-      Name: "Military Tank Modern Tread 01 Rear"
+      Name: "Military Tank Modern Tread 01 - Rear"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5477,6 +5477,7 @@
     }
     Assets {
       Id: 2362761320491469190
+      Name: "Military Tank Historic Tread 01 - 4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5485,6 +5486,7 @@
     }
     Assets {
       Id: 12954871034391563335
+      Name: "Military Tank Historic Tread 01 - 1m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -5514,5 +5516,5 @@
       AssetId: "Military_Tank_Modern_01__Prop_"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

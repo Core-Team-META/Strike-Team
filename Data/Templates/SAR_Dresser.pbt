@@ -189,7 +189,7 @@
     }
     Assets {
       Id: 13832010168595006209
-      Name: "Drawer Wide 01"
+      Name: "Dresser Drawer"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -201,5 +201,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

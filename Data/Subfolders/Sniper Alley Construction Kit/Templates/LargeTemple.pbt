@@ -43515,7 +43515,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43533,7 +43533,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43578,7 +43578,7 @@
     }
     Assets {
       Id: 10031350818355788838
-      Name: "Star - five-pointed faceted"
+      Name: "Star - Faceted 5-Pointed"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43605,7 +43605,7 @@
     }
     Assets {
       Id: 18120287186582886745
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43623,7 +43623,7 @@
     }
     Assets {
       Id: 16105687716078266600
-      Name: "Chamfered Cube"
+      Name: "Cube - Chamfered Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43668,7 +43668,7 @@
     }
     Assets {
       Id: 15770600922316285590
-      Name: "Ring"
+      Name: "Ring 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43686,7 +43686,7 @@
     }
     Assets {
       Id: 17691083277889022349
-      Name: "Pipe Curved 90"
+      Name: "Pipe - 90-Degree Short"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -43755,6 +43755,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

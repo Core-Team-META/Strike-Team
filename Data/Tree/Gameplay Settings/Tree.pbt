@@ -4254,7 +4254,7 @@ Objects {
   }
   Settings {
     RespawnSettings {
-      RespawnDelay: 5
+      RespawnDelay: 20
       RespawnMode_v2 {
         Value: "mc:erespawnmode:farthestfromenemy"
       }
@@ -4308,6 +4308,10 @@ Objects {
         ChatVerticalAlignment {
           Value: "mc:ecorehorizontalalign:center"
         }
+      }
+      PhysicsSettings {
+        MinContactOffset: 2
+        MaxContactOffset: 8
       }
     }
   }

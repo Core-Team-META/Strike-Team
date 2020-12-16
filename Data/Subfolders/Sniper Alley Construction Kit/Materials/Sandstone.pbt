@@ -2,7 +2,7 @@
   Id: 8803035025646195093
   Name: "Sandstone"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 13174009668515209438
     ParameterOverrides {

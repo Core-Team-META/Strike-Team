@@ -49590,7 +49590,7 @@
     }
     Assets {
       Id: 9997662856599198468
-      Name: "Lense - Half"
+      Name: "Lens - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49626,7 +49626,7 @@
     }
     Assets {
       Id: 6388401066989036925
-      Name: "Pipe (thin)"
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49635,7 +49635,7 @@
     }
     Assets {
       Id: 17571588744402375434
-      Name: "Truncated Ellipsoid - hollow"
+      Name: "Ellipsoid - Truncated Hollow"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49644,7 +49644,7 @@
     }
     Assets {
       Id: 1938148825372685458
-      Name: "Truncated Teardrop"
+      Name: "Teardrop - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49653,7 +49653,7 @@
     }
     Assets {
       Id: 13432417776101595464
-      Name: "Truncated Cone - Hollow, concave"
+      Name: "Cone - Truncated Hollow Concave"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49716,7 +49716,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49797,7 +49797,7 @@
     }
     Assets {
       Id: 7531058706496198656
-      Name: "Whitebox Wall 01 Doorway"
+      Name: "Whitebox Wall 01 Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49869,7 +49869,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -49941,7 +49941,7 @@
     }
     Assets {
       Id: 18120287186582886745
-      Name: "Hemisphere"
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -50112,7 +50112,7 @@
     }
     Assets {
       Id: 14919851232151685085
-      Name: "Graftsman Dining Table"
+      Name: "Craftsman Dining Table"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -50154,6 +50154,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

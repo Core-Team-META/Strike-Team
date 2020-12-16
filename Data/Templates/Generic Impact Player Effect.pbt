@@ -4,51 +4,18 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12323403659833456060
-      Objects {
-        Id: 12323403659833456060
-        Name: "Weapon Player Impact Effect"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12436546004889713338
-        ChildIds: 11352976760511440785
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
+      RootId: 11352976760511440785
       Objects {
         Id: 11352976760511440785
-        Name: "Client Context"
+        Name: "Generic Impact Player Effect"
         Transform {
-          Location {
-          }
-          Rotation {
-          }
           Scale {
             X: 1
             Y: 1
             Z: 1
           }
         }
-        ParentId: 12323403659833456060
+        ParentId: 4781671109827199097
         ChildIds: 12801116442223059089
         ChildIds: 15368370472108963347
         UnregisteredParameters {
@@ -161,5 +128,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

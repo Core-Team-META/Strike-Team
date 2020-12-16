@@ -242,7 +242,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 15364828027963080746
+              Id: 6729362224180268666
             }
           }
           Overrides {
@@ -565,7 +565,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 649816347805947132
+              Id: 9332333382319278776
             }
           }
           Overrides {
@@ -934,7 +934,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 13699841974306009590
+              Id: 11947651157392943754
             }
           }
           Overrides {
@@ -1266,7 +1266,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 1716320120828356578
+              Id: 10476310043397296838
             }
           }
           Overrides {
@@ -1586,7 +1586,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 1492662237100198069
+              Id: 7849914397938662428
             }
           }
           Overrides {
@@ -1916,7 +1916,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 4537026880837125227
+              Id: 11857961929768719493
             }
           }
           Overrides {
@@ -2236,7 +2236,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 16491267721816607492
+              Id: 5739364599050502024
             }
           }
           Overrides {
@@ -2252,10 +2252,6 @@
             AssetReference {
               Id: 17229161342885666158
             }
-          }
-          Overrides {
-            Name: "cs:Scale"
-            Float: 1.2
           }
         }
         Collidable_v2 {
@@ -2598,7 +2594,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 14702439039956117713
+              Id: 5343945996030504866
             }
           }
           Overrides {
@@ -2891,7 +2887,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 5853473221621902447
+              Id: 4887686027475991779
             }
           }
           Overrides {
@@ -5102,7 +5098,7 @@
           }
           Overrides {
             Name: "cs:Scale"
-            Float: 1.5
+            Float: 1.616
           }
         }
         Collidable_v2 {
@@ -5524,6 +5520,10 @@
             AssetReference {
               Id: 12211823050806313697
             }
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 1.2
           }
         }
         Collidable_v2 {
@@ -6190,6 +6190,7 @@
         }
         ParentId: 15988632395728390888
         ChildIds: 2176633045874650335
+        ChildIds: 13527826525233937144
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6240,8 +6241,71 @@
           Overrides {
             Name: "cs:ICON"
             AssetReference {
-              Id: 14760641093655003381
+              Id: 3530102281845473015
             }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A standard grenade."
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 13527826525233937144
+        Name: "Molotov Cocktail"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10595225699890803093
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "MV"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 10706991407395748906
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18245902433934008809
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 15497427394168108527
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A small explosive that coats the ground in fire."
           }
         }
         Collidable_v2 {
@@ -6271,6 +6335,7 @@
           }
         }
         ParentId: 15988632395728390888
+        ChildIds: 11636255396799875800
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6280,6 +6345,65 @@
         Folder {
           IsFilePartition: true
           FilePartitionName: "Utility"
+        }
+      }
+      Objects {
+        Id: 11636255396799875800
+        Name: "Smoke Grenade"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8530148183284995973
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SG"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 4461799910010127213
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18245902433934008809
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 793588990655326438
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A smoke screen grenade that is used for cover"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
         }
       }
       Objects {
@@ -7010,12 +7134,30 @@
       }
     }
     Assets {
-      Id: 14760641093655003381
-      Name: "Survival Grenade 001"
+      Id: 3530102281845473015
+      Name: "Weapon Grenade 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Survival_Weapon_Grenade_001"
+        AssetId: "UI_Military_Weapon_Grenade_001"
+      }
+    }
+    Assets {
+      Id: 15497427394168108527
+      Name: "Survival Explosive 007"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Survival_Weapon_Explosive_007"
+      }
+    }
+    Assets {
+      Id: 793588990655326438
+      Name: "Weapon Grenade 003"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Weapon_Grenade_003"
       }
     }
     Assets {
@@ -7071,6 +7213,6 @@
   Marketplace {
     Description: "dfamdokasmiodmaipdnmiu0anuihdbayusbdal;sm dlkpoasnjipfdnuasnl;kmaslkn kj kjashbdibashdb hsabudyihaij nduiansidk  jasijoamo  asid aa daninui9  kjanuin eaklmo [al[pd=p a,onm niowa  al ,kjwahijdam, niundak kjabuibdka ,mj as ahiuhdian awdhankja njklbuyhabu bijaw a wqa asddas"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

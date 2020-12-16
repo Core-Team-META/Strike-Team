@@ -545,7 +545,7 @@
     }
     Assets {
       Id: 8081775035435034954
-      Name: "Wall 02 Half Doorway Mainstreet"
+      Name: "Main Street Wall 02 - Half Doorway 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -563,7 +563,7 @@
     }
     Assets {
       Id: 15614794363849386760
-      Name: "Door Downtown Steel 02"
+      Name: "Urban Door Steel 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -575,5 +575,5 @@
       AssetId: "Mainstreet_Wall_02_Half_Doorway_-_Basic_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

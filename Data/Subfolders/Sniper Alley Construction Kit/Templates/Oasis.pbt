@@ -11069,7 +11069,7 @@
     }
     Assets {
       Id: 16855776306829432893
-      Name: "Plane"
+      Name: "Plane 4m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11087,7 +11087,7 @@
     }
     Assets {
       Id: 4054211681159130604
-      Name: "Hills 01"
+      Name: "Hill 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11240,7 +11240,7 @@
     }
     Assets {
       Id: 9587875627554507252
-      Name: "Daisy Patch 01"
+      Name: "Flower Daisy Patch 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -11345,6 +11345,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

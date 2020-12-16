@@ -307,14 +307,6 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:u_tiles"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:v_tiles"
-            Float: 7
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -374,14 +366,6 @@
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:u_tiles"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:v_tiles"
-            Float: 7
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -440,14 +424,6 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:u_tiles"
-            Float: 0
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:v_tiles"
-            Float: 7
           }
         }
         Collidable_v2 {
@@ -543,7 +519,7 @@
     }
     Assets {
       Id: 9372939288148738240
-      Name: "Truncated Cone"
+      Name: "Cone - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -591,5 +567,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

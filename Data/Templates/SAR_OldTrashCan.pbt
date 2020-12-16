@@ -32,7 +32,8 @@
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        NetworkContext {
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
@@ -1745,5 +1746,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

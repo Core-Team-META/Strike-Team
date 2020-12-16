@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16334872757423794263
+  Name: "Fire"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Fire"
+  }
+}
+Assets {
   Id: 15918351247767818628
   Name: "Icon Skull"
   PlatformAssetType: 9

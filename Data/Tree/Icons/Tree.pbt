@@ -448,6 +448,96 @@ Objects {
   }
 }
 Objects {
+  Id: 11935797499165686063
+  Name: "Rocket"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7653472450926179451
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 9702982403106980693
+      }
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9934992039656428311
+      }
+    }
+    Overrides {
+      Name: "cs:UseTemplate"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9925429280593477268
+    }
+  }
+}
+Objects {
+  Id: 7795914339311560798
+  Name: "Molitov"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7653472450926179451
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 10706991407395748906
+      }
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 16334872757423794263
+      }
+    }
+    Overrides {
+      Name: "cs:UseTemplate"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9925429280593477268
+    }
+  }
+}
+Objects {
   Id: 4654208739511594247
   Name: "burst"
   Transform {
@@ -781,7 +871,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 13699841974306009590
+        Id: 11947651157392943754
       }
     }
     Overrides {

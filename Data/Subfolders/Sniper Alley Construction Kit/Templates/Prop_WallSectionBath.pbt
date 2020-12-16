@@ -1651,7 +1651,7 @@
     }
     Assets {
       Id: 1938148825372685458
-      Name: "Truncated Teardrop"
+      Name: "Teardrop - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1669,7 +1669,7 @@
     }
     Assets {
       Id: 13432417776101595464
-      Name: "Truncated Cone - Hollow, concave"
+      Name: "Cone - Truncated Hollow Concave"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1678,7 +1678,7 @@
     }
     Assets {
       Id: 6388401066989036925
-      Name: "Pipe (thin)"
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1687,7 +1687,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1705,7 +1705,7 @@
     }
     Assets {
       Id: 9587875627554507252
-      Name: "Daisy Patch 01"
+      Name: "Flower Daisy Patch 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1738,6 +1738,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

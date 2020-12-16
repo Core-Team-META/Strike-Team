@@ -19,6 +19,7 @@
         ChildIds: 14936388970026982867
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -48,7 +49,6 @@
         ChildIds: 5115968108621534008
         ChildIds: 789303562810279565
         ChildIds: 17010699306649709278
-        ChildIds: 15410179118606268081
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -104,6 +104,10 @@
           Overrides {
             Name: "bp:Gunshot Volume"
             Float: 33.749
+          }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -210,91 +214,6 @@
           }
         }
       }
-      Objects {
-        Id: 15410179118606268081
-        Name: "Shell Ejection VFX"
-        Transform {
-          Location {
-            X: -25.4321289
-            Z: 2.79319763
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 14936388970026982867
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Spawn Rate"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: -15
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity High"
-            Vector {
-              X: -50
-              Y: 100
-              Z: 175
-            }
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity Low"
-            Vector {
-              X: -50
-              Y: 125
-              Z: 150
-            }
-          }
-          Overrides {
-            Name: "bp:Size"
-            Vector {
-              X: 0.5
-              Y: 0.5
-              Z: 0.5
-            }
-          }
-          Overrides {
-            Name: "bp:Burst"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 2.83338094
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.799999952
-              G: 0.596895337
-              B: 0.320799947
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 2605295070901352170
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-      }
     }
     Assets {
       Id: 11671637230280120648
@@ -316,20 +235,11 @@
     }
     Assets {
       Id: 13442051517733671574
-      Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
+      Name: "Gunshot Sub-Machine Gun SMG Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_smg_ref"
-      }
-    }
-    Assets {
-      Id: 2605295070901352170
-      Name: "Shell Ejection VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_shell_ejection"
       }
     }
     PrimaryAssetId {
@@ -337,5 +247,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

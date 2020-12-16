@@ -18732,7 +18732,7 @@
     }
     Assets {
       Id: 15972825592445059763
-      Name: "Truncated Cone"
+      Name: "Cone - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18750,7 +18750,7 @@
     }
     Assets {
       Id: 1967454480797501765
-      Name: "Cylinder - Rounded - bottom aligned"
+      Name: "Cylinder - Rounded Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18759,7 +18759,7 @@
     }
     Assets {
       Id: 10415104586946721638
-      Name: "Cylinder - bottom aligned"
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18768,7 +18768,7 @@
     }
     Assets {
       Id: 17683201677434688252
-      Name: "Chamfered Cylinder"
+      Name: "Cylinder - Chamfered"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18786,7 +18786,7 @@
     }
     Assets {
       Id: 16105687716078266600
-      Name: "Chamfered Cube"
+      Name: "Cube - Chamfered Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18804,7 +18804,7 @@
     }
     Assets {
       Id: 4133113831380048683
-      Name: "Curved Wedge - Convex"
+      Name: "Wedge - Convex"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18822,7 +18822,7 @@
     }
     Assets {
       Id: 8847410236676091177
-      Name: "Cube - Rounded - bottom aligned"
+      Name: "Cube - Rounded Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18831,7 +18831,7 @@
     }
     Assets {
       Id: 10128884331981734128
-      Name: "Cube - bottom aligned"
+      Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18867,7 +18867,7 @@
     }
     Assets {
       Id: 7443569836154553489
-      Name: "Aircraft Helicopters Engines Set 01 SFX"
+      Name: "Vehicle Aircraft Helicopter Misc Engine Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -18876,7 +18876,7 @@
     }
     Assets {
       Id: 2312738015467044171
-      Name: "Half-pipe"
+      Name: "Pipe - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -18927,6 +18927,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
   DirectlyPublished: true
 }

@@ -19,6 +19,7 @@
         ChildIds: 11736491869790306490
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -46,11 +47,7 @@
         }
         ParentId: 17035684860207208329
         ChildIds: 13614593215932494344
-        ChildIds: 14857492663691378798
-        ChildIds: 3113359017320683399
-        ChildIds: 18186706223873245286
-        ChildIds: 3122540590480141285
-        ChildIds: 13001544567120869564
+        ChildIds: 3136493495309066128
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -105,8 +102,8 @@
         }
       }
       Objects {
-        Id: 14857492663691378798
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
+        Id: 3136493495309066128
+        Name: "Gunshot Light Machine Gun LMG Set 01 SFX"
         Transform {
           Location {
           }
@@ -121,196 +118,9 @@
         ParentId: 11736491869790306490
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:6"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1338486902032220300
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            AutoPlay: true
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 3113359017320683399
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:6"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1338486902032220300
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            AutoPlay: true
-            Pitch: 1534.99194
-            Volume: 1.44387388
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 18186706223873245286
-        Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_assaultrifle_carbine:6"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1338486902032220300
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            AutoPlay: true
-            Pitch: -947.013916
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 3122540590480141285
-        Name: "Shell Ejection VFX"
-        Transform {
-          Location {
-            X: -70.911377
-            Y: 2.29016113
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Spawn Rate"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: -15
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity High"
-            Vector {
-              X: -80
-              Y: 150
-              Z: 175
-            }
-          }
-          Overrides {
-            Name: "bp:Ejection Velocity Low"
-            Vector {
-              X: -80
-              Y: 150
-              Z: 150
-            }
-          }
-          Overrides {
-            Name: "bp:Size"
-            Vector {
-              X: 0.4
-              Y: 0.4
-              Z: 0.6
-            }
-          }
-          Overrides {
-            Name: "bp:Burst"
+            Name: "bp:Enable Dynamic Distant Sound"
             Bool: true
           }
-          Overrides {
-            Name: "bp:Life"
-            Float: 2.83338094
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.799999952
-              G: 0.596895337
-              B: 0.320799947
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -320,52 +130,13 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 2605295070901352170
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-      }
-      Objects {
-        Id: 13001544567120869564
-        Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_smg:2"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13442051517733671574
+            Id: 10209359475272694370
           }
           TeamSettings {
           }
           AudioBP {
-            Volume: 1
+            AutoPlay: true
+            Volume: 5
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
@@ -385,30 +156,12 @@
       }
     }
     Assets {
-      Id: 1338486902032220300
-      Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
+      Id: 10209359475272694370
+      Name: "Gunshot Light Machine Gun LMG Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_assaultrifle_carbine_ref"
-      }
-    }
-    Assets {
-      Id: 2605295070901352170
-      Name: "Shell Ejection VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_shell_ejection"
-      }
-    }
-    Assets {
-      Id: 13442051517733671574
-      Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_smg_ref"
+        AssetId: "sfxabp_gunshot_large_machineguns_lmg_ref"
       }
     }
     PrimaryAssetId {
@@ -416,5 +169,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

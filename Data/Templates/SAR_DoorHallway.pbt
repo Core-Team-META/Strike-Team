@@ -204,7 +204,7 @@
     }
     Assets {
       Id: 15614794363849386760
-      Name: "Door Downtown Steel 02"
+      Name: "Urban Door Steel 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -222,7 +222,7 @@
     }
     Assets {
       Id: 16855776306829432893
-      Name: "Plane"
+      Name: "Plane 4m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -243,5 +243,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

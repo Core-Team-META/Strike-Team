@@ -12158,7 +12158,7 @@
     }
     Assets {
       Id: 8112268887163763003
-      Name: "Military Fence Pole - Extender Connecting Corner"
+      Name: "Urban Fence Pole - Extender Connecting Corner"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12194,7 +12194,7 @@
     }
     Assets {
       Id: 16198346205888411814
-      Name: "Military Fence Door"
+      Name: "Urban Fence Door"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12203,7 +12203,7 @@
     }
     Assets {
       Id: 567193264820089861
-      Name: "Military Fence Lock"
+      Name: "Urban Fence Lock"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12212,7 +12212,7 @@
     }
     Assets {
       Id: 9279130763178750287
-      Name: "Military Fence Doorway"
+      Name: "Urban Fence Doorway"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12221,7 +12221,7 @@
     }
     Assets {
       Id: 4667985850943700128
-      Name: "Military Fence Pole - Connecting Corner"
+      Name: "Urban Fence Pole - Connecting Corner"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12230,7 +12230,7 @@
     }
     Assets {
       Id: 5711247199587316769
-      Name: "Military Fence Pole - Extender Connecting"
+      Name: "Urban Fence Pole - Extender Connecting"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12239,7 +12239,7 @@
     }
     Assets {
       Id: 7720350652240094542
-      Name: "Military Fence Pole - Connecting"
+      Name: "Urban Fence Pole - Connecting"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12248,7 +12248,7 @@
     }
     Assets {
       Id: 472496642976630875
-      Name: "Military Fence Panel"
+      Name: "Urban Fence Panel"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12257,7 +12257,7 @@
     }
     Assets {
       Id: 5457962044230310640
-      Name: "Military Fence Crossbar - Panel"
+      Name: "Urban Fence Crossbar - Panel"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12266,7 +12266,7 @@
     }
     Assets {
       Id: 13084610212546141882
-      Name: "Military Fence Gate 01"
+      Name: "Urban Fence Gate 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12275,7 +12275,7 @@
     }
     Assets {
       Id: 12267691052109532985
-      Name: "Military Fence Crossbar - Gate"
+      Name: "Urban Fence Crossbar - Gate"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12284,7 +12284,7 @@
     }
     Assets {
       Id: 12758036443323469769
-      Name: "Military Fence Pole - Extender End"
+      Name: "Urban Fence Pole - Extender End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12293,7 +12293,7 @@
     }
     Assets {
       Id: 8499429241992895471
-      Name: "Military Fence Pole - Connecting 4-Way"
+      Name: "Urban Fence Pole - Connecting 4-Way"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12302,7 +12302,7 @@
     }
     Assets {
       Id: 8878003385948589672
-      Name: "Military Fence Pole - Connecting 3-Way"
+      Name: "Urban Fence Pole - Connecting 3-Way"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12311,7 +12311,7 @@
     }
     Assets {
       Id: 14911756782077021077
-      Name: "Military Fence Pole - Extender Connecting 3-Way"
+      Name: "Urban Fence Pole - Extender Connecting 3-Way"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12320,7 +12320,7 @@
     }
     Assets {
       Id: 14523494161843827332
-      Name: "Military Fence Pole - Extender Connecting"
+      Name: "Urban Fence Pole - End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12329,7 +12329,7 @@
     }
     Assets {
       Id: 14262358541223517165
-      Name: "Military Fence Pole - Extender Connecting 4-Way"
+      Name: "Urban Fence Pole - Extender Connecting 4-Way"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12338,7 +12338,7 @@
     }
     Assets {
       Id: 3844709690263076331
-      Name: "Military Fence Pole - Gate End"
+      Name: "Urban Fence Pole - Gate End"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -12350,5 +12350,5 @@
       AssetId: "Military_Fence_Enclosure_-_Gate_Door_Combo_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

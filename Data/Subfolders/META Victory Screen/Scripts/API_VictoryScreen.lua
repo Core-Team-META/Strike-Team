@@ -174,9 +174,9 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 	if player.isDead then -- respawn the player so they can be teleported
 		player:Respawn(spawnPosition, spawnRotation)
 	else
+		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
 		player:SetWorldRotation(spawnRotation)
-		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 	end
 end
 

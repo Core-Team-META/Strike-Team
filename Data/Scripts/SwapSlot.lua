@@ -6,12 +6,14 @@ local function ToggleOn()
     UI.SetCanCursorInteractWithUI(true)
     UI.SetCursorLockedToViewport(false)
     UI.SetCursorVisible(true)
+    Events.Broadcast("SwapPanelOpen")
     propUIContainer.visibility = Visibility.FORCE_ON
 end
 local function ToggleOff()
     UI.SetCanCursorInteractWithUI(false)
     UI.SetCursorLockedToViewport(true)
     UI.SetCursorVisible(false)
+    Events.Broadcast("SwapPanelClose")
     propUIContainer.visibility = Visibility.FORCE_OFF
 end
 
@@ -29,3 +31,6 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
        ToggleWeaponSlot()
     end
 end)
+
+Events.Connect("SwapPanelForceOpen",ToggleOn)
+Events.Connect("SwapPanelForceClose",ToggleOff)

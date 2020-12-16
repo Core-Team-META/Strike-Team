@@ -2,7 +2,7 @@
   Id: 299848740799917924
   Name: "tires_black_metal"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 70
   CustomMaterialAsset {
     BaseMaterialId: 876845083602855708
     ParameterOverrides {

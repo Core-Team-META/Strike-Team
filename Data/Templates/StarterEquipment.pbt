@@ -19,6 +19,7 @@
         ChildIds: 12390822350002054019
         ChildIds: 14680330768932694379
         ChildIds: 905376451753411405
+        ChildIds: 5696153250975838707
         UnregisteredParameters {
           Overrides {
             Name: "cs:PlayerImpact"
@@ -475,11 +476,124 @@
           }
         }
       }
+      Objects {
+        Id: 5696153250975838707
+        Name: "Spray"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11172210842436518555
+        ChildIds: 15360642598804960779
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Ability {
+          IsEnabled: true
+          CastPhaseSettings {
+            Duration: 0.01
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          ExecutePhaseSettings {
+            Duration: 0.01
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          RecoveryPhaseSettings {
+            Duration: 0.1
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          CooldownPhaseSettings {
+            Duration: 0.01
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          Animation: "unarmed_punch_right"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:extraaction_34"
+          }
+        }
+      }
+      Objects {
+        Id: 15360642598804960779
+        Name: "SprayScript"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5696153250975838707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SPRAY"
+            AssetReference {
+              Id: 17854854272107829705
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 1251235412980579966
+          }
+        }
+      }
     }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

@@ -1257,7 +1257,7 @@
     }
     Assets {
       Id: 7102179285187063772
-      Name: "Scifi Panel 1x4m"
+      Name: "Sci-fi Panel 1x4m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -1287,5 +1287,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }

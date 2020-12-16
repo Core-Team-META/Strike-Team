@@ -663,45 +663,6 @@ Objects {
   }
 }
 Objects {
-  Id: 18437816753912738317
-  Name: "Cube - bottom aligned"
-  Transform {
-    Location {
-      X: 1730
-      Y: 245
-      Z: -235
-    }
-    Rotation {
-    }
-    Scale {
-      X: 120.000084
-      Y: 3.75
-      Z: 24.75
-    }
-  }
-  ParentId: 3844101252731550927
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10128884331981734128
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 575725130991249774
   Name: "Cube - bottom aligned"
   Transform {

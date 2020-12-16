@@ -79,7 +79,7 @@
     }
     Assets {
       Id: 13219973207836793111
-      Name: "Wall 02 Half Window Mainstreet"
+      Name: "Main Street Wall 02 - Half Window 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -88,7 +88,7 @@
     }
     Assets {
       Id: 9430017653316231459
-      Name: "Part - Window 03 Mainstreet"
+      Name: "Main Street Window 03"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -100,5 +100,5 @@
       AssetId: "Mainstreet_Wall_02_Half_Window_-_Basic_Window_Template"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 70
 }
