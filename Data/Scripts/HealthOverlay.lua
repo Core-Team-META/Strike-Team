@@ -4,11 +4,11 @@ local PROPERTIES = Post:GetCustomProperties()
 
 
 function roundbyten(val)
-    return math.floor(val/10) * 10
+    return math.min( math.floor(val/10) * 10, 100)
 end
 
-function GetPostBasedOnHealth()
-    local hp = tostring( roundbyten(LOCAL_PLAYER.hitPoints) ) 
+function GetPostBasedOnHealth(val)
+    local hp = tostring( roundbyten(val) ) 
     if(PROPERTIES[hp]) then 
         return PROPERTIES[hp]
     end
@@ -16,14 +16,15 @@ end
 
 local oldValue
 function SetVisible(newValue)
-    newValue:GetObject().visibility = Visibility.INHERIT
+   
     if(oldValue) then 
         oldValue:GetObject().visibility = Visibility.FORCE_OFF
     end
+    newValue:GetObject().visibility = Visibility.INHERIT
 end
 
 function UpdatePost()
-    local newValue = GetPostBasedOnHealth()
+    local newValue = GetPostBasedOnHealth(LOCAL_PLAYER.hitPoints)
     if(newValue ~= oldValue and newValue) then
         SetVisible(newValue)
         oldValue = newValue
@@ -34,3 +35,7 @@ function Tick(dt)
     UpdatePost()
 end
 
+Events.Connect("HealthOverlayFoceSetValue",function(val)
+    local hp =  GetPostBasedOnHealth(val)
+    SetVisible(hp)
+end)

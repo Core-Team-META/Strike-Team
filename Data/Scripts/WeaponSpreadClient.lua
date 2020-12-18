@@ -29,11 +29,11 @@ if not WEAPON:IsA('Weapon') then
 end
 
 -- Exposed variables --
-local STAND_PRECISION = WEAPON:GetCustomProperty("SpreadStandPrecision")
-local WALK_PRECISION = WEAPON:GetCustomProperty("SpreadWalkPrecision")
-local JUMP_PRECISION = WEAPON:GetCustomProperty("SpreadJumpPrecision")
-local CROUCH_PRECISION = WEAPON:GetCustomProperty("SpreadCrouchPrecision")
-local AIM_PRECISION_BONUS = WEAPON:GetCustomProperty("SpreadAimModifierBonus")
+local STAND_PRECISION = script:GetCustomProperty("SpreadStandPrecision")
+local WALK_PRECISION = script:GetCustomProperty("SpreadWalkPrecision")
+local JUMP_PRECISION = script:GetCustomProperty("SpreadJumpPrecision")
+local CROUCH_PRECISION = script:GetCustomProperty("SpreadCrouchPrecision")
+local AIM_PRECISION_BONUS = script:GetCustomProperty("SpreadAimModifierBonus")
 
 -- Constatnt variables
 local LOCAL_PLAYER = Game.GetLocalPlayer()

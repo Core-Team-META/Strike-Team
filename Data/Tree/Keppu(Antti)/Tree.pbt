@@ -3417,10 +3417,6 @@ Objects {
       Int: 1
     }
     Overrides {
-      Name: "bp:Dynamic Shadow Distance"
-      Float: 1
-    }
-    Overrides {
       Name: "bp:Cascade Distribution Adjustment"
       Float: 0
     }

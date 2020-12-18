@@ -47,8 +47,6 @@
         }
         ParentId: 6246242700242467092
         ChildIds: 11244076573502085025
-        ChildIds: 6983234237468868165
-        ChildIds: 8007739458989036561
         ChildIds: 9519357983113725241
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -94,100 +92,6 @@
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
-        }
-      }
-      Objects {
-        Id: 6983234237468868165
-        Name: "Gun Impact Small VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15676067918659116593
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17144409617272687275
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-      }
-      Objects {
-        Id: 8007739458989036561
-        Name: "Impact Sparks VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.4
-            Y: 0.4
-            Z: 0.4
-          }
-        }
-        ParentId: 15676067918659116593
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Density"
-            Float: 0.3
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 2
-          }
-          Overrides {
-            Name: "bp:Spark Line Scale Multiplier"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Enable Hotspot"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Flash"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Spark Lines"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Sparks"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 11887549032181544333
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
         }
       }
       Objects {
@@ -243,24 +147,6 @@
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_bullet_impact_ground_dirt_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 17144409617272687275
-      Name: "Gun Impact Small VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_gun_impact_dirt_sm"
-      }
-    }
-    Assets {
-      Id: 11887549032181544333
-      Name: "Impact Sparks VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_impact_sparks"
       }
     }
     Assets {

@@ -10,13 +10,14 @@
         Name: "SAR_Ventilation System"
         Transform {
           Scale {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
           }
         }
-        ParentId: 7057860369515092191
+        ParentId: 16373807130785117515
         ChildIds: 6927188144648585050
+        ChildIds: 15573388070264513375
         ChildIds: 13412922705908481060
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -77,58 +78,23 @@
         }
       }
       Objects {
-        Id: 13412922705908481060
-        Name: "MergedModel"
-        Transform {
-          Location {
-            X: 75
-            Y: -120
-            Z: 75
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16517545823905491799
-        ChildIds: 15573388070264513375
-        ChildIds: 13424924040099468145
-        ChildIds: 9312512743142399564
-        ChildIds: 9057228371348040653
-        ChildIds: 4232371111323489037
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          Model {
-          }
-        }
-      }
-      Objects {
         Id: 15573388070264513375
         Name: "Collision"
         Transform {
           Location {
-            X: -239.516296
-            Y: 246.294556
-            Z: 157.86026
+            X: -164.5168
+            Y: 126.294701
+            Z: 232.860306
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1.00000012
           }
         }
-        ParentId: 13412922705908481060
-        ChildIds: 8110673547773570631
+        ParentId: 16517545823905491799
         ChildIds: 7791698016452909982
         ChildIds: 8614467501951046886
         ChildIds: 9760175131385083679
@@ -143,59 +109,6 @@
         }
         NetworkContext {
           Type: RuntimeStatic
-        }
-      }
-      Objects {
-        Id: 8110673547773570631
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            X: 28.2327271
-            Y: -308.736572
-          }
-          Rotation {
-            Pitch: 90
-            Yaw: -4.76364374
-            Roll: -94.7636414
-          }
-          Scale {
-            X: 4.21861935
-            Y: 3.97643185
-            Z: 0.138837
-          }
-        }
-        ParentId: 15573388070264513375
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 8329339828071933523
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1411445044141844320
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableCastShadows: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -521,6 +434,40 @@
         }
       }
       Objects {
+        Id: 13412922705908481060
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 75
+            Y: -120
+            Z: 75
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16517545823905491799
+        ChildIds: 13424924040099468145
+        ChildIds: 9312512743142399564
+        ChildIds: 9057228371348040653
+        ChildIds: 4232371111323489037
+        ChildIds: 8110673547773570631
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
         Id: 13424924040099468145
         Name: "Fan"
         Transform {
@@ -583,7 +530,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -596,6 +543,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -632,7 +580,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -645,6 +593,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -732,7 +681,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -745,6 +694,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -831,7 +781,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -844,6 +794,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -890,7 +841,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -903,6 +854,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -972,7 +924,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -985,6 +937,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -1021,7 +974,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1034,6 +987,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -1121,7 +1075,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1134,6 +1088,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -1220,7 +1175,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1233,6 +1188,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -1279,7 +1235,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1292,6 +1248,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -1777,7 +1734,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1790,7 +1747,60 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8110673547773570631
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            X: -211.283432
+            Y: -62.4423103
+            Z: 157.860306
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: 90
+          }
+          Scale {
+            X: 4.2186203
+            Y: 3.9764328
+            Z: 0.138837025
+          }
+        }
+        ParentId: 13412922705908481060
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8329339828071933523
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1411445044141844320
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -1808,21 +1818,21 @@
       }
     }
     Assets {
-      Id: 8329339828071933523
-      Name: "Concrete Basic 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_001"
-      }
-    }
-    Assets {
       Id: 13442965192408425307
       Name: "Modern Weapon Accessory - Rail 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_acc_rail_001"
+      }
+    }
+    Assets {
+      Id: 8329339828071933523
+      Name: "Concrete Basic 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_gen_concrete_001"
       }
     }
     Assets {

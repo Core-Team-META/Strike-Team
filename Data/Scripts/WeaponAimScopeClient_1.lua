@@ -110,7 +110,7 @@ function LerpCamera(deltaTime)
 
     lerpTime = lerpTime + deltaTime * AIM_ZOOM_SPEED
     activeCamera.fieldOfView = CoreMath.Lerp(activeCamera.fieldOfView, cameraTargetFOV, lerpTime)
-    activeCamera.currentDistance = CoreMath.Lerp(activeCamera.currentDistance, cameraTargetDistance, lerpTime)
+    --activeCamera.currentDistance = CoreMath.Lerp(activeCamera.currentDistance, cameraTargetDistance, lerpTime)
 end
 
  -- Gets player current active camera
@@ -233,7 +233,7 @@ function OnEquipped(weapon, player)
     -- Set the new active camera
     activeCamera = GetPlayerActiveCamera(player)
     if activeCamera then
-        cameraResetDistance = activeCamera.currentDistance
+        --cameraResetDistance = activeCamera.currentDistance
         cameraResetFOV = activeCamera.fieldOfView
         cameraResetPosOffset = activeCamera:GetPositionOffset()
         cameraResetRotOffset = activeCamera:GetRotationOffset()
@@ -256,7 +256,7 @@ function OnUnequipped(weapon, player)
 
     -- Remove the reference to the camera
     if Object.IsValid(activeCamera) then
-        activeCamera.currentDistance = cameraResetDistance
+        --activeCamera.currentDistance = cameraResetDistance
         activeCamera.fieldOfView = cameraResetFOV
         activeCamera = nil
     end

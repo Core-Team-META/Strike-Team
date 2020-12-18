@@ -15,15 +15,9 @@
             Z: 0.25
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
         ChildIds: 3247611127268318480
-        ChildIds: 4199171760925911837
-        ChildIds: 6283080772784585925
-        ChildIds: 16950449556559751409
-        ChildIds: 9424645980638431906
-        ChildIds: 5005502703000837085
-        ChildIds: 5276167507528403244
-        ChildIds: 8037532977010084302
+        ChildIds: 17956731050631586259
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -87,16 +81,52 @@
         }
       }
       Objects {
+        Id: 17956731050631586259
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -5.68443108
+            Y: 0.28794533
+            Z: 307.797363
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10217314856270494788
+        ChildIds: 4199171760925911837
+        ChildIds: 6283080772784585925
+        ChildIds: 16950449556559751409
+        ChildIds: 9424645980638431906
+        ChildIds: 5005502703000837085
+        ChildIds: 5276167507528403244
+        ChildIds: 8037532977010084302
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
         Id: 4199171760925911837
         Name: "Chain Tile 01"
         Transform {
           Location {
-            X: -6.29687452
-            Y: -0.710939407
-            Z: 649.65918
+            X: -0.61328125
+            Y: -0.999023438
+            Z: 341.861816
           }
           Rotation {
-            Yaw: 3.4150944e-06
+            Yaw: 3.41509417e-06
           }
           Scale {
             X: 0.0997904614
@@ -104,7 +134,7 @@
             Z: 5.21373367
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -135,7 +165,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -148,7 +178,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -160,12 +190,12 @@
         Name: "Glass top"
         Transform {
           Location {
-            X: -5.63476563
-            Y: 0.6875
-            Z: 331.709229
+            X: 0.048828125
+            Y: 0.399414063
+            Z: 23.9118652
           }
           Rotation {
-            Yaw: 1.35536557e-05
+            Yaw: 1.35536548e-05
           }
           Scale {
             X: 0.621489167
@@ -173,7 +203,7 @@
             Z: 0.749278545
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -192,7 +222,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -205,7 +235,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -217,12 +247,11 @@
         Name: "Glass bottom"
         Transform {
           Location {
-            X: -5.390625
-            Y: 0.687501609
-            Z: 307.797363
+            X: 0.29296875
+            Y: 0.399414063
           }
           Rotation {
-            Yaw: 1.35536557e-05
+            Yaw: 1.35536548e-05
           }
           Scale {
             X: 0.803613
@@ -230,7 +259,7 @@
             Z: 0.803613
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -249,7 +278,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -262,7 +291,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -274,12 +303,12 @@
         Name: "Top metal"
         Transform {
           Location {
-            X: -5.39062548
-            Y: 0.687498093
-            Z: 374.386963
+            X: 0.29296875
+            Y: 0.399414063
+            Z: 66.5896
           }
           Rotation {
-            Yaw: 1.35536557e-05
+            Yaw: 1.35536548e-05
           }
           Scale {
             X: 0.261370689
@@ -287,7 +316,7 @@
             Z: 0.261370689
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -309,7 +338,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -322,7 +351,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -334,9 +363,9 @@
         Name: "Top metal"
         Transform {
           Location {
-            X: -5.39062548
-            Y: 0.687498093
-            Z: 382.993408
+            X: 0.29296875
+            Y: 0.399414063
+            Z: 75.1960449
           }
           Rotation {
           }
@@ -346,7 +375,7 @@
             Z: 0.261370689
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -368,7 +397,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -381,7 +410,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -393,9 +422,9 @@
         Name: "Top metal"
         Transform {
           Location {
-            X: -5.39062548
-            Y: 0.687498093
-            Z: 391.113281
+            X: 0.29296875
+            Y: 0.399414063
+            Z: 83.315918
           }
           Rotation {
           }
@@ -405,7 +434,7 @@
             Z: 0.261370689
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -427,7 +456,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -440,7 +469,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -452,9 +481,9 @@
         Name: "Chain Tile 01"
         Transform {
           Location {
-            X: -6.29687452
-            Y: -0.710939407
-            Z: 919.66333
+            X: -0.61328125
+            Y: -0.999023438
+            Z: 611.865723
           }
           Rotation {
           }
@@ -464,7 +493,7 @@
             Z: 0.0763406456
           }
         }
-        ParentId: 10217314856270494788
+        ParentId: 17956731050631586259
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -478,7 +507,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -491,7 +520,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }

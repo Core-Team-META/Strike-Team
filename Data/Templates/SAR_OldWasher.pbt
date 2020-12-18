@@ -17,17 +17,6 @@
         }
         ParentId: 16373807130785117515
         ChildIds: 1512490766002285572
-        ChildIds: 238400269143377226
-        ChildIds: 13832904071215217749
-        ChildIds: 7418588941088093172
-        ChildIds: 8140697872344978958
-        ChildIds: 8432875406742375362
-        ChildIds: 3166988338317641089
-        ChildIds: 12122487200276330517
-        ChildIds: 18345156207671789609
-        ChildIds: 14877525523923744856
-        ChildIds: 11608590794801412699
-        ChildIds: 1231391440480909082
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -56,6 +45,17 @@
           }
         }
         ParentId: 2812305585066073476
+        ChildIds: 1231391440480909082
+        ChildIds: 238400269143377226
+        ChildIds: 13832904071215217749
+        ChildIds: 7418588941088093172
+        ChildIds: 8140697872344978958
+        ChildIds: 8432875406742375362
+        ChildIds: 3166988338317641089
+        ChildIds: 12122487200276330517
+        ChildIds: 18345156207671789609
+        ChildIds: 14877525523923744856
+        ChildIds: 11608590794801412699
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -68,13 +68,13 @@
         }
       }
       Objects {
-        Id: 238400269143377226
+        Id: 1231391440480909082
         Name: "Buttons"
         Transform {
           Location {
-            X: 31.3836517
-            Y: 24.5478687
-            Z: 226.539536
+            X: 32.2637787
+            Y: 23.2833481
+            Z: 226.523636
           }
           Rotation {
           }
@@ -84,7 +84,94 @@
             Z: 1
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
+        ChildIds: 14517485375168751838
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14517485375168751838
+        Name: "Cube"
+        Transform {
+          Location {
+            X: -1.04256821
+            Y: 0.221679688
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.0214838013
+            Y: 0.493901402
+            Z: 0.117107734
+          }
+        }
+        ParentId: 1231391440480909082
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3396001719245941860
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.120000005
+              G: 0.061986763
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 238400269143377226
+        Name: "Buttons"
+        Transform {
+          Location {
+            X: 33.0078697
+            Y: 23.4637299
+            Z: 226.539352
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1512490766002285572
         ChildIds: 2503965935631868949
         ChildIds: 17875227586365282784
         ChildIds: 11861230514102266147
@@ -138,7 +225,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -196,7 +283,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -254,7 +341,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -312,7 +399,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -370,7 +457,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -395,9 +482,9 @@
         Name: "Stains"
         Transform {
           Location {
-            X: -34.1767464
-            Y: -31.191433
-            Z: 78.7134094
+            X: -32.5526085
+            Y: -32.276413
+            Z: 78.7134399
           }
           Rotation {
           }
@@ -407,7 +494,7 @@
             Z: 1
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         ChildIds: 16370250471240634470
         ChildIds: 16101160058252126125
         ChildIds: 15649836106358973753
@@ -910,12 +997,13 @@
         Name: "Counter - Cabinet"
         Transform {
           Location {
-            X: -96.159
-            Y: 62.4719772
-            Z: 1.52587891e-05
+            X: -94.5348434
+            Y: 61.3875961
+            Z: -5.00679e-05
           }
           Rotation {
-            Yaw: -89.9999771
+            Yaw: -89.9999619
+            Roll: 8.3009985e-07
           }
           Scale {
             X: 1.68029213
@@ -923,7 +1011,7 @@
             Z: 1.73888052
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -982,9 +1070,9 @@
         Name: "Cube"
         Transform {
           Location {
-            X: 13.4257221
-            Y: -20.5091286
-            Z: 111.251816
+            X: 15.0498152
+            Y: -21.5939178
+            Z: 111.251854
           }
           Rotation {
           }
@@ -994,7 +1082,7 @@
             Z: 1.82061565
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1013,7 +1101,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1038,12 +1126,14 @@
         Name: "Cone - Truncated Wide"
         Transform {
           Location {
-            X: 21.815712
-            Y: -19.6540203
-            Z: 115.727524
+            X: 23.4399662
+            Y: -20.7384262
+            Z: 115.727417
           }
           Rotation {
             Pitch: 90
+            Yaw: -169.974991
+            Roll: -169.974991
           }
           Scale {
             X: 0.99999994
@@ -1051,7 +1141,7 @@
             Z: 1
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1094,12 +1184,14 @@
         Name: "Pipe - Thick"
         Transform {
           Location {
-            X: 26.9004364
-            Y: -19.6263332
-            Z: 115.946487
+            X: 28.5246296
+            Y: -20.7109528
+            Z: 115.946449
           }
           Rotation {
             Pitch: 90
+            Yaw: -169.974991
+            Roll: -169.974991
           }
           Scale {
             X: 0.999999881
@@ -1107,7 +1199,7 @@
             Z: 0.175037086
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1151,12 +1243,14 @@
         Name: "Craftsman Roof 02 Arch"
         Transform {
           Location {
-            X: 22.4005871
-            Y: -55.8399
-            Z: 125.708603
+            X: 24.0247192
+            Y: -56.924263
+            Z: 125.708511
           }
           Rotation {
             Pitch: -90
+            Yaw: -19.47122
+            Roll: 19.4712219
           }
           Scale {
             X: 0.0321816728
@@ -1164,7 +1258,7 @@
             Z: 0.189851612
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -1178,7 +1272,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1203,9 +1297,9 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: 21.4442692
-            Y: 31.7991848
-            Z: 115.015427
+            X: 23.0682068
+            Y: 30.7142811
+            Z: 115.01545
           }
           Rotation {
           }
@@ -1215,7 +1309,7 @@
             Z: 0.31876868
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1233,7 +1327,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1258,13 +1352,13 @@
         Name: "Craftsman Porch 01 Foundation"
         Transform {
           Location {
-            X: -85.5808792
-            Y: 61.5138474
-            Z: 238.040146
+            X: -83.9564362
+            Y: 60.4296341
+            Z: 238.040009
           }
           Rotation {
             Yaw: -90.0000153
-            Roll: 1.22611427
+            Roll: 1.22611344
           }
           Scale {
             X: 0.205773607
@@ -1272,7 +1366,7 @@
             Z: 0.18715544
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1291,7 +1385,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1316,14 +1410,13 @@
         Name: "Knobs"
         Transform {
           Location {
-            X: 30.0435486
-            Y: -45.9491272
-            Z: 226.724167
+            X: 31.6675529
+            Y: -47.0339
+            Z: 226.724213
           }
           Rotation {
-            Pitch: -6.83018879e-06
             Yaw: -89.9999695
-            Roll: 89.9998627
+            Roll: 89.9998474
           }
           Scale {
             X: 0.99999994
@@ -1331,7 +1424,7 @@
             Z: 1
           }
         }
-        ParentId: 2812305585066073476
+        ParentId: 1512490766002285572
         ChildIds: 6626038827460121065
         ChildIds: 3666589568509884945
         ChildIds: 226472341599178736
@@ -1392,7 +1485,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1456,7 +1549,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1518,7 +1611,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1582,7 +1675,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1644,7 +1737,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1708,7 +1801,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1770,7 +1863,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1834,7 +1927,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1854,92 +1947,23 @@
           }
         }
       }
-      Objects {
-        Id: 1231391440480909082
-        Name: "Buttons"
-        Transform {
-          Location {
-            X: 30.6395054
-            Y: 24.3682098
-            Z: 226.523605
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.99999994
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2812305585066073476
-        ChildIds: 14517485375168751838
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
       }
-      Objects {
-        Id: 14517485375168751838
-        Name: "Cube"
-        Transform {
-          Location {
-            X: -1.04256821
-            Y: 0.221679688
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.0214838013
-            Y: 0.493901402
-            Z: 0.117107734
-          }
-        }
-        ParentId: 1231391440480909082
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 3396001719245941860
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.120000005
-              G: 0.061986763
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
+    }
+    Assets {
+      Id: 3396001719245941860
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {
@@ -2006,15 +2030,6 @@
       }
     }
     Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
-      }
-    }
-    Assets {
       Id: 5657452638476367488
       Name: "Cone - Truncated Wide"
       PlatformAssetType: 1
@@ -2048,15 +2063,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_urb_sub_craftsman_roof_002_arch"
-      }
-    }
-    Assets {
-      Id: 3396001719245941860
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {

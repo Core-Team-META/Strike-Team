@@ -23,7 +23,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:EquipmentStance"
-            String: "1hand_pistol_aim"
+            String: "1hand_melee_stance"
           }
           Overrides {
             Name: "cs:PickupSound"
@@ -79,13 +79,15 @@
         Name: "Hitbox Trigger"
         Transform {
           Location {
+            Y: -3.05175781e-05
+            Z: 167.364624
           }
           Rotation {
           }
           Scale {
-            X: 0.518295407
-            Y: 0.518295407
-            Z: 0.518295407
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 7828459315062628861
@@ -154,7 +156,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 40
+            Float: 50
           }
           Overrides {
             Name: "cs:Hitbox"

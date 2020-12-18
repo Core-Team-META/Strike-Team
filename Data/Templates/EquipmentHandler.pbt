@@ -436,7 +436,7 @@
       }
       Objects {
         Id: 15949626322732622456
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -806,7 +806,7 @@
       }
       Objects {
         Id: 18352586635243585147
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -948,7 +948,7 @@
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 3569804050290171046
+              Id: 796099684720971913
             }
           }
           Overrides {
@@ -997,7 +997,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 14330165719715429984
+              Id: 4014648287077104920
             }
           }
         }
@@ -1036,7 +1036,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 7211224773787182097
+              Id: 13067401942076487199
             }
           }
         }
@@ -1075,7 +1075,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 12293225811783140791
+              Id: 12323123955837919902
             }
           }
         }
@@ -1114,7 +1114,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 1629573594676303663
+              Id: 1345047776282016116
             }
           }
         }
@@ -1132,7 +1132,7 @@
       }
       Objects {
         Id: 14736571128427096552
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -1153,7 +1153,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 8897966304867363982
+              Id: 5021078027896375540
             }
           }
         }
@@ -1192,7 +1192,7 @@
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 2665263833087461297
+              Id: 2413038413339510725
             }
           }
         }
@@ -1454,7 +1454,7 @@
       }
       Objects {
         Id: 15028357033270769529
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -1776,7 +1776,7 @@
       }
       Objects {
         Id: 6104757118545260935
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -2102,7 +2102,7 @@
       }
       Objects {
         Id: 17176433073047961143
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -2424,7 +2424,7 @@
       }
       Objects {
         Id: 18321665495611670854
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -2778,7 +2778,7 @@
       }
       Objects {
         Id: 14922265487132919700
-        Name: "Lol"
+        Name: "LOL"
         Transform {
           Location {
           }
@@ -5404,7 +5404,7 @@
       }
       Objects {
         Id: 9609456665578525117
-        Name: "Chrismas"
+        Name: "Holiday"
         Transform {
           Location {
           }

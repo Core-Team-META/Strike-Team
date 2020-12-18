@@ -39,8 +39,6 @@ function SpawnObject(str)
    })
    Task.Wait()
    object:SetRotation(Rotation.New(0,0,-90) + item.data.Rotation_Offset)
-   
-
 end
 
 Events.Connect("UpdateLocalEquiped",SpawnObject)

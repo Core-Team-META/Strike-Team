@@ -23,7 +23,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:EquipmentStance"
-            String: "1hand_pistol_aim"
+            String: "1hand_melee_stance"
           }
           Overrides {
             Name: "cs:PickupSound"
@@ -34,7 +34,7 @@
           Overrides {
             Name: "cs:PlayerImpact"
             AssetReference {
-              Id: 13575139444976449185
+              Id: 307406115803496087
             }
           }
           Overrides {
@@ -79,13 +79,14 @@
         Name: "Hitbox Trigger"
         Transform {
           Location {
+            Z: 167.364655
           }
           Rotation {
           }
           Scale {
-            X: 0.518295407
-            Y: 0.518295407
-            Z: 0.518295407
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 8969396636807140608
@@ -154,7 +155,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 40
+            Float: 50
           }
           Overrides {
             Name: "cs:Hitbox"

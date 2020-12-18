@@ -11,13 +11,12 @@
         Transform {
           Scale {
             X: 1
-            Y: 1
+            Y: -1
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
-        ChildIds: 14563366519448770299
-        ChildIds: 6776089536531003666
+        ParentId: 7633992929331903348
+        ChildIds: 9377713372578467461
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -29,26 +28,60 @@
         }
       }
       Objects {
+        Id: 9377713372578467461
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -60.6276855
+            Y: -20.1015625
+            Z: 5.57556152
+          }
+          Rotation {
+            Pitch: -0.422570109
+            Yaw: 86.6086273
+            Roll: 1.58101797
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11550135456780394965
+        ChildIds: 14563366519448770299
+        ChildIds: 6776089536531003666
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
         Id: 14563366519448770299
         Name: "Group"
         Transform {
           Location {
-            X: 65.4775391
-            Y: -20.0493164
-            Z: 3.10525513
+            X: 7.53139496
+            Y: -125.766663
+            Z: -5.88705826
           }
           Rotation {
-            Pitch: 0.333019525
-            Yaw: 90.4708099
-            Roll: -1.46087646
+            Pitch: 0.860815525
+            Yaw: 3.8401947
+            Roll: -3.01001596
           }
           Scale {
-            X: 0.965382099
-            Y: 0.965382099
-            Z: 0.965382099
+            X: 0.965382
+            Y: 0.965382
+            Z: 0.965382
           }
         }
-        ParentId: 11550135456780394965
+        ParentId: 9377713372578467461
         ChildIds: 5348339068403564884
         ChildIds: 6918884836085497608
         ChildIds: 4052380294492098279
@@ -86,7 +119,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7407234558516877871
+              Id: 7549047484336449811
             }
           }
           Overrides {
@@ -100,7 +133,7 @@
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
@@ -411,22 +444,20 @@
         Name: "Group"
         Transform {
           Location {
-            X: -60.6277466
-            Y: -20.1015625
-            Z: 5.57556152
+            Y: 0.000244140625
+            Z: 1.52587891e-05
           }
           Rotation {
-            Pitch: -0.422576904
-            Yaw: 86.6086502
-            Roll: 1.58101845
+            Yaw: 3.37979836e-05
+            Roll: 6.05509229e-07
           }
           Scale {
-            X: -0.969381571
-            Y: 0.969381571
-            Z: 0.969381571
+            X: -0.969381511
+            Y: 0.969381511
+            Z: 0.969381511
           }
         }
-        ParentId: 11550135456780394965
+        ParentId: 9377713372578467461
         ChildIds: 6646247489645012756
         ChildIds: 16403859802611013812
         ChildIds: 10086342334415780359
@@ -464,7 +495,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7407234558516877871
+              Id: 7549047484336449811
             }
           }
           Overrides {
@@ -478,7 +509,7 @@
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
@@ -792,6 +823,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_001"
+      }
+    }
+    Assets {
+      Id: 7549047484336449811
+      Name: "Wood Siding White"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_wood_siding_white_001_uv"
       }
     }
     Assets {

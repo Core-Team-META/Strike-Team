@@ -162,7 +162,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1000
-            BurstDuration: 12
+            BurstDuration: 6
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -172,9 +172,9 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 100
+            MaxAmmo: 75
             AmmoType: "rounds"
-            MultiShot: 1
+            MultiShot: 2
             ProjectileSpeed: 25000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
@@ -183,6 +183,7 @@
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 1
+            SpreadAperture: 3
             DefaultAbility {
               SubObjectId: 10903658076612712154
             }
@@ -588,7 +589,6 @@
           }
         }
         ParentId: 1957837470783729883
-        ChildIds: 13394161478392814143
         ChildIds: 711153823726612827
         ChildIds: 16376364934450389396
         ChildIds: 16452844486427965578
@@ -603,35 +603,6 @@
         }
         Folder {
           IsFilePartition: true
-        }
-      }
-      Objects {
-        Id: 13394161478392814143
-        Name: "WeaponLowAmmoFeedbackClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 14228281632368758039
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16975801195317677333
-          }
         }
       }
       Objects {

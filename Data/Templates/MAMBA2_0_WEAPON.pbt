@@ -537,7 +537,6 @@
           }
         }
         ParentId: 15888966600517946259
-        ChildIds: 14929810639147061637
         ChildIds: 9608541429188047991
         ChildIds: 3412091253713418713
         ChildIds: 8837172793848925722
@@ -554,35 +553,6 @@
         }
         Folder {
           IsFilePartition: true
-        }
-      }
-      Objects {
-        Id: 14929810639147061637
-        Name: "WeaponLowAmmoFeedbackClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 3535362404824146707
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16975801195317677333
-          }
         }
       }
       Objects {

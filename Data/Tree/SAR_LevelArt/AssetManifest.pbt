@@ -314,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14835887402309025688
+  Name: "Pyramid - 7-Sided Truncated Hollow Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_7_sided_truncated_hollow_thick_001"
+  }
+}
+Assets {
   Id: 14831429118183852393
   Name: "Text 02: C"
   PlatformAssetType: 1
@@ -419,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_coupling_003_ref"
+  }
+}
+Assets {
+  Id: 14119828286639213320
+  Name: "Dodecahedron - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_dodecahedron_hq_001"
   }
 }
 Assets {
@@ -584,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12892959837975079301
+  Name: "Sci-fi Console Screen 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_004_ref"
+  }
+}
+Assets {
   Id: 12888726374622842928
   Name: "Modern Weapon - Disc 01"
   PlatformAssetType: 1
@@ -653,15 +680,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_painted_new_001_uv"
-  }
-}
-Assets {
-  Id: 12538411275129688839
-  Name: "Cube - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_003"
   }
 }
 Assets {
@@ -761,15 +779,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_top_6m_001"
-  }
-}
-Assets {
-  Id: 11232881163684059331
-  Name: "Concrete Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -971,15 +980,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8750377587233045914
-  Name: "Wicker Basket 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_wicker_001_uv"
-  }
-}
-Assets {
   Id: 8617818292148704575
   Name: "Craftsman Stairs 01 Pillar"
   PlatformAssetType: 1
@@ -1043,6 +1043,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7169757630002721361
+  Name: "Clear Coat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_clear-coat_001"
+  }
+}
+Assets {
   Id: 6865249745567109080
   Name: "Corrugated Sheet Bent"
   PlatformAssetType: 1
@@ -1103,15 +1112,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_003"
-  }
-}
-Assets {
-  Id: 6416678235699851564
-  Name: "Carpet 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_carpets_001_uv"
   }
 }
 Assets {
@@ -1214,6 +1214,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5540981160775459077
+  Name: "Metal Complex Tech Panel Wall 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_complex_tech_panel_001_uv"
+  }
+}
+Assets {
   Id: 5483772166785938526
   Name: "Urban Damaged Concrete Chunk 03"
   PlatformAssetType: 1
@@ -1256,15 +1265,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
-  }
-}
-Assets {
-  Id: 5129947906523120000
-  Name: "Roof Square Shingles 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_roof_square_shingles_001_uv"
   }
 }
 Assets {
@@ -1364,6 +1364,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_001"
+  }
+}
+Assets {
+  Id: 4054058819891290923
+  Name: "Engine LoFi Generic 02 SFX "
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_engine_loop_02_Cue_ref"
   }
 }
 Assets {
@@ -1475,6 +1484,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2875541594093637320
+  Name: "Military Hesco Barrier"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_hesco_001"
+  }
+}
+Assets {
   Id: 2801050667471875383
   Name: "Prism - 8-Sided"
   PlatformAssetType: 1
@@ -1508,6 +1526,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_stone_chunky_001"
+  }
+}
+Assets {
+  Id: 2513330173715104405
+  Name: "Military Tank Historic Hull 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
   }
 }
 Assets {
@@ -1553,6 +1580,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
+  Id: 1315438047815824613
+  Name: "Military Tank Historic Hatch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hatch_001_ref"
   }
 }
 Assets {

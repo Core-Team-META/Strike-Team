@@ -78,12 +78,14 @@ function EquipPlayer(player)
     local starterEquipmentitem = _G["DataBase"]:ReturnEquipmentById("SK")
     local starterEquipment = starterEquipmentitem:SpawnEquipment()
     
-    Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
-    Task.Wait()
+
+    
+    
     starterEquipment:Equip(player)
     player.serverUserData.Weapons.EquipmentWeapon.name = "Equipment"
     player.serverUserData.Weapons.EquipmentWeapon:Equip(player)
     player.serverUserData.Weapons.PerkWeapon:Equip(player)
+    Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
     
 
     ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", EquipString)

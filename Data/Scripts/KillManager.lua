@@ -27,13 +27,13 @@ function AddScore(_,damage)
         damage.sourcePlayer:AddResource("Score", 100)
     end
 end
-
+    
 function CheckHeadshots(player,damage)
     if(damage:GetHitResult()) then
         local hit = damage:GetHitResult()
         if(Object.IsValid(hit.other) and hit.other:IsA("Player")) then
             if(hit.socketName == "head") then
-                damage.sourcePlayer:AddResource("Headshots", 1) 
+                damage.sourcePlayer:AddResource("Headshots", 1)
                 damage.sourcePlayer:AddResource("Score", 10)
             end
         end
@@ -52,8 +52,10 @@ function UpdateKillDeath(player,damage)
     SetKD(player)
     player:SetResource("KillStreak", 0)
     if damage.sourcePlayer then 
-        damage.sourcePlayer:AddResource("KillStreak", 1) 
         SetKD(damage.sourcePlayer)
+        if( damage.sourcePlayer ~= player) then 
+            damage.sourcePlayer:AddResource("KillStreak", 1)
+        end 
     end 
 end
 

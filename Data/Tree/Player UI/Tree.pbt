@@ -3405,8 +3405,8 @@ Objects {
   }
   ParentId: 12355252634782189422
   ChildIds: 10537008005991921225
-  ChildIds: 17231088556877248836
   ChildIds: 14744477961322810210
+  ChildIds: 17231088556877248836
   ChildIds: 3880255269188344444
   ChildIds: 6818199144354246159
   ChildIds: 12325728577343427746
@@ -3676,55 +3676,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14744477961322810210
-  Name: "Deaths"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6136997686353458719
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:StatEnabled"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:StatType"
-      String: "DEATHS"
-    }
-    Overrides {
-      Name: "cs:StatResource"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:StatType:tooltip"
-      String: "Kills, Deaths, Resource"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14744477961322810210
-    SubobjectId: 8620998221835442844
-    InstanceId: 18374213684223088802
-    TemplateId: 10474175560297017285
-  }
-}
-Objects {
   Id: 17231088556877248836
   Name: "Assists"
   Transform {
@@ -3769,6 +3720,55 @@ Objects {
   InstanceHistory {
     SelfId: 17231088556877248836
     SubobjectId: 6060727021599271098
+    InstanceId: 18374213684223088802
+    TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 14744477961322810210
+  Name: "Deaths"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6136997686353458719
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StatEnabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "DEATHS"
+    }
+    Overrides {
+      Name: "cs:StatResource"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:StatType:tooltip"
+      String: "Kills, Deaths, Resource"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14744477961322810210
+    SubobjectId: 8620998221835442844
     InstanceId: 18374213684223088802
     TemplateId: 10474175560297017285
   }
@@ -4037,9 +4037,13 @@ Objects {
   }
 }
 Objects {
-  Id: 10288110445807727604
+  Id: 4631372477339193968
   Name: "HealthScreen"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -4053,37 +4057,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6061567258760865665
-      value {
-        Overrides {
-          Name: "Name"
-          String: "HealthScreen"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18254605239533031477
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "HealthScreen"
+  }
+  InstanceHistory {
+    SelfId: 4631372477339193968
+    SubobjectId: 6061567258760865665
+    InstanceId: 10288110445807727604
+    TemplateId: 18254605239533031477
+    WasRoot: true
   }
 }
 Objects {

@@ -26,8 +26,8 @@ if not WEAPON:IsA('Weapon') then
 end
 
 -- Exposed variables --
-local DAMAGE_AMOUNT = WEAPON:GetCustomProperty("BaseDamage")
-local DAMAGE_HEADSHOT = WEAPON:GetCustomProperty("HeadshotDamage")
+local DAMAGE_AMOUNT = script:GetCustomProperty("BaseDamage")
+local DAMAGE_HEADSHOT = script:GetCustomProperty("HeadshotDamage")
 
 function OnWeaponInteracted(weapon, impactData)
     local target = impactData.targetObject
@@ -50,7 +50,7 @@ function OnWeaponInteracted(weapon, impactData)
         newDamageInfo.reason = DamageReason.COMBAT
         newDamageInfo.sourceAbility = impactData.sourceAbility
         newDamageInfo.sourcePlayer = weaponOwner
-        newDamageInfo:SetHitResult(impactData:GetHitResult())
+
         -- Apply damage to the enemy player
         target:ApplyDamage(newDamageInfo)
     end

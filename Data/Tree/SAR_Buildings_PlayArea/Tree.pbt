@@ -2166,14 +2166,6 @@ Objects {
   Id: 8873881500139699851
   Name: "SAR_WindowOpenMainBuilding"
   Transform {
-    Location {
-      X: -1290
-      Y: 9070
-      Z: 270
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
     Scale {
       X: 1
       Y: 1
@@ -2181,6 +2173,12 @@ Objects {
     }
   }
   ParentId: 7633992929331903348
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11550135456780394965
@@ -2201,14 +2199,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 179.999954
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
           }
         }
       }
@@ -2944,11 +2934,11 @@ Objects {
   Transform {
     Location {
       X: 1075
-      Y: 2018.57129
+      Y: 1990.63867
       Z: 1350
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 12.25
@@ -9412,18 +9402,6 @@ Objects {
   ParentId: 7633992929331903348
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5348339068403564884
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2
-            Y: 4
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -9443,14 +9421,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -9462,13 +9432,6 @@ Objects {
   Id: 6889259996484539349
   Name: "SAR_WindowDoorsClosed"
   Transform {
-    Location {
-      X: 145
-      Y: 5470.24512
-      Z: 270
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -9476,6 +9439,12 @@ Objects {
     }
   }
   ParentId: 7633992929331903348
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11550135456780394965
@@ -9495,14 +9464,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -22499,8 +22460,8 @@ Objects {
     }
   }
   ParentId: 11830383650187534558
-  ChildIds: 8070104849594521597
-  ChildIds: 17167553841261145677
+  ChildIds: 1915360376471906819
+  ChildIds: 17478943649813217779
   ChildIds: 18313517387418339401
   ChildIds: 6535525310324728964
   ChildIds: 1192935067779449331
@@ -23695,13 +23656,13 @@ Objects {
   }
 }
 Objects {
-  Id: 17167553841261145677
-  Name: "LeftWing"
+  Id: 17478943649813217779
+  Name: "Group"
   Transform {
     Location {
-      X: 117.571045
-      Y: 80.793457
-      Z: -810
+      X: 142.914429
+      Y: -150.544434
+      Z: -365
     }
     Rotation {
     }
@@ -23977,8 +23938,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    Model {
-    }
+    IsGroup: true
   }
 }
 Objects {
@@ -23986,12 +23946,12 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -1420.60388
-      Y: 811.287598
-      Z: 1590
+      X: -1445.94727
+      Y: 579.949707
+      Z: 1145
     }
     Rotation {
-      Yaw: -89.9998627
+      Yaw: -89.9998398
     }
     Scale {
       X: 0.4
@@ -23999,7 +23959,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24034,9 +23994,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -1465.60388
-      Y: 781.287598
-      Z: 1600
+      X: -1490.94727
+      Y: 549.949707
+      Z: 1155
     }
     Rotation {
       Yaw: -89.9999542
@@ -24047,7 +24007,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24082,12 +24042,12 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -1420.60388
-      Y: 251.287598
-      Z: 1590
+      X: -1445.94727
+      Y: 19.949707
+      Z: 1145
     }
     Rotation {
-      Yaw: -89.9998627
+      Yaw: -89.9998398
     }
     Scale {
       X: 0.8
@@ -24095,7 +24055,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24130,9 +24090,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -1720.60388
-      Y: -358.712402
-      Z: 2150
+      X: -1745.94727
+      Y: -590.050293
+      Z: 1705
     }
     Rotation {
       Yaw: 179.999756
@@ -24143,7 +24103,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -24184,14 +24144,14 @@ Objects {
   Name: "Damaged Concrete Chunk 02"
   Transform {
     Location {
-      X: -2475.60376
-      Y: 181.287598
-      Z: 1565
+      X: -2500.94727
+      Y: -50.050293
+      Z: 1120
     }
     Rotation {
       Pitch: 90
-      Yaw: 22.6198463
-      Roll: -67.3800049
+      Yaw: -26.565033
+      Roll: -116.564896
     }
     Scale {
       X: 0.7
@@ -24199,7 +24159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -24240,14 +24200,14 @@ Objects {
   Name: "Damaged Concrete Chunk 02"
   Transform {
     Location {
-      X: -2475.60376
-      Y: 781.287598
-      Z: 1570
+      X: -2500.94727
+      Y: 549.949707
+      Z: 1125
     }
     Rotation {
       Pitch: 90
-      Yaw: 22.6198463
-      Roll: -67.3800049
+      Yaw: -26.565033
+      Roll: -116.564896
     }
     Scale {
       X: 0.7
@@ -24255,7 +24215,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -24296,9 +24256,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: -2460.60376
-      Y: 841.287598
-      Z: 915
+      X: -2485.94727
+      Y: 609.949707
+      Z: 470
     }
     Rotation {
       Yaw: -179.999954
@@ -24309,7 +24269,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24344,9 +24304,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -2475.60376
-      Y: 551.287598
-      Z: 934.999939
+      X: -2500.94727
+      Y: 319.949707
+      Z: 489.999939
     }
     Rotation {
       Yaw: 89.9999542
@@ -24357,7 +24317,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -24415,9 +24375,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: -2460.60376
-      Y: -433.712402
-      Z: 1615
+      X: -2485.94727
+      Y: -665.050293
+      Z: 1170
     }
     Rotation {
     }
@@ -24427,7 +24387,7 @@ Objects {
       Z: 1.05
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24474,9 +24434,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: -2460.60376
-      Y: -434.638672
-      Z: 915
+      X: -2485.94727
+      Y: -665.976563
+      Z: 470
     }
     Rotation {
     }
@@ -24486,7 +24446,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24521,9 +24481,9 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: 3344.39624
-      Y: -403.712402
-      Z: 1525
+      X: 3319.05273
+      Y: -635.050293
+      Z: 1080
     }
     Rotation {
       Yaw: 179.999954
@@ -24534,7 +24494,7 @@ Objects {
       Z: 0.800000131
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24569,9 +24529,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 334.396118
-      Y: -383.70166
-      Z: 955
+      X: 309.052734
+      Y: -615.039551
+      Z: 510
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -24584,7 +24544,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -24634,9 +24594,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -1340.60388
-      Y: 221.100098
-      Z: 810
+      X: -1365.94727
+      Y: -10.237793
+      Z: 365
     }
     Rotation {
     }
@@ -24646,7 +24606,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24681,14 +24641,14 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -600.080933
-      Y: -9.16894531
-      Z: 850.605591
+      X: -625.424316
+      Y: -240.506836
+      Z: 405.605591
     }
     Rotation {
       Pitch: -6.83018879e-06
-      Yaw: -89.999939
-      Roll: 34.9562225
+      Yaw: -89.9999466
+      Roll: 34.9562263
     }
     Scale {
       X: 1
@@ -24696,7 +24656,7 @@ Objects {
       Z: 4.1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -24731,9 +24691,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1655.60388
-      Y: 801.287598
-      Z: 935
+      X: -1680.94727
+      Y: 569.949707
+      Z: 490
     }
     Rotation {
     }
@@ -24743,7 +24703,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -24801,9 +24761,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -307.734253
-      Y: 586.287598
-      Z: 935
+      X: -333.077637
+      Y: 354.949707
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999313
@@ -24814,7 +24774,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -24873,12 +24833,12 @@ Objects {
   Name: "Door Downtown Steel 02"
   Transform {
     Location {
-      X: -265.603882
-      Y: 466.287598
-      Z: 965
+      X: -290.947266
+      Y: 234.949707
+      Z: 520
     }
     Rotation {
-      Yaw: 63.8629074
+      Yaw: 63.862915
     }
     Scale {
       X: 1
@@ -24886,7 +24846,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -24938,9 +24898,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -325.603882
-      Y: 66.2876
-      Z: 935
+      X: -350.947266
+      Y: -165.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -24951,7 +24911,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -25000,9 +24960,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -715.603882
-      Y: 66.2876
-      Z: 935
+      X: -740.947266
+      Y: -165.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -25013,7 +24973,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -25072,9 +25032,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1430.60388
-      Y: 206.287598
-      Z: 935
+      X: -1455.94727
+      Y: -25.050293
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999542
@@ -25085,7 +25045,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -25134,9 +25094,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1105.60388
-      Y: 66.2876
-      Z: 935
+      X: -1130.94727
+      Y: -165.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -25147,7 +25107,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -25196,9 +25156,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -1430.60388
-      Y: 586.287598
-      Z: 935.181152
+      X: -1455.94727
+      Y: 354.949707
+      Z: 490.181152
     }
     Rotation {
       Yaw: -89.9999313
@@ -25209,7 +25169,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -25268,9 +25228,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -2475.60376
-      Y: 766.287598
-      Z: 1565
+      X: -2500.94727
+      Y: 534.949707
+      Z: 1120
     }
     Rotation {
     }
@@ -25280,7 +25240,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -25321,9 +25281,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1435.60388
-      Y: 506.287598
-      Z: 935
+      X: -1460.94727
+      Y: 274.949707
+      Z: 490
     }
     Rotation {
       Yaw: 89.9999313
@@ -25334,7 +25294,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -25383,9 +25343,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -1435.60388
-      Y: 186.287598
-      Z: 935
+      X: -1460.94727
+      Y: -45.050293
+      Z: 490
     }
     Rotation {
       Yaw: 89.9999313
@@ -25396,7 +25356,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -25455,9 +25415,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 2244.39624
-      Y: 771.287598
-      Z: 1540
+      X: 2219.05273
+      Y: 539.949707
+      Z: 1095
     }
     Rotation {
       Yaw: -89.9999313
@@ -25468,7 +25428,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -25517,14 +25477,14 @@ Objects {
   Name: "Damaged Concrete Chunk 01"
   Transform {
     Location {
-      X: -2207.59302
-      Y: -51.9960938
-      Z: 2138.96484
+      X: -2232.93652
+      Y: -283.333984
+      Z: 1693.96484
     }
     Rotation {
       Pitch: 4.02043343
-      Yaw: -3.93409276
-      Roll: -1.15600443
+      Yaw: -3.93409395
+      Roll: -1.15600419
     }
     Scale {
       X: 1.50488067
@@ -25532,7 +25492,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25571,9 +25531,9 @@ Objects {
   Name: "Damaged Concrete Chunk 01"
   Transform {
     Location {
-      X: -2480.60376
-      Y: -358.712402
-      Z: 2150
+      X: -2505.94727
+      Y: -590.050293
+      Z: 1705
     }
     Rotation {
       Yaw: 89.9999542
@@ -25584,7 +25544,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25623,9 +25583,9 @@ Objects {
   Name: "Damaged Concrete Chunk 01"
   Transform {
     Location {
-      X: -1720.60388
-      Y: 206.287598
-      Z: 2150
+      X: -1745.94727
+      Y: -25.050293
+      Z: 1705
     }
     Rotation {
       Yaw: -179.999954
@@ -25636,7 +25596,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25687,9 +25647,9 @@ Objects {
   Name: "Rebar Lattice 01"
   Transform {
     Location {
-      X: -2100.20898
-      Y: 550.196289
-      Z: 2165
+      X: -2125.55225
+      Y: 318.858398
+      Z: 1720
     }
     Rotation {
       Pitch: 1.36603776e-05
@@ -25702,7 +25662,7 @@ Objects {
       Z: 0.999999464
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25729,14 +25689,14 @@ Objects {
   Name: "Rebar Lattice 01"
   Transform {
     Location {
-      X: -2091.77295
-      Y: -137.461426
-      Z: 2138.19727
+      X: -2117.11621
+      Y: -368.799316
+      Z: 1693.19727
     }
     Rotation {
       Pitch: 2.29400086
-      Yaw: -0.433227122
-      Roll: 89.9815674
+      Yaw: -0.433227
+      Roll: 89.9815598
     }
     Scale {
       X: 1
@@ -25744,7 +25704,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25771,9 +25731,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: -2410.60376
-      Y: 766.287598
-      Z: 2140
+      X: -2435.94727
+      Y: 534.949707
+      Z: 1695
     }
     Rotation {
       Yaw: 4.43962126e-05
@@ -25784,7 +25744,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25819,9 +25779,9 @@ Objects {
   Name: "Damaged Concrete Chunk 01"
   Transform {
     Location {
-      X: -2465.60376
-      Y: -353.712402
-      Z: 2240
+      X: -2490.94727
+      Y: -585.050293
+      Z: 1795
     }
     Rotation {
       Pitch: -6.84886932
@@ -25834,7 +25794,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25873,14 +25833,14 @@ Objects {
   Name: "Damaged Concrete Chunk 01"
   Transform {
     Location {
-      X: -2470.60376
-      Y: 641.287598
-      Z: 2180
+      X: -2495.94727
+      Y: 409.949707
+      Z: 1735
     }
     Rotation {
-      Pitch: -20.2464275
-      Yaw: -89.9999313
-      Roll: -89.9999771
+      Pitch: -20.2464142
+      Yaw: -89.9999161
+      Roll: -89.9999619
     }
     Scale {
       X: 1.25
@@ -25888,7 +25848,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25927,9 +25887,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: -2460.60376
-      Y: 831.287598
-      Z: 1615
+      X: -2485.94727
+      Y: 599.949707
+      Z: 1170
     }
     Rotation {
       Yaw: -179.999954
@@ -25940,7 +25900,7 @@ Objects {
       Z: 1.05
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -25987,9 +25947,9 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: -2485.60376
-      Y: 791.287598
-      Z: 1535
+      X: -2510.94727
+      Y: 559.949707
+      Z: 1090
     }
     Rotation {
       Yaw: -9.15526762e-05
@@ -26000,7 +25960,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26035,9 +25995,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1675.60388
-      Y: 776.287598
-      Z: 1545
+      X: -1700.94727
+      Y: 544.949707
+      Z: 1100
     }
     Rotation {
     }
@@ -26047,7 +26007,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -26096,9 +26056,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1455.60388
-      Y: 776.287598
-      Z: 1555
+      X: -1480.94727
+      Y: 544.949707
+      Z: 1110
     }
     Rotation {
     }
@@ -26108,7 +26068,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -26157,9 +26117,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -1300.60388
-      Y: 776.287598
-      Z: 1555
+      X: -1325.94727
+      Y: 544.949707
+      Z: 1110
     }
     Rotation {
     }
@@ -26169,7 +26129,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -26224,9 +26184,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -900.603882
-      Y: 776.287598
-      Z: 1555
+      X: -925.947266
+      Y: 544.949707
+      Z: 1110
     }
     Rotation {
     }
@@ -26236,7 +26196,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -26285,9 +26245,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -505.603882
-      Y: 776.287598
-      Z: 1545
+      X: -530.947266
+      Y: 544.949707
+      Z: 1100
     }
     Rotation {
     }
@@ -26297,7 +26257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -26346,9 +26306,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 244.396118
-      Y: 851.287598
-      Z: 1730
+      X: 219.052734
+      Y: 619.949707
+      Z: 1285
     }
     Rotation {
       Yaw: -179.999954
@@ -26359,7 +26319,7 @@ Objects {
       Z: 0.798000515
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26406,9 +26366,9 @@ Objects {
   Name: "Trim 02 Mainstreet"
   Transform {
     Location {
-      X: -195.603882
-      Y: 716.287598
-      Z: 1555
+      X: -220.947266
+      Y: 484.949707
+      Z: 1110
     }
     Rotation {
     }
@@ -26418,7 +26378,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26457,9 +26417,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -470.603882
-      Y: 801.287598
-      Z: 935
+      X: -495.947266
+      Y: 569.949707
+      Z: 490
     }
     Rotation {
     }
@@ -26469,7 +26429,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -26527,9 +26487,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: -250.603882
-      Y: 781.287598
-      Z: 960
+      X: -275.947266
+      Y: 549.949707
+      Z: 515
     }
     Rotation {
       Yaw: -179.999954
@@ -26540,7 +26500,7 @@ Objects {
       Z: 0.946765304
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26575,9 +26535,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 834.396118
-      Y: 561.287598
-      Z: 809.999878
+      X: 809.052734
+      Y: 329.949707
+      Z: 364.999878
     }
     Rotation {
     }
@@ -26587,7 +26547,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26622,9 +26582,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 714.396118
-      Y: 26.2875977
-      Z: 810
+      X: 689.052734
+      Y: -205.050293
+      Z: 365
     }
     Rotation {
     }
@@ -26634,7 +26594,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26669,9 +26629,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 379.396118
-      Y: 196.287598
-      Z: 960
+      X: 354.052734
+      Y: -35.050293
+      Z: 515
     }
     Rotation {
       Yaw: 89.9999542
@@ -26682,7 +26642,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26717,9 +26677,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 379.396118
-      Y: 781.287598
-      Z: 960
+      X: 354.052734
+      Y: 549.949707
+      Z: 515
     }
     Rotation {
       Yaw: -179.999954
@@ -26730,7 +26690,7 @@ Objects {
       Z: 0.946765304
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26765,9 +26725,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 379.396118
-      Y: 781.287598
-      Z: 960
+      X: 354.052734
+      Y: 549.949707
+      Z: 515
     }
     Rotation {
       Yaw: 89.9999542
@@ -26778,7 +26738,7 @@ Objects {
       Z: 0.946765304
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26813,9 +26773,9 @@ Objects {
   Name: "Arch Fancy 3m"
   Transform {
     Location {
-      X: 416.02063
-      Y: 781.287598
-      Z: 1280
+      X: 390.677246
+      Y: 549.949707
+      Z: 835
     }
     Rotation {
       Yaw: -89.9999542
@@ -26826,7 +26786,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26865,9 +26825,9 @@ Objects {
   Name: "Arch Fancy 3m"
   Transform {
     Location {
-      X: 374.396118
-      Y: 739.92334
-      Z: 1280
+      X: 349.052734
+      Y: 508.585449
+      Z: 835
     }
     Rotation {
       Yaw: -179.999954
@@ -26878,7 +26838,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26917,9 +26877,9 @@ Objects {
   Name: "Arch Fancy 3m"
   Transform {
     Location {
-      X: 379.396118
-      Y: 171.287598
-      Z: 1280
+      X: 354.052734
+      Y: -60.050293
+      Z: 835
     }
     Rotation {
       Yaw: -179.999954
@@ -26930,7 +26890,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -26969,14 +26929,14 @@ Objects {
   Name: "Arch"
   Transform {
     Location {
-      X: 384.396118
-      Y: -88.7124
-      Z: 1330
+      X: 359.052734
+      Y: -320.050293
+      Z: 885
     }
     Rotation {
       Pitch: -6.83018879e-06
       Yaw: -89.9999466
-      Roll: 89.9998474
+      Roll: 89.9998398
     }
     Scale {
       X: 4.6
@@ -26984,7 +26944,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27019,9 +26979,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -820.604858
-      Y: 766.287598
-      Z: 1565
+      X: -845.948242
+      Y: 534.949707
+      Z: 1120
     }
     Rotation {
     }
@@ -27031,7 +26991,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:id"
@@ -27072,12 +27032,11 @@ Objects {
   Name: "Wall 02 Corner Trim Mainstreet"
   Transform {
     Location {
-      X: -265.603882
-      Y: 711.287598
-      Z: 445
+      X: -290.947266
+      Y: 479.949707
     }
     Rotation {
-      Yaw: -89.9998932
+      Yaw: -89.9998856
     }
     Scale {
       X: 1.5
@@ -27085,7 +27044,7 @@ Objects {
       Z: 1.82385707
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27120,9 +27079,9 @@ Objects {
   Name: "Arch Fancy 3m"
   Transform {
     Location {
-      X: 354.39624
-      Y: 776.287598
-      Z: 1280
+      X: 329.052856
+      Y: 544.949707
+      Z: 835
     }
     Rotation {
       Yaw: 89.9999542
@@ -27133,7 +27092,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27172,13 +27131,13 @@ Objects {
   Name: "Arch"
   Transform {
     Location {
-      X: 64.3961182
-      Y: 776.287598
-      Z: 1290
+      X: 39.0527344
+      Y: 544.949707
+      Z: 845
     }
     Rotation {
       Yaw: -179.999954
-      Roll: 89.9999313
+      Roll: 89.9999161
     }
     Scale {
       X: 5.1
@@ -27186,7 +27145,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27221,9 +27180,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -307.734253
-      Y: 221.287598
-      Z: 935
+      X: -333.077637
+      Y: -10.050293
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999313
@@ -27234,7 +27193,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -27283,9 +27242,9 @@ Objects {
   Name: "Whitebox Stairs 01 Straight"
   Transform {
     Location {
-      X: -20.6243896
-      Y: 41.3051758
-      Z: 940
+      X: -45.9677734
+      Y: -190.032715
+      Z: 495
     }
     Rotation {
       Yaw: -89.9999542
@@ -27296,7 +27255,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -27337,9 +27296,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 104.396118
-      Y: 141.287598
-      Z: 810
+      X: 79.0527344
+      Y: -90.050293
+      Z: 365
     }
     Rotation {
     }
@@ -27349,7 +27308,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27384,12 +27343,11 @@ Objects {
   Name: "Wall 02 Corner Trim Mainstreet"
   Transform {
     Location {
-      X: -265.603882
-      Y: 74.9863281
-      Z: 445
+      X: -290.947266
+      Y: -156.351563
     }
     Rotation {
-      Yaw: -89.9998932
+      Yaw: -89.9998856
     }
     Scale {
       X: 1.5
@@ -27397,7 +27355,7 @@ Objects {
       Z: 1.82385707
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27432,9 +27390,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 744.396118
-      Y: 1764.53564
-      Z: 810
+      X: 719.052734
+      Y: 1533.19775
+      Z: 365
     }
     Rotation {
     }
@@ -27444,7 +27402,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27479,12 +27437,12 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 1229.39624
-      Y: 1251.2876
-      Z: 1005
+      X: 1204.05286
+      Y: 1019.94971
+      Z: 560
     }
     Rotation {
-      Yaw: 89.9998932
+      Yaw: 89.9998703
     }
     Scale {
       X: 1
@@ -27492,7 +27450,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27527,12 +27485,12 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 1229.39624
-      Y: 86.9043
-      Z: 1005
+      X: 1204.05286
+      Y: -144.433594
+      Z: 560
     }
     Rotation {
-      Yaw: 89.9999161
+      Yaw: 89.9998932
     }
     Scale {
       X: 1
@@ -27540,7 +27498,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27575,9 +27533,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1059.39624
-      Y: 1246.2876
-      Z: 810
+      X: 1034.05286
+      Y: 1014.94971
+      Z: 365
     }
     Rotation {
     }
@@ -27587,7 +27545,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27622,9 +27580,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 1019.39624
-      Y: 791.287598
-      Z: 953.488159
+      X: 994.052856
+      Y: 559.949707
+      Z: 508.488159
     }
     Rotation {
     }
@@ -27634,7 +27592,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27669,9 +27627,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 374.396118
-      Y: 781.287598
-      Z: 950
+      X: 349.052734
+      Y: 549.949707
+      Z: 505
     }
     Rotation {
     }
@@ -27681,7 +27639,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27716,9 +27674,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: -265.603882
-      Y: 806.287598
-      Z: 810
+      X: -290.947266
+      Y: 574.949707
+      Z: 365
     }
     Rotation {
     }
@@ -27728,7 +27686,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27763,14 +27721,14 @@ Objects {
   Name: "Arch"
   Transform {
     Location {
-      X: 709.396118
-      Y: -363.712402
-      Z: 1290
+      X: 684.052734
+      Y: -595.050293
+      Z: 845
     }
     Rotation {
       Pitch: 2.04905664e-05
       Yaw: 179.999878
-      Roll: 89.9997482
+      Roll: 89.999733
     }
     Scale {
       X: 4.99999952
@@ -27778,7 +27736,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27813,9 +27771,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1434.39624
-      Y: 716.287598
-      Z: 965.002136
+      X: 1409.05286
+      Y: 484.949707
+      Z: 520.002136
     }
     Rotation {
       Yaw: 89.9998703
@@ -27826,7 +27784,7 @@ Objects {
       Z: 11.9000006
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -27861,9 +27819,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 1254.39624
-      Y: 161.287598
-      Z: 935
+      X: 1229.05286
+      Y: -70.050293
+      Z: 490
     }
     Rotation {
       Yaw: 89.9999542
@@ -27874,7 +27832,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -27923,9 +27881,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: 1254.39624
-      Y: -233.712402
-      Z: 935
+      X: 1229.05286
+      Y: -465.050293
+      Z: 490
     }
     Rotation {
       Yaw: 89.9999313
@@ -27936,7 +27894,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -27991,9 +27949,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 1254.39624
-      Y: -388.712402
-      Z: 935
+      X: 1229.05286
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: 89.9999313
@@ -28004,7 +27962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -28053,9 +28011,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 1229.39624
-      Y: -323.712402
-      Z: 1005
+      X: 1204.05286
+      Y: -555.050293
+      Z: 560
     }
     Rotation {
       Yaw: 89.9999542
@@ -28066,7 +28024,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28101,9 +28059,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1134.39624
-      Y: -43.7124023
-      Z: 810
+      X: 1109.05286
+      Y: -275.050293
+      Z: 365
     }
     Rotation {
     }
@@ -28113,7 +28071,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28148,9 +28106,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -50.6038818
-      Y: -358.712402
-      Z: 1005
+      X: -75.9472656
+      Y: -590.050293
+      Z: 560
     }
     Rotation {
     }
@@ -28160,7 +28118,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28195,9 +28153,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 374.226563
-      Y: 196.287598
-      Z: 950
+      X: 348.883179
+      Y: -35.050293
+      Z: 505
     }
     Rotation {
     }
@@ -28207,7 +28165,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28242,9 +28200,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -790.603882
-      Y: 271.287598
-      Z: 1555
+      X: -815.947266
+      Y: 39.949707
+      Z: 1110
     }
     Rotation {
       Yaw: -89.9999542
@@ -28255,7 +28213,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -28304,9 +28262,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -820.603882
-      Y: 51.2875977
-      Z: 1590
+      X: -845.947266
+      Y: -180.050293
+      Z: 1145
     }
     Rotation {
       Yaw: 89.9999542
@@ -28317,7 +28275,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28352,9 +28310,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -810.603882
-      Y: 751.287598
-      Z: 1590
+      X: -835.947266
+      Y: 519.949707
+      Z: 1145
     }
     Rotation {
       Yaw: -179.999954
@@ -28365,7 +28323,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28400,9 +28358,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -820.603882
-      Y: 536.287598
-      Z: 1590
+      X: -845.947266
+      Y: 304.949707
+      Z: 1145
     }
     Rotation {
       Yaw: 89.9999542
@@ -28413,7 +28371,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28448,9 +28406,9 @@ Objects {
   Name: "Craftsman Front Door 01"
   Transform {
     Location {
-      X: -795.603882
-      Y: 506.287598
-      Z: 1585
+      X: -820.947266
+      Y: 274.949707
+      Z: 1140
     }
     Rotation {
       Yaw: -89.999939
@@ -28461,7 +28419,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -28511,9 +28469,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -790.603882
-      Y: 616.287598
-      Z: 1555
+      X: -815.947266
+      Y: 384.949707
+      Z: 1110
     }
     Rotation {
       Yaw: -89.999939
@@ -28524,7 +28482,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -28579,9 +28537,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -1435.60388
-      Y: 571.287598
-      Z: 1560
+      X: -1460.94727
+      Y: 339.949707
+      Z: 1115
     }
     Rotation {
       Yaw: -89.999939
@@ -28592,7 +28550,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -28647,9 +28605,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1440.60388
-      Y: -368.712402
-      Z: 1555
+      X: -1465.94727
+      Y: -600.050293
+      Z: 1110
     }
     Rotation {
       Yaw: 89.999939
@@ -28660,7 +28618,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -28709,12 +28667,12 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -1465.60388
-      Y: 256.287598
-      Z: 1600
+      X: -1490.94727
+      Y: 24.949707
+      Z: 1155
     }
     Rotation {
-      Yaw: -89.9999313
+      Yaw: -89.9999161
     }
     Scale {
       X: 0.8
@@ -28722,7 +28680,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28757,9 +28715,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -2465.60376
-      Y: 746.287598
-      Z: 1590
+      X: -2490.94727
+      Y: 514.949707
+      Z: 1145
     }
     Rotation {
       Yaw: -89.9999542
@@ -28770,7 +28728,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28805,9 +28763,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -2450.60376
-      Y: 766.287598
-      Z: 975
+      X: -2475.94727
+      Y: 534.949707
+      Z: 530
     }
     Rotation {
       Yaw: -89.9999542
@@ -28818,7 +28776,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28853,9 +28811,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -2355.60376
-      Y: -388.712402
-      Z: 935
+      X: -2380.94727
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -28866,7 +28824,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -28924,12 +28882,12 @@ Objects {
   Name: "Plane"
   Transform {
     Location {
-      X: 1734.39624
-      Y: 346.287598
-      Z: 1175
+      X: 1709.05286
+      Y: 114.949707
+      Z: 730
     }
     Rotation {
-      Roll: -89.9999924
+      Roll: -89.9999847
     }
     Scale {
       X: 0.362172574
@@ -28937,7 +28895,7 @@ Objects {
       Z: 0.362172574
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -28972,9 +28930,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 1274.39624
-      Y: -363.712402
-      Z: 1475
+      X: 1249.05286
+      Y: -595.050293
+      Z: 1030
     }
     Rotation {
     }
@@ -28984,7 +28942,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29019,9 +28977,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 1274.39624
-      Y: -358.712402
-      Z: 975
+      X: 1249.05286
+      Y: -590.050293
+      Z: 530
     }
     Rotation {
     }
@@ -29031,7 +28989,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29066,9 +29024,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 1844.39624
-      Y: -373.712402
-      Z: 955
+      X: 1819.05286
+      Y: -605.050293
+      Z: 510
     }
     Rotation {
     }
@@ -29078,7 +29036,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29113,9 +29071,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 2074.39624
-      Y: -388.712402
-      Z: 935
+      X: 2049.05273
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -29126,7 +29084,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -29184,9 +29142,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 2554.39624
-      Y: -373.712402
-      Z: 955
+      X: 2529.05273
+      Y: -605.050293
+      Z: 510
     }
     Rotation {
     }
@@ -29196,7 +29154,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29231,9 +29189,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 2689.39624
-      Y: -388.712402
-      Z: 935
+      X: 2664.05273
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -29244,7 +29202,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -29302,9 +29260,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 3344.39624
-      Y: -388.712402
-      Z: 935
+      X: 3319.05273
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -29315,7 +29273,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -29373,9 +29331,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 2599.39624
-      Y: 765.287598
-      Z: 975
+      X: 2574.05273
+      Y: 533.949707
+      Z: 530
     }
     Rotation {
       Yaw: -89.9999542
@@ -29386,7 +29344,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29421,9 +29379,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 2574.39624
-      Y: 316.287598
-      Z: 955
+      X: 2549.05273
+      Y: 84.949707
+      Z: 510
     }
     Rotation {
     }
@@ -29433,7 +29391,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29468,9 +29426,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 1504.39624
-      Y: 316.287598
-      Z: 955
+      X: 1479.05286
+      Y: 84.949707
+      Z: 510
     }
     Rotation {
     }
@@ -29480,7 +29438,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29515,9 +29473,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: 1524.39624
-      Y: 336.287598
-      Z: 935
+      X: 1499.05286
+      Y: 104.949707
+      Z: 490
     }
     Rotation {
     }
@@ -29527,7 +29485,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -29591,9 +29549,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 1924.39624
-      Y: 316.287598
-      Z: 955
+      X: 1899.05286
+      Y: 84.949707
+      Z: 510
     }
     Rotation {
     }
@@ -29603,7 +29561,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29638,9 +29596,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 2594.39624
-      Y: 306.287598
-      Z: 1475
+      X: 2569.05273
+      Y: 74.949707
+      Z: 1030
     }
     Rotation {
       Yaw: -179.999954
@@ -29651,7 +29609,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29686,9 +29644,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 3324.39624
-      Y: 776.287598
-      Z: 975
+      X: 3299.05273
+      Y: 544.949707
+      Z: 530
     }
     Rotation {
       Yaw: -179.999954
@@ -29699,7 +29657,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29734,9 +29692,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 2844.39624
-      Y: 781.287598
-      Z: 975
+      X: 2819.05273
+      Y: 549.949707
+      Z: 530
     }
     Rotation {
       Yaw: -179.999954
@@ -29747,7 +29705,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29782,9 +29740,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 2594.39624
-      Y: 306.287598
-      Z: 975
+      X: 2569.05273
+      Y: 74.949707
+      Z: 530
     }
     Rotation {
       Yaw: -179.999954
@@ -29795,7 +29753,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29830,9 +29788,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 2599.39624
-      Y: 756.287598
-      Z: 1475
+      X: 2574.05273
+      Y: 524.949707
+      Z: 1030
     }
     Rotation {
       Yaw: -89.999939
@@ -29843,7 +29801,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -29878,9 +29836,9 @@ Objects {
   Name: "Urban Downtown Building Trim Roof Corner 01"
   Transform {
     Location {
-      X: 2629.39624
-      Y: 826.287598
-      Z: 1515
+      X: 2604.05273
+      Y: 594.949707
+      Z: 1070
     }
     Rotation {
       Yaw: -179.999954
@@ -29891,7 +29849,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -29930,9 +29888,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 2569.39624
-      Y: 821.287598
-      Z: 934.999878
+      X: 2544.05273
+      Y: 589.949707
+      Z: 489.999878
     }
     Rotation {
     }
@@ -29942,7 +29900,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -30000,9 +29958,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 3324.39624
-      Y: 786.287598
-      Z: 1475
+      X: 3299.05273
+      Y: 554.949707
+      Z: 1030
     }
     Rotation {
       Yaw: -179.999954
@@ -30013,7 +29971,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30048,9 +30006,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 3294.39624
-      Y: 781.287598
-      Z: 955
+      X: 3269.05273
+      Y: 549.949707
+      Z: 510
     }
     Rotation {
     }
@@ -30060,7 +30018,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30095,12 +30053,12 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 3319.39624
-      Y: -363.712402
-      Z: 975
+      X: 3294.05273
+      Y: -595.050293
+      Z: 530
     }
     Rotation {
-      Yaw: 89.9999161
+      Yaw: 89.9998932
     }
     Scale {
       X: 1.5
@@ -30108,7 +30066,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30143,9 +30101,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 3324.39624
-      Y: -363.712402
-      Z: 1475
+      X: 3299.05273
+      Y: -595.050293
+      Z: 1030
     }
     Rotation {
       Yaw: 89.9999466
@@ -30156,7 +30114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30191,9 +30149,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 3349.39624
-      Y: -153.712402
-      Z: 935
+      X: 3324.05273
+      Y: -385.050293
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999542
@@ -30204,7 +30162,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -30262,9 +30220,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: 1278.13989
-      Y: 316.287598
-      Z: 1475
+      X: 1252.79651
+      Y: 84.949707
+      Z: 1030
     }
     Rotation {
       Yaw: -89.999939
@@ -30275,7 +30233,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30310,9 +30268,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 1369.39624
-      Y: -388.712402
-      Z: 935
+      X: 1344.05286
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -30323,7 +30281,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -30381,9 +30339,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: 269.396118
-      Y: -358.712402
-      Z: 2140
+      X: 244.052734
+      Y: -590.050293
+      Z: 1695
     }
     Rotation {
       Yaw: -179.999954
@@ -30394,7 +30352,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30429,9 +30387,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: 1204.39624
-      Y: -358.712402
-      Z: 2140
+      X: 1179.05286
+      Y: -590.050293
+      Z: 1695
     }
     Rotation {
       Yaw: -179.999954
@@ -30442,7 +30400,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30477,9 +30435,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -2455.60376
-      Y: -363.712402
-      Z: 1600
+      X: -2480.94727
+      Y: -595.050293
+      Z: 1155
     }
     Rotation {
       Yaw: 89.9999542
@@ -30490,7 +30448,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30525,9 +30483,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1435.60388
-      Y: 186.287598
-      Z: 1560
+      X: -1460.94727
+      Y: -45.050293
+      Z: 1115
     }
     Rotation {
       Yaw: -89.9999542
@@ -30538,7 +30496,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -30587,9 +30545,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1440.60388
-      Y: 496.287598
-      Z: 1555
+      X: -1465.94727
+      Y: 264.949707
+      Z: 1110
     }
     Rotation {
       Yaw: 89.9999542
@@ -30600,7 +30558,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -30649,9 +30607,9 @@ Objects {
   Name: "Craftsman Front Door 01"
   Transform {
     Location {
-      X: -1005.60388
-      Y: 50.746582
-      Z: 960
+      X: -1030.94727
+      Y: -180.591309
+      Z: 515
     }
     Rotation {
     }
@@ -30661,7 +30619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -30711,9 +30669,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -330.603882
-      Y: 506.287598
-      Z: 975
+      X: -355.947266
+      Y: 274.949707
+      Z: 530
     }
     Rotation {
       Yaw: 89.9999542
@@ -30724,7 +30682,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30759,9 +30717,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 374.396118
-      Y: 781.287598
-      Z: 810
+      X: 349.052734
+      Y: 549.949707
+      Z: 365
     }
     Rotation {
     }
@@ -30771,7 +30729,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -30806,9 +30764,9 @@ Objects {
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
-      X: 9.39611816
-      Y: -348.712402
-      Z: 960
+      X: -15.9472656
+      Y: -580.050293
+      Z: 515
     }
     Rotation {
     }
@@ -30818,7 +30776,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -30859,12 +30817,12 @@ Objects {
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
-      X: -840.603882
-      Y: -338.712402
-      Z: 1550
+      X: -865.947266
+      Y: -570.050293
+      Z: 1105
     }
     Rotation {
-      Roll: 9.77058792
+      Roll: 9.77060318
     }
     Scale {
       X: 1
@@ -30872,7 +30830,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -30913,9 +30871,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 94.3961182
-      Y: 66.2954102
-      Z: 1560.00195
+      X: 69.0527344
+      Y: -165.04248
+      Z: 1115.00195
     }
     Rotation {
       Pitch: -6.14717e-05
@@ -30928,7 +30886,7 @@ Objects {
       Z: 1.405
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -30963,9 +30921,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 389.396118
-      Y: -376.737305
-      Z: 961.146423
+      X: 364.052734
+      Y: -608.075195
+      Z: 516.146423
     }
     Rotation {
     }
@@ -30975,7 +30933,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31010,9 +30968,9 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: 364.396118
-      Y: -403.712402
-      Z: 1535
+      X: 339.052734
+      Y: -635.050293
+      Z: 1090
     }
     Rotation {
       Yaw: 88.9999771
@@ -31023,7 +30981,7 @@ Objects {
       Z: 0.800000072
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31058,9 +31016,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: -95.6038818
-      Y: 76.2876
-      Z: 1545
+      X: -120.947266
+      Y: -155.050293
+      Z: 1100
     }
     Rotation {
       Pitch: 3.4150944e-05
@@ -31073,7 +31031,7 @@ Objects {
       Z: 5.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -31122,9 +31080,9 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: -975.603882
-      Y: 791.287598
-      Z: 1540
+      X: -1000.94727
+      Y: 559.949707
+      Z: 1095
     }
     Rotation {
       Yaw: -9.15526762e-05
@@ -31135,7 +31093,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31170,13 +31128,12 @@ Objects {
   Name: "Arch"
   Transform {
     Location {
-      X: 384.396118
-      Y: 481.287598
-      Z: 1315
+      X: 359.052734
+      Y: 249.949707
+      Z: 870
     }
     Rotation {
-      Pitch: -6.83018879e-06
-      Yaw: -89.999939
+      Yaw: -89.9999466
       Roll: 89.9998703
     }
     Scale {
@@ -31185,7 +31142,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31220,9 +31177,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1434.39624
-      Y: 646.287598
-      Z: 965.002136
+      X: 1409.05286
+      Y: 414.949707
+      Z: 520.002136
     }
     Rotation {
       Yaw: 89.9998703
@@ -31233,7 +31190,7 @@ Objects {
       Z: 11.9000006
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31268,9 +31225,9 @@ Objects {
   Name: "Fantasy Castle Stairs 01 - L"
   Transform {
     Location {
-      X: 1249.39624
-      Y: 866.287598
-      Z: 940
+      X: 1224.05286
+      Y: 634.949707
+      Z: 495
     }
     Rotation {
       Yaw: 89.9999313
@@ -31281,7 +31238,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -31349,9 +31306,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: 2219.26392
-      Y: -353.69873
-      Z: 1535
+      X: 2193.92041
+      Y: -585.036621
+      Z: 1090
     }
     Rotation {
       Yaw: -179.999924
@@ -31362,7 +31319,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:id"
@@ -31403,9 +31360,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: 2244.39624
-      Y: 416.287598
-      Z: 1540
+      X: 2219.05273
+      Y: 184.949707
+      Z: 1095
     }
     Rotation {
       Yaw: -89.9999313
@@ -31416,7 +31373,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -31475,9 +31432,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: 2259.39624
-      Y: -358.712402
-      Z: 2140
+      X: 2234.05273
+      Y: -590.050293
+      Z: 1695
     }
     Rotation {
       Yaw: -179.999954
@@ -31488,7 +31445,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31523,9 +31480,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: 2219.39624
-      Y: 816.287598
-      Z: 2140
+      X: 2194.05273
+      Y: 584.949707
+      Z: 1695
     }
     Rotation {
       Yaw: -89.9999313
@@ -31536,7 +31493,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31571,9 +31528,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 2244.39624
-      Y: 21.2875977
-      Z: 1540
+      X: 2219.05273
+      Y: -210.050293
+      Z: 1095
     }
     Rotation {
       Yaw: -89.999939
@@ -31584,7 +31541,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -31633,9 +31590,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 2270.72144
-      Y: -378.712402
-      Z: 1555
+      X: 2245.37793
+      Y: -610.050293
+      Z: 1110
     }
     Rotation {
     }
@@ -31645,7 +31602,7 @@ Objects {
       Z: 1.05
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31692,12 +31649,12 @@ Objects {
   Name: "Door Downtown Steel 02"
   Transform {
     Location {
-      X: 2259.39624
-      Y: 131.287598
-      Z: 1565
+      X: 2234.05273
+      Y: -100.050293
+      Z: 1120
     }
     Rotation {
-      Yaw: -47.3526344
+      Yaw: -47.3526115
     }
     Scale {
       X: 1
@@ -31705,7 +31662,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -31743,9 +31700,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 2149.39624
-      Y: 706.266113
-      Z: 1555
+      X: 2124.05273
+      Y: 474.928223
+      Z: 1110
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -31758,7 +31715,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -31793,9 +31750,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 2234.39624
-      Y: 806.287598
-      Z: 1555
+      X: 2209.05273
+      Y: 574.949707
+      Z: 1110
     }
     Rotation {
     }
@@ -31805,7 +31762,7 @@ Objects {
       Z: 1.03378725
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31852,9 +31809,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 3329.39624
-      Y: 816.287598
-      Z: 965
+      X: 3304.05273
+      Y: 584.949707
+      Z: 520
     }
     Rotation {
     }
@@ -31864,7 +31821,7 @@ Objects {
       Z: 0.82
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -31899,9 +31856,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 3104.39624
-      Y: 821.287598
-      Z: 934.999878
+      X: 3079.05273
+      Y: 589.949707
+      Z: 489.999878
     }
     Rotation {
     }
@@ -31911,7 +31868,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -31969,9 +31926,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: 2764.39624
-      Y: 821.287598
-      Z: 935
+      X: 2739.05273
+      Y: 589.949707
+      Z: 490
     }
     Rotation {
     }
@@ -31981,7 +31938,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -32045,9 +32002,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 2644.39624
-      Y: 861.287598
-      Z: 965
+      X: 2619.05273
+      Y: 629.949707
+      Z: 520
     }
     Rotation {
     }
@@ -32057,7 +32014,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32096,9 +32053,9 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: 2609.39624
-      Y: 826.287598
-      Z: 1525
+      X: 2584.05273
+      Y: 594.949707
+      Z: 1080
     }
     Rotation {
     }
@@ -32108,7 +32065,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32143,9 +32100,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 3334.39624
-      Y: -398.712402
-      Z: 810
+      X: 3309.05273
+      Y: -630.050293
+      Z: 365
     }
     Rotation {
     }
@@ -32155,7 +32112,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32190,9 +32147,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 3334.39624
-      Y: 821.287598
-      Z: 810
+      X: 3309.05273
+      Y: 589.949707
+      Z: 365
     }
     Rotation {
     }
@@ -32202,7 +32159,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32237,12 +32194,12 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: 3334.39624
-      Y: 1141.2876
-      Z: 814.999512
+      X: 3309.05273
+      Y: 909.949707
+      Z: 369.999512
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999619
     }
     Scale {
       X: 0.4
@@ -32250,7 +32207,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -32321,9 +32278,9 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: 3369.39624
-      Y: 766.287598
-      Z: 1525
+      X: 3344.05273
+      Y: 534.949707
+      Z: 1080
     }
     Rotation {
       Yaw: -90.0000153
@@ -32334,7 +32291,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32369,9 +32326,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 3349.39624
-      Y: 806.287598
-      Z: 935
+      X: 3324.05273
+      Y: 574.949707
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999542
@@ -32382,7 +32339,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -32440,9 +32397,9 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: 3354.39624
-      Y: 756.287598
-      Z: 814.999512
+      X: 3329.05273
+      Y: 524.949707
+      Z: 369.999512
     }
     Rotation {
       Yaw: -89.9999542
@@ -32453,7 +32410,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -32515,9 +32472,9 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: 3384.39624
-      Y: -388.712402
-      Z: 814.999512
+      X: 3359.05273
+      Y: -620.050293
+      Z: 369.999512
     }
     Rotation {
       Yaw: 179.999954
@@ -32528,7 +32485,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -32590,9 +32547,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 3339.39624
-      Y: -403.712402
-      Z: 965
+      X: 3314.05273
+      Y: -635.050293
+      Z: 520
     }
     Rotation {
     }
@@ -32602,7 +32559,7 @@ Objects {
       Z: 0.82
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32641,12 +32598,12 @@ Objects {
   Name: "Urban Downtown Building Trim Roof Corner 01"
   Transform {
     Location {
-      X: 3374.39624
-      Y: -403.712402
-      Z: 1525
+      X: 3349.05273
+      Y: -635.050293
+      Z: 1080
     }
     Rotation {
-      Yaw: -89.9999161
+      Yaw: -89.9999084
     }
     Scale {
       X: 0.8
@@ -32654,7 +32611,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -32693,9 +32650,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 2244.39624
-      Y: -388.712402
-      Z: 1540
+      X: 2219.05273
+      Y: -620.050293
+      Z: 1095
     }
     Rotation {
       Yaw: -179.999954
@@ -32706,7 +32663,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -32755,9 +32712,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 394.396118
-      Y: -378.712402
-      Z: 810
+      X: 369.052734
+      Y: -610.050293
+      Z: 365
     }
     Rotation {
     }
@@ -32767,7 +32724,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32802,9 +32759,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: 1019.39624
-      Y: -398.712402
-      Z: 810
+      X: 994.052856
+      Y: -630.050293
+      Z: 365
     }
     Rotation {
     }
@@ -32814,7 +32771,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -32849,9 +32806,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 1281.53247
-      Y: -388.712402
-      Z: 935
+      X: 1256.18909
+      Y: -620.050293
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -32862,7 +32819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -32920,9 +32877,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: 1614.39624
-      Y: -388.712402
-      Z: 1540
+      X: 1589.05286
+      Y: -620.050293
+      Z: 1095
     }
     Rotation {
       Yaw: -179.999954
@@ -32933,7 +32890,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -32982,9 +32939,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: 1019.39624
-      Y: -378.712402
-      Z: 961.146423
+      X: 994.052856
+      Y: -610.050293
+      Z: 516.146423
     }
     Rotation {
       Yaw: -179.999954
@@ -32995,7 +32952,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33030,9 +32987,9 @@ Objects {
   Name: "Arch Fancy 3m"
   Transform {
     Location {
-      X: 419.396118
-      Y: -368.712402
-      Z: 1280
+      X: 394.052734
+      Y: -600.050293
+      Z: 835
     }
     Rotation {
       Yaw: -89.9999542
@@ -33043,7 +33000,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33082,9 +33039,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: -1445.60388
-      Y: -438.712402
-      Z: 810
+      X: -1470.94727
+      Y: -670.050293
+      Z: 365
     }
     Rotation {
     }
@@ -33094,7 +33051,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33129,9 +33086,9 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: 424.396118
-      Y: -393.712402
-      Z: 814.999512
+      X: 399.052734
+      Y: -625.050293
+      Z: 369.999512
     }
     Rotation {
       Yaw: 179.999954
@@ -33142,7 +33099,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -33204,9 +33161,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1355.60388
-      Y: -388.712402
-      Z: 1545
+      X: -1380.94727
+      Y: -620.050293
+      Z: 1100
     }
     Rotation {
       Yaw: -179.999954
@@ -33217,7 +33174,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -33266,12 +33223,12 @@ Objects {
   Name: "Damaged Concrete Chunk 02"
   Transform {
     Location {
-      X: -970.603882
-      Y: -18.7124023
-      Z: 1588.14734
+      X: -995.947266
+      Y: -250.050293
+      Z: 1143.14734
     }
     Rotation {
-      Yaw: -22.4998169
+      Yaw: -22.4998016
     }
     Scale {
       X: 0.4
@@ -33279,7 +33236,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33314,12 +33271,12 @@ Objects {
   Name: "Damaged Concrete Chunk 03"
   Transform {
     Location {
-      X: -1000.60388
-      Y: -258.712402
-      Z: 1580
+      X: -1025.94727
+      Y: -490.050293
+      Z: 1135
     }
     Rotation {
-      Yaw: 67.500145
+      Yaw: 67.5001602
     }
     Scale {
       X: 0.5
@@ -33327,7 +33284,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33362,9 +33319,9 @@ Objects {
   Name: "Damaged Concrete Chunk 03"
   Transform {
     Location {
-      X: -1213.94336
-      Y: -245.680176
-      Z: 1580
+      X: -1239.28674
+      Y: -477.018066
+      Z: 1135
     }
     Rotation {
     }
@@ -33374,7 +33331,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33409,9 +33366,9 @@ Objects {
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
-      X: 579.396118
-      Y: -383.712402
-      Z: 1555
+      X: 554.052734
+      Y: -615.050293
+      Z: 1110
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -33424,7 +33381,7 @@ Objects {
       Z: 0.999999404
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -33465,9 +33422,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: -530.237915
-      Y: -358.712402
-      Z: 2140
+      X: -555.581299
+      Y: -590.050293
+      Z: 1695
     }
     Rotation {
       Yaw: -179.999954
@@ -33478,7 +33435,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33513,9 +33470,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1435.60388
-      Y: 781.287598
-      Z: 1560
+      X: -1460.94727
+      Y: 549.949707
+      Z: 1115
     }
     Rotation {
       Yaw: -89.9999542
@@ -33526,7 +33483,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -33575,9 +33532,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -1205.60388
-      Y: 746.287598
-      Z: 1590
+      X: -1230.94727
+      Y: 514.949707
+      Z: 1145
     }
     Rotation {
       Yaw: -179.999954
@@ -33588,7 +33545,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33623,9 +33580,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -790.603882
-      Y: 786.287598
-      Z: 1555
+      X: -815.947266
+      Y: 554.949707
+      Z: 1110
     }
     Rotation {
       Yaw: -89.9999542
@@ -33636,7 +33593,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -33685,12 +33642,12 @@ Objects {
   Name: "Craftsman Front Door 01"
   Transform {
     Location {
-      X: -1024.1925
-      Y: 767.628418
-      Z: 1585
+      X: -1049.53589
+      Y: 536.290527
+      Z: 1140
     }
     Rotation {
-      Yaw: -44.4398956
+      Yaw: -44.4398727
     }
     Scale {
       X: 1
@@ -33698,7 +33655,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -33748,9 +33705,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -307.734253
-      Y: 813.980957
-      Z: 935
+      X: -333.077637
+      Y: 582.643066
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999542
@@ -33761,7 +33718,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -33810,9 +33767,9 @@ Objects {
   Name: "Pillar 01 Mainstreet"
   Transform {
     Location {
-      X: -245.603882
-      Y: 781.287598
-      Z: 960
+      X: -270.947266
+      Y: 549.949707
+      Z: 515
     }
     Rotation {
       Yaw: 89.9999542
@@ -33823,7 +33780,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33858,9 +33815,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -2475.60376
-      Y: -393.712402
-      Z: 934.999939
+      X: -2500.94727
+      Y: -625.050293
+      Z: 489.999939
     }
     Rotation {
       Yaw: 89.9999542
@@ -33871,7 +33828,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -33929,9 +33886,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: -2460.60376
-      Y: -418.712402
-      Z: 800
+      X: -2485.94727
+      Y: -650.050293
+      Z: 355
     }
     Rotation {
     }
@@ -33941,7 +33898,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33976,9 +33933,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: -2460.60376
-      Y: 816.287598
-      Z: 805
+      X: -2485.94727
+      Y: 584.949707
+      Z: 360
     }
     Rotation {
     }
@@ -33988,7 +33945,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -34023,12 +33980,12 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -2450.60376
-      Y: -368.712402
-      Z: 805
+      X: -2475.94727
+      Y: -600.050293
+      Z: 360
     }
     Rotation {
-      Yaw: 89.9998398
+      Yaw: 89.9998245
     }
     Scale {
       X: 1.5
@@ -34036,7 +33993,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -34098,9 +34055,9 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -2445.60376
-      Y: 781.287598
-      Z: 805
+      X: -2470.94727
+      Y: 549.949707
+      Z: 360
     }
     Rotation {
       Yaw: -9.15527344e-05
@@ -34111,7 +34068,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -34173,9 +34130,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: -1445.60388
-      Y: 836.287598
-      Z: 810
+      X: -1470.94727
+      Y: 604.949707
+      Z: 365
     }
     Rotation {
     }
@@ -34185,7 +34142,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -34220,9 +34177,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1335.60388
-      Y: -388.712891
-      Z: 935
+      X: -1360.94727
+      Y: -620.050781
+      Z: 490
     }
     Rotation {
       Yaw: -179.999954
@@ -34233,7 +34190,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -34291,9 +34248,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1435.60388
-      Y: -53.7124023
-      Z: 935
+      X: -1460.94727
+      Y: -285.050293
+      Z: 490
     }
     Rotation {
       Yaw: 89.9999313
@@ -34304,7 +34261,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -34353,9 +34310,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -1430.60388
-      Y: 761.287598
-      Z: 935
+      X: -1455.94727
+      Y: 529.949707
+      Z: 490
     }
     Rotation {
       Yaw: -89.9999542
@@ -34366,7 +34323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -34415,9 +34372,9 @@ Objects {
   Name: "Craftsman Front Door 01"
   Transform {
     Location {
-      X: -1445.60388
-      Y: 471.287598
-      Z: 960
+      X: -1470.94727
+      Y: 239.949707
+      Z: 515
     }
     Rotation {
       Yaw: 135
@@ -34428,7 +34385,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -34478,9 +34435,9 @@ Objects {
   Name: "Craftsman Front Door 01"
   Transform {
     Location {
-      X: -1445.60388
-      Y: 461.287598
-      Z: 1590
+      X: -1470.94727
+      Y: 229.949707
+      Z: 1145
     }
     Rotation {
       Yaw: 135
@@ -34491,7 +34448,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -34541,9 +34498,9 @@ Objects {
   Name: "Damaged Concrete Chunk 03"
   Transform {
     Location {
-      X: -1990.60388
-      Y: -93.7124
-      Z: 1580
+      X: -2015.94727
+      Y: -325.050293
+      Z: 1135
     }
     Rotation {
     }
@@ -34553,7 +34510,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -34588,9 +34545,9 @@ Objects {
   Name: "Damaged Concrete Chunk 02"
   Transform {
     Location {
-      X: -2108.29736
-      Y: 221.287598
-      Z: 1588.14722
+      X: -2133.64063
+      Y: -10.050293
+      Z: 1143.14722
     }
     Rotation {
     }
@@ -34600,7 +34557,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -34635,9 +34592,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -2475.60376
-      Y: 176.287598
-      Z: 934.998291
+      X: -2500.94727
+      Y: -55.050293
+      Z: 489.998291
     }
     Rotation {
       Yaw: 89.9999542
@@ -34648,7 +34605,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -34712,9 +34669,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -2475.60376
-      Y: -223.712402
-      Z: 934.998291
+      X: -2500.94727
+      Y: -455.050293
+      Z: 489.998291
     }
     Rotation {
       Yaw: 89.9999542
@@ -34725,7 +34682,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -34789,9 +34746,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1960.60388
-      Y: -388.712402
-      Z: 934.998291
+      X: -1985.94727
+      Y: -620.050293
+      Z: 489.998291
     }
     Rotation {
       Yaw: -179.999954
@@ -34802,7 +34759,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -34870,9 +34827,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1560.60388
-      Y: -388.713379
-      Z: 934.998291
+      X: -1585.94727
+      Y: -620.05127
+      Z: 489.998291
     }
     Rotation {
       Yaw: -179.999954
@@ -34883,7 +34840,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -34951,9 +34908,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -940.60376
-      Y: -388.467773
-      Z: 934.998291
+      X: -965.947144
+      Y: -619.805664
+      Z: 489.998291
     }
     Rotation {
       Yaw: -179.999954
@@ -34964,7 +34921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35032,12 +34989,12 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1250.60388
-      Y: 801.287598
-      Z: 934.998291
+      X: -1275.94727
+      Y: 569.949707
+      Z: 489.998291
     }
     Rotation {
-      Yaw: 3.41509144e-06
+      Yaw: 3.41509121e-06
     }
     Scale {
       X: 1
@@ -35045,7 +35002,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35113,12 +35070,12 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -850.603882
-      Y: 801.287598
-      Z: 934.998291
+      X: -875.947266
+      Y: 569.949707
+      Z: 489.998291
     }
     Rotation {
-      Yaw: 3.41509099e-06
+      Yaw: 3.41509076e-06
     }
     Scale {
       X: 1
@@ -35126,7 +35083,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35194,9 +35151,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -2365.60376
-      Y: 776.282715
-      Z: 1545
+      X: -2390.94727
+      Y: 544.944824
+      Z: 1100
     }
     Rotation {
       Yaw: 5.80565866e-05
@@ -35207,7 +35164,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35262,9 +35219,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1965.60388
-      Y: 776.282715
-      Z: 1545
+      X: -1990.94727
+      Y: 544.944824
+      Z: 1100
     }
     Rotation {
       Yaw: 5.80565866e-05
@@ -35275,7 +35232,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35330,9 +35287,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -810.603882
-      Y: 776.282715
-      Z: 1545
+      X: -835.947266
+      Y: 544.944824
+      Z: 1100
     }
     Rotation {
       Yaw: 5.80565866e-05
@@ -35343,7 +35300,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35398,9 +35355,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 2429.39624
-      Y: -388.712402
-      Z: 934.999756
+      X: 2404.05273
+      Y: -620.050293
+      Z: 489.999756
     }
     Rotation {
       Yaw: -179.999954
@@ -35411,7 +35368,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35475,9 +35432,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 2014.39624
-      Y: -388.712402
-      Z: 1540
+      X: 1989.05286
+      Y: -620.050293
+      Z: 1095
     }
     Rotation {
       Yaw: -179.999954
@@ -35488,7 +35445,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35543,12 +35500,12 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 3349.39624
-      Y: 206.287598
-      Z: 935
+      X: 3324.05273
+      Y: -25.050293
+      Z: 490
     }
     Rotation {
-      Yaw: -89.9999161
+      Yaw: -89.9999084
     }
     Scale {
       X: 1
@@ -35556,7 +35513,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35620,12 +35577,12 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 3349.40698
-      Y: 606.287598
-      Z: 935
+      X: 3324.06348
+      Y: 374.949707
+      Z: 490
     }
     Rotation {
-      Yaw: -89.9999161
+      Yaw: -89.9999084
     }
     Scale {
       X: 1
@@ -35633,7 +35590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35697,9 +35654,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 904.39624
-      Y: -388.712402
-      Z: 1540
+      X: 879.052856
+      Y: -620.050293
+      Z: 1095
     }
     Rotation {
       Yaw: -179.999954
@@ -35710,7 +35667,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35765,9 +35722,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 3089.39624
-      Y: -388.712402
-      Z: 934.999756
+      X: 3064.05273
+      Y: -620.050293
+      Z: 489.999756
     }
     Rotation {
       Yaw: -179.999954
@@ -35778,7 +35735,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35842,9 +35799,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: 1764.39624
-      Y: -388.712402
-      Z: 934.999756
+      X: 1739.05286
+      Y: -620.050293
+      Z: 489.999756
     }
     Rotation {
       Yaw: -179.999954
@@ -35855,7 +35812,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -35919,12 +35876,12 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -2360.60376
-      Y: 801.287598
-      Z: 934.998291
+      X: -2385.94727
+      Y: 569.949707
+      Z: 489.998291
     }
     Rotation {
-      Yaw: 3.41509258e-06
+      Yaw: 3.41509235e-06
     }
     Scale {
       X: 1
@@ -35932,7 +35889,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -36000,12 +35957,12 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1960.60388
-      Y: 801.287598
-      Z: 934.998291
+      X: -1985.94727
+      Y: 569.949707
+      Z: 489.998291
     }
     Rotation {
-      Yaw: 3.41509212e-06
+      Yaw: 3.4150919e-06
     }
     Scale {
       X: 1
@@ -36013,7 +35970,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -36081,9 +36038,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1960.60388
-      Y: -388.712402
-      Z: 1545
+      X: -1985.94727
+      Y: -620.050293
+      Z: 1100
     }
     Rotation {
       Yaw: -179.999954
@@ -36094,7 +36051,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -36149,9 +36106,9 @@ Objects {
   Name: "Wall 02 Half Window Mainstreet"
   Transform {
     Location {
-      X: -1560.60388
-      Y: -388.712402
-      Z: 1545
+      X: -1585.94727
+      Y: -620.050293
+      Z: 1100
     }
     Rotation {
       Yaw: -179.999954
@@ -36162,7 +36119,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -36217,9 +36174,9 @@ Objects {
   Name: "Trim Side 01"
   Transform {
     Location {
-      X: -1465.60388
-      Y: -363.712402
-      Z: 1600
+      X: -1490.94727
+      Y: -595.050293
+      Z: 1155
     }
     Rotation {
       Yaw: -179.999954
@@ -36230,7 +36187,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -36265,9 +36222,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -2285.60376
-      Y: -388.712402
-      Z: 1545
+      X: -2310.94727
+      Y: -620.050293
+      Z: 1100
     }
     Rotation {
       Yaw: -179.999954
@@ -36278,7 +36235,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -36327,12 +36284,12 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: -2495.60376
-      Y: -403.712402
-      Z: 1530
+      X: -2520.94727
+      Y: -635.050293
+      Z: 1085
     }
     Rotation {
-      Yaw: 89.9998627
+      Yaw: 89.9998474
     }
     Scale {
       X: 1.49999988
@@ -36340,7 +36297,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -36375,9 +36332,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -2485.60376
-      Y: 776.287598
-      Z: 1545
+      X: -2510.94727
+      Y: 544.949707
+      Z: 1100
     }
     Rotation {
     }
@@ -36387,7 +36344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -36436,9 +36393,9 @@ Objects {
   Name: "Wall 02 Mainstreet"
   Transform {
     Location {
-      X: -2451.80444
-      Y: 801.287598
-      Z: 935
+      X: -2477.14795
+      Y: 569.949707
+      Z: 490
     }
     Rotation {
     }
@@ -36448,7 +36405,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -36506,9 +36463,9 @@ Objects {
   Name: "Damaged Concrete Chunk 02"
   Transform {
     Location {
-      X: -2470.60376
-      Y: -388.712402
-      Z: 1650
+      X: -2495.94727
+      Y: -620.050293
+      Z: 1205
     }
     Rotation {
       Yaw: 89.9999542
@@ -36520,7 +36477,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -36561,9 +36518,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: -2120.604
-      Y: -358.712402
-      Z: 2140
+      X: -2145.94727
+      Y: -590.050293
+      Z: 1695
     }
     Rotation {
       Yaw: -179.999954
@@ -36574,7 +36531,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -36609,9 +36566,9 @@ Objects {
   Name: "Damaged Concrete Chunk 01"
   Transform {
     Location {
-      X: -1720.60388
-      Y: 206.287598
-      Z: 2150
+      X: -1745.94727
+      Y: -25.050293
+      Z: 1705
     }
     Rotation {
       Yaw: -179.999954
@@ -36622,7 +36579,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -36673,9 +36630,9 @@ Objects {
   Name: "Trim 01 Mainstreet"
   Transform {
     Location {
-      X: -1330.60388
-      Y: -358.712402
-      Z: 2140
+      X: -1355.94727
+      Y: -590.050293
+      Z: 1695
     }
     Rotation {
       Yaw: -179.999954
@@ -36686,7 +36643,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -36721,9 +36678,9 @@ Objects {
   Name: "Wall 02 Half Doorway Mainstreet"
   Transform {
     Location {
-      X: -1440.60388
-      Y: 171.287598
-      Z: 1555
+      X: -1465.94727
+      Y: -60.050293
+      Z: 1110
     }
     Rotation {
       Yaw: 89.999939
@@ -36734,7 +36691,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -36789,13 +36746,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 3321.5144
-      Y: 579.201172
-      Z: 856.352539
+      X: 3296.1709
+      Y: 347.863281
+      Z: 411.352539
     }
     Rotation {
       Yaw: 89.9999542
-      Roll: 8.06545
+      Roll: 8.06545925
     }
     Scale {
       X: 1
@@ -36803,7 +36760,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -36841,13 +36798,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 3321.51392
-      Y: 254.432617
-      Z: 856.352539
+      X: 3296.17041
+      Y: 23.0947266
+      Z: 411.352539
     }
     Rotation {
-      Yaw: 89.9999542
-      Roll: 8.06542683
+      Yaw: 89.9999619
+      Roll: 8.06543636
     }
     Scale {
       X: 1
@@ -36855,7 +36812,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -36893,13 +36850,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 3164.39624
-      Y: -368.712402
-      Z: 860
+      X: 3139.05273
+      Y: -600.050293
+      Z: 415
     }
     Rotation {
-      Yaw: 8.19619599e-05
-      Roll: 8.06540394
+      Yaw: 8.19619527e-05
+      Roll: 8.06541348
     }
     Scale {
       X: 0.44228521
@@ -36907,7 +36864,7 @@ Objects {
       Z: 0.573624671
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -36945,13 +36902,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 2914.47827
-      Y: -368.712402
-      Z: 860
+      X: 2889.13477
+      Y: -600.050293
+      Z: 415
     }
     Rotation {
-      Yaw: 8.19619527e-05
-      Roll: 8.06537437
+      Yaw: 8.19619454e-05
+      Roll: 8.065382
     }
     Scale {
       X: 1
@@ -36959,7 +36916,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -36997,9 +36954,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 2662.25464
-      Y: -368.712402
-      Z: 857.892395
+      X: 2636.91113
+      Y: -600.050293
+      Z: 412.892395
     }
     Rotation {
       Yaw: -179.999954
@@ -37010,7 +36967,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37048,13 +37005,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 2407.72046
-      Y: -369.939453
-      Z: 856.352539
+      X: 2382.37695
+      Y: -601.277344
+      Z: 411.352539
     }
     Rotation {
-      Yaw: 8.19619963e-05
-      Roll: 8.06539
+      Yaw: 8.19619891e-05
+      Roll: 8.06539822
     }
     Scale {
       X: 1
@@ -37062,7 +37019,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37100,9 +37057,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 2069.39624
-      Y: -363.712402
-      Z: 854.244934
+      X: 2044.05286
+      Y: -595.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: -179.999954
@@ -37113,7 +37070,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37151,9 +37108,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 1729.39624
-      Y: -373.712402
-      Z: 854.244934
+      X: 1704.05286
+      Y: -605.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: 172.548157
@@ -37164,7 +37121,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37202,13 +37159,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 1416.46362
-      Y: -368.712402
-      Z: 856.352417
+      X: 1391.12024
+      Y: -600.050293
+      Z: 411.352417
     }
     Rotation {
-      Yaw: 8.1962e-05
-      Roll: 8.06539726
+      Yaw: 8.19619963e-05
+      Roll: 8.06540585
     }
     Scale {
       X: 0.828398466
@@ -37216,7 +37173,7 @@ Objects {
       Z: 0.573624611
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37254,13 +37211,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 1176.76782
-      Y: -368.712402
-      Z: 856.352417
+      X: 1151.42444
+      Y: -600.050293
+      Z: 411.352417
     }
     Rotation {
       Yaw: -179.999863
-      Roll: 8.06546879
+      Roll: 8.06547832
     }
     Scale {
       X: 0.579741299
@@ -37268,7 +37225,7 @@ Objects {
       Z: 0.57362473
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37306,13 +37263,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: 249.396118
-      Y: -360.530762
-      Z: 856.352539
+      X: 224.052734
+      Y: -591.868652
+      Z: 411.352539
     }
     Rotation {
-      Yaw: 8.19620327e-05
-      Roll: 8.06536198
+      Yaw: 8.19620254e-05
+      Roll: 8.06537151
     }
     Scale {
       X: 1
@@ -37320,7 +37277,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37358,13 +37315,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -82.2166748
-      Y: -369.939453
-      Z: 856.352539
+      X: -107.560059
+      Y: -601.277344
+      Z: 411.352539
     }
     Rotation {
-      Yaw: 8.19620327e-05
-      Roll: 8.06536198
+      Yaw: 8.19620254e-05
+      Roll: 8.06537151
     }
     Scale {
       X: 1
@@ -37372,7 +37329,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37410,9 +37367,9 @@ Objects {
   Name: "Square Column Base 01"
   Transform {
     Location {
-      X: -355.603882
-      Y: -398.712402
-      Z: 810
+      X: -380.947266
+      Y: -630.050293
+      Z: 365
     }
     Rotation {
     }
@@ -37422,7 +37379,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -37457,9 +37414,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -420.60376
-      Y: -363.712402
-      Z: 860
+      X: -445.947144
+      Y: -595.050293
+      Z: 415
     }
     Rotation {
       Yaw: -179.999954
@@ -37470,7 +37427,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37508,9 +37465,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -756.247314
-      Y: -368.712402
-      Z: 854.244934
+      X: -781.590698
+      Y: -600.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: 172.548157
@@ -37521,7 +37478,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37559,13 +37516,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -1095.60388
-      Y: -373.712402
-      Z: 860
+      X: -1120.94727
+      Y: -605.050293
+      Z: 415
     }
     Rotation {
       Yaw: 8.19620473e-05
-      Roll: 8.0653553
+      Roll: 8.06536484
     }
     Scale {
       X: 1
@@ -37573,7 +37530,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37611,9 +37568,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -1435.60388
-      Y: -368.712402
-      Z: 854.244934
+      X: -1460.94727
+      Y: -600.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: -179.999954
@@ -37624,7 +37581,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37662,13 +37619,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -1790.60388
-      Y: -368.712402
-      Z: 856.352356
+      X: -1815.94727
+      Y: -600.050293
+      Z: 411.352356
     }
     Rotation {
-      Yaw: 8.19620327e-05
-      Roll: 8.06536198
+      Yaw: 8.19620254e-05
+      Roll: 8.06537151
     }
     Scale {
       X: 1
@@ -37676,7 +37633,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37714,9 +37671,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2078.9751
-      Y: -348.712402
-      Z: 854.244934
+      X: -2104.31836
+      Y: -580.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: -179.999954
@@ -37727,7 +37684,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37765,13 +37722,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2278.27466
-      Y: -358.712402
-      Z: 854.244934
+      X: -2303.61816
+      Y: -590.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: 2.04904936e-05
-      Roll: 8.50605392
+      Roll: 8.50606346
     }
     Scale {
       X: 0.5
@@ -37779,7 +37736,7 @@ Objects {
       Z: 0.595968425
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37817,13 +37774,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2430.60376
-      Y: -118.712402
-      Z: 856.352417
+      X: -2455.94727
+      Y: -350.050293
+      Z: 411.352417
     }
     Rotation {
       Yaw: -89.9998856
-      Roll: 8.06542873
+      Roll: 8.06543827
     }
     Scale {
       X: 1
@@ -37831,7 +37788,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37869,13 +37826,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2430.60376
-      Y: 221.287598
-      Z: 854.244934
+      X: -2455.94727
+      Y: -10.050293
+      Z: 409.244934
     }
     Rotation {
       Yaw: 89.9999542
-      Roll: 3.01854288e-06
+      Roll: 3.01854266e-06
     }
     Scale {
       X: 1
@@ -37883,7 +37840,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37921,13 +37878,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2450.60376
-      Y: 549.857422
-      Z: 856.352356
+      X: -2475.94727
+      Y: 318.519531
+      Z: 411.352356
     }
     Rotation {
-      Yaw: -89.9998856
-      Roll: 8.06545544
+      Yaw: -89.9998779
+      Roll: 8.06546402
     }
     Scale {
       X: 0.842734396
@@ -37935,7 +37892,7 @@ Objects {
       Z: 0.573624611
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -37973,9 +37930,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2078.9751
-      Y: 791.287598
-      Z: 875
+      X: -2104.31836
+      Y: 559.949707
+      Z: 430
     }
     Rotation {
       Yaw: -179.999954
@@ -37986,7 +37943,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38024,13 +37981,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -2278.27466
-      Y: 781.287598
-      Z: 854.244934
+      X: -2303.61816
+      Y: 549.949707
+      Z: 409.244934
     }
     Rotation {
       Yaw: 2.04905e-05
-      Roll: 8.50608826
+      Roll: 8.50609875
     }
     Scale {
       X: 0.5
@@ -38038,7 +37995,7 @@ Objects {
       Z: 0.595968425
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38076,13 +38033,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -1790.60388
-      Y: 786.287598
-      Z: 870
+      X: -1815.94727
+      Y: 554.949707
+      Z: 425
     }
     Rotation {
-      Yaw: 8.19619963e-05
-      Roll: 8.06539
+      Yaw: 8.19619891e-05
+      Roll: 8.06539822
     }
     Scale {
       X: 1
@@ -38090,7 +38047,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38128,9 +38085,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -1435.54089
-      Y: 791.287598
-      Z: 860
+      X: -1460.88428
+      Y: 559.949707
+      Z: 415
     }
     Rotation {
       Yaw: -179.999954
@@ -38141,7 +38098,7 @@ Objects {
       Z: 0.641061664
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38179,13 +38136,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -1095.54089
-      Y: 791.287598
-      Z: 856.352417
+      X: -1120.88428
+      Y: 559.949707
+      Z: 411.352417
     }
     Rotation {
-      Yaw: 8.19619527e-05
-      Roll: 8.06537437
+      Yaw: 8.19619454e-05
+      Roll: 8.065382
     }
     Scale {
       X: 1
@@ -38193,7 +38150,7 @@ Objects {
       Z: 0.573624551
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38231,9 +38188,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -756.247437
-      Y: 771.287598
-      Z: 854.244934
+      X: -781.59082
+      Y: 539.949707
+      Z: 409.244934
     }
     Rotation {
       Yaw: 172.548157
@@ -38244,7 +38201,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38282,9 +38239,9 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -465.603882
-      Y: 791.287598
-      Z: 854.244934
+      X: -490.947266
+      Y: 559.949707
+      Z: 409.244934
     }
     Rotation {
       Yaw: -179.999954
@@ -38295,7 +38252,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38333,13 +38290,13 @@ Objects {
   Name: "Rock Block 02"
   Transform {
     Location {
-      X: -270.603882
-      Y: 789.631348
-      Z: 862.382446
+      X: -295.947266
+      Y: 558.293457
+      Z: 417.382446
     }
     Rotation {
-      Yaw: 8.19621e-05
-      Roll: 8.06545
+      Yaw: 8.19620909e-05
+      Roll: 8.0654583
     }
     Scale {
       X: 0.4
@@ -38347,7 +38304,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -38385,12 +38342,12 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: -285.603882
-      Y: 701.287598
-      Z: 1485
+      X: -310.947266
+      Y: 469.949707
+      Z: 1040
     }
     Rotation {
-      Yaw: -89.9998627
+      Yaw: -89.9998245
     }
     Scale {
       X: 0.8
@@ -38398,7 +38355,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -38433,9 +38390,9 @@ Objects {
   Name: "Part - Pillar Small Mainstreet"
   Transform {
     Location {
-      X: -250.603882
-      Y: 816.287598
-      Z: 1615
+      X: -275.947266
+      Y: 584.949707
+      Z: 1170
     }
     Rotation {
     }
@@ -38445,7 +38402,7 @@ Objects {
       Z: 1.11484981
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -38480,9 +38437,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -820.604858
-      Y: 766.287598
-      Z: 1520
+      X: -845.948242
+      Y: 534.949707
+      Z: 1075
     }
     Rotation {
     }
@@ -38492,7 +38449,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:id"
@@ -38533,9 +38490,9 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -2475.60376
-      Y: 766.287598
-      Z: 1520
+      X: -2500.94727
+      Y: 534.949707
+      Z: 1075
     }
     Rotation {
     }
@@ -38545,7 +38502,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17167553841261145677
+  ParentId: 17478943649813217779
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -38582,13 +38539,13 @@ Objects {
   }
 }
 Objects {
-  Id: 8070104849594521597
-  Name: "MergedModel"
+  Id: 1915360376471906819
+  Name: "Group"
   Transform {
     Location {
-      X: -244.222778
-      Y: -34.0766602
-      Z: 124.998291
+      X: -112.332581
+      Y: 53.8813477
+      Z: -810
     }
     Rotation {
     }
@@ -38627,8 +38584,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    Model {
-    }
+    IsGroup: true
   }
 }
 Objects {
@@ -38636,9 +38592,9 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 1406.19006
-      Y: -363.58252
-      Z: -124.998291
+      X: 1274.2998
+      Y: -275.625
+      Z: 810
     }
     Rotation {
     }
@@ -38648,7 +38604,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 10324620610214697051
   ChildIds: 7878691541740756258
   ChildIds: 13824631591488279212
@@ -39267,9 +39223,8 @@ Objects {
   Name: "Terrace"
   Transform {
     Location {
-      X: 3546.19
-      Y: 476.41748
-      Z: -934.998291
+      X: 3414.2998
+      Y: 564.375
     }
     Rotation {
     }
@@ -39279,7 +39234,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 3893693146435772778
   ChildIds: 430254517220330506
   ChildIds: 4414059178579716730
@@ -39752,9 +39707,9 @@ Objects {
   Name: "FoundationRocks"
   Transform {
     Location {
-      X: -428.155396
-      Y: -478.58252
-      Z: -69.998291
+      X: -560.045593
+      Y: -390.625
+      Z: 865
     }
     Rotation {
     }
@@ -39764,7 +39719,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 7906928657921476419
   ChildIds: 17703172655007517966
   ChildIds: 13380591521532341097
@@ -40150,9 +40105,9 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -1219.71167
-      Y: 295.341797
-      Z: 643.105103
+      X: -1351.60181
+      Y: 383.299316
+      Z: 1578.10339
     }
     Rotation {
       Yaw: -125.992172
@@ -40163,7 +40118,7 @@ Objects {
       Z: 0.51438266
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -40198,12 +40153,12 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -1493.17603
-      Y: 68.5327148
-      Z: 643.105
+      X: -1625.06616
+      Y: 156.490234
+      Z: 1578.10327
     }
     Rotation {
-      Yaw: -125.992165
+      Yaw: -125.992172
     }
     Scale {
       X: 0.59179908
@@ -40211,7 +40166,7 @@ Objects {
       Z: 0.59179908
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -40246,9 +40201,9 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -1630.24023
-      Y: 330.26416
-      Z: 643.105
+      X: -1762.13037
+      Y: 418.22168
+      Z: 1578.10327
     }
     Rotation {
       Yaw: -125.992172
@@ -40259,7 +40214,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -40294,9 +40249,9 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: -523.810059
-      Y: -498.58252
-      Z: 650.001709
+      X: -655.700256
+      Y: -410.625
+      Z: 1585
     }
     Rotation {
     }
@@ -40306,7 +40261,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 11499702616842968773
   ChildIds: 5670421712931295704
   ChildIds: 5122406991478985933
@@ -40568,12 +40523,12 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -604.495361
-      Y: 26.0991211
-      Z: 643.105103
+      X: -736.385559
+      Y: 114.056641
+      Z: 1578.10339
     }
     Rotation {
-      Yaw: -40.5831299
+      Yaw: -40.5831261
     }
     Scale {
       X: 0.51438266
@@ -40581,7 +40536,7 @@ Objects {
       Z: 0.51438266
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -40616,12 +40571,12 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -768.810059
-      Y: -413.58252
-      Z: 650.001709
+      X: -900.700256
+      Y: -325.625
+      Z: 1585
     }
     Rotation {
-      Yaw: -40.5831299
+      Yaw: -40.5831261
     }
     Scale {
       X: 0.51438266
@@ -40629,7 +40584,7 @@ Objects {
       Z: 0.51438266
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -40664,9 +40619,9 @@ Objects {
   Name: "Pillar"
   Transform {
     Location {
-      X: 6.18994141
-      Y: -508.58252
-      Z: 30.001709
+      X: -125.700256
+      Y: -420.625
+      Z: 965
     }
     Rotation {
     }
@@ -40676,7 +40631,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 5190285281263081242
   ChildIds: 6425131636878061284
   Collidable_v2 {
@@ -40785,9 +40740,9 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: -93.8100586
-      Y: -333.58252
-      Z: 600.001709
+      X: -225.700256
+      Y: -245.625
+      Z: 1535
     }
     Rotation {
     }
@@ -40797,7 +40752,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 11752152003332823136
   ChildIds: 17378061034254905367
   ChildIds: 127246780690614863
@@ -41052,9 +41007,9 @@ Objects {
   Name: "Bannister"
   Transform {
     Location {
-      X: 6.18994141
-      Y: -463.58252
-      Z: -14.998291
+      X: -125.700256
+      Y: -375.625
+      Z: 920
     }
     Rotation {
     }
@@ -41064,7 +41019,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 17929661390171203899
   ChildIds: 12936298193311589175
   ChildIds: 7222209748516768301
@@ -41384,9 +41339,9 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 336.189941
-      Y: -1187.15381
-      Z: -119.998291
+      X: 204.299744
+      Y: -1099.19629
+      Z: 815
     }
     Rotation {
     }
@@ -41396,7 +41351,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 16386324400091053632
   ChildIds: 6509624808986174381
   ChildIds: 15957437973737453231
@@ -41749,9 +41704,9 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: 2621.19
-      Y: -18.5825195
-      Z: 520.001709
+      X: 2489.2998
+      Y: 69.375
+      Z: 1455
     }
     Rotation {
       Yaw: -89.9999542
@@ -41762,7 +41717,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Foundation:id"
@@ -41825,9 +41780,9 @@ Objects {
   Name: "Bannister"
   Transform {
     Location {
-      X: 6.18994141
-      Y: -93.5825195
-      Z: -14.998291
+      X: -125.700256
+      Y: -5.625
+      Z: 920
     }
     Rotation {
     }
@@ -41837,7 +41792,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 11581831733839417422
   ChildIds: 9614147719142295138
   ChildIds: 14072093622703708253
@@ -42309,9 +42264,9 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: -718.810059
-      Y: 761.41748
-      Z: 475.001709
+      X: -850.700256
+      Y: 849.375
+      Z: 1410
     }
     Rotation {
       Yaw: 179.999954
@@ -42322,7 +42277,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 16348358936231000997
   ChildIds: 112326313167600853
   ChildIds: 11303431068281450678
@@ -43401,9 +43356,9 @@ Objects {
   Name: "Pillar"
   Transform {
     Location {
-      X: -1083.81
-      Y: 721.41748
-      Z: 30.001709
+      X: -1215.7002
+      Y: 809.375
+      Z: 965
     }
     Rotation {
     }
@@ -43413,7 +43368,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 3425497192553134893
   ChildIds: 1809591072757290052
   Collidable_v2 {
@@ -43521,9 +43476,9 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 1726.19006
-      Y: -68.5825195
-      Z: 605.001709
+      X: 1594.2998
+      Y: 19.375
+      Z: 1540
     }
     Rotation {
     }
@@ -43533,7 +43488,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 17755430994057047982
   ChildIds: 2658850356548702948
   ChildIds: 15110237609448806552
@@ -44209,12 +44164,12 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 3371.19
-      Y: 706.41748
-      Z: 615.001709
+      X: 3239.2998
+      Y: 794.375
+      Z: 1550
     }
     Rotation {
-      Yaw: -89.9998627
+      Yaw: -89.9998474
     }
     Scale {
       X: 1
@@ -44222,7 +44177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 10806255719704598415
   ChildIds: 14300965523427814966
   ChildIds: 8249113826168734868
@@ -44723,9 +44678,9 @@ Objects {
   Name: "Pillar"
   Transform {
     Location {
-      X: -1083.81
-      Y: -513.58252
-      Z: 30.001709
+      X: -1215.7002
+      Y: -425.625
+      Z: 965
     }
     Rotation {
     }
@@ -44735,7 +44690,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   ChildIds: 5634412346064019288
   ChildIds: 9193721367598531865
   Collidable_v2 {
@@ -44844,9 +44799,9 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -607.376709
-      Y: -291.460449
-      Z: 643.105103
+      X: -739.266907
+      Y: -203.50293
+      Z: 1578.10339
     }
     Rotation {
       Yaw: -125.992172
@@ -44857,7 +44812,7 @@ Objects {
       Z: 0.51438266
     }
   }
-  ParentId: 8070104849594521597
+  ParentId: 1915360376471906819
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

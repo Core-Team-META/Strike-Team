@@ -13,6 +13,7 @@ local Database = _G["DataBase"]
 
 
 function WriteData(data)
+    if not data then return end
     local Primitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Primary"))
     local Secitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Secondary"))
     local Melitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Melee"))

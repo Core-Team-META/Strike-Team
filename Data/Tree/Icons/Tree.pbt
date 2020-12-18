@@ -448,51 +448,6 @@ Objects {
   }
 }
 Objects {
-  Id: 11935797499165686063
-  Name: "Rocket"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7653472450926179451
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EquipmentTemplate"
-      AssetReference {
-        Id: 9702982403106980693
-      }
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 9934992039656428311
-      }
-    }
-    Overrides {
-      Name: "cs:UseTemplate"
-      Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 9925429280593477268
-    }
-  }
-}
-Objects {
   Id: 7795914339311560798
   Name: "Molitov"
   Transform {
@@ -556,7 +511,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 5853473221621902447
+        Id: 4887686027475991779
       }
     }
     Overrides {
@@ -601,7 +556,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 14702439039956117713
+        Id: 5343945996030504866
       }
     }
     Overrides {
@@ -691,7 +646,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 16491267721816607492
+        Id: 5739364599050502024
       }
     }
     Overrides {
@@ -736,7 +691,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 4537026880837125227
+        Id: 11857961929768719493
       }
     }
     Overrides {
@@ -781,7 +736,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 1492662237100198069
+        Id: 7849914397938662428
       }
     }
     Overrides {
@@ -826,7 +781,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 1716320120828356578
+        Id: 10476310043397296838
       }
     }
     Overrides {
@@ -922,7 +877,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 2014244595946923048
+        Id: 9332333382319278776
       }
     }
     Overrides {
@@ -961,7 +916,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 15364828027963080746
+        Id: 6729362224180268666
       }
     }
     Overrides {

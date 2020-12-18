@@ -114,6 +114,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -172,6 +173,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -183,19 +185,19 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 16.7016811
-            Y: -1.87024271
-            Z: 1.83075905
+            X: 16.2206745
+            Y: -1.87024426
+            Z: 1.84401584
           }
           Rotation {
             Pitch: 90
-            Yaw: -1.68759763
-            Roll: 178.312454
+            Yaw: 15.8322668
+            Roll: -164.167648
           }
           Scale {
-            X: 0.523701191
-            Y: 0.839809358
-            Z: 0.026596399
+            X: 0.523700714
+            Y: 0.839809299
+            Z: 0.0735087097
           }
         }
         ParentId: 9399479056886250766
@@ -217,7 +219,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -230,6 +232,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -241,19 +244,19 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 16.7023773
-            Y: -1.87026501
-            Z: 57.1038284
+            X: 16.2211132
+            Y: -1.87026656
+            Z: 57.1171417
           }
           Rotation {
             Pitch: 90
-            Yaw: 11.6532927
-            Roll: -168.346664
+            Yaw: 13.6618586
+            Roll: -166.338074
           }
           Scale {
-            X: 0.523701191
-            Y: 0.839809358
-            Z: 0.026596399
+            X: 0.523700714
+            Y: 0.839809299
+            Z: 0.0735087097
           }
         }
         ParentId: 9399479056886250766
@@ -275,7 +278,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -288,6 +291,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -299,19 +303,19 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 16.701786
-            Y: -1.8702507
-            Z: 167.651688
+            X: 16.2204094
+            Y: -1.87028241
+            Z: 167.664963
           }
           Rotation {
             Pitch: 90
-            Yaw: -5.05112457
-            Roll: 174.948944
+            Yaw: 37.7182884
+            Roll: -142.281647
           }
           Scale {
-            X: 0.523701191
-            Y: 0.839809358
-            Z: 0.026596399
+            X: 0.523700714
+            Y: 0.839809299
+            Z: 0.0735087097
           }
         }
         ParentId: 9399479056886250766
@@ -333,7 +337,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -346,6 +350,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -357,19 +362,19 @@
         Name: "Container - Rectangle Thin 01"
         Transform {
           Location {
-            X: 16.7028542
-            Y: -1.87026179
-            Z: 112.558365
+            X: 16.2216682
+            Y: -1.87025702
+            Z: 112.571609
           }
           Rotation {
             Pitch: 90
-            Yaw: -19.4712238
-            Roll: 160.528839
+            Yaw: 12.0574932
+            Roll: -167.942429
           }
           Scale {
-            X: 0.523701191
-            Y: 0.839809358
-            Z: 0.026596399
+            X: 0.523700714
+            Y: 0.839809299
+            Z: 0.0735087097
           }
         }
         ParentId: 9399479056886250766
@@ -391,7 +396,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -404,6 +409,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -473,7 +479,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -486,6 +492,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -523,7 +530,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -536,6 +543,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -573,7 +581,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -586,6 +594,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -622,7 +631,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -635,6 +644,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }

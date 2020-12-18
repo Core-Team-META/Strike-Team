@@ -1,6 +1,40 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 17941947132016548985
+  Name: "ZoomConnection"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18267290839268223909
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ZoomConnection"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13053001575263325000
+    }
+  }
+}
+Objects {
   Id: 14823429656765854296
   Name: "Respawn"
   Transform {

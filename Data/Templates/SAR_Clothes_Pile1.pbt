@@ -15,12 +15,8 @@
             Z: 1.40794337
           }
         }
-        ParentId: 16373807130785117515
-        ChildIds: 10067000464948701358
-        ChildIds: 5197738019910147442
+        ParentId: 10996136603158897712
         ChildIds: 10504723178517015258
-        ChildIds: 15006310974046875881
-        ChildIds: 6852880364713914694
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -29,130 +25,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10067000464948701358
-        Name: "Corrugated Sheet Small"
-        Transform {
-          Location {
-            X: -26.5554962
-            Y: -11.6548014
-            Z: 13.8516798
-          }
-          Rotation {
-            Pitch: 19.1964302
-            Yaw: -35.4780617
-            Roll: 93.973526
-          }
-          Scale {
-            X: 0.371890545
-            Y: 0.371890545
-            Z: 0.371890545
-          }
-        }
-        ParentId: 16915021259397459892
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 18333856676181482578
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 5.2074275
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 11.5293331
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.0788079351
-              B: 0.139999986
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17656495108824350163
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5197738019910147442
-        Name: "Corrugated Sheet Bent"
-        Transform {
-          Location {
-            X: 0.833917081
-            Y: 39.3225
-            Z: 2.6438868
-          }
-          Rotation {
-            Pitch: 11.6067648
-            Yaw: 3.38370371
-            Roll: -71.4802246
-          }
-          Scale {
-            X: 0.174971044
-            Y: 0.174971044
-            Z: 0.174971044
-          }
-        }
-        ParentId: 16915021259397459892
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5027991983867489849
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.200000048
-              G: 0.0953642577
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6865249745567109080
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -176,10 +48,7 @@
           }
         }
         ParentId: 16915021259397459892
-        ChildIds: 17020064837903006285
-        ChildIds: 15090099438441930099
-        ChildIds: 17872185112995886741
-        ChildIds: 2326760753894112004
+        ChildIds: 14161846292639909849
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -191,25 +60,253 @@
         }
       }
       Objects {
+        Id: 14161846292639909849
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 148.845108
+            Y: 22.7331753
+            Z: -90.6870804
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10504723178517015258
+        ChildIds: 15006310974046875881
+        ChildIds: 6852880364713914694
+        ChildIds: 5197738019910147442
+        ChildIds: 17020064837903006285
+        ChildIds: 15090099438441930099
+        ChildIds: 17872185112995886741
+        ChildIds: 2326760753894112004
+        ChildIds: 10067000464948701358
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 15006310974046875881
+        Name: "Coral Table 01"
+        Transform {
+          Location {
+            X: 136.982849
+            Y: 37.1246338
+            Z: 102.798035
+          }
+          Rotation {
+            Pitch: 60.9732132
+            Yaw: -1.18338466
+            Roll: -72.8249512
+          }
+          Scale {
+            X: 0.707963228
+            Y: 0.707963228
+            Z: 0.175444916
+          }
+        }
+        ParentId: 14161846292639909849
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7873949318783264336
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 3.44858098
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 4.11478662
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1631071129330912607
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6852880364713914694
+        Name: "Coral Table 01"
+        Transform {
+          Location {
+            X: -44.9211769
+            Y: 36.2697258
+            Z: 203.710617
+          }
+          Rotation {
+            Pitch: 60.9731827
+            Yaw: -1.18337727
+            Roll: -106.376953
+          }
+          Scale {
+            X: 0.927115
+            Y: 0.927115
+            Z: 0.229754239
+          }
+        }
+        ParentId: 14161846292639909849
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7873949318783264336
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 3.44858098
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 4.11478662
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.51
+              G: 0.374900669
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1631071129330912607
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5197738019910147442
+        Name: "Corrugated Sheet Bent"
+        Transform {
+          Location {
+            X: 149.155823
+            Y: -21.1975136
+            Z: 0.00013625891
+          }
+          Rotation {
+            Pitch: 55.6623421
+            Yaw: 19.6315289
+            Roll: 36.6899376
+          }
+          Scale {
+            X: 0.765170753
+            Y: 0.765170753
+            Z: 0.765170753
+          }
+        }
+        ParentId: 14161846292639909849
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 5027991983867489849
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.200000048
+              G: 0.0953642577
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6865249745567109080
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 17020064837903006285
         Name: "Corrugated Sheet Medium"
         Transform {
           Location {
-            X: 335.591309
-            Y: 19.9311218
-            Z: -5.83789063
+            X: 186.747086
+            Y: -2.80209923
+            Z: 84.8493881
           }
           Rotation {
-            Yaw: 2.39208239e-05
-            Roll: -4.37765551
+            Pitch: 6.83018879e-06
+            Yaw: 2.54640927e-05
+            Roll: -4.37766457
           }
           Scale {
             X: 1.17430151
-            Y: 1.00000024
-            Z: 1.21328902
+            Y: 1.00000036
+            Z: 1.21328914
           }
         }
-        ParentId: 10504723178517015258
+        ParentId: 14161846292639909849
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
@@ -257,9 +354,9 @@
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: 149.744614
-            Y: 25.0604858
-            Z: 289.317535
+            X: 0.900185585
+            Y: 2.32721925
+            Z: 380.005432
           }
           Rotation {
             Pitch: -6.45727396
@@ -272,7 +369,7 @@
             Z: 1
           }
         }
-        ParentId: 10504723178517015258
+        ParentId: 14161846292639909849
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -322,14 +419,14 @@
         Name: "Corrugated Sheet Large"
         Transform {
           Location {
-            X: 25.6308498
-            Y: 19.871912
-            Z: 92.8894653
+            X: -123.214607
+            Y: -2.86127114
+            Z: 183.576675
           }
           Rotation {
-            Pitch: -83.363945
-            Yaw: 97.6841583
-            Roll: -93.1423874
+            Pitch: -83.3642731
+            Yaw: 97.6845322
+            Roll: -93.1427689
           }
           Scale {
             X: 0.746805429
@@ -337,7 +434,7 @@
             Z: 0.618767381
           }
         }
-        ParentId: 10504723178517015258
+        ParentId: 14161846292639909849
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
@@ -376,14 +473,14 @@
         Name: "Corrugated Sheet Tall"
         Transform {
           Location {
-            X: 37.4645958
-            Y: 11.4160881
-            Z: -5.51142883
+            X: -111.38
+            Y: -11.3170843
+            Z: 85.1759186
           }
           Rotation {
-            Pitch: 0.750808477
-            Yaw: -8.66223431
-            Roll: -0.297454804
+            Pitch: 0.750801682
+            Yaw: -8.66225338
+            Roll: -0.297456682
           }
           Scale {
             X: 1
@@ -391,7 +488,7 @@
             Z: 1
           }
         }
-        ParentId: 10504723178517015258
+        ParentId: 14161846292639909849
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -422,123 +519,59 @@
         }
       }
       Objects {
-        Id: 15006310974046875881
-        Name: "Coral Table 01"
+        Id: 10067000464948701358
+        Name: "Corrugated Sheet Small"
         Transform {
           Location {
-            X: 19.9042435
-            Y: 25.0748901
-            Z: 15.7398577
+            X: -102.206322
+            Y: 35.8506203
+            Z: 3.1256845
           }
           Rotation {
-            Yaw: 2.58993805e-05
-            Roll: -163.553696
+            Pitch: 69.4500732
+            Yaw: 105.780205
+            Roll: -67.3529434
           }
           Scale {
-            X: 0.161889449
-            Y: 0.161889449
-            Z: 0.0401188657
+            X: 1.62632477
+            Y: 1.62632477
+            Z: 1.62632477
           }
         }
-        ParentId: 16915021259397459892
+        ParentId: 14161846292639909849
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7873949318783264336
+              Id: 18333856676181482578
             }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 3.44858098
+            Float: 5.2074275
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 4.11478662
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1631071129330912607
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6852880364713914694
-        Name: "Coral Table 01"
-        Transform {
-          Location {
-            X: 19.904356
-            Y: -22.4643726
-            Z: 14.0805712
-          }
-          Rotation {
-            Yaw: 2.59314929e-05
-            Roll: 162.894272
-          }
-          Scale {
-            X: 0.212002739
-            Y: 0.212002739
-            Z: 0.0525377393
-          }
-        }
-        ParentId: 16915021259397459892
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7873949318783264336
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 3.44858098
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 4.11478662
+            Float: 11.5293331
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.51
-              G: 0.374900669
+              G: 0.0788079351
+              B: 0.139999986
               A: 1
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1631071129330912607
+            Id: 17656495108824350163
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -553,21 +586,21 @@
       }
     }
     Assets {
-      Id: 17656495108824350163
-      Name: "Corrugated Sheet Small"
+      Id: 1631071129330912607
+      Name: "Coral Table 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
+        AssetId: "sm_coral_table_01"
       }
     }
     Assets {
-      Id: 18333856676181482578
-      Name: "Wallpaper Stripes 01"
+      Id: 7873949318783264336
+      Name: "Carpet 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_wallpaper_001"
+        AssetId: "mi_carpets_001_uv"
       }
     }
     Assets {
@@ -625,21 +658,21 @@
       }
     }
     Assets {
-      Id: 1631071129330912607
-      Name: "Coral Table 01"
+      Id: 17656495108824350163
+      Name: "Corrugated Sheet Small"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_coral_table_01"
+        AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
       }
     }
     Assets {
-      Id: 7873949318783264336
-      Name: "Carpet 01"
+      Id: 18333856676181482578
+      Name: "Wallpaper Stripes 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_carpets_001_uv"
+        AssetId: "mi_gen_wallpaper_001"
       }
     }
     PrimaryAssetId {

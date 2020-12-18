@@ -15,7 +15,36 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16373807130785117515
+        ChildIds: 14346027379398305632
+        ChildIds: 6033197656365744878
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14346027379398305632
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -6.97544674e-05
+            Y: 0.00167410728
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2600853687861082119
         ChildIds: 11447624120499096695
         ChildIds: 14831918567729690993
         ChildIds: 15604019770752991344
@@ -30,15 +59,15 @@
         ChildIds: 443022733471049667
         ChildIds: 12805111025126636190
         ChildIds: 6445951541234261429
-        ChildIds: 6033197656365744878
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -46,8 +75,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 15.8813477
-            Y: -56.9023438
+            X: 15.8815851
+            Y: -56.9041481
             Z: 48.7554321
           }
           Rotation {
@@ -58,7 +87,7 @@
             Z: 1.55684078
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -89,7 +118,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -102,6 +131,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -113,8 +143,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 15.8813477
-            Y: 56.8125
+            X: 15.8815994
+            Y: 56.8109207
             Z: 48.7554321
           }
           Rotation {
@@ -125,7 +155,7 @@
             Z: 1.55684078
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -156,7 +186,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -169,6 +199,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -180,12 +211,13 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -1.30322266
-            Y: 0.11328125
-            Z: 125.88324
+            X: -1.30269241
+            Y: 0.111521423
+            Z: 125.883255
           }
           Rotation {
-            Roll: 89.9999924
+            Yaw: 1.20741811e-06
+            Roll: 89.9999847
           }
           Scale {
             X: 0.380566388
@@ -193,7 +225,7 @@
             Z: 1.22033691
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -220,7 +252,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -233,6 +265,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -244,12 +277,12 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -1.30322266
-            Y: 0.11328125
+            X: -1.30269241
+            Y: 0.111521423
             Z: 91.0690308
           }
           Rotation {
-            Roll: 89.9999847
+            Roll: 89.9999924
           }
           Scale {
             X: 0.380566388
@@ -257,7 +290,7 @@
             Z: 1.22033691
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -284,7 +317,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -297,6 +330,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -308,12 +342,12 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -1.30322266
-            Y: 0.11328125
+            X: -1.30269241
+            Y: 0.111521423
             Z: 54.7164917
           }
           Rotation {
-            Roll: 89.9999847
+            Roll: 89.9999924
           }
           Scale {
             X: 0.380566388
@@ -321,7 +355,7 @@
             Z: 1.22033691
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -348,7 +382,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -361,6 +395,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -372,12 +407,12 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -1.30322266
-            Y: 0.11328125
+            X: -1.30269241
+            Y: 0.111521423
             Z: 18.6133423
           }
           Rotation {
-            Roll: 89.9999771
+            Roll: 89.9999619
           }
           Scale {
             X: 0.380566388
@@ -385,7 +420,7 @@
             Z: 1.22033691
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -412,7 +447,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -425,6 +460,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -436,12 +472,12 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: -56.9023438
+            X: -3.3187151
+            Y: -56.9041405
             Z: 72.5949097
           }
           Rotation {
-            Pitch: 42.6461
+            Pitch: 42.6460915
           }
           Scale {
             X: 0.0111706927
@@ -449,7 +485,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -472,7 +508,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -485,6 +521,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -496,12 +533,14 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: 56.8173828
+            X: -3.31869698
+            Y: 56.8157539
             Z: 72.5949097
           }
           Rotation {
-            Pitch: 42.6460953
+            Pitch: 42.6460915
+            Yaw: 8.44139322e-07
+            Roll: 2.16253443e-06
           }
           Scale {
             X: 0.0111706927
@@ -509,7 +548,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -532,7 +571,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -545,6 +584,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -556,8 +596,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: 56.8173828
+            X: -3.31869698
+            Y: 56.8157539
             Z: 36.5560303
           }
           Rotation {
@@ -569,7 +609,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -592,7 +632,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -605,6 +645,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -616,12 +657,14 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: -56.9023438
+            X: -3.3187151
+            Y: -56.9041405
             Z: 36.5560303
           }
           Rotation {
-            Pitch: 42.6460953
+            Pitch: 42.6460915
+            Yaw: 8.44139322e-07
+            Roll: 2.16253443e-06
           }
           Scale {
             X: 0.0111706927
@@ -629,7 +672,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -652,7 +695,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -665,6 +708,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -676,11 +720,13 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: 56.8173828
+            X: -3.31869698
+            Y: 56.8157539
           }
           Rotation {
             Pitch: 42.6460876
+            Yaw: 4.32506886e-06
+            Roll: 1.68827819e-06
           }
           Scale {
             X: 0.0111706927
@@ -688,7 +734,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -711,7 +757,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -724,6 +770,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -735,8 +782,8 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: -56.9023438
+            X: -3.3187151
+            Y: -56.9041405
           }
           Rotation {
             Pitch: 42.6460915
@@ -747,7 +794,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -770,7 +817,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -783,6 +830,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -794,12 +842,14 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: 56.8173828
-            Z: 107.212158
+            X: -3.31869698
+            Y: 56.8157539
+            Z: 107.212173
           }
           Rotation {
             Pitch: 42.6460838
+            Yaw: 4.32506795e-06
+            Roll: 1.68827785e-06
           }
           Scale {
             X: 0.0111706927
@@ -807,7 +857,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -830,7 +880,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -843,6 +893,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -854,12 +905,14 @@
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -3.31884766
-            Y: -56.9023438
-            Z: 107.212158
+            X: -3.3187151
+            Y: -56.9041405
+            Z: 107.212173
           }
           Rotation {
             Pitch: 42.6460876
+            Yaw: 4.32506886e-06
+            Roll: 1.68827819e-06
           }
           Scale {
             X: 0.0111706927
@@ -867,7 +920,7 @@
             Z: 0.50354594
           }
         }
-        ParentId: 2600853687861082119
+        ParentId: 14346027379398305632
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -890,7 +943,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -903,6 +956,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
