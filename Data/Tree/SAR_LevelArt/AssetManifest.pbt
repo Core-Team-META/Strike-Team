@@ -179,15 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16628730901845472849
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
   Id: 16586908890029824577
   Name: "Cube - Rounded"
   PlatformAssetType: 1
@@ -476,15 +467,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13904304706208065102
-  Name: "Container - Square Thin 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_square_thin_ref"
-  }
-}
-Assets {
   Id: 13874502513103367460
   Name: "Main Street Awning 01"
   PlatformAssetType: 1
@@ -671,15 +653,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
-  }
-}
-Assets {
-  Id: 12561909601372583804
-  Name: "Metal Painted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_painted_new_001_uv"
   }
 }
 Assets {
@@ -1070,6 +1043,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6588567122613861857
+  Name: "Metal 9 Slice Frame 005"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_9slice_005"
+  }
+}
+Assets {
   Id: 6515192203865619302
   Name: "Text 02: R"
   PlatformAssetType: 1
@@ -1286,15 +1268,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4880170813277602281
-  Name: "Car Paint 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_car-paint_001"
-  }
-}
-Assets {
   Id: 4794041361382728409
   Name: "Cylinder - Chamfered Polished"
   PlatformAssetType: 1
@@ -1340,24 +1313,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4156576600873206312
-  Name: "Metal Floor Panel 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_simple_floor_panel_001_uv"
-  }
-}
-Assets {
-  Id: 4154706281836675321
-  Name: "Metal Frame 04"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_001_uv"
-  }
-}
-Assets {
   Id: 4054211681159130604
   Name: "Hill 01"
   PlatformAssetType: 1
@@ -1400,15 +1355,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_leaves_001"
-  }
-}
-Assets {
-  Id: 3715487088176351191
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -1553,15 +1499,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_shipping_pallet_002"
-  }
-}
-Assets {
-  Id: 2344375418771611947
-  Name: "Metal 9 Slice Lockers 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_advanced_9slice_lockers_001_ref"
   }
 }
 Assets {

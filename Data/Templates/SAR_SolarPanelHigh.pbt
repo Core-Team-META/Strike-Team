@@ -252,7 +252,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4154706281836675321
+              Id: 6588567122613861857
             }
           }
           Overrides {
@@ -446,7 +446,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4154706281836675321
+              Id: 6588567122613861857
             }
           }
           Overrides {
@@ -1066,12 +1066,12 @@
       }
     }
     Assets {
-      Id: 4154706281836675321
-      Name: "Metal Frame 04"
+      Id: 6588567122613861857
+      Name: "Metal 9 Slice Frame 005"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_scf_grates_001_uv"
+        AssetId: "mi_metal_frames_9slice_005"
       }
     }
     Assets {

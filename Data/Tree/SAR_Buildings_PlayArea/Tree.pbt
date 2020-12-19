@@ -2111,14 +2111,6 @@ Objects {
   Id: 6374365881462252321
   Name: "SAR_WindowOpenMainBuilding"
   Transform {
-    Location {
-      X: -1290
-      Y: 9070
-      Z: 270
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
     Scale {
       X: 1
       Y: 1
@@ -2126,6 +2118,12 @@ Objects {
     }
   }
   ParentId: 7633992929331903348
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11550135456780394965
@@ -2145,14 +2143,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
           }
         }
       }
@@ -7029,14 +7019,6 @@ Objects {
   Id: 16950903463940217970
   Name: "SAR_WindowDoorsClosed"
   Transform {
-    Location {
-      X: 3815
-      Y: 5925
-      Z: 275
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
     Scale {
       X: 1
       Y: 1
@@ -7044,6 +7026,12 @@ Objects {
     }
   }
   ParentId: 7633992929331903348
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11550135456780394965
@@ -7064,14 +7052,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 89.9999542
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -22846,18 +22826,6 @@ Objects {
   ParentId: 6859487677776779237
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5348339068403564884
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2
-            Y: 4
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -22875,14 +22843,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
           }
         }
       }
@@ -22983,14 +22943,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 179.999954
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
           }
         }
       }
@@ -38745,6 +38697,28 @@ Objects {
   }
   ParentId: 350157282787208358
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 17393961314713938594
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6646247489645012756
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 17393961314713938594
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 11550135456780394965
       value {

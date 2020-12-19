@@ -16,6 +16,8 @@
           }
         }
         ParentId: 7633992929331903348
+        ChildIds: 5348339068403564884
+        ChildIds: 6646247489645012756
         ChildIds: 4729137213501764233
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -25,6 +27,144 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5348339068403564884
+        Name: "Mid"
+        Transform {
+          Location {
+            X: 35.296875
+            Y: 9.24487305
+            Z: 3.05175781e-05
+          }
+          Rotation {
+            Yaw: 80.3438568
+          }
+          Scale {
+            X: 0.0416236594
+            Y: 0.600000381
+            Z: 2.90573478
+          }
+        }
+        ParentId: 11550135456780394965
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7304090448405195378
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.640000045
+              G: 0.640000045
+              B: 0.640000045
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.389353395
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.02505469
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10128884331981734128
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6646247489645012756
+        Name: "Mid"
+        Transform {
+          Location {
+            X: -36.6386719
+            Y: 0.319580078
+            Z: 3.05175781e-05
+          }
+          Rotation {
+            Yaw: -89.9999924
+          }
+          Scale {
+            X: -0.021860769
+            Y: 0.599999368
+            Z: 2.90573478
+          }
+        }
+        ParentId: 11550135456780394965
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7304090448405195378
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.640000045
+              G: 0.640000045
+              B: 0.640000045
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.393051773
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.02505469
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10128884331981734128
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
         }
       }
       Objects {
@@ -75,7 +215,6 @@
           }
         }
         ParentId: 4729137213501764233
-        ChildIds: 5348339068403564884
         ChildIds: 6918884836085497608
         ChildIds: 4052380294492098279
         ChildIds: 3591532804174389927
@@ -88,74 +227,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5348339068403564884
-        Name: "Mid"
-        Transform {
-          Location {
-            X: 2
-            Y: 4
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.0416236594
-            Y: 0.600000381
-            Z: 2.90573478
-          }
-        }
-        ParentId: 14563366519448770299
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7549047484336449811
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.640000045
-              G: 0.640000045
-              B: 0.640000045
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: true
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.389353395
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 1.02505469
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10128884331981734128
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -448,7 +519,6 @@
           }
         }
         ParentId: 4729137213501764233
-        ChildIds: 6646247489645012756
         ChildIds: 16403859802611013812
         ChildIds: 10086342334415780359
         ChildIds: 15944874271903265634
@@ -461,74 +531,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6646247489645012756
-        Name: "Mid"
-        Transform {
-          Location {
-            X: 2
-            Y: 4
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.021860769
-            Y: 0.599999368
-            Z: 2.90573478
-          }
-        }
-        ParentId: 6776089536531003666
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7549047484336449811
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.640000045
-              G: 0.640000045
-              B: 0.640000045
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: true
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.393051773
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 1.02505469
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10128884331981734128
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -813,15 +815,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_001"
-      }
-    }
-    Assets {
-      Id: 7549047484336449811
-      Name: "Wood Siding White"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_siding_white_001_uv"
       }
     }
     Assets {

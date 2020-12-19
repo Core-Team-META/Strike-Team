@@ -56,7 +56,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9165597677916952237
+              Id: 16109696671304090979
             }
           }
           Overrides {
@@ -70,7 +70,15 @@
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.68141663
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.682051897
           }
         }
         Collidable_v2 {
@@ -122,7 +130,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9165597677916952237
+              Id: 16109696671304090979
             }
           }
           Overrides {
@@ -140,11 +148,11 @@
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.217993215
+            Float: 0.682051897
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.125
+            Float: 1.68141663
           }
         }
         Collidable_v2 {
@@ -176,15 +184,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_urb_dresser_001"
-      }
-    }
-    Assets {
-      Id: 9165597677916952237
-      Name: "Wood Strand Board 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_mil_wood_strand_001_uv_ref"
       }
     }
     Assets {

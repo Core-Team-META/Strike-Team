@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 7304090448405195378
-  Name: "Custom Wood Planks White"
+  Name: "SAR_WoodPlanksWhite"
   PlatformAssetType: 13
   SerializationVersion: 70
   CustomMaterialAsset {

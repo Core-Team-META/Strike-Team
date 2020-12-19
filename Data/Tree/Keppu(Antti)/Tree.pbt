@@ -143,6 +143,7 @@ Objects {
   ChildIds: 15224929712032797530
   ChildIds: 1074067203008389974
   ChildIds: 3257427987053089238
+  ChildIds: 8120192020258742980
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -150,6 +151,81 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 8120192020258742980
+  Name: "Volumetric Fog Injector Volume VFX"
+  Transform {
+    Location {
+      X: 2875
+      Y: 3015
+      Z: 94.9004211
+    }
+    Rotation {
+    }
+    Scale {
+      X: 22.6302052
+      Y: 6.62685537
+      Z: 6.07247353
+    }
+  }
+  ParentId: 14895227251346645118
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.5
+        G: 0.3804
+        B: 0.223999977
+        A: 0.25
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.50546491
+    }
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 1.45667875
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 0.281075478
+    }
+    Overrides {
+      Name: "bp:Fog Density Multiplier"
+      Float: 0.0791468471
+    }
+    Overrides {
+      Name: "bp:Life Max"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7128102797736711867
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
   }
 }
 Objects {
@@ -1196,6 +1272,15 @@ Objects {
         A: 0.25
       }
     }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1288,6 +1373,15 @@ Objects {
         G: 0.3804
         B: 0.223999977
         A: 0.25
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
       }
     }
   }
@@ -1385,6 +1479,15 @@ Objects {
       Name: "bp:Density"
       Float: 2
     }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1434,6 +1537,15 @@ Objects {
     Overrides {
       Name: "bp:Density"
       Float: 2
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -1485,6 +1597,15 @@ Objects {
       Name: "bp:Density"
       Float: 2
     }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1532,6 +1653,15 @@ Objects {
         G: 0.3804
         B: 0.223999977
         A: 0.25
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
       }
     }
   }
@@ -1583,6 +1713,15 @@ Objects {
         A: 0.25
       }
     }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1631,7 +1770,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 5.00264168
+      Float: 0.784695625
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -1643,11 +1782,20 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density Multiplier"
-      Float: 0.147810146
+      Float: 0.119323507
     }
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -1697,7 +1845,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 5.00264168
+      Float: 0.1
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -1709,11 +1857,20 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density Multiplier"
-      Float: 0.147810146
+      Float: 0.119323507
     }
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -1989,7 +2146,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 2.90912843
+      Float: 0.784695625
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2006,6 +2163,15 @@ Objects {
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2055,7 +2221,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 5.00264168
+      Float: 0.784695625
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2067,11 +2233,20 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density Multiplier"
-      Float: 0.147810146
+      Float: 0.111288175
     }
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2122,7 +2297,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 1.78185213
+      Float: 0.784695625
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2139,6 +2314,15 @@ Objects {
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2200,11 +2384,20 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density Multiplier"
-      Float: 0.147810146
+      Float: 0.0952175111
     }
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2254,11 +2447,20 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 1.9428916
+      Float: 1.02495205
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
       Float: 1.45667875
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2308,7 +2510,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Density"
-      Float: 5.00264168
+      Float: 1.50546491
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2320,11 +2522,20 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density Multiplier"
-      Float: 0.147810146
+      Float: 0.0791468471
     }
     Overrides {
       Name: "bp:Life Max"
       Float: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2416,6 +2627,15 @@ Objects {
         A: 0.25
       }
     }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2466,6 +2686,15 @@ Objects {
       Name: "bp:Density"
       Float: 3
     }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2513,6 +2742,15 @@ Objects {
         G: 0.3804
         B: 0.223999977
         A: 0.25
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.916000068
+        G: 0.651276
+        B: 0.386552
+        A: 1
       }
     }
   }
@@ -2693,6 +2931,7 @@ Objects {
     }
   }
   ParentId: 17525193500194171463
+  ChildIds: 147166654775543873
   ChildIds: 10328442703922992751
   ChildIds: 14062658550350834006
   ChildIds: 9916436675665533873
@@ -2961,8 +3200,8 @@ Objects {
       Name: "bp:Color"
       Color {
         R: 1
-        G: 0.814116061
-        B: 0.520833373
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -3022,14 +3261,14 @@ Objects {
     }
     Overrides {
       Name: "bp:View Distance"
-      Float: 3278.25928
+      Float: 8000
     }
     Overrides {
       Name: "bp:Albedo"
       Color {
-        R: 0.984
-        G: 0.810291231
-        B: 0.332591951
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -3063,6 +3302,49 @@ Objects {
   }
 }
 Objects {
+  Id: 147166654775543873
+  Name: "Depth of Field Post Process"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9298601716501198180
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Depth Blur Distance For 50%"
+      Float: 33.5071
+    }
+    Overrides {
+      Name: "bp:Focal Distance"
+      Float: 0.457990408
+    }
+    Overrides {
+      Name: "bp:Depth Blur Radius"
+      Float: 4
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10577491396371571795
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 11622801617226529912
   Name: "Sky Dome"
   Transform {
@@ -3084,14 +3366,16 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Cloud Shape"
-      Int: 0
+      Enum {
+        Value: "mc:ecloudshapes:0"
+      }
     }
     Overrides {
       Name: "bp:Horizon Color"
       Color {
-        R: 1
-        G: 0.93834424
-        B: 0.51
+        R: 0.326699972
+        G: 0.659999907
+        B: 0.659999967
         A: 1
       }
     }
@@ -3102,14 +3386,6 @@ Objects {
         G: 0.217349201
         B: 0.494791657
         A: 0.6
-      }
-    }
-    Overrides {
-      Name: "bp:Cloud Color"
-      Color {
-        R: 0.559999943
-        G: 0.100132458
-        A: 1
       }
     }
     Overrides {
@@ -3127,7 +3403,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Rim Brightness"
-      Float: 100
+      Float: 3.60465336
     }
     Overrides {
       Name: "bp:Cloud Detail Brightness"
@@ -3139,11 +3415,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Opacity"
-      Float: 1
+      Float: 0
     }
     Overrides {
       Name: "bp:Cloud Lighting Brightness"
-      Float: 15
+      Float: 6.36638355
     }
     Overrides {
       Name: "bp:Cloud Ambient Brightness"
@@ -3152,15 +3428,15 @@ Objects {
     Overrides {
       Name: "bp:Cloud Ambient Color"
       Color {
-        R: 0.619791687
-        G: 0.395845711
-        B: 0.377453119
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "bp:Cloud Wisp Opacity"
-      Float: 0.895938933
+      Float: 0.689832091
     }
     Overrides {
       Name: "bp:Sky Influence On Clouds"
@@ -3169,8 +3445,9 @@ Objects {
     Overrides {
       Name: "bp:High Cloud Color"
       Color {
-        R: 0.973958313
-        G: 0.387740493
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -3180,11 +3457,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Horizon Falloff"
-      Float: 3
+      Float: 6
     }
     Overrides {
       Name: "bp:Haze Falloff"
-      Float: 11
+      Float: 15
     }
     Overrides {
       Name: "bp:High Cloud Index"
@@ -3203,14 +3480,15 @@ Objects {
     Overrides {
       Name: "bp:Cloud Rim Color"
       Color {
-        R: 0.0299999714
-        G: 0.0131125711
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "bp:Cloud Wisp Speed"
-      Float: 0.2
+      Float: 0.183606163
     }
     Overrides {
       Name: "bp:Cloud Sun Behind Transmission"
@@ -3218,7 +3496,36 @@ Objects {
     }
     Overrides {
       Name: "bp:High Cloud Brightness"
-      Float: 1
+      Float: 0.151464835
+    }
+    Overrides {
+      Name: "bp:Haze Color"
+      Color {
+        G: 0.596688807
+        B: 0.85
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Disable Cloud Mask"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Clouds"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cloud Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -3348,7 +3655,9 @@ Objects {
     }
     Overrides {
       Name: "bp:Shape"
-      Int: 1
+      Enum {
+        Value: "mc:esundiscshapes:1"
+      }
     }
     Overrides {
       Name: "bp:Size"
@@ -3426,6 +3735,10 @@ Objects {
     }
     Overrides {
       Name: "bp:Soft Distance Shadows"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Draw Sun"
       Bool: true
     }
   }
