@@ -1,0 +1,1 @@
+﻿MaxPlayers: 8
