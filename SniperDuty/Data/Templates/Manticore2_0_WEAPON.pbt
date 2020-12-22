@@ -174,7 +174,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 2
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 3200
@@ -334,6 +334,7 @@
         ChildIds: 8343015193942131741
         ChildIds: 7866757877235289516
         ChildIds: 4386669990835637117
+        ChildIds: 7206193177703386033
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -568,6 +569,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_3"
         }
       }
       Objects {
@@ -672,6 +674,39 @@
         }
       }
       Objects {
+        Id: 7206193177703386033
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 6563956133325466814
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
         Id: 12749761527350845930
         Name: "Shoot"
         Transform {
@@ -699,7 +734,7 @@
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.1
+            Duration: 0.05
             CanMove: true
             CanJump: true
             CanRotate: true

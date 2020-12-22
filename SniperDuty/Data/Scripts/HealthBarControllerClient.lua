@@ -58,8 +58,8 @@ function Tick(deltaTime)
 		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
 			if weapon ~= nil then
-                AMMO_TEXT.text = tostring(weapon.currentAmmo)
-                MAX_AMMO_TEXT.text = tostring(weapon.maxAmmo)
+                AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo) or weapon.currentAmmo
+                MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo
             else
                 AMMO_TEXT.text = tostring("∞")
                 MAX_AMMO_TEXT.text = tostring("")

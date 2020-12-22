@@ -4,7 +4,7 @@ local PROPERTIES = Post:GetCustomProperties()
 
 
 function roundbyten(val)
-    return math.min( math.floor(val/10) * 10, 100)
+    return math.min( math.ceil(val/10) * 10, 100)
 end
 
 function GetPostBasedOnHealth(val)

@@ -34,6 +34,8 @@
         Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
+            Y: 39.7015381
+            Z: -0.67742157
           }
           Rotation {
           }
@@ -64,7 +66,7 @@
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 0.5
+            Float: 2
           }
         }
         Collidable_v2 {
@@ -76,6 +78,8 @@
         Blueprint {
           BlueprintAsset {
             Id: 17977280587505271142
+          }
+          TeamSettings {
           }
           Vfx {
             AutoPlay: true

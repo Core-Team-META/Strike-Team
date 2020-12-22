@@ -106,6 +106,12 @@
             }
           }
           Overrides {
+            Name: "cs:GenericSoundOutOfAmmo"
+            AssetReference {
+              Id: 1683114021203363022
+            }
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -141,8 +147,8 @@
             UseReticle: true
             Muzzle {
               Location {
-                X: 91
-                Z: 15
+                X: 90.9998322
+                Z: 10
               }
               Rotation {
               }
@@ -162,7 +168,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1000
-            BurstDuration: 6
+            BurstDuration: 11.1
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -172,9 +178,9 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 75
+            MaxAmmo: -1
             AmmoType: "rounds"
-            MultiShot: 2
+            MultiShot: 1
             ProjectileSpeed: 25000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
@@ -321,6 +327,7 @@
         ChildIds: 14359597683553328042
         ChildIds: 4376619738844709947
         ChildIds: 14445355654171809592
+        ChildIds: 1992232089393199874
         ChildIds: 14228281632368758039
         UnregisteredParameters {
         }
@@ -575,6 +582,45 @@
         }
       }
       Objects {
+        Id: 1992232089393199874
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1957837470783729883
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 100
+          }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 5900853629837661249
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
         Id: 14228281632368758039
         Name: "Effects"
         Transform {
@@ -603,6 +649,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_1"
         }
       }
       Objects {
@@ -857,7 +904,7 @@
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -894,6 +941,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:primaryaction"
+          }
         }
       }
       Objects {

@@ -161,7 +161,7 @@
               Id: 841534158063459245
             }
             BurstCount: 300
-            BurstDuration: 6.5
+            BurstDuration: 10
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -171,9 +171,9 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 25
+            MaxAmmo: -1
             AmmoType: "rounds"
-            MultiShot: 2
+            MultiShot: 1
             ProjectileSpeed: 25000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
@@ -321,6 +321,7 @@
         ChildIds: 110788476358619259
         ChildIds: 4701555205911936464
         ChildIds: 7072625529179786660
+        ChildIds: 9013636594582731208
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -602,6 +603,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_6"
         }
       }
       Objects {
@@ -823,6 +825,45 @@
           Volume: 0.4
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 9013636594582731208
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 4861632680637020456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 30
+          }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 5900853629837661249
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
         }
       }
       Objects {

@@ -106,6 +106,10 @@
             }
           }
           Overrides {
+            Name: "cs:SprintingStance"
+            String: "2hand_sword_ready"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -171,7 +175,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 16
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 25000
@@ -320,6 +324,7 @@
         ChildIds: 16181055382112588404
         ChildIds: 18230547407548752521
         ChildIds: 10018712990668270082
+        ChildIds: 14598254733455142836
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -592,6 +597,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_1"
         }
       }
       Objects {
@@ -821,6 +827,45 @@
           Volume: 0.4
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 14598254733455142836
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 16
+          }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 7611242078719564322
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
         }
       }
       Objects {

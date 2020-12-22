@@ -3334,7 +3334,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Blueprint {
     BlueprintAsset {
@@ -3723,11 +3723,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Shadow Cascade Count"
-      Int: 1
+      Int: 3
     }
     Overrides {
       Name: "bp:Cascade Distribution Adjustment"
-      Float: 0
+      Float: 0.103337631
     }
     Overrides {
       Name: "bp:Distance Fadeout Percentage"

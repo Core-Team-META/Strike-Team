@@ -147,7 +147,7 @@
               Rotation {
               }
             }
-            AnimationSet: "2hand_rifle_aim_shoulder"
+            AnimationSet: "2hand_rifle_aim_sho"
             OutOfAmmoSfxAssetRef {
               Id: 10067873773880548084
             }
@@ -162,7 +162,7 @@
               Id: 841534158063459245
             }
             BurstCount: 400
-            BurstDuration: 7.5
+            BurstDuration: 12
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 25000
@@ -172,9 +172,9 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 30
+            MaxAmmo: -1
             AmmoType: "rounds"
-            MultiShot: 2
+            MultiShot: 1
             ProjectileSpeed: 25000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
@@ -322,6 +322,7 @@
         ChildIds: 17330681716876336277
         ChildIds: 11116573032484857336
         ChildIds: 2251632774311718328
+        ChildIds: 2742055301182517563
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -603,6 +604,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_2"
         }
       }
       Objects {
@@ -824,6 +826,45 @@
           Volume: 0.4
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 2742055301182517563
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 4558619358907089796
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 17017433431252953491
+            }
+          }
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 40
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
         }
       }
       Objects {

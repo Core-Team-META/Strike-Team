@@ -17,6 +17,8 @@
         }
         ParentId: 16373807130785117515
         ChildIds: 18364202427349425623
+        ChildIds: 13890086306814457874
+        ChildIds: 6955414734345209629
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -74,8 +76,6 @@
           }
         }
         ParentId: 18364202427349425623
-        ChildIds: 6955414734345209629
-        ChildIds: 13890086306814457874
         ChildIds: 16305065764627672483
         ChildIds: 15092021395489592089
         ChildIds: 9669233176336149328
@@ -93,403 +93,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6955414734345209629
-        Name: "Panel"
-        Transform {
-          Location {
-            X: 15
-            Y: 136.610352
-            Z: 105
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.75588632
-            Y: 2.75588632
-            Z: 2.75588632
-          }
-        }
-        ParentId: 17410427458095897124
-        ChildIds: 3234900122967668966
-        ChildIds: 3614461887659120364
-        ChildIds: 15665869990028272198
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3234900122967668966
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.955078661
-            Y: 1
-            Z: 0.0338199586
-          }
-        }
-        ParentId: 6955414734345209629
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 2344375418771611947
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13904304706208065102
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3614461887659120364
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            Z: 1.9198519
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.921689749
-            Y: 0.976849556
-            Z: 0.00868700631
-          }
-        }
-        ParentId: 6955414734345209629
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4880170813277602281
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15665869990028272198
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            Z: 1.29149163
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.921689749
-            Y: 0.998522639
-            Z: 0.0297364034
-          }
-        }
-        ParentId: 6955414734345209629
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6588567122613861857
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 2
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13890086306814457874
-        Name: "Panel"
-        Transform {
-          Location {
-            X: 15
-            Y: -136.611328
-            Z: 105
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.75588632
-            Y: 2.75588632
-            Z: 2.75588632
-          }
-        }
-        ParentId: 17410427458095897124
-        ChildIds: 12446375407191650276
-        ChildIds: 9737041546033048923
-        ChildIds: 14274878081237304176
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12446375407191650276
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.955078661
-            Y: 1
-            Z: 0.0338199586
-          }
-        }
-        ParentId: 13890086306814457874
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 2344375418771611947
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13904304706208065102
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9737041546033048923
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            Z: 1.9198519
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.921689749
-            Y: 0.976849556
-            Z: 0.00868700631
-          }
-        }
-        ParentId: 13890086306814457874
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4880170813277602281
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14274878081237304176
-        Name: "Container - Rectangle"
-        Transform {
-          Location {
-            Z: 1.29149163
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.921689749
-            Y: 0.998522639
-            Z: 0.0297364034
-          }
-        }
-        ParentId: 13890086306814457874
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6588567122613861857
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 2
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -1037,50 +640,408 @@
           }
         }
       }
-    }
-    Assets {
-      Id: 13904304706208065102
-      Name: "Container - Square Thin 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_container_square_thin_ref"
+      Objects {
+        Id: 13890086306814457874
+        Name: "Panel"
+        Transform {
+          Location {
+            X: 69.8530273
+            Y: -136.611328
+            Z: -81.3603516
+          }
+          Rotation {
+            Pitch: -44.9999809
+            Yaw: 3.53791779e-06
+            Roll: 3.8278219e-07
+          }
+          Scale {
+            X: 2.75588632
+            Y: 2.75588632
+            Z: 2.75588632
+          }
+        }
+        ParentId: 5674763858852220405
+        ChildIds: 12446375407191650276
+        ChildIds: 9737041546033048923
+        ChildIds: 14274878081237304176
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
       }
-    }
-    Assets {
-      Id: 2344375418771611947
-      Name: "Metal 9 Slice Lockers 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_advanced_9slice_lockers_001_ref"
+      Objects {
+        Id: 12446375407191650276
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.955078661
+            Y: 1
+            Z: 0.0338199586
+          }
+        }
+        ParentId: 13890086306814457874
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2344375418771611947
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13904304706208065102
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
+      Objects {
+        Id: 9737041546033048923
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            Z: 1.9198519
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.921689749
+            Y: 0.976849556
+            Z: 0.00868700631
+          }
+        }
+        ParentId: 13890086306814457874
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4880170813277602281
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
-    }
-    Assets {
-      Id: 4880170813277602281
-      Name: "Car Paint 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_car-paint_001"
+      Objects {
+        Id: 14274878081237304176
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            Z: 1.29149163
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.921689749
+            Y: 0.998522639
+            Z: 0.0297364034
+          }
+        }
+        ParentId: 13890086306814457874
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6588567122613861857
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 2
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
-    }
-    Assets {
-      Id: 6588567122613861857
-      Name: "Metal 9 Slice Frame 005"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_frames_9slice_005"
+      Objects {
+        Id: 6955414734345209629
+        Name: "Panel"
+        Transform {
+          Location {
+            X: 69.8530273
+            Y: 136.610352
+            Z: -81.3603516
+          }
+          Rotation {
+            Pitch: -44.9999809
+            Yaw: 3.53791779e-06
+            Roll: 3.8278219e-07
+          }
+          Scale {
+            X: 2.75588632
+            Y: 2.75588632
+            Z: 2.75588632
+          }
+        }
+        ParentId: 5674763858852220405
+        ChildIds: 3234900122967668966
+        ChildIds: 3614461887659120364
+        ChildIds: 15665869990028272198
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3234900122967668966
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.955078661
+            Y: 1
+            Z: 0.0338199586
+          }
+        }
+        ParentId: 6955414734345209629
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2344375418771611947
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13904304706208065102
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3614461887659120364
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            Z: 1.9198519
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.921689749
+            Y: 0.976849556
+            Z: 0.00868700631
+          }
+        }
+        ParentId: 6955414734345209629
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4880170813277602281
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15665869990028272198
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            Z: 1.29149163
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.921689749
+            Y: 0.998522639
+            Z: 0.0297364034
+          }
+        }
+        ParentId: 6955414734345209629
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6588567122613861857
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 2
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 2
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
     }
     Assets {
@@ -1135,6 +1096,51 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_rounded_002"
+      }
+    }
+    Assets {
+      Id: 2344375418771611947
+      Name: "Metal 9 Slice Lockers 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_advanced_9slice_lockers_001_ref"
+      }
+    }
+    Assets {
+      Id: 13904304706208065102
+      Name: "Container - Square Thin 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_container_square_thin_ref"
+      }
+    }
+    Assets {
+      Id: 12095835209017042614
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
+      }
+    }
+    Assets {
+      Id: 4880170813277602281
+      Name: "Car Paint 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_car-paint_001"
+      }
+    }
+    Assets {
+      Id: 6588567122613861857
+      Name: "Metal 9 Slice Frame 005"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_frames_9slice_005"
       }
     }
     PrimaryAssetId {

@@ -19,9 +19,9 @@ Objects {
     Overrides {
       Name: "bp:Color Saturation"
       Color {
-        R: 0.880000055
-        G: 0.880000055
-        B: 0.880000055
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -31,6 +31,15 @@ Objects {
         R: 1
         G: 1
         B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Scene Tint"
+      Color {
+        R: 1
+        G: 0.661
+        B: 0.661
         A: 1
       }
     }

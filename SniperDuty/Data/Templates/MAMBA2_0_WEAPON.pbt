@@ -171,7 +171,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 10
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 100000
@@ -319,6 +319,7 @@
         ChildIds: 13171817687420429997
         ChildIds: 3535362404824146707
         ChildIds: 568353767011244440
+        ChildIds: 16707587071178057160
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -553,6 +554,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_4"
         }
       }
       Objects {
@@ -928,6 +930,45 @@
         Script {
           ScriptAsset {
             Id: 17374269570626674164
+          }
+        }
+      }
+      Objects {
+        Id: 16707587071178057160
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 15888966600517946259
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 8544973748730250786
+            }
+          }
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 10
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
           }
         }
       }

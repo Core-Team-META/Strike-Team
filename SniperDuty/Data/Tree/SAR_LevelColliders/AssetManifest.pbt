@@ -16,3 +16,12 @@ Assets {
     AssetId: "sm_cube_001"
   }
 }
+Assets {
+  Id: 3406058221900252173
+  Name: "Grid Basic"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "grid_blue_001"
+  }
+}

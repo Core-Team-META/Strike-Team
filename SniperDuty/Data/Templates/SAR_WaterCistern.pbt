@@ -775,7 +775,6 @@
           }
         }
         ParentId: 13863716527188611992
-        ChildIds: 7216088791604406382
         ChildIds: 14003461415753746450
         ChildIds: 16602621779685095087
         ChildIds: 17496484887155068462
@@ -790,65 +789,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7216088791604406382
-        Name: "Collider"
-        Transform {
-          Location {
-            X: -159.999954
-            Y: 74.9999847
-            Z: -7.62939453e-05
-          }
-          Rotation {
-            Pitch: 90
-            Yaw: 84.2318115
-            Roll: -95.768158
-          }
-          Scale {
-            X: 0.6
-            Y: 2.60000014
-            Z: 1.7
-          }
-        }
-        ParentId: 14047519521092386067
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11436023202306815330
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0310000014
-              G: 0.0310000014
-              B: 0.0310000014
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 15385195988779076100
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {

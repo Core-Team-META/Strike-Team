@@ -27,11 +27,11 @@ end
 function SpawnObject(str)
 	DespawnObject()
 	local item = Database:SetupItemWithSkin(Database:GetSlot(str,TYPE))
-	object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(.025,.025,.025) * item.data.scale , rotation = Rotation.New(0,0,-90) })
+	object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(.015,.015,.015) * item.data.scale , rotation = Rotation.New(0,0,-90) })
 
    local screen = UI.GetScreenSize()
    ScreenObject.New(object, {
-		   objectWidth = 5,
+		   objectWidth = 2.8,
 		   pixelWidth = 200,
 		   pixelPosX = ui.x + screen.x - 70 + Offset.x,
 		   pixelPosY = ui.y + screen.y - 25 + Offset.y,

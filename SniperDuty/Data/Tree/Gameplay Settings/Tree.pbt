@@ -3469,8 +3469,8 @@ Objects {
     AttachToLocalPlayer: true
     FreeControl: true
     IsDistanceAdjustable: true
-    MinDistance: -0.01
-    MaxDistance: 0.01
+    MinDistance: -1e-07
+    MaxDistance: 1e-07
     PositionOffset {
     }
     RotationOffset {
@@ -4299,11 +4299,12 @@ Objects {
         ChatMode {
         }
         ChatPosition {
-          X: -112.290634
+          X: 24.8293362
+          Y: -32.6098442
         }
         ChatSize {
-          X: 332.539581
-          Y: 400
+          X: 450
+          Y: 286.467896
         }
         ChatHorizontalAlignment {
           Value: "mc:ecorehorizontalalign:left"

@@ -5,7 +5,7 @@ local Ability = script:GetCustomProperty("Abilty"):WaitForObject()
 
 assert(Ability, "Please add script so an Ability")
 
-Events.Connect("ScrollChange", function (dir)
+local ScrollEvent = Events.Connect("ScrollChange", function (dir)
     if dir ~= SIGN then
         return
     end
@@ -13,3 +13,7 @@ Events.Connect("ScrollChange", function (dir)
         Ability:Activate()
     end
 end )
+
+script.destroyEvent:Connect(function()
+    ScrollEvent:Disconnect()
+end)

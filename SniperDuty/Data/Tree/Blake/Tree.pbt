@@ -43,7 +43,7 @@ Objects {
         }
         Overrides {
           Name: "UIY"
-          Float: 14
+          Float: -1.07396698
         }
       }
     }
