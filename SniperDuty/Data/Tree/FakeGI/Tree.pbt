@@ -99,7 +99,7 @@ Objects {
           UseFallOffExponent: true
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 2569.02856
       MaxDistanceFadeRange: 1000
     }
   }

@@ -9046,7 +9046,7 @@ Objects {
     Location {
       X: 2275
       Y: 695
-      Z: 1770
+      Z: 1770.22412
     }
     Rotation {
       Yaw: -90
@@ -45394,7 +45394,7 @@ Objects {
     Location {
       X: -53.2039795
       Y: 1904.93164
-      Z: 100
+      Z: 100.049316
     }
     Rotation {
     }
@@ -45441,7 +45441,7 @@ Objects {
     Location {
       X: 966.795044
       Y: 1904.92969
-      Z: 100
+      Z: 100.049316
     }
     Rotation {
     }
@@ -45488,7 +45488,7 @@ Objects {
     Location {
       X: 1881.84143
       Y: 10
-      Z: 100
+      Z: 100.224121
     }
     Rotation {
       Yaw: -90
@@ -45583,8 +45583,8 @@ Objects {
   Transform {
     Location {
       X: 1881.84143
-      Y: -1205
-      Z: 100
+      Y: -1203.03027
+      Z: 100.099525
     }
     Rotation {
       Yaw: -179.999969
@@ -45632,7 +45632,7 @@ Objects {
     Location {
       X: 861.841431
       Y: -1205
-      Z: 100
+      Z: 100.099525
     }
     Rotation {
       Yaw: 180
@@ -45680,7 +45680,7 @@ Objects {
     Location {
       X: -53.1585693
       Y: -1205
-      Z: 100
+      Z: 100.224121
     }
     Rotation {
       Yaw: 90.0000076
@@ -45728,7 +45728,7 @@ Objects {
     Location {
       X: -53.1585693
       Y: -475
-      Z: 100
+      Z: 100.224121
     }
     Rotation {
       Yaw: 90.0000076
@@ -45776,7 +45776,7 @@ Objects {
     Location {
       X: -55
       Y: 325
-      Z: 100
+      Z: 100.224121
     }
     Rotation {
       Yaw: 90.0000076
@@ -45824,7 +45824,7 @@ Objects {
     Location {
       X: -55
       Y: 1125
-      Z: 100
+      Z: 100.224121
     }
     Rotation {
       Yaw: 90.0000076

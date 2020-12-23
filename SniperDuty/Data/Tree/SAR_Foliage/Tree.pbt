@@ -169,6 +169,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -220,6 +228,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -278,6 +294,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -330,6 +354,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -386,6 +418,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -438,6 +478,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -496,6 +544,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -548,6 +604,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -604,6 +668,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -656,6 +728,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -712,6 +792,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -764,6 +852,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -820,6 +916,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -871,6 +975,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -926,6 +1038,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -977,6 +1097,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1035,6 +1163,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1089,6 +1225,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1147,6 +1291,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1198,6 +1350,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1256,6 +1416,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1307,6 +1475,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1365,6 +1541,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1418,6 +1602,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1474,6 +1666,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1527,6 +1727,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1578,6 +1786,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1634,6 +1850,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1685,6 +1909,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1741,6 +1973,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1795,6 +2035,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1846,6 +2094,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -1903,6 +2159,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1955,6 +2219,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2011,6 +2283,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2065,6 +2345,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2117,6 +2405,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2174,6 +2470,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2222,9 +2526,11 @@ Objects {
   ParentId: 612199423538572622
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:id"
-      AssetReference {
-        Id: 14633748508747893171
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2280,6 +2586,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2333,6 +2647,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2384,6 +2706,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2442,6 +2772,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2494,6 +2832,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2549,6 +2895,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2600,6 +2954,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2656,6 +3018,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2707,6 +3077,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2761,6 +3139,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2812,6 +3198,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2869,6 +3263,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2921,6 +3323,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -2976,6 +3386,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3027,6 +3445,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3083,6 +3509,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3134,6 +3568,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3191,6 +3633,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3242,6 +3692,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3297,6 +3755,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3348,6 +3814,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3404,6 +3878,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3455,6 +3937,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3511,6 +4001,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3563,6 +4061,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3619,6 +4125,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3671,6 +4185,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3727,6 +4249,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3778,6 +4308,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3834,6 +4372,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3888,6 +4434,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3939,6 +4493,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -3997,6 +4559,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4051,6 +4621,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4109,6 +4687,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4161,6 +4747,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4216,6 +4810,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4269,6 +4871,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4320,6 +4930,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4376,6 +4994,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4427,6 +5053,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4481,6 +5115,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4539,6 +5181,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4590,6 +5240,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4646,6 +5304,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4697,6 +5363,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4753,6 +5427,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4804,6 +5486,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4860,6 +5550,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4912,6 +5610,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -4967,6 +5673,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5020,6 +5734,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5071,6 +5793,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -5127,6 +5857,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5178,6 +5916,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -5234,6 +5980,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5286,6 +6040,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -5342,6 +6104,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5394,6 +6164,14 @@ Objects {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
         Id: 14633748508747893171
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
       }
     }
   }
@@ -5450,6 +6228,14 @@ Objects {
         Id: 14633748508747893171
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5503,8 +6289,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5561,8 +6347,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5617,8 +6403,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5673,8 +6459,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5728,8 +6514,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5785,8 +6571,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5842,8 +6628,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5898,8 +6684,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -5953,8 +6739,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -6008,8 +6794,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -6063,8 +6849,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -6118,8 +6904,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -6173,8 +6959,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -6230,8 +7016,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -6288,8 +7074,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.26000002
+        G: 0.225333363
         A: 1
       }
     }
@@ -15200,7 +15986,7 @@ Objects {
       Z: 211.966583
     }
     Rotation {
-      Yaw: -71.5203171
+      Yaw: -71.5203247
     }
     Scale {
       X: 0.508324742

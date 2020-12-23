@@ -10,9 +10,9 @@
         Name: "SAR_OldTrashCan"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.877404869
+            Y: 0.877404869
+            Z: 0.877404869
           }
         }
         ParentId: 16373807130785117515
