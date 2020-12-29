@@ -61,6 +61,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local pressedHandle = nil              -- Event handle when player presses the aim binding
 local releasedHandle = nil             -- Event handle when player releases the aim binding
 local playerDieHandle = nil            -- Event handle when player dies
+local Connections
 
 -- Internal camera variables --
 local connected = false
@@ -227,7 +228,9 @@ function OnEquipped(weapon, player)
     pressedHandle = player.bindingPressedEvent:Connect(OnBindingPressed)
     releasedHandle = player.bindingReleasedEvent:Connect(OnBindingReleased)
     playerDieHandle = player.diedEvent:Connect(OnPlayerDied)
-
+    table.insert( Connections, pressedHandle )
+    table.insert( Connections, releasedHandle )
+    table.insert( Connections, playerDieHandle )
     lerpTime = 0
 
     -- Set the new active camera
@@ -287,7 +290,13 @@ function CheckSprint(states)
 end
 
 -- Initialize
-WEAPON.unequippedEvent:Connect(OnUnequipped)
-RELOAD_ABILITY.castEvent:Connect(OnReload)
 
-Events.Connect("ChangeMovementType", CheckSprint)
+Connections = {
+    WEAPON.unequippedEvent:Connect(OnUnequipped),
+    RELOAD_ABILITY.castEvent:Connect(OnReload),
+    Events.Connect("ChangeMovementType", CheckSprint),
+    script.destroyEvent:Connect(function() 
+        for k,v in pairs(Connections) do v:Disconnect()
+        end
+    end)
+}

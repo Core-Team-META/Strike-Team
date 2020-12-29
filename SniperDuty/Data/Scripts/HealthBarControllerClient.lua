@@ -57,7 +57,9 @@ function Tick(deltaTime)
     if player then
 		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
-			if weapon ~= nil then
+            if weapon ~= nil then
+                while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
+
                 AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo) or weapon.currentAmmo
                 MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo
             else

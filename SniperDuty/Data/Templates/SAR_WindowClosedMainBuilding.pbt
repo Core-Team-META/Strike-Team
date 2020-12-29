@@ -7,15 +7,15 @@
       RootId: 11550135456780394965
       Objects {
         Id: 11550135456780394965
-        Name: "SAR_WindowDoorsClosed"
+        Name: "SAR_WindowDoorsClosedMidBuilding"
         Transform {
           Scale {
             X: 1
-            Y: 1
+            Y: -1
             Z: 1
           }
         }
-        ParentId: 7633992929331903348
+        ParentId: 6859487677776779237
         ChildIds: 5348339068403564884
         ChildIds: 6646247489645012756
         ChildIds: 4729137213501764233
@@ -178,7 +178,7 @@
           Rotation {
           }
           Scale {
-            X: -1
+            X: 1
             Y: 1
             Z: 1
           }
@@ -202,14 +202,14 @@
         Name: "Group"
         Transform {
           Location {
-            X: -67.2930603
+            X: 67.2930603
             Y: 9.31738281
           }
           Rotation {
-            Yaw: 9.65611
+            Yaw: -9.65613461
           }
           Scale {
-            X: -1
+            X: 1
             Y: 1
             Z: 1
           }
@@ -508,12 +508,12 @@
         Name: "Group"
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: -6.10351563e-05
           }
           Rotation {
           }
           Scale {
-            X: 1
+            X: -1
             Y: 1
             Z: 1
           }

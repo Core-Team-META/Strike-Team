@@ -323,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5390120376389660115
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
   Id: 5381367210591412322
   Name: "Urban Pipe Elbow 01"
   PlatformAssetType: 1

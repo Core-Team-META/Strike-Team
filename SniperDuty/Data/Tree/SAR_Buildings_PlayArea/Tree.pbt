@@ -22476,15 +22476,8 @@ Objects {
 }
 Objects {
   Id: 7661508308372087432
-  Name: "SAR_WindowDoorsClosed"
+  Name: "SAR_WindowDoorsClosedMidBuilding"
   Transform {
-    Location {
-      X: -565
-      Y: 4280
-      Z: 270
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -22492,6 +22485,12 @@ Objects {
     }
   }
   ParentId: 6859487677776779237
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11550135456780394965
@@ -22511,14 +22510,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
           }
         }
       }

@@ -43,7 +43,15 @@ function AbilityReady(ability)
 	canThrow = true
 end
 
-equip.equippedEvent:Connect(OnEquip)
-equip.unequippedEvent:Connect(OnUnequip)
-abilityExecute = ability.executeEvent:Connect(SpawnGrenade)
-abilityReady = ability.readyEvent:Connect(AbilityReady)
+local Connections
+
+Connections = {
+	equip.equippedEvent:Connect(OnEquip),
+	equip.unequippedEvent:Connect(OnUnequip),
+	abilityExecute = ability.executeEvent:Connect(SpawnGrenade),
+	abilityReady = ability.readyEvent:Connect(AbilityReady),
+	script.destroyEvent:Connect(function() 
+	for k,v in pairs(Connections) do
+		v:Disconnect()
+	end end),
+}

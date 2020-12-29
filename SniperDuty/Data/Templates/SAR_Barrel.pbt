@@ -77,9 +77,7 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -6.07100677
-            Y: -0.307373047
-            Z: 71.9058762
+            Z: 72.028244
           }
           Rotation {
           }
@@ -649,8 +647,6 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -1.07097363
-            Y: 4.69267273
             Z: 143.492157
           }
           Rotation {
@@ -709,8 +705,6 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -1.07095695
-            Y: 4.69268036
             Z: 96.7437515
           }
           Rotation {
@@ -769,8 +763,6 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -1.07106221
-            Y: 4.69265
             Z: 49.5101242
           }
           Rotation {
@@ -829,8 +821,6 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -1.07104456
-            Y: 4.692626
             Z: 2.38418579e-06
           }
           Rotation {

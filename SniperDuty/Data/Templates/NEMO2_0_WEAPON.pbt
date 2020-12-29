@@ -167,9 +167,8 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 1000
+            BurstCount: 1
             BurstDuration: 11.1
-            BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -328,6 +327,7 @@
         ChildIds: 4376619738844709947
         ChildIds: 14445355654171809592
         ChildIds: 1992232089393199874
+        ChildIds: 15817083178302463608
         ChildIds: 14228281632368758039
         UnregisteredParameters {
         }
@@ -617,6 +617,51 @@
         Script {
           ScriptAsset {
             Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 15817083178302463608
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 1957837470783729883
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: -1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
           }
         }
       }
@@ -942,7 +987,7 @@
           }
           Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
-            Value: "mc:egameaction:primaryaction"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
@@ -1003,7 +1048,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }

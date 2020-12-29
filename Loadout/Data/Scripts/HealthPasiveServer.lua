@@ -11,6 +11,13 @@ function OnUnequip(equipment, player)
 	player.maxHitPoints = DEFAULT_HEALTH
 	player.hitPoints = DEFAULT_HEALTH
 end
+local Connections
 
-EQUIPMENT.equippedEvent:Connect(OnEquip)
-EQUIPMENT.unequippedEvent:Connect(OnUnequip)
+Connections = {
+script.destroyEvent:Connect(function()
+	for k,v in pairs(Connections) do
+		v:Disconnect()
+	end end),
+EQUIPMENT.equippedEvent:Connect(OnEquip),
+EQUIPMENT.unequippedEvent:Connect(OnUnequip),
+}

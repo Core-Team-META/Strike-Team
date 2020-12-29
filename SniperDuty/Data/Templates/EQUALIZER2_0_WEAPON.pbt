@@ -165,7 +165,7 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 3
+            BurstCount: 1
             BurstDuration: 15
             AttackCooldown: 0.25
             Range: 70000
@@ -325,6 +325,7 @@
         ChildIds: 18230547407548752521
         ChildIds: 10018712990668270082
         ChildIds: 335404330572443601
+        ChildIds: 1246129357212563979
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -855,6 +856,10 @@
               Id: 7611242078719564322
             }
           }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -865,6 +870,51 @@
         Script {
           ScriptAsset {
             Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 1246129357212563979
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 3
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
           }
         }
       }
@@ -943,6 +993,9 @@
             }
           }
           Animation: "1hand_pistol_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -999,7 +1052,7 @@
           Animation: "1hand_pistol_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }

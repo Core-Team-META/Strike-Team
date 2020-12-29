@@ -30,8 +30,6 @@
         Control {
           Width: 12
           Height: 12
-          UIX: 100
-          UIY: 840
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -219,11 +217,11 @@
           UseParentHeight: true
           Image {
             Brush {
-              Id: 17476121550048471155
+              Id: 18056787318024051379
             }
             Color {
-              G: 0.475363851
-              B: 0.74
+              R: 0.78
+              G: 0.464900672
               A: 1
             }
             TeamSettings {
@@ -233,12 +231,12 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -541,21 +539,21 @@
       }
     }
     Assets {
-      Id: 9967237144566667750
-      Name: "Icon Add"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Add"
-      }
-    }
-    Assets {
       Id: 18056787318024051379
       Name: "Center Arrow 004 Wedge"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "CenterArrow_004Wedge"
+      }
+    }
+    Assets {
+      Id: 9967237144566667750
+      Name: "Icon Add"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Add"
       }
     }
     PrimaryAssetId {

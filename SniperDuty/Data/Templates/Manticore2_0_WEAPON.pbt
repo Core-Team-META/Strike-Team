@@ -165,7 +165,6 @@
             }
             BurstCount: 1
             BurstDuration: 0.5
-            BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -335,6 +334,7 @@
         ChildIds: 7866757877235289516
         ChildIds: 4386669990835637117
         ChildIds: 7206193177703386033
+        ChildIds: 3469000322180489974
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -707,6 +707,51 @@
         }
       }
       Objects {
+        Id: 3469000322180489974
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6563956133325466814
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
+        }
+      }
+      Objects {
         Id: 12749761527350845930
         Name: "Shoot"
         Transform {
@@ -772,6 +817,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -828,7 +876,7 @@
           Animation: "2hand_rocket_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }

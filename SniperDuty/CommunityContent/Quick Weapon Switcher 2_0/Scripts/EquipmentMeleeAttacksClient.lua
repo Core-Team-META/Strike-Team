@@ -174,9 +174,10 @@ for _, ability in ipairs(abilityDescendants) do
         hitBox = ability:GetCustomProperty("Hitbox"):WaitForObject()
         hitBox.beginOverlapEvent:Connect(OnBeginOverlap)
 
-        ability.executeEvent:Connect(OnExecute)
-        ability.cooldownEvent:Connect(ResetMelee)
-
+        local exe = ability.executeEvent:Connect(OnExecute)
+        local cool = ability.cooldownEvent:Connect(ResetMelee)
+        table.insert( Connections, exe )
+        table.insert(Connection,cool)
         -- Gather custom properties on ability
         table.insert(abilityList, {
             ability = ability,
@@ -193,4 +194,12 @@ for _, ability in ipairs(abilityDescendants) do
 end
 
 -- Initialize
-EQUIPMENT.unequippedEvent:Connect(ResetMelee)
+local Connections
+
+Connections = {
+    script.destroyEvent:Connect(function()
+        for k,v in pairs(Connections) do
+            v:Disconnect()
+        end end),
+    EQUIPMENT.unequippedEvent:Connect(ResetMelee),
+}

@@ -6,7 +6,7 @@ local NAME = script:GetCustomProperty("Name"):WaitForObject()
 local DEAD = script:GetCustomProperty("Dead"):WaitForObject()
 local DIRECTION_ROOT = script:GetCustomProperty("DirectionRoot"):WaitForObject()
 local ARROW = script:GetCustomProperty("Arrow"):WaitForObject()
-
+local LOCAL_PLAYER = Game.GetLocalPlayer
 ROOT.visibility = Visibility.FORCE_OFF
 
 local myPlayer = nil
@@ -19,7 +19,8 @@ function SetPlayer(player)
 	ROOT.visibility = Visibility.INHERIT
 	
 	CIRCLE_BG.isEnabled = (player == Game.GetLocalPlayer())
-	
+	CIRCLE.isTeamColorUsed = not(player == Game.GetLocalPlayer())
+
 	-- Set player's initial name letter
 	NAME.text = string.sub(player.name, 1, 1)
 	
@@ -39,7 +40,7 @@ function UpdateContent()
 	
 	-- Direction arrow
 	local rot = myPlayer:GetWorldRotation()
-	--DIRECTION_ROOT.rotationAngle = rot.z
+	CIRCLE.rotationAngle = rot.z+90			
 end
 
 function Tick()

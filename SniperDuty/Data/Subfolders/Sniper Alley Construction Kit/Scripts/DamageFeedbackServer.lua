@@ -14,12 +14,13 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
+local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 
 -- nil OnPlayerDied(Player, Damage)
 -- Fires an event for the client to display fly up text when hit the enemy player
 function OnPlayerDamaged(player, damage)
     if damage.sourcePlayer then
-        Events.BroadcastToAllPlayers ("PlayerDamage_Internal", damage.amount, player, damage.sourcePlayer)
+        ReliableEvents.BroadcastToAllPlayers ("PlayerDamage_Internal", damage.amount, player, damage.sourcePlayer)
     end
 end
 

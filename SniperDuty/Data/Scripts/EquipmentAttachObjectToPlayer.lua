@@ -57,5 +57,13 @@ function OnUnequipped()
 end
 
 -- Initialize
-EQUIPMENT.equippedEvent:Connect(OnEquipped)
-EQUIPMENT.unequippedEvent:Connect(OnUnequipped)
+local Connections
+
+Connections = {
+script.destroyEvent:Connect(function()
+	for k,v in pairs(Connections) do
+		v:Disconnect()
+	end end),
+EQUIPMENT.equippedEvent:Connect(OnEquipped),
+EQUIPMENT.unequippedEvent:Connect(OnUnequipped),
+}

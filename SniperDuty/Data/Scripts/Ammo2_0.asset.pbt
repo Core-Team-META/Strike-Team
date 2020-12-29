@@ -20,6 +20,10 @@
           Id: 841534158063459245
         }
       }
+      Overrides {
+        Name: "cs:RELOAD"
+        String: "ability_extra_23"
+      }
     }
   }
   SerializationVersion: 70

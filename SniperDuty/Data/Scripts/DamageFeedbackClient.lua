@@ -18,6 +18,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Internal custom properties
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local HIT_INDICATOR = script:GetCustomProperty("HitIndicator"):WaitForObject()
+local ReliableEvents =  require(script:GetCustomProperty("ReliableEvents"))
 
 -- User exposed properties
 local DAMAGE_TEXT_DURATION = COMPONENT_ROOT:GetCustomProperty("DamageTextDuration")

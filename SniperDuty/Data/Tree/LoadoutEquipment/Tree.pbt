@@ -116,17 +116,8 @@ Objects {
     }
   }
   ParentId: 7780856593741614824
-  ChildIds: 17162306457679031153
-  ChildIds: 17066295108914096463
-  ChildIds: 7946368540848601553
-  ChildIds: 5827126783095184853
-  ChildIds: 3915395255473638770
-  ChildIds: 911942358511866115
-  ChildIds: 1418287762574885787
-  ChildIds: 17655989307266579845
-  ChildIds: 3246706646218197278
   ChildIds: 10983703256242542876
-  ChildIds: 16856895048486060076
+  ChildIds: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -162,6 +153,65 @@ Objects {
   }
 }
 Objects {
+  Id: 16498542451107379506
+  Name: "UI Panel"
+  Transform {
+    Location {
+      X: -35.5632477
+      Y: 6051.21289
+      Z: 4902.02832
+    }
+    Rotation {
+      Yaw: -130.193817
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7171954025704300966
+  ChildIds: 17162306457679031153
+  ChildIds: 17066295108914096463
+  ChildIds: 7946368540848601553
+  ChildIds: 5827126783095184853
+  ChildIds: 3915395255473638770
+  ChildIds: 911942358511866115
+  ChildIds: 1418287762574885787
+  ChildIds: 17655989307266579845
+  ChildIds: 3246706646218197278
+  ChildIds: 16856895048486060076
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 16856895048486060076
   Name: "UI Panel"
   Transform {
@@ -179,7 +229,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   ChildIds: 6207622064112515879
   ChildIds: 13419840748557972067
   ChildIds: 13724273452352395059
@@ -195,8 +245,8 @@ Objects {
   Control {
     Width: 356
     Height: 146
-    UIX: 712.421936
-    UIY: -52.7587891
+    UIX: 349.166077
+    UIY: -51.502739
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -207,12 +257,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomleft"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomleft"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
@@ -904,183 +954,6 @@ Objects {
   }
 }
 Objects {
-  Id: 10983703256242542876
-  Name: "Respawn"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7171954025704300966
-  ChildIds: 6697933038155954036
-  ChildIds: 159263226938694362
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 536
-    Height: 37
-    UIX: 108.028992
-    UIY: -223.597534
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Button {
-      Label: "R E S P A W N"
-      FontColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      FontSize: 12
-      ButtonColor {
-        A: 0.765000045
-      }
-      HoveredColor {
-        R: 0.0310000014
-        G: 0.0310000014
-        B: 0.0310000014
-        A: 0.859
-      }
-      PressedColor {
-        R: 0.0470000021
-        G: 0.0470000021
-        B: 0.0470000021
-        A: 0.859
-      }
-      DisabledColor {
-        A: 0.418
-      }
-      Brush {
-        Id: 622433789355555801
-      }
-      IsButtonEnabled: true
-      ClickMode {
-        Value: "mc:ebuttonclickmode:preciseclick"
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4871490061779537534
-    SubobjectId: 11691442789404004049
-    InstanceId: 4975704287466969891
-    TemplateId: 10798511928395917419
-  }
-}
-Objects {
-  Id: 159263226938694362
-  Name: "RespawnScript"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10983703256242542876
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5026250846313057190
-    }
-  }
-}
-Objects {
-  Id: 6697933038155954036
-  Name: "UI Image"
-  Transform {
-    Location {
-      X: 242.557495
-      Y: 57.5
-      Z: 151.785278
-    }
-    Rotation {
-      Yaw: 61.9845428
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10983703256242542876
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: -205
-    Height: 200
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 16873054259561342990
-      }
-      Color {
-        R: 0.366252601
-        G: 0.366252601
-        B: 0.366252601
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 3246706646218197278
   Name: "Loadoutbutton"
   Transform {
@@ -1094,7 +967,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1121,11 +994,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1144,7 +1021,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 461.323364
+          Float: 28.9358215
         }
         Overrides {
           Name: "UIY"
@@ -1153,6 +1030,18 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 8"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1175,7 +1064,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1202,11 +1091,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1225,7 +1118,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 461.323364
+          Float: 28.9358215
         }
         Overrides {
           Name: "UIY"
@@ -1234,6 +1127,18 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 7"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1256,7 +1161,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1283,11 +1188,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1304,11 +1213,23 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 461.323364
+          Float: 28.9358215
         }
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 6"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1331,7 +1252,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1358,11 +1279,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1381,7 +1306,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 260.099915
+          Float: -172.287628
         }
         Overrides {
           Name: "UIY"
@@ -1390,6 +1315,18 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 5"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1412,7 +1349,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1439,11 +1376,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1462,7 +1403,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 260.099915
+          Float: -172.287628
         }
         Overrides {
           Name: "UIY"
@@ -1471,6 +1412,18 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 4"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1493,7 +1446,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1520,11 +1473,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1543,7 +1500,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 61.5416718
+          Float: -370.845886
         }
         Overrides {
           Name: "UIY"
@@ -1552,6 +1509,18 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 3"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1574,7 +1543,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1601,11 +1570,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
@@ -1624,7 +1597,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: 61.5416718
+          Float: -370.845886
         }
         Overrides {
           Name: "UIY"
@@ -1633,6 +1606,18 @@ Objects {
         Overrides {
           Name: "Label"
           String: "Custom Loadouts 2"
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
         }
       }
     }
@@ -1651,7 +1636,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1669,16 +1654,44 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: 4599.36279
+            Y: 3932.46924
+            Z: -4902.02832
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 130.193802
           }
         }
         Overrides {
           Name: "UIY"
           Float: -160
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomcenter"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -370.845886
         }
       }
     }
@@ -1705,7 +1718,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7171954025704300966
+  ParentId: 16498542451107379506
   ChildIds: 6586553544412292502
   ChildIds: 10916459089424951020
   Collidable_v2 {
@@ -1717,8 +1730,8 @@ Objects {
   Control {
     Width: 1063
     Height: 196
-    UIX: 47.7262955
-    UIY: -26.3795776
+    UIX: 40.2220459
+    UIY: -26.3794708
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1740,12 +1753,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomleft"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomleft"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
@@ -1870,6 +1883,182 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10983703256242542876
+  Name: "Respawn"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7171954025704300966
+  ChildIds: 6697933038155954036
+  ChildIds: 159263226938694362
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 536
+    Height: 81
+    UIY: -231.134277
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "R E S P A W N"
+      FontColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        A: 0.765000045
+      }
+      HoveredColor {
+        R: 0.0310000014
+        G: 0.0310000014
+        B: 0.0310000014
+        A: 0.859
+      }
+      PressedColor {
+        R: 0.0470000021
+        G: 0.0470000021
+        B: 0.0470000021
+        A: 0.859
+      }
+      DisabledColor {
+        A: 0.418
+      }
+      Brush {
+        Id: 622433789355555801
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:preciseclick"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4871490061779537534
+    SubobjectId: 11691442789404004049
+    InstanceId: 4975704287466969891
+    TemplateId: 10798511928395917419
+  }
+}
+Objects {
+  Id: 159263226938694362
+  Name: "RespawnScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10983703256242542876
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5026250846313057190
+    }
+  }
+}
+Objects {
+  Id: 6697933038155954036
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: 242.557495
+      Y: 57.5
+      Z: 151.785278
+    }
+    Rotation {
+      Yaw: 61.9845428
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10983703256242542876
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: -205
+    Height: 200
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 16873054259561342990
+      }
+      Color {
+        R: 0.366252601
+        G: 0.366252601
+        B: 0.366252601
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
       }
     }

@@ -160,7 +160,7 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 300
+            BurstCount: 1
             BurstDuration: 10
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
@@ -322,6 +322,7 @@
         ChildIds: 4701555205911936464
         ChildIds: 7072625529179786660
         ChildIds: 9013636594582731208
+        ChildIds: 18154958446711881973
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -867,6 +868,51 @@
         }
       }
       Objects {
+        Id: 18154958446711881973
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 4861632680637020456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: -1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
+        }
+      }
+      Objects {
         Id: 5451442880000197012
         Name: "Shoot"
         Transform {
@@ -935,6 +981,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -994,7 +1043,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }

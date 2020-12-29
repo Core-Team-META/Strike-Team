@@ -35,7 +35,7 @@ local DEFAULT_LIFE_SPAN = 2
 
 -- Internal variables
 local abilityList = {}
-
+local Connections = {}
 -- nil Tick()
 -- Checks the players within hitbox, and makes sure swipe effects stay at the player's location
 function Tick()
@@ -165,6 +165,17 @@ end
 
 -- Initialize
 
+Connections = {
+script.destroyEvent:Connect(function()
+	for k,v in pairs(Connections) do
+		v:Disconnect()
+	end end),
+    EQUIPMENT.unequippedEvent:Connect(ResetMelee)
+}
+
+
+-- Initialize
+
 -- Find all abilities with melee related custom properties
 local abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
 for _, ability in ipairs(abilityDescendants) do
@@ -172,11 +183,10 @@ for _, ability in ipairs(abilityDescendants) do
 
     if hitBox then
         hitBox = ability:GetCustomProperty("Hitbox"):WaitForObject()
-        hitBox.beginOverlapEvent:Connect(OnBeginOverlap)
-
-        ability.executeEvent:Connect(OnExecute)
-        ability.cooldownEvent:Connect(ResetMelee)
-
+        
+        table.insert( Connections,hitBox.beginOverlapEvent:Connect(OnBeginOverlap))
+        table.insert( Connections,ability.executeEvent:Connect(OnExecute))
+        table.insert( Connections,ability.cooldownEvent:Connect(ResetMelee))
         -- Gather custom properties on ability
         table.insert(abilityList, {
             ability = ability,
@@ -191,6 +201,3 @@ for _, ability in ipairs(abilityDescendants) do
         })
     end
 end
-
--- Initialize
-EQUIPMENT.unequippedEvent:Connect(ResetMelee)

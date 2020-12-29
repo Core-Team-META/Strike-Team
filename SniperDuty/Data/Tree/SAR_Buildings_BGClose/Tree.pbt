@@ -85166,7 +85166,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 12663918421043863170
+        Id: 5390120376389660115
       }
     }
     Overrides {
@@ -85193,7 +85193,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {

@@ -15,6 +15,7 @@ end
 
 function RemovePlayer(player)
     if(Object.IsValid(EQUIPMENT) ) then
+        
         EQUIPMENT.serverUserData.KillEvents[player]:Disconnect()
         EQUIPMENT.serverUserData.KillEvents[player] = nil
     end

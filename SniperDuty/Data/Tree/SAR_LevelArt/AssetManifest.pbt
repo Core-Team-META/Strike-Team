@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17860750842844291223
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
+  }
+}
+Assets {
   Id: 17829956314758502204
   Name: "Ellipsoid - Truncated"
   PlatformAssetType: 1
@@ -266,6 +275,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_rounded_002"
+  }
+}
+Assets {
+  Id: 15514326864313295999
+  Name: "Text 01: {"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_051"
   }
 }
 Assets {
@@ -521,6 +539,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13442965192408425307
+  Name: "Modern Weapon Accessory - Rail 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_acc_rail_001"
+  }
+}
+Assets {
   Id: 13171200732535708403
   Name: "Metal Corrugated 01"
   PlatformAssetType: 2
@@ -638,6 +665,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12630862952169066180
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
+  }
+}
+Assets {
   Id: 12617664793519417206
   Name: "Cone - Truncated Concave"
   PlatformAssetType: 1
@@ -752,6 +788,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_top_6m_001"
+  }
+}
+Assets {
+  Id: 11444910120334123213
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
+  }
+}
+Assets {
+  Id: 11353461757709897270
+  Name: "Container - Rectangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_rectangle_ref"
   }
 }
 Assets {
@@ -986,6 +1040,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mat_advanced_9slice_shipping_container001_ref"
+  }
+}
+Assets {
+  Id: 8329339828071933523
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {

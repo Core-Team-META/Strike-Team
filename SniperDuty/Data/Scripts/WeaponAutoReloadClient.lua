@@ -85,7 +85,7 @@ function Reload()
 
 end
 
-Task.Spawn(function()
+function Tick( )
     Reload()
     Task.Wait()
-end).repeatCount = -1
+end

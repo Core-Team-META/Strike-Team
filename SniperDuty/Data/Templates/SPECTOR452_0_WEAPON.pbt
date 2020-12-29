@@ -325,6 +325,7 @@
         ChildIds: 18230547407548752521
         ChildIds: 10018712990668270082
         ChildIds: 14598254733455142836
+        ChildIds: 1876423834058843535
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -869,6 +870,51 @@
         }
       }
       Objects {
+        Id: 1876423834058843535
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
+        }
+      }
+      Objects {
         Id: 8150984623336486395
         Name: "Shoot"
         Transform {
@@ -943,6 +989,9 @@
             }
           }
           Animation: "1hand_pistol_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -999,7 +1048,7 @@
           Animation: "1hand_pistol_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }

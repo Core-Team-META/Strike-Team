@@ -169,14 +169,14 @@ Objects {
   Name: "8"
   Transform {
     Location {
-      X: -400
-      Y: 600
+      X: -399.999481
+      Y: 599.99939
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -208,14 +208,14 @@ Objects {
   Name: "7"
   Transform {
     Location {
-      X: -300
-      Y: -450
+      X: -299.999756
+      Y: -449.999695
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -247,14 +247,14 @@ Objects {
   Name: "6"
   Transform {
     Location {
-      X: -300
-      Y: 450
+      X: -299.999756
+      Y: 449.999329
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -286,14 +286,14 @@ Objects {
   Name: "5"
   Transform {
     Location {
-      X: -200
-      Y: -300
+      X: -199.999771
+      Y: -299.999817
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -325,14 +325,14 @@ Objects {
   Name: "4"
   Transform {
     Location {
-      X: -200
-      Y: 300
+      X: -199.999741
+      Y: 299.999939
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -364,14 +364,14 @@ Objects {
   Name: "3"
   Transform {
     Location {
-      X: -100
-      Y: -150
+      X: -99.999855
+      Y: -149.999908
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -403,14 +403,14 @@ Objects {
   Name: "2"
   Transform {
     Location {
-      X: -100
-      Y: 150
+      X: -99.9999
+      Y: 149.999969
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }
@@ -449,8 +449,8 @@ Objects {
       Yaw: 180
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 1.00745189
+      Y: 0.999999106
       Z: 1
     }
   }

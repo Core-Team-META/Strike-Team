@@ -39,6 +39,13 @@ function Recoil()
     end
 end
 
+local Connections
 
+Connections = {
+script.destroyEvent:Connect(function()
+	for k,v in pairs(Connections) do
+		v:Disconnect()
+	end end),
 SHOOT_ABILITY.executeEvent:Connect(Recoil)
+}
 
