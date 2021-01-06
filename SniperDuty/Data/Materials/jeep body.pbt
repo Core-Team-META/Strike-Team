@@ -2,7 +2,7 @@
   Id: 46112334144538233
   Name: "jeep body"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 4312845337497528840
     ParameterOverrides {

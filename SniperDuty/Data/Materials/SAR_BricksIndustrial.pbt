@@ -2,7 +2,7 @@
   Id: 9524317757610818993
   Name: "SAR_BricksIndustrial"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

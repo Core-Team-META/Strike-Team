@@ -2,7 +2,7 @@
   Id: 4100314252507023377
   Name: "Custom Terrain Desert 4-way Blend"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 6425642891952514697
     ParameterOverrides {

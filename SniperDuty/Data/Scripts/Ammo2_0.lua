@@ -60,6 +60,10 @@ function CheckFire()
     end
 end
 
+function Reset()
+    WEAPON.clientUserData.reloading = false
+end
+
 function PrepFire()
     reloading = false   
     CheckFire()
@@ -73,8 +77,10 @@ function Fire()
 end
 
 function BindReload()
-    if(not WEAPON.owner or not RELOAD_ABILITY.owner ) then return end
+
+    if(not WEAPON.owner ) then return end
     ReloadEvent = WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
+
         if(binding == RELOAD and WEAPON.clientUserData.reloading == false and  WEAPON.clientUserData.Ammo < MAX_AMMO) then
             RELOAD_ABILITY:Activate()
         end
@@ -100,7 +106,7 @@ ConnectedEvents = {
     ATTACK_ABILITY.executeEvent:Connect(Fire),
     RELOAD_ABILITY.castEvent:Connect(PrepReload),
     RELOAD_ABILITY.executeEvent:Connect(Reload),
-
+    RELOAD_ABILITY.interruptedEvent:Connect(Reset),
     script.destroyEvent:Connect(function()
         for _,v in pairs(ConnectedEvents) do
             if(v) then

@@ -24,7 +24,7 @@ local SCORE_PER_KILL = COMPONENT_ROOT:GetCustomProperty("ScorePerKill")
 -- nil OnPlayerDied(Player, Damage)
 -- Increases team score if the team killed an enemy
 function OnPlayerDied(player, damage)
-    if Object.IsValid(damage.sourcePlayer) then
+    if Object.IsValid(damage.sourcePlayer) and player.team ~= damage.sourcePlayer.team then
         local teamScored = damage.sourcePlayer.team
         Game.IncreaseTeamScore(teamScored, SCORE_PER_KILL)
     end

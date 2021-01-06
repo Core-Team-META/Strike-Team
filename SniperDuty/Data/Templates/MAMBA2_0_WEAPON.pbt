@@ -914,7 +914,7 @@
           }
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 4
+            Float: 2
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
@@ -1194,5 +1194,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

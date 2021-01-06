@@ -164,7 +164,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 0.5
+            BurstDuration: 1
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -904,5 +904,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

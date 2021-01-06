@@ -2,7 +2,7 @@
   Id: 12070980262702407311
   Name: "SAR_Sandbag"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 8750377587233045914
     ParameterOverrides {

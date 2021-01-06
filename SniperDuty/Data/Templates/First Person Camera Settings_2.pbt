@@ -100,6 +100,7 @@
             FlipOnMultiJump: true
             CanMoveUp: true
             CanMoveDown: true
+            MaxHitpoints: 100
           }
         }
       }
@@ -180,5 +181,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

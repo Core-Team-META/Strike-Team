@@ -147,6 +147,19 @@ Assets {
   }
 }
 Assets {
+  Id: 15245842718766076615
+  Name: "SkinStorage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "673d2761ec9b45a5a03c5970e423c582"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 14631716589231304463
   Name: "Sci-fi Base Trim 02 4m"
   PlatformAssetType: 1

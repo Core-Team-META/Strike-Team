@@ -26,7 +26,6 @@ end
 ]]
 local function getExtraCode(dmg,theKilled)
     if not dmg then return end
-
     --check for headshot
     if(dmg:GetHitResult()) then
         local hitRes = dmg:GetHitResult()

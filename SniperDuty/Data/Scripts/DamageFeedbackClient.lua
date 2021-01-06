@@ -38,7 +38,7 @@ HIT_INDICATOR.visibility = Visibility.FORCE_OFF
 -- Displays the the hit indicator for half a second
 function TriggerHitIndicator()
     HIT_INDICATOR.visibility = Visibility.INHERIT
-    Task.Wait(.5)
+    Task.Wait(1)
     HIT_INDICATOR.visibility = Visibility.FORCE_OFF
 end
 
@@ -50,7 +50,7 @@ function DisplayDamage(damage, targetPlayer, sourcePlayer)
     if sourcePlayer == LOCAL_PLAYER then
         if SHOW_FLY_UP_TEXT then
             -- Show fly up damage text on target player
-            UI.ShowFlyUpText(string.format("%.0f", damage), targetPlayer:GetWorldPosition(),
+            UI.ShowFlyUpText(tostring(math.floor(damage)), targetPlayer:GetWorldPosition()+Vector3.UP*100,
                 {duration = DAMAGE_TEXT_DURATION,
                 color = DAMAGE_TEXT_COLOR,
                 isBig = IS_BIG_TEXT})

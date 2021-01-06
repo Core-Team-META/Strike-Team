@@ -15,7 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 9143122953913418349
+        ParentId: 14933729121853623480
+        ChildIds: 14918399479264510749
         ChildIds: 2805299409739071294
         ChildIds: 1797012006473160440
         ChildIds: 9265566837550304441
@@ -47,6 +48,12 @@
               SubObjectId: 11306424681309017429
             }
           }
+          Overrides {
+            Name: "cs:PadLock"
+            ObjectReference {
+              SubObjectId: 14918399479264510749
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -73,6 +80,120 @@
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14918399479264510749
+        Name: "GrayedOut"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1877528306481387024
+        ChildIds: 10157678964880626258
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 75
+          Height: 75
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 3774657568957881846
+            }
+            Color {
+              A: 0.319
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10157678964880626258
+        Name: "PadLock"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14918399479264510749
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 75
+          Height: 75
+          UIX: 105.586914
+          UIY: 21.3547363
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 6166947203288011858
+            }
+            Color {
+              R: 0.682
+              G: 0.772099495
+              B: 1
+              A: 0.744
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -812,6 +933,24 @@
       }
     }
     Assets {
+      Id: 3774657568957881846
+      Name: "BG Flat 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
+      Id: 6166947203288011858
+      Name: "Icon Lock"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Lock"
+      }
+    }
+    Assets {
       Id: 16087217136573816005
       Name: "Military Frame 009"
       PlatformAssetType: 9
@@ -845,15 +984,6 @@
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "FrameFlat_020"
-      }
-    }
-    Assets {
-      Id: 3774657568957881846
-      Name: "BG Flat 001"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundNoOutline_020"
       }
     }
     PrimaryAssetId {

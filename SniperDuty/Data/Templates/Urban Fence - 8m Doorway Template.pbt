@@ -756,5 +756,5 @@
       AssetId: "Urban_Fence_-_8m_Doorway_Template"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

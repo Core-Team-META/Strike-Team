@@ -2,7 +2,7 @@
   Id: 7073292077687017536
   Name: "SAR_PaintOldFloor"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

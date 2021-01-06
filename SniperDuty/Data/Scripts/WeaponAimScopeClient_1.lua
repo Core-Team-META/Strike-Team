@@ -77,15 +77,15 @@ local isScoping = false
 function Tick(deltaTime)
     if not CAN_AIM  then return end
     if not Object.IsValid(WEAPON) then return end
-
+    if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
     -- We call OnEquipped function after player is fully loaded in client
-    if Object.IsValid(WEAPON.owner) and not connected then
+    if Object.IsValid(WEAPON.owner)  and not connected then
         if GetPlayerActiveCamera(WEAPON.owner) == nil then return end
 
         OnEquipped(WEAPON, WEAPON.owner)
         connected = true
     end
-
+    if WEAPON.owner ~= LOCAL_PLAYER then return end
     -- Smoothly lerps the camera distance and FOV when player aims
     LerpCamera(deltaTime)
 end
@@ -115,7 +115,7 @@ function LerpCamera(deltaTime)
 end
 
  -- Gets player current active camera
- function GetPlayerActiveCamera(player)
+function GetPlayerActiveCamera(player)
     if not Object.IsValid(player) then
         return nil
     end
@@ -203,34 +203,34 @@ function ResetScoping(player)
     Events.Broadcast("WeaponAiming", player, false)
 end
 
+function ForceReset(player)
+    if not activeCamera then return end 
+    activeCamera.fieldOfView = cameraResetFOV
+end
+
 function OnBindingPressed(player, actionName)
-    if actionName == AIM_BINDING and not WEAPON.owner.clientUserData.isSprinting then
+    if actionName == AIM_BINDING and not player.isDead then
         EnableScoping(player)
-    elseif (player.clientUserData.isSprinting) then
-        ResetScoping(player)
     end 
 end
 
 function OnBindingReleased(player, actionName)
-    if actionName == AIM_BINDING then
+    if actionName == AIM_BINDING and not player.isDead  then
         ResetScoping(player)
 	end
 end
 
 function OnPlayerDied(player, damage)
-    ResetScoping(player)
+    ResetScoping(player) 
 end
 
 function OnEquipped(weapon, player)
-    if not CAN_AIM then return end
-
+    if not CAN_AIM  then return end  
+    if player ~= LOCAL_PLAYER then return end
+    
     -- Register binding handles
     pressedHandle = player.bindingPressedEvent:Connect(OnBindingPressed)
     releasedHandle = player.bindingReleasedEvent:Connect(OnBindingReleased)
-    playerDieHandle = player.diedEvent:Connect(OnPlayerDied)
-    table.insert( Connections, pressedHandle )
-    table.insert( Connections, releasedHandle )
-    table.insert( Connections, playerDieHandle )
     lerpTime = 0
 
     -- Set the new active camera
@@ -248,14 +248,17 @@ end
 
 function OnUnequipped(weapon, player)
     if not CAN_AIM then return end
-
     ResetScoping(player)
-
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
-	if (pressedHandle) then pressedHandle:Disconnect() end
-	if (releasedHandle) then releasedHandle:Disconnect() end
-    if (playerDieHandle) then playerDieHandle:Disconnect() end
+    if pressedHandle then 
+        pressedHandle:Disconnect()
+        pressedHandle = nil
+    end
+    if releasedHandle then  
+        releasedHandle:Disconnect() 
+        releasedHandle = nil 
+    end
 
     -- Remove the reference to the camera
     if Object.IsValid(activeCamera) then
@@ -276,27 +279,18 @@ function OnReload(ability)
     ResetScoping(ability.owner)
 end
 
--- Check sprint
-function CheckSprint(states)
-    if not Object.IsValid(WEAPON) then return end
-    if LOCAL_PLAYER ~= WEAPON.owner then return end
-    if not isScoping then return end
-
-    local speedType = states.Running and "Run" or "Walk"
-
-	if speedType == "Run" then
-		ResetScoping(LOCAL_PLAYER)
-	end
-end
-
 -- Initialize
 
 Connections = {
     WEAPON.unequippedEvent:Connect(OnUnequipped),
     RELOAD_ABILITY.castEvent:Connect(OnReload),
-    Events.Connect("ChangeMovementType", CheckSprint),
-    script.destroyEvent:Connect(function() 
-        for k,v in pairs(Connections) do v:Disconnect()
+    script.destroyEvent:Connect(function(OBJ) 
+        if(WEAPON.owner) then
+            ForceReset( WEAPON.owner)
+            OnUnequipped(WEAPON, WEAPON.owner)
+        end
+        for k,v in pairs(Connections) do
+             v:Disconnect()
         end
     end)
 }

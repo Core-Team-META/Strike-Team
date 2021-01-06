@@ -2,7 +2,7 @@
   Id: 14633748508747893171
   Name: "SAR_BushLeaves"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 17956201822540550512
     ParameterOverrides {

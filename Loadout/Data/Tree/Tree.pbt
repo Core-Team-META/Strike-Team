@@ -14,13 +14,15 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 11379930114363017525
   ChildIds: 7367735074338159388
   ChildIds: 17257846423230686053
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 2889041290310694249
+  ChildIds: 14366066420687031571
+  ChildIds: 17855751618251119169
   ChildIds: 11973261848846093947
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
@@ -282,9 +284,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2889041290310694249
+  Id: 17855751618251119169
   Name: "LoadoutEquipment"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -292,28 +298,74 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15973117888364099070
-      value {
-        Overrides {
-          Name: "Name"
-          String: "LoadoutEquipment"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LoadoutEquipment"
+  }
+  InstanceHistory {
+    SelfId: 17855751618251119169
+    SubobjectId: 15973117888364099070
+    InstanceId: 2889041290310694249
+    TemplateId: 10798511928395917419
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 14366066420687031571
+  Name: "Storage"
+  Transform {
+    Location {
     }
-    TemplateAsset {
-      Id: 10798511928395917419
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7756213477231364672
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+}
+Objects {
+  Id: 7756213477231364672
+  Name: "Storage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14366066420687031571
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17225308263070651631
     }
   }
 }
@@ -30438,6 +30490,33 @@ Objects {
         MinContactOffset: 2
         MaxContactOffset: 8
       }
+    }
+  }
+}
+Objects {
+  Id: 11379930114363017525
+  Name: "StorageKeys"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15034763667884300923
     }
   }
 }

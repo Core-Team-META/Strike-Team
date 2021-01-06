@@ -2095,6 +2095,12 @@ Objects {
         Id: 1680988108412715813
       }
     }
+    Overrides {
+      Name: "cs:NetworkSpawn"
+      AssetReference {
+        Id: 2920198739919870258
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

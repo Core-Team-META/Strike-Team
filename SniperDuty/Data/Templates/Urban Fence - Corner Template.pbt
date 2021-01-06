@@ -392,5 +392,5 @@
       AssetId: "Urban_Fence_-_Corner_Template"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

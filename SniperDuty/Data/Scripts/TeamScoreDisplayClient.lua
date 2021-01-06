@@ -36,13 +36,6 @@ if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     MAX_SCORE = 100
 end
 
-if(TEAM == Game.GetLocalPlayer().team) then
-    PROGRESSBAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
-else
-    PROGRESSBAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
-end
-
-
 -- nil Tick(float)
 -- Update the display
 function Tick(deltaTime)
@@ -52,5 +45,11 @@ function Tick(deltaTime)
         TEXT_BOX.text = string.format(score)  -- string.format("%s %d / %d", LABEL, score, MAX_SCORE)
     else
         TEXT_BOX.text = string.format("%s %d", LABEL, score)
+    end
+
+    if(TEAM == Game.GetLocalPlayer().team) then
+        PROGRESSBAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
+    else
+        PROGRESSBAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
     end
 end

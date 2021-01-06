@@ -9,10 +9,6 @@
         Id: 17035684860207208329
         Name: "Rifle Muzzle Flash"
         Transform {
-          Location {
-          }
-          Rotation {
-          }
           Scale {
             X: 1
             Y: 1
@@ -85,6 +81,10 @@
               Value: "mc:esfx_gunshot_assaultrifle_ak:1"
             }
           }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -98,7 +98,7 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1
+            Volume: 0.7
             Falloff: 3600
             Radius: 400
             IsSpatializationEnabled: true
@@ -167,5 +167,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

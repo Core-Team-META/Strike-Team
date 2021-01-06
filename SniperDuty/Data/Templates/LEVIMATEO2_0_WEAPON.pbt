@@ -548,7 +548,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 6
+            Float: 3
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -1126,5 +1126,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

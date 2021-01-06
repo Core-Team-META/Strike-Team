@@ -56171,8 +56171,8 @@ Objects {
   Name: "Urban Damaged Wall 01 Half - Window 01"
   Transform {
     Location {
-      X: -36.8146973
-      Y: 226.814941
+      X: -37.6945801
+      Y: 225.935303
       Z: 600
     }
     Rotation {
@@ -97987,6 +97987,19 @@ Objects {
   ParentId: 1018913470639069916
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4740397734483745824
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -189.983414
+            Y: -0.000137329102
+            Z: 76.2027
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11572563957733392797
       value {
         Overrides {
@@ -97997,7 +98010,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -900
-            Y: -2040
+            Y: -1995.97559
             Z: 315
           }
         }

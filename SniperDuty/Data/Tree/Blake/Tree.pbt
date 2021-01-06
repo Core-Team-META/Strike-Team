@@ -1,6 +1,32 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 16308489428754801504
+  Name: "SprayWheel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "SprayWheel"
+  }
+}
+Objects {
   Id: 6108886443765963531
   Name: "FPSMeter"
   Transform {

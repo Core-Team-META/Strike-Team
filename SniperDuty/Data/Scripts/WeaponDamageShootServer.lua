@@ -50,7 +50,7 @@ function OnWeaponInteracted(weapon, impactData)
         newDamageInfo.reason = DamageReason.COMBAT
         newDamageInfo.sourceAbility = impactData.sourceAbility
         newDamageInfo.sourcePlayer = weaponOwner
-
+        newDamageInfo:SetHitResult(impactData:GetHitResults()[1])
         -- Apply damage to the enemy player
         target:ApplyDamage(newDamageInfo)
     end

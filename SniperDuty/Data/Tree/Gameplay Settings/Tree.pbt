@@ -3469,8 +3469,6 @@ Objects {
     AttachToLocalPlayer: true
     FreeControl: true
     IsDistanceAdjustable: true
-    MinDistance: -1e-07
-    MaxDistance: 1e-07
     PositionOffset {
     }
     RotationOffset {
@@ -3602,6 +3600,7 @@ Objects {
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
+      MaxHitpoints: 100
     }
   }
 }
@@ -3675,6 +3674,7 @@ Objects {
       MountChannelingTime: 2
       CanMoveUp: true
       CanMoveDown: true
+      MaxHitpoints: 100
     }
   }
   InstanceHistory {

@@ -977,6 +977,10 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "cs:UseTemplate"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

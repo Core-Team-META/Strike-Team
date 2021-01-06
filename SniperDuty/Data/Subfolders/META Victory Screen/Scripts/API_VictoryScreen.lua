@@ -242,7 +242,7 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 
 	player.movementControlMode = data.originalMovementControlMode
 	player.lookControlMode = data.originalLookControlMode 
-	
+	player:Die()
 	
 	if(tasks[player]) then
 		tasks[player]:Cancel()

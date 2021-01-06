@@ -550,11 +550,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 90
+            Float: 45
           }
           Overrides {
             Name: "cs:RecoilYMin"
-            Float: 70
+            Float: 35
           }
           Overrides {
             Name: "cs:RecoilXMin"
@@ -1085,5 +1085,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

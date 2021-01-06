@@ -547,7 +547,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 3
+            Float: 1
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
@@ -1089,5 +1089,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

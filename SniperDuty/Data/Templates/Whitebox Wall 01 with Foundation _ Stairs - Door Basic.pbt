@@ -743,5 +743,5 @@
       AssetId: "Whitebox_Wall_01_with_Foundation___Stairs_-_Door_Basic"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

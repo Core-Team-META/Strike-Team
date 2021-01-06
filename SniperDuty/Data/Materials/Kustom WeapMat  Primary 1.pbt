@@ -2,7 +2,7 @@
   Id: 3596882112526293926
   Name: "Kustom WeapMat  Primary 1"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 8358067199226827682
     ParameterOverrides {

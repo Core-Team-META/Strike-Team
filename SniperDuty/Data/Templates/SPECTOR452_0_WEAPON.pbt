@@ -166,7 +166,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 1.5
+            BurstDuration: 4
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {
@@ -547,7 +547,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 2
+            Float: 1
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
@@ -1085,5 +1085,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

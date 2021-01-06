@@ -49,7 +49,7 @@ local function OnWeaponInteraction(weapon, weaponInteraction)
         newDamageInfo.reason = DamageReason.COMBAT
         newDamageInfo.sourceAbility = weaponInteraction.sourceAbility
         newDamageInfo.sourcePlayer = weaponOwner
-
+        
         -- Apply damage to the enemy player
         target:ApplyDamage(newDamageInfo)
     end

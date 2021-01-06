@@ -285,5 +285,5 @@
       AssetId: "Sign_-_Right_Turn_03"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

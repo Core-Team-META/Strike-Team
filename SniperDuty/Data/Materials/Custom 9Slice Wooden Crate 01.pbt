@@ -2,7 +2,7 @@
   Id: 8866663491217360549
   Name: "Custom 9Slice Wooden Crate 01"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 13958279215617601928
     ParameterOverrides {

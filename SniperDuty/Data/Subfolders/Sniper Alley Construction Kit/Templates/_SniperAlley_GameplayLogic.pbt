@@ -176,6 +176,7 @@
             CanMoveUp: true
             CanMoveDown: true
             IsMountEnabled: true
+            MaxHitpoints: 100
           }
         }
       }
@@ -1134,6 +1135,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

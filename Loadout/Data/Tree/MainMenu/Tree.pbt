@@ -104,7 +104,6 @@ Objects {
     }
   }
   ParentId: 16564750678633576762
-  ChildIds: 6922322464011015763
   ChildIds: 11623063835778897684
   ChildIds: 14393150366892862971
   ChildIds: 13826412158740737130
@@ -660,70 +659,6 @@ Objects {
   InstanceHistory {
     SelfId: 11623063835778897684
     SubobjectId: 18437211914800263769
-    InstanceId: 5984902706539743351
-    TemplateId: 8101106359021042753
-  }
-}
-Objects {
-  Id: 6922322464011015763
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 544549749453359973
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 37
-    Height: 166
-    UIX: 79.119751
-    RotationAngle: -90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 2604353830693238371
-      }
-      Color {
-        R: 0.0310000014
-        G: 0.0310000014
-        B: 0.0310000014
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 6922322464011015763
-    SubobjectId: 4504250459654714142
     InstanceId: 5984902706539743351
     TemplateId: 8101106359021042753
   }

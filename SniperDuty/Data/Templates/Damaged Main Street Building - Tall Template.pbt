@@ -34186,5 +34186,5 @@
       AssetId: "Damaged_Main_Street_Building_-_Tall_Template"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

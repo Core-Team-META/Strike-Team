@@ -78,5 +78,5 @@
       AssetId: "Kill_Team_Score"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

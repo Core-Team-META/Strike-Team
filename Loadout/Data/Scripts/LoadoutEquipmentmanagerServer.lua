@@ -1,5 +1,8 @@
-﻿local LoadoutKey = script:GetCustomProperty("LoadoutKey")
+﻿while not _G["LoadoutKey"] do Task.Wait() end
+while not _G["StorageKey"] do Task.Wait() end
+local LoadoutKey =  _G["LoadoutKey"] 
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
+local NETWORKSPAWN = script:GetCustomProperty("NetWorkSpawn")
 
 
 function VarifySaveData(player,data)
@@ -41,9 +44,13 @@ end
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player) 
     if( not Data["Loadouts"]) then Data = FullSetup(player) end
+    player.serverUserData.NetworkSpawn = World.SpawnAsset(NETWORKSPAWN)
+    
     for key, value in pairs(Data["Loadouts"]) do
-        ReliableEvents.BroadcastToPlayer(player,"RecieveData", key ,Data["Loadouts"][key] )
+        player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("Loadouts"..key, Data["Loadouts"][key] )
+        --ReliableEvents.BroadcastToPlayer(player,"RecieveData", key ,Data["Loadouts"][key] )
     end
+    Events.BroadcastToPlayer(player,"RecieveData",player.serverUserData.NetworkSpawn.id)
 end
 
 function SetEquiped(player,slot)
@@ -52,8 +59,6 @@ function SetEquiped(player,slot)
     Data["EquipSlot"] = slot
     Storage.SetSharedPlayerData(LoadoutKey,player, Data)
 end
-
-
 
 local SelectionMatrix = 
 {
@@ -100,4 +105,10 @@ Events.ConnectForPlayer("RequestData", RequestData)
 Events.ConnectForPlayer("EquipSlot", SetEquiped)
 Game.playerJoinedEvent:Connect(function (player )
     Task.Spawn(function() SetupPlayer(player) end)
+end)
+
+Game.playerLeftEvent:Connect(function(player)
+    if Object.IsValid( player.serverUserData.NetworkSpawn) then
+        player.serverUserData.NetworkSpawn:Destroy()
+    end
 end)

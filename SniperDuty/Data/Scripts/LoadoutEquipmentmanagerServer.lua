@@ -1,6 +1,7 @@
 ﻿local LoadoutKey = script:GetCustomProperty("LoadoutKey")
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
+local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")
 
 function SetUp(player)
     return {
@@ -74,7 +75,7 @@ function EquipPlayer(player)
     equipItem(player,EquipString,"Melee")
     equipItem(player,EquipString,"Equipment")
     equipItem(player,EquipString,"Perk")
-    
+    player:SetResource("WeaponSlot", 1)
     local starterEquipmentitem = _G["DataBase"]:ReturnEquipmentById("SK")
     local starterEquipment = starterEquipmentitem:SpawnEquipment()
     
@@ -85,6 +86,7 @@ function EquipPlayer(player)
     player.serverUserData.Weapons.EquipmentWeapon.name = "Equipment"
     player.serverUserData.Weapons.EquipmentWeapon:Equip(player)
     player.serverUserData.Weapons.PerkWeapon:Equip(player)
+    Task.Wait()
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
     
 
@@ -97,9 +99,17 @@ end
 
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
+    player.serverUserData.NetworkSpawn = World.SpawnAsset(NETWORKSPAWN)
+
     for key, value in pairs(Data["Loadouts"]) do
-        ReliableEvents.BroadcastToPlayer(player,"RecieveData", key ,Data["Loadouts"][key] )
+        player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("Loadouts"..key, Data["Loadouts"][key] )
     end
+    --[[
+        for key, value in pairs(Data["Loadouts"]) do
+            ReliableEvents.BroadcastToPlayer(player,"RecieveData", key ,Data["Loadouts"][key] )
+        end
+    ]]
+    ReliableEvents.BroadcastToPlayer(player,"RecieveData",player.serverUserData.NetworkSpawn.id)
 end
 
 function SetEquiped(player,slot)
@@ -142,3 +152,9 @@ Game.roundStartEvent:Connect(function()
     end
 end)
 Events.ConnectForPlayer("RequestData",RequestData)
+
+Game.playerLeftEvent:Connect(function(player)
+    if Object.IsValid( player.serverUserData.NetworkSpawn) then
+        player.serverUserData.NetworkSpawn:Destroy()
+    end
+end)

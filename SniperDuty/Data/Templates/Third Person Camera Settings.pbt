@@ -103,6 +103,7 @@
             CanMoveUp: true
             CanMoveDown: true
             IsMountEnabled: true
+            MaxHitpoints: 100
           }
         }
       }
@@ -184,5 +185,5 @@
       AssetId: "Third_Person_Camera_Settings"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

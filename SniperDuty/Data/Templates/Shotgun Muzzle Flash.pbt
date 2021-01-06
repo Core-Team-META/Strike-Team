@@ -56,7 +56,7 @@
           }
           Overrides {
             Name: "bp:Enable Dynamic Distant Sound"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "bp:Main Sound Mix Medium Distance Type"
@@ -103,7 +103,7 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 0.7
+            Volume: 0.5
             Falloff: 1200
             Radius: 400
             EnableOcclusion: true
@@ -183,7 +183,7 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1
+            Volume: 0.7
             Falloff: 5500
             Radius: 400
             EnableOcclusion: true
@@ -253,5 +253,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

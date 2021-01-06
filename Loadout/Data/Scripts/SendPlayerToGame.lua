@@ -1,3 +1,3 @@
 ﻿Events.ConnectForPlayer("RequestToJoinMatch", function (player)
-    player:TransferToGame("b21d4e/meta-sa-remix")
+    player:TransferToGame("7d4e46/meta-sa-remix")
 end)

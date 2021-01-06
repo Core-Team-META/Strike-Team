@@ -81,6 +81,10 @@
               Value: "mc:esfx_gunshot_sniper_01:3"
             }
           }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -94,7 +98,7 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1
+            Volume: 0.7
             Falloff: 4000
             Radius: 600
             EnableOcclusion: true
@@ -168,5 +172,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }
