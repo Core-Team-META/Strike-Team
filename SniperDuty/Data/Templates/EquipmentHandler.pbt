@@ -6229,7 +6229,7 @@
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 6996437714072255648
+              Id: 15941196163952459759
             }
           }
           Overrides {

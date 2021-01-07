@@ -2,7 +2,7 @@
   Id: 15925715267385427600
   Name: "Kustom Tree Leaves"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 18007341658034626973
     ParameterOverrides {

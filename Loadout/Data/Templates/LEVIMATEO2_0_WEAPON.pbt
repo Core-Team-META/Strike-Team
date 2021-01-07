@@ -171,7 +171,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 4
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 5
             ProjectileSpeed: 10000
@@ -322,6 +322,8 @@
         ChildIds: 17330681716876336277
         ChildIds: 12262996920918154201
         ChildIds: 192355814699521673
+        ChildIds: 13769080321852325992
+        ChildIds: 2191836209899827938
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -546,7 +548,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 6
+            Float: 3
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -607,6 +609,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_5"
         }
       }
       Objects {
@@ -869,6 +872,93 @@
         }
       }
       Objects {
+        Id: 13769080321852325992
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 4558619358907089796
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 8
+          }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 16118667818826686655
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 2191836209899827938
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+            X: -1641.11
+            Y: 665.362488
+            Z: -95.0327759
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 4558619358907089796
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
+        }
+      }
+      Objects {
         Id: 16666619692017185530
         Name: "Shoot"
         Transform {
@@ -937,6 +1027,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -996,7 +1089,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
@@ -1033,5 +1126,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

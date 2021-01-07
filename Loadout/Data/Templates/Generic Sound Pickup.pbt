@@ -54,7 +54,7 @@
         }
         AudioInstance {
           AudioAsset {
-            Id: 9325668214448125402
+            Id: 16105704114440936073
           }
           AutoPlay: true
           Volume: 1
@@ -66,12 +66,12 @@
       }
     }
     Assets {
-      Id: 9325668214448125402
-      Name: "Weapon Pickup 01 SFX"
+      Id: 16105704114440936073
+      Name: "Gear Equipment Cloth Military Grab Movement 03 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_weapon_pickup"
+        AssetId: "sfx_gear_equipment_cloth_military_grab_movement_03a_Cue_ref"
       }
     }
     PrimaryAssetId {
@@ -79,5 +79,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

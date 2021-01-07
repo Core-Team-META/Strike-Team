@@ -162,7 +162,6 @@
             }
             BurstCount: 1
             BurstDuration: 3.16
-            BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -171,7 +170,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 10
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 100000
@@ -319,6 +318,8 @@
         ChildIds: 13171817687420429997
         ChildIds: 3535362404824146707
         ChildIds: 568353767011244440
+        ChildIds: 16707587071178057160
+        ChildIds: 2355162825190660085
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -553,6 +554,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_4"
         }
       }
       Objects {
@@ -912,7 +914,7 @@
           }
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 4
+            Float: 2
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
@@ -928,6 +930,93 @@
         Script {
           ScriptAsset {
             Id: 17374269570626674164
+          }
+        }
+      }
+      Objects {
+        Id: 16707587071178057160
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 15888966600517946259
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 8544973748730250786
+            }
+          }
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 10
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 2355162825190660085
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+            X: 233.216965
+            Y: 588.494446
+            Z: -2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 15888966600517946259
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
           }
         }
       }
@@ -1000,6 +1089,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -1056,7 +1148,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
@@ -1102,5 +1194,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

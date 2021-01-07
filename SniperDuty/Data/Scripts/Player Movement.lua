@@ -23,7 +23,7 @@ function Tick(dt)
     end
 
     for player, slidingTimer in pairs(slidingTimers) do
-        if playerStatus[player]["Sliding"] and time() >= slidingTimer then
+        if player and playerStatus[player]["Sliding"] and time() >= slidingTimer then
             playerStatus[player]["Sliding"] = false
             UpdatePlayerSliding(player)
             UpdatePlayerAiming(player)
@@ -151,7 +151,7 @@ function SetDefaultWeaponStances(player)
 end
 
 function UpdatePlayerStance(player)
-    --print(playerStances[player]["Sprinting"], playerStances[player]["Aiming"])
+    print(playerStances[player]["Sprinting"], playerStances[player]["Aiming"])
     if playerStatus[player] and playerStatus[player]["Sprinting"] then
         player.animationStance = playerStances[player]["Sprinting"]
     else

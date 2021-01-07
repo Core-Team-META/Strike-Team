@@ -64,7 +64,7 @@
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 0.5
+            Float: 2
           }
         }
         Collidable_v2 {
@@ -76,6 +76,8 @@
         Blueprint {
           BlueprintAsset {
             Id: 17977280587505271142
+          }
+          TeamSettings {
           }
           Vfx {
             AutoPlay: true
@@ -97,5 +99,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

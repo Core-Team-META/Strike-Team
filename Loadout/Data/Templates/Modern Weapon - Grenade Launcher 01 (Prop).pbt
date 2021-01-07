@@ -698,5 +698,5 @@
       AssetId: "Modern_Weapon_-_Grenade_Launcher_01"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

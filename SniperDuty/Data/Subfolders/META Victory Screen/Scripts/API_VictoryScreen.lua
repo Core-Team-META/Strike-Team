@@ -234,16 +234,15 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 	end
 	
 	
-	if(respawnOnDeactivate) then
-		player:Respawn()
-	end
 
 	SendBroadcast(player, "RestoreFromVictoryScreen", victoryScreen:GetReference().id)
 
 	player.movementControlMode = data.originalMovementControlMode
 	player.lookControlMode = data.originalLookControlMode 
-	player:Die()
 	
+	if(respawnOnDeactivate) then
+		player:Respawn()
+	end
 	if(tasks[player]) then
 		tasks[player]:Cancel()
 		tasks[player] = nil

@@ -122,7 +122,7 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1
+            Volume: 0.7
             Falloff: 3600
             Radius: 400
             IsSpatializationEnabled: true
@@ -189,6 +189,10 @@
               Value: "mc:esfx_gunshot_smg:14"
             }
           }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -205,7 +209,7 @@
           AudioBP {
             AutoPlay: true
             Pitch: 344.468262
-            Volume: 1
+            Volume: 0.7
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
@@ -247,5 +251,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

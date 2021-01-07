@@ -139,5 +139,5 @@
       AssetId: "Grenade_01"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

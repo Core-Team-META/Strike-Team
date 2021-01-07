@@ -183,10 +183,11 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
-    Width: 100
-    Height: 100
+    Width: 50
+    Height: 50
     UIX: 1
     UIY: 1
+    RotationAngle: 45
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -256,6 +257,8 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
+    UseParentHeight: true
     Image {
       Brush {
         Id: 6311522453009581627
@@ -319,14 +322,15 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
+    UseParentHeight: true
     Image {
       Brush {
         Id: 6311522453009581627
       }
       Color {
-        R: 0.843000054
-        G: 0.843000054
-        B: 0.843000054
+        R: 0.919999957
+        G: 4.38690165e-07
         A: 1
       }
       TeamSettings {

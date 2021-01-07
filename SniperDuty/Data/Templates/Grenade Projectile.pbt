@@ -4,9 +4,9 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 5155700153239413274
+      RootId: 6637820697500110737
       Objects {
-        Id: 5155700153239413274
+        Id: 6637820697500110737
         Name: "Grenade Projectile"
         Transform {
           Scale {
@@ -16,35 +16,6 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6637820697500110737
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6637820697500110737
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5155700153239413274
         ChildIds: 2231629422558954152
         UnregisteredParameters {
         }
@@ -104,6 +75,12 @@
         }
         ParentId: 2231629422558954152
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8762770251388164140
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -143,6 +120,15 @@
         }
         ParentId: 2231629422558954152
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.140625
+              G: 0.140625
+              B: 0.140625
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -173,6 +159,15 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weapons_grenade_sphere_001"
+      }
+    }
+    Assets {
+      Id: 8762770251388164140
+      Name: "Camouflage - Digital"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "camo_digital_001"
       }
     }
     Assets {

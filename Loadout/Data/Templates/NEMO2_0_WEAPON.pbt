@@ -106,6 +106,12 @@
             }
           }
           Overrides {
+            Name: "cs:GenericSoundOutOfAmmo"
+            AssetReference {
+              Id: 1683114021203363022
+            }
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -141,8 +147,8 @@
             UseReticle: true
             Muzzle {
               Location {
-                X: 91
-                Z: 15
+                X: 90.9998322
+                Z: 10
               }
               Rotation {
               }
@@ -161,9 +167,8 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 1000
-            BurstDuration: 12
-            BurstStopsWithRelease: true
+            BurstCount: 1
+            BurstDuration: 11.1
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -172,7 +177,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 100
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 25000
@@ -183,6 +188,7 @@
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 1
+            SpreadAperture: 3
             DefaultAbility {
               SubObjectId: 10903658076612712154
             }
@@ -320,6 +326,8 @@
         ChildIds: 14359597683553328042
         ChildIds: 4376619738844709947
         ChildIds: 14445355654171809592
+        ChildIds: 1992232089393199874
+        ChildIds: 15817083178302463608
         ChildIds: 14228281632368758039
         UnregisteredParameters {
         }
@@ -542,11 +550,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 90
+            Float: 45
           }
           Overrides {
             Name: "cs:RecoilYMin"
-            Float: 70
+            Float: 35
           }
           Overrides {
             Name: "cs:RecoilXMin"
@@ -570,6 +578,90 @@
         Script {
           ScriptAsset {
             Id: 4156168509254213209
+          }
+        }
+      }
+      Objects {
+        Id: 1992232089393199874
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1957837470783729883
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 100
+          }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 5900853629837661249
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 15817083178302463608
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 1957837470783729883
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: -1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
           }
         }
       }
@@ -602,6 +694,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_1"
         }
       }
       Objects {
@@ -856,7 +949,7 @@
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -893,6 +986,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -952,7 +1048,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
@@ -989,5 +1085,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

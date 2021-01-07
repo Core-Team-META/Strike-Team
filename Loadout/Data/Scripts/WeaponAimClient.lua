@@ -42,7 +42,7 @@ local ZOOM_DISTANCE = WEAPON:GetCustomProperty("AimZoomDistance")
 local pressedHandle = nil              -- Event handle when player presses the aim binding
 local releasedHandle = nil             -- Event handle when player releases the aim binding
 local playerDieHandle = nil            -- Event handle when player dies
-local Connections
+
 -- Internal constant variable
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -125,11 +125,6 @@ function OnEquipped(weapon, player)
     releasedHandle = player.bindingReleasedEvent:Connect(OnBindingReleased)
     playerDieHandle = player.diedEvent:Connect(OnPlayerDied)
 
-    table.insert(  Connections, pressedHandle )
-    
-    table.insert(  Connections, releasedHandle )
-    
-    table.insert(  Connections, playerDieHandle )
     -- Set new active camera
     activeCamera = GetPlayerActiveCamera(player)
     if Object.IsValid(activeCamera) then
@@ -169,13 +164,5 @@ function CheckSprint(states)
 end
 
 -- Initialize
-
-
-Connections = {
-script.destroyEvent:Connect(function()
-	for k,v in pairs(Connections) do
-		v:Disconnect()
-	end end),
-WEAPON.unequippedEvent:Connect(OnUnequipped),
-Events.Connect("ChangeMovementType", CheckSprint),
-}
+WEAPON.unequippedEvent:Connect(OnUnequipped)
+Events.Connect("ChangeMovementType", CheckSprint)

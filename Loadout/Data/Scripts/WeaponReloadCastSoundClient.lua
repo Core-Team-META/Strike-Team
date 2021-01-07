@@ -64,12 +64,4 @@ function OnCast()
 end
 
 -- Initialize
-local Connections
-
-Connections = {
-    script.destroyEvent:Connect(function()
-        for k,v in pairs(Connections) do
-            v:Disconnect()
-        end end),
-    RELOAD_ABILITY.castEvent:Connect(OnCast)
-}
+RELOAD_ABILITY.castEvent:Connect(OnCast)

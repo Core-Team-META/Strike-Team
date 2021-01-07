@@ -15,11 +15,12 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10671565427701169845
         ChildIds: 12390822350002054019
         ChildIds: 14680330768932694379
         ChildIds: 905376451753411405
-        ChildIds: 5696153250975838707
+        ChildIds: 2644603236424673822
+        ChildIds: 4313007082185105781
         UnregisteredParameters {
           Overrides {
             Name: "cs:PlayerImpact"
@@ -477,8 +478,8 @@
         }
       }
       Objects {
-        Id: 5696153250975838707
-        Name: "Spray"
+        Id: 2644603236424673822
+        Name: "EquipNext"
         Transform {
           Location {
           }
@@ -491,7 +492,8 @@
           }
         }
         ParentId: 11172210842436518555
-        ChildIds: 15360642598804960779
+        ChildIds: 5050337608041221382
+        ChildIds: 7067401924998986999
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -515,7 +517,7 @@
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -537,7 +539,7 @@
             }
           }
           CooldownPhaseSettings {
-            Duration: 0.01
+            Duration: 0.42
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -547,15 +549,15 @@
               Value: "mc:eabilitysetfacing:none"
             }
           }
-          Animation: "unarmed_punch_right"
+          Animation: "2hand_rifle_unsheathe"
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_34"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
       Objects {
-        Id: 15360642598804960779
-        Name: "SprayScript"
+        Id: 5050337608041221382
+        Name: "ServerContext"
         Transform {
           Location {
           }
@@ -567,16 +569,46 @@
             Z: 1
           }
         }
-        ParentId: 5696153250975838707
+        ParentId: 2644603236424673822
+        ChildIds: 7501843326296492780
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: Server
+        }
+      }
+      Objects {
+        Id: 7501843326296492780
+        Name: "ScrollSwap"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5050337608041221382
         UnregisteredParameters {
           Overrides {
-            Name: "cs:SPRAY"
-            AssetReference {
-              Id: 17854854272107829705
+            Name: "cs:Direction"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:Abiltiy"
+            ObjectReference {
+              SubObjectId: 2644603236424673822
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -585,7 +617,281 @@
         }
         Script {
           ScriptAsset {
-            Id: 1251235412980579966
+            Id: 17781197708863849376
+          }
+        }
+      }
+      Objects {
+        Id: 7067401924998986999
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2644603236424673822
+        ChildIds: 921444825481058024
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 921444825481058024
+        Name: "ActivateAbility"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7067401924998986999
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Sign"
+            Float: 1
+          }
+          Overrides {
+            Name: "cs:Abilty"
+            ObjectReference {
+              SubObjectId: 2644603236424673822
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 12585513387495536966
+          }
+        }
+      }
+      Objects {
+        Id: 4313007082185105781
+        Name: "EquipPrevous"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11172210842436518555
+        ChildIds: 17951402079277600500
+        ChildIds: 16594372866440311429
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Ability {
+          IsEnabled: true
+          CastPhaseSettings {
+            Duration: 0.01
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          ExecutePhaseSettings {
+            Duration: 1
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          RecoveryPhaseSettings {
+            Duration: 0.1
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          CooldownPhaseSettings {
+            Duration: 0.42
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          Animation: "2hand_rifle_unsheathe"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
+        }
+      }
+      Objects {
+        Id: 17951402079277600500
+        Name: "ServerContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4313007082185105781
+        ChildIds: 5113154424659675705
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: Server
+        }
+      }
+      Objects {
+        Id: 5113154424659675705
+        Name: "ScrollSwap"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17951402079277600500
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Direction"
+            Int: -1
+          }
+          Overrides {
+            Name: "cs:Abiltiy"
+            ObjectReference {
+              SubObjectId: 4313007082185105781
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17781197708863849376
+          }
+        }
+      }
+      Objects {
+        Id: 16594372866440311429
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4313007082185105781
+        ChildIds: 12695680808811951663
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 12695680808811951663
+        Name: "ActivateAbility"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16594372866440311429
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Sign"
+            Float: -1
+          }
+          Overrides {
+            Name: "cs:Abilty"
+            ObjectReference {
+              SubObjectId: 4313007082185105781
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 12585513387495536966
           }
         }
       }
@@ -595,5 +901,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

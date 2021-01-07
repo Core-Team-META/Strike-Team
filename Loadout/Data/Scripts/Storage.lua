@@ -1,13 +1,16 @@
 ﻿local SkinStorage = {}
 SkinStorage.__index = SkinStorage
 
-function SkinStorage.New(Key)
+function SkinStorage.New(key,owner)
     local o = setmetatable({}, SkinStorage)
     if key then
+        o.owner = owner
         o.key = key
     else
         o:SetDefault()
     end
+    self:Decode()
+    self:Encode()
     return o
 end
 
@@ -16,7 +19,6 @@ function SkinStorage:Decode()
     local Table = {}
     for k,entry in pairs(codex) do
         local WeaponName = entry.char(1)..entry.char(2)
-        
         Table[WeaponName] = {}
         local newstring = ""
         for i=1,#entry do
@@ -29,7 +31,6 @@ function SkinStorage:Decode()
     end
 end
 
-
 function SkinStorage:Encode()
     if not self.StorageTable then return end
     local StorageString = ""
@@ -40,6 +41,7 @@ function SkinStorage:Encode()
         end
         StorageString = StorageString+"_"
     end
+    self.storageString = StorageString
     return StorageString
 end
 
@@ -53,15 +55,13 @@ function SkinStorage:HasSkin(Weapon,Skin)
     return self.StorageTable[Weapon][Skin] ~= nil
 end
 
-function SkinStorage:HasSkinCombined(strin)
-    return self:HasSkin( CoreString.Split(strin,"-"))
+function SkinStorage:HasWeapon(Weapon)
+    if not Weapon then return true end
+    if self.StorageTable[Weapon] then return true end
 end
 
-
-function SkinStorage:AddSkin(Weapon,Skin)
-    if not Skin or not Weapon then return end
-    if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
-    table.insert( self.StorageTable[Weapon], Skin )
+function SkinStorage:HasSkinCombined(strin)
+    return self:HasSkin( CoreString.Split(strin,"-"))
 end
 
 function SkinStorage:ReturnSkins(Weapon)
@@ -69,7 +69,35 @@ function SkinStorage:ReturnSkins(Weapon)
     return self.StorageTable[Weapon]
 end
 
+if Environment.IsServer() then
+    function SkinStorage:AddSkin(Weapon,Skin)
+        if not Skin or not Weapon then return end
+        if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
+        table.insert( self.StorageTable[Weapon], Skin )
+        self:TransferToClient()
+    end
+
+    function SkinStorage:TransferToClient()
+        self:Encode()
+        if self.owner then
+            self.owner.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("SkinStorage", self.storageString)
+        end
+    end
+
+end
+
 if Environment.IsClient() then
     
+
+end
+
+
+if Environment.IsServer() then
+    function SetUpStorage(player)
+        
+    end
+
+    Game.playerJoinedEvent:Connect(SetUpStorage)
+
 
 end

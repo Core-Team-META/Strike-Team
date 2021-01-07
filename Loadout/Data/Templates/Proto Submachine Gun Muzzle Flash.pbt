@@ -83,6 +83,10 @@
               Value: "mc:esfx_gunshot_smg:5"
             }
           }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -96,7 +100,7 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1.2
+            Volume: 0.7
             Falloff: 1600
             Radius: 600
             EnableOcclusion: true
@@ -209,6 +213,10 @@
               Value: "mc:esfx_gunshot_smg:0"
             }
           }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -223,7 +231,7 @@
           AudioBP {
             AutoPlay: true
             Pitch: 2400
-            Volume: 2.05030131
+            Volume: 0.7
             Falloff: 1000
             Radius: 200
             EnableOcclusion: true
@@ -256,5 +264,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

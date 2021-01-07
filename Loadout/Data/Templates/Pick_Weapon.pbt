@@ -44,6 +44,10 @@
             }
           }
           Overrides {
+            Name: "cs:SprintingStance"
+            String: "2hand_sword_ready"
+          }
+          Overrides {
             Name: "cs:EquipmentStance:tooltip"
             String: "The stance animation when a player picks up the equipment."
           }
@@ -70,7 +74,6 @@
         Equipment {
           SocketName: "right_prop"
           PickupTrigger {
-            SelfId: 11328503883295540309
           }
         }
       }
@@ -466,5 +469,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

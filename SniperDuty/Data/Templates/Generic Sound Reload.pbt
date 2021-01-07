@@ -4,9 +4,9 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 902047587094345629
+      RootId: 17846170435686736886
       Objects {
-        Id: 902047587094345629
+        Id: 17846170435686736886
         Name: "Generic Sound Reload"
         Transform {
           Scale {
@@ -15,11 +15,39 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 12436546004889713338
+        ChildIds: 902047587094345629
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 902047587094345629
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17846170435686736886
         ChildIds: 4272344084064824150
         UnregisteredParameters {
         }
-        Lifespan: 0.5
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

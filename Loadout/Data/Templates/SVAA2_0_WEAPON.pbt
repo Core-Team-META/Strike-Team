@@ -160,9 +160,8 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 30
+            BurstCount: 1
             BurstDuration: 1.4
-            BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -171,7 +170,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 6
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 25000
@@ -320,6 +319,8 @@
         ChildIds: 16181055382112588404
         ChildIds: 7079937445954322178
         ChildIds: 16990888414655999816
+        ChildIds: 5356892655232402135
+        ChildIds: 7380637107164524325
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -541,7 +542,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 5
+            Float: 2.5
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -597,6 +598,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects"
         }
       }
       Objects {
@@ -935,6 +937,93 @@
         }
       }
       Objects {
+        Id: 5356892655232402135
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 5900853629837661249
+            }
+          }
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 6
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 7380637107164524325
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+            X: 555.346436
+            Y: 315.860504
+            Z: -2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
+        }
+      }
+      Objects {
         Id: 6712802972251624407
         Name: "Shoot"
         Transform {
@@ -1003,6 +1092,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -1059,7 +1151,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
@@ -1105,5 +1197,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

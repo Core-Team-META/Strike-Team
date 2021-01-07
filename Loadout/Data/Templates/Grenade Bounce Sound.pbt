@@ -4,9 +4,9 @@
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9220373870468432881
+      RootId: 11073280541329322702
       Objects {
-        Id: 9220373870468432881
+        Id: 11073280541329322702
         Name: "Grenade Bounce Sound"
         Transform {
           Scale {
@@ -15,40 +15,11 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 11073280541329322702
-        UnregisteredParameters {
-        }
-        Lifespan: 4
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11073280541329322702
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9220373870468432881
+        ParentId: 14093591283607499813
         ChildIds: 11790449832402232814
         UnregisteredParameters {
         }
+        Lifespan: 3
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -110,5 +81,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

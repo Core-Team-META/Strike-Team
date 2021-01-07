@@ -83,13 +83,5 @@ function OnWeaponAimChanged(player, aimingStatus)
 end
 
 -- Initialize
-local Connections
-
-Connections = {
-    script.destroyEvent:Connect(function()
-        for k,v in pairs(Connections) do
-            v:Disconnect()
-        end end),
-    WEAPON.unequippedEvent:Connect(RemoveReticle),
-    Events.Connect("WeaponAiming", OnWeaponAimChanged),
-}
+WEAPON.unequippedEvent:Connect(RemoveReticle)
+Events.Connect("WeaponAiming", OnWeaponAimChanged)

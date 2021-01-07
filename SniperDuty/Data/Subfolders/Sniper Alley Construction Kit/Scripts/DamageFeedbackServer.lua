@@ -66,7 +66,7 @@ end
 function ClearQueues()
     while #QueueTable > 0 do
         for i, Q in ipairs(QueueTable) do
-            if Q:ReturnTime() > 0.1 then
+            if Q:ReturnTime() >= 0.05 then
                 if Q.amount > 0 then 
                     Q:Broadcast()
                 end

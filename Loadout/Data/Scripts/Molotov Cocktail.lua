@@ -22,13 +22,4 @@ function OnImpact(weapon, impactData)
     damageVolume = World.SpawnAsset(DAMAGE_VOLUME_TMEMPLATE, {position = impactData:GetHitResult():GetImpactPosition(), scale = Vector3.New(5, 5, 5)})
 end
 
-
-local Connections
-
-Connections = {
-script.destroyEvent:Connect(function()
-	for k,v in pairs(Connections) do
-		v:Disconnect()
-	end end),
 WEAPON.targetImpactedEvent:Connect(OnImpact)
-}

@@ -147,7 +147,7 @@
               Rotation {
               }
             }
-            AnimationSet: "2hand_rifle_aim_shoulder"
+            AnimationSet: "2hand_rifle_aim_sho"
             OutOfAmmoSfxAssetRef {
               Id: 10067873773880548084
             }
@@ -161,8 +161,8 @@
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 400
-            BurstDuration: 15
+            BurstCount: 1
+            BurstDuration: 12
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 25000
@@ -172,7 +172,7 @@
             ReticleType {
               Value: "mc:ereticletype:none"
             }
-            MaxAmmo: 40
+            MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 25000
@@ -183,6 +183,7 @@
             SpreadDecreaseSpeed: 7
             SpreadIncreasePerShot: 0.6
             SpreadPenaltyPerShot: 0.4
+            SpreadAperture: 1
             DefaultAbility {
               SubObjectId: 18359599212073701419
             }
@@ -321,6 +322,8 @@
         ChildIds: 17330681716876336277
         ChildIds: 11116573032484857336
         ChildIds: 2251632774311718328
+        ChildIds: 2742055301182517563
+        ChildIds: 6073460861089349469
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -542,11 +545,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 40
+            Float: 20
           }
           Overrides {
             Name: "cs:RecoilYMin"
-            Float: 30
+            Float: 15
           }
           Overrides {
             Name: "cs:RecoilXMin"
@@ -602,6 +605,7 @@
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Effects_2"
         }
       }
       Objects {
@@ -826,6 +830,90 @@
         }
       }
       Objects {
+        Id: 2742055301182517563
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 4558619358907089796
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 17017433431252953491
+            }
+          }
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 40
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 6073460861089349469
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 4558619358907089796
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: -1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
+        }
+      }
+      Objects {
         Id: 18359599212073701419
         Name: "Shoot"
         Transform {
@@ -894,6 +982,9 @@
             IsTargetDataUpdated: true
           }
           Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
         }
       }
       Objects {
@@ -952,7 +1043,7 @@
           Animation: "2hand_rifle_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
@@ -989,5 +1080,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

@@ -28,7 +28,7 @@ end
 
 -- Internal variables
 local abilityList = {}
-
+local Connections
 -- nil Tick()
 -- Checks the players within hitbox, and makes sure swipe effects stay at the player's location
 function Tick()
@@ -137,6 +137,17 @@ function ResetMelee(ability)
     end
 end
 
+
+Connections = {
+    script.destroyEvent:Connect(function()
+        for k,v in pairs(Connections) do
+            v:Disconnect()
+        end end),
+    EQUIPMENT.equippedEvent:Connect(OnEquipped),
+    EQUIPMENT.unequippedEvent:Connect(ResetMelee),
+}
+
+
 -- Initialize
 local abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
 for _, ability in ipairs(abilityDescendants) do
@@ -144,11 +155,10 @@ for _, ability in ipairs(abilityDescendants) do
 
     if hitBox then
         hitBox = ability:GetCustomProperty("Hitbox"):WaitForObject()
-        hitBox.beginOverlapEvent:Connect(OnBeginOverlap)
-
-        ability.executeEvent:Connect(OnExecute)
-        ability.cooldownEvent:Connect(ResetMelee)
-
+        
+        table.insert( Connections,hitBox.beginOverlapEvent:Connect(OnBeginOverlap))
+        table.insert( Connections,ability.executeEvent:Connect(OnExecute))
+        table.insert( Connections,ability.cooldownEvent:Connect(ResetMelee))
         table.insert(abilityList, {
             ability = ability,
             damage = ability:GetCustomProperty("Damage"),
@@ -159,6 +169,3 @@ for _, ability in ipairs(abilityDescendants) do
         })
     end
 end
-
-EQUIPMENT.equippedEvent:Connect(OnEquipped)
-EQUIPMENT.unequippedEvent:Connect(ResetMelee)
