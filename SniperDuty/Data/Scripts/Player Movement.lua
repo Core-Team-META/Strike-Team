@@ -10,66 +10,72 @@ local DEFAULT_BRAKING = script:GetCustomProperty("DefaultBraking")
 local DEFAULT_FRICTION = script:GetCustomProperty("DefaultFriction")
 local DEFAULT_MOVEMENT_MODE = MovementControlMode.LOOK_RELATIVE
 
-local playerStatus = {}
 local playerStances = {}
 local slidingTimers = {}
 
 function Tick(dt)
-    for _, player in pairs(Game.GetPlayers()) do
-        if player.isCrouching ~= playerStatus[player]["Crouching"] then
-            playerStatus[player]["Crouching"] = player.isCrouching
-            UpdatePlayerSliding(player)
+    if _G["MovementCanControl"] == false then return end
+    Task.Spawn(function()
+        for _, player in pairs(Game.GetPlayers()) do
+            if player.isCrouching ~= player.serverUserData.playerStatus["Crouching"] then
+                player.serverUserData.playerStatus["Crouching"] = player.isCrouching
+                UpdatePlayerSliding(player)
+            end 
         end
-    end
+    end)
 
-    for player, slidingTimer in pairs(slidingTimers) do
-        if player and playerStatus[player]["Sliding"] and time() >= slidingTimer then
-            playerStatus[player]["Sliding"] = false
-            UpdatePlayerSliding(player)
-            UpdatePlayerAiming(player)
-            slidingTimers[player] = nil
+    Task.Spawn(function()   
+        for player, slidingTimer in pairs(slidingTimers) do
+            if player and player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
+                player.serverUserData.playerStatus["Sliding"] = false
+                UpdatePlayerSliding(player)
+                UpdatePlayerAiming(player)
+                slidingTimers[player] = nil
+            end
         end
-    end
+    end)
 end
 
 function OnBindingPressed(player, key)
+    if _G["MovementCanControl"] == false then return end
     if key == "ability_feet" then -- Shift
-        playerStatus[player]["ShiftDown"] = true
+        player.serverUserData.playerStatus["ShiftDown"] = true
         UpdatePlayerSprinting(player)
     elseif key == "ability_primary" then -- Left Click
-        playerStatus[player]["LMBDown"] = true
+        player.serverUserData.playerStatus["LMBDown"] = true
         UpdatePlayerAiming(player)
     elseif key == "ability_secondary" then -- Right Click
-        playerStatus[player]["RMBDown"] = true
+        player.serverUserData.playerStatus["RMBDown"] = true
         UpdatePlayerAiming(player)
     end
 end
 
 function OnBindingReleased(player, key)
+    if _G["MovementCanControl"] == false then return end
     if key == "ability_feet" then -- Shift
-        playerStatus[player]["ShiftDown"] = false
+        player.serverUserData.playerStatus["ShiftDown"] = false
         UpdatePlayerSprinting(player)
     elseif key == "ability_primary" then -- Left Click
-        playerStatus[player]["LMBDown"] = false
+        player.serverUserData.playerStatus["LMBDown"] = false
         UpdatePlayerAiming(player)
     elseif key == "ability_secondary" then -- Right Click
-        playerStatus[player]["RMBDown"] = false
+        player.serverUserData.playerStatus["RMBDown"] = false
         UpdatePlayerAiming(player)
     end
 end
 
 function UpdatePlayerSprinting(player)
-    if playerStatus[player]["ShiftDown"] then
-        if not playerStatus[player]["Sprinting"] and not playerStatus[player]["Aiming"] and not playerStatus[player]["Sliding"] then
-            playerStatus[player]["Sprinting"] = true
+    if player.serverUserData.playerStatus["ShiftDown"] then
+        if not player.serverUserData.playerStatus["Sprinting"] and not player.serverUserData.playerStatus["Aiming"] and not player.serverUserData.playerStatus["Sliding"] then
+            player.serverUserData.playerStatus["Sprinting"] = true
             player.maxWalkSpeed = SPRINT_SPEED
             player.groundFriction = DEFAULT_FRICTION
             player.brakingDecelerationWalking = DEFAULT_BRAKING
             player.movementControlMode = DEFAULT_MOVEMENT_MODE
         end
     else
-        playerStatus[player]["Sprinting"] = false
-        if not playerStatus[player]["Aiming"] and not playerStatus[player]["Sliding"] then
+        player.serverUserData.playerStatus["Sprinting"] = false
+        if not player.serverUserData.playerStatus["Aiming"] and not player.serverUserData.playerStatus["Sliding"] then
             player.maxWalkSpeed = RUN_SPEED
             player.groundFriction = DEFAULT_FRICTION
             player.brakingDecelerationWalking = DEFAULT_BRAKING
@@ -80,21 +86,21 @@ function UpdatePlayerSprinting(player)
 end
 
 function UpdatePlayerAiming(player)
-    if playerStatus[player]["RMBDown"] or playerStatus[player]["LMBDown"] then
-        playerStatus[player]["Aiming"] = true
-        playerStatus[player]["Sprinting"] = false
-        if  not playerStatus[player]["Sliding"] then
-            if  playerStatus[player]["RMBDown"] then
+    if player.serverUserData.playerStatus["RMBDown"] or player.serverUserData.playerStatus["LMBDown"] then
+        player.serverUserData.playerStatus["Aiming"] = true
+        player.serverUserData.playerStatus["Sprinting"] = false
+        if  not player.serverUserData.playerStatus["Sliding"] then
+            if  player.serverUserData.playerStatus["RMBDown"] then
                 player.maxWalkSpeed = SCOPE_SPEED
-            elseif playerStatus[player]["LMBDown"] then
+            elseif player.serverUserData.playerStatus["LMBDown"] then
                 player.maxWalkSpeed = RUN_SPEED
             end
             player.groundFriction = DEFAULT_FRICTION
             player.brakingDecelerationWalking = DEFAULT_BRAKING
         end
     else
-        playerStatus[player]["Aiming"] = false
-        if not playerStatus[player]["Sliding"] then
+        player.serverUserData.playerStatus["Aiming"] = false
+        if not player.serverUserData.playerStatus["Sliding"] then
             UpdatePlayerSprinting(player)
         end
     end
@@ -102,9 +108,9 @@ function UpdatePlayerAiming(player)
 end
 
 function UpdatePlayerSliding(player)
-    if playerStatus[player]["Crouching"] and playerStatus[player]["Sprinting"] and not playerStatus[player]["Sliding"] then
-        playerStatus[player]["Sliding"] = true
-        playerStatus[player]["Sprinting"] = false
+    if player.serverUserData.playerStatus["Crouching"] and player.serverUserData.playerStatus["Sprinting"] and not player.serverUserData.playerStatus["Sliding"] then
+        player.serverUserData.playerStatus["Sprinting"] = false
+        player.serverUserData.playerStatus["Sliding"] = true
         player.groundFriction = SLIDING_FRICTION
         player.brakingDecelerationWalking = SLIDING_BRAKING
         player.movementControlMode = MovementControlMode.NONE
@@ -114,7 +120,7 @@ function UpdatePlayerSliding(player)
         impulse.z = 0
         player:AddImpulse(impulse)
     else
-        playerStatus[player]["Sliding"] = false
+        player.serverUserData.playerStatus["Sliding"] = false
         local velocity = player:GetVelocity()
         velocity.x = 0
         velocity.y = 0
@@ -131,7 +137,7 @@ function PlayerJoined(player)
     player.brakingDecelerationWalking = DEFAULT_BRAKING
     player.bindingPressedEvent:Connect(OnBindingPressed)
     player.bindingReleasedEvent:Connect(OnBindingReleased)
-    playerStatus[player] = {
+    player.serverUserData.playerStatus = {
         ["Crouching"] = false,
         ["Sliding"] = false,
         ["ShiftDown"] = false,
@@ -151,16 +157,18 @@ function SetDefaultWeaponStances(player)
 end
 
 function UpdatePlayerStance(player)
-    print(playerStances[player]["Sprinting"], playerStances[player]["Aiming"])
-    if playerStatus[player] and playerStatus[player]["Sprinting"] then
+    --print(playerStances[player]["Sprinting"], playerStances[player]["Aiming"])
+    if player.serverUserData.playerStatus and player.serverUserData.playerStatus["Sprinting"] then
+        if player.serverUserData.playerStatus["Crouching"] then return end
         player.animationStance = playerStances[player]["Sprinting"]
     else
+        if player.serverUserData.playerStatus["Crouching"] then return end
         player.animationStance = playerStances[player]["Aiming"]
     end
 end
 
 function PlayerLeft(player)
-    playerStatus[player] = nil
+    player.serverUserData.playerStatus = nil
     playerStances[player] = nil
 end
 
@@ -169,14 +177,13 @@ function OnEquipWeapon(owner, weapon)
     local sprintingStance = weapon:GetCustomProperty("SprintingStance")
     local aimingStance = weapon:GetCustomProperty("AimActiveStance")
     if weapon:IsA("Weapon") then
-        if sprintingStance == nil then
-            aimingStance = weapon.animationStance
-        end
+        aimingStance = weapon.animationStance
     elseif weapon:GetCustomProperty("EquipmentStance") then
         aimingStance = weapon:GetCustomProperty("EquipmentStance")
     end
     playerStances[owner]["Sprinting"] = sprintingStance or "2hand_rifle_stance"
     playerStances[owner]["Aiming"] = aimingStance or "2hand_rifle_aim_shoulder"
+    Task.Wait()
     UpdatePlayerStance(owner)
 end
 

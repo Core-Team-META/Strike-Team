@@ -1,6 +1,68 @@
 ﻿Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 638249065725457675
+  Name: "PlayersInView"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  ChildIds: 1284921574977807294
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 1284921574977807294
+  Name: "PlayersInView"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 638249065725457675
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CheckEnemys"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TeamOnly"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9106067384455834602
+    }
+  }
+}
+Objects {
   Id: 16308489428754801504
   Name: "SprayWheel"
   Transform {

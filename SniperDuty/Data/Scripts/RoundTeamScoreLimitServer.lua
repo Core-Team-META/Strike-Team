@@ -64,3 +64,9 @@ function Tick(deltaTime)
 		end
 	end
 end
+
+Events.Connect("ForceWinner",function()
+	Events.Broadcast("TeamVictory", 1)
+	_G["GameWinner"] = 1
+	ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+end)

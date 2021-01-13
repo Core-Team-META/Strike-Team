@@ -33,9 +33,9 @@
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 31.3289871
-            Y: 31.2193832
-            Z: 4.99987793
+            X: 31.3290615
+            Y: 31.2190323
+            Z: 10
           }
           Rotation {
             Yaw: -45
@@ -155,6 +155,7 @@
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableDistanceFieldLighting: true
           DisableCastShadows: true
           EnableCameraCollision: true
           StaticMesh {

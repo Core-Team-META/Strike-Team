@@ -188,8 +188,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
+    Width: 868
     Height: 100
+    UIX: -40
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -236,6 +237,7 @@ Objects {
   ChildIds: 4906223595976305402
   ChildIds: 4699189707895165666
   ChildIds: 11664456090165503530
+  ChildIds: 5041982618395906831
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -265,6 +267,120 @@ Objects {
           Value: "mc:euianchor:bottomcenter"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 5041982618395906831
+  Name: "Close"
+  Transform {
+    Location {
+      X: -8799.57129
+      Y: 91.9785156
+      Z: -4900.82
+    }
+    Rotation {
+      Yaw: -89.9871368
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16856895048486060076
+  ChildIds: 15192923302442322451
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 15
+    Height: 15
+    RotationAngle: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 0.103999972
+        B: 0.103999972
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 0.150999963
+        B: 0.150999963
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 9359532178725322038
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 15192923302442322451
+  Name: "CloseButon"
+  Transform {
+    Location {
+      X: -0.00169372582
+      Y: -0.000976562209
+    }
+    Rotation {
+      Yaw: -1.02452832e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5041982618395906831
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14759072053528129916
     }
   }
 }
@@ -360,7 +476,7 @@ Objects {
   Control {
     Width: 101
     Height: 24
-    UIX: 7.60086155
+    UIX: -13.7695
     UIY: 71.6014404
     RenderTransformPivot {
       Anchor {
@@ -484,7 +600,7 @@ Objects {
   Control {
     Width: 101
     Height: 24
-    UIX: 7.60086155
+    UIX: -13.7695
     UIY: -13.817627
     RenderTransformPivot {
       Anchor {
@@ -1912,9 +2028,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 536
-    Height: 81
-    UIY: -231.134277
+    Width: 383
+    Height: 74
+    UIY: -238.671143
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1923,13 +2039,14 @@ Objects {
     Button {
       Label: "R E S P A W N"
       FontColor {
-        R: 1
+        R: 0.350993276
         G: 1
-        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
+        G: 0.00500000035
+        B: 0.000166667713
         A: 0.765000045
       }
       HoveredColor {
@@ -2028,7 +2145,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -205
+    Width: -236
     Height: 200
     RenderTransformPivot {
       Anchor {
@@ -2042,9 +2159,8 @@ Objects {
         Id: 16873054259561342990
       }
       Color {
-        R: 0.366252601
-        G: 0.366252601
-        B: 0.366252601
+        R: 0.350993276
+        G: 1
         A: 1
       }
       TeamSettings {

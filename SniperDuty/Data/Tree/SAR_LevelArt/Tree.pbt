@@ -4319,6 +4319,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -4367,6 +4369,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -4415,6 +4419,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -4463,6 +4469,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -6600,6 +6608,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8068,6 +8078,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8125,6 +8137,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8181,6 +8195,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8356,6 +8372,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8406,6 +8424,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8454,6 +8474,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8502,6 +8524,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8600,6 +8624,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8648,6 +8674,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8695,6 +8723,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8792,6 +8822,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8839,6 +8871,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8935,6 +8969,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -8982,6 +9018,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -9029,6 +9067,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -9084,6 +9124,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -11078,15 +11120,16 @@ Objects {
   }
 }
 Objects {
-  Id: 17017710612631277714
-  Name: "MergedModel"
+  Id: 1619839266671861410
+  Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 2202.51
-      Y: 5306.13574
-      Z: -5
+      X: -2521.5603
+      Y: 3432.12329
+      Z: 755
     }
     Rotation {
+      Yaw: -38.0262032
     }
     Scale {
       X: 1
@@ -11095,72 +11138,6 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  ChildIds: 3787271540771482711
-  ChildIds: 14136242593416468919
-  ChildIds: 11929734861210582893
-  ChildIds: 8927736001843722198
-  ChildIds: 18285464977818396576
-  ChildIds: 2898743135633365611
-  ChildIds: 14104242409435706851
-  ChildIds: 15036396979045595133
-  ChildIds: 12990381289923528882
-  ChildIds: 13096649054480764770
-  ChildIds: 18212502373262984400
-  ChildIds: 8055604453624010820
-  ChildIds: 11154921938926949155
-  ChildIds: 8865271162609045928
-  ChildIds: 12359399076074776214
-  ChildIds: 3139576808855287784
-  ChildIds: 11794731681054199953
-  ChildIds: 6413997254469284432
-  ChildIds: 2891041776814954663
-  ChildIds: 17591840659372372447
-  ChildIds: 16919134514724821420
-  ChildIds: 719090744840032598
-  ChildIds: 4946772841660238108
-  ChildIds: 3482442344781943972
-  ChildIds: 2699442171543988224
-  ChildIds: 11167983413410953315
-  ChildIds: 7376712051704418531
-  ChildIds: 12672067335258042607
-  ChildIds: 14423392318638845658
-  ChildIds: 11859724229243447115
-  ChildIds: 17656549223173966794
-  ChildIds: 7542117224937871722
-  ChildIds: 16046020022287677426
-  ChildIds: 15058388027068317967
-  ChildIds: 8301557943544729189
-  ChildIds: 1619839266671861410
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    Model {
-    }
-  }
-}
-Objects {
-  Id: 1619839266671861410
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -4724.07031
-      Y: -1874.01245
-      Z: 760
-    }
-    Rotation {
-      Yaw: -38.0262222
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17017710612631277714
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11187,12 +11164,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -4853.72412
-      Y: -1773.01929
-      Z: 617.678162
+      X: -2651.21411
+      Y: 3533.11646
+      Z: 612.678162
     }
     Rotation {
-      Yaw: -48.5445366
+      Yaw: -48.5445251
     }
     Scale {
       X: 1
@@ -11200,7 +11177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11227,12 +11204,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -4614.04
-      Y: -1775.75562
-      Z: 617.678162
+      X: -2411.53
+      Y: 3530.38013
+      Z: 612.678162
     }
     Rotation {
-      Yaw: -48.5445366
+      Yaw: -48.5445251
     }
     Scale {
       X: 1
@@ -11240,7 +11217,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11267,12 +11244,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -4731.55371
-      Y: -1879.5603
-      Z: 617.678162
+      X: -2529.0437
+      Y: 3426.57544
+      Z: 612.678162
     }
     Rotation {
-      Yaw: -48.5445366
+      Yaw: -48.5445251
     }
     Scale {
       X: 1
@@ -11280,7 +11257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11307,9 +11284,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4529.40723
-      Y: -1563.05322
-      Z: 155
+      X: 6731.91699
+      Y: 3743.08252
+      Z: 150
     }
     Rotation {
       Yaw: -135
@@ -11320,7 +11297,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11347,9 +11324,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4397.49
-      Y: -1681.13574
-      Z: 155
+      X: 6600
+      Y: 3625
+      Z: 150
     }
     Rotation {
       Yaw: -44.9999924
@@ -11360,7 +11337,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11387,9 +11364,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4622.49
-      Y: -1456.13574
-      Z: 5
+      X: 6825
+      Y: 3850
     }
     Rotation {
       Yaw: -44.9999924
@@ -11400,7 +11376,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11427,9 +11403,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4481.47266
-      Y: -1565.11865
-      Z: 5
+      X: 6683.98242
+      Y: 3741.01709
     }
     Rotation {
       Yaw: -44.9999924
@@ -11440,7 +11415,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11467,12 +11442,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4372.49
-      Y: -1706.13574
-      Z: 5.00003052
+      X: 6575
+      Y: 3600
+      Z: 3.05175781e-05
     }
     Rotation {
-      Yaw: -22.4999199
+      Yaw: -22.4999046
     }
     Scale {
       X: 1
@@ -11480,7 +11455,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11507,9 +11482,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 552.49
-      Y: -1181.13574
-      Z: 15
+      X: 2755
+      Y: 4125
+      Z: 10
     }
     Rotation {
     }
@@ -11519,7 +11494,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11546,12 +11521,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1097.47559
-      Y: -2666.31372
-      Z: 158.945023
+      X: 1105.03442
+      Y: 2639.82202
+      Z: 153.945023
     }
     Rotation {
-      Yaw: 36.9226303
+      Yaw: 36.9226189
     }
     Scale {
       X: 1
@@ -11559,7 +11534,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11586,9 +11561,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1093.27625
-      Y: -2671.9021
-      Z: 15
+      X: 1109.23376
+      Y: 2634.23364
+      Z: 10
     }
     Rotation {
       Yaw: 44.9999924
@@ -11599,7 +11574,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11626,12 +11601,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1804.23901
-      Y: -1958.21143
-      Z: 157.699936
+      X: 398.271
+      Y: 3347.92432
+      Z: 152.699936
     }
     Rotation {
-      Yaw: 45.224
+      Yaw: 45.2240105
     }
     Scale {
       X: 1
@@ -11639,7 +11614,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11666,12 +11641,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1794.96045
-      Y: -1948.86011
-      Z: 15
+      X: 407.549561
+      Y: 3357.27563
+      Z: 10
     }
     Rotation {
-      Yaw: 45.2239876
+      Yaw: 45.224
     }
     Scale {
       X: 1
@@ -11679,7 +11654,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11706,9 +11681,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1987.51
-      Y: -2496.13574
-      Z: 165
+      X: 215
+      Y: 2810
+      Z: 160
     }
     Rotation {
       Yaw: -44.9999924
@@ -11719,7 +11694,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11746,12 +11721,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2492.51
-      Y: -2671.13574
-      Z: 15
+      X: -290
+      Y: 2635
+      Z: 10
     }
     Rotation {
-      Yaw: 22.4998913
+      Yaw: 22.4998722
     }
     Scale {
       X: 1
@@ -11759,7 +11734,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11786,12 +11761,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1932.51
-      Y: -2551.13574
-      Z: 15
+      X: 270
+      Y: 2755
+      Z: 10
     }
     Rotation {
-      Yaw: 22.4998875
+      Yaw: 22.4998703
     }
     Scale {
       X: 1
@@ -11799,7 +11774,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11826,12 +11801,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2077.51
-      Y: -2351.13574
-      Z: 165
+      X: 125
+      Y: 2955
+      Z: 160
     }
     Rotation {
-      Yaw: 22.4998722
+      Yaw: 22.499855
     }
     Scale {
       X: 1
@@ -11839,7 +11814,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11866,12 +11841,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2027.51
-      Y: -2416.13574
-      Z: 15
+      X: 175
+      Y: 2890
+      Z: 10
     }
     Rotation {
-      Yaw: 22.4998913
+      Yaw: 22.4998722
     }
     Scale {
       X: 1
@@ -11879,7 +11854,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11906,9 +11881,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2162.51
-      Y: -2301.13574
-      Z: 15
+      X: 40
+      Y: 3005
+      Z: 10
     }
     Rotation {
       Yaw: 44.9999924
@@ -11919,7 +11894,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11946,9 +11921,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1367.51
-      Y: -2946.13574
-      Z: 15
+      X: 835
+      Y: 2360
+      Z: 10
     }
     Rotation {
       Yaw: 44.9999924
@@ -11959,7 +11934,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11986,12 +11961,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -1492.51
-      Y: -3056.13574
-      Z: 15
+      X: 710
+      Y: 2250
+      Z: 10
     }
     Rotation {
-      Yaw: 22.4999046
+      Yaw: 22.4998875
     }
     Scale {
       X: 1
@@ -11999,7 +11974,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12026,12 +12001,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2512.51
-      Y: 6578.86426
-      Z: 155
+      X: -310
+      Y: 11885
+      Z: 150
     }
     Rotation {
-      Yaw: -112.499863
+      Yaw: -112.499847
     }
     Scale {
       X: 1
@@ -12039,7 +12014,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12066,9 +12041,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2612.51
-      Y: 6578.86426
-      Z: 10
+      X: -410
+      Y: 11885
+      Z: 5
     }
     Rotation {
     }
@@ -12078,7 +12053,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12105,12 +12080,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2437.51
-      Y: 6533.86426
-      Z: 10
+      X: -235
+      Y: 11840
+      Z: 5
     }
     Rotation {
-      Yaw: -22.4999371
+      Yaw: -22.4999199
     }
     Scale {
       X: 1
@@ -12118,7 +12093,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12145,9 +12120,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -3642.51025
-      Y: 3798.86426
-      Z: 3.05175781e-05
+      X: -1440.00024
+      Y: 9105
+      Z: -4.99996948
     }
     Rotation {
     }
@@ -12157,7 +12132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12184,12 +12159,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -3164.08838
-      Y: -1130.33887
-      Z: 3.71008301
+      X: -961.578369
+      Y: 4175.79688
+      Z: -1.28991699
     }
     Rotation {
-      Roll: -14.6922941
+      Roll: -14.6923132
     }
     Scale {
       X: 1
@@ -12197,7 +12172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12224,9 +12199,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2778.56665
-      Y: 325.491699
-      Z: 18.7035828
+      X: -576.056641
+      Y: 5631.62744
+      Z: 13.7035828
     }
     Rotation {
     }
@@ -12236,7 +12211,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12263,9 +12238,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 1007.85254
-      Y: 7196.79492
-      Z: 4.90094
+      X: 3210.36255
+      Y: 12502.9307
+      Z: -0.0990600586
     }
     Rotation {
     }
@@ -12275,7 +12250,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12302,8 +12277,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4367.49
-      Y: 6428.86426
+      X: 6570
+      Y: 11735
+      Z: -5
     }
     Rotation {
     }
@@ -12313,7 +12289,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12340,8 +12316,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4167.49
-      Y: 6428.86426
+      X: 6370
+      Y: 11735
+      Z: -5
     }
     Rotation {
     }
@@ -12351,7 +12328,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12378,9 +12355,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 5502.49
-      Y: 5418.86426
-      Z: 5.00012207
+      X: 7705
+      Y: 10725
+      Z: 0.000122070313
     }
     Rotation {
     }
@@ -12390,7 +12367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12417,9 +12394,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 5507.49
-      Y: 5593.86426
-      Z: 5
+      X: 7710
+      Y: 10900
     }
     Rotation {
     }
@@ -12429,7 +12405,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12456,12 +12432,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4682.49
-      Y: -2391.13574
-      Z: 585
+      X: 6885
+      Y: 2915
+      Z: 580
     }
     Rotation {
-      Yaw: -67.5001068
+      Yaw: -67.5001221
     }
     Scale {
       X: 1
@@ -12469,7 +12445,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12496,9 +12472,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4552.49
-      Y: -2491.13574
-      Z: 585
+      X: 6755
+      Y: 2815
+      Z: 580
     }
     Rotation {
       Yaw: -44.9999924
@@ -12509,7 +12485,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12536,12 +12512,12 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 4657.49
-      Y: -2381.13574
-      Z: 730
+      X: 6860
+      Y: 2925
+      Z: 725
     }
     Rotation {
-      Yaw: -67.5001068
+      Yaw: -67.5001221
     }
     Scale {
       X: 1
@@ -12549,7 +12525,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17017710612631277714
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30501,6 +30477,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -30549,6 +30527,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -30590,6 +30570,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -30632,6 +30614,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -30672,6 +30656,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31002,6 +30988,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31055,6 +31043,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31097,6 +31087,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31139,6 +31131,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31179,6 +31173,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31221,6 +31217,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31261,6 +31259,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -31301,6 +31301,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -39726,14 +39728,6 @@ Objects {
             Yaw: 50.0000267
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -41881,6 +41875,19 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7904855526696816715
       value {
@@ -61999,14 +62006,6 @@ Objects {
             Yaw: -112.830627
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.36464739
-            Y: 1.36464739
-            Z: 1.36464739
-          }
-        }
       }
     }
     TemplateAsset {
@@ -68049,46 +68048,6 @@ Objects {
             Yaw: -91.3928146
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13570508380346786231
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 31.3290615
-            Y: 31.2190323
-            Z: 10
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17158227640201647880
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -31.3286133
-            Y: -31.2197266
-            Z: 5.00018311
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 45.0000038
-          }
-        }
       }
     }
     TemplateAsset {
@@ -71733,6 +71692,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -85989,6 +85950,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 6721889669297980642
+      value {
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: false
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: false
+        }
+      }
+    }
     TemplateAsset {
       Id: 6924413502195616423
     }
@@ -86459,14 +86433,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 178.046783
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -115126,6 +115092,19 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -115181,6 +115160,19 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7904855526696816715
       value {
@@ -115239,6 +115231,19 @@ Objects {
   ParentId: 17447229967284491520
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -115293,6 +115298,19 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -115341,6 +115359,19 @@ Objects {
   }
   ParentId: 17447229967284491520
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7904855526696816715
       value {
@@ -115396,6 +115427,19 @@ Objects {
   }
   ParentId: 17447229967284491520
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7904855526696816715
       value {
@@ -115639,6 +115683,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -115696,6 +115742,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -115765,6 +115813,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -115834,6 +115884,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -115891,6 +115943,8 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {

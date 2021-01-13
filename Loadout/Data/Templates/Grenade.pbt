@@ -27,7 +27,7 @@
           }
           Overrides {
             Name: "cs:FriendlyExplosionDamage"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ExplosionDamageRange"
@@ -50,7 +50,7 @@
           }
           Overrides {
             Name: "cs:SprintStance"
-            String: "unarmed_stance"
+            String: ""
           }
           Overrides {
             Name: "cs:PickupSound"
@@ -73,7 +73,7 @@
           Overrides {
             Name: "cs:ReticleTemplate"
             AssetReference {
-              Id: 15515637826283224864
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -274,7 +274,6 @@
         }
         ParentId: 18045273018505054026
         ChildIds: 1106639104568985092
-        ChildIds: 4951046533306738679
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -303,7 +302,6 @@
         }
         ParentId: 10188877097158049067
         ChildIds: 1161031645483767918
-        ChildIds: 18187597257087386432
         ChildIds: 6758317822284283465
         ChildIds: 11189682333460531737
         ChildIds: 5914211854324132549
@@ -350,49 +348,6 @@
         Script {
           ScriptAsset {
             Id: 8163343952479535019
-          }
-        }
-      }
-      Objects {
-        Id: 18187597257087386432
-        Name: "WeaponUtilityHideObjectClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1106639104568985092
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Object"
-            ObjectReference {
-              SubObjectId: 4951046533306738679
-            }
-          }
-          Overrides {
-            Name: "cs:HideOnEmptyAmmo"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:HideAfterAttack"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3945416632455257416
           }
         }
       }
@@ -513,133 +468,6 @@
         }
       }
       Objects {
-        Id: 4951046533306738679
-        Name: "Geo"
-        Transform {
-          Location {
-            Z: -15
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10188877097158049067
-        ChildIds: 8045340805324969735
-        ChildIds: 8681154728539245154
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 8045340805324969735
-        Name: "Grenade Canister 04"
-        Transform {
-          Location {
-            Y: 4.57763672e-05
-            Z: 5.64148712
-          }
-          Rotation {
-            Yaw: 134.999969
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4951046533306738679
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 8762770251388164140
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6855348992067761797
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8681154728539245154
-        Name: "Grenade Handle 01"
-        Transform {
-          Location {
-            Y: 4.57763672e-05
-            Z: 20
-          }
-          Rotation {
-            Yaw: 134.999969
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4951046533306738679
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.140625
-              G: 0.140625
-              B: 0.140625
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5544820850613172301
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 6698035183165842641
         Name: "Throw"
         Transform {
@@ -723,33 +551,6 @@
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_Grenade"
-      }
-    }
-    Assets {
-      Id: 6855348992067761797
-      Name: "Modern Weapon - Grenade Canister 04"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weapons_grenade_sphere_001"
-      }
-    }
-    Assets {
-      Id: 8762770251388164140
-      Name: "Camouflage - Digital"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "camo_digital_001"
-      }
-    }
-    Assets {
-      Id: 5544820850613172301
-      Name: "Modern Weapon - Grenade Handle 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weapons_grenade_handle_001"
       }
     }
     PrimaryAssetId {

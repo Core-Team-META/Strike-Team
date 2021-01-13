@@ -73,7 +73,7 @@
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 2000
+            ProjectileSpeed: 3000
             ProjectileLifeSpan: 10
             ProjectileGravity: 2
             ProjectileLength: 100

@@ -1,6 +1,40 @@
 ﻿Name: "Gameplay Settings"
 RootId: 16962308734055015238
 Objects {
+  Id: 1707190303206462119
+  Name: "Fall Damage"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16962308734055015238
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7840478093453456171
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fall Damage"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8585645546693573788
+    }
+  }
+}
+Objects {
   Id: 12734998668139123648
   Name: "Victory Screen"
   Transform {
@@ -3657,10 +3691,11 @@ Objects {
       LookAtCursorProjectionPlane {
         Value: "mc:eprojectionplane:xy"
       }
-      MountedMaxAcceleration: 1800
-      MountedWalkSpeed: 960
+      MountedMaxAcceleration: 640
+      MountedWalkSpeed: 640
       MountedJumpMaxCount: 1
       MountedJumpVelocity: 900
+      DismountWhenDamaged: true
       IsSlideEnabled: true
       IsCrouchEnabled: true
       IsJumpEnabled: true
@@ -3671,9 +3706,9 @@ Objects {
       AbilityAimMode {
         Value: "mc:eabilityaimmode:viewrelative"
       }
-      MountChannelingTime: 2
       CanMoveUp: true
       CanMoveDown: true
+      IsMountEnabled: true
       MaxHitpoints: 100
     }
   }

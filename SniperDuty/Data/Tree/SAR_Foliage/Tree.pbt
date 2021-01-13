@@ -16312,6 +16312,14 @@ Objects {
             Roll: -3.57910395
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16358,6 +16366,14 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -16419,6 +16435,14 @@ Objects {
             Roll: -3.57910395
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16478,6 +16502,14 @@ Objects {
             Yaw: -107.525467
             Roll: -3.57910395
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -16539,6 +16571,14 @@ Objects {
             Roll: -3.57910395
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16597,6 +16637,14 @@ Objects {
             Roll: -3.57910395
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16653,6 +16701,14 @@ Objects {
             Yaw: 86.0486374
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16706,6 +16762,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -16761,6 +16825,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16814,6 +16886,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -16869,6 +16949,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16922,6 +17010,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -16977,6 +17073,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17030,6 +17134,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17085,6 +17197,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17138,6 +17258,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17193,6 +17321,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17246,6 +17382,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17301,6 +17445,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17355,6 +17507,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17401,6 +17561,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17456,6 +17624,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17509,6 +17685,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17564,6 +17748,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17610,6 +17802,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17665,6 +17865,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17711,6 +17919,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17766,6 +17982,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17819,6 +18043,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17874,6 +18106,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17927,6 +18167,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -17982,6 +18230,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18035,6 +18291,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18090,6 +18354,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18143,6 +18415,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18198,6 +18478,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18251,6 +18539,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18306,6 +18602,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18360,6 +18664,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18406,6 +18718,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18463,6 +18783,14 @@ Objects {
             Yaw: -81.0792236
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18518,6 +18846,14 @@ Objects {
           Rotator {
             Yaw: -81.0792236
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18575,6 +18911,14 @@ Objects {
             Yaw: -81.0792236
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18630,6 +18974,14 @@ Objects {
             Yaw: -81.0792236
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18676,6 +19028,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18731,6 +19091,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18785,6 +19153,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18831,6 +19207,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18879,6 +19263,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18925,6 +19317,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -18982,6 +19382,14 @@ Objects {
             Yaw: -28.4718189
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19030,6 +19438,14 @@ Objects {
             Yaw: -28.4718189
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19076,6 +19492,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19124,6 +19548,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19170,6 +19602,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19218,6 +19658,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19264,6 +19712,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19312,6 +19768,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19358,6 +19822,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19415,6 +19887,14 @@ Objects {
             Yaw: 89.4459305
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19469,6 +19949,14 @@ Objects {
           Rotator {
             Yaw: 89.4459305
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19525,6 +20013,14 @@ Objects {
             Yaw: 89.4459305
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19578,6 +20074,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19633,6 +20137,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19686,6 +20198,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19741,6 +20261,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19795,6 +20323,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19841,6 +20377,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19898,6 +20442,14 @@ Objects {
             Yaw: -41.2166672
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19945,6 +20497,14 @@ Objects {
           Rotator {
             Yaw: -41.2166672
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -19994,6 +20554,14 @@ Objects {
             Yaw: -34.0840797
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20042,6 +20610,14 @@ Objects {
             Yaw: -38.0153351
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20088,6 +20664,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20144,6 +20728,14 @@ Objects {
             Yaw: 86.0486374
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20190,6 +20782,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20246,6 +20846,14 @@ Objects {
             Yaw: -107.167236
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20292,6 +20900,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20347,6 +20963,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20401,6 +21025,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20447,6 +21079,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20495,6 +21135,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20541,6 +21189,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20589,6 +21245,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20635,6 +21299,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20684,6 +21356,14 @@ Objects {
             Yaw: -34.7344513
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20731,6 +21411,14 @@ Objects {
           Rotator {
             Yaw: -12.4210587
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20780,6 +21468,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20827,6 +21523,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20873,6 +21577,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -20922,6 +21634,14 @@ Objects {
             Yaw: -47.130703
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20968,6 +21688,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21025,6 +21753,14 @@ Objects {
             Yaw: 39.1209755
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21073,6 +21809,14 @@ Objects {
             Yaw: 39.1209755
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21120,6 +21864,14 @@ Objects {
           Rotator {
             Yaw: 32.302063
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21176,6 +21928,14 @@ Objects {
             Yaw: -34.2105408
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21222,6 +21982,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21271,6 +22039,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21317,6 +22093,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21365,6 +22149,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21411,6 +22203,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21460,6 +22260,14 @@ Objects {
             Yaw: -48.21661
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21507,6 +22315,14 @@ Objects {
             Y: 0.557378769
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21556,6 +22372,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21603,6 +22427,14 @@ Objects {
           Rotator {
             Yaw: 44.0185127
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21652,6 +22484,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21698,6 +22538,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21753,6 +22601,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21806,6 +22662,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21862,6 +22726,14 @@ Objects {
             Pitch: -8.76195717
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21915,6 +22787,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -21970,6 +22850,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22023,6 +22911,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22078,6 +22974,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22131,6 +23035,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22186,6 +23098,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22240,6 +23160,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22287,6 +23215,14 @@ Objects {
             Y: 1.14412069
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22336,6 +23272,14 @@ Objects {
             Yaw: -29.5665283
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22382,6 +23326,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22430,6 +23382,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22477,6 +23437,14 @@ Objects {
             Z: 1.82673144
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22523,6 +23491,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22573,6 +23549,14 @@ Objects {
             Z: 1.82673216
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22621,6 +23605,14 @@ Objects {
             Pitch: -12.6300707
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22667,6 +23659,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22716,6 +23716,14 @@ Objects {
             Pitch: -12.4041758
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22762,6 +23770,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22811,6 +23827,14 @@ Objects {
             Z: 1.8267318
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22857,6 +23881,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -22906,6 +23938,14 @@ Objects {
             Yaw: -19.3528481
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22952,6 +23992,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -23001,6 +24049,14 @@ Objects {
             Yaw: -24.5410023
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23047,6 +24103,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -23095,6 +24159,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23141,6 +24213,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -23189,6 +24269,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23235,6 +24323,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -23283,6 +24379,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23329,6 +24433,14 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }
@@ -23384,6 +24496,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23438,6 +24558,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23484,6 +24612,14 @@ Objects {
             Y: 0.557379186
             Z: 1.82673144
           }
+        }
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: true
         }
       }
     }

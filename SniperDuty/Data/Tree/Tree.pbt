@@ -20,6 +20,7 @@ Objects {
   ChildIds: 4565846863626438544
   ChildIds: 15084389731420460127
   ChildIds: 10671565427701169845
+  ChildIds: 10713213961821925461
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,6 +30,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10713213961821925461
+  Name: "Roaming Camera"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14615287023044260272
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Roaming Camera"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10441457064630480018
+    }
   }
 }
 Objects {

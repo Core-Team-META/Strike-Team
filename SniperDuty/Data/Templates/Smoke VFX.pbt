@@ -59,11 +59,11 @@
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 6.27284479
+            Float: 4.42491865
           }
           Overrides {
             Name: "bp:Density"
-            Float: 2.04846787
+            Float: 4.42491865
           }
           Overrides {
             Name: "bp:Gravity"
@@ -83,12 +83,21 @@
           }
           Overrides {
             Name: "bp:Sort Priority Adjustment"
-            Int: -1
+            Int: 0
           }
           Overrides {
             Name: "bp:Volume Type"
             Enum {
               Value: "mc:evfxvolumetype:1"
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.593000054
+              G: 0.593000054
+              B: 0.593000054
+              A: 1
             }
           }
         }

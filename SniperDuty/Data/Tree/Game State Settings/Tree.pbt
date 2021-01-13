@@ -191,6 +191,10 @@ Objects {
           Name: "cs:RequiredPlayers"
           Int: 2
         }
+        Overrides {
+          Name: "cs:CountdownTime"
+          Float: 0
+        }
       }
     }
     TemplateAsset {
@@ -231,6 +235,10 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:Period"
+          Float: 0
+        }
       }
     }
     TemplateAsset {
@@ -262,7 +270,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LobbyDuration"
-      Float: 20
+      Float: 0
     }
     Overrides {
       Name: "cs:RoundHasDuration"

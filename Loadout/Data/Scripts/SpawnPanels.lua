@@ -8,7 +8,6 @@ local OTTATEXT = script:GetCustomProperty("OTTATEXT"):WaitForObject()
 local MOREARROW = script:GetCustomProperty("MoreThen"):WaitForObject()
 local LESSARROW = script:GetCustomProperty("LessThen"):WaitForObject()
 
-
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 while not _G["DataBase"]  do Task.Wait() end
 local Database = _G["DataBase"] 
@@ -44,10 +43,13 @@ end
 function DestroyPanels()
     for _,panel in pairs(Panels) do
         if(Object.IsValid(panel)) then
-            panel.clientUserData.ButtonEvent:Disconnect() 
+            if  panel.clientUserData.ButtonEvent then
+                panel.clientUserData.ButtonEvent:Disconnect()
+            end 
             panel:Destroy()
         end
     end
+    Panels = {}
 end
 
 function ResetSort()
@@ -58,20 +60,38 @@ function AddSort(dir)
     Sort = math.max(Sort + (PanelLimit+1) * dir , 1)
 end
 
-function SpawnPanel(panelType  ,item, skin , index)
+function CheckWeapon(item)
+    return LOCAL_PLAYER.clientUserData.Storage:HasWeapon(item)
+end
+
+function CheckSkin(item,skin)
+    skin = skin or  "00"
+    return LOCAL_PLAYER.clientUserData.Storage:HasSkin(item, skin)
+end
+
+function SpawnPanel(panelType  ,item, skin , index, locked)
     local newpanel = World.SpawnAsset(panelType,{parent = PARENT})
         newpanel.y = ((index-1)*200) + 5
     local Button = newpanel:GetCustomProperty("BUTTON"):WaitForObject()
-    newpanel.clientUserData.ButtonEvent = Button.pressedEvent:Connect(function() 
-        if os.clock() - LastPressed > .1 then
-            LastPressed = os.clock()
-            if(skin) then item:EquipSkinByID(skin.id) end
-            Events.BroadcastToServer("UpdateEquipment", item:ReturnIDs(), item.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
-            Events.Broadcast("UpdateEquipment",item:ReturnIDs(), item.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
-            Events.Broadcast("UpdateDataPanel")
-            --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
-        end 
-    end)
+    Button.isInteractable = false
+    if not locked then 
+        Button.isInteractable = true
+        newpanel.clientUserData.ButtonEvent = Button.pressedEvent:Connect(function() 
+            if os.clock() - LastPressed > .1 then
+                LastPressed = os.clock()
+                if(skin) then item:EquipSkinByID(skin.id) end
+                Events.BroadcastToServer("UpdateEquipment", item:ReturnIDs(), item.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+                Events.Broadcast("UpdateEquipment",item:ReturnIDs(), item.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+                Events.Broadcast("UpdateDataPanel")
+                --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
+            end 
+        end)
+        if  newpanel:GetCustomProperty("PadLock") then
+            local Lock =  newpanel:GetCustomProperty("PadLock"):WaitForObject()
+            Lock:Destroy()
+        end
+    end
+
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
     local x,y = GlobalPixel.ToWorld(newpanel)
@@ -121,7 +141,7 @@ function SpawnPanels(Type)
     SlotChange( #items )
     for i=Sort, math.min((Sort + PanelLimit),#items)  do
         local newItem = Database:SetupItemWithSkin(items[i].data.id.."_00")
-        local newpanel = SpawnPanel(SPAWN,newItem, nil, i-(Sort-1))
+        local newpanel = SpawnPanel(SPAWN,newItem, nil, i-(Sort-1),not CheckWeapon(items[i].data.id))
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
 
@@ -133,6 +153,21 @@ function SpawnPanels(Type)
 end
 
 
+function SetupSkinPanel(item,id,skins,i,Locked)
+    local newItem  =  Database:ReturnEquipmentById(id)
+    newItem:EquipSkinByID(skins[i].id)
+    print(#Panels)
+    local newpanel = SpawnPanel(SPAWN,item, skins[i],  #Panels+1-(Sort-1), Locked)
+
+    local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
+    local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
+
+    Ntext.text = skins[i].name
+    Ttext.text = ""
+
+    table.insert( Panels, newpanel )
+end
+
 function SpawnPanelskins(itemid)
 
     DestroyPanels()
@@ -142,17 +177,14 @@ function SpawnPanelskins(itemid)
     if(#skins == 0) then return end
     SlotChange( #skins )
     for i=Sort, math.min((Sort + PanelLimit),#skins) do
-        local newItem  =  Database:ReturnEquipmentById(id)
-        newItem:EquipSkinByID(skins[i].id)
-        local newpanel = SpawnPanel(SPAWN,item, skins[i],  i-(Sort-1))
-
-        local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
-        local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
-
-        Ntext.text = skins[i].name
-        Ttext.text = ""
-
-        table.insert( Panels, newpanel )
+        local HasSkin = CheckSkin(id,skins[i].id)
+        if not HasSkin then
+            if not skins[i].Event then
+                SetupSkinPanel(item,id,skins,i,not HasSkin)
+            end 
+        else
+            SetupSkinPanel(item,id,skins,i,not HasSkin)
+        end
     end
 end
 
@@ -164,7 +196,7 @@ function SpawnIconPanel(Type)
     SlotChange( #items )    
     for i=Sort, math.min((Sort + PanelLimit),#items) do
 
-        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort-1))
+        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort-1),false)
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
         local ICON = newpanel:GetCustomProperty("ICON"):WaitForObject()

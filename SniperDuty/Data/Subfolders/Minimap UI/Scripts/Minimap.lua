@@ -154,7 +154,8 @@ function Tick()
 	
 	for _,player in ipairs(allPlayers) do
 		local indicator = GetIndicatorForPlayer(player)
-		if player.team == localPlayer.team then
+		local Seeable = localPlayer.clientUserData.AllSeeablePlayers or {}
+		if player.team == localPlayer.team or Seeable[player] then
 			indicator.visibility = Visibility.INHERIT
 		
 			local pos = player:GetWorldPosition()

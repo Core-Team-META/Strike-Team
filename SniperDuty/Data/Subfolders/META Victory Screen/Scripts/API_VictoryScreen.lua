@@ -171,13 +171,14 @@ end
 function API.TeleportWinners( player, spawnObject, overrideCamera)
 	local spawnPosition = spawnObject:GetWorldPosition()
 	local spawnRotation = spawnObject:GetWorldRotation()
-	if player.isDead then -- respawn the player so they can be teleported
 		player:Respawn(spawnPosition, spawnRotation)
-	else
+
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
 		player:SetWorldRotation(spawnRotation)
-	end
+		Task.Wait()
+		player:SetWorldPosition(spawnPosition)
+		player:SetWorldRotation(spawnRotation)
 end
 
 
@@ -228,9 +229,10 @@ end
 --	Restores original settings passed in the data table when a player on the victory Screen is sent back
 function API.OnPlayerRestored(victoryScreen, player, data)
 	local respawnOnDeactivate = victoryScreen:GetCustomProperty("RespawnOnDeactivate")
-
+	_G["MovementCanControl"] = true
 	if(_G["DefaultPlayerSetting"] ) then
 		_G["DefaultPlayerSetting"]:ApplyToPlayer(player)
+
 	end
 	
 	
@@ -264,7 +266,7 @@ function API.TeleportPlayers(victoryScreen, playerList)
 
 	local OverrideCamera = victoryScreen:GetCustomProperty("OverrideCamera"):WaitForObject()
 	winnerSortType = GetProperty(winnerSortType, WINNER_SORT_TYPES)
-
+	_G["MovementCanControl"] = false
 	if(not playerList) then
 		playerList = API.CalculateWinners(winnerSortType, winnerSortResource)
 	end

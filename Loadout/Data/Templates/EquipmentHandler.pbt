@@ -5428,6 +5428,10 @@
             Name: "cs:ID"
             String: "CH"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6914,7 +6918,7 @@
           }
           Overrides {
             Name: "cs:Description"
-            String: "Close Range knive good for stabbing."
+            String: ""
           }
         }
         Collidable_v2 {

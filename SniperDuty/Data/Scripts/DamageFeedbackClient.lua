@@ -50,7 +50,9 @@ function DisplayDamage(damage, targetPlayer, sourcePlayer)
     if sourcePlayer == LOCAL_PLAYER then
         if SHOW_FLY_UP_TEXT then
             -- Show fly up damage text on target player
-            UI.ShowFlyUpText(tostring(math.floor(damage)), targetPlayer:GetWorldPosition()+Vector3.UP*100,
+            local CalcX = (math.random() + math.random(-2,0)) * 50
+            local HorizontalVec = ((LOCAL_PLAYER:GetViewWorldRotation() * Vector3.FORWARD) ^ Vector3.UP ) * CalcX
+            UI.ShowFlyUpText(tostring(math.floor(damage)), targetPlayer:GetWorldPosition()+Vector3.UP*100 + HorizontalVec,
                 {duration = DAMAGE_TEXT_DURATION,
                 color = DAMAGE_TEXT_COLOR,
                 isBig = IS_BIG_TEXT})

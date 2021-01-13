@@ -1551,6 +1551,7 @@ Objects {
   ParentId: 14283964409956490973
   ChildIds: 2350018225143361942
   ChildIds: 5116947653669161580
+  ChildIds: 18217204009054770490
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1578,6 +1579,131 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 18217204009054770490
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -19240.791
+      Y: -3945.69385
+      Z: -2727.11084
+    }
+    Rotation {
+      Yaw: -47.0336685
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12447495897962760663
+  ChildIds: 3009447948673066798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 39
+    Height: 60
+    UIX: -203.647827
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "L"
+      Color {
+        R: 0.668000042
+        G: 0.668000042
+        B: 0.668000042
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3009447948673066798
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -19240.791
+      Y: -3945.69385
+      Z: -2727.11084
+    }
+    Rotation {
+      Yaw: -47.0336456
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18217204009054770490
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 97
+    Height: 30
+    UIY: 6.24041
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "To open Weapon Swap"
+      Color {
+        R: 0.668000042
+        G: 0.668000042
+        B: 0.668000042
+        A: 1
+      }
+      Size: 8
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
@@ -3321,6 +3447,34 @@ Objects {
   }
 }
 Objects {
+  Id: 6237856827099576007
+  Name: "TeamScore"
+  Transform {
+    Location {
+      X: 3730.96436
+      Y: 10155.9434
+      Z: 4902.02832
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6153464260326768231
+  ChildIds: 5413582882944458303
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 5413582882944458303
   Name: "TeamScore"
   Transform {
@@ -3338,7 +3492,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6153464260326768231
+  ParentId: 6237856827099576007
   ChildIds: 15016914129013214511
   ChildIds: 15457166810303487608
   ChildIds: 14101527097426722362

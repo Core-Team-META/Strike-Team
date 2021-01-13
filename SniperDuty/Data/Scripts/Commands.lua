@@ -108,6 +108,9 @@ function Commands.CLEARDATA(player,message)
 
 end
 
+function Commands.WIN()
+    Events.Broadcast("ForceWinner")
+end 
 
 return Commands
 

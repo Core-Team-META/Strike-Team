@@ -147,7 +147,7 @@
               Rotation {
               }
             }
-            AnimationSet: "2hand_rifle_aim_sho"
+            AnimationSet: "2hand_rifle_aim_shoulder"
             OutOfAmmoSfxAssetRef {
               Id: 10067873773880548084
             }

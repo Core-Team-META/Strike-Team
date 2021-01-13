@@ -34,9 +34,8 @@
         Name: "Mid"
         Transform {
           Location {
-            X: 35.296875
-            Y: 9.24487305
-            Z: 3.05175781e-05
+            X: 31.8336182
+            Y: 7.3125
           }
           Rotation {
             Yaw: 80.3438568

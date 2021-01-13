@@ -1,9 +1,10 @@
 ﻿LOCAL_PLAYER = Game.GetLocalPlayer()
 
 LOCAL_PLAYER.clientUserData.Loadouts = {}
-
 Events.Connect("RecieveData", function(key) 
+    while not World.FindObjectById(key) do Task.Wait() end
     local NetworkObject = World.FindObjectById(key)
+    LOCAL_PLAYER.clientUserData.NetworkSpawn = NetworkObject
     if NetworkObject then
         for i=1,8 do
             LOCAL_PLAYER.clientUserData.Loadouts[tostring(i)] = NetworkObject:GetCustomProperty("Loadouts"..tostring(i))

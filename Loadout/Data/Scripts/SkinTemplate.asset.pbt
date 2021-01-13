@@ -17,6 +17,10 @@
         Name: "cs:ID"
         String: ""
       }
+      Overrides {
+        Name: "cs:EventSkin"
+        Bool: false
+      }
     }
   }
   SerializationVersion: 72

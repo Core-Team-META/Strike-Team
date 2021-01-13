@@ -58,7 +58,7 @@ end
 
 
 function BindFire()
-    if(not WEAPON.owner) then return end
+    if not ( WEAPON.owner and WEAPON.owner:IsA("Player") ) then return end
     FireEvent = WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
         if(binding == PRIMARYFIRE and WEAPON.clientUserData.Ammo > 0 and WEAPON.clientUserData.reloading == false and Firing == false) then
             Firing = true

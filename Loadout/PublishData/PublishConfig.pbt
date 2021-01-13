@@ -7,3 +7,4 @@ IsPrivate: true
 Tags: "Simulation"
 ScreenshotPaths: "C:\\Users\\Your user name\\Pictures\\Screenshots\\Screenshot (52).png"
 OwnerId: "0ea6612ceab7456a8a3a963a94808295"
+SerializationVersion: 1

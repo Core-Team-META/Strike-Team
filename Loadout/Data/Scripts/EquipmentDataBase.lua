@@ -136,6 +136,7 @@ function Database:RegisterEquipment()
                     NewSkin["skin"] = Skin:GetCustomProperty("SKIN")
                     NewSkin["level"] = Skin:GetCustomProperty("LEVEL")
                     NewSkin["ads_skin"] = Skin:GetCustomProperty("ADSSkin")
+                    NewSkin["Event"] = Skin:GetCustomProperty("EventSkin")
                     NewSkin["name"] = Skin.name
                     assert(VerifyID(ItemSkins, NewSkin),"Clashing Id ".. NewSkin.name .. " in equipment ".. NewItem.name)
                     table.insert( ItemSkins, NewSkin)

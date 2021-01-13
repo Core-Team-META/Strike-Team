@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 9359532178725322038
+  Name: "Crosshair 021"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Crosshair_021"
+  }
+}
+Assets {
   Id: 9213612171120231796
   Name: "Frame Outline Thin 009"
   PlatformAssetType: 9
