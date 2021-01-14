@@ -179,6 +179,11 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		Task.Wait()
 		player:SetWorldPosition(spawnPosition)
 		player:SetWorldRotation(spawnRotation)
+		for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
+			equipment:Destroy()
+		end
+		Task.Wait()
+		player.animationStance = "unarmed_stance"
 end
 
 
@@ -189,7 +194,6 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 		equipment:Destroy()
 	end
-	player.animationStance = "unarmed_stance"
 
 	
 	local data = {
@@ -234,8 +238,7 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 		_G["DefaultPlayerSetting"]:ApplyToPlayer(player)
 
 	end
-	
-	
+
 
 	SendBroadcast(player, "RestoreFromVictoryScreen", victoryScreen:GetReference().id)
 
@@ -249,6 +252,8 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 		tasks[player]:Cancel()
 		tasks[player] = nil
 	end
+	Task.Wait()
+	player.lookControlMode = data.originalLookControlMode 
 end
 
 --	nil API.TeleportPlayers(CoreObject, table)
@@ -262,7 +267,6 @@ function API.TeleportPlayers(victoryScreen, playerList)
 		victoryScreen:GetCustomProperty("WinnerSortType"),
 		victoryScreen:GetCustomProperty("WinnerSortResource"),
 		victoryScreen:GetCustomProperty("Spawns"):WaitForObject()
-
 
 	local OverrideCamera = victoryScreen:GetCustomProperty("OverrideCamera"):WaitForObject()
 	winnerSortType = GetProperty(winnerSortType, WINNER_SORT_TYPES)
@@ -279,7 +283,7 @@ function API.TeleportPlayers(victoryScreen, playerList)
 			topThreePlayerStats[index] = playerList[index].name
 		end
 	end
- 
+	
 	for _, player in pairs(Game.GetPlayers()) do
 		if(Object.IsValid(player)) then
 			FastSpawn(function()

@@ -12,7 +12,7 @@
           Table {
             Entries {
               Key {
-                StringVar: "Silver"
+                StringVar: "Copper"
               }
               SimpleValue {
                 IntVar: 0
@@ -20,7 +20,7 @@
             }
             Entries {
               Key {
-                StringVar: "Copper"
+                StringVar: "Silver"
               }
               SimpleValue {
                 IntVar: 0

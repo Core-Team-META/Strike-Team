@@ -71,6 +71,7 @@ Objects {
     }
   }
   ParentId: 6228839296880508036
+  ChildIds: 4029416866227713410
   ChildIds: 12447495897962760663
   ChildIds: 8812064330248347618
   ChildIds: 15930994335721211363
@@ -1835,6 +1836,37 @@ Objects {
   }
 }
 Objects {
+  Id: 4029416866227713410
+  Name: "HideAndShowUI"
+  Transform {
+    Location {
+      X: -19240.7969
+      Y: -3945.70264
+      Z: -2727.11084
+    }
+    Rotation {
+      Yaw: -47.0336342
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14283964409956490973
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6101574587735603905
+    }
+  }
+}
+Objects {
   Id: 772093734114701555
   Name: "WeaponUIBootup"
   Transform {
@@ -2207,8 +2239,8 @@ Objects {
   }
   Control {
     Width: 1100
-    Height: 485
-    UIY: -45.4684906
+    Height: 512
+    UIY: -17.8327179
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4795,6 +4827,7 @@ Objects {
     }
   }
   ParentId: 18185506128788738414
+  ChildIds: 11587206467278970794
   ChildIds: 17709056323876254785
   UnregisteredParameters {
   }
@@ -5295,6 +5328,34 @@ Objects {
     SubobjectId: 2122568507985227842
     InstanceId: 14509025596205278547
     TemplateId: 2594737190888074108
+  }
+}
+Objects {
+  Id: 11587206467278970794
+  Name: "HideAndShowUI"
+  Transform {
+    Location {
+      Y: -0.005859375
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13535165240597865375
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6101574587735603905
+    }
   }
 }
 Objects {

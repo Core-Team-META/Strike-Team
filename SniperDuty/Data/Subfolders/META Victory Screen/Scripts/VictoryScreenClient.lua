@@ -81,10 +81,11 @@ end
 local function SendToVictoryScreen(podiumGroupReferenceId, topThreePlayerStats)
 	if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
 
+	Events.Broadcast("HideUI")
 	-- change the default camera rotation to look in the same direction so the head faces the right way
 	LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
 	LocalPlayer:SetOverrideCamera(OverrideCamera)
-
+	LocalPlayer.lookSensitivity = 0
 	local players = Game.GetPlayers()
 	for index = 1, 3 do
 		local panel = GetPanel(index)
@@ -101,8 +102,9 @@ end
 local function RestoreFromPodium(podiumGroupReferenceId)
 	if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
 
+	Events.Broadcast("ShowUI")
 	LocalPlayer:ClearOverrideCamera()
-
+	LocalPlayer.lookSensitivity = 1
 	for index = 1, 3 do
 		local panel = GetPanel(index)
 		panel.visibility = Visibility.FORCE_OFF
@@ -110,6 +112,7 @@ local function RestoreFromPodium(podiumGroupReferenceId)
 		local resourcePanel = panel:GetCustomProperty("ResourcePanel"):WaitForObject()
 		resourcePanel.visibility = Visibility.FORCE_OFF
 	end
+	
 end
 
 --	string GetProperty(string, table)

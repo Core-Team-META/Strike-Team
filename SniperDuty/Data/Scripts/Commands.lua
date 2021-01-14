@@ -39,6 +39,12 @@ function Commands.KILL(player)
     return player.name .. " died"
 end
 
+function Commands.HIDE()
+    Events.BroadcastToAllPlayers("HideUI")
+    return player.name .. " hid UI"
+end
+
+
 function Commands.RESPAWN(player)
     player:Respawn()
     return player.name .. " is alive"

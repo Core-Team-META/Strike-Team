@@ -41,7 +41,7 @@ function SkinStorage:Encode()
 end
 
 function SkinStorage:SetDefault()
-    self.key = "HKSNCA_SPSNCA"
+    self.key = "HKSNCA_SPSNCA_MC_LM_SV_SR_NE_S4_EZ_LI_BA_TP"
     return self.key
 end 
 

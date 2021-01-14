@@ -1,9 +1,8 @@
 ﻿local Parent = script.parent
-
 local AllEvents 
 AllEvents = {
-
     Events.Connect("HideUI", function() 
+        print(Parent.name)
         Parent.visibility = Visibility.FORCE_OFF
     end),
     

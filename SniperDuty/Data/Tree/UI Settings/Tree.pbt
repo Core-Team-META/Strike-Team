@@ -542,6 +542,7 @@ Objects {
   }
   ParentId: 16035454593328240751
   ChildIds: 15538822859928374011
+  ChildIds: 13567640481025806564
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -574,6 +575,37 @@ Objects {
     SubobjectId: 13057856511516679042
     InstanceId: 4185106899347237523
     TemplateId: 17101872842520397377
+  }
+}
+Objects {
+  Id: 13567640481025806564
+  Name: "HideAndShowUI"
+  Transform {
+    Location {
+      X: -11235.9277
+      Y: 6554.88281
+      Z: -2810
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10922981457709065999
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6101574587735603905
+    }
   }
 }
 Objects {
