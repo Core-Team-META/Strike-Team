@@ -13,7 +13,7 @@ end)
 
 while not _G["LoadoutState"] or not LOCAL_PLAYER.clientUserData.SelectedSlot do Task.Wait() end
 
-BackButton.pressedEvent:Connect(function()
+BackButton.releasedEvent:Connect(function()
     if(LOCAL_PLAYER.clientUserData.SelectedSlot) then  
         Events.BroadcastToServer("EquipSlot", LOCAL_PLAYER.clientUserData.SelectedSlot)
         LOCAL_PLAYER.clientUserData.EquipSlot = LOCAL_PLAYER.clientUserData.SelectedSlot
