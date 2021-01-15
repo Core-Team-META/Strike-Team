@@ -83469,6 +83469,7 @@ Objects {
   ChildIds: 16967463709150009589
   ChildIds: 8910527263353526367
   ChildIds: 17609371797809243439
+  ChildIds: 13837223023168604768
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83477,6 +83478,71 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 13837223023168604768
+  Name: "LightBlock"
+  Transform {
+    Location {
+      X: 257.62207
+      Y: 76.0742188
+      Z: 30.1315918
+    }
+    Rotation {
+      Yaw: -90.0000534
+    }
+    Scale {
+      X: 0.2
+      Y: -1.80000007
+      Z: 3.00677156
+    }
+  }
+  ParentId: 3404457103175718542
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17393961314713938594
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.593000054
+        G: 0.397820532
+        B: 0.171970025
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.443800628
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -83833,7 +83899,7 @@ Objects {
     Location {
       X: 305
       Y: 110
-      Z: 35.0003662
+      Z: 31.4207153
     }
     Rotation {
       Yaw: -135.000046
@@ -83855,13 +83921,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 404259823891287317
-    SubobjectId: 11864754703862499566
-    InstanceId: 9141750871908166561
-    TemplateId: 15122506977501745679
-    WasRoot: true
   }
 }
 Objects {
@@ -83933,21 +83992,15 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5704493374377825011
-    SubobjectId: 17158227640201647880
-    InstanceId: 9141750871908166561
-    TemplateId: 15122506977501745679
-  }
 }
 Objects {
   Id: 2116703754518930508
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 31.3289871
-      Y: 31.2193832
-      Z: 4.99987793
+      X: 31.3291168
+      Y: 31.2197113
+      Z: -1.29180908
     }
     Rotation {
       Yaw: -45
@@ -83955,7 +84008,7 @@ Objects {
     Scale {
       X: 0.2
       Y: 1.80000007
-      Z: 2.93720341
+      Z: 3.00677156
     }
   }
   ParentId: 404259823891287317
@@ -84003,12 +84056,6 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2116703754518930508
-    SubobjectId: 13570508380346786231
-    InstanceId: 9141750871908166561
-    TemplateId: 15122506977501745679
   }
 }
 Objects {

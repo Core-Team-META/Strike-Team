@@ -3643,7 +3643,7 @@ Objects {
     Location {
       X: -1390
       Y: -880
-      Z: 520
+      Z: 528.473389
     }
     Rotation {
       Yaw: 135
@@ -4064,15 +4064,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3405
-            Y: -1325
+            X: 3419.90869
+            Y: -1330.63379
             Z: 640.000122
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 90
+            Yaw: -90
           }
         }
       }
@@ -6983,6 +6983,38 @@ Objects {
   ParentId: 7633992929331903348
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 31.8378906
+            Y: 14.2041016
+            Z: 0.000274658203
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6646247489645012756
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -36.6342773
+            Y: 7.21118164
+            Z: 0.000305175781
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -7036,6 +7068,18 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 6776089536531003666
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 2.26318359
+            Z: 0.000183105469
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 11550135456780394965
       value {
@@ -9337,6 +9381,18 @@ Objects {
   ParentId: 7633992929331903348
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.2067223
+            Y: 9.505867
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -9354,6 +9410,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 180
           }
         }
       }
@@ -9382,6 +9439,18 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.22929
+            Y: 9.6386795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -9399,6 +9468,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 180
           }
         }
       }
@@ -23154,6 +23224,18 @@ Objects {
   ParentId: 6859487677776779237
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.1401176
+            Y: 9.11492157
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -23209,6 +23291,18 @@ Objects {
   }
   ParentId: 6859487677776779237
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.1201
+            Y: 8.99675751
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 11550135456780394965
       value {
@@ -23659,6 +23753,25 @@ Objects {
   ParentId: 6859487677776779237
   TemplateInstance {
     ParameterOverrideMap {
+      key: 6646247489645012756
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -36.6386719
+            Y: 1.38964844
+            Z: 3.05175781e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -23907,6 +24020,53 @@ Objects {
   }
   ParentId: 6859487677776779237
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 31.8334732
+            Y: 13.1431065
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.00512346765
+            Y: 0.600000381
+            Z: 2.90573478
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6646247489645012756
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -36.6386719
+            Y: 2.24169922
+            Z: 3.05175781e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -0.00269084889
+            Y: 0.599999368
+            Z: 2.90573478
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 11550135456780394965
       value {
@@ -24158,6 +24318,18 @@ Objects {
   }
   ParentId: 6859487677776779237
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.4951782
+            Y: 11.2006836
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 11550135456780394965
       value {
@@ -34692,7 +34864,7 @@ Objects {
     Location {
       X: -1470.94727
       Y: 239.949707
-      Z: 515
+      Z: 528.798035
     }
     Rotation {
       Yaw: 135
@@ -38831,7 +39003,7 @@ Objects {
     }
     Scale {
       X: 0.6
-      Y: 0.900000036
+      Y: 0.847138703
       Z: 1
     }
   }
@@ -47820,6 +47992,18 @@ Objects {
   ParentId: 9584972375191584414
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 32.2363205
+            Y: 9.68019867
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11550135456780394965
       value {
         Overrides {
@@ -48241,6 +48425,18 @@ Objects {
   }
   ParentId: 9584972375191584414
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5348339068403564884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 33.0380745
+            Y: 14.39431
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 11550135456780394965
       value {
@@ -89326,16 +89522,16 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: 1483.54785
-      Y: 367.594238
-      Z: -580
+      X: 1532.64758
+      Y: 416.693848
+      Z: -578.776
     }
     Rotation {
       Yaw: 44.9999924
     }
     Scale {
-      X: 0.6
-      Y: 1
+      X: 0.457809508
+      Y: 1.00000262
       Z: 1
     }
   }

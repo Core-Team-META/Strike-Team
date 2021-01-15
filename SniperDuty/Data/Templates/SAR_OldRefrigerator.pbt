@@ -7,7 +7,7 @@
       RootId: 7393474597376689773
       Objects {
         Id: 7393474597376689773
-        Name: "SAR_Refrigerator"
+        Name: "SAR_OldRefrigerator"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 16373807130785117515
+        ParentId: 4781671109827199097
         ChildIds: 12790662924528093241
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -84,11 +84,7 @@
           }
         }
         ParentId: 12790662924528093241
-        ChildIds: 2001396195238759807
         ChildIds: 5137010140151700081
-        ChildIds: 16447564189143403486
-        ChildIds: 11524886593460770690
-        ChildIds: 675426174325060853
         ChildIds: 15132805037659738258
         ChildIds: 15935439762091716278
         Collidable_v2 {
@@ -102,161 +98,21 @@
         }
       }
       Objects {
-        Id: 2001396195238759807
-        Name: "Decal Stains Top 01"
-        Transform {
-          Location {
-            X: 53.9936523
-            Y: 4.31689453
-          }
-          Rotation {
-            Yaw: -85.011528
-            Roll: 89.9999695
-          }
-          Scale {
-            X: 0.100765839
-            Y: 0.604834199
-            Z: 0.0295792203
-          }
-        }
-        ParentId: 2528542647817432163
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14861199613442717671
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
         Id: 5137010140151700081
         Name: "Decal Stains Top 01"
         Transform {
           Location {
             X: 55.7524414
-            Y: -22.8359375
+            Y: 4.24316406
           }
           Rotation {
-            Yaw: -85.011528
+            Yaw: -85.0115356
             Roll: 89.9999695
           }
           Scale {
-            X: 0.100765839
-            Y: 0.604834199
-            Z: 0.0295792203
-          }
-        }
-        ParentId: 2528542647817432163
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14861199613442717671
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 16447564189143403486
-        Name: "Decal Stains Top 01"
-        Transform {
-          Location {
-            X: 55.7524414
-            Y: 11.4848633
-          }
-          Rotation {
-            Yaw: -85.011528
-            Roll: 89.9999695
-          }
-          Scale {
-            X: 0.100765839
-            Y: 0.604834199
-            Z: 0.0295792203
-          }
-        }
-        ParentId: 2528542647817432163
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14861199613442717671
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 11524886593460770690
-        Name: "Decal Stains Top 01"
-        Transform {
-          Location {
-            X: -71.5604248
-            Y: -22.2954102
-          }
-          Rotation {
-            Yaw: -85.011528
-            Roll: 89.9999695
-          }
-          Scale {
-            X: 0.100765839
-            Y: 0.604834199
-            Z: 0.0295792203
-          }
-        }
-        ParentId: 2528542647817432163
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14861199613442717671
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 675426174325060853
-        Name: "Decal Stains Top 01"
-        Transform {
-          Location {
-            X: -71.5604248
-            Y: 29.371582
-          }
-          Rotation {
-            Yaw: -85.011528
-            Roll: 89.9999695
-          }
-          Scale {
-            X: 0.100765839
-            Y: 0.604834199
-            Z: 0.0295792203
+            X: 0.185265258
+            Y: 0.604834139
+            Z: 0.0295751821
           }
         }
         ParentId: 2528542647817432163
@@ -281,13 +137,11 @@
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -11.1888733
-            Y: 79.0061
+            X: -11.1889648
+            Y: 79.0063477
           }
           Rotation {
-            Pitch: 4.09811328e-05
-            Yaw: -179.999954
-            Roll: 89.9998
+            Roll: 90
           }
           Scale {
             X: 0.100765839

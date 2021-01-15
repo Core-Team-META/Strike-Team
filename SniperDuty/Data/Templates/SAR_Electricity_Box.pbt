@@ -110,10 +110,6 @@
         ChildIds: 10632159645422395300
         ChildIds: 13661601179111032889
         ChildIds: 5364849873055553429
-        ChildIds: 1309226500678541929
-        ChildIds: 4934514497542768138
-        ChildIds: 8291334673273349423
-        ChildIds: 15849101465234823072
         ChildIds: 4489364373037056958
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -148,6 +144,8 @@
         ChildIds: 11403247880817824232
         ChildIds: 6500071689857780233
         ChildIds: 12645452030646690516
+        ChildIds: 1309226500678541929
+        ChildIds: 4934514497542768138
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -452,6 +450,80 @@
         }
       }
       Objects {
+        Id: 1309226500678541929
+        Name: "Decal Stains Top 01"
+        Transform {
+          Location {
+            X: -1.61139166
+            Y: -33.0968628
+            Z: 12.8737259
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: -89.9999695
+            Roll: 89.9999466
+          }
+          Scale {
+            X: 0.167118028
+            Y: 0.25415796
+            Z: 0.0206538737
+          }
+        }
+        ParentId: 4541106029410501416
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 18005806658245892960
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
+        Id: 4934514497542768138
+        Name: "Decal Stains Bottom 01"
+        Transform {
+          Location {
+            X: -1.32913506
+            Y: -39.2403107
+            Z: -75.447937
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: -89.9999695
+            Roll: 89.9999466
+          }
+          Scale {
+            X: 0.16526787
+            Y: 0.446702629
+            Z: 0.03361471
+          }
+        }
+        ParentId: 4541106029410501416
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6513725703093912292
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
         Id: 929161617184360267
         Name: "Cube - Chamfered Small Polished"
         Transform {
@@ -696,184 +768,6 @@
         }
       }
       Objects {
-        Id: 1309226500678541929
-        Name: "Decal Stains Top 01"
-        Transform {
-          Location {
-            X: 13.0660343
-            Y: 6.5742836
-            Z: 226.507263
-          }
-          Rotation {
-            Yaw: -89.9999771
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.20054163
-            Y: 0.304989576
-            Z: 0.0247846488
-          }
-        }
-        ParentId: 17129984262005486440
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 18005806658245892960
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 4934514497542768138
-        Name: "Decal Stains Bottom 01"
-        Transform {
-          Location {
-            X: 13.4045315
-            Y: -0.797870636
-            Z: 120.521263
-          }
-          Rotation {
-            Yaw: -89.9999771
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.198321447
-            Y: 0.536043167
-            Z: 0.040337652
-          }
-        }
-        ParentId: 17129984262005486440
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 6513725703093912292
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 8291334673273349423
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: 13.4048233
-            Y: -44.7713661
-            Z: 222.271164
-          }
-          Rotation {
-            Yaw: -89.9999771
-            Roll: 89.9999466
-          }
-          Scale {
-            X: 0.341951042
-            Y: 0.28399229
-            Z: 0.0151346736
-          }
-        }
-        ParentId: 17129984262005486440
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.243000016
-              G: 0.221596658
-              B: 0.0729000047
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 0.175000012
-              G: 0.159586072
-              B: 0.0525000058
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 15849101465234823072
-        Name: "World Text"
-        Transform {
-          Location {
-            X: 13.6574268
-            Y: -19.9403477
-            Z: 208.624557
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.352689326
-            Y: 0.352689326
-            Z: 0.614082515
-          }
-        }
-        ParentId: 17129984262005486440
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Text {
-          Text: "C.O.R.E"
-          Color {
-            R: 0.178
-            G: 0.178
-            B: 0.178
-            A: 1
-          }
-          HorizontalSize: 1
-          VerticalSize: 1
-          HorizontalAlignment {
-            Value: "mc:ecoretexthorizontalalign:left"
-          }
-          VerticalAlignment {
-            Value: "mc:ecoretextverticalalign:center"
-          }
-        }
-      }
-      Objects {
         Id: 4489364373037056958
         Name: "Foundation 01 Corner Mainstreet"
         Transform {
@@ -948,6 +842,24 @@
       }
     }
     Assets {
+      Id: 18005806658245892960
+      Name: "Decal Stains Top 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_top_001"
+      }
+    }
+    Assets {
+      Id: 6513725703093912292
+      Name: "Decal Stains Bottom 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_stain_bottom_001"
+      }
+    }
+    Assets {
       Id: 11162297399913732681
       Name: "Cube - Polished"
       PlatformAssetType: 1
@@ -972,24 +884,6 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_painted_old_001_uv"
-      }
-    }
-    Assets {
-      Id: 18005806658245892960
-      Name: "Decal Stains Top 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_top_001"
-      }
-    }
-    Assets {
-      Id: 6513725703093912292
-      Name: "Decal Stains Bottom 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stain_bottom_001"
       }
     }
     Assets {

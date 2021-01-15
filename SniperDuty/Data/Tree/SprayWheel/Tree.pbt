@@ -63,6 +63,12 @@ Objects {
     }
   }
   ParentId: 16308489428754801504
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 2312759897130625607
@@ -72,49 +78,13 @@ Objects {
           String: "SelectionWheel"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
         Overrides {
-          Name: "cs:BroadcastToServer"
-          Bool: true
-        }
-        Overrides {
-          Name: "cs:EventName"
-          String: "Spray"
-        }
-        Overrides {
-          Name: "cs:OpenString"
-          String: "SprayOpen"
-        }
-        Overrides {
-          Name: "cs:CloseString"
-          String: "SprayClose"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6319397768712390558
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11668901126780585094
-      value {
-        Overrides {
-          Name: "cs:SPRAYSOUND"
-          AssetReference {
-            Id: 8539738869023270098
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
