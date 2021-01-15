@@ -149,7 +149,11 @@
         UnregisteredParameters {
           Overrides {
             Name: "bp:Particle Size Multiplier"
-            Float: 0.6
+            Float: 0.177541122
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 16.8192177
           }
         }
         Collidable_v2 {

@@ -145,7 +145,7 @@
             UseReticle: true
             Muzzle {
               Location {
-                X: 25
+                X: 30
                 Z: 10
               }
               Rotation {
@@ -552,6 +552,12 @@
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
             Float: 2
+          }
+          Overrides {
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.3
+            }
           }
         }
         Collidable_v2 {
