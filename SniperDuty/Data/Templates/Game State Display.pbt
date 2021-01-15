@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12110771893887422485
   Name: "Game State Display"
   PlatformAssetType: 5
@@ -355,5 +355,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3508882800071071653
   Name: "Advanced Crossbow"
   PlatformAssetType: 5
@@ -1099,5 +1099,5 @@
       AssetId: "Advanced_Crossbow"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15615375767114647986
   Name: "Revolver Muzzle Flash"
   PlatformAssetType: 5
@@ -178,5 +178,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

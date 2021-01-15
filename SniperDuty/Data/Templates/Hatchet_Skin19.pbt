@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6300916256509283653
   Name: "Hatchet_Skin19"
   PlatformAssetType: 5
@@ -443,5 +443,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

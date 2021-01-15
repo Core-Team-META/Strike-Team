@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10570560782233422313
   Name: "RegenHealth"
   PlatformAssetType: 3
@@ -14,5 +14,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

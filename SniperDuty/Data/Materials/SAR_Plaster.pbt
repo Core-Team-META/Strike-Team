@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 15505603493108819243
   Name: "SAR_Plaster"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

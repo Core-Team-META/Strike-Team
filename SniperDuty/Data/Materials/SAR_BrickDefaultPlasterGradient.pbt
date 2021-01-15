@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 8173848993185204084
   Name: "SAR_BrickDefaultPlasterGradient"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

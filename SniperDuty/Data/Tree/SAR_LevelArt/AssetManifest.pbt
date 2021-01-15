@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18393888041398592342
   Name: "Text 02: E"
   PlatformAssetType: 1
@@ -23,15 +23,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_003"
-  }
-}
-Assets {
-  Id: 18205316927619177531
-  Name: "Decal Military Posters 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_mil_posters_002_ref"
   }
 }
 Assets {
@@ -95,15 +86,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
-  Id: 17860750842844291223
-  Name: "2D Basic Shapes Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_basicShapes"
   }
 }
 Assets {
@@ -350,15 +332,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14744911882658878240
-  Name: "Decal Hay Patch 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_fan_hay_001"
-  }
-}
-Assets {
   Id: 14643090495247569259
   Name: "Dirt 01"
   PlatformAssetType: 2
@@ -593,15 +566,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12977585700991343703
-  Name: "Decal Street Litter 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_urb_debris_001_ref"
-  }
-}
-Assets {
   Id: 12905923173550510229
   Name: "Cylinder - Polished"
   PlatformAssetType: 1
@@ -653,15 +617,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_pole_03_end_001"
-  }
-}
-Assets {
-  Id: 12704764869057814971
-  Name: "2D Basic Shapes Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_basicShapes"
   }
 }
 Assets {
@@ -959,15 +914,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_stairs_001_150cm"
-  }
-}
-Assets {
-  Id: 9786462415611388372
-  Name: "Decal Street Litter 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_urb_debris_002_ref"
   }
 }
 Assets {
@@ -1310,15 +1256,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_shipping_pallet_001"
-  }
-}
-Assets {
-  Id: 4943198643637763866
-  Name: "Decal Sand Patch"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_sand_patch_001"
   }
 }
 Assets {

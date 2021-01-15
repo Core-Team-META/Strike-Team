@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2790610401405566026
   Name: "STORE_SuperHat"
   PlatformAssetType: 5
@@ -661,5 +661,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

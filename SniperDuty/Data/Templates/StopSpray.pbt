@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8233830856064555440
   Name: "StopSpray"
   PlatformAssetType: 5
@@ -62,5 +62,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

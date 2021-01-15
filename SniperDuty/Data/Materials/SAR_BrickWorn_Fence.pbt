@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 2272860747802035541
   Name: "SAR_BrickWorn_Fence"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 12295149545954923323
     ParameterOverrides {

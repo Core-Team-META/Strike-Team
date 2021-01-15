@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12724662956926932642
   Name: "Helper_CompassPOI"
   PlatformAssetType: 5
@@ -260,5 +260,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

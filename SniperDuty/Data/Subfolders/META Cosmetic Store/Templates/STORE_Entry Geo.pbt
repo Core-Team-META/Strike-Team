@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3421951190745283490
   Name: "STORE_Entry Geo"
   PlatformAssetType: 5
@@ -170,6 +170,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -263,6 +271,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -375,5 +391,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

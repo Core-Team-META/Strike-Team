@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18230367274597030398
   Name: "LMG Proto Scope Template"
   PlatformAssetType: 5
@@ -2848,5 +2848,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

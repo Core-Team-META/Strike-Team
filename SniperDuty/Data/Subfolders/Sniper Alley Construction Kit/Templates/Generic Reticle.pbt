@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4886165845751716975
   Name: "Generic Reticle"
   PlatformAssetType: 5
@@ -434,5 +434,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

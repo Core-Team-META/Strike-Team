@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12945772463365654918
   Name: "SAR_SatelliteDish"
   PlatformAssetType: 5
@@ -1284,5 +1284,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

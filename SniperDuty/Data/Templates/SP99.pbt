@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 649816347805947132
   Name: "SP99"
   PlatformAssetType: 5
@@ -733,5 +733,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

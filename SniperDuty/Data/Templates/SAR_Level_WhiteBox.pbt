@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15952124285543764006
   Name: "SAR_Level_WhiteBox"
   PlatformAssetType: 5
@@ -15785,7 +15785,7 @@
     }
     Assets {
       Id: 11361361929236762022
-      Name: "Street Barrier - Pedestrian"
+      Name: "Urban Pedestrian Barrier 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -15896,5 +15896,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

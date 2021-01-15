@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 8633185090194859931
   Name: "Metal Green"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 215340117871446266
     ParameterOverrides {

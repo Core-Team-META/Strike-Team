@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6130844952911776124
   Name: "STORE_TheOoccoo"
   PlatformAssetType: 5
@@ -1808,5 +1808,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

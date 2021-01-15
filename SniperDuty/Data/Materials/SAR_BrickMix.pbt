@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 1036725943543811742
   Name: "SAR_BrickMix"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

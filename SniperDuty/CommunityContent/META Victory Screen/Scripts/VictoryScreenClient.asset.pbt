@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4021501290181245902
   Name: "VictoryScreenClient"
   PlatformAssetType: 3
@@ -31,5 +31,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

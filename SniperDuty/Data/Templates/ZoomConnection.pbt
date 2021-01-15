@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13053001575263325000
   Name: "ZoomConnection"
   PlatformAssetType: 5
@@ -59,5 +59,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

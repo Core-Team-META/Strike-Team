@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 165700934996347194
   Name: "Lobby Required Players"
   PlatformAssetType: 5
@@ -92,5 +92,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

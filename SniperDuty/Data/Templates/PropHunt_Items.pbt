@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4046581150182523328
   Name: "PropHunt Items"
   PlatformAssetType: 5
@@ -149958,7 +149958,7 @@
     }
     Assets {
       Id: 2755843002639173471
-      Name: "Street Barrier - Pedestrian"
+      Name: "Urban Pedestrian Barrier 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151173,7 +151173,7 @@
     }
     Assets {
       Id: 11638225697129107731
-      Name: "Street Barrier - Pedestrian"
+      Name: "Urban Pedestrian Barrier 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -151518,5 +151518,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

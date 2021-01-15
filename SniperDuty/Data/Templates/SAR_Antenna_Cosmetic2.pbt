@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6363991226564515595
   Name: "SAR_Antenna_Cosmetic2"
   PlatformAssetType: 5
@@ -1820,5 +1820,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

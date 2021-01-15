@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1984707584921914263
   Name: "HouseWIP"
   PlatformAssetType: 5
@@ -8086,5 +8086,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

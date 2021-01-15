@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15666957359988843417
   Name: "Spector 45_DefaultSkin"
   PlatformAssetType: 5
@@ -1642,5 +1642,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 152345068962419947
   Name: "WallChunk_2_FortShape"
   PlatformAssetType: 5
@@ -4230,6 +4230,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

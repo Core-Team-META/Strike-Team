@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8409185240923870304
   Name: "Advanced Rocket Launcher"
   PlatformAssetType: 5
@@ -4171,5 +4171,5 @@
       AssetId: "Advanced_Rocket_Launcher"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

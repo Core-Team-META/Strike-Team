@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10706991407395748906
   Name: "Molotov Cocktail"
   PlatformAssetType: 5
@@ -227,5 +227,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

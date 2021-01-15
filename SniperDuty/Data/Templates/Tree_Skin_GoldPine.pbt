@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8982741218524845318
   Name: "Tree_Skin_GoldPine"
   PlatformAssetType: 5
@@ -308,5 +308,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

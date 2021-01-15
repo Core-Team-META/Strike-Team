@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 972648906381720132
   Name: "Helper_CompassTextMark"
   PlatformAssetType: 5
@@ -70,5 +70,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6934064703230554607
   Name: "TreePick"
   PlatformAssetType: 5
@@ -469,5 +469,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 280091990481937048
   Name: "MinimapPlayer"
   PlatformAssetType: 5
@@ -563,5 +563,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

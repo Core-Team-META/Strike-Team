@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18011532733783993247
   Name: "SAR_Dresser"
   PlatformAssetType: 5
@@ -200,5 +200,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

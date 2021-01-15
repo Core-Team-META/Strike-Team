@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5457903107434317241
   Name: "Urban Pipe Ground Attachment - 02 (Prop)"
   PlatformAssetType: 5
@@ -299,5 +299,5 @@
       AssetId: "Urban_Pipe_Ground_Attachment_-_02__Prop_"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

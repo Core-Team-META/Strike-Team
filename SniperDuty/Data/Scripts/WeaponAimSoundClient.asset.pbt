@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11739187330987241719
   Name: "WeaponAimSoundClient"
   PlatformAssetType: 3
@@ -16,5 +16,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

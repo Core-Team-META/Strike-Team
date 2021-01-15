@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15345353548482817419
   Name: "Craftsman Stairs 01 U Template"
   PlatformAssetType: 5
@@ -337,5 +337,5 @@
       AssetId: "Craftsman_Stairs_01_U_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

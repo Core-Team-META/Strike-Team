@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13750889915046089960
   Name: "VictoryScreen_README"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

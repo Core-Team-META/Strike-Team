@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7079804439142703367
   Name: "SAR_ElectricWireBox"
   PlatformAssetType: 5
@@ -319,5 +319,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

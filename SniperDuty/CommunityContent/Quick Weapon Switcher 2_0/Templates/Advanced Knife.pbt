@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17078915383389365121
   Name: "Advanced Knife"
   PlatformAssetType: 5
@@ -775,5 +775,5 @@
       AssetId: "Advanced_Knife"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

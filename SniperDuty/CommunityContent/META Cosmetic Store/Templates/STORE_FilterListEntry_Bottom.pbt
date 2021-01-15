@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6320099422920476446
   Name: "STORE_FilterListEntry_Bottom"
   PlatformAssetType: 5
@@ -1406,5 +1406,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

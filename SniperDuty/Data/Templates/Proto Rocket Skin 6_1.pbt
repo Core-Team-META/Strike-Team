@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2413038413339510725
   Name: "Proto Rocket Skin 6"
   PlatformAssetType: 5
@@ -3905,5 +3905,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

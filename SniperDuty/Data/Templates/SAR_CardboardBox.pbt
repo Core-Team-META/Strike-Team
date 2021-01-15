@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7456242773881952779
   Name: "SAR_CardboardBox"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 0.87151593
           }
         }
-        ParentId: 16373807130785117515
+        ParentId: 4781671109827199097
         ChildIds: 1277046181722558263
         ChildIds: 14305844087393245505
         ChildIds: 15146634893118300654
@@ -115,9 +115,6 @@
         }
         ParentId: 647263379746625074
         ChildIds: 4742964576129478806
-        ChildIds: 17138756979979369853
-        ChildIds: 1324667500093154051
-        ChildIds: 16377766592862936735
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -168,188 +165,6 @@
           Overrides {
             Name: "bp:Stroke Width"
             Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 17138756979979369853
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -25.2841797
-            Y: 4.34033203
-            Z: 11.0021973
-          }
-          Rotation {
-            Yaw: 90.0000229
-            Roll: 89.9999466
-          }
-          Scale {
-            X: 0.20249559
-            Y: 0.0400172547
-            Z: 0.063850522
-          }
-        }
-        ParentId: 14305844087393245505
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.384791315
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 1324667500093154051
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -18.3507404
-            Y: 2.79048538
-            Z: -1.69830322
-          }
-          Rotation {
-            Pitch: 4.5136075
-            Yaw: -94.5134888
-            Roll: -90
-          }
-          Scale {
-            X: 0.167604044
-            Y: 0.0286575444
-            Z: 0.203120589
-          }
-        }
-        ParentId: 14305844087393245505
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.250142902
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.112
-              G: 0.0546841919
-              B: 0.0303519983
-              A: 0.371000022
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Sort Order"
-            Int: 1
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 16377766592862936735
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -21.8593369
-            Y: 3.80299568
-            Z: 11.5183716
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.207239538
-            Y: 0.0286573656
-            Z: 0.0335126296
-          }
-        }
-        ParentId: 14305844087393245505
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.250142902
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.112
-              G: 0.0546841919
-              B: 0.0303519983
-              A: 0.371000022
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Sort Order"
-            Int: 7
           }
         }
         Collidable_v2 {
@@ -550,5 +365,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

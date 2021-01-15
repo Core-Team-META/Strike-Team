@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17653408521166154205
   Name: "ScoreboardLeaderstatPlayer"
   PlatformAssetType: 5
@@ -125,5 +125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

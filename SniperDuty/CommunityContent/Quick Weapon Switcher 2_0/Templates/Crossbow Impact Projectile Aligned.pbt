@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7996304586243348642
   Name: "Crossbow Impact Projectile Aligned"
   PlatformAssetType: 5
@@ -110,5 +110,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

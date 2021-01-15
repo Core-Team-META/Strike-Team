@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13757366576087211822
   Name: "BIGRipper_DeafaultSkin"
   PlatformAssetType: 5
@@ -361,5 +361,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

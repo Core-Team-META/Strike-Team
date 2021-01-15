@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11880836460639125341
   Name: "RoamingCameraClient"
   PlatformAssetType: 3
@@ -21,5 +21,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6070669818202608386
   Name: "Rocket Launcher Muzzle Flash"
   PlatformAssetType: 5
@@ -299,5 +299,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

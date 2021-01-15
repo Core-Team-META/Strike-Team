@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14482320207318663573
   Name: "Bottle"
   PlatformAssetType: 5
@@ -86,5 +86,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

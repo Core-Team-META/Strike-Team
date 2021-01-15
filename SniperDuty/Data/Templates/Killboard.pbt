@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7803355834863197027
   Name: "Killboard"
   PlatformAssetType: 5
@@ -219,5 +219,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

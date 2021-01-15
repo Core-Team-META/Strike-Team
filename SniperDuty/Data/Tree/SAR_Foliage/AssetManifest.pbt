@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16110182342503554212
   Name: "Bush 02"
   PlatformAssetType: 1

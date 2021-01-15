@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13983763599896264385
   Name: "_Aircrafts"
   PlatformAssetType: 5
@@ -18927,6 +18927,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

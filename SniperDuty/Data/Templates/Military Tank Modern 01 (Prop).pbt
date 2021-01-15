@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11635621020504568658
   Name: "Military Tank Modern 01 (Prop)"
   PlatformAssetType: 5
@@ -5516,5 +5516,5 @@
       AssetId: "Military_Tank_Modern_01__Prop_"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

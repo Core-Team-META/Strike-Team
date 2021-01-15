@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9840030392937254563
   Name: "SAR_AwningShort"
   PlatformAssetType: 5
@@ -473,5 +473,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11390603682206149500
   Name: "_SniperAlley_GameplayLogic"
   PlatformAssetType: 5
@@ -1135,6 +1135,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6715002171705175582
   Name: "Revolver Reload Sound"
   PlatformAssetType: 5
@@ -117,5 +117,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

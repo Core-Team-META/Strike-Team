@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7611242078719564322
   Name: "Pistol Reload Sound"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

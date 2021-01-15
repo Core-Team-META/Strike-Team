@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14867045506072926901
   Name: "SAR_Clothes Pile2"
   PlatformAssetType: 5
@@ -807,5 +807,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

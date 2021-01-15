@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5675832842968681908
   Name: "STORE_BaseballCap"
   PlatformAssetType: 5
@@ -500,5 +500,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2860669235478225687
   Name: "Tree_Skin_CherryOak"
   PlatformAssetType: 5
@@ -314,5 +314,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

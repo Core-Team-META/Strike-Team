@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 528286187845114349
   Name: "SetDatabaseIcon"
   PlatformAssetType: 3
@@ -10,5 +10,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

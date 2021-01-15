@@ -1,4 +1,4 @@
-﻿Name: "SAR_SFX"
+Name: "SAR_SFX"
 RootId: 8849669081362303247
 Objects {
   Id: 6554089544094711560

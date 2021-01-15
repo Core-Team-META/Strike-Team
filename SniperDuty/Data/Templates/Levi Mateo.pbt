@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1716320120828356578
   Name: "Levi Mateo"
   PlatformAssetType: 5
@@ -857,5 +857,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

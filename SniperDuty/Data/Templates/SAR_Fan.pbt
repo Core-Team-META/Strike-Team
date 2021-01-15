@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7849182810515744092
   Name: "SAR_Fan"
   PlatformAssetType: 5
@@ -445,5 +445,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

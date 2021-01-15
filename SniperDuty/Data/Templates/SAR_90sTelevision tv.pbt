@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2854917371227349375
   Name: "SAR_90sTelevision tv"
   PlatformAssetType: 5
@@ -1050,5 +1050,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

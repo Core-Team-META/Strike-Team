@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8424197035868533543
   Name: "Sign - Right Turn 03"
   PlatformAssetType: 5
@@ -285,5 +285,5 @@
       AssetId: "Sign_-_Right_Turn_03"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

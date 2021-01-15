@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11110482305205752306
   Name: "Fantasy Castle Pillar 01 - 2x Tile Template"
   PlatformAssetType: 5
@@ -172,5 +172,5 @@
       AssetId: "Fantasy_Castle_Pillar_01_-_2x_Tile_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

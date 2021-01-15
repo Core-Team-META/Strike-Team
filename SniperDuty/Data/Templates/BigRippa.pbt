@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16243453159058322217
   Name: "BigRippa"
   PlatformAssetType: 5
@@ -461,5 +461,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

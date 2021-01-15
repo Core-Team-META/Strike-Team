@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12257384157621862929
   Name: "SAR_Antenna02"
   PlatformAssetType: 5
@@ -1798,5 +1798,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10258675931005749454
   Name: "SAR_Sturdy WorkBench"
   PlatformAssetType: 5
@@ -1432,5 +1432,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

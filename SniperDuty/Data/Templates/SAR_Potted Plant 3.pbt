@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11882498381951558935
   Name: "SAR_Potted Plant 3"
   PlatformAssetType: 5
@@ -596,5 +596,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 6817137537984669908
   Name: "SAR_BricksDitchGreenGradient"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

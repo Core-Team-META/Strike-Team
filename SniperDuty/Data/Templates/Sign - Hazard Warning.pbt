@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17431915116140772134
   Name: "Sign - Hazard Warning"
   PlatformAssetType: 5
@@ -257,5 +257,5 @@
       AssetId: "Sign_-_Hazard_Warning"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

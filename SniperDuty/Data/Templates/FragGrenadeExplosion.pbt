@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15898919505606004880
   Name: "FragGrenadeExplosion"
   PlatformAssetType: 5
@@ -320,5 +320,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

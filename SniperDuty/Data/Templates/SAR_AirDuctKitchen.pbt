@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16541908175573086327
   Name: "SAR_AirDuctKitchen"
   PlatformAssetType: 5
@@ -176,5 +176,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5946221739865850280
   Name: "Whitebox Wall 01 with Foundation Template"
   PlatformAssetType: 5
@@ -125,5 +125,5 @@
       AssetId: "Whitebox_Wall_01_with_Foundation_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

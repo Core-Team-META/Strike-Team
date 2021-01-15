@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16118667818826686655
   Name: "Shotgun Reload Sound"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

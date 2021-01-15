@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14415773585148698092
   Name: "Advanced Revolver"
   PlatformAssetType: 5
@@ -1169,5 +1169,5 @@
       AssetId: "Advanced_Revolver"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

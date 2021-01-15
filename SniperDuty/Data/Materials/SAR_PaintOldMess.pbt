@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 17743160960146116138
   Name: "SAR_PaintOldMess"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5794335155085257965
   Name: "Brazier"
   PlatformAssetType: 5
@@ -2234,6 +2234,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

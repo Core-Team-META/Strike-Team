@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17397446663522860197
   Name: "Mamba_SPR_DefaultSkin"
   PlatformAssetType: 5
@@ -2987,5 +2987,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }
