@@ -359,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7531323142721961800
-  Name: "Metal Iron Rusted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_002"
-  }
-}
-Assets {
   Id: 7321924976193288411
   Name: "Street Utility Box 01"
   PlatformAssetType: 1

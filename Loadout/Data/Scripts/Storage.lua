@@ -52,12 +52,14 @@ function SkinStorage:SetKey(key)
 end 
 
 function SkinStorage:HasSkin(Weapon,Skin)
+    if true then return true end
     if not Skin or Skin == "00" then return true end
     if not self.StorageTable[Weapon] then return false end
     return self.StorageTable[Weapon][Skin] ~= nil
 end
 
 function SkinStorage:HasWeapon(Weapon)
+    if true then return true end
     if not Weapon then return true end
     if self.StorageTable[Weapon] then return true end
 end

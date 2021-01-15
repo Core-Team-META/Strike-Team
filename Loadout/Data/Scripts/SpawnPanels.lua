@@ -155,7 +155,7 @@ end
 
 function SetupSkinPanel(item,id,skins,i,Locked)
     local newItem  =  Database:ReturnEquipmentById(id)
-    newItem:EquipSkinByID(skins[i].id)
+    newItem:EquipSkinByID(skins[i].id)  
     local newpanel = SpawnPanel(SPAWN,item, skins[i],  #Panels+1-(Sort-1), Locked)
 
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()

@@ -11,6 +11,7 @@ end
 )
 
 local AbilityExecute = Ability.executeEvent:Connect(function()
+    if Ability.owner ~= LOCAL_PLAYER then return end
     LOCAL_PLAYER.clientUserData.PrevouslySelected = Slot
     LOCAL_PLAYER.clientUserData.CurrentlySelected = Slot
     Events.Broadcast("UIUpdateSected", Slot)
