@@ -33,7 +33,7 @@ BUTTON.unhoveredEvent:Connect(
     function ()
         for key, value in pairs(PROPERTIES) do
             if(string.match(key,"TEXT")) then
-                value:GetObject():SetColor(Color.WHITE)
+                value:GetObject():SetColor(Color.FromStandardHex("#000000FF"))
             end
         end
     end

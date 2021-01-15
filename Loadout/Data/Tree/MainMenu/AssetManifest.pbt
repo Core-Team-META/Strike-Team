@@ -1,18 +1,18 @@
 ﻿Assets {
-  Id: 13981649737272506516
-  Name: "Military Frame 006"
+  Id: 3481758651789323561
+  Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Frame_006"
+    AssetId: "FrameOutline_020"
   }
 }
 Assets {
-  Id: 2604353830693238371
-  Name: "BG Highlighted 001"
+  Id: 1814707273787853473
+  Name: "BG Flat 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_020"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
