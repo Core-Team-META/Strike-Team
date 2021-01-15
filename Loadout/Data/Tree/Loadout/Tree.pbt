@@ -1890,7 +1890,6 @@ Objects {
   }
   ParentId: 14933729121853623480
   ChildIds: 5585834901676864967
-  ChildIds: 9918521310723177552
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1928,6 +1927,57 @@ Objects {
   }
 }
 Objects {
+  Id: 5585834901676864967
+  Name: "EQUIP"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10261410239871267926
+  ChildIds: 12206810067092163948
+  ChildIds: 10769495689483586199
+  ChildIds: 5284683246298676620
+  ChildIds: 9918521310723177552
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIX: 300
+    UIY: -20
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 9918521310723177552
   Name: "BACK"
   Transform {
@@ -1941,7 +1991,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10261410239871267926
+  ParentId: 5585834901676864967
   ChildIds: 1940982045976924831
   ChildIds: 3113108812671495739
   ChildIds: 18211210700786289074
@@ -1954,8 +2004,7 @@ Objects {
   Control {
     Width: 200
     Height: 60
-    UIX: 80
-    UIY: -20
+    UIX: -220
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2525,56 +2574,6 @@ Objects {
     SubobjectId: 14931201294772268975
     InstanceId: 2121233647122056547
     TemplateId: 17756474356138229436
-  }
-}
-Objects {
-  Id: 5585834901676864967
-  Name: "EQUIP"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10261410239871267926
-  ChildIds: 12206810067092163948
-  ChildIds: 10769495689483586199
-  ChildIds: 5284683246298676620
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Control {
-    Width: 200
-    Height: 60
-    UIX: 300
-    UIY: -20
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-    }
   }
 }
 Objects {

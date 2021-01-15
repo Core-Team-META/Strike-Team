@@ -18,6 +18,9 @@ end
 local ATTACK_ABILITY = WEAPON:GetAbilities()[1]
 local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
 
+while not ATTACK_ABILITY do ATTACK_ABILITY = WEAPON:GetAbilities()[1] Task.Wait() end
+if ATTACK_ABILITY.name == "Reload" then Events.Broadcast("WeaponsBroke") end
+
 while not WEAPON.clientUserData.Ammo do Task.Wait() end 
 
 function CheckFiring()

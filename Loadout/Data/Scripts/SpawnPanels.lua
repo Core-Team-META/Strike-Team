@@ -95,7 +95,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
     local x,y = GlobalPixel.ToWorld(newpanel)
-    local  Screen  = UI.GetScreenSize()
+    local Screen  = UI.GetScreenSize()
     x = x + Screen.x
     y = y + Screen.y/2
     local screenObject = ScreenObject.New(object, {
@@ -113,7 +113,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             local x,y = GlobalPixel.ToWorld(newpanel)
             local  Screen  = UI.GetScreenSize()
             x = x + Screen.x
-            y = y + Screen.y/2
+            y = y   
             screenObject:UpdatePosition({
                 pixelPosX = x+(newpanel.width*.7),
                 pixelPosY = y+(newpanel.height*.6),
@@ -156,7 +156,6 @@ end
 function SetupSkinPanel(item,id,skins,i,Locked)
     local newItem  =  Database:ReturnEquipmentById(id)
     newItem:EquipSkinByID(skins[i].id)
-    print(#Panels)
     local newpanel = SpawnPanel(SPAWN,item, skins[i],  #Panels+1-(Sort-1), Locked)
 
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()

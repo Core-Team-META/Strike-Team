@@ -54,17 +54,21 @@ function SetDarkened()
 	TEXT:SetColor(Color.New(DARK*4,DARK*4,DARK*4))	
 end
 
-function UpdateHighlight()
-	if(LOCAL_PLAYER:GetResource("WeaponSlot") == NUMBER) then
+function UpdateHighlight(Value)
+	if(Value == NUMBER) then
 		SetHighlighted()
 	else
 		SetDarkened()
 	end
 end
 
-LOCAL_PLAYER.resourceChangedEvent:Connect(function(player, Resource)
-	if(Resource == "WeaponSlot" ) then
-		UpdateHighlight()
-	end
-end)
-UpdateHighlight()
+Events.Connect("UIUpdateSected", UpdateHighlight)
+--[[
+
+	LOCAL_PLAYER.resourceChangedEvent:Connect(function(player, Resource)
+		if(Resource == "WeaponSlot" ) then
+			UpdateHighlight(LOCAL_PLAYER:GetResource("WeaponSlot"))
+		end
+	end)
+]]
+UpdateHighlight(1)

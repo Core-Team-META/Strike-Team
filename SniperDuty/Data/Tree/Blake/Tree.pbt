@@ -158,7 +158,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17941947132016548985
+  Id: 15793323732521120382
   Name: "ZoomConnection"
   Transform {
     Scale {
@@ -168,27 +168,110 @@ Objects {
     }
   }
   ParentId: 10671565427701169845
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 18267290839268223909
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ZoomConnection"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
+  ChildIds: 8032585519370009753
+  ChildIds: 18337397004738100778
+  ChildIds: 18321772082180584173
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 15793323732521120382
+    SubobjectId: 18267290839268223909
+    InstanceId: 17941947132016548985
+    TemplateId: 13053001575263325000
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 18321772082180584173
+  Name: "ClientResouceUpdate"
+  Transform {
+    Location {
     }
-    TemplateAsset {
-      Id: 13053001575263325000
+    Rotation {
     }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15793323732521120382
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9258618686934108904
+    }
+  }
+}
+Objects {
+  Id: 18337397004738100778
+  Name: "ScrollUpdate"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15793323732521120382
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16569237408567915724
+    }
+  }
+}
+Objects {
+  Id: 8032585519370009753
+  Name: "ZoomToScroll"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15793323732521120382
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11782124598027931862
+    }
+  }
+  InstanceHistory {
+    SelfId: 8032585519370009753
+    SubobjectId: 5320481247191917890
+    InstanceId: 17941947132016548985
+    TemplateId: 13053001575263325000
   }
 }
 Objects {

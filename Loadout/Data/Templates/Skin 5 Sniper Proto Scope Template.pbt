@@ -15,8 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 10570329250677286323
-        ChildIds: 12536501715789465107
+        ParentId: 4781671109827199097
         ChildIds: 14899671172227204103
         WantsNetworking: true
         Collidable_v2 {
@@ -26,50 +25,6 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 12536501715789465107
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 14051176743648729511
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 14051176743648729511
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -35
-              Z: 0.75
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16135316138749006068
-          }
         }
       }
       Objects {

@@ -318,7 +318,7 @@ Assets {
         Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
-            X: 23.3676167
+            X: 23.3676205
             Z: 9.56571388
           }
           Rotation {
@@ -326,9 +326,9 @@ Assets {
             Roll: -89.999939
           }
           Scale {
-            X: 0.0116099035
-            Y: 0.064956829
-            Z: 0.0429639667
+            X: 0.0116098719
+            Y: 0.0384352282
+            Z: 0.0429640077
           }
         }
         ParentId: 3982262525415098095

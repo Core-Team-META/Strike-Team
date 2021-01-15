@@ -15,10 +15,9 @@
             Z: 1
           }
         }
-        ParentId: 6306102192992875207
-        ChildIds: 7315100291360166234
+        ParentId: 4781671109827199097
         ChildIds: 17610617152307285847
-        WantsNetworking: true
+        ChildIds: 6350205976781594799
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -26,50 +25,6 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 7315100291360166234
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 8939148342447277672
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 8939148342447277672
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -2
-              Z: 1.5
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16135316138749006068
-          }
         }
       }
       Objects {
@@ -1694,6 +1649,63 @@
           StaticMesh {
             Physics {
             }
+          }
+        }
+      }
+      Objects {
+        Id: 6350205976781594799
+        Name: "ScopeAnimation"
+        Transform {
+          Location {
+            X: 1778.24329
+            Y: 3670.29492
+            Z: -28.2611427
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+        ParentId: 8939148342447277672
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 8939148342447277672
+            }
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 5
+            }
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 17610617152307285847
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
+            Vector {
+              X: 1
+              Z: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3786383836679515830
           }
         }
       }

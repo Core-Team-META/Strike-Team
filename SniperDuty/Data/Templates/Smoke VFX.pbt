@@ -59,15 +59,15 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 4.42491865
+            Float: 5.89966583
           }
           Overrides {
             Name: "bp:Density"
-            Float: 4.42491865
+            Float: 0.984331846
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: 7.90118408
+            Float: 2.63310909
           }
           Overrides {
             Name: "bp:Local Space"
@@ -94,9 +94,6 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.593000054
-              G: 0.593000054
-              B: 0.593000054
               A: 1
             }
           }

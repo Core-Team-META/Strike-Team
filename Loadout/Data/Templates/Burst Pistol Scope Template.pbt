@@ -16,7 +16,7 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3408402384881752448
+        ChildIds: 2252401412967102730
         ChildIds: 4203502696765347066
         UnregisteredParameters {
         }
@@ -32,34 +32,47 @@
         }
       }
       Objects {
-        Id: 3408402384881752448
-        Name: "WeaponMoveReturnOnExecuteClient"
+        Id: 2252401412967102730
+        Name: "ScopeAnimation"
         Transform {
           Location {
-            X: 45
-            Z: 5
+            X: 2236.48291
+            Y: 3888.57495
+            Z: -59.8882751
           }
           Rotation {
           }
           Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
         ParentId: 17851446069586161915
         UnregisteredParameters {
           Overrides {
-            Name: "cs:ComponentRoot"
+            Name: "cs:Root"
             ObjectReference {
               SubObjectId: 17851446069586161915
             }
           }
           Overrides {
-            Name: "cs:LocalMoveOffset"
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 1
+            }
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 4203502696765347066
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
             Vector {
-              X: -2
-              Z: 1.5
+              X: 1
+              Z: 1
             }
           }
         }
@@ -72,7 +85,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 16135316138749006068
+            Id: 3786383836679515830
           }
         }
       }

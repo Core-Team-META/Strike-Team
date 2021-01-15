@@ -10,14 +10,13 @@
         Name: "Pistol Scope Template"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 11252822565508723263
-        ChildIds: 12513064222635882596
+        ChildIds: 6792704510571247498
         ChildIds: 15479600605122132637
         UnregisteredParameters {
         }
@@ -33,34 +32,47 @@
         }
       }
       Objects {
-        Id: 11252822565508723263
-        Name: "WeaponMoveReturnOnExecuteClient"
+        Id: 6792704510571247498
+        Name: "ScopeAnimation"
         Transform {
           Location {
-            X: 45
-            Z: 5
+            X: 745.494385
+            Y: 1296.19177
+            Z: -19.9627609
           }
           Rotation {
           }
           Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 314495357229036481
         UnregisteredParameters {
           Overrides {
-            Name: "cs:ComponentRoot"
+            Name: "cs:Root"
             ObjectReference {
               SubObjectId: 314495357229036481
             }
           }
           Overrides {
-            Name: "cs:LocalMoveOffset"
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 5
+            }
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 15479600605122132637
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
             Vector {
-              X: -2
-              Z: 1.5
+              X: 1
+              Z: 1
             }
           }
         }
@@ -73,119 +85,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 16135316138749006068
-          }
-        }
-      }
-      Objects {
-        Id: 12513064222635882596
-        Name: "WeaponFeedbackAnimation"
-        Transform {
-          Location {
-            X: -155
-            Y: 30
-            Z: 40
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.99999994
-            Y: 0.99999994
-            Z: 0.999999821
-          }
-        }
-        ParentId: 314495357229036481
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ShootingResetPositionTime"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "cs:ShootingDelay"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:ShootingDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ShootAbility"
-            ObjectReference {
-              SelfId: 14056811494336017308
-              SubObjectId: 16002962604720742168
-              InstanceId: 5961618583921762848
-              TemplateId: 16194164993344191593
-            }
-          }
-          Overrides {
-            Name: "cs:ShootingMovementGroup"
-            ObjectReference {
-              SubObjectId: 13274868655521326192
-            }
-          }
-          Overrides {
-            Name: "cs:hasShootingAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadAbility"
-            ObjectReference {
-              SelfId: 11554352252485664755
-              SubObjectId: 13645744175988052855
-              InstanceId: 5961618583921762848
-              TemplateId: 16194164993344191593
-            }
-          }
-          Overrides {
-            Name: "cs:hasReloadAnimation"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ReloadMovementGroup"
-            ObjectReference {
-              SubObjectId: 13274868655521326192
-            }
-          }
-          Overrides {
-            Name: "cs:ReloadDistance"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:ReloadRresetPositionTime"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "cs:ReloadDelay"
-            Float: 0.2
-          }
-          Overrides {
-            Name: "cs:FalseSlideBack"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:Scope"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SelfId: 11577787250873667593
-              SubObjectId: 13666931774824184973
-              InstanceId: 5961618583921762848
-              TemplateId: 16194164993344191593
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 5264131641106444057
+            Id: 3786383836679515830
           }
         }
       }

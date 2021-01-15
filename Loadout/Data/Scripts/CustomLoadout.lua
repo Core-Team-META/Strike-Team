@@ -32,10 +32,12 @@ function Setdata(pan,slottype)
         ["E"] = Database:GetEquipment(LOCAL_PLAYER.clientUserData.Loadouts[tostring(SLOT)]),
         ["perk"] = Database:GetPerk(LOCAL_PLAYER.clientUserData.Loadouts[tostring(SLOT)]),
     }
-    
+
     if not SLOTTYPE[slottype] then return end
     local NAME = pan:GetCustomProperty("NAME"):WaitForObject()
-    local TYPE = pan:GetCustomProperty("TYPE"):WaitForObject()
+    local TYPE = pan:GetCustomProperty("TYPE"):WaitForObject()     
+    local SKIN_NAME = pan:GetCustomProperty("SKIN_NAME"):WaitForObject()
+
     local item = Database:SetupItemWithSkin(SLOTTYPE[slottype])
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(.1,.1,.1) * item.data.scale , rotation = Rotation.New(0,0,-90) })
     table.insert( Spawns, object)
@@ -67,7 +69,7 @@ function Setdata(pan,slottype)
         screenObject = nil
         UpdateTask = nil
     end)
-    
+    SKIN_NAME.text = item:GetEquippedSkinName() or "Default"
     NAME.text = item.data.name
     TYPE.text = item.data.type
 end
@@ -100,7 +102,8 @@ function FillInData()
        
         local PIMG = EquipmentandPerks:GetCustomProperty("PERK_IMAGE"):WaitForObject()
         local ETEXT = EquipmentandPerks:GetCustomProperty("EQUIPMENT_IMAGE"):WaitForObject()
-       
+
+
         Ptext.text = perk.data.name
         Etext.text = equipment.data.name
 

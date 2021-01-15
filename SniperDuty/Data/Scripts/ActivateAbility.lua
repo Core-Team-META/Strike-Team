@@ -9,6 +9,7 @@ local ScrollEvent = Events.Connect("ScrollChange", function (dir)
     if dir ~= SIGN then
         return
     end
+
     if(LOCAL_PLAYER == Ability.owner) then
         Ability:Activate()
     end
@@ -21,5 +22,5 @@ Connections = {
         for k,v in pairs(Connections) do
             v:Disconnect()
         end end),
-    ScrollEvent:Disconnect()
+        ScrollEvent,
 }

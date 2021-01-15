@@ -104,6 +104,14 @@ function Equipment:GetEquippedSkin()
     end
 end
 
+function Equipment:GetEquippedSkinName()
+    if(self.data.EquippedSkin) then
+        return self.data.EquippedSkin.name
+    else
+        return "Default"
+    end
+end
+
 function Equipment:GetSkins()
     return self.data.skins
 end
