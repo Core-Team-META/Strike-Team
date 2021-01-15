@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13253325870475057691
   Name: "Grenade Projectile"
   PlatformAssetType: 5
@@ -184,5 +184,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

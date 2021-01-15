@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11214083309314696127
   Name: "Lobby Start Reset Team Scores"
   PlatformAssetType: 5
@@ -70,5 +70,5 @@
       AssetId: "Lobby_Start_Reset_Team_Scores"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

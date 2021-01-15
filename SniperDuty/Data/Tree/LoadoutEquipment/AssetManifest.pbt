@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16873054259561342990
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9

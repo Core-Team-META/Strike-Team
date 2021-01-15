@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15648316490636168282
   Name: "PlayerSizeRef"
   PlatformAssetType: 5
@@ -63,5 +63,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

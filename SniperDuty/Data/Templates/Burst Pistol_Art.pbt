@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14751672903366911682
   Name: "Burst Pistol_Art"
   PlatformAssetType: 5
@@ -1892,5 +1892,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

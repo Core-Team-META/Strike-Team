@@ -1,4 +1,4 @@
-﻿Name: "SAR_LevelColliders"
+Name: "SAR_LevelColliders"
 RootId: 3844101252731550927
 Objects {
   Id: 5983343531613348258

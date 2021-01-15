@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9770837550227307657
   Name: "Helper_DoorCloseSound"
   PlatformAssetType: 5
@@ -71,5 +71,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

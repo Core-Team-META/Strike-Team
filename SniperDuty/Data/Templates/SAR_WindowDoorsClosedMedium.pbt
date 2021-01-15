@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11012312411217631058
   Name: "SAR_WindowDoorsClosedMedium"
   PlatformAssetType: 5
@@ -806,5 +806,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

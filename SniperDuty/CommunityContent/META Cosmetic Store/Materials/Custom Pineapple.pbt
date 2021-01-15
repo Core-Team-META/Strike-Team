@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 1126279966443957420
   Name: "Custom Pineapple"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 7783051016444679852
     ParameterOverrides {

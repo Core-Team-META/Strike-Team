@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4887686027475991779
   Name: "EQUALIZER2.0_WEAPON"
   PlatformAssetType: 5
@@ -1089,5 +1089,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

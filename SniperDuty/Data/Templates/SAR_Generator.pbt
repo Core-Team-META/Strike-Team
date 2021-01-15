@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6779121507406885933
   Name: "SAR_Generator"
   PlatformAssetType: 5
@@ -739,5 +739,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

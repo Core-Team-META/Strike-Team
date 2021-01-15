@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12534203853871428063
   Name: "Sign - One Way"
   PlatformAssetType: 5
@@ -299,5 +299,5 @@
       AssetId: "Sign_-_One_Way"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

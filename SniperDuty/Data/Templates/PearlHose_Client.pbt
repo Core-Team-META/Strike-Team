@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3410622523000648549
   Name: "PearlHose_Client"
   PlatformAssetType: 5
@@ -817,5 +817,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

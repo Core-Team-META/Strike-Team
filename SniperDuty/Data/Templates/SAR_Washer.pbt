@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15921569492091457150
   Name: "SAR_Washer"
   PlatformAssetType: 5
@@ -1798,5 +1798,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

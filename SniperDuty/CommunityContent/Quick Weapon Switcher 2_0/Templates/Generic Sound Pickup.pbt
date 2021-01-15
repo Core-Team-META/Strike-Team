@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2711632758447153280
   Name: "Generic Sound Pickup"
   PlatformAssetType: 5
@@ -108,5 +108,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

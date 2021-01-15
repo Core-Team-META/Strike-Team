@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 759067687964903751
   Name: "SAR_Curtains02"
   PlatformAssetType: 5
@@ -502,5 +502,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

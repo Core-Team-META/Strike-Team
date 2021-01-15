@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10069576981676621367
   Name: "STOREITEM_CloudSoundRapper _Hat"
   PlatformAssetType: 5
@@ -600,5 +600,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10798511928395917419
   Name: "LoadoutEquipment"
   PlatformAssetType: 5
@@ -1131,5 +1131,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

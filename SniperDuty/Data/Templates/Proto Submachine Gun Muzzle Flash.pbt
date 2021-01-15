@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7567984303432651581
   Name: "Proto Submachine Gun Muzzle Flash"
   PlatformAssetType: 5
@@ -264,5 +264,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

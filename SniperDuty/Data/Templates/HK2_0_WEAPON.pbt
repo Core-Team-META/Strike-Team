@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6729362224180268666
   Name: "HK2.0_WEAPON"
   PlatformAssetType: 5
@@ -1080,5 +1080,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

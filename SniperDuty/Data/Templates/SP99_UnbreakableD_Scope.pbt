@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16324774529860835244
   Name: "SP99_UnbreakableD_Scope"
   PlatformAssetType: 5
@@ -1826,5 +1826,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

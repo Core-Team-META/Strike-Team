@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3428528627251459391
   Name: "KillfeedExtraEvent"
   PlatformAssetType: 3
@@ -73,5 +73,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

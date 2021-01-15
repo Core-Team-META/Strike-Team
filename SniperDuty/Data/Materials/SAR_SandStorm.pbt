@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 4975710977286325610
   Name: "SAR_SandStorm"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 7841346562613912956
     ParameterOverrides {

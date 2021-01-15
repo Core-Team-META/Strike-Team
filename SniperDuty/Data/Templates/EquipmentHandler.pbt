@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12469272091380785429
   Name: "EquipmentHandler"
   PlatformAssetType: 5
@@ -7217,6 +7217,6 @@
   Marketplace {
     Description: "dfamdokasmiodmaipdnmiu0anuihdbayusbdal;sm dlkpoasnjipfdnuasnl;kmaslkn kj kjashbdibashdb hsabudyihaij nduiansidk  jasijoamo  asid aa daninui9  kjanuin eaklmo [al[pd=p a,onm niowa  al ,kjwahijdam, niundak kjabuibdka ,mj as ahiuhdian awdhankja njklbuyhabu bijaw a wqa asddas"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

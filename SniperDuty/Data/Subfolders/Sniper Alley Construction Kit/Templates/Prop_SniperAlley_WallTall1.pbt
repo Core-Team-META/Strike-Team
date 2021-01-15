@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2733384822789110136
   Name: "Prop_SniperAlley_WallTall1"
   PlatformAssetType: 5
@@ -1169,6 +1169,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

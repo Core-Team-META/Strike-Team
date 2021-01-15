@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5156511653224820908
   Name: "Tree_Skin_MagmaShaved"
   PlatformAssetType: 5
@@ -314,5 +314,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

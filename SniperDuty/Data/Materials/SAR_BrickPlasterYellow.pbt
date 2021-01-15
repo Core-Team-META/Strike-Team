@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 2946846378138735618
   Name: "SAR_BrickPlasterYellow"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

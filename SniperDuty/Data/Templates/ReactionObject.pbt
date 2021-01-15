@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15895020167312780798
   Name: "ReactionObject"
   PlatformAssetType: 5
@@ -300,5 +300,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

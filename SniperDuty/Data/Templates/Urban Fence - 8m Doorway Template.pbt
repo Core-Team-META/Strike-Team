@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12905251711097696990
   Name: "Urban Fence - 8m Doorway Template"
   PlatformAssetType: 5
@@ -756,5 +756,5 @@
       AssetId: "Urban_Fence_-_8m_Doorway_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

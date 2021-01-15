@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11888015251202319742
   Name: "HOVERPANEL"
   PlatformAssetType: 5
@@ -300,5 +300,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

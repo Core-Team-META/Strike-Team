@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4799033010231931362
   Name: "SAR_Litter Pile 03"
   PlatformAssetType: 5
@@ -1385,5 +1385,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

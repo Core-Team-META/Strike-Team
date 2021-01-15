@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8673320526522556319
   Name: "SelectionWheel"
   PlatformAssetType: 5
@@ -453,5 +453,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

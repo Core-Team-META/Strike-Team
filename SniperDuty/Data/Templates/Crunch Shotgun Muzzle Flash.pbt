@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8459645930218295605
   Name: "Crunch Shotgun Muzzle Flash"
   PlatformAssetType: 5
@@ -604,5 +604,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

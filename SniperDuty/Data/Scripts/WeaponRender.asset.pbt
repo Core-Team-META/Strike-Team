@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11301955818703969650
   Name: "WeaponRender"
   PlatformAssetType: 3
@@ -35,5 +35,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

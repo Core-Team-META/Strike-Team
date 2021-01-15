@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15006363769250822773
   Name: "AjKillFeedLine v2 (single)"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

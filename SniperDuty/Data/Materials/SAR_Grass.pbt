@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 7901542850051251631
   Name: "SAR_Grass"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 10803714657411653271
     ParameterOverrides {

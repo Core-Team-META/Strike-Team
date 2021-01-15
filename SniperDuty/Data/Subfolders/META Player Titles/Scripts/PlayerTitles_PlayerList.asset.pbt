@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9728979306270744715
   Name: "PlayerTitles_PlayerList"
   PlatformAssetType: 3
@@ -54,5 +54,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

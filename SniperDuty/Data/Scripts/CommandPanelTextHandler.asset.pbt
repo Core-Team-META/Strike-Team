@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11649422926938645985
   Name: "CommandPanelTextHandler"
   PlatformAssetType: 3
@@ -17,5 +17,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

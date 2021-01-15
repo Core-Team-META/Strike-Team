@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14550734067781877594
   Name: "Molotov Shatter"
   PlatformAssetType: 5
@@ -62,5 +62,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

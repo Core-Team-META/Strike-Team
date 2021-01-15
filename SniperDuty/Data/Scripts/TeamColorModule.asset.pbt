@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1738432930521840709
   Name: "TeamColorModule"
   PlatformAssetType: 3
@@ -35,5 +35,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

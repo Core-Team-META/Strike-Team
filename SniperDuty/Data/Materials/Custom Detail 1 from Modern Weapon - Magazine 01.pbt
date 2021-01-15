@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 15387941303173424625
   Name: "Custom Detail 1 from Modern Weapon - Magazine 01"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 217392087323301115
     ParameterOverrides {

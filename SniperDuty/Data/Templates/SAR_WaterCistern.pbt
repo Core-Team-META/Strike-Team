@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2234944531164555579
   Name: "SAR_WaterCistern"
   PlatformAssetType: 5
@@ -1515,5 +1515,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

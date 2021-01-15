@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4196459096957492371
   Name: "SAR_Ventilation System"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 0.7
           }
         }
-        ParentId: 16373807130785117515
+        ParentId: 7057860369515092191
         ChildIds: 6927188144648585050
         ChildIds: 15573388070264513375
         ChildIds: 13412922705908481060
@@ -1273,13 +1273,6 @@
           }
         }
         ParentId: 13412922705908481060
-        ChildIds: 12386393428352433879
-        ChildIds: 9380690181053105941
-        ChildIds: 5904598484039202850
-        ChildIds: 2742044519518943873
-        ChildIds: 5452583911436141320
-        ChildIds: 1050648287004513176
-        ChildIds: 12117149738980754549
         ChildIds: 8308395600659800317
         ChildIds: 11385629123079754079
         Collidable_v2 {
@@ -1290,322 +1283,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12386393428352433879
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            Z: 50.9555664
-          }
-          Rotation {
-            Yaw: -179.999954
-            Roll: 89.9999847
-          }
-          Scale {
-            X: 0.60063
-            Y: -0.149663031
-            Z: 1.00000095
-          }
-        }
-        ParentId: 9057228371348040653
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0.116524532
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.89
-              G: 0.0884106
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17860750842844291223
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 9380690181053105941
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: -179.999954
-            Roll: 89.9999771
-          }
-          Scale {
-            X: 0.60063
-            Y: -0.474677652
-            Z: 1.00000119
-          }
-        }
-        ParentId: 9057228371348040653
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0.116524532
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17860750842844291223
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 5904598484039202850
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            Y: -0.029296875
-            Z: -110.525879
-          }
-          Rotation {
-            Yaw: -179.999954
-            Roll: 89.9999619
-          }
-          Scale {
-            X: 0.60063
-            Y: -0.149663046
-            Z: 1.00000107
-          }
-        }
-        ParentId: 9057228371348040653
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0.116524532
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.200000048
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17860750842844291223
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 2742044519518943873
-        Name: "World Text"
-        Transform {
-          Location {
-            X: 36.5220299
-            Y: -5.95754242
-            Z: 50.2382965
-          }
-          Rotation {
-            Yaw: -89.9999924
-          }
-          Scale {
-            X: 0.786814034
-            Y: 0.786814034
-            Z: 0.786814034
-          }
-        }
-        ParentId: 9057228371348040653
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Text {
-          Text: "CAUTION"
-          Color {
-            A: 1
-          }
-          HorizontalSize: 1
-          VerticalSize: 1
-          HorizontalAlignment {
-            Value: "mc:ecoretexthorizontalalign:left"
-          }
-          VerticalAlignment {
-            Value: "mc:ecoretextverticalalign:center"
-          }
-        }
-      }
-      Objects {
-        Id: 5452583911436141320
-        Name: "World Text"
-        Transform {
-          Location {
-            X: 34.30196
-            Y: -5.95754242
-            Z: 17.2038498
-          }
-          Rotation {
-            Yaw: -89.9999924
-          }
-          Scale {
-            X: 0.786814034
-            Y: 0.786814034
-            Z: 0.786814034
-          }
-        }
-        ParentId: 9057228371348040653
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Text {
-          Text: "DANGER"
-          Color {
-            A: 1
-          }
-          HorizontalSize: 1
-          VerticalSize: 1
-          HorizontalAlignment {
-            Value: "mc:ecoretexthorizontalalign:left"
-          }
-          VerticalAlignment {
-            Value: "mc:ecoretextverticalalign:center"
-          }
-        }
-      }
-      Objects {
-        Id: 1050648287004513176
-        Name: "World Text"
-        Transform {
-          Location {
-            X: 45.6318626
-            Y: -5.95754242
-            Z: -7.0971756
-          }
-          Rotation {
-            Yaw: -89.9999924
-          }
-          Scale {
-            X: 0.786814034
-            Y: 0.786814034
-            Z: 0.786814034
-          }
-        }
-        ParentId: 9057228371348040653
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Text {
-          Text: "Don\'t Touch"
-          Color {
-            A: 1
-          }
-          HorizontalSize: 1
-          VerticalSize: 1
-          HorizontalAlignment {
-            Value: "mc:ecoretexthorizontalalign:left"
-          }
-          VerticalAlignment {
-            Value: "mc:ecoretextverticalalign:center"
-          }
-        }
-      }
-      Objects {
-        Id: 12117149738980754549
-        Name: "World Text"
-        Transform {
-          Location {
-            X: 45.6318626
-            Y: -5.95754242
-            Z: -110.188774
-          }
-          Rotation {
-            Yaw: -89.9999924
-          }
-          Scale {
-            X: 0.786814034
-            Y: 0.786814034
-            Z: 0.786814034
-          }
-        }
-        ParentId: 9057228371348040653
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Text {
-          Text: "Don\'t Touch"
-          Color {
-            A: 1
-          }
-          HorizontalSize: 1
-          VerticalSize: 1
-          HorizontalAlignment {
-            Value: "mc:ecoretexthorizontalalign:left"
-          }
-          VerticalAlignment {
-            Value: "mc:ecoretextverticalalign:center"
-          }
         }
       }
       Objects {
@@ -1881,15 +1558,6 @@
       }
     }
     Assets {
-      Id: 17860750842844291223
-      Name: "2D Basic Shapes Decal"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "dcl_basicShapes"
-      }
-    }
-    Assets {
       Id: 11444910120334123213
       Name: "Decal Stains Top 01"
       PlatformAssetType: 14
@@ -1912,5 +1580,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3319980082879508408
   Name: "Proto SMG Skin 4"
   PlatformAssetType: 5
@@ -3185,5 +3185,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

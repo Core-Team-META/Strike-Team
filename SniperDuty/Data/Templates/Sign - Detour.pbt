@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9797955458945059177
   Name: "Sign - Detour"
   PlatformAssetType: 5
@@ -297,5 +297,5 @@
       AssetId: "Sign_-_Detour"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1079436827292610152
   Name: "Proto Sniper Muzzle Flash"
   PlatformAssetType: 5
@@ -645,5 +645,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

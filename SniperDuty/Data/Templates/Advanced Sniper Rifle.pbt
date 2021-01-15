@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7685885112817678222
   Name: "Advanced Sniper Rifle"
   PlatformAssetType: 5
@@ -1316,5 +1316,5 @@
       AssetId: "Advanced_Sniper_Rifle"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

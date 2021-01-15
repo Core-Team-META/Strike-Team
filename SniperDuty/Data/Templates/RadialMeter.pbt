@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9710456378702308292
   Name: "RadialMeter"
   PlatformAssetType: 5
@@ -421,5 +421,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

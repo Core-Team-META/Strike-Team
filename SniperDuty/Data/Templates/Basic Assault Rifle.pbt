@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8647243806026157803
   Name: "Basic Assault Rifle"
   PlatformAssetType: 5
@@ -1146,5 +1146,5 @@
       AssetId: "Basic_Assault_Rifle"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

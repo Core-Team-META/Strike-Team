@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8702241649420094170
   Name: "SAR_Water Tower"
   PlatformAssetType: 5
@@ -970,5 +970,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 5000320270086862594
   Name: "Teeth"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 12537868752084607232
     ParameterOverrides {

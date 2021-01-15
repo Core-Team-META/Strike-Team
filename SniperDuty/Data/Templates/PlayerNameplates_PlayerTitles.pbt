@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3311435453803541544
   Name: "PlayerNameplates (PlayerTitles)"
   PlatformAssetType: 5
@@ -203,6 +203,6 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

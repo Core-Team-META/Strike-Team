@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18382937415169668720
   Name: "Sniper Trail"
   PlatformAssetType: 5
@@ -155,5 +155,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

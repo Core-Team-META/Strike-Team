@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15383232377284624062
   Name: "Proto Assault Skin 3"
   PlatformAssetType: 5
@@ -3264,5 +3264,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

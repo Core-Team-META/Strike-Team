@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16582023579300227036
   Name: "Tire Stack 04 - Mixed Tire Stack Neat Template"
   PlatformAssetType: 5
@@ -275,5 +275,5 @@
       AssetId: "Military_Tire_Stack_04_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

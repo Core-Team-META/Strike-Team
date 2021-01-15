@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13989873823068831152
   Name: "SecretCrypt"
   PlatformAssetType: 5
@@ -14161,6 +14161,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

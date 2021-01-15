@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3956982122413133034
   Name: "Tree_Skin_ShavedHollow"
   PlatformAssetType: 5
@@ -314,5 +314,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

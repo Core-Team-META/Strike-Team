@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7535854901639484417
   Name: "Prop_RockBlockPile"
   PlatformAssetType: 5
@@ -620,6 +620,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16063020671275249352
   Name: "EquipSlotButton"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

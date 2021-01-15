@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12008111633393981450
   Name: "Weapon_Pearl_Hose"
   PlatformAssetType: 5
@@ -465,5 +465,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

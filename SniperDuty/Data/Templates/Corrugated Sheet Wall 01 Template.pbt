@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6844845134638629833
   Name: "Corrugated Sheet Wall 01 Template"
   PlatformAssetType: 5
@@ -251,5 +251,5 @@
       AssetId: "Corrugated_Sheet_Wall_01_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14364628685162766121
   Name: "aj\'ss"
   PlatformAssetType: 5
@@ -40,5 +40,5 @@
     Version: "1.1.0"
     Description: "ffdsfsdzfsd"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

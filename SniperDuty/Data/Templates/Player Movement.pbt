@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13927545411245580763
   Name: "Player Movement"
   PlatformAssetType: 5
@@ -102,5 +102,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

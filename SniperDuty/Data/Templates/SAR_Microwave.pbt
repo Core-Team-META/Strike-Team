@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 204298140375861882
   Name: "SAR_Microwave"
   PlatformAssetType: 5
@@ -518,5 +518,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

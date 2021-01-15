@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13837192872084537256
   Name: "StarSpray"
   PlatformAssetType: 5
@@ -63,5 +63,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

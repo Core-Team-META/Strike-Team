@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 796099684720971913
   Name: "TheManticore_DefaultSkin"
   PlatformAssetType: 5
@@ -2564,5 +2564,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

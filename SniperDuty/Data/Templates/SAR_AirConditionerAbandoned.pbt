@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13314303199162651240
   Name: "SAR_AirConditionerAbandoned"
   PlatformAssetType: 5
@@ -519,5 +519,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

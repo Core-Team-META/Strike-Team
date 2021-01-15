@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7776478861514098061
   Name: "SAR_CarpetModified"
   PlatformAssetType: 5
@@ -15,9 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 8179925189917419200
-        ChildIds: 10879187103573666253
+        ParentId: 16373807130785117515
         ChildIds: 8009583307135295785
         ChildIds: 3601216644685074798
         ChildIds: 8683725610712754695
@@ -29,95 +27,6 @@
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 8179925189917419200
-        Name: "Decal Stains Round 01"
-        Transform {
-          Location {
-            X: 183.923706
-            Y: -26.8997498
-            Z: 7.98120117
-          }
-          Rotation {
-            Pitch: 0.0752277
-            Yaw: 8.37129784
-            Roll: 4.16882e-10
-          }
-          Scale {
-            X: 0.400003463
-            Y: 0.399998307
-            Z: 0.0666113868
-          }
-        }
-        ParentId: 14141684624970815572
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14075465413141390957
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 10879187103573666253
-        Name: "Decal Stains Round 01"
-        Transform {
-          Location {
-            X: -227.275116
-            Y: 39.054184
-            Z: 7.98120117
-          }
-          Rotation {
-            Pitch: 0.0752277
-            Yaw: 123.183739
-          }
-          Scale {
-            X: 0.355169445
-            Y: 0.355164856
-            Z: 0.0666113868
-          }
-        }
-        ParentId: 14141684624970815572
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14075465413141390957
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
         }
       }
       Objects {
@@ -316,5 +225,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1492662237100198069
   Name: "SVAA"
   PlatformAssetType: 5
@@ -739,5 +739,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

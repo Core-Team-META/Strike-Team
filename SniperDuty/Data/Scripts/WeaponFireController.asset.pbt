@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10670409415717259294
   Name: "WeaponFireController"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

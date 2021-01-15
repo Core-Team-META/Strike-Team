@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18164646649886689595
   Name: "Distant War Battle Ambience Loop 01"
   PlatformAssetType: 7

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9648093312825281905
   Name: "Skin 1 Assault Rifle Scope Template"
   PlatformAssetType: 5
@@ -2236,5 +2236,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

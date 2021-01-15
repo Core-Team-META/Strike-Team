@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 300400446204627880
   Name: "PosterSpray"
   PlatformAssetType: 5
@@ -54,5 +54,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

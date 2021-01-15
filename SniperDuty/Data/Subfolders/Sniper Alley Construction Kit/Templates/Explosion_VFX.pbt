@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14135931130521644316
   Name: "Explosion_VFX"
   PlatformAssetType: 5
@@ -877,6 +877,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

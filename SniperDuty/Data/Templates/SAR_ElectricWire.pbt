@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7801727404855466079
   Name: "SAR_ElectricWire"
   PlatformAssetType: 5
@@ -342,5 +342,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

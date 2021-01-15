@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2573618891007445939
   Name: "Sky Early Morning 01"
   PlatformAssetType: 5
@@ -434,5 +434,5 @@
       AssetId: "Sky_Early_Morning_01"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

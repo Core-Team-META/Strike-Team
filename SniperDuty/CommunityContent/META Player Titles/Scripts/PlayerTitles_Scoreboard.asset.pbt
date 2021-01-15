@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 543028189686251757
   Name: "PlayerTitles_Scoreboard"
   PlatformAssetType: 3
@@ -81,5 +81,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

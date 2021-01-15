@@ -1,4 +1,4 @@
-﻿Name: "Post"
+Name: "Post"
 RootId: 13762199270860055975
 Objects {
   Id: 1225318085367036687

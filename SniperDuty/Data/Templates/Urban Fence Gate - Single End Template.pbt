@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16276015805925500572
   Name: "Urban Fence Gate - Single End Template"
   PlatformAssetType: 5
@@ -694,5 +694,5 @@
       AssetId: "Urban_Fence_Gate_-_Single_End_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

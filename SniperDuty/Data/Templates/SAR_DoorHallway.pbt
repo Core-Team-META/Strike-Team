@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3589751350767707736
   Name: "SAR:DoorHallway"
   PlatformAssetType: 5
@@ -243,5 +243,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

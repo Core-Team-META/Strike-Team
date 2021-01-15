@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5392455809090379132
   Name: "SAR_Plastic Container"
   PlatformAssetType: 5
@@ -1823,5 +1823,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

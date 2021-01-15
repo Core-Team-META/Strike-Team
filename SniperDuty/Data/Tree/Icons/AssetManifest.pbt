@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17916877912671871254
   Name: "Baton"
   PlatformAssetType: 9

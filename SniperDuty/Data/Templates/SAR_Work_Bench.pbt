@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4224185008295043699
   Name: "SAR_Work Bench"
   PlatformAssetType: 5
@@ -665,5 +665,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

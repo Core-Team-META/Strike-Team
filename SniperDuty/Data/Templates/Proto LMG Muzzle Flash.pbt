@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2201315401854510460
   Name: "Proto LMG Muzzle Flash"
   PlatformAssetType: 5
@@ -169,5 +169,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

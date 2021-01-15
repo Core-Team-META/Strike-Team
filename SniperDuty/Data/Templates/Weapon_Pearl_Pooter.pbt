@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11304621113425256744
   Name: "Weapon_Pearl_Pooter"
   PlatformAssetType: 5
@@ -473,5 +473,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

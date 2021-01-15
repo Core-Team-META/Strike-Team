@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11630315868538949968
   Name: "MorrocanVase"
   PlatformAssetType: 5
@@ -449,6 +449,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

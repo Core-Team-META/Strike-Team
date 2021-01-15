@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3724053241640496435
   Name: "Proto Essence Muzzle Flash"
   PlatformAssetType: 5
@@ -207,5 +207,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }
