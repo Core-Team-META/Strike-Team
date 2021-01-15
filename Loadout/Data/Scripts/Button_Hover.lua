@@ -3,7 +3,7 @@ local PROPERTIES = script:GetCustomProperties()
 local HOVER_SOUND_EFFECT = script:GetCustomProperty("HOVERSOUNDEFFECT")
 local BUTTON_COLOUR = script:GetCustomProperty("BUTTON_COLOUR")
 local SOUND = World.SpawnAsset(HOVER_SOUND_EFFECT)
-local BUTTONEVENT = script:GetCustomProperty("BUTTONEVENT")
+local BUTTONEVENT = script:GetCustomProperty("BUTTONEVENT") or nil
 local EVENT_VARIABLE = script:GetCustomProperty("EVENT_VARIABLE")
 local SEND_TO_SERVER = script:GetCustomProperty("SEND_TO_SERVER")
 local lastActivationTime = 0
@@ -12,9 +12,9 @@ local RapidPressDelay = require(script:GetCustomProperty("RapidPressDelay"))
 
 BUTTON.pressedEvent:Connect(function()
     if(not RapidPressDelay:Delay(lastActivationTime,1)) then return end
-    if(SEND_TO_SERVER) then
+    if(SEND_TO_SERVER and BUTTONEVENT) then
         Events.BroadcastToServer(BUTTONEVENT,EVENT_VARIABLE)
-    else
+    elseif (BUTTONEVENT) then
         Events.Broadcast(BUTTONEVENT,EVENT_VARIABLE)
     end
     lastActivationTime = os.time()

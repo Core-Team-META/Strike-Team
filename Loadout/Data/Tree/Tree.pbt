@@ -23,7 +23,8 @@ Objects {
   ChildIds: 5402828117076190083
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
-  ChildIds: 11973261848846093947
+  ChildIds: 17149144260207798715
+  ChildIds: 8293171845170377650
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
   UnregisteredParameters {
@@ -242,9 +243,13 @@ Objects {
   }
 }
 Objects {
-  Id: 11973261848846093947
-  Name: "EquipmentHandler"
+  Id: 8293171845170377650
+  Name: "UI Container"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -258,29 +263,59 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
       }
     }
-    TemplateAsset {
-      Id: 12469272091380785429
+  }
+}
+Objects {
+  Id: 17149144260207798715
+  Name: "EquipmentHandler"
+  Transform {
+    Location {
     }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EquipmentHandler"
+  }
+  InstanceHistory {
+    SelfId: 17149144260207798715
+    SubobjectId: 777066251803753357
+    InstanceId: 11973261848846093947
+    TemplateId: 12469272091380785429
+    WasRoot: true
   }
 }
 Objects {
