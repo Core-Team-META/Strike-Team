@@ -79,6 +79,12 @@ if Environment.IsServer() then
         self:TransferToClient()
     end
 
+    function SkinStorage:Reset()
+        self.key = "HKSNLACA_SPSNLACA_MCSNLACA_LMSNLACA_SVSNLACA_SRSNLACA_NESNLACA_S4SNLACA_EZ_LI_BA_TP"
+        self:Decode()
+        return self.key
+    end 
+    
     function SkinStorage:AddWeapon(Weapon)
         if not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end

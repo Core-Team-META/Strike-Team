@@ -131,7 +131,7 @@ function UpdatePlayerSliding(player)
     UpdatePlayerStance(player)
 end
 
-function PlayerJoined(player)
+function SetUp(player)
     player.maxWalkSpeed = RUN_SPEED
     player.groundFriction = DEFAULT_FRICTION
     player.brakingDecelerationWalking = DEFAULT_BRAKING
@@ -147,6 +147,11 @@ function PlayerJoined(player)
         ["Aiming"] = false
     }
     SetDefaultWeaponStances(player)
+end
+
+function PlayerJoined(player)
+    player.respawnedEvent:Connect(SetUp)
+    SetUp(player)
 end
 
 function SetDefaultWeaponStances(player)
@@ -186,6 +191,7 @@ function OnEquipWeapon(owner, weapon)
     Task.Wait()
     UpdatePlayerStance(owner)
 end
+
 
 Game.playerJoinedEvent:Connect(PlayerJoined)
 Game.playerLeftEvent:Connect(PlayerLeft)

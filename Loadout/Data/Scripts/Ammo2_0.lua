@@ -21,6 +21,8 @@ while not ATTACK_ABILITY or not RELOAD_ABILITY  do
     Task.Wait()
 end
 
+if RELOAD_ABILITY.name == "Shoot" then  Events.Broadcast("WeaponsBroke") end
+
 function Reload()
     WEAPON.clientUserData.Ammo = MAX_AMMO
     if(RELOAD_SOUND) then

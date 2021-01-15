@@ -81,7 +81,7 @@ end
 local function SendToVictoryScreen(podiumGroupReferenceId, topThreePlayerStats)
 	if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
 
-	Events.Broadcast("HideUI")
+
 	-- change the default camera rotation to look in the same direction so the head faces the right way
 	LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
 	LocalPlayer:SetOverrideCamera(OverrideCamera)
@@ -95,6 +95,8 @@ local function SendToVictoryScreen(podiumGroupReferenceId, topThreePlayerStats)
 			UpdatePanelForPlayer(panel, player)
 		end
 	end
+	Task.Wait(.1)
+	Events.Broadcast("HideUI")
 end
 
 --	nil SendToVictoryScreen(string)

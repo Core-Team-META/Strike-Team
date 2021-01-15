@@ -28,7 +28,7 @@ if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
 local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
-
+while not WEAPON.clientUserData.Ammo do Task.Wait() end
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
 while not Object.IsValid(RELOAD_ABILITY) do
     Task.Wait()

@@ -38,12 +38,14 @@ if not WEAPON then
 end
 local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject(2)
 local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+local ATTACK_ABILITY =  WEAPON:GetAbilities()[1]
 --local ZOOM_SOUND = script:GetCustomProperty("ZoomSound"):WaitForObject()
 
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
-while not Object.IsValid(RELOAD_ABILITY) do
+while not Object.IsValid(RELOAD_ABILITY) or not Object.IsValid(ATTACK_ABILITY) do
     Task.Wait()
     RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+    ATTACK_ABILITY =  WEAPON:GetAbilities()[1]
 end
 
 -- Exposed variables --
@@ -220,8 +222,8 @@ function OnBindingReleased(player, actionName)
 	end
 end
 
-function OnPlayerDied(player, damage)
-    ResetScoping(player) 
+function OnPlayerDied()
+    ResetScoping(LOCAL_PLAYER) 
 end
 
 function OnEquipped(weapon, player)
@@ -282,6 +284,8 @@ end
 -- Initialize
 
 Connections = {
+    
+    Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,
     WEAPON.unequippedEvent:Connect(OnUnequipped),
     RELOAD_ABILITY.castEvent:Connect(OnReload),
     script.destroyEvent:Connect(function(OBJ) 

@@ -18,6 +18,9 @@ end
 local ATTACK_ABILITY = WEAPON:GetAbilities()[1]
 local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
 
+while not ATTACK_ABILITY do ATTACK_ABILITY = WEAPON:GetAbilities()[1] Task.Wait() end
+if ATTACK_ABILITY.name == "Reload" then Events.Broadcast("WeaponsBroke") end
+
 while not WEAPON.clientUserData.Ammo do Task.Wait() end 
 
 function CheckFiring()
@@ -58,7 +61,7 @@ end
 
 
 function BindFire()
-    if(not WEAPON.owner) then return end
+    if not ( WEAPON.owner and WEAPON.owner:IsA("Player") ) then return end
     FireEvent = WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
         if(binding == PRIMARYFIRE and WEAPON.clientUserData.Ammo > 0 and WEAPON.clientUserData.reloading == false and Firing == false) then
             Firing = true

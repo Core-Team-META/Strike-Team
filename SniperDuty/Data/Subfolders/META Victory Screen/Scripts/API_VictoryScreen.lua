@@ -176,9 +176,13 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
 		player:SetWorldRotation(spawnRotation)
-		Task.Wait()
+		
+		Task.Wait(.1)
+
+		player:ResetVelocity()
 		player:SetWorldPosition(spawnPosition)
-		player:SetWorldRotation(spawnRotation)
+		player:SetWorldRotation(spawnRotation)	
+		
 		for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 			equipment:Destroy()
 		end
@@ -212,9 +216,7 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 	player.lookControlMode = LookControlMode.NONE
 
 
-	if player.isDead then -- respawn the player so they can be teleported
-		player:Respawn()
-	end
+	player:Respawn()
 
 	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id, topThreePlayerStats)
 

@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 14731703646026544731
+        ParentId: 9143122953913418349
         ChildIds: 10667061370355357005
         ChildIds: 10710068074985047001
         ChildIds: 6188053672397713256
@@ -186,6 +186,12 @@
             Name: "cs:SELECT"
             ObjectReference {
               SubObjectId: 7050950419643737156
+            }
+          }
+          Overrides {
+            Name: "cs:SKIN_NAME"
+            ObjectReference {
+              SubObjectId: 1067346727924491034
             }
           }
         }
@@ -2456,6 +2462,12 @@
               SubObjectId: 6938560758978087376
             }
           }
+          Overrides {
+            Name: "cs:SKIN_NAME"
+            ObjectReference {
+              SubObjectId: 15105295792428923406
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4722,6 +4734,12 @@
             Name: "cs:SELECT"
             ObjectReference {
               SubObjectId: 14610423042483736272
+            }
+          }
+          Overrides {
+            Name: "cs:SKIN_NAME"
+            ObjectReference {
+              SubObjectId: 3361746978807014503
             }
           }
         }

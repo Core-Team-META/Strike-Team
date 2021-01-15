@@ -222,8 +222,8 @@ function OnBindingReleased(player, actionName)
 	end
 end
 
-function OnPlayerDied(player, damage)
-    ResetScoping(player) 
+function OnPlayerDied()
+    ResetScoping(LOCAL_PLAYER) 
 end
 
 function OnEquipped(weapon, player)
@@ -284,6 +284,8 @@ end
 -- Initialize
 
 Connections = {
+    
+    Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,
     WEAPON.unequippedEvent:Connect(OnUnequipped),
     RELOAD_ABILITY.castEvent:Connect(OnReload),
     script.destroyEvent:Connect(function(OBJ) 
