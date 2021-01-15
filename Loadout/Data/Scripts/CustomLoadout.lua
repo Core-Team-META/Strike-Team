@@ -69,7 +69,7 @@ function Setdata(pan,slottype)
         screenObject = nil
         UpdateTask = nil
     end)
-    SKIN_NAME.text = item:GetEquippedSkin().name
+    SKIN_NAME.text = item:GetEquippedSkinName() or "Default"
     NAME.text = item.data.name
     TYPE.text = item.data.type
 end
