@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3414071068924954983
   Name: "Group"
   PlatformAssetType: 5
@@ -1354,5 +1354,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

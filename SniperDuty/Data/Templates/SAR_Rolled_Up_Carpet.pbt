@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5608479595695279078
   Name: "SAR_Rolled Up Carpet"
   PlatformAssetType: 5
@@ -745,5 +745,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

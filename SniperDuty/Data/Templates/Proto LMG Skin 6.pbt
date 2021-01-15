@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3926013586283109924
   Name: "Proto LMG Skin 6"
   PlatformAssetType: 5
@@ -4727,5 +4727,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

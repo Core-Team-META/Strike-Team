@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9077548744486602364
   Name: "Sign - Do Not Enter"
   PlatformAssetType: 5
@@ -332,5 +332,5 @@ Assets {
       AssetId: "Sign_-_Do_Not_Enter"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

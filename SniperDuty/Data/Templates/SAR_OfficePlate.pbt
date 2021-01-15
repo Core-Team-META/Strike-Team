@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 407796148810554179
   Name: "SAR_OfficePlate"
   PlatformAssetType: 5
@@ -109,5 +109,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

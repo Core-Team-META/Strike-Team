@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7083515065817075639
   Name: "Urban Fence Enclosure - Vestibule Template"
   PlatformAssetType: 5
@@ -5008,5 +5008,5 @@ Assets {
       AssetId: "Urban_Fence_Enclosure_-_Vestibule_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

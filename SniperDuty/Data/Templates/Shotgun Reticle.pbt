@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 928331646568598234
   Name: "Shotgun Reticle"
   PlatformAssetType: 5
@@ -608,5 +608,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

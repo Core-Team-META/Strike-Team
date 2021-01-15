@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6865710455785755955
   Name: "Shotgun Bullet Shell Drop Sound"
   PlatformAssetType: 5
@@ -62,5 +62,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

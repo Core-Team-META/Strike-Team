@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17846875740691099057
   Name: "Reverb Zone"
   PlatformAssetType: 6

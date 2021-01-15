@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14600398945454134581
   Name: "SAR_Nightstand"
   PlatformAssetType: 5
@@ -554,5 +554,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

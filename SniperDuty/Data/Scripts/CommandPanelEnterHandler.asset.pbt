@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 11329672729968071409
   Name: "CommandPanelEnterHandler"
   PlatformAssetType: 3
@@ -21,5 +21,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

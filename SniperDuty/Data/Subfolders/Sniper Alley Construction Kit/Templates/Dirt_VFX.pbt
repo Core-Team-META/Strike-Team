@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9127135186353716364
   Name: "Dirt_VFX"
   PlatformAssetType: 5
@@ -210,5 +210,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

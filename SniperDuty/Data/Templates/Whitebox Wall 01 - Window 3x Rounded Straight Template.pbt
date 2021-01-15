@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3485823376293555626
   Name: "Whitebox Wall 01 - Window 3x Rounded Straight Template"
   PlatformAssetType: 5
@@ -204,5 +204,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_-_Window_3x_Rounded_Straight_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

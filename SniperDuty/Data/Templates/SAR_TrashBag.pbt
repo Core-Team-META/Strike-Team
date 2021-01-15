@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4474286517720601402
   Name: "SAR_TrashBag"
   PlatformAssetType: 5
@@ -183,5 +183,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

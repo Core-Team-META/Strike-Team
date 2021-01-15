@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 12585513387495536966
   Name: "ActivateAbility"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

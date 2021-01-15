@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3197218869912788754
   Name: "Advanced Grenade"
   PlatformAssetType: 5
@@ -686,5 +686,5 @@ Assets {
       AssetId: "Advanced_Grenade"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

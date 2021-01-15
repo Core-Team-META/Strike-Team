@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1279395778555042343
   Name: "lookatkiller"
   PlatformAssetType: 5
@@ -113,5 +113,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

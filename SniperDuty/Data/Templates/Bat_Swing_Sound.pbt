@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 120673262472197667
   Name: "Bat_Swing_Sound"
   PlatformAssetType: 5
@@ -96,5 +96,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

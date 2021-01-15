@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14282578951421366161
   Name: "_Spawner_A10Warthog"
   PlatformAssetType: 5
@@ -62,6 +62,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

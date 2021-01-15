@@ -1,4 +1,4 @@
-Name: "LoadoutEquipment"
+﻿Name: "LoadoutEquipment"
 RootId: 4355175678147851601
 Objects {
   Id: 10465153441506455762

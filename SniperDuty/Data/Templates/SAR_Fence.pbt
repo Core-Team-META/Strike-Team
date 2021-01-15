@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 819521646791966247
   Name: "SAR_Fence"
   PlatformAssetType: 5
@@ -463,5 +463,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

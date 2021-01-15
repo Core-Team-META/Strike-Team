@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15428046884929289480
   Name: "Submachine Gun Muzzle Flash"
   PlatformAssetType: 5
@@ -217,5 +217,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

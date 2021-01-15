@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4832578734644459916
   Name: "SAR_CabinetCC"
   PlatformAssetType: 5
@@ -2583,5 +2583,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3207668711325826321
   Name: "Advanced Shotgun"
   PlatformAssetType: 5
@@ -1207,5 +1207,5 @@ Assets {
       AssetId: "Advanced_Shotgun"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

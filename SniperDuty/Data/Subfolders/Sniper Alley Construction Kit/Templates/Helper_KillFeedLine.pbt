@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15278019426879928497
   Name: "Helper_KillFeedLine"
   PlatformAssetType: 5
@@ -97,6 +97,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

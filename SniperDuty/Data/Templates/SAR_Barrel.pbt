@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14344424322214149797
   Name: "SAR_Barrel"
   PlatformAssetType: 5
@@ -655,5 +655,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

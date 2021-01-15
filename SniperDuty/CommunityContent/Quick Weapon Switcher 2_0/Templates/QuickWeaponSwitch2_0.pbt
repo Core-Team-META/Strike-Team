@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6355214198638838276
   Name: "QuickWeaponSwitch2_0"
   PlatformAssetType: 5
@@ -6047,6 +6047,6 @@ Assets {
   Marketplace {
     Description: "Version 2.0 of my Quick Weapon Switcher\r\n\r\nBuilt for testing, but can be used for a game.  I\'ll continue to update.\r\n\r\n- Automatically assigns weapon hotkeys based upon folder order\r\n- Duplicate weapon group (Children of QuickWeaponSwitch script)\r\n- Set weapon template, name, icon, icon_color, frame color\r\n\r\nRun and you\'re good to go\r\n"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

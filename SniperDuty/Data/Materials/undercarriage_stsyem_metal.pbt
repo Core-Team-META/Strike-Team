@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 7878990694115273771
   Name: "undercarriage_stsyem_metal"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 13060516013822931986
     ParameterOverrides {

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13601445639264465215
   Name: "SP99_DefaultSkin"
   PlatformAssetType: 5
@@ -3096,5 +3096,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

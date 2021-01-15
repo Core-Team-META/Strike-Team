@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8701291360604716437
   Name: "Sniper First Person Scope"
   PlatformAssetType: 5
@@ -1042,5 +1042,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

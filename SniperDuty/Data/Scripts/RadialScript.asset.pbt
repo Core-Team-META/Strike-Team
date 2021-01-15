@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16229373111503161539
   Name: "RadialScript"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

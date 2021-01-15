@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17132949597802941203
   Name: "SAR_CementSack"
   PlatformAssetType: 5
@@ -358,5 +358,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

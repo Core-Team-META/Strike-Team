@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14018025606908939051
   Name: "Skin 4 LMG Proto Scope Template"
   PlatformAssetType: 5
@@ -2919,5 +2919,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

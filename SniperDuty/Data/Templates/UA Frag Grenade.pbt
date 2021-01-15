@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6996437714072255648
   Name: "UA Frag Grenade"
   PlatformAssetType: 5
@@ -232,5 +232,5 @@ Assets {
   Marketplace {
     Description: "Press G to throw a grenade! Make sure to disable mounts, or to use a different keybinding. The keybinding is enforced through Lua instead of on the Ability to make sure the player actually has a grenade to throw. Includes a custom binding display which will display how many grenades the player has remaining! When assigning, do not enable re-assigning the ability on each life, as this causes some issues."
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5970355352273146616
   Name: "Knife Melee Half Circle Swing Effect"
   PlatformAssetType: 5
@@ -107,5 +107,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

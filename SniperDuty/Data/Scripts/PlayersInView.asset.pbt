@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9106067384455834602
   Name: "PlayersInView"
   PlatformAssetType: 3
@@ -14,5 +14,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

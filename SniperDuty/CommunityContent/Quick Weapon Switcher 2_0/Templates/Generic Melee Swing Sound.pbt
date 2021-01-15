@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7490634066502682125
   Name: "Generic Melee Swing Sound"
   PlatformAssetType: 5
@@ -71,5 +71,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4536067493851532764
   Name: "SAR_Water Container"
   PlatformAssetType: 5
@@ -1664,5 +1664,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10959928887313729696
   Name: "SAR_IndustrialPipe"
   PlatformAssetType: 5
@@ -188,5 +188,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

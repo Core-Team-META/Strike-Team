@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17017433431252953491
   Name: "Submachine Gun Reload Sound"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

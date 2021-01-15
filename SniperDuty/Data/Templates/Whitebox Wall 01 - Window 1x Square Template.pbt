@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7927827549384733307
   Name: "Whitebox Wall 01 - Window 1x Square Template "
   PlatformAssetType: 5
@@ -126,5 +126,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_-_Window_1x_Square_Template_"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

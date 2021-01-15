@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13502708995411184592
   Name: "SAR_OldToilet"
   PlatformAssetType: 5
@@ -894,5 +894,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3586617663534415301
   Name: "Minimap UI"
   PlatformAssetType: 5
@@ -6691,6 +6691,6 @@ Assets {
   Marketplace {
     Description: "Minimap component that converts from 3D geometry to 2D images."
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

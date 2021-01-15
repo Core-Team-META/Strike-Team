@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1641611856803628218
   Name: "LilRipper_DeafaultSkin"
   PlatformAssetType: 5
@@ -361,5 +361,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

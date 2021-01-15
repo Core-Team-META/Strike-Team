@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9925429280593477268
   Name: "IconModule"
   PlatformAssetType: 3
@@ -51,5 +51,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

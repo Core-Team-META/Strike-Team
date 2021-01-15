@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3144871937647846964
   Name: "Whizby Sound"
   PlatformAssetType: 5
@@ -52,5 +52,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

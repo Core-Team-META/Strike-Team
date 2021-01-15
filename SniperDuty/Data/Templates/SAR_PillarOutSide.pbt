@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1357543690385142555
   Name: "SAR_PillarOutSide"
   PlatformAssetType: 5
@@ -235,5 +235,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

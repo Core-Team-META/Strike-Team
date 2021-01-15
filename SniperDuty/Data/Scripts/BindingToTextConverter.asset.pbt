@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 9045216300824966350
   Name: "BindingToTextConverter"
   PlatformAssetType: 3
   TextAsset {
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9925390118872444032
   Name: "Steady Passive"
   PlatformAssetType: 5
@@ -77,5 +77,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

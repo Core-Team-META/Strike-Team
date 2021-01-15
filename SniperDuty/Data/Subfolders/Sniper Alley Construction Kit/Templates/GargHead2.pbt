@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6788979176975462850
   Name: "GargHead2"
   PlatformAssetType: 5
@@ -7670,6 +7670,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

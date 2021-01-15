@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 187985973919204216
   Name: "Crossbow Muzzle Flash"
   PlatformAssetType: 5
@@ -123,5 +123,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 322298636036782150
   Name: "Helper_FallDamageSound"
   PlatformAssetType: 5
@@ -51,5 +51,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

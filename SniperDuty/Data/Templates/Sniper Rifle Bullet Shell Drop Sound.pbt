@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8531721282402752747
   Name: "Sniper Rifle Bullet Shell Drop Sound"
   PlatformAssetType: 5
@@ -63,5 +63,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

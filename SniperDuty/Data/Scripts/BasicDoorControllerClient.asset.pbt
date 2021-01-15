@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 321472518781775172
   Name: "BasicDoorControllerClient"
   PlatformAssetType: 3
   TextAsset {
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

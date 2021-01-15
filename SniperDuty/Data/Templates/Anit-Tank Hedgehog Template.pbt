@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5108926126958159945
   Name: "Anit-Tank Hedgehog Template"
   PlatformAssetType: 5
@@ -2251,5 +2251,5 @@ Assets {
       AssetId: "Anit-Tank_Hedgehog_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

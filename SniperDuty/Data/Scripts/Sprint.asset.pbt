@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10644669744035271029
   Name: "Sprint"
   PlatformAssetType: 3
@@ -14,5 +14,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

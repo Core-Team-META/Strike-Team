@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3818588213170154473
   Name: "Scoreboard (PlayerTitles)"
   PlatformAssetType: 5
@@ -1134,6 +1134,6 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

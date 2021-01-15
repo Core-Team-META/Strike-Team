@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 433080237442876807
   Name: "Generic Impact Player Effect"
   PlatformAssetType: 5
@@ -161,5 +161,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

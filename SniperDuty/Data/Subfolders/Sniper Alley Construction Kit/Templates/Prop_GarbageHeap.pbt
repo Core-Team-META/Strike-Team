@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16985704305010414843
   Name: "Prop_GarbageHeap"
   PlatformAssetType: 5
@@ -2497,6 +2497,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

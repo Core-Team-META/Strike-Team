@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3786383836679515830
   Name: "ScopeAnimation"
   PlatformAssetType: 3
@@ -42,5 +42,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

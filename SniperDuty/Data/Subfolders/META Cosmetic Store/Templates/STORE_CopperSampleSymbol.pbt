@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4280991963630378160
   Name: "STORE_CopperSampleSymbol"
   PlatformAssetType: 5
@@ -74,5 +74,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

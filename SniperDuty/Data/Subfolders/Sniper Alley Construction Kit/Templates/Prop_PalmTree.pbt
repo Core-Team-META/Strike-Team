@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8263735693775803616
   Name: "Prop_PalmTree"
   PlatformAssetType: 5
@@ -903,6 +903,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

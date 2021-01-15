@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 12107734285812188601
   Name: "Generic Sound Reload"
   PlatformAssetType: 5
@@ -117,5 +117,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

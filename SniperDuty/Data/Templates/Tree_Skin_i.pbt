@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4933906059979686458
   Name: "Tree_Skin_i"
   PlatformAssetType: 5
@@ -323,5 +323,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

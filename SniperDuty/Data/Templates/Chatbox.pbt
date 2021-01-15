@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4854289921607010985
   Name: "Chatbox"
   PlatformAssetType: 5
@@ -122,5 +122,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

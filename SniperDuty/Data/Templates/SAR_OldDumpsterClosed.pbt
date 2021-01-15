@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16470867524441861559
   Name: "SAR_OldDumpsterClosed"
   PlatformAssetType: 5
@@ -2338,5 +2338,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 12051344133358979219
   Name: "Prop_RampSectionWood_03"
   PlatformAssetType: 5
@@ -530,6 +530,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

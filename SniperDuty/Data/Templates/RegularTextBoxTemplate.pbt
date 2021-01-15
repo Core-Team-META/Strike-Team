@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8339648862365825337
   Name: "RegularTextBoxTemplate"
   PlatformAssetType: 5
@@ -63,5 +63,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16480232853273389469
   Name: "Urban Pipe Wall Attachment - 02 (Prop)"
   PlatformAssetType: 5
@@ -278,5 +278,5 @@ Assets {
       AssetId: "Urban_Pipe_Wall_Attachment_-_02__Prop_"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3823040265562520247
   Name: "FancyBrick_v2"
   PlatformAssetType: 5
@@ -537,6 +537,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

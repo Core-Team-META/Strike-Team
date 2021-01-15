@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3202323642301105719
   Name: "Tree Swing sound"
   PlatformAssetType: 5
@@ -53,5 +53,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

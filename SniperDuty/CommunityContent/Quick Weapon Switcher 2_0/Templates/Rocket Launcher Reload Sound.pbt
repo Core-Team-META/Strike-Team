@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1459274279850013547
   Name: "Rocket Launcher Reload Sound"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

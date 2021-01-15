@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13759885139661674206
   Name: "Helper_KillboardLine"
   PlatformAssetType: 5
@@ -315,5 +315,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

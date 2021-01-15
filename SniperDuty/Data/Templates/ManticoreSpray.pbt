@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17854854272107829705
   Name: "ManticoreSpray"
   PlatformAssetType: 5
@@ -72,5 +72,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

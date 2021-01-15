@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3224017664261011587
   Name: "SVAA_DefaultSkin"
   PlatformAssetType: 5
@@ -2557,5 +2557,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 814411113279432672
   Name: "NetworkTransfer"
   PlatformAssetType: 3
@@ -78,5 +78,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13876271257078344493
   Name: "Pick_Weapon"
   PlatformAssetType: 5
@@ -469,5 +469,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4537026880837125227
   Name: "Mamba SPR"
   PlatformAssetType: 5
@@ -786,5 +786,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

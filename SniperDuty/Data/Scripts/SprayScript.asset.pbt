@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1251235412980579966
   Name: "SprayScript"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

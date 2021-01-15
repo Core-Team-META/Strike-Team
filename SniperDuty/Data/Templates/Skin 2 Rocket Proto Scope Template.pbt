@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7490139787121435595
   Name: "Skin 2 Rocket Proto Scope Template"
   PlatformAssetType: 5
@@ -2672,5 +2672,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

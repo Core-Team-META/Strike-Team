@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16064653477604779480
   Name: "Generic Low Ammo Sound"
   PlatformAssetType: 5
@@ -116,5 +116,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

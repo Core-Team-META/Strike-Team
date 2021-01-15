@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1897903605318222255
   Name: "Proto Pistol Skin 2"
   PlatformAssetType: 5
@@ -2122,5 +2122,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

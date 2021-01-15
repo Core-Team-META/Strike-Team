@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 204847099431397627
   Name: "SAR_OldTrashCan"
   PlatformAssetType: 5
@@ -901,5 +901,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

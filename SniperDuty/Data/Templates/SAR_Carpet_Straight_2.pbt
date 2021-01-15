@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13553556654854793166
   Name: "SAR_Carpet Straight 2"
   PlatformAssetType: 5
@@ -70,5 +70,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

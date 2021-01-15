@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 16513742100022803214
   Name: "Custom Wall - Outer from Urban Wall Damaged 01"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 5266644253490364754
     ParameterOverrides {

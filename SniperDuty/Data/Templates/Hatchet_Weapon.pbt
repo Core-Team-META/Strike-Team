@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3171756760165812255
   Name: "Hatchet_Weapon"
   PlatformAssetType: 5
@@ -465,5 +465,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

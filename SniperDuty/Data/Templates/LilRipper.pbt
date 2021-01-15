@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 11534212189449765959
   Name: "LilRipper"
   PlatformAssetType: 5
@@ -470,5 +470,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

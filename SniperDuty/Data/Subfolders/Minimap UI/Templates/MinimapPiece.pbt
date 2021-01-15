@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1834515531319814084
   Name: "MinimapPiece"
   PlatformAssetType: 5
@@ -62,5 +62,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

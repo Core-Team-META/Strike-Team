@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10476310043397296838
   Name: "LEVIMATEO2.0_WEAPON"
   PlatformAssetType: 5
@@ -1126,5 +1126,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13220638757548590314
   Name: "SAR_HescoBarrier"
   PlatformAssetType: 5
@@ -52,5 +52,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

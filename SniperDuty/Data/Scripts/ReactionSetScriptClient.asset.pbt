@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1745340738153381962
   Name: "ReactionSetScriptClient"
   PlatformAssetType: 3
@@ -33,5 +33,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

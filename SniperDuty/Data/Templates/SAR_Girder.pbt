@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4795006726164404533
   Name: "SAR_Girder"
   PlatformAssetType: 5
@@ -164,5 +164,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

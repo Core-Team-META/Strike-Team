@@ -1,4 +1,4 @@
-Name: "KillManager"
+﻿Name: "KillManager"
 RootId: 4357706706468832932
 Objects {
   Id: 1602913560945799556

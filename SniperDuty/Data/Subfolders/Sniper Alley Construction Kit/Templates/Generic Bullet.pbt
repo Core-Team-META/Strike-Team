@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9833320895266582752
   Name: "Generic Bullet"
   PlatformAssetType: 5
@@ -111,5 +111,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

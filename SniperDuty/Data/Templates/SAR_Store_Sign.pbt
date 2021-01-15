@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4242870009763947079
   Name: "SAR_Store Sign"
   PlatformAssetType: 5
@@ -1335,5 +1335,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

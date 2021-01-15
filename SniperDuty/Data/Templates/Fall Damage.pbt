@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8585645546693573788
   Name: "Fall Damage"
   PlatformAssetType: 5
@@ -155,5 +155,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

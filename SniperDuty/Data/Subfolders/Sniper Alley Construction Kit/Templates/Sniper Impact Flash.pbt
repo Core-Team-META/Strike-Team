@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9507432248241332470
   Name: "Sniper Impact Flash"
   PlatformAssetType: 5
@@ -116,5 +116,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

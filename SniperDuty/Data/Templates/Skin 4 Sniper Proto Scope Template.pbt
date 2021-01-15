@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1994503773171336142
   Name: "Skin 4 Sniper Proto Scope Template"
   PlatformAssetType: 5
@@ -620,5 +620,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

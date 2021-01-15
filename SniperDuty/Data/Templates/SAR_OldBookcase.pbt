@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6544792099141423697
   Name: "SAR_OldBookcase"
   PlatformAssetType: 5
@@ -1634,5 +1634,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

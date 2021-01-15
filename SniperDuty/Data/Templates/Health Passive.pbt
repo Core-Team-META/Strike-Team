@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 18279048493902869783
   Name: "Health Passive"
   PlatformAssetType: 5
@@ -81,5 +81,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

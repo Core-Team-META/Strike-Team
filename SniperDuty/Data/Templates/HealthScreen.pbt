@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 18254605239533031477
   Name: "HealthScreen"
   PlatformAssetType: 5
@@ -1311,5 +1311,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

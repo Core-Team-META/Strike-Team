@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10393160347849786159
   Name: "Prop_Sconse"
   PlatformAssetType: 5
@@ -413,6 +413,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8559018484838499271
   Name: "SAR_Mattress"
   PlatformAssetType: 5
@@ -315,5 +315,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

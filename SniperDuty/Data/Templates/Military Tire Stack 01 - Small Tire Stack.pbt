@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13684227139367009520
   Name: "Military Tire Stack 01 - Small Tire Stack"
   PlatformAssetType: 5
@@ -315,5 +315,5 @@ Assets {
       AssetId: "Military_Tire_Stack_01_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

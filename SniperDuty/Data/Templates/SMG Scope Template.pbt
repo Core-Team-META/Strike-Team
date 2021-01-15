@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9212970354387281540
   Name: "SMG Scope Template"
   PlatformAssetType: 5
@@ -1672,5 +1672,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

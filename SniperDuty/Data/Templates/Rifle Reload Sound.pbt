@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5900853629837661249
   Name: "Rifle Reload Sound"
   PlatformAssetType: 5
@@ -89,5 +89,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

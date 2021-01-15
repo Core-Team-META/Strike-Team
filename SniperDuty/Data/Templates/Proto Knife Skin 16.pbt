@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16113969708770604334
   Name: "Proto Knife Skin 16"
   PlatformAssetType: 5
@@ -394,5 +394,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

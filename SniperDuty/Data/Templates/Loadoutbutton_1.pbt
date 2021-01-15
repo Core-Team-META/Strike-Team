@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16914841015631650916
   Name: "Loadoutbutton"
   PlatformAssetType: 5
@@ -203,5 +203,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

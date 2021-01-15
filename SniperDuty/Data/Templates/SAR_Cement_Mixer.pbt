@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4581049246626512597
   Name: "SAR_Cement Mixer"
   PlatformAssetType: 5
@@ -2602,5 +2602,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

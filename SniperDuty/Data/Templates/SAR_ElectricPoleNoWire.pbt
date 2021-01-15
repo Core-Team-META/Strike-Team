@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1245809257748868330
   Name: "SAR_ElectricPoleNoWire"
   PlatformAssetType: 5
@@ -874,5 +874,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

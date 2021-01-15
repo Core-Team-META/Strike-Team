@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 984368944241008250
   Name: "Prop_SandbagWall"
   PlatformAssetType: 5
@@ -2200,6 +2200,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16128464414869797335
   Name: "Victory Announcer"
   PlatformAssetType: 5
@@ -64,5 +64,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

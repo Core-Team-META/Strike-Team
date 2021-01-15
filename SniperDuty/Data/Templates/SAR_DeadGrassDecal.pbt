@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9309469914109317849
   Name: "SAR_DeadGrassDecal"
   PlatformAssetType: 5
@@ -58,5 +58,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

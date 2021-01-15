@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9314372544916976447
   Name: "Regen Passive"
   PlatformAssetType: 5
@@ -65,5 +65,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

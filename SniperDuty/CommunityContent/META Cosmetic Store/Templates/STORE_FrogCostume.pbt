@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9744924386198781841
   Name: "STORE_FrogCostume"
   PlatformAssetType: 5
@@ -1472,5 +1472,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

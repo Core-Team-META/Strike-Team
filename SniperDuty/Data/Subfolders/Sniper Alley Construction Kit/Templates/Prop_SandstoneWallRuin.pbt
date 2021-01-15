@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15317635244121376300
   Name: "Prop_SandstoneWallRuin"
   PlatformAssetType: 5
@@ -1559,6 +1559,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

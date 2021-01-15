@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13990777641947009039
   Name: "SAR_Posters03"
   PlatformAssetType: 5
@@ -404,5 +404,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

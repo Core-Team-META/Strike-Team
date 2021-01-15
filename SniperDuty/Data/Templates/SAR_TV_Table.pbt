@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15514585492804399389
   Name: "SAR_TV Table"
   PlatformAssetType: 5
@@ -394,5 +394,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 5709833886585479088
   Name: "DoubleDoorControllerServer"
   PlatformAssetType: 3
   TextAsset {
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

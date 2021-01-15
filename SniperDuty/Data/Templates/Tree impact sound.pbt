@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13575139444976449185
   Name: "Tree impact sound"
   PlatformAssetType: 5
@@ -52,5 +52,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

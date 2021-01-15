@@ -1,4 +1,4 @@
-Name: "Icons"
+﻿Name: "Icons"
 RootId: 7653472450926179451
 Objects {
   Id: 4071455291447295790

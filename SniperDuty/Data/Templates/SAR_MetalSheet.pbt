@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10664552781314197443
   Name: "SAR_MetalSheet"
   PlatformAssetType: 5
@@ -130,5 +130,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

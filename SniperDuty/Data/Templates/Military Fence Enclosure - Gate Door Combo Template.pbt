@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 497105811620856794
   Name: "Military Fence Enclosure - Gate Door Combo Template"
   PlatformAssetType: 5
@@ -12350,5 +12350,5 @@ Assets {
       AssetId: "Military_Fence_Enclosure_-_Gate_Door_Combo_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

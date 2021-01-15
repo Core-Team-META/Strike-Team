@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13721027148223412995
   Name: "Ambience Suburbs Night Kit 01 SFX"
   PlatformAssetType: 5
@@ -279,5 +279,5 @@ Assets {
       AssetId: "Ambience_Suburbs_Night_Kit_01_SFX"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

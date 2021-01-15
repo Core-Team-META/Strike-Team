@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 11857961929768719493
   Name: "MAMBA2.0_WEAPON"
   PlatformAssetType: 5
@@ -1194,5 +1194,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

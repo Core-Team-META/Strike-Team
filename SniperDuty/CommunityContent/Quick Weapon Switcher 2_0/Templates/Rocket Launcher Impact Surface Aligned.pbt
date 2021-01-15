@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9205192105643009077
   Name: "Rocket Launcher Impact Surface Aligned"
   PlatformAssetType: 5
@@ -244,5 +244,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

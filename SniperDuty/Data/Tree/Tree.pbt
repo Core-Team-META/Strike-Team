@@ -1,4 +1,4 @@
-Name: "Root"
+﻿Name: "Root"
 RootId: 4781671109827199097
 Objects {
   Id: 4781671109827199097
@@ -15,7 +15,6 @@ Objects {
     }
   }
   ChildIds: 11471976360075692302
-  ChildIds: 5522434048504798300
   ChildIds: 16962308734055015238
   ChildIds: 15900364157994414074
   ChildIds: 4565846863626438544
@@ -194,33 +193,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gameplay Settings"
-  }
-}
-Objects {
-  Id: 5522434048504798300
-  Name: "StarterEquipment"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11172210842436518555
-      value {
-        Overrides {
-          Name: "Name"
-          String: "StarterEquipment"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13622914881698759228
-    }
   }
 }
 Objects {

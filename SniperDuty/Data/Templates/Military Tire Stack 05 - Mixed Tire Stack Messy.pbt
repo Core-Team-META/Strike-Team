@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 11584055626400161369
   Name: "Military Tire Stack 05 - Mixed Tire Stack Messy"
   PlatformAssetType: 5
@@ -383,5 +383,5 @@ Assets {
       AssetId: "Military_Tire_Stack_05_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

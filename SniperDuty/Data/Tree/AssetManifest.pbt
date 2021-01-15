@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14902685857591157447
   Name: "SniperDutyLoadout2"
   PlatformAssetType: 23

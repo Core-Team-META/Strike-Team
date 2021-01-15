@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14996057469981018921
   Name: "SAR_WindowBlackRound"
   PlatformAssetType: 5
@@ -207,5 +207,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

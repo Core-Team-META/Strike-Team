@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5601163307686661101
   Name: "WheelHoverSound"
   PlatformAssetType: 5
@@ -49,5 +49,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

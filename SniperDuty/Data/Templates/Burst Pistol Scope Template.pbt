@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 41961527270886208
   Name: "Burst Pistol Scope Template"
   PlatformAssetType: 5
@@ -1832,5 +1832,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

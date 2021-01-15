@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5343945996030504866
   Name: "SPECTOR452.0_WEAPON"
   PlatformAssetType: 5
@@ -1091,5 +1091,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

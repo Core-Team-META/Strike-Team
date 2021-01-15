@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17830089229259606416
   Name: "SAR_Freezer"
   PlatformAssetType: 5
@@ -480,5 +480,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

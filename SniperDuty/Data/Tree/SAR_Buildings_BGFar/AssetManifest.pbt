@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17620359405672570059
   Name: "Plane 1m - One Sided"
   PlatformAssetType: 1

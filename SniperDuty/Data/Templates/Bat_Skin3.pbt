@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8880213503671996271
   Name: "Bat_Skin3"
   PlatformAssetType: 5
@@ -212,5 +212,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

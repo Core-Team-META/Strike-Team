@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6328547421830942044
   Name: "RepairFX"
   PlatformAssetType: 5
@@ -96,5 +96,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

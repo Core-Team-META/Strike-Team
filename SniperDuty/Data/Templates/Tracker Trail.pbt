@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2139418722863360089
   Name: "Tracker Trail"
   PlatformAssetType: 5
@@ -81,5 +81,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

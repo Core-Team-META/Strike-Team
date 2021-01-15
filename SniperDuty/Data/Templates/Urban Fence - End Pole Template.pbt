@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8775126592329909607
   Name: "Urban Fence - End Pole Template"
   PlatformAssetType: 5
@@ -79,5 +79,5 @@ Assets {
       AssetId: "Urban_Fence_-_End_Pole_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

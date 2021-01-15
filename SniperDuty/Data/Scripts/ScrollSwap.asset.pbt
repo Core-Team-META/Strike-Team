@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17781197708863849376
   Name: "ScrollSwap"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

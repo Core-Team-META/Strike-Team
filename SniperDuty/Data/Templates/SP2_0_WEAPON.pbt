@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9332333382319278776
   Name: "SP2.0_WEAPON"
   PlatformAssetType: 5
@@ -1080,5 +1080,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7137597898459832919
   Name: "SAR_OldTub"
   PlatformAssetType: 5
@@ -2132,5 +2132,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

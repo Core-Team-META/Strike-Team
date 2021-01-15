@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 12096911010012723123
   Name: "SAR_RustyPipeElbow"
   PlatformAssetType: 5
@@ -76,5 +76,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6303612211349584291
   Name: "Mainstreet Wall 02 Half Window - Basic Window Template"
   PlatformAssetType: 5
@@ -100,5 +100,5 @@ Assets {
       AssetId: "Mainstreet_Wall_02_Half_Window_-_Basic_Window_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

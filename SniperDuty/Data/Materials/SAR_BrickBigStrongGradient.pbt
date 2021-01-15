@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 15467319859233525149
   Name: "SAR_BrickBigStrongGradient"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

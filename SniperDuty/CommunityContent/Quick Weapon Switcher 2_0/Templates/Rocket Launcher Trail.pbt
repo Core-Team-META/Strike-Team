@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7647557262550274274
   Name: "Rocket Launcher Trail"
   PlatformAssetType: 5
@@ -164,5 +164,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2474799434425027240
   Name: "Tree_Skin_DeadPine"
   PlatformAssetType: 5
@@ -307,5 +307,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

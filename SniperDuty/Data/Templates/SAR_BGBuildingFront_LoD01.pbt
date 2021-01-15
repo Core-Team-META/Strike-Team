@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8439511316048081170
   Name: "SAR_BGBuildingFront_LoD01"
   PlatformAssetType: 5
@@ -3126,5 +3126,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

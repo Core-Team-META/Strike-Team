@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2451538550539110329
   Name: "SAR_Table w Shelves"
   PlatformAssetType: 5
@@ -390,5 +390,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

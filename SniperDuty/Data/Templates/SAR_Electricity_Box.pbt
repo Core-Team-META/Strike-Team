@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16516354492262044168
   Name: "SAR_Electricity Box"
   PlatformAssetType: 5
@@ -900,5 +900,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

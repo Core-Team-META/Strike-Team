@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4943198643637763866
   Name: "Decal Sand Patch"
   PlatformAssetType: 14

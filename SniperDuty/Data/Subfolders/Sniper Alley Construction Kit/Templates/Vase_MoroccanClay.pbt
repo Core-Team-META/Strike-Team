@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10907254704184080419
   Name: "Vase_MoroccanClay"
   PlatformAssetType: 5
@@ -404,6 +404,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17100353779815518789
   Name: "STORE_SilverSampleSymbol"
   PlatformAssetType: 5
@@ -74,5 +74,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

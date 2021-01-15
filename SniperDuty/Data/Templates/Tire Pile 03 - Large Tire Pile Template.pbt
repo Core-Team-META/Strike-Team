@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8816947304595241383
   Name: "Tire Pile 03 - Large Tire Pile Template"
   PlatformAssetType: 5
@@ -2304,5 +2304,5 @@ Assets {
       AssetId: "Military_Tire_Pile_03_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

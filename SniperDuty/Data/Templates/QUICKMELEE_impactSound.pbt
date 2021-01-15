@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14123824379873935807
   Name: "QUICKMELEE_impactSound"
   PlatformAssetType: 5
@@ -96,5 +96,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

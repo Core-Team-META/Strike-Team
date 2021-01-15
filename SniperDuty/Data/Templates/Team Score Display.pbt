@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2729678370807667731
   Name: "Team Score Display"
   PlatformAssetType: 5
@@ -423,5 +423,5 @@ Assets {
       AssetId: "Team_Score_Display"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 659272439790512732
   Name: "SAR_OldStove"
   PlatformAssetType: 5
@@ -2671,5 +2671,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

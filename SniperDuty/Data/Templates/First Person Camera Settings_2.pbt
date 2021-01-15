@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15791224694864524763
   Name: "First Person Camera Settings"
   PlatformAssetType: 5
@@ -181,5 +181,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

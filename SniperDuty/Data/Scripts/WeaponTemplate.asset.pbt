@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6101204973524491137
   Name: "WeaponTemplate"
   PlatformAssetType: 3
@@ -43,5 +43,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 11530147722464991735
   Name: "SAR_Stairs_MainBuilding_Short"
   PlatformAssetType: 5
@@ -663,5 +663,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

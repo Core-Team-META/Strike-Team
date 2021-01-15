@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7750114468515867669
   Name: "CommandHandler"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

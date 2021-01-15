@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17001500074244684013
   Name: "SAR_LightPostOn"
   PlatformAssetType: 5
@@ -381,5 +381,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

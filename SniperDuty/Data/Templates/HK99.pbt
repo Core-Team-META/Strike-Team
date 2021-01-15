@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15364828027963080746
   Name: "HK99"
   PlatformAssetType: 5
@@ -734,5 +734,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

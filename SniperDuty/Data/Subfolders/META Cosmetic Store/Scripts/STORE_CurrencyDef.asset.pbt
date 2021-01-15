@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8270795023879875281
   Name: "STORE_CurrencyDef"
   PlatformAssetType: 3
@@ -40,5 +40,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

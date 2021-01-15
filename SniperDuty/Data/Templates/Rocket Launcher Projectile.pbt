@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10948153152124094650
   Name: "Rocket Launcher Projectile"
   PlatformAssetType: 5
@@ -515,5 +515,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

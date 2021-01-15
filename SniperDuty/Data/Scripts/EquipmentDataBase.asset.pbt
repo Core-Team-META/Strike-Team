@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 973644773533150363
   Name: "EquipmentDataBase"
   PlatformAssetType: 3
@@ -17,5 +17,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

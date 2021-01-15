@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2068802116072313979
   Name: "Sniper Reticle"
   PlatformAssetType: 5
@@ -617,5 +617,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

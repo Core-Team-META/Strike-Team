@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17416147847101535372
   Name: "SAR_Tires"
   PlatformAssetType: 5
@@ -1668,5 +1668,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

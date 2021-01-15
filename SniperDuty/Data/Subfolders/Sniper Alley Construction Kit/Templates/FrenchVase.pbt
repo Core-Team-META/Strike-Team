@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 12160820304018590559
   Name: "FrenchVase"
   PlatformAssetType: 5
@@ -476,6 +476,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

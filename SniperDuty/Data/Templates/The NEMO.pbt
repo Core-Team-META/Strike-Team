@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16491267721816607492
   Name: "The NEMO"
   PlatformAssetType: 5
@@ -785,5 +785,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

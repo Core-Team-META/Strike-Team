@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4199112859837188445
   Name: "Prop_WallGrass"
   PlatformAssetType: 5
@@ -194,6 +194,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

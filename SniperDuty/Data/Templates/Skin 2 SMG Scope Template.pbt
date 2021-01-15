@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14740719307536830520
   Name: "Skin 2 SMG Scope Template"
   PlatformAssetType: 5
@@ -2160,5 +2160,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

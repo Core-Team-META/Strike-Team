@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17411507071286499031
   Name: "Ammo2.0"
   PlatformAssetType: 3
@@ -26,5 +26,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17367289159348246731
   Name: "RadialSpike"
   PlatformAssetType: 5
@@ -73,5 +73,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

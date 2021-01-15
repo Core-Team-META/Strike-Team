@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9550643205693635683
   Name: "SAR_Light Bulb"
   PlatformAssetType: 5
@@ -877,5 +877,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

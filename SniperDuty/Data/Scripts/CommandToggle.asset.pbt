@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2316390362119782391
   Name: "CommandToggle"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

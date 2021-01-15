@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17719802504190886190
   Name: "Game Instructions"
   PlatformAssetType: 5
@@ -102,5 +102,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

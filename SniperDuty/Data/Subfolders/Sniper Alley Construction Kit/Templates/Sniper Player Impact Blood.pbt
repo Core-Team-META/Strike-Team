@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17483755580132211599
   Name: "Sniper Player Impact Blood"
   PlatformAssetType: 5
@@ -182,5 +182,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

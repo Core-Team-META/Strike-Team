@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14637022706542927902
   Name: "Helper_CompassLargeMark"
   PlatformAssetType: 5
@@ -69,5 +69,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

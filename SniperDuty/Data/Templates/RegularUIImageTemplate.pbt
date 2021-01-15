@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 12001973957999037265
   Name: "RegularUIImageTemplate"
   PlatformAssetType: 5
@@ -62,5 +62,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

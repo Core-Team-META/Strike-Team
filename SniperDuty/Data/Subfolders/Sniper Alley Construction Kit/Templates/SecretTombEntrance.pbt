@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9887863632302970182
   Name: "SecretTombEntrance"
   PlatformAssetType: 5
@@ -2314,6 +2314,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

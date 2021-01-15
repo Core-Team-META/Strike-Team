@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15382879434847562985
   Name: "Axe Melee Swing Sound"
   PlatformAssetType: 5
@@ -79,5 +79,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

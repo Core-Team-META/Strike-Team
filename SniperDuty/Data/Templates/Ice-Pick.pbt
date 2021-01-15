@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 17051268152452230013
   Name: "Ice-Pick"
   PlatformAssetType: 5
@@ -296,5 +296,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

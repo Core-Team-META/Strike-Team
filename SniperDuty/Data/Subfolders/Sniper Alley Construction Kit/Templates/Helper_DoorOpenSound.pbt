@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10672964395366294622
   Name: "Helper_DoorOpenSound"
   PlatformAssetType: 5
@@ -69,5 +69,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

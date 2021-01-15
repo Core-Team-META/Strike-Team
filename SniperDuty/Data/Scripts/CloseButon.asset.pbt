@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14759072053528129916
   Name: "CloseButon"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

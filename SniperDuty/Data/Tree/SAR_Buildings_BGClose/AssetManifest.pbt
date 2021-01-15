@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 18393437648231545508
   Name: "Urban Pipe Flange 01"
   PlatformAssetType: 1

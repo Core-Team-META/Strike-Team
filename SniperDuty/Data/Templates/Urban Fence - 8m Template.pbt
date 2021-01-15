@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 1104805393411754367
   Name: "Urban Fence - 8m Template"
   PlatformAssetType: 5
@@ -296,5 +296,5 @@ Assets {
       AssetId: "Urban_Fence_-_8m_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

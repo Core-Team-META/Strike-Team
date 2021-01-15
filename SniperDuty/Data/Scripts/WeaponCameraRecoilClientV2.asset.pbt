@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9969509539844301900
   Name: "WeaponCameraRecoilClientV2"
   PlatformAssetType: 3
@@ -11,5 +11,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

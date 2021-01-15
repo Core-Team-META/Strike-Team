@@ -1,3 +1,3 @@
-LeaderboardConfigs {
+﻿LeaderboardConfigs {
 }
 MaxPlayers: 16

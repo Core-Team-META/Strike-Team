@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13235592136068060647
   Name: "Rifle Muzzle Flash"
   PlatformAssetType: 5
@@ -167,5 +167,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

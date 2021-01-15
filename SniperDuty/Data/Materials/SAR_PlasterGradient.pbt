@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 5447914509588748622
   Name: "SAR_PlasterGradient"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

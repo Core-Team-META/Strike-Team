@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15019659337856156947
   Name: "SAR_Bannister_MainBuilding_Short"
   PlatformAssetType: 5
@@ -226,5 +226,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

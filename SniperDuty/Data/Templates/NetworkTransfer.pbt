@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2920198739919870258
   Name: "NetworkTransfer"
   PlatformAssetType: 5
@@ -37,5 +37,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2896736787116150293
   Name: "Sniper Surface Impact"
   PlatformAssetType: 5
@@ -402,5 +402,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

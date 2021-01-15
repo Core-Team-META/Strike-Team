@@ -1,4 +1,4 @@
-Name: "SAR_Buildings_PlayArea"
+﻿Name: "SAR_Buildings_PlayArea"
 RootId: 11830383650187534558
 Objects {
   Id: 7633992929331903348

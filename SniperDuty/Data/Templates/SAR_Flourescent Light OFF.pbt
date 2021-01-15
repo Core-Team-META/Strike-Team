@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 9884324406072442380
   Name: "SAR_Flourescent Light OFF"
   PlatformAssetType: 5
@@ -615,5 +615,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

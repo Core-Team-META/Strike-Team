@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14883138058575790638
   Name: "STOREITEM_Hat1"
   PlatformAssetType: 5
@@ -268,5 +268,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

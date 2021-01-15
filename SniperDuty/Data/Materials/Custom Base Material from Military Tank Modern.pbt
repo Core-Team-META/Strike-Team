@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 15214002539101761711
   Name: "Custom Base Material from Military Tank Modern"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 15437262571367567268
     ParameterOverrides {

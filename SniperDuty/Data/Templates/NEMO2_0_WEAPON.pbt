@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5739364599050502024
   Name: "NEMO2.0_WEAPON"
   PlatformAssetType: 5
@@ -1085,5 +1085,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

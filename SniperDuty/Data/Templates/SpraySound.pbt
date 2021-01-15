@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8539738869023270098
   Name: "SpraySound"
   PlatformAssetType: 5
@@ -49,5 +49,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

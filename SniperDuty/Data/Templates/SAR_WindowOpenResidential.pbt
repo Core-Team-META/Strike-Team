@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 8919921038626765735
   Name: "SAR_WindowOpenResidential"
   PlatformAssetType: 5
@@ -719,5 +719,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

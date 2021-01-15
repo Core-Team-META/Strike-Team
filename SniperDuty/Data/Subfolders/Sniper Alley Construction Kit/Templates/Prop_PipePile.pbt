@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 2041237839636482018
   Name: "Prop_PipePile"
   PlatformAssetType: 5
@@ -398,6 +398,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
   DirectlyPublished: true
 }

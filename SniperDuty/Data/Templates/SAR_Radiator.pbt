@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3345834666413310756
   Name: "SAR_Radiator"
   PlatformAssetType: 5
@@ -1291,5 +1291,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

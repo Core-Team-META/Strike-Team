@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 8411679111113583247
   Name: "Custom Ceiling from Urban Damaged Floor 01 - Corner Inner 02"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 15229389735990105064
     ParameterOverrides {

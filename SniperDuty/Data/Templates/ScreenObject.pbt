@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13410035147307708004
   Name: "ScreenObject"
   PlatformAssetType: 5
@@ -34,5 +34,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

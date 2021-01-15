@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 210523759199819718
   Name: "Spray"
   PlatformAssetType: 3
@@ -30,5 +30,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

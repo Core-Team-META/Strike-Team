@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 11968684115206234415
   Name: "WeaponShellEjectionEffectClient"
   PlatformAssetType: 3
@@ -45,5 +45,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

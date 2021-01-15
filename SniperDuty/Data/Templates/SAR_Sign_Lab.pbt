@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5489119312403811448
   Name: "SAR_Sign_Lab"
   PlatformAssetType: 5
@@ -157,5 +157,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 6566180651103322360
   Name: "Bat_impactSound"
   PlatformAssetType: 5
@@ -96,5 +96,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

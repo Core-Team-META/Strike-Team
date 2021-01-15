@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 4461799910010127213
   Name: "Smoke Grenade"
   PlatformAssetType: 5
@@ -226,5 +226,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

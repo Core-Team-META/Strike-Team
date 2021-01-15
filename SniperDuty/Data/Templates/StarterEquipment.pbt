@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13622914881698759228
   Name: "StarterEquipment"
   PlatformAssetType: 5
@@ -678,5 +678,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

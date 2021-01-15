@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10594914961626535830
   Name: "Sniper Reload Sound"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

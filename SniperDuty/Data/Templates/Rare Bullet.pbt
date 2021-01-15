@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 18208990417814393133
   Name: "Rare Bullet"
   PlatformAssetType: 5
@@ -248,5 +248,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

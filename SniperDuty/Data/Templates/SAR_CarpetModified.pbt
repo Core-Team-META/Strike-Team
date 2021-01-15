@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7776478861514098061
   Name: "SAR_CarpetModified"
   PlatformAssetType: 5
@@ -225,5 +225,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

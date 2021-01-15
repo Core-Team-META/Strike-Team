@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 5077433776659593135
   Name: "Molotov Volume"
   PlatformAssetType: 5
@@ -206,5 +206,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

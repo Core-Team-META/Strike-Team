@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 7833386563727511233
   Name: "Military Tire Pile 02 - Medium Tire Pile"
   PlatformAssetType: 5
@@ -751,5 +751,5 @@ Assets {
       AssetId: "Military_Tire_Pile_02_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

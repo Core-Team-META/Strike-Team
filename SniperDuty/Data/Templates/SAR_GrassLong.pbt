@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 16500060695330538452
   Name: "SAR_GrassLong"
   PlatformAssetType: 5
@@ -68,5 +68,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

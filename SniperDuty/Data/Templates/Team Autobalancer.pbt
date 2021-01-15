@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 3035707431314987134
   Name: "Team Autobalancer"
   PlatformAssetType: 5
@@ -110,5 +110,5 @@ Assets {
       AssetId: "Team_Autobalancer"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

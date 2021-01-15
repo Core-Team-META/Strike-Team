@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13101409063697753520
   Name: "Stop Sign"
   PlatformAssetType: 5
@@ -302,5 +302,5 @@ Assets {
       AssetId: "Stop_Sign"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

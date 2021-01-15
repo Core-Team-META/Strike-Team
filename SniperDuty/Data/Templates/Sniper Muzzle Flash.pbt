@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14699126022621410800
   Name: "Sniper Muzzle Flash"
   PlatformAssetType: 5
@@ -172,5 +172,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

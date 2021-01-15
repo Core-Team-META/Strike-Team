@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10546068916976616770
   Name: "Sniper Alley Construction Kit"
   PlatformAssetType: 5
@@ -231,5 +231,5 @@ Assets {
     Version: "1.0.0"
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

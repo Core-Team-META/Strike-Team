@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 14685413760268654052
   Name: "SAR_BookcaseOffice"
   PlatformAssetType: 5
@@ -2018,5 +2018,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }
