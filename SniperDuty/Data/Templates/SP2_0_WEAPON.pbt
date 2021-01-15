@@ -663,6 +663,12 @@
               SubObjectId: 13656487996362933619
             }
           }
+          Overrides {
+            Name: "cs:ShellSound"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

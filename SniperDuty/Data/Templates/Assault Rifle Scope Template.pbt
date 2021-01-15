@@ -58,8 +58,8 @@
           Overrides {
             Name: "cs:LocalMoveOffset"
             Vector {
-              X: -5
-              Z: 0.5
+              X: -2.5
+              Z: 0.2
             }
           }
         }

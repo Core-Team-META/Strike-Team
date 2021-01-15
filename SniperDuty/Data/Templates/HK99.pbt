@@ -597,6 +597,12 @@
             Name: "cs:SCOPE_AMMOUNT"
             Float: 0.55
           }
+          Overrides {
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.5
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
