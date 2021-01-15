@@ -15,24 +15,24 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16308489428754801504
         ChildIds: 6319397768712390558
         UnregisteredParameters {
           Overrides {
             Name: "cs:BroadcastToServer"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:EventName"
-            String: ""
+            String: "Spray"
           }
           Overrides {
             Name: "cs:OpenString"
-            String: ""
+            String: "SprayOpen"
           }
           Overrides {
             Name: "cs:CloseString"
-            String: ""
+            String: "SprayClose"
           }
         }
         Collidable_v2 {
@@ -65,7 +65,7 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           RenderTransformPivot {
@@ -237,6 +237,12 @@
               SubObjectId: 6319397768712390558
             }
           }
+          Overrides {
+            Name: "cs:SPRAYSOUND"
+            AssetReference {
+              Id: 8539738869023270098
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -267,6 +273,7 @@
         ParentId: 15234194613478415267
         ChildIds: 2022569359523433689
         ChildIds: 4476868228544607775
+        ChildIds: 2403677596564107304
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -286,9 +293,9 @@
               Id: 597336946930491715
             }
             Color {
-              R: 0.034
-              G: 0.034
-              B: 0.034
+              R: 0.963000059
+              G: 0.963000059
+              B: 0.963000059
               A: 1
             }
             TeamSettings {
@@ -330,21 +337,21 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 150
-          Height: 150
+          Width: -4
+          Height: -4
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
           Image {
             Brush {
-              Id: 5966147112404679805
+              Id: 597336946930491715
             }
             Color {
-              R: 0.880000055
-              G: 0.880000055
-              B: 0.880000055
               A: 1
             }
             TeamSettings {
@@ -386,8 +393,67 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 100
-          Height: 100
+          Width: -20
+          Height: -20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 11003259944185916837
+            }
+            Color {
+              R: 0.666
+              G: 0.666
+              B: 0.666
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2403677596564107304
+        Name: "Center"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5419543682534348893
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 90
+          Height: 90
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -395,12 +461,11 @@
           }
           Image {
             Brush {
-              Id: 258302914990283393
+              Id: 597336946930491715
             }
             Color {
-              R: 0.880000055
-              G: 0.880000055
-              B: 0.880000055
+              R: 0.762
+              G: 0.196807757
               A: 1
             }
             TeamSettings {
@@ -431,21 +496,12 @@
       }
     }
     Assets {
-      Id: 5966147112404679805
-      Name: "Frame Ring 3x 001"
+      Id: 11003259944185916837
+      Name: "Icon Core"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "FrameRing3x_001"
-      }
-    }
-    Assets {
-      Id: 258302914990283393
-      Name: "BG Flat 006"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundNoOutline_015"
+        AssetId: "Icon_Core"
       }
     }
     PrimaryAssetId {
