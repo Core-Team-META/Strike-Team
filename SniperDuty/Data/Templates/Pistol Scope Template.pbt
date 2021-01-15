@@ -59,7 +59,7 @@
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 5
+              Pitch: 2
             }
           }
           Overrides {
@@ -71,8 +71,7 @@
           Overrides {
             Name: "cs:PositionOffset"
             Vector {
-              X: 1
-              Z: 1
+              X: -10
             }
           }
         }
