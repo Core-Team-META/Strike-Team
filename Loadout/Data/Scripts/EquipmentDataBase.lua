@@ -129,6 +129,7 @@ function Database:RegisterEquipment()
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
                 NewItem["scale"] = Item:GetCustomProperty("Scale")
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
+                NewItem["iconBG"] = Item:GetCustomProperty("IconBG")
                 local ItemSkins = {}
                 for _, Skin in pairs(Item:GetChildren()) do
                     local NewSkin = {}

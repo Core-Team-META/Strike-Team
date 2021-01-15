@@ -107,6 +107,7 @@ function FillInData()
         Ptext.text = perk.data.name
         Etext.text = equipment.data.name
 
+        -- KB TODO: Add customizable Icon BG
         PIMG:SetImage(perk.data.icon)
         ETEXT:SetImage(equipment.data.icon)
     end

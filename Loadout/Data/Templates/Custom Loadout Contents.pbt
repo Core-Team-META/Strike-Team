@@ -7123,7 +7123,9 @@
         ChildIds: 2222557165470245250
         ChildIds: 3523583210832529570
         ChildIds: 9268776448898419704
+        ChildIds: 7348663302636002111
         ChildIds: 15328490598056642645
+        ChildIds: 7568539042586929500
         ChildIds: 15597010076493260095
         ChildIds: 3998732404902990521
         ChildIds: 13357156149102496408
@@ -8515,6 +8517,64 @@
         }
       }
       Objects {
+        Id: 7348663302636002111
+        Name: "Equipment Image BG"
+        Transform {
+          Location {
+            X: 6.58257103
+            Y: 43.8229904
+            Z: -58.9100037
+          }
+          Rotation {
+            Yaw: -13.0947037
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10170229791363641805
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 155
+          Height: 155
+          UIX: 63
+          UIY: 25.8197708
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+            }
+            Color {
+              A: 0.869
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 15328490598056642645
         Name: "EquipmentImage"
         Transform {
@@ -8570,6 +8630,64 @@
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7568539042586929500
+        Name: "PerkImage BG"
+        Transform {
+          Location {
+            X: 6.58258057
+            Y: 43.8230209
+            Z: -58.9100037
+          }
+          Rotation {
+            Yaw: -13.0947342
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10170229791363641805
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 156
+          Height: 156
+          UIX: 62
+          UIY: -19
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+            }
+            Color {
+              A: 0.869
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
               }
             }
           }
