@@ -3,7 +3,7 @@ local OUT_OF_AMMO             = script:GetCustomProperty("OutOfAmmo")
 local RELOAD_SOUND            = script:GetCustomProperty("RELOAD_SOUND")
 
 local RELOAD = script:GetCustomProperty("RELOAD")
-
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local ReloadEvent
 local reloading = false
 local ConnectedEvents 
@@ -11,17 +11,12 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local ATTACK_ABILITY = WEAPON:GetAbilities()[1]
-local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+
 WEAPON.clientUserData.reloading = false 
 
-while not ATTACK_ABILITY or not RELOAD_ABILITY  do
-    ATTACK_ABILITY = WEAPON:GetAbilities()[1]
-    RELOAD_ABILITY = WEAPON:GetAbilities()[2]
-    Task.Wait()
-end
+while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
 
-if RELOAD_ABILITY.name == "Shoot" then  Events.Broadcast("WeaponsBroke") end
 
 function Reload()
     WEAPON.clientUserData.Ammo = MAX_AMMO
@@ -79,12 +74,14 @@ function Fire()
 end
 
 function BindReload()
-
-    if(not WEAPON.owner ) then return end
+    Task.Wait()
+    if(not WEAPON.owner or LOCAL_PLAYER ~= WEAPON.owner) then return end
     ReloadEvent = WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
 
         if(binding == RELOAD and WEAPON.clientUserData.reloading == false and  WEAPON.clientUserData.Ammo < MAX_AMMO) then
-            RELOAD_ABILITY:Activate()
+            if(WEAPON.owner == LOCAL_PLAYER) then
+                WEAPON.clientUserData.RELOAD_ABILITY:Activate()
+            end
         end
     end)
     table.insert( ConnectedEvents,ReloadEvent )
@@ -104,11 +101,11 @@ end
 ConnectedEvents = {
     WEAPON.equippedEvent:Connect(BindReload),
     WEAPON.unequippedEvent:Connect(UnBindReload),
-    ATTACK_ABILITY.castEvent:Connect(PrepFire),
-    ATTACK_ABILITY.executeEvent:Connect(Fire),
-    RELOAD_ABILITY.castEvent:Connect(PrepReload),
-    RELOAD_ABILITY.executeEvent:Connect(Reload),
-    RELOAD_ABILITY.interruptedEvent:Connect(Reset),
+    WEAPON.clientUserData.SHOOT_ABILITY.castEvent:Connect(PrepFire),
+    WEAPON.clientUserData.SHOOT_ABILITY.executeEvent:Connect(Fire),
+    WEAPON.clientUserData.RELOAD_ABILITY.castEvent:Connect(PrepReload),
+    WEAPON.clientUserData.RELOAD_ABILITY.executeEvent:Connect(Reload),
+    WEAPON.clientUserData.RELOAD_ABILITY.interruptedEvent:Connect(Reset),
     script.destroyEvent:Connect(function()
         for _,v in pairs(ConnectedEvents) do
             if(v) then
