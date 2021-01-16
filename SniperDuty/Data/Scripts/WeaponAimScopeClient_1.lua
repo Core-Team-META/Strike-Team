@@ -67,7 +67,7 @@ local Connections
 
 -- Internal camera variables --
 local connected = false
-local cameraResetFOV = 100
+local cameraResetFOV = 0
 local cameraResetDistance = 0
 local cameraTargetFOV = 0
 local cameraTargetDistance = 0
@@ -79,7 +79,7 @@ local isScoping = false
 function Tick(deltaTime)
     if not CAN_AIM  then return end
     if not Object.IsValid(WEAPON) then return end
-    --if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
+    if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
     -- We call OnEquipped function after player is fully loaded in client
     if Object.IsValid(WEAPON.owner)  and not connected then
         if GetPlayerActiveCamera(WEAPON.owner) == nil then return end
@@ -167,7 +167,6 @@ function EnableScoping(player)
 end
 
 function ResetScoping(player)
-    if player ~= LOCAL_PLAYER then return end
     -- Reset camera scoping values
     cameraTargetDistance = cameraResetDistance
     cameraTargetFOV = cameraResetFOV
@@ -207,7 +206,6 @@ function ResetScoping(player)
 end
 
 function ForceReset(player)
-    if player ~= LOCAL_PLAYER then return end
     if not activeCamera then return end 
     activeCamera.fieldOfView = cameraResetFOV
 end
@@ -252,7 +250,6 @@ end
 
 function OnUnequipped(weapon, player)
     if not CAN_AIM then return end
-    if player ~= LOCAL_PLAYER then return end
     ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
@@ -281,7 +278,6 @@ end
 
 -- Reset scoping on reload
 function OnReload(ability)
-
     ResetScoping(ability.owner)
 end
 

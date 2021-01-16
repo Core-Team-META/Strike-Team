@@ -2347,16 +2347,13 @@
         Name: "ScopeAnimation"
         Transform {
           Location {
-            X: 1778.24329
-            Y: 3670.29492
-            Z: -28.2611427
           }
           Rotation {
           }
           Scale {
-            X: 3
-            Y: 3
-            Z: 3
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 13622373341787067961
@@ -2370,7 +2367,7 @@
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 5
+              Pitch: 2
             }
           }
           Overrides {
@@ -2385,6 +2382,14 @@
               X: 1
               Z: 1
             }
+          }
+          Overrides {
+            Name: "cs:Time"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "cs:RecoverTime"
+            Float: 0.1
           }
         }
         Collidable_v2 {

@@ -34,4 +34,3 @@ end)
 
 Events.Connect("SwapPanelForceOpen",ToggleOn)
 Events.Connect("SwapPanelForceClose",ToggleOff)
-Events.Connect("WeaponsBroke",function() Events.BroadcastToServer("WeaponsBroke") end)

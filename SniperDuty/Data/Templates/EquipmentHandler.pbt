@@ -143,8 +143,8 @@
         ChildIds: 4447638200582142379
         ChildIds: 12192491190375546086
         ChildIds: 11838387021516346748
-        ChildIds: 15988632395728390888
-        ChildIds: 3867197050238729210
+        ChildIds: 1768899685175524386
+        ChildIds: 17349105660527414576
         ChildIds: 1626208827454051622
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6151,7 +6151,7 @@
         }
       }
       Objects {
-        Id: 15988632395728390888
+        Id: 1768899685175524386
         Name: "Equipment"
         Transform {
           Location {
@@ -6165,8 +6165,8 @@
           }
         }
         ParentId: 12733346808813737482
-        ChildIds: 10595225699890803093
-        ChildIds: 8530148183284995973
+        ChildIds: 6225840782961198943
+        ChildIds: 12902320370261631311
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6179,7 +6179,7 @@
         }
       }
       Objects {
-        Id: 10595225699890803093
+        Id: 6225840782961198943
         Name: "Lethal"
         Transform {
           Location {
@@ -6192,9 +6192,9 @@
             Z: 1
           }
         }
-        ParentId: 15988632395728390888
-        ChildIds: 2176633045874650335
-        ChildIds: 13527826525233937144
+        ParentId: 1768899685175524386
+        ChildIds: 15806395192495462933
+        ChildIds: 9138667974128995378
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6207,7 +6207,7 @@
         }
       }
       Objects {
-        Id: 2176633045874650335
+        Id: 15806395192495462933
         Name: "Grenade"
         Transform {
           Location {
@@ -6220,7 +6220,7 @@
             Z: 1
           }
         }
-        ParentId: 10595225699890803093
+        ParentId: 6225840782961198943
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6245,7 +6245,7 @@
           Overrides {
             Name: "cs:ICON"
             AssetReference {
-              Id: 3530102281845473015
+              Id: 3064755212713314298
             }
           }
           Overrides {
@@ -6266,7 +6266,7 @@
         }
       }
       Objects {
-        Id: 13527826525233937144
+        Id: 9138667974128995378
         Name: "Molotov Cocktail"
         Transform {
           Location {
@@ -6279,7 +6279,7 @@
             Z: 1
           }
         }
-        ParentId: 10595225699890803093
+        ParentId: 6225840782961198943
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6325,7 +6325,7 @@
         }
       }
       Objects {
-        Id: 8530148183284995973
+        Id: 12902320370261631311
         Name: "Utility"
         Transform {
           Location {
@@ -6338,8 +6338,8 @@
             Z: 1
           }
         }
-        ParentId: 15988632395728390888
-        ChildIds: 11636255396799875800
+        ParentId: 1768899685175524386
+        ChildIds: 7211147244113034258
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6352,7 +6352,7 @@
         }
       }
       Objects {
-        Id: 11636255396799875800
+        Id: 7211147244113034258
         Name: "Smoke Grenade"
         Transform {
           Location {
@@ -6365,7 +6365,7 @@
             Z: 1
           }
         }
-        ParentId: 8530148183284995973
+        ParentId: 12902320370261631311
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6411,7 +6411,7 @@
         }
       }
       Objects {
-        Id: 3867197050238729210
+        Id: 17349105660527414576
         Name: "Perks"
         Transform {
           Location {
@@ -6425,7 +6425,7 @@
           }
         }
         ParentId: 12733346808813737482
-        ChildIds: 12139855092980870626
+        ChildIds: 7860471800508521256
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6438,7 +6438,7 @@
         }
       }
       Objects {
-        Id: 12139855092980870626
+        Id: 7860471800508521256
         Name: "Passives"
         Transform {
           Location {
@@ -6451,12 +6451,12 @@
             Z: 1
           }
         }
-        ParentId: 3867197050238729210
-        ChildIds: 5824049757598446039
-        ChildIds: 7477220838843393961
-        ChildIds: 17291942323054710019
-        ChildIds: 4260173180086159733
-        ChildIds: 7769982834062901820
+        ParentId: 17349105660527414576
+        ChildIds: 10789572415198627613
+        ChildIds: 11721462640717255011
+        ChildIds: 3068707792704928713
+        ChildIds: 18334224967386857407
+        ChildIds: 12590915224790217974
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6469,7 +6469,7 @@
         }
       }
       Objects {
-        Id: 5824049757598446039
+        Id: 10789572415198627613
         Name: "Regen"
         Transform {
           Location {
@@ -6482,7 +6482,7 @@
             Z: 1
           }
         }
-        ParentId: 12139855092980870626
+        ParentId: 7860471800508521256
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6507,7 +6507,7 @@
           Overrides {
             Name: "cs:ICON"
             AssetReference {
-              Id: 2079024953174894098
+              Id: 9912507285465866859
             }
           }
           Overrides {
@@ -6528,7 +6528,7 @@
         }
       }
       Objects {
-        Id: 7477220838843393961
+        Id: 11721462640717255011
         Name: "Jump"
         Transform {
           Location {
@@ -6541,7 +6541,7 @@
             Z: 1
           }
         }
-        ParentId: 12139855092980870626
+        ParentId: 7860471800508521256
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6587,7 +6587,7 @@
         }
       }
       Objects {
-        Id: 17291942323054710019
+        Id: 3068707792704928713
         Name: "Health boost"
         Transform {
           Location {
@@ -6600,7 +6600,7 @@
             Z: 1
           }
         }
-        ParentId: 12139855092980870626
+        ParentId: 7860471800508521256
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6629,7 +6629,7 @@
           Overrides {
             Name: "cs:ICON"
             AssetReference {
-              Id: 9912507285465866859
+              Id: 10943674224004983823
             }
           }
         }
@@ -6646,7 +6646,7 @@
         }
       }
       Objects {
-        Id: 4260173180086159733
+        Id: 18334224967386857407
         Name: "Steady aim"
         Transform {
           Location {
@@ -6659,7 +6659,7 @@
             Z: 1
           }
         }
-        ParentId: 12139855092980870626
+        ParentId: 7860471800508521256
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6705,7 +6705,7 @@
         }
       }
       Objects {
-        Id: 7769982834062901820
+        Id: 12590915224790217974
         Name: "Tracker"
         Transform {
           Location {
@@ -6718,7 +6718,7 @@
             Z: 1
           }
         }
-        ParentId: 12139855092980870626
+        ParentId: 7860471800508521256
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6743,7 +6743,7 @@
           Overrides {
             Name: "cs:ICON"
             AssetReference {
-              Id: 7875549704577358358
+              Id: 14300956247818964550
             }
           }
           Overrides {
@@ -7138,12 +7138,12 @@
       }
     }
     Assets {
-      Id: 3530102281845473015
-      Name: "Weapon Grenade 001"
+      Id: 3064755212713314298
+      Name: "Sci-fi Ability Red 032"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Weapon_Grenade_001"
+        AssetId: "UI_SciFi_Ability_Red_032"
       }
     }
     Assets {
@@ -7165,12 +7165,12 @@
       }
     }
     Assets {
-      Id: 2079024953174894098
-      Name: "Fantasy Ability Green 012"
+      Id: 9912507285465866859
+      Name: "Sci-fi Ability Green 029"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Ability_Green_012"
+        AssetId: "UI_SciFi_Ability_Green_029"
       }
     }
     Assets {
@@ -7183,12 +7183,12 @@
       }
     }
     Assets {
-      Id: 9912507285465866859
-      Name: "Sci-fi Ability Green 029"
+      Id: 10943674224004983823
+      Name: "Sci-fi Ability Green 027"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Green_029"
+        AssetId: "UI_SciFi_Ability_Green_027"
       }
     }
     Assets {
@@ -7201,12 +7201,12 @@
       }
     }
     Assets {
-      Id: 7875549704577358358
-      Name: "Sci-fi Ability Misc 008"
+      Id: 14300956247818964550
+      Name: "Sci-fi Parts 032"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Misc_008"
+        AssetId: "UI_SciFi_Equip_Parts_032"
       }
     }
     PrimaryAssetId {

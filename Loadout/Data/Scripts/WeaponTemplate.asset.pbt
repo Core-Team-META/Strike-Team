@@ -41,12 +41,6 @@
           Id: 841534158063459245
         }
       }
-      Overrides {
-        Name: "cs:IconBG"
-        AssetReference {
-          Id: 841534158063459245
-        }
-      }
     }
   }
   SerializationVersion: 72

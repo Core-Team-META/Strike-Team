@@ -145,7 +145,7 @@
             UseReticle: true
             Muzzle {
               Location {
-                X: 25
+                X: 30
                 Z: 10
               }
               Rotation {
@@ -553,6 +553,12 @@
             Name: "cs:SCOPE_AMMOUNT"
             Float: 2
           }
+          Overrides {
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.3
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -654,6 +660,12 @@
             Name: "cs:ShellEffect"
             ObjectReference {
               SubObjectId: 10219376906581273345
+            }
+          }
+          Overrides {
+            Name: "cs:ShellSound"
+            AssetReference {
+              Id: 841534158063459245
             }
           }
         }

@@ -23,7 +23,7 @@ Objects {
   ChildIds: 5402828117076190083
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
-  ChildIds: 17149144260207798715
+  ChildIds: 3726698988231598828
   ChildIds: 8293171845170377650
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
@@ -286,13 +286,9 @@ Objects {
   }
 }
 Objects {
-  Id: 17149144260207798715
+  Id: 3726698988231598828
   Name: "EquipmentHandler"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -306,16 +302,101 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EquipmentHandler"
-  }
-  InstanceHistory {
-    SelfId: 17149144260207798715
-    SubobjectId: 777066251803753357
-    InstanceId: 11973261848846093947
-    TemplateId: 12469272091380785429
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6104757118545260935
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14736571128427096552
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14922265487132919700
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15028357033270769529
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15949626322732622456
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17176433073047961143
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18321665495611670854
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18352586635243585147
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Legion of Light"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12469272091380785429
+    }
   }
 }
 Objects {

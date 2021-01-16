@@ -186,8 +186,19 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 			equipment:Destroy()
 		end
+
 		Task.Wait()
+		
 		player.animationStance = "unarmed_stance"
+		
+		for i=1,5 do
+			Task.Wait(.1)
+
+			player:ResetVelocity()
+			player:SetWorldPosition(spawnPosition)
+			player:SetWorldRotation(spawnRotation)	
+			
+		end
 end
 
 
@@ -209,14 +220,19 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 		_G["HeadPlayerSetting"]:ApplyToPlayer(player)
 	end
 
-	Task.Wait()
-
+	
 	-- prevent player from moving or turning
 	player.movementControlMode = MovementControlMode.NONE
 	player.lookControlMode = LookControlMode.NONE
-
-
 	player:Respawn()
+	
+	Task.Wait(.1)
+
+	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
+		equipment:Destroy()
+	end
+
+	Task.Wait()
 
 	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id, topThreePlayerStats)
 
