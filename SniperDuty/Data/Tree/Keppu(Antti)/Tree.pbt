@@ -3523,7 +3523,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Occlusion Contrast"
-      Float: 1.29162073
+      Float: 0.795153499
     }
     Overrides {
       Name: "bp:Occlusion Exponent"
