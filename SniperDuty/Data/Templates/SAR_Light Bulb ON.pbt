@@ -17,6 +17,8 @@
         }
         ParentId: 16373807130785117515
         ChildIds: 3247611127268318480
+        ChildIds: 6283080772784585925
+        ChildIds: 16950449556559751409
         ChildIds: 17956731050631586259
         UnregisteredParameters {
         }
@@ -81,6 +83,120 @@
         }
       }
       Objects {
+        Id: 6283080772784585925
+        Name: "Glass top"
+        Transform {
+          Location {
+            X: -5.63562
+            Y: 0.6875
+            Z: 331.709229
+          }
+          Rotation {
+            Yaw: 1.35536538e-05
+          }
+          Scale {
+            X: 0.621489167
+            Y: 0.696054578
+            Z: 0.749278545
+          }
+        }
+        ParentId: 10217314856270494788
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16703493352990103549
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.815733314
+              B: 0.308999956
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9372939288148738240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16950449556559751409
+        Name: "Glass bottom"
+        Transform {
+          Location {
+            X: -5.39147949
+            Y: 0.6875
+            Z: 307.797363
+          }
+          Rotation {
+            Yaw: 1.35536538e-05
+          }
+          Scale {
+            X: 0.803613
+            Y: 0.803613
+            Z: 0.803613
+          }
+        }
+        ParentId: 10217314856270494788
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16703493352990103549
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.815733314
+              B: 0.308999956
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 746242229766735565
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 17956731050631586259
         Name: "MergedModel"
         Transform {
@@ -99,8 +215,6 @@
         }
         ParentId: 10217314856270494788
         ChildIds: 4199171760925911837
-        ChildIds: 6283080772784585925
-        ChildIds: 16950449556559751409
         ChildIds: 9424645980638431906
         ChildIds: 5005502703000837085
         ChildIds: 5276167507528403244
@@ -173,119 +287,6 @@
         CoreMesh {
           MeshAsset {
             Id: 12905923173550510229
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6283080772784585925
-        Name: "Glass top"
-        Transform {
-          Location {
-            X: 0.048828125
-            Y: 0.399414063
-            Z: 23.9118652
-          }
-          Rotation {
-            Yaw: 1.35536548e-05
-          }
-          Scale {
-            X: 0.621489167
-            Y: 0.696054578
-            Z: 0.749278545
-          }
-        }
-        ParentId: 17956731050631586259
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16703493352990103549
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 0.815733314
-              B: 0.308999956
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9372939288148738240
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16950449556559751409
-        Name: "Glass bottom"
-        Transform {
-          Location {
-            X: 0.29296875
-            Y: 0.399414063
-          }
-          Rotation {
-            Yaw: 1.35536548e-05
-          }
-          Scale {
-            X: 0.803613
-            Y: 0.803613
-            Z: 0.803613
-          }
-        }
-        ParentId: 17956731050631586259
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16703493352990103549
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 0.815733314
-              B: 0.308999956
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 746242229766735565
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -529,24 +530,6 @@
       }
     }
     Assets {
-      Id: 12905923173550510229
-      Name: "Cylinder - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 2715939630273116812
-      Name: "Ceramic Terracotta Pots Old 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_fan_terracotta_pots_002_uv"
-      }
-    }
-    Assets {
       Id: 9372939288148738240
       Name: "Cone - Truncated"
       PlatformAssetType: 1
@@ -562,6 +545,24 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_sphere_002"
+      }
+    }
+    Assets {
+      Id: 12905923173550510229
+      Name: "Cylinder - Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 2715939630273116812
+      Name: "Ceramic Terracotta Pots Old 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_terracotta_pots_002_uv"
       }
     }
     Assets {
