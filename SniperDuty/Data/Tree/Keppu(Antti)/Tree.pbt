@@ -3289,7 +3289,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
-      Float: 0.533682525
+      Float: 0.372128814
     }
     Overrides {
       Name: "bp:Beam View Direction"
@@ -3628,7 +3628,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3
+      Float: 4
     }
     Overrides {
       Name: "bp:Occlusion Tint"
@@ -3743,7 +3743,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 1.60280824
+      Float: 4
     }
     Overrides {
       Name: "bp:Sun Disc Color"
