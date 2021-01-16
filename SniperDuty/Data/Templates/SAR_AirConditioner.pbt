@@ -161,7 +161,6 @@
           }
         }
         ParentId: 16253280924196043871
-        ChildIds: 681776946453677041
         ChildIds: 3861890707548165533
         ChildIds: 14766289033662617190
         ChildIds: 14344362840222539150
@@ -181,65 +180,6 @@
         }
         Folder {
           Model {
-          }
-        }
-      }
-      Objects {
-        Id: 681776946453677041
-        Name: "Cylinder - bottom aligned"
-        Transform {
-          Location {
-            X: -71.8725586
-            Y: 11.1116533
-            Z: 9.18080616
-          }
-          Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: -179.999954
-            Roll: -179.999832
-          }
-          Scale {
-            X: 0.05
-            Y: 0.05
-            Z: 1.95438206
-          }
-        }
-        ParentId: 15708156490134108499
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5635417991178029864
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.164
-              G: 0.164
-              B: 0.164
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10415104586946721638
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
           }
         }
       }
@@ -852,12 +792,12 @@
       }
     }
     Assets {
-      Id: 10415104586946721638
-      Name: "Cylinder - Bottom-Aligned"
+      Id: 6280154984963467322
+      Name: "Ring - Quarter Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_001"
+        AssetId: "sm_quarter_torus_001"
       }
     }
     Assets {
@@ -867,15 +807,6 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_scf_rubber_panels_004_uv"
-      }
-    }
-    Assets {
-      Id: 6280154984963467322
-      Name: "Ring - Quarter Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_quarter_torus_001"
       }
     }
     Assets {

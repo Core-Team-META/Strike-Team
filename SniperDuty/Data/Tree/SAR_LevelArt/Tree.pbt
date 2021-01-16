@@ -2152,6 +2152,12 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 16253280924196043871
@@ -2172,14 +2178,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -179.999969
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
           }
         }
       }
@@ -41806,6 +41804,31 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 681776946453677041
+      value {
+        Overrides {
+          Name: "DisableDistanceFieldLighting"
+          Bool: false
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -71.8725586
+            Y: 11.1116533
+            Z: 9.18080616
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.05
+            Y: 0.05
+            Z: 1.95438206
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16253280924196043871
       value {
@@ -107239,7 +107262,7 @@ Objects {
   Name: "Urban Pipe Straight"
   Transform {
     Location {
-      Z: 19.9999962
+      Z: 7.80256844
     }
     Rotation {
     }
@@ -107461,7 +107484,7 @@ Objects {
   Name: "Urban Pipe Straight"
   Transform {
     Location {
-      Z: 19.9999962
+      Z: 8.23076153
     }
     Rotation {
     }

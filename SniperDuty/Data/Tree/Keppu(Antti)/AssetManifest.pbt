@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 16285172041817233770
+  Name: "Advanced Color Grading Post Process"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_advanced_color_grading"
+  }
+}
+Assets {
   Id: 14996244734760216571
   Name: "Flare Ray VFX"
   PlatformAssetType: 8
@@ -17,21 +26,21 @@ Assets {
   }
 }
 Assets {
+  Id: 14697405062555329113
+  Name: "Ambient Occlusion Post Process"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_ao"
+  }
+}
+Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_lensflare"
-  }
-}
-Assets {
-  Id: 12149544217203441937
-  Name: "Simple Exposure Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_simple_exposure"
   }
 }
 Assets {

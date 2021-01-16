@@ -2937,7 +2937,8 @@ Objects {
   ChildIds: 9916436675665533873
   ChildIds: 10043863975098718457
   ChildIds: 8710176257806466556
-  ChildIds: 15969446946658903034
+  ChildIds: 1144980827277310472
+  ChildIds: 25973357225262282
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2950,11 +2951,13 @@ Objects {
   }
 }
 Objects {
-  Id: 15969446946658903034
-  Name: "Simple Exposure Post Process"
+  Id: 25973357225262282
+  Name: "Advanced Color Grading Post Process"
   Transform {
     Location {
-      X: 0.00048828125
+      X: -3385
+      Y: 2610
+      Z: -733.518799
     }
     Rotation {
     }
@@ -2967,16 +2970,22 @@ Objects {
   ParentId: 9298601716501198180
   UnregisteredParameters {
     Overrides {
-      Name: "bp:Exposure"
-      Float: 0
+      Name: "bp:Color Contrast"
+      Color {
+        R: 1.5
+        G: 1.5
+        B: 1.5
+        A: 1
+      }
     }
     Overrides {
-      Name: "bp:Blend Weight"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Unbounded"
-      Bool: true
+      Name: "bp:Color Saturation"
+      Color {
+        R: 0.75
+        G: 0.75
+        B: 0.75
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -2987,7 +2996,59 @@ Objects {
   }
   Blueprint {
     BlueprintAsset {
-      Id: 12149544217203441937
+      Id: 16285172041817233770
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 1144980827277310472
+  Name: "Ambient Occlusion Post Process"
+  Transform {
+    Location {
+      X: -1735
+      Y: 1830
+      Z: -1813.5188
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9298601716501198180
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 0.718306541
+    }
+    Overrides {
+      Name: "bp:Power"
+      Float: 1.04010785
+    }
+    Overrides {
+      Name: "bp:Quality"
+      Float: 100
+    }
+    Overrides {
+      Name: "bp:Radius"
+      Float: 350
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14697405062555329113
+    }
+    TeamSettings {
     }
   }
 }
@@ -3099,11 +3160,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Blend Radius"
-      Float: 207.681702
+      Float: 50
     }
     Overrides {
       Name: "bp:Opacity"
-      Float: 0.497698277
+      Float: 0.364737898
     }
     Overrides {
       Name: "bp:Priority"
@@ -3228,11 +3289,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
-      Float: 0.1
+      Float: 0.533682525
     }
     Overrides {
       Name: "bp:Beam View Direction"
-      Float: 0.05
+      Float: 0.5594
     }
     Overrides {
       Name: "bp:Directional Inscattering Exponent"
@@ -3267,8 +3328,8 @@ Objects {
       Name: "bp:Albedo"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.843030214
+        B: 0.782493591
         A: 1
       }
     }
@@ -3319,22 +3380,22 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Depth Blur Distance For 50%"
-      Float: 33.5071
+      Float: 17.4644909
     }
     Overrides {
       Name: "bp:Focal Distance"
-      Float: 0.457990408
+      Float: 10.5584679
     }
     Overrides {
       Name: "bp:Depth Blur Radius"
-      Float: 4
+      Float: 3
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Blueprint {
     BlueprintAsset {
@@ -3545,6 +3606,7 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      Z: 1534.79663
     }
     Rotation {
     }
@@ -3566,7 +3628,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 4
+      Float: 3
     }
     Overrides {
       Name: "bp:Occlusion Tint"
@@ -3598,16 +3660,20 @@ Objects {
     Overrides {
       Name: "bp:Ambient Image"
       Enum {
-        Value: "mc:eambientcubemapssmall:27"
+        Value: "mc:eambientcubemapssmall:19"
       }
     }
     Overrides {
       Name: "bp:Blend Amount"
-      Float: 1
+      Float: 0
     }
     Overrides {
       Name: "bp:Indirect Intensity"
       Float: 2
+    }
+    Overrides {
+      Name: "bp:Use Captured Sky"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -3648,8 +3714,8 @@ Objects {
       Name: "bp:Light Color"
       Color {
         R: 0.89
-        G: 0.696675479
-        B: 0.59808
+        G: 0.667509139
+        B: 0.540525258
         A: 1
       }
     }
@@ -3661,7 +3727,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Size"
-      Float: 5
+      Float: 10
     }
     Overrides {
       Name: "bp:Light Shaft Bloom"
@@ -3669,32 +3735,32 @@ Objects {
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "bp:Light Shaft Mask Darkness"
-      Float: 1
+      Float: 0
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 1.60280824
     }
     Overrides {
       Name: "bp:Sun Disc Color"
       Color {
-        R: 3
-        G: 3
-        B: 3
+        R: 0.89
+        G: 0.667509139
+        B: 0.540525258
         A: 1
       }
     }
     Overrides {
       Name: "bp:Light Shaft Bloom Scale"
-      Float: 1.55909872
+      Float: 4.5177021
     }
     Overrides {
       Name: "bp:Light Shaft Bloom Threshold"
-      Float: 1
+      Float: 0
     }
     Overrides {
       Name: "bp:Light Shaft Occlusion"
@@ -3703,9 +3769,9 @@ Objects {
     Overrides {
       Name: "bp:Light Shaft Bloom Tint"
       Color {
-        R: 1
-        G: 0.779602647
-        B: 0.480000019
+        R: 0.89
+        G: 0.678038299
+        B: 0.624523759
         A: 1
       }
     }
@@ -3715,7 +3781,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
-      Float: 0.5
+      Float: 3
     }
     Overrides {
       Name: "bp:Shadow Bias"
@@ -3723,11 +3789,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Shadow Cascade Count"
-      Int: 3
+      Int: 4
     }
     Overrides {
       Name: "bp:Cascade Distribution Adjustment"
-      Float: 0.103337631
+      Float: 2.15520978
     }
     Overrides {
       Name: "bp:Distance Fadeout Percentage"
@@ -3740,6 +3806,14 @@ Objects {
     Overrides {
       Name: "bp:Draw Sun"
       Bool: true
+    }
+    Overrides {
+      Name: "bp:Indirect Lighting Intensity"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Dynamic Shadow Distance"
+      Float: 3
     }
   }
   Collidable_v2 {
