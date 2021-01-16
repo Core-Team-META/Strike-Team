@@ -34,7 +34,6 @@ Objects {
       B: 0.714
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -85,7 +84,6 @@ Objects {
       B: 0.386999965
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -137,7 +135,6 @@ Objects {
       B: 0.59
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -189,7 +186,6 @@ Objects {
       B: 0.59
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -241,7 +237,6 @@ Objects {
       B: 0.93483448
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -293,7 +288,6 @@ Objects {
       B: 0.93483448
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -345,7 +339,6 @@ Objects {
       B: 0.93483448
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -397,7 +390,6 @@ Objects {
       B: 0.93483448
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -449,7 +441,6 @@ Objects {
       B: 0.149999976
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -501,7 +492,6 @@ Objects {
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -553,7 +543,6 @@ Objects {
       B: 0.93483448
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -605,7 +594,6 @@ Objects {
       B: 0.93483448
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -659,7 +647,6 @@ Objects {
       B: 0.295999944
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -712,7 +699,6 @@ Objects {
       B: 0.295999944
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -765,7 +751,6 @@ Objects {
       B: 0.661
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -818,7 +803,6 @@ Objects {
       G: 0.496688783
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -872,7 +856,6 @@ Objects {
       B: 0.65
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -926,7 +909,6 @@ Objects {
       B: 0.562
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -980,7 +962,6 @@ Objects {
       B: 0.269999981
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1034,7 +1015,6 @@ Objects {
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1088,7 +1068,6 @@ Objects {
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1142,7 +1121,6 @@ Objects {
       B: 0.295999944
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1196,7 +1174,6 @@ Objects {
       B: 0.733999968
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1249,7 +1226,6 @@ Objects {
       B: 0.714
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1303,7 +1279,6 @@ Objects {
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1357,7 +1332,6 @@ Objects {
       B: 0.478999972
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1411,7 +1385,6 @@ Objects {
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1465,7 +1438,6 @@ Objects {
       B: 0.319919974
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1519,7 +1491,6 @@ Objects {
       B: 1
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1573,7 +1544,6 @@ Objects {
       B: 0.0899999738
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1627,7 +1597,6 @@ Objects {
       B: 0.0899999738
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
@@ -1681,7 +1650,6 @@ Objects {
       B: 0.0899999738
       A: 1
     }
-    VolumetricIntensity: 5
     TeamSettings {
     }
     Light {
