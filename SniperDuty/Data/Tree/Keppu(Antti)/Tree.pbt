@@ -3278,10 +3278,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "bp:Falloff"
-      Float: 0.560448229
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3331,19 +3327,19 @@ Objects {
     Overrides {
       Name: "bp:Shape"
       Enum {
-        Value: "mc:esundiscshapes:0"
+        Value: "mc:esundiscshapes:1"
       }
     }
     Overrides {
       Name: "bp:Size"
-      Float: 5.898
+      Float: 4.86466789
     }
     Overrides {
       Name: "bp:Sun Disc Color"
       Color {
-        R: 0.632
-        G: 0.517432868
-        B: 0.0491983667
+        R: 10
+        G: 8.74072266
+        B: 6.37206602
         A: 1
       }
     }
@@ -3369,32 +3365,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Shadow Cascade Count"
-      Int: 3
+      Int: 2
     }
     Overrides {
       Name: "bp:Dynamic Shadow Distance"
       Float: 7
-    }
-    Overrides {
-      Name: "bp:Light Color"
-      Color {
-        R: 1
-        G: 0.799179435
-        B: 0.622
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Soft Distance Shadows"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Use Temperature"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Temperature"
-      Float: 5065.16748
     }
   }
   Collidable_v2 {
@@ -3487,10 +3462,6 @@ Objects {
       Enum {
         Value: "mc:ecloudshapes:1"
       }
-    }
-    Overrides {
-      Name: "bp:Clouds"
-      Bool: true
     }
   }
   Collidable_v2 {
