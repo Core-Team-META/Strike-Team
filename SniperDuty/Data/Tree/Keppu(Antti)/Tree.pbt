@@ -3588,6 +3588,15 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "bp:Overall Tint"
+      Color {
+        R: 1
+        G: 0.651920199
+        B: 0.479375
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
