@@ -10,7 +10,7 @@ Objects {
       Z: 224.529709
     }
     Rotation {
-      Yaw: -66.3697815
+      Yaw: -66.369812
     }
     Scale {
       X: 1
@@ -526,7 +526,7 @@ Objects {
   }
   ParentId: 544549749453359973
   ChildIds: 16261824059434766536
-  ChildIds: 17294047670086647089
+  ChildIds: 279970063711011428
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -594,16 +594,12 @@ Objects {
   }
 }
 Objects {
-  Id: 17294047670086647089
-  Name: "Button_Hover"
+  Id: 279970063711011428
+  Name: "JoinButtonPressed"
   Transform {
     Location {
-      X: -681.355469
-      Y: -537.885498
-      Z: -374.529236
     }
     Rotation {
-      Yaw: 140.526138
     }
     Scale {
       X: 1
@@ -614,23 +610,15 @@ Objects {
   ParentId: 44405187292855324
   UnregisteredParameters {
     Overrides {
-      Name: "cs:TEXT"
+      Name: "cs:Join_Match"
       ObjectReference {
-        SelfId: 16261824059434766536
+        SelfId: 44405187292855324
       }
     }
     Overrides {
-      Name: "cs:BUTTONEVENT"
-      String: "RequestToJoinMatch"
-    }
-    Overrides {
-      Name: "cs:SEND_TO_SERVER"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:BUTTON_COLOUR"
-      Color {
-        A: 1
+      Name: "cs:TEXT_BOX"
+      ObjectReference {
+        SelfId: 16261824059434766536
       }
     }
   }
@@ -642,7 +630,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 18056037653061824451
+      Id: 4020093049419697260
     }
   }
 }

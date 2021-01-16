@@ -67,7 +67,7 @@ local Connections
 
 -- Internal camera variables --
 local connected = false
-local cameraResetFOV = 0
+local cameraResetFOV = 100
 local cameraResetDistance = 0
 local cameraTargetFOV = 0
 local cameraTargetDistance = 0
@@ -128,6 +128,7 @@ end
 
 function EnableScoping(player)
     if player.isDead then return end
+    if WEAPON.owner ~= LOCAL_PLAYER then return end
     if RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then return end
 
     -- Set camera scoping values
@@ -167,6 +168,7 @@ function EnableScoping(player)
 end
 
 function ResetScoping(player)
+    if WEAPON.owner ~= LOCAL_PLAYER then return end
     -- Reset camera scoping values
     cameraTargetDistance = cameraResetDistance
     cameraTargetFOV = cameraResetFOV
@@ -206,6 +208,7 @@ function ResetScoping(player)
 end
 
 function ForceReset(player)
+    if WEAPON.owner ~= LOCAL_PLAYER then return end
     if not activeCamera then return end 
     activeCamera.fieldOfView = cameraResetFOV
 end
@@ -249,6 +252,7 @@ function OnEquipped(weapon, player)
 end
 
 function OnUnequipped(weapon, player)
+    if WEAPON.owner ~= LOCAL_PLAYER then return end
     if not CAN_AIM then return end
     ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
