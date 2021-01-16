@@ -15,11 +15,8 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local ATTACK_ABILITY = WEAPON:GetAbilities()[1]
-local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
 
-while not ATTACK_ABILITY do ATTACK_ABILITY = WEAPON:GetAbilities()[1] Task.Wait() end
-if ATTACK_ABILITY.name == "Reload" then Events.Broadcast("WeaponsBroke") end
+while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
 
 while not WEAPON.clientUserData.Ammo do Task.Wait() end 
 
@@ -42,7 +39,7 @@ function FireAbility()
                 ResetFire()
                 return 
             end
-            ATTACK_ABILITY:Activate()
+            WEAPON.clientUserData.SHOOT_ABILITY:Activate()
             Task.Wait(1/WEAPON.shotsPerSecond)
         end
     else
@@ -51,7 +48,7 @@ function FireAbility()
                 ResetFire()
                 return 
             end
-            ATTACK_ABILITY:Activate()
+            WEAPON.clientUserData.SHOOT_ABILITY:Activate()
             Task.Wait(1/WEAPON.shotsPerSecond)
         end
     end

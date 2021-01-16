@@ -16,10 +16,10 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6541679167812597299
-        ChildIds: 15888966600517946259
         ChildIds: 4706652283200714167
         ChildIds: 17944033776906865296
+        ChildIds: 6541679167812597299
+        ChildIds: 15888966600517946259
         UnregisteredParameters {
           Overrides {
             Name: "cs:EnableAim"
@@ -193,6 +193,138 @@
         }
       }
       Objects {
+        Id: 4706652283200714167
+        Name: "Shoot"
+        Transform {
+          Location {
+            X: 181.768768
+            Y: 312.176117
+            Z: 2.28881836e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 1
+          }
+        }
+        ParentId: 8568020721695570181
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Ability {
+          IsEnabled: true
+          KeyBinding: "ability_primary"
+          CastPhaseSettings {
+            Duration: 0.03
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          ExecutePhaseSettings {
+            Duration: 0.1
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          RecoveryPhaseSettings {
+            Duration: 0.01
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+          }
+          CooldownPhaseSettings {
+            Duration: 0.2
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+          }
+          Animation: "2hand_rifle_shoot"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
+        }
+      }
+      Objects {
+        Id: 17944033776906865296
+        Name: "Reload"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 8568020721695570181
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Ability {
+          IsEnabled: true
+          KeyBinding: "ability_ult"
+          CastPhaseSettings {
+            Duration: 3.5
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+          }
+          ExecutePhaseSettings {
+            Duration: 0.1
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+          }
+          RecoveryPhaseSettings {
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+          }
+          CooldownPhaseSettings {
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+          }
+          Animation: "2hand_rifle_reload_magazine"
+          CanBePrevented: true
+          KeyBinding_v2 {
+            Value: "mc:egameaction:invalid"
+          }
+        }
+      }
+      Objects {
         Id: 6541679167812597299
         Name: "Server Context"
         Transform {
@@ -320,6 +452,7 @@
         ChildIds: 568353767011244440
         ChildIds: 16707587071178057160
         ChildIds: 2355162825190660085
+        ChildIds: 14536296068065534778
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -1021,13 +1154,10 @@
         }
       }
       Objects {
-        Id: 4706652283200714167
-        Name: "Shoot"
+        Id: 14536296068065534778
+        Name: "GetWeaponAbilities"
         Transform {
           Location {
-            X: 181.768768
-            Y: 312.176117
-            Z: 2.28881836e-05
           }
           Rotation {
           }
@@ -1037,118 +1167,30 @@
             Z: 1
           }
         }
-        ParentId: 8568020721695570181
+        ParentId: 15888966600517946259
         UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        Ability {
-          IsEnabled: true
-          KeyBinding: "ability_primary"
-          CastPhaseSettings {
-            Duration: 0.03
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
+          Overrides {
+            Name: "cs:SHOOT_ABILITY"
+            ObjectReference {
+              SubObjectId: 4706652283200714167
             }
           }
-          ExecutePhaseSettings {
-            Duration: 0.1
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
+          Overrides {
+            Name: "cs:RELOAD_ABILITY"
+            ObjectReference {
+              SubObjectId: 17944033776906865296
             }
           }
-          RecoveryPhaseSettings {
-            Duration: 0.01
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-          }
-          CooldownPhaseSettings {
-            Duration: 0.2
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-          }
-          Animation: "2hand_rifle_shoot"
-          KeyBinding_v2 {
-            Value: "mc:egameaction:invalid"
-          }
         }
-      }
-      Objects {
-        Id: 17944033776906865296
-        Name: "Reload"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.99999994
-            Y: 0.99999994
-            Z: 1
-          }
-        }
-        ParentId: 8568020721695570181
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Ability {
-          IsEnabled: true
-          KeyBinding: "ability_ult"
-          CastPhaseSettings {
-            Duration: 3.5
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-          }
-          ExecutePhaseSettings {
-            Duration: 0.1
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-          }
-          RecoveryPhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-          }
-          CooldownPhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-          }
-          Animation: "2hand_rifle_reload_magazine"
-          CanBePrevented: true
-          KeyBinding_v2 {
-            Value: "mc:egameaction:invalid"
+        Script {
+          ScriptAsset {
+            Id: 3881651977092051116
           }
         }
       }
