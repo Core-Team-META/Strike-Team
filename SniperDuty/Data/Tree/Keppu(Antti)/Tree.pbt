@@ -3327,19 +3327,18 @@ Objects {
     Overrides {
       Name: "bp:Shape"
       Enum {
-        Value: "mc:esundiscshapes:1"
+        Value: "mc:esundiscshapes:0"
       }
     }
     Overrides {
       Name: "bp:Size"
-      Float: 4.86466789
+      Float: 7.69662523
     }
     Overrides {
       Name: "bp:Sun Disc Color"
       Color {
-        R: 10
-        G: 8.74072266
-        B: 6.37206602
+        R: 0.645833313
+        G: 0.432622612
         A: 1
       }
     }
@@ -3353,7 +3352,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Shaft Bloom Scale"
-      Float: 1.64857769
+      Float: 8.47500134
     }
     Overrides {
       Name: "bp:Cast Shadows"
@@ -3370,6 +3369,32 @@ Objects {
     Overrides {
       Name: "bp:Dynamic Shadow Distance"
       Float: 7
+    }
+    Overrides {
+      Name: "bp:Light Color"
+      Color {
+        R: 1
+        G: 0.758013248
+        B: 0.37
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Tint"
+      Color {
+        R: 1
+        G: 0.612450361
+        B: 0.230000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Light Shaft Occlusion"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Draw Sun"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -3483,7 +3508,8 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      Z: 1913.46509
+      Y: 451.327637
+      Z: 1753.54529
     }
     Rotation {
     }
@@ -3498,7 +3524,7 @@ Objects {
     Overrides {
       Name: "bp:Ambient Image"
       Enum {
-        Value: "mc:eambientcubemapssmall:10"
+        Value: "mc:eambientcubemapssmall:0"
       }
     }
     Overrides {
@@ -3507,7 +3533,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3
+      Float: 4.34093142
     }
     Overrides {
       Name: "bp:Cast Shadows"
@@ -3536,6 +3562,10 @@ Objects {
         G: 0.0231788084
         A: 0.00500000035
       }
+    }
+    Overrides {
+      Name: "bp:Blend Amount"
+      Float: 0
     }
   }
   Collidable_v2 {
