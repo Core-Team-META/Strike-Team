@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 15006363769250822773
-  Name: "AjKillFeedLine v2 (single)"
+  Id: 10803451839470039604
+  Name: "METACC Kill Feed Line Template v1"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 8373315198424379985
+        ParentId: 4781671109827199097
         ChildIds: 14021105304702689672
         UnregisteredParameters {
         }

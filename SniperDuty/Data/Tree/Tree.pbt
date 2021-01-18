@@ -49,7 +49,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 16035454593328240751
-  ChildIds: 13677693431599875088
+  ChildIds: 8582950651250965095
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -61,13 +61,9 @@ Objects {
   }
 }
 Objects {
-  Id: 13677693431599875088
-  Name: "Aj Kill Feed v3.5"
+  Id: 8582950651250965095
+  Name: "METACC Kill Feed v1"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -82,7 +78,7 @@ Objects {
     }
     Overrides {
       Name: "cs:UseTeamColors"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:UseEquipmentId"
@@ -145,48 +141,8 @@ Objects {
     Overrides {
       Name: "cs:LineTemplate"
       AssetReference {
-        Id: 15006363769250822773
+        Id: 10803451839470039604
       }
-    }
-    Overrides {
-      Name: "cs:AllowReacting"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:AllowSelfReaction"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:KillsAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:HeadshotsAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:SuicidesAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:WorldKillsAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:ReactionTime"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:ReactionPositiveBinding"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:ReactionNegativeBinding"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:ReactionToggleBinding"
-      String: ""
     }
     Overrides {
       Name: "cs:ShowJoinAndLeave:tooltip"
@@ -208,10 +164,6 @@ Objects {
       Name: "cs:SelfTextColor:tooltip"
       String: "Color for events that involve the local player"
     }
-    Overrides {
-      Name: "cs:AllowReacting:tooltip"
-      String: "Allow use of the reaction system"
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -221,13 +173,13 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Aj Kill Feed v3_5"
+    FilePartitionName: "METACC Kill Feed v1"
   }
   InstanceHistory {
-    SelfId: 13677693431599875088
-    SubobjectId: 15205324312473118814
-    InstanceId: 14026017173614675027
-    TemplateId: 14963934029540585127
+    SelfId: 8582950651250965095
+    SubobjectId: 16380849681345743960
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
     WasRoot: true
   }
 }
