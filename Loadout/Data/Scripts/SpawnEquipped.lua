@@ -18,15 +18,25 @@ function GetPoint(Type)
     return point
 end
 
-function SpawnItem()
-    
+
+function GetItem()
     local Methods = {   
         ["GetPrimary"] =  _G["DataBase"]:GetPrimary(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot or  LOCAL_PLAYER:GetResource("Equipslot"))] ),
         ["GetSecondary"] =  _G["DataBase"]:GetSecondary(LOCAL_PLAYER.clientUserData.Loadouts[tostring( LOCAL_PLAYER.clientUserData.SelectedSlot or  LOCAL_PLAYER:GetResource("Equipslot"))]) ,
         ["GetMelee"] =  _G["DataBase"]:GetMelee(LOCAL_PLAYER.clientUserData.Loadouts[tostring( LOCAL_PLAYER.clientUserData.SelectedSlot or  LOCAL_PLAYER:GetResource("Equipslot"))]) ,
     }
 
-    local primary = Methods[METHODNAME] 
+   return Methods[METHODNAME] 
+end
+
+function SpawnItem(SpawnedItem)
+    local primary 
+
+    if not SpawnedItem then 
+        primary = GetItem()
+    else 
+        primary = SpawnedItem
+    end
     local d = _G["DataBase"]:SetupItemWithSkin(primary)
     local Weapon = d:SpawnEquipment()
     --Weapon.parent = script.parent
@@ -38,9 +48,23 @@ function SpawnItem()
     Weapon:SetWorldRotation(point:GetWorldRotation())
     GlobalWeapon = Weapon
 end
+
 SpawnItem()
 
 Events.Connect("UpdatedLoadouts",function()
+    if(Object.IsValid( GlobalWeapon)) then GlobalWeapon:Destroy() end
+    SpawnItem()
+end)
+
+
+Events.Connect("HoverItem",function(SpawnedItem,type)
+    if  METHODNAME == "Get"..type then
+        if(Object.IsValid( GlobalWeapon)) then GlobalWeapon:Destroy() end
+        SpawnItem(SpawnedItem)
+    end
+end)
+
+Events.Connect("UnHoverItem",function()
     if(Object.IsValid( GlobalWeapon)) then GlobalWeapon:Destroy() end
     SpawnItem()
 end)

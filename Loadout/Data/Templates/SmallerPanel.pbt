@@ -15,14 +15,13 @@
             Z: 1
           }
         }
-        ParentId: 14731703646026544731
+        ParentId: 14933729121853623480
         ChildIds: 14918399479264510749
         ChildIds: 12422672806250089011
         ChildIds: 11734302483443935999
         ChildIds: 11306424681309017429
         ChildIds: 2656754313991633239
         ChildIds: 10222647534082811495
-        ChildIds: 18015531969013290576
         UnregisteredParameters {
           Overrides {
             Name: "cs:TYPE_TEXT"
@@ -693,6 +692,7 @@
         ChildIds: 1189418528842938290
         ChildIds: 6961211590357314257
         ChildIds: 4894603737926796118
+        ChildIds: 18015531969013290576
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1023,7 +1023,7 @@
             Z: 1
           }
         }
-        ParentId: 1877528306481387024
+        ParentId: 10222647534082811495
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1031,15 +1031,16 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 200
-          Height: 35
-          UIX: 15
-          UIY: -1.77435112
+          Width: -7
+          UIX: 7
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
           Text {
             Label: "The skin name"
             Color {

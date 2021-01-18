@@ -53,11 +53,11 @@ function DestroyPanels()
 end
 
 function ResetSort()
-    Sort = 1
+    Sort = 0
 end
 
 function AddSort(dir)
-    Sort = math.max(Sort + (PanelLimit+1) * dir , 1)
+    Sort = math.max(Sort + PanelLimit * dir , 0)
 end
 
 function CheckWeapon(item)
@@ -91,6 +91,20 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             Lock:Destroy()
         end
     end
+    newpanel.clientUserData.HoverEvent = Button.hoveredEvent:Connect(function() 
+            if(skin) then item:EquipSkinByID(skin.id) end
+            Events.Broadcast("HoverItem",item:ReturnIDs(), item.data.slot)
+            --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
+    end)
+    newpanel.clientUserData.unhoveredEvent = Button.unhoveredEvent:Connect(function() 
+        if(skin) then item:EquipSkinByID(skin.id) end
+        Events.Broadcast("UnHoverItem")
+        --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
+    end)    
+
+
+
+
 
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
@@ -162,7 +176,7 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
 
     Ntext.text = skins[i].name
-    Ttext.text = ""
+    Ttext.text = item:GetName()
 
     table.insert( Panels, newpanel )
 end

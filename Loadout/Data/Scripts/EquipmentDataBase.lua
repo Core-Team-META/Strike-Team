@@ -111,6 +111,16 @@ function VerifyID(Data, NewItem)
     return true
 end
 
+function Database.SetupSkin( id, skin, level, ads, name )
+    local NewSkin = {}
+    NewSkin["id"] = id
+    NewSkin["skin"] = skin
+    NewSkin["level"] = level or 0
+    NewSkin["ads_skin"] = ads
+    NewSkin["name"] = name or "NoName"
+    return NewSkin
+end
+
 function Database:RegisterEquipment()
     local NewData = {}
     for _, Slot in pairs(Root:GetChildren()) do
@@ -120,7 +130,6 @@ function Database:RegisterEquipment()
                 NewItem["slot"] = Slot.name
                 NewItem["name"] = Item.name
                 NewItem["type"] = Type.name
-                NewItem["defaultSkin"] = Item:GetCustomProperty("DefaultSkin")
                 NewItem["weapon"]  = Item:GetCustomProperty("Weapon")
                 NewItem["description"] = Item:GetCustomProperty("Description")
                 NewItem["id"] = Item:GetCustomProperty("ID")
@@ -130,13 +139,23 @@ function Database:RegisterEquipment()
                 NewItem["scale"] = Item:GetCustomProperty("Scale")
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
                 local ItemSkins = {}
+
+                NewItem["defaultSkin"] = Database.SetupSkin( 
+                    "00",
+                    Item:GetCustomProperty("DefaultSkin"),
+                    0,
+                    Item:GetCustomProperty("ADSSkin"),
+                    "Default"
+                )
+                table.insert( ItemSkins, NewItem["defaultSkin"])
+                
                 for _, Skin in pairs(Item:GetChildren()) do
-                    local NewSkin = {}
-                    NewSkin["id"] = Skin:GetCustomProperty("ID")
-                    NewSkin["skin"] = Skin:GetCustomProperty("SKIN")
-                    NewSkin["level"] = Skin:GetCustomProperty("LEVEL")
-                    NewSkin["ads_skin"] = Skin:GetCustomProperty("ADSSkin")
-                    NewSkin["name"] = Skin.name
+                    local NewSkin = Database.SetupSkin(
+                        Skin:GetCustomProperty("ID"), 
+                        Skin:GetCustomProperty("SKIN"),
+                        Skin:GetCustomProperty("LEVEL"),
+                        Skin:GetCustomProperty("ADSSkin"),
+                        Skin.name)
                     assert(VerifyID(ItemSkins, NewSkin),"Clashing Id ".. NewSkin.name .. " in equipment ".. NewItem.name)
                     table.insert( ItemSkins, NewSkin)
                 end

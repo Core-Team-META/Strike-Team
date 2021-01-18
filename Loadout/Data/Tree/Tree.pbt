@@ -323,11 +323,65 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 1330842254014705300
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4593871113840028907
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6104757118545260935
       value {
         Overrides {
           Name: "Name"
           String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10235649203003544940
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11138863980903535024
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14290165114766666960
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14490382481188861381
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
         }
       }
     }
@@ -359,11 +413,29 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 15841477914011716528
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 15949626322732622456
       value {
         Overrides {
           Name: "Name"
           String: "Legion of Light"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16840370703545334633
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Dark Devout"
         }
       }
     }
