@@ -4,6 +4,7 @@ Equipment.__index = Equipment
 function Equipment.New(data)
     local self = setmetatable({},Equipment)
     self.data = data
+    self.data.EquippedSkin = self.data.defaultSkin
     return self
 end
 
@@ -26,11 +27,10 @@ end
 function Equipment:EquipSkinByRandom()
     if(self:HasSkins()) then
         self.data.EquippedSkin = self.data.skins[ math.random( #self.data.skins) ]
-        if(math.random( #self.data.skins + 1) >  #self.data.skins ) then self.data.EquippedSkin = nil end
+        if(math.random( #self.data.skins + 1) >  #self.data.skins ) then self.data.EquippedSkin = self.data.defaultSkin end
     end
     
 end
-
 
 function Equipment:EquipSkinByID(skinid)
     for _, skin in pairs(self.data.skins) do
@@ -39,11 +39,11 @@ function Equipment:EquipSkinByID(skinid)
             return
         end
     end
-    self.data.EquippedSkin = nil
+    self.data.EquippedSkin = self.data.defaultSkin
 end
 
 function Equipment:UnequipSkin()
-    self.data.EquippedSkin = nil
+    self.data.EquippedSkin = self.data.defaultSkin
 end
 
 function Equipment:ReturnIDs()
@@ -100,15 +100,11 @@ function Equipment:GetEquippedSkin()
     if(self.data.EquippedSkin) then
         return self.data.EquippedSkin.skin
     else
-        return self.data.defaultSkin
+        return self.data.defaultSkin.skin
     end
 end
 function Equipment:GetEquippedSkinName()
-    if(self.data.EquippedSkin) then
-        return self.data.EquippedSkin.skin.name
-    else
-        return "Default"
-    end
+    return self.data.EquippedSkin.name
 end
 function Equipment:GetSkins()
     return self.data.skins
