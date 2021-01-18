@@ -13,8 +13,8 @@ while not _G["DataBase"]  do Task.Wait() end
 local Database = _G["DataBase"] 
 local LastPressed = 0
 local Panels = {}
-local PanelLimit = 4
-local Sort = 1
+local PanelLimit = 5
+local Sort = 0
 
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
@@ -30,10 +30,10 @@ function UpdateArrows( LeftNum,RightNum)
 end
 
 function SlotChange( max )
-    Sort = math.min(Sort,max - PanelLimit)
-    Sort = math.max(Sort,1)
-    local LeftNum = math.ceil( (Sort+PanelLimit)/(PanelLimit+1))
-    local RightNum =  math.ceil( max/(PanelLimit +1) )
+    Sort = math.min(Sort, max)
+    Sort = math.max(Sort,0)
+    local LeftNum = math.ceil( (Sort+PanelLimit)/(PanelLimit))
+    local RightNum =  math.ceil( max/(PanelLimit) )
 
     OTTATEXT.text = tostring(LeftNum ) .. "/"..tostring(RightNum)
     UpdateArrows( LeftNum,RightNum)
@@ -57,7 +57,7 @@ function ResetSort()
 end
 
 function AddSort(dir)
-    Sort = math.max(Sort + PanelLimit * dir , 0)
+    Sort = math.max(Sort + PanelLimit * dir,0)
 end
 
 function CheckWeapon(item)
@@ -102,16 +102,12 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
     end)    
 
-
-
-
-
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
     local x,y = GlobalPixel.ToWorld(newpanel)
     local Screen  = UI.GetScreenSize()
     x = x + Screen.x
-    y = y + Screen.y/2
+    y = y
     local screenObject = ScreenObject.New(object, {
             objectWidth = 10,
             pixelWidth = 200,
@@ -153,9 +149,9 @@ function SpawnPanels(Type)
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
     SlotChange( #items )
-    for i=Sort, math.min((Sort + PanelLimit),#items)  do
+    for i=Sort+1, math.min((Sort + PanelLimit),#items)  do
         local newItem = Database:SetupItemWithSkin(items[i].data.id.."_00")
-        local newpanel = SpawnPanel(SPAWN,newItem, nil, i-(Sort-1),not CheckWeapon(items[i].data.id))
+        local newpanel = SpawnPanel(SPAWN,newItem, nil, i-(Sort),not CheckWeapon(items[i].data.id))
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
 
@@ -170,7 +166,7 @@ end
 function SetupSkinPanel(item,id,skins,i,Locked)
     local newItem  =  Database:ReturnEquipmentById(id)
     newItem:EquipSkinByID(skins[i].id)  
-    local newpanel = SpawnPanel(SPAWN,item, skins[i],  #Panels+1-(Sort-1), Locked)
+    local newpanel = SpawnPanel(SPAWN,item, skins[i],  i-(Sort), Locked)
 
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
@@ -189,7 +185,7 @@ function SpawnPanelskins(itemid)
     local skins = item:GetSkins()
     if(#skins == 0) then return end
     SlotChange( #skins )
-    for i=Sort, math.min((Sort + PanelLimit),#skins) do
+    for i=Sort+1, math.min((Sort + PanelLimit),#skins) do
         local HasSkin = CheckSkin(id,skins[i].id)
         if not HasSkin then
             if not skins[i].Event then
@@ -207,9 +203,9 @@ function SpawnIconPanel(Type)
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
     SlotChange( #items )    
-    for i=Sort, math.min((Sort + PanelLimit),#items) do
+    for i=Sort+1, math.min((Sort + PanelLimit), #items) do
 
-        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort-1),false)
+        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),false)
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
         local ICON = newpanel:GetCustomProperty("ICON"):WaitForObject()
