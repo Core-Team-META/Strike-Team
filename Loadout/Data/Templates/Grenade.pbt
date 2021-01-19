@@ -148,7 +148,7 @@
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 3000
-            ProjectileLifeSpan: 1.8
+            ProjectileLifeSpan: 4
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12

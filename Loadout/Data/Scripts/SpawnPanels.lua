@@ -15,6 +15,8 @@ local LastPressed = 0
 local Panels = {}
 local PanelLimit = 5
 local Sort = 0
+local Func 
+local Data 
 
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
@@ -29,16 +31,20 @@ function UpdateArrows( LeftNum,RightNum)
     end
 end
 
+function UpdatePanels()
+    Func(Data)
+end
+
 function SlotChange( max )
     Sort = math.min(Sort, max)
     Sort = math.max(Sort,0)
+    
     local LeftNum = math.ceil( (Sort+PanelLimit)/(PanelLimit))
     local RightNum =  math.ceil( max/(PanelLimit) )
 
     OTTATEXT.text = tostring(LeftNum ) .. "/"..tostring(RightNum)
     UpdateArrows( LeftNum,RightNum)
 end
-
 
 function DestroyPanels()
     for _,panel in pairs(Panels) do
@@ -58,6 +64,7 @@ end
 
 function AddSort(dir)
     Sort = math.max(Sort + PanelLimit * dir,0)
+    UpdatePanels()
 end
 
 function CheckWeapon(item)
@@ -138,7 +145,6 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         screenObject = nil
         UpdateTask = nil
     end)
-    
 
     return newpanel
 end
@@ -223,9 +229,24 @@ end
 
 
 Events.Connect("AllloadoutPanelsClose", DestroyPanels)
-Events.Connect("SpawnLoadoutEquipPanel",SpawnPanels)
-Events.Connect("SpawnLoadoutIconPanel",SpawnIconPanel)
-Events.Connect("SpawnLoadoutSkinPanel",SpawnPanelskins)
+Events.Connect("SpawnLoadoutEquipPanel",function(type)
+    ResetSort()
+    Data = type
+    Func = SpawnPanels
+    UpdatePanels()
+end)
+Events.Connect("SpawnLoadoutIconPanel",function(type)
+    ResetSort()
+    Data = type
+    Func = SpawnIconPanel
+    UpdatePanels()
+end)
+Events.Connect("SpawnLoadoutSkinPanel",function(type)
+    ResetSort()
+    Data = type
+    Func = SpawnPanelskins
+    UpdatePanels()
+end)
 Events.Connect("AddSort", AddSort)
 Events.Connect("ResetSort", ResetSort)
 Events.Connect( "UpdatedLoadoutState",function()

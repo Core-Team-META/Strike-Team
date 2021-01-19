@@ -3364,7 +3364,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Shadow Cascade Count"
-      Int: 2
+      Int: 3
     }
     Overrides {
       Name: "bp:Dynamic Shadow Distance"

@@ -244,8 +244,6 @@ function OnEquipped(weapon, player)
 end
 
 function OnUnequipped(weapon, player)
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
-    if not CAN_AIM then return end
     ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player

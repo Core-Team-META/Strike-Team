@@ -145,8 +145,8 @@
             UseReticle: true
             Muzzle {
               Location {
-                X: 30
-                Z: 10
+                X: 50
+                Y: 4.99999762
               }
               Rotation {
               }

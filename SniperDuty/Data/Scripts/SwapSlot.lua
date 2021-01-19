@@ -32,5 +32,7 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
     end
 end)
 
+
+
 Events.Connect("SwapPanelForceOpen",ToggleOn)
 Events.Connect("SwapPanelForceClose",ToggleOff)
