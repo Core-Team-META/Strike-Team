@@ -11223,6 +11223,25 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17537440853108607035
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10
+            Y: 389.999878
+            Z: -10.0000305
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11530147722464991735
     }
@@ -23489,6 +23508,44 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 12820826830391945176
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 154.999695
+            Y: 389.999817
+            Z: 85
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13861816962310709492
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 154.999863
+            Y: -69.9999695
+            Z: 85
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 15676530743771792721
       value {
         Overrides {
@@ -23515,6 +23572,24 @@ Objects {
             X: 1
             Y: -1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17537440853108607035
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9.99984741
+            Y: 389.999878
+            Z: -10.0000305
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -45278,7 +45353,7 @@ Objects {
   ChildIds: 9105325792270856085
   ChildIds: 11101937868251360299
   ChildIds: 3078884420122926607
-  ChildIds: 4607305918173464711
+  ChildIds: 12233730559334053123
   ChildIds: 14294539111780997933
   ChildIds: 17618261604903168640
   ChildIds: 12801784680468580103
@@ -45412,7 +45487,7 @@ Objects {
   ChildIds: 5954101266462633110
   ChildIds: 6718951458638569299
   ChildIds: 18360323374633110009
-  ChildIds: 292127340128592807
+  ChildIds: 8648417616841399573
   ChildIds: 4501166237881922740
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -45472,12 +45547,226 @@ Objects {
   }
 }
 Objects {
-  Id: 292127340128592807
+  Id: 8648417616841399573
   Name: "SAR_Stairs_MainBuilding_Short"
   Transform {
     Location {
-      X: 1490
-      Y: 5630
+      X: -1213.14258
+      Y: 1707.55859
+      Z: 5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 9584972375191584414
+  ChildIds: 14785309985610583792
+  ChildIds: 10648680631989779612
+  ChildIds: 7049385427854063792
+  ChildIds: 1182152794799538076
+  ChildIds: 5974836546530676863
+  ChildIds: 13529080984644553235
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 8648417616841399573
+    SubobjectId: 15676530743771792721
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 13529080984644553235
+  Name: "Whitebox Stairs 01 Straight 150cm"
+  Transform {
+    Location {
+      X: 24.9999924
+      Y: -114.999985
+      Z: -25
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1.4
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8648417616841399573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 7073292077687017536
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.612467051
+        B: 0.612467051
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.551
+        G: 0.551
+        B: 0.551
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9906491685923217027
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13529080984644553235
+    SubobjectId: 1894767354470388311
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 5974836546530676863
+  Name: "Fantasy Castle Bannister 01 - Post"
+  Transform {
+    Location {
+      X: -10
+      Y: 390
+      Z: -10.0000305
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8648417616841399573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 897429753597555270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5974836546530676863
+    SubobjectId: 17537440853108607035
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 1182152794799538076
+  Name: "Fantasy Castle Bannister 01 - Post"
+  Transform {
+    Location {
+      X: 154.999954
+      Y: 389.999939
+      Z: 85
     }
     Rotation {
     }
@@ -45487,47 +45776,359 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584972375191584414
+  ParentId: 8648417616841399573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15676530743771792721
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Stairs_MainBuilding_Short"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1213.14258
-            Y: 1707.55859
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
+  CoreMesh {
+    MeshAsset {
+      Id: 897429753597555270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
       }
     }
-    TemplateAsset {
-      Id: 11530147722464991735
+  }
+  InstanceHistory {
+    SelfId: 1182152794799538076
+    SubobjectId: 12820826830391945176
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 7049385427854063792
+  Name: "Fantasy Castle Bannister 01 - Post"
+  Transform {
+    Location {
+      X: 154.999985
+      Y: -69.9999771
+      Z: 85
     }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8648417616841399573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 897429753597555270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7049385427854063792
+    SubobjectId: 13861816962310709492
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 10648680631989779612
+  Name: "Stair Bannister - Top"
+  Transform {
+    Location {
+      X: 144.999954
+      Y: 390.000427
+      Z: 75
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 0.7
+      Y: 1.1
+      Z: 1
+    }
+  }
+  ParentId: 8648417616841399573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 0.74
+        B: 0.74
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5690610490455183775
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10648680631989779612
+    SubobjectId: 3624506247767188696
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 14785309985610583792
+  Name: "Stair Bannister - Top"
+  Transform {
+    Location {
+      X: 144.999985
+      Y: -69.9992447
+      Z: 75
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 0.7
+      Y: 1.1
+      Z: 1
+    }
+  }
+  ParentId: 8648417616841399573
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 0.74
+        B: 0.74
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5690610490455183775
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14785309985610583792
+    SubobjectId: 7828552199928485556
+    InstanceId: 292127340128592807
+    TemplateId: 11530147722464991735
   }
 }
 Objects {
@@ -55431,9 +56032,16 @@ Objects {
   }
 }
 Objects {
-  Id: 4607305918173464711
+  Id: 12233730559334053123
   Name: "SAR_Stairs_MainBuilding_Short"
   Transform {
+    Location {
+      X: -1215
+      Y: -1210
+      Z: 5
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -55441,46 +56049,571 @@ Objects {
     }
   }
   ParentId: 9584972375191584414
+  ChildIds: 2084131130883663590
+  ChildIds: 4756959806808953994
+  ChildIds: 12688849699247214758
+  ChildIds: 13953403526148216714
+  ChildIds: 9451165621267347561
+  ChildIds: 7639046534520545797
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15676530743771792721
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Stairs_MainBuilding_Short"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1215
-            Y: -1210
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12233730559334053123
+    SubobjectId: 15676530743771792721
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 7639046534520545797
+  Name: "Whitebox Stairs 01 Straight 150cm"
+  Transform {
+    Location {
+      X: 24.9999924
+      Y: -114.999985
+      Z: -25
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1.4
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12233730559334053123
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
       }
     }
-    TemplateAsset {
-      Id: 11530147722464991735
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 7073292077687017536
+      }
     }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.612467051
+        B: 0.612467051
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.551
+        G: 0.551
+        B: 0.551
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9906491685923217027
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7639046534520545797
+    SubobjectId: 1894767354470388311
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 9451165621267347561
+  Name: "Fantasy Castle Bannister 01 - Post"
+  Transform {
+    Location {
+      X: -10
+      Y: 390
+      Z: -10.0000305
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12233730559334053123
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 897429753597555270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9451165621267347561
+    SubobjectId: 17537440853108607035
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 13953403526148216714
+  Name: "Fantasy Castle Bannister 01 - Post"
+  Transform {
+    Location {
+      X: 154.999954
+      Y: 389.999939
+      Z: 85
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12233730559334053123
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 897429753597555270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13953403526148216714
+    SubobjectId: 12820826830391945176
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 12688849699247214758
+  Name: "Fantasy Castle Bannister 01 - Post"
+  Transform {
+    Location {
+      X: 154.999985
+      Y: -69.9999771
+      Z: 85
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12233730559334053123
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 897429753597555270
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12688849699247214758
+    SubobjectId: 13861816962310709492
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 4756959806808953994
+  Name: "Stair Bannister - Top"
+  Transform {
+    Location {
+      X: 144.999954
+      Y: 390.000427
+      Z: 75
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 0.7
+      Y: 1.1
+      Z: 1
+    }
+  }
+  ParentId: 12233730559334053123
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 0.74
+        B: 0.74
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5690610490455183775
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4756959806808953994
+    SubobjectId: 3624506247767188696
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
+  }
+}
+Objects {
+  Id: 2084131130883663590
+  Name: "Stair Bannister - Top"
+  Transform {
+    Location {
+      X: 144.999985
+      Y: -69.9992447
+      Z: 75
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 0.7
+      Y: 1.1
+      Z: 1
+    }
+  }
+  ParentId: 12233730559334053123
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 211821385602626091
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1751123364316479961
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 15505603493108819243
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 0.74
+        B: 0.74
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.321
+        G: 0.280875027
+        B: 0.280875027
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.713000059
+        G: 0.713000059
+        B: 0.713000059
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5690610490455183775
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2084131130883663590
+    SubobjectId: 7828552199928485556
+    InstanceId: 4607305918173464711
+    TemplateId: 11530147722464991735
   }
 }
 Objects {
@@ -55533,6 +56666,25 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17537440853108607035
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10
+            Y: 390
+            Z: -10.0000305
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
           }
         }
       }

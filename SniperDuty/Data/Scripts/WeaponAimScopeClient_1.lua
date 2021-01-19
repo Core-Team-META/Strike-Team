@@ -37,16 +37,8 @@ if not WEAPON then
     --error(script.name .. " should be part of Weapon object hierarchy.")
 end
 local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject(2)
-local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
-local ATTACK_ABILITY =  WEAPON:GetAbilities()[1]
---local ZOOM_SOUND = script:GetCustomProperty("ZoomSound"):WaitForObject()
-
--- Grabs ability again from weapon in case the client hasn't loaded the object yet
-while not Object.IsValid(RELOAD_ABILITY) or not Object.IsValid(ATTACK_ABILITY) do
-    Task.Wait()
-    RELOAD_ABILITY = WEAPON:GetAbilities()[2]
-    ATTACK_ABILITY =  WEAPON:GetAbilities()[1]
-end
+while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
 
 -- Exposed variables --
 local CAN_AIM = WEAPON:GetCustomProperty("EnableAim")
@@ -129,7 +121,7 @@ end
 function EnableScoping(player)
     if player.isDead then return end
     if WEAPON.owner ~= LOCAL_PLAYER then return end
-    if RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then return end
+    if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then return end
 
     -- Set camera scoping values
     cameraTargetDistance = ZOOM_DISTANCE
@@ -152,7 +144,7 @@ function EnableScoping(player)
         scopeInstance = World.SpawnAsset(SCOPE_TEMPLATE)
         scopeInstance.visibility = Visibility.INHERIT
         scopeInstance:AttachToLocalView(player)
-        scopeInstance.clientUserData.attackAbility = ATTACK_ABILITY
+        scopeInstance.clientUserData.attackAbility = WEAPON.clientUserData.SHOOT_ABILITY
     end
 
     -- Play scoping sound to the local player
@@ -196,7 +188,7 @@ function ResetScoping(player)
     if Object.IsValid(WEAPON) then
     if Object.IsValid(ZOOM_SOUND) and player == LOCAL_PLAYER then
     
-        if RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.CAST then
+        if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.CAST then
             ZOOM_SOUND:Play()
         end
         
@@ -291,7 +283,7 @@ Connections = {
     
     Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,
     WEAPON.unequippedEvent:Connect(OnUnequipped),
-    RELOAD_ABILITY.castEvent:Connect(OnReload),
+    WEAPON.clientUserData.RELOAD_ABILITY.castEvent:Connect(OnReload),
     script.destroyEvent:Connect(function(OBJ) 
         if(WEAPON.owner) then
             ForceReset( WEAPON.owner)

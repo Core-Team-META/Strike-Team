@@ -166,7 +166,7 @@
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 4
+            BurstDuration: 6
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {
@@ -229,18 +229,17 @@
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:aim"
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.07
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -251,23 +250,21 @@
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.005
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:none"
             }
           }
           CooldownPhaseSettings {
-            Duration: 0.16
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:none"
             }
@@ -463,8 +460,8 @@
         ChildIds: 18230547407548752521
         ChildIds: 10018712990668270082
         ChildIds: 14598254733455142836
-        ChildIds: 1876423834058843535
         ChildIds: 13383335769755894456
+        ChildIds: 1876423834058843535
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -1021,6 +1018,47 @@
         }
       }
       Objects {
+        Id: 13383335769755894456
+        Name: "GetWeaponAbilities"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SHOOT_ABILITY"
+            ObjectReference {
+              SubObjectId: 8150984623336486395
+            }
+          }
+          Overrides {
+            Name: "cs:RELOAD_ABILITY"
+            ObjectReference {
+              SubObjectId: 12936874155887733097
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3881651977092051116
+          }
+        }
+      }
+      Objects {
         Id: 1876423834058843535
         Name: "WeaponFireController"
         Transform {
@@ -1062,47 +1100,6 @@
         Script {
           ScriptAsset {
             Id: 10670409415717259294
-          }
-        }
-      }
-      Objects {
-        Id: 13383335769755894456
-        Name: "GetWeaponAbilities"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.999999881
-            Y: 0.999999881
-            Z: 1
-          }
-        }
-        ParentId: 11497954094944826332
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SHOOT_ABILITY"
-            ObjectReference {
-              SubObjectId: 8150984623336486395
-            }
-          }
-          Overrides {
-            Name: "cs:RELOAD_ABILITY"
-            ObjectReference {
-              SubObjectId: 12936874155887733097
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3881651977092051116
           }
         }
       }

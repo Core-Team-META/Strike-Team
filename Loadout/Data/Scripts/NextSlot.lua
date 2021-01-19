@@ -3,21 +3,21 @@ local DIRECTION = script:GetCustomProperty("Direction")
 local Dat = {}
 function SpawnLoadoutEquipPanel(data)
     Dat = data
-    if(sendString == "SpawnLoadoutEquipPanel") then return end
+    --if(sendString == "SpawnLoadoutEquipPanel") then return end
     sendString = "SpawnLoadoutEquipPanel"
     Events.Broadcast("ResetSort")
 end
 
 function SpawnLoadoutIconPanel(data)
     Dat = data
-    if(sendString == "SpawnLoadoutIconPanel") then return end
+    --if(sendString == "SpawnLoadoutIconPanel") then return end
     sendString = "SpawnLoadoutIconPanel"
     Events.Broadcast("ResetSort")
 end
 
 function SpawnLoadoutSkinPanel(data)
     Dat = data
-    if(sendString == "SpawnLoadoutSkinPanel") then return end
+    --if(sendString == "SpawnLoadoutSkinPanel") then return end
     sendString = "SpawnLoadoutSkinPanel"
     Events.Broadcast("ResetSort")
 end

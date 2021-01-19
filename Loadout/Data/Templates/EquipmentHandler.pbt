@@ -6340,6 +6340,8 @@
         }
         ParentId: 1768899685175524386
         ChildIds: 7211147244113034258
+        ChildIds: 11200075862270066853
+        ChildIds: 9987066493247879885
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6396,6 +6398,124 @@
           Overrides {
             Name: "cs:Description"
             String: "A smoke screen grenade that is used for cover"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 11200075862270066853
+        Name: "Flash Grendade"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12902320370261631311
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "FG"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 5395965097068736261
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18245902433934008809
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 348848729980832480
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A grenade that release a blinding light."
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 9987066493247879885
+        Name: "Health Kit"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12902320370261631311
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "MK"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 3079657998386667136
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18245902433934008809
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 12175762712311518774
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A medical kit that is used to restore health."
           }
         }
         Collidable_v2 {
@@ -7162,6 +7282,24 @@
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Military_Weapon_Grenade_003"
+      }
+    }
+    Assets {
+      Id: 348848729980832480
+      Name: "Weapon Grenade 004"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Weapon_Grenade_004"
+      }
+    }
+    Assets {
+      Id: 12175762712311518774
+      Name: "Survival First Aid 002"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Survival_Equip_FirstAid_002"
       }
     }
     Assets {

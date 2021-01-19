@@ -27,13 +27,10 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
 while not WEAPON.clientUserData.Ammo do Task.Wait() end
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
-while not Object.IsValid(RELOAD_ABILITY) do
-    Task.Wait()
-    RELOAD_ABILITY = WEAPON:GetAbilities()[2]
-end
 
 -- Exposed properties
 local AUTO_RELOAD = WEAPON:GetCustomProperty("EnableAutoReload")
@@ -57,28 +54,28 @@ function Reload()
 
     -- Makes sure that the weapon owner is the local player
     if not Object.IsValid(WEAPON) then return end
-    if WEAPON.owner ~= LOCAL_PLAYER or not RELOAD_ABILITY.owner == LOCAL_PLAYER  then return end
+    if WEAPON.owner ~= LOCAL_PLAYER or not WEAPON.clientUserData.RELOAD_ABILITY.owner == LOCAL_PLAYER  then return end
 
         -- Checks when the weapon has empty ammo to reload
         if WEAPON.clientUserData.Ammo == 0
         and not autoReloaded then
-            RELOAD_ABILITY:Activate()
+            WEAPON.clientUserData.RELOAD_ABILITY:Activate()
             SpawnReloadingAudio()
             autoReloaded = true
-            Task.Wait(RELOAD_ABILITY.castPhaseSettings.duration)
+            Task.Wait(WEAPON.clientUserData.RELOAD_ABILITY.castPhaseSettings.duration)
         end
 
         -- Interrupts the reloading animation,
         -- If the weapon is in different state and the ammo is not empty
         if WEAPON.clientUserData.Ammo > 0
-        and RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.READY
+        and WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.READY
         and autoReloaded then
-            RELOAD_ABILITY:Interrupt()
+            WEAPON.clientUserData.RELOAD_ABILITY:Interrupt()
             autoReloaded = false
         end
         
         -- Reset autoReloaded bool on ready phase
-        if RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.READY
+        if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.READY
         and autoReloaded then
             autoReloaded = false
         end
