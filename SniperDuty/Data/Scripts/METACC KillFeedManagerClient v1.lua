@@ -163,10 +163,6 @@ end
 --this is the image version of addline
 local function AddLine(killer,killed,source,extraCode)
 
-    print(tostring(killer.name))
-    print(tostring(killed.name))
-    print(tostring(source))
-    print(tostring(extraCode))
     --reset line timer
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
@@ -181,8 +177,7 @@ local function AddLine(killer,killed,source,extraCode)
     local leftTextBGOutline = leftTextBG:GetChildren()
 
     if(Object.IsValid(killer)) then --making sure the killer is real...
-                    print(tostring(leftText))
-                    print(tostring(leftText.text))
+
         leftText.text = killer.name
         if(killer == thisPlayer) then
             leftText:SetColor(SELF_COLOR)

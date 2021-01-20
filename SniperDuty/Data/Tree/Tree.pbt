@@ -22,6 +22,8 @@ Objects {
   ChildIds: 10671565427701169845
   ChildIds: 10713213961821925461
   ChildIds: 12725320108773916204
+  ChildIds: 9688000583140695377
+  ChildIds: 16684695099096413322
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +33,102 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16684695099096413322
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 11461055185683503560
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 11461055185683503560
+  Name: "SwitchMinimap"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16684695099096413322
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MiniMapPanel"
+      ObjectReference {
+        SelfId: 15538822859928374011
+      }
+    }
+    Overrides {
+      Name: "cs:KillFeedPanel"
+      ObjectReference {
+        SelfId: 1781393556377687926
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7047831786273347719
+    }
+  }
+}
+Objects {
+  Id: 9688000583140695377
+  Name: "META Kill Feed Text Box Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1687169441700092161
+      value {
+        Overrides {
+          Name: "Name"
+          String: "META Kill Feed Text Box Template"
+        }
+        Overrides {
+          Name: "UIInheritParentHeight"
+          Bool: true
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15758758255860562543
+    }
   }
 }
 Objects {

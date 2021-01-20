@@ -23,12 +23,16 @@ local PROGRESS_BAR = script:GetCustomProperty("ProgressBar"):WaitForObject()
 local AMMO_PANEL = script:GetCustomProperty("AmmoPanel"):WaitForObject()
 local AMMO_TEXT = script:GetCustomProperty("AmmoText"):WaitForObject()
 local MAX_AMMO_TEXT = script:GetCustomProperty("MaxAmmo"):WaitForObject()
+local WEAPON_NAME = script:GetCustomProperty("WeaponName"):WaitForObject()
+
 
 -- User exposed properties
 local SHOW_NUMBER = COMPONENT_ROOT:GetCustomProperty("ShowNumber")
 local SHOW_MAXIMUM = COMPONENT_ROOT:GetCustomProperty("ShowMaximum")
 local SHOW_AMMO = COMPONENT_ROOT:GetCustomProperty("ShowAmmo")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+
+local CURRENT_WEAPON
 
 -- Player GetViewedPlayer()
 -- Returns which player the local player is spectating (or themselves if not spectating)
@@ -46,7 +50,9 @@ end
 -- Returns weapon that player is using
 function GetWeapon(player)
 	for i,v in ipairs(player:GetEquipment()) do
-		if v:IsA("Weapon") and v.name ~= "Equipment" then
+        if v:IsA("Weapon") and v.name ~= "Equipment" then
+            CURRENT_WEAPON = v.name
+            WEAPON_NAME.text = CURRENT_WEAPON         
 			return v    
 		end
 	end
@@ -55,6 +61,11 @@ end
 function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
+        if (GetWeapon(player) ~= CURRENT_WEAPON) then
+            CURRENT_WEAPON = GetWeapon(player).name
+            WEAPON_NAME.text = CURRENT_WEAPON
+        end
+
 		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
             if weapon ~= nil then

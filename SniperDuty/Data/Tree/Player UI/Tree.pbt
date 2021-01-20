@@ -197,9 +197,9 @@ Objects {
         Id: 16873054259561342990
       }
       Color {
-        R: 0.824000061
-        G: 0.824000061
-        B: 0.824000061
+        R: 1
+        G: 0.32006526
+        B: 0.0141002536
         A: 1
       }
       TeamSettings {
@@ -601,9 +601,9 @@ Objects {
         Id: 16873054259561342990
       }
       Color {
-        R: 0.824000061
-        G: 0.824000061
-        B: 0.824000061
+        R: 1
+        G: 0.32006526
+        B: 0.0141002536
         A: 1
       }
       TeamSettings {
@@ -1327,6 +1327,19 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1118937344908446394
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 3073971335477009765
       value {
         Overrides {
@@ -1354,6 +1367,32 @@ Objects {
         Overrides {
           Name: "UIY"
           Float: -88.6945801
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7023243699344921936
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 0.650000036
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16562360961654750205
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 1
+          }
         }
       }
     }
@@ -1388,6 +1427,19 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1118937344908446394
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 1
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 3073971335477009765
       value {
@@ -1428,6 +1480,19 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7023243699344921936
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 0.650000036
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 15641979669957427462
       value {
         Overrides {
@@ -1437,6 +1502,19 @@ Objects {
         Overrides {
           Name: "cs:NUMBER"
           Int: 2
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16562360961654750205
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 1
+          }
         }
       }
     }
@@ -1471,6 +1549,19 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1118937344908446394
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 1
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 3073971335477009765
       value {
@@ -1507,6 +1598,19 @@ Objects {
         Overrides {
           Name: "UIY"
           Float: -228.69458
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7023243699344921936
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.373148143
+            B: 0.46875
+            A: 0.650000036
+          }
         }
       }
     }
@@ -1750,9 +1854,8 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        R: 0.575000048
-        G: 0.575000048
-        B: 0.575000048
+        G: 0.373148143
+        B: 0.46875
         A: 1
       }
       TeamSettings {
@@ -4716,6 +4819,7 @@ Objects {
   ChildIds: 5163734984623233450
   ChildIds: 14735680921445652772
   ChildIds: 11109968555379128229
+  ChildIds: 10851599696433968101
   ChildIds: 6487879344259657332
   UnregisteredParameters {
   }
@@ -4952,6 +5056,77 @@ Objects {
   InstanceHistory {
     SelfId: 5146934279901816993
     SubobjectId: 2139262766837285193
+    InstanceId: 14509025596205278547
+    TemplateId: 2594737190888074108
+  }
+}
+Objects {
+  Id: 10851599696433968101
+  Name: "TextBox"
+  Transform {
+    Location {
+      X: -214.259048
+      Y: -409.173462
+      Z: -1242.27026
+    }
+    Rotation {
+      Yaw: 13.4325018
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17709056323876254785
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Control {
+    Width: 243
+    Height: 44
+    UIX: -168.514755
+    UIY: 24
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Weapon Name"
+      Color {
+        R: 1
+        G: 0.32006526
+        B: 0.0141002536
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:right"
+      }
+      ClipTextToSize: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11109968555379128229
+    SubobjectId: 13903505791324495437
     InstanceId: 14509025596205278547
     TemplateId: 2594737190888074108
   }
