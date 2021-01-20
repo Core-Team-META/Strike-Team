@@ -46,6 +46,7 @@ Assets {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          UseParentHeight: true
           Panel {
           }
           AnchorLayout {
@@ -101,8 +102,7 @@ Assets {
             }
             Color {
               R: 1
-              G: 0.541186869
-              A: 0.347
+              G: 0.541187048
             }
             TeamSettings {
             }
@@ -156,7 +156,6 @@ Assets {
             Color {
               R: 1
               G: 0.541187048
-              A: 0.896
             }
             TeamSettings {
             }
@@ -210,7 +209,6 @@ Assets {
             Color {
               R: 1
               G: 0.541187048
-              A: 0.896
             }
             TeamSettings {
             }
@@ -264,7 +262,6 @@ Assets {
             Color {
               R: 1
               G: 0.541187048
-              A: 0.896
             }
             TeamSettings {
             }
@@ -318,7 +315,6 @@ Assets {
             Color {
               R: 1
               G: 0.541187048
-              A: 0.896
             }
             TeamSettings {
             }

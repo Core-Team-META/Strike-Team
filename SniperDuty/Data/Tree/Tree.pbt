@@ -22,7 +22,6 @@ Objects {
   ChildIds: 10671565427701169845
   ChildIds: 10713213961821925461
   ChildIds: 12725320108773916204
-  ChildIds: 9688000583140695377
   ChildIds: 16684695099096413322
   UnregisteredParameters {
   }
@@ -98,36 +97,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 7047831786273347719
-    }
-  }
-}
-Objects {
-  Id: 9688000583140695377
-  Name: "META Kill Feed Text Box Template"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1687169441700092161
-      value {
-        Overrides {
-          Name: "Name"
-          String: "META Kill Feed Text Box Template"
-        }
-        Overrides {
-          Name: "UIInheritParentHeight"
-          Bool: true
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15758758255860562543
     }
   }
 }
