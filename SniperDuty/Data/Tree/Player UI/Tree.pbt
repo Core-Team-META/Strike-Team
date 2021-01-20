@@ -5062,7 +5062,7 @@ Objects {
 }
 Objects {
   Id: 10851599696433968101
-  Name: "TextBox"
+  Name: "Weapon Name"
   Transform {
     Location {
       X: -214.259048
@@ -5423,6 +5423,12 @@ Objects {
       Name: "cs:MaxAmmo"
       ObjectReference {
         SelfId: 5146934279901816993
+      }
+    }
+    Overrides {
+      Name: "cs:WeaponName"
+      ObjectReference {
+        SelfId: 10851599696433968101
       }
     }
   }
