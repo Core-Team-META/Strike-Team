@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15034763667884300923
   Name: "StorageKeys"
   PlatformAssetType: 3
@@ -24,5 +24,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

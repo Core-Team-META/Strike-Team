@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5688180669129393107
   Name: "TrackerPassive"
   PlatformAssetType: 5
@@ -104,5 +104,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

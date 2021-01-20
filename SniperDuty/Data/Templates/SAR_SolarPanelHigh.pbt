@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2441537843311855057
   Name: "SAR_SolarPanelHigh"
   PlatformAssetType: 5
@@ -1139,5 +1139,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

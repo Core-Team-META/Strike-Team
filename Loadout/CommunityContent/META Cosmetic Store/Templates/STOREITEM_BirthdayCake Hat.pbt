@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16349476819034781297
   Name: "STOREITEM_BirthdayCake Hat"
   PlatformAssetType: 5
@@ -1428,5 +1428,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

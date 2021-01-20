@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1621168630051825723
   Name: "Generic Impact Surface Aligned"
   PlatformAssetType: 5
@@ -275,5 +275,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

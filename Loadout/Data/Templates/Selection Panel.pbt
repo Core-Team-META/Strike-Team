@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14601051092581080629
   Name: "Selection Panel"
   PlatformAssetType: 5
@@ -5731,5 +5731,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

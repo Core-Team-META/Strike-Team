@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 261387998928336166
   Name: "STORE_TagDef"
   PlatformAssetType: 3
@@ -32,5 +32,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

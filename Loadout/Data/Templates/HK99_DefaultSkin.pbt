@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1867073637100929594
   Name: "HK99_DefaultSkin"
   PlatformAssetType: 5
@@ -2822,5 +2822,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

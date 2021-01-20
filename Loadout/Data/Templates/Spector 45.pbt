@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14702439039956117713
   Name: "Spector 45"
   PlatformAssetType: 5
@@ -781,5 +781,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

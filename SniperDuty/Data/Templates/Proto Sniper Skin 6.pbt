@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17805120535617629521
   Name: "Proto Sniper Skin 6"
   PlatformAssetType: 5
@@ -4870,5 +4870,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

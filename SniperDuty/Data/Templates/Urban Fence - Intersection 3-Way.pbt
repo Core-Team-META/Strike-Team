@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11427410191449860907
   Name: "Urban Fence - Intersection 3-Way"
   PlatformAssetType: 5
@@ -328,5 +328,5 @@
       AssetId: "Urban_Fence_-_Intersection_3-Way"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

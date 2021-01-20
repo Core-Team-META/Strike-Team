@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2288437177078657055
   Name: "Levi Manteo_DefaultSkin"
   PlatformAssetType: 5
@@ -2472,5 +2472,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

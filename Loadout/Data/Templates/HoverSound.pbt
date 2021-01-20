@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17246156105325086175
   Name: "HoverSound"
   PlatformAssetType: 5
@@ -47,5 +47,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

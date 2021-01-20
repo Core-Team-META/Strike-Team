@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13699841974306009590
   Name: "The Manticore"
   PlatformAssetType: 5
@@ -800,5 +800,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

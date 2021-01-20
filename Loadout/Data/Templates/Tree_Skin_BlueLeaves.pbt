@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15801021114149823012
   Name: "Tree_Skin_BlueLeaves"
   PlatformAssetType: 5
@@ -316,5 +316,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

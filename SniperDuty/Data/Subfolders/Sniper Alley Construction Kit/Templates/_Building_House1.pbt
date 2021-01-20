@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10440365922207764419
   Name: "_Building_House1"
   PlatformAssetType: 5
@@ -12942,6 +12942,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

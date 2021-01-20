@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13322884582831236787
   Name: "HealthPack"
   PlatformAssetType: 3
@@ -19,5 +19,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

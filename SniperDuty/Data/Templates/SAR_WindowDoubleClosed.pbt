@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7658338032141156500
   Name: "SAR_WindowDoubleClosed"
   PlatformAssetType: 5
@@ -1342,5 +1342,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

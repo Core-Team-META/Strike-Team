@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17534345071700735697
   Name: "SAR_Bush (Pyramid collision)"
   PlatformAssetType: 5
@@ -136,5 +136,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

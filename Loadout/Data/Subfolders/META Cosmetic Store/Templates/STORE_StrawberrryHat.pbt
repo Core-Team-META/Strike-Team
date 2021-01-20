@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17283613654303134520
   Name: "STORE_StrawberrryHat"
   PlatformAssetType: 5
@@ -499,5 +499,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

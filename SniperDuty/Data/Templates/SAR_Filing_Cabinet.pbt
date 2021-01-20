@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6752174483607806696
   Name: "SAR_Filing Cabinet"
   PlatformAssetType: 5
@@ -711,5 +711,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

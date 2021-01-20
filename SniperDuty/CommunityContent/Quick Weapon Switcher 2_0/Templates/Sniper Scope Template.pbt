@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 180850044032765842
   Name: "Sniper Scope Template"
   PlatformAssetType: 5
@@ -832,5 +832,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

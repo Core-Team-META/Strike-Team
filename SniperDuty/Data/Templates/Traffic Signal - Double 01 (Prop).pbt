@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2784142040213087593
   Name: "Traffic Signal - Double 01 (Prop)"
   PlatformAssetType: 5
@@ -1619,5 +1619,5 @@
       AssetId: "tm_urm_trafficsignal_001_double_01"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

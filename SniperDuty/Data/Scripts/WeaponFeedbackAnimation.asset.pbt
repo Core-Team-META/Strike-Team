@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5264131641106444057
   Name: "WeaponFeedbackAnimation"
   PlatformAssetType: 3
@@ -58,5 +58,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

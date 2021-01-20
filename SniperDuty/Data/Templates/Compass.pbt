@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8004073782264411660
   Name: "Compass"
   PlatformAssetType: 5
@@ -314,5 +314,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

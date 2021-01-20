@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15834884049861067280
   Name: "Sci-fi Console_01(Prop)"
   PlatformAssetType: 5
@@ -581,5 +581,5 @@
       AssetId: "Sci-fi_Console_01_Prop_"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

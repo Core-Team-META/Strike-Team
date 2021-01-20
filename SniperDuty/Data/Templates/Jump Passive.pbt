@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1130224208874271872
   Name: "Jump Passive"
   PlatformAssetType: 5
@@ -74,5 +74,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

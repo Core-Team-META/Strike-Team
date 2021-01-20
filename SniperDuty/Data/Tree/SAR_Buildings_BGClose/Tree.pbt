@@ -1,4 +1,4 @@
-﻿Name: "SAR_Buildings_BGClose"
+Name: "SAR_Buildings_BGClose"
 RootId: 14593606999524753237
 Objects {
   Id: 1265521911396058898

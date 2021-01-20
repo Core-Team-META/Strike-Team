@@ -1,4 +1,4 @@
-﻿Name: "MainMenu"
+Name: "MainMenu"
 RootId: 16282647591966498348
 Objects {
   Id: 16055551159565496322

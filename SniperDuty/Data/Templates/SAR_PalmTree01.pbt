@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1101785705770712682
   Name: "SAR_PalmTree01"
   PlatformAssetType: 5
@@ -887,5 +887,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

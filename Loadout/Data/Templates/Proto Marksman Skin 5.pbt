@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2993531969050915480
   Name: "Proto Marksman Skin 5"
   PlatformAssetType: 5
@@ -3471,5 +3471,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

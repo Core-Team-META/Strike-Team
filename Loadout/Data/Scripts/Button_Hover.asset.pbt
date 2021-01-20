@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18056037653061824451
   Name: "Button_Hover"
   PlatformAssetType: 3
@@ -39,5 +39,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

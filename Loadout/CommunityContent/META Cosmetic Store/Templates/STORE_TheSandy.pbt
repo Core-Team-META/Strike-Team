@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12632242677559909321
   Name: "STORE_TheSandy"
   PlatformAssetType: 5
@@ -513,5 +513,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

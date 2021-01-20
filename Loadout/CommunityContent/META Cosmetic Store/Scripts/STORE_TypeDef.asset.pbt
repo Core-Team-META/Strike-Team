@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5123586854356018274
   Name: "STORE_TypeDef"
   PlatformAssetType: 3
@@ -24,5 +24,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

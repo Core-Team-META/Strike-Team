@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13344481043281462538
   Name: "STORE_CrazyEye"
   PlatformAssetType: 5
@@ -397,5 +397,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

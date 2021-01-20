@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2305783559817928116
   Name: "Rocket Launcher Reticle"
   PlatformAssetType: 5
@@ -122,5 +122,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

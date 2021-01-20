@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6924397462532719531
   Name: "BuildingProp_Bathhouse"
   PlatformAssetType: 5
@@ -115159,6 +115159,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

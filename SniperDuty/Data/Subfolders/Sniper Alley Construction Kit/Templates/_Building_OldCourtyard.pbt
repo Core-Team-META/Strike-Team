@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13055787268061547117
   Name: "_Building_OldCourtyard"
   PlatformAssetType: 5
@@ -58052,6 +58052,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10806084514945988266
   Name: "Shotgun Scope Template"
   PlatformAssetType: 5
@@ -2078,5 +2078,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

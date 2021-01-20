@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17824540796519236688
   Name: "STORE_MushroomHat"
   PlatformAssetType: 5
@@ -576,5 +576,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

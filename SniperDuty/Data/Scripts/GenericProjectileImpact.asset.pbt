@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17917920102586929323
   Name: "GenericProjectileImpact"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

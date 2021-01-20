@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17637473600633499804
   Name: "METACC Kill Feed v1"
   PlatformAssetType: 5
@@ -1676,5 +1676,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

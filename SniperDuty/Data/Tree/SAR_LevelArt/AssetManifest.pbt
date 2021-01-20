@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18393888041398592342
   Name: "Text 02: E"
   PlatformAssetType: 1

@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 14273930557382527807
   Name: "StoneSecret"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 2677493793978752599
     ParameterOverrides {

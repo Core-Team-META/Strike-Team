@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15607524785886124982
   Name: "Ambient Occlusion Post Process"
   PlatformAssetType: 20

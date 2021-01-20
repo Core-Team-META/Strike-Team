@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4527227655300702595
   Name: "HealthPackSpawn"
   PlatformAssetType: 5
@@ -1279,5 +1279,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

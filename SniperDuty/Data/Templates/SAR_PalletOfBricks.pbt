@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8492150673855688629
   Name: "SAR_PalletOfBricks"
   PlatformAssetType: 5
@@ -1141,5 +1141,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

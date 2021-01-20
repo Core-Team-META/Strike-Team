@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13828826338355416860
   Name: "EaseUI"
   PlatformAssetType: 5
@@ -40,5 +40,5 @@
     Version: "1.10.0"
     Description: "EaseUI is a utility that allows for both simple and advanced UI animations! Full customizability to you, the creator!\r\n\r\nRead the script for more information."
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

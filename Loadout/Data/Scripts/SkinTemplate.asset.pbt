@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16583515440227484556
   Name: "SkinTemplate"
   PlatformAssetType: 3
@@ -23,5 +23,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

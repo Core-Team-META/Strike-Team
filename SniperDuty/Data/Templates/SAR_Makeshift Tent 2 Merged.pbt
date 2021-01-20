@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11240786760701680834
   Name: "SAR_Makeshift Tent 2 Merged"
   PlatformAssetType: 5
@@ -903,5 +903,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

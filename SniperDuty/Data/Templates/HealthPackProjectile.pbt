@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12636969233188299035
   Name: "HealthPackProjectile"
   PlatformAssetType: 5
@@ -1066,5 +1066,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

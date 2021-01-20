@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2841223921292143395
   Name: "SAR_ChairFolding"
   PlatformAssetType: 5
@@ -891,5 +891,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

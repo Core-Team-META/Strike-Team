@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2406649152342681503
   Name: "SpawnPanels"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

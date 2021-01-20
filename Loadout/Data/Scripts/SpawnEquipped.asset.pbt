@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12933810913119640143
   Name: "SpawnEquipped"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3955954938008280501
   Name: "STORE_WinterHat"
   PlatformAssetType: 5
@@ -1399,5 +1399,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

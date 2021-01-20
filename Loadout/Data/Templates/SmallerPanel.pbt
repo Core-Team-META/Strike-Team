@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2201597676265412519
   Name: "SmallerPanel"
   PlatformAssetType: 5
@@ -1111,5 +1111,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

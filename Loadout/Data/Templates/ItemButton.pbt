@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10347852216596544345
   Name: "ItemButton"
   PlatformAssetType: 5
@@ -285,5 +285,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

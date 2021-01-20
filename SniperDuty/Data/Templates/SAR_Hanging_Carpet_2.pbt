@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10949753034564775285
   Name: "SAR_Hanging Carpet 2"
   PlatformAssetType: 5
@@ -258,5 +258,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9276269601254149364
   Name: "SkinTemplate"
   PlatformAssetType: 5
@@ -34,5 +34,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2317769231375097406
   Name: "SAR_Counter Cupboard"
   PlatformAssetType: 5
@@ -905,5 +905,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

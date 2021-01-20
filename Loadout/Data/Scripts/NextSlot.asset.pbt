@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13749621813068479416
   Name: "NextSlot"
   PlatformAssetType: 3
@@ -10,5 +10,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

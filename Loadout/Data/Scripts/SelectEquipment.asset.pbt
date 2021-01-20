@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12293597195557331910
   Name: "SelectEquipment"
   PlatformAssetType: 3
@@ -10,5 +10,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

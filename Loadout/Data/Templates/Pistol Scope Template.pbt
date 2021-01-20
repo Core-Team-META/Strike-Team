@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 743461054503906237
   Name: "Pistol Scope Template"
   PlatformAssetType: 5
@@ -1331,5 +1331,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

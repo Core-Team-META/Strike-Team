@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3476105144800096404
   Name: "Smoke VFX"
   PlatformAssetType: 5
@@ -175,5 +175,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

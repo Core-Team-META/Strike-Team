@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 7653563783437434729
   Name: "Invis"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 11217161908744906916
     ParameterOverrides {

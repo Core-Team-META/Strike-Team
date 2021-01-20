@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3067830350140804822
   Name: "SAR_Pillar_MainBuilding_Interior"
   PlatformAssetType: 5
@@ -196,5 +196,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

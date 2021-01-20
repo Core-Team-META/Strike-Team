@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13395686197451393604
   Name: "Mace_Skin"
   PlatformAssetType: 5
@@ -372,5 +372,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

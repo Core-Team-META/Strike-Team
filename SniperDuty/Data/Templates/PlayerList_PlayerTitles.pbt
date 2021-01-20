@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18164466087898996409
   Name: "PlayerList (PlayerTitles)"
   PlatformAssetType: 5
@@ -806,6 +806,6 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

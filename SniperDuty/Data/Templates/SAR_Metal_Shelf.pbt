@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15208057603242142098
   Name: "SAR_Metal Shelf"
   PlatformAssetType: 5
@@ -676,5 +676,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15360530839932118694
   Name: "SAR_Cupboard"
   PlatformAssetType: 5
@@ -1234,5 +1234,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4249091222999487622
   Name: "LargeTemple"
   PlatformAssetType: 5
@@ -43755,6 +43755,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

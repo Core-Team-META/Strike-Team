@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12787592414324135783
   Name: "Nemo_DefaultSkin"
   PlatformAssetType: 5
@@ -3140,5 +3140,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

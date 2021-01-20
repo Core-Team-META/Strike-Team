@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1969284147295928208
   Name: "Skin 5 Pistol Scope Template"
   PlatformAssetType: 5
@@ -2344,5 +2344,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

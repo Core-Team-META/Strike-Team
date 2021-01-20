@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9008609157774547856
   Name: "Default Floor"
   PlatformAssetType: 5
@@ -54,5 +54,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16369038434644438197
   Name: "SP99_Diamondisunbreakable"
   PlatformAssetType: 5
@@ -3616,5 +3616,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

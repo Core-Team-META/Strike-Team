@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6925540392791539073
   Name: "SAR_Stool"
   PlatformAssetType: 5
@@ -77,5 +77,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

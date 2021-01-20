@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4448026343870589905
   Name: "FlashVFX"
   PlatformAssetType: 5
@@ -226,5 +226,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Name: "Antti (Keppu)"
+Name: "Antti (Keppu)"
 RootId: 7420455323421467140
 Objects {
   Id: 16766469168490803283

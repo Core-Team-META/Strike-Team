@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3079657998386667136
   Name: "HealthPackWeapon"
   PlatformAssetType: 5
@@ -213,5 +213,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

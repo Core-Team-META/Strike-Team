@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15935583273310509776
   Name: "Fire Escape Template"
   PlatformAssetType: 5
@@ -1638,5 +1638,5 @@
       AssetId: "Fire_Escape_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

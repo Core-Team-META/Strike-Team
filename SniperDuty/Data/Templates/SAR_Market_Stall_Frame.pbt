@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12941988196082019395
   Name: "SAR_Market Stall Frame"
   PlatformAssetType: 5
@@ -1138,5 +1138,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

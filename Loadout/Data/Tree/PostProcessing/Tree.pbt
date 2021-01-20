@@ -1,4 +1,4 @@
-﻿Name: "PostProcessing"
+Name: "PostProcessing"
 RootId: 3163926717736356855
 Objects {
   Id: 5858963352829143114

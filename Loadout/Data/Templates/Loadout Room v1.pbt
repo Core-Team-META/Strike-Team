@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2202564448876037463
   Name: "Loadout Room v1"
   PlatformAssetType: 5
@@ -27742,5 +27742,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

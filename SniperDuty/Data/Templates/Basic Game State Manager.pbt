@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3683989391263939746
   Name: "Basic Game State Manager"
   PlatformAssetType: 5
@@ -218,5 +218,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

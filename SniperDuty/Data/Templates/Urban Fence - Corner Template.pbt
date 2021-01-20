@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2211434791818611057
   Name: "Urban Fence - Corner Template"
   PlatformAssetType: 5
@@ -392,5 +392,5 @@
       AssetId: "Urban_Fence_-_Corner_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

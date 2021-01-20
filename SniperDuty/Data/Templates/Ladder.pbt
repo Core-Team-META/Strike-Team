@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8750663241457724787
   Name: "Ladder"
   PlatformAssetType: 5
@@ -635,5 +635,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

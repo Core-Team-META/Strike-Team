@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2319619278796188213
   Name: "SAR_Office Desk"
   PlatformAssetType: 5
@@ -1407,5 +1407,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

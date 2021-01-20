@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1053337051727146120
   Name: "SwapWeapon"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

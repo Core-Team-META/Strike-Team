@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 971421982505695461
   Name: "Skin 3 Marksman Scope Template"
   PlatformAssetType: 5
@@ -2934,5 +2934,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

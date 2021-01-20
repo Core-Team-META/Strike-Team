@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8824904713453829285
   Name: "SAR_OldWasher"
   PlatformAssetType: 5
@@ -1926,5 +1926,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

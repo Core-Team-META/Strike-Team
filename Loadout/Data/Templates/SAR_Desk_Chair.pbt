@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7851518256923217038
   Name: "SAR_Desk Chair"
   PlatformAssetType: 5
@@ -1351,5 +1351,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

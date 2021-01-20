@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1998940280352757060
   Name: "Pick_Skin"
   PlatformAssetType: 5
@@ -518,5 +518,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

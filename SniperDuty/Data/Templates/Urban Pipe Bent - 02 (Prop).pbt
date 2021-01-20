@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13177932039192242218
   Name: "Urban Pipe Bent - 02 (Prop)"
   PlatformAssetType: 5
@@ -301,5 +301,5 @@
       AssetId: "Urban_Pipe_Bent_-_02__Prop_"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

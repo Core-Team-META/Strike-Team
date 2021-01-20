@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10803451839470039604
   Name: "METACC Kill Feed Line Template v1"
   PlatformAssetType: 5
@@ -118,5 +118,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

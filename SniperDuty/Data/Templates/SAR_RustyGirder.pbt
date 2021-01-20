@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15828099305223363811
   Name: "SAR_RustyGirder"
   PlatformAssetType: 5
@@ -68,5 +68,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11963944409274623524
   Name: "Sign - Pedestrian Crossing"
   PlatformAssetType: 5
@@ -285,5 +285,5 @@
       AssetId: "Sign_-_Pedestrian_Crossing"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

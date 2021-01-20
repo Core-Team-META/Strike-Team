@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17399248613924972536
   Name: "STORE_Entry Overlay v2"
   PlatformAssetType: 5
@@ -1398,5 +1398,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

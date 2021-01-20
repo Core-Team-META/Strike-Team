@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3881651977092051116
   Name: "GetWeaponAbilities"
   PlatformAssetType: 3
@@ -16,5 +16,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

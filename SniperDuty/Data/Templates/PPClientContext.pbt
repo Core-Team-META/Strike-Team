@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12236575359435198845
   Name: "PPClientContext"
   PlatformAssetType: 5
@@ -2804,5 +2804,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17044275924837826877
   Name: "Weapon Sub MG 005"
   PlatformAssetType: 9

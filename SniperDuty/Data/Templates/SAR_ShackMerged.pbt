@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12837702759071236825
   Name: "SAR_ShackMerged"
   PlatformAssetType: 5
@@ -589,5 +589,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

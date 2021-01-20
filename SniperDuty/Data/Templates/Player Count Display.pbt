@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15016807997413534948
   Name: "Player Count Display"
   PlatformAssetType: 5
@@ -467,5 +467,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

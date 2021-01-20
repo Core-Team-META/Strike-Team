@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13788023111564572860
   Name: "Rocket Proto Scope Template"
   PlatformAssetType: 5
@@ -1855,5 +1855,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

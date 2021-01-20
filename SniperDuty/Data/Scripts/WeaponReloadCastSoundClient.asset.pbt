@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7766883827523033344
   Name: "WeaponReloadCastSoundClient"
   PlatformAssetType: 3
@@ -14,5 +14,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3055012680391192135
   Name: "CentralCourtyardFountain"
   PlatformAssetType: 5
@@ -8022,6 +8022,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

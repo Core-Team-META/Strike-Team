@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17265390368267921755
   Name: "SAR_OldRefrigerator"
   PlatformAssetType: 5
@@ -776,5 +776,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

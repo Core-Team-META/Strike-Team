@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 758046536958434195
   Name: "Proto Rocket Launcher Muzzle Flash"
   PlatformAssetType: 5
@@ -542,5 +542,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2279146767242934367
   Name: "HealthPackClang"
   PlatformAssetType: 5
@@ -51,5 +51,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

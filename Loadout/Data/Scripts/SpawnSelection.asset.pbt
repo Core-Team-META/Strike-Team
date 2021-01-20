@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4807184089179660973
   Name: "SpawnSelection"
   PlatformAssetType: 3
@@ -21,5 +21,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

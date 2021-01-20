@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16296467989848624945
   Name: "Mace_Weapon"
   PlatformAssetType: 5
@@ -469,5 +469,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

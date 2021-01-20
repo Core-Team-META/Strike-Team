@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1446949125359162070
   Name: "ServerStorage"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

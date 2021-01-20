@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7849914397938662428
   Name: "SVAA2.0_WEAPON"
   PlatformAssetType: 5
@@ -1236,5 +1236,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

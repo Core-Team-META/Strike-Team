@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17797771723507111160
   Name: "Modern Weapon - Grenade 01 (Prop)"
   PlatformAssetType: 5
@@ -139,5 +139,5 @@
       AssetId: "Grenade_01"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

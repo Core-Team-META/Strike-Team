@@ -1,4 +1,4 @@
-﻿Name: "Loadout"
+Name: "Loadout"
 RootId: 6849286984252889154
 Objects {
   Id: 14595089687376466857

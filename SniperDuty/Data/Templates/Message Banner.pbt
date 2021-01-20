@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6039822344767593962
   Name: "Message Banner"
   PlatformAssetType: 5
@@ -393,5 +393,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

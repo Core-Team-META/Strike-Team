@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11914273884061333246
   Name: "Color Grading Post Process"
   PlatformAssetType: 20

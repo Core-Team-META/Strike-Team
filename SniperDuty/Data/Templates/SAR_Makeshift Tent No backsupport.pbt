@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11926887642206440485
   Name: "SAR_Makeshift Tent No backsupport"
   PlatformAssetType: 5
@@ -756,5 +756,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

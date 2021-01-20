@@ -1,4 +1,4 @@
-﻿Name: "METACC Kill Feed v1"
+Name: "METACC Kill Feed v1"
 RootId: 8582950651250965095
 Objects {
   Id: 8632052753476260839

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5300043058239177308
   Name: "Oasis"
   PlatformAssetType: 5
@@ -11345,6 +11345,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

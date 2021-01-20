@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1431288410069856033
   Name: "Points"
   PlatformAssetType: 5
@@ -643,5 +643,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

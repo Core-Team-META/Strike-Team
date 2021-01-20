@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7600216394752595274
   Name: "SAR_Sofa"
   PlatformAssetType: 5
@@ -853,5 +853,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

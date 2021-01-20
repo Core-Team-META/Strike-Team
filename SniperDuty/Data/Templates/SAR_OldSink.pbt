@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14285287897730280226
   Name: "SAR_OldSink"
   PlatformAssetType: 5
@@ -2182,5 +2182,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

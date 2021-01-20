@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3074501022160388017
   Name: "Game State Message"
   PlatformAssetType: 5
@@ -112,5 +112,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

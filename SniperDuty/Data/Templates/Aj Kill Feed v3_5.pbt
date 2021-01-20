@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14963934029540585127
   Name: "Aj Kill Feed v3.5"
   PlatformAssetType: 5
@@ -1223,5 +1223,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

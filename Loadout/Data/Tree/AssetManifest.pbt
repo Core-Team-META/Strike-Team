@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1

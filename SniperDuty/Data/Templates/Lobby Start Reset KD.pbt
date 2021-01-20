@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17154454822903296868
   Name: "Lobby Start Reset KD"
   PlatformAssetType: 5
@@ -70,5 +70,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

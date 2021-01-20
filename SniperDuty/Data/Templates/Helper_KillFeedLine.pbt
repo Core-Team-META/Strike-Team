@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1235385159574739258
   Name: "Helper_KillFeedLine"
   PlatformAssetType: 5
@@ -65,5 +65,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

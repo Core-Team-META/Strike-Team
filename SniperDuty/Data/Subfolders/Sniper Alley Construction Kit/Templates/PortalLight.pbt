@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6732894313582096450
   Name: "PortalLight"
   PlatformAssetType: 5
@@ -387,6 +387,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

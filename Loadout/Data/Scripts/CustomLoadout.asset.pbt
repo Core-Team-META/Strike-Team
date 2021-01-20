@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3021568535539515958
   Name: "CustomLoadout"
   PlatformAssetType: 3
@@ -33,5 +33,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

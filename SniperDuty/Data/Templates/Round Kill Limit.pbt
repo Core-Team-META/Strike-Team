@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10226583373665735959
   Name: "Round Kill Limit"
   PlatformAssetType: 5
@@ -84,5 +84,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

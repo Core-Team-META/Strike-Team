@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4356635183839749954
   Name: "METACC KillfeedExtraEvent v1"
   PlatformAssetType: 3
@@ -65,5 +65,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

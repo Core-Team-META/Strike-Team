@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6311522453009581627
   Name: "Crosshair 014"
   PlatformAssetType: 9

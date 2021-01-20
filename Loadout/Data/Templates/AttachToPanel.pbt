@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9715235104721715856
   Name: "AttachToPanel"
   PlatformAssetType: 5
@@ -36,5 +36,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

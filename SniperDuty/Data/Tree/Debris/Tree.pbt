@@ -1,4 +1,4 @@
-﻿Name: "Debris"
+Name: "Debris"
 RootId: 1003103207394136996
 Objects {
   Id: 10924892377665009635

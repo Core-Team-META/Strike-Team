@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9708735768881908214
   Name: "SelectLoadoutButton"
   PlatformAssetType: 5
@@ -401,5 +401,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

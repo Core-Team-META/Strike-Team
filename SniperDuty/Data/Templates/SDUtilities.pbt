@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1203951522902028190
   Name: "SDUtilities"
   PlatformAssetType: 5
@@ -98,5 +98,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

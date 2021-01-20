@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10067873773880548084
   Name: "Submachine Gun Sound Out Of Ammo"
   PlatformAssetType: 5
@@ -108,5 +108,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

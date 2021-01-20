@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5991236590661277687
   Name: "SwapSlot"
   PlatformAssetType: 3
@@ -10,5 +10,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

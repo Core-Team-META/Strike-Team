@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16895450401107492670
   Name: "Traffic Signal - Single 01 (Prop)"
   PlatformAssetType: 5
@@ -1130,5 +1130,5 @@
       AssetId: "tm_urb_trafficsignal_001_single_01"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

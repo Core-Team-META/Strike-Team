@@ -1,4 +1,4 @@
-﻿Name: "Game State Settings"
+Name: "Game State Settings"
 RootId: 15718157928396756218
 Objects {
   Id: 6826418555127655771

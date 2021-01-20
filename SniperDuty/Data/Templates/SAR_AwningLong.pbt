@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16417741162440722642
   Name: "SAR_AwningLong"
   PlatformAssetType: 5
@@ -999,5 +999,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

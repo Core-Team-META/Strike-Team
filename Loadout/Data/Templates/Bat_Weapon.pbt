@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7834147917182884450
   Name: "Bat_Weapon"
   PlatformAssetType: 5
@@ -469,5 +469,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

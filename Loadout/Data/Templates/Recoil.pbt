@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14646179931855664059
   Name: "Recoil"
   PlatformAssetType: 5
@@ -44,5 +44,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

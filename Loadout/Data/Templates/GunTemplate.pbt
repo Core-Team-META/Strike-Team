@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6697590777221597921
   Name: "GunTemplate"
   PlatformAssetType: 5
@@ -543,5 +543,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

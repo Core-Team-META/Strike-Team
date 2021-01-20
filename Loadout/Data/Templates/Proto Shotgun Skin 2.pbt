@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5431799426934041757
   Name: "Proto Shotgun Skin 2"
   PlatformAssetType: 5
@@ -2657,5 +2657,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

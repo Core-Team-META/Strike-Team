@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7456242773881952779
   Name: "SAR_CardboardBox"
   PlatformAssetType: 5
@@ -365,5 +365,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

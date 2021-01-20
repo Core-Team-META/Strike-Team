@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8688477279662119454
   Name: "Grenade Bounce Sound"
   PlatformAssetType: 5
@@ -81,5 +81,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

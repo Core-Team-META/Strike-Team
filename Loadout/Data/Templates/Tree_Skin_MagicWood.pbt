@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8015900755334290464
   Name: "Tree_Skin_MagicWood"
   PlatformAssetType: 5
@@ -323,5 +323,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

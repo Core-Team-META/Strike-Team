@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9713806164157590562
   Name: "Modern Weapon - Grenade Launcher 01 (Prop)"
   PlatformAssetType: 5
@@ -698,5 +698,5 @@
       AssetId: "Modern_Weapon_-_Grenade_Launcher_01"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

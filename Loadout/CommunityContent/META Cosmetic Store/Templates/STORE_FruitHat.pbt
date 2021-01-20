@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16062227850860057340
   Name: "STORE_FruitHat"
   PlatformAssetType: 5
@@ -4970,5 +4970,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

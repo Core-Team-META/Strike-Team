@@ -1,4 +1,4 @@
-﻿Name: "SAR_Foliage"
+Name: "SAR_Foliage"
 RootId: 7560471041159094325
 Objects {
   Id: 612199423538572622

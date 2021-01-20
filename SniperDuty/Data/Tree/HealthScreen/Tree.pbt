@@ -1,4 +1,4 @@
-﻿Name: "HealthScreen"
+Name: "HealthScreen"
 RootId: 4631372477339193968
 Objects {
   Id: 11800027962501352336

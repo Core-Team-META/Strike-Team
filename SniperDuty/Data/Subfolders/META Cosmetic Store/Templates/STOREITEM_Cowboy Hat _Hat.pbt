@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14723202232440862909
   Name: "STOREITEM_Cowboy Hat _Hat"
   PlatformAssetType: 5
@@ -811,5 +811,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

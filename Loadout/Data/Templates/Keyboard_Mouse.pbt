@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13263538361600439376
   Name: "Keyboard&Mouse"
   PlatformAssetType: 5
@@ -3311,5 +3311,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

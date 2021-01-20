@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6678017587492787165
   Name: "MinimapLabel"
   PlatformAssetType: 5
@@ -66,5 +66,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

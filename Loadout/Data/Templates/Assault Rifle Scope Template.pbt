@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15731763832375897749
   Name: "Assault Rifle Scope Template"
   PlatformAssetType: 5
@@ -2085,5 +2085,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

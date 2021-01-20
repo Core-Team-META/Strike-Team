@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4196459096957492371
   Name: "SAR_Ventilation System"
   PlatformAssetType: 5
@@ -1580,5 +1580,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

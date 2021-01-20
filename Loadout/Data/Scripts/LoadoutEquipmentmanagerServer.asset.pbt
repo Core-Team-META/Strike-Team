@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10240097888301914466
   Name: "LoadoutEquipmentmanagerServer"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

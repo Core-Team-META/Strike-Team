@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8560337618291391252
   Name: "SD Loadout UI Container 3"
   PlatformAssetType: 5
@@ -23421,5 +23421,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

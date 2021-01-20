@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13621518803226842666
   Name: "SAR_Flourescent Light "
   PlatformAssetType: 5
@@ -756,5 +756,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

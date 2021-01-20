@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1325425935388495171
   Name: "STOREITEM_Chef Hat"
   PlatformAssetType: 5
@@ -925,5 +925,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

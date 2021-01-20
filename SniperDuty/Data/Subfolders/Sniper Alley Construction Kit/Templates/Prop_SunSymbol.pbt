@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1283696612707219620
   Name: "Prop_SunSymbol"
   PlatformAssetType: 5
@@ -1983,6 +1983,6 @@
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
   DirectlyPublished: true
 }

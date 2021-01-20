@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 325116006820559383
   Name: "SAR_Door02"
   PlatformAssetType: 5
@@ -90,5 +90,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

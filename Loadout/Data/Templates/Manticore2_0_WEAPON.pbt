@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11947651157392943754
   Name: "Manticore2.0_WEAPON"
   PlatformAssetType: 5
@@ -943,5 +943,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

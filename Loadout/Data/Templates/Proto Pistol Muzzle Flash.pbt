@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7611313799014583274
   Name: "Proto Pistol Muzzle Flash"
   PlatformAssetType: 5
@@ -255,5 +255,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15758758255860562543
   Name: "META Kill Feed Text Box Template"
   PlatformAssetType: 5
@@ -395,5 +395,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

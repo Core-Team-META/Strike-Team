@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8336450010489643301
   Name: "SAR_Pallet"
   PlatformAssetType: 5
@@ -505,5 +505,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3238440265067578561
   Name: "Whitebox Wall 01 - Window 2x Arch Template"
   PlatformAssetType: 5
@@ -165,5 +165,5 @@
       AssetId: "Whitebox_Wall_01_-_Window_2x_Arch_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

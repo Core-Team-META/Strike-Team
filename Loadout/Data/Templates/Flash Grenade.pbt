@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5395965097068736261
   Name: "Flash Grenade"
   PlatformAssetType: 5
@@ -218,5 +218,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

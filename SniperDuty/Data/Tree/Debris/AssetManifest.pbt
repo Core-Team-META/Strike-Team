@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12977585700991343703
   Name: "Decal Street Litter 01"
   PlatformAssetType: 14

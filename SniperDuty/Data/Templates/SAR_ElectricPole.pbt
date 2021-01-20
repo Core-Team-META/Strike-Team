@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17971326797238061850
   Name: "SAR_ElectricPole"
   PlatformAssetType: 5
@@ -2815,5 +2815,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

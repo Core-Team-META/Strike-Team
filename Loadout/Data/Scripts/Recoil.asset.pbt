@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17374269570626674164
   Name: "Recoil"
   PlatformAssetType: 3
@@ -28,5 +28,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

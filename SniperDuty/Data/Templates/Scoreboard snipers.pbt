@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10474175560297017285
   Name: "Scoreboard snipers"
   PlatformAssetType: 5
@@ -1266,5 +1266,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }
