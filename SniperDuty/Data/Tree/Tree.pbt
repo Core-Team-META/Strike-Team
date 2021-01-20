@@ -19,9 +19,9 @@ Objects {
   ChildIds: 15900364157994414074
   ChildIds: 4565846863626438544
   ChildIds: 15084389731420460127
+  ChildIds: 12725320108773916204
   ChildIds: 10671565427701169845
   ChildIds: 10713213961821925461
-  ChildIds: 12725320108773916204
   ChildIds: 16684695099096413322
   UnregisteredParameters {
   }
@@ -98,6 +98,58 @@ Objects {
     ScriptAsset {
       Id: 7047831786273347719
     }
+  }
+}
+Objects {
+  Id: 10713213961821925461
+  Name: "Roaming Camera"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14615287023044260272
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Roaming Camera"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10441457064630480018
+    }
+  }
+}
+Objects {
+  Id: 10671565427701169845
+  Name: "Blake"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Blake"
   }
 }
 Objects {
@@ -456,7 +508,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true
@@ -29556,58 +29608,6 @@ Objects {
     SubobjectId: 6988398428853484722
     InstanceId: 4185106899347237523
     TemplateId: 17101872842520397377
-  }
-}
-Objects {
-  Id: 10713213961821925461
-  Name: "Roaming Camera"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14615287023044260272
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Roaming Camera"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10441457064630480018
-    }
-  }
-}
-Objects {
-  Id: 10671565427701169845
-  Name: "Blake"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Blake"
   }
 }
 Objects {

@@ -3,7 +3,7 @@ local TeamOnly = script:GetCustomProperty("TeamOnly")
 local CheckEnemys = script:GetCustomProperty("CheckEnemys")
 
 function RayCheck(player,otherplayer)
-    local ray = World.Raycast(player:GetViewWorldPosition()+Vector3.UP*100, otherplayer:GetViewWorldPosition()+Vector3.UP*100, {ignorePlayers = true})
+    local ray = World.Raycast(player:GetWorldPosition()+Vector3.UP*100, otherplayer:GetWorldPosition()+Vector3.UP*100, {ignorePlayers = true})
     if not ray then return true end
 end
 
@@ -48,5 +48,6 @@ function Tick()
             end
         end)            
     end
+    Events.Broadcast("PlayersInViewUpdated")
 end
 

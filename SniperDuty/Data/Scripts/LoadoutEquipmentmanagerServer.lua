@@ -62,6 +62,7 @@ function equipItem(player,equipstring,slot)
     player.serverUserData.Weapons[slot.."Weapon"] = equipment
     if(slot ~= "Equipment" and slot ~= "Perk" ) then
         Events.Broadcast("AddWeaponToBackPack", player, equipment, item.data.Hoister, {rotation = item.data.Rotation_Offset})
+        equipment.name = item.data.name
     end
 end
 
@@ -78,16 +79,16 @@ function EquipPlayer(player)
     player:SetResource("WeaponSlot", 1)
     local starterEquipmentitem = _G["DataBase"]:ReturnEquipmentById("SK")
     local starterEquipment = starterEquipmentitem:SpawnEquipment()
-    
-
-    
-    
+    starterEquipment.name = "Equipment"
     starterEquipment:Equip(player)
     player.serverUserData.Weapons.EquipmentWeapon.name = "Equipment"
     player.serverUserData.Weapons.EquipmentWeapon:Equip(player)
     player.serverUserData.Weapons.PerkWeapon:Equip(player)
+    player.serverUserData.Weapons.PerkWeapon.name = "Equipment"
+
     Task.Wait()
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
+
     
 
     ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", EquipString)

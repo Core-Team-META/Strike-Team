@@ -108,5 +108,5 @@ end
 
 -- Initialize
 Events.Connect("AddKillFeedKill_Internal", OnPlayerDied)
-KILL_ICON.isVisible = false
-COMBO_LABEL.isVisible = false
+KILL_ICON.visibility = Visibility.FORCE_OFF
+COMBO_LABEL.visibility = Visibility.FORCE_OFF

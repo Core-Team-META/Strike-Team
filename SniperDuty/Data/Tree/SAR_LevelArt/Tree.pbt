@@ -112407,7 +112407,12 @@ Objects {
   ChildIds: 10123358124509633263
   ChildIds: 18270745232081809898
   ChildIds: 18064887883616089938
-  ChildIds: 17447229967284491520
+  ChildIds: 7648787282851279454
+  ChildIds: 43104547072909729
+  ChildIds: 10674252677873963998
+  ChildIds: 6906396016585131150
+  ChildIds: 2571584494613262146
+  ChildIds: 16523579075801222266
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112416,110 +112421,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 17447229967284491520
-  Name: "MergedModel"
-  Transform {
-    Location {
-      X: -350
-      Y: 2600
-      Z: -500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4118424550046766430
-  ChildIds: 43104547072909729
-  ChildIds: 10674252677873963998
-  ChildIds: 6906396016585131150
-  ChildIds: 2571584494613262146
-  ChildIds: 16523579075801222266
-  ChildIds: 7648787282851279454
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    Model {
-    }
-  }
-}
-Objects {
-  Id: 7648787282851279454
-  Name: "SAR_PalmTree02"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17447229967284491520
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4157976811336164832
-      value {
-        Overrides {
-          Name: "DisableDistanceFieldLighting"
-          Bool: true
-        }
-        Overrides {
-          Name: "DisableCastShadows"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7904855526696816715
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_PalmTree02"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1162.34546
-            Y: -1863.87988
-            Z: 7.86547852
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -0.569057167
-            Yaw: -98.8460388
-            Roll: -3.65146112
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8075013033666856258
-    }
   }
 }
 Objects {
@@ -112532,7 +112433,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17447229967284491520
+  ParentId: 4118424550046766430
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112563,15 +112464,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1134.72083
-            Y: -3103.49902
-            Z: 7.86547852
+            X: -1484.72083
+            Y: -503.499023
+            Z: -492.134521
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -170.402878
+            Yaw: -170.402863
             Roll: 3.64474106
           }
         }
@@ -112608,7 +112509,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17447229967284491520
+  ParentId: 4118424550046766430
   TemplateInstance {
     ParameterOverrideMap {
       key: 4157976811336164832
@@ -112633,15 +112534,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -56.1445313
-            Y: -3097.24121
-            Z: 7.86547852
+            X: -406.144531
+            Y: -497.241211
+            Z: -492.134521
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 81.4682159
+            Yaw: 81.4682083
           }
         }
         Overrides {
@@ -112669,7 +112570,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17447229967284491520
+  ParentId: 4118424550046766430
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112700,9 +112601,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1050.03735
-            Y: -3090.82666
-            Z: 7.86547852
+            X: 700.037354
+            Y: -490.82666
+            Z: -492.134521
           }
         }
         Overrides {
@@ -112737,7 +112638,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17447229967284491520
+  ParentId: 4118424550046766430
   TemplateInstance {
     ParameterOverrideMap {
       key: 4157976811336164832
@@ -112762,9 +112663,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1022.44995
-            Y: -1863.87988
-            Z: 7.86547852
+            X: 672.449951
+            Y: 736.120117
+            Z: -492.134521
           }
         }
         Overrides {
@@ -112805,21 +112706,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17447229967284491520
+  ParentId: 4118424550046766430
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 4157976811336164832
-      value {
-        Overrides {
-          Name: "DisableDistanceFieldLighting"
-          Bool: true
-        }
-        Overrides {
-          Name: "DisableCastShadows"
-          Bool: true
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 7904855526696816715
       value {
@@ -112830,9 +112718,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -56.1445313
-            Y: -1863.87988
-            Z: 7.86547852
+            X: -406.144531
+            Y: 736.120117
+            Z: -492.134521
           }
         }
         Overrides {
@@ -112843,12 +112731,52 @@ Objects {
             Roll: 6.42402426e-07
           }
         }
+      }
+    }
+    TemplateAsset {
+      Id: 8075013033666856258
+    }
+  }
+}
+Objects {
+  Id: 7648787282851279454
+  Name: "SAR_PalmTree02"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4118424550046766430
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7904855526696816715
+      value {
         Overrides {
-          Name: "Scale"
+          Name: "Name"
+          String: "SAR_PalmTree02"
+        }
+        Overrides {
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: -1512.34546
+            Y: 736.120117
+            Z: -492.134521
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.569057167
+            Yaw: -98.8460464
+            Roll: -3.6514616
           }
         }
       }

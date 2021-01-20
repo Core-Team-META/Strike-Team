@@ -50,9 +50,7 @@ end
 -- Returns weapon that player is using
 function GetWeapon(player)
 	for i,v in ipairs(player:GetEquipment()) do
-        if v:IsA("Weapon") and v.name ~= "Equipment" then
-            CURRENT_WEAPON = v.name
-            WEAPON_NAME.text = CURRENT_WEAPON         
+        if v.name ~= "Equipment" then       
 			return v    
 		end
 	end
@@ -61,15 +59,15 @@ end
 function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
-        if (GetWeapon(player) ~= CURRENT_WEAPON) then
-            CURRENT_WEAPON = GetWeapon(player).name
-            WEAPON_NAME.text = CURRENT_WEAPON
+        if (GetWeapon(player) ~= CURRENT_WEAPON)  then
+            CURRENT_WEAPON = GetWeapon(player) 
+            WEAPON_NAME.text = CURRENT_WEAPON.name or ""
         end
 
 		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
             if weapon ~= nil then
-                while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
+                --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
 
                 AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo) or weapon.currentAmmo
                 MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo

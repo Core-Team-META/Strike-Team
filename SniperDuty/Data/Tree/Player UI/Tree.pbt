@@ -5088,10 +5088,10 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Control {
-    Width: 243
+    Width: 213
     Height: 44
-    UIX: -168.514755
-    UIY: 24
+    UIX: 36.3090363
+    UIY: -246.0755
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5105,16 +5105,16 @@ Objects {
         B: 0.0141002536
         A: 1
       }
-      Size: 20
+      Size: 12
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
