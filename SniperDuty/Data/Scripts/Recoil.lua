@@ -1,4 +1,4 @@
-﻿WEAPON = script:FindAncestorByType("Weapon")
+WEAPON = script:FindAncestorByType("Weapon")
 LOCAL_PLAYER = Game.GetLocalPlayer()
 assert(WEAPON, "Please Add to the child of a weapon")
 local RECOIL_DIRECTION = script:GetCustomProperty("RECOIL_DIRECTION")

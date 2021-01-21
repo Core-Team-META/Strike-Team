@@ -1,4 +1,4 @@
-﻿local EQUIPMENT = script:GetCustomProperty("HealthPassive"):WaitForObject()
+local EQUIPMENT = script:GetCustomProperty("HealthPassive"):WaitForObject()
 local DEFAULT_HEALTH = script:GetCustomProperty("DefaultHealth")
 local BOOSTED_HEALTH = script:GetCustomProperty("BoostedHealth")
 

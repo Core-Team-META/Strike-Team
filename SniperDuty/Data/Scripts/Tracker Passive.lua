@@ -1,4 +1,4 @@
-﻿local EQUIPMENT = script:GetCustomProperty("TrackerPassive"):WaitForObject()
+local EQUIPMENT = script:GetCustomProperty("TrackerPassive"):WaitForObject()
 local TRACKER_TRAIL_TEMPLATE = script:GetCustomProperty("TrackerTrail")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 

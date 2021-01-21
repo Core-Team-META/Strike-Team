@@ -1,4 +1,4 @@
-﻿_G["EquipmentData"] = {}
+_G["EquipmentData"] = {}
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local Equipment = require(script:GetCustomProperty("Equipment"))
 

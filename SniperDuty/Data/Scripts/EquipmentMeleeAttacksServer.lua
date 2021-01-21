@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2020 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -51,10 +51,10 @@ function Tick()
 end
 
 function CalculateBackStab(player,damage)
-    local playerLookDirection = player:GetViewWorldRotation() * Vector3.FORWARD
-    local sourceLookDirection = damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD
-    if((playerLookDirection .. sourceLookDirection) >=  .8) then
-        damage.amount = 100
+    local playerLookDirection = (player:GetViewWorldRotation() * Vector3.FORWARD ) * (Vector3.ONE - Vector3.UP) 
+    local sourceLookDirection = (damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD)  *  (Vector3.ONE - Vector3.UP) 
+    if((playerLookDirection .. sourceLookDirection) >=  .6) then
+        damage.amount = 150
         damage.sourcePlayer:AddResource("Backstab", 1)
     end
 end

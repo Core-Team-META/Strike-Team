@@ -1,4 +1,4 @@
-﻿local MAX_AMMO                = script:GetCustomProperty("MaxAmmo")
+local MAX_AMMO                = script:GetCustomProperty("MaxAmmo")
 local OUT_OF_AMMO             = script:GetCustomProperty("OutOfAmmo")
 local RELOAD_SOUND            = script:GetCustomProperty("RELOAD_SOUND")
 

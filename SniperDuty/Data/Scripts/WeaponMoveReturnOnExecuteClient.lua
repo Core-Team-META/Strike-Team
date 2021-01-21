@@ -1,4 +1,4 @@
-﻿local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
+local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local PARENT = script.parent
 
 local MOVE_OFFSET = script:GetCustomProperty("LocalMoveOffset")

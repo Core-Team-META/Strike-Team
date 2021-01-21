@@ -19,7 +19,7 @@ Assets {
         ChildIds: 16796209494590666413
         ChildIds: 809222880439079256
         ChildIds: 15852771892540374359
-        Lifespan: 6
+        Lifespan: 4
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -60,7 +60,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Hold Duration"
-            Float: 4
+            Float: 2
           }
           Overrides {
             Name: "bp:Effect Strength"
@@ -77,7 +77,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Unbounded"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "bp:Volume Type"
@@ -135,11 +135,8 @@ Assets {
           AutoPlay: true
           Volume: 1
           Falloff: 200
-          Radius: 1000
-          EnableOcclusion: true
+          Radius: 100000
           FadeInTime: 1
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -186,10 +183,7 @@ Assets {
             Pitch: 568.517822
             Volume: 1
             Falloff: 1000
-            Radius: 1000
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
+            Radius: 100000
           }
         }
       }

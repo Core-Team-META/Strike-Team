@@ -1,4 +1,4 @@
-﻿local EQUIPMENT = script:GetCustomProperty("SteadyPassive"):WaitForObject()
+local EQUIPMENT = script:GetCustomProperty("SteadyPassive"):WaitForObject()
 local SPREAD_MODIFIER = script:GetCustomProperty("SpreadModifier")
 
 function OnEquip(equipment, player)

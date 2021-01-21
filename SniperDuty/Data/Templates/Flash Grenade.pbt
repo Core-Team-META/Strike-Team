@@ -195,7 +195,7 @@ Assets {
           Overrides {
             Name: "cs:FlashVFX"
             AssetReference {
-              Id: 4448026343870589905
+              Id: 16020967293678494
             }
           }
         }

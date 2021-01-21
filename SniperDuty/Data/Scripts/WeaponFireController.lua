@@ -1,4 +1,4 @@
-﻿local STOP_BURST = script:GetCustomProperty("STOP_BURST")
+local STOP_BURST = script:GetCustomProperty("STOP_BURST")
 local BURST_COUNT = script:GetCustomProperty("BURST_COUNT")
 local PRIMARYFIRE = script:GetCustomProperty("PRIMARYFIRE")
 --local RELOAD = script:GetCustomProperty("RELOAD")

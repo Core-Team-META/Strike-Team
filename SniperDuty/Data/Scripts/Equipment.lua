@@ -1,4 +1,4 @@
-﻿local Equipment = {} 
+local Equipment = {} 
 Equipment.__index = Equipment
 
 function Equipment.New(data)

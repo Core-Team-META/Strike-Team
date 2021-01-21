@@ -1,4 +1,4 @@
-﻿local EQUIPMENT = script:FindAncestorByType("Equipment")
+local EQUIPMENT = script:FindAncestorByType("Equipment")
 EQUIPMENT.serverUserData.KillEvents = {} 
 
 function ActivateRegen(player, damage)

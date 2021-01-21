@@ -1,4 +1,4 @@
-﻿-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 -- Client Side Weapon Animations
 -- Author: Morticai - Team Meta
 -- Modified and butchered by Mucusinator - Team Meta
