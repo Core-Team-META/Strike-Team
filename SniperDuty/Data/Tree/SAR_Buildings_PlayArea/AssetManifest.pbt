@@ -782,6 +782,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7407234558516877871
+  Name: "Wood Planks Beveled Raised 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
+  }
+}
+Assets {
   Id: 6753872738224760520
   Name: "Fantasy Castle Bannister 01 - Straight"
   PlatformAssetType: 1
