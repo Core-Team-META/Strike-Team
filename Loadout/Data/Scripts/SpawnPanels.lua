@@ -80,9 +80,9 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     local newpanel = World.SpawnAsset(panelType,{parent = PARENT})
         newpanel.y = ((index-1)*200) + 5
     local Button = newpanel:GetCustomProperty("BUTTON"):WaitForObject()
-    Button.isInteractable = false
+
     if not locked then 
-        Button.isInteractable = true
+        --Button.isInteractable = true
         newpanel.clientUserData.ButtonEvent = Button.pressedEvent:Connect(function() 
             if os.clock() - LastPressed > .1 then
                 LastPressed = os.clock()
@@ -97,6 +97,8 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             local Lock =  newpanel:GetCustomProperty("PadLock"):WaitForObject()
             Lock:Destroy()
         end
+    else
+        Button:SetPressedColor( Button:GetHoveredColor())
     end
     newpanel.clientUserData.HoverEvent = Button.hoveredEvent:Connect(function() 
             if(skin) then item:EquipSkinByID(skin.id) end

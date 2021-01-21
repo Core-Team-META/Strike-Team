@@ -31,7 +31,7 @@ Assets {
           Width: 150
           Height: 75
           UIX: -66.6159668
-          UIY: -100
+          UIY: -158.69458
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -155,9 +155,8 @@ Assets {
               Id: 3763584104380248150
             }
             Color {
-              R: 0.548000038
-              G: 0.548000038
-              B: 0.548000038
+              G: 0.373148143
+              B: 0.46875
               A: 1
             }
             TeamSettings {
@@ -217,9 +216,8 @@ Assets {
             Brush {
             }
             Color {
-              R: 0.548000038
-              G: 0.548000038
-              B: 0.548000038
+              G: 0.373148143
+              B: 0.46875
               A: 1
             }
             TeamSettings {
@@ -278,10 +276,9 @@ Assets {
               Id: 3827265796245897469
             }
             Color {
-              R: 0.564
-              G: 0.564
-              B: 0.564
-              A: 0.522
+              G: 0.373148143
+              B: 0.46875
+              A: 0.650000036
             }
             TeamSettings {
             }
@@ -322,7 +319,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:NUMBER"
-            Int: 1
+            Int: 2
           }
           Overrides {
             Name: "cs:TEXT"
@@ -338,7 +335,7 @@ Assets {
           }
           Overrides {
             Name: "cs:TYPE"
-            String: "Primary"
+            String: "Secondary"
           }
         }
         Collidable_v2 {

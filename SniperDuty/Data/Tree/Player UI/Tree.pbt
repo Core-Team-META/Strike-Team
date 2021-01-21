@@ -1327,19 +1327,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1118937344908446394
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 3073971335477009765
       value {
         Overrides {
@@ -1366,33 +1353,20 @@ Objects {
         }
         Overrides {
           Name: "UIY"
-          Float: -88.6945801
+          Float: -88.3493042
         }
       }
     }
     ParameterOverrideMap {
-      key: 7023243699344921936
+      key: 15641979669957427462
       value {
         Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 0.650000036
-          }
+          Name: "cs:NUMBER"
+          Int: 1
         }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16562360961654750205
-      value {
         Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 1
-          }
+          Name: "cs:TYPE"
+          String: "Primary"
         }
       }
     }
@@ -1428,19 +1402,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1118937344908446394
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 3073971335477009765
       value {
         Overrides {
@@ -1459,61 +1420,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -80.9902802
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "UIX"
-          Float: -66.6159668
-        }
-        Overrides {
-          Name: "UIY"
-          Float: -158.69458
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7023243699344921936
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 0.650000036
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15641979669957427462
-      value {
-        Overrides {
-          Name: "cs:TYPE"
-          String: "Secondary"
-        }
-        Overrides {
-          Name: "cs:NUMBER"
-          Int: 2
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16562360961654750205
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 1
           }
         }
       }
@@ -1550,19 +1456,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1118937344908446394
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 3073971335477009765
       value {
         Overrides {
@@ -1584,32 +1477,25 @@ Objects {
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
           Name: "UIX"
           Float: -66.6159668
         }
         Overrides {
           Name: "UIY"
-          Float: -228.69458
+          Float: -229.78363
         }
       }
     }
     ParameterOverrideMap {
-      key: 7023243699344921936
+      key: 10466128818922537325
       value {
         Overrides {
           Name: "Color"
           Color {
-            G: 0.373148143
-            B: 0.46875
-            A: 0.650000036
+            R: 1
+            G: 1
+            B: 1
+            A: 1
           }
         }
       }
@@ -1618,18 +1504,12 @@ Objects {
       key: 15641979669957427462
       value {
         Overrides {
-          Name: "cs:TYPE"
-          String: "Melee"
-        }
-        Overrides {
           Name: "cs:NUMBER"
           Int: 3
         }
         Overrides {
-          Name: "cs:Offset"
-          Vector2 {
-            Y: -20
-          }
+          Name: "cs:TYPE"
+          String: "Melee"
         }
       }
     }
@@ -5105,7 +4985,7 @@ Objects {
         B: 0.0141002536
         A: 1
       }
-      Size: 12
+      Size: 14
       Justification {
         Value: "mc:etextjustify:center"
       }
