@@ -67805,16 +67805,16 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -113.856934
-      Y: -113.856934
+      X: -112.4375
+      Y: -112.4375
       Z: -10
     }
     Rotation {
       Yaw: -45
     }
     Scale {
-      X: 0.7
-      Y: 9.6
+      X: 0.612923563
+      Y: 9.32875919
       Z: 0.2
     }
   }
@@ -67870,8 +67870,8 @@ Objects {
       Yaw: -45
     }
     Scale {
-      X: 0.574326
-      Y: 0.200000018
+      X: 0.548375726
+      Y: 0.200000033
       Z: 2.60000014
     }
   }
@@ -67921,14 +67921,14 @@ Objects {
     Location {
       X: -110.047363
       Y: -114.738281
-      Z: 255
+      Z: 261.797058
     }
     Rotation {
       Yaw: -45
     }
     Scale {
-      X: 0.58450067
-      Y: 9.49999332
+      X: 0.618502796
+      Y: 9.33491421
       Z: 0.25
     }
   }
@@ -68198,7 +68198,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
