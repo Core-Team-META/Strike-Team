@@ -112641,19 +112641,6 @@ Objects {
   ParentId: 4118424550046766430
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4157976811336164832
-      value {
-        Overrides {
-          Name: "DisableDistanceFieldLighting"
-          Bool: true
-        }
-        Overrides {
-          Name: "DisableCastShadows"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -112671,14 +112658,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
