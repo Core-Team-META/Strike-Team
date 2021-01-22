@@ -1,4 +1,4 @@
-﻿local SPAWNOBJECT = script:GetCustomProperty("SPAWNOBJECT")
+local SPAWNOBJECT = script:GetCustomProperty("SPAWNOBJECT")
 local IMPACTSOUND = script:GetCustomProperty("IMPACTSOUND")
 
 local WEAPON = script:FindAncestorByType('Weapon')
@@ -11,7 +11,7 @@ function Complete( impactTransform )
     local impactrot = impactTransform:GetRotation()
     local Spawn = World.SpawnAsset(SPAWNOBJECT, {position = impactpos, rotation = Rotation.New(0,0,impactrot.z)  })
     if WEAPON.owner then
-        Spawn.serverUserData.team = WEAPON.owner.team
+        Spawn:SetNetworkedCustomProperty("Team", WEAPON.owner.team)
     end
 end
 

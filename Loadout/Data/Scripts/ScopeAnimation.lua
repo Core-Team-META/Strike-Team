@@ -1,4 +1,4 @@
-﻿local ROOT = script:GetCustomProperty("Root"):WaitForObject()
+local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local GEO = script:GetCustomProperty("GEO"):WaitForObject()
 local PositionOffset = script:GetCustomProperty("PositionOffset")
 local RotationOffset = script:GetCustomProperty("RotationOffset")

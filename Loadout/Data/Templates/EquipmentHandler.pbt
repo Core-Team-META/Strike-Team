@@ -343,6 +343,10 @@ Assets {
               Id: 17851473022404192999
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -421,6 +425,10 @@ Assets {
               Id: 2790165356747472300
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -436,7 +444,7 @@ Assets {
       }
       Objects {
         Id: 15949626322732622456
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -460,6 +468,10 @@ Assets {
               Id: 9759507413622050223
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -475,7 +487,7 @@ Assets {
       }
       Objects {
         Id: 14290165114766666960
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -498,6 +510,10 @@ Assets {
             AssetReference {
               Id: 18423642364815085402
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -713,6 +729,10 @@ Assets {
               Id: 18167011984518134951
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -791,6 +811,10 @@ Assets {
               Id: 3319980082879508408
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -806,7 +830,7 @@ Assets {
       }
       Objects {
         Id: 18352586635243585147
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -830,6 +854,10 @@ Assets {
               Id: 16054986377230682878
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -845,7 +873,7 @@ Assets {
       }
       Objects {
         Id: 4593871113840028907
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -868,6 +896,10 @@ Assets {
             AssetReference {
               Id: 192938860807147413
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -1039,6 +1071,10 @@ Assets {
               Id: 13067401942076487199
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1117,6 +1153,10 @@ Assets {
               Id: 1345047776282016116
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1132,7 +1172,7 @@ Assets {
       }
       Objects {
         Id: 14736571128427096552
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -1156,6 +1196,10 @@ Assets {
               Id: 5021078027896375540
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1171,7 +1215,7 @@ Assets {
       }
       Objects {
         Id: 11138863980903535024
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -1194,6 +1238,10 @@ Assets {
             AssetReference {
               Id: 2413038413339510725
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -1361,6 +1409,10 @@ Assets {
               Id: 5431799426934041757
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1439,6 +1491,10 @@ Assets {
               Id: 1386624627940022906
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1454,7 +1510,7 @@ Assets {
       }
       Objects {
         Id: 15028357033270769529
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -1478,6 +1534,10 @@ Assets {
               Id: 10603368743983156177
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1493,7 +1553,7 @@ Assets {
       }
       Objects {
         Id: 1330842254014705300
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -1516,6 +1576,10 @@ Assets {
             AssetReference {
               Id: 16340710139968181918
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -1683,6 +1747,10 @@ Assets {
               Id: 17856534112721539058
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1761,6 +1829,10 @@ Assets {
               Id: 7861347429056429158
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1776,7 +1848,7 @@ Assets {
       }
       Objects {
         Id: 6104757118545260935
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -1800,6 +1872,10 @@ Assets {
               Id: 2993531969050915480
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1815,7 +1891,7 @@ Assets {
       }
       Objects {
         Id: 15841477914011716528
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -1838,6 +1914,10 @@ Assets {
             AssetReference {
               Id: 374738431442973425
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -2009,6 +2089,10 @@ Assets {
               Id: 6773491522653250890
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2087,6 +2171,10 @@ Assets {
               Id: 3087065121514230297
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2102,7 +2190,7 @@ Assets {
       }
       Objects {
         Id: 17176433073047961143
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -2126,6 +2214,10 @@ Assets {
               Id: 3727421843460108403
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2141,7 +2233,7 @@ Assets {
       }
       Objects {
         Id: 14490382481188861381
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -2164,6 +2256,10 @@ Assets {
             AssetReference {
               Id: 17805120535617629521
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -2331,6 +2427,10 @@ Assets {
               Id: 11623540953029695393
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2409,6 +2509,10 @@ Assets {
               Id: 17615903694473364786
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2424,7 +2528,7 @@ Assets {
       }
       Objects {
         Id: 18321665495611670854
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -2448,6 +2552,10 @@ Assets {
               Id: 1889372568210474308
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2463,7 +2571,7 @@ Assets {
       }
       Objects {
         Id: 16840370703545334633
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -2486,6 +2594,10 @@ Assets {
             AssetReference {
               Id: 3926013586283109924
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -2685,6 +2797,10 @@ Assets {
               Id: 1897903605318222255
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2763,6 +2879,10 @@ Assets {
               Id: 620843233732755758
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2778,7 +2898,7 @@ Assets {
       }
       Objects {
         Id: 14922265487132919700
-        Name: "LOL"
+        Name: "Legion of Light"
         Transform {
           Location {
           }
@@ -2802,6 +2922,10 @@ Assets {
               Id: 18123346164003048593
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2817,7 +2941,7 @@ Assets {
       }
       Objects {
         Id: 10235649203003544940
-        Name: "DD"
+        Name: "Dark Devout"
         Transform {
           Location {
           }
@@ -2840,6 +2964,10 @@ Assets {
             AssetReference {
               Id: 2876351170322310836
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -3022,11 +3150,11 @@ Assets {
         ChildIds: 18132039458372540321
         ChildIds: 8589567865329961533
         ChildIds: 5824590149004115180
-        ChildIds: 17403568383249580417
         ChildIds: 3660080077049497268
         ChildIds: 3994927184366818071
         ChildIds: 5116382499787745962
         ChildIds: 2513212531638757290
+        ChildIds: 17403568383249580417
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -3537,6 +3665,10 @@ Assets {
             Name: "cs:ID"
             String: "BF"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3576,6 +3708,10 @@ Assets {
             Name: "cs:ID"
             String: "LE"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3614,6 +3750,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "SR"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -4083,6 +4223,10 @@ Assets {
             Name: "cs:ID"
             String: "HB"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4121,6 +4265,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "CB"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -4293,7 +4441,7 @@ Assets {
       }
       Objects {
         Id: 1471269300316562589
-        Name: "Ditto"
+        Name: "Half-life"
         Transform {
           Location {
           }
@@ -4316,6 +4464,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "DO"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -4395,6 +4547,10 @@ Assets {
             Name: "cs:ID"
             String: "LB"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4433,45 +4589,6 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "AB"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 17403568383249580417
-        Name: "Rainbow Dragon"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12473910542475180098
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 18137545806203062523
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "RB"
           }
         }
         Collidable_v2 {
@@ -4628,6 +4745,49 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "AY"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 17403568383249580417
+        Name: "Rainbow Dragon"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12473910542475180098
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 18137545806203062523
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "RB"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5002,6 +5162,10 @@ Assets {
               Id: 10625396723537600243
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5138,6 +5302,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "GD"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5432,6 +5600,10 @@ Assets {
             Name: "cs:EventSkin"
             Bool: true
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5606,6 +5778,10 @@ Assets {
             AssetReference {
               Id: 5428821890347059809
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {

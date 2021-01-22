@@ -1,4 +1,4 @@
-﻿local WEAPON = script:GetCustomProperty("MolotovCocktail"):WaitForObject()
+local WEAPON = script:GetCustomProperty("MolotovCocktail"):WaitForObject()
 local DAMAGE_VOLUME_TMEMPLATE = script:GetCustomProperty("MolotovDamage")
 local DAMAGE_PER_SECOND = script:GetCustomProperty("DamagePerSecond")
 local ABILITY = script:GetCustomProperty("AttackAbility"):WaitForObject()

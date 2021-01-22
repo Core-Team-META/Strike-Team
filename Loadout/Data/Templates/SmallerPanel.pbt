@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14933729121853623480
+        ParentId: 8293171845170377650
         ChildIds: 14918399479264510749
         ChildIds: 12422672806250089011
         ChildIds: 11734302483443935999
@@ -45,6 +45,12 @@ Assets {
             Name: "cs:PadLock"
             ObjectReference {
               SubObjectId: 14918399479264510749
+            }
+          }
+          Overrides {
+            Name: "cs:HilightPanel"
+            ObjectReference {
+              SubObjectId: 12422672806250089011
             }
           }
         }

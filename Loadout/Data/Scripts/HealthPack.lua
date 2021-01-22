@@ -1,4 +1,4 @@
-﻿local Trigger = script.parent
+local Trigger = script.parent
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local HealAmount = script:GetCustomProperty("HealAmount")
 local DestroyOnPickUp = script:GetCustomProperty("DestroyOnPickUp")
@@ -13,7 +13,7 @@ end
 
 
 function CheckPlayer(player)
-    if player.team == Root.serverUserData.team then
+    if player.team == Root:GetCustomProperty("Team") then
         HealPlayer(player)
         if DestroyOnPickUp then
             PickUp()

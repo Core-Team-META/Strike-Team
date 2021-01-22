@@ -1,4 +1,4 @@
-﻿local EQUIPMENT = script:GetCustomProperty("JumpPassive"):WaitForObject()
+local EQUIPMENT = script:GetCustomProperty("JumpPassive"):WaitForObject()
 
 function OnEquip(equipment, player)
 	player.maxJumpCount = 2

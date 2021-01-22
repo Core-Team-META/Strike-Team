@@ -7,5 +7,3 @@ LOCAL_PLAYER.clientUserData.Storage = STORE.New(LOCAL_PLAYER)
 local playerStorage = LOCAL_PLAYER.clientUserData.Storage
 
 playerStorage:Load()
-
-print(playerStorage:HasSkin("HK","SN"))

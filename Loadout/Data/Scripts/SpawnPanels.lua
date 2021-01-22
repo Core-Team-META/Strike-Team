@@ -7,7 +7,6 @@ local GlobalPixel =  require(script:GetCustomProperty("GlobalPixel"))
 local OTTATEXT = script:GetCustomProperty("OTTATEXT"):WaitForObject()
 local MOREARROW = script:GetCustomProperty("MoreThen"):WaitForObject()
 local LESSARROW = script:GetCustomProperty("LessThen"):WaitForObject()
-
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 while not _G["DataBase"]  do Task.Wait() end
 local Database = _G["DataBase"] 
@@ -17,6 +16,8 @@ local PanelLimit = 5
 local Sort = 0
 local Func 
 local Data 
+while not LOCAL_PLAYER.clientUserData.Storage do Task.Wait() end
+local Storage =  LOCAL_PLAYER.clientUserData.Storage
 
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
@@ -66,14 +67,34 @@ function AddSort(dir)
     Sort = math.max(Sort + PanelLimit * dir,0)
     UpdatePanels()
 end
+function ReturRarityColour( rarity )
+    local Rarity_Legendary = script:GetCustomProperty("Rarity_Legendary")
+    local Rarity_Epic = script:GetCustomProperty("Rarity_Epic")
+    local Rarity_Rare = script:GetCustomProperty("Rarity_Rare")
+    local Rarity_Common = script:GetCustomProperty("Rarity_Common")
+    local Rarity_None = script:GetCustomProperty("Rarity_None")
+
+    local VALUETABLE = {
+        ["None"] = Rarity_None,
+        ["Common"] = Rarity_Common,
+        ["Rare"] = Rarity_Rare,
+        ["Epic"] = Rarity_Epic,
+        ["Legendary"] = Rarity_Legendary,
+    }
+    return VALUETABLE[rarity] or Color.WHITE
+end
+
+function ReturnSkinRarityColour( skin )
+    return ReturRarityColour(skin.rarity)
+end
 
 function CheckWeapon(item)
-    return LOCAL_PLAYER.clientUserData.Storage:HasWeapon(item)
+    return Storage:HasWeapon(item)
 end
 
 function CheckSkin(item,skin)
     skin = skin or  "00"
-    return LOCAL_PLAYER.clientUserData.Storage:HasSkin(item, skin)
+    return Storage:HasSkin(item, skin)
 end
 
 function SpawnPanel(panelType  ,item, skin , index, locked)
@@ -178,11 +199,27 @@ function SetupSkinPanel(item,id,skins,i,Locked)
 
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
-
+    local HilightPanel = newpanel:GetCustomProperty("HilightPanel"):WaitForObject()
+    
     Ntext.text = skins[i].name
     Ttext.text = item:GetName()
-
+    HilightPanel:SetColor(ReturnSkinRarityColour(skins[i]))
     table.insert( Panels, newpanel )
+end
+
+
+function SkinSort(id, a,b )
+
+    if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
+    if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
+    
+    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
+        if a.name == b.name then return false end
+        return a.name <= b.name 
+    else 
+        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+    end
+    
 end
 
 function SpawnPanelskins(itemid)
@@ -191,6 +228,9 @@ function SpawnPanelskins(itemid)
     local id, _ =  CoreString.Split(itemid ,"_")
     local item = Database:ReturnEquipmentById(id)
     local skins = item:GetSkins()
+    table.sort( skins, function ( a,b )
+        return SkinSort(id, a,b )
+    end)
     if(#skins == 0) then return end
     SlotChange( #skins )
     for i=Sort+1, math.min((Sort + PanelLimit),#skins) do

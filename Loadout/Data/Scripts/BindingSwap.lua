@@ -1,4 +1,4 @@
-﻿local Ability = script:GetCustomProperty("Ability"):WaitForObject()
+local Ability = script:GetCustomProperty("Ability"):WaitForObject()
 local Slot = script:GetCustomProperty("Slot")
 local BindingToSlot = {
     [1] = "PrimaryWeapon",

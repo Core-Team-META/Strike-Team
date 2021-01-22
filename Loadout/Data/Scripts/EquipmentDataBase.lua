@@ -1,4 +1,4 @@
-﻿_G["EquipmentData"] = {}
+_G["EquipmentData"] = {}
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local Equipment = require(script:GetCustomProperty("Equipment"))
 
@@ -15,6 +15,22 @@ end
 
 function Database:GetDatabase()
     return self.data
+end
+
+function Database.ReturnRarity(rarity)
+    local VALUETABLE = {
+        ["None"] = 99,
+        ["Common"] = 1,
+        ["Rare"] = 2,
+        ["Epic"] = 3,
+        ["Legendary"] = 4,
+    }
+    return VALUETABLE[rarity] or 0
+end
+
+function Database.ReturnSkinRarity(Skin)
+    if not Skin then return 0 end
+    return Database.ReturnRarity(Skin.rarity)   
 end
 
 function Database:SetupItemWithSkin(id)
@@ -111,13 +127,14 @@ function VerifyID(Data, NewItem)
     return true
 end
 
-function Database.SetupSkin( id, skin, level, ads, name )
+function Database.SetupSkin( id, skin, level, ads, name, rarity )
     local NewSkin = {}
     NewSkin["id"] = id
     NewSkin["skin"] = skin
     NewSkin["level"] = level or 0
     NewSkin["ads_skin"] = ads
     NewSkin["name"] = name or "NoName"
+    NewSkin["rarity"] = rarity or "None"
     return NewSkin
 end
 
@@ -145,7 +162,8 @@ function Database:RegisterEquipment()
                     Item:GetCustomProperty("DefaultSkin"),
                     0,
                     Item:GetCustomProperty("ADSSkin"),
-                    "Default"
+                    "Default",
+                    "None"
                 )
                 table.insert( ItemSkins, NewItem["defaultSkin"])
                 
@@ -155,10 +173,14 @@ function Database:RegisterEquipment()
                         Skin:GetCustomProperty("SKIN"),
                         Skin:GetCustomProperty("LEVEL"),
                         Skin:GetCustomProperty("ADSSkin"),
-                        Skin.name)
+                        Skin.name,
+                        Skin:GetCustomProperty("Rarity"))
                     assert(VerifyID(ItemSkins, NewSkin),"Clashing Id ".. NewSkin.name .. " in equipment ".. NewItem.name)
                     table.insert( ItemSkins, NewSkin)
                 end
+                table.sort( ItemSkins, function (a,b)
+                    return Database.ReturnSkinRarity(a) > Database.ReturnSkinRarity(b)
+                end)
                 NewItem["skins"] = ItemSkins
                 assert(VerifyID(NewData, NewItem),"Clashing Id".. NewItem.name)
                 table.insert(NewData,NewItem)

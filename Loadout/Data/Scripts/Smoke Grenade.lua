@@ -1,4 +1,4 @@
-﻿local WEAPON = script:GetCustomProperty("SmokeGrenade"):WaitForObject()
+local WEAPON = script:GetCustomProperty("SmokeGrenade"):WaitForObject()
 local SMOKE_VFX = script:GetCustomProperty("SmokeVolumeVFX")
 
 function OnImpact(weapon, impactData)

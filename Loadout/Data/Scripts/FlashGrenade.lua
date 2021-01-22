@@ -1,4 +1,4 @@
-﻿local WEAPON = script:GetCustomProperty("Weapon"):WaitForObject()
+local WEAPON = script:GetCustomProperty("Weapon"):WaitForObject()
 local FlashVFX = script:GetCustomProperty("FlashVFX")
 
 
