@@ -1,4 +1,4 @@
-﻿DebuggerSettings {
+DebuggerSettings {
 }
 ObjectSettings {
   ObjectStates {
@@ -10513,6 +10513,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 8992259969297770710
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 8993492407845166900
     value {
     }
@@ -14615,6 +14621,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 12494455813907244681
+    value {
+    }
+  }
+  ObjectStates {
+    key: 12498359515299133812
     value {
     }
   }

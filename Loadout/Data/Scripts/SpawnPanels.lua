@@ -172,7 +172,6 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     return newpanel
 end
 
-
 function SpawnPanels(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
@@ -190,7 +189,6 @@ function SpawnPanels(Type)
         table.insert( Panels, newpanel )
     end
 end
-
 
 function SetupSkinPanel(item,id,skins,i,Locked)
     local newItem  =  Database:ReturnEquipmentById(id)
@@ -252,13 +250,11 @@ function SpawnIconPanel(Type)
     if #items == 0 then return end
     SlotChange( #items )    
     for i=Sort+1, math.min((Sort + PanelLimit), #items) do
-
-        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),false)
+        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),not CheckWeapon(items[i].data.id))
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
         local ICON = newpanel:GetCustomProperty("ICON"):WaitForObject()
         local DESCRIPTION_TEXT = newpanel:GetCustomProperty("DESCRIPTION_TEXT"):WaitForObject()
-
 
         Ntext.text = items[i].data.name
         Ttext.text = items[i].data.type

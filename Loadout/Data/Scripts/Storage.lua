@@ -41,7 +41,7 @@ function SkinStorage:Encode()
 end
 
 function SkinStorage:SetDefault()
-    self.key = "HKSNCA_SPSNCA_MC_LM_SV_SR_NE_S4_EZ_LI_BA_TP"
+    self.key = "HK_LI_S4_EL_EP"
     return self.key
 end 
 
@@ -82,7 +82,7 @@ if Environment.IsServer() then
     end
 
     function SkinStorage:Reset()
-        self.key = "HKSNLACA_SPSNLACA_MCSNLACA_LMSNLACA_SVSNLACA_SRSNLACA_NESNLACA_S4SNLACA_EZ_LI_BA_TP"
+        self:SetDefault()
         self:Decode()
         return self.key
     end 

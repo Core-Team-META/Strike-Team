@@ -15,12 +15,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14731703646026544731
+        ParentId: 8293171845170377650
         ChildIds: 14162147070820197294
         ChildIds: 11416539083219699044
         ChildIds: 13763552303418828340
         ChildIds: 16375161101792920593
         ChildIds: 15815717652493247225
+        ChildIds: 5235058405371179440
         ChildIds: 5927105085359349948
         ChildIds: 7349154555652192187
         ChildIds: 5938809610452994116
@@ -55,6 +56,12 @@ Assets {
             Name: "cs:DESCRIPTION_TEXT"
             ObjectReference {
               SubObjectId: 15815717652493247225
+            }
+          }
+          Overrides {
+            Name: "cs:PadLock"
+            ObjectReference {
+              SubObjectId: 5235058405371179440
             }
           }
         }
@@ -112,14 +119,14 @@ Assets {
         Control {
           Width: 327
           Height: 138
-          UIY: 177.228104
           RotationAngle: 180
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
           Image {
             Brush {
               Id: 12804716500201279526
@@ -133,12 +140,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -386,6 +393,121 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5235058405371179440
+        Name: "GrayedOut"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5261119455479351822
+        ChildIds: 11033628785846001682
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 6
+          Height: 3
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 3774657568957881846
+            }
+            Color {
+              A: 0.530000031
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11033628785846001682
+        Name: "PadLock"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5235058405371179440
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 75
+          Height: 75
+          UIX: 107.736572
+          UIY: -0.14956665
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 6166947203288011858
+            }
+            Color {
+              R: 0.879622579
+              G: 0.879622579
+              B: 0.879622579
+              A: 0.640000045
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -1231,6 +1353,24 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "FrameOutline_020"
+      }
+    }
+    Assets {
+      Id: 3774657568957881846
+      Name: "BG Flat 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
+      Id: 6166947203288011858
+      Name: "Icon Lock"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Lock"
       }
     }
     Assets {
