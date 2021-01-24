@@ -451,5 +451,5 @@ Assets {
       AssetId: "Corrugated_Sheet_Wall_04_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

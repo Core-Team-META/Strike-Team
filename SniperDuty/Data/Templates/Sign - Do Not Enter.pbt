@@ -332,5 +332,5 @@ Assets {
       AssetId: "Sign_-_Do_Not_Enter"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

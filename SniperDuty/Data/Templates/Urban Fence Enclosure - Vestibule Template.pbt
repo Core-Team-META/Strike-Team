@@ -5008,5 +5008,5 @@ Assets {
       AssetId: "Urban_Fence_Enclosure_-_Vestibule_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

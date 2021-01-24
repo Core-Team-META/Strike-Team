@@ -2,7 +2,7 @@ Assets {
   Id: 12224679477727788171
   Name: "Urban Fence Trim"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {

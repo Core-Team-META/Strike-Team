@@ -1130,5 +1130,5 @@ Assets {
       AssetId: "tm_urb_trafficsignal_001_single_01"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }
