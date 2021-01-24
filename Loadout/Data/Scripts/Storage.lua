@@ -31,8 +31,8 @@ function SkinStorage:Encode()
     local StorageString = ""
     for Tablename,Element in pairs(self.StorageTable) do
         StorageString = StorageString .. Tablename
-        for _,strin in pairs(Element) do
-            StorageString = StorageString .. strin
+        for k,string in pairs(Element) do
+            StorageString = StorageString .. string
         end
         StorageString = StorageString .. "_"
     end
@@ -78,6 +78,7 @@ if Environment.IsServer() then
         if not Skin or not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
         table.insert( self.StorageTable[Weapon], Skin )
+        self:Save()
         self:TransferToClient()
     end
 
@@ -90,6 +91,7 @@ if Environment.IsServer() then
     function SkinStorage:AddWeapon(Weapon)
         if not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
+        self:Save()
         self:TransferToClient()
     end
 
@@ -101,10 +103,12 @@ if Environment.IsServer() then
         end
     end
 
-    function SkinStorage:Save( )
+    function SkinStorage:Save()
         local Save = {}
-        Save["Data"] = self:Encode()
+        self.key = self:Encode()
+        Save["Data"] = self.key
         Storage.SetSharedPlayerData(_G["StorageKey"], self.owner,Save) 
+        self:Decode()
     end
 
     function SkinStorage:Load( )

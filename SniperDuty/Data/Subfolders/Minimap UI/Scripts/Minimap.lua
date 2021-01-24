@@ -32,7 +32,7 @@ if #worldShapes <= 0 then
 	error("Minimap needs at least one 3D shape placed in-world.")
 	return
 end
-
+script.clientUserData.Items = {}
 -- Establish 3D bounds
 local boundsLeft
 local boundsRight
@@ -165,7 +165,19 @@ function Tick()
 			indicator.visibility = Visibility.FORCE_OFF
 		end
 	end
+
+	for _, Item in pairs(script.clientUserData.Items) do
+
+		local Image = Item.clientUserData.UIimage
+		Image.visibility = Visibility.INHERIT
+		
+		local pos = Item:GetWorldPosition()
+		Image.x = (pos.x - boundsLeft) * scaleX
+		Image.y = (pos.y - boundsTop) * scaleY
+	end
+
 end
+
 
 function GetIndicatorForPlayer(player)
 	-- Return already created indicator
@@ -186,7 +198,24 @@ function GetIndicatorForPlayer(player)
 	return minimapPlayer
 end
 
+function AddItem(Item, UIimage)
+	if not UIimage then UIimage = PLAYER_TEMPLATE end
+	Item.clientUserData.UIimage = World.SpawnAsset(UIimage, {parent = MAP_PANEL})
+	table.insert(script.clientUserData.Items,Item)
+end
 
+function RemoveItem(Item)
+	for index,value in pairs(script.clientUserData.Items) do
+		if value == Item then 
+			if Object.IsValid( Item.clientUserData.UIimage) then
+				Item.clientUserData.UIimage:Destroy()
+			end
+			Item.clientUserData.UIimage = nil
+			table.remove(script.clientUserData.Items, index) 
+			return 
+		end
+	end
+end
 
-
-
+Events.Connect("Minimap.AddItem",AddItem)
+Events.Connect("Minimap.RemoveItem",RemoveItem)

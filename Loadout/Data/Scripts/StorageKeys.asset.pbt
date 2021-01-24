@@ -22,6 +22,14 @@ Assets {
           }
         }
       }
+      Overrides {
+        Name: "cs:StatKey"
+        NetReference {
+          Type {
+            Value: "mc:enetreferencetype:unknown"
+          }
+        }
+      }
     }
   }
   SerializationVersion: 73

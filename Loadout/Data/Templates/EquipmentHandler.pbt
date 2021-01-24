@@ -4160,7 +4160,7 @@ Assets {
       }
       Objects {
         Id: 6966477598465739445
-        Name: "New Paint"
+        Name: "Golden"
         Transform {
           Location {
           }
@@ -4183,6 +4183,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "NP"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4787,7 +4791,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {

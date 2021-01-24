@@ -22,6 +22,7 @@ Objects {
   ChildIds: 12725320108773916204
   ChildIds: 10671565427701169845
   ChildIds: 10713213961821925461
+  ChildIds: 7400115703717271190
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,60 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 7400115703717271190
+  Name: "TestItem"
+  Transform {
+    Location {
+      X: 2078.78809
+      Y: 3262.12183
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 2691527968875289969
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 2691527968875289969
+  Name: "Testminimapitem"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7400115703717271190
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16584126640114914193
+    }
   }
 }
 Objects {

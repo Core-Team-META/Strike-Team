@@ -127,7 +127,7 @@ function VerifyID(Data, NewItem)
     return true
 end
 
-function Database.SetupSkin( id, skin, level, ads, name, rarity )
+function Database.SetupSkin( id, skin, level, ads, name, rarity,isEvent )
     local NewSkin = {}
     NewSkin["id"] = id
     NewSkin["skin"] = skin
@@ -135,6 +135,7 @@ function Database.SetupSkin( id, skin, level, ads, name, rarity )
     NewSkin["ads_skin"] = ads
     NewSkin["name"] = name or "NoName"
     NewSkin["rarity"] = rarity or "None"
+    NewSkin["event"] = isEvent or false
     return NewSkin
 end
 
@@ -163,7 +164,8 @@ function Database:RegisterEquipment()
                     0,
                     Item:GetCustomProperty("ADSSkin"),
                     "Default",
-                    "None"
+                    "None",
+                    false
                 )
                 table.insert( ItemSkins, NewItem["defaultSkin"])
                 
@@ -172,9 +174,11 @@ function Database:RegisterEquipment()
                         Skin:GetCustomProperty("ID"), 
                         Skin:GetCustomProperty("SKIN"),
                         Skin:GetCustomProperty("LEVEL"),
-                        Skin:GetCustomProperty("ADSSkin"),
-                        Skin.name,
-                        Skin:GetCustomProperty("Rarity"))
+                            Skin:GetCustomProperty("ADSSkin"),
+                            Skin.name,
+                        Skin:GetCustomProperty("Rarity"),
+                        Skin:GetCustomProperty("EventSkin")
+                    )
                     assert(VerifyID(ItemSkins, NewSkin),"Clashing Id ".. NewSkin.name .. " in equipment ".. NewItem.name)
                     table.insert( ItemSkins, NewSkin)
                 end

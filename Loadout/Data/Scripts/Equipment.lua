@@ -92,6 +92,15 @@ function Equipment:GetId()
     return self.data.id
 end
 
+
+function Equipment:GetSkinByID(skinid)
+    for _, skin in pairs(self.data.skins) do
+        if(skin.id == skinid) then
+            return skin
+        end
+    end
+end
+
 function Equipment:GetDefaultSkin()
     return self.data.defaultSkin
 end

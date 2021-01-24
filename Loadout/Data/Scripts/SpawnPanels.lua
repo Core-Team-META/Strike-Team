@@ -104,7 +104,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
 
     if not locked then 
         --Button.isInteractable = true
-        newpanel.clientUserData.ButtonEvent = Button.pressedEvent:Connect(function() 
+        newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             if os.clock() - LastPressed > .1 then
                 LastPressed = os.clock()
                 if(skin) then item:EquipSkinByID(skin.id) end
@@ -119,11 +119,15 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             Lock:Destroy()
         end
     else
-        Button:SetPressedColor( Button:GetHoveredColor())
+        
+        newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
+            Events.Broadcast("PurchaseItem",item,skin)
+        end)
+        --Button:SetPressedColor( Button:GetHoveredColor())
     end
     newpanel.clientUserData.HoverEvent = Button.hoveredEvent:Connect(function() 
             if(skin) then item:EquipSkinByID(skin.id) end
-            Events.Broadcast("HoverItem",item:ReturnIDs(), item.data.slot)
+            Events.Broadcast("HoverItem",item:ReturnIDs(),item.data.slot)
             --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
     end)
     newpanel.clientUserData.unhoveredEvent = Button.unhoveredEvent:Connect(function() 
@@ -206,7 +210,7 @@ function SetupSkinPanel(item,id,skins,i,Locked)
 end
 
 
-function SkinSort(id, a,b )
+function SkinSort(id,a,b)
 
     if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
     if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
@@ -234,7 +238,7 @@ function SpawnPanelskins(itemid)
     for i=Sort+1, math.min((Sort + PanelLimit),#skins) do
         local HasSkin = CheckSkin(id,skins[i].id)
         if not HasSkin then
-            if not skins[i].Event then
+            if not skins[i].event then
                 SetupSkinPanel(item,id,skins,i,not HasSkin)
             end 
         else
@@ -265,7 +269,7 @@ function SpawnIconPanel(Type)
     end
 end
 
-
+Events.Connect("UpdatePanels", UpdatePanels)
 Events.Connect("AllloadoutPanelsClose", DestroyPanels)
 Events.Connect("SpawnLoadoutEquipPanel",function(type)
     ResetSort()
