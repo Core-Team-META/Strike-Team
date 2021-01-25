@@ -31,8 +31,8 @@ function SkinStorage:Encode()
     local StorageString = ""
     for Tablename,Element in pairs(self.StorageTable) do
         StorageString = StorageString .. Tablename
-        for _,strin in pairs(Element) do
-            StorageString = StorageString .. strin
+        for k,string in pairs(Element) do
+            StorageString = StorageString .. string
         end
         StorageString = StorageString .. "_"
     end
@@ -41,7 +41,7 @@ function SkinStorage:Encode()
 end
 
 function SkinStorage:SetDefault()
-    self.key = "HKSNCA_SPSNCA_MC_LM_SV_SR_NE_S4_EZ_LI_BA_TP"
+    self.key = "HK_LI_S4_EL_EP"
     return self.key
 end 
 
@@ -52,14 +52,14 @@ function SkinStorage:SetKey(key)
 end 
 
 function SkinStorage:HasSkin(Weapon,Skin)
-    if true then return true end
+    --if true then return true end
     if not Skin or Skin == "00" then return true end
     if not self.StorageTable[Weapon] then return false end
     return self.StorageTable[Weapon][Skin] ~= nil
 end
 
 function SkinStorage:HasWeapon(Weapon)
-    if true then return true end
+    --if true then return true end
     if not Weapon then return true end
     if self.StorageTable[Weapon] then return true end
 end
@@ -78,11 +78,12 @@ if Environment.IsServer() then
         if not Skin or not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
         table.insert( self.StorageTable[Weapon], Skin )
+        self:Save()
         self:TransferToClient()
     end
 
     function SkinStorage:Reset()
-        self.key = "HKSNLACA_SPSNLACA_MCSNLACA_LMSNLACA_SVSNLACA_SRSNLACA_NESNLACA_S4SNLACA_EZ_LI_BA_TP"
+        self:SetDefault()
         self:Decode()
         return self.key
     end 
@@ -90,6 +91,7 @@ if Environment.IsServer() then
     function SkinStorage:AddWeapon(Weapon)
         if not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
+        self:Save()
         self:TransferToClient()
     end
 
@@ -101,10 +103,12 @@ if Environment.IsServer() then
         end
     end
 
-    function SkinStorage:Save( )
+    function SkinStorage:Save()
         local Save = {}
-        Save["Data"] = self:Encode()
+        self.key = self:Encode()
+        Save["Data"] = self.key
         Storage.SetSharedPlayerData(_G["StorageKey"], self.owner,Save) 
+        self:Decode()
     end
 
     function SkinStorage:Load( )

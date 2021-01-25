@@ -8,4 +8,6 @@ local playerStorage = LOCAL_PLAYER.clientUserData.Storage
 
 playerStorage:Load()
 
-print(playerStorage:HasSkin("HK","SN"))
+LOCAL_PLAYER.clientUserData.NetworkSpawn.networkedPropertyChangedEvent:Connect(function()
+    playerStorage:Load()
+end)

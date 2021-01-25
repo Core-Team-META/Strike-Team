@@ -7,7 +7,6 @@ local GlobalPixel =  require(script:GetCustomProperty("GlobalPixel"))
 local OTTATEXT = script:GetCustomProperty("OTTATEXT"):WaitForObject()
 local MOREARROW = script:GetCustomProperty("MoreThen"):WaitForObject()
 local LESSARROW = script:GetCustomProperty("LessThen"):WaitForObject()
-
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 while not _G["DataBase"]  do Task.Wait() end
 local Database = _G["DataBase"] 
@@ -17,6 +16,8 @@ local PanelLimit = 5
 local Sort = 0
 local Func 
 local Data 
+while not LOCAL_PLAYER.clientUserData.Storage do Task.Wait() end
+local Storage =  LOCAL_PLAYER.clientUserData.Storage
 
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
@@ -66,24 +67,44 @@ function AddSort(dir)
     Sort = math.max(Sort + PanelLimit * dir,0)
     UpdatePanels()
 end
+function ReturRarityColour( rarity )
+    local Rarity_Legendary = script:GetCustomProperty("Rarity_Legendary")
+    local Rarity_Epic = script:GetCustomProperty("Rarity_Epic")
+    local Rarity_Rare = script:GetCustomProperty("Rarity_Rare")
+    local Rarity_Common = script:GetCustomProperty("Rarity_Common")
+    local Rarity_None = script:GetCustomProperty("Rarity_None")
+
+    local VALUETABLE = {
+        ["None"] = Rarity_None,
+        ["Common"] = Rarity_Common,
+        ["Rare"] = Rarity_Rare,
+        ["Epic"] = Rarity_Epic,
+        ["Legendary"] = Rarity_Legendary,
+    }
+    return VALUETABLE[rarity] or Color.WHITE
+end
+
+function ReturnSkinRarityColour( skin )
+    return ReturRarityColour(skin.rarity)
+end
 
 function CheckWeapon(item)
-    return LOCAL_PLAYER.clientUserData.Storage:HasWeapon(item)
+    return Storage:HasWeapon(item)
 end
 
 function CheckSkin(item,skin)
     skin = skin or  "00"
-    return LOCAL_PLAYER.clientUserData.Storage:HasSkin(item, skin)
+    return Storage:HasSkin(item, skin)
 end
 
 function SpawnPanel(panelType  ,item, skin , index, locked)
     local newpanel = World.SpawnAsset(panelType,{parent = PARENT})
         newpanel.y = ((index-1)*200) + 5
     local Button = newpanel:GetCustomProperty("BUTTON"):WaitForObject()
-    Button.isInteractable = false
+
     if not locked then 
-        Button.isInteractable = true
-        newpanel.clientUserData.ButtonEvent = Button.pressedEvent:Connect(function() 
+        --Button.isInteractable = true
+        newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             if os.clock() - LastPressed > .1 then
                 LastPressed = os.clock()
                 if(skin) then item:EquipSkinByID(skin.id) end
@@ -97,10 +118,16 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             local Lock =  newpanel:GetCustomProperty("PadLock"):WaitForObject()
             Lock:Destroy()
         end
+    else
+        
+        newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
+            Events.Broadcast("PurchaseItem",item,skin)
+        end)
+        --Button:SetPressedColor( Button:GetHoveredColor())
     end
     newpanel.clientUserData.HoverEvent = Button.hoveredEvent:Connect(function() 
             if(skin) then item:EquipSkinByID(skin.id) end
-            Events.Broadcast("HoverItem",item:ReturnIDs(), item.data.slot)
+            Events.Broadcast("HoverItem",item:ReturnIDs(),item.data.slot)
             --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
     end)
     newpanel.clientUserData.unhoveredEvent = Button.unhoveredEvent:Connect(function() 
@@ -149,7 +176,6 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     return newpanel
 end
 
-
 function SpawnPanels(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
@@ -168,7 +194,6 @@ function SpawnPanels(Type)
     end
 end
 
-
 function SetupSkinPanel(item,id,skins,i,Locked)
     local newItem  =  Database:ReturnEquipmentById(id)
     newItem:EquipSkinByID(skins[i].id)  
@@ -176,11 +201,27 @@ function SetupSkinPanel(item,id,skins,i,Locked)
 
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
-
+    local HilightPanel = newpanel:GetCustomProperty("HilightPanel"):WaitForObject()
+    
     Ntext.text = skins[i].name
     Ttext.text = item:GetName()
-
+    HilightPanel:SetColor(ReturnSkinRarityColour(skins[i]))
     table.insert( Panels, newpanel )
+end
+
+
+function SkinSort(id,a,b)
+
+    if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
+    if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
+    
+    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
+        if a.name == b.name then return false end
+        return a.name <= b.name 
+    else 
+        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+    end
+    
 end
 
 function SpawnPanelskins(itemid)
@@ -189,12 +230,15 @@ function SpawnPanelskins(itemid)
     local id, _ =  CoreString.Split(itemid ,"_")
     local item = Database:ReturnEquipmentById(id)
     local skins = item:GetSkins()
+    table.sort( skins, function ( a,b )
+        return SkinSort(id, a,b )
+    end)
     if(#skins == 0) then return end
     SlotChange( #skins )
     for i=Sort+1, math.min((Sort + PanelLimit),#skins) do
         local HasSkin = CheckSkin(id,skins[i].id)
         if not HasSkin then
-            if not skins[i].Event then
+            if not skins[i].event then
                 SetupSkinPanel(item,id,skins,i,not HasSkin)
             end 
         else
@@ -210,13 +254,11 @@ function SpawnIconPanel(Type)
     if #items == 0 then return end
     SlotChange( #items )    
     for i=Sort+1, math.min((Sort + PanelLimit), #items) do
-
-        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),false)
+        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),not CheckWeapon(items[i].data.id))
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
         local ICON = newpanel:GetCustomProperty("ICON"):WaitForObject()
         local DESCRIPTION_TEXT = newpanel:GetCustomProperty("DESCRIPTION_TEXT"):WaitForObject()
-
 
         Ntext.text = items[i].data.name
         Ttext.text = items[i].data.type
@@ -227,7 +269,7 @@ function SpawnIconPanel(Type)
     end
 end
 
-
+Events.Connect("UpdatePanels", UpdatePanels)
 Events.Connect("AllloadoutPanelsClose", DestroyPanels)
 Events.Connect("SpawnLoadoutEquipPanel",function(type)
     ResetSort()

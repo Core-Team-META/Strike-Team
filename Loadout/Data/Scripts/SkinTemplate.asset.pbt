@@ -18,6 +18,10 @@ Assets {
         String: ""
       }
       Overrides {
+        Name: "cs:Rarity"
+        String: "Common"
+      }
+      Overrides {
         Name: "cs:EventSkin"
         Bool: false
       }

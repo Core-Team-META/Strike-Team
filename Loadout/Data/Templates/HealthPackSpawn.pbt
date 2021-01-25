@@ -18,6 +18,16 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 1473863859290691043
         ChildIds: 17981385945882420927
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Team"
+            Int: 0
+          }
+          Overrides {
+            Name: "cs:Team:isrep"
+            Bool: true
+          }
+        }
         Lifespan: 20
         WantsNetworking: true
         Collidable_v2 {
@@ -1108,6 +1118,7 @@ Assets {
           }
         }
         ParentId: 17981385945882420927
+        ChildIds: 3338936537715088165
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -1162,6 +1173,50 @@ Assets {
           TeamSettings {
           }
           DecalBP {
+          }
+        }
+      }
+      Objects {
+        Id: 3338936537715088165
+        Name: "Healthpackdecal"
+        Transform {
+          Location {
+            X: 571.555298
+            Y: 640.046814
+            Z: 36.6181259
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.26470852
+            Y: 1.26470852
+            Z: 3.07382798
+          }
+        }
+        ParentId: 16124895230334417672
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Decal"
+            ObjectReference {
+              SubObjectId: 16124895230334417672
+            }
+          }
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 16583774841004539736
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 118035118224853990
           }
         }
       }

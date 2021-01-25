@@ -1744,6 +1744,48 @@ Objects {
         SelfId: 1884440081562720227
       }
     }
+    Overrides {
+      Name: "cs:Rarity_Legendary"
+      Color {
+        R: 0.295000017
+        G: 0.222469345
+        B: 0.0230099857
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity_Epic"
+      Color {
+        R: 0.153115302
+        G: 0.0234989878
+        B: 0.373000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity_Rare"
+      Color {
+        R: 0.0275009796
+        G: 0.0573285893
+        B: 0.309000015
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity_Common"
+      Color {
+        R: 0.088000007
+        G: 0.088000007
+        B: 0.088000007
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity_None"
+      Color {
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5574,8 +5616,8 @@ Objects {
         Id: 1814707273787853473
       }
       Color {
-        R: 0.0109600965
-        G: 0.141263306
+        R: 0.0109601011
+        G: 0.141263276
         B: 0.174647421
         A: 1
       }

@@ -5,10 +5,33 @@ local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 local NETWORKSPAWN = script:GetCustomProperty("NetWorkSpawn")
 
 
-function VarifySaveData(player,data)
-    return true
+function VerifySkin(player,data)
+    local default = "00"
+    local weap,sk = CoreString.Split(data, "_")
+    if player.serverUserData.Storage:HasSkin(weap,sk) then
+        return data
+    else
+        return weap.."_"..default 
+    end
+end
 
-    --Grab Weapon, grab Weapon level, Grab skin level, if weapon is more/equal send that.
+function VerifyWeapon(player,data,default)
+    local weap,sk = CoreString.Split(data, "_")
+    if player.serverUserData.Storage:HasWeapon(weap) then 
+        return VerifySkin(player,data)
+    else 
+        return default 
+    end
+end
+
+
+function VerifySaveData(player,data)
+    local Dat = { CoreString.Split(data, "-")}
+    local primary = VerifyWeapon(player,Dat[1],"HK_00")
+    local secondary = VerifyWeapon(player,Dat[2],"S4_00")
+    local melee = VerifyWeapon(player,Dat[3],"LI_00")
+    data =  string.format("%s-%s-%s-%s-%s",primary,secondary,melee,Dat[4],Dat[5])
+    return data
 end
 
 function SetUp(player)
@@ -83,12 +106,11 @@ function UpdateEquipment(player, ID, Slot, loadoutSlot)
 end
 
 function Save(player,loadoutSlot,newSlotData)
-    if(VarifySaveData(player,newSlotData)) then 
+        newSlotData = VarifySaveData(player,newSlotData) 
         local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
         Data["Loadouts"] = Data["Loadouts"] or SetUp(player)
         Data["Loadouts"][loadoutSlot] = newSlotData
         Storage.SetSharedPlayerData(LoadoutKey,player, Data)
-    end
 end
 
 function SetupPlayer(player)

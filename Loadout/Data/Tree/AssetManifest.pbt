@@ -178,6 +178,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14005528099389862145
+  Name: "Tech Symbol 2"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Icon_047"
+  }
+}
+Assets {
   Id: 13766506912631948287
   Name: "Metal Corrugated 01"
   PlatformAssetType: 2
@@ -319,6 +328,19 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 11410967919306583625
+  Name: "PlayerData"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "7bb0e2288b6e4f5f99f59f2558ada412"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -598,6 +620,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_eightsided_001"
+  }
+}
+Assets {
+  Id: 3664507400955153403
+  Name: "Survival Money 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Money_001"
   }
 }
 Assets {

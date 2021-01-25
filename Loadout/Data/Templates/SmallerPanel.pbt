@@ -15,13 +15,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14933729121853623480
+        ParentId: 7198786684634025348
         ChildIds: 14918399479264510749
         ChildIds: 12422672806250089011
         ChildIds: 11734302483443935999
         ChildIds: 11306424681309017429
         ChildIds: 2656754313991633239
         ChildIds: 10222647534082811495
+        ChildIds: 13892284007746227388
         UnregisteredParameters {
           Overrides {
             Name: "cs:TYPE_TEXT"
@@ -45,6 +46,12 @@ Assets {
             Name: "cs:PadLock"
             ObjectReference {
               SubObjectId: 14918399479264510749
+            }
+          }
+          Overrides {
+            Name: "cs:HilightPanel"
+            ObjectReference {
+              SubObjectId: 12422672806250089011
             }
           }
         }
@@ -1064,6 +1071,53 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13892284007746227388
+        Name: "UI Panel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1877528306481387024
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 233
+          Height: 100
+          UIX: -77.9081421
+          UIY: 11.3055115
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleright"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleright"
               }
             }
           }
