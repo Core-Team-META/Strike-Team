@@ -581,5 +581,5 @@ Assets {
       AssetId: "Sci-fi_Console_01_Prop_"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

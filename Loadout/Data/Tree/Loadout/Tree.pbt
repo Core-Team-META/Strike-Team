@@ -3195,7 +3195,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 460
+    Width: 487
     Height: 10
     UIX: 50
     RenderTransformPivot {
@@ -5938,7 +5938,7 @@ Objects {
       }
       PressedColor {
         R: 0.0109601011
-        G: 0.141263276
+        G: 0.141263247
         B: 0.174647421
         A: 1
       }
@@ -8238,8 +8238,8 @@ Objects {
         Id: 1814707273787853473
       }
       Color {
-        R: 0.0109600965
-        G: 0.141263306
+        R: 0.0109601011
+        G: 0.141263276
         B: 0.174647421
         A: 1
       }
@@ -10784,7 +10784,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 496
+    Width: 623
     Height: 782
     UIX: -55
     RenderTransformPivot {
@@ -11003,7 +11003,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 381
+    Width: 469
     Height: 3
     RenderTransformPivot {
       Anchor {
@@ -11066,7 +11066,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

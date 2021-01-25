@@ -25,6 +25,7 @@ Objects {
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
   ChildIds: 3726698988231598828
+  ChildIds: 65150042230850511
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
   UnregisteredParameters {
@@ -43,6 +44,8 @@ Objects {
   Name: "Antti (Keppu)"
   Transform {
     Location {
+      X: -0.000122070313
+      Y: -9.15527344e-05
     }
     Rotation {
     }
@@ -290,7 +293,6 @@ Objects {
     }
   }
   ParentId: 2546043814955587125
-  ChildIds: 2582648000435637759
   ChildIds: 5413472480730285552
   ChildIds: 5488219571136977736
   ChildIds: 12753431546636593107
@@ -303,10 +305,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 125
-    UIX: 243.851929
-    UIY: -96.9710693
+    Width: 42
+    Height: 58
+    UIX: 513.434
+    UIY: 983.069
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -317,12 +319,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
     }
@@ -371,8 +373,9 @@ Objects {
         Id: 14005528099389862145
       }
       Color {
-        R: 0.435709029
-        B: 0.514
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -422,8 +425,8 @@ Objects {
   Control {
     Width: 100
     Height: 22
-    UIX: -42.7233887
-    UIY: -3.76861572
+    UIX: 49.9532471
+    UIY: -4.43591309
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -439,18 +442,18 @@ Objects {
       }
       Size: 14
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:left"
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
         }
       }
     }
@@ -523,67 +526,6 @@ Objects {
   InstanceHistory {
     SelfId: 18268698000139856108
     SubobjectId: 13241091557700086557
-    InstanceId: 1736845678661253780
-    TemplateId: 10006038514561667178
-  }
-}
-Objects {
-  Id: 2582648000435637759
-  Name: "Icon"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11785960102569884782
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 40
-    Height: 40
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 14005528099389862145
-      }
-      Color {
-        R: 0.161059722
-        B: 0.190000057
-        A: 1
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9898090918363078415
-    SubobjectId: 14059023812613610750
     InstanceId: 1736845678661253780
     TemplateId: 10006038514561667178
   }
@@ -854,10 +796,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 125
-    UIX: 243.851929
-    UIY: -51.7492065
+    Width: 38
+    Height: 54
+    UIX: 513.434
+    UIY: 1018.01642
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -868,12 +810,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
     }
@@ -911,8 +853,8 @@ Objects {
   Control {
     Width: 100
     Height: 22
-    UIX: -42.7233887
-    UIY: -7.53710938
+    UIX: 51.5785522
+    UIY: -20.6378937
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -928,18 +870,18 @@ Objects {
       }
       Size: 14
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:left"
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
@@ -1284,6 +1226,32 @@ Objects {
     ScriptAsset {
       Id: 11822087086620148992
     }
+  }
+}
+Objects {
+  Id: 65150042230850511
+  Name: "LootBox"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LootBox"
   }
 }
 Objects {
@@ -31625,14 +31593,15 @@ Objects {
           Value: "mc:echatmode:none"
         }
         ChatPosition {
-          X: -507.546631
+          X: -73.9881592
+          Y: -86.020813
         }
         ChatSize {
-          X: 450
-          Y: 127.060699
+          X: 426.41214
+          Y: 175
         }
         ChatHorizontalAlignment {
-          Value: "mc:ecorehorizontalalign:right"
+          Value: "mc:ecorehorizontalalign:center"
         }
         ChatVerticalAlignment {
           Value: "mc:ecoreverticalalign:bottom"
@@ -31665,6 +31634,24 @@ Objects {
       Name: "cs:StatKey"
       NetReference {
         Key: "7bb0e2288b6e4f5f99f59f2558ada412"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "5be15c17d2bd439b849671003cc6f3d5"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "673d2761ec9b45a5a03c5970e423c582"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
