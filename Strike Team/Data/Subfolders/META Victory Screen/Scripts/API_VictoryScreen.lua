@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Victory Screen - API
 	1.0.0 - 2020/10/01
@@ -234,7 +234,7 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 
 	Task.Wait()
 
-	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id, topThreePlayerStats)
+	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id) -- topThreePlayerStats
 
 	if(duration > 0) then
 		tasks[player] = Task.Spawn(function()
