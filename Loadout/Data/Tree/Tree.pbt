@@ -28,6 +28,7 @@ Objects {
   ChildIds: 65150042230850511
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
+  ChildIds: 11909944240055752873
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,35 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11909944240055752873
+  Name: "LootBox"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LootBox"
+  }
+  InstanceHistory {
+    SelfId: 11909944240055752873
+    SubobjectId: 435484125338290023
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+    WasRoot: true
   }
 }
 Objects {
