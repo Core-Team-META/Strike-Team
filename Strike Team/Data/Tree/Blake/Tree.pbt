@@ -490,7 +490,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17317319518378599275
+  Id: 4487027079599289806
   Name: "EquipmentHandler"
   Transform {
     Scale {
@@ -509,13 +509,11 @@ Objects {
           String: "EquipmentHandler"
         }
         Overrides {
-          Name: "Position"
+          Name: "Scale"
           Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }

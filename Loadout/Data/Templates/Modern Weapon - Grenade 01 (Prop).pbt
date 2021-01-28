@@ -1,5 +1,5 @@
 Assets {
-  Id: 17797771723507111160
+  Id: 9475959149940424235
   Name: "Modern Weapon - Grenade 01 (Prop)"
   PlatformAssetType: 5
   TemplateAsset {

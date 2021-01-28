@@ -1,12 +1,12 @@
 Assets {
-  Id: 9705852131755352334
+  Id: 10625396723537600243
   Name: "Mace_Skin"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 6491094443489509925
+      RootId: 11672357909902991898
       Objects {
-        Id: 6491094443489509925
+        Id: 11672357909902991898
         Name: "Mace_Skin"
         Transform {
           Scale {
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 15539404425807170020
-        ChildIds: 8819934712291894668
-        ChildIds: 4081567493298694380
+        ChildIds: 15710621571734416636
+        ChildIds: 6148757241043131158
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -31,7 +31,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8819934712291894668
+        Id: 15710621571734416636
         Name: "Blade"
         Transform {
           Location {
@@ -46,9 +46,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6491094443489509925
-        ChildIds: 17888222125913057312
-        ChildIds: 9005810230929831660
+        ParentId: 11672357909902991898
+        ChildIds: 49497675191495835
+        ChildIds: 12690210718249675664
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -60,7 +60,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17888222125913057312
+        Id: 49497675191495835
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -78,7 +78,7 @@ Assets {
             Z: 0.40568319
           }
         }
-        ParentId: 8819934712291894668
+        ParentId: 15710621571734416636
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -89,7 +89,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9781174597633755215
+              Id: 13425107253614129883
             }
           }
           Overrides {
@@ -103,6 +103,15 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 0.125
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.964899957
+              B: 0.921999931
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -127,7 +136,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9005810230929831660
+        Id: 12690210718249675664
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -146,7 +155,7 @@ Assets {
             Z: 0.723438323
           }
         }
-        ParentId: 8819934712291894668
+        ParentId: 15710621571734416636
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -157,7 +166,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9781174597633755215
+              Id: 13425107253614129883
             }
           }
           Overrides {
@@ -171,6 +180,23 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 1.84128761
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.9
+              G: 0.643708587
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.964899957
+              B: 0.921999931
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -195,7 +221,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4081567493298694380
+        Id: 6148757241043131158
         Name: "Handle"
         Transform {
           Location {
@@ -210,9 +236,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6491094443489509925
-        ChildIds: 10045833964848665299
-        ChildIds: 18263825506429046292
+        ParentId: 11672357909902991898
+        ChildIds: 1135660391924797595
+        ChildIds: 4186171694306536662
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -224,7 +250,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10045833964848665299
+        Id: 1135660391924797595
         Name: "Hatchet - Handle"
         Transform {
           Location {
@@ -243,15 +269,12 @@ Assets {
             Z: 1.04017735
           }
         }
-        ParentId: 4081567493298694380
+        ParentId: 6148757241043131158
         UnregisteredParameters {
           Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              R: 0.130208
-              G: 0.100087322
-              B: 0.0916664302
-              A: 1
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 5825015806398044810
             }
           }
         }
@@ -277,7 +300,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18263825506429046292
+        Id: 4186171694306536662
         Name: "Point_Blade"
         Transform {
           Location {
@@ -290,7 +313,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4081567493298694380
+        ParentId: 6148757241043131158
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -312,6 +335,15 @@ Assets {
       }
     }
     Assets {
+      Id: 13425107253614129883
+      Name: "Metal Gold 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_gold_001"
+      }
+    }
+    Assets {
       Id: 12794067889334597155
       Name: "Fantasy Mace Head 01"
       PlatformAssetType: 1
@@ -327,6 +359,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_fan_grip_sword_001"
+      }
+    }
+    Assets {
+      Id: 5825015806398044810
+      Name: "Metal Old Beaten Gold 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_gold_002"
       }
     }
     PrimaryAssetId {

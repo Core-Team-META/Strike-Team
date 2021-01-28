@@ -101,9 +101,10 @@ end
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     player.serverUserData.NetworkSpawn = World.SpawnAsset(NETWORKSPAWN)
-
+    if Data["Loadouts"] then
     for key, value in pairs(Data["Loadouts"]) do
         player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("Loadouts"..key, Data["Loadouts"][key] )
+    end
     end
     --[[
         for key, value in pairs(Data["Loadouts"]) do

@@ -194,7 +194,6 @@ Assets {
               SubObjectId: 10903658076612712154
             }
             ReloadAbility {
-              SubObjectId: 16665890196376708431
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"

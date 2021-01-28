@@ -2199,7 +2199,7 @@ Objects {
     Overrides {
       Name: "cs:LoadoutKey"
       NetReference {
-        Key: "f60d2d55cd8e472ea5abc1a0384bca18"
+        Key: "e5b0a123233e4117aa5d09b213df9522"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

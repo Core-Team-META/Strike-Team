@@ -1,12 +1,12 @@
 Assets {
-  Id: 1076373226328617956
+  Id: 9705852131755352334
   Name: "Mace_Skin"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 6840874957063645498
+      RootId: 6491094443489509925
       Objects {
-        Id: 6840874957063645498
+        Id: 6491094443489509925
         Name: "Mace_Skin"
         Transform {
           Scale {
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 15539404425807170020
-        ChildIds: 6721440242059810563
-        ChildIds: 15255052186706893966
+        ChildIds: 8819934712291894668
+        ChildIds: 4081567493298694380
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -31,7 +31,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6721440242059810563
+        Id: 8819934712291894668
         Name: "Blade"
         Transform {
           Location {
@@ -46,9 +46,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6840874957063645498
-        ChildIds: 13352480545725004379
-        ChildIds: 4960600188352330991
+        ParentId: 6491094443489509925
+        ChildIds: 17888222125913057312
+        ChildIds: 9005810230929831660
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -60,7 +60,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13352480545725004379
+        Id: 17888222125913057312
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -78,7 +78,7 @@ Assets {
             Z: 0.40568319
           }
         }
-        ParentId: 6721440242059810563
+        ParentId: 8819934712291894668
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -127,7 +127,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4960600188352330991
+        Id: 9005810230929831660
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -146,7 +146,7 @@ Assets {
             Z: 0.723438323
           }
         }
-        ParentId: 6721440242059810563
+        ParentId: 8819934712291894668
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -157,7 +157,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 9781174597633755215
             }
           }
           Overrides {
@@ -166,33 +166,11 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 3.51357651
+            Float: 0.264995307
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 10.157361
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 9781174597633755215
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:utile"
-            Float: 4.22599363
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:vtile"
-            Float: 3.51357651
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.940000057
-              G: 0.466887474
-              A: 1
-            }
+            Float: 1.84128761
           }
         }
         Collidable_v2 {
@@ -217,7 +195,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15255052186706893966
+        Id: 4081567493298694380
         Name: "Handle"
         Transform {
           Location {
@@ -232,9 +210,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6840874957063645498
-        ChildIds: 2556710922145140694
-        ChildIds: 10725737044992760735
+        ParentId: 6491094443489509925
+        ChildIds: 10045833964848665299
+        ChildIds: 18263825506429046292
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -246,7 +224,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2556710922145140694
+        Id: 10045833964848665299
         Name: "Hatchet - Handle"
         Transform {
           Location {
@@ -265,14 +243,14 @@ Assets {
             Z: 1.04017735
           }
         }
-        ParentId: 15255052186706893966
+        ParentId: 4081567493298694380
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:color"
             Color {
-              R: 0.583
-              G: 0.528897643
-              B: 0.312488019
+              R: 0.130208
+              G: 0.100087322
+              B: 0.0916664302
               A: 1
             }
           }
@@ -299,7 +277,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10725737044992760735
+        Id: 18263825506429046292
         Name: "Point_Blade"
         Transform {
           Location {
@@ -312,7 +290,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15255052186706893966
+        ParentId: 4081567493298694380
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -340,15 +318,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_fan_head_mace_002"
-      }
-    }
-    Assets {
-      Id: 17758469563435218554
-      Name: "Burning Wood"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_burning_erode"
       }
     }
     Assets {
