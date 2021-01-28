@@ -63,8 +63,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16308489428754801504
-  Name: "SprayWheel"
+  Id: 14845490599751017553
+  Name: "Scroll"
   Transform {
     Location {
     }
@@ -77,15 +77,69 @@ Objects {
     }
   }
   ParentId: 10671565427701169845
+  ChildIds: 16972617014770214029
+  ChildIds: 3741216719953794354
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 3741216719953794354
+  Name: "ScrollUpdate"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14845490599751017553
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "SprayWheel"
+  Script {
+    ScriptAsset {
+      Id: 16569237408567915724
+    }
+  }
+}
+Objects {
+  Id: 16972617014770214029
+  Name: "ZoomToScroll"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14845490599751017553
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11782124598027931862
+    }
   }
 }
 Objects {

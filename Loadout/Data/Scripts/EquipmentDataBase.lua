@@ -1,6 +1,15 @@
 _G["EquipmentData"] = {}
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local Equipment = require(script:GetCustomProperty("Equipment"))
+local Rarity = require(script:GetCustomProperty("Rarity"))
+
+local Raritys = {
+    ["None"]  =Rarity.New("None",0,99,0,0),
+    ["Common"] =Rarity.New("Common",1000,1,1,0),
+    ["Rare"]  =Rarity.New("Rare",2000,2,2,5),
+    ["Epic"]  =Rarity.New("Epic",15000,3,3,10),
+    ["Legendary"]  =Rarity.New("Legendary",50000,4,4,15),
+}
 
 local Database = {} 
 Database.__index = Database
@@ -17,20 +26,8 @@ function Database:GetDatabase()
     return self.data
 end
 
-function Database.ReturnRarity(rarity)
-    local VALUETABLE = {
-        ["None"] = 99,
-        ["Common"] = 1,
-        ["Rare"] = 2,
-        ["Epic"] = 3,
-        ["Legendary"] = 4,
-    }
-    return VALUETABLE[rarity] or 0
-end
-
 function Database.ReturnSkinRarity(Skin)
-    if not Skin then return 0 end
-    return Database.ReturnRarity(Skin.rarity)   
+    return Skin.rarity:GetRank()
 end
 
 function Database:SetupItemWithSkin(id)
@@ -134,7 +131,7 @@ function Database.SetupSkin( id, skin, level, ads, name, rarity,isEvent )
     NewSkin["level"] = level or 0
     NewSkin["ads_skin"] = ads
     NewSkin["name"] = name or "NoName"
-    NewSkin["rarity"] = rarity or "None"
+    NewSkin["rarity"] = Raritys[rarity] or Raritys["None"]
     NewSkin["event"] = isEvent or false
     return NewSkin
 end

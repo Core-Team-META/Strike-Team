@@ -18,6 +18,7 @@ local Func
 local Data 
 while not LOCAL_PLAYER.clientUserData.Storage do Task.Wait() end
 local Storage =  LOCAL_PLAYER.clientUserData.Storage
+local StarsUI = script:GetCustomProperty("Stars")
 
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
@@ -81,7 +82,11 @@ function ReturRarityColour( rarity )
         ["Epic"] = Rarity_Epic,
         ["Legendary"] = Rarity_Legendary,
     }
-    return VALUETABLE[rarity] or Color.WHITE
+    return VALUETABLE[rarity.name] or Color.WHITE
+end
+
+function ReturRarityCount( rarity )
+    return rarity:GetRank()
 end
 
 function ReturnSkinRarityColour( skin )
@@ -135,7 +140,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         Events.Broadcast("UnHoverItem")
         --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
     end)    
-
+    if item:GetSlot() == ("Perks" or "Equipment") then return newpanel end
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
     local x,y = GlobalPixel.ToWorld(newpanel)
@@ -203,6 +208,12 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
     local HilightPanel = newpanel:GetCustomProperty("HilightPanel"):WaitForObject()
     
+    for i=1,ReturRarityCount(skins[i].rarity) do
+        local star = World.SpawnAsset(StarsUI,{parent = newpanel } )
+        star.x = -30 * (i-1) 
+        star.y = -10
+    end
+
     Ntext.text = skins[i].name
     Ttext.text = item:GetName()
     HilightPanel:SetColor(ReturnSkinRarityColour(skins[i]))

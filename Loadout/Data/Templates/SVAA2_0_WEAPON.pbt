@@ -185,7 +185,6 @@ Assets {
               SubObjectId: 6712802972251624407
             }
             ReloadAbility {
-              SubObjectId: 16554379982081698380
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:followlookvector"

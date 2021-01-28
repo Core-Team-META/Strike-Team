@@ -2,28 +2,17 @@ local PurchaseAPI = {}
 
 PurchaseAPI.__index = PurchaseAPI
 
-local Prices = {
-    ["None"] = 0,
-    ["Common"] = 1000,
-    ["Rare"] = 2000,
-    ["Epic"] = 15000,
-    ["Legendary"] = 50000,
-}
-
-
 function PurchaseAPI.ReturnPrice(rarity)
-    if Prices[rarity] then 
-        return Prices[rarity] 
-    else 
-        return 9999
-    end 
+    return rarity:GetCost()
 end
 
-function PurchaseAPI.VerifySkin(player, Weapon,skin,rarity)
+function PurchaseAPI.VerifySkin(player, Weapon,skin,rarity,level)
     if skin and Weapon then 
         if PurchaseAPI.GetStorage(player):HasSkin(Weapon,skin) then 
             return 3 
-        else 
+        elseif player:GetResource('Level') < level then 
+            return 4
+        else
             if PurchaseAPI.ReturnPrice(rarity) > player:GetResource('Cash') then 
                 return 2 
             else 
@@ -55,8 +44,8 @@ if Environment.IsServer() then
         return player.serverUserData.Storage 
     end
 
-    function PurchaseAPI.BuySkin(player, Weaponid,skinid,rarity)
-        local Code = PurchaseAPI.VerifySkin(player, Weaponid,skinid,rarity)
+    function PurchaseAPI.BuySkin(player, Weaponid,skinid,rarity,level)
+        local Code = PurchaseAPI.VerifySkin(player, Weaponid,skinid,rarity,level)
 
         if Code == 1 then
             local price = PurchaseAPI.ReturnPrice(rarity)
@@ -112,6 +101,7 @@ if Environment.IsServer() then
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         player:SetResource("Cash", data["Cash"] or 0)
         player:SetResource("Credits", data["Credits"] or 0)
+        player:SetResource("Level", data["Level"] or 0)
     end
 
     Events.ConnectForPlayer("PurchaseAPI.BuySkin", PurchaseAPI.BuySkin)
@@ -128,9 +118,9 @@ if Environment.IsClient() then
     end
         
     function PurchaseAPI.BuySkin(Weapon,skin)
-        local returnCall = PurchaseAPI.VerifySkin(Game.GetLocalPlayer(), Weapon.data.id,skin.id,skin.rarity) 
+        local returnCall = PurchaseAPI.VerifySkin(Game.GetLocalPlayer(), Weapon.data.id,skin.id,skin.rarity,skin.level) 
         if returnCall == 1 then
-            Events.BroadcastToServer("PurchaseAPI.BuySkin", Weapon.data.id,skin.id,skin.rarity)
+            Events.BroadcastToServer("PurchaseAPI.BuySkin", Weapon.data.id,skin.id,skin.rarity,skin.level)
         end
         return returnCall
     end

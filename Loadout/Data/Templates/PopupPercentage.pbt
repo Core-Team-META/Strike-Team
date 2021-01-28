@@ -33,7 +33,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 457
+          Width: 500
           Height: 183
           RenderTransformPivot {
             Anchor {

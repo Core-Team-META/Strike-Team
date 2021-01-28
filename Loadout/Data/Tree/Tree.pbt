@@ -308,7 +308,7 @@ Objects {
     Width: 42
     Height: 58
     UIX: 513.434
-    UIY: 983.069
+    UIY: 972.86554
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -31254,6 +31254,9 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      X: 70.1005707
+      Y: -733.446472
+      Z: -554.558655
     }
     Rotation {
     }
@@ -31314,6 +31317,10 @@ Objects {
         B: 0.752942204
         A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Use Captured Sky"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -31593,12 +31600,11 @@ Objects {
           Value: "mc:echatmode:none"
         }
         ChatPosition {
-          X: -73.9881592
-          Y: -86.020813
+          Y: -83.7797852
         }
         ChatSize {
-          X: 426.41214
-          Y: 175
+          X: 592.323608
+          Y: 180.436218
         }
         ChatHorizontalAlignment {
           Value: "mc:ecorehorizontalalign:center"

@@ -24,7 +24,6 @@ function VerifyWeapon(player,data,default)
     end
 end
 
-
 function VerifySaveData(player,data)
     local Dat = { CoreString.Split(data, "-")}
     local primary = VerifyWeapon(player,Dat[1],"HK_00")

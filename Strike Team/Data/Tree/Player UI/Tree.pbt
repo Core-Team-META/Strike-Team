@@ -1424,6 +1424,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15641979669957427462
+      value {
+        Overrides {
+          Name: "cs:Offset"
+          Vector2 {
+            Y: -10
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 17887227721939324403
     }
@@ -1510,6 +1521,12 @@ Objects {
         Overrides {
           Name: "cs:TYPE"
           String: "Melee"
+        }
+        Overrides {
+          Name: "cs:Offset"
+          Vector2 {
+            Y: -20
+          }
         }
       }
     }
@@ -4970,8 +4987,8 @@ Objects {
   Control {
     Width: 213
     Height: 44
-    UIX: 36.3090363
-    UIY: -246.0755
+    UIX: -207.943161
+    UIY: -29.4771729
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4987,7 +5004,7 @@ Objects {
       }
       Size: 14
       Justification {
-        Value: "mc:etextjustify:center"
+        Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
     }
