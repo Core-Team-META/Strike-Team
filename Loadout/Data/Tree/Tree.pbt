@@ -1230,7 +1230,7 @@ Objects {
 }
 Objects {
   Id: 65150042230850511
-  Name: "LootBox"
+  Name: "LootBoxUI"
   Transform {
     Location {
     }
@@ -1251,7 +1251,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "LootBox"
+    FilePartitionName: "LootBoxUI"
   }
 }
 Objects {

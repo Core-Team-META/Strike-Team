@@ -1,4 +1,4 @@
-Name: "LootBox"
+Name: "LootBoxUI"
 RootId: 65150042230850511
 Objects {
   Id: 12818879518364434860
