@@ -11,7 +11,7 @@ end
 function Equipment:SpawnEquipment()
     if(self.data.weapon) then
         self.data.spawnItem = World.SpawnAsset(self.data.weapon)
-        if not ( self:GetSlot() == "Perks" or self:GetSlot() == "Equipment") then
+        if( self:GetSlot() ~= ("Perks" or "Equipment")) then
             if(self:GetEquippedSkin() ) then
                 World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
             end

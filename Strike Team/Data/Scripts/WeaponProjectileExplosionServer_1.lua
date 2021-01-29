@@ -71,9 +71,6 @@ function Blast(center)
             canDamage = true
         end
 
-        if WEAPON.owner == player then
-            canDamage = true
-        end
         -- If canDamage is true and there is no objects obstructing the explosion then damage the player
         if canDamage then
             local displacement = player:GetWorldPosition() - center

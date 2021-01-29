@@ -223,7 +223,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.05
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -233,7 +233,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.1
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -244,14 +244,14 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.1
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.75
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -360,10 +360,6 @@ Assets {
             AssetReference {
               Id: 9702982403106980693
             }
-          }
-          Overrides {
-            Name: "cs:FriendlyExplosionDamage"
-            Bool: false
           }
         }
         WantsNetworking: true
