@@ -210,7 +210,7 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     
     for i=1,ReturRarityCount(skins[i].rarity) do
         local star = World.SpawnAsset(StarsUI,{parent = newpanel } )
-        star.x = -30 * (i-1) 
+        star.x = -30 * (i-1) - 10
         star.y = -10
     end
 

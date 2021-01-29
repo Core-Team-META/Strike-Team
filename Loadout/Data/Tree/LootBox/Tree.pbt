@@ -2051,9 +2051,9 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
-      Y: -4.19616699e-05
-      Z: -15
+      X: 30.0000114
+      Y: -6.48498535e-05
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -2425,8 +2425,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
-      Z: -15
+      X: 29.9999962
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -2799,9 +2799,9 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
-      Y: 4.19616699e-05
-      Z: -15
+      X: 30.0000114
+      Y: 6.38961792e-05
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -3173,7 +3173,7 @@ Objects {
   Transform {
     Location {
       X: 30
-      Z: -15
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -3546,9 +3546,9 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
-      Y: -4.19616699e-05
-      Z: -15
+      X: 30.0000114
+      Y: -6.38961792e-05
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -3920,8 +3920,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
-      Z: -15
+      X: 29.9999962
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -4294,9 +4294,9 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
-      Y: 4.19616699e-05
-      Z: -15
+      X: 30.0000229
+      Y: 4.95910645e-05
+      Z: -2.16123199
     }
     Rotation {
     }
@@ -4668,9 +4668,9 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 30
+      X: 29.9999924
       Y: -1.07288352e-05
-      Z: -15
+      Z: -2.16123199
     }
     Rotation {
     }
