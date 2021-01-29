@@ -664,7 +664,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -706,7 +705,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -749,7 +747,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -807,7 +804,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -848,7 +844,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -889,7 +884,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -930,7 +924,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -980,7 +973,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1215,5 +1207,5 @@ Assets {
       AssetId: "Advanced_Shotgun"
     }
   }
-  SerializationVersion: 75
+  SerializationVersion: 74
 }

@@ -97,7 +97,6 @@ Assets {
           }
           Teams {
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -248,7 +247,6 @@ Assets {
           }
           Teams {
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -270,5 +268,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 75
+  SerializationVersion: 74
 }

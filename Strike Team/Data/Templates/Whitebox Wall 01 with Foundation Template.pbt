@@ -58,7 +58,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -96,7 +95,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -127,5 +125,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_with_Foundation_Template"
     }
   }
-  SerializationVersion: 75
+  SerializationVersion: 74
 }

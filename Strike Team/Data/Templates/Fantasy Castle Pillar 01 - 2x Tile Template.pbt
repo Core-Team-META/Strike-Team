@@ -59,7 +59,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -97,7 +96,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -135,7 +133,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -175,5 +172,5 @@ Assets {
       AssetId: "Fantasy_Castle_Pillar_01_-_2x_Tile_Template"
     }
   }
-  SerializationVersion: 75
+  SerializationVersion: 74
 }
