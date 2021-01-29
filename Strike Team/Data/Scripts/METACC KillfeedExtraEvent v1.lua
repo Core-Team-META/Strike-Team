@@ -1,12 +1,16 @@
 ﻿--[[
-    use {arg1} {arg2} {arg3} etc to do wierd stuff
+    name: KillfeedExtraEvent NR
+    author: Aj
+    
+    This is a diet version of the AjKillFeedManagerClient v3 NR. Though this only handles send out a line whenever its event is fired off.
 ]]
+
+--exposed to user
 local EVENT_NAME = script:GetCustomProperty("EventName")
 local MESSAGE = script:GetCustomProperty("Message")
 local TEXT_COLOR = script:GetCustomProperty("TextColor")
 local ICON = script:GetCustomProperty("Icon")
 local ICON_COLOR = script:GetCustomProperty("IconColor")
-local IS_REACTABLE = script:GetCustomProperty("IsReactable")
 local USE_ICON = script:GetCustomProperty("UseIcon")
 
 --setup variables from the master killfeed manager
@@ -14,13 +18,12 @@ while not _G.AjKillFeed do
     --wait for the _G table to be init
     Task.Wait()
 end
+--setup static vars from Client manager
 local SINGLE_LINE = _G.AjKillFeed.singleLine
 local AUU = _G.AjKillFeed.apiUIUtilities
 local LINE_DURATION = _G.AjKillFeed.lineDuration
 local SPAWN_PANEL = _G.AjKillFeed.spawnPanel
 local LINE_NUM  =_G.AjKillFeed.lineNum
-local ALLOW_REACTING = _G.AjKillFeed.AllowReacting
-local REACTION_BINDING = _G.AjKillFeed.ReactionBinding
 local TEXT_BOX_TEMPL = _G.AjKillFeed.TextBoxTempl
 local UI_IMAGE_TEMPL = _G.AjKillFeed.UiImageTempl
 local TCU = _G.AjKillFeed.TextCountingUtils
@@ -28,13 +31,18 @@ local LINE_HEIGHT = _G.AjKillFeed.lineHeight
 local FONT_SIZE = _G.AjKillFeed.fontSize
 local HEIGHT_PADDING = _G.AjKillFeed.heightPadding
 local WIDTH_PADDING = _G.AjKillFeed.widthPadding
+local LINE_SPACING = _G.AjKillFeed.lineSpacing
 
-if(EVENT_NAME == "") then error("Can't have \"EventName\" be empty") end
-if(MESSAGE == "") then error("You left \"Message\" empty") end
-if(not ALLOW_REACTING and IS_REACTABLE) then
-    warn("Event: \"" .. EVENT_NAME .. "\" is marked as \"reactable\", but reaction system is disabled")
+--error checking
+if(EVENT_NAME == "") then 
+    error("Can't have \"EventName\" be empty") 
 end
 
+if(MESSAGE == "") then 
+    error("You left \"Message\" empty") 
+end
+
+--basically the same as client manager
 local function updateCurrentLines()
     --delete lines excess lines
     while(#_G.AjKillFeed.currentLines > LINE_NUM) do
@@ -46,10 +54,11 @@ local function updateCurrentLines()
 
     --move up existing lines
     for i,v in ipairs(_G.AjKillFeed.currentLines) do
-        AUU.MoveTo(v,Vector2.New(0,(v.height * (i-1))),0.05,true)
+        AUU.MoveTo(v,Vector2.New(0,((v.height + LINE_SPACING) * (i-1))),0.05,true)
     end
 end
 
+--this handles splitting the message apart and putting {arg} in
 local function splitAndInject(string,delimiter,arg)
     local parts = {CoreString.Split(string,delimiter)}
 
@@ -66,6 +75,7 @@ local function splitAndInject(string,delimiter,arg)
     return finalString
 end
 
+--this will format the message with the given args from the event
 local function getProperFormattedString(arg1,arg2,arg3)
     local finalString = MESSAGE
     --wish i had *args
@@ -84,6 +94,7 @@ local function getProperFormattedString(arg1,arg2,arg3)
     return finalString
 end
 
+--this breaks apart the message so that icons can replace {icon}
 local function getIconSegmentedString(arg1,arg2,arg3)
     if(MESSAGE == "") then
         return nil
@@ -95,6 +106,7 @@ local function getIconSegmentedString(arg1,arg2,arg3)
     return parts
 end
 
+--from client manager
 local function calculateOffset(lc)
     local offset = WIDTH_PADDING
     for i,v in ipairs(lc) do
@@ -104,6 +116,7 @@ local function calculateOffset(lc)
     return offset
 end
 
+--from client manager
 local function standardizeElement(lineContent,element)
 
     element.height = LINE_HEIGHT
@@ -119,7 +132,9 @@ local function standardizeElement(lineContent,element)
     table.insert(lineContent,element)
 end
 
+--a variation of the versio from client manager
 local function AddDoubleLine(arg1,arg2,arg3)
+
     --reset line timer
     _G.AjKillFeed.curDur = LINE_DURATION
     --spawn new line at maximum
@@ -130,21 +145,22 @@ local function AddDoubleLine(arg1,arg2,arg3)
     
     if(USE_ICON) then
         for i,string in ipairs(messageParts) do
-                if string ~= "" then
+                if string ~= "" then --don't create a text object if there's no string
                     local curText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
                     curText.text = string
                     curText:SetColor(TEXT_COLOR)
                     standardizeElement(lineContent,curText)
                 end
 
-                if i ~= #messageParts then
+                if i ~= #messageParts then --we don't draw one at the very last message part b/c reasons
                     local curIcon = World.SpawnAsset(UI_IMAGE_TEMPL,{parent = line})
                     curIcon:SetImage(ICON)
                     curIcon:SetColor(ICON_COLOR)
                     standardizeElement(lineContent,curIcon)
                 end
         end
-    else
+
+    else --no need for ocn management...
         local curText = World.SpawnAsset(TEXT_BOX_TEMPL,{parent = line})
         curText.text = getProperFormattedString(arg1,arg2,arg3)
         print(curText.text)
@@ -152,29 +168,19 @@ local function AddDoubleLine(arg1,arg2,arg3)
         standardizeElement(lineContent,curText)
     end
 
-    for i,v in ipairs(lineContent) do
-        line.width = line.width + v.width + WIDTH_PADDING
+    for _,ui in ipairs(lineContent) do
+        line.width = line.width + ui.width + WIDTH_PADDING
     end
     
     line.width = line.width + WIDTH_PADDING --extra one for the right side
     
     line.x = 0
     line.y = SPAWN_PANEL.height
-    --AUU.LerpAlphaChildren(line,1,0.05)
+    
     --insert
     table.insert(_G.AjKillFeed.currentLines,line)
-    AUU.MoveTo(line,Vector2.New(0,(line.height * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
+    AUU.MoveTo(line,Vector2.New(0,((line.height + LINE_SPACING) * (#_G.AjKillFeed.currentLines - 1))),0.05,true)
     updateCurrentLines()
 end
 
-function AddEventLine(arg1,arg2,arg3)
-
-    if(IS_REACTABLE and _G.AjKillFeed.LocalReactionToggle) then
-        Events.Broadcast("AR",EVENT_NAME,arg1,arg2,arg3)
-    end
-
-    AddDoubleLine(arg1,arg2,arg3)
-end
-
-
-Events.Connect(EVENT_NAME,AddEventLine)
+Events.Connect(EVENT_NAME,AddDoubleLine)

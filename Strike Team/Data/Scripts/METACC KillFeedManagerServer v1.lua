@@ -1,12 +1,17 @@
 ﻿--[[
-    Events.BroadcastToAllPlayers("PK",Killer,Killed,sourceId)
+    name: AjKillFeedManagerServer v3 NR
+    author: Aj
+
+    This is the server script for the kill feed v3, this mainly deals with sending out Event broadcasts.
+    This is a very broadcast-heavy module
 ]]
+
+
+local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 
 local ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 
 local SHOW_EQUIPMENT_NAME = ROOT:GetCustomProperty("UseEquipmentId")
-
-local REACTION_OBJECT = script:GetCustomProperty("ReactionObject")
 
 --removes unnecessary words
 function GetShortId(obj)
@@ -24,8 +29,10 @@ end
     2 : World kill
     3 : Suicide
 ]]
+
 local function getExtraCode(dmg,theKilled)
     if not dmg then return end
+
     --check for headshot
     if(dmg:GetHitResult()) then
         local hitRes = dmg:GetHitResult()
@@ -36,7 +43,7 @@ local function getExtraCode(dmg,theKilled)
         end
     end
 
-    --ckec for world kill
+    --check for world kill
     if(dmg.reason == DamageReason.MAP) then
         return 2
     end
@@ -54,43 +61,17 @@ function OnPlayerDied(player, damage)
     if damage.sourceAbility and SHOW_EQUIPMENT_NAME then --use equipment name
         local equipment = damage.sourceAbility:FindAncestorByType("Equipment")
 
-        while Events.BroadcastToAllPlayers("PK",damage.sourcePlayer, player,GetShortId(equipment),getExtraCode(damage,player)) == BroadcastEventResultCode.EXCEEDED_RATE_LIMIT do
-            Task.Wait()
-        end
-        
+        ReliableEvents.BroadcastToAllPlayers("PK",damage.sourcePlayer, player,GetShortId(equipment),getExtraCode(damage,player))
+
     elseif damage.sourceAbility then --use abilty name
 
-        while Events.BroadcastToAllPlayers("PK",damage.sourcePlayer, player,GetShortId(damage.sourceAbility),getExtraCode(damage,player)) == BroadcastEventResultCode.EXCEEDED_RATE_LIMIT do
-            Task.Wait()
-        end
+        ReliableEvents.BroadcastToAllPlayers("PK",damage.sourcePlayer, player,GetShortId(damage.sourceAbility),getExtraCode(damage,player))
 
-    else
-        while Events.BroadcastToAllPlayers("PK",damage.sourcePlayer, player,nil,getExtraCode(damage,player)) == BroadcastEventResultCode.EXCEEDED_RATE_LIMIT do
-            Task.Wait()
-        end
-        
+    else --not sure use default
+
+        ReliableEvents.BroadcastToAllPlayers("PK",damage.sourcePlayer, player,nil,getExtraCode(damage,player))
+
 	end
-end
-
-function OnReactFromPlayer(player,eventName,isPositive,eventIndex,arg1,arg2,arg3)
-    local e = World.SpawnAsset(REACTION_OBJECT)
-    if(arg1) then
-        e:SetNetworkedCustomProperty("Arg1", tostring(arg1))
-    end
-
-    if(arg2) then
-        e:SetNetworkedCustomProperty("Arg2", tostring(arg2))
-    end
-
-    if(arg3) then
-        e:SetNetworkedCustomProperty("Arg3", tostring(arg3))
-    end
-
-    e:SetNetworkedCustomProperty("IsPositive",isPositive)
-    Task.Wait()
-
-    e:SetNetworkedCustomProperty("EventIndex", eventIndex)
-    e:SetNetworkedCustomProperty("EventName", eventName)
 end
 
 function OnPlayerJoined(player)
@@ -110,12 +91,10 @@ function OnPlayerLeft(player)
     end 
 end
 
-if ROOT:GetCustomProperty("ShowJoinAndLeave") or ROOT:GetCustomProperty("ShowKills") then
+if ROOT:GetCustomProperty("ShowJoinAndLeave") or ROOT:GetCustomProperty("ShowKills") then --reason why we have 2 checks here is so we can be more efficient about connecting the event
     Game.playerJoinedEvent:Connect(OnPlayerJoined)
 end
 
 if ROOT:GetCustomProperty("ShowJoinAndLeave") then
     Game.playerLeftEvent:Connect(OnPlayerLeft)
 end
-
-Events.ConnectForPlayer("R",OnReactFromPlayer)

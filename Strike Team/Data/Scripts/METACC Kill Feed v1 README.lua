@@ -11,22 +11,22 @@
     just click on the "Kill Feed v2" folder and customize the options there
 
     "ShowJoinAndLeave"  : will drop a line when a player joins or leaves
+    "UseTeamColors"     : Will display anybody not on your team as RED and anyone on your team as BLUE 
     "UseEquipmentId"    : When searching for an icon to use, it will attempt to use the Equipment's Id instead of it's name, first.
     "ShowKills"         : will drop a line whenever a player is killed, you most likely want this on
     "UseIconsOnKill"    : if on, it will display an icon instead of just text on the kill event (see "ICONS")
+    "UsePlayerIcons"    : if on, it will display the player's icon next to the player. (Extra events are exempt from this)
 
     "NumLines"          : is the maximum amount of lines displayed at once, before cleanup
     "LineDuration"      : is the maximum amount of time before lines are naturally cleaned up (all at once, not one at a time)
+    "LineHeight"        : The height of each line spawned
+    "HeightPadding"     : The spacing between the text and the top and bottom of the line
+    "WidthPadding"      : The spacing between the text and the left and right of the line
+    "LineSpacing"       : The amount of space inbetween each line
     "SelfTextColor"     : the color of the line when the local player is involved (Extra events are exempt from this)
     "TextColor"         : the color of the text normally
 
     "LineTemplate"      : is the template for a line (see "TEMPLATE PARAMETERS")
-
-    "AllowReacting"     : will enable/disable the reaction system (see "REACTION SYSTEM")
-    "KillsAreReactable" : will allow any kill to be reacted to
-    "ReactionTime"      : the maximum amount of time a player has to react to an event.
-    "ReactionBinding"   : the button to press to react
-    "ReactionPanel"     : the template for a "reaction" (see "TEMPLATE PARAMETERS")
 ]]
 
 --[[ ICONS
@@ -37,7 +37,7 @@
 
     2) Setup its custom properties
         "UseTemplate"       : will search for this icon using the weapon template instead of a name
-        "Name"              : will use this to search for this icon
+        "Name"              : will use this to search for this icon, if "UseTemplate" is not checked
         "EquipmentTemplate" : The asset refrence to the templetized weapon to search for (if using "UseTemplate")
         "Icon"              : the UI texture refrence that is used in the killfeed
         "Color"             : the color override for the UI texture
@@ -49,8 +49,8 @@
     "Default"   : Uses this icon when there is no other available icon on a kill
     "Joined"    : Uses this icon when a player joins
     "Left"      : Uses this icon when a player leaves
-    "WorldKill" : Uses this icon when the damage reason is DamageReason.MAP
-    "Headshot"  : Uses this icon when the killing Damage.socket is "head"
+    "WorldKill" : Uses this icon when the damage reason is DamageReason.MAP (appends itself)
+    "Headshot"  : Uses this icon when the killing Damage.socket is "head" (appends itself)
     
 ]]
 
@@ -69,7 +69,6 @@
         - "UseIcon"     : will use the given icon
         - "Icon"        : is the icon to use
         - "IconColor"   : The color override for the UI texture
-        - "IsReactable" : will allow this event to be reacted to (see REACTION SYSTEM)
 
     EVENT FORMATTING
     When sending out a broadcast for an extra event, you can send out up to 3 extra arguments like so:
@@ -79,52 +78,23 @@
 
 ]]
 
---[[ REACTION SYSTEM
-    The reaction system allows players to press a button to react to an event that has just occured (such as a player being killed)
-
-    When a player reacts, a flying text will shoot across the screen with a predefined message.
-        - These messages can be changed in the "ReactionsModule" script
-        - The player reacts to the most recent event, not the oldest
-        - When the reaction time runs out, it will remove reactability to the oldest event
-        - The message that is sent is sent to every player, it will be the same message for everyone
-
-    REACTION MODULE
-    The "ReactionsModule" script is simple script that doesn't need to ever exist in the hierarchy.
-    USAGE
-    1) open the "ReactionsModule" script
-    2) somewhere after line 21, not inside another table, and above the "return API" line; create a new table, formated as such:
-        - API["EventName"] = {
-            "Some line",
-            "Some line 2"
-        }
-    3) you can use: "{arg1}" "{arg2}" "{arg3}" for dynamic, customized messages
-        -See the "ReactionsModule" for more information
-
-    3) make sure that each line EXCEPT THE LAST has a comma after the end quote
-        -note that "Default" , "Joined" , "Left" , and "Killed" are optional reactions, you may remove or change these if you would like
-]]
-
 --[[ TEMPLATE PARAMETERS (advanced)
-    If you want to create your own templates / looks for the UI used, They should include the following (Though I do suggest editing the currently existing ones instead):
 
-    LineSingle (single line)
-    -Root should be a "UIPanel"
-        - OPTIONALLY "Anchor" and "Dock" be set to "Top Right" (the system was built with these being "Top Right")
+    I don't suggest to tamper with the line template, but if you do:
+    As the killfeed is almost completely generated at runtime, we need to maek sure that things scale accordingly
 
+    When saved make sure that the immediate child's parameters are set to these:
+        Inherit Parent Width = True
+        Inherit Parent Height = True
+        Add Self Size to Inherited Size = True
+        Anchor = Middle Center
+        Dock = Middle Center
 
-    ReactionPanel (Reaction object)
-    - This one is a lot more complicated to work out
-    - Root should be a "ClientContext"
-        - Requires 2 NETWORKED custom properties
-            - "EventIndex" (int) set its default to "-1"
-            - "EventName" (string) set its default to "nil" 
-    - There should be a "ReactionSetScriptClient"
-        - fill out the custom properties
-        - this actually controls the movement of the text, without this, the whole thing won't work
-    - There should be a UI Container
-    - A "UIPanel" should be the child of the UI Container
-        -Requires 1 custom property
-            - "Text" (Core Object Refrence), it should be refrencing a "UIText" inside of itself
-
-
+    The "immediate child" is any descendant of the "AjKillFeedLine v2" template (which is a UI Panel)
+    After that, make sure any element under the immediate child also has
+        Inherit Parent Width = True
+        Inherit Parent Height = True
+        Add Self Size to inherited Size = True 
 ]]
+
+--if you read the entire README and peeked at the code already and you still have questions, message me on Discord at: KMNS Junster09#1707

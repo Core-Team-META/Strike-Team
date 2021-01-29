@@ -1,8 +1,74 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
-  Id: 12641997425426871851
-  Name: "Aj Kill Feed v3.5"
+  Id: 16684695099096413322
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  ChildIds: 11461055185683503560
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 11461055185683503560
+  Name: "SwitchMinimap"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16684695099096413322
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MiniMapPanel"
+      ObjectReference {
+        SelfId: 15538822859928374011
+      }
+    }
+    Overrides {
+      Name: "cs:KillFeedPanel"
+      ObjectReference {
+        SelfId: 1781393556377687926
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7047831786273347719
+    }
+  }
+}
+Objects {
+  Id: 8582950651250965095
+  Name: "METACC Kill Feed v1"
   Transform {
     Location {
     }
@@ -22,7 +88,7 @@ Objects {
     }
     Overrides {
       Name: "cs:UseTeamColors"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:UseEquipmentId"
@@ -85,48 +151,8 @@ Objects {
     Overrides {
       Name: "cs:LineTemplate"
       AssetReference {
-        Id: 15006363769250822773
+        Id: 10803451839470039604
       }
-    }
-    Overrides {
-      Name: "cs:AllowReacting"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:AllowSelfReaction"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:KillsAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:HeadshotsAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:SuicidesAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:WorldKillsAreReactable"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:ReactionTime"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:ReactionPositiveBinding"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:ReactionNegativeBinding"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:ReactionToggleBinding"
-      String: ""
     }
     Overrides {
       Name: "cs:ShowJoinAndLeave:tooltip"
@@ -148,10 +174,6 @@ Objects {
       Name: "cs:SelfTextColor:tooltip"
       String: "Color for events that involve the local player"
     }
-    Overrides {
-      Name: "cs:AllowReacting:tooltip"
-      String: "Allow use of the reaction system"
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -161,80 +183,14 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Aj Kill Feed v3_5"
+    FilePartitionName: "METACC Kill Feed v1"
   }
   InstanceHistory {
-    SelfId: 13677693431599875088
-    SubobjectId: 15205324312473118814
-    InstanceId: 14026017173614675027
-    TemplateId: 14963934029540585127
+    SelfId: 8582950651250965095
+    SubobjectId: 16380849681345743960
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
     WasRoot: true
-  }
-}
-Objects {
-  Id: 16684695099096413322
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10477958480793043052
-  ChildIds: 11461055185683503560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 11461055185683503560
-  Name: "SwitchMinimap"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16684695099096413322
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:MiniMapPanel"
-      ObjectReference {
-        SelfId: 15538822859928374011
-      }
-    }
-    Overrides {
-      Name: "cs:KillFeedPanel"
-      ObjectReference {
-        SelfId: 17410865497502670873
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7047831786273347719
-    }
   }
 }
 Objects {
@@ -385,7 +341,7 @@ Objects {
   Control {
     Width: 350
     Height: 350
-    UIX: -20
+    UIX: 20
     UIY: 20
     RenderTransformPivot {
       Anchor {
@@ -397,12 +353,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:topleft"
         }
       }
     }
