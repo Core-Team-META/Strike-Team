@@ -2,7 +2,7 @@ Assets {
   Id: 4976209145889265443
   Name: "Custom Base Material from Modern Weapon - Grip 04"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 75
   CustomMaterialAsset {
     BaseMaterialId: 18339968451170207572
     ParameterOverrides {

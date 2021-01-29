@@ -46,5 +46,5 @@ Assets {
     Version: "1.4.0"
     Description: "Minimap component that converts from 3D geometry to 2D images."
   }
-  SerializationVersion: 74
+  SerializationVersion: 75
 }

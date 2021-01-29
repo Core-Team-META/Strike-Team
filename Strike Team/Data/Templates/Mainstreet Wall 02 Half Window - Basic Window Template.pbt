@@ -32,6 +32,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -70,6 +71,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -100,5 +102,5 @@ Assets {
       AssetId: "Mainstreet_Wall_02_Half_Window_-_Basic_Window_Template"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 75
 }

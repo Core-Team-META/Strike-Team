@@ -2,7 +2,7 @@ Assets {
   Id: 9781174597633755215
   Name: "Kustom WeapMat Secondary 1"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 75
   CustomMaterialAsset {
     BaseMaterialId: 11205328885942583695
     ParameterOverrides {
