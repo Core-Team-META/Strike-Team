@@ -1,6 +1,6 @@
 Assets {
-  Id: 11514162355465758894
-  Name: "METACC KillFeedManagerClient v1"
+  Id: 3446616083277982094
+  Name: "EquipmentMeleeAttacksServer"
   PlatformAssetType: 3
   TextAsset {
   }

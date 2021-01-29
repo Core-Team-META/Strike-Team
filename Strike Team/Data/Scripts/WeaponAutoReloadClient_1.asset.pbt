@@ -1,6 +1,6 @@
 Assets {
-  Id: 11362598639296271935
-  Name: "KillFeedControllerServer"
+  Id: 4240696853684942237
+  Name: "WeaponAutoReloadClient"
   PlatformAssetType: 3
   TextAsset {
   }

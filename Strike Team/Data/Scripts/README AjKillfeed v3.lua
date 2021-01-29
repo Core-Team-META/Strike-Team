@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     "Killfeed v2" v1.0
     author: Aj
 

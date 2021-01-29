@@ -90,7 +90,7 @@ Assets {
           Overrides {
             Name: "cs:LineTemplate"
             AssetReference {
-              Id: 15006363769250822773
+              Id: 841534158063459245
             }
           }
           Overrides {

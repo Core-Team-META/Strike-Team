@@ -17,7 +17,7 @@ UIPivot.TOP_LEFT, UIPivot.TOP_CENTER, UIPivot.TOP_RIGHT, UIPivot.MIDDLE_LEFT, UI
 --]]
 
 
-
+--[[ 
 Game.GetLocalPlayer().bindingPressedEvent:Connect(function(player, binding)
     
     if binding == "ability_extra_0" then
@@ -64,3 +64,4 @@ Game.GetLocalPlayer().bindingReleasedEvent:Connect(function(player, binding)
     end
 
 end)
+ ]]

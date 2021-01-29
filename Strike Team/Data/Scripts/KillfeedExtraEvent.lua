@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     use {arg1} {arg2} {arg3} etc to do wierd stuff
 ]]
 local EVENT_NAME = script:GetCustomProperty("EventName")
