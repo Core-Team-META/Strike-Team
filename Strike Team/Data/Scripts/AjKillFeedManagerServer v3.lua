@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     Events.BroadcastToAllPlayers("PK",Killer,Killed,sourceId)
 ]]
 

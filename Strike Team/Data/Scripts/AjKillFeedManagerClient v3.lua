@@ -1,4 +1,4 @@
-﻿--interal
+--interal
 local AUU = require(script:GetCustomProperty("ApiUIUtilities"))
 local REACTIONS = require(script:GetCustomProperty("ReactionsModule"))
 local TCU = require(script:GetCustomProperty("TextCountingUtils"))
