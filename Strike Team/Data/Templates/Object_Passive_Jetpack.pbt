@@ -16,6 +16,35 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 5471612319777179614
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5471612319777179614
+        Name: "Group"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: 90
+          }
+          Scale {
+            X: 0.400656581
+            Y: 0.400656581
+            Z: 0.400656581
+          }
+        }
+        ParentId: 18292410483072486064
         ChildIds: 11077014752852683625
         ChildIds: 10584871120491242364
         ChildIds: 1474085453368682601
@@ -54,7 +83,9 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            Z: -3.05175781e-05
+            X: -0.0312728882
+            Y: -43.7010384
+            Z: 2.38140106
           }
           Rotation {
           }
@@ -64,7 +95,7 @@ Assets {
             Z: 0.31636551
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -111,12 +142,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: -20
-            Y: 65.5997314
-            Z: -3.05175781e-05
+            X: -20.0312729
+            Y: 21.8986931
+            Z: 2.38140106
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: 0.86647445
@@ -124,7 +155,7 @@ Assets {
             Z: 1.873806
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -171,12 +202,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: -20
-            Y: 72.1275635
-            Z: -3.05175781e-05
+            X: -20.0312729
+            Y: 28.4265251
+            Z: 2.38140106
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: 0.191226631
@@ -184,7 +215,7 @@ Assets {
             Z: 0.179495528
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -234,12 +265,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 20
-            Y: 72.1275635
-            Z: -3.05175781e-05
+            X: 19.9687271
+            Y: 28.4265251
+            Z: 2.38140106
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: 0.191226631
@@ -247,7 +278,7 @@ Assets {
             Z: 0.179495528
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -297,12 +328,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 20
-            Y: 65.5997314
-            Z: -3.05175781e-05
+            X: 19.9687271
+            Y: 21.8986931
+            Z: 2.38140106
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: 0.86647445
@@ -310,7 +341,7 @@ Assets {
             Z: 1.873806
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -357,8 +388,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            Y: 30
-            Z: 20
+            X: -0.0312728882
+            Y: -13.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -368,7 +400,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -417,8 +449,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            Y: 20
-            Z: 20
+            X: -0.0312728882
+            Y: -23.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -428,7 +461,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -477,8 +510,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            Y: 10
-            Z: 20
+            X: -0.0312728882
+            Y: -33.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -488,7 +522,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -537,7 +571,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            Z: 20
+            X: -0.0312728882
+            Y: -43.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -547,7 +583,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -596,12 +632,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 20
-            Y: 165.893799
-            Z: -3.05175781e-05
+            X: 19.9687271
+            Y: 122.192764
+            Z: 2.38140106
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: 0.294619113
@@ -609,7 +645,7 @@ Assets {
             Z: 2.28196025
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -659,12 +695,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: -20
-            Y: 165.893799
-            Z: -3.05175781e-05
+            X: -20.0312729
+            Y: 122.192764
+            Z: 2.38140106
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -89.9999847
           }
           Scale {
             X: 0.294619113
@@ -672,7 +708,7 @@ Assets {
             Z: 2.28196025
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -722,8 +758,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: -13.1499023
-            Z: 20
+            X: -13.1811752
+            Y: -43.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -733,7 +770,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -782,9 +819,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: -13.1499023
-            Y: 20
-            Z: 20
+            X: -13.1811752
+            Y: -23.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -794,7 +831,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -843,9 +880,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: -13.1499023
-            Y: 10
-            Z: 20
+            X: -13.1811752
+            Y: -33.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -855,7 +892,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -904,9 +941,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: -13.1499023
-            Y: 30
-            Z: 20
+            X: -13.1811752
+            Y: -13.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -916,7 +953,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -965,8 +1002,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: 13.3218994
-            Z: 20
+            X: 13.2906265
+            Y: -43.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -976,7 +1014,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -1025,9 +1063,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: 13.3218994
-            Y: 20
-            Z: 20
+            X: 13.2906265
+            Y: -23.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -1037,7 +1075,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -1086,9 +1124,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: 13.3218994
-            Y: 10
-            Z: 20
+            X: 13.2906265
+            Y: -33.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -1098,7 +1136,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -1147,9 +1185,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: 13.3218994
-            Y: 30
-            Z: 20
+            X: 13.2906265
+            Y: -13.7010384
+            Z: 22.3814316
           }
           Rotation {
           }
@@ -1159,7 +1197,7 @@ Assets {
             Z: 0.166480646
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -1208,12 +1246,12 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            Y: 13.5075684
-            Z: -2.38143158
+            X: -0.0312728882
+            Y: -30.19347
           }
           Rotation {
-            Yaw: -179.999985
-            Roll: -89.9999847
+            Yaw: -179.999969
+            Roll: -89.9999619
           }
           Scale {
             X: 0.303511441
@@ -1221,7 +1259,7 @@ Assets {
             Z: 0.257003546
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1268,9 +1306,9 @@ Assets {
         Name: "Ember Volume VFX"
         Transform {
           Location {
-            X: 20
-            Y: 80.3365479
-            Z: -2.30340576
+            X: 19.9687271
+            Y: 36.6355095
+            Z: 0.0780258179
           }
           Rotation {
           }
@@ -1280,7 +1318,7 @@ Assets {
             Z: 0.132108569
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Local Space"
@@ -1341,9 +1379,9 @@ Assets {
         Name: "Ember Volume VFX"
         Transform {
           Location {
-            X: -20
-            Y: 80.3365479
-            Z: -2.30340576
+            X: -20.0312729
+            Y: 36.6355095
+            Z: 0.0780258179
           }
           Rotation {
           }
@@ -1353,7 +1391,7 @@ Assets {
             Z: 0.132108569
           }
         }
-        ParentId: 18292410483072486064
+        ParentId: 5471612319777179614
         UnregisteredParameters {
           Overrides {
             Name: "bp:Local Space"

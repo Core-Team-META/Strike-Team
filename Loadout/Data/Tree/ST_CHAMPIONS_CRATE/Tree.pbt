@@ -630,7 +630,7 @@ Objects {
   Control {
     Width: 310
     Height: 36
-    UIX: 106.404053
+    UIX: 125.612572
     UIY: -3.58145952
     RenderTransformPivot {
       Anchor {
@@ -638,7 +638,7 @@ Objects {
       }
     }
     Text {
-      Label: "99:99"
+      Label: "99:99:99"
       Color {
         R: 1
         G: 1
@@ -1228,7 +1228,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 211

@@ -16,6 +16,36 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 1652724735419242880
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1652724735419242880
+        Name: "Group"
+        Transform {
+          Location {
+            Z: -11.4804459
+          }
+          Rotation {
+            Pitch: -90
+            Roll: 90
+          }
+          Scale {
+            X: 0.451451898
+            Y: 0.451451898
+            Z: 0.451451898
+          }
+        }
+        ParentId: 1298708572867638673
         ChildIds: 1956808589764740221
         ChildIds: 14412330005440942207
         ChildIds: 5529571268682411350
@@ -47,7 +77,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1298708572867638673
+        ParentId: 1652724735419242880
         ChildIds: 15816650414463916600
         ChildIds: 5965838244970829965
         ChildIds: 1453811419426406829
@@ -904,7 +934,7 @@ Assets {
             Z: 0.022
           }
         }
-        ParentId: 1298708572867638673
+        ParentId: 1652724735419242880
         ChildIds: 3778415585055378457
         ChildIds: 2748978014820809765
         ChildIds: 736515190816791084
@@ -1965,7 +1995,7 @@ Assets {
             Z: 0.12
           }
         }
-        ParentId: 1298708572867638673
+        ParentId: 1652724735419242880
         ChildIds: 11288516486892937205
         ChildIds: 8064479658201328434
         ChildIds: 14154852166799910284
@@ -2286,7 +2316,7 @@ Assets {
             Z: 0.125
           }
         }
-        ParentId: 1298708572867638673
+        ParentId: 1652724735419242880
         ChildIds: 12398476578766021341
         ChildIds: 6218798237449344996
         ChildIds: 17610210243454596192

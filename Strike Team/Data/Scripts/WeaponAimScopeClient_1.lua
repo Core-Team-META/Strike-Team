@@ -160,7 +160,7 @@ function EnableScoping(player)
 end
 
 function ResetScoping(player)
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if player ~= LOCAL_PLAYER then return end
     -- Reset camera scoping values
     cameraTargetDistance = cameraResetDistance
     cameraTargetFOV = cameraResetFOV
@@ -213,6 +213,7 @@ end
 
 function OnBindingReleased(player, actionName)
     if actionName == AIM_BINDING and not player.isDead  then
+        if player ~= LOCAL_PLAYER then return end
         ResetScoping(player)
 	end
 end
@@ -244,6 +245,7 @@ function OnEquipped(weapon, player)
 end
 
 function OnUnequipped(weapon, player)
+    if(player ~= LOCAL_PLAYER) then return end
     ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
@@ -272,6 +274,7 @@ end
 
 -- Reset scoping on reload
 function OnReload(ability)
+    if ability.owner ~= LOCAL_PLAYER then return end
     ResetScoping(ability.owner)
 end
 

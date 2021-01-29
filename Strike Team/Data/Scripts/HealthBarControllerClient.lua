@@ -59,9 +59,11 @@ end
 function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
-        if (GetWeapon(player) ~= CURRENT_WEAPON)  then
+        if (GetWeapon(player) ~= CURRENT_WEAPON) then
             CURRENT_WEAPON = GetWeapon(player) 
+            if CURRENT_WEAPON then
             WEAPON_NAME.text = CURRENT_WEAPON.name or ""
+            end
         end
 
 		if SHOW_AMMO then

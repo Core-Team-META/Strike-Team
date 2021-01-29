@@ -1424,17 +1424,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 15641979669957427462
-      value {
-        Overrides {
-          Name: "cs:Offset"
-          Vector2 {
-            Y: -10
-          }
-        }
-      }
-    }
     TemplateAsset {
       Id: 17887227721939324403
     }

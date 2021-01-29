@@ -8,7 +8,7 @@ end
 Claim.releasedEvent:Connect(ClaimBox)
 
 function Show()
-    if  Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") == 0 then
+    if  Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") == 0  and Game.GetLocalPlayer():GetResource("Gold") == 10 then
         Claim.visibility = Visibility.INHERIT
     end
 end

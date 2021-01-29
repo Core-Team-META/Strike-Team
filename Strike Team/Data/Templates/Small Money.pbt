@@ -33,14 +33,13 @@ Assets {
         Name: "ClientContext"
         Transform {
           Location {
-            Y: 3.05175781e-05
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.25
+            Y: 0.25
+            Z: 0.25
           }
         }
         ParentId: 1910824818684699214
