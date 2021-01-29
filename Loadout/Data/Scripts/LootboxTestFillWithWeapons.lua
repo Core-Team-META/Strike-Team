@@ -1,6 +1,6 @@
-local selectedWeapon = script:GetCustomProperty("SelectedWeapon"):WaitForObject()
-local otherWeapons = script:GetCustomProperty("OtherWeapons"):WaitForObject()
-local lootboxAnimator = script:GetCustomProperty("LootboxAnimator"):WaitForObject()
+	local selectedWeapon = script:GetCustomProperty("SelectedWeapon"):WaitForObject()
+	local otherWeapons = script:GetCustomProperty("OtherWeapons"):WaitForObject()
+	local lootboxAnimator = script:GetCustomProperty("LootboxAnimator"):WaitForObject()
 
 local broadcastName = lootboxAnimator:GetCustomProperty("RollEvent")
 

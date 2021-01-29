@@ -31669,7 +31669,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "7bb0e2288b6e4f5f99f59f2558ada412"
+        Key: "620c4217262d4eb9ad914cecc90e65e1"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31678,7 +31678,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "5be15c17d2bd439b849671003cc6f3d5"
+        Key: "e5b0a123233e4117aa5d09b213df9522"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31687,7 +31687,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "673d2761ec9b45a5a03c5970e423c582"
+        Key: "37aaae07876c4509bd0c1858492798dc"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

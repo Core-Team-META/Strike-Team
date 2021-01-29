@@ -25,6 +25,9 @@ Objects {
   ChildIds: 1888922225801403677
   ChildIds: 221451415459235989
   ChildIds: 13596058407462152633
+  ChildIds: 7748343166815517716
+  ChildIds: 11106624925692052763
+  ChildIds: 305911625424814140
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37,6 +40,168 @@ Objects {
   InstanceHistory {
     SelfId: 16188533509272003165
     SubobjectId: 4893865621995765139
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 305911625424814140
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -160.054443
+      Y: 45.1011353
+      Z: 605.495178
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 0.5
+      Y: 10
+      Z: 5.99999809
+    }
+  }
+  ParentId: 16188533509272003165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14914569890107882825
+    SubobjectId: 7906222962229518983
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 11106624925692052763
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -160.054443
+      Y: 679.457397
+      Z: 300
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 0.5
+      Y: 10
+      Z: 5.99999809
+    }
+  }
+  ParentId: 16188533509272003165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14914569890107882825
+    SubobjectId: 7906222962229518983
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 7748343166815517716
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -160.054443
+      Y: -605.220398
+      Z: 300
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 0.5
+      Y: 10
+      Z: 5.99999809
+    }
+  }
+  ParentId: 16188533509272003165
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4297505030264945500
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14914569890107882825
+    SubobjectId: 7906222962229518983
     InstanceId: 9162538045503945134
     TemplateId: 11001523082904345942
   }
@@ -75,6 +240,8 @@ Objects {
   ChildIds: 3839113046242517992
   ChildIds: 12809354417365365995
   ChildIds: 2793134745503025160
+  ChildIds: 17720645032288611384
+  ChildIds: 4614546439917287405
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -87,6 +254,124 @@ Objects {
   InstanceHistory {
     SelfId: 13596058407462152633
     SubobjectId: 2300599130450916983
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 4614546439917287405
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: -888.075317
+      Y: -13.3783331
+      Z: -436.618469
+    }
+    Rotation {
+      Pitch: -18.675415
+    }
+    Scale {
+      X: 2.32436299
+      Y: 1.85956454
+      Z: 2.36579585
+    }
+  }
+  ParentId: 13596058407462152633
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5.43134499
+    TeamSettings {
+    }
+    Light {
+      UseTemperature: true
+      Temperature: 7328.50879
+      LocalLight {
+        AttenuationRadius: 447.064758
+        AreaLight {
+          BarnDoorAngle: 34.1327362
+          SourceWidth: 28.8149204
+          SourceHeight: 0.01
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    CastVolumetricShadows: true
+  }
+  InstanceHistory {
+    SelfId: 597293553574013966
+    SubobjectId: 12324587450936538048
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 17720645032288611384
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 267.019501
+      Y: -57.0700645
+      Z: -539.131714
+    }
+    Rotation {
+      Pitch: -161.112122
+    }
+    Scale {
+      X: 3.27495503
+      Y: 2.62006903
+      Z: 3.33333278
+    }
+  }
+  ParentId: 13596058407462152633
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 4
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    VolumetricIntensity: 5.43134499
+    TeamSettings {
+    }
+    Light {
+      UseTemperature: true
+      Temperature: 7328.50879
+      LocalLight {
+        AttenuationRadius: 447.064758
+        AreaLight {
+          BarnDoorAngle: 34.1327362
+          SourceWidth: 28.8149204
+          SourceHeight: 0.01
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    CastVolumetricShadows: true
+  }
+  InstanceHistory {
+    SelfId: 597293553574013966
+    SubobjectId: 12324587450936538048
     InstanceId: 9162538045503945134
     TemplateId: 11001523082904345942
   }
@@ -1520,7 +1805,7 @@ Objects {
     Scale {
       X: 0.8
       Y: -2.10000038
-      Z: 0.5
+      Z: 0.694894493
     }
   }
   ParentId: 17229380424289587651
@@ -1600,7 +1885,7 @@ Objects {
     Scale {
       X: 0.8
       Y: 2.10000038
-      Z: 0.5
+      Z: 0.694894493
     }
   }
   ParentId: 7645845437000674212
@@ -1766,7 +2051,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
+      Y: -4.19616699e-05
       Z: -15
     }
     Rotation {
@@ -2139,7 +2425,7 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
       Z: -15
     }
     Rotation {
@@ -2513,7 +2799,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
+      Y: 4.19616699e-05
       Z: -15
     }
     Rotation {
@@ -2885,7 +3172,7 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
       Z: -15
     }
     Rotation {
@@ -3259,7 +3546,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
+      Y: -4.19616699e-05
       Z: -15
     }
     Rotation {
@@ -3632,7 +3920,7 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
       Z: -15
     }
     Rotation {
@@ -4006,7 +4294,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
+      Y: 4.19616699e-05
       Z: -15
     }
     Rotation {
@@ -4379,7 +4668,8 @@ Objects {
   Name: "WeaponPosition"
   Transform {
     Location {
-      X: 40
+      X: 30
+      Y: -1.07288352e-05
       Z: -15
     }
     Rotation {
@@ -4698,15 +4988,15 @@ Objects {
   Transform {
     Location {
       X: -95
-      Y: 10
+      Y: 3.82449341
     }
     Rotation {
       Pitch: 90
       Roll: 180
     }
     Scale {
-      X: 1.2
-      Y: 2.79999971
+      X: 1.89813447
+      Y: 3.0922811
       Z: 2.2
     }
   }
@@ -4746,14 +5036,15 @@ Objects {
   Transform {
     Location {
       X: -95
-      Y: 10
+      Y: 3.82449341
+      Z: 9.61741638
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 1.2
-      Y: 2.79999971
+      X: 1.89254129
+      Y: 3.0922792
       Z: 2.2
     }
   }
@@ -4826,14 +5117,14 @@ Objects {
   Name: "Modern Weapon - Grenade Canister 03"
   Transform {
     Location {
-      Z: -85
+      Z: -49.5316
     }
     Rotation {
     }
     Scale {
       X: 3.40000081
       Y: 3.40000081
-      Z: 7.50000095
+      Z: 9.40014267
     }
   }
   ParentId: 16477198478989639854
@@ -5031,9 +5322,9 @@ Objects {
   Name: "LootBoxCamera"
   Transform {
     Location {
-      X: 267.276978
+      X: 321.018433
       Y: 3.57992554
-      Z: 18.4255676
+      Z: 26.4726105
     }
     Rotation {
       Pitch: -4.60467529
@@ -5167,7 +5458,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MovementSpeed"
-      Float: 0.4
+      Float: 0.3
     }
     Overrides {
       Name: "cs:NumberOfLoops"

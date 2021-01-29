@@ -98,12 +98,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16681259804839765245
-  Name: "SniperDutyLoadout2"
+  Id: 16345681961000261544
+  Name: "Stat"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5be15c17d2bd439b849671003cc6f3d5"
+      Key: "620c4217262d4eb9ad914cecc90e65e1"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -144,19 +144,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_acc_cap_whole_001_ref"
-  }
-}
-Assets {
-  Id: 15245842718766076615
-  Name: "SkinStorage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "673d2761ec9b45a5a03c5970e423c582"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -331,12 +318,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11410967919306583625
-  Name: "PlayerData"
+  Id: 9907505148577637851
+  Name: "Weapons"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "7bb0e2288b6e4f5f99f59f2558ada412"
+      Key: "e5b0a123233e4117aa5d09b213df9522"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -458,6 +445,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_001"
+  }
+}
+Assets {
+  Id: 7356629791123122286
+  Name: "Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "37aaae07876c4509bd0c1858492798dc"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {

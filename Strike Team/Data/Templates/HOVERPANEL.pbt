@@ -337,6 +337,12 @@ Assets {
             Name: "cs:TYPE"
             String: "Secondary"
           }
+          Overrides {
+            Name: "cs:Offset"
+            Vector2 {
+              Y: -5
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

@@ -361,6 +361,10 @@ Assets {
               Id: 9702982403106980693
             }
           }
+          Overrides {
+            Name: "cs:FriendlyExplosionDamage"
+            Bool: false
+          }
         }
         WantsNetworking: true
         Collidable_v2 {

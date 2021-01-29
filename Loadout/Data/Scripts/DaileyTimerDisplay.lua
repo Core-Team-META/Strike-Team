@@ -8,5 +8,5 @@ function Hide()
     DailyTimer.visibility = Visibility.FORCE_OFF
 end
 
-Events.Connect("Lootbox.Open",Hide)
+Events.Connect("Lootbox.Open", Hide)
 Events.Connect("Lootbox.Close",Show)
