@@ -28,6 +28,7 @@ local API = {}
 API.GAME_STATE_LOBBY = 0
 API.GAME_STATE_ROUND = 1
 API.GAME_STATE_ROUND_END = 2
+API.GAME_STATE_ROUND_VOTING = 3
 
 -- nil RegisterGameStateManager(function, function, function, function) [Server]
 -- Called once by a manager component that at minimum handles replication.
