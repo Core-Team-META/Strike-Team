@@ -204,5 +204,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_-_Window_3x_Rounded_Straight_Template"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

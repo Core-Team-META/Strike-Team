@@ -29799,7 +29799,7 @@ Objects {
   Transform {
     Location {
       X: 1409.05286
-      Y: 484.7
+      Y: 484.949707
       Z: 520.002136
     }
     Rotation {
@@ -114965,7 +114965,7 @@ Objects {
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
-      X: 470.1
+      X: 470
       Y: 580
       Z: 810
     }

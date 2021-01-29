@@ -70,5 +70,5 @@ Assets {
       AssetId: "Lobby_Start_Reset_Team_Scores"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

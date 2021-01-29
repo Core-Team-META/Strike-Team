@@ -60,38 +60,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.15
+            Float: 0.2
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 1.6
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.723958313
-              G: 0.723958313
-              B: 0.723958313
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:ColorB"
-            Color {
-              R: 0.723958313
-              G: 0.723958313
-              B: 0.723958313
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:ColorC"
-            Color {
-              R: 0.723958313
-              G: 0.723958313
-              B: 0.723958313
-              A: 1
-            }
+            Float: 2
           }
         }
         Collidable_v2 {
@@ -126,5 +99,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }
