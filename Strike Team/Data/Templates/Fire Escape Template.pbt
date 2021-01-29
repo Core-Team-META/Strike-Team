@@ -1638,5 +1638,5 @@ Assets {
       AssetId: "Fire_Escape_Template"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 73
 }

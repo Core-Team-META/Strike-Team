@@ -1169,5 +1169,5 @@ Assets {
       AssetId: "Advanced_Revolver"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 73
 }

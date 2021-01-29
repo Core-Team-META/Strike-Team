@@ -215,5 +215,5 @@ Assets {
       AssetId: "Urban_Pipe_Ground_Attachment_-_01__Prop_"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 73
 }

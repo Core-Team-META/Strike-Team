@@ -3045,7 +3045,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 10.0750198
+      Float: 9.34672642
     }
   }
   Collidable_v2 {
@@ -3314,7 +3314,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 6
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
@@ -3332,7 +3332,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Size"
-      Float: 7.69662523
+      Float: 7.60639095
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -3373,9 +3373,9 @@ Objects {
     Overrides {
       Name: "bp:Light Color"
       Color {
-        R: 1
-        G: 0.758013248
-        B: 0.37
+        R: 0.927083313
+        G: 0.702741444
+        B: 0.343020827
         A: 1
       }
     }
@@ -3488,6 +3488,10 @@ Objects {
         Value: "mc:ecloudshapes:1"
       }
     }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 1
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3533,7 +3537,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 4.34093142
+      Float: 2.341
     }
     Overrides {
       Name: "bp:Cast Shadows"

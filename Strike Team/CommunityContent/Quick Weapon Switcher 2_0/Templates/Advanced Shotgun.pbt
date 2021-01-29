@@ -1207,5 +1207,5 @@ Assets {
       AssetId: "Advanced_Shotgun"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 73
 }

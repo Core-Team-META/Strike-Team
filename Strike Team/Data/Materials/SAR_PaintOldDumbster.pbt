@@ -2,7 +2,7 @@ Assets {
   Id: 10161787596574578420
   Name: "SAR_PaintOldDumbster"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
