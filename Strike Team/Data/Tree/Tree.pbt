@@ -24,6 +24,7 @@ Objects {
   ChildIds: 10713213961821925461
   ChildIds: 7400115703717271190
   ChildIds: 7666426452109523765
+  ChildIds: 13785257176970630785
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13785257176970630785
+  Name: "Brent"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Brent"
   }
 }
 Objects {

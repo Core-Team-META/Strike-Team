@@ -26,7 +26,7 @@ local SCORE_PER_KILL = COMPONENT_ROOT:GetCustomProperty("ScorePerKill")
 function OnPlayerDied(player, damage)
     if Object.IsValid(damage.sourcePlayer) and player.team ~= damage.sourcePlayer.team then
         local teamScored = damage.sourcePlayer.team
-        Game.IncreaseTeamScore(teamScored, SCORE_PER_KILL)
+       -- Game.IncreaseTeamScore(teamScored, SCORE_PER_KILL)
     end
 end
 
