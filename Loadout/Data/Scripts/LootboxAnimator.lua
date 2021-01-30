@@ -138,14 +138,13 @@ function AnimateSelection(selectedHolderEntry, player)
 	-- reveal animation
 
 	selectedHolderEntry.holder:MoveTo(selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -30), 2, true)
-	selectedHolderEntry.holder:RotateTo(selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 45, 0), 3, true)
+	selectedHolderEntry.holder:RotateTo(selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 90, 0), 3, true)
 	
 	Task.Wait(3)
-	
-	selectedHolderEntry.weaponPosition:MoveTo(selectedHolderEntry.weaponPosition:GetPosition() + Vector3.FORWARD * 40, 1, true)
+	selectedHolderEntry.weaponPosition:MoveTo(selectedHolderEntry.weaponPosition:GetPosition() + Vector3.UP * -70 + Vector3.FORWARD * 15, 1, true)
 	selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(100, 0, 0), 1, true)
 	
-	Task.Wait(5)
+	Task.Wait(7)
 	
 	-- reset
 	
@@ -292,7 +291,23 @@ function RollAnimation(player)
 	
 end
 
+function Roll(MainWeapon, others)
+	for _,v in pairs(others) do
+		local weapon = v:ForceSpawnEquipment()
+		weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0,90,0))
+		weapon.parent = OtherWeapons
+	end
+	
+	local Main  = MainWeapon:ForceSpawnEquipment()
+	Main.parent = SelectedWeapon
+	Main:SetRotation(MainWeapon.data.Rotation_Offset + Rotation.New(0,90,0))
+	RollAnimation(Game.GetLocalPlayer())
+
+end
+
 InitializeLootBox()
+
+Events.Connect("LootboxRoll",Roll )
 
 Events.Connect(RollEvent, RollAnimation)	
 	

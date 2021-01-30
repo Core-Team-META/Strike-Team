@@ -18,6 +18,7 @@ Objects {
     }
   }
   ParentId: 65150042230850511
+  ChildIds: 9535519928880354544
   ChildIds: 13703079821703078009
   ChildIds: 14438528731526493836
   Collidable_v2 {
@@ -96,6 +97,36 @@ Objects {
   }
 }
 Objects {
+  Id: 9535519928880354544
+  Name: "RouletWheel"
+  Transform {
+    Location {
+      X: 163.648956
+      Y: 283.835815
+      Z: -139.671295
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12818879518364434860
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12286405720167867672
+    }
+  }
+}
+Objects {
   Id: 7451431603758636642
   Name: "ServerContext"
   Transform {
@@ -110,6 +141,7 @@ Objects {
     }
   }
   ParentId: 65150042230850511
+  ChildIds: 5017800131318480730
   ChildIds: 9849239730052840535
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -136,6 +168,8 @@ Objects {
     }
   }
   ParentId: 7451431603758636642
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -145,6 +179,33 @@ Objects {
   Script {
     ScriptAsset {
       Id: 11546633816005294545
+    }
+  }
+}
+Objects {
+  Id: 5017800131318480730
+  Name: "LootSelector"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7451431603758636642
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15150034159433817472
     }
   }
 }

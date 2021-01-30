@@ -124,8 +124,9 @@ function VerifyID(Data, NewItem)
     return true
 end
 
-function Database.SetupSkin( id, skin, level, ads, name, rarity,isEvent )
+function Database.SetupSkin(Owner,id, skin, level, ads, name, rarity,isEvent )
     local NewSkin = {}
+    NewSkin["owner"] = Owner
     NewSkin["id"] = id
     NewSkin["skin"] = skin
     NewSkin["level"] = level or 0
@@ -156,6 +157,7 @@ function Database:RegisterEquipment()
                 local ItemSkins = {}
 
                 NewItem["defaultSkin"] = Database.SetupSkin( 
+                    NewItem["id"] ,
                     "00",
                     Item:GetCustomProperty("DefaultSkin"),
                     0,
@@ -168,6 +170,7 @@ function Database:RegisterEquipment()
                 
                 for _, Skin in pairs(Item:GetChildren()) do
                     local NewSkin = Database.SetupSkin(
+                        NewItem["id"],
                         Skin:GetCustomProperty("ID"), 
                         Skin:GetCustomProperty("SKIN"),
                         Skin:GetCustomProperty("LEVEL"),

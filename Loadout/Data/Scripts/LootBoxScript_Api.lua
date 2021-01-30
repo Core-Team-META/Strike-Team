@@ -11,15 +11,17 @@ if Environment.IsServer() then
     function LootBox.Lock(player) 
         Events.BroadcastToPlayer(player,"LootBox.Lock")
         player:SetResource("Lootbox.CanOpen",1) 
+        LootBox.Save(player)
     end 
 
     function LootBox.Unlock(player) 
         Events.BroadcastToPlayer(player,"LootBox.UnLock")
-        player:SetResource("Lootbox.CanOpen",0) 
+        player:SetResource("Lootbox.CanOpen",0)
+        LootBox.Save(player) 
     end
 
     function LootBox.Gift(player)
-        --Events.BroadcastToPlayer(Player, "Lootbox.GiveItem")
+        Events.Broadcast("Lootbox.GiveItem",player)
         LootBox.ResetGold(player)
     end
 
@@ -33,18 +35,17 @@ if Environment.IsServer() then
 
     function LootBox.UpdateOpenTime(player,Time)
         player:SetResource("Lootbox.Time", Time)
+        Task.Spawn(function() 
+            LootBox.Unlock(player) 
+        end, Time)
     end
 
     function LootBox.UpdateTime(player)
-        local CountdownTimer =  30--60*60*24
+        local CountdownTimer = 20--60*60*24
         local data = Storage.GetPlayerData(player)
         data["Lootbox.LastOpen"] = os.time()
         data["Lootbox.OpenTime"] = os.time() + CountdownTimer
         LootBox.UpdateOpenTime(player, CountdownTimer)
-        Task.Spawn(function() 
-            LootBox.Unlock(player) 
-        end, CountdownTimer)
-
         Storage.SetPlayerData(player,data)
     end
 
@@ -60,6 +61,7 @@ if Environment.IsServer() then
     end
     
     function LootBox.ResetGold(player)
+        player:SetResource("Gold", 0)
         player:SetResource("Gold", 10)
         LootBox.Save(player)
     end
@@ -72,13 +74,16 @@ if Environment.IsServer() then
     function LootBox.Load(player)
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
+        player:SetResource("Gold", data["Gold"] or 0)
         player:SetResource("Gold", 10)
-        --player:SetResource("Gold", data["Gold"] or 0)
         local data2 = Storage.GetPlayerData(player)
         --local opentime = data2["Lootbox.LastOpen"]
         local CloseTime = data2["Lootbox.OpenTime"]
         player:SetResource("Lootbox.CanOpen",data2["Lootbox.CanOpen"] or 0)
-        LootBox.UpdateOpenTime(player,os.difftime(CloseTime,os.time()))
+        if data2["Lootbox.CanOpen"] == 1 then
+            LootBox.Lock(player) 
+            LootBox.UpdateOpenTime(player,os.difftime(CloseTime,os.time()))
+        end
     end
     
     Events.ConnectForPlayer("Lootbox.Claim",LootBox.Claim)
@@ -93,20 +98,16 @@ if Environment.IsClient() then
     end 
 
     function LootBox.Unlock() 
+        Task.Wait(1)
         if Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
             Events.Broadcast("Lootbox.Open")
         end
     end
 
     function LootBox.Update()
-        if Game.GetLocalPlayer():GetResource("Gold") >= 10 then 
+        if Game.GetLocalPlayer():GetResource("Gold") >= 10 and Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
             Events.Broadcast("Lootbox.CanClaim")
         end
-    end
-
-
-    function LootBox.ReciveItem()
-        --Play animation 
     end
 
     function LootBox.Claim()

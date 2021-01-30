@@ -7,7 +7,7 @@ Assets {
       RootId: 1731744412298856959
       Objects {
         Id: 1731744412298856959
-        Name: "WeaponHolder"
+        Name: "LootBoxWeaponHolder"
         Transform {
           Scale {
             X: 1
@@ -260,8 +260,8 @@ Assets {
         Name: "WeaponPosition"
         Transform {
           Location {
-            X: 40
-            Z: -15
+            X: 5.89822388
+            Z: 3.47022247
           }
           Rotation {
           }

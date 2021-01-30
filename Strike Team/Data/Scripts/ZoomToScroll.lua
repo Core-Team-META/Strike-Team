@@ -11,10 +11,10 @@ local function signum(number)
  end
 
 function Tick()
-    local sign = signum(LOCAL_PLAYER:GetActiveCamera().currentDistance)
-    if( sign ~= 0) then
-        Events.Broadcast("ScrollChange", sign )
-        LOCAL_PLAYER:GetActiveCamera().currentDistance = 0
-    end
+   local sign = signum(LOCAL_PLAYER:GetActiveCamera().currentDistance)
+   if( sign ~= 0) then
+      Events.Broadcast("ScrollChange", sign )
+      LOCAL_PLAYER:GetActiveCamera().currentDistance = 0
+   end
 
 end

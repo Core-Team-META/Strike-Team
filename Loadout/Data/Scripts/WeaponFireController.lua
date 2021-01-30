@@ -21,6 +21,7 @@ while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
 while not WEAPON.clientUserData.Ammo do Task.Wait() end 
 
 function CheckFiring()
+    if not WEAPON.owner then return true end
     if(STOP_BURST and StopFire) or WEAPON.clientUserData.Ammo <= 0  or WEAPON.clientUserData.reloading or WEAPON.owner.isDead then
         return true
     end

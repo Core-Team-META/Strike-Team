@@ -242,6 +242,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -259,7 +260,7 @@ Assets {
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true

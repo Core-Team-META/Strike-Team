@@ -117,7 +117,7 @@ function ShowNemesis()
 	local youAreNemesisOf = nil
 	local countOfBeingNemesis = 0
 	
-	local YourNemesisIs = nil
+	local yourNemesisIs = nil
 
 	-- Calculate who is the nemeis of who
 	for victim, killerList in pairs(nemesisIndex) do
@@ -152,36 +152,33 @@ function ShowNemesis()
 			
 			otherNemesisCount = otherNemesisCount - 1 -- removing the same nemesis from count
 			
-			nemesisList[selectedNemesis] = {}
-			
-			nemesisList[selectedNemesis][1] = victim
-			nemesisList[selectedNemesis][2] = otherNemesisCount
-			
+			table.insert(nemesisList, {selectedNemesis, victim, otherNemesisCount})
+					
 		end
 							
 	end
 	
 	-- create string to show your nemesis and who you are the nemesis of
 	
-	for nemesis, victim in pairs(nemesisList) do
+	for _, entry in pairs(nemesisList) do
 		
-		if nemesis == localPlayer.id and GetPlayer(victim[1]) then
+		if entry[1] == localPlayer.id and GetPlayer(entry[2]) then
 		
-			youAreNemesisOf = "Nemesis Of: " .. GetPlayer(victim[1]).name
+			youAreNemesisOf = "Nemesis Of: " .. GetPlayer(entry[2]).name
 			
-		elseif nemesis == localPlayer.id and youAreNemesisOf then
+		elseif entry[1] == localPlayer.id and youAreNemesisOf then
 		
 			countOfBeingNemesis = countOfBeingNemesis + 1
 			
 		end
 		
-		if victim[1] == localPlayer.id then
+		if entry[2] == localPlayer.id then
 		
-			YourNemesisIs = "Your Nemesis Is: " .. GetPlayer(nemesis).name
+			yourNemesisIs = "Your Nemesis Is: " .. GetPlayer(entry[1]).name
 			
-			if victim[2] > 0 then
+			if entry[3] > 0 then
 			
-				YourNemesisIs = YourNemesisIs .. " + " .. tostring(victim[2]) .. " more"
+				yourNemesisIs = yourNemesisIs .. " + " .. tostring(entry[3]) .. " more"
 				
 			end
 			
@@ -189,11 +186,17 @@ function ShowNemesis()
 	
 	end
 	
+	if countOfBeingNemesis > 0 then
+	
+		youAreNemesisOf = youAreNemesisOf .. " + " .. tostring(countOfBeingNemesis) .. " more"
+		
+	end
+	
 	-- show on UI
 	
-	if YourNemesisIs and localPlayer.deaths > 0 then
+	if yourNemesisIs and localPlayer.deaths > 0 then
 	
-		YourNemesisText.text = YourNemesisIs
+		YourNemesisText.text = yourNemesisIs
 		
 	else 
 	

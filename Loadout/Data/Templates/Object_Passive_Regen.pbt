@@ -16,6 +16,34 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 16509242206493633341
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 16509242206493633341
+        Name: "Group"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Roll: -80
+          }
+          Scale {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+        ParentId: 16025565856942191387
         ChildIds: 18204524951258647740
         ChildIds: 1135620915141868043
         ChildIds: 12373971471201757957
@@ -53,7 +81,7 @@ Assets {
             Z: 0.0150041049
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -112,7 +140,7 @@ Assets {
             Z: 0.00760903489
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -174,7 +202,7 @@ Assets {
             Z: 0.012586059
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -230,8 +258,8 @@ Assets {
           }
           Rotation {
             Pitch: -1.36603776e-05
-            Yaw: 180
-            Roll: 180
+            Yaw: -179.999985
+            Roll: -179.999985
           }
           Scale {
             X: 0.904851854
@@ -239,7 +267,7 @@ Assets {
             Z: 2.01705122
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -290,7 +318,7 @@ Assets {
             Z: 1.5
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         ChildIds: 9234875084704380586
         ChildIds: 10189547410221302944
         ChildIds: 12862498671327513767
@@ -746,7 +774,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         ChildIds: 10131581391132319557
         ChildIds: 12063136795021791646
         ChildIds: 388917631587152401
@@ -1202,7 +1230,7 @@ Assets {
             Z: 0.7
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         ChildIds: 11437767414572565848
         ChildIds: 9051190764888509731
         ChildIds: 17836523888583721028
@@ -1658,7 +1686,7 @@ Assets {
             Z: 0.7
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         ChildIds: 4284991155042758401
         ChildIds: 5004079843485250836
         ChildIds: 13251829238895525369
@@ -2113,7 +2141,7 @@ Assets {
             Z: 0.0410053954
           }
         }
-        ParentId: 16025565856942191387
+        ParentId: 16509242206493633341
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

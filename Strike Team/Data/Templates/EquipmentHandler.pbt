@@ -7163,7 +7163,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 18245902433934008809
+              Id: 13253325870475057691
             }
           }
           Overrides {
@@ -7175,6 +7175,11 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "A standard grenade."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+            }
           }
         }
         Collidable_v2 {
@@ -7222,7 +7227,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 18245902433934008809
+              Id: 14482320207318663573
             }
           }
           Overrides {
@@ -7234,6 +7239,11 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "A small explosive that coats the ground in fire."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+            }
           }
         }
         Collidable_v2 {
@@ -7310,7 +7320,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 18245902433934008809
+              Id: 11054133481834412534
             }
           }
           Overrides {
@@ -7322,6 +7332,12 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "A smoke screen grenade that is used for cover"
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 90
+            }
           }
         }
         Collidable_v2 {
@@ -7369,7 +7385,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 18245902433934008809
+              Id: 1705072003918602984
             }
           }
           Overrides {
@@ -7381,6 +7397,12 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "A grenade that release a blinding light."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 90
+            }
           }
         }
         Collidable_v2 {
@@ -7428,7 +7450,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 18245902433934008809
+              Id: 18168340960820893564
             }
           }
           Overrides {
@@ -7557,6 +7579,12 @@ Assets {
             Name: "cs:Description"
             String: "Invoke regeneration after getting a kill."
           }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 90
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7615,6 +7643,12 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "A boost in jumping capabilities, An extra jump."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 90
+            }
           }
         }
         Collidable_v2 {
@@ -7675,6 +7709,12 @@ Assets {
               Id: 10943674224004983823
             }
           }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 90
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7733,6 +7773,12 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "Bullet spread wiill be reduced."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 90
+            }
           }
         }
         Collidable_v2 {
@@ -8103,8 +8149,6 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: -71
-              Yaw: 13
             }
           }
         }
@@ -8163,8 +8207,6 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: -71
-              Yaw: 13
             }
           }
         }
@@ -8223,8 +8265,6 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: -71
-              Yaw: 13
             }
           }
         }
