@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:GameTypesData"
         ObjectReference {
-          SelfId: 14399123784575966523
+          SelfId: 11044040963800678350
         }
       }
     }

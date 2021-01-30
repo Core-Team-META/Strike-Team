@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:NETWORKED"
         ObjectReference {
-          SelfId: 6691565911725201882
+          SelfId: 10857687478960459655
         }
       }
       Overrides {
@@ -19,7 +19,7 @@ Assets {
       Overrides {
         Name: "cs:ROOT"
         ObjectReference {
-          SelfId: 11332904892838872032
+          SelfId: 16621625458669976284
         }
       }
     }

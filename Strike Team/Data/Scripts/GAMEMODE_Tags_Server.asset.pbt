@@ -17,13 +17,13 @@ Assets {
       Overrides {
         Name: "cs:GAMEMODE_DogTags_Template"
         AssetReference {
-          Id: 13930443944425901538
+          Id: 15293998799313657529
         }
       }
       Overrides {
         Name: "cs:GAMEMODE_TagsTurnIn_Template"
         AssetReference {
-          Id: 18144571512373180039
+          Id: 9099033747376978326
         }
       }
     }

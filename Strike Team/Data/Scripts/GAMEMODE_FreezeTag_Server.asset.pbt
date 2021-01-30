@@ -17,7 +17,7 @@ Assets {
       Overrides {
         Name: "cs:GAMEMODE_FreezeTag_Template"
         AssetReference {
-          Id: 13230867775722166048
+          Id: 14750224989028242593
         }
       }
       Overrides {
@@ -28,7 +28,7 @@ Assets {
       Overrides {
         Name: "cs:GAMEMODE_ReviveAbility_Template"
         AssetReference {
-          Id: 823577060790620973
+          Id: 15572009514372960210
         }
       }
       Overrides {

@@ -13,13 +13,13 @@ Assets {
       Overrides {
         Name: "cs:PARENT_PANEL"
         ObjectReference {
-          SelfId: 4277030995491674283
+          SelfId: 8645488299259673719
         }
       }
       Overrides {
         Name: "cs:GAME_MODES"
         ObjectReference {
-          SelfId: 2731808262670424243
+          SelfId: 3133963805800195973
         }
       }
       Overrides {
@@ -31,7 +31,7 @@ Assets {
       Overrides {
         Name: "cs:NETWORKED"
         ObjectReference {
-          SelfId: 6691565911725201882
+          SelfId: 10857687478960459655
         }
       }
     }

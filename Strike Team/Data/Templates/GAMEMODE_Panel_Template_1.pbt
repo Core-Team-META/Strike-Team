@@ -434,7 +434,7 @@ Assets {
               A: 1
             }
             Brush {
-              Id: 15646943606220630931
+              Id: 225822356835096764
             }
             IsButtonEnabled: true
             OnlyUseMainColor: true
@@ -489,7 +489,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 16873054259561342990
+              Id: 2863185027993535122
             }
             Color {
               R: 1
@@ -525,7 +525,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15646943606220630931
+      Id: 225822356835096764
       Name: "BG Gradient 002"
       PlatformAssetType: 9
       PrimaryAsset {
@@ -534,7 +534,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16873054259561342990
+      Id: 2863185027993535122
       Name: "Frame Outline Thin 001"
       PlatformAssetType: 9
       PrimaryAsset {

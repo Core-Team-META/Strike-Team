@@ -106,12 +106,13 @@ function Tick(deltaTime)
 end
 
 
---Dev Tool
-function OnGameModeChanged(player, id)
-    Events.Broadcast("TeamVictory", 1)
-    ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
-    NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", id)
+
+function OnGameStateChanged(oldState, newState, hasDuration, time)
+    if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
+        SetCurrentGameState(0) -- Used to reset Game Modes
+    end
 end
+
 
 ------------------------------------------------------------------------------------------------------------------------
 -- INTALIZATION
@@ -119,6 +120,5 @@ end
 Int()
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+Events.Connect("GameStateChanged", OnGameStateChanged)
 
---Dev Tool
-Events.ConnectForPlayer("GameModeChanged", OnGameModeChanged)

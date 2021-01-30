@@ -1,13 +1,13 @@
 Assets {
-  Id: 13930443944425901538
-  Name: "GAMEMODE_DogTags_Template"
+  Id: 9099033747376978326
+  Name: "GAMEMODE_TagsTurnIn_Template"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4500493300670646615
+      RootId: 15982799731676864819
       Objects {
-        Id: 4500493300670646615
-        Name: "GAMEMODE_DogTags_Template"
+        Id: 15982799731676864819
+        Name: "GAMEMODE_TagsTurnIn_Template"
         Transform {
           Scale {
             X: 1
@@ -16,18 +16,17 @@ Assets {
           }
         }
         ParentId: 8568336417442047963
-        ChildIds: 6040344200635910230
+        ChildIds: 15071993948495717936
         UnregisteredParameters {
           Overrides {
-            Name: "cs:TV"
+            Name: "cs:TEAM"
             Int: 0
           }
           Overrides {
-            Name: "cs:TV:isrep"
+            Name: "cs:TEAM:isrep"
             Bool: true
           }
         }
-        Lifespan: 30
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -40,11 +39,10 @@ Assets {
         }
       }
       Objects {
-        Id: 6040344200635910230
+        Id: 15071993948495717936
         Name: "ClientContext"
         Transform {
           Location {
-            Z: 84.2269821
           }
           Rotation {
           }
@@ -54,10 +52,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4500493300670646615
-        ChildIds: 18182533906967871625
-        ChildIds: 12220886505555462085
-        ChildIds: 6456724112618147155
+        ParentId: 15982799731676864819
+        ChildIds: 1335520272521806984
+        ChildIds: 14191881792006111904
+        ChildIds: 17013324915691127697
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -69,7 +67,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18182533906967871625
+        Id: 1335520272521806984
         Name: "Geo"
         Transform {
           Location {
@@ -77,13 +75,13 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 13.2229986
+            Y: 13.2229986
+            Z: 13.2229986
           }
         }
-        ParentId: 6040344200635910230
-        ChildIds: 3316903320166254051
+        ParentId: 15071993948495717936
+        ChildIds: 15419986313444375956
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -95,42 +93,44 @@ Assets {
         }
       }
       Objects {
-        Id: 3316903320166254051
-        Name: "Fantasy Axe Blade 01"
+        Id: 15419986313444375956
+        Name: "Cube"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
           }
         }
-        ParentId: 18182533906967871625
+        ParentId: 1335520272521806984
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9545207613779103469
+              Id: 1985683600147254866
             }
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 15095722391266562394
+            Id: 5109129970559468393
           }
           Teams {
+            UseTeamColor: true
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          EnableCameraCollision: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -140,21 +140,20 @@ Assets {
         }
       }
       Objects {
-        Id: 12220886505555462085
+        Id: 14191881792006111904
         Name: "Trigger"
         Transform {
           Location {
-            X: -4.02856445
           }
           Rotation {
           }
           Scale {
-            X: 1.70549583
-            Y: 1.70549583
-            Z: 1.70549583
+            X: 13.222805
+            Y: 13.222805
+            Z: 13.222805
           }
         }
-        ParentId: 6040344200635910230
+        ParentId: 15071993948495717936
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -162,19 +161,18 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Trigger {
-          Interactable: true
           TeamSettings {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
           TriggerShape_v2 {
-            Value: "mc:etriggershape:sphere"
+            Value: "mc:etriggershape:box"
           }
         }
       }
       Objects {
-        Id: 6456724112618147155
-        Name: "GAMEMODE_DogTags_Client"
+        Id: 17013324915691127697
+        Name: "GAMEMODE_TagsCollect_Client"
         Transform {
           Location {
           }
@@ -186,18 +184,24 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6040344200635910230
+        ParentId: 15071993948495717936
         UnregisteredParameters {
           Overrides {
             Name: "cs:ROOT"
             ObjectReference {
-              SubObjectId: 4500493300670646615
+              SubObjectId: 15982799731676864819
             }
           }
           Overrides {
             Name: "cs:TRIGGER"
             ObjectReference {
-              SubObjectId: 12220886505555462085
+              SubObjectId: 14191881792006111904
+            }
+          }
+          Overrides {
+            Name: "cs:Cube"
+            ObjectReference {
+              SubObjectId: 15419986313444375956
             }
           }
         }
@@ -209,27 +213,27 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 9939373372494671925
+            Id: 16877288636570209783
           }
         }
       }
     }
     Assets {
-      Id: 15095722391266562394
-      Name: "Fantasy Axe Blade 01"
+      Id: 5109129970559468393
+      Name: "Cube"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_fan_blade_axe_001"
+        AssetId: "sm_cube_002"
       }
     }
     Assets {
-      Id: 9545207613779103469
-      Name: "Emissive Glow Transparent"
+      Id: 1985683600147254866
+      Name: "Edgeline Wavy Object Fade Advanced"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetId: "fxma_add_edgeline_local"
       }
     }
     PrimaryAssetId {

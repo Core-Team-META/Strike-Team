@@ -12,13 +12,13 @@ Assets {
       Overrides {
         Name: "cs:NETWORKED"
         ObjectReference {
-          SelfId: 6691565911725201882
+          SelfId: 10857687478960459655
         }
       }
       Overrides {
         Name: "cs:SPAWNED_OBJECTS"
         ObjectReference {
-          SelfId: 10836128566695019848
+          SelfId: 13963835752669516336
         }
       }
     }

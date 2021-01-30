@@ -1,5 +1,5 @@
 Assets {
-  Id: 1839055199730686685
+  Id: 2872454943236864247
   Name: "GAME_MODE_KingOfHills_HillTemplate"
   PlatformAssetType: 5
   TemplateAsset {

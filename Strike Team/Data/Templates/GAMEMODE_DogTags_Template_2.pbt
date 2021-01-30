@@ -1,5 +1,5 @@
 Assets {
-  Id: 13930443944425901538
+  Id: 15293998799313657529
   Name: "GAMEMODE_DogTags_Template"
   PlatformAssetType: 5
   TemplateAsset {

@@ -26,8 +26,8 @@ local ROUND_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundHasDuration")
 local ROUND_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundDuration")
 local ROUND_END_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndHasDuration")
 local ROUND_END_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndDuration")
-local VOTING_HAS_DURATION = true
-local VOTING_DURATION = 20
+local VOTING_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingHasDuration")
+local VOTING_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingDuration")
 
 -- Check user properties
 if LOBBY_DURATION < 0.0 then

@@ -289,6 +289,14 @@ Objects {
       Float: 30
     }
     Overrides {
+      Name: "cs:VotingHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:VotingDuration"
+      Float: 20
+    }
+    Overrides {
       Name: "cs:LobbyHasDuration:tooltip"
       String: "Lobby phase has a maximum duration"
     }

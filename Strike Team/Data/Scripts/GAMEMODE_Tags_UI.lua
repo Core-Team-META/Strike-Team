@@ -2,6 +2,8 @@ local AMMOUNT = script:GetCustomProperty("AMMOUNT"):WaitForObject()
 local UIPanel = script:GetCustomProperty("UIPanel"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
+local isEnabled = false
+
 function Tick()
     if _G.META_GAME_MODES then
         local tags = LOCAL_PLAYER:GetResource(_G.META_GAME_MODES.TAG_NAME)
@@ -16,7 +18,7 @@ function Tick()
 end
 
 function OnBindingPressed(player, keybind)
-    if player == LOCAL_PLAYER then
+    if player == LOCAL_PLAYER and isEnabled then
         local id
         if keybind == "ability_extra_1" then
             id = 1
