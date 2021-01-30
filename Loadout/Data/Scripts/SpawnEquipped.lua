@@ -38,7 +38,8 @@ function SpawnItem(SpawnedItem)
         primary = SpawnedItem
     end
     local d = _G["DataBase"]:SetupItemWithSkin(primary)
-    local Weapon = d:SpawnEquipment()
+    
+    local Weapon = World.SpawnAsset(d:GetEquippedSkin())
     --Weapon.parent = script.parent
     Weapon.visibility = Visibility.FORCE_ON
 

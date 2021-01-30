@@ -748,7 +748,7 @@ Objects {
   Name: "SD Loadout UI Container 3"
   Transform {
     Scale {
-      X: 1
+      X: -1
       Y: 1
       Z: 1
     }

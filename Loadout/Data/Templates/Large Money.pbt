@@ -33,10 +33,10 @@ Assets {
         Name: "ClientContext"
         Transform {
           Location {
-            Z: 0.762348175
           }
           Rotation {
-            Roll: 90
+            Pitch: -90
+            Yaw: 90
           }
           Scale {
             X: 0.25

@@ -35,6 +35,7 @@ Assets {
           Location {
           }
           Rotation {
+            Roll: 90
           }
           Scale {
             X: 0.25

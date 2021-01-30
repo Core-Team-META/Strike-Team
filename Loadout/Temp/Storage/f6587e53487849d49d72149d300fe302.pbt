@@ -1,13 +1,5 @@
 Entries {
   Key {
-    StringVar: "Lootbox.OpenTime"
-  }
-  SimpleValue {
-    IntVar: 1611962683
-  }
-}
-Entries {
-  Key {
     StringVar: "Lootbox.CanOpen"
   }
   SimpleValue {
@@ -19,6 +11,14 @@ Entries {
     StringVar: "Lootbox.LastOpen"
   }
   SimpleValue {
-    IntVar: 1611962663
+    IntVar: 1611995152
+  }
+}
+Entries {
+  Key {
+    StringVar: "Lootbox.OpenTime"
+  }
+  SimpleValue {
+    IntVar: 1611995172
   }
 }

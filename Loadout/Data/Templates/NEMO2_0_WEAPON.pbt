@@ -181,7 +181,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 25000
+            ProjectileSpeed: 75000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -303,7 +303,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 6.94
+            Duration: 6.5
             CanMove: true
             CanJump: true
             CanRotate: true

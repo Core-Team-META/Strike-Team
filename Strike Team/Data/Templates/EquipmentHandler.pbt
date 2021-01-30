@@ -7227,7 +7227,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 14482320207318663573
+              Id: 3109845709490378550
             }
           }
           Overrides {
@@ -7243,6 +7243,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
+              Pitch: -90
             }
           }
         }
@@ -7336,7 +7337,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
+              Roll: 90
             }
           }
         }
@@ -7401,7 +7402,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
+              Roll: 90
             }
           }
         }
@@ -7462,6 +7463,16 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "A medical kit that is used to restore health."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Roll: -90
+            }
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 0.5
           }
         }
         Collidable_v2 {
@@ -7582,7 +7593,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
+              Roll: 90
             }
           }
         }
@@ -7647,7 +7658,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
+              Roll: -90
             }
           }
         }
@@ -7712,7 +7723,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
+              Roll: 90
             }
           }
         }
@@ -7777,7 +7788,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
+              Roll: 90
             }
           }
         }
@@ -8149,6 +8160,8 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
+              Pitch: 90
+              Yaw: 90
             }
           }
         }
@@ -8207,6 +8220,8 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
+              Pitch: 90
+              Yaw: 90
             }
           }
         }
@@ -8265,6 +8280,8 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
+              Pitch: 90
+              Yaw: 90
             }
           }
         }

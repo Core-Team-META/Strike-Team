@@ -133,10 +133,10 @@ Assets {
               Id: 1079436827292610152
             }
             TrailAssetRef {
-              Id: 9023864673320310867
+              Id: 4069488059769837249
             }
             ImpactAssetRef {
-              Id: 15728676179772725900
+              Id: 9873536567287197786
             }
             UseReticle: true
             Muzzle {
@@ -161,7 +161,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 3.16
+            BurstDuration: 1.16
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -173,7 +173,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 100000
+            ProjectileSpeed: 65000
             ProjectileLifeSpan: 6
             ProjectileLength: 35
             ProjectileRadius: 1

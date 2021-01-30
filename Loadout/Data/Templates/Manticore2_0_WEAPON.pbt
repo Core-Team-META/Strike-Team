@@ -176,12 +176,12 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 3200
+            ProjectileSpeed: 3000
             ProjectileLifeSpan: 5
             ProjectileGravity: 0.2
             ProjectileLength: 40
             ProjectileRadius: 15
-            ProjectileDrag: -0.1
+            ProjectileDrag: -0.7
             SpreadMin: 6
             SpreadMax: 20
             DefaultAbility {

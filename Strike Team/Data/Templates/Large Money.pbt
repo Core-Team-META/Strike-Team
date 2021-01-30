@@ -35,6 +35,7 @@ Assets {
           Location {
           }
           Rotation {
+            Pitch: -90
             Yaw: 90
           }
           Scale {
