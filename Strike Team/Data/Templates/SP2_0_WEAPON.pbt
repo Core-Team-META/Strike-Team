@@ -158,7 +158,6 @@ Assets {
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
-            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
@@ -176,7 +175,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 25000
+            ProjectileSpeed: 75000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -375,11 +374,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 25
+            Float: 24
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 40
+            Float: 48
           }
         }
         Collidable_v2 {

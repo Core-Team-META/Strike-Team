@@ -162,7 +162,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 10
+            BurstDuration: 9.5
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 100000
@@ -175,15 +175,15 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 25000
+            ProjectileSpeed: 85000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 2
             SpreadMax: 1
             SpreadDecreaseSpeed: 5.5
-            SpreadIncreasePerShot: 0.5
-            SpreadPenaltyPerShot: 1
-            SpreadAperture: 1
+            SpreadIncreasePerShot: 0.3
+            SpreadPenaltyPerShot: 0.8
+            SpreadAperture: 0.1
             DefaultAbility {
               SubObjectId: 5451442880000197012
             }
@@ -375,11 +375,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 42
+            Float: 40
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 56
+            Float: 58
           }
         }
         Collidable_v2 {
@@ -537,7 +537,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.45
+            Float: 0.48
           }
         }
         Collidable_v2 {

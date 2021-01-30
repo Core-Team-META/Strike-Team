@@ -1,13 +1,13 @@
 Assets {
-  Id: 9023864673320310867
-  Name: "Generic Trail"
+  Id: 4069488059769837249
+  Name: "Mamba Trail"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11388592286874595498
+      RootId: 9584921306454915963
       Objects {
-        Id: 11388592286874595498
-        Name: "Generic Trail"
+        Id: 9584921306454915963
+        Name: "Mamba Trail"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 7928271528055639521
+        ChildIds: 4933091894732211505
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -30,7 +30,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7928271528055639521
+        Id: 4933091894732211505
         Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
@@ -43,7 +43,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11388592286874595498
+        ParentId: 9584921306454915963
         UnregisteredParameters {
           Overrides {
             Name: "bp:colorB"
@@ -56,15 +56,15 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 0.35
+            Float: 0.45
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.14
+            Float: 0.34
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 1.6
+            Float: 1.8
           }
           Overrides {
             Name: "bp:Color"
@@ -78,18 +78,18 @@ Assets {
           Overrides {
             Name: "bp:ColorB"
             Color {
-              R: 0.609375
-              G: 0.609375
-              B: 0.609375
+              R: 1
+              G: 0.876688719
+              B: 0.62
               A: 1
             }
           }
           Overrides {
             Name: "bp:ColorC"
             Color {
-              R: 0.536458313
-              G: 0.536458313
-              B: 0.536458313
+              R: 0.7609272
+              G: 0.62
+              B: 1
               A: 1
             }
           }

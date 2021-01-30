@@ -174,7 +174,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 5
-            ProjectileSpeed: 10000
+            ProjectileSpeed: 20000
             ProjectileLifeSpan: 4
             ProjectileLength: 35
             ProjectileRadius: 5
@@ -375,11 +375,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 35
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 60
+            Float: 55
           }
         }
         Collidable_v2 {
