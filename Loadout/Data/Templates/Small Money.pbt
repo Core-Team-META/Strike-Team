@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1353993627562093065
+        ParentId: 4781671109827199097
         ChildIds: 7610715860630458679
         WantsNetworking: true
         Collidable_v2 {
@@ -33,8 +33,10 @@ Assets {
         Name: "ClientContext"
         Transform {
           Location {
+            Z: -4.72492027
           }
           Rotation {
+            Roll: 90
           }
           Scale {
             X: 0.25

@@ -51,7 +51,7 @@ function RecieveItem(Item)
     print(Item)
     local Weapon = _G["DataBase"]:ReturnEquipmentById(Item)
     local list = FilterWeaponList(Game.GetLocalPlayer())
-    while #list < 7 do
+    while #list < 10 do
     table.insert( list, _G["DataBase"]:ReturnEquipmentById("ML") )
     table.insert( list, _G["DataBase"]:ReturnEquipmentById("MM") )
     table.insert( list, _G["DataBase"]:ReturnEquipmentById("MS") )

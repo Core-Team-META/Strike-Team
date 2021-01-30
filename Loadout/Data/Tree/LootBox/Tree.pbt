@@ -5322,13 +5322,12 @@ Objects {
   Name: "LootBoxCamera"
   Transform {
     Location {
-      X: 321.018433
-      Y: 3.57992554
-      Z: 26.4726105
+      X: 500
+      Z: -80
     }
     Rotation {
-      Pitch: -4.60467529
-      Yaw: 177.600815
+      Pitch: 15
+      Yaw: 180
     }
     Scale {
       X: 1
@@ -5516,6 +5515,12 @@ Objects {
       Name: "cs:ReloadPoint"
       ObjectReference {
         SelfId: 6471647790061802470
+      }
+    }
+    Overrides {
+      Name: "cs:Ease3D"
+      AssetReference {
+        Id: 3949190775138756950
       }
     }
   }
