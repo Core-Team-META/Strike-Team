@@ -70,9 +70,14 @@ function Tick(deltaTime)
 			local weapon = GetWeapon(player)
             if weapon ~= nil then
                 --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
-
-                AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo) or weapon.currentAmmo
-                MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo
+                if weapon.clientUserData.Ammo then
+                    AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
+                else AMMO_TEXT.text = "" end
+                if weapon.clientUserData.MaxAmmo then
+                    MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo 
+                else
+                    MAX_AMMO_TEXT.text = ""
+                end
             else
                 AMMO_TEXT.text = tostring("∞")
                 MAX_AMMO_TEXT.text = tostring("")
