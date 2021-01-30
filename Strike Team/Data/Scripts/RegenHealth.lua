@@ -1,14 +1,19 @@
-﻿local TimeBeforeHealing = script:GetCustomProperty("TimeBeforeHealing")
-local HealinigPerSecond = script:GetCustomProperty("HealinigPerSecond")
+local TimeBeforeHealing = script:GetCustomProperty("TimeBeforeHealing")
+local HealingPerSecond = script:GetCustomProperty("HealinigPerSecond")
 
 function Regen( )
     while true do 
         for _,player in pairs(Game.GetPlayers( )) do
-            if(player.serverUserData["Regen"] ) then
-                if( player.serverUserData["Regen"]["LastDamage"] ) then
+            local hp = player.hitPoints
+            local maxHP = player.maxHitPoints
+            if(hp < maxHP and player.serverUserData["Regen"] ) then
+                if(player.serverUserData["Regen"]["LastDamage"]) then
                     if(os.time() - player.serverUserData["Regen"]["LastDamage"] > TimeBeforeHealing) then
-                        local dmg = Damage.New(-HealinigPerSecond*0.1)
-                        player:ApplyDamage(dmg)
+                        hp = hp + HealingPerSecond * 0.1
+                        if hp > maxHP then
+                        	hp = maxHP
+                        end
+                        player.hitPoints = hp
                     end
                 end
             end
