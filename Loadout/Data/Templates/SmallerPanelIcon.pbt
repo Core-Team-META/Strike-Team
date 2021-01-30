@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8293171845170377650
+        ParentId: 17495218659785775819
         ChildIds: 14162147070820197294
         ChildIds: 11416539083219699044
         ChildIds: 13763552303418828340
@@ -62,6 +62,12 @@ Assets {
             Name: "cs:PadLock"
             ObjectReference {
               SubObjectId: 5235058405371179440
+            }
+          }
+          Overrides {
+            Name: "cs:UnlockText"
+            ObjectReference {
+              SubObjectId: 16462346762846017167
             }
           }
         }
@@ -414,6 +420,7 @@ Assets {
         }
         ParentId: 5261119455479351822
         ChildIds: 11033628785846001682
+        ChildIds: 16462346762846017167
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -508,6 +515,65 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16462346762846017167
+        Name: "UnlockText"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5235058405371179440
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 212
+          Height: 32
+          UIX: 19.3538818
+          UIY: -34.7223778
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Text"
+            Color {
+              R: 0.681000054
+              G: 0.681000054
+              B: 0.681000054
+              A: 1
+            }
+            Size: 14
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
               }
             }
           }

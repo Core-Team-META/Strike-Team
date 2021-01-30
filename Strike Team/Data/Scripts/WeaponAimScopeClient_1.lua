@@ -160,7 +160,7 @@ function EnableScoping(player)
 end
 
 function ResetScoping(player)
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if player ~= LOCAL_PLAYER then return end
     -- Reset camera scoping values
     cameraTargetDistance = cameraResetDistance
     cameraTargetFOV = cameraResetFOV
@@ -200,7 +200,7 @@ function ResetScoping(player)
 end
 
 function ForceReset(player)
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if player ~= LOCAL_PLAYER then return end
     if not activeCamera then return end 
     activeCamera.fieldOfView = cameraResetFOV
 end
@@ -268,6 +268,7 @@ function OnUnequipped(weapon, player)
         scopeInstance = nil
     end
     connected = false
+    ForceReset(player)
 end
 
 -- Reset scoping on reload

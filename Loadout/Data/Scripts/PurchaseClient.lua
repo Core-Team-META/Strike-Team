@@ -16,7 +16,7 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     if Skin then
         ConfirmationPanel.clientUserData.type = "Skin"
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
-        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format( PurchasePanel_Texts.PurchaseableSkin,Skin.name,Weapon.data.name,Purchase_API.ReturnPrice(Skin.rarity) )
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format( PurchasePanel_Texts.PurchaseableSkin,Skin.name,Weapon.data.name,Skin.rarity:GetCost())
     else 
         ConfirmationPanel.clientUserData.type = "Weapon"
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseWeapon,Weapon)

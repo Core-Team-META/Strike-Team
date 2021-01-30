@@ -18,7 +18,6 @@ end
 function LOADOUT()
     HideAllUI()
     LOADOUT_UI.visibility = Visibility.FORCE_ON
-    print("s")
 end
 
 function UserSettings()
@@ -28,7 +27,7 @@ end
 
 
 
-local state = "MENU"
+local state = "LOADOUT"
 local StatesEnum = {
     ["MENU"] = MENU,
     ["LOADOUT"] = LOADOUT,
@@ -37,6 +36,7 @@ local StatesEnum = {
 
 
 Events.Connect("UpdateMenuState",function(newState)
+    print("s")
     if(StatesEnum[newState] and newState ~= state ) then     
         state = newState
         StatesEnum[state]()

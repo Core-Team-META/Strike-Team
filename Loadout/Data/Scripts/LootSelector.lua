@@ -56,6 +56,7 @@ end
 function GiveMoney(player,amount,Type)
     Events.BroadcastToPlayer(player,"Lootbox.GiveItem",Type)
     player:AddResource("Cash", amount)
+    _G["PurchaseAPI"].SaveMoney(player)
 end
 
 function FindItem(player)

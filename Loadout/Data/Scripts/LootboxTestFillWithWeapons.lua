@@ -44,7 +44,11 @@ function OnBindingPressed(player, binding)
 	if binding == "ability_extra_38" then
 	
 		FillLootbox()
-		
+		Events.Broadcast("AllloadoutPanelsClose")
+		_G["LoadoutState"] = _G["LOADOUTSTATEENUMS"][1]
+		Events.Broadcast("UpdateMenuState","MENU")
+		Events.Broadcast("UpdatedLoadoutState")
+	
 		Events.Broadcast(broadcastName, localPlayer)
 		
 	end

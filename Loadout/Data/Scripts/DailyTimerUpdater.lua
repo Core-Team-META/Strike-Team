@@ -27,8 +27,11 @@ end
 
 function SetOpenTime(player, resourcename)
     if resourcename == "Lootbox.Time" then
+        print(LOCAL_PLAYER:GetResource("Lootbox.Time") ,"Time")
         openTime = os.time()+LOCAL_PLAYER:GetResource("Lootbox.Time") 
     end
 end
 
 LOCAL_PLAYER.resourceChangedEvent:Connect(SetOpenTime)
+Task.Wait(1)
+SetOpenTime()

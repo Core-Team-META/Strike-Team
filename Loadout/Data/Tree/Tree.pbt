@@ -29,6 +29,7 @@ Objects {
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
   ChildIds: 11909944240055752873
+  ChildIds: 7586424674783170473
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +39,33 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 7586424674783170473
+  Name: "HideandshowCratePanel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12677739069051575535
+    }
   }
 }
 Objects {

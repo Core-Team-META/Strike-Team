@@ -112,7 +112,9 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             if os.clock() - LastPressed > .1 then
                 LastPressed = os.clock()
-                if(skin) then item:EquipSkinByID(skin.id) end
+                if(skin) then 
+                    item:EquipSkinByID(skin.id)  
+                end
                 Events.BroadcastToServer("UpdateEquipment", item:ReturnIDs(), item.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
                 Events.Broadcast("UpdateEquipment",item:ReturnIDs(), item.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
                 Events.Broadcast("UpdateDataPanel")
@@ -124,7 +126,15 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             Lock:Destroy()
         end
     else
-        
+        if(skin) then 
+            if skin.level > Game.GetLocalPlayer():GetResource("Level") then
+                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Level %d is required", skin.level)
+            else
+                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d ", skin.rarity:GetCost())
+            end
+        else
+            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Buy for 1 Credit")
+        end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             Events.Broadcast("PurchaseItem",item,skin)
         end)

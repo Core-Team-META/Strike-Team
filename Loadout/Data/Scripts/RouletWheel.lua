@@ -49,7 +49,6 @@ end
 
 function RecieveItem(Item)
     Events.Broadcast("AllloadoutPanelsClose")
-    print(Item)
     local Weapon = _G["DataBase"]:ReturnEquipmentById(Item)
     local list = FilterWeaponList(Game.GetLocalPlayer())
     while #list < 10 do

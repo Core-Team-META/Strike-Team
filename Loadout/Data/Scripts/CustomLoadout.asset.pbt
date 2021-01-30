@@ -14,6 +14,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:LevelLock"
+        Int: 0
+      }
+      Overrides {
         Name: "cs:contextpanel"
         AssetReference {
           Id: 17756474356138229436
@@ -29,6 +33,11 @@ Assets {
         Name: "cs:GlobalPixel"
         AssetReference {
           Id: 17242507043539678013
+        }
+      }
+      Overrides {
+        Name: "cs:Text_Main_Loadout1"
+        ObjectReference {
         }
       }
     }

@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7198786684634025348
+        ParentId: 18272163082082247181
         ChildIds: 14918399479264510749
         ChildIds: 12422672806250089011
         ChildIds: 11734302483443935999
@@ -52,6 +52,12 @@ Assets {
             Name: "cs:HilightPanel"
             ObjectReference {
               SubObjectId: 12422672806250089011
+            }
+          }
+          Overrides {
+            Name: "cs:UnlockText"
+            ObjectReference {
+              SubObjectId: 18439894377601718468
             }
           }
         }
@@ -101,6 +107,7 @@ Assets {
         }
         ParentId: 1877528306481387024
         ChildIds: 10157678964880626258
+        ChildIds: 18439894377601718468
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -195,6 +202,65 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 18439894377601718468
+        Name: "UnlockText"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14918399479264510749
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 212
+          Height: 32
+          UIX: 19.3538818
+          UIY: -34.7223778
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Text"
+            Color {
+              R: 0.681000054
+              G: 0.681000054
+              B: 0.681000054
+              A: 1
+            }
+            Size: 14
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
               }
             }
           }

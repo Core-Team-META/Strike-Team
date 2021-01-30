@@ -1,5 +1,6 @@
 local LootBox = {}
 LootBox.__index = LootBox
+local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 
 function LootBox.Verify(player)    
     return player:GetResource("Gold") >= 10  and  player:GetResource("Lootbox.CanOpen") == 0 
@@ -9,13 +10,13 @@ end
 if Environment.IsServer() then
 
     function LootBox.Lock(player) 
-        Events.BroadcastToPlayer(player,"LootBox.Lock")
+        ReliableEvents.BroadcastToPlayer(player,"LootBox.Lock")
         player:SetResource("Lootbox.CanOpen",1) 
         LootBox.Save(player)
     end 
 
     function LootBox.Unlock(player) 
-        Events.BroadcastToPlayer(player,"LootBox.UnLock")
+        ReliableEvents.BroadcastToPlayer(player,"LootBox.UnLock")
         player:SetResource("Lootbox.CanOpen",0)
         LootBox.Save(player) 
     end
@@ -41,7 +42,7 @@ if Environment.IsServer() then
     end
 
     function LootBox.UpdateTime(player)
-        local CountdownTimer = 20--60*60*24
+        local CountdownTimer = 300--60*60*24
         local data = Storage.GetPlayerData(player)
         data["Lootbox.LastOpen"] = os.time()
         data["Lootbox.OpenTime"] = os.time() + CountdownTimer
@@ -93,7 +94,7 @@ end
 
 if Environment.IsClient() then
     
-    function LootBox.Lock(player) 
+    function LootBox.Lock() 
         Events.Broadcast("Lootbox.Close")
     end 
 
@@ -101,26 +102,34 @@ if Environment.IsClient() then
         Task.Wait(1)
         if Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
             Events.Broadcast("Lootbox.Open")
+        else
+            LootBox.Lock() 
         end
     end
 
     function LootBox.Update()
-        if Game.GetLocalPlayer():GetResource("Gold") >= 10 and Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
-            Events.Broadcast("Lootbox.CanClaim")
+        if  Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
+            if Game.GetLocalPlayer():GetResource("Gold") >= 10 then
+                Events.Broadcast("Lootbox.CanClaim")
+            end 
+            LootBox.Unlock() 
+        else
+            LootBox.Lock()
         end
     end
 
     function LootBox.Claim()
         if LootBox.Verify(Game.GetLocalPlayer())  then
-            Events.BroadcastToServer("Lootbox.Claim")
+            ReliableEvents.BroadcastToServer("Lootbox.Claim")
         end
     end
-    LootBox.Update(Game.GetLocalPlayer())
 
     Events.Connect("LootBox.Lock", LootBox.Lock)
     Events.Connect("LootBox.UnLock", LootBox.Unlock)
     Game.GetLocalPlayer().resourceChangedEvent:Connect(LootBox.Update)
 
+    Task.Wait(1)
+    LootBox.Update()
 end
 
 _G["LootBox"] = LootBox

@@ -168,7 +168,8 @@ function AnimateSelection(selectedHolderEntry, player)
 	Task.Wait(7)
 	
 	-- reset
-	
+	Events.Broadcast("FinishedLoot")
+
 	player:ClearOverrideCamera()
 	
 	selectedHolderEntry.weaponPosition:StopRotate()
