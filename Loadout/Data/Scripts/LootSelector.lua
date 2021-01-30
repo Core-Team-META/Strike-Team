@@ -52,10 +52,31 @@ function GiveItem(player,Weapon)
     player.serverUserData.Storage:AddWeapon(Weapon)
 end
 
+
+function GiveMoney(player,amount,Type)
+    Events.BroadcastToPlayer(player,"Lootbox.GiveItem",Type)
+    player:AddResource("Cash", amount)
+end
+
 function FindItem(player)
    local list = FilterWeaponList(player)
-    if #list > 0 then
-        GiveItem(player,list[math.random(#list)].data.id)
+   local percent = math.random( 100 )
+    if percent < 76 then 
+        if #list > 0 then
+            GiveItem(player,list[math.random(#list)].data.id)
+            return
+        end
+    end
+    local percent = math.random(100)
+    if percent <= 50  then
+        GiveMoney(player,500, "MS")
+        return
+    elseif percent <= 85 then
+        GiveMoney(player,1000, "MM")
+        return
+    else
+        GiveMoney(player,2500, "ML")
+        return
     end
 end
 
