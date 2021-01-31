@@ -1,4 +1,5 @@
-﻿local LoadoutKey = script:GetCustomProperty("LoadoutKey")
+﻿while not _G["LoadoutKey"] do Task.Wait() end
+local LoadoutKey =  _G["LoadoutKey"]
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
 local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")

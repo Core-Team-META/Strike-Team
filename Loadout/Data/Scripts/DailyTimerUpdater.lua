@@ -4,7 +4,7 @@ local openTime = os.time()
 
 function updateTimer(Time)
     if LOCAL_PLAYER:GetResource("Lootbox.CanOpen") == 1 then 
-    
+        
         if Time <= 0 then  
             DailyTimer.text = "0:0"
             return    
@@ -25,13 +25,17 @@ function Tick()
 
 end
 
-function SetOpenTime(player, resourcename)
+function SetOpenTime( Time)
+    print(Time)
+    openTime = os.time() + Time or 0
+end
+
+function SetResourceTime(player, resourcename)
     if resourcename == "Lootbox.Time" then
-        print(LOCAL_PLAYER:GetResource("Lootbox.Time") ,"Time")
-        openTime = os.time()+LOCAL_PLAYER:GetResource("Lootbox.Time") 
+        SetOpenTime( LOCAL_PLAYER:GetResource("Lootbox.Time") or 0 )
     end
 end
 
-LOCAL_PLAYER.resourceChangedEvent:Connect(SetOpenTime)
-Task.Wait(1)
-SetOpenTime()
+
+Events.Connect("LootBox.TimeDiffence",SetOpenTime)
+--LOCAL_PLAYER.resourceChangedEvent:Connect(SetResourceTime)

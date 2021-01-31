@@ -2197,15 +2197,6 @@ Objects {
   ParentId: 4355175678147851601
   UnregisteredParameters {
     Overrides {
-      Name: "cs:LoadoutKey"
-      NetReference {
-        Key: "e5b0a123233e4117aa5d09b213df9522"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:ReliableEvents"
       AssetReference {
         Id: 1680988108412715813

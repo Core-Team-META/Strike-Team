@@ -31,11 +31,13 @@ if Environment.IsServer() then
             LootBox.Gift(player)
             LootBox.Lock(player) 
             LootBox.UpdateTime(player)
+
         end
     end
 
     function LootBox.UpdateOpenTime(player,Time)
-        player:SetResource("Lootbox.Time", Time)
+        --player:SetResource("Lootbox.Time", Time)
+        Events.BroadcastToPlayer(player,"LootBox.TimeDiffence", Time)
         Task.Spawn(function() 
             LootBox.Unlock(player) 
         end, Time)
@@ -48,6 +50,7 @@ if Environment.IsServer() then
         data["Lootbox.OpenTime"] = os.time() + CountdownTimer
         LootBox.UpdateOpenTime(player, CountdownTimer)
         Storage.SetPlayerData(player,data)
+        return CountdownTimer
     end
 
     function LootBox.Save(player)
@@ -81,6 +84,7 @@ if Environment.IsServer() then
         --local opentime = data2["Lootbox.LastOpen"]
         local CloseTime = data2["Lootbox.OpenTime"]
         player:SetResource("Lootbox.CanOpen",data2["Lootbox.CanOpen"] or 0)
+
         if data2["Lootbox.CanOpen"] == 1 then
             LootBox.Lock(player) 
             LootBox.UpdateOpenTime(player,os.difftime(CloseTime,os.time()))
@@ -108,7 +112,7 @@ if Environment.IsClient() then
     end
 
     function LootBox.Update()
-        if  Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
+        if Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") == 0 then 
             if Game.GetLocalPlayer():GetResource("Gold") >= 10 then
                 Events.Broadcast("Lootbox.CanClaim")
             end 
@@ -127,8 +131,7 @@ if Environment.IsClient() then
     Events.Connect("LootBox.Lock", LootBox.Lock)
     Events.Connect("LootBox.UnLock", LootBox.Unlock)
     Game.GetLocalPlayer().resourceChangedEvent:Connect(LootBox.Update)
-
-    Task.Wait(1)
+    Task.Wait()
     LootBox.Update()
 end
 
