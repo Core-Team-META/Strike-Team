@@ -1,13 +1,13 @@
 Assets {
-  Id: 15293998799313657529
-  Name: "GAMEMODE_DogTags_Template"
+  Id: 5763397908864857621
+  Name: "Object_Doggo_Tags"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4500493300670646615
+      RootId: 14578633501532192848
       Objects {
-        Id: 4500493300670646615
-        Name: "GAMEMODE_DogTags_Template"
+        Id: 14578633501532192848
+        Name: "Object_Doggo_Tags"
         Transform {
           Scale {
             X: 1
@@ -16,18 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6040344200635910230
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:TV"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:TV:isrep"
-            Bool: true
-          }
-        }
-        Lifespan: 30
+        ChildIds: 5211173619519421069
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -40,159 +29,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6040344200635910230
-        Name: "ClientContext"
-        Transform {
-          Location {
-            Z: 84.2269821
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4500493300670646615
-        ChildIds: 18182533906967871625
-        ChildIds: 12220886505555462085
-        ChildIds: 6456724112618147155
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 18182533906967871625
-        Name: "Geo"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6040344200635910230
-        ChildIds: 15153962331116285501
-        ChildIds: 3048629305567878113
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 15153962331116285501
-        Name: "Object Rotator Continuous"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18182533906967871625
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Object"
-            ObjectReference {
-              SubObjectId: 3048629305567878113
-            }
-          }
-          Overrides {
-            Name: "cs:RotateVelocity"
-            Rotator {
-              Yaw: 30
-            }
-          }
-          Overrides {
-            Name: "cs:RotationMultiplier"
-            Float: 5
-          }
-          Overrides {
-            Name: "cs:LocalSpace"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:StartDelayRange"
-            Vector2 {
-            }
-          }
-          Overrides {
-            Name: "cs:RotationMultiplier:tooltip"
-            String: "Optional multiplier for very fast rotations."
-          }
-          Overrides {
-            Name: "cs:StartDelayRange:tooltip"
-            String: "Random delay range for the object to take action at the start of the game."
-          }
-          Overrides {
-            Name: "cs:LocalSpace:tooltip"
-            String: "Whether RotateTo is in local space"
-          }
-          Overrides {
-            Name: "cs:Object:tooltip"
-            String: "Object to transform"
-          }
-          Overrides {
-            Name: "cs:RotateVelocity:tooltip"
-            String: "Smoothly rotates the object over time by the given angular velocity."
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 2331688389429807128
-          }
-        }
-      }
-      Objects {
-        Id: 3048629305567878113
-        Name: "Object_Doggo_Tags"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18182533906967871625
-        ChildIds: 12127792555244970300
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12127792555244970300
+        Id: 5211173619519421069
         Name: "ClientContext"
         Transform {
           Location {
@@ -208,8 +45,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3048629305567878113
-        ChildIds: 12556135890679140081
+        ParentId: 14578633501532192848
+        ChildIds: 5647239946023540032
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -220,7 +58,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12556135890679140081
+        Id: 5647239946023540032
         Name: "Dogtags"
         Transform {
           Location {
@@ -236,21 +74,21 @@ Assets {
             Z: 0.2
           }
         }
-        ParentId: 12127792555244970300
-        ChildIds: 9191226526594991314
-        ChildIds: 17203120596106294904
-        ChildIds: 3751345938463506279
-        ChildIds: 9441274697554326209
-        ChildIds: 17613623211765214556
-        ChildIds: 15426343268612701647
-        ChildIds: 5529110089795038047
-        ChildIds: 1464272039558150002
-        ChildIds: 18200840998607573399
-        ChildIds: 3980718496503985377
-        ChildIds: 17520020252908053469
-        ChildIds: 6311937476424004669
-        ChildIds: 749163663689333564
-        ChildIds: 2720269825266246026
+        ParentId: 5211173619519421069
+        ChildIds: 11498417770949779299
+        ChildIds: 1054579911232630217
+        ChildIds: 15280758202538337494
+        ChildIds: 7140871235550603632
+        ChildIds: 1472524399637739245
+        ChildIds: 3893991514962028158
+        ChildIds: 12440074168233717998
+        ChildIds: 17603865571503500483
+        ChildIds: 2056242505292794406
+        ChildIds: 15501679909400866640
+        ChildIds: 1386194196153268332
+        ChildIds: 13224781204088024972
+        ChildIds: 16896043162584391821
+        ChildIds: 14258127181361379899
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -262,7 +100,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9191226526594991314
+        Id: 11498417770949779299
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -278,7 +116,7 @@ Assets {
             Z: 0.8
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -324,7 +162,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17203120596106294904
+        Id: 1054579911232630217
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -340,7 +178,7 @@ Assets {
             Z: 1.41381538
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -377,7 +215,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3751345938463506279
+        Id: 15280758202538337494
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -392,7 +230,7 @@ Assets {
             Z: 0.305028141
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -438,7 +276,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9441274697554326209
+        Id: 7140871235550603632
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -455,7 +293,7 @@ Assets {
             Z: 0.305028141
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -492,7 +330,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17613623211765214556
+        Id: 1472524399637739245
         Name: "World Text"
         Transform {
           Location {
@@ -511,7 +349,7 @@ Assets {
             Z: 0.467203408
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -537,7 +375,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15426343268612701647
+        Id: 3893991514962028158
         Name: "World Text"
         Transform {
           Location {
@@ -554,7 +392,7 @@ Assets {
             Z: 0.467203408
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -580,7 +418,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5529110089795038047
+        Id: 12440074168233717998
         Name: "World Text"
         Transform {
           Location {
@@ -599,7 +437,7 @@ Assets {
             Z: 0.467203408
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -625,7 +463,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1464272039558150002
+        Id: 17603865571503500483
         Name: "World Text"
         Transform {
           Location {
@@ -642,7 +480,7 @@ Assets {
             Z: 0.467203408
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -668,7 +506,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18200840998607573399
+        Id: 2056242505292794406
         Name: "World Text"
         Transform {
           Location {
@@ -685,7 +523,7 @@ Assets {
             Z: 0.467203408
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -711,7 +549,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3980718496503985377
+        Id: 15501679909400866640
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -730,7 +568,7 @@ Assets {
             Z: 2.28799295
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -797,7 +635,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17520020252908053469
+        Id: 1386194196153268332
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -816,7 +654,7 @@ Assets {
             Z: 0.800000072
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -853,7 +691,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6311937476424004669
+        Id: 13224781204088024972
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -872,7 +710,7 @@ Assets {
             Z: 1.4138155
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -909,7 +747,7 @@ Assets {
         }
       }
       Objects {
-        Id: 749163663689333564
+        Id: 16896043162584391821
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -928,7 +766,7 @@ Assets {
             Z: 0.305028141
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -974,7 +812,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2720269825266246026
+        Id: 14258127181361379899
         Name: "Cube - Arched"
         Transform {
           Location {
@@ -993,7 +831,7 @@ Assets {
             Z: 0.305028141
           }
         }
-        ParentId: 12556135890679140081
+        ParentId: 5647239946023540032
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -1035,79 +873,6 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
-          }
-        }
-      }
-      Objects {
-        Id: 12220886505555462085
-        Name: "Trigger"
-        Transform {
-          Location {
-            X: -4.02856445
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.70549583
-            Y: 1.70549583
-            Z: 1.70549583
-          }
-        }
-        ParentId: 6040344200635910230
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:sphere"
-          }
-        }
-      }
-      Objects {
-        Id: 6456724112618147155
-        Name: "GAMEMODE_DogTags_Client"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6040344200635910230
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ROOT"
-            ObjectReference {
-              SubObjectId: 4500493300670646615
-            }
-          }
-          Overrides {
-            Name: "cs:TRIGGER"
-            ObjectReference {
-              SubObjectId: 12220886505555462085
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 9939373372494671925
           }
         }
       }

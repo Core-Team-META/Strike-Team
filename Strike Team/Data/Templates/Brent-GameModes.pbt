@@ -874,7 +874,7 @@ Assets {
           Overrides {
             Name: "cs:KingOfHills_HillTemplate"
             AssetReference {
-              Id: 1839055199730686685
+              Id: 841534158063459245
             }
           }
           Overrides {
