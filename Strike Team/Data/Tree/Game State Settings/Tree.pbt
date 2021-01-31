@@ -238,7 +238,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RoundEndDuration"
-      Float: 30
+      Float: 10
     }
     Overrides {
       Name: "cs:VotingHasDuration"

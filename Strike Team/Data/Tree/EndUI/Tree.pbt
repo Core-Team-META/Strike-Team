@@ -918,17 +918,43 @@ Objects {
   ChildIds: 8009234412179685872
   ChildIds: 2998093178394884996
   ChildIds: 7154826486452543468
+  ChildIds: 14055176225886859182
   ChildIds: 12659661475970349697
   ChildIds: 17541724366754572204
   ChildIds: 15146821818705593348
   ChildIds: 18363314728166840181
   ChildIds: 1696437443302341265
   ChildIds: 16867765372934857498
+  ChildIds: 12273560661922558035
   ChildIds: 4853772447475752782
   ChildIds: 10029019083200499751
   ChildIds: 5922472602826098301
   ChildIds: 9111459598198078094
   ChildIds: 6348900353977218010
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:BUTTON"
+      ObjectReference {
+        SelfId: 14055176225886859182
+      }
+    }
+    Overrides {
+      Name: "cs:VOTE_COUNT"
+      ObjectReference {
+        SelfId: 5981257952921961971
+      }
+    }
+    Overrides {
+      Name: "cs:VOTED_FOR"
+      ObjectReference {
+        SelfId: 4853772447475752782
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -988,7 +1014,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -1490,7 +1516,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 100
@@ -1645,6 +1671,250 @@ Objects {
   InstanceHistory {
     SelfId: 10238805402333107468
     SubobjectId: 15827998858574689103
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 12273560661922558035
+  Name: "MODE_INFO"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14952181149758468044
+  ChildIds: 13728499086432570343
+  ChildIds: 9781347599391015509
+  ChildIds: 13785205196319732380
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 250
+    Height: 61
+    UIX: -115
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleright"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8651455697462465152
+    SubobjectId: 3292121721805223107
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 13785205196319732380
+  Name: "LONG"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12273560661922558035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 300
+    Height: 30
+    UIX: -155
+    UIY: 10.7206459
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    Text {
+      Label: "KING OF THE HILL"
+      Color {
+        R: 0.580000043
+        G: 0.28807953
+        A: 1
+      }
+      Size: 11
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13520763666341229890
+    SubobjectId: 17157787377583608577
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 9781347599391015509
+  Name: "SHORT"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12273560661922558035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 163
+    Height: 90
+    UIX: 20
+    UIY: -27
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "KOTH"
+      Color {
+        A: 0.295000017
+      }
+      Size: 55
+      Justification {
+        Value: "mc:etextjustify:right"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12401108516557472836
+    SubobjectId: 17989140665852846599
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 13728499086432570343
+  Name: "RIGHT_GRADIENT"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12273560661922558035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 25
+    Height: 260
+    UIX: -165
+    UIY: -20.5868492
+    RotationAngle: 90
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 3827265796245897469
+      }
+      Color {
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10249789512611025705
+    SubobjectId: 15816997155542922602
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -2025,6 +2295,89 @@ Objects {
   InstanceHistory {
     SelfId: 12659661475970349697
     SubobjectId: 18018890375512677570
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 14055176225886859182
+  Name: "UI Button"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14952181149758468044
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.623960555
+        G: 0.346704155
+      }
+      HoveredColor {
+        R: 0.318546832
+        G: 0.127437696
+        A: 0.309803933
+      }
+      PressedColor {
+        R: 0.623960555
+        G: 0.346704155
+        A: 0.309803933
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1086753553965995145
+    SubobjectId: 6533384698553627338
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -2504,6 +2857,30 @@ Objects {
   ChildIds: 7747556926395822944
   ChildIds: 2133074504184066317
   ChildIds: 646943711397411346
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 4
+    }
+    Overrides {
+      Name: "cs:BUTTON"
+      ObjectReference {
+        SelfId: 1086753553965995145
+      }
+    }
+    Overrides {
+      Name: "cs:VOTE_COUNT"
+      ObjectReference {
+        SelfId: 1140318672068773259
+      }
+    }
+    Overrides {
+      Name: "cs:VOTED_FOR"
+      ObjectReference {
+        SelfId: 12369068392506432574
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4223,6 +4600,30 @@ Objects {
   ChildIds: 5355247532418250053
   ChildIds: 12136833156359796083
   ChildIds: 14528409177838362017
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:BUTTON"
+      ObjectReference {
+        SelfId: 756553453468129009
+      }
+    }
+    Overrides {
+      Name: "cs:VOTE_COUNT"
+      ObjectReference {
+        SelfId: 13086453519966953483
+      }
+    }
+    Overrides {
+      Name: "cs:VOTED_FOR"
+      ObjectReference {
+        SelfId: 8987672527572371491
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5942,6 +6343,30 @@ Objects {
   ChildIds: 333078183066868503
   ChildIds: 13434220758363658596
   ChildIds: 7214996480966602417
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:BUTTON"
+      ObjectReference {
+        SelfId: 17569535836302184368
+      }
+    }
+    Overrides {
+      Name: "cs:VOTE_COUNT"
+      ObjectReference {
+        SelfId: 3216664740262245293
+      }
+    }
+    Overrides {
+      Name: "cs:VOTED_FOR"
+      ObjectReference {
+        SelfId: 11594815001225857637
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

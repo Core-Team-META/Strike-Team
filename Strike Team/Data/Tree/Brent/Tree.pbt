@@ -180,19 +180,31 @@ Objects {
     Overrides {
       Name: "cs:PARENT_PANEL"
       ObjectReference {
-        SelfId: 8645488299259673719
+        SelfId: 10507144481334532052
       }
     }
     Overrides {
       Name: "cs:TIME_REMAINING"
       ObjectReference {
-        SelfId: 1697279541285413068
+        SelfId: 3621255126095962672
       }
     }
     Overrides {
       Name: "cs:APIBasicGameState"
       AssetReference {
         Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:TIME_REMAINING2"
+      ObjectReference {
+        SelfId: 3940673156651896804
+      }
+    }
+    Overrides {
+      Name: "cs:GAME_MODE_POLL"
+      ObjectReference {
+        SelfId: 12950382018174454502
       }
     }
   }
