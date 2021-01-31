@@ -154,10 +154,6 @@ Game.roundStartEvent:Connect(function()
     end
 end)
 Events.ConnectForPlayer("RequestData",RequestData)
-Events.ConnectForPlayer("WeaponsBroke",function(player) 
-    UnequipPlayer(player)
-    EquipPlayer(player)
-end)
 
 Game.playerLeftEvent:Connect(function(player)
     if Object.IsValid( player.serverUserData.NetworkSpawn) then
