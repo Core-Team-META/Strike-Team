@@ -388,11 +388,6 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 
 function API.OnPlayerDied(player, damage, currentGameTypeId)
-    if currentGameTypeId > 0 and API.GetShouldRespawn(currentGameTypeId) then
-        player:SetResource("GM.RESPAWN_ENABLED", 1)
-    else
-        player:SetResource("GM.RESPAWN_ENABLED", 0)
-    end
     Events.Broadcast(NAMESPACE.ON_DIED, player, damage, currentGameTypeId)
 end
 
