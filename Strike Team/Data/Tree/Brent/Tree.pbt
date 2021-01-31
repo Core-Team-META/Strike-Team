@@ -189,6 +189,12 @@ Objects {
         SelfId: 1697279541285413068
       }
     }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -661,6 +667,14 @@ Objects {
     }
   }
   ParentId: 15757411618357211935
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1964,7 +1978,7 @@ Objects {
     Overrides {
       Name: "cs:APIBasicGameState"
       AssetReference {
-        Id: 8682160362215286877
+        Id: 11974742996071064388
       }
     }
   }
@@ -2472,7 +2486,13 @@ Objects {
     Overrides {
       Name: "cs:GameTypeAPI"
       AssetReference {
-        Id: 841534158063459245
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
       }
     }
   }
