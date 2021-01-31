@@ -124,6 +124,7 @@ function OnPlayerDied(player, damage, id)
         end
 
         local playerPos = player:GetWorldPosition()
+        playerPos.z = playerPos.z + 150
         local newGrave = GT_API.SpawnAsset(REVIVE_TEMPLATE, {position = playerPos, parent = SPAWNED_OBJECTS})
         newGrave.name = tostring(player.id)
         CheckTeamRemaining()
