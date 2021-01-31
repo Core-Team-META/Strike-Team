@@ -171,7 +171,7 @@ end
 function API.TeleportWinners( player, spawnObject, overrideCamera)
 	local spawnPosition = spawnObject:GetWorldPosition()
 	local spawnRotation = spawnObject:GetWorldRotation()
-		player:Respawn(spawnPosition, spawnRotation)
+		player:Respawn({position = spawnPosition, rotation = spawnRotation})
 
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
