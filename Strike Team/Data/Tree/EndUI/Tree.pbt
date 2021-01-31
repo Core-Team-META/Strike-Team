@@ -65,7 +65,6 @@ Objects {
     }
   }
   ParentId: 16618058453892789153
-  ChildIds: 15464630797222557757
   ChildIds: 10507144481334532052
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -19894,46 +19893,5 @@ Objects {
     SubobjectId: 13458452688920234908
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 15464630797222557757
-  Name: "EndRoundUIMainManager"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1843993199121740415
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
-    }
-    Overrides {
-      Name: "cs:END_ROUND_UI"
-      ObjectReference {
-        SelfId: 10507144481334532052
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7099151320755576349
-    }
   }
 }
