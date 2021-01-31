@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Data
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/28
--- Version 0.1.0
+-- Date: 2021/1/30
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 local API = _G.META_GAME_MODES or {}
 _G.META_GAME_MODES = API
@@ -67,6 +67,7 @@ function API.RegisterGameTypes(list)
             local points = gameType:GetCustomProperty("OBJECTIVE_POINTS")
             local spawnSettings = gameType:GetCustomProperty("RESPAWN_SETTINGS")
             local icon = gameType:GetCustomProperty("ICON")
+            local shouldRespawn = gameType:GetCustomProperty("SHOULD_RESPAWN")
 
             local gameTypeInfo = {
                 id = id,
@@ -74,7 +75,8 @@ function API.RegisterGameTypes(list)
                 name = name,
                 points = points,
                 spawn = spawnSettings,
-                icon = icon
+                icon = icon,
+                respawn = shouldRespawn
             }
             if enabled then
                 gameTypeList[id] = gameTypeInfo
@@ -140,6 +142,14 @@ function API.GetRespawnSettings(id)
         return nil
     end
     return gameTypeList[id].spawn
+end
+
+function API.GetShouldRespawn(id)
+    if not gameTypeList then
+        warn("Game Type Server Script Doesn't Exsist")
+        return nil
+    end
+    return gameTypeList[id].respawn
 end
 
 --@param string template => MUID
@@ -329,14 +339,6 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- CLIENT TO SERVER EVENTS
 ------------------------------------------------------------------------------------------------------------------------
-function API.OnPlayerDied(player, damage, currentGameTypeId)
-    Events.Broadcast(NAMESPACE.ON_DIED, player, damage, currentGameTypeId)
-end
-
-function API.OnPlayerDamaged(player, damage, currentGameTypeId)
-    Events.Broadcast(NAMESPACE.ON_DAMAGED, player, damage, currentGameTypeId)
-end
-
 function API.ConnectOnDied(func)
     return Events.Connect(NAMESPACE.ON_DIED, func)
 end
@@ -384,6 +386,20 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- SERVER TO SERVER
 ------------------------------------------------------------------------------------------------------------------------
+
+function API.OnPlayerDied(player, damage, currentGameTypeId)
+    if currentGameTypeId > 0 and API.GetShouldRespawn(currentGameTypeId) then
+        player:SetResource("GM.RESPAWN_ENABLED", 1)
+    else
+        player:SetResource("GM.RESPAWN_ENABLED", 0)
+    end
+    Events.Broadcast(NAMESPACE.ON_DIED, player, damage, currentGameTypeId)
+end
+
+function API.OnPlayerDamaged(player, damage, currentGameTypeId)
+    Events.Broadcast(NAMESPACE.ON_DAMAGED, player, damage, currentGameTypeId)
+end
+
 --@param int team
 function API.BroadcastTeamCapture(team)
     Events.Broadcast(NAMESPACE.S_HILL_CAPTURE, team)

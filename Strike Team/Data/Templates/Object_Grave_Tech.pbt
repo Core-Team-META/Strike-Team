@@ -1,13 +1,13 @@
 Assets {
-  Id: 14750224989028242593
-  Name: "GAMEMODE_FreezeTag_Template"
+  Id: 8505290840771462520
+  Name: "Object_Grave_Tech"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12092432363067716443
+      RootId: 1400722154163570007
       Objects {
-        Id: 12092432363067716443
-        Name: "GAMEMODE_FreezeTag_Template"
+        Id: 1400722154163570007
+        Name: "Object_Grave_Tech"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 1643980070410442907
-        UnregisteredParameters {
-        }
+        ChildIds: 1570715756404750082
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -31,87 +29,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1643980070410442907
-        Name: "ClientContext"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12092432363067716443
-        ChildIds: 11083967935422770561
-        ChildIds: 12201392827447098908
-        ChildIds: 9008026680690815423
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 11083967935422770561
-        Name: "Geo"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1643980070410442907
-        ChildIds: 9536118533842327595
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9536118533842327595
-        Name: "Object_Grave_Tech"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11083967935422770561
-        ChildIds: 9433644289916496510
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9433644289916496510
+        Id: 1570715756404750082
         Name: "ClientContext"
         Transform {
           Location {
@@ -126,13 +44,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9536118533842327595
-        ChildIds: 9581372754474091188
-        ChildIds: 13913403140502792916
-        ChildIds: 2137355669369768126
-        ChildIds: 16105695798641938933
-        ChildIds: 7987586877197999853
-        ChildIds: 11846461566146386132
+        ParentId: 1400722154163570007
+        ChildIds: 1427812507061886920
+        ChildIds: 6210765530626357160
+        ChildIds: 9983967454880306626
+        ChildIds: 5234775786494200969
+        ChildIds: 18014081684000277393
+        ChildIds: 3693042060509136296
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -143,7 +62,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9581372754474091188
+        Id: 1427812507061886920
         Name: "Cube"
         Transform {
           Location {
@@ -161,7 +80,7 @@ Assets {
             Z: 1.30000007
           }
         }
-        ParentId: 9433644289916496510
+        ParentId: 1570715756404750082
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -200,7 +119,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13913403140502792916
+        Id: 6210765530626357160
         Name: "Cube"
         Transform {
           Location {
@@ -216,7 +135,7 @@ Assets {
             Z: 3.2
           }
         }
-        ParentId: 9433644289916496510
+        ParentId: 1570715756404750082
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -267,7 +186,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2137355669369768126
+        Id: 9983967454880306626
         Name: "Cube"
         Transform {
           Location {
@@ -283,7 +202,7 @@ Assets {
             Z: 1.65343189
           }
         }
-        ParentId: 9433644289916496510
+        ParentId: 1570715756404750082
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -344,7 +263,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16105695798641938933
+        Id: 5234775786494200969
         Name: "Cube"
         Transform {
           Location {
@@ -360,7 +279,7 @@ Assets {
             Z: 3.2
           }
         }
-        ParentId: 9433644289916496510
+        ParentId: 1570715756404750082
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -399,7 +318,6 @@ Assets {
           }
           Teams {
             UseTeamColor: true
-            TeamInt: 1
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
@@ -413,7 +331,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7987586877197999853
+        Id: 18014081684000277393
         Name: "Cube"
         Transform {
           Location {
@@ -430,7 +348,7 @@ Assets {
             Z: 1.30000007
           }
         }
-        ParentId: 9433644289916496510
+        ParentId: 1570715756404750082
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -469,11 +387,10 @@ Assets {
         }
       }
       Objects {
-        Id: 11846461566146386132
+        Id: 3693042060509136296
         Name: "Group"
         Transform {
           Location {
-            Z: 0.179311395
           }
           Rotation {
           }
@@ -483,10 +400,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9433644289916496510
-        ChildIds: 2154803991348642059
-        ChildIds: 8717445959094516762
-        ChildIds: 8522850159671108869
+        ParentId: 1570715756404750082
+        ChildIds: 9998029624710159479
+        ChildIds: 17284202671929975142
+        ChildIds: 16240115740962961529
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -498,7 +415,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2154803991348642059
+        Id: 9998029624710159479
         Name: "Cube"
         Transform {
           Location {
@@ -513,7 +430,7 @@ Assets {
             Z: 2.69744444
           }
         }
-        ParentId: 11846461566146386132
+        ParentId: 3693042060509136296
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -534,7 +451,6 @@ Assets {
           }
           Teams {
             UseTeamColor: true
-            TeamInt: 1
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
@@ -548,7 +464,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8717445959094516762
+        Id: 17284202671929975142
         Name: "Cube"
         Transform {
           Location {
@@ -563,7 +479,7 @@ Assets {
             Z: 3.17747116
           }
         }
-        ParentId: 11846461566146386132
+        ParentId: 3693042060509136296
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -593,7 +509,6 @@ Assets {
           }
           Teams {
             UseTeamColor: true
-            TeamInt: 1
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
@@ -607,7 +522,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8522850159671108869
+        Id: 16240115740962961529
         Name: "Object Rotator Continuous"
         Transform {
           Scale {
@@ -616,12 +531,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11846461566146386132
+        ParentId: 3693042060509136296
         UnregisteredParameters {
           Overrides {
             Name: "cs:Object"
             ObjectReference {
-              SubObjectId: 11846461566146386132
+              SubObjectId: 3693042060509136296
             }
           }
           Overrides {
@@ -674,97 +589,6 @@ Assets {
         Script {
           ScriptAsset {
             Id: 2331688389429807128
-          }
-        }
-      }
-      Objects {
-        Id: 12201392827447098908
-        Name: "Trigger"
-        Transform {
-          Location {
-            Z: 76.0187836
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.6088357
-            Y: 1.6088357
-            Z: 1.6088357
-          }
-        }
-        ParentId: 1643980070410442907
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
-          }
-        }
-      }
-      Objects {
-        Id: 9008026680690815423
-        Name: "GAMEMODE_FreezeTag_Client"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1643980070410442907
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ROOT"
-            ObjectReference {
-              SubObjectId: 12092432363067716443
-            }
-          }
-          Overrides {
-            Name: "cs:TRIGGER"
-            ObjectReference {
-              SubObjectId: 12201392827447098908
-            }
-          }
-          Overrides {
-            Name: "cs:Cube"
-            ObjectReference {
-              SubObjectId: 2154803991348642059
-            }
-          }
-          Overrides {
-            Name: "cs:Cube_1"
-            ObjectReference {
-              SubObjectId: 8717445959094516762
-            }
-          }
-          Overrides {
-            Name: "cs:Cube_2"
-            ObjectReference {
-              SubObjectId: 16105695798641938933
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 1074016939689432188
           }
         }
       }

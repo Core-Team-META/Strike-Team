@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Mode Freeze Tag Client
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/25
--- Version 0.0.2
+-- Date: 2021/1/30
+-- Version 0.0.3
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
@@ -16,6 +16,8 @@ until GT_API
 local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local TRIGGER = script:GetCustomProperty("TRIGGER"):WaitForObject()
 local TEAM_IDENTIFIER = script:GetCustomProperty("Cube"):WaitForObject()
+local TEAM_IDENTIFIER2 = script:GetCustomProperty("Cube_1"):WaitForObject()
+local TEAM_IDENTIFIER3 = script:GetCustomProperty("Cube_2"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
@@ -43,6 +45,8 @@ local function SetupNewRevive()
     local deadPlayerId = ROOT.name
     local deadPlayer = GT_API.FindPlayerById(deadPlayerId)
     TEAM_IDENTIFIER.team = deadPlayer.team
+    TEAM_IDENTIFIER2.team = deadPlayer.team
+    TEAM_IDENTIFIER3.team = deadPlayer.team
     if deadPlayer and deadPlayer.team == LOCAL_PLAYER.team and deadPlayer ~= LOCAL_PLAYER then
         TRIGGER.interactionLabel = "Revive " .. tostring(deadPlayer.name)
         TRIGGER.clientUserData.player = deadPlayer

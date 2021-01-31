@@ -90,6 +90,7 @@ local function IsVaildId(id)
     end
     return true
 end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -118,7 +119,6 @@ end
 function OnPlayerDied(player, damage, id)
     if IsVaildId(id) then
         local currentGrave = FindObjectById(player.id)
-
         if currentGrave and Object.IsValid(currentGrave) then
             currentGrave:Destroy()
         end
