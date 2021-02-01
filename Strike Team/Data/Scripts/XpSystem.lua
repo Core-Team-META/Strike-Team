@@ -34,22 +34,40 @@ function XP.New(player)
     return o
 end
 
-function XP:GetXPInCurrentLevel()
-    return 1000
+
+function CalculateXPInCurrentLevel(val)
+    local XpTotal = 0
+    for Level,XP in ipairs(XPTable) do
+        if val >= XP then
+            val = val - XP
+        end
+    end
+    while val >= XPTable[#XPTable] do
+        val = val - XPTable[#XPTable]
+    end
+    return val
 end
 
-function XP:GetXPUntilNextLevel()
-    return 200
+
+
+function CalculateXPUntilNextLevel(val)
+    local XpTotal = 0
+    for Level,XP in ipairs(XPTable) do
+        XpTotal = XpTotal + XP
+        if val < XpTotal then
+            return XpTotal - val
+        end
+    end
+    local Index = #XPTable
+    while true do
+        XpTotal = XpTotal + XPTable[#XPTable]
+        Index = Index + 1
+        if val < XpTotal then 
+            return XpTotal - val 
+        end
+    end
 end
 
-function XP:GetLevel()
-    self.level = self:CalculateLevel()
-    return self.level
-end
-
-function XP:GetXP()
-    return self.xp
-end
 
 function CalculateLevel(val)
     local XpTotal = 0
@@ -66,6 +84,26 @@ function CalculateLevel(val)
     end
     return Index 
 end
+
+
+function XP:GetXPInCurrentLevel()
+    return CalculateXPInCurrentLevel(self.xp)
+end
+
+function XP:GetXPUntilNextLevel()
+    return  CalculateXPUntilNextLevel(self.xp)
+end
+
+function XP:GetLevel()
+    self.level = self:CalculateLevel()
+    return self.level
+end
+
+function XP:GetXP()
+    return self.xp
+end
+
+
 
 function XP:CalculateLevel()
     return CalculateLevel(self.xp) 

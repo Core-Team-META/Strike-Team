@@ -1673,7 +1673,7 @@ Objects {
       }
     }
     Text {
-      Label: "To open Weapon Swap"
+      Label: "To open Loadout"
       Color {
         R: 0.668000042
         G: 0.668000042
