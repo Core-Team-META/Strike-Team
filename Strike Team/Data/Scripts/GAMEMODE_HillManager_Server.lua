@@ -23,6 +23,7 @@ local currentTeam
 local lastTeam
 local playersOnHill = {}
 local MAX_PROGRESS = 100
+local MAX_RESOURCE = 25
 local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
@@ -131,4 +132,4 @@ end
 
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
-SetData({0, 0, 100})
+SetData({0, 0, MAX_RESOURCE})

@@ -31,6 +31,12 @@ local hillPositions = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+local function GetData(object)
+    local str = object:GetCustomProperty("DATA")
+    return GT_API.ConvertStringToTable(str)
+end
+
+
 local function Log(message, ...)
     print("GameType Server [" .. GT_API.GetGameTypeName(myId) .. "] " .. message, ...)
 end
@@ -81,9 +87,10 @@ function OnGameTypeChanged(object, string)
         OnGameTypeEnd(oldGameId)
         oldGameId = newGameId
     end
-    if object == currentHill and oldGameId == myId and string == "RESOURCE_REMAINING" then
-        local hillResource = object:GetCustomProperty(string)
-        if hillResource <= 0 then
+    if object == currentHill and oldGameId == myId and string == "DATA" then
+        local hillResource = GetData(object)
+        if hillResource[3] <= 0 and Object.IsValid(currentHill) then
+            currentHill:Destroy()
             SpawnNewHill()
         end
     end

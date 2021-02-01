@@ -123,9 +123,9 @@ function OnPlayerDied(player, damage, id)
             currentGrave:Destroy()
         end
         local playerPos = player:GetWorldPosition()
-        playerPos.z = playerPos.z + 1000
+        playerPos.z = playerPos.z + 100
         local endPosition = player:GetWorldPosition()
-        endPosition.z = endPosition.z - 10000
+        endPosition.z = endPosition.z - 2000
         local hitResult = World.Raycast(playerPos, endPosition, {ignorePlayers = true})
         print(hitResult)
         if hitResult then

@@ -5,6 +5,8 @@ repeat
 until GT_API
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
+local PlayerKilledEvent = script:GetCustomProperty("PlayerKilledEvent")
+
 local YourNemesisText = script:GetCustomProperty("YourNemesisText"):WaitForObject()
 local YourNemesisKillsText = script:GetCustomProperty("YourNemesisKillsText"):WaitForObject()
 
@@ -350,7 +352,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     end
 end
 
-Events.Connect("PK", TrackKill)
+Events.Connect(PlayerKilledEvent, TrackKill)
 
 Game.playerLeftEvent:Connect(RemoveFromTable)
 
