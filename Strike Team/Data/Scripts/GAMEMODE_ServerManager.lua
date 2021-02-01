@@ -139,7 +139,7 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- INTALIZATION
 ------------------------------------------------------------------------------------------------------------------------
-Int()
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
+Int()

@@ -28,6 +28,7 @@ local HILL_TEMPLATE = script:GetCustomProperty("KingOfHills_HillTemplate")
 local oldGameId, currentHill
 local listeners = {}
 local hillPositions = {}
+local oldPosition
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -36,16 +37,24 @@ local function GetData(object)
     return GT_API.ConvertStringToTable(str)
 end
 
-
 local function Log(message, ...)
     print("GameType Server [" .. GT_API.GetGameTypeName(myId) .. "] " .. message, ...)
 end
 
 local function SpawnNewHill()
-    local hillPosition = hillPositions[math.random(1, #hillPositions)]
+    local hillPosition
+    if oldPosition then
+        repeat
+            hillPosition = hillPositions[math.random(1, #hillPositions)]
+            Task.Wait()
+        until hillPosition ~= oldPosition
+    else
+        hillPosition = hillPositions[math.random(1, #hillPositions)]
+    end
     currentHill = GT_API.SpawnAsset(HILL_TEMPLATE, {position = hillPosition, parent = SPAWNED_OBJECTS})
     listeners[#listeners + 1] = currentHill.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
     GT_API.BroadcastObjectiveSpawned(currentHill, hillPosition)
+    oldPosition = currentHill:GetWorldPosition()
 end
 
 local function Cleanup()

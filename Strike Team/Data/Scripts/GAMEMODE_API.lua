@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------------------------------------
--- Game Type Data
+-- Game Mode Data
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 -- Date: 2021/1/30
 -- Version 0.1.1
@@ -105,7 +105,7 @@ end
 --@return table gameTypeList
 function API.GetGameTypeName(id)
     if not gameTypeList then
-        warn("Game Type Name Doesn't Exsist")
+        warn("Game Mode Name Doesn't Exsist")
         return nil
     end
     if id == 0 then
@@ -116,7 +116,7 @@ end
 
 function API.GetCurrentScoreLimit(id)
     if not gameTypeList then
-        warn("Game Type Score Limit Doesn't Exsist")
+        warn("Game Mode Score Limit Doesn't Exsist")
         return nil
     end
     return gameTypeList[id].score
@@ -124,7 +124,7 @@ end
 
 function API.GetPointsPerObjective(id)
     if not gameTypeList then
-        warn("Game Type Score Limit Doesn't Exsist")
+        warn("Game Mode Points Doesn't Exsist")
         return nil
     end
     return gameTypeList[id].points
@@ -132,7 +132,7 @@ end
 
 function API.GetGameScript(id)
     if not gameTypeList then
-        warn("Game Type Server Script Doesn't Exsist")
+        warn("Game Mode Server Script Doesn't Exsist")
         return nil
     end
     return gameTypeList[id].gameScript
@@ -140,7 +140,7 @@ end
 
 function API.GetRespawnSettings(id)
     if not gameTypeList then
-        warn("Game Type Server Script Doesn't Exsist")
+        warn("Game Mode Spawn Doesn't Exsist")
         return nil
     end
     return gameTypeList[id].spawn
@@ -148,7 +148,7 @@ end
 
 function API.GetShouldRespawn(id)
     if not gameTypeList then
-        warn("Game Type Server Script Doesn't Exsist")
+        warn("Game Mode Server Script Doesn't Exsist")
         return nil
     end
     return gameTypeList[id].respawn
@@ -156,7 +156,7 @@ end
 
 function API.GetGameInfo(id)
     if not gameTypeList then
-        warn("Game Type Server Script Doesn't Exsist")
+        warn("Game Mode Server Script Doesn't Exsist")
         return nil
     end
     local messageTbl = API.StringSplit("|", gameTypeList[id].info)
