@@ -26,17 +26,22 @@ for _, icon in pairs(AF_ICONS_ALL) do
 	local properties = icon:GetCustomProperties()
 	if (properties["EquipmentTemplate"] ~= nil) then
 		local equipmentName = {CoreString.Split(tostring(properties["EquipmentTemplate"]), ':')}
+		equipmentSourceMUID = equipmentName[1]
 		equipmentName = equipmentName[2]
+
 		if (properties["Name"] == "") then
 			properties["Name"] = equipmentName
 		end
-		FEED_ICONS[equipmentName] = properties
-		testGuns[testCounter] = equipmentName
+		properties['MUID'] = equipmentSourceMUID
+		FEED_ICONS[equipmentSourceMUID] = properties
+		testGuns[testCounter] = equipmentSourceMUID
 		testCounter = testCounter + 1
 	else
 		FEED_ICONS[icon.name] = properties
 	end
 end
+
+
 
 -- Individual feed settigns
 
@@ -47,6 +52,8 @@ local NUM_LINES = KILL_FEED_SETTINGS:GetCustomProperty("NumLines")
 local LINE_DURATION = KILL_FEED_SETTINGS:GetCustomProperty("LineDuration")
 local TEXT_COLOR = KILL_FEED_SETTINGS:GetCustomProperty("TextColor")
 local SELF_TEXT_COLOR = KILL_FEED_SETTINGS:GetCustomProperty("SelfTextColor")
+local ENEMY_COLOR = Color.New(0.904,0.056,0.036,1)
+local FRIENDLY_COLOR = Color.New(0.015,0.304,0.896,1)
 local SHOW_JOIN_AND_LEAVE = KILL_FEED_SETTINGS:GetCustomProperty("ShowJoinAndLeave")
 local SHOW_DISTANCE = KILL_FEED_SETTINGS:GetCustomProperty("ShowDistance")
 local SHOW_KILLER_HP = KILL_FEED_SETTINGS:GetCustomProperty("ShowKillerHP")
@@ -79,6 +86,11 @@ local JOIN_MESSAGE_START = time() + 1.0
 local lineTemplates = {}
 local lines = {}				-- Each line is a table with: text, color, displayTime
 
+
+function GetShortId(object)
+	return string.sub(object.id, 1, string.find(object.id, ":") - 1)
+end
+
 function GetDistance(playerFrom, playerTo)
 	return (playerTo:GetWorldPosition() - playerFrom:GetWorldPosition()).size
 end
@@ -94,11 +106,22 @@ function AddLine(line, color)
 	lines[1].killer = line[1] or ""
 	lines[1].killed = line[2] or ""
 	lines[1].weaponUsed = line[3] or ""
-	lines[1].killExtraCode = line[4] or 0
+	lines[1].killExtraCode = line[4] or ""
 	lines[1].killerHP = line[5] or ""
 	lines[1].distance = line[6] or ""
 	lines[1].color = color
+	lines[1].killerColor = line[7] or color
+	lines[1].killedColor = line[8] or color
 	lines[1].displayTime = time()
+end
+
+
+function GetTeamColor(player)
+	if (player.team == LOCAL_PLAYER.team) then
+		return FRIENDLY_COLOR
+	else
+		return ENEMY_COLOR
+	end
 end
 
 -- nil OnKill(string, string, <string>)
@@ -106,14 +129,22 @@ end
 
 function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 	local lineColor = TEXT_COLOR
+	local killerColor = TEXT_COLOR
+	local killedColor = TEXT_COLOR
+
 	local sourceObject = nil
 
 	if sourceObjectId then
-		sourceObject = World.FindObjectById(sourceObjectId)
+		sourceObject = World.FindObjectById(sourceObjectId).sourceTemplateId
 	end
 
-	if killerPlayer == LOCAL_PLAYER or killedPlayer == LOCAL_PLAYER then
-		lineColor = SELF_TEXT_COLOR
+	killerColor = GetTeamColor(killerPlayer)
+	killedColor = GetTeamColor(killerPlayer)
+
+	if killerPlayer == LOCAL_PLAYER then
+		killerColor = SELF_TEXT_COLOR
+	elseif  killedPlayer == LOCAL_PLAYER then
+		killedColor = SELF_TEXT_COLOR
 	end
 
 	if not killerPlayer then
@@ -127,16 +158,15 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		2 : World kill
 		3 : Suicide
 	]]
-
-
 		local feedTable = {}
 
 		feedTable[1] = killerPlayer.name
 		feedTable[2] = killedPlayer.name
-		feedTable[3] = sourceObject.name -- weaponUsed (weapon)
-		feedTable[4] = 0 -- kill type (extra code)
+		feedTable[3] = sourceObject or nil -- weaponUsed (weapon)
+		feedTable[4] = "" -- kill type (extra code)
 
 		if (extraCode == 1) then
+			print("HEADSHOT YA")
 			feedTable[4] = "Headshot"
 		elseif (extraCode == 2) then
 			feedTable[4] = "WorldKill"
@@ -146,7 +176,8 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 
 		feedTable[5] = "" -- killer HP, default
 		feedTable[6] = "" -- Distance, default
-
+		feedTable[7] = killerColor
+		feedTable[8] = killedColor
 
 		if (SHOW_DISTANCE) then
 			feedTable[6] = tostring(GetDistance(killerPlayer, killedPlayer) / 100) .. "m"
@@ -183,14 +214,17 @@ function Tick(deltaTime)
 				if (element.name == "KilledText") then
 					local textBox = element:FindDescendantByName("Text Box")
 					textBox.text = lines[i].killed
-					textBox:SetColor(color)
+					if (lines[i].killedColor ~= color) then
+						textBox:SetColor(lines[i].killedColor)
+					else
+						textBox:SetColor(color)
+					end
 					feedElements["KilledText"] = element
 					feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
 				end
 				if (element.name == "WeaponImage") then
 					if (lines[i].weaponUsed ~= "") then
 						local image = element:FindDescendantByName("FG Image")
-						-- print(tostring(lines[i].weaponUsed))
 						image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
 						feedElements["WeaponImage"] = element
 						feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
@@ -201,8 +235,9 @@ function Tick(deltaTime)
 
 				end
 				if (element.name == "SpecialImage") then
-					if (lines[i].killExtraCode ~= 0) then
+					if (lines[i].killExtraCode ~= "") then
 						local image = element:FindDescendantByName("FG Image")
+						image:SetImage(FEED_ICONS[lines[i].killExtraCode].Icon)
 						feedElements["SpecialImage"] = element
 						feedElements["SpecialImage"].width = ICON_SIZE -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
@@ -215,7 +250,11 @@ function Tick(deltaTime)
 						local textBox = element:FindDescendantByName("Text Box")
 						textBox.text = lines[i].killer
 						textBox.justification = TextJustify.RIGHT
-						textBox:SetColor(color)
+						if (lines[i].killerColor ~= color) then
+							textBox:SetColor(lines[i].killerColor)
+						else
+							textBox:SetColor(color)
+						end
 						feedElements["KillerText"] = element
 						feedElements["KillerText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
@@ -264,7 +303,7 @@ function Tick(deltaTime)
 				feedElements["WeaponImage"].x = xPos
 				xPos = xPos - feedElements["WeaponImage"].width - GAP_SPACE
 			end
-			if (lines[i].killExtraCode ~= 0) then
+			if (lines[i].killExtraCode ~= "") then
 				-- specialImage
 				feedElements["SpecialImage"].x = xPos
 				xPos = xPos - feedElements["SpecialImage"].width - GAP_SPACE
@@ -299,9 +338,11 @@ for i = 1, NUM_LINES do
 	elements['KillerHealth'].width = ICON_SIZE
 	elements['KillerHealth'].height = ICON_SIZE
 	elements['KillerHealth'].name = "KillerHealth"
+	elements['KillerHealth'].visibility = Visibility.FORCE_OFF
 
 	elements['KillerText'] = World.SpawnAsset(AF_TEXT_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KillerText'].name = "KillerText"
+	elements['KillerText'].visibility = Visibility.FORCE_OFF
 
 	elements['KillerImage'] = World.SpawnAsset(AF_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KillerImage'].name = "KillerImage"
@@ -322,6 +363,7 @@ for i = 1, NUM_LINES do
 	elements['WeaponImage'].width = ICON_SIZE
 	elements['WeaponImage'].height = ICON_SIZE
 	elements['WeaponImage'].name = "WeaponImage"
+	elements['WeaponImage'].visibility = Visibility.FORCE_OFF
 
 	elements['SpecialImage'] = World.SpawnAsset(AF_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
 	elements['SpecialImage'].name = "SpecialImage"
@@ -333,6 +375,7 @@ for i = 1, NUM_LINES do
 	elements['Distance'].width = ICON_SIZE
 	elements['Distance'].height = ICON_SIZE
 	elements['Distance'].name = "Distance"
+	elements['Distance'].visibility = Visibility.FORCE_OFF
 
 	lineTemplates[i].y = (i - 1) * (VERTICAL_SPACING + lineTemplates[i].height)
 end
@@ -400,11 +443,13 @@ function GetRandomColor()
 	return randomColor[math.random(1, #randomColor)]
 end
 
+local playerTest = Game.GetLocalPlayer()
 
-for i = 0, 4 do
+-- for i = 0, 4 do
 
-AddLine({GetTestName(), GetTestName(), GetTestWeapon(), 0, tostring(math.random(1, 99)), tostring(math.random(3, 288))}, GetRandomColor())
+-- -- AddLine({GetTestName(), GetTestName(), GetTestWeapon(), "", tostring(math.random(1, 99)), tostring(math.random(3, 288)), ENEMY_COLOR, FRIENDLY_COLOR}, Color.WHITE)
 
-end
+-- end
 
-AddLine({"", " Buckmonster died like a biotch"}, GetRandomColor())
+-- AddLine({"", " Buckmonster died like a biotch"}, GetRandomColor())
+
