@@ -212,12 +212,18 @@ function RemoveItem(Item)
 end
 
 
-function AddItem(Item, UIimage)
+function AddItem(Item, UIimage, team)
+	local HasImage = UIimage ~= nil
 	if not UIimage then UIimage = PLAYER_TEMPLATE end
 	Item.clientUserData.UIimage = World.SpawnAsset(UIimage, {parent = MAP_PANEL})
+	if HasImage then
+		Item.clientUserData.UIimage.team = team or 0
+	end
 	table.insert(script.clientUserData.Items,Item)
 	Item.destroyEvent:Connect(function() if Object.IsValid(Item.clientUserData.UIimage) then Item.clientUserData.UIimage:Destroy() RemoveItem(Item)  end end)
 end
+
+
 
 Events.Connect("Minimap.AddItem",AddItem)
 Events.Connect("Minimap.RemoveItem",RemoveItem)
