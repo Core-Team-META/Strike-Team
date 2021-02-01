@@ -107,6 +107,7 @@ function Tick(deltaTime)
                 if winningTeam then
                     Events.Broadcast("TieVictory")
                     ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+                    _G["GameWinner"] = i
                     return
                 else
                     winningTeam = i
@@ -115,6 +116,7 @@ function Tick(deltaTime)
         end
 
         if winningTeam then
+            _G["GameWinner"] = winningTeam
             Events.Broadcast("TeamVictory", winningTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         --NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", 1)

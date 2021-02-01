@@ -24,7 +24,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
-      Int: 4
+      Int: 3
     }
   }
   Collidable_v2 {
