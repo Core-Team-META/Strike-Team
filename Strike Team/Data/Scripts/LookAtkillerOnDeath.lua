@@ -10,7 +10,6 @@ end
 
 Events.Connect("Died",function(damageplayer)
     local enemey = GetplayerbyId(damageplayer or "")
-    if enemey == Game.GetLocalPlayer() then return end
         LOCAL_PLAYER.lookSensitivity = 0
         while not LOCAL_PLAYER.isDead do Task.Wait() end 
         while LOCAL_PLAYER.isDead and enemey do
