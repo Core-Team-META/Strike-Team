@@ -1,6 +1,103 @@
 Name: "Blake"
 RootId: 10671565427701169845
 Objects {
+  Id: 6011919655460826900
+  Name: "EndGameRewards"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  ChildIds: 5106255265587433013
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5106255265587433013
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6011919655460826900
+  ChildIds: 14818858165652246452
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
+  Id: 14818858165652246452
+  Name: "RoundEndReward"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5106255265587433013
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:KillValue"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:HeadshotValue"
+      Float: 50
+    }
+    Overrides {
+      Name: "cs:winValue"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:LoseValue"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3804181868104109480
+    }
+  }
+}
+Objects {
   Id: 15952907263910400118
   Name: "XPLevels"
   Transform {

@@ -34,7 +34,7 @@ Assets {
           Overrides {
             Name: "cs:PlayerImpact"
             AssetReference {
-              Id: 307406115803496087
+              Id: 17241325586210856519
             }
           }
           Overrides {
@@ -87,9 +87,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.25
+            Y: 1.25
+            Z: 1.25
           }
         }
         ParentId: 8969396636807140608

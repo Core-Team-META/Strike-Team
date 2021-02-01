@@ -35,12 +35,12 @@ Assets {
           Location {
           }
           Rotation {
-            Pitch: -30
+            Roll: -80
           }
           Scale {
-            X: 0.4
-            Y: 0.4
-            Z: 0.4
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
         ParentId: 16025565856942191387

@@ -119,8 +119,8 @@ function GetPlayerActiveCamera(player)
 end
 
 function EnableScoping(player)
-    if player.isDead then return end
     if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if player.isDead then return end
     if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then return end
 
     -- Set camera scoping values
@@ -148,7 +148,7 @@ function EnableScoping(player)
     end
 
     -- Play scoping sound to the local player
-    if Object.IsValid(ZOOM_SOUND) and player == LOCAL_PLAYER then
+    if Object.IsValid(ZOOM_SOUND) and player == LOCAL_PLAYER and not player.isDead then
         ZOOM_SOUND:Play()
     end
 
@@ -161,6 +161,7 @@ end
 
 function ResetScoping(player)
     if player ~= LOCAL_PLAYER then return end
+    if player.isDead then return end
     -- Reset camera scoping values
     cameraTargetDistance = cameraResetDistance
     cameraTargetFOV = cameraResetFOV
@@ -216,8 +217,9 @@ function ForceReset(player)
     if Object.IsValid(scopeInstance) then
         scopeInstance.visibility = Visibility.FORCE_OFF
     end
+    
     activeCamera.fieldOfView = cameraResetFOV
-    Events.Broadcast("WeaponAiming", player, false) 
+    Events.Broadcast("WeaponAiming", player, false)
 end
 
 function OnBindingPressed(player, actionName)
@@ -232,9 +234,6 @@ function OnBindingReleased(player, actionName)
 	end
 end
 
-function OnPlayerDied()
-    ResetScoping(LOCAL_PLAYER) 
-end
 
 function OnEquipped(weapon, player)
     if not CAN_AIM  then return end  
@@ -258,7 +257,7 @@ function OnEquipped(weapon, player)
     end
 end
 
-function OnUnequipped(weapon, player)
+function OnUnequipped(_, player)
     --ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
@@ -287,6 +286,10 @@ function OnUnequipped(weapon, player)
     ForceReset(player)
 end
 
+function OnPlayerDied()
+    OnUnequipped(_, player)
+end
+
 -- Reset scoping on reload
 function OnReload(ability)
     ResetScoping(ability.owner)
@@ -302,7 +305,7 @@ Connections = {
     script.destroyEvent:Connect(function(OBJ) 
         if(WEAPON.owner) then
             ForceReset( WEAPON.owner)
-            --OnUnequipped(WEAPON, WEAPON.owner)
+            OnUnequipped(nil, WEAPON.owner)
         end
         for k,v in pairs(Connections) do
              v:Disconnect()
