@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Manager Client
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/26
--- Version 0.0.1
+-- Date: 2021/2/01
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -18,9 +18,9 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local GAME_TYPE_LIST = script:GetCustomProperty("GameTypesData"):WaitForObject()
 local NETWORKED = script:GetCustomProperty("GAMEMODE_Networked"):WaitForObject()
 local SPAWNED_OBJECTS = script:GetCustomProperty("Spawned_Objects"):WaitForObject()
-local TEAM_SCORE_DISPLAY = script:GetCustomProperty("TeamScoreDisplayClient"):WaitForObject()
 local SCORE_DISPLAY = script:GetCustomProperty("UITextBox"):WaitForObject()
-
+local TEAM_SCORE1 = script:GetCustomProperty("TeamScore1"):WaitForObject()
+local TEAM_SCORE2 = script:GetCustomProperty("TeamScore2"):WaitForObject()
 local TEMPLATE = script:GetCustomProperty("MinimapPlayer")
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
@@ -31,7 +31,8 @@ local function SetScores(str)
     local currentGameId = NETWORKED:GetCustomProperty(str)
     if currentGameId > 0 then
         local currentScore = GT_API.GetCurrentScoreLimit(currentGameId)
-        TEAM_SCORE_DISPLAY.context.MAX_SCORE = tonumber(currentScore)
+        TEAM_SCORE1.context.MAX_SCORE = tonumber(currentScore)
+        TEAM_SCORE2.context.MAX_SCORE = tonumber(currentScore)
         SCORE_DISPLAY.text = tostring(currentScore)
         LOCAL_PLAYER.clientUserData.gameModeInfo = GT_API.GetGameInfo(currentGameId)
     end
@@ -42,17 +43,20 @@ function Int()
     GT_API.RegisterGameTypes(GAME_TYPE_LIST)
     for _, child in ipairs(SPAWNED_OBJECTS:GetChildren()) do
         if Object.IsValid(child) then
-            local shouldShow = child:GetCustomProperty("ShouldShow")
-            if shouldShow then
-                OnChildAdded(_, child)
-            end
+            OnChildAdded(_, child)
         end
     end
     SetScores("GAME_TYPE_ID")
 end
 
 function OnChildAdded(root, object)
-    Events.Broadcast("Minimap.AddItem", object, TEMPLATE)
+    Task.Wait(0.1)
+    local shouldShow = object:GetCustomProperty("ShouldShow")
+    local team = object:GetCustomProperty("TEAM") or 0
+    local image = object:GetCustomProperty("IMAGE") or TEMPLATE
+    if shouldShow then
+        Events.Broadcast("Minimap.AddItem", object, image, team)
+    end
 end
 
 function OnNetworkChanged(object, str)

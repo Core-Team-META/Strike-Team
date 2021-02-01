@@ -1200,9 +1200,9 @@ Objects {
   Name: "Team2"
   Transform {
     Location {
-      X: -554.873352
-      Y: 7023.94434
-      Z: -7.4869194
+      X: -5487.521
+      Y: 7547.25879
+      Z: 305.001648
     }
     Rotation {
     }
@@ -1242,9 +1242,9 @@ Objects {
   Name: "Team1"
   Transform {
     Location {
-      X: -554.873352
-      Y: 7023.94434
-      Z: -7.4869194
+      X: 5040.11572
+      Y: 7052.50635
+      Z: 4.5321579
     }
     Rotation {
     }
@@ -1295,6 +1295,7 @@ Objects {
   }
   ParentId: 7775707010924774461
   ChildIds: 10659304100929178456
+  ChildIds: 3130120244112704468
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1302,6 +1303,59 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 3130120244112704468
+  Name: "GAMEMODE_Tags_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13764363076376069012
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AMMOUNT"
+      ObjectReference {
+        SelfId: 944877455481174161
+      }
+    }
+    Overrides {
+      Name: "cs:UIPanel"
+      ObjectReference {
+        SelfId: 4120246131183718379
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_TagPickup_Audio"
+      AssetReference {
+        Id: 17524291481643590101
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_TagTurnIn_Audio"
+      AssetReference {
+        Id: 646199659253971358
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1764432425198795233
+    }
   }
 }
 Objects {
@@ -1366,7 +1420,6 @@ Objects {
   ChildIds: 2789107247861451956
   ChildIds: 8099876998893904561
   ChildIds: 944877455481174161
-  ChildIds: 3130120244112704468
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1396,47 +1449,6 @@ Objects {
           Value: "mc:euianchor:bottomright"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 3130120244112704468
-  Name: "GAMEMODE_Tags_UI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4120246131183718379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:AMMOUNT"
-      ObjectReference {
-        SelfId: 944877455481174161
-      }
-    }
-    Overrides {
-      Name: "cs:UIPanel"
-      ObjectReference {
-        SelfId: 4120246131183718379
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 1764432425198795233
     }
   }
 }
@@ -1726,7 +1738,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 3
+      Int: 50
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -1771,6 +1783,8 @@ Objects {
   }
   ParentId: 2422145611934173127
   ChildIds: 7887256324537856482
+  ChildIds: 7957775993291944863
+  ChildIds: 1471260568947074733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1779,6 +1793,94 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1471260568947074733
+  Name: "Marker"
+  Transform {
+    Location {
+      X: 485.424866
+      Y: 13393.4248
+      Z: 615.31488
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 2.1350111e-07
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7957775993291944863
+  Name: "Marker"
+  Transform {
+    Location {
+      X: 1741.80591
+      Y: 3527.75903
+      Z: -1.58659697
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 5.33752775e-08
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -1922,7 +2024,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
@@ -2449,15 +2551,27 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:TeamScoreDisplayClient"
+      Name: "cs:GAMEMODE_Networked"
+      ObjectReference {
+        SelfId: 10857687478960459655
+      }
+    }
+    Overrides {
+      Name: "cs:MinimapPlayer"
+      AssetReference {
+        Id: 5221564976137041813
+      }
+    }
+    Overrides {
+      Name: "cs:TeamScore1"
       ObjectReference {
         SelfId: 3006406043594890584
       }
     }
     Overrides {
-      Name: "cs:GAMEMODE_Networked"
+      Name: "cs:TeamScore2"
       ObjectReference {
-        SelfId: 10857687478960459655
+        SelfId: 14843321869915328033
       }
     }
   }

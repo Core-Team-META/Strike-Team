@@ -18,6 +18,16 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 1643980070410442907
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:ShouldShow"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:IMAGE"
+            AssetReference {
+              Id: 12128357406068210380
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {

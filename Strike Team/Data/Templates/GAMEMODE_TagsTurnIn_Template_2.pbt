@@ -15,12 +15,22 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
         ChildIds: 15071993948495717936
         UnregisteredParameters {
           Overrides {
             Name: "cs:TEAM"
             Int: 0
+          }
+          Overrides {
+            Name: "cs:ShouldShow"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:IMAGE"
+            AssetReference {
+              Id: 16492882087315559884
+            }
           }
           Overrides {
             Name: "cs:TEAM:isrep"
@@ -111,7 +121,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1985683600147254866
+              Id: 14979544330989922839
             }
           }
         }
@@ -228,12 +238,12 @@ Assets {
       }
     }
     Assets {
-      Id: 1985683600147254866
-      Name: "Edgeline Wavy Object Fade Advanced"
+      Id: 14979544330989922839
+      Name: "Edge Line Wavy"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxma_add_edgeline_local"
+        AssetId: "fxma_add_edgeline"
       }
     }
     PrimaryAssetId {

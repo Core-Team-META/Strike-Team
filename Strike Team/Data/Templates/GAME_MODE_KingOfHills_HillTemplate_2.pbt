@@ -7,7 +7,7 @@ Assets {
       RootId: 4496491051667762757
       Objects {
         Id: 4496491051667762757
-        Name: "KingOfHills_HillTemplate"
+        Name: "GAME_MODE_KingOfHills_HillTemplate"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
         ChildIds: 14721333722550657248
         ChildIds: 10007280648470417142
         ChildIds: 6848843898762756418
@@ -24,6 +24,16 @@ Assets {
           Overrides {
             Name: "cs:DATA"
             String: ""
+          }
+          Overrides {
+            Name: "cs:IMAGE"
+            AssetReference {
+              Id: 9274750172788209107
+            }
+          }
+          Overrides {
+            Name: "cs:ShouldShow"
+            Bool: true
           }
           Overrides {
             Name: "cs:DATA:isrep"
@@ -46,14 +56,14 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            Z: -5.79171753
+            Z: -81.1599
           }
           Rotation {
           }
           Scale {
-            X: 12.8091
-            Y: 12.8091
-            Z: 12.8091
+            X: 9.21037197
+            Y: 9.21037197
+            Z: 9.21037197
           }
         }
         ParentId: 4496491051667762757
@@ -367,6 +377,8 @@ Assets {
         ParentId: 4496491051667762757
         ChildIds: 539406941419575132
         ChildIds: 13252704698465864135
+        ChildIds: 14669911688509367060
+        ChildIds: 7146780488147448480
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -384,7 +396,7 @@ Assets {
           Location {
             X: -2845.22681
             Y: 2450
-            Z: 440
+            Z: 480
           }
           Rotation {
           }
@@ -454,7 +466,6 @@ Assets {
           Overrides {
             Name: "cs:Cylinder"
             ObjectReference {
-              SelfId: 841534158063459245
             }
           }
           Overrides {
@@ -469,6 +480,18 @@ Assets {
               SubObjectId: 539406941419575132
             }
           }
+          Overrides {
+            Name: "cs:EDGE"
+            ObjectReference {
+              SubObjectId: 14669911688509367060
+            }
+          }
+          Overrides {
+            Name: "cs:UIProgressBar"
+            ObjectReference {
+              SubObjectId: 2458550922074135990
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -479,6 +502,216 @@ Assets {
         Script {
           ScriptAsset {
             Id: 13825649887782470421
+          }
+        }
+      }
+      Objects {
+        Id: 14669911688509367060
+        Name: "Ball"
+        Transform {
+          Location {
+            X: -2925.97119
+            Y: 2447.6416
+            Z: 404.347412
+          }
+          Rotation {
+          }
+          Scale {
+            X: 9.38672924
+            Y: 9.38672924
+            Z: 9.38672924
+          }
+        }
+        ParentId: 7927740488716824813
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13218136364188089309
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7126240526640323471
+          }
+          Teams {
+            UseTeamColor: true
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.2
+              AngularDamping: 2
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7146780488147448480
+        Name: "UI Container"
+        Transform {
+          Location {
+            X: 447.825195
+            Y: -8402.59082
+            Z: -182.752441
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7927740488716824813
+        ChildIds: 7399860656888832154
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Canvas {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7399860656888832154
+        Name: "UI Panel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7146780488147448480
+        ChildIds: 2458550922074135990
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 369
+          Height: 29
+          UIY: -36.6594238
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2458550922074135990
+        Name: "UI Progress Bar"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7399860656888832154
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 60
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          StatBar {
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            BackgroundColor {
+              A: 0.238
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
           }
         }
       }
@@ -535,6 +768,24 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "fxmi_hologram"
+      }
+    }
+    Assets {
+      Id: 7126240526640323471
+      Name: "Ball"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_sphere_001"
+      }
+    }
+    Assets {
+      Id: 13218136364188089309
+      Name: "Edge Line Sharp"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxma_add_edgeline_sharpline"
       }
     }
     PrimaryAssetId {
