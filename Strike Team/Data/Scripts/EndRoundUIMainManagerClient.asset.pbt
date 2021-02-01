@@ -1,6 +1,6 @@
 Assets {
-  Id: 13455170921015006522
-  Name: "EndRoundUIMainManager"
+  Id: 7099151320755576349
+  Name: "EndRoundUIMainManagerClient"
   PlatformAssetType: 3
   TextAsset {
   }

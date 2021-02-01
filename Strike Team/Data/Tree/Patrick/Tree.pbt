@@ -1,6 +1,39 @@
 Name: "Patrick"
 RootId: 14036186774430242210
 Objects {
+  Id: 12247658189946244701
+  Name: "End Round UI Manager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14036186774430242210
+  ChildIds: 13980112003110647475
+  ChildIds: 17866006467930106659
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:UpdateWinnersEvent"
+      String: "TeamVictory"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 17866006467930106659
   Name: "ClientContext"
   Transform {
@@ -14,7 +47,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14036186774430242210
+  ParentId: 12247658189946244701
   ChildIds: 15464630797222557757
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -27,7 +60,7 @@ Objects {
 }
 Objects {
   Id: 15464630797222557757
-  Name: "EndRoundUIMainManager"
+  Name: "EndRoundUIMainManagerClient"
   Transform {
     Location {
     }
@@ -131,6 +164,12 @@ Objects {
         SelfId: 15570508829702180094
       }
     }
+    Overrides {
+      Name: "cs:EndRoundUIMainManager"
+      ObjectReference {
+        SelfId: 13980112003110647475
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -141,6 +180,56 @@ Objects {
   Script {
     ScriptAsset {
       Id: 7099151320755576349
+    }
+  }
+}
+Objects {
+  Id: 13980112003110647475
+  Name: "EndRoundUIMainManager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12247658189946244701
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EndRoundUIManager"
+      ObjectReference {
+        SelfId: 12247658189946244701
+      }
+    }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:WinningTeam"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:WinningTeam:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13455170921015006522
     }
   }
 }
