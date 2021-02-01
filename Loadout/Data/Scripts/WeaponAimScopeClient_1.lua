@@ -202,6 +202,7 @@ end
 function ForceReset(player)
     if player ~= LOCAL_PLAYER then return end
     
+    player.clientUserData.isScoping = false
     player.isVisibleToSelf = true
     activeCamera = GetPlayerActiveCamera(player)
     if activeCamera then
@@ -215,9 +216,7 @@ function ForceReset(player)
     if Object.IsValid(scopeInstance) then
         scopeInstance.visibility = Visibility.FORCE_OFF
     end
-    Task.Wait()
     activeCamera.fieldOfView = cameraResetFOV
-    player.clientUserData.isScoping = false
     Events.Broadcast("WeaponAiming", player, false) 
 end
 

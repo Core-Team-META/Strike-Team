@@ -81,13 +81,10 @@ if Environment.IsServer() then
         PurchaseAPI.SaveMoney(player)
     end
 
-
     function PurchaseAPI.RemoveMoney(player,amount,type)
         player:AddResource(type, -1 * amount)
         PurchaseAPI.SaveMoney(player)
     end
-
-
 
     function PurchaseAPI.SaveMoney(player)
         while not _G["StatKey"] do Task.Wait() end
@@ -96,7 +93,6 @@ if Environment.IsServer() then
         data["Credits"] = player:GetResource("Credits")
         Storage.SetSharedPlayerData(_G["StatKey"],player,data)
     end
-
 
     function PurchaseAPI.LoadMoney(player)
         while not _G["StatKey"] do Task.Wait() end
@@ -110,9 +106,6 @@ if Environment.IsServer() then
     Events.ConnectForPlayer("PurchaseAPI.BuyWeapon", PurchaseAPI.BuyWeapon)
     Events.Connect("PurchaseAPI.Save",PurchaseAPI.SaveMoney)
     Game.playerJoinedEvent:Connect(PurchaseAPI.LoadMoney)
-    
-    Game.playerJoinedEvent:Connect(PurchaseAPI.AddMoney, 1,"Credits")
-    Game.playerJoinedEvent:Connect(PurchaseAPI.AddMoney, 10000,"Cash")
 end
 
 if Environment.IsClient() then
