@@ -40,7 +40,7 @@ Assets {
           Overrides {
             Name: "cs:SwingSound"
             AssetReference {
-              Id: 120673262472197667
+              Id: 6126033873922817577
             }
           }
           Overrides {
@@ -87,9 +87,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.25
+            Y: 1.25
+            Z: 1.25
           }
         }
         ParentId: 7686519051001135265
@@ -158,7 +158,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Damage"
-            Float: 50
+            Float: 60
           }
           Overrides {
             Name: "cs:Hitbox"
@@ -169,7 +169,7 @@ Assets {
           Overrides {
             Name: "cs:SwingEffect"
             AssetReference {
-              Id: 171090409284182791
+              Id: 16125894955885537944
             }
           }
           Overrides {
@@ -207,7 +207,7 @@ Assets {
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.16
+            Duration: 0.06
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -218,7 +218,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.1
+            Duration: 0.3
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -240,7 +240,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 0.42
+            Duration: 0.32
             CanMove: true
             CanJump: true
             CanRotate: true

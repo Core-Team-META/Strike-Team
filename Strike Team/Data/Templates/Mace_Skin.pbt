@@ -35,10 +35,11 @@ Assets {
         Name: "Blade"
         Transform {
           Location {
-            X: 5
-            Z: 5
+            X: 7
+            Z: 9
           }
           Rotation {
+            Pitch: -8
           }
           Scale {
             X: 1
@@ -151,7 +152,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 15387941303173424625
+              Id: 13060516013822931986
             }
           }
           Overrides {
@@ -171,6 +172,15 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 1.84128761
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.588541687
+              G: 0.565764904
+              B: 0.487386078
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -199,10 +209,11 @@ Assets {
         Name: "Handle"
         Transform {
           Location {
-            X: 5
-            Z: 5
+            X: 7
+            Z: 9
           }
           Rotation {
+            Pitch: -8
           }
           Scale {
             X: 1
@@ -318,6 +329,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_fan_head_mace_002"
+      }
+    }
+    Assets {
+      Id: 13060516013822931986
+      Name: "Metal Steel Brushed"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_stainless-steel_001_uv"
       }
     }
     Assets {
