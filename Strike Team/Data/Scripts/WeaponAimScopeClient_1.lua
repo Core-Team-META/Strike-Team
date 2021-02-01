@@ -160,7 +160,7 @@ function EnableScoping(player)
 end
 
 function ResetScoping(player)
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if player ~= LOCAL_PLAYER then return end
     -- Reset camera scoping values
     cameraTargetDistance = cameraResetDistance
     cameraTargetFOV = cameraResetFOV
@@ -200,9 +200,24 @@ function ResetScoping(player)
 end
 
 function ForceReset(player)
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if player ~= LOCAL_PLAYER then return end
+    
+    player.clientUserData.isScoping = false
+    player.isVisibleToSelf = true
+    activeCamera = GetPlayerActiveCamera(player)
+    if activeCamera then
+        activeCamera:SetPositionOffset(Vector3.New(0,0,0))
+    end
     if not activeCamera then return end 
+    
+    if Object.IsValid(WEAPON_ART) then
+        WEAPON_ART.visibility = Visibility.INHERIT
+    end
+    if Object.IsValid(scopeInstance) then
+        scopeInstance.visibility = Visibility.FORCE_OFF
+    end
     activeCamera.fieldOfView = cameraResetFOV
+    Events.Broadcast("WeaponAiming", player, false) 
 end
 
 function OnBindingPressed(player, actionName)
@@ -244,7 +259,7 @@ function OnEquipped(weapon, player)
 end
 
 function OnUnequipped(weapon, player)
-    ResetScoping(player)
+    --ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
     if pressedHandle then 
@@ -255,7 +270,7 @@ function OnUnequipped(weapon, player)
         releasedHandle:Disconnect() 
         releasedHandle = nil 
     end
-
+    
     -- Remove the reference to the camera
     if Object.IsValid(activeCamera) then
         --activeCamera.currentDistance = cameraResetDistance
@@ -268,6 +283,8 @@ function OnUnequipped(weapon, player)
         scopeInstance = nil
     end
     connected = false
+    
+    ForceReset(player)
 end
 
 -- Reset scoping on reload
@@ -285,7 +302,7 @@ Connections = {
     script.destroyEvent:Connect(function(OBJ) 
         if(WEAPON.owner) then
             ForceReset( WEAPON.owner)
-            OnUnequipped(WEAPON, WEAPON.owner)
+            --OnUnequipped(WEAPON, WEAPON.owner)
         end
         for k,v in pairs(Connections) do
              v:Disconnect()

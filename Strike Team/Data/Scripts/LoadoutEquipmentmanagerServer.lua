@@ -1,4 +1,5 @@
-﻿local LoadoutKey = script:GetCustomProperty("LoadoutKey")
+﻿while not _G["LoadoutKey"] do Task.Wait() end
+local LoadoutKey =  _G["LoadoutKey"]
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
 local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")
@@ -101,9 +102,10 @@ end
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     player.serverUserData.NetworkSpawn = World.SpawnAsset(NETWORKSPAWN)
-
+    if Data["Loadouts"] then
     for key, value in pairs(Data["Loadouts"]) do
         player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("Loadouts"..key, Data["Loadouts"][key] )
+    end
     end
     --[[
         for key, value in pairs(Data["Loadouts"]) do
@@ -153,10 +155,6 @@ Game.roundStartEvent:Connect(function()
     end
 end)
 Events.ConnectForPlayer("RequestData",RequestData)
-Events.ConnectForPlayer("WeaponsBroke",function(player) 
-    UnequipPlayer(player)
-    EquipPlayer(player)
-end)
 
 Game.playerLeftEvent:Connect(function(player)
     if Object.IsValid( player.serverUserData.NetworkSpawn) then

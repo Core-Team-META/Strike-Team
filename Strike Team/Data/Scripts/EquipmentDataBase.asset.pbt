@@ -11,6 +11,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Rarity"
+        AssetReference {
+          Id: 12193824885750222898
+        }
+      }
+      Overrides {
         Name: "cs:Root"
         ObjectReference {
         }

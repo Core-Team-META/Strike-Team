@@ -86284,8 +86284,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86343,8 +86344,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86402,8 +86404,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86461,8 +86464,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86520,8 +86524,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86579,8 +86584,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86638,8 +86644,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86696,8 +86703,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86755,8 +86763,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86814,8 +86823,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86873,8 +86883,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }
@@ -86932,8 +86943,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.133
-        G: 0.0475629531
+        R: 0.244791672
+        G: 0.145993203
+        B: 0.051855728
         A: 1
       }
     }

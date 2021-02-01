@@ -130,13 +130,13 @@ Assets {
               Id: 5936961085923459411
             }
             MuzzleFlashAssetRef {
-              Id: 8826513082059475194
+              Id: 1673434699067564152
             }
             TrailAssetRef {
-              Id: 9023864673320310867
+              Id: 4069488059769837249
             }
             ImpactAssetRef {
-              Id: 15728676179772725900
+              Id: 9873536567287197786
             }
             UseReticle: true
             Muzzle {
@@ -161,7 +161,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 1.4
+            BurstDuration: 5.4
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -173,7 +173,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 25000
+            ProjectileSpeed: 75000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -185,7 +185,6 @@ Assets {
               SubObjectId: 6712802972251624407
             }
             ReloadAbility {
-              SubObjectId: 16554379982081698380
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:followlookvector"
@@ -224,7 +223,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -234,7 +233,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.1
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -252,7 +251,7 @@ Assets {
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -292,7 +291,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 3.5
+            Duration: 2.5
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -370,11 +369,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 84
+            Float: 62
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 158
+            Float: 124
           }
         }
         Collidable_v2 {
@@ -1236,5 +1235,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

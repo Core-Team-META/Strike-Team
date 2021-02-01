@@ -11,9 +11,29 @@ end
 function Equipment:SpawnEquipment()
     if(self.data.weapon) then
         self.data.spawnItem = World.SpawnAsset(self.data.weapon)
+        if not (self:GetSlot() == "Perks" or self:GetSlot() == "Equipment") then
+            if(self:GetEquippedSkin() ) then
+                World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
+            end
+        end
+        return self.data.spawnItem
+    end
+end
+
+
+function Equipment:ForceSpawnEquipment()
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self.data.weapon)
         if(self:GetEquippedSkin()) then
             World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
         end
+        return self.data.spawnItem
+    end
+end
+
+function Equipment:SpawnEmpty()
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self.data.weapon)
         return self.data.spawnItem
     end
 end
@@ -90,6 +110,15 @@ end
 
 function Equipment:GetId()
     return self.data.id
+end
+
+
+function Equipment:GetSkinByID(skinid)
+    for _, skin in pairs(self.data.skins) do
+        if(skin.id == skinid) then
+            return skin
+        end
+    end
 end
 
 function Equipment:GetDefaultSkin()

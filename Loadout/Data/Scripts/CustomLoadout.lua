@@ -4,7 +4,9 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CONTEXTPANEL = script:GetCustomProperty("contextpanel")
 local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
 local GlobalPixel =  require(script:GetCustomProperty("GlobalPixel"))
-
+local LEVELLOCK = script:GetCustomProperty("LevelLock")
+local LoadoutText = script:GetCustomProperty("Text_Main_Loadout1"):WaitForObject()
+local connected = false
 
 while not _G["DataBase"] or not LOCAL_PLAYER.clientUserData.Loadouts[tostring(SLOT)] or not _G["LoadoutState"]  do Task.Wait() end
 local Database = _G["DataBase"] 
@@ -145,13 +147,24 @@ function DestroyPanel()
 end
 
 
-BUTTON.pressedEvent:Connect(EquipSlot)
+function Setup()
+if Game.GetLocalPlayer():GetResource("Level") >= LEVELLOCK then
+    if connected then return end
+        LoadoutText.text = string.format( "LOADOUT %d", SLOT )
+        BUTTON.pressedEvent:Connect(EquipSlot)
 
-BUTTON.hoveredEvent:Connect(SpawnPanel)
-BUTTON.unhoveredEvent:Connect(DestroyPanel)
+        BUTTON.hoveredEvent:Connect(SpawnPanel)
+        BUTTON.unhoveredEvent:Connect(DestroyPanel)
 
-Events.Connect("AllloadoutPanelsClose",DestroyPanel)
-Events.Connect("UpdateDataPanel",FillInData)
+        Events.Connect("AllloadoutPanelsClose",DestroyPanel)
+        Events.Connect("UpdateDataPanel",FillInData)
+        connected = true
+    else
+        LoadoutText.text = string.format( "Level %d required", LEVELLOCK )
+    end
+end
+
+Setup()
 
 function Updateemb()
     local emb = script.parent:GetCustomProperty("EquipIcon"):WaitForObject()
@@ -173,3 +186,5 @@ end)
 Events.Connect("UpdateEquipped", Updateemb)
 while(not Game.GetLocalPlayer().clientUserData.EquipSlot) do Task.Wait() end
 Updateemb()
+Game.GetLocalPlayer().resourceChangedEvent:Connect( Setup)
+Setup()

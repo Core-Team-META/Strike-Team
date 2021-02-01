@@ -39,10 +39,6 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
         if SHOW_LOBBY_MESSAGE then
             Events.BroadcastToAllPlayers("BannerMessage", LOBBY_MESSAGE)
         end
-    elseif newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
-        if SHOW_ROUND_MESSAGE then
-            Events.BroadcastToAllPlayers("BannerMessage", ROUND_MESSAGE)
-        end
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         if SHOW_ROUND_END_MESSAGE then
             Events.BroadcastToAllPlayers("BannerMessage", ROUND_END_MESSAGE)

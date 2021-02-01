@@ -1,10 +1,23 @@
 Assets {
-  Id: 14902685857591157447
-  Name: "SniperDutyLoadout2"
+  Id: 17500049575933404364
+  Name: "Stat"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5be15c17d2bd439b849671003cc6f3d5"
+      Key: "620c4217262d4eb9ad914cecc90e65e1"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 12778912323373063402
+  Name: "Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "37aaae07876c4509bd0c1858492798dc"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -18,5 +31,18 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 566442701859588290
+  Name: "Weapons"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e5b0a123233e4117aa5d09b213df9522"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }

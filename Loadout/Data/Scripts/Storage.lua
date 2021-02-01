@@ -64,6 +64,17 @@ function SkinStorage:HasWeapon(Weapon)
     if self.StorageTable[Weapon] then return true end
 end
 
+
+function SkinStorage:ReturnUnownedWeapon()
+    local Unowned = {}
+    for index, _ in pairs(table_name) do      
+        if not self.StorageTable[index] then
+            table.insert( Unowned, index)
+        end
+    end
+    return Unowned
+end
+
 function SkinStorage:HasSkinCombined(strin)
     return self:HasSkin( CoreString.Split(strin,"-"))
 end

@@ -1,6 +1,15 @@
 _G["EquipmentData"] = {}
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local Equipment = require(script:GetCustomProperty("Equipment"))
+local Rarity = require(script:GetCustomProperty("Rarity"))
+
+local Raritys = {
+    ["None"]  =Rarity.New("None",0,99,0,0),
+    ["Common"] =Rarity.New("Common",1000,1,1,0),
+    ["Rare"]  =Rarity.New("Rare",2000,2,2,5),
+    ["Epic"]  =Rarity.New("Epic",15000,3,3,10),
+    ["Legendary"]  =Rarity.New("Legendary",50000,4,4,15),
+}
 
 local Database = {} 
 Database.__index = Database
@@ -17,20 +26,8 @@ function Database:GetDatabase()
     return self.data
 end
 
-function Database.ReturnRarity(rarity)
-    local VALUETABLE = {
-        ["None"] = 99,
-        ["Common"] = 1,
-        ["Rare"] = 2,
-        ["Epic"] = 3,
-        ["Legendary"] = 4,
-    }
-    return VALUETABLE[rarity] or 0
-end
-
 function Database.ReturnSkinRarity(Skin)
-    if not Skin then return 0 end
-    return Database.ReturnRarity(Skin.rarity)   
+    return Skin.rarity:GetRank()
 end
 
 function Database:SetupItemWithSkin(id)
@@ -127,14 +124,16 @@ function VerifyID(Data, NewItem)
     return true
 end
 
-function Database.SetupSkin( id, skin, level, ads, name, rarity )
+function Database.SetupSkin(Owner,id, skin, level, ads, name, rarity,isEvent )
     local NewSkin = {}
+    NewSkin["owner"] = Owner
     NewSkin["id"] = id
     NewSkin["skin"] = skin
     NewSkin["level"] = level or 0
     NewSkin["ads_skin"] = ads
     NewSkin["name"] = name or "NoName"
-    NewSkin["rarity"] = rarity or "None"
+    NewSkin["rarity"] = Raritys[rarity] or Raritys["None"]
+    NewSkin["event"] = isEvent or false
     return NewSkin
 end
 
@@ -158,23 +157,28 @@ function Database:RegisterEquipment()
                 local ItemSkins = {}
 
                 NewItem["defaultSkin"] = Database.SetupSkin( 
+                    NewItem["id"] ,
                     "00",
                     Item:GetCustomProperty("DefaultSkin"),
                     0,
                     Item:GetCustomProperty("ADSSkin"),
                     "Default",
-                    "None"
+                    "None",
+                    false
                 )
                 table.insert( ItemSkins, NewItem["defaultSkin"])
                 
                 for _, Skin in pairs(Item:GetChildren()) do
                     local NewSkin = Database.SetupSkin(
+                        NewItem["id"],
                         Skin:GetCustomProperty("ID"), 
                         Skin:GetCustomProperty("SKIN"),
                         Skin:GetCustomProperty("LEVEL"),
-                        Skin:GetCustomProperty("ADSSkin"),
-                        Skin.name,
-                        Skin:GetCustomProperty("Rarity"))
+                            Skin:GetCustomProperty("ADSSkin"),
+                            Skin.name,
+                        Skin:GetCustomProperty("Rarity"),
+                        Skin:GetCustomProperty("EventSkin")
+                    )
                     assert(VerifyID(ItemSkins, NewSkin),"Clashing Id ".. NewSkin.name .. " in equipment ".. NewItem.name)
                     table.insert( ItemSkins, NewSkin)
                 end

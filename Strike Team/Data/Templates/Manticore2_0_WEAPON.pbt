@@ -176,19 +176,18 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 3200
+            ProjectileSpeed: 3000
             ProjectileLifeSpan: 5
             ProjectileGravity: 0.2
             ProjectileLength: 40
             ProjectileRadius: 15
-            ProjectileDrag: -0.1
+            ProjectileDrag: -0.7
             SpreadMin: 6
             SpreadMax: 20
             DefaultAbility {
               SubObjectId: 12749761527350845930
             }
             ReloadAbility {
-              SubObjectId: 12225205146995319638
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:followlookvector"
@@ -224,7 +223,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.05
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -234,7 +233,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.1
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -245,14 +244,14 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.1
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.75
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true

@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Victory Screen - API
 	1.0.0 - 2020/10/01
@@ -171,7 +171,7 @@ end
 function API.TeleportWinners( player, spawnObject, overrideCamera)
 	local spawnPosition = spawnObject:GetWorldPosition()
 	local spawnRotation = spawnObject:GetWorldRotation()
-		player:Respawn(spawnPosition, spawnRotation)
+		player:Respawn({position = spawnPosition, rotation = spawnRotation})
 
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
@@ -234,7 +234,7 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 
 	Task.Wait()
 
-	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id, topThreePlayerStats)
+	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id) -- topThreePlayerStats
 
 	if(duration > 0) then
 		tasks[player] = Task.Spawn(function()

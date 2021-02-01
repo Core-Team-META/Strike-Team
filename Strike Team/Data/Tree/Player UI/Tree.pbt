@@ -1511,6 +1511,12 @@ Objects {
           Name: "cs:TYPE"
           String: "Melee"
         }
+        Overrides {
+          Name: "cs:Offset"
+          Vector2 {
+            Y: -20
+          }
+        }
       }
     }
     TemplateAsset {
@@ -1667,7 +1673,7 @@ Objects {
       }
     }
     Text {
-      Label: "To open Weapon Swap"
+      Label: "To open Loadout"
       Color {
         R: 0.668000042
         G: 0.668000042
@@ -2131,6 +2137,7 @@ Objects {
   }
   ParentId: 6719238595563650157
   ChildIds: 6136997686353458719
+  ChildIds: 13023898239296000475
   ChildIds: 12693041434237806145
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -2214,6 +2221,7 @@ Objects {
   ParentId: 12693041434237806145
   ChildIds: 13306095104213546008
   ChildIds: 16580750315844722725
+  ChildIds: 6045893854179616403
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2249,6 +2257,171 @@ Objects {
     SubobjectId: 10174915546109198429
     InstanceId: 18374213684223088802
     TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 6045893854179616403
+  Name: "GamemodeExplanation"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3893809814086488483
+  ChildIds: 4497200519015945390
+  ChildIds: 5985750028767755679
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: -417
+    Height: 124
+    UIY: -13.7292786
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5985750028767755679
+  Name: "GamemodeName"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6045893854179616403
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 29
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "Text"
+      Color {
+        R: 1
+        G: 0.400000036
+        A: 1
+      }
+      Size: 26
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4497200519015945390
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6045893854179616403
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 200
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+      }
+      Color {
+        R: 0.01
+        G: 0.01
+        B: 0.01
+        A: 0.7
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -2779,6 +2952,41 @@ Objects {
     SubobjectId: 14126341946038964387
     InstanceId: 18374213684223088802
     TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 13023898239296000475
+  Name: "GamemodeExplination"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12355252634782189422
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:GamemodeName"
+      ObjectReference {
+        SelfId: 5985750028767755679
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17430684817498432525
+    }
   }
 }
 Objects {
@@ -4970,8 +5178,8 @@ Objects {
   Control {
     Width: 213
     Height: 44
-    UIX: 36.3090363
-    UIY: -246.0755
+    UIX: -207.943161
+    UIY: -29.4771729
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4987,7 +5195,7 @@ Objects {
       }
       Size: 14
       Justification {
-        Value: "mc:etextjustify:center"
+        Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
     }

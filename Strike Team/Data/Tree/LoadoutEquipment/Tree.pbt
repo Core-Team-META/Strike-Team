@@ -1098,6 +1098,10 @@ Objects {
           Name: "cs:Slot"
           Int: 8
         }
+        Overrides {
+          Name: "cs:Level"
+          Int: 40
+        }
       }
     }
     ParameterOverrideMap {
@@ -1194,6 +1198,10 @@ Objects {
         Overrides {
           Name: "cs:Slot"
           Int: 7
+        }
+        Overrides {
+          Name: "cs:Level"
+          Int: 35
         }
       }
     }
@@ -1292,6 +1300,10 @@ Objects {
           Name: "cs:Slot"
           Int: 6
         }
+        Overrides {
+          Name: "cs:Level"
+          Int: 25
+        }
       }
     }
     ParameterOverrideMap {
@@ -1382,6 +1394,10 @@ Objects {
         Overrides {
           Name: "cs:Slot"
           Int: 5
+        }
+        Overrides {
+          Name: "cs:Level"
+          Int: 15
         }
       }
     }
@@ -1480,6 +1496,10 @@ Objects {
           Name: "cs:Slot"
           Int: 4
         }
+        Overrides {
+          Name: "cs:Level"
+          Int: 10
+        }
       }
     }
     ParameterOverrideMap {
@@ -1576,6 +1596,10 @@ Objects {
         Overrides {
           Name: "cs:Slot"
           Int: 3
+        }
+        Overrides {
+          Name: "cs:Level"
+          Int: 5
         }
       }
     }
@@ -1674,6 +1698,10 @@ Objects {
           Name: "cs:Slot"
           Int: 2
         }
+        Overrides {
+          Name: "cs:Level"
+          Int: 2
+        }
       }
     }
     ParameterOverrideMap {
@@ -1760,6 +1788,15 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 7247091365074464103
+      value {
+        Overrides {
+          Name: "cs:Level"
+          Int: 0
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7516262734721683302
       value {
@@ -2028,9 +2065,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 383
-    Height: 74
-    UIY: -238.671143
+    Width: 415
+    Height: 57
+    UIY: -226.96936
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2039,27 +2076,27 @@ Objects {
     Button {
       Label: "R E S P A W N"
       FontColor {
-        R: 0.350993276
-        G: 1
+        R: 0.016
+        G: 0.016
+        B: 0.016
         A: 1
       }
-      FontSize: 12
+      FontSize: 26
       ButtonColor {
-        G: 0.00500000035
-        B: 0.000166667713
-        A: 0.765000045
+        R: 1
+        G: 0.238410473
+        A: 1
       }
       HoveredColor {
-        R: 0.0310000014
-        G: 0.0310000014
-        B: 0.0310000014
-        A: 0.859
+        R: 1
+        G: 0.353410482
+        B: 0.150999963
+        A: 1
       }
       PressedColor {
-        R: 0.0470000021
-        G: 0.0470000021
-        B: 0.0470000021
-        A: 0.859
+        R: 0.619
+        G: 0.147576094
+        A: 1
       }
       DisabledColor {
         A: 0.418
@@ -2145,13 +2182,14 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -236
-    Height: 200
+    Width: 10
+    Height: 10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     UseParentHeight: true
     Image {
@@ -2159,8 +2197,8 @@ Objects {
         Id: 16873054259561342990
       }
       Color {
-        R: 0.350993276
-        G: 1
+        R: 1
+        G: 0.238410473
         A: 1
       }
       TeamSettings {
@@ -2169,12 +2207,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -2196,15 +2234,6 @@ Objects {
   }
   ParentId: 4355175678147851601
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:LoadoutKey"
-      NetReference {
-        Key: "5be15c17d2bd439b849671003cc6f3d5"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
     Overrides {
       Name: "cs:ReliableEvents"
       AssetReference {

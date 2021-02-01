@@ -166,7 +166,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 6
+            BurstDuration: 8
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {
@@ -178,7 +178,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 25000
+            ProjectileSpeed: 65000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -190,7 +190,6 @@ Assets {
               SubObjectId: 8150984623336486395
             }
             ReloadAbility {
-              SubObjectId: 12936874155887733097
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"
@@ -381,11 +380,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 24
+            Float: 31
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 48
+            Float: 62
           }
         }
         Collidable_v2 {
@@ -996,7 +995,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 16
+            Int: 12
           }
           Overrides {
             Name: "cs:RELOAD_SOUND"
@@ -1136,5 +1135,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

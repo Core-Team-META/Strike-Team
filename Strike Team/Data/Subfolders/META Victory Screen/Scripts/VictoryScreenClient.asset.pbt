@@ -29,6 +29,11 @@ Assets {
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:Spawns"
+        ObjectReference {
+        }
+      }
     }
   }
   SerializationVersion: 74

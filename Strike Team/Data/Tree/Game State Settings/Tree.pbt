@@ -1,41 +1,7 @@
 Name: "Game State Settings"
 RootId: 15718157928396756218
 Objects {
-  Id: 6826418555127655771
-  Name: "Kill Team Score"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15718157928396756218
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7522103914088346876
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Kill Team Score"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15586421751950533206
-    }
-  }
-}
-Objects {
-  Id: 4536888205100665781
+  Id: 5960801999627558926
   Name: "Lobby Start Reset Team Scores"
   Transform {
     Scale {
@@ -54,11 +20,13 @@ Objects {
           String: "Lobby Start Reset Team Scores"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -105,44 +73,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15515656172286656058
-  Name: "Round Team Score Limit"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15718157928396756218
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5768415112764031484
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Round Team Score Limit"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:TeamScoreLimit"
-          Int: 50
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18243928981338754581
-    }
-  }
-}
-Objects {
   Id: 7535562993660984744
   Name: "Lobby Required Players"
   Transform {
@@ -162,6 +92,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 550461717010396694
+      value {
+        Overrides {
+          Name: "cs:API"
+          AssetReference {
+            Id: 11974742996071064388
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 4494359131020210007
       value {
@@ -221,6 +162,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 7689294975764800308
+      value {
+        Overrides {
+          Name: "cs:API"
+          AssetReference {
+            Id: 11974742996071064388
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13354720253605587128
       value {
         Overrides {
@@ -266,7 +218,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:LobbyHasDuration"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:LobbyDuration"
@@ -286,7 +238,15 @@ Objects {
     }
     Overrides {
       Name: "cs:RoundEndDuration"
-      Float: 30
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:VotingHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:VotingDuration"
+      Float: 20
     }
     Overrides {
       Name: "cs:LobbyHasDuration:tooltip"
@@ -382,7 +342,7 @@ Objects {
     Overrides {
       Name: "cs:API"
       AssetReference {
-        Id: 1850528848628444034
+        Id: 11974742996071064388
       }
     }
     Overrides {
@@ -429,7 +389,7 @@ Objects {
     Overrides {
       Name: "cs:API"
       AssetReference {
-        Id: 1850528848628444034
+        Id: 11974742996071064388
       }
     }
     Overrides {
@@ -502,6 +462,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5572389145757542876
+      value {
+        Overrides {
+          Name: "cs:API"
+          AssetReference {
+            Id: 11974742996071064388
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7154920798440654563
       value {

@@ -174,7 +174,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 5
-            ProjectileSpeed: 10000
+            ProjectileSpeed: 20000
             ProjectileLifeSpan: 4
             ProjectileLength: 35
             ProjectileRadius: 5
@@ -188,7 +188,6 @@ Assets {
               SubObjectId: 16666619692017185530
             }
             ReloadAbility {
-              SubObjectId: 15094024923815337119
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"
@@ -227,7 +226,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -237,7 +236,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.015
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -248,14 +247,14 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.005
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.22
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -376,11 +375,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 35
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 60
+            Float: 55
           }
         }
         Collidable_v2 {
@@ -1165,5 +1164,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

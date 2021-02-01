@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9143122953913418349
+        ParentId: 4781671109827199097
         ChildIds: 10667061370355357005
         ChildIds: 10710068074985047001
         ChildIds: 6188053672397713256
@@ -11142,7 +11142,6 @@ Assets {
           }
         }
         ParentId: 14522026801933090823
-        ChildIds: 8221027190302386808
         ChildIds: 1624425217478004386
         ChildIds: 7618249938687221232
         ChildIds: 10678114433538195229
@@ -11209,59 +11208,6 @@ Assets {
                 Value: "mc:euianchor:middlecenter"
               }
             }
-          }
-        }
-      }
-      Objects {
-        Id: 8221027190302386808
-        Name: "Button_Hover"
-        Transform {
-          Location {
-            X: -681.355469
-            Y: -537.885498
-            Z: -374.529236
-          }
-          Rotation {
-            Yaw: 140.526138
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11401252550629949289
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:TEXT"
-            ObjectReference {
-              SubObjectId: 10678114433538195229
-            }
-          }
-          Overrides {
-            Name: "cs:BUTTONEVENT"
-            String: ""
-          }
-          Overrides {
-            Name: "cs:SEND_TO_SERVER"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:BUTTON_COLOUR"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 18056037653061824451
           }
         }
       }
@@ -13623,5 +13569,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

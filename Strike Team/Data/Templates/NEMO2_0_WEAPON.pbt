@@ -181,7 +181,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 25000
+            ProjectileSpeed: 75000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -194,7 +194,6 @@ Assets {
               SubObjectId: 10903658076612712154
             }
             ReloadAbility {
-              SubObjectId: 16665890196376708431
             }
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"
@@ -243,6 +242,7 @@ Assets {
             }
           }
           ExecutePhaseSettings {
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -260,7 +260,7 @@ Assets {
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.2
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -303,7 +303,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 6.94
+            Duration: 6.5
             CanMove: true
             CanJump: true
             CanRotate: true

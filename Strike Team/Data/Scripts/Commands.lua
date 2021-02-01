@@ -35,7 +35,8 @@ function Commands.TP(player, message)
 end
 
 function Commands.KILL(player)
-    player:Die()
+
+    player:ApplyDamage(Damage.New(1000))
     return player.name .. " died"
 end
 

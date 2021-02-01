@@ -3045,7 +3045,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 10.0750198
+      Float: 5.81007814
     }
   }
   Collidable_v2 {
@@ -3314,7 +3314,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 6
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
@@ -3373,9 +3373,9 @@ Objects {
     Overrides {
       Name: "bp:Light Color"
       Color {
-        R: 1
-        G: 0.758013248
-        B: 0.37
+        R: 0.765625
+        G: 0.580353916
+        B: 0.283281267
         A: 1
       }
     }
@@ -3533,7 +3533,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 4.34093142
+      Float: 2.641
     }
     Overrides {
       Name: "bp:Cast Shadows"

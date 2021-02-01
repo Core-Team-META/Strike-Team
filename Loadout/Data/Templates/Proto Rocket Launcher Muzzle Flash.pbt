@@ -199,7 +199,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 11.1296873
+            Float: 8.13
           }
         }
         Collidable_v2 {
@@ -542,5 +542,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

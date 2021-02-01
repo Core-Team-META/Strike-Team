@@ -26,6 +26,8 @@ local ROUND_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundHasDuration")
 local ROUND_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundDuration")
 local ROUND_END_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndHasDuration")
 local ROUND_END_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndDuration")
+local VOTING_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingHasDuration")
+local VOTING_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingDuration")
 
 -- Check user properties
 if LOBBY_DURATION < 0.0 then
@@ -76,6 +78,9 @@ function SetGameState(newState)
 	elseif newState == ABGS.GAME_STATE_ROUND_END then
 		stateHasduration = ROUND_END_HAS_DURATION
 		stateDuration = ROUND_END_DURATION
+	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
+		stateHasduration = VOTING_HAS_DURATION
+		stateDuration = VOTING_DURATION
 	else
 		error("Tried to set game state to unknown state %d", newState)
 	end
@@ -129,6 +134,8 @@ function Tick(deltaTime)
 		elseif previousState == ABGS.GAME_STATE_ROUND then
 			nextState = ABGS.GAME_STATE_ROUND_END
 		elseif previousState == ABGS.GAME_STATE_ROUND_END then
+			nextState = ABGS.GAME_STATE_ROUND_VOTING
+		elseif previousState == ABGS.GAME_STATE_ROUND_VOTING then
 			nextState = ABGS.GAME_STATE_LOBBY
 		end
 

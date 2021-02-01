@@ -13,6 +13,10 @@ Assets {
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:Level"
+        Int: 0
+      }
     }
   }
   SerializationVersion: 74

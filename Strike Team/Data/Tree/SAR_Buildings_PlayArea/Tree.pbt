@@ -29799,7 +29799,7 @@ Objects {
   Transform {
     Location {
       X: 1409.05286
-      Y: 484.949707
+      Y: 484.91
       Z: 520.002136
     }
     Rotation {
@@ -97835,7 +97835,7 @@ Objects {
     Location {
       X: -1295
       Y: -240
-      Z: 620
+      Z: 620.1
     }
     Rotation {
       Yaw: 135
