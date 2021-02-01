@@ -2539,12 +2539,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:TeamScoreDisplayClient"
-      ObjectReference {
-        SelfId: 3006406043594890584
-      }
-    }
-    Overrides {
       Name: "cs:GAMEMODE_Networked"
       ObjectReference {
         SelfId: 10857687478960459655
@@ -2554,6 +2548,18 @@ Objects {
       Name: "cs:MinimapPlayer"
       AssetReference {
         Id: 5221564976137041813
+      }
+    }
+    Overrides {
+      Name: "cs:TeamScore1"
+      ObjectReference {
+        SelfId: 3006406043594890584
+      }
+    }
+    Overrides {
+      Name: "cs:TeamScore2"
+      ObjectReference {
+        SelfId: 14843321869915328033
       }
     }
   }
