@@ -4966,6 +4966,8 @@ Objects {
   ParentId: 1083976225394096264
   ChildIds: 631418989970742696
   ChildIds: 11394835164566065939
+  ChildIds: 3084902944704905337
+  ChildIds: 18112117233388912368
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4980,6 +4982,86 @@ Objects {
     SubobjectId: 3573498303402939869
     InstanceId: 9162538045503945134
     TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 18112117233388912368
+  Name: "Stylish Raging Rock Music Stinger Set 01"
+  Transform {
+    Location {
+      X: 5
+      Z: 55
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10580121455522794003
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:emx_stylish_raging_rock_stingers:54"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16440057758191733743
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Pitch: -100
+      Volume: 0.7
+      Falloff: 3600
+      Radius: 400
+    }
+  }
+}
+Objects {
+  Id: 3084902944704905337
+  Name: "Mechanical Gears Squeaky 01 SFX"
+  Transform {
+    Location {
+      X: 5
+      Z: 55
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10580121455522794003
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6634819212742021680
+    }
+    Pitch: -200
+    Volume: 0.5
+    Falloff: 2000
+    Radius: 400
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
   }
 }
 Objects {
@@ -5036,7 +5118,6 @@ Objects {
   Transform {
     Location {
       X: -95
-      Y: 3.82449341
       Z: 9.61741638
     }
     Rotation {
@@ -5518,6 +5599,30 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:RackSFX"
+      ObjectReference {
+        SelfId: 3084902944704905337
+      }
+    }
+    Overrides {
+      Name: "cs:ChuggSFX"
+      ObjectReference {
+        SelfId: 18112117233388912368
+      }
+    }
+    Overrides {
+      Name: "cs:DoorOpenSFX"
+      AssetReference {
+        Id: 17755810783229937895
+      }
+    }
+    Overrides {
+      Name: "cs:ArmMoveSFX"
+      AssetReference {
+        Id: 1564526204019622937
+      }
+    }
+    Overrides {
       Name: "cs:Ease3D"
       AssetReference {
         Id: 3949190775138756950
@@ -5582,31 +5687,31 @@ Objects {
     Overrides {
       Name: "cs:Weapon1"
       AssetReference {
-        Id: 8880213503671996271
+        Id: 8784316441900023598
       }
     }
     Overrides {
       Name: "cs:Weapon2"
       AssetReference {
-        Id: 11966506010167892247
+        Id: 1705072003918602984
       }
     }
     Overrides {
       Name: "cs:Weapon3"
       AssetReference {
-        Id: 6300916256509283653
+        Id: 11054133481834412534
       }
     }
     Overrides {
       Name: "cs:Weapon4"
       AssetReference {
-        Id: 3956327603656820052
+        Id: 4854084571077471202
       }
     }
     Overrides {
       Name: "cs:Weapon5"
       AssetReference {
-        Id: 2790165356747472300
+        Id: 11325910546167035767
       }
     }
     Overrides {
@@ -5618,19 +5723,19 @@ Objects {
     Overrides {
       Name: "cs:Weapon7"
       AssetReference {
-        Id: 16887947773198041085
+        Id: 9155987171052072831
       }
     }
     Overrides {
       Name: "cs:Weapon8"
       AssetReference {
-        Id: 7861347429056429158
+        Id: 10710667595232618834
       }
     }
     Overrides {
       Name: "cs:Weapon9"
       AssetReference {
-        Id: 2196043246274351966
+        Id: 6199442529170123096
       }
     }
     Overrides {

@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16440057758191733743
+  Name: "Stylish Raging Rock Music Stinger Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_stinger_stylish_raging_rock_stingers_01_ref"
+  }
+}
+Assets {
   Id: 16392896844987521514
   Name: "Sci-fi Base Door 01"
   PlatformAssetType: 1
@@ -77,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_scope_001"
+  }
+}
+Assets {
+  Id: 6634819212742021680
+  Name: "Big Metal Gears Cranking 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_big_metal_gears_cranking_01_Cue_ref"
   }
 }
 Assets {

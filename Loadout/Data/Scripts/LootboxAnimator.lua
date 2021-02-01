@@ -8,9 +8,12 @@ local OtherWeapons = script:GetCustomProperty("OtherWeapons"):WaitForObject()
 
 local WeaponRackSpinner = script:GetCustomProperty("WeaponRackSpinner"):WaitForObject()
 local WeaponRackHolders = script:GetCustomProperty("WeaponRackHolders"):WaitForObject()
+local RackSFX = script:GetCustomProperty("RackSFX"):WaitForObject()
 
 local Door1 = script:GetCustomProperty("Door1"):WaitForObject()
 local Door2 = script:GetCustomProperty("Doo2"):WaitForObject()
+local DoorOpenSFX = script:GetCustomProperty("DoorOpenSFX")
+local ArmMoveSFX = script:GetCustomProperty("ArmMoveSFX")
 
 local LootBoxCamera = script:GetCustomProperty("LootBoxCamera"):WaitForObject()
 
@@ -18,6 +21,7 @@ local DestinationPoint = script:GetCustomProperty("DestinationPoint"):WaitForObj
 local ReloadPoint = script:GetCustomProperty("ReloadPoint"):WaitForObject()
 
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
+local ChuggSFX = script:GetCustomProperty("ChuggSFX"):WaitForObject()
  
 local defaultCamera = nil
 
@@ -70,10 +74,13 @@ function IntroAnimation()
 	Ease3D.EaseRotation(LootBoxCamera, Rotation.New(0, -15, 180), 8, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
 	
 	--Task.Wait(1)
-	
-	Ease3D.EasePosition(Door1, Vector3.New(0, 100, 0), 1, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
-	Ease3D.EasePosition(Door2, Vector3.New(0, -100, 0), 1, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
-	
+	World.SpawnAsset(DoorOpenSFX)
+	Ease3D.EasePosition(Door1, Vector3.New(0, 25, 0), .3, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Ease3D.EasePosition(Door2, Vector3.New(0, -25, 0), .3, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.3)
+	Ease3D.EasePosition(Door1, Vector3.New(0, 125, 0), 1, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Ease3D.EasePosition(Door2, Vector3.New(0, -125, 0), 1, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	RackSFX:Play()
 	--Task.Wait(1.5)
 
 
@@ -133,7 +140,7 @@ function LoadHolder(selectedHolderEntry, weaponToLoad)
 	weaponToLoad.parent = selectedHolderEntry.weaponPosition
 	
 	weaponToLoad:SetPosition(Vector3.New(0, 0, -15))
-	--weaponToLoad:SetRotation(Rotation.New(180, 90, 180))
+	weaponToLoad:SetRotation(Rotation.New(180, 90, 0))
 	
 
 end
@@ -153,13 +160,17 @@ function AnimateSelection(selectedHolderEntry, player)
 	--selectedHolderEntry.holder:MoveTo(selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -30), 2, true)
 	--selectedHolderEntry.holder:RotateTo(selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 90, 0), 3, true)
 	
-	Ease3D.EasePosition(selectedHolderEntry.holder, selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -30), 1, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
-	Ease3D.EaseRotation(selectedHolderEntry.holder, selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 45, 0), 2, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
+	RackSFX:Stop()
+	World.SpawnAsset(ArmMoveSFX)
+	
+	Ease3D.EasePosition(selectedHolderEntry.holder, selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -30), .5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.3)
+	Ease3D.EaseRotation(selectedHolderEntry.holder, selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 45, 0), 1.5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
 	
 	Task.Wait(1.5)
 	--selectedHolderEntry.weaponPosition:MoveTo(selectedHolderEntry.weaponPosition:GetPosition() + Vector3.UP * -70 + Vector3.FORWARD * 15, 1, true)
 	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(100, 0, 0), 1, true)
-	
+	ChuggSFX:Play()
 	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, 0, -50), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(135, 45, 0), .5, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Task.Wait(1)
