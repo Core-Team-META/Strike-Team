@@ -45,12 +45,12 @@ function GetExtraCode(damage,theKilled)
     end
 
     --check for world kill
-    if(dmg.reason == DamageReason.MAP) then
+    if(damage.reason == DamageReason.MAP) then
         return 2
     end
 
     --check for suicide
-    if(dmg.sourcePlayer == theKilled) then
+    if(damage.sourcePlayer == theKilled) then
         return 3
     end
 
