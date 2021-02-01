@@ -88,7 +88,7 @@ function BuildPanels()
     --ToggleUISettings(true)
     
     for _, newPanel in ipairs(GAME_MODE_POLL:GetChildren()) do
-        if newPanel.name ~= "TITLE" then
+        if newPanel.name ~= "TITLE" and newPanel.name ~= "FT" then
             local id = newPanel:GetCustomProperty("ID")
             local voteCount = newPanel:GetCustomProperty("VOTE_COUNT"):WaitForObject()
             local button = newPanel:GetCustomProperty("BUTTON"):WaitForObject()

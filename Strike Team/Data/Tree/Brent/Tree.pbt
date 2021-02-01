@@ -24,7 +24,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
-      Int: 4
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -1295,6 +1295,7 @@ Objects {
   }
   ParentId: 7775707010924774461
   ChildIds: 10659304100929178456
+  ChildIds: 3130120244112704468
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1302,6 +1303,59 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 3130120244112704468
+  Name: "GAMEMODE_Tags_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13764363076376069012
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AMMOUNT"
+      ObjectReference {
+        SelfId: 944877455481174161
+      }
+    }
+    Overrides {
+      Name: "cs:UIPanel"
+      ObjectReference {
+        SelfId: 4120246131183718379
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_TagPickup_Audio"
+      AssetReference {
+        Id: 17524291481643590101
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_TagTurnIn_Audio"
+      AssetReference {
+        Id: 646199659253971358
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1764432425198795233
+    }
   }
 }
 Objects {
@@ -1366,7 +1420,6 @@ Objects {
   ChildIds: 2789107247861451956
   ChildIds: 8099876998893904561
   ChildIds: 944877455481174161
-  ChildIds: 3130120244112704468
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1396,47 +1449,6 @@ Objects {
           Value: "mc:euianchor:bottomright"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 3130120244112704468
-  Name: "GAMEMODE_Tags_UI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4120246131183718379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:AMMOUNT"
-      ObjectReference {
-        SelfId: 944877455481174161
-      }
-    }
-    Overrides {
-      Name: "cs:UIPanel"
-      ObjectReference {
-        SelfId: 4120246131183718379
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 1764432425198795233
     }
   }
 }
@@ -2012,7 +2024,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SHOULD_RESPAWN"

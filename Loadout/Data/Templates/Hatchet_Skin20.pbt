@@ -7,7 +7,7 @@ Assets {
       RootId: 5358454333281494462
       Objects {
         Id: 5358454333281494462
-        Name: "Hatchet_Skin"
+        Name: "Hatchet_Skin20"
         Transform {
           Scale {
             X: 1
@@ -145,14 +145,14 @@ Assets {
             Z: 31.753479
           }
           Rotation {
-            Pitch: 8.91141605
-            Yaw: 177.265411
-            Roll: 13.2765427
+            Pitch: 23.0126076
+            Yaw: 157.717194
+            Roll: 5.81652117
           }
           Scale {
-            X: 0.670731425
-            Y: 0.59656173
-            Z: 0.621173382
+            X: 0.692326665
+            Y: 0.543264806
+            Z: 0.565677643
           }
         }
         ParentId: 6628866507136955507

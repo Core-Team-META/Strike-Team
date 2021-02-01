@@ -35,10 +35,11 @@ Assets {
         Name: "Blade"
         Transform {
           Location {
-            X: 5
-            Z: 5
+            X: 7
+            Z: 9
           }
           Rotation {
+            Pitch: -8
           }
           Scale {
             X: 1
@@ -213,10 +214,11 @@ Assets {
         Name: "Handle"
         Transform {
           Location {
-            X: 5
-            Z: 5
+            X: 7
+            Z: 9
           }
           Rotation {
+            Pitch: -8
           }
           Scale {
             X: 1

@@ -33,10 +33,11 @@ Assets {
         Name: "Group"
         Transform {
           Location {
+            Z: -11.4804459
           }
           Rotation {
-            Yaw: -90
-            Roll: 45
+            Pitch: -90
+            Roll: 90
           }
           Scale {
             X: 0.451451898

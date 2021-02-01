@@ -6,7 +6,7 @@ function Regen( )
         for _,player in pairs(Game.GetPlayers( )) do
             local hp = player.hitPoints
             local maxHP = player.maxHitPoints
-            if(hp < maxHP and player.serverUserData["Regen"] ) then
+            if(hp < maxHP and player.serverUserData["Regen"] and not player.isDead) then
                 if(player.serverUserData["Regen"]["LastDamage"]) then
                     if(os.time() - player.serverUserData["Regen"]["LastDamage"] > TimeBeforeHealing) then
                         hp = hp + HealingPerSecond * 0.1

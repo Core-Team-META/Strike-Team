@@ -166,7 +166,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 15
+            BurstDuration: 7
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {
@@ -1087,7 +1087,7 @@ Assets {
           }
           Overrides {
             Name: "cs:BURST_COUNT"
-            Int: 3
+            Int: 1
           }
           Overrides {
             Name: "cs:STOP_BURST"

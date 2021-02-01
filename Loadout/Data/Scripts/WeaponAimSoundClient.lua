@@ -35,7 +35,7 @@ function OnWeaponAim(player, isAiming)
     if isAiming then
         ENABLE_AIM_SOUND:Play()
     else
-        DISABLE_AIM_SOUND:Play()
+        --DISABLE_AIM_SOUND:Play()
     end
 
 end

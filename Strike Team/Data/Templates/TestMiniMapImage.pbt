@@ -7,7 +7,7 @@ Assets {
       RootId: 6872505001353289104
       Objects {
         Id: 6872505001353289104
-        Name: "TestImage"
+        Name: "TestMiniMapImage"
         Transform {
           Scale {
             X: 1
@@ -24,8 +24,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 10
-          Height: 10
+          Width: 20
+          Height: 20
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"

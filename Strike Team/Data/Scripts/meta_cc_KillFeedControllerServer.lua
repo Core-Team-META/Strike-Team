@@ -10,7 +10,7 @@
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 
 -- Tools
-local ReliableEvents = require(COMPONENT_ROOT:GetCustomProperty("ReliableEvents"))
+-- local ReliableEvents = require(COMPONENT_ROOT:GetCustomProperty("ReliableEvents"))
 
 -- User exposed properties
 local SHOW_EQUIPMENT_NAME = script:GetCustomProperty("ShowEquipmentName")
@@ -38,18 +38,19 @@ function GetExtraCode(damage,theKilled)
         local hitRes = damage:GetHitResult()
         if(Object.IsValid(hitRes.other) and hitRes.other:IsA("Player")) then
             if(hitRes.socketName == "head") then
+                print(script.name .. " -- HEADSHOT")
                 return 1
             end
         end
     end
 
     --check for world kill
-    if(dmg.reason == DamageReason.MAP) then
+    if(damage.reason == DamageReason.MAP) then
         return 2
     end
 
     --check for suicide
-    if(dmg.sourcePlayer == theKilled) then
+    if(damage.sourcePlayer == theKilled) then
         return 3
     end
 
@@ -64,12 +65,12 @@ function OnPlayerDied(player, damage)
 		local equipment = damage.sourceAbility:FindAncestorByType("Equipment")
 
 		if SHOW_EQUIPMENT_NAME and equipment then
-			ReliableEvents.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(equipment), GetExtraCode(damage,player))
+			Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(equipment), GetExtraCode(damage,player))
 		else
-			ReliableEvents.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(damage.sourceAbility), GetExtraCode(damage,player))
+			Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(damage.sourceAbility), GetExtraCode(damage,player))
 		end
 	else
-		ReliableEvents.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, nil, GetExtraCode(damage,player))
+		Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, nil, GetExtraCode(damage,player))
 	end
 end
 

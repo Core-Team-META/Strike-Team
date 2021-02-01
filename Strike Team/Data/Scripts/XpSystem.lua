@@ -163,7 +163,7 @@ if Environment.IsServer() then
     function XP:Load()
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
-        self.xp = data["XP"] or 0
+        self.xp = 1000000 --data["XP"] or 0
         self.level = self:CalculateLevel()
         self.owner:SetResource("XP", self.xp)
         self.owner:SetResource("Level", self.level)
