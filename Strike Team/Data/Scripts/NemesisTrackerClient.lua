@@ -67,7 +67,7 @@ function TrackKill(killer, victim, otherstuff1, otherstuff2)
 		
 	end
 	
-	print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.id][killer.id]) .. " times.")
+	--print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.id][killer.id]) .. " times.")
 
 end
 
