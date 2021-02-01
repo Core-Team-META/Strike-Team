@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Manager Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/30
--- Version 0.1.0
+-- Date: 2021/1/31
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -39,7 +39,7 @@ local function SetRespawnFlag(player)
     end
 end
 
-local function SetPlayerRespawn()
+local function SetPlayersRespawn()
     for _, player in ipairs(Game.GetPlayers()) do
         SetRespawnFlag(player)
     end
@@ -48,7 +48,7 @@ end
 local function SetCurrentGameState(gameTypeId)
     NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", gameTypeId)
     currentGameTypeId = gameTypeId
-    SetPlayerRespawn()
+    SetPlayersRespawn()
 end
 
 local function GetCurrentGameState()

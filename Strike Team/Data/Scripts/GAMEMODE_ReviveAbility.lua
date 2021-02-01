@@ -17,8 +17,9 @@ end
 
 function OnExecute_Revive(ability)
 	if deadPlayer and deadPlayer.isDead and deadPlayerGrave then
-		deadPlayer:Respawn()
-		deadPlayer:SetWorldPosition(deadPlayerGrave:GetWorldPosition())
+		local playerPos = deadPlayerGrave:GetWorldPosition()
+		playerPos.z = playerPos.z + 150
+		deadPlayer:Respawn({position = playerPos})
 		if Object.IsValid(deadPlayerGrave) then
 			deadPlayerGrave:Destroy()
 		end
