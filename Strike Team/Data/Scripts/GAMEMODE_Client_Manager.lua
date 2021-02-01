@@ -42,17 +42,20 @@ function Int()
     GT_API.RegisterGameTypes(GAME_TYPE_LIST)
     for _, child in ipairs(SPAWNED_OBJECTS:GetChildren()) do
         if Object.IsValid(child) then
-            local shouldShow = child:GetCustomProperty("ShouldShow")
-            if shouldShow then
-                OnChildAdded(_, child)
-            end
+            OnChildAdded(_, child)
         end
     end
     SetScores("GAME_TYPE_ID")
 end
 
 function OnChildAdded(root, object)
-    Events.Broadcast("Minimap.AddItem", object, TEMPLATE)
+    Task.Wait(0.1)
+    local shouldShow = object:GetCustomProperty("ShouldShow")
+    local team = object:GetCustomProperty("TEAM") or 0
+    local image = object:GetCustomProperty("IMAGE") or TEMPLATE
+    if shouldShow then
+        Events.Broadcast("Minimap.AddItem", object, image, team)
+    end
 end
 
 function OnNetworkChanged(object, str)

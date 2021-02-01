@@ -23,6 +23,16 @@ Assets {
             Int: 0
           }
           Overrides {
+            Name: "cs:ShouldShow"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:IMAGE"
+            AssetReference {
+              Id: 2341467415252223113
+            }
+          }
+          Overrides {
             Name: "cs:TV:isrep"
             Bool: true
           }

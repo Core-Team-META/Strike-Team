@@ -24,7 +24,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
-      Int: 3
+      Int: 4
     }
   }
   Collidable_v2 {
@@ -1200,9 +1200,9 @@ Objects {
   Name: "Team2"
   Transform {
     Location {
-      X: -554.873352
-      Y: 7023.94434
-      Z: -7.4869194
+      X: -5487.521
+      Y: 7547.25879
+      Z: 305.001648
     }
     Rotation {
     }
@@ -1242,9 +1242,9 @@ Objects {
   Name: "Team1"
   Transform {
     Location {
-      X: -554.873352
-      Y: 7023.94434
-      Z: -7.4869194
+      X: 5040.11572
+      Y: 7052.50635
+      Z: 4.5321579
     }
     Rotation {
     }
@@ -1726,7 +1726,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 3
+      Int: 50
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -1771,6 +1771,8 @@ Objects {
   }
   ParentId: 2422145611934173127
   ChildIds: 7887256324537856482
+  ChildIds: 7957775993291944863
+  ChildIds: 1471260568947074733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1779,6 +1781,94 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1471260568947074733
+  Name: "Marker"
+  Transform {
+    Location {
+      X: 485.424866
+      Y: 13393.4248
+      Z: 615.31488
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 2.1350111e-07
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7957775993291944863
+  Name: "Marker"
+  Transform {
+    Location {
+      X: 1741.80591
+      Y: 3527.75903
+      Z: -1.58659697
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 5.33752775e-08
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -2458,6 +2548,12 @@ Objects {
       Name: "cs:GAMEMODE_Networked"
       ObjectReference {
         SelfId: 10857687478960459655
+      }
+    }
+    Overrides {
+      Name: "cs:MinimapPlayer"
+      AssetReference {
+        Id: 5221564976137041813
       }
     }
   }
