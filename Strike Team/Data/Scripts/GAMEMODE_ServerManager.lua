@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Manager Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/30
--- Version 0.1.0
+-- Date: 2021/1/31
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -31,9 +31,24 @@ local scoreLimit
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
+local function SetRespawnFlag(player)
+    if currentGameTypeId > 0 and GT_API.GetShouldRespawn(currentGameTypeId) then
+        player:SetResource("GM.RESPAWN_ENABLED", 1)
+    else
+        player:SetResource("GM.RESPAWN_ENABLED", 0)
+    end
+end
+
+local function SetPlayersRespawn()
+    for _, player in ipairs(Game.GetPlayers()) do
+        SetRespawnFlag(player)
+    end
+end
+
 local function SetCurrentGameState(gameTypeId)
     NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", gameTypeId)
     currentGameTypeId = gameTypeId
+    SetPlayersRespawn()
 end
 
 local function GetCurrentGameState()
@@ -74,6 +89,7 @@ end
 function OnPlayerJoined(player)
     player.diedEvent:Connect(OnPlayerDied)
     player.damagedEvent:Connect(OnPlayerDamaged)
+    SetRespawnFlag(player)
 end
 
 -- nil Tick(float)
@@ -105,14 +121,11 @@ function Tick(deltaTime)
     end
 end
 
-
-
 function OnGameStateChanged(oldState, newState, hasDuration, time)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         SetCurrentGameState(0) -- Used to reset Game Modes
     end
 end
-
 
 ------------------------------------------------------------------------------------------------------------------------
 -- INTALIZATION
@@ -121,4 +134,3 @@ Int()
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
-

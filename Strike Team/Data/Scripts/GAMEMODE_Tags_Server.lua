@@ -113,9 +113,16 @@ function OnPlayerDied(player, damage, id)
         return
     end
     local playerPos = player:GetWorldPosition()
-    local newTag = GT_API.SpawnAsset(TAG_TEMPLATE, {position = playerPos, parent = SPAWNED_OBJECTS})
-    newTag:SetNetworkedCustomProperty("TV", (player:GetResource(GT_API.TAG_NAME) + 1))
-    player:SetResource(GT_API.TAG_NAME, 0)
+    playerPos.z = playerPos.z + 1000
+    local endPosition = player:GetWorldPosition()
+    endPosition.z = endPosition.z - 10000
+    local hitResult = World.Raycast(playerPos, endPosition, {ignorePlayers = true})
+    if hitResult then
+        local hitPos = hitResult:GetImpactPosition()
+        local newTag = GT_API.SpawnAsset(TAG_TEMPLATE, {position = hitPos, parent = SPAWNED_OBJECTS})
+        newTag:SetNetworkedCustomProperty("TV", (player:GetResource(GT_API.TAG_NAME) + 1))
+        player:SetResource(GT_API.TAG_NAME, 0)
+    end
 end
 
 function OnPlayerCollect(player, objectId)
