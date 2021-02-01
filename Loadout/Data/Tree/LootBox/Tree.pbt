@@ -322,9 +322,9 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 267.019501
+      X: 576.212708
       Y: -57.0700645
-      Z: -539.131714
+      Z: -434.810822
     }
     Rotation {
       Pitch: -161.112122

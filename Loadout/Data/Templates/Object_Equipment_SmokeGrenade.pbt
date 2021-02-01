@@ -34,7 +34,7 @@ Assets {
           Location {
           }
           Rotation {
-            Pitch: -90
+            Pitch: 45
           }
           Scale {
             X: 0.2
