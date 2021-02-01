@@ -303,7 +303,7 @@ Connections = {
     script.destroyEvent:Connect(function(OBJ) 
         if(WEAPON.owner) then
             ForceReset( WEAPON.owner)
-            OnUnequipped(WEAPON, WEAPON.owner)
+            --OnUnequipped(WEAPON, WEAPON.owner)
         end
         for k,v in pairs(Connections) do
              v:Disconnect()
