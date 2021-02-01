@@ -68,6 +68,7 @@ function API.RegisterGameTypes(list)
             local spawnSettings = gameType:GetCustomProperty("RESPAWN_SETTINGS")
             local icon = gameType:GetCustomProperty("ICON")
             local shouldRespawn = gameType:GetCustomProperty("SHOULD_RESPAWN")
+            local gameInfo = gameType:GetCustomProperty("GAME_INFO")
 
             local gameTypeInfo = {
                 id = id,
@@ -76,7 +77,8 @@ function API.RegisterGameTypes(list)
                 points = points,
                 spawn = spawnSettings,
                 icon = icon,
-                respawn = shouldRespawn
+                respawn = shouldRespawn,
+                info = gameInfo
             }
             if enabled then
                 gameTypeList[id] = gameTypeInfo
@@ -150,6 +152,19 @@ function API.GetShouldRespawn(id)
         return nil
     end
     return gameTypeList[id].respawn
+end
+
+function API.GetGameInfo(id)
+    if not gameTypeList then
+        warn("Game Type Server Script Doesn't Exsist")
+        return nil
+    end
+    local messageTbl = API.StringSplit("|", gameTypeList[id].info)
+    local message = ""
+    for _, msg in ipairs(messageTbl) do
+        message = message .. msg .. "\n"
+    end
+    return message
 end
 
 --@param string template => MUID

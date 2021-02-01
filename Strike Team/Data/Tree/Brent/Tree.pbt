@@ -24,7 +24,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
-      Int: 2
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -1134,6 +1134,10 @@ Objects {
       Int: 4
     }
     Overrides {
+      Name: "cs:GAME_INFO"
+      String: "Kill Confirmed|Collect & Turn In Tags"
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
       Int: 10
     }
@@ -1528,7 +1532,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 11753621366940477556
+        Id: 2123812700671918912
       }
       Color {
         R: 1
@@ -1715,6 +1719,10 @@ Objects {
     Overrides {
       Name: "cs:ID"
       Int: 3
+    }
+    Overrides {
+      Name: "cs:GAME_INFO"
+      String: "King Of Hills|Capture The Point"
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
@@ -1925,6 +1933,10 @@ Objects {
       Int: 2
     }
     Overrides {
+      Name: "cs:GAME_INFO"
+      String: "Freeze Tag|Eliminate The Enemies "
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
       Int: 200
     }
@@ -2062,6 +2074,10 @@ Objects {
     Overrides {
       Name: "cs:ID"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:GAME_INFO"
+      String: "Team Death Match|Eliminate The Enemies"
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
@@ -2424,6 +2440,24 @@ Objects {
       Name: "cs:Spawned_Objects"
       ObjectReference {
         SelfId: 13963835752669516336
+      }
+    }
+    Overrides {
+      Name: "cs:UITextBox"
+      ObjectReference {
+        SelfId: 9859130812002566926
+      }
+    }
+    Overrides {
+      Name: "cs:TeamScoreDisplayClient"
+      ObjectReference {
+        SelfId: 3006406043594890584
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_Networked"
+      ObjectReference {
+        SelfId: 10857687478960459655
       }
     }
   }
