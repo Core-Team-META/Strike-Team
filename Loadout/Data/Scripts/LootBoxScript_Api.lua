@@ -44,7 +44,7 @@ if Environment.IsServer() then
     end
 
     function LootBox.UpdateTime(player)
-        local CountdownTimer = 300--60*60*24
+        local CountdownTimer = 60*60*24
         local data = Storage.GetPlayerData(player)
         data["Lootbox.LastOpen"] = os.time()
         data["Lootbox.OpenTime"] = os.time() + CountdownTimer
@@ -66,7 +66,6 @@ if Environment.IsServer() then
     
     function LootBox.ResetGold(player)
         player:SetResource("Gold", 0)
-        player:SetResource("Gold", 10)
         LootBox.Save(player)
     end
         
@@ -79,7 +78,6 @@ if Environment.IsServer() then
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         player:SetResource("Gold", data["Gold"] or 0)
-        player:SetResource("Gold", 10)
         local data2 = Storage.GetPlayerData(player)
         --local opentime = data2["Lootbox.LastOpen"]
         local CloseTime = data2["Lootbox.OpenTime"]

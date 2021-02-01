@@ -111,6 +111,7 @@ end
 
 function XP:GetLevel()
     self.level = self:CalculateLevel()
+    self.owner:SetResource("Level", self.level)
     return self.level
 end
 
@@ -165,7 +166,7 @@ if Environment.IsServer() then
         self.xp = data["XP"] or 0
         self.level = self:CalculateLevel()
         self.owner:SetResource("XP", self.xp)
-        print(self:GetLevel())
+        self.owner:SetResource("Level", self.level)
     end
 
     function Playerjoined(player)

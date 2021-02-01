@@ -178,6 +178,7 @@ function PlayerLeft(player)
 end
 
 function OnEquipWeapon(owner, weapon)
+    if not Object.IsValid( weapon)  then return end
     SetDefaultWeaponStances(owner)
     local sprintingStance = weapon:GetCustomProperty("SprintingStance")
     local aimingStance = weapon:GetCustomProperty("AimActiveStance")
