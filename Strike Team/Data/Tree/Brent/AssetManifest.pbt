@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11753621366940477556
-  Name: "Fantasy Card 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Card_001"
-  }
-}
-Assets {
   Id: 8230474141945002699
   Name: "Sci-fi Ability Purple 021"
   PlatformAssetType: 9
@@ -59,5 +50,14 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_SciFi_Ability_Misc_006"
+  }
+}
+Assets {
+  Id: 2123812700671918912
+  Name: "Dog Tags"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_037"
   }
 }

@@ -23,7 +23,7 @@ local PROGRESSBAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local TEAM = COMPONENT_ROOT:GetCustomProperty("Team")
 local LABEL = COMPONENT_ROOT:GetCustomProperty("Label")
 local SHOW_MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("ShowMaxScore")
-local MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("MaxScore")
+MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("MaxScore")
 
 -- Check user properties
 if TEAM < 0 or TEAM > 4 then

@@ -54,6 +54,7 @@ end
 local function GetCurrentGameState()
     currentGameTypeId = NETWORKED:GetCustomProperty("GAME_TYPE_ID")
     currentGameInfo = GT_API.GetGameTypeInfo(currentGameTypeId)
+    return currentGameTypeId
 end
 
 local function OnGameTypeChanged(object, string)
@@ -124,6 +125,12 @@ end
 function OnGameStateChanged(oldState, newState, hasDuration, time)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         SetCurrentGameState(0) -- Used to reset Game Modes
+    end
+    if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
+        local currentState = GetCurrentGameState()
+        if currentState > 0 then
+            Events.BroadcastToAllPlayers("BannerMessage", nil, 5, currentState)
+        end
     end
 end
 

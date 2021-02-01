@@ -218,7 +218,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:LobbyHasDuration"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:LobbyDuration"
