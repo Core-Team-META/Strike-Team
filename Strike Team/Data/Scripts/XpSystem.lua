@@ -34,7 +34,6 @@ function XP.New(player)
     return o
 end
 
-
 function CalculateXPInCurrentLevel(val)
     local XpTotal = 0
     for Level,XP in ipairs(XPTable) do
@@ -47,8 +46,6 @@ function CalculateXPInCurrentLevel(val)
     end
     return val
 end
-
-
 
 function CalculateXPUntilNextLevel(val)
     local XpTotal = 0
@@ -68,7 +65,6 @@ function CalculateXPUntilNextLevel(val)
     end
 end
 
-
 function CalculateLevel(val)
     local XpTotal = 0
     for Level,XP in ipairs(XPTable) do
@@ -85,6 +81,16 @@ function CalculateLevel(val)
     return Index 
 end
 
+function XpInNextLevel(val)
+    local XpTotal = 0
+    for Level,XP in ipairs(XPTable) do
+        XpTotal = XpTotal + XP
+        if val < XpTotal then
+            return XP
+        end
+    end
+    return XPTable[#XPTable]
+end
 
 function XP:GetXPInCurrentLevel()
     return CalculateXPInCurrentLevel(self.xp)
@@ -92,6 +98,15 @@ end
 
 function XP:GetXPUntilNextLevel()
     return  CalculateXPUntilNextLevel(self.xp)
+end
+
+function XP:GetNextLevelXP()
+    local level = self:GetLevel()
+    if XPTable[level+1] then 
+        return XPTable[level+1] 
+    else 
+        return XPTable[#XPTable] 
+    end
 end
 
 function XP:GetLevel()
@@ -103,12 +118,9 @@ function XP:GetXP()
     return self.xp
 end
 
-
-
 function XP:CalculateLevel()
     return CalculateLevel(self.xp) 
 end
-
 
 if Environment.IsClient() then
     local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -122,15 +134,14 @@ if Environment.IsClient() then
         self.level = self:CalculateLevel()
     end
 
-    function UpdateResource()
-        if LOCAL_PLAYER.clientUserData.XP then
+    function UpdateResource(_,Rname)
+        if LOCAL_PLAYER.clientUserData.XP and Rname == "XP" then
             LOCAL_PLAYER.clientUserData.XP:Load()
         end
     end
 
     LOCAL_PLAYER.resourceChangedEvent:Connect(UpdateResource)
 end 
-
 
 if Environment.IsServer() then
 
