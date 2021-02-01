@@ -190,7 +190,7 @@ function Tick(deltaTime)
 				if (element.name == "WeaponImage") then
 					if (lines[i].weaponUsed ~= "") then
 						local image = element:FindDescendantByName("FG Image")
-						print(tostring(lines[i].weaponUsed))
+						-- print(tostring(lines[i].weaponUsed))
 						image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
 						feedElements["WeaponImage"] = element
 						feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
