@@ -35,6 +35,19 @@ Assets {
   }
 }
 Assets {
+  Id: 17454584186662264968
+  Name: "SniperDutyLoadout2"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "5be15c17d2bd439b849671003cc6f3d5"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 17357257902648977758
   Name: "Sci-fi Base Capsule 01 Base"
   PlatformAssetType: 1
@@ -98,19 +111,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16345681961000261544
-  Name: "Stat"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "620c4217262d4eb9ad914cecc90e65e1"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 16021887436431412755
   Name: "Girder Medium Angled"
   PlatformAssetType: 1
@@ -153,6 +153,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_4m_ref"
+  }
+}
+Assets {
+  Id: 14262368015454910329
+  Name: "SkinStorage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "673d2761ec9b45a5a03c5970e423c582"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -225,6 +238,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_barreltip_003"
+  }
+}
+Assets {
+  Id: 13296757710251499544
+  Name: "data"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "f0ab80a9a08b49149a80fb3cf1a41ea6"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -315,19 +341,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 9907505148577637851
-  Name: "Weapons"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e5b0a123233e4117aa5d09b213df9522"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -445,19 +458,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_001"
-  }
-}
-Assets {
-  Id: 7356629791123122286
-  Name: "Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "37aaae07876c4509bd0c1858492798dc"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
