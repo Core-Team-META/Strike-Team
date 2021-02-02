@@ -35,13 +35,13 @@ function OnNetworkChanged(object, string)
             currentTeam = data[TEAM]
         end
         if data[TEAM] > 0 and data[PROGRESS] >= 0 then
-            FLAG.isTeamColorUsed = true
+            --FLAG.isTeamColorUsed = true
             EDGE.isTeamColorUsed = true
-            FLAG.team = data[TEAM]
+            --FLAG.team = data[TEAM]
             EDGE.team = data[TEAM]
             Events.Broadcast("Minimap.UpdateItem", ROOT, FLAG.team)
         else
-            FLAG.isTeamColorUsed = false
+            --FLAG.isTeamColorUsed = false
             EDGE.isTeamColorUsed = false
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
