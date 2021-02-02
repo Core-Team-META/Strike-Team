@@ -1769,11 +1769,11 @@ Objects {
     }
     Overrides {
       Name: "cs:PLAYER_SCORE_MULTIPLIER"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 10
+      Int: 50
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -2402,6 +2402,12 @@ Objects {
       Name: "cs:GAMEMODE_NAME"
       ObjectReference {
         SelfId: 6846188187095775388
+      }
+    }
+    Overrides {
+      Name: "cs:NETWORKED"
+      ObjectReference {
+        SelfId: 10857687478960459655
       }
     }
   }

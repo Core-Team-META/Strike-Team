@@ -79,9 +79,6 @@ for _, icon in pairs(AF_ICONS_ALL) do
 	end
 end
 
-TablePrint(FEED_ICONS, 5)
--- Individual feed settigns
-
 -- Kill Feed
 local KILL_FEED_SETTINGS = script:GetCustomProperty("KillFeedSettings"):WaitForObject()
 
