@@ -1138,6 +1138,10 @@ Objects {
       String: "Kill Confirmed|Collect & Turn In Tags"
     }
     Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: false
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
       Int: 10
     }
@@ -1737,8 +1741,12 @@ Objects {
       String: "King Of Hills|Capture The Point"
     }
     Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: true
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 50
+      Int: 10
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -2039,8 +2047,12 @@ Objects {
       String: "Freeze Tag|Eliminate The Enemies "
     }
     Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: false
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 200
+      Int: 20
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -2180,6 +2192,10 @@ Objects {
     Overrides {
       Name: "cs:GAME_INFO"
       String: "Team Death Match|Eliminate The Enemies"
+    }
+    Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: true
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"

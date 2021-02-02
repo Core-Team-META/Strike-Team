@@ -127,8 +127,8 @@ end
 
 --	nil SendToVictoryScreen(string, table)
 --	Sets the camera and shows the UI for the victory Screen
-local function SendToVictoryScreen(podiumGroupReferenceId) -- topThreePlayerStats
-	if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
+local function SendToVictoryScreen() -- topThreePlayerStats
+	--if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
 
 
 	-- change the default camera rotation to look in the same direction so the head faces the right way
@@ -222,5 +222,6 @@ end
 WINNER_SORT_TYPE = GetProperty(WINNER_SORT_TYPE, WINNER_SORT_TYPES)
 
 --	Connect events appropriately
-Events.Connect("SendToVictoryScreen", SendToVictoryScreen)
+--Events.Connect("SendToVictoryScreen", SendToVictoryScreen)
+Game.roundEndEvent:Connect(SendToVictoryScreen)
 Events.Connect("RestoreFromVictoryScreen", RestoreFromPodium)
