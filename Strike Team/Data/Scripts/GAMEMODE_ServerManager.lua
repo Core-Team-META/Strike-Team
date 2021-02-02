@@ -86,6 +86,22 @@ function OnPlayerDamaged(player, damage)
     GT_API.OnPlayerDamaged(player, damage, currentGameTypeId)
 end
 
+function OnPlayerLeft(player)
+    Task.Wait() -- Wait one frame to make sure player that left is no longer in game
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+        local players = Game.GetPlayers()
+        if #players <= 1 then
+            local lastPlayer
+            for _, remainingPlayer in ipairs(players) do
+                lastPlayer = remainingPlayer
+            end
+            _G["GameWinner"] = lastPlayer.team
+            Events.Broadcast("TeamVictory", lastPlayer.team)
+            ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+        end
+    end
+end
+
 -- nil OnPlayerJoined(Player)
 -- Register the diedEvent when a player joins
 function OnPlayerJoined(player)
@@ -123,18 +139,6 @@ function Tick(deltaTime)
         --NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", 1)
         end
     end
-    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
-        local players = Game.GetPlayers()
-        if #players <= 1 then
-            local lastPlayer
-            for _, remainingPlayer in ipairs(players) do
-                lastPlayer = remainingPlayer
-            end
-            _G["GameWinner"] = lastPlayer.team
-            Events.Broadcast("TeamVictory", lastPlayer.team)
-            ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
-        end
-    end
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
@@ -154,6 +158,7 @@ end
 -- INTALIZATION
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Game.playerLeftEvent:Connect(OnPlayerLeft)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Int()
