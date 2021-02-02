@@ -180,10 +180,10 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		feedTable[8] = killedColor
 
 		if (SHOW_DISTANCE) then
-			feedTable[6] = tostring(GetDistance(killerPlayer, killedPlayer) / 100) .. "m"
+			feedTable[6] = tostring(CoreMath.Round(GetDistance(killerPlayer, killedPlayer) / 100,0)) .. "m"
 		end
 		if (SHOW_KILLER_HP) then
-			feedTable[5] = tostring(killerPlayer.hitPoints)
+			feedTable[5] = tostring(CoreMath.Round(killerPlayer.hitPoints,0))
 		end
 
 		if sourceObject then
@@ -225,7 +225,9 @@ function Tick(deltaTime)
 				if (element.name == "WeaponImage") then
 					if (lines[i].weaponUsed ~= "") then
 						local image = element:FindDescendantByName("FG Image")
-						image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
+						if (FEED_ICONS[lines[i].weaponUsed]) then
+							image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
+						end
 						feedElements["WeaponImage"] = element
 						feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
