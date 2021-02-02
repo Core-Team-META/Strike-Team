@@ -179,7 +179,7 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 	end
 
 	killerColor = GetTeamColor(killerPlayer)
-	killedColor = GetTeamColor(killerPlayer)
+	killedColor = GetTeamColor(killedPlayer)
 
 	if killerPlayer == LOCAL_PLAYER then
 		killerColor = SELF_TEXT_COLOR
