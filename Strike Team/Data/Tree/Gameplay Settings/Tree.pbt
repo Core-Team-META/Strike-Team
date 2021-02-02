@@ -480,7 +480,6 @@ Objects {
       Y: 7.79129823e-06
     }
     Rotation {
-      Yaw: 180
     }
     Scale {
       X: 1.00745189
@@ -7981,7 +7980,7 @@ Objects {
         Value: "mc:elookcontrolmode:relative"
       }
       FacingMode {
-        Value: "mc:efacingmode:faceaimalways"
+        Value: "mc:efacingmode:faceaimwhenactive"
       }
       DefaultRotationRate: 540
       SlideRotationRate: 20

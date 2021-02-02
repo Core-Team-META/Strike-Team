@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15154267093380043350
-  Name: "Nature Tree Leaves Rustle Rustling 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_nature_leaves_rustle_01_Cue_ref"
-  }
-}
-Assets {
   Id: 14786149351500180553
   Name: "Ambience Nature Insects Buzzing Set 01 SFX"
   PlatformAssetType: 10

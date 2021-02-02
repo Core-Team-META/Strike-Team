@@ -69,17 +69,13 @@ Assets {
         ChildIds: 3380054598291011788
         ChildIds: 7195164701222140783
         ChildIds: 8798750429027352670
-        ChildIds: 16774615976781680854
         ChildIds: 3826582693817739497
-        ChildIds: 13917817728194213523
         ChildIds: 563327232475968095
         ChildIds: 5868638797619073966
         ChildIds: 7511960685385570258
         ChildIds: 11624462459009711128
         ChildIds: 6794775324342647447
         ChildIds: 2513594018227467802
-        ChildIds: 9049676288366158122
-        ChildIds: 18429503479608260918
         ChildIds: 6727915620091772321
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -3117,81 +3113,6 @@ Assets {
         }
       }
       Objects {
-        Id: 16774615976781680854
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: 78.4195557
-            Y: -14.5273438
-            Z: 135.49292
-          }
-          Rotation {
-            Pitch: 0.722272
-            Yaw: 0.769897938
-          }
-          Scale {
-            X: 0.0477270856
-            Y: 0.261129618
-            Z: 0.292220771
-          }
-        }
-        ParentId: 13407646551194800581
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0.0562492348
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.420000017
-              G: 0.420000017
-              B: 0.420000017
-              A: 0.039
-            }
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.659474
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 0.169999957
-              G: 0.060794685
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Sort Order"
-            Int: 999
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
         Id: 3826582693817739497
         Name: "2D Basic Shapes Decal"
         Transform {
@@ -3248,81 +3169,6 @@ Assets {
           Overrides {
             Name: "bp:Sort Order"
             Int: 10
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 13917817728194213523
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -74.895874
-            Y: -3.92675781
-            Z: 114.948059
-          }
-          Rotation {
-            Pitch: 0.722272
-            Yaw: 0.769897938
-          }
-          Scale {
-            X: 0.0477270856
-            Y: 0.261129618
-            Z: 0.292220771
-          }
-        }
-        ParentId: 13407646551194800581
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0.0562492348
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.420000017
-              G: 0.420000017
-              B: 0.420000017
-              A: 0.039
-            }
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.659474
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 0.169999957
-              G: 0.060794685
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Sort Order"
-            Int: 27
           }
         }
         Collidable_v2 {
@@ -3707,150 +3553,6 @@ Assets {
             X: -61.380127
             Y: 0.111328125
             Z: 112.352478
-          }
-          Rotation {
-            Pitch: 0.819923162
-            Yaw: 0.664764643
-            Roll: -7.79972219
-          }
-          Scale {
-            X: 0.29856512
-            Y: 0.433285326
-            Z: 0.448005676
-          }
-        }
-        ParentId: 13407646551194800581
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.209
-              G: 0.173235148
-              B: 0.151316
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 0.169999957
-              G: 0.060794685
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 9049676288366158122
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -75.4492188
-            Y: -89.3574219
-            Z: 116.10083
-          }
-          Rotation {
-            Pitch: 0.819923162
-            Yaw: 0.664764643
-            Roll: -7.79972219
-          }
-          Scale {
-            X: 0.29856512
-            Y: 0.433285326
-            Z: 0.448005676
-          }
-        }
-        ParentId: 13407646551194800581
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Sides"
-            Int: 4
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.209
-              G: 0.173235148
-              B: 0.151316
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 0.169999957
-              G: 0.060794685
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12704764869057814971
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 18429503479608260918
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: 80.0202637
-            Y: -89.3574219
-            Z: 116.10083
           }
           Rotation {
             Pitch: 0.819923162

@@ -128131,6 +128131,7 @@ Objects {
   ChildIds: 13475117985953948587
   ChildIds: 17874364078031864526
   ChildIds: 370647207211073257
+  ChildIds: 5082266017807414086
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -128139,6 +128140,61 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5082266017807414086
+  Name: "Damaged Concrete Chunk 02"
+  Transform {
+    Location {
+      X: 104.367676
+      Y: 1195.63672
+      Z: 625.888306
+    }
+    Rotation {
+      Pitch: 10.0160007
+      Yaw: 65.4698868
+      Roll: -41.1696777
+    }
+    Scale {
+      X: 0.499994099
+      Y: 0.250001311
+      Z: 0.654396772
+    }
+  }
+  ParentId: 6759371105496225399
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.427083343
+        G: 0.384928137
+        B: 0.372054905
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14345153403763633307
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableDistanceFieldLighting: true
+    DisableCastShadows: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -129037,13 +129093,13 @@ Objects {
   Transform {
     Location {
       X: -11.0830078
-      Y: 1359.09619
-      Z: 710.000122
+      Y: 1637.49463
+      Z: 714.99939
     }
     Rotation {
       Pitch: 3.28288245
-      Yaw: -134.50322
-      Roll: 11.2832689
+      Yaw: 80.7738876
+      Roll: 11.284729
     }
     Scale {
       X: 0.5

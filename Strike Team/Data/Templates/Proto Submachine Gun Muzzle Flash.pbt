@@ -100,8 +100,8 @@ Assets {
           }
           AudioBP {
             AutoPlay: true
-            Volume: 0.7
-            Falloff: 1600
+            Volume: 0.8
+            Falloff: 2100
             Radius: 600
             EnableOcclusion: true
             IsSpatializationEnabled: true

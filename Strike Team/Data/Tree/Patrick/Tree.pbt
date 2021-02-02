@@ -195,6 +195,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:GAMEMODE_Networked"
+      ObjectReference {
+        SelfId: 10857687478960459655
+      }
+    }
+    Overrides {
       Name: "cs:GainedXP"
       ObjectReference {
         SelfId: 12235163034656558815
@@ -284,6 +290,18 @@ Objects {
         SelfId: 13980112003110647475
       }
     }
+    Overrides {
+      Name: "cs:GameModeName"
+      ObjectReference {
+        SelfId: 13732253495214175751
+      }
+    }
+    Overrides {
+      Name: "cs:MatchLength"
+      ObjectReference {
+        SelfId: 2420207814350621380
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -330,7 +348,15 @@ Objects {
       Int: 0
     }
     Overrides {
+      Name: "cs:MatchTime"
+      String: ""
+    }
+    Overrides {
       Name: "cs:WinningTeam:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:MatchTime:isrep"
       Bool: true
     }
   }

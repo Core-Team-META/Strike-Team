@@ -18,6 +18,8 @@ until localPlayerXP
 
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
+local gamemodeNetworked = script:GetCustomProperty("GAMEMODE_Networked"):WaitForObject()
+
 local endRoundManager = script:GetCustomProperty("EndRoundUIMainManager"):WaitForObject()
 
 local gainedXPText = script:GetCustomProperty("GainedXP"):WaitForObject()
@@ -39,6 +41,9 @@ local cashKillsText = script:GetCustomProperty("CashKills"):WaitForObject()
 local cashHeadshotsText = script:GetCustomProperty("CashHeadshots"):WaitForObject()
 
 local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
+
+local gameModeName = script:GetCustomProperty("GameModeName"):WaitForObject()
+local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
 
 local winValue = 100
 local lossValue = 50
@@ -68,8 +73,6 @@ end
 
 
 function CountThisTextUp(givenText, targetNumber, increment, extra)
-
-	--print(" (function) counting " .. givenText.name .. " to " .. tostring(targetNumber))
 	
 	passComplete = false
 	passToTask = {givenText, targetNumber, increment, extra}
@@ -85,7 +88,7 @@ function CountThisTextUp(givenText, targetNumber, increment, extra)
 	
 		--print("(task) counting " .. givenText.name .. " to " .. tostring(targetNumber))
 
-		for i = 1, targetNumber, targetNumber/100 do
+		for i = 1, targetNumber, math.ceil(targetNumber/100) do
 		
 			givenText.text = extra .. tostring(i)
 			
@@ -251,6 +254,21 @@ function RecordCurrentXP()
 	
 end
 
+function SetRoundInfo()
+	
+	local id = gamemodeNetworked:GetCustomProperty("GAME_TYPE_ID")
+	gameModeName.text = GT_API.GetGameTypeName(id)
+	
+	while endRoundManager:GetCustomProperty("MatchTime") == "" do
+	
+		Task.Wait()
+		
+	end
+	
+	matchLength.text = endRoundManager:GetCustomProperty("MatchTime")
+
+end
+
 function OnGameStateChanged(oldState, newState, hasDuration, time)
     if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
         
@@ -265,6 +283,8 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     	RecordCurrentXP()
         
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
+    
+    	SetRoundInfo()
         
     end
 end

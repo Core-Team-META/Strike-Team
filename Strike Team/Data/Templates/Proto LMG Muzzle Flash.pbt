@@ -136,7 +136,7 @@ Assets {
           }
           AudioBP {
             AutoPlay: true
-            Volume: 5
+            Volume: 4
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
