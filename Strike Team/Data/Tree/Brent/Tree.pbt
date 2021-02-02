@@ -2425,7 +2425,7 @@ Objects {
 }
 Objects {
   Id: 6369085057596370757
-  Name: "UI Container"
+  Name: "INFO_CONTAINER"
   Transform {
     Location {
     }
@@ -2492,7 +2492,7 @@ Objects {
   Control {
     Width: 201
     Height: 54
-    UIY: 54.2079
+    UIY: 45
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
