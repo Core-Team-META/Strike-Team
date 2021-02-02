@@ -19,17 +19,16 @@ print("time: " .. tostring(startTime))
 function ResetWinningTeam()
 
 	script:SetNetworkedCustomProperty("WinningTeam", 0)
+	
+	script:SetNetworkedCustomProperty("MatchTime","")
+	
+	startTime = os.time()
 
 end
 
 function SetWinningTeam(winner)
 	
 	script:SetNetworkedCustomProperty("WinningTeam",winner)
-	
-	script:SetNetworkedCustomProperty("MatchTime","")
-	
-	startTime = os.time()
-
 
 end
 
@@ -45,8 +44,17 @@ function SetRoundLength()
     	
   	else
   	
-	    local minutes = tostring(floor(mod(totalTime,3600)/60))
-  		local seconds = tostring(floor(mod(totalTime,60)))
+	    local minutes = tostring(math.floor((totalTime % 3600)/60))
+	    
+  		local sec = math.floor(totalTime % 60)
+  		
+  		local seconds = tostring(sec)
+  		
+  		if sec < 10 then
+  		
+  			seconds = "0" .. seconds
+  			
+  		end
   		
 	    script:SetNetworkedCustomProperty("MatchTime",minutes .. ":" .. seconds)
 	    
