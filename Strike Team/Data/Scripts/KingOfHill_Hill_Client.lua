@@ -61,5 +61,5 @@ function OnNetworkChanged(object, string)
         --UpdateProgress(data[PROGRESS])
     end
 end
-
+Events.Broadcast("BannerMessage", "Capture Point Moved", 5)
 ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
