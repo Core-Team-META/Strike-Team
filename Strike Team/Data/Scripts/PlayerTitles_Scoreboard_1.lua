@@ -6,7 +6,6 @@
 		Nicholas Foreman (https://www.coregames.com/user/f9df3457225741c89209f6d484d0eba8)
 
 --]]
-
 ------------------------------------------------------------------------------------------------------------------------
 --	EXTERNAL SCRIPTS AND APIS
 ------------------------------------------------------------------------------------------------------------------------
@@ -72,12 +71,10 @@ local EASING_DIRECTION_OUT = Scoreboard:GetCustomProperty("EasingDirectionOut")
 -- local LEADERSTAT_THREE_RESOURCE = Scoreboard:GetCustomProperty("Leaderstat3Resource")
 local LEADERBOARD_STATS = script:GetChildren()
 
-
-
 local COLOR_DEFAULT = Color.New(1, 1, 1, 1)
 
-local LEADERSTAT_TYPES = { "KILLS", "DEATHS", "KDR", "RESOURCE" }
-local PLAYER_NAME_COLOR_MODES = { "STATIC", "TEAM", "TITLE" }
+local LEADERSTAT_TYPES = {"KILLS", "DEATHS", "KDR", "RESOURCE"}
+local PLAYER_NAME_COLOR_MODES = {"STATIC", "TEAM", "TITLE"}
 
 ------------------------------------------------------------------------------------------------------------------------
 --	INITIAL VARIABLES
@@ -99,15 +96,23 @@ local lastTask
 --	nil CreatePlayerLeaderstat(string, string, string)
 --	Creates a leaderstat label for the Header
 local function CreateHeaderLeaderstat(leaderstatName, leaderstatType, leaderstatResource)
-	if(leaderstatType == "RESOURCE") then
-		leaderstatName = ((leaderstatName ~= "") and leaderstatName) or ((leaderstatResource ~= "") and leaderstatResource) or (string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
+	if (leaderstatType == "RESOURCE") then
+		leaderstatName =
+			((leaderstatName ~= "") and leaderstatName) or ((leaderstatResource ~= "") and leaderstatResource) or
+			(string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
 	else
-		leaderstatName = ((leaderstatName ~= "") and leaderstatName) or (string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
+		leaderstatName =
+			((leaderstatName ~= "") and leaderstatName) or
+			(string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
 	end
 
-	local leaderstat = World.SpawnAsset(ScoreboardLeaderstatHeaderTemplate, {
-		parent = HeaderLeaderstats
-	})
+	local leaderstat =
+		World.SpawnAsset(
+		ScoreboardLeaderstatHeaderTemplate,
+		{
+			parent = HeaderLeaderstats
+		}
+	)
 	leaderstat.name = leaderstatName
 	leaderstat.x = -100 * leaderstatCount
 	leaderstat.text = leaderstatName
@@ -117,16 +122,30 @@ end
 
 --	nil CreatePlayerLeaderstat(Player, CoreObject, string, string, string, int)
 --	Creates a leaderstat for a player
-local function CreatePlayerLeaderstat(player, playerEntry, leaderstatName, leaderstatType, leaderstatResource, leaderstatCount)
-	if(leaderstatType == "RESOURCE") then
-		leaderstatName = ((leaderstatName ~= "") and leaderstatName) or ((leaderstatResource ~= "") and leaderstatResource) or (string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
+local function CreatePlayerLeaderstat(
+	player,
+	playerEntry,
+	leaderstatName,
+	leaderstatType,
+	leaderstatResource,
+	leaderstatCount)
+	if (leaderstatType == "RESOURCE") then
+		leaderstatName =
+			((leaderstatName ~= "") and leaderstatName) or ((leaderstatResource ~= "") and leaderstatResource) or
+			(string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
 	else
-		leaderstatName = ((leaderstatName ~= "") and leaderstatName) or (string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
+		leaderstatName =
+			((leaderstatName ~= "") and leaderstatName) or
+			(string.sub(leaderstatType, 1, 1) .. string.lower(string.sub(leaderstatType, 2, #leaderstatType)))
 	end
 
-	local leaderstat = World.SpawnAsset(ScoreboardLeaderstatPlayerTemplate, {
-		parent = playerEntry
-	})
+	local leaderstat =
+		World.SpawnAsset(
+		ScoreboardLeaderstatPlayerTemplate,
+		{
+			parent = playerEntry
+		}
+	)
 	leaderstat.name = leaderstatName
 	leaderstat.x = -100 * leaderstatCount
 
@@ -161,14 +180,18 @@ local function CreatePlayerEntry(player)
 
 	local title = PlayerTitles.GetPlayerTitle(player)
 
-	local entry = World.SpawnAsset(ScoreboardEntryTemplate, {
-		parent = Entries
-	})
+	local entry =
+		World.SpawnAsset(
+		ScoreboardEntryTemplate,
+		{
+			parent = Entries
+		}
+	)
 	entry.name = player.name
 
 	entries[player] = {
 		entry = entry,
-		leaderstats = {},
+		leaderstats = {}
 	}
 
 	local playerNameText, teamColorImage, playerIconImage, socialIconImage =
@@ -179,12 +202,13 @@ local function CreatePlayerEntry(player)
 
 	playerNameText.text = player.name
 
-	local teamColor = PlayerTitles.GetPlayerTeamColor(LocalPlayer, player, NEUTRAL_TEAM_COLOR, FRIENDLY_TEAM_COLOR, ENEMY_TEAM_COLOR)
+	local teamColor =
+		PlayerTitles.GetPlayerTeamColor(LocalPlayer, player, NEUTRAL_TEAM_COLOR, FRIENDLY_TEAM_COLOR, ENEMY_TEAM_COLOR)
 	teamColorImage:SetColor(teamColor)
 
 	playerIconImage:SetImage(player)
 
-	if(SHOW_TITLE_ICON and title and title.icon) then
+	if (SHOW_TITLE_ICON and title and title.icon) then
 		socialIconImage:SetImage(title.icon or "")
 		socialIconImage:SetColor(title.iconColor or COLOR_DEFAULT)
 		socialIconImage.rotationAngle = tonumber(title.iconRotation) or 0
@@ -195,11 +219,11 @@ local function CreatePlayerEntry(player)
 		playerNameText.width = playerNameText.width - 26
 	end
 
-	if(PLAYER_NAME_COLOR_MODE == "TEAM") then
+	if (PLAYER_NAME_COLOR_MODE == "TEAM") then
 		playerNameText:SetColor(teamColor)
-	elseif(title and (PLAYER_NAME_COLOR_MODE == "TITLE")) then
+	elseif (title and (PLAYER_NAME_COLOR_MODE == "TITLE")) then
 		playerNameText:SetColor(title.prefixColor or COLOR_DEFAULT)
-	elseif((PLAYER_NAME_COLOR_MODE == "STATIC") and title and title.showPrefixColorWhileStatic) then
+	elseif ((PLAYER_NAME_COLOR_MODE == "STATIC") and title and title.showPrefixColorWhileStatic) then
 		playerNameText:SetColor(title.prefixColor or COLOR_DEFAULT)
 	else
 		playerNameText:SetColor(PLAYER_NAME_COLOR)
@@ -210,9 +234,17 @@ local function CreatePlayerEntry(player)
 	-- Updated
 	for i = #LEADERBOARD_STATS, 1, -1 do
 		stat = LEADERBOARD_STATS[i]
-		if(stat:GetCustomProperty("StatEnabled")) then
-			local success = CreatePlayerLeaderstat(player, entry, stat.name, stat:GetCustomProperty("StatType"), stat:GetCustomProperty("StatResource"), count)
-			if(success) then
+		if (stat:GetCustomProperty("StatEnabled")) then
+			local success =
+				CreatePlayerLeaderstat(
+				player,
+				entry,
+				stat.name,
+				stat:GetCustomProperty("StatType"),
+				stat:GetCustomProperty("StatResource"),
+				count
+			)
+			if (success) then
 				count = count + 1
 			end
 		end
@@ -228,7 +260,9 @@ local function DeletePlayerEntry(player)
 	entries[player] = nil
 
 	local entry = Entries:FindChildByName(player.name)
-	if(not entry) then return end
+	if (not entry) then
+		return
+	end
 
 	entry:Destroy()
 
@@ -241,7 +275,9 @@ local function UpdatePlayerEntry(player)
 	playerTeams[player] = player.team
 
 	local entry = Entries:FindChildByName(player.name)
-	if(not entry) then return end
+	if (not entry) then
+		return
+	end
 
 	local title = PlayerTitles.GetPlayerTitle(player)
 
@@ -249,12 +285,13 @@ local function UpdatePlayerEntry(player)
 		entry:GetCustomProperty("PlayerName"):WaitForObject(),
 		entry:GetCustomProperty("TeamColor"):WaitForObject()
 
-	local teamColor = PlayerTitles.GetPlayerTeamColor(LocalPlayer, player, NEUTRAL_TEAM_COLOR, FRIENDLY_TEAM_COLOR, ENEMY_TEAM_COLOR)
+	local teamColor =
+		PlayerTitles.GetPlayerTeamColor(LocalPlayer, player, NEUTRAL_TEAM_COLOR, FRIENDLY_TEAM_COLOR, ENEMY_TEAM_COLOR)
 	teamColorImage:SetColor(teamColor)
 
-	if(PLAYER_NAME_COLOR_MODE == "TEAM") then
+	if (PLAYER_NAME_COLOR_MODE == "TEAM") then
 		playerNameText:SetColor(teamColor)
-	elseif(title and PLAYER_NAME_COLOR_MODE == "TITLE") then
+	elseif (title and PLAYER_NAME_COLOR_MODE == "TITLE") then
 		playerNameText:SetColor(title.prefixColor or Color.New(0.1, 0.1, 0.1))
 	else
 		playerNameText:SetColor(PLAYER_NAME_COLOR)
@@ -266,21 +303,21 @@ end
 local function UpdateHeader()
 	local isNeutral = LocalPlayer.team == 0
 
-	if(isNeutral) then
+	if (isNeutral) then
 		HeaderTeamColor:SetColor(NEUTRAL_TEAM_COLOR)
 	else
 		HeaderTeamColor:SetColor(FRIENDLY_TEAM_COLOR)
 	end
 
 	HeaderPlayerName:SetColor(PLAYER_NAME_COLOR)
-	if(PLAYER_NAME_COLOR_MODE == "TEAM") then
-		if(isNeutral) then
+	if (PLAYER_NAME_COLOR_MODE == "TEAM") then
+		--[[elseif(localPlayerTitle and PLAYER_NAME_COLOR_MODE == "TITLE") then
+		HeaderPlayerName:SetColor(localPlayerTitle.prefixColor or COLOR_DEFAULT)]]
+		if (isNeutral) then
 			HeaderPlayerName:SetColor(NEUTRAL_TEAM_COLOR)
 		else
 			HeaderPlayerName:SetColor(FRIENDLY_TEAM_COLOR)
 		end
-	--[[elseif(localPlayerTitle and PLAYER_NAME_COLOR_MODE == "TITLE") then
-		HeaderPlayerName:SetColor(localPlayerTitle.prefixColor or COLOR_DEFAULT)]]
 	else
 		HeaderPlayerName:SetColor(PLAYER_NAME_COLOR)
 	end
@@ -292,16 +329,20 @@ local function GetProperty(value, options)
 	value = string.upper(value)
 
 	for _, option in pairs(options) do
-		if(value == option) then return value end
+		if (value == option) then
+			return value
+		end
 	end
 
 	return options[1]
 end
 
---	nil OnBindingReleased(Player, string)
+--	nil OnBindingPressed(Player, string)
 --	Toggles the PlayerList on release of the TOGGLE_BINDING
-local function OnBindingReleased(player, binding)
-	if(binding ~= TOGGLE_BINDING) then return end
+local function OnBindingPressed(player, binding)
+	if (binding ~= TOGGLE_BINDING) then
+		return
+	end
 
 	ForceToggle()
 end
@@ -310,26 +351,27 @@ end
 --	Updates the leaderstats for a player
 local function UpdatePlayer(player)
 	local entry = entries[player]
-	if(not entry) then return end
-
+	if (not entry) then
+		return
+	end
 	for leaderstatName, leaderstat in pairs(entry.leaderstats) do
 		local leaderstatType = leaderstat.type
 
-		if(leaderstatType == "KILLS") then
+		if (leaderstatType == "KILLS") then
 			leaderstat.text.text = tostring(player.kills)
-		elseif(leaderstatType == "DEATHS") then
+		elseif (leaderstatType == "DEATHS") then
 			leaderstat.text.text = tostring(player.deaths)
-		elseif(leaderstatType == "KDR") then
+		elseif (leaderstatType == "KDR") then
 			local killDeathRatio = 0
 			if (player.kills > 0) then
 				if (player.deaths == 0) then
-					killDeathRatio = player.kills/1
+					killDeathRatio = player.kills / 1
 				else
-					killDeathRatio = CoreMath.Round(player.kills/player.deaths, 2)
+					killDeathRatio = CoreMath.Round(player.kills / player.deaths, 2)
 				end
 			end
 			leaderstat.text.text = tostring(killDeathRatio)
-		elseif(leaderstatType == "RESOURCE") then
+		elseif (leaderstatType == "RESOURCE") then
 			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource) or 0)
 		end
 	end
@@ -345,7 +387,7 @@ function ForceOn()
 	isVisible = true
 
 	Content.visibility = Visibility.FORCE_ON
-	if(EASE_TOGGLE) then
+	if (EASE_TOGGLE) then
 		EaseUI.EaseY(Content, 0, EASING_DURATION, EASING_EQUATION_IN, EASING_DIRECTION_IN)
 	end
 end
@@ -355,20 +397,25 @@ end
 function ForceOff()
 	isVisible = false
 
-	if(EASE_TOGGLE) then
+	if (EASE_TOGGLE) then
 		EaseUI.EaseY(Content, -1500, EASING_DURATION, EASING_EQUATION_OUT, EASING_DIRECTION_OUT)
 
 		local task
-		task = Task.Spawn(function()
-			Task.Wait(EASING_DURATION)
+		task =
+			Task.Spawn(
+			function()
+				Task.Wait(EASING_DURATION)
 
-			if((not lastTask) or (lastTask ~= task)) then return end
-			lastTask = nil
+				if ((not lastTask) or (lastTask ~= task)) then
+					return
+				end
+				lastTask = nil
 
-			if(not isVisible) then
-				Content.visibility = Visibility.FORCE_OFF
+				if (not isVisible) then
+					Content.visibility = Visibility.FORCE_OFF
+				end
 			end
-		end)
+		)
 		lastTask = task
 	else
 		Content.visibility = Visibility.FORCE_OFF
@@ -378,7 +425,7 @@ end
 --	nil ForceToggle()
 --	Forces the visibility of the PlayerList to toggle (ON/OFF)
 function ForceToggle()
-	if(isVisible) then
+	if (isVisible) then
 		ForceOff()
 	else
 		ForceOn()
@@ -391,10 +438,10 @@ function Tick()
 	for _, player in pairs(Game.GetPlayers()) do
 		UpdatePlayer(player)
 
-		if((playerTeams[player] ~= nil) and (player.team ~= playerTeams[player])) then
+		if (playerTeams[player] ~= nil) then
 			UpdatePlayerEntry(player)
 
-			if(player == LocalPlayer) then
+			if (player == LocalPlayer) then
 				UpdateHeader()
 			end
 		end
@@ -409,20 +456,20 @@ Game.playerJoinedEvent:Connect(CreatePlayerEntry)
 Game.playerLeftEvent:Connect(DeletePlayerEntry)
 
 function EventConnection()
-	if(#TOGGLE_EVENT > 0) then
+	if (#TOGGLE_EVENT > 0) then
 		Events.Connect(TOGGLE_EVENT, ForceToggle)
 	end
 
-	if(#FORCE_ON_EVENT > 0) then
+	if (#FORCE_ON_EVENT > 0) then
 		Events.Connect(FORCE_ON_EVENT, ForceOn)
 	end
 
-	if(#FORCE_OFF_EVENT > 0) then
+	if (#FORCE_OFF_EVENT > 0) then
 		Events.Connect(FORCE_OFF_EVENT, ForceOff)
 	end
 
-	if(TOGGLE_BINDING) then
-		LocalPlayer.bindingReleasedEvent:Connect(OnBindingReleased)
+	if (TOGGLE_BINDING) then
+		LocalPlayer.bindingPressedEvent:Connect(OnBindingPressed)
 	end
 end
 EventConnection()
@@ -437,8 +484,8 @@ EASING_DIRECTION_OUT = EaseUI.EasingEquation[EASING_DIRECTION_OUT]
 HeaderPlayerName.text = LocalPlayer.name
 UpdateHeader()
 
-if(localPlayerTitle) then
-	if(SHOW_TITLE_ICON and localPlayerTitle.icon) then
+if (localPlayerTitle) then
+	if (SHOW_TITLE_ICON and localPlayerTitle.icon) then
 		HeaderSocialIcon:SetImage(localPlayerTitle.icon or "")
 		HeaderSocialIcon:SetColor(localPlayerTitle.iconColor or COLOR_DEFAULT)
 		HeaderSocialIcon.rotationAngle = localPlayerTitle.iconRotation or 0
@@ -448,7 +495,7 @@ if(localPlayerTitle) then
 		HeaderSocialPrefix.x = HeaderSocialPrefix.x + 20 + 8
 	end
 
-	if(SHOW_TITLE_PREFIX) then
+	if (SHOW_TITLE_PREFIX) then
 		HeaderSocialPrefix.text = localPlayerTitle.prefix or ""
 		HeaderSocialPrefix:SetColor(localPlayerTitle.prefixColor or COLOR_DEFAULT)
 	else
@@ -458,15 +505,12 @@ else
 	HeaderSocialPrefix.text = "Player"
 end
 
-
-
 for i = #LEADERBOARD_STATS, 1, -1 do
 	stat = LEADERBOARD_STATS[i]
-	if(stat:GetCustomProperty("StatEnabled")) then
+	if (stat:GetCustomProperty("StatEnabled")) then
 		CreateHeaderLeaderstat(stat.name, stat:GetCustomProperty("StatType"), stat:GetCustomProperty("StatResource"))
 	end
 end
-
 
 --[[ if(LEADERSTAT_ONE_ENABLED) then
 	CreateHeaderLeaderstat(LEADERSTAT_ONE_NAME, LEADERSTAT_ONE_TYPE, LEADERSTAT_ONE_RESOURCE)

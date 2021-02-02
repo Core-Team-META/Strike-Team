@@ -12,7 +12,7 @@ end)
 
 Events.Connect("LivingStateChange",function(state)
     local player = Game.GetLocalPlayer()
-    if (state) and player:GetResource("GM.RESPAWN_ENABLED") == 1  then
+    if (state) then
         Button.visibility = Visibility.INHERIT
     else
         Button.visibility = Visibility.FORCE_OFF

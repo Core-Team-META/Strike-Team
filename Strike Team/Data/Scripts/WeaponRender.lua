@@ -43,7 +43,6 @@ end
 
 Events.Connect("UpdateLocalEquiped",SpawnObject)
 
-
 function SetHighlighted( )
 	IMAGE:SetColor(Color.New(LIGHT,LIGHT,LIGHT,.3))
 	TEXT:SetColor(Color.New(LIGHT,LIGHT,LIGHT))
