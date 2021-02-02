@@ -26,7 +26,6 @@ Objects {
   ChildIds: 855477033764406765
   ChildIds: 10987068631257938660
   ChildIds: 9325810296631144991
-  ChildIds: 7100288374239800632
   ChildIds: 8854721221583934047
   ChildIds: 9437627509173326651
   ChildIds: 3028148353224451936
@@ -1845,43 +1844,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7100288374239800632
-  Name: "Nature Tree Leaves Rustle Rustling 01 SFX"
-  Transform {
-    Location {
-      X: 7427.42725
-      Y: 4185.78369
-      Z: 21.0228729
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 15154267093380043350
-    }
-    AutoPlay: true
-    Volume: 1
-    Falloff: 1000
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
   Id: 9325810296631144991
   Name: "Large Room Tone Loop 01 SFX"
   Transform {
@@ -2103,7 +2065,7 @@ Objects {
       Id: 18164646649886689595
     }
     AutoPlay: true
-    Volume: 1
+    Volume: 1.2
     Falloff: -1
     Radius: -1
   }
