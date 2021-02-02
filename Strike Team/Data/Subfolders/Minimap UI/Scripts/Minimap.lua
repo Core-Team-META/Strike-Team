@@ -202,7 +202,7 @@ end
 function RemoveItem(Item)
 	for index,value in pairs(script.clientUserData.Items) do
 		if value == Item then 
-			if Object.IsValid( Item.clientUserData.UIimage) then
+			if Object.IsValid(Item.clientUserData.UIimage) then
 				Item.clientUserData.UIimage:Destroy()
 			end
 			table.remove(script.clientUserData.Items, index) 
@@ -242,3 +242,4 @@ end
 
 Events.Connect("Minimap.AddItem",AddItem)
 Events.Connect("Minimap.RemoveItem",RemoveItem)
+Events.Connect("Minimap.UpdateItem",UpdateItem)
