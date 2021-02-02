@@ -39,11 +39,15 @@ local points = {}
 ------------------------------------------------------------------------------------------------------------------------
 
 local function AddNewPoints()
+    Task.Wait(0.2)
     for _, interest in ipairs(SPAWNED_OBJECTS:GetChildren()) do
-        local shouldShow = interest:GetCustomProperty("ShouldShow")
-        local INTEREST_ICON = interest:GetCustomProperty("POI")
-        if shouldShow and INTEREST_ICON and not points[interest] then
-            points[interest] = World.SpawnAsset(INTEREST_ICON, {parent = CONTAINER})
+        if not points[interest] then
+            local shouldShow = interest:GetCustomProperty("ShouldShow")
+            local INTEREST_ICON = interest:GetCustomProperty("POI")
+            if shouldShow and INTEREST_ICON then
+                points[interest] = World.SpawnAsset(INTEREST_ICON, {parent = CONTAINER})
+                points[interest].visibility = Visibility.INHERIT
+            end
         end
     end
 end
@@ -58,7 +62,6 @@ local function RemovePoint(object)
 end
 
 local function SetTeamColor(point, indicator)
-
     local ICON = indicator:GetCustomProperty("ICON"):WaitForObject()
     local BOARDER = indicator:GetCustomProperty("BOARDER"):WaitForObject()
     local pointTeam = point.team
@@ -76,7 +79,6 @@ local function SetTeamColor(point, indicator)
         ICON.team = 0
         BOARDER.team = 0
     end
-    
 end
 
 local function UpdatePoint(point, indicator)
@@ -111,7 +113,6 @@ local function UpdatePoint(point, indicator)
         indicator.y = screenSize.y / 2 - MARGIN
     end
     SetTeamColor(point, indicator)
-    points[point].visibility = Visibility.INHERIT
 end
 
 ------------------------------------------------------------------------------------------------------------------------
