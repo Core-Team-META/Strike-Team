@@ -36,6 +36,12 @@ Assets {
             Bool: true
           }
           Overrides {
+            Name: "cs:POI"
+            AssetReference {
+              Id: 17380857342533312084
+            }
+          }
+          Overrides {
             Name: "cs:DATA:isrep"
             Bool: true
           }

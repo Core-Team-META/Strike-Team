@@ -15,6 +15,8 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER I
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
 
+local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+
 -- Internal custom properties
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 
@@ -36,9 +38,86 @@ if MAX_TEAM_SIZE_DIFFERENCE < 1 then
     MAX_TEAM_SIZE_DIFFERENCE = 1
 end
 
+
+local function ChangePlayerTeam(player)
+	local teamSizes = {}
+
+	for i = 1, TEAM_COUNT do
+		teamSizes[i] = 0
+	end
+
+	for _, player in pairs(Game.GetPlayers()) do
+		if teamSizes[player.team] then
+			teamSizes[player.team] = teamSizes[player.team] + 1
+		end
+	end
+
+	-- Find the smallest team
+	local smallestTeam = nil
+	local smallestTeamSize = nil
+
+	for team, size in pairs(teamSizes) do
+		if not smallestTeamSize or size < smallestTeamSize then
+			smallestTeam = team
+			smallestTeamSize = size
+		end
+	end
+	player.team = smallestTeam
+end
+
+-- nil OnRoundEnd()
+-- Scrambles the teams if the creator wants
+function OnRoundEnd(changeTeams)
+	if not changeTeams  then
+		return
+	end
+
+	local unassignedPlayers = Game.GetPlayers()
+	local unassignedPlayerCount = #unassignedPlayers
+	local minTeamSize = unassignedPlayerCount // TEAM_COUNT
+
+	-- Fill up teams to their minimum sizes
+	for team = 1, TEAM_COUNT do
+		for i = 1, minTeamSize do
+			local player = table.remove(unassignedPlayers, math.random(unassignedPlayerCount))
+			player.team = team
+			unassignedPlayerCount = unassignedPlayerCount - 1
+		end
+	end
+
+	-- Assign the remaining players, making sure not to put two on the same team
+	local usedTeams = {}
+
+	for i = 1, unassignedPlayerCount do
+		local player = unassignedPlayers[i]
+		local team = 0
+
+		while usedTeams[team] or team == 0 do
+			team = math.random(TEAM_COUNT)
+		end
+
+		usedTeams[team] = true
+		player.team = team
+	end
+end
+
+function OnGameStateChanged(oldState, newState, hasDuration, time)
+    if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
+        OnRoundEnd(true)
+    end
+end
+
+
+function OnPlayerJoined(player)
+	ChangePlayerTeam(player)
+end
+
 -- nil Tick(float)
 -- Watch team sizes and enforce autobalance. We only switch one player per frame.
 function Tick(deltaTime)
+	if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+		return
+	end
 	local teamSizes = {}
 
 	for i = 1, TEAM_COUNT do
@@ -97,41 +176,9 @@ function Tick(deltaTime)
 	end
 end
 
--- nil OnRoundEnd()
--- Scrambles the teams if the creator wants
-function OnRoundEnd()
-	if not SCRAMBLE_AT_ROUND_END then
-		return
-	end
 
-	local unassignedPlayers = Game.GetPlayers()
-	local unassignedPlayerCount = #unassignedPlayers
-	local minTeamSize = unassignedPlayerCount // TEAM_COUNT
-
-	-- Fill up teams to their minimum sizes
-	for team = 1, TEAM_COUNT do
-		for i = 1, minTeamSize do
-			local player = table.remove(unassignedPlayers, math.random(unassignedPlayerCount))
-			player.team = team
-			unassignedPlayerCount = unassignedPlayerCount - 1
-		end
-	end
-
-	-- Assign the remaining players, making sure not to put two on the same team
-	local usedTeams = {}
-
-	for i = 1, unassignedPlayerCount do
-		local player = unassignedPlayers[i]
-		local team = 0
-
-		while usedTeams[team] or team == 0 do
-			team = math.random(TEAM_COUNT)
-		end
-
-		usedTeams[team] = true
-		player.team = team
-	end
-end
 
 -- Initialize
 Game.roundStartEvent:Connect(OnRoundEnd)
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Events.Connect("GameStateChanged", OnGameStateChanged)

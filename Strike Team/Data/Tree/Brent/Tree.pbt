@@ -21,6 +21,7 @@ Objects {
   ChildIds: 4138500011707624131
   ChildIds: 13963835752669516336
   ChildIds: 10857687478960459655
+  ChildIds: 5767447152856169256
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
@@ -35,6 +36,32 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5767447152856169256
+  Name: "Point Indicator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16621625458669976284
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Point Indicator"
   }
 }
 Objects {
