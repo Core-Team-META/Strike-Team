@@ -32,7 +32,7 @@ local scoreLimit
 ------------------------------------------------------------------------------------------------------------------------
 
 local function SetRespawnFlag(player)
-    if currentGameTypeId > 0 and GT_API.GetShouldRespawn(currentGameTypeId) then
+    if currentGameTypeId and currentGameTypeId > 0 and GT_API.GetShouldRespawn(currentGameTypeId) then
         player:SetResource("GM.RESPAWN_ENABLED", 1)
     else
         player:SetResource("GM.RESPAWN_ENABLED", 0)
@@ -103,7 +103,7 @@ function Tick(deltaTime)
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND and currentGameTypeId > 0 then
         local winningTeam = nil
         for i = 0, 4 do
-            if Game.GetTeamScore(i) >= currentGameInfo.score then
+            if Game.GetTeamScore(i) >= GT_API.GetCurrentScoreLimit(currentGameTypeId) then
                 if winningTeam then
                     Events.Broadcast("TieVictory")
                     ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)

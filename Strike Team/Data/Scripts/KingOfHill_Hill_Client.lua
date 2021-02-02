@@ -47,10 +47,11 @@ function OnNetworkChanged(object, string)
             flagPos.z = 480 + ((data[PROGRESS] - lastProgress) * 2)
         elseif data[PROGRESS] == 100 then
             flagPos.z = 645
-
+            Events.Broadcast("Minimap.UpdateItem", ROOT, FLAG.team)
         elseif lastProgress > data[PROGRESS] and data[PROGRESS] > 0 then
             flagPos.z = 480 - ((lastProgress - data[PROGRESS]) * 2)
         elseif data[PROGRESS] == 0 then
+            Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
             flagPos.z = 480
         end
         FLAG:SetPosition(flagPos)

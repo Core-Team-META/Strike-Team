@@ -212,6 +212,21 @@ function RemoveItem(Item)
 end
 
 
+
+function UpdateItem(Item, team)
+	for index,value in pairs(script.clientUserData.Items) do
+		if value == Item then 
+			if Object.IsValid( Item.clientUserData.UIimage) then
+				Item.clientUserData.UIimage.team = team or 0
+				return 
+			end
+		end
+	end
+end
+
+
+
+
 function AddItem(Item, UIimage, team)
 	local HasImage = UIimage ~= nil
 	if not UIimage then UIimage = PLAYER_TEMPLATE end
