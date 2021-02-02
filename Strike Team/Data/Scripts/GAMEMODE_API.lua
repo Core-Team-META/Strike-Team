@@ -69,6 +69,7 @@ function API.RegisterGameTypes(list)
             local icon = gameType:GetCustomProperty("ICON")
             local shouldRespawn = gameType:GetCustomProperty("SHOULD_RESPAWN")
             local gameInfo = gameType:GetCustomProperty("GAME_INFO")
+            local hasMultiplier = gameType:GetCustomProperty("PLAYER_SCORE_MULTIPLIER")
 
             local gameTypeInfo = {
                 id = id,
@@ -78,7 +79,8 @@ function API.RegisterGameTypes(list)
                 spawn = spawnSettings,
                 icon = icon,
                 respawn = shouldRespawn,
-                info = gameInfo
+                info = gameInfo,
+                hasMultiplier = hasMultiplier
             }
             if enabled then
                 gameTypeList[id] = gameTypeInfo
@@ -119,7 +121,12 @@ function API.GetCurrentScoreLimit(id)
         warn("Game Mode Score Limit Doesn't Exsist")
         return nil
     end
-    return gameTypeList[id].score
+    local scoreLimit = gameTypeList[id].score
+    if gameTypeList[id].hasMultiplier then
+        local players = Game.GetPlayers()
+        scoreLimit = CoreMath.Round(gameTypeList[id].score * #players)
+    end
+    return scoreLimit
 end
 
 function API.GetPointsPerObjective(id)
