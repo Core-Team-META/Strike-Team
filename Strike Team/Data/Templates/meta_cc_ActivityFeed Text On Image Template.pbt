@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 11013752462242932162
+        ChildIds: 13108948165720922713
         ChildIds: 5160837567682101239
         ChildIds: 13978468043225444350
         UnregisteredParameters {
@@ -105,11 +106,11 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 3827265796245897469
             }
             Color {
-              R: 1
-              G: 0.119205296
-              A: 0.347
+              G: 0.328125
+              A: 1
             }
             TeamSettings {
             }
@@ -163,7 +164,6 @@ Assets {
             Color {
               R: 1
               G: 0.541187048
-              A: 0.896
             }
             TeamSettings {
             }
@@ -215,8 +215,7 @@ Assets {
             Brush {
             }
             Color {
-              R: 1
-              G: 0.541187048
+              G: 1
               A: 0.896
             }
             TeamSettings {
@@ -267,10 +266,10 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 3827265796245897469
             }
             Color {
-              R: 1
-              G: 0.541187048
+              G: 1
               A: 0.896
             }
             TeamSettings {
@@ -321,10 +320,10 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 3827265796245897469
             }
             Color {
-              R: 1
-              G: 0.541187048
+              G: 1
               A: 0.896
             }
             TeamSettings {
@@ -339,6 +338,63 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middleright"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13108948165720922713
+        Name: "FG Shadow"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16904210639392218704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 4
+          Height: 4
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 4327115782314725386
+            }
+            Color {
+              R: 0.98
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -379,7 +435,7 @@ Assets {
               Id: 4327115782314725386
             }
             Color {
-              R: 0.919999957
+              R: 0.494791657
               A: 1
             }
             TeamSettings {
@@ -437,7 +493,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 17
+            Size: 14
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -456,6 +512,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 3827265796245897469
+      Name: "BG Highlighted 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundHighlighted_020"
       }
     }
     Assets {

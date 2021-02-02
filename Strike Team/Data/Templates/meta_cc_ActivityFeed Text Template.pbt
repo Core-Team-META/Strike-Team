@@ -365,7 +365,6 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "Text"
             Color {
               R: 1
               G: 1

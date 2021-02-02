@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15266094661921614944
+  Name: "Center Circle 001 Outline"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterCircle_001Outline"
+  }
+}
+Assets {
   Id: 11392861163801782500
   Name: "Icon Globe"
   PlatformAssetType: 9
@@ -149,5 +158,14 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_WeaponShotgun"
+  }
+}
+Assets {
+  Id: 862293722485719557
+  Name: "Target"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Target"
   }
 }

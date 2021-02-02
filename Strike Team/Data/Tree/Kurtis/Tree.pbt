@@ -823,7 +823,7 @@ Objects {
     }
     Overrides {
       Name: "cs:GapBetweenElements"
-      Int: 10
+      Int: 5
     }
     Overrides {
       Name: "cs:NumLines:tooltip"

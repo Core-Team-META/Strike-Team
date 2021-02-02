@@ -25,6 +25,8 @@ Objects {
   ChildIds: 7666426452109523765
   ChildIds: 9151753919777912365
   ChildIds: 14036186774430242210
+  ChildIds: 8492026800449626092
+  ChildIds: 12214316915154114550
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +36,158 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12214316915154114550
+  Name: "meta_cc_ActivityFeed Text On Image Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 218614195574807567
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 1814707273787853473
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3655662632829640821
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 1814707273787853473
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9703605412326851623
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 1814707273787853473
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11013752462242932162
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 1814707273787853473
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16904210639392218704
+      value {
+        Overrides {
+          Name: "Name"
+          String: "meta_cc_ActivityFeed Text On Image Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18163772196569991249
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 1814707273787853473
+          }
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 1
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 617953855496229238
+    }
+  }
+}
+Objects {
+  Id: 8492026800449626092
+  Name: "TestKillFeed"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 650771232788281887
+    }
   }
 }
 Objects {

@@ -23,7 +23,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 15918351247767818628
+        Id: 9384520849142346961
       }
     }
     Overrides {
@@ -309,7 +309,7 @@ Objects {
 }
 Objects {
   Id: 5179124286163218948
-  Name: "Player Joined"
+  Name: "PlayerJoined"
   Transform {
     Location {
     }
@@ -407,7 +407,7 @@ Objects {
 }
 Objects {
   Id: 10773252250967993722
-  Name: "Player Left"
+  Name: "PlayerLeft"
   Transform {
     Location {
     }
@@ -458,7 +458,7 @@ Objects {
 }
 Objects {
   Id: 8658487432453620463
-  Name: "World Kills"
+  Name: "WorldKill"
   Transform {
     Location {
     }
@@ -969,7 +969,7 @@ Objects {
 }
 Objects {
   Id: 18074567123639543237
-  Name: "Rocket"
+  Name: "Manticore (Rocket)"
   Transform {
     Location {
     }
@@ -1071,7 +1071,7 @@ Objects {
 }
 Objects {
   Id: 15760093634648187675
-  Name: "hk99"
+  Name: "HK99"
   Transform {
     Location {
     }
@@ -1122,7 +1122,7 @@ Objects {
 }
 Objects {
   Id: 4003583421109603923
-  Name: "Headshots"
+  Name: "Headshot"
   Transform {
     Location {
     }
@@ -1153,6 +1153,25 @@ Objects {
         G: 1
         B: 1
         A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 15266094661921614944
+      }
+    }
+    Overrides {
+      Name: "cs:IconFG"
+      AssetReference {
+        Id: 862293722485719557
+      }
+    }
+    Overrides {
+      Name: "cs:IconFGWidthHeight"
+      Vector2 {
+        X: -20
+        Y: -20
       }
     }
   }
