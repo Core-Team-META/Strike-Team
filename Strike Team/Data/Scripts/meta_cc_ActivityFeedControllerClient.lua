@@ -81,8 +81,6 @@ end
 
 -- TablePrint(FEED_ICONS, 5)
 
-
-
 -- Individual feed settigns
 
 -- Kill Feed
