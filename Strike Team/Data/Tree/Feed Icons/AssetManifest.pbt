@@ -26,21 +26,21 @@ Assets {
   }
 }
 Assets {
+  Id: 15778036656850063260
+  Name: "Grave"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Grave"
+  }
+}
+Assets {
   Id: 13586096600253432719
   Name: "Fantasy Craft Stone 028"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Stone_028"
-  }
-}
-Assets {
-  Id: 11392861163801782500
-  Name: "Icon Globe"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Globe"
   }
 }
 Assets {
@@ -68,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_Death"
+  }
+}
+Assets {
+  Id: 9031839549026265981
+  Name: "BG Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_015"
   }
 }
 Assets {
