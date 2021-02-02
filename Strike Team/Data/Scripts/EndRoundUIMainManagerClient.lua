@@ -85,7 +85,7 @@ function CountThisTextUp(givenText, targetNumber, increment, extra)
 	
 		--print("(task) counting " .. givenText.name .. " to " .. tostring(targetNumber))
 
-		for i = 1, targetNumber, increment do
+		for i = 1, targetNumber, targetNumber/100 do
 		
 			givenText.text = extra .. tostring(i)
 			
@@ -174,33 +174,7 @@ end
 function ShowEndRoundResults()
 	
 	Task.Wait(1)
-		
-	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
 	
-		AnimateWordText(roundResultText, "WIN")
-		CountThisTextUp(valueRoundResultText, winValue, 1, " ")
-		CountThisTextUp(cashRoundResultText, winValue, 1, "+")
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + winValue, 10, "+")
-		
-	else 
-	
-		AnimateWordText(roundResultText, "LOSS")
-		CountThisTextUp(valueRoundResultText, lossValue, 1, " ")
-		CountThisTextUp(cashRoundResultText, lossValue, 1, "+")
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + lossValue, 10, "+")
-		
-	end
-	
-	CountThisTextUp(killsText, localPlayer.kills, 1, " ")
-	CountThisTextUp(headshotsText, localPlayer:GetResource("Headshots"), 1, " ")
-	
-	CountThisTextUp(valueKillsText, killsValue, 1, " ")
-	CountThisTextUp(valueHeadshotsText, headShotValue, 1, " ")
-	
-	CountThisTextUp(cashKillsText, localPlayer.kills * killsValue, 1, "+")
-	CountThisTextUp(cashHeadshotsText, localPlayer:GetResource("Headshots") * headShotValue, 1, "+")	
-	
-
 	roundXP = localPlayerXP:GetXP() - roundXP
 
 	CountThisTextUp(gainedXPText, roundXP, 10, "+")
@@ -208,7 +182,7 @@ function ShowEndRoundResults()
 	
 	local totalLevelXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
 	
-	for i = 1, localPlayerXP:GetXPInCurrentLevel(), 10 do
+	for i = 1, localPlayerXP:GetXPInCurrentLevel(), localPlayerXP:GetXPInCurrentLevel()/100 do
 		
 		SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
 		
@@ -217,6 +191,33 @@ function ShowEndRoundResults()
 		Task.Wait(0.01)
 	
 	end
+	
+	Task.Wait(0.5)
+		
+	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
+	
+		AnimateWordText(roundResultText, "WIN")
+		CountThisTextUp(valueRoundResultText, winValue, 100, " ")
+		CountThisTextUp(cashRoundResultText, winValue, 100, "+")
+		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + winValue, 10, "+")
+		
+	else 
+	
+		AnimateWordText(roundResultText, "LOSS")
+		CountThisTextUp(valueRoundResultText, lossValue, 100, " ")
+		CountThisTextUp(cashRoundResultText, lossValue, 100, "+")
+		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + lossValue, 10, "+")
+		
+	end
+	
+	CountThisTextUp(killsText, localPlayer.kills, 100, " ")
+	CountThisTextUp(headshotsText, localPlayer:GetResource("Headshots"), 1, " ")
+	
+	CountThisTextUp(valueKillsText, killsValue, 100, " ")
+	CountThisTextUp(valueHeadshotsText, headShotValue, 1, " ")
+	
+	CountThisTextUp(cashKillsText, localPlayer.kills * killsValue, 100, "+")
+	CountThisTextUp(cashHeadshotsText, localPlayer:GetResource("Headshots") * headShotValue, 100, "+")	
 
 end
 
