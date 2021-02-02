@@ -48,6 +48,7 @@ end
 local function SetCurrentGameState(gameTypeId)
     NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", gameTypeId)
     currentGameTypeId = gameTypeId
+    Task.Wait()
     SetPlayersRespawn()
 end
 

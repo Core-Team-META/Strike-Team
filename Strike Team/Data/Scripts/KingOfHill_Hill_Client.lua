@@ -5,7 +5,7 @@ until GT_API
 
 local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
-local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
+--local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
 local flagPos = FLAG:GetPosition()
@@ -22,7 +22,7 @@ local function GetData()
 end
 
 local function UpdateProgress(currentProgress)
-    PROGRESS_BAR.progress = currentProgress / MAX_PROGRESS
+   -- PROGRESS_BAR.progress = currentProgress / MAX_PROGRESS
 end
 
 function OnNetworkChanged(object, string)
@@ -57,7 +57,7 @@ function OnNetworkChanged(object, string)
         end
         FLAG:SetPosition(flagPos)
         flagPos = FLAG:GetPosition()
-        UpdateProgress(data[PROGRESS])
+        --UpdateProgress(data[PROGRESS])
     end
 end
 

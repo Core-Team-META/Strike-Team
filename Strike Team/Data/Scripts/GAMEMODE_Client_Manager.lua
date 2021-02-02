@@ -50,12 +50,13 @@ function Int()
 end
 
 function OnChildAdded(root, object)
-    Task.Wait(0.1)
-    local shouldShow = object:GetCustomProperty("ShouldShow")
-    local team = object:GetCustomProperty("TEAM") or 0
-    local image = object:GetCustomProperty("IMAGE") or TEMPLATE
-    if shouldShow then
-        Events.Broadcast("Minimap.AddItem", object, image, team)
+    if Object.IsValid(object) then
+        local shouldShow = object:GetCustomProperty("ShouldShow")
+        local team = object:GetCustomProperty("TEAM") or 0
+        local image = object:GetCustomProperty("IMAGE") or TEMPLATE
+        if shouldShow then
+            Events.Broadcast("Minimap.AddItem", object, image, team)
+        end
     end
 end
 

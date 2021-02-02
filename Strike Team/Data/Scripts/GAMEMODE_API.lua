@@ -401,8 +401,3 @@ function API.BroadcastObjectiveSpawned(object, position)
     Events.Broadcast(NAMESPACE.S_SPAWN_OBJECTIVE, object, position)
 end
 
---@param object object
---@param vector3 position
-function API.BroadcastObjectiveSpawned(object, position)
-    Events.Broadcast(NAMESPACE.S_SPAWN_OBJECTIVE, object, position)
-end

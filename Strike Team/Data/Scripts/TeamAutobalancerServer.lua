@@ -14,7 +14,6 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
-
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
 -- Internal custom properties
@@ -29,15 +28,14 @@ local SCRAMBLE_AT_ROUND_END = COMPONENT_ROOT:GetCustomProperty("ScrambleAtRoundE
 
 -- Check user properties
 if TEAM_COUNT < 2 or TEAM_COUNT > 4 then
-    warn("TeamCount must be in the range [2, 4]")
-    TEAM_COUNT = 2
+	warn("TeamCount must be in the range [2, 4]")
+	TEAM_COUNT = 2
 end
 
 if MAX_TEAM_SIZE_DIFFERENCE < 1 then
-    warn("MaxTeamSizeDifference must be positive")
-    MAX_TEAM_SIZE_DIFFERENCE = 1
+	warn("MaxTeamSizeDifference must be positive")
+	MAX_TEAM_SIZE_DIFFERENCE = 1
 end
-
 
 local function ChangePlayerTeam(player)
 	local teamSizes = {}
@@ -68,7 +66,7 @@ end
 -- nil OnRoundEnd()
 -- Scrambles the teams if the creator wants
 function OnRoundEnd(changeTeams)
-	if not changeTeams  then
+	if not changeTeams then
 		return
 	end
 
@@ -102,11 +100,10 @@ function OnRoundEnd(changeTeams)
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
-    if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
-        OnRoundEnd(true)
-    end
+	if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
+		OnRoundEnd(true)
+	end
 end
-
 
 function OnPlayerJoined(player)
 	ChangePlayerTeam(player)
@@ -175,8 +172,6 @@ function Tick(deltaTime)
 		end
 	end
 end
-
-
 
 -- Initialize
 Game.roundStartEvent:Connect(OnRoundEnd)

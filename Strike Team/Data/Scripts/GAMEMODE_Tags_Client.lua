@@ -1,3 +1,5 @@
+local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+
 local AMMOUNT = script:GetCustomProperty("AMMOUNT"):WaitForObject()
 local UIPanel = script:GetCustomProperty("UIPanel"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -19,16 +21,16 @@ function Tick()
     Task.Wait(1)
 end
 
-
 function OnResourceChanged(player, resName, resAmt)
-    if player == LOCAL_PLAYER and resName == "GM.TAGS" then
-        if resAmt > 0 then
-            World.SpawnAsset(PICKUP_SFX, {position = player:GetWorldPosition()})
-        elseif resAmt == 0 then
-            World.SpawnAsset(TURN_IN_SFX, {position = player:GetWorldPosition()})
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+        if player == LOCAL_PLAYER and resName == "GM.TAGS" then
+            if resAmt > 0 then
+                World.SpawnAsset(PICKUP_SFX, {position = player:GetWorldPosition()})
+            elseif resAmt == 0 then
+                World.SpawnAsset(TURN_IN_SFX, {position = player:GetWorldPosition()})
+            end
         end
     end
 end
-
 
 LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
