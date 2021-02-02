@@ -1,4 +1,4 @@
-﻿Commands = {}
+Commands = {}
 
 function ReturnPlayerByName(string)  
     if not string then return end
