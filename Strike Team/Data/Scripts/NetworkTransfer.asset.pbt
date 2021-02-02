@@ -41,6 +41,10 @@ Assets {
         String: ""
       }
       Overrides {
+        Name: "cs:EquippedLoadout"
+        String: ""
+      }
+      Overrides {
         Name: "cs:Loadouts1:isrep"
         Bool: true
       }
@@ -74,6 +78,10 @@ Assets {
       }
       Overrides {
         Name: "cs:SkinStorage:isrep"
+        Bool: true
+      }
+      Overrides {
+        Name: "cs:EquippedLoadout:isrep"
         Bool: true
       }
     }

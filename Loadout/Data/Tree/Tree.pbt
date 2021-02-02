@@ -29,6 +29,7 @@ Objects {
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
   ChildIds: 11909944240055752873
+  ChildIds: 4844186550665608289
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +39,104 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4844186550665608289
+  Name: "Static Player Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 5408501193173913126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 14794282669603087959
+      }
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:EquipmentTemplate:tooltip"
+      String: "Equipment template to give to players"
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "If non-zero, only give equipment to players on that team"
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn:tooltip"
+      String: "Whether to replace that equipment every time a player spawns"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4844186550665608289
+    SubobjectId: 16657464430720987128
+    InstanceId: 11092880014026289573
+    TemplateId: 9718897046451062113
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 5408501193173913126
+  Name: "StaticPlayerEquipmentServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4844186550665608289
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 4844186550665608289
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3403025055362370891
+    }
+  }
+  InstanceHistory {
+    SelfId: 5408501193173913126
+    SubobjectId: 17230748584674696639
+    InstanceId: 11092880014026289573
+    TemplateId: 9718897046451062113
   }
 }
 Objects {

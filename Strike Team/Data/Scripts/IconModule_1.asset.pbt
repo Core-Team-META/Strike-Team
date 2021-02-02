@@ -14,6 +14,28 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:UseBGShadow"
+        Bool: true
+      }
+      Overrides {
+        Name: "cs:IconBGShadow"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:IconBGShadowColor"
+        Color {
+          R: 0.9
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:IconBGShadowWidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
         Name: "cs:IconBG"
         AssetReference {
           Id: 841534158063459245
@@ -22,8 +44,18 @@ Assets {
       Overrides {
         Name: "cs:IconBGColor"
         Color {
-          R: 0.88
+          R: 0.169999957
           A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:IconBGOffset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:IconBGWidthHeight"
+        Vector2 {
         }
       }
       Overrides {
@@ -39,6 +71,16 @@ Assets {
           G: 1
           B: 1
           A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:IconOffset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:IconWidthHeight"
+        Vector2 {
         }
       }
       Overrides {
@@ -70,8 +112,12 @@ Assets {
       Overrides {
         Name: "cs:IconShadowColor"
         Color {
-          A: 1
+          A: 0.880000055
         }
+      }
+      Overrides {
+        Name: "cs:IconShadowSize"
+        Int: 3
       }
       Overrides {
         Name: "cs:Name:tooltip"

@@ -78,7 +78,6 @@ function OnGameTypeStart(id)
         --#TODO Can be rewritten into single API function
         GT_API.CleanUp(SPAWNED_OBJECTS)
         GT_API.SpawnAsset(GT_API.GetRespawnSettings(myId), {parent = SPAWNED_OBJECTS})
-        SpawnNewHill()
     end
 end
 
@@ -105,6 +104,10 @@ function OnGameTypeChanged(object, string)
     end
 end
 
+function OnGameStart()
+    SpawnNewHill()
+end
+
 function Int()
     for _, object in ipairs(HILL_MARKERS:GetChildren()) do
         hillPositions[#hillPositions + 1] = object:GetWorldPosition()
@@ -115,6 +118,7 @@ end
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
 Int()
+Events.Connect("GM.START"..tostring(myId), OnGameStart)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(Cleanup)
 print("Initialized GameType Server " .. myId)

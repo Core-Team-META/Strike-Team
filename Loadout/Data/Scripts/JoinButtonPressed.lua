@@ -2,6 +2,6 @@
 local TEXT_BOX = script:GetCustomProperty("TEXT_BOX"):WaitForObject()
 
 Join_Match.pressedEvent:Connect(function(player)
-    Events.BroadcastToServer("RequestToJoinMatch", Game.GetLocalPlayer())
+    Events.Broadcast("JoinGame")
     TEXT_BOX.text = "Joining..."
 end)

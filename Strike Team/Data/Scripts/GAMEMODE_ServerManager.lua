@@ -45,14 +45,14 @@ local function SetPlayersRespawn()
     end
 end
 
-local function SetCurrentGameState(gameTypeId)
+local function SetCurrentGameId(gameTypeId)
     NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", gameTypeId)
     currentGameTypeId = gameTypeId
     Task.Wait()
     SetPlayersRespawn()
 end
 
-local function GetCurrentGameState()
+local function GetCurrentGameId()
     currentGameTypeId = NETWORKED:GetCustomProperty("GAME_TYPE_ID")
     currentGameInfo = GT_API.GetGameTypeInfo(currentGameTypeId)
     return currentGameTypeId
@@ -60,7 +60,7 @@ end
 
 local function OnGameTypeChanged(object, string)
     if object == NETWORKED then
-        GetCurrentGameState()
+        GetCurrentGameId()
     end
 end
 
@@ -73,7 +73,7 @@ function Int()
     gameTypes = GT_API.GetGameTypeList()
     currentGameInfo = GT_API.GetGameTypeInfo(DEFAULT_GAME_STATE)
     Task.Wait(1)
-    SetCurrentGameState(DEFAULT_GAME_STATE)
+    SetCurrentGameId(DEFAULT_GAME_STATE)
 end
 
 -- nil OnPlayerDied(Player, Damage)
@@ -84,6 +84,22 @@ end
 -- nil OnPlayerDied(Player, Damage)
 function OnPlayerDamaged(player, damage)
     GT_API.OnPlayerDamaged(player, damage, currentGameTypeId)
+end
+
+function OnPlayerLeft(player)
+    Task.Wait() -- Wait one frame to make sure player that left is no longer in game
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+        local players = Game.GetPlayers()
+        if #players <= 1 then
+            local lastPlayer
+            for _, remainingPlayer in ipairs(players) do
+                lastPlayer = remainingPlayer
+            end
+            _G["GameWinner"] = lastPlayer.team
+            Events.Broadcast("TeamVictory", lastPlayer.team)
+            ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+        end
+    end
 end
 
 -- nil OnPlayerJoined(Player)
@@ -127,12 +143,13 @@ end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
-        SetCurrentGameState(0) -- Used to reset Game Modes
+        SetCurrentGameId(0) -- Used to reset Game Modes
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
-        local currentState = GetCurrentGameState()
+        local currentState = GetCurrentGameId()
         if currentState > 0 then
             Events.BroadcastToAllPlayers("BannerMessage", nil, 5, currentState)
+            Events.Broadcast("GM.START" .. tostring(currentState))
         end
     end
 end
@@ -141,6 +158,7 @@ end
 -- INTALIZATION
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Game.playerLeftEvent:Connect(OnPlayerLeft)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Int()

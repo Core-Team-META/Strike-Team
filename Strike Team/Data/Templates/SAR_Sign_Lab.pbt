@@ -11,7 +11,7 @@ Assets {
         Transform {
           Scale {
             X: 0.3
-            Y: 0.3
+            Y: -0.3
             Z: 0.3
           }
         }
@@ -93,6 +93,8 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
           StaticMesh {
             Physics {
             }

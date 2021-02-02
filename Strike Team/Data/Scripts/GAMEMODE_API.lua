@@ -110,7 +110,7 @@ function API.GetGameTypeName(id)
         warn("Game Mode Name Doesn't Exsist")
         return nil
     end
-    if id == 0 then
+    if not id or id == 0 then
         return ""
     end
     return gameTypeList[id].name
