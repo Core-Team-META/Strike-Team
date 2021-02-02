@@ -10,13 +10,14 @@ Assets {
         Name: "SAR_Flourescent Light "
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.643666625
+            Y: 0.643666625
+            Z: 0.643666625
           }
         }
         ParentId: 16373807130785117515
         ChildIds: 5607356318896918997
+        ChildIds: 770691676729219532
         ChildIds: 3900514121880036075
         ChildIds: 17886886293274361244
         ChildIds: 13100955410209686718
@@ -38,7 +39,7 @@ Assets {
         Name: "Electricity Light Buzzing Loop 01 SFX"
         Transform {
           Location {
-            Z: -15
+            Z: -72.0364075
           }
           Rotation {
             Yaw: 44.9999924
@@ -60,9 +61,46 @@ Assets {
           AudioAsset {
             Id: 16142492781514315346
           }
-          Volume: 0.203453198
-          Falloff: 1000
-          Radius: -1
+          AutoPlay: true
+          Repeat: true
+          Volume: 0.210345298
+          Falloff: 200
+          Radius: 550
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 770691676729219532
+        Name: "Electricity Neon Light Humming Buzzing Loop 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.55359924
+            Y: 1.55359924
+            Z: 1.55359924
+          }
+        }
+        ParentId: 5115756929945128663
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 16349471502161833087
+          }
+          AutoPlay: true
+          Repeat: true
+          Volume: 0.27
+          Falloff: 300
+          Radius: 610
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -686,6 +724,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_electricity_light_buzzing_loop_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 16349471502161833087
+      Name: "Electricity Neon Light Humming Buzzing Loop 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_electricity_neon_light_humming_buzzing_loop_01_Cue_ref"
       }
     }
     Assets {

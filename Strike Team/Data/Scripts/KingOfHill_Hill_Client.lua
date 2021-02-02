@@ -8,6 +8,7 @@ local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
 --local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
+local ChopSpot = script:GetCustomProperty("ChopSpot"):WaitForObject()
 local flagPos = FLAG:GetPosition()
 local currentTeam = 0
 local MAX_PROGRESS = 100
@@ -35,13 +36,13 @@ function OnNetworkChanged(object, string)
             currentTeam = data[TEAM]
         end
         if data[TEAM] > 0 and data[PROGRESS] >= 0 then
-            --FLAG.isTeamColorUsed = true
+            ChopSpot.isTeamColorUsed = true
             EDGE.isTeamColorUsed = true
-            --FLAG.team = data[TEAM]
+            ChopSpot.team = data[TEAM]
             EDGE.team = data[TEAM]
-            Events.Broadcast("Minimap.UpdateItem", ROOT, FLAG.team)
+            Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
         else
-            --FLAG.isTeamColorUsed = false
+            ChopSpot.isTeamColorUsed = false
             EDGE.isTeamColorUsed = false
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
