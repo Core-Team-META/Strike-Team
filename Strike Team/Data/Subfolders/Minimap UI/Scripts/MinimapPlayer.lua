@@ -5,8 +5,8 @@ local NAME = script:GetCustomProperty("Name"):WaitForObject()
 local DEAD = script:GetCustomProperty("Dead"):WaitForObject()
 local DIRECTION_ROOT = script:GetCustomProperty("DirectionRoot"):WaitForObject()
 local ARROW = script:GetCustomProperty("Arrow"):WaitForObject()
-local LOCAL_PLAYER_BOARDER = script:GetCustomProperty("LOCAL_PLAYER_BOARDER"):WaitForObject()
-local LOCAL_PLAYER = Game.GetLocalPlayer
+local LOCAL_PLAYER_BOARDER= script:GetCustomProperty("LOCAL_PLAYER_BOARDER"):WaitForObject()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 ROOT.visibility = Visibility.FORCE_OFF
 
 local myPlayer = nil
@@ -18,9 +18,9 @@ function SetPlayer(player)
 
 	ROOT.visibility = Visibility.INHERIT
 
-	CIRCLE_BG.isEnabled = (player == Game.GetLocalPlayer())
-	CIRCLE.isTeamColorUsed = not (player == Game.GetLocalPlayer())
-	if player == Game.GetLocalPlayer() then
+	CIRCLE_BG.isEnabled = (player == LOCAL_PLAYER)
+	CIRCLE.isTeamColorUsed = not (player == LOCAL_PLAYER)
+	if player == LOCAL_PLAYER then
 		LOCAL_PLAYER_BOARDER.visibility = Visibility.FORCE_ON
 	end
 	-- Set player's initial name letter

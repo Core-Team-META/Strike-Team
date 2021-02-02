@@ -15,9 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 15538822859928374011
         ChildIds: 5272210985794039454
         ChildIds: 5759336645188000755
+        ChildIds: 3311712105490709
         ChildIds: 14185852490345710174
         ChildIds: 8263424786566123171
         ChildIds: 13442765102198107866
@@ -103,6 +104,12 @@ Assets {
               SubObjectId: 4774958590898561506
             }
           }
+          Overrides {
+            Name: "cs:LOCAL_PLAYER_BOARDER"
+            ObjectReference {
+              SubObjectId: 3311712105490709
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -163,6 +170,69 @@ Assets {
             }
             TeamSettings {
               UseTeamColor: true
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3311712105490709
+        Name: "LOCAL_PLAYER_BOARDER"
+        Transform {
+          Location {
+            X: 0.000345267239
+            Y: -0.00241686893
+          }
+          Rotation {
+            Yaw: 6.83018879e-06
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13851484905233708050
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 5
+          Height: 5
+          UIX: -2.5
+          UIY: -2.5
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 15266094661921614944
+            }
+            Color {
+              R: 0.78
+              G: 0.464900672
+              A: 1
+            }
+            TeamSettings {
             }
           }
           AnchorLayout {
@@ -536,6 +606,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "CenterCircle_001"
+      }
+    }
+    Assets {
+      Id: 15266094661921614944
+      Name: "Center Circle 001 Outline"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "CenterCircle_001Outline"
       }
     }
     Assets {
