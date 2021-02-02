@@ -88,7 +88,7 @@ local function UpdatePoint(point, indicator)
     local playerToPoint = pointPos - playerPos
     local distanceSq = playerToPoint.sizeSquared
     local screenSize = UI.GetScreenSize()
-
+    points[point].visibility = Visibility.FORCE_ON
     if distanceSq > MAX_VIEW_DISTANCE_SQ or distanceSq < MIN_VIEW_DISTANCE_SQ then
         points[point].visibility = Visibility.FORCE_OFF
         return

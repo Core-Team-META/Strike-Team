@@ -61,6 +61,7 @@ local function ChangePlayerTeam(player)
 		end
 	end
 	player.team = smallestTeam
+	player:Respawn()
 end
 
 -- nil OnRoundEnd()
@@ -96,6 +97,7 @@ function OnRoundEnd(changeTeams)
 
 		usedTeams[team] = true
 		player.team = team
+		player:Respawn()
 	end
 end
 
