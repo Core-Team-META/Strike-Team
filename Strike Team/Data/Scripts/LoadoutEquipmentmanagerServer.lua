@@ -71,6 +71,7 @@ function EquipPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if( not Data["Loadouts"] ) then Data = FullSetup(player) end
     player.serverUserData.Weapons = {}
+    
     local EquipString = GetSlot(player,tostring( player:GetResource("EquipSlot")))
     equipItem(player,EquipString,"Primary")
     equipItem(player,EquipString,"Secondary")
@@ -90,14 +91,14 @@ function EquipPlayer(player)
     Task.Wait()
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
 
-    
+    Task.Spawn(function() 
+        while not player.serverUserData.NetworkSpawn do Task.Wait() end
+        player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("EquippedLoadout", EquipString)
+    end)
 
-    ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", EquipString)
+   -- ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", EquipString)
 end
 
-function GetString(player)
-    ReliableEvents.BroadcastToPlayer(player,"UpdateLocalEquiped", GetSlot(player,tostring( player:GetResource("EquipSlot"))))
-end
 
 function RequestData(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
@@ -135,8 +136,6 @@ Events.ConnectForPlayer("EquipSlot",function ( player,slot)
     UnequipPlayer(player)
     EquipPlayer(player)
 end)
-
-Events.ConnectForPlayer("GetString", GetString)
 
 Game.playerJoinedEvent:Connect(function (player )
     SetupPlayer(player)

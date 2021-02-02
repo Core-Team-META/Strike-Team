@@ -1,10 +1,10 @@
 Assets {
-  Id: 17500049575933404364
-  Name: "Stat"
+  Id: 6802904793820259845
+  Name: "SkinStorage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "620c4217262d4eb9ad914cecc90e65e1"
+      Key: "673d2761ec9b45a5a03c5970e423c582"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12778912323373063402
-  Name: "Storage"
+  Id: 6578180671731962279
+  Name: "SniperDutyLoadout2"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "37aaae07876c4509bd0c1858492798dc"
+      Key: "5be15c17d2bd439b849671003cc6f3d5"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -43,12 +43,12 @@ Assets {
   }
 }
 Assets {
-  Id: 566442701859588290
-  Name: "Weapons"
+  Id: 564494024560650705
+  Name: "data"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "e5b0a123233e4117aa5d09b213df9522"
+      Key: "f0ab80a9a08b49149a80fb3cf1a41ea6"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
