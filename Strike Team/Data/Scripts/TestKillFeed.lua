@@ -42,7 +42,8 @@ end
 
 function OnBindingPressed(whichPlayer, binding)
 	if (binding == "ability_extra_9") then
-		local equipment = whichPlayer:GetEquipment()[1]
+        local equipment = whichPlayer:GetEquipment()[1]
+        whichPlayer.hitPoints = math.random(1, 100)
 		Events.BroadcastToAllPlayers("PlayerKilled", whichPlayer, whichPlayer, GetShortId(equipment), math.random(1, 3))
 	end
 end

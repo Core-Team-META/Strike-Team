@@ -26,7 +26,7 @@ Objects {
   ChildIds: 9151753919777912365
   ChildIds: 14036186774430242210
   ChildIds: 8492026800449626092
-  ChildIds: 14214227450035889894
+  ChildIds: 14510515192458441303
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,8 +39,8 @@ Objects {
   }
 }
 Objects {
-  Id: 14214227450035889894
-  Name: "meta_cc_ActivityFeed Image Template"
+  Id: 14510515192458441303
+  Name: "meta_cc_ActivityFeed Text On Image Template"
   Transform {
     Scale {
       X: 1
@@ -61,7 +61,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "meta_cc_ActivityFeed Image Template"
+          String: "meta_cc_ActivityFeed Text On Image Template"
         }
         Overrides {
           Name: "Position"
@@ -76,7 +76,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 2012846568152193852
+      Id: 617953855496229238
     }
   }
 }

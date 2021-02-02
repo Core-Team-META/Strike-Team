@@ -4,6 +4,7 @@
 	by: Buckmonster
 	
 	Customizable activity feed, kills, join/leave, etc
+	
 --]]
 
 local TEXT_CALC = require(script:GetCustomProperty("GetTextLengthUTIL"))
@@ -96,6 +97,14 @@ local ICON_HEALTH = KILL_FEED_SETTINGS:GetCustomProperty("HealthIcon")
 local ICON_DISTANCE = KILL_FEED_SETTINGS:GetCustomProperty("DistanceIcon")
 local ICON_SIZE = KILL_FEED_SETTINGS:GetCustomProperty("IconSizePixels") or 40
 local GAP_SPACE = KILL_FEED_SETTINGS:GetCustomProperty("GapBetweenElements") or 10
+
+
+local HEALTH_HIGHBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGHigh")
+local HEALTH_HIGHFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGHigh")
+local HEALTH_MEDBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGMed")
+local HEALTH_MEDFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGMed")
+local HEALTH_LOWBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGLow")
+local HEALTH_LOWFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGLow")
 
 -- Check user properties
 if NUM_LINES < 1 then
@@ -312,12 +321,12 @@ function Tick(deltaTime)
 									imageBackShadow.x = feedIconExtra.IconBGOffset.x
 									imageBackShadow.y = feedIconExtra.IconBGOffset.y
 								end
+								imageBackShadow.width = feedIconExtra.IconBGShadowWidthHeight.x
+								imageBackShadow.height = feedIconExtra.IconBGShadowWidthHeight.y
 
 								if (feedIconExtra.IconBGWidthHeight.x ~= 0 or feedIconExtra.IconBGWidthHeight.y ~= 0) then
 									imageBack.width = feedIconExtra.IconBGWidthHeight.x
 									imageBack.height = feedIconExtra.IconBGWidthHeight.y
-									imageBackShadow.width = feedIconExtra.IconBGShadowWidthHeight.x
-									imageBackShadow.height = feedIconExtra.IconBGShadowWidthHeight.y
 								end
 
 								if (not imageBack:IsVisibleInHierarchy()) then
@@ -387,6 +396,18 @@ function Tick(deltaTime)
 						local image = element:FindDescendantByName("FG Image")
 						local imageShadow = element:FindDescendantByName("FG Shadow")
 						local textBox = element:FindDescendantByName("Text Box")
+
+						if (math.tointeger(lines[i].killerHP) > 75) then
+							image:SetColor(HEALTH_HIGHFG)
+							imageShadow:SetColor(HEALTH_HIGHBG)
+						elseif (math.tointeger(lines[i].killerHP) > 55) then
+							image:SetColor(HEALTH_MEDFG)
+							imageShadow:SetColor(HEALTH_MEDBG)
+						else
+							image:SetColor(HEALTH_LOWFG)
+							imageShadow:SetColor(HEALTH_LOWBG)
+						end
+
 						image:SetImage(ICON_HEALTH)
 						imageShadow:SetImage(ICON_HEALTH)
 						image.width = -5
