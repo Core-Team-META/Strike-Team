@@ -79,10 +79,6 @@ for _, icon in pairs(AF_ICONS_ALL) do
 	end
 end
 
--- TablePrint(FEED_ICONS, 5)
-
--- Individual feed settigns
-
 -- Kill Feed
 local KILL_FEED_SETTINGS = script:GetCustomProperty("KillFeedSettings"):WaitForObject()
 
@@ -181,7 +177,8 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 
 	if killerPlayer == LOCAL_PLAYER then
 		killerColor = SELF_TEXT_COLOR
-	elseif  killedPlayer == LOCAL_PLAYER then
+	end
+	if  killedPlayer == LOCAL_PLAYER then
 		killedColor = SELF_TEXT_COLOR
 	end
 
@@ -211,8 +208,6 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 			feedTable[4] = "Suicide"
 		end
 
-
-		print(script.name .. " -- EXTRA: " .. feedTable[4])
 		feedTable[5] = "" -- killer HP, default
 		feedTable[6] = "" -- Distance, default
 		feedTable[7] = killerColor
@@ -226,9 +221,9 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		end
 
 		if sourceObject then
-		AddLine(feedTable, lineColor)
+			AddLine(feedTable, lineColor)
 		else
-		AddLine(feedTable, lineColor)
+			AddLine(feedTable, lineColor)
 		end
 	end
 end
@@ -275,9 +270,90 @@ function Tick(deltaTime)
 				end
 				if (element.name == "SpecialImage") then
 					if (lines[i].killExtraCode ~= "") then
-						local image = element:FindDescendantByName("FG Image")
-						if (FEED_ICONS[lines[i].killExtraCode]) then
-							image:SetImage(FEED_ICONS[lines[i].killExtraCode].Icon)
+						local feedIconExtra = FEED_ICONS[lines[i].killExtraCode]
+						if (feedIconExtra) then
+							local image = element:FindDescendantByName("FG Image")
+							local imageShadow = element:FindDescendantByName("FG Shadow")
+							image:SetImage(feedIconExtra.Icon)
+							imageShadow:SetImage(feedIconExtra.Icon)
+							imageShadow:SetColor(feedIconExtra.IconShadowColor)
+
+							if (feedIconExtra.IconOffset.x ~= 0 or feedIconExtra.IconOffset.y ~= 0) then
+								image.x = feedIconExtra.IconOffset.x
+								image.y = feedIconExtra.IconOffset.y
+								imageShadow.x = feedIconExtra.IconOffset.x
+								imageShadow.y = feedIconExtra.IconOffset.y
+
+							end
+
+							if (feedIconExtra.IconWidthHeight.x ~= 0 or feedIconExtra.IconWidthHeight.y ~= 0) then
+								image.width = feedIconExtra.IconWidthHeight.x
+								image.height = feedIconExtra.IconWidthHeight.y
+								imageShadow.width = image.width + feedIconExtra.IconShadowSize
+								imageShadow.height = image.height + feedIconExtra.IconShadowSize
+							end
+
+							local imageBack =  element:FindDescendantByName("FG Back")
+							local imageBackShadow = element:FindDescendantByName("FG Back Shadow")
+							if (feedIconExtra.IconBG) then
+								if (feedIconExtra.IconBGShadow) then
+									imageBackShadow:SetImage(feedIconExtra.IconBGShadow)
+								else
+									imageBackShadow:SetImage(feedIconExtra.IconBG)
+								end
+								imageBackShadow:SetColor(feedIconExtra.IconBGShadowColor)
+
+								imageBack:SetImage(feedIconExtra.IconBG)
+								imageBack:SetColor(feedIconExtra.IconBGColor)
+
+								if (feedIconExtra.IconBGOffset.x ~= 0 or feedIconExtra.IconBGOffset.y ~= 0) then
+									imageBack.x = feedIconExtra.IconBGOffset.x
+									imageBack.y = feedIconExtra.IconBGOffset.y
+									imageBackShadow.x = feedIconExtra.IconBGOffset.x
+									imageBackShadow.y = feedIconExtra.IconBGOffset.y
+								end
+
+								if (feedIconExtra.IconBGWidthHeight.x ~= 0 or feedIconExtra.IconBGWidthHeight.y ~= 0) then
+									imageBack.width = feedIconExtra.IconBGWidthHeight.x
+									imageBack.height = feedIconExtra.IconBGWidthHeight.y
+									imageBackShadow.width = feedIconExtra.IconBGShadowWidthHeight.x
+									imageBackShadow.height = feedIconExtra.IconBGShadowWidthHeight.y
+								end
+
+								if (not imageBack:IsVisibleInHierarchy()) then
+									imageBack.visibility = Visibility.FORCE_ON
+									imageBackShadow.visibility = Visibility.FORCE_ON
+								end
+							else
+								if (imageBack:IsVisibleInHierarchy()) then
+									imageBack.visibility = Visibility.FORCE_OFF
+									imageBackShadow.visibility = Visibility.FORCE_OFF
+								end
+							end
+
+							local imageFront =  element:FindDescendantByName("FG Front")
+
+							if (feedIconExtra.IconFG) then
+								imageFront:SetImage(feedIconExtra.IconFG)
+								imageFront:SetColor(feedIconExtra.IconFGColor)
+
+								if (feedIconExtra.IconFGOffset.x ~= 0 or feedIconExtra.IconFGOffset.y ~= 0) then
+									imageFront.x = feedIconExtra.IconFGOffset.x
+									imageFront.y = feedIconExtra.IconFGOffset.y
+								end
+
+								if (feedIconExtra.IconFGWidthHeight.x ~= 0 or feedIconExtra.IconFGWidthHeight.y ~= 0) then
+
+									imageFront.width = feedIconExtra.IconFGWidthHeight.x
+									imageFront.height = feedIconExtra.IconFGWidthHeight.y
+								end
+
+								if (not imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_ON end
+							else
+								if (imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_OFF end
+							end
+
+
 						end
 						feedElements["SpecialImage"] = element
 						feedElements["SpecialImage"].width = ICON_SIZE -- set defaults
