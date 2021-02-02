@@ -26,7 +26,7 @@ Objects {
   ChildIds: 9151753919777912365
   ChildIds: 14036186774430242210
   ChildIds: 8492026800449626092
-  ChildIds: 12214316915154114550
+  ChildIds: 14214227450035889894
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,8 +39,8 @@ Objects {
   }
 }
 Objects {
-  Id: 12214316915154114550
-  Name: "meta_cc_ActivityFeed Text On Image Template"
+  Id: 14214227450035889894
+  Name: "meta_cc_ActivityFeed Image Template"
   Transform {
     Scale {
       X: 1
@@ -57,76 +57,11 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 218614195574807567
-      value {
-        Overrides {
-          Name: "Image"
-          AssetReference {
-            Id: 1814707273787853473
-          }
-        }
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3655662632829640821
-      value {
-        Overrides {
-          Name: "Image"
-          AssetReference {
-            Id: 1814707273787853473
-          }
-        }
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9703605412326851623
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 1
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Image"
-          AssetReference {
-            Id: 1814707273787853473
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11013752462242932162
-      value {
-        Overrides {
-          Name: "Image"
-          AssetReference {
-            Id: 1814707273787853473
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 16904210639392218704
       value {
         Overrides {
           Name: "Name"
-          String: "meta_cc_ActivityFeed Text On Image Template"
+          String: "meta_cc_ActivityFeed Image Template"
         }
         Overrides {
           Name: "Position"
@@ -140,26 +75,8 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 18163772196569991249
-      value {
-        Overrides {
-          Name: "Image"
-          AssetReference {
-            Id: 1814707273787853473
-          }
-        }
-        Overrides {
-          Name: "Color"
-          Color {
-            G: 1
-            A: 1
-          }
-        }
-      }
-    }
     TemplateAsset {
-      Id: 617953855496229238
+      Id: 2012846568152193852
     }
   }
 }
