@@ -826,6 +826,50 @@ Objects {
       Int: 5
     }
     Overrides {
+      Name: "cs:HealthColorBGHigh"
+      Color {
+        G: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorFGHigh"
+      Color {
+        G: 0.394000024
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorBGMed"
+      Color {
+        R: 0.909999967
+        G: 0.795496702
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorFGMed"
+      Color {
+        R: 0.73
+        G: 0.217549741
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorBGLow"
+      Color {
+        R: 0.9
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorFGLow"
+      Color {
+        R: 0.350000024
+        A: 1
+      }
+    }
+    Overrides {
       Name: "cs:NumLines:tooltip"
       String: "Number of lines to display"
     }
