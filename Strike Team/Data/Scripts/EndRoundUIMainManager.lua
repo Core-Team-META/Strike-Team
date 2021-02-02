@@ -14,8 +14,6 @@ local victoryEvent = endRoundManagerRoot:GetCustomProperty("UpdateWinnersEvent")
 
 local startTime = os.time()
 
-print("time: " .. tostring(startTime))
-
 function ResetWinningTeam()
 
 	script:SetNetworkedCustomProperty("WinningTeam", 0)
