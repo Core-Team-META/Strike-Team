@@ -1143,7 +1143,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 15918351247767818628
+        Id: 4447625100282739936
       }
     }
     Overrides {
@@ -1158,20 +1158,66 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 15266094661921614944
+        Id: 96162478431907100
       }
     }
     Overrides {
       Name: "cs:IconFG"
       AssetReference {
-        Id: 862293722485719557
+        Id: 13586096600253432719
       }
     }
     Overrides {
       Name: "cs:IconFGWidthHeight"
       Vector2 {
-        X: -20
-        Y: -20
+        X: -33
+        Y: -33
+      }
+    }
+    Overrides {
+      Name: "cs:IconWidthHeight"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:IconFGOffset"
+      Vector2 {
+        X: 1
+        Y: -11
+      }
+    }
+    Overrides {
+      Name: "cs:IconFGColor"
+      Color {
+        R: 0.97
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGWidthHeight"
+      Vector2 {
+        X: 22
+        Y: 22
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGColor"
+      Color {
+        R: 0.52
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadow"
+      AssetReference {
+        Id: 8269773699580383974
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadowWidthHeight"
+      Vector2 {
+        X: 10
+        Y: 10
       }
     }
   }

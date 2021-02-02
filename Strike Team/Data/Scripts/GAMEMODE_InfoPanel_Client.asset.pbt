@@ -10,6 +10,12 @@ Assets {
           SelfId: 10857687478960459655
         }
       }
+      Overrides {
+        Name: "cs:APIBasicGameState"
+        AssetReference {
+          Id: 11974742996071064388
+        }
+      }
     }
   }
   SerializationVersion: 74

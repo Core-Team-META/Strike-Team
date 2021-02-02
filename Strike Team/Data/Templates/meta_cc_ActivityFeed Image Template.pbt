@@ -17,23 +17,12 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 11013752462242932162
+        ChildIds: 14483368784512423566
         ChildIds: 18091828194738229991
         ChildIds: 5160837567682101239
         ChildIds: 14422183323506428133
         ChildIds: 9972818854258851911
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:BackgroundImage"
-            ObjectReference {
-              SubObjectId: 11013752462242932162
-            }
-          }
-          Overrides {
-            Name: "cs:ForegroundImage"
-            ObjectReference {
-              SubObjectId: 5160837567682101239
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -341,6 +330,62 @@ Assets {
         }
       }
       Objects {
+        Id: 14483368784512423566
+        Name: "FG Back Shadow"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16904210639392218704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 4
+          Height: 4
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 16124442352425641416
+            }
+            Color {
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 18091828194738229991
         Name: "FG Back"
         Transform {
@@ -416,7 +461,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
           Width: 4
@@ -434,9 +479,6 @@ Assets {
               Id: 16124442352425641416
             }
             Color {
-              R: 1
-              G: 1
-              B: 1
               A: 1
             }
             TeamSettings {
