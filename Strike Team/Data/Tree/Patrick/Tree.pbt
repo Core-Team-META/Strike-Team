@@ -308,6 +308,18 @@ Objects {
         SelfId: 7001431541401133520
       }
     }
+    Overrides {
+      Name: "cs:TITLE_MATCH_LENGHT"
+      ObjectReference {
+        SelfId: 15352050436892857273
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_MATCH_LENGHT_1"
+      ObjectReference {
+        SelfId: 5344031597289365447
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
