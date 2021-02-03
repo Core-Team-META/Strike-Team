@@ -130,7 +130,16 @@ if Environment.IsClient() then
         player.clientUserData.XP = XP.New(player)
     end
 
+    function XP:ReturnLastXPCurrentLevel()
+        return CalculateLevel(self.lastamount)
+    end
+
+    function XP:ReturnLastXPAmount()
+        return self.lastamount
+    end
+
     function XP:Load()
+        self.lastamount = self.xp or 0
         self.xp = self.owner:GetResource("XP")
         self.level = self:CalculateLevel()
     end
@@ -140,6 +149,7 @@ if Environment.IsClient() then
             LOCAL_PLAYER.clientUserData.XP:Load()
         end
     end
+
 
     LOCAL_PLAYER.resourceChangedEvent:Connect(UpdateResource)
 end 
