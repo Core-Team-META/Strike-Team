@@ -48,6 +48,8 @@ Events.Connect("RecieveData", function(key)
             if name == "EquippedLoadout" then 
                 local newData =  LOCAL_PLAYER.clientUserData.NetworkSpawn:GetCustomProperty("EquippedLoadout")
                 Events.Broadcast("UpdateLocalEquiped",newData)
+                LOCAL_PLAYER.clientUserData.PrevouslySelected = 1
+                LOCAL_PLAYER.clientUserData.CurrentlySelected = 1
             end
         end)
         local newData =  LOCAL_PLAYER.clientUserData.NetworkSpawn:GetCustomProperty("EquippedLoadout")

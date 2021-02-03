@@ -80,8 +80,9 @@ function PurchaseClientManager.PurchaseSuccessful()
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
     end
     ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"
-    ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
+    ConfirmationPanel.clientUserData.buttonEvent    = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
+    Task.Wait(.5)
     Events.Broadcast("UpdatePanels")
 end
 
