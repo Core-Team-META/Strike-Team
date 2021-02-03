@@ -35,7 +35,6 @@ local valueRoundResultText = script:GetCustomProperty("ValueRoundResult"):WaitFo
 local valueKillsText = script:GetCustomProperty("ValueKills"):WaitForObject()
 local valueHeadshotsText = script:GetCustomProperty("ValueHeadshots"):WaitForObject()
 
-
 local cashRoundResultText = script:GetCustomProperty("CashRoundResult"):WaitForObject()
 local cashKillsText = script:GetCustomProperty("CashKills"):WaitForObject()
 local cashHeadshotsText = script:GetCustomProperty("CashHeadshots"):WaitForObject()
@@ -44,6 +43,14 @@ local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 
 local gameModeName = script:GetCustomProperty("GameModeName"):WaitForObject()
 local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
+
+local lvlHex = script:GetCustomProperty("LvlHex"):WaitForObject()
+
+local TITLE_MATCH_LENGHT = script:GetCustomProperty("TITLE_MATCH_LENGHT"):WaitForObject()
+local TITLE_MATCH_LENGHT_1 = script:GetCustomProperty("TITLE_MATCH_LENGHT_1"):WaitForObject()
+
+TITLE_MATCH_LENGHT.text = "MATCH LENGTH"
+TITLE_MATCH_LENGHT_1.text = "MATCH LENGTH"
 
 local winValue = 100
 local lossValue = 50
@@ -57,6 +64,9 @@ local letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'
 
 local passToTask = {}
 local passComplete = false
+
+local oldLvl = nil
+local oldXP = nil
 
 function SetChildrenText(uiObj,_text) -- <-- generic children text function by AJ
     if Object.IsValid(uiObj) and uiObj:IsA("UIText") then
@@ -183,7 +193,26 @@ function ShowEndRoundResults()
 	CountThisTextUp(gainedXPText, roundXP, 10, "+")
 	CountThisTextUp(remainingXPText, localPlayerXP:GetXPUntilNextLevel(), 10, "")
 	
+	
 	local totalLevelXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
+	
+	SetChildrenText(lvlHex, "Lv" .. tostring(localPlayerXP:CalculateLevel()))
+	
+	
+	if oldLvl < localPlayerXP:CalculateLevel() then
+	
+		for i = 1, oldXP, oldXP/100 do
+		
+			SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
+			
+			progressBar.progress = i/oldXP
+			
+			Task.Wait(0.01)
+		
+		end
+		
+	end
+	
 	
 	for i = 1, localPlayerXP:GetXPInCurrentLevel(), localPlayerXP:GetXPInCurrentLevel()/100 do
 		
@@ -252,6 +281,10 @@ function RecordCurrentXP()
 
 	roundXP = localPlayerXP:GetXP()
 	
+	oldLvl = localPlayerXP:CalculateLevel()
+	
+	oldXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
+	
 end
 
 function SetRoundInfo()
@@ -270,6 +303,7 @@ function SetRoundInfo()
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
+
     if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
         
         ShowEndRoundResults()
@@ -287,8 +321,10 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     	SetRoundInfo()
         
     end
+   
 end
 
 ResetEndRoundResults()
+RecordCurrentXP()
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
