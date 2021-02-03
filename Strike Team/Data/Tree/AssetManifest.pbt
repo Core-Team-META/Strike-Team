@@ -1,10 +1,10 @@
 Assets {
-  Id: 16575023311591050522
-  Name: "kb_storage"
+  Id: 10247172121396960560
+  Name: "Loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "3b7b3b964255409887f17adcf3c9b7eb"
+      Key: "465f04ada8db41ba8b76d5855dfba9e8"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16550625623306774001
-  Name: "kb_stats"
+  Id: 9073233642542762246
+  Name: "Stats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "62e90670ac2549c49ed0b7ae7931fb4d"
+      Key: "33683a52583748ba9580eb335f4f0256"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1508112711864117038
-  Name: "kb_loadout"
+  Id: 3570503988882333139
+  Name: "Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5a3ea05146bd4a758c1408c294d05c38"
+      Key: "c73406fa2dc54237969f3f3024512919"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

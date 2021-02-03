@@ -767,18 +767,18 @@ Objects {
   ParentId: 10671565427701169845
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Loadout"
+      Name: "cs:Storage"
       NetReference {
-        Key: "5a3ea05146bd4a758c1408c294d05c38"
+        Key: "c73406fa2dc54237969f3f3024512919"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:Storage"
+      Name: "cs:Loadout"
       NetReference {
-        Key: "3b7b3b964255409887f17adcf3c9b7eb"
+        Key: "465f04ada8db41ba8b76d5855dfba9e8"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -787,7 +787,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "62e90670ac2549c49ed0b7ae7931fb4d"
+        Key: "33683a52583748ba9580eb335f4f0256"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

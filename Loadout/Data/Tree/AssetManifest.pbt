@@ -35,19 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17454584186662264968
-  Name: "SniperDutyLoadout2"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "5be15c17d2bd439b849671003cc6f3d5"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 17357257902648977758
   Name: "Sci-fi Base Capsule 01 Base"
   PlatformAssetType: 1
@@ -156,12 +143,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14262368015454910329
-  Name: "SkinStorage"
+  Id: 14621129723033520691
+  Name: "Stats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "673d2761ec9b45a5a03c5970e423c582"
+      Key: "33683a52583748ba9580eb335f4f0256"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -238,19 +225,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_barreltip_003"
-  }
-}
-Assets {
-  Id: 13296757710251499544
-  Name: "data"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "f0ab80a9a08b49149a80fb3cf1a41ea6"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -344,6 +318,19 @@ Assets {
   }
 }
 Assets {
+  Id: 9925972641298311506
+  Name: "Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "c73406fa2dc54237969f3f3024512919"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -368,6 +355,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
+  Id: 9154906341476226929
+  Name: "Loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "465f04ada8db41ba8b76d5855dfba9e8"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
