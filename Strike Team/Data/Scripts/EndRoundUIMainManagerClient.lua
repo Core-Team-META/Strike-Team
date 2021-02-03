@@ -35,7 +35,6 @@ local valueRoundResultText = script:GetCustomProperty("ValueRoundResult"):WaitFo
 local valueKillsText = script:GetCustomProperty("ValueKills"):WaitForObject()
 local valueHeadshotsText = script:GetCustomProperty("ValueHeadshots"):WaitForObject()
 
-
 local cashRoundResultText = script:GetCustomProperty("CashRoundResult"):WaitForObject()
 local cashKillsText = script:GetCustomProperty("CashKills"):WaitForObject()
 local cashHeadshotsText = script:GetCustomProperty("CashHeadshots"):WaitForObject()
@@ -44,6 +43,12 @@ local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 
 local gameModeName = script:GetCustomProperty("GameModeName"):WaitForObject()
 local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
+
+local TITLE_MATCH_LENGHT = script:GetCustomProperty("TITLE_MATCH_LENGHT"):WaitForObject()
+local TITLE_MATCH_LENGHT_1 = script:GetCustomProperty("TITLE_MATCH_LENGHT_1"):WaitForObject()
+
+TITLE_MATCH_LENGHT.text = "MATCH LENGTH"
+TITLE_MATCH_LENGHT_1.text = "MATCH LENGTH"
 
 local winValue = 100
 local lossValue = 50
