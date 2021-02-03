@@ -184,9 +184,7 @@ function AnimateWordText(givenText, targetText)
 	
 end
 
-function ShowEndRoundResults()
-	
-	Task.Wait(1)
+function AnimateLevel()
 	
 	roundXP = localPlayerXP:GetXP() - roundXP
 
@@ -223,9 +221,11 @@ function ShowEndRoundResults()
 		Task.Wait(0.01)
 	
 	end
-	
-	Task.Wait(0.5)
-		
+
+end
+
+function AnimateStats()
+
 	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
 	
 		AnimateWordText(roundResultText, "WIN")
@@ -250,6 +250,19 @@ function ShowEndRoundResults()
 	
 	CountThisTextUp(cashKillsText, localPlayer.kills * killsValue, 100, "+")
 	CountThisTextUp(cashHeadshotsText, localPlayer:GetResource("Headshots") * headShotValue, 100, "+")	
+
+end
+
+function ShowEndRoundResults()
+	
+	Task.Wait(1)
+	
+	AnimateLevel()
+	
+	Task.Wait(0.5)
+	
+	AnimateStats()
+		
 
 end
 
