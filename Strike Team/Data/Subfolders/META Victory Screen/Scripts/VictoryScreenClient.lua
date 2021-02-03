@@ -8,6 +8,16 @@
 
 --]]
 
+local GT_API
+repeat
+
+    GT_API = _G.META_GAME_MODES
+    Task.Wait()
+    
+until GT_API
+
+local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+
 ------------------------------------------------------------------------------------------------------------------------
 --	OBJECTS AND REFERENCES
 ------------------------------------------------------------------------------------------------------------------------
@@ -163,8 +173,7 @@ end
 
 --	nil SendToVictoryScreen(string)
 --	Resets the camera and hides the UI for the victory Screen
-local function RestoreFromPodium(podiumGroupReferenceId)
-	if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
+local function RestoreFromPodium()
 
 	Events.Broadcast("ShowUI")
 	LocalPlayer:ClearOverrideCamera()
@@ -214,6 +223,16 @@ local function GetProperty(value, options)
 	return options[1]
 end
 
+function OnGameStateChanged(oldState, newState, hasDuration, time)
+
+    if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
+        
+        RestoreFromPodium()
+                
+    end
+   
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 --	INITIALIZATION
 ------------------------------------------------------------------------------------------------------------------------
@@ -224,4 +243,4 @@ WINNER_SORT_TYPE = GetProperty(WINNER_SORT_TYPE, WINNER_SORT_TYPES)
 --	Connect events appropriately
 --Events.Connect("SendToVictoryScreen", SendToVictoryScreen)
 Game.roundEndEvent:Connect(SendToVictoryScreen)
-Events.Connect("RestoreFromVictoryScreen", RestoreFromPodium)
+Events.Connect("GameStateChanged", OnGameStateChanged)
