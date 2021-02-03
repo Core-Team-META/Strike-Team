@@ -26,7 +26,6 @@ Objects {
   ChildIds: 9151753919777912365
   ChildIds: 14036186774430242210
   ChildIds: 8492026800449626092
-  ChildIds: 14510515192458441303
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,48 +35,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 14510515192458441303
-  Name: "meta_cc_ActivityFeed Text On Image Template"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16904210639392218704
-      value {
-        Overrides {
-          Name: "Name"
-          String: "meta_cc_ActivityFeed Text On Image Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 617953855496229238
-    }
   }
 }
 Objects {
