@@ -33,6 +33,14 @@ end
 
 
 function RoundEndHandler.CalculateXP(player,Win)
+    
+    local FinishValue = 0
+    if Win then
+        FinishValue = 500
+    else
+        FinishValue = 300
+    end
+    player.clientUserData.XP:AddXP(FinishValue)
 
 end
 

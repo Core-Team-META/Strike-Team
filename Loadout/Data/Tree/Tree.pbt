@@ -214,6 +214,7 @@ Objects {
   ChildIds: 15033543341472117485
   ChildIds: 8042637274710802851
   ChildIds: 8582034180734954063
+  ChildIds: 17997573308487658100
   ChildIds: 16282647591966498348
   ChildIds: 6849286984252889154
   ChildIds: 18131314453509860071
@@ -1261,6 +1262,53 @@ Objects {
   }
 }
 Objects {
+  Id: 17997573308487658100
+  Name: "UI Container"
+  Transform {
+    Location {
+      X: -49.0149689
+      Y: -854.999756
+      Z: 513.062744
+    }
+    Rotation {
+      Yaw: -89.204
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11951719430612397057
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 8582034180734954063
   Name: "EnableButtons"
   Transform {
@@ -1314,7 +1362,7 @@ Objects {
     Overrides {
       Name: "cs:MAIN_MENU_UI"
       ObjectReference {
-        SelfId: 16564750678633576762
+        SelfId: 17997573308487658100
       }
     }
   }
