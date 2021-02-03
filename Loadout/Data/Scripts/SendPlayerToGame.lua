@@ -1,3 +1,3 @@
 ﻿Events.Connect("RequestToJoinMatch", function (player)
-    player:TransferToGame("16ffd8/strike-team-dev")
+    player:TransferToGame("418b52/strike-team")
 end)

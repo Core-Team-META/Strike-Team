@@ -115,6 +115,12 @@ function Commands.CLEARDATA(player,message)
 
 end
 
+
+function Commands.SPEED(player,message)
+   player.maxWalkSpeed = tonumber(message[3])
+
+end
+
 function Commands.WIN()
     Events.Broadcast("ForceWinner")
 end 

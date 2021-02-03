@@ -26,9 +26,12 @@ function UpdateLevel()
 end
 UpdateLevel()
 
-Button.pressedEvent:Connect(function() 
+Button.releasedEvent:Connect(function() 
     Events.BroadcastToServer("SetSlot", Slot)
     Events.Broadcast("SetSlot", Slot)
+    if not LOCAL_PLAYER.isDead then 
+        Events.Broadcast("SwapPanelForceClose")
+    end
 end)
 
 Button.hoveredEvent:Connect(function()
@@ -53,3 +56,5 @@ LOCAL_PLAYER.resourceChangedEvent:Connect(function(_,propname)
     end
     UpdateSelected()
 end)
+
+CurrentSlot = 1
