@@ -106,7 +106,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 10
@@ -18283,7 +18283,7 @@ Objects {
 }
 Objects {
   Id: 2420207814350621380
-  Name: "match_lenght"
+  Name: "MATCH_LENGTH"
   Transform {
     Location {
     }

@@ -46,11 +46,11 @@ local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
 
 local lvlHex = script:GetCustomProperty("LvlHex"):WaitForObject()
 
-local TITLE_MATCH_LENGHT = script:GetCustomProperty("TITLE_MATCH_LENGHT"):WaitForObject()
-local TITLE_MATCH_LENGHT_1 = script:GetCustomProperty("TITLE_MATCH_LENGHT_1"):WaitForObject()
+local titleMatchLength = script:GetCustomProperty("titleMatchLength"):WaitForObject()
+local titleMatchLength_1 = script:GetCustomProperty("titleMatchLength_1"):WaitForObject()
 
-TITLE_MATCH_LENGHT.text = "MATCH LENGTH"
-TITLE_MATCH_LENGHT_1.text = "MATCH LENGTH"
+titleMatchLength.text = "MATCH LENGTH"
+titleMatchLength_1.text = "MATCH LENGTH"
 
 local winValue = 100
 local lossValue = 50

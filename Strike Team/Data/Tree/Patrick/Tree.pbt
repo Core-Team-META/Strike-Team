@@ -302,6 +302,12 @@ Objects {
         SelfId: 2420207814350621380
       }
     }
+    Overrides {
+      Name: "cs:LvlHex"
+      ObjectReference {
+        SelfId: 7001431541401133520
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
