@@ -199,7 +199,7 @@ function AnimateLevel()
 	
 	if oldLvl < localPlayerXP:CalculateLevel() then
 	
-		for i = 1, oldXP, oldXP/100 do
+		for i = 1, oldXP, math.ceil(oldXP/100) do
 		
 			SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
 			
@@ -209,10 +209,16 @@ function AnimateLevel()
 		
 		end
 		
+		progressBar.progress = 1
+		
+		SetChildrenText(progressBarText, "EXP: " .. tostring(oldXP) .. "/" .. tostring(oldXP))
+		
+		Task.Wait(0.1)
+		
 	end
 	
 	
-	for i = 1, localPlayerXP:GetXPInCurrentLevel(), localPlayerXP:GetXPInCurrentLevel()/100 do
+	for i = 1, localPlayerXP:GetXPInCurrentLevel(), math.ceil(localPlayerXP:GetXPInCurrentLevel()/100) do
 		
 		SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
 		
@@ -221,6 +227,10 @@ function AnimateLevel()
 		Task.Wait(0.01)
 	
 	end
+	
+	progressBar.progress = localPlayerXP:GetXPInCurrentLevel()/totalLevelXP
+		
+	SetChildrenText(progressBarText, "EXP: " .. tostring(localPlayerXP:GetXPInCurrentLevel()) .. "/" .. tostring(totalLevelXP))
 
 end
 
