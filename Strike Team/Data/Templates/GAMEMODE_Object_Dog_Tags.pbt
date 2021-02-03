@@ -1,6 +1,6 @@
 Assets {
   Id: 5763397908864857621
-  Name: "Object_Dog_Tags"
+  Name: "GAMEMODE_Object_Dog_Tags"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
