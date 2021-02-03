@@ -89,11 +89,19 @@ Objects {
       String: ""
     }
     Overrides {
+      Name: "cs:ROUND_DURATION"
+      Float: 0
+    }
+    Overrides {
       Name: "cs:GAME_TYPE_ID:isrep"
       Bool: true
     }
     Overrides {
       Name: "cs:VDATA:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ROUND_DURATION:isrep"
       Bool: true
     }
   }
@@ -232,6 +240,12 @@ Objects {
       Name: "cs:GAME_MODE_POLL"
       ObjectReference {
         SelfId: 12950382018174454502
+      }
+    }
+    Overrides {
+      Name: "cs:MATCH_LENGTH"
+      ObjectReference {
+        SelfId: 2420207814350621380
       }
     }
   }
@@ -1773,7 +1787,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 50
+      Int: 5
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"

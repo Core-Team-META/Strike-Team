@@ -26,7 +26,7 @@ local gameTypes = {}
 local currentGameTypeId
 local currentGameInfo = {}
 local scoreLimit
-
+local roundStartTime = nil
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -50,6 +50,10 @@ local function SetCurrentGameId(gameTypeId)
     currentGameTypeId = gameTypeId
     Task.Wait()
     SetPlayersRespawn()
+end
+
+local function SetRoundDuration(duration)
+    NETWORKED:SetNetworkedCustomProperty("ROUND_DURATION", duration)
 end
 
 local function GetCurrentGameId()
@@ -90,13 +94,17 @@ function OnPlayerLeft(player)
     Task.Wait() -- Wait one frame to make sure player that left is no longer in game
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
         local players = Game.GetPlayers()
-        if #players <= 1 then
-            local lastPlayer
-            for _, remainingPlayer in ipairs(players) do
-                lastPlayer = remainingPlayer
+        local shouldEnd = true
+        local lastTeam
+        for _, remainingPlayer in ipairs(players) do
+            lastTeam = lastTeam or remainingPlayer.team
+            if remainingPlayer.team ~= lastTeam then
+                shouldEnd = false
             end
-            _G["GameWinner"] = lastPlayer.team
-            Events.Broadcast("TeamVictory", lastPlayer.team)
+        end
+        if #players <= 1 or shouldEnd then
+            _G["GameWinner"] = lastTeam
+            Events.Broadcast("TeamVictory", lastTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
     end
@@ -142,12 +150,14 @@ function Tick(deltaTime)
     end
 end
 
-function OnGameStateChanged(oldState, newState, hasDuration, time)
+function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         SetCurrentGameId(0) -- Used to reset Game Modes
+        SetRoundDuration(time() - roundStartTime)
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
         local currentState = GetCurrentGameId()
+        roundStartTime = time()
         if currentState > 0 then
             Events.BroadcastToAllPlayers("BannerMessage", nil, 5, currentState)
             Events.Broadcast("GM.START", currentState)
