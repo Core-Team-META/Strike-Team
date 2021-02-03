@@ -764,7 +764,7 @@ Assets {
           AudioAsset {
             Id: 11032692064555494742
           }
-          Volume: 0.4
+          Volume: 0.8
           Falloff: -1
           Radius: -1
         }
@@ -794,7 +794,7 @@ Assets {
           AudioAsset {
             Id: 16105704114440936073
           }
-          Volume: 0.4
+          Volume: 0.7
           Falloff: -1
           Radius: -1
         }
