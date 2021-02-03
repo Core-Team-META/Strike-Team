@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/28
--- Version 0.1.0
+-- Date: 2021/2/2
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
@@ -10,6 +10,7 @@ local GT_API
 repeat
     GT_API = _G.META_GAME_MODES
 until GT_API
+local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
 ------------------------------------------------------------------------------------------------------------------------
@@ -42,19 +43,21 @@ local function Log(message, ...)
 end
 
 local function SpawnNewHill()
-    local hillPosition
-    if oldPosition then
-        repeat
-            hillPosition = hillPositions[math.random(1, #hillPositions)]
-            Task.Wait()
-        until hillPosition ~= oldPosition
-    else
-        hillPosition = hillPositions[math.random(1, #hillPositions)]
+    if ABGS.GAME_STATE_ROUND == ABGS.GetGameState() then
+        local hillPosition
+        if oldPosition then
+            repeat
+                hillPosition = hillPositions[1]--math.random(1, #hillPositions)]
+                Task.Wait()
+            until hillPosition ~= oldPosition
+        else
+            hillPosition = hillPositions[1]--math.random(1, #hillPositions)]
+        end
+        currentHill = GT_API.SpawnAsset(HILL_TEMPLATE, {position = hillPosition, parent = SPAWNED_OBJECTS})
+        listeners[#listeners + 1] = currentHill.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
+        GT_API.BroadcastObjectiveSpawned(currentHill, hillPosition)
+        oldPosition = currentHill:GetWorldPosition()
     end
-    currentHill = GT_API.SpawnAsset(HILL_TEMPLATE, {position = hillPosition, parent = SPAWNED_OBJECTS})
-    listeners[#listeners + 1] = currentHill.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
-    GT_API.BroadcastObjectiveSpawned(currentHill, hillPosition)
-    oldPosition = currentHill:GetWorldPosition()
 end
 
 local function Cleanup()
@@ -99,13 +102,17 @@ function OnGameTypeChanged(object, string)
         local hillResource = GetData(object)
         if hillResource[3] <= 0 and Object.IsValid(currentHill) then
             currentHill:Destroy()
+            Task.Wait()
             SpawnNewHill()
         end
     end
 end
 
-function OnGameStart()
-    SpawnNewHill()
+function OnGameStart(id)
+    if IsVaildId(id) then
+        Task.Wait()
+        SpawnNewHill()
+    end
 end
 
 function Int()
@@ -118,7 +125,7 @@ end
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
 Int()
-Events.Connect("GM.START"..tostring(myId), OnGameStart)
+Events.Connect("GM.START", OnGameStart)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(Cleanup)
 print("Initialized GameType Server " .. myId)

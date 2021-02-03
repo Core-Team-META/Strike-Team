@@ -134,6 +134,7 @@ function Tick(deltaTime)
 
         if winningTeam then
             _G["GameWinner"] = winningTeam
+            SetCurrentGameId(0) -- Used to reset Game Modes
             Events.Broadcast("TeamVictory", winningTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         --NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", 1)
@@ -149,7 +150,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         local currentState = GetCurrentGameId()
         if currentState > 0 then
             Events.BroadcastToAllPlayers("BannerMessage", nil, 5, currentState)
-            Events.Broadcast("GM.START" .. tostring(currentState))
+            Events.Broadcast("GM.START", currentState)
         end
     end
 end
