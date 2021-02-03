@@ -1,6 +1,6 @@
 Assets {
   Id: 17380857342533312084
-  Name: "A_SITE_ICON"
+  Name: "POINT_INDICATOR_CAPTURE"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
