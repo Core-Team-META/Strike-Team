@@ -13,10 +13,6 @@ local function IsValidPlayer(object)
 end
 
 
-local function PlayerDiedFromHeadShot(owner, target, type, isHeadShot)
-    if target.isDead and isHeadShot then
-    end
-end
 
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
@@ -24,12 +20,10 @@ end
 
 function PlayerDamaged(owner, target, type, isHeadShot)
     if IsValidPlayer(owner) and IsValidPlayer(target) then
-          if isHeadShot then
-            PlayerDiedFromHeadShot(owner, target, type)
-        else
-            print("HELPER - isHeadShot: No")
-        end
+       
     end
 end
-
-Events.Connect("AS.PlayerDamaged", PlayerDamaged)
+------------------------------------------------------------------------------------------------------------------------
+-- GLOBAL FUNCTIONS
+------------------------------------------------------------------------------------------------------------------------
+Events.Connect("AS.PlayerDamaged", PlayerDamaged) -- passes (owner, target, type, isHeadShot)
