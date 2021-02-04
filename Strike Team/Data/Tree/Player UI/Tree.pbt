@@ -646,7 +646,6 @@ Objects {
     }
   }
   ParentId: 2110532033226891190
-  ChildIds: 2481998449980808935
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -685,42 +684,6 @@ Objects {
           Value: "mc:euianchor:middlecenter"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 2481998449980808935
-  Name: "SetPassiveIcon"
-  Transform {
-    Location {
-      X: 0.000976562384
-      Y: 0.001953125
-    }
-    Rotation {
-      Yaw: 3.4150944e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8396520049551061001
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Type"
-      String: "Perk"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 528286187845114349
     }
   }
 }
@@ -3127,8 +3090,8 @@ Objects {
       }
       Color {
         R: 1
-        G: 0.318546832
-        B: 0.0137020834
+        G: 0.31854707
+        B: 0.0137020946
         A: 0.172549024
       }
       TeamSettings {

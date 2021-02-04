@@ -122,7 +122,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     RenderTransformPivot {
@@ -677,6 +677,18 @@ Objects {
       Name: "cs:PrimText"
       ObjectReference {
         SelfId: 11524326199075036115
+      }
+    }
+    Overrides {
+      Name: "cs:HilightColor"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HilightFont"
+      Color {
+        A: 1
       }
     }
   }
@@ -1294,8 +1306,8 @@ Objects {
       Label: "Primary Weapon"
       Color {
         R: 1
-        G: 0.318546832
-        B: 0.0137020834
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 12

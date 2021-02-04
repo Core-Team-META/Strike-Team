@@ -33,6 +33,24 @@ Assets {
         Vector2 {
         }
       }
+      Overrides {
+        Name: "cs:HilightColor"
+        Color {
+          R: 1
+          G: 0.31854707
+          B: 0.0137020946
+          A: 0.172549024
+        }
+      }
+      Overrides {
+        Name: "cs:HilightFont"
+        Color {
+          R: 1
+          G: 0.31854707
+          B: 0.0137020946
+          A: 1
+        }
+      }
     }
   }
   SerializationVersion: 74
