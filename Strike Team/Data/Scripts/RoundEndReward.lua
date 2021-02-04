@@ -1,5 +1,3 @@
-local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
-
 while not _G["StatKey"] do Task.Wait() end
 RoundEndHandler = {}
 RoundEndHandler.__index = RoundEndHandler
@@ -19,7 +17,7 @@ function RoundEndHandler.CalculateCash(player,Win)
         FinishValue = LoseValue
     end
 
-    local val = localPlayer.kills * KillValue + localPlayer:GetResource("Headshots") * HeadshotValue + FinishValue
+    local val = player.kills * KillValue + player:GetResource("Headshots") * HeadshotValue + FinishValue
     RoundEndHandler.AddCash(player,val)
 end
 
@@ -40,10 +38,9 @@ function RoundEndHandler.CalculateXP(player,Win)
     else
         FinishValue = 300
     end
-    player.clientUserData.XP:AddXP(FinishValue)
+    player.serverUserData.XP:AddXP(FinishValue)
 
 end
-
 
 function RoundEndHandler.AddCash(player,amount)
     player:AddResource("Cash", amount)
@@ -65,14 +62,14 @@ end
 
 function RoundEndHandler.Save(player)
     local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
-    data["Cash"] = player:SetResource("Cash", Cash)
-    data["Gold"] = player:SetResource("Gold", Gold)
+    data["Cash"] = player:GetResource("Cash", Cash)
+    data["Gold"] = player:GetResource("Gold", Gold)
     Storage.SetSharedPlayerData(_G["StatKey"],player,data)
 end
 
 function RoundEndHandler.GameEnd()
     for _,player in pairs(Game.GetPlayers()) do
-        local Win = G["GameWinner"] == player.team
+        local Win = _G["GameWinner"] == player.team
         RoundEndHandler.CalculateCash(player,Win)
         RoundEndHandler.CalculateGold(player,Win)
         RoundEndHandler.CalculateXP(player,Win)
@@ -80,17 +77,5 @@ function RoundEndHandler.GameEnd()
 end
 
 
-function OnGameStateChanged(oldState, newState, hasDuration, time)
-
-	print(newState)
-    
-    if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
-    
-    	--esetWinningTeam()
-                
-    end
-end
-
-Events.Connect("GameStateChanged", OnGameStateChanged)
-
+Game.roundEndEvent:Connect(function() RoundEndHandler.GameEnd() end)
 Game.playerJoinedEvent:Connect(RoundEndHandler.Load)
