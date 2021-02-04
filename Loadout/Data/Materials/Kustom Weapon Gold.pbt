@@ -2,7 +2,7 @@ Assets {
   Id: 1546632997751378649
   Name: "Kustom Weapon Gold"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 13425107253614129883
     ParameterOverrides {

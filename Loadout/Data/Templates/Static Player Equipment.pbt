@@ -96,5 +96,5 @@ Assets {
       AssetId: "Static_Player_Equipment"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

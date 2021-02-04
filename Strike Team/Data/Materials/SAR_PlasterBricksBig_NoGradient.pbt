@@ -2,7 +2,7 @@ Assets {
   Id: 8623809405539843674
   Name: "SAR_PlasterBricksBig_NoGradient"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

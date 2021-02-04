@@ -2,7 +2,7 @@ Assets {
   Id: 13906395176099797543
   Name: "SAR_Carpet"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 15185583042037946799
     ParameterOverrides {
