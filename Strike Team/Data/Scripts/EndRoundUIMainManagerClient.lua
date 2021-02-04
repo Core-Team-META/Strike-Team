@@ -49,6 +49,14 @@ local lvlHex = script:GetCustomProperty("LvlHex"):WaitForObject()
 local titleMatchLength = script:GetCustomProperty("TITLE_MATCH_LENGHT"):WaitForObject()
 local titleMatchLength_1 = script:GetCustomProperty("TITLE_MATCH_LENGHT_1"):WaitForObject()
 
+local lvlTexts = lvlHex:FindDescendantsByType("UIText")
+
+for _, t in pairs(lvlTexts) do
+
+	t.shouldWrapText = false
+	
+end
+
 titleMatchLength.text = "MATCH LENGTH"
 titleMatchLength_1.text = "MATCH LENGTH"
 

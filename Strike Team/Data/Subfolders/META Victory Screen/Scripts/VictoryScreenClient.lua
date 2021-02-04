@@ -25,10 +25,6 @@ local RootGroup = script:GetCustomProperty("Root"):WaitForObject()
 
 local Container = script:GetCustomProperty("Container"):WaitForObject()
 
-local Player1Panel = script:GetCustomProperty("Player1Panel"):WaitForObject()
-local Player2Panel = script:GetCustomProperty("Player2Panel"):WaitForObject()
-local Player3Panel = script:GetCustomProperty("Player3Panel"):WaitForObject()
-
 local Spawns = script:GetCustomProperty("Spawns"):WaitForObject()
 
 local OverrideCamera = RootGroup:GetCustomProperty("OverrideCamera"):WaitForObject()
@@ -51,23 +47,10 @@ local WINNER_SORT_TYPES = { "KILL_DEATH", "RESOURCE" }
 --	LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
 local UpdateUITask = nil
-local WinnerSlot = {}
 
 ------------------------------------------------------------------------------------------------------------------------
 --	LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
-
---	CoreObject GetPanel(float)
---	Returns the appropriate panel for place 1, 2, and 3
-local function GetPanel(index)
-	if(index == 1) then
-		return Player1Panel
-	elseif(index == 2) then
-		return Player2Panel
-	else
-		return Player3Panel
-	end
-end
 
 --	Player GetPlayer(table, string)
 --	Returns the player object based on their name
@@ -82,6 +65,15 @@ end
 --	nil UpdatePanelForPlayer(CoreObject, Player)
 --	Updates the visual for the player stats
 local function UpdatePanelForPlayer(panel, player)
+
+	if not Object.IsValid(player) then
+	
+		panel.visibility = Visibility .FORCE_OFF
+		
+		return
+		
+	end
+
 	local nameTextLabel, deathsValueLabel, killsValueLabel, resourceValueLabel, resourcePanel =
 	panel:GetCustomProperty("NameText"):WaitForObject(),
 	panel:GetCustomProperty("DeathsValue"):WaitForObject(),
@@ -123,14 +115,8 @@ local function UpdateUI()
 		
 		end
 		
-		if WinnerSlot[index] ~= selectedPlayer and selectedPlayer ~= nil and index <= #PlayerPanels then
-		
-			UpdatePanelForPlayer(PlayerPanels[index], selectedPlayer)
-			
-			WinnerSlot[index] = selectedPlayer
-			
-		end
-		
+		UpdatePanelForPlayer(PlayerPanels[index], selectedPlayer)
+				
 	end
 
 end
@@ -138,26 +124,12 @@ end
 --	nil SendToVictoryScreen(string, table)
 --	Sets the camera and shows the UI for the victory Screen
 local function SendToVictoryScreen() -- topThreePlayerStats
-	--if(podiumGroupReferenceId ~= RootGroup:GetReference().id) then return end
-
 
 	-- change the default camera rotation to look in the same direction so the head faces the right way
 	LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
 	LocalPlayer:SetOverrideCamera(OverrideCamera)
 	LocalPlayer.lookSensitivity = 0
-	
-	--[[
-	local players = Game.GetPlayers()
-	for index = 1, 3 do
-		local panel = GetPanel(index)
-		local player = GetPlayer(players, topThreePlayerStats[index])
-
-		if(topThreePlayerStats[index] and Object.IsValid(player)) then
-			UpdatePanelForPlayer(panel, player)
-		end
-	end
-	]]
-	
+		
 	if not UpdateUITask then
 	
 		UpdateUITask = Task.Spawn(UpdateUI)
@@ -178,30 +150,14 @@ local function RestoreFromPodium()
 	Events.Broadcast("ShowUI")
 	LocalPlayer:ClearOverrideCamera()
 	LocalPlayer.lookSensitivity = 1
-	
-	--[[
-	for index = 1, 3 do
-		local panel = GetPanel(index)
-		panel.visibility = Visibility.FORCE_OFF
-
-		local resourcePanel = panel:GetCustomProperty("ResourcePanel"):WaitForObject()
-		resourcePanel.visibility = Visibility.FORCE_OFF
-	end
-	]]
-	
+		
 	if UpdateUITask then
 	
 		UpdateUITask:Cancel()
 		UpdateUITask = nil
 		
 	end
-	
-	for index, player in pairs(WinnerSlot) do
-	
-		WinnerSlot[index] = nil
 		
-	end
-	
 	for _, panel in pairs(PlayerPanels) do
 		panel.visibility = Visibility.FORCE_OFF
 

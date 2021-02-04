@@ -257,9 +257,6 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 
 	end
 
-
-	--SendBroadcast(player, "RestoreFromVictoryScreen", victoryScreen:GetReference().id)
-
 	player.movementControlMode = data.originalMovementControlMode
 	player.lookControlMode = data.originalLookControlMode 
 	
