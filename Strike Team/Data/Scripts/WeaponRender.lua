@@ -5,6 +5,8 @@ local IMAGE = script:GetCustomProperty("IMAGE"):WaitForObject()
 local NUMBER = script:GetCustomProperty("NUMBER")
 local TYPE = script:GetCustomProperty("TYPE")
 local Offset = script:GetCustomProperty("Offset")
+local HilightColor = script:GetCustomProperty("HilightColor")
+local HilightFont = script:GetCustomProperty("HilightFont")
 
 local LIGHT = 0.6
 local DARK = 0.05
@@ -44,8 +46,8 @@ end
 Events.Connect("UpdateLocalEquiped",SpawnObject)
 
 function SetHighlighted( )
-	IMAGE:SetColor(Color.New(LIGHT,LIGHT,LIGHT,.3))
-	TEXT:SetColor(Color.New(LIGHT,LIGHT,LIGHT))
+	IMAGE:SetColor(HilightColor)
+	TEXT:SetColor(HilightFont)
 end
 
 function SetDarkened()
