@@ -1,6 +1,32 @@
 Name: "Brent"
 RootId: 9151753919777912365
 Objects {
+  Id: 2875782548761231139
+  Name: "Achivment System"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9151753919777912365
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Achivment System"
+  }
+}
+Objects {
   Id: 16621625458669976284
   Name: "Game Mode Manager"
   Transform {

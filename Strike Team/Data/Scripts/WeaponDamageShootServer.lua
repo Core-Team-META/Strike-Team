@@ -24,6 +24,7 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
+local WEAPON_TYPE = WEAPON:GetCustomProperty("WeaponType")
 
 -- Exposed variables --
 local DAMAGE_AMOUNT = script:GetCustomProperty("BaseDamage")
@@ -37,11 +38,12 @@ function OnWeaponInteracted(weapon, impactData)
 
         local weaponOwner = impactData.weaponOwner
         local numberOfHits = #impactData:GetHitResults()
-
+        local isHeadShot = false
         -- Assign a headshot damage if projectile hit enemy's head
         local damage = DAMAGE_AMOUNT
         if impactData.isHeadshot then
             damage = DAMAGE_HEADSHOT
+            isHeadShot = true
         end
 
         -- Creating damage information
@@ -53,6 +55,8 @@ function OnWeaponInteracted(weapon, impactData)
         newDamageInfo:SetHitResult(impactData:GetHitResults()[1])
         -- Apply damage to the enemy player
         target:ApplyDamage(newDamageInfo)
+
+        Events.Broadcast("AS.PlayerDamaged", WEAPON.owner, target, WEAPON_TYPE, isHeadShot)
     end
 end
 
