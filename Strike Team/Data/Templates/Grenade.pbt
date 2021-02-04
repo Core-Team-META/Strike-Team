@@ -75,6 +75,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Grenade"
+          }
+          Overrides {
             Name: "cs:ExplosionDamageRange:tooltip"
             String: "Set the minimum to maximum damage of the explosion. X is damage far from the explosion center and Y is damage close to the explosion center."
           }
