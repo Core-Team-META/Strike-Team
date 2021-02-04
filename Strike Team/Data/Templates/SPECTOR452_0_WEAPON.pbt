@@ -166,7 +166,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 8
+            BurstDuration: 6
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {

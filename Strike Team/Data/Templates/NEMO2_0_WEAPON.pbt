@@ -303,7 +303,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 6.5
+            Duration: 3.2
             CanMove: true
             CanJump: true
             CanRotate: true

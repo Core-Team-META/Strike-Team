@@ -34,6 +34,9 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local CURRENT_WEAPON
 
+local AmmoSize =  AMMO_TEXT.fontSize
+
+
 -- Player GetViewedPlayer()
 -- Returns which player the local player is spectating (or themselves if not spectating)
 function GetViewedPlayer()
@@ -71,7 +74,13 @@ function Tick(deltaTime)
             if weapon ~= nil then
                 --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
                 if weapon.clientUserData.Ammo then
-                    AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
+                    if weapon.clientUserData.reloading then 
+                        AMMO_TEXT.fontSize = 22 
+                        AMMO_TEXT.text = "Reloading..."
+                    else
+                        AMMO_TEXT.fontSize = AmmoSize
+                        AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
+                    end
                 else AMMO_TEXT.text = "" end
                 if weapon.clientUserData.MaxAmmo then
                     MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo 

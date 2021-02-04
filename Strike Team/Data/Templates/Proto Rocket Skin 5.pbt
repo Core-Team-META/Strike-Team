@@ -1,12 +1,12 @@
 Assets {
-  Id: 8897966304867363982
+  Id: 5021078027896375540
   Name: "Proto Rocket Skin 5"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 6218048119892740002
+      RootId: 14290331879717303285
       Objects {
-        Id: 6218048119892740002
+        Id: 14290331879717303285
         Name: "Proto Rocket Skin 5"
         Transform {
           Scale {
@@ -15,9 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3770784701168901513
-        ChildIds: 12128949384975962912
-        ChildIds: 4078300941362529291
+        ParentId: 15182096477434491570
+        ChildIds: 17665529405683483588
+        ChildIds: 4682672696406432487
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -29,7 +29,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12128949384975962912
+        Id: 17665529405683483588
         Name: "Group"
         Transform {
           Location {
@@ -44,10 +44,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6218048119892740002
-        ChildIds: 11466368592506085557
-        ChildIds: 8327045972313696272
-        ChildIds: 5659873967681902947
+        ParentId: 14290331879717303285
+        ChildIds: 14918236301868549707
+        ChildIds: 15591278160746870580
+        ChildIds: 4077408325643448635
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -59,12 +59,12 @@ Assets {
         }
       }
       Objects {
-        Id: 11466368592506085557
+        Id: 14918236301868549707
         Name: "Sights"
         Transform {
           Location {
-            X: 8.23925781
-            Y: -5.09757233
+            X: 8.23934937
+            Y: 1.9850769
             Z: 27.5
           }
           Rotation {
@@ -75,20 +75,20 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12128949384975962912
-        ChildIds: 2508939529652518881
-        ChildIds: 5413450067786099639
-        ChildIds: 15507653300589305864
-        ChildIds: 7884063048130389610
-        ChildIds: 9816236185330631489
-        ChildIds: 14966195229761516372
-        ChildIds: 7415607320839812361
-        ChildIds: 412987741686481327
-        ChildIds: 11865208724360446207
-        ChildIds: 8273451375080163148
-        ChildIds: 1608621948962863517
-        ChildIds: 15794357580298614280
-        ChildIds: 7613669025145923123
+        ParentId: 17665529405683483588
+        ChildIds: 11480978806285922944
+        ChildIds: 11588635623946449108
+        ChildIds: 11349169697266060855
+        ChildIds: 10817324455828130518
+        ChildIds: 982595048019773435
+        ChildIds: 16204358386780049275
+        ChildIds: 2505976219900615206
+        ChildIds: 14492581852824912990
+        ChildIds: 17691222856145981339
+        ChildIds: 2946995936001213018
+        ChildIds: 14758393836857211202
+        ChildIds: 3321027050386708649
+        ChildIds: 17774163511422911402
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -100,7 +100,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2508939529652518881
+        Id: 11480978806285922944
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -119,7 +119,7 @@ Assets {
             Z: 0.10920386
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -171,7 +171,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5413450067786099639
+        Id: 11588635623946449108
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -190,7 +190,7 @@ Assets {
             Z: 0.0651648864
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -242,7 +242,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15507653300589305864
+        Id: 11349169697266060855
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -261,7 +261,7 @@ Assets {
             Z: 0.102817222
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -313,7 +313,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7884063048130389610
+        Id: 10817324455828130518
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -332,7 +332,7 @@ Assets {
             Z: 0.0741802603
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -384,7 +384,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9816236185330631489
+        Id: 982595048019773435
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -403,7 +403,7 @@ Assets {
             Z: 0.0741802603
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -455,7 +455,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14966195229761516372
+        Id: 16204358386780049275
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -474,7 +474,7 @@ Assets {
             Z: 0.788822711
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -541,7 +541,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7415607320839812361
+        Id: 2505976219900615206
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -560,7 +560,7 @@ Assets {
             Z: 0.145618841
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -612,7 +612,7 @@ Assets {
         }
       }
       Objects {
-        Id: 412987741686481327
+        Id: 14492581852824912990
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -631,7 +631,7 @@ Assets {
             Z: 0.10920386
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -683,7 +683,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11865208724360446207
+        Id: 17691222856145981339
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -702,7 +702,7 @@ Assets {
             Z: -0.00319972495
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -733,7 +733,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8273451375080163148
+        Id: 2946995936001213018
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -752,7 +752,7 @@ Assets {
             Z: 0.0720703
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -804,7 +804,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1608621948962863517
+        Id: 14758393836857211202
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -822,7 +822,7 @@ Assets {
             Z: 0.0969974846
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -874,7 +874,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15794357580298614280
+        Id: 3321027050386708649
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -893,7 +893,7 @@ Assets {
             Z: 0.0720703
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -945,7 +945,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7613669025145923123
+        Id: 17774163511422911402
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -964,7 +964,7 @@ Assets {
             Z: 0.0611420274
           }
         }
-        ParentId: 11466368592506085557
+        ParentId: 14918236301868549707
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -995,52 +995,52 @@ Assets {
         }
       }
       Objects {
-        Id: 8327045972313696272
+        Id: 15591278160746870580
         Name: "Body"
         Transform {
           Location {
-            X: 21.4282227
-            Y: 2.54879
+            X: 20.3325043
+            Y: 8.49127197
             Z: 28.0649719
           }
           Rotation {
             Yaw: -8.14221845e-13
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.9
+            Y: 0.9
+            Z: 0.9
           }
         }
-        ParentId: 12128949384975962912
-        ChildIds: 9269793271267858558
-        ChildIds: 4998014835231886658
-        ChildIds: 15718138915775481028
-        ChildIds: 5826342375828316969
-        ChildIds: 11078637702811570494
-        ChildIds: 12846722713812444796
-        ChildIds: 2402068060228698809
-        ChildIds: 16356292175282719326
-        ChildIds: 13441675543663843855
-        ChildIds: 14592596466690799374
-        ChildIds: 18253357191665677794
-        ChildIds: 15134058325624315059
-        ChildIds: 6206450827223457050
-        ChildIds: 14719074240851626938
-        ChildIds: 3346285085728204362
-        ChildIds: 9533730414933726212
-        ChildIds: 2728041708477440704
-        ChildIds: 16318823828994705343
-        ChildIds: 17694546396620646803
-        ChildIds: 18323034230358005476
-        ChildIds: 13876645964306357793
-        ChildIds: 2231206303323089122
-        ChildIds: 15617851518473376638
-        ChildIds: 8896059878779155418
-        ChildIds: 17721114637537757098
-        ChildIds: 8419262468130434799
-        ChildIds: 5406923499666832915
-        ChildIds: 7421941139291922011
+        ParentId: 17665529405683483588
+        ChildIds: 5284305694957025626
+        ChildIds: 17151867609908503837
+        ChildIds: 15388084719770513116
+        ChildIds: 8561337485247433508
+        ChildIds: 8411886080673477486
+        ChildIds: 12540897403565458995
+        ChildIds: 16953819473404781207
+        ChildIds: 16754097115389913727
+        ChildIds: 16820586283518969353
+        ChildIds: 12267136586527209399
+        ChildIds: 11551203071424360091
+        ChildIds: 11351024347130642535
+        ChildIds: 11629943129248139184
+        ChildIds: 9267205939837446779
+        ChildIds: 15258293615077282980
+        ChildIds: 17695470864943185752
+        ChildIds: 8077679165646979625
+        ChildIds: 12651518004139986511
+        ChildIds: 3231738790897129023
+        ChildIds: 7024892940003645576
+        ChildIds: 17463892094339440924
+        ChildIds: 11612246099754775170
+        ChildIds: 15128907762157599795
+        ChildIds: 17363725875295815267
+        ChildIds: 13965883165283616674
+        ChildIds: 15255865085940912157
+        ChildIds: 3364756758772009910
+        ChildIds: 5129778719086419811
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1052,7 +1052,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9269793271267858558
+        Id: 5284305694957025626
         Name: "Modern Weapon Accessory - Rail 02"
         Transform {
           Location {
@@ -1070,7 +1070,7 @@ Assets {
             Z: 0.926806748
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1110,7 +1110,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4998014835231886658
+        Id: 17151867609908503837
         Name: "Modern Weapon Accessory - Rail 02"
         Transform {
           Location {
@@ -1129,7 +1129,7 @@ Assets {
             Z: 0.926806748
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -1169,7 +1169,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15718138915775481028
+        Id: 15388084719770513116
         Name: "Modern Weapon Accessory - Rail 02"
         Transform {
           Location {
@@ -1188,7 +1188,7 @@ Assets {
             Z: 0.926806748
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -1228,7 +1228,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5826342375828316969
+        Id: 8561337485247433508
         Name: "Modern Weapon Accessory - Rail 02"
         Transform {
           Location {
@@ -1247,7 +1247,7 @@ Assets {
             Z: 0.926806748
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1287,7 +1287,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11078637702811570494
+        Id: 8411886080673477486
         Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
@@ -1306,7 +1306,7 @@ Assets {
             Z: 1.58262658
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -1331,7 +1331,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12846722713812444796
+        Id: 12540897403565458995
         Name: "Modern Weapon - Stock 02"
         Transform {
           Location {
@@ -1349,7 +1349,7 @@ Assets {
             Z: 0.99999994
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1395,7 +1395,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2402068060228698809
+        Id: 16953819473404781207
         Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
@@ -1414,7 +1414,7 @@ Assets {
             Z: 1.58262658
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -1439,7 +1439,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16356292175282719326
+        Id: 16754097115389913727
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -1458,7 +1458,7 @@ Assets {
             Z: 0.112243503
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1544,7 +1544,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13441675543663843855
+        Id: 16820586283518969353
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -1563,7 +1563,7 @@ Assets {
             Z: 2.52000022
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -1621,7 +1621,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14592596466690799374
+        Id: 12267136586527209399
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -1640,7 +1640,7 @@ Assets {
             Z: 0.572366893
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -1683,7 +1683,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18253357191665677794
+        Id: 11551203071424360091
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -1702,7 +1702,7 @@ Assets {
             Z: 1.55270803
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -1768,7 +1768,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15134058325624315059
+        Id: 11351024347130642535
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -1787,7 +1787,7 @@ Assets {
             Z: 0.612330079
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -1851,7 +1851,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6206450827223457050
+        Id: 11629943129248139184
         Name: "Cabinet Topper - Narrow"
         Transform {
           Location {
@@ -1870,7 +1870,7 @@ Assets {
             Z: 0.112243503
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1940,7 +1940,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14719074240851626938
+        Id: 9267205939837446779
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -1959,7 +1959,7 @@ Assets {
             Z: 0.092388
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2014,7 +2014,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3346285085728204362
+        Id: 15258293615077282980
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2033,7 +2033,7 @@ Assets {
             Z: 0.092388
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2088,7 +2088,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9533730414933726212
+        Id: 17695470864943185752
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2107,7 +2107,7 @@ Assets {
             Z: 0.27
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2167,7 +2167,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2728041708477440704
+        Id: 8077679165646979625
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2186,7 +2186,7 @@ Assets {
             Z: 0.9
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2238,7 +2238,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16318823828994705343
+        Id: 12651518004139986511
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2256,7 +2256,7 @@ Assets {
             Z: 0.0522902757
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2303,7 +2303,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17694546396620646803
+        Id: 3231738790897129023
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2322,7 +2322,7 @@ Assets {
             Z: 0.577951968
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2365,7 +2365,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18323034230358005476
+        Id: 7024892940003645576
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2384,7 +2384,7 @@ Assets {
             Z: 0.0314485654
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2421,7 +2421,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13876645964306357793
+        Id: 17463892094339440924
         Name: "Point_Muzzle"
         Transform {
           Location {
@@ -2437,7 +2437,7 @@ Assets {
             Z: 0.700000048
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2449,7 +2449,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2231206303323089122
+        Id: 11612246099754775170
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2468,7 +2468,7 @@ Assets {
             Z: 0.0766193792
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2515,7 +2515,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15617851518473376638
+        Id: 15128907762157599795
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2534,7 +2534,7 @@ Assets {
             Z: 0.0522897914
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2581,7 +2581,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8896059878779155418
+        Id: 17363725875295815267
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2600,7 +2600,7 @@ Assets {
             Z: 0.0314019136
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2647,7 +2647,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17721114637537757098
+        Id: 13965883165283616674
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2666,7 +2666,7 @@ Assets {
             Z: 0.0522896275
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2713,7 +2713,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8419262468130434799
+        Id: 15255865085940912157
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2732,7 +2732,7 @@ Assets {
             Z: 0.0876342803
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2779,7 +2779,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5406923499666832915
+        Id: 3364756758772009910
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2798,7 +2798,7 @@ Assets {
             Z: 1.14965379
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2855,7 +2855,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7421941139291922011
+        Id: 5129778719086419811
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
@@ -2874,7 +2874,7 @@ Assets {
             Z: 0.324965239
           }
         }
-        ParentId: 8327045972313696272
+        ParentId: 15591278160746870580
         UnregisteredParameters {
           Overrides {
             Name: "cs:CustomMetalBasicSteel"
@@ -2925,7 +2925,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5659873967681902947
+        Id: 4077408325643448635
         Name: "Handle"
         Transform {
           Location {
@@ -2941,14 +2941,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12128949384975962912
-        ChildIds: 9454546305788336585
-        ChildIds: 3479177950499538561
-        ChildIds: 13178212500474766110
-        ChildIds: 4132714763150188670
-        ChildIds: 7591665842359049877
-        ChildIds: 326226855809829824
-        ChildIds: 7809233886525077351
+        ParentId: 17665529405683483588
+        ChildIds: 9657935134455865793
+        ChildIds: 10445006366950440896
+        ChildIds: 7191358437119105639
+        ChildIds: 9569218238098814291
+        ChildIds: 3195094523658450469
+        ChildIds: 861331569879645386
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -2962,17 +2961,18 @@ Assets {
         }
       }
       Objects {
-        Id: 9454546305788336585
+        Id: 9657935134455865793
         Name: "Modern Weapon - Grip 03"
         Transform {
           Location {
-            X: -15
-            Z: 15
+            X: -15.0000019
+            Y: 1.88884
+            Z: 14.8240738
           }
           Rotation {
             Pitch: -6.10351563e-05
             Yaw: -6.10351563e-05
-            Roll: 179.999756
+            Roll: -151.056
           }
           Scale {
             X: 1.89999986
@@ -2980,7 +2980,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5659873967681902947
+        ParentId: 4077408325643448635
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3043,7 +3043,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3479177950499538561
+        Id: 10445006366950440896
         Name: "Modern Weapon Accessory - Laser 01"
         Transform {
           Location {
@@ -3060,7 +3060,7 @@ Assets {
             Z: 1.08579087
           }
         }
-        ParentId: 5659873967681902947
+        ParentId: 4077408325643448635
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3124,14 +3124,16 @@ Assets {
         }
       }
       Objects {
-        Id: 13178212500474766110
+        Id: 7191358437119105639
         Name: "Modern Weapon - Body 04"
         Transform {
           Location {
             X: 38.5420837
+            Y: 1.207
             Z: 13.5916138
           }
           Rotation {
+            Roll: 28.944
           }
           Scale {
             X: 0.993164182
@@ -3139,7 +3141,7 @@ Assets {
             Z: 0.821323
           }
         }
-        ParentId: 5659873967681902947
+        ParentId: 4077408325643448635
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3202,7 +3204,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4132714763150188670
+        Id: 9569218238098814291
         Name: "Modern Weapon - Grip 01"
         Transform {
           Location {
@@ -3217,7 +3219,7 @@ Assets {
             Z: 1.05777085
           }
         }
-        ParentId: 5659873967681902947
+        ParentId: 4077408325643448635
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -3288,95 +3290,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7591665842359049877
-        Name: "Modern Weapon - Grip 01"
-        Transform {
-          Location {
-            X: 55
-            Z: 5
-          }
-          Rotation {
-            Pitch: -11.2499695
-            Yaw: -179.999954
-          }
-          Scale {
-            X: 0.879064739
-            Y: 1.43202746
-            Z: 1.05777085
-          }
-        }
-        ParentId: 5659873967681902947
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 5825015806398044810
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5825015806398044810
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 2
-              G: 2
-              B: 2
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.125
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.125
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:utile"
-            Float: 0.125
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:vtile"
-            Float: 0.125
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9933034030368674416
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 326226855809829824
+        Id: 3195094523658450469
         Name: "Point_Body"
         Transform {
           Location {
@@ -3391,7 +3305,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5659873967681902947
+        ParentId: 4077408325643448635
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3403,7 +3317,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7809233886525077351
+        Id: 861331569879645386
         Name: "Point_Sights"
         Transform {
           Location {
@@ -3419,7 +3333,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5659873967681902947
+        ParentId: 4077408325643448635
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3431,7 +3345,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4078300941362529291
+        Id: 4682672696406432487
         Name: "WeaponAimScopeClient template"
         Transform {
           Location {
@@ -3444,12 +3358,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6218048119892740002
+        ParentId: 14290331879717303285
         UnregisteredParameters {
           Overrides {
             Name: "cs:ClientArt"
             ObjectReference {
-              SubObjectId: 12128949384975962912
+              SubObjectId: 17665529405683483588
             }
           }
           Overrides {

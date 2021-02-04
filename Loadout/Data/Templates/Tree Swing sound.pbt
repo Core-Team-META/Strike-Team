@@ -31,9 +31,8 @@ Assets {
           Transient: true
           Pitch: 262.196777
           Volume: 1.5
-          Falloff: -1
+          Falloff: 1200
           Radius: -1
-          EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
