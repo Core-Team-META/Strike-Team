@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1353993627562093065
+        ParentId: 4781671109827199097
         ChildIds: 12691333552981255559
         WantsNetworking: true
         Collidable_v2 {
@@ -35,7 +35,6 @@ Assets {
           Location {
           }
           Rotation {
-            Roll: 90
           }
           Scale {
             X: 0.25

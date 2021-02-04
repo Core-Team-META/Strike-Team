@@ -26,13 +26,13 @@ local gameTypes = {}
 local currentGameTypeId
 local currentGameInfo = {}
 local scoreLimit
-
+local roundStartTime = nil
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
 local function SetRespawnFlag(player)
-    if currentGameTypeId > 0 and GT_API.GetShouldRespawn(currentGameTypeId) then
+    if currentGameTypeId and currentGameTypeId > 0 and GT_API.GetShouldRespawn(currentGameTypeId) then
         player:SetResource("GM.RESPAWN_ENABLED", 1)
     else
         player:SetResource("GM.RESPAWN_ENABLED", 0)
@@ -45,13 +45,18 @@ local function SetPlayersRespawn()
     end
 end
 
-local function SetCurrentGameState(gameTypeId)
+local function SetCurrentGameId(gameTypeId)
     NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", gameTypeId)
     currentGameTypeId = gameTypeId
+    Task.Wait()
     SetPlayersRespawn()
 end
 
-local function GetCurrentGameState()
+local function SetRoundDuration(duration)
+    NETWORKED:SetNetworkedCustomProperty("ROUND_DURATION", duration)
+end
+
+local function GetCurrentGameId()
     currentGameTypeId = NETWORKED:GetCustomProperty("GAME_TYPE_ID")
     currentGameInfo = GT_API.GetGameTypeInfo(currentGameTypeId)
     return currentGameTypeId
@@ -59,7 +64,7 @@ end
 
 local function OnGameTypeChanged(object, string)
     if object == NETWORKED then
-        GetCurrentGameState()
+        GetCurrentGameId()
     end
 end
 
@@ -72,7 +77,7 @@ function Int()
     gameTypes = GT_API.GetGameTypeList()
     currentGameInfo = GT_API.GetGameTypeInfo(DEFAULT_GAME_STATE)
     Task.Wait(1)
-    SetCurrentGameState(DEFAULT_GAME_STATE)
+    SetCurrentGameId(DEFAULT_GAME_STATE)
 end
 
 -- nil OnPlayerDied(Player, Damage)
@@ -83,6 +88,26 @@ end
 -- nil OnPlayerDied(Player, Damage)
 function OnPlayerDamaged(player, damage)
     GT_API.OnPlayerDamaged(player, damage, currentGameTypeId)
+end
+
+function OnPlayerLeft(player)
+    Task.Wait() -- Wait one frame to make sure player that left is no longer in game
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+        local players = Game.GetPlayers()
+        local shouldEnd = true
+        local lastTeam
+        for _, remainingPlayer in ipairs(players) do
+            lastTeam = lastTeam or remainingPlayer.team
+            if remainingPlayer.team ~= lastTeam then
+                shouldEnd = false
+            end
+        end
+        if #players <= 1 or shouldEnd then
+            _G["GameWinner"] = lastTeam
+            Events.Broadcast("TeamVictory", lastTeam)
+            ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+        end
+    end
 end
 
 -- nil OnPlayerJoined(Player)
@@ -103,7 +128,7 @@ function Tick(deltaTime)
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND and currentGameTypeId > 0 then
         local winningTeam = nil
         for i = 0, 4 do
-            if Game.GetTeamScore(i) >= currentGameInfo.score then
+            if Game.GetTeamScore(i) >= GT_API.GetCurrentScoreLimit(currentGameTypeId) then
                 if winningTeam then
                     Events.Broadcast("TieVictory")
                     ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
@@ -117,6 +142,7 @@ function Tick(deltaTime)
 
         if winningTeam then
             _G["GameWinner"] = winningTeam
+            SetCurrentGameId(0) -- Used to reset Game Modes
             Events.Broadcast("TeamVictory", winningTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         --NETWORKED:SetNetworkedCustomProperty("GAME_TYPE_ID", 1)
@@ -124,14 +150,17 @@ function Tick(deltaTime)
     end
 end
 
-function OnGameStateChanged(oldState, newState, hasDuration, time)
+function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
-        SetCurrentGameState(0) -- Used to reset Game Modes
+        SetCurrentGameId(0) -- Used to reset Game Modes
+        SetRoundDuration(time() - roundStartTime)
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
-        local currentState = GetCurrentGameState()
+        local currentState = GetCurrentGameId()
+        roundStartTime = time()
         if currentState > 0 then
             Events.BroadcastToAllPlayers("BannerMessage", nil, 5, currentState)
+            Events.Broadcast("GM.START", currentState)
         end
     end
 end
@@ -140,6 +169,7 @@ end
 -- INTALIZATION
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Game.playerLeftEvent:Connect(OnPlayerLeft)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Int()

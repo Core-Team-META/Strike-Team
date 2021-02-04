@@ -127,7 +127,6 @@ function OnPlayerDied(player, damage, id)
         local endPosition = player:GetWorldPosition()
         endPosition.z = endPosition.z - 2000
         local hitResult = World.Raycast(playerPos, endPosition, {ignorePlayers = true})
-        print(hitResult)
         if hitResult then
             local hitPos = hitResult:GetImpactPosition()
             local newGrave = GT_API.SpawnAsset(REVIVE_TEMPLATE, {position = hitPos, parent = SPAWNED_OBJECTS})

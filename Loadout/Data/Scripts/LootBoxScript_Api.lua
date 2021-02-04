@@ -84,8 +84,11 @@ if Environment.IsServer() then
         player:SetResource("Lootbox.CanOpen",data2["Lootbox.CanOpen"] or 0)
 
         if data2["Lootbox.CanOpen"] == 1 then
-            LootBox.Lock(player) 
-            LootBox.UpdateOpenTime(player,os.difftime(CloseTime,os.time()))
+            Task.Spawn(function()  
+                LootBox.UpdateOpenTime(player,os.difftime(CloseTime,os.time())-1) 
+                LootBox.Lock(player) 
+            end, 1)
+           
         end
     end
     

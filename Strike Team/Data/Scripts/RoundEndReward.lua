@@ -19,12 +19,31 @@ function RoundEndHandler.CalculateCash(player,Win)
         FinishValue = LoseValue
     end
 
-    return localPlayer.kills * KillValue + localPlayer:GetResource("Headshots") * HeadshotValue + FinishValue
+    local val = localPlayer.kills * KillValue + localPlayer:GetResource("Headshots") * HeadshotValue + FinishValue
+    RoundEndHandler.AddCash(player,val)
 end
 
 function RoundEndHandler.CalculateGold(player,Win)
+    if Win then
+        RoundEndHandler.AddGold(player,3)
+    else
+        RoundEndHandler.AddGold(player,1)
+    end
+end
+
+
+function RoundEndHandler.CalculateXP(player,Win)
+    
+    local FinishValue = 0
+    if Win then
+        FinishValue = 500
+    else
+        FinishValue = 300
+    end
+    player.clientUserData.XP:AddXP(FinishValue)
 
 end
+
 
 function RoundEndHandler.AddCash(player,amount)
     player:AddResource("Cash", amount)
@@ -49,6 +68,15 @@ function RoundEndHandler.Save(player)
     data["Cash"] = player:SetResource("Cash", Cash)
     data["Gold"] = player:SetResource("Gold", Gold)
     Storage.SetSharedPlayerData(_G["StatKey"],player,data)
+end
+
+function RoundEndHandler.GameEnd()
+    for _,player in pairs(Game.GetPlayers()) do
+        local Win = G["GameWinner"] == player.team
+        RoundEndHandler.CalculateCash(player,Win)
+        RoundEndHandler.CalculateGold(player,Win)
+        RoundEndHandler.CalculateXP(player,Win)
+    end
 end
 
 

@@ -41,9 +41,8 @@ Assets {
             AutoPlay: true
             Transient: true
             Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
+            Falloff: 1400
+            Radius: 600
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }

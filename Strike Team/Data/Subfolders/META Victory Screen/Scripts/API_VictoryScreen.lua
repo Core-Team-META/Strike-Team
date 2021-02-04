@@ -234,7 +234,7 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 
 	Task.Wait()
 
-	SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id) -- topThreePlayerStats
+	--SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id) -- topThreePlayerStats
 
 	if(duration > 0) then
 		tasks[player] = Task.Spawn(function()
@@ -256,9 +256,6 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 		_G["DefaultPlayerSetting"]:ApplyToPlayer(player)
 
 	end
-
-
-	SendBroadcast(player, "RestoreFromVictoryScreen", victoryScreen:GetReference().id)
 
 	player.movementControlMode = data.originalMovementControlMode
 	player.lookControlMode = data.originalLookControlMode 

@@ -17,27 +17,10 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 11013752462242932162
+        ChildIds: 13108948165720922713
         ChildIds: 5160837567682101239
         ChildIds: 13978468043225444350
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:ForegroundImage"
-            ObjectReference {
-              SubObjectId: 5160837567682101239
-            }
-          }
-          Overrides {
-            Name: "cs:BackgroundImage"
-            ObjectReference {
-              SubObjectId: 11013752462242932162
-            }
-          }
-          Overrides {
-            Name: "cs:TextBox"
-            ObjectReference {
-              SubObjectId: 13978468043225444350
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -105,11 +88,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 1814707273787853473
             }
             Color {
-              R: 1
-              G: 0.119205296
-              A: 0.347
+              R: 0.0989583358
+              G: 0.0989583358
+              B: 0.0989583358
+              A: 1
             }
             TeamSettings {
             }
@@ -159,10 +144,12 @@ Assets {
           UseParentWidth: true
           Image {
             Brush {
+              Id: 1814707273787853473
             }
             Color {
-              R: 1
-              G: 0.541187048
+              R: 0.59375
+              G: 0.59375
+              B: 0.59375
               A: 0.896
             }
             TeamSettings {
@@ -213,10 +200,12 @@ Assets {
           UseParentWidth: true
           Image {
             Brush {
+              Id: 1814707273787853473
             }
             Color {
-              R: 1
-              G: 0.541187048
+              R: 0.59375
+              G: 0.59375
+              B: 0.59375
               A: 0.896
             }
             TeamSettings {
@@ -267,10 +256,12 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 1814707273787853473
             }
             Color {
-              R: 1
-              G: 0.541187048
+              R: 0.59375
+              G: 0.59375
+              B: 0.59375
               A: 0.896
             }
             TeamSettings {
@@ -321,10 +312,12 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 1814707273787853473
             }
             Color {
-              R: 1
-              G: 0.541187048
+              R: 0.59375
+              G: 0.59375
+              B: 0.59375
               A: 0.896
             }
             TeamSettings {
@@ -339,6 +332,63 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middleright"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13108948165720922713
+        Name: "FG Shadow"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16904210639392218704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 4
+          Height: 4
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 4327115782314725386
+            }
+            Color {
+              R: 0.98
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -379,7 +429,7 @@ Assets {
               Id: 4327115782314725386
             }
             Color {
-              R: 0.919999957
+              R: 0.494791657
               A: 1
             }
             TeamSettings {
@@ -421,6 +471,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
+          UIY: 3
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -437,7 +488,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 17
+            Size: 14
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -456,6 +507,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 1814707273787853473
+      Name: "BG Flat 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_020"
       }
     }
     Assets {

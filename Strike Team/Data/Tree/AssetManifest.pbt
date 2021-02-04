@@ -1,10 +1,10 @@
 Assets {
-  Id: 17500049575933404364
-  Name: "Stat"
+  Id: 10247172121396960560
+  Name: "Loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "620c4217262d4eb9ad914cecc90e65e1"
+      Key: "465f04ada8db41ba8b76d5855dfba9e8"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,25 @@ Assets {
   }
 }
 Assets {
-  Id: 12778912323373063402
+  Id: 9073233642542762246
+  Name: "Stats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "33683a52583748ba9580eb335f4f0256"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 3570503988882333139
   Name: "Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "37aaae07876c4509bd0c1858492798dc"
+      Key: "c73406fa2dc54237969f3f3024512919"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -31,18 +44,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
-  }
-}
-Assets {
-  Id: 566442701859588290
-  Name: "Weapons"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e5b0a123233e4117aa5d09b213df9522"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }

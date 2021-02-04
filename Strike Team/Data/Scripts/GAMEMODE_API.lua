@@ -69,6 +69,7 @@ function API.RegisterGameTypes(list)
             local icon = gameType:GetCustomProperty("ICON")
             local shouldRespawn = gameType:GetCustomProperty("SHOULD_RESPAWN")
             local gameInfo = gameType:GetCustomProperty("GAME_INFO")
+            local hasMultiplier = gameType:GetCustomProperty("PLAYER_SCORE_MULTIPLIER")
 
             local gameTypeInfo = {
                 id = id,
@@ -78,7 +79,8 @@ function API.RegisterGameTypes(list)
                 spawn = spawnSettings,
                 icon = icon,
                 respawn = shouldRespawn,
-                info = gameInfo
+                info = gameInfo,
+                hasMultiplier = hasMultiplier
             }
             if enabled then
                 gameTypeList[id] = gameTypeInfo
@@ -108,7 +110,7 @@ function API.GetGameTypeName(id)
         warn("Game Mode Name Doesn't Exsist")
         return nil
     end
-    if id == 0 then
+    if not id or id == 0 then
         return ""
     end
     return gameTypeList[id].name
@@ -119,7 +121,12 @@ function API.GetCurrentScoreLimit(id)
         warn("Game Mode Score Limit Doesn't Exsist")
         return nil
     end
-    return gameTypeList[id].score
+    local scoreLimit = gameTypeList[id].score
+    if gameTypeList[id].hasMultiplier then
+        local players = Game.GetPlayers()
+        scoreLimit = CoreMath.Round(gameTypeList[id].score * #players)
+    end
+    return scoreLimit
 end
 
 function API.GetPointsPerObjective(id)
@@ -305,51 +312,6 @@ function API.TablePrint(tbl, indent)
     end
 end
 
-function API.IsTableValid(cosmeticTable, class, team, skin, bind, bool)
-    if cosmeticTable[class] == nil then
-        if bool then
-            error(string.format("Unknown value of '%s' (%s) passed to cosmeticTable[class]", class, type(class)))
-        end
-        return false
-    end
-    if cosmeticTable[class][team] == nil then
-        if bool then
-            error(
-                string.format(
-                    "Unknown value of '%s' (%s) passed to cosmeticTable[class][player.team]",
-                    team,
-                    type(team)
-                )
-            )
-        end
-        return false
-    end
-    if cosmeticTable[class][team][skin] == nil then
-        if bool then
-            error(
-                string.format(
-                    "Unknown value of '%s' (%s) passed to cosmeticTable[class][player.team][skin]",
-                    skin,
-                    type(skin)
-                )
-            )
-        end
-        return false
-    end
-    if cosmeticTable[class][team][skin][bind] == nil then
-        if bool then
-            error(
-                string.format(
-                    "Unknown value of '%s' (%s) passed to cosmeticTable[class][player.team][skin][bind]",
-                    bind,
-                    type(bind)
-                )
-            )
-        end
-        return false
-    end
-    return true
-end
 
 ------------------------------------------------------------------------------------------------------------------------
 -- CLIENT TO SERVER EVENTS
@@ -439,8 +401,3 @@ function API.BroadcastObjectiveSpawned(object, position)
     Events.Broadcast(NAMESPACE.S_SPAWN_OBJECTIVE, object, position)
 end
 
---@param object object
---@param vector3 position
-function API.BroadcastObjectiveSpawned(object, position)
-    Events.Broadcast(NAMESPACE.S_SPAWN_OBJECTIVE, object, position)
-end

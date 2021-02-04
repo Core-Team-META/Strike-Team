@@ -24,11 +24,12 @@ Objects {
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
-  ChildIds: 3726698988231598828
+  ChildIds: 9540270308253040293
   ChildIds: 65150042230850511
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
   ChildIds: 11909944240055752873
+  ChildIds: 4844186550665608289
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +39,104 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4844186550665608289
+  Name: "Static Player Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 5408501193173913126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 14794282669603087959
+      }
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:EquipmentTemplate:tooltip"
+      String: "Equipment template to give to players"
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "If non-zero, only give equipment to players on that team"
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn:tooltip"
+      String: "Whether to replace that equipment every time a player spawns"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4844186550665608289
+    SubobjectId: 16657464430720987128
+    InstanceId: 11092880014026289573
+    TemplateId: 9718897046451062113
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 5408501193173913126
+  Name: "StaticPlayerEquipmentServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4844186550665608289
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 4844186550665608289
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3403025055362370891
+    }
+  }
+  InstanceHistory {
+    SelfId: 5408501193173913126
+    SubobjectId: 17230748584674696639
+    InstanceId: 11092880014026289573
+    TemplateId: 9718897046451062113
   }
 }
 Objects {
@@ -115,6 +214,7 @@ Objects {
   ChildIds: 15033543341472117485
   ChildIds: 8042637274710802851
   ChildIds: 8582034180734954063
+  ChildIds: 17997573308487658100
   ChildIds: 16282647591966498348
   ChildIds: 6849286984252889154
   ChildIds: 18131314453509860071
@@ -1162,6 +1262,53 @@ Objects {
   }
 }
 Objects {
+  Id: 17997573308487658100
+  Name: "UI Container"
+  Transform {
+    Location {
+      X: -49.0149689
+      Y: -854.999756
+      Z: 513.062744
+    }
+    Rotation {
+      Yaw: -89.204
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11951719430612397057
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 8582034180734954063
   Name: "EnableButtons"
   Transform {
@@ -1215,7 +1362,7 @@ Objects {
     Overrides {
       Name: "cs:MAIN_MENU_UI"
       ObjectReference {
-        SelfId: 16564750678633576762
+        SelfId: 17997573308487658100
       }
     }
   }
@@ -1285,7 +1432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3726698988231598828
+  Id: 9540270308253040293
   Name: "EquipmentHandler"
   Transform {
     Scale {
@@ -1295,12 +1442,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -1308,16 +1449,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
         }
       }
     }
@@ -31695,18 +31826,9 @@ Objects {
   ParentId: 4781671109827199097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "620c4217262d4eb9ad914cecc90e65e1"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "e5b0a123233e4117aa5d09b213df9522"
+        Key: "465f04ada8db41ba8b76d5855dfba9e8"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31715,7 +31837,16 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "37aaae07876c4509bd0c1858492798dc"
+        Key: "c73406fa2dc54237969f3f3024512919"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "33683a52583748ba9580eb335f4f0256"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

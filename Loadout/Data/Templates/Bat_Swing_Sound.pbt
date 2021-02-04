@@ -7,7 +7,7 @@ Assets {
       RootId: 3734815500250488058
       Objects {
         Id: 3734815500250488058
-        Name: "Melee Combat - Air Swipe Whooshes Set 01 SFX"
+        Name: "Bat_Swing_Sound"
         Transform {
           Scale {
             X: 1
@@ -33,9 +33,8 @@ Assets {
             AutoPlay: true
             Transient: true
             Volume: 1
-            Falloff: 3600
+            Falloff: 1600
             Radius: 400
-            EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }

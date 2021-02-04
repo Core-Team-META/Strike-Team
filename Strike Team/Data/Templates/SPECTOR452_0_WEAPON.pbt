@@ -166,7 +166,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 8
+            BurstDuration: 6
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {
@@ -942,7 +942,7 @@ Assets {
           AudioAsset {
             Id: 12004933164971763572
           }
-          Volume: 0.4
+          Volume: 0.8
           Falloff: -1
           Radius: -1
         }
@@ -972,7 +972,7 @@ Assets {
           AudioAsset {
             Id: 17757915654427719657
           }
-          Volume: 0.4
+          Volume: 0.7
           Falloff: -1
           Radius: -1
         }

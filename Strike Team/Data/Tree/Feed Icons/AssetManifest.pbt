@@ -26,21 +26,21 @@ Assets {
   }
 }
 Assets {
-  Id: 15918351247767818628
-  Name: "Icon Skull"
+  Id: 15778036656850063260
+  Name: "Grave"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Skull"
+    AssetId: "UI_Fantasy_Icon_Grave"
   }
 }
 Assets {
-  Id: 11392861163801782500
-  Name: "Icon Globe"
+  Id: 13586096600253432719
+  Name: "Fantasy Craft Stone 028"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Globe"
+    AssetId: "UI_Fantasy_Crafting_Stone_028"
   }
 }
 Assets {
@@ -71,12 +71,30 @@ Assets {
   }
 }
 Assets {
+  Id: 9031839549026265981
+  Name: "BG Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_015"
+  }
+}
+Assets {
   Id: 8614910665527548726
   Name: "Icon Grenade"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_Grenade"
+  }
+}
+Assets {
+  Id: 8269773699580383974
+  Name: "Crosshair 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Crosshair_001"
   }
 }
 Assets {
@@ -104,6 +122,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_WeaponGun"
+  }
+}
+Assets {
+  Id: 4447625100282739936
+  Name: "Sci-fi Gear Head 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Gear_Head_002"
   }
 }
 Assets {
@@ -149,5 +176,14 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_WeaponShotgun"
+  }
+}
+Assets {
+  Id: 96162478431907100
+  Name: "UI Gradient Circular 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Shape_001"
   }
 }

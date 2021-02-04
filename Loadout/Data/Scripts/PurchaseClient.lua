@@ -13,6 +13,7 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     ConfirmationPanel:GetCustomProperty("CloseButton"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     ConfirmationPanel.clientUserData.Skin = Skin
     ConfirmationPanel.clientUserData.Weapon = Weapon
+    ConfirmationPanel.clientUserData.Button = ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject()
     if Skin then
         ConfirmationPanel.clientUserData.type = "Skin"
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
@@ -79,19 +80,20 @@ function PurchaseClientManager.PurchaseSuccessful()
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
     end
     ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"
-    ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
+    ConfirmationPanel.clientUserData.buttonEvent    = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
+    Task.Wait(.5)
     Events.Broadcast("UpdatePanels")
 end
 
 function PurchaseClientManager.PurchaseError(Code)
     Task.Wait()
+    ConfirmationPanel.clientUserData.Button.text = "Okay"
     if  ConfirmationPanel.clientUserData.type == "Skin" then
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
     end
-    ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"
     ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
 end
@@ -100,20 +102,25 @@ function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin)
     ConfirmationPanel.clientUserData.buttonEvent:Disconnect()
     ConfirmationPanel.clientUserData.SuccessEvent = Events.Connect("PurchaseAPI_PurchaseSuccessful", PurchaseClientManager.PurchaseSuccessful)
     ConfirmationPanel.clientUserData.ErrorEvent = Events.Connect("PurchaseAPI_PurchaseError", PurchaseClientManager.PurchaseError)
+    ConfirmationPanel.clientUserData.Button.text = "Purchasing..."
     local Code = Purchase_API.BuySkin(Weapon,Skin)  
-    ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Purchasing..."
-    ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),Skin.name)
+    if Code ~= 1 then 
+        PurchaseClientManager.PurchaseError(Code)
+    end
+    --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),Skin.name)
 
 end
 
 function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
-    ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Purchasing..."
+    ConfirmationPanel.clientUserData.Button.text = "Purchasing..."
     ConfirmationPanel.clientUserData.buttonEvent:Disconnect()
     ConfirmationPanel.clientUserData.SuccessEvent = Events.Connect("PurchaseAPI_PurchaseSuccessful", PurchaseClientManager.PurchaseSuccessful)
     ConfirmationPanel.clientUserData.ErrorEvent = Events.Connect("PurchaseAPI_PurchaseError", PurchaseClientManager.PurchaseError)
     local Code = Purchase_API.BuyWeapon(Weapon)
-    ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),Weapon.data.name)
-    
+    --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),Weapon.data.name)
+    if Code ~= 1 then 
+        PurchaseClientManager.PurchaseError(Code)
+    end
 end
 
 

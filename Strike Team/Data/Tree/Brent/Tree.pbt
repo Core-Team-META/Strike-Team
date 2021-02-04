@@ -21,6 +21,7 @@ Objects {
   ChildIds: 4138500011707624131
   ChildIds: 13963835752669516336
   ChildIds: 10857687478960459655
+  ChildIds: 5767447152856169256
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
@@ -35,6 +36,32 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5767447152856169256
+  Name: "Point Indicator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16621625458669976284
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Point Indicator"
   }
 }
 Objects {
@@ -62,11 +89,19 @@ Objects {
       String: ""
     }
     Overrides {
+      Name: "cs:ROUND_DURATION"
+      Float: 0
+    }
+    Overrides {
       Name: "cs:GAME_TYPE_ID:isrep"
       Bool: true
     }
     Overrides {
       Name: "cs:VDATA:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ROUND_DURATION:isrep"
       Bool: true
     }
   }
@@ -205,6 +240,12 @@ Objects {
       Name: "cs:GAME_MODE_POLL"
       ObjectReference {
         SelfId: 12950382018174454502
+      }
+    }
+    Overrides {
+      Name: "cs:MATCH_LENGTH"
+      ObjectReference {
+        SelfId: 2420207814350621380
       }
     }
   }
@@ -1138,6 +1179,10 @@ Objects {
       String: "Kill Confirmed|Collect & Turn In Tags"
     }
     Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: false
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
       Int: 10
     }
@@ -1737,8 +1782,12 @@ Objects {
       String: "King Of Hills|Capture The Point"
     }
     Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: false
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 50
+      Int: 5
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -2039,8 +2088,12 @@ Objects {
       String: "Freeze Tag|Eliminate The Enemies "
     }
     Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: false
+    }
+    Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 200
+      Int: 20
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
@@ -2180,6 +2233,10 @@ Objects {
     Overrides {
       Name: "cs:GAME_INFO"
       String: "Team Death Match|Eliminate The Enemies"
+    }
+    Overrides {
+      Name: "cs:PLAYER_SCORE_MULTIPLIER"
+      Bool: true
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
@@ -2361,6 +2418,12 @@ Objects {
         SelfId: 6846188187095775388
       }
     }
+    Overrides {
+      Name: "cs:NETWORKED"
+      ObjectReference {
+        SelfId: 10857687478960459655
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2376,7 +2439,7 @@ Objects {
 }
 Objects {
   Id: 6369085057596370757
-  Name: "UI Container"
+  Name: "INFO_CONTAINER"
   Transform {
     Location {
     }
@@ -2443,7 +2506,7 @@ Objects {
   Control {
     Width: 201
     Height: 54
-    UIY: 54.2079
+    UIY: 45
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

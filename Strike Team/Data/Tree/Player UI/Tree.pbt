@@ -5037,7 +5037,7 @@ Objects {
     Width: 59
     Height: 61
     UIX: 40
-    UIY: -36.1853638
+    UIY: -37.4415894
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5055,7 +5055,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
-      ClipTextToSize: true
     }
     AnchorLayout {
       SelfAnchor {

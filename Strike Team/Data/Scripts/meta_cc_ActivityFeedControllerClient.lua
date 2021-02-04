@@ -4,6 +4,7 @@
 	by: Buckmonster
 	
 	Customizable activity feed, kills, join/leave, etc
+	
 --]]
 
 local TEXT_CALC = require(script:GetCustomProperty("GetTextLengthUTIL"))
@@ -19,6 +20,44 @@ local AF_TEXT_ON_IMAGE_TEMPLATE = script:GetCustomProperty("ActivityFeedTextOnIm
 local AF_ICONS = script:GetCustomProperty("FeedIcons"):WaitForObject()
 local AF_ICONS_ALL = AF_ICONS:GetChildren()
 local FEED_ICONS = {}
+
+function TablePrint(tbl, indent)
+    local formatting, lua_type
+    if tbl == nil then
+        print("Table was nil")
+        return
+    end
+    if type(tbl) ~= "table" then
+        print("Table is not a table, it is a " .. type(tbl))
+        return
+    end
+    if next(tbl) == nil then
+        print("Table is empty")
+        return
+    end
+    if not indent then
+        indent = 0
+    end
+    -- type(v) returns nil, number, string, function, CFunction, userdata, and table.
+    -- type(v) returns string, number, function, boolean, table or nil
+    for k, v in pairs(tbl) do
+        formatting = string.rep("  ", indent) .. k .. ": "
+        lua_type = type(v)
+        if lua_type == "table" then
+            print(formatting)
+            TablePrint(v, indent + 1)
+        elseif lua_type == "boolean" then
+            print(formatting .. tostring(v))
+        elseif lua_type == "function" then
+            print(formatting .. "function")
+        elseif lua_type == "userdata" then
+            print(formatting .. "userdata")
+        else
+            print(formatting .. v)
+        end
+    end
+end
+
 
 local testGuns = {}
 local testCounter = 1
@@ -41,10 +80,6 @@ for _, icon in pairs(AF_ICONS_ALL) do
 	end
 end
 
-
-
--- Individual feed settigns
-
 -- Kill Feed
 local KILL_FEED_SETTINGS = script:GetCustomProperty("KillFeedSettings"):WaitForObject()
 
@@ -62,6 +97,14 @@ local ICON_HEALTH = KILL_FEED_SETTINGS:GetCustomProperty("HealthIcon")
 local ICON_DISTANCE = KILL_FEED_SETTINGS:GetCustomProperty("DistanceIcon")
 local ICON_SIZE = KILL_FEED_SETTINGS:GetCustomProperty("IconSizePixels") or 40
 local GAP_SPACE = KILL_FEED_SETTINGS:GetCustomProperty("GapBetweenElements") or 10
+
+
+local HEALTH_HIGHBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGHigh")
+local HEALTH_HIGHFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGHigh")
+local HEALTH_MEDBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGMed")
+local HEALTH_MEDFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGMed")
+local HEALTH_LOWBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGLow")
+local HEALTH_LOWFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGLow")
 
 -- Check user properties
 if NUM_LINES < 1 then
@@ -139,11 +182,12 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 	end
 
 	killerColor = GetTeamColor(killerPlayer)
-	killedColor = GetTeamColor(killerPlayer)
+	killedColor = GetTeamColor(killedPlayer)
 
 	if killerPlayer == LOCAL_PLAYER then
 		killerColor = SELF_TEXT_COLOR
-	elseif  killedPlayer == LOCAL_PLAYER then
+	end
+	if  killedPlayer == LOCAL_PLAYER then
 		killedColor = SELF_TEXT_COLOR
 	end
 
@@ -166,7 +210,6 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		feedTable[4] = "" -- kill type (extra code)
 
 		if (extraCode == 1) then
-			print("HEADSHOT YA")
 			feedTable[4] = "Headshot"
 		elseif (extraCode == 2) then
 			feedTable[4] = "WorldKill"
@@ -180,16 +223,16 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		feedTable[8] = killedColor
 
 		if (SHOW_DISTANCE) then
-			feedTable[6] = tostring(GetDistance(killerPlayer, killedPlayer) / 100) .. "m"
+			feedTable[6] = tostring(CoreMath.Round(GetDistance(killerPlayer, killedPlayer) / 100,0)) .. "m"
 		end
 		if (SHOW_KILLER_HP) then
-			feedTable[5] = tostring(killerPlayer.hitPoints)
+			feedTable[5] = tostring(CoreMath.Round(killerPlayer.hitPoints,0))
 		end
 
 		if sourceObject then
-		AddLine(feedTable, lineColor)
+			AddLine(feedTable, lineColor)
 		else
-		AddLine(feedTable, lineColor)
+			AddLine(feedTable, lineColor)
 		end
 	end
 end
@@ -202,13 +245,11 @@ function Tick(deltaTime)
 			local age = time() - lines[i].displayTime
 			local color = lines[i].color
 
-
 			-- Full opacity until LINE_DURATION, then lerp to invisible over FADE_DURATION
 			-- color.a = CoreMath.Clamp(1.0 - (age - LINE_DURATION) / FADE_DURATION, 0.0, 1.0)
 
 			local feedLines = lineTemplates[i]:GetChildren()
 			local feedElements = {}
-
 
 			for _, element in ipairs(feedLines) do
 				if (element.name == "KilledText") then
@@ -225,7 +266,9 @@ function Tick(deltaTime)
 				if (element.name == "WeaponImage") then
 					if (lines[i].weaponUsed ~= "") then
 						local image = element:FindDescendantByName("FG Image")
-						image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
+						if (FEED_ICONS[lines[i].weaponUsed]) then
+							image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
+						end
 						feedElements["WeaponImage"] = element
 						feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
@@ -236,8 +279,91 @@ function Tick(deltaTime)
 				end
 				if (element.name == "SpecialImage") then
 					if (lines[i].killExtraCode ~= "") then
-						local image = element:FindDescendantByName("FG Image")
-						image:SetImage(FEED_ICONS[lines[i].killExtraCode].Icon)
+						local feedIconExtra = FEED_ICONS[lines[i].killExtraCode]
+						if (feedIconExtra) then
+							local image = element:FindDescendantByName("FG Image")
+							local imageShadow = element:FindDescendantByName("FG Shadow")
+							image:SetImage(feedIconExtra.Icon)
+							imageShadow:SetImage(feedIconExtra.Icon)
+							imageShadow:SetColor(feedIconExtra.IconShadowColor)
+
+							if (feedIconExtra.IconOffset.x ~= 0 or feedIconExtra.IconOffset.y ~= 0) then
+								image.x = feedIconExtra.IconOffset.x
+								image.y = feedIconExtra.IconOffset.y
+								imageShadow.x = feedIconExtra.IconOffset.x
+								imageShadow.y = feedIconExtra.IconOffset.y
+
+							end
+
+							if (feedIconExtra.IconWidthHeight.x ~= 0 or feedIconExtra.IconWidthHeight.y ~= 0) then
+								image.width = feedIconExtra.IconWidthHeight.x
+								image.height = feedIconExtra.IconWidthHeight.y
+								imageShadow.width = image.width + feedIconExtra.IconShadowSize
+								imageShadow.height = image.height + feedIconExtra.IconShadowSize
+							end
+
+							local imageBack =  element:FindDescendantByName("FG Back")
+							local imageBackShadow = element:FindDescendantByName("FG Back Shadow")
+							if (feedIconExtra.IconBG) then
+								if (feedIconExtra.IconBGShadow) then
+									imageBackShadow:SetImage(feedIconExtra.IconBGShadow)
+								else
+									imageBackShadow:SetImage(feedIconExtra.IconBG)
+								end
+								imageBackShadow:SetColor(feedIconExtra.IconBGShadowColor)
+
+								imageBack:SetImage(feedIconExtra.IconBG)
+								imageBack:SetColor(feedIconExtra.IconBGColor)
+
+								if (feedIconExtra.IconBGOffset.x ~= 0 or feedIconExtra.IconBGOffset.y ~= 0) then
+									imageBack.x = feedIconExtra.IconBGOffset.x
+									imageBack.y = feedIconExtra.IconBGOffset.y
+									imageBackShadow.x = feedIconExtra.IconBGOffset.x
+									imageBackShadow.y = feedIconExtra.IconBGOffset.y
+								end
+								imageBackShadow.width = feedIconExtra.IconBGShadowWidthHeight.x
+								imageBackShadow.height = feedIconExtra.IconBGShadowWidthHeight.y
+
+								if (feedIconExtra.IconBGWidthHeight.x ~= 0 or feedIconExtra.IconBGWidthHeight.y ~= 0) then
+									imageBack.width = feedIconExtra.IconBGWidthHeight.x
+									imageBack.height = feedIconExtra.IconBGWidthHeight.y
+								end
+
+								if (not imageBack:IsVisibleInHierarchy()) then
+									imageBack.visibility = Visibility.FORCE_ON
+									imageBackShadow.visibility = Visibility.FORCE_ON
+								end
+							else
+								if (imageBack:IsVisibleInHierarchy()) then
+									imageBack.visibility = Visibility.FORCE_OFF
+									imageBackShadow.visibility = Visibility.FORCE_OFF
+								end
+							end
+
+							local imageFront =  element:FindDescendantByName("FG Front")
+
+							if (feedIconExtra.IconFG) then
+								imageFront:SetImage(feedIconExtra.IconFG)
+								imageFront:SetColor(feedIconExtra.IconFGColor)
+
+								if (feedIconExtra.IconFGOffset.x ~= 0 or feedIconExtra.IconFGOffset.y ~= 0) then
+									imageFront.x = feedIconExtra.IconFGOffset.x
+									imageFront.y = feedIconExtra.IconFGOffset.y
+								end
+
+								if (feedIconExtra.IconFGWidthHeight.x ~= 0 or feedIconExtra.IconFGWidthHeight.y ~= 0) then
+
+									imageFront.width = feedIconExtra.IconFGWidthHeight.x
+									imageFront.height = feedIconExtra.IconFGWidthHeight.y
+								end
+
+								if (not imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_ON end
+							else
+								if (imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_OFF end
+							end
+
+
+						end
 						feedElements["SpecialImage"] = element
 						feedElements["SpecialImage"].width = ICON_SIZE -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
@@ -264,11 +390,30 @@ function Tick(deltaTime)
 				end
 				if (element.name == "KillerHealth") then
 					if (lines[i].killerHP ~= "") then
+						local imageBG = element:FindDescendantByName("BG Image")
+						-- imageBG:SetColor(Color.New(0,0,0,0))
+						imageBG.visibility = Visibility.FORCE_OFF
 						local image = element:FindDescendantByName("FG Image")
+						local imageShadow = element:FindDescendantByName("FG Shadow")
 						local textBox = element:FindDescendantByName("Text Box")
+
+						if (math.tointeger(lines[i].killerHP) > 75) then
+							image:SetColor(HEALTH_HIGHFG)
+							imageShadow:SetColor(HEALTH_HIGHBG)
+						elseif (math.tointeger(lines[i].killerHP) > 55) then
+							image:SetColor(HEALTH_MEDFG)
+							imageShadow:SetColor(HEALTH_MEDBG)
+						else
+							image:SetColor(HEALTH_LOWFG)
+							imageShadow:SetColor(HEALTH_LOWBG)
+						end
+
 						image:SetImage(ICON_HEALTH)
-						image.width = -12
-						image.height = -12
+						imageShadow:SetImage(ICON_HEALTH)
+						image.width = -5
+						image.height = -5
+						imageShadow.width = -1
+						imageShadow.height = -1
 						textBox.text = lines[i].killerHP
 						feedElements["KillerHealth"] = element
 						feedElements["KillerHealth"].width = ICON_SIZE -- set defaults
@@ -280,8 +425,14 @@ function Tick(deltaTime)
 				if (element.name == "Distance") then
 					if (lines[i].distance ~= "") then
 					local image = element:FindDescendantByName("FG Image")
+					local imageBG = element:FindDescendantByName("BG Image")
+					imageBG.width = -3
+					imageBG.height = -3
+					local imageShadow = element:FindDescendantByName("FG Shadow")
 					local textBox = element:FindDescendantByName("Text Box")
 					image:SetImage(ICON_DISTANCE)
+					image:SetColor(Color.New(0,0,0,0))
+					imageShadow:SetColor(Color.New(0,0,0,0))
 					textBox.text = lines[i].distance
 					feedElements["Distance"] = element
 					feedElements["Distance"].width = ICON_SIZE -- set defaults
@@ -393,14 +544,14 @@ Events.Connect("PlayerKilled", OnKill)
 -- if ShowJoinAndLeave, add a message for a player joining the game
 function OnPlayerJoined(player)
 	if time() > JOIN_MESSAGE_START then
-		AddLine(string.format("%s joined the game", player.name), TEXT_COLOR)
+		AddLine({"", string.format("%s joined the game", player.name), "", "PlayerJoined"}, TEXT_COLOR)
 	end
 end
 
 -- nil OnPlayerLeft(Player)
 -- if ShowJoinAndLeave, add a message for a player leaving the game
 function OnPlayerLeft(player)
-	AddLine(string.format("%s left the game", player.name), TEXT_COLOR)
+	AddLine({"", string.format("%s left the game", player.name), "", "PlayerLeft"}, TEXT_COLOR)
 end
 
 
@@ -408,9 +559,6 @@ if SHOW_JOIN_AND_LEAVE then
 	Game.playerJoinedEvent:Connect(OnPlayerJoined)
 	Game.playerLeftEvent:Connect(OnPlayerLeft)
 end
-
--- AddLine(string.format("%s killed %s with %s", "BobBob", "Buckmonster", "Shotgun V3"), Color.RED)
--- AddLine(string.format("%s killed %s with %s", "Stanzilla", "Buckmonster", "Railgun"), Color.WHITE)
 
 function GetTestName()
 local testNames = {
@@ -447,7 +595,7 @@ local playerTest = Game.GetLocalPlayer()
 
 -- for i = 0, 4 do
 
--- -- AddLine({GetTestName(), GetTestName(), GetTestWeapon(), "", tostring(math.random(1, 99)), tostring(math.random(3, 288)), ENEMY_COLOR, FRIENDLY_COLOR}, Color.WHITE)
+-- AddLine({GetTestName(), GetTestName(), GetTestWeapon(), "", tostring(math.random(1, 99)), tostring(math.random(3, 288)), ENEMY_COLOR, FRIENDLY_COLOR}, Color.WHITE)
 
 -- end
 

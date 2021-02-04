@@ -823,7 +823,51 @@ Objects {
     }
     Overrides {
       Name: "cs:GapBetweenElements"
-      Int: 10
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:HealthColorBGHigh"
+      Color {
+        G: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorFGHigh"
+      Color {
+        G: 0.394000024
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorBGMed"
+      Color {
+        R: 0.909999967
+        G: 0.795496702
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorFGMed"
+      Color {
+        R: 0.73
+        G: 0.217549741
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorBGLow"
+      Color {
+        R: 0.9
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthColorFGLow"
+      Color {
+        R: 0.350000024
+        A: 1
+      }
     }
     Overrides {
       Name: "cs:NumLines:tooltip"
@@ -925,7 +969,7 @@ Objects {
     Width: 500
     Height: 300
     UIX: -25
-    UIY: 25
+    UIY: 370
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1232,7 +1276,7 @@ Objects {
   Control {
     Width: 350
     Height: 350
-    UIX: 20
+    UIX: -20
     UIY: 20
     RenderTransformPivot {
       Anchor {
@@ -1244,12 +1288,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:topright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:topright"
         }
       }
     }

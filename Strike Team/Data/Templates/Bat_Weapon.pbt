@@ -87,9 +87,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.25
-            Y: 1.25
-            Z: 1.25
+            X: 1.8
+            Y: 1.8
+            Z: 1.8
           }
         }
         ParentId: 8969396636807140608
@@ -101,7 +101,7 @@ Assets {
           Overrides {
             Name: "cs:LocalPosition"
             Vector {
-              X: 100
+              X: 120
               Z: 150
             }
           }

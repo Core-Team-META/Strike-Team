@@ -209,9 +209,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -248,9 +248,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -287,9 +287,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -326,9 +326,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -365,9 +365,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -404,9 +404,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -443,9 +443,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -480,12 +480,11 @@ Objects {
       Y: 7.79129823e-06
     }
     Rotation {
-      Yaw: 180
     }
     Scale {
-      X: 1.00745189
-      Y: 0.999999106
-      Z: 1
+      X: 0.8
+      Y: 0.8
+      Z: 5
     }
   }
   ParentId: 4488895447310676345
@@ -7627,6 +7626,12 @@ Objects {
         SelfId: 4488895447310676345
       }
     }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7981,7 +7986,7 @@ Objects {
         Value: "mc:elookcontrolmode:relative"
       }
       FacingMode {
-        Value: "mc:efacingmode:faceaimalways"
+        Value: "mc:efacingmode:faceaimwhenactive"
       }
       DefaultRotationRate: 540
       SlideRotationRate: 20

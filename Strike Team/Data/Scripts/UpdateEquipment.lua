@@ -37,6 +37,7 @@ Events.Connect("RecieveData", function(key)
         Task.Wait() 
     end
     if NetworkObject then
+        LOCAL_PLAYER.clientUserData.NetworkSpawn = NetworkObject
         for i=1,8 do
             LOCAL_PLAYER.clientUserData.Loadouts[tostring(i)] = NetworkObject:GetCustomProperty("Loadouts"..tostring(i))
         end
@@ -44,10 +45,18 @@ Events.Connect("RecieveData", function(key)
         NetworkObject.networkedPropertyChangedEvent:Connect(function(obj,name)
             local index = CoreString.Trim(name,"Loadouts")
             LOCAL_PLAYER.clientUserData.Loadouts[index] = obj:GetCustomProperty(name)
+            if name == "EquippedLoadout" then 
+                local newData =  LOCAL_PLAYER.clientUserData.NetworkSpawn:GetCustomProperty("EquippedLoadout")
+                Events.Broadcast("UpdateLocalEquiped",newData)
+                LOCAL_PLAYER.clientUserData.PrevouslySelected = 1
+                LOCAL_PLAYER.clientUserData.CurrentlySelected = 1
+            end
         end)
+        local newData =  LOCAL_PLAYER.clientUserData.NetworkSpawn:GetCustomProperty("EquippedLoadout")
+        Events.Broadcast("UpdateLocalEquiped",newData)
     end
 end)
-    
+
 LOCAL_PLAYER.resourceChangedEvent:Connect(function(_,propname)
     if(propname == "EquipSlot") then
         defaultSlot = LOCAL_PLAYER:GetResource("EquipSlot")
@@ -65,5 +74,10 @@ end)
 Events.Broadcast("SetSlot", function(Slot)
     defaultSlot = Slot
 end)
-
+Events.Connect("BannerMessage",function(_,_,s_)
+    LOCAL_PLAYER.clientUserData.PrevouslySelected = 1
+    LOCAL_PLAYER.clientUserData.CurrentlySelected = 1
+    
+    Events.Broadcast("UIUpdateSected", 1)
+end)
 

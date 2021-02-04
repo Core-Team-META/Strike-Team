@@ -1,58 +1,6 @@
 Name: "Feed Icons"
 RootId: 12865564118021892379
 Objects {
-  Id: 12179782502593801559
-  Name: "Suicide"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12865564118021892379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Suicide"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 15918351247767818628
-      }
-    }
-    Overrides {
-      Name: "cs:Color"
-      Color {
-        R: 0.820000052
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18143543578217522570
-    }
-  }
-  InstanceHistory {
-    SelfId: 1307303175262046661
-    SubobjectId: 9686339643290058746
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
-}
-Objects {
   Id: 3495629711635025955
   Name: "Axe"
   Transform {
@@ -303,207 +251,6 @@ Objects {
   InstanceHistory {
     SelfId: 11665608824098524389
     SubobjectId: 3867504324987091674
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
-}
-Objects {
-  Id: 5179124286163218948
-  Name: "Player Joined"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12865564118021892379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Joined"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 3426494528448305421
-      }
-    }
-    Overrides {
-      Name: "cs:Color"
-      Color {
-        R: 0.0699335858
-        G: 0.960000038
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18143543578217522570
-    }
-  }
-  InstanceHistory {
-    SelfId: 5955748078834104786
-    SubobjectId: 14334854847461150701
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
-}
-Objects {
-  Id: 15932845705330292157
-  Name: "Default icon"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12865564118021892379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 9384520849142346961
-      }
-    }
-    Overrides {
-      Name: "cs:Name"
-      String: ""
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18143543578217522570
-    }
-  }
-  InstanceHistory {
-    SelfId: 14177134926407141542
-    SubobjectId: 5834411944586673817
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
-}
-Objects {
-  Id: 10773252250967993722
-  Name: "Player Left"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12865564118021892379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Left"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 3426494528448305421
-      }
-    }
-    Overrides {
-      Name: "cs:Color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18143543578217522570
-    }
-  }
-  InstanceHistory {
-    SelfId: 10721048094489838524
-    SubobjectId: 36138378962957699
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
-}
-Objects {
-  Id: 8658487432453620463
-  Name: "World Kills"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12865564118021892379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "WorldKill"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 11392861163801782500
-      }
-    }
-    Overrides {
-      Name: "cs:Color"
-      Color {
-        R: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18143543578217522570
-    }
-  }
-  InstanceHistory {
-    SelfId: 15628870861719372772
-    SubobjectId: 5524884181677962715
     InstanceId: 8298575278826370010
     TemplateId: 17637473600633499804
   }
@@ -969,7 +716,7 @@ Objects {
 }
 Objects {
   Id: 18074567123639543237
-  Name: "Rocket"
+  Name: "Manticore (Rocket)"
   Transform {
     Location {
     }
@@ -1071,7 +818,7 @@ Objects {
 }
 Objects {
   Id: 15760093634648187675
-  Name: "hk99"
+  Name: "HK99"
   Transform {
     Location {
     }
@@ -1121,8 +868,338 @@ Objects {
   }
 }
 Objects {
+  Id: 8658487432453620463
+  Name: "WorldKill"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "WorldKill"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9384520849142346961
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGColor"
+      Color {
+        R: 0.87
+        G: 0.587681949
+      }
+    }
+    Overrides {
+      Name: "cs:UseBGShadow"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:IconBGShadowColor"
+      Color {
+        R: 1
+        G: 0.432906151
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadow"
+      AssetReference {
+        Id: 9031839549026265981
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadowWidthHeight"
+      Vector2 {
+        X: -20
+        Y: -20
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 15628870861719372772
+    SubobjectId: 5524884181677962715
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 5179124286163218948
+  Name: "PlayerJoined"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Joined"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 3426494528448305421
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 0.0699335858
+        G: 0.960000038
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 5955748078834104786
+    SubobjectId: 14334854847461150701
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 10773252250967993722
+  Name: "PlayerLeft"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Left"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 3426494528448305421
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 10721048094489838524
+    SubobjectId: 36138378962957699
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 15932845705330292157
+  Name: "Default icon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9384520849142346961
+      }
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 14177134926407141542
+    SubobjectId: 5834411944586673817
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 12179782502593801559
+  Name: "Suicide"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Suicide"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 15778036656850063260
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 0.03125
+        G: 0.03125
+        B: 0.03125
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadow"
+      AssetReference {
+        Id: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadowColor"
+      Color {
+        R: 0.125
+        G: 0.125
+        B: 0.125
+      }
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGColor"
+      Color {
+        R: 0.169999957
+        G: 0.169999957
+        B: 0.169999957
+      }
+    }
+    Overrides {
+      Name: "cs:IconShadowColor"
+      Color {
+        R: 0.86
+        G: 0.102516554
+        A: 0.880000055
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 1307303175262046661
+    SubobjectId: 9686339643290058746
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
   Id: 4003583421109603923
-  Name: "Headshots"
+  Name: "Headshot"
   Transform {
     Location {
     }
@@ -1143,7 +1220,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 15918351247767818628
+        Id: 4447625100282739936
       }
     }
     Overrides {
@@ -1153,6 +1230,71 @@ Objects {
         G: 1
         B: 1
         A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:IconFG"
+      AssetReference {
+        Id: 13586096600253432719
+      }
+    }
+    Overrides {
+      Name: "cs:IconFGWidthHeight"
+      Vector2 {
+        X: -33
+        Y: -33
+      }
+    }
+    Overrides {
+      Name: "cs:IconWidthHeight"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:IconFGOffset"
+      Vector2 {
+        X: 1
+        Y: -11
+      }
+    }
+    Overrides {
+      Name: "cs:IconFGColor"
+      Color {
+        R: 0.97
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGWidthHeight"
+      Vector2 {
+        X: 22
+        Y: 22
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGColor"
+      Color {
+        R: 0.52
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadow"
+      AssetReference {
+        Id: 8269773699580383974
+      }
+    }
+    Overrides {
+      Name: "cs:IconBGShadowWidthHeight"
+      Vector2 {
+        X: 10
+        Y: 10
       }
     }
   }

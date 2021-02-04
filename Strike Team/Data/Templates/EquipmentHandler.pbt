@@ -239,6 +239,7 @@ Assets {
         ChildIds: 15949626322732622456
         ChildIds: 14290165114766666960
         ChildIds: 1194814725493114024
+        ChildIds: 15822486766312907939
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -573,6 +574,49 @@ Assets {
         }
       }
       Objects {
+        Id: 15822486766312907939
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16633893851116629943
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2411214559175194743
         Name: "Sub Machine Gun"
         Transform {
@@ -622,6 +666,7 @@ Assets {
         ChildIds: 18352586635243585147
         ChildIds: 4593871113840028907
         ChildIds: 6343054579178120469
+        ChildIds: 150839437167583962
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1003,6 +1048,49 @@ Assets {
         }
       }
       Objects {
+        Id: 150839437167583962
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 11462717942082342388
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 3005556808871161596
         Name: "Rocket Launcher"
         Transform {
@@ -1052,6 +1140,7 @@ Assets {
         ChildIds: 11138863980903535024
         ChildIds: 7737131913312273494
         ChildIds: 11316239447741515399
+        ChildIds: 879944085397459979
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1437,6 +1526,49 @@ Assets {
         }
       }
       Objects {
+        Id: 879944085397459979
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9110716462400792456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 17684164358030099933
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -1485,6 +1617,7 @@ Assets {
         ChildIds: 15028357033270769529
         ChildIds: 1330842254014705300
         ChildIds: 10935486809354048776
+        ChildIds: 6538821211355694563
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -1819,6 +1952,49 @@ Assets {
         }
       }
       Objects {
+        Id: 6538821211355694563
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5229818931147185942
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksmen Rifle"
         Transform {
@@ -1867,6 +2043,7 @@ Assets {
         ChildIds: 6104757118545260935
         ChildIds: 15841477914011716528
         ChildIds: 5170477236806679366
+        ChildIds: 12506067925580509979
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -2201,6 +2378,49 @@ Assets {
         }
       }
       Objects {
+        Id: 12506067925580509979
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 7945955606173075644
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -2249,6 +2469,7 @@ Assets {
         ChildIds: 17176433073047961143
         ChildIds: 14490382481188861381
         ChildIds: 5472474328079242064
+        ChildIds: 4010307702015998303
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -2587,6 +2808,49 @@ Assets {
         }
       }
       Objects {
+        Id: 4010307702015998303
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 9007767545092784188
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 3857468657531597669
         Name: "Light Machine Guns"
         Transform {
@@ -2635,6 +2899,7 @@ Assets {
         ChildIds: 18321665495611670854
         ChildIds: 16840370703545334633
         ChildIds: 733311154065032381
+        ChildIds: 17213134086025425073
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -2969,6 +3234,49 @@ Assets {
         }
       }
       Objects {
+        Id: 17213134086025425073
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1435390573666995919
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 12192491190375546086
         Name: "Secondary"
         Transform {
@@ -3045,6 +3353,7 @@ Assets {
         ChildIds: 14922265487132919700
         ChildIds: 10235649203003544940
         ChildIds: 8893804070353505390
+        ChildIds: 4932140709853725394
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -3368,6 +3677,49 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 4932140709853725394
+        Name: "Steam Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "SP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2479664347414693268
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {

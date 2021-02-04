@@ -98,19 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16345681961000261544
-  Name: "Stat"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "620c4217262d4eb9ad914cecc90e65e1"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 16021887436431412755
   Name: "Girder Medium Angled"
   PlatformAssetType: 1
@@ -153,6 +140,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_4m_ref"
+  }
+}
+Assets {
+  Id: 14621129723033520691
+  Name: "Stats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "33683a52583748ba9580eb335f4f0256"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -318,12 +318,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9907505148577637851
-  Name: "Weapons"
+  Id: 9925972641298311506
+  Name: "Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "e5b0a123233e4117aa5d09b213df9522"
+      Key: "c73406fa2dc54237969f3f3024512919"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -355,6 +355,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
+  Id: 9154906341476226929
+  Name: "Loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "465f04ada8db41ba8b76d5855dfba9e8"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -445,19 +458,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_001"
-  }
-}
-Assets {
-  Id: 7356629791123122286
-  Name: "Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "37aaae07876c4509bd0c1858492798dc"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {

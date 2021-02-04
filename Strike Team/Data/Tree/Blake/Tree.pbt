@@ -562,47 +562,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17418436480729624583
-  Name: "Reverb Zone"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Unbounded"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reverb Effect Preset"
-      Enum {
-        Value: "mc:ereverbtype:7"
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17846875740691099057
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
   Id: 17450326200040241075
   Name: "Motion Blur Post Process"
   Transform {
@@ -719,40 +678,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4487027079599289806
-  Name: "EquipmentHandler"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12469272091380785429
-    }
-  }
-}
-Objects {
   Id: 3242084157255297486
   Name: "lookatkiller"
   Transform {
@@ -792,6 +717,40 @@ Objects {
   }
 }
 Objects {
+  Id: 9071171406811434630
+  Name: "EquipmentHandler"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12469272091380785429
+    }
+  }
+}
+Objects {
   Id: 12364641759754756525
   Name: "StorageKeys"
   Transform {
@@ -808,9 +767,9 @@ Objects {
   ParentId: 10671565427701169845
   UnregisteredParameters {
     Overrides {
-      Name: "cs:StatKey"
+      Name: "cs:Storage"
       NetReference {
-        Key: "620c4217262d4eb9ad914cecc90e65e1"
+        Key: "c73406fa2dc54237969f3f3024512919"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -819,16 +778,16 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "e5b0a123233e4117aa5d09b213df9522"
+        Key: "465f04ada8db41ba8b76d5855dfba9e8"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:Storage"
+      Name: "cs:StatKey"
       NetReference {
-        Key: "37aaae07876c4509bd0c1858492798dc"
+        Key: "33683a52583748ba9580eb335f4f0256"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

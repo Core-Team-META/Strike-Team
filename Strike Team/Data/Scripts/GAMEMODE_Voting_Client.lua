@@ -19,6 +19,7 @@ local TIME_REMAINING = script:GetCustomProperty("TIME_REMAINING"):WaitForObject(
 local TIME_REMAINING2 = script:GetCustomProperty("TIME_REMAINING2"):WaitForObject()
 local NETWORKED = script:GetCustomProperty("NETWORKED"):WaitForObject()
 local GAME_MODE_POLL = script:GetCustomProperty("GAME_MODE_POLL"):WaitForObject()
+local MATCH_LENGTH = script:GetCustomProperty("MATCH_LENGTH"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -86,7 +87,7 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 function BuildPanels()
     --ToggleUISettings(true)
-    
+
     for _, newPanel in ipairs(GAME_MODE_POLL:GetChildren()) do
         if newPanel.name ~= "TITLE" and newPanel.name ~= "FT" then
             local id = newPanel:GetCustomProperty("ID")
@@ -108,7 +109,6 @@ end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
     if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
-        print(tostring(time))
         endTime = time
         BuildPanels()
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
@@ -124,6 +124,16 @@ function OnNetworkedChanged(object, string)
         local voteCount = GT_API.ConvertStringToTable(str)
         for id, count in pairs(voteCount) do
             currentVote[id].text = tostring(count)
+        end
+    end
+    if object == NETWORKED and string == "ROUND_DURATION" then
+        local secondsRemaining = object:GetCustomProperty(string)
+        local mins = math.floor(secondsRemaining / 60)
+        local secs = math.floor(secondsRemaining - (mins * 60))
+        if mins > 0 then
+            MATCH_LENGTH.text = string.format("%01d:%02d", mins, secs)
+        else
+            MATCH_LENGTH.text = string.format("%01d:%02d", mins, secs)
         end
     end
 end

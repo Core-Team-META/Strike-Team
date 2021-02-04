@@ -1,4 +1,4 @@
-﻿Commands = {}
+Commands = {}
 
 function ReturnPlayerByName(string)  
     if not string then return end
@@ -112,6 +112,12 @@ end
 
 function Commands.CLEARDATA(player,message)
     Storage.SetSharedPlayerData( _G["StorageKeys"]["Weapons"] ,player, {})
+
+end
+
+
+function Commands.SPEED(player,message)
+   player.maxWalkSpeed = tonumber(message[3])
 
 end
 
