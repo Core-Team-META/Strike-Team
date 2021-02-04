@@ -74,5 +74,10 @@ end)
 Events.Broadcast("SetSlot", function(Slot)
     defaultSlot = Slot
 end)
-
+Events.Connect("BannerMessage",function(_,_,s_)
+    LOCAL_PLAYER.clientUserData.PrevouslySelected = 1
+    LOCAL_PLAYER.clientUserData.CurrentlySelected = 1
+    
+    Events.Broadcast("UIUpdateSected", 1)
+end)
 

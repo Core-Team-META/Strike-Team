@@ -678,40 +678,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4487027079599289806
-  Name: "EquipmentHandler"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12469272091380785429
-    }
-  }
-}
-Objects {
   Id: 3242084157255297486
   Name: "lookatkiller"
   Transform {
@@ -747,6 +713,40 @@ Objects {
     }
     TemplateAsset {
       Id: 1279395778555042343
+    }
+  }
+}
+Objects {
+  Id: 9071171406811434630
+  Name: "EquipmentHandler"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12469272091380785429
     }
   }
 }

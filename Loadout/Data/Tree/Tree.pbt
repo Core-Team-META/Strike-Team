@@ -24,7 +24,7 @@ Objects {
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
-  ChildIds: 3726698988231598828
+  ChildIds: 9540270308253040293
   ChildIds: 65150042230850511
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
@@ -1432,7 +1432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3726698988231598828
+  Id: 9540270308253040293
   Name: "EquipmentHandler"
   Transform {
     Scale {
@@ -1442,12 +1442,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -1455,16 +1449,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
         }
       }
     }
