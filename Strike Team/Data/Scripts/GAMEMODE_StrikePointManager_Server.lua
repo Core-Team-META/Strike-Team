@@ -22,8 +22,8 @@ local isActive = false
 local currentTeam
 local lastTeam
 local playersOnHill = {}
-local MAX_PROGRESS = 100
-local MAX_RESOURCE = 10
+local MAX_PROGRESS = 200 -- old value 100
+local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3

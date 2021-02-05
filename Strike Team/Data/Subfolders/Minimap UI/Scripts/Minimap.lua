@@ -228,7 +228,9 @@ end
 
 function Minimap.AddItem(Item, UIimage, team)
 	if not UIimage then UIimage = PLAYER_TEMPLATE end
-	Item.clientUserData.UIimage = World.SpawnAsset(UIimage, {parent = OBJECT_PANEL})
+	local image = World.SpawnAsset(UIimage, {parent = OBJECT_PANEL})
+	image.clientUserData.parentObject = Item
+	Item.clientUserData.UIimage = image
 	if Item.clientUserData.UIimage:IsA("UIImage") then
 		Item.clientUserData.UIimage.team = team or 0
 	end
