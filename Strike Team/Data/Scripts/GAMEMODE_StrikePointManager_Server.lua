@@ -23,7 +23,7 @@ local currentTeam
 local lastTeam
 local playersOnHill = {}
 local MAX_PROGRESS = 100 -- old value 100
-local PROGRESS_PER_TICK = 10
+local PROGRESS_PER_TICK = 5
 local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
