@@ -1,6 +1,6 @@
 Assets {
   Id: 17380857342533312084
-  Name: "POINT_INDICATOR_CAPTURE"
+  Name: "PI_StrikePoints_INDICATOR"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

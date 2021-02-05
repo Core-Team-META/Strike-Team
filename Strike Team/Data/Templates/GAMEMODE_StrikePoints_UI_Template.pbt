@@ -1,13 +1,13 @@
 Assets {
   Id: 9274750172788209107
-  Name: "GAMEMODE_Flag_UI_Template"
+  Name: "GAMEMODE_StrikePoints_UI_Template"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 8665867885490087600
       Objects {
         Id: 8665867885490087600
-        Name: "GAMEMODE_Flag_UI_Template"
+        Name: "GAMEMODE_StrikePoints_UI_Template"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

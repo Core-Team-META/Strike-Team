@@ -1,13 +1,13 @@
 Assets {
   Id: 1887649969457042822
-  Name: "GAMEMODE_KingOfHills_HillTemplate"
+  Name: "GAMEMODE_StrikePoints_PointTemplate"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 4496491051667762757
       Objects {
         Id: 4496491051667762757
-        Name: "GAMEMODE_KingOfHills_HillTemplate"
+        Name: "GAMEMODE_StrikePoints_PointTemplate"
         Transform {
           Scale {
             X: 1
@@ -513,7 +513,7 @@ Assets {
       }
       Objects {
         Id: 15723330807431449682
-        Name: "GameType_HillManager_Server"
+        Name: "GAMEMODE_StrikePointManager_Server"
         Transform {
           Location {
           }
@@ -814,7 +814,7 @@ Assets {
       }
       Objects {
         Id: 13252704698465864135
-        Name: "KingOfHill_Hill_Client"
+        Name: "GAMEMODE_StrikePointManager_Client"
         Transform {
           Location {
           }

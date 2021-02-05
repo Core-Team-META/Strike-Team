@@ -1788,7 +1788,7 @@ Objects {
 }
 Objects {
   Id: 15343589142564657865
-  Name: "HillMarkers"
+  Name: "StrikePointMarkers"
   Transform {
     Location {
     }
@@ -1976,7 +1976,7 @@ Objects {
 }
 Objects {
   Id: 16411445417820320033
-  Name: "GAMEMODE_KingOfHills_Server"
+  Name: "GAMEMODE_StrikePoints_Server"
   Transform {
     Location {
     }

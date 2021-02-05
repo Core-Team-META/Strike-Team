@@ -56,7 +56,7 @@ function OnChildAdded(root, object)
         local team = object:GetCustomProperty("TEAM") or 0
         local image = object:GetCustomProperty("IMAGE") or TEMPLATE
         if shouldShow then
-            Events.Broadcast("Minimap.AddItem", object, image, team)
+            _G.Minimap.AddItem(object, image)
         end
     end
 end

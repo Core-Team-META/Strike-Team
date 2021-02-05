@@ -1,6 +1,6 @@
 Assets {
   Id: 17457419684800572327
-  Name: "GAMEMODE_KingOfHills_Server"
+  Name: "GAMEMODE_StrikePoints_Server"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

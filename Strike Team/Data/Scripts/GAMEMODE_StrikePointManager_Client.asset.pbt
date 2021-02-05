@@ -1,6 +1,6 @@
 Assets {
   Id: 13825649887782470421
-  Name: "KingOfHill_Hill_Client"
+  Name: "GAMEMODE_StrikePointManager_Client"
   PlatformAssetType: 3
   TextAsset {
   }
