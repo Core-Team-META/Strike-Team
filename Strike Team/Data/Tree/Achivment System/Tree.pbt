@@ -529,6 +529,14 @@ Objects {
     }
   }
   ParentId: 2821794816008214474
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:GAMEMODE_Networked"
+      ObjectReference {
+        SelfId: 10857687478960459655
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

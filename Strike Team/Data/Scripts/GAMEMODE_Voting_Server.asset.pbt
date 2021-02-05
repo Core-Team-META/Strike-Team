@@ -19,7 +19,6 @@ Assets {
       Overrides {
         Name: "cs:ROOT"
         ObjectReference {
-          SelfId: 16621625458669976284
         }
       }
     }
