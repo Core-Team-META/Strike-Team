@@ -5497,6 +5497,7 @@ Objects {
     }
   }
   ParentId: 1083976225394096264
+  ChildIds: 684974587517341052
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5523,6 +5524,49 @@ Objects {
     SubobjectId: 7362230075553414199
     InstanceId: 9162538045503945134
     TemplateId: 11001523082904345942
+  }
+}
+Objects {
+  Id: 684974587517341052
+  Name: "WEAPON_TEXT"
+  Transform {
+    Location {
+      X: 169.999542
+      Y: 4.83300391e-05
+      Z: -66
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.542797506
+      Y: 0.542797506
+      Z: 0.542797506
+    }
+  }
+  ParentId: 14224721202083603449
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Text {
+    Text: "NEW WEAPON UNLOCKED"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
   }
 }
 Objects {
@@ -5691,6 +5735,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:WEAPON_TEXT"
+      ObjectReference {
+        SelfId: 684974587517341052
+      }
+    }
+    Overrides {
       Name: "cs:DoorOpenSFX"
       AssetReference {
         Id: 17755810783229937895
@@ -5767,61 +5817,61 @@ Objects {
     Overrides {
       Name: "cs:Weapon1"
       AssetReference {
-        Id: 9155987171052072831
+        Id: 13963686520658425958
       }
     }
     Overrides {
       Name: "cs:Weapon2"
       AssetReference {
-        Id: 10710667595232618834
+        Id: 4139874961095349374
       }
     }
     Overrides {
       Name: "cs:Weapon3"
       AssetReference {
-        Id: 6199442529170123096
+        Id: 13963686520658425958
       }
     }
     Overrides {
       Name: "cs:Weapon4"
       AssetReference {
-        Id: 6199442529170123096
+        Id: 9759507413622050223
       }
     }
     Overrides {
       Name: "cs:Weapon5"
       AssetReference {
-        Id: 10710667595232618834
+        Id: 644171016359950640
       }
     }
     Overrides {
       Name: "cs:Weapon6"
       AssetReference {
-        Id: 10710667595232618834
+        Id: 13963686520658425958
       }
     }
     Overrides {
       Name: "cs:Weapon7"
       AssetReference {
-        Id: 6199442529170123096
+        Id: 12649241015078033216
       }
     }
     Overrides {
       Name: "cs:Weapon8"
       AssetReference {
-        Id: 9155987171052072831
+        Id: 4854084571077471202
       }
     }
     Overrides {
       Name: "cs:Weapon9"
       AssetReference {
-        Id: 6199442529170123096
+        Id: 8784316441900023598
       }
     }
     Overrides {
       Name: "cs:Weapon10"
       AssetReference {
-        Id: 10710667595232618834
+        Id: 11325910546167035767
       }
     }
   }
