@@ -22,7 +22,8 @@ local isActive = false
 local currentTeam
 local lastTeam
 local playersOnHill = {}
-local MAX_PROGRESS = 200 -- old value 100
+local MAX_PROGRESS = 100 -- old value 100
+local PROGRESS_PER_TICK = 10
 local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
@@ -104,10 +105,10 @@ function Tick()
         local team = tonumber(data[TEAM])
         local resource = tonumber(data[RESOURCE])
         if team == currentTeam and progress < MAX_PROGRESS then
-            SetCurrentProgress(progress + 10)
+            SetCurrentProgress(progress + PROGRESS_PER_TICK)
             Task.Wait(1)
         elseif progress > 0 and team ~= currentTeam then
-            SetCurrentProgress(progress - 10)
+            SetCurrentProgress(progress - PROGRESS_PER_TICK)
             Task.Wait(1)
         elseif progress == 0 and currentTeam ~= team then
             SetCurrentTeam(currentTeam)
