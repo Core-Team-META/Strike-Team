@@ -163,18 +163,20 @@ function AnimateSelection(selectedHolderEntry, player)
 	RackSFX:Stop()
 	World.SpawnAsset(ArmMoveSFX)
 	
-	Ease3D.EasePosition(selectedHolderEntry.holder, selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -30), .5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
-	Task.Wait(.3)
-	Ease3D.EaseRotation(selectedHolderEntry.holder, selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 45, 0), 1.5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Ease3D.EaseRotation(selectedHolderEntry.holder, selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 30, 0), 1.5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.5)
+	Ease3D.EasePosition(selectedHolderEntry.holder, selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -50), .5, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.INOUT)
+	
 	
 	Task.Wait(1.5)
 	--selectedHolderEntry.weaponPosition:MoveTo(selectedHolderEntry.weaponPosition:GetPosition() + Vector3.UP * -70 + Vector3.FORWARD * 15, 1, true)
 	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(100, 0, 0), 1, true)
 	ChuggSFX:Play()
-	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, 0, -50), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
-	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(135, 45, 0), .5, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+
+	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, 0, 0), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(0, 60, 90), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Task.Wait(1)
-	selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(60, 0, 0), 1, true)
+	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(60, 0, 0), 1, true)
 	
 	Task.Wait(7)
 	

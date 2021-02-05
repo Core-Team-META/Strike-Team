@@ -1340,12 +1340,11 @@ Assets {
           Overrides {
             Name: "bp:Wind Speed"
             Vector {
-              Y: 60
             }
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: -0.0835713446
+            Float: -0
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
@@ -1362,6 +1361,17 @@ Assets {
           Overrides {
             Name: "bp:Life"
             Float: 1.46613944
+          }
+          Overrides {
+            Name: "bp:Initial Velocity"
+            Vector {
+              Y: 20
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
           }
         }
         WantsNetworking: true
@@ -1416,12 +1426,11 @@ Assets {
           Overrides {
             Name: "bp:Wind Speed"
             Vector {
-              Y: 60
             }
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: -0.0835713446
+            Float: -0
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
@@ -1438,6 +1447,17 @@ Assets {
           Overrides {
             Name: "bp:Life"
             Float: 1.46613944
+          }
+          Overrides {
+            Name: "bp:Initial Velocity"
+            Vector {
+              Y: 20
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
           }
         }
         WantsNetworking: true

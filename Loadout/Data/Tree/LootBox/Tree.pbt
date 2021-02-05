@@ -5767,49 +5767,49 @@ Objects {
     Overrides {
       Name: "cs:Weapon1"
       AssetReference {
-        Id: 8784316441900023598
+        Id: 9155987171052072831
       }
     }
     Overrides {
       Name: "cs:Weapon2"
       AssetReference {
-        Id: 1705072003918602984
+        Id: 10710667595232618834
       }
     }
     Overrides {
       Name: "cs:Weapon3"
       AssetReference {
-        Id: 11054133481834412534
+        Id: 6199442529170123096
       }
     }
     Overrides {
       Name: "cs:Weapon4"
       AssetReference {
-        Id: 4854084571077471202
+        Id: 6199442529170123096
       }
     }
     Overrides {
       Name: "cs:Weapon5"
       AssetReference {
-        Id: 11325910546167035767
+        Id: 10710667595232618834
       }
     }
     Overrides {
       Name: "cs:Weapon6"
       AssetReference {
-        Id: 9759507413622050223
+        Id: 10710667595232618834
       }
     }
     Overrides {
       Name: "cs:Weapon7"
       AssetReference {
-        Id: 9155987171052072831
+        Id: 6199442529170123096
       }
     }
     Overrides {
       Name: "cs:Weapon8"
       AssetReference {
-        Id: 10710667595232618834
+        Id: 9155987171052072831
       }
     }
     Overrides {
@@ -5821,7 +5821,7 @@ Objects {
     Overrides {
       Name: "cs:Weapon10"
       AssetReference {
-        Id: 8848164820123044348
+        Id: 10710667595232618834
       }
     }
   }
