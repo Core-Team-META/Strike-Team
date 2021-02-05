@@ -1777,7 +1777,7 @@ Objects {
 }
 Objects {
   Id: 2422145611934173127
-  Name: "King of Hills"
+  Name: "Strike Points"
   Transform {
     Location {
     }
@@ -1807,7 +1807,7 @@ Objects {
     }
     Overrides {
       Name: "cs:GAME_INFO"
-      String: "King Of Hills|Capture The Point"
+      String: "Strike Points|Capture The Strike Point"
     }
     Overrides {
       Name: "cs:PLAYER_SCORE_MULTIPLIER"

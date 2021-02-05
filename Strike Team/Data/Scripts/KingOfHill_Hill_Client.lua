@@ -32,7 +32,7 @@ function OnNetworkChanged(object, string)
         local data = GetData()
         lastProgress = lastProgress or data[PROGRESS]
         if currentTeam ~= data[TEAM] then
-            local str = "Point Contested!"
+            local str = "Strike Point Contested!"
             Events.Broadcast("BannerMessage", str, 5)
             currentTeam = data[TEAM]
         end
@@ -65,5 +65,5 @@ function OnNetworkChanged(object, string)
         --UpdateProgress(data[PROGRESS])
     end
 end
-Events.Broadcast("BannerMessage", "Capture Point Moved", 5)
+Events.Broadcast("BannerMessage", "Strike Point Moved", 5)
 ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
