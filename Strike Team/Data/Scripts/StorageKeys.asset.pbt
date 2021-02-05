@@ -28,6 +28,14 @@ Assets {
           }
         }
       }
+      Overrides {
+        Name: "cs:LifetimeStats"
+        NetReference {
+          Type {
+            Value: "mc:enetreferencetype:unknown"
+          }
+        }
+      }
     }
   }
   SerializationVersion: 76

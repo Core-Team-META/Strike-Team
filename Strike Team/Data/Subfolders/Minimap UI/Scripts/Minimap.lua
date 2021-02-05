@@ -198,8 +198,10 @@ function GetIndicatorForPlayer(player)
 	return minimapPlayer
 end
 
+Minimap = {}
+Minimap.__index = Minimap
 
-function RemoveItem(Item)
+function Minimap.RemoveItem(Item)
 	for index,value in pairs(script.clientUserData.Items) do
 		if value == Item then 
 			if Object.IsValid(Item.clientUserData.UIimage) then
@@ -211,9 +213,7 @@ function RemoveItem(Item)
 	end
 end
 
-
-
-function UpdateItem(Item, team)
+function Minimap.UpdateItem(Item, team)
 	for index,value in pairs(script.clientUserData.Items) do
 		if value == Item then 
 			if Object.IsValid( Item.clientUserData.UIimage) then
@@ -224,22 +224,22 @@ function UpdateItem(Item, team)
 	end
 end
 
-
-
-
-function AddItem(Item, UIimage, team)
-	local HasImage = UIimage ~= nil
+function Minimap.AddItem(Item, UIimage, team)
 	if not UIimage then UIimage = PLAYER_TEMPLATE end
 	Item.clientUserData.UIimage = World.SpawnAsset(UIimage, {parent = MAP_PANEL})
-	if HasImage then
+	if Item.clientUserData.UIimage:IsA("UIImage") then
 		Item.clientUserData.UIimage.team = team or 0
 	end
 	table.insert(script.clientUserData.Items,Item)
-	Item.destroyEvent:Connect(function() if Object.IsValid(Item.clientUserData.UIimage) then Item.clientUserData.UIimage:Destroy() RemoveItem(Item)  end end)
+	Item.destroyEvent:Connect(function() 
+		if Object.IsValid(Item.clientUserData.UIimage) then 
+			Item.clientUserData.UIimage:Destroy() Minimap.RemoveItem(Item)  
+		end 
+	end)
+	return Item.clientUserData.UIimage
 end
 
-
-
-Events.Connect("Minimap.AddItem",AddItem)
-Events.Connect("Minimap.RemoveItem",RemoveItem)
-Events.Connect("Minimap.UpdateItem",UpdateItem)
+_G["Minimap"] = Minimap
+Events.Connect("Minimap.AddItem",Minimap.AddItem)
+Events.Connect("Minimap.RemoveItem",Minimap.RemoveItem)
+Events.Connect("Minimap.UpdateItem",Minimap.UpdateItem)
