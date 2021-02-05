@@ -16,6 +16,8 @@ Tips:
 
 local ROOT = script.parent
 local MAP_PANEL = script:GetCustomProperty("UIPanel"):WaitForObject()
+local OBJECT_PANEL = script:GetCustomProperty("ObjectPanel"):WaitForObject()
+
 local MAP_PIECE_TEMPLATE = script:GetCustomProperty("MinimapPiece")
 local LABEL_TEMPLATE = script:GetCustomProperty("MinimapLabel")
 local PLAYER_TEMPLATE = script:GetCustomProperty("MinimapPlayer")
@@ -137,7 +139,7 @@ for _,text in ipairs(worldTexts) do
 	local rot = text:GetWorldRotation()
 	local size = text:GetWorldScale() * 100
 	
-	local label = World.SpawnAsset(LABEL_TEMPLATE, {parent = MAP_PANEL})
+	local label = World.SpawnAsset(LABEL_TEMPLATE, {parent = OBJECT_PANEL})
 	
 	label.x = (pos.x - boundsLeft) * scaleX
 	label.y = (pos.y - boundsTop) * scaleY
@@ -193,7 +195,7 @@ function GetIndicatorForPlayer(player)
 		return player.clientUserData.minimap
 	end
 	-- Spawn new indicator for this player
-	local minimapPlayer = World.SpawnAsset(PLAYER_TEMPLATE, {parent = MAP_PANEL})
+	local minimapPlayer = World.SpawnAsset(PLAYER_TEMPLATE, {parent = OBJECT_PANEL})
 	player.clientUserData.minimap = minimapPlayer
 	return minimapPlayer
 end
@@ -216,7 +218,7 @@ end
 function Minimap.UpdateItem(Item, team)
 	for index,value in pairs(script.clientUserData.Items) do
 		if value == Item then 
-			if Object.IsValid( Item.clientUserData.UIimage) then
+			if Object.IsValid( Item.clientUserData.UIimage) and  Item.clientUserData.UIimage:IsA("UIImage") then
 				Item.clientUserData.UIimage.team = team or 0
 				return 
 			end
@@ -226,7 +228,7 @@ end
 
 function Minimap.AddItem(Item, UIimage, team)
 	if not UIimage then UIimage = PLAYER_TEMPLATE end
-	Item.clientUserData.UIimage = World.SpawnAsset(UIimage, {parent = MAP_PANEL})
+	Item.clientUserData.UIimage = World.SpawnAsset(UIimage, {parent = OBJECT_PANEL})
 	if Item.clientUserData.UIimage:IsA("UIImage") then
 		Item.clientUserData.UIimage.team = team or 0
 	end

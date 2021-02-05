@@ -1146,6 +1146,7 @@ Objects {
   ChildIds: 4781465781275836479
   ChildIds: 17972954539059898560
   ChildIds: 10922981457709065999
+  ChildIds: 14712309643673169418
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1160,6 +1161,149 @@ Objects {
     InstanceId: 4185106899347237523
     TemplateId: 17101872842520397377
     WasRoot: true
+  }
+}
+Objects {
+  Id: 14712309643673169418
+  Name: "Minimap Panel"
+  Transform {
+    Location {
+      X: -3310
+      Y: 12580
+      Z: 2810
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16035454593328240751
+  ChildIds: 2941539179630354886
+  ChildIds: 12757754591006246592
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10922981457709065999
+    SubobjectId: 13057856511516679042
+    InstanceId: 4185106899347237523
+    TemplateId: 17101872842520397377
+  }
+}
+Objects {
+  Id: 12757754591006246592
+  Name: "HideAndShowUI"
+  Transform {
+    Location {
+      X: -11235.9277
+      Y: 6554.88281
+      Z: -2810
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14712309643673169418
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6101574587735603905
+    }
+  }
+}
+Objects {
+  Id: 2941539179630354886
+  Name: "MiniMap Panel"
+  Transform {
+    Location {
+      X: -9864.88184
+      Y: 1344.07031
+      Z: 5620
+    }
+    Rotation {
+      Yaw: -90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14712309643673169418
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 350
+    Height: 350
+    UIX: -20
+    UIY: 20
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17468282254873284009
+    SubobjectId: 15045159369361535268
+    InstanceId: 4185106899347237523
+    TemplateId: 17101872842520397377
   }
 }
 Objects {
@@ -1196,6 +1340,9 @@ Objects {
       }
     }
     Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:texture"
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -30834,6 +30981,12 @@ Objects {
       Name: "cs:UIPanel"
       ObjectReference {
         SelfId: 15538822859928374011
+      }
+    }
+    Overrides {
+      Name: "cs:ObjectPanel"
+      ObjectReference {
+        SelfId: 2941539179630354886
       }
     }
     Overrides {

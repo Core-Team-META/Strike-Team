@@ -494,9 +494,13 @@ Objects {
   }
 }
 Objects {
-  Id: 13367903298334009240
+  Id: 15688219361862503721
   Name: "CommandPanel"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -510,29 +514,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11047162740706383888
-      value {
-        Overrides {
-          Name: "Name"
-          String: "CommandPanel"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1586377358280468348
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Command"
+  }
+  InstanceHistory {
+    SelfId: 15688219361862503721
+    SubobjectId: 11047162740706383888
+    InstanceId: 13367903298334009240
+    TemplateId: 1586377358280468348
+    WasRoot: true
   }
 }
 Objects {
