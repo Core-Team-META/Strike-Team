@@ -7346,7 +7346,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 60
@@ -7423,8 +7423,8 @@ Objects {
     Text {
       Label: "50"
       Color {
-        R: 0.745404482
-        G: 0.296138316
+        R: 1
+        G: 0.599938512
         A: 1
       }
       Size: 15
@@ -7864,7 +7864,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
-      ClipTextToSize: true
     }
     AnchorLayout {
       SelfAnchor {

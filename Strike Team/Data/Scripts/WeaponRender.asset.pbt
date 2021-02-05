@@ -39,7 +39,7 @@ Assets {
           R: 1
           G: 0.31854707
           B: 0.0137020946
-          A: 0.172549024
+          A: 0.162
         }
       }
       Overrides {
@@ -49,6 +49,24 @@ Assets {
           G: 0.31854707
           B: 0.0137020946
           A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:DarkColor"
+        Color {
+          R: 0.623
+          G: 0.8492
+          B: 1
+          A: 0.0840000063
+        }
+      }
+      Overrides {
+        Name: "cs:DarkFont"
+        Color {
+          R: 0.715187
+          G: 0.868999958
+          B: 0.869
+          A: 0.992000043
         }
       }
     }

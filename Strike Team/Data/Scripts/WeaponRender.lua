@@ -7,6 +7,8 @@ local TYPE = script:GetCustomProperty("TYPE")
 local Offset = script:GetCustomProperty("Offset")
 local HilightColor = script:GetCustomProperty("HilightColor")
 local HilightFont = script:GetCustomProperty("HilightFont")
+local DarkColor = script:GetCustomProperty("DarkColor")
+local DarkFont = script:GetCustomProperty("DarkFont")
 
 local LIGHT = 0.6
 local DARK = 0.05
@@ -51,8 +53,8 @@ function SetHighlighted( )
 end
 
 function SetDarkened()
-	IMAGE:SetColor(Color.New(DARK,DARK,DARK,.3))
-	TEXT:SetColor(Color.New(DARK*4,DARK*4,DARK*4))	
+	IMAGE:SetColor(DarkColor)
+	TEXT:SetColor(DarkFont)	
 end
 
 function UpdateHighlight(Value)
