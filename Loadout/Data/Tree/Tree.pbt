@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 11379930114363017525
+  ChildIds: 6278672628054296791
   ChildIds: 7367735074338159388
   ChildIds: 17257846423230686053
   ChildIds: 16813558807825262224
@@ -30,6 +30,7 @@ Objects {
   ChildIds: 7420455323421467140
   ChildIds: 11909944240055752873
   ChildIds: 4844186550665608289
+  ChildIds: 17512947565365309920
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +40,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17512947565365309920
+  Name: "Gabriel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Gabriel"
   }
 }
 Objects {
@@ -32335,7 +32362,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11379930114363017525
+  Id: 6278672628054296791
   Name: "StorageKeys"
   Transform {
     Location {
@@ -32377,6 +32404,15 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:LifetimeStats"
+      NetReference {
+        Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -32386,7 +32422,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 15034763667884300923
+      Id: 17382814861319731826
     }
   }
 }
