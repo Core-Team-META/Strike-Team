@@ -85,15 +85,15 @@ function OnNetworkChanged(object, string)
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
         if lastProgress < data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
-            flagPos.z = 480 + (data[PROGRESS] * 2)
+            flagPos.z = 445 + (data[PROGRESS] * 2)
         elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
             World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
             flagPos.z = 645
         elseif lastProgress > data[PROGRESS] and data[PROGRESS] > 0 then
-            flagPos.z = 480 - ((lastProgress - data[PROGRESS]) * 2)
+            flagPos.z = 445 - ((data[PROGRESS]) * 2)
         elseif data[PROGRESS] == 0 then
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
-            flagPos.z = 480
+            flagPos.z = 445
         end
         FLAG:SetPosition(flagPos)
         flagPos = FLAG:GetPosition()
