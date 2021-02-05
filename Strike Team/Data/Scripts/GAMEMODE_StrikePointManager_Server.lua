@@ -23,7 +23,8 @@ local currentTeam
 local lastTeam
 local playersOnHill = {}
 local MAX_PROGRESS = 100 -- old value 100
-local PROGRESS_PER_TICK = 5
+local PROGRESS_PER_TICK = 1
+local TIME_PER_TICK = 0.1
 local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
@@ -106,17 +107,17 @@ function Tick()
         local resource = tonumber(data[RESOURCE])
         if team == currentTeam and progress < MAX_PROGRESS then
             SetCurrentProgress(progress + PROGRESS_PER_TICK)
-            Task.Wait(1)
+            Task.Wait(TIME_PER_TICK)
         elseif progress > 0 and team ~= currentTeam then
             SetCurrentProgress(progress - PROGRESS_PER_TICK)
-            Task.Wait(1)
+            Task.Wait(TIME_PER_TICK)
         elseif progress == 0 and currentTeam ~= team then
             SetCurrentTeam(currentTeam)
             GT_API.BroadcastTeamCapture(currentTeam)
         elseif currentTeam == team and progress == MAX_PROGRESS then
             SetCurrentResource(resource - 1)
             Game.IncreaseTeamScore(team, 1)
-            Task.Wait(1)
+            Task.Wait(TIME_PER_TICK)
         end
     end
 end
