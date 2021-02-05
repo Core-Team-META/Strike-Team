@@ -21,7 +21,11 @@ local SPAWNED_OBJECTS = script:GetCustomProperty("Spawned_Objects"):WaitForObjec
 local SCORE_DISPLAY = script:GetCustomProperty("UITextBox"):WaitForObject()
 local TEAM_SCORE1 = script:GetCustomProperty("TeamScore1"):WaitForObject()
 local TEAM_SCORE2 = script:GetCustomProperty("TeamScore2"):WaitForObject()
-local TEMPLATE = script:GetCustomProperty("MinimapPlayer")
+
+------------------------------------------------------------------------------------------------------------------------
+-- OBJECTS
+------------------------------------------------------------------------------------------------------------------------
+local MAP_TEMPLATE = script:GetCustomProperty("MinimapPlayer")
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -54,7 +58,7 @@ function OnChildAdded(root, object)
     if Object.IsValid(object) then
         local shouldShow = object:GetCustomProperty("ShouldShow")
         local team = object:GetCustomProperty("TEAM") or 0
-        local image = object:GetCustomProperty("IMAGE") or TEMPLATE
+        local image = object:GetCustomProperty("IMAGE") or MAP_TEMPLATE
         if shouldShow then
             _G.Minimap.AddItem(object, image)
         end
@@ -70,6 +74,6 @@ end
 Task.Wait(1)
 Int()
 
--- handler params: CoreObject_, string_
+
 NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
 SPAWNED_OBJECTS.childAddedEvent:Connect(OnChildAdded)

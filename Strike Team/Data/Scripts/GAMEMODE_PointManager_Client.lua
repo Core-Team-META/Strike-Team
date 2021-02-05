@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
--- Game Type Manager Client
+-- Point Manager Client
 -- Author:
 --       Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
---       standardcombo (MANTICORE) (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
+--       standardcombo (MANTICORE) - (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
 -- Date: 2021/2/01
 -- Version 0.1.0
 ------------------------------------------------------------------------------------------------------------------------

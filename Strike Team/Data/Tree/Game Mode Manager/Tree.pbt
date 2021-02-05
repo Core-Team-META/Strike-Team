@@ -1,32 +1,6 @@
 Name: "Game Mode Manager"
 RootId: 13759701891954085812
 Objects {
-  Id: 5767447152856169256
-  Name: "Point Indicator"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13759701891954085812
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Point Indicator"
-  }
-}
-Objects {
   Id: 10857687478960459655
   Name: "GAMEMODE_Networked"
   Transform {

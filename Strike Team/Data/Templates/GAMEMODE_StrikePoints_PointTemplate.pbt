@@ -869,6 +869,18 @@ Assets {
               SubObjectId: 2973016945517364367
             }
           }
+          Overrides {
+            Name: "cs:SFX_Game_PointCaptureInitiate"
+            AssetReference {
+              Id: 17006804414377401146
+            }
+          }
+          Overrides {
+            Name: "cs:SFX_Game_PointCaptureSuccess"
+            AssetReference {
+              Id: 1851840036327565782
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
