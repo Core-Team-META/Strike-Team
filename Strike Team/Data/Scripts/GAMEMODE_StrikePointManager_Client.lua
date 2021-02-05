@@ -84,18 +84,18 @@ function OnNetworkChanged(object, string)
             EDGE.isTeamColorUsed = false
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
-        if lastProgress < data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
+        if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
             flagPos.z = 445 + (data[PROGRESS] * 2)
         elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
             World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
             flagPos.z = 645
-        elseif lastProgress > data[PROGRESS] and data[PROGRESS] > 0 then
+        elseif data[PROGRESS] and data[PROGRESS] > 0 then
             flagPos.z = 445 - ((data[PROGRESS]) * 2)
         elseif data[PROGRESS] == 0 then
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
             flagPos.z = 445
         end
-        FLAG:SetPosition(flagPos)
+        FLAG:MoveTo(flagPos, 0.10, true)
         flagPos = FLAG:GetPosition()
         lastProgress = data[PROGRESS]
     --UpdateProgress(data[PROGRESS])
