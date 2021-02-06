@@ -19,6 +19,7 @@ until GT_API
 ------------------------------------------------------------------------------------------------------------------------
 local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
+local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
 --local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
@@ -36,6 +37,7 @@ local SFX_SUCCESS = script:GetCustomProperty("SFX_Game_PointCaptureSuccess")
 ------------------------------------------------------------------------------------------------------------------------
 
 local flagPos = FLAG:GetPosition()
+local groundScale = GROUND:GetScale()
 local currentTeam = 0
 local MAX_PROGRESS = 100
 local TEAM = 1
@@ -74,29 +76,42 @@ function OnNetworkChanged(object, string)
             ChopSpot.isTeamColorUsed = true
             ChopSpotRoot.isTeamColorUsed = true
             EDGE.isTeamColorUsed = true
+            GROUND.isTeamColorUsed = true
             ChopSpot.team = data[TEAM]
             ChopSpotRoot.team = data[TEAM]
             EDGE.team = data[TEAM]
+            GROUND.team = data[TEAM]
             Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
         else
             ChopSpot.isTeamColorUsed = false
             ChopSpotRoot.isTeamColorUsed = false
             EDGE.isTeamColorUsed = false
+            GROUND.isTeamColorUsed = false
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
         if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
             flagPos.z = 445 + (data[PROGRESS] * 2)
+            groundScale.x = 25 + (data[PROGRESS] * .75)
+            groundScale.y = 25 + (data[PROGRESS] * .75)
         elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
             World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
             flagPos.z = 645
+            groundScale.x = 100
+            groundScale.y = 100
         elseif data[PROGRESS] and data[PROGRESS] > 0 then
             flagPos.z = 445 - ((data[PROGRESS]) * 2)
+            groundScale.x = 25 - ((data[PROGRESS]) * .75)
+            groundScale.y = 25 - ((data[PROGRESS]) * .75)
         elseif data[PROGRESS] == 0 then
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
             flagPos.z = 445
+            groundScale.x = 25
+            groundScale.y = 25
         end
         FLAG:MoveTo(flagPos, 0.10, true)
+        GROUND:ScaleTo(groundScale, 0.10, true)
         flagPos = FLAG:GetPosition()
+        groundScale = GROUND:GetScale()
         lastProgress = data[PROGRESS]
     --UpdateProgress(data[PROGRESS])
     end

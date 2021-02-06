@@ -62,14 +62,14 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            Z: -81.1599
+            Z: -4.95998
           }
           Rotation {
           }
           Scale {
-            X: 9.21037197
-            Y: 9.21037197
-            Z: 9.21037197
+            X: 9.71551323
+            Y: 9.71551323
+            Z: 9.71551323
           }
         }
         ParentId: 4496491051667762757
@@ -139,6 +139,7 @@ Assets {
         ParentId: 10007280648470417142
         ChildIds: 1730598507589829041
         ChildIds: 14005622974654859933
+        ChildIds: 13391390385929879172
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -222,6 +223,64 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13391390385929879172
+        Name: "Military Fence Pole - Extender Connecting"
+        Transform {
+          Location {
+            Z: 725.580872
+          }
+          Rotation {
+            Pitch: 180
+          }
+          Scale {
+            X: 4.37393379
+            Y: 4.37394
+            Z: 1.45179725
+          }
+        }
+        ParentId: 7064722028984767483
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16447630291553548532
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 8848296470343005978
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -342,6 +401,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -387,6 +447,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -429,6 +490,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -474,6 +536,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -573,6 +636,9 @@ Assets {
         ChildIds: 2895968848006082910
         ChildIds: 13252704698465864135
         ChildIds: 14669911688509367060
+        ChildIds: 3685528074979422714
+        ChildIds: 7757986696093657483
+        ChildIds: 13925742593928447225
         ChildIds: 7146780488147448480
         ChildIds: 9741708167954498728
         ChildIds: 7075832450260495386
@@ -742,6 +808,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -804,6 +871,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -870,6 +938,12 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:GROUND"
+            ObjectReference {
+              SubObjectId: 4671024532972458313
+            }
+          }
+          Overrides {
             Name: "cs:SFX_Game_PointCaptureInitiate"
             AssetReference {
               Id: 17006804414377401146
@@ -878,7 +952,7 @@ Assets {
           Overrides {
             Name: "cs:SFX_Game_PointCaptureSuccess"
             AssetReference {
-              Id: 1851840036327565782
+              Id: 8518730250190122071
             }
           }
         }
@@ -896,19 +970,19 @@ Assets {
       }
       Objects {
         Id: 14669911688509367060
-        Name: "Ball"
+        Name: "Boundary"
         Transform {
           Location {
-            X: -2925.97119
-            Y: 2447.6416
-            Z: 404.347412
+            X: -2927.72119
+            Y: 2450
+            Z: 394.965332
           }
           Rotation {
           }
           Scale {
-            X: 9.38672924
-            Y: 9.38672924
-            Z: 9.38672924
+            X: 9.71551323
+            Y: 9.71551323
+            Z: 9.71551323
           }
         }
         ParentId: 7927740488716824813
@@ -916,7 +990,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13218136364188089309
+              Id: 14432706440371965911
             }
           }
           Overrides {
@@ -933,7 +1007,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -944,9 +1018,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableDistanceFieldLighting: true
-          DisableCastShadows: true
-          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -955,6 +1026,200 @@ Assets {
               LinearDamping: 0.2
               AngularDamping: 2
             }
+          }
+        }
+      }
+      Objects {
+        Id: 3685528074979422714
+        Name: "2D Basic Shapes Decal"
+        Transform {
+          Location {
+            X: -2925.97119
+            Y: 2447.6416
+            Z: 413.331787
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.879580081
+            Y: 0.879580081
+            Z: 1.1877563
+          }
+        }
+        ParentId: 7927740488716824813
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Sort Order"
+            Int: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12704764869057814971
+          }
+          TeamSettings {
+            UseTeamColor: true
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
+        Id: 7757986696093657483
+        Name: "Point Border"
+        Transform {
+          Location {
+            X: -2925.97119
+            Y: 2447.6416
+            Z: 413.331787
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.85272288
+            Y: 3.85272288
+            Z: 3.85272288
+          }
+        }
+        ParentId: 7927740488716824813
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0.0191990361
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Stroke Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+            }
+          }
+          Overrides {
+            Name: "bp:Slice Size"
+            Float: 360
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12704764869057814971
+          }
+          TeamSettings {
+            UseTeamColor: true
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
+        Id: 13925742593928447225
+        Name: "GroundCaptureIndicator"
+        Transform {
+          Location {
+            X: -2925.97119
+            Y: 2447.6416
+            Z: 413.331787
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.0378283411
+            Y: 0.0378283411
+            Z: 0.038
+          }
+        }
+        ParentId: 7927740488716824813
+        ChildIds: 4671024532972458313
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 4671024532972458313
+        Name: "2D Basic Shapes Decal"
+        Transform {
+          Location {
+            X: 0.00161347701
+          }
+          Rotation {
+          }
+          Scale {
+            X: 25
+            Y: 25
+            Z: 20
+          }
+        }
+        ParentId: 13925742593928447225
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12704764869057814971
+          }
+          TeamSettings {
+            UseTeamColor: true
+          }
+          DecalBP {
           }
         }
       }
@@ -1197,6 +1462,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -1240,6 +1506,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
@@ -1338,8 +1605,8 @@ Assets {
         Name: "Helicopter Rotation"
         Transform {
           Location {
-            X: -2934.57373
-            Y: 2432.26855
+            X: -2927.72095
+            Y: 2450
             Z: 318.152466
           }
           Rotation {
@@ -1351,10 +1618,10 @@ Assets {
           }
         }
         ParentId: 7927740488716824813
+        ChildIds: 3091095728378688624
         ChildIds: 16104080598390576669
         ChildIds: 7471174755388609725
         ChildIds: 2973016945517364367
-        ChildIds: 3091095728378688624
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1366,18 +1633,75 @@ Assets {
         }
       }
       Objects {
+        Id: 3091095728378688624
+        Name: "CORE_Utility_Rotate"
+        Transform {
+          Location {
+            X: 19.3701172
+            Y: 573.882813
+            Z: 2698.42896
+          }
+          Rotation {
+            Pitch: -13.1596222
+            Yaw: -15.2244911
+            Roll: -14.892086
+          }
+          Scale {
+            X: 0.4
+            Y: 0.4
+            Z: 0.4
+          }
+        }
+        ParentId: 13190244262245368966
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RotateTo"
+            Vector {
+              Z: -25
+            }
+          }
+          Overrides {
+            Name: "cs:Speed"
+            Float: 1
+          }
+          Overrides {
+            Name: "cs:Delay"
+            Float: 0
+          }
+          Overrides {
+            Name: "cs:LocalSpace"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Continuous"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10766070893021140730
+          }
+        }
+      }
+      Objects {
         Id: 16104080598390576669
         Name: "ApacheChopper"
         Transform {
           Location {
-            X: -114.408691
-            Y: 683.536133
-            Z: 2462.41113
+            X: -1039.73584
+            Y: -410.899902
+            Z: 2467.0752
           }
           Rotation {
-            Pitch: -13.1596222
-            Yaw: -15.224453
-            Roll: -14.8920488
+            Pitch: -9.23188782
+            Yaw: 86.1398239
+            Roll: -7.18816137
           }
           Scale {
             X: 1
@@ -7708,16 +8032,16 @@ Assets {
         Name: "ChopSpot"
         Transform {
           Location {
+            X: 175.264221
+            Z: -382.69104
           }
           Rotation {
-            Pitch: -3.49505544
-            Yaw: -12.6255569
-            Roll: 14.7302294
+            Pitch: 23.1195965
           }
           Scale {
-            X: 2.44510293
-            Y: 2.44510293
-            Z: 48.6692047
+            X: 10.8827305
+            Y: 11.565979
+            Z: 31.1778946
           }
         }
         ParentId: 13190244262245368966
@@ -7726,12 +8050,6 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 15216331850398421487
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
             }
           }
         }
@@ -7743,7 +8061,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 935061001246908516
+            Id: 9850774980230889095
           }
           Teams {
           }
@@ -7764,14 +8082,14 @@ Assets {
         Name: "ChopSpotRoot"
         Transform {
           Location {
-            X: 269.282806
-            Y: 560.019531
-            Z: 2298.18042
+            X: -984.557129
+            Y: -0.22265625
+            Z: 2333.85767
           }
           Rotation {
-            Pitch: -14.7021246
-            Yaw: 78.2926
-            Roll: 176.386505
+            Pitch: -22.5000286
+            Yaw: -179.999878
+            Roll: 179.999924
           }
           Scale {
             X: 0.397373021
@@ -7834,63 +8152,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 3091095728378688624
-        Name: "CORE_Utility_Rotate"
-        Transform {
-          Location {
-            X: 19.3701172
-            Y: 573.882813
-            Z: 2698.42896
-          }
-          Rotation {
-            Pitch: -13.1596222
-            Yaw: -15.2244911
-            Roll: -14.892086
-          }
-          Scale {
-            X: 0.4
-            Y: 0.4
-            Z: 0.4
-          }
-        }
-        ParentId: 13190244262245368966
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:RotateTo"
-            Vector {
-              Z: -25
-            }
-          }
-          Overrides {
-            Name: "cs:Speed"
-            Float: 1
-          }
-          Overrides {
-            Name: "cs:Delay"
-            Float: 0
-          }
-          Overrides {
-            Name: "cs:LocalSpace"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:Continuous"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 10766070893021140730
-          }
-        }
-      }
     }
     Assets {
       Id: 10415104586946721638
@@ -7908,6 +8169,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "steel_001"
+      }
+    }
+    Assets {
+      Id: 8848296470343005978
+      Name: "Fantasy Pommel 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_fan_pommel_001"
       }
     }
     Assets {
@@ -8001,12 +8271,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13218136364188089309
-      Name: "Edge Line Sharp"
-      PlatformAssetType: 2
+      Id: 12704764869057814971
+      Name: "2D Basic Shapes Decal"
+      PlatformAssetType: 14
       PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxma_add_edgeline_sharpline"
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "dcl_basicShapes"
       }
     }
     Assets {
@@ -8199,12 +8469,12 @@ Assets {
       }
     }
     Assets {
-      Id: 935061001246908516
-      Name: "Cone - Truncated Narrow"
+      Id: 9850774980230889095
+      Name: "Cone"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cone_truncated_002"
+        AssetId: "sm_cone_001"
       }
     }
     Assets {

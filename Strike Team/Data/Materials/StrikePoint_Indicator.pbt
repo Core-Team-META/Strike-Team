@@ -1,11 +1,15 @@
 Assets {
-  Id: 15216331850398421487
-  Name: "Hill Chopper Spotlight"
+  Id: 8312481234164931591
+  Name: "StrikePoint_Indicator"
   PlatformAssetType: 13
   SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 9134579743160012638
     ParameterOverrides {
+      Overrides {
+        Name: "emissive_boost"
+        Float: 0
+      }
       Overrides {
         Name: "noise color"
         Color {
@@ -13,8 +17,10 @@ Assets {
         }
       }
       Overrides {
-        Name: "fresnel"
-        Float: 1.75992978
+        Name: "color"
+        Color {
+          A: 1
+        }
       }
     }
     Assets {

@@ -29481,6 +29481,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
@@ -113727,6 +113728,15 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1886849175240990126
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4157976811336164832
       value {
         Overrides {
@@ -113735,6 +113745,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -113771,6 +113785,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 7906924300235917409
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -113797,6 +113820,15 @@ Objects {
   ParentId: 4118424550046766430
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1886849175240990126
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4157976811336164832
       value {
         Overrides {
@@ -113805,6 +113837,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -113840,6 +113876,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 7906924300235917409
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -113864,6 +113909,15 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1886849175240990126
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4157976811336164832
       value {
         Overrides {
@@ -113872,6 +113926,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -113908,6 +113966,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 7906924300235917409
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -113925,6 +113992,24 @@ Objects {
   }
   ParentId: 4118424550046766430
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1886849175240990126
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 7904855526696816715
       value {
@@ -113944,6 +114029,15 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7906924300235917409
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
         }
       }
     }
@@ -113973,6 +114067,24 @@ Objects {
   ParentId: 4118424550046766430
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1886849175240990126
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -113994,6 +114106,15 @@ Objects {
             Yaw: -98.86409
             Roll: 6.42402426e-07
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7906924300235917409
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
         }
       }
     }
@@ -114021,6 +114142,24 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1886849175240990126
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4157976811336164832
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -114042,6 +114181,15 @@ Objects {
             Yaw: -98.8460464
             Roll: -3.6514616
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7906924300235917409
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
         }
       }
     }
