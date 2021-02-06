@@ -104497,6 +104497,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
@@ -104879,6 +104880,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {

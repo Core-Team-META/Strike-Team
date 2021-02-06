@@ -25,6 +25,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
 local ChopSpot = script:GetCustomProperty("ChopSpot"):WaitForObject()
 local ChopSpotRoot = script:GetCustomProperty("ChopSpotRoot"):WaitForObject()
+local Light = script:GetCustomProperty("Light"):WaitForObject()
 
 ------------------------------------------------------------------------------------------------------------------------
 -- TEMPLATES
@@ -77,16 +78,19 @@ function OnNetworkChanged(object, string)
             ChopSpotRoot.isTeamColorUsed = true
             EDGE.isTeamColorUsed = true
             GROUND.isTeamColorUsed = true
+            Light.isTeamColorUsed = true
             ChopSpot.team = data[TEAM]
             ChopSpotRoot.team = data[TEAM]
             EDGE.team = data[TEAM]
             GROUND.team = data[TEAM]
+            Light.team = data[TEAM]
             Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
         else
             ChopSpot.isTeamColorUsed = false
             ChopSpotRoot.isTeamColorUsed = false
             EDGE.isTeamColorUsed = false
             GROUND.isTeamColorUsed = false
+            Light.isTeamColorUsed = false
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
         if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then

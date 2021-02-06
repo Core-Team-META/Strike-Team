@@ -4596,6 +4596,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableDistanceFieldLighting: true
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
@@ -24613,6 +24614,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
