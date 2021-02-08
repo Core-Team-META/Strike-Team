@@ -342,7 +342,7 @@ Objects {
 }
 Objects {
   Id: 13302987151601689135
-  Name: "UI Panel"
+  Name: "FRAME"
   Transform {
     Location {
       X: 0.0009765625
@@ -8413,7 +8413,15 @@ Objects {
         }
         Overrides {
           Name: "UIY"
-          Float: 75
+          Float: 135.212051
+        }
+        Overrides {
+          Name: "Width"
+          Int: 200
+        }
+        Overrides {
+          Name: "Height"
+          Int: 48
         }
       }
     }

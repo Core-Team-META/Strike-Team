@@ -37,11 +37,17 @@ Objects {
         }
         Overrides {
           Name: "Size"
-          Int: 18
+          Int: 14
         }
         Overrides {
           Name: "UIY"
-          Float: 40
+          Float: 23.8407745
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
         }
       }
     }
@@ -62,12 +68,12 @@ Objects {
         }
         Overrides {
           Name: "Size"
-          Int: 22
+          Int: 14
         }
         Overrides {
           Name: "Justification"
           Enum {
-            Value: "mc:etextjustify:right"
+            Value: "mc:etextjustify:center"
           }
         }
       }
@@ -108,22 +114,30 @@ Objects {
         Overrides {
           Name: "Anchor"
           Enum {
-            Value: "mc:euianchor:topright"
+            Value: "mc:euianchor:topcenter"
           }
         }
         Overrides {
           Name: "Dock"
           Enum {
-            Value: "mc:euianchor:topright"
+            Value: "mc:euianchor:topcenter"
           }
         }
         Overrides {
           Name: "UIX"
-          Float: -15
+          Float: 0
         }
         Overrides {
           Name: "UIY"
-          Float: 10
+          Float: 81.954895
+        }
+        Overrides {
+          Name: "Width"
+          Int: 120
+        }
+        Overrides {
+          Name: "Height"
+          Int: 20
         }
       }
     }
@@ -220,6 +234,32 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13469228761640500648
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 217.955566
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14442662322453796134
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 177.955566
         }
       }
     }
