@@ -1,4 +1,14 @@
 
+
+local WEAPONS = script:GetChildren()
+local weaponTable = {}
+
+local counter = 1
+for _, value in pairs(WEAPONS) do
+    weaponTable[counter] = value
+    counter = counter + 1
+end
+
 function GetShortId(object)
 	return string.sub(object.id, 1, string.find(object.id, ":") - 1)
 end
@@ -42,7 +52,8 @@ end
 
 function OnBindingPressed(whichPlayer, binding)
 	if (binding == "ability_extra_9") then
-        local equipment = whichPlayer:GetEquipment()[1]
+        local equipment = weaponTable[math.random(1, #weaponTable)]
+
         whichPlayer.hitPoints = math.random(1, 100)
 		Events.BroadcastToAllPlayers("PlayerKilled", whichPlayer, whichPlayer, GetShortId(equipment), math.random(0, 3))
 	end

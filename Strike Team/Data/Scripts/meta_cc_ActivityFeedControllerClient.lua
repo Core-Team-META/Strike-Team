@@ -15,11 +15,31 @@ local AF_LINE_TEMPLATE = script:GetCustomProperty("ActivityFeedLineTemplate")
 local AF_TEXT_TEMPLATE = script:GetCustomProperty("ActivityFeedTextTemplate")
 local AF_IMAGE_TEMPLATE = script:GetCustomProperty("ActivityFeedImageTemplate")
 local AF_TEXT_ON_IMAGE_TEMPLATE = script:GetCustomProperty("ActivityFeedTextOnImage")
+local AF_HEALTH_BAR_TEMPLATE = script:GetCustomProperty("ActivityFeedHealthBar")
 
 -- Feed icons
 local AF_ICONS = script:GetCustomProperty("FeedIcons"):WaitForObject()
 local AF_ICONS_ALL = AF_ICONS:GetChildren()
 local FEED_ICONS = {}
+
+-- Get icon settings
+for _, icon in pairs(AF_ICONS_ALL) do
+	local properties = icon:GetCustomProperties()
+	if (properties["EquipmentTemplate"] ~= nil) then
+		local equipmentName = {CoreString.Split(tostring(properties["EquipmentTemplate"]), ':')}
+		equipmentSourceMUID = equipmentName[1]
+		equipmentName = equipmentName[2]
+
+		if (properties["Name"] == "") then
+			properties["Name"] = equipmentName
+		end
+		properties['MUID'] = equipmentSourceMUID
+		FEED_ICONS[equipmentSourceMUID] = properties
+	else
+		FEED_ICONS[icon.name] = properties
+	end
+end
+
 
 function TablePrint(tbl, indent)
     local formatting, lua_type
@@ -57,29 +77,6 @@ function TablePrint(tbl, indent)
         end
     end
 end
-
-
-local testGuns = {}
-local testCounter = 1
-for _, icon in pairs(AF_ICONS_ALL) do
-	local properties = icon:GetCustomProperties()
-	if (properties["EquipmentTemplate"] ~= nil) then
-		local equipmentName = {CoreString.Split(tostring(properties["EquipmentTemplate"]), ':')}
-		equipmentSourceMUID = equipmentName[1]
-		equipmentName = equipmentName[2]
-
-		if (properties["Name"] == "") then
-			properties["Name"] = equipmentName
-		end
-		properties['MUID'] = equipmentSourceMUID
-		FEED_ICONS[equipmentSourceMUID] = properties
-		testGuns[testCounter] = equipmentSourceMUID
-		testCounter = testCounter + 1
-	else
-		FEED_ICONS[icon.name] = properties
-	end
-end
-
 
 -- Kill Feed
 local KILL_FEED_SETTINGS = script:GetCustomProperty("KillFeedSettings"):WaitForObject()
@@ -270,19 +267,12 @@ function GetIcon(element, feedIcon)
 
 end
 
-local printLines = 1
-
 -- nil Tick(float)
 -- Update the line templates to match current data, and update fading
 function Tick(deltaTime)
 
 	for i = 1, NUM_LINES do
 		if lines[i] then
-			if (printLines < 5) then
-				print("LINES")
-				TablePrint(lines, 5)
-				printLines = printLines + 1
-			end
 
 			local age = time() - lines[i].displayTime
 			local color = lines[i].color
@@ -295,8 +285,18 @@ function Tick(deltaTime)
 
 			for _, element in ipairs(feedLines) do
 				if (element.name == "KilledText") then
+					-- element.width = ICON_SIZE
+					-- element.height = ICON_SIZE
 					local textBox = element:FindDescendantByName("Text Box")
 					textBox.text = lines[i].killed
+					textBox.justification = TextJustify.LEFT
+
+					-- do text shadow
+					for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
+						textShadow.text = lines[i].killed
+						textShadow.justification = TextJustify.LEFT
+					end
+
 					if (lines[i].killedColor ~= color) then
 						textBox:SetColor(lines[i].killedColor)
 					else
@@ -311,6 +311,7 @@ function Tick(deltaTime)
 						local feedIcon = FEED_ICONS[lines[i].weaponUsed]
 						if (feedIcon) then
 							GetIcon(element, feedIcon)
+							element.rotationAngle = feedIcon.AngleRotate
 						end
 
 						feedElements["WeaponImage"] = element
@@ -337,10 +338,19 @@ function Tick(deltaTime)
 					end
 				end
 				if (element.name == "KillerText") then
+					-- element.width = ICON_SIZE
+					-- element.height = ICON_SIZE
 					if (lines[i].killer ~= "") then
 						local textBox = element:FindDescendantByName("Text Box")
 						textBox.text = lines[i].killer
 						textBox.justification = TextJustify.RIGHT
+
+						-- do text shadow
+						for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
+							textShadow.text = lines[i].killer
+							textShadow.justification = TextJustify.RIGHT
+						end
+
 						if (lines[i].killerColor ~= color) then
 							textBox:SetColor(lines[i].killerColor)
 						else
@@ -353,42 +363,67 @@ function Tick(deltaTime)
 						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
 					end
 				end
-				if (element.name == "KillerHealth") then
+				if (SHOW_KILLER_HP and element.name == "KillerHealth") then
 					if (lines[i].killerHP ~= "") then
+						-- element.width = 20
+						element.height = ICON_SIZE - 5
 						local imageBG = element:FindDescendantByName("BG Image")
-						-- imageBG:SetColor(Color.New(0,0,0,0))
-						imageBG.visibility = Visibility.FORCE_OFF
-						local image = element:FindDescendantByName("FG Image")
-						local imageShadow = element:FindDescendantByName("FG Shadow")
+
+						-- imageBG.visibility = Visibility.FORCE_OFF
+
+						local hpBar = element:FindDescendantByName("HP Bar")
+						local hpBarBG = element:FindDescendantByName("HP Bar BG")
 						local textBox = element:FindDescendantByName("Text Box")
 
-						if (math.tointeger(lines[i].killerHP) > 75) then
-							image:SetColor(HEALTH_HIGHFG)
-							imageShadow:SetColor(HEALTH_HIGHBG)
-						elseif (math.tointeger(lines[i].killerHP) > 55) then
-							image:SetColor(HEALTH_MEDFG)
-							imageShadow:SetColor(HEALTH_MEDBG)
+						local killerHP = math.tointeger(lines[i].killerHP)
+						hpBar.height = CoreMath.Round((killerHP/100)*ICON_SIZE, 0) - 9
+
+
+						if (killerHP > 75) then
+							hpBar:SetColor(HEALTH_HIGHBG)
+							-- for _, line in ipairs(imageBG:GetChildren()) do
+							-- 	local transColor = HEALTH_HIGHFG
+							-- 	transColor.a = 0.5
+							-- 	line:SetColor(transColor)
+							-- end
+							-- imageShadow:SetColor(HEALTH_HIGHBG)
+						elseif (killerHP > 55) then
+							hpBar:SetColor(HEALTH_MEDBG)
+							-- for _, line in ipairs(imageBG:GetChildren()) do
+							-- 	local transColor = HEALTH_MEDFG
+							-- 	transColor.a = 0.5
+							-- 	line:SetColor(transColor)
+							-- end
+							-- imageShadow:SetColor(HEALTH_MEDBG)
 						else
-							image:SetColor(HEALTH_LOWFG)
-							imageShadow:SetColor(HEALTH_LOWBG)
+							hpBar:SetColor(HEALTH_LOWBG)
+
+							-- for _, line in ipairs(imageBG:GetChildren()) do
+							-- 	local transColor = HEALTH_LOWFG
+							-- 	transColor.a = 0.5
+							-- 	line:SetColor(transColor)
+							-- end
+							-- imageShadow:SetColor(HEALTH_LOWBG)
 						end
 
-						image:SetImage(ICON_HEALTH)
-						imageShadow:SetImage(ICON_HEALTH)
-						image.width = -5
-						image.height = -5
-						imageShadow.width = -1
-						imageShadow.height = -1
+						hpBar:SetImage(ICON_HEALTH)
+						hpBarBG:SetImage(ICON_HEALTH)
+						-- image.width = -5
+						-- image.height = -5
+						-- imageShadow.width = -1
+						-- imageShadow.height = -1
 						textBox.text = lines[i].killerHP
 						feedElements["KillerHealth"] = element
-						feedElements["KillerHealth"].width = ICON_SIZE -- set defaults
+						feedElements["KillerHealth"].width = 9 -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
 					else
 						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
 					end
 				end
-				if (element.name == "Distance") then
+				if (SHOW_DISTANCE and element.name == "Distance") then
 					if (lines[i].distance ~= "") then
+					element.width = ICON_SIZE
+					element.height = ICON_SIZE
 					local image = element:FindDescendantByName("FG Image")
 					local imageBG = element:FindDescendantByName("BG Image")
 					imageBG.width = -3
@@ -416,23 +451,23 @@ function Tick(deltaTime)
 
 			if (lines[i].weaponUsed ~= "") then
 				-- weapon
-				feedElements["WeaponImage"].x = xPos
-				xPos = xPos - feedElements["WeaponImage"].width - GAP_SPACE
+				feedElements["WeaponImage"].x = xPos - 10
+				xPos = xPos - feedElements["WeaponImage"].width - GAP_SPACE - 30
 			end
 			if (lines[i].killExtraCode ~= "") then
 				-- specialImage
 				feedElements["SpecialImage"].x = xPos
 				xPos = xPos - feedElements["SpecialImage"].width - GAP_SPACE
 			end
-			if (lines[i].distance ~= "") then
+			if (SHOW_DISTANCE and lines[i].distance ~= "") then
 				-- Distance
 				feedElements["Distance"].x = xPos
 				xPos = xPos - feedElements["Distance"].width - GAP_SPACE
 			end
-			if (lines[i].killerHP ~= "") then
+			if (SHOW_KILLER_HP and lines[i].killerHP ~= "") then
 				-- Killer Health
-				feedElements["KillerHealth"].x = xPos
-				xPos = xPos - feedElements["KillerHealth"].width - GAP_SPACE
+				feedElements["KillerHealth"].x = xPos - 9
+				xPos = xPos - feedElements["KillerHealth"].width - GAP_SPACE - 10
 			end
 			if (lines[i].killer ~= "") then
 				-- Killer
@@ -450,14 +485,17 @@ for i = 1, NUM_LINES do
 	lineTemplates[i] = World.SpawnAsset(AF_LINE_TEMPLATE, {parent = AF_PANEL})
 	local elements = {}
 
-	elements['KillerHealth'] = World.SpawnAsset(AF_TEXT_ON_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
-	elements['KillerHealth'].width = ICON_SIZE
+	lineTemplates[i].height = ICON_SIZE
+
+	elements['KillerHealth'] = World.SpawnAsset(AF_HEALTH_BAR_TEMPLATE, {parent = lineTemplates[i]})
+	elements['KillerHealth'].width = 25
 	elements['KillerHealth'].height = ICON_SIZE
 	elements['KillerHealth'].name = "KillerHealth"
 	elements['KillerHealth'].visibility = Visibility.FORCE_OFF
 
 	elements['KillerText'] = World.SpawnAsset(AF_TEXT_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KillerText'].name = "KillerText"
+	-- elements['KillerText'].height = ICON_SIZE
 	elements['KillerText'].visibility = Visibility.FORCE_OFF
 
 	elements['KillerImage'] = World.SpawnAsset(AF_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
@@ -468,6 +506,7 @@ for i = 1, NUM_LINES do
 
 	elements['KilledText'] = World.SpawnAsset(AF_TEXT_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KilledText'].name = "KilledText"
+	-- elements['KilledText'].height = ICON_SIZE
 
 	elements['KilledImage'] = World.SpawnAsset(AF_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KilledImage'].name = "KilledImage"
