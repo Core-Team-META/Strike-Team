@@ -27,6 +27,8 @@ Objects {
   ChildIds: 14036186774430242210
   ChildIds: 8492026800449626092
   ChildIds: 10996531461860900982
+  ChildIds: 9314856379261280453
+  ChildIds: 3418567395686366433
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +38,91 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 3418567395686366433
+  Name: "meta_cc_ActivityFeed Health Bar"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16904210639392218704
+      value {
+        Overrides {
+          Name: "Name"
+          String: "meta_cc_ActivityFeed Health Bar"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8753408648562811091
+    }
+  }
+}
+Objects {
+  Id: 9314856379261280453
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -79,6 +166,17 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 9952173147966564248
+  ChildIds: 497722259018080373
+  ChildIds: 663399873959635998
+  ChildIds: 14683407773804502661
+  ChildIds: 9409099354079271285
+  ChildIds: 15758789499365268971
+  ChildIds: 9038628014289833237
+  ChildIds: 7377850507824085847
+  ChildIds: 6889165436805457457
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -88,6 +186,321 @@ Objects {
   Script {
     ScriptAsset {
       Id: 650771232788281887
+    }
+  }
+}
+Objects {
+  Id: 6889165436805457457
+  Name: "SP2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16671993031585528870
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SP2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9332333382319278776
+    }
+  }
+}
+Objects {
+  Id: 7377850507824085847
+  Name: "MAMBA2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8568020721695570181
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MAMBA2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11857961929768719493
+    }
+  }
+}
+Objects {
+  Id: 9038628014289833237
+  Name: "EQUALIZER2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13485202857273345291
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EQUALIZER2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4887686027475991779
+    }
+  }
+}
+Objects {
+  Id: 15758789499365268971
+  Name: "SVAA2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13485202857273345291
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SVAA2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7849914397938662428
+    }
+  }
+}
+Objects {
+  Id: 9409099354079271285
+  Name: "NEMO2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1760752495282157727
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NEMO2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5739364599050502024
+    }
+  }
+}
+Objects {
+  Id: 14683407773804502661
+  Name: "LEVIMATEO2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16671993031585528870
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LEVIMATEO2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10476310043397296838
+    }
+  }
+}
+Objects {
+  Id: 663399873959635998
+  Name: "SPECTOR452.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13485202857273345291
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SPECTOR452.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5343945996030504866
+    }
+  }
+}
+Objects {
+  Id: 497722259018080373
+  Name: "Manticore2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17879303847887531709
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Manticore2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11947651157392943754
+    }
+  }
+}
+Objects {
+  Id: 9952173147966564248
+  Name: "HK2.0_WEAPON"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1230800553748600029
+      value {
+        Overrides {
+          Name: "Name"
+          String: "HK2.0_WEAPON"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6729362224180268666
     }
   }
 }

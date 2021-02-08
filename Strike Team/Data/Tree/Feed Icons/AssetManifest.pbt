@@ -1,22 +1,4 @@
 Assets {
-  Id: 17397341478246606362
-  Name: "Icon Weapon Rifle"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponRifle"
-  }
-}
-Assets {
-  Id: 17289448223043935888
-  Name: "UI Gradient Rectangular 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_002"
-  }
-}
-Assets {
   Id: 16879127747257565034
   Name: "Planet"
   PlatformAssetType: 9
@@ -44,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16672326753757397400
+  Name: "Weapon Assault Rifle 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_AssaultRifle_005"
+  }
+}
+Assets {
   Id: 16639438294200189897
   Name: "Survival Bat 002"
   PlatformAssetType: 9
@@ -62,12 +53,39 @@ Assets {
   }
 }
 Assets {
+  Id: 15337799720467641762
+  Name: "Weapon Knife 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_Knife_005"
+  }
+}
+Assets {
+  Id: 14759442090699897862
+  Name: "Weapon Sniper Rifle 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SniperRifle_003"
+  }
+}
+Assets {
   Id: 13586096600253432719
   Name: "Fantasy Craft Stone 028"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Stone_028"
+  }
+}
+Assets {
+  Id: 12832138002433923957
+  Name: "Weapon Sub MG 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SubMG_003"
   }
 }
 Assets {
@@ -80,21 +98,39 @@ Assets {
   }
 }
 Assets {
-  Id: 12148338275000495858
-  Name: "Survival Tool Screwdriver 001"
+  Id: 11429406116101648691
+  Name: "Weapon Bazooka 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Equip_Tool_021"
+    AssetId: "UI_Military_Weapon_Bazooka_001"
   }
 }
 Assets {
-  Id: 9934992039656428311
-  Name: "Icon Weapon Rocket Launcher"
+  Id: 10653999599372664189
+  Name: "Weapon Knife 004"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponRocketLauncher"
+    AssetId: "UI_Military_Weapon_Knife_004"
+  }
+}
+Assets {
+  Id: 9431849012435747430
+  Name: "Weapon Shotgun 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_Shotgun_003"
+  }
+}
+Assets {
+  Id: 8867735376630173895
+  Name: "Weapon Pistol 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_Pistol_002"
   }
 }
 Assets {
@@ -116,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7530428418300208520
+  Name: "Weapon Sub MG 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SubMG_006"
+  }
+}
+Assets {
   Id: 7049270386928608003
   Name: "BG Flat 006"
   PlatformAssetType: 9
@@ -134,12 +179,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5471655330366632404
-  Name: "Icon Weapon Gun"
+  Id: 4801078581681820408
+  Name: "Weapon Sub MG 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponGun"
+    AssetId: "UI_Military_Weapon_SubMG_002"
   }
 }
 Assets {
@@ -152,12 +197,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3772783788081685654
-  Name: "Icon Assault Rifle"
+  Id: 4425460120182619356
+  Name: "Weapon Sniper Rifle 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponAssaultRifle"
+    AssetId: "UI_Military_Weapon_SniperRifle_002"
   }
 }
 Assets {
@@ -179,21 +224,21 @@ Assets {
   }
 }
 Assets {
-  Id: 2014244595946923048
-  Name: "Icon Weapon SMG"
+  Id: 2554722082088045387
+  Name: "Weapon Sniper Rifle 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponSMG"
+    AssetId: "UI_Military_Weapon_SniperRifle_001"
   }
 }
 Assets {
-  Id: 1089507744638609654
-  Name: "Icon Weapon Shotgun"
+  Id: 859535740314286906
+  Name: "Survival Tool Awl 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponShotgun"
+    AssetId: "UI_Survival_Equip_Tool_001"
   }
 }
 Assets {
