@@ -1,10 +1,10 @@
 Assets {
-  Id: 16338116431421170583
-  Name: "Stats"
+  Id: 7680858341692356884
+  Name: "kbLoadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "9c28804fd45342228835d004da0e503a"
+      Key: "8b2e86712cf3408b84c7460da11d95b8"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3743045480859962162
-  Name: "Storage"
+  Id: 6089088227320909453
+  Name: "kbStatKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "71e08e50f9394b8fb68ec3586912de31"
+      Key: "8f55fdea9ff844e2ae2f8891dc001f67"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,25 @@ Assets {
   }
 }
 Assets {
-  Id: 3439705028274587478
-  Name: "LifeTime"
+  Id: 4739881724469582188
+  Name: "kbStorage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+      Key: "f9051b502dba4824963a3cb79d5c824e"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 3597397260749144825
+  Name: "kbLifetimeStats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "13f078009327458f8ec0f358ddc9e04c"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -44,18 +57,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
-  }
-}
-Assets {
-  Id: 1343286538746895822
-  Name: "Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }

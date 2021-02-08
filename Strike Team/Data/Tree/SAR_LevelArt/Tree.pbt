@@ -84615,8 +84615,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2900
-            Y: 5135
+            X: -2925.28296
+            Y: 5160.28271
             Z: 5
           }
         }
@@ -96668,57 +96668,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14262510693805342316
-  Name: "Hills 01"
-  Transform {
-    Location {
-      X: -6321.6084
-      Y: 7653.51758
-      Z: 315
-    }
-    Rotation {
-      Pitch: 19.8939705
-      Yaw: -128.965652
-      Roll: 8.46709061
-    }
-    Scale {
-      X: 0.59502548
-      Y: 0.799993694
-      Z: 2.15040326
-    }
-  }
-  ParentId: 16373807130785117515
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16844107203508180063
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4054211681159130604
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
     EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {

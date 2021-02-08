@@ -157,6 +157,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:AngleRotate"
+        Int: 0
+      }
+      Overrides {
         Name: "cs:Name:tooltip"
         String: "Can enter the name of the weapon/ability or a special keyword"
       }
