@@ -5822,53 +5822,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6085556047278489809
-  Name: "Killboard"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6153464260326768231
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1390390568180654553
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Killboard"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9381781172154590091
-      value {
-        Overrides {
-          Name: "UIX"
-          Float: 45
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 20
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7803355834863197027
-    }
-  }
-}
-Objects {
   Id: 4631372477339193968
   Name: "HealthScreen"
   Transform {
