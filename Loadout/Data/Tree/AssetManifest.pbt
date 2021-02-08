@@ -178,15 +178,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14005528099389862145
-  Name: "Tech Symbol 2"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Scifi_Icon_047"
-  }
-}
-Assets {
   Id: 13766506912631948287
   Name: "Metal Corrugated 01"
   PlatformAssetType: 2
@@ -620,15 +611,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_eightsided_001"
-  }
-}
-Assets {
-  Id: 3664507400955153403
-  Name: "Survival Money 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Equip_Money_001"
   }
 }
 Assets {

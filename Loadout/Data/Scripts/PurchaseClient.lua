@@ -76,6 +76,7 @@ function PurchaseClientManager.PurchaseSuccessful()
     Task.Wait()
     if  ConfirmationPanel.clientUserData.type == "Skin" then
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableSkinSuccess, ConfirmationPanel.clientUserData.Skin.name)
+        
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
     end

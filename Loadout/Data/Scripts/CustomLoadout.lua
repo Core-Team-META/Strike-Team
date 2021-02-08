@@ -115,6 +115,14 @@ function FillInData()
     end
 end
 
+
+function EquipOnSelected()
+    Events.BroadcastToServer("EquipSlot", LOCAL_PLAYER.clientUserData.SelectedSlot)
+    LOCAL_PLAYER.clientUserData.EquipSlot = LOCAL_PLAYER.clientUserData.SelectedSlot
+    Events.Broadcast("UpdateEquipped")
+end
+
+
 function EquipSlot(slot)
     
     if(os.clock() - lastpressedTime < .1) then return end
@@ -125,7 +133,7 @@ function EquipSlot(slot)
     _G["LoadoutState"] = _G["LOADOUTSTATEENUMS"][2]
     Events.Broadcast("UpdatedLoadoutState")
     Events.Broadcast("UpdatedLoadouts") 
-
+    EquipOnSelected()
 end
 
 function SpawnPanel() 
