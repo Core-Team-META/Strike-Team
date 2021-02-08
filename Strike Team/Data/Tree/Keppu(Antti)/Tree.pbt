@@ -2184,7 +2184,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 5.18913174
+      Float: 2.189
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2233,7 +2233,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 5.18913174
+      Float: 3.189
     }
   }
   Collidable_v2 {
@@ -2321,7 +2321,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2369,7 +2369,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2417,11 +2417,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
-      Float: 0.66179353
+      Float: 0.362
     }
   }
   Collidable_v2 {
@@ -2465,11 +2465,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
-      Float: 0.66179353
+      Float: 0.362
     }
   }
   Collidable_v2 {
@@ -2513,11 +2513,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
-      Float: 0.66179353
+      Float: 0.362
     }
   }
   Collidable_v2 {
@@ -2561,7 +2561,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 2
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2609,7 +2609,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2657,11 +2657,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
-      Float: 0.496905088
+      Float: 0.2969051
     }
   }
   Collidable_v2 {
@@ -2705,11 +2705,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
-      Float: 0.496905088
+      Float: 0.2969051
     }
   }
   Collidable_v2 {
@@ -2753,7 +2753,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2801,7 +2801,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2849,7 +2849,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 10
+      Float: 3
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -2897,7 +2897,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 5.18913174
+      Float: 4.189
     }
   }
   Collidable_v2 {
@@ -2941,7 +2941,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
-      Float: 5.18913174
+      Float: 3.189
     }
     Overrides {
       Name: "bp:Particle Scale Multiplier"
