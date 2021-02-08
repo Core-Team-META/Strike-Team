@@ -1979,7 +1979,7 @@ Objects {
     Overrides {
       Name: "cs:KingOfHills_HillTemplate"
       AssetReference {
-        Id: 1887649969457042822
+        Id: 9791514024673551673
       }
     }
     Overrides {

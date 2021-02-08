@@ -23,6 +23,9 @@ local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
 --local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
+local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
+local Flag1Color = script:GetCustomProperty("Flag1Color"):WaitForObject()
+local Flag2Color = script:GetCustomProperty("Flag2Color"):WaitForObject()
 local ChopSpot = script:GetCustomProperty("ChopSpot"):WaitForObject()
 local ChopSpotRoot = script:GetCustomProperty("ChopSpotRoot"):WaitForObject()
 local Light = script:GetCustomProperty("Light"):WaitForObject()
@@ -79,11 +82,17 @@ function OnNetworkChanged(object, string)
             EDGE.isTeamColorUsed = true
             GROUND.isTeamColorUsed = true
             Light.isTeamColorUsed = true
+            FlagRootColor.isTeamColorUsed = true
+            Flag1Color.isTeamColorUsed = true
+            Flag2Color.isTeamColorUsed = true
             ChopSpot.team = data[TEAM]
             ChopSpotRoot.team = data[TEAM]
             EDGE.team = data[TEAM]
             GROUND.team = data[TEAM]
             Light.team = data[TEAM]
+            FlagRootColor.team = data[TEAM]
+            Flag1Color.team = data[TEAM]
+            Flag2Color.team = data[TEAM]
             Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
         else
             ChopSpot.isTeamColorUsed = false
@@ -91,6 +100,9 @@ function OnNetworkChanged(object, string)
             EDGE.isTeamColorUsed = false
             GROUND.isTeamColorUsed = false
             Light.isTeamColorUsed = false
+            FlagRootColor.isTeamColorUsed = false
+            Flag1Color.isTeamColorUsed = false
+            Flag2Color.isTeamColorUsed = false
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
         if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
