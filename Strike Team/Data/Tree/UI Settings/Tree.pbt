@@ -42,7 +42,7 @@ Objects {
     Overrides {
       Name: "cs:HitFeedbackSound"
       ObjectReference {
-        SelfId: 7416580456329035666
+        SelfId: 11863225032839151113
       }
     }
     Overrides {
@@ -99,6 +99,7 @@ Objects {
   }
   ParentId: 13571071561004526013
   ChildIds: 919800606840301099
+  ChildIds: 11863225032839151113
   ChildIds: 7416580456329035666
   ChildIds: 7876931439477260836
   UnregisteredParameters {
@@ -392,6 +393,40 @@ Objects {
     SubobjectId: 11463521339905986033
     InstanceId: 5164628646408382285
     TemplateId: 12984678018063706940
+  }
+}
+Objects {
+  Id: 11863225032839151113
+  Name: "Hit Feedback Sound Buck"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11538036520020894513
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 5746113150348561912
+    }
+    Pitch: 919.778809
+    Volume: 2.01544833
+    Falloff: -1
+    Radius: -1
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
   }
 }
 Objects {

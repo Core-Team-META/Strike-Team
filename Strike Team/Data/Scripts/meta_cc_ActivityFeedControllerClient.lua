@@ -80,6 +80,7 @@ for _, icon in pairs(AF_ICONS_ALL) do
 	end
 end
 
+
 -- Kill Feed
 local KILL_FEED_SETTINGS = script:GetCustomProperty("KillFeedSettings"):WaitForObject()
 
@@ -236,12 +237,53 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		end
 	end
 end
+
+
+
+function GetIcon(element, feedIcon)
+
+	for i = 1, 6 do
+		local iconLayer = element:FindDescendantByName("Layer_0"..tostring(i))
+		if (feedIcon["Layer_0"..tostring(i)]) then
+			-- Grab icon
+			local layer = element:FindDescendantByName("Layer_0"..tostring(i))
+			layer:SetImage(feedIcon["Layer_0"..tostring(i)])
+			layer:SetColor(feedIcon["Layer_0"..tostring(i).."_Color"])
+			local layer_x_y = feedIcon["Layer_0"..tostring(i).."_Offset"]
+
+			layer.x = layer_x_y.x
+			layer.y = layer_x_y.y
+			local layer_w_h = feedIcon["Layer_0"..tostring(i).."_WidthHeight"]
+
+			layer.width = layer_w_h.x
+			layer.height = layer_w_h.y
+
+			if (not iconLayer:IsVisibleInHierarchy()) then
+				iconLayer.visibility = Visibility.FORCE_ON
+			end
+		else
+			if (iconLayer:IsVisibleInHierarchy()) then
+				iconLayer.visibility = Visibility.FORCE_OFF
+			end
+		end
+	end
+
+end
+
+local printLines = 1
+
 -- nil Tick(float)
 -- Update the line templates to match current data, and update fading
 function Tick(deltaTime)
 
 	for i = 1, NUM_LINES do
 		if lines[i] then
+			if (printLines < 5) then
+				print("LINES")
+				TablePrint(lines, 5)
+				printLines = printLines + 1
+			end
+
 			local age = time() - lines[i].displayTime
 			local color = lines[i].color
 
@@ -265,10 +307,12 @@ function Tick(deltaTime)
 				end
 				if (element.name == "WeaponImage") then
 					if (lines[i].weaponUsed ~= "") then
-						local image = element:FindDescendantByName("FG Image")
-						if (FEED_ICONS[lines[i].weaponUsed]) then
-							image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
+
+						local feedIcon = FEED_ICONS[lines[i].weaponUsed]
+						if (feedIcon) then
+							GetIcon(element, feedIcon)
 						end
+
 						feedElements["WeaponImage"] = element
 						feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
@@ -279,91 +323,12 @@ function Tick(deltaTime)
 				end
 				if (element.name == "SpecialImage") then
 					if (lines[i].killExtraCode ~= "") then
-						local feedIconExtra = FEED_ICONS[lines[i].killExtraCode]
-						if (feedIconExtra) then
-							local image = element:FindDescendantByName("FG Image")
-							local imageShadow = element:FindDescendantByName("FG Shadow")
-							image:SetImage(feedIconExtra.Icon)
-							imageShadow:SetImage(feedIconExtra.Icon)
-							imageShadow:SetColor(feedIconExtra.IconShadowColor)
+						local feedIcon = FEED_ICONS[lines[i].killExtraCode]
 
-							if (feedIconExtra.IconOffset.x ~= 0 or feedIconExtra.IconOffset.y ~= 0) then
-								image.x = feedIconExtra.IconOffset.x
-								image.y = feedIconExtra.IconOffset.y
-								imageShadow.x = feedIconExtra.IconOffset.x
-								imageShadow.y = feedIconExtra.IconOffset.y
-
-							end
-
-							if (feedIconExtra.IconWidthHeight.x ~= 0 or feedIconExtra.IconWidthHeight.y ~= 0) then
-								image.width = feedIconExtra.IconWidthHeight.x
-								image.height = feedIconExtra.IconWidthHeight.y
-								imageShadow.width = image.width + feedIconExtra.IconShadowSize
-								imageShadow.height = image.height + feedIconExtra.IconShadowSize
-							end
-
-							local imageBack =  element:FindDescendantByName("FG Back")
-							local imageBackShadow = element:FindDescendantByName("FG Back Shadow")
-							if (feedIconExtra.IconBG) then
-								if (feedIconExtra.IconBGShadow) then
-									imageBackShadow:SetImage(feedIconExtra.IconBGShadow)
-								else
-									imageBackShadow:SetImage(feedIconExtra.IconBG)
-								end
-								imageBackShadow:SetColor(feedIconExtra.IconBGShadowColor)
-
-								imageBack:SetImage(feedIconExtra.IconBG)
-								imageBack:SetColor(feedIconExtra.IconBGColor)
-
-								if (feedIconExtra.IconBGOffset.x ~= 0 or feedIconExtra.IconBGOffset.y ~= 0) then
-									imageBack.x = feedIconExtra.IconBGOffset.x
-									imageBack.y = feedIconExtra.IconBGOffset.y
-									imageBackShadow.x = feedIconExtra.IconBGOffset.x
-									imageBackShadow.y = feedIconExtra.IconBGOffset.y
-								end
-								imageBackShadow.width = feedIconExtra.IconBGShadowWidthHeight.x
-								imageBackShadow.height = feedIconExtra.IconBGShadowWidthHeight.y
-
-								if (feedIconExtra.IconBGWidthHeight.x ~= 0 or feedIconExtra.IconBGWidthHeight.y ~= 0) then
-									imageBack.width = feedIconExtra.IconBGWidthHeight.x
-									imageBack.height = feedIconExtra.IconBGWidthHeight.y
-								end
-
-								if (not imageBack:IsVisibleInHierarchy()) then
-									imageBack.visibility = Visibility.FORCE_ON
-									imageBackShadow.visibility = Visibility.FORCE_ON
-								end
-							else
-								if (imageBack:IsVisibleInHierarchy()) then
-									imageBack.visibility = Visibility.FORCE_OFF
-									imageBackShadow.visibility = Visibility.FORCE_OFF
-								end
-							end
-
-							local imageFront =  element:FindDescendantByName("FG Front")
-
-							if (feedIconExtra.IconFG) then
-								imageFront:SetImage(feedIconExtra.IconFG)
-								imageFront:SetColor(feedIconExtra.IconFGColor)
-
-								if (feedIconExtra.IconFGOffset.x ~= 0 or feedIconExtra.IconFGOffset.y ~= 0) then
-									imageFront.x = feedIconExtra.IconFGOffset.x
-									imageFront.y = feedIconExtra.IconFGOffset.y
-								end
-
-								if (feedIconExtra.IconFGWidthHeight.x ~= 0 or feedIconExtra.IconFGWidthHeight.y ~= 0) then
-
-									imageFront.width = feedIconExtra.IconFGWidthHeight.x
-									imageFront.height = feedIconExtra.IconFGWidthHeight.y
-								end
-
-								if (not imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_ON end
-							else
-								if (imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_OFF end
-							end
-
-
+						if (feedIcon) then
+							GetIcon(element, feedIcon)
 						end
+
 						feedElements["SpecialImage"] = element
 						feedElements["SpecialImage"].width = ICON_SIZE -- set defaults
 						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end

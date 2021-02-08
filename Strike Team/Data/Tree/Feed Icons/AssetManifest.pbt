@@ -1,13 +1,4 @@
 Assets {
-  Id: 17916877912671871254
-  Name: "Baton"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Icon_023"
-  }
-}
-Assets {
   Id: 17397341478246606362
   Name: "Icon Weapon Rifle"
   PlatformAssetType: 9
@@ -17,12 +8,48 @@ Assets {
   }
 }
 Assets {
-  Id: 16334872757423794263
-  Name: "Fire"
+  Id: 17289448223043935888
+  Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Icon_Fire"
+    AssetId: "UI_Basic_Shape_002"
+  }
+}
+Assets {
+  Id: 16879127747257565034
+  Name: "Planet"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Icon_017"
+  }
+}
+Assets {
+  Id: 16866350402427419714
+  Name: "Fantasy Axe 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Axe_003"
+  }
+}
+Assets {
+  Id: 16795863209487774222
+  Name: "Survival Food Bottle 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Food_010"
+  }
+}
+Assets {
+  Id: 16639438294200189897
+  Name: "Survival Bat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Baton_001"
   }
 }
 Assets {
@@ -44,48 +71,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12577597540670242942
+  Name: "Survival Tool Pickaxe 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Tool_017"
+  }
+}
+Assets {
+  Id: 12148338275000495858
+  Name: "Survival Tool Screwdriver 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Tool_021"
+  }
+}
+Assets {
   Id: 9934992039656428311
   Name: "Icon Weapon Rocket Launcher"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_WeaponRocketLauncher"
-  }
-}
-Assets {
-  Id: 9738688525360925377
-  Name: "Hammer"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_icon_Hammer"
-  }
-}
-Assets {
-  Id: 9384520849142346961
-  Name: "Icon Death"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Death"
-  }
-}
-Assets {
-  Id: 9031839549026265981
-  Name: "BG Flat 006"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_015"
-  }
-}
-Assets {
-  Id: 8614910665527548726
-  Name: "Icon Grenade"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Grenade"
   }
 }
 Assets {
@@ -98,21 +107,30 @@ Assets {
   }
 }
 Assets {
-  Id: 7857068568420460772
-  Name: "Knife"
+  Id: 7800031187977293047
+  Name: "Fantasy Club 008"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Icon_011"
+    AssetId: "UI_Fantasy_Weapon_Club_008"
   }
 }
 Assets {
-  Id: 7777937500885018175
-  Name: "Icon Weapon Axe"
+  Id: 7049270386928608003
+  Name: "BG Flat 006"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponAxe"
+    AssetId: "BackgroundNoOutline_015"
+  }
+}
+Assets {
+  Id: 6785318892921818342
+  Name: "Survival Grenade 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Grenade_001"
   }
 }
 Assets {
