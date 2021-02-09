@@ -191,10 +191,40 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     return newpanel
 end
 
+function SortPanels(a,b)
+    print(a.data.name ,Storage:HasWeapon(a.data.id))
+    print(b.data.name ,Storage:HasWeapon(b.data.id))
+    print("_______")
+    if Storage:HasWeapon(a.data.id) == true and not Storage:HasWeapon(b.data.id)  then return true end
+    if not Storage:HasWeapon(a.data.id)  and Storage:HasWeapon(b.data.id) == true then return false end
+    
+    if a.data.name == b.data.name then return false end
+    return a.data.name <= b.data.name 
+
+end
+
+function SkinSort(id,a,b)
+
+    if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
+    if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
+    
+    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
+        if a.name == b.name then return false end
+        return a.name <= b.name 
+    else 
+        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+    end
+    
+end
+
+
 function SpawnPanels(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
+    table.sort( items, function ( a,b )
+        return SortPanels( a,b )
+    end)
     SlotChange( #items )
     for i=Sort+1, math.min((Sort + PanelLimit),#items)  do
         local newItem = Database:SetupItemWithSkin(items[i].data.id.."_00")
@@ -231,20 +261,6 @@ function SetupSkinPanel(item,id,skins,i,Locked)
 end
 
 
-function SkinSort(id,a,b)
-
-    if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
-    if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
-    
-    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
-        if a.name == b.name then return false end
-        return a.name <= b.name 
-    else 
-        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
-    end
-    
-end
-
 function SpawnPanelskins(itemid)
 
     DestroyPanels()
@@ -273,6 +289,9 @@ function SpawnIconPanel(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
+    table.sort( items, function ( a,b )
+        return SortPanels( a,b )
+    end)
     SlotChange( #items )    
     for i=Sort+1, math.min((Sort + PanelLimit), #items) do
         local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),not CheckWeapon(items[i].data.id))
