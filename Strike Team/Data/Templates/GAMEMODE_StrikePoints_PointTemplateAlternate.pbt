@@ -1349,6 +1349,12 @@ Assets {
               Id: 16698816414813635720
             }
           }
+          Overrides {
+            Name: "cs:EaseUI"
+            AssetReference {
+              Id: 12045507068401926921
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
