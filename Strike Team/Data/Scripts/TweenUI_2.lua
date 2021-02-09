@@ -1,4 +1,3 @@
-Task.Wait(1)
 local EaseUI = require(script:GetCustomProperty("EaseUI2"))
 local propEaseUI2 = script:GetCustomProperty("EaseUI2")
 local propUIPanel = script:GetCustomProperty("UIPanel"):WaitForObject()
