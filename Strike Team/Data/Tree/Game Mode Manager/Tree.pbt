@@ -1737,7 +1737,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"
