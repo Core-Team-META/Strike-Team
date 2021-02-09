@@ -68,7 +68,7 @@ function OnPlayerVote(player, id)
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, endTime)
-    if newState ~= ABGS.GAME_STATE_ROUND_VOTING then -- and oldState == ABGS.GAME_STATE_ROUND_VOTING then
+    if newState ~= ABGS.GAME_STATE_ROUND_VOTING and oldState == ABGS.GAME_STATE_ROUND_VOTING then
         local nextGameMode = GetNextGameModeId() or DEFAULT_GAME_ID
         SetGameModeState(nextGameMode)
     elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
