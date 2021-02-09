@@ -175,6 +175,12 @@ Objects {
   ChildIds: 9038628014289833237
   ChildIds: 7377850507824085847
   ChildIds: 6889165436805457457
+  ChildIds: 1569296275596609554
+  ChildIds: 13560851042962296659
+  ChildIds: 7980134207522889825
+  ChildIds: 5557482476813907461
+  ChildIds: 8586143248257890594
+  ChildIds: 9680404637294419888
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -186,6 +192,216 @@ Objects {
   Script {
     ScriptAsset {
       Id: 650771232788281887
+    }
+  }
+}
+Objects {
+  Id: 9680404637294419888
+  Name: "Bat_Weapon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8969396636807140608
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bat_Weapon"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7834147917182884450
+    }
+  }
+}
+Objects {
+  Id: 8586143248257890594
+  Name: "Ice-Pick"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11221719999270277182
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ice-Pick"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17051268152452230013
+    }
+  }
+}
+Objects {
+  Id: 5557482476813907461
+  Name: "Mace_Weapon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7686519051001135265
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Mace_Weapon"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16296467989848624945
+    }
+  }
+}
+Objects {
+  Id: 7980134207522889825
+  Name: "Hatchet_Weapon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7686519051001135265
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Hatchet_Weapon"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3171756760165812255
+    }
+  }
+}
+Objects {
+  Id: 13560851042962296659
+  Name: "Grenade"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18045273018505054026
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Grenade"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15941196163952459759
+    }
+  }
+}
+Objects {
+  Id: 1569296275596609554
+  Name: "Molotov Cocktail"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492026800449626092
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10930555450248991595
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Molotov Cocktail"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10706991407395748906
     }
   }
 }

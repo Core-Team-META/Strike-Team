@@ -118,7 +118,7 @@ end
 -- Constants
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FADE_DURATION = 0.6
-local VERTICAL_SPACING = 0
+local VERTICAL_SPACING = 5
 
 -- After connecting, we hide join messages for a short time, so we don't see messages for everyone already in the game
 local JOIN_MESSAGE_START = time() + 1.0
