@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16171930666698102214
-  Name: "Frame Outlined Thick 008"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameFlat_025"
-  }
-}
-Assets {
   Id: 16122168266446741330
   Name: "Fantasy Ability Purple 035"
   PlatformAssetType: 9
@@ -125,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9034770064803050122
+  Name: "Survival Crate 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Crate_005"
+  }
+}
+Assets {
   Id: 6595698929899861519
   Name: "Icon Star"
   PlatformAssetType: 9
@@ -179,11 +179,11 @@ Assets {
   }
 }
 Assets {
-  Id: 96162478431907100
-  Name: "UI Gradient Circular 001"
+  Id: 112181103824863239
+  Name: "Icon Explosion"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_001"
+    AssetId: "Icon_Explosion"
   }
 }
