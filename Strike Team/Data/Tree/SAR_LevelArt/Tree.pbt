@@ -72,7 +72,6 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  ChildIds: 13874703838234081629
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -88,70 +87,6 @@ Objects {
     InstanceId: 8355883737248918027
     TemplateId: 4795006726164404533
     WasRoot: true
-  }
-}
-Objects {
-  Id: 13874703838234081629
-  Name: "Girder Medium 4m"
-  Transform {
-    Location {
-      X: -520.152039
-      Y: -54.5229454
-      Z: -13.884654
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1.46314549
-      Y: 0.999999523
-      Z: 0.999997199
-    }
-  }
-  ParentId: 4675707310760388644
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 13085174305471638229
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.1803931
-        G: 0.223958
-        B: 0.16438517
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14056018732352046755
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 13874703838234081629
-    SubobjectId: 1703402628316591777
-    InstanceId: 8355883737248918027
-    TemplateId: 4795006726164404533
   }
 }
 Objects {
@@ -36681,6 +36616,27 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
+      key: 6851718701834177928
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -381.597351
+            Y: -55.4643707
+            Z: -42.354248
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 3.53165841
+            Yaw: -0.643768311
+            Roll: 95.6374817
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 12196351349899929299
       value {
         Overrides {
@@ -36709,6 +36665,27 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15550787250550813042
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 94.9014206
+            Y: -61.028244
+            Z: -12.9229965
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 3.53166533
+            Yaw: -0.64364624
+            Roll: 95.6375275
           }
         }
       }

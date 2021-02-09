@@ -3229,7 +3229,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Blueprint {
     BlueprintAsset {
@@ -3316,7 +3316,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.382062167
+      Float: 0.437698543
     }
     Overrides {
       Name: "bp:Power"
@@ -3372,7 +3372,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density"
-      Float: 4.80321312
+      Float: 4.02710533
     }
     Overrides {
       Name: "bp:Start"
@@ -3403,6 +3403,14 @@ Objects {
         B: 1
         A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Layered Fog Density"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Falloff"
+      Float: 0.49255693
     }
   }
   Collidable_v2 {
@@ -3585,8 +3593,8 @@ Objects {
       Name: "bp:Cloud Color"
       Color {
         R: 1
-        G: 0.793037057
-        B: 0.540602565
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -3611,8 +3619,42 @@ Objects {
     Overrides {
       Name: "bp:Cloud Shape"
       Enum {
-        Value: "mc:ecloudshapes:1"
+        Value: "mc:ecloudshapes:5"
       }
+    }
+    Overrides {
+      Name: "bp:Clouds"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cloud Lighting Brightness"
+      Float: 22
+    }
+    Overrides {
+      Name: "bp:Cloud Opacity"
+      Float: 0.457136333
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Cloud Wisp Opacity"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:High Cloud Opacity"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:High Cloud Index"
+      Enum {
+        Value: "mc:ehighaltitudecloudshapes:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Wisp Speed"
+      Float: 1
     }
   }
   Collidable_v2 {

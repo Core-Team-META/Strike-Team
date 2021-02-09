@@ -5147,7 +5147,7 @@ Objects {
     Scale {
       X: 1.49999988
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -18821,7 +18821,7 @@ Objects {
     Scale {
       X: 5.9
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -18870,7 +18870,7 @@ Objects {
     Scale {
       X: 1.5
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -18919,7 +18919,7 @@ Objects {
     Scale {
       X: 1.4
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -18968,7 +18968,7 @@ Objects {
     Scale {
       X: 0.45
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -19017,7 +19017,7 @@ Objects {
     Scale {
       X: 1
       Y: 1.00000894
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -19066,7 +19066,7 @@ Objects {
     Scale {
       X: 1
       Y: 1.00000894
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -19115,7 +19115,7 @@ Objects {
     Scale {
       X: 1
       Y: 1.00000894
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -19164,7 +19164,7 @@ Objects {
     Scale {
       X: 1.2
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 7633992929331903348
@@ -28370,7 +28370,7 @@ Objects {
     Scale {
       X: 5.79999876
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -32876,7 +32876,7 @@ Objects {
     Scale {
       X: 1
       Y: 1.00000894
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -32925,7 +32925,7 @@ Objects {
     Scale {
       X: 1.2
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -33989,7 +33989,7 @@ Objects {
     Scale {
       X: 1.4
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -34033,12 +34033,12 @@ Objects {
       Z: 1695
     }
     Rotation {
-      Yaw: -89.9999313
+      Yaw: -89.999939
     }
     Scale {
       X: 1.5
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -36020,7 +36020,7 @@ Objects {
     Scale {
       X: 1
       Y: 1.00000894
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -39169,7 +39169,7 @@ Objects {
     Scale {
       X: 0.45
       Y: 1
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -39285,7 +39285,7 @@ Objects {
     Scale {
       X: 1
       Y: 1.00000894
-      Z: 0.7
+      Z: 0.478701174
     }
   }
   ParentId: 17478943649813217779
@@ -77858,6 +77858,9 @@ Objects {
   ChildIds: 7047306559516261647
   ChildIds: 13131492559111333760
   ChildIds: 2524014087493644593
+  ChildIds: 6646463950963983711
+  ChildIds: 989543761353994755
+  ChildIds: 8344938171417451967
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77866,6 +77869,292 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8344938171417451967
+  Name: "Trim Roof 01 Mainstreet"
+  Transform {
+    Location {
+      X: 1106.68604
+      Y: -807.077148
+      Z: 555.230469
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 3.60064721
+      Y: 1.98355401
+      Z: 0.749037206
+    }
+  }
+  ParentId: 4749856199096210012
+  ChildIds: 2479795627244367387
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2479795627244367387
+  Name: "NewFolder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8344938171417451967
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder_1"
+  }
+}
+Objects {
+  Id: 989543761353994755
+  Name: "Craftsman Porch Pillar 01"
+  Transform {
+    Location {
+      X: 737.289551
+      Y: -986.634766
+      Z: -275.000092
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.30000007
+    }
+  }
+  ParentId: 4749856199096210012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 2647109416399480979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6432912761929814416
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6646463950963983711
+  Name: "Group"
+  Transform {
+    Location {
+      X: 1084.79199
+      Y: -822.592773
+      Z: 561.878479
+    }
+    Rotation {
+      Yaw: -111.905853
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4749856199096210012
+  ChildIds: 17547054137172765155
+  ChildIds: 3811605031068978956
+  ChildIds: 1336971509165974763
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1336971509165974763
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 50.6450882
+      Y: 73.8852081
+      Z: 73.9835815
+    }
+    Rotation {
+      Yaw: -67.5001526
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6646463950963983711
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3811605031068978956
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -90.4466095
+      Y: 10.418335
+      Z: 69.763
+    }
+    Rotation {
+      Yaw: -64.7380371
+    }
+    Scale {
+      X: 1.06367075
+      Y: 1.06367075
+      Z: 1.06367075
+    }
+  }
+  ParentId: 6646463950963983711
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17547054137172765155
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: 38.8437805
+      Y: 66.0378189
+      Z: 218.983582
+    }
+    Rotation {
+      Yaw: -67.5001526
+    }
+    Scale {
+      X: 0.945591152
+      Y: 0.945591152
+      Z: 0.945591152
+    }
+  }
+  ParentId: 6646463950963983711
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12056825294615652422
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -79360,7 +79649,7 @@ Objects {
   Name: "Craftsman Porch Pillar 01"
   Transform {
     Location {
-      X: 726.006836
+      X: 1177.0166
       Y: -986.634766
       Z: -275.000092
     }
@@ -80612,7 +80901,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 261.006836
+      X: 453.158691
       Y: -826.634766
       Z: 435
     }
@@ -80621,9 +80910,9 @@ Objects {
       Roll: 2.04905282e-05
     }
     Scale {
-      X: 9.90000057
-      Y: 4.09999943
-      Z: 1.2
+      X: 14.2500048
+      Y: 4
+      Z: 1.25
     }
   }
   ParentId: 4749856199096210012
@@ -81738,7 +82027,7 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: 771.006836
+      X: 1215.2334
       Y: -1016.63477
       Z: 439.302
     }
@@ -81746,9 +82035,9 @@ Objects {
       Yaw: -179.999954
     }
     Scale {
-      X: 1.27449214
-      Y: 0.800000489
-      Z: 1.30000007
+      X: 1.83272076
+      Y: 0.800000131
+      Z: 1.30948687
     }
   }
   ParentId: 4749856199096210012
@@ -81841,12 +82130,12 @@ Objects {
   Name: "Trim Roof 01 Mainstreet"
   Transform {
     Location {
-      X: 766.006836
+      X: 1181.00684
       Y: -586.634766
       Z: 440
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 0.575273454
@@ -81909,7 +82198,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_1"
+    FilePartitionName: "NewFolder"
   }
 }
 Objects {

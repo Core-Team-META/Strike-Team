@@ -386,7 +386,7 @@ Objects {
     }
     Volume: 3.027
     Falloff: 3600
-    Radius: 400
+    Radius: 1000
   }
   InstanceHistory {
     SelfId: 7416580456329035666
@@ -421,12 +421,9 @@ Objects {
       Id: 5746113150348561912
     }
     Pitch: 919.778809
-    Volume: 2.01544833
+    Volume: 2.94816184
     Falloff: -1
     Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
   }
 }
 Objects {

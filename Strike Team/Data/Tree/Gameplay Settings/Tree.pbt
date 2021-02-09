@@ -7944,7 +7944,7 @@ Objects {
 }
 Objects {
   Id: 12237745151427107917
-  Name: "Head"
+  Name: "Head Player Settings"
   Transform {
     Location {
     }
@@ -8018,7 +8018,7 @@ Objects {
 }
 Objects {
   Id: 6040031201152220356
-  Name: "Default"
+  Name: "Default Player Settings"
   Transform {
     Location {
     }
@@ -8045,11 +8045,11 @@ Objects {
       WalkSpeed: 640
       MaxAcceleration: 1800
       BrakingDecelerationFalling: 8
-      WalkableFloorAngle: 60
+      WalkableFloorAngle: 75
       JumpMaxCount: 1
       JumpVelocity: 1100
       GroundFriction: 8
-      GravityScale: 3.3
+      GravityScale: 3
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1
