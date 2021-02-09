@@ -1,29 +1,29 @@
 ------------------------------------------------------------------------------------------------------------------------
--- Achievement System Helper Server
+-- Achievement System Client
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/3
--- Version 0.1.0
+-- Date: 2021/2/8
+-- Version 0.0.1
 ------------------------------------------------------------------------------------------------------------------------
-local GAMEMODE_NETWORK = script:GetCustomProperty("GAMEMODE_Networked"):WaitForObject()
+local ACHIEVEMENT_LIST = script:GetCustomProperty("Achievement_List"):WaitForObject()
+local ACH_API
+repeat
+    Task.Wait()
+    ACH_API = _G.META_ACHIEVEMENTS
+until ACH_API
+
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
-local function IsValidPlayer(object)
-    return Object.IsValid(object) and object:IsA("Player")
-end
-
 
 
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
-function PlayerDamaged(owner, target, type, isHeadShot)
-    if IsValidPlayer(owner) and IsValidPlayer(target) then
-       
-    end
+
+function Int()
+    ACH_API.RegisterAchievements(ACHIEVEMENT_LIST)
 end
-------------------------------------------------------------------------------------------------------------------------
--- GLOBAL FUNCTIONS
-------------------------------------------------------------------------------------------------------------------------
-Events.Connect("AS.PlayerDamaged", PlayerDamaged) -- passes (owner, target, type, isHeadShot)
+
+
+Int()
