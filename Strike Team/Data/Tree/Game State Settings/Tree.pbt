@@ -304,11 +304,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:LobbyHasDuration"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:LobbyDuration"
-      Float: 1
+      Float: 3
     }
     Overrides {
       Name: "cs:RoundHasDuration"
