@@ -839,17 +839,15 @@ Objects {
     }
   }
   ParentId: 17483507795814813175
-  ChildIds: 10947287557866067863
-  ChildIds: 4390733833997297588
-  ChildIds: 5734890715936478779
-  ChildIds: 17216198958758166817
+  ChildIds: 6795455105238334249
+  ChildIds: 978679252921718468
   ChildIds: 12950382018174454502
   ChildIds: 6814743995337046778
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 1424
@@ -1527,7 +1525,6 @@ Objects {
   ChildIds: 433085763418133300
   ChildIds: 9635678456608503423
   ChildIds: 14952181149758468044
-  ChildIds: 978679252921718468
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1562,137 +1559,6 @@ Objects {
   InstanceHistory {
     SelfId: 12950382018174454502
     SubobjectId: 16575267020903197861
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 978679252921718468
-  Name: "TITLE_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12950382018174454502
-  ChildIds: 9415203580140844081
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 465
-    Height: 40
-    UIY: 1.82739258
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    Text {
-      Label: "CHOOSE A GAME MODE FOR MORE INFO"
-      Color {
-        R: 0.50888145
-        G: 0.50888145
-        B: 0.50888145
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4552227428788636739
-    SubobjectId: 7679500376629258752
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 9415203580140844081
-  Name: "TITLE"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 978679252921718468
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 465
-    Height: 20
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    Text {
-      Label: "CHOOSE A GAME MODE FOR MORE INFO"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-      ClipTextToSize: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 16176010433511498814
-    SubobjectId: 13097428230275367549
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -9302,6 +9168,167 @@ Objects {
   }
 }
 Objects {
+  Id: 978679252921718468
+  Name: "TITLE_SHADOW"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7776611986258655277
+  ChildIds: 9415203580140844081
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 465
+    Height: 40
+    UIX: -392
+    UIY: 4.82739258
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    Text {
+      Label: "CHOOSE A GAME MODE FOR MORE INFO"
+      Color {
+        R: 0.50888145
+        G: 0.50888145
+        B: 0.50888145
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4552227428788636739
+    SubobjectId: 7679500376629258752
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 9415203580140844081
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 978679252921718468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 465
+    Height: 20
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    Text {
+      Label: "CHOOSE A GAME MODE FOR MORE INFO"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      ClipTextToSize: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16176010433511498814
+    SubobjectId: 13097428230275367549
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 6795455105238334249
+  Name: "GAME_INFO"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7776611986258655277
+  ChildIds: 10947287557866067863
+  ChildIds: 4390733833997297588
+  ChildIds: 5734890715936478779
+  ChildIds: 17216198958758166817
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 17216198958758166817
   Name: "SP_INFO"
   Transform {
@@ -9315,17 +9342,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7776611986258655277
+  ParentId: 6795455105238334249
   ChildIds: 13922585984150528682
   ChildIds: 5667686574250711171
   ChildIds: 12270877638020779615
   ChildIds: 9773798814059041291
   ChildIds: 7637163457475540905
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 3
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 582
@@ -9558,7 +9591,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 325
@@ -10499,28 +10532,6 @@ Objects {
   ChildIds: 17730789440108094102
   ChildIds: 3103344746448878136
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ID"
-      Int: 3
-    }
-    Overrides {
-      Name: "cs:BUTTON"
-      ObjectReference {
-        SelfId: 17447649259663241400
-      }
-    }
-    Overrides {
-      Name: "cs:VOTE_COUNT"
-      ObjectReference {
-        SelfId: 11569174572787923798
-      }
-    }
-    Overrides {
-      Name: "cs:VOTED_FOR"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -12083,17 +12094,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7776611986258655277
+  ParentId: 6795455105238334249
   ChildIds: 13681325836005214116
   ChildIds: 15051851096435173217
   ChildIds: 8151185674746721889
   ChildIds: 1457698356270202285
   ChildIds: 4760556826984972383
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 4
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 582
@@ -12326,7 +12343,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 325
@@ -14829,17 +14846,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7776611986258655277
+  ParentId: 6795455105238334249
   ChildIds: 9665815958817587911
   ChildIds: 12445742350765201871
   ChildIds: 16844071782304722761
   ChildIds: 12629794476466800615
   ChildIds: 16044214211643673420
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 2
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 582
@@ -17131,17 +17154,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7776611986258655277
+  ParentId: 6795455105238334249
   ChildIds: 3730543135769166219
   ChildIds: 2084804180855131718
   ChildIds: 16759801921115799664
   ChildIds: 16933628074850852133
   ChildIds: 1846454152621489374
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      Int: 1
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 582
@@ -17374,7 +17403,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 325
@@ -20134,7 +20163,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 1424

@@ -184,6 +184,12 @@ Objects {
         SelfId: 2420207814350621380
       }
     }
+    Overrides {
+      Name: "cs:GAME_INFO"
+      ObjectReference {
+        SelfId: 6795455105238334249
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1731,7 +1737,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
-      Int: 5
+      Int: 1
     }
     Overrides {
       Name: "cs:OBJECTIVE_POINTS"

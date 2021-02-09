@@ -20,6 +20,7 @@ local TIME_REMAINING2 = script:GetCustomProperty("TIME_REMAINING2"):WaitForObjec
 local NETWORKED = script:GetCustomProperty("NETWORKED"):WaitForObject()
 local GAME_MODE_POLL = script:GetCustomProperty("GAME_MODE_POLL"):WaitForObject()
 local MATCH_LENGTH = script:GetCustomProperty("MATCH_LENGTH"):WaitForObject()
+local GAME_INFO = script:GetCustomProperty("GAME_INFO"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -27,6 +28,7 @@ local currentVote = {}
 local currentPanels = {}
 local listeners = {}
 local panelBorders = {}
+local gameInfoPanels = {}
 local voting = false
 local spamPrevent
 local endTime
@@ -58,6 +60,12 @@ local function ClearPanels()
     end
 end
 
+local function ClearInfoPanels()
+    for _, panel in pairs(gameInfoPanels) do
+        panel.visibility = Visibility.FORCE_OFF
+    end
+end
+
 local function ClearBoarderColor()
     for _, boarder in ipairs(panelBorders) do
         if Object.IsValid(boarder) then
@@ -82,6 +90,13 @@ local function OnVoteButtonPress(button)
         button.clientUserData.border.visibility = Visibility.FORCE_ON
     end
 end
+
+local function OnVoteButtonHover(button)
+    if IsVoteingState() then
+        ClearInfoPanels()
+        gameInfoPanels[button.clientUserData.id].visibility = Visibility.FORCE_ON
+    end
+end
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -101,6 +116,7 @@ function BuildPanels()
             button.clientUserData.id = id
             button.clientUserData.border = border
             listeners[#listeners + 1] = button.pressedEvent:Connect(OnVoteButtonPress)
+            listeners[#listeners + 1] = button.hoveredEvent:Connect(OnVoteButtonHover)
         end
     end
     ClearPanels()
@@ -162,3 +178,9 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Events.Connect("GameStateChanged", OnGameStateChanged)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkedChanged)
+
+for _, info in ipairs(GAME_INFO:GetChildren()) do
+    local id = info:GetCustomProperty("ID")
+    print(id)
+    gameInfoPanels[id] = info
+end
