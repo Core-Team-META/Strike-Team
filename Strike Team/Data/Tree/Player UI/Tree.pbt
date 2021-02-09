@@ -6531,6 +6531,10 @@ Objects {
         SelfId: 4155250460056493078
       }
     }
+    Overrides {
+      Name: "cs:isEnemy"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
