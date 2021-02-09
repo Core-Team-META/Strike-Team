@@ -26,6 +26,8 @@ local ROUND_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundHasDuration")
 local ROUND_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundDuration")
 local ROUND_END_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndHasDuration")
 local ROUND_END_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndDuration")
+local STATS_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("StatsHasDuration")
+local STATS_DURATION = COMPONENT_ROOT:GetCustomProperty("StatsDuration")
 local VOTING_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingHasDuration")
 local VOTING_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingDuration")
 
@@ -78,6 +80,12 @@ function SetGameState(newState)
 	elseif newState == ABGS.GAME_STATE_ROUND_END then
 		stateHasduration = ROUND_END_HAS_DURATION
 		stateDuration = ROUND_END_DURATION
+	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
+		stateHasduration = VOTING_HAS_DURATION
+		stateDuration = VOTING_DURATION
+	elseif newState ==  ABGS.GAME_STATE_ROUND_STATS then
+		stateHasduration = STATS_HAS_DURATION
+		stateDuration = STATS_DURATION
 	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
 		stateHasduration = VOTING_HAS_DURATION
 		stateDuration = VOTING_DURATION
@@ -134,6 +142,8 @@ function Tick(deltaTime)
 		elseif previousState == ABGS.GAME_STATE_ROUND then
 			nextState = ABGS.GAME_STATE_ROUND_END
 		elseif previousState == ABGS.GAME_STATE_ROUND_END then
+			nextState = ABGS.GAME_STATE_ROUND_STATS
+		elseif previousState == ABGS.GAME_STATE_ROUND_STATS then
 			nextState = ABGS.GAME_STATE_ROUND_VOTING
 		elseif previousState == ABGS.GAME_STATE_ROUND_VOTING then
 			nextState = ABGS.GAME_STATE_LOBBY

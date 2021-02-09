@@ -327,6 +327,14 @@ Objects {
       Float: 10
     }
     Overrides {
+      Name: "cs:StatsHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StatsDuration"
+      Float: 10
+    }
+    Overrides {
       Name: "cs:VotingHasDuration"
       Bool: true
     }
