@@ -6397,10 +6397,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 45
     Height: 30
-    UIX: 20
-    UIY: 30
+    UIX: -185
+    UIY: 2
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6412,7 +6412,7 @@ Objects {
         R: 0.98
         A: 1
       }
-      Size: 14
+      Size: 20
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -6466,8 +6466,7 @@ Objects {
   Control {
     Width: 60
     Height: 30
-    UIX: 150.882
-    UIY: 51.4065742
+    UIX: -185
     RotationAngle: 180
     RenderTransformPivot {
       Anchor {
@@ -6487,12 +6486,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -7016,10 +7015,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 45
     Height: 30
-    UIX: -20
-    UIY: 30
+    UIX: 185
+    UIY: 2
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -7032,7 +7031,7 @@ Objects {
         B: 0.879622579
         A: 1
       }
-      Size: 14
+      Size: 20
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -7086,8 +7085,8 @@ Objects {
   Control {
     Width: 60
     Height: 30
-    UIX: -150.881714
-    UIY: 51.4065742
+    UIX: 185
+    UIY: 30
     RotationAngle: 180
     RenderTransformPivot {
       Anchor {
@@ -7107,12 +7106,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }

@@ -43,6 +43,12 @@ Objects {
           Name: "UIY"
           Float: 40
         }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:left"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -67,7 +73,7 @@ Objects {
         Overrides {
           Name: "Justification"
           Enum {
-            Value: "mc:etextjustify:right"
+            Value: "mc:etextjustify:left"
           }
         }
       }
@@ -108,22 +114,22 @@ Objects {
         Overrides {
           Name: "Anchor"
           Enum {
-            Value: "mc:euianchor:topright"
+            Value: "mc:euianchor:topleft"
           }
         }
         Overrides {
           Name: "Dock"
           Enum {
-            Value: "mc:euianchor:topright"
+            Value: "mc:euianchor:topleft"
           }
         }
         Overrides {
           Name: "UIX"
-          Float: -15
+          Float: 15
         }
         Overrides {
           Name: "UIY"
-          Float: 10
+          Float: 40
         }
       }
     }
