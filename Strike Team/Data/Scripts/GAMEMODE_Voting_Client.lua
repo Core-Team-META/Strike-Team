@@ -21,6 +21,8 @@ local NETWORKED = script:GetCustomProperty("NETWORKED"):WaitForObject()
 local GAME_MODE_POLL = script:GetCustomProperty("GAME_MODE_POLL"):WaitForObject()
 local MATCH_LENGTH = script:GetCustomProperty("MATCH_LENGTH"):WaitForObject()
 local GAME_INFO = script:GetCustomProperty("GAME_INFO"):WaitForObject()
+local FIRSTINSTANCE = script:GetCustomProperty("FIRSTINSTANCE"):WaitForObject()
+local SECOND_INSTANCE = script:GetCustomProperty("SECOND_INSTANCE"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -46,8 +48,11 @@ local function ToggleUISettings(bool)
     UI.SetCursorVisible(bool)
     if bool then
         PARENT_PANEL.visibility = Visibility.FORCE_ON
+        FIRSTINSTANCE.visibility = Visibility.FORCE_ON
+        SECOND_INSTANCE.visibility = Visibility.FORCE_OFF
     else
         PARENT_PANEL.visibility = Visibility.FORCE_OFF
+        FIRSTINSTANCE.visibility = Visibility.FORCE_OFF
     end
     voting = bool
 end
@@ -181,6 +186,5 @@ NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkedChanged)
 
 for _, info in ipairs(GAME_INFO:GetChildren()) do
     local id = info:GetCustomProperty("ID")
-    print(id)
     gameInfoPanels[id] = info
 end

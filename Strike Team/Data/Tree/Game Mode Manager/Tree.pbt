@@ -190,6 +190,18 @@ Objects {
         SelfId: 6795455105238334249
       }
     }
+    Overrides {
+      Name: "cs:FIRSTINSTANCE"
+      ObjectReference {
+        SelfId: 3984942649001871118
+      }
+    }
+    Overrides {
+      Name: "cs:SECOND_INSTANCE"
+      ObjectReference {
+        SelfId: 7776611986258655277
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
