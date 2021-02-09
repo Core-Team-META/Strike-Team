@@ -1740,8 +1740,8 @@ Objects {
       Int: 5
     }
     Overrides {
-      Name: "cs:OBJECTIVE_POINTS"
-      Int: 5
+      Name: "cs:SECONDS_TO_CAPTURE"
+      Float: 5
     }
     Overrides {
       Name: "cs:RESPAWN_SETTINGS"
@@ -1754,6 +1754,10 @@ Objects {
       AssetReference {
         Id: 6206877607318460980
       }
+    }
+    Overrides {
+      Name: "cs:OBJECTIVE_POINTS"
+      Int: 5
     }
   }
   Collidable_v2 {

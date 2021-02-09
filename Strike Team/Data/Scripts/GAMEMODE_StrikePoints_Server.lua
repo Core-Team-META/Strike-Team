@@ -55,6 +55,7 @@ local function SpawnNewHill()
             hillPosition = hillPositions[math.random(1, #hillPositions)]
         end
         currentHill = GT_API.SpawnAsset(HILL_TEMPLATE, {position = hillPosition, parent = SPAWNED_OBJECTS})
+        currentHill.name = tostring(myId)
         listeners[#listeners + 1] = currentHill.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
         GT_API.BroadcastObjectiveSpawned(currentHill, hillPosition)
         oldPosition = currentHill:GetWorldPosition()
