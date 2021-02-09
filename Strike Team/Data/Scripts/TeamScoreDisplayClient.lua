@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -24,7 +24,9 @@ local TEAM = COMPONENT_ROOT:GetCustomProperty("Team")
 local LABEL = COMPONENT_ROOT:GetCustomProperty("Label")
 local SHOW_MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("ShowMaxScore")
 MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("MaxScore")
+local isEnemy = script:GetCustomProperty("isEnemy")
 
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 -- Check user properties
 if TEAM < 0 or TEAM > 4 then
     warn("Team must be a valid team number (0-4)")
@@ -36,9 +38,20 @@ if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     MAX_SCORE = 100
 end
 
+
 -- nil Tick(float)
 -- Update the display
 function Tick(deltaTime)
+	if isEnemy then
+		if LOCAL_PLAYER.team == 1 then
+			TEAM = 2
+		elseif LOCAL_PLAYER.team == 2 then
+			TEAM = 1
+		end
+	else
+		TEAM = LOCAL_PLAYER.team
+	end
+	
     local score = Game.GetTeamScore(TEAM)
     PROGRESSBAR.progress = score/MAX_SCORE
     if SHOW_MAX_SCORE then
@@ -47,7 +60,7 @@ function Tick(deltaTime)
         TEXT_BOX.text = string.format("%s %d", LABEL, score)
     end
 
-    if(TEAM == Game.GetLocalPlayer().team) then
+    if(TEAM == LOCAL_PLAYER.team) then
         PROGRESSBAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
     else
         PROGRESSBAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
