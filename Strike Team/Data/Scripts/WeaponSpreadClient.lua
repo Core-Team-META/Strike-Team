@@ -89,6 +89,7 @@ function Tick()
     end
     -- Adjust the player spread modify gradually over time
     newSpreadModifyValue = spreadDelta * (1 - newSpreadModifyValue)
+    newSpreadModifyValue =  newSpreadModifyValue * (player.clientUserData.SpreadModifier  or 1)
     player.spreadModifier = GetSmoothValue(player.spreadModifier, newSpreadModifyValue)
 end
 

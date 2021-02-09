@@ -141,7 +141,8 @@ Assets {
             UseReticle: true
             Muzzle {
               Location {
-                Z: -5
+                X: 108.526497
+                Z: 14.9632721
               }
               Rotation {
               }

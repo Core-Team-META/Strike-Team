@@ -10,7 +10,7 @@ Assets {
       }
       Overrides {
         Name: "cs:ID"
-        Int: 0
+        String: ""
       }
       Overrides {
         Name: "cs:Required"
@@ -19,6 +19,20 @@ Assets {
       Overrides {
         Name: "cs:Description"
         String: ""
+      }
+      Overrides {
+        Name: "cs:REWARD_NAME"
+        String: ""
+      }
+      Overrides {
+        Name: "cs:REWARD_AMMOUNT"
+        Int: 0
+      }
+      Overrides {
+        Name: "cs:ICON"
+        AssetReference {
+          Id: 841534158063459245
+        }
       }
     }
   }

@@ -2183,7 +2183,7 @@ Objects {
     }
     Overrides {
       Name: "cs:PLAYER_SCORE_MULTIPLIER"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
@@ -2453,7 +2453,8 @@ Objects {
   Control {
     Width: 201
     Height: 54
-    UIY: 45
+    UIX: 5
+    UIY: 5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2464,12 +2465,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:topleft"
         }
       }
     }

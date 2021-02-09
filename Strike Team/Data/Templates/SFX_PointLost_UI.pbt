@@ -1,13 +1,13 @@
 Assets {
-  Id: 16698816414813635720
-  Name: "SFX_PointSecured_UI"
+  Id: 9027762185476937268
+  Name: "SFX_PointLost_UI"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 7682134726510369571
+      RootId: 11520605643616459724
       Objects {
-        Id: 7682134726510369571
-        Name: "SFX_PointSecured_UI"
+        Id: 11520605643616459724
+        Name: "SFX_PointLost_UI"
         Transform {
           Scale {
             X: 1
@@ -16,12 +16,13 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 396629440143407681
-        ChildIds: 5672812733840050710
-        ChildIds: 5456269677845581666
-        ChildIds: 11301420339270135220
-        ChildIds: 9498942439754360091
-        ChildIds: 17386781065025066333
+        ChildIds: 1008057832008040607
+        ChildIds: 3669331224389465281
+        ChildIds: 15507623332201606130
+        ChildIds: 11106746823046695982
+        ChildIds: 10115657946287424335
+        ChildIds: 5130430931366817423
+        ChildIds: 14039632275171134962
         Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -33,7 +34,7 @@ Assets {
         }
       }
       Objects {
-        Id: 396629440143407681
+        Id: 1008057832008040607
         Name: "Heavy Stinger Action Combat Stingers 01"
         Transform {
           Location {
@@ -46,7 +47,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7682134726510369571
+        ParentId: 11520605643616459724
         UnregisteredParameters {
           Overrides {
             Name: "bp:Type"
@@ -69,7 +70,6 @@ Assets {
           }
           AudioBP {
             Transient: true
-            Volume: 0.495978862
             Falloff: 3600
             Radius: 400
             FadeOutTime: 3
@@ -79,7 +79,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5672812733840050710
+        Id: 3669331224389465281
         Name: "Brass Hit High Music Stinger 01"
         Transform {
           Location {
@@ -92,7 +92,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7682134726510369571
+        ParentId: 11520605643616459724
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -107,7 +107,6 @@ Assets {
           }
           AudioBP {
             Transient: true
-            Volume: 0.4
             Falloff: 3600
             Radius: 400
             StartTime: 0.2
@@ -115,7 +114,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5456269677845581666
+        Id: 15507623332201606130
         Name: "Orchestral Victory Achievement Music Stinger Set 01"
         Transform {
           Location {
@@ -128,7 +127,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7682134726510369571
+        ParentId: 11520605643616459724
         UnregisteredParameters {
           Overrides {
             Name: "bp:Type"
@@ -151,7 +150,6 @@ Assets {
           }
           AudioBP {
             Transient: true
-            Volume: 1
             Falloff: 3600
             Radius: 400
             FadeOutTime: 3
@@ -161,7 +159,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11301420339270135220
+        Id: 11106746823046695982
         Name: "Military Radio Vocal Call Short 02 SFX"
         Transform {
           Location {
@@ -174,7 +172,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7682134726510369571
+        ParentId: 11520605643616459724
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -191,7 +189,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9498942439754360091
+        Id: 10115657946287424335
         Name: "Military Radio Vocal Call Short 01 SFX"
         Transform {
           Location {
@@ -204,7 +202,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7682134726510369571
+        ParentId: 11520605643616459724
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -221,7 +219,52 @@ Assets {
         }
       }
       Objects {
-        Id: 17386781065025066333
+        Id: 5130430931366817423
+        Name: "Evil Failure Low Brass Music Loop/Stinger Kit 01 "
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11520605643616459724
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:emx_evilfailurelowhornskit:43"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12450713167557146985
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Transient: true
+            Pitch: 330.697754
+            Volume: 0.970069408
+            Falloff: 3600
+            Radius: 400
+            FadeOutTime: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14039632275171134962
         Name: "UI Container"
         Transform {
           Location {
@@ -235,8 +278,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7682134726510369571
-        ChildIds: 1052099973465414450
+        ParentId: 11520605643616459724
+        ChildIds: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -266,7 +309,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1052099973465414450
+        Id: 1953412001253225741
         Name: "UI Panel"
         Transform {
           Location {
@@ -283,20 +326,20 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17386781065025066333
-        ChildIds: 18129515739282541103
-        ChildIds: 334648338993284881
-        ChildIds: 8402214063582923894
-        ChildIds: 4116259560590237995
-        ChildIds: 8318387057588035434
-        ChildIds: 11406445028292946044
-        ChildIds: 12702121868792942381
-        ChildIds: 10190290059494682685
-        ChildIds: 2515304205220237915
-        ChildIds: 10916040669644109546
-        ChildIds: 15583471114994882094
-        ChildIds: 7832936929185831457
-        ChildIds: 3501792657135023921
+        ParentId: 14039632275171134962
+        ChildIds: 4586091600395123851
+        ChildIds: 14880016573658657330
+        ChildIds: 11225016101473712295
+        ChildIds: 13934625460516657376
+        ChildIds: 18042849232873697879
+        ChildIds: 3480197199137091872
+        ChildIds: 4137753710390218969
+        ChildIds: 11427662467820037753
+        ChildIds: 8008599130414638862
+        ChildIds: 17007828813780950957
+        ChildIds: 16204615737064374420
+        ChildIds: 15073177222787010122
+        ChildIds: 10190811156358830780
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -329,7 +372,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18129515739282541103
+        Id: 4586091600395123851
         Name: "BackgroundPurpleLight"
         Transform {
           Location {
@@ -343,7 +386,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -352,7 +395,7 @@ Assets {
         }
         Control {
           Width: 1
-          Height: 70
+          Height: 67
           UIY: -5
           RenderTransformPivot {
             Anchor {
@@ -364,9 +407,9 @@ Assets {
               Id: 17289448223043935888
             }
             Color {
-              R: 1
-              G: 0.329999983
-              B: 0.329999983
+              R: 0.36
+              G: 0.61854279
+              B: 1
               A: 0.290000021
             }
             TeamSettings {
@@ -387,7 +430,7 @@ Assets {
         }
       }
       Objects {
-        Id: 334648338993284881
+        Id: 14880016573658657330
         Name: "BackgroundBlue"
         Transform {
           Location {
@@ -401,7 +444,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -410,7 +453,7 @@ Assets {
         }
         Control {
           Width: 1
-          Height: 70
+          Height: 67
           UIY: -5
           RenderTransformPivot {
             Anchor {
@@ -422,9 +465,9 @@ Assets {
               Id: 17289448223043935888
             }
             Color {
-              R: 0.0628370568
-              G: 0.0677083358
-              B: 0.00366613106
+              R: 0.0677083358
+              G: 0.016890483
+              B: 0.0162169561
               A: 0.453
             }
             TeamSettings {
@@ -445,7 +488,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8402214063582923894
+        Id: 11225016101473712295
         Name: "TextMessageShadow"
         Transform {
           Location {
@@ -462,7 +505,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -480,7 +523,7 @@ Assets {
             }
           }
           Text {
-            Label: "Point Secured"
+            Label: "Lost Strike Point"
             Color {
               R: 0.269999981
               G: 0.0590066202
@@ -507,7 +550,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4116259560590237995
+        Id: 13934625460516657376
         Name: "TextMessage"
         Transform {
           Location {
@@ -524,7 +567,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -542,7 +585,7 @@ Assets {
             }
           }
           Text {
-            Label: "Point Secured"
+            Label: "Lost Strike Point"
             Color {
               R: 0.64
               G: 0.3560265
@@ -569,7 +612,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8318387057588035434
+        Id: 18042849232873697879
         Name: "BackgroundTexture"
         Transform {
           Location {
@@ -583,7 +626,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -592,7 +635,7 @@ Assets {
         }
         Control {
           Width: 1
-          Height: 61
+          Height: 58
           UIY: -1
           RenderTransformPivot {
             Anchor {
@@ -604,9 +647,9 @@ Assets {
               Id: 17289448223043935888
             }
             Color {
-              R: 0.72649
-              G: 1
-              B: 0.3
+              R: 1
+              G: 0.36
+              B: 0.36
               A: 0.089
             }
             TeamSettings {
@@ -627,7 +670,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11406445028292946044
+        Id: 3480197199137091872
         Name: "SliverLeftTop"
         Transform {
           Location {
@@ -640,7 +683,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -659,11 +702,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 5825171173901325589
+              Id: 7979902098204624088
             }
             Color {
-              R: 0.710000038
-              G: 0.352649063
+              R: 0.354166657
+              G: 0.138124987
+              B: 0.138124987
               A: 1
             }
             TeamSettings {
@@ -684,7 +728,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12702121868792942381
+        Id: 4137753710390218969
         Name: "SliverLeftBottom"
         Transform {
           Location {
@@ -697,7 +741,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -716,11 +760,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 5825171173901325589
+              Id: 7979902098204624088
             }
             Color {
-              R: 0.710000038
-              G: 0.352649063
+              R: 0.354166657
+              G: 0.138124987
+              B: 0.138124987
               A: 1
             }
             TeamSettings {
@@ -741,7 +786,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10190290059494682685
+        Id: 11427662467820037753
         Name: "SliverLeftMiddle"
         Transform {
           Location {
@@ -754,7 +799,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -773,11 +818,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 5825171173901325589
+              Id: 7979902098204624088
             }
             Color {
-              R: 0.710000038
-              G: 0.352649063
+              R: 0.354166657
+              G: 0.138124987
+              B: 0.138124987
               A: 1
             }
             TeamSettings {
@@ -798,7 +844,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2515304205220237915
+        Id: 8008599130414638862
         Name: "SliverRightTop"
         Transform {
           Location {
@@ -812,7 +858,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -831,11 +877,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 10330942532369399350
+              Id: 7979902098204624088
             }
             Color {
-              R: 0.710000038
-              G: 0.352649063
+              R: 0.354166657
+              G: 0.138124987
+              B: 0.138124987
               A: 1
             }
             TeamSettings {
@@ -856,7 +903,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10916040669644109546
+        Id: 17007828813780950957
         Name: "SliverRightBottom"
         Transform {
           Location {
@@ -870,7 +917,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -889,11 +936,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 10330942532369399350
+              Id: 7979902098204624088
             }
             Color {
-              R: 0.710000038
-              G: 0.352649063
+              R: 0.354166657
+              G: 0.138124987
+              B: 0.138124987
               A: 1
             }
             TeamSettings {
@@ -914,7 +962,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15583471114994882094
+        Id: 16204615737064374420
         Name: "SliverRightMiddle"
         Transform {
           Location {
@@ -928,7 +976,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -947,11 +995,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 10330942532369399350
+              Id: 7979902098204624088
             }
             Color {
-              R: 0.710000038
-              G: 0.352649063
+              R: 0.354166657
+              G: 0.138124987
+              B: 0.138124987
               A: 1
             }
             TeamSettings {
@@ -972,8 +1021,66 @@ Assets {
         }
       }
       Objects {
-        Id: 7832936929185831457
-        Name: "TweenUI_3"
+        Id: 15073177222787010122
+        Name: "BackgroundTexture"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 2.73207534e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1953412001253225741
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 1
+          Height: 72
+          UIX: -15.7475891
+          UIY: -6.118
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 4704905256911328704
+            }
+            Color {
+              R: 1
+              G: 0.209999979
+              B: 0.209999979
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10190811156358830780
+        Name: "TweenUI_4"
         Transform {
           Location {
             X: 9509.33
@@ -989,7 +1096,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1052099973465414450
+        ParentId: 1953412001253225741
         UnregisteredParameters {
           Overrides {
             Name: "cs:EaseUI2"
@@ -1000,109 +1107,115 @@ Assets {
           Overrides {
             Name: "cs:UIPanel"
             ObjectReference {
-              SubObjectId: 1052099973465414450
+              SubObjectId: 1953412001253225741
             }
           }
           Overrides {
             Name: "cs:BackgroundPurpleLight"
             ObjectReference {
-              SubObjectId: 18129515739282541103
+              SubObjectId: 4586091600395123851
             }
           }
           Overrides {
             Name: "cs:BackgroundBlue"
             ObjectReference {
-              SubObjectId: 334648338993284881
+              SubObjectId: 14880016573658657330
             }
           }
           Overrides {
             Name: "cs:SliverLeftTop"
             ObjectReference {
-              SubObjectId: 11406445028292946044
+              SubObjectId: 3480197199137091872
             }
           }
           Overrides {
             Name: "cs:SliverLeftBottom"
             ObjectReference {
-              SubObjectId: 12702121868792942381
+              SubObjectId: 4137753710390218969
             }
           }
           Overrides {
             Name: "cs:SliverLeftMiddle"
             ObjectReference {
-              SubObjectId: 10190290059494682685
+              SubObjectId: 11427662467820037753
             }
           }
           Overrides {
             Name: "cs:TextMessage"
             ObjectReference {
-              SubObjectId: 4116259560590237995
+              SubObjectId: 13934625460516657376
             }
           }
           Overrides {
             Name: "cs:BackgroundTexture"
             ObjectReference {
-              SubObjectId: 8318387057588035434
+              SubObjectId: 18042849232873697879
             }
           }
           Overrides {
             Name: "cs:SliverRightTop"
             ObjectReference {
-              SubObjectId: 2515304205220237915
+              SubObjectId: 8008599130414638862
             }
           }
           Overrides {
             Name: "cs:SliverRightBottom"
             ObjectReference {
-              SubObjectId: 10916040669644109546
+              SubObjectId: 17007828813780950957
             }
           }
           Overrides {
             Name: "cs:SliverRightMiddle"
             ObjectReference {
-              SubObjectId: 15583471114994882094
+              SubObjectId: 16204615737064374420
             }
           }
           Overrides {
             Name: "cs:TextMessageShadow"
             ObjectReference {
-              SubObjectId: 8402214063582923894
+              SubObjectId: 11225016101473712295
             }
           }
           Overrides {
             Name: "cs:HeavyStingerActionCombatStingers01"
             ObjectReference {
-              SubObjectId: 396629440143407681
+              SubObjectId: 1008057832008040607
             }
           }
           Overrides {
             Name: "cs:BrassHitHighMusicStinger01"
             ObjectReference {
-              SubObjectId: 5672812733840050710
+              SubObjectId: 3669331224389465281
             }
           }
           Overrides {
             Name: "cs:OrchestralVictoryAchievementMusicStinger"
             ObjectReference {
-              SubObjectId: 5456269677845581666
+              SubObjectId: 15507623332201606130
             }
           }
           Overrides {
             Name: "cs:MilitaryRadioVocalCallShort02SFX"
             ObjectReference {
-              SubObjectId: 11301420339270135220
+              SubObjectId: 11106746823046695982
             }
           }
           Overrides {
             Name: "cs:MilitaryRadioVocalCallShort01SFX"
             ObjectReference {
-              SubObjectId: 9498942439754360091
+              SubObjectId: 10115657946287424335
             }
           }
           Overrides {
             Name: "cs:BackgroundTexture_1"
             ObjectReference {
-              SubObjectId: 3501792657135023921
+              SubObjectId: 15073177222787010122
+            }
+          }
+          Overrides {
+            Name: "cs:EvilFailureLowBrassMusicLoopStingerKit01"
+            ObjectReference {
+              SubObjectId: 5130430931366817423
             }
           }
         }
@@ -1114,66 +1227,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 8707771859546003300
-          }
-        }
-      }
-      Objects {
-        Id: 3501792657135023921
-        Name: "BackgroundTexture"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: 2.73207534e-05
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1052099973465414450
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 1
-          Height: 79
-          UIX: -15.7475891
-          UIY: -13.1181641
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 15770100342021732882
-            }
-            Color {
-              R: 0.900927126
-              G: 1
-              B: 0.78
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
+            Id: 13185105570721878826
           }
         }
       }
@@ -1224,6 +1278,15 @@ Assets {
       }
     }
     Assets {
+      Id: 12450713167557146985
+      Name: "Evil Failure Low Brass Music Loop/Stinger Kit 01 "
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_Evil_Failure_Low_Horn_stinger_kit_01_ref"
+      }
+    }
+    Assets {
       Id: 17289448223043935888
       Name: "UI Gradient Rectangular 001"
       PlatformAssetType: 9
@@ -1233,30 +1296,21 @@ Assets {
       }
     }
     Assets {
-      Id: 5825171173901325589
-      Name: "Frame Line 007a Corner"
+      Id: 7979902098204624088
+      Name: "Frame Hex 006 Wedge"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "FrameLine_007aHalf"
+        AssetId: "FrameHex_006Wedge"
       }
     }
     Assets {
-      Id: 10330942532369399350
-      Name: "Frame Line 007 Corner"
+      Id: 4704905256911328704
+      Name: "Military Frame 007"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "FrameLine_007Half"
-      }
-    }
-    Assets {
-      Id: 15770100342021732882
-      Name: "Military Frame 005"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Frame_005"
+        AssetId: "UI_Military_Frame_007"
       }
     }
     PrimaryAssetId {
