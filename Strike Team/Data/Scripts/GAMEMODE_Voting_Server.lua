@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Mode Voting Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/8
--- Version 0.0.2
+-- Date: 2021/1/26
+-- Version 0.0.1
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ function OnPlayerVote(player, id)
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, endTime)
-    if newState ~= ABGS.GAME_STATE_ROUND_VOTING and oldState == ABGS.GAME_STATE_ROUND_VOTING then
+    if newState ~= ABGS.GAME_STATE_ROUND_VOTING then -- and oldState == ABGS.GAME_STATE_ROUND_VOTING then
         local nextGameMode = GetNextGameModeId() or DEFAULT_GAME_ID
         SetGameModeState(nextGameMode)
     elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
@@ -84,4 +84,3 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Events.Connect("GameStateChanged", OnGameStateChanged)
 GT_API.ConnectOnVote(OnPlayerVote)
-SetGameModeState(GetNextGameModeId() or DEFAULT_GAME_ID)
