@@ -106,7 +106,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
     Width: 10
@@ -169,7 +169,7 @@ Objects {
     Width: 325
     Height: 50
     UIX: 475.512817
-    UIY: 424.57309
+    UIY: 350
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -847,7 +847,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 1424
@@ -895,7 +895,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 325
@@ -20163,7 +20163,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
     Width: 1424
@@ -20211,7 +20211,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 325
@@ -48243,7 +48243,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:left"
       }
-      AutoWrapText: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -48307,7 +48306,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:center"
       }
-      AutoWrapText: true
       ClipTextToSize: true
     }
     AnchorLayout {
