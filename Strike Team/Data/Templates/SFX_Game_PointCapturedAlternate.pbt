@@ -65,7 +65,6 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -100
-            Volume: 0.737
             Falloff: 3600
             Radius: 400
             IsAttenuationEnabled: true

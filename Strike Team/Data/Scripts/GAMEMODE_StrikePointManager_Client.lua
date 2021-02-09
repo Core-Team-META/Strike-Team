@@ -144,7 +144,7 @@ function OnNetworkChanged(object, string)
                 World.SpawnAsset(SFX_POINT_LOST)
             end
         end
-    --UpdateProgress(data[PROGRESS])
+    UpdateProgress(data[PROGRESS])
     end
 end
 

@@ -921,7 +921,6 @@ Assets {
             Id: 10128884331981734128
           }
           Teams {
-            UseTeamColor: true
           }
           DisableDistanceFieldLighting: true
           DisableReceiveDecals: true
@@ -1024,7 +1023,6 @@ Assets {
             Id: 10128884331981734128
           }
           Teams {
-            UseTeamColor: true
           }
           DisableDistanceFieldLighting: true
           DisableReceiveDecals: true
@@ -1123,7 +1121,6 @@ Assets {
             Id: 10128884331981734128
           }
           Teams {
-            UseTeamColor: true
           }
           DisableDistanceFieldLighting: true
           DisableReceiveDecals: true
