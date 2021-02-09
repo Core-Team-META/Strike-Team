@@ -29,6 +29,12 @@ Objects {
   ChildIds: 10996531461860900982
   ChildIds: 9314856379261280453
   ChildIds: 3418567395686366433
+  ChildIds: 7539903313521864583
+  ChildIds: 3702411675013522887
+  ChildIds: 1441184998513242893
+  ChildIds: 5334599633986830425
+  ChildIds: 872403355211597561
+  ChildIds: 2173220714443538563
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +44,162 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2173220714443538563
+  Name: "SFX_UI_EquipLoadoutConfirm"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15540934698267913479
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SFX_UI_EquipLoadoutConfirm"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15750117175267148213
+    }
+  }
+}
+Objects {
+  Id: 872403355211597561
+  Name: "SFX_SelectLoadoutUIConfirm"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16048293287660951339
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SFX_SelectLoadoutUIConfirm"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10524978851610891903
+    }
+  }
+}
+Objects {
+  Id: 5334599633986830425
+  Name: "SFX_UI_PurchaseSkinConfirm"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 444183223611761715
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SFX_UI_PurchaseSkinConfirm"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12158755182003592593
+    }
+  }
+}
+Objects {
+  Id: 1441184998513242893
+  Name: "SFX_UI_PurchaseFailure"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1889517924937015138
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SFX_UI_PurchaseFailure"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14153526073733528906
+    }
+  }
+}
+Objects {
+  Id: 3702411675013522887
+  Name: "SFX_UI_PageTurnSelect"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7525318928141794941
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SFX_UI_PageTurnSelect"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16966136970412206279
+    }
+  }
+}
+Objects {
+  Id: 7539903313521864583
+  Name: "SFX_UI_Hover"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13249807955085777245
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SFX_UI_Hover"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13564860908462472063
+    }
   }
 }
 Objects {
