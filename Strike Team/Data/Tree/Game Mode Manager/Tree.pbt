@@ -2183,7 +2183,7 @@ Objects {
     }
     Overrides {
       Name: "cs:PLAYER_SCORE_MULTIPLIER"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SCORE_LIMIT"
