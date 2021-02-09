@@ -71,17 +71,25 @@ function PurchaseClientManager.DisconnectEvents()
     end
 end
 
-
 function PurchaseClientManager.PurchaseSuccessful()
     Task.Wait()
+    local Weapon = ConfirmationPanel.clientUserData.Weapon
+    local skin = ConfirmationPanel.clientUserData.Skin 
     if  ConfirmationPanel.clientUserData.type == "Skin" then
+        Weapon:EquipSkinByID(skin.id)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableSkinSuccess, ConfirmationPanel.clientUserData.Skin.name)
-        
+
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
     end
+
+    local LOCAL_PLAYER = Game.GetLocalPlayer()
+    Events.BroadcastToServer("UpdateEquipment", Weapon:ReturnIDs(), Weapon.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+    Events.Broadcast("UpdateEquipment",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+    Events.Broadcast("UpdateDataPanel")
+
     ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"
-    ConfirmationPanel.clientUserData.buttonEvent    = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
+    ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
     Task.Wait(.5)
     Events.Broadcast("UpdatePanels")
