@@ -308,6 +308,11 @@ function ResetEndRoundResults()
 
 end
 
+function SwapToVotingScreen()
+
+
+end
+
 function RecordCurrentXP()
 
 	roundXP = localPlayerXP:GetXP()
@@ -335,9 +340,13 @@ end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
 
-    if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
+    if newState == ABGS.GAME_STATE_ROUND_STATS and oldState ~= ABGS.GAME_STATE_ROUND_STATS then
+    
+    	ShowEndRoundResults()
+    
+   	elseif newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
         
-        ShowEndRoundResults()
+        SwapToVotingScreen()
         
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
 
