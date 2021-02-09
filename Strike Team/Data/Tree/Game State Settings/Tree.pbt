@@ -220,7 +220,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CountdownTime"
-          Float: 10
+          Float: 0
         }
       }
     }
@@ -308,7 +308,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LobbyDuration"
-      Float: 3
+      Float: 0
     }
     Overrides {
       Name: "cs:RoundHasDuration"
