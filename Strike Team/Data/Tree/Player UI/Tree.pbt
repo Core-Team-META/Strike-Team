@@ -7086,7 +7086,6 @@ Objects {
     Width: 60
     Height: 30
     UIX: 185
-    UIY: 30
     RotationAngle: 180
     RenderTransformPivot {
       Anchor {
