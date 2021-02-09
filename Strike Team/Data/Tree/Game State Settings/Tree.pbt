@@ -220,7 +220,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CountdownTime"
-          Float: 0
+          Float: 0.3
         }
       }
     }
