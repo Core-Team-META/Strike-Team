@@ -4,11 +4,8 @@
 --]]
 
 function GetSharedStorageKey()
-	repeat
-		Task.Wait()
-	until _G["LifetimeStats"]
-	return _G["LifetimeStats"]
-	--return script:GetCustomProperty("SharedKey")
+    while not _G["LifetimeStats"] do Task.Wait() end
+    return _G["LifetimeStats"]
 end
 
 local STAT_ROUNDS = "Lifetime_RoundsPlayed"
