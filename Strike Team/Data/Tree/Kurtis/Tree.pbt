@@ -720,6 +720,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:ActivityFeedHealthBar"
+      AssetReference {
+        Id: 8753408648562811091
+      }
+    }
+    Overrides {
       Name: "cs:KillFeedSettings"
       ObjectReference {
         SelfId: 365339224457795529
@@ -799,7 +805,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowDistance"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:ShowKillerHP"
@@ -814,12 +820,12 @@ Objects {
     Overrides {
       Name: "cs:HealthIcon"
       AssetReference {
-        Id: 4327115782314725386
+        Id: 7387673503276873905
       }
     }
     Overrides {
       Name: "cs:IconSizePixels"
-      Int: 40
+      Int: 30
     }
     Overrides {
       Name: "cs:GapBetweenElements"

@@ -127,6 +127,10 @@ Assets {
         }
         ParentId: 3631816468235174342
         UnregisteredParameters {
+          Overrides {
+            Name: "bp:Light Brightness Multiplier"
+            Float: 0.06
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

@@ -15,8 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 9314856379261280453
         ChildIds: 4087284362147225809
+        ChildIds: 16617937130131687958
         ChildIds: 2027134954194305744
         UnregisteredParameters {
           Overrides {
@@ -339,6 +340,368 @@ Assets {
         }
       }
       Objects {
+        Id: 16617937130131687958
+        Name: "Text Shadow"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2822064598939950155
+        ChildIds: 6214876368087859432
+        ChildIds: 17775643303704173921
+        ChildIds: 3178966774880703615
+        ChildIds: 16912332631574134783
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6214876368087859432
+        Name: "Text Shadow 1"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16617937130131687958
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:TextShadow1"
+            ObjectReference {
+              SubObjectId: 6214876368087859432
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow2"
+            ObjectReference {
+              SubObjectId: 17775643303704173921
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow3"
+            ObjectReference {
+              SubObjectId: 3178966774880703615
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow4"
+            ObjectReference {
+              SubObjectId: 16912332631574134783
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIX: -1
+          UIY: -1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Color {
+              R: 0.0364583321
+              G: 0.0364583321
+              B: 0.0364583321
+              A: 0.703
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17775643303704173921
+        Name: "Text Shadow 2"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16617937130131687958
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:TextShadow1"
+            ObjectReference {
+              SubObjectId: 6214876368087859432
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow2"
+            ObjectReference {
+              SubObjectId: 17775643303704173921
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow3"
+            ObjectReference {
+              SubObjectId: 3178966774880703615
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow4"
+            ObjectReference {
+              SubObjectId: 16912332631574134783
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIX: 1
+          UIY: -1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Color {
+              R: 0.0364583321
+              G: 0.0364583321
+              B: 0.0364583321
+              A: 0.703
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3178966774880703615
+        Name: "Text Shadow 3"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16617937130131687958
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:TextShadow1"
+            ObjectReference {
+              SubObjectId: 6214876368087859432
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow2"
+            ObjectReference {
+              SubObjectId: 17775643303704173921
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow3"
+            ObjectReference {
+              SubObjectId: 3178966774880703615
+            }
+          }
+          Overrides {
+            Name: "cs:TextShadow4"
+            ObjectReference {
+              SubObjectId: 16912332631574134783
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIX: 1
+          UIY: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Color {
+              R: 0.0364583321
+              G: 0.0364583321
+              B: 0.0364583321
+              A: 0.703
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16912332631574134783
+        Name: "Text Shadow 4"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16617937130131687958
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIX: -1
+          UIY: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Color {
+              R: 0.0364583321
+              G: 0.0364583321
+              B: 0.0364583321
+              A: 0.703
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 2027134954194305744
         Name: "Text Box"
         Transform {
@@ -349,6 +712,8 @@ Assets {
           }
         }
         ParentId: 2822064598939950155
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -371,9 +736,9 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 20
+            Size: 15
             Justification {
-              Value: "mc:etextjustify:left"
+              Value: "mc:etextjustify:center"
             }
           }
           AnchorLayout {

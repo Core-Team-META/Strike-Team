@@ -699,6 +699,10 @@ Assets {
             Name: "cs:EnableRecovery"
             Bool: false
           }
+          Overrides {
+            Name: "cs:AimYReduction"
+            Float: 0.75
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

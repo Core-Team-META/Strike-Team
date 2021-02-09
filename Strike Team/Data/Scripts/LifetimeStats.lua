@@ -4,11 +4,8 @@
 --]]
 
 function GetSharedStorageKey()
-	repeat
-		Task.Wait()
-	until _G["LifetimeStats"]
+	while not _G["LifetimeStats"] do Task.Wait() end
 	return _G["LifetimeStats"]
-	--return script:GetCustomProperty("SharedKey")
 end
 
 local STAT_ROUNDS = "Lifetime_RoundsPlayed"
@@ -52,6 +49,8 @@ end
 
 function GetPlayerData(player)
 	local sharedStorageKey = GetSharedStorageKey()
+	
+	if not Object.IsValid(player) then return end
 	
 	local data = nil
 	if sharedStorageKey and sharedStorageKey.isAssigned then

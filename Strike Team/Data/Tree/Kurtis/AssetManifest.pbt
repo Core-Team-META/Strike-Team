@@ -17,12 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4327115782314725386
-  Name: "Icon Health"
+  Id: 7387673503276873905
+  Name: "UI Basic Shape Square"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Health"
+    AssetId: "UI_Basic_Shape_Square"
   }
 }
 Assets {

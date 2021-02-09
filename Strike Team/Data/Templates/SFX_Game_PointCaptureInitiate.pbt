@@ -56,8 +56,6 @@ Assets {
           Volume: 2
           Falloff: -1
           Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
       }
