@@ -5497,7 +5497,7 @@ Objects {
     }
   }
   ParentId: 1083976225394096264
-  ChildIds: 684974587517341052
+  ChildIds: 17965251106352673997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5527,45 +5527,115 @@ Objects {
   }
 }
 Objects {
-  Id: 684974587517341052
-  Name: "WEAPON_TEXT"
+  Id: 17965251106352673997
+  Name: "UI Container"
   Transform {
     Location {
-      X: 169.999542
-      Y: 4.83300391e-05
-      Z: -66
+      X: 385.067474
+      Y: -429.999786
+      Z: 113.472412
     }
     Rotation {
-      Yaw: 180
+      Pitch: 14.9999962
+      Yaw: -41.6210709
+      Roll: -3.97751182e-06
     }
     Scale {
-      X: 0.542797506
-      Y: 0.542797506
-      Z: 0.542797506
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 14224721202083603449
+  ChildIds: 5083400672195993429
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5083400672195993429
+  Name: "WeaponText"
+  Transform {
+    Location {
+      X: 0.000314104487
+      Y: -9.22230538e-06
+      Z: -0.000119063712
+    }
+    Rotation {
+      Pitch: 25.9055271
+      Yaw: 3.87794161
+      Roll: 11.0176668
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17965251106352673997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
   }
-  Text {
-    Text: "NEW WEAPON UNLOCKED"
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
+  Control {
+    Width: 200
+    Height: 60
+    UIY: 77.4303131
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
     }
-    HorizontalSize: 1
-    VerticalSize: 1
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
+    Text {
+      Label: "New Weapon unlocked"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 55
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
     }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
     }
   }
 }
@@ -5737,7 +5807,7 @@ Objects {
     Overrides {
       Name: "cs:WEAPON_TEXT"
       ObjectReference {
-        SelfId: 684974587517341052
+        SelfId: 5083400672195993429
       }
     }
     Overrides {

@@ -3,7 +3,7 @@ Commands = {}
 function ReturnPlayerByName(string)  
     if not string then return end
     for _,player in pairs(Game.GetPlayers()) do
-        if( string.find(string.upper( player.name ), string)) then 
+        if( string.find(string.upper( player.name ), string.upper( string))) then 
             return player
         end
     end
