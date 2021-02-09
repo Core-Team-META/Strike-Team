@@ -207,12 +207,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RemainingXP"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
-    }
-    Overrides {
       Name: "cs:ProgressBarText"
       ObjectReference {
         SelfId: 11232152349219748277
@@ -306,6 +300,24 @@ Objects {
       Name: "cs:LvlHex"
       ObjectReference {
         SelfId: 7001431541401133520
+      }
+    }
+    Overrides {
+      Name: "cs:StatsWindow"
+      ObjectReference {
+        SelfId: 3984942649001871118
+      }
+    }
+    Overrides {
+      Name: "cs:VotingWindow"
+      ObjectReference {
+        SelfId: 7776611986258655277
+      }
+    }
+    Overrides {
+      Name: "cs:EntireRoundEndUI"
+      ObjectReference {
+        SelfId: 10507144481334532052
       }
     }
     Overrides {

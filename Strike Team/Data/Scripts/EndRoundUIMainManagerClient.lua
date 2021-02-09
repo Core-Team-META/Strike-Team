@@ -46,6 +46,11 @@ local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
 
 local lvlHex = script:GetCustomProperty("LvlHex"):WaitForObject()
 
+local statsWindow = script:GetCustomProperty("StatsWindow"):WaitForObject()
+local votingWindow = script:GetCustomProperty("VotingWindow"):WaitForObject()
+
+local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
+
 local titleMatchLength = script:GetCustomProperty("TITLE_MATCH_LENGHT"):WaitForObject()
 local titleMatchLength_1 = script:GetCustomProperty("TITLE_MATCH_LENGHT_1"):WaitForObject()
 
@@ -272,6 +277,10 @@ function AnimateStats()
 end
 
 function ShowEndRoundResults()
+
+	entireRoundEndUI.visibility = Visibility.FORCE_ON
+	
+	statsWindow.visibility = Visibility.INHERIT
 	
 	Task.Wait(1)
 	
@@ -285,6 +294,9 @@ function ShowEndRoundResults()
 end
 
 function ResetEndRoundResults()
+	
+	entireRoundEndUI.visibility = Visibility.FORCE_OFF
+	votingWindow.visibility = Visibility.FORCE_OFF
 
 	roundResultText.text = ""
 	valueRoundResultText.text = ""
@@ -309,6 +321,10 @@ function ResetEndRoundResults()
 end
 
 function SwapToVotingScreen()
+
+	statsWindow.visibility = Visibility.FORCE_OFF
+	
+	votingWindow.visibility = Visibility.INHERIT
 
 
 end
