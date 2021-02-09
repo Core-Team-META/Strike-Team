@@ -8,6 +8,7 @@
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
+local EaseUI = require(script:GetCustomProperty("EaseUI"))
 ------------------------------------------------------------------------------------------------------------------------
 
 local GT_API
@@ -20,7 +21,7 @@ until GT_API
 local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
 local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
---local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
+local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
 local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
@@ -63,7 +64,14 @@ local function GetData()
 end
 
 local function UpdateProgress(currentProgress)
-    -- PROGRESS_BAR.progress = currentProgress / MAX_PROGRESS
+    PROGRESS_BAR.progress = (currentProgress / MAX_PROGRESS)
+    if LOCAL_PLAYER.team == currentTeam then
+    	EaseUI.EaseRotation(PROGRESS_BAR, 0, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
+    	PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
+    else
+    	EaseUI.EaseRotation(PROGRESS_BAR, 180, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
+    	PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
+    end
 end
 
 local function ToggleObject(bool)

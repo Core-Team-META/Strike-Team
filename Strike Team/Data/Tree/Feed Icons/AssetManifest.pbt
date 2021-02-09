@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15778036656850063260
-  Name: "Grave"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Icon_Grave"
-  }
-}
-Assets {
   Id: 15337799720467641762
   Name: "Weapon Knife 005"
   PlatformAssetType: 9
@@ -221,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_WeaponKnife"
+  }
+}
+Assets {
+  Id: 3042160101061736647
+  Name: "Fantasy Spell Ingredient 030"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ingredient_030"
   }
 }
 Assets {

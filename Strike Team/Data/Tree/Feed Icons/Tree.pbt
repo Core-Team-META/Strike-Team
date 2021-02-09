@@ -385,7 +385,7 @@ Objects {
 }
 Objects {
   Id: 3144598349130562356
-  Name: "grenade"
+  Name: "Grenade"
   Transform {
     Location {
     }
@@ -402,7 +402,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 6996437714072255648
+        Id: 15941196163952459759
       }
     }
     Overrides {
@@ -441,7 +441,21 @@ Objects {
     }
     Overrides {
       Name: "cs:AngleRotate"
-      Int: 30
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 11
+        Y: 11
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 12
+        Y: 12
+      }
     }
   }
   Collidable_v2 {
@@ -1676,49 +1690,40 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 15778036656850063260
+        Id: 3042160101061736647
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 15778036656850063260
+        Id: 3042160101061736647
       }
     }
     Overrides {
       Name: "cs:Layer_03_Color"
       Color {
-        R: 0.140625
-        G: 0.140625
-        B: 0.140625
-        A: 1
+        A: 0.734
       }
     }
     Overrides {
       Name: "cs:Layer_04_Color"
       Color {
-        R: 0.572916687
-        G: 0.572916687
-        B: 0.572916687
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "cs:Layer_03_Offset"
       Vector2 {
-        X: 2
       }
     }
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 4
-      }
-    }
-    Overrides {
-      Name: "cs:Layer_02"
-      AssetReference {
-        Id: 15778036656850063260
+        X: 2
+        Y: 2
       }
     }
     Overrides {
@@ -1815,6 +1820,13 @@ Objects {
       Name: "cs:Layer_05_Offset"
       Vector2 {
         Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: -5
+        Y: -5
       }
     }
   }

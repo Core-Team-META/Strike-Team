@@ -91,6 +91,7 @@ function Blast(center)
             -- Create damage information
             local damage = Damage.New(damageAmount)
             damage.sourcePlayer = WEAPON.owner
+            damage.sourceAbility = WEAPON:FindDescendantByName("Throw")
 
             -- Apply damage to player
             player:ApplyDamage(damage)
