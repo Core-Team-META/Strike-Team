@@ -118,7 +118,7 @@ function OnNetworkChanged(object, string)
             groundScale.x = 25 + (data[PROGRESS] * 0.75)
             groundScale.y = 25 + (data[PROGRESS] * 0.75)
         elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
-            World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
+            --World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
             flagPos.z = 645
             groundScale.x = 100
             groundScale.y = 100
