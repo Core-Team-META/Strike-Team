@@ -468,6 +468,14 @@ Objects {
         Id: 12496941268120956667
       }
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -519,6 +527,14 @@ Objects {
         Id: 11074002944006108218
       }
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -563,6 +579,14 @@ Objects {
     Overrides {
       Name: "cs:ENABLED"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -609,6 +633,14 @@ Objects {
       Name: "cs:ENABLED"
       Bool: false
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -653,6 +685,14 @@ Objects {
     Overrides {
       Name: "cs:ENABLED"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -699,6 +739,14 @@ Objects {
       Name: "cs:ENABLED"
       Bool: false
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -743,6 +791,14 @@ Objects {
     Overrides {
       Name: "cs:ENABLED"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -789,6 +845,14 @@ Objects {
       Name: "cs:ENABLED"
       Bool: false
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -833,6 +897,14 @@ Objects {
     Overrides {
       Name: "cs:ENABLED"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -879,6 +951,14 @@ Objects {
       Name: "cs:ENABLED"
       Bool: false
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -923,6 +1003,14 @@ Objects {
     Overrides {
       Name: "cs:ENABLED"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -969,6 +1057,14 @@ Objects {
       Name: "cs:ENABLED"
       Bool: false
     }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1013,6 +1109,14 @@ Objects {
     Overrides {
       Name: "cs:ENABLED"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:REWARD_NAME"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:REWARD_AMMOUNT"
+      Int: 100
     }
   }
   Collidable_v2 {

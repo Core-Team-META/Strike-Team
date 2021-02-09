@@ -36,13 +36,17 @@ function API.RegisterAchievements(list)
             local required = child:GetCustomProperty("Required")
             local description = child:GetCustomProperty("Description")
             local icon = child:GetCustomProperty("ICON")
+            local rewardName = child:GetCustomProperty("REWARD_NAME")
+            local rewardAmmount = child:GetCustomProperty("REWARD_AMMOUNT")
 
             local achievement = {
                 id = id,
                 name = child.name,
                 required = required,
                 description = description,
-                icon = icon
+                icon = icon,
+                rewardName = rewardName,
+                rewardAmt = rewardAmmount
             }
             if enabled then
                 achievements[id] = achievement
@@ -78,7 +82,6 @@ function API.GetAchievementName(id)
     return achievements[id].name
 end
 
-
 function API.GetAchievementRequired(id)
     if not achievements then
         warn("Achievement Requirements Don't Exsist")
@@ -103,6 +106,19 @@ function API.GetAchievementIcon(id)
     return achievements[id].icon
 end
 
+------------------------------------------------------------------------------------------------------------------------
+-- CHECKS
+------------------------------------------------------------------------------------------------------------------------
+
+function API.CollectReward(player, id)
+    if achievements[id] then
+        local achievement = achievements[id]
+        if (player:GetResource(id) + 1) >= API.GetAchievementRequired(id) then
+            player:SetResource(id, 1)
+            player:AddResource(achievement.rewardName, achievement.rewardAmt)
+        end
+    end
+end
 ------------------------------------------------------------------------------------------------------------------------
 -- STORAGE API
 ------------------------------------------------------------------------------------------------------------------------

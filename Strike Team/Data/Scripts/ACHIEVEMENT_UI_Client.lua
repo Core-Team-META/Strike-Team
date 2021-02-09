@@ -77,7 +77,7 @@ local function BuildAchievmentPanels()
         panel:GetCustomProperty("NAME"):WaitForObject().text = achievement.name
         panel:GetCustomProperty("DESC"):WaitForObject().text = achievement.description
         panel:GetCustomProperty("ICON"):WaitForObject():SetImage(achievement.icon)
-      
+        panel:GetCustomProperty("REWARD_TEXT"):WaitForObject().text = tostring(achievement.rewardAmt) .. " " .. achievement.rewardName
 
         if currentResource < requiredResource and currentResource ~= 1 then
             CLAIM_BUTTON.isEnabled = false

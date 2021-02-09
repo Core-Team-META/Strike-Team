@@ -81,16 +81,14 @@ function OnPlayerLeft(player)
 end
 
 function OnRewardCollected(player, id)
-    if ACH_API.HasEnoughProgress(player, id) then
-        player:SetResource(id, 1)
-    end
+    ACH_API.CollectReward(player, id)
 end
 
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
-Events.Connect("AS.PlayerDamaged", PlayerDamaged) -- passes (player, target, type, isHeadShot)
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
+Events.Connect("AS.PlayerDamaged", PlayerDamaged) -- passes (player, target, type, isHeadShot)
 Events.ConnectForPlayer("AS.RewardClaim", OnRewardCollected)
 Int()
