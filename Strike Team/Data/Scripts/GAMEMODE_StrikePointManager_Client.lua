@@ -2,7 +2,7 @@
 -- Game Type Manager Client
 -- Author:
 --       Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
---       WitcherSilver (META) (Art) (https://www.coregames.com/user/e730c40ae54d4c588658667927acc6d8)
+--       WitcherSilver (META) - (https://www.coregames.com/user/e730c40ae54d4c588658667927acc6d8)
 -- Date: 2021/2/5
 -- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
@@ -36,6 +36,10 @@ local Light = script:GetCustomProperty("Light"):WaitForObject()
 local SFX_INITIATE = script:GetCustomProperty("SFX_Game_PointCaptureInitiate")
 local SFX_SUCCESS = script:GetCustomProperty("SFX_Game_PointCaptureSuccess")
 
+local SFX_POINT_CALLOUT = script:GetCustomProperty("SFX_PointCallout_UI")
+local SFX_POINT_LOST = script:GetCustomProperty("SFX_PointLost_UI")
+local SFX_POINT_SECURED = script:GetCustomProperty("SFX_PointSecured_UI")
+
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -62,6 +66,17 @@ local function UpdateProgress(currentProgress)
     -- PROGRESS_BAR.progress = currentProgress / MAX_PROGRESS
 end
 
+local function ToggleObject(bool)
+    ChopSpot.isTeamColorUsed = bool
+    ChopSpotRoot.isTeamColorUsed = bool
+    EDGE.isTeamColorUsed = bool
+    GROUND.isTeamColorUsed = bool
+    Light.isTeamColorUsed = bool
+    FlagRootColor.isTeamColorUsed = bool
+    Flag1Color.isTeamColorUsed = bool
+    Flag2Color.isTeamColorUsed = bool
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -71,20 +86,11 @@ function OnNetworkChanged(object, string)
         local data = GetData()
         lastProgress = lastProgress or data[PROGRESS]
         if currentTeam ~= data[TEAM] then
-            local str = "Strike Point Contested!"
-            Events.Broadcast("BannerMessage", str, 5)
             currentTeam = data[TEAM]
-            World.SpawnAsset(SFX_INITIATE, {position = ROOT:GetWorldPosition()})
+            World.SpawnAsset(SFX_POINT_CALLOUT)
         end
         if data[TEAM] > 0 and data[PROGRESS] >= 0 then
-            ChopSpot.isTeamColorUsed = true
-            ChopSpotRoot.isTeamColorUsed = true
-            EDGE.isTeamColorUsed = true
-            GROUND.isTeamColorUsed = true
-            Light.isTeamColorUsed = true
-            FlagRootColor.isTeamColorUsed = true
-            Flag1Color.isTeamColorUsed = true
-            Flag2Color.isTeamColorUsed = true
+            ToggleObject(true)
             ChopSpot.team = data[TEAM]
             ChopSpotRoot.team = data[TEAM]
             EDGE.team = data[TEAM]
@@ -95,20 +101,14 @@ function OnNetworkChanged(object, string)
             Flag2Color.team = data[TEAM]
             Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
         else
-            ChopSpot.isTeamColorUsed = false
-            ChopSpotRoot.isTeamColorUsed = false
-            EDGE.isTeamColorUsed = false
-            GROUND.isTeamColorUsed = false
-            Light.isTeamColorUsed = false
-            FlagRootColor.isTeamColorUsed = false
-            Flag1Color.isTeamColorUsed = false
-            Flag2Color.isTeamColorUsed = false
+            ToggleObject(false)
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
         end
+
         if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
             flagPos.z = 445 + (data[PROGRESS] * 2)
-            groundScale.x = 25 + (data[PROGRESS] * .75)
-            groundScale.y = 25 + (data[PROGRESS] * .75)
+            groundScale.x = 25 + (data[PROGRESS] * 0.75)
+            groundScale.y = 25 + (data[PROGRESS] * 0.75)
         elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
             World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
             flagPos.z = 645
@@ -116,8 +116,8 @@ function OnNetworkChanged(object, string)
             groundScale.y = 100
         elseif data[PROGRESS] and data[PROGRESS] > 0 then
             flagPos.z = 445 - ((data[PROGRESS]) * 2)
-            groundScale.x = 25 - ((data[PROGRESS]) * .75)
-            groundScale.y = 25 - ((data[PROGRESS]) * .75)
+            groundScale.x = 25 - ((data[PROGRESS]) * 0.75)
+            groundScale.y = 25 - ((data[PROGRESS]) * 0.75)
         elseif data[PROGRESS] == 0 then
             Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
             flagPos.z = 445
@@ -129,12 +129,20 @@ function OnNetworkChanged(object, string)
         flagPos = FLAG:GetPosition()
         groundScale = GROUND:GetScale()
         lastProgress = data[PROGRESS]
+        if data[PROGRESS] >= 100 then
+            if LOCAL_PLAYER.team == data[TEAM] then
+                World.SpawnAsset(SFX_POINT_SECURED)
+            else
+                World.SpawnAsset(SFX_POINT_LOST)
+            end
+        end
     --UpdateProgress(data[PROGRESS])
     end
 end
 
+
 ------------------------------------------------------------------------------------------------------------------------
 -- LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
-Events.Broadcast("BannerMessage", "Strike Point Moved", 5)
 ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+

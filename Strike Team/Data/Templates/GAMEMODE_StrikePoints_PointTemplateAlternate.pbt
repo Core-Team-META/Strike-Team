@@ -1331,6 +1331,24 @@ Assets {
               SubObjectId: 12419175260804043369
             }
           }
+          Overrides {
+            Name: "cs:SFX_PointCallout_UI"
+            AssetReference {
+              Id: 2231151045717268499
+            }
+          }
+          Overrides {
+            Name: "cs:SFX_PointLost_UI"
+            AssetReference {
+              Id: 9027762185476937268
+            }
+          }
+          Overrides {
+            Name: "cs:SFX_PointSecured_UI"
+            AssetReference {
+              Id: 16698816414813635720
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
