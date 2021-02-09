@@ -7,6 +7,9 @@ local Level = script:GetCustomProperty("Level")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CurrentSlot = 1
 
+local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
+
+
 function UpdateSelected()
     if(Slot == CurrentSlot) then
         BACKGROUNDIMAGE.visibility = Visibility.INHERIT
@@ -36,6 +39,7 @@ end)
 
 Button.hoveredEvent:Connect(function()
     Events.Broadcast("HoveredEquip", Slot)
+    World.SpawnAsset(HOVER_SOUND)
 end)
 
 Button.unhoveredEvent:Connect(function()
@@ -57,4 +61,11 @@ LOCAL_PLAYER.resourceChangedEvent:Connect(function(_,propname)
     UpdateSelected()
 end)
 
-CurrentSlot = 1
+
+function Updatethroughresource()
+    CurrentSlot = LOCAL_PLAYER:GetResource("EquipSlot")
+    UpdateSelected()
+end
+
+Task.Wait()
+Updatethroughresource()

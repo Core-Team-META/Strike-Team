@@ -243,6 +243,7 @@ Objects {
   ChildIds: 4699189707895165666
   ChildIds: 11664456090165503530
   ChildIds: 5041982618395906831
+  ChildIds: 6194560775173760242
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -269,6 +270,130 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 6194560775173760242
+  Name: "InfoText"
+  Transform {
+    Location {
+      X: -1773.56628
+      Y: -1134.60986
+      Z: 120.693359
+    }
+    Rotation {
+      Yaw: -47.9390373
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16856895048486060076
+  ChildIds: 2832691391427349714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 766
+    Height: 41
+    UIY: -56.3772583
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 17289448223043935888
+      }
+      Color {
+        R: 0.0110399993
+        G: 0.0379042402
+        B: 0.0400000028
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 2832691391427349714
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -2776.00488
+      Y: 6763.3457
+      Z: -2777.64185
+    }
+    Rotation {
+      Yaw: 164.008011
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6194560775173760242
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 632
+    Height: 25
+    UIY: -3.88812256
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Loadout will swap when you next respawn."
+      Color {
+        R: 0.974000037
+        G: 0.974000037
+        B: 0.974000037
+        A: 1
+      }
+      Size: 16
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -11073,7 +11198,7 @@ Objects {
   Control {
     Width: 415
     Height: 57
-    UIY: -157.080078
+    UIY: -195.960938
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
