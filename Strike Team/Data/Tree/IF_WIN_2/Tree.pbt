@@ -1,7 +1,7 @@
-Name: "IF_WIN"
-RootId: 7922221708062069470
+Name: "IF_WIN_2"
+RootId: 13044248670802469686
 Objects {
-  Id: 15247372607032443670
+  Id: 9471915657066102031
   Name: "LABEL"
   Transform {
     Location {
@@ -14,14 +14,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7922221708062069470
-  ChildIds: 9540673967218926079
-  ChildIds: 5287277794139696816
-  ChildIds: 7229449671744699167
-  ChildIds: 10150927796319516911
-  ChildIds: 18257822355585056677
-  ChildIds: 17029679512752472335
-  ChildIds: 17452817370009687613
+  ParentId: 13044248670802469686
+  ChildIds: 5255722995252796732
+  ChildIds: 10055517522219278056
+  ChildIds: 10996391578530388030
+  ChildIds: 12904985076662185052
+  ChildIds: 8784791016831466568
+  ChildIds: 567542321666955030
+  ChildIds: 11923427723469549397
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -61,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17452817370009687613
+  Id: 11923427723469549397
   Name: "AMOUNT"
   Transform {
     Location {
@@ -74,7 +74,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -94,8 +94,8 @@ Objects {
       Label: "x1"
       Color {
         R: 0.61
-        G: 0.424172223
-        A: 1
+        G: 0.424172312
+        A: 0.175000012
       }
       Size: 12
       Justification {
@@ -124,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17029679512752472335
+  Id: 567542321666955030
   Name: "AMOUNT_SHADOW"
   Transform {
     Location {
@@ -137,7 +137,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -158,7 +158,7 @@ Objects {
     Text {
       Label: "x1"
       Color {
-        A: 1
+        A: 0.227000013
       }
       Size: 12
       Justification {
@@ -187,7 +187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18257822355585056677
+  Id: 8784791016831466568
   Name: "ICON_BG"
   Transform {
     Location {
@@ -200,7 +200,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -224,7 +224,7 @@ Objects {
         R: 1
         G: 1
         B: 1
-        A: 0.258823544
+        A: 0.071
       }
       TeamSettings {
       }
@@ -250,7 +250,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10150927796319516911
+  Id: 12904985076662185052
   Name: "SHADOW_R"
   Transform {
     Location {
@@ -263,7 +263,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -287,8 +287,8 @@ Objects {
       }
       Color {
         R: 0.350000024
-        G: 0.118211932
-        A: 1
+        G: 0.118211888
+        A: 0.251000017
       }
       TeamSettings {
       }
@@ -314,7 +314,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7229449671744699167
+  Id: 10996391578530388030
   Name: "DIVIDER"
   Transform {
     Location {
@@ -327,7 +327,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -348,8 +348,8 @@ Objects {
       }
       Color {
         R: 0.350000024
-        G: 0.118211932
-        A: 1
+        G: 0.118211888
+        A: 0.251000017
       }
       TeamSettings {
       }
@@ -375,7 +375,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5287277794139696816
+  Id: 10055517522219278056
   Name: "SHADOW_L"
   Transform {
     Location {
@@ -388,7 +388,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -412,8 +412,8 @@ Objects {
       }
       Color {
         R: 0.350000024
-        G: 0.118211932
-        A: 1
+        G: 0.118211888
+        A: 0.238
       }
       TeamSettings {
       }
@@ -439,7 +439,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9540673967218926079
+  Id: 5255722995252796732
   Name: "BG"
   Transform {
     Location {
@@ -452,7 +452,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15247372607032443670
+  ParentId: 9471915657066102031
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -476,7 +476,7 @@ Objects {
       Color {
         R: 0.0589404739
         B: 0.100000024
-        A: 0.407
+        A: 0.104
       }
       TeamSettings {
       }
@@ -502,7 +502,7 @@ Objects {
   }
 }
 Objects {
-  Id: 384862443525006041
+  Id: 17590204459212563115
   Name: "GOLD_BG_ACTIVE"
   Transform {
     Location {
@@ -515,7 +515,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7922221708062069470
+  ParentId: 13044248670802469686
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -539,7 +539,7 @@ Objects {
         R: 1
         G: 1
         B: 1
-        A: 1
+        A: 0.07
       }
       TeamSettings {
       }

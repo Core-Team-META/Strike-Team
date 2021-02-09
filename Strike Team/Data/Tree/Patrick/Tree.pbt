@@ -209,7 +209,7 @@ Objects {
     Overrides {
       Name: "cs:RemainingXP"
       ObjectReference {
-        SelfId: 9756229487282501733
+        SelfId: 841534158063459245
       }
     }
     Overrides {
