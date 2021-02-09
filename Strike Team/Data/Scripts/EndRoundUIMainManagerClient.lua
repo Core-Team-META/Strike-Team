@@ -23,7 +23,7 @@ local gamemodeNetworked = script:GetCustomProperty("GAMEMODE_Networked"):WaitFor
 local endRoundManager = script:GetCustomProperty("EndRoundUIMainManager"):WaitForObject()
 
 local gainedXPText = script:GetCustomProperty("GainedXP"):WaitForObject()
-local remainingXPText = script:GetCustomProperty("RemainingXP"):WaitForObject()
+--local remainingXPText = script:GetCustomProperty("RemainingXP"):WaitForObject()
 local progressBarText = script:GetCustomProperty("ProgressBarText"):WaitForObject()
 local progressBar = script:GetCustomProperty("ProgressBar"):WaitForObject()
 
@@ -197,7 +197,7 @@ function AnimateLevel()
 	roundXP = localPlayerXP:GetXP() - roundXP
 
 	CountThisTextUp(gainedXPText, roundXP, 10, "+")
-	CountThisTextUp(remainingXPText, localPlayerXP:GetXPUntilNextLevel(), 10, "")
+	--CountThisTextUp(remainingXPText, localPlayerXP:GetXPUntilNextLevel(), 10, "")
 	
 	
 	local totalLevelXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
@@ -300,7 +300,7 @@ function ResetEndRoundResults()
 	cashHeadshotsText.text = ""	
 
 	gainedXPText.text = ""
-	remainingXPText.text = ""
+	--remainingXPText.text = ""
 	SetChildrenText(progressBarText, "")
 	progressBar.progress = 0
 	
