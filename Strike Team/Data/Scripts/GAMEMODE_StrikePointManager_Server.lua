@@ -18,13 +18,15 @@ local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL
 ------------------------------------------------------------------------------------------------------------------------
+repeat Task.Wait() until tonumber(ROOT.name)
+local ID = tonumber(ROOT.name)
 local isActive = false
 local currentTeam
 local lastTeam
 local playersOnHill = {}
-local MAX_PROGRESS = 100 -- old value 100
-local PROGRESS_PER_TICK = 1
 local TIME_PER_TICK = 0.1
+local MAX_PROGRESS = 100
+local PROGRESS_PER_TICK = (MAX_PROGRESS * TIME_PER_TICK) / GT_API.GetCaptureTime(ID)
 local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
