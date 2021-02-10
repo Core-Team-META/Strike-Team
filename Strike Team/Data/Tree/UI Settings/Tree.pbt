@@ -420,8 +420,8 @@ Objects {
     AudioAsset {
       Id: 5746113150348561912
     }
-    Pitch: 919.778809
-    Volume: 2.94816184
+    Pitch: 2400
+    Volume: 0.771129668
     Falloff: -1
     Radius: -1
   }

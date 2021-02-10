@@ -28,7 +28,6 @@ Objects {
   ChildIds: 8492026800449626092
   ChildIds: 10996531461860900982
   ChildIds: 9314856379261280453
-  ChildIds: 3418567395686366433
   ChildIds: 7539903313521864583
   ChildIds: 3702411675013522887
   ChildIds: 1441184998513242893
@@ -199,48 +198,6 @@ Objects {
     }
     TemplateAsset {
       Id: 13564860908462472063
-    }
-  }
-}
-Objects {
-  Id: 3418567395686366433
-  Name: "meta_cc_ActivityFeed Health Bar"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16904210639392218704
-      value {
-        Overrides {
-          Name: "Name"
-          String: "meta_cc_ActivityFeed Health Bar"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8753408648562811091
     }
   }
 }

@@ -445,35 +445,34 @@ function Tick(deltaTime)
 
 			local xPos = 0
 
-			-- killed
-			feedElements["KilledText"].x = xPos
-			xPos = xPos - feedElements["KilledText"].width - GAP_SPACE
-
-			if (lines[i].weaponUsed ~= "") then
-				-- weapon
-				feedElements["WeaponImage"].x = xPos - 10
-				xPos = xPos - feedElements["WeaponImage"].width - GAP_SPACE - 30
+			if (lines[i].killer ~= "") then
+				-- Killer
+				feedElements["KillerText"].x = xPos
+				xPos = xPos + feedElements["KillerText"].width + GAP_SPACE
 			end
-			if (lines[i].killExtraCode ~= "") then
-				-- specialImage
-				feedElements["SpecialImage"].x = xPos
-				xPos = xPos - feedElements["SpecialImage"].width - GAP_SPACE
+			if (SHOW_KILLER_HP and lines[i].killerHP ~= "") then
+				-- Killer Health
+				feedElements["KillerHealth"].x = xPos
+				xPos = xPos + feedElements["KillerHealth"].width + GAP_SPACE + 10
 			end
 			if (SHOW_DISTANCE and lines[i].distance ~= "") then
 				-- Distance
 				feedElements["Distance"].x = xPos
-				xPos = xPos - feedElements["Distance"].width - GAP_SPACE
+				xPos = xPos + feedElements["Distance"].width + GAP_SPACE
 			end
-			if (SHOW_KILLER_HP and lines[i].killerHP ~= "") then
-				-- Killer Health
-				feedElements["KillerHealth"].x = xPos - 9
-				xPos = xPos - feedElements["KillerHealth"].width - GAP_SPACE - 10
+			if (lines[i].killExtraCode ~= "") then
+				-- specialImage
+				feedElements["SpecialImage"].x = xPos
+				xPos = xPos + feedElements["SpecialImage"].width + GAP_SPACE
 			end
-			if (lines[i].killer ~= "") then
-				-- Killer
-				feedElements["KillerText"].x = xPos
-				xPos = xPos - feedElements["KillerText"].width - GAP_SPACE
+			if (lines[i].weaponUsed ~= "") then
+				-- weapon
+				feedElements["WeaponImage"].x = xPos + 10
+				xPos = xPos + feedElements["WeaponImage"].width + GAP_SPACE + 30
 			end
+			-- killed
+			feedElements["KilledText"].x = xPos
+			xPos = xPos + feedElements["KilledText"].width + GAP_SPACE
 
 		end
 	end
