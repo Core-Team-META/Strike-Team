@@ -1,4 +1,4 @@
-﻿local SLOT = script:GetCustomProperty("Slot")
+local SLOT = script:GetCustomProperty("Slot")
 local BUTTON = script:GetCustomProperty("Button"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CONTEXTPANEL = script:GetCustomProperty("contextpanel")
@@ -135,6 +135,10 @@ function EquipSlot(slot)
     Events.Broadcast("UpdatedLoadoutState")
     Events.Broadcast("UpdatedLoadouts") 
     EquipOnSelected()
+    
+	if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 4)
+	end
 end
 
 function SpawnPanel() 
@@ -145,6 +149,10 @@ function SpawnPanel()
         panel.clientUserData.Slot = SLOT
         FillInData()
     end
+    
+	if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 3)
+	end
 end
 
 function DestroyPanel()

@@ -256,7 +256,7 @@ end
 -- Called on playerJoinedEvent
 -- @param object - Player
 local function OnPlayerJoined(Player)
-    print("Funnel: PlayerJoined 1")
+    --print("Funnel: PlayerJoined 1")
     playerSteps[Player] = {}
     
     repeat
@@ -296,6 +296,7 @@ function _G.Funnel.GetPlayerStepsTable(Player)
 end
 
 function _G.Funnel.SetPlayerStepComplete(Player, stepIndex)
+	--print("Funnel::SetPlayerStepComplete() stepIndex = " .. stepIndex)
     if ShouldTrackPlayerSteps(Player) then
         SetPlayerStepComplete(Player, stepIndex)
     end

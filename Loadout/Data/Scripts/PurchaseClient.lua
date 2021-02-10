@@ -122,6 +122,9 @@ function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin)
     end
     --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),Skin.name)
 
+	if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
+	end
 end
 
 function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
@@ -134,6 +137,10 @@ function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
     if Code ~= 1 then 
         PurchaseClientManager.PurchaseError(Code)
     end
+    
+    if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
+	end
 end
 
 

@@ -325,6 +325,7 @@ end
 
 -- Used to allow client side scripts to send step complete calls.
 function _G.Funnel.SetPlayerStepComplete(Player, stepIndex)
+	--print("Funnel::SetPlayerStepComplete() stepIndex = " .. stepIndex)
     if ShouldTrackPlayerSteps(Player) then
         UpdatePlayerStepsTable()
         if isPlayerValid(Player) and stepIndex ~= nil and playerSteps[stepIndex] == 0 then

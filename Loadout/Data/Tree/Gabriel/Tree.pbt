@@ -1,6 +1,171 @@
 Name: "Gabriel"
 RootId: 17512947565365309920
 Objects {
+  Id: 1561111771316110089
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17512947565365309920
+  ChildIds: 8390308939873374840
+  ChildIds: 16107766649036825946
+  ChildIds: 9208231754281244469
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 9208231754281244469
+  Name: "FunnelStepEventDetectedClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1561111771316110089
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StepNumber"
+      Int: 6
+    }
+    Overrides {
+      Name: "cs:EventName"
+      String: "SpawnLoadoutSkinPanel"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6020322784822908912
+    }
+  }
+}
+Objects {
+  Id: 16107766649036825946
+  Name: "FunnelStepEventDetectedClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1561111771316110089
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StepNumber"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:EventName"
+      String: "SpawnLoadoutEquipPanel"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6020322784822908912
+    }
+  }
+}
+Objects {
+  Id: 8390308939873374840
+  Name: "FunnelStepEventDetectedClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1561111771316110089
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StepNumber"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:EventName"
+      String: "JoinGame"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6020322784822908912
+    }
+  }
+}
+Objects {
+  Id: 9160589528799232957
+  Name: "FunnelStepPlayerJoined"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17512947565365309920
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17744004782799650037
+    }
+  }
+}
+Objects {
   Id: 10626210020728876374
   Name: "FunnelStatTracker"
   Transform {
