@@ -33,6 +33,7 @@ Assets {
         Name: "HK99_DefaultSkin"
         Transform {
           Location {
+            Z: 3.63154697
           }
           Rotation {
           }
