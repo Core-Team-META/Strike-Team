@@ -1,4 +1,4 @@
-﻿local PARENT = script:GetCustomProperty("Parent"):WaitForObject()
+local PARENT = script:GetCustomProperty("Parent"):WaitForObject()
 local SPAWN = script:GetCustomProperty("SPAWN")
 local SmallerPanelIcon = script:GetCustomProperty("SmallerPanelIcon")
 local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
@@ -159,6 +159,10 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             Events.Broadcast("PurchaseItem",item,skin)
+            
+            if locked and _G.Funnel then
+            	_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 8)
+            end
         end)
         --Button:SetPressedColor( Button:GetHoveredColor())
     end
@@ -167,6 +171,10 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             Events.Broadcast("HoverItem",item:ReturnIDs(),item.data.slot)
             World.SpawnAsset(HOVER_SOUND)
             --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
+            
+            if locked and _G.Funnel then
+            	_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 7)
+            end
     end)
     newpanel.clientUserData.unhoveredEvent = Button.unhoveredEvent:Connect(function() 
         if(skin) then item:EquipSkinByID(skin.id) end
