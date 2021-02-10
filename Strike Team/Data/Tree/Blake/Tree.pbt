@@ -600,6 +600,33 @@ Objects {
   }
 }
 Objects {
+  Id: 13575188109509791268
+  Name: "AGBS To Global"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12253275289281417314
+    }
+  }
+}
+Objects {
   Id: 4355175678147851601
   Name: "LoadoutEquipment"
   Transform {

@@ -6,8 +6,6 @@ function GetplayerbyId(ID)
     end
 end
 
-
-
 Events.Connect("Died",function(damageplayer)
     local enemey = GetplayerbyId(damageplayer or "")
         LOCAL_PLAYER.lookSensitivity = 0

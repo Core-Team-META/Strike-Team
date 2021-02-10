@@ -18,6 +18,12 @@ Assets {
         Int: 0
       }
       Overrides {
+        Name: "cs:CLICK_SOUND"
+        AssetReference {
+          Id: 9290807348879592559
+        }
+      }
+      Overrides {
         Name: "cs:HOVER_SOUND"
         AssetReference {
           Id: 13564860908462472063

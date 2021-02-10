@@ -5598,6 +5598,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 13156954175254949151
+      value {
+        Overrides {
+          Name: "cs:CLICK_SOUND"
+          AssetReference {
+            Id: 9290807348879592559
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8101106359021042753
     }

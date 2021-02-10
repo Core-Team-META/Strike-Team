@@ -3,6 +3,8 @@ local BUTTON = script:GetCustomProperty("Button"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CONTEXTPANEL = script:GetCustomProperty("contextpanel")
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
+local CLICK_SOUND = script:GetCustomProperty("CLICK_SOUND")
+
 local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
 local GlobalPixel =  require(script:GetCustomProperty("GlobalPixel"))
 local LEVELLOCK = script:GetCustomProperty("LevelLock")
@@ -125,7 +127,7 @@ end
 
 
 function EquipSlot(slot)
-    
+    World.SpawnAsset(CLICK_SOUND)
     if(os.clock() - lastpressedTime < .1) then return end
     lastpressedTime = os.clock()
     Events.Broadcast("SelectSlot",SLOT)

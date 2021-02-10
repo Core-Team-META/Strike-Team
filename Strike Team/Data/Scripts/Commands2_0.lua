@@ -25,7 +25,6 @@ function Commands.walk(player)
     return "You're Grounded" 
 end
 
-
 function Commands.tp(player, message) 
     if not message[3] then return "No Player was found"  end
     local tpplayer = ReturnPlayerByName(message[3]) 
@@ -35,8 +34,7 @@ function Commands.tp(player, message)
 end
 
 function Commands.kill(player)
-
-    player:ApplyDamage(Damage.New(1000))
+    player:ApplyDamage(Damage.New(player.maxHitPoints))
     return player.name .. " died"
 end
 
@@ -97,20 +95,33 @@ function Commands.equip(player,message)
     end
 end
 
-
 function Commands.speed(player,message)
     player.maxWalkSpeed = tonumber(message[3])
     player.maxAcceleration = tonumber(message[3])
 end
 
-function Commands.win()
-    Game.EndRound()
+function Commands.win(player,message)
+    lastTeam = player.team or 1
+    _G["GameWinner"] = lastTeam
+    Events.Broadcast("TeamVictory", lastTeam)
+    if _G["ABGS"] then
+        _G["ABGS"].SetGameState(_G["ABGS"].GAME_STATE_ROUND_END)
+    end
 end 
 
 function Commands.god(player,message)
     player.maxHitPoints = 9999999999999999999
     player.hitPoints = 9999999999999999999
 end 
+
+function Commands.ungod(player,message)
+    player.maxHitPoints = 100
+    player.hitPoints = 100
+end 
+
+function Commands.setmaxhealth(player,message)
+    player.maxHitPoints = tonumber(message[3])
+end
 
 function Commands.setresource(player,message)
     player:SetResource(message[3], tonumber(message[4]))
@@ -129,8 +140,6 @@ function Commands.setteamscore(player,message)
     end
 end
 
-
-
 if(Environment.IsServer()) then
     function Commands.help(player,_)
         Events.BroadcastToPlayer(player,"Cheats.help")
@@ -146,5 +155,5 @@ if(Environment.IsClient() ) then
 
     Events.Connect("Cheats.help",Commands.help)
 end
-return Commands
 
+return Commands
