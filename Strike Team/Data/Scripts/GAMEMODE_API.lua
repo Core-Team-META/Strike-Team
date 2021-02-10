@@ -119,8 +119,8 @@ function API.GetGameTypeName(id)
 end
 
 function API.GetCurrentScoreLimit(id)
-    if not gameTypeList then
-        warn("Game Mode Score Limit Doesn't Exsist")
+    if not gameTypeList or id == 0 then
+        error("Game Mode Score Limit Doesn't Exsist")
         return nil
     end
     local scoreLimit = gameTypeList[id].score
@@ -166,6 +166,7 @@ end
 function API.GetGameInfo(id)
     if not gameTypeList then
         warn("Game Mode Server Script Doesn't Exsist")
+        print(CoreDebug.GetTaskStackTrace(id))
         return nil
     end
     local messageTbl = API.StringSplit("|", gameTypeList[id].info)

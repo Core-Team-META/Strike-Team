@@ -17,6 +17,14 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 17862374400451381473
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SCORE_SCRIPT"
+            ObjectReference {
+              SubObjectId: 1110571242931721217
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -48,9 +56,6 @@ Assets {
         ChildIds: 5972415949229058526
         ChildIds: 18325230427069247860
         ChildIds: 17675405750268307410
-        ChildIds: 5269861753712827356
-        ChildIds: 11217434396461007768
-        ChildIds: 11286028502905684933
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -351,7 +356,7 @@ Assets {
       }
       Objects {
         Id: 1323702003657430525
-        Name: "UI Text Box"
+        Name: "MAX_SCORE"
         Transform {
           Location {
             X: -8810.86
@@ -1180,8 +1185,8 @@ Assets {
           }
         }
         ParentId: 17675405750268307410
-        ChildIds: 4303029913762876298
         ChildIds: 5185541179191159358
+        ChildIds: 1110571242931721217
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -1191,53 +1196,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 4303029913762876298
-        Name: "TeamScoreDisplayClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4973664622479145342
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 17675405750268307410
-            }
-          }
-          Overrides {
-            Name: "cs:TextBox"
-            ObjectReference {
-              SubObjectId: 13901664804067040120
-            }
-          }
-          Overrides {
-            Name: "cs:UIProgressBar"
-            ObjectReference {
-              SubObjectId: 15834646043181578960
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6804940442675244055
-          }
         }
       }
       Objects {
@@ -1259,6 +1217,7 @@ Assets {
         }
         ParentId: 4973664622479145342
         ChildIds: 1550675177378684835
+        ChildIds: 7107977978365608276
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -1291,7 +1250,7 @@ Assets {
       }
       Objects {
         Id: 1550675177378684835
-        Name: "Panel"
+        Name: "TEAM_PANEL"
         Transform {
           Location {
           }
@@ -2274,200 +2233,8 @@ Assets {
         }
       }
       Objects {
-        Id: 5269861753712827356
-        Name: "Enemy Team Score Display"
-        Transform {
-          Location {
-            X: 10819.1152
-            Y: -100.064453
-            Z: -4902.02832
-          }
-          Rotation {
-            Yaw: 109.6418
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17862374400451381473
-        ChildIds: 6185051810466845000
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Team"
-            Int: 1
-          }
-          Overrides {
-            Name: "cs:Label"
-            String: ""
-          }
-          Overrides {
-            Name: "cs:ShowMaxScore"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:MaxScore"
-            Int: 5
-          }
-          Overrides {
-            Name: "cs:Team:tooltip"
-            String: "Which team\'s score to show"
-          }
-          Overrides {
-            Name: "cs:Label:tooltip"
-            String: "Description for this score"
-          }
-          Overrides {
-            Name: "cs:ShowMaxScore:tooltip"
-            String: "Whether to show the value out of a maximum"
-          }
-          Overrides {
-            Name: "cs:MaxScore:tooltip"
-            String: "The maximum value to show"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6185051810466845000
-        Name: "ClientContext"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5269861753712827356
-        ChildIds: 1110571242931721217
-        ChildIds: 9316652282116271314
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 1110571242931721217
-        Name: "TeamScoreDisplayClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6185051810466845000
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 5269861753712827356
-            }
-          }
-          Overrides {
-            Name: "cs:TextBox"
-            ObjectReference {
-              SubObjectId: 17301597633446837306
-            }
-          }
-          Overrides {
-            Name: "cs:UIProgressBar"
-            ObjectReference {
-              SubObjectId: 11269714541406836751
-            }
-          }
-          Overrides {
-            Name: "cs:isEnemy"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6804940442675244055
-          }
-        }
-      }
-      Objects {
-        Id: 9316652282116271314
-        Name: "TeamScoreCanvas"
-        Transform {
-          Location {
-            X: 3730.96484
-            Y: 10155.9453
-            Z: 4902.02832
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6185051810466845000
-        ChildIds: 7107977978365608276
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Canvas {
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 7107977978365608276
-        Name: "Panel"
+        Name: "ENEMY_PANEL"
         Transform {
           Location {
           }
@@ -2479,17 +2246,16 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9316652282116271314
+        ParentId: 5185541179191159358
         ChildIds: 17301597633446837306
         ChildIds: 3603696993216222801
         ChildIds: 11269714541406836751
-        ChildIds: 1971735726738486530
-        ChildIds: 5868207634249312604
-        ChildIds: 658825573368163740
         ChildIds: 2759475173004606729
         ChildIds: 13363706180743283091
         ChildIds: 5996893320338621955
         ChildIds: 2956259238542045899
+        ChildIds: 11217434396461007768
+        ChildIds: 11286028502905684933
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -2683,7 +2449,7 @@ Assets {
               B: 0.0910000056
               A: 1
             }
-            Percent: 0.5
+            Percent: 0.2
           }
           AnchorLayout {
             SelfAnchor {
@@ -2694,171 +2460,6 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1971735726738486530
-        Name: "BG"
-        Transform {
-          Location {
-            X: -0.0009765625
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7107977978365608276
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 4
-          Height: 22
-          UIX: -50
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 8446037144499202653
-            }
-            Color {
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5868207634249312604
-        Name: "BG"
-        Transform {
-          Location {
-            X: -0.0009765625
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7107977978365608276
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 4
-          Height: 22
-          UIX: -100
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 8446037144499202653
-            }
-            Color {
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 658825573368163740
-        Name: "BG"
-        Transform {
-          Location {
-            X: -0.0009765625
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7107977978365608276
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 4
-          Height: 22
-          UIX: -150
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 8446037144499202653
-            }
-            Color {
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -2887,7 +2488,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 100
@@ -2992,7 +2593,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 100
@@ -3153,7 +2754,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 100
@@ -3370,7 +2971,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 100
@@ -3630,7 +3231,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17862374400451381473
+        ParentId: 7107977978365608276
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3640,8 +3241,8 @@ Assets {
         Control {
           Width: 82
           Height: 53
-          UIX: -57.6581955
-          UIY: 44.3399544
+          UIX: 82.3418
+          UIY: 1.83995438
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -3685,7 +3286,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17862374400451381473
+        ParentId: 7107977978365608276
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3695,8 +3296,8 @@ Assets {
         Control {
           Width: 82
           Height: 53
-          UIX: 57.658
-          UIY: 44.3399544
+          UIX: 197.65802
+          UIY: 1.83995438
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -3723,6 +3324,69 @@ Assets {
                 Value: "mc:euianchor:topcenter"
               }
             }
+          }
+        }
+      }
+      Objects {
+        Id: 1110571242931721217
+        Name: "TeamScoreDisplayClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4973664622479145342
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ENEMY_PROGRESS_TEXT"
+            ObjectReference {
+              SubObjectId: 17301597633446837306
+            }
+          }
+          Overrides {
+            Name: "cs:ENEMY_PROGRESS"
+            ObjectReference {
+              SubObjectId: 11269714541406836751
+            }
+          }
+          Overrides {
+            Name: "cs:isEnemy"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:TEAM_PROGRESS"
+            ObjectReference {
+              SubObjectId: 15834646043181578960
+            }
+          }
+          Overrides {
+            Name: "cs:TEAM_PROGRESS_TEXT"
+            ObjectReference {
+              SubObjectId: 13901664804067040120
+            }
+          }
+          Overrides {
+            Name: "cs:MAX_SCORE"
+            ObjectReference {
+              SubObjectId: 1323702003657430525
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6804940442675244055
           }
         }
       }
