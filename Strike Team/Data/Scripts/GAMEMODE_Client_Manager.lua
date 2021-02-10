@@ -19,6 +19,7 @@ local GAME_TYPE_LIST = script:GetCustomProperty("GameTypesData"):WaitForObject()
 local NETWORKED = script:GetCustomProperty("GAMEMODE_Networked"):WaitForObject()
 local SPAWNED_OBJECTS = script:GetCustomProperty("Spawned_Objects"):WaitForObject()
 local PARENT_PANEL = script:GetCustomProperty("PARENT_PANEL"):WaitForObject()
+local GAME_MODE_INFO = script:GetCustomProperty("GAME_MODE_INFO"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- TEMPLATES
 ------------------------------------------------------------------------------------------------------------------------
@@ -57,6 +58,7 @@ local function SetScores(str)
             local scoreScript = panel:GetCustomProperty("SCORE_SCRIPT"):WaitForObject()
             scoreScript.context.MAX_SCORE = tonumber(currentScore)
         end
+        GAME_MODE_INFO.text = GT_API.GetGameInfo(currentGameId)
     end
 end
 

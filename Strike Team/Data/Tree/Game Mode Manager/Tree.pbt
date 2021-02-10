@@ -2578,8 +2578,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:UITextBox"
+      Name: "cs:GAME_MODE_INFO"
       ObjectReference {
+        SelfId: 5985750028767755679
       }
     }
     Overrides {
