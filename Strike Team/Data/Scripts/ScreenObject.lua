@@ -58,6 +58,7 @@ function ScreenObject:UpdatePosition(newDimensionTable)
 	local yOffset = -yfactor * depth * (self.pixelPosY/resolution.y * 2 - 1)
 	
 	local screenOffset = Vector3.New(depth, xOffset, yOffset)
+	if not Object.IsValid( self.object) then return end
 	self.object:SetPosition(screenOffset)
 	if self.faceCamera then
 		self.object:SetRotation(Rotation.New(-screenOffset, Vector3.UP))
