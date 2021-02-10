@@ -315,21 +315,45 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:LeaderboardEntries"
+      ObjectReference {
+        SelfId: 10705308302646760788
+      }
+    }
+    Overrides {
+      Name: "cs:ScoreboardSectionEntries"
+      ObjectReference {
+        SelfId: 13500240265108461893
+      }
+    }
+    Overrides {
+      Name: "cs:NextTitle"
+      ObjectReference {
+        SelfId: 15695857878160596598
+      }
+    }
+    Overrides {
+      Name: "cs:RoundEndTimer"
+      ObjectReference {
+        SelfId: 3621255126095962672
+      }
+    }
+    Overrides {
       Name: "cs:EntireRoundEndUI"
       ObjectReference {
         SelfId: 10507144481334532052
       }
     }
     Overrides {
-      Name: "cs:TITLE_MATCH_LENGHT"
+      Name: "cs:ReturnToLoadout"
       ObjectReference {
-        SelfId: 15352050436892857273
+        SelfId: 3119672990277470645
       }
     }
     Overrides {
-      Name: "cs:TITLE_MATCH_LENGHT_1"
-      ObjectReference {
-        SelfId: 5344031597289365447
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 12045507068401926921
       }
     }
   }

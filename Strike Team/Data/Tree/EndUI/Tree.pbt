@@ -106,7 +106,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 10
@@ -20839,6 +20839,7 @@ Objects {
   ParentId: 3984942649001871118
   ChildIds: 1071750611312039373
   ChildIds: 16652527540238797970
+  ChildIds: 5304526734591183091
   ChildIds: 13500240265108461893
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -20893,7 +20894,6 @@ Objects {
     }
   }
   ParentId: 17464391355514522603
-  ChildIds: 5304526734591183091
   ChildIds: 5893960314508818253
   ChildIds: 12580190721716584789
   ChildIds: 14831173433096096749
@@ -20918,14 +20918,15 @@ Objects {
   }
   Control {
     Width: 593
-    Height: 568
-    UIY: -12.9025726
+    Height: 545
+    UIY: 24.0974274
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Panel {
+      IsClipping: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -20974,7 +20975,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 536.880371
+    UIY: 510
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -22015,7 +22016,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 502.880371
+    UIY: 476
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -23056,7 +23057,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 468.880371
+    UIY: 442
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -24097,7 +24098,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 434.880371
+    UIY: 408
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -25138,7 +25139,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 400.880371
+    UIY: 374
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -26179,7 +26180,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 366.880371
+    UIY: 340
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -27220,7 +27221,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 332.880371
+    UIY: 306
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -28261,7 +28262,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 298.880371
+    UIY: 272
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -29302,7 +29303,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 264.880371
+    UIY: 238
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -30343,7 +30344,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 230.880371
+    UIY: 204
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -31384,7 +31385,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 196.880371
+    UIY: 170
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -32425,7 +32426,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 162.880371
+    UIY: 136
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -33466,7 +33467,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 128.880371
+    UIY: 102
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -34507,7 +34508,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 94.8803711
+    UIY: 68
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -35548,7 +35549,7 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 60.8803711
+    UIY: 34
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -36589,7 +36590,6 @@ Objects {
   Control {
     Width: 100
     Height: 34
-    UIY: 26.8803711
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -37611,7 +37611,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13500240265108461893
+  ParentId: 17464391355514522603
   ChildIds: 7980105143734551721
   ChildIds: 10065964707535065400
   ChildIds: 15200347758455840535
@@ -37630,7 +37630,7 @@ Objects {
   Control {
     Width: 100
     Height: 31
-    UIY: -3.22566223
+    UIY: -15
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -49481,7 +49481,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
-      AutoWrapText: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -49544,7 +49543,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
-      AutoWrapText: true
       ClipTextToSize: true
     }
     AnchorLayout {
@@ -49728,7 +49726,7 @@ Objects {
       }
     }
     Text {
-      Label: "MATCH LENGHT:"
+      Label: "MATCH LENGTH:"
       Color {
         R: 0.982250869
         G: 0.407240301
@@ -49793,7 +49791,7 @@ Objects {
       }
     }
     Text {
-      Label: "MATCH LENGHT:"
+      Label: "MATCH LENGTH:"
       Color {
         R: 0.67244333
         G: 0.278894335

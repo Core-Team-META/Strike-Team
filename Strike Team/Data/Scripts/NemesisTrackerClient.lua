@@ -335,7 +335,7 @@ function ShowNemesis()
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
-    if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
+    if newState == ABGS.GAME_STATE_ROUND_STATS  and oldState ~= ABGS.GAME_STATE_ROUND_STATS then
         
         ShowNemesis()
         
@@ -351,6 +351,12 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         
     end
 end
+
+NemesisOfText.text = ""
+NemesisOfKillsText.text = "0"
+       	
+YourNemesisText.text = ""
+YourNemesisKillsText.text = "0"
 
 Events.Connect(PlayerKilledEvent, TrackKill)
 
