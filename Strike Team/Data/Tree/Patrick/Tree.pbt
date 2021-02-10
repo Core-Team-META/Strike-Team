@@ -195,6 +195,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 12045507068401926921
+      }
+    }
+    Overrides {
       Name: "cs:GAMEMODE_Networked"
       ObjectReference {
         SelfId: 10857687478960459655
@@ -348,12 +354,6 @@ Objects {
       Name: "cs:ReturnToLoadout"
       ObjectReference {
         SelfId: 3119672990277470645
-      }
-    }
-    Overrides {
-      Name: "cs:EaseUI"
-      AssetReference {
-        Id: 12045507068401926921
       }
     }
   }
