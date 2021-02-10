@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12113879289979434790
-  Name: "BG Flat 010"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_27"
-  }
-}
-Assets {
   Id: 10359394536973948519
   Name: "Sci-fi Ability Blue 035"
   PlatformAssetType: 9
