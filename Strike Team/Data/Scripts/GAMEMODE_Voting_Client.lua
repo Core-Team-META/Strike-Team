@@ -6,7 +6,9 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 ------------------------------------------------------------------------------------------------------------------------
@@ -107,7 +109,7 @@ function BuildPanels()
     --ToggleUISettings(true)
 
     for _, newPanel in ipairs(GAME_MODE_POLL:GetChildren()) do
-        if newPanel.name ~= "TITLE" and newPanel.name ~= "FT" then
+        if newPanel.name ~= "KC" and newPanel.name ~= "FT" and newPanel.name ~= "TDM" then
             local id = newPanel:GetCustomProperty("ID")
             local voteCount = newPanel:GetCustomProperty("VOTE_COUNT"):WaitForObject()
             local button = newPanel:GetCustomProperty("BUTTON"):WaitForObject()
@@ -118,6 +120,7 @@ function BuildPanels()
             voteCount.text = "0"
             button.clientUserData.id = id
             button.clientUserData.border = border
+
             listeners[#listeners + 1] = button.pressedEvent:Connect(OnVoteButtonPress)
             listeners[#listeners + 1] = button.hoveredEvent:Connect(OnVoteButtonHover)
         end

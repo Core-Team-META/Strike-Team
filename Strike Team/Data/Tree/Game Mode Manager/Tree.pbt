@@ -1124,7 +1124,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
@@ -2189,7 +2189,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
