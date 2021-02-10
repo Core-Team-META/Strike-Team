@@ -1,12 +1,14 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Hill Manager Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/28
--- Version 0.1.0
+-- Date: 2021/2/10
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -16,7 +18,7 @@ local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL
 ------------------------------------------------------------------------------------------------------------------------
-repeat Task.Wait() until tonumber(ROOT.name)
+while not tonumber(ROOT.name) do Task.Wait() end
 local ID = tonumber(ROOT.name)
 local isActive = false
 local currentTeam
@@ -61,7 +63,6 @@ local function SetCurrentResource(ammount)
     ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
 end
 
-
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -93,7 +94,9 @@ function OnBeginOverlap(Trigger, Object)
 end
 
 function OnEndOverlap(Trigger, Object)
-    if Trigger == TRIGGER and Object:IsA("Player") and playersOnHill[Object] then
+    local data = GetData()
+    local progress = tonumber(data[PROGRESS])
+    if Trigger == TRIGGER and Object:IsA("Player") and playersOnHill[Object] and progress < 100 then
         playersOnHill[Object] = nil
         CheckPlayersOnHill()
     end
@@ -132,6 +135,16 @@ for _, object in ipairs(TRIGGER:GetOverlappingObjects()) do
     end
 end
 
+function OnDestroyed(object)
+    for player, team in pairs(playersOnHill) do
+        if currentTeam == team then
+            lastTeam = team
+            player:AddResource("Objective", 1)
+        end
+    end
+end
+
+ROOT.destroyEvent:Connect(OnDestroyed)
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
 SetData({0, 0, MAX_RESOURCE})
