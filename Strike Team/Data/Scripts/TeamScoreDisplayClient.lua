@@ -14,55 +14,54 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
-
 -- Internal custom properties --
-local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
-local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
-local PROGRESSBAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
+local ENEMY_PROGRESS_TEXT = script:GetCustomProperty("ENEMY_PROGRESS_TEXT"):WaitForObject()
+local ENEMY_PROGRESS = script:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
+local TEAM_PROGRESS = script:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
+local TEAM_PROGRESS_TEXT = script:GetCustomProperty("TEAM_PROGRESS_TEXT"):WaitForObject()
+local MAX_SCORE_TEXT = script:GetCustomProperty("MAX_SCORE"):WaitForObject()
+
 -- User exposed properties --
-local TEAM = COMPONENT_ROOT:GetCustomProperty("Team")
-local LABEL = COMPONENT_ROOT:GetCustomProperty("Label")
-local SHOW_MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("ShowMaxScore")
-MAX_SCORE = COMPONENT_ROOT:GetCustomProperty("MaxScore")
-local isEnemy = script:GetCustomProperty("isEnemy")
+local SHOW_MAX_SCORE = true
+
+MAX_SCORE = 100
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+
+local TEAM
 -- Check user properties
-if TEAM < 0 or TEAM > 4 then
-    warn("Team must be a valid team number (0-4)")
-    TEAM = 1
-end
 
 if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     warn("MaxScore must be a positive")
     MAX_SCORE = 100
 end
 
-
 -- nil Tick(float)
 -- Update the display
 function Tick(deltaTime)
-	if isEnemy then
-		if LOCAL_PLAYER.team == 1 then
-			TEAM = 2
-		elseif LOCAL_PLAYER.team == 2 then
-			TEAM = 1
-		end
-	else
-		TEAM = LOCAL_PLAYER.team
-	end
-	
-    local score = Game.GetTeamScore(TEAM)
-    PROGRESSBAR.progress = score/MAX_SCORE
-    if SHOW_MAX_SCORE then
-        TEXT_BOX.text = string.format(score)  -- string.format("%s %d / %d", LABEL, score, MAX_SCORE)
-    else
-        TEXT_BOX.text = string.format("%s %d", LABEL, score)
+    local enemyTeam, team
+    if LOCAL_PLAYER.team == 1 then
+        enemyTeam = 2
+    elseif LOCAL_PLAYER.team == 2 then
+        enemyTeam = 1
     end
 
-    if(TEAM == LOCAL_PLAYER.team) then
-        PROGRESSBAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
+    team = LOCAL_PLAYER.team
+
+    MAX_SCORE_TEXT.text = tostring(MAX_SCORE)
+
+    local teamScore = Game.GetTeamScore(team)
+    local enemyScore = Game.GetTeamScore(enemyTeam)
+
+    TEAM_PROGRESS.progress = teamScore / MAX_SCORE
+    ENEMY_PROGRESS.progress = enemyScore / MAX_SCORE
+
+    ENEMY_PROGRESS_TEXT.text = string.format(enemyScore) -- string.format("%s %d / %d", LABEL, score, MAX_SCORE)
+    TEAM_PROGRESS_TEXT.text = string.format(teamScore)
+
+    if (TEAM == LOCAL_PLAYER.team) then
+        TEAM_PROGRESS:SetFillColor(Color.FromStandardHex("#2196F3FF"))
     else
-        PROGRESSBAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
+        ENEMY_PROGRESS:SetFillColor(Color.FromStandardHex("#F44336FF"))
     end
 end

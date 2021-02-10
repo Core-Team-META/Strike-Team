@@ -2578,9 +2578,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:UITextBox"
+      Name: "cs:GAME_MODE_INFO"
       ObjectReference {
-        SelfId: 9859130812002566926
+        SelfId: 5985750028767755679
       }
     }
     Overrides {
@@ -2596,15 +2596,21 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:TeamScore1"
-      ObjectReference {
-        SelfId: 3006406043594890584
+      Name: "cs:GAMEMODE_StrikePoint_Score_UI"
+      AssetReference {
+        Id: 11369624036968976640
       }
     }
     Overrides {
-      Name: "cs:TeamScore2"
+      Name: "cs:GAMEMODE_TeamDeathMatch_Score_UI"
+      AssetReference {
+        Id: 8551156162901538860
+      }
+    }
+    Overrides {
+      Name: "cs:PARENT_PANEL"
       ObjectReference {
-        SelfId: 14843321869915328033
+        SelfId: 15016914129013214511
       }
     }
   }

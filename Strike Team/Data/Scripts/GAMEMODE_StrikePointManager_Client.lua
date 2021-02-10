@@ -18,12 +18,14 @@ until GT_API
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
 ------------------------------------------------------------------------------------------------------------------------
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
 local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
-local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
+
+
 local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
 local Flag1Color = script:GetCustomProperty("Flag1Color"):WaitForObject()
 local Flag2Color = script:GetCustomProperty("Flag2Color"):WaitForObject()
