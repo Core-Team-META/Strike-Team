@@ -77,6 +77,7 @@ local oldLvl = nil
 local oldXP = nil
 
 local statsState = false
+local statsTimer = nil
 
 local defaultReturnButtonY = returnToLoadout.y
 
@@ -253,11 +254,49 @@ function AnimateWordText(givenText, targetText)
 	
 	return task
 	
+end 
+
+function OrderScoreboard()
+	
+	local excludePlayers = {}
+	
+	local orderedList = {}
+	
+	local topPlayer = nil
+	
+	for x, firstPlayer in ipairs(Game.GetPlayers()) do
+		
+		if leaderboardEntries:FindDescendantByName(firstPlayer.name) then
+		
+			topPlayer = firstPlayer
+			
+			table.insert(excludePlayers, firstPlayer)
+			
+			Task.Wait()
+	
+			for y, otherPlayer in ipairs(Game.GetPlayers({ignorePlayers = excludePlayers})) do
+				
+				if topPlayer.kills < otherPlayer.kills and leaderboardEntries:FindDescendantByName(otherPlayer.name) then
+				
+					topPlayer = otherPlayer
+					
+				end	
+			
+			end
+			
+			table.insert(orderedList, leaderboardEntries:FindDescendantByName(topPlayer.name))
+			
+		end
+	
+	end
+	
+	return orderedList
+	
 end
 
 function AnimateScoreboard()
 
-	local leaderboardResults = leaderboardEntries:GetChildren()
+	local leaderboardResults = OrderScoreboard()
 	
 	for i, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
 	
@@ -344,7 +383,7 @@ function AnimateScoreboard()
 			
 		end
 		
-		EaseUI.EaseY(entry, entry.y + 1000, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
+		EaseUI.EaseY(entry, entry.y + 1000, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
 		
 		Task.Wait(0.01)
 	
@@ -359,6 +398,8 @@ function AnimateLevel()
 	CountThisTextUp(gainedXPText, roundXP, "+")
 	
 	local totalLevelXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
+	
+	local currentInLevel = localPlayerXP:GetXPInCurrentLevel()
 	
 	SetChildrenText(lvlHex, "Lv" .. tostring(localPlayerXP:CalculateLevel()))
 	
@@ -386,7 +427,7 @@ function AnimateLevel()
 	progressBar.progress = 0
 	
 	
-	for i = 1, localPlayerXP:GetXPInCurrentLevel(), math.ceil(localPlayerXP:GetXPInCurrentLevel()/100) do
+	for i = 1, currentInLevel, math.ceil(localPlayerXP:GetXPInCurrentLevel()/100) do
 		
 		SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
 		
@@ -396,9 +437,9 @@ function AnimateLevel()
 	
 	end
 	
-	progressBar.progress = localPlayerXP:GetXPInCurrentLevel()/totalLevelXP
+	progressBar.progress = currentInLevel/totalLevelXP
 		
-	SetChildrenText(progressBarText, "EXP: " .. tostring(localPlayerXP:GetXPInCurrentLevel()) .. "/" .. tostring(totalLevelXP))
+	SetChildrenText(progressBarText, "EXP: " .. tostring(currentInLevel) .. "/" .. tostring(totalLevelXP))
 
 end
 
@@ -447,7 +488,7 @@ function ShowEndRoundResults()
 	
 	statsWindow.visibility = Visibility.INHERIT
 		
-	Task.Wait(1)
+	Task.Wait(0.5)
 	
 	AnimateScoreboard()
 	
@@ -545,30 +586,62 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     if newState == ABGS.GAME_STATE_ROUND_STATS and oldState ~= ABGS.GAME_STATE_ROUND_STATS then
     
     	statsState = true
+    	
+    	statsTimer = Task.Spawn(UpdateTimer, 0)
+    	statsTimer.repeatCount = -1
+    	statsTimer.repeatInterval = 0.1
     
     	ShowEndRoundResults()
     
    	elseif newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
    	
    		statsState = false
+   		
+   		if statsTimer then
+   		
+   			statsTimer:Cancel()
+   			statsTimer = nil
+   			
+   		end
         
         SwapToVotingScreen()
         
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
     
     	statsState = false
+    	
+   		if statsTimer then
+   		
+   			statsTimer:Cancel()
+   			statsTimer = nil
+   			
+   		end
 
         ResetEndRoundResults()
         
     elseif newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
     
     	statsState = false
+    	
+   		if statsTimer then
+   		
+   			statsTimer:Cancel()
+   			statsTimer = nil
+   			
+   		end
     
     	RecordCurrentXP()
         
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
     
-    	statsState =false
+    	statsState = false
+    	
+   		if statsTimer then
+   		
+   			statsTimer:Cancel()
+   			statsTimer = nil
+   			
+   		end
     
     	SetRoundInfo()
         
@@ -577,27 +650,28 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 function UpdateTimeRemaining(remainingTime)
+
     if remainingTime then
+    
         local minutes = math.floor(remainingTime) // 60 % 60
         local seconds = math.floor(remainingTime) % 60
+        
         SetChildrenText(roundEndTimer, string.format("%02d:%02d", minutes, seconds))
+        
     end
+    
 end
 
-function Tick()
+function UpdateTimer()
 
-    if ABGS.IsGameStateManagerRegistered() then
+	local currentState = ABGS.GetGameState()
+	local remainingTime = ABGS.GetTimeRemainingInState()
 
-        local currentState = ABGS.GetGameState()
-        local remainingTime = ABGS.GetTimeRemainingInState()
-
-        if currentState == ABGS.GAME_STATE_ROUND_STATS then
+	if currentState == ABGS.GAME_STATE_ROUND_STATS then
         
-            UpdateTimeRemaining(remainingTime)
+		UpdateTimeRemaining(remainingTime)
             
-        end
-        
-    end
+	end
     
 end
 
