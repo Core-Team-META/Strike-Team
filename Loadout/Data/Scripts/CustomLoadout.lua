@@ -2,6 +2,7 @@
 local BUTTON = script:GetCustomProperty("Button"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CONTEXTPANEL = script:GetCustomProperty("contextpanel")
+local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
 local GlobalPixel =  require(script:GetCustomProperty("GlobalPixel"))
 local LEVELLOCK = script:GetCustomProperty("LevelLock")
@@ -137,6 +138,7 @@ function EquipSlot(slot)
 end
 
 function SpawnPanel() 
+    World.SpawnAsset(HOVER_SOUND)
     Events.Broadcast("UpdatedLoadoutState")
     if( _G["LoadoutState"] == "ChangingLoadout") then
         panel = World.SpawnAsset(CONTEXTPANEL, {parent = script.parent.parent})

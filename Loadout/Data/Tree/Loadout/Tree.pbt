@@ -3415,6 +3415,7 @@ Objects {
     }
   }
   ParentId: 2189234789624158377
+  ChildIds: 16351736331632694558
   UnregisteredParameters {
     Overrides {
       Name: "cs:Parent"
@@ -3500,6 +3501,12 @@ Objects {
         Id: 5369031841527769802
       }
     }
+    Overrides {
+      Name: "cs:SpawnPanelSFX"
+      ObjectReference {
+        SelfId: 16351736331632694558
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3510,6 +3517,43 @@ Objects {
   Script {
     ScriptAsset {
       Id: 2406649152342681503
+    }
+  }
+}
+Objects {
+  Id: 16351736331632694558
+  Name: "SpawnPanelSFX"
+  Transform {
+    Location {
+      X: -9.15527344e-05
+      Y: 3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18393449720337225452
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DEFAULT_EQUIP_SOUND"
+      AssetReference {
+        Id: 11362468190630649907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6838689994872539640
     }
   }
 }

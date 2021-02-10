@@ -1,6 +1,8 @@
 local Purchase_API = require(script:GetCustomProperty("Purchase_API"))
 local PurchasePanel_Texts = require(script:GetCustomProperty("PurchasePanel_Texts"))
 local PurchaseConfirmationBox = script:GetCustomProperty("PurchaseConfirmationBox")
+local PURCHASE_SUCCESS_SOUND = script:GetCustomProperty("PURCHASE_SUCCESS_SOUND")
+local PURCHASE_FAIL_SOUND = script:GetCustomProperty("PURCHASE_FAIL_SOUND")
 
 local ConfirmationPanel 
 
@@ -73,6 +75,7 @@ end
 
 function PurchaseClientManager.PurchaseSuccessful()
     Task.Wait()
+    World.SpawnAsset(PURCHASE_SUCCESS_SOUND)
     local Weapon = ConfirmationPanel.clientUserData.Weapon
     local skin = ConfirmationPanel.clientUserData.Skin 
     if  ConfirmationPanel.clientUserData.type == "Skin" then
@@ -94,9 +97,10 @@ function PurchaseClientManager.PurchaseSuccessful()
     Task.Wait(.5)
     Events.Broadcast("UpdatePanels")
 end
-
+    
 function PurchaseClientManager.PurchaseError(Code)
     Task.Wait()
+    World.SpawnAsset(PURCHASE_FAIL_SOUND)
     ConfirmationPanel.clientUserData.Button.text = "Okay"
     if  ConfirmationPanel.clientUserData.type == "Skin" then
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)

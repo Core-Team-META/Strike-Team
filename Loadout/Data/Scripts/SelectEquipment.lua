@@ -1,6 +1,7 @@
 ﻿local button = script.parent
 local TYPE = script:GetCustomProperty("TYPE")
 while not _G["LoadoutState"]  do Task.Wait() end
+local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 
 button.pressedEvent:Connect(function()
     if(TYPE) == "Perks" or (TYPE) == "Equipment" then
@@ -13,3 +14,8 @@ button.pressedEvent:Connect(function()
     Events.Broadcast("UpdatedLoadoutState")
 end)
 
+function Hover()
+    World.SpawnAsset(HOVER_SOUND)
+end
+
+button.hoveredEvent:Connect(Hover)

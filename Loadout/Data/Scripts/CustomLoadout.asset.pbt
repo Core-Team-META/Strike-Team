@@ -18,6 +18,12 @@ Assets {
         Int: 0
       }
       Overrides {
+        Name: "cs:HOVER_SOUND"
+        AssetReference {
+          Id: 13564860908462472063
+        }
+      }
+      Overrides {
         Name: "cs:contextpanel"
         AssetReference {
           Id: 17756474356138229436

@@ -45,7 +45,6 @@ function Commands.hide()
     return player.name .. " hid UI"
 end
 
-
 function Commands.respawn(player)
     player:Respawn()
     return player.name .. " is alive"
@@ -107,6 +106,30 @@ end
 function Commands.win()
     Game.EndRound()
 end 
+
+function Commands.god(player,message)
+    player.maxHitPoints = 9999999999999999999
+    player.hitPoints = 9999999999999999999
+end 
+
+function Commands.setresource(player,message)
+    player:SetResource(message[3], tonumber(message[4]))
+    return string.format( "%s's Resource %s has been set to %d",player.name,message[3], tonumber(message[4]) )
+end
+
+function Commands.setteamscore(player,message)
+    team = tonumber(message[2]) or 0
+    score = tonumber(message[3]) or 0
+    if type(team) == "number" then
+        math.max(math.min(team, 4),0)
+        Game.SetTeamScore(team,score)
+        return string.format( "Team %d score has been set to %d", team,score)
+    else
+        return "No team found"
+    end
+end
+
+
 
 if(Environment.IsServer()) then
     function Commands.help(player,_)
