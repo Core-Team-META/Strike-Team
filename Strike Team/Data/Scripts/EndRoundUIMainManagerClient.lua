@@ -95,6 +95,8 @@ function SetChildrenText(uiObj,_text) -- <-- generic children text function by A
 end
 
 
+local defaultReturnButtonY = returnToLoadout.y
+
 function CountThisTextUp(givenText, targetNumber, extra)
 
 	if targetNumber == 0 then
@@ -179,7 +181,7 @@ function CountThisFloat(givenText, targetFloat, extra)
 			
 		end
 		
-		SetChildrenText(givenText, extra .. tostring(targetFloat))
+		SetChildrenText(givenText, extra .. string.format("%0.2f", targetFloat))
 	
 	end, 0)
 	
@@ -256,47 +258,29 @@ function AnimateWordText(givenText, targetText)
 	
 end 
 
-function OrderScoreboard()
+function GetTeamColor(player) -- colors copied from killfeed.
+
+	if player == localPlayer then
 	
-	local excludePlayers = {}
-	
-	local orderedList = {}
-	
-	local topPlayer = nil
-	
-	for x, firstPlayer in ipairs(Game.GetPlayers()) do
+		return Color.New(0.956863, 0.356863, 0.007843, 1)
 		
-		if leaderboardEntries:FindDescendantByName(firstPlayer.name) then
+	elseif player.team == localPlayer.team then
+	
+		return Color.New(0.015, 0.304, 0.896, 1)
 		
-			topPlayer = firstPlayer
-			
-			table.insert(excludePlayers, firstPlayer)
-			
-			Task.Wait()
+	else 
 	
-			for y, otherPlayer in ipairs(Game.GetPlayers({ignorePlayers = excludePlayers})) do
-				
-				if topPlayer.kills < otherPlayer.kills and leaderboardEntries:FindDescendantByName(otherPlayer.name) then
-				
-					topPlayer = otherPlayer
-					
-				end	
-			
-			end
-			
-			table.insert(orderedList, leaderboardEntries:FindDescendantByName(topPlayer.name))
-			
-		end
-	
+		return Color.New(0.904, 0.056, 0.036, 1)
+		
 	end
-	
-	return orderedList
 	
 end
 
 function AnimateScoreboard()
 
-	local leaderboardResults = OrderScoreboard()
+	local leaderboardResults = Game.GetPlayers()
+	
+	table.sort(leaderboardResults, function(a, b) return a.kills > b.kills end)
 	
 	for i, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
 	
@@ -311,52 +295,50 @@ function AnimateScoreboard()
 				if section.name == "NAME" then
 				
 					AnimateWordText(section, leaderboardResults[i].name)
+					
+					section:GetChildren()[1]:SetColor(GetTeamColor(leaderboardResults[i]))
 				
 				elseif section.name == "KILLS" then
 					
-					stat = leaderboardResults[i]:FindDescendantByName("Kills")
+					stat = leaderboardResults[i].kills
 									
 				elseif section.name == "DEATHS" then
 				
-					stat = leaderboardResults[i]:FindDescendantByName("Deaths")
+					stat = leaderboardResults[i].deaths
 				
 				elseif section.name == "ASSISTS" then
 				
-					stat = leaderboardResults[i]:FindDescendantByName("Assists")
+					stat = leaderboardResults[i]:GetResource("Assists")
 				
 				elseif section.name == "DAMAGE" then
 
-					stat = leaderboardResults[i]:FindDescendantByName("Damage")
+					stat = leaderboardResults[i]:GetResource("DamageDone")
 					
 				elseif section.name == "HEADSHOTS" then
 
-					stat = leaderboardResults[i]:FindDescendantByName("Headshots")
+					stat = leaderboardResults[i]:GetResource("Headshots")
 					
 				elseif section.name == "KDR" then
 				
-					floatStat = leaderboardResults[i]:FindDescendantByName("KDR")
+					local deaths = leaderboardResults[i].deaths
+				
+					if deaths < 1 then
+					
+						deaths = 1
+						
+					end
+				
+					CountThisFloat(section, leaderboardResults[i].kills / deaths * 1.00, "")
 															
 				elseif section.name == "KILLSTREAK" then
 
-					stat = leaderboardResults[i]:FindDescendantByName("Kill Streak")					
+					stat = leaderboardResults[i]:GetResource("KillStreak")					
 				end
 				
 				if stat then
-				
-					local statChildren = stat:GetChildren()
-					
-					local target = statChildren[1]
-						
-					CountThisTextUp(section, tonumber(target.text), "")
-					
-				elseif floatStat then
-				
-					local statChildren = floatStat:GetChildren()
-					
-					local target = statChildren[1]
-						
-					CountThisFloat(section, tonumber(target.text)/1.0, "")
-					
+										
+					CountThisTextUp(section, stat, "")
+										
 				elseif not section.name == "DIVIDER" then
 				
 					section.text = "0"
