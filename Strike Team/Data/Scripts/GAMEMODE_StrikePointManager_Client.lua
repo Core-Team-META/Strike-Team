@@ -27,6 +27,8 @@ local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObjec
 local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
 local Flag1Color = script:GetCustomProperty("Flag1Color"):WaitForObject()
 local Flag2Color = script:GetCustomProperty("Flag2Color"):WaitForObject()
+local FlagJointColor = script:GetCustomProperty("FlagJointColor"):WaitForObject()
+local Flag1JointColor = script:GetCustomProperty("Flag1JointColor"):WaitForObject()
 local ChopSpot = script:GetCustomProperty("ChopSpot"):WaitForObject()
 local ChopSpotRoot = script:GetCustomProperty("ChopSpotRoot"):WaitForObject()
 local Light = script:GetCustomProperty("Light"):WaitForObject()
@@ -83,6 +85,8 @@ local function ToggleObject(bool)
     FlagRootColor.isTeamColorUsed = bool
     Flag1Color.isTeamColorUsed = bool
     Flag2Color.isTeamColorUsed = bool
+    FlagJointColor.isTeamColorUsed = bool
+    Flag1JointColor.isTeamColorUsed = bool
 end
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -107,6 +111,8 @@ function OnNetworkChanged(object, string)
             FlagRootColor.team = data[TEAM]
             Flag1Color.team = data[TEAM]
             Flag2Color.team = data[TEAM]
+            FlagJointColor.team = data[TEAM]
+            Flag1JointColor.team = data[TEAM]
             Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
         else
             ToggleObject(false)

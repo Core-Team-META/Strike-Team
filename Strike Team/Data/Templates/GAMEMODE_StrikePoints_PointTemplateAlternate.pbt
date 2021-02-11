@@ -853,8 +853,8 @@ Assets {
         }
         ParentId: 2895968848006082910
         ChildIds: 799204848126591673
-        ChildIds: 16045127655203716252
         ChildIds: 1291016446136144144
+        ChildIds: 16045127655203716252
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -934,6 +934,76 @@ Assets {
         }
       }
       Objects {
+        Id: 1291016446136144144
+        Name: "FlagJointColor"
+        Transform {
+          Location {
+            X: -0.00103086373
+            Y: -30.817934
+            Z: 57.2907333
+          }
+          Rotation {
+            Roll: -90
+          }
+          Scale {
+            X: 0.0143587887
+            Y: 0.74999845
+            Z: 0.009
+          }
+        }
+        ParentId: 10919925046057265919
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 211821385602626091
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 64
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 64
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6656501280773318390
+          }
+          Teams {
+          }
+          DisableDistanceFieldLighting: true
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
         Id: 16045127655203716252
         Name: "Flag1"
         Transform {
@@ -953,8 +1023,8 @@ Assets {
         }
         ParentId: 10919925046057265919
         ChildIds: 16646270355773367134
-        ChildIds: 9739007815102001710
         ChildIds: 11091780885013643081
+        ChildIds: 9739007815102001710
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1023,6 +1093,75 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 10128884331981734128
+          }
+          Teams {
+          }
+          DisableDistanceFieldLighting: true
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11091780885013643081
+        Name: "Flag1JointColor"
+        Transform {
+          Location {
+            X: -0.00134618685
+            Y: -30.8177376
+          }
+          Rotation {
+            Roll: -90
+          }
+          Scale {
+            X: 0.0143587887
+            Y: 0.74999845
+            Z: 0.009
+          }
+        }
+        ParentId: 16045127655203716252
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 211821385602626091
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 64
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 64
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6656501280773318390
           }
           Teams {
           }
@@ -1121,145 +1260,6 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 10128884331981734128
-          }
-          Teams {
-          }
-          DisableDistanceFieldLighting: true
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11091780885013643081
-        Name: "FlagRootColor"
-        Transform {
-          Location {
-            X: -0.00134618685
-            Y: -30.8177376
-          }
-          Rotation {
-            Roll: -90
-          }
-          Scale {
-            X: 0.0143587887
-            Y: 0.74999845
-            Z: 0.009
-          }
-        }
-        ParentId: 16045127655203716252
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 211821385602626091
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 64
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 64
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6656501280773318390
-          }
-          Teams {
-          }
-          DisableDistanceFieldLighting: true
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1291016446136144144
-        Name: "FlagRootColor"
-        Transform {
-          Location {
-            X: -0.00103086373
-            Y: -30.817934
-            Z: 57.2907333
-          }
-          Rotation {
-            Roll: -90
-          }
-          Scale {
-            X: 0.0143587887
-            Y: 0.74999845
-            Z: 0.009
-          }
-        }
-        ParentId: 10919925046057265919
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 211821385602626091
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 64
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 64
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6656501280773318390
           }
           Teams {
           }
@@ -1493,6 +1493,18 @@ Assets {
               Id: 12045507068401926921
             }
           }
+          Overrides {
+            Name: "cs:FlagJointColor"
+            ObjectReference {
+              SubObjectId: 1291016446136144144
+            }
+          }
+          Overrides {
+            Name: "cs:Flag1JointColor"
+            ObjectReference {
+              SubObjectId: 11091780885013643081
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1581,7 +1593,7 @@ Assets {
           Scale {
             X: 0.879580081
             Y: 0.879580081
-            Z: 1.1877563
+            Z: 1.04393
           }
         }
         ParentId: 7927740488716824813
@@ -1629,14 +1641,14 @@ Assets {
           Location {
             X: -2925.97119
             Y: 2447.6416
-            Z: 413.331787
+            Z: 385.963928
           }
           Rotation {
           }
           Scale {
             X: 3.85272288
             Y: 3.85272288
-            Z: 3.85272288
+            Z: 1.53533721
           }
         }
         ParentId: 7927740488716824813
