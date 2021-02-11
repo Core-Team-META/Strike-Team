@@ -132,6 +132,7 @@ Objects {
   ChildIds: 16039851189994073415
   ChildIds: 7942040834941293893
   ChildIds: 13826694173068042363
+  ChildIds: 3788622917671973838
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -140,6 +141,64 @@ Objects {
   }
   Folder {
     Model {
+    }
+  }
+}
+Objects {
+  Id: 3788622917671973838
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 8267.61133
+      Y: -4262.0835
+      Z: 826.168213
+    }
+    Rotation {
+      Yaw: -136.868683
+    }
+    Scale {
+      X: 1.2
+      Y: 1.2
+      Z: 1.2
+    }
+  }
+  ParentId: 612199423538572622
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14633748508747893171
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16110182342503554212
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableDistanceFieldLighting: true
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
@@ -1883,8 +1942,8 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5711.4043
-      Y: -5474.13379
+      X: 6742.61133
+      Y: -7032.0835
       Z: 755.191162
     }
     Rotation {
@@ -6588,9 +6647,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5387.61133
-      Y: -6212.0835
-      Z: 826.167603
+      X: 5302.61133
+      Y: -6377.0835
+      Z: 826.168945
     }
     Rotation {
       Yaw: -157.500031
@@ -6646,9 +6705,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6326.58496
-      Y: -5098.33
-      Z: 826.167603
+      X: 8202.61133
+      Y: -5207.0835
+      Z: 826.168091
     }
     Rotation {
       Yaw: -136.868698

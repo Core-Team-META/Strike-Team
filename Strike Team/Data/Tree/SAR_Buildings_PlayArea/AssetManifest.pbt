@@ -296,15 +296,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14835887402309025688
-  Name: "Pyramid - 7-Sided Truncated Hollow Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_7_sided_truncated_hollow_thick_001"
-  }
-}
-Assets {
   Id: 14791357265404000066
   Name: "Urban Damaged Wall 01"
   PlatformAssetType: 1

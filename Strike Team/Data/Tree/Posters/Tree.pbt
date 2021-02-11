@@ -527,7 +527,6 @@ Objects {
   }
   ParentId: 4442742907832591081
   ChildIds: 17698308663299459220
-  ChildIds: 8929746477381255563
   ChildIds: 16906989130332497860
   ChildIds: 549650802422128417
   Collidable_v2 {
@@ -702,59 +701,6 @@ Objects {
   }
 }
 Objects {
-  Id: 8929746477381255563
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: 24.1630592
-      Y: -45.9589767
-      Z: 122.254211
-    }
-    Rotation {
-      Pitch: 6.82996321
-      Yaw: -135
-      Roll: -104.374115
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13605557329315776948
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Sort Order"
-      Int: 6
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18205316927619177531
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  InstanceHistory {
-    SelfId: 8929746477381255563
-    SubobjectId: 14737330180035921246
-    InstanceId: 8085162915732739756
-    TemplateId: 12549570745128384164
-  }
-}
-Objects {
   Id: 17698308663299459220
   Name: "Decal Military Posters 01"
   Transform {
@@ -832,7 +778,6 @@ Objects {
   }
   ParentId: 4442742907832591081
   ChildIds: 10551027375155096411
-  ChildIds: 2025801317317829188
   ChildIds: 10182765760347079691
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -924,55 +869,6 @@ Objects {
   InstanceHistory {
     SelfId: 10182765760347079691
     SubobjectId: 6757905936841417489
-    InstanceId: 3355224718513312807
-    TemplateId: 12583880760460104857
-  }
-}
-Objects {
-  Id: 2025801317317829188
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: 10.1191406
-      Y: -30.739502
-      Z: 129.199402
-    }
-    Rotation {
-      Pitch: 6.83004522
-      Yaw: -135
-      Roll: -104.373894
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15790012566340643451
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18205316927619177531
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  InstanceHistory {
-    SelfId: 2025801317317829188
-    SubobjectId: 14737330180035921246
     InstanceId: 3355224718513312807
     TemplateId: 12583880760460104857
   }
@@ -1199,7 +1095,6 @@ Objects {
   }
   ParentId: 4442742907832591081
   ChildIds: 14457796220878389394
-  ChildIds: 5104190131863341453
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1215,55 +1110,6 @@ Objects {
     InstanceId: 3849325146704722518
     TemplateId: 12583880760460104857
     WasRoot: true
-  }
-}
-Objects {
-  Id: 5104190131863341453
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: 10.1191406
-      Y: -30.739502
-      Z: 129.199402
-    }
-    Rotation {
-      Pitch: 6.83004522
-      Yaw: -135
-      Roll: -104.373894
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9361236174981267890
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18205316927619177531
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  InstanceHistory {
-    SelfId: 5104190131863341453
-    SubobjectId: 14737330180035921246
-    InstanceId: 3849325146704722518
-    TemplateId: 12583880760460104857
   }
 }
 Objects {
