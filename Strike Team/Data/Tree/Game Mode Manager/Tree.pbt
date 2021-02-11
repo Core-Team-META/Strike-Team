@@ -1800,6 +1800,9 @@ Objects {
   ChildIds: 7887256324537856482
   ChildIds: 7957775993291944863
   ChildIds: 1471260568947074733
+  ChildIds: 15004649800748136453
+  ChildIds: 6088376544409522023
+  ChildIds: 7824971975242784387
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1808,6 +1811,141 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 7824971975242784387
+  Name: "Marker"
+  Transform {
+    Location {
+      X: -4135.33594
+      Y: 5102.55518
+      Z: 1117.1532
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 2.1350111e-07
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6088376544409522023
+  Name: "Marker"
+  Transform {
+    Location {
+      X: 8277.70313
+      Y: 2129.60718
+      Z: 574.811
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 2.1350111e-07
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15004649800748136453
+  Name: "Marker"
+  Transform {
+    Location {
+      X: 2533.10132
+      Y: 7189.44043
+      Z: 1784.06238
+    }
+    Rotation {
+      Pitch: -1.33218384
+      Yaw: -60.6916809
+      Roll: 2.1350111e-07
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15343589142564657865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7126240526640323471
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
