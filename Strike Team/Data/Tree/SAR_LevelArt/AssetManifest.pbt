@@ -710,6 +710,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12189437943481407266
+  Name: "Decal Military Symbols 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_military_logo_2_ref"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -932,6 +941,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 10030495421633776105
+  Name: "Sci-fi Cargo Crate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_crate_cargo_001"
   }
 }
 Assets {
