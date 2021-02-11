@@ -60,6 +60,11 @@ local returnToLoadout = script:GetCustomProperty("ReturnToLoadout"):WaitForObjec
 
 local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
 
+local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimationCompleteSFX")
+
+local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+
+
 local winValue = 100
 local lossValue = 50
 
@@ -118,13 +123,17 @@ function CountThisTextUp(givenText, targetNumber, extra)
 		
 		passComplete = true
 
-		for i = 1, targetNumber, math.ceil(targetNumber/100) do
+		for i = 1, targetNumber, math.ceil(targetNumber/10) do
 		
 			givenText.text = extra .. tostring(i)
 			
 			SetChildrenText(givenText, givenText.text)
 			
-			Task.Wait(0.01)
+			local tickSFX = World.SpawnAsset(rollTextTickSFX)
+			
+			tickSFX.lifeSpan = 1
+			
+			Task.Wait(0.05)
 			
 		end
 		
@@ -171,7 +180,7 @@ function CountThisFloat(givenText, targetFloat, extra)
 		
 		passComplete = true
 
-		for i = 1, math.floor(targetFloat), math.ceil(targetFloat/100) do
+		for i = 1, math.floor(targetFloat), math.ceil(targetFloat/10) do
 		
 			givenText.text = extra .. tostring(i)
 			
@@ -224,6 +233,10 @@ function AnimateWordText(givenText, targetText)
 		for i = 1, 10 do
 			
 			SetChildrenText(givenText, displayText .. letters[math.random(1, #letters)])
+			
+			local tickSFX = World.SpawnAsset(rollTextTickSFX)
+			
+			tickSFX.lifeSpan = 1
 							
 			Task.Wait(0.01)	
 				
@@ -367,7 +380,7 @@ function AnimateScoreboard()
 		
 		EaseUI.EaseY(entry, entry.y + 1000, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
 		
-		Task.Wait(0.01)
+		Task.Wait(0.05)
 	
 	end
 
@@ -388,12 +401,12 @@ function AnimateLevel()
 	
 	if oldLvl < localPlayerXP:CalculateLevel() then
 	
-		for i = 1, oldXP, math.ceil(oldXP/100) do
+		for i = 1, oldXP, math.ceil(oldXP/50) do
 		
 			SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
 			
 			progressBar.progress = i/oldXP
-			
+						
 			Task.Wait(0.01)
 		
 		end
@@ -409,12 +422,12 @@ function AnimateLevel()
 	progressBar.progress = 0
 	
 	
-	for i = 1, currentInLevel, math.ceil(localPlayerXP:GetXPInCurrentLevel()/100) do
+	for i = 1, currentInLevel, math.ceil(localPlayerXP:GetXPInCurrentLevel()/50) do
 		
 		SetChildrenText(progressBarText, "EXP: " .. tostring(i) .. "/" .. tostring(totalLevelXP))
 		
 		progressBar.progress = i/totalLevelXP
-		
+				
 		Task.Wait(0.01)
 	
 	end
@@ -422,6 +435,12 @@ function AnimateLevel()
 	progressBar.progress = currentInLevel/totalLevelXP
 		
 	SetChildrenText(progressBarText, "EXP: " .. tostring(currentInLevel) .. "/" .. tostring(totalLevelXP))
+	
+	--[[
+	local endSFX = World.SpawnAsset(rollTextAnimationCompleteSFX)
+		
+	endSFX.lifeSpan = 2
+	]]
 
 end
 

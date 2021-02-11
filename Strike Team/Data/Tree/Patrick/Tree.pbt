@@ -68,6 +68,12 @@ Objects {
   ParentId: 10999427269299237569
   UnregisteredParameters {
     Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
       Name: "cs:PlayerKilledEvent"
       String: "PlayerKilled"
     }
@@ -96,9 +102,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:APIBasicGameState"
+      Name: "cs:RollTextTickSFX"
       AssetReference {
-        Id: 11974742996071064388
+        Id: 3523787590995695701
       }
     }
   }
@@ -354,6 +360,18 @@ Objects {
       Name: "cs:ReturnToLoadout"
       ObjectReference {
         SelfId: 3119672990277470645
+      }
+    }
+    Overrides {
+      Name: "cs:RollTextAnimationCompleteSFX"
+      AssetReference {
+        Id: 17591386188657923609
+      }
+    }
+    Overrides {
+      Name: "cs:RollTextTickSFX"
+      AssetReference {
+        Id: 3523787590995695701
       }
     }
   }

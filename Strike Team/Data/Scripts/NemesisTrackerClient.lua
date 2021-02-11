@@ -13,6 +13,8 @@ local YourNemesisKillsText = script:GetCustomProperty("YourNemesisKillsText"):Wa
 local NemesisOfText = script:GetCustomProperty("NemesisOfText"):WaitForObject()
 local NemesisOfKillsText = script:GetCustomProperty("NemesisOfKillsText"):WaitForObject()
 
+local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+
 local localPlayer = Game.GetLocalPlayer()
 
 local nemesisIndex = {}
@@ -136,7 +138,7 @@ function AnimateYourNemesis()
 		
 		local targetLetter = yourNemesisIs:sub(index, index)
 		
-		for i = 1, 10 do
+		for i = 1, 5 do
 		
 			
 			YourNemesisText.text = displayText .. letters[math.random(1, #letters)]
@@ -150,7 +152,11 @@ function AnimateYourNemesis()
 				
 			end
 			
-			Task.Wait()	
+			local tickSFX = World.SpawnAsset(rollTextTickSFX)
+			
+			tickSFX.lifeSpan = 1
+			
+			Task.Wait(0.05)	
 			
 		end
 			
@@ -180,7 +186,7 @@ function AnimateYouAsNemesis()
 	
 		local targetLetter = youAreNemesisOf:sub(index, index)
 		
-		for i = 1, 10 do
+		for i = 1, 5 do
 		
 			
 			NemesisOfText.text = displayText .. letters[math.random(1, #letters)]
@@ -194,7 +200,11 @@ function AnimateYouAsNemesis()
 				
 			end
 			
-			Task.Wait()	
+			local tickSFX = World.SpawnAsset(rollTextTickSFX)
+			
+			tickSFX.lifeSpan = 1
+			
+			Task.Wait(0.05)	
 			
 		end
 			
