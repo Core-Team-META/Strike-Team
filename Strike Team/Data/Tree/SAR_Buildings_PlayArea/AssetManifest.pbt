@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18120287186582886745
-  Name: "Sphere - Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hemisphere_001"
-  }
-}
-Assets {
   Id: 18075009058174876361
   Name: "Craftsman Part - Doorway"
   PlatformAssetType: 1
@@ -212,6 +203,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
+  }
+}
+Assets {
+  Id: 16361900871520744060
+  Name: "Urban Stairs Fire Escape - 6m 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_stairs_firesc_001_ref"
   }
 }
 Assets {

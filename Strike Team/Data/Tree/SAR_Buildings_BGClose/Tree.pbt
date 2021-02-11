@@ -5483,7 +5483,7 @@ Objects {
     Location {
       X: 10570
       Y: 2210
-      Z: 325
+      Z: 535
     }
     Rotation {
     }
@@ -5495,7 +5495,7 @@ Objects {
   }
   ParentId: 14593606999524753237
   ChildIds: 11978023000458886649
-  ChildIds: 14726960025589979837
+  ChildIds: 16450098076712366460
   ChildIds: 8916842445004851928
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5570,18 +5570,16 @@ Objects {
   }
 }
 Objects {
-  Id: 14726960025589979837
+  Id: 16450098076712366460
   Name: "SAR_WindowDoubleClosed"
   Transform {
     Location {
-      X: 7835
-      Y: 480
-      Z: 1470
+      X: -465.00061
+      Y: 884.999756
+      Z: 815
     }
     Rotation {
-      Pitch: -3.4150944e-05
-      Yaw: 90.0000076
-      Roll: -1.62844391e-12
+      Yaw: -179.999985
     }
     Scale {
       X: 1
@@ -5590,41 +5588,136 @@ Objects {
     }
   }
   ParentId: 12048211831861654447
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3954555981650091361
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_WindowDoubleClosed"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -465.00061
-            Y: 884.999756
-            Z: 815
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -179.999985
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  ChildIds: 9978706090128535512
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16450098076712366460
+    SubobjectId: 3954555981650091361
+    InstanceId: 14726960025589979837
+    TemplateId: 7658338032141156500
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 9978706090128535512
+  Name: "MergedModel"
+  Transform {
+    Location {
+      X: 8.41405296
+      Y: -150.256927
+      Z: -2.01416016
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16450098076712366460
+  ChildIds: 1924432628136711133
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    Model {
+    }
+  }
+  InstanceHistory {
+    SelfId: 9978706090128535512
+    SubobjectId: 6399728234296230853
+    InstanceId: 14726960025589979837
+    TemplateId: 7658338032141156500
+  }
+}
+Objects {
+  Id: 1924432628136711133
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: -8.41457
+      Y: -227.189026
+      Z: 7.01318359
+    }
+    Rotation {
+      Pitch: -4.09811328e-05
+      Yaw: -179.999954
+      Roll: 0.000184414966
+    }
+    Scale {
+      X: 0.5
+      Y: 0.25
+      Z: 3
+    }
+  }
+  ParentId: 9978706090128535512
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17393961314713938594
       }
     }
-    TemplateAsset {
-      Id: 7658338032141156500
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.535562515
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.567000031
+        G: 0.489406079
+        B: 0.345303
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1924432628136711133
+    SubobjectId: 14420508391940177856
+    InstanceId: 14726960025589979837
+    TemplateId: 7658338032141156500
   }
 }
 Objects {
@@ -5867,17 +5960,17 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -1224.99951
-      Y: 44.9996338
+      X: -1225
+      Y: 300
       Z: 765
     }
     Rotation {
       Yaw: 89.9999466
     }
     Scale {
-      X: 1.4000001
-      Y: 14.3
-      Z: 4.4
+      X: 6.5
+      Y: 14.25
+      Z: 4.5
     }
   }
   ParentId: 11978023000458886649
@@ -87068,7 +87161,7 @@ Objects {
     Scale {
       X: 0.2
       Y: 1.80000007
-      Z: 3.00677156
+      Z: 3.07605243
     }
   }
   ParentId: 404259823891287317
