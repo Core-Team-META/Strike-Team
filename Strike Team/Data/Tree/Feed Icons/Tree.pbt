@@ -1935,7 +1935,7 @@ Objects {
       Name: "cs:Layer_05_Offset"
       Vector2 {
         X: 1
-        Y: -11
+        Y: -8
       }
     }
     Overrides {
@@ -1952,8 +1952,8 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: -3
-        Y: -3
+        X: -5
+        Y: -5
       }
     }
     Overrides {
@@ -1965,7 +1965,7 @@ Objects {
     Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
-        X: -4
+        X: -7
         Y: -4
       }
     }

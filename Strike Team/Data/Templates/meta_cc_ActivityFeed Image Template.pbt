@@ -362,7 +362,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16124442352425641416
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -419,7 +419,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16124442352425641416
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -476,7 +476,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16124442352425641416
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -533,7 +533,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16124442352425641416
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -590,7 +590,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16124442352425641416
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -647,7 +647,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 16124442352425641416
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -671,15 +671,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 16124442352425641416
-      Name: "Award"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_036"
       }
     }
     PrimaryAssetId {
