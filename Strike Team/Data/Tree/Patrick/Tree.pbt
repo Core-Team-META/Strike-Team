@@ -363,6 +363,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:MainWindow"
+      ObjectReference {
+        SelfId: 17483507795814813175
+      }
+    }
+    Overrides {
       Name: "cs:RollTextAnimationCompleteSFX"
       AssetReference {
         Id: 17591386188657923609
