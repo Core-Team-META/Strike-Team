@@ -246,7 +246,7 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 		
 		local targetLetter = targetText:sub(index, index)
 			
-		for i = 1, 5 do
+		for i = 1, 3 do
 			
 			SetChildrenText(givenText, displayText .. letters[math.random(1, #letters)])
 			
@@ -258,7 +258,7 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 				
 			end
 							
-			Task.Wait(0.05)	
+			Task.Wait(0.07)	
 				
 		end
 				
@@ -456,11 +456,11 @@ function AnimateLevel()
 		
 	SetChildrenText(progressBarText, "EXP: " .. tostring(currentInLevel) .. "/" .. tostring(totalLevelXP))
 	
-	--[[
+
 	local endSFX = World.SpawnAsset(rollTextAnimationCompleteSFX)
 		
 	endSFX.lifeSpan = 2
-	]]
+
 
 end
 
@@ -495,9 +495,9 @@ end
 
 function ShowEndRoundResults()
 
-	mainWindow.y = -1000
+	mainWindow.y = -2000
 
-	returnToLoadout.y = returnToLoadout.y + 1000
+	returnToLoadout.y = returnToLoadout.y + 2000
 
 	SetChildrenText(nextTitle, "GAME MODE VOTING STARTS IN")
 
@@ -570,7 +570,7 @@ end
 
 function SwapToVotingScreen()
 
-	EaseUI.EaseY(mainWindow, -1000, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
+	EaseUI.EaseY(mainWindow, -2000, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 	
 	Task.Wait(0.7)
 	
