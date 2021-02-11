@@ -5,6 +5,13 @@ GlobalEntries {
   AdditionalData: "041020061"
   DateTime: "2021-02-10T07:21:41.731Z"
 }
+GlobalEntries {
+  Id: "7cdc015329324499beb38b7a1a01ee33"
+  Name: "zachsoza"
+  ScoreFormatted: "4.0"
+  AdditionalData: "041230000"
+  DateTime: "2021-02-10T23:13:16.331Z"
+}
 Config {
   SortType {
     Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
