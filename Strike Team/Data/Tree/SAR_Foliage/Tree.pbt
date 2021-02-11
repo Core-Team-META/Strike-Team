@@ -112,7 +112,6 @@ Objects {
   ChildIds: 7136522993164755915
   ChildIds: 14127286005358124699
   ChildIds: 9712424032610848890
-  ChildIds: 9367677913256995542
   ChildIds: 3747822184892782892
   ChildIds: 15268664703546386615
   ChildIds: 4917997775669334442
@@ -132,6 +131,7 @@ Objects {
   ChildIds: 16039851189994073415
   ChildIds: 7942040834941293893
   ChildIds: 13826694173068042363
+  ChildIds: 3788622917671973838
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -140,6 +140,64 @@ Objects {
   }
   Folder {
     Model {
+    }
+  }
+}
+Objects {
+  Id: 3788622917671973838
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: 8196.28223
+      Y: -4328.90479
+      Z: 868.075317
+    }
+    Rotation {
+      Yaw: -136.868683
+    }
+    Scale {
+      X: 1.2
+      Y: 1.2
+      Z: 1.2
+    }
+  }
+  ParentId: 612199423538572622
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26000002
+        G: 0.225333363
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14633748508747893171
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16110182342503554212
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableDistanceFieldLighting: true
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
@@ -1366,69 +1424,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9367677913256995542
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: -5292.44678
-      Y: 3827.70557
-      Z: 842.693359
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.801645875
-      Y: 0.801645875
-      Z: 0.801645875
-    }
-  }
-  ParentId: 612199423538572622
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Nature_Leaves:id"
-      AssetReference {
-        Id: 14633748508747893171
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.26000002
-        G: 0.225333363
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16110182342503554212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableDistanceFieldLighting: true
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9367677913256995542
-    SubobjectId: 9817896821800238092
-    InstanceId: 5558100384603471946
-    TemplateId: 17534345071700735697
-  }
-}
-Objects {
   Id: 9712424032610848890
   Name: "Bush 02"
   Transform {
@@ -1883,8 +1878,8 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5711.4043
-      Y: -5474.13379
+      X: 6742.61133
+      Y: -7032.0835
       Z: 755.191162
     }
     Rotation {
@@ -6588,9 +6583,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5387.61133
-      Y: -6212.0835
-      Z: 826.167603
+      X: 5302.61133
+      Y: -6377.0835
+      Z: 826.168945
     }
     Rotation {
       Yaw: -157.500031
@@ -6646,9 +6641,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6326.58496
-      Y: -5098.33
-      Z: 826.167603
+      X: 8202.61133
+      Y: -5207.0835
+      Z: 826.168091
     }
     Rotation {
       Yaw: -136.868698
@@ -19529,8 +19524,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4902.26807
-            Y: -3825.94189
+            X: 5723.7085
+            Y: -5254.9082
             Z: 1032.86755
           }
         }
@@ -20778,7 +20773,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -41.2166672
+            Yaw: -41.2166748
           }
         }
         Overrides {
@@ -20834,7 +20829,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -41.2166672
+            Yaw: -41.2166748
           }
         }
         Overrides {
@@ -23544,7 +23539,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -49.6789894
+            Yaw: -49.6789856
           }
         }
         Overrides {
