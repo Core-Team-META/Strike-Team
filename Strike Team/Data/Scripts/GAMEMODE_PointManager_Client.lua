@@ -130,7 +130,7 @@ end
 
 function Tick()
     for point, interest in pairs(points) do
-        if Object.IsValid(point) then
+        if Object.IsValid(point) and Object.IsValid(interest) then
             UpdatePoint(point, interest)
         end
     end

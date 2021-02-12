@@ -847,7 +847,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
     Width: 1424
@@ -3529,6 +3529,7 @@ Objects {
   ChildIds: 7747556926395822944
   ChildIds: 2133074504184066317
   ChildIds: 646943711397411346
+  ChildIds: 16352817619351369590
   UnregisteredParameters {
     Overrides {
       Name: "cs:ID"
@@ -3589,6 +3590,191 @@ Objects {
   InstanceHistory {
     SelfId: 9635678456608503423
     SubobjectId: 14989981620050792508
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 16352817619351369590
+  Name: "COMMING_SOON"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9635678456608503423
+  ChildIds: 8674798460770280935
+  ChildIds: 8599364848755803993
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    UIY: 7.5
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6348900353977218010
+    SubobjectId: 982912156370621849
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 8599364848755803993
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16352817619351369590
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 340
+    Height: 60
+    UIX: -51.4720078
+    UIY: 13.3763552
+    RotationAngle: 348.436829
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "          GAME MODE COMING SOON"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12058483251625378849
+    SubobjectId: 17503104699428725346
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 8674798460770280935
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16352817619351369590
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 63
+    Height: 662
+    UIX: 636.262817
+    UIY: -32.0974426
+    RotationAngle: 78.5882568
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 622433789355555801
+      }
+      Color {
+        R: 0.679999948
+        A: 0.749
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3599621522032325846
+    SubobjectId: 7227079956698616469
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -7210,6 +7396,7 @@ Objects {
   ChildIds: 333078183066868503
   ChildIds: 13434220758363658596
   ChildIds: 7214996480966602417
+  ChildIds: 8492382776972665532
   UnregisteredParameters {
     Overrides {
       Name: "cs:ID"
@@ -7270,6 +7457,191 @@ Objects {
   InstanceHistory {
     SelfId: 15718961953526769841
     SubobjectId: 10347911576578445042
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 8492382776972665532
+  Name: "COMMING_SOON"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15718961953526769841
+  ChildIds: 17395087188275187643
+  ChildIds: 6878921042283511208
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    UIY: 7.5
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6348900353977218010
+    SubobjectId: 982912156370621849
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 6878921042283511208
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492382776972665532
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 340
+    Height: 60
+    UIX: -51.4720078
+    UIY: 13.3763552
+    RotationAngle: 348.436829
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "          GAME MODE COMING SOON"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12058483251625378849
+    SubobjectId: 17503104699428725346
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 17395087188275187643
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8492382776972665532
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 63
+    Height: 662
+    UIX: 636.262817
+    UIY: -32.0974426
+    RotationAngle: 78.5882568
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 622433789355555801
+      }
+      Color {
+        R: 0.679999948
+        A: 0.749
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3599621522032325846
+    SubobjectId: 7227079956698616469
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
