@@ -1,6 +1,974 @@
 Name: "SAR_LevelArt"
 RootId: 16373807130785117515
 Objects {
+  Id: 17174402278914700865
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: 4470
+      Y: 4690
+      Z: 140.000107
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5640
+            Y: 3475
+            Z: 565
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 17089997268691934402
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -970
+      Y: 4395
+      Z: 760
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2555
+            Y: 4175
+            Z: 599.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 1607663967350429582
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -565
+      Y: 8815
+      Z: 759.999939
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3475
+            Y: 11580
+            Z: 594.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 15927543976037709030
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -1200
+      Y: 9070
+      Z: 759.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -565
+            Y: 8815
+            Z: 759.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 17143095786727008557
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -1180
+      Y: 9060
+      Z: 139.999954
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1200
+            Y: 9070
+            Z: 759.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 16729102533367940077
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: 4101.5459
+      Y: 9793.19824
+      Z: 140.000046
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4460
+            Y: 9480
+            Z: 140.000046
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 8252058734648014447
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -970
+      Y: 9770
+      Z: 140.000015
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4095
+            Y: 9793.19824
+            Z: 140.000046
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 11509975775065894471
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -1180
+      Y: 9060
+      Z: 139.999954
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -970
+            Y: 9770
+            Z: 140.000015
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 8609319838376971459
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -955
+      Y: 8775
+      Z: 140.000015
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -955
+            Y: 8775
+            Z: 140.000015
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 9565187584909793402
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -565
+      Y: 5395
+      Z: 140
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1180
+            Y: 9060
+            Z: 139.999954
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 17488105862842366982
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: 4085
+      Y: 4385
+      Z: 140.000092
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4470
+            Y: 4690
+            Z: 140.000107
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 15783180583862734422
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: 2750
+      Y: 4385
+      Z: 140.000092
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4085
+            Y: 4385
+            Z: 140.000092
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 9153129578841766016
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -975
+      Y: 4390
+      Z: 140.000092
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2750
+            Y: 4385
+            Z: 140.000092
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 17027010835214446771
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -565
+      Y: 5395
+      Z: 140
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -975
+            Y: 4390
+            Z: 140.000092
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 4552416197097909266
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -960
+      Y: 5360
+      Z: 760
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -565
+            Y: 5395
+            Z: 140
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 10630731517067508894
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -970
+      Y: 4395
+      Z: 760
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -565
+            Y: 4395
+            Z: 760
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 5507869197007031924
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -960
+      Y: 5360
+      Z: 760
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -970
+            Y: 4395
+            Z: 760
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 10726113887335777456
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -960
+            Y: 5360
+            Z: 760
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
   Id: 9700289220418926485
   Name: "SAR_Girder"
   Transform {
@@ -36664,8 +37632,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1135.60303
-            Y: 9018.72266
+            X: -1155
+            Y: 9510
             Z: 773.79541
           }
         }
@@ -37534,7 +38502,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -755
+            X: -365
             Y: 8770
             Z: 149.999878
           }
@@ -37580,15 +38548,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -820.65033
+            X: -809.330627
             Y: 9790.90918
-            Z: 184.999985
+            Z: 174.785049
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -88.4218521
+            Yaw: -88.4218445
             Roll: 89.9999771
           }
         }
@@ -50809,6 +51777,62 @@ Objects {
     }
     TemplateAsset {
       Id: 759067687964903751
+    }
+  }
+}
+Objects {
+  Id: 14629578211107024973
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -1200
+      Y: 9070
+      Z: 759.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6080
+            Y: 6635
+            Z: 569.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
     }
   }
 }
