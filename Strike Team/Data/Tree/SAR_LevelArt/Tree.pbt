@@ -2533,13 +2533,13 @@ Objects {
   Name: "SAR_Girder_Longer"
   Transform {
     Location {
-      X: 6153.12061
-      Y: 5051.52295
-      Z: 646.651733
+      X: 6141.74805
+      Y: 5050.41943
+      Z: 646.635803
     }
     Rotation {
       Pitch: 1.28199911
-      Yaw: -85
+      Yaw: -84.4593811
       Roll: -0.0801086426
     }
     Scale {
@@ -18234,17 +18234,17 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2521.5603
-      Y: 3432.12329
+      X: -2511.1897
+      Y: 3445.38452
       Z: 755
     }
     Rotation {
-      Yaw: -38.0262032
+      Yaw: -38.0262146
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.975572109
+      Y: 0.975572109
+      Z: 0.975572109
     }
   }
   ParentId: 16373807130785117515
@@ -18275,8 +18275,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2651.21411
-      Y: 3533.11646
+      X: -2635.14795
+      Y: 3551.59424
       Z: 612.678162
     }
     Rotation {
@@ -18316,8 +18316,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -2411.53
-      Y: 3530.38013
+      X: -2427.3313
+      Y: 3549.37744
       Z: 612.678162
     }
     Rotation {
@@ -45964,13 +45964,13 @@ Objects {
   Name: "SAR_Girder_Longer"
   Transform {
     Location {
-      X: 5961.14941
-      Y: 5051.52295
-      Z: 646.651733
+      X: 5985.62695
+      Y: 5047.73779
+      Z: 646.762085
     }
     Rotation {
       Pitch: 1.28199911
-      Yaw: -85
+      Yaw: -83.3690186
       Roll: -0.0801086426
     }
     Scale {
@@ -46004,16 +46004,17 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: 91.9238815
-      Y: -59.1766891
+      X: 91.9237442
+      Y: -59.1765137
+      Z: 2.38418579e-05
     }
     Rotation {
       Roll: 89.9999771
     }
     Scale {
-      X: 1.2
-      Y: 1
-      Z: 1
+      X: 1.20000613
+      Y: 0.999999821
+      Z: 0.96048665
     }
   }
   ParentId: 9524857901585048727
@@ -46066,17 +46067,17 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: -432.648895
-      Y: -58.9667053
-      Z: -3.48091125e-05
+      X: -432.648804
+      Y: -58.9665833
+      Z: -2.90870667e-05
     }
     Rotation {
       Roll: 89.9999924
     }
     Scale {
-      X: 1.32022321
-      Y: 1.00000072
-      Z: 0.999998271
+      X: 1.32023
+      Y: 1.00000048
+      Z: 0.960485
     }
   }
   ParentId: 9524857901585048727

@@ -28,7 +28,7 @@ Assets {
           Overrides {
             Name: "cs:PickupSound"
             AssetReference {
-              Id: 4020958367257585299
+              Id: 4132764797973495593
             }
           }
           Overrides {
