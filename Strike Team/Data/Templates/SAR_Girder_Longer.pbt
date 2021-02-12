@@ -33,16 +33,17 @@ Assets {
         Name: "Girder Medium 4m"
         Transform {
           Location {
-            X: -385.515106
-            Y: -58.9664078
+            X: -432.648895
+            Y: -58.9667053
+            Z: -3.48091125e-05
           }
           Rotation {
             Roll: 89.9999924
           }
           Scale {
-            X: 1.2
-            Y: 1
-            Z: 1
+            X: 1.32022321
+            Y: 1.00000072
+            Z: 0.999998271
           }
         }
         ParentId: 12196351349899929299
@@ -78,7 +79,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -135,7 +135,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }

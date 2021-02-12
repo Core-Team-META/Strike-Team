@@ -553,7 +553,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -605,7 +604,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -657,7 +655,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -709,7 +706,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -761,7 +757,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -802,7 +797,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -843,7 +837,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -884,7 +877,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -925,7 +917,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -966,7 +957,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -1007,7 +997,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -1048,7 +1037,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -1089,7 +1077,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -1268,48 +1255,6 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1703402628316591777
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -275.069824
-            Y: -58.8751068
-            Z: -0.000106334686
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.800679684
-            Y: 1.00000024
-            Z: 0.999997437
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3821663676666727866
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 41.3077583
-            Y: -58.0518646
-            Z: 9.08374786e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.800679684
-            Y: 1.00000024
-            Z: 0.999997437
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 10938145141829396440
       value {
         Overrides {
@@ -1329,14 +1274,6 @@ Objects {
           Rotator {
             Pitch: 3.75021768
             Yaw: -47.6124268
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -1368,27 +1305,6 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
-      key: 6851718701834177928
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -432.648895
-            Y: -58.9667053
-            Z: -3.48091125e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.32022321
-            Y: 1.00000072
-            Z: 0.999998271
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 12196351349899929299
       value {
         Overrides {
@@ -1408,14 +1324,6 @@ Objects {
           Rotator {
             Pitch: 2.19880843
             Yaw: -85
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -1564,14 +1472,6 @@ Objects {
             X: -3914.12451
             Y: 11363.4629
             Z: 597.874207
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
         Overrides {
@@ -72322,58 +72222,6 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2486253927421181646
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.470000029
-            B: 0.158741593
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3129519305907622356
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.470000029
-            B: 0.158741593
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3904460402403911826
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.470000029
-            B: 0.158741593
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6892078606719495495
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.470000029
-            B: 0.158741593
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 10402331563204437189
       value {
         Overrides {
@@ -72392,40 +72240,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -44.9999962
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.64931691
-            Y: 1.64931691
-            Z: 1.64931691
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16311667830997664518
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.470000029
-            B: 0.158741593
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18275383903668197615
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.470000029
-            B: 0.158741593
-            A: 1
           }
         }
       }
@@ -72466,14 +72280,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -44.9999962
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -73405,26 +73211,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 8640698428808496686
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 13906395176099797543
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.323
-            G: 0.128960416
-            B: 0.107558988
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 11809706110926740078
       value {
         Overrides {
@@ -73443,54 +73229,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -179.999985
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12674967866453052518
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 13906395176099797543
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.323
-            G: 0.128960416
-            B: 0.107558988
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13146388993531840529
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 13906395176099797543
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.323
-            G: 0.128960416
-            B: 0.107558988
-            A: 1
           }
         }
       }
@@ -73665,6 +73403,51 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
+      key: 6673028568261076742
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6814356587868312930
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7475724548463222139
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9081800505193850280
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11055321603173534818
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11460442521884478572
       value {
         Overrides {
@@ -73691,6 +73474,42 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11500279211800676408
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13926785300744349160
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16623958684992015466
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16725638427068562331
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
         }
       }
     }
@@ -73891,7 +73710,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -73940,7 +73758,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -73990,7 +73807,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -74054,7 +73870,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -74102,7 +73917,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -76333,14 +76147,6 @@ Objects {
             Yaw: -89.9999924
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -76378,14 +76184,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.42283392
-            Y: 0.42283392
-            Z: 0.42283392
           }
         }
       }
@@ -78094,14 +77892,6 @@ Objects {
             Yaw: 89.9999924
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.994426906
-            Y: 0.994426906
-            Z: 0.994426906
-          }
-        }
       }
     }
     TemplateAsset {
@@ -78196,14 +77986,6 @@ Objects {
             Yaw: 44.9999962
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
-          }
-        }
       }
     }
     TemplateAsset {
@@ -78252,7 +78034,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -78301,7 +78082,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -78350,7 +78130,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -78399,7 +78178,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -78448,7 +78226,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -78497,7 +78274,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -78546,7 +78322,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -84957,14 +84732,6 @@ Objects {
             Yaw: 79.6399231
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -85437,29 +85204,6 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
-      key: 11969538221022341226
-      value {
-        Overrides {
-          Name: "ma:Prop_Top:color"
-          Color {
-            R: 0.477000028
-            G: 0.404028505
-            B: 0.276660025
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.185
-            G: 0.156698674
-            B: 0.107300006
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 16143481190423050169
       value {
         Overrides {
@@ -85478,14 +85222,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -44.9999962
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -85572,14 +85308,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -85685,14 +85413,6 @@ Objects {
             Yaw: 100.234161
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
-          }
-        }
       }
     }
     TemplateAsset {
@@ -85745,14 +85465,6 @@ Objects {
             Roll: -112.445984
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.02612662
-            Y: 1.02612662
-            Z: 1.02612662
-          }
-        }
       }
     }
     TemplateAsset {
@@ -85799,14 +85511,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 86.51017
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -85856,14 +85560,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Roll: -22.4997406
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.042055022
-            Y: 0.042055022
-            Z: 0.042055022
           }
         }
       }
@@ -86005,14 +85701,6 @@ Objects {
             Yaw: -44.9999962
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -86094,14 +85782,6 @@ Objects {
             Pitch: 44.9999886
             Yaw: 44.9999962
             Roll: 1.20741811e-06
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -86237,7 +85917,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86302,7 +85981,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86365,7 +86043,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86428,7 +86105,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86492,7 +86168,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86556,7 +86231,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86620,7 +86294,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86684,7 +86357,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86751,7 +86423,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86869,7 +86540,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -86894,6 +86564,24 @@ Objects {
   }
   ParentId: 16373807130785117515
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1228432261413941034
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2007779080835938445
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 2617982291725790261
       value {
@@ -86923,6 +86611,123 @@ Objects {
             Y: 0.042055022
             Z: 0.042055022
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4572036655306526481
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5663553542211667019
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7655641085919994959
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7766501448901977240
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7928982620211791612
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8600298698056058830
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8689326696154879764
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12920819570477594739
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13940053961843919011
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14402689037128965257
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14895343747554345513
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15922733031119831092
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17777530118749445908
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
         }
       }
     }
@@ -87750,6 +87555,114 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
+      key: 191509447040282459
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 526111233136620513
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2234340755660498911
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5132861953557938874
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5245203403277620772
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5708979969107929601
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6804433152156355275
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7811521546000326438
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8320266080174582252
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9849396677976544332
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12502333620465025354
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14058856146077297835
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 15877809462822465698
       value {
         Overrides {
@@ -87780,6 +87693,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 16970458711205471605
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
     TemplateAsset {
       Id: 17824978440386110214
     }
@@ -87804,6 +87726,114 @@ Objects {
   }
   ParentId: 16373807130785117515
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 191509447040282459
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 526111233136620513
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2234340755660498911
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5132861953557938874
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5245203403277620772
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5708979969107929601
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6804433152156355275
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7811521546000326438
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8320266080174582252
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9849396677976544332
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12502333620465025354
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14058856146077297835
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 15877809462822465698
       value {
@@ -87832,6 +87862,15 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16970458711205471605
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
         }
       }
     }
@@ -87973,7 +88012,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88038,7 +88076,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88105,7 +88142,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88172,7 +88208,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88238,7 +88273,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88292,7 +88326,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88346,7 +88379,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88400,7 +88432,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88453,7 +88484,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88559,7 +88589,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88624,7 +88653,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88691,7 +88719,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88758,7 +88785,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88824,7 +88850,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -88872,7 +88897,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89018,7 +89042,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89083,7 +89106,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89150,7 +89172,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89217,7 +89238,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89283,7 +89303,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89337,7 +89356,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89391,7 +89409,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89445,7 +89462,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89498,7 +89514,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89598,7 +89613,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89644,7 +89658,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89690,7 +89703,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89736,7 +89748,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89801,7 +89812,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89859,7 +89869,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89916,7 +89925,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -89973,7 +89981,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -92827,7 +92834,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -92888,7 +92894,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -92948,7 +92953,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93009,7 +93013,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93069,7 +93072,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93130,7 +93132,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93315,7 +93316,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93376,7 +93376,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93437,7 +93436,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93498,7 +93496,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93559,7 +93556,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93620,7 +93616,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93681,7 +93676,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93741,7 +93735,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93802,7 +93795,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93863,7 +93855,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93924,7 +93915,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -93985,7 +93975,6 @@ Objects {
     }
     DisableDistanceFieldLighting: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94067,7 +94056,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94141,7 +94129,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94216,7 +94203,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94292,7 +94278,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94368,7 +94353,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94585,7 +94569,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94633,7 +94616,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94682,7 +94664,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94731,7 +94712,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94780,7 +94760,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94830,7 +94809,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94880,7 +94858,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94933,7 +94910,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -94985,7 +94961,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95095,7 +95070,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95150,7 +95124,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95205,7 +95178,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95252,7 +95224,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95362,7 +95333,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95414,7 +95384,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95502,7 +95471,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95549,7 +95517,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95637,7 +95604,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95684,7 +95650,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95736,7 +95701,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95787,7 +95751,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95836,7 +95799,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95886,7 +95848,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95935,7 +95896,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -95983,7 +95943,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96032,7 +95991,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96081,7 +96039,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96130,7 +96087,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96189,7 +96145,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96248,7 +96203,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96308,7 +96262,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96414,7 +96367,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96454,7 +96406,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96493,7 +96444,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96565,7 +96515,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96608,7 +96557,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96648,7 +96596,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96687,7 +96634,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96760,7 +96706,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96801,7 +96746,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96841,7 +96785,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96880,7 +96823,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96953,7 +96895,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -96993,7 +96934,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -97032,7 +96972,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -97105,7 +97044,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -97146,7 +97084,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -97186,7 +97123,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -97225,7 +97161,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98438,7 +98373,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98500,7 +98434,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98562,7 +98495,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98624,7 +98556,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98686,7 +98617,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98748,7 +98678,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98810,7 +98739,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98872,7 +98800,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98934,7 +98861,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -98996,7 +98922,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99058,7 +98983,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99120,7 +99044,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99180,7 +99103,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99229,7 +99151,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99278,7 +99199,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99327,7 +99247,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99376,7 +99295,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99425,7 +99343,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99474,7 +99391,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99523,7 +99439,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99571,7 +99486,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99622,7 +99536,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99673,7 +99586,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99724,7 +99636,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99775,7 +99686,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99826,7 +99736,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99884,7 +99793,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -99942,7 +99850,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100086,7 +99993,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100135,7 +100041,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100184,7 +100089,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100233,7 +100137,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100282,7 +100185,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100330,7 +100232,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100379,7 +100280,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100428,7 +100328,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100477,7 +100376,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100526,7 +100424,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100575,7 +100472,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100624,7 +100520,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100673,7 +100568,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100721,7 +100615,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100770,7 +100663,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100819,7 +100711,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100868,7 +100759,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100917,7 +100807,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -100966,7 +100855,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101015,7 +100903,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101064,7 +100951,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101113,7 +100999,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101162,7 +101047,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101211,7 +101095,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101260,7 +101143,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101309,7 +101191,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101358,7 +101239,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101407,7 +101287,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101456,7 +101335,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101505,7 +101383,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101554,7 +101431,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101603,7 +101479,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101652,7 +101527,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101701,7 +101575,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101750,7 +101623,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101799,7 +101671,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101848,7 +101719,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -101897,7 +101767,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102011,7 +101880,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102069,7 +101937,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102511,7 +102378,6 @@ Objects {
     }
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102571,7 +102437,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102630,7 +102495,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102690,7 +102554,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102845,7 +102708,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102904,7 +102766,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -102964,7 +102825,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103024,7 +102884,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103084,7 +102943,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103144,7 +103002,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103204,7 +103061,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103264,7 +103120,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103322,7 +103177,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -103380,7 +103234,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -105453,7 +105306,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -105699,7 +105551,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -105806,7 +105657,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -105914,7 +105764,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -105971,7 +105820,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106028,7 +105876,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106134,7 +105981,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106241,7 +106087,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106349,7 +106194,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106406,7 +106250,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106463,7 +106306,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106563,7 +106405,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106624,7 +106465,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106685,7 +106525,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106746,7 +106585,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106801,7 +106639,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     DisableCastShadows: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106861,7 +106698,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -106927,7 +106763,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107016,6 +106851,78 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2639889123110797041
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3549156465075029788
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3990829644586593089
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4232371111323489037
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5609684846007121309
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6927188144648585050
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8110673547773570631
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8142857673748719856
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 8614467501951046886
       value {
         Overrides {
@@ -107032,6 +106939,51 @@ Objects {
             Yaw: -14.0362549
             Roll: -104.03627
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10414456077612207761
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12969022517183311342
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12972830162758071094
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13939503378593944705
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16043658273443267871
+      value {
+        Overrides {
+          Name: "Mesh.InteractWithTriggers"
+          Bool: false
         }
       }
     }
@@ -107194,7 +107146,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107235,7 +107186,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107273,7 +107223,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107314,7 +107263,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107356,7 +107304,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107398,7 +107345,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107440,7 +107386,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107482,7 +107427,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107524,7 +107468,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107566,7 +107509,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107607,7 +107549,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107648,7 +107589,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107724,7 +107664,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107765,7 +107704,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107824,7 +107762,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107866,7 +107803,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107908,7 +107844,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -107950,7 +107885,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108062,7 +107996,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108119,7 +108052,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108159,7 +108091,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108200,7 +108131,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108241,7 +108171,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108282,7 +108211,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108326,7 +108254,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108367,7 +108294,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108407,7 +108333,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108448,7 +108373,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108490,7 +108414,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108528,7 +108451,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108567,7 +108489,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108605,7 +108526,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108645,7 +108565,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108686,7 +108605,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108728,7 +108646,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108770,7 +108687,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108812,7 +108728,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108854,7 +108769,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108896,7 +108810,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108937,7 +108850,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -108979,7 +108891,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109020,7 +108931,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109061,7 +108971,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109141,7 +109050,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109182,7 +109090,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109241,7 +109148,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109285,7 +109191,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109327,7 +109232,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109368,7 +109272,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109427,7 +109330,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109469,7 +109371,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109511,7 +109412,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109553,7 +109453,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109640,7 +109539,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109722,7 +109620,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109770,7 +109667,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109818,7 +109714,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109866,7 +109761,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -109930,7 +109824,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110010,7 +109903,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110065,7 +109957,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110119,7 +110010,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110165,7 +110055,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110226,7 +110115,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110287,7 +110175,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110345,7 +110232,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110403,7 +110289,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110452,7 +110337,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110502,7 +110386,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110563,7 +110446,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110614,7 +110496,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110665,7 +110546,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110717,7 +110597,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110768,7 +110647,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110819,7 +110697,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110870,7 +110747,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -110929,7 +110805,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111012,7 +110887,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111061,7 +110935,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111110,7 +110983,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111159,7 +111031,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111206,7 +111077,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111253,7 +111123,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111312,7 +111181,6 @@ Objects {
     }
     DisableReceiveDecals: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111363,7 +111231,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111413,7 +111280,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111464,7 +111330,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111515,7 +111380,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111576,7 +111440,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111637,7 +111500,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111686,7 +111548,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111762,7 +111623,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111838,7 +111698,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111887,7 +111746,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111936,7 +111794,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -111986,7 +111843,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112041,7 +111897,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112102,7 +111957,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112152,7 +112006,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112200,7 +112053,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112249,7 +112101,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112310,7 +112161,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112371,7 +112221,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112432,7 +112281,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112495,7 +112343,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112544,7 +112391,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112593,7 +112439,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112653,7 +112498,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112703,7 +112547,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112753,7 +112596,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112802,7 +112644,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112864,7 +112705,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112914,7 +112754,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -112964,7 +112803,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113025,7 +112863,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113067,7 +112904,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113129,7 +112965,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113258,7 +113093,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113308,7 +113142,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113358,7 +113191,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113407,7 +113239,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113456,7 +113287,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113505,7 +113335,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113554,7 +113383,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113603,7 +113431,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113652,7 +113479,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113700,7 +113526,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113749,7 +113574,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113798,7 +113622,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113847,7 +113670,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113895,7 +113717,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113943,7 +113764,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -113990,7 +113810,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114039,7 +113858,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114087,7 +113905,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114136,7 +113953,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114185,7 +114001,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114232,7 +114047,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114281,7 +114095,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114329,7 +114142,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114377,7 +114189,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114416,7 +114227,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114465,7 +114275,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114515,7 +114324,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114612,7 +114420,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114676,7 +114483,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114727,7 +114533,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114785,7 +114590,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114843,7 +114647,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114929,7 +114732,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -114980,7 +114782,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115024,7 +114825,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115069,7 +114869,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115155,7 +114954,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115206,7 +115004,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115250,7 +115047,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115295,7 +115091,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115352,7 +115147,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115372,25 +115166,6 @@ Objects {
   ParentId: 16373807130785117515
   TemplateInstance {
     ParameterOverrideMap {
-      key: 147758980339773230
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.5
-            Y: 3.50000024
-            Z: 4.47423124
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 1348503674607476825
       value {
         Overrides {
@@ -115408,74 +115183,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4342149432561344313
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -56.7094727
-            Y: -4.92431641
-            Z: 447.763672
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4388296021088267647
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -219.155273
-            Y: 29.9023438
-            Z: 546.265503
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.00000346
-            Y: 0.999999464
-            Z: 1.16979611
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8126176804835973904
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -127.738281
-            Y: 66.1044922
-            Z: 490.504883
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13114008640661358883
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -75.0576172
-            Y: 174
-            Z: 546.265503
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.00000346
-            Y: 0.999999464
-            Z: 1.16979611
           }
         }
       }
@@ -115526,7 +115233,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -115574,7 +115280,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116123,7 +115828,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116173,7 +115877,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116224,7 +115927,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116275,7 +115977,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116326,7 +116027,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116384,7 +116084,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116474,7 +116173,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116523,7 +116221,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116572,7 +116269,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116630,7 +116326,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116719,7 +116414,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116791,7 +116485,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116867,7 +116560,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116927,7 +116619,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -116987,7 +116678,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -117029,7 +116719,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -117099,7 +116788,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118087,7 +117775,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118146,7 +117833,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118204,7 +117890,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118262,7 +117947,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118320,7 +118004,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118379,7 +118062,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118436,7 +118118,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118496,7 +118177,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118556,7 +118236,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118614,7 +118293,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -118671,7 +118349,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -120166,6 +119843,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 1886849175240990126
       value {
         Overrides {
@@ -120232,6 +119920,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -120257,6 +119956,17 @@ Objects {
   }
   ParentId: 4118424550046766430
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 1886849175240990126
       value {
@@ -120323,6 +120033,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -120346,6 +120067,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 1886849175240990126
       value {
@@ -120413,6 +120145,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -120430,6 +120173,17 @@ Objects {
   }
   ParentId: 4118424550046766430
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 1886849175240990126
       value {
@@ -120479,6 +120233,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -120504,6 +120269,17 @@ Objects {
   }
   ParentId: 4118424550046766430
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 1886849175240990126
       value {
@@ -120556,6 +120332,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 8075013033666856258
     }
@@ -120579,6 +120366,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 1886849175240990126
       value {
@@ -120628,6 +120426,17 @@ Objects {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "VfxBlueprint.Relevance"
+          Enum {
+            Value: "mc:evfxrelevance:medium"
+          }
         }
       }
     }
@@ -120702,7 +120511,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -120775,7 +120583,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -120846,7 +120653,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -120906,7 +120712,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -120978,7 +120783,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121050,7 +120854,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121110,7 +120913,6 @@ Objects {
     DisableDistanceFieldLighting: true
     DisableCastShadows: true
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121167,7 +120969,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121224,7 +121025,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121281,7 +121081,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121338,7 +121137,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121423,7 +121221,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121508,7 +121305,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121593,7 +121389,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121666,7 +121461,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121751,7 +121545,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121836,7 +121629,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121909,7 +121701,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -121982,7 +121773,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122067,7 +121857,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122140,7 +121929,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122213,7 +122001,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122298,7 +122085,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122371,7 +122157,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122444,7 +122229,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122529,7 +122313,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122614,7 +122397,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }
@@ -122687,7 +122469,6 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
       }

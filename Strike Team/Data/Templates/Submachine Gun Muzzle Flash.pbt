@@ -95,7 +95,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:critical"
+              Value: "mc:evfxrelevance:high"
             }
           }
         }

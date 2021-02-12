@@ -33,16 +33,17 @@ Assets {
         Name: "Girder Medium 4m"
         Transform {
           Location {
-            X: -348.666504
-            Y: -58.875
+            X: -275.069824
+            Y: -58.8751068
+            Z: -0.000106334686
           }
           Rotation {
             Roll: 89.9999924
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.800679684
+            Y: 1.00000024
+            Z: 0.999997437
           }
         }
         ParentId: 10938145141829396440
@@ -78,7 +79,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -90,16 +90,17 @@ Assets {
         Name: "Girder Medium 4m"
         Transform {
           Location {
-            X: 51.4838867
-            Y: -58.0517578
+            X: 41.3077583
+            Y: -58.0518646
+            Z: 9.08374786e-05
           }
           Rotation {
             Roll: 89.9999771
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.800679684
+            Y: 1.00000024
+            Z: 0.999997437
           }
         }
         ParentId: 10938145141829396440
@@ -135,7 +136,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
