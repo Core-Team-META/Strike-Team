@@ -1,4 +1,4 @@
-local IS_ENABLED = script:GetCustomProperty("IsEnabled")
+--[[ local IS_ENABLED = script:GetCustomProperty("IsEnabled")
 
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local APIScoreRankManager = require(script:GetCustomProperty("APIScoreRankManager"))
@@ -166,3 +166,4 @@ if (IS_ENABLED) then
     Events.Connect("KF", OnPlayerKilled)
     Events.Connect("ShowKillstreak", ShowKillstreak)    
 end
+ ]]
