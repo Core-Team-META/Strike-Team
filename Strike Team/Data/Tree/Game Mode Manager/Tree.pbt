@@ -1753,7 +1753,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SECONDS_TO_CAPTURE"
-      Float: 5
+      Float: 10
     }
     Overrides {
       Name: "cs:RESPAWN_SETTINGS"

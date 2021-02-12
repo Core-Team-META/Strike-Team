@@ -71,13 +71,14 @@ local function SetTeamColor(point, indicator)
         local data = GT_API.ConvertStringToTable(str)
         pointTeam = data[1]
     end
-
-    if pointTeam > 0 then
-        ICON.team = pointTeam
-        BOARDER.team = pointTeam
-    else
-        ICON.team = 0
-        BOARDER.team = 0
+    if Object.IsValid(ICON) and Object.IsValid(BOARDER) then
+        if pointTeam > 0 then
+            ICON.team = pointTeam
+            BOARDER.team = pointTeam
+        else
+            ICON.team = 0
+            BOARDER.team = 0
+        end
     end
 end
 
@@ -88,12 +89,13 @@ local function UpdatePoint(point, indicator)
     local playerToPoint = pointPos - playerPos
     local distanceSq = playerToPoint.sizeSquared
     local screenSize = UI.GetScreenSize()
-    points[point].visibility = Visibility.FORCE_ON
-    if distanceSq > MAX_VIEW_DISTANCE_SQ or distanceSq < MIN_VIEW_DISTANCE_SQ then
-        points[point].visibility = Visibility.FORCE_OFF
-        return
+    if Object.IsValid(points[point]) then
+        points[point].visibility = Visibility.FORCE_ON
+        if distanceSq > MAX_VIEW_DISTANCE_SQ or distanceSq < MIN_VIEW_DISTANCE_SQ then
+            points[point].visibility = Visibility.FORCE_OFF
+            return
+        end
     end
-
     local screenPosition = UI.GetScreenPosition(pointPos)
     local dist = indicator:GetCustomProperty("Distance"):WaitForObject()
     local meters = math.floor((playerPos - pointPos).size / 20) / 10
@@ -114,7 +116,9 @@ local function UpdatePoint(point, indicator)
         indicator.x = (viewRight .. directionToPoint) * (screenSize.x - 110) / 2
         indicator.y = screenSize.y / 2 - MARGIN
     end
-    SetTeamColor(point, indicator)
+    if Object.IsValid(point) and Object.IsValid(indicator) then
+        SetTeamColor(point, indicator)
+    end
 end
 
 ------------------------------------------------------------------------------------------------------------------------
