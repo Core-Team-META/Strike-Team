@@ -176,7 +176,7 @@ function AnimateSelection(selectedHolderEntry, player,Main)
 	--Main["object"]:RotateTo(Rotation.ZERO, 1, false)
 	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, -20, 0), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(0,0,0), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
-	Ease3D.EaseRotation(Main["object"], Main["item"].data.Rotation_Offset + Rotation.New(0,0,90), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+	Ease3D.EaseRotation(Main["object"], Main["item"].data.Rotation_Offset + Rotation.New(0,30,90), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Task.Wait(1)
 	WEAPON_TEXT.visibility = Visibility.FORCE_ON	
 	local slot =  Main["item"]:GetSlot()

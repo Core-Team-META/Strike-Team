@@ -32,7 +32,7 @@ Assets {
         Name: "Object_Equipment_FlashGrenade_CSGO"
         Transform {
           Location {
-            Z: 21.1908875
+            X: 15
           }
           Rotation {
           }

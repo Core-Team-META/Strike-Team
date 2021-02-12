@@ -32,8 +32,7 @@ Assets {
         Name: "Object_Equipment_SmokeGrenade"
         Transform {
           Location {
-            X: 20
-            Z: 20.94384
+            X: 15
           }
           Rotation {
           }

@@ -33,8 +33,8 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 20
-            Z: 15
+            X: 15
+            Z: 2.52851772
           }
           Rotation {
             Pitch: 90

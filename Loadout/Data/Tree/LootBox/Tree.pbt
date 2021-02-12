@@ -11392,11 +11392,11 @@ Objects {
     }
     Overrides {
       Name: "cs:MovementSpeed"
-      Float: 0.3
+      Float: 0.2
     }
     Overrides {
       Name: "cs:NumberOfLoops"
-      Int: 2
+      Int: 1
     }
     Overrides {
       Name: "cs:SelectedWeapon"
