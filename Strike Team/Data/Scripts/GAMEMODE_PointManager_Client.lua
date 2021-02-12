@@ -9,7 +9,9 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -95,7 +97,9 @@ local function UpdatePoint(point, indicator)
     local screenPosition = UI.GetScreenPosition(pointPos)
     local dist = indicator:GetCustomProperty("Distance"):WaitForObject()
     local meters = math.floor((playerPos - pointPos).size / 20) / 10
-    dist.text = tostring(meters) .. " m"
+    if Object.IsValid(dist) then
+        dist.text = tostring(meters) .. " m"
+    end
 
     if screenPosition then
         screenPosition.x = screenPosition.x - screenSize.x / 2
