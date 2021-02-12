@@ -60,6 +60,41 @@ Objects {
       Name: "cs:AngleRotate"
       Int: 30
     }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: -5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: -2
+        Y: -2
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -138,6 +173,27 @@ Objects {
     Overrides {
       Name: "cs:AngleRotate"
       Int: 30
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -224,6 +280,27 @@ Objects {
       Name: "cs:AngleRotate"
       Int: 30
     }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -284,6 +361,27 @@ Objects {
     Overrides {
       Name: "cs:AngleRotate"
       Int: 30
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -363,6 +461,27 @@ Objects {
     Overrides {
       Name: "cs:AngleRotate"
       Int: 30
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -446,15 +565,34 @@ Objects {
     Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
-        X: 11
-        Y: 11
       }
     }
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 12
-        Y: 12
+        X: 4
+        Y: 6
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
       }
     }
   }
@@ -532,13 +670,34 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 4
-        Y: 4
+        X: 2
+        Y: 6
       }
     }
     Overrides {
       Name: "cs:AngleRotate"
       Int: 30
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -623,6 +782,27 @@ Objects {
       Name: "cs:AngleRotate"
       Int: 30
     }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -705,6 +885,27 @@ Objects {
     Overrides {
       Name: "cs:AngleRotate"
       Int: 30
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -789,6 +990,27 @@ Objects {
       Name: "cs:AngleRotate"
       Int: 30
     }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -872,6 +1094,27 @@ Objects {
       Name: "cs:AngleRotate"
       Int: 30
     }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -953,7 +1196,28 @@ Objects {
     }
     Overrides {
       Name: "cs:AngleRotate"
-      Int: 30
+      Int: 35
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -1036,7 +1300,28 @@ Objects {
     }
     Overrides {
       Name: "cs:AngleRotate"
-      Int: 30
+      Int: 35
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -1121,6 +1406,27 @@ Objects {
       Name: "cs:AngleRotate"
       Int: 30
     }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1202,7 +1508,28 @@ Objects {
     }
     Overrides {
       Name: "cs:AngleRotate"
-      Int: 30
+      Int: 35
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -1279,20 +1606,41 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 28
-        Y: 28
+        X: 20
+        Y: 20
       }
     }
     Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
-        X: 22
-        Y: 22
+        X: 16
+        Y: 16
       }
     }
     Overrides {
       Name: "cs:AngleRotate"
       Int: 30
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
@@ -1369,20 +1717,41 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 28
-        Y: 28
+        X: 20
+        Y: 20
       }
     }
     Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
-        X: 22
-        Y: 22
+        X: 16
+        Y: 16
       }
     }
     Overrides {
       Name: "cs:AngleRotate"
-      Int: 30
+      Int: 35
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.807000041
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 5
+      }
     }
   }
   Collidable_v2 {
