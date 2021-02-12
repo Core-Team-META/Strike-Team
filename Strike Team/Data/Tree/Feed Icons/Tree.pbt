@@ -1435,6 +1435,23 @@ Objects {
         Id: 3426494528448305421
       }
     }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 0.0723178089
+        G: 0.78
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 0.00520833349
+        G: 0.00520833349
+        B: 0.00520833349
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1484,6 +1501,29 @@ Objects {
       Name: "cs:Layer_03"
       AssetReference {
         Id: 3426494528448305421
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 0.86
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 2
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 0.00520833349
+        G: 0.00520833349
+        B: 0.00520833349
+        A: 1
       }
     }
   }
@@ -1630,8 +1670,8 @@ Objects {
     Overrides {
       Name: "cs:Layer_01_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 20
+        X: 15
+        Y: 15
       }
     }
     Overrides {
@@ -1722,8 +1762,8 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 2
-        Y: 2
+        X: -2
+        Y: -2
       }
     }
     Overrides {

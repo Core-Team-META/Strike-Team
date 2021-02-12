@@ -394,7 +394,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 1
           Height: 67
           UIY: -5
           RenderTransformPivot {
@@ -407,9 +406,7 @@ Assets {
               Id: 17289448223043935888
             }
             Color {
-              R: 0.36
-              G: 0.61854279
-              B: 1
+              R: 0.799999952
               A: 0.290000021
             }
             TeamSettings {
@@ -452,7 +449,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 1
           Height: 67
           UIY: -5
           RenderTransformPivot {
@@ -466,8 +462,8 @@ Assets {
             }
             Color {
               R: 0.0677083358
-              G: 0.016890483
-              B: 0.0162169561
+              G: 0.00366992853
+              B: 0.0028211819
               A: 0.453
             }
             TeamSettings {
@@ -634,7 +630,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 1
           Height: 58
           UIY: -1
           RenderTransformPivot {
@@ -648,8 +643,8 @@ Assets {
             }
             Color {
               R: 1
-              G: 0.36
-              B: 0.36
+              G: 0.111121714
+              B: 0.078125
               A: 0.089
             }
             TeamSettings {
@@ -705,9 +700,9 @@ Assets {
               Id: 7979902098204624088
             }
             Color {
-              R: 0.354166657
-              G: 0.138124987
-              B: 0.138124987
+              R: 0.421875
+              G: 0.145338833
+              B: 0.0549316332
               A: 1
             }
             TeamSettings {
@@ -763,9 +758,9 @@ Assets {
               Id: 7979902098204624088
             }
             Color {
-              R: 0.354166657
-              G: 0.138124987
-              B: 0.138124987
+              R: 0.421875
+              G: 0.145338833
+              B: 0.0549316332
               A: 1
             }
             TeamSettings {
@@ -821,9 +816,9 @@ Assets {
               Id: 7979902098204624088
             }
             Color {
-              R: 0.354166657
-              G: 0.138124987
-              B: 0.138124987
+              R: 0.421875
+              G: 0.145338833
+              B: 0.0549316332
               A: 1
             }
             TeamSettings {
@@ -880,9 +875,9 @@ Assets {
               Id: 7979902098204624088
             }
             Color {
-              R: 0.354166657
-              G: 0.138124987
-              B: 0.138124987
+              R: 0.421875
+              G: 0.145338833
+              B: 0.0549316332
               A: 1
             }
             TeamSettings {
@@ -939,9 +934,9 @@ Assets {
               Id: 7979902098204624088
             }
             Color {
-              R: 0.354166657
-              G: 0.138124987
-              B: 0.138124987
+              R: 0.421875
+              G: 0.145338833
+              B: 0.0549316332
               A: 1
             }
             TeamSettings {
@@ -998,9 +993,9 @@ Assets {
               Id: 7979902098204624088
             }
             Color {
-              R: 0.354166657
-              G: 0.138124987
-              B: 0.138124987
+              R: 0.421875
+              G: 0.145338833
+              B: 0.0549316332
               A: 1
             }
             TeamSettings {
