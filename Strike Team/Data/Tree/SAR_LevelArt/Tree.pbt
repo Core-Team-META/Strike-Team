@@ -1,6 +1,153 @@
 Name: "SAR_LevelArt"
 RootId: 16373807130785117515
 Objects {
+  Id: 3996839484865287309
+  Name: "Plane 1m - One Sided"
+  Transform {
+    Location {
+      X: -3717.93091
+      Y: 4186.68359
+      Z: 1201.78516
+    }
+    Rotation {
+      Pitch: -0.571105957
+      Yaw: 40.8118858
+      Roll: 4.008955
+    }
+    Scale {
+      X: 0.839619637
+      Y: 6.07029152
+      Z: 0.918568134
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5390120376389660115
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 535656651620109890
+  Name: "Plane 1m - One Sided"
+  Transform {
+    Location {
+      X: -5907.66162
+      Y: 5716.15381
+      Z: 1184.78455
+    }
+    Rotation {
+      Yaw: 34.2236824
+    }
+    Scale {
+      X: 0.839622319
+      Y: 8.42697
+      Z: 0.91857
+    }
+  }
+  ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5390120376389660115
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6857874633754521727
+  Name: "Sci-fi Cargo Crate 01"
+  Transform {
+    Location {
+      X: -4428.48389
+      Y: 5646.04
+      Z: 1115
+    }
+    Rotation {
+      Yaw: -116.013672
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10030495421633776105
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 16710286115010499775
   Name: "Sci-fi Cargo Crate 01"
   Transform {
@@ -131,12 +278,12 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -4481.98779
-      Y: 4798.51563
+      X: -4587.30664
+      Y: 4904.84326
       Z: 1115
     }
     Rotation {
-      Yaw: -137.797821
+      Yaw: 39.9286537
     }
     Scale {
       X: 1
@@ -159,6 +306,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -173,8 +321,8 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -4570
-      Y: 5495
+      X: -4331.49365
+      Y: 5769.77783
       Z: 1115
     }
     Rotation {
@@ -211,54 +359,12 @@ Objects {
   }
 }
 Objects {
-  Id: 10231627545786983854
-  Name: "Sci-fi Cargo Crate 01"
-  Transform {
-    Location {
-      X: -3875.74219
-      Y: 5415.10352
-      Z: 1115.13599
-    }
-    Rotation {
-      Yaw: -42.9400635
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10030495421633776105
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 4573176123440361540
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -3995.74219
-      Y: 5365.10352
+      X: -3779.03589
+      Y: 5502.53027
       Z: 1115.13599
     }
     Rotation {
@@ -285,6 +391,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -299,8 +406,8 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -3935.74219
-      Y: 5345.10352
+      X: -3750.69629
+      Y: 5439.5459
       Z: 1225
     }
     Rotation {
@@ -327,6 +434,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -341,8 +449,8 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -3910.74219
-      Y: 5250.10352
+      X: -3694.03589
+      Y: 5387.53027
       Z: 1115.13599
     }
     Rotation {
@@ -369,6 +477,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -383,12 +492,12 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -4419.62939
-      Y: 4818.43311
+      X: -4650.40576
+      Y: 4887.41602
       Z: 1232.24988
     }
     Rotation {
-      Yaw: -155.440125
+      Yaw: 22.2865505
     }
     Scale {
       X: 1
@@ -413,6 +522,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -427,12 +537,12 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -4380
-      Y: 4735
+      X: -4686.69287
+      Y: 4972.35645
       Z: 1115
     }
     Rotation {
-      Yaw: -110.44001
+      Yaw: 67.2863846
     }
     Scale {
       X: 1
@@ -455,6 +565,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -469,12 +580,12 @@ Objects {
   Name: "Sci-fi Cargo Crate 01"
   Transform {
     Location {
-      X: -4357.24219
-      Y: 4871.36084
+      X: -4714.84375
+      Y: 4837.00391
       Z: 1115
     }
     Rotation {
-      Yaw: -123.291794
+      Yaw: 54.4349174
     }
     Scale {
       X: 1
@@ -1205,17 +1316,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6054.27783
-            Y: 5727.50293
-            Z: 1170.13989
+            X: -6041.61914
+            Y: 5737.28027
+            Z: 1170.27649
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 0.0960802659
-            Yaw: -52.318512
-            Roll: -0.489257813
+            Pitch: 0.0842367187
+            Yaw: -53.7027588
+            Roll: -0.491424561
           }
         }
         Overrides {
@@ -1264,8 +1375,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3669.59399
-            Y: 4299.77686
+            X: -3703.42285
+            Y: 4268.90039
             Z: 1188.02942
           }
         }
@@ -2678,6 +2789,42 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 3519499805968123779
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7530558770909811450
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10706835851587813684
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12295974045124282128
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
     TemplateAsset {
       Id: 4173411840998073227
     }
@@ -3049,6 +3196,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -3090,6 +3238,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     StaticMesh {
       Physics {
@@ -3232,6 +3381,24 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 14854863923342400962
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17266623320470802632
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
     TemplateAsset {
       Id: 10196545232027870284
     }
@@ -3277,6 +3444,33 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15393736951720163116
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17271747666972694771
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18229338381154904099
+      value {
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
         }
       }
     }

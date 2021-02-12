@@ -207,6 +207,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:ReliableEvents"
+      AssetReference {
+        Id: 8403333844578818074
+      }
+    }
+    Overrides {
       Name: "cs:GAMEMODE_Networked"
       ObjectReference {
         SelfId: 10857687478960459655
@@ -369,6 +375,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:BackToLoadoutButton"
+      ObjectReference {
+        SelfId: 12090215191186638440
+      }
+    }
+    Overrides {
       Name: "cs:RollTextAnimationCompleteSFX"
       AssetReference {
         Id: 17591386188657923609
@@ -410,16 +422,20 @@ Objects {
   ParentId: 12247658189946244701
   UnregisteredParameters {
     Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
       Name: "cs:EndRoundUIManager"
       ObjectReference {
         SelfId: 12247658189946244701
       }
     }
     Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
+      Name: "cs:LoadoutLink"
+      String: "4fe685/strike-team-loadout-dev"
     }
     Overrides {
       Name: "cs:WinningTeam"

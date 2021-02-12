@@ -12,6 +12,8 @@ local endRoundManagerRoot = script:GetCustomProperty("EndRoundUIManager"):WaitFo
 
 local victoryEvent = endRoundManagerRoot:GetCustomProperty("UpdateWinnersEvent")
 
+local loadoutLink = script:GetCustomProperty("LoadoutLink")
+
 local startTime = os.time()
 
 function ResetWinningTeam()
@@ -73,6 +75,20 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     end
 end
 
+function ReturnToLoadout(player)
+
+	while Object.IsValid(player) do
+	
+		player:TransferToGame(loadoutLink)
+		
+		Task.Wait()
+		
+	end
+
+end
+
 Events.Connect("GameStateChanged", OnGameStateChanged)
 
 Events.Connect(victoryEvent, SetWinningTeam)
+
+Events.ConnectForPlayer("LEAVETOLOADOUT", ReturnToLoadout)
