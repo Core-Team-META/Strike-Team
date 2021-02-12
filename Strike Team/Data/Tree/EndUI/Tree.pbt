@@ -10846,7 +10846,7 @@ Objects {
       }
     }
     Text {
-      Label: "In Team Death Match Mode two teams with each eight players fight against each other. Score points are giver per successful kill. There is no timer. The team which reaches first XX kills wins the match."
+      Label: "Strike Point Mode is King of the Hill with a twist.  Once a point is captured, another point, somewhere on the map, will be enabled.  The first team to capture 5 points wins!"
       Color {
         R: 1
         G: 1
