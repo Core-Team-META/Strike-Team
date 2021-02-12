@@ -1,6 +1,172 @@
 Name: "SAR_LevelArt"
 RootId: 16373807130785117515
 Objects {
+  Id: 9700289220418926485
+  Name: "SAR_Girder"
+  Transform {
+    Location {
+      X: 6589.11963
+      Y: 9096.47949
+      Z: 661.991882
+    }
+    Rotation {
+      Pitch: 4.18592882
+      Yaw: 103.368111
+      Roll: 0.404300153
+    }
+    Scale {
+      X: 0.941464782
+      Y: 0.941464782
+      Z: 0.941464782
+    }
+  }
+  ParentId: 16373807130785117515
+  ChildIds: 15954831974678793865
+  ChildIds: 781169927363041175
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5141312163178692556
+    SubobjectId: 10938145141829396440
+    InstanceId: 17135871216101721377
+    TemplateId: 4795006726164404533
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 781169927363041175
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 41.3076
+      Y: -58.0518875
+      Z: 0.000119973469
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.931951761
+      Y: 0.999999881
+      Z: 0.999989629
+    }
+  }
+  ParentId: 9700289220418926485
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16545314619350390190
+    SubobjectId: 3821663676666727866
+    InstanceId: 17135871216101721377
+    TemplateId: 4795006726164404533
+  }
+}
+Objects {
+  Id: 15954831974678793865
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -295.794281
+      Y: -58.8747063
+      Z: -3.69733534e-05
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 0.864961
+      Y: 0.99999994
+      Z: 0.999990582
+    }
+  }
+  ParentId: 9700289220418926485
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14354720835997544117
+    SubobjectId: 1703402628316591777
+    InstanceId: 17135871216101721377
+    TemplateId: 4795006726164404533
+  }
+}
+Objects {
   Id: 3996839484865287309
   Name: "Plane 1m - One Sided"
   Transform {
@@ -1395,17 +1561,18 @@ Objects {
   }
 }
 Objects {
-  Id: 7867953175955845390
+  Id: 11169795558725694313
   Name: "SAR_Girder_Longer"
   Transform {
     Location {
-      X: 5959.8833
-      Y: 5038.80029
-      Z: 706.636658
+      X: 6153.12061
+      Y: 5051.52295
+      Z: 646.651733
     }
     Rotation {
-      Pitch: 2.19880843
-      Yaw: -84.9999924
+      Pitch: 1.28199911
+      Yaw: -85
+      Roll: -0.0801086426
     }
     Scale {
       X: 1
@@ -1414,34 +1581,148 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12196351349899929299
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder_Longer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6151.85449
-            Y: 5038.80029
-            Z: 706.636658
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 2.19880843
-            Yaw: -85
-          }
-        }
+  ChildIds: 7878766988314187826
+  ChildIds: 16541245972881188040
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11169795558725694313
+    SubobjectId: 12196351349899929299
+    InstanceId: 7867953175955845390
+    TemplateId: 1183147781618092287
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16541245972881188040
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 91.9238815
+      Y: -59.1766891
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1.2
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11169795558725694313
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    TemplateAsset {
-      Id: 1183147781618092287
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16541245972881188040
+    SubobjectId: 15550787250550813042
+    InstanceId: 7867953175955845390
+    TemplateId: 1183147781618092287
+  }
+}
+Objects {
+  Id: 7878766988314187826
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -432.648895
+      Y: -58.9667053
+      Z: -3.48091125e-05
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 1.32022321
+      Y: 1.00000072
+      Z: 0.999998271
+    }
+  }
+  ParentId: 11169795558725694313
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7878766988314187826
+    SubobjectId: 6851718701834177928
+    InstanceId: 7867953175955845390
+    TemplateId: 1183147781618092287
   }
 }
 Objects {
@@ -1920,18 +2201,18 @@ Objects {
   }
 }
 Objects {
-  Id: 17135871216101721377
+  Id: 5141312163178692556
   Name: "SAR_Girder"
   Transform {
     Location {
-      X: 6810
-      Y: 9075
-      Z: 695
+      X: 6427.55859
+      Y: 9077.61426
+      Z: 662.239502
     }
     Rotation {
-      Pitch: -0.981716692
-      Yaw: 64.9959641
-      Roll: 0.457828939
+      Pitch: 4.18592882
+      Yaw: 103.368073
+      Roll: 0.404300362
     }
     Scale {
       X: 0.941464782
@@ -1940,85 +2221,149 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1703402628316591777
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -295.794281
-            Y: -58.8747063
-            Z: -3.69733534e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.864961
-            Y: 0.99999994
-            Z: 0.999990582
-          }
-        }
+  ChildIds: 14354720835997544117
+  ChildIds: 16545314619350390190
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5141312163178692556
+    SubobjectId: 10938145141829396440
+    InstanceId: 17135871216101721377
+    TemplateId: 4795006726164404533
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16545314619350390190
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 41.3076
+      Y: -58.0518875
+      Z: 0.000119973469
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.931951761
+      Y: 0.999999881
+      Z: 0.999989629
+    }
+  }
+  ParentId: 5141312163178692556
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    ParameterOverrideMap {
-      key: 3821663676666727866
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 41.3076
-            Y: -58.0518875
-            Z: 0.000119973469
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.03201318
-            Y: 1.00000012
-            Z: 0.999992788
-          }
-        }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
       }
     }
-    ParameterOverrideMap {
-      key: 10938145141829396440
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6425.2666
-            Y: 9085.68945
-            Z: 694.551086
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -0.98172
-            Yaw: 104.076126
-            Roll: 0.457825541
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.941464782
-            Y: 0.941464782
-            Z: 0.941464782
-          }
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
       }
     }
-    TemplateAsset {
-      Id: 4795006726164404533
+  }
+  InstanceHistory {
+    SelfId: 16545314619350390190
+    SubobjectId: 3821663676666727866
+    InstanceId: 17135871216101721377
+    TemplateId: 4795006726164404533
+  }
+}
+Objects {
+  Id: 14354720835997544117
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -295.794281
+      Y: -58.8747063
+      Z: -3.69733534e-05
     }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 0.864961
+      Y: 0.99999994
+      Z: 0.999990582
+    }
+  }
+  ParentId: 5141312163178692556
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14354720835997544117
+    SubobjectId: 1703402628316591777
+    InstanceId: 17135871216101721377
+    TemplateId: 4795006726164404533
   }
 }
 Objects {
@@ -6666,18 +7011,18 @@ Objects {
   }
 }
 Objects {
-  Id: 3244924162150610728
+  Id: 16236483565241266054
   Name: "SAR_Girder_Longer"
   Transform {
     Location {
-      X: 3515.54834
-      Y: 10434.1895
-      Z: 1382.20703
+      X: 3351.72974
+      Y: 10465.2598
+      Z: 1354.59277
     }
     Rotation {
-      Pitch: 9.78751
-      Yaw: -102.363045
-      Roll: 4.33191929e-07
+      Pitch: 8.18275738
+      Yaw: -100.877838
+      Roll: -0.127502441
     }
     Scale {
       X: 1
@@ -6686,43 +7031,148 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12196351349899929299
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder_Longer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3351.72974
-            Y: 10465.2598
-            Z: 1354.59277
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 8.18275738
-            Yaw: -100.877838
-            Roll: -0.127502441
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  ChildIds: 1659443367399015645
+  ChildIds: 11519866675881670695
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16236483565241266054
+    SubobjectId: 12196351349899929299
+    InstanceId: 3244924162150610728
+    TemplateId: 1183147781618092287
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11519866675881670695
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 91.9238815
+      Y: -59.1766891
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1.2
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16236483565241266054
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    TemplateAsset {
-      Id: 1183147781618092287
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11519866675881670695
+    SubobjectId: 15550787250550813042
+    InstanceId: 3244924162150610728
+    TemplateId: 1183147781618092287
+  }
+}
+Objects {
+  Id: 1659443367399015645
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -360.56012
+      Y: -58.9667969
+      Z: -0.426279068
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 1.32022321
+      Y: 1.00000072
+      Z: 0.999998271
+    }
+  }
+  ParentId: 16236483565241266054
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1659443367399015645
+    SubobjectId: 6851718701834177928
+    InstanceId: 3244924162150610728
+    TemplateId: 1183147781618092287
   }
 }
 Objects {
@@ -26092,8 +26542,9 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: 91.9239
-      Y: -59.1767654
+      X: 57.7232
+      Y: -59.1763573
+      Z: -1.01923943e-05
     }
     Rotation {
       Roll: 89.9999771
@@ -33478,54 +33929,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12369898991941716062
-  Name: "SAR_ChairFolding"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2082747040726771702
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_ChairFolding"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3900
-            Y: 11650
-            Z: 1276.63306
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.0767777115
-            Y: 0.0767777115
-            Z: 0.0767777115
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2841223921292143395
-    }
-  }
-}
-Objects {
   Id: 2814223068315514921
   Name: "SAR_Girder"
   Transform {
@@ -33574,9 +33977,19 @@ Objects {
   }
 }
 Objects {
-  Id: 10089408698315379992
+  Id: 17983209726319583506
   Name: "SAR_Girder_Longer"
   Transform {
+    Location {
+      X: 3486.24243
+      Y: 10438.9941
+      Z: 1371.98804
+    }
+    Rotation {
+      Pitch: 12.0471897
+      Yaw: -102.459198
+      Roll: -0.506439209
+    }
     Scale {
       X: 1
       Y: 1
@@ -33584,43 +33997,148 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12196351349899929299
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder_Longer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3486.24243
-            Y: 10438.9941
-            Z: 1371.98804
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 12.0471897
-            Yaw: -102.459198
-            Roll: -0.506439209
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  ChildIds: 1136354905074616905
+  ChildIds: 9735774710536730291
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17983209726319583506
+    SubobjectId: 12196351349899929299
+    InstanceId: 10089408698315379992
+    TemplateId: 1183147781618092287
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 9735774710536730291
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 91.9238815
+      Y: -59.1766891
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1.2
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17983209726319583506
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    TemplateAsset {
-      Id: 1183147781618092287
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9735774710536730291
+    SubobjectId: 15550787250550813042
+    InstanceId: 10089408698315379992
+    TemplateId: 1183147781618092287
+  }
+}
+Objects {
+  Id: 1136354905074616905
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -388.007233
+      Y: -58.9668884
+      Z: 0.973880768
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 1.32022321
+      Y: 1.00000072
+      Z: 0.999998271
+    }
+  }
+  ParentId: 17983209726319583506
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1136354905074616905
+    SubobjectId: 6851718701834177928
+    InstanceId: 10089408698315379992
+    TemplateId: 1183147781618092287
   }
 }
 Objects {
@@ -34842,9 +35360,19 @@ Objects {
   }
 }
 Objects {
-  Id: 3738523000516868083
+  Id: 1270981561135005956
   Name: "SAR_Girder"
   Transform {
+    Location {
+      X: 5203.22314
+      Y: 10719.0039
+      Z: 661.2948
+    }
+    Rotation {
+      Pitch: 5.29361486
+      Yaw: -45.4767456
+      Roll: 2.03712988
+    }
     Scale {
       X: 1
       Y: 1
@@ -34852,61 +35380,149 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1703402628316591777
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -241.254852
-            Y: -57.2385521
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 1
-            Z: 1
-          }
-        }
+  ChildIds: 10505987919052214397
+  ChildIds: 12927073856624667494
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1270981561135005956
+    SubobjectId: 10938145141829396440
+    InstanceId: 3738523000516868083
+    TemplateId: 4795006726164404533
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 12927073856624667494
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -21.1543159
+      Y: -58.0518379
+      Z: 0.0793082714
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.800679684
+      Y: 1.00000024
+      Z: 0.999997437
+    }
+  }
+  ParentId: 1270981561135005956
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    ParameterOverrideMap {
-      key: 10938145141829396440
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5090
-            Y: 10705
-            Z: 705
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -32.6565437
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
       }
     }
-    TemplateAsset {
-      Id: 4795006726164404533
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
     }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12927073856624667494
+    SubobjectId: 3821663676666727866
+    InstanceId: 3738523000516868083
+    TemplateId: 4795006726164404533
+  }
+}
+Objects {
+  Id: 10505987919052214397
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -168.384521
+      Y: -57.2379
+      Z: 3.43322754e-05
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 0.75
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1270981561135005956
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10505987919052214397
+    SubobjectId: 1703402628316591777
+    InstanceId: 3738523000516868083
+    TemplateId: 4795006726164404533
   }
 }
 Objects {
@@ -38415,7 +39031,6 @@ Objects {
   ChildIds: 1078125247763017079
   ChildIds: 14514211202184125545
   ChildIds: 17886799659755451526
-  ChildIds: 9364585696896364373
   ChildIds: 17751785581782473262
   ChildIds: 17999815744126777727
   ChildIds: 14562676613236347118
@@ -38429,10 +39044,7 @@ Objects {
   ChildIds: 5538843004783888682
   ChildIds: 14030900246697996376
   ChildIds: 11424306665800538148
-  ChildIds: 16457663821841920343
   ChildIds: 1278784125947412669
-  ChildIds: 8432725912179569448
-  ChildIds: 70890524051351357
   ChildIds: 5421033512339587154
   ChildIds: 3501176189184208082
   ChildIds: 1902280406544845417
@@ -40700,7 +41312,6 @@ Objects {
   ChildIds: 90782022694674897
   ChildIds: 3491313488055449758
   ChildIds: 1097413289966460483
-  ChildIds: 2492472068573326830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -40709,62 +41320,6 @@ Objects {
   }
   Folder {
     Model {
-    }
-  }
-}
-Objects {
-  Id: 2492472068573326830
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 2328.73828
-      Y: 9040.07324
-      Z: 144.999603
-    }
-    Rotation {
-      Yaw: -19.7303467
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 1902280406544845417
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -90.293457
-            Y: -5288.96484
-            Z: 3.05175781e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -19.7303467
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
     }
   }
 }
@@ -41048,118 +41603,6 @@ Objects {
   }
 }
 Objects {
-  Id: 70890524051351357
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3677.9104
-      Y: 7025.729
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -17.237133
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 10073522544166000002
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3477.979
-            Y: 1101.05127
-            Z: 275.765747
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.237154
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 8432725912179569448
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3671.11279
-      Y: 6886.70654
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 10073522544166000002
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2210.50928
-            Y: 1374.09619
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -4.32037783
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
   Id: 1278784125947412669
   Name: "SAR_HescoBarrier"
   Transform {
@@ -41191,62 +41634,6 @@ Objects {
           Vector {
             X: 2217.30688
             Y: 1513.11865
-            Z: 144.999573
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.237154
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 16457663821841920343
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 3671.11279
-      Y: 6886.70654
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -4.32037497
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 10073522544166000002
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3471.82983
-            Y: 1206.13086
             Z: 144.999573
           }
         }
@@ -41781,8 +42168,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -842.876709
-            Y: -3318.23853
+            X: -838.734924
+            Y: -3333.42383
             Z: 609.999939
           }
         }
@@ -42245,62 +42632,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.649433315
-            Y: 0.649433315
-            Z: 0.649433315
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13220638757548590314
-    }
-  }
-}
-Objects {
-  Id: 9364585696896364373
-  Name: "SAR_HescoBarrier"
-  Transform {
-    Location {
-      X: 1926.75903
-      Y: 6767.39844
-      Z: 144.999573
-    }
-    Rotation {
-      Yaw: -9.05430126
-    }
-    Scale {
-      X: 0.649433315
-      Y: 0.649433315
-      Z: 0.649433315
-    }
-  }
-  ParentId: 10073522544166000002
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13396233290311227742
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_HescoBarrier"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1392.77
-            Y: -646.533203
-            Z: 144.999542
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 82.9312744
           }
         }
         Overrides {
@@ -44661,9 +44992,19 @@ Objects {
   }
 }
 Objects {
-  Id: 17773599158749180708
+  Id: 9524857901585048727
   Name: "SAR_Girder_Longer"
   Transform {
+    Location {
+      X: 5961.14941
+      Y: 5051.52295
+      Z: 646.651733
+    }
+    Rotation {
+      Pitch: 1.28199911
+      Yaw: -85
+      Roll: -0.0801086426
+    }
     Scale {
       X: 1
       Y: 1
@@ -44671,63 +45012,148 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6851718701834177928
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -432.648895
-            Y: -58.9667053
-            Z: -3.48091125e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.32022321
-            Y: 1.00000072
-            Z: 0.999998271
-          }
-        }
+  ChildIds: 8249190439065915340
+  ChildIds: 18060082909056447286
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9524857901585048727
+    SubobjectId: 12196351349899929299
+    InstanceId: 17773599158749180708
+    TemplateId: 1183147781618092287
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 18060082909056447286
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 91.9238815
+      Y: -59.1766891
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1.2
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524857901585048727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    ParameterOverrideMap {
-      key: 12196351349899929299
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder_Longer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5959.8833
-            Y: 5038.80029
-            Z: 706.636658
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 2.19880843
-            Yaw: -85
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
       }
     }
-    TemplateAsset {
-      Id: 1183147781618092287
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
     }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 18060082909056447286
+    SubobjectId: 15550787250550813042
+    InstanceId: 17773599158749180708
+    TemplateId: 1183147781618092287
+  }
+}
+Objects {
+  Id: 8249190439065915340
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -432.648895
+      Y: -58.9667053
+      Z: -3.48091125e-05
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 1.32022321
+      Y: 1.00000072
+      Z: 0.999998271
+    }
+  }
+  ParentId: 9524857901585048727
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8249190439065915340
+    SubobjectId: 6851718701834177928
+    InstanceId: 17773599158749180708
+    TemplateId: 1183147781618092287
   }
 }
 Objects {
@@ -44942,14 +45368,14 @@ Objects {
   Name: "Corrugated Sheet Small"
   Transform {
     Location {
-      X: 6236.49
-      Y: 6423.24
-      Z: 656.191956
+      X: 6260
+      Y: 6400
+      Z: 655
     }
     Rotation {
       Pitch: -71.4884338
-      Yaw: -49.3046608
-      Roll: -86.0058136
+      Yaw: -49.304657
+      Roll: -86.0058
     }
     Scale {
       X: 1.5
@@ -44981,18 +45407,18 @@ Objects {
   }
 }
 Objects {
-  Id: 16806076851750396581
+  Id: 2860766150489065986
   Name: "SAR_Girder"
   Transform {
     Location {
-      X: 6810
-      Y: 9075
-      Z: 695
+      X: 6433.95947
+      Y: 6936.0376
+      Z: 643.401
     }
     Rotation {
-      Pitch: -0.981716692
-      Yaw: 64.9959412
-      Roll: 0.457829148
+      Pitch: -0.771270752
+      Yaw: 128.888123
+      Roll: -0.829711914
     }
     Scale {
       X: 0.941464782
@@ -45001,43 +45427,149 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10938145141829396440
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6309.6665
-            Y: 6960.11475
-            Z: 696.247925
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 2.15418
-            Yaw: 139.966965
-            Roll: -0.830230772
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.941464782
-            Y: 0.941464782
-            Z: 0.941464782
-          }
-        }
+  ChildIds: 12095772564576394107
+  ChildIds: 9616914153243467872
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2860766150489065986
+    SubobjectId: 10938145141829396440
+    InstanceId: 16806076851750396581
+    TemplateId: 4795006726164404533
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 9616914153243467872
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: 41.3077583
+      Y: -58.0518646
+      Z: 9.08374786e-05
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.800679684
+      Y: 1.00000024
+      Z: 0.999997437
+    }
+  }
+  ParentId: 2860766150489065986
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
       }
     }
-    TemplateAsset {
-      Id: 4795006726164404533
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9616914153243467872
+    SubobjectId: 3821663676666727866
+    InstanceId: 16806076851750396581
+    TemplateId: 4795006726164404533
+  }
+}
+Objects {
+  Id: 12095772564576394107
+  Name: "Girder Medium 4m"
+  Transform {
+    Location {
+      X: -190.494873
+      Y: -58.8757286
+      Z: -0.175294474
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 0.800679684
+      Y: 1.00000024
+      Z: 0.999997437
+    }
+  }
+  ParentId: 2860766150489065986
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.1803931
+        G: 0.223958
+        B: 0.16438517
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14056018732352046755
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12095772564576394107
+    SubobjectId: 1703402628316591777
+    InstanceId: 16806076851750396581
+    TemplateId: 4795006726164404533
   }
 }
 Objects {
@@ -46184,98 +46716,6 @@ Objects {
     }
     TemplateAsset {
       Id: 1183147781618092287
-    }
-  }
-}
-Objects {
-  Id: 2488267972893801409
-  Name: "SAR_Girder"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1703402628316591777
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -301.054626
-            Y: -58.8750153
-            Z: -5.53334103e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.866184175
-            Y: 0.99999994
-            Z: 0.999995112
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3821663676666727866
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 41.3081169
-            Y: -58.0517159
-            Z: 0.000126494459
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.05791211
-            Y: 1.00000107
-            Z: 0.999988
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10938145141829396440
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Girder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6810
-            Y: 9075
-            Z: 695
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -0.981716692
-            Yaw: 64.9959564
-            Roll: 0.457829058
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.941464782
-            Y: 0.941464782
-            Z: 0.941464782
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4795006726164404533
     }
   }
 }
@@ -79207,54 +79647,6 @@ Objects {
   }
 }
 Objects {
-  Id: 854034054887202891
-  Name: "SAR_ChairFolding"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2082747040726771702
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_ChairFolding"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3194.22583
-            Y: 10884.5342
-            Z: 658.900574
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 94.1075821
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.0767777115
-            Y: 0.0767777115
-            Z: 0.0767777115
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2841223921292143395
-    }
-  }
-}
-Objects {
   Id: 12062948586480636900
   Name: "SAR_OldTrashCan"
   Transform {
@@ -80106,8 +80498,8 @@ Objects {
   Name: "Potted Plant 1"
   Transform {
     Location {
-      X: -4275
-      Y: 1250
+      X: -4187.5
+      Y: 1275
     }
     Rotation {
     }
@@ -84438,9 +84830,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -330
-            Y: 2580
-            Z: 610
+            X: 431.958099
+            Y: 3228.5249
+            Z: 598.615112
           }
         }
         Overrides {
@@ -105445,8 +105837,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 299.509277
-      Y: 159.82959
+      X: 326.033203
+      Y: 125.101074
       Z: 137.36615
     }
     Rotation {
@@ -105486,8 +105878,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 289.862305
-      Y: 149.452148
+      X: 316.38623
+      Y: 114.723633
       Z: -7.63385
     }
     Rotation {
@@ -105527,8 +105919,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 412.331055
-      Y: 243.977539
+      X: 438.85498
+      Y: 209.249023
       Z: -9.49243164
     }
     Rotation {

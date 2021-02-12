@@ -232,9 +232,9 @@ Objects {
   Light {
     Intensity: 5.08633
     Color {
-      R: 0.18
+      R: 0.497999966
       G: 1
-      B: 0.93483448
+      B: 0.960105956
       A: 1
     }
     TeamSettings {
@@ -283,9 +283,9 @@ Objects {
   Light {
     Intensity: 5.08633
     Color {
-      R: 0.18
+      R: 0.497999966
       G: 1
-      B: 0.93483448
+      B: 0.960105956
       A: 1
     }
     TeamSettings {
@@ -589,9 +589,9 @@ Objects {
   Light {
     Intensity: 48.1738167
     Color {
-      R: 0.18
+      R: 0.497999966
       G: 1
-      B: 0.93483448
+      B: 0.960105956
       A: 1
     }
     TeamSettings {
