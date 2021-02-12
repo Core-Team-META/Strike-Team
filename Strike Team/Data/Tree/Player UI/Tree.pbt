@@ -6470,7 +6470,6 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
-      ClipTextToSize: true
     }
     AnchorLayout {
       SelfAnchor {

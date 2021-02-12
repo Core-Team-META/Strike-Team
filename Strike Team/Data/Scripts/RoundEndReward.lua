@@ -1,24 +1,26 @@
 while not _G["StatKey"] do Task.Wait() end
+while not _G["REWARDDATABASE"] do Task.Wait() end
+
 RoundEndHandler = {}
 RoundEndHandler.__index = RoundEndHandler
 
---Editable values
-local KillValue = script:GetCustomProperty("KillValue")
-local HeadshotValue = script:GetCustomProperty("HeadshotValue")
-local WinValue = script:GetCustomProperty("winValue")
-local LoseValue = script:GetCustomProperty("LoseValue")
+
 
 function RoundEndHandler.CalculateCash(player,Win)
-    
     local FinishValue = 0
     if Win then
-        FinishValue = WinValue
+        FinishValue = _G["REWARDDATABASE"].ReturnWin("Cash")
     else
-        FinishValue = LoseValue
+        FinishValue = _G["REWARDDATABASE"].ReturnLoss("Cash")
     end
 
-    local val = player.kills * KillValue + player:GetResource("Headshots") * HeadshotValue + FinishValue
+    local val = 0
+    for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("Cash")) do
+        val = val +  v*player:GetResource(k)
+    end
+    val = val + FinishValue
     RoundEndHandler.AddCash(player,val)
+
 end
 
 function RoundEndHandler.CalculateGold(player,Win)
@@ -34,9 +36,9 @@ function RoundEndHandler.CalculateXP(player,Win)
     
     local FinishValue = 0
     if Win then
-        FinishValue = 500
+        FinishValue = _G["REWARDDATABASE"].ReturnWin("XP")
     else
-        FinishValue = 300
+        FinishValue = _G["REWARDDATABASE"].ReturnLoss("XP")
     end
     player.serverUserData.XP:AddXP(FinishValue)
 
@@ -48,7 +50,9 @@ function RoundEndHandler.AddCash(player,amount)
 end
 
 function RoundEndHandler.AddGold(player,amount)
-    player:SetResource("Gold", math.min(player:GetResource("Gold") + amount) )
+    local Gold = player:GetResource("Gold")
+    player:SetResource("OldGold", Gold)
+    player:SetResource("Gold", math.min(Gold + amount, 10) )
     RoundEndHandler.Save(player)
 end
 
@@ -57,6 +61,7 @@ function RoundEndHandler.Load(player)
     local Cash = data["Cash"] or 0
     local Gold = data["Gold"] or 0
     player:SetResource("Cash", Cash)
+    player:SetResource("OldGold", Gold)
     player:SetResource("Gold", Gold)
 end
 
@@ -69,13 +74,21 @@ end
 
 function RoundEndHandler.GameEnd()
     for _,player in pairs(Game.GetPlayers()) do
-        local Win = _G["GameWinner"] == player.team
-        RoundEndHandler.CalculateCash(player,Win)
-        RoundEndHandler.CalculateGold(player,Win)
-        RoundEndHandler.CalculateXP(player,Win)
+        Task.Spawn(function() 
+            local Win = _G["GameWinner"] == player.team
+            RoundEndHandler.CalculateCash(player,Win)
+            RoundEndHandler.CalculateGold(player,Win)
+            RoundEndHandler.CalculateXP(player,Win)
+        end)
     end
 end
 
-
-Game.roundEndEvent:Connect(function() RoundEndHandler.GameEnd() end)
 Game.playerJoinedEvent:Connect(RoundEndHandler.Load)
+Game.playerLeftEvent:Connect(RoundEndHandler.Save)
+
+function OnGameStateChanged(oldState, newState, hasDuration, time)
+    if newState ==  _G["ABGS"].GAME_STATE_ROUND_END and oldState ~=  _G["ABGS"].GAME_STATE_ROUND_END then
+        RoundEndHandler.GameEnd()
+    end
+end
+Events.Connect("GameStateChanged", OnGameStateChanged)

@@ -381,6 +381,18 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:GoldPercentBar"
+      ObjectReference {
+        SelfId: 16241322896229351781
+      }
+    }
+    Overrides {
+      Name: "cs:GoldAmount"
+      ObjectReference {
+        SelfId: 6945776434090773254
+      }
+    }
+    Overrides {
       Name: "cs:RollTextAnimationCompleteSFX"
       AssetReference {
         Id: 17591386188657923609
@@ -390,6 +402,24 @@ Objects {
       Name: "cs:RollTextTickSFX"
       AssetReference {
         Id: 3523787590995695701
+      }
+    }
+    Overrides {
+      Name: "cs:BIG_GOLD"
+      ObjectReference {
+        SelfId: 7536294302991508861
+      }
+    }
+    Overrides {
+      Name: "cs:SMALL_GOLD"
+      ObjectReference {
+        SelfId: 5133510970861765984
+      }
+    }
+    Overrides {
+      Name: "cs:Gold_SFX"
+      AssetReference {
+        Id: 1724109739056415583
       }
     }
   }

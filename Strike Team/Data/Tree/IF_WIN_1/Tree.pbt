@@ -502,8 +502,8 @@ Objects {
   }
 }
 Objects {
-  Id: 2732078864026796860
-  Name: "GOLD_BG_ACTIVE"
+  Id: 1757377703987877446
+  Name: "GOLD_BG"
   Transform {
     Location {
     }
@@ -523,9 +523,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 50
-    Height: 50
-    UIY: 5.49587774
+    Width: 120
+    Height: 120
+    UIX: 60
+    UIY: 80
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -539,7 +540,7 @@ Objects {
         R: 1
         G: 1
         B: 1
-        A: 1
+        A: 0.07
       }
       TeamSettings {
       }
@@ -547,19 +548,19 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 14621291978726723821
-    SubobjectId: 11481524603668264622
+    SelfId: 2659979482869062931
+    SubobjectId: 8166705503728532304
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }

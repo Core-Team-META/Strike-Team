@@ -142,7 +142,6 @@ function LoadHolder(selectedHolderEntry, weaponToLoad)
 	weaponToLoad.parent = selectedHolderEntry.weaponPosition
 	
 	weaponToLoad:SetPosition(Vector3.New(0, 0, -15))
-	weaponToLoad:SetRotation(Rotation.New(180, 90, 0))
 	
 
 end
@@ -174,20 +173,23 @@ function AnimateSelection(selectedHolderEntry, player,Main)
 	--selectedHolderEntry.weaponPosition:MoveTo(selectedHolderEntry.weaponPosition:GetPosition() + Vector3.UP * -70 + Vector3.FORWARD * 15, 1, true)
 	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(100, 0, 0), 1, true)
 	ChuggSFX:Play()
-
-	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, 0, 0), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
-	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(0, 60, 90), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+	--Main["object"]:RotateTo(Rotation.ZERO, 1, false)
+	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, -20, 0), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(0,0,0), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+	Ease3D.EaseRotation(Main["object"], Main["item"].data.Rotation_Offset + Rotation.New(0,0,90), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Task.Wait(1)
-	WEAPON_TEXT.visibility = Visibility.FORCE_ON
-	local slot =  Main:GetSlot()
+	WEAPON_TEXT.visibility = Visibility.FORCE_ON	
+	local slot =  Main["item"]:GetSlot()
 	if slot == "Perks" then slot = "Passive" end
 	if slot ~= "Special" then 
-		WEAPON_TEXT.text = string.format("You unlocked a new %s \n %s ",slot ,Main:GetName() ) 
+		WEAPON_TEXT.text = string.format("You unlocked a new %s \n %s ",slot , Main["item"]:GetName() ) 
 	else 
-		WEAPON_TEXT.text = string.format("You have gained %s", Main:GetName() ) 
+		WEAPON_TEXT.text = string.format("You have gained %s",  Main["item"]:GetName() ) 
 	end
 	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(60, 0, 0), 1, true)
 	
+
+
 	Task.Wait(7)
 	
 	-- reset
@@ -343,14 +345,20 @@ end
 function Roll(MainWeapon, others)
 	for _,v in pairs(others) do
 		local weapon = v:ForceSpawnEquipment()
-		weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0,90,0))
+		if v:GetSlot() == ("Primary" or "Secondary" or "Melee") then
+			weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0,90,0) )
+		else
+			--weapon:SetRotation(Rotation.New(0,90,0) )
+		end
 		weapon.parent = OtherWeapons
 	end
 	
 	local Main  = MainWeapon:ForceSpawnEquipment()
 	Main.parent = SelectedWeapon
-	Main:SetRotation(MainWeapon.data.Rotation_Offset + Rotation.New(0,90,0))
-	RollAnimation(Game.GetLocalPlayer(),MainWeapon)
+	if MainWeapon:GetSlot() == ("Primary" or "Secondary" or "Melee") then
+		Main:SetRotation(MainWeapon.data.Rotation_Offset + Rotation.New(0,90,0)  )
+	end
+	RollAnimation(Game.GetLocalPlayer(),{["item"] = MainWeapon, ["object"] = Main })
 
 end
 

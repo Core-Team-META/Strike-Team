@@ -1,7 +1,7 @@
 Name: "Knar"
 RootId: 4565846863626438544
 Objects {
-  Id: 9183328534448830179
+  Id: 487557207452801777
   Name: "Player Movement"
   Transform {
     Scale {
@@ -27,6 +27,14 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }

@@ -41,20 +41,23 @@ function SpawnObject(str)
 		   pixelPosY = ui.y + screen.y - 25 + Offset.y,
 		   faceCamera = false
    })
-   Task.Spawn(function() 
+   --[[
+
+	   Task.Spawn(function() 
 		while Object.IsValid(object) do
 			local screen = UI.GetScreenSize()
 			screenobj:UpdatePosition( 
-			{
-				pixelPosX = ui.x + screen.x - 70 + Offset.x,
-				pixelPosY = ui.y + screen.y - 25 + Offset.y,
-				faceCamera = false
-			})
-			Task.Wait(1)
-			if not Object.IsValid(object) then return end
-		end  
-	end)
-   Task.Wait()
+				{
+					pixelPosX = ui.x + screen.x - 70 + Offset.x,
+					pixelPosY = ui.y + screen.y - 25 + Offset.y,
+					faceCamera = false
+				})
+				Task.Wait(1)
+				if not Object.IsValid(object) then return end
+			end  
+		end)
+	]]
+		Task.Wait()
    object:SetRotation(Rotation.New(0,0,-90) + item.data.Rotation_Offset)
 end
 

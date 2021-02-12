@@ -3,7 +3,7 @@ Entries {
     StringVar: "Lootbox.LastOpen"
   }
   SimpleValue {
-    IntVar: 1612839702
+    IntVar: 1613038229
   }
 }
 Entries {
@@ -19,6 +19,6 @@ Entries {
     StringVar: "Lootbox.OpenTime"
   }
   SimpleValue {
-    IntVar: 1612926102
+    IntVar: 1613124629
   }
 }

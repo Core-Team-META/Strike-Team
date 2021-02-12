@@ -88,6 +88,7 @@ function ResetData(player)
     player:SetResource("KillStreak", 0)
     player:SetResource("Assists", 0)
     player:SetResource("Score", 0)
+    player:SetResource("Objective", 0)
     player.kills = 0
     player.deaths = 0
     player.serverUserData.Assists = {}

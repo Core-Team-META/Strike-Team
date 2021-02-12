@@ -41,7 +41,7 @@ function FireAbility()
                 return 
             end
             WEAPON.clientUserData.SHOOT_ABILITY:Activate()
-            Task.Wait(1/WEAPON.shotsPerSecond)
+            Task.Wait(1/WEAPON.shotsPerSecond )
         end
     else
         while true do 
@@ -50,7 +50,8 @@ function FireAbility()
                 return 
             end
             WEAPON.clientUserData.SHOOT_ABILITY:Activate()
-            Task.Wait(1/WEAPON.shotsPerSecond)
+            FrameDelay = 0
+            Task.Wait(1/WEAPON.shotsPerSecond - FrameDelay)
         end
     end
     ResetFire()

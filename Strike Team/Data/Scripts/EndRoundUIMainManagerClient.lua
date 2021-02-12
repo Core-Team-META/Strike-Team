@@ -1,4 +1,4 @@
-local GT_API
+	local GT_API
 repeat
 
     GT_API = _G.META_GAME_MODES
@@ -67,9 +67,14 @@ local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObj
 local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimationCompleteSFX")
 
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+local Gold_SFX = script:GetCustomProperty("Gold_SFX")
 
 local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
 
+local GoldPercentBar = script:GetCustomProperty("GoldPercentBar"):WaitForObject()
+local GoldAmount = script:GetCustomProperty("GoldAmount"):WaitForObject()
+local BIG_GOLD = script:GetCustomProperty("BIG_GOLD"):WaitForObject()
+local SMALL_GOLD = script:GetCustomProperty("SMALL_GOLD"):WaitForObject()
 
 local winValue = 100
 local lossValue = 50
@@ -412,7 +417,7 @@ end
 
 function AnimateLevel()
 	
-	roundXP = localPlayerXP:GetXP() - roundXP
+	roundXP = localPlayerXP:ReturnGainedXP()
 
 	CountThisTextUp(gainedXPText, roundXP, "+")
 	
@@ -497,9 +502,52 @@ function AnimateStats()
 
 end
 
+function AnimateGold()
+	local Gold = localPlayer:GetResource("OldGold")
+	GoldAmount.text = string.format( "%d/%d", Gold,10 )
+	GoldPercentBar.progress = Gold/10
+
+	EaseUI.EaseY(BIG_GOLD, 0, .8, EaseUI.EasingEquation.BOUNCE, EaseUI.EasingDirection.OUT)
+	Task.Wait(.3)
+	World.SpawnAsset(Gold_SFX)
+	Task.Wait(.1)
+	World.SpawnAsset(Gold_SFX)
+	Task.Wait(.1)
+	World.SpawnAsset(Gold_SFX)
+	Task.Wait(.1)
+	GoldAmount.text = string.format( "%d/%d", math.min(Gold+1,10 ) ,10 )
+	for i=1,10 do
+		GoldPercentBar.progress = math.min(Gold+(i/10) ,10 )/10
+		Task.Wait(.03)
+	end
+	Gold =  math.min(Gold+1,10 )
+	
+	Task.Wait(1)
+	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
+		
+		EaseUI.EaseY(SMALL_GOLD, 0, .5, EaseUI.EasingEquation.BOUNCE, EaseUI.EasingDirection.OUT)
+		Task.Wait(.2)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+		World.SpawnAsset(Gold_SFX)
+		GoldAmount.text = string.format( "%d/%d", math.min(Gold+2,10 ) ,10 )
+		for i=1,10 do
+			GoldPercentBar.progress = math.min(Gold+(i/5) ,10 )/10
+			Task.Wait(.03)
+		end
+		
+	end
+end
+
 function ShowEndRoundResults()
 
 	mainWindow.y = -2000
+
+	local Gold = localPlayer:GetResource("OldGold")
+	GoldAmount.text = string.format( "%d/%d", Gold,10 )
+	GoldPercentBar.progress = Gold/10
 
 	returnToLoadout.y = returnToLoadout.y + 2000
 
@@ -528,7 +576,10 @@ function ShowEndRoundResults()
 	Task.Wait(0.5)
 	
 	AnimateStats()
-		
+	
+	Task.Wait(1)
+	
+	AnimateGold()
 
 end
 
@@ -553,6 +604,9 @@ function ResetEndRoundResults()
 	gainedXPText.text = ""
 	SetChildrenText(progressBarText, "")
 	progressBar.progress = 0
+	
+	BIG_GOLD.y = -200
+	SMALL_GOLD.y = -50
 	
 	for _, entry in pairs(scoreboardSectionEntries:GetChildren()) do
 	

@@ -37,6 +37,7 @@ Assets {
             Z: 15
           }
           Rotation {
+            Pitch: 90
           }
           Scale {
             X: 1

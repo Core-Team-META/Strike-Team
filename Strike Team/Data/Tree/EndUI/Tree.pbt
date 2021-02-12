@@ -39512,7 +39512,7 @@ Objects {
         B: 0.174647421
         A: 1
       }
-      Percent: 0.51212579
+      Percent: 0.638705313
     }
     AnchorLayout {
       SelfAnchor {
@@ -39756,7 +39756,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 780
@@ -40552,7 +40552,6 @@ Objects {
   }
   ParentId: 12707415864127215037
   ChildIds: 2101772677439026979
-  ChildIds: 1757377703987877446
   ChildIds: 7922221708062069470
   ChildIds: 5776353430628461766
   Collidable_v2 {
@@ -40572,7 +40571,6 @@ Objects {
       }
     }
     Panel {
-      IsClipping: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -40936,68 +40934,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1757377703987877446
-  Name: "GOLD_BG"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9023104537323275510
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 120
-    Height: 120
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 5161641800464711927
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.07
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 2659979482869062931
-    SubobjectId: 8166705503728532304
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
   Id: 2101772677439026979
   Name: "BG"
   Transform {
@@ -41095,7 +41031,6 @@ Objects {
       }
     }
     Panel {
-      IsClipping: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -42951,7 +42886,7 @@ Objects {
   ParentId: 14478107323623457889
   ChildIds: 6052246683856461168
   ChildIds: 11570991002172445291
-  ChildIds: 7536294302991508861
+  ChildIds: 17220097173519560503
   ChildIds: 8897428433970444642
   ChildIds: 16648860844947343586
   Collidable_v2 {
@@ -43803,6 +43738,58 @@ Objects {
   }
 }
 Objects {
+  Id: 17220097173519560503
+  Name: "GoldClip"
+  Transform {
+    Location {
+      X: 1330
+      Y: -410
+      Z: 380
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12542400084036889579
+  ChildIds: 7536294302991508861
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 111
+    Height: 104
+    UIX: 9.84544
+    UIY: 9.84473324
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+      IsClipping: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 7536294302991508861
   Name: "GOLD_BG_ACTIVE"
   Transform {
@@ -43816,7 +43803,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12542400084036889579
+  ParentId: 17220097173519560503
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -43826,7 +43813,7 @@ Objects {
   Control {
     Width: 100
     Height: 100
-    UIY: 20
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -43848,12 +43835,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
