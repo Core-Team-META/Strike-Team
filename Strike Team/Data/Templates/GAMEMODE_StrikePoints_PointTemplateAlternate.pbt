@@ -1505,18 +1505,6 @@ Assets {
               SubObjectId: 11091780885013643081
             }
           }
-          Overrides {
-            Name: "cs:SFX_PointContestEnemy_UI"
-            AssetReference {
-              Id: 8039200857054443909
-            }
-          }
-          Overrides {
-            Name: "cs:SFX_PointContestFriendly_UI"
-            AssetReference {
-              Id: 14858580400504032599
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
