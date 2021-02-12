@@ -29,7 +29,7 @@ Assets {
           RespawnSettings {
             RespawnDelay: 10
             RespawnMode_v2 {
-              Value: "mc:erespawnmode:farthestfromenemy"
+              Value: "mc:erespawnmode:random"
             }
           }
         }
