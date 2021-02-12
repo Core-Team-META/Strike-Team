@@ -58,6 +58,8 @@ local roundEndTimer = script:GetCustomProperty("RoundEndTimer"):WaitForObject()
 
 local returnToLoadout = script:GetCustomProperty("ReturnToLoadout"):WaitForObject()
 
+local mainWindow = script:GetCustomProperty("MainWindow"):WaitForObject()
+
 local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
 
 local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimationCompleteSFX")
@@ -102,7 +104,7 @@ end
 
 local defaultReturnButtonY = returnToLoadout.y
 
-function CountThisTextUp(givenText, targetNumber, extra)
+function CountThisTextUp(givenText, targetNumber, extra, allowTickSFX)
 
 	if targetNumber == 0 then
 	
@@ -113,26 +115,30 @@ function CountThisTextUp(givenText, targetNumber, extra)
 	end
 	
 	passComplete = false
-	passToTask = {givenText, targetNumber, extra}
+	passToTask = {givenText, targetNumber, extra, allowTickSFX}
 
 	local task = Task.Spawn(function()
 	
 		local givenText = passToTask[1]
 		local targetNumber = passToTask[2]
 		local extra = passToTask[3]
+		local allowTickSFX = passToTask[4]
 		
 		passComplete = true
 
-		for i = 1, targetNumber, math.ceil(targetNumber/10) do
+		for i = 1, targetNumber, math.ceil(targetNumber/5) do
 		
 			givenText.text = extra .. tostring(i)
 			
 			SetChildrenText(givenText, givenText.text)
 			
-			local tickSFX = World.SpawnAsset(rollTextTickSFX)
+			if allowTickSFX then
 			
-			tickSFX.lifeSpan = 1
-			
+				local tickSFX = World.SpawnAsset(rollTextTickSFX)
+				
+				tickSFX.lifeSpan = 1
+				
+			end			
 			Task.Wait(0.05)
 			
 		end
@@ -159,7 +165,7 @@ function CountThisTextUp(givenText, targetNumber, extra)
 
 end
 
-function CountThisFloat(givenText, targetFloat, extra)
+function CountThisFloat(givenText, targetFloat, extra, allowTickSFX)
 
 	if targetFloat == 0 then
 	
@@ -170,23 +176,32 @@ function CountThisFloat(givenText, targetFloat, extra)
 	end
 	
 	passComplete = false
-	passToTask = {givenText, targetFloat, extra}
+	passToTask = {givenText, targetFloat, extra, allowTickSFX}
 
 	local task = Task.Spawn(function()
 	
 		local givenText = passToTask[1]
 		local targetFloat = passToTask[2]
 		local extra = passToTask[3]
+		local allowTickSFX = passToTask[4]
 		
 		passComplete = true
 
-		for i = 1, math.floor(targetFloat), math.ceil(targetFloat/10) do
+		for i = 1, math.floor(targetFloat), math.ceil(targetFloat/5) do
 		
 			givenText.text = extra .. tostring(i)
 			
 			SetChildrenText(givenText, givenText.text)
 			
-			Task.Wait(0.01)
+			if allowTickSFX then
+			
+				local tickSFX = World.SpawnAsset(rollTextTickSFX)
+				
+				tickSFX.lifeSpan = 1
+				
+			end
+			
+			Task.Wait(0.05)
 			
 		end
 		
@@ -212,15 +227,16 @@ function CountThisFloat(givenText, targetFloat, extra)
 
 end
 
-function AnimateWordText(givenText, targetText)
+function AnimateWordText(givenText, targetText, allowTickSFX)
 
 	passComplete = false
-	passToTask = {givenText, targetText}
+	passToTask = {givenText, targetText, allowTickSFX}
 
 	local task = Task.Spawn(function()
 	
 	local givenText = passToTask[1]
 	local targetText = passToTask[2]
+	local allowTickSFX = passToTask[3]
 	
 	passComplete = true
 
@@ -230,15 +246,19 @@ function AnimateWordText(givenText, targetText)
 		
 		local targetLetter = targetText:sub(index, index)
 			
-		for i = 1, 10 do
+		for i = 1, 3 do
 			
 			SetChildrenText(givenText, displayText .. letters[math.random(1, #letters)])
 			
-			local tickSFX = World.SpawnAsset(rollTextTickSFX)
+			if allowTickSFX then
 			
-			tickSFX.lifeSpan = 1
+				local tickSFX = World.SpawnAsset(rollTextTickSFX)
+				
+				tickSFX.lifeSpan = 1
+				
+			end
 							
-			Task.Wait(0.01)	
+			Task.Wait(0.07)	
 				
 		end
 				
@@ -307,7 +327,7 @@ function AnimateScoreboard()
 		
 				if section.name == "NAME" then
 				
-					AnimateWordText(section, leaderboardResults[i].name)
+					AnimateWordText(section, leaderboardResults[i].name, true)
 					
 					section:GetChildren()[1]:SetColor(GetTeamColor(leaderboardResults[i]))
 				
@@ -350,7 +370,7 @@ function AnimateScoreboard()
 				
 				if stat then
 										
-					CountThisTextUp(section, stat, "")
+					CountThisTextUp(section, stat, "", false)
 										
 				elseif not section.name == "DIVIDER" then
 				
@@ -436,11 +456,11 @@ function AnimateLevel()
 		
 	SetChildrenText(progressBarText, "EXP: " .. tostring(currentInLevel) .. "/" .. tostring(totalLevelXP))
 	
-	--[[
+
 	local endSFX = World.SpawnAsset(rollTextAnimationCompleteSFX)
 		
 	endSFX.lifeSpan = 2
-	]]
+
 
 end
 
@@ -448,34 +468,36 @@ function AnimateStats()
 
 	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
 	
-		AnimateWordText(roundResultText, "WIN")
-		CountThisTextUp(valueRoundResultText, winValue, " ")
-		CountThisTextUp(cashRoundResultText, winValue, "+")
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + winValue, "+")
+		AnimateWordText(roundResultText, "WIN", true)
+		CountThisTextUp(valueRoundResultText, winValue, " ", false)
+		CountThisTextUp(cashRoundResultText, winValue, "+", false)
+		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + winValue, "+", false)
 		
 	else 
 	
-		AnimateWordText(roundResultText, "LOSS")
-		CountThisTextUp(valueRoundResultText, lossValue, " ")
-		CountThisTextUp(cashRoundResultText, lossValue, "+")
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + lossValue, "+")
+		AnimateWordText(roundResultText, "LOSS", true)
+		CountThisTextUp(valueRoundResultText, lossValue, " ", false)
+		CountThisTextUp(cashRoundResultText, lossValue, "+", false)
+		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + lossValue, "+", false)
 		
 	end
 	
-	CountThisTextUp(killsText, localPlayer.kills, " ")
-	CountThisTextUp(headshotsText, localPlayer:GetResource("Headshots"), " ")
+	CountThisTextUp(killsText, localPlayer.kills, " ", false)
+	CountThisTextUp(headshotsText, localPlayer:GetResource("Headshots"), " ", false)
 	
-	CountThisTextUp(valueKillsText, killsValue, " ")
-	CountThisTextUp(valueHeadshotsText, headShotValue, " ")
+	CountThisTextUp(valueKillsText, killsValue, " ", true)
+	CountThisTextUp(valueHeadshotsText, headShotValue, " ", true)
 	
-	CountThisTextUp(cashKillsText, localPlayer.kills * killsValue, "+")
-	CountThisTextUp(cashHeadshotsText, localPlayer:GetResource("Headshots") * headShotValue, "+")	
+	CountThisTextUp(cashKillsText, localPlayer.kills * killsValue, "+", false)
+	CountThisTextUp(cashHeadshotsText, localPlayer:GetResource("Headshots") * headShotValue, "+", false)	
 
 end
 
 function ShowEndRoundResults()
 
-	returnToLoadout.y = returnToLoadout.y + 1000
+	mainWindow.y = -2000
+
+	returnToLoadout.y = returnToLoadout.y + 2000
 
 	SetChildrenText(nextTitle, "GAME MODE VOTING STARTS IN")
 
@@ -488,8 +510,10 @@ function ShowEndRoundResults()
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
 	
 	statsWindow.visibility = Visibility.INHERIT
+	
+	EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 		
-	Task.Wait(0.5)
+	Task.Wait(0.7)
 	
 	AnimateScoreboard()
 	
@@ -546,14 +570,19 @@ end
 
 function SwapToVotingScreen()
 
-	EaseUI.EaseY(returnToLoadout, defaultReturnButtonY, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
-
-	SetChildrenText(nextTitle, "NEXT ROUND STARTS IN")
-
+	EaseUI.EaseY(mainWindow, -2000, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
+	
+	Task.Wait(0.7)
+	
 	statsWindow.visibility = Visibility.FORCE_OFF
 	
 	votingWindow.visibility = Visibility.INHERIT
+	
+	SetChildrenText(nextTitle, "NEXT ROUND STARTS IN")
+	
+	EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 
+	EaseUI.EaseY(returnToLoadout, defaultReturnButtonY, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 
 end
 

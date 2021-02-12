@@ -138,7 +138,7 @@ function AnimateYourNemesis()
 		
 		local targetLetter = yourNemesisIs:sub(index, index)
 		
-		for i = 1, 5 do
+		for i = 1, 3 do
 		
 			
 			YourNemesisText.text = displayText .. letters[math.random(1, #letters)]
@@ -156,7 +156,7 @@ function AnimateYourNemesis()
 			
 			tickSFX.lifeSpan = 1
 			
-			Task.Wait(0.05)	
+			Task.Wait(0.07)	
 			
 		end
 			

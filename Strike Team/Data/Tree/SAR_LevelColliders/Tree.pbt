@@ -1,6 +1,55 @@
 Name: "SAR_LevelColliders"
 RootId: 3844101252731550927
 Objects {
+  Id: 9545042459955885543
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 9595
+      Y: 3640
+      Z: -50.2941284
+    }
+    Rotation {
+      Yaw: -0.36630249
+    }
+    Scale {
+      X: 25.6327
+      Y: 3.75000548
+      Z: 59.6217804
+    }
+  }
+  ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3406058221900252173
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 5983343531613348258
   Name: "Cube - bottom aligned"
   Transform {
@@ -1156,16 +1205,16 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 7978.06689
-      Y: 2314.26538
+      X: 10222.9727
+      Y: 2006.06592
       Z: 184.999878
     }
     Rotation {
-      Yaw: 56.766819
+      Yaw: 88.5444946
     }
     Scale {
-      X: 120.000084
-      Y: 3.75
+      X: 30.4551811
+      Y: 3.7499938
       Z: 59.6217804
     }
   }
@@ -1205,12 +1254,12 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 6770.00098
-      Y: 1165.00049
+      X: 8321.05078
+      Y: -177.533936
       Z: 185
     }
     Rotation {
-      Yaw: 44.9999619
+      Yaw: 48.2661438
     }
     Scale {
       X: 120.000084
@@ -1254,16 +1303,16 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 8435
-      Y: 4685
+      X: 8486.77832
+      Y: 4822.89258
       Z: -50.2941284
     }
     Rotation {
       Yaw: 89.6337357
     }
     Scale {
-      X: 29.5000076
-      Y: 3.75
+      X: 25.6327
+      Y: 3.75000548
       Z: 59.6217804
     }
   }
