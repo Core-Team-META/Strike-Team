@@ -1,6 +1,54 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
+  Id: 4587313363667474730
+  Name: "Kill Feedback UI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10841648012521892966
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Kill Feedback UI"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1209346133637913477
+    }
+  }
+}
+Objects {
   Id: 12246315208470176305
   Name: "META Activity Feed Enhanced"
   Transform {
@@ -51,7 +99,6 @@ Objects {
   }
   ParentId: 12246315208470176305
   ChildIds: 13301011787139794892
-  ChildIds: 9007755370345556736
   ChildIds: 8019340427248196596
   UnregisteredParameters {
   }
@@ -303,372 +350,6 @@ Objects {
     SubobjectId: 13801334916194548605
     InstanceId: 7053663762041987006
     TemplateId: 17602874323132382533
-  }
-}
-Objects {
-  Id: 9007755370345556736
-  Name: "SkullIconOnKill"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15307178487492187744
-  ChildIds: 3204233588849446115
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:IsEnabled"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SkullBG"
-      ObjectReference {
-        SelfId: 7756719889484382462
-      }
-    }
-    Overrides {
-      Name: "cs:Skull"
-      ObjectReference {
-        SelfId: 10379717030963774158
-      }
-    }
-    Overrides {
-      Name: "cs:KillSpreeBG"
-      ObjectReference {
-        SelfId: 10774747740174532688
-      }
-    }
-    Overrides {
-      Name: "cs:KillSpree"
-      ObjectReference {
-        SelfId: 15656950309960028284
-      }
-    }
-    Overrides {
-      Name: "cs:KillSpreeCooldown"
-      Float: 6
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10388524674096343777
-    }
-  }
-  InstanceHistory {
-    SelfId: 17980752894949148669
-    SubobjectId: 9681244928654905667
-    InstanceId: 17690797662453024645
-    TemplateId: 946636617618947923
-  }
-}
-Objects {
-  Id: 3204233588849446115
-  Name: "Kill Feedback Container"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9007755370345556736
-  ChildIds: 7756719889484382462
-  ChildIds: 10379717030963774158
-  ChildIds: 10774747740174532688
-  ChildIds: 15656950309960028284
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 6000885514895996793
-    SubobjectId: 3212660899603800519
-    InstanceId: 17690797662453024645
-    TemplateId: 946636617618947923
-  }
-}
-Objects {
-  Id: 15656950309960028284
-  Name: "Kill Spree"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3204233588849446115
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Control {
-    Width: 200
-    Height: 60
-    UIY: 50
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "2x"
-      Color {
-        R: 1
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10582605002041684625
-    SubobjectId: 17081643951375852591
-    InstanceId: 17690797662453024645
-    TemplateId: 946636617618947923
-  }
-}
-Objects {
-  Id: 10774747740174532688
-  Name: "Kill Spree BG"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3204233588849446115
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Control {
-    Width: 200
-    Height: 60
-    UIY: 51
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "2x"
-      Color {
-        R: 0.0784313753
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 13843822021752079901
-    SubobjectId: 13820954903129952419
-    InstanceId: 17690797662453024645
-    TemplateId: 946636617618947923
-  }
-}
-Objects {
-  Id: 10379717030963774158
-  Name: "Skull"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3204233588849446115
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Control {
-    Width: 32
-    Height: 32
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 15918351247767818628
-      }
-      Color {
-        R: 1
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12209965082516102465
-    SubobjectId: 15465437024588778495
-    InstanceId: 17690797662453024645
-    TemplateId: 946636617618947923
-  }
-}
-Objects {
-  Id: 7756719889484382462
-  Name: "Skull BG"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3204233588849446115
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Control {
-    Width: 32
-    Height: 32
-    UIY: 1
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 15918351247767818628
-      }
-      Color {
-        R: 0.0784313753
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7420067151821119475
-    SubobjectId: 1813710706132240717
-    InstanceId: 17690797662453024645
-    TemplateId: 946636617618947923
   }
 }
 Objects {

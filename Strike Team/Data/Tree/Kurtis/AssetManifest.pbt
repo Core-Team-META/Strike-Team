@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15918351247767818628
-  Name: "Icon Skull"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Skull"
-  }
-}
-Assets {
   Id: 7387673503276873905
   Name: "UI Basic Shape Square"
   PlatformAssetType: 9

@@ -691,23 +691,15 @@ Assets {
           }
           Overrides {
             Name: "cs:RecoilXMin"
-            Float: -5
+            Float: -1
           }
           Overrides {
             Name: "cs:RecoilXMax"
-            Float: 5
+            Float: 1
           }
           Overrides {
             Name: "cs:EnableRecovery"
             Bool: false
-          }
-          Overrides {
-            Name: "cs:AimYReduction"
-            Float: 0.4
-          }
-          Overrides {
-            Name: "cs:AimXReduction"
-            Float: 0.35
           }
         }
         Collidable_v2 {
