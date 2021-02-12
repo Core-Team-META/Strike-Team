@@ -20,6 +20,8 @@ local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
+local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
+
 local gamemodeNetworked = script:GetCustomProperty("GAMEMODE_Networked"):WaitForObject()
 
 local endRoundManager = script:GetCustomProperty("EndRoundUIMainManager"):WaitForObject()
@@ -65,6 +67,8 @@ local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObj
 local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimationCompleteSFX")
 
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+
+local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
 
 
 local winValue = 100
@@ -705,8 +709,16 @@ function UpdateTimer()
     
 end
 
+function OnLeaveToLoadout(button)
+
+	ReliableEvents.BroadcastToServer("LEAVETOLOADOUT")
+	returnToLoadout.isInterractable = false
+
+end
+
 
 ResetEndRoundResults()
 RecordCurrentXP()
 
+backToLoadoutButton.clickedEvent:Connect(OnLeaveToLoadout)
 Events.Connect("GameStateChanged", OnGameStateChanged)
