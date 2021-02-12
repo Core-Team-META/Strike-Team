@@ -68,7 +68,13 @@ local function SetTeamColor(point, indicator)
 
     if not pointTeam then
         local str = point:GetCustomProperty("DATA")
-        local data = GT_API.ConvertStringToTable(str)
+        local data
+        if str ~= "" then
+            data = GT_API.ConvertStringToTable(str)
+        end
+        if not data then
+            return
+        end
         pointTeam = data[1]
     end
     if Object.IsValid(ICON) and Object.IsValid(BOARDER) then
@@ -137,11 +143,15 @@ function OnChildRemoved(root, object)
 end
 
 function Tick()
-    for point, interest in pairs(points) do
-        if Object.IsValid(point) and Object.IsValid(interest) then
-            UpdatePoint(point, interest)
+    Task.Spawn(
+        function()
+            for point, interest in pairs(points) do
+                if Object.IsValid(point) and Object.IsValid(interest) then
+                    UpdatePoint(point, interest)
+                end
+            end
         end
-    end
+    )
 end
 
 ------------------------------------------------------------------------------------------------------------------------
