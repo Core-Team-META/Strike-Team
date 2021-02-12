@@ -6,10 +6,10 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
-local GT_API
-repeat
-    GT_API = _G.META_GAME_MODES
-until GT_API
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
+local GT_API = _G.META_GAME_MODES
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -20,6 +20,9 @@ local TIME_REMAINING2 = script:GetCustomProperty("TIME_REMAINING2"):WaitForObjec
 local NETWORKED = script:GetCustomProperty("NETWORKED"):WaitForObject()
 local GAME_MODE_POLL = script:GetCustomProperty("GAME_MODE_POLL"):WaitForObject()
 local MATCH_LENGTH = script:GetCustomProperty("MATCH_LENGTH"):WaitForObject()
+local GAME_INFO = script:GetCustomProperty("GAME_INFO"):WaitForObject()
+local FIRSTINSTANCE = script:GetCustomProperty("FIRSTINSTANCE"):WaitForObject()
+local SECOND_INSTANCE = script:GetCustomProperty("SECOND_INSTANCE"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -27,6 +30,7 @@ local currentVote = {}
 local currentPanels = {}
 local listeners = {}
 local panelBorders = {}
+local gameInfoPanels = {}
 local voting = false
 local spamPrevent
 local endTime
@@ -44,8 +48,11 @@ local function ToggleUISettings(bool)
     UI.SetCursorVisible(bool)
     if bool then
         PARENT_PANEL.visibility = Visibility.FORCE_ON
+        FIRSTINSTANCE.visibility = Visibility.FORCE_ON
+        SECOND_INSTANCE.visibility = Visibility.FORCE_OFF
     else
         PARENT_PANEL.visibility = Visibility.FORCE_OFF
+        FIRSTINSTANCE.visibility = Visibility.FORCE_OFF
     end
     voting = bool
 end
@@ -55,6 +62,12 @@ local function ClearPanels()
         if Object.IsValid(boarder) then
             boarder.visibility = Visibility.FORCE_OFF
         end
+    end
+end
+
+local function ClearInfoPanels()
+    for _, panel in pairs(gameInfoPanels) do
+        panel.visibility = Visibility.FORCE_OFF
     end
 end
 
@@ -82,6 +95,13 @@ local function OnVoteButtonPress(button)
         button.clientUserData.border.visibility = Visibility.FORCE_ON
     end
 end
+
+local function OnVoteButtonHover(button)
+    if IsVoteingState() then
+        ClearInfoPanels()
+        gameInfoPanels[button.clientUserData.id].visibility = Visibility.FORCE_ON
+    end
+end
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -89,7 +109,7 @@ function BuildPanels()
     --ToggleUISettings(true)
 
     for _, newPanel in ipairs(GAME_MODE_POLL:GetChildren()) do
-        if newPanel.name ~= "TITLE" and newPanel.name ~= "FT" then
+        if newPanel.name ~= "KC" and newPanel.name ~= "FT" and newPanel.name ~= "TDM" then
             local id = newPanel:GetCustomProperty("ID")
             local voteCount = newPanel:GetCustomProperty("VOTE_COUNT"):WaitForObject()
             local button = newPanel:GetCustomProperty("BUTTON"):WaitForObject()
@@ -100,7 +120,9 @@ function BuildPanels()
             voteCount.text = "0"
             button.clientUserData.id = id
             button.clientUserData.border = border
+
             listeners[#listeners + 1] = button.pressedEvent:Connect(OnVoteButtonPress)
+            listeners[#listeners + 1] = button.hoveredEvent:Connect(OnVoteButtonHover)
         end
     end
     ClearPanels()
@@ -162,3 +184,8 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Events.Connect("GameStateChanged", OnGameStateChanged)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkedChanged)
+
+for _, info in ipairs(GAME_INFO:GetChildren()) do
+    local id = info:GetCustomProperty("ID")
+    gameInfoPanels[id] = info
+end

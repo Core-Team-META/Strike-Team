@@ -308,7 +308,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LobbyDuration"
-      Float: 0
+      Float: 3
     }
     Overrides {
       Name: "cs:RoundHasDuration"
@@ -325,6 +325,14 @@ Objects {
     Overrides {
       Name: "cs:RoundEndDuration"
       Float: 10
+    }
+    Overrides {
+      Name: "cs:StatsHasDuration"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StatsDuration"
+      Float: 20
     }
     Overrides {
       Name: "cs:VotingHasDuration"

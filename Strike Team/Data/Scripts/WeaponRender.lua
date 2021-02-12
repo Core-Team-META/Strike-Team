@@ -5,6 +5,10 @@ local IMAGE = script:GetCustomProperty("IMAGE"):WaitForObject()
 local NUMBER = script:GetCustomProperty("NUMBER")
 local TYPE = script:GetCustomProperty("TYPE")
 local Offset = script:GetCustomProperty("Offset")
+local HilightColor = script:GetCustomProperty("HilightColor")
+local HilightFont = script:GetCustomProperty("HilightFont")
+local DarkColor = script:GetCustomProperty("DarkColor")
+local DarkFont = script:GetCustomProperty("DarkFont")
 
 local LIGHT = 0.6
 local DARK = 0.05
@@ -30,13 +34,26 @@ function SpawnObject(str)
 	object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(.015,.015,.015) * item.data.scale , rotation = Rotation.New(0,0,-90) })
 
    local screen = UI.GetScreenSize()
-   ScreenObject.New(object, {
+   local screenobj = ScreenObject.New(object, {
 		   objectWidth = 2.8,
 		   pixelWidth = 200,
 		   pixelPosX = ui.x + screen.x - 70 + Offset.x,
 		   pixelPosY = ui.y + screen.y - 25 + Offset.y,
 		   faceCamera = false
    })
+   Task.Spawn(function() 
+		while Object.IsValid(object) do
+			local screen = UI.GetScreenSize()
+			screenobj:UpdatePosition( 
+			{
+				pixelPosX = ui.x + screen.x - 70 + Offset.x,
+				pixelPosY = ui.y + screen.y - 25 + Offset.y,
+				faceCamera = false
+			})
+			Task.Wait(1)
+			if not Object.IsValid(object) then return end
+		end  
+	end)
    Task.Wait()
    object:SetRotation(Rotation.New(0,0,-90) + item.data.Rotation_Offset)
 end
@@ -44,13 +61,13 @@ end
 Events.Connect("UpdateLocalEquiped",SpawnObject)
 
 function SetHighlighted( )
-	IMAGE:SetColor(Color.New(LIGHT,LIGHT,LIGHT,.3))
-	TEXT:SetColor(Color.New(LIGHT,LIGHT,LIGHT))
+	IMAGE:SetColor(HilightColor)
+	TEXT:SetColor(HilightFont)
 end
 
 function SetDarkened()
-	IMAGE:SetColor(Color.New(DARK,DARK,DARK,.3))
-	TEXT:SetColor(Color.New(DARK*4,DARK*4,DARK*4))	
+	IMAGE:SetColor(DarkColor)
+	TEXT:SetColor(DarkFont)	
 end
 
 function UpdateHighlight(Value)

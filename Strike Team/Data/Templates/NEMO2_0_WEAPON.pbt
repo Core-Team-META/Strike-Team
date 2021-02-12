@@ -381,11 +381,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 36
+            Float: 42
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 48
+            Float: 58
           }
         }
         Collidable_v2 {
@@ -994,6 +994,9 @@ Assets {
           TeamSettings {
           }
           Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -1131,5 +1134,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

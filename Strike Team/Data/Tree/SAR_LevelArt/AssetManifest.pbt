@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17850784779650210910
+  Name: "Military Sandbag 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_001"
+  }
+}
+Assets {
   Id: 17829956314758502204
   Name: "Ellipsoid - Truncated"
   PlatformAssetType: 1
@@ -179,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16475036621484057097
+  Name: "Military Sandbag Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_wall_004"
+  }
+}
+Assets {
   Id: 16442067914662662686
   Name: "Main Street Foundation 01"
   PlatformAssetType: 1
@@ -239,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
+  Id: 16060214784296519809
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
   }
 }
 Assets {
@@ -692,6 +719,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12189437943481407266
+  Name: "Decal Military Symbols 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_military_logo_2_ref"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -827,6 +863,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10574107998414056155
+  Name: "Military Sandbag Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_wall_002"
+  }
+}
+Assets {
   Id: 10518798692866023120
   Name: "Sci-fi Base Capsule 02 8m"
   PlatformAssetType: 1
@@ -905,6 +950,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 10030495421633776105
+  Name: "Sci-fi Cargo Crate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_crate_cargo_001"
   }
 }
 Assets {
@@ -1007,6 +1061,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8031004411755435841
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
   Id: 7708829302333976186
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -1025,12 +1088,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7345203844688882865
+  Name: "Military Sandbag 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_003"
+  }
+}
+Assets {
   Id: 7169757630002721361
   Name: "Clear Coat 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_clear-coat_001"
+  }
+}
+Assets {
+  Id: 6884795900704207494
+  Name: "Military Sandbag Wall - End 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_wall_003"
   }
 }
 Assets {
@@ -1160,6 +1241,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5906076877227777947
+  Name: "Military Sandbag 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_002"
+  }
+}
+Assets {
   Id: 5815368293412481305
   Name: "Decal Vines End 01"
   PlatformAssetType: 14
@@ -1220,6 +1310,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
+  }
+}
+Assets {
+  Id: 5390120376389660115
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
   }
 }
 Assets {
@@ -1319,6 +1418,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_engine_loop_02_Cue_ref"
+  }
+}
+Assets {
+  Id: 4031666044621837169
+  Name: "Military Sandbag Wall - End 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_wall_001"
   }
 }
 Assets {

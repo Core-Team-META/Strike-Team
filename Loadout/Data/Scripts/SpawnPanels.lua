@@ -1,4 +1,3 @@
-﻿
 local PARENT = script:GetCustomProperty("Parent"):WaitForObject()
 local SPAWN = script:GetCustomProperty("SPAWN")
 local SmallerPanelIcon = script:GetCustomProperty("SmallerPanelIcon")
@@ -19,6 +18,24 @@ local Data
 while not LOCAL_PLAYER.clientUserData.Storage do Task.Wait() end
 local Storage =  LOCAL_PLAYER.clientUserData.Storage
 local StarsUI = script:GetCustomProperty("Stars")
+local SpawnPanelSFX = script:GetCustomProperty("SpawnPanelSFX"):WaitForObject()
+
+local DEFAULT_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("DEFAULT_EQUIP_SOUND")
+local WEAPON_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("WEAPON_EQUIP_SOUND")
+local SECONDARY_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("SECONDARY_EQUIP_SOUND")
+local MELEE_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("MELEE_EQUIP_SOUND")
+local EQUIPMENT_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("EQUIPMENT_EQUIP_SOUND")
+local PASSIVE_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("PASSIVE_EQUIP_SOUND")
+local SKIN_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("SKIN_EQUIP_SOUND")
+local HOVER_SOUND = SpawnPanelSFX:GetCustomProperty("HOVER_SOUND")
+
+local SoundToSlot = {
+    ["Primary"] = WEAPON_EQUIP_SOUND,
+    ["Secondary"] = SECONDARY_EQUIP_SOUND,
+    ["Melee"] = MELEE_EQUIP_SOUND,
+    ["Equipment"] = EQUIPMENT_EQUIP_SOUND,
+    ["Perks"] = PASSIVE_EQUIP_SOUND,
+}
 
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
@@ -114,6 +131,11 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
                 LastPressed = os.clock()
                 if(skin) then 
                     item:EquipSkinByID(skin.id)  
+                    World.SpawnAsset(SKIN_EQUIP_SOUND)
+                else
+                    local EquipSound = SoundToSlot[item:GetSlot()]
+                    if not EquipSound then EquipSound = DEFAULT_EQUIP_SOUND end
+                    World.SpawnAsset(EquipSound)
                 end
                 Events.BroadcastToServer("UpdateEquipment", item:ReturnIDs(), item.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
                 Events.Broadcast("UpdateEquipment",item:ReturnIDs(), item.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
@@ -137,13 +159,22 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             Events.Broadcast("PurchaseItem",item,skin)
+            
+            if locked and _G.Funnel then
+            	_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 8)
+            end
         end)
         --Button:SetPressedColor( Button:GetHoveredColor())
     end
     newpanel.clientUserData.HoverEvent = Button.hoveredEvent:Connect(function() 
             if(skin) then item:EquipSkinByID(skin.id) end
             Events.Broadcast("HoverItem",item:ReturnIDs(),item.data.slot)
+            World.SpawnAsset(HOVER_SOUND)
             --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
+            
+            if locked and _G.Funnel then
+            	_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 7)
+            end
     end)
     newpanel.clientUserData.unhoveredEvent = Button.unhoveredEvent:Connect(function() 
         if(skin) then item:EquipSkinByID(skin.id) end
@@ -191,10 +222,37 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     return newpanel
 end
 
+function SortPanels(a,b)
+    if Storage:HasWeapon(a.data.id) == true and not Storage:HasWeapon(b.data.id)  then return true end
+    if not Storage:HasWeapon(a.data.id)  and Storage:HasWeapon(b.data.id) == true then return false end
+    
+    if a.data.name == b.data.name then return false end
+    return a.data.name <= b.data.name 
+
+end
+
+function SkinSort(id,a,b)
+
+    if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
+    if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
+    
+    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
+        if a.name == b.name then return false end
+        return a.name <= b.name 
+    else 
+        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+    end
+    
+end
+
+
 function SpawnPanels(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
+    table.sort( items, function ( a,b )
+        return SortPanels( a,b )
+    end)
     SlotChange( #items )
     for i=Sort+1, math.min((Sort + PanelLimit),#items)  do
         local newItem = Database:SetupItemWithSkin(items[i].data.id.."_00")
@@ -231,20 +289,6 @@ function SetupSkinPanel(item,id,skins,i,Locked)
 end
 
 
-function SkinSort(id,a,b)
-
-    if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
-    if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
-    
-    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
-        if a.name == b.name then return false end
-        return a.name <= b.name 
-    else 
-        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
-    end
-    
-end
-
 function SpawnPanelskins(itemid)
 
     DestroyPanels()
@@ -273,6 +317,9 @@ function SpawnIconPanel(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
+    table.sort( items, function ( a,b )
+        return SortPanels( a,b )
+    end)
     SlotChange( #items )    
     for i=Sort+1, math.min((Sort + PanelLimit), #items) do
         local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),not CheckWeapon(items[i].data.id))

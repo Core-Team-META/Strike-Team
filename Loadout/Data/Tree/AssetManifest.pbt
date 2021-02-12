@@ -1,4 +1,17 @@
 Assets {
+  Id: 18111171577567917195
+  Name: "Stats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "9c28804fd45342228835d004da0e503a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -143,12 +156,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14621129723033520691
-  Name: "Stats"
+  Id: 14516834689522538125
+  Name: "Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "33683a52583748ba9580eb335f4f0256"
+      Key: "71e08e50f9394b8fb68ec3586912de31"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -162,15 +175,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_001_ref"
-  }
-}
-Assets {
-  Id: 14005528099389862145
-  Name: "Tech Symbol 2"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Scifi_Icon_047"
   }
 }
 Assets {
@@ -318,12 +322,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9925972641298311506
-  Name: "Storage"
+  Id: 11032414137524227467
+  Name: "Loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "c73406fa2dc54237969f3f3024512919"
+      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -355,19 +359,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
-  }
-}
-Assets {
-  Id: 9154906341476226929
-  Name: "Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "465f04ada8db41ba8b76d5855dfba9e8"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -623,15 +614,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3664507400955153403
-  Name: "Survival Money 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Equip_Money_001"
-  }
-}
-Assets {
   Id: 3570691589230629264
   Name: "Sci-fi Base Pillar 01"
   PlatformAssetType: 1
@@ -710,6 +692,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_radio_01_01_ref"
+  }
+}
+Assets {
+  Id: 978488432057909494
+  Name: "LifeTime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {

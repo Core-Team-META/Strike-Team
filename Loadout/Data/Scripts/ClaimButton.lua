@@ -1,10 +1,17 @@
 local Claim = script:GetCustomProperty("Claim"):WaitForObject()
 while not _G["LootBox"] do Task.Wait() end
+local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
+
+
+function HoverSound()
+    World.SpawnAsset(HOVER_SOUND)
+end
 
 function ClaimBox()
     _G["LootBox"].Claim()
 end
 
+Claim.hoveredEvent:Connect(HoverSound)
 Claim.releasedEvent:Connect(ClaimBox)
 
 function Hide()

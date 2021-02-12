@@ -1,6 +1,8 @@
 local Purchase_API = require(script:GetCustomProperty("Purchase_API"))
 local PurchasePanel_Texts = require(script:GetCustomProperty("PurchasePanel_Texts"))
 local PurchaseConfirmationBox = script:GetCustomProperty("PurchaseConfirmationBox")
+local PURCHASE_SUCCESS_SOUND = script:GetCustomProperty("PURCHASE_SUCCESS_SOUND")
+local PURCHASE_FAIL_SOUND = script:GetCustomProperty("PURCHASE_FAIL_SOUND")
 
 local ConfirmationPanel 
 
@@ -71,23 +73,34 @@ function PurchaseClientManager.DisconnectEvents()
     end
 end
 
-
 function PurchaseClientManager.PurchaseSuccessful()
     Task.Wait()
+    World.SpawnAsset(PURCHASE_SUCCESS_SOUND)
+    local Weapon = ConfirmationPanel.clientUserData.Weapon
+    local skin = ConfirmationPanel.clientUserData.Skin 
     if  ConfirmationPanel.clientUserData.type == "Skin" then
+        Weapon:EquipSkinByID(skin.id)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableSkinSuccess, ConfirmationPanel.clientUserData.Skin.name)
+
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
     end
+
+    local LOCAL_PLAYER = Game.GetLocalPlayer()
+    Events.BroadcastToServer("UpdateEquipment", Weapon:ReturnIDs(), Weapon.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+    Events.Broadcast("UpdateEquipment",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+    Events.Broadcast("UpdateDataPanel")
+
     ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"
-    ConfirmationPanel.clientUserData.buttonEvent    = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
+    ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
     Task.Wait(.5)
     Events.Broadcast("UpdatePanels")
 end
-
+    
 function PurchaseClientManager.PurchaseError(Code)
     Task.Wait()
+    World.SpawnAsset(PURCHASE_FAIL_SOUND)
     ConfirmationPanel.clientUserData.Button.text = "Okay"
     if  ConfirmationPanel.clientUserData.type == "Skin" then
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
@@ -109,6 +122,9 @@ function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin)
     end
     --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),Skin.name)
 
+	if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
+	end
 end
 
 function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
@@ -121,6 +137,10 @@ function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
     if Code ~= 1 then 
         PurchaseClientManager.PurchaseError(Code)
     end
+    
+    if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
+	end
 end
 
 

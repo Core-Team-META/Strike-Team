@@ -1,4 +1,13 @@
 Assets {
+  Id: 17289448223043935888
+  Name: "UI Gradient Rectangular 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Shape_002"
+  }
+}
+Assets {
   Id: 16873054259561342990
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
@@ -8,30 +17,57 @@ Assets {
   }
 }
 Assets {
-  Id: 9359532178725322038
-  Name: "Crosshair 021"
+  Id: 7057957939250648142
+  Name: "Center Arrow 003 Wedge"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Crosshair_021"
+    AssetId: "CenterArrow_003Wedge"
   }
 }
 Assets {
-  Id: 9213612171120231796
-  Name: "Frame Outline Thin 009"
+  Id: 6595698929899861519
+  Name: "Icon Star"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_026"
+    AssetId: "Icon_Star"
   }
 }
 Assets {
-  Id: 5848544750637939459
-  Name: "Frame Outline Thin 005"
+  Id: 3827265796245897469
+  Name: "BG Highlighted 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_023"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 3772783788081685654
+  Name: "Icon Assault Rifle"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_WeaponAssaultRifle"
+  }
+}
+Assets {
+  Id: 2174001044181150947
+  Name: "Center Arrow 005 Wedge"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_005Wedge"
+  }
+}
+Assets {
+  Id: 1814707273787853473
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {
@@ -41,14 +77,5 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
-  }
-}
-Assets {
-  Id: 595958949674789453
-  Name: "BG Gradient 005"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundFlat_023"
   }
 }

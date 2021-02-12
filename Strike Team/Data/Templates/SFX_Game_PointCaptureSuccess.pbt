@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 17462807823863628056
         ChildIds: 2402094438222788949
+        Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -64,6 +65,7 @@ Assets {
           }
           AudioBP {
             AutoPlay: true
+            Pitch: 100
             Volume: 1
             Falloff: 3500
             Radius: 1500
@@ -111,7 +113,7 @@ Assets {
             Volume: 0.736765325
             Falloff: 3600
             Radius: 400
-            StartTime: 0.9
+            StartTime: 0.97
             IsAttenuationEnabled: true
           }
         }
@@ -140,5 +142,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

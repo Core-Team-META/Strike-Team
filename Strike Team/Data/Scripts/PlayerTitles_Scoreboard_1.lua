@@ -435,6 +435,7 @@ end
 --	nil Tick(deltaTime)
 --	Updates entries for all players and Header for LocalPlayer
 function Tick()
+	if not isVisible then return end
 	for _, player in pairs(Game.GetPlayers()) do
 		UpdatePlayer(player)
 

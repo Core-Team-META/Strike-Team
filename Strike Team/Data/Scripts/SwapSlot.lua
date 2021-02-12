@@ -1,33 +1,36 @@
-﻿LOCAL_PLAYER = Game.GetLocalPlayer()
-local propMenuButton = script:GetCustomProperty("MenuButton")
-local propUIContainer = script:GetCustomProperty("UIContainer"):WaitForObject()
+﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local MENU_BUTTON = script:GetCustomProperty("MenuButton")
+local UI_CONTAINER = script:GetCustomProperty("UIContainer"):WaitForObject()
+local UI_OPEN_SOUND = script:GetCustomProperty("UI_OPEN_SOUND")
+local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
 
 local function ToggleOn()
     UI.SetCanCursorInteractWithUI(true)
     UI.SetCursorLockedToViewport(false)
     UI.SetCursorVisible(true)
     Events.Broadcast("SwapPanelOpen")
-    propUIContainer.visibility = Visibility.FORCE_ON
+    UI_CONTAINER.visibility = Visibility.FORCE_ON
+    World.SpawnAsset(UI_OPEN_SOUND)
 end
 local function ToggleOff()
     UI.SetCanCursorInteractWithUI(false)
     UI.SetCursorLockedToViewport(true)
     UI.SetCursorVisible(false)
     Events.Broadcast("SwapPanelClose")
-    propUIContainer.visibility = Visibility.FORCE_OFF
+    UI_CONTAINER.visibility = Visibility.FORCE_OFF
+    World.SpawnAsset(UI_CLOSE_SOUND)
 end
 
 local function ToggleWeaponSlot()
-    if (propUIContainer.visibility == Visibility.FORCE_OFF) then
+    if (UI_CONTAINER.visibility == Visibility.FORCE_OFF) then
         ToggleOn()
     else
         ToggleOff()
     end
 end
 
-
 LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
-    if bindingPressed == propMenuButton then
+    if bindingPressed == MENU_BUTTON then
        ToggleWeaponSlot()
     end
 end)

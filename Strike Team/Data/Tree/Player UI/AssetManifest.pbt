@@ -1,19 +1,10 @@
 Assets {
-  Id: 17289448223043935888
-  Name: "UI Gradient Rectangular 001"
+  Id: 16075623993800484681
+  Name: "Survival Grenade 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_002"
-  }
-}
-Assets {
-  Id: 16873054259561342990
-  Name: "Frame Outline Thin 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
+    AssetId: "UI_Survival_Weapon_Grenade_001"
   }
 }
 Assets {
@@ -26,11 +17,38 @@ Assets {
   }
 }
 Assets {
-  Id: 8614910665527548726
-  Name: "Icon Grenade"
+  Id: 10359394536973948519
+  Name: "Sci-fi Ability Blue 035"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Grenade"
+    AssetId: "UI_SciFi_Ability_Blue_035"
+  }
+}
+Assets {
+  Id: 3827265796245897469
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 3763584104380248150
+  Name: "Fantasy Shape 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Shape_003"
+  }
+}
+Assets {
+  Id: 1814707273787853473
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }

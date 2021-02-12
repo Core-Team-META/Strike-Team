@@ -14,6 +14,7 @@ local Door1 = script:GetCustomProperty("Door1"):WaitForObject()
 local Door2 = script:GetCustomProperty("Doo2"):WaitForObject()
 local DoorOpenSFX = script:GetCustomProperty("DoorOpenSFX")
 local ArmMoveSFX = script:GetCustomProperty("ArmMoveSFX")
+local WEAPON_TEXT = script:GetCustomProperty("WEAPON_TEXT"):WaitForObject()
 
 local LootBoxCamera = script:GetCustomProperty("LootBoxCamera"):WaitForObject()
 
@@ -70,6 +71,7 @@ function IntroAnimation()
 	--Ease3D.EasePosition(LootBoxCamera, Vector3.New(320, 0, 30), 4, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
 	--Ease3D.EaseRotation(LootBoxCamera, Rotation.New(0, -5, 180), 2, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
 	
+	WEAPON_TEXT.visibility = Visibility.FORCE_OFF
 	Ease3D.EasePosition(LootBoxCamera, Vector3.New(320, 0, 50), 8, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
 	Ease3D.EaseRotation(LootBoxCamera, Rotation.New(0, -15, 180), 8, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
 	
@@ -145,7 +147,7 @@ function LoadHolder(selectedHolderEntry, weaponToLoad)
 
 end
 
-function AnimateSelection(selectedHolderEntry, player)
+function AnimateSelection(selectedHolderEntry, player,Main)
 
 	-- setup
 
@@ -163,24 +165,35 @@ function AnimateSelection(selectedHolderEntry, player)
 	RackSFX:Stop()
 	World.SpawnAsset(ArmMoveSFX)
 	
-	Ease3D.EasePosition(selectedHolderEntry.holder, selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -30), .5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
-	Task.Wait(.3)
-	Ease3D.EaseRotation(selectedHolderEntry.holder, selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 45, 0), 1.5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Ease3D.EaseRotation(selectedHolderEntry.holder, selectedHolderEntry.holder:GetRotation() + Rotation.New(0, 30, 0), 1.5, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.5)
+	Ease3D.EasePosition(selectedHolderEntry.holder, selectedHolderEntry.holder:GetPosition() + Vector3.New(40, 0, -50), .5, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.INOUT)
+	
 	
 	Task.Wait(1.5)
 	--selectedHolderEntry.weaponPosition:MoveTo(selectedHolderEntry.weaponPosition:GetPosition() + Vector3.UP * -70 + Vector3.FORWARD * 15, 1, true)
 	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(100, 0, 0), 1, true)
 	ChuggSFX:Play()
-	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, 0, -50), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
-	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(135, 45, 0), .5, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+
+	Ease3D.EasePosition(selectedHolderEntry.weaponPosition, Vector3.New(100, 0, 0), 2, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+	Ease3D.EaseRotation(selectedHolderEntry.weaponPosition, Rotation.New(0, 60, 90), 1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 	Task.Wait(1)
-	selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(60, 0, 0), 1, true)
+	WEAPON_TEXT.visibility = Visibility.FORCE_ON
+	local slot =  Main:GetSlot()
+	if slot == "Perks" then slot = "Passive" end
+	if slot ~= "Special" then 
+		WEAPON_TEXT.text = string.format("You unlocked a new %s \n %s ",slot ,Main:GetName() ) 
+	else 
+		WEAPON_TEXT.text = string.format("You have gained %s", Main:GetName() ) 
+	end
+	--selectedHolderEntry.weaponPosition:RotateContinuous(Rotation.New(60, 0, 0), 1, true)
 	
 	Task.Wait(7)
 	
 	-- reset
 	Events.Broadcast("FinishedLoot")
-
+	
+	WEAPON_TEXT.visibility = Visibility.FORCE_OFF
 	player:ClearOverrideCamera()
 	
 	selectedHolderEntry.weaponPosition:StopRotate()
@@ -223,7 +236,7 @@ function CleanLootBox()
 
 end
 
-function RollAnimation(player)
+function RollAnimation(player,Main)
 
 	defaultCamera = player:GetActiveCamera()
 	
@@ -321,7 +334,7 @@ function RollAnimation(player)
 	
 	end
 	
-	AnimateSelection(selectedHolder, player)
+	AnimateSelection(selectedHolder, player,Main)
 	
 	CleanLootBox()
 	
@@ -337,7 +350,7 @@ function Roll(MainWeapon, others)
 	local Main  = MainWeapon:ForceSpawnEquipment()
 	Main.parent = SelectedWeapon
 	Main:SetRotation(MainWeapon.data.Rotation_Offset + Rotation.New(0,90,0))
-	RollAnimation(Game.GetLocalPlayer())
+	RollAnimation(Game.GetLocalPlayer(),MainWeapon)
 
 end
 

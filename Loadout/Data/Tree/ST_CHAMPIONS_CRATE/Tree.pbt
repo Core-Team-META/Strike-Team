@@ -1322,6 +1322,12 @@ Objects {
         SelfId: 12017567185633983597
       }
     }
+    Overrides {
+      Name: "cs:HOVER_SOUND"
+      AssetReference {
+        Id: 13564860908462472063
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

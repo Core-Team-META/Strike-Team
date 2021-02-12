@@ -3,6 +3,12 @@ Assets {
   Name: "TeamScoreDisplayClient"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+      Overrides {
+        Name: "cs:isEnemy"
+        Bool: false
+      }
+    }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

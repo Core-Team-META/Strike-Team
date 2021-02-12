@@ -2,9 +2,9 @@ Assets {
   Id: 15216331850398421487
   Name: "Hill Chopper Spotlight"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
-    BaseMaterialId: 14979544330989922839
+    BaseMaterialId: 9134579743160012638
     ParameterOverrides {
       Overrides {
         Name: "noise color"
@@ -18,12 +18,12 @@ Assets {
       }
     }
     Assets {
-      Id: 14979544330989922839
-      Name: "Edge Line Wavy"
+      Id: 9134579743160012638
+      Name: "Edgeline Wavy Object Fade Advanced"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxma_add_edgeline"
+        AssetId: "fxma_add_edgeline_local"
       }
     }
   }

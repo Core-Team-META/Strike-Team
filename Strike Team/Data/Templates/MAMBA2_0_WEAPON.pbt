@@ -141,7 +141,8 @@ Assets {
             UseReticle: true
             Muzzle {
               Location {
-                Z: -5
+                X: 108.526497
+                Z: 14.9632721
               }
               Rotation {
               }
@@ -833,6 +834,9 @@ Assets {
           TeamSettings {
           }
           Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -1232,5 +1236,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

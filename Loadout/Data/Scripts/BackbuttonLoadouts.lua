@@ -1,5 +1,7 @@
 ﻿local BackButton = script.parent
 while not _G["LoadoutState"]  do Task.Wait() end
+local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
+local CLICK_SOUND = script:GetCustomProperty("CLICK_SOUND")
 
 BackButton.releasedEvent:Connect(function()
     if(_G["LoadoutState"] == _G["LOADOUTSTATEENUMS"][3]) then
@@ -14,4 +16,11 @@ BackButton.releasedEvent:Connect(function()
         Events.Broadcast("UpdateMenuState","MENU")
 
     end
+    World.SpawnAsset(CLICK_SOUND)
 end)
+
+function Hover( )
+    World.SpawnAsset(HOVER_SOUND)
+end
+
+BackButton.hoveredEvent:Connect(Hover)

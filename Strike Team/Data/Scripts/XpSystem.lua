@@ -97,7 +97,7 @@ function XP:GetXPInCurrentLevel()
 end
 
 function XP:GetXPUntilNextLevel()
-    return  CalculateXPUntilNextLevel(self.xp)
+    return CalculateXPUntilNextLevel(self.xp)
 end
 
 function XP:GetNextLevelXP()
@@ -115,9 +115,6 @@ function XP:GetLevel()
     return self.level
 end
 
-function XP:GetXP()
-    return self.xp
-end
 
 function XP:CalculateLevel()
     return CalculateLevel(self.xp) 
@@ -130,10 +127,14 @@ if Environment.IsClient() then
         player.clientUserData.XP = XP.New(player)
     end
 
+    function XP:GetXP()
+        return self.owner:GetResource("XP")
+    end
+
     function XP:ReturnLastXPCurrentLevel()
         return CalculateLevel(self.lastamount)
     end
-
+    
     function XP:ReturnLastXPAmount()
         return self.lastamount
     end
@@ -157,11 +158,16 @@ end
 if Environment.IsServer() then
 
     function XP:AddXP(Value)
+        self.lastamount = self.xp
         self.xp = self.xp + Value
         self.level = self:CalculateLevel()
         self:Save() 
     end
     
+    function XP:GetXP()
+        return self.xp
+    end
+
     function XP:Save()
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)

@@ -68,6 +68,12 @@ Objects {
   ParentId: 10999427269299237569
   UnregisteredParameters {
     Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
       Name: "cs:PlayerKilledEvent"
       String: "PlayerKilled"
     }
@@ -96,9 +102,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:APIBasicGameState"
+      Name: "cs:RollTextTickSFX"
       AssetReference {
-        Id: 11974742996071064388
+        Id: 3523787590995695701
       }
     }
   }
@@ -195,6 +201,18 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 12045507068401926921
+      }
+    }
+    Overrides {
+      Name: "cs:ReliableEvents"
+      AssetReference {
+        Id: 8403333844578818074
+      }
+    }
+    Overrides {
       Name: "cs:GAMEMODE_Networked"
       ObjectReference {
         SelfId: 10857687478960459655
@@ -204,12 +222,6 @@ Objects {
       Name: "cs:GainedXP"
       ObjectReference {
         SelfId: 12235163034656558815
-      }
-    }
-    Overrides {
-      Name: "cs:RemainingXP"
-      ObjectReference {
-        SelfId: 9756229487282501733
       }
     }
     Overrides {
@@ -309,15 +321,75 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:TITLE_MATCH_LENGHT"
+      Name: "cs:StatsWindow"
       ObjectReference {
-        SelfId: 15352050436892857273
+        SelfId: 3984942649001871118
       }
     }
     Overrides {
-      Name: "cs:TITLE_MATCH_LENGHT_1"
+      Name: "cs:VotingWindow"
       ObjectReference {
-        SelfId: 5344031597289365447
+        SelfId: 7776611986258655277
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderboardEntries"
+      ObjectReference {
+        SelfId: 10705308302646760788
+      }
+    }
+    Overrides {
+      Name: "cs:ScoreboardSectionEntries"
+      ObjectReference {
+        SelfId: 13500240265108461893
+      }
+    }
+    Overrides {
+      Name: "cs:NextTitle"
+      ObjectReference {
+        SelfId: 15695857878160596598
+      }
+    }
+    Overrides {
+      Name: "cs:RoundEndTimer"
+      ObjectReference {
+        SelfId: 3621255126095962672
+      }
+    }
+    Overrides {
+      Name: "cs:EntireRoundEndUI"
+      ObjectReference {
+        SelfId: 10507144481334532052
+      }
+    }
+    Overrides {
+      Name: "cs:ReturnToLoadout"
+      ObjectReference {
+        SelfId: 3119672990277470645
+      }
+    }
+    Overrides {
+      Name: "cs:MainWindow"
+      ObjectReference {
+        SelfId: 17483507795814813175
+      }
+    }
+    Overrides {
+      Name: "cs:BackToLoadoutButton"
+      ObjectReference {
+        SelfId: 12090215191186638440
+      }
+    }
+    Overrides {
+      Name: "cs:RollTextAnimationCompleteSFX"
+      AssetReference {
+        Id: 17591386188657923609
+      }
+    }
+    Overrides {
+      Name: "cs:RollTextTickSFX"
+      AssetReference {
+        Id: 3523787590995695701
       }
     }
   }
@@ -350,16 +422,20 @@ Objects {
   ParentId: 12247658189946244701
   UnregisteredParameters {
     Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
       Name: "cs:EndRoundUIManager"
       ObjectReference {
         SelfId: 12247658189946244701
       }
     }
     Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
+      Name: "cs:LoadoutLink"
+      String: "4fe685/strike-team-loadout-dev"
     }
     Overrides {
       Name: "cs:WinningTeam"

@@ -494,9 +494,13 @@ Objects {
   }
 }
 Objects {
-  Id: 13367903298334009240
+  Id: 15688219361862503721
   Name: "CommandPanel"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -510,29 +514,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11047162740706383888
-      value {
-        Overrides {
-          Name: "Name"
-          String: "CommandPanel"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1586377358280468348
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Command"
+  }
+  InstanceHistory {
+    SelfId: 15688219361862503721
+    SubobjectId: 11047162740706383888
+    InstanceId: 13367903298334009240
+    TemplateId: 1586377358280468348
+    WasRoot: true
   }
 }
 Objects {
@@ -605,6 +596,33 @@ Objects {
       Id: 3471881598561556181
     }
     TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 13575188109509791268
+  Name: "AGBS To Global"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12253275289281417314
     }
   }
 }
@@ -767,9 +785,9 @@ Objects {
   ParentId: 10671565427701169845
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Storage"
+      Name: "cs:LifetimeStats"
       NetReference {
-        Key: "c73406fa2dc54237969f3f3024512919"
+        Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -778,7 +796,16 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "465f04ada8db41ba8b76d5855dfba9e8"
+        Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "71e08e50f9394b8fb68ec3586912de31"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -787,7 +814,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "33683a52583748ba9580eb335f4f0256"
+        Key: "9c28804fd45342228835d004da0e503a"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

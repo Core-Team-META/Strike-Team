@@ -1,10 +1,17 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local EquipImage = script:GetCustomProperty("EquipImage"):WaitForObject()
 local PassiveImge = script:GetCustomProperty("PassiveImge"):WaitForObject()
 local MelText = script:GetCustomProperty("MelText"):WaitForObject()
 local SecText = script:GetCustomProperty("SecText"):WaitForObject()
 local PrimText = script:GetCustomProperty("PrimText"):WaitForObject()
+
+
+-- SHADOWS FOR TEXT ABOVE
+local PrimTextShadow = script:GetCustomProperty("PrimTextShadow"):WaitForObject()
+local SecTextShadow = script:GetCustomProperty("SecTextShadow"):WaitForObject()
+local MelTextShadow = script:GetCustomProperty("MelTextShadow"):WaitForObject()
+
 
 local defaultSlot 
 
@@ -25,6 +32,10 @@ function WriteData(data)
     PrimText.text = Primitem.data.type  .. " - " ..  Primitem.data.name
     SecText.text = Secitem.data.type .. " - " ..   Secitem.data.name 
     MelText.text =  Melitem.data.type .. " - " .. Melitem.data.name 
+    
+    PrimTextShadow.text = Primitem.data.type  .. " - " ..  Primitem.data.name
+    SecTextShadow.text = Secitem.data.type .. " - " ..   Secitem.data.name 
+    MelTextShadow.text =  Melitem.data.type .. " - " .. Melitem.data.name 
 end
 
 

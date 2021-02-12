@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16775638939331482559
+        ChildIds: 14919459433015648043
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -29,6 +29,32 @@ Assets {
           PickupTrigger {
             SelfId: 841534158063459245
           }
+        }
+      }
+      Objects {
+        Id: 14919459433015648043
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7304552373727621186
+        ChildIds: 16775638939331482559
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
         }
       }
       Objects {
@@ -45,7 +71,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7304552373727621186
+        ParentId: 14919459433015648043
         UnregisteredParameters {
           Overrides {
             Name: "cs:SteadyPassive"
@@ -55,10 +81,9 @@ Assets {
           }
           Overrides {
             Name: "cs:SpreadModifier"
-            Float: -100
+            Float: 0.7
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -77,5 +102,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

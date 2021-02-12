@@ -11,7 +11,6 @@ local KILLSTREAK_TEMPLATE = script:GetCustomProperty("KillstreakTemplate")
 
 function OnPlayerKilled(killer, killed, sourceObjectId)
     if (killer and killed) and (killed ~= killer) and (killed == Game:GetLocalPlayer()) then
-        local killerImage = killer
         local screenSize = UI.GetScreenSize()
         local templateInstance = World.SpawnAsset(Template, { parent = ContentPlayerKilledBy})
         templateInstance.width = math.floor(screenSize.x)

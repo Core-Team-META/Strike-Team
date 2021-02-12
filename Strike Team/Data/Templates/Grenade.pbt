@@ -75,6 +75,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Grenade"
+          }
+          Overrides {
             Name: "cs:ExplosionDamageRange:tooltip"
             String: "Set the minimum to maximum damage of the explosion. X is damage far from the explosion center and Y is damage close to the explosion center."
           }
@@ -373,7 +377,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 10
+            Duration: 30
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -404,5 +408,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

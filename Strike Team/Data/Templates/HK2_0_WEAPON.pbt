@@ -106,6 +106,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Assault Rifle"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -695,6 +699,10 @@ Assets {
             Name: "cs:EnableRecovery"
             Bool: false
           }
+          Overrides {
+            Name: "cs:AimYReduction"
+            Float: 0.75
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -863,6 +871,9 @@ Assets {
           TeamSettings {
           }
           Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -1125,5 +1136,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

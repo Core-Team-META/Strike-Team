@@ -129,6 +129,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -189,6 +190,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -252,6 +254,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -315,6 +318,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -375,6 +379,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -682,6 +687,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -745,6 +751,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -1293,6 +1300,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -1332,12 +1340,11 @@ Assets {
           Overrides {
             Name: "bp:Wind Speed"
             Vector {
-              Y: 60
             }
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: -0.0835713446
+            Float: -0
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
@@ -1355,6 +1362,17 @@ Assets {
             Name: "bp:Life"
             Float: 1.46613944
           }
+          Overrides {
+            Name: "bp:Initial Velocity"
+            Vector {
+              Y: 20
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -1371,6 +1389,9 @@ Assets {
           }
           Vfx {
             AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -1405,12 +1426,11 @@ Assets {
           Overrides {
             Name: "bp:Wind Speed"
             Vector {
-              Y: 60
             }
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: -0.0835713446
+            Float: -0
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
@@ -1428,6 +1448,17 @@ Assets {
             Name: "bp:Life"
             Float: 1.46613944
           }
+          Overrides {
+            Name: "bp:Initial Velocity"
+            Vector {
+              Y: 20
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -1444,6 +1475,9 @@ Assets {
           }
           Vfx {
             AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -1534,5 +1568,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

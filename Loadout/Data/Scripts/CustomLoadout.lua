@@ -1,7 +1,10 @@
-﻿local SLOT = script:GetCustomProperty("Slot")
+local SLOT = script:GetCustomProperty("Slot")
 local BUTTON = script:GetCustomProperty("Button"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CONTEXTPANEL = script:GetCustomProperty("contextpanel")
+local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
+local CLICK_SOUND = script:GetCustomProperty("CLICK_SOUND")
+
 local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
 local GlobalPixel =  require(script:GetCustomProperty("GlobalPixel"))
 local LEVELLOCK = script:GetCustomProperty("LevelLock")
@@ -115,8 +118,16 @@ function FillInData()
     end
 end
 
+
+function EquipOnSelected()
+    Events.BroadcastToServer("EquipSlot", LOCAL_PLAYER.clientUserData.SelectedSlot)
+    LOCAL_PLAYER.clientUserData.EquipSlot = LOCAL_PLAYER.clientUserData.SelectedSlot
+    Events.Broadcast("UpdateEquipped")
+end
+
+
 function EquipSlot(slot)
-    
+    World.SpawnAsset(CLICK_SOUND)
     if(os.clock() - lastpressedTime < .1) then return end
     lastpressedTime = os.clock()
     Events.Broadcast("SelectSlot",SLOT)
@@ -125,16 +136,25 @@ function EquipSlot(slot)
     _G["LoadoutState"] = _G["LOADOUTSTATEENUMS"][2]
     Events.Broadcast("UpdatedLoadoutState")
     Events.Broadcast("UpdatedLoadouts") 
-
+    EquipOnSelected()
+    
+	if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 4)
+	end
 end
 
 function SpawnPanel() 
+    World.SpawnAsset(HOVER_SOUND)
     Events.Broadcast("UpdatedLoadoutState")
     if( _G["LoadoutState"] == "ChangingLoadout") then
         panel = World.SpawnAsset(CONTEXTPANEL, {parent = script.parent.parent})
         panel.clientUserData.Slot = SLOT
         FillInData()
     end
+    
+	if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(LOCAL_PLAYER, 3)
+	end
 end
 
 function DestroyPanel()

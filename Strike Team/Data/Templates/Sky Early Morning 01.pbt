@@ -434,5 +434,5 @@ Assets {
       AssetId: "Sky_Early_Morning_01"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

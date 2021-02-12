@@ -114,7 +114,7 @@ end
 -- nil Tick(float)
 -- Watch team sizes and enforce autobalance. We only switch one player per frame.
 function Tick(deltaTime)
-	if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+	if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND or ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
 		return
 	end
 	local teamSizes = {}

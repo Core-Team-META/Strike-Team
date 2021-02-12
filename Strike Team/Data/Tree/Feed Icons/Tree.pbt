@@ -23,14 +23,42 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 7777937500885018175
+        Id: 16866350402427419714
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 16866350402427419714
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 1
+        G: 0.459602535
+        B: 0.0400000215
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -74,14 +102,42 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 9738688525360925377
+        Id: 7800031187977293047
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 7800031187977293047
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 1
+        G: 0.459602535
+        B: 0.0400000215
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -134,6 +190,40 @@ Objects {
       Name: "cs:Name"
       String: ""
     }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 859535740314286906
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 859535740314286906
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 1
+        G: 0.459602535
+        B: 0.0400000215
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -176,14 +266,24 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 3354143504959759040
+        Id: 12577597540670242942
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 12577597540670242942
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -227,14 +327,42 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 17916877912671871254
+        Id: 16639438294200189897
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 16639438294200189897
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 1
+        G: 0.459602535
+        B: 0.0400000215
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -257,7 +385,7 @@ Objects {
 }
 Objects {
   Id: 3144598349130562356
-  Name: "grenade"
+  Name: "Grenade"
   Transform {
     Location {
     }
@@ -274,18 +402,60 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 6996437714072255648
-      }
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 8614910665527548726
+        Id: 15941196163952459759
       }
     }
     Overrides {
       Name: "cs:Name"
       String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 6785318892921818342
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 6785318892921818342
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 1
+        G: 0.459602535
+        B: 0.0400000215
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 0.99
+        G: 1
+        B: 0.999602675
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 11
+        Y: 11
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 12
+        Y: 12
+      }
     }
   }
   Collidable_v2 {
@@ -329,14 +499,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 16334872757423794263
+        Id: 16795863209487774222
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 16795863209487774222
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -380,14 +582,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 5471655330366632404
+        Id: 7530428418300208520
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 7530428418300208520
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -431,14 +665,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 5471655330366632404
+        Id: 8867735376630173895
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 8867735376630173895
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -482,14 +748,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 7857068568420460772
+        Id: 10653999599372664189
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 15337799720467641762
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -533,14 +831,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 2014244595946923048
+        Id: 12832138002433923957
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 12832138002433923957
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -584,14 +914,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 17397341478246606362
+        Id: 4425460120182619356
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 2554722082088045387
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -635,14 +997,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 17397341478246606362
+        Id: 14759442090699897862
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 14759442090699897862
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -686,14 +1080,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 1089507744638609654
+        Id: 9431849012435747430
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 9431849012435747430
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -737,14 +1163,46 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 9934992039656428311
+        Id: 11429406116101648691
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 11429406116101648691
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -784,18 +1242,57 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 10048919998605158181
-      }
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 2014244595946923048
+        Id: 9332333382319278776
       }
     }
     Overrides {
       Name: "cs:Name"
       String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 4801078581681820408
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 4801078581681820408
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 28
+        Y: 28
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 22
+        Y: 22
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -839,14 +1336,53 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 3772783788081685654
+        Id: 16672326753757397400
       }
     }
     Overrides {
-      Name: "cs:Name"
-      String: ""
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 16672326753757397400
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 28
+        Y: 28
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 22
+        Y: 22
+      }
+    }
+    Overrides {
+      Name: "cs:AngleRotate"
+      Int: 30
     }
   }
   Collidable_v2 {
@@ -863,97 +1399,6 @@ Objects {
   InstanceHistory {
     SelfId: 8901087214965601893
     SubobjectId: 17280224303377399898
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
-}
-Objects {
-  Id: 8658487432453620463
-  Name: "WorldKill"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12865564118021892379
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "WorldKill"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 9384520849142346961
-      }
-    }
-    Overrides {
-      Name: "cs:Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:IconBG"
-      AssetReference {
-        Id: 96162478431907100
-      }
-    }
-    Overrides {
-      Name: "cs:IconBGColor"
-      Color {
-        R: 0.87
-        G: 0.587681949
-      }
-    }
-    Overrides {
-      Name: "cs:UseBGShadow"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:IconBGShadowColor"
-      Color {
-        R: 1
-        G: 0.432906151
-      }
-    }
-    Overrides {
-      Name: "cs:IconBGShadow"
-      AssetReference {
-        Id: 9031839549026265981
-      }
-    }
-    Overrides {
-      Name: "cs:IconBGShadowWidthHeight"
-      Vector2 {
-        X: -20
-        Y: -20
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18143543578217522570
-    }
-  }
-  InstanceHistory {
-    SelfId: 15628870861719372772
-    SubobjectId: 5524884181677962715
     InstanceId: 8298575278826370010
     TemplateId: 17637473600633499804
   }
@@ -979,17 +1424,15 @@ Objects {
       String: "Joined"
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Layer_03"
       AssetReference {
         Id: 3426494528448305421
       }
     }
     Overrides {
-      Name: "cs:Color"
-      Color {
-        R: 0.0699335858
-        G: 0.960000038
-        A: 1
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 3426494528448305421
       }
     }
   }
@@ -1032,15 +1475,15 @@ Objects {
       String: "Left"
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Layer_04"
       AssetReference {
         Id: 3426494528448305421
       }
     }
     Overrides {
-      Name: "cs:Color"
-      Color {
-        A: 1
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 3426494528448305421
       }
     }
   }
@@ -1079,12 +1522,6 @@ Objects {
   ParentId: 12865564118021892379
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 9384520849142346961
-      }
-    }
-    Overrides {
       Name: "cs:Name"
       String: ""
     }
@@ -1103,6 +1540,129 @@ Objects {
   InstanceHistory {
     SelfId: 14177134926407141542
     SubobjectId: 5834411944586673817
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 8658487432453620463
+  Name: "WorldKill"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "WorldKill"
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 16879127747257565034
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 7049270386928608003
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 0.132449746
+        G: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        G: 0.40667963
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 7049270386928608003
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        G: 0.0957559049
+        B: 0.880000055
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: -5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        G: 0.403376579
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: -6
+        Y: -6
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: -6
+        Y: -6
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 15628870861719372772
+    SubobjectId: 5524884181677962715
     InstanceId: 8298575278826370010
     TemplateId: 17637473600633499804
   }
@@ -1128,54 +1688,145 @@ Objects {
       String: "Suicide"
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Layer_03"
       AssetReference {
-        Id: 15778036656850063260
+        Id: 3042160101061736647
       }
     }
     Overrides {
-      Name: "cs:Color"
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 3042160101061736647
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
       Color {
-        R: 0.03125
-        G: 0.03125
-        B: 0.03125
+        A: 0.734
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
-      Name: "cs:IconBGShadow"
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 2
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 14
+        Y: 8
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
       AssetReference {
         Id: 841534158063459245
       }
     }
     Overrides {
-      Name: "cs:IconBGShadowColor"
+      Name: "cs:Layer_02_Color"
       Color {
-        R: 0.125
-        G: 0.125
-        B: 0.125
+        A: 0.812000036
       }
     }
     Overrides {
-      Name: "cs:IconBG"
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 1
+        G: 0.337748349
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Offset"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Offset"
+      Vector2 {
+        X: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06"
       AssetReference {
         Id: 841534158063459245
       }
     }
     Overrides {
-      Name: "cs:IconBGColor"
+      Name: "cs:Layer_06_Color"
       Color {
-        R: 0.169999957
-        G: 0.169999957
-        B: 0.169999957
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
     }
     Overrides {
-      Name: "cs:IconShadowColor"
+      Name: "cs:Layer_06_WidthHeight"
+      Vector2 {
+        X: -16
+        Y: -16
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Offset"
+      Vector2 {
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05"
+      AssetReference {
+        Id: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Color"
       Color {
-        R: 0.86
-        G: 0.102516554
-        A: 0.880000055
+        A: 0.285000026
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_WidthHeight"
+      Vector2 {
+        X: -15
+        Y: -15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Offset"
+      Vector2 {
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: -5
+        Y: -5
       }
     }
   }
@@ -1214,17 +1865,52 @@ Objects {
   ParentId: 12865564118021892379
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Name"
-      String: "Headshot"
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 8269773699580383974
+      }
     }
     Overrides {
-      Name: "cs:Icon"
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.97
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03"
       AssetReference {
         Id: 4447625100282739936
       }
     }
     Overrides {
-      Name: "cs:Color"
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 4447625100282739936
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
       Color {
         R: 1
         G: 1
@@ -1233,68 +1919,54 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:IconBG"
-      AssetReference {
-        Id: 96162478431907100
-      }
-    }
-    Overrides {
-      Name: "cs:IconFG"
+      Name: "cs:Layer_05"
       AssetReference {
         Id: 13586096600253432719
       }
     }
     Overrides {
-      Name: "cs:IconFGWidthHeight"
-      Vector2 {
-        X: -33
-        Y: -33
-      }
-    }
-    Overrides {
-      Name: "cs:IconWidthHeight"
-      Vector2 {
-      }
-    }
-    Overrides {
-      Name: "cs:IconFGOffset"
-      Vector2 {
-        X: 1
-        Y: -11
-      }
-    }
-    Overrides {
-      Name: "cs:IconFGColor"
-      Color {
-        R: 0.97
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:IconBGWidthHeight"
-      Vector2 {
-        X: 22
-        Y: 22
-      }
-    }
-    Overrides {
-      Name: "cs:IconBGColor"
+      Name: "cs:Layer_05_Color"
       Color {
         R: 0.52
         A: 1
       }
     }
     Overrides {
-      Name: "cs:IconBGShadow"
-      AssetReference {
-        Id: 8269773699580383974
+      Name: "cs:Layer_05_Offset"
+      Vector2 {
+        X: 1
+        Y: -8
       }
     }
     Overrides {
-      Name: "cs:IconBGShadowWidthHeight"
+      Name: "cs:Layer_05_WidthHeight"
       Vector2 {
-        X: 10
-        Y: 10
+        X: -27
+        Y: -27
+      }
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: "Headshot"
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: -5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: -7
+        Y: -4
       }
     }
   }

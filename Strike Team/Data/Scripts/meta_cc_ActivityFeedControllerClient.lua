@@ -15,11 +15,33 @@ local AF_LINE_TEMPLATE = script:GetCustomProperty("ActivityFeedLineTemplate")
 local AF_TEXT_TEMPLATE = script:GetCustomProperty("ActivityFeedTextTemplate")
 local AF_IMAGE_TEMPLATE = script:GetCustomProperty("ActivityFeedImageTemplate")
 local AF_TEXT_ON_IMAGE_TEMPLATE = script:GetCustomProperty("ActivityFeedTextOnImage")
+local AF_HEALTH_BAR_TEMPLATE = script:GetCustomProperty("ActivityFeedHealthBar")
 
 -- Feed icons
 local AF_ICONS = script:GetCustomProperty("FeedIcons"):WaitForObject()
 local AF_ICONS_ALL = AF_ICONS:GetChildren()
 local FEED_ICONS = {}
+
+local NEEDS_UPDATE = false
+
+-- Get icon settings
+for _, icon in pairs(AF_ICONS_ALL) do
+	local properties = icon:GetCustomProperties()
+	if (properties["EquipmentTemplate"] ~= nil) then
+		local equipmentName = {CoreString.Split(tostring(properties["EquipmentTemplate"]), ':')}
+		equipmentSourceMUID = equipmentName[1]
+		equipmentName = equipmentName[2]
+
+		if (properties["Name"] == "") then
+			properties["Name"] = equipmentName
+		end
+		properties['MUID'] = equipmentSourceMUID
+		FEED_ICONS[equipmentSourceMUID] = properties
+	else
+		FEED_ICONS[icon.name] = properties
+	end
+end
+
 
 function TablePrint(tbl, indent)
     local formatting, lua_type
@@ -56,28 +78,6 @@ function TablePrint(tbl, indent)
             print(formatting .. v)
         end
     end
-end
-
-
-local testGuns = {}
-local testCounter = 1
-for _, icon in pairs(AF_ICONS_ALL) do
-	local properties = icon:GetCustomProperties()
-	if (properties["EquipmentTemplate"] ~= nil) then
-		local equipmentName = {CoreString.Split(tostring(properties["EquipmentTemplate"]), ':')}
-		equipmentSourceMUID = equipmentName[1]
-		equipmentName = equipmentName[2]
-
-		if (properties["Name"] == "") then
-			properties["Name"] = equipmentName
-		end
-		properties['MUID'] = equipmentSourceMUID
-		FEED_ICONS[equipmentSourceMUID] = properties
-		testGuns[testCounter] = equipmentSourceMUID
-		testCounter = testCounter + 1
-	else
-		FEED_ICONS[icon.name] = properties
-	end
 end
 
 -- Kill Feed
@@ -120,7 +120,7 @@ end
 -- Constants
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FADE_DURATION = 0.6
-local VERTICAL_SPACING = 0
+local VERTICAL_SPACING = 5
 
 -- After connecting, we hide join messages for a short time, so we don't see messages for everyone already in the game
 local JOIN_MESSAGE_START = time() + 1.0
@@ -234,249 +234,254 @@ function OnKill(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 		else
 			AddLine(feedTable, lineColor)
 		end
+
+		NEEDS_UPDATE = true
 	end
 end
+
+
+
+function GetIcon(element, feedIcon)
+
+	for i = 1, 6 do
+		local iconLayer = element:FindDescendantByName("Layer_0"..tostring(i))
+		if (feedIcon["Layer_0"..tostring(i)]) then
+			-- Grab icon
+			local layer = element:FindDescendantByName("Layer_0"..tostring(i))
+			layer:SetImage(feedIcon["Layer_0"..tostring(i)])
+			layer:SetColor(feedIcon["Layer_0"..tostring(i).."_Color"])
+			local layer_x_y = feedIcon["Layer_0"..tostring(i).."_Offset"]
+
+			layer.x = layer_x_y.x
+			layer.y = layer_x_y.y
+			local layer_w_h = feedIcon["Layer_0"..tostring(i).."_WidthHeight"]
+
+			layer.width = layer_w_h.x
+			layer.height = layer_w_h.y
+
+			if (not iconLayer:IsVisibleInHierarchy()) then
+				iconLayer.visibility = Visibility.FORCE_ON
+			end
+		else
+			if (iconLayer:IsVisibleInHierarchy()) then
+				iconLayer.visibility = Visibility.FORCE_OFF
+			end
+		end
+	end
+
+end
+
 -- nil Tick(float)
 -- Update the line templates to match current data, and update fading
 function Tick(deltaTime)
 
-	for i = 1, NUM_LINES do
-		if lines[i] then
-			local age = time() - lines[i].displayTime
-			local color = lines[i].color
+	if (NEEDS_UPDATE) then
+		for i = 1, NUM_LINES do
+			if lines[i] then
 
-			-- Full opacity until LINE_DURATION, then lerp to invisible over FADE_DURATION
-			-- color.a = CoreMath.Clamp(1.0 - (age - LINE_DURATION) / FADE_DURATION, 0.0, 1.0)
+				local age = time() - lines[i].displayTime
+				local color = lines[i].color
 
-			local feedLines = lineTemplates[i]:GetChildren()
-			local feedElements = {}
+				-- Full opacity until LINE_DURATION, then lerp to invisible over FADE_DURATION
+				-- color.a = CoreMath.Clamp(1.0 - (age - LINE_DURATION) / FADE_DURATION, 0.0, 1.0)
 
-			for _, element in ipairs(feedLines) do
-				if (element.name == "KilledText") then
-					local textBox = element:FindDescendantByName("Text Box")
-					textBox.text = lines[i].killed
-					if (lines[i].killedColor ~= color) then
-						textBox:SetColor(lines[i].killedColor)
-					else
-						textBox:SetColor(color)
-					end
-					feedElements["KilledText"] = element
-					feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
-				end
-				if (element.name == "WeaponImage") then
-					if (lines[i].weaponUsed ~= "") then
-						local image = element:FindDescendantByName("FG Image")
-						if (FEED_ICONS[lines[i].weaponUsed]) then
-							image:SetImage(FEED_ICONS[lines[i].weaponUsed].Icon)
-						end
-						feedElements["WeaponImage"] = element
-						feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
-						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
-					else
-						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
-					end
+				local feedLines = lineTemplates[i]:GetChildren()
+				local feedElements = {}
 
-				end
-				if (element.name == "SpecialImage") then
-					if (lines[i].killExtraCode ~= "") then
-						local feedIconExtra = FEED_ICONS[lines[i].killExtraCode]
-						if (feedIconExtra) then
-							local image = element:FindDescendantByName("FG Image")
-							local imageShadow = element:FindDescendantByName("FG Shadow")
-							image:SetImage(feedIconExtra.Icon)
-							imageShadow:SetImage(feedIconExtra.Icon)
-							imageShadow:SetColor(feedIconExtra.IconShadowColor)
-
-							if (feedIconExtra.IconOffset.x ~= 0 or feedIconExtra.IconOffset.y ~= 0) then
-								image.x = feedIconExtra.IconOffset.x
-								image.y = feedIconExtra.IconOffset.y
-								imageShadow.x = feedIconExtra.IconOffset.x
-								imageShadow.y = feedIconExtra.IconOffset.y
-
-							end
-
-							if (feedIconExtra.IconWidthHeight.x ~= 0 or feedIconExtra.IconWidthHeight.y ~= 0) then
-								image.width = feedIconExtra.IconWidthHeight.x
-								image.height = feedIconExtra.IconWidthHeight.y
-								imageShadow.width = image.width + feedIconExtra.IconShadowSize
-								imageShadow.height = image.height + feedIconExtra.IconShadowSize
-							end
-
-							local imageBack =  element:FindDescendantByName("FG Back")
-							local imageBackShadow = element:FindDescendantByName("FG Back Shadow")
-							if (feedIconExtra.IconBG) then
-								if (feedIconExtra.IconBGShadow) then
-									imageBackShadow:SetImage(feedIconExtra.IconBGShadow)
-								else
-									imageBackShadow:SetImage(feedIconExtra.IconBG)
-								end
-								imageBackShadow:SetColor(feedIconExtra.IconBGShadowColor)
-
-								imageBack:SetImage(feedIconExtra.IconBG)
-								imageBack:SetColor(feedIconExtra.IconBGColor)
-
-								if (feedIconExtra.IconBGOffset.x ~= 0 or feedIconExtra.IconBGOffset.y ~= 0) then
-									imageBack.x = feedIconExtra.IconBGOffset.x
-									imageBack.y = feedIconExtra.IconBGOffset.y
-									imageBackShadow.x = feedIconExtra.IconBGOffset.x
-									imageBackShadow.y = feedIconExtra.IconBGOffset.y
-								end
-								imageBackShadow.width = feedIconExtra.IconBGShadowWidthHeight.x
-								imageBackShadow.height = feedIconExtra.IconBGShadowWidthHeight.y
-
-								if (feedIconExtra.IconBGWidthHeight.x ~= 0 or feedIconExtra.IconBGWidthHeight.y ~= 0) then
-									imageBack.width = feedIconExtra.IconBGWidthHeight.x
-									imageBack.height = feedIconExtra.IconBGWidthHeight.y
-								end
-
-								if (not imageBack:IsVisibleInHierarchy()) then
-									imageBack.visibility = Visibility.FORCE_ON
-									imageBackShadow.visibility = Visibility.FORCE_ON
-								end
-							else
-								if (imageBack:IsVisibleInHierarchy()) then
-									imageBack.visibility = Visibility.FORCE_OFF
-									imageBackShadow.visibility = Visibility.FORCE_OFF
-								end
-							end
-
-							local imageFront =  element:FindDescendantByName("FG Front")
-
-							if (feedIconExtra.IconFG) then
-								imageFront:SetImage(feedIconExtra.IconFG)
-								imageFront:SetColor(feedIconExtra.IconFGColor)
-
-								if (feedIconExtra.IconFGOffset.x ~= 0 or feedIconExtra.IconFGOffset.y ~= 0) then
-									imageFront.x = feedIconExtra.IconFGOffset.x
-									imageFront.y = feedIconExtra.IconFGOffset.y
-								end
-
-								if (feedIconExtra.IconFGWidthHeight.x ~= 0 or feedIconExtra.IconFGWidthHeight.y ~= 0) then
-
-									imageFront.width = feedIconExtra.IconFGWidthHeight.x
-									imageFront.height = feedIconExtra.IconFGWidthHeight.y
-								end
-
-								if (not imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_ON end
-							else
-								if (imageFront:IsVisibleInHierarchy()) then imageFront.visibility = Visibility.FORCE_OFF end
-							end
-
-
-						end
-						feedElements["SpecialImage"] = element
-						feedElements["SpecialImage"].width = ICON_SIZE -- set defaults
-						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
-					else
-						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
-					end
-				end
-				if (element.name == "KillerText") then
-					if (lines[i].killer ~= "") then
+				for _, element in ipairs(feedLines) do
+					if (element.name == "KilledText") then
+						-- element.width = ICON_SIZE
+						-- element.height = ICON_SIZE
 						local textBox = element:FindDescendantByName("Text Box")
-						textBox.text = lines[i].killer
-						textBox.justification = TextJustify.RIGHT
-						if (lines[i].killerColor ~= color) then
-							textBox:SetColor(lines[i].killerColor)
+						textBox.text = lines[i].killed
+						textBox.justification = TextJustify.LEFT
+
+						-- do text shadow
+						for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
+							textShadow.text = lines[i].killed
+							textShadow.justification = TextJustify.LEFT
+						end
+
+						if (lines[i].killedColor ~= color) then
+							textBox:SetColor(lines[i].killedColor)
 						else
 							textBox:SetColor(color)
 						end
-						feedElements["KillerText"] = element
-						feedElements["KillerText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
-						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
-					else
-						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+						feedElements["KilledText"] = element
+						feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
 					end
-				end
-				if (element.name == "KillerHealth") then
-					if (lines[i].killerHP ~= "") then
-						local imageBG = element:FindDescendantByName("BG Image")
-						-- imageBG:SetColor(Color.New(0,0,0,0))
-						imageBG.visibility = Visibility.FORCE_OFF
-						local image = element:FindDescendantByName("FG Image")
-						local imageShadow = element:FindDescendantByName("FG Shadow")
-						local textBox = element:FindDescendantByName("Text Box")
+					if (element.name == "WeaponImage") then
+						if (lines[i].weaponUsed ~= "") then
 
-						if (math.tointeger(lines[i].killerHP) > 75) then
-							image:SetColor(HEALTH_HIGHFG)
-							imageShadow:SetColor(HEALTH_HIGHBG)
-						elseif (math.tointeger(lines[i].killerHP) > 55) then
-							image:SetColor(HEALTH_MEDFG)
-							imageShadow:SetColor(HEALTH_MEDBG)
+							local feedIcon = FEED_ICONS[lines[i].weaponUsed]
+							if (feedIcon) then
+								GetIcon(element, feedIcon)
+								element.rotationAngle = feedIcon.AngleRotate
+							end
+
+							feedElements["WeaponImage"] = element
+							feedElements["WeaponImage"].width = ICON_SIZE -- set defaults
+							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
 						else
-							image:SetColor(HEALTH_LOWFG)
-							imageShadow:SetColor(HEALTH_LOWBG)
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
 						end
 
-						image:SetImage(ICON_HEALTH)
-						imageShadow:SetImage(ICON_HEALTH)
-						image.width = -5
-						image.height = -5
-						imageShadow.width = -1
-						imageShadow.height = -1
-						textBox.text = lines[i].killerHP
-						feedElements["KillerHealth"] = element
-						feedElements["KillerHealth"].width = ICON_SIZE -- set defaults
-						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
-					else
-						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+					end
+					if (element.name == "SpecialImage") then
+						if (lines[i].killExtraCode ~= "") then
+							local feedIcon = FEED_ICONS[lines[i].killExtraCode]
+
+							if (feedIcon) then
+								GetIcon(element, feedIcon)
+							end
+
+							feedElements["SpecialImage"] = element
+							feedElements["SpecialImage"].width = ICON_SIZE -- set defaults
+							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
+						else
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+						end
+					end
+					if (element.name == "KillerText") then
+						-- element.width = ICON_SIZE
+						-- element.height = ICON_SIZE
+						if (lines[i].killer ~= "") then
+							local textBox = element:FindDescendantByName("Text Box")
+							textBox.text = lines[i].killer
+							textBox.justification = TextJustify.RIGHT
+
+							-- do text shadow
+							for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
+								textShadow.text = lines[i].killer
+								textShadow.justification = TextJustify.RIGHT
+							end
+
+							if (lines[i].killerColor ~= color) then
+								textBox:SetColor(lines[i].killerColor)
+							else
+								textBox:SetColor(color)
+							end
+							feedElements["KillerText"] = element
+							feedElements["KillerText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
+							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
+						else
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+						end
+					end
+					if (SHOW_KILLER_HP and element.name == "KillerHealth") then
+						if (lines[i].killerHP ~= "") then
+							-- element.width = 20
+							element.height = ICON_SIZE - 5
+							local imageBG = element:FindDescendantByName("BG Image")
+
+							-- imageBG.visibility = Visibility.FORCE_OFF
+
+							local hpBar = element:FindDescendantByName("HP Bar")
+							local hpBarBG = element:FindDescendantByName("HP Bar BG")
+							local textBox = element:FindDescendantByName("Text Box")
+
+							local killerHP = math.tointeger(lines[i].killerHP)
+							hpBar.height = CoreMath.Round((killerHP/100)*ICON_SIZE, 0) - 9
+
+
+							if (killerHP > 75) then
+								hpBar:SetColor(HEALTH_HIGHBG)
+								-- for _, line in ipairs(imageBG:GetChildren()) do
+								-- 	local transColor = HEALTH_HIGHFG
+								-- 	transColor.a = 0.5
+								-- 	line:SetColor(transColor)
+								-- end
+								-- imageShadow:SetColor(HEALTH_HIGHBG)
+							elseif (killerHP > 55) then
+								hpBar:SetColor(HEALTH_MEDBG)
+								-- for _, line in ipairs(imageBG:GetChildren()) do
+								-- 	local transColor = HEALTH_MEDFG
+								-- 	transColor.a = 0.5
+								-- 	line:SetColor(transColor)
+								-- end
+								-- imageShadow:SetColor(HEALTH_MEDBG)
+							else
+								hpBar:SetColor(HEALTH_LOWBG)
+
+								-- for _, line in ipairs(imageBG:GetChildren()) do
+								-- 	local transColor = HEALTH_LOWFG
+								-- 	transColor.a = 0.5
+								-- 	line:SetColor(transColor)
+								-- end
+								-- imageShadow:SetColor(HEALTH_LOWBG)
+							end
+
+							hpBar:SetImage(ICON_HEALTH)
+							hpBarBG:SetImage(ICON_HEALTH)
+							-- image.width = -5
+							-- image.height = -5
+							-- imageShadow.width = -1
+							-- imageShadow.height = -1
+							textBox.text = lines[i].killerHP
+							feedElements["KillerHealth"] = element
+							feedElements["KillerHealth"].width = 9 -- set defaults
+							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
+						else
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+						end
+					end
+					if (SHOW_DISTANCE and element.name == "Distance") then
+						if (lines[i].distance ~= "") then
+						element.width = ICON_SIZE
+						element.height = ICON_SIZE
+						local image = element:FindDescendantByName("FG Image")
+						local imageBG = element:FindDescendantByName("BG Image")
+						imageBG.width = -3
+						imageBG.height = -3
+						local imageShadow = element:FindDescendantByName("FG Shadow")
+						local textBox = element:FindDescendantByName("Text Box")
+						image:SetImage(ICON_DISTANCE)
+						image:SetColor(Color.New(0,0,0,0))
+						imageShadow:SetColor(Color.New(0,0,0,0))
+						textBox.text = lines[i].distance
+						feedElements["Distance"] = elementd
+						else
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+						end
 					end
 				end
-				if (element.name == "Distance") then
-					if (lines[i].distance ~= "") then
-					local image = element:FindDescendantByName("FG Image")
-					local imageBG = element:FindDescendantByName("BG Image")
-					imageBG.width = -3
-					imageBG.height = -3
-					local imageShadow = element:FindDescendantByName("FG Shadow")
-					local textBox = element:FindDescendantByName("Text Box")
-					image:SetImage(ICON_DISTANCE)
-					image:SetColor(Color.New(0,0,0,0))
-					imageShadow:SetColor(Color.New(0,0,0,0))
-					textBox.text = lines[i].distance
-					feedElements["Distance"] = element
-					feedElements["Distance"].width = ICON_SIZE -- set defaults
-						if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
-					else
-						if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
-					end
+
+				local xPos = 0
+
+				if (lines[i].killer ~= "") then
+					-- Killer
+					feedElements["KillerText"].x = xPos
+					xPos = xPos + feedElements["KillerText"].width + GAP_SPACE
 				end
-			end
+				if (SHOW_KILLER_HP and lines[i].killerHP ~= "") then
+					-- Killer Health
+					feedElements["KillerHealth"].x = xPos
+					xPos = xPos + feedElements["KillerHealth"].width + GAP_SPACE + 10
+				end
+				if (SHOW_DISTANCE and lines[i].distance ~= "") then
+					-- Distance
+					feedElements["Distance"].x = xPos
+					xPos = xPos + feedElements["Distance"].width + GAP_SPACE
+				end
+				if (lines[i].killExtraCode ~= "") then
+					-- specialImage
+					feedElements["SpecialImage"].x = xPos
+					xPos = xPos + feedElements["SpecialImage"].width + GAP_SPACE
+				end
+				if (lines[i].weaponUsed ~= "") then
+					-- weapon
+					feedElements["WeaponImage"].x = xPos + 10
+					xPos = xPos + feedElements["WeaponImage"].width + GAP_SPACE + 30
+				end
+				-- killed
+				feedElements["KilledText"].x = xPos
+				xPos = xPos + feedElements["KilledText"].width + GAP_SPACE
 
-			local xPos = 0
-
-			-- killed
-			feedElements["KilledText"].x = xPos
-			xPos = xPos - feedElements["KilledText"].width - GAP_SPACE
-
-			if (lines[i].weaponUsed ~= "") then
-				-- weapon
-				feedElements["WeaponImage"].x = xPos
-				xPos = xPos - feedElements["WeaponImage"].width - GAP_SPACE
 			end
-			if (lines[i].killExtraCode ~= "") then
-				-- specialImage
-				feedElements["SpecialImage"].x = xPos
-				xPos = xPos - feedElements["SpecialImage"].width - GAP_SPACE
-			end
-			if (lines[i].distance ~= "") then
-				-- Distance
-				feedElements["Distance"].x = xPos
-				xPos = xPos - feedElements["Distance"].width - GAP_SPACE
-			end
-			if (lines[i].killerHP ~= "") then
-				-- Killer Health
-				feedElements["KillerHealth"].x = xPos
-				xPos = xPos - feedElements["KillerHealth"].width - GAP_SPACE
-			end
-			if (lines[i].killer ~= "") then
-				-- Killer
-				feedElements["KillerText"].x = xPos
-				xPos = xPos - feedElements["KillerText"].width - GAP_SPACE
-			end
-
 		end
+		NEEDS_UPDATE = false
 	end
+
 end
 
 -- Initialize
@@ -485,14 +490,17 @@ for i = 1, NUM_LINES do
 	lineTemplates[i] = World.SpawnAsset(AF_LINE_TEMPLATE, {parent = AF_PANEL})
 	local elements = {}
 
-	elements['KillerHealth'] = World.SpawnAsset(AF_TEXT_ON_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
-	elements['KillerHealth'].width = ICON_SIZE
+	lineTemplates[i].height = ICON_SIZE
+
+	elements['KillerHealth'] = World.SpawnAsset(AF_HEALTH_BAR_TEMPLATE, {parent = lineTemplates[i]})
+	elements['KillerHealth'].width = 25
 	elements['KillerHealth'].height = ICON_SIZE
 	elements['KillerHealth'].name = "KillerHealth"
 	elements['KillerHealth'].visibility = Visibility.FORCE_OFF
 
 	elements['KillerText'] = World.SpawnAsset(AF_TEXT_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KillerText'].name = "KillerText"
+	-- elements['KillerText'].height = ICON_SIZE
 	elements['KillerText'].visibility = Visibility.FORCE_OFF
 
 	elements['KillerImage'] = World.SpawnAsset(AF_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
@@ -503,6 +511,7 @@ for i = 1, NUM_LINES do
 
 	elements['KilledText'] = World.SpawnAsset(AF_TEXT_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KilledText'].name = "KilledText"
+	-- elements['KilledText'].height = ICON_SIZE
 
 	elements['KilledImage'] = World.SpawnAsset(AF_IMAGE_TEMPLATE, {parent = lineTemplates[i]})
 	elements['KilledImage'].name = "KilledImage"

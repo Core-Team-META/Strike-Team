@@ -70,6 +70,7 @@ function API.RegisterGameTypes(list)
             local shouldRespawn = gameType:GetCustomProperty("SHOULD_RESPAWN")
             local gameInfo = gameType:GetCustomProperty("GAME_INFO")
             local hasMultiplier = gameType:GetCustomProperty("PLAYER_SCORE_MULTIPLIER")
+            local captureTime = gameType:GetCustomProperty("SECONDS_TO_CAPTURE")
 
             local gameTypeInfo = {
                 id = id,
@@ -80,7 +81,8 @@ function API.RegisterGameTypes(list)
                 icon = icon,
                 respawn = shouldRespawn,
                 info = gameInfo,
-                hasMultiplier = hasMultiplier
+                hasMultiplier = hasMultiplier,
+                captureTime = captureTime
             }
             if enabled then
                 gameTypeList[id] = gameTypeInfo
@@ -117,8 +119,8 @@ function API.GetGameTypeName(id)
 end
 
 function API.GetCurrentScoreLimit(id)
-    if not gameTypeList then
-        warn("Game Mode Score Limit Doesn't Exsist")
+    if not gameTypeList or id == 0 then
+        error("Game Mode Score Limit Doesn't Exsist")
         return nil
     end
     local scoreLimit = gameTypeList[id].score
@@ -164,6 +166,7 @@ end
 function API.GetGameInfo(id)
     if not gameTypeList then
         warn("Game Mode Server Script Doesn't Exsist")
+        print(CoreDebug.GetTaskStackTrace(id))
         return nil
     end
     local messageTbl = API.StringSplit("|", gameTypeList[id].info)
@@ -173,6 +176,16 @@ function API.GetGameInfo(id)
     end
     return message
 end
+
+function API.GetCaptureTime(id)
+    if not gameTypeList then
+        warn("Game Mode Capture Time Doesn't Exsist")
+        return nil
+    end
+    return gameTypeList[id].captureTime
+end
+
+
 
 --@param string template => MUID
 --@param table optionalTable

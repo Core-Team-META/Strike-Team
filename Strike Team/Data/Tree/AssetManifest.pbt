@@ -1,36 +1,49 @@
 Assets {
-  Id: 10247172121396960560
-  Name: "Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "465f04ada8db41ba8b76d5855dfba9e8"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 9073233642542762246
-  Name: "Stats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "33683a52583748ba9580eb335f4f0256"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 3570503988882333139
+  Id: 10271821231561790687
   Name: "Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "c73406fa2dc54237969f3f3024512919"
+      Key: "71e08e50f9394b8fb68ec3586912de31"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 7844212678526986406
+  Name: "Loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 7292900206551466579
+  Name: "Stats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "9c28804fd45342228835d004da0e503a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 5646419812666555425
+  Name: "LifeTime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

@@ -14,58 +14,59 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:UseBGShadow"
-        Bool: true
-      }
-      Overrides {
-        Name: "cs:IconBGShadow"
+        Name: "cs:Layer_01"
         AssetReference {
           Id: 841534158063459245
         }
       }
       Overrides {
-        Name: "cs:IconBGShadowColor"
+        Name: "cs:Layer_01_Color"
         Color {
           R: 0.9
           A: 1
         }
       }
       Overrides {
-        Name: "cs:IconBGShadowWidthHeight"
+        Name: "cs:Layer_01_Offset"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:IconBG"
+        Name: "cs:Layer_01_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_02"
         AssetReference {
           Id: 841534158063459245
         }
       }
       Overrides {
-        Name: "cs:IconBGColor"
+        Name: "cs:Layer_02_Color"
         Color {
           R: 0.169999957
           A: 1
         }
       }
       Overrides {
-        Name: "cs:IconBGOffset"
+        Name: "cs:Layer_02_Offset"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:IconBGWidthHeight"
+        Name: "cs:Layer_02_WidthHeight"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:Icon"
+        Name: "cs:Layer_03"
         AssetReference {
-          Id: 15918351247767818628
+          Id: 7947004984164017508
         }
       }
       Overrides {
-        Name: "cs:Color"
+        Name: "cs:Layer_03_Color"
         Color {
           R: 1
           G: 1
@@ -74,50 +75,90 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:IconOffset"
+        Name: "cs:Layer_03_Offset"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:IconWidthHeight"
+        Name: "cs:Layer_03_WidthHeight"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:IconFG"
+        Name: "cs:Layer_04"
+        AssetReference {
+          Id: 7947004984164017508
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_Color"
+        Color {
+          R: 0.0625
+          G: 0.0625
+          B: 0.0625
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05"
         AssetReference {
           Id: 841534158063459245
         }
       }
       Overrides {
-        Name: "cs:IconFGColor"
+        Name: "cs:Layer_05_Color"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_06"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_06_Color"
         Color {
           A: 1
         }
       }
       Overrides {
-        Name: "cs:IconFGOffset"
+        Name: "cs:Layer_06_Offset"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:IconFGWidthHeight"
+        Name: "cs:Layer_06_WidthHeight"
         Vector2 {
         }
       }
       Overrides {
-        Name: "cs:UseIconShadow"
-        Bool: true
-      }
-      Overrides {
-        Name: "cs:IconShadowColor"
-        Color {
-          A: 0.880000055
-        }
-      }
-      Overrides {
-        Name: "cs:IconShadowSize"
-        Int: 3
+        Name: "cs:AngleRotate"
+        Int: 0
       }
       Overrides {
         Name: "cs:Name:tooltip"
@@ -125,14 +166,14 @@ Assets {
       }
     }
     Assets {
-      Id: 15918351247767818628
-      Name: "Icon Skull"
+      Id: 7947004984164017508
+      Name: "Icon Luck"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Skull"
+        AssetId: "Icon_Luck"
       }
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

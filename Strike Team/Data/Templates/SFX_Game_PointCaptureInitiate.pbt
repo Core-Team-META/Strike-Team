@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 1646618916013001643
+        Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -51,11 +52,10 @@ Assets {
           AudioAsset {
             Id: 18123745573344890890
           }
+          AutoPlay: true
           Volume: 2
           Falloff: -1
           Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
       }
@@ -74,5 +74,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

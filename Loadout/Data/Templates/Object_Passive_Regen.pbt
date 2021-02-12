@@ -33,14 +33,17 @@ Assets {
         Name: "Group"
         Transform {
           Location {
+            X: 20
+            Z: 3.81469727e-06
           }
           Rotation {
-            Roll: -80
+            Pitch: -60
+            Roll: 30
           }
           Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
+            X: 0.348645
+            Y: 0.348645
+            Z: 0.348645
           }
         }
         ParentId: 16025565856942191387
@@ -115,6 +118,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -177,6 +181,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -239,6 +244,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -293,6 +299,7 @@ Assets {
           }
           DisableCastShadows: true
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -2175,6 +2182,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -2252,5 +2260,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

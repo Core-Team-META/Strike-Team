@@ -8,7 +8,13 @@ Assets {
         Name: "cs:TYPE"
         String: ""
       }
+      Overrides {
+        Name: "cs:HOVER_SOUND"
+        AssetReference {
+          Id: 13564860908462472063
+        }
+      }
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

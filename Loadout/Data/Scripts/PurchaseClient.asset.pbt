@@ -22,7 +22,19 @@ Assets {
           Id: 841534158063459245
         }
       }
+      Overrides {
+        Name: "cs:PURCHASE_SUCCESS_SOUND"
+        AssetReference {
+          Id: 12158755182003592593
+        }
+      }
+      Overrides {
+        Name: "cs:PURCHASE_FAIL_SOUND"
+        AssetReference {
+          Id: 14153526073733528906
+        }
+      }
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

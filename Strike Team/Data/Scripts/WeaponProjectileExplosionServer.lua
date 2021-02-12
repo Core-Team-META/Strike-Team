@@ -31,6 +31,7 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
+local WEAPON_TYPE = WEAPON:GetCustomProperty("WeaponType")
 
 -- Exposed variables
 local FRIENDLY_EXPLOSION = WEAPON:GetCustomProperty("FriendlyExplosionDamage")
@@ -90,9 +91,11 @@ function Blast(center)
             -- Create damage information
             local damage = Damage.New(damageAmount)
             damage.sourcePlayer = WEAPON.owner
+            damage.sourceAbility = WEAPON:FindDescendantByName("Throw")
 
             -- Apply damage to player
             player:ApplyDamage(damage)
+            Events.Broadcast("AS.PlayerDamaged", WEAPON.owner, player, WEAPON_TYPE, false)
 
             -- Create a direction at which the player is pushed away from the blast
             player:AddImpulse((displacement):GetNormalized() * player.mass * EXPLOSION_KNOCKBACK_SPEED)

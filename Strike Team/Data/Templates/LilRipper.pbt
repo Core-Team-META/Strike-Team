@@ -48,6 +48,10 @@ Assets {
             String: "2hand_sword_ready"
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Melee"
+          }
+          Overrides {
             Name: "cs:EquipmentStance:tooltip"
             String: "The stance animation when a player picks up the equipment."
           }
@@ -470,5 +474,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

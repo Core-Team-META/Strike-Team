@@ -2,7 +2,7 @@ Assets {
   Id: 5747062232326816924
   Name: "SAR_PalmLeaves"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 4819859255579337255
     ParameterOverrides {

@@ -110,6 +110,10 @@ Assets {
             String: "2hand_sword_ready"
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Pistol"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -873,6 +877,9 @@ Assets {
           TeamSettings {
           }
           Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -1135,5 +1142,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }
