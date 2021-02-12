@@ -11,7 +11,9 @@
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 ------------------------------------------------------------------------------------------------------------------------
 
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -22,7 +24,6 @@ local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
 local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
-
 
 local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
 local Flag1Color = script:GetCustomProperty("Flag1Color"):WaitForObject()
@@ -42,6 +43,8 @@ local SFX_SUCCESS = script:GetCustomProperty("SFX_Game_PointCaptureSuccess")
 local SFX_POINT_CALLOUT = script:GetCustomProperty("SFX_PointCallout_UI")
 local SFX_POINT_LOST = script:GetCustomProperty("SFX_PointLost_UI")
 local SFX_POINT_SECURED = script:GetCustomProperty("SFX_PointSecured_UI")
+local SFX_POINT_CONTEST_ENEMY = script:GetCustomProperty("SFX_PointContestEnemy_UI")
+local SFX_POINT_CONTEST_FRIENDLY = script:GetCustomProperty("SFX_PointContestFriendly_UI")
 
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
@@ -68,11 +71,11 @@ end
 local function UpdateProgress(currentProgress)
     PROGRESS_BAR.progress = (currentProgress / MAX_PROGRESS)
     if LOCAL_PLAYER.team == currentTeam then
-    	EaseUI.EaseRotation(PROGRESS_BAR, 0, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
-    	PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
+        EaseUI.EaseRotation(PROGRESS_BAR, 0, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
+        PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
     else
-    	EaseUI.EaseRotation(PROGRESS_BAR, 180, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
-    	PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
+        EaseUI.EaseRotation(PROGRESS_BAR, 180, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
+        PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
     end
 end
 
@@ -99,7 +102,11 @@ function OnNetworkChanged(object, string)
         lastProgress = lastProgress or data[PROGRESS]
         if currentTeam ~= data[TEAM] then
             currentTeam = data[TEAM]
-            World.SpawnAsset(SFX_POINT_CALLOUT)
+            if currentTeam == LOCAL_PLAYER.team then
+                World.SpawnAsset(SFX_POINT_CONTEST_FRIENDLY)
+            else
+                World.SpawnAsset(SFX_POINT_CONTEST_ENEMY)
+            end
         end
         if data[TEAM] > 0 and data[PROGRESS] >= 0 then
             ToggleObject(true)
@@ -150,13 +157,11 @@ function OnNetworkChanged(object, string)
                 World.SpawnAsset(SFX_POINT_LOST)
             end
         end
-    UpdateProgress(data[PROGRESS])
+        UpdateProgress(data[PROGRESS])
     end
 end
-
 
 ------------------------------------------------------------------------------------------------------------------------
 -- LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
 ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
-
