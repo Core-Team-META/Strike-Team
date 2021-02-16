@@ -125,15 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16933361490793048899
-  Name: "Metal Iron Rusted 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
-  }
-}
-Assets {
   Id: 16931630116077975102
   Name: "Main Street Pillar 01"
   PlatformAssetType: 1
@@ -260,15 +251,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15514326864313295999
-  Name: "Text 01: {"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_051"
-  }
-}
-Assets {
   Id: 15402296587404581505
   Name: "Main Street Trim 02 - Corner"
   PlatformAssetType: 1
@@ -386,15 +368,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13442965192408425307
-  Name: "Modern Weapon Accessory - Rail 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_acc_rail_001"
-  }
-}
-Assets {
   Id: 13219973207836793111
   Name: "Main Street Wall 02 - Half Window 01"
   PlatformAssetType: 1
@@ -437,15 +410,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_parapet_001_4m"
-  }
-}
-Assets {
-  Id: 12630862952169066180
-  Name: "Pipe"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_001"
   }
 }
 Assets {
@@ -590,24 +554,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_top_6m_001"
-  }
-}
-Assets {
-  Id: 11444910120334123213
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
-  Id: 11353461757709897270
-  Name: "Container - Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_rectangle_ref"
   }
 }
 Assets {
@@ -809,15 +755,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8329339828071933523
-  Name: "Concrete Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_001"
-  }
-}
-Assets {
   Id: 8081775035435034954
   Name: "Main Street Wall 02 - Half Doorway 01"
   PlatformAssetType: 1
@@ -923,15 +860,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_railing_001_ref"
-  }
-}
-Assets {
-  Id: 4794041361382728409
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -1139,15 +1067,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dmg_wall_half_001_vrt_01_ref"
-  }
-}
-Assets {
-  Id: 1411445044141844320
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
   }
 }
 Assets {

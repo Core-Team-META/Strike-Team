@@ -27,8 +27,11 @@ Objects {
   ChildIds: 6422352268665505442
   ChildIds: 17946801967237578589
   ChildIds: 11972340447995710411
-  ChildIds: 6781552844774671550
   ChildIds: 17063056198158162943
+  ChildIds: 9956843018633348725
+  ChildIds: 13826134172854811019
+  ChildIds: 4261908777387521950
+  ChildIds: 9737231816731616690
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -40,13 +43,169 @@ Objects {
   }
 }
 Objects {
-  Id: 17063056198158162943
+  Id: 9737231816731616690
+  Name: "Girder Medium Angled"
+  Transform {
+    Location {
+      X: 28.2842712
+      Y: -120.208176
+      Z: -35
+    }
+    Rotation {
+      Yaw: 90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460769728022028952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.359375
+        G: 0.204503313
+        B: 0.121109381
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16417116211763376902
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4261908777387521950
+  Name: "Girder Medium Angled"
+  Transform {
+    Location {
+      X: 42.4264069
+      Y: -120.208168
+      Z: -25
+    }
+    Rotation {
+      Yaw: 90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460769728022028952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.359375
+        G: 0.204503313
+        B: 0.121109381
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16417116211763376902
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13826134172854811019
+  Name: "Girder Medium Angled"
+  Transform {
+    Location {
+      X: 56.5685577
+      Y: -120.208176
+      Z: -10
+    }
+    Rotation {
+      Yaw: 90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460769728022028952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.359375
+        G: 0.204503313
+        B: 0.121109381
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16417116211763376902
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9956843018633348725
   Name: "Floor Grate Fire Escape 2m x 2m"
   Transform {
     Location {
-      X: 632.862305
-      Y: -106.065
-      Z: 998.262756
+      X: 675.287109
+      Y: -144.95697
+      Z: 975
     }
     Rotation {
       Yaw: 179.999954
@@ -81,13 +240,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6781552844774671550
+  Id: 17063056198158162943
   Name: "Floor Grate Fire Escape 2m x 2m"
   Transform {
     Location {
-      X: 496.726654
-      Y: -106.06604
-      Z: 1024.92957
+      X: 491.43924
+      Y: -144.956848
+      Z: 1018.13794
     }
     Rotation {
       Yaw: 179.999954
@@ -282,8 +441,8 @@ Objects {
   Name: "Girder Medium Angled"
   Transform {
     Location {
-      X: 79.8031616
-      Y: -118.477539
+      X: 77.7817535
+      Y: -120.208168
     }
     Rotation {
       Yaw: 89.9999924
