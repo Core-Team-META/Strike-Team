@@ -13,6 +13,13 @@ GlobalEntries {
   DateTime: "2021-02-10T23:13:16.331Z"
 }
 GlobalEntries {
+  Id: "9b2646ac5d51495380aa34473ff20c23"
+  Name: "KonzZwodrei"
+  ScoreFormatted: "0.1"
+  AdditionalData: "048180007"
+  DateTime: "2021-02-17T18:01:03.246Z"
+}
+GlobalEntries {
   Id: "428d6c91010e4485b31712fe577a6442"
   Name: "Blaking707"
   ScoreFormatted: "0.0"
