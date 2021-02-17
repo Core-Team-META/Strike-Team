@@ -31,7 +31,10 @@ function rewardsDatabase.ReturnValues(Type)
     if Database[Type] then
         local Values = {}
         for name,Folder in pairs(Database[Type]) do
-            Values[name] = Folder["Value"] * Multiply
+            Values[name] = {
+                ["Value"] = Folder["Value"] * Multiply,
+                ["Max"] = Folder["Max"]
+            }
         end
         return Values
     end

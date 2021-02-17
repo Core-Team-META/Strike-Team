@@ -180,6 +180,7 @@ Objects {
   ChildIds: 15145806300056321273
   ChildIds: 981725232103542972
   ChildIds: 12608993722101478362
+  ChildIds: 3590238856382596942
   UnregisteredParameters {
     Overrides {
       Name: "cs:WIN"
@@ -198,6 +199,39 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3590238856382596942
+  Name: "Assists"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 896247482797355755
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
   }
 }
 Objects {

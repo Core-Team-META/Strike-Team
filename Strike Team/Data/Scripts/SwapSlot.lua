@@ -25,7 +25,9 @@ local function ToggleWeaponSlot()
     if (UI_CONTAINER.visibility == Visibility.FORCE_OFF) then
         ToggleOn()
     else
-        ToggleOff()
+        if LOCAL_PLAYER.isDead == false then 
+            ToggleOff()
+        end
     end
 end
 

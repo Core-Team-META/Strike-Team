@@ -15,8 +15,8 @@ function RoundEndHandler.CalculateCash(player,Win)
     end
 
     local val = 0
-    for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("Cash")) do
-        val = val +  v*player:GetResource(k)
+    for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("Cash")) do 
+        val = val +  v["Value"]* math.min( player:GetResource(k), v["Max"])
     end
     val = val + FinishValue
     RoundEndHandler.AddCash(player,val)
@@ -40,7 +40,13 @@ function RoundEndHandler.CalculateXP(player,Win)
     else
         FinishValue = _G["REWARDDATABASE"].ReturnLoss("XP")
     end
-    player.serverUserData.XP:AddXP(FinishValue)
+    
+    local val = 0
+    for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("XP")) do 
+        val = val +  v["Value"]* math.min( player:GetResource(k), v["Max"])
+    end
+    val = val + FinishValue
+    player.serverUserData.XP:AddXP(val)
 
 end
 
