@@ -51,6 +51,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5356997660449093087
+  Name: "Fantasy Castle Stairs 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001"
+  }
+}
+Assets {
   Id: 1350712656798786743
   Name: "Grass Short"
   PlatformAssetType: 1

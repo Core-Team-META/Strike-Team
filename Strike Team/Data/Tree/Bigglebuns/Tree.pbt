@@ -1,87 +1,32 @@
 Name: "Bigglebuns"
 RootId: 1229943756454095254
 Objects {
-  Id: 9262691144654087183
-  Name: "Simple Crate 150cm"
+  Id: 15609373510117827560
+  Name: "Hidden"
   Transform {
     Location {
-      X: -7267.78027
-      Y: 6262.67871
-      Z: 695.121094
+      X: -3610.08
+      Y: 3170.86255
     }
     Rotation {
-      Yaw: -44.6398315
     }
     Scale {
-      X: 0.869247913
-      Y: 0.842634559
-      Z: 0.631172359
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 1229943756454095254
+  ChildIds: 4966276557528679232
+  ChildIds: 5107868456560077893
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17613464380176496224
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -7206.64648
-      Y: 6202.30908
-      Z: 597.676453
-    }
-    Rotation {
-      Yaw: -44.6398621
-    }
-    Scale {
-      X: 1.00114989
-      Y: 0.892584324
-      Z: 0.681951046
-    }
-  }
-  ParentId: 1229943756454095254
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
+  Folder {
+    IsGroup: true
   }
 }
 Objects {
@@ -89,13 +34,13 @@ Objects {
   Name: "Urban Pipe Straight - 02 (Prop)"
   Transform {
     Location {
-      X: -7220.16
-      Y: 6341.7251
+      X: -3610.08
+      Y: 3170.86255
       Z: 915.032593
     }
     Rotation {
-      Yaw: -47.5032806
-      Roll: 5.88428068
+      Yaw: -47.5032578
+      Roll: 5.8842845
     }
     Scale {
       X: 0.917118907
@@ -103,7 +48,7 @@ Objects {
       Z: 0.917118907
     }
   }
-  ParentId: 1229943756454095254
+  ParentId: 15609373510117827560
   ChildIds: 1966806576703190802
   ChildIds: 1806544816761198413
   ChildIds: 9868830653251312075
@@ -127,7 +72,9 @@ Objects {
   Name: "Urban Pipe Cap 03"
   Transform {
     Location {
-      Z: 150
+      X: 175.618393
+      Y: -0.000407624699
+      Z: 149.999985
     }
     Rotation {
       Pitch: 3.4150944e-05
@@ -175,7 +122,9 @@ Objects {
   Name: "Urban Pipe Cap 03"
   Transform {
     Location {
-      Z: 125
+      X: 175.6185
+      Y: -0.000224609539
+      Z: 124.999916
     }
     Rotation {
       Pitch: 3.4150944e-05
@@ -223,13 +172,14 @@ Objects {
   Name: "Urban Pipe Clamp 04"
   Transform {
     Location {
-      Y: 40
-      Z: 110
+      X: 175.618195
+      Y: 39.9998207
+      Z: 110.000008
     }
     Rotation {
       Pitch: 90
-      Yaw: 26.565033
-      Roll: -63.4349976
+      Yaw: -90
+      Roll: 179.999985
     }
     Scale {
       X: 1
@@ -272,7 +222,9 @@ Objects {
   Name: "Urban Pipe Straight"
   Transform {
     Location {
-      Z: 15
+      X: 175.618637
+      Y: -4.15943578e-05
+      Z: 15.0000248
     }
     Rotation {
     }
@@ -317,10 +269,12 @@ Objects {
   Name: "Urban Pipe Flange 01"
   Transform {
     Location {
-      Z: 15
+      X: 179.961945
+      Y: -9.98264586e-05
+      Z: 15.0002193
     }
     Rotation {
-      Pitch: -0.000184415097
+      Pitch: -0.000183105469
       Yaw: 146.249817
       Roll: 1.73853477e-05
     }
@@ -365,10 +319,12 @@ Objects {
   Name: "Urban Pipe Flange 02"
   Transform {
     Location {
-      Z: 15
+      X: 179.961945
+      Y: -9.98264586e-05
+      Z: 15.0002193
     }
     Rotation {
-      Pitch: -6.14717e-05
+      Pitch: -6.10351563e-05
       Yaw: -179.999954
       Roll: 179.999939
     }
@@ -405,10 +361,12 @@ Objects {
   Name: "Urban Pipe Flange 02"
   Transform {
     Location {
-      Z: 5
+      X: 179.961945
+      Y: -0.0002454067
+      Z: 5.00020599
     }
     Rotation {
-      Pitch: -6.14717e-05
+      Pitch: -6.10351563e-05
       Yaw: -179.999954
       Roll: 179.999939
     }
@@ -446,12 +404,14 @@ Objects {
   Name: "Urban Pipe Clamp 04"
   Transform {
     Location {
-      Y: 40
-      Z: 175
+      X: 175.618515
+      Y: 39.999897
+      Z: 175.000031
     }
     Rotation {
       Pitch: 90
-      Roll: -90.0000305
+      Yaw: -90
+      Roll: 179.999985
     }
     Scale {
       X: 1
@@ -499,7 +459,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1229943756454095254
+  ParentId: 15609373510117827560
   TemplateInstance {
     ParameterOverrideMap {
       key: 9139102534999517840
@@ -511,8 +471,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7225
-            Y: 6330
+            X: -3506.11426
+            Y: 3040.38306
             Z: 875
           }
         }

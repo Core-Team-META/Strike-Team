@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12056825294615652422
-  Name: "Simple Crate 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crate_simple_150cm_001"
-  }
-}
-Assets {
   Id: 1527224994251334627
   Name: "Urban Pipe Flange 02"
   PlatformAssetType: 1
