@@ -1,6 +1,511 @@
 Name: "SAR_LevelArt"
 RootId: 16373807130785117515
 Objects {
+  Id: 3328828394149905661
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -1200
+      Y: 9070
+      Z: 759.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 30
+            Y: 9785
+            Z: 759.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 1110887078142393478
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: 3015
+      Y: 9785
+      Z: 735
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3015
+            Y: 4375
+            Z: 735
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 17052166336018786344
+  Name: "SAR_SandbagsUnderWindow"
+  Transform {
+    Location {
+      X: -1200
+      Y: 9070
+      Z: 759.999939
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8835265474588084582
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_SandbagsUnderWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3015
+            Y: 9785
+            Z: 735
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5875560434545317275
+    }
+  }
+}
+Objects {
+  Id: 8179768691086381669
+  Name: "SAR_Big Potted Plant"
+  Transform {
+    Location {
+      X: 2660
+      Y: 9782.46094
+      Z: 805
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15877809462822465698
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Big Potted Plant"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 490.000061
+            Y: 8910
+            Z: 825
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17824978440386110214
+    }
+  }
+}
+Objects {
+  Id: 676181246718576352
+  Name: "SAR_Work Bench"
+  Transform {
+    Location {
+      X: 705
+      Y: 9345
+      Z: 130
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16373807130785117515
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11460442521884478572
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Work Bench"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1169.48792
+            Y: 9345
+            Z: 748.196472
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4224185008295043699
+    }
+  }
+}
+Objects {
+  Id: 858900927354519745
+  Name: "SAR_Sofa"
+  Transform {
+    Location {
+      X: 340
+      Y: 8840.00098
+      Z: 145
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 0.994426906
+      Y: 0.994426906
+      Z: 0.994426906
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17905869722399791182
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Sofa"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1504.60693
+            Y: 8947.68652
+            Z: 746.478394
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.994426906
+            Y: 0.994426906
+            Z: 0.994426906
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7600216394752595274
+    }
+  }
+}
+Objects {
+  Id: 3294109937298250453
+  Name: "SAR_Flourescent Light No_Legs"
+  Transform {
+    Location {
+      X: 830
+      Y: 9095
+      Z: 1300
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 0.643666625
+      Y: 0.643666625
+      Z: 0.643666625
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 798555311668383677
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Flourescent Light No_Legs"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2035
+            Y: 9095
+            Z: 1300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999969
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.643666625
+            Y: 0.643666625
+            Z: 0.643666625
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6190213363135701597
+    }
+  }
+}
+Objects {
+  Id: 409983051294759575
+  Name: "SAR_Flourescent Light No_Legs"
+  Transform {
+    Location {
+      X: 115
+      Y: 9310
+      Z: 1300
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 0.643666625
+      Y: 0.643666625
+      Z: 0.643666625
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 798555311668383677
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Flourescent Light No_Legs"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 830
+            Y: 9095
+            Z: 1300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.643666625
+            Y: 0.643666625
+            Z: 0.643666625
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6190213363135701597
+    }
+  }
+}
+Objects {
+  Id: 13581615717517098672
+  Name: "SAR_Flourescent Light No_Legs"
+  Transform {
+    Location {
+      X: 3025
+      Y: 9465
+      Z: 1305
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 0.643666625
+      Y: 0.643666625
+      Z: 0.643666625
+    }
+  }
+  ParentId: 16373807130785117515
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 798555311668383677
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SAR_Flourescent Light No_Legs"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 115
+            Y: 9310
+            Z: 1300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.643666625
+            Y: 0.643666625
+            Z: 0.643666625
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6190213363135701597
+    }
+  }
+}
+Objects {
   Id: 14515731144808150389
   Name: "SAR_Girder_Longer"
   Transform {
@@ -9032,62 +9537,6 @@ Objects {
           Name: "Position"
           Vector {
             X: -772.650879
-            Y: 9300.3877
-            Z: 1301.36523
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.643666625
-            Y: 0.643666625
-            Z: 0.643666625
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13101249077952488461
-    }
-  }
-}
-Objects {
-  Id: 2423630525540824064
-  Name: "SAR_Flourescent Light No_Legs OFF"
-  Transform {
-    Location {
-      X: 115
-      Y: 4915
-      Z: 1310
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 0.643666625
-      Y: 0.643666625
-      Z: 0.643666625
-    }
-  }
-  ParentId: 16373807130785117515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6399681925829023125
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Flourescent Light No_Legs OFF"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 115
             Y: 9300.3877
             Z: 1301.36523
           }
@@ -18761,6 +19210,25 @@ Objects {
   }
   ParentId: 16373807130785117515
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 7564301462769698268
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1470.00012
+            Y: -166.701096
+            Z: 15
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 180
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 14324385461212474207
       value {
@@ -47463,13 +47931,14 @@ Objects {
           Name: "Position"
           Vector {
             X: 4440
-            Y: 8785
+            Y: 8810.88
             Z: 225
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 46.9547
           }
         }
         Overrides {
@@ -57130,7 +57599,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999847
+            Yaw: -90
           }
         }
         Overrides {
