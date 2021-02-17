@@ -4,16 +4,29 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 76
   CustomMaterialAsset {
-    BaseMaterialId: 13085174305471638229
+    BaseMaterialId: 18298649095315083710
     ParameterOverrides {
+      Overrides {
+        Name: "edge_roughness"
+        Float: 1
+      }
+      Overrides {
+        Name: "color"
+        Color {
+          R: 1
+          G: 0.887400031
+          B: 0.436999977
+          A: 1
+        }
+      }
     }
     Assets {
-      Id: 13085174305471638229
-      Name: "Metal Painted Old 01"
+      Id: 18298649095315083710
+      Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_painted_old_001_uv"
+        AssetId: "mi_metal_iron_003"
       }
     }
   }

@@ -118,9 +118,9 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -75.0576172
-            Y: 174
-            Z: 546.265503
+            X: -86.4877853
+            Y: 197.187988
+            Z: 545
           }
           Rotation {
             Yaw: 44.9999847
@@ -133,6 +133,17 @@ Assets {
           }
         }
         ParentId: 15505696672406667806
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.805477321
+              G: 1
+              B: 0.733999968
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -159,9 +170,9 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -219.155273
-            Y: 29.9023438
-            Z: 546.265503
+            X: -230.585434
+            Y: 53.090332
+            Z: 545
           }
           Rotation {
             Yaw: 44.9999847
@@ -174,6 +185,17 @@ Assets {
           }
         }
         ParentId: 15505696672406667806
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.805477321
+              G: 1
+              B: 0.733999968
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -200,7 +222,7 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -63.9213867
+            X: -63.9213791
             Y: 2.86376953
           }
           Rotation {
@@ -209,7 +231,7 @@ Assets {
           Scale {
             X: 3.5
             Y: 3.50000024
-            Z: 4.47423124
+            Z: 4.24621964
           }
         }
         ParentId: 15505696672406667806
@@ -247,9 +269,9 @@ Assets {
         Name: "Wedge"
         Transform {
           Location {
-            X: -56.7094727
-            Y: -4.92431641
-            Z: 447.763672
+            X: -56.709465
+            Y: -4.92431259
+            Z: 423.554962
           }
           Rotation {
             Yaw: 44.9999924
@@ -374,16 +396,16 @@ Assets {
         Name: "Wedge"
         Transform {
           Location {
-            X: -127.738281
-            Y: 66.1044922
-            Z: 490.504883
+            X: -123.537582
+            Y: 61.9038162
+            Z: 466.296173
           }
           Rotation {
             Yaw: 44.9999924
           }
           Scale {
             X: 3.50000095
-            Y: 1.27341056
+            Y: 1.39196134
             Z: 1
           }
         }
