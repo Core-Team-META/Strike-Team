@@ -28,12 +28,11 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 449
           Height: 523
-          UIX: 4.62158203
           UIY: 44
           RenderTransformPivot {
             Anchor {
@@ -494,7 +493,7 @@ Assets {
         Control {
           Width: 30
           Height: 30
-          UIX: 204.652176
+          UIX: 210.652176
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2436,7 +2435,7 @@ Assets {
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           Text {
-            Label: "\302\271 Unless al equipment that\'s available through Champion\'s Crate are unlocked. In this case it\'s 100% chance for cash in the same amounts and chances as stated above."
+            Label: "\302\271 Unless all equipment that\'s available through Champion\'s Crate are unlocked. In this case it\'s a 100% chance for cash in the same amounts and chances as stated above."
             Color {
               R: 1
               G: 1
