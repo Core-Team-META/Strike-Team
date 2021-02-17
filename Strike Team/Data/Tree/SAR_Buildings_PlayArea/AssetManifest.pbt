@@ -593,6 +593,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10863661971228771502
+  Name: "Rock Pile 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
   Id: 10835155324150586940
   Name: "Rock Pile 001"
   PlatformAssetType: 1
@@ -797,6 +806,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
+  }
+}
+Assets {
+  Id: 6357345563865435834
+  Name: "Urban Damaged Rebar Twisted Ends 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_rebar_004_ref"
   }
 }
 Assets {

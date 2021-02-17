@@ -62279,6 +62279,7 @@ Objects {
   ChildIds: 597441492313639053
   ChildIds: 7705100708551598431
   ChildIds: 16263892484107277865
+  ChildIds: 18296656140147409208
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62287,6 +62288,65 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 18296656140147409208
+  Name: "Whitebox Wall 01 - Foundation"
+  Transform {
+    Location {
+      X: 10285
+      Y: 3730
+      Z: 15
+    }
+    Rotation {
+      Pitch: -45
+      Yaw: -135
+    }
+    Scale {
+      X: 0.287176162
+      Y: 2.5825479
+      Z: 1
+    }
+  }
+  ParentId: 2741558925516236087
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1036725943543811742
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.387000024
+        G: 0.387000024
+        B: 0.387000024
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2777530842543105839
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -79532,13 +79592,15 @@ Objects {
   ChildIds: 14596867450435355146
   ChildIds: 10649633020060056888
   ChildIds: 15581730312785965283
-  ChildIds: 14235571685346178483
-  ChildIds: 15913532086962996853
-  ChildIds: 15093579185210046682
   ChildIds: 3983423583147607311
   ChildIds: 7722117620580549980
   ChildIds: 6880687436767748051
   ChildIds: 12411714268046311347
+  ChildIds: 9449177305517058507
+  ChildIds: 5105281646451014265
+  ChildIds: 17742716346031919304
+  ChildIds: 111653921682203761
+  ChildIds: 8256355612915140561
   ChildIds: 8236942259974862731
   ChildIds: 13777464652863628376
   ChildIds: 3234287749666907814
@@ -79549,6 +79611,16 @@ Objects {
   ChildIds: 13479452962060988986
   ChildIds: 5390844669836177548
   ChildIds: 4387747192545547003
+  ChildIds: 5241656322313237191
+  ChildIds: 12574960617808856554
+  ChildIds: 1813563578588871204
+  ChildIds: 17403496532930462107
+  ChildIds: 7914142438715754684
+  ChildIds: 4757490178097487444
+  ChildIds: 13566890521618257627
+  ChildIds: 3333385039279715293
+  ChildIds: 18159335239514363757
+  ChildIds: 2746994358752386297
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -79557,6 +79629,434 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 2746994358752386297
+  Name: "Urban Damaged Rebar Lattice 02"
+  Transform {
+    Location {
+      X: 545
+      Y: -440
+      Z: 885
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.74999994
+      Z: 0.74999994
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6357345563865435834
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18159335239514363757
+  Name: "Urban Damaged Rebar Lattice 02"
+  Transform {
+    Location {
+      X: 1015
+      Y: -450
+      Z: 885
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.74999994
+      Z: 0.74999994
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6357345563865435834
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3333385039279715293
+  Name: "Urban Damaged Rebar Lattice 02"
+  Transform {
+    Location {
+      X: 1015
+      Y: 445
+      Z: 955
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.74999994
+      Z: 0.74999994
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6357345563865435834
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13566890521618257627
+  Name: "Damaged Concrete Pillar 01"
+  Transform {
+    Location {
+      X: 1350
+      Y: -215
+      Z: 755
+    }
+    Rotation {
+      Yaw: -175.501694
+      Roll: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10221011215825579366
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4757490178097487444
+  Name: "Damaged Concrete Pillar 01"
+  Transform {
+    Location {
+      X: 512.155273
+      Y: -803.137634
+      Z: 814.003967
+    }
+    Rotation {
+      Yaw: -87.1221924
+      Roll: -114.088943
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10221011215825579366
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7914142438715754684
+  Name: "Damaged Concrete Pillar 01"
+  Transform {
+    Location {
+      X: 828.25293
+      Y: -774.840454
+      Z: 765.000183
+    }
+    Rotation {
+      Yaw: -78.9029236
+      Roll: -90
+    }
+    Scale {
+      X: 1.0000006
+      Y: 0.99999994
+      Z: 1.28160322
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10221011215825579366
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17403496532930462107
+  Name: "Damaged Concrete Pillar 01"
+  Transform {
+    Location {
+      X: 984.010254
+      Y: 157.487183
+      Z: 760.329468
+    }
+    Rotation {
+      Yaw: -18.0016479
+      Roll: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10221011215825579366
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1813563578588871204
+  Name: "Rock Pile 002"
+  Transform {
+    Location {
+      X: 544.315918
+      Y: -365.245239
+      Z: 692.18457
+    }
+    Rotation {
+      Yaw: 76.2447052
+    }
+    Scale {
+      X: 1.15994442
+      Y: 1.15994442
+      Z: 1.15994442
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10863661971228771502
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12574960617808856554
+  Name: "Rock Pile 002"
+  Transform {
+    Location {
+      X: 1005.82471
+      Y: 461.520142
+      Z: 692.18457
+    }
+    Rotation {
+      Yaw: 76.2447586
+    }
+    Scale {
+      X: 1.15994442
+      Y: 1.15994442
+      Z: 1.15994442
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10863661971228771502
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5241656322313237191
+  Name: "Urban Damaged Concrete Panel 01 - 8x2m"
+  Transform {
+    Location {
+      X: 488.935059
+      Y: 780.432129
+      Z: 833.354675
+    }
+    Rotation {
+      Pitch: 174.053024
+      Roll: -90
+    }
+    Scale {
+      X: 0.562785
+      Y: 0.62914747
+      Z: 0.99999994
+    }
+  }
+  ParentId: 7644137477034581751
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 257782221353076758
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10651116236196901044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -79922,8 +80422,8 @@ Objects {
   Name: "Urban Damaged Concrete Panel 01 - 8x2m"
   Transform {
     Location {
-      X: 1115
-      Y: 780.432129
+      X: 1035
+      Y: 780
       Z: 640
     }
     Rotation {
@@ -79932,7 +80432,7 @@ Objects {
     }
     Scale {
       X: 0.903848886
-      Y: 0.394942045
+      Y: 0.502695918
       Z: 1.00000012
     }
   }
@@ -79981,8 +80481,8 @@ Objects {
       Roll: -90
     }
     Scale {
-      X: 0.602565944
-      Y: 0.398930758
+      X: 0.562781811
+      Y: 0.398930877
       Z: 1.00000012
     }
   }
@@ -80022,16 +80522,16 @@ Objects {
   Name: "Damaged Concrete Pillar Bottom 01"
   Transform {
     Location {
-      X: 1010
-      Y: 330
-      Z: 710
+      X: 495
+      Y: 445
+      Z: 700
     }
     Rotation {
     }
     Scale {
       X: 1
       Y: 1
-      Z: 0.55382812
+      Z: 0.318325222
     }
   }
   ParentId: 7644137477034581751
@@ -80058,20 +80558,227 @@ Objects {
   }
 }
 Objects {
-  Id: 12411714268046311347
+  Id: 8256355612915140561
+  Name: "Urban Damaged Rebar Lattice 02"
+  Transform {
+    Location {
+      X: 505
+      Y: 430
+      Z: 675
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 0.74999994
+      Y: 0.74999994
+      Z: 0.74999994
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6357345563865435834
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 111653921682203761
   Name: "Damaged Concrete Pillar 01"
   Transform {
     Location {
-      X: 540
-      Y: 345
-      Z: 845
+      X: 493.917969
+      Y: 656.217773
+      Z: 932.515
+    }
+    Rotation {
+      Roll: 63.8290215
+    }
+    Scale {
+      X: 1
+      Y: 0.999999762
+      Z: 1.11285233
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10221011215825579366
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17742716346031919304
+  Name: "Damaged Concrete Pillar 01"
+  Transform {
+    Location {
+      X: 493.917969
+      Y: 977.708
+      Z: 1150.46313
+    }
+    Rotation {
+      Roll: 45.8455734
+    }
+    Scale {
+      X: 1
+      Y: 0.999999762
+      Z: 1.11285233
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10221011215825579366
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5105281646451014265
+  Name: "Rock Pile 002"
+  Transform {
+    Location {
+      X: 494.515137
+      Y: 846.615479
+      Z: 614.289734
     }
     Rotation {
     }
     Scale {
+      X: 1.15994442
+      Y: 1.15994442
+      Z: 1.15994442
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10863661971228771502
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9449177305517058507
+  Name: "Rock Pile 002"
+  Transform {
+    Location {
+      X: 494.515137
+      Y: 484.50354
+      Z: 685.040894
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.15994442
+      Y: 1.15994442
+      Z: 1.15994442
+    }
+  }
+  ParentId: 7644137477034581751
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10863661971228771502
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12411714268046311347
+  Name: "Damaged Concrete Pillar 01"
+  Transform {
+    Location {
+      X: 1010
+      Y: 445
+      Z: 840
+    }
+    Rotation {
+      Pitch: 180
+    }
+    Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.25
     }
   }
   ParentId: 7644137477034581751
@@ -80104,10 +80811,10 @@ Objects {
     Location {
       X: 1010
       Y: -445
-      Z: 845.000244
+      Z: 782.961487
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999695
     }
     Scale {
       X: 1
@@ -80225,150 +80932,6 @@ Objects {
     StaticMesh {
       Physics {
       }
-    }
-  }
-}
-Objects {
-  Id: 15093579185210046682
-  Name: "SAR_WindowClosedResidential"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7644137477034581751
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 18236531438999725126
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_WindowClosedResidential"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 180
-            Z: 330
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -179.999969
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3999691626989080493
-    }
-  }
-}
-Objects {
-  Id: 15913532086962996853
-  Name: "Craftsman Part - Doorway"
-  Transform {
-    Location {
-      X: 165
-      Y: 405
-      Z: 180
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7644137477034581751
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 8173848993185204084
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18075009058174876361
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14235571685346178483
-  Name: "SAR_Door02"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7644137477034581751
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11373479800805593766
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Door02"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 170
-            Y: 495
-            Z: 205.000046
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999847
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 325116006820559383
     }
   }
 }
@@ -80616,14 +81179,14 @@ Objects {
   Transform {
     Location {
       X: 170
-      Y: -669.837891
+      Y: -91.0219727
       Z: 205
     }
     Rotation {
     }
     Scale {
       X: 0.5
-      Y: 5.4
+      Y: 16.6684303
       Z: 5.79999876
     }
   }
@@ -80676,7 +81239,6 @@ Objects {
     }
   }
   ParentId: 7644137477034581751
-  ChildIds: 16862974355074689665
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80685,63 +81247,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16862974355074689665
-  Name: "Whitebox Wall 01 Window Slot 1x"
-  Transform {
-    Location {
-      X: -310
-      Y: -40.0001221
-      Z: 185
-    }
-    Rotation {
-      Pitch: 2.04905664e-05
-      Yaw: -9.15527344e-05
-      Roll: -3.05175781e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8447466304366632950
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 15523104024228017838
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 15523104024228017838
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2515235952476239543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -80762,7 +81267,6 @@ Objects {
     }
   }
   ParentId: 7644137477034581751
-  ChildIds: 12725925709389514461
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80771,62 +81275,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 12725925709389514461
-  Name: "Whitebox Wall 01 Doorway"
-  Transform {
-    Location {
-      X: 5
-      Y: 410
-      Z: -12.8508911
-    }
-    Rotation {
-      Yaw: -89.9999695
-      Roll: -3.05175781e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12259922137447985557
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 15523104024228017838
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 15523104024228017838
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7531058706496198656
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -80936,17 +81384,18 @@ Objects {
   Name: "Urban Damaged Concrete Panel End 02"
   Transform {
     Location {
-      X: 465
-      Y: 780
+      X: 580.163574
+      Y: 781.790527
       Z: 635
     }
     Rotation {
-      Roll: 89.9999847
+      Yaw: 180
+      Roll: 90
     }
     Scale {
       X: 1
-      Y: 1
-      Z: 1
+      Y: 1.30922496
+      Z: 0.999999881
     }
   }
   ParentId: 7644137477034581751
@@ -80985,18 +81434,17 @@ Objects {
   Name: "Urban Damaged Concrete Panel End 02"
   Transform {
     Location {
-      X: 1120
+      X: 1015
       Y: 780
       Z: 630
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: 89.9999619
+      Roll: 90
     }
     Scale {
       X: 1
-      Y: 0.958641231
-      Z: 1
+      Y: 1.10257912
+      Z: 0.99999994
     }
   }
   ParentId: 7644137477034581751
@@ -81473,7 +81921,6 @@ Objects {
   ChildIds: 17547054137172765155
   ChildIds: 3811605031068978956
   ChildIds: 1336971509165974763
-  ChildIds: 2789567803388251093
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -81482,47 +81929,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 2789567803388251093
-  Name: "Simple Crate 150cm"
-  Transform {
-    Location {
-      X: -284.576477
-      Y: -138.533234
-      Z: 13.121521
-    }
-    Rotation {
-      Yaw: -67.5001831
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 6646463950963983711
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12056825294615652422
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -85394,7 +85800,7 @@ Objects {
     Location {
       X: 751.006836
       Y: -636.634766
-      Z: 575
+      Z: 540
     }
     Rotation {
     }
@@ -86064,7 +86470,7 @@ Objects {
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
-      X: 1205.55664
+      X: 1207.60791
       Y: -26.6347656
       Z: 10.000061
     }
@@ -86073,7 +86479,7 @@ Objects {
     Scale {
       X: 1
       Y: 1
-      Z: 0.900000036
+      Z: 0.920556426
     }
   }
   ParentId: 4749856199096210012
@@ -88496,7 +88902,7 @@ Objects {
     }
     Scale {
       X: 0.1
-      Y: 0.3
+      Y: 0.360839814
       Z: 1.9
     }
   }
@@ -96357,7 +96763,7 @@ Objects {
     Location {
       X: 858.547852
       Y: -1107.40576
-      Z: 3.25952148
+      Z: -3.1697998
     }
     Rotation {
       Yaw: -179.999954
@@ -100342,9 +100748,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1509.479
+      X: 1669.02307
       Y: -50.5847168
-      Z: 30
+      Z: 75
     }
     Rotation {
       Yaw: -45
@@ -100403,9 +100809,9 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1549.00378
+      X: 1708.54785
       Y: -159.990967
-      Z: 30
+      Z: 75
     }
     Rotation {
       Yaw: 42.004509
@@ -100795,7 +101201,7 @@ Objects {
     Scale {
       X: 5.09999943
       Y: 0.5
-      Z: 4.5
+      Z: 4.06886
     }
   }
   ParentId: 3605840952494698000
@@ -100834,8 +101240,8 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 1608.54785
-      Y: 82.5942383
+      X: 1691.01306
+      Y: 0.129150391
       Z: 485
     }
     Rotation {
@@ -107217,12 +107623,7 @@ Objects {
   }
   ParentId: 11830383650187534558
   ChildIds: 2780751246780967904
-  ChildIds: 5276556514473275369
-  ChildIds: 2173009402301641288
-  ChildIds: 14430690336982142208
-  ChildIds: 12940630913940881905
-  ChildIds: 14976394847367417946
-  ChildIds: 17899300344447056639
+  ChildIds: 12165856369084580767
   ChildIds: 5587304050015989075
   ChildIds: 15604105143490758286
   ChildIds: 359438837189379063
@@ -113312,16 +113713,15 @@ Objects {
   }
 }
 Objects {
-  Id: 17899300344447056639
-  Name: "Floor Grate Fire Escape 2m x 2m"
+  Id: 12165856369084580767
+  Name: "Balcony"
   Transform {
     Location {
-      X: -531.23
-      Y: 1274.54492
-      Z: 670.000244
+      X: -586.459106
+      Y: 1041.21167
+      Z: 520.000244
     }
     Rotation {
-      Yaw: -89.9999771
     }
     Scale {
       X: 1
@@ -113330,6 +113730,129 @@ Objects {
     }
   }
   ParentId: 984930189204044987
+  ChildIds: 152866043566340808
+  ChildIds: 2111080706289211024
+  ChildIds: 5258847430345094835
+  ChildIds: 2177910467382917432
+  ChildIds: 16794888606689349421
+  ChildIds: 6437615166133254409
+  ChildIds: 15955549075318387502
+  ChildIds: 12324661429298116088
+  ChildIds: 4183199873368825362
+  ChildIds: 4761700873206935826
+  ChildIds: 6171889208179019849
+  ChildIds: 16918063588324759420
+  ChildIds: 18311332185171362622
+  ChildIds: 10871047768826821614
+  ChildIds: 14430690336982142208
+  ChildIds: 12940630913940881905
+  ChildIds: 14976394847367417946
+  ChildIds: 17899300344447056639
+  ChildIds: 14260935128291499933
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14260935128291499933
+  Name: "Railing 01 Post Mainstreet"
+  Transform {
+    Location {
+      X: 54.7688
+      Y: -361.667
+      Z: 175.000061
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4519163911553529386
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17899300344447056639
+  Name: "Floor Grate Fire Escape 2m x 2m"
+  Transform {
+    Location {
+      X: 55.2290039
+      Y: 233.333008
+      Z: 150
+    }
+    Rotation {
+      Yaw: -89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113357,12 +113880,12 @@ Objects {
   Name: "Floor Grate Fire Escape 2m x 2m"
   Transform {
     Location {
-      X: -531.229736
-      Y: 1074.54492
-      Z: 670.000244
+      X: 55.229248
+      Y: 33.3330078
+      Z: 150
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999619
     }
     Scale {
       X: 1
@@ -113370,7 +113893,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 984930189204044987
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113398,12 +113938,12 @@ Objects {
   Name: "Floor Grate Fire Escape 2m x 2m"
   Transform {
     Location {
-      X: -531.229492
-      Y: 874.544922
-      Z: 670.000244
+      X: 55.2294922
+      Y: -166.666992
+      Z: 150
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999619
     }
     Scale {
       X: 1
@@ -113411,7 +113951,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 984930189204044987
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113439,12 +113996,12 @@ Objects {
   Name: "Floor Grate Fire Escape 2m x 2m"
   Transform {
     Location {
-      X: -531.231201
-      Y: 1474.54395
-      Z: 670.000244
+      X: 55.2277832
+      Y: 433.332031
+      Z: 150
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999619
     }
     Scale {
       X: 1
@@ -113452,7 +114009,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 984930189204044987
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113476,57 +114050,16 @@ Objects {
   }
 }
 Objects {
-  Id: 2173009402301641288
-  Name: "Railing"
-  Transform {
-    Location {
-      X: -861.917
-      Y: 774.545898
-      Z: 685.000305
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 984930189204044987
-  ChildIds: 5258847430345094835
-  ChildIds: 2177910467382917432
-  ChildIds: 16794888606689349421
-  ChildIds: 6437615166133254409
-  ChildIds: 15955549075318387502
-  ChildIds: 12324661429298116088
-  ChildIds: 4183199873368825362
-  ChildIds: 4761700873206935826
-  ChildIds: 6171889208179019849
-  ChildIds: 16918063588324759420
-  ChildIds: 18311332185171362622
-  ChildIds: 10871047768826821614
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 10871047768826821614
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: 299.999054
-      Y: -144.999573
-      Z: 25
+      X: -130.458252
+      Y: 33.3330078
+      Z: 190.000061
     }
     Rotation {
-      Yaw: 3.90826468e-11
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113534,7 +114067,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113562,12 +114112,12 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 499.995331
-      Y: -144.998795
-      Z: 10
+      X: -130.45874
+      Y: 233.329102
+      Z: 175.000061
     }
     Rotation {
-      Yaw: 3.90826468e-11
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113575,7 +114125,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113603,12 +114170,12 @@ Objects {
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: 94.9990387
-      Y: -144.999863
-      Z: 25
+      X: -130.458008
+      Y: -171.666992
+      Z: 190.000061
     }
     Rotation {
-      Yaw: 1.95413234e-11
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113616,7 +114183,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113644,12 +114228,12 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 294.995331
-      Y: -144.999084
-      Z: 10
+      X: -130.45874
+      Y: 28.3291016
+      Z: 175.000061
     }
     Rotation {
-      Yaw: 1.95413234e-11
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113657,7 +114241,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113685,11 +114286,12 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: -95.0007935
-      Y: -144.999817
-      Z: 10
+      X: -130.458252
+      Y: -361.667
+      Z: 175.000061
     }
     Rotation {
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113697,7 +114299,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113725,11 +114344,12 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 99.9970703
-      Y: -144.999359
-      Z: 10
+      X: -130.458496
+      Y: -166.668945
+      Z: 175.000061
     }
     Rotation {
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113737,7 +114357,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113765,11 +114402,12 @@ Objects {
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: -95.0007935
-      Y: -144.999817
-      Z: 25
+      X: -130.458252
+      Y: -361.667
+      Z: 190.000061
     }
     Rotation {
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113777,7 +114415,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113805,11 +114460,12 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 699.998047
-      Y: -144.998505
-      Z: 10
+      X: -130.458984
+      Y: 433.332031
+      Z: 175.000061
     }
     Rotation {
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113817,7 +114473,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113845,11 +114518,12 @@ Objects {
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: 499.999054
-      Y: -144.998795
-      Z: 25
+      X: -130.45874
+      Y: 233.333008
+      Z: 190.000061
     }
     Rotation {
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113857,7 +114531,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113885,12 +114576,12 @@ Objects {
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: -95.0008087
-      Y: -139.999832
-      Z: 25
+      X: -135.458252
+      Y: -361.667
+      Z: 190.000061
     }
     Rotation {
-      Yaw: -90
+      Yaw: -4.78113216e-05
     }
     Scale {
       X: 1
@@ -113898,7 +114589,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113926,11 +114634,12 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 699.988464
-      Y: -329.999
-      Z: 10
+      X: 54.5415039
+      Y: 433.322266
+      Z: 175.000061
     }
     Rotation {
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -113938,7 +114647,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113966,12 +114692,12 @@ Objects {
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: 699.986938
-      Y: -144.999
-      Z: 25
+      X: -130.458496
+      Y: 433.321289
+      Z: 190.000061
     }
     Rotation {
-      Yaw: -90
+      Yaw: -4.78113216e-05
     }
     Scale {
       X: 1
@@ -113979,7 +114705,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2173009402301641288
+  ParentId: 12165856369084580767
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.692649
+        B: 0.49
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114003,45 +114746,15 @@ Objects {
   }
 }
 Objects {
-  Id: 5276556514473275369
-  Name: "Supports"
-  Transform {
-    Location {
-      X: -531.917
-      Y: 774.544922
-      Z: 520.000244
-    }
-    Rotation {
-      Yaw: -89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 984930189204044987
-  ChildIds: 152866043566340808
-  ChildIds: 2111080706289211024
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 2111080706289211024
   Name: "Girder Medium Angled"
   Transform {
     Location {
-      X: 89.9999924
+      X: 54.5419922
+      Y: -356.667
     }
     Rotation {
-      Yaw: -89.999939
+      Yaw: -179.999893
     }
     Scale {
       X: 1
@@ -114049,15 +114762,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5276556514473275369
+  ParentId: 12165856369084580767
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.359375
-        G: 0.204503313
-        B: 0.121109381
+        R: 1
+        G: 0.692649
+        B: 0.49
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
       }
     }
   }
@@ -114088,11 +114807,11 @@ Objects {
   Name: "Girder Medium Angled"
   Transform {
     Location {
-      X: -684.998352
-      Y: -0.000489949132
+      X: 54.5410156
+      Y: 418.331055
     }
     Rotation {
-      Yaw: -89.999939
+      Yaw: -179.999893
     }
     Scale {
       X: 1
@@ -114100,15 +114819,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5276556514473275369
+  ParentId: 12165856369084580767
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.359375
-        G: 0.204503313
-        B: 0.121109381
+        R: 1
+        G: 0.692649
+        B: 0.49
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18298649095315083710
       }
     }
   }
@@ -121027,6 +121752,7 @@ Objects {
     Location {
       X: -100
       Y: -1105
+      Z: 0.968505859
     }
     Rotation {
       Yaw: 89.9999771
@@ -121102,6 +121828,7 @@ Objects {
     Location {
       X: -100
       Y: 535
+      Z: 0.968505859
     }
     Rotation {
       Yaw: 89.9999924
@@ -139311,8 +140038,8 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 300.519287
-      Y: 89.1601715
+      X: 304.05481
+      Y: 106.837784
       Z: 10
     }
     Rotation {
@@ -139359,8 +140086,8 @@ Objects {
   Name: "Floor Grate Fire Escape 2m x 2m"
   Transform {
     Location {
-      X: 512.651489
-      Y: -130.042908
+      X: 512.651367
+      Y: -101.758606
       Z: -15
     }
     Rotation {
@@ -139407,8 +140134,8 @@ Objects {
   Name: "Railing 01 2m Mainstreet"
   Transform {
     Location {
-      X: 299.264954
-      Y: 85.5566406
+      X: 302.800507
+      Y: 103.234268
       Z: 25
     }
     Rotation {
@@ -139479,16 +140206,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail1:id"
       AssetReference {
-        Id: 13085174305471638229
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.1803931
-        G: 0.223958
-        B: 0.16438517
-        A: 1
+        Id: 1783293305347824158
       }
     }
   }
@@ -140321,16 +141039,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail1:id"
       AssetReference {
-        Id: 13085174305471638229
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.1803931
-        G: 0.223958
-        B: 0.16438517
-        A: 1
+        Id: 1783293305347824158
       }
     }
   }
@@ -140896,8 +141605,8 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 498.509247
-      Y: 89.1602478
+      X: 502.044739
+      Y: 106.837921
       Z: 10
     }
     Rotation {

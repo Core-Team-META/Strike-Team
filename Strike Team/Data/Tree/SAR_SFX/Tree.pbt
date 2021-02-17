@@ -152,7 +152,6 @@ Objects {
     Falloff: 2000
     Radius: 500
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }
@@ -225,7 +224,6 @@ Objects {
     Falloff: 2000
     Radius: 500
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }
@@ -262,7 +260,6 @@ Objects {
     Falloff: 2000
     Radius: 500
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }
@@ -299,7 +296,6 @@ Objects {
     Falloff: 2000
     Radius: 500
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }
@@ -336,7 +332,6 @@ Objects {
     Falloff: 2000
     Radius: 500
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }

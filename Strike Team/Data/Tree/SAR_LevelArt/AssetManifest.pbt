@@ -1592,15 +1592,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2347011262942164268
-  Name: "Shipping Pallet - Square"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_002"
-  }
-}
-Assets {
   Id: 1739996898153061063
   Name: "Small Open Crate"
   PlatformAssetType: 1
