@@ -60,7 +60,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Duration"
-      Float: 29
+      Float: 55
     }
     Overrides {
       Name: "cs:NumberOfWinners"

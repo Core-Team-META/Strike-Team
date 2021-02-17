@@ -11,7 +11,7 @@ Entries {
     StringVar: "Lootbox.CanOpen"
   }
   SimpleValue {
-    IntVar: 1
+    IntVar: 0
   }
 }
 Entries {

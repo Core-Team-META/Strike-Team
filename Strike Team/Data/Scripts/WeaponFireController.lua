@@ -9,6 +9,10 @@ local ScriptEvent
 local FireBind
 local UnFireBind
 
+-- Internal constant variable
+local LOCAL_PLAYER = Game.GetLocalPlayer()
+
+
 local StopFire = false
 local Firing = false
 local WEAPON = script:FindAncestorByType('Weapon')
@@ -36,7 +40,7 @@ end
 function FireAbility()   
     if(BURST_COUNT >= 0 ) then
         for i=1,BURST_COUNT do
-            if CheckFiring() then 
+            if CheckFiring() or WEAPON.clientUserData.SHOOT_ABILITY.owner ~= LOCAL_PLAYER then 
                 ResetFire()
                 return 
             end
@@ -45,7 +49,7 @@ function FireAbility()
         end
     else
         while true do 
-            if CheckFiring() then
+            if CheckFiring() or WEAPON.clientUserData.SHOOT_ABILITY.owner ~= LOCAL_PLAYER then
                 ResetFire()
                 return 
             end

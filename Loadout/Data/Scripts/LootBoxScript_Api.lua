@@ -44,7 +44,7 @@ if Environment.IsServer() then
     end
 
     function LootBox.UpdateTime(player)
-        local CountdownTimer = 60*60*24
+        local CountdownTimer = 60*60*20
         local data = Storage.GetPlayerData(player)
         data["Lootbox.LastOpen"] = os.time()
         data["Lootbox.OpenTime"] = os.time() + CountdownTimer

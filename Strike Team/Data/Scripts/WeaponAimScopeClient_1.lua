@@ -71,14 +71,14 @@ local isScoping = false
 function Tick(deltaTime)
     if not CAN_AIM  then return end
     if not Object.IsValid(WEAPON) then return end
-    if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
     -- We call OnEquipped function after player is fully loaded in client
     if Object.IsValid(WEAPON.owner)  and not connected then
         if GetPlayerActiveCamera(WEAPON.owner) == nil then return end
-
+        
         OnEquipped(WEAPON, WEAPON.owner)
         connected = true
     end
+    if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
     if WEAPON.owner ~= LOCAL_PLAYER then return end
     -- Smoothly lerps the camera distance and FOV when player aims
     LerpCamera(deltaTime)
@@ -248,7 +248,7 @@ function OnEquipped(weapon, player)
     activeCamera = GetPlayerActiveCamera(player)
     if activeCamera then
         --cameraResetDistance = activeCamera.currentDistance
-        cameraResetFOV = activeCamera.fieldOfView
+        --cameraResetFOV = activeCamera.fieldOfView
         cameraResetPosOffset = activeCamera:GetPositionOffset()
         cameraResetRotOffset = activeCamera:GetRotationOffset()
 
@@ -258,21 +258,21 @@ function OnEquipped(weapon, player)
 end
 
 function OnUnequipped(_, player)
+    connected = false
     --ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
-    if pressedHandle then 
-        pressedHandle:Disconnect()
-        pressedHandle = nil
-    end
-    if releasedHandle then  
-        releasedHandle:Disconnect() 
-        releasedHandle = nil 
-    end
-    
+        if pressedHandle then 
+            pressedHandle:Disconnect()
+            pressedHandle = nil
+        end
+        if releasedHandle then  
+            releasedHandle:Disconnect() 
+            releasedHandle = nil 
+        end    
     -- Remove the reference to the camera
     if Object.IsValid(activeCamera) then
-        --activeCamera.currentDistance = cameraResetDistance
+        activeCamera.currentDistance = cameraResetDistance
         activeCamera.fieldOfView = cameraResetFOV
         activeCamera = nil
     end
@@ -281,8 +281,7 @@ function OnUnequipped(_, player)
         scopeInstance:Destroy()
         scopeInstance = nil
     end
-    connected = false
-    
+
     ForceReset(player)
 end
 

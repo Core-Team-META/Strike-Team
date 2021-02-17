@@ -2874,7 +2874,7 @@ Assets {
           Overrides {
             Name: "cs:ScopeTemplate"
             AssetReference {
-              Id: 9212970354387281540
+              Id: 387762490521360333
             }
           }
           Overrides {

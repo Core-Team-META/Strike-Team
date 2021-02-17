@@ -11,4 +11,4 @@ LeaderboardConfigs {
     EntryLimit: 500
   }
 }
-MaxPlayers: 16
+MaxPlayers: 12
