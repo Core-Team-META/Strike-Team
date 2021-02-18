@@ -6,8 +6,8 @@ repeat
     
 until GT_API
 
+while not _G["REWARDDATABASE"] do Task.Wait() end
 local localPlayer = Game.GetLocalPlayer()
-
 local localPlayerXP
 repeat
 
@@ -473,21 +473,40 @@ function AnimateLevel()
 
 end
 
+function CalculateCashTotal()
+    local FinishValue = 0
+	local val = 0
+
+    if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
+        FinishValue = _G["REWARDDATABASE"].ReturnWin("Cash")
+    else
+        FinishValue = _G["REWARDDATABASE"].ReturnLoss("Cash")
+    end
+
+    for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("Cash")) do 
+        val = val +  v["Value"]* math.min( localPlayer:GetResource(k), v["Max"])
+    end
+
+	val = val + FinishValue
+    return val
+end
+
 function AnimateStats()
+	local CashTotal = CalculateCashTotal()
 
 	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
 	
 		AnimateWordText(roundResultText, "WIN", true)
 		CountThisTextUp(valueRoundResultText, winValue, " ", false)
 		CountThisTextUp(cashRoundResultText, winValue, "+", false)
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + winValue, "+", false)
+		CountThisTextUp(cashTotalText, CashTotal , "+", false)
 		
 	else 
 	
 		AnimateWordText(roundResultText, "LOSS", true)
 		CountThisTextUp(valueRoundResultText, lossValue, " ", false)
 		CountThisTextUp(cashRoundResultText, lossValue, "+", false)
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + lossValue, "+", false)
+		CountThisTextUp(cashTotalText, CashTotal , "+", false)
 		
 	end
 	

@@ -7,7 +7,7 @@ local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")
 function SetUp(player)
     return {
         ["1"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
-        ["2"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
+        ["2"] = "SP_00-S4_00-LI_00-EL_00-EP_00",
         ["3"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
         ["4"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
         ["5"] = "HK_00-S4_00-LI_00-EL_00-EP_00",

@@ -5543,7 +5543,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 2
+          Int: 0
         }
       }
     }
