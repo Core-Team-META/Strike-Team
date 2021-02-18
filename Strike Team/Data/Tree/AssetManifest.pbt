@@ -1,22 +1,4 @@
 Assets {
-  Id: 13362988571131584785
-  Name: "Decal Sci-fi Details 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_scf_details_001_ref"
-  }
-}
-Assets {
-  Id: 12977585700991343703
-  Name: "Decal Street Litter 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_urb_debris_001_ref"
-  }
-}
-Assets {
   Id: 10271821231561790687
   Name: "Storage"
   PlatformAssetType: 23
