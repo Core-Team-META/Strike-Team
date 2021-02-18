@@ -4611,7 +4611,7 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -469.739624
+      X: -380.91333
       Y: 6128.14893
       Z: 847.705322
     }

@@ -29,7 +29,6 @@ Objects {
   ChildIds: 8492026800449626092
   ChildIds: 10996531461860900982
   ChildIds: 1229943756454095254
-  ChildIds: 6096664533219737138
   ChildIds: 10994677294877589670
   ChildIds: 5896239951057885929
   UnregisteredParameters {
@@ -447,40 +446,6 @@ Objects {
     TeamSettings {
     }
     DecalBP {
-    }
-  }
-}
-Objects {
-  Id: 6096664533219737138
-  Name: "SAR_Flourescent Light No_Legs OFF"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6399681925829023125
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Flourescent Light No_Legs OFF"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1450
-            Y: 9095.85352
-            Z: 1301.25
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13101249077952488461
     }
   }
 }

@@ -73,6 +73,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Sign_Face:id"
+            AssetReference {
+              Id: 13412464127967364327
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

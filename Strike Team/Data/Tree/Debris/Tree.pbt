@@ -738,9 +738,9 @@ Objects {
   Name: "Decal Debris 02"
   Transform {
     Location {
-      X: -5043.1709
+      X: -5142.53613
       Y: -2935.34229
-      Z: 761.208801
+      Z: 764.866089
     }
     Rotation {
     }
