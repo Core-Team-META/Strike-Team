@@ -221,6 +221,10 @@ Objects {
       Name: "cs:Value"
       Float: 10
     }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 20
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -252,7 +256,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 10000
     }
   }
   Collidable_v2 {
@@ -391,6 +399,10 @@ Objects {
       Name: "cs:Value"
       Float: 30
     }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 10000
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -456,6 +468,10 @@ Objects {
     Overrides {
       Name: "cs:Value"
       Float: 50
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 20
     }
   }
   Collidable_v2 {

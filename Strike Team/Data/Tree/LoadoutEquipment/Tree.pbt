@@ -9801,7 +9801,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 2
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
