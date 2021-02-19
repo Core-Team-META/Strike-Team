@@ -1,4 +1,4 @@
-local EaseUI = require(script:GetCustomProperty("EaseUI"))
+--[[ local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local PANEL = script:GetCustomProperty("UIPanel"):WaitForObject()
 local DEBUG_UI = script:GetCustomProperty("DebugUI")
 
@@ -18,8 +18,8 @@ local CENTER_ICON_PANEL = script:GetCustomProperty("CenterIconPanel"):WaitForObj
 
 local TEXT_LEFT = script:GetCustomProperty("LeftText")
 local TEXT_RIGHT = script:GetCustomProperty("RightText")
-local TEXT_LEFT_PANEL = script:GetCustomProperty("LeftTextPanel"):WaitForObject()
-local TEXT_RIGHT_PANEL = script:GetCustomProperty("RightTextPanel"):WaitForObject()
+local TEXT_LEFT_PANEL = script:GetCustomProperty("TopTextPanel"):WaitForObject()
+local TEXT_RIGHT_PANEL = script:GetCustomProperty("BottomTextPanel"):WaitForObject()
 
 local iconBGShape = script:GetCustomProperty("IconBGShape")
 local iconImage = script:GetCustomProperty("IconImage")
@@ -64,8 +64,6 @@ for _, text in pairs(TEXT_RIGHT_PANEL:FindDescendantsByType("UIText")) do
     end
 end
 
-
-
 for _, image in pairs(IMAGES) do
     if (image.name == "BG Blend") then
         image:SetColor(colorBackgroundBlend)
@@ -95,7 +93,7 @@ for _, image in pairs(IMAGES) do
         image:SetColor(colorIconBGOutline)
         image:SetImage(iconBGShape)
     end
-end
+end 
 
 if (not PANEL:IsVisibleInHierarchy()) then
     PANEL.visibility = Visibility.FORCE_ON
@@ -132,3 +130,4 @@ end
 -- Task.Wait(2.4)
 -- EaseUI.EaseY(propUIPanel, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
 
+ ]]
