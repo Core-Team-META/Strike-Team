@@ -124,10 +124,11 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
-    Height: 40
+    Width: 505
+    Height: 70
     UIY: 140
     RenderTransformPivot {
       Anchor {
@@ -135,7 +136,6 @@ Objects {
       }
     }
     AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
     Panel {
     }
     AnchorLayout {
@@ -154,7 +154,7 @@ Objects {
 }
 Objects {
   Id: 16672633887967051494
-  Name: "Right Text Panel"
+  Name: "Bottom Text Panel"
   Transform {
     Location {
     }
@@ -167,11 +167,7 @@ Objects {
     }
   }
   ParentId: 10838304988631905361
-  ChildIds: 13287015132181770620
-  ChildIds: 2292902581577279769
-  ChildIds: 17544088782686284061
-  ChildIds: 9099152395872966227
-  ChildIds: 493266622596305146
+  ChildIds: 518325413231268283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -179,15 +175,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 250
-    Height: 5
-    UIX: 180
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
     UseParentHeight: true
     Panel {
     }
@@ -206,7 +200,59 @@ Objects {
   }
 }
 Objects {
-  Id: 493266622596305146
+  Id: 518325413231268283
+  Name: "Bottom Align Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16672633887967051494
+  ChildIds: 7617982470035732143
+  ChildIds: 16025720159766513865
+  ChildIds: 2412173286702020111
+  ChildIds: 13461893814315931370
+  ChildIds: 10127383894677053599
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIY: 30.3297806
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10127383894677053599
   Name: "Text"
   Transform {
     Location {
@@ -219,7 +265,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16672633887967051494
+  ParentId: 518325413231268283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -236,16 +282,16 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "CAPTURED"
+      Label: "STRIKE POINT"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 22
+      Size: 19
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -263,7 +309,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9099152395872966227
+  Id: 13461893814315931370
   Name: "UI Text Box"
   Transform {
     Location {
@@ -276,7 +322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16672633887967051494
+  ParentId: 518325413231268283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -295,13 +341,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "CAPTURED"
+      Label: "STRIKE POINT"
       Color {
         A: 0.775000036
       }
-      Size: 22
+      Size: 19
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -319,7 +365,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17544088782686284061
+  Id: 2412173286702020111
   Name: "UI Text Box"
   Transform {
     Location {
@@ -332,7 +378,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16672633887967051494
+  ParentId: 518325413231268283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -351,13 +397,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "CAPTURED"
+      Label: "STRIKE POINT"
       Color {
         A: 0.775000036
       }
-      Size: 22
+      Size: 19
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -375,7 +421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2292902581577279769
+  Id: 16025720159766513865
   Name: "UI Text Box"
   Transform {
     Location {
@@ -388,7 +434,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16672633887967051494
+  ParentId: 518325413231268283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -407,13 +453,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "CAPTURED"
+      Label: "STRIKE POINT"
       Color {
         A: 0.775000036
       }
-      Size: 22
+      Size: 19
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -431,7 +477,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13287015132181770620
+  Id: 7617982470035732143
   Name: "UI Text Box"
   Transform {
     Location {
@@ -444,7 +490,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16672633887967051494
+  ParentId: 518325413231268283
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -463,13 +509,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "CAPTURED"
+      Label: "STRIKE POINT"
       Color {
         A: 0.775000036
       }
-      Size: 22
+      Size: 19
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -488,7 +534,7 @@ Objects {
 }
 Objects {
   Id: 450641547531422194
-  Name: "Left Text Panel"
+  Name: "Top Text Panel"
   Transform {
     Location {
     }
@@ -501,6 +547,53 @@ Objects {
     }
   }
   ParentId: 10838304988631905361
+  ChildIds: 1651668140244828545
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1651668140244828545
+  Name: "Top Align Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 450641547531422194
   ChildIds: 5933968505504249682
   ChildIds: 447510374778194847
   ChildIds: 10285593534667301992
@@ -513,16 +606,12 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 250
-    Height: 5
-    UIX: -180
+    UIY: -35.9977074
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
     Panel {
     }
     AnchorLayout {
@@ -553,7 +642,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 450641547531422194
+  ParentId: 1651668140244828545
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -579,7 +668,7 @@ Objects {
       }
       Size: 22
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -610,7 +699,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 450641547531422194
+  ParentId: 1651668140244828545
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -635,7 +724,7 @@ Objects {
       }
       Size: 22
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -666,7 +755,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 450641547531422194
+  ParentId: 1651668140244828545
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -691,7 +780,7 @@ Objects {
       }
       Size: 22
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -722,7 +811,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 450641547531422194
+  ParentId: 1651668140244828545
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -747,7 +836,7 @@ Objects {
       }
       Size: 22
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -778,7 +867,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 450641547531422194
+  ParentId: 1651668140244828545
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -803,7 +892,7 @@ Objects {
       }
       Size: 22
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
     }
     AnchorLayout {
@@ -1432,12 +1521,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -1649,7 +1738,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DebugUI"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {

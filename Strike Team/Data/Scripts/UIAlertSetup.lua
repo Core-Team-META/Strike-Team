@@ -42,7 +42,7 @@ if (not DEBUG_UI) then
     CENTER_ICON_PANEL.y = CoreMath.Round(SCREEN_SIZE.x * -0.6)
 end
 
-for _, text in pairs(TEXT_LEFT_PANEL:GetChildren()) do
+for _, text in pairs(TEXT_LEFT_PANEL:FindDescendantsByType("UIText")) do
     if (text.text ~= TEXT_LEFT) then
         text.text = TEXT_LEFT
     end
@@ -53,7 +53,7 @@ for _, text in pairs(TEXT_LEFT_PANEL:GetChildren()) do
     end
 end
 
-for _, text in pairs(TEXT_RIGHT_PANEL:GetChildren()) do
+for _, text in pairs(TEXT_RIGHT_PANEL:FindDescendantsByType("UIText")) do
     if (text.text ~= TEXT_RIGHT) then
         text.text = TEXT_RIGHT
     end
