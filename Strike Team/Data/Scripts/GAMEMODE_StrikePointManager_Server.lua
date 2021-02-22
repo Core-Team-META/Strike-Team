@@ -18,9 +18,12 @@ local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL
 ------------------------------------------------------------------------------------------------------------------------
-while not tonumber(ROOT.name) do Task.Wait() end
+while not tonumber(ROOT.name) do
+    Task.Wait()
+end
 local ID = tonumber(ROOT.name)
 local isActive = false
+local isEnabled = false
 local currentTeam
 local lastTeam
 local playersOnHill = {}
@@ -103,24 +106,26 @@ function OnEndOverlap(Trigger, Object)
 end
 
 function Tick()
-    local data = GetData()
-    local progress = tonumber(data[PROGRESS])
-    if isActive or progress == MAX_PROGRESS then
-        local team = tonumber(data[TEAM])
-        local resource = tonumber(data[RESOURCE])
-        if team == currentTeam and progress < MAX_PROGRESS then
-            SetCurrentProgress(progress + PROGRESS_PER_TICK)
-            Task.Wait(TIME_PER_TICK)
-        elseif progress > 0 and team ~= currentTeam then
-            SetCurrentProgress(progress - PROGRESS_PER_TICK)
-            Task.Wait(TIME_PER_TICK)
-        elseif progress == 0 and currentTeam ~= team then
-            SetCurrentTeam(currentTeam)
-            GT_API.BroadcastTeamCapture(currentTeam)
-        elseif currentTeam == team and progress == MAX_PROGRESS then
-            SetCurrentResource(resource - 1)
-            Game.IncreaseTeamScore(team, 1)
-            Task.Wait(TIME_PER_TICK)
+    if isEnabled then
+        local data = GetData()
+        local progress = tonumber(data[PROGRESS])
+        if isActive or progress == MAX_PROGRESS then
+            local team = tonumber(data[TEAM])
+            local resource = tonumber(data[RESOURCE])
+            if team == currentTeam and progress < MAX_PROGRESS then
+                SetCurrentProgress(progress + PROGRESS_PER_TICK)
+                Task.Wait(TIME_PER_TICK)
+            elseif progress > 0 and team ~= currentTeam then
+                SetCurrentProgress(progress - PROGRESS_PER_TICK)
+                Task.Wait(TIME_PER_TICK)
+            elseif progress == 0 and currentTeam ~= team then
+                SetCurrentTeam(currentTeam)
+                GT_API.BroadcastTeamCapture(currentTeam)
+            elseif currentTeam == team and progress == MAX_PROGRESS then
+                SetCurrentResource(resource - 1)
+                Game.IncreaseTeamScore(team, 1)
+                Task.Wait(TIME_PER_TICK)
+            end
         end
     end
 end
@@ -148,3 +153,5 @@ ROOT.destroyEvent:Connect(OnDestroyed)
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
 SetData({0, 0, MAX_RESOURCE})
+Task.Wait(10)
+isEnabled = true
