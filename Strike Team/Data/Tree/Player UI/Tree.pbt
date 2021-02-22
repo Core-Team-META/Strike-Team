@@ -5410,6 +5410,7 @@ Objects {
   ChildIds: 6818199144354246159
   ChildIds: 12325728577343427746
   ChildIds: 10372377686517285974
+  ChildIds: 14551376888832933477
   UnregisteredParameters {
     Overrides {
       Name: "cs:Scoreboard"
@@ -5474,6 +5475,55 @@ Objects {
   InstanceHistory {
     SelfId: 6136997686353458719
     SubobjectId: 17156434483420047329
+    InstanceId: 18374213684223088802
+    TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 14551376888832933477
+  Name: "Objective"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6136997686353458719
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StatEnabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "RESOURCE"
+    }
+    Overrides {
+      Name: "cs:StatResource"
+      String: "Objective"
+    }
+    Overrides {
+      Name: "cs:StatType:tooltip"
+      String: "Kills, Deaths, Resource"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10372377686517285974
+    SubobjectId: 3805275801016030632
     InstanceId: 18374213684223088802
     TemplateId: 10474175560297017285
   }

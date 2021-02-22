@@ -239,37 +239,6 @@ Objects {
     Overrides {
       Name: "cs:RoundResult"
       ObjectReference {
-        SelfId: 10968159160347136300
-      }
-    }
-    Overrides {
-      Name: "cs:Kills"
-      ObjectReference {
-        SelfId: 1638507088654015107
-      }
-    }
-    Overrides {
-      Name: "cs:Headshots"
-      ObjectReference {
-        SelfId: 1519875972779560986
-      }
-    }
-    Overrides {
-      Name: "cs:CashRoundResult"
-      ObjectReference {
-        SelfId: 7463413153006810107
-      }
-    }
-    Overrides {
-      Name: "cs:CashKills"
-      ObjectReference {
-        SelfId: 15499911738478832514
-      }
-    }
-    Overrides {
-      Name: "cs:CashHeadshots"
-      ObjectReference {
-        SelfId: 17441555283785544200
       }
     }
     Overrides {
@@ -279,21 +248,8 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:ValueRoundResult"
-      ObjectReference {
-        SelfId: 10626927242924772733
-      }
-    }
-    Overrides {
-      Name: "cs:ValueKills"
-      ObjectReference {
-        SelfId: 9973610900761646236
-      }
-    }
-    Overrides {
       Name: "cs:ValueHeadshots"
       ObjectReference {
-        SelfId: 15570508829702180094
       }
     }
     Overrides {
@@ -393,15 +349,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RollTextAnimationCompleteSFX"
-      AssetReference {
-        Id: 17591386188657923609
-      }
-    }
-    Overrides {
-      Name: "cs:RollTextTickSFX"
-      AssetReference {
-        Id: 3523787590995695701
+      Name: "cs:CashPanel"
+      ObjectReference {
+        SelfId: 14986002722833229258
       }
     }
     Overrides {
@@ -417,9 +367,27 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:RollTextAnimationCompleteSFX"
+      AssetReference {
+        Id: 17591386188657923609
+      }
+    }
+    Overrides {
+      Name: "cs:RollTextTickSFX"
+      AssetReference {
+        Id: 3523787590995695701
+      }
+    }
+    Overrides {
       Name: "cs:Gold_SFX"
       AssetReference {
         Id: 1724109739056415583
+      }
+    }
+    Overrides {
+      Name: "cs:CASHROWTEMPLATE"
+      AssetReference {
+        Id: 17435404124068446469
       }
     }
   }
