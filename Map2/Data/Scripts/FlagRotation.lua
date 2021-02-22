@@ -1,0 +1,21 @@
+local FlagRoot = script:GetCustomProperty("FlagRoot"):WaitForObject()
+local Flag1 = script:GetCustomProperty("Flag1"):WaitForObject()
+local Flag2 = script:GetCustomProperty("Flag2"):WaitForObject()
+
+local Ease3D = require(script:GetCustomProperty("Ease3D"))
+
+function Tick()
+	Task.Wait()
+	Ease3D.EaseRotation(FlagRoot, Rotation.New(0, 0, 100), 2, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+	Task.Wait(1)
+	Ease3D.EaseRotation(Flag1, Rotation.New(0, 0, -40), 1, Ease3D.EasingEquation.QUADRATIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.5)
+	Ease3D.EaseRotation(Flag2, Rotation.New(0, 0, -20), .5, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait()
+	Ease3D.EaseRotation(FlagRoot, Rotation.New(0, 0, 180), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.5)
+	Ease3D.EaseRotation(Flag1, Rotation.New(0, 0, 40), .5, Ease3D.EasingEquation.QUADRATIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait(.25)
+	Ease3D.EaseRotation(Flag2, Rotation.New(0, 0, 20), .25, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
+	Task.Wait()
+end
