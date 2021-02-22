@@ -8,12 +8,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17019574181388180866
+  Name: "Oswald"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OswaldRegular_ref"
+  }
+}
+Assets {
   Id: 16259713446874198849
   Name: "Military Frame 006"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Frame_006"
+  }
+}
+Assets {
+  Id: 14540886471016565903
+  Name: "Emblem 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_051"
   }
 }
 Assets {
@@ -32,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Stone_028"
+  }
+}
+Assets {
+  Id: 13575128885289472533
+  Name: "Frame Outlined Thick 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_020"
   }
 }
 Assets {
@@ -62,12 +89,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7809958927931360774
-  Name: "BG Flat 016"
+  Id: 8940414509814343411
+  Name: "Sci-fi Frame 005"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_33"
+    AssetId: "UI_Scifi_Frame_005"
   }
 }
 Assets {
@@ -113,6 +140,33 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 3442050800927043050
+  Name: "Emblem 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_055"
+  }
+}
+Assets {
+  Id: 3160970626470242658
+  Name: "Fantasy Frame 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Frame_002"
+  }
+}
+Assets {
+  Id: 2860868955799774537
+  Name: "BG Flat 012"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_29"
   }
 }
 Assets {
