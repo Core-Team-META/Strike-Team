@@ -395,7 +395,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 463
+          Width: 466
           Height: 69
           RenderTransformPivot {
             Anchor {
@@ -445,8 +445,8 @@ Assets {
         Control {
           Width: 154
           Height: 107
-          UIX: -156.188309
-          UIY: -36.9914
+          UIX: -186.188309
+          UIY: -39
           RotationAngle: 90
           RenderTransformPivot {
             Anchor {
@@ -507,8 +507,8 @@ Assets {
         Control {
           Width: 154
           Height: 107
-          UIX: 263.269928
-          UIY: -36.9914
+          UIX: 294.966827
+          UIY: -39
           RotationAngle: 90
           RenderTransformPivot {
             Anchor {
@@ -807,7 +807,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 484
+          Width: 545
           Height: 140
           UIY: -98.9197693
           RenderTransformPivot {
@@ -1340,7 +1340,7 @@ Assets {
           }
         }
         ParentId: 10253328992312551491
-        ChildIds: 4033268255358114996
+        ChildIds: 7863455747359117332
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1372,10 +1372,67 @@ Assets {
         }
       }
       Objects {
-        Id: 4033268255358114996
-        Name: "ProgressBarBG"
+        Id: 7863455747359117332
+        Name: "ENEMY_PANEL"
         Transform {
           Location {
+            X: 10819.1133
+            Y: -100.0625
+            Z: -4902.02832
+          }
+          Rotation {
+            Yaw: 109.6418
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12064107684075267612
+        ChildIds: 16578576924246303085
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 12
+          UIX: -147
+          UIY: 3.00798798
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topright"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16578576924246303085
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: -3730.96387
+            Y: -10155.9453
+            Z: -4902.02832
           }
           Rotation {
           }
@@ -1385,7 +1442,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12064107684075267612
+        ParentId: 7863455747359117332
+        ChildIds: 12560233683612773858
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1393,34 +1451,190 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 190
-          Height: 18
-          UIX: 190.528
-          UIY: 22.278656
+          Width: 310
+          Height: 99
+          UIX: -42.4867287
+          RotationAngle: -25
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+            IsClipping: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12560233683612773858
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: -0.0009765625
+            Y: -0.001953125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16578576924246303085
+        ChildIds: 7829198613131154443
+        ChildIds: 9222553206125876419
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 235
+          Height: 100
+          RotationAngle: 25
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+            IsClipping: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7829198613131154443
+        Name: "BG"
+        Transform {
+          Location {
+            X: -0.0009765625
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12560233683612773858
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 300
+          Height: 21
+          UIX: -11.1578064
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 1814707273787853473
+            }
+            Color {
+              A: 0.755000055
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9222553206125876419
+        Name: "ENEMY_PROGRESS"
+        Transform {
+          Location {
+            X: -2938.39453
+            Y: 12930
+            Z: 1209.81824
+          }
+          Rotation {
+            Yaw: 56.0354652
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12560233683612773858
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 330
+          Height: 21
           RotationAngle: 180
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          UseParentWidth: true
           StatBar {
             Color {
-              G: 0.563576102
-              B: 0.74
+              R: 0.85
               A: 1
             }
             BackgroundColor {
               R: 1
               G: 1
               B: 1
-              A: 0.183000013
+              A: 0.203921586
             }
-            Percent: 0.420464873
+            Percent: 0.45470944
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:bottomright"
               }
             }
             TargetAnchor {
@@ -1450,7 +1664,7 @@ Assets {
           }
         }
         ParentId: 10253328992312551491
-        ChildIds: 17670268902084189606
+        ChildIds: 2737008766722397234
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1482,10 +1696,67 @@ Assets {
         }
       }
       Objects {
-        Id: 17670268902084189606
-        Name: "ProgressBarBG"
+        Id: 2737008766722397234
+        Name: "TEAM_PANEL"
         Transform {
           Location {
+            X: 10819.1133
+            Y: -100.0625
+            Z: -4902.02832
+          }
+          Rotation {
+            Yaw: 109.6418
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10156289745243584702
+        ChildIds: 10953651808747942373
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 12
+          UIX: 147
+          UIY: 3.00798798
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10953651808747942373
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: -3730.96387
+            Y: -10155.9453
+            Z: -4902.02832
           }
           Rotation {
           }
@@ -1495,7 +1766,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10156289745243584702
+        ParentId: 2737008766722397234
+        ChildIds: 16384985409575288913
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1503,26 +1775,17 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 190
-          Height: 18
-          UIY: 4
+          Width: 302
+          Height: 99
+          UIX: 42.487
+          RotationAngle: 25
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          StatBar {
-            Color {
-              R: 0.570000052
-              A: 1
-            }
-            BackgroundColor {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.183000013
-            }
-            Percent: 0.420464873
+          Panel {
+            IsClipping: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -1533,6 +1796,175 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topright"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16384985409575288913
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: -0.0009765625
+            Y: -0.001953125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10953651808747942373
+        ChildIds: 14255667825567959922
+        ChildIds: 2142867819255188743
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 235
+          Height: 100
+          UIX: 92.5834656
+          UIY: 97.6180496
+          RotationAngle: -25
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+            IsClipping: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14255667825567959922
+        Name: "BG"
+        Transform {
+          Location {
+            X: -0.0009765625
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16384985409575288913
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 300
+          Height: 21
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 1814707273787853473
+            }
+            Color {
+              A: 0.755000055
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2142867819255188743
+        Name: "TEAM_PROGRESS"
+        Transform {
+          Location {
+            X: -2938.39453
+            Y: 12930
+            Z: 1209.81824
+          }
+          Rotation {
+            Yaw: 56.0354652
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16384985409575288913
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 21
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          StatBar {
+            Color {
+              G: 0.67244333
+              B: 0.879622579
+              A: 1
+            }
+            BackgroundColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.203921586
+            }
+            Percent: 0.45470944
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
               }
             }
           }
