@@ -660,6 +660,14 @@ Objects {
       Name: "bp:Expand Gamut"
       Float: 1
     }
+    Overrides {
+      Name: "bp:Shadow Max"
+      Float: 0.0962751061
+    }
+    Overrides {
+      Name: "bp:Highlights Min"
+      Float: 0.708414912
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -776,9 +784,9 @@ Objects {
     Overrides {
       Name: "bp:Albedo"
       Color {
-        R: 0.447
-        G: 0.638
-        B: 1
+        R: 1
+        G: 0.638410568
+        B: 0.399999976
         A: 1
       }
     }
@@ -789,6 +797,15 @@ Objects {
     Overrides {
       Name: "bp:Falloff"
       Float: 0.49255693
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 0.930463612
+        B: 0.580000043
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -810,6 +827,7 @@ Objects {
   Name: "Sun Light"
   Transform {
     Location {
+      Z: 3035
     }
     Rotation {
       Pitch: -33.0281677
@@ -826,7 +844,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 6
+      Float: 5
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
@@ -928,6 +946,7 @@ Objects {
   Name: "Sky Dome"
   Transform {
     Location {
+      Z: 3035
     }
     Rotation {
       Yaw: 121.237106
@@ -1014,7 +1033,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Brightness"
-      Float: 2
+      Float: 4
     }
     Overrides {
       Name: "bp:Cloud Wisp Opacity"
@@ -1033,6 +1052,10 @@ Objects {
     Overrides {
       Name: "bp:Cloud Wisp Speed"
       Float: 1
+    }
+    Overrides {
+      Name: "bp:Haze Falloff"
+      Float: 15
     }
   }
   Collidable_v2 {
@@ -1054,8 +1077,7 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      Y: 451.327637
-      Z: 1753.54529
+      Z: 3035
     }
     Rotation {
     }
@@ -1075,11 +1097,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Use Captured Sky"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 2.641
+      Float: 5
     }
     Overrides {
       Name: "bp:Cast Shadows"

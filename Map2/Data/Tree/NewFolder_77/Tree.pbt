@@ -1,12 +1,280 @@
 Name: "NewFolder_77"
 RootId: 10383208244034688177
 Objects {
+  Id: 15904408511350962925
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -3980.47095
+      Y: -499.471222
+      Z: -755.000244
+    }
+    Rotation {
+      Yaw: 0.000274658203
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10383208244034688177
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11821502540448673904
+    SubobjectId: 15518820627043645235
+    InstanceId: 2675920221123085518
+    TemplateId: 4791224631096226634
+  }
+}
+Objects {
+  Id: 15185983936705050743
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -3180.47095
+      Y: -499.467407
+      Z: -755.000244
+    }
+    Rotation {
+      Yaw: 0.000274658203
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10383208244034688177
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11821502540448673904
+    SubobjectId: 15518820627043645235
+    InstanceId: 2675920221123085518
+    TemplateId: 4791224631096226634
+  }
+}
+Objects {
+  Id: 2575764741544720573
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -4780.47119
+      Y: -499.475067
+      Z: -755.000244
+    }
+    Rotation {
+      Yaw: 0.000274658203
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10383208244034688177
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11821502540448673904
+    SubobjectId: 15518820627043645235
+    InstanceId: 2675920221123085518
+    TemplateId: 4791224631096226634
+  }
+}
+Objects {
+  Id: 6255738820111978895
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -5580.47119
+      Y: -499.478912
+      Z: -755.000244
+    }
+    Rotation {
+      Yaw: 0.000274658203
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10383208244034688177
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11821502540448673904
+    SubobjectId: 15518820627043645235
+    InstanceId: 2675920221123085518
+    TemplateId: 4791224631096226634
+  }
+}
+Objects {
   Id: 6054043941112394117
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -5630.47949
-      Y: 1200.52087
+      X: -5580.479
+      Y: 1100.52112
       Z: -755
     }
     Rotation {
@@ -72,8 +340,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -5630.47559
-      Y: 400.520874
+      X: -5580.4751
+      Y: 300.521088
       Z: -755.000244
     }
     Rotation {
@@ -139,8 +407,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -5630.4834
-      Y: 2000.52087
+      X: -5580.48291
+      Y: 1900.52112
       Z: -755.000244
     }
     Rotation {
@@ -206,8 +474,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -5630.48682
-      Y: 2800.52075
+      X: -5580.48682
+      Y: 2700.521
       Z: -755
     }
     Rotation {
@@ -273,8 +541,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -2430.48755
-      Y: 2800.53613
+      X: -2380.48682
+      Y: 2700.53638
       Z: -755
     }
     Rotation {
@@ -340,8 +608,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -4830.48682
-      Y: 2800.52466
+      X: -4780.48682
+      Y: 2700.5249
       Z: -755
     }
     Rotation {
@@ -407,8 +675,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -4030.48706
-      Y: 2800.52856
+      X: -3980.48633
+      Y: 2700.52881
       Z: -755
     }
     Rotation {
@@ -474,8 +742,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -3230.48755
-      Y: 2800.53247
+      X: -3180.48682
+      Y: 2700.53271
       Z: -755
     }
     Rotation {
