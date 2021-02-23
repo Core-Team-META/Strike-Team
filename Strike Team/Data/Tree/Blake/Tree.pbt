@@ -219,11 +219,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
+      Float: 10
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 50
+      Int: 20
     }
   }
   Collidable_v2 {
@@ -256,7 +256,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 30
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -293,11 +293,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:MaxAmount"
-      Int: 25
+      Float: 20
     }
   }
   Collidable_v2 {
@@ -330,11 +326,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:MaxAmount"
-      Int: 25
+      Float: 100
     }
   }
   Collidable_v2 {
@@ -367,7 +359,6 @@ Objects {
   ChildIds: 14623244994459890772
   ChildIds: 1831952270868744551
   ChildIds: 4406784971154654279
-  ChildIds: 4242859826993106405
   UnregisteredParameters {
     Overrides {
       Name: "cs:WIN"
@@ -389,43 +380,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4242859826993106405
-  Name: "Assists"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1583736298759259543
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Value"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:MaxAmount"
-      Int: 20
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6842197944340676077
-    }
-  }
-}
-Objects {
   Id: 4406784971154654279
   Name: "Objective"
   Transform {
@@ -443,7 +397,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 30
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -480,11 +434,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:MaxAmount"
-      Int: 20
+      Float: 10
     }
   }
   Collidable_v2 {
@@ -517,7 +467,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 50
     }
     Overrides {
       Name: "cs:MaxAmount"

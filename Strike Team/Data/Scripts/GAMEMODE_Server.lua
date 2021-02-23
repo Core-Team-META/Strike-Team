@@ -70,7 +70,6 @@ end
 function OnPlayerDied(player, damage, id)
     if IsVaildId(id) then
         if Object.IsValid(damage.sourcePlayer) then
-            damage.sourcePlayer:AddResource("Objective", 1)
             local teamScored = damage.sourcePlayer.team
             Game.IncreaseTeamScore(teamScored, GT_API.GetPointsPerObjective(myId))
         end

@@ -20,6 +20,7 @@ function RoundEndHandler.CalculateCash(player,Win)
     end
     val = val + FinishValue
     RoundEndHandler.AddCash(player,val)
+
 end
 
 function RoundEndHandler.CalculateGold(player,Win)

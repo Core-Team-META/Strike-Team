@@ -151,7 +151,7 @@ end
 function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         SetCurrentGameId(0) -- Used to reset Game Modes
-        SetRoundDuration(time() - (roundStartTime or 0))
+        SetRoundDuration(time() - roundStartTime)
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
         local currentState = GetCurrentGameId()
