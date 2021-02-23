@@ -30,7 +30,16 @@ end
 
 function SpawnObject(str)
 	DespawnObject()
-	local item = Database:SetupItemWithSkin(Database:GetSlot(str,TYPE))
+    local defaults = {
+        ["Primary"]     =  "HK",
+        ["Secondary"]   =  "S4",
+        ["Melee"]       =  "LR",
+        ["Equipment"]   =  "EL",
+        ["Perk"]        =  "EP",  
+    }
+
+	local item = Database:SetupItemWithSkin(Database:GetSlot(str,TYPE)) or  Database:SetupItemWithSkin(defaults[TYPE])
+	if not item then return end
 	object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(.015,.015,.015) * item.data.scale , rotation = Rotation.New(0,0,-90) })
 
    local screen = UI.GetScreenSize()

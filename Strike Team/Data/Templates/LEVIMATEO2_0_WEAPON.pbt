@@ -346,7 +346,7 @@ Assets {
           }
         }
         ParentId: 16671993031585528870
-        ChildIds: 11276929558069602701
+        ChildIds: 3817199032108324209
         ChildIds: 8723040617309084336
         UnregisteredParameters {
         }
@@ -362,28 +362,24 @@ Assets {
         }
       }
       Objects {
-        Id: 11276929558069602701
-        Name: "WeaponDamageShootServer"
+        Id: 3817199032108324209
+        Name: "WeaponDamageShootServerWithFallof"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
+            X: 0.99999994
+            Y: 0.99999994
             Z: 1
           }
         }
         ParentId: 14463978057497345265
         UnregisteredParameters {
           Overrides {
-            Name: "cs:BaseDamage"
-            Float: 35
-          }
-          Overrides {
-            Name: "cs:HeadshotDamage"
-            Float: 55
+            Name: "cs:Range"
+            Float: 500
           }
         }
         Collidable_v2 {
@@ -394,7 +390,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 12210489528647249200
+            Id: 14295137872852766081
           }
         }
       }

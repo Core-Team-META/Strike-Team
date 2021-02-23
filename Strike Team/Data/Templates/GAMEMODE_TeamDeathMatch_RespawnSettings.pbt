@@ -15,7 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
+        ChildIds: 5354025194418773607
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -27,10 +28,74 @@ Assets {
         }
         Settings {
           RespawnSettings {
-            RespawnDelay: 10
+            RespawnDelay: 20
             RespawnMode_v2 {
               Value: "mc:erespawnmode:farthestfromenemy"
             }
+          }
+        }
+      }
+      Objects {
+        Id: 5354025194418773607
+        Name: "StaticContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11680718904484259154
+        ChildIds: 2681881928970574790
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 2681881928970574790
+        Name: "RespawnTimeSetup"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5354025194418773607
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RESPAWNTIME"
+            Float: 20
+          }
+          Overrides {
+            Name: "cs:MINRESPAWNTIME"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17261934592455900959
           }
         }
       }

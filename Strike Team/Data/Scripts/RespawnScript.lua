@@ -13,7 +13,11 @@ end)
 Events.Connect("LivingStateChange",function(state)
     local player = Game.GetLocalPlayer()
     if (state) then
-        Button.visibility = Visibility.INHERIT
+        Task.Spawn( function() 
+            Button.visibility = Visibility.INHERIT
+        
+        end,
+        _G["Respawnsettings.MINRESPAWNTIME"] or 1)
     else
         Button.visibility = Visibility.FORCE_OFF
     end
