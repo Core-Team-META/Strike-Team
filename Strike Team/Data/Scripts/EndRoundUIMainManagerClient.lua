@@ -500,6 +500,7 @@ function RewardText(Win)
 		COUNT.text = tostring(_G["REWARDDATABASE"].ReturnLoss("Cash"))
 		CountThisTextUp(TOTAL, _G["REWARDDATABASE"].ReturnLoss("Cash"), "+", false)
 	end
+	table.insert( Rows,entry )
 	
 end
 
@@ -529,6 +530,7 @@ function AnimateStats()
 		end
 		CountThisTextUp(TOTAL, v["Value"]* math.min( localPlayer:GetResource(k), v["Max"]), "+", false) 
 		Index = Index + 1
+		table.insert( Rows,entry )
 	end	
 	CountThisTextUp(cashTotalText, CashTotal, " ", false)
 end
