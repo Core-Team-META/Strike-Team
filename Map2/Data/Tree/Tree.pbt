@@ -84,6 +84,7 @@ Objects {
   ChildIds: 5974324408118094304
   ChildIds: 4009103751802103793
   ChildIds: 1164338223988876263
+  ChildIds: 11196897570748259799
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -93,6 +94,46 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11196897570748259799
+  Name: "Jump Pad"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3531569754245395585
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Jump Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3345.24268
+            Y: 6778.28711
+            Z: 1223.81909
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14929416956936111716
+    }
   }
 }
 Objects {
@@ -91677,6 +91718,27 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -100
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4539527617200153553
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 48.0161057
+            Y: 1119.98535
+            Z: 1295
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.10000372
+            Y: 3.64681196
+            Z: 3.10000014
           }
         }
       }

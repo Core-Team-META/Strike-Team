@@ -78,7 +78,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:JumpHeight"
-            Float: 2000
+            Float: 3200
           }
         }
         WantsNetworking: true

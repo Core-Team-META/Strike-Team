@@ -6,7 +6,7 @@ Entries {
     Table {
       Entries {
         Key {
-          StringVar: "KILL"
+          StringVar: "HEADSHOT"
         }
         SimpleValue {
           IntVar: 0
@@ -14,7 +14,7 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "HEADSHOT"
+          StringVar: "KILL"
         }
         SimpleValue {
           IntVar: 0
