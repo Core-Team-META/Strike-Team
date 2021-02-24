@@ -4,9 +4,7 @@ local LastPressed = 0
 Button.pressedEvent:Connect(function()
     if(os.clock() - LastPressed  < 0.2) then return end
     LastPressed = os.clock()
-    
     Events.BroadcastToServer("WishToRespawn")
-
 end)
 
 
@@ -15,7 +13,6 @@ Events.Connect("LivingStateChange",function(state)
     if (state) then
         Task.Spawn( function() 
             Button.visibility = Visibility.INHERIT
-        
         end,
         _G["Respawnsettings.MINRESPAWNTIME"] or 1)
     else
