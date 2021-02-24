@@ -291,7 +291,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.5
+            Duration: 1.5
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -671,7 +671,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 2.5
+            Float: 0.8
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -681,7 +681,11 @@ Assets {
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 4
+            Float: 2.5
+          }
+          Overrides {
+            Name: "cs:DURATION"
+            Float: 0.14
           }
         }
         Collidable_v2 {
@@ -1092,7 +1096,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 6
+            Int: 12
           }
         }
         Collidable_v2 {
