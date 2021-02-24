@@ -134,21 +134,21 @@ Assets {
   }
 }
 Assets {
+  Id: 16855776306829432893
+  Name: "Plane 4m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_001"
+  }
+}
+Assets {
   Id: 16754690508371648370
   Name: "Craftsman Part - Window 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_window_003"
-  }
-}
-Assets {
-  Id: 16447630291553548532
-  Name: "Metal Basic Steel"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "steel_001"
   }
 }
 Assets {
@@ -269,15 +269,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15018675491806598937
-  Name: "Rock 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_001"
-  }
-}
-Assets {
   Id: 15016852232051002953
   Name: "Bricks Cobblestone Floor Arches 001"
   PlatformAssetType: 2
@@ -311,24 +302,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bucket_001"
-  }
-}
-Assets {
-  Id: 14250420636917373162
-  Name: "Rock 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_003"
-  }
-}
-Assets {
-  Id: 14181301450008760998
-  Name: "Wood Planks"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_planks_001_uv"
   }
 }
 Assets {
@@ -584,15 +557,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11962195740089165680
-  Name: "Girder Medium 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_girder_medium_4m_1-5m_001"
-  }
-}
-Assets {
   Id: 11917278043255778288
   Name: "Trim Large Brick 8m"
   PlatformAssetType: 1
@@ -680,15 +644,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_snow_volume"
-  }
-}
-Assets {
-  Id: 11129362520387939120
-  Name: "Stone Block Long"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fantasy_block_03"
   }
 }
 Assets {
@@ -966,24 +921,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8243311917055672270
-  Name: "Curb 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_4m_001"
-  }
-}
-Assets {
-  Id: 8029899505444148157
-  Name: "Craftsman Roof 01 Bracket"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_roof_001_bracket"
-  }
-}
-Assets {
   Id: 7844212678526986406
   Name: "Loadout"
   PlatformAssetType: 23
@@ -1154,15 +1091,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5710984810966512123
-  Name: "Rock Pile 001"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rocks_small_001"
-  }
-}
-Assets {
   Id: 5646419812666555425
   Name: "LifeTime"
   PlatformAssetType: 23
@@ -1218,15 +1146,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_001"
-  }
-}
-Assets {
-  Id: 5134796971149204973
-  Name: "I-Beam 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_i-beam_4m_001"
   }
 }
 Assets {
@@ -1293,15 +1212,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4232391847469820774
-  Name: "Whitebox Wall 01 Half - Window Slot 1x"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_winHalfSlot1x"
-  }
-}
-Assets {
   Id: 4054211681159130604
   Name: "Hill 01"
   PlatformAssetType: 1
@@ -1356,15 +1266,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3507308942008586250
-  Name: "Pyramid - 4-Sided Truncated Hollow Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_4_sided_truncated_thick_001"
-  }
-}
-Assets {
   Id: 3472803888131222677
   Name: "Sci-fi Trim 01 End"
   PlatformAssetType: 1
@@ -1398,15 +1299,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_dresser_001"
-  }
-}
-Assets {
-  Id: 2989422262343882979
-  Name: "Road Edge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_edge_straight_001"
   }
 }
 Assets {
@@ -1470,15 +1362,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stucco_tint_001_uv"
-  }
-}
-Assets {
-  Id: 2521409856080866625
-  Name: "Large Girder 8m x 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wall_girder_large_8m_001"
   }
 }
 Assets {
@@ -1581,30 +1464,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1285936894822956108
-  Name: "Brick Multicolor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_multicolor_old_001_uv"
-  }
-}
-Assets {
   Id: 1104198953447072835
   Name: "Object Domestic Doors & Creaks Set 01 SFX"
   PlatformAssetType: 10
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "sfxabp_object_domestic_door_ref"
-  }
-}
-Assets {
-  Id: 1086000525996045120
-  Name: "Gravel Raked 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gravel_001_uv"
   }
 }
 Assets {
@@ -1641,15 +1506,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_wallpaper_003"
-  }
-}
-Assets {
-  Id: 508501183998434777
-  Name: "Sci-fi Circuits Ring 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ring_scifi_003"
   }
 }
 Assets {
