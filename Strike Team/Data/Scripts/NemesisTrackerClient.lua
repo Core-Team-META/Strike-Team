@@ -481,7 +481,7 @@ function MarkNemesis()
 			
 			nemesisOfLabelText.visibility = Visibility.FORCE_OFF	
 			
-			EaseUI.EaseY(marker, 0, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
+			EaseUI.EaseY(marker, -80, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
 			
 			if theirNemesisOfEntryText[number] then
 			

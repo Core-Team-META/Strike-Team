@@ -7,7 +7,7 @@ Assets {
       RootId: 2725466387286679747
       Objects {
         Id: 2725466387286679747
-        Name: "NemesisMarker"
+        Name: "NemesisVictoryScreenMarker"
         Transform {
           Scale {
             X: 1
@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 17237569339051846686
         ChildIds: 587342255370781699
+        ChildIds: 12417214448193997821
         ChildIds: 13030357336969879765
         ChildIds: 2796967342691073190
         ChildIds: 10948693670690151605
@@ -56,6 +57,7 @@ Assets {
         Control {
           Width: 100
           Height: 115
+          UIY: -80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -100,8 +102,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 100
-          Height: 70
+          Width: 40
+          Height: 45
+          UIY: 5
           RotationAngle: 180
           RenderTransformPivot {
             Anchor {
@@ -115,6 +118,63 @@ Assets {
             Color {
               R: 0.700000048
               A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12417214448193997821
+        Name: "Background"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.36603767e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2725466387286679747
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 195
+          Height: 105
+          UIY: -40
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          Image {
+            Brush {
+              Id: 1814707273787853473
+            }
+            Color {
+              A: 0.25
             }
             TeamSettings {
             }
@@ -155,9 +215,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 500
-          Height: 60
-          UIY: -40
+          Width: 200
+          Height: 55
+          UIY: 30
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -169,7 +229,7 @@ Assets {
               R: 0.700000048
               A: 1
             }
-            Size: 20
+            Size: 15
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -214,9 +274,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 500
+          Width: 200
           Height: 60
-          UIY: -10
+          UIY: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -230,7 +290,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 20
+            Size: 15
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -275,9 +335,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 500
-          Height: 60
-          UIY: 30
+          Width: 200
+          Height: 50
+          UIY: 75
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -289,7 +349,7 @@ Assets {
               R: 0.700000048
               A: 1
             }
-            Size: 20
+            Size: 15
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -334,9 +394,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 500
+          Width: 200
           Height: 60
-          UIY: 60
+          UIY: 105
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -350,7 +410,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 20
+            Size: 15
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -380,6 +440,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "CenterArrow_004Wedge"
+      }
+    }
+    Assets {
+      Id: 1814707273787853473
+      Name: "BG Flat 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_020"
       }
     }
     Assets {
