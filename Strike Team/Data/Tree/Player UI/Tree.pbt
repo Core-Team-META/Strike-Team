@@ -6018,7 +6018,6 @@ Objects {
     }
   }
   ParentId: 5413582882944458303
-  ChildIds: 12614189546185881200
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6047,49 +6046,6 @@ Objects {
           Value: "mc:euianchor:topcenter"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 12614189546185881200
-  Name: "GAMEMODE_TeamDeathMatch_Score_UI"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15016914129013214511
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1305319815708312239
-      value {
-        Overrides {
-          Name: "Name"
-          String: "GAMEMODE_TeamDeathMatch_Score_UI"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 1.36603776e-05
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8551156162901538860
     }
   }
 }
