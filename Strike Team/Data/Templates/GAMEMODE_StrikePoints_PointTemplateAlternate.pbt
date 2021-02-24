@@ -1523,6 +1523,30 @@ Assets {
               SelfId: 15016914129013214511
             }
           }
+          Overrides {
+            Name: "cs:TEAM_COLOR"
+            Color {
+              G: 0.63576144
+              B: 0.960000038
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ENEMY_COLOR"
+            Color {
+              R: 0.863157392
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:IDLE_COLOR"
+            Color {
+              R: 0.13000001
+              G: 0.13000001
+              B: 0.13000001
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

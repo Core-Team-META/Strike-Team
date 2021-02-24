@@ -47,6 +47,10 @@ local SFX_POINT_SECURED = script:GetCustomProperty("SFX_PointSecured_UI")
 local SFX_POINT_CONTEST_ENEMY = script:GetCustomProperty("SFX_PointContestEnemy_UI")
 local SFX_POINT_CONTEST_FRIENDLY = script:GetCustomProperty("SFX_PointContestFriendly_UI")
 
+local TEAM_COLOR = script:GetCustomProperty("TEAM_COLOR")
+local ENEMY_COLOR = script:GetCustomProperty("ENEMY_COLOR")
+local IDLE_COLOR = script:GetCustomProperty("IDLE_COLOR")
+
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -59,7 +63,7 @@ local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
 local lastProgress
-local teamProgress, enemyProgress
+local teamProgress, enemyProgress, centerFlag
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -76,6 +80,16 @@ local function UpdateProgress(currentProgress)
     else
         teamProgress.progress = 0
         enemyProgress.progress = (currentProgress / MAX_PROGRESS)
+    end
+end
+
+local function UpdateCenterFlagColor(currentTeam)
+    if LOCAL_PLAYER.team == currentTeam then
+        centerFlag:SetColor(TEAM_COLOR)
+    elseif currentTeam > 0 and LOCAL_PLAYER.team ~= currentTeam then
+        centerFlag:SetColor(ENEMY_COLOR)
+    else
+        centerFlag:SetColor(IDLE_COLOR)
     end
 end
 
@@ -100,7 +114,9 @@ function Int()
     for _, child in ipairs(PARENT_PANEL:GetChildren()) do
         enemyProgress = child:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
          teamProgress = child:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
+         centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
     end
+    UpdateCenterFlagColor(0)
 end
 
 function OnNetworkChanged(object, string)
@@ -114,6 +130,7 @@ function OnNetworkChanged(object, string)
             else
                 World.SpawnAsset(SFX_POINT_CONTEST_ENEMY)
             end
+            UpdateCenterFlagColor(currentTeam)
         end
         if data[TEAM] > 0 and data[PROGRESS] >= 0 then
             ToggleObject(true)
@@ -164,6 +181,7 @@ function OnNetworkChanged(object, string)
                 World.SpawnAsset(SFX_POINT_LOST)
             end
         end
+        
         UpdateProgress(data[PROGRESS])
     end
 end
