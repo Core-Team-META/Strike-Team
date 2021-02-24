@@ -379,15 +379,27 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Range"
-            Float: 600
+            Float: 2000
           }
           Overrides {
             Name: "cs:RangeDamage"
-            Float: 20
+            Float: 22
           }
           Overrides {
             Name: "cs:RangeDamageHeadshot"
-            Float: 20
+            Float: 22
+          }
+          Overrides {
+            Name: "cs:HeadshotDamage"
+            Float: 38
+          }
+          Overrides {
+            Name: "cs:BlendAmount"
+            Float: 0.3
+          }
+          Overrides {
+            Name: "cs:BaseDamage"
+            Float: 38
           }
         }
         Collidable_v2 {
