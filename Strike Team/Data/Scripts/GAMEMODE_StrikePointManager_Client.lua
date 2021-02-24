@@ -8,8 +8,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
-local EaseUI = require(script:GetCustomProperty("EaseUI"))
 ------------------------------------------------------------------------------------------------------------------------
+local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
 while not _G.META_GAME_MODES do
     Task.Wait()
@@ -24,6 +24,7 @@ local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
 local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
+local PARENT_PANEL = script:GetCustomProperty("PARENT_PANEL"):WaitForObject()
 
 local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
 local Flag1Color = script:GetCustomProperty("Flag1Color"):WaitForObject()
@@ -58,7 +59,7 @@ local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
 local lastProgress
-
+local teamProgress, enemyProgress
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -69,13 +70,12 @@ local function GetData()
 end
 
 local function UpdateProgress(currentProgress)
-    PROGRESS_BAR.progress = (currentProgress / MAX_PROGRESS)
     if LOCAL_PLAYER.team == currentTeam then
-        EaseUI.EaseRotation(PROGRESS_BAR, 0, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
-        PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
+        teamProgress.progress = (currentProgress / MAX_PROGRESS)
+        enemyProgress.progress = 0
     else
-        EaseUI.EaseRotation(PROGRESS_BAR, 180, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
-        PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
+        teamProgress.progress = 0
+        enemyProgress.progress = (currentProgress / MAX_PROGRESS)
     end
 end
 
@@ -95,6 +95,13 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+
+function Int()
+    for _, child in ipairs(PARENT_PANEL:GetChildren()) do
+        enemyProgress = child:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
+         teamProgress = child:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
+    end
+end
 
 function OnNetworkChanged(object, string)
     if object == ROOT then
@@ -164,4 +171,6 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
+Task.Wait()
+Int()
 ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)

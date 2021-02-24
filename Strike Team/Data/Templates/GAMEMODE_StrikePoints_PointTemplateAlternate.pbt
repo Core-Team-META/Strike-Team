@@ -1517,6 +1517,12 @@ Assets {
               Id: 14858580400504032599
             }
           }
+          Overrides {
+            Name: "cs:PARENT_PANEL"
+            ObjectReference {
+              SelfId: 15016914129013214511
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

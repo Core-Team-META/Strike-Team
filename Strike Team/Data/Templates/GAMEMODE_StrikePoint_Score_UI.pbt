@@ -24,6 +24,18 @@ Assets {
               SubObjectId: 1110571242931721217
             }
           }
+          Overrides {
+            Name: "cs:TEAM_PROGRESS"
+            ObjectReference {
+              SubObjectId: 9222553206125876419
+            }
+          }
+          Overrides {
+            Name: "cs:ENEMY_PROGRESS"
+            ObjectReference {
+              SubObjectId: 2142867819255188743
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -1591,7 +1603,7 @@ Assets {
       }
       Objects {
         Id: 9222553206125876419
-        Name: "ENEMY_PROGRESS"
+        Name: "TEAM_PROGRESS"
         Transform {
           Location {
             X: -2938.39453
@@ -1916,7 +1928,7 @@ Assets {
       }
       Objects {
         Id: 2142867819255188743
-        Name: "TEAM_PROGRESS"
+        Name: "ENEMY_PROGRESS"
         Transform {
           Location {
             X: -2938.39453
