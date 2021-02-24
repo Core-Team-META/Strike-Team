@@ -379,7 +379,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Range"
-            Float: 500
+            Float: 600
           }
           Overrides {
             Name: "cs:RangeDamage"
