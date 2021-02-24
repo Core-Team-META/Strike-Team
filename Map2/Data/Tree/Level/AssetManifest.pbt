@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17691083277889022349
-  Name: "Pipe - 90-Degree Short"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_curve90_001"
-  }
-}
-Assets {
   Id: 17672672862432610490
   Name: "Whitebox Window Insert - Basic Frame"
   PlatformAssetType: 1
@@ -188,39 +179,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16105687716078266600
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
-  }
-}
-Assets {
   Id: 15857601396757983774
   Name: "Door, Rounded Top"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_door_rounded_2m_001"
-  }
-}
-Assets {
-  Id: 15796848555389387332
-  Name: "Torch Holder Metal"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torch_holder_001"
-  }
-}
-Assets {
-  Id: 15770600922316285590
-  Name: "Ring 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_002"
   }
 }
 Assets {
@@ -239,24 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_stone_floor_layered_001"
-  }
-}
-Assets {
-  Id: 15404069753719454998
-  Name: "Long Banner Manticore"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_banner_001"
-  }
-}
-Assets {
-  Id: 15099145682907254516
-  Name: "Bricks Rough Stone Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_floor_rough_001"
   }
 }
 Assets {
@@ -485,15 +431,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12467798854610493452
-  Name: "Waterfall Top Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_waterfall_top"
-  }
-}
-Assets {
   Id: 12437948946678257730
   Name: "Wedge - Polished"
   PlatformAssetType: 1
@@ -566,15 +503,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11891671282715261184
-  Name: "Craftsman Part - Stair Balust"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "urb_sub_craftsman_part_stair_001_balust"
-  }
-}
-Assets {
   Id: 11847226014795436493
   Name: "Stone Block BIg"
   PlatformAssetType: 1
@@ -620,39 +548,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11445222157905148236
-  Name: "Liquid Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_liquid"
-  }
-}
-Assets {
-  Id: 11216067682808882030
-  Name: "Terrain - Desert"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_rock-sand_001_wa"
-  }
-}
-Assets {
   Id: 11174350130855688968
   Name: "Snow Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_snow_volume"
-  }
-}
-Assets {
-  Id: 11057312661694087048
-  Name: "Waterfall Small SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_waterfall_Cue"
   }
 }
 Assets {
@@ -746,15 +647,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9946847798360761355
-  Name: "Decal Stains Bottom 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_bottom_001"
-  }
-}
-Assets {
   Id: 9806867731167406304
   Name: "Bark Dead 01"
   PlatformAssetType: 2
@@ -779,15 +671,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_marble_tiles_004_uv"
-  }
-}
-Assets {
-  Id: 9217088275714087139
-  Name: "Ring - Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_003"
   }
 }
 Assets {
@@ -824,15 +707,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_floor_weave_light_001_uv"
-  }
-}
-Assets {
-  Id: 8807634907466680771
-  Name: "Stone Arch Half 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_stone-arch-half_6m_002"
   }
 }
 Assets {
@@ -881,15 +755,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8353147935132205805
-  Name: "Prism - 6-Sided Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
-  }
-}
-Assets {
   Id: 8315474693577775340
   Name: "Craftsman Wall Interior 01 Corner"
   PlatformAssetType: 1
@@ -905,15 +770,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_round_001"
-  }
-}
-Assets {
-  Id: 7801872286401568736
-  Name: "Bark Pine 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_pine_001_uv"
   }
 }
 Assets {
@@ -995,15 +851,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve90_006"
-  }
-}
-Assets {
-  Id: 6694053086494147507
-  Name: "Capsule"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_capsule_001"
   }
 }
 Assets {
@@ -1106,42 +953,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4943198643637763866
-  Name: "Decal Sand Patch"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_sand_patch_001"
-  }
-}
-Assets {
-  Id: 4759156474278201804
-  Name: "Sphere - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hemisphere_002"
-  }
-}
-Assets {
-  Id: 4693264132494587556
-  Name: "Sci-fi Trim 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scifi_trim_001_4m"
-  }
-}
-Assets {
-  Id: 4603537691901304316
-  Name: "Torch Fire VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_torch_fire"
-  }
-}
-Assets {
   Id: 4437160827424791669
   Name: "Large Wood Beam 8m"
   PlatformAssetType: 1
@@ -1196,6 +1007,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3713504403173644544
+  Name: "Rocky Ground 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "rocky_001"
+  }
+}
+Assets {
   Id: 3662715017593123519
   Name: "Carpet 02"
   PlatformAssetType: 2
@@ -1211,15 +1031,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_porch_001_foundation"
-  }
-}
-Assets {
-  Id: 3472803888131222677
-  Name: "Sci-fi Trim 01 End"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scifi_trim_001_end"
   }
 }
 Assets {
@@ -1268,24 +1079,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2812127935870859572
-  Name: "Roof Round Shingles"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_roof_round_shingles_001_uv"
-  }
-}
-Assets {
-  Id: 2801050667471875383
-  Name: "Prism - 8-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_octagon_001"
-  }
-}
-Assets {
   Id: 2778433983973648323
   Name: "Craftsman Wall Interior 01 Cap"
   PlatformAssetType: 1
@@ -1310,15 +1103,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stucco_tint_001_uv"
-  }
-}
-Assets {
-  Id: 2327009830056851580
-  Name: "Cone - Truncated Hollow Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_hollow_003"
   }
 }
 Assets {
@@ -1385,15 +1169,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1500507774993218998
-  Name: "Water Jet VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_water_jet"
-  }
-}
-Assets {
   Id: 1440969407587188943
   Name: "Craftsman Roof 02 Arch"
   PlatformAssetType: 1
@@ -1436,15 +1211,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_grass_003_uv"
-  }
-}
-Assets {
-  Id: 783814044870915271
-  Name: "Whitebox Wall 01 Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_half"
   }
 }
 Assets {
