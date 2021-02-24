@@ -381,6 +381,14 @@ Assets {
             Name: "cs:Range"
             Float: 500
           }
+          Overrides {
+            Name: "cs:RangeDamage"
+            Float: 20
+          }
+          Overrides {
+            Name: "cs:RangeDamageHeadshot"
+            Float: 20
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

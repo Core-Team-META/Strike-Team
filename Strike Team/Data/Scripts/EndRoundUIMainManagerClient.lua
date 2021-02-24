@@ -529,8 +529,8 @@ function AnimateStats()
 			COUNT.text = string.format( "%d+",v["Max"] )
 		end
 		CountThisTextUp(TOTAL, v["Value"]* math.min( localPlayer:GetResource(k), v["Max"]), "+", false) 
-		Index = Index + 1
 		table.insert( Rows,entry )
+		Index = Index + 1
 	end	
 	CountThisTextUp(cashTotalText, CashTotal, " ", false)
 end

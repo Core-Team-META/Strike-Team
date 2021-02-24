@@ -11926,7 +11926,7 @@ Objects {
   Control {
     Width: 200
     Height: 60
-    UIY: 17.2009888
+    UIY: 11.6004028
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -12397,6 +12397,14 @@ Objects {
     }
   }
   ParentId: 13207494641972129436
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:BANNER"
+      ObjectReference {
+        SelfId: 13207494641972129436
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

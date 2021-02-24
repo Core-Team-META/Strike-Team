@@ -420,7 +420,6 @@ Assets {
             Justification {
               Value: "mc:etextjustify:right"
             }
-            AutoWrapText: true
             Font {
             }
           }

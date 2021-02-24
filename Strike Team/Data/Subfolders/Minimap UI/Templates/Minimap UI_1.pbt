@@ -6584,6 +6584,8 @@ Assets {
         }
         Text {
           Text: "B"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -6628,6 +6630,8 @@ Assets {
         }
         Text {
           Text: "A"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1

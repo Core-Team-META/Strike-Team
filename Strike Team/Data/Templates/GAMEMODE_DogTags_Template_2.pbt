@@ -534,6 +534,8 @@ Assets {
         }
         Text {
           Text: "Owo what\'sthis"
+          FontAsset {
+          }
           Color {
             R: 0.417999983
             G: 1.89453268
@@ -577,6 +579,8 @@ Assets {
         }
         Text {
           Text: "it appwears I"
+          FontAsset {
+          }
           Color {
             R: 0.417999983
             G: 1.89453268
@@ -622,6 +626,8 @@ Assets {
         }
         Text {
           Text: "wostmy dawgo tawgs"
+          FontAsset {
+          }
           Color {
             R: 0.417999983
             G: 1.89453268
@@ -665,6 +671,8 @@ Assets {
         }
         Text {
           Text: "pweasewetuwn to"
+          FontAsset {
+          }
           Color {
             R: 0.417999983
             G: 1.89453268
@@ -708,6 +716,8 @@ Assets {
         }
         Text {
           Text: "Capturpoint uwu >o<"
+          FontAsset {
+          }
           Color {
             R: 0.417999983
             G: 1.89453268

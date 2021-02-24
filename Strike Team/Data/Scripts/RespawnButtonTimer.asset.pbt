@@ -13,6 +13,12 @@ Assets {
           TemplateId: 10649890679662904080
         }
       }
+      Overrides {
+        Name: "cs:BANNER"
+        ObjectReference {
+          SelfId: 13207494641972129436
+        }
+      }
     }
   }
   SerializationVersion: 76

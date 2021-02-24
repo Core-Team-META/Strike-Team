@@ -30,6 +30,7 @@ end
 UpdateLevel()
 
 Button.releasedEvent:Connect(function() 
+    print(string.format( "Swapping to slot %d", Slot))
     Events.BroadcastToServer("SetSlot", Slot)
     Events.Broadcast("SetSlot", Slot)
     if not LOCAL_PLAYER.isDead then 
