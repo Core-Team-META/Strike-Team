@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17858062676346065101
+  Name: "Steam Pressure Release Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_steam_pressure_release_looped_01_Cue_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -17,12 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16285172041817233770
-  Name: "Advanced Color Grading Post Process"
-  PlatformAssetType: 6
+  Id: 16414038839051432119
+  Name: "Ambience Desert Creatures 01 SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_advanced_color_grading"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_desert_creatures_01_Cue_ref"
   }
 }
 Assets {
@@ -44,21 +53,30 @@ Assets {
   }
 }
 Assets {
-  Id: 14697405062555329113
-  Name: "Ambient Occlusion Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_ao"
-  }
-}
-Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_lensflare"
+  }
+}
+Assets {
+  Id: 12149544217203441937
+  Name: "Simple Exposure Post Process"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_simple_exposure"
+  }
+}
+Assets {
+  Id: 12011553901486581175
+  Name: "World Music Score Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_WorldMusic_ref"
   }
 }
 Assets {
@@ -77,6 +95,24 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 11179827780822674035
+  Name: "Ambience Desert Wind and Sand 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_desert_sandwind_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 10150678018080873769
+  Name: "Action Music Score Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_ActionMusic_ref"
   }
 }
 Assets {
@@ -107,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7443569836154553489
+  Name: "Vehicle Aircraft Helicopter Misc Engine Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_vehicles_helicopters_ref"
+  }
+}
+Assets {
   Id: 7174965259302524614
   Name: "Ambience Suburbs Neighborhood 01 SFX"
   PlatformAssetType: 7
@@ -134,11 +179,29 @@ Assets {
   }
 }
 Assets {
+  Id: 3471881598561556181
+  Name: "Motion Blur Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_advanced_motion_blur"
+  }
+}
+Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 1852837797462642665
+  Name: "Nature Wind Steady 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_nature_wind_steady_01_Cue_ref"
   }
 }

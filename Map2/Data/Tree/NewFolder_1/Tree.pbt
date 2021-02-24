@@ -1,7 +1,7 @@
 Name: "NewFolder_1"
-RootId: 7902348404426642419
+RootId: 17764208227192080299
 Objects {
-  Id: 13382052987225469363
+  Id: 16796548587391094550
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.95
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -56,7 +56,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17602425569583588308
+  Id: 2668254505006401695
   Name: "Group"
   Transform {
     Location {
@@ -73,15 +73,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
-  ChildIds: 9490256999516981941
-  ChildIds: 6837668669311806339
-  ChildIds: 200377486038784778
-  ChildIds: 8264978851344334258
-  ChildIds: 3772720223148893477
-  ChildIds: 2999965449173647748
-  ChildIds: 12905562685651282703
-  ChildIds: 13971095831427058451
+  ParentId: 17764208227192080299
+  ChildIds: 5417670349138710211
+  ChildIds: 1876843767891402188
+  ChildIds: 14230996583281984041
+  ChildIds: 4291943312595739325
+  ChildIds: 14203996912774406450
+  ChildIds: 8692391670384279129
+  ChildIds: 17599975025711107506
+  ChildIds: 1658973397639224607
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -101,7 +101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13971095831427058451
+  Id: 1658973397639224607
   Name: "Cube"
   Transform {
     Location {
@@ -117,7 +117,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -164,7 +164,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12905562685651282703
+  Id: 17599975025711107506
   Name: "Cube"
   Transform {
     Location {
@@ -181,7 +181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -228,7 +228,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2999965449173647748
+  Id: 8692391670384279129
   Name: "Cube"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -292,7 +292,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3772720223148893477
+  Id: 14203996912774406450
   Name: "Cube"
   Transform {
     Location {
@@ -311,7 +311,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -358,7 +358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8264978851344334258
+  Id: 4291943312595739325
   Name: "Cube"
   Transform {
     Location {
@@ -375,7 +375,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -422,7 +422,7 @@ Objects {
   }
 }
 Objects {
-  Id: 200377486038784778
+  Id: 14230996583281984041
   Name: "Cube"
   Transform {
     Location {
@@ -439,7 +439,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -486,7 +486,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6837668669311806339
+  Id: 1876843767891402188
   Name: "Cube"
   Transform {
     Location {
@@ -503,7 +503,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -550,7 +550,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9490256999516981941
+  Id: 5417670349138710211
   Name: "Cube"
   Transform {
     Location {
@@ -567,7 +567,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17602425569583588308
+  ParentId: 2668254505006401695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -614,7 +614,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16242318922621117801
+  Id: 4645933369190023301
   Name: "Group"
   Transform {
     Location {
@@ -630,17 +630,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
-  ChildIds: 17258418189656962138
-  ChildIds: 14390089065302332864
-  ChildIds: 11549104121265697492
-  ChildIds: 12677033011426538986
-  ChildIds: 453962971453074440
-  ChildIds: 17270695535358377914
-  ChildIds: 7273288073950743799
-  ChildIds: 3566223222168558910
-  ChildIds: 9451544321265225712
-  ChildIds: 9877030600117271727
+  ParentId: 17764208227192080299
+  ChildIds: 8162469005734443762
+  ChildIds: 11360880959240556154
+  ChildIds: 6513466818879539198
+  ChildIds: 7057237637047972294
+  ChildIds: 16761754649363474271
+  ChildIds: 16219402608743493163
+  ChildIds: 16533384181461877940
+  ChildIds: 13666939217317618736
+  ChildIds: 17199634823994746892
+  ChildIds: 2315931269640091403
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -660,7 +660,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9877030600117271727
+  Id: 2315931269640091403
   Name: "Cube"
   Transform {
     Location {
@@ -676,7 +676,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -723,7 +723,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9451544321265225712
+  Id: 17199634823994746892
   Name: "Cube"
   Transform {
     Location {
@@ -740,7 +740,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -787,7 +787,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3566223222168558910
+  Id: 13666939217317618736
   Name: "Cube"
   Transform {
     Location {
@@ -804,7 +804,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -851,7 +851,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7273288073950743799
+  Id: 16533384181461877940
   Name: "Cube"
   Transform {
     Location {
@@ -870,7 +870,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -917,7 +917,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17270695535358377914
+  Id: 16219402608743493163
   Name: "Cube"
   Transform {
     Location {
@@ -934,7 +934,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -981,7 +981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 453962971453074440
+  Id: 16761754649363474271
   Name: "Cube"
   Transform {
     Location {
@@ -998,7 +998,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1045,7 +1045,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12677033011426538986
+  Id: 7057237637047972294
   Name: "Cube"
   Transform {
     Location {
@@ -1062,7 +1062,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1109,7 +1109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11549104121265697492
+  Id: 6513466818879539198
   Name: "Cube"
   Transform {
     Location {
@@ -1127,7 +1127,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1174,7 +1174,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14390089065302332864
+  Id: 11360880959240556154
   Name: "Cube"
   Transform {
     Location {
@@ -1192,7 +1192,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1239,7 +1239,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17258418189656962138
+  Id: 8162469005734443762
   Name: "Cube"
   Transform {
     Location {
@@ -1256,7 +1256,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16242318922621117801
+  ParentId: 4645933369190023301
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1303,7 +1303,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10229801925525551494
+  Id: 13007518327722697524
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -1320,7 +1320,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -1370,7 +1370,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6066304834898692195
+  Id: 10257516903278851198
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -1387,7 +1387,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -1437,7 +1437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14889875511840503068
+  Id: 13573065587116421847
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -1454,7 +1454,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -1504,7 +1504,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9980176233702851783
+  Id: 9394172797897889065
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1521,7 +1521,7 @@ Objects {
       Z: 0.95
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1563,7 +1563,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1365808627895100490
+  Id: 9213733834599639077
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
@@ -1580,7 +1580,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -1624,7 +1624,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13830463666853069502
+  Id: 15752277173959876144
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -1643,7 +1643,7 @@ Objects {
       Z: 0.95
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1681,7 +1681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9319273485130716393
+  Id: 8856144622202077275
   Name: "Wood 2x4 4m"
   Transform {
     Location {
@@ -1700,7 +1700,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1732,7 +1732,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1086965998377325491
+  Id: 15445589996009422270
   Name: "Wood 2x4 4m"
   Transform {
     Location {
@@ -1750,7 +1750,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1782,7 +1782,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17310980853032600337
+  Id: 12783342812157318937
   Name: "Small Crate Lid"
   Transform {
     Location {
@@ -1799,7 +1799,7 @@ Objects {
       Z: 3.10000014
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1831,7 +1831,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8833526250706887494
+  Id: 4575702010475802729
   Name: "Cube - bottom aligned"
   Transform {
     Location {
@@ -1848,7 +1848,7 @@ Objects {
       Z: 1.80000019
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1886,7 +1886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7812402774050157540
+  Id: 17721645448412608604
   Name: "Group"
   Transform {
     Location {
@@ -1902,15 +1902,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
-  ChildIds: 7185437431180350239
-  ChildIds: 14217313027264344397
-  ChildIds: 7531320136520753811
-  ChildIds: 16082523509399897369
-  ChildIds: 5939752049734358362
-  ChildIds: 4930494818688777102
-  ChildIds: 959951861970449185
-  ChildIds: 17448427829227860752
+  ParentId: 17764208227192080299
+  ChildIds: 4540268169625053870
+  ChildIds: 7910715417703706836
+  ChildIds: 3879055424605914403
+  ChildIds: 4569786978692196078
+  ChildIds: 1468205101933273384
+  ChildIds: 3615475962566441492
+  ChildIds: 10211237265776638562
+  ChildIds: 3774888372743259386
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1930,7 +1930,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17448427829227860752
+  Id: 3774888372743259386
   Name: "Stone Block BIg"
   Transform {
     Location {
@@ -1949,7 +1949,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1990,7 +1990,7 @@ Objects {
   }
 }
 Objects {
-  Id: 959951861970449185
+  Id: 10211237265776638562
   Name: "Stone Block BIg"
   Transform {
     Location {
@@ -2009,7 +2009,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2050,7 +2050,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4930494818688777102
+  Id: 3615475962566441492
   Name: "Stone Block BIg"
   Transform {
     Location {
@@ -2069,7 +2069,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2110,7 +2110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5939752049734358362
+  Id: 1468205101933273384
   Name: "Stone Block BIg"
   Transform {
     Location {
@@ -2129,7 +2129,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2170,7 +2170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16082523509399897369
+  Id: 4569786978692196078
   Name: "Small Crate Lid"
   Transform {
     Location {
@@ -2186,7 +2186,7 @@ Objects {
       Z: 3.10000014
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2218,7 +2218,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7531320136520753811
+  Id: 3879055424605914403
   Name: "Stone Block Standard Broken"
   Transform {
     Location {
@@ -2235,7 +2235,7 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2276,7 +2276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14217313027264344397
+  Id: 7910715417703706836
   Name: "Stone Block Small"
   Transform {
     Location {
@@ -2293,7 +2293,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2334,7 +2334,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7185437431180350239
+  Id: 4540268169625053870
   Name: "Stone Block BIg"
   Transform {
     Location {
@@ -2353,7 +2353,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7812402774050157540
+  ParentId: 17721645448412608604
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2394,7 +2394,7 @@ Objects {
   }
 }
 Objects {
-  Id: 534082606845941573
+  Id: 16114669893404276987
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -2413,7 +2413,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2451,7 +2451,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1146250344803035442
+  Id: 9503795453706449111
   Name: "Group"
   Transform {
     Location {
@@ -2468,24 +2468,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
-  ChildIds: 11232131240023227783
-  ChildIds: 1130022010305141219
-  ChildIds: 16045826142722367955
-  ChildIds: 10619089592145751903
-  ChildIds: 17965023700510087864
-  ChildIds: 2275828427621561318
-  ChildIds: 9264966309242774278
-  ChildIds: 10839960836833141129
-  ChildIds: 9245807021626356035
-  ChildIds: 12625544251647243236
-  ChildIds: 18371958716326820564
-  ChildIds: 773525355557120271
-  ChildIds: 2107765897114389015
-  ChildIds: 465559157300741194
-  ChildIds: 17062381753659012399
-  ChildIds: 5319601670917139852
-  ChildIds: 4605538296638008277
+  ParentId: 17764208227192080299
+  ChildIds: 10219492840561811348
+  ChildIds: 15493161963198152531
+  ChildIds: 6721883961862975335
+  ChildIds: 6534392891333156810
+  ChildIds: 10542961287091765132
+  ChildIds: 12194033128374350550
+  ChildIds: 13509011376831783709
+  ChildIds: 12811516267780705338
+  ChildIds: 18033983433377318490
+  ChildIds: 4504986597958204542
+  ChildIds: 5844624235965781377
+  ChildIds: 13020494975630395790
+  ChildIds: 16735628160988887756
+  ChildIds: 10273871006780305420
+  ChildIds: 9546957007335796339
+  ChildIds: 8124168170543036774
+  ChildIds: 11679030503045053547
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2505,7 +2505,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4605538296638008277
+  Id: 11679030503045053547
   Name: "Column Segment 1m"
   Transform {
     Location {
@@ -2522,7 +2522,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2560,7 +2560,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5319601670917139852
+  Id: 8124168170543036774
   Name: "Column Segment 1m"
   Transform {
     Location {
@@ -2577,7 +2577,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2615,7 +2615,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17062381753659012399
+  Id: 9546957007335796339
   Name: "Column Segment 1m"
   Transform {
     Location {
@@ -2632,7 +2632,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2670,7 +2670,7 @@ Objects {
   }
 }
 Objects {
-  Id: 465559157300741194
+  Id: 10273871006780305420
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -2687,7 +2687,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2729,7 +2729,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2107765897114389015
+  Id: 16735628160988887756
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -2746,7 +2746,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2788,7 +2788,7 @@ Objects {
   }
 }
 Objects {
-  Id: 773525355557120271
+  Id: 13020494975630395790
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -2805,7 +2805,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2847,7 +2847,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18371958716326820564
+  Id: 5844624235965781377
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -2864,7 +2864,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2906,7 +2906,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12625544251647243236
+  Id: 4504986597958204542
   Name: "Small Crate Lid"
   Transform {
     Location {
@@ -2925,7 +2925,7 @@ Objects {
       Z: 3.10000014
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2957,7 +2957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9245807021626356035
+  Id: 18033983433377318490
   Name: "Cube"
   Transform {
     Location {
@@ -2974,7 +2974,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3012,7 +3012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10839960836833141129
+  Id: 12811516267780705338
   Name: "Column Segment 1m"
   Transform {
     Location {
@@ -3029,7 +3029,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3067,7 +3067,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9264966309242774278
+  Id: 13509011376831783709
   Name: "Small Crate Lid"
   Transform {
     Location {
@@ -3086,7 +3086,7 @@ Objects {
       Z: 3.10000014
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3118,7 +3118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2275828427621561318
+  Id: 12194033128374350550
   Name: "Small Crate Lid"
   Transform {
     Location {
@@ -3136,7 +3136,7 @@ Objects {
       Z: 3.10000014
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3168,7 +3168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17965023700510087864
+  Id: 10542961287091765132
   Name: "Craftsman Porch Fence Post 01"
   Transform {
     Location {
@@ -3185,7 +3185,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3223,7 +3223,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10619089592145751903
+  Id: 6534392891333156810
   Name: "Craftsman Porch Fence Post 01"
   Transform {
     Location {
@@ -3240,7 +3240,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3278,7 +3278,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16045826142722367955
+  Id: 6721883961862975335
   Name: "Craftsman Porch Fence Post 01"
   Transform {
     Location {
@@ -3295,7 +3295,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3333,7 +3333,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1130022010305141219
+  Id: 15493161963198152531
   Name: "Craftsman Stairs 01 Railing"
   Transform {
     Location {
@@ -3350,7 +3350,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -3397,7 +3397,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11232131240023227783
+  Id: 10219492840561811348
   Name: "Craftsman Stairs 01 Railing"
   Transform {
     Location {
@@ -3414,7 +3414,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1146250344803035442
+  ParentId: 9503795453706449111
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -3461,7 +3461,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13413553799803553543
+  Id: 8147082868010484596
   Name: "palace topper"
   Transform {
     Location {
@@ -3478,15 +3478,15 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
-  ChildIds: 13222903699126081504
-  ChildIds: 9233674920594203158
-  ChildIds: 4761575826248542402
-  ChildIds: 9085207924028803202
-  ChildIds: 11362532349874134408
-  ChildIds: 4015266911847749704
-  ChildIds: 8571018515865569219
-  ChildIds: 1057322665261957897
+  ParentId: 17764208227192080299
+  ChildIds: 4988256718203776167
+  ChildIds: 2537425636273036841
+  ChildIds: 4145987966358431813
+  ChildIds: 7421755741161717863
+  ChildIds: 16024749162212615943
+  ChildIds: 9648199878262048730
+  ChildIds: 18110943580117790844
+  ChildIds: 17801839401399622274
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3506,7 +3506,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1057322665261957897
+  Id: 17801839401399622274
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -3523,7 +3523,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3561,7 +3561,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8571018515865569219
+  Id: 18110943580117790844
   Name: "Square Column Base 02"
   Transform {
     Location {
@@ -3578,7 +3578,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3616,7 +3616,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4015266911847749704
+  Id: 9648199878262048730
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -3633,7 +3633,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3671,7 +3671,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11362532349874134408
+  Id: 16024749162212615943
   Name: "Square Column Base 02"
   Transform {
     Location {
@@ -3688,7 +3688,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3726,7 +3726,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9085207924028803202
+  Id: 7421755741161717863
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -3743,7 +3743,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3781,7 +3781,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4761575826248542402
+  Id: 4145987966358431813
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -3798,7 +3798,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3836,7 +3836,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9233674920594203158
+  Id: 2537425636273036841
   Name: "Square Column Base 02"
   Transform {
     Location {
@@ -3853,7 +3853,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3891,7 +3891,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13222903699126081504
+  Id: 4988256718203776167
   Name: "Square Column Base 02"
   Transform {
     Location {
@@ -3908,7 +3908,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13413553799803553543
+  ParentId: 8147082868010484596
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3946,7 +3946,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5274248183710669901
+  Id: 2589607537597742007
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -3963,7 +3963,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4013,7 +4013,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12454886552837159881
+  Id: 4043334361586997813
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4030,7 +4030,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4080,7 +4080,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12064413680785895115
+  Id: 17546081063872399245
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4097,7 +4097,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4147,7 +4147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 651947771724741198
+  Id: 14492421791391444239
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4164,7 +4164,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4214,7 +4214,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1112365890892683264
+  Id: 3345938636180155341
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4231,7 +4231,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4281,7 +4281,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17918818278134934550
+  Id: 17072379674888605757
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4298,7 +4298,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -4348,7 +4348,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4690883837924904616
+  Id: 13420451526925705295
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -4367,7 +4367,7 @@ Objects {
       Z: 0.95
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4409,7 +4409,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5399384242097448868
+  Id: 13582842423088396460
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
@@ -4428,7 +4428,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -4472,7 +4472,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13784922620660508651
+  Id: 13491141757781267009
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -4489,7 +4489,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:id"
@@ -4539,7 +4539,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14244440683858285283
+  Id: 9504205893288253016
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -4556,7 +4556,7 @@ Objects {
       Z: 0.95
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4598,7 +4598,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18215555005911334652
+  Id: 15083695475090439169
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
@@ -4615,7 +4615,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -4659,7 +4659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4666237301227834414
+  Id: 10030540556231460555
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -4678,7 +4678,7 @@ Objects {
       Z: 1.20000255
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4716,7 +4716,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6046055294580216192
+  Id: 10284640113224983362
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -4734,7 +4734,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4772,7 +4772,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6172694168157022340
+  Id: 1550051979725125484
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -4791,7 +4791,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4829,7 +4829,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4306105304421588074
+  Id: 3577579050751015101
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -4848,7 +4848,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4886,7 +4886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11703766599510726518
+  Id: 4515938708234939289
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -4905,7 +4905,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4943,7 +4943,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2969874127939028545
+  Id: 16246229044059773763
   Name: "Craftsman Part - Window 03"
   Transform {
     Location {
@@ -4962,7 +4962,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5000,7 +5000,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13729072790707637372
+  Id: 16530957948792315673
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -5019,7 +5019,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -5063,7 +5063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12104030882427711089
+  Id: 3694746356681532534
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -5082,7 +5082,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5124,7 +5124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11503846673486466046
+  Id: 4256343102998071538
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -5143,7 +5143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5185,7 +5185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11557733403466081699
+  Id: 17000351216692716495
   Name: "Craftsman Part - Window 03"
   Transform {
     Location {
@@ -5202,7 +5202,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5240,7 +5240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11649957334829049510
+  Id: 17353488428541353797
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -5257,7 +5257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -5301,7 +5301,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9988890206083820964
+  Id: 18340966094719286049
   Name: "Craftsman Part - Window 03"
   Transform {
     Location {
@@ -5318,7 +5318,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5356,7 +5356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9886615394355285049
+  Id: 4365725433661662063
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -5373,7 +5373,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -5423,7 +5423,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2490549595151012621
+  Id: 13650916085239465678
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -5440,7 +5440,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -5484,7 +5484,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6731077289798504756
+  Id: 6578917798075469595
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -5501,7 +5501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -5545,7 +5545,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10876499113597114853
+  Id: 14439872993372588040
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -5562,7 +5562,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5604,7 +5604,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8422006299127435162
+  Id: 8526072029703351731
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -5621,7 +5621,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:color"
@@ -5680,7 +5680,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2458239380616484205
+  Id: 14312842318377226003
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -5697,7 +5697,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -5741,7 +5741,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4654298200414404117
+  Id: 14843705300440857863
   Name: "Craftsman Part - Window 03"
   Transform {
     Location {
@@ -5758,7 +5758,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5796,7 +5796,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18220013083544685630
+  Id: 13412343090686834819
   Name: "Arch Fancy Peaked 6m"
   Transform {
     Location {
@@ -5813,7 +5813,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5860,7 +5860,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13231218333024464318
+  Id: 9257352540082172624
   Name: "Craftsman Part - Doorway"
   Transform {
     Location {
@@ -5877,7 +5877,7 @@ Objects {
       Z: 0.95
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5919,7 +5919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9131737278884709158
+  Id: 6593365238840433400
   Name: "Wood 2x4 4m"
   Transform {
     Location {
@@ -5937,7 +5937,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5969,7 +5969,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11326043341411822707
+  Id: 3690288793615454192
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
@@ -5986,7 +5986,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -6030,7 +6030,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2614375164907332628
+  Id: 5251031514653863276
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6047,7 +6047,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6089,7 +6089,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6241584378830136362
+  Id: 8475679311598779528
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6106,7 +6106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6148,7 +6148,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6757972230273667669
+  Id: 17168448115124220829
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6167,7 +6167,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6209,7 +6209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10294796173841108055
+  Id: 14654415213606638013
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6226,7 +6226,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6268,7 +6268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16242274227140165111
+  Id: 8549933973230889469
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6285,7 +6285,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6327,7 +6327,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18381673998459161446
+  Id: 5785637768115588618
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6345,7 +6345,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6387,7 +6387,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12686548234694765804
+  Id: 2503069902114466277
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6404,7 +6404,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6442,7 +6442,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4257076020028171746
+  Id: 5326405220254264738
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6460,7 +6460,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6498,7 +6498,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9189983352888995620
+  Id: 15536200260514020720
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6517,7 +6517,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6555,7 +6555,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4216159512467820168
+  Id: 5094733972643610921
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6574,7 +6574,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6612,7 +6612,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3324203347842520249
+  Id: 1022615469622520064
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6629,7 +6629,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6667,7 +6667,7 @@ Objects {
   }
 }
 Objects {
-  Id: 919991789348906635
+  Id: 5660441461753095514
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6684,7 +6684,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6722,7 +6722,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2447313643124581153
+  Id: 18309709615093093726
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6739,7 +6739,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6777,7 +6777,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1233708931506990295
+  Id: 5206446659570102374
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6794,7 +6794,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6832,7 +6832,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12768122186818995408
+  Id: 14921815540196300657
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6849,7 +6849,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6891,7 +6891,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4329777477906063839
+  Id: 16073483788176267709
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6908,7 +6908,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6950,7 +6950,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6078437224712184328
+  Id: 1336335838776199545
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -6967,7 +6967,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7009,7 +7009,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12960830410979444071
+  Id: 2918164517631220629
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7026,7 +7026,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7068,7 +7068,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7797840693471581830
+  Id: 10317292693964083725
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7086,7 +7086,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7128,7 +7128,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10661396977367374677
+  Id: 12090386736909876829
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7145,7 +7145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7187,7 +7187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5994429059814647709
+  Id: 1183958647944011841
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7204,7 +7204,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7246,7 +7246,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14987447954170895254
+  Id: 11147185840583595568
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7263,7 +7263,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7305,7 +7305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13976270196223023414
+  Id: 7799050672737252703
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -7322,7 +7322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -7366,7 +7366,7 @@ Objects {
   }
 }
 Objects {
-  Id: 267329964008451119
+  Id: 7267289536828933160
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -7383,7 +7383,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -7427,7 +7427,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2503728952409850336
+  Id: 2274062441089889875
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7444,7 +7444,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7486,7 +7486,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1534375835222664202
+  Id: 6238364901857167772
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7503,7 +7503,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7545,7 +7545,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14391760977100975136
+  Id: 17282568161930839392
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7562,7 +7562,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7604,7 +7604,7 @@ Objects {
   }
 }
 Objects {
-  Id: 491664306046471190
+  Id: 3477776413762723977
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7621,7 +7621,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7663,7 +7663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14745846924030235878
+  Id: 10088149442216008785
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7680,7 +7680,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7722,7 +7722,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9178346149271890850
+  Id: 6809680900370973137
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7739,7 +7739,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7781,7 +7781,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1194235321060232645
+  Id: 13405014651968507668
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7798,7 +7798,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7840,7 +7840,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12830470029337161666
+  Id: 15358713988462602808
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7857,7 +7857,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7899,7 +7899,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1379711353413668298
+  Id: 3299850061074255951
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7916,7 +7916,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7958,7 +7958,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10731536755321727446
+  Id: 3330179987105640832
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -7975,7 +7975,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8017,7 +8017,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1061897062262639911
+  Id: 12526141943951330579
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -8034,7 +8034,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8076,7 +8076,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11837453896250197160
+  Id: 5535698967026578535
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -8093,7 +8093,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8135,7 +8135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16466291226915540496
+  Id: 1026812174045804264
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -8152,7 +8152,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8194,7 +8194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12054336926103363635
+  Id: 10128112025822712988
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -8211,7 +8211,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8253,7 +8253,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2736796734304833071
+  Id: 4230103786951289239
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -8270,7 +8270,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8312,7 +8312,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14923325692011185225
+  Id: 2436862845886626555
   Name: "Trim Crenellated 4m 01"
   Transform {
     Location {
@@ -8329,7 +8329,7 @@ Objects {
       Z: -0.5
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8371,7 +8371,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4885680336736405130
+  Id: 16076915068746758916
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -8388,7 +8388,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:id"
@@ -8438,7 +8438,7 @@ Objects {
   }
 }
 Objects {
-  Id: 905736687247234296
+  Id: 9682278384577628905
   Name: "Trim Bottom 8m"
   Transform {
     Location {
@@ -8455,7 +8455,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8497,7 +8497,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10599370555484334598
+  Id: 811702647556713065
   Name: "Large Wood Beam 8m"
   Transform {
     Location {
@@ -8516,7 +8516,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8557,7 +8557,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7252687807400925076
+  Id: 2464362563193191550
   Name: "Large Wood Beam 8m"
   Transform {
     Location {
@@ -8576,7 +8576,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8617,7 +8617,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12040203178229172319
+  Id: 8575218352173658522
   Name: "Large Wood Beam 8m"
   Transform {
     Location {
@@ -8636,7 +8636,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8677,7 +8677,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18417367970427812705
+  Id: 4271085478791286579
   Name: "Large Wood Beam 8m"
   Transform {
     Location {
@@ -8696,7 +8696,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8737,7 +8737,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2768644613318919789
+  Id: 2819810786123691097
   Name: "Large Wood Beam 8m"
   Transform {
     Location {
@@ -8756,7 +8756,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8797,7 +8797,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6092145544711359308
+  Id: 16531938373877495355
   Name: "Large Wood Beam 8m"
   Transform {
     Location {
@@ -8816,7 +8816,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8857,7 +8857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12465902930441102751
+  Id: 4103204396122894313
   Name: "Craftsman Wall Interior 01 Corner"
   Transform {
     Location {
@@ -8874,7 +8874,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -8918,7 +8918,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3974930022463073743
+  Id: 14224162064142145068
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -8937,7 +8937,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8975,7 +8975,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4534370158799259088
+  Id: 10574648467232291314
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -8992,7 +8992,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -9036,7 +9036,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5008082839443744098
+  Id: 1288808812916392125
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -9053,7 +9053,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -9097,7 +9097,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3858136771885585224
+  Id: 12070211748518875942
   Name: "Whitebox Wall 01 Window Slot 1x"
   Transform {
     Location {
@@ -9114,7 +9114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -9158,7 +9158,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8985546835279335190
+  Id: 8918749427163346299
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
@@ -9175,7 +9175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:color"
@@ -9234,7 +9234,7 @@ Objects {
   }
 }
 Objects {
-  Id: 50793539046732411
+  Id: 364462589002175240
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
@@ -9251,7 +9251,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -9295,7 +9295,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5494835181906310986
+  Id: 5823220670189401358
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9312,7 +9312,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9350,7 +9350,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3692786329863789328
+  Id: 15192368450469234692
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9367,7 +9367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9405,7 +9405,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13154267374399197863
+  Id: 5507764441108155678
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9422,7 +9422,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9460,7 +9460,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9535994326647136649
+  Id: 6242122677540277851
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9477,7 +9477,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9515,7 +9515,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15812154519862144189
+  Id: 12179502156411278938
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9532,7 +9532,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9570,7 +9570,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12664726396349334996
+  Id: 8154191711992257864
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9587,7 +9587,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9625,7 +9625,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9513619478862204539
+  Id: 13965631320642008996
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9642,7 +9642,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9680,7 +9680,7 @@ Objects {
   }
 }
 Objects {
-  Id: 655833617455514377
+  Id: 12296334007234464880
   Name: "Trim Crenellated 4m 02"
   Transform {
     Location {
@@ -9697,7 +9697,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9735,7 +9735,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15149291974648020773
+  Id: 7918037076179289817
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -9754,7 +9754,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9792,7 +9792,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16297769389786798125
+  Id: 9140200888794387909
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -9811,7 +9811,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9849,7 +9849,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2625028207032942951
+  Id: 3530585070159772880
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -9867,7 +9867,7 @@ Objects {
       Z: 1.00274563
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9905,7 +9905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16299399497066664167
+  Id: 4965032105727659520
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -9923,7 +9923,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9961,7 +9961,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2256632529965437971
+  Id: 15345216302795666712
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -9980,7 +9980,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10018,7 +10018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18166108674670378054
+  Id: 8450614740651720639
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10036,7 +10036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10074,7 +10074,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13383047781763353078
+  Id: 281614332257869794
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -10092,7 +10092,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10130,7 +10130,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2268885236753596410
+  Id: 8394927739138223020
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10149,7 +10149,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10187,7 +10187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9910439423616843323
+  Id: 14520594774088279277
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10206,7 +10206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10244,7 +10244,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3140900798642919538
+  Id: 8076362685089095069
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10263,7 +10263,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10301,7 +10301,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14982733380525311797
+  Id: 12344121052969376514
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -10318,7 +10318,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10356,7 +10356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15728439126578244087
+  Id: 15726482373687563788
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10374,7 +10374,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10412,7 +10412,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4277970130511356032
+  Id: 16889378056570523004
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10431,7 +10431,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10469,7 +10469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11844863447015937352
+  Id: 12636007794709544955
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10486,7 +10486,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10524,7 +10524,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8880545860848566197
+  Id: 9414168887862354358
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10543,7 +10543,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10581,7 +10581,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1213206868531551134
+  Id: 12464198010107945925
   Name: "Small Crate Lid"
   Transform {
     Location {
@@ -10600,7 +10600,7 @@ Objects {
       Z: 2.10000014
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10632,7 +10632,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17791175999477362608
+  Id: 8400422677990651717
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10651,7 +10651,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10689,7 +10689,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15003583117811599139
+  Id: 12522214099583295837
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10707,7 +10707,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10745,7 +10745,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9010093983224453406
+  Id: 2325118241742369905
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10764,7 +10764,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10802,7 +10802,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17465416993552297455
+  Id: 14915077701441060585
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -10819,7 +10819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10857,7 +10857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5280455209233546
+  Id: 7518174453057544424
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10876,7 +10876,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10914,7 +10914,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13385222380085341586
+  Id: 8444624837330807449
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -10932,7 +10932,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10970,7 +10970,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18322062660280722039
+  Id: 13457466700054284219
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -10989,7 +10989,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11027,7 +11027,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9172603086811460707
+  Id: 11340060712656986758
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -11045,7 +11045,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11083,7 +11083,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17201544588384093925
+  Id: 2031746097402261571
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -11100,7 +11100,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11138,7 +11138,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11798083820964284210
+  Id: 9254742475035338770
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -11157,7 +11157,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11195,7 +11195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5551805822542978449
+  Id: 18067058457186215331
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -11212,7 +11212,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11250,7 +11250,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14387129989540310566
+  Id: 14165880344596671777
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -11268,7 +11268,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11306,7 +11306,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12664473081254065348
+  Id: 4988444708651076321
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -11325,7 +11325,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11363,7 +11363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3371483710792884223
+  Id: 15250242560570905486
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -11381,7 +11381,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11419,7 +11419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7351862461372618228
+  Id: 1637616741498617765
   Name: "Bannister Single Post"
   Transform {
     Location {
@@ -11437,7 +11437,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11475,7 +11475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16874279369131845178
+  Id: 1838454330295331644
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -11494,7 +11494,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11532,7 +11532,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13752623547496386902
+  Id: 7856127412765801176
   Name: "Square Column Base 01"
   Transform {
     Location {
@@ -11550,7 +11550,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11588,7 +11588,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5484209008231752689
+  Id: 6506476374799895303
   Name: "Trim Large Brick 8m"
   Transform {
     Location {
@@ -11607,7 +11607,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 7902348404426642419
+  ParentId: 17764208227192080299
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

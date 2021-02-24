@@ -172,6 +172,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -229,6 +231,8 @@ Assets {
             Size: 8
             Justification {
               Value: "mc:etextjustify:center"
+            }
+            Font {
             }
           }
           AnchorLayout {

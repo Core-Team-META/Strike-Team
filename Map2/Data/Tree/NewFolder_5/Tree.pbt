@@ -1,6 +1,576 @@
 Name: "NewFolder_5"
 RootId: 9800492308590533354
 Objects {
+  Id: 5810146554723629300
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -2340.01587
+      Y: 3495.93726
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000262962276
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2876036340991255767
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -2351.02881
+      Y: 4291.6709
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000262962276
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2668351868307115143
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 4848.97852
+      Y: 1100.01953
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000239056579
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12905503831048409128
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 4048.97803
+      Y: 1100.01489
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000239056579
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11695193667537648376
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 3248.9751
+      Y: 1100.0127
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000239056579
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14776131055194287860
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 2448.97827
+      Y: 1100.00659
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000239056579
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17423607418644444369
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 1648.98022
+      Y: 1100.00452
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000245886797
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1645651027921489403
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 848.981689
+      Y: 1099.99841
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000245886797
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10685718348237219938
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: 48.9802246
+      Y: 1099.99634
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000262962276
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7050177680942845115
+  Name: "Craftsman Floor 01 8m x 8m"
+  Transform {
+    Location {
+      X: -751.018311
+      Y: 1099.99023
+      Z: -755
+    }
+    Rotation {
+      Yaw: 0.000262962276
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9800492308590533354
+  Collidable: true
+  Visible: true
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 13174009668515209438
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 10044556425249133227
+      }
+    }
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7755721473406107898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 1308224280367995465
   Name: "Square Column Base 01"
   Transform {
@@ -5807,8 +6377,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -2375.01733
-      Y: 2690.2085
+      X: -2351.02661
+      Y: 2695.94116
       Z: -755
     }
     Rotation {
@@ -5864,8 +6434,8 @@ Objects {
   Name: "Craftsman Floor 01 8m x 8m"
   Transform {
     Location {
-      X: -1575.01721
-      Y: 2690.21387
+      X: -1551.02759
+      Y: 2695.94897
       Z: -755
     }
     Rotation {
