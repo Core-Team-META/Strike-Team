@@ -129,6 +129,8 @@ Assets {
         }
         Text {
           Text: "LAB 1"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1

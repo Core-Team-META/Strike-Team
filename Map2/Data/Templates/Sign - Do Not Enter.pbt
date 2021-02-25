@@ -233,6 +233,8 @@ Assets {
         }
         Text {
           Text: "DO NOT"
+          FontAsset {
+          }
           Color {
             R: 0.692000031
             G: 0.692000031
@@ -276,6 +278,8 @@ Assets {
         }
         Text {
           Text: "ENTER"
+          FontAsset {
+          }
           Color {
             R: 0.692000031
             G: 0.692000031

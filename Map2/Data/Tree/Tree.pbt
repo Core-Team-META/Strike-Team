@@ -1041,6 +1041,7 @@ Objects {
     Location {
       X: 795
       Y: 6745
+      Z: -25
     }
     Rotation {
     }
@@ -1069,7 +1070,7 @@ Objects {
         Id: 1350712656798786743
       }
       DistanceBetweenInstances: 150
-      MaterialChannel: 1
+      MaterialChannel: 3
       SpawnDistance: 25600
       CullDistance {
         Min: 1000
