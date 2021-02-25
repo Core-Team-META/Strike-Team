@@ -4451,6 +4451,10 @@ Objects {
       String: ""
     }
     Overrides {
+      Name: "cs:SortBy"
+      String: "Score"
+    }
+    Overrides {
       Name: "cs:PlayerNameColor:tooltip"
       String: "The color to use for a player\'s username; only applicable if PlayerNameColorMode is STATIC"
     }

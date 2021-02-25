@@ -71,6 +71,9 @@ local EASING_DIRECTION_OUT = Scoreboard:GetCustomProperty("EasingDirectionOut")
 -- local LEADERSTAT_THREE_RESOURCE = Scoreboard:GetCustomProperty("Leaderstat3Resource")
 local LEADERBOARD_STATS = script:GetChildren()
 
+local SORTBY = Scoreboard:GetCustomProperty("SortBy")
+
+
 local COLOR_DEFAULT = Color.New(1, 1, 1, 1)
 
 local LEADERSTAT_TYPES = {"KILLS", "DEATHS", "KDR", "RESOURCE"}
@@ -88,7 +91,7 @@ local isVisible = false
 local leaderstatCount = 0
 
 local lastTask
-
+local ResourceEvents = {}
 ------------------------------------------------------------------------------------------------------------------------
 --	LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -168,8 +171,17 @@ end
 --	nil UpdatePlayerEntries()
 --	Re-orders all of the players in the list
 local function UpdatePlayerEntries()
-	for index, entry in pairs(Entries:GetChildren()) do
-		entry.y = (entry.height * (index - 1)) + (GAP_BETWEEN_ENTRIES * (index - 1))
+	local StortTable = {}
+
+	for _,v in pairs(entries) do
+		table.insert( StortTable,v)
+	end
+	table.sort(StortTable, function(a,b)
+		return a.owner:GetResource(SORTBY) > b.owner:GetResource(SORTBY)
+	end)
+
+	for index, entry in pairs(StortTable) do
+		entry.entry.y = (entry.entry.height * (index - 1)) + (GAP_BETWEEN_ENTRIES * (index - 1))
 	end
 end
 
@@ -177,7 +189,10 @@ end
 --	Creates an entry on the Scoreboard for a player
 local function CreatePlayerEntry(player)
 	playerTeams[player] = player.team
-
+	ResourceEvents[player] = player.resourceChangedEvent:Connect(function() 
+		if not isVisible then return end
+		UpdatePlayerEntries() 
+	end)
 	local title = PlayerTitles.GetPlayerTitle(player)
 
 	local entry =
@@ -191,7 +206,8 @@ local function CreatePlayerEntry(player)
 
 	entries[player] = {
 		entry = entry,
-		leaderstats = {}
+		leaderstats = {},
+		owner = player
 	}
 
 	local playerNameText, teamColorImage, playerIconImage, socialIconImage =
@@ -265,7 +281,7 @@ local function DeletePlayerEntry(player)
 	end
 
 	entry:Destroy()
-
+	if ResourceEvents[player] then ResourceEvents[player]:Disconnect() end
 	UpdatePlayerEntries()
 end
 
@@ -344,8 +360,19 @@ local function OnBindingPressed(player, binding)
 		return
 	end
 
-	ForceToggle()
+	ForceOn()
 end
+
+
+local function OnBindingReleased(player, binding)
+	if (binding ~= TOGGLE_BINDING) then
+		return
+	end
+
+	ForceOff()
+end
+
+
 
 --	nil UpdatePlayer(Player)
 --	Updates the leaderstats for a player
@@ -385,7 +412,7 @@ end
 --	Forces the visibility of the PlayerList to ON
 function ForceOn()
 	isVisible = true
-
+	UpdatePlayerEntries()
 	Content.visibility = Visibility.FORCE_ON
 	if (EASE_TOGGLE) then
 		EaseUI.EaseY(Content, 0, EASING_DURATION, EASING_EQUATION_IN, EASING_DIRECTION_IN)
@@ -471,6 +498,8 @@ function EventConnection()
 
 	if (TOGGLE_BINDING) then
 		LocalPlayer.bindingPressedEvent:Connect(OnBindingPressed)
+		LocalPlayer.bindingReleasedEvent:Connect(OnBindingReleased)
+
 	end
 end
 EventConnection()

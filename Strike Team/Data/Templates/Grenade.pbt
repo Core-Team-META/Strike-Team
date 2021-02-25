@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 16554627707073568645
         ChildIds: 5188606681897742199
         ChildIds: 6494871412286050326
         ChildIds: 10188877097158049067
@@ -166,6 +167,40 @@ Assets {
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:followlookvector"
             }
+          }
+        }
+      }
+      Objects {
+        Id: 16554627707073568645
+        Name: "SetProjectileBouncyness"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18045273018505054026
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Bouncyness"
+            Float: 0.3
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 15843591883675597448
           }
         }
       }
