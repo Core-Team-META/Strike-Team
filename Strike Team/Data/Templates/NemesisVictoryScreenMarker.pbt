@@ -16,11 +16,10 @@ Assets {
           }
         }
         ParentId: 17237569339051846686
-        ChildIds: 587342255370781699
         ChildIds: 12417214448193997821
-        ChildIds: 13030357336969879765
+        ChildIds: 6184287132380735648
         ChildIds: 2796967342691073190
-        ChildIds: 10948693670690151605
+        ChildIds: 8538674644365357627
         ChildIds: 4325908509345674039
         UnregisteredParameters {
           Overrides {
@@ -81,62 +80,6 @@ Assets {
         }
       }
       Objects {
-        Id: 587342255370781699
-        Name: "Arrow"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2725466387286679747
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 40
-          Height: 45
-          UIY: 5
-          RotationAngle: 180
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 18056787318024051379
-            }
-            Color {
-              R: 0.700000048
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 12417214448193997821
         Name: "Background"
         Transform {
@@ -171,10 +114,12 @@ Assets {
           UseParentWidth: true
           Image {
             Brush {
-              Id: 1814707273787853473
+              Id: 841534158063459245
             }
             Color {
-              A: 0.25
+              G: 0.376262099
+              B: 0.467783839
+              A: 0.105882362
             }
             TeamSettings {
             }
@@ -194,6 +139,60 @@ Assets {
         }
       }
       Objects {
+        Id: 6184287132380735648
+        Name: "NEMESIS Panel"
+        Transform {
+          Location {
+            X: 4175.46582
+            Y: -4026.9751
+            Z: -950
+          }
+          Rotation {
+            Yaw: 44.9999733
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2725466387286679747
+        ChildIds: 13030357336969879765
+        ChildIds: 983879966888223310
+        ChildIds: 12992357117470953961
+        ChildIds: 16196027290791581060
+        ChildIds: 217757214214576815
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 13030357336969879765
         Name: "NemesisText"
         Transform {
@@ -207,7 +206,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2725466387286679747
+        ParentId: 6184287132380735648
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -216,17 +215,265 @@ Assets {
         }
         Control {
           Width: 200
-          Height: 55
-          UIY: 30
+          Height: 30
+          UIX: -1
+          UIY: -1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "[NEMESIS]"
+            Label: "YOUR NEMESIS"
             Color {
-              R: 0.700000048
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 983879966888223310
+        Name: "NemesisText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 2.44266564e-12
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6184287132380735648
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 30
+          UIX: -1
+          UIY: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOUR NEMESIS"
+            Color {
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12992357117470953961
+        Name: "NemesisText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 2.44266564e-12
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6184287132380735648
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 30
+          UIX: 1
+          UIY: -1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOUR NEMESIS"
+            Color {
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16196027290791581060
+        Name: "NemesisText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 2.44266564e-12
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6184287132380735648
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 30
+          UIX: 1
+          UIY: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOUR NEMESIS"
+            Color {
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 217757214214576815
+        Name: "NemesisText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 2.44266564e-12
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6184287132380735648
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOUR NEMESIS"
+            Color {
+              R: 0.99
+              G: 0.0393377282
               A: 1
             }
             Size: 15
@@ -240,12 +487,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -276,7 +523,7 @@ Assets {
         Control {
           Width: 200
           Height: 60
-          UIY: 60
+          UIY: 54.5637856
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -313,6 +560,61 @@ Assets {
         }
       }
       Objects {
+        Id: 8538674644365357627
+        Name: "Destroyed Panel"
+        Transform {
+          Location {
+            X: 4175.46582
+            Y: -4026.9751
+            Z: -950
+          }
+          Rotation {
+            Yaw: 44.9999733
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2725466387286679747
+        ChildIds: 10948693670690151605
+        ChildIds: 6014059405361823851
+        ChildIds: 4351729984971430612
+        ChildIds: 14428501069106470315
+        ChildIds: 84572776247430276
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 50
+          UIY: -43.0144882
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 10948693670690151605
         Name: "NemesisOfText"
         Transform {
@@ -327,7 +629,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2725466387286679747
+        ParentId: 8538674644365357627
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -337,16 +639,264 @@ Assets {
         Control {
           Width: 200
           Height: 50
-          UIY: 75
+          UIX: -1
+          UIY: -1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "[NEMESIS OF]"
+            Label: "YOU DESTROYED"
             Color {
-              R: 0.700000048
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6014059405361823851
+        Name: "NemesisOfText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.3660374e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8538674644365357627
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 50
+          UIX: 1
+          UIY: -1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOU DESTROYED"
+            Color {
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4351729984971430612
+        Name: "NemesisOfText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.36603712e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8538674644365357627
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 50
+          UIX: -1
+          UIY: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOU DESTROYED"
+            Color {
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14428501069106470315
+        Name: "NemesisOfText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.36603685e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8538674644365357627
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 50
+          UIX: 1
+          UIY: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOU DESTROYED"
+            Color {
+              R: 0.025
+              G: 0.00945083704
+              B: 0.000227782133
+              A: 0.676000059
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 10698833128597864431
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 84572776247430276
+        Name: "NemesisOfText"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.36603658e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8538674644365357627
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "YOU DESTROYED"
+            Color {
+              R: 0.80794692
+              G: 1
               A: 1
             }
             Size: 15
@@ -360,12 +910,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -431,24 +981,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 18056787318024051379
-      Name: "Center Arrow 004 Wedge"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "CenterArrow_004Wedge"
-      }
-    }
-    Assets {
-      Id: 1814707273787853473
-      Name: "BG Flat 001"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundNoOutline_020"
       }
     }
     Assets {
