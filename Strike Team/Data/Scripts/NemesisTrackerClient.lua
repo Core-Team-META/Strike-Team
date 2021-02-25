@@ -197,6 +197,12 @@ end
 
 function CleanNemesisTable()
 
+	for _, marker in ipairs(markerList) do
+	
+		marker.visibility = Visibility.FORCE_OFF
+		
+	end
+
 	resetting = true
 
 	for victim, killerList in pairs(nemesisIndex) do

@@ -33,6 +33,7 @@ Assets {
         Name: "HK99_DefaultSkin"
         Transform {
           Location {
+            Z: 3.63154697
           }
           Rotation {
           }
@@ -2617,7 +2618,7 @@ Assets {
           Overrides {
             Name: "cs:ScopeTemplate"
             AssetReference {
-              Id: 15731763832375897749
+              Id: 2876434669009403276
             }
           }
           Overrides {

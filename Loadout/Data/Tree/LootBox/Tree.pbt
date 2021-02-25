@@ -11284,6 +11284,8 @@ Objects {
       Justification {
         Value: "mc:etextjustify:center"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {

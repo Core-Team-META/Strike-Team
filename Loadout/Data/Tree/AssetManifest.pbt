@@ -1,17 +1,4 @@
 Assets {
-  Id: 18111171577567917195
-  Name: "Stats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "9c28804fd45342228835d004da0e503a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -102,6 +89,19 @@ Assets {
   }
 }
 Assets {
+  Id: 16810326033750312271
+  Name: "lifetimeStats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 16747968889138526474
   Name: "Sci-fi Console Leg 02"
   PlatformAssetType: 1
@@ -153,19 +153,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_4m_ref"
-  }
-}
-Assets {
-  Id: 14516834689522538125
-  Name: "Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "71e08e50f9394b8fb68ec3586912de31"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -322,19 +309,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11032414137524227467
-  Name: "Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -461,6 +435,19 @@ Assets {
   }
 }
 Assets {
+  Id: 6405207758416731826
+  Name: "statKey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "bf84fda037134f048c79d75bb4159446"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 6403825671868418028
   Name: "Military Tank Modern Armorplate 01"
   PlatformAssetType: 1
@@ -530,6 +517,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_street_barrier_001"
+  }
+}
+Assets {
+  Id: 5948592253542036136
+  Name: "Loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -632,6 +632,19 @@ Assets {
   }
 }
 Assets {
+  Id: 3108894610509872827
+  Name: "Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "58875f5ce4944e78af8e3709e839eff4"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 2654247951300160945
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -692,19 +705,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_radio_01_01_ref"
-  }
-}
-Assets {
-  Id: 978488432057909494
-  Name: "LifeTime"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {

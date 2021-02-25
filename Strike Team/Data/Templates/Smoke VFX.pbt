@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 6389372412564000864
         ChildIds: 5859983601872264566
-        ChildIds: 17723747426777810194
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -26,6 +26,92 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 6389372412564000864
+        Name: "Smoke Bomb Injector VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 4.19149065
+            Y: 4.19149065
+            Z: 1.92806911
+          }
+        }
+        ParentId: 7361953764652290443
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Density"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 60
+          }
+          Overrides {
+            Name: "bp:Fog Density Multiplier"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 4.47691727
+          }
+          Overrides {
+            Name: "bp:Life Max"
+            Float: 60
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 2
+              G: 2
+              B: 2
+              A: 0.9
+            }
+          }
+          Overrides {
+            Name: "bp:Visible In Preview"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:3"
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+              Z: 0.1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 9704386999807793390
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
+          }
         }
       }
       Objects {
@@ -63,106 +149,14 @@ Assets {
           IsAttenuationEnabled: true
         }
       }
-      Objects {
-        Id: 17723747426777810194
-        Name: "Smoke Volume VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.22105822
-            Y: 0.22105822
-            Z: 0.22105822
-          }
-        }
-        ParentId: 7361953764652290443
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Volume Type"
-            Enum {
-              Value: "mc:evfxvolumetype:3"
-            }
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 6.30715132
-          }
-          Overrides {
-            Name: "bp:Density"
-            Float: 1.5
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 2
-              G: 2
-              B: 2
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 5.49667883
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: 1.69052601
-          }
-          Overrides {
-            Name: "bp:Camera Depth Fade Length"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Camera Depth Fade Offset"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Sort Priority Adjustment"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Initial Velocity High"
-            Vector {
-              X: 500
-              Y: 500
-              Z: 200
-            }
-          }
-          Overrides {
-            Name: "bp:Initial Velocity Low"
-            Vector {
-              X: -500
-              Y: -500
-              Z: 200
-            }
-          }
-          Overrides {
-            Name: "bp:Wind Speed"
-            Vector {
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 12798866680768775920
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:critical"
-            }
-          }
-        }
+    }
+    Assets {
+      Id: 9704386999807793390
+      Name: "Smoke Bomb Injector VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_volumetric_smokeBomb_injector"
       }
     }
     Assets {
@@ -172,15 +166,6 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_smoke_bomb_flare_ignite_fizzle_02a_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 12798866680768775920
-      Name: "Smoke Volume VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_smoke_volume_vfx"
       }
     }
     PrimaryAssetId {

@@ -33,16 +33,16 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 15
-            Z: 2.52851772
+            Z: -11.4804459
           }
           Rotation {
-            Pitch: 90
+            Pitch: -90
+            Roll: 90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.451451898
+            Y: 0.451451898
+            Z: 0.451451898
           }
         }
         ParentId: 1298708572867638673
@@ -66,18 +66,15 @@ Assets {
         Name: "Batterybits"
         Transform {
           Location {
-            X: 2.24951172
-            Z: -6.56155396
+            X: -27.9138184
+            Y: -2.5
           }
           Rotation {
-            Pitch: 90
-            Yaw: -14.0362549
-            Roll: -104.03627
           }
           Scale {
-            X: 0.451451898
-            Y: 0.451451898
-            Z: 0.451451898
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 1652724735419242880
@@ -937,18 +934,16 @@ Assets {
         Name: "Border"
         Transform {
           Location {
-            X: -2.26501465
-            Z: -8.29119873
+            X: -31.7450867
+            Y: 7.5
+            Z: 3.05175781e-05
           }
           Rotation {
-            Pitch: 90
-            Yaw: -14.0362549
-            Roll: -104.03627
           }
           Scale {
-            X: 0.00993194152
-            Y: 0.00993194152
-            Z: 0.00993194152
+            X: 0.022
+            Y: 0.022
+            Z: 0.022
           }
         }
         ParentId: 1652724735419242880
@@ -2017,18 +2012,15 @@ Assets {
         Name: "Bolt Base"
         Transform {
           Location {
-            X: 2.24951172
-            Z: 19.5067444
+            X: 29.8294678
+            Y: -2.5
           }
           Rotation {
-            Pitch: 90
-            Yaw: -14.0362549
-            Roll: -104.03627
           }
           Scale {
-            X: 0.0541742258
-            Y: 0.0541742258
-            Z: 0.0541742258
+            X: 0.12
+            Y: 0.12
+            Z: 0.12
           }
         }
         ParentId: 1652724735419242880
@@ -2345,18 +2337,15 @@ Assets {
         Name: "Bolt Additive"
         Transform {
           Location {
-            X: 2.24951172
-            Z: 19.5067444
+            X: 29.8294678
+            Y: -2.5
           }
           Rotation {
-            Pitch: 90
-            Yaw: -14.0362549
-            Roll: -104.03627
           }
           Scale {
-            X: 0.0564314872
-            Y: 0.0564314872
-            Z: 0.0564314872
+            X: 0.125
+            Y: 0.125
+            Z: 0.125
           }
         }
         ParentId: 1652724735419242880
