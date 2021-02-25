@@ -42,7 +42,6 @@ for _, icon in pairs(AF_ICONS_ALL) do
 	end
 end
 
-
 function TablePrint(tbl, indent)
     local formatting, lua_type
     if tbl == nil then
@@ -60,6 +59,7 @@ function TablePrint(tbl, indent)
     if not indent then
         indent = 0
     end
+
     -- type(v) returns nil, number, string, function, CFunction, userdata, and table.
     -- type(v) returns string, number, function, boolean, table or nil
     for k, v in pairs(tbl) do
@@ -123,7 +123,7 @@ end
 -- Constants
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local FADE_DURATION = 0.6
-local VERTICAL_SPACING = 5
+local VERTICAL_SPACING = 10
 
 -- After connecting, we hide join messages for a short time, so we don't see messages for everyone already in the game
 local JOIN_MESSAGE_START = time() + 1.0
@@ -255,6 +255,7 @@ function GetIcon(element, feedIcon)
 			layer:SetColor(feedIcon["Layer_0"..tostring(i).."_Color"])
 			local layer_x_y = feedIcon["Layer_0"..tostring(i).."_Offset"]
 
+			layer.rotationAngle = feedIcon["Layer_0"..tostring(i).."_Rotate"]
 			layer.x = layer_x_y.x
 			layer.y = layer_x_y.y
 			local layer_w_h = feedIcon["Layer_0"..tostring(i).."_WidthHeight"]
@@ -313,8 +314,7 @@ function Tick(deltaTime)
 
 				for _, element in ipairs(feedLines) do
 					if (element.name == "KilledText") then
-						-- element.width = ICON_SIZE
-						-- element.height = ICON_SIZE
+
 						local textBox = element:FindDescendantByName("Text Box")
 						textBox.text = lines[i].killed
 						textBox.justification = TextJustify.LEFT
@@ -339,7 +339,6 @@ function Tick(deltaTime)
 							local feedIcon = FEED_ICONS[lines[i].weaponUsed]
 							if (feedIcon) then
 								GetIcon(element, feedIcon)
-								element.rotationAngle = feedIcon.AngleRotate
 							end
 
 							feedElements["WeaponImage"] = element
@@ -366,8 +365,7 @@ function Tick(deltaTime)
 						end
 					end
 					if (element.name == "KillerText") then
-						-- element.width = ICON_SIZE
-						-- element.height = ICON_SIZE
+
 						if (lines[i].killer ~= "") then
 							local textBox = element:FindDescendantByName("Text Box")
 							textBox.text = lines[i].killer
@@ -393,11 +391,9 @@ function Tick(deltaTime)
 					end
 					if (SHOW_KILLER_HP and element.name == "KillerHealth") then
 						if (lines[i].killerHP ~= "") then
-							-- element.width = 20
+
 							element.height = ICON_SIZE - 5
 							local imageBG = element:FindDescendantByName("BG Image")
-
-							-- imageBG.visibility = Visibility.FORCE_OFF
 
 							local hpBar = element:FindDescendantByName("HP Bar")
 							local hpBarBG = element:FindDescendantByName("HP Bar BG")
@@ -409,37 +405,18 @@ function Tick(deltaTime)
 
 							if (killerHP > 75) then
 								hpBar:SetColor(HEALTH_HIGHBG)
-								-- for _, line in ipairs(imageBG:GetChildren()) do
-								-- 	local transColor = HEALTH_HIGHFG
-								-- 	transColor.a = 0.5
-								-- 	line:SetColor(transColor)
-								-- end
-								-- imageShadow:SetColor(HEALTH_HIGHBG)
+
 							elseif (killerHP > 55) then
 								hpBar:SetColor(HEALTH_MEDBG)
-								-- for _, line in ipairs(imageBG:GetChildren()) do
-								-- 	local transColor = HEALTH_MEDFG
-								-- 	transColor.a = 0.5
-								-- 	line:SetColor(transColor)
-								-- end
-								-- imageShadow:SetColor(HEALTH_MEDBG)
+
 							else
 								hpBar:SetColor(HEALTH_LOWBG)
 
-								-- for _, line in ipairs(imageBG:GetChildren()) do
-								-- 	local transColor = HEALTH_LOWFG
-								-- 	transColor.a = 0.5
-								-- 	line:SetColor(transColor)
-								-- end
-								-- imageShadow:SetColor(HEALTH_LOWBG)
 							end
 
 							hpBar:SetImage(ICON_HEALTH)
 							hpBarBG:SetImage(ICON_HEALTH)
-							-- image.width = -5
-							-- image.height = -5
-							-- imageShadow.width = -1
-							-- imageShadow.height = -1
+
 							textBox.text = lines[i].killerHP
 							feedElements["KillerHealth"] = element
 							feedElements["KillerHealth"].width = 9 -- set defaults
@@ -462,7 +439,7 @@ function Tick(deltaTime)
 						image:SetColor(Color.New(0,0,0,0))
 						imageShadow:SetColor(Color.New(0,0,0,0))
 						textBox.text = lines[i].distance
-						feedElements["Distance"] = elementd
+						feedElements["Distance"] = element
 						else
 							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
 						end
@@ -563,8 +540,6 @@ for i = 1, NUM_LINES do
 	lineTemplates[i].y = (i - 1) * (VERTICAL_SPACING + lineTemplates[i].height)
 end
 
-local feedLines = lineTemplates[1]:GetChildren()[1]
-print(feedLines.name)
 Events.Connect("PlayerKilled", OnKill)
 
 
@@ -593,45 +568,3 @@ if SHOW_JOIN_AND_LEAVE then
 	Game.playerJoinedEvent:Connect(OnPlayerJoined)
 	Game.playerLeftEvent:Connect(OnPlayerLeft)
 end
-
-function GetTestName()
-local testNames = {
-	"Rolok",
-	"Morticai",
-	"Blaking707",
-	"Buckmonster",
-	"AJ",
-	"Marcus",
-	"Estlogic"
-}
-
-return testNames[math.random(1, #testNames)]
-
-end
-
-function GetTestWeapon()
-	return testGuns[math.random(1, #testGuns)]
-end
-
-function GetRandomColor()
-	local randomColor = {
-		Color.WHITE,
-		Color.GREEN,
-		Color.ORANGE,
-		Color.PINK,
-		Color.CYAN,
-		Color.RED
-	}
-	return randomColor[math.random(1, #randomColor)]
-end
-
-local playerTest = Game.GetLocalPlayer()
-
--- for i = 0, 4 do
-
--- AddLine({GetTestName(), GetTestName(), GetTestWeapon(), "", tostring(math.random(1, 99)), tostring(math.random(3, 288)), ENEMY_COLOR, FRIENDLY_COLOR}, Color.WHITE)
-
--- end
-
--- AddLine({"", " Buckmonster died like a biotch"}, GetRandomColor())
-

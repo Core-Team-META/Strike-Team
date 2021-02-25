@@ -37,6 +37,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Layer_01_Rotate"
+        Float: 0
+      }
+      Overrides {
         Name: "cs:Layer_02"
         AssetReference {
           Id: 841534158063459245
@@ -58,6 +62,10 @@ Assets {
         Name: "cs:Layer_02_WidthHeight"
         Vector2 {
         }
+      }
+      Overrides {
+        Name: "cs:Layer_02_Rotate"
+        Float: 0
       }
       Overrides {
         Name: "cs:Layer_03"
@@ -85,6 +93,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Layer_03_Rotate"
+        Float: 0
+      }
+      Overrides {
         Name: "cs:Layer_04"
         AssetReference {
           Id: 7947004984164017508
@@ -108,6 +120,10 @@ Assets {
         Name: "cs:Layer_04_WidthHeight"
         Vector2 {
         }
+      }
+      Overrides {
+        Name: "cs:Layer_04_Rotate"
+        Float: 0
       }
       Overrides {
         Name: "cs:Layer_05"
@@ -135,6 +151,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Layer_05_Rotate"
+        Float: 0
+      }
+      Overrides {
         Name: "cs:Layer_06"
         AssetReference {
           Id: 841534158063459245
@@ -157,8 +177,8 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:AngleRotate"
-        Int: 0
+        Name: "cs:Layer_06_Rotate"
+        Float: 0
       }
       Overrides {
         Name: "cs:Name:tooltip"
