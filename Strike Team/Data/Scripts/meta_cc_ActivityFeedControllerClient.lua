@@ -106,6 +106,9 @@ local HEALTH_MEDFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGMed")
 local HEALTH_LOWBG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorBGLow")
 local HEALTH_LOWFG = KILL_FEED_SETTINGS:GetCustomProperty("HealthColorFGLow")
 
+local LINE_BG_COLOR = KILL_FEED_SETTINGS:GetCustomProperty("LineBGColor")
+local LINE_BG_BORDER_COLOR = KILL_FEED_SETTINGS:GetCustomProperty("LineBGBorderColor")
+
 -- Check user properties
 if NUM_LINES < 1 then
     warn("NumLines must be positive")
@@ -271,15 +274,35 @@ function GetIcon(element, feedIcon)
 
 end
 
--- nil Tick(float)
--- Update the line templates to match current data, and update fading
+
+
 function Tick(deltaTime)
+
+	for i = 1, NUM_LINES do
+		if lines[i] then
+			local age = time() - lines[i].displayTime
+			local BGColor = LINE_BG_COLOR
+			local BGBorderColor = LINE_BG_BORDER_COLOR
+
+			-- Full opacity until LINE_DURATION, then lerp to invisible over FADE_DURATION
+			BGColor.a = CoreMath.Clamp(1.0 - (age - LINE_DURATION) / FADE_DURATION, 0.0, 0.7)
+			BGBorderColor.a =  CoreMath.Clamp(1.0 - (age - LINE_DURATION) / FADE_DURATION, 0.0, 0.7)
+
+			local BGImage = lineTemplates[i]:GetChildren()[1]
+			BGImage:SetColor(BGColor)
+			for _, borderLine in pairs(BGImage:GetChildren()) do
+				borderLine:SetColor(BGBorderColor)
+			end
+
+		end
+	end
+
 
 	if (NEEDS_UPDATE) then
 		for i = 1, NUM_LINES do
 			if lines[i] then
 
-				local age = time() - lines[i].displayTime
+
 				local color = lines[i].color
 
 				-- Full opacity until LINE_DURATION, then lerp to invisible over FADE_DURATION
@@ -540,6 +563,8 @@ for i = 1, NUM_LINES do
 	lineTemplates[i].y = (i - 1) * (VERTICAL_SPACING + lineTemplates[i].height)
 end
 
+local feedLines = lineTemplates[1]:GetChildren()[1]
+print(feedLines.name)
 Events.Connect("PlayerKilled", OnKill)
 
 

@@ -79,7 +79,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
           RenderTransformPivot {
@@ -94,7 +94,9 @@ Assets {
             Brush {
             }
             Color {
-              A: 0.279
+              R: 0.458333343
+              G: 0.1639072
+              B: 0.0137499599
             }
             TeamSettings {
             }
@@ -135,7 +137,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Height: 2
+          Height: 1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -147,8 +149,8 @@ Assets {
             }
             Color {
               R: 1
-              G: 0.541187048
-              A: 0.896
+              G: 0.357615769
+              B: 0.0299999714
             }
             TeamSettings {
             }
@@ -189,7 +191,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Height: 2
+          Height: 1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -201,8 +203,8 @@ Assets {
             }
             Color {
               R: 1
-              G: 0.541187048
-              A: 0.896
+              G: 0.357615769
+              B: 0.0299999714
             }
             TeamSettings {
             }
@@ -243,7 +245,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 2
+          Width: 1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -255,8 +257,8 @@ Assets {
             }
             Color {
               R: 1
-              G: 0.541187048
-              A: 0.896
+              G: 0.357615769
+              B: 0.0299999714
             }
             TeamSettings {
             }
@@ -297,7 +299,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 2
+          Width: 1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -309,8 +311,8 @@ Assets {
             }
             Color {
               R: 1
-              G: 0.541187048
-              A: 0.896
+              G: 0.357615769
+              B: 0.0299999714
             }
             TeamSettings {
             }

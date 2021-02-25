@@ -460,7 +460,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LineDuration"
-      Float: 8
+      Float: 1
     }
     Overrides {
       Name: "cs:TextColor"
@@ -554,6 +554,24 @@ Objects {
       Color {
         R: 0.350000024
         A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:LineBGColor"
+      Color {
+        R: 0.0109601011
+        G: 0.141263247
+        B: 0.174647421
+        A: 0.616000056
+      }
+    }
+    Overrides {
+      Name: "cs:LineBGBorderColor"
+      Color {
+        R: 0.0536037311
+        G: 0.690891147
+        B: 0.854166687
+        A: 0.616000056
       }
     }
     Overrides {
