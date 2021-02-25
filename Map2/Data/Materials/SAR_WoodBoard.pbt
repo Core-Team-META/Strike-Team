@@ -2,7 +2,7 @@ Assets {
   Id: 16109696671304090979
   Name: "SAR_WoodBoard"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 5991541911854878418
     ParameterOverrides {

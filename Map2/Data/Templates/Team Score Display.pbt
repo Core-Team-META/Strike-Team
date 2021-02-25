@@ -425,5 +425,5 @@ Assets {
       AssetId: "Team_Score_Display"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

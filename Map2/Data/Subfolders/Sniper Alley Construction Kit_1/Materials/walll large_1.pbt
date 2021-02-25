@@ -2,7 +2,7 @@ Assets {
   Id: 9793761060901936185
   Name: "walll large"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 11627215628706112418
     ParameterOverrides {

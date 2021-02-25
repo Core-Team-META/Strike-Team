@@ -226,10 +226,10 @@ Assets {
           }
           Vfx {
             AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:high"
-            }
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
         }
       }
     }
@@ -256,5 +256,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

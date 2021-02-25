@@ -84,5 +84,5 @@ Assets {
       AssetId: "Round_Team_Score_Limit"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

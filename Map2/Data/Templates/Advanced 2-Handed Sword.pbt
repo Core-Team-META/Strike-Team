@@ -927,5 +927,5 @@ Assets {
       AssetId: "Advanced_2-Handed_Sword"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

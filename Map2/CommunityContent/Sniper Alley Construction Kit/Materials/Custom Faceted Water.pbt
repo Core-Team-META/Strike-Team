@@ -2,7 +2,7 @@ Assets {
   Id: 2033870547208966129
   Name: "Custom Faceted Water"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 7946927933540140299
     ParameterOverrides {

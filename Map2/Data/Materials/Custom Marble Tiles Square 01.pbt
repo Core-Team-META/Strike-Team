@@ -2,7 +2,7 @@ Assets {
   Id: 7634430782840848557
   Name: "Custom Marble Tiles Square 01"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 16436457243626939192
     ParameterOverrides {

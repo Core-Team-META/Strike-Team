@@ -707,5 +707,5 @@ Assets {
       AssetId: "Urban_Fence_Gate_-_Single_Template"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

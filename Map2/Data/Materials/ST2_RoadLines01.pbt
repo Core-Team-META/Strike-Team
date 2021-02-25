@@ -1,28 +1,31 @@
 Assets {
-  Id: 11766467113026910646
-  Name: "SD2_ConcreteSidewalk"
+  Id: 10382020642866042324
+  Name: "ST2_RoadLines01"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 12648550473195782623
+    BaseMaterialId: 3003881514440673167
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
           R: 1
-          G: 0.879336298
-          B: 0.664658189
+          G: 0.437086
           A: 1
         }
       }
+      Overrides {
+        Name: "index"
+        Float: 6
+      }
     }
     Assets {
-      Id: 12648550473195782623
-      Name: "Concrete Sidewalk"
+      Id: 3003881514440673167
+      Name: "Road Lines (default)"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_sidewalk_001"
+        AssetId: "mi_road_lines_001"
       }
     }
   }

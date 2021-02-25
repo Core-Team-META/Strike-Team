@@ -2,7 +2,7 @@ Assets {
   Id: 1467746887829650113
   Name: "concrete"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 195773709446274697
     ParameterOverrides {

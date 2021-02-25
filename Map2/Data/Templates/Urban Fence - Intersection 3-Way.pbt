@@ -333,5 +333,5 @@ Assets {
       AssetId: "Urban_Fence_-_Intersection_3-Way"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

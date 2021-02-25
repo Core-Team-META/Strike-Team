@@ -404,5 +404,5 @@ Assets {
       AssetId: "Urban_Pipe_Straight_-_02__Prop_"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

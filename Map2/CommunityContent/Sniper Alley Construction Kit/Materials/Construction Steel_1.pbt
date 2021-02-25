@@ -2,7 +2,7 @@ Assets {
   Id: 7258992105485595727
   Name: "Construction Steel"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 16447630291553548532
     ParameterOverrides {

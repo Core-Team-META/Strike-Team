@@ -1,32 +1,31 @@
 Assets {
-  Id: 13144702163278733163
-  Name: "SD2_Asphalt01"
+  Id: 1019499427182238987
+  Name: "ST2_CrosswalkLines"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 6242693564613071554
+    BaseMaterialId: 3525177834597684768
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 3
-          G: 2.6447
-          B: 1.87800014
+          R: 1
+          G: 0.437086
           A: 1
         }
       }
       Overrides {
-        Name: "material_scale"
-        Float: 5
+        Name: "index"
+        Float: 0
       }
     }
     Assets {
-      Id: 6242693564613071554
-      Name: "Asphalt 01"
+      Id: 3525177834597684768
+      Name: "Crosswalk Lines (default)"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_crosswalk_lines_001"
       }
     }
   }

@@ -550,6 +550,6 @@ Assets {
   Marketplace {
     Description: "\r\nNow updated for direction!!!\r\n\r\nThis asset will allow players to jump to higher elevations. Jump height can be adjusted in the properties of the tigger inside the script folder."
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
   DirectlyPublished: true
 }

@@ -179,6 +179,9 @@ Assets {
           DecalBP {
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 7249589824613123778
@@ -260,5 +263,5 @@ Assets {
       AssetId: "Sign_-_Hazard_Warning"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

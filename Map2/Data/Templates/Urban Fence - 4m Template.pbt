@@ -221,5 +221,5 @@ Assets {
       AssetId: "Urban_Fence_-_4m_Template"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

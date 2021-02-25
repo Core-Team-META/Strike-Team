@@ -2,7 +2,7 @@ Assets {
   Id: 12841693225497865048
   Name: "SAR_PaintOld02_LessWear"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

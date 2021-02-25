@@ -206,6 +206,9 @@ Assets {
           DecalBP {
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 5450672354729541760
@@ -339,5 +342,5 @@ Assets {
       AssetId: "Sign_-_Do_Not_Enter"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

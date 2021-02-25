@@ -2,7 +2,7 @@ Assets {
   Id: 15613922490417873213
   Name: "Custom Base Material from Craftsman Porch 01 Foundation_1"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 10416093208691866732
     ParameterOverrides {

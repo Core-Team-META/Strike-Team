@@ -2,7 +2,7 @@ Assets {
   Id: 2245166893642970858
   Name: "Urban Fence Base Material"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {

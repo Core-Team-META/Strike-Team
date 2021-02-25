@@ -178,6 +178,9 @@ Assets {
           DecalBP {
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 7063346425001854615
@@ -305,5 +308,5 @@ Assets {
       AssetId: "Stop_Sign"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

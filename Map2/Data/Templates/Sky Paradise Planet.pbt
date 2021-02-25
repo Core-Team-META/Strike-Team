@@ -826,5 +826,5 @@ Assets {
       AssetId: "Sky_Paradise_Planet"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

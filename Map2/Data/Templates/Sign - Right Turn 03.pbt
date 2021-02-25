@@ -161,6 +161,9 @@ Assets {
           DecalBP {
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 17867226494052416289
@@ -288,5 +291,5 @@ Assets {
       AssetId: "Sign_-_Right_Turn_03"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

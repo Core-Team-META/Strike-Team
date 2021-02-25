@@ -1,8 +1,8 @@
 Assets {
   Id: 12523811087982930414
-  Name: "SD2_AdScreen"
+  Name: "ST2_AdScreen"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 14198415401224027527
     ParameterOverrides {
@@ -29,7 +29,8 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.428000033
+          R: 0.539999962
+          B: 0.364768118
           A: 1
         }
       }
@@ -52,32 +53,12 @@ Assets {
         }
       }
       Overrides {
-        Name: "flicker intensity"
-        Float: 0
-      }
-      Overrides {
-        Name: "flicker min"
-        Float: 0
-      }
-      Overrides {
-        Name: "flicker speed"
-        Float: 0
-      }
-      Overrides {
-        Name: "scanline min value"
-        Float: 0.143493399
-      }
-      Overrides {
-        Name: "scanline speed"
-        Float: -0.600973129
-      }
-      Overrides {
-        Name: "scanlines"
-        Float: 1
-      }
-      Overrides {
         Name: "fresnel power"
         Float: 1.71568656
+      }
+      Overrides {
+        Name: "scanline scale"
+        Float: 3.33432555
       }
     }
     Assets {

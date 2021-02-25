@@ -366,6 +366,6 @@ Assets {
   Marketplace {
     Description: "This ladder is smooth since it uses a \"hidden elevator\" to avoid trapping the player (and limiting movement) while using the ladder. If someone wants to code key commands to move up and down, go for it, but this is better as it uses less networking.\r\n\r\nFixed asset reference that broke it, unknowingly."
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
   DirectlyPublished: true
 }

@@ -1,10 +1,10 @@
 Assets {
-  Id: 17638283938023681106
-  Name: "SD2_RoadLines02"
+  Id: 8191402814560574490
+  Name: "ST2_MetalPaintedOrange"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 3003881514440673167
+    BaseMaterialId: 2606200893917864133
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -15,17 +15,21 @@ Assets {
         }
       }
       Overrides {
-        Name: "index"
+        Name: "edge_roughness"
         Float: 1
+      }
+      Overrides {
+        Name: "roughness_multiplier"
+        Float: 0.0603950098
       }
     }
     Assets {
-      Id: 3003881514440673167
-      Name: "Road Lines (default)"
+      Id: 2606200893917864133
+      Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_road_lines_001"
+        AssetId: "mi_metal_painted_new_001_uv"
       }
     }
   }

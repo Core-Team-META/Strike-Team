@@ -7,7 +7,7 @@ Assets {
       RootId: 6524137126466910869
       Objects {
         Id: 6524137126466910869
-        Name: "SAR_PalmTree"
+        Name: "SAR_PalmTree01"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 162845132827085145
+        ParentId: 4781671109827199097
+        ChildIds: 4016354205735080109
+        ChildIds: 2393285986594862430
         ChildIds: 17901915013406638994
         ChildIds: 12973206607827162760
         ChildIds: 14876348458936748486
@@ -23,8 +25,6 @@ Assets {
         ChildIds: 1200374605458024306
         ChildIds: 10754569571466216626
         ChildIds: 12213630195635571898
-        ChildIds: 18396382154270567108
-        ChildIds: 9923774470736456552
         ChildIds: 13645706869790544857
         ChildIds: 9759803684183633089
         ChildIds: 11145549554708243401
@@ -42,17 +42,119 @@ Assets {
         }
       }
       Objects {
+        Id: 4016354205735080109
+        Name: "Cone - Truncated Hollow Wide"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 5.57459402
+            Y: 5.57459402
+            Z: 3.0660255
+          }
+        }
+        ParentId: 6524137126466910869
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11766467113026910646
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.661
+              G: 0.579201281
+              B: 0.333805
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11001967573859652020
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2393285986594862430
+        Name: "Ring - Beveled Thick"
+        Transform {
+          Location {
+            Z: 152.099838
+          }
+          Rotation {
+          }
+          Scale {
+            X: 4.77732134
+            Y: 4.77732134
+            Z: 2.60474133
+          }
+        }
+        ParentId: 6524137126466910869
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8191402814560574490
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10126871160743796714
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
         Id: 17901915013406638994
         Name: "Ring - Quarter"
         Transform {
           Location {
-            X: -4.97521973
-            Y: 164.416504
+            X: -4.97509766
+            Y: 118.169922
             Z: 1482.69055
           }
           Rotation {
             Pitch: -90
-            Yaw: -0.00245886808
+            Yaw: -0.00247192383
             Roll: 0.00238593272
           }
           Scale {
@@ -75,7 +177,7 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 18
+            Float: 14.4166
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -118,23 +220,29 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: -4.97436523
-            Y: 16.7719727
+            X: 3.61816406
+            Y: -31.8422852
             Z: 1449.23828
           }
           Rotation {
-            Pitch: -16.0254192
+            Pitch: -16.0254211
             Yaw: 100.408928
             Roll: -2.90301514
           }
           Scale {
-            X: 2.59649444
-            Y: 2.53394103
-            Z: 1.58645535
+            X: 4.20124102
+            Y: 4.10002708
+            Z: 2.70691967
           }
         }
         ParentId: 6524137126466910869
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -163,8 +271,8 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: -4.97436523
-            Y: -92.1606445
+            X: 3.61816406
+            Y: -140.774902
             Z: 1449.23828
           }
           Rotation {
@@ -173,13 +281,19 @@ Assets {
             Roll: 23.6621246
           }
           Scale {
-            X: 2.40263176
-            Y: 2.5932343
-            Z: 1.58645511
+            X: 3.88756251
+            Y: 4.19596577
+            Z: 2.70691943
           }
         }
         ParentId: 6524137126466910869
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -208,21 +322,27 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: -37.876709
-            Y: -17.0561523
+            X: -29.2841797
+            Y: -65.6704102
             Z: 1412.19067
           }
           Rotation {
             Pitch: 23.0385265
           }
           Scale {
-            X: 2.08426046
-            Y: 2.05342317
-            Z: 1.54032052
+            X: 3.37242413
+            Y: 3.32252789
+            Z: 2.62820077
           }
         }
         ParentId: 6524137126466910869
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -251,21 +371,27 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: 61.2784424
-            Y: -17.0561523
+            X: 69.8710938
+            Y: -65.6704102
             Z: 1449.23828
           }
           Rotation {
-            Pitch: -31.6795902
+            Pitch: -31.6795959
           }
           Scale {
-            X: 2.44651937
-            Y: 2.3245697
-            Z: 1.54953945
+            X: 3.95857477
+            Y: 3.76125479
+            Z: 2.64393091
           }
         }
         ParentId: 6524137126466910869
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -294,23 +420,29 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: 16.4069824
-            Y: -47.6323242
+            X: 25
+            Y: -96.246582
             Z: 1460.39136
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: -66.7472382
-            Roll: -3.05175763e-05
+            Yaw: -66.7472534
+            Roll: -3.05175781e-05
           }
           Scale {
-            X: 1.69958365
-            Y: 1.69958365
-            Z: 1.61170387
+            X: 2.75
+            Y: 2.75
+            Z: 2.75
           }
         }
         ParentId: 6524137126466910869
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -339,8 +471,8 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: 16.4071045
-            Y: -47.6323242
+            X: 25
+            Y: -96.246582
             Z: 1402.08875
           }
           Rotation {
@@ -349,13 +481,19 @@ Assets {
             Roll: 1.66629325e-05
           }
           Scale {
-            X: 1.69958365
-            Y: 1.69958365
-            Z: 1.61170387
+            X: 2.75
+            Y: 2.75
+            Z: 2.75
           }
         }
         ParentId: 6524137126466910869
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -380,138 +518,20 @@ Assets {
         }
       }
       Objects {
-        Id: 18396382154270567108
-        Name: "Bush 01"
-        Transform {
-          Location {
-            X: -3.07910156
-            Y: -44.5473633
-            Z: 1448.36072
-          }
-          Rotation {
-            Pitch: 2.04905664e-05
-          }
-          Scale {
-            X: 0.997589
-            Y: 0.997589
-            Z: -1.60687542
-          }
-        }
-        ParentId: 6524137126466910869
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.159999967
-              G: 0.0667549595
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.100000024
-              G: 0.0317880884
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17416186193098799152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9923774470736456552
-        Name: "Bush 01"
-        Transform {
-          Location {
-            X: -14.1514893
-            Y: 16.8188477
-            Z: 45.1524162
-          }
-          Rotation {
-            Pitch: 2.04905664e-05
-          }
-          Scale {
-            X: 1.9259311
-            Y: 1.9259311
-            Z: 1.39605379
-          }
-        }
-        ParentId: 6524137126466910869
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.120000005
-              G: 0.0381457
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.100000024
-              G: 0.0317880884
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17416186193098799152
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 13645706869790544857
         Name: "Grass Tall"
         Transform {
           Location {
-            X: 1.19421387
-            Y: 113.30127
-            Z: 35.324173
+            X: 7.91601563
+            Y: 17.0205078
+            Z: 35.3242188
           }
           Rotation {
             Pitch: 2.04905664e-05
           }
           Scale {
-            X: 1.19617
-            Y: 1.30199993
+            X: 0.928347647
+            Y: 0.77632618
             Z: 2.78005886
           }
         }
@@ -520,9 +540,8 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.0805509537
-              G: 0.0885416642
-              B: 0.0109086651
+              R: 0.290650904
+              G: 0.324
               A: 1
             }
           }
@@ -554,19 +573,15 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: 1.19421387
-            Y: -72.8354492
-            Z: 38.718338
+            Z: 38.7183838
           }
           Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: 79.3514633
-            Roll: 2.01377024e-05
+            Yaw: 3.15306282
           }
           Scale {
-            X: 1.19617
-            Y: 1.30199993
-            Z: 3.56016254
+            X: 0.999995887
+            Y: 0.918431401
+            Z: 2.75
           }
         }
         ParentId: 6524137126466910869
@@ -574,9 +589,8 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.0805509537
-              G: 0.0885416642
-              B: 0.0109086651
+              R: 0.290650904
+              G: 0.324
               A: 1
             }
           }
@@ -608,9 +622,9 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: 142.046753
-            Y: 7.12939453
-            Z: 7.62939453e-06
+            X: 22.0629883
+            Y: 0.62109375
+            Z: -3.05175781e-05
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -618,8 +632,8 @@ Assets {
             Roll: 2.01376915e-05
           }
           Scale {
-            X: 1.77232766
-            Y: 1.30200541
+            X: 1.12837613
+            Y: 0.837054372
             Z: 2.30701065
           }
         }
@@ -628,9 +642,8 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.0805509537
-              G: 0.0885416642
-              B: 0.0109086651
+              R: 0.290650904
+              G: 0.324
               A: 1
             }
           }
@@ -662,9 +675,9 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: -142.890747
-            Y: 36.590332
-            Z: 22.0063782
+            X: -25
+            Y: 9.17822266
+            Z: 22.0065
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -672,9 +685,9 @@ Assets {
             Roll: 2.01376952e-05
           }
           Scale {
-            X: 1.19617
-            Y: 1.30199993
-            Z: 2.30701065
+            X: 0.871708155
+            Y: 0.999999225
+            Z: 2.25
           }
         }
         ParentId: 6524137126466910869
@@ -682,9 +695,8 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.0805509537
-              G: 0.0885416642
-              B: 0.0109086651
+              R: 0.290650904
+              G: 0.324
               A: 1
             }
           }
@@ -716,8 +728,8 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            X: 65.8343506
-            Y: -3.75341797
+            X: 65.8344727
+            Y: -50
             Z: 1340.00159
           }
           Rotation {
@@ -835,6 +847,24 @@ Assets {
       }
     }
     Assets {
+      Id: 11001967573859652020
+      Name: "Cone - Truncated Hollow Wide"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cone_truncated_hollow_004"
+      }
+    }
+    Assets {
+      Id: 10126871160743796714
+      Name: "Ring - Beveled Thick"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ring_faceted_003"
+      }
+    }
+    Assets {
       Id: 6445541368222225009
       Name: "Ring - Quarter Thick"
       PlatformAssetType: 1
@@ -859,15 +889,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_fern_generic_003"
-      }
-    }
-    Assets {
-      Id: 17416186193098799152
-      Name: "Bush 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bush_generic_001"
       }
     }
     Assets {
@@ -902,5 +923,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 77
 }

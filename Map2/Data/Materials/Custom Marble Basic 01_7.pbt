@@ -2,7 +2,7 @@ Assets {
   Id: 17320361520697900981
   Name: "Custom Marble Basic 01_7"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 10204326407371564749
     ParameterOverrides {

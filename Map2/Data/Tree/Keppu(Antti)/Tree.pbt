@@ -709,7 +709,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 4
     }
     Overrides {
       Name: "bp:Cast Shadows"
@@ -742,6 +742,12 @@ Objects {
     Overrides {
       Name: "bp:Blend Amount"
       Float: 0
+    }
+    Overrides {
+      Name: "bp:Blend Target Image"
+      Enum {
+        Value: "mc:eambientcubemapssmall:25"
+      }
     }
   }
   Collidable_v2 {
