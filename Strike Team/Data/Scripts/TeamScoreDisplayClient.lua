@@ -16,10 +16,12 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 --]]
 -- Internal custom properties --
 local ENEMY_PROGRESS_TEXT = script:GetCustomProperty("ENEMY_PROGRESS_TEXT"):WaitForObject()
-local ENEMY_PROGRESS = script:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
-local TEAM_PROGRESS = script:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
 local TEAM_PROGRESS_TEXT = script:GetCustomProperty("TEAM_PROGRESS_TEXT"):WaitForObject()
 local MAX_SCORE_TEXT = script:GetCustomProperty("MAX_SCORE"):WaitForObject()
+local TEAM_SCORE = script:GetCustomProperty("TEAM_SCORE"):WaitForObject()
+local ENEMY_SCORE = script:GetCustomProperty("ENEMY_SCORE"):WaitForObject()
+
+local lastTeamScore, lastEnemyScore
 
 -- User exposed properties --
 local SHOW_MAX_SCORE = true
@@ -36,16 +38,58 @@ if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     MAX_SCORE = 100
 end
 
+local function GetEnemyTeam()
+    if LOCAL_PLAYER.team == 1 then
+        return 2
+    elseif LOCAL_PLAYER.team == 2 then
+        return 1
+    end
+end
+
+local function UpdateEnemyFlag(score)
+    for i, child in ipairs(ENEMY_SCORE:GetChildren()) do
+        if i <= score then
+            child.visibility = Visibility.FORCE_ON
+        end
+    end
+end
+
+local function UpdateTeamFlag(score)
+    for i, child in ipairs(TEAM_SCORE:GetChildren()) do
+        if i <= score then
+            child.visibility = Visibility.FORCE_ON
+        end
+    end
+end
+
+function Int()
+    local teamScore = Game.GetTeamScore(LOCAL_PLAYER.team)
+    for i, child in ipairs(TEAM_SCORE:GetChildren()) do
+        if i <= teamScore then
+            child.visibility = Visibility.FORCE_ON
+        else
+            child.visibility = Visibility.FORCE_OFF
+        end
+    end
+
+    local enemyScore = Game.GetTeamScore(GetEnemyTeam())
+
+    for i, child in ipairs(ENEMY_SCORE:GetChildren()) do
+        if i <= enemyScore then
+            child.visibility = Visibility.FORCE_ON
+        else
+            child.visibility = Visibility.FORCE_OFF
+        end
+    end
+    lastTeamScore, lastEnemyScore = nil, nil
+end
+
 -- nil Tick(float)
 -- Update the display
 function Tick(deltaTime)
     local enemyTeam, team
-    if LOCAL_PLAYER.team == 1 then
-        enemyTeam = 2
-    elseif LOCAL_PLAYER.team == 2 then
-        enemyTeam = 1
-    end
 
+    enemyTeam = GetEnemyTeam()
     team = LOCAL_PLAYER.team
 
     MAX_SCORE_TEXT.text = tostring(MAX_SCORE)
@@ -53,15 +97,17 @@ function Tick(deltaTime)
     local teamScore = Game.GetTeamScore(team)
     local enemyScore = Game.GetTeamScore(enemyTeam)
 
-    TEAM_PROGRESS.progress = teamScore / MAX_SCORE
-    ENEMY_PROGRESS.progress = enemyScore / MAX_SCORE
+    if lastTeamScore ~= teamScore then
+        UpdateTeamFlag(teamScore)
+    elseif lastEnemyScore ~= enemyScore then
+        UpdateEnemyFlag(enemyScore)
+    end
 
     ENEMY_PROGRESS_TEXT.text = string.format(enemyScore) -- string.format("%s %d / %d", LABEL, score, MAX_SCORE)
     TEAM_PROGRESS_TEXT.text = string.format(teamScore)
 
-    if (TEAM == LOCAL_PLAYER.team) then
-        TEAM_PROGRESS:SetFillColor(Color.FromStandardHex("#2196F3FF"))
-    else
-        ENEMY_PROGRESS:SetFillColor(Color.FromStandardHex("#F44336FF"))
-    end
+    lastTeamScore = teamScore
+    lastEnemyScore = enemyScore
 end
+
+Int()

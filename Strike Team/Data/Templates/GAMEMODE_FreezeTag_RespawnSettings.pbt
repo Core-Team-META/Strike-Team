@@ -15,7 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
+        ChildIds: 11239374106563936546
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -30,6 +31,70 @@ Assets {
             RespawnMode_v2 {
               Value: "mc:erespawnmode:none"
             }
+          }
+        }
+      }
+      Objects {
+        Id: 11239374106563936546
+        Name: "StaticContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15039028832233631563
+        ChildIds: 8375080814939922056
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 8375080814939922056
+        Name: "RespawnTimeSetup"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11239374106563936546
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RESPAWNTIME"
+            Float: 0
+          }
+          Overrides {
+            Name: "cs:MINRESPAWNTIME"
+            Float: 999999
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17261934592455900959
           }
         }
       }

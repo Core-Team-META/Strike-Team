@@ -50,6 +50,14 @@ end
 
 function equipItem(player,equipstring,slot)
     --this is dumb code cant reference self 
+    local defaults = {
+        ["Primary"]     =  "HK",
+        ["Secondary"]   =  "S4",
+        ["Melee"]       =  "LR",
+        ["Equipment"]   =  "EL",
+        ["Perk"]        =  "EP",  
+    }
+
     local t = {
         ["Primary"]     =   _G["DataBase"]:GetPrimary(equipstring),
         ["Secondary"]   =   _G["DataBase"]:GetSecondary(equipstring),
@@ -59,6 +67,10 @@ function equipItem(player,equipstring,slot)
     }
     local str = t[slot]
     local item = _G["DataBase"]:SetupItemWithSkin(str)
+    if not item then 
+        item =  _G["DataBase"]:SetupItemWithSkin(defaults[slot])
+    end
+    if not item then return end
     local equipment = item:SpawnEquipment()
     player.serverUserData.Weapons[slot.."Weapon"] = equipment
     if(slot ~= "Equipment" and slot ~= "Perk" ) then

@@ -291,7 +291,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 3.5
+            Duration: 2.5
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -369,11 +369,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 97
+            Float: 87
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 163
+            Float: 174
           }
         }
         Collidable_v2 {
@@ -1043,15 +1043,15 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:DURATION"
-            Float: 0.06
+            Float: 0.14
           }
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 2
+            Float: 1.5
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 2
+            Float: 1.5
           }
         }
         Collidable_v2 {

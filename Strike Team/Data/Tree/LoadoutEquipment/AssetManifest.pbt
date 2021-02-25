@@ -8,12 +8,30 @@ Assets {
   }
 }
 Assets {
-  Id: 16873054259561342990
-  Name: "Frame Outline Thin 001"
+  Id: 13241751655691963958
+  Name: "Fantasy Shape 005"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
+    AssetId: "UI_Fantasy_Shape_005"
+  }
+}
+Assets {
+  Id: 10698833128597864431
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}
+Assets {
+  Id: 9878439610815201128
+  Name: "3D Frame Basic Circle"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_3D_Frame_BasicCircle"
   }
 }
 Assets {

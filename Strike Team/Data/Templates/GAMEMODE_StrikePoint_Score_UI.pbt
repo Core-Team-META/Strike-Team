@@ -24,6 +24,30 @@ Assets {
               SubObjectId: 1110571242931721217
             }
           }
+          Overrides {
+            Name: "cs:TEAM_PROGRESS"
+            ObjectReference {
+              SubObjectId: 9222553206125876419
+            }
+          }
+          Overrides {
+            Name: "cs:ENEMY_PROGRESS"
+            ObjectReference {
+              SubObjectId: 2142867819255188743
+            }
+          }
+          Overrides {
+            Name: "cs:MAIN_FLAG_INDICATOR"
+            ObjectReference {
+              SubObjectId: 1349110377780673997
+            }
+          }
+          Overrides {
+            Name: "cs:IDLE"
+            ObjectReference {
+              SubObjectId: 7222416891580657222
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -1591,7 +1615,7 @@ Assets {
       }
       Objects {
         Id: 9222553206125876419
-        Name: "ENEMY_PROGRESS"
+        Name: "TEAM_PROGRESS"
         Transform {
           Location {
             X: -2938.39453
@@ -1916,7 +1940,7 @@ Assets {
       }
       Objects {
         Id: 2142867819255188743
-        Name: "TEAM_PROGRESS"
+        Name: "ENEMY_PROGRESS"
         Transform {
           Location {
             X: -2938.39453
@@ -2048,7 +2072,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 30
@@ -2106,7 +2130,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 30
@@ -2162,7 +2186,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 30
@@ -2408,11 +2432,7 @@ Assets {
         }
         ParentId: 15360483234808814285
         ChildIds: 12809818277457169026
-        ChildIds: 2890342105704842151
-        ChildIds: 14052463553422091611
-        ChildIds: 18259715565636381294
-        ChildIds: 12815151423255491637
-        ChildIds: 15877779661815929349
+        ChildIds: 15200895874786406018
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2447,7 +2467,7 @@ Assets {
       }
       Objects {
         Id: 12809818277457169026
-        Name: "Text Box"
+        Name: "ENEMY_SCORE_TEXT"
         Transform {
           Location {
             X: 3730.9646
@@ -2509,6 +2529,37 @@ Assets {
         }
       }
       Objects {
+        Id: 15200895874786406018
+        Name: "ENEMY_SCORE"
+        Transform {
+          Location {
+            X: 0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14841710743472230958
+        ChildIds: 2890342105704842151
+        ChildIds: 14052463553422091611
+        ChildIds: 18259715565636381294
+        ChildIds: 12815151423255491637
+        ChildIds: 15877779661815929349
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 2890342105704842151
         Name: "1"
         Transform {
@@ -2523,7 +2574,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14841710743472230958
+        ParentId: 15200895874786406018
         ChildIds: 3407589258881129209
         ChildIds: 1570361443706025712
         ChildIds: 3759585637366530598
@@ -2915,7 +2966,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14841710743472230958
+        ParentId: 15200895874786406018
         ChildIds: 15804281514587229625
         ChildIds: 17306683126907218492
         ChildIds: 2946774216565460433
@@ -3307,7 +3358,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14841710743472230958
+        ParentId: 15200895874786406018
         ChildIds: 3231579322465175901
         ChildIds: 7964850243807290420
         ChildIds: 6630719978494873003
@@ -3699,7 +3750,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14841710743472230958
+        ParentId: 15200895874786406018
         ChildIds: 9290530932818973944
         ChildIds: 12971843594694971891
         ChildIds: 12262258133057248238
@@ -4091,7 +4142,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14841710743472230958
+        ParentId: 15200895874786406018
         ChildIds: 740282710262377785
         ChildIds: 15182553305510154866
         ChildIds: 3299811242635902908
@@ -4486,11 +4537,7 @@ Assets {
         }
         ParentId: 15360483234808814285
         ChildIds: 370394372475792008
-        ChildIds: 11223577468879803410
-        ChildIds: 11133915963035655593
-        ChildIds: 9048660048270679443
-        ChildIds: 13084634919808644655
-        ChildIds: 16521077164203116619
+        ChildIds: 13844763512064253618
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4525,7 +4572,7 @@ Assets {
       }
       Objects {
         Id: 370394372475792008
-        Name: "Text Box"
+        Name: "TEAM_SCORE_TEXT"
         Transform {
           Location {
             X: 3730.9646
@@ -4588,6 +4635,37 @@ Assets {
         }
       }
       Objects {
+        Id: 13844763512064253618
+        Name: "TEAM_SCORE"
+        Transform {
+          Location {
+            X: 0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12364544501378593577
+        ChildIds: 11223577468879803410
+        ChildIds: 11133915963035655593
+        ChildIds: 9048660048270679443
+        ChildIds: 13084634919808644655
+        ChildIds: 16521077164203116619
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 11223577468879803410
         Name: "1"
         Transform {
@@ -4602,7 +4680,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12364544501378593577
+        ParentId: 13844763512064253618
         ChildIds: 12399852381550831314
         ChildIds: 4956619840473296892
         ChildIds: 467895585413275007
@@ -4999,7 +5077,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12364544501378593577
+        ParentId: 13844763512064253618
         ChildIds: 10951745638602473406
         ChildIds: 16501657992406021238
         ChildIds: 10059284965624355543
@@ -5396,7 +5474,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12364544501378593577
+        ParentId: 13844763512064253618
         ChildIds: 872218702936837461
         ChildIds: 3863939982264985864
         ChildIds: 2822153402833404579
@@ -5793,7 +5871,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12364544501378593577
+        ParentId: 13844763512064253618
         ChildIds: 567488054872421402
         ChildIds: 15549759975257162579
         ChildIds: 2289016554724320764
@@ -6190,7 +6268,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12364544501378593577
+        ParentId: 13844763512064253618
         ChildIds: 10429839864911568275
         ChildIds: 6361709491724568711
         ChildIds: 12137430364246636305
@@ -6591,13 +6669,7 @@ Assets {
           Overrides {
             Name: "cs:ENEMY_PROGRESS_TEXT"
             ObjectReference {
-              SelfId: 7933410664343546683
-            }
-          }
-          Overrides {
-            Name: "cs:ENEMY_PROGRESS"
-            ObjectReference {
-              SelfId: 172452059943243534
+              SubObjectId: 12809818277457169026
             }
           }
           Overrides {
@@ -6605,21 +6677,27 @@ Assets {
             Bool: true
           }
           Overrides {
-            Name: "cs:TEAM_PROGRESS"
-            ObjectReference {
-              SelfId: 5025255463756344785
-            }
-          }
-          Overrides {
             Name: "cs:TEAM_PROGRESS_TEXT"
             ObjectReference {
-              SelfId: 6840439975345851513
+              SubObjectId: 370394372475792008
             }
           }
           Overrides {
             Name: "cs:MAX_SCORE"
             ObjectReference {
               SubObjectId: 4519710612688877366
+            }
+          }
+          Overrides {
+            Name: "cs:TEAM_SCORE"
+            ObjectReference {
+              SubObjectId: 13844763512064253618
+            }
+          }
+          Overrides {
+            Name: "cs:ENEMY_SCORE"
+            ObjectReference {
+              SubObjectId: 15200895874786406018
             }
           }
         }

@@ -13446,6 +13446,8 @@ Assets {
         }
         Text {
           Text: "DO NOT"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 0.421457
@@ -13489,6 +13491,8 @@ Assets {
         }
         Text {
           Text: "ENTER"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 0.421457
@@ -63351,6 +63355,8 @@ Assets {
         }
         Text {
           Text: "DO NOT"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 0.421457
@@ -63394,6 +63400,8 @@ Assets {
         }
         Text {
           Text: "ENTER"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 0.421457

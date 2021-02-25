@@ -45,7 +45,7 @@ function Queue:ReturnTime()
 end
 
 function Queue:Broadcast()
-    ReliableEvents.BroadcastToAllPlayers ("PlayerDamage_Internal", self.amount, self.damaged, self.source)
+    Events.BroadcastToAllPlayers ("PlayerDamage_Internal", self.amount, self.damaged, self.source)
 end
 
 function AddToQueueTable(player, damage )
@@ -60,7 +60,7 @@ function CheckQueueTable(player,damage)
             return 
         end
     end
-    ReliableEvents.BroadcastToAllPlayers("PlayerDamage_Internal", damage.amount, player, damage.sourcePlayer)
+    Events.BroadcastToAllPlayers("PlayerDamage_Internal", damage.amount, player, damage.sourcePlayer)
     AddToQueueTable(player, damage )
 end
 

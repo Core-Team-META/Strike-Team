@@ -52,6 +52,7 @@ function DisplayDamage(damage, targetPlayer, sourcePlayer)
             -- Show fly up damage text on target player
             local CalcX = (math.random() + math.random(-2,0)) * 50
             local HorizontalVec = ((LOCAL_PLAYER:GetViewWorldRotation() * Vector3.FORWARD) ^ Vector3.UP ) * CalcX
+            damage = math.min(damage,targetPlayer.hitPoints)
             UI.ShowFlyUpText(tostring(math.floor(damage)), targetPlayer:GetWorldPosition()+Vector3.UP*100 + HorizontalVec,
                 {duration = DAMAGE_TEXT_DURATION,
                 color = DAMAGE_TEXT_COLOR,

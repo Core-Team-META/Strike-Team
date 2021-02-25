@@ -160,6 +160,9 @@ local function RestoreFromPodium()
 		
 	for _, panel in pairs(PlayerPanels) do
 		panel.visibility = Visibility.FORCE_OFF
+		
+		local nameTextLabel = panel:GetCustomProperty("NameText"):WaitForObject()
+		nameTextLabel.text = ""
 
 		local resourcePanel = panel:GetCustomProperty("ResourcePanel"):WaitForObject()
 		resourcePanel.visibility = Visibility.FORCE_OFF
