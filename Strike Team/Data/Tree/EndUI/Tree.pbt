@@ -9626,16 +9626,15 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 465
+    Width: 500
     Height: 40
     UIX: -392
-    UIY: 4.82739258
+    UIY: 20
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
     Text {
       Label: "CHOOSE A GAME MODE FOR MORE INFO"
       Color {
@@ -9644,7 +9643,7 @@ Objects {
         B: 0.50888145
         A: 1
       }
-      Size: 20
+      Size: 25
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -9694,8 +9693,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 465
-    Height: 20
+    Width: 500
+    Height: 25
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -9710,7 +9709,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 20
+      Size: 25
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -9804,7 +9803,7 @@ Objects {
     Width: 582
     Height: 368
     UIX: 761.874634
-    UIY: 116.972885
+    UIY: 80.0773544
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -12574,7 +12573,7 @@ Objects {
     Width: 582
     Height: 368
     UIX: 761.874634
-    UIY: 116.972885
+    UIY: 80.0773544
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -15344,7 +15343,7 @@ Objects {
     Width: 582
     Height: 368
     UIX: 761.874634
-    UIY: 116.972885
+    UIY: 80.0773544
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -17664,7 +17663,7 @@ Objects {
     Width: 582
     Height: 368
     UIX: 761.874634
-    UIY: 116.972885
+    UIY: 80.0773544
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
