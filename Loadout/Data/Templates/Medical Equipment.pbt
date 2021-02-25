@@ -1,13 +1,13 @@
 Assets {
   Id: 18168340960820893564
-  Name: "Object_Medical Equipment"
+  Name: "Medical Equipment"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 13925320049161346889
       Objects {
         Id: 13925320049161346889
-        Name: "Object_Medical Equipment"
+        Name: "Medical Equipment"
         Transform {
           Scale {
             X: 1
@@ -32,9 +32,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 15
           }
           Rotation {
+            Yaw: -175
             Roll: -90
           }
           Scale {

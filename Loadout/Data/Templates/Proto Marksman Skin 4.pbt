@@ -15,12 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1327273384198093882
-        ChildIds: 339235641625196575
-        ChildIds: 14790846448508191572
-        ChildIds: 9311207436286063980
-        ChildIds: 12733658835960645433
-        ChildIds: 2600428723669730473
+        ParentId: 4781671109827199097
+        ChildIds: 13272991217144621333
+        ChildIds: 17450807098979195120
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -32,12 +29,11 @@ Assets {
         }
       }
       Objects {
-        Id: 339235641625196575
-        Name: "Stock"
+        Id: 13272991217144621333
+        Name: "Group"
         Transform {
           Location {
-            X: -2.89611816
-            Z: 15.9302826
+            X: 8.62246132
           }
           Rotation {
           }
@@ -48,6 +44,38 @@ Assets {
           }
         }
         ParentId: 11867726258076702167
+        ChildIds: 339235641625196575
+        ChildIds: 14790846448508191572
+        ChildIds: 9311207436286063980
+        ChildIds: 12733658835960645433
+        ChildIds: 2600428723669730473
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 339235641625196575
+        Name: "Stock"
+        Transform {
+          Location {
+            X: -11.5185547
+            Z: 15.9302979
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13272991217144621333
         ChildIds: 17307318755993882322
         ChildIds: 6391169955396621028
         ChildIds: 14999618934632144755
@@ -549,8 +577,8 @@ Assets {
         Name: "Sight"
         Transform {
           Location {
-            X: 23.3250732
-            Z: 27.3466492
+            X: 14.7026367
+            Z: 27.3466797
           }
           Rotation {
           }
@@ -560,7 +588,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11867726258076702167
+        ParentId: 13272991217144621333
         ChildIds: 16747648807087613020
         ChildIds: 6141353679255387867
         ChildIds: 4651735947120673405
@@ -1002,8 +1030,8 @@ Assets {
         Name: "Grip"
         Transform {
           Location {
-            X: 1.72509766
-            Z: 3.09184265
+            X: -6.89746094
+            Z: 3.09179688
           }
           Rotation {
           }
@@ -1013,7 +1041,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11867726258076702167
+        ParentId: 13272991217144621333
         ChildIds: 12342787367652830606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1087,8 +1115,8 @@ Assets {
         Name: "Mag"
         Transform {
           Location {
-            X: 20.958252
-            Z: 5.09909058
+            X: 12.3359375
+            Z: 5.09912109
           }
           Rotation {
           }
@@ -1098,7 +1126,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11867726258076702167
+        ParentId: 13272991217144621333
         ChildIds: 4389260086195781070
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1163,6 +1191,7 @@ Assets {
         Name: "Frame"
         Transform {
           Location {
+            X: -8.62255859
           }
           Rotation {
           }
@@ -1172,7 +1201,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11867726258076702167
+        ParentId: 13272991217144621333
         ChildIds: 13627544585375862141
         ChildIds: 1376509585528383374
         ChildIds: 3910745421715142764
@@ -2602,6 +2631,47 @@ Assets {
           StaticMesh {
             Physics {
             }
+          }
+        }
+      }
+      Objects {
+        Id: 17450807098979195120
+        Name: "WeaponAimScopeClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11867726258076702167
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ClientArt"
+            ObjectReference {
+              SubObjectId: 13272991217144621333
+            }
+          }
+          Overrides {
+            Name: "cs:ScopeTemplate"
+            AssetReference {
+              Id: 6039838761280348013
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13511250510657008800
           }
         }
       }

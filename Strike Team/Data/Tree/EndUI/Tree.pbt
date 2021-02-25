@@ -598,7 +598,6 @@ Objects {
     }
   }
   ParentId: 3119672990277470645
-  ChildIds: 2374704086599958058
   ChildIds: 6665088460291741326
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -727,43 +726,6 @@ Objects {
   InstanceHistory {
     SelfId: 6665088460291741326
     SubobjectId: 702830895726670029
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 2374704086599958058
-  Name: "EquipButton"
-  Transform {
-    Location {
-      X: -86.0264
-      Y: 119.315338
-      Z: -354.069397
-    }
-    Rotation {
-      Yaw: -134.528427
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12090215191186638440
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468423013726314985
-    }
-  }
-  InstanceHistory {
-    SelfId: 2374704086599958058
-    SubobjectId: 8451979508361123945
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -1337,7 +1299,6 @@ Objects {
     }
   }
   ParentId: 6814743995337046778
-  ChildIds: 13354425159972139942
   ChildIds: 368088025339778108
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1469,43 +1430,6 @@ Objects {
   InstanceHistory {
     SelfId: 6665088460291741326
     SubobjectId: 702830895726670029
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 13354425159972139942
-  Name: "EquipButton"
-  Transform {
-    Location {
-      X: -86.0264
-      Y: 119.315338
-      Z: -354.069397
-    }
-    Rotation {
-      Yaw: -134.528427
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2290046866832557121
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468423013726314985
-    }
-  }
-  InstanceHistory {
-    SelfId: 2374704086599958058
-    SubobjectId: 8451979508361123945
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -10474,7 +10398,6 @@ Objects {
     }
   }
   ParentId: 5950862723300755092
-  ChildIds: 8827989834385822566
   ChildIds: 7768316530360745926
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -10607,43 +10530,6 @@ Objects {
   InstanceHistory {
     SelfId: 6665088460291741326
     SubobjectId: 702830895726670029
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 8827989834385822566
-  Name: "EquipButton"
-  Transform {
-    Location {
-      X: -86.0264
-      Y: 119.315338
-      Z: -354.069397
-    }
-    Rotation {
-      Yaw: -134.528427
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13119262544566691693
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468423013726314985
-    }
-  }
-  InstanceHistory {
-    SelfId: 2374704086599958058
-    SubobjectId: 8451979508361123945
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -13244,7 +13130,6 @@ Objects {
     }
   }
   ParentId: 8225851770243909173
-  ChildIds: 14209426036604965267
   ChildIds: 11532538909609730422
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -13377,43 +13262,6 @@ Objects {
   InstanceHistory {
     SelfId: 6665088460291741326
     SubobjectId: 702830895726670029
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 14209426036604965267
-  Name: "EquipButton"
-  Transform {
-    Location {
-      X: -86.0264
-      Y: 119.315338
-      Z: -354.069397
-    }
-    Rotation {
-      Yaw: -134.528427
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2637276741088831952
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468423013726314985
-    }
-  }
-  InstanceHistory {
-    SelfId: 2374704086599958058
-    SubobjectId: 8451979508361123945
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -18334,7 +18182,6 @@ Objects {
     }
   }
   ParentId: 4094699188226667788
-  ChildIds: 9391429936218257875
   ChildIds: 141817881552591218
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -18467,43 +18314,6 @@ Objects {
   InstanceHistory {
     SelfId: 6665088460291741326
     SubobjectId: 702830895726670029
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 9391429936218257875
-  Name: "EquipButton"
-  Transform {
-    Location {
-      X: -86.0264
-      Y: 119.315338
-      Z: -354.069397
-    }
-    Rotation {
-      Yaw: -134.528427
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9820718229308695898
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468423013726314985
-    }
-  }
-  InstanceHistory {
-    SelfId: 2374704086599958058
-    SubobjectId: 8451979508361123945
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }
@@ -21160,7 +20970,6 @@ Objects {
     }
   }
   ParentId: 8440830382515375226
-  ChildIds: 3675975331402520071
   ChildIds: 7685579662007310563
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -21292,43 +21101,6 @@ Objects {
   InstanceHistory {
     SelfId: 6665088460291741326
     SubobjectId: 702830895726670029
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 3675975331402520071
-  Name: "EquipButton"
-  Transform {
-    Location {
-      X: -86.0264
-      Y: 119.315338
-      Z: -354.069397
-    }
-    Rotation {
-      Yaw: -134.528427
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13515482328145470203
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468423013726314985
-    }
-  }
-  InstanceHistory {
-    SelfId: 2374704086599958058
-    SubobjectId: 8451979508361123945
     InstanceId: 17062914421354910301
     TemplateId: 12784020134702693331
   }

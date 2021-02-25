@@ -153,5 +153,5 @@ ROOT.destroyEvent:Connect(OnDestroyed)
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
 SetData({0, 0, MAX_RESOURCE})
-Task.Wait(10)
+Task.Wait(20)
 isEnabled = true
