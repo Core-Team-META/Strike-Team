@@ -559,19 +559,19 @@ Objects {
     Overrides {
       Name: "cs:LineBGColor"
       Color {
-        R: 0.0109601011
-        G: 0.141263247
-        B: 0.174647421
-        A: 0.616000056
+        R: 0.0161909424
+        G: 0.20868279
+        B: 0.258000016
+        A: 0.851
       }
     }
     Overrides {
       Name: "cs:LineBGBorderColor"
       Color {
         R: 0.0536037311
-        G: 0.690891147
+        G: 0.690890968
         B: 0.854166687
-        A: 0.616000056
+        A: 0.867000043
       }
     }
     Overrides {

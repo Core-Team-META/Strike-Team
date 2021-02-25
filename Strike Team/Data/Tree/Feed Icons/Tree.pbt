@@ -64,7 +64,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -98,8 +98,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -206,7 +206,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -226,8 +226,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -334,7 +334,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -354,8 +354,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -447,7 +447,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -467,8 +467,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -581,7 +581,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -601,8 +601,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -721,7 +721,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -741,8 +741,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -848,7 +848,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -868,8 +868,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -983,7 +983,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1003,8 +1003,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1118,7 +1118,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1138,8 +1138,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1253,7 +1253,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1273,8 +1273,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1388,7 +1388,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1408,8 +1408,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1523,7 +1523,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1543,8 +1543,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1658,7 +1658,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1678,8 +1678,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1793,7 +1793,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1813,8 +1813,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -1928,7 +1928,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -1948,8 +1948,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -2070,7 +2070,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -2090,8 +2090,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
@@ -2212,7 +2212,7 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
@@ -2232,8 +2232,8 @@ Objects {
       Name: "cs:Layer_01_Color"
       Color {
         R: 0.62
-        G: 0.0985430703
-        A: 1
+        G: 0.0985432193
+        A: 0.676000059
       }
     }
     Overrides {
