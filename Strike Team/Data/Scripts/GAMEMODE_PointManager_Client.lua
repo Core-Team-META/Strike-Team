@@ -3,8 +3,8 @@
 -- Author:
 --       Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 --       standardcombo (MANTICORE) - (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
--- Date: 2021/2/01
--- Version 0.1.0
+-- Date: 2021/2/26
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -44,9 +44,12 @@ local function AddNewPoints()
         if not points[interest] then
             local shouldShow = interest:GetCustomProperty("ShouldShow")
             local INTEREST_ICON = interest:GetCustomProperty("POI")
+            local GRACE_PERIOD = interest:GetCustomProperty("GracePeriod")
             if shouldShow and INTEREST_ICON then
                 points[interest] = World.SpawnAsset(INTEREST_ICON, {parent = CONTAINER})
                 points[interest].visibility = Visibility.INHERIT
+                points[interest].clientUserData.timer = time() + GRACE_PERIOD
+                points[interest].clientUserData.needsUpdate = false
             end
         end
     end
@@ -62,13 +65,44 @@ local function RemovePoint(object)
 end
 
 local function SetTeamColor(point, indicator)
+    if indicator.clientUserData.timer <= time() then
+        indicator.clientUserData.needsUpdate = true
+    end
+
+   
     local ICON = indicator:GetCustomProperty("ICON"):WaitForObject()
-    local BOARDER = indicator:GetCustomProperty("BOARDER"):WaitForObject()
+    local COUNT_DOWN_TEXT = indicator:GetCustomProperty("COUNT_DOWN_TEXT"):WaitForObject()
     local LEFT_INNER = indicator:GetCustomProperty("LEFT_INNER"):WaitForObject()
     local RIGHT_INNER = indicator:GetCustomProperty("RIGHT_INNER"):WaitForObject()
     local LEFT_IMAGE = indicator:GetCustomProperty("LEFT_IMAGE"):WaitForObject()
     local RIGHT_IMAGE = indicator:GetCustomProperty("RIGHT_IMAGE"):WaitForObject()
+
+ 
+    if not indicator.clientUserData.needsUpdate then
+        ICON.visibility = Visibility.FORCE_OFF
+        COUNT_DOWN_TEXT.visibility = Visibility.FORCE_ON
+        local currentTime = tonumber(indicator.clientUserData.timer - time())
+        if currentTime >= 0 then
+            local seconds = (currentTime % 3600) % 60
+            COUNT_DOWN_TEXT.text = tostring(CoreMath.Round(seconds))
+        end
+        local progress = 0
+
+        RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180
+        LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180
+        if true then
+            RIGHT_INNER.rotationAngle = RIGHT_INNER.rotationAngle - 180
+            LEFT_INNER.rotationAngle = LEFT_INNER.rotationAngle - 180
+        end
+        return
+    end
+
+    local BOARDER = indicator:GetCustomProperty("BOARDER"):WaitForObject()
+
     local pointTeam = point.team
+
+    ICON.visibility = Visibility.FORCE_ON
+    COUNT_DOWN_TEXT.visibility = Visibility.FORCE_OFF
 
     --if not pointTeam then
     local str = point:GetCustomProperty("DATA")

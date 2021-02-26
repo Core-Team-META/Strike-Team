@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 1859480280853875637
         ChildIds: 13194982590536228754
         ChildIds: 15646835229941616177
         UnregisteredParameters {
@@ -61,6 +61,12 @@ Assets {
               SubObjectId: 1303269122449623868
             }
           }
+          Overrides {
+            Name: "cs:COUNT_DOWN_TEXT"
+            ObjectReference {
+              SubObjectId: 8529504068347617989
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -69,8 +75,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 32
-          Height: 32
+          Width: 64
+          Height: 64
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -132,8 +138,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 40
+          Width: 80
+          Height: 80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -178,8 +184,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
-          Height: 40
+          Width: 40
+          Height: 80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -225,8 +231,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
-          Height: 40
+          Width: 40
+          Height: 80
           RotationAngle: 355.47168
           RenderTransformPivot {
             Anchor {
@@ -272,8 +278,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 40
+          Width: 80
+          Height: 80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -330,8 +336,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
-          Height: 40
+          Width: 40
+          Height: 80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -377,8 +383,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
-          Height: 40
+          Width: 40
+          Height: 80
           RotationAngle: -15.9526367
           RenderTransformPivot {
             Anchor {
@@ -424,8 +430,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 40
+          Width: 80
+          Height: 80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -477,6 +483,7 @@ Assets {
         ChildIds: 15772787070990986732
         ChildIds: 12749130977974550931
         ChildIds: 17951266912814906535
+        ChildIds: 8529504068347617989
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -598,8 +605,8 @@ Assets {
           Value: "mc:evisibilitysetting:forceon"
         }
         Control {
-          Width: -10
-          Height: -10
+          Width: -25
+          Height: -25
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -610,7 +617,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 13876111209393535781
+              Id: 6476434261817820781
             }
             Color {
               R: 1
@@ -662,7 +669,7 @@ Assets {
         }
         Control {
           Width: 50
-          UIY: 28.938221
+          UIY: 66.9068604
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -701,6 +708,69 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 8529504068347617989
+        Name: "COUNT_DOWN_TEXT"
+        Transform {
+          Location {
+            X: 367.000793
+            Y: -4183.66455
+            Z: -1092.23376
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15646835229941616177
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 62
+          Height: 60
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "30"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 30
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 15266094661921614944
@@ -730,12 +800,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13876111209393535781
-      Name: "Radio Dish"
+      Id: 6476434261817820781
+      Name: "Icon Flag"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_035"
+        AssetId: "Icon_Flag"
       }
     }
     PrimaryAssetId {
