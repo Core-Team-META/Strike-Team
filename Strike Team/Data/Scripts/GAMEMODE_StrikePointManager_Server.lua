@@ -34,6 +34,7 @@ local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
+local GracePeriod = ROOT:GetCustomProperty("GracePeriod") or 20
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -144,7 +145,8 @@ function OnDestroyed(object)
     for player, team in pairs(playersOnHill) do
         if currentTeam == team then
             lastTeam = team
-            player:AddResource("Objective", 1)
+            player:AddResource("Objective", 5)
+            player:AddResource("Score", 50)
         end
     end
 end
@@ -153,5 +155,5 @@ ROOT.destroyEvent:Connect(OnDestroyed)
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
 SetData({0, 0, MAX_RESOURCE})
-Task.Wait(20)
+Task.Wait(GracePeriod)
 isEnabled = true

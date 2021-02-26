@@ -118,13 +118,13 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -86.4877853
+            X: -86.487793
             Y: 197.187988
             Z: 545
           }
           Rotation {
-            Yaw: 44.9999847
-            Roll: -106.70372
+            Yaw: 45
+            Roll: -108.593018
           }
           Scale {
             X: 1.00000346
@@ -170,13 +170,13 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -230.585434
+            X: -230.585449
             Y: 53.090332
             Z: 545
           }
           Rotation {
-            Yaw: 44.9999847
-            Roll: -106.703568
+            Yaw: 45
+            Roll: -108.592957
           }
           Scale {
             X: 1.00000346

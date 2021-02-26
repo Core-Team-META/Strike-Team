@@ -64,26 +64,43 @@ end
 local function SetTeamColor(point, indicator)
     local ICON = indicator:GetCustomProperty("ICON"):WaitForObject()
     local BOARDER = indicator:GetCustomProperty("BOARDER"):WaitForObject()
+    local LEFT_INNER = indicator:GetCustomProperty("LEFT_INNER"):WaitForObject()
+    local RIGHT_INNER = indicator:GetCustomProperty("RIGHT_INNER"):WaitForObject()
+    local LEFT_IMAGE = indicator:GetCustomProperty("LEFT_IMAGE"):WaitForObject()
+    local RIGHT_IMAGE = indicator:GetCustomProperty("RIGHT_IMAGE"):WaitForObject()
     local pointTeam = point.team
 
-    if not pointTeam then
-        local str = point:GetCustomProperty("DATA")
-        local data
-        if str ~= "" then
-            data = GT_API.ConvertStringToTable(str)
-        end
-        if not data then
-            return
-        end
-        pointTeam = data[1]
+    --if not pointTeam then
+    local str = point:GetCustomProperty("DATA")
+    local data
+    if str ~= "" then
+        data = GT_API.ConvertStringToTable(str)
     end
+    if not data then
+        return
+    end
+    pointTeam = data[1]
+    local progress = data[2] / 100
+
+    RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180
+    LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180
+    if true then
+        RIGHT_INNER.rotationAngle = RIGHT_INNER.rotationAngle - 180
+        LEFT_INNER.rotationAngle = LEFT_INNER.rotationAngle - 180
+    end
+
+    -- end
     if Object.IsValid(ICON) and Object.IsValid(BOARDER) then
         if pointTeam > 0 then
             ICON.team = pointTeam
             BOARDER.team = pointTeam
+            LEFT_IMAGE.team = pointTeam
+            RIGHT_IMAGE.team = pointTeam
         else
             ICON.team = 0
             BOARDER.team = 0
+            LEFT_IMAGE.team = 0
+            RIGHT_IMAGE.team = 0
         end
     end
 end

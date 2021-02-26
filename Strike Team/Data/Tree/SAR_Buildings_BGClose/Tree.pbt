@@ -28482,6 +28482,7 @@ Objects {
   ChildIds: 7953344593132113707
   ChildIds: 5694236925961408295
   ChildIds: 847395563393327020
+  ChildIds: 17945981529686436649
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -28490,6 +28491,72 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17945981529686436649
+  Name: "Whitebox Wall 01 Half"
+  Transform {
+    Location {
+      X: 772.570801
+      Y: 26.0703125
+      Z: -19.1407471
+    }
+    Rotation {
+      Pitch: -3.05175781e-05
+      Yaw: 179.999954
+      Roll: 2.22004641e-12
+    }
+    Scale {
+      X: 2.55046892
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 16575314382531230052
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 8173848993185204084
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1036725943543811742
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 783814044870915271
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -76752,7 +76819,7 @@ Objects {
     Location {
       X: 496.680664
       Y: 314.050781
-      Z: 110.215576
+      Z: 97.5498047
     }
     Rotation {
       Yaw: 89.9999542
