@@ -16,6 +16,10 @@ Assets {
         Name: "fresnel"
         Float: 1.75992978
       }
+      Overrides {
+        Name: "overall brightness"
+        Float: 0.5
+      }
     }
     Assets {
       Id: 9134579743160012638
