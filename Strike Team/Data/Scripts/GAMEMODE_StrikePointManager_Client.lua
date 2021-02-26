@@ -123,6 +123,7 @@ function Int()
     centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
 
     UpdateCenterFlagColor(0)
+    OnNetworkChanged(ROOT)
 end
 
 function OnNetworkChanged(object, string)
