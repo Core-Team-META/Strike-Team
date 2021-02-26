@@ -1659,7 +1659,6 @@ Assets {
               B: 1
               A: 0.203921586
             }
-            Percent: 0.45470944
           }
           AnchorLayout {
             SelfAnchor {
@@ -1984,7 +1983,6 @@ Assets {
               B: 1
               A: 0.203921586
             }
-            Percent: 0.45470944
           }
           AnchorLayout {
             SelfAnchor {

@@ -57,32 +57,28 @@ function Reload()
     if WEAPON.owner ~= LOCAL_PLAYER or not WEAPON.clientUserData.RELOAD_ABILITY.owner == LOCAL_PLAYER  then return end
 
         -- Checks when the weapon has empty ammo to reload
-        if WEAPON.clientUserData.Ammo == 0
-        and not autoReloaded then
-            WEAPON.clientUserData.RELOAD_ABILITY:Activate()
-            SpawnReloadingAudio()
-            autoReloaded = true
-            Task.Wait(WEAPON.clientUserData.RELOAD_ABILITY.castPhaseSettings.duration)
-        end
+    if WEAPON.clientUserData.Ammo == 0 and not autoReloaded then
+        WEAPON.clientUserData.RELOAD_ABILITY:Activate()
+        SpawnReloadingAudio()
+        autoReloaded = true
+        Task.Wait(WEAPON.clientUserData.RELOAD_ABILITY.castPhaseSettings.duration)
+        return
+    end
 
         -- Interrupts the reloading animation,
         -- If the weapon is in different state and the ammo is not empty
-        if WEAPON.clientUserData.Ammo > 0
-        and WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.READY
-        and autoReloaded then
-            WEAPON.clientUserData.RELOAD_ABILITY:Interrupt()
-            autoReloaded = false
-        end
+    if WEAPON.clientUserData.Ammo > 0 and WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.READY and autoReloaded then
+        WEAPON.clientUserData.RELOAD_ABILITY:Interrupt()
+        autoReloaded = false
+    end
         
         -- Reset autoReloaded bool on ready phase
-        if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.READY
-        and autoReloaded then
-            autoReloaded = false
-        end
+    if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.READY and autoReloaded then
+        autoReloaded = false
+    end
 
 end
 
 function Tick( )
-    Reload()
-    Task.Wait()
+    Reload()    
 end
