@@ -29,7 +29,7 @@ local MIN_VIEW_DISTANCE = 1000
 local MAX_VIEW_DISTANCE_SQ = MAX_VIEW_DISTANCE * MAX_VIEW_DISTANCE
 local MIN_VIEW_DISTANCE_SQ = MIN_VIEW_DISTANCE * MIN_VIEW_DISTANCE
 local HEIGHT_OFFSET = 150
-local MARGIN = 50
+local MARGIN = 75
 
 --
 local points = {}
@@ -44,14 +44,11 @@ local function AddNewPoints()
         if not points[interest] then
             local shouldShow = interest:GetCustomProperty("ShouldShow")
             local INTEREST_ICON = interest:GetCustomProperty("POI")
-            local GRACE_PERIOD = interest:GetCustomProperty("GracePeriod")
             if shouldShow and INTEREST_ICON then
                 local indicator = World.SpawnAsset(INTEREST_ICON, {parent = CONTAINER})
                 points[interest] = indicator
                 indicator.visibility = Visibility.INHERIT
                 local pointData = indicator.clientUserData
-
-                pointData.timer = time() + GRACE_PERIOD
                 pointData.needsUpdate = false
                 pointData.ICON = indicator:GetCustomProperty("ICON"):WaitForObject()
                 pointData.COUNT_DOWN_TEXT = indicator:GetCustomProperty("COUNT_DOWN_TEXT"):WaitForObject()
@@ -77,9 +74,18 @@ local function RemovePoint(object)
 end
 
 local function SetTeamColor(point, indicator)
-  
+    --if not pointTeam then
+    local str = point:GetCustomProperty("DATA")
+    local data
+    if str ~= "" then
+        data = GT_API.ConvertStringToTable(str)
+    end
+    if not data then
+        return
+    end
+
     local pointData = indicator.clientUserData
-   
+
     local ICON = pointData.ICON
     local COUNT_DOWN_TEXT = pointData.COUNT_DOWN_TEXT
     local LEFT_INNER = pointData.LEFT_INNER
@@ -87,7 +93,7 @@ local function SetTeamColor(point, indicator)
     local LEFT_IMAGE = pointData.LEFT_IMAGE
     local RIGHT_IMAGE = pointData.RIGHT_IMAGE
 
-    if indicator.clientUserData.timer <= time() then
+    if data[4] <= time() then
         if indicator.clientUserData.needsUpdate == false then
             RIGHT_INNER.visibility = Visibility.INHERIT
             LEFT_INNER.visibility = Visibility.INHERIT
@@ -98,7 +104,7 @@ local function SetTeamColor(point, indicator)
     if not indicator.clientUserData.needsUpdate then
         ICON.visibility = Visibility.FORCE_OFF
         COUNT_DOWN_TEXT.visibility = Visibility.FORCE_ON
-        local currentTime = tonumber(indicator.clientUserData.timer - time())
+        local currentTime = tonumber(data[4] - time())
         if currentTime >= 0 then
             local seconds = (currentTime % 3600) % 60
             COUNT_DOWN_TEXT.text = tostring(CoreMath.Round(seconds))
@@ -113,23 +119,11 @@ local function SetTeamColor(point, indicator)
     ICON.visibility = Visibility.FORCE_ON
     COUNT_DOWN_TEXT.visibility = Visibility.FORCE_OFF
 
-    --if not pointTeam then
-    local str = point:GetCustomProperty("DATA")
-    local data
-    if str ~= "" then
-        data = GT_API.ConvertStringToTable(str)
-    end
-    if not data then
-        return
-    end
     pointTeam = data[1]
     local progress = data[2] / 100
 
-
-
-    RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180- 180
-    LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180- 180
-
+    RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180 - 180
+    LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180 - 180
 
     -- end
     if Object.IsValid(ICON) and Object.IsValid(BOARDER) then
@@ -206,13 +200,15 @@ function OnChildRemoved(root, object)
 end
 
 function Tick()
-  pcall(function()
-        for point, interest in pairs(points) do
-            if Object.IsValid(point) and Object.IsValid(interest) then
-                UpdatePoint(point, interest)
+    pcall(
+        function()
+            for point, interest in pairs(points) do
+                if Object.IsValid(point) and Object.IsValid(interest) then
+                    UpdatePoint(point, interest)
+                end
             end
         end
-    end)
+    )
 end
 
 ------------------------------------------------------------------------------------------------------------------------
