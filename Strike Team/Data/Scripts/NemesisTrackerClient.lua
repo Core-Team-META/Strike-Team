@@ -139,6 +139,12 @@ end
 
 function TrackKill(killer, victim, otherstuff1, otherstuff2)
 
+	if not killer or not victim or not killer:IsA("Player") or not victim:IsA("Player") then
+	
+		return
+		
+	end
+
 	if resetting then
 	
 		return
