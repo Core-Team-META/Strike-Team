@@ -148,6 +148,8 @@ function SpawnPanel()
     Events.Broadcast("UpdatedLoadoutState")
     if( _G["LoadoutState"] == "ChangingLoadout") then
         panel = World.SpawnAsset(CONTEXTPANEL, {parent = script.parent.parent})
+        local Text_Main_Loadout1 = panel:GetCustomProperty("Text_Main_Loadout1"):WaitForObject()
+        Text_Main_Loadout1.text =  string.format( "Loadout %d",SLOT)
         panel.clientUserData.Slot = SLOT
         FillInData()
     end

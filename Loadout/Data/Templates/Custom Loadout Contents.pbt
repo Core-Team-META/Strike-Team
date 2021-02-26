@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9143122953913418349
+        ParentId: 4781671109827199097
         ChildIds: 10667061370355357005
         ChildIds: 10710068074985047001
         ChildIds: 6188053672397713256
@@ -45,6 +45,12 @@ Assets {
             Name: "cs:EquipmentandPerks"
             ObjectReference {
               SubObjectId: 10170229791363641805
+            }
+          }
+          Overrides {
+            Name: "cs:Text_Main_Loadout1"
+            ObjectReference {
+              SubObjectId: 3583033777287337843
             }
           }
         }
