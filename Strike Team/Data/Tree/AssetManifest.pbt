@@ -1,4 +1,13 @@
 Assets {
+  Id: 16475036621484057097
+  Name: "Military Sandbag Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_wall_004"
+  }
+}
+Assets {
   Id: 8676630636729484697
   Name: "lifetimeStats"
   PlatformAssetType: 23
