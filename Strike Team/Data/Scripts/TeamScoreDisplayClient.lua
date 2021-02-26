@@ -50,6 +50,8 @@ local function UpdateEnemyFlag(score)
     for i, child in ipairs(ENEMY_SCORE:GetChildren()) do
         if i <= score then
             child.visibility = Visibility.FORCE_ON
+        else
+            child.visibility = Visibility.FORCE_OFF
         end
     end
 end
@@ -58,6 +60,8 @@ local function UpdateTeamFlag(score)
     for i, child in ipairs(TEAM_SCORE:GetChildren()) do
         if i <= score then
             child.visibility = Visibility.FORCE_ON
+        else
+            child.visibility = Visibility.FORCE_OFF
         end
     end
 end
