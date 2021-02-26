@@ -16,7 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16554627707073568645
         ChildIds: 5188606681897742199
         ChildIds: 6494871412286050326
         ChildIds: 10188877097158049067
@@ -171,40 +170,6 @@ Assets {
         }
       }
       Objects {
-        Id: 16554627707073568645
-        Name: "SetProjectileBouncyness"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18045273018505054026
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Bouncyness"
-            Float: 0.3
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 15843591883675597448
-          }
-        }
-      }
-      Objects {
         Id: 5188606681897742199
         Name: "WeaponProjectileExplosionServer"
         Transform {
@@ -249,6 +214,7 @@ Assets {
           }
         }
         ParentId: 18045273018505054026
+        ChildIds: 17358457073453418674
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -258,6 +224,39 @@ Assets {
         }
         NetworkContext {
           Type: Server
+        }
+      }
+      Objects {
+        Id: 17358457073453418674
+        Name: "SetProjectileBouncyness"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6494871412286050326
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Bouncyness"
+            Float: 0.3
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 15843591883675597448
+          }
         }
       }
       Objects {
@@ -275,6 +274,7 @@ Assets {
           }
         }
         ParentId: 18045273018505054026
+        ChildIds: 18114127324635007471
         ChildIds: 1106639104568985092
         UnregisteredParameters {
         }
@@ -286,6 +286,39 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 18114127324635007471
+        Name: "SetProjectileBouncyness"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10188877097158049067
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Bouncyness"
+            Float: 0.3
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 15843591883675597448
+          }
         }
       }
       Objects {
