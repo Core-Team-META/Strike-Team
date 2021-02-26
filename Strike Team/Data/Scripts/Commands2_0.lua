@@ -81,6 +81,12 @@ function Commands.visible(player)
     return player.name .. " is visible"
 end 
 
+function Commands.setteam(player, message)
+    print ("Changing team to " .. message[3])
+    player.team = tonumber(message[3])
+end
+
+
 function Commands.equip(player,message)
     while not _G["DataBase"] do Task.Wait() end
     local Database = _G["DataBase"]
