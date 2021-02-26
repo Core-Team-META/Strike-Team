@@ -6,6 +6,13 @@ GlobalEntries {
   DateTime: "2021-02-10T07:21:41.731Z"
 }
 GlobalEntries {
+  Id: "4137d03037c34d43b7a4e1565f087ab3"
+  Name: "AwkwardGameDev"
+  ScoreFormatted: "252.0"
+  AdditionalData: "057210147"
+  DateTime: "2021-02-26T21:10:35.525Z"
+}
+GlobalEntries {
   Id: "7cdc015329324499beb38b7a1a01ee33"
   Name: "zachsoza"
   ScoreFormatted: "4.0"

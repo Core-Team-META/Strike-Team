@@ -734,7 +734,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -1127,8 +1127,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -1327,8 +1328,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -1394,7 +1396,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -1620,7 +1625,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -2013,8 +2018,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -2213,8 +2219,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -2280,7 +2287,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -2506,7 +2516,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -2899,8 +2909,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -3099,8 +3110,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -3166,7 +3178,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -3392,7 +3407,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -3785,8 +3800,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -3985,8 +4001,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -4052,7 +4069,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -4278,7 +4298,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -4671,8 +4691,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -4871,8 +4892,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -4938,7 +4960,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -5163,7 +5188,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -5556,8 +5581,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -5756,8 +5782,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -5823,7 +5850,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -6048,7 +6078,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -6441,8 +6471,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -6641,8 +6672,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -6708,7 +6740,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -6933,7 +6968,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -7326,8 +7361,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 24
@@ -7377,7 +7413,7 @@ Objects {
     }
   }
   ParentId: 12785837880691629025
-  ChildIds: 9399745523254342902
+  ChildIds: 5791828493799166870
   ChildIds: 9841397313663660121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7488,12 +7524,12 @@ Objects {
   }
 }
 Objects {
-  Id: 9399745523254342902
+  Id: 5791828493799166870
   Name: "Name"
   Transform {
     Location {
       X: -1516.74487
-      Y: 463.155518
+      Y: 463.155731
       Z: 9050
     }
     Rotation {
@@ -7526,8 +7562,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 24
@@ -7593,7 +7630,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }

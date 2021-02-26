@@ -90,18 +90,18 @@ function CheckPlayersOnHill()
     isActive = shouldActivate
 end
 
-function OnBeginOverlap(Trigger, Object)
-    if Trigger == TRIGGER and Object:IsA("Player") then
-        playersOnHill[Object] = Object.team
+function OnBeginOverlap(trigger, object)
+    if trigger == TRIGGER and object:IsA("Player") and not object.isDead then
+        playersOnHill[object] = object.team
         CheckPlayersOnHill()
     end
 end
 
-function OnEndOverlap(Trigger, Object)
+function OnEndOverlap(trigger, object)
     local data = GetData()
     local progress = tonumber(data[PROGRESS])
-    if Trigger == TRIGGER and Object:IsA("Player") and playersOnHill[Object] and progress < 100 then
-        playersOnHill[Object] = nil
+    if trigger == TRIGGER and object:IsA("Player") and playersOnHill[object] and progress < 100 then
+        playersOnHill[object] = nil
         CheckPlayersOnHill()
     end
 end
@@ -154,6 +154,6 @@ end
 ROOT.destroyEvent:Connect(OnDestroyed)
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
-SetData({0, 0, MAX_RESOURCE})
+SetData({0, 0, MAX_RESOURCE, time() + GracePeriod})
 Task.Wait(GracePeriod)
 isEnabled = true

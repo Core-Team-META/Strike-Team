@@ -75,8 +75,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 64
-          Height: 64
+          Width: 44
+          Height: 44
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -138,8 +138,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 80
-          Height: 80
+          Width: 60
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -184,8 +184,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 80
+          Width: 30
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -231,8 +231,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 80
+          Width: 30
+          Height: 60
           RotationAngle: 355.47168
           RenderTransformPivot {
             Anchor {
@@ -278,8 +278,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 80
-          Height: 80
+          Width: 60
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -336,8 +336,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 80
+          Width: 30
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -383,8 +383,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 80
+          Width: 30
+          Height: 60
           RotationAngle: -15.9526367
           RenderTransformPivot {
             Anchor {
@@ -430,8 +430,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 80
-          Height: 80
+          Width: 60
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -491,8 +491,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 128
-          Height: 128
+          Width: 80
+          Height: 80
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -602,11 +602,11 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
-          Width: -25
-          Height: -25
+          Width: -15
+          Height: -15
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -669,7 +669,7 @@ Assets {
         }
         Control {
           Width: 50
-          UIY: 66.9068604
+          UIY: 47.1277161
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -686,7 +686,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 18
+            Size: 17
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -733,22 +733,23 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 62
-          Height: 60
+          Width: 40
+          Height: 46
+          UIY: 0.5
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "30"
+            Label: "5"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 30
+            Size: 22
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -760,12 +761,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
