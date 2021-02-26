@@ -84,6 +84,9 @@ local function UpdateProgress(currentProgress)
 end
 
 local function UpdateCenterFlagColor(currentTeam)
+    if not centerFlag and not Object.IsValid(centerFlag) then
+        return
+    end
     if LOCAL_PLAYER.team == currentTeam then
         centerFlag:SetColor(TEAM_COLOR)
     elseif currentTeam > 0 and LOCAL_PLAYER.team ~= currentTeam then
@@ -111,11 +114,14 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 
 function Int()
-    for _, child in ipairs(PARENT_PANEL:GetChildren()) do
-        enemyProgress = child:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
-         teamProgress = child:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
-         centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
+    while not PARENT_PANEL:GetChildren()[1] do
+        Task.Wait()
     end
+    local child = PARENT_PANEL:GetChildren()[1]
+    enemyProgress = child:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
+    teamProgress = child:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
+    centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
+
     UpdateCenterFlagColor(0)
 end
 
@@ -181,7 +187,7 @@ function OnNetworkChanged(object, string)
                 World.SpawnAsset(SFX_POINT_LOST)
             end
         end
-        
+
         UpdateProgress(data[PROGRESS])
     end
 end
