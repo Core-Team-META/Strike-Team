@@ -2098,7 +2098,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          UIY: -38
+          UIY: -34
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2490,7 +2490,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          UIY: 30
+          UIY: 35
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
