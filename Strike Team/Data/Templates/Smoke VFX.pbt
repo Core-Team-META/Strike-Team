@@ -33,6 +33,7 @@ Assets {
         Name: "Smoke Bomb Injector VFX"
         Transform {
           Location {
+            Y: -1094.48438
           }
           Rotation {
           }
@@ -50,7 +51,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 60
+            Float: 2
           }
           Overrides {
             Name: "bp:Fog Density Multiplier"
@@ -66,7 +67,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life Max"
-            Float: 60
+            Float: 15
           }
           Overrides {
             Name: "bp:Color"
