@@ -4606,9 +4606,9 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: -275.069672
-      Y: -58.8753204
-      Z: -0.000114440918
+      X: -268.960114
+      Y: -58.858284
+      Z: -0.400583029
     }
     Rotation {
       Roll: 89.9999924
@@ -49812,9 +49812,9 @@ Objects {
       Roll: 89.9999771
     }
     Scale {
-      X: 1.09358406
-      Y: 1.00000393
-      Z: 1.0000025
+      X: 1.09358323
+      Y: 1.00000644
+      Z: 1.13723183
     }
   }
   ParentId: 10174414336380775515
@@ -49860,9 +49860,9 @@ Objects {
       Roll: 89.9999924
     }
     Scale {
-      X: 0.986901104
-      Y: 1.00000918
-      Z: 0.999994874
+      X: 0.98690021
+      Y: 1.00001168
+      Z: 1.13722301
     }
   }
   ParentId: 10174414336380775515
@@ -73692,15 +73692,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4090
-            Y: 9945
+            X: -4346.61816
+            Y: 10109.624
             Z: 1175
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999771
+            Yaw: -85
           }
         }
         Overrides {
@@ -73741,7 +73741,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -3470
-            Y: 9985
+            Y: 9283.35
             Z: 1175
           }
         }
@@ -73797,7 +73797,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -3470
-            Y: 10245
+            Y: 9543.35
             Z: 1175
           }
         }
