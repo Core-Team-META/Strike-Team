@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13241751655691963958
-  Name: "Fantasy Shape 005"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Shape_005"
-  }
-}
-Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
