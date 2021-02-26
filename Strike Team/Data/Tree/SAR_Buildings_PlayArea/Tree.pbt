@@ -65392,6 +65392,39 @@ Objects {
   ParentId: 2741558925516236087
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1378737490762721068
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4259491781069072410
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8719882128743541880
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10468190069564645179
       value {
         Overrides {
@@ -90108,9 +90141,9 @@ Objects {
       Roll: 90.0000076
     }
     Scale {
-      X: 0.407431632
+      X: 0.363449693
       Y: 1.33467817
-      Z: 0.99999994
+      Z: 1
     }
   }
   ParentId: 4749856199096210012
@@ -96119,6 +96152,7 @@ Objects {
   ChildIds: 12665030399105376589
   ChildIds: 13445281018531879231
   ChildIds: 14966051865492800250
+  ChildIds: 4840066749816398382
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -96127,6 +96161,55 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4840066749816398382
+  Name: "Cube - bottom aligned"
+  Transform {
+    Location {
+      X: 733.547852
+      Y: -827.405762
+      Z: 50
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 5
+      Y: 0.5
+      Z: 1.24999976
+    }
+  }
+  ParentId: 3605840952494698000
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15210171892498863686
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -96675,7 +96758,7 @@ Objects {
       Z: 90
     }
     Rotation {
-      Yaw: -44.9999924
+      Yaw: -45
     }
     Scale {
       X: 1.2
@@ -97596,6 +97679,19 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 2289123874789814104
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9.10582161
+            Y: -72.3235
+            Z: -4.99996948
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 10468190069564645179
       value {
@@ -103354,10 +103450,10 @@ Objects {
     Location {
       X: 768.547852
       Y: -862.405762
-      Z: 40
+      Z: 140
     }
     Rotation {
-      Yaw: -44.9999924
+      Yaw: -45
     }
     Scale {
       X: 4.9
@@ -138095,7 +138191,6 @@ Objects {
   ChildIds: 17903365115646699870
   ChildIds: 12265456014392032170
   ChildIds: 5917175946084579184
-  ChildIds: 13475117985953948587
   ChildIds: 17874364078031864526
   ChildIds: 370647207211073257
   ChildIds: 5082266017807414086
@@ -138330,6 +138425,19 @@ Objects {
   ParentId: 6759371105496225399
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2289123874789814104
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9.10572529
+            Y: -72.32341
+            Z: -4.21435547
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10468190069564645179
       value {
         Overrides {
@@ -138410,53 +138518,6 @@ Objects {
     }
     TemplateAsset {
       Id: 14215928534800440833
-    }
-  }
-}
-Objects {
-  Id: 13475117985953948587
-  Name: "SAR_Flourescent Light OFF"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6759371105496225399
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7469284690728551788
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Flourescent Light OFF"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 48.9169922
-            Y: -120.903809
-            Z: 505.000092
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9884324406072442380
     }
   }
 }

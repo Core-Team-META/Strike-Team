@@ -1716,14 +1716,14 @@ Objects {
   Name: "Flare Ray VFX"
   Transform {
     Location {
-      X: -2355
-      Y: 1830
-      Z: 775
+      X: -2370
+      Y: 1770
+      Z: 790
     }
     Rotation {
-      Pitch: -19.2224674
-      Yaw: -19.7657108
-      Roll: -45.4521713
+      Pitch: -19.2224731
+      Yaw: -19.7657166
+      Roll: -45.452179
     }
     Scale {
       X: 5.75000143
