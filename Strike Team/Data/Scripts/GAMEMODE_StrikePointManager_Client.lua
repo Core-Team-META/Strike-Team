@@ -70,6 +70,10 @@ local teamProgress, enemyProgress, centerFlag
 
 local function GetData()
     local str = ROOT:GetCustomProperty("DATA")
+    while str == "" do
+        Task.Wait()
+        str = ROOT:GetCustomProperty("DATA")
+    end
     return GT_API.ConvertStringToTable(str)
 end
 
@@ -123,6 +127,7 @@ function Int()
     centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
 
     UpdateCenterFlagColor(0)
+    OnNetworkChanged(ROOT)
 end
 
 function OnNetworkChanged(object, string)

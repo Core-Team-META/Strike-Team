@@ -78,7 +78,6 @@ function Tick(deltaTime)
         OnEquipped(WEAPON, WEAPON.owner)
         connected = true
     end
-    if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
     if WEAPON.owner ~= LOCAL_PLAYER then return end
     -- Smoothly lerps the camera distance and FOV when player aims
     LerpCamera(deltaTime)
@@ -302,10 +301,9 @@ Connections = {
 }
 
 script.destroyEvent:Connect(function(OBJ) 
-    if (WEAPON.owner) then
-        ForceReset( WEAPON.owner)
-        OnUnequipped(nil, WEAPON.owner)
-    end
+    ForceReset( WEAPON.owner)
+    OnUnequipped(nil, WEAPON.owner)
+
     for k,v in pairs(Connections) do
          v:Disconnect()
     end

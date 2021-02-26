@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16873054259561342990
+  Name: "Frame Outline Thin 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameOutline_020"
+  }
+}
+Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28

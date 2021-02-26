@@ -37,11 +37,14 @@ local function ClearScoreDisplay()
 end
 
 local function SetScores(str)
-    Task.Wait(1)
-
+   
     ClearScoreDisplay()
 
     local currentGameId = NETWORKED:GetCustomProperty(str)
+    while currentGameId == "" do
+        Task.Wait()
+        currentGameId = NETWORKED:GetCustomProperty(str)
+    end
 
     if currentGameId > 0 then
         local currentScore = GT_API.GetCurrentScoreLimit(currentGameId)
