@@ -210,18 +210,13 @@ local function CreatePlayerEntry(player)
 		owner = player
 	}
 
-	local playerNameText, teamColorImage, playerIconImage, socialIconImage, rankImage, rankText =
+	local playerNameText, teamColorImage, playerIconImage, socialIconImage =
 		entry:GetCustomProperty("PlayerName"):WaitForObject(),
 		entry:GetCustomProperty("TeamColor"):WaitForObject(),
 		entry:GetCustomProperty("PlayerIcon"):WaitForObject(),
-		entry:GetCustomProperty("SocialIcon"):WaitForObject(),
-		entry:GetCustomProperty("Rank"):WaitForObject(),
-		entry:GetCustomProperty("Rank Text"):WaitForObject()
-
+		entry:GetCustomProperty("SocialIcon"):WaitForObject()
 
 	playerNameText.text = player.name
-	rankText.text = player.clientuserdata.XP:GetLevel()
-
 
 	local teamColor =
 		PlayerTitles.GetPlayerTeamColor(LocalPlayer, player, NEUTRAL_TEAM_COLOR, FRIENDLY_TEAM_COLOR, ENEMY_TEAM_COLOR)
