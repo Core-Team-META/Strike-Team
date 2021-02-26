@@ -117,9 +117,9 @@ Assets {
               Id: 841534158063459245
             }
             Color {
-              G: 0.376262099
-              B: 0.467783839
-              A: 0.105882362
+              G: 0.0293252636
+              B: 0.0364583321
+              A: 0.743000031
             }
             TeamSettings {
             }
@@ -171,6 +171,7 @@ Assets {
         Control {
           Width: 200
           Height: 30
+          UIY: 3.90575504
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -472,8 +473,9 @@ Assets {
           Text {
             Label: "YOUR NEMESIS"
             Color {
-              R: 0.99
-              G: 0.0393377282
+              R: 1
+              G: 0.31854707
+              B: 0.0137020946
               A: 1
             }
             Size: 15
@@ -523,7 +525,7 @@ Assets {
         Control {
           Width: 200
           Height: 60
-          UIY: 54.5637856
+          UIY: 57.7964516
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -537,12 +539,12 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 15
+            Size: 13
             Justification {
               Value: "mc:etextjustify:center"
             }
             Font {
-              Id: 10698833128597864431
+              Id: 2044747135125227812
             }
           }
           AnchorLayout {
@@ -647,7 +649,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU DESTROYED"
+            Label: "YOU HUMILIATED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -709,7 +711,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU DESTROYED"
+            Label: "YOU HUMILIATED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -771,7 +773,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU DESTROYED"
+            Label: "YOU HUMILIATED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -833,7 +835,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU DESTROYED"
+            Label: "YOU HUMILIATED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -893,10 +895,10 @@ Assets {
             }
           }
           Text {
-            Label: "YOU DESTROYED"
+            Label: "YOU HUMILIATED"
             Color {
-              R: 0.80794692
-              G: 1
+              R: 0.88
+              G: 0.0524503551
               A: 1
             }
             Size: 15
@@ -946,7 +948,7 @@ Assets {
         Control {
           Width: 200
           Height: 60
-          UIY: 105
+          UIY: 106.27639
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -960,12 +962,12 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 15
+            Size: 13
             Justification {
               Value: "mc:etextjustify:center"
             }
             Font {
-              Id: 10698833128597864431
+              Id: 2044747135125227812
             }
           }
           AnchorLayout {
@@ -990,6 +992,15 @@ Assets {
       PrimaryAsset {
         AssetType: "FontAssetRef"
         AssetId: "PlayBold_ref"
+      }
+    }
+    Assets {
+      Id: 2044747135125227812
+      Name: "Play"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayRegular_ref"
       }
     }
     PrimaryAssetId {
