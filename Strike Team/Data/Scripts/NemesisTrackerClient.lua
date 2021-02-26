@@ -334,13 +334,6 @@ function CalculateNemesis()
 	local nemesisKills = 0
 	local otherNemesisCount = 0
 	
-	youAreNemesisOf = ""
-	yourKillCountAsNemesis = 0
-	local countOfBeingNemesis = 0
-	
-	yourNemesisIs = ""
-	yourNemesisKillCount = 0
-
 	-- Calculate who is the nemeis of who
 	for victim, killerList in pairs(nemesisIndex) do
 	
@@ -379,11 +372,24 @@ function CalculateNemesis()
 		end
 							
 	end
+			
+end
+
+function MarkNemesis()
+
+	local theirNemesisEntryText = {}
+	local theirNemesisOfEntryText = {}
 	
-	-- create string to show your nemesis and who you are the nemesis of
+	youAreNemesisOf = ""
+	yourKillCountAsNemesis = 0
+	local countOfBeingNemesis = 0
 	
+	yourNemesisIs = ""
+	yourNemesisKillCount = 0
+
 	for _, entry in pairs(nemesisList) do
 		
+		-- Finding your nemesis
 		if entry[1] == localPlayer.id and GetPlayer(entry[2]) then
 		
 			youAreNemesisOf = GetPlayer(entry[2]).name
@@ -409,24 +415,8 @@ function CalculateNemesis()
 			end
 			
 		end
-	
-	end
-	
-	if countOfBeingNemesis > 0 then
-	
-		youAreNemesisOf = youAreNemesisOf .. " + " .. tostring(countOfBeingNemesis) .. " more"
 		
-	end
-	
-end
-
-function MarkNemesis()
-
-	local theirNemesisEntryText = {}
-	local theirNemesisOfEntryText = {}
-
-	for _, entry in pairs(nemesisList) do
-	
+		-- setting markers
 		for number, panel in ipairs(victoryScreenContainer:GetChildren()) do
 		
 			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
@@ -467,6 +457,12 @@ function MarkNemesis()
 			
 		end
 	
+	end
+	
+	if countOfBeingNemesis > 0 then
+	
+		youAreNemesisOf = youAreNemesisOf .. " + " .. tostring(countOfBeingNemesis) .. " more"
+		
 	end
 	
 	for number, marker in ipairs(markerList) do
@@ -563,9 +559,9 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 
 	if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
 	
-		CalculateNemesis()
-		
 		Task.Wait(1)
+	
+		CalculateNemesis()
 		
 		MarkNemesis()
 	
