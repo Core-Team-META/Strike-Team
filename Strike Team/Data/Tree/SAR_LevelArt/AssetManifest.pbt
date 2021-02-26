@@ -1007,15 +1007,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8606699818147202890
-  Name: "Tire Worn - Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_tire_worn_large_01_ref"
-  }
-}
-Assets {
   Id: 8506161953749730807
   Name: "Decal Tread Tracks 01"
   PlatformAssetType: 14
