@@ -8341,13 +8341,13 @@ Assets {
           Overrides {
             Name: "cs:SFX_PointLost_UI"
             AssetReference {
-              Id: 9027762185476937268
+              Id: 10784417895420139977
             }
           }
           Overrides {
             Name: "cs:SFX_PointSecured_UI"
             AssetReference {
-              Id: 16698816414813635720
+              Id: 6987665070203070799
             }
           }
           Overrides {
@@ -8371,13 +8371,13 @@ Assets {
           Overrides {
             Name: "cs:SFX_PointContestEnemy_UI"
             AssetReference {
-              Id: 8039200857054443909
+              Id: 10015425862297221514
             }
           }
           Overrides {
             Name: "cs:SFX_PointContestFriendly_UI"
             AssetReference {
-              Id: 14858580400504032599
+              Id: 15018467301684638445
             }
           }
           Overrides {
