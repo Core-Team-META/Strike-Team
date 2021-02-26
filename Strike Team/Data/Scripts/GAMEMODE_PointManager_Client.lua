@@ -46,10 +46,22 @@ local function AddNewPoints()
             local INTEREST_ICON = interest:GetCustomProperty("POI")
             local GRACE_PERIOD = interest:GetCustomProperty("GracePeriod")
             if shouldShow and INTEREST_ICON then
-                points[interest] = World.SpawnAsset(INTEREST_ICON, {parent = CONTAINER})
-                points[interest].visibility = Visibility.INHERIT
-                points[interest].clientUserData.timer = time() + GRACE_PERIOD
-                points[interest].clientUserData.needsUpdate = false
+                local indicator = World.SpawnAsset(INTEREST_ICON, {parent = CONTAINER})
+                points[interest] = indicator
+                indicator.visibility = Visibility.INHERIT
+                local pointData = indicator.clientUserData
+
+                pointData.timer = time() + GRACE_PERIOD
+                pointData.needsUpdate = false
+                pointData.ICON = indicator:GetCustomProperty("ICON"):WaitForObject()
+                pointData.COUNT_DOWN_TEXT = indicator:GetCustomProperty("COUNT_DOWN_TEXT"):WaitForObject()
+                pointData.LEFT_INNER = indicator:GetCustomProperty("LEFT_INNER"):WaitForObject()
+                pointData.RIGHT_INNER = indicator:GetCustomProperty("RIGHT_INNER"):WaitForObject()
+                pointData.LEFT_IMAGE = indicator:GetCustomProperty("LEFT_IMAGE"):WaitForObject()
+                pointData.RIGHT_IMAGE = indicator:GetCustomProperty("RIGHT_IMAGE"):WaitForObject()
+
+                pointData.LEFT_INNER.visibility = Visibility.FORCE_OFF
+                pointData.RIGHT_INNER.visibility = Visibility.FORCE_OFF
             end
         end
     end
@@ -65,19 +77,24 @@ local function RemovePoint(object)
 end
 
 local function SetTeamColor(point, indicator)
+  
+    local pointData = indicator.clientUserData
+   
+    local ICON = pointData.ICON
+    local COUNT_DOWN_TEXT = pointData.COUNT_DOWN_TEXT
+    local LEFT_INNER = pointData.LEFT_INNER
+    local RIGHT_INNER = pointData.RIGHT_INNER
+    local LEFT_IMAGE = pointData.LEFT_IMAGE
+    local RIGHT_IMAGE = pointData.RIGHT_IMAGE
+
     if indicator.clientUserData.timer <= time() then
+        if indicator.clientUserData.needsUpdate == false then
+            RIGHT_INNER.visibility = Visibility.INHERIT
+            LEFT_INNER.visibility = Visibility.INHERIT
+        end
         indicator.clientUserData.needsUpdate = true
     end
 
-   
-    local ICON = indicator:GetCustomProperty("ICON"):WaitForObject()
-    local COUNT_DOWN_TEXT = indicator:GetCustomProperty("COUNT_DOWN_TEXT"):WaitForObject()
-    local LEFT_INNER = indicator:GetCustomProperty("LEFT_INNER"):WaitForObject()
-    local RIGHT_INNER = indicator:GetCustomProperty("RIGHT_INNER"):WaitForObject()
-    local LEFT_IMAGE = indicator:GetCustomProperty("LEFT_IMAGE"):WaitForObject()
-    local RIGHT_IMAGE = indicator:GetCustomProperty("RIGHT_IMAGE"):WaitForObject()
-
- 
     if not indicator.clientUserData.needsUpdate then
         ICON.visibility = Visibility.FORCE_OFF
         COUNT_DOWN_TEXT.visibility = Visibility.FORCE_ON
@@ -85,14 +102,6 @@ local function SetTeamColor(point, indicator)
         if currentTime >= 0 then
             local seconds = (currentTime % 3600) % 60
             COUNT_DOWN_TEXT.text = tostring(CoreMath.Round(seconds))
-        end
-        local progress = 0
-
-        RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180
-        LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180
-        if true then
-            RIGHT_INNER.rotationAngle = RIGHT_INNER.rotationAngle - 180
-            LEFT_INNER.rotationAngle = LEFT_INNER.rotationAngle - 180
         end
         return
     end
@@ -116,25 +125,28 @@ local function SetTeamColor(point, indicator)
     pointTeam = data[1]
     local progress = data[2] / 100
 
-    RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180
-    LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180
-    if true then
-        RIGHT_INNER.rotationAngle = RIGHT_INNER.rotationAngle - 180
-        LEFT_INNER.rotationAngle = LEFT_INNER.rotationAngle - 180
-    end
+
+
+    RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180- 180
+    LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180- 180
+
 
     -- end
     if Object.IsValid(ICON) and Object.IsValid(BOARDER) then
         if pointTeam > 0 then
-            ICON.team = pointTeam
-            BOARDER.team = pointTeam
-            LEFT_IMAGE.team = pointTeam
-            RIGHT_IMAGE.team = pointTeam
+            if ICON.team ~= pointTeam then
+                ICON.team = pointTeam
+                BOARDER.team = pointTeam
+                LEFT_IMAGE.team = pointTeam
+                RIGHT_IMAGE.team = pointTeam
+            end
         else
-            ICON.team = 0
-            BOARDER.team = 0
-            LEFT_IMAGE.team = 0
-            RIGHT_IMAGE.team = 0
+            if ICON.team ~= 0 then
+                ICON.team = 0
+                BOARDER.team = 0
+                LEFT_IMAGE.team = 0
+                RIGHT_IMAGE.team = 0
+            end
         end
     end
 end
@@ -194,15 +206,13 @@ function OnChildRemoved(root, object)
 end
 
 function Tick()
-    Task.Spawn(
-        function()
-            for point, interest in pairs(points) do
-                if Object.IsValid(point) and Object.IsValid(interest) then
-                    UpdatePoint(point, interest)
-                end
+  pcall(function()
+        for point, interest in pairs(points) do
+            if Object.IsValid(point) and Object.IsValid(interest) then
+                UpdatePoint(point, interest)
             end
         end
-    )
+    end)
 end
 
 ------------------------------------------------------------------------------------------------------------------------
