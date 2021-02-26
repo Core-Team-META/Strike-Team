@@ -55,7 +55,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local pressedHandle = nil              -- Event handle when player presses the aim binding
 local releasedHandle = nil             -- Event handle when player releases the aim binding
 local playerDieHandle = nil            -- Event handle when player dies
-local Connections
+local Connections = {}
 
 -- Internal camera variables --
 local connected = false
@@ -297,17 +297,16 @@ end
 -- Initialize
 
 Connections = {
-    
     Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,
-    WEAPON.unequippedEvent:Connect(OnUnequipped),
     WEAPON.clientUserData.RELOAD_ABILITY.castEvent:Connect(OnReload),
-    script.destroyEvent:Connect(function(OBJ) 
-        if(WEAPON.owner) then
-            ForceReset( WEAPON.owner)
-            OnUnequipped(nil, WEAPON.owner)
-        end
-        for k,v in pairs(Connections) do
-             v:Disconnect()
-        end
-    end)
 }
+
+script.destroyEvent:Connect(function(OBJ) 
+    if (WEAPON.owner) then
+        ForceReset( WEAPON.owner)
+        OnUnequipped(nil, WEAPON.owner)
+    end
+    for k,v in pairs(Connections) do
+         v:Disconnect()
+    end
+end)

@@ -6,7 +6,6 @@ local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
 
 local function ToggleOn()
     UI.SetCanCursorInteractWithUI(true)
-    UI.SetCursorLockedToViewport(false)
     UI.SetCursorVisible(true)
     Events.Broadcast("SwapPanelOpen")
     UI_CONTAINER.visibility = Visibility.FORCE_ON
