@@ -1,10 +1,10 @@
 Assets {
-  Id: 17181356845563389981
-  Name: "Antti LifetimeStats"
+  Id: 17156818222431578512
+  Name: "Loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "9d3858b6d4274623a7fa6453a661b7b9"
+      Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12356594757375328547
-  Name: "Antti Storage"
+  Id: 16672477645559219331
+  Name: "Storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "a0cb2b4b64164d9c98f187c11e7d382b"
+      Key: "58875f5ce4944e78af8e3709e839eff4"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8809733310344486775
-  Name: "Antti loadout"
+  Id: 16243200505637634668
+  Name: "statKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "c62e092803554d129989923fbdb1c2cd"
+      Key: "bf84fda037134f048c79d75bb4159446"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -38,12 +38,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4108709909046921068
-  Name: "Antti StatKey"
+  Id: 3612731304896409927
+  Name: "lifetimeStats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "8b14e259337d40acb0ca69722b7a138b"
+      Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
