@@ -15,10 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1859480280853875637
+        ParentId: 4781671109827199097
         ChildIds: 13194982590536228754
-        ChildIds: 18382773122186440691
-        ChildIds: 3074291502376430371
         ChildIds: 15646835229941616177
         UnregisteredParameters {
           Overrides {
@@ -458,124 +456,6 @@ Assets {
                 Value: "mc:euianchor:topright"
               }
             }
-          }
-        }
-      }
-      Objects {
-        Id: 18382773122186440691
-        Name: "Time"
-        Transform {
-          Location {
-            X: -11536.5586
-            Y: -8115.95898
-            Z: -1101.36108
-          }
-          Rotation {
-            Yaw: -142.548828
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5389278911560424852
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 60
-          UIX: -1038.32068
-          UIY: 9.10046387
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          UseParentHeight: true
-          Text {
-            Label: "20"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 15
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3074291502376430371
-        Name: "RadialTimer"
-        Transform {
-          Location {
-            X: 1956.19092
-            Y: -9687.95605
-            Z: -516.694214
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5389278911560424852
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Time"
-            ObjectReference {
-              SubObjectId: 18382773122186440691
-            }
-          }
-          Overrides {
-            Name: "cs:LeftInner"
-            ObjectReference {
-              SubObjectId: 17062464499266217258
-            }
-          }
-          Overrides {
-            Name: "cs:RightInner"
-            ObjectReference {
-              SubObjectId: 17000066660097014113
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 11733857846861767988
           }
         }
       }
