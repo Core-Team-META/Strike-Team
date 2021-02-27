@@ -151,12 +151,13 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 3000
+            ProjectileSpeed: 3200
             ProjectileLifeSpan: 4
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12
             ProjectileBounces: 2
+            ProjectileDrag: 0.12
             DefaultAbility {
               SubObjectId: 6698035183165842641
             }
@@ -244,7 +245,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Bouncyness"
-            Float: 0.3
+            Float: 0.2
           }
         }
         Collidable_v2 {
@@ -306,7 +307,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Bouncyness"
-            Float: 0.3
+            Float: 0.2
           }
         }
         Collidable_v2 {
@@ -413,7 +414,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.25
+            Duration: 0.45
             CanMove: true
             CanJump: true
             CanRotate: true
