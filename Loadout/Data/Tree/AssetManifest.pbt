@@ -1,4 +1,17 @@
 Assets {
+  Id: 18126937745925881014
+  Name: "kbStatKey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "d001f4cd01b84fb1bcd1b3a01572d039"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -86,19 +99,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_4_sided_thin_001"
-  }
-}
-Assets {
-  Id: 16810326033750312271
-  Name: "lifetimeStats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -309,6 +309,19 @@ Assets {
   }
 }
 Assets {
+  Id: 11049934745649502710
+  Name: "kbLoadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "a7512c1e650a43faa1490acf56ecc1e1"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -435,19 +448,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6405207758416731826
-  Name: "statKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "bf84fda037134f048c79d75bb4159446"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 6403825671868418028
   Name: "Military Tank Modern Armorplate 01"
   PlatformAssetType: 1
@@ -520,25 +520,25 @@ Assets {
   }
 }
 Assets {
-  Id: 5948592253542036136
-  Name: "Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 5874345424980290303
   Name: "Pipe"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
+  }
+}
+Assets {
+  Id: 5762538399264325765
+  Name: "kbLifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "61926a2ce4fb417dbe0d0e114e437380"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -632,19 +632,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3108894610509872827
-  Name: "Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "58875f5ce4944e78af8e3709e839eff4"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 2654247951300160945
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -705,6 +692,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_radio_01_01_ref"
+  }
+}
+Assets {
+  Id: 1076831212604095774
+  Name: "kbStorage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "fb5a6479f93640f0b8a2f7b579ca5a9f"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
