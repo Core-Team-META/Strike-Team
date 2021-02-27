@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
+        ParentId: 16373807130785117515
         ChildIds: 15505696672406667806
         ChildIds: 865859811353170863
         ChildIds: 12910456151584908478
@@ -52,7 +52,6 @@ Assets {
         ChildIds: 147758980339773230
         ChildIds: 4342149432561344313
         ChildIds: 2787734660038783389
-        ChildIds: 11696273566056394959
         ChildIds: 8126176804835973904
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -118,18 +117,18 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -86.487793
-            Y: 197.187988
-            Z: 545
+            X: -70.3481445
+            Y: 181.04834
+            Z: 594.124512
           }
           Rotation {
             Yaw: 45
-            Roll: -108.593018
+            Roll: -118.281708
           }
           Scale {
-            X: 1.00000346
-            Y: 0.999999464
-            Z: 1.16979611
+            X: 1
+            Y: 0.999998331
+            Z: 1.20383251
           }
         }
         ParentId: 15505696672406667806
@@ -170,18 +169,18 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -230.585449
-            Y: 53.090332
-            Z: 545
+            X: -214.445801
+            Y: 36.9506836
+            Z: 594.124512
           }
           Rotation {
             Yaw: 45
-            Roll: -108.592957
+            Roll: -118.281647
           }
           Scale {
-            X: 1.00000346
-            Y: 0.999999464
-            Z: 1.16979611
+            X: 1
+            Y: 0.999998331
+            Z: 1.20383251
           }
         }
         ParentId: 15505696672406667806
@@ -269,9 +268,9 @@ Assets {
         Name: "Wedge"
         Transform {
           Location {
-            X: -56.709465
-            Y: -4.92431259
-            Z: 423.554962
+            X: -56.7094727
+            Y: -4.92431641
+            Z: 423.554932
           }
           Rotation {
             Yaw: 44.9999924
@@ -279,7 +278,7 @@ Assets {
           Scale {
             X: 3.50000024
             Y: 3.20000029
-            Z: 1
+            Z: 1.72955835
           }
         }
         ParentId: 15505696672406667806
@@ -364,49 +363,21 @@ Assets {
         }
       }
       Objects {
-        Id: 11696273566056394959
-        Name: "Group"
-        Transform {
-          Location {
-            X: -38.5488281
-            Y: -22.034668
-            Z: 410
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15505696672406667806
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
         Id: 8126176804835973904
         Name: "Wedge"
         Transform {
           Location {
-            X: -123.537582
-            Y: 61.9038162
-            Z: 466.296173
+            X: -98.3256836
+            Y: 36.6918945
+            Z: 466.296143
           }
           Rotation {
             Yaw: 44.9999924
           }
           Scale {
-            X: 3.50000095
-            Y: 1.39196134
-            Z: 1
+            X: 3.49999809
+            Y: 1.79413855
+            Z: 1.42715168
           }
         }
         ParentId: 15505696672406667806

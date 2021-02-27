@@ -269,6 +269,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16017302004248798226
+  Name: "Donut"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_001"
+  }
+}
+Assets {
   Id: 15897705887741699672
   Name: "Urban Pipe Straight"
   PlatformAssetType: 1
@@ -674,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12548297003412668183
+  Name: "Cylinder - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_003"
+  }
+}
+Assets {
   Id: 12531473813183755053
   Name: "Text 02: G"
   PlatformAssetType: 1
@@ -770,6 +788,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_wall_flat_001"
+  }
+}
+Assets {
+  Id: 11519736006564138369
+  Name: "Metal Iron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_001"
   }
 }
 Assets {
@@ -995,6 +1022,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_narrow_open_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 9372939288148738240
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
   }
 }
 Assets {
@@ -1376,6 +1412,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4535818839126406977
+  Name: "Cabinet Door"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_door_001"
+  }
+}
+Assets {
   Id: 4437160827424791669
   Name: "Large Wood Beam 8m"
   PlatformAssetType: 1
@@ -1538,6 +1583,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2727467945905195560
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
+  }
+}
+Assets {
   Id: 2723232960546970913
   Name: "Wood Floor Dark"
   PlatformAssetType: 2
@@ -1592,6 +1646,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
   Id: 1411445044141844320
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -1625,6 +1688,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_002"
+  }
+}
+Assets {
+  Id: 746242229766735565
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 630716509692050905
+  Name: "Cabinet Door - Upper Full"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_door_full_001"
   }
 }
 Assets {

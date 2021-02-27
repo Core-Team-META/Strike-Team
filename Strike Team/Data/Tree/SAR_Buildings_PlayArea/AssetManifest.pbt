@@ -224,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15897705887741699672
+  Name: "Urban Pipe Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_straight_001_ref"
+  }
+}
+Assets {
   Id: 15851271444363751188
   Name: "Whitebox Window Insert - Basic Frame"
   PlatformAssetType: 1

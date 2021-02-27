@@ -136,7 +136,7 @@ function OnPlayerJoined(player)
 	nameplates[player].isVisible = false
 	nameplates[player].changeFraction = 0
 	nameplates[player].dirty = true
-	nameplates[player].lastTeam = player.team
+	nameplates[player].isFriendly = true
 
 	if SHOW_HEALTHBARS then
 		nameplates[player].borderPiece.visibility = Visibility.INHERIT
@@ -211,18 +211,8 @@ end
 -- Update dynamic properties (ex. team, health, and health animation) of every nameplate
 function Tick(deltaTime)
 
-	if nameplates[LOCAL_PLAYER] then
-		if LOCAL_PLAYER.team ~= nameplates[LOCAL_PLAYER].lastTeam then
-			for _, player in pairs(Game.GetPlayers()) do
-				local nameplate = nameplates[player]
-				nameplate.dirty = true
-			end
-		end
-	end
-
 	for _, player in pairs(Game.GetPlayers()) do
 		local nameplate = nameplates[player]
-		local visible = IsNameplateVisible(player)
 
 		if nameplate then
 			-- We calculate visibility every frame to handle when teams change
@@ -234,11 +224,6 @@ function Tick(deltaTime)
 				end
 			else
 				if nameplate.isVisible == false then
-					nameplate.dirty = true
-				end
-
-				if player.team ~= nameplate.lastTeam then
-					nameplate.lastTeam = player.team
 					nameplate.dirty = true
 				end
 
@@ -278,8 +263,21 @@ function Tick(deltaTime)
 						nameplate.dirty = true
 					end
 				end
+				
+				if SHOW_NAMES then
+					-- Find out if the nameplate is friendly or not friendly
+					local isFriendly = false
+					if player == LOCAL_PLAYER or Teams.AreTeamsFriendly(player.team, LOCAL_PLAYER.team) then
+						isFriendly = true
+					end
+
+					if nameplate.isFriendly ~= isFriendly then
+						nameplate.isFriendly = isFriendly
+						nameplate.dirty = true
+					end
+				end
 			end
-		
+
 			if nameplate.dirty then
 				nameplate.dirty = false
 				nameplate.isVisible = visible
@@ -332,7 +330,7 @@ function Tick(deltaTime)
 						local nameColor = nil
 						local healthColor = nil
 
-						if player == LOCAL_PLAYER or Teams.AreTeamsFriendly(player.team, LOCAL_PLAYER.team) then
+						if nameplate.isFriendly then
 							nameColor = FRIENDLY_NAME_COLOR
 							healthColor = FRIENDLY_HEALTH_COLOR
 						else
