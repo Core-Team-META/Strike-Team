@@ -6209,12 +6209,12 @@ Objects {
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
-      X: -504.402344
-      Y: -1383.55786
-      Z: 405.343506
+      X: -369.108887
+      Y: -1449.23096
+      Z: 472.6427
     }
     Rotation {
-      Yaw: 0.955995083
+      Yaw: -94.1966553
     }
     Scale {
       X: 1.55492377
@@ -6240,221 +6240,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 7835702487382248767
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13956094985346816392
-  Name: "Monitor"
-  Transform {
-    Location {
-      X: -150.382553
-      Y: -3166.75684
-      Z: 399.07486
-    }
-    Rotation {
-      Yaw: -30.5578041
-    }
-    Scale {
-      X: 3.33333325
-      Y: 3.33333325
-      Z: 3.33333325
-    }
-  }
-  ParentId: 7420455323421467140
-  ChildIds: 12704998292040720760
-  ChildIds: 11869383773662743938
-  ChildIds: 17312733440204957830
-  ChildIds: 15881496033047421959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15881496033047421959
-  Name: "AreaLight_Monitor"
-  Transform {
-    Location {
-      X: -3.99000764
-      Y: 4.97206211
-      Z: 59.5523071
-    }
-    Rotation {
-      Pitch: 13.909399
-      Yaw: 110.476128
-      Roll: -179.930649
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13956094985346816392
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.3373795
-    Color {
-      G: 0.279999942
-      B: 0.840000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 371.048676
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 40
-          SourceHeight: 15
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-    CastVolumetricShadows: true
-  }
-}
-Objects {
-  Id: 17312733440204957830
-  Name: "Scifi Cockpit Console 001"
-  Transform {
-    Location {
-      X: 1.13693237
-      Y: -3.11029053
-    }
-    Rotation {
-      Pitch: -6.08654499
-      Yaw: 112.498978
-      Roll: -4.2930688e-07
-    }
-    Scale {
-      X: 0.4
-      Y: 0.3
-      Z: 0.2
-    }
-  }
-  ParentId: 13956094985346816392
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3350581364753243189
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11869383773662743938
-  Name: "Sci-fi Console 01"
-  Transform {
-    Location {
-      X: -3.92601013
-      Y: 12.041687
-      Z: 25.2775421
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: 22.499958
-      Roll: -112.499916
-    }
-    Scale {
-      X: 0.201505482
-      Y: 0.400000155
-      Z: 0.400000304
-    }
-  }
-  ParentId: 13956094985346816392
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7835881610684108150
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12704998292040720760
-  Name: "Sci-fi Console Screen 03"
-  Transform {
-    Location {
-      X: -3.17115235
-      Y: -4.69920349
-      Z: 102.68927
-    }
-    Rotation {
-      Yaw: -157.50029
-      Roll: -172.832275
-    }
-    Scale {
-      X: 0.70508635
-      Y: 0.70508635
-      Z: 0.70508635
-    }
-  }
-  ParentId: 13956094985346816392
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7917643843895697114
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -6511,59 +6296,17 @@ Objects {
   }
 }
 Objects {
-  Id: 16911837820159335290
-  Name: "Street Utility Box 01"
-  Transform {
-    Location {
-      X: -381.294769
-      Y: -1408.16968
-      Z: 507.923218
-    }
-    Rotation {
-      Yaw: 175.941498
-      Roll: -89.9999924
-    }
-    Scale {
-      X: 1.66667557
-      Y: 1.66666687
-      Z: 0.812395632
-    }
-  }
-  ParentId: 7420455323421467140
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7321924976193288411
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 6426376712964200422
   Name: "Street Utility Box 01"
   Transform {
     Location {
-      X: -356.737244
-      Y: -1392.04956
+      X: -360.482727
+      Y: -1426.86963
       Z: 440.489197
     }
     Rotation {
-      Yaw: -96.1390305
-      Roll: -89.9999924
+      Yaw: -96.1390381
+      Roll: -90
     }
     Scale {
       X: 1.66666663
@@ -6599,19 +6342,19 @@ Objects {
   Name: "Grenade"
   Transform {
     Location {
-      X: -445.688568
-      Y: -1049.26563
-      Z: 429.376831
+      X: -394.968292
+      Y: -968.430969
+      Z: 421.215729
     }
     Rotation {
       Pitch: 35.7785454
-      Yaw: -76.5689926
+      Yaw: -76.569
       Roll: 99.8794937
     }
     Scale {
-      X: 3.33333325
-      Y: 3.33333325
-      Z: 3.33333325
+      X: 2.25174713
+      Y: 2.25174713
+      Z: 2.25174713
     }
   }
   ParentId: 7420455323421467140
@@ -6733,9 +6476,9 @@ Objects {
   Name: "Grenade"
   Transform {
     Location {
-      X: -496.737244
-      Y: -1093.23206
-      Z: 427.228729
+      X: -459.46405
+      Y: -959.829712
+      Z: 427.078705
     }
     Rotation {
       Pitch: 35.7788239
@@ -6743,9 +6486,9 @@ Objects {
       Roll: 99.8791656
     }
     Scale {
-      X: 3.33333325
-      Y: 3.33333325
-      Z: 3.33333325
+      X: 2.25174713
+      Y: 2.25174713
+      Z: 2.25174713
     }
   }
   ParentId: 7420455323421467140
@@ -6884,8 +6627,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -565.984253
-            Y: -1247.328
+            X: -584.256287
+            Y: -868.90094
             Z: 398.039948
           }
         }
@@ -6927,7 +6670,7 @@ Objects {
   Transform {
     Location {
       X: -466.666656
-      Y: -966.666626
+      Y: -892.182678
       Z: 416.666656
     }
     Rotation {
@@ -6976,14 +6719,14 @@ Objects {
   Name: "Modern Weapon Accessory - Shell Clip"
   Transform {
     Location {
-      X: -433.31604
-      Y: -983.333313
-      Z: 419.425812
+      X: -419.365326
+      Y: -887.847656
+      Z: 419.425842
     }
     Rotation {
-      Pitch: -0.004706
+      Pitch: -0.00469970703
       Yaw: -89.227478
-      Roll: -89.6409378
+      Roll: -89.6409302
     }
     Scale {
       X: 3.33333325
@@ -9383,8 +9126,8 @@ Objects {
   Name: "Magazine"
   Transform {
     Location {
-      X: -495.886719
-      Y: -870.302
+      X: -559.030396
+      Y: -790.889954
       Z: 411.139557
     }
     Rotation {
@@ -11266,12 +11009,12 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -79.506073
+      X: 17.0918274
       Y: 56.0863228
       Z: 29.506073
     }
     Rotation {
-      Pitch: -45
+      Pitch: -50.396759
     }
     Scale {
       X: 3.33333325

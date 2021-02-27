@@ -1,4 +1,4 @@
-﻿ObjectSettings {
+ObjectSettings {
   ObjectStates {
     key: 1029331767839314619
     value {
@@ -126,6 +126,11 @@
   }
   ObjectStates {
     key: 13773726349086742602
+    value {
+    }
+  }
+  ObjectStates {
+    key: 15194594032122989084
     value {
     }
   }
