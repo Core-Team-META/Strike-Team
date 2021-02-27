@@ -1,13 +1,13 @@
 Assets {
-  Id: 18150383576270310824
-  Name: "ACHIEVEMENT_UI_Client"
+  Id: 1458786537451628614
+  Name: "EaseUI"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:ACH_API"
+        Name: "cs:EasingEquations"
         AssetReference {
-          Id: 10810744165101332779
+          Id: 14759413974431026962
         }
       }
     }

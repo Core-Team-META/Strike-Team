@@ -1,13 +1,13 @@
 Assets {
-  Id: 13564860908462472063
-  Name: "SFX_UI_Hover"
+  Id: 13957331580521171698
+  Name: "SFX_UI_AchievementClaim"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13249807955085777245
+      RootId: 2953767181341184161
       Objects {
-        Id: 13249807955085777245
-        Name: "SFX_UI_Hover"
+        Id: 2953767181341184161
+        Name: "SFX_UI_AchievementClaim"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 9238967709685835459
+        ChildIds: 15532226869773948247
         Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -28,8 +28,8 @@ Assets {
         }
       }
       Objects {
-        Id: 9238967709685835459
-        Name: "Button Hover Core 02 SFX"
+        Id: 15532226869773948247
+        Name: "Meta Coins Shuffling Purchase 01 SFX"
         Transform {
           Location {
           }
@@ -41,7 +41,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13249807955085777245
+        ParentId: 2953767181341184161
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -50,22 +50,23 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 980347467960366271
+            Id: 785883126864424841
           }
           AutoPlay: true
-          Volume: 1.2
+          Pitch: -243.626953
+          Volume: 1
           Falloff: -1
           Radius: -1
         }
       }
     }
     Assets {
-      Id: 980347467960366271
-      Name: "Button Hover Core 02 SFX"
+      Id: 785883126864424841
+      Name: "Meta Coins Shuffling Purchase 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfxui_hoverselect_core_02_Cue_ref"
+        AssetId: "sfx_meta_coins_purchase_01_cue_ref"
       }
     }
     PrimaryAssetId {

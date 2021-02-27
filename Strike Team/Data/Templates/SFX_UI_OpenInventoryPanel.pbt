@@ -1,13 +1,13 @@
 Assets {
-  Id: 13564860908462472063
-  Name: "SFX_UI_Hover"
+  Id: 15148209995605876065
+  Name: "SFX_UI_OpenInventoryPanel"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13249807955085777245
+      RootId: 10218401601565329782
       Objects {
-        Id: 13249807955085777245
-        Name: "SFX_UI_Hover"
+        Id: 10218401601565329782
+        Name: "SFX_UI_OpenInventoryPanel"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 9238967709685835459
+        ChildIds: 1417366994656232137
         Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -28,8 +28,8 @@ Assets {
         }
       }
       Objects {
-        Id: 9238967709685835459
-        Name: "Button Hover Core 02 SFX"
+        Id: 1417366994656232137
+        Name: "Weapon Handle Grab 03 SFX"
         Transform {
           Location {
           }
@@ -41,7 +41,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13249807955085777245
+        ParentId: 10218401601565329782
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -50,22 +50,23 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 980347467960366271
+            Id: 11032692064555494742
           }
           AutoPlay: true
-          Volume: 1.2
+          Pitch: 522.786621
+          Volume: 1
           Falloff: -1
           Radius: -1
         }
       }
     }
     Assets {
-      Id: 980347467960366271
-      Name: "Button Hover Core 02 SFX"
+      Id: 11032692064555494742
+      Name: "Weapon Handle Grab 03 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfxui_hoverselect_core_02_Cue_ref"
+        AssetId: "sfx_weapon_handle_03_Cue_ref"
       }
     }
     PrimaryAssetId {
