@@ -1,13 +1,13 @@
 Assets {
-  Id: 13564860908462472063
-  Name: "SFX_UI_Hover"
+  Id: 13370056914916577395
+  Name: "Achievement_UI_SFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13249807955085777245
+      RootId: 13546236597896377046
       Objects {
-        Id: 13249807955085777245
-        Name: "SFX_UI_Hover"
+        Id: 13546236597896377046
+        Name: "Achievement_UI_SFX"
         Transform {
           Scale {
             X: 1
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 9238967709685835459
-        Lifespan: 5
+        ChildIds: 7543633964822552777
+        Lifespan: 2
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -28,8 +28,8 @@ Assets {
         }
       }
       Objects {
-        Id: 9238967709685835459
-        Name: "Button Hover Core 02 SFX"
+        Id: 7543633964822552777
+        Name: "UI Bright Notification 01 SFX"
         Transform {
           Location {
           }
@@ -41,7 +41,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13249807955085777245
+        ParentId: 13546236597896377046
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -50,22 +50,22 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 980347467960366271
+            Id: 6809107799149399795
           }
           AutoPlay: true
-          Volume: 1.2
+          Volume: 1
           Falloff: -1
           Radius: -1
         }
       }
     }
     Assets {
-      Id: 980347467960366271
-      Name: "Button Hover Core 02 SFX"
+      Id: 6809107799149399795
+      Name: "UI Bright Notification 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfxui_hoverselect_core_02_Cue_ref"
+        AssetId: "sfx_ui_bright_notification_01_Cue_ref"
       }
     }
     PrimaryAssetId {

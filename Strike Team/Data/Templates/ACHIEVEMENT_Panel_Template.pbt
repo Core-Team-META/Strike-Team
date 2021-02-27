@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6911631916005479441
+        ParentId: 2812792799141805338
         ChildIds: 15850988520257377321
         ChildIds: 3174429637011668408
         ChildIds: 2928655598752361091
@@ -66,6 +66,18 @@ Assets {
             Name: "cs:CLAIMED_TEXT"
             ObjectReference {
               SubObjectId: 14932133501947642849
+            }
+          }
+          Overrides {
+            Name: "cs:REWARD_ICON"
+            ObjectReference {
+              SubObjectId: 10947188256612946297
+            }
+          }
+          Overrides {
+            Name: "cs:PROGRESS_TEXT"
+            ObjectReference {
+              SubObjectId: 17046162155834822212
             }
           }
         }
@@ -414,10 +426,10 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 344
+          Width: 317
           Height: 60
-          UIX: 125
-          UIY: 35
+          UIX: 127.144836
+          UIY: 40.3654175
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -431,7 +443,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 15
+            Size: 13
             Justification {
               Value: "mc:etextjustify:left"
             }
@@ -469,6 +481,7 @@ Assets {
           }
         }
         ParentId: 14591153556103743282
+        ChildIds: 17046162155834822212
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -511,6 +524,65 @@ Assets {
         }
       }
       Objects {
+        Id: 17046162155834822212
+        Name: "PROGRESS_TEXT"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13621743958722221900
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 161
+          Height: 24
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Text"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 13
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 521241944743914303
         Name: "REWARD_TEXT"
         Transform {
@@ -533,10 +605,10 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 134
-          Height: 60
-          UIX: -21.9769287
-          UIY: 17.7548218
+          Width: 138
+          Height: 33
+          UIX: -23.3008614
+          UIY: -14.9919968
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -597,7 +669,6 @@ Assets {
           Width: 35
           Height: 35
           UIX: -41.5599976
-          UIY: -6.05618286
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -605,7 +676,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 13921698015760471530
+              Id: 1283463588493558965
             }
             Color {
               R: 1
@@ -654,8 +725,8 @@ Assets {
         Control {
           Width: 150
           Height: 43
-          UIX: -40
-          UIY: 9
+          UIX: -33.5654297
+          UIY: 6.8538208
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -736,8 +807,8 @@ Assets {
         }
         Control {
           Width: 200
-          Height: 60
-          UIX: -10
+          Height: 41
+          UIX: 215.211182
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -761,12 +832,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middleright"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middleright"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -810,12 +881,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13921698015760471530
-      Name: "Survival Money 002"
+      Id: 1283463588493558965
+      Name: "Fantasy Gold 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Survival_Equip_Money_002"
+        AssetId: "UI_Fantasy_Equip_Gold_002"
       }
     }
     PrimaryAssetId {

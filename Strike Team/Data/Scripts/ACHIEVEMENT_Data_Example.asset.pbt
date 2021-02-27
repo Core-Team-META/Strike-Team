@@ -5,12 +5,18 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:ENABLED"
+        Name: "cs:Enabled"
         Bool: false
       }
       Overrides {
         Name: "cs:ID"
         String: ""
+      }
+      Overrides {
+        Name: "cs:Icon"
+        AssetReference {
+          Id: 841534158063459245
+        }
       }
       Overrides {
         Name: "cs:Required"
@@ -21,15 +27,15 @@ Assets {
         String: ""
       }
       Overrides {
-        Name: "cs:REWARD_NAME"
+        Name: "cs:RewardName"
         String: ""
       }
       Overrides {
-        Name: "cs:REWARD_AMMOUNT"
+        Name: "cs:RewardAmount"
         Int: 0
       }
       Overrides {
-        Name: "cs:ICON"
+        Name: "cs:RewardIcon"
         AssetReference {
           Id: 841534158063459245
         }
