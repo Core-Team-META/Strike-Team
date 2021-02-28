@@ -180,8 +180,8 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         if(skin) then item:EquipSkinByID(skin.id) end
         Events.Broadcast("UnHoverItem")
         --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
-    end)    
-    if item:GetSlot() == ("Perks" or "Equipment") then return newpanel end
+    end)   
+    if item:GetSlot() == "Perks" or item:GetSlot() == "Equipment" then return newpanel end
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
     local x,y = GlobalPixel.ToWorld(newpanel)
@@ -226,6 +226,7 @@ function SortPanels(a,b)
     if Storage:HasWeapon(a.data.id) == true and not Storage:HasWeapon(b.data.id)  then return true end
     if not Storage:HasWeapon(a.data.id)  and Storage:HasWeapon(b.data.id) == true then return false end
     
+
     if a.data.name == b.data.name then return false end
     return a.data.name <= b.data.name 
 
@@ -240,7 +241,11 @@ function SkinSort(id,a,b)
         if a.name == b.name then return false end
         return a.name <= b.name 
     else 
-        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+        if Storage:HasSkin(id,a.id) then
+            return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+        else
+            return Database.ReturnSkinRarity(a) <= Database.ReturnSkinRarity(b) 
+        end
     end
     
 end

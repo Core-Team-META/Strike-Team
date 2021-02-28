@@ -110,6 +110,10 @@ Assets {
             String: "2hand_sword_ready"
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Pistol"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -134,7 +138,7 @@ Assets {
               Id: 5936961085923459411
             }
             MuzzleFlashAssetRef {
-              Id: 7611313799014583274
+              Id: 11076655065379965386
             }
             TrailAssetRef {
               Id: 9023864673320310867

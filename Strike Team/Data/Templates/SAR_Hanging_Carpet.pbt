@@ -54,7 +54,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 6416678235699851564
+              Id: 13906395176099797543
             }
           }
           Overrides {
@@ -68,8 +68,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.26
-              G: 0.144635752
+              R: 0.323
+              G: 0.128960416
+              B: 0.107558988
               A: 1
             }
           }
@@ -88,7 +89,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -119,7 +119,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 6416678235699851564
+              Id: 13906395176099797543
             }
           }
           Overrides {
@@ -133,8 +133,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.26
-              G: 0.144635752
+              R: 0.323
+              G: 0.128960416
+              B: 0.107558988
               A: 1
             }
           }
@@ -153,7 +154,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -184,7 +184,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 6416678235699851564
+              Id: 13906395176099797543
             }
           }
           Overrides {
@@ -198,8 +198,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.26
-              G: 0.144635752
+              R: 0.323
+              G: 0.128960416
+              B: 0.107558988
               A: 1
             }
           }
@@ -218,7 +219,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -233,15 +233,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_quarter-pipe_002"
-      }
-    }
-    Assets {
-      Id: 6416678235699851564
-      Name: "Carpet 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_carpets_001_uv"
       }
     }
     Assets {

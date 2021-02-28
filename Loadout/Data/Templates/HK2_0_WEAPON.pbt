@@ -106,6 +106,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Assault Rifle"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -297,7 +301,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.3
+            Duration: 1.3
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -375,11 +379,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 45
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 58
+            Float: 65
           }
         }
         Collidable_v2 {
@@ -694,6 +698,10 @@ Assets {
           Overrides {
             Name: "cs:EnableRecovery"
             Bool: false
+          }
+          Overrides {
+            Name: "cs:AimYReduction"
+            Float: 0.75
           }
         }
         Collidable_v2 {

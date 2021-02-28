@@ -842,6 +842,8 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1084,7 +1086,7 @@ Objects {
     Location {
       X: 8620
       Y: 10995
-      Z: -250
+      Z: -264.32251
     }
     Rotation {
       Yaw: 89.6336746

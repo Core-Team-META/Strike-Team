@@ -9,10 +9,6 @@ Assets {
         Id: 17035684860207208329
         Name: "Rifle Muzzle Flash"
         Transform {
-          Location {
-          }
-          Rotation {
-          }
           Scale {
             X: 1
             Y: 1
@@ -141,7 +137,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:critical"
+              Value: "mc:evfxrelevance:high"
             }
           }
         }

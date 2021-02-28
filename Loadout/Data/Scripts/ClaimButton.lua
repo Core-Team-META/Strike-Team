@@ -9,6 +9,7 @@ end
 
 function ClaimBox()
     _G["LootBox"].Claim()
+    Events.Broadcast("ShowSkipButton")
 end
 
 Claim.hoveredEvent:Connect(HoverSound)

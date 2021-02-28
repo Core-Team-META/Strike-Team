@@ -15,7 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4781671109827199097
+        ChildIds: 8413650045585838724
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -27,10 +28,74 @@ Assets {
         }
         Settings {
           RespawnSettings {
-            RespawnDelay: 10
+            RespawnDelay: 20
             RespawnMode_v2 {
-              Value: "mc:erespawnmode:farthestfromenemy"
+              Value: "mc:erespawnmode:random"
             }
+          }
+        }
+      }
+      Objects {
+        Id: 8413650045585838724
+        Name: "StaticContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15684271589084558941
+        ChildIds: 2282737459666480023
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 2282737459666480023
+        Name: "RespawnTimeSetup"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8413650045585838724
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RESPAWNTIME"
+            Float: 20
+          }
+          Overrides {
+            Name: "cs:MINRESPAWNTIME"
+            Float: 5
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17261934592455900959
           }
         }
       }

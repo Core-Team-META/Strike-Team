@@ -31,6 +31,7 @@ Objects {
   ChildIds: 11909944240055752873
   ChildIds: 4844186550665608289
   ChildIds: 17512947565365309920
+  ChildIds: 17277774771838165488
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,6 +41,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17277774771838165488
+  Name: "Kurtis"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Kurtis"
   }
 }
 Objects {
@@ -459,6 +486,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -466,6 +499,16 @@ Objects {
         Overrides {
           Name: "Name"
           String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -522,7 +565,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 14628852182623608333
   ChildIds: 5141681808947700192
   ChildIds: 9556497154854044989
   Collidable_v2 {
@@ -637,33 +679,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 13946925081248859053
-    }
-  }
-}
-Objects {
-  Id: 14628852182623608333
-  Name: "Cheats"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12611728433761790103
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10011543858967250753
     }
   }
 }
@@ -31368,18 +31383,9 @@ Objects {
   ParentId: 4781671109827199097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Storage"
+      Name: "cs:LifetimeStats"
       NetReference {
-        Key: "71e08e50f9394b8fb68ec3586912de31"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
+        Key: "61926a2ce4fb417dbe0d0e114e437380"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31388,16 +31394,25 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "9c28804fd45342228835d004da0e503a"
+        Key: "d001f4cd01b84fb1bcd1b3a01572d039"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:LifetimeStats"
+      Name: "cs:Storage"
       NetReference {
-        Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+        Key: "fb5a6479f93640f0b8a2f7b579ca5a9f"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "a7512c1e650a43faa1490acf56ecc1e1"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

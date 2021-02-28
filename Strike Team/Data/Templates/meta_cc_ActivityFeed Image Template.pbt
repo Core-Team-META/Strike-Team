@@ -362,13 +362,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 841534158063459245
+              Id: 1814707273787853473
             }
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.016
             }
             TeamSettings {
             }
@@ -419,13 +419,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 841534158063459245
+              Id: 1814707273787853473
             }
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.016
             }
             TeamSettings {
             }
@@ -476,13 +476,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 841534158063459245
+              Id: 1814707273787853473
             }
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.016
             }
             TeamSettings {
             }
@@ -533,13 +533,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 841534158063459245
+              Id: 1814707273787853473
             }
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.016
             }
             TeamSettings {
             }
@@ -590,13 +590,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 841534158063459245
+              Id: 1814707273787853473
             }
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.016
             }
             TeamSettings {
             }
@@ -647,13 +647,13 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 841534158063459245
+              Id: 1814707273787853473
             }
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.016
             }
             TeamSettings {
             }
@@ -671,6 +671,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 1814707273787853473
+      Name: "BG Flat 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_020"
       }
     }
     PrimaryAssetId {

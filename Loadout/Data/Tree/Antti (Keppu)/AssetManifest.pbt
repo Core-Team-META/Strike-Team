@@ -323,24 +323,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7917643843895697114
-  Name: "Sci-fi Console Screen 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_screen_003_ref"
-  }
-}
-Assets {
-  Id: 7835881610684108150
-  Name: "Sci-fi Console 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_console_001_ref"
-  }
-}
-Assets {
   Id: 7835702487382248767
   Name: "Military Ammo Crate Small"
   PlatformAssetType: 1
@@ -536,15 +518,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_rounded_001"
-  }
-}
-Assets {
-  Id: 3350581364753243189
-  Name: "Sci-fi Cockpit Console 001"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scf_ship_cockpit_console_001_ref"
   }
 }
 Assets {

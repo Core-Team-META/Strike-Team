@@ -458,6 +458,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -541,6 +543,8 @@ Assets {
             Size: 15
             Justification {
               Value: "mc:etextjustify:center"
+            }
+            Font {
             }
           }
           AnchorLayout {
@@ -626,6 +630,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -686,6 +692,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -739,6 +747,8 @@ Assets {
             Size: 15
             Justification {
               Value: "mc:etextjustify:center"
+            }
+            Font {
             }
           }
           AnchorLayout {

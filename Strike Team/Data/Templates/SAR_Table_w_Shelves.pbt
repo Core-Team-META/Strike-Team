@@ -93,18 +93,18 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.535
-              G: 0.453155667
-              B: 0.310300052
+              R: 0.185
+              G: 0.156698674
+              B: 0.107300006
               A: 1
             }
           }
           Overrides {
             Name: "ma:Prop_Top:color"
             Color {
-              R: 0.535
-              G: 0.453155667
-              B: 0.310300052
+              R: 0.477000028
+              G: 0.404028505
+              B: 0.276660025
               A: 1
             }
           }
@@ -135,7 +135,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -202,7 +201,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -269,7 +267,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -336,7 +333,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }

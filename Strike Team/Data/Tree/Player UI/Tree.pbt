@@ -210,6 +210,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -843,6 +845,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1603,6 +1607,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2347,6 +2353,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2798,6 +2806,8 @@ Objects {
       Size: 20
       Justification {
         Value: "mc:etextjustify:center"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -3298,6 +3308,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3695,6 +3707,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4092,6 +4106,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4296,7 +4312,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PlayerNameColorMode"
-      String: "STATIC"
+      String: "TEAM"
     }
     Overrides {
       Name: "cs:PlayerNameColor"
@@ -4433,6 +4449,10 @@ Objects {
     Overrides {
       Name: "cs:Leaderstat3Resource"
       String: ""
+    }
+    Overrides {
+      Name: "cs:SortBy"
+      String: "Score"
     }
     Overrides {
       Name: "cs:PlayerNameColor:tooltip"
@@ -4751,6 +4771,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4949,6 +4971,7 @@ Objects {
   ChildIds: 467985160972496034
   ChildIds: 8435709519745017833
   ChildIds: 25629215192034217
+  ChildIds: 7114796170670177174
   ChildIds: 4244053606119436861
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5038,7 +5061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 25629215192034217
+  Id: 7114796170670177174
   Name: "SocialPrefix"
   Transform {
     Location {
@@ -5071,6 +5094,7 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
+      Label: "RANK"
       Color {
         R: 0.5
         G: 0.5
@@ -5082,6 +5106,76 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 25629215192034217
+    SubobjectId: 13503503623897414231
+    InstanceId: 18374213684223088802
+    TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 25629215192034217
+  Name: "SocialPrefix"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13306095104213546008
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: -420
+    Height: 28
+    UIX: 80
+    UIY: -4
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5127,7 +5221,7 @@ Objects {
   Control {
     Width: 20
     Height: 20
-    UIX: 22
+    UIX: 90
     UIY: -16
     RenderTransformPivot {
       Anchor {
@@ -5210,6 +5304,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5410,6 +5506,7 @@ Objects {
   ChildIds: 6818199144354246159
   ChildIds: 12325728577343427746
   ChildIds: 10372377686517285974
+  ChildIds: 14551376888832933477
   UnregisteredParameters {
     Overrides {
       Name: "cs:Scoreboard"
@@ -5474,6 +5571,55 @@ Objects {
   InstanceHistory {
     SelfId: 6136997686353458719
     SubobjectId: 17156434483420047329
+    InstanceId: 18374213684223088802
+    TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 14551376888832933477
+  Name: "Objective"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6136997686353458719
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StatEnabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "RESOURCE"
+    }
+    Overrides {
+      Name: "cs:StatResource"
+      String: "Objective"
+    }
+    Overrides {
+      Name: "cs:StatType:tooltip"
+      String: "Kills, Deaths, Resource"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10372377686517285974
+    SubobjectId: 3805275801016030632
     InstanceId: 18374213684223088802
     TemplateId: 10474175560297017285
   }
@@ -5946,7 +6092,6 @@ Objects {
     }
   }
   ParentId: 5413582882944458303
-  ChildIds: 12614189546185881200
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5975,49 +6120,6 @@ Objects {
           Value: "mc:euianchor:topcenter"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 12614189546185881200
-  Name: "GAMEMODE_TeamDeathMatch_Score_UI"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15016914129013214511
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1305319815708312239
-      value {
-        Overrides {
-          Name: "Name"
-          String: "GAMEMODE_TeamDeathMatch_Score_UI"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 1.36603776e-05
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8551156162901538860
     }
   }
 }
@@ -6329,6 +6431,8 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6400,6 +6504,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6470,7 +6576,8 @@ Objects {
       Justification {
         Value: "mc:etextjustify:right"
       }
-      ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6542,6 +6649,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6678,6 +6787,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {

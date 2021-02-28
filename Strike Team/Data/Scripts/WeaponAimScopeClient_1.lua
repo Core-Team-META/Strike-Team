@@ -55,7 +55,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local pressedHandle = nil              -- Event handle when player presses the aim binding
 local releasedHandle = nil             -- Event handle when player releases the aim binding
 local playerDieHandle = nil            -- Event handle when player dies
-local Connections
+local Connections = {}
 
 -- Internal camera variables --
 local connected = false
@@ -71,11 +71,10 @@ local isScoping = false
 function Tick(deltaTime)
     if not CAN_AIM  then return end
     if not Object.IsValid(WEAPON) then return end
-    if WEAPON.owner and WEAPON.owner.isDead then ForceReset(WEAPON.owner) end
     -- We call OnEquipped function after player is fully loaded in client
     if Object.IsValid(WEAPON.owner)  and not connected then
         if GetPlayerActiveCamera(WEAPON.owner) == nil then return end
-
+        
         OnEquipped(WEAPON, WEAPON.owner)
         connected = true
     end
@@ -213,9 +212,9 @@ function ForceReset(player)
     
     if Object.IsValid(WEAPON_ART) then
         WEAPON_ART.visibility = Visibility.INHERIT
-    end
+    end 
     if Object.IsValid(scopeInstance) then
-        scopeInstance.visibility = Visibility.FORCE_OFF
+        scopeInstance:Destroy()
     end
     
     activeCamera.fieldOfView = cameraResetFOV
@@ -248,7 +247,7 @@ function OnEquipped(weapon, player)
     activeCamera = GetPlayerActiveCamera(player)
     if activeCamera then
         --cameraResetDistance = activeCamera.currentDistance
-        cameraResetFOV = activeCamera.fieldOfView
+        --cameraResetFOV = activeCamera.fieldOfView
         cameraResetPosOffset = activeCamera:GetPositionOffset()
         cameraResetRotOffset = activeCamera:GetRotationOffset()
 
@@ -257,22 +256,22 @@ function OnEquipped(weapon, player)
     end
 end
 
-function OnUnequipped(_, player)
+function OnUnequipped(_, player) 
+    connected = false
     --ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
     -- for previous player when the weapon is used by next player
-    if pressedHandle then 
-        pressedHandle:Disconnect()
-        pressedHandle = nil
-    end
-    if releasedHandle then  
-        releasedHandle:Disconnect() 
-        releasedHandle = nil 
-    end
-    
+        if pressedHandle then 
+            pressedHandle:Disconnect()
+            pressedHandle = nil
+        end
+        if releasedHandle then  
+            releasedHandle:Disconnect() 
+            releasedHandle = nil 
+        end    
     -- Remove the reference to the camera
     if Object.IsValid(activeCamera) then
-        --activeCamera.currentDistance = cameraResetDistance
+        activeCamera.currentDistance = cameraResetDistance
         activeCamera.fieldOfView = cameraResetFOV
         activeCamera = nil
     end
@@ -281,8 +280,7 @@ function OnUnequipped(_, player)
         scopeInstance:Destroy()
         scopeInstance = nil
     end
-    connected = false
-    
+
     ForceReset(player)
 end
 
@@ -296,19 +294,18 @@ function OnReload(ability)
 end
 
 -- Initialize
+WEAPON.unequippedEvent:Connect(OnUnequipped)
 
 Connections = {
-    
     Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,
-    WEAPON.unequippedEvent:Connect(OnUnequipped),
     WEAPON.clientUserData.RELOAD_ABILITY.castEvent:Connect(OnReload),
-    script.destroyEvent:Connect(function(OBJ) 
-        if(WEAPON.owner) then
-            ForceReset( WEAPON.owner)
-            OnUnequipped(nil, WEAPON.owner)
-        end
-        for k,v in pairs(Connections) do
-             v:Disconnect()
-        end
-    end)
 }
+
+script.destroyEvent:Connect(function(OBJ) 
+    ForceReset( WEAPON.owner)
+    OnUnequipped(nil, WEAPON.owner)
+
+    for k,v in pairs(Connections) do
+         v:Disconnect()
+    end
+end)

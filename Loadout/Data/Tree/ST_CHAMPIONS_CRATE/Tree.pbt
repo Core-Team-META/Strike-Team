@@ -341,6 +341,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -497,10 +499,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 6
-    UIX: -3.1796875
-    UIY: 18.5469341
-    RotationAngle: 354.1492
+    Width: -2
+    UIY: 35.4293976
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -580,6 +580,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -650,6 +652,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -805,8 +809,8 @@ Objects {
       Label: "CHAMPION\'S CRATE"
       Color {
         R: 0.871367335
-        G: 0.278894424
-        B: 0.0122865
+        G: 0.278894335
+        B: 0.0122864898
         A: 1
       }
       Size: 20
@@ -814,6 +818,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1182,6 +1188,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1385,6 +1393,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {

@@ -107,6 +107,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Rocket"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }

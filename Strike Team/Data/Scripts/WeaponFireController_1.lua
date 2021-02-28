@@ -3,6 +3,8 @@ local BURST_COUNT = script:GetCustomProperty("BURST_COUNT")
 local PRIMARYFIRE = script:GetCustomProperty("PRIMARYFIRE")
 --local RELOAD = script:GetCustomProperty("RELOAD")
 
+local LOCAL_PLAYER = Game.GetLocalPlayer()
+
 local FireReleaseEvent 
 local FireEvent
 local ScriptEvent
@@ -35,7 +37,7 @@ end
 function FireAbility()   
     if(BURST_COUNT >= 0 ) then
         for i=1,BURST_COUNT do
-            if CheckFiring() then 
+            if CheckFiring() or WEAPON.clientUserData.SHOOT_ABILITY.owner ~= LOCAL_PLAYER then 
                 ResetFire()
                 return 
             end
@@ -44,7 +46,7 @@ function FireAbility()
         end
     else
         while true do 
-            if CheckFiring() then
+            if CheckFiring() or WEAPON.clientUserData.SHOOT_ABILITY.owner ~= LOCAL_PLAYER then
                 ResetFire()
                 return 
             end

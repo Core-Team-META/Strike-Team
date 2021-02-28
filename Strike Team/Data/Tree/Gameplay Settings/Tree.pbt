@@ -60,7 +60,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Duration"
-      Float: 29
+      Float: 55
     }
     Overrides {
       Name: "cs:NumberOfWinners"
@@ -663,10 +663,10 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
-    Width: 150
-    Height: 150
-    UIX: -740
-    UIY: -220
+    Width: 180
+    Height: 130
+    UIX: -755
+    UIY: -160
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -720,7 +720,7 @@ Objects {
   }
   Control {
     Height: -50
-    UIY: -50
+    UIY: -40
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -734,7 +734,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -865,6 +865,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -934,6 +936,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1061,6 +1065,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1121,8 +1127,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -1130,6 +1137,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1257,6 +1266,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1317,8 +1328,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -1326,6 +1338,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1382,7 +1396,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -1454,6 +1471,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1535,10 +1554,10 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
-    Width: 160
-    Height: 160
-    UIX: 565
-    UIY: -210
+    Width: 180
+    Height: 130
+    UIX: 545
+    UIY: -150
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1606,7 +1625,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -1737,6 +1756,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1806,6 +1827,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1933,6 +1956,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1993,8 +2018,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -2002,6 +2028,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2129,6 +2157,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2189,8 +2219,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -2198,6 +2229,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2254,7 +2287,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -2326,6 +2362,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2407,10 +2445,10 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
-    Width: 160
-    Height: 160
+    Width: 180
+    Height: 130
     UIX: -565
-    UIY: -210
+    UIY: -150
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2478,7 +2516,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -2609,6 +2647,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2678,6 +2718,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2805,6 +2847,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2865,8 +2909,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -2874,6 +2919,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3001,6 +3048,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3061,8 +3110,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -3070,6 +3120,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3126,7 +3178,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -3198,6 +3253,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3280,9 +3337,9 @@ Objects {
   }
   Control {
     Width: 180
-    Height: 180
-    UIX: 370
-    UIY: -190
+    Height: 150
+    UIX: 355
+    UIY: -130
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3350,7 +3407,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -3481,6 +3538,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3550,6 +3609,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3677,6 +3738,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3737,8 +3800,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -3746,6 +3810,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3873,6 +3939,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3933,8 +4001,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -3942,6 +4011,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3998,7 +4069,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -4070,6 +4144,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4152,9 +4228,9 @@ Objects {
   }
   Control {
     Width: 180
-    Height: 180
-    UIX: -370
-    UIY: -190
+    Height: 150
+    UIX: -375
+    UIY: -130
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4222,7 +4298,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -4353,6 +4429,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4422,6 +4500,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4549,6 +4629,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4609,8 +4691,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -4618,6 +4701,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4745,6 +4830,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4805,8 +4892,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -4814,6 +4902,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4870,7 +4960,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -4942,6 +5035,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5023,9 +5118,9 @@ Objects {
   }
   Control {
     Width: 210
-    Height: 210
-    UIX: 145
-    UIY: -160
+    Height: 180
+    UIX: 135
+    UIY: -100
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5093,7 +5188,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -5224,6 +5319,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5293,6 +5390,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5420,6 +5519,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5480,8 +5581,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -5489,6 +5591,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5616,6 +5720,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5676,8 +5782,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -5685,6 +5792,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5741,7 +5850,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -5813,6 +5925,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5894,9 +6008,9 @@ Objects {
   }
   Control {
     Width: 210
-    Height: 210
-    UIX: -145
-    UIY: -160
+    Height: 180
+    UIX: -155
+    UIY: -100
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5964,7 +6078,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -6095,6 +6209,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6164,6 +6280,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6291,6 +6409,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6351,8 +6471,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -6360,6 +6481,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6487,6 +6610,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6547,8 +6672,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 18
@@ -6556,6 +6682,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6612,7 +6740,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -6684,6 +6815,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6765,8 +6898,9 @@ Objects {
   }
   Control {
     Width: 270
-    Height: 270
-    UIY: -100
+    Height: 240
+    UIX: -10
+    UIY: -40
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6834,7 +6968,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.25
+        A: 0.417000026
       }
       TeamSettings {
       }
@@ -6965,6 +7099,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7034,6 +7170,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7161,6 +7299,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7221,8 +7361,9 @@ Objects {
     Text {
       Label: "Kills"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 24
@@ -7230,6 +7371,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7270,7 +7413,7 @@ Objects {
     }
   }
   ParentId: 12785837880691629025
-  ChildIds: 9399745523254342902
+  ChildIds: 5791828493799166870
   ChildIds: 9841397313663660121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7357,6 +7500,8 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7379,12 +7524,12 @@ Objects {
   }
 }
 Objects {
-  Id: 9399745523254342902
+  Id: 5791828493799166870
   Name: "Name"
   Transform {
     Location {
       X: -1516.74487
-      Y: 463.155518
+      Y: 463.155731
       Z: 9050
     }
     Rotation {
@@ -7417,8 +7562,9 @@ Objects {
     Text {
       Label: "Deaths"
       Color {
-        R: 0.75
-        G: 0.5
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       Size: 24
@@ -7426,6 +7572,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7482,7 +7630,10 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.5
+        R: 0.541666687
+        G: 0.172546342
+        B: 0.00742196804
+        A: 0.587
       }
       TeamSettings {
       }
@@ -7553,6 +7704,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       ClipTextToSize: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -8158,6 +8311,7 @@ Objects {
   ChildIds: 1360824232860992316
   ChildIds: 7224756548663269671
   ChildIds: 3022889814022185315
+  ChildIds: 7243330689145725114
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8166,6 +8320,36 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 7243330689145725114
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: 6667.35059
+      Y: -109.568848
+      Z: 589.829346
+    }
+    Rotation {
+      Yaw: -157.217514
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16178623774537817549
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
   }
 }
 Objects {
@@ -8233,9 +8417,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 6941.53955
-      Y: -2949.50928
-      Z: 738.905151
+      X: 6938.80615
+      Y: -2788.45654
+      Z: 738.905396
     }
     Rotation {
       Yaw: 165.838455
@@ -8293,9 +8477,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 6987.28027
-      Y: 1666.25879
-      Z: 0.00048828125
+      X: 5826.49219
+      Y: 2359.05566
+      Z: 1143.771
     }
     Rotation {
       Yaw: -157.217484
@@ -8323,9 +8507,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 7058.39746
-      Y: 4073.86035
-      Z: 0.000732421875
+      X: 6965.84473
+      Y: 4507.05176
+      Z: -40.0013428
     }
     Rotation {
       Yaw: 150.06897
@@ -8501,11 +8685,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -7854.90918
-      Y: 1236.69531
-      Z: 724.9021
+      X: -5705.03809
+      Y: 632.09375
+      Z: 864.716919
     }
     Rotation {
+      Yaw: -66.7724
     }
     Scale {
       X: 1
@@ -8699,9 +8884,9 @@ Objects {
         MaxContactOffset: 8
       }
       VfxSettings {
-        LowDistance: 4500
-        MediumDistance: 7000
-        HighDistance: 9000
+        LowDistance: 1000
+        MediumDistance: 2000
+        HighDistance: 6000
       }
     }
   }

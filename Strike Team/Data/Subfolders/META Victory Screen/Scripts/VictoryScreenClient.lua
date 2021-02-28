@@ -160,6 +160,9 @@ local function RestoreFromPodium()
 		
 	for _, panel in pairs(PlayerPanels) do
 		panel.visibility = Visibility.FORCE_OFF
+		
+		local nameTextLabel = panel:GetCustomProperty("NameText"):WaitForObject()
+		nameTextLabel.text = ""
 
 		local resourcePanel = panel:GetCustomProperty("ResourcePanel"):WaitForObject()
 		resourcePanel.visibility = Visibility.FORCE_OFF
@@ -181,7 +184,7 @@ end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
 
-    if newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
+    if newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
         
         RestoreFromPodium()
                 

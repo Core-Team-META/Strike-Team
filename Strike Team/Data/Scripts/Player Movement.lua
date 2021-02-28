@@ -13,6 +13,18 @@ local DEFAULT_MOVEMENT_MODE = MovementControlMode.LOOK_RELATIVE
 local playerStances = {}
 local slidingTimers = {}
 
+local sprintboost = SPRINT_SPEED * 1.2
+
+function AddSprintBoost(player)
+    if not player.serverUserData.EquippedWeapon then return SPRINT_SPEED end
+    if not player.serverUserData.EquippedWeapon:IsA("Weapon") and player.serverUserData.EquippedWeapon:IsA("Equipment") then
+        
+        return sprintboost
+    end
+    return SPRINT_SPEED
+end
+
+
 function Tick(dt)
     if _G["MovementCanControl"] == false then return end
     Task.Spawn(function()
@@ -66,9 +78,9 @@ end
 
 function UpdatePlayerSprinting(player)
     if player.serverUserData.playerStatus["ShiftDown"] then
-        if not player.serverUserData.playerStatus["Sprinting"] and not player.serverUserData.playerStatus["Aiming"] and not player.serverUserData.playerStatus["Sliding"] then
+        if  not player.serverUserData.playerStatus["Aiming"] and not player.serverUserData.playerStatus["Sliding"] then
             player.serverUserData.playerStatus["Sprinting"] = true
-            player.maxWalkSpeed = SPRINT_SPEED
+            player.maxWalkSpeed = AddSprintBoost(player)
             player.groundFriction = DEFAULT_FRICTION
             player.brakingDecelerationWalking = DEFAULT_BRAKING
             player.movementControlMode = DEFAULT_MOVEMENT_MODE
@@ -191,6 +203,7 @@ function OnEquipWeapon(owner, weapon)
     playerStances[owner]["Aiming"] = aimingStance or "2hand_rifle_aim_shoulder"
     Task.Wait()
     UpdatePlayerStance(owner)
+    UpdatePlayerSprinting(owner)
 end
 
 

@@ -6,7 +6,7 @@ local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
 
 local function ToggleOn()
     UI.SetCanCursorInteractWithUI(true)
-    UI.SetCursorLockedToViewport(false)
+    UI.SetCursorLockedToViewport(true)
     UI.SetCursorVisible(true)
     Events.Broadcast("SwapPanelOpen")
     UI_CONTAINER.visibility = Visibility.FORCE_ON
@@ -25,7 +25,9 @@ local function ToggleWeaponSlot()
     if (UI_CONTAINER.visibility == Visibility.FORCE_OFF) then
         ToggleOn()
     else
-        ToggleOff()
+        if LOCAL_PLAYER.isDead == false then 
+            ToggleOff()
+        end
     end
 end
 

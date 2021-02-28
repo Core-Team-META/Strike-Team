@@ -78,7 +78,6 @@ end
 function OnGameTypeStart(id)
     if IsVaildId(id) then
         Log("Enabling")
-        --#TODO Can be rewritten into single API function
         GT_API.CleanUp(SPAWNED_OBJECTS)
         GT_API.SpawnAsset(GT_API.GetRespawnSettings(myId), {parent = SPAWNED_OBJECTS})
     end

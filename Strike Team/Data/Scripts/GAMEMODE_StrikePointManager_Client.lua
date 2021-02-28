@@ -8,10 +8,12 @@
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
-local EaseUI = require(script:GetCustomProperty("EaseUI"))
 ------------------------------------------------------------------------------------------------------------------------
+local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -22,7 +24,7 @@ local EDGE = script:GetCustomProperty("EDGE"):WaitForObject()
 local GROUND = script:GetCustomProperty("GROUND"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local FLAG = script:GetCustomProperty("CubeChamferedSmallPolished"):WaitForObject()
-
+local PARENT_PANEL = script:GetCustomProperty("PARENT_PANEL"):WaitForObject()
 
 local FlagRootColor = script:GetCustomProperty("FlagRootColor"):WaitForObject()
 local Flag1Color = script:GetCustomProperty("Flag1Color"):WaitForObject()
@@ -42,6 +44,12 @@ local SFX_SUCCESS = script:GetCustomProperty("SFX_Game_PointCaptureSuccess")
 local SFX_POINT_CALLOUT = script:GetCustomProperty("SFX_PointCallout_UI")
 local SFX_POINT_LOST = script:GetCustomProperty("SFX_PointLost_UI")
 local SFX_POINT_SECURED = script:GetCustomProperty("SFX_PointSecured_UI")
+local SFX_POINT_CONTEST_ENEMY = script:GetCustomProperty("SFX_PointContestEnemy_UI")
+local SFX_POINT_CONTEST_FRIENDLY = script:GetCustomProperty("SFX_PointContestFriendly_UI")
+
+local TEAM_COLOR = script:GetCustomProperty("TEAM_COLOR")
+local ENEMY_COLOR = script:GetCustomProperty("ENEMY_COLOR")
+local IDLE_COLOR = script:GetCustomProperty("IDLE_COLOR")
 
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
@@ -55,24 +63,40 @@ local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
 local lastProgress
-
+local teamProgress, enemyProgress, centerFlag
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
 local function GetData()
     local str = ROOT:GetCustomProperty("DATA")
+    while str == "" do
+        Task.Wait()
+        str = ROOT:GetCustomProperty("DATA")
+    end
     return GT_API.ConvertStringToTable(str)
 end
 
 local function UpdateProgress(currentProgress)
-    PROGRESS_BAR.progress = (currentProgress / MAX_PROGRESS)
     if LOCAL_PLAYER.team == currentTeam then
-    	EaseUI.EaseRotation(PROGRESS_BAR, 0, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
-    	PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#2196F3FF"))
+        teamProgress.progress = (currentProgress / MAX_PROGRESS)
+        enemyProgress.progress = 0
     else
-    	EaseUI.EaseRotation(PROGRESS_BAR, 180, 0, EaseUI.EasingEquation.LINEAR, EaseUI.EasingDirection.INOUT)
-    	PROGRESS_BAR:SetFillColor(Color.FromStandardHex("#F44336FF"))
+        teamProgress.progress = 0
+        enemyProgress.progress = (currentProgress / MAX_PROGRESS)
+    end
+end
+
+local function UpdateCenterFlagColor(currentTeam)
+    if not centerFlag and not Object.IsValid(centerFlag) then
+        return
+    end
+    if LOCAL_PLAYER.team == currentTeam then
+        centerFlag:SetColor(TEAM_COLOR)
+    elseif currentTeam > 0 and LOCAL_PLAYER.team ~= currentTeam then
+        centerFlag:SetColor(ENEMY_COLOR)
+    else
+        centerFlag:SetColor(IDLE_COLOR)
     end
 end
 
@@ -93,13 +117,31 @@ end
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
+function Int()
+    while not PARENT_PANEL:GetChildren()[1] do
+        Task.Wait()
+    end
+    local child = PARENT_PANEL:GetChildren()[1]
+    enemyProgress = child:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
+    teamProgress = child:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
+    centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
+
+    UpdateCenterFlagColor(0)
+    OnNetworkChanged(ROOT)
+end
+
 function OnNetworkChanged(object, string)
     if object == ROOT then
         local data = GetData()
         lastProgress = lastProgress or data[PROGRESS]
         if currentTeam ~= data[TEAM] then
             currentTeam = data[TEAM]
-            World.SpawnAsset(SFX_POINT_CALLOUT)
+            if currentTeam == LOCAL_PLAYER.team then
+                World.SpawnAsset(SFX_POINT_CONTEST_FRIENDLY)
+            else
+                World.SpawnAsset(SFX_POINT_CONTEST_ENEMY)
+            end
+            UpdateCenterFlagColor(currentTeam)
         end
         if data[TEAM] > 0 and data[PROGRESS] >= 0 then
             ToggleObject(true)
@@ -150,13 +192,14 @@ function OnNetworkChanged(object, string)
                 World.SpawnAsset(SFX_POINT_LOST)
             end
         end
-    UpdateProgress(data[PROGRESS])
+
+        UpdateProgress(data[PROGRESS])
     end
 end
-
 
 ------------------------------------------------------------------------------------------------------------------------
 -- LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
+Task.Wait()
+Int()
 ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
-

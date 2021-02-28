@@ -1,4 +1,4 @@
-local GT_API
+	local GT_API
 repeat
 
     GT_API = _G.META_GAME_MODES
@@ -6,8 +6,8 @@ repeat
     
 until GT_API
 
+while not _G["REWARDDATABASE"] do Task.Wait() end
 local localPlayer = Game.GetLocalPlayer()
-
 local localPlayerXP
 repeat
 
@@ -29,19 +29,7 @@ local endRoundManager = script:GetCustomProperty("EndRoundUIMainManager"):WaitFo
 local gainedXPText = script:GetCustomProperty("GainedXP"):WaitForObject()
 local progressBarText = script:GetCustomProperty("ProgressBarText"):WaitForObject()
 local progressBar = script:GetCustomProperty("ProgressBar"):WaitForObject()
-
-local roundResultText = script:GetCustomProperty("RoundResult"):WaitForObject()
-local killsText = script:GetCustomProperty("Kills"):WaitForObject()
-local headshotsText = script:GetCustomProperty("Headshots"):WaitForObject()
-
-local valueRoundResultText = script:GetCustomProperty("ValueRoundResult"):WaitForObject()
-local valueKillsText = script:GetCustomProperty("ValueKills"):WaitForObject()
-local valueHeadshotsText = script:GetCustomProperty("ValueHeadshots"):WaitForObject()
-
-local cashRoundResultText = script:GetCustomProperty("CashRoundResult"):WaitForObject()
-local cashKillsText = script:GetCustomProperty("CashKills"):WaitForObject()
-local cashHeadshotsText = script:GetCustomProperty("CashHeadshots"):WaitForObject()
-
+ 
 local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 
 local gameModeName = script:GetCustomProperty("GameModeName"):WaitForObject()
@@ -67,8 +55,18 @@ local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObj
 local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimationCompleteSFX")
 
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+local Gold_SFX = script:GetCustomProperty("Gold_SFX")
 
 local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
+
+local Rows = {}
+local GoldPercentBar = script:GetCustomProperty("GoldPercentBar"):WaitForObject()
+local GoldAmount = script:GetCustomProperty("GoldAmount"):WaitForObject()
+local BIG_GOLD = script:GetCustomProperty("BIG_GOLD"):WaitForObject()
+local SMALL_GOLD = script:GetCustomProperty("SMALL_GOLD"):WaitForObject()
+
+local CASHROWTEMPLATE = script:GetCustomProperty("CASHROWTEMPLATE")
+local CASHPANEL = script:GetCustomProperty("CashPanel"):WaitForObject()
 
 
 local winValue = 100
@@ -412,7 +410,7 @@ end
 
 function AnimateLevel()
 	
-	roundXP = localPlayerXP:GetXP() - roundXP
+	roundXP = localPlayerXP:ReturnGainedXP()
 
 	CountThisTextUp(gainedXPText, roundXP, "+")
 	
@@ -468,38 +466,123 @@ function AnimateLevel()
 
 end
 
-function AnimateStats()
+function CalculateCashTotal()
+    local FinishValue = 0
+	local val = 0
 
+    if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
+        FinishValue = _G["REWARDDATABASE"].ReturnWin("Cash")
+    else
+        FinishValue = _G["REWARDDATABASE"].ReturnLoss("Cash")
+    end
+
+    for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("Cash")) do 
+        val = val +  v["Value"]* math.min( localPlayer:GetResource(k), v["Max"])
+    end
+
+	val = val + FinishValue
+    return val
+end
+
+function RewardText(Win)
+	local entry = World.SpawnAsset(CASHROWTEMPLATE,{parent = CASHPANEL })
+	local NAME = entry:GetCustomProperty("NAME"):WaitForObject()
+	local VALUE = entry:GetCustomProperty("VALUE"):WaitForObject()
+	local COUNT = entry:GetCustomProperty("COUNT"):WaitForObject()
+	local TOTAL = entry:GetCustomProperty("TOTAL"):WaitForObject()
+	NAME.text = "Round Reward" 
+	if Win then 
+		AnimateWordText(VALUE, "WIN", true)
+		COUNT.text = tostring(_G["REWARDDATABASE"].ReturnWin("Cash"))
+		CountThisTextUp(TOTAL, _G["REWARDDATABASE"].ReturnWin("Cash"), "+", false)
+	else
+		AnimateWordText(VALUE, "LOSS", true)
+		COUNT.text = tostring(_G["REWARDDATABASE"].ReturnLoss("Cash"))
+		CountThisTextUp(TOTAL, _G["REWARDDATABASE"].ReturnLoss("Cash"), "+", false)
+	end
+	table.insert( Rows,entry )
+	
+end
+
+function AnimateStats()
+	local CashTotal = CalculateCashTotal()
+
+	
 	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
-	
-		AnimateWordText(roundResultText, "WIN", true)
-		CountThisTextUp(valueRoundResultText, winValue, " ", false)
-		CountThisTextUp(cashRoundResultText, winValue, "+", false)
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + winValue, "+", false)
-		
-	else 
-	
-		AnimateWordText(roundResultText, "LOSS", true)
-		CountThisTextUp(valueRoundResultText, lossValue, " ", false)
-		CountThisTextUp(cashRoundResultText, lossValue, "+", false)
-		CountThisTextUp(cashTotalText, localPlayer.kills * killsValue + localPlayer:GetResource("Headshots") * headShotValue + lossValue, "+", false)
-		
+		RewardText(true)
+	else
+		RewardText(false)
 	end
 	
-	CountThisTextUp(killsText, localPlayer.kills, " ", false)
-	CountThisTextUp(headshotsText, localPlayer:GetResource("Headshots"), " ", false)
-	
-	CountThisTextUp(valueKillsText, killsValue, " ", true)
-	CountThisTextUp(valueHeadshotsText, headShotValue, " ", true)
-	
-	CountThisTextUp(cashKillsText, localPlayer.kills * killsValue, "+", false)
-	CountThisTextUp(cashHeadshotsText, localPlayer:GetResource("Headshots") * headShotValue, "+", false)	
+	local Index = 1
+	for k,v in pairs(_G["REWARDDATABASE"].ReturnValues("Cash")) do 
+		local entry = World.SpawnAsset(CASHROWTEMPLATE,{parent = CASHPANEL })
+		local NAME = entry:GetCustomProperty("NAME"):WaitForObject()
+		local VALUE = entry:GetCustomProperty("VALUE"):WaitForObject()
+		local COUNT = entry:GetCustomProperty("COUNT"):WaitForObject()
+		local TOTAL = entry:GetCustomProperty("TOTAL"):WaitForObject()
+		entry.y = Index * 35
+		NAME.text = tostring(k)
+		VALUE.text = tostring(v["Value"])
+		COUNT.text = tostring(localPlayer:GetResource(k)) 
+		if localPlayer:GetResource(k) > v["Max"] then 
+			COUNT.text = string.format( "%d+",v["Max"] )
+		end
+		CountThisTextUp(TOTAL, v["Value"]* math.min( localPlayer:GetResource(k), v["Max"]), "+", false) 
+		table.insert( Rows,entry )
+		Index = Index + 1
+	end	
+	CountThisTextUp(cashTotalText, CashTotal, " ", false)
+end
 
+function AnimateGold()
+	local Gold = localPlayer:GetResource("OldGold")
+	GoldAmount.text = string.format( "%d/%d", Gold,10 )
+	GoldPercentBar.progress = Gold/10
+
+	EaseUI.EaseY(BIG_GOLD, 0, .8, EaseUI.EasingEquation.BOUNCE, EaseUI.EasingDirection.OUT)
+	Task.Wait(.3)
+	World.SpawnAsset(Gold_SFX)
+	Task.Wait(.1)
+	World.SpawnAsset(Gold_SFX)
+	Task.Wait(.1)
+	World.SpawnAsset(Gold_SFX)
+	Task.Wait(.1)
+	GoldAmount.text = string.format( "%d/%d", math.min(Gold+1,10 ) ,10 )
+	for i=1,10 do
+		GoldPercentBar.progress = math.min(Gold+(i/10) ,10 )/10
+		Task.Wait(.03)
+	end
+	Gold =  math.min(Gold+1,10 )
+	
+	Task.Wait(1)
+	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
+		
+		EaseUI.EaseY(SMALL_GOLD, 0, .5, EaseUI.EasingEquation.BOUNCE, EaseUI.EasingDirection.OUT)
+		Task.Wait(.2)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+		World.SpawnAsset(Gold_SFX)
+		GoldAmount.text = string.format( "%d/%d", math.min(Gold+2,10 ) ,10 )
+		for i=1,10 do
+			GoldPercentBar.progress = math.min(Gold+(i/5) ,10 )/10
+			Task.Wait(.03)
+		end
+		
+	end
 end
 
 function ShowEndRoundResults()
+	UI.SetCanCursorInteractWithUI(true)
+	UI.SetCursorVisible(true)
 
 	mainWindow.y = -2000
+
+	local Gold = localPlayer:GetResource("OldGold")
+	GoldAmount.text = string.format( "%d/%d", Gold,10 )
+	GoldPercentBar.progress = Gold/10
 
 	returnToLoadout.y = returnToLoadout.y + 2000
 
@@ -528,7 +611,10 @@ function ShowEndRoundResults()
 	Task.Wait(0.5)
 	
 	AnimateStats()
-		
+	
+	Task.Wait(1)
+	
+	AnimateGold()
 
 end
 
@@ -537,22 +623,22 @@ function ResetEndRoundResults()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
 	votingWindow.visibility = Visibility.FORCE_OFF
 
-	roundResultText.text = ""
-	valueRoundResultText.text = ""
-	cashRoundResultText.text = ""
 	cashTotalText.text = ""
 	
-	killsText.text = ""
-	valueKillsText.text = ""
-	cashKillsText.text = ""
-	
-	headshotsText.text = ""
-	valueHeadshotsText.text = ""
-	cashHeadshotsText.text = ""	
+	for _,v in pairs(Rows) do
+		if Object.IsValid(v) then
+			v:Destroy()
+		end
+	end
+
+	Rows = {}
 
 	gainedXPText.text = ""
 	SetChildrenText(progressBarText, "")
 	progressBar.progress = 0
+	
+	BIG_GOLD.y = -200
+	SMALL_GOLD.y = -50
 	
 	for _, entry in pairs(scoreboardSectionEntries:GetChildren()) do
 	

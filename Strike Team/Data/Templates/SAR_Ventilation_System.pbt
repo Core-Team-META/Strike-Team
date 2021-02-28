@@ -10,13 +10,14 @@ Assets {
         Name: "SAR_Ventilation System"
         Transform {
           Scale {
-            X: 0.7
-            Y: 0.7
-            Z: 0.7
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
           }
         }
         ParentId: 7057860369515092191
         ChildIds: 6927188144648585050
+        ChildIds: 14664273096228583082
         ChildIds: 15573388070264513375
         ChildIds: 13412922705908481060
         Collidable_v2 {
@@ -71,6 +72,61 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableCastShadows: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14664273096228583082
+        Name: "Container - Rectangle"
+        Transform {
+          Location {
+            X: 9.9478
+            Y: -181.595383
+            Z: 232.86026
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: -90
+            Roll: 180
+          }
+          Scale {
+            X: 4.21862078
+            Y: 7.46028376
+            Z: 0.138836607
+          }
+        }
+        ParentId: 16517545823905491799
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8329339828071933523
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1411445044141844320
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -231,12 +287,12 @@ Assets {
         Name: "Container - Rectangle"
         Transform {
           Location {
-            X: 360.73761
-            Y: -308.736572
-            Z: 16.5734863
+            X: 360.736389
+            Y: -309.421265
+            Z: 16.5734825
           }
           Rotation {
-            Roll: -89.9999542
+            Roll: -89.999939
           }
           Scale {
             X: 2.56337762
@@ -305,7 +361,7 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -415,7 +471,7 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -1478,7 +1534,7 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -1514,21 +1570,21 @@ Assets {
       }
     }
     Assets {
-      Id: 13442965192408425307
-      Name: "Modern Weapon Accessory - Rail 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_acc_rail_001"
-      }
-    }
-    Assets {
       Id: 8329339828071933523
       Name: "Concrete Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_gen_concrete_001"
+      }
+    }
+    Assets {
+      Id: 13442965192408425307
+      Name: "Modern Weapon Accessory - Rail 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_acc_rail_001"
       }
     }
     Assets {

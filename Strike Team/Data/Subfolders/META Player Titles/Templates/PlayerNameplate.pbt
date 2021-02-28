@@ -115,6 +115,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -156,6 +158,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -194,6 +198,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -232,6 +238,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -270,6 +278,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -310,6 +320,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -351,6 +363,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -389,6 +403,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -427,6 +443,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -465,6 +483,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -506,6 +526,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -547,6 +569,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -585,6 +609,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -623,6 +649,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -661,6 +689,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }

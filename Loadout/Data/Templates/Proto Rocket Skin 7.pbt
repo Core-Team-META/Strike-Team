@@ -25,8 +25,7 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        NetworkContext {
         }
       }
       Objects {
@@ -47,7 +46,6 @@ Assets {
         ChildIds: 4479256496734832945
         ChildIds: 2660459578646552316
         ChildIds: 14053325224509567896
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -3304,7 +3302,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

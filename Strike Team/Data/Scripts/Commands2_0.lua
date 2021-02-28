@@ -15,6 +15,13 @@ function Commands.print(player, message)
     end
 end
 
+
+function Commands.printresource(player, message)
+    if (ReturnPlayerByName(message[3])) then 
+        print(player:GetResource(message[3]))
+    end
+end
+
 function Commands.fly(player)
     player:ActivateFlying()
     return "Feeling light as a feather"
@@ -80,6 +87,12 @@ function Commands.visible(player)
     player:SetVisibility(true)
     return player.name .. " is visible"
 end 
+
+function Commands.setteam(player, message)
+    print ("Changing team to " .. message[3])
+    player.team = tonumber(message[3])
+end
+
 
 function Commands.equip(player,message)
     while not _G["DataBase"] do Task.Wait() end

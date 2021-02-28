@@ -17,6 +17,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10698833128597864431
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}
+Assets {
+  Id: 9878439610815201128
+  Name: "3D Frame Basic Circle"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_3D_Frame_BasicCircle"
+  }
+}
+Assets {
   Id: 7057957939250648142
   Name: "Center Arrow 003 Wedge"
   PlatformAssetType: 9

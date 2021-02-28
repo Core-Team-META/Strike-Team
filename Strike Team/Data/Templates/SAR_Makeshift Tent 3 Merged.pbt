@@ -7,7 +7,7 @@ Assets {
       RootId: 11006673037185434462
       Objects {
         Id: 11006673037185434462
-        Name: "SAR_Makeshift Tent 3"
+        Name: "SAR_Makeshift Tent 3 Merged"
         Transform {
           Scale {
             X: 1
@@ -79,6 +79,17 @@ Assets {
           }
         }
         ParentId: 15311920907046936093
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.814223
+              G: 1
+              B: 0.65
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -122,6 +133,17 @@ Assets {
           }
         }
         ParentId: 15311920907046936093
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.814223
+              G: 1
+              B: 0.65
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -165,6 +187,17 @@ Assets {
           }
         }
         ParentId: 15311920907046936093
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.814223
+              G: 1
+              B: 0.65
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

@@ -6,15 +6,19 @@ local BindingToSlot = {
     [3] = "MeleeWeapon",
 }
 
-function UpdateEnabled(int)
-    if int == Slot then Ability.isEnabled = false else Ability.isEnabled = true end
+function UpdateEnabled(int,player)
+    if player == Ability.owner then 
+        if int == Slot 
+            then Ability.isEnabled = false else Ability.isEnabled = true
+        end
+    end
 end
 
 function SwapWeapon()
     Events.Broadcast("EquipWeapon", Ability.owner, Ability.owner.serverUserData.Weapons[BindingToSlot[Slot]])
     Ability.owner:SetResource("WeaponSlot",Slot )
     Task.Wait(Ability.executePhaseSettings.duration-.1)
-    Events.Broadcast("UpdateAbiltity",Slot)
+    Events.Broadcast("UpdateAbiltity",Slot,Ability.owner )
 end
 local Connections
 

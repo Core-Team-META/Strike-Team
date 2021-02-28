@@ -1,4 +1,13 @@
 Assets {
+  Id: 17582367140764135335
+  Name: "Center Rect 001 Outline"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterRect_001Outline"
+  }
+}
+Assets {
   Id: 16879127747257565034
   Name: "Planet"
   PlatformAssetType: 9
@@ -23,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Food_010"
-  }
-}
-Assets {
-  Id: 16672326753757397400
-  Name: "Weapon Assault Rifle 005"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Weapon_AssaultRifle_005"
   }
 }
 Assets {
@@ -71,30 +71,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12832138002433923957
-  Name: "Weapon Sub MG 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Weapon_SubMG_003"
-  }
-}
-Assets {
   Id: 12577597540670242942
   Name: "Survival Tool Pickaxe 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Equip_Tool_017"
-  }
-}
-Assets {
-  Id: 11429406116101648691
-  Name: "Weapon Bazooka 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Weapon_Bazooka_001"
   }
 }
 Assets {
@@ -134,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7870036508509870963
+  Name: "Center Rect 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterRect_001"
+  }
+}
+Assets {
   Id: 7800031187977293047
   Name: "Fantasy Club 008"
   PlatformAssetType: 9
@@ -170,12 +161,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4801078581681820408
-  Name: "Weapon Sub MG 002"
+  Id: 6108831877428093247
+  Name: "Weapon Sub MG 005"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Weapon_SubMG_002"
+    AssetId: "UI_Military_Weapon_SubMG_005"
   }
 }
 Assets {
@@ -188,12 +179,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4425460120182619356
-  Name: "Weapon Sniper Rifle 002"
+  Id: 4297852791511374283
+  Name: "Weapon Sniper Rifle 004"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Weapon_SniperRifle_002"
+    AssetId: "UI_Military_Weapon_SniperRifle_004"
   }
 }
 Assets {
@@ -206,15 +197,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3354143504959759040
-  Name: "Icon Weapon Knife"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponKnife"
-  }
-}
-Assets {
   Id: 3042160101061736647
   Name: "Fantasy Spell Ingredient 030"
   PlatformAssetType: 9
@@ -224,12 +206,21 @@ Assets {
   }
 }
 Assets {
-  Id: 2554722082088045387
-  Name: "Weapon Sniper Rifle 001"
+  Id: 2417593569095758378
+  Name: "Survival Machine Gun 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Weapon_SniperRifle_001"
+    AssetId: "UI_Survival_Weapon_MachineGun_001"
+  }
+}
+Assets {
+  Id: 906141242737558317
+  Name: "Weapon Assault Rifle 008"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_AssaultRifle_008"
   }
 }
 Assets {
@@ -239,6 +230,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Equip_Tool_001"
+  }
+}
+Assets {
+  Id: 596326082968169910
+  Name: "Weapon Bazooka 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_Bazooka_003"
   }
 }
 Assets {

@@ -47,6 +47,12 @@ Assets {
               SubObjectId: 10170229791363641805
             }
           }
+          Overrides {
+            Name: "cs:Text_Main_Loadout1"
+            ObjectReference {
+              SubObjectId: 3583033777287337843
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -57,8 +63,8 @@ Assets {
         Control {
           Width: 750
           Height: 865
-          UIX: 435.700714
-          UIY: 114.255554
+          UIX: 385.700714
+          UIY: 119.255554
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1395,6 +1401,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1510,6 +1518,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -2210,6 +2220,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -2268,6 +2280,8 @@ Assets {
               Value: "mc:etextjustify:right"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -2326,6 +2340,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -2442,6 +2458,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -3718,6 +3736,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -3833,6 +3853,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -4533,6 +4555,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -4591,6 +4615,8 @@ Assets {
               Value: "mc:etextjustify:right"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -4649,6 +4675,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -4765,6 +4793,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6040,6 +6070,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6155,6 +6187,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6855,6 +6889,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6913,6 +6949,8 @@ Assets {
               Value: "mc:etextjustify:right"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6971,6 +7009,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7087,6 +7127,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9251,6 +9293,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9310,6 +9354,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9369,6 +9415,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9428,6 +9476,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9938,6 +9988,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9997,6 +10049,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10063,6 +10117,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10121,6 +10177,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11036,6 +11094,7 @@ Assets {
         ChildIds: 18445633672540996428
         ChildIds: 11401252550629949289
         ChildIds: 8083113915997910803
+        ChildIds: 3583033777287337843
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -11342,6 +11401,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11708,6 +11769,66 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3583033777287337843
+        Name: "Text_Main_Loadout1"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14522026801933090823
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 40
+          UIX: 97.0873413
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "LOADOUT 1"
+            Color {
+              R: 0.879622579
+              G: 0.879622579
+              B: 0.879622579
+              A: 1
+            }
+            Size: 20
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -12164,6 +12285,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13138,6 +13261,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13363,6 +13488,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13422,6 +13549,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

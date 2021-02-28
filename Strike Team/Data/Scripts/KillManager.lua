@@ -55,6 +55,7 @@ function UpdateKillDeath(player,damage)
         SetKD(damage.sourcePlayer)
         if( damage.sourcePlayer ~= player) then 
             damage.sourcePlayer:AddResource("KillStreak", 1)
+            damage.sourcePlayer:AddResource("Kills", 1)
         end 
     end 
 end
@@ -88,6 +89,9 @@ function ResetData(player)
     player:SetResource("KillStreak", 0)
     player:SetResource("Assists", 0)
     player:SetResource("Score", 0)
+    player:SetResource("Objective", 0)
+    player:SetResource("Kills", 0)
+    player:SetResource("Deaths", 0)
     player.kills = 0
     player.deaths = 0
     player.serverUserData.Assists = {}

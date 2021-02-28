@@ -232,9 +232,9 @@ Objects {
   Light {
     Intensity: 5.08633
     Color {
-      R: 0.18
+      R: 0.497999966
       G: 1
-      B: 0.93483448
+      B: 0.960105956
       A: 1
     }
     TeamSettings {
@@ -283,9 +283,9 @@ Objects {
   Light {
     Intensity: 5.08633
     Color {
-      R: 0.18
+      R: 0.497999966
       G: 1
-      B: 0.93483448
+      B: 0.960105956
       A: 1
     }
     TeamSettings {
@@ -589,9 +589,9 @@ Objects {
   Light {
     Intensity: 48.1738167
     Color {
-      R: 0.18
+      R: 0.497999966
       G: 1
-      B: 0.93483448
+      B: 0.960105956
       A: 1
     }
     TeamSettings {
@@ -902,7 +902,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 44.9422531
+    Intensity: 66.2103271
     Color {
       R: 1
       G: 0.814357519
@@ -914,7 +914,7 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 973.609497
+        AttenuationRadius: 1123.10425
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
@@ -932,12 +932,11 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: -3714.95728
-      Y: -2975.0022
-      Z: 184.999512
+      X: -4003.64453
+      Y: -3423.74
+      Z: 184.999023
     }
     Rotation {
-      Pitch: -1.36603776e-05
       Yaw: 135
       Roll: -179.999969
     }
@@ -971,7 +970,7 @@ Objects {
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
-          SourceWidth: 606.403931
+          SourceWidth: 276.881226
           SourceHeight: 360.913574
         }
       }

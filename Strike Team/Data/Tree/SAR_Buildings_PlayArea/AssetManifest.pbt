@@ -224,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15897705887741699672
+  Name: "Urban Pipe Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_straight_001_ref"
+  }
+}
+Assets {
   Id: 15851271444363751188
   Name: "Whitebox Window Insert - Basic Frame"
   PlatformAssetType: 1
@@ -329,15 +338,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
-  }
-}
-Assets {
-  Id: 14231809728886464860
-  Name: "Wood Raw White"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_raw_white_001_uv"
   }
 }
 Assets {
@@ -602,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10863661971228771502
+  Name: "Rock Pile 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
   Id: 10835155324150586940
   Name: "Rock Pile 001"
   PlatformAssetType: 1
@@ -809,6 +818,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6357345563865435834
+  Name: "Urban Damaged Rebar Twisted Ends 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_rebar_004_ref"
+  }
+}
+Assets {
   Id: 6333982242246389428
   Name: "Urban Damaged Glass Shard  - 02"
   PlatformAssetType: 1
@@ -851,6 +869,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
+  }
+}
+Assets {
+  Id: 5356997660449093087
+  Name: "Fantasy Castle Stairs 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001"
   }
 }
 Assets {
@@ -923,15 +950,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_8m_001"
-  }
-}
-Assets {
-  Id: 3433416882178080463
-  Name: "Street Sign - Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_street-sign_rectangle_001"
   }
 }
 Assets {

@@ -381,11 +381,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 36
+            Float: 38
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 48
+            Float: 56
           }
         }
         Collidable_v2 {

@@ -56,13 +56,13 @@ Objects {
   Name: "Camera"
   Transform {
     Location {
-      X: 236.173096
-      Y: -216.133636
-      Z: 303.348206
+      X: 240.744308
+      Y: -212.57605
+      Z: 270.079346
     }
     Rotation {
-      Pitch: -49.4920044
-      Yaw: -142.108582
+      Pitch: -35.0044861
+      Yaw: -142.108887
     }
     Scale {
       X: 1
@@ -1146,6 +1146,8 @@ Objects {
       Justification {
         Value: "mc:etextjustify:left"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1573,6 +1575,8 @@ Objects {
       Size: 14
       Justification {
         Value: "mc:etextjustify:left"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -2421,6 +2425,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2852,6 +2858,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4259,6 +4267,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4804,6 +4814,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5543,7 +5555,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 2
+          Int: 0
         }
       }
     }
@@ -5797,6 +5809,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5855,6 +5869,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {

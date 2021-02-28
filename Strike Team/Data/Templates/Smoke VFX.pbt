@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 10463509418672317313
+        ChildIds: 6389372412564000864
         ChildIds: 5859983601872264566
         WantsNetworking: true
         Collidable_v2 {
@@ -29,76 +29,72 @@ Assets {
         }
       }
       Objects {
-        Id: 10463509418672317313
-        Name: "Smoke Volume VFX"
+        Id: 6389372412564000864
+        Name: "Smoke Bomb Injector VFX"
         Transform {
           Location {
+            Y: -1094.48438
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 4.19149065
+            Y: 4.19149065
+            Z: 1.92806911
           }
         }
         ParentId: 7361953764652290443
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Life"
-            Float: 2.8574512
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 5.89966583
-          }
-          Overrides {
             Name: "bp:Density"
-            Float: 0.984331846
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 2
+          }
+          Overrides {
+            Name: "bp:Fog Density Multiplier"
+            Float: 1
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: 2.63310909
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Camera Depth Fade Offset"
             Float: 0
           }
           Overrides {
-            Name: "bp:Camera Depth Fade Length"
-            Float: 0
+            Name: "bp:Particle Scale Multiplier"
+            Float: 4.47691727
           }
           Overrides {
-            Name: "bp:Sort Priority Adjustment"
-            Int: 0
-          }
-          Overrides {
-            Name: "bp:Volume Type"
-            Enum {
-              Value: "mc:evfxvolumetype:1"
-            }
+            Name: "bp:Life Max"
+            Float: 15
           }
           Overrides {
             Name: "bp:Color"
             Color {
-              A: 1
+              R: 2
+              G: 2
+              B: 2
+              A: 0.9
+            }
+          }
+          Overrides {
+            Name: "bp:Visible In Preview"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:3"
+            }
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+              Z: 0.1
             }
           }
         }
-        Lifespan: 7
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -107,7 +103,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 13326512016239869554
+            Id: 9704386999807793390
           }
           TeamSettings {
           }
@@ -156,12 +152,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13326512016239869554
-      Name: "Smoke Volume VFX"
+      Id: 9704386999807793390
+      Name: "Smoke Bomb Injector VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_smoke_volume_vfx"
+        AssetId: "fxbp_volumetric_smokeBomb_injector"
       }
     }
     Assets {

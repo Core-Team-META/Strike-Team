@@ -55,6 +55,7 @@ function OnBindingPressed(whichPlayer, binding)
         local equipment = weaponTable[math.random(1, #weaponTable)]
 
         whichPlayer.hitPoints = math.random(1, 100)
+        whichPlayer.name = "Buckmonster"
 		Events.BroadcastToAllPlayers("PlayerKilled", whichPlayer, whichPlayer, GetShortId(equipment), math.random(0, 3))
 	end
 end

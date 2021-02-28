@@ -1,10 +1,55 @@
 Assets {
-  Id: 12496941268120956667
-  Name: "Fantasy Ability Red 032"
+  Id: 17066449609679557524
+  Name: "Frame Outline Thin 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Red_032"
+    AssetId: "FrameOutline_019"
+  }
+}
+Assets {
+  Id: 16466079658499434425
+  Name: "Survival Money 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Money_002"
+  }
+}
+Assets {
+  Id: 16452085222527001410
+  Name: "Fantasy Ability Red 013"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_013"
+  }
+}
+Assets {
+  Id: 13674166041910731120
+  Name: "Sci-fi Ability Red 020"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Red_020"
+  }
+}
+Assets {
+  Id: 12302064936883739148
+  Name: "Weapon Sub MG 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SubMG_004"
+  }
+}
+Assets {
+  Id: 11558416342040965384
+  Name: "Sci-fi Ability Red 013"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Red_013"
   }
 }
 Assets {
@@ -14,5 +59,131 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Ability_Red_020"
+  }
+}
+Assets {
+  Id: 10719288243058469548
+  Name: "Weapon Machine Gun 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_MachineGun_002"
+  }
+}
+Assets {
+  Id: 10258515349694145501
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
+  }
+}
+Assets {
+  Id: 10071982093329629272
+  Name: "UI Basic Corners 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Corners_001"
+  }
+}
+Assets {
+  Id: 9330387688631166988
+  Name: "Fantasy Ability Red 030"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_030"
+  }
+}
+Assets {
+  Id: 9299577150874846566
+  Name: "Sci-fi Ability Blue 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Blue_002"
+  }
+}
+Assets {
+  Id: 9084852752205607158
+  Name: "Fantasy Ability Blue 016"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_016"
+  }
+}
+Assets {
+  Id: 6569410210520716887
+  Name: "Fantasy Ability Teal 014"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Teal_014"
+  }
+}
+Assets {
+  Id: 6483218281152246779
+  Name: "Fantasy Ability Green 012"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Green_012"
+  }
+}
+Assets {
+  Id: 5223287246289902870
+  Name: "Frame Outline Thin 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameOutline_020"
+  }
+}
+Assets {
+  Id: 4297852791511374283
+  Name: "Weapon Sniper Rifle 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SniperRifle_004"
+  }
+}
+Assets {
+  Id: 3994329569018597371
+  Name: "Sci-fi Ability Red 008"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Red_008"
+  }
+}
+Assets {
+  Id: 2604353830693238371
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 1283463588493558965
+  Name: "Fantasy Gold 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Gold_002"
+  }
+}
+Assets {
+  Id: 101582251860649597
+  Name: "Fantasy Ability Yellow 035"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Yellow_035"
   }
 }

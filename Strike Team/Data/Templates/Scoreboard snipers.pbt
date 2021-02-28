@@ -989,6 +989,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1106,6 +1108,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

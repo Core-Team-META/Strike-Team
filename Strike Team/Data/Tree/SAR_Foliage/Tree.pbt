@@ -75,7 +75,6 @@ Objects {
   ChildIds: 9317853765700756807
   ChildIds: 2763476460173626167
   ChildIds: 8941575632156041484
-  ChildIds: 10282695422207093719
   ChildIds: 15576113574638398403
   ChildIds: 3378752002813138298
   ChildIds: 1353693954003053859
@@ -2766,8 +2765,8 @@ Objects {
   Transform {
     Location {
       X: -3573.44385
-      Y: -6163.67529
-      Z: 306.36264
+      Y: -6220.44531
+      Z: 289.316223
     }
     Rotation {
     }
@@ -3714,71 +3713,6 @@ Objects {
   }
 }
 Objects {
-  Id: 10282695422207093719
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: -8412.86426
-      Y: 622.044434
-      Z: 507.437347
-    }
-    Rotation {
-      Yaw: -67.0121
-      Roll: -2.91976953
-    }
-    Scale {
-      X: 1.51786137
-      Y: 1.51786137
-      Z: 1.51786137
-    }
-  }
-  ParentId: 612199423538572622
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Nature_Leaves:id"
-      AssetReference {
-        Id: 14633748508747893171
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.26000002
-        G: 0.225333363
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16110182342503554212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableDistanceFieldLighting: true
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10282695422207093719
-    SubobjectId: 9817896821800238092
-    InstanceId: 18367535097247388709
-    TemplateId: 17534345071700735697
-  }
-}
-Objects {
   Id: 8941575632156041484
   Name: "Bush 02"
   Transform {
@@ -3977,7 +3911,7 @@ Objects {
       Z: 294.936554
     }
     Rotation {
-      Yaw: -110.551521
+      Yaw: -110.551514
     }
     Scale {
       X: 1.41612649
@@ -4611,7 +4545,7 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -469.739624
+      X: -380.91333
       Y: 6128.14893
       Z: 847.705322
     }
@@ -22855,9 +22789,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5429.79297
-            Y: -741.731445
-            Z: 483.563782
+            X: -5714.27051
+            Y: -978.363281
+            Z: 458.326416
           }
         }
         Overrides {

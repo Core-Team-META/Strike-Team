@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15084389731420460127
+        ParentId: 16373807130785117515
         ChildIds: 15505696672406667806
         ChildIds: 865859811353170863
         ChildIds: 12910456151584908478
@@ -52,7 +52,6 @@ Assets {
         ChildIds: 147758980339773230
         ChildIds: 4342149432561344313
         ChildIds: 2787734660038783389
-        ChildIds: 11696273566056394959
         ChildIds: 8126176804835973904
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -107,7 +106,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -119,21 +117,32 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -89.4423828
-            Y: 188.384766
-            Z: 478.473755
+            X: -70.3481445
+            Y: 181.04834
+            Z: 594.124512
           }
           Rotation {
-            Yaw: 44.9999847
-            Roll: -106.70372
+            Yaw: 45
+            Roll: -118.281708
           }
           Scale {
             X: 1
-            Y: 1.0000006
-            Z: 1.22681248
+            Y: 0.999998331
+            Z: 1.20383251
           }
         }
         ParentId: 15505696672406667806
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.805477321
+              G: 1
+              B: 0.733999968
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -149,7 +158,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -161,21 +169,32 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: -233.540039
-            Y: 44.2871094
-            Z: 478.473755
+            X: -214.445801
+            Y: 36.9506836
+            Z: 594.124512
           }
           Rotation {
-            Yaw: 44.9999847
-            Roll: -106.703568
+            Yaw: 45
+            Roll: -118.281647
           }
           Scale {
             X: 1
-            Y: 1.0000006
-            Z: 1.22681248
+            Y: 0.999998331
+            Z: 1.20383251
           }
         }
         ParentId: 15505696672406667806
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.805477321
+              G: 1
+              B: 0.733999968
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -191,7 +210,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -203,16 +221,16 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: -63.9213867
+            X: -63.9213791
             Y: 2.86376953
           }
           Rotation {
-            Yaw: -44.9999924
+            Yaw: -45
           }
           Scale {
             X: 3.5
             Y: 3.50000024
-            Z: 3.66676664
+            Z: 4.24621964
           }
         }
         ParentId: 15505696672406667806
@@ -239,7 +257,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -253,7 +270,7 @@ Assets {
           Location {
             X: -56.7094727
             Y: -4.92431641
-            Z: 364.277527
+            Z: 423.554932
           }
           Rotation {
             Yaw: 44.9999924
@@ -261,7 +278,7 @@ Assets {
           Scale {
             X: 3.50000024
             Y: 3.20000029
-            Z: 1
+            Z: 1.72955835
           }
         }
         ParentId: 15505696672406667806
@@ -292,7 +309,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -340,7 +356,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -348,49 +363,21 @@ Assets {
         }
       }
       Objects {
-        Id: 11696273566056394959
-        Name: "Group"
-        Transform {
-          Location {
-            X: -38.5488281
-            Y: -22.034668
-            Z: 410
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15505696672406667806
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
         Id: 8126176804835973904
         Name: "Wedge"
         Transform {
           Location {
-            X: -127.738281
-            Y: 66.1044922
-            Z: 407.018738
+            X: -98.3256836
+            Y: 36.6918945
+            Z: 466.296143
           }
           Rotation {
             Yaw: 44.9999924
           }
           Scale {
-            X: 3.50000095
-            Y: 1.27341056
-            Z: 1
+            X: 3.49999809
+            Y: 1.79413855
+            Z: 1.42715168
           }
         }
         ParentId: 15505696672406667806
@@ -421,7 +408,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -476,7 +462,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -531,7 +516,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }

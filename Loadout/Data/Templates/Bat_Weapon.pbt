@@ -28,7 +28,7 @@ Assets {
           Overrides {
             Name: "cs:PickupSound"
             AssetReference {
-              Id: 4020958367257585299
+              Id: 4132764797973495593
             }
           }
           Overrides {
@@ -46,6 +46,10 @@ Assets {
           Overrides {
             Name: "cs:SprintingStance"
             String: "2hand_sword_ready"
+          }
+          Overrides {
+            Name: "cs:WeaponType"
+            String: "Melee"
           }
           Overrides {
             Name: "cs:EquipmentStance:tooltip"

@@ -75,6 +75,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Grenade"
+          }
+          Overrides {
             Name: "cs:ExplosionDamageRange:tooltip"
             String: "Set the minimum to maximum damage of the explosion. X is damage far from the explosion center and Y is damage close to the explosion center."
           }
@@ -147,12 +151,13 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 3000
+            ProjectileSpeed: 3200
             ProjectileLifeSpan: 4
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12
             ProjectileBounces: 2
+            ProjectileDrag: 0.12
             DefaultAbility {
               SubObjectId: 6698035183165842641
             }
@@ -210,6 +215,7 @@ Assets {
           }
         }
         ParentId: 18045273018505054026
+        ChildIds: 17358457073453418674
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -219,6 +225,39 @@ Assets {
         }
         NetworkContext {
           Type: Server
+        }
+      }
+      Objects {
+        Id: 17358457073453418674
+        Name: "SetProjectileBouncyness"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6494871412286050326
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Bouncyness"
+            Float: 0.2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 15843591883675597448
+          }
         }
       }
       Objects {
@@ -236,6 +275,7 @@ Assets {
           }
         }
         ParentId: 18045273018505054026
+        ChildIds: 18114127324635007471
         ChildIds: 1106639104568985092
         UnregisteredParameters {
         }
@@ -247,6 +287,39 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 18114127324635007471
+        Name: "SetProjectileBouncyness"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10188877097158049067
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Bouncyness"
+            Float: 0.2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 15843591883675597448
+          }
         }
       }
       Objects {
@@ -341,7 +414,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.25
+            Duration: 0.45
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -373,7 +446,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 10
+            Duration: 30
             CanMove: true
             CanJump: true
             CanRotate: true

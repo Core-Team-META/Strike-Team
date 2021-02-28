@@ -69,20 +69,20 @@ Objects {
   ParentId: 5106255265587433013
   UnregisteredParameters {
     Overrides {
-      Name: "cs:KillValue"
-      Float: 10
+      Name: "cs:XP_LOSE"
+      Int: 0
     }
     Overrides {
-      Name: "cs:HeadshotValue"
-      Float: 50
+      Name: "cs:XP_WIN"
+      Int: 0
     }
     Overrides {
-      Name: "cs:winValue"
-      Int: 100
+      Name: "cs:CASH_WIN"
+      Float: 0
     }
     Overrides {
-      Name: "cs:LoseValue"
-      Int: 50
+      Name: "cs:CASH_LOSS"
+      Float: 0
     }
   }
   Collidable_v2 {
@@ -94,6 +94,445 @@ Objects {
   Script {
     ScriptAsset {
       Id: 3804181868104109480
+    }
+  }
+}
+Objects {
+  Id: 5167301868571935543
+  Name: "RewardDatabase"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  ChildIds: 66410351394342440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+}
+Objects {
+  Id: 66410351394342440
+  Name: "REWARDATABASE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5167301868571935543
+  ChildIds: 1583736298759259543
+  ChildIds: 896247482797355755
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:XP_MULTIPLY"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:CASH_MULTIPLY"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18175359566678586018
+    }
+  }
+}
+Objects {
+  Id: 896247482797355755
+  Name: "XP"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 66410351394342440
+  ChildIds: 15145806300056321273
+  ChildIds: 981725232103542972
+  ChildIds: 12608993722101478362
+  ChildIds: 3590238856382596942
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:WIN"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:LOSS"
+      Int: 300
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3590238856382596942
+  Name: "Assists"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 896247482797355755
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 5
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 12608993722101478362
+  Name: "Objective"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 896247482797355755
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 10000
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 981725232103542972
+  Name: "Kills"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 896247482797355755
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 15145806300056321273
+  Name: "Headshots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 896247482797355755
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 1583736298759259543
+  Name: "Cash"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 66410351394342440
+  ChildIds: 14623244994459890772
+  ChildIds: 1831952270868744551
+  ChildIds: 4406784971154654279
+  ChildIds: 4242859826993106405
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:WIN"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:LOSS"
+      Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4242859826993106405
+  Name: "Assists"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1583736298759259543
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 20
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 4406784971154654279
+  Name: "Objective"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1583736298759259543
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 10000
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 1831952270868744551
+  Name: "Kills"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1583736298759259543
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 5
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 20
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 14623244994459890772
+  Name: "Headshots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1583736298759259543
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 20
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
     }
   }
 }
@@ -600,6 +1039,58 @@ Objects {
   }
 }
 Objects {
+  Id: 9485672204595989611
+  Name: "DeltaTime"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  ChildIds: 9549753834408346146
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 9549753834408346146
+  Name: "DeltaTime"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9485672204595989611
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5499141603465949514
+    }
+  }
+}
+Objects {
   Id: 13575188109509791268
   Name: "AGBS To Global"
   Transform {
@@ -745,6 +1236,12 @@ Objects {
     }
   }
   ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -754,11 +1251,13 @@ Objects {
           String: "EquipmentHandler"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -785,27 +1284,18 @@ Objects {
   ParentId: 10671565427701169845
   UnregisteredParameters {
     Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "71e08e50f9394b8fb68ec3586912de31"
+        Key: "58875f5ce4944e78af8e3709e839eff4"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LifetimeStats"
+      NetReference {
+        Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -814,7 +1304,16 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "9c28804fd45342228835d004da0e503a"
+        Key: "bf84fda037134f048c79d75bb4159446"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

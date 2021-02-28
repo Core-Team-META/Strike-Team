@@ -50,17 +50,17 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 1162965865363671750
+            Id: 980347467960366271
           }
           AutoPlay: true
-          Volume: 1
+          Volume: 1.2
           Falloff: -1
           Radius: -1
         }
       }
     }
     Assets {
-      Id: 1162965865363671750
+      Id: 980347467960366271
       Name: "Button Hover Core 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {

@@ -108,17 +108,23 @@ function XP:GetNextLevelXP()
         return XPTable[#XPTable] 
     end
 end
-
-function XP:GetLevel()
-    self.level = self:CalculateLevel()
-    self.owner:SetResource("Level", self.level)
-    return self.level
+    
+function XP:ReturnLastXPAmount()
+    return self.lastamount
 end
 
+function XP:GetOwner()
+    return self.owner
+end
+
+function XP:ReturnGainedXP() 
+    return self:GetXP() - self:ReturnLastXPAmount()
+end
 
 function XP:CalculateLevel()
     return CalculateLevel(self.xp) 
 end
+
 
 if Environment.IsClient() then
     local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -134,9 +140,10 @@ if Environment.IsClient() then
     function XP:ReturnLastXPCurrentLevel()
         return CalculateLevel(self.lastamount)
     end
-    
-    function XP:ReturnLastXPAmount()
-        return self.lastamount
+
+    function XP:GetLevel()
+        self.level = self:CalculateLevel()
+        return self.level
     end
 
     function XP:Load()
@@ -146,7 +153,7 @@ if Environment.IsClient() then
     end
 
     function UpdateResource(_,Rname)
-        if LOCAL_PLAYER.clientUserData.XP and Rname == "XP" then
+        if LOCAL_PLAYER.clientUserData.XP and Rname == "XP" then 
             LOCAL_PLAYER.clientUserData.XP:Load()
         end
     end
@@ -158,14 +165,22 @@ end
 if Environment.IsServer() then
 
     function XP:AddXP(Value)
-        self.lastamount = self.xp
-        self.xp = self.xp + Value
+        if Value == 0 then Value = 1 end
+        self.lastamount = self:GetXP()
+        self.xp = self.xp + (Value or 0)
+        self.owner:SetResource("XP", self.xp)
         self.level = self:CalculateLevel()
         self:Save() 
     end
     
     function XP:GetXP()
-        return self.xp
+        return self.xp or 0
+    end
+
+    function XP:GetLevel()
+        self.level = self:CalculateLevel()
+        self.owner:SetResource("Level", self.level)
+        return self.level
     end
 
     function XP:Save()
@@ -179,15 +194,24 @@ if Environment.IsServer() then
     function XP:Load()
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
-        self.xp = 1000000 --data["XP"] or 0
+        self.xp = data["XP"] or 0
         self.level = self:CalculateLevel()
-        self.owner:SetResource("XP", self.xp)
-        self.owner:SetResource("Level", self.level)
+        Task.Spawn(function( )
+            self.owner:SetResource("XP", self.xp)
+            self.owner:SetResource("Level", self.level)
+        end,2)
     end
 
     function Playerjoined(player)
         player.serverUserData.XP = XP.New(player)
     end
+
+    function PlayerLeft(player)
+        player.serverUserData.XP:Save()
+    end
+
+    Game.playerLeftEvent:Connect(PlayerLeft)
 end
+
 
 Game.playerJoinedEvent:Connect(Playerjoined)

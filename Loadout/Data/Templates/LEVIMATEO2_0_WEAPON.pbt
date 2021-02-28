@@ -106,6 +106,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "LMG"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -254,7 +258,7 @@ Assets {
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
+            Duration: 0.55
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -342,7 +346,7 @@ Assets {
           }
         }
         ParentId: 16671993031585528870
-        ChildIds: 11276929558069602701
+        ChildIds: 3817199032108324209
         ChildIds: 8723040617309084336
         UnregisteredParameters {
         }
@@ -358,28 +362,44 @@ Assets {
         }
       }
       Objects {
-        Id: 11276929558069602701
-        Name: "WeaponDamageShootServer"
+        Id: 3817199032108324209
+        Name: "WeaponDamageShootServerWithFallof"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
+            X: 0.99999994
+            Y: 0.99999994
             Z: 1
           }
         }
         ParentId: 14463978057497345265
         UnregisteredParameters {
           Overrides {
-            Name: "cs:BaseDamage"
-            Float: 35
+            Name: "cs:Range"
+            Float: 2000
+          }
+          Overrides {
+            Name: "cs:RangeDamage"
+            Float: 22
+          }
+          Overrides {
+            Name: "cs:RangeDamageHeadshot"
+            Float: 22
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 55
+            Float: 38
+          }
+          Overrides {
+            Name: "cs:BlendAmount"
+            Float: 0.3
+          }
+          Overrides {
+            Name: "cs:BaseDamage"
+            Float: 38
           }
         }
         Collidable_v2 {
@@ -390,7 +410,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 12210489528647249200
+            Id: 14295137872852766081
           }
         }
       }

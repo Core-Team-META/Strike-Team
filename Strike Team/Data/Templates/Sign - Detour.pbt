@@ -241,6 +241,8 @@ Assets {
         }
         Text {
           Text: "DETOUR"
+          FontAsset {
+          }
           Color {
             R: 0.0100000007
             G: 0.0088500008

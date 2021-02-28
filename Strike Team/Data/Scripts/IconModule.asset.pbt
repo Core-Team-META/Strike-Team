@@ -1,13 +1,9 @@
 Assets {
-  Id: 9925429280593477268
+  Id: 18143543578217522570
   Name: "IconModule"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
-      Overrides {
-        Name: "cs:UseTemplate"
-        Bool: false
-      }
       Overrides {
         Name: "cs:Name"
         String: "Default"
@@ -18,13 +14,67 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:Icon"
+        Name: "cs:Layer_01"
         AssetReference {
-          Id: 15918351247767818628
+          Id: 841534158063459245
         }
       }
       Overrides {
-        Name: "cs:Color"
+        Name: "cs:Layer_01_Color"
+        Color {
+          R: 0.9
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_01_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_01_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_01_Rotate"
+        Float: 0
+      }
+      Overrides {
+        Name: "cs:Layer_02"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_02_Color"
+        Color {
+          R: 0.169999957
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_02_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_02_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_02_Rotate"
+        Float: 0
+      }
+      Overrides {
+        Name: "cs:Layer_03"
+        AssetReference {
+          Id: 7947004984164017508
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_03_Color"
         Color {
           R: 1
           G: 1
@@ -33,8 +83,102 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:UseTemplate:tooltip"
-        String: "Will ignore name and use EquipmentTemplate instead"
+        Name: "cs:Layer_03_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_03_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_03_Rotate"
+        Float: 0
+      }
+      Overrides {
+        Name: "cs:Layer_04"
+        AssetReference {
+          Id: 7947004984164017508
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_Color"
+        Color {
+          R: 0.0625
+          G: 0.0625
+          B: 0.0625
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_04_Rotate"
+        Float: 0
+      }
+      Overrides {
+        Name: "cs:Layer_05"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05_Color"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_05_Rotate"
+        Float: 0
+      }
+      Overrides {
+        Name: "cs:Layer_06"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_06_Color"
+        Color {
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_06_Offset"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_06_WidthHeight"
+        Vector2 {
+        }
+      }
+      Overrides {
+        Name: "cs:Layer_06_Rotate"
+        Float: 0
       }
       Overrides {
         Name: "cs:Name:tooltip"
@@ -42,12 +186,12 @@ Assets {
       }
     }
     Assets {
-      Id: 15918351247767818628
-      Name: "Icon Skull"
+      Id: 7947004984164017508
+      Name: "Icon Luck"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Skull"
+        AssetId: "Icon_Luck"
       }
     }
   }

@@ -18,9 +18,12 @@ local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL
 ------------------------------------------------------------------------------------------------------------------------
-while not tonumber(ROOT.name) do Task.Wait() end
+while not tonumber(ROOT.name) do
+    Task.Wait()
+end
 local ID = tonumber(ROOT.name)
 local isActive = false
+local isEnabled = false
 local currentTeam
 local lastTeam
 local playersOnHill = {}
@@ -31,6 +34,7 @@ local MAX_RESOURCE = 1 -- old value 100
 local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
+local GracePeriod = ROOT:GetCustomProperty("GracePeriod") or 20
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -86,41 +90,43 @@ function CheckPlayersOnHill()
     isActive = shouldActivate
 end
 
-function OnBeginOverlap(Trigger, Object)
-    if Trigger == TRIGGER and Object:IsA("Player") then
-        playersOnHill[Object] = Object.team
+function OnBeginOverlap(trigger, object)
+    if trigger == TRIGGER and object:IsA("Player") and not object.isDead then
+        playersOnHill[object] = object.team
         CheckPlayersOnHill()
     end
 end
 
-function OnEndOverlap(Trigger, Object)
+function OnEndOverlap(trigger, object)
     local data = GetData()
     local progress = tonumber(data[PROGRESS])
-    if Trigger == TRIGGER and Object:IsA("Player") and playersOnHill[Object] and progress < 100 then
-        playersOnHill[Object] = nil
+    if trigger == TRIGGER and object:IsA("Player") and playersOnHill[object] and progress < 100 then
+        playersOnHill[object] = nil
         CheckPlayersOnHill()
     end
 end
 
 function Tick()
-    local data = GetData()
-    local progress = tonumber(data[PROGRESS])
-    if isActive or progress == MAX_PROGRESS then
-        local team = tonumber(data[TEAM])
-        local resource = tonumber(data[RESOURCE])
-        if team == currentTeam and progress < MAX_PROGRESS then
-            SetCurrentProgress(progress + PROGRESS_PER_TICK)
-            Task.Wait(TIME_PER_TICK)
-        elseif progress > 0 and team ~= currentTeam then
-            SetCurrentProgress(progress - PROGRESS_PER_TICK)
-            Task.Wait(TIME_PER_TICK)
-        elseif progress == 0 and currentTeam ~= team then
-            SetCurrentTeam(currentTeam)
-            GT_API.BroadcastTeamCapture(currentTeam)
-        elseif currentTeam == team and progress == MAX_PROGRESS then
-            SetCurrentResource(resource - 1)
-            Game.IncreaseTeamScore(team, 1)
-            Task.Wait(TIME_PER_TICK)
+    if isEnabled then
+        local data = GetData()
+        local progress = tonumber(data[PROGRESS])
+        if isActive or progress == MAX_PROGRESS then
+            local team = tonumber(data[TEAM])
+            local resource = tonumber(data[RESOURCE])
+            if team == currentTeam and progress < MAX_PROGRESS then
+                SetCurrentProgress(progress + PROGRESS_PER_TICK)
+                Task.Wait(TIME_PER_TICK)
+            elseif progress > 0 and team ~= currentTeam then
+                SetCurrentProgress(progress - PROGRESS_PER_TICK)
+                Task.Wait(TIME_PER_TICK)
+            elseif progress == 0 and currentTeam ~= team then
+                SetCurrentTeam(currentTeam)
+                GT_API.BroadcastTeamCapture(currentTeam)
+            elseif currentTeam == team and progress == MAX_PROGRESS then
+                SetCurrentResource(resource - 1)
+                Game.IncreaseTeamScore(team, 1)
+                Task.Wait(TIME_PER_TICK)
+            end
         end
     end
 end
@@ -139,7 +145,8 @@ function OnDestroyed(object)
     for player, team in pairs(playersOnHill) do
         if currentTeam == team then
             lastTeam = team
-            player:AddResource("Objective", 1)
+            player:AddResource("Objective", 5)
+            player:AddResource("Score", 50)
         end
     end
 end
@@ -147,4 +154,6 @@ end
 ROOT.destroyEvent:Connect(OnDestroyed)
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
-SetData({0, 0, MAX_RESOURCE})
+SetData({0, 0, MAX_RESOURCE, time() + GracePeriod})
+Task.Wait(GracePeriod)
+isEnabled = true

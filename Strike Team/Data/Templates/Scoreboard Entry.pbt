@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7949726774975659069
+        ParentId: 10705308302646760788
         ChildIds: 13566595807761741455
         ChildIds: 9713772700323341360
         UnregisteredParameters {
@@ -53,6 +53,18 @@ Assets {
             Name: "cs:Information"
             ObjectReference {
               SubObjectId: 13566595807761741455
+            }
+          }
+          Overrides {
+            Name: "cs:PlayerRank"
+            ObjectReference {
+              SubObjectId: 14817687730604450945
+            }
+          }
+          Overrides {
+            Name: "cs:RankIcon"
+            ObjectReference {
+              SubObjectId: 13429946512596828009
             }
           }
         }
@@ -101,6 +113,8 @@ Assets {
         ChildIds: 10800055924835241831
         ChildIds: 18089057293181856334
         ChildIds: 13748460554164637697
+        ChildIds: 14817687730604450945
+        ChildIds: 13429946512596828009
         UnregisteredParameters {
           Overrides {
             Name: "cs:TeamColor"
@@ -245,7 +259,7 @@ Assets {
         }
         Control {
           Width: 32
-          UIX: 4
+          UIX: 75
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -303,7 +317,7 @@ Assets {
         Control {
           Width: 20
           Height: 20
-          UIX: 52
+          UIX: 75
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -358,7 +372,7 @@ Assets {
         }
         Control {
           Width: -48
-          UIX: 42
+          UIX: 115
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -368,6 +382,7 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
+            Label: "Morticai"
             Color {
               R: 1
               G: 1
@@ -379,11 +394,132 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
                 Value: "mc:euianchor:middleleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14817687730604450945
+        Name: "PlayerRank"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13566595807761741455
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -48
+          UIX: 10
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Label: "10"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            ClipTextToSize: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13429946512596828009
+        Name: "RankIcon"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13566595807761741455
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 20
+          Height: 20
+          UIX: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 11142210224783054821
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
@@ -439,6 +575,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 11142210224783054821
+      Name: "Center Arrow 008 Wedge"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "CenterArrow_008Wedge"
       }
     }
     PrimaryAssetId {

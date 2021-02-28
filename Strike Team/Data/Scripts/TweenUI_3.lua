@@ -18,16 +18,19 @@ local propOrchestralVictoryAchievementMusicStinger = script:GetCustomProperty("O
 local propMilitaryRadioVocalCallShort02SFX = script:GetCustomProperty("MilitaryRadioVocalCallShort02SFX"):WaitForObject()
 local propMilitaryRadioVocalCallShort01SFX = script:GetCustomProperty("MilitaryRadioVocalCallShort01SFX"):WaitForObject()
 local propBackgroundTexture_1 = script:GetCustomProperty("BackgroundTexture_1"):WaitForObject()
-
+local propBackgroundTextureSideLeft = script:GetCustomProperty("BackgroundTextureSideLeft"):WaitForObject()
+local propBackgroundTextureSideRight = script:GetCustomProperty("BackgroundTextureSideRight"):WaitForObject()
 
 --EaseUI.EaseY(propUIPanel, -350, .25, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 --Task.Wait(.25)
+--Task.Wait(2)
+
 propHeavyStingerActionCombatStingers01:Play()
 propOrchestralVictoryAchievementMusicStinger:Play()
 propBrassHitHighMusicStinger01:Play()
 
-EaseUI.EaseY(propTextMessage, -3.4, .15, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
-EaseUI.EaseY(propTextMessageShadow, -1.4, .15, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+EaseUI.EaseY(propTextMessage, 7, .15, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+EaseUI.EaseY(propTextMessageShadow, 5, .15, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
 
 
 propMilitaryRadioVocalCallShort01SFX:Play()
@@ -39,15 +42,17 @@ propMilitaryRadioVocalCallShort02SFX:Play()
 EaseUI.EaseWidth(propBackgroundTexture_1, 225, .22, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 EaseUI.EaseWidth(propBackgroundBlue, 2500, .42, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 EaseUI.EaseWidth(propBackgroundPurpleLight, 2500, .52, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
-EaseUI.EaseWidth(propBackgroundTexture, 2500, .35, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseWidth(propBackgroundTexture, 2500, .55, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseWidth(propBackgroundTextureSideLeft, 225, .55, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseWidth(propBackgroundTextureSideRight, 225, .55, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 
-EaseUI.EaseX(propSliverLeftBottom, -193.9, .40, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
-EaseUI.EaseX(propSliverLeftMiddle, -179.4, .44, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
-EaseUI.EaseX(propSliverLeftTop, -186.7, .48, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseX(propSliverLeftBottom, -200, .40, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseX(propSliverLeftMiddle, -190, .46, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseX(propSliverLeftTop, -195, .52, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 
-EaseUI.EaseX(propSliverRightBottom, 158.6, .40, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
-EaseUI.EaseX(propSliverRightMiddle, 155, .44, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
-EaseUI.EaseX(propSliverRightTop, 150.1, .48, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseX(propSliverRightBottom, 200, .40, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseX(propSliverRightMiddle, 195, .46, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+EaseUI.EaseX(propSliverRightTop, 190, .52, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 
 Task.Wait(2.4)
 EaseUI.EaseY(propUIPanel, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)

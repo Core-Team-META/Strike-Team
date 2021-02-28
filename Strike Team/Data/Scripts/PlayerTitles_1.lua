@@ -154,40 +154,82 @@ Module.titles = {
 		playerMUIDs = {
 			"be501d1b587e4e6a81f301c72c8364a7", -- aBomb
 			"aabd84ef7a6448a69c331121b5909cff", -- Anna
+			"e61732710715477db69aacaff214104f", -- apaiva
 			"c14f61b74826471f974f06ff7e42d97b", -- Basilisk
+			"63036b51a02c4b5b88e4b75f55b12864", -- Bae
 			"400d8e7acb154e5bb64368411824b61d", -- Bigglebuns
+			"6d62c19885084f168ec78ce5f6111ac5", -- Blackdheart
+			"715fd60981e84a479d5828ae8b05672b", -- Breadman
 			"901b7628983c4c8db4282f24afeda57a", -- Buckmonster
 			"c643c92a06e943c4aef66a283f5dc1e0", -- Bumblebear
-			"fb91e175e1624888805a03ebb32c50a0", -- BlueClaire
+			"9e16f55a3e0743c2a4c763877e70222e", -- Bunnychen
+			"91f0b0c8756d41e9a30834cb4975599f", -- Buffry
+			"5b6709c49ce14d72b17b3f0ea19dfa11", -- Carbide
+			"c5f3fd7f4e0842e8be8235ac44e2b9b9", -- Chocopi
+			"544993af11d94ac09b540a65baff4bbc", -- Chroko
 			"d97586e1f850481da13ee26d5cbddc02", -- Chris
+			"5d708a5162584aa2874f913b4a02652f", -- codeHeavy
 			"3819113b7af34fb786a56960fc08136a", -- coreslinkous
+			"22fd2579b76d4768b875c84510d0d95e", -- Danny
+			"7b357170119a4745929228fd5cde1e04", -- DesTroyer
+			"a7d7ce30daf349d0867192c436615a0c", -- DeviledCrab
+			"461d4bec6f184f529f0484bb2a6a435b", -- Dev0
+			"483613eb76d9419fb34c3f3b76665706", -- dilettante
 			"65f3dec3b6dd45c2845a55a7af240adc", -- deadlyfishesMC
 			"2d38316ed3204388acbe3c225b0c0114", -- Depp
+			"a4f447ded6134188aee2798ec718bdf0", -- DoubleHelix
 			"8aa6e0c558be4a1c98e80229b73ffeb9", -- Dracowolfie
 			"31f09de9539843a996ba240763f76641", -- featurecreeper
+			"ae06e23c1b3143129e2751454a6b51c0", -- Fezzinate
 			"cb055adaf34a4b72b7bd02c8ae5f3ec8", -- Gabunir
 			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin
+			"967fb2d379954fb688dd5fca37d25a12", -- Getch
+			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin
 			"f207385c066b429581e6fe11ac8795bf", -- Holy
+			"db65673b8fe94bf599ad07853953dc75", -- Hex/Steve
 			"8a40a1c2c94f4fb0bd1430f4e37b121f", -- JayDee
+			"558c8cf1651d48ffb4d3cf15ed1630f9", -- JonNibbles
+			"82d56bae752f40e99bb3e546c7b1d61f", -- KidneyThief
 			"d6c5b10f5bba4458acd46970eb25b227", -- kytsu
+			"e18334192b9a4e90b68be2de70aeeb69", -- Kowkow
 			"c1754d0e214741a9b15e2446ee730e68", -- lodle
 			"978d4261ff404208ba49de799ce5362c", -- lokii
 			"21db3c6e27af40e2aa8d78a67d0c6a32", -- max
+			"3777a53de7fb49b9a5cda768d67dc265", -- Mcamp
+			"ffeca4a526934a118054565411b5e72c", -- MadGrin
 			"43522f2d40f5480e881ec7b89567007e", -- Mehaji
+			"f634b21c833b4fa79c2ee36db7938908", -- Memori
 			"4d64fe2c095a45ab905923395d72f51e", -- mrbigfists
+			"ba1d6454535b4bdc86ff97a7e99247ae", -- Nate362
+			"61a98dea64ab464dbc863af9a779bed1", -- nalzayer
+			"a86dc0e9d9c04df7b3ed1db615040a20", -- Neurosin
+			"7eb555c760bf46749259bce008ddb8cd", -- Nezberet
+			"597116a231124b10a02ffb32b5eba6c9", -- pbmaynard
+			"93f2a0b4af184fdda935311f463ff421", -- plasmabacon
+			"ba70f301ec0d4d8f9fb19b5ba8612751", -- priyanka
 			"5a7a3a3d8ccb4dc5837880f2df3002fc", -- pchiu
 			"dabe472c0b2e4d5a9f4edcec4a63ad8a", -- Poippels
 			"83ef77fc3dc1409992d549a68dd616dd", -- qualispec
 			"20dba0f31f1b4f889b6bd70cdaaab192", -- Robotron
 			"b06d130e5afd418d8ecfce2150450c69", -- rbrown
+			"6f6cd3bb2fd243ba80c0dac577699478", -- Riffraff
+			"54419f3e9852437b9f23d426bfd65885", -- RebherCore
+			"5a7c111a5d7a4866892497528c02e186", -- RyanZ
 			"c078c42a742146bd99404099e4781e88", -- Scav
+			"c6701fa2d791470bb0d4fde602a6b007", -- Sasha
+			"667ddca103824fb7bb834667b9c02a4a", -- Seanzawi
 			"9b1e28cbd1d74f5fb4c2ddea6d81fd39", -- Sobchak
+			"ddbb067e186742eeb3e787a980571f92", -- Squirtle
+			"1670ca1dee674b79b7d24296f89053df", -- Sumoflab
 			"b4c6e32137e54571814b5e8f27aa2fcd", -- standardcombo
 			"9bb9612e564644c58b2286a6853fb91e", -- Stanzilla
 			"1c73b87d2d374264ab0eb4d89edc4b72", -- Stephano
 			"54d6c37e71a546f7bfd480d8e654f45e", -- Tobs
+			"6a76449f4341427c832789c6c0fac68d", -- Twixler
 			"aea40b9e2fae46908e37b42d44f3b004", -- Turbo
 			"581ff579fd864966aec56450754db1fb", -- Waffle
+			"093c6d09ca2245af850d22bc3ea2cc1b", -- Vcareil
+			"4572e450dd044619891fd1fb51bc1193", -- Vitriol
 			"fc93f85ad76f49f6984403e2f5162bce", -- zurishmi
 		},
 	},
@@ -205,14 +247,15 @@ Module.titles = {
 
 			"d6d9d578840a44c79a3f05c15de23bf8", -- Aggripina
 			"a136c0d1d9454d539c9932354198fc29", -- Ooccoo
-			"fdae8d1d32b040d792dc589edda59ced", -- Shhteve
-
+			"0b63f4ffba9c4518b50e4f815a9ec51a", -- Datonare
 			"eea739085f20445392c0ab999ab87bb6", -- Aj
+			"0ea6612ceab7456a8a3a963a94808295", -- Blaking
 			"557d4f1ae17646579646dfd20dcb7b66", -- AwkwardGameDev
 			"d5daea732ee3422fbe85aecb900e73ec", -- Coderz
 			"1f0588bf88d14c258d7384902f71f132", -- Daddio
 			"1f3edd620c904e30a4e0223dd64bcc2a", -- Keppu
-			"5c3b7b02607c4e368fc063c410123697", -- Knar
+			"1f67a03d5a8f478b993aad1c79b45640", -- Rolok
+			"385b45d7abdb499f8664c6cb01df521b", -- estlogic
 			"9cc8d222e6d14da68dc2ba0a9a4f0439", -- Melamoryxq
 			"d1073dbcc404405cbef8ce728e53d380", -- Morticai
 			"94d3fd50c4824f019421895ec8dbf099", -- Mucusinator
@@ -220,6 +263,10 @@ Module.titles = {
 			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman
 			"581ff579fd864966aec56450754db1fb", -- Waffle
 			"e730c40ae54d4c588658667927acc6d8", -- WitcherSilver
+
+			-- "fdae8d1d32b040d792dc589edda59ced", -- Shhteve
+			-- "5c3b7b02607c4e368fc063c410123697", -- Knar
+
 		},
 	},
 
@@ -231,6 +278,7 @@ Module.titles = {
 		iconColor = Module.Color.TAN,
 		isModerator = false,
 		playerMUIDs = {
+			--[[
 			"a7fa1014cab64595bee90b0049070c8e", -- Aphrim (https://www.youtube.com/channel/UCqKcZtFh25bg2JyjoKkf4mg)
 			"1f0588bf88d14c258d7384902f71f132", -- Daddio (https://www.twitch.tv/daddio66)
 			"fdb45035857a4e87b17344cd891c48c5", -- KonzZwodrei (https://www.twitch.tv/konz23)
@@ -249,6 +297,7 @@ Module.titles = {
 			"58523f4c55d04b96977c1fe5018e1b62", -- Phenns (https://www.twitch.tv/phenns)
 			"9b74b9b6e1b44f2cb9d0e32542f45dd0", -- TheBronzeSword (https://www.twitch.tv/thebronzesword)
 			"f261f4bb05b44bb2bf465b8a8346491f", -- WaveParadigm (https://www.twitch.tv/waveparadigm)
+			]]
 		},
 	},
 }

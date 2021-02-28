@@ -60,14 +60,6 @@ Objects {
   ChildIds: 10186418806797083670
   ChildIds: 16061056740269447360
   ChildIds: 3751455598119414182
-  ChildIds: 2399815575286120449
-  ChildIds: 770203695942129029
-  ChildIds: 15643519131488444942
-  ChildIds: 2865691598604528369
-  ChildIds: 1582534178280203947
-  ChildIds: 14341031661119248906
-  ChildIds: 8248611817029388387
-  ChildIds: 9014887345724831767
   ChildIds: 13740585590886773217
   ChildIds: 7549378933466104478
   Collidable_v2 {
@@ -112,7 +104,7 @@ Objects {
     AutoPlay: true
     Repeat: true
     Pitch: 1
-    Volume: 4
+    Volume: 3
     Falloff: 6000
     Radius: 2000
     EnableOcclusion: true
@@ -148,307 +140,9 @@ Objects {
       Id: 11179827780822674035
     }
     AutoPlay: true
-    Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 9014887345724831767
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: -6110.53955
-      Y: 6087.26807
-      Z: 1811.75049
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 8248611817029388387
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: -3879.44702
-      Y: 9524.67578
-      Z: 1811.75049
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 14341031661119248906
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: -914.445068
-      Y: 9524.67578
-      Z: 1811.75049
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 1582534178280203947
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: 3003.19214
-      Y: 9524.67578
-      Z: 1811.75049
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 2865691598604528369
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: 3003.19214
-      Y: 4590.0083
-      Z: 1811.75049
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 15643519131488444942
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: 1920.54443
-      Y: 576.353088
-      Z: 431.626129
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 0.385127813
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 770203695942129029
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: 3787.48438
-      Y: 3914.18
-      Z: 431.626129
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 0.385127813
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-}
-Objects {
-  Id: 2399815575286120449
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  Transform {
-    Location {
-      X: -503.439575
-      Y: 10343.4814
-      Z: 431.626129
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6554089544094711560
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11179827780822674035
-    }
-    AutoPlay: true
-    Volume: 0.385127813
-    Falloff: 2000
-    Radius: 500
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
+    Volume: 0.3
+    Falloff: 500
+    Radius: 2000
   }
 }
 Objects {
@@ -483,11 +177,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -524,11 +217,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -565,11 +257,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -606,11 +297,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -647,11 +337,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -688,11 +377,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -729,11 +417,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -770,11 +457,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -811,11 +497,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -852,11 +537,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -893,11 +577,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -934,11 +617,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 200
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -975,11 +657,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -989,9 +670,9 @@ Objects {
   Name: "Ambience Nature Wind and Trees Set 01 SFX"
   Transform {
     Location {
-      X: 7419.63184
-      Y: 2198.01782
-      Z: 573.631897
+      X: 8256.88477
+      Y: 2059.67383
+      Z: 858.004211
     }
     Rotation {
     }
@@ -1016,11 +697,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 900
+      Radius: 1500
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1031,7 +711,7 @@ Objects {
   Transform {
     Location {
       X: 7640.86768
-      Y: 4527.91748
+      Y: 4941.82617
       Z: 573.631897
     }
     Rotation {
@@ -1057,11 +737,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1098,11 +777,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1139,11 +817,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1180,11 +857,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1221,11 +897,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
-      Falloff: 1000
-      Radius: 200
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1262,11 +937,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1344,9 +1018,9 @@ Objects {
     AutoPlay: true
     Repeat: true
     Pitch: 1
-    Volume: 1
-    Falloff: 4500
-    Radius: 2000
+    Volume: 0.763024092
+    Falloff: 1800
+    Radius: 3000
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
@@ -1424,11 +1098,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.2
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1465,11 +1138,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.33271566
+      Volume: 0.2
       Falloff: 2000
       Radius: 400
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1506,11 +1178,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.2
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1547,11 +1218,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.2
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1588,11 +1258,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.2
       Falloff: 1000
       Radius: 200
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1629,11 +1298,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1670,11 +1338,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1711,11 +1378,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1752,11 +1418,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1793,11 +1458,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1834,11 +1498,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1988,7 +1651,7 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
@@ -2103,7 +1766,6 @@ Objects {
     Falloff: 10000
     Radius: 5000
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }
@@ -2140,7 +1802,7 @@ Objects {
     AutoPlay: true
     Repeat: true
     Pitch: 1
-    Volume: 4
+    Volume: 3
     Falloff: 6000
     Radius: 2000
     EnableOcclusion: true
@@ -2179,11 +1841,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
+      Volume: 0.498978913
       Falloff: 3600
       Radius: 400
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -2220,9 +1881,9 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.8
+      Falloff: 600
+      Radius: 400
       EnableOcclusion: true
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
@@ -2261,9 +1922,9 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.8
+      Falloff: 600
+      Radius: 400
       EnableOcclusion: true
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true

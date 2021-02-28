@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Mode Voting Client
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/30
--- Version 0.1.0
+-- Date: 2021/2/12
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ end
 
 local function SpamPrevent()
     local timeNow = time()
-    if spamPrevent ~= nil and (timeNow - spamPrevent) < 0.3 then
+    if spamPrevent ~= nil and (timeNow - spamPrevent) < 0.5 then
         return false
     end
     spamPrevent = timeNow
@@ -89,7 +89,7 @@ local function SpamPrevent()
 end
 
 local function OnVoteButtonPress(button)
-    if IsVoteingState() and SpamPrevent() then
+    if SpamPrevent() and IsVoteingState() then
         ClearPanels()
         GT_API.OnPlayerVote(button.clientUserData.id)
         button.clientUserData.border.visibility = Visibility.FORCE_ON

@@ -330,6 +330,8 @@ Assets {
             }
             AutoWrapText: true
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

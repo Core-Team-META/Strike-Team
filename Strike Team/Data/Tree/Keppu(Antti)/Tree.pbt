@@ -235,7 +235,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -297,7 +297,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -358,7 +358,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -436,7 +436,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -515,7 +515,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -593,7 +593,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -659,7 +659,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -737,7 +737,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -816,7 +816,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -878,7 +878,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -940,7 +940,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1001,7 +1001,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1062,7 +1062,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1140,7 +1140,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1218,7 +1218,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1280,7 +1280,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1341,7 +1341,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1402,7 +1402,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1449,7 +1449,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density Multiplier"
-      Float: 0.0791468471
+      Float: 0.079
     }
     Overrides {
       Name: "bp:Life Max"
@@ -1480,7 +1480,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1593,7 +1593,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1706,7 +1706,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1716,14 +1716,14 @@ Objects {
   Name: "Flare Ray VFX"
   Transform {
     Location {
-      X: -2355
-      Y: 1830
-      Z: 775
+      X: -2370
+      Y: 1770
+      Z: 790
     }
     Rotation {
-      Pitch: -19.2224674
-      Yaw: -19.7657108
-      Roll: -45.4521713
+      Pitch: -19.2224731
+      Yaw: -19.7657166
+      Roll: -45.452179
     }
     Scale {
       X: 5.75000143
@@ -1819,7 +1819,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -1932,7 +1932,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2045,7 +2045,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2158,7 +2158,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2206,7 +2206,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2251,7 +2251,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2295,7 +2295,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2343,7 +2343,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2391,7 +2391,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2439,7 +2439,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2487,7 +2487,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2535,7 +2535,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2583,7 +2583,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2631,7 +2631,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2679,7 +2679,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2727,7 +2727,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2775,7 +2775,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2823,7 +2823,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2871,7 +2871,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2915,7 +2915,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }
@@ -2975,7 +2975,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:critical"
+        Value: "mc:evfxrelevance:medium"
       }
     }
   }

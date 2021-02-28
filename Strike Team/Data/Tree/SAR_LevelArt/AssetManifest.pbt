@@ -269,6 +269,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16017302004248798226
+  Name: "Donut"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_001"
+  }
+}
+Assets {
   Id: 15897705887741699672
   Name: "Urban Pipe Straight"
   PlatformAssetType: 1
@@ -674,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12548297003412668183
+  Name: "Cylinder - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_003"
+  }
+}
+Assets {
   Id: 12531473813183755053
   Name: "Text 02: G"
   PlatformAssetType: 1
@@ -770,6 +788,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_wall_flat_001"
+  }
+}
+Assets {
+  Id: 11519736006564138369
+  Name: "Metal Iron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_001"
   }
 }
 Assets {
@@ -971,15 +998,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9643743770374877205
-  Name: "Military Tank Historic Container 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_container_001_ref"
-  }
-}
-Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -1007,21 +1025,21 @@ Assets {
   }
 }
 Assets {
+  Id: 9372939288148738240
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
   Id: 8617818292148704575
   Name: "Craftsman Stairs 01 Pillar"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
-  }
-}
-Assets {
-  Id: 8606699818147202890
-  Name: "Tire Worn - Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_tire_worn_large_01_ref"
   }
 }
 Assets {
@@ -1340,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5351428073291024820
+  Name: "Emissive Glow Opaque"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
+  }
+}
+Assets {
   Id: 5154493427538871909
   Name: "Corrugated Sheet Medium"
   PlatformAssetType: 1
@@ -1382,6 +1409,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_003_uv"
+  }
+}
+Assets {
+  Id: 4535818839126406977
+  Name: "Cabinet Door"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_door_001"
   }
 }
 Assets {
@@ -1547,6 +1583,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2727467945905195560
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
+  }
+}
+Assets {
   Id: 2723232960546970913
   Name: "Wood Floor Dark"
   PlatformAssetType: 2
@@ -1592,21 +1637,21 @@ Assets {
   }
 }
 Assets {
-  Id: 2347011262942164268
-  Name: "Shipping Pallet - Square"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_002"
-  }
-}
-Assets {
   Id: 1739996898153061063
   Name: "Small Open Crate"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_narrow_open_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
   }
 }
 Assets {
@@ -1643,6 +1688,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_002"
+  }
+}
+Assets {
+  Id: 746242229766735565
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 630716509692050905
+  Name: "Cabinet Door - Upper Full"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_door_full_001"
   }
 }
 Assets {

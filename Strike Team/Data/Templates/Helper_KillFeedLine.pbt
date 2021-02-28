@@ -44,6 +44,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:right"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

@@ -1,10 +1,10 @@
 Assets {
-  Id: 18111171577567917195
-  Name: "Stats"
+  Id: 18126937745925881014
+  Name: "kbStatKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "9c28804fd45342228835d004da0e503a"
+      Key: "d001f4cd01b84fb1bcd1b3a01572d039"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -153,19 +153,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_4m_ref"
-  }
-}
-Assets {
-  Id: 14516834689522538125
-  Name: "Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "71e08e50f9394b8fb68ec3586912de31"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -322,12 +309,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11032414137524227467
-  Name: "Loadout"
+  Id: 11049934745649502710
+  Name: "kbLoadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
+      Key: "a7512c1e650a43faa1490acf56ecc1e1"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -542,6 +529,19 @@ Assets {
   }
 }
 Assets {
+  Id: 5762538399264325765
+  Name: "kbLifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "61926a2ce4fb417dbe0d0e114e437380"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 5722845298204989079
   Name: "Sci-fi Chair Leg 01"
   PlatformAssetType: 1
@@ -695,12 +695,12 @@ Assets {
   }
 }
 Assets {
-  Id: 978488432057909494
-  Name: "LifeTime"
+  Id: 1076831212604095774
+  Name: "kbStorage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+      Key: "fb5a6479f93640f0b8a2f7b579ca5a9f"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

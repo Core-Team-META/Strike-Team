@@ -162,11 +162,12 @@ Assets {
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
+            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 12
+            BurstDuration: 11
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 25000
@@ -378,11 +379,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 24
+            Float: 30
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 48
+            Float: 60
           }
         }
         Collidable_v2 {
@@ -680,7 +681,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 20
+            Float: 35
           }
           Overrides {
             Name: "cs:RecoilYMin"
@@ -688,15 +689,23 @@ Assets {
           }
           Overrides {
             Name: "cs:RecoilXMin"
-            Float: -1
+            Float: -5
           }
           Overrides {
             Name: "cs:RecoilXMax"
-            Float: 1
+            Float: 15
           }
           Overrides {
             Name: "cs:EnableRecovery"
             Bool: false
+          }
+          Overrides {
+            Name: "cs:AimYReduction"
+            Float: 0.5
+          }
+          Overrides {
+            Name: "cs:AimXReduction"
+            Float: 0.25
           }
         }
         Collidable_v2 {
