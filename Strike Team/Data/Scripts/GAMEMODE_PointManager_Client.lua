@@ -203,8 +203,12 @@ function Tick()
     pcall(
         function()
             for point, interest in pairs(points) do
-                if Object.IsValid(point) and Object.IsValid(interest) then
+                if Object.IsValid(point) and Object.IsValid(interest) and not LOCAL_PLAYER.clientUserData.isScoping then
                     UpdatePoint(point, interest)
+                    CONTAINER.visibility = Visibility.FORCE_ON
+                else
+                    -- Needs a update check
+                    CONTAINER.visibility = Visibility.FORCE_OFF
                 end
             end
         end
