@@ -4971,6 +4971,7 @@ Objects {
   ChildIds: 467985160972496034
   ChildIds: 8435709519745017833
   ChildIds: 25629215192034217
+  ChildIds: 7114796170670177174
   ChildIds: 4244053606119436861
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5060,7 +5061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 25629215192034217
+  Id: 7114796170670177174
   Name: "SocialPrefix"
   Transform {
     Location {
@@ -5084,6 +5085,75 @@ Objects {
     Width: -420
     Height: 28
     UIX: 10
+    UIY: -4
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "RANK"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      ClipTextToSize: true
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 25629215192034217
+    SubobjectId: 13503503623897414231
+    InstanceId: 18374213684223088802
+    TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 25629215192034217
+  Name: "SocialPrefix"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13306095104213546008
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: -420
+    Height: 28
+    UIX: 80
     UIY: -4
     RenderTransformPivot {
       Anchor {
@@ -5151,7 +5221,7 @@ Objects {
   Control {
     Width: 20
     Height: 20
-    UIX: 22
+    UIX: 90
     UIY: -16
     RenderTransformPivot {
       Anchor {

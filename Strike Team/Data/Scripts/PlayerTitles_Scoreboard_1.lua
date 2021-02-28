@@ -210,11 +210,13 @@ local function CreatePlayerEntry(player)
 		owner = player
 	}
 
-	local playerNameText, teamColorImage, playerIconImage, socialIconImage =
+	local playerNameText, teamColorImage, playerIconImage, socialIconImage, playerRank, playerIcon =
 		entry:GetCustomProperty("PlayerName"):WaitForObject(),
 		entry:GetCustomProperty("TeamColor"):WaitForObject(),
 		entry:GetCustomProperty("PlayerIcon"):WaitForObject(),
-		entry:GetCustomProperty("SocialIcon"):WaitForObject()
+		entry:GetCustomProperty("SocialIcon"):WaitForObject(),
+		entry:GetCustomProperty("PlayerRank"):WaitForObject(),
+		entry:GetCustomProperty("RankIcon"):WaitForObject()
 
 	playerNameText.text = player.name
 
@@ -244,6 +246,9 @@ local function CreatePlayerEntry(player)
 	else
 		playerNameText:SetColor(PLAYER_NAME_COLOR)
 	end
+
+
+	playerRank.text = tostring(player:GetResource("Level"))
 
 	local count = 0
 
@@ -294,6 +299,9 @@ local function UpdatePlayerEntry(player)
 	if (not entry) then
 		return
 	end
+
+	local playerRank = entry:GetCustomProperty("PlayerRank"):WaitForObject()
+	playerRank.text = tostring(player:GetResource("Level"))
 
 	local title = PlayerTitles.GetPlayerTitle(player)
 
