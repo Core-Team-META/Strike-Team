@@ -74400,6 +74400,19 @@ Objects {
   ParentId: 12602863440350716083
   TemplateInstance {
     ParameterOverrideMap {
+      key: 14045942061727599613
+      value {
+        Overrides {
+          Name: "EnableSpatialization"
+          Bool: false
+        }
+        Overrides {
+          Name: "Volume"
+          Float: 0.4
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16253280924196043871
       value {
         Overrides {
