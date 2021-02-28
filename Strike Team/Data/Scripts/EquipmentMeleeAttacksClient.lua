@@ -178,6 +178,11 @@ script.destroyEvent:Connect(function()
 
 -- Find all abilities with melee related custom properties
 local abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
+while #abilityDescendants < 1 do 
+    abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
+    Task.Wait()
+end
+Task.Wait()
 for _, ability in ipairs(abilityDescendants) do
     local hitBox = ability:GetCustomProperty("Hitbox")
 
