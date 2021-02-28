@@ -112,7 +112,7 @@ Objects {
     AutoPlay: true
     Repeat: true
     Pitch: 1
-    Volume: 4
+    Volume: 3
     Falloff: 6000
     Radius: 2000
     EnableOcclusion: true
@@ -149,8 +149,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
@@ -185,8 +185,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
@@ -221,8 +221,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
@@ -257,8 +257,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
@@ -293,8 +293,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
@@ -329,8 +329,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 1.08094621
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsAttenuationEnabled: true
   }
@@ -365,8 +365,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 0.385127813
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
@@ -402,8 +402,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 0.385127813
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
@@ -439,8 +439,8 @@ Objects {
     }
     AutoPlay: true
     Volume: 0.385127813
-    Falloff: 2000
-    Radius: 500
+    Falloff: 500
+    Radius: 2000
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
@@ -478,11 +478,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -519,11 +518,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -560,11 +558,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -601,11 +598,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -642,11 +638,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -683,11 +678,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -724,11 +718,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -765,11 +758,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -806,11 +798,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -847,11 +838,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -888,11 +878,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -929,11 +918,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 200
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -970,11 +958,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -984,9 +971,9 @@ Objects {
   Name: "Ambience Nature Wind and Trees Set 01 SFX"
   Transform {
     Location {
-      X: 7419.63184
-      Y: 2198.01782
-      Z: 573.631897
+      X: 8256.88477
+      Y: 2059.67383
+      Z: 858.004211
     }
     Rotation {
     }
@@ -1011,11 +998,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.2
+      Falloff: 900
+      Radius: 1500
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1026,7 +1012,7 @@ Objects {
   Transform {
     Location {
       X: 7640.86768
-      Y: 4527.91748
+      Y: 4941.82617
       Z: 573.631897
     }
     Rotation {
@@ -1052,11 +1038,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1093,11 +1078,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1134,11 +1118,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1175,11 +1158,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1216,11 +1198,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
-      Falloff: 1000
-      Radius: 200
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1257,11 +1238,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.3
+      Falloff: 500
+      Radius: 800
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1339,9 +1319,9 @@ Objects {
     AutoPlay: true
     Repeat: true
     Pitch: 1
-    Volume: 1
-    Falloff: 4500
-    Radius: 2000
+    Volume: 0.763024092
+    Falloff: 1800
+    Radius: 3000
     EnableOcclusion: true
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
@@ -1419,11 +1399,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.4
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1464,7 +1443,6 @@ Objects {
       Falloff: 2000
       Radius: 400
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1501,11 +1479,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.3
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1542,11 +1519,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.3
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1583,11 +1559,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1.17292166
+      Volume: 0.3
       Falloff: 1000
       Radius: 200
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1624,11 +1599,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1665,11 +1639,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1706,11 +1679,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1747,11 +1719,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 1000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1788,11 +1759,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1829,11 +1799,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -1983,7 +1952,7 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 0.179616377
+      Volume: 0.14
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
@@ -2098,7 +2067,6 @@ Objects {
     Falloff: 10000
     Radius: 5000
     EnableOcclusion: true
-    IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
 }
@@ -2135,7 +2103,7 @@ Objects {
     AutoPlay: true
     Repeat: true
     Pitch: 1
-    Volume: 4
+    Volume: 3
     Falloff: 6000
     Radius: 2000
     EnableOcclusion: true
@@ -2174,11 +2142,10 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
+      Volume: 0.498978913
       Falloff: 3600
       Radius: 400
       EnableOcclusion: true
-      IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
   }
@@ -2215,9 +2182,9 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.8
+      Falloff: 600
+      Radius: 400
       EnableOcclusion: true
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
@@ -2256,9 +2223,9 @@ Objects {
     }
     AudioBP {
       AutoPlay: true
-      Volume: 1
-      Falloff: 1000
-      Radius: 100
+      Volume: 0.8
+      Falloff: 600
+      Radius: 400
       EnableOcclusion: true
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
