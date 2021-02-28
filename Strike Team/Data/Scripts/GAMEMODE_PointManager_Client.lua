@@ -59,7 +59,7 @@ local function AddNewPoints()
 
                 pointData.LEFT_INNER.visibility = Visibility.FORCE_OFF
                 pointData.RIGHT_INNER.visibility = Visibility.FORCE_OFF
-                indicator.clientUserData.needsUpdate = true
+                --indicator.clientUserData.needsUpdate = true
             end
         end
     end
