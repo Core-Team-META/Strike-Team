@@ -1,6 +1,6 @@
 Assets {
   Id: 10784417895420139977
-  Name: "SFX_PointLost_UI_2"
+  Name: "SFX_PointLost_UI_Alert"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

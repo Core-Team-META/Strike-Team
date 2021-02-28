@@ -1,6 +1,6 @@
 Assets {
-  Id: 6602187678221116664
-  Name: "UIAlertSetup"
+  Id: 16361373563377273171
+  Name: "UIAlertSetup2"
   PlatformAssetType: 3
   TextAsset {
   }

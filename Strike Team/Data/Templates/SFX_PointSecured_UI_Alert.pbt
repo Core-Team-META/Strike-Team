@@ -1,13 +1,13 @@
 Assets {
-  Id: 10015425862297221514
-  Name: "SFX_PointContestEnemy_UI_2"
+  Id: 3356687732227219655
+  Name: "SFX_PointSecured_UI_Alert"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8464841738940625700
+      RootId: 7103290513848576820
       Objects {
-        Id: 8464841738940625700
-        Name: "SFX_PointContestEnemy_UI_2"
+        Id: 7103290513848576820
+        Name: "SFX_PointSecured_UI_2"
         Transform {
           Scale {
             X: 1
@@ -15,11 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 7391859988810043251
-        ChildIds: 1321102611530545387
-        ChildIds: 3672258332071357608
-        ChildIds: 14997443033134443636
+        ParentId: 10477958480793043052
+        ChildIds: 1453503419967772227
+        ChildIds: 5543514290317565507
+        ChildIds: 14273643810133650559
+        ChildIds: 13911044767906818481
         Lifespan: 5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -31,7 +31,53 @@ Assets {
         }
       }
       Objects {
-        Id: 7391859988810043251
+        Id: 1453503419967772227
+        Name: "Heavy Stinger Action Combat Stingers 01"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7103290513848576820
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:emx_heavy_action_combat_stingers:43"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 8802726964072024558
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Transient: true
+            Volume: 0.69597888
+            Falloff: 3600
+            Radius: 400
+            FadeOutTime: 1.5
+            StartTime: 0.1
+            StopTime: 0.8
+          }
+        }
+      }
+      Objects {
+        Id: 5543514290317565507
         Name: "Brass Hit High Music Stinger 01"
         Transform {
           Location {
@@ -44,7 +90,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8464841738940625700
+        ParentId: 7103290513848576820
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -59,7 +105,6 @@ Assets {
           }
           AudioBP {
             Transient: true
-            Volume: 0.25
             Falloff: 3600
             Radius: 400
             StartTime: 0.2
@@ -67,8 +112,8 @@ Assets {
         }
       }
       Objects {
-        Id: 1321102611530545387
-        Name: "Military Radio Vocal Call Short 02 SFX"
+        Id: 14273643810133650559
+        Name: "Orchestral Victory Achievement Music Stinger Set 01"
         Transform {
           Location {
           }
@@ -80,57 +125,40 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8464841738940625700
+        ParentId: 7103290513848576820
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:emx_orchestralvictoryachievement_01:52"
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        AudioInstance {
-          AudioAsset {
-            Id: 15885491613730191558
+        Blueprint {
+          BlueprintAsset {
+            Id: 10613197358825148101
           }
-          Transient: true
-          Volume: 1
-          Falloff: -1
-          Radius: -1
+          TeamSettings {
+          }
+          AudioBP {
+            Transient: true
+            Volume: 1
+            Falloff: 3600
+            Radius: 400
+            FadeOutTime: 3
+            StartTime: 0.1
+            StopTime: 0.4
+          }
         }
       }
       Objects {
-        Id: 3672258332071357608
-        Name: "Military Radio Vocal Call Short 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8464841738940625700
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 6715334052622071387
-          }
-          Transient: true
-          Pitch: -130.540283
-          Volume: 0.907048404
-          Falloff: -1
-          Radius: -1
-        }
-      }
-      Objects {
-        Id: 14997443033134443636
+        Id: 13911044767906818481
         Name: "ClientContext"
         Transform {
           Location {
@@ -143,9 +171,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8464841738940625700
-        ChildIds: 16945798562268223866
-        ChildIds: 16648507440698661771
+        ParentId: 7103290513848576820
+        ChildIds: 15037462888519235165
+        ChildIds: 11313182816653163739
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -156,7 +184,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16945798562268223866
+        Id: 15037462888519235165
         Name: "UIAlertSetup"
         Transform {
           Location {
@@ -169,7 +197,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14997443033134443636
+        ParentId: 13911044767906818481
         UnregisteredParameters {
           Overrides {
             Name: "cs:EaseUI"
@@ -180,7 +208,7 @@ Assets {
           Overrides {
             Name: "cs:UIPanel"
             ObjectReference {
-              SubObjectId: 10950986091542673174
+              SubObjectId: 8560973210558290901
             }
           }
           Overrides {
@@ -194,74 +222,78 @@ Assets {
           Overrides {
             Name: "cs:BackgroundPanelRef"
             ObjectReference {
-              SubObjectId: 11691329890194753061
+              SubObjectId: 5530506621861191656
             }
           }
           Overrides {
             Name: "cs:BackgroundColor"
             Color {
-              R: 0.8
+              R: 0.65
+              G: 0.3
               A: 0.554
             }
           }
           Overrides {
             Name: "cs:BackgroundBlendRef"
             ObjectReference {
-              SubObjectId: 1108525620704705321
+              SubObjectId: 14627101601808307745
             }
           }
           Overrides {
             Name: "cs:BackgroundBlendColor"
             Color {
-              R: 0.8
+              R: 0.65
+              G: 0.3
               A: 0.763
             }
           }
           Overrides {
             Name: "cs:BorderPanelRef"
             ObjectReference {
-              SubObjectId: 14433637441463135564
+              SubObjectId: 15850504564354143059
             }
           }
           Overrides {
             Name: "cs:BorderColor"
             Color {
-              R: 0.7
+              R: 0.65
+              G: 0.3
               A: 1
             }
           }
           Overrides {
             Name: "cs:BorderInsideRef"
             ObjectReference {
-              SubObjectId: 3479875470993789301
+              SubObjectId: 12282343599486045613
             }
           }
           Overrides {
             Name: "cs:InsideBorderColor"
             Color {
-              R: 0.7
+              R: 0.65
+              G: 0.3
               A: 1
             }
           }
           Overrides {
             Name: "cs:TopTextPanelRef"
             ObjectReference {
-              SubObjectId: 9825004149093418698
+              SubObjectId: 4677439863332770670
             }
           }
           Overrides {
             Name: "cs:BottomTextPanelRef"
             ObjectReference {
-              SubObjectId: 9905098201330186342
+              SubObjectId: 6029892394632054298
             }
           }
           Overrides {
             Name: "cs:TopText"
-            String: "STRIKE POINT"
+            String: ""
           }
           Overrides {
             Name: "cs:BottomText"
-            String: "CONTESTED"
+            String: "STRIKE POINT CAPTURED"
           }
           Overrides {
             Name: "cs:TextColor"
@@ -281,7 +313,7 @@ Assets {
           Overrides {
             Name: "cs:IconBackdropPanelRef"
             ObjectReference {
-              SubObjectId: 14500555016503802902
+              SubObjectId: 9317082345012654524
             }
           }
           Overrides {
@@ -297,7 +329,7 @@ Assets {
           Overrides {
             Name: "cs:IconBackdropRef"
             ObjectReference {
-              SubObjectId: 11099115667315475938
+              SubObjectId: 14637834456446568726
             }
           }
           Overrides {
@@ -318,20 +350,21 @@ Assets {
           Overrides {
             Name: "cs:IconBackdropDetailRef"
             ObjectReference {
-              SubObjectId: 13836114885860802915
+              SubObjectId: 8206916985581231609
             }
           }
           Overrides {
             Name: "cs:IconBackdropDetailColor"
             Color {
-              R: 0.75
+              R: 0.309999943
+              G: 0.117019862
               A: 1
             }
           }
           Overrides {
             Name: "cs:IconPanelRef"
             ObjectReference {
-              SubObjectId: 17646214900910770567
+              SubObjectId: 13763720840500148060
             }
           }
           Overrides {
@@ -343,7 +376,7 @@ Assets {
           Overrides {
             Name: "cs:IconBackgroundRef"
             ObjectReference {
-              SubObjectId: 8625293053547077306
+              SubObjectId: 3847479985846436471
             }
           }
           Overrides {
@@ -358,33 +391,34 @@ Assets {
           Overrides {
             Name: "cs:IconBGOutline"
             AssetReference {
-              Id: 1814707273787853473
+              Id: 13575128885289472533
             }
           }
           Overrides {
             Name: "cs:IconBGOutlineRef"
             ObjectReference {
-              SubObjectId: 9749635885135259780
+              SubObjectId: 541701182569030603
             }
           }
           Overrides {
             Name: "cs:IconBGOutlineColor"
             Color {
-              R: 0.590000033
-              G: 0.328211933
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "cs:Icon"
             AssetReference {
-              Id: 13876111209393535781
+              Id: 6476434261817820781
             }
           }
           Overrides {
             Name: "cs:IconRef"
             ObjectReference {
-              SubObjectId: 3934905711033488350
+              SubObjectId: 14973616419523850748
             }
           }
           Overrides {
@@ -399,7 +433,7 @@ Assets {
           Overrides {
             Name: "cs:IconOutlineRef"
             ObjectReference {
-              SubObjectId: 862141585523872858
+              SubObjectId: 17672026404861733894
             }
           }
           Overrides {
@@ -411,13 +445,15 @@ Assets {
           Overrides {
             Name: "cs:SideFlairPanelRef"
             ObjectReference {
-              SubObjectId: 15091198262318324098
+              SubObjectId: 5423477968894885985
             }
           }
           Overrides {
             Name: "cs:SideFlairColor"
             Color {
-              B: 0.8
+              R: 0.65
+              G: 0.3
+              A: 1
             }
           }
           Overrides {
@@ -427,13 +463,13 @@ Assets {
           Overrides {
             Name: "cs:BorderDetailTop"
             ObjectReference {
-              SubObjectId: 15402729144677864077
+              SubObjectId: 197062615754176507
             }
           }
           Overrides {
             Name: "cs:BorderDetailBottom"
             ObjectReference {
-              SubObjectId: 828590185376407871
+              SubObjectId: 14062543569202118279
             }
           }
           Overrides {
@@ -452,19 +488,19 @@ Assets {
           Overrides {
             Name: "cs:HeavyStingerActionCombatStingers01"
             ObjectReference {
-              SubObjectId: 7391859988810043251
+              SubObjectId: 1453503419967772227
             }
           }
           Overrides {
             Name: "cs:BrassHitHighMusicStinger01"
             ObjectReference {
-              SubObjectId: 1321102611530545387
+              SubObjectId: 5543514290317565507
             }
           }
           Overrides {
             Name: "cs:OrchestralVictoryAchievementMusicStinger"
             ObjectReference {
-              SubObjectId: 3672258332071357608
+              SubObjectId: 14273643810133650559
             }
           }
           Overrides {
@@ -484,12 +520,12 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 16361373563377273171
+            Id: 6602187678221116664
           }
         }
       }
       Objects {
-        Id: 16648507440698661771
+        Id: 11313182816653163739
         Name: "UI Container"
         Transform {
           Location {
@@ -502,8 +538,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14997443033134443636
-        ChildIds: 10950986091542673174
+        ParentId: 13911044767906818481
+        ChildIds: 8560973210558290901
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -536,7 +572,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10950986091542673174
+        Id: 8560973210558290901
         Name: "UI Panel"
         Transform {
           Location {
@@ -549,19 +585,19 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16648507440698661771
-        ChildIds: 9714736561014281400
-        ChildIds: 14500555016503802902
-        ChildIds: 3479875470993789301
-        ChildIds: 14433637441463135564
-        ChildIds: 1108525620704705321
-        ChildIds: 11691329890194753061
-        ChildIds: 15372992896923575009
-        ChildIds: 12835173351643766579
-        ChildIds: 17646214900910770567
-        ChildIds: 18244598936833677483
-        ChildIds: 16850151879058921286
-        ChildIds: 15091198262318324098
+        ParentId: 11313182816653163739
+        ChildIds: 14150953273818460736
+        ChildIds: 9317082345012654524
+        ChildIds: 12282343599486045613
+        ChildIds: 15850504564354143059
+        ChildIds: 14627101601808307745
+        ChildIds: 5530506621861191656
+        ChildIds: 14023439698320368349
+        ChildIds: 157327725443756474
+        ChildIds: 13763720840500148060
+        ChildIds: 12269793194167657318
+        ChildIds: 13288551552545386463
+        ChildIds: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -571,7 +607,7 @@ Assets {
         Control {
           Width: 505
           Height: 70
-          UIY: 140
+          UIY: 197.593185
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -595,7 +631,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9714736561014281400
+        Id: 14150953273818460736
         Name: "Alternative Backdrop Panel"
         Transform {
           Location {
@@ -608,8 +644,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 7297504021220772613
+        ParentId: 8560973210558290901
+        ChildIds: 11913309367100704532
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -643,7 +679,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7297504021220772613
+        Id: 11913309367100704532
         Name: "Wing Panel"
         Transform {
           Location {
@@ -656,10 +692,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9714736561014281400
-        ChildIds: 7774962849212147458
-        ChildIds: 10827436582954481280
-        ChildIds: 2515737387219366346
+        ParentId: 14150953273818460736
+        ChildIds: 10749978638629901750
+        ChildIds: 602093483093992152
+        ChildIds: 454163429142594420
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -691,7 +727,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7774962849212147458
+        Id: 10749978638629901750
         Name: "UI Image"
         Transform {
           Location {
@@ -704,7 +740,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7297504021220772613
+        ParentId: 11913309367100704532
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -750,7 +786,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10827436582954481280
+        Id: 602093483093992152
         Name: "UI Image"
         Transform {
           Location {
@@ -763,7 +799,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7297504021220772613
+        ParentId: 11913309367100704532
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -810,7 +846,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2515737387219366346
+        Id: 454163429142594420
         Name: "UI Image"
         Transform {
           Location {
@@ -823,7 +859,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7297504021220772613
+        ParentId: 11913309367100704532
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -870,7 +906,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14500555016503802902
+        Id: 9317082345012654524
         Name: "Icon Backdrop Panel"
         Transform {
           Location {
@@ -883,9 +919,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 11099115667315475938
-        ChildIds: 13836114885860802915
+        ParentId: 8560973210558290901
+        ChildIds: 14637834456446568726
+        ChildIds: 8206916985581231609
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -919,7 +955,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11099115667315475938
+        Id: 14637834456446568726
         Name: "Backdrop Icon"
         Transform {
           Location {
@@ -932,7 +968,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14500555016503802902
+        ParentId: 9317082345012654524
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -976,7 +1012,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13836114885860802915
+        Id: 8206916985581231609
         Name: "Backdrop Detail"
         Transform {
           Location {
@@ -989,7 +1025,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14500555016503802902
+        ParentId: 9317082345012654524
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1030,7 +1066,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3479875470993789301
+        Id: 12282343599486045613
         Name: "Border Inside Top and Bottom"
         Transform {
           Location {
@@ -1043,7 +1079,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
+        ParentId: 8560973210558290901
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1089,7 +1125,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14433637441463135564
+        Id: 15850504564354143059
         Name: "Border Panel"
         Transform {
           Location {
@@ -1102,9 +1138,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 499541321707882880
-        ChildIds: 7793775941357420751
+        ParentId: 8560973210558290901
+        ChildIds: 4734287770078962135
+        ChildIds: 9042026726611770397
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1137,7 +1173,7 @@ Assets {
         }
       }
       Objects {
-        Id: 499541321707882880
+        Id: 4734287770078962135
         Name: "Border Top"
         Transform {
           Location {
@@ -1150,7 +1186,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14433637441463135564
+        ParentId: 15850504564354143059
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1194,7 +1230,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7793775941357420751
+        Id: 9042026726611770397
         Name: "Border Bottom"
         Transform {
           Location {
@@ -1207,7 +1243,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14433637441463135564
+        ParentId: 15850504564354143059
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1252,7 +1288,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1108525620704705321
+        Id: 14627101601808307745
         Name: "BG Blend"
         Transform {
           Location {
@@ -1265,7 +1301,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
+        ParentId: 8560973210558290901
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1310,7 +1346,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11691329890194753061
+        Id: 5530506621861191656
         Name: "Background Panel"
         Transform {
           Location {
@@ -1323,9 +1359,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 1022956741386060459
-        ChildIds: 9826750184540971668
+        ParentId: 8560973210558290901
+        ChildIds: 15204016168455153697
+        ChildIds: 14277168036326076005
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1360,7 +1396,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1022956741386060459
+        Id: 15204016168455153697
         Name: "BG Layer 1"
         Transform {
           Location {
@@ -1373,7 +1409,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11691329890194753061
+        ParentId: 5530506621861191656
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1416,7 +1452,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9826750184540971668
+        Id: 14277168036326076005
         Name: "BG Layer 2"
         Transform {
           Location {
@@ -1429,7 +1465,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11691329890194753061
+        ParentId: 5530506621861191656
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1472,7 +1508,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15372992896923575009
+        Id: 14023439698320368349
         Name: "Top Border Detail Panel"
         Transform {
           Location {
@@ -1485,8 +1521,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 15402729144677864077
+        ParentId: 8560973210558290901
+        ChildIds: 197062615754176507
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1522,7 +1558,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15402729144677864077
+        Id: 197062615754176507
         Name: "Border Detail"
         Transform {
           Location {
@@ -1535,7 +1571,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15372992896923575009
+        ParentId: 14023439698320368349
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1555,9 +1591,9 @@ Assets {
               Id: 1836540560466934658
             }
             Color {
-              R: 0.588541687
-              G: 0.588541687
-              B: 0.588541687
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
@@ -1579,7 +1615,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12835173351643766579
+        Id: 157327725443756474
         Name: "Bottom Border Detail Panel"
         Transform {
           Location {
@@ -1592,8 +1628,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 828590185376407871
+        ParentId: 8560973210558290901
+        ChildIds: 14062543569202118279
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1628,7 +1664,7 @@ Assets {
         }
       }
       Objects {
-        Id: 828590185376407871
+        Id: 14062543569202118279
         Name: "Border Detail"
         Transform {
           Location {
@@ -1641,7 +1677,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12835173351643766579
+        ParentId: 157327725443756474
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1661,9 +1697,9 @@ Assets {
               Id: 1836540560466934658
             }
             Color {
-              R: 0.588541687
-              G: 0.588541687
-              B: 0.588541687
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
@@ -1685,7 +1721,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17646214900910770567
+        Id: 13763720840500148060
         Name: "Icon Panel"
         Transform {
           Location {
@@ -1698,10 +1734,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 8718225354448438904
-        ChildIds: 862141585523872858
-        ChildIds: 3934905711033488350
+        ParentId: 8560973210558290901
+        ChildIds: 1616642018613707176
+        ChildIds: 17672026404861733894
+        ChildIds: 14973616419523850748
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1709,9 +1745,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 60
-          Height: 60
-          UIY: -75.0075684
+          Width: 50
+          Height: 50
+          UIY: -36.1038437
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1734,7 +1770,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8718225354448438904
+        Id: 1616642018613707176
         Name: "Icon Background Panel"
         Transform {
           Location {
@@ -1747,9 +1783,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17646214900910770567
-        ChildIds: 9749635885135259780
-        ChildIds: 8625293053547077306
+        ParentId: 13763720840500148060
+        ChildIds: 16435363261673565619
+        ChildIds: 3847479985846436471
+        ChildIds: 18424513105296687121
+        ChildIds: 541701182569030603
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1757,6 +1795,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
+          Width: 6
+          Height: 6
           RotationAngle: 45
           RenderTransformPivot {
             Anchor {
@@ -1767,6 +1807,7 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Panel {
+            IsClipping: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -1783,8 +1824,8 @@ Assets {
         }
       }
       Objects {
-        Id: 9749635885135259780
-        Name: "Icon BG Outline"
+        Id: 16435363261673565619
+        Name: "Icon BG"
         Transform {
           Location {
           }
@@ -1796,7 +1837,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8718225354448438904
+        ParentId: 1616642018613707176
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1804,8 +1845,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 6
-          Height: 6
+          Width: -6
+          Height: -6
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1816,11 +1857,9 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 1814707273787853473
+              Id: 841534158063459245
             }
             Color {
-              R: 1
-              G: 0.456953466
               A: 1
             }
             TeamSettings {
@@ -1841,7 +1880,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8625293053547077306
+        Id: 3847479985846436471
         Name: "Icon BG"
         Transform {
           Location {
@@ -1854,7 +1893,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8718225354448438904
+        ParentId: 1616642018613707176
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1874,7 +1913,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 12399713587783554711
+              Id: 15095432925230038127
             }
             Color {
               R: 1
@@ -1900,7 +1939,124 @@ Assets {
         }
       }
       Objects {
-        Id: 862141585523872858
+        Id: 18424513105296687121
+        Name: "Icon BG Inner Outline"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1616642018613707176
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 13575128885289472533
+            }
+            Color {
+              R: 0.919999957
+              G: 0.383841068
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 541701182569030603
+        Name: "Icon BG Outline"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1616642018613707176
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -1
+          Height: -1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 13575128885289472533
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17672026404861733894
         Name: "Icon Outline"
         Transform {
           Location {
@@ -1913,7 +2069,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17646214900910770567
+        ParentId: 13763720840500148060
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1921,8 +2077,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -22
-          Height: -22
+          Width: -16
+          Height: -16
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1933,7 +2089,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 13876111209393535781
+              Id: 6476434261817820781
             }
             Color {
               A: 0.849000037
@@ -1956,7 +2112,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3934905711033488350
+        Id: 14973616419523850748
         Name: "Icon"
         Transform {
           Location {
@@ -1969,7 +2125,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17646214900910770567
+        ParentId: 13763720840500148060
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1977,8 +2133,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -25
-          Height: -25
+          Width: -20
+          Height: -20
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1989,7 +2145,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 13876111209393535781
+              Id: 6476434261817820781
             }
             Color {
               R: 1
@@ -2015,7 +2171,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18244598936833677483
+        Id: 12269793194167657318
         Name: "Top Text Panel"
         Transform {
           Location {
@@ -2028,13 +2184,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 9825004149093418698
+        ParentId: 8560973210558290901
+        ChildIds: 4677439863332770670
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           RenderTransformPivot {
@@ -2062,7 +2218,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9825004149093418698
+        Id: 4677439863332770670
         Name: "Top Align Panel"
         Transform {
           Location {
@@ -2075,12 +2231,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18244598936833677483
-        ChildIds: 11370722401032840172
-        ChildIds: 14921441177303654008
-        ChildIds: 12421752130874649196
-        ChildIds: 5956470356687015234
-        ChildIds: 13515783361711729514
+        ParentId: 12269793194167657318
+        ChildIds: 1740281560418430904
+        ChildIds: 5540126770573501508
+        ChildIds: 16001680848552443893
+        ChildIds: 4465494302071363910
+        ChildIds: 5062179140360702273
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2088,7 +2244,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          UIY: -35
+          UIY: -30.1725273
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2111,7 +2267,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11370722401032840172
+        Id: 1740281560418430904
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2124,7 +2280,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9825004149093418698
+        ParentId: 4677439863332770670
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2147,7 +2303,7 @@ Assets {
             Color {
               A: 0.775000036
             }
-            Size: 22
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2170,7 +2326,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14921441177303654008
+        Id: 5540126770573501508
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2183,7 +2339,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9825004149093418698
+        ParentId: 4677439863332770670
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2206,7 +2362,7 @@ Assets {
             Color {
               A: 0.775000036
             }
-            Size: 22
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2229,7 +2385,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12421752130874649196
+        Id: 16001680848552443893
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2242,7 +2398,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9825004149093418698
+        ParentId: 4677439863332770670
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2265,7 +2421,7 @@ Assets {
             Color {
               A: 0.775000036
             }
-            Size: 22
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2288,7 +2444,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5956470356687015234
+        Id: 4465494302071363910
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2301,7 +2457,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9825004149093418698
+        ParentId: 4677439863332770670
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2324,7 +2480,7 @@ Assets {
             Color {
               A: 0.775000036
             }
-            Size: 22
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2347,7 +2503,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13515783361711729514
+        Id: 5062179140360702273
         Name: "Text"
         Transform {
           Location {
@@ -2360,7 +2516,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9825004149093418698
+        ParentId: 4677439863332770670
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2384,7 +2540,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 22
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2407,7 +2563,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16850151879058921286
+        Id: 13288551552545386463
         Name: "Bottom Text Panel"
         Transform {
           Location {
@@ -2420,8 +2576,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 9905098201330186342
+        ParentId: 8560973210558290901
+        ChildIds: 6029892394632054298
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2454,7 +2610,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9905098201330186342
+        Id: 6029892394632054298
         Name: "Bottom Align Panel"
         Transform {
           Location {
@@ -2467,12 +2623,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16850151879058921286
-        ChildIds: 5128970668842866292
-        ChildIds: 1588665532118347978
-        ChildIds: 7960855694441210100
-        ChildIds: 5986128225245725299
-        ChildIds: 3365477379707900687
+        ParentId: 13288551552545386463
+        ChildIds: 17173131370105058024
+        ChildIds: 5407542732765086797
+        ChildIds: 8705839691224221407
+        ChildIds: 13603386041369886640
+        ChildIds: 5398338280606831388
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2480,7 +2636,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          UIY: 34
+          UIY: 38
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2506,7 +2662,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5128970668842866292
+        Id: 17173131370105058024
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2519,7 +2675,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9905098201330186342
+        ParentId: 6029892394632054298
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2538,11 +2694,11 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "CAPTURED"
+            Label: "STRIKE POINT CAPTURED"
             Color {
               A: 0.775000036
             }
-            Size: 19
+            Size: 16
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2565,7 +2721,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1588665532118347978
+        Id: 5407542732765086797
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2578,7 +2734,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9905098201330186342
+        ParentId: 6029892394632054298
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2597,11 +2753,11 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "CAPTURED"
+            Label: "STRIKE POINT CAPTURED"
             Color {
               A: 0.775000036
             }
-            Size: 19
+            Size: 16
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2624,7 +2780,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7960855694441210100
+        Id: 8705839691224221407
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2637,7 +2793,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9905098201330186342
+        ParentId: 6029892394632054298
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2656,11 +2812,11 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "CAPTURED"
+            Label: "STRIKE POINT CAPTURED"
             Color {
               A: 0.775000036
             }
-            Size: 19
+            Size: 16
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2683,7 +2839,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5986128225245725299
+        Id: 13603386041369886640
         Name: "UI Text Box"
         Transform {
           Location {
@@ -2696,7 +2852,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9905098201330186342
+        ParentId: 6029892394632054298
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2715,11 +2871,11 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "CAPTURED"
+            Label: "STRIKE POINT CAPTURED"
             Color {
               A: 0.775000036
             }
-            Size: 19
+            Size: 16
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2742,7 +2898,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3365477379707900687
+        Id: 5398338280606831388
         Name: "Text"
         Transform {
           Location {
@@ -2755,7 +2911,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9905098201330186342
+        ParentId: 6029892394632054298
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2772,14 +2928,14 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "CAPTURED"
+            Label: "STRIKE POINT CAPTURED"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 19
+            Size: 16
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2802,7 +2958,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15091198262318324098
+        Id: 5423477968894885985
         Name: "Side Flair Panel"
         Transform {
           Location {
@@ -2815,18 +2971,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10950986091542673174
-        ChildIds: 16441707734486975225
-        ChildIds: 13844789776271149751
-        ChildIds: 15367816762931663968
-        ChildIds: 15447092643433708925
-        ChildIds: 8072868290803764055
-        ChildIds: 3568568621679837572
+        ParentId: 8560973210558290901
+        ChildIds: 8214658229433003727
+        ChildIds: 14228746898332473280
+        ChildIds: 13142614005959807373
+        ChildIds: 624830569852191243
+        ChildIds: 7623397901153283972
+        ChildIds: 16395219515736816539
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
           Width: 234
@@ -2857,7 +3013,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16441707734486975225
+        Id: 8214658229433003727
         Name: "Right 1"
         Transform {
           Location {
@@ -2870,7 +3026,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15091198262318324098
+        ParentId: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2913,7 +3069,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13844789776271149751
+        Id: 14228746898332473280
         Name: "Right 2"
         Transform {
           Location {
@@ -2926,7 +3082,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15091198262318324098
+        ParentId: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2969,7 +3125,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15367816762931663968
+        Id: 13142614005959807373
         Name: "Right 3"
         Transform {
           Location {
@@ -2982,7 +3138,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15091198262318324098
+        ParentId: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3025,7 +3181,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15447092643433708925
+        Id: 624830569852191243
         Name: "Left 1"
         Transform {
           Location {
@@ -3038,7 +3194,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15091198262318324098
+        ParentId: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3081,7 +3237,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8072868290803764055
+        Id: 7623397901153283972
         Name: "Left 2"
         Transform {
           Location {
@@ -3094,7 +3250,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15091198262318324098
+        ParentId: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3137,7 +3293,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3568568621679837572
+        Id: 16395219515736816539
         Name: "Left 3"
         Transform {
           Location {
@@ -3150,7 +3306,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15091198262318324098
+        ParentId: 5423477968894885985
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3194,6 +3350,15 @@ Assets {
       }
     }
     Assets {
+      Id: 8802726964072024558
+      Name: "Heavy Stinger Action Combat Stingers 01"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_heavy_stinger_action_combat_stingers_01_ref"
+      }
+    }
+    Assets {
       Id: 10449655808651725640
       Name: "Brass Hit High Music Stinger 01"
       PlatformAssetType: 10
@@ -3203,21 +3368,12 @@ Assets {
       }
     }
     Assets {
-      Id: 15885491613730191558
-      Name: "Military Radio Vocal Call Short 02 SFX"
-      PlatformAssetType: 7
+      Id: 10613197358825148101
+      Name: "Orchestral Victory Achievement Music Stinger Set 01"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_military_radio_vocal_call_short_02a_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 6715334052622071387
-      Name: "Military Radio Vocal Call Short 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_military_radio_vocal_call_short_01a_Cue_ref"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_stinger_orchestral_victory_achievement_01_ref"
       }
     }
     Assets {
@@ -3248,21 +3404,21 @@ Assets {
       }
     }
     Assets {
-      Id: 1814707273787853473
-      Name: "BG Flat 001"
+      Id: 13575128885289472533
+      Name: "Frame Outlined Thick 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundNoOutline_020"
+        AssetId: "FrameFlat_020"
       }
     }
     Assets {
-      Id: 13876111209393535781
-      Name: "Radio Dish"
+      Id: 6476434261817820781
+      Name: "Icon Flag"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_035"
+        AssetId: "Icon_Flag"
       }
     }
     Assets {
@@ -3293,6 +3449,15 @@ Assets {
       }
     }
     Assets {
+      Id: 1814707273787853473
+      Name: "BG Flat 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
       Id: 17289448223043935888
       Name: "UI Gradient Rectangular 001"
       PlatformAssetType: 9
@@ -3317,6 +3482,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Scifi_Frame_010"
+      }
+    }
+    Assets {
+      Id: 15095432925230038127
+      Name: "Sci-fi Ability Blue 018"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Ability_Blue_018"
       }
     }
     Assets {
