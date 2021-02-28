@@ -837,6 +837,7 @@ Objects {
   ChildIds: 10310488071306227132
   ChildIds: 4856335168529108526
   ChildIds: 12618897465581009654
+  ChildIds: 4709806633366715489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -845,6 +846,48 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4709806633366715489
+  Name: "Extra Collider"
+  Transform {
+    Location {
+      X: -498.831665
+      Y: -509.84375
+      Z: 1184.11377
+    }
+    Rotation {
+      Yaw: 16.161787
+    }
+    Scale {
+      X: 0.869589031
+      Y: -0.30645147
+      Z: 5.99359512
+    }
+  }
+  ParentId: 7633992929331903348
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -4008,7 +4051,7 @@ Objects {
   Transform {
     Location {
       X: -2435
-      Y: -1692.55859
+      Y: -1705.55896
       Z: 1690
     }
     Rotation {
@@ -23498,7 +23541,7 @@ Objects {
   Transform {
     Location {
       X: -2395
-      Y: -570
+      Y: -574.77
       Z: 1695
     }
     Rotation {
@@ -23546,16 +23589,16 @@ Objects {
   Name: "Extra Collider"
   Transform {
     Location {
-      X: -80.119873
-      Y: -502.201172
-      Z: 1293.36816
+      X: -84.9030762
+      Y: -498.020508
+      Z: 1283.59
     }
     Rotation {
     }
     Scale {
-      X: 6.5465374
+      X: 7.55983543
       Y: -0.306455076
-      Z: 4.97059393
+      Z: 5.10514259
     }
   }
   ParentId: 7633992929331903348
