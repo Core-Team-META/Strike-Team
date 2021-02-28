@@ -14,18 +14,16 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
-
 --[[
 This script uses the specified hitbox trigger on ability to damage enemy players on ability execute phase.
 Each ability can have its own trigger (e.g. small attacks - front trigger, big attacks - wider trigger).
 ]]
-
 -- Internal custom properties
-local EQUIPMENT = script:FindAncestorByType('Equipment')
-if not EQUIPMENT:IsA('Equipment') then
+local EQUIPMENT = script:FindAncestorByType("Equipment")
+if not EQUIPMENT:IsA("Equipment") then
     error(script.name .. " should be part of Equipment object hierarchy.")
 end
-
+local WEAPON_TYPE = EQUIPMENT:GetCustomProperty("WeaponType")
 -- Internal variables
 local abilityList = {}
 local Connections
@@ -33,9 +31,15 @@ local Connections
 -- Checks the players within hitbox, and makes sure swipe effects stay at the player's location
 function Tick()
     -- Check for the existence of the equipment or owner before running Tick
-    if not Object.IsValid(EQUIPMENT) then return end
-    if not Object.IsValid(EQUIPMENT.owner) then return end
-    if EQUIPMENT.owner.isDead then return end
+    if not Object.IsValid(EQUIPMENT) then
+        return
+    end
+    if not Object.IsValid(EQUIPMENT.owner) then
+        return
+    end
+    if EQUIPMENT.owner.isDead then
+        return
+    end
 
     for _, abilityInfo in ipairs(abilityList) do
         if abilityInfo.canAttack then
@@ -50,10 +54,11 @@ function Tick()
     end
 end
 
-function CalculateBackStab(player,damage)
-    local playerLookDirection = (player:GetViewWorldRotation() * Vector3.FORWARD ) * (Vector3.ONE - Vector3.UP) 
-    local sourceLookDirection = (damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD)  *  (Vector3.ONE - Vector3.UP) 
-    if((playerLookDirection .. sourceLookDirection) >=  .6) then
+function CalculateBackStab(player, damage)
+    local playerLookDirection = (player:GetViewWorldRotation() * Vector3.FORWARD) * (Vector3.ONE - Vector3.UP)
+    local sourceLookDirection =
+        (damage.sourcePlayer:GetViewWorldRotation() * Vector3.FORWARD) * (Vector3.ONE - Vector3.UP)
+    if ((playerLookDirection .. sourceLookDirection) >= .6) then
         damage.amount = 150
         damage.sourcePlayer:AddResource("Backstab", 1)
     end
@@ -65,24 +70,27 @@ function MeleeAttack(player, abilityInfo)
     local ability = abilityInfo.ability
 
     -- Ignore if the hitbox is overlapping with the owner
-    if player == ability.owner then return end
+    if player == ability.owner then
+        return
+    end
     -- Ignore friendly attack
-    if Teams.AreTeamsFriendly(player.team, ability.owner.team) then return end
+    if Teams.AreTeamsFriendly(player.team, ability.owner.team) then
+        return
+    end
 
     -- Avoid hitting the same player multiple times in a single swing
     if (abilityInfo.ignoreList[player] ~= 1) then
-
         -- Creates new damage info at apply it to the enemy
         local damage = Damage.New(abilityInfo.damage)
         damage.sourcePlayer = ability.owner
         damage.sourceAbility = ability
-        
-        if(abilityInfo.canBackstab) then
-            CalculateBackStab(player,damage)
-        end
-        
-        player:ApplyDamage(damage)
 
+        if (abilityInfo.canBackstab) then
+            CalculateBackStab(player, damage)
+        end
+
+        player:ApplyDamage(damage)
+        Events.Broadcast("AS.PlayerDamaged", EQUIPMENT.owner, player, WEAPON_TYPE, false)
         abilityInfo.ignoreList[player] = 1
     end
 end
@@ -120,7 +128,6 @@ end
 -- nil ResetMelee(Ability)
 -- Resets this scripts internal variables
 function ResetMelee(ability)
-
     -- Forget anything we hit this swing
     if ability then
         for _, abilityInfo in ipairs(abilityList) do
@@ -137,16 +144,17 @@ function ResetMelee(ability)
     end
 end
 
-
 Connections = {
-    script.destroyEvent:Connect(function()
-        for k,v in pairs(Connections) do
-            v:Disconnect()
-        end end),
+    script.destroyEvent:Connect(
+        function()
+            for k, v in pairs(Connections) do
+                v:Disconnect()
+            end
+        end
+    ),
     EQUIPMENT.equippedEvent:Connect(OnEquipped),
-    EQUIPMENT.unequippedEvent:Connect(ResetMelee),
+    EQUIPMENT.unequippedEvent:Connect(ResetMelee)
 }
-
 
 -- Initialize
 local abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
@@ -155,17 +163,20 @@ for _, ability in ipairs(abilityDescendants) do
 
     if hitBox then
         hitBox = ability:GetCustomProperty("Hitbox"):WaitForObject()
-        
-        table.insert( Connections,hitBox.beginOverlapEvent:Connect(OnBeginOverlap))
-        table.insert( Connections,ability.executeEvent:Connect(OnExecute))
-        table.insert( Connections,ability.cooldownEvent:Connect(ResetMelee))
-        table.insert(abilityList, {
-            ability = ability,
-            damage = ability:GetCustomProperty("Damage"),
-            hitBox = hitBox,
-            canAttack = false,
-            canBackstab = ability:GetCustomProperty("BackStab"),
-            ignoreList = {}
-        })
+
+        table.insert(Connections, hitBox.beginOverlapEvent:Connect(OnBeginOverlap))
+        table.insert(Connections, ability.executeEvent:Connect(OnExecute))
+        table.insert(Connections, ability.cooldownEvent:Connect(ResetMelee))
+        table.insert(
+            abilityList,
+            {
+                ability = ability,
+                damage = ability:GetCustomProperty("Damage"),
+                hitBox = hitBox,
+                canAttack = false,
+                canBackstab = ability:GetCustomProperty("BackStab"),
+                ignoreList = {}
+            }
+        )
     end
 end

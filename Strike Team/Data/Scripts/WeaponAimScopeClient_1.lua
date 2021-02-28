@@ -212,8 +212,9 @@ function ForceReset(player)
     
     if Object.IsValid(WEAPON_ART) then
         WEAPON_ART.visibility = Visibility.INHERIT
-    end
+    end 
     if Object.IsValid(scopeInstance) then
+        scopeInstance:Destroy()
         scopeInstance.visibility = Visibility.FORCE_OFF
     end
     
@@ -256,7 +257,7 @@ function OnEquipped(weapon, player)
     end
 end
 
-function OnUnequipped(_, player)
+function OnUnequipped(_, player) 
     connected = false
     --ResetScoping(player)
     -- Disconnects all the handle events to avoid event trigger
@@ -294,6 +295,7 @@ function OnReload(ability)
 end
 
 -- Initialize
+WEAPON.unequippedEvent:Connect(OnUnequipped)
 
 Connections = {
     Events.Connect("LivingStateChange",function(state) OnPlayerDied() end) ,

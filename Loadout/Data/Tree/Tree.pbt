@@ -670,7 +670,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 14628852182623608333
   ChildIds: 5141681808947700192
   ChildIds: 9556497154854044989
   Collidable_v2 {
@@ -785,33 +784,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 13946925081248859053
-    }
-  }
-}
-Objects {
-  Id: 14628852182623608333
-  Name: "Cheats"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12611728433761790103
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10011543858967250753
     }
   }
 }

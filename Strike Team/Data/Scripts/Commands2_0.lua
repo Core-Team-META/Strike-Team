@@ -15,6 +15,13 @@ function Commands.print(player, message)
     end
 end
 
+
+function Commands.printresource(player, message)
+    if (ReturnPlayerByName(message[3])) then 
+        print(player:GetResource(message[3]))
+    end
+end
+
 function Commands.fly(player)
     player:ActivateFlying()
     return "Feeling light as a feather"

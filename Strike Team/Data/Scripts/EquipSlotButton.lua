@@ -9,6 +9,7 @@ local CurrentSlot = 1
 
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 
+local DefaultFontsize = Button.fontSize
 
 function UpdateSelected()
     if(Slot == CurrentSlot) then
@@ -22,9 +23,11 @@ function UpdateLevel()
     if LOCAL_PLAYER:GetResource("Level") >= Level then
         Button.isInteractable = true
         Button.text = string.format( "LOADOUT %d", Slot)
+        Button.fontSize = DefaultFontsize
     else
         Button.isInteractable = false
         Button.text = string.format("Level %d is required", Level )
+        Button.fontSize = 8
     end
 end
 UpdateLevel()
