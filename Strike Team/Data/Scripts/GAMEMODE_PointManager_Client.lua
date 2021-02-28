@@ -59,7 +59,7 @@ local function AddNewPoints()
 
                 pointData.LEFT_INNER.visibility = Visibility.FORCE_OFF
                 pointData.RIGHT_INNER.visibility = Visibility.FORCE_OFF
-                --indicator.clientUserData.needsUpdate = true
+            --indicator.clientUserData.needsUpdate = true
             end
         end
     end
@@ -204,12 +204,8 @@ function Tick()
     pcall(
         function()
             for point, interest in pairs(points) do
-                if Object.IsValid(point) and Object.IsValid(interest) and not LOCAL_PLAYER.clientUserData.isScoping then
+                if Object.IsValid(point) and Object.IsValid(interest) then
                     UpdatePoint(point, interest)
-                    CONTAINER.visibility = Visibility.FORCE_ON
-                else
-                    -- Needs a update check
-                    CONTAINER.visibility = Visibility.FORCE_OFF
                 end
             end
         end
