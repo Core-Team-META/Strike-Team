@@ -226,6 +226,7 @@ function SortPanels(a,b)
     if Storage:HasWeapon(a.data.id) == true and not Storage:HasWeapon(b.data.id)  then return true end
     if not Storage:HasWeapon(a.data.id)  and Storage:HasWeapon(b.data.id) == true then return false end
     
+
     if a.data.name == b.data.name then return false end
     return a.data.name <= b.data.name 
 
@@ -240,7 +241,11 @@ function SkinSort(id,a,b)
         if a.name == b.name then return false end
         return a.name <= b.name 
     else 
-        return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+        if Storage:HasSkin(id,a.id) then
+            return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+        else
+            return Database.ReturnSkinRarity(a) <= Database.ReturnSkinRarity(b) 
+        end
     end
     
 end
