@@ -142225,8 +142225,8 @@ Objects {
   Name: "Railing 01 Post Mainstreet"
   Transform {
     Location {
-      X: 304.05481
-      Y: 106.837784
+      X: 299.916473
+      Y: 104.079834
       Z: 10
     }
     Rotation {
@@ -142578,7 +142578,7 @@ Objects {
       Yaw: 90
     }
     Scale {
-      X: 1
+      X: 1.09363639
       Y: 1
       Z: 1
     }
