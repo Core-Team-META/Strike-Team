@@ -261,7 +261,7 @@ Assets {
           }
           Overrides {
             Name: "cs:BottomText"
-            String: "CONTESTED"
+            String: "POINT CONTESTED BY ENEMY"
           }
           Overrides {
             Name: "cs:TextColor"
@@ -337,7 +337,7 @@ Assets {
           Overrides {
             Name: "cs:IconBackground"
             AssetReference {
-              Id: 12399713587783554711
+              Id: 15095432925230038127
             }
           }
           Overrides {
@@ -370,15 +370,16 @@ Assets {
           Overrides {
             Name: "cs:IconBGOutlineColor"
             Color {
-              R: 0.590000033
-              G: 0.328211933
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "cs:Icon"
             AssetReference {
-              Id: 13876111209393535781
+              Id: 6476434261817820781
             }
           }
           Overrides {
@@ -417,7 +418,8 @@ Assets {
           Overrides {
             Name: "cs:SideFlairColor"
             Color {
-              B: 0.8
+              R: 0.99
+              A: 0.958000064
             }
           }
           Overrides {
@@ -484,7 +486,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 16361373563377273171
+            Id: 6602187678221116664
           }
         }
       }
@@ -571,7 +573,7 @@ Assets {
         Control {
           Width: 505
           Height: 70
-          UIY: 370.486755
+          UIY: 200
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1939,8 +1941,8 @@ Assets {
               Id: 13575128885289472533
             }
             Color {
-              R: 0.919999957
-              G: 0.383841068
+              G: 0.461331934
+              B: 0.697916687
               A: 1
             }
             TeamSettings {
@@ -3359,12 +3361,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12399713587783554711
-      Name: "Sci-fi Ability Red 033"
+      Id: 15095432925230038127
+      Name: "Sci-fi Ability Blue 018"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Red_033"
+        AssetId: "UI_SciFi_Ability_Blue_018"
       }
     }
     Assets {
@@ -3377,12 +3379,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13876111209393535781
-      Name: "Radio Dish"
+      Id: 6476434261817820781
+      Name: "Icon Flag"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_035"
+        AssetId: "Icon_Flag"
       }
     }
     Assets {
@@ -3440,30 +3442,12 @@ Assets {
       }
     }
     Assets {
-      Id: 15095432925230038127
-      Name: "Sci-fi Ability Blue 018"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Blue_018"
-      }
-    }
-    Assets {
       Id: 13575128885289472533
       Name: "Frame Outlined Thick 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "FrameFlat_020"
-      }
-    }
-    Assets {
-      Id: 6476434261817820781
-      Name: "Icon Flag"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Flag"
       }
     }
     Assets {

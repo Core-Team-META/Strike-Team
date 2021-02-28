@@ -1,13 +1,13 @@
 Assets {
-  Id: 3356687732227219655
-  Name: "SFX_PointSecured_UI_Alert"
+  Id: 1063977185561866369
+  Name: "ALERTsfxUI_PointSecured"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 7103290513848576820
       Objects {
         Id: 7103290513848576820
-        Name: "SFX_PointSecured_UI_2"
+        Name: "ALERTsfxUI_PointSecured"
         Transform {
           Scale {
             X: 1
@@ -607,7 +607,7 @@ Assets {
         Control {
           Width: 505
           Height: 70
-          UIY: 197.593185
+          UIY: 200
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"

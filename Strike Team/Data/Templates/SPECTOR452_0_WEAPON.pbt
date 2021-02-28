@@ -138,7 +138,7 @@ Assets {
               Id: 5936961085923459411
             }
             MuzzleFlashAssetRef {
-              Id: 10747423591324880093
+              Id: 11076655065379965386
             }
             TrailAssetRef {
               Id: 9023864673320310867

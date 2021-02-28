@@ -104,7 +104,7 @@ Assets {
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1.497
+            Volume: 1.99737298
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -193,7 +193,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: 1430.11865
-            Volume: 1.497
+            Volume: 1.99737298
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -240,7 +240,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -649.905518
-            Volume: 2.151
+            Volume: 2.55087185
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -285,7 +285,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -912.056
-            Volume: 1.497
+            Volume: 1.99737298
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -332,7 +332,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -1646.17053
-            Volume: 2.151
+            Volume: 2.55087185
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true

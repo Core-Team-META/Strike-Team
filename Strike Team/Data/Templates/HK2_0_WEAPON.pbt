@@ -379,11 +379,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 45
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 70
+            Float: 65
           }
         }
         Collidable_v2 {
@@ -681,19 +681,19 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 62
+            Float: 32
           }
           Overrides {
             Name: "cs:RecoilYMin"
-            Float: 21
+            Float: 17
           }
           Overrides {
             Name: "cs:RecoilXMin"
-            Float: -5
+            Float: -1
           }
           Overrides {
             Name: "cs:RecoilXMax"
-            Float: 5
+            Float: 1
           }
           Overrides {
             Name: "cs:EnableRecovery"
@@ -701,11 +701,7 @@ Assets {
           }
           Overrides {
             Name: "cs:AimYReduction"
-            Float: 0.65
-          }
-          Overrides {
-            Name: "cs:AimXReduction"
-            Float: 0.25
+            Float: 0.75
           }
         }
         Collidable_v2 {
