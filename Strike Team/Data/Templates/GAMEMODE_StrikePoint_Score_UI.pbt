@@ -712,7 +712,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 96
@@ -769,7 +769,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 1029
@@ -1068,7 +1068,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 151
@@ -1127,7 +1127,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 88
@@ -1184,7 +1184,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 46
@@ -1247,7 +1247,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 46
@@ -1311,7 +1311,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 46
@@ -2083,7 +2083,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 12518523058896282728
+              Id: 6476434261817820781
             }
             Color {
               R: 0.13000001
@@ -2141,7 +2141,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 12518523058896282728
+              Id: 6476434261817820781
             }
             Color {
               R: 0.863157392
@@ -2197,7 +2197,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 12518523058896282728
+              Id: 6476434261817820781
             }
             Color {
               G: 0.63576144
@@ -6755,15 +6755,6 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_27"
-      }
-    }
-    Assets {
-      Id: 12518523058896282728
-      Name: "Flag Pole"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_038"
       }
     }
     Assets {
