@@ -486,17 +486,13 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 92314205325438637
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 777066251803753357
       value {
@@ -504,114 +500,13 @@ Objects {
           Name: "Name"
           String: "EquipmentHandler"
         }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3068707792704928713
-      value {
         Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
+          Name: "Position"
+          Vector {
           }
         }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7211147244113034258
-      value {
         Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8483789499645505697
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9138667974128995378
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9987066493247879885
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-            Yaw: 90
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10789572415198627613
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11200075862270066853
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11522806283404821684
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11721462640717255011
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15806395192495462933
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18334224967386857407
-      value {
-        Overrides {
-          Name: "cs:RotationOffset"
+          Name: "Rotation"
           Rotator {
           }
         }
