@@ -82,7 +82,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 13876111209393535781
+              Id: 12518523058896282728
             }
             Color {
               R: 1
@@ -250,12 +250,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13876111209393535781
-      Name: "Radio Dish"
+      Id: 12518523058896282728
+      Name: "Flag Pole"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_035"
+        AssetId: "UI_Military_Icon_038"
       }
     }
     Assets {
