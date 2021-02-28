@@ -8347,7 +8347,7 @@ Assets {
           Overrides {
             Name: "cs:SFX_PointSecured_UI"
             AssetReference {
-              Id: 6987665070203070799
+              Id: 841534158063459245
             }
           }
           Overrides {

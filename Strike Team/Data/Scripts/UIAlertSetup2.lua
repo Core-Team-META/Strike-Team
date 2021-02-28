@@ -95,7 +95,7 @@ local topTextPanelRef = script:GetCustomProperty("TopTextPanelRef"):WaitForObjec
 local bottomTextPanelRef = script:GetCustomProperty("BottomTextPanelRef"):WaitForObject()
 
 local topTextX = topTextPanelRef.x
-local topTextInitialY = bottomTextPanelRef.y
+local topTextInitialY = bottomTextPanelRef.x
 
 local topText = script:GetCustomProperty("TopText")
 local bottomText = script:GetCustomProperty("BottomText")
@@ -208,24 +208,25 @@ function SetAnimationPositions()
 
     PANEL.width = 0
 
-    -- topTextPanelRef.x = -250
-    bottomTextPanelRef.y = 100
 
-    -- iconBackdropPanelRef.y = -250
-    -- iconPanelRef.y = -250
+    topTextPanelRef.x = -250
+    bottomTextPanelRef.x = 250
+
+    iconBackdropPanelRef.y = -250
+    iconPanelRef.y = -250
 
     local flairColor = sideFlairColor
 
     for _, flair in pairs(sideFlairPanelRef:GetChildren()) do
- 
+
         if (flair.name == "Right 1" or flair.name == "Left 1") then
-            flairColor.a = 1
+            flairColor.a = 0.33
             flair:SetColor(flairColor)
         elseif (flair.name == "Right 2" or flair.name == "Left 2") then
             flairColor.a = 0.66
             flair:SetColor(flairColor)
         elseif (flair.name == "Right 3" or flair.name == "Left 3") then
-            flairColor.a = 0.33
+            flairColor.a = 1
             flair:SetColor(flairColor)
         end
         flair.y = 100
@@ -241,13 +242,13 @@ function DoAnimations()
     end
 
     EaseUI.EaseWidth(PANEL, panelWidth, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
-    -- EaseUI.EaseY(iconBackdropPanelRef, iconBackdropInitialPositionY, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
-    -- EaseUI.EaseY(iconPanelRef, iconInitialPositionY, 1.2, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+    EaseUI.EaseY(iconBackdropPanelRef, iconBackdropInitialPositionY, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+    EaseUI.EaseY(iconPanelRef, iconInitialPositionY, 1.2, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
 
     Task.Wait(0.25)
 
-    -- EaseUI.EaseX(topTextPanelRef, topTextX, 0.5, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
-    EaseUI.EaseY(bottomTextPanelRef, topTextInitialY, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+    EaseUI.EaseX(topTextPanelRef, topTextX, 0.5, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+    EaseUI.EaseX(bottomTextPanelRef, topTextInitialY, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
 
 	AUDIO_STING_1:Play()
 	AUDIO_STING_2:Play()
@@ -257,7 +258,6 @@ function DoAnimations()
 
     local flairAnimTime = 0.2
     for _, flair in pairs(sideFlairPanelRef:GetChildren()) do
-
         if (flair.name == "Right 1") then
             EaseUI.EaseY(flair, 0, flairAnimTime, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.OUT)
         elseif (flair.name == "Right 2") then
@@ -282,18 +282,26 @@ function DoAnimations()
 
     end
 
-	-- Task.Wait(animateOutDelay)
-	-- EaseUI.EaseY(PANEL, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+	Task.Wait(animateOutDelay)
+	EaseUI.EaseY(PANEL, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+--	EaseUI.EaseY(PANEL, .21, flairAnimTime, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.OUT)
+    -- Task.Wait(animateOutDelay)
+    -- EaseUI.EaseY(PANEL, -150, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
 
-    -- debug
+    -- -- debug
     -- Task.Wait(animateOutDelay)
     -- PANEL.y = panelInitialY
 end
 
+
+-- EaseUI.EaseY(propTextMessage, -3.4, .15, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+-- EaseUI.EaseY(propTextMessageShadow, -1.4, .15, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+-- Task.Wait(.1)
+
 ------------------------------------------------------------------------------------------------------------------------
 -- TEST FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
-
+--[[
 function OnBindingPressed(player, binding)
 	print("player " .. player.name .. " pressed binding: " .. binding)
 	if (binding == "ability_extra_20") then 
@@ -307,7 +315,7 @@ function OnPlayerJoined(player)
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
---
+--]]
 ------------------------------------------------------------------------------------------------------------------------
 -- AUTO PLAY ANIMATION
 ------------------------------------------------------------------------------------------------------------------------
@@ -318,3 +326,27 @@ if (not DEBUG_UI) then
     DoAnimations()
 
 end
+
+
+
+
+
+
+    -- EaseUI.EaseX(TEXT_LEFT_PANEL, textLeftInitial, 0.60, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+    -- EaseUI.EaseX(TEXT_RIGHT_PANEL, textRightInitial, 0.60, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+
+    -- EaseUI.EaseY(CENTER_ICON_PANEL, 0, 0.70, EaseUI.EasingEquation.QUINT, EaseUI.EasingDirection.INOUT)
+
+
+    -- Task.Wait(2.5)
+    -- EaseUI.EaseY(PANEL, -1500, 0.5, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+-- EaseUI.EaseX(propSliverLeftBottom, -330, .40, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+-- EaseUI.EaseX(propSliverLeftMiddle, -320, .46, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+-- EaseUI.EaseX(propSliverLeftTop, -325, .52, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+
+-- EaseUI.EaseX(propSliverRightBottom, 330, .40, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+-- EaseUI.EaseX(propSliverRightMiddle, 325, .46, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+-- EaseUI.EaseX(propSliverRightTop, 320, .52, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+
+-- Task.Wait(2.4)
+-- EaseUI.EaseY(propUIPanel, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
