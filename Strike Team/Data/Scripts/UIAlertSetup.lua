@@ -282,8 +282,8 @@ function DoAnimations()
 
     end
 
-	-- Task.Wait(animateOutDelay)
-	-- EaseUI.EaseY(PANEL, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
+	Task.Wait(animateOutDelay)
+	EaseUI.EaseY(PANEL, -1500, .21, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.IN)
 
     -- debug
     -- Task.Wait(animateOutDelay)
