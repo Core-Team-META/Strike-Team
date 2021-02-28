@@ -12,11 +12,11 @@ if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
 
-WEAPON.clientUserData.reloading = false 
-
 while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
 while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
 
+
+WEAPON.clientUserData.reloading = false 
 
 function Reload()
     WEAPON.clientUserData.Ammo = MAX_AMMO
