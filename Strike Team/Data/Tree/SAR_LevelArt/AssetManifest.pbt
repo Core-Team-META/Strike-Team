@@ -656,6 +656,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12704764869057814971
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
+  }
+}
+Assets {
   Id: 12630862952169066180
   Name: "Pipe"
   PlatformAssetType: 1
@@ -761,6 +770,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_simple_150cm_001"
+  }
+}
+Assets {
+  Id: 12010703149412731443
+  Name: "Street Light 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_light_001"
   }
 }
 Assets {
@@ -1139,6 +1157,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
+  }
+}
+Assets {
+  Id: 6740745712566776508
+  Name: "Street Utility Box 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_utility_box_002"
   }
 }
 Assets {

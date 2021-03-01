@@ -21,7 +21,6 @@ Objects {
   ChildIds: 18403365770942958148
   ChildIds: 15996519478743163530
   ChildIds: 182202056905055355
-  ChildIds: 12937397396220547087
   ChildIds: 15006199197364173628
   ChildIds: 9885239735842562479
   ChildIds: 10756964305178716171
@@ -49,9 +48,7 @@ Objects {
   ChildIds: 878164729500039173
   ChildIds: 5767901111373242683
   ChildIds: 3856236761116484632
-  ChildIds: 8714292229287676197
   ChildIds: 688330080612844823
-  ChildIds: 10181050061591503912
   ChildIds: 3691729693515745978
   ChildIds: 16668572215650934254
   ChildIds: 3493508022220586851
@@ -4545,9 +4542,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -380.91333
+      X: -354.686646
       Y: 6128.14893
-      Z: 847.705322
+      Z: 794.349548
     }
     Rotation {
     }
@@ -4933,9 +4930,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2988.05811
-      Y: 5640.16357
-      Z: 103.677948
+      X: 2894.50391
+      Y: 5875.73486
+      Z: 41.1252441
     }
     Rotation {
     }
@@ -4996,9 +4993,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4074.72852
-      Y: 5640.16357
-      Z: 103.677948
+      X: 4202.61133
+      Y: 5788.98975
+      Z: 66.1677551
     }
     Rotation {
     }
@@ -5123,9 +5120,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4608.52148
+      X: 4611.11768
       Y: 4352.82861
-      Z: 284.390656
+      Z: 260.693909
     }
     Rotation {
     }
@@ -5182,82 +5179,18 @@ Objects {
   }
 }
 Objects {
-  Id: 10181050061591503912
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: 6298.36279
-      Y: 4810.62451
-      Z: 154.935822
-    }
-    Rotation {
-      Yaw: 177.075943
-    }
-    Scale {
-      X: 1.24475753
-      Y: 1.24475753
-      Z: 1.24475753
-    }
-  }
-  ParentId: 612199423538572622
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Nature_Leaves:id"
-      AssetReference {
-        Id: 14633748508747893171
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.26000002
-        G: 0.225333363
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16110182342503554212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableDistanceFieldLighting: true
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10181050061591503912
-    SubobjectId: 9817896821800238092
-    InstanceId: 12787856947412629042
-    TemplateId: 17534345071700735697
-  }
-}
-Objects {
   Id: 688330080612844823
   Name: "Bush 02"
   Transform {
     Location {
       X: 6598.96094
-      Y: 4488.51221
-      Z: 154.935822
+      Y: 3692.9165
+      Z: -8.83224487
     }
     Rotation {
       Pitch: 6.72695065
       Yaw: 67.4640884
-      Roll: -2.78280497
+      Roll: -2.7828064
     }
     Scale {
       X: 1.24475753
@@ -5312,79 +5245,16 @@ Objects {
   }
 }
 Objects {
-  Id: 8714292229287676197
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: 6598.96094
-      Y: 4740.78955
-      Z: 154.935822
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.72054029
-      Y: 1.72054029
-      Z: 1.72054029
-    }
-  }
-  ParentId: 612199423538572622
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Nature_Leaves:id"
-      AssetReference {
-        Id: 14633748508747893171
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.26000002
-        G: 0.225333363
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16110182342503554212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableDistanceFieldLighting: true
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8714292229287676197
-    SubobjectId: 9817896821800238092
-    InstanceId: 16390135241876918200
-    TemplateId: 17534345071700735697
-  }
-}
-Objects {
   Id: 3856236761116484632
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5977.75781
-      Y: 3900.70654
+      X: 5848.83545
+      Y: 3715.33936
       Z: 227.976929
     }
     Rotation {
-      Pitch: -14.4604521
+      Pitch: -14.4604492
     }
     Scale {
       X: 1
@@ -7033,77 +6903,20 @@ Objects {
   }
 }
 Objects {
-  Id: 12937397396220547087
-  Name: "Bush 02"
-  Transform {
-    Location {
-      X: 2097.61133
-      Y: 6362.9165
-      Z: 51.1673279
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.50000024
-      Y: 2.50000024
-      Z: 2.50000024
-    }
-  }
-  ParentId: 612199423538572622
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.26000002
-        G: 0.225333363
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Nature_Leaves:id"
-      AssetReference {
-        Id: 14633748508747893171
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16110182342503554212
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableDistanceFieldLighting: true
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 182202056905055355
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3072.61133
-      Y: 6362.9165
-      Z: 51.1676941
+      X: 3487.61133
+      Y: 5851.12549
+      Z: -78.8322449
     }
     Rotation {
     }
     Scale {
-      X: 2.50000024
-      Y: 2.50000024
-      Z: 2.50000024
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
     }
   }
   ParentId: 612199423538572622
@@ -14906,92 +14719,6 @@ Objects {
   }
 }
 Objects {
-  Id: 18404678778200737333
-  Name: "SAR_Bush (Pyramid collision)"
-  Transform {
-    Location {
-      X: 8346.35
-      Y: 12125.5957
-      Z: -141.231934
-    }
-    Rotation {
-      Pitch: 6.72695065
-      Yaw: 67.4640503
-      Roll: -2.7828052
-    }
-    Scale {
-      X: 1.24475753
-      Y: 1.24475753
-      Z: 1.24475753
-    }
-  }
-  ParentId: 7560471041159094325
-  ChildIds: 3695839808803182392
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 18404678778200737333
-    SubobjectId: 9126492408469569326
-    InstanceId: 17290437290942619051
-    TemplateId: 17534345071700735697
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 3695839808803182392
-  Name: "Pyramid - 6-Sided"
-  Transform {
-    Location {
-      X: -9.51465
-      Y: -7.51903439
-      Z: 60.8691711
-    }
-    Rotation {
-      Yaw: 179.999954
-    }
-    Scale {
-      X: 2.75462365
-      Y: 2.75462365
-      Z: 1.59729
-    }
-  }
-  ParentId: 18404678778200737333
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14751433072301531162
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 3695839808803182392
-    SubobjectId: 12864285024547368483
-    InstanceId: 17290437290942619051
-    TemplateId: 17534345071700735697
-  }
-}
-Objects {
   Id: 10234605822316759559
   Name: "SAR_Bush (Pyramid collision)"
   Transform {
@@ -16588,6 +16315,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16641,6 +16372,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -16711,6 +16446,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -16750,9 +16489,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2459.52686
-            Y: 7334.4873
-            Z: 287.896698
+            X: 2575.72949
+            Y: 7541.63672
+            Z: 287.896667
           }
         }
         Overrides {
@@ -16768,7 +16507,7 @@ Objects {
           Rotator {
             Pitch: 11.4238873
             Yaw: -107.525467
-            Roll: -3.57910395
+            Roll: -3.57910156
           }
         }
         Overrides {
@@ -16777,6 +16516,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -16819,8 +16562,8 @@ Objects {
           Name: "Position"
           Vector {
             X: 2304.64307
-            Y: 7191.07813
-            Z: 352.91214
+            Y: 7491.63672
+            Z: 283.326447
           }
         }
         Overrides {
@@ -16836,7 +16579,7 @@ Objects {
           Rotator {
             Pitch: 11.4238873
             Yaw: -107.525467
-            Roll: -3.57910395
+            Roll: -3.57910156
           }
         }
         Overrides {
@@ -16845,6 +16588,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -16884,9 +16631,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3419.40039
-            Y: 7191.07813
-            Z: 361.580048
+            X: 3123.76953
+            Y: 7477.66
+            Z: 251.298828
           }
         }
         Overrides {
@@ -16902,7 +16649,7 @@ Objects {
           Rotator {
             Pitch: 11.4238873
             Yaw: -107.525467
-            Roll: -3.57910395
+            Roll: -3.57910156
           }
         }
         Overrides {
@@ -16911,6 +16658,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -16977,6 +16728,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17039,6 +16794,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17075,9 +16834,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5363.10547
-            Y: 5700.16
-            Z: 402.773132
+            X: 5240.45068
+            Y: 4698.62793
+            Z: 402.773071
           }
         }
         Overrides {
@@ -17099,6 +16858,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17137,9 +16900,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5756.20361
-            Y: 6099.52148
-            Z: 347.935303
+            X: 5360.47314
+            Y: 6526.49512
+            Z: 347.935333
           }
         }
         Overrides {
@@ -17161,6 +16924,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17199,9 +16966,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5466.61426
-            Y: 6365.44434
-            Z: 391.304352
+            X: 6040.72949
+            Y: 5626.63672
+            Z: 288.326416
           }
         }
         Overrides {
@@ -17223,6 +16990,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17262,7 +17033,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 5594.04102
-            Y: 6250.42383
+            Y: 6436.63672
             Z: 322.667236
           }
         }
@@ -17285,6 +17056,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17323,9 +17098,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5938.94238
-            Y: 5982.22266
-            Z: 323.681183
+            X: 5149.11719
+            Y: 6492.70898
+            Z: 323.681122
           }
         }
         Overrides {
@@ -17347,6 +17122,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17411,6 +17190,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17471,6 +17254,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17535,6 +17322,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17595,6 +17386,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17659,6 +17454,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17719,6 +17518,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17783,6 +17586,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17836,6 +17643,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -17900,6 +17711,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -17960,6 +17775,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18024,6 +17843,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18077,6 +17900,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18141,6 +17968,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18194,6 +18025,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18258,6 +18093,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18318,6 +18157,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18382,6 +18225,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18442,6 +18289,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18506,6 +18357,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18566,6 +18421,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18630,6 +18489,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18690,6 +18553,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18754,6 +18621,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18814,6 +18685,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -18878,6 +18753,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18940,6 +18819,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -18993,6 +18876,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19059,6 +18946,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19121,6 +19012,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19187,6 +19082,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19250,6 +19149,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19303,6 +19206,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19367,6 +19274,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19429,6 +19340,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19482,6 +19397,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19539,6 +19458,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19592,6 +19515,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19658,6 +19585,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19712,6 +19643,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19769,6 +19704,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19822,6 +19761,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19879,6 +19822,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -19932,6 +19879,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -19989,6 +19940,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20044,6 +19999,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20097,6 +20056,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -20163,6 +20126,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20224,6 +20191,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -20289,6 +20260,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20349,6 +20324,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -20413,6 +20392,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20473,6 +20456,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -20537,6 +20524,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20599,6 +20590,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20652,6 +20647,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -20718,6 +20717,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20772,6 +20775,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -20830,6 +20837,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20886,6 +20897,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -20939,6 +20954,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21004,6 +21023,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21033,9 +21056,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3500.91602
+            X: 3813.29199
             Y: 6057.67
-            Z: 483.692871
+            Z: 414.277802
           }
         }
         Overrides {
@@ -21057,6 +21080,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21095,8 +21122,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3627.20264
-            Y: 7353.53711
+            X: 3476.29883
+            Y: 7518.99512
             Z: 250.172607
           }
         }
@@ -21120,6 +21147,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21152,7 +21183,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 3974.52783
-            Y: 7232.68848
+            Y: 7017.41406
             Z: 250.172607
           }
         }
@@ -21175,6 +21206,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21239,6 +21274,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21301,6 +21340,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21354,6 +21397,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21411,6 +21458,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21464,6 +21515,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21521,6 +21576,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21574,6 +21633,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21632,6 +21695,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21686,6 +21753,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21744,6 +21815,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21799,6 +21874,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21852,6 +21931,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -21910,6 +21993,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -21963,6 +22050,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22029,6 +22120,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22085,6 +22180,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22139,6 +22238,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22204,6 +22307,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22257,6 +22364,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22315,6 +22426,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22368,6 +22483,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22425,6 +22544,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22478,6 +22601,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22536,6 +22663,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22590,6 +22721,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22648,6 +22783,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22702,6 +22841,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22760,6 +22903,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22813,6 +22960,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -22877,6 +23028,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -22937,6 +23092,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23002,6 +23161,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23062,6 +23225,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23126,6 +23293,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23186,6 +23357,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23250,6 +23425,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23310,6 +23489,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23374,6 +23557,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23436,6 +23623,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23490,6 +23681,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23548,6 +23743,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23601,6 +23800,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23658,6 +23861,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23713,6 +23920,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23766,6 +23977,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23825,6 +24040,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23881,6 +24100,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -23934,6 +24157,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -23992,6 +24219,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24045,6 +24276,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -24103,6 +24338,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24156,6 +24395,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -24214,6 +24457,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24267,6 +24514,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -24325,6 +24576,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24378,6 +24633,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -24435,6 +24694,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24488,6 +24751,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -24604,6 +24871,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24659,6 +24930,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24712,6 +24987,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }
@@ -24776,6 +25055,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24838,6 +25121,10 @@ Objects {
           Name: "DisableCastShadows"
           Bool: true
         }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -24891,6 +25178,10 @@ Objects {
         }
         Overrides {
           Name: "DisableCastShadows"
+          Bool: true
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
           Bool: true
         }
       }

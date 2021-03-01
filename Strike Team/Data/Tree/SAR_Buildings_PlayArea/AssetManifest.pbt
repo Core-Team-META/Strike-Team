@@ -1168,3 +1168,12 @@ Assets {
     AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
   }
 }
+Assets {
+  Id: 70183373899417159
+  Name: "Prism - 3-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hq_001"
+  }
+}
