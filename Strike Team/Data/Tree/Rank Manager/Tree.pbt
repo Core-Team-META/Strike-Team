@@ -120,7 +120,7 @@ Objects {
       Int: 500
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 18038694607673579013
       }
@@ -163,7 +163,7 @@ Objects {
       Int: 70
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 2341986401574800100
       }
@@ -206,7 +206,7 @@ Objects {
       Int: 60
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 6990757834058209262
       }
@@ -249,7 +249,7 @@ Objects {
       Int: 50
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 1971320457932808294
       }
@@ -292,7 +292,7 @@ Objects {
       Int: 40
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 13475578394421058443
       }
@@ -335,7 +335,7 @@ Objects {
       Int: 30
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 16464293629172070287
       }
@@ -378,7 +378,7 @@ Objects {
       Int: 20
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 12963037428172175792
       }
@@ -421,14 +421,14 @@ Objects {
       Int: 10
     }
     Overrides {
-      Name: "cs:RankIcon"
+      Name: "cs:RankAcronym"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 1071269884770329892
       }
-    }
-    Overrides {
-      Name: "cs:RankAcronym"
-      String: ""
     }
   }
   Collidable_v2 {

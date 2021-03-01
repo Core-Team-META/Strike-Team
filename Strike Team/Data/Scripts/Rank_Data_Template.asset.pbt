@@ -5,7 +5,13 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:RankIcon"
+        Name: "cs:SmallRankIcon"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:LargeRankIcon"
         AssetReference {
           Id: 841534158063459245
         }
