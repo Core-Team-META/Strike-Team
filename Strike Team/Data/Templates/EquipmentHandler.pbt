@@ -4152,6 +4152,7 @@ Assets {
           }
         }
         ParentId: 12733346808813737482
+        ChildIds: 10065095363855225092
         ChildIds: 7264659339132706513
         ChildIds: 14217987289201631810
         Collidable_v2 {
@@ -4163,6 +4164,143 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Melee"
+        }
+      }
+      Objects {
+        Id: 10065095363855225092
+        Name: "Pan"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11838387021516346748
+        ChildIds: 3060115540773037701
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 3060115540773037701
+        Name: "Frying Pan"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10065095363855225092
+        ChildIds: 15394827217863815071
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 17419868764283913739
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 13453267371893310647
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "PN"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 6.20227575
+              Yaw: 78.8336945
+              Roll: -89.4206238
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 12211823050806313697
+            }
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 1.4
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 15394827217863815071
+        Name: "Bacon\'n\'Egg"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1627333988980896669
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "BE"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
         }
       }
       Objects {
@@ -6939,7 +7077,6 @@ Assets {
           }
         }
         ParentId: 12733346808813737482
-        ChildIds: 10065095363855225092
         ChildIds: 17554687442063576156
         ChildIds: 10552295100361777182
         ChildIds: 1529941553976567521
@@ -6955,142 +7092,6 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Special"
-        }
-      }
-      Objects {
-        Id: 10065095363855225092
-        Name: "Pan"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1626208827454051622
-        ChildIds: 3060115540773037701
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsFilePartition: true
-        }
-      }
-      Objects {
-        Id: 3060115540773037701
-        Name: "Frying Pan"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10065095363855225092
-        ChildIds: 15394827217863815071
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 17419868764283913739
-            }
-          }
-          Overrides {
-            Name: "cs:DefaultSkin"
-            AssetReference {
-              Id: 13453267371893310647
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "PN"
-          }
-          Overrides {
-            Name: "cs:Hoister"
-            String: "Back"
-          }
-          Overrides {
-            Name: "cs:RotationOffset"
-            Rotator {
-              Yaw: 90
-              Roll: 90
-            }
-          }
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 12211823050806313697
-            }
-          }
-          Overrides {
-            Name: "cs:Scale"
-            Float: 1
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 15394827217863815071
-        Name: "Bacon\'n\'Egg"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3060115540773037701
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 1627333988980896669
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "BE"
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "EPIC"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
         }
       }
       Objects {
