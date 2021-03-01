@@ -1719,7 +1719,7 @@ Objects {
 }
 Objects {
   Id: 2422145611934173127
-  Name: "Strike Points"
+  Name: "STRIKE POINTS"
   Transform {
     Location {
     }
@@ -2629,6 +2629,12 @@ Objects {
       Name: "cs:NETWORKED"
       ObjectReference {
         SelfId: 10857687478960459655
+      }
+    }
+    Overrides {
+      Name: "cs:INFOPANEL"
+      ObjectReference {
+        SelfId: 36987012904321051
       }
     }
   }
