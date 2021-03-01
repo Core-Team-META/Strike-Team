@@ -168,7 +168,7 @@ Assets {
             BurstCount: 1
             BurstDuration: 3.9
             AttackCooldown: 0.25
-            Range: 8000
+            Range: 5000
             ImpactPlayerAssetRef {
               Id: 307406115803496087
             }
@@ -379,27 +379,27 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Range"
-            Float: 2000
+            Float: 3000
           }
           Overrides {
             Name: "cs:RangeDamage"
-            Float: 22
+            Float: 8
           }
           Overrides {
             Name: "cs:RangeDamageHeadshot"
-            Float: 22
+            Float: 8
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 38
+            Float: 40
           }
           Overrides {
             Name: "cs:BlendAmount"
-            Float: 0.3
+            Float: 0.08
           }
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 38
+            Float: 40
           }
         }
         Collidable_v2 {

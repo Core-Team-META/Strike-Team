@@ -169,7 +169,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 11.1
+            BurstDuration: 10.5
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -381,11 +381,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 38
+            Float: 46
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 56
+            Float: 64
           }
         }
         Collidable_v2 {
@@ -527,7 +527,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.5
+            Float: 0.45
           }
           Overrides {
             Name: "cs:SpreadWalkPrecision"
@@ -543,7 +543,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.45
+            Float: 0.35
           }
         }
         Collidable_v2 {
@@ -683,7 +683,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 45
+            Float: 75
           }
           Overrides {
             Name: "cs:RecoilYMin"
@@ -691,15 +691,31 @@ Assets {
           }
           Overrides {
             Name: "cs:RecoilXMin"
-            Float: -1
+            Float: -12
           }
           Overrides {
             Name: "cs:RecoilXMax"
-            Float: 1
+            Float: 25
           }
           Overrides {
             Name: "cs:EnableRecovery"
             Bool: false
+          }
+          Overrides {
+            Name: "cs:AimYReduction"
+            Float: 0.25
+          }
+          Overrides {
+            Name: "cs:AimXReduction"
+            Float: 0.25
+          }
+          Overrides {
+            Name: "cs:CrouchYReduction"
+            Float: 0.4
+          }
+          Overrides {
+            Name: "cs:CrouchXReduction"
+            Float: 0.2
           }
         }
         Collidable_v2 {
