@@ -649,7 +649,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU HUMILIATED"
+            Label: "YOU CRUSHED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -711,7 +711,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU HUMILIATED"
+            Label: "YOU CRUSHED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -773,7 +773,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU HUMILIATED"
+            Label: "YOU CRUSHED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -835,7 +835,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU HUMILIATED"
+            Label: "YOU CRUSHED"
             Color {
               R: 0.025
               G: 0.00945083704
@@ -895,7 +895,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU HUMILIATED"
+            Label: "YOU CRUSHED"
             Color {
               R: 0.88
               G: 0.0524503551

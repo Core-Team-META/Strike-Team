@@ -17,14 +17,14 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Internal custom properties --
 local ENEMY_PROGRESS_TEXT = script:GetCustomProperty("ENEMY_PROGRESS_TEXT"):WaitForObject()
 local TEAM_PROGRESS_TEXT = script:GetCustomProperty("TEAM_PROGRESS_TEXT"):WaitForObject()
-local MAX_SCORE_TEXT = script:GetCustomProperty("MAX_SCORE"):WaitForObject()
+-- local MAX_SCORE_TEXT = script:GetCustomProperty("MAX_SCORE"):WaitForObject()
 local TEAM_SCORE = script:GetCustomProperty("TEAM_SCORE"):WaitForObject()
 local ENEMY_SCORE = script:GetCustomProperty("ENEMY_SCORE"):WaitForObject()
 
 local lastTeamScore, lastEnemyScore
 
 -- User exposed properties --
-local SHOW_MAX_SCORE = true
+local SHOW_MAX_SCORE = false
 
 MAX_SCORE = 100
 
@@ -96,7 +96,7 @@ function Tick(deltaTime)
     enemyTeam = GetEnemyTeam()
     team = LOCAL_PLAYER.team
 
-    MAX_SCORE_TEXT.text = tostring(MAX_SCORE)
+    -- MAX_SCORE_TEXT.text = tostring(MAX_SCORE)
 
     local teamScore = Game.GetTeamScore(team)
     local enemyScore = Game.GetTeamScore(enemyTeam)
