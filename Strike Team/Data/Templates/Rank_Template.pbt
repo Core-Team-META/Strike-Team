@@ -7,7 +7,7 @@ Assets {
       RootId: 14673802098259028870
       Objects {
         Id: 14673802098259028870
-        Name: "Rank_Template_Test"
+        Name: "Rank_Template"
         Transform {
           Scale {
             X: 1
@@ -94,12 +94,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }

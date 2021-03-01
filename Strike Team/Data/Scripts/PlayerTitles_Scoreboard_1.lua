@@ -12,6 +12,10 @@
 local PlayerTitles = require(script:GetCustomProperty("PlayerTitles"))
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
+while not _G.PLAYER_RANKS do
+	Task.Wait()
+end
+local RANKS = _G.PLAYER_RANKS
 ------------------------------------------------------------------------------------------------------------------------
 --	OBJECTS AND REFERENCES
 ------------------------------------------------------------------------------------------------------------------------
@@ -72,7 +76,6 @@ local EASING_DIRECTION_OUT = Scoreboard:GetCustomProperty("EasingDirectionOut")
 local LEADERBOARD_STATS = script:GetChildren()
 
 local SORTBY = Scoreboard:GetCustomProperty("SortBy")
-
 
 local COLOR_DEFAULT = Color.New(1, 1, 1, 1)
 
@@ -168,17 +171,33 @@ local function CreatePlayerLeaderstat(
 	return true
 end
 
+local function UpdatePlayerRank(player, entry)
+	if RANKS.ShouldUpdatePlayerRank(player) then
+		local rankData = RANKS.GetPlayerRankData(player)
+		for _, child in ipairs(entry.clientUserData.RankParent:GetChildren()) do
+			if Object.IsValid(child) then
+				child:Destroy()
+			end
+		end
+		player.clientUserData.rankIcon = World.SpawnAsset(rankData.icon, {parent = entry.clientUserData.RankParent})
+	end
+	entry.clientUserData.PlayerRank.text = tostring(player:GetResource("Level"))
+end
+
 --	nil UpdatePlayerEntries()
 --	Re-orders all of the players in the list
 local function UpdatePlayerEntries()
 	local StortTable = {}
 
-	for _,v in pairs(entries) do
-		table.insert( StortTable,v)
+	for _, v in pairs(entries) do
+		table.insert(StortTable, v)
 	end
-	table.sort(StortTable, function(a,b)
-		return a.owner:GetResource(SORTBY) > b.owner:GetResource(SORTBY)
-	end)
+	table.sort(
+		StortTable,
+		function(a, b)
+			return a.owner:GetResource(SORTBY) > b.owner:GetResource(SORTBY)
+		end
+	)
 
 	for index, entry in pairs(StortTable) do
 		entry.entry.y = (entry.entry.height * (index - 1)) + (GAP_BETWEEN_ENTRIES * (index - 1))
@@ -188,11 +207,19 @@ end
 --	nil CreatePlayerEntry(Player)
 --	Creates an entry on the Scoreboard for a player
 local function CreatePlayerEntry(player)
+	if entries[player] then
+		return
+	end
 	playerTeams[player] = player.team
-	ResourceEvents[player] = player.resourceChangedEvent:Connect(function() 
-		if not isVisible then return end
-		UpdatePlayerEntries() 
-	end)
+	ResourceEvents[player] =
+		player.resourceChangedEvent:Connect(
+		function()
+			if not isVisible then
+				return
+			end
+			UpdatePlayerEntries()
+		end
+	)
 	local title = PlayerTitles.GetPlayerTitle(player)
 
 	local entry =
@@ -210,13 +237,15 @@ local function CreatePlayerEntry(player)
 		owner = player
 	}
 
-	local playerNameText, teamColorImage, playerIconImage, socialIconImage, playerRank, playerIcon =
+	local playerNameText, teamColorImage, playerIconImage, socialIconImage, playerRank =
 		entry:GetCustomProperty("PlayerName"):WaitForObject(),
 		entry:GetCustomProperty("TeamColor"):WaitForObject(),
 		entry:GetCustomProperty("PlayerIcon"):WaitForObject(),
 		entry:GetCustomProperty("SocialIcon"):WaitForObject(),
-		entry:GetCustomProperty("PlayerRank"):WaitForObject(),
-		entry:GetCustomProperty("RankIcon"):WaitForObject()
+		entry:GetCustomProperty("PlayerRank"):WaitForObject()
+
+	entry.clientUserData.PlayerRank = playerRank
+	entry.clientUserData.RankParent = entry:GetCustomProperty("RankParent"):WaitForObject()
 
 	playerNameText.text = player.name
 
@@ -247,9 +276,7 @@ local function CreatePlayerEntry(player)
 		playerNameText:SetColor(PLAYER_NAME_COLOR)
 	end
 
-
-	playerRank.text = tostring(player:GetResource("Level"))
-
+	UpdatePlayerRank(player, entry)
 	local count = 0
 
 	-- Updated
@@ -286,7 +313,9 @@ local function DeletePlayerEntry(player)
 	end
 
 	entry:Destroy()
-	if ResourceEvents[player] then ResourceEvents[player]:Disconnect() end
+	if ResourceEvents[player] then
+		ResourceEvents[player]:Disconnect()
+	end
 	UpdatePlayerEntries()
 end
 
@@ -299,9 +328,7 @@ local function UpdatePlayerEntry(player)
 	if (not entry) then
 		return
 	end
-
-	local playerRank = entry:GetCustomProperty("PlayerRank"):WaitForObject()
-	playerRank.text = tostring(player:GetResource("Level"))
+	UpdatePlayerRank(player, entry)
 
 	local title = PlayerTitles.GetPlayerTitle(player)
 
@@ -371,7 +398,6 @@ local function OnBindingPressed(player, binding)
 	ForceOn()
 end
 
-
 local function OnBindingReleased(player, binding)
 	if (binding ~= TOGGLE_BINDING) then
 		return
@@ -379,8 +405,6 @@ local function OnBindingReleased(player, binding)
 
 	ForceOff()
 end
-
-
 
 --	nil UpdatePlayer(Player)
 --	Updates the leaderstats for a player
@@ -470,7 +494,9 @@ end
 --	nil Tick(deltaTime)
 --	Updates entries for all players and Header for LocalPlayer
 function Tick()
-	if not isVisible then return end
+	if not isVisible then
+		return
+	end
 	for _, player in pairs(Game.GetPlayers()) do
 		UpdatePlayer(player)
 
@@ -491,6 +517,10 @@ end
 Game.playerJoinedEvent:Connect(CreatePlayerEntry)
 Game.playerLeftEvent:Connect(DeletePlayerEntry)
 
+for _, player in ipairs(Game.GetPlayers()) do
+	CreatePlayerEntry(player)
+end
+
 function EventConnection()
 	if (#TOGGLE_EVENT > 0) then
 		Events.Connect(TOGGLE_EVENT, ForceToggle)
@@ -507,7 +537,6 @@ function EventConnection()
 	if (TOGGLE_BINDING) then
 		LocalPlayer.bindingPressedEvent:Connect(OnBindingPressed)
 		LocalPlayer.bindingReleasedEvent:Connect(OnBindingReleased)
-
 	end
 end
 EventConnection()

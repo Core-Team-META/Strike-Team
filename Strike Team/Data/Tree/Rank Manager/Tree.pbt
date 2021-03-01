@@ -76,6 +76,7 @@ Objects {
   }
   ParentId: 15549939467812718615
   ChildIds: 3642272189634449141
+  ChildIds: 17479389506015592094
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -86,6 +87,49 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17479389506015592094
+  Name: "Rank_Data_Template"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 50
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 10287275229357297273
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
   }
 }
 Objects {
