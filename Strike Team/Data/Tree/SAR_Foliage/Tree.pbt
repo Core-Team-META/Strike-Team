@@ -6560,13 +6560,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2247.38867
+      X: -2022.38867
       Y: 10407.916
-      Z: 834.67688
+      Z: 736.167725
     }
     Rotation {
       Yaw: -135
-      Roll: -14.6003685
+      Roll: -14.6003723
     }
     Scale {
       X: 1.90000021

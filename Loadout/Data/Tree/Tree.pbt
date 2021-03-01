@@ -21,7 +21,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 2442120868349784916
+  ChildIds: 1671268894188365002
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
@@ -667,9 +667,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2442120868349784916
+  Id: 1671268894188365002
   Name: "EquipmentHandler"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -704,7 +708,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 7703190141877310712
+      Id: 2061105466214076613
     }
   }
 }
