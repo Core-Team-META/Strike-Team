@@ -231,7 +231,9 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 		equipment:Destroy()
 	end
-
+	
+	player.movementControlMode = MovementControlMode.NONE
+	player.lookControlMode = LookControlMode.NONE
 	Task.Wait()
 
 	--SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id) -- topThreePlayerStats

@@ -1,13 +1,13 @@
 Assets {
-  Id: 5343945996030504866
-  Name: "SPECTOR452.0_WEAPON"
+  Id: 6349378119288501899
+  Name: "EQUALIZER2_0_WEAPON_1"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 13485202857273345291
       Objects {
         Id: 13485202857273345291
-        Name: "SPECTOR452.0_WEAPON"
+        Name: "EQUALIZER2.0_WEAPON"
         Transform {
           Scale {
             X: 0.99999994
@@ -138,7 +138,7 @@ Assets {
               Id: 5936961085923459411
             }
             MuzzleFlashAssetRef {
-              Id: 10747423591324880093
+              Id: 14869229924241283632
             }
             TrailAssetRef {
               Id: 9023864673320310867
@@ -149,8 +149,8 @@ Assets {
             UseReticle: true
             Muzzle {
               Location {
-                X: 25
-                Z: 10
+                X: 50
+                Y: 4.99999762
               }
               Rotation {
               }
@@ -170,7 +170,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 6
+            BurstDuration: 5
             AttackCooldown: 0.25
             Range: 70000
             ImpactPlayerAssetRef {
@@ -182,7 +182,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 65000
+            ProjectileSpeed: 55000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -384,11 +384,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 31
+            Float: 25
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 62
+            Float: 50
           }
         }
         Collidable_v2 {
@@ -455,6 +455,7 @@ Assets {
           }
         }
         ParentId: 13485202857273345291
+        ChildIds: 16487309099520585269
         ChildIds: 5281053076139050743
         ChildIds: 12572490076693369062
         ChildIds: 17816860091183329464
@@ -462,9 +463,8 @@ Assets {
         ChildIds: 16181055382112588404
         ChildIds: 18230547407548752521
         ChildIds: 10018712990668270082
-        ChildIds: 14598254733455142836
-        ChildIds: 13383335769755894456
-        ChildIds: 1876423834058843535
+        ChildIds: 335404330572443601
+        ChildIds: 1246129357212563979
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -475,6 +475,47 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 16487309099520585269
+        Name: "GetWeaponAbilities"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SHOOT_ABILITY"
+            ObjectReference {
+              SubObjectId: 8150984623336486395
+            }
+          }
+          Overrides {
+            Name: "cs:RELOAD_ABILITY"
+            ObjectReference {
+              SubObjectId: 12936874155887733097
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3881651977092051116
+          }
         }
       }
       Objects {
@@ -690,12 +731,12 @@ Assets {
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 1.5
+            Float: 2
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
             Vector2 {
-              Y: 0.25
+              Y: 0.3
             }
           }
         }
@@ -743,7 +784,7 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "Effects_1"
+          FilePartitionName: "Effects_7"
         }
       }
       Objects {
@@ -985,7 +1026,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14598254733455142836
+        Id: 335404330572443601
         Name: "Ammo2.0"
         Transform {
           Location {
@@ -1002,13 +1043,17 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 12
+            Int: 14
           }
           Overrides {
             Name: "cs:RELOAD_SOUND"
             AssetReference {
               Id: 7611242078719564322
             }
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
           }
         }
         Collidable_v2 {
@@ -1024,48 +1069,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13383335769755894456
-        Name: "GetWeaponAbilities"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.999999881
-            Y: 0.999999881
-            Z: 1
-          }
-        }
-        ParentId: 11497954094944826332
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SHOOT_ABILITY"
-            ObjectReference {
-              SubObjectId: 8150984623336486395
-            }
-          }
-          Overrides {
-            Name: "cs:RELOAD_ABILITY"
-            ObjectReference {
-              SubObjectId: 12936874155887733097
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3881651977092051116
-          }
-        }
-      }
-      Objects {
-        Id: 1876423834058843535
+        Id: 1246129357212563979
         Name: "WeaponFireController"
         Transform {
           Location {
@@ -1073,8 +1077,8 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 0.99999994
-            Y: 0.99999994
+            X: 1
+            Y: 1
             Z: 1
           }
         }
