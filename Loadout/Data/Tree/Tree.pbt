@@ -21,10 +21,10 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
+  ChildIds: 2442120868349784916
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
-  ChildIds: 9540270308253040293
   ChildIds: 65150042230850511
   ChildIds: 11951719430612397057
   ChildIds: 7420455323421467140
@@ -476,48 +476,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9540270308253040293
-  Name: "EquipmentHandler"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12469272091380785429
-    }
-  }
-}
-Objects {
   Id: 17855751618251119169
   Name: "LoadoutEquipment"
   Transform {
@@ -706,6 +664,48 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Purchase"
+  }
+}
+Objects {
+  Id: 2442120868349784916
+  Name: "EquipmentHandler"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7703190141877310712
+    }
   }
 }
 Objects {

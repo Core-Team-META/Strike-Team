@@ -933,8 +933,8 @@ Objects {
   }
 }
 Objects {
-  Id: 15688219361862503721
-  Name: "CommandPanel"
+  Id: 4046000927248889314
+  Name: "ChatHooks"
   Transform {
     Location {
     }
@@ -947,22 +947,24 @@ Objects {
     }
   }
   ParentId: 10671565427701169845
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Commands"
+      AssetReference {
+        Id: 4480426034829824473
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Command"
-  }
-  InstanceHistory {
-    SelfId: 15688219361862503721
-    SubobjectId: 11047162740706383888
-    InstanceId: 13367903298334009240
-    TemplateId: 1586377358280468348
-    WasRoot: true
+  Script {
+    ScriptAsset {
+      Id: 17154672043655382137
+    }
   }
 }
 Objects {

@@ -215,7 +215,6 @@ function ForceReset(player)
     end 
     if Object.IsValid(scopeInstance) then
         scopeInstance:Destroy()
-        scopeInstance.visibility = Visibility.FORCE_OFF
     end
     
     activeCamera.fieldOfView = cameraResetFOV

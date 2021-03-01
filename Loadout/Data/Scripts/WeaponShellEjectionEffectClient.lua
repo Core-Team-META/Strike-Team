@@ -24,12 +24,17 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local ATTACK_ABILITY = WEAPON:GetAbilities()[1]
+
+while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
+
+local RELOAD_ABILITY = WEAPON.clientUserData.RELOAD_ABILITY
+local ATTACK_ABILITY = WEAPON.clientUserData.SHOOT_ABILITY
 
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
 while not Object.IsValid(ATTACK_ABILITY) do
     Task.Wait()
-    ATTACK_ABILITY = WEAPON:GetAbilities()[1]
+    ATTACK_ABILITY =  WEAPON.clientUserData.SHOOT_ABILITY
 end
 
 -- Constant variables
