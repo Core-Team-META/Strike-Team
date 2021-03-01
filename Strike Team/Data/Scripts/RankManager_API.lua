@@ -80,5 +80,15 @@ function API.ShouldUpdatePlayerRank(player)
     end
 end
 
+function API.GetLargeRankIcon(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.largeIcon
+end
+
+function API.GetSmallRankIcon(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.icon
+end
+
 API.RegisterRanks(Rank_List)
 _G.PLAYER_RANKS = API

@@ -125,6 +125,12 @@ Objects {
         Id: 18038694607673579013
       }
     }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 6206695451198255795
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -166,6 +172,12 @@ Objects {
       Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 2341986401574800100
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 16033534981262231167
       }
     }
   }
@@ -211,6 +223,12 @@ Objects {
         Id: 6990757834058209262
       }
     }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 1858224861193319401
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -252,6 +270,12 @@ Objects {
       Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 1971320457932808294
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 11588335871885242546
       }
     }
   }
@@ -297,6 +321,12 @@ Objects {
         Id: 13475578394421058443
       }
     }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 5460760313332313700
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -340,6 +370,12 @@ Objects {
         Id: 16464293629172070287
       }
     }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 4999959790974616417
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -381,6 +417,12 @@ Objects {
       Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 12963037428172175792
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 2091995963699318591
       }
     }
   }
@@ -428,6 +470,12 @@ Objects {
       Name: "cs:SmallRankIcon"
       AssetReference {
         Id: 1071269884770329892
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 16645119797037747200
       }
     }
   }
