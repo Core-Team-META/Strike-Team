@@ -29,6 +29,9 @@ local defaultCamera = nil
 local holderEntry = {}
 local numberOfHolders = 0
 
+local animationTask = nil
+local passToTask = {}
+
 function InitializeLootBox()
 	local isDestination = false
 	local isReload = false
@@ -235,18 +238,30 @@ function Skip()
 	if slot == "Perks" then
 		slot = "Passive"
 	end
+	
 	if slot ~= "Special" then
 		WEAPON_TEXT.text =
 			string.format("You unlocked a new %s \n %s ", slot, LOCAL_PLAYER.clientUserData.selectedWeapon:GetName())
 	else
 		WEAPON_TEXT.text = string.format("You have gained %s", LOCAL_PLAYER.clientUserData.selectedWeapon:GetName())
 	end
+	
 	Task.Spawn(
 		function()
 			WEAPON_TEXT.visibility = Visibility.FORCE_OFF
 		end,
 		3
 	)
+	
+	if animationTask then
+	
+		animationTask:Cancel()
+		animationTask = nil
+		
+	end
+	
+	RackSFX:Stop()
+	
 	CleanLootBox()
 	Events.Broadcast("HideSkipButton")
 end
@@ -274,6 +289,15 @@ function CleanLootBox()
 end
 
 function RollAnimation(player, Main)
+
+	passToTask[1] = player 
+	passToTask[2] = Main
+
+	animationTask = Task.Spawn(function()
+
+	local player = passToTask[1]
+	local Main = passToTask[2]
+	
 	defaultCamera = player:GetActiveCamera()
 
 	player:SetOverrideCamera(LootBoxCamera)
@@ -351,6 +375,8 @@ function RollAnimation(player, Main)
 	AnimateSelection(selectedHolder, player, Main)
 
 	CleanLootBox()
+	
+	end, 0)
 end
 
 function Roll(MainWeapon, others)

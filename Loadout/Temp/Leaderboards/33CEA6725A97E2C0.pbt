@@ -20,6 +20,20 @@ GlobalEntries {
   DateTime: "2021-02-26T21:10:35.525Z"
 }
 GlobalEntries {
+  Id: "BOT_Bot1"
+  Name: "Bot1"
+  ScoreFormatted: "14.0"
+  AdditionalData: "060220012"
+  DateTime: "2021-03-01T23:08:34.375Z"
+}
+GlobalEntries {
+  Id: "BOT_Bot2"
+  Name: "Bot2"
+  ScoreFormatted: "6.0"
+  AdditionalData: "060230005"
+  DateTime: "2021-03-01T23:08:36.358Z"
+}
+GlobalEntries {
   Id: "7cdc015329324499beb38b7a1a01ee33"
   Name: "zachsoza"
   ScoreFormatted: "4.0"
