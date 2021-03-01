@@ -1,13 +1,13 @@
 Assets {
-  Id: 5739364599050502024
-  Name: "NEMO2.0_WEAPON"
+  Id: 10990338908154601849
+  Name: "SPECTOR452_0_WEAPON_1"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1760752495282157727
+      RootId: 13485202857273345291
       Objects {
-        Id: 1760752495282157727
-        Name: "NEMO2.0_WEAPON"
+        Id: 13485202857273345291
+        Name: "SPECTOR452.0_WEAPON"
         Transform {
           Scale {
             X: 0.99999994
@@ -16,10 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 10903658076612712154
-        ChildIds: 16665890196376708431
-        ChildIds: 15131399095370623354
-        ChildIds: 1957837470783729883
+        ChildIds: 8150984623336486395
+        ChildIds: 12936874155887733097
+        ChildIds: 1513559908974752047
+        ChildIds: 11497954094944826332
         UnregisteredParameters {
           Overrides {
             Name: "cs:EnableAim"
@@ -35,39 +35,39 @@ Assets {
           }
           Overrides {
             Name: "cs:AimActiveStance"
-            String: "2hand_rifle_aim_shoulder"
+            String: "1hand_pistol_aim"
           }
           Overrides {
             Name: "cs:AimWalkSpeedPercentage"
-            Float: 0.4
+            Float: 0.2
           }
           Overrides {
             Name: "cs:AimZoomDistance"
-            Float: 100
+            Float: 80
           }
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.5
-          }
-          Overrides {
-            Name: "cs:SpreadWalkPrecision"
-            Float: 0.32
-          }
-          Overrides {
-            Name: "cs:SpreadJumpPrecision"
-            Float: 0.22
-          }
-          Overrides {
-            Name: "cs:SpreadCrouchPrecision"
             Float: 0.75
           }
           Overrides {
+            Name: "cs:SpreadWalkPrecision"
+            Float: 0.6
+          }
+          Overrides {
+            Name: "cs:SpreadJumpPrecision"
+            Float: 0.45
+          }
+          Overrides {
+            Name: "cs:SpreadCrouchPrecision"
+            Float: 0.85
+          }
+          Overrides {
             Name: "cs:SpreadSlidingPrecision"
-            Float: 0.25
+            Float: 0.35
           }
           Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.45
+            Float: 0.22
           }
           Overrides {
             Name: "cs:PickupSound"
@@ -106,10 +106,12 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:GenericSoundOutOfAmmo"
-            AssetReference {
-              Id: 1683114021203363022
-            }
+            Name: "cs:SprintingStance"
+            String: "2hand_sword_ready"
+          }
+          Overrides {
+            Name: "cs:WeaponType"
+            String: "Pistol"
           }
           Overrides {
             Name: "cs:AimBinding:tooltip"
@@ -136,7 +138,7 @@ Assets {
               Id: 5936961085923459411
             }
             MuzzleFlashAssetRef {
-              Id: 2201315401854510460
+              Id: 1739830799884422810
             }
             TrailAssetRef {
               Id: 9023864673320310867
@@ -147,31 +149,30 @@ Assets {
             UseReticle: true
             Muzzle {
               Location {
-                X: 90.9998322
+                X: 25
                 Z: 10
               }
               Rotation {
               }
             }
-            AnimationSet: "2hand_rifle_aim_shoulder"
+            AnimationSet: "1hand_pistol_aim"
             OutOfAmmoSfxAssetRef {
               Id: 1683114021203363022
             }
             ReloadSfxAssetRef {
-              Id: 5900853629837661249
+              Id: 7611242078719564322
             }
             ShootAnimation: "2hand_rifle_shoot"
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
-            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 10.5
+            BurstDuration: 6
             AttackCooldown: 0.25
-            Range: 100000
+            Range: 70000
             ImpactPlayerAssetRef {
               Id: 307406115803496087
             }
@@ -181,17 +182,16 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 75000
+            ProjectileSpeed: 65000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
-            SpreadMax: 3
-            SpreadDecreaseSpeed: 5.5
-            SpreadIncreasePerShot: 0.5
-            SpreadPenaltyPerShot: 1
-            SpreadAperture: 3
+            SpreadMax: 2
+            SpreadDecreaseSpeed: 8
+            SpreadIncreasePerShot: 1
+            SpreadPenaltyPerShot: 0.5
             DefaultAbility {
-              SubObjectId: 10903658076612712154
+              SubObjectId: 8150984623336486395
             }
             ReloadAbility {
             }
@@ -202,7 +202,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10903658076612712154
+        Id: 8150984623336486395
         Name: "Shoot"
         Transform {
           Location {
@@ -218,7 +218,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1760752495282157727
+        ParentId: 13485202857273345291
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -258,6 +258,9 @@ Assets {
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
           }
           CooldownPhaseSettings {
             Duration: 0.01
@@ -265,31 +268,31 @@ Assets {
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
           }
-          Animation: "2hand_rifle_shoot"
+          Animation: "1hand_pistol_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:invalid"
           }
         }
       }
       Objects {
-        Id: 16665890196376708431
+        Id: 12936874155887733097
         Name: "Reload"
         Transform {
           Location {
-            X: 536.800659
-            Y: 165.808365
-            Z: -12.4237595
           }
           Rotation {
           }
           Scale {
-            X: 0.99999994
-            Y: 0.99999994
+            X: 1
+            Y: 1
             Z: 1
           }
         }
-        ParentId: 1760752495282157727
+        ParentId: 13485202857273345291
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -303,7 +306,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 3.2
+            Duration: 1.3
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -326,7 +329,7 @@ Assets {
             CanJump: true
             CanRotate: true
           }
-          Animation: "2hand_rifle_reload_magazine"
+          Animation: "1hand_pistol_reload_magazine"
           CanBePrevented: true
           KeyBinding_v2 {
             Value: "mc:egameaction:invalid"
@@ -334,7 +337,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15131399095370623354
+        Id: 1513559908974752047
         Name: "Server Context"
         Transform {
           Location {
@@ -347,9 +350,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1760752495282157727
-        ChildIds: 14195626162673972415
-        ChildIds: 10528692081269870471
+        ParentId: 13485202857273345291
+        ChildIds: 14667529675226164401
+        ChildIds: 17395294501132983529
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -364,7 +367,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14195626162673972415
+        Id: 14667529675226164401
         Name: "WeaponDamageShootServer"
         Transform {
           Location {
@@ -377,15 +380,15 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15131399095370623354
+        ParentId: 1513559908974752047
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 46
+            Float: 31
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 64
+            Float: 62
           }
         }
         Collidable_v2 {
@@ -401,7 +404,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10528692081269870471
+        Id: 17395294501132983529
         Name: "WeaponAimServer"
         Transform {
           Location {
@@ -414,7 +417,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15131399095370623354
+        ParentId: 1513559908974752047
         UnregisteredParameters {
           Overrides {
             Name: "cs:AimWalkSpeedPercentage"
@@ -438,7 +441,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1957837470783729883
+        Id: 11497954094944826332
         Name: "Client Context"
         Transform {
           Location {
@@ -451,17 +454,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1760752495282157727
-        ChildIds: 4713448764844526791
-        ChildIds: 3274761865940093693
-        ChildIds: 14064033568923201033
-        ChildIds: 14359597683553328042
-        ChildIds: 4376619738844709947
-        ChildIds: 14445355654171809592
-        ChildIds: 1992232089393199874
-        ChildIds: 15817083178302463608
-        ChildIds: 948345646977519653
-        ChildIds: 14228281632368758039
+        ParentId: 13485202857273345291
+        ChildIds: 5281053076139050743
+        ChildIds: 12572490076693369062
+        ChildIds: 17816860091183329464
+        ChildIds: 16327151156867089943
+        ChildIds: 16181055382112588404
+        ChildIds: 18230547407548752521
+        ChildIds: 10018712990668270082
+        ChildIds: 14598254733455142836
+        ChildIds: 13383335769755894456
+        ChildIds: 1876423834058843535
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -475,7 +478,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4713448764844526791
+        Id: 5281053076139050743
         Name: "EquipmentPickupClient"
         Transform {
           Location {
@@ -488,7 +491,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
+        ParentId: 11497954094944826332
         UnregisteredParameters {
           Overrides {
             Name: "cs:PickupSound"
@@ -510,7 +513,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3274761865940093693
+        Id: 12572490076693369062
         Name: "WeaponSpreadClient"
         Transform {
           Location {
@@ -523,27 +526,27 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
+        ParentId: 11497954094944826332
         UnregisteredParameters {
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.45
-          }
-          Overrides {
-            Name: "cs:SpreadWalkPrecision"
-            Float: 0.32
-          }
-          Overrides {
-            Name: "cs:SpreadJumpPrecision"
-            Float: 0.22
-          }
-          Overrides {
-            Name: "cs:SpreadCrouchPrecision"
             Float: 0.75
           }
           Overrides {
+            Name: "cs:SpreadWalkPrecision"
+            Float: 0.6
+          }
+          Overrides {
+            Name: "cs:SpreadJumpPrecision"
+            Float: 0.45
+          }
+          Overrides {
+            Name: "cs:SpreadCrouchPrecision"
+            Float: 0.85
+          }
+          Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.35
+            Float: 0.22
           }
         }
         Collidable_v2 {
@@ -559,7 +562,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14064033568923201033
+        Id: 17816860091183329464
         Name: "WeaponReticleClient"
         Transform {
           Location {
@@ -572,7 +575,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
+        ParentId: 11497954094944826332
         UnregisteredParameters {
           Overrides {
             Name: "cs:ReticleTemplate"
@@ -594,7 +597,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14359597683553328042
+        Id: 16327151156867089943
         Name: "WeaponAutoReloadClient"
         Transform {
           Location {
@@ -607,7 +610,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
+        ParentId: 11497954094944826332
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -623,7 +626,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4376619738844709947
+        Id: 16181055382112588404
         Name: "WeaponUtilityHideObjectClient"
         Transform {
           Location {
@@ -636,7 +639,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
+        ParentId: 11497954094944826332
         UnregisteredParameters {
           Overrides {
             Name: "cs:HideOnEmptyAmmo"
@@ -666,73 +669,8 @@ Assets {
         }
       }
       Objects {
-        Id: 14445355654171809592
-        Name: "WeaponRecoilClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1
-          }
-        }
-        ParentId: 1957837470783729883
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:RecoilYMax"
-            Float: 75
-          }
-          Overrides {
-            Name: "cs:RecoilYMin"
-            Float: 35
-          }
-          Overrides {
-            Name: "cs:RecoilXMin"
-            Float: -12
-          }
-          Overrides {
-            Name: "cs:RecoilXMax"
-            Float: 25
-          }
-          Overrides {
-            Name: "cs:EnableRecovery"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:AimYReduction"
-            Float: 0.25
-          }
-          Overrides {
-            Name: "cs:AimXReduction"
-            Float: 0.25
-          }
-          Overrides {
-            Name: "cs:CrouchYReduction"
-            Float: 0.4
-          }
-          Overrides {
-            Name: "cs:CrouchXReduction"
-            Float: 0.2
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 4156168509254213209
-          }
-        }
-      }
-      Objects {
-        Id: 1992232089393199874
-        Name: "Ammo2.0"
+        Id: 18230547407548752521
+        Name: "Recoil"
         Transform {
           Location {
           }
@@ -744,16 +682,20 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
+        ParentId: 11497954094944826332
         UnregisteredParameters {
           Overrides {
-            Name: "cs:MaxAmmo"
-            Int: 100
+            Name: "cs:AMMOUNT"
+            Float: 1
           }
           Overrides {
-            Name: "cs:RELOAD_SOUND"
-            AssetReference {
-              Id: 5900853629837661249
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.25
             }
           }
         }
@@ -765,15 +707,18 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 17411507071286499031
+            Id: 17374269570626674164
           }
         }
       }
       Objects {
-        Id: 15817083178302463608
-        Name: "WeaponFireController"
+        Id: 10018712990668270082
+        Name: "Effects"
         Transform {
           Location {
+            X: -278.700195
+            Y: -580.567261
+            Z: 2.28881836e-05
           }
           Rotation {
           }
@@ -783,99 +728,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1957837470783729883
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:PRIMARYFIRE"
-            String: "ability_primary"
-          }
-          Overrides {
-            Name: "cs:RELOAD"
-            String: "ability_extra_23"
-          }
-          Overrides {
-            Name: "cs:BURST_COUNT"
-            Int: -1
-          }
-          Overrides {
-            Name: "cs:STOP_BURST"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 10670409415717259294
-          }
-        }
-      }
-      Objects {
-        Id: 948345646977519653
-        Name: "GetWeaponAbilities"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.999999881
-            Y: 0.999999881
-            Z: 1
-          }
-        }
-        ParentId: 1957837470783729883
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SHOOT_ABILITY"
-            ObjectReference {
-              SubObjectId: 10903658076612712154
-            }
-          }
-          Overrides {
-            Name: "cs:RELOAD_ABILITY"
-            ObjectReference {
-              SubObjectId: 16665890196376708431
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3881651977092051116
-          }
-        }
-      }
-      Objects {
-        Id: 14228281632368758039
-        Name: "Effects"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1957837470783729883
-        ChildIds: 711153823726612827
-        ChildIds: 16376364934450389396
-        ChildIds: 16452844486427965578
-        ChildIds: 12542772406292907167
-        ChildIds: 2938598788379392709
-        ChildIds: 6318603593924812664
+        ParentId: 11497954094944826332
+        ChildIds: 1793884795557492115
+        ChildIds: 5601683791133293413
+        ChildIds: 10219376906581273345
+        ChildIds: 1116237563604373911
+        ChildIds: 11059678732194310072
+        ChildIds: 247877856128302278
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -888,7 +747,7 @@ Assets {
         }
       }
       Objects {
-        Id: 711153823726612827
+        Id: 1793884795557492115
         Name: "WeaponReloadCastSoundClient"
         Transform {
           Location {
@@ -901,7 +760,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14228281632368758039
+        ParentId: 10018712990668270082
         UnregisteredParameters {
           Overrides {
             Name: "cs:PlayCount"
@@ -921,7 +780,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16376364934450389396
+        Id: 5601683791133293413
         Name: "WeaponShellEjectionEffectClient"
         Transform {
           Location {
@@ -934,12 +793,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14228281632368758039
+        ParentId: 10018712990668270082
         UnregisteredParameters {
           Overrides {
             Name: "cs:ShellEffect"
             ObjectReference {
-              SubObjectId: 16452844486427965578
+              SubObjectId: 10219376906581273345
             }
           }
           Overrides {
@@ -962,13 +821,13 @@ Assets {
         }
       }
       Objects {
-        Id: 16452844486427965578
+        Id: 10219376906581273345
         Name: "Shell Ejection VFX"
         Transform {
           Location {
-            X: 25.0000896
-            Y: 3.88621569
-            Z: 15.9372864
+            X: 14.8852396
+            Y: 3.88623095
+            Z: 12.1599808
           }
           Rotation {
           }
@@ -978,14 +837,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14228281632368758039
+        ParentId: 10018712990668270082
         UnregisteredParameters {
           Overrides {
             Name: "bp:Size"
             Vector {
-              X: 0.5
-              Y: 0.5
-              Z: 0.5
+              X: 0.4
+              Y: 0.4
+              Z: 0.4
             }
           }
           Overrides {
@@ -995,6 +854,14 @@ Assets {
           Overrides {
             Name: "bp:Spawn Rate"
             Float: 1
+          }
+          Overrides {
+            Name: "bp:Ejection Velocity High"
+            Vector {
+              X: -200
+              Y: 200
+              Z: 200
+            }
           }
         }
         Collidable_v2 {
@@ -1017,7 +884,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12542772406292907167
+        Id: 1116237563604373911
         Name: "WeaponAimSoundClient"
         Transform {
           Location {
@@ -1030,18 +897,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14228281632368758039
+        ParentId: 10018712990668270082
         UnregisteredParameters {
           Overrides {
             Name: "cs:EnableAimSound"
             ObjectReference {
-              SubObjectId: 2938598788379392709
+              SubObjectId: 11059678732194310072
             }
           }
           Overrides {
             Name: "cs:DisableAimSound"
             ObjectReference {
-              SubObjectId: 6318603593924812664
+              SubObjectId: 247877856128302278
             }
           }
         }
@@ -1058,7 +925,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2938598788379392709
+        Id: 11059678732194310072
         Name: "Enable Aim Sound"
         Transform {
           Location {
@@ -1071,7 +938,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14228281632368758039
+        ParentId: 10018712990668270082
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1088,7 +955,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6318603593924812664
+        Id: 247877856128302278
         Name: "Disable Aim Sound"
         Transform {
           Location {
@@ -1101,7 +968,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14228281632368758039
+        ParentId: 10018712990668270082
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1115,6 +982,131 @@ Assets {
           Volume: 0.7
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 14598254733455142836
+        Name: "Ammo2.0"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MaxAmmo"
+            Int: 12
+          }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 7611242078719564322
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 17411507071286499031
+          }
+        }
+      }
+      Objects {
+        Id: 13383335769755894456
+        Name: "GetWeaponAbilities"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SHOOT_ABILITY"
+            ObjectReference {
+              SubObjectId: 8150984623336486395
+            }
+          }
+          Overrides {
+            Name: "cs:RELOAD_ABILITY"
+            ObjectReference {
+              SubObjectId: 12936874155887733097
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3881651977092051116
+          }
+        }
+      }
+      Objects {
+        Id: 1876423834058843535
+        Name: "WeaponFireController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 1
+          }
+        }
+        ParentId: 11497954094944826332
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PRIMARYFIRE"
+            String: "ability_primary"
+          }
+          Overrides {
+            Name: "cs:RELOAD"
+            String: "ability_extra_23"
+          }
+          Overrides {
+            Name: "cs:BURST_COUNT"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:STOP_BURST"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10670409415717259294
+          }
         }
       }
     }

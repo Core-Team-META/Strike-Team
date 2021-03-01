@@ -1,6 +1,6 @@
 Assets {
-  Id: 12469272091380785429
-  Name: "EquipmentHandler"
+  Id: 2061105466214076613
+  Name: "EquipmentHandler_3"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -3681,7 +3681,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 5343945996030504866
+              Id: 10990338908154601849
             }
           }
           Overrides {
@@ -4128,7 +4128,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 4887686027475991779
+              Id: 9075803235914760854
             }
           }
           Overrides {
@@ -4675,7 +4675,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 1627333988980896669
+              Id: 5063817194883499096
             }
           }
           Overrides {
@@ -9421,9 +9421,5 @@ Assets {
       AssetId: "None"
     }
   }
-  Marketplace {
-    Description: "dfamdokasmiodmaipdnmiu0anuihdbayusbdal;sm dlkpoasnjipfdnuasnl;kmaslkn kj kjashbdibashdb hsabudyihaij nduiansidk  jasijoamo  asid aa daninui9  kjanuin eaklmo [al[pd=p a,onm niowa  al ,kjwahijdam, niundak kjabuibdka ,mj as ahiuhdian awdhankja njklbuyhabu bijaw a wqa asddas"
-  }
   SerializationVersion: 76
-  DirectlyPublished: true
 }
