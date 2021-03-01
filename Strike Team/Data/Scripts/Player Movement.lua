@@ -38,11 +38,13 @@ function Tick(dt)
 
     Task.Spawn(function()   
         for player, slidingTimer in pairs(slidingTimers) do
-            if player and player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
+            if player then 
+                if player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
                 player.serverUserData.playerStatus["Sliding"] = false
                 UpdatePlayerSliding(player)
                 UpdatePlayerAiming(player)
                 slidingTimers[player] = nil
+                end
             end
         end
     end)
