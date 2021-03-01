@@ -742,13 +742,13 @@ Objects {
   Name: "Bat"
   Transform {
     Location {
-      X: 182.336273
-      Y: -352.36618
-      Z: 141.381302
+      X: 180.271484
+      Y: -359.447723
+      Z: 141.381317
     }
     Rotation {
       Pitch: -6.88397217
-      Yaw: 25.9907799
+      Yaw: 35.0471764
       Roll: 94.0385818
     }
     Scale {
