@@ -158,7 +158,7 @@ Assets {
               Id: 1683114021203363022
             }
             ReloadSfxAssetRef {
-              Id: 6207169131607382085
+              Id: 3604115085746877768
             }
             ShootAnimation: "2hand_rifle_shoot"
             ImpactProjectileAssetRef {
@@ -347,13 +347,13 @@ Assets {
           Overrides {
             Name: "cs:ExplosionDamageRange"
             Vector2 {
-              X: 30
-              Y: 200
+              X: 40
+              Y: 220
             }
           }
           Overrides {
             Name: "cs:ExplosionRadius"
-            Float: 400
+            Float: 440
           }
           Overrides {
             Name: "cs:ExplosionKnockbackSpeed"
@@ -688,6 +688,7 @@ Assets {
           }
         }
         ParentId: 6563956133325466814
+        ChildIds: 14050937864339187123
         ChildIds: 4482392249683650654
         ChildIds: 11508179033440532627
         ChildIds: 3381081742710101118
@@ -700,6 +701,39 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Effects_3"
+        }
+      }
+      Objects {
+        Id: 14050937864339187123
+        Name: "WeaponReloadCastSoundClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1
+          }
+        }
+        ParentId: 4386669990835637117
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PlayCount"
+            Int: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 7766883827523033344
+          }
         }
       }
       Objects {
