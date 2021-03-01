@@ -5062,7 +5062,7 @@ Objects {
 }
 Objects {
   Id: 7114796170670177174
-  Name: "SocialPrefix"
+  Name: "Rank"
   Transform {
     Location {
     }
@@ -5094,7 +5094,7 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "RANK"
+      Label: "Rank"
       Color {
         R: 0.5
         G: 0.5
