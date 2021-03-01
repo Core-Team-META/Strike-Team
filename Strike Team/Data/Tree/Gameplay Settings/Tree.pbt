@@ -8305,7 +8305,6 @@ Objects {
   ChildIds: 5852279387970537631
   ChildIds: 8150442688636646115
   ChildIds: 4006104301343236396
-  ChildIds: 9884779634136917003
   ChildIds: 4117387748627767080
   ChildIds: 14588173923946619054
   ChildIds: 1360824232860992316
@@ -8483,36 +8482,6 @@ Objects {
     }
     Rotation {
       Yaw: -157.217484
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16178623774537817549
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
-  Id: 9884779634136917003
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 6965.84473
-      Y: 4507.05176
-      Z: -40.0013428
-    }
-    Rotation {
-      Yaw: 150.06897
     }
     Scale {
       X: 1
