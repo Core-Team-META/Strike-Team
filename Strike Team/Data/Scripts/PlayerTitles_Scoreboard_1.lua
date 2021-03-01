@@ -173,13 +173,13 @@ end
 
 local function UpdatePlayerRank(player, entry)
 	if RANKS.ShouldUpdatePlayerRank(player) then
-		local rankData = RANKS.GetPlayerRankData(player)
 		for _, child in ipairs(entry.clientUserData.RankParent:GetChildren()) do
 			if Object.IsValid(child) then
 				child:Destroy()
 			end
 		end
-		player.clientUserData.rankIcon = World.SpawnAsset(rankData.icon, {parent = entry.clientUserData.RankParent})
+		player.clientUserData.rankIcon =
+			World.SpawnAsset(RANKS.GetSmallRankIcon(player), {parent = entry.clientUserData.RankParent})
 	end
 	entry.clientUserData.PlayerRank.text = tostring(player:GetResource("Level"))
 end
