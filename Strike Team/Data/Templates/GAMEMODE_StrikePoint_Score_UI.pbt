@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8471244401056040753
+        ParentId: 10477958480793043052
         ChildIds: 17862374400451381473
         UnregisteredParameters {
           Overrides {
@@ -187,9 +187,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -282
+          Width: -288
           Height: 12
-          UIX: -13
+          UIX: 17
           UIY: 3.80029058
           RenderTransformPivot {
             Anchor {
@@ -248,9 +248,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -282
+          Width: -288
           Height: 12
-          UIX: 13
+          UIX: -17
           UIY: 3.80029058
           RenderTransformPivot {
             Anchor {
@@ -364,7 +364,7 @@ Assets {
         }
         Control {
           Width: 260
-          UIX: 3.5
+          UIX: -26
           UIY: 3.09743023
           RenderTransformPivot {
             Anchor {
@@ -480,7 +480,7 @@ Assets {
         }
         Control {
           Width: 260
-          UIX: -3.5
+          UIX: 26
           UIY: 3.09743023
           RenderTransformPivot {
             Anchor {
@@ -595,6 +595,7 @@ Assets {
         }
         Control {
           Width: 250
+          UIX: -30
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -709,6 +710,7 @@ Assets {
         }
         Control {
           Width: 250
+          UIX: 30
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -872,9 +874,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -270
+          Width: -286
           Height: -17
-          UIX: -14.6958828
+          UIX: -31.3727589
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -934,9 +936,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -270
+          Width: -286
           Height: -17
-          UIX: 14.696
+          UIX: 31.373
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1052,7 +1054,7 @@ Assets {
         Control {
           Width: 200
           Height: 12
-          UIX: -19
+          UIX: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1099,7 +1101,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 235
+          Width: 220
           Height: 17
           RenderTransformPivot {
             Anchor {
@@ -1266,7 +1268,7 @@ Assets {
         Control {
           Width: 200
           Height: 12
-          UIX: 19
+          UIX: 10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1313,7 +1315,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 235
+          Width: 220
           Height: 17
           RenderTransformPivot {
             Anchor {
@@ -1727,9 +1729,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 68
+          Width: 28
           Height: -21
-          UIX: -30
+          UIX: -18.3608971
           UIY: -13.5457897
           RenderTransformPivot {
             Anchor {
@@ -2698,9 +2700,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 68
+          Width: 31
           Height: -21
-          UIX: 30
+          UIX: 15.8472786
           UIY: -13.5457897
           RenderTransformPivot {
             Anchor {
@@ -6925,7 +6927,7 @@ Assets {
         }
         Control {
           Height: 5
-          UIY: 2.14633775
+          UIY: 2.16890144
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
