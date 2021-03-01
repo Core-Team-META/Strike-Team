@@ -30,7 +30,7 @@ end
 
 local function GetRankDataByLevel(level)
     for rankId, rank in ipairs(ranks) do
-        if rank.minLevel >= level and rank.maxLevel <= level then
+        if rank.minLevel <= level and rank.maxLevel >= level then
             return rank
         end
     end

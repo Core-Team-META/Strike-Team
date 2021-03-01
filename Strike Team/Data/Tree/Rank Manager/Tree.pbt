@@ -76,7 +76,13 @@ Objects {
   }
   ParentId: 15549939467812718615
   ChildIds: 3642272189634449141
+  ChildIds: 17154347967378006016
+  ChildIds: 13204184780183032195
+  ChildIds: 5733194192348678410
+  ChildIds: 13569314577849664014
+  ChildIds: 13604510572832177781
   ChildIds: 17479389506015592094
+  ChildIds: 10529577260681714102
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -90,8 +96,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17479389506015592094
-  Name: "Rank_Data_Template"
+  Id: 10529577260681714102
+  Name: "RankFinal"
   Transform {
     Location {
     }
@@ -107,16 +113,274 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 50
+      Int: 71
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 100
+      Int: 500
     }
     Overrides {
       Name: "cs:RankIcon"
       AssetReference {
-        Id: 10287275229357297273
+        Id: 18038694607673579013
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 17479389506015592094
+  Name: "Rank7"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 61
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 70
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 2341986401574800100
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 13604510572832177781
+  Name: "Rank6"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 51
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 60
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 6990757834058209262
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 13569314577849664014
+  Name: "Rank5"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 41
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 50
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 1971320457932808294
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 5733194192348678410
+  Name: "Rank4"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 31
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 40
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 13475578394421058443
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 13204184780183032195
+  Name: "Rank3"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 21
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 30
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 16464293629172070287
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 17154347967378006016
+  Name: "Rank2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 11
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 20
+    }
+    Overrides {
+      Name: "cs:RankIcon"
+      AssetReference {
+        Id: 12963037428172175792
       }
     }
   }
@@ -134,7 +398,7 @@ Objects {
 }
 Objects {
   Id: 3642272189634449141
-  Name: "Rank_Data_Template"
+  Name: "Rank1"
   Transform {
     Location {
     }
@@ -159,8 +423,12 @@ Objects {
     Overrides {
       Name: "cs:RankIcon"
       AssetReference {
-        Id: 10287275229357297273
+        Id: 1071269884770329892
       }
+    }
+    Overrides {
+      Name: "cs:RankAcronym"
+      String: ""
     }
   }
   Collidable_v2 {
