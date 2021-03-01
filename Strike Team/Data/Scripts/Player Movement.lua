@@ -79,6 +79,8 @@ function OnBindingReleased(player, key)
 end
 
 function UpdatePlayerSprinting(player)
+   if _G["MovementCanControl"] == false then return end
+
     if player.serverUserData.playerStatus["ShiftDown"] then
         if  not player.serverUserData.playerStatus["Aiming"] and not player.serverUserData.playerStatus["Sliding"] then
             player.serverUserData.playerStatus["Sprinting"] = true
