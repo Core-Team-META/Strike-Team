@@ -857,6 +857,12 @@ Assets {
             Name: "cs:MaxAmmo"
             Int: 2
           }
+          Overrides {
+            Name: "cs:RELOAD_SOUND"
+            AssetReference {
+              Id: 3604115085746877768
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
