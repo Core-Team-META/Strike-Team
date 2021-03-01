@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18298649095315083710
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
   Id: 18075009058174876361
   Name: "Craftsman Part - Doorway"
   PlatformAssetType: 1
@@ -86,6 +95,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_straight_001_ref"
+  }
+}
+Assets {
+  Id: 15855081481126140438
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
   }
 }
 Assets {
@@ -179,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13662191397276538134
+  Name: "Pipe - Quarter Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter-pipe_002"
+  }
+}
+Assets {
   Id: 13580019074259405124
   Name: "Whitebox Stairs 01 U"
   PlatformAssetType: 1
@@ -233,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11162297399913732681
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 10510456914403889366
   Name: "Arch"
   PlatformAssetType: 1
@@ -266,6 +302,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001"
+  }
+}
+Assets {
+  Id: 10315652150087392724
+  Name: "Carpet 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carpet_002_uv"
   }
 }
 Assets {
@@ -341,6 +386,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5123034113732424919
+  Name: "Shipping Pallet - Rectangular"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_shipping_pallet_001"
+  }
+}
+Assets {
   Id: 4232391847469820774
   Name: "Whitebox Wall 01 Half - Window Slot 1x"
   PlatformAssetType: 1
@@ -356,6 +410,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001_L"
+  }
+}
+Assets {
+  Id: 2899842837741361229
+  Name: "Concrete Tiles 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_tiles_001"
   }
 }
 Assets {
@@ -377,12 +440,39 @@ Assets {
   }
 }
 Assets {
+  Id: 2347011262942164268
+  Name: "Shipping Pallet - Square"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_shipping_pallet_002"
+  }
+}
+Assets {
   Id: 1628849511756280386
   Name: "Whitebox Wall 01 Doorway 01 Frame"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
+  Id: 1527224994251334627
+  Name: "Urban Pipe Flange 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_flange_002_ref"
+  }
+}
+Assets {
+  Id: 824691453083282317
+  Name: "Frosted Glass No Distortion"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass_nodistortion"
   }
 }
 Assets {

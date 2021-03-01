@@ -1,13 +1,13 @@
 Assets {
-  Id: 15470680638991640411
-  Name: "Scoreboard Entry"
+  Id: 12963037428172175792
+  Name: "SmallIcon_Rank2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16846523823871358690
+      RootId: 6550015692282916835
       Objects {
-        Id: 16846523823871358690
-        Name: "Scoreboard Entry"
+        Id: 6550015692282916835
+        Name: "SmallIcon_Rank2"
         Transform {
           Scale {
             X: 1
@@ -15,496 +15,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10705308302646760788
-        ChildIds: 13566595807761741455
-        ChildIds: 9713772700323341360
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:TeamColor"
-            ObjectReference {
-              SubObjectId: 17468147114136891396
-            }
-          }
-          Overrides {
-            Name: "cs:PlayerIcon"
-            ObjectReference {
-              SubObjectId: 10800055924835241831
-            }
-          }
-          Overrides {
-            Name: "cs:SocialIcon"
-            ObjectReference {
-              SubObjectId: 18089057293181856334
-            }
-          }
-          Overrides {
-            Name: "cs:PlayerName"
-            ObjectReference {
-              SubObjectId: 13748460554164637697
-            }
-          }
-          Overrides {
-            Name: "cs:Leaderstats"
-            ObjectReference {
-              SubObjectId: 9713772700323341360
-            }
-          }
-          Overrides {
-            Name: "cs:Information"
-            ObjectReference {
-              SubObjectId: 13566595807761741455
-            }
-          }
-          Overrides {
-            Name: "cs:PlayerRank"
-            ObjectReference {
-              SubObjectId: 14817687730604450945
-            }
-          }
-          Overrides {
-            Name: "cs:RankIcon"
-            ObjectReference {
-              SubObjectId: 13429946512596828009
-            }
-          }
-          Overrides {
-            Name: "cs:RankParent"
-            ObjectReference {
-              SubObjectId: 16058603289951261451
-            }
-          }
-        }
+        ParentId: 4781671109827199097
+        ChildIds: 13803612958507479018
+        ChildIds: 15509072382391807052
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Height: 32
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          Panel {
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13566595807761741455
-        Name: "Information"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16846523823871358690
-        ChildIds: 17468147114136891396
-        ChildIds: 10800055924835241831
-        ChildIds: 18089057293181856334
-        ChildIds: 13748460554164637697
-        ChildIds: 14817687730604450945
-        ChildIds: 16058603289951261451
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:TeamColor"
-            ObjectReference {
-              SubObjectId: 17468147114136891396
-            }
-          }
-          Overrides {
-            Name: "cs:PlayerIcon"
-            ObjectReference {
-              SubObjectId: 10800055924835241831
-            }
-          }
-          Overrides {
-            Name: "cs:SocialIcon"
-            ObjectReference {
-              SubObjectId: 18089057293181856334
-            }
-          }
-          Overrides {
-            Name: "cs:PlayerName"
-            ObjectReference {
-              SubObjectId: 13748460554164637697
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          UseParentHeight: true
-          Image {
-            Brush {
-            }
-            Color {
-              A: 0.5
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17468147114136891396
-        Name: "TeamColor"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13566595807761741455
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 4
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 841534158063459245
-            }
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            TeamSettings {
-              UseTeamColor: true
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10800055924835241831
-        Name: "PlayerIcon"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13566595807761741455
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 32
-          UIX: 75
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 841534158063459245
-            }
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18089057293181856334
-        Name: "SocialIcon"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13566595807761741455
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 20
-          Height: 20
-          UIX: 75
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 841534158063459245
-            }
-            Color {
-              R: 1
-              G: 1
-              B: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13748460554164637697
-        Name: "PlayerName"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13566595807761741455
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: -48
-          UIX: 115
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          UseParentHeight: true
-          Text {
-            Label: "Morticai"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 15
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            ClipTextToSize: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14817687730604450945
-        Name: "PlayerRank"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13566595807761741455
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: -48
-          UIX: 10
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          UseParentHeight: true
-          Text {
-            Label: "10"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 15
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            ClipTextToSize: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16058603289951261451
-        Name: "RankParent"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13566595807761741455
-        ChildIds: 13429946512596828009
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 30
           Height: 30
-          UIX: 50
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -520,15 +42,15 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middleleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
         }
       }
       Objects {
-        Id: 13429946512596828009
-        Name: "RankIcon"
+        Id: 13803612958507479018
+        Name: "Chevron"
         Transform {
           Location {
           }
@@ -540,7 +62,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16058603289951261451
+        ParentId: 6550015692282916835
+        ChildIds: 9795566487946590407
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -548,21 +71,24 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
-          Height: 20
+          Height: -10
+          UIY: 4.38576508
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
           Image {
             Brush {
-              Id: 11142210224783054821
+              Id: 10375365990357638103
             }
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.068
+              G: 0.068
+              B: 0.068
               A: 1
             }
             TeamSettings {
@@ -583,8 +109,8 @@ Assets {
         }
       }
       Objects {
-        Id: 9713772700323341360
-        Name: "Leaderstats"
+        Id: 9795566487946590407
+        Name: "Chevron"
         Transform {
           Location {
           }
@@ -596,7 +122,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16846523823871358690
+        ParentId: 13803612958507479018
+        ChildIds: 19912622950873572
+        ChildIds: 11588299430925427166
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -604,25 +132,627 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 400
+          Width: -2
+          Height: -2
+          UIY: -1.19859588
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
-          Panel {
+          Image {
+            Brush {
+              Id: 10375365990357638103
+            }
+            Color {
+              R: 0.454000026
+              G: 0.355633378
+              A: 1
+            }
+            TeamSettings {
+            }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomright"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomright"
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 19912622950873572
+        Name: "Chevron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9795566487946590407
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -5
+          Height: -5
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 10375365990357638103
+            }
+            Color {
+              R: 0.851
+              G: 0.321238548
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11588299430925427166
+        Name: "Trim Inset"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9795566487946590407
+        ChildIds: 9138670455539840024
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 3
+          Height: -6
+          UIY: -0.562897325
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 1600196789462442746
+            }
+            Color {
+              R: 0.287
+              G: 0.15785
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9138670455539840024
+        Name: "Trim"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11588299430925427166
+        ChildIds: 15315682721446954079
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIY: 0.513283
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 1600196789462442746
+            }
+            Color {
+              R: 0.822
+              G: 0.452100039
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15315682721446954079
+        Name: "Trim Inset"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9138670455539840024
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIY: 1.79586577
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 1600196789462442746
+            }
+            Color {
+              R: 0.469
+              G: 0.177039817
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15509072382391807052
+        Name: "Chevron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6550015692282916835
+        ChildIds: 13123227794627570320
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Height: -10
+          UIY: -3.15306807
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 10375365990357638103
+            }
+            Color {
+              R: 0.068
+              G: 0.068
+              B: 0.068
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13123227794627570320
+        Name: "Chevron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15509072382391807052
+        ChildIds: 3099393794250251040
+        ChildIds: 16784251928103103775
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -2
+          Height: -2
+          UIY: -1.19859588
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 10375365990357638103
+            }
+            Color {
+              R: 0.454000026
+              G: 0.355633378
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3099393794250251040
+        Name: "Chevron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13123227794627570320
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -5
+          Height: -5
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 10375365990357638103
+            }
+            Color {
+              R: 0.851
+              G: 0.321238548
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16784251928103103775
+        Name: "Trim Inset"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13123227794627570320
+        ChildIds: 9358994195606668880
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 3
+          Height: -6
+          UIY: -0.562897325
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 1600196789462442746
+            }
+            Color {
+              R: 0.287
+              G: 0.15785
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9358994195606668880
+        Name: "Trim"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16784251928103103775
+        ChildIds: 12743000786176676596
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIY: 0.513283
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 1600196789462442746
+            }
+            Color {
+              R: 0.822
+              G: 0.452100039
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12743000786176676596
+        Name: "Trim Inset"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9358994195606668880
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          UIY: 1.79586577
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 1600196789462442746
+            }
+            Color {
+              R: 0.469
+              G: 0.177039817
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -630,12 +760,21 @@ Assets {
       }
     }
     Assets {
-      Id: 11142210224783054821
-      Name: "Center Arrow 008 Wedge"
+      Id: 10375365990357638103
+      Name: "Center Arrow 005 Wedge"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "CenterArrow_008Wedge"
+        AssetId: "CenterArrow_005Wedge"
+      }
+    }
+    Assets {
+      Id: 1600196789462442746
+      Name: "Emblem 007"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_057"
       }
     }
     PrimaryAssetId {

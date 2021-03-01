@@ -1,4 +1,13 @@
 Assets {
+  Id: 15435266645019974066
+  Name: "Bricks Layered Stone Floor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_floor_layered_001"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
