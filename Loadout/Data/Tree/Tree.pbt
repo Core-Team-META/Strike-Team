@@ -21,7 +21,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 1671268894188365002
+  ChildIds: 5803263506560414137
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
@@ -667,7 +667,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1671268894188365002
+  Id: 5803263506560414137
   Name: "EquipmentHandler"
   Transform {
     Location {
@@ -687,29 +687,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2061105466214076613
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EquipmentHandler"
+  }
+  InstanceHistory {
+    SelfId: 5803263506560414137
+    SubobjectId: 777066251803753357
+    InstanceId: 1671268894188365002
+    TemplateId: 2061105466214076613
+    WasRoot: true
   }
 }
 Objects {
@@ -31389,7 +31376,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "61926a2ce4fb417dbe0d0e114e437380"
+        Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31398,16 +31385,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "d001f4cd01b84fb1bcd1b3a01572d039"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Storage"
-      NetReference {
-        Key: "fb5a6479f93640f0b8a2f7b579ca5a9f"
+        Key: "bf84fda037134f048c79d75bb4159446"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31416,7 +31394,16 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "a7512c1e650a43faa1490acf56ecc1e1"
+        Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "58875f5ce4944e78af8e3709e839eff4"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

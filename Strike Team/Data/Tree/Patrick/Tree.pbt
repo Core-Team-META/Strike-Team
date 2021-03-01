@@ -451,7 +451,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LoadoutLink"
-      String: "4fe685/strike-team-loadout-dev"
+      String: "a639d3/strike-team-loadout-dev"
     }
     Overrides {
       Name: "cs:WinningTeam"
