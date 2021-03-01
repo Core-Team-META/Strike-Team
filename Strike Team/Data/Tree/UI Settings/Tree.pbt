@@ -1,6 +1,70 @@
 Name: "UI Settings"
 RootId: 15900364157994414074
 Objects {
+  Id: 1845295134910618124
+  Name: "PopUpTipPanel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15900364157994414074
+  ChildIds: 10247047132368811337
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10247047132368811337
+  Name: "UiPerkandPassiveTeaching"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1845295134910618124
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OpenBinding"
+      String: "ability_extra_50"
+    }
+    Overrides {
+      Name: "cs:UITemplate"
+      AssetReference {
+        Id: 15431214324246582683
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6340946597594039724
+    }
+  }
+}
+Objects {
   Id: 13571071561004526013
   Name: "Damage Feedback"
   Transform {
