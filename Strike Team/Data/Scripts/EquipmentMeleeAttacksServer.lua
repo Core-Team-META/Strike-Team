@@ -111,7 +111,9 @@ end
 -- Enables collision on player to make the hitbox collidable
 function OnEquipped()
     Task.Wait(0.1)
-    EQUIPMENT.collision = Collision.INHERIT
+    if Object.IsValid(EQUIPMENT) then
+        EQUIPMENT.collision = Collision.INHERIT
+    end
 end
 
 -- nil OnExecute(Ability)
