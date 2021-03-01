@@ -216,7 +216,7 @@ Objects {
         }
         Overrides {
           Name: "cs:RequiredPlayers"
-          Int: 2
+          Int: 1
         }
         Overrides {
           Name: "cs:CountdownTime"

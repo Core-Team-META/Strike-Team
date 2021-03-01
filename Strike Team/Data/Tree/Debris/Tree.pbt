@@ -3259,9 +3259,9 @@ Objects {
   Name: "Decal Debris 01"
   Transform {
     Location {
-      X: 1333.55664
-      Y: -2490.30957
-      Z: -96.0697632
+      X: 1117.91357
+      Y: -2597.51709
+      Z: -105.320328
     }
     Rotation {
       Pitch: 0.759236932
@@ -3296,9 +3296,9 @@ Objects {
   Name: "Decal Debris 01"
   Transform {
     Location {
-      X: 1586.41406
-      Y: -2285.69531
-      Z: -96.0697632
+      X: 1672.92725
+      Y: -2350.77246
+      Z: -124.719154
     }
     Rotation {
       Pitch: 0.759236932

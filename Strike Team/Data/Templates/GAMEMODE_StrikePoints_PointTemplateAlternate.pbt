@@ -8389,8 +8389,8 @@ Assets {
           Overrides {
             Name: "cs:TEAM_COLOR"
             Color {
-              G: 0.63576144
-              B: 0.960000038
+              G: 0.26984483
+              B: 0.879622579
               A: 1
             }
           }
@@ -8404,9 +8404,9 @@ Assets {
           Overrides {
             Name: "cs:IDLE_COLOR"
             Color {
-              R: 0.13000001
-              G: 0.13000001
-              B: 0.13000001
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }

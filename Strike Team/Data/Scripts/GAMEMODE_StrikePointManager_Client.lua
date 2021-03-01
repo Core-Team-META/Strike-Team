@@ -69,6 +69,9 @@ local teamProgress, enemyProgress, centerFlag
 ------------------------------------------------------------------------------------------------------------------------
 
 local function GetData()
+    if ROOT and not Object.IsValid(ROOT) then
+        return
+    end
     local str = ROOT:GetCustomProperty("DATA")
     while str == "" do
         Task.Wait()
@@ -133,67 +136,69 @@ end
 function OnNetworkChanged(object, string)
     if object == ROOT then
         local data = GetData()
-        lastProgress = lastProgress or data[PROGRESS]
-        if currentTeam ~= data[TEAM] then
-            currentTeam = data[TEAM]
-            if currentTeam == LOCAL_PLAYER.team then
-                World.SpawnAsset(SFX_POINT_CONTEST_FRIENDLY)
-            else
-                World.SpawnAsset(SFX_POINT_CONTEST_ENEMY)
+        if data then
+            lastProgress = lastProgress or data[PROGRESS]
+            if currentTeam ~= data[TEAM] then
+                currentTeam = data[TEAM]
+                if currentTeam == LOCAL_PLAYER.team then
+                    World.SpawnAsset(SFX_POINT_CONTEST_FRIENDLY)
+                else
+                    World.SpawnAsset(SFX_POINT_CONTEST_ENEMY)
+                end
+                UpdateCenterFlagColor(currentTeam)
             end
-            UpdateCenterFlagColor(currentTeam)
-        end
-        if data[TEAM] > 0 and data[PROGRESS] >= 0 then
-            ToggleObject(true)
-            ChopSpot.team = data[TEAM]
-            ChopSpotRoot.team = data[TEAM]
-            EDGE.team = data[TEAM]
-            GROUND.team = data[TEAM]
-            Light.team = data[TEAM]
-            FlagRootColor.team = data[TEAM]
-            Flag1Color.team = data[TEAM]
-            Flag2Color.team = data[TEAM]
-            FlagJointColor.team = data[TEAM]
-            Flag1JointColor.team = data[TEAM]
-            Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
-        else
-            ToggleObject(false)
-            Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
-        end
-
-        if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
-            flagPos.z = 445 + (data[PROGRESS] * 2)
-            groundScale.x = 25 + (data[PROGRESS] * 0.75)
-            groundScale.y = 25 + (data[PROGRESS] * 0.75)
-        elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
-            --World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
-            flagPos.z = 645
-            groundScale.x = 100
-            groundScale.y = 100
-        elseif data[PROGRESS] and data[PROGRESS] > 0 then
-            flagPos.z = 445 - ((data[PROGRESS]) * 2)
-            groundScale.x = 25 - ((data[PROGRESS]) * 0.75)
-            groundScale.y = 25 - ((data[PROGRESS]) * 0.75)
-        elseif data[PROGRESS] == 0 then
-            Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
-            flagPos.z = 445
-            groundScale.x = 25
-            groundScale.y = 25
-        end
-        FLAG:MoveTo(flagPos, 0.10, true)
-        GROUND:ScaleTo(groundScale, 0.10, true)
-        flagPos = FLAG:GetPosition()
-        groundScale = GROUND:GetScale()
-        lastProgress = data[PROGRESS]
-        if data[PROGRESS] >= 100 then
-            if LOCAL_PLAYER.team == data[TEAM] then
-                World.SpawnAsset(SFX_POINT_SECURED)
+            if data[TEAM] > 0 and data[PROGRESS] >= 0 then
+                ToggleObject(true)
+                ChopSpot.team = data[TEAM]
+                ChopSpotRoot.team = data[TEAM]
+                EDGE.team = data[TEAM]
+                GROUND.team = data[TEAM]
+                Light.team = data[TEAM]
+                FlagRootColor.team = data[TEAM]
+                Flag1Color.team = data[TEAM]
+                Flag2Color.team = data[TEAM]
+                FlagJointColor.team = data[TEAM]
+                Flag1JointColor.team = data[TEAM]
+                Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
             else
-                World.SpawnAsset(SFX_POINT_LOST)
+                ToggleObject(false)
+                Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
             end
-        end
 
-        UpdateProgress(data[PROGRESS])
+            if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
+                flagPos.z = 445 + (data[PROGRESS] * 2)
+                groundScale.x = 25 + (data[PROGRESS] * 0.75)
+                groundScale.y = 25 + (data[PROGRESS] * 0.75)
+            elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
+                --World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
+                flagPos.z = 645
+                groundScale.x = 100
+                groundScale.y = 100
+            elseif data[PROGRESS] and data[PROGRESS] > 0 then
+                flagPos.z = 445 - ((data[PROGRESS]) * 2)
+                groundScale.x = 25 - ((data[PROGRESS]) * 0.75)
+                groundScale.y = 25 - ((data[PROGRESS]) * 0.75)
+            elseif data[PROGRESS] == 0 then
+                Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
+                flagPos.z = 445
+                groundScale.x = 25
+                groundScale.y = 25
+            end
+            FLAG:MoveTo(flagPos, 0.10, true)
+            GROUND:ScaleTo(groundScale, 0.10, true)
+            flagPos = FLAG:GetPosition()
+            groundScale = GROUND:GetScale()
+            lastProgress = data[PROGRESS]
+            if data[PROGRESS] >= 100 then
+                if LOCAL_PLAYER.team == data[TEAM] then
+                    World.SpawnAsset(SFX_POINT_SECURED)
+                else
+                    World.SpawnAsset(SFX_POINT_LOST)
+                end
+            end
+
+            UpdateProgress(data[PROGRESS])
+        end
     end
 end
 

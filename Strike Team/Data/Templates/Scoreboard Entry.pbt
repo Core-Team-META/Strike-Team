@@ -67,6 +67,12 @@ Assets {
               SubObjectId: 13429946512596828009
             }
           }
+          Overrides {
+            Name: "cs:RankParent"
+            ObjectReference {
+              SubObjectId: 16058603289951261451
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -114,7 +120,7 @@ Assets {
         ChildIds: 18089057293181856334
         ChildIds: 13748460554164637697
         ChildIds: 14817687730604450945
-        ChildIds: 13429946512596828009
+        ChildIds: 16058603289951261451
         UnregisteredParameters {
           Overrides {
             Name: "cs:TeamColor"
@@ -474,6 +480,53 @@ Assets {
         }
       }
       Objects {
+        Id: 16058603289951261451
+        Name: "RankParent"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13566595807761741455
+        ChildIds: 13429946512596828009
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceon"
+        }
+        Control {
+          Width: 30
+          Height: 30
+          UIX: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middleleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 13429946512596828009
         Name: "RankIcon"
         Transform {
@@ -487,7 +540,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13566595807761741455
+        ParentId: 16058603289951261451
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -497,7 +550,6 @@ Assets {
         Control {
           Width: 20
           Height: 20
-          UIX: 50
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -524,7 +576,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middleleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }

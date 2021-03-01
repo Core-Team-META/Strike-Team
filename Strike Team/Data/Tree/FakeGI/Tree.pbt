@@ -154,57 +154,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1461277641970004079
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: 6310
-      Y: 6145
-      Z: 970
-    }
-    Rotation {
-      Yaw: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10734059996242719164
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 100
-    Color {
-      R: 1
-      G: 0.785496771
-      B: 0.59
-      A: 1
-    }
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1626.0697
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 819.848145
-          SourceHeight: 1143.00366
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
   Id: 2188213647345881116
   Name: "Area Light"
   Transform {

@@ -70,3 +70,12 @@ Assets {
     AssetId: "BackgroundNoOutline_020"
   }
 }
+Assets {
+  Id: 1701289050283511647
+  Name: "Ball"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_001"
+  }
+}

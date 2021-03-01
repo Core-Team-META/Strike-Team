@@ -404,9 +404,12 @@ Objects {
   }
 }
 Objects {
-  Id: 3913595248187628019
+  Id: 11737975556424242136
   Name: "Points"
   Transform {
+    Location {
+      Z: -0.258842468
+    }
     Scale {
       X: 1
       Y: 1
@@ -414,337 +417,765 @@ Objects {
     }
   }
   ParentId: 6849286984252889154
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1393496916062716
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Points"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: -0.258842468
-          }
-        }
+  ChildIds: 4896712934170945506
+  ChildIds: 419344107484221321
+  ChildIds: 6442476761853109012
+  ChildIds: 1052345312585354969
+  ChildIds: 6261164991844755114
+  ChildIds: 8111552117231319836
+  ChildIds: 14752512848088291955
+  ChildIds: 10896400968096194336
+  ChildIds: 14275461071190193111
+  ChildIds: 6838869581024793182
+  ChildIds: 4563152898180473032
+  ChildIds: 16391475085512450294
+  ChildIds: 2043130370147661633
+  ChildIds: 10646277014471225158
+  ChildIds: 272931647733341557
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11737975556424242136
+    SubobjectId: 1393496916062716
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 272931647733341557
+  Name: "Pan"
+  Transform {
+    Location {
+      X: 183.309891
+      Y: -365.052979
+      Z: 143.763794
+    }
+    Rotation {
+      Pitch: -79.8237
+      Yaw: -113.202026
+      Roll: -138.77121
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 3557409926772510050
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Pickaxe"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 174.699799
-            Y: -334.325104
-            Z: 135.605728
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -13.7529602
-            Yaw: 36.0247574
-            Roll: 99.4027863
-          }
-        }
+  }
+}
+Objects {
+  Id: 10646277014471225158
+  Name: "Pickaxe"
+  Transform {
+    Location {
+      X: 174.699799
+      Y: -334.325104
+      Z: 135.605728
+    }
+    Rotation {
+      Pitch: -13.7529602
+      Yaw: 36.0247574
+      Roll: 99.4027863
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 3879449765285952772
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 141.061493
-            Y: -287.108734
-            Z: 131.035
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 10646277014471225158
+    SubobjectId: 3557409926772510050
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 2043130370147661633
+  Name: "Mace"
+  Transform {
+    Location {
+      X: 182.589127
+      Y: -357.071564
+      Z: 144.001068
+    }
+    Rotation {
+      Pitch: -43.1194153
+      Yaw: 22.0895271
+      Roll: 97.7923355
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 4727493513781789394
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Hatchet"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 174.699799
-            Y: -334.325104
-            Z: 135.00116
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -13.7529602
-            Yaw: 36.0247574
-            Roll: 99.4027863
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 2043130370147661633
+    SubobjectId: 13743844546599015781
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 16391475085512450294
+  Name: "Hatchet"
+  Transform {
+    Location {
+      X: 174.699799
+      Y: -334.325104
+      Z: 135.00116
+    }
+    Rotation {
+      Pitch: -13.7529602
+      Yaw: 36.0247574
+      Roll: 99.4027863
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 7277247204375040499
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Bat"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 182.336273
-            Y: -352.36618
-            Z: 141.381302
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -6.88397217
-            Yaw: 25.9907799
-            Roll: 94.0385818
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 16391475085512450294
+    SubobjectId: 4727493513781789394
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 4563152898180473032
+  Name: "IcePick"
+  Transform {
+    Location {
+      X: 178.317291
+      Y: -340.394043
+      Z: 129.560944
+    }
+    Rotation {
+      Pitch: -14.2575989
+      Yaw: 150.386459
+      Roll: -72.6546
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 7951718355423967319
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Light Machine Guns"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 115.566467
-            Y: -408.586
-            Z: 138.429886
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -4.00814819
-            Yaw: 89.9616699
-            Roll: 72.3267441
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 4563152898180473032
+    SubobjectId: 11363367535699854060
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 6838869581024793182
+  Name: "Knife"
+  Transform {
+    Location {
+      X: 178.317291
+      Y: -340.394043
+      Z: 129.560944
+    }
+    Rotation {
+      Pitch: -14.2575989
+      Yaw: 150.386459
+      Roll: -72.6546
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 11363367535699854060
-      value {
-        Overrides {
-          Name: "Name"
-          String: "IcePick"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 178.317291
-            Y: -340.394043
-            Z: 129.560944
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -14.2575989
-            Yaw: 150.386459
-            Roll: -72.6546
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 6838869581024793182
+    SubobjectId: 18161278236413849722
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 14275461071190193111
+  Name: "Bat"
+  Transform {
+    Location {
+      X: 182.336273
+      Y: -352.36618
+      Z: 141.381302
+    }
+    Rotation {
+      Pitch: -6.88397217
+      Yaw: 25.9907799
+      Roll: 94.0385818
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 12047294811553656237
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sub Machine Gun"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 115.061234
-            Y: -404.632
-            Z: 136.815369
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -1.14678955
-            Yaw: 105.0224
-            Roll: 71.9375916
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 14275461071190193111
+    SubobjectId: 7277247204375040499
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 10896400968096194336
+  Name: "S4"
+  Transform {
+    Location {
+      X: 141.061493
+      Y: -287.108734
+      Z: 131.035
+    }
+    Rotation {
+      Pitch: 1.57699502
+      Yaw: 127.704941
+      Roll: 87.2699814
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 12428799791553408253
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Shotgun"
-        }
+  }
+  InstanceHistory {
+    SelfId: 10896400968096194336
+    SubobjectId: 3879449765285952772
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 14752512848088291955
+  Name: "Light Machine Guns"
+  Transform {
+    Location {
+      X: 115.566467
+      Y: -408.586
+      Z: 138.429886
+    }
+    Rotation {
+      Pitch: -4.00814819
+      Yaw: 89.9616699
+      Roll: 72.3267441
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 13743844546599015781
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Mace"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 182.589127
-            Y: -357.071564
-            Z: 144.001068
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -43.1194153
-            Yaw: 22.0895271
-            Roll: 97.7923355
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 14752512848088291955
+    SubobjectId: 7951718355423967319
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 8111552117231319836
+  Name: "Sniper Rifle"
+  Transform {
+    Location {
+      X: 99.63
+      Y: -408.586
+      Z: 141.61
+    }
+    Rotation {
+      Pitch: -4.26000929
+      Yaw: 87.1629944
+      Roll: 87.2859802
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 15164565934635227448
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sniper Rifle"
-        }
+  }
+  InstanceHistory {
+    SelfId: 8111552117231319836
+    SubobjectId: 15164565934635227448
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 6261164991844755114
+  Name: "Marksmen Rifle"
+  Transform {
+    Location {
+      X: 99.542
+      Y: -411.217
+      Z: 142.827
+    }
+    Rotation {
+      Pitch: -6.12200737
+      Yaw: 87.1309891
+      Roll: 90.98
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 16219089034840769990
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Assault Rifle"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 97.977
-            Y: -404.632
-            Z: 142.136169
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -8.48034668
-            Yaw: 81.6053391
-            Roll: 85.7347412
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 6261164991844755114
+    SubobjectId: 17583593980145910926
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 1052345312585354969
+  Name: "Shotgun"
+  Transform {
+    Location {
+      X: 105.992
+      Y: -396.537
+      Z: 143.968
+    }
+    Rotation {
+      Pitch: -7.0780015
+      Yaw: 87.115
+      Roll: 90.984
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 17583593980145910926
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Marksmen Rifle"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 99.542
-            Y: -411.217
-            Z: 142.827
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 1052345312585354969
+    SubobjectId: 12428799791553408253
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 6442476761853109012
+  Name: "Rocket Launcher"
+  Transform {
+    Location {
+      X: 121.025017
+      Y: -396.537
+      Z: 135.930664
+    }
+    Rotation {
+      Pitch: -0.650390625
+      Yaw: 90.6863785
+      Roll: 66.9193039
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 18125052844736856368
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Rocket Launcher"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -0.650390625
-            Yaw: 90.6863785
-            Roll: 66.9193039
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 121.025017
-            Y: -396.537
-            Z: 135.930664
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 6442476761853109012
+    SubobjectId: 18125052844736856368
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 419344107484221321
+  Name: "Sub Machine Gun"
+  Transform {
+    Location {
+      X: 115.061234
+      Y: -404.632
+      Z: 136.815369
+    }
+    Rotation {
+      Pitch: -1.14678955
+      Yaw: 105.0224
+      Roll: 71.9375916
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    ParameterOverrideMap {
-      key: 18161278236413849722
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Knife"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 178.317291
-            Y: -340.394043
-            Z: 129.560944
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -14.2575989
-            Yaw: 150.386459
-            Roll: -72.6546
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 419344107484221321
+    SubobjectId: 12047294811553656237
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
+  }
+}
+Objects {
+  Id: 4896712934170945506
+  Name: "Assault Rifle"
+  Transform {
+    Location {
+      X: 97.977
+      Y: -404.632
+      Z: 142.136169
+    }
+    Rotation {
+      Pitch: -8.48034668
+      Yaw: 81.6053391
+      Roll: 85.7347412
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 11737975556424242136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1701289050283511647
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
       }
     }
-    TemplateAsset {
-      Id: 1431288410069856033
-    }
+  }
+  InstanceHistory {
+    SelfId: 4896712934170945506
+    SubobjectId: 16219089034840769990
+    InstanceId: 3913595248187628019
+    TemplateId: 1431288410069856033
   }
 }
 Objects {

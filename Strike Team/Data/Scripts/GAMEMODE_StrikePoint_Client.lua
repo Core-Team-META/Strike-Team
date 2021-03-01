@@ -29,6 +29,9 @@ local RESOURCE = 3
 ------------------------------------------------------------------------------------------------------------------------
 
 local function GetData()
+    if STRIKE_POINT and not Object.IsValid(STRIKE_POINT) then
+        return
+    end
     local str = STRIKE_POINT:GetCustomProperty("DATA")
     return GT_API.ConvertStringToTable(str)
 end
@@ -36,15 +39,17 @@ end
 function OnNetworkChanged(object, string)
     if object == STRIKE_POINT then
         local data = GetData()
-        local currentTeam = data[TEAM]
-        local currentProgress = data[PROGRESS]
+        if data then
+            local currentTeam = data[TEAM]
+            local currentProgress = data[PROGRESS]
 
-        DEFAULT.team = currentTeam
-        CAPTURED.team = currentTeam
-        if currentProgress >= 100 then
-            CAPTURED.visibility = Visibility.FORCE_ON
-        else
-            CAPTURED.visibility = Visibility.FORCE_OFF
+            DEFAULT.team = currentTeam
+            CAPTURED.team = currentTeam
+            if currentProgress >= 100 then
+                CAPTURED.visibility = Visibility.FORCE_ON
+            else
+                CAPTURED.visibility = Visibility.FORCE_OFF
+            end
         end
     end
 end

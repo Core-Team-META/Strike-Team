@@ -209,6 +209,7 @@ Assets {
           Overrides {
             Name: "cs:BackgroundColor"
             Color {
+              G: 0.209920883
               B: 0.8
               A: 0.554
             }
@@ -222,6 +223,7 @@ Assets {
           Overrides {
             Name: "cs:BackgroundBlendColor"
             Color {
+              G: 0.128310204
               B: 0.8
               A: 0.763
             }
@@ -235,6 +237,7 @@ Assets {
           Overrides {
             Name: "cs:BorderColor"
             Color {
+              G: 0.0964773372
               B: 0.7
               A: 1
             }
@@ -248,6 +251,7 @@ Assets {
           Overrides {
             Name: "cs:InsideBorderColor"
             Color {
+              G: 0.194313854
               B: 0.7
               A: 1
             }
@@ -333,7 +337,7 @@ Assets {
           Overrides {
             Name: "cs:IconBackdropDetailColor"
             Color {
-              G: 0.110728174
+              G: 0.174560651
               B: 0.76
               A: 1
             }
@@ -428,7 +432,9 @@ Assets {
           Overrides {
             Name: "cs:SideFlairColor"
             Color {
+              G: 0.288064569
               B: 0.8
+              A: 1
             }
           }
           Overrides {

@@ -25,7 +25,11 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+
+while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
+
+local RELOAD_ABILITY = WEAPON.clientUserData.RELOAD_ABILITY
 
 -- User exposed properties
 local PLAY_COUNT = script:GetCustomProperty("PlayCount")
@@ -33,7 +37,7 @@ local PLAY_COUNT = script:GetCustomProperty("PlayCount")
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
 while not Object.IsValid(RELOAD_ABILITY) do
     Task.Wait()
-    RELOAD_ABILITY = WEAPON:GetAbilities()[2]
+    RELOAD_ABILITY = WEAPON.clientUserData.RELOAD_ABILITY
 end
 
 -- Constant variables
