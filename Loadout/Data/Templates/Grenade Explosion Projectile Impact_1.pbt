@@ -1,12 +1,12 @@
 Assets {
-  Id: 9702982403106980693
+  Id: 18403044146386498216
   Name: "Grenade Explosion Projectile Impact"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 3631816468235174342
+      RootId: 3547787129964795936
       Objects {
-        Id: 3631816468235174342
+        Id: 3547787129964795936
         Name: "Grenade Explosion Projectile Impact"
         Transform {
           Scale {
@@ -16,12 +16,41 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 3631816468235174342
+        UnregisteredParameters {
+        }
+        Lifespan: 6
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3631816468235174342
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3547787129964795936
         ChildIds: 8294218620204688349
         ChildIds: 15578947255402770909
         ChildIds: 6403277457468986457
         UnregisteredParameters {
         }
-        Lifespan: 6
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

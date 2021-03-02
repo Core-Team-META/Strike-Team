@@ -32,6 +32,7 @@ local DEACTIVATE_EVENT = RootGroup:GetCustomProperty("DeactivateEvent")
 --	nil Activate()
 --	Forcefully activates the victory Screen
 function Activate(playerList)
+	Task.Wait(5)
 	VictoryScreenAPI.TeleportPlayers(RootGroup, playerList)
 end
 

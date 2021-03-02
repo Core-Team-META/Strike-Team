@@ -6,7 +6,9 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -18,6 +20,10 @@ local SPAWNED_OBJECTS = script:GetCustomProperty("SPAWNED_OBJECTS"):WaitForObjec
 -- Custom Properties
 ------------------------------------------------------------------------------------------------------------------------
 local myId = ROOT:GetCustomProperty("ID")
+local enabled = ROOT:GetCustomProperty("ENABLED")
+if not enabled then
+    return
+end
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +34,7 @@ local listeners = {}
 ------------------------------------------------------------------------------------------------------------------------
 
 local function Log(message, ...)
-    print("GameType Server [" .. GT_API.GetGameTypeName(myId) .. "] " .. message, ...)
+    print("GameMode Server [" .. ROOT.name .. "] " .. message, ...)
 end
 
 local function IsVaildId(id)
@@ -80,4 +86,4 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 
-print("Initialized GameType Server " .. myId)
+print("Initialized GameMode Server " .. ROOT.name)

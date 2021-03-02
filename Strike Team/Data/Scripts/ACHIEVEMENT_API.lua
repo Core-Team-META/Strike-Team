@@ -10,6 +10,7 @@ local API = {}
 -- CONSTANTS
 ------------------------------------------------------------------------------------------------------------------------
 local achievements = {}
+local repeaTableAchievements = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -49,6 +50,7 @@ end
 function API.RegisterAchievements(list)
     if not next(achievements) then
         local sort = 0
+        local repeatCount = 0
         for _, child in ipairs(list:GetChildren()) do
             local enabled = child:GetCustomProperty("Enabled")
             local id = child:GetCustomProperty("ID")
@@ -58,6 +60,7 @@ function API.RegisterAchievements(list)
             local rewardName = child:GetCustomProperty("RewardName")
             local rewardAmmount = child:GetCustomProperty("RewardAmount")
             local rewardIcon = child:GetCustomProperty("RewardIcon")
+            local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
 
             local achievement = {
                 id = id,
@@ -68,11 +71,16 @@ function API.RegisterAchievements(list)
                 icon = icon,
                 rewardName = rewardName,
                 rewardAmt = rewardAmmount,
-                rewardIcon = rewardIcon
+                rewardIcon = rewardIcon,
+                isRepeatable = isRepeatable
             }
             if enabled then
                 sort = sort + 1
                 achievements[id] = achievement
+            end
+            if isRepeatable then
+                repeatCount = repeatCount + 1
+                repeaTableAchievements[repeatCount] = achievement
             end
         end
     end
@@ -161,11 +169,24 @@ function API.GetCurrentProgress(player, id)
 end
 
 function API.IsUnlocked(player, id)
-    if IsValidPlayer(player) and API.GetAchievementInfo(id) and API.GetCurrentProgress(player, id) >= API.GetAchievementRequired(id) then
+    if
+        IsValidPlayer(player) and API.GetAchievementInfo(id) and
+            API.GetCurrentProgress(player, id) >= API.GetAchievementRequired(id)
+     then
         return true
     else
         return false
     end
+end
+
+function API.CheckUnlockedAchievements(player)
+    local tempTbl = {}
+    for id, achievement in pairs(API.GetAchievements()) do
+        if API.IsUnlocked(player, id) then
+            tempTbl[id] = achievement
+        end
+    end
+    return tempTbl
 end
 
 function API.UnlockAchievement(player, id)
@@ -203,13 +224,24 @@ function API.LoadAchievementStorage(player)
         end
     end
 end
+
+function API.ResetRepeatable(player)
+    for id, achievement in pairs(API.GetAchievements()) do
+        if achievement.isRepeatable then
+            player:SetResource(id, 0)
+        end
+    end
+end
+
 function API.SaveAchievementStorage(player)
     local data = Storage.GetPlayerData(player)
     local tempTbl = {}
     for id, achievement in pairs(API.GetAchievements()) do
-        tempTbl[id] = player:GetResource(id)
+        if not achievement.isRepeatable then
+            tempTbl[id] = player:GetResource(id)
+        end
     end
-    
+
     data.ACHIEVEMENT = tempTbl
     Storage.SetPlayerData(player, data)
 end
@@ -322,6 +354,5 @@ function API.FormatInt(number)
     int = int:reverse():gsub("(%d%d%d)", "%1,")
     return minus .. int:reverse():gsub("^,", "") .. fraction
 end
-
 
 return API

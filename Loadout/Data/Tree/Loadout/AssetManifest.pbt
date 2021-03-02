@@ -79,3 +79,12 @@ Assets {
     AssetId: "sm_sphere_001"
   }
 }
+Assets {
+  Id: 1144950805409236433
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}

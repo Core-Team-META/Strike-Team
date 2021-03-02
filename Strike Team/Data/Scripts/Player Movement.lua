@@ -24,6 +24,14 @@ function AddSprintBoost(player)
     return SPRINT_SPEED
 end
 
+function WillAffectMovement(player)
+    if not player.serverUserData.EquippedWeapon:IsA("Weapon") and player.serverUserData.EquippedWeapon:IsA("Equipment") then
+        
+        return false
+    end
+    return true
+end
+
 
 function Tick(dt)
     if _G["MovementCanControl"] == false then return end
@@ -38,8 +46,8 @@ function Tick(dt)
 
     Task.Spawn(function()   
         for player, slidingTimer in pairs(slidingTimers) do
-            if player then 
-                if player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
+            if Object.IsValid(player) then 
+                if player.serverUserData.playerStatus and player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
                 player.serverUserData.playerStatus["Sliding"] = false
                 UpdatePlayerSliding(player)
                 UpdatePlayerAiming(player)
@@ -102,13 +110,14 @@ function UpdatePlayerSprinting(player)
 end
 
 function UpdatePlayerAiming(player)
+    local AffectAiming =  WillAffectMovement(player)
     if player.serverUserData.playerStatus["RMBDown"] or player.serverUserData.playerStatus["LMBDown"] then
         player.serverUserData.playerStatus["Aiming"] = true
         player.serverUserData.playerStatus["Sprinting"] = false
         if  not player.serverUserData.playerStatus["Sliding"] then
             if  player.serverUserData.playerStatus["RMBDown"] then
                 player.maxWalkSpeed = SCOPE_SPEED
-            elseif player.serverUserData.playerStatus["LMBDown"] then
+            elseif player.serverUserData.playerStatus["LMBDown"] and AffectAiming then
                 player.maxWalkSpeed = RUN_SPEED
             end
             player.groundFriction = DEFAULT_FRICTION

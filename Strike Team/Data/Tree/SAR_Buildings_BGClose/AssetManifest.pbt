@@ -386,6 +386,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5356997660449093087
+  Name: "Fantasy Castle Stairs 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_001"
+  }
+}
+Assets {
   Id: 5123034113732424919
   Name: "Shipping Pallet - Rectangular"
   PlatformAssetType: 1
@@ -401,6 +410,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_winHalfSlot1x"
+  }
+}
+Assets {
+  Id: 4054211681159130604
+  Name: "Hill 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_001"
   }
 }
 Assets {

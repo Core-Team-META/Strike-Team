@@ -16,6 +16,12 @@ Objects {
   }
   ParentId: 16180529362581302619
   ChildIds: 444959310845900471
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: false
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -108,6 +114,12 @@ Objects {
       Name: "cs:AchievementSystem"
       ObjectReference {
         SelfId: 16180529362581302619
+      }
+    }
+    Overrides {
+      Name: "cs:UI"
+      ObjectReference {
+        SelfId: 6299781893081135138
       }
     }
   }
@@ -3015,6 +3027,10 @@ Objects {
       AssetReference {
         Id: 16466079658499434425
       }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
     }
   }
   Collidable_v2 {

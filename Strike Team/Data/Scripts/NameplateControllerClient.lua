@@ -171,6 +171,8 @@ end
 -- bool IsNameplateVisible(Player)
 -- Can we see this player's nameplate given team and distance properties?
 function IsNameplateVisible(player)
+	if _G["FoceNamePLates"] then return true end
+
 	if player.isDead and not SHOW_ON_DEAD_PLAYERS then
 		return false
 	end

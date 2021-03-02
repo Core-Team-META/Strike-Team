@@ -1318,19 +1318,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1363,7 +1363,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1421,19 +1421,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1507,19 +1507,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1556,7 +1556,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4754302570986976949
+            Id: 5059398071677866023
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1593,19 +1593,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1642,7 +1642,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4754302570986976949
+            Id: 5059398071677866023
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1679,19 +1679,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1759,19 +1759,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1795,7 +1795,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1814,7 +1814,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3423442653192968418
+            Id: 2711115575961352697
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1851,7 +1851,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1872,7 +1872,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1909,7 +1909,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1930,7 +1930,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1967,7 +1967,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1988,7 +1988,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2025,7 +2025,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2046,7 +2046,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2083,19 +2083,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2144,19 +2144,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2206,19 +2206,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2268,7 +2268,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2281,7 +2281,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10495804573419431478
+            Id: 16237034321466822417
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2318,19 +2318,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2380,7 +2380,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2401,7 +2401,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2438,7 +2438,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2459,7 +2459,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2496,7 +2496,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2546,7 +2546,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2596,7 +2596,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -2646,7 +2646,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2667,7 +2667,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2704,7 +2704,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2725,7 +2725,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2762,7 +2762,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2783,7 +2783,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12280745604099262983
+            Id: 16598762979971943472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2820,7 +2820,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2932,7 +2932,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -3076,7 +3076,7 @@ Assets {
       }
     }
     Assets {
-      Id: 643713811288060970
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -3094,7 +3094,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4754302570986976949
+      Id: 5059398071677866023
       Name: "Text 06: ("
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3112,7 +3112,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3423442653192968418
+      Id: 2711115575961352697
       Name: "Cube - Rounded Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3121,7 +3121,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12280745604099262983
+      Id: 16598762979971943472
       Name: "Cylinder - Chamfered Polished"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3148,7 +3148,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10495804573419431478
+      Id: 16237034321466822417
       Name: "Cylinder - Chamfered"
       PlatformAssetType: 1
       PrimaryAsset {

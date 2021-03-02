@@ -21,7 +21,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 5803263506560414137
+  ChildIds: 9136329465692806999
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
@@ -265,6 +265,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 13489158920696445560
   ChildIds: 15033543341472117485
   ChildIds: 8042637274710802851
   ChildIds: 8582034180734954063
@@ -446,6 +447,41 @@ Objects {
   Script {
     ScriptAsset {
       Id: 11822087086620148992
+    }
+  }
+}
+Objects {
+  Id: 13489158920696445560
+  Name: "PurchaseCredits"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11951719430612397057
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:UISpawn"
+      AssetReference {
+        Id: 11102910980603314835
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9986613342432394644
     }
   }
 }
@@ -667,13 +703,9 @@ Objects {
   }
 }
 Objects {
-  Id: 5803263506560414137
+  Id: 9136329465692806999
   Name: "EquipmentHandler"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -681,22 +713,30 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EquipmentHandler"
-  }
-  InstanceHistory {
-    SelfId: 5803263506560414137
-    SubobjectId: 777066251803753357
-    InstanceId: 1671268894188365002
-    TemplateId: 2061105466214076613
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15287344345217834263
+      value {
+        Overrides {
+          Name: "cs:SKIN"
+          AssetReference {
+            Id: 8921104371560315070
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12469272091380785429
+    }
   }
 }
 Objects {
