@@ -628,7 +628,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 2202135855200389356
       }
     }
     Overrides {
@@ -653,6 +652,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 17329326674536696905
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 11692785824410703678
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 14140789436069698833
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 17684026744348397655
       }
     }
   }
@@ -1363,7 +1380,7 @@ Objects {
 }
 Objects {
   Id: 11953153625270745044
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -1376,7 +1393,9 @@ Objects {
     }
   }
   ParentId: 5723566900376747960
-  ChildIds: 2202135855200389356
+  ChildIds: 11692785824410703678
+  ChildIds: 14140789436069698833
+  ChildIds: 17684026744348397655
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1425,16 +1444,16 @@ Objects {
   }
 }
 Objects {
-  Id: 2202135855200389356
-  Name: "Text"
+  Id: 17684026744348397655
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.45
+      Y: -4026.97119
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9998169
     }
     Scale {
       X: 1
@@ -1443,6 +1462,12 @@ Objects {
     }
   }
   ParentId: 11953153625270745044
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1450,28 +1475,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 60
+    Height: 45
+    UIX: 58.7065125
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -1487,11 +1534,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9469608981864331775
-    SubobjectId: 3400776568952769229
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 14140789436069698833
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.45459
+      Y: -4026.9707
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9998398
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11953153625270745044
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11692785824410703678
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.45703
+      Y: -4026.97363
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9998589
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11953153625270745044
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    UIX: -59.2842445
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -1519,7 +1743,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 7242971442733469182
       }
     }
     Overrides {
@@ -1544,6 +1767,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 2184591195126415838
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 15118736457131893774
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 8696181469142494608
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 17099771986996383568
       }
     }
   }
@@ -2254,7 +2495,7 @@ Objects {
 }
 Objects {
   Id: 865120428101621092
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -2267,7 +2508,9 @@ Objects {
     }
   }
   ParentId: 15871727560503513495
-  ChildIds: 7242971442733469182
+  ChildIds: 15118736457131893774
+  ChildIds: 8696181469142494608
+  ChildIds: 17099771986996383568
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2316,16 +2559,16 @@ Objects {
   }
 }
 Objects {
-  Id: 7242971442733469182
-  Name: "Text"
+  Id: 17099771986996383568
+  Name: "Kill"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.4585
+      Y: -4026.97266
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9998894
     }
     Scale {
       X: 1
@@ -2334,6 +2577,12 @@ Objects {
     }
   }
   ParentId: 865120428101621092
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2341,28 +2590,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 60
+    Height: 45
+    UIX: -59.2842445
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 16
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -2378,11 +2649,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9469608981864331775
-    SubobjectId: 3400776568952769229
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 8696181469142494608
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.45654
+      Y: -4026.97119
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9998665
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 865120428101621092
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 15118736457131893774
+  Name: "Chicken"
+  Transform {
+    Location {
+      X: 4175.45166
+      Y: -4026.97095
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9998436
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 865120428101621092
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    UIX: 58.7065125
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -2410,7 +2858,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 17009936663352989075
       }
     }
     Overrides {
@@ -2435,6 +2882,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 15875400116678783489
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 13674265543740407419
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 1815261851969779105
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 8533599977655640111
       }
     }
   }
@@ -3145,7 +3610,7 @@ Objects {
 }
 Objects {
   Id: 7560319023935573636
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -3158,7 +3623,9 @@ Objects {
     }
   }
   ParentId: 1464533678794873841
-  ChildIds: 17009936663352989075
+  ChildIds: 13674265543740407419
+  ChildIds: 1815261851969779105
+  ChildIds: 8533599977655640111
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3207,16 +3674,16 @@ Objects {
   }
 }
 Objects {
-  Id: 17009936663352989075
-  Name: "Text"
+  Id: 8533599977655640111
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.45361
+      Y: -4026.9707
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9998665
     }
     Scale {
       X: 1
@@ -3225,6 +3692,12 @@ Objects {
     }
   }
   ParentId: 7560319023935573636
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3232,28 +3705,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 60
+    Height: 45
+    UIX: 58.7065125
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 16
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -3269,11 +3764,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9469608981864331775
-    SubobjectId: 3400776568952769229
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 1815261851969779105
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.4585
+      Y: -4026.97168
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9998894
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7560319023935573636
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13674265543740407419
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.46
+      Y: -4026.97314
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999084
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7560319023935573636
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    UIX: -59.2842445
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -3301,7 +3973,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 7245282716238775284
       }
     }
     Overrides {
@@ -3326,6 +3997,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 15753090813706770559
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 13446474476163443721
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 14969618624478660042
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 1880310375830400900
       }
     }
   }
@@ -4036,7 +4725,7 @@ Objects {
 }
 Objects {
   Id: 13192399695954569308
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -4049,7 +4738,9 @@ Objects {
     }
   }
   ParentId: 2144905604503381087
-  ChildIds: 7245282716238775284
+  ChildIds: 13446474476163443721
+  ChildIds: 14969618624478660042
+  ChildIds: 1880310375830400900
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4098,16 +4789,16 @@ Objects {
   }
 }
 Objects {
-  Id: 7245282716238775284
-  Name: "Text"
+  Id: 1880310375830400900
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.45557
+      Y: -4026.9707
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9998817
     }
     Scale {
       X: 1
@@ -4116,6 +4807,12 @@ Objects {
     }
   }
   ParentId: 13192399695954569308
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4123,28 +4820,51 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 60
+    Height: 45
+    UIX: 58.7065125
+    UIY: -1.37255859
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 17
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -4160,11 +4880,190 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9469608981864331775
-    SubobjectId: 3400776568952769229
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 14969618624478660042
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.46045
+      Y: -4026.97192
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999084
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13192399695954569308
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    UIY: -1.37255859
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13446474476163443721
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.46094
+      Y: -4026.97363
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999199
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13192399695954569308
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    UIX: -59.2842445
+    UIY: -1.37255859
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -4192,7 +5091,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 15425188981892264144
       }
     }
     Overrides {
@@ -4217,6 +5115,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 4590929549820915343
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 17087781628614498317
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 16756838470482131022
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 12614231200922805299
       }
     }
   }
@@ -4927,7 +5843,7 @@ Objects {
 }
 Objects {
   Id: 14747710476742810449
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -4940,7 +5856,9 @@ Objects {
     }
   }
   ParentId: 8589389083670957857
-  ChildIds: 15425188981892264144
+  ChildIds: 17087781628614498317
+  ChildIds: 16756838470482131022
+  ChildIds: 12614231200922805299
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4989,16 +5907,16 @@ Objects {
   }
 }
 Objects {
-  Id: 15425188981892264144
-  Name: "Text"
+  Id: 12614231200922805299
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.45703
+      Y: -4026.97095
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.999897
     }
     Scale {
       X: 1
@@ -5007,6 +5925,12 @@ Objects {
     }
   }
   ParentId: 14747710476742810449
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5014,28 +5938,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 60
+    Height: 45
+    UIX: 58.7065048
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 17
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -5051,11 +5997,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9469608981864331775
-    SubobjectId: 3400776568952769229
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 16756838470482131022
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.46191
+      Y: -4026.97266
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999199
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14747710476742810449
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17087781628614498317
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.46143
+      Y: -4026.97363
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999313
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14747710476742810449
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 45
+    UIX: -59.2842445
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 12
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -5082,7 +6205,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 9469608981864331775
       }
     }
     Overrides {
@@ -5107,6 +6229,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 117672024402946188
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 17943135627857807882
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 10133539970944319412
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 9544570813580500760
       }
     }
   }
@@ -5817,7 +6957,7 @@ Objects {
 }
 Objects {
   Id: 8167012888024479221
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -5830,7 +6970,9 @@ Objects {
     }
   }
   ParentId: 9078727606175875165
-  ChildIds: 9469608981864331775
+  ChildIds: 17943135627857807882
+  ChildIds: 10133539970944319412
+  ChildIds: 9544570813580500760
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5879,16 +7021,16 @@ Objects {
   }
 }
 Objects {
-  Id: 9469608981864331775
-  Name: "Text"
+  Id: 9544570813580500760
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.45898
+      Y: -4026.97046
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9999199
     }
     Scale {
       X: 1
@@ -5897,6 +7039,12 @@ Objects {
     }
   }
   ParentId: 8167012888024479221
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5904,28 +7052,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 70
+    Height: 45
+    UIX: 69
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 18
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -5941,11 +7111,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9469608981864331775
-    SubobjectId: 3400776568952769229
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 10133539970944319412
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.46289
+      Y: -4026.97192
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999428
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8167012888024479221
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 70
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17943135627857807882
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.46338
+      Y: -4026.97388
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999504
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8167012888024479221
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 70
+    Height: 45
+    UIX: -69
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -5972,7 +7319,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 5777457451671530655
       }
     }
     Overrides {
@@ -5997,6 +7343,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 5146184775016362510
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 3136248033263217691
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 14841057574741165407
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 9451300928246223489
       }
     }
   }
@@ -6707,7 +8071,7 @@ Objects {
 }
 Objects {
   Id: 4026793746868066445
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -6720,7 +8084,9 @@ Objects {
     }
   }
   ParentId: 13703639367807919131
-  ChildIds: 5777457451671530655
+  ChildIds: 3136248033263217691
+  ChildIds: 14841057574741165407
+  ChildIds: 9451300928246223489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6769,16 +8135,16 @@ Objects {
   }
 }
 Objects {
-  Id: 5777457451671530655
-  Name: "Text"
+  Id: 9451300928246223489
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.46094
+      Y: -4026.97168
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9999313
     }
     Scale {
       X: 1
@@ -6787,6 +8153,12 @@ Objects {
     }
   }
   ParentId: 4026793746868066445
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6794,28 +8166,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    UIY: 6
+    Width: 70
+    Height: 45
+    UIX: 70
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 18
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -6831,11 +8225,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5777457451671530655
-    SubobjectId: 18191892148556226477
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 14841057574741165407
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.46338
+      Y: -4026.97388
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999504
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4026793746868066445
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 70
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3136248033263217691
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.46338
+      Y: -4026.97485
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4026793746868066445
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 70
+    Height: 45
+    UIX: -70
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 14
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -6862,7 +8433,6 @@ Objects {
     Overrides {
       Name: "cs:NameText"
       ObjectReference {
-        SelfId: 9822317508680819521
       }
     }
     Overrides {
@@ -6887,6 +8457,24 @@ Objects {
       Name: "cs:ResourcePanel"
       ObjectReference {
         SelfId: 12249622457006835063
+      }
+    }
+    Overrides {
+      Name: "cs:Kill"
+      ObjectReference {
+        SelfId: 16122579888913722351
+      }
+    }
+    Overrides {
+      Name: "cs:Confetti"
+      ObjectReference {
+        SelfId: 14509821543506423570
+      }
+    }
+    Overrides {
+      Name: "cs:Chicken"
+      ObjectReference {
+        SelfId: 17599958261674497074
       }
     }
   }
@@ -6950,7 +8538,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Height: -50
@@ -7597,7 +9185,7 @@ Objects {
 }
 Objects {
   Id: 6440438762404302475
-  Name: "Name"
+  Name: "BUTTONS"
   Transform {
     Location {
     }
@@ -7610,12 +9198,14 @@ Objects {
     }
   }
   ParentId: 17237569339051846686
-  ChildIds: 9822317508680819521
+  ChildIds: 16122579888913722351
+  ChildIds: 14509821543506423570
+  ChildIds: 17599958261674497074
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Height: 50
@@ -7659,16 +9249,16 @@ Objects {
   }
 }
 Objects {
-  Id: 9822317508680819521
-  Name: "Text"
+  Id: 17599958261674497074
+  Name: "Chicken"
   Transform {
     Location {
-      X: -1516.74414
-      Y: 463.155151
-      Z: 9050
+      X: 4175.46143
+      Y: -4026.97266
+      Z: -950
     }
     Rotation {
-      Yaw: -135
+      Yaw: 44.9999428
     }
     Scale {
       X: 1
@@ -7677,6 +9267,12 @@ Objects {
     }
   }
   ParentId: 6440438762404302475
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7684,27 +9280,50 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
+    Width: 90
+    Height: 45
+    UIX: 90
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "USERNAMEWITHINTHIRTYCHARACTERS"
-      Color {
+    Button {
+      Label: "Chicken"
+      FontColor {
+        A: 1
+      }
+      FontSize: 15
+      ButtonColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 24
-      Justification {
-        Value: "mc:etextjustify:center"
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
-      ClipTextToSize: true
-      Font {
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
       }
     }
     AnchorLayout {
@@ -7720,11 +9339,188 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9822317508680819521
-    SubobjectId: 2599934661287006323
-    InstanceId: 2105981699737990007
-    TemplateId: 11549915397152867435
+}
+Objects {
+  Id: 14509821543506423570
+  Name: "Confetti"
+  Transform {
+    Location {
+      X: 4175.46338
+      Y: -4026.97485
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6440438762404302475
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 90
+    Height: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confetti"
+      FontColor {
+        A: 1
+      }
+      FontSize: 15
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16122579888913722351
+  Name: "Kill"
+  Transform {
+    Location {
+      X: 4175.46387
+      Y: -4026.9751
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999733
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6440438762404302475
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Action"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 90
+    Height: 45
+    UIX: -90
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Kill"
+      FontColor {
+        A: 1
+      }
+      FontSize: 15
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {

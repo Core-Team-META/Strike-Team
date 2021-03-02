@@ -1,6 +1,31 @@
 Name: "Endgame-ToggleUI"
 RootId: 1767098222894358513
 Objects {
+  Id: 18434938065660476816
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1767098222894358513
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
   Id: 10883484660121133561
   Name: "ClientContext"
   Transform {
@@ -17,6 +42,7 @@ Objects {
   ParentId: 1767098222894358513
   ChildIds: 6955198926915536292
   ChildIds: 4463644292296476551
+  ChildIds: 12503039659839529519
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -24,6 +50,41 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 12503039659839529519
+  Name: "VictoryScreen_Actions_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10883484660121133561
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Confetti_Victory_Template"
+      AssetReference {
+        Id: 8396697839431648410
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2968183542830463819
+    }
   }
 }
 Objects {
@@ -512,6 +573,41 @@ Objects {
   Script {
     ScriptAsset {
       Id: 16003379672833972719
+    }
+  }
+}
+Objects {
+  Id: 15556606984996189360
+  Name: "VictoryScreen_Actions_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1767098222894358513
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MageElfAnimorphPotionAttachmentBasic"
+      AssetReference {
+        Id: 4202313060147102476
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4210065117582636762
     }
   }
 }

@@ -168,13 +168,24 @@ if Environment.IsServer() then
         if Value == 0 then Value = 1 end
         self.lastamount = self:GetXP()
         self.xp = self.xp + (Value or 0)
-        self.owner:SetResource("XP", self.xp)
-        self.level = self:CalculateLevel()
-        self:Save() 
+        self:UpdateResource()
+        self:Save()
     end
     
     function XP:GetXP()
         return self.xp or 0
+    end
+     
+    function XP:UpdateResource()
+        self.owner:SetResource("XP", self.xp)
+        self.level = self:CalculateLevel()
+        self.owner:SetResource("level", self.level)
+    end
+
+    function XP:Reset()
+        self.xp = 0
+        self.level = 0
+        self:Save()
     end
 
     function XP:GetLevel()
