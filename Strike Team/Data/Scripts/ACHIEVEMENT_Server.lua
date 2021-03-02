@@ -109,6 +109,12 @@ function OnRewardCollected(player, id)
     ACH_API.CollectReward(player, id)
 end
 
+function OnLobby()
+    for _, player in ipairs(Game.GetPlayers()) do
+        ACH_API.ResetRepeatable(player)
+    end
+end
+
 function OnRoundStart()
     for _, player in ipairs(Game.GetPlayers()) do
         SetPlayerFlags(player)
@@ -164,6 +170,9 @@ function OnGameStateChanged(object, string)
         end
         if state == GAME_STATE_API.GAME_STATE_ROUND_END then
             OnRoundEnd()
+        end
+        if state == GAME_STATE_API.GAME_STATE_LOBBY then
+            OnLobby()
         end
     end
 end
