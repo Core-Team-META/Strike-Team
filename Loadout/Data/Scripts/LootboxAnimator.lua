@@ -385,7 +385,7 @@ function Roll(MainWeapon, others)
 		if v:GetSlot() == ("Primary" or "Secondary" or "Melee") then
 			weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0, 90, 0))
 		else
-			--weapon:SetRotation(Rotation.New(0,90,0) )
+			--weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0, 0, 0))
 		end
 		weapon.parent = OtherWeapons
 	end
