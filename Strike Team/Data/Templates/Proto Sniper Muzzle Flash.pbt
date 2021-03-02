@@ -152,7 +152,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:high"
+              Value: "mc:evfxrelevance:medium"
             }
           }
         }
@@ -384,7 +384,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:high"
+              Value: "mc:evfxrelevance:medium"
             }
           }
         }
@@ -432,7 +432,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:high"
+              Value: "mc:evfxrelevance:medium"
             }
           }
         }
@@ -480,7 +480,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:high"
+              Value: "mc:evfxrelevance:medium"
             }
           }
         }
@@ -528,7 +528,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:high"
+              Value: "mc:evfxrelevance:medium"
             }
           }
         }
@@ -616,7 +616,7 @@ Assets {
           Vfx {
             AutoPlay: true
             Relevance {
-              Value: "mc:evfxrelevance:high"
+              Value: "mc:evfxrelevance:medium"
             }
           }
         }
