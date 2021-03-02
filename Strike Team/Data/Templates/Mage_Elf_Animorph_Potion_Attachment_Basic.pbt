@@ -10,9 +10,9 @@ Assets {
         Name: "Mage Elf Animorph Potion Attachment Basic"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
         ParentId: 4781671109827199097
@@ -2186,9 +2186,9 @@ Assets {
         Name: "Helmet"
         Transform {
           Location {
-            X: -9.29970646
-            Y: 1.15514622e-05
-            Z: 25.0889721
+            X: -12.2708502
+            Y: 0.0437334292
+            Z: 23.6003704
           }
           Rotation {
             Pitch: 7.98634863
@@ -2201,9 +2201,12 @@ Assets {
         }
         ParentId: 1729226178086060402
         ChildIds: 772779727389972366
-        ChildIds: 6719699358976532250
         ChildIds: 5184003710666697495
-        ChildIds: 6237281270381683688
+        ChildIds: 16097960526334697554
+        ChildIds: 7143583086345282453
+        ChildIds: 5477073118963665994
+        ChildIds: 14430682575993087995
+        ChildIds: 1926467712133880749
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2219,6 +2222,9 @@ Assets {
         Name: "Modern Weapon - Bullet 01"
         Transform {
           Location {
+            X: -0.33606115
+            Y: 5.47551849e-07
+            Z: 0.997122884
           }
           Rotation {
             Pitch: 27.3399677
@@ -2226,9 +2232,9 @@ Assets {
             Roll: 8.34979872e-14
           }
           Scale {
-            X: 0.2588121
-            Y: 0.2588121
-            Z: 0.0859255642
+            X: 0.287088394
+            Y: 0.287088305
+            Z: 0.402248412
           }
         }
         ParentId: 15773508249400993869
@@ -2236,7 +2242,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4247430867898109902
+              Id: 215340117871446266
             }
           }
           Overrides {
@@ -2245,19 +2251,20 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.174932346
+            Float: 1.68790722
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.708
-              B: 0.440108269
+              R: 0.129000008
+              G: 0.106665067
+              B: 0.0846240073
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.174932346
+            Float: 1.30191791
           }
         }
         Collidable_v2 {
@@ -2268,67 +2275,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2264041107168619230
-          }
-          Teams {
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6719699358976532250
-        Name: "Modern Weapon - Bullet 01"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: -89.9999695
-            Roll: -27.3399067
-          }
-          Scale {
-            X: 0.0596943498
-            Y: 0.0880785733
-            Z: 0.101963371
-          }
-        }
-        ParentId: 15773508249400993869
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14975837595723687713
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.23989071
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.5
-              G: 0.5
-              B: 0.5
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4758773344593758102
+            Id: 13455217693085166429
           }
           Teams {
           }
@@ -2346,13 +2293,11 @@ Assets {
           }
           Rotation {
             Pitch: 27.3399677
-            Yaw: -3.89428247e-12
-            Roll: -2.23028692e-12
           }
           Scale {
-            X: 0.234902129
-            Y: 0.234914333
-            Z: 0.230471924
+            X: 0.249123931
+            Y: 0.24913682
+            Z: 0.244425505
           }
         }
         ParentId: 15773508249400993869
@@ -2360,7 +2305,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14975837595723687713
+              Id: 4977061795753677470
             }
           }
           Overrides {
@@ -2374,7 +2319,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 10378479423839914021
+              Id: 4977061795753677470
             }
           }
           Overrides {
@@ -2392,9 +2337,18 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.5
-              G: 0.5
-              B: 0.5
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
               A: 1
             }
           }
@@ -2418,22 +2372,23 @@ Assets {
         }
       }
       Objects {
-        Id: 6237281270381683688
-        Name: "Gem - Baguette Polished"
+        Id: 16097960526334697554
+        Name: "Modern Weapon - Bullet 01"
         Transform {
           Location {
-            X: 14.9183388
-            Y: -1.25516117e-05
-            Z: 4.08873
+            X: -0.222849935
+            Y: 13.7095289
+            Z: 0.245169401
           }
           Rotation {
-            Yaw: -90
-            Roll: 35.6527519
+            Pitch: -63.3200684
+            Yaw: 15.905467
+            Roll: 74.2017136
           }
           Scale {
-            X: 0.0779957324
-            Y: 0.16927886
-            Z: 0.107132
+            X: 0.028998008
+            Y: 0.0359890833
+            Z: 0.0471042506
           }
         }
         ParentId: 15773508249400993869
@@ -2441,7 +2396,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14975837595723687713
+              Id: 2677493793978752599
             }
           }
           Overrides {
@@ -2449,11 +2404,87 @@ Assets {
             Bool: false
           }
           Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.64464462
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:vtile"
+            Float: 18.0301647
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 19.7096939
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.68790722
+          }
+          Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.5
-              G: 0.5
-              B: 0.5
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
               A: 1
             }
           }
@@ -2466,7 +2497,550 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16825643228001246048
+            Id: 12172518956958697954
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7143583086345282453
+        Name: "Modern Weapon - Bullet 01"
+        Transform {
+          Location {
+            X: -0.222802594
+            Y: -13.7091618
+            Z: 0.245200664
+          }
+          Rotation {
+            Pitch: -63.3200073
+            Yaw: -15.9049988
+            Roll: -74.2019958
+          }
+          Scale {
+            X: 0.028998008
+            Y: 0.0359890833
+            Z: 0.0471042506
+          }
+        }
+        ParentId: 15773508249400993869
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2677493793978752599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.64464462
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:vtile"
+            Float: 18.0301647
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 19.7096939
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.68790722
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12172518956958697954
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5477073118963665994
+        Name: "Modern Weapon - Bullet 01"
+        Transform {
+          Location {
+            X: 11.237113
+            Y: -0.176472828
+            Z: 8.652915
+          }
+          Rotation {
+            Pitch: 43.2280083
+            Yaw: 180
+          }
+          Scale {
+            X: 0.0493656285
+            Y: 0.0493676625
+            Z: 0.0532686822
+          }
+        }
+        ParentId: 15773508249400993869
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2677493793978752599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.64464462
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:vtile"
+            Float: 18.0301647
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 19.7096939
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.68790722
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3514123805376682357
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14430682575993087995
+        Name: "Modern Weapon - Bullet 01"
+        Transform {
+          Location {
+            X: 10.3744211
+            Y: 4.72294
+            Z: 18.0309315
+          }
+          Rotation {
+            Pitch: 53.1496
+            Yaw: 180
+            Roll: -120
+          }
+          Scale {
+            X: 0.619693756
+            Y: 0.812071204
+            Z: 0.812080145
+          }
+        }
+        ParentId: 15773508249400993869
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2677493793978752599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.64464462
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:vtile"
+            Float: 18.0301647
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 19.7096939
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.68790722
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3673793620995448378
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1926467712133880749
+        Name: "Modern Weapon - Bullet 01"
+        Transform {
+          Location {
+            X: 10.3744736
+            Y: -4.70883417
+            Z: 18.0309563
+          }
+          Rotation {
+            Pitch: 53.1496658
+            Yaw: -179.999985
+            Roll: 120.000008
+          }
+          Scale {
+            X: 0.619693816
+            Y: 0.812071264
+            Z: 0.812080204
+          }
+        }
+        ParentId: 15773508249400993869
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2677493793978752599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.64464462
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:vtile"
+            Float: 18.0301647
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 19.7096939
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.68790722
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4977061795753677470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.093
+              G: 0.093
+              B: 0.093
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3673793620995448378
           }
           Teams {
           }
@@ -3819,39 +4393,21 @@ Assets {
       }
     }
     Assets {
-      Id: 2264041107168619230
-      Name: "Cone - Bullet"
+      Id: 13455217693085166429
+      Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bullet_001"
+        AssetId: "sm_hemisphere_001"
       }
     }
     Assets {
-      Id: 4247430867898109902
-      Name: "Stucco Tintable"
+      Id: 215340117871446266
+      Name: "Camouflage - Digital"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_stucco_tint_001_uv"
-      }
-    }
-    Assets {
-      Id: 4758773344593758102
-      Name: "Arch Fancy Peaked 2m"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_arch_fancy_ogive_2m_001"
-      }
-    }
-    Assets {
-      Id: 14975837595723687713
-      Name: "Metal Gold 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_gold_001"
+        AssetId: "camo_digital_001"
       }
     }
     Assets {
@@ -3864,21 +4420,39 @@ Assets {
       }
     }
     Assets {
-      Id: 10378479423839914021
-      Name: "Metal Iron 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
-      }
-    }
-    Assets {
-      Id: 16825643228001246048
-      Name: "Gem - Pear Polished"
+      Id: 12172518956958697954
+      Name: "Military Tank Modern Turret 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_gem_pear_polished_001"
+        AssetId: "sm_mil_tank_mod_turret_001_ref"
+      }
+    }
+    Assets {
+      Id: 2677493793978752599
+      Name: "Stucco Tintable"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_stucco_tint_001_uv"
+      }
+    }
+    Assets {
+      Id: 3514123805376682357
+      Name: "Military Tank Modern Skirt 01 - Front"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_mil_tank_mod_skirt_001_front_ref"
+      }
+    }
+    Assets {
+      Id: 3673793620995448378
+      Name: "Modern Weapon Ammo - Cannister 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_ammo_cann_001"
       }
     }
     Assets {
