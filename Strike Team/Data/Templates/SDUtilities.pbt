@@ -73,7 +73,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:TimeBeforeHealing"
-            Float: 2
+            Float: 4
           }
           Overrides {
             Name: "cs:HealinigPerSecond"
