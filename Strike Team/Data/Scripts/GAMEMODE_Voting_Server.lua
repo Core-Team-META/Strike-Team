@@ -20,11 +20,13 @@ local DEFAULT_GAME_ID = ROOT:GetCustomProperty("DEFAULT_GAME_ID")
 ------------------------------------------------------------------------------------------------------------------------
 local currentVote = {}
 local voteCount = {}
+
+local VOTING_STATE = ABGS.GAME_STATE_ROUND_END --ABGS.GAME_STATE_ROUND_VOTING
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 local function IsVoteingState()
-    return ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_VOTING
+    return ABGS.GetGameState() == VOTING_STATE
 end
 
 local function SetGameModeState(id)
@@ -66,10 +68,10 @@ function OnPlayerVote(player, id)
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, endTime)
-    if newState ~= ABGS.GAME_STATE_ROUND_VOTING and oldState == ABGS.GAME_STATE_ROUND_VOTING then
+    if newState ~= VOTING_STATE and oldState == VOTING_STATE then
         local nextGameMode = GetNextGameModeId() or DEFAULT_GAME_ID
         SetGameModeState(nextGameMode)
-    elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
+    elseif newState == VOTING_STATE then
         local nextGameMode = GetNextGameModeId() or DEFAULT_GAME_ID
         SetGameModeState(0)
         currentVote = {}

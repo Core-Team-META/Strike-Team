@@ -588,3 +588,9 @@ end
 if(LEADERSTAT_THREE_ENABLED) then
 	CreateHeaderLeaderstat(LEADERSTAT_THREE_NAME, LEADERSTAT_THREE_TYPE, LEADERSTAT_THREE_RESOURCE)
 end ]]
+
+
+
+Events.Connect("ShowScoreboardScreen", ForceOn)
+Events.Connect("ShowStatsScreen", ForceOff)
+Events.Connect("ShowVictoryScreen", ForceOff)

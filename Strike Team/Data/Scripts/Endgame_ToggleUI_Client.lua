@@ -1,5 +1,9 @@
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+local TEMP_BUTTON_PANEL = script:GetCustomProperty("TEMP_BUTTON_PANEL"):WaitForObject()
+local VICTORY_SCREEN_BUTTON = script:GetCustomProperty("VICTORY_SCREEN_BUTTON"):WaitForObject()
+local STATS_SCREEN_BUTTON = script:GetCustomProperty("STATS_SCREEN_BUTTON"):WaitForObject()
+local SCOREBOARD_BUTTON = script:GetCustomProperty("SCOREBOARD_BUTTON"):WaitForObject()
 
 local listeners = {}
 
@@ -11,26 +15,35 @@ local function DisconnectListeners()
     end
 end
 
-function OnBindingPressed(player, keyBind)
-    if player == LOCAL_PLAYER then
-        if keyBind == "ability_extra_1" then
+function OnButtonPressed(button)
+    if button == VICTORY_SCREEN_BUTTON then
         -- Victory Screen
-        end
-        if keyBind == "ability_extra_2" then
+        Events.Broadcast("ShowVictoryScreen")
+    end
+    if button == STATS_SCREEN_BUTTON then
         -- Stats Screen
-        end
-        if keyBind == "ability_extra_3" then
+        Events.Broadcast("ShowStatsScreen")
+    end
+    if button == SCOREBOARD_BUTTON then
         -- Scoreboard
-        end
+        Events.Broadcast("ShowScoreboardScreen")
     end
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
-    if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
-        -- handler params: Player_, string_
-        listeners[#listeners + 1] = LOCAL_PLAYER.bindingPressedEvent:Connect(OnBindingPressed)
+    if newState == ABGS.GAME_STATE_ROUND or newState == ABGS.GAME_STATE_LOBBY then
+        TEMP_BUTTON_PANEL.visibility = Visibility.FORCE_OFF
+        DisconnectListeners()
+        UI.SetCanCursorInteractWithUI(false)
+        UI.SetCursorVisible(false)
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
-        SetRoundLength()
+        TEMP_BUTTON_PANEL.visibility = Visibility.FORCE_ON
+        UI.SetCanCursorInteractWithUI(true)
+        UI.SetCursorVisible(true)
+        -- handler params: Player_, string_
+        listeners[#listeners + 1] = VICTORY_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
+        listeners[#listeners + 1] = STATS_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
+        listeners[#listeners + 1] = SCOREBOARD_BUTTON.clickedEvent:Connect(OnButtonPressed)
     end
 end
 
