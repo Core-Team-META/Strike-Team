@@ -21,7 +21,9 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
+  ChildIds: 5087704922136027764
   ChildIds: 9136329465692806999
+  ChildIds: 7325714028980024580
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
@@ -265,7 +267,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 13489158920696445560
   ChildIds: 15033543341472117485
   ChildIds: 8042637274710802851
   ChildIds: 8582034180734954063
@@ -447,41 +448,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 11822087086620148992
-    }
-  }
-}
-Objects {
-  Id: 13489158920696445560
-  Name: "PurchaseCredits"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11951719430612397057
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:UISpawn"
-      AssetReference {
-        Id: 11102910980603314835
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 9986613342432394644
     }
   }
 }
@@ -703,6 +669,32 @@ Objects {
   }
 }
 Objects {
+  Id: 7325714028980024580
+  Name: "PurchaseCredits"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PurchaseCredits"
+  }
+}
+Objects {
   Id: 9136329465692806999
   Name: "EquipmentHandler"
   Transform {
@@ -736,6 +728,41 @@ Objects {
     }
     TemplateAsset {
       Id: 12469272091380785429
+    }
+  }
+}
+Objects {
+  Id: 5087704922136027764
+  Name: "ChatHooks"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Commands"
+      AssetReference {
+        Id: 4480426034829824473
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17154672043655382137
     }
   }
 }
@@ -31369,7 +31396,7 @@ Objects {
       EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
-          Value: "mc:echatmode:none"
+          Value: "mc:echatmode:teamonly"
         }
         ChatPosition {
           Y: -83.7797852

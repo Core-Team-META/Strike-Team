@@ -155,7 +155,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
                 newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d ", skin.rarity:GetCost())
             end
         else
-            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Buy for 1 Credit")
+            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Buy for 1 Weapon Credit")
         end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             Events.Broadcast("PurchaseItem",item,skin)

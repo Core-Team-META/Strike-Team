@@ -42,6 +42,12 @@ Assets {
               SubObjectId: 9497826314261336095
             }
           }
+          Overrides {
+            Name: "cs:PurchaseCreditButton"
+            ObjectReference {
+              SubObjectId: 6568759507227257591
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -95,6 +101,7 @@ Assets {
         ChildIds: 8685427729476949344
         ChildIds: 16327069857349182301
         ChildIds: 17348237672967562807
+        ChildIds: 6568759507227257591
         ChildIds: 14427932866260289569
         ChildIds: 4258708074416363251
         UnregisteredParameters {
@@ -106,7 +113,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 400
+          Width: 578
           Height: 277
           RenderTransformPivot {
             Anchor {
@@ -447,6 +454,177 @@ Assets {
         }
       }
       Objects {
+        Id: 6568759507227257591
+        Name: "PurchaseCreditButton"
+        Transform {
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2515449912817747963
+        ChildIds: 138770211762363398
+        ChildIds: 12620464190032699776
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 275
+          Height: 43
+          UIY: -77.5856323
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Button {
+            FontColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            FontSize: 20
+            ButtonColor {
+              R: 0.8796224
+              G: 0.291770637
+              B: 0.0152085144
+              A: 1
+            }
+            HoveredColor {
+              R: 0.052
+              G: 0.052
+              B: 0.052
+              A: 1
+            }
+            PressedColor {
+              A: 1
+            }
+            DisabledColor {
+              A: 1
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+            ClickMode {
+              Value: "mc:ebuttonclickmode:default"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 138770211762363398
+        Name: "UI Text Box"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6568759507227257591
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 433
+          Height: 111
+          UIY: 2.67796326
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Label: "Purchase credits"
+            Color {
+              A: 1
+            }
+            Size: 20
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 1364597305327011649
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12620464190032699776
+        Name: "PerkButton"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6568759507227257591
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ButtonSFX"
+            AssetReference {
+              Id: 12158755182003592593
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 5653279162251628414
+          }
+        }
+      }
+      Objects {
         Id: 14427932866260289569
         Name: "PurchaseButtion"
         Transform {
@@ -687,6 +865,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
+      Id: 1364597305327011649
+      Name: "Oswald"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "OswaldRegular_ref"
       }
     }
     Assets {

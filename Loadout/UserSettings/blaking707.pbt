@@ -17,6 +17,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 9479248232822198
+    value {
+    }
+  }
+  ObjectStates {
     key: 9998725724262453
     value {
     }
@@ -2152,6 +2157,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 1449396793056322142
+    value {
+    }
+  }
+  ObjectStates {
     key: 1452579821074784126
     value {
     }
@@ -3748,6 +3758,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 2529438976829384976
+    value {
+    }
+  }
+  ObjectStates {
+    key: 2530492545647331306
     value {
     }
   }
@@ -5598,6 +5613,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 3715776184226629610
+    value {
+    }
+  }
+  ObjectStates {
+    key: 3716975994853010724
     value {
     }
   }
@@ -7683,6 +7703,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 5143967198342985860
+    value {
+    }
+  }
+  ObjectStates {
     key: 5147630997922868870
     value {
     }
@@ -8075,6 +8100,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 5454045011010567712
+    value {
+    }
+  }
+  ObjectStates {
+    key: 5463159549520960568
     value {
     }
   }
@@ -12261,6 +12291,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 8128447440653066221
+    value {
+    }
+  }
+  ObjectStates {
     key: 8128659180172076707
     value {
     }
@@ -13302,6 +13337,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 8824543257323762233
+    value {
+    }
+  }
+  ObjectStates {
+    key: 8826206107419004993
     value {
     }
   }
@@ -14942,6 +14982,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 9889005413993235393
+    value {
+    }
+  }
+  ObjectStates {
     key: 9889399342259339244
     value {
     }
@@ -16052,6 +16097,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 10557471952404657649
+    value {
+    }
+  }
+  ObjectStates {
     key: 10558469767020100936
     value {
     }
@@ -16348,6 +16398,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 10775257416228589891
+    value {
+    }
+  }
+  ObjectStates {
+    key: 10786717125178552331
     value {
     }
   }
@@ -16973,6 +17028,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 11290279962316193410
+    value {
+    }
+  }
+  ObjectStates {
+    key: 11292250072401124354
     value {
     }
   }
@@ -18858,6 +18918,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 12587457460358189876
+    value {
+    }
+  }
+  ObjectStates {
     key: 12588428631303712273
     value {
     }
@@ -19274,6 +19339,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 12904057207421062748
+    value {
+    }
+  }
+  ObjectStates {
     key: 12905936900375700576
     value {
     }
@@ -19665,6 +19735,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 13205760340167390259
+    value {
+    }
+  }
+  ObjectStates {
     key: 13208782843352350511
     value {
     }
@@ -19766,6 +19841,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 13278346048910076928
+    value {
+    }
+  }
+  ObjectStates {
+    key: 13282877604049085537
     value {
     }
   }
@@ -20076,6 +20156,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 13460009656108300154
+    value {
+    }
+  }
+  ObjectStates {
+    key: 13462575543737769944
     value {
     }
   }
@@ -21066,6 +21151,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 14130768949592154074
+    value {
+    }
+  }
+  ObjectStates {
+    key: 14130774147048453131
     value {
     }
   }
@@ -24266,6 +24356,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 16145761029313898793
+    value {
+    }
+  }
+  ObjectStates {
     key: 16151850522215850410
     value {
     }
@@ -25388,6 +25483,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 16878258220436132915
+    value {
+    }
+  }
+  ObjectStates {
+    key: 16878281967715721470
     value {
     }
   }
@@ -27675,6 +27775,27 @@ ObjectSettings {
   ObjectStates {
     key: 18444846190457929273
     value {
+    }
+  }
+}
+DebugPerks {
+  Perks {
+    PerkId: "4a2776a6eacd4c39a99fe01c56f5759a"
+    PerkCounts {
+      key: 0
+      value: 4
+    }
+    PerkCounts {
+      key: 1
+      value: 0
+    }
+    PerkCounts {
+      key: 2
+      value: 0
+    }
+    PerkCounts {
+      key: 3
+      value: 0
     }
   }
 }
