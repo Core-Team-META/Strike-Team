@@ -21,6 +21,10 @@ local TAG_COLLECT_TEMPLATE = script:GetCustomProperty("GAMEMODE_TagsTurnIn_Templ
 -- Custom Properties
 ------------------------------------------------------------------------------------------------------------------------
 local myId = ROOT:GetCustomProperty("ID")
+local enabled = ROOT:GetCustomProperty("ENABLED")
+if not enabled then
+    return
+end
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -31,7 +35,7 @@ local listeners = {}
 ------------------------------------------------------------------------------------------------------------------------
 
 local function Log(message, ...)
-    print("GameType Server [" .. GT_API.GetGameTypeName(myId) .. "] " .. message, ...)
+    print("GameMode Server [" .. ROOT.name .. "] " .. message, ...)
 end
 
 local function OnGameTypeChanged(object, string)
@@ -148,4 +152,4 @@ end
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(OnRoundEnd)
 
-print("Initialized GameType Server " .. myId)
+print("Initialized GameMode Server " .. ROOT.name)
