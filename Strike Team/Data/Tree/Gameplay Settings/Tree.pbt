@@ -10650,7 +10650,7 @@ Objects {
       }
       VfxSettings {
         LowDistance: 1000
-        MediumDistance: 2000
+        MediumDistance: 2500
         HighDistance: 6000
       }
     }

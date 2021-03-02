@@ -1,159 +1,173 @@
 local leaderboardMainPanel = script:GetCustomProperty("LeaderboardMainPanel"):WaitForObject()
 local roundStats = script:GetCustomProperty("RoundStats"):WaitForObject()
 local lifetimeStats = script:GetCustomProperty("LifetimeStats"):WaitForObject()
-local leaderboardPlayerEntry = script:GetCustomProperty("LeaderboardPlayerEntry")
 
+local leaderboardPlayerEntry = script:GetCustomProperty("LeaderboardPlayerEntry")
 
 local localPlayer = Game.GetLocalPlayer()
 local showToggle = false
 
 local leaderboardEntries = {}
 
+local lifetimeEntries = {}
+
 local resourceToSort = nil
 
-function FillLeaderboard(boardPanel, tableNumber, resource)
+function GenerateLeaderboard()
 
-	resourceToSort =  resource
-
-	if not leaderboardEntries[tableNumber] then
-	
-		leaderboardEntries[tableNumber] = {}
-		
-	end
-	
-	local highestPlayer = nil
-	
-	local playerResource = nil
-	
-	local otherPlayerResource = nil
-	
-	local entryName = nil
-	
-	local entryValue = nil
-	
-	local leaderboardResults = Game.GetPlayers()
-	
-	
-	if resource == "KILLS" then
-		
-		table.sort(
-			leaderboardResults,
-			function(a, b)
-				return a.kills > b.kills
-			end
-		)
-			
-	elseif resource == "DEATHS" then
-		
-		table.sort(
-			leaderboardResults,
-			function(a, b)
-				return a.deaths > b.deaths
-			end
-		)
-			
-	elseif resource == "KDR" then
-	
-		table.sort(
-			leaderboardResults,
-			function(a, b)
-			
-				local deathsA = a.deaths
-					
-				if deathsA <= 0 then
-					
-					deathsA= 1
-						
-				end
-				
-				local deathsB = b.deaths
-					
-				if deathsB <= 0 then
-					
-					deathsB = 1
-						
-				end			
-			
-	
-				return a.kills/deathsA * 1.0 > b.kills/deathsB * 1.0
-			end
-		)
-					
-	else 
-	
-		table.sort(
-			leaderboardResults,
-			function(a, b)	
-				return a:GetResource(resourceToSort) > b:GetResource(resourceToSort)
-			end
-		)
-			
-	end	
-	
-	for slot, player in ipairs(leaderboardResults) do
-			
-		if leaderboardEntries[tableNumber][slot] then
-		
-			entryName = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerName")
-			
-			entryValue = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerScore")
-			
-			entryName.text = player.name
-			
-			entryValue.text = tostring(player:GetResource(resourceToSort))
-			
-		else 
-		
-			leaderboardEntries[tableNumber][slot] = World.SpawnAsset(leaderboardPlayerEntry, {parent = boardPanel})
-			
-			leaderboardEntries[tableNumber][slot].y = slot * 40
-			leaderboardEntries[tableNumber][slot].x = 0
-			
-			entryName = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerName")
-			
-			entryValue = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerScore")
-			
-			entryName.text = player.name
-			
-			entryValue.text = tostring(player:GetResource(resourceToSort))
-			
-		end				
-	
-	end
-	
-	local numberPlayers = #Game.GetPlayers()
-	
-	for x, entry in pairs(leaderboardEntries[tableNumber]) do
-	
-		if x > numberPlayers then
-		
-			leaderboardEntries[tableNumber][x]:Destroy()
-			
-			leaderboardEntries[tableNumber][x] = nil
-			
-		end
-		
-	end
-
-end
-
-function CalculateLeaderboard()
-
-	local resource = nil
+	local leaderboard = nil
 	
 	local leaderboardEntryNumber = 0
 
 	for _, panel in ipairs(roundStats:GetChildren()) do
 	
-		resource = panel:GetCustomProperty("ResourceToTrack")
-	
-		if resource then
+		if panel:GetCustomProperty("LeaderboardReference") then
 		
 			leaderboardEntryNumber = leaderboardEntryNumber + 1
+	
+			leaderboard = Leaderboards.GetLeaderboard(panel:GetCustomProperty("LeaderboardReference"), LeaderboardType.WEEKLY)
 			
-			FillLeaderboard(panel, leaderboardEntryNumber, resource)
+			if not leaderboardEntries[leaderboardEntryNumber] then
+			
+				leaderboardEntries[leaderboardEntryNumber] = {}
+				
+			end
+			
+			if leaderboard then
 		
-		end	
+				for slot, entry in ipairs(leaderboard) do
+				
+					if slot > 10 then
+					
+						break
+						
+					end
+					
+					if leaderboardEntries[leaderboardEntryNumber][slot] then
+					
+						entryName = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerName")
+						
+						entryValue = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
+						
+						entryName.text = entry.name
+						
+						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
+						
+							entryValue.text = tostring(entry.score)
+							
+						else 
+						
+							entryValue.text = string.format("%d", entry.score)
+							
+						end
+						
+					else 
+					
+						leaderboardEntries[leaderboardEntryNumber][slot] = World.SpawnAsset(leaderboardPlayerEntry, {parent = panel})
+						
+						leaderboardEntries[leaderboardEntryNumber][slot].y = slot * 40
+						leaderboardEntries[leaderboardEntryNumber][slot].x = 0
+						
+						entryName = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerName")
+						
+						entryValue = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
+						
+						entryName.text = entry.name
+						
+						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
+						
+							entryValue.text = tostring(entry.score)
+							
+						else 
+						
+							entryValue.text = string.format("%d", entry.score)
+							
+						end
+						
+					end				
+				
+				end
+				
+			end
+			
+		end
+	
+	end
+	
+	leaderboardEntryNumber = 0
+	
+	for _, panel in ipairs(lifetimeStats:GetChildren()) do
+	
+		if panel:GetCustomProperty("LeaderboardReference") then
+		
+			leaderboardEntryNumber = leaderboardEntryNumber + 1
+	
+			leaderboard = Leaderboards.GetLeaderboard(panel:GetCustomProperty("LeaderboardReference"), LeaderboardType.GLOBAL)
+			
+			if not lifetimeEntries[leaderboardEntryNumber] then
+			
+				lifetimeEntries[leaderboardEntryNumber] = {}
+				
+			end
+			
+			if leaderboard then
+		
+				for slot, entry in ipairs(leaderboard) do
+				
+					if slot > 10 then
+					
+						break
+						
+					end
+					
+					if lifetimeEntries[leaderboardEntryNumber][slot] then
+					
+						entryName = lifetimeEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerName")
+						
+						entryValue = lifetimeEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
+						
+						entryName.text = entry.name
+						
+						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
+						
+							entryValue.text = tostring(entry.score)
+							
+						else 
+						
+							entryValue.text = string.format("%d", entry.score)
+							
+						end
+						
+					else 
+					
+						lifetimeEntries[leaderboardEntryNumber][slot] = World.SpawnAsset(leaderboardPlayerEntry, {parent = panel})
+						
+						lifetimeEntries[leaderboardEntryNumber][slot].y = slot * 40
+						lifetimeEntries[leaderboardEntryNumber][slot].x = 0
+						
+						entryName = lifetimeEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerName")
+						
+						entryValue = lifetimeEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
+						
+						entryName.text = entry.name
+						
+						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
+						
+							entryValue.text = tostring(entry.score)
+							
+						else 
+						
+							entryValue.text = string.format("%d", entry.score)
+							
+						end
+						
+					end				
+				
+				end
+				
+			end
+			
+		end
 	
 	end
 
@@ -175,7 +189,7 @@ function OnBindingPressed(player, binding)
 		showToggle = false
 	else 
 	
-		CalculateLeaderboard()
+		GenerateLeaderboard()
 		
 		leaderboardMainPanel.visibility = Visibility.FORCE_ON
 		

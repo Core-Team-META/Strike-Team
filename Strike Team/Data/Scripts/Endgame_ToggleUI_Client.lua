@@ -5,6 +5,8 @@ local VICTORY_SCREEN_BUTTON = script:GetCustomProperty("VICTORY_SCREEN_BUTTON"):
 local STATS_SCREEN_BUTTON = script:GetCustomProperty("STATS_SCREEN_BUTTON"):WaitForObject()
 local SCOREBOARD_BUTTON = script:GetCustomProperty("SCOREBOARD_BUTTON"):WaitForObject()
 
+local RoundEndUIDisplayTemplate = script:GetCustomProperty("RoundEndUIDisplay")
+
 local listeners = {}
 
 local function DisconnectListeners()
@@ -37,6 +39,8 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         UI.SetCanCursorInteractWithUI(false)
         UI.SetCursorVisible(false)
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
+        World.SpawnAsset(RoundEndUIDisplayTemplate)
+        Task.Wait(5)
         TEMP_BUTTON_PANEL.visibility = Visibility.FORCE_ON
         UI.SetCanCursorInteractWithUI(true)
         UI.SetCursorVisible(true)

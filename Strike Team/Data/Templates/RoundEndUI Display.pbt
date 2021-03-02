@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 3202708269229618987
+        ChildIds: 11942547509356738368
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -44,6 +45,20 @@ Assets {
         ParentId: 5874067180575168631
         ChildIds: 5832559192045164374
         ChildIds: 1327423760316519759
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Victory"
+            ObjectReference {
+              SubObjectId: 5832559192045164374
+            }
+          }
+          Overrides {
+            Name: "cs:Defeat"
+            ObjectReference {
+              SubObjectId: 1327423760316519759
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -92,6 +107,14 @@ Assets {
         ChildIds: 1276085878643822596
         ChildIds: 8174778978643566382
         ChildIds: 16109214494630871153
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:AnimationScript"
+            ObjectReference {
+              SubObjectId: 14961574142358316976
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -744,6 +767,14 @@ Assets {
         ChildIds: 248325898432991538
         ChildIds: 6549916264765089434
         ChildIds: 18106795721585290840
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:AnimationScript"
+            ObjectReference {
+              SubObjectId: 3820963213231779760
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1365,6 +1396,59 @@ Assets {
                 Value: "mc:euianchor:middlecenter"
               }
             }
+          }
+        }
+      }
+      Objects {
+        Id: 11942547509356738368
+        Name: "RoundEndUI_Display_Client"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5874067180575168631
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:APIBasicGameState"
+            AssetReference {
+              Id: 11974742996071064388
+            }
+          }
+          Overrides {
+            Name: "cs:Defeat"
+            ObjectReference {
+              SubObjectId: 1327423760316519759
+            }
+          }
+          Overrides {
+            Name: "cs:Victory"
+            ObjectReference {
+              SubObjectId: 5832559192045164374
+            }
+          }
+          Overrides {
+            Name: "cs:BasicGameStateManagerServer"
+            ObjectReference {
+              SelfId: 4422093152864602407
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 11235713068832140553
           }
         }
       }

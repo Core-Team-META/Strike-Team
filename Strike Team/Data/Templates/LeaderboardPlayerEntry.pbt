@@ -109,7 +109,7 @@ Assets {
             }
             ClipTextToSize: true
             Font {
-              Id: 2044747135125227812
+              Id: 9411408650235230850
             }
           }
           AnchorLayout {
@@ -170,7 +170,7 @@ Assets {
               Value: "mc:etextjustify:right"
             }
             Font {
-              Id: 2044747135125227812
+              Id: 9411408650235230850
             }
           }
           AnchorLayout {
@@ -189,12 +189,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2044747135125227812
-      Name: "Play"
+      Id: 9411408650235230850
+      Name: "Oswald"
       PlatformAssetType: 28
       PrimaryAsset {
         AssetType: "FontAssetRef"
-        AssetId: "PlayRegular_ref"
+        AssetId: "OswaldRegular_ref"
       }
     }
     PrimaryAssetId {
