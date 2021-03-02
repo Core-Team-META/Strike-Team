@@ -4,6 +4,11 @@ local VICTORY = script:GetCustomProperty("Victory"):WaitForObject()
 local DEFEAT = script:GetCustomProperty("Defeat"):WaitForObject()
 local GAME_STATE = script:GetCustomProperty("BasicGameStateManagerServer"):WaitForObject()
 
+local WHOOSH_SFX = script:GetCustomProperty("MagicHeavyWhooshBrightItemCollect01SFX"):WaitForObject()
+local KLANG_SFX = script:GetCustomProperty("MetalArmorHitImpactKlang01SFX"):WaitForObject()
+local DEFEAT_STINGER = script:GetCustomProperty("ActionCombatStingers01"):WaitForObject()
+local VICTORY_STINGER = script:GetCustomProperty("StylishRagingRockMusicStingerSet01"):WaitForObject()
+
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local team1 = Game.GetTeamScore(1)

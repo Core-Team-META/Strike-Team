@@ -2,6 +2,7 @@ local Spawn
 local UISpawn = script:GetCustomProperty("UISpawn")
 
 
+
 function OpenPanel()
     Events.Broadcast("AllloadoutPanelsClose")
     _G["LoadoutState"] = _G["LOADOUTSTATEENUMS"][1]
@@ -22,10 +23,11 @@ function ClosePanel()
     end
 end
 
-function Purchase()
+function Purchase(Value)
 
     ClosePanel()
 end
 
 Events.Connect("CreditPurchaseOpen",OpenPanel)
 Events.Connect("CreditPurchaseClose",ClosePanel)
+Events.Connect("PurchaseCredit",Purchase)

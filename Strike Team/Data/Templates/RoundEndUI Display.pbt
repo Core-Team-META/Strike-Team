@@ -17,6 +17,10 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 3202708269229618987
+        ChildIds: 9721575882545413679
+        ChildIds: 12984733543559062237
+        ChildIds: 8601052880964528203
+        ChildIds: 6202696445394059133
         ChildIds: 11942547509356738368
         WantsNetworking: true
         Collidable_v2 {
@@ -193,6 +197,30 @@ Assets {
             Name: "cs:Panel"
             ObjectReference {
               SubObjectId: 5832559192045164374
+            }
+          }
+          Overrides {
+            Name: "cs:MagicHeavyWhooshBrightItemCollect01SFX"
+            ObjectReference {
+              SubObjectId: 9721575882545413679
+            }
+          }
+          Overrides {
+            Name: "cs:MetalArmorHitImpactKlang01SFX"
+            ObjectReference {
+              SubObjectId: 12984733543559062237
+            }
+          }
+          Overrides {
+            Name: "cs:ActionCombatStingers01"
+            ObjectReference {
+              SubObjectId: 8601052880964528203
+            }
+          }
+          Overrides {
+            Name: "cs:StylishRagingRockMusicStingerSet01"
+            ObjectReference {
+              SubObjectId: 6202696445394059133
             }
           }
         }
@@ -762,7 +790,7 @@ Assets {
           }
         }
         ParentId: 3202708269229618987
-        ChildIds: 3820963213231779760
+        ChildIds: 1949151384439582182
         ChildIds: 13702330760938810592
         ChildIds: 248325898432991538
         ChildIds: 6549916264765089434
@@ -771,7 +799,7 @@ Assets {
           Overrides {
             Name: "cs:AnimationScript"
             ObjectReference {
-              SubObjectId: 3820963213231779760
+              SubObjectId: 1949151384439582182
             }
           }
         }
@@ -804,8 +832,8 @@ Assets {
         }
       }
       Objects {
-        Id: 3820963213231779760
-        Name: "Anim Victory Screen"
+        Id: 1949151384439582182
+        Name: "Anim Defeat Screen"
         Transform {
           Location {
           }
@@ -855,6 +883,30 @@ Assets {
               SubObjectId: 1327423760316519759
             }
           }
+          Overrides {
+            Name: "cs:MagicHeavyWhooshBrightItemCollect01SFX"
+            ObjectReference {
+              SubObjectId: 9721575882545413679
+            }
+          }
+          Overrides {
+            Name: "cs:MetalArmorHitImpactKlang01SFX"
+            ObjectReference {
+              SubObjectId: 12984733543559062237
+            }
+          }
+          Overrides {
+            Name: "cs:ActionCombatStingers01"
+            ObjectReference {
+              SubObjectId: 8601052880964528203
+            }
+          }
+          Overrides {
+            Name: "cs:StylishRagingRockMusicStingerSet01"
+            ObjectReference {
+              SubObjectId: 6202696445394059133
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -864,7 +916,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 1021331237320807202
+            Id: 10970743082374010375
           }
         }
       }
@@ -1400,6 +1452,144 @@ Assets {
         }
       }
       Objects {
+        Id: 9721575882545413679
+        Name: "Magic Heavy Whoosh Bright Item Collect 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5874067180575168631
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 14651864102775141782
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: -1
+        }
+      }
+      Objects {
+        Id: 12984733543559062237
+        Name: "Metal Armor Hit Impact Klang 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5874067180575168631
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 323291463896855364
+          }
+          Volume: 0.402962506
+          Falloff: -1
+          Radius: -1
+        }
+      }
+      Objects {
+        Id: 8601052880964528203
+        Name: "Action Combat Stingers 01"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5874067180575168631
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:emx_action_combat_stingers:41"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 7157091347287568731
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Volume: 0.6
+            Falloff: 3600
+            Radius: 400
+            FadeInTime: 0.5
+          }
+        }
+      }
+      Objects {
+        Id: 6202696445394059133
+        Name: "Stylish Raging Rock Music Stinger Set 01"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5874067180575168631
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 10739119405349962922
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Volume: 0.6
+            Falloff: 3600
+            Radius: 400
+            FadeInTime: 2
+          }
+        }
+      }
+      Objects {
         Id: 11942547509356738368
         Name: "RoundEndUI_Display_Client"
         Transform {
@@ -1437,6 +1627,30 @@ Assets {
             Name: "cs:BasicGameStateManagerServer"
             ObjectReference {
               SelfId: 4422093152864602407
+            }
+          }
+          Overrides {
+            Name: "cs:MagicHeavyWhooshBrightItemCollect01SFX"
+            ObjectReference {
+              SubObjectId: 9721575882545413679
+            }
+          }
+          Overrides {
+            Name: "cs:MetalArmorHitImpactKlang01SFX"
+            ObjectReference {
+              SubObjectId: 12984733543559062237
+            }
+          }
+          Overrides {
+            Name: "cs:ActionCombatStingers01"
+            ObjectReference {
+              SubObjectId: 8601052880964528203
+            }
+          }
+          Overrides {
+            Name: "cs:StylishRagingRockMusicStingerSet01"
+            ObjectReference {
+              SubObjectId: 6202696445394059133
             }
           }
         }
@@ -1496,6 +1710,42 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "CenterArrow_012aWedge"
+      }
+    }
+    Assets {
+      Id: 14651864102775141782
+      Name: "Magic Heavy Whoosh Bright Item Collect 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_magic_heavy_whoosh_bright_item_collect_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 323291463896855364
+      Name: "Metal Armor Hit Impact Klang 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_metal_armor_hit_impact_klang_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 7157091347287568731
+      Name: "Action Combat Stingers 01"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_stinger_action_combat_stingers_01_ref"
+      }
+    }
+    Assets {
+      Id: 10739119405349962922
+      Name: "Stylish Raging Rock Music Stinger Set 01"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_stinger_stylish_raging_rock_stingers_01_ref"
       }
     }
     PrimaryAssetId {
