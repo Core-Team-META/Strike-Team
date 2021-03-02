@@ -341,6 +341,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15004389933535700624
+  Name: "Frame Medium Outside Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tray6_OuterCorner"
+  }
+}
+Assets {
   Id: 14835887402309025688
   Name: "Pyramid - 7-Sided Truncated Hollow Thick"
   PlatformAssetType: 1
@@ -545,6 +554,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_burned_streak_002_ref"
+  }
+}
+Assets {
+  Id: 13473981702160679778
+  Name: "Frame Large Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_6B_tray_straight"
   }
 }
 Assets {
@@ -1121,6 +1139,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bricks_stone_block_001"
+  }
+}
+Assets {
+  Id: 7407234558516877871
+  Name: "Wood Planks Beveled Raised 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
   }
 }
 Assets {
