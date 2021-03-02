@@ -126,6 +126,7 @@ if Environment.IsClient() then
     function LootBox.Claim()
         if LootBox.Verify(Game.GetLocalPlayer())  then
             ReliableEvents.BroadcastToServer("Lootbox.Claim")
+            Events.Broadcast("ShowSkipButton")
         end
     end
 

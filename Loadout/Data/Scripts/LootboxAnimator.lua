@@ -216,7 +216,7 @@ function AnimateSelection(selectedHolderEntry, player, Main)
 
 	-- reset
 	Events.Broadcast("FinishedLoot")
-
+	Events.Broadcast("HideSkipButton")
 	WEAPON_TEXT.visibility = Visibility.FORCE_OFF
 	player:ClearOverrideCamera()
 

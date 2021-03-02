@@ -113,11 +113,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 71
+      Int: 100
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 500
+      Int: 999
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -162,11 +162,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 61
+      Int: 90
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 70
+      Int: 99
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -177,7 +177,7 @@ Objects {
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 16033534981262231167
+        Id: 7905391753481335299
       }
     }
   }
@@ -211,11 +211,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 51
+      Int: 70
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 60
+      Int: 89
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -260,11 +260,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 41
+      Int: 50
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 50
+      Int: 69
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -309,11 +309,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 31
+      Int: 30
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 40
+      Int: 49
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -358,11 +358,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 21
+      Int: 15
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 30
+      Int: 29
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -407,11 +407,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 11
+      Int: 5
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 20
+      Int: 14
     }
     Overrides {
       Name: "cs:SmallRankIcon"
@@ -460,7 +460,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 10
+      Int: 4
     }
     Overrides {
       Name: "cs:RankAcronym"
