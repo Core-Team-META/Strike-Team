@@ -20,6 +20,13 @@ GlobalEntries {
   DateTime: "2021-02-26T21:10:35.525Z"
 }
 GlobalEntries {
+  Id: "f6587e53487849d49d72149d300fe302"
+  Name: "Blaking707"
+  ScoreFormatted: "124.0"
+  AdditionalData: "061090011"
+  DateTime: "2021-03-02T09:20:51.336Z"
+}
+GlobalEntries {
   Id: "BOT_Bot1"
   Name: "Bot1"
   ScoreFormatted: "14.0"
