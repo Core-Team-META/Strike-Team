@@ -1,6 +1,39 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
+  Id: 17921811018455282508
+  Name: "EndUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EndUI"
+  }
+  InstanceHistory {
+    SelfId: 17921811018455282508
+    SubobjectId: 12468429385579287823
+    InstanceId: 17062914421354910301
+    TemplateId: 12784020134702693331
+    WasRoot: true
+  }
+}
+Objects {
   Id: 4587313363667474730
   Name: "Kill Feedback UI"
   Transform {

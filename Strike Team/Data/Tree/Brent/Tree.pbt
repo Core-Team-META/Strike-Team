@@ -1,8 +1,8 @@
 Name: "Brent"
 RootId: 9151753919777912365
 Objects {
-  Id: 17921811018455282508
-  Name: "EndUI"
+  Id: 1767098222894358513
+  Name: "Endgame-ToggleUI"
   Transform {
     Location {
     }
@@ -23,14 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "EndUI"
-  }
-  InstanceHistory {
-    SelfId: 17921811018455282508
-    SubobjectId: 12468429385579287823
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-    WasRoot: true
+    FilePartitionName: "Endgame-ToggleUI"
   }
 }
 Objects {
