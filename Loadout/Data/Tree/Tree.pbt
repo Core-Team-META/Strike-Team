@@ -265,6 +265,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 13489158920696445560
   ChildIds: 15033543341472117485
   ChildIds: 8042637274710802851
   ChildIds: 8582034180734954063
@@ -446,6 +447,41 @@ Objects {
   Script {
     ScriptAsset {
       Id: 11822087086620148992
+    }
+  }
+}
+Objects {
+  Id: 13489158920696445560
+  Name: "PurchaseCredits"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11951719430612397057
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:UISpawn"
+      AssetReference {
+        Id: 11102910980603314835
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9986613342432394644
     }
   }
 }
