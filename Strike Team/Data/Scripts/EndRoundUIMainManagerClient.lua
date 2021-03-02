@@ -163,7 +163,7 @@ function CountThisTextUp(givenText, targetNumber, extra, allowTickSFX)
 				Task.Wait(0.05)
 			end
 
-			SetChildrenText(givenText, extra .. tostring(targetNumber))
+			SetChildrenText(givenText, extra .. string.format("%d",targetNumber))
 		end,
 		0
 	)
@@ -464,7 +464,7 @@ function AnimateStats()
 		local TOTAL = entry:GetCustomProperty("TOTAL"):WaitForObject()
 		entry.y = Index * 35
 		NAME.text = tostring(k)
-		VALUE.text = tostring(v["Value"])
+		VALUE.text = string.format("%d", v["Value"])
 		COUNT.text = tostring(localPlayer:GetResource(k))
 		if localPlayer:GetResource(k) > v["Max"] then
 			COUNT.text = string.format("%d+", v["Max"])
