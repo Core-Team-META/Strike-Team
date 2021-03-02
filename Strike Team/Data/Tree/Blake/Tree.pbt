@@ -1264,6 +1264,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12800976062018265072
+      value {
+        Overrides {
+          Name: "cs:SKIN"
+          AssetReference {
+            Id: 2492616750487608319
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 12469272091380785429
     }

@@ -1,13 +1,13 @@
 Assets {
-  Id: 2321631992118917097
-  Name: "Proto Knife Skin 39"
+  Id: 3399694894532465724
+  Name: "Makeshift Machete"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11182666668711356000
+      RootId: 17880425265552600631
       Objects {
-        Id: 11182666668711356000
-        Name: "Proto Knife Skin 39"
+        Id: 17880425265552600631
+        Name: "Makeshift Machete"
         Transform {
           Scale {
             X: 1
@@ -15,8 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 5980665743268945346
+        ParentId: 13023931256708920361
+        ChildIds: 9122749625393395966
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -30,18 +30,18 @@ Assets {
         }
       }
       Objects {
-        Id: 5980665743268945346
+        Id: 9122749625393395966
         Name: "Handle"
         Transform {
           Location {
-            X: -1.96166992
-            Y: 3.64355469
-            Z: 11.3150635
+            X: 5
+            Y: 4.55981445
+            Z: 12.0421143
           }
           Rotation {
-            Pitch: 17.6862011
-            Yaw: 5.09316301
-            Roll: 24.2808361
+            Pitch: 17.9193764
+            Yaw: 4.16873646
+            Roll: 21.2578316
           }
           Scale {
             X: 1
@@ -49,11 +49,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11182666668711356000
-        ChildIds: 9161042174841018235
-        ChildIds: 13623237131066993302
-        ChildIds: 4261245929195689936
-        ChildIds: 17549874812928182212
+        ParentId: 17880425265552600631
+        ChildIds: 14000933314638564487
+        ChildIds: 8040397140708872001
+        ChildIds: 16680356917913245734
+        ChildIds: 449399539012807953
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -64,41 +64,48 @@ Assets {
         }
       }
       Objects {
-        Id: 9161042174841018235
+        Id: 14000933314638564487
         Name: "Hatchet - Handle"
         Transform {
           Location {
-            X: -6.51025391
-            Y: 4.99316406
-            Z: -17.3373413
+            X: -7.82542419
+            Y: 1.57763243
+            Z: -8.68073463
           }
           Rotation {
-            Pitch: -13.4869661
-            Yaw: 3.64910603
-            Roll: -15.2939329
+            Pitch: -10.7706299
+            Yaw: -87.7928467
+            Roll: -3.54052734
           }
           Scale {
-            X: 0.868072212
-            Y: 0.868072212
-            Z: 0.868072212
+            X: 0.387542784
+            Y: 0.81417197
+            Z: 0.369345456
           }
         }
-        ParentId: 5980665743268945346
+        ParentId: 9122749625393395966
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.242808014
-              G: 0.453
-              B: 0.37242645
+              R: 0.574
+              G: 0.307907283
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2805121172112350453
+              Id: 5907350535281183261
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 9.88869762
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 10.8322325
           }
         }
         Collidable_v2 {
@@ -109,14 +116,13 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 1474317466637388472
+            Id: 7509887709411158851
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -124,67 +130,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13623237131066993302
-        Name: "Hatchet - Handle"
-        Transform {
-          Location {
-            X: -5
-            Y: 6.79052734
-            Z: -24.1142883
-          }
-          Rotation {
-            Pitch: 4.09811328e-05
-            Yaw: 1.95798793e-06
-            Roll: -14.8623219
-          }
-          Scale {
-            X: 0.868072212
-            Y: 0.868072629
-            Z: 0.710011303
-          }
-        }
-        ParentId: 5980665743268945346
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.242808014
-              G: 0.453
-              B: 0.37242645
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 2805121172112350453
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1474317466637388472
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4261245929195689936
+        Id: 8040397140708872001
         Name: "Point_Blade"
         Transform {
           Location {
@@ -197,7 +143,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5980665743268945346
+        ParentId: 9122749625393395966
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -208,7 +154,74 @@ Assets {
         }
       }
       Objects {
-        Id: 17549874812928182212
+        Id: 16680356917913245734
+        Name: "Hatchet - Handle"
+        Transform {
+          Location {
+            X: -6.36515808
+            Y: -0.522364497
+            Z: -1.50380301
+          }
+          Rotation {
+            Pitch: 62.6275
+            Yaw: -12.2720947
+            Roll: 64.8868179
+          }
+          Scale {
+            X: 0.208203644
+            Y: 0.205653295
+            Z: 0.144883275
+          }
+        }
+        ParentId: 9122749625393395966
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7283825798727192743
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 9.88869762
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 10.8322325
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.232000008
+              G: 0.214238927
+              B: 0.15312
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7509887709411158851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 449399539012807953
         Name: "Blade"
         Transform {
           Location {
@@ -221,9 +234,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5980665743268945346
-        ChildIds: 15730180283605914624
-        ChildIds: 16005636182853798274
+        ParentId: 9122749625393395966
+        ChildIds: 1709747448997728376
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -234,36 +246,37 @@ Assets {
         }
       }
       Objects {
-        Id: 15730180283605914624
+        Id: 1709747448997728376
         Name: "Hatchet - Blade"
         Transform {
           Location {
-            X: -1.62011719
-            Z: 1.4768219
+            X: -7.38609314
+            Y: 0.254636109
+            Z: -3.677953
           }
           Rotation {
-            Pitch: -19.1902142
-            Yaw: 5.29944134
-            Roll: -15.7588367
+            Pitch: -16.0666504
+            Yaw: 5.81338835
+            Roll: -11.3103027
           }
           Scale {
-            X: 1.0093863
-            Y: 1.00938761
-            Z: 1.41102302
+            X: 1.06455493
+            Y: 0.911855459
+            Z: 2.90621042
           }
         }
-        ParentId: 17549874812928182212
+        ParentId: 449399539012807953
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 18402088162155752250
+              Id: 7283825798727192743
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15405876966291342855
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -272,95 +285,39 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.125
+            Float: 6.86788
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.125
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 14237220486008111868
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16005636182853798274
-        Name: "Hatchet - Blade"
-        Transform {
-          Location {
-            X: -1.67510986
-            Y: 0.0390625
-            Z: 1.3298645
-          }
-          Rotation {
-            Pitch: -19.1902142
-            Yaw: 5.29947758
-            Roll: -15.7590485
-          }
-          Scale {
-            X: 0.670735061
-            Y: 1.22759593
-            Z: 1.33692777
-          }
-        }
-        ParentId: 17549874812928182212
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 15387941303173424625
-            }
+            Float: 10.1937065
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 15405876966291342855
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
+            Name: "ma:Shared_Detail1:smart"
             Bool: false
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.264995307
+            Name: "ma:Shared_Detail1:utile"
+            Float: 3.02420354
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 1.84128761
+            Name: "ma:Shared_Detail1:vtile"
+            Float: 4.22410059
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 15
-              G: 14.4734993
-              B: 13.829999
+              R: 0.441
+              G: 0.407238662
+              B: 0.29106
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              G: 0.77
-              B: 0.158079416
+              R: 0.441
+              G: 0.407238662
+              B: 0.29106
               A: 1
             }
           }
@@ -380,7 +337,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -389,21 +345,30 @@ Assets {
       }
     }
     Assets {
-      Id: 1474317466637388472
-      Name: "Knife - Handle"
+      Id: 7509887709411158851
+      Name: "Bone Human Tibula 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_knife_handle_001"
+        AssetId: "sm_bones_human_tib_01_ref"
       }
     }
     Assets {
-      Id: 2805121172112350453
-      Name: "Metal 9 Slice Lockers 01"
+      Id: 5907350535281183261
+      Name: "Bark Dead 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_advanced_9slice_lockers_001_ref"
+        AssetId: "mi_bark_dead_001_uv"
+      }
+    }
+    Assets {
+      Id: 7283825798727192743
+      Name: "Metal Iron Rusted 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {
@@ -413,15 +378,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_knife_001"
-      }
-    }
-    Assets {
-      Id: 15405876966291342855
-      Name: "Ice Opaque"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_ice_opaque"
       }
     }
     PrimaryAssetId {
