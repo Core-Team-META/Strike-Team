@@ -50,6 +50,12 @@ Assets {
               Id: 17699338611958521744
             }
           }
+          Overrides {
+            Name: "cs:ClientArt"
+            ObjectReference {
+              SubObjectId: 6550758120541585352
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
