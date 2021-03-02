@@ -6,11 +6,25 @@ GlobalEntries {
   DateTime: "2021-03-01T01:44:37.506Z"
 }
 GlobalEntries {
+  Id: "BOT_Bot1"
+  Name: "Bot1"
+  ScoreFormatted: "8388622.0"
+  AdditionalData: "060220012"
+  DateTime: "2021-03-02T22:39:42.758Z"
+}
+GlobalEntries {
   Id: "0063b25aa0cd41bba275062b381e2f94"
   Name: "standardcombo"
   ScoreFormatted: "510.0"
   AdditionalData: "041020061"
   DateTime: "2021-02-10T07:21:41.731Z"
+}
+GlobalEntries {
+  Id: "0ea6612ceab7456a8a3a963a94808295"
+  Name: "blaking707"
+  ScoreFormatted: "508.0"
+  AdditionalData: "061200006"
+  DateTime: "2021-03-02T20:42:23.953Z"
 }
 GlobalEntries {
   Id: "4137d03037c34d43b7a4e1565f087ab3"
@@ -27,11 +41,11 @@ GlobalEntries {
   DateTime: "2021-03-02T09:20:51.336Z"
 }
 GlobalEntries {
-  Id: "BOT_Bot1"
-  Name: "Bot1"
-  ScoreFormatted: "14.0"
-  AdditionalData: "060220012"
-  DateTime: "2021-03-01T23:08:34.375Z"
+  Id: "BOT_Bot3"
+  Name: "Bot3"
+  ScoreFormatted: "92.0"
+  AdditionalData: "061220006"
+  DateTime: "2021-03-02T22:43:17.302Z"
 }
 GlobalEntries {
   Id: "BOT_Bot2"

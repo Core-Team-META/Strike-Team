@@ -5,6 +5,10 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:IsEnabled"
+        Bool: true
+      }
+      Overrides {
         Name: "cs:Slot"
         Int: 1
       }

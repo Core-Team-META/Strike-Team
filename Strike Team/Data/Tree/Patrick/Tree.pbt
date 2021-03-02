@@ -2256,7 +2256,7 @@ Objects {
     Overrides {
       Name: "cs:EntireRoundEndUI"
       ObjectReference {
-        SelfId: 398388593433154805
+        SelfId: 603516531180759795
       }
     }
     Overrides {

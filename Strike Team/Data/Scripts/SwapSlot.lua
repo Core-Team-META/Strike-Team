@@ -3,7 +3,7 @@ local MENU_BUTTON = script:GetCustomProperty("MenuButton")
 local UI_CONTAINER = script:GetCustomProperty("UIContainer"):WaitForObject()
 local UI_OPEN_SOUND = script:GetCustomProperty("UI_OPEN_SOUND")
 local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
-
+UI.SetCursorLockedToViewport(true)
 local function ToggleOn()
     UI.SetCanCursorInteractWithUI(true)
     UI.SetCursorLockedToViewport(true)

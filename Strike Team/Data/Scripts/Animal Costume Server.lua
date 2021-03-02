@@ -46,6 +46,8 @@ function OnUnequip(equipment, player)
 		player.serverUserData.isAnimorphed = false
 	end
 	PlayerDiedEvent:Disconnect()
+	player:SetWorldScale(Vector3.New(1,1,1))
+	player.serverUserData.isChicken = false
 end
 
 Equipment.equippedEvent:Connect(OnEquip)

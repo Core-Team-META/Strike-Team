@@ -1486,32 +1486,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -1577,32 +1577,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -1669,32 +1669,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -2601,32 +2601,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -2692,32 +2692,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -2784,32 +2784,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -3716,32 +3716,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -3807,32 +3807,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -3899,32 +3899,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -4832,32 +4832,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -4924,32 +4924,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -5017,32 +5017,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -5949,32 +5949,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -6040,32 +6040,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -6132,32 +6132,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 12
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -7063,32 +7063,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 14
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -7154,32 +7154,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 14
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -7246,32 +7246,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 14
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -8177,32 +8177,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 14
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -8268,32 +8268,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 14
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -8360,32 +8360,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 14
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -9291,32 +9291,32 @@ Objects {
     Button {
       Label: "Chicken"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 15
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -9382,32 +9382,32 @@ Objects {
     Button {
       Label: "Confetti"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 15
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
@@ -9474,32 +9474,32 @@ Objects {
     Button {
       Label: "Kill"
       FontColor {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       FontSize: 15
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.97
+        G: 0.423973411
+        A: 0.457000017
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        G: 0.376262
+        B: 0.467783839
+        A: 0.572
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.940000057
+        G: 0.0560265221
+        A: 0.457000017
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 0.572
       }
       Brush {
         Id: 841534158063459245
