@@ -73,7 +73,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -118,7 +118,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 1215
@@ -590,7 +590,6 @@ Objects {
   ParentId: 5832793112159791047
   ChildIds: 6945162135165180982
   ChildIds: 16331713068614966552
-  ChildIds: 1599371678621128654
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceToTrack"
@@ -626,58 +625,6 @@ Objects {
           Value: "mc:euianchor:middlecenter"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 1599371678621128654
-  Name: "LeaderboardPlayerEntry"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10349829829254696725
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5672885568492043509
-      value {
-        Overrides {
-          Name: "Name"
-          String: "LeaderboardPlayerEntry"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 40
-        }
-        Overrides {
-          Name: "UIX"
-          Float: 0
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15991324075709254525
     }
   }
 }

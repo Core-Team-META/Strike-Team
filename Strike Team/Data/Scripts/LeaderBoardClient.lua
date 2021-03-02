@@ -9,11 +9,15 @@ local showToggle = false
 
 local leaderboardEntries = {}
 
-function FillLeaderboard(boardPanel, entriesTable, resource)
+local resourceToSort = nil
 
-	if not entriesTable then
+function FillLeaderboard(boardPanel, tableNumber, resource)
+
+	resourceToSort =  resource
+
+	if not leaderboardEntries[tableNumber] then
 	
-		entriesTable = {}
+		leaderboardEntries[tableNumber] = {}
 		
 	end
 	
@@ -27,86 +31,108 @@ function FillLeaderboard(boardPanel, entriesTable, resource)
 	
 	local entryValue = nil
 	
-	for slot, player1 in ipairs(Game.GetPlayers()) do
+	local leaderboardResults = Game.GetPlayers()
 	
-		highestPlayer = player1
+	
+	if resource == "KILLS" then
 		
-		if resource == "KILLS" then
-		
-			playerResource = player1.kills
+		table.sort(
+			leaderboardResults,
+			function(a, b)
+				return a.kills > b.kills
+			end
+		)
 			
-		elseif resource == "DEATHS" then
+	elseif resource == "DEATHS" then
 		
-			playerResource = player1.deaths
+		table.sort(
+			leaderboardResults,
+			function(a, b)
+				return a.deaths > b.deaths
+			end
+		)
 			
-		elseif resource == "KDR" then
+	elseif resource == "KDR" then
+	
+		table.sort(
+			leaderboardResults,
+			function(a, b)
+			
+				local deathsA = a.deaths
+					
+				if deathsA <= 0 then
+					
+					deathsA= 1
+						
+				end
+				
+				local deathsB = b.deaths
+					
+				if deathsB <= 0 then
+					
+					deathsB = 1
+						
+				end			
+			
+	
+				return a.kills/deathsA * 1.0 > b.kills/deathsB * 1.0
+			end
+		)
+					
+	else 
+	
+		table.sort(
+			leaderboardResults,
+			function(a, b)	
+				return a:GetResource(resourceToSort) > b:GetResource(resourceToSort)
+			end
+		)
+			
+	end	
+	
+	for slot, player in ipairs(leaderboardResults) do
+			
+		if leaderboardEntries[tableNumber][slot] then
 		
-			playerResource = player1.kills/player1.deaths *1.0
+			entryName = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerName")
+			
+			entryValue = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerScore")
+			
+			entryName.text = player.name
+			
+			entryValue.text = tostring(player:GetResource(resourceToSort))
 			
 		else 
-	
-			playerResource = player1:GetResource(resource)
-			
-		end
-	
-		for _, player2 in ipairs(Game.GetPlayers()) do
 		
-			if resource == "KILLS" then
-		
-				otherPlayerResource = player2.kills
-				
-			elseif resource == "DEATHS" then
+			leaderboardEntries[tableNumber][slot] = World.SpawnAsset(leaderboardPlayerEntry, {parent = boardPanel})
 			
-				otherPlayerResource = player2.deaths
-				
-			elseif resource == "KDR" then
+			leaderboardEntries[tableNumber][slot].y = slot * 40
+			leaderboardEntries[tableNumber][slot].x = 0
 			
-				otherPlayerResource = player2.kills/player2.deaths *1.0
-				
-			else 
-		
-				otherPlayerResource = player2:GetResource(resource)
-				
-			end
-		
-			otherPlayerResource = player2:GetResource(resource)
-		
-			if playerResource < otherPlayerResource then
+			entryName = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerName")
 			
-				highestPlayer = player2
-				
-				playerResource = otherPlayerResource
-				
-			end
-		
-		end
-		
-		if entriesTable[slot] then
-		
-			entryName = entriesTable[slot]:GetCustomProperty("PlayerName")
+			entryValue = leaderboardEntries[tableNumber][slot]:FindDescendantByName("PlayerScore")
 			
-			entryValue = entriesTable[slot]:GetCustomProperty("PlayerScore")
+			entryName.text = player.name
 			
-			entryName.text = highestPlayer.name
-			
-			entryValue.text = tostring(playerResource)
-			
-		else 
-		
-			entriesTable[slot] = World.SpawnAsset(leaderboardPlayerEntry, {parent = boardPanel})
-			
-			entriesTable[slot].y = slot * 40
-			
-			entryName = entriesTable[slot]:GetCustomProperty("PlayerName")
-			
-			entryValue = entriesTable[slot]:GetCustomProperty("PlayerScore")
-			
-			entryName.text = highestPlayer.name
-			
-			entryValue.text = tostring(playerResource)
+			entryValue.text = tostring(player:GetResource(resourceToSort))
 			
 		end				
 	
+	end
+	
+	local numberPlayers = #Game.GetPlayers()
+	
+	for x, entry in pairs(leaderboardEntries[tableNumber]) do
+	
+		if x > numberPlayers then
+		
+			leaderboardEntries[tableNumber][x]:Destroy()
+			
+			leaderboardEntries[tableNumber][x] = nil
+			
+		end
+		
 	end
 
 end
@@ -119,13 +145,13 @@ function CalculateLeaderboard()
 
 	for _, panel in ipairs(roundStats:GetChildren()) do
 	
-		resource = leaderboardMainPanel:GetCustomProperty("ResourceToTrack")
+		resource = panel:GetCustomProperty("ResourceToTrack")
 	
 		if resource then
 		
 			leaderboardEntryNumber = leaderboardEntryNumber + 1
 			
-			FillLeaderboard(panel, leaderboardEntries[leaderboardEntryNumber], resource)		
+			FillLeaderboard(panel, leaderboardEntryNumber, resource)
 		
 		end	
 	

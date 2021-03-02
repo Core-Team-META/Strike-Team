@@ -41,7 +41,7 @@ Assets {
         Control {
           Width: 100
           Height: 35
-          UIY: 50
+          UIY: 40
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -88,6 +88,7 @@ Assets {
         Control {
           Width: 215
           Height: 60
+          UIX: 15
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -149,6 +150,7 @@ Assets {
         Control {
           Width: 55
           Height: 60
+          UIX: -15
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -165,7 +167,7 @@ Assets {
             }
             Size: 22
             Justification {
-              Value: "mc:etextjustify:left"
+              Value: "mc:etextjustify:right"
             }
             Font {
               Id: 2044747135125227812
