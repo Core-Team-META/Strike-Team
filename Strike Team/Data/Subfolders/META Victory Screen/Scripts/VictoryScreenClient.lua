@@ -159,6 +159,7 @@ end
 --	nil SendToVictoryScreen(string, table)
 --	Sets the camera and shows the UI for the victory Screen
 local function SendToVictoryScreen() -- topThreePlayerStats
+	Task.Wait(5)
 	-- change the default camera rotation to look in the same direction so the head faces the right way
 	LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
 	LocalPlayer:SetOverrideCamera(OverrideCamera)

@@ -563,6 +563,12 @@ Objects {
         SelfId: 4015237293213236786
       }
     }
+    Overrides {
+      Name: "cs:RoundEndUIDisplay"
+      AssetReference {
+        Id: 15837158783339302967
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
