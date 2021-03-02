@@ -2,7 +2,7 @@ Name: "Brent"
 RootId: 9151753919777912365
 Objects {
   Id: 1767098222894358513
-  Name: "Endgame-ToggleUI"
+  Name: "EndgameUI"
   Transform {
     Location {
     }
