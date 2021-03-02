@@ -37,7 +37,6 @@ function OnEquip(equipment, player)
 	--Task.Wait()
 	PlayerDiedEvent = player.diedEvent:Connect( OnPlayerDied )
 	player:SetVisibility(false, false)
-	player.animationStance = "unarmed_stance"
 	_Owner = player
 end
 
