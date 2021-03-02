@@ -42,6 +42,7 @@ function OnVictoryKill(player, targetId)
         local target = FindPlayerById(targetId)
         if not target.isDead then
             target:Die()
+            target.deaths = target.deaths - 1
             player:RemoveResource(("Cash"), COST)
         end
     end
