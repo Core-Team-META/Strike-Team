@@ -41,7 +41,8 @@ function OnVictoryKill(player, targetId)
     if HasEnoughCash(player) then
         local target = FindPlayerById(targetId)
         if not target.isDead then
-            target:Die()
+            local dmg = Damage.New(target.maxHitPoints)
+            target:ApplyDamage(dmg)
             target.deaths = target.deaths - 1
             player:RemoveResource(("Cash"), COST)
         end
