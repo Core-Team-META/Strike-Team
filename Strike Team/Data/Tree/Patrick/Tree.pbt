@@ -291,7 +291,7 @@ Objects {
     Overrides {
       Name: "cs:LvlHex"
       ObjectReference {
-        SelfId: 7001431541401133520
+        SelfId: 841534158063459245
       }
     }
     Overrides {
@@ -303,7 +303,7 @@ Objects {
     Overrides {
       Name: "cs:VotingWindow"
       ObjectReference {
-        SelfId: 7776611986258655277
+        SelfId: 841534158063459245
       }
     }
     Overrides {
@@ -315,7 +315,7 @@ Objects {
     Overrides {
       Name: "cs:ScoreboardSectionEntries"
       ObjectReference {
-        SelfId: 13500240265108461893
+        SelfId: 841534158063459245
       }
     }
     Overrides {
