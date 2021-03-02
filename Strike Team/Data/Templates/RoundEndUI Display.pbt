@@ -139,7 +139,7 @@ Assets {
           Overrides {
             Name: "cs:EaseUI"
             AssetReference {
-              Id: 2371029570231390977
+              Id: 12045507068401926921
             }
           }
           Overrides {
@@ -791,7 +791,7 @@ Assets {
           Overrides {
             Name: "cs:EaseUI"
             AssetReference {
-              Id: 2371029570231390977
+              Id: 12045507068401926921
             }
           }
           Overrides {

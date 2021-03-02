@@ -6,7 +6,7 @@ local TopFrame = script:GetCustomProperty("TopFrame"):WaitForObject()
 local Panel = script:GetCustomProperty("Panel"):WaitForObject()
 
 
-Task.Wait(5)
+Task.Wait()
 EaseUI.EaseY(Gradient, 2000, 1.5, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.INOUT)
 Task.Wait(.5)
 EaseUI.EaseX(BottomFrame, 100, .6, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.IN)
