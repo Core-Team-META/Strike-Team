@@ -17,6 +17,8 @@ local NemesisOfKillsText = script:GetCustomProperty("NemesisOfKillsText"):WaitFo
 
 local victoryScreenContainer = script:GetCustomProperty("VictoryScreenContainer"):WaitForObject()
 
+local nemesisOfStatText = script:GetCustomProperty("NemesisOfStatText"):WaitForObject()
+
 local nemesisMarker = script:GetCustomProperty("NemesisVictoryScreenMarker")
 
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
@@ -297,6 +299,30 @@ function AnimateYouAsNemesis()
 	
 	local displayKillCount = 0
 	
+	SetChildrenText(nemesisOfStatText, "You Crushed")
+				
+	if yourKillCountAsNemesis >= 15 then
+				
+		SetChildrenText(nemesisOfStatText, "You Humiliated")
+				
+	elseif yourKillCountAsNemesis >= 10 then
+				
+		SetChildrenText(nemesisOfStatText, "You Decimated")
+
+	elseif yourKillCountAsNemesis >= 7 then
+				
+		SetChildrenText(nemesisOfStatText, "You Pulverized")
+					
+	elseif yourKillCountAsNemesis >= 5 then
+				
+		SetChildrenText(nemesisOfStatText, "You Wrecked")
+					
+	elseif yourKillCountAsNemesis >= 3 then
+				
+		SetChildrenText(nemesisOfStatText, "You Crushed")
+					
+	end
+	
 	for index = 1, #youAreNemesisOf do
 	
 		local targetLetter = youAreNemesisOf:sub(index, index)
@@ -532,33 +558,33 @@ function MarkNemesis()
 					
 				end
 				
-				NemesisOfText.text = "Crushed"
+				SetChildrenText(NemesisOfText, "You Crushed")
 				
 				if theirNemesisOfEntryText[number][3] >= 15 then
 				
-					NemesisOfText.text = "Humiliated"
+					SetChildrenText(NemesisOfText, "You Humiliated")
 				
 				elseif theirNemesisOfEntryText[number][3] >= 10 then
 				
-					NemesisOfText.text = "Decimated"
+					SetChildrenText(NemesisOfText, "You Decimated")
 
 				elseif theirNemesisOfEntryText[number][3] >= 7 then
 				
-					NemesisOfText.text = "Pulverized"
+					SetChildrenText(NemesisOfText, "You Pulverized")
 					
 				elseif theirNemesisOfEntryText[number][3] >= 5 then
 				
-					NemesisOfText.text = "Wrecked"
+					SetChildrenText(NemesisOfText, "You Wrecked")
 					
 				elseif theirNemesisOfEntryText[number][3] >= 3 then
 				
-					NemesisOfText.text = "Crushed"
+					SetChildrenText(NemesisOfText, "You Crushed")
 					
 				end
 				
 			else 
 			
-				NemesisOfText.text = "Crushed"
+				SetChildrenText(NemesisOfText, "You Crushed")
 				
 			end 
 			

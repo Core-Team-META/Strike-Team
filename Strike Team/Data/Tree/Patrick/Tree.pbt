@@ -2037,6 +2037,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:NemesisOfStatText"
+      ObjectReference {
+        SelfId: 3175211258030798382
+      }
+    }
+    Overrides {
       Name: "cs:NemesisVictoryScreenMarker"
       AssetReference {
         Id: 9653194334873660604
@@ -2328,7 +2334,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LoadoutLink"
-      String: "a639d3/strike-team-loadout-dev"
+      String: "d9507f/strike-team-loadout"
     }
     Overrides {
       Name: "cs:WinningTeam"
