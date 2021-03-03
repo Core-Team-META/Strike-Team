@@ -4,11 +4,11 @@ local Equipment = require(script:GetCustomProperty("Equipment"))
 local Rarity = require(script:GetCustomProperty("Rarity"))
 
 local Raritys = {
-    ["None"]  =Rarity.New("None",0,99,0,0),
-    ["Common"] =Rarity.New("Common",1000,1,1,0),
-    ["Rare"]  =Rarity.New("Rare",2000,2,2,5),
-    ["Epic"]  =Rarity.New("Epic",15000,3,3,10),
-    ["Legendary"]  =Rarity.New("Legendary",50000,4,4,15),
+    ["None"]  =Rarity.New("None",0,0,99,0,0),
+    ["Common"] =Rarity.New("Common",8000,400,1,1,0),
+    ["Rare"]  =Rarity.New("Rare",15000,750,2,2,5),
+    ["Epic"]  =Rarity.New("Epic",25000,1250,3,3,10),
+    ["Legendary"]  =Rarity.New("Legendary",100000,5000,4,4,15),
 }
 
 local Database = {} 
@@ -154,6 +154,8 @@ function Database:RegisterEquipment()
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
                 NewItem["scale"] = Item:GetCustomProperty("Scale")
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
+                NewItem["level"] = Item:GetCustomProperty("Level")
+                NewItem["cost"] = Item:GetCustomProperty("Cost")
                 local ItemSkins = {}
 
                 NewItem["defaultSkin"] = Database.SetupSkin( 

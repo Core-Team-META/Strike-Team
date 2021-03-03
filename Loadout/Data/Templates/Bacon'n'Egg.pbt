@@ -670,7 +670,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2029515409028393758
+            Id: 8270678220364927290
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -717,7 +717,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 12363676297322450800
             }
           }
           Overrides {
@@ -749,7 +749,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5489775416547967874
+            Id: 13455217693085166429
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -869,7 +869,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -987,7 +987,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1106,7 +1106,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1225,7 +1225,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1343,7 +1343,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1441,7 +1441,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 13623079726590113418
+            Id: 9112875346641836542
           }
           TeamSettings {
           }
@@ -1555,7 +1555,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1673,7 +1673,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1792,7 +1792,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -1911,7 +1911,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -2029,7 +2029,7 @@ Assets {
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 14128145843334160491
+              Id: 13633434133251643745
             }
           }
           Overrides {
@@ -2134,7 +2134,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2029515409028393758
+      Id: 8270678220364927290
       Name: "Hill 05"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2152,7 +2152,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5489775416547967874
+      Id: 13455217693085166429
       Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2161,7 +2161,7 @@ Assets {
       }
     }
     Assets {
-      Id: 350693845910654013
+      Id: 12363676297322450800
       Name: "Bone Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2206,7 +2206,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14128145843334160491
+      Id: 13633434133251643745
       Name: "Food Fruit 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2215,7 +2215,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13623079726590113418
+      Id: 9112875346641836542
       Name: "Liquid Decal"
       PlatformAssetType: 14
       PrimaryAsset {

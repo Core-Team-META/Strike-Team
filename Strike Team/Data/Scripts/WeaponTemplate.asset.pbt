@@ -36,6 +36,18 @@ Assets {
         Float: 1
       }
       Overrides {
+        Name: "cs:Level"
+        Int: 0
+      }
+      Overrides {
+        Name: "cs:Prestige"
+        Int: 0
+      }
+      Overrides {
+        Name: "cs:Cost"
+        Int: 10000
+      }
+      Overrides {
         Name: "cs:ICON"
         AssetReference {
           Id: 841534158063459245

@@ -145,19 +145,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -232,7 +232,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -298,19 +298,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -332,7 +332,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9787240979878824711
+            Id: 13078053896687535652
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -368,7 +368,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -383,7 +383,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -433,7 +433,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -490,7 +490,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -505,7 +505,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -553,7 +553,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -610,19 +610,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -637,7 +637,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -703,7 +703,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -718,7 +718,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
         }
@@ -769,7 +769,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -815,7 +815,7 @@ Assets {
       }
     }
     Assets {
-      Id: 643713811288060970
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -833,7 +833,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9787240979878824711
+      Id: 13078053896687535652
       Name: "Modern Weapon - Stock 03"
       PlatformAssetType: 1
       PrimaryAsset {
