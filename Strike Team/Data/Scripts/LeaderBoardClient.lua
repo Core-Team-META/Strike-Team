@@ -53,7 +53,7 @@ function GenerateLeaderboard()
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
-							entryValue.text = tostring(entry.score)
+							entryValue.text = string.format("%0.1f", entry.score)
 							
 						else 
 						
@@ -76,7 +76,7 @@ function GenerateLeaderboard()
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
-							entryValue.text = tostring(entry.score)
+							entryValue.text = string.format("%0.1f", entry.score)
 							
 						else 
 						
@@ -130,7 +130,7 @@ function GenerateLeaderboard()
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
-							entryValue.text = tostring(entry.score)
+							entryValue.text = string.format("%0.1f", entry.score)
 							
 						else 
 						
@@ -153,7 +153,7 @@ function GenerateLeaderboard()
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
-							entryValue.text = tostring(entry.score)
+							entryValue.text = string.format("%0.1f", entry.score)
 							
 						else 
 						
