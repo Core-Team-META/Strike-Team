@@ -1,23 +1,19 @@
 Assets {
-  Id: 8825587260083121956
-  Name: "FragGrenadeServer"
+  Id: 4968015600947116273
+  Name: "FlashGrenadeServer"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:WeaponType"
-        String: ""
-      }
-      Overrides {
         Name: "cs:ProjectileBody"
         AssetReference {
-          Id: 13253325870475057691
+          Id: 9475959149940424235
         }
       }
       Overrides {
         Name: "cs:ProjectileImpact"
         AssetReference {
-          Id: 18403044146386498216
+          Id: 16020967293678494
         }
       }
       Overrides {
@@ -29,21 +25,6 @@ Assets {
       Overrides {
         Name: "cs:ProjectileBounciness"
         Float: 0.2
-      }
-      Overrides {
-        Name: "cs:DamageRange"
-        Vector2 {
-          X: 60
-          Y: 150
-        }
-      }
-      Overrides {
-        Name: "cs:ExplosionRadius"
-        Float: 700
-      }
-      Overrides {
-        Name: "cs:ExplosionKnockbackSpeed"
-        Float: 1200
       }
     }
   }

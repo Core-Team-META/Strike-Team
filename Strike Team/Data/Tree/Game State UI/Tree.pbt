@@ -147,58 +147,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17028981573721542778
-  Name: "Victory Announcer"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1372466132249557023
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 18154550910277010479
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Victory Announcer"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16128464414869797335
-    }
-  }
-}
-Objects {
   Id: 10128858416733472609
   Name: "Message Banner"
   Transform {
