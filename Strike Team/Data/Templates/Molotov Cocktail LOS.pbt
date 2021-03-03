@@ -87,7 +87,7 @@ Assets {
             SpreadIncreasePerShot: 2
             SpreadPenaltyPerShot: 1.5
             DefaultAbility {
-              SubObjectId: 6136523077571787392
+              SubObjectId: 14566772174438550388
             }
             ReloadAbility {
               SelfId: 841534158063459245
