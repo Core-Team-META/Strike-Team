@@ -70,6 +70,15 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_Sharpshooter", 1)
     end
 
+    ACH_API.UnlockAchievement(player, "AS_Recruit")
+    ACH_API.UnlockAchievement(player, "AS_Killer")
+    ACH_API.UnlockAchievement(player, "AS_Professional")
+    ACH_API.UnlockAchievement(player, "AS_PaleRider")
+    ACH_API.UnlockAchievement(player, "AS_Sharpshooter")
+    ACH_API.UnlockAchievement(player, "AS_Revenge")
+    ACH_API.UnlockAchievement(player, "AS_Pistol")
+
+
     ACH_API.AddProgress(player, "AS_Recruit", 1)
     ACH_API.AddProgress(player, "AS_Killer", 1)
     ACH_API.AddProgress(player, "AS_Professional", 1)
