@@ -9,12 +9,12 @@ Assets {
         Bool: false
       }
       Overrides {
-        Name: "cs:IsRepeatable"
-        Bool: false
-      }
-      Overrides {
         Name: "cs:ID"
         String: ""
+      }
+      Overrides {
+        Name: "cs:IsRepeatable"
+        Bool: false
       }
       Overrides {
         Name: "cs:Icon"
@@ -29,6 +29,10 @@ Assets {
       Overrides {
         Name: "cs:Description"
         String: ""
+      }
+      Overrides {
+        Name: "cs:GivesReward"
+        Bool: false
       }
       Overrides {
         Name: "cs:RewardName"

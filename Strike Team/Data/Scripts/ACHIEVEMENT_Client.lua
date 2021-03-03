@@ -6,9 +6,6 @@
 ------------------------------------------------------------------------------------------------------------------------
 local ROOT = script:GetCustomProperty("AchievementSystem"):WaitForObject()
 local isEnabled = ROOT:GetCustomProperty("Enabled")
-if not isEnabled then
-    return
-end
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
@@ -21,6 +18,7 @@ local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 local ACHIEVEMENT_LIST = script:GetCustomProperty("Achievement_List"):WaitForObject()
 local NOTIFICATION = script:GetCustomProperty("NOTIFICATION"):WaitForObject()
 local NOTIFICATION_ICON = NOTIFICATION:GetCustomProperty("ICON"):WaitForObject()
+local ACHIEVEMENT_NAME_TEXT = NOTIFICATION:GetCustomProperty("ACHIEVEMENT_NAME_TEXT"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local SFX = script:GetCustomProperty("SFX")
@@ -51,6 +49,7 @@ end
 
 local function AnimateNotification(id)
     NOTIFICATION_ICON:SetImage(ACH_API.GetAchievementIcon(id))
+    ACHIEVEMENT_NAME_TEXT.text = (ACH_API.GetAchievementName(id))
     EaseUI.EaseX(NOTIFICATION, 10, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.OUT)
     Task.Wait(0.5)
     World.SpawnAsset(SFX)
@@ -85,8 +84,8 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
         shouldShow = true
         NOTIFICATION.visibility = Visibility.FORCE_ON
     else
-        shouldShow = false
-        NOTIFICATION.visibility = Visibility.FORCE_OFF
+        shouldShow = true
+        NOTIFICATION.visibility = Visibility.FORCE_ON
     end
     if newState == ABGS.GAME_STATE_ROUND_END then
         LOCAL_PLAYER.clientUserData.UnlockedAchievements = ACH_API.CheckUnlockedAchievements(LOCAL_PLAYER)
