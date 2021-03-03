@@ -22,6 +22,7 @@ Objects {
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
   ChildIds: 5087704922136027764
+  ChildIds: 4297970923383946370
   ChildIds: 9136329465692806999
   ChildIds: 7325714028980024580
   ChildIds: 11461366442528337505
@@ -64,7 +65,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true
@@ -713,21 +714,76 @@ Objects {
           Name: "Name"
           String: "EquipmentHandler"
         }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15287344345217834263
-      value {
         Overrides {
-          Name: "cs:SKIN"
-          AssetReference {
-            Id: 8921104371560315070
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
       Id: 12469272091380785429
+    }
+  }
+}
+Objects {
+  Id: 4297970923383946370
+  Name: "PerkHooks"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StrikeCoin300"
+      NetReference {
+        Key: "961ac6713ade4960a6f4639fca25d3a1"
+        Type {
+          Value: "mc:enetreferencetype:creatorperk"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin750"
+      NetReference {
+        Key: "5cdab6cfe83a463b8bfe074d316a7a3c"
+        Type {
+          Value: "mc:enetreferencetype:creatorperk"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin3000"
+      NetReference {
+        Key: "be73b67c768341c5ba1df5788b0ea0a7"
+        Type {
+          Value: "mc:enetreferencetype:creatorperk"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 336823580396764239
     }
   }
 }

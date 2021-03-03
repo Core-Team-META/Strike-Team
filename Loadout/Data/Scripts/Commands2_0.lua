@@ -135,9 +135,13 @@ function Commands.god(player,message)
     player.hitPoints = 9999999999999999999
 end 
 
-function Commands.ungod(player,message)
-    player.maxHitPoints = 100
-    player.hitPoints = 100
+function Commands.god(player,message)
+    player.maxHitPoints = 9999999999999999999
+    player.hitPoints = 9999999999999999999
+end 
+
+function Commands.save(player,message)
+    Events.Broadcast("Lootbox.Save",player)
 end 
 
 function Commands.setmaxhealth(player,message)

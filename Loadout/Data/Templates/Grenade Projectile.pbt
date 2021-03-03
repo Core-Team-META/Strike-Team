@@ -45,6 +45,7 @@ Assets {
           }
         }
         ParentId: 6637820697500110737
+        ChildIds: 8405018548777101461
         ChildIds: 13493774454738326224
         ChildIds: 12438069925643964341
         UnregisteredParameters {
@@ -57,6 +58,34 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 8405018548777101461
+        Name: "GrenadeClient"
+        Transform {
+          Location {
+            Z: 10
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2231629422558954152
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 5309677594063433142
+          }
         }
       }
       Objects {
