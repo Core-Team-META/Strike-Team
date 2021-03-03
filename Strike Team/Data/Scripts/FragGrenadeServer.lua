@@ -7,6 +7,7 @@ local WEAPON_TYPE = script:GetCustomProperty("WeaponType")
 local PROJECTILE_BODY = script:GetCustomProperty("ProjectileBody")
 local IMPACT = script:GetCustomProperty("ProjectileImpact")
 local BOUNCE_SOUND = script:GetCustomProperty("ProjectileBounceSound")
+local PROJECTILE_BOUNCINESS = script:GetCustomProperty("ProjectileBounciness")
 local DAMAGE_RANGE = script:GetCustomProperty("DamageRange")
 local EXPLOSION_RADIUS = script:GetCustomProperty("ExplosionRadius")
 local EXPLOSION_KNOCKBACK_SPEED = script:GetCustomProperty("ExplosionKnockbackSpeed")
@@ -101,12 +102,12 @@ function OnThrowExecute(ability)
     projectile.drag = WEAPON.projectileDrag
     projectile.bouncesRemaining = WEAPON.projectileBounceCount
     projectile.piercesRemaining = WEAPON.projectilePierceCount
+    projectile.bounciness = PROJECTILE_BOUNCINESS
     
     projectile.shouldDieOnImpact = false
     
     projectile.impactEvent:Connect(OnProjectileImpact)
     projectile.lifeSpanEndedEvent:Connect(OnProjectileLifeSpanEnded)
-
 end
 
 THROW_ABILITY.executeEvent:Connect(OnThrowExecute)

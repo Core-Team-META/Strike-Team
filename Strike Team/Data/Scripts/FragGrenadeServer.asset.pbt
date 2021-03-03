@@ -27,6 +27,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:ProjectileBounciness"
+        Float: 0.2
+      }
+      Overrides {
         Name: "cs:DamageRange"
         Vector2 {
           X: 60

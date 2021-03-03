@@ -32,10 +32,10 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 9475959149940424235
+              Id: 841534158063459245
             }
             MuzzleFlashAssetRef {
-              Id: 841534158063459245
+              Id: 8113725433182133795
             }
             TrailAssetRef {
               Id: 841534158063459245
@@ -62,7 +62,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 4
+            BurstDuration: 1
             Range: 100000
             ImpactPlayerAssetRef {
               Id: 841534158063459245
@@ -73,12 +73,13 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 2500
+            ProjectileSpeed: 3200
             ProjectileLifeSpan: 3
-            ProjectileGravity: 2
-            ProjectileLength: 10
-            ProjectileRadius: 4
+            ProjectileGravity: 1.9
+            ProjectileLength: 12
+            ProjectileRadius: 12
             ProjectileBounces: 1000
+            ProjectileDrag: 0.12
             SpreadMin: 1
             SpreadMax: 90
             SpreadDecreaseSpeed: 6
@@ -172,7 +173,7 @@ Assets {
       }
       Objects {
         Id: 4660169231835129322
-        Name: "FlashGrenade"
+        Name: "FlashGrenadeServer"
         Transform {
           Location {
           }
@@ -186,18 +187,6 @@ Assets {
         }
         ParentId: 5003046638899402766
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:Weapon"
-            ObjectReference {
-              SubObjectId: 5003046638899402766
-            }
-          }
-          Overrides {
-            Name: "cs:FlashVFX"
-            AssetReference {
-              Id: 16020967293678494
-            }
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
