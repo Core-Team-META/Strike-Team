@@ -94,6 +94,7 @@ Objects {
     }
   }
   ParentId: 881099676690102962
+  ChildIds: 8708156771605983482
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -111,6 +112,68 @@ Objects {
     Image {
       Brush {
         Id: 12570125024485235394
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 8708156771605983482
+  Name: "GrenadeIcon"
+  Transform {
+    Location {
+      X: 1649.58862
+      Y: 3065.56445
+      Z: 482.070282
+    }
+    Rotation {
+      Yaw: 55.0534515
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16814523295774856805
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 20
+    Height: 10
+    UIY: 38.1217041
+    RotationAngle: 180
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 7057957939250648142
       }
       Color {
         R: 1
@@ -158,7 +221,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 200
@@ -170,11 +233,11 @@ Objects {
     }
     Image {
       Brush {
-        Id: 9810847745923780896
+        Id: 12570125024485235394
       }
       Color {
         R: 1
-        A: 0.216
+        A: 0.1
       }
       TeamSettings {
       }

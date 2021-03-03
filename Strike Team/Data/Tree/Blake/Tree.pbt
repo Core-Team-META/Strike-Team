@@ -1299,6 +1299,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15806395192495462933
+      value {
+        Overrides {
+          Name: "cs:Weapon"
+          AssetReference {
+            Id: 9947807875728528770
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 12469272091380785429
     }

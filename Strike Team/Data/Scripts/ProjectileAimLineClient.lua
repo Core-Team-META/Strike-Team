@@ -1,16 +1,13 @@
 -- @author Divided
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+local AIM_ABILITY = script:GetCustomProperty("Aim"):WaitForObject()
 local THROW_ABILITY = script:GetCustomProperty("Throw"):WaitForObject()
 local WEAPON = script:FindAncestorByType('Weapon')
+local AIM_LINE_TEMPLATE = script:GetCustomProperty("AimLineTemplate")
 
-local AIM_LINE = script:GetCustomProperty("AimLine"):WaitForObject()
-
-AIM_LINE.parent = World.GetRootObject()
-local LINES = AIM_LINE:GetChildren()
-AIM_LINE.visibility = Visibility.FORCE_OFF
-
-
+local aimLine = nil
+local lines = {}
 
 function ProjectPointOnLine(p, linePoint, lineDirection)
     local lineToP = p - linePoint
@@ -23,7 +20,7 @@ function UpdateAbilityTarget(ability)
 
     abilityTarget:SetAimDirection(LOCAL_PLAYER:GetLookWorldRotation() * Vector3.FORWARD)
     abilityTarget:SetAimPosition(LOCAL_PLAYER:GetViewWorldPosition())
- 
+
     local playerPosition = LOCAL_PLAYER:GetWorldPosition()
 
     local startPosition = ProjectPointOnLine(playerPosition, abilityTarget:GetAimPosition(), abilityTarget:GetAimDirection())
@@ -33,7 +30,7 @@ function UpdateAbilityTarget(ability)
     if hitResult then
         endPosition = hitResult:GetImpactPosition()
     end
- 
+
     abilityTarget:SetOwnerMovementRotation(LOCAL_PLAYER:GetLookWorldRotation())
     abilityTarget:SetHitPosition(endPosition)
     ability:SetTargetData(abilityTarget)
@@ -41,34 +38,38 @@ end
 
 
 function AbilityTick(ability, deltaTime)
-    if THROW_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then
-       -- if not LOCAL_PLAYER:IsBindingPressed(THROW_ABILITY.actionBinding) then
-       --     THROW_ABILITY:AdvancePhase()
-       --     return
-       -- end
+    if ability.owner ~= LOCAL_PLAYER then
+        return
+    end
 
-        UpdateAbilityTarget(THROW_ABILITY)
+    if AIM_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then
+        if not LOCAL_PLAYER:IsBindingPressed(AIM_ABILITY.actionBinding) then
+            AIM_ABILITY:AdvancePhase()
+            return
+        end
+
+        UpdateAbilityTarget(AIM_ABILITY)
 
         --------------------------------------------------------------
-
-
-
-        local targetData = THROW_ABILITY:GetTargetData()
+        local targetData = AIM_ABILITY:GetTargetData()
 
         local startPosition = LOCAL_PLAYER:GetWorldPosition() + LOCAL_PLAYER:GetLookWorldRotation() * Vector3.New(50, 50, 100)
-        local hitPosition = THROW_ABILITY:GetTargetData():GetHitPosition()
+        local hitPosition = AIM_ABILITY:GetTargetData():GetHitPosition()
         local direction = (hitPosition-startPosition):GetNormalized()
 
-    
         local projectileSpeed = WEAPON.projectileSpeed
         local gravityScale = WEAPON.projectileGravity
         local projectileDrag = WEAPON.projectileDrag
 
         local points = {}
-        local nPoints = #LINES
+        local nPoints = #lines
         local position = startPosition
-        table.insert(points, position)
 
+        -- This is to make the first point be behind the player so you dont see a disconnected line
+        local adjustedStartPosition = position - LOCAL_PLAYER:GetLookWorldRotation() * Vector3.FORWARD * 100
+        table.insert(points, adjustedStartPosition)
+
+        -- note: currently dont account for drag
         for i = 1, nPoints do
             local time = i * 0.05
             local displacement = direction * projectileSpeed * time + Vector3.UP * 0.5 * -980 * gravityScale * time * time
@@ -76,27 +77,58 @@ function AbilityTick(ability, deltaTime)
         end
 
         for i = 1, nPoints do
-			LINES[i]:SetWorldPosition((points[i] + points[i + 1]) / 2.0)
-			LINES[i]:SetWorldRotation(Rotation.New(Quaternion.New(Vector3.UP, ((points[i + 1] - points[i])):GetNormalized())))
-			LINES[i]:SetWorldScale(Vector3.New(0.04, 0.04, (points[i + 1] - points[i]).size / 100.0 + 0.005))
+			lines[i]:SetWorldPosition((points[i] + points[i + 1]) / 2.0)
+			lines[i]:SetWorldRotation(Rotation.New(Quaternion.New(Vector3.UP, ((points[i + 1] - points[i])):GetNormalized())))
+			lines[i]:SetWorldScale(Vector3.New(0.04, 0.04, (points[i + 1] - points[i]).size / 100.0 + 0.005))
 		end
     end
 
 end
 
 function OnExecuteAbility(ability)
-    if Object.IsValid(AIM_LINE) then
-        AIM_LINE.visibility = Visibility.FORCE_OFF
+    if ability.owner ~= LOCAL_PLAYER then
+        return
+    end
+
+    AIM_ABILITY:AdvancePhase()
+    
+    THROW_ABILITY:Activate()
+    if Object.IsValid(aimLine) then
+        aimLine.visibility = Visibility.FORCE_OFF
     end
 end
 
 function OnCastAbility(ability)
-    if Object.IsValid(AIM_LINE) then
-        AIM_LINE.visibility = Visibility.INHERIT
+    if ability.owner ~= LOCAL_PLAYER then
+        return
+    end
+
+    if aimLine == nil then
+        aimLine = World.SpawnAsset(AIM_LINE_TEMPLATE, {parent = World.GetRootObject()})
+        lines = aimLine:GetChildren()
+    end
+
+    Task.Wait(0.2)
+
+    if ability:GetCurrentPhase() == AbilityPhase.CAST then
+        if Object.IsValid(aimLine) then
+            aimLine.visibility = Visibility.INHERIT
+        end
     end
 end
 
+-- Connect up the ability
+AIM_ABILITY.tickEvent:Connect(AbilityTick)
+AIM_ABILITY.executeEvent:Connect(OnExecuteAbility)
+AIM_ABILITY.castEvent:Connect(OnCastAbility)
 
-THROW_ABILITY.tickEvent:Connect(AbilityTick)
-THROW_ABILITY.executeEvent:Connect(OnExecuteAbility)
-THROW_ABILITY.castEvent:Connect(OnCastAbility)
+-- On destroy, if an aim line exists, destroy it
+script.destroyEvent:Connect(
+function()
+    if Object.IsValid(aimLine) then
+        aimLine:Destroy()
+        aimLine = nil
+        lines = nil
+    end
+end
+)
