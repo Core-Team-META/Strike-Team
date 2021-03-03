@@ -565,7 +565,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     RenderTransformPivot {
@@ -9976,8 +9976,6 @@ Objects {
   ChildIds: 12210130956258601270
   ChildIds: 6165906052756801883
   ChildIds: 14982352849643976691
-  ChildIds: 10471833870243689149
-  ChildIds: 669304463900198881
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10011,134 +10009,6 @@ Objects {
   InstanceHistory {
     SelfId: 15117484212448288023
     SubobjectId: 821093512365551257
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 669304463900198881
-  Name: "FIST"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 1.22133282e-12
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3341136515197810058
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 25
-    Height: 25
-    UIX: -29
-    RotationAngle: -90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 16046800345151131554
-      }
-      Color {
-        R: 0.470000029
-        G: 0.102715239
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12383498201480243322
-    SubobjectId: 8174611639019527156
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 10471833870243689149
-  Name: "FIST"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 1.22133282e-12
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3341136515197810058
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 25
-    Height: 25
-    UIX: 29
-    RotationAngle: 90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 16046800345151131554
-      }
-      Color {
-        R: 0.470000029
-        G: 0.102715239
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12383498201480243322
-    SubobjectId: 8174611639019527156
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }
@@ -11130,8 +11000,6 @@ Objects {
   ChildIds: 2034607140273627420
   ChildIds: 5374777476771332378
   ChildIds: 5341118262843165068
-  ChildIds: 8600985932824659571
-  ChildIds: 16282558534722546152
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11165,132 +11033,6 @@ Objects {
   InstanceHistory {
     SelfId: 15117484212448288023
     SubobjectId: 821093512365551257
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 16282558534722546152
-  Name: "FIST"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 1.22133282e-12
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5106387172267646697
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 20
-    Height: 20
-    UIX: -3
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 15918351247767818628
-      }
-      Color {
-        R: 0.78
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12383498201480243322
-    SubobjectId: 8174611639019527156
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 8600985932824659571
-  Name: "FIST"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 1.22133282e-12
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5106387172267646697
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 20
-    Height: 20
-    UIX: 3
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 15918351247767818628
-      }
-      Color {
-        R: 0.78
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12383498201480243322
-    SubobjectId: 8174611639019527156
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }

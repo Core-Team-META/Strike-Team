@@ -8,24 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16046800345151131554
-  Name: "Icon Fist"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Fist"
-  }
-}
-Assets {
-  Id: 15918351247767818628
-  Name: "Icon Skull"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Skull"
-  }
-}
-Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
