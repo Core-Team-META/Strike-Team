@@ -19,15 +19,20 @@ local ACHIEVEMENT_LIST = script:GetCustomProperty("Achievement_List"):WaitForObj
 local NOTIFICATION = script:GetCustomProperty("NOTIFICATION"):WaitForObject()
 local NOTIFICATION_ICON = NOTIFICATION:GetCustomProperty("ICON"):WaitForObject()
 local ACHIEVEMENT_NAME_TEXT = NOTIFICATION:GetCustomProperty("ACHIEVEMENT_NAME_TEXT"):WaitForObject()
+local ACHIEVEMENT_CONTAINER = script:GetCustomProperty("CONTAINER"):WaitForObject()
+
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local SFX = script:GetCustomProperty("SFX")
+local AchievementPanelTemplate = script:GetCustomProperty("Achievement_EndScreen_Template")
 ------------------------------------------------------------------------------------------------------------------------
 -- Variables
 ------------------------------------------------------------------------------------------------------------------------
 local shouldShow = false
 local achievementQueue = {}
 local achievementIds = {}
+local listeners = {}
+
 NOTIFICATION.visibility = Visibility.FORCE_OFF
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
@@ -45,6 +50,75 @@ local function IsAchievement(id)
         end
     end
     return false
+end
+
+local function ClearListeners()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listeners:Disconnect()
+        end
+    end
+    listeners = {}
+end
+
+local function ClearAchievements()
+    for _, child in ipairs(ACHIEVEMENT_CONTAINER:GetChildren()) do
+        if Object.IsValid(child) then
+            child:Destroy()
+        end
+    end
+end
+
+local function OnDetailsHover(button)
+    if not button.clientUserData.detailPanel then
+        return
+    end
+    button.clientUserData.detailPanel.visibility = Visibility.FORCE_ON
+end
+
+local function OnDetailsUnhover(button)
+    if not button.clientUserData.detailPanel then
+        return
+    end
+    button.clientUserData.detailPanel.visibility = Visibility.FORCE_OFF
+end
+
+local function BuildAchievementInfoPanel()
+    local count = 0
+    for _, achievement in pairs(ACH_API.CheckUnlockedAchievements(LOCAL_PLAYER)) do
+        local achievementPanel = World.SpawnAsset(AchievementPanelTemplate, {parent = ACHIEVEMENT_CONTAINER})
+        local icon = achievementPanel:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject()
+        local name = achievementPanel:GetCustomProperty("ACHIEVEMENT_NAME"):WaitForObject()
+        local button = achievementPanel:GetCustomProperty("BUTTON"):WaitForObject()
+
+        local details = achievementPanel:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
+        details.visibility = Visibility.FORCE_OFF
+        local detailsIcon = details:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject()
+        local detailsTitle = details:GetCustomProperty("TITLE"):WaitForObject()
+        local detilsDescription = details:GetCustomProperty("DESCRIPTION"):WaitForObject()
+
+        button.clientUserData.detailPanel = details
+
+        listeners[#listeners + 1] = button.hoveredEvent:Connect(OnDetailsHover)
+        listeners[#listeners + 1] = button.unhoveredEvent:Connect(OnDetailsUnhover)
+
+        icon:SetImage(achievement.icon)
+        detailsIcon:SetImage(achievement.icon)
+
+        name.text = achievement.name
+        detailsTitle.text = achievement.name
+        detilsDescription.text = achievement.description
+
+        if count < 5 then
+            achievementPanel.x = count * 130
+            count = count + 1
+        else
+            achievementPanel.x = (count - 5) * 130
+            achievementPanel.y = 150
+            count = count + 1
+        end
+    end
+    print(#listeners)
 end
 
 local function AnimateNotification(id)
@@ -88,7 +162,10 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
         NOTIFICATION.visibility = Visibility.FORCE_ON
     end
     if newState == ABGS.GAME_STATE_ROUND_END then
-        LOCAL_PLAYER.clientUserData.UnlockedAchievements = ACH_API.CheckUnlockedAchievements(LOCAL_PLAYER)
+        BuildAchievementInfoPanel()
+    else
+        ClearAchievements()
+        ClearListeners()
     end
 end
 

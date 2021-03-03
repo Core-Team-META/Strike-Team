@@ -1861,7 +1861,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1926,7 +1926,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1991,7 +1991,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2056,7 +2056,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2121,7 +2121,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2186,7 +2186,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2251,7 +2251,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2296,7 +2296,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Icon"
@@ -2361,7 +2361,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Icon"
@@ -2446,7 +2446,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2511,7 +2511,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2576,7 +2576,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2621,7 +2621,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:RewardName"
@@ -2686,7 +2686,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Icon"
@@ -2751,7 +2751,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Icon"
@@ -2816,7 +2816,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Icon"
@@ -2901,7 +2901,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2946,7 +2946,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Icon"
@@ -3132,6 +3132,18 @@ Objects {
       Name: "cs:AchievementSystem"
       ObjectReference {
         SelfId: 16180529362581302619
+      }
+    }
+    Overrides {
+      Name: "cs:CONTAINER"
+      ObjectReference {
+        SelfId: 4926463013892911400
+      }
+    }
+    Overrides {
+      Name: "cs:Achievement_EndScreen_Template"
+      AssetReference {
+        Id: 3264268890164788131
       }
     }
   }
