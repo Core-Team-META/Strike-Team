@@ -2758,18 +2758,18 @@ Assets {
         Name: "World Text"
         Transform {
           Location {
-            X: 57.588356
-            Y: 3.34879231
-            Z: 0.277189761
+            X: 55.106041
+            Y: 4.41535139
+            Z: 0.277136177
           }
           Rotation {
             Pitch: 90
-            Yaw: 41.4729462
-            Roll: -138.527039
+            Yaw: 35.4485893
+            Roll: -144.551407
           }
           Scale {
-            X: 1.141
-            Y: 1.141
+            X: 1.14100015
+            Y: 0.988613
             Z: 1.141
           }
         }
@@ -2783,7 +2783,7 @@ Assets {
         Text {
           Text: "Join the Community!"
           FontAsset {
-            Id: 13623604639048005244
+            Id: 10698833128597864431
           }
           Color {
             R: 0.0570000038
@@ -2807,18 +2807,18 @@ Assets {
         Name: "World Text"
         Transform {
           Location {
-            X: -50.4789963
-            Y: -0.0783070475
-            Z: 0.277240753
+            X: -51.4839096
+            Y: 1.36675048
+            Z: 0.277136177
           }
           Rotation {
             Pitch: 90
-            Yaw: -64.7244263
-            Roll: 115.275543
+            Yaw: -149.315582
+            Roll: 30.6843262
           }
           Scale {
-            X: 1.14114499
-            Y: 1.14114499
+            X: 1.14114511
+            Y: 0.986285865
             Z: 1.14114499
           }
         }
@@ -2830,9 +2830,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
-          Text: "CoreGames.com/StrikeTeam"
+          Text: "bit.ly/strike-team"
           FontAsset {
-            Id: 13623604639048005244
+            Id: 10698833128597864431
           }
           Color {
             R: 0.0570000038
@@ -2952,12 +2952,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13623604639048005244
-      Name: "Anton"
+      Id: 10698833128597864431
+      Name: "Play Bold"
       PlatformAssetType: 28
       PrimaryAsset {
         AssetType: "FontAssetRef"
-        AssetId: "AntonRegular_ref"
+        AssetId: "PlayBold_ref"
       }
     }
     PrimaryAssetId {
