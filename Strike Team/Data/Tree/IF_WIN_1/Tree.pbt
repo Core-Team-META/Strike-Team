@@ -148,8 +148,7 @@ Objects {
   Control {
     Width: 200
     Height: 40
-    UIX: 2
-    UIY: 1.4960525
+    UIX: 1
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -434,70 +433,6 @@ Objects {
   InstanceHistory {
     SelfId: 513477514621848631
     SubobjectId: 15963350747275132857
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 10913818463127159691
-  Name: "GOLD_BG"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2368917836482879634
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 120
-    Height: 120
-    UIX: 60
-    UIY: 80
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 5161641800464711927
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.07
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10913818463127159691
-    SubobjectId: 5610543851118276613
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }
