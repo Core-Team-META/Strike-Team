@@ -80,11 +80,6 @@ Assets {
             ProjectileRadius: 12
             ProjectileBounces: 1000
             ProjectileDrag: 0.12
-            SpreadMin: 1
-            SpreadMax: 90
-            SpreadDecreaseSpeed: 6
-            SpreadIncreasePerShot: 2
-            SpreadPenaltyPerShot: 1.5
             DefaultAbility {
               SubObjectId: 3854890255834150373
             }
@@ -99,7 +94,7 @@ Assets {
       }
       Objects {
         Id: 3854890255834150373
-        Name: "AttackAbility"
+        Name: "Throw"
         Transform {
           Location {
           }
@@ -122,7 +117,7 @@ Assets {
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.35
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -144,7 +139,6 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
