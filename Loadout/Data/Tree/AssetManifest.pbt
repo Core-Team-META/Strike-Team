@@ -296,12 +296,38 @@ Assets {
   }
 }
 Assets {
+  Id: 10522512622236453323
+  Name: "kb_lifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "a82c9c593b0d474b9a538e0bd95e4680"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_tire_worn_02_ref"
+  }
+}
+Assets {
+  Id: 9577122860049471132
+  Name: "kb_storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "3b7b3b964255409887f17adcf3c9b7eb"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -372,6 +398,19 @@ Assets {
   }
 }
 Assets {
+  Id: 8530009853949162621
+  Name: "kb_stats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "62e90670ac2549c49ed0b7ae7931fb4d"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 8444988906755860980
   Name: "StrikeCoin300"
   PlatformAssetType: 24
@@ -391,19 +430,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_barreltip_001"
-  }
-}
-Assets {
-  Id: 8117433398642883533
-  Name: "statKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "bf84fda037134f048c79d75bb4159446"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -451,19 +477,6 @@ Assets {
       Key: "5cdab6cfe83a463b8bfe074d316a7a3c"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
-  }
-}
-Assets {
-  Id: 7486514338814007991
-  Name: "Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "58875f5ce4944e78af8e3709e839eff4"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
   }
@@ -586,6 +599,19 @@ Assets {
   }
 }
 Assets {
+  Id: 5543723702933423004
+  Name: "kb_loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "5a3ea05146bd4a758c1408c294d05c38"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 5525139013811408427
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -622,19 +648,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4358075914796183949
-  Name: "Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 4297505030264945500
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
@@ -659,19 +672,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_001_ref"
-  }
-}
-Assets {
-  Id: 3524510532187223125
-  Name: "lifetimeStats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
