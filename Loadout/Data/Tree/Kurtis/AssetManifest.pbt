@@ -53,6 +53,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3774657568957881846
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 3664507400955153403
+  Name: "Survival Money 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Money_001"
+  }
+}
+Assets {
   Id: 3350581364753243189
   Name: "Sci-fi Cockpit Console 001"
   PlatformAssetType: 1
@@ -68,5 +86,32 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
+  Id: 1832806668449724969
+  Name: "Fantasy Gold 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Gold_002"
+  }
+}
+Assets {
+  Id: 1814707273787853473
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 1311185457763042050
+  Name: "BG Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_015"
   }
 }

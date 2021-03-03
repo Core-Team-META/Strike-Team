@@ -62,6 +62,13 @@ GlobalEntries {
   DateTime: "2021-02-10T23:13:16.331Z"
 }
 GlobalEntries {
+  Id: "901b7628983c4c8db4282f24afeda57a"
+  Name: "Buckmonster"
+  ScoreFormatted: "0.1"
+  AdditionalData: "062010030"
+  DateTime: "2021-03-03T01:51:12.454Z"
+}
+GlobalEntries {
   Id: "9b2646ac5d51495380aa34473ff20c23"
   Name: "KonzZwodrei"
   ScoreFormatted: "0.1"
