@@ -529,7 +529,7 @@ Objects {
   Control {
     Width: 50
     Height: 50
-    UIY: 5.49587774
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -543,7 +543,7 @@ Objects {
         R: 1
         G: 1
         B: 1
-        A: 0.07
+        A: 1
       }
       TeamSettings {
       }

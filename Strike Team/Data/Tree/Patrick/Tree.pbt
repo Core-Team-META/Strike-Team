@@ -2162,35 +2162,25 @@ Objects {
     Overrides {
       Name: "cs:GainedXP"
       ObjectReference {
-        SelfId: 3493941045262922744
+        SelfId: 2799794553980787474
       }
     }
     Overrides {
       Name: "cs:ProgressBarText"
       ObjectReference {
-        SelfId: 166738910908744850
+        SelfId: 1510472419341970552
       }
     }
     Overrides {
       Name: "cs:ProgressBar"
       ObjectReference {
-        SelfId: 6718875757919281695
-      }
-    }
-    Overrides {
-      Name: "cs:RoundResult"
-      ObjectReference {
+        SelfId: 5447133888027003637
       }
     }
     Overrides {
       Name: "cs:CashTotal"
       ObjectReference {
-        SelfId: 10401611362912397647
-      }
-    }
-    Overrides {
-      Name: "cs:ValueHeadshots"
-      ObjectReference {
+        SelfId: 9727727790578188709
       }
     }
     Overrides {
@@ -2200,111 +2190,75 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:GameModeName"
-      ObjectReference {
-        SelfId: 2819883279512439584
-      }
-    }
-    Overrides {
-      Name: "cs:MatchLength"
-      ObjectReference {
-        SelfId: 13269487990687807459
-      }
-    }
-    Overrides {
-      Name: "cs:LvlHex"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
-    }
-    Overrides {
       Name: "cs:StatsWindow"
       ObjectReference {
-        SelfId: 12563168098802761108
-      }
-    }
-    Overrides {
-      Name: "cs:VotingWindow"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
-    }
-    Overrides {
-      Name: "cs:LeaderboardEntries"
-      ObjectReference {
-        SelfId: 10705308302646760788
-      }
-    }
-    Overrides {
-      Name: "cs:ScoreboardSectionEntries"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
-    }
-    Overrides {
-      Name: "cs:NextTitle"
-      ObjectReference {
-        SelfId: 4639302171139711825
-      }
-    }
-    Overrides {
-      Name: "cs:RoundEndTimer"
-      ObjectReference {
-        SelfId: 12389885755441241879
+        SelfId: 9058775223066187834
       }
     }
     Overrides {
       Name: "cs:EntireRoundEndUI"
       ObjectReference {
-        SelfId: 603516531180759795
+        SelfId: 2217523191625957913
       }
     }
     Overrides {
       Name: "cs:ReturnToLoadout"
       ObjectReference {
-        SelfId: 12897096729108870290
+        SelfId: 11843789355136474232
       }
     }
     Overrides {
       Name: "cs:MainWindow"
       ObjectReference {
-        SelfId: 7714976909178499280
+        SelfId: 9058775223066187834
       }
     }
     Overrides {
       Name: "cs:BackToLoadoutButton"
       ObjectReference {
-        SelfId: 4501890445202848591
+        SelfId: 2945295935520822181
       }
     }
     Overrides {
       Name: "cs:GoldPercentBar"
       ObjectReference {
-        SelfId: 8706647980475104322
+        SelfId: 7958455081865811112
       }
     }
     Overrides {
       Name: "cs:GoldAmount"
       ObjectReference {
-        SelfId: 18002196091721676321
+        SelfId: 17253997679615827659
       }
     }
     Overrides {
       Name: "cs:CashPanel"
       ObjectReference {
-        SelfId: 12962776678316610393
+        SelfId: 4678716333014790151
       }
     }
     Overrides {
       Name: "cs:BIG_GOLD"
       ObjectReference {
-        SelfId: 4017053939767006924
+        SelfId: 16681493659596828848
       }
     }
     Overrides {
       Name: "cs:SMALL_GOLD"
       ObjectReference {
-        SelfId: 15716700674947279145
+        SelfId: 3109539861677786823
+      }
+    }
+    Overrides {
+      Name: "cs:LevelNumberText"
+      ObjectReference {
+        SelfId: 13682052115332707394
+      }
+    }
+    Overrides {
+      Name: "cs:PlayerNameText"
+      ObjectReference {
+        SelfId: 10653456515632429104
       }
     }
     Overrides {

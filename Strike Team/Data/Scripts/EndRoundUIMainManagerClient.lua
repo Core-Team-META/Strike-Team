@@ -30,25 +30,17 @@ local progressBar = script:GetCustomProperty("ProgressBar"):WaitForObject()
 
 local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 
-local gameModeName = script:GetCustomProperty("GameModeName"):WaitForObject()
-local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
-
-local lvlHex = script:GetCustomProperty("LvlHex"):WaitForObject()
-
 local statsWindow = script:GetCustomProperty("StatsWindow"):WaitForObject()
---local votingWindow = script:GetCustomProperty("VotingWindow"):WaitForObject()
-
-local leaderboardEntries = script:GetCustomProperty("LeaderboardEntries"):WaitForObject()
-local scoreboardSectionEntries = script:GetCustomProperty("ScoreboardSectionEntries"):WaitForObject()
-
-local nextTitle = script:GetCustomProperty("NextTitle"):WaitForObject()
-local roundEndTimer = script:GetCustomProperty("RoundEndTimer"):WaitForObject()
 
 local returnToLoadout = script:GetCustomProperty("ReturnToLoadout"):WaitForObject()
 
 local mainWindow = script:GetCustomProperty("MainWindow"):WaitForObject()
 
 local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
+
+local levelNumberText = script:GetCustomProperty("LevelNumberText"):WaitForObject()
+
+local playerNameText = script:GetCustomProperty("PlayerNameText"):WaitForObject()
 
 local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimationCompleteSFX")
 
@@ -121,11 +113,11 @@ function SetChildrenText(uiObj, _text) -- <-- generic children text function by 
 		uiObj.text = _text
 	end
 
-	--[[for i, v in ipairs(uiObj:GetChildren()) do
+	for i, v in ipairs(uiObj:GetChildren()) do
 		if v:IsA("UIText") then
 			SetChildrenText(v, _text)
 		end
-	end]]--
+	end
 end
 
 local defaultReturnButtonY = returnToLoadout.y
@@ -296,73 +288,6 @@ function GetTeamColor(player) -- colors copied from killfeed.
 	end
 end
 
-function AnimateScoreboard()
-	local leaderboardResults = Game.GetPlayers()
-
-	table.sort(
-		leaderboardResults,
-		function(a, b)
-			return a.kills > b.kills
-		end
-	)
-
-	--[[for i, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
-		if Object.IsValid(leaderboardResults[i]) and i <= #leaderboardResults then
-			for _, section in ipairs(entry:GetChildren()) do
-				local stat = nil
-
-				local floatStat = nil
-
-				if section.name == "NAME" then
-					AnimateWordText(section, leaderboardResults[i].name, true)
-
-					section:GetChildren()[1]:SetColor(GetTeamColor(leaderboardResults[i]))
-				elseif section.name == "KILLS" then
-					stat = leaderboardResults[i].kills
-				elseif section.name == "DEATHS" then
-					stat = leaderboardResults[i].deaths
-				elseif section.name == "ASSISTS" then
-					stat = leaderboardResults[i]:GetResource("Assists")
-				elseif section.name == "DAMAGE" then
-					stat = leaderboardResults[i]:GetResource("DamageDone")
-				elseif section.name == "HEADSHOTS" then
-					stat = leaderboardResults[i]:GetResource("Headshots")
-				elseif section.name == "KDR" then
-					local deaths = leaderboardResults[i].deaths
-
-					if deaths < 1 then
-						deaths = 1
-					end
-
-					CountThisFloat(section, leaderboardResults[i].kills / deaths * 1.00, "")
-				elseif section.name == "KILLSTREAK" then
-					stat = leaderboardResults[i]:GetResource("KillStreak")
-				end
-
-				if stat then
-					CountThisTextUp(section, stat, "", false)
-				elseif not section.name == "DIVIDER" then
-					section.text = "0"
-				end
-			end
-
-			entry.visibility = Visibility.INHERIT
-		else
-			for _, section in ipairs(entry:GetChildren()) do
-				if not section.name == "DIVIDER" then
-					section.text = ""
-				end
-			end
-
-			entry.visibility = Visibility.FORCE_OFF
-		end
-
-		EaseUI.EaseY(entry, entry.y + 1000, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
-
-		Task.Wait(0.05)
-	end]]--
-end
-
 function AnimateLevel()
 	roundXP = localPlayerXP:ReturnGainedXP()
 
@@ -372,7 +297,7 @@ function AnimateLevel()
 
 	local currentInLevel = localPlayerXP:GetXPInCurrentLevel()
 
-	SetChildrenText(lvlHex, "Lv" .. tostring(localPlayerXP:CalculateLevel()))
+	SetChildrenText(levelNumberText, tostring(localPlayerXP:CalculateLevel()))
 
 	if oldLvl < localPlayerXP:CalculateLevel() then
 		for i = 1, oldXP, math.ceil(oldXP / 50) do
@@ -516,7 +441,9 @@ end
 function ShowEndRoundResults()
 	UI.SetCanCursorInteractWithUI(true)
 	UI.SetCursorVisible(true)
+	
 	if not hasViewedStats then
+		
 		mainWindow.y = -2000
 
 		local Gold = localPlayer:GetResource("OldGold")
@@ -525,22 +452,17 @@ function ShowEndRoundResults()
 
 		returnToLoadout.y = returnToLoadout.y + 2000
 
-		SetChildrenText(nextTitle, "GAME MODE VOTING STARTS IN")
-
-		--[[for _, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
-			entry.y = entry.y - 1000
-		end]]--
 	end
+	
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
 
 	statsWindow.visibility = Visibility.INHERIT
 
 	if not hasViewedStats then
+	
 		EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
-
-		Task.Wait(0.7)
-
-		AnimateScoreboard()
+		
+		AnimateWordText(playerNameText, localPlayer.name, true)
 
 		Task.Wait(0.5)
 
@@ -588,22 +510,6 @@ function ResetEndRoundResults()
 	winner = false
 end
 
-function SwapToVotingScreen()
-	EaseUI.EaseY(mainWindow, -2000, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
-
-	Task.Wait(0.7)
-
-	statsWindow.visibility = Visibility.FORCE_OFF
-
-	--votingWindow.visibility = Visibility.INHERIT
-
-	SetChildrenText(nextTitle, "NEXT ROUND STARTS IN")
-
-	EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
-
-	EaseUI.EaseY(returnToLoadout, defaultReturnButtonY, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
-end
-
 function RecordCurrentXP()
 	roundXP = localPlayerXP:GetXP()
 
@@ -612,80 +518,23 @@ function RecordCurrentXP()
 	oldXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
 end
 
-function SetRoundInfo()
-	local id = gamemodeNetworked:GetCustomProperty("GAME_TYPE_ID")
-	gameModeName.text = GT_API.GetGameTypeName(id)
-
-	while endRoundManager:GetCustomProperty("MatchTime") == "" do
-		Task.Wait()
-	end
-
-	matchLength.text = endRoundManager:GetCustomProperty("MatchTime")
-end
-
 function OnGameStateChanged(oldState, newState, hasDuration, time)
-	if newState == ABGS.GAME_STATE_ROUND_STATS and oldState ~= ABGS.GAME_STATE_ROUND_STATS then
-		statsState = true
-
-		statsTimer = Task.Spawn(UpdateTimer, 0)
-		statsTimer.repeatCount = -1
-		statsTimer.repeatInterval = 0.1
-
-		ShowEndRoundResults()
-	elseif newState == ABGS.GAME_STATE_ROUND_VOTING and oldState ~= ABGS.GAME_STATE_ROUND_VOTING then
-		statsState = false
-
-		if statsTimer then
-			statsTimer:Cancel()
-			statsTimer = nil
-		end
-
-		SwapToVotingScreen()
-	elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
+	
+	if newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
+	
 		statsState = false
 		hasViewedStats = false
-		if statsTimer then
-			statsTimer:Cancel()
-			statsTimer = nil
-		end
-
 		ResetEndRoundResults()
+		
 	elseif newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
+	
 		statsState = false
-
-		if statsTimer then
-			statsTimer:Cancel()
-			statsTimer = nil
-		end
-
 		RecordCurrentXP()
+		
 	elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
+	
 		statsState = false
-
-		if statsTimer then
-			statsTimer:Cancel()
-			statsTimer = nil
-		end
-
-		SetRoundInfo()
-	end
-end
-
-function UpdateTimeRemaining(remainingTime)
-	if remainingTime then
-		local minutes = math.floor(remainingTime) // 60 % 60
-		local seconds = math.floor(remainingTime) % 60
-
-		SetChildrenText(roundEndTimer, string.format("%02d:%02d", minutes, seconds))
-	end
-end
-
-function UpdateTimer()
-	local currentState = ABGS.GetGameState()
-	local remainingTime = ABGS.GetTimeRemainingInState()
-
-	if currentState == ABGS.GAME_STATE_ROUND_STATS then
-		UpdateTimeRemaining(remainingTime)
+		
 	end
 end
 
@@ -701,11 +550,8 @@ end
 function ToggleStatsScreen()
 	statsState = true
 
-	statsTimer = Task.Spawn(UpdateTimer, 0)
-	statsTimer.repeatCount = -1
-	statsTimer.repeatInterval = 0.1
-
 	ShowEndRoundResults()
+	
 	hasViewedStats = true
 end
 
