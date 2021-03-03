@@ -89,8 +89,6 @@ function OnExecuteAbility(ability)
     if ability.owner ~= LOCAL_PLAYER then
         return
     end
-
-    AIM_ABILITY:AdvancePhase()
     
     THROW_ABILITY:Activate()
     if Object.IsValid(aimLine) then
