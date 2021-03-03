@@ -102,6 +102,8 @@ function OnPlayerLeft(player)
         end
         if #players <= 1 or shouldEnd then
             _G["GameWinner"] = lastTeam
+            Game.SetTeamScore(lastTeam, 5)
+            Task.Wait()
             Events.Broadcast("TeamVictory", lastTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
