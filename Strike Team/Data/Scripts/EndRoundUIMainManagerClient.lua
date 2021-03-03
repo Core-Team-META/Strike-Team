@@ -314,7 +314,7 @@ function GetTeamColor(player) -- colors copied from killfeed.
 	end
 end
 
-function AnimateLevel()
+function AnimatePlayerLevel()
 	roundXP = localPlayerXP:ReturnGainedXP()
 
 	CountThisTextUp(gainedXPText, roundXP, "+")
@@ -367,6 +367,12 @@ function AnimateLevel()
 
 	SetChildrenText(progressBarText, "EXP: " .. tostring(currentInLevel) .. "/" .. tostring(totalLevelXP))
 
+	if skipAnimation then
+				
+		return
+				
+	end
+		
 	local endSFX = World.SpawnAsset(rollTextAnimationCompleteSFX)
 
 	endSFX.lifeSpan = 2
@@ -409,7 +415,7 @@ function RewardText(Win)
 	table.insert(Rows, entry)
 end
 
-function AnimateStats()
+function AnimatePlayerStats()
 	local CashTotal = CalculateCashTotal()
 
 	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
@@ -498,11 +504,11 @@ function ShowEndRoundResults()
 
 	Task.Wait(0.5)
 
-	AnimateLevel()
+	Task.Spawn(AnimatePlayerLevel)
 
 	Task.Wait(0.5)
 
-	AnimateStats()
+	Task.Spawn(AnimatePlayerStats)
 
 	Task.Wait(0.5)
 		
@@ -562,7 +568,9 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 		
 	elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
 	
+		skipAnimation = false
 		statsState = false
+		hasViewedStats = false
 		
 	end
 end
