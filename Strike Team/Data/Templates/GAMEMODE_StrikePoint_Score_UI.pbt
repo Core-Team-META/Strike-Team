@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 13897893943081087324
         ChildIds: 17862374400451381473
         UnregisteredParameters {
           Overrides {
@@ -312,8 +312,8 @@ Assets {
               Id: 19105621552207751
             }
             Color {
-              G: 0.155004919
-              B: 0.192708328
+              G: 0.00418932131
+              B: 0.00520833349
               A: 0.388
             }
             TeamSettings {
@@ -2269,6 +2269,7 @@ Assets {
         ChildIds: 2291572950135970968
         ChildIds: 881682509385036746
         ChildIds: 14219311249988048193
+        ChildIds: 11782463213100892176
         ChildIds: 8898259230637414222
         ChildIds: 16344961719488928600
         ChildIds: 18390562452350069469
@@ -2617,7 +2618,7 @@ Assets {
         Control {
           Width: 90
           Height: 45
-          UIY: 78.6766739
+          UIY: 99.2206116
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2631,7 +2632,71 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 30
+            Size: 18
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11782463213100892176
+        Name: "POINT UNLOCKS"
+        Transform {
+          Location {
+            X: -3730.96313
+            Y: -10155.9463
+            Z: -4902.02832
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5468513689908949620
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 90
+          Height: 45
+          UIY: 87.6842651
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "POINT UNLOCKS IN"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 8
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -9636,6 +9701,12 @@ Assets {
             Name: "cs:WAIT"
             ObjectReference {
               SubObjectId: 14219311249988048193
+            }
+          }
+          Overrides {
+            Name: "cs:POINT_UNLOCKS"
+            ObjectReference {
+              SubObjectId: 11782463213100892176
             }
           }
           Overrides {
