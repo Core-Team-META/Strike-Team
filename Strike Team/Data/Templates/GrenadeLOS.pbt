@@ -336,7 +336,7 @@ Assets {
           }
           Animation: "unarmed_throw"
           KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_32"
+            Value: "mc:egameaction:invalid"
           }
         }
       }
