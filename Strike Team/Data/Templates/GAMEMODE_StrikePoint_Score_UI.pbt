@@ -2676,7 +2676,6 @@ Assets {
             }
           }
           Text {
-            Label: "00"
             Color {
               R: 1
               G: 1
@@ -9266,7 +9265,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 50
@@ -9313,7 +9312,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 40
@@ -9768,7 +9767,7 @@ Assets {
           Overrides {
             Name: "cs:MAIN_FLAG_INDICATOR"
             ObjectReference {
-              SubObjectId: 1349110377780673997
+              SubObjectId: 7222416891580657222
             }
           }
         }
