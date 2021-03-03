@@ -462,6 +462,8 @@ function MarkNemesis()
 				
 				theirNemesisOfEntryText[number][1] = player2.name
 				
+				theirNemesisOfEntryText[number][3] = entry[4]
+				
 			elseif player1.name == nameText.text and theirNemesisOfEntryText[number] then
 			
 				theirNemesisOfEntryText[number][2] = theirNemesisOfEntryText[number][2] + 1
@@ -528,7 +530,35 @@ function MarkNemesis()
 				
 					AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1], true)
 					
-				end 
+				end
+				
+				NemesisOfText.text = "Crushed"
+				
+				if theirNemesisOfEntryText[number][3] >= 15 then
+				
+					NemesisOfText.text = "Humiliated"
+				
+				elseif theirNemesisOfEntryText[number][3] >= 10 then
+				
+					NemesisOfText.text = "Decimated"
+
+				elseif theirNemesisOfEntryText[number][3] >= 7 then
+				
+					NemesisOfText.text = "Pulverized"
+					
+				elseif theirNemesisOfEntryText[number][3] >= 5 then
+				
+					NemesisOfText.text = "Wrecked"
+					
+				elseif theirNemesisOfEntryText[number][3] >= 3 then
+				
+					NemesisOfText.text = "Crushed"
+					
+				end
+				
+			else 
+			
+				NemesisOfText.text = "Crushed"
 				
 			end 
 			
