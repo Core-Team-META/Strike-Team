@@ -209,18 +209,24 @@ Objects {
         SelfId: 14266299812667737172
       }
     }
+    Overrides {
+      Name: "cs:ACHIEVEMENT_NAME_TEXT"
+      ObjectReference {
+        SelfId: 2072037336589811217
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 350
     Height: 75
     UIX: 400
-    UIY: -130
+    UIY: 50
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -231,12 +237,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:topright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:topright"
         }
       }
     }
@@ -244,7 +250,7 @@ Objects {
 }
 Objects {
   Id: 2072037336589811217
-  Name: "MAKRO_TEXT"
+  Name: "ACHIEVEMENT_NAME_TEXT"
   Transform {
     Location {
     }
@@ -274,7 +280,6 @@ Objects {
       }
     }
     Text {
-      Label: "Press \"K\" To View"
       Color {
         R: 1
         G: 0.915231824

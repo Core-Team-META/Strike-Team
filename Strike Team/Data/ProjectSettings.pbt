@@ -30,8 +30,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "WeeklyKDR"
-    Id: "A0E7E480C0D2C4C9"
+    Name: "WeeklyObjectives"
+    Id: "0542E06377020DEA"
     EntryLimit: 25
   }
   Config {
@@ -88,8 +88,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "LifetimeKDR"
-    Id: "B52D00317BC6795E"
+    Name: "LifetimeObjectives"
+    Id: "FA8F043AB76A90AB"
     EntryLimit: 25
   }
 }

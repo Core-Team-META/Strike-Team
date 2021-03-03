@@ -61,6 +61,7 @@ function API.RegisterAchievements(list)
             local rewardAmmount = child:GetCustomProperty("RewardAmount")
             local rewardIcon = child:GetCustomProperty("RewardIcon")
             local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
+            local givesReward = child:GetCustomProperty("GivesReward") or false
 
             local achievement = {
                 id = id,
@@ -72,7 +73,8 @@ function API.RegisterAchievements(list)
                 rewardName = rewardName,
                 rewardAmt = rewardAmmount,
                 rewardIcon = rewardIcon,
-                isRepeatable = isRepeatable
+                isRepeatable = isRepeatable,
+                givesReward = givesReward
             }
             if enabled then
                 sort = sort + 1
