@@ -53,7 +53,7 @@ function AbilityTick(ability, deltaTime)
         --------------------------------------------------------------
         local targetData = AIM_ABILITY:GetTargetData()
 
-        local startPosition = LOCAL_PLAYER:GetWorldPosition() + LOCAL_PLAYER:GetLookWorldRotation() * Vector3.New(50, 50, 100)
+        local startPosition = LOCAL_PLAYER:GetWorldPosition() + LOCAL_PLAYER:GetLookWorldRotation() * Vector3.New(50, 24, 80)
         local hitPosition = AIM_ABILITY:GetTargetData():GetHitPosition()
         local direction = (hitPosition-startPosition):GetNormalized()
 
@@ -70,11 +70,25 @@ function AbilityTick(ability, deltaTime)
         table.insert(points, adjustedStartPosition)
 
         -- note: currently dont account for drag
+       -- for i = 1, nPoints do
+         --   local time = i * 0.05
+        --    local displacement = direction * projectileSpeed * time + Vector3.UP * 0.5 * -980 * gravityScale * time * time
+        --    table.insert(points, position + displacement)
+        --end
+
+        local velocity = projectileSpeed * direction
+
         for i = 1, nPoints do
-            local time = i * 0.05
-            local displacement = direction * projectileSpeed * time + Vector3.UP * 0.5 * -980 * gravityScale * time * time
-            table.insert(points, position + displacement)
+            local t = 0.05
+
+            velocity.z = velocity.z - 980 * gravityScale * t
+            velocity = velocity - (velocity * (projectileDrag) * t)
+            position = position + velocity * t
+
+            table.insert(points, position)
         end
+
+  
 
         for i = 1, nPoints do
 			lines[i]:SetWorldPosition((points[i] + points[i + 1]) / 2.0)
@@ -90,8 +104,6 @@ function OnExecuteAbility(ability)
         return
     end
 
-    AIM_ABILITY:AdvancePhase()
-    
     THROW_ABILITY:Activate()
     if Object.IsValid(aimLine) then
         aimLine.visibility = Visibility.FORCE_OFF
@@ -117,10 +129,17 @@ function OnCastAbility(ability)
     end
 end
 
+function OnInterruptAbility(ability)
+    if Object.IsValid(aimLine) then
+        aimLine.visibility = Visibility.FORCE_OFF
+    end
+end
+
 -- Connect up the ability
 AIM_ABILITY.tickEvent:Connect(AbilityTick)
 AIM_ABILITY.executeEvent:Connect(OnExecuteAbility)
 AIM_ABILITY.castEvent:Connect(OnCastAbility)
+AIM_ABILITY.interruptedEvent:Connect(OnInterruptAbility)
 
 -- On destroy, if an aim line exists, destroy it
 script.destroyEvent:Connect(

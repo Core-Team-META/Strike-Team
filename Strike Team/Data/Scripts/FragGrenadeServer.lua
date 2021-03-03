@@ -93,7 +93,13 @@ function OnThrowExecute(ability)
 	local targetData = ability:GetTargetData()
 	local startPos = script:GetWorldPosition()
 	local direction = targetData:GetAimDirection()
-	
+
+    --local playerPosition = ability.owner:GetWorldPosition()
+   -- local rotation = ability.owner:GetLookWorldRotation()
+
+   -- local projectileLocalPosition = (Transform.New(rotation, playerPosition, Vector3.ONE)):GetInverse():TransformPosition(startPos)
+    --print (projectileLocalPosition)
+
 	local projectile = Projectile.Spawn(PROJECTILE_BODY, startPos, direction)
     
     projectile.owner = WEAPON.owner
