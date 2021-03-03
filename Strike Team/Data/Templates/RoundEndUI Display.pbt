@@ -1476,9 +1476,9 @@ Assets {
           AudioAsset {
             Id: 14651864102775141782
           }
-          Volume: 1
-          Falloff: -1
-          Radius: -1
+          Volume: 1.5
+          Falloff: 5000
+          Radius: 2000
         }
       }
       Objects {
@@ -1506,9 +1506,9 @@ Assets {
           AudioAsset {
             Id: 323291463896855364
           }
-          Volume: 0.402962506
-          Falloff: -1
-          Radius: -1
+          Volume: 1
+          Falloff: 5000
+          Radius: 2000
         }
       }
       Objects {
@@ -1547,9 +1547,9 @@ Assets {
           TeamSettings {
           }
           AudioBP {
-            Volume: 0.6
-            Falloff: 3600
-            Radius: 400
+            Volume: 1.2
+            Falloff: 5000
+            Radius: 2000
             FadeInTime: 0.5
           }
         }
@@ -1582,10 +1582,10 @@ Assets {
           TeamSettings {
           }
           AudioBP {
-            Volume: 0.6
-            Falloff: 3600
-            Radius: 400
-            FadeInTime: 2
+            Volume: 1.2
+            Falloff: 5000
+            Radius: 2000
+            FadeInTime: 1
           }
         }
       }
