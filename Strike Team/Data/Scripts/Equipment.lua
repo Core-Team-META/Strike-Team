@@ -88,6 +88,15 @@ end
 function Equipment:GetName()
     return self.data.name
 end
+
+function Equipment:GetCost()
+    return self.data.cost
+end
+
+function Equipment:GetLevel()
+    return self.data.level
+end
+
 function Equipment:GetRotationOffset()
     return self.data.Rotation_Offset
 end

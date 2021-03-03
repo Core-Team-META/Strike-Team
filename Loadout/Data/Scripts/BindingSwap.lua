@@ -18,7 +18,9 @@ function SwapWeapon()
     Events.Broadcast("EquipWeapon", Ability.owner, Ability.owner.serverUserData.Weapons[BindingToSlot[Slot]])
     Ability.owner:SetResource("WeaponSlot",Slot )
     Task.Wait(Ability.executePhaseSettings.duration-.1)
-    Events.Broadcast("UpdateAbiltity",Slot,Ability.owner )
+    if Object.IsValid(Ability) then
+        Events.Broadcast("UpdateAbiltity",Slot,Ability.owner )
+    end
 end
 local Connections
 

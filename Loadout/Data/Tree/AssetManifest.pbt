@@ -323,6 +323,19 @@ Assets {
   }
 }
 Assets {
+  Id: 9141261384756223387
+  Name: "StrikeCoin3000"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "be73b67c768341c5ba1df5788b0ea0a7"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
   Id: 9117384065423546074
   Name: "Modern Weapon - Sight Rear 02"
   PlatformAssetType: 1
@@ -356,6 +369,19 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_hazard_symbols_001"
+  }
+}
+Assets {
+  Id: 8444988906755860980
+  Name: "StrikeCoin300"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "961ac6713ade4960a6f4639fca25d3a1"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
   }
 }
 Assets {
@@ -414,6 +440,19 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_001"
+  }
+}
+Assets {
+  Id: 7531652432943028459
+  Name: "StrikeCoin750"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "5cdab6cfe83a463b8bfe074d316a7a3c"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
   }
 }
 Assets {

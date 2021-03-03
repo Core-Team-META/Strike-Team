@@ -1,13 +1,4 @@
 Assets {
-  Id: 14005528099389862145
-  Name: "Tech Symbol 2"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Scifi_Icon_047"
-  }
-}
-Assets {
   Id: 12804716500201279526
   Name: "BG Highlighted 001"
   PlatformAssetType: 9
@@ -23,6 +14,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameTri_003Wedge"
+  }
+}
+Assets {
+  Id: 10117964992090160592
+  Name: "Sci-fi Parts 023"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Equip_Parts_023"
   }
 }
 Assets {

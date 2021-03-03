@@ -70,6 +70,8 @@ Assets {
         Control {
           Width: 200
           Height: 200
+          UIX: 13.1574707
+          UIY: 2.19335938
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -354,8 +356,8 @@ Assets {
         ParentId: 17653083209715265370
         ChildIds: 9399518458753258406
         ChildIds: 12416670520798086995
-        ChildIds: 15807093267427917060
         ChildIds: 5428075234713531570
+        ChildIds: 15807093267427917060
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -552,82 +554,21 @@ Assets {
         Control {
           Width: 261
           Height: 60
-          UIY: -127.108368
+          UIY: -109.56192
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "3 Weapon credits"
+            Label: "8,625 Stike tokens"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 30
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15807093267427917060
-        Name: "UI Text Box"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16072838225608755051
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 261
-          Height: 60
-          UIY: -171.678711
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "Save 20%"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 30
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -686,7 +627,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 14005528099389862145
+              Id: 10117964992090160592
             }
             Color {
               R: 1
@@ -712,6 +653,67 @@ Assets {
         }
       }
       Objects {
+        Id: 15807093267427917060
+        Name: "UI Text Box"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16072838225608755051
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 261
+          Height: 60
+          UIY: 13.1598358
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Bonus 15%"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 30
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 3449872191352574247
         Name: "UI Panel"
         Transform {
@@ -727,7 +729,7 @@ Assets {
         }
         ParentId: 17653083209715265370
         ChildIds: 11023113848890273140
-        ChildIds: 8338640325504189428
+        ChildIds: 3412669812708088150
         ChildIds: 2306919116599683727
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -903,7 +905,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8338640325504189428
+        Id: 3412669812708088150
         Name: "UI Text Box"
         Transform {
           Location {
@@ -926,21 +928,21 @@ Assets {
         Control {
           Width: 261
           Height: 60
-          UIY: -127.108368
+          UIY: -109.56192
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "1 Weapon credits"
+            Label: "3000 Stike tokens"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 30
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -999,7 +1001,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 14005528099389862145
+              Id: 10117964992090160592
             }
             Color {
               R: 1
@@ -1040,9 +1042,9 @@ Assets {
         }
         ParentId: 17653083209715265370
         ChildIds: 5714833152326767463
-        ChildIds: 14318087640477987978
-        ChildIds: 3777004054624232469
+        ChildIds: 8599101761450401257
         ChildIds: 16120145592621169522
+        ChildIds: 3777004054624232469
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1216,7 +1218,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14318087640477987978
+        Id: 8599101761450401257
         Name: "UI Text Box"
         Transform {
           Location {
@@ -1239,81 +1241,21 @@ Assets {
         Control {
           Width: 261
           Height: 60
-          UIY: -127.108368
+          UIY: -109.56192
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "15 Weapon credits"
+            Label: "39,000.00 Stike tokens"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 30
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3777004054624232469
-        Name: "UI Text Box"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5460949333151523531
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 261
-          Height: 60
-          UIY: -171.678711
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "Save 40%"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 30
+            Size: 20
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -1372,7 +1314,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 14005528099389862145
+              Id: 10117964992090160592
             }
             Color {
               R: 1
@@ -1397,6 +1339,67 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 3777004054624232469
+        Name: "UI Text Box"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5460949333151523531
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 261
+          Height: 60
+          UIY: 13.1598358
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Bonus 30%"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 30
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 1369908434965470685
@@ -1408,12 +1411,12 @@ Assets {
       }
     }
     Assets {
-      Id: 14005528099389862145
-      Name: "Tech Symbol 2"
+      Id: 10117964992090160592
+      Name: "Sci-fi Parts 023"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Scifi_Icon_047"
+        AssetId: "UI_SciFi_Equip_Parts_023"
       }
     }
     PrimaryAssetId {

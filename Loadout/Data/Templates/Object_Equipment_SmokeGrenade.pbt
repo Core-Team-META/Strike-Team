@@ -16,33 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 5105432222689744961
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 5105432222689744961
-        Name: "Object_Equipment_SmokeGrenade"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 0.2
-          }
-        }
-        ParentId: 15147990695220089137
         ChildIds: 16300365302290798961
         ChildIds: 2003251613962656461
         ChildIds: 14018221207014003273
@@ -54,14 +27,14 @@ Assets {
         ChildIds: 8266570467784657713
         ChildIds: 11523945199006976158
         ChildIds: 12238631401112476288
+        WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        NetworkContext {
         }
       }
       Objects {
@@ -71,14 +44,15 @@ Assets {
           Location {
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 2.47687221
+            X: 0.2
+            Y: 0.2
+            Z: 0.495374441
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -122,8 +96,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -137,17 +109,18 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            Z: -85.1927795
+            X: -17.0385437
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 1.1
-            Y: 1.1
-            Z: 0.3
+            X: 0.220000014
+            Y: 0.220000014
+            Z: 0.0600000024
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -191,8 +164,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -206,17 +177,18 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            Z: 95.3386536
+            X: 19.0677185
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 1.1
-            Y: 1.1
-            Z: 0.3
+            X: 0.220000014
+            Y: 0.220000014
+            Z: 0.0600000024
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -260,8 +232,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -275,17 +245,18 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            Z: 108.174408
+            X: 21.6348877
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 1.1
-            Y: 1.1
-            Z: 0.357346117
+            X: 0.220000014
+            Y: 0.220000014
+            Z: 0.071469225
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -329,8 +300,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -344,18 +313,19 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -56.7003174
-            Z: 51.2177734
+            X: 10.2435608
+            Z: 11.3400879
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 0.109883748
-            Y: 0.282426775
-            Z: 1.37821639
+            X: 0.0219767503
+            Y: 0.0564853549
+            Z: 0.275643289
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -399,8 +369,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -414,19 +382,20 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: 31.9042664
-            Z: 130.656799
+            X: 26.1313477
+            Z: -6.38085938
           }
           Rotation {
-            Roll: 89.9999924
+            Pitch: -90
+            Roll: 89.9999847
           }
           Scale {
-            X: 0.215088278
-            Y: 0.215088278
-            Z: 0.215088278
+            X: 0.0430176556
+            Y: 0.0430176556
+            Z: 0.0430176556
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -462,8 +431,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -477,18 +444,19 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -3.91583252
-            Z: 125.132904
+            X: 25.0265808
+            Z: 0.783203125
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 0.764972448
-            Y: 0.240132228
-            Z: 0.479977041
+            X: 0.152994499
+            Y: 0.0480264463
+            Z: 0.0959954113
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -551,8 +519,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -566,20 +532,21 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -48.921875
-            Z: 129.48703
+            X: 25.8974
+            Z: 9.78442383
           }
           Rotation {
+            Pitch: -1.36603776e-05
             Yaw: 89.9999924
-            Roll: -87.8076
+            Roll: -177.807602
           }
           Scale {
-            X: 0.226457849
-            Y: 0.137738064
-            Z: 0.131403416
+            X: 0.0452915691
+            Y: 0.0275476128
+            Z: 0.0262806844
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -665,8 +632,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -680,20 +645,21 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -50.4713593
-            Z: 142.885437
+            X: 28.5770874
+            Z: 10.0942383
           }
           Rotation {
-            Yaw: 89.9999924
-            Roll: 99.3851318
+            Pitch: -6.83018879e-06
+            Yaw: 89.9999771
+            Roll: 9.38513565
           }
           Scale {
-            X: 0.151294366
-            Y: 0.227795511
-            Z: 0.652832329
+            X: 0.0302588735
+            Y: 0.0455591045
+            Z: 0.130566463
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -733,8 +699,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -748,22 +712,22 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -49.4552307
-            Y: -28.4825439
-            Z: 107.895935
+            X: 21.5791931
+            Y: -5.69650269
+            Z: 9.89111328
           }
           Rotation {
-            Pitch: 14.5793867
-            Yaw: -39.508728
-            Roll: -68.6925049
+            Pitch: -48.3039474
+            Yaw: -67.7637405
+            Roll: 4.33178234
           }
           Scale {
-            X: 0.463153839
-            Y: 0.463153839
-            Z: 0.463153839
+            X: 0.0926307663
+            Y: 0.0926307663
+            Z: 0.0926307663
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -798,8 +762,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -813,20 +775,21 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -45.1262054
-            Y: -0.53894043
-            Z: 126.231598
+            X: 25.2463074
+            Y: -0.107788086
+            Z: 9.02514648
           }
           Rotation {
-            Roll: 89.9999847
+            Pitch: -90
+            Roll: 89.9999771
           }
           Scale {
-            X: 0.0606799386
-            Y: 0.0606799349
-            Z: 0.410259426
+            X: 0.0121359881
+            Y: 0.0121359872
+            Z: 0.0820518881
           }
         }
-        ParentId: 5105432222689744961
+        ParentId: 15147990695220089137
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -861,8 +824,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
