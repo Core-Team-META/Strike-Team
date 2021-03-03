@@ -2292,7 +2292,7 @@ Objects {
     Overrides {
       Name: "cs:CashPanel"
       ObjectReference {
-        SelfId: 5862682645572532550
+        SelfId: 12962776678316610393
       }
     }
     Overrides {

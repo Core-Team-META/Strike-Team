@@ -1,7 +1,7 @@
-Name: "IF_WIN_1"
-RootId: 2368917836482879634
+Name: "IF_WIN_2"
+RootId: 16857761629649667669
 Objects {
-  Id: 7260047524798775498
+  Id: 3174559316184876825
   Name: "LABEL"
   Transform {
     Location {
@@ -14,13 +14,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2368917836482879634
-  ChildIds: 513477514621848631
-  ChildIds: 11327266594248951478
-  ChildIds: 8936817949668613167
-  ChildIds: 12637156693227533934
-  ChildIds: 570447515719700108
-  ChildIds: 4898992471443685303
+  ParentId: 16857761629649667669
+  ChildIds: 16067947076969922129
+  ChildIds: 6322778219940546192
+  ChildIds: 1861150132981702709
+  ChildIds: 2431575301723190567
+  ChildIds: 5704661898641892587
+  ChildIds: 10376590016081216227
+  ChildIds: 12306302755906222209
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -52,15 +53,9 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7260047524798775498
-    SubobjectId: 13720732190473892676
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
-  Id: 4898992471443685303
+  Id: 12306302755906222209
   Name: "AMOUNT"
   Transform {
     Location {
@@ -73,7 +68,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7260047524798775498
+  ParentId: 3174559316184876825
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83,7 +78,6 @@ Objects {
   Control {
     Width: 200
     Height: 40
-    UIY: -1.83548558
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -91,10 +85,11 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "x2"
+      Label: "x1"
       Color {
-        G: 1
-        A: 1
+        R: 0.61
+        G: 0.424172312
+        A: 0.175000012
       }
       Size: 12
       Justification {
@@ -117,15 +112,9 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4898992471443685303
-    SubobjectId: 11048944291246623801
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
-  Id: 570447515719700108
+  Id: 10376590016081216227
   Name: "AMOUNT_SHADOW"
   Transform {
     Location {
@@ -138,7 +127,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7260047524798775498
+  ParentId: 3174559316184876825
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -149,7 +138,7 @@ Objects {
     Width: 200
     Height: 40
     UIX: 2
-    UIY: 1.4960525
+    UIY: 2
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -157,9 +146,9 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "x2"
+      Label: "x1"
       Color {
-        A: 1
+        A: 0.227000013
       }
       Size: 12
       Justification {
@@ -182,15 +171,66 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 570447515719700108
-    SubobjectId: 15943772953990757634
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
+}
+Objects {
+  Id: 5704661898641892587
+  Name: "ICON_BG"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3174559316184876825
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 45
+    Height: 45
+    UIY: -10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 15474432337919237217
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.071
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
   }
 }
 Objects {
-  Id: 12637156693227533934
+  Id: 2431575301723190567
   Name: "SHADOW_R"
   Transform {
     Location {
@@ -203,7 +243,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7260047524798775498
+  ParentId: 3174559316184876825
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -227,8 +267,8 @@ Objects {
       }
       Color {
         R: 0.350000024
-        G: 0.118211932
-        A: 1
+        G: 0.118211888
+        A: 0.251000017
       }
       TeamSettings {
       }
@@ -246,15 +286,9 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12637156693227533934
-    SubobjectId: 8487377609244902880
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
-  Id: 8936817949668613167
+  Id: 1861150132981702709
   Name: "DIVIDER"
   Transform {
     Location {
@@ -267,7 +301,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7260047524798775498
+  ParentId: 3174559316184876825
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -287,8 +321,9 @@ Objects {
         Id: 622433789355555801
       }
       Color {
-        G: 1
-        A: 1
+        R: 0.350000024
+        G: 0.118211888
+        A: 0.251000017
       }
       TeamSettings {
       }
@@ -306,15 +341,9 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8936817949668613167
-    SubobjectId: 12010255137411329953
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
-  Id: 11327266594248951478
+  Id: 6322778219940546192
   Name: "SHADOW_L"
   Transform {
     Location {
@@ -327,7 +356,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7260047524798775498
+  ParentId: 3174559316184876825
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -350,8 +379,9 @@ Objects {
         Id: 3827265796245897469
       }
       Color {
-        G: 1
-        A: 1
+        R: 0.350000024
+        G: 0.118211888
+        A: 0.238
       }
       TeamSettings {
       }
@@ -369,15 +399,9 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11327266594248951478
-    SubobjectId: 5159861879693702456
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
-  Id: 513477514621848631
+  Id: 16067947076969922129
   Name: "BG"
   Transform {
     Location {
@@ -390,7 +414,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7260047524798775498
+  ParentId: 3174559316184876825
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -412,8 +436,9 @@ Objects {
         Id: 622433789355555801
       }
       Color {
-        G: 1
-        A: 0.295000017
+        R: 0.0589404739
+        B: 0.100000024
+        A: 0.104
       }
       TeamSettings {
       }
@@ -431,16 +456,10 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 513477514621848631
-    SubobjectId: 15963350747275132857
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
-  Id: 10913818463127159691
-  Name: "GOLD_BG"
+  Id: 4431938446351429165
+  Name: "GOLD_BG_ACTIVE"
   Transform {
     Location {
     }
@@ -452,7 +471,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2368917836482879634
+  ParentId: 16857761629649667669
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -460,10 +479,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 120
-    Height: 120
-    UIX: 60
-    UIY: 80
+    Width: 50
+    Height: 50
+    UIY: 5.49587774
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -485,20 +503,14 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middlecenter"
+          Value: "mc:euianchor:topcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middlecenter"
+          Value: "mc:euianchor:topcenter"
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10913818463127159691
-    SubobjectId: 5610543851118276613
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
   }
 }
