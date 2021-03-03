@@ -21,6 +21,9 @@ local TEAM_PROGRESS_TEXT = script:GetCustomProperty("TEAM_PROGRESS_TEXT"):WaitFo
 local TEAM_SCORE = script:GetCustomProperty("TEAM_SCORE"):WaitForObject()
 local ENEMY_SCORE = script:GetCustomProperty("ENEMY_SCORE"):WaitForObject()
 
+local WAIT_TEXT = script:GetCustomProperty("WAIT"):WaitForObject()
+
+
 local lastTeamScore, lastEnemyScore
 
 -- User exposed properties --
@@ -33,6 +36,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local TEAM
 -- Check user properties
 
+
 if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     warn("MaxScore must be a positive")
     MAX_SCORE = 100
@@ -43,6 +47,15 @@ local function GetEnemyTeam()
         return 2
     elseif LOCAL_PLAYER.team == 2 then
         return 1
+    end
+end
+
+local function ResetFlagIcons()
+    for _, child in ipairs(ENEMY_SCORE:GetChildren()) do
+        child.visibility = Visibility.FORCE_OFF
+    end
+    for _, child in ipairs(TEAM_SCORE:GetChildren()) do
+        child.visibility = Visibility.FORCE_OFF
     end
 end
 
@@ -67,24 +80,7 @@ local function UpdateTeamFlag(score)
 end
 
 function Int()
-    local teamScore = Game.GetTeamScore(LOCAL_PLAYER.team)
-    for i, child in ipairs(TEAM_SCORE:GetChildren()) do
-        if i <= teamScore then
-            child.visibility = Visibility.FORCE_ON
-        else
-            child.visibility = Visibility.FORCE_OFF
-        end
-    end
-
-    local enemyScore = Game.GetTeamScore(GetEnemyTeam())
-
-    for i, child in ipairs(ENEMY_SCORE:GetChildren()) do
-        if i <= enemyScore then
-            child.visibility = Visibility.FORCE_ON
-        else
-            child.visibility = Visibility.FORCE_OFF
-        end
-    end
+    ResetFlagIcons()
     lastTeamScore, lastEnemyScore = nil, nil
 end
 
@@ -93,6 +89,9 @@ end
 function Tick(deltaTime)
     local enemyTeam, team
 
+    if shouldRefresh then
+        ResetFlagIcons()
+    end
     enemyTeam = GetEnemyTeam()
     team = LOCAL_PLAYER.team
 
