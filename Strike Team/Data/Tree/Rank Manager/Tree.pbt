@@ -54,6 +54,12 @@ Objects {
         SelfId: 5888703191258211335
       }
     }
+    Overrides {
+      Name: "cs:PlayerTitles_Scoreboard"
+      ObjectReference {
+        SelfId: 6136997686353458719
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

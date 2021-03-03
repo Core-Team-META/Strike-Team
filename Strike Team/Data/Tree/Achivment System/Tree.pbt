@@ -2938,7 +2938,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Required"
-      Float: 25
+      Float: 10
     }
     Overrides {
       Name: "cs:ID"
@@ -2946,7 +2946,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:Icon"
@@ -2967,6 +2967,10 @@ Objects {
       AssetReference {
         Id: 16466079658499434425
       }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -3003,7 +3007,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Required"
-      Float: 1
+      Float: 5
     }
     Overrides {
       Name: "cs:ID"
