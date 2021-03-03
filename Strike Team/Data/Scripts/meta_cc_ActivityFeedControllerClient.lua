@@ -314,24 +314,30 @@ function Tick(deltaTime)
 
 				for _, element in ipairs(feedLines) do
 					if (element.name == "KilledText") then
+						if (lines[i].killed ~= "") then
+							local textBox = element:FindDescendantByName("Text Box")
+							textBox.text = lines[i].killed
+							textBox.justification = TextJustify.LEFT
 
-						local textBox = element:FindDescendantByName("Text Box")
-						textBox.text = lines[i].killed
-						textBox.justification = TextJustify.LEFT
+							-- do text shadow
+							for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
+								textShadow.text = lines[i].killed
+								textShadow.justification = TextJustify.LEFT
+							end
 
-						-- do text shadow
-						for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
-							textShadow.text = lines[i].killed
-							textShadow.justification = TextJustify.LEFT
-						end
+							if (lines[i].killedColor ~= color) then
+								textBox:SetColor(lines[i].killedColor)
+							else
+								textBox:SetColor(color)
+							end
+							feedElements["KilledText"] = element
+							feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
 
-						if (lines[i].killedColor ~= color) then
-							textBox:SetColor(lines[i].killedColor)
+							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
 						else
-							textBox:SetColor(color)
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
 						end
-						feedElements["KilledText"] = element
-						feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
+
 					end
 					if (element.name == "WeaponImage") then
 						if (lines[i].weaponUsed ~= "") then

@@ -88,8 +88,10 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
         shouldShow = false
         NOTIFICATION.visibility = Visibility.FORCE_OFF
     end
+    if newState == ABGS.GAME_STATE_ROUND_END then
+        LOCAL_PLAYER.clientUserData.UnlockedAchievements = ACH_API.CheckUnlockedAchievements(LOCAL_PLAYER)
+    end
 end
-
 
 function Tick()
     if shouldShow and #achievementQueue > 0 then

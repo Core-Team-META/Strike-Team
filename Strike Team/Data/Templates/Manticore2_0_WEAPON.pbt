@@ -227,7 +227,6 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -237,7 +236,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -248,14 +246,12 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -347,13 +343,13 @@ Assets {
           Overrides {
             Name: "cs:ExplosionDamageRange"
             Vector2 {
-              X: 40
-              Y: 220
+              X: 20
+              Y: 180
             }
           }
           Overrides {
             Name: "cs:ExplosionRadius"
-            Float: 440
+            Float: 420
           }
           Overrides {
             Name: "cs:ExplosionKnockbackSpeed"

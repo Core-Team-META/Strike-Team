@@ -16,6 +16,7 @@ Objects {
   }
   ParentId: 14036186774430242210
   ChildIds: 9339760895550423389
+  ChildIds: 5022122371631555670
   ChildIds: 1807590594610141698
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -195,7 +196,7 @@ Objects {
 }
 Objects {
   Id: 8161018431931106809
-  Name: "KILLS"
+  Name: "LifetimeKILLS"
   Transform {
     Location {
     }
@@ -210,6 +211,21 @@ Objects {
   ParentId: 14625700635018229880
   ChildIds: 11917378420909924803
   ChildIds: 8156103080972325870
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "KILLS"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "F2A946E773BF7FF1"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -359,7 +375,7 @@ Objects {
 }
 Objects {
   Id: 16534756673854649923
-  Name: "KDR"
+  Name: "LifetimeKDR"
   Transform {
     Location {
     }
@@ -374,6 +390,21 @@ Objects {
   ParentId: 14625700635018229880
   ChildIds: 4416437397582910187
   ChildIds: 4396170930800836356
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "KDR"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "B52D00317BC6795E"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -595,6 +626,15 @@ Objects {
       Name: "cs:ResourceToTrack"
       String: "DamageDone"
     }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "C486A5253D05AB03"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -762,6 +802,15 @@ Objects {
     Overrides {
       Name: "cs:ResourceToTrack"
       String: "KillStreak"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "4D4536DFCEEE0D16"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
     }
   }
   Collidable_v2 {
@@ -931,6 +980,15 @@ Objects {
       Name: "cs:ResourceToTrack"
       String: "KILLS"
     }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "55BBF922E5126916"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1099,6 +1157,15 @@ Objects {
       Name: "cs:ResourceToTrack"
       String: "KDR"
     }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "A0E7E480C0D2C4C9"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1266,6 +1333,15 @@ Objects {
     Overrides {
       Name: "cs:ResourceToTrack"
       String: "Headshots"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "A3E8B34C72EAE159"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
     }
   }
   Collidable_v2 {
@@ -1467,6 +1543,346 @@ Objects {
   }
 }
 Objects {
+  Id: 5022122371631555670
+  Name: "LeaderboardList"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8356063795297036277
+  ChildIds: 5624944219274807550
+  ChildIds: 6797050645391217480
+  ChildIds: 9878525961060559826
+  ChildIds: 1433209535925160565
+  ChildIds: 9240722280857962136
+  ChildIds: 2265442582384896716
+  ChildIds: 14797426944352587653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Type {
+          Value: "mc:enetreferencetype:unknown"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14797426944352587653
+  Name: "LifetimeKDR"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "KDR"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "B52D00317BC6795E"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
+  Id: 2265442582384896716
+  Name: "LifetimeKILLS"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "KILLS"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "F2A946E773BF7FF1"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
+  Id: 9240722280857962136
+  Name: "DamageDone"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "DamageDone"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "C486A5253D05AB03"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
+  Id: 1433209535925160565
+  Name: "Killstreak"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "Killstreak"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "4D4536DFCEEE0D16"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
+  Id: 9878525961060559826
+  Name: "KILLS"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "KILLS"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "55BBF922E5126916"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
+  Id: 6797050645391217480
+  Name: "KDR"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "KDR"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "A0E7E480C0D2C4C9"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
+  Id: 5624944219274807550
+  Name: "Headshots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5022122371631555670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceForEntry"
+      String: "Headshots"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "A3E8B34C72EAE159"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5596060685076278071
+    }
+  }
+}
+Objects {
   Id: 9339760895550423389
   Name: "LeaderboardServer"
   Transform {
@@ -1481,6 +1897,20 @@ Objects {
     }
   }
   ParentId: 8356063795297036277
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderboardList"
+      ObjectReference {
+        SelfId: 5022122371631555670
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1732,19 +2162,19 @@ Objects {
     Overrides {
       Name: "cs:GainedXP"
       ObjectReference {
-        SelfId: 12235163034656558815
+        SelfId: 3493941045262922744
       }
     }
     Overrides {
       Name: "cs:ProgressBarText"
       ObjectReference {
-        SelfId: 11232152349219748277
+        SelfId: 166738910908744850
       }
     }
     Overrides {
       Name: "cs:ProgressBar"
       ObjectReference {
-        SelfId: 14163472067013336888
+        SelfId: 6718875757919281695
       }
     }
     Overrides {
@@ -1755,7 +2185,7 @@ Objects {
     Overrides {
       Name: "cs:CashTotal"
       ObjectReference {
-        SelfId: 714116611534165096
+        SelfId: 10401611362912397647
       }
     }
     Overrides {
@@ -1772,31 +2202,31 @@ Objects {
     Overrides {
       Name: "cs:GameModeName"
       ObjectReference {
-        SelfId: 13732253495214175751
+        SelfId: 2819883279512439584
       }
     }
     Overrides {
       Name: "cs:MatchLength"
       ObjectReference {
-        SelfId: 2420207814350621380
+        SelfId: 13269487990687807459
       }
     }
     Overrides {
       Name: "cs:LvlHex"
       ObjectReference {
-        SelfId: 7001431541401133520
+        SelfId: 841534158063459245
       }
     }
     Overrides {
       Name: "cs:StatsWindow"
       ObjectReference {
-        SelfId: 3984942649001871118
+        SelfId: 12563168098802761108
       }
     }
     Overrides {
       Name: "cs:VotingWindow"
       ObjectReference {
-        SelfId: 7776611986258655277
+        SelfId: 841534158063459245
       }
     }
     Overrides {
@@ -1808,73 +2238,73 @@ Objects {
     Overrides {
       Name: "cs:ScoreboardSectionEntries"
       ObjectReference {
-        SelfId: 13500240265108461893
+        SelfId: 841534158063459245
       }
     }
     Overrides {
       Name: "cs:NextTitle"
       ObjectReference {
-        SelfId: 15695857878160596598
+        SelfId: 4639302171139711825
       }
     }
     Overrides {
       Name: "cs:RoundEndTimer"
       ObjectReference {
-        SelfId: 3621255126095962672
+        SelfId: 12389885755441241879
       }
     }
     Overrides {
       Name: "cs:EntireRoundEndUI"
       ObjectReference {
-        SelfId: 10507144481334532052
+        SelfId: 603516531180759795
       }
     }
     Overrides {
       Name: "cs:ReturnToLoadout"
       ObjectReference {
-        SelfId: 3119672990277470645
+        SelfId: 12897096729108870290
       }
     }
     Overrides {
       Name: "cs:MainWindow"
       ObjectReference {
-        SelfId: 17483507795814813175
+        SelfId: 7714976909178499280
       }
     }
     Overrides {
       Name: "cs:BackToLoadoutButton"
       ObjectReference {
-        SelfId: 12090215191186638440
+        SelfId: 4501890445202848591
       }
     }
     Overrides {
       Name: "cs:GoldPercentBar"
       ObjectReference {
-        SelfId: 16241322896229351781
+        SelfId: 8706647980475104322
       }
     }
     Overrides {
       Name: "cs:GoldAmount"
       ObjectReference {
-        SelfId: 6945776434090773254
+        SelfId: 18002196091721676321
       }
     }
     Overrides {
       Name: "cs:CashPanel"
       ObjectReference {
-        SelfId: 14986002722833229258
+        SelfId: 5862682645572532550
       }
     }
     Overrides {
       Name: "cs:BIG_GOLD"
       ObjectReference {
-        SelfId: 7536294302991508861
+        SelfId: 4017053939767006924
       }
     }
     Overrides {
       Name: "cs:SMALL_GOLD"
       ObjectReference {
-        SelfId: 5133510970861765984
+        SelfId: 15716700674947279145
       }
     }
     Overrides {

@@ -36,7 +36,7 @@ local matchLength = script:GetCustomProperty("MatchLength"):WaitForObject()
 local lvlHex = script:GetCustomProperty("LvlHex"):WaitForObject()
 
 local statsWindow = script:GetCustomProperty("StatsWindow"):WaitForObject()
-local votingWindow = script:GetCustomProperty("VotingWindow"):WaitForObject()
+--local votingWindow = script:GetCustomProperty("VotingWindow"):WaitForObject()
 
 local leaderboardEntries = script:GetCustomProperty("LeaderboardEntries"):WaitForObject()
 local scoreboardSectionEntries = script:GetCustomProperty("ScoreboardSectionEntries"):WaitForObject()
@@ -121,11 +121,11 @@ function SetChildrenText(uiObj, _text) -- <-- generic children text function by 
 		uiObj.text = _text
 	end
 
-	for i, v in ipairs(uiObj:GetChildren()) do
+	--[[for i, v in ipairs(uiObj:GetChildren()) do
 		if v:IsA("UIText") then
 			SetChildrenText(v, _text)
 		end
-	end
+	end]]--
 end
 
 local defaultReturnButtonY = returnToLoadout.y
@@ -306,7 +306,7 @@ function AnimateScoreboard()
 		end
 	)
 
-	for i, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
+	--[[for i, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
 		if Object.IsValid(leaderboardResults[i]) and i <= #leaderboardResults then
 			for _, section in ipairs(entry:GetChildren()) do
 				local stat = nil
@@ -360,7 +360,7 @@ function AnimateScoreboard()
 		EaseUI.EaseY(entry, entry.y + 1000, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
 
 		Task.Wait(0.05)
-	end
+	end]]--
 end
 
 function AnimateLevel()
@@ -527,9 +527,9 @@ function ShowEndRoundResults()
 
 		SetChildrenText(nextTitle, "GAME MODE VOTING STARTS IN")
 
-		for _, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
+		--[[for _, entry in ipairs(scoreboardSectionEntries:GetChildren()) do
 			entry.y = entry.y - 1000
-		end
+		end]]--
 	end
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
 
@@ -558,15 +558,15 @@ end
 
 function ResetEndRoundResults()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
-	votingWindow.visibility = Visibility.FORCE_OFF
+	--votingWindow.visibility = Visibility.FORCE_OFF
 
 	cashTotalText.text = ""
 
-	for _, v in pairs(Rows) do
+	--[[for _, v in pairs(Rows) do
 		if Object.IsValid(v) then
 			v:Destroy()
 		end
-	end
+	end]]--
 
 	Rows = {}
 
@@ -577,13 +577,13 @@ function ResetEndRoundResults()
 	BIG_GOLD.y = -200
 	SMALL_GOLD.y = -50
 
-	for _, entry in pairs(scoreboardSectionEntries:GetChildren()) do
+	--[[for _, entry in pairs(scoreboardSectionEntries:GetChildren()) do
 		for _, section in pairs(entry:GetChildren()) do
 			if section:IsA("UIText") then
 				section.text = ""
 			end
 		end
-	end
+	end]]--
 
 	winner = false
 end
@@ -595,7 +595,7 @@ function SwapToVotingScreen()
 
 	statsWindow.visibility = Visibility.FORCE_OFF
 
-	votingWindow.visibility = Visibility.INHERIT
+	--votingWindow.visibility = Visibility.INHERIT
 
 	SetChildrenText(nextTitle, "NEXT ROUND STARTS IN")
 

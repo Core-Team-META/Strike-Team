@@ -5,8 +5,10 @@
 -- Version 0.0.2
 ------------------------------------------------------------------------------------------------------------------------
 local ROOT = script:GetCustomProperty("AchievementSystem"):WaitForObject()
+local UI_ROOT = script:GetCustomProperty("UI"):WaitForObject()
+local uiIsEnabled = UI_ROOT:GetCustomProperty("Enabled")
 local isEnabled = ROOT:GetCustomProperty("Enabled")
-if not isEnabled then
+if not isEnabled or not uiIsEnabled then
     return
 end
 ------------------------------------------------------------------------------------------------------------------------

@@ -363,7 +363,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.45
+            Duration: 0.35
             CanMove: true
             CanJump: true
             CanRotate: true

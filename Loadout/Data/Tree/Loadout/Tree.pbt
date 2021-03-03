@@ -1196,7 +1196,6 @@ Objects {
   ChildIds: 16564750678633576762
   ChildIds: 18131314453509860071
   ChildIds: 17209077381806335211
-  ChildIds: 4151035555845453463
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1230,182 +1229,6 @@ Objects {
     InstanceId: 1379315390660862341
     TemplateId: 8560337618291391252
     WasRoot: true
-  }
-}
-Objects {
-  Id: 4151035555845453463
-  Name: "UI Button"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: -1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14933729121853623480
-  ChildIds: 11039676926645307312
-  ChildIds: 9007656454956126944
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  Control {
-    Width: 234
-    Height: 45
-    UIX: 510
-    UIY: -27
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Button {
-      FontColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      FontSize: 20
-      ButtonColor {
-        R: 0.8796224
-        G: 0.291770637
-        B: 0.0152085144
-        A: 1
-      }
-      HoveredColor {
-        R: 0.052
-        G: 0.052
-        B: 0.052
-        A: 1
-      }
-      PressedColor {
-        A: 1
-      }
-      DisabledColor {
-        A: 1
-      }
-      Brush {
-        Id: 841534158063459245
-      }
-      IsButtonEnabled: true
-      ClickMode {
-        Value: "mc:ebuttonclickmode:default"
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9007656454956126944
-  Name: "PerkButton"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4151035555845453463
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ButtonSFX"
-      AssetReference {
-        Id: 12158755182003592593
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5653279162251628414
-    }
-  }
-}
-Objects {
-  Id: 11039676926645307312
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4151035555845453463
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    Height: 60
-    UIY: 7.83500099
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    UseParentHeight: true
-    Text {
-      Label: "Purchase credits"
-      Color {
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 1144950805409236433
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
   }
 }
 Objects {
@@ -1617,8 +1440,8 @@ Objects {
   Control {
     Width: 42
     Height: 58
-    UIX: 513.434
-    UIY: -71.6811523
+    UIX: 19.9270935
+    UIY: -0.698486328
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2110,8 +1933,8 @@ Objects {
   Control {
     Width: 38
     Height: 54
-    UIX: 513.434
-    UIY: -124.158875
+    UIX: 19.9270935
+    UIY: -53.1762085
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3015,7 +2838,7 @@ Objects {
   Control {
     Width: 449
     Height: 60
-    UIY: 10.8607178
+    UIY: 1.8894043
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3035,7 +2858,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 1144950805409236433
+        Id: 1364597305327011649
       }
     }
     AnchorLayout {
@@ -5662,6 +5485,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -5673,7 +5502,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 40
+          Int: 9999
+        }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: false
         }
       }
     }
@@ -5746,6 +5579,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -5757,7 +5596,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 35
+          Int: 9999
+        }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: false
         }
       }
     }
@@ -5830,6 +5673,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -5837,11 +5686,15 @@ Objects {
       value {
         Overrides {
           Name: "cs:LevelLock"
-          Int: 25
+          Int: 9999
         }
         Overrides {
           Name: "cs:Slot"
           Int: 6
+        }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: false
         }
       }
     }
@@ -5914,6 +5767,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -5925,7 +5784,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 15
+          Int: 9999
+        }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: false
         }
       }
     }
@@ -5998,6 +5861,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -6009,7 +5878,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 10
+          Int: 9999
+        }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: false
         }
       }
     }
@@ -6093,7 +5966,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 5
+          Int: 0
         }
       }
     }
@@ -6602,12 +6475,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:topleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:topleft"
         }
       }
     }

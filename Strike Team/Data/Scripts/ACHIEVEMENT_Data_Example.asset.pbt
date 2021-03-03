@@ -9,6 +9,10 @@ Assets {
         Bool: false
       }
       Overrides {
+        Name: "cs:IsRepeatable"
+        Bool: false
+      }
+      Overrides {
         Name: "cs:ID"
         String: ""
       }

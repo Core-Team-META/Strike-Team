@@ -199,7 +199,7 @@ Objects {
     Overrides {
       Name: "cs:SECOND_INSTANCE"
       ObjectReference {
-        SelfId: 7776611986258655277
+        SelfId: 841534158063459245
       }
     }
   }

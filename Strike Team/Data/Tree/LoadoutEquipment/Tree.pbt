@@ -1285,6 +1285,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
+    UIX: -25
+    UIY: 25
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1306,7 +1308,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
@@ -1454,6 +1456,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
+    UIX: 25
+    UIY: 25
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1475,7 +1479,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
@@ -5764,13 +5768,17 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 40
+      Int: 10
     }
     Overrides {
       Name: "cs:BackgroundImage"
       ObjectReference {
         SelfId: 12245894165311176590
       }
+    }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -6697,13 +6705,17 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 35
+      Int: 10
     }
     Overrides {
       Name: "cs:BackgroundImage"
       ObjectReference {
         SelfId: 7307107416816501001
       }
+    }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -7630,13 +7642,17 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 25
+      Int: 10
     }
     Overrides {
       Name: "cs:BackgroundImage"
       ObjectReference {
         SelfId: 9794470450764919512
       }
+    }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -8563,13 +8579,17 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 15
+      Int: 10
     }
     Overrides {
       Name: "cs:BackgroundImage"
       ObjectReference {
         SelfId: 11427963306024989434
       }
+    }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -9504,6 +9524,10 @@ Objects {
         SelfId: 16675982040552373359
       }
     }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: false
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -10429,7 +10453,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 5
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
@@ -13564,6 +13588,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
+    UIX: -25
+    UIY: 25
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -13585,7 +13611,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
@@ -13733,6 +13759,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
+    UIX: 25
+    UIY: 25
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -13754,7 +13782,7 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {

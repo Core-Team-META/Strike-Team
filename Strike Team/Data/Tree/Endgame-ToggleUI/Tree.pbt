@@ -222,6 +222,7 @@ Objects {
     }
   }
   ParentId: 6878002422187724093
+  ChildIds: 16864292365200651604
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -239,7 +240,6 @@ Objects {
       }
     }
     Button {
-      Label: "SCOREBOARD"
       FontColor {
         R: 1
         G: 1
@@ -253,9 +253,8 @@ Objects {
         A: 1
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.840000033
+        G: 0.350463599
         A: 1
       }
       PressedColor {
@@ -276,6 +275,67 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16864292365200651604
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4015237293213236786
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIY: 4.81462288
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "SCORE BOARD"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -307,6 +367,7 @@ Objects {
     }
   }
   ParentId: 6878002422187724093
+  ChildIds: 13302700167859541239
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -324,7 +385,6 @@ Objects {
       }
     }
     Button {
-      Label: "STATS SCREEN"
       FontColor {
         R: 1
         G: 1
@@ -338,9 +398,8 @@ Objects {
         A: 1
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.840000033
+        G: 0.350463599
         A: 1
       }
       PressedColor {
@@ -378,6 +437,67 @@ Objects {
   }
 }
 Objects {
+  Id: 13302700167859541239
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4892915096961696395
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIY: 4.81462288
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "STATS & REWARDS"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 2114383744997798632
   Name: "VICTORY_SCREEN_BUTTON"
   Transform {
@@ -392,6 +512,7 @@ Objects {
     }
   }
   ParentId: 6878002422187724093
+  ChildIds: 5552158894685303261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -409,7 +530,6 @@ Objects {
       }
     }
     Button {
-      Label: "Victory Screen"
       FontColor {
         R: 1
         G: 1
@@ -423,9 +543,8 @@ Objects {
         A: 1
       }
       HoveredColor {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.840000033
+        G: 0.350463599
         A: 1
       }
       PressedColor {
@@ -446,6 +565,67 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5552158894685303261
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2114383744997798632
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIY: 4.81462336
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "VICTORY SCREEN"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -561,6 +741,12 @@ Objects {
       Name: "cs:SCOREBOARD_BUTTON"
       ObjectReference {
         SelfId: 4015237293213236786
+      }
+    }
+    Overrides {
+      Name: "cs:RoundEndUIDisplay"
+      AssetReference {
+        Id: 15837158783339302967
       }
     }
   }
