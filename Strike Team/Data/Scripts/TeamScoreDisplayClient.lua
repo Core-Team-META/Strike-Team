@@ -26,6 +26,7 @@ local TEAM_PROGRESS_TEXT = script:GetCustomProperty("TEAM_PROGRESS_TEXT"):WaitFo
 local TEAM_SCORE = script:GetCustomProperty("TEAM_SCORE"):WaitForObject()
 local ENEMY_SCORE = script:GetCustomProperty("ENEMY_SCORE"):WaitForObject()
 local WAIT_TEXT = script:GetCustomProperty("WAIT"):WaitForObject()
+local POINT_UNLOCKS_TEXT = script:GetCustomProperty("POINT_UNLOCKS"):WaitForObject()
 
 local MAIN_FLAG_INDICATOR = script:GetCustomProperty("MAIN_FLAG_INDICATOR"):WaitForObject()
 local SPAWNED_OBJECTS = script:GetCustomProperty("Spawned_Objects"):WaitForObject()
@@ -78,12 +79,14 @@ local function UpdateTimer()
         end
         local seconds = (currentTime % 3600) % 60
         WAIT_TEXT.text = tostring(CoreMath.Round(seconds))
+        POINT_UNLOCKS_TEXT.text = "POINT UNLOCKS IN"
         lastTimer = currentTime
     else
         if MAIN_FLAG_INDICATOR.visibility == Visibility.FORCE_OFF then
             MAIN_FLAG_INDICATOR.visibility = Visibility.FORCE_ON
         end
         WAIT_TEXT.text = ""
+        POINT_UNLOCKS_TEXT.text = ""
     end
 end
 

@@ -1328,7 +1328,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "d4d409c8607d4e2b8e4c17076c8c7d85"
+        Key: "a82c9c593b0d474b9a538e0bd95e4680"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1337,7 +1337,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "bf84fda037134f048c79d75bb4159446"
+        Key: "62e90670ac2549c49ed0b7ae7931fb4d"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1346,7 +1346,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "ff9beee5f7804fd3a4b80ef51c9ba038"
+        Key: "5a3ea05146bd4a758c1408c294d05c38"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1355,7 +1355,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "58875f5ce4944e78af8e3709e839eff4"
+        Key: "3b7b3b964255409887f17adcf3c9b7eb"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
