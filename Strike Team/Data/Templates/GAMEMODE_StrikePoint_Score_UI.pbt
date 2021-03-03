@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13897893943081087324
+        ParentId: 4781671109827199097
         ChildIds: 17862374400451381473
         UnregisteredParameters {
           Overrides {
@@ -46,6 +46,12 @@ Assets {
             Name: "cs:IDLE"
             ObjectReference {
               SubObjectId: 7222416891580657222
+            }
+          }
+          Overrides {
+            Name: "cs:Spawned_Objects"
+            ObjectReference {
+              SelfId: 13963835752669516336
             }
           }
         }
@@ -2606,26 +2612,26 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
           Width: 90
-          Height: 20
-          UIY: 62.5487
+          Height: 45
+          UIY: 78.6766739
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "WAITING 9"
+            Label: "20"
             Color {
-              R: 0.198000014
-              G: 0.198000014
-              B: 0.198000014
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
-            Size: 11
+            Size: 30
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -9145,7 +9151,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
           Width: 50
@@ -9630,6 +9636,18 @@ Assets {
             Name: "cs:WAIT"
             ObjectReference {
               SubObjectId: 14219311249988048193
+            }
+          }
+          Overrides {
+            Name: "cs:Spawned_Objects"
+            ObjectReference {
+              SelfId: 13963835752669516336
+            }
+          }
+          Overrides {
+            Name: "cs:MAIN_FLAG_INDICATOR"
+            ObjectReference {
+              SubObjectId: 1349110377780673997
             }
           }
         }
