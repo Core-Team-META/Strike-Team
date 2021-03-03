@@ -105,26 +105,28 @@ local function UpdatePanelForPlayer(panel, player)
 		return
 	end
 
-	local deathsValueLabel, killsValueLabel, resourceValueLabel, resourcePanel =
-		-- local nameTextLabe = panel:GetCustomProperty("NameText"):WaitForObject(),
+	local nameTextLabel, deathsValueLabel, killsValueLabel, resourceValueLabel, resourcePanel = 
+		panel:GetCustomProperty("NameText"):WaitForObject(),
 		panel:GetCustomProperty("DeathsValue"):WaitForObject(),
 		panel:GetCustomProperty("KillsValue"):WaitForObject(),
 		panel:GetCustomProperty("ResourceValue"):WaitForObject(),
 		panel:GetCustomProperty("ResourcePanel"):WaitForObject()
 
+	--[[
 	local killButton = panel:GetCustomProperty("Kill"):WaitForObject()
 	local confettiButton = panel:GetCustomProperty("Confetti"):WaitForObject()
 	local chickenButton = panel:GetCustomProperty("Chicken"):WaitForObject()
-
+	
 	killButton.clientUserData.attachedPlayer = player
 	confettiButton.clientUserData.attachedPlayer = player
 	chickenButton.clientUserData.attachedPlayer = player
-
+	
 	listeners[#listeners + 1] = killButton.clickedEvent:Connect(OnButtonPressed)
 	listeners[#listeners + 1] = confettiButton.clickedEvent:Connect(OnButtonPressed)
 	listeners[#listeners + 1] = chickenButton.clickedEvent:Connect(OnButtonPressed)
-
-	--nameTextLabel.text = player.name
+	]]
+	
+	nameTextLabel.text = player.name
 	killsValueLabel.text = tostring(player.kills)
 	deathsValueLabel.text = tostring(player.deaths)
 
@@ -132,6 +134,7 @@ local function UpdatePanelForPlayer(panel, player)
 		resourceValueLabel.text = tostring(player:GetResource(WINNER_SORT_RESOURCE))
 		resourcePanel.visibility = Visibility.FORCE_ON
 	end
+
 
 	panel.visibility = Visibility.FORCE_ON
 end
@@ -168,7 +171,7 @@ local function SendToVictoryScreen() -- topThreePlayerStats
 	if not UpdateUITask then
 		UpdateUITask = Task.Spawn(UpdateUI)
 		UpdateUITask.repeatCount = -1
-		UpdateUITask.repeatInterval = 0
+		UpdateUITask.repeatInterval = 0.1
 	end
 
 	Task.Wait(.1)
@@ -190,8 +193,8 @@ local function RestoreFromPodium()
 	for _, panel in pairs(PlayerPanels) do
 		panel.visibility = Visibility.FORCE_OFF
 
-		--local nameTextLabel = panel:GetCustomProperty("NameText"):WaitForObject()
-		--nameTextLabel.text = ""
+		local nameTextLabel = panel:GetCustomProperty("NameText"):WaitForObject()
+		nameTextLabel.text = ""
 
 		local resourcePanel = panel:GetCustomProperty("ResourcePanel"):WaitForObject()
 		resourcePanel.visibility = Visibility.FORCE_OFF

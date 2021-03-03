@@ -40,6 +40,8 @@ local markerList = {}
 local passComplete = false
 local passToTask = {}
 
+local skipAnimation = false
+
 local letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}
 
 function GetPlayer(playerId)
@@ -260,8 +262,19 @@ function AnimateYourNemesis()
 			
 			Task.Wait(0.07)	
 			
-		end
+			if skipAnimation then
 			
+				break
+				
+			end
+			
+		end
+		
+		if skipAnimation then
+			
+			break
+				
+		end	
 		
 		displayText = displayText .. targetLetter 
 		
@@ -308,7 +321,19 @@ function AnimateYouAsNemesis()
 			
 			Task.Wait(0.05)	
 			
+			if skipAnimation then
+			
+				break
+				
+			end
+			
 		end
+		
+		if skipAnimation then
+			
+			break
+				
+		end	
 			
 		
 		displayText = displayText .. targetLetter 
@@ -489,7 +514,7 @@ function MarkNemesis()
 			
 			nemesisOfLabelText.visibility = Visibility.FORCE_OFF	
 			
-			EaseUI.EaseY(marker, -80, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
+			EaseUI.EaseY(marker, -94, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
 			
 			if theirNemesisOfEntryText[number] then
 			
@@ -559,18 +584,24 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 
 	if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
 	
+		skipAnimation = false
+	
 		Task.Wait(1)
 	
 		CalculateNemesis()
 		
+		local firstPanel = victoryScreenContainer:GetChildren()[1]
+		
+		local nameText = firstPanel:GetCustomProperty("NameText"):WaitForObject()
+		
+		while nameText.text == "" do
+		
+			Task.Wait(1)
+			
+		end			
+		
 		MarkNemesis()
-	
-    elseif newState == ABGS.GAME_STATE_ROUND_STATS  and oldState ~= ABGS.GAME_STATE_ROUND_STATS then
-    
-    	Task.Wait(1)
-        
-        ShowNemesis()
-        
+	        
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
 
         NemesisOfText.text = ""
@@ -584,6 +615,12 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     end
 end
 
+function OnSkipAnimation()
+
+	skipAnimation = true
+	
+end
+
 function InitializeVictoryScreenMarkers()
 
 	for _, entry in pairs(victoryScreenContainer:GetChildren()) do
@@ -593,19 +630,19 @@ function InitializeVictoryScreenMarkers()
 		marker.visibility = Visibility.FORCE_OFF
 		
 		marker.x = 0
-		marker.y = 0
+		marker.y = -94
 		
 		table.insert(markerList, marker)
 	
 	end
+	
+	NemesisOfText.text = ""
+	NemesisOfKillsText.text = "0"
+	       	
+	YourNemesisText.text = ""
+	YourNemesisKillsText.text = "0"
 
 end
-
-NemesisOfText.text = ""
-NemesisOfKillsText.text = "0"
-       	
-YourNemesisText.text = ""
-YourNemesisKillsText.text = "0"
 
 InitializeVictoryScreenMarkers()
 
@@ -614,3 +651,5 @@ Events.Connect(PlayerKilledEvent, TrackKill)
 Game.playerLeftEvent:Connect(RemoveFromTable)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
+Events.Connect("ShowNemesis", ShowNemesis)
+Events.Connect("SkipAnimation", OnSkipAnimation)
