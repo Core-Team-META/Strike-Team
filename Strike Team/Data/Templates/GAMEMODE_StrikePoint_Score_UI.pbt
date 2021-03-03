@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 13897893943081087324
         ChildIds: 17862374400451381473
         UnregisteredParameters {
           Overrides {
@@ -247,10 +247,10 @@ Assets {
               Id: 19105621552207751
             }
             Color {
-              R: 0.0109600965
-              G: 0.141263306
+              R: 0.0109601011
+              G: 0.141263276
               B: 0.174647421
-              A: 1
+              A: 0.661
             }
             TeamSettings {
             }
@@ -306,10 +306,9 @@ Assets {
               Id: 19105621552207751
             }
             Color {
-              R: 0.0027317428
-              G: 0.0027317428
-              B: 0.0027317428
-              A: 1
+              G: 0.155004919
+              B: 0.192708328
+              A: 0.388
             }
             TeamSettings {
             }
@@ -794,7 +793,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 193
+          Width: 6
           Height: -2
           RenderTransformPivot {
             Anchor {
@@ -802,6 +801,7 @@ Assets {
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
           Image {
             Brush {
@@ -854,15 +854,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
           Height: -2
-          UIX: 3
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
           Image {
             Brush {
@@ -915,15 +914,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
           Height: -2
-          UIX: -3
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
           Image {
             Brush {
@@ -978,7 +976,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -4
           RotationAngle: 180
           RenderTransformPivot {
             Anchor {
@@ -1101,7 +1098,6 @@ Assets {
         Control {
           Width: 1
           Height: -2
-          UIX: -3
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1161,7 +1157,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -6
+          Width: -7
           Height: 1
           UIY: 1
           RenderTransformPivot {
@@ -1412,7 +1408,7 @@ Assets {
         Control {
           Width: 163
           Height: 191
-          UIX: 10
+          UIX: 9.95487309
           UIY: -16
           RotationAngle: 45
           RenderTransformPivot {
@@ -1523,7 +1519,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 193
           Height: -2
           RenderTransformPivot {
             Anchor {
@@ -1531,6 +1526,7 @@ Assets {
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
           Image {
             Brush {
@@ -1583,7 +1579,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
           Height: -2
           UIX: 3
           RenderTransformPivot {
@@ -1592,6 +1587,7 @@ Assets {
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
           Image {
             Brush {
@@ -1644,7 +1640,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 20
           Height: -2
           UIX: -3
           RenderTransformPivot {
@@ -1653,6 +1648,7 @@ Assets {
             }
           }
           AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
           UseParentHeight: true
           Image {
             Brush {
@@ -1766,7 +1762,7 @@ Assets {
         }
         Control {
           Width: -4
-          Height: 10
+          Height: -9
           UIY: 1
           RenderTransformPivot {
             Anchor {
@@ -1775,6 +1771,7 @@ Assets {
           }
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
+          UseParentHeight: true
           Image {
             Brush {
               Id: 1814707273787853473
@@ -1828,7 +1825,6 @@ Assets {
         Control {
           Width: 1
           Height: -2
-          UIX: 3
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1887,7 +1883,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -6
           Height: 1
           UIY: -1
           RenderTransformPivot {
@@ -1948,7 +1943,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -6
           Height: 1
           UIY: 1
           RenderTransformPivot {
@@ -2266,9 +2260,7 @@ Assets {
           }
         }
         ParentId: 5185541179191159358
-        ChildIds: 1327422177825825446
-        ChildIds: 14615783693996728
-        ChildIds: 14811319300568014195
+        ChildIds: 2291572950135970968
         ChildIds: 881682509385036746
         ChildIds: 14219311249988048193
         ChildIds: 8898259230637414222
@@ -2306,6 +2298,58 @@ Assets {
         }
       }
       Objects {
+        Id: 2291572950135970968
+        Name: "Flag BG Panel"
+        Transform {
+          Location {
+            X: -3730.96313
+            Y: -10155.9463
+            Z: -4902.02832
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5468513689908949620
+        ChildIds: 1327422177825825446
+        ChildIds: 14615783693996728
+        ChildIds: 14811319300568014195
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 1327422177825825446
         Name: "BG"
         Transform {
@@ -2319,7 +2363,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5468513689908949620
+        ParentId: 2291572950135970968
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2327,8 +2371,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Height: -84
-          UIY: 86.6004715
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2378,7 +2420,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5468513689908949620
+        ParentId: 2291572950135970968
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2387,8 +2429,7 @@ Assets {
         }
         Control {
           Width: -2
-          Height: -84
-          UIY: 85.1276703
+          Height: -2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2438,7 +2479,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5468513689908949620
+        ParentId: 2291572950135970968
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2448,7 +2489,7 @@ Assets {
         Control {
           Width: -2
           Height: -84
-          UIY: 54.376133
+          UIY: 27.20648
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2459,12 +2500,12 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 19105621552207751
+              Id: 841534158063459245
             }
             Color {
-              R: 0.003
-              G: 0.003
-              B: 0.003
+              R: 0.00294166803
+              G: 0.0379147567
+              B: 0.046875
               A: 1
             }
             TeamSettings {
@@ -6664,6 +6705,8 @@ Assets {
         }
         ParentId: 15200895874786406018
         ChildIds: 5604841466697954351
+        ChildIds: 15822145742174858282
+        ChildIds: 1042464066341684756
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6753,6 +6796,126 @@ Assets {
         }
       }
       Objects {
+        Id: 15822145742174858282
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2890342105704842151
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 0.419999957
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1042464066341684756
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2890342105704842151
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 14052463553422091611
         Name: "2"
         Transform {
@@ -6769,6 +6932,8 @@ Assets {
         }
         ParentId: 15200895874786406018
         ChildIds: 12187590359548875706
+        ChildIds: 1108592695943590730
+        ChildIds: 14166504160614077930
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6858,6 +7023,126 @@ Assets {
         }
       }
       Objects {
+        Id: 1108592695943590730
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14052463553422091611
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 0.419999957
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14166504160614077930
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14052463553422091611
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 18259715565636381294
         Name: "3"
         Transform {
@@ -6874,6 +7159,8 @@ Assets {
         }
         ParentId: 15200895874786406018
         ChildIds: 10927179960599951447
+        ChildIds: 5860855622865461259
+        ChildIds: 11634587834912523596
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6963,6 +7250,126 @@ Assets {
         }
       }
       Objects {
+        Id: 5860855622865461259
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18259715565636381294
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 0.419999957
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11634587834912523596
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18259715565636381294
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 12815151423255491637
         Name: "4"
         Transform {
@@ -6979,6 +7386,8 @@ Assets {
         }
         ParentId: 15200895874786406018
         ChildIds: 16658450157899873544
+        ChildIds: 14557981008337562073
+        ChildIds: 599901754546898530
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7068,6 +7477,126 @@ Assets {
         }
       }
       Objects {
+        Id: 14557981008337562073
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12815151423255491637
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 0.419999957
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 599901754546898530
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12815151423255491637
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 15877779661815929349
         Name: "5"
         Transform {
@@ -7084,6 +7613,8 @@ Assets {
         }
         ParentId: 15200895874786406018
         ChildIds: 6720663102584216657
+        ChildIds: 497049602644064545
+        ChildIds: 16633811295022376738
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7153,6 +7684,126 @@ Assets {
             }
             Color {
               R: 0.863157392
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 497049602644064545
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15877779661815929349
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 0.419999957
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16633811295022376738
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15877779661815929349
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
@@ -7336,6 +7987,8 @@ Assets {
         }
         ParentId: 13844763512064253618
         ChildIds: 677014898434710561
+        ChildIds: 7495669480846623776
+        ChildIds: 15383228357522696617
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7426,6 +8079,127 @@ Assets {
         }
       }
       Objects {
+        Id: 7495669480846623776
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11223577468879803410
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              G: 0.199271604
+              B: 0.395833343
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15383228357522696617
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11223577468879803410
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 11133915963035655593
         Name: "2"
         Transform {
@@ -7442,6 +8216,8 @@ Assets {
         }
         ParentId: 13844763512064253618
         ChildIds: 12306551266100148491
+        ChildIds: 12628553741984578673
+        ChildIds: 11262294991140125489
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7532,6 +8308,127 @@ Assets {
         }
       }
       Objects {
+        Id: 12628553741984578673
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11133915963035655593
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              G: 0.199271604
+              B: 0.395833343
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11262294991140125489
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11133915963035655593
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 9048660048270679443
         Name: "3"
         Transform {
@@ -7548,6 +8445,8 @@ Assets {
         }
         ParentId: 13844763512064253618
         ChildIds: 5350832518083778748
+        ChildIds: 15434456320082336832
+        ChildIds: 7433533781213111839
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7638,6 +8537,127 @@ Assets {
         }
       }
       Objects {
+        Id: 15434456320082336832
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9048660048270679443
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              G: 0.199271604
+              B: 0.395833343
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7433533781213111839
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9048660048270679443
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 13084634919808644655
         Name: "4"
         Transform {
@@ -7654,6 +8674,8 @@ Assets {
         }
         ParentId: 13844763512064253618
         ChildIds: 5403474391206555691
+        ChildIds: 4543511904383968329
+        ChildIds: 16259546568814024787
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7744,6 +8766,127 @@ Assets {
         }
       }
       Objects {
+        Id: 4543511904383968329
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13084634919808644655
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              G: 0.199271604
+              B: 0.395833343
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16259546568814024787
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13084634919808644655
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 16521077164203116619
         Name: "5"
         Transform {
@@ -7760,6 +8903,8 @@ Assets {
         }
         ParentId: 13844763512064253618
         ChildIds: 8340111252214129011
+        ChildIds: 13835003929459307218
+        ChildIds: 13380651088918554262
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7830,6 +8975,127 @@ Assets {
             Color {
               G: 0.387756884
               B: 0.879622579
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13835003929459307218
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16521077164203116619
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -6
+          Height: -6
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              G: 0.199271604
+              B: 0.395833343
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13380651088918554262
+        Name: "Flag"
+        Transform {
+          Location {
+            X: -0.00048828125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16521077164203116619
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: -10
+          UIY: -4.00483322
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 6476434261817820781
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
@@ -7929,9 +9195,9 @@ Assets {
           Value: "mc:evisibilitysetting:forceon"
         }
         Control {
-          Width: 45
-          Height: 45
-          UIY: 21.3361797
+          Width: 40
+          Height: 40
+          UIY: 18.8446121
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -7939,12 +9205,12 @@ Assets {
           }
           Image {
             Brush {
-              Id: 3652824420334581924
+              Id: 6476434261817820781
             }
             Color {
-              R: 0.147027284
-              G: 0.147027284
-              B: 0.147027284
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
@@ -8417,12 +9683,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3652824420334581924
-      Name: "Icon Capture Point"
+      Id: 6476434261817820781
+      Name: "Icon Flag"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_CapturePoint"
+        AssetId: "Icon_Flag"
       }
     }
     Assets {
