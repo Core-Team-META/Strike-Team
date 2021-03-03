@@ -375,6 +375,7 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
+      X: 22.3585205
     }
     Rotation {
       Yaw: 8.14598083
@@ -779,9 +780,10 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
+      X: 22.3585205
     }
     Rotation {
-      Yaw: -8.14602852
+      Yaw: -8.14602661
     }
     Scale {
       X: 0.778454959
