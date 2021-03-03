@@ -298,31 +298,7 @@ function AnimateYouAsNemesis()
 	local displayText = ""
 	
 	local displayKillCount = 0
-	
-	SetChildrenText(nemesisOfStatText, "You Crushed")
-				
-	if yourKillCountAsNemesis >= 15 then
-				
-		SetChildrenText(nemesisOfStatText, "You Humiliated")
-				
-	elseif yourKillCountAsNemesis >= 10 then
-				
-		SetChildrenText(nemesisOfStatText, "You Decimated")
-
-	elseif yourKillCountAsNemesis >= 7 then
-				
-		SetChildrenText(nemesisOfStatText, "You Pulverized")
-					
-	elseif yourKillCountAsNemesis >= 5 then
-				
-		SetChildrenText(nemesisOfStatText, "You Wrecked")
-					
-	elseif yourKillCountAsNemesis >= 3 then
-				
-		SetChildrenText(nemesisOfStatText, "You Crushed")
-					
-	end
-	
+		
 	for index = 1, #youAreNemesisOf do
 	
 		local targetLetter = youAreNemesisOf:sub(index, index)
@@ -558,33 +534,31 @@ function MarkNemesis()
 					
 				end
 				
-				SetChildrenText(NemesisOfText, "You Crushed")
+				if theirNemesisOfEntryText[number][3] <= 3 then
 				
-				if theirNemesisOfEntryText[number][3] >= 15 then
+					SetChildrenText(nemesisOfLabelText, "You Crushed")
 				
-					SetChildrenText(NemesisOfText, "You Humiliated")
+				elseif theirNemesisOfEntryText[number][3] <= 5 then
 				
-				elseif theirNemesisOfEntryText[number][3] >= 10 then
-				
-					SetChildrenText(NemesisOfText, "You Decimated")
+					SetChildrenText(nemesisOfLabelText, "You Wrecked")
 
-				elseif theirNemesisOfEntryText[number][3] >= 7 then
+				elseif theirNemesisOfEntryText[number][3] <= 7 then
 				
-					SetChildrenText(NemesisOfText, "You Pulverized")
+					SetChildrenText(nemesisOfLabelText, "You Pulverized")
 					
-				elseif theirNemesisOfEntryText[number][3] >= 5 then
+				elseif theirNemesisOfEntryText[number][3] <= 10 then
 				
-					SetChildrenText(NemesisOfText, "You Wrecked")
+					SetChildrenText(nemesisOfLabelText, "You Decimated")
 					
-				elseif theirNemesisOfEntryText[number][3] >= 3 then
+				else
 				
-					SetChildrenText(NemesisOfText, "You Crushed")
+					SetChildrenText(nemesisOfLabelText, "You Humiliated")
 					
 				end
 				
 			else 
 			
-				SetChildrenText(NemesisOfText, "You Crushed")
+				SetChildrenText(nemesisOfLabelText, "You Crushed")
 				
 			end 
 			
@@ -606,6 +580,30 @@ function MarkNemesis()
 			
 		end
 
+	end
+	
+	SetChildrenText(nemesisOfStatText, "You Crushed")
+					
+	if yourKillCountAsNemesis <= 3 then
+				
+		SetChildrenText(nemesisOfStatText, "You Crushed")
+				
+	elseif yourKillCountAsNemesis <= 5 then
+				
+		SetChildrenText(nemesisOfStatText, "You Wrecked")
+
+	elseif yourKillCountAsNemesis <= 7 then
+				
+		SetChildrenText(nemesisOfStatText, "You Pulverized")
+					
+	elseif yourKillCountAsNemesis <= 10 then
+				
+		SetChildrenText(nemesisOfStatText, "You Decimated")
+					
+	else
+				
+		SetChildrenText(nemesisOfStatText, "You Humiliated")
+					
 	end
 
 end
