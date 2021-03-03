@@ -100,7 +100,7 @@ function OnPlayerLeft(player)
                 shouldEnd = false
             end
         end
-        if #players <= 1 or shouldEnd then
+        if lastTeam and #players <= 1 or lastTeam and shouldEnd then
             _G["GameWinner"] = lastTeam
             Game.SetTeamScore(lastTeam, 5)
             Task.Wait()
