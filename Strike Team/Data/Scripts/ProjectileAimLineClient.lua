@@ -129,10 +129,17 @@ function OnCastAbility(ability)
     end
 end
 
+function OnInterruptAbility(ability)
+    if Object.IsValid(aimLine) then
+        aimLine.visibility = Visibility.FORCE_OFF
+    end
+end
+
 -- Connect up the ability
 AIM_ABILITY.tickEvent:Connect(AbilityTick)
 AIM_ABILITY.executeEvent:Connect(OnExecuteAbility)
 AIM_ABILITY.castEvent:Connect(OnCastAbility)
+AIM_ABILITY.interruptedEvent:Connect(OnInterruptAbility)
 
 -- On destroy, if an aim line exists, destroy it
 script.destroyEvent:Connect(
