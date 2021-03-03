@@ -23,7 +23,11 @@ end
 
 function PurchaseAPI.VerifyWeapon(player, Weapon)
     if Weapon then 
-        if PurchaseAPI.GetStorage(player):HasWeapon(Weapon.data.id) then return 3 
+       
+        if player:GetResource('Level') < Weapon:GetLevel() then 
+            return 4
+        elseif PurchaseAPI.GetStorage(player):HasWeapon(Weapon.data.id) then 
+            return 3 
         else
             if Weapon:GetCost() > player:GetResource('Cash') then 
                 return 2 

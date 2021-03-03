@@ -41,7 +41,7 @@ function SkinStorage:Encode()
 end
 
 function SkinStorage:SetDefault()
-    self.key = "HK_LI_S4_EL_EP_SP_SV_JP_HP_ST"
+    self.key = "HK_LI_S4_EL_EP_SP_SV"
     return self.key
 end 
 

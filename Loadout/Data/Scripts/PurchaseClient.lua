@@ -24,6 +24,10 @@ end
 
 function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     if PurchaseClientManager then PurchaseClientManager.ClosePanel() end
+    if Game.GetLocalPlayer():GetResource('Level') < Weapon:GetLevel() then 
+        PurchaseClientManager.OpenFailed()
+        return 
+    end
     ConfirmationPanel = World.SpawnAsset(PurchaseConfirmationBox)
     ConfirmationPanel:GetCustomProperty("CloseButton"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     ConfirmationPanel.clientUserData.Skin = Skin
@@ -71,7 +75,8 @@ function GetWeaponText(Code)
         [1] = PurchasePanel_Texts.PurchaseableWeaponPending,
         [2] = PurchasePanel_Texts.PurchaseableWeaponFailed,
         [3] = PurchasePanel_Texts.PurchaseableWeaponAlreadyOwned,
-        [4] = PurchasePanel_Texts.PurchaseableWeaponError,
+        [4] = PurchasePanel_Texts.PurchaseableSkinLowLevel,
+        [5] = PurchasePanel_Texts.PurchaseableWeaponLowLevel,
     }
 
     return ReturnText[Code]
@@ -126,6 +131,13 @@ function PurchaseClientManager.PurchaseError(Code)
     ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
 end
+
+
+function PurchaseClientManager.OpenFailed(Code)
+    Task.Wait()
+    World.SpawnAsset(PURCHASE_FAIL_SOUND)
+end
+
 
 function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin)
     ConfirmationPanel.clientUserData.buttonEvent:Disconnect()

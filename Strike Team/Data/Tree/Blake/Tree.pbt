@@ -1290,20 +1290,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 11200075862270066853
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Flash Grenade"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15806395192495462933
-      value {
-      }
-    }
     TemplateAsset {
       Id: 12469272091380785429
     }

@@ -20,6 +20,12 @@ function Rarity:GetCost()
     return self.cost
 end
 
+
+function Rarity:GetPremiumCost()
+    return self.premiumcost
+end
+
+
 function Rarity:GetRank()
     return self.rank
 end

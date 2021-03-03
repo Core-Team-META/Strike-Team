@@ -481,7 +481,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 201
@@ -632,10 +632,10 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
-          Width: 201
-          Height: 53
-          UIX: -127.533936
-          UIY: 89.1876831
+          Width: 220
+          Height: 55
+          UIX: -127
+          UIY: 89
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -781,9 +781,9 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
-          Width: 201
-          Height: 53
-          UIX: 133.420166
+          Width: 220
+          Height: 55
+          UIX: 133
           UIY: 89.1876831
           RenderTransformPivot {
             Anchor {

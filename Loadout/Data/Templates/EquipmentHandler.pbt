@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10671565427701169845
+        ParentId: 4781671109827199097
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -242,6 +242,7 @@ Assets {
         ChildIds: 1194814725493114024
         ChildIds: 15822486766312907939
         ChildIds: 15377105601640679223
+        ChildIds: 6896876039293333936
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -748,6 +749,48 @@ Assets {
         }
       }
       Objects {
+        Id: 6896876039293333936
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2326906542163117023
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2411214559175194743
         Name: "Sub Machine Gun"
         Transform {
@@ -799,6 +842,7 @@ Assets {
         ChildIds: 4593871113840028907
         ChildIds: 6343054579178120469
         ChildIds: 150839437167583962
+        ChildIds: 14781493409224552311
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1266,6 +1310,48 @@ Assets {
         }
       }
       Objects {
+        Id: 14781493409224552311
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 7600429476808229674
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -1317,6 +1403,7 @@ Assets {
         ChildIds: 6538821211355694563
         ChildIds: 5571100331627132709
         ChildIds: 12800976062018265072
+        ChildIds: 788112577786817097
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -1784,6 +1871,48 @@ Assets {
         }
       }
       Objects {
+        Id: 788112577786817097
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10010096164672087044
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksmen Rifle"
         Transform {
@@ -1835,6 +1964,7 @@ Assets {
         ChildIds: 12506067925580509979
         ChildIds: 668795874657188159
         ChildIds: 5885776251729320786
+        ChildIds: 4172235778799919362
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -2298,6 +2428,48 @@ Assets {
         }
       }
       Objects {
+        Id: 4172235778799919362
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5204716471187685472
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -2349,6 +2521,7 @@ Assets {
         ChildIds: 4010307702015998303
         ChildIds: 1160276831027949039
         ChildIds: 9979469375288137586
+        ChildIds: 17679011691289659038
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -2820,6 +2993,48 @@ Assets {
         }
       }
       Objects {
+        Id: 17679011691289659038
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 17525059394381632877
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 3857468657531597669
         Name: "Light Machine Guns"
         Transform {
@@ -2871,6 +3086,7 @@ Assets {
         ChildIds: 17213134086025425073
         ChildIds: 9191550624782383274
         ChildIds: 7084968894483961746
+        ChildIds: 14289760653215196090
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -3323,6 +3539,48 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14289760653215196090
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10545030678868756033
+            }
           }
         }
         Collidable_v2 {
@@ -6649,6 +6907,7 @@ Assets {
         ChildIds: 2996749330965974363
         ChildIds: 10691631897006321339
         ChildIds: 3395916084643068518
+        ChildIds: 17783400764688954256
         ChildIds: 1896452198088528538
         UnregisteredParameters {
           Overrides {
@@ -7119,6 +7378,48 @@ Assets {
         }
       }
       Objects {
+        Id: 17783400764688954256
+        Name: "Wiffle Bat"
+        Transform {
+          Location {
+            X: 133.509521
+            Y: -313.603912
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7771605384388490917
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 17454490998313748385
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "WI"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 1896452198088528538
         Name: "Dirty Bat"
         Transform {
@@ -7244,7 +7545,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 15941196163952459759
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -7308,13 +7609,13 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 10706991407395748906
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 3109845709490378550
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -7405,7 +7706,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 5395965097068736261
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -8001,6 +8302,7 @@ Assets {
         ChildIds: 879944085397459979
         ChildIds: 13141132846174009727
         ChildIds: 14754450698957807734
+        ChildIds: 6221004824423975752
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -8500,6 +8802,48 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 6221004824423975752
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9110716462400792456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1672763015584584190
+            }
           }
         }
         Collidable_v2 {

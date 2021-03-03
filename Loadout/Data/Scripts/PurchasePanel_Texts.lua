@@ -9,8 +9,9 @@ PurchasePanelText.PurchaseableSkinLowLevel =  "Level is too low to purchase.\n L
 
 PurchasePanelText.PurchaseableWeaponPending = "Processing purchase...."
 PurchasePanelText.PurchaseableWeapon = "Purchase %s for $%d?"
-PurchasePanelText.PurchaseableWeaponFailed = "Failed to process payment. You do not have enough Weapon Cash"
+PurchasePanelText.PurchaseableWeaponFailed = "You do not have enough cash.\n Earn more cash by completing game rounds."
 PurchasePanelText.PurchaseableWeaponSuccess =  "Successfully purchased %s."
 PurchasePanelText.PurchaseableWeaponAlreadyOwned = "%s is already owned."
 PurchasePanelText.PurchaseableWeaponError =  "Can not purchase.\n An error has occurred."
+PurchasePanelText.PurchaseableWeaponLowLevel =  "Level is too low to purchase.\n Level up by completing game rounds."
 return PurchasePanelText
