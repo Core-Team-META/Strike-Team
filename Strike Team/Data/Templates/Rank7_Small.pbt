@@ -1,13 +1,13 @@
 Assets {
-  Id: 13475578394421058443
-  Name: "SmallIcon_Rank4"
+  Id: 17522905265635573699
+  Name: "Rank7_Small"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 17149732702450409674
+      RootId: 12896166364599399506
       Objects {
-        Id: 17149732702450409674
-        Name: "SmallIcon_Rank4"
+        Id: 12896166364599399506
+        Name: "Rank7_Small"
         Transform {
           Scale {
             X: 1
@@ -15,8 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 18070350401805394484
+        ParentId: 1740522433144907480
+        ChildIds: 12369279326518381410
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -48,7 +48,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18070350401805394484
+        Id: 12369279326518381410
         Name: "Chevron"
         Transform {
           Location {
@@ -61,8 +61,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17149732702450409674
-        ChildIds: 13955642219148666479
+        ParentId: 12896166364599399506
+        ChildIds: 8676638053622601329
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -109,7 +109,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13955642219148666479
+        Id: 8676638053622601329
         Name: "Chevron"
         Transform {
           Location {
@@ -122,8 +122,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18070350401805394484
-        ChildIds: 11335381695893982822
+        ParentId: 12369279326518381410
+        ChildIds: 14065825455889783206
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -168,7 +168,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11335381695893982822
+        Id: 14065825455889783206
         Name: "Chevron"
         Transform {
           Location {
@@ -181,7 +181,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13955642219148666479
+        ParentId: 8676638053622601329
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
