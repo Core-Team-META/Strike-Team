@@ -70,11 +70,25 @@ function AbilityTick(ability, deltaTime)
         table.insert(points, adjustedStartPosition)
 
         -- note: currently dont account for drag
+       -- for i = 1, nPoints do
+         --   local time = i * 0.05
+        --    local displacement = direction * projectileSpeed * time + Vector3.UP * 0.5 * -980 * gravityScale * time * time
+        --    table.insert(points, position + displacement)
+        --end
+
+        local velocity = projectileSpeed * direction
+
         for i = 1, nPoints do
-            local time = i * 0.05
-            local displacement = direction * projectileSpeed * time + Vector3.UP * 0.5 * -980 * gravityScale * time * time
-            table.insert(points, position + displacement)
+            local t = 0.05
+
+            velocity.z = velocity.z - 980 * gravityScale * t
+            velocity = velocity - (velocity * (projectileDrag) * t)
+            position = position + velocity * t
+
+            table.insert(points, position)
         end
+
+  
 
         for i = 1, nPoints do
 			lines[i]:SetWorldPosition((points[i] + points[i + 1]) / 2.0)
@@ -89,7 +103,7 @@ function OnExecuteAbility(ability)
     if ability.owner ~= LOCAL_PLAYER then
         return
     end
-    
+
     THROW_ABILITY:Activate()
     if Object.IsValid(aimLine) then
         aimLine.visibility = Visibility.FORCE_OFF
