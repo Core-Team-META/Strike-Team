@@ -1,3 +1,4 @@
+local ISENABLED = script:GetCustomProperty("IsEnabled")
 local SLOT = script:GetCustomProperty("Slot")
 local BUTTON = script:GetCustomProperty("Button"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -15,7 +16,6 @@ while not _G["DataBase"] or not LOCAL_PLAYER.clientUserData.Loadouts[tostring(SL
 local Database = _G["DataBase"] 
 assert(SLOT > 0, "slot cannot be less then 1")
 
-
 local lastpressedTime = os.clock()-20
 local panel 
 local Spawns = {}
@@ -27,6 +27,7 @@ function ClearSpawns()
     end
   
 end
+
 
 
 function Setdata(pan,slottype)
@@ -183,6 +184,11 @@ if Game.GetLocalPlayer():GetResource("Level") >= LEVELLOCK then
         connected = true
     else
         LoadoutText.text = string.format( "Level %d required", LEVELLOCK )
+    end
+    
+    if not ISENABLED then 
+        LoadoutText.text = string.format("Loadout Inactive")
+        return
     end
 end
 

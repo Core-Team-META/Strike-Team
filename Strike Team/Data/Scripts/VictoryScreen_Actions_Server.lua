@@ -1,8 +1,9 @@
 local CHICKEN_COSTUME = script:GetCustomProperty("MageElfAnimorphPotionAttachmentBasic")
 
-local COST = 100
+local COST = 0
 
 local spamPrevent = {}
+local listeners = {}
 
 --Used for spam prevention
 --@return bool
@@ -61,14 +62,39 @@ end
 function OnVictoryChicken(player, targetId)
     if HasEnoughCash(player) then
         local target = FindPlayerById(targetId)
-        if not target.isDead then
+        if not target.isDead and not target.serverUserData.isChicken then
             Events.Broadcast("EmptyBackpack", target)
             local chickenCostume = World.SpawnAsset(CHICKEN_COSTUME)
             chickenCostume:Equip(target)
+            target:SetWorldScale(Vector3.New(2, 2, 2))
+            target.serverUserData.isChicken = true
         end
     end
+end
+
+function OnRespawn(player)
+    player.serverUserData.isChicken = false
+    if player:GetWorldScale() ~= Vector3.New(1, 1, 1) then
+        print("yep")
+        player:SetWorldScale(Vector3.New(1, 1, 1))
+    end
+end
+
+
+function OnPlayerJoined(player)
+    listeners[player.id] = player.respawnedEvent:Connect(OnRespawn)
+end
+
+
+function OnPlayerLeft(player)
+    if listeners[player.id] and listeners[player.id].isConnect then
+        listeners[player.id]:Disconnect()
+    end
+    listeners[player.id] = nil
 end
 
 Events.ConnectForPlayer("VictoryKill", OnVictoryKill)
 Events.ConnectForPlayer("VictoryConfetti", OnVictoryConfetti)
 Events.ConnectForPlayer("VictoryChicken", OnVictoryChicken)
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Game.playerLeftEvent:Connect(OnPlayerLeft)

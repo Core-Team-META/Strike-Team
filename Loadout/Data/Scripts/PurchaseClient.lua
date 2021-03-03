@@ -106,6 +106,8 @@ function PurchaseClientManager.PurchaseError(Code)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
+        ConfirmationPanel:GetCustomProperty("PurchaseCreditButton"):WaitForObject().visibility = Visibility.FORCE_ON
+
     end
     ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
@@ -143,6 +145,6 @@ function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
 	end
 end
 
-
+Events.Connect("ClosePurchasePanel",PurchaseClientManager.ClosePanel)
 Events.Connect("PurchaseItem",PurchaseClientManager.SetUpPanel)
 _G["PurchaseClientManager"] = PurchaseClientManager
