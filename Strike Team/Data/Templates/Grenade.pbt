@@ -16,50 +16,15 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 5188606681897742199
+        ChildIds: 13322884209301963452
         ChildIds: 6494871412286050326
         ChildIds: 10188877097158049067
         ChildIds: 6698035183165842641
         UnregisteredParameters {
           Overrides {
-            Name: "cs:FriendlyExplosionDamage"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:ExplosionDamageRange"
-            Vector2 {
-              X: 60
-              Y: 150
-            }
-          }
-          Overrides {
-            Name: "cs:ExplosionRadius"
-            Float: 700
-          }
-          Overrides {
-            Name: "cs:ExplosionKnockbackSpeed"
-            Float: 1200
-          }
-          Overrides {
-            Name: "cs:DebugExplosion"
-            Bool: false
-          }
-          Overrides {
             Name: "cs:PickupSound"
             AssetReference {
               Id: 6795206535065158887
-            }
-          }
-          Overrides {
-            Name: "cs:ProjectileImpact"
-            AssetReference {
-              Id: 18403044146386498216
-            }
-          }
-          Overrides {
-            Name: "cs:ProjectileBounceSound"
-            AssetReference {
-              Id: 8688477279662119454
             }
           }
           Overrides {
@@ -78,26 +43,6 @@ Assets {
             Name: "cs:WeaponType"
             String: "Grenade"
           }
-          Overrides {
-            Name: "cs:ExplosionDamageRange:tooltip"
-            String: "Set the minimum to maximum damage of the explosion. X is damage far from the explosion center and Y is damage close to the explosion center."
-          }
-          Overrides {
-            Name: "cs:ExplosionRadius:tooltip"
-            String: "How far the explosion impacts the surrounding players."
-          }
-          Overrides {
-            Name: "cs:DebugExplosion:tooltip"
-            String: "Whether to show the explosion gizmo or not for debugging purposes."
-          }
-          Overrides {
-            Name: "cs:FriendlyExplosionDamage:tooltip"
-            String: "Whether or not to apply damage on allies (including self damage)."
-          }
-          Overrides {
-            Name: "cs:ExplosionKnockbackSpeed:tooltip"
-            String: "How strong the explosion blasts the player from the center."
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -112,13 +57,13 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 13253325870475057691
+              Id: 841534158063459245
             }
             MuzzleFlashAssetRef {
               Id: 8113725433182133795
             }
             TrailAssetRef {
-              Id: 9023864673320310867
+              Id: 841534158063459245
             }
             ImpactAssetRef {
               Id: 841534158063459245
@@ -171,8 +116,8 @@ Assets {
         }
       }
       Objects {
-        Id: 5188606681897742199
-        Name: "WeaponProjectileExplosionServer"
+        Id: 13322884209301963452
+        Name: "FragGrenadeServer"
         Transform {
           Location {
           }
@@ -186,6 +131,10 @@ Assets {
         }
         ParentId: 18045273018505054026
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:WeaponType"
+            String: "Grenade"
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -196,7 +145,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 17103588375713329285
+            Id: 8825587260083121956
           }
         }
       }
