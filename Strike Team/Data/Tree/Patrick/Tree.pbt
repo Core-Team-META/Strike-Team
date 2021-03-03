@@ -234,9 +234,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: -185
-    UIY: -235
+    UIY: -245
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -375,7 +375,7 @@ Objects {
 }
 Objects {
   Id: 16534756673854649923
-  Name: "LifetimeKDR"
+  Name: "LifetimeOjectives"
   Transform {
     Location {
     }
@@ -393,12 +393,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceToTrack"
-      String: "KDR"
+      String: "Objective"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "B52D00317BC6795E"
+        Key: "FA8F043AB76A90AB"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -413,9 +413,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: 155
-    UIY: -235
+    UIY: -245
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -467,7 +467,7 @@ Objects {
       }
     }
     Text {
-      Label: "KDR"
+      Label: "OBJECTIVES"
       Color {
         R: 1
         G: 1
@@ -644,9 +644,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: 305
-    UIY: 235
+    UIY: 250
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -821,9 +821,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: -335
-    UIY: 235
+    UIY: 250
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -998,9 +998,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: -650
-    UIY: 235
+    UIY: 250
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1137,7 +1137,7 @@ Objects {
 }
 Objects {
   Id: 15040601248434552375
-  Name: "KDR"
+  Name: "Objectives"
   Transform {
     Location {
     }
@@ -1155,12 +1155,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceToTrack"
-      String: "KDR"
+      String: "Objective"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "A0E7E480C0D2C4C9"
+        Key: "0542E06377020DEA"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -1175,9 +1175,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: -15
-    UIY: 235
+    UIY: 250
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1229,7 +1229,7 @@ Objects {
       }
     }
     Text {
-      Label: "KDR"
+      Label: "OBJECTIVES"
       Color {
         R: 1
         G: 1
@@ -1352,9 +1352,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 450
+    Height: 480
     UIX: 625
-    UIY: 235
+    UIY: 250
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1590,7 +1590,7 @@ Objects {
 }
 Objects {
   Id: 14797426944352587653
-  Name: "LifetimeKDR"
+  Name: "LifetimeOjectives"
   Transform {
     Location {
     }
@@ -1606,12 +1606,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceForEntry"
-      String: "KDR"
+      String: "Objective"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "B52D00317BC6795E"
+        Key: "FA8F043AB76A90AB"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -1800,7 +1800,7 @@ Objects {
 }
 Objects {
   Id: 6797050645391217480
-  Name: "KDR"
+  Name: "Objectives"
   Transform {
     Location {
     }
@@ -1816,12 +1816,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceForEntry"
-      String: "KDR"
+      String: "Objective"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "A0E7E480C0D2C4C9"
+        Key: "0542E06377020DEA"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -2009,25 +2009,25 @@ Objects {
     Overrides {
       Name: "cs:YourNemesisText"
       ObjectReference {
-        SelfId: 5842210805151799173
+        SelfId: 14457483808585935522
       }
     }
     Overrides {
       Name: "cs:YourNemesisKillsText"
       ObjectReference {
-        SelfId: 2344863400105103918
+        SelfId: 13347085983190363913
       }
     }
     Overrides {
       Name: "cs:NemesisOfText"
       ObjectReference {
-        SelfId: 4316242927429539186
+        SelfId: 11697712145294075989
       }
     }
     Overrides {
       Name: "cs:NemesisOfKillsText"
       ObjectReference {
-        SelfId: 5111648794313959499
+        SelfId: 16087075933267121516
       }
     }
     Overrides {

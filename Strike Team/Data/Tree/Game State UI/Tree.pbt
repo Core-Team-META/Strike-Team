@@ -147,8 +147,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17028981573721542778
-  Name: "Victory Announcer"
+  Id: 10128858416733472609
+  Name: "Message Banner"
   Transform {
     Scale {
       X: 1
@@ -167,19 +167,11 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 18154550910277010479
+      key: 11168525500713847895
       value {
         Overrides {
           Name: "Name"
-          String: "Victory Announcer"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
+          String: "Message Banner"
         }
         Overrides {
           Name: "Position"
@@ -193,8 +185,34 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 13469228761640500648
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 217.955566
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14442662322453796134
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 177.955566
+        }
+      }
+    }
     TemplateAsset {
-      Id: 16128464414869797335
+      Id: 6039822344767593962
     }
   }
 }

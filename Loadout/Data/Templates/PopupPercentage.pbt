@@ -369,12 +369,9 @@ Assets {
         }
         ParentId: 6463513330397525932
         ChildIds: 10225344333647757808
-        ChildIds: 9685833336476417518
         ChildIds: 246645506234768864
-        ChildIds: 1880873374755152740
         ChildIds: 13457547618832404935
         ChildIds: 3921361867886230491
-        ChildIds: 9245073428860718796
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -424,6 +421,7 @@ Assets {
           }
         }
         ParentId: 17122073496422367730
+        ChildIds: 9685833336476417518
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -441,14 +439,14 @@ Assets {
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           Text {
-            Label: "\342\221\240  Complete matches to get         Golden Bars."
+            Label: "\342\221\240  Complete matches to get           Golden Bars."
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 14
+            Size: 13
             Justification {
               Value: "mc:etextjustify:left"
             }
@@ -487,7 +485,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17122073496422367730
+        ParentId: 10225344333647757808
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -497,7 +495,7 @@ Assets {
         Control {
           Width: 30
           Height: 30
-          UIX: 210.652176
+          UIX: 192.5
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -547,6 +545,7 @@ Assets {
           }
         }
         ParentId: 17122073496422367730
+        ChildIds: 1880873374755152740
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -554,8 +553,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -15
+          Width: -25
           Height: 60
+          UIX: -5
           UIY: 28
           RenderTransformPivot {
             Anchor {
@@ -565,18 +565,17 @@ Assets {
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           Text {
-            Label: "\342\221\241  Collect 10x         Golden Bars to claim one Champion\'s crate."
+            Label: "\342\221\241  Collect 10x           Golden Bars to claim one Champion\'s Crate."
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 14
+            Size: 13
             Justification {
               Value: "mc:etextjustify:left"
             }
-            AutoWrapText: true
             Font {
             }
           }
@@ -611,7 +610,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17122073496422367730
+        ParentId: 246645506234768864
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -621,8 +620,8 @@ Assets {
         Control {
           Width: 30
           Height: 30
-          UIX: 116.898438
-          UIY: 27.1601677
+          UIX: 102.5
+          UIY: -0.839832306
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -672,6 +671,7 @@ Assets {
           }
         }
         ParentId: 17122073496422367730
+        ChildIds: 9245073428860718796
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -690,79 +690,14 @@ Assets {
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           Text {
-            Label: "\342\221\242                           to unlock equipment or         cash."
+            Label: "\342\221\242                            to unlock equipment or           cash."
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 14
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3921361867886230491
-        Name: "3a"
-        Transform {
-          Location {
-            X: -0.000213623047
-            Z: -3.05175781e-05
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17122073496422367730
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: -15
-          Height: 60
-          UIX: 27
-          UIY: 54
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          Text {
-            Label: "CLAIM CRATE"
-            Color {
-              R: 0.871367335
-              G: 0.278894335
-              B: 0.0122864898
-              A: 1
-            }
-            Size: 14
+            Size: 13
             Justification {
               Value: "mc:etextjustify:left"
             }
@@ -801,7 +736,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17122073496422367730
+        ParentId: 13457547618832404935
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -811,8 +746,8 @@ Assets {
         Control {
           Width: 30
           Height: 30
-          UIX: 290.716064
-          UIY: 53.760788
+          UIX: 280
+          UIY: -0.239212036
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -840,6 +775,71 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3921361867886230491
+        Name: "3a"
+        Transform {
+          Location {
+            X: -0.000213623047
+            Z: -3.05175781e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17122073496422367730
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -15
+          Height: 60
+          UIX: 25
+          UIY: 54
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          Text {
+            Label: "CLAIM CRATE"
+            Color {
+              R: 0.871367335
+              G: 0.278894335
+              B: 0.0122864898
+              A: 1
+            }
+            Size: 13
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
