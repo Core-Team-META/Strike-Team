@@ -168,7 +168,7 @@ Assets {
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.35
             CanMove: true
             CanJump: true
             CanRotate: true
