@@ -100,7 +100,7 @@ Assets {
             ProjectileLength: 12
             ProjectileRadius: 12
             ProjectileBounces: 2
-            ProjectileDrag: 0.12
+            ProjectileDrag: 0.06
             DefaultAbility {
               SubObjectId: 6698035183165842641
             }
