@@ -2267,7 +2267,6 @@ Assets {
         }
         ParentId: 5185541179191159358
         ChildIds: 2291572950135970968
-        ChildIds: 881682509385036746
         ChildIds: 14219311249988048193
         ChildIds: 11782463213100892176
         ChildIds: 8898259230637414222
@@ -2324,7 +2323,7 @@ Assets {
         ParentId: 5468513689908949620
         ChildIds: 1327422177825825446
         ChildIds: 14615783693996728
-        ChildIds: 14811319300568014195
+        ChildIds: 7402330898640612340
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2473,6 +2472,58 @@ Assets {
         }
       }
       Objects {
+        Id: 7402330898640612340
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: -0.00146484375
+            Y: -0.0009765625
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2291572950135970968
+        ChildIds: 14811319300568014195
+        ChildIds: 881682509385036746
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -9
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Panel {
+            IsClipping: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 14811319300568014195
         Name: "BG"
         Transform {
@@ -2486,7 +2537,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2291572950135970968
+        ParentId: 7402330898640612340
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2546,7 +2597,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5468513689908949620
+        ParentId: 7402330898640612340
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2625,7 +2676,7 @@ Assets {
             }
           }
           Text {
-            Label: "20"
+            Label: "00"
             Color {
               R: 1
               G: 1
@@ -2689,7 +2740,6 @@ Assets {
             }
           }
           Text {
-            Label: "POINT UNLOCKS IN"
             Color {
               R: 1
               G: 1
