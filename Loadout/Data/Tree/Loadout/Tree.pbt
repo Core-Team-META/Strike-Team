@@ -1253,7 +1253,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceName"
-      String: "Credits"
+      String: "StrikeCoins"
     }
     Overrides {
       Name: "cs:AlwaysShow"
@@ -1277,7 +1277,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowMaxInText"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:ResourceName:tooltip"
@@ -1503,7 +1503,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 14005528099389862145
+        Id: 10117964992090160592
       }
       Color {
         R: 1
@@ -1770,7 +1770,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowMaxInText"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:ResourceName:tooltip"
@@ -2845,7 +2845,7 @@ Objects {
       }
     }
     Text {
-      Label: "J O I N   M A T C H"
+      Label: "J O I N   M A T C H "
       Color {
         R: 0.00972121768
         G: 0.00972121768

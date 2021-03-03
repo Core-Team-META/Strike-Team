@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 480504155125121949
         ChildIds: 4779382825076115544
+        ChildIds: 480504155125121949
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -32,10 +32,10 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 7409974748338403079
+              Id: 841534158063459245
             }
             MuzzleFlashAssetRef {
-              Id: 841534158063459245
+              Id: 8113725433182133795
             }
             TrailAssetRef {
               Id: 841534158063459245
@@ -73,16 +73,12 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 3000
+            ProjectileSpeed: 3200
             ProjectileLifeSpan: 10
-            ProjectileGravity: 2
-            ProjectileLength: 100
-            ProjectileRadius: 4
-            SpreadMin: 1
-            SpreadMax: 90
-            SpreadDecreaseSpeed: 6
-            SpreadIncreasePerShot: 2
-            SpreadPenaltyPerShot: 1.5
+            ProjectileGravity: 1.9
+            ProjectileLength: 12
+            ProjectileRadius: 12
+            ProjectileDrag: 0.12
             DefaultAbility {
               SubObjectId: 4779382825076115544
             }
@@ -96,50 +92,8 @@ Assets {
         }
       }
       Objects {
-        Id: 480504155125121949
-        Name: "Smoke Grenade"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10922497826694163130
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SmokeGrenade"
-            ObjectReference {
-              SubObjectId: 10922497826694163130
-            }
-          }
-          Overrides {
-            Name: "cs:SmokeVolumeVFX"
-            AssetReference {
-              Id: 3476105144800096404
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 5072356001726375576
-          }
-        }
-      }
-      Objects {
         Id: 4779382825076115544
-        Name: "AttackAbility"
+        Name: "Throw"
         Transform {
           Location {
           }
@@ -162,7 +116,7 @@ Assets {
         Ability {
           IsEnabled: true
           CastPhaseSettings {
-            Duration: 0.03
+            Duration: 0.35
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -184,7 +138,6 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -211,14 +164,47 @@ Assets {
           }
         }
       }
-    }
-    Assets {
-      Id: 7409974748338403079
-      Name: "Modern Weapon - Grenade Canister 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weapons_grenade_simple_001"
+      Objects {
+        Id: 480504155125121949
+        Name: "Smoke Grenade Server"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10922497826694163130
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ProjectileImpact"
+            AssetReference {
+              Id: 3476105144800096404
+            }
+          }
+          Overrides {
+            Name: "cs:ProjectileBody"
+            AssetReference {
+              Id: 11054133481834412534
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 5072356001726375576
+          }
+        }
       }
     }
     PrimaryAssetId {

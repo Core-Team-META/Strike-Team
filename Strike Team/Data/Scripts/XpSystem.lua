@@ -20,7 +20,8 @@ local XPTable = {
     18500,
     20000,
 }
-
+local MAXLEVEL = 50
+local MAXPrestige = 100
 local XP = {}
 XP.__index = XP
 
@@ -34,51 +35,8 @@ function XP.New(player)
     return o
 end
 
-function CalculateXPInCurrentLevel(val)
-    local XpTotal = 0
-    for Level,XP in ipairs(XPTable) do
-        if val >= XP then
-            val = val - XP
-        end
-    end
-    while val >= XPTable[#XPTable] do
-        val = val - XPTable[#XPTable]
-    end
-    return val
-end
-
-function CalculateXPUntilNextLevel(val)
-    local XpTotal = 0
-    for Level,XP in ipairs(XPTable) do
-        XpTotal = XpTotal + XP
-        if val < XpTotal then
-            return XpTotal - val
-        end
-    end
-    local Index = #XPTable
-    while true do
-        XpTotal = XpTotal + XPTable[#XPTable]
-        Index = Index + 1
-        if val < XpTotal then 
-            return XpTotal - val 
-        end
-    end
-end
-
 function CalculateLevel(val)
-    local XpTotal = 0
-    for Level,XP in ipairs(XPTable) do
-        XpTotal = XpTotal + XP
-        if val < XpTotal then
-            return Level - 1
-        end
-    end
-    local Index = #XPTable
-    while val > XpTotal do
-        XpTotal = XpTotal + XPTable[#XPTable]
-        Index = Index + 1
-    end
-    return Index 
+    return val
 end
 
 function XpInNextLevel(val)
@@ -93,17 +51,17 @@ function XpInNextLevel(val)
 end
 
 function XP:GetXPInCurrentLevel()
-    return CalculateXPInCurrentLevel(self.xp)
+    return self.xp
 end
 
 function XP:GetXPUntilNextLevel()
-    return CalculateXPUntilNextLevel(self.xp)
+    return self:GetNextLevelXP() - self.xp 
 end
 
 function XP:GetNextLevelXP()
     local level = self:GetLevel()
-    if XPTable[level+1] then 
-        return XPTable[level+1] 
+    if XPTable[level] then 
+        return XPTable[level] 
     else 
         return XPTable[#XPTable] 
     end
@@ -118,17 +76,33 @@ function XP:GetOwner()
 end
 
 function XP:ReturnGainedXP() 
-    return self:GetXP() - self:ReturnLastXPAmount()
+    return self.lastgained
 end
 
 function XP:CalculateLevel()
-    return CalculateLevel(self.xp) 
+    return self.level
+end
+
+function XP:GetMaxLevel()
+    return MAXLEVEL
+end
+
+function XP:GetMaxPrestige()
+    return MAXPrestige
+end
+
+function XP:GetXP()
+    return self.xp or 0
+end
+
+function XP:GetPrestige()
+    return self.Prestige
 end
 
 
 if Environment.IsClient() then
     local LOCAL_PLAYER = Game.GetLocalPlayer()
-
+    
     function Playerjoined(player)
         player.clientUserData.XP = XP.New(player)
     end
@@ -137,23 +111,20 @@ if Environment.IsClient() then
         return self.owner:GetResource("XP")
     end
 
-    function XP:ReturnLastXPCurrentLevel()
-        return CalculateLevel(self.lastamount)
-    end
-
     function XP:GetLevel()
-        self.level = self:CalculateLevel()
         return self.level
     end
 
     function XP:Load()
         self.lastamount = self.xp or 0
+        self.lastgained = self.owner:GetResource("LastGained")
         self.xp = self.owner:GetResource("XP")
-        self.level = self:CalculateLevel()
+        self.level = self.owner:GetResource("Level")
+        self.Prestige = self.owner:GetResource("Prestige")
     end
 
     function UpdateResource(_,Rname)
-        if LOCAL_PLAYER.clientUserData.XP and Rname == "XP" then 
+        if LOCAL_PLAYER.clientUserData.XP  then 
             LOCAL_PLAYER.clientUserData.XP:Load()
         end
     end
@@ -164,32 +135,46 @@ end
 
 if Environment.IsServer() then
 
-    function XP:AddXP(Value)
-        if Value == 0 then Value = 1 end
+    function XP:AddXP(Value)     
+        self.lastgained = Value    
         self.lastamount = self:GetXP()
-        self.xp = self.xp + (Value or 0)
+        self:HandleGain(Value)
         self:UpdateResource()
         self:Save()
     end
     
-    function XP:GetXP()
-        return self.xp or 0
+    function XP:HandleGain(Value)
+        if self.level >= self:GetMaxLevel() then return end
+        local XPCapped = math.min(Value, self:GetXPUntilNextLevel()) 
+        self.xp = self.xp + (XPCapped or 0)
+        if self.xp >= self:GetNextLevelXP() then
+            self:LevelUp()
+            self:HandleGain(Value - XPCapped)
+        end
     end
+
+    function XP:LevelUp()
+        self.level = self.level + 1
+        self.xp = 0
+    end
+
      
     function XP:UpdateResource()
+        self.owner:SetResource("LastGained", self.lastgained)
         self.owner:SetResource("XP", self.xp)
-        self.level = self:CalculateLevel()
         self.owner:SetResource("level", self.level)
+        self.owner:SetResource("Prestige", self.level)
     end
 
     function XP:Reset()
         self.xp = 0
         self.level = 0
+        self.Prestige = 0
+        self:UpdateResource()
         self:Save()
     end
 
     function XP:GetLevel()
-        self.level = self:CalculateLevel()
         self.owner:SetResource("Level", self.level)
         return self.level
     end
@@ -199,17 +184,34 @@ if Environment.IsServer() then
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
         data["XP"] = self.xp
         data["Level"] = self.level
+        data["Prestige"] = self.Prestige
         Storage.SetSharedPlayerData(_G["StatKey"],self.owner,data)
+    end
+
+    function XP:GetPrestige()
+        return self.Prestige
+    end
+
+    function XP:Prestige()
+        if Prestige >= MAXPrestige then return end
+        if self:GetLevel() >= MAXLEVEL then
+            self.Prestige = self.Prestige + 1
+            self.level = 1
+            self.xp = 0
+            Events.Broadcast("XP.Prestiged",self.owner)
+        end
     end
 
     function XP:Load()
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
         self.xp = data["XP"] or 0
-        self.level = self:CalculateLevel()
-        Task.Spawn(function( )
+        self.level = data["level"] or 1
+        self.Prestige = data["Prestige"] or 0
+        Task.Spawn(function()
             self.owner:SetResource("XP", self.xp)
             self.owner:SetResource("Level", self.level)
+            self.owner:SetResource("Prstige", self.Prestige)
         end,2)
     end
 

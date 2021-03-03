@@ -66,6 +66,8 @@ local headShotValue = 50
 
 local roundXP = 0
 
+local skipAnimation = false
+
 local letters = {
 	"A",
 	"B",
@@ -153,6 +155,12 @@ function CountThisTextUp(givenText, targetNumber, extra, allowTickSFX)
 					tickSFX.lifeSpan = 1
 				end
 				Task.Wait(0.05)
+				
+				if skipAnimation then
+				
+					break
+					
+				end
 			end
 
 			SetChildrenText(givenText, extra .. string.format("%d",targetNumber))
@@ -205,6 +213,12 @@ function CountThisFloat(givenText, targetFloat, extra, allowTickSFX)
 				end
 
 				Task.Wait(0.05)
+				
+				if skipAnimation then
+				
+					break
+					
+				end
 			end
 
 			SetChildrenText(givenText, extra .. string.format("%0.2f", targetFloat))
@@ -253,6 +267,18 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 					end
 
 					Task.Wait(0.07)
+					
+					if skipAnimation then
+					
+						break
+						
+					end
+				end
+				
+				if skipAnimation then
+				
+					break
+					
 				end
 
 				displayText = displayText .. targetLetter
@@ -306,6 +332,12 @@ function AnimateLevel()
 			progressBar.progress = i / oldXP
 
 			Task.Wait(0.01)
+						
+			if skipAnimation then
+				
+				break
+					
+			end
 		end
 
 		progressBar.progress = 1
@@ -323,6 +355,12 @@ function AnimateLevel()
 		progressBar.progress = i / totalLevelXP
 
 		Task.Wait(0.01)
+		
+		if skipAnimation then
+				
+			break
+					
+		end
 	end
 
 	progressBar.progress = currentInLevel / totalLevelXP
@@ -407,13 +445,16 @@ function AnimateGold()
 	GoldPercentBar.progress = Gold / 10
 
 	EaseUI.EaseY(BIG_GOLD, 0, .8, EaseUI.EasingEquation.BOUNCE, EaseUI.EasingDirection.OUT)
-	Task.Wait(.3)
-	World.SpawnAsset(Gold_SFX)
-	Task.Wait(.1)
-	World.SpawnAsset(Gold_SFX)
-	Task.Wait(.1)
-	World.SpawnAsset(Gold_SFX)
-	Task.Wait(.1)
+	
+	if not skipAnimation then
+		Task.Wait(.3)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+		World.SpawnAsset(Gold_SFX)
+		Task.Wait(.1)
+	end
 	GoldAmount.text = string.format("%d/%d", math.min(Gold + 1, 10), 10)
 	for i = 1, 10 do
 		GoldPercentBar.progress = math.min(Gold + (i / 10), 10) / 10
@@ -424,12 +465,16 @@ function AnimateGold()
 	Task.Wait(1)
 	if localPlayer.team == endRoundManager:GetCustomProperty("WinningTeam") then
 		EaseUI.EaseY(SMALL_GOLD, 0, .5, EaseUI.EasingEquation.BOUNCE, EaseUI.EasingDirection.OUT)
-		Task.Wait(.2)
-		World.SpawnAsset(Gold_SFX)
-		Task.Wait(.1)
-		World.SpawnAsset(Gold_SFX)
-		Task.Wait(.1)
-		World.SpawnAsset(Gold_SFX)
+		
+		if not skipAnimation then
+			Task.Wait(.2)
+			World.SpawnAsset(Gold_SFX)
+			Task.Wait(.1)
+			World.SpawnAsset(Gold_SFX)
+			Task.Wait(.1)
+			World.SpawnAsset(Gold_SFX)
+		end
+		
 		GoldAmount.text = string.format("%d/%d", math.min(Gold + 2, 10), 10)
 		for i = 1, 10 do
 			GoldPercentBar.progress = math.min(Gold + (i / 5), 10) / 10
@@ -438,57 +483,47 @@ function AnimateGold()
 	end
 end
 
-function ShowEndRoundResults()
-	UI.SetCanCursorInteractWithUI(true)
-	UI.SetCursorVisible(true)
-	
-	if not hasViewedStats then
+function ShowEndRoundResults()		
+	mainWindow.y = -2000
+
+	local Gold = localPlayer:GetResource("OldGold")
+	GoldAmount.text = string.format("%d/%d", Gold, 10)
+	GoldPercentBar.progress = Gold / 10
+
+	returnToLoadout.y = returnToLoadout.y + 2000
 		
-		mainWindow.y = -2000
-
-		local Gold = localPlayer:GetResource("OldGold")
-		GoldAmount.text = string.format("%d/%d", Gold, 10)
-		GoldPercentBar.progress = Gold / 10
-
-		returnToLoadout.y = returnToLoadout.y + 2000
-
-	end
-	
-	entireRoundEndUI.visibility = Visibility.FORCE_ON
-
-	statsWindow.visibility = Visibility.INHERIT
-
-	if not hasViewedStats then
-	
-		EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
+	EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 		
-		AnimateWordText(playerNameText, localPlayer.name, true)
+	AnimateWordText(playerNameText, localPlayer.name, true)
 
-		Task.Wait(0.5)
+	Task.Wait(0.5)
 
-		AnimateLevel()
+	AnimateLevel()
 
-		Task.Wait(0.5)
+	Task.Wait(0.5)
 
-		AnimateStats()
+	AnimateStats()
 
-		Task.Wait(1)
+	Task.Wait(0.5)
+		
+	Events.Broadcast("ShowNemesis")
+		
+	Task.Wait(0.5)
 
-		AnimateGold()
-	end
+	AnimateGold()
+
 end
 
 function ResetEndRoundResults()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
-	--votingWindow.visibility = Visibility.FORCE_OFF
 
 	cashTotalText.text = ""
 
-	--[[for _, v in pairs(Rows) do
+	for _, v in pairs(Rows) do
 		if Object.IsValid(v) then
 			v:Destroy()
 		end
-	end]]--
+	end
 
 	Rows = {}
 
@@ -499,13 +534,6 @@ function ResetEndRoundResults()
 	BIG_GOLD.y = -200
 	SMALL_GOLD.y = -50
 
-	--[[for _, entry in pairs(scoreboardSectionEntries:GetChildren()) do
-		for _, section in pairs(entry:GetChildren()) do
-			if section:IsA("UIText") then
-				section.text = ""
-			end
-		end
-	end]]--
 
 	winner = false
 end
@@ -521,7 +549,8 @@ end
 function OnGameStateChanged(oldState, newState, hasDuration, time)
 	
 	if newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
-	
+		
+		skipAnimation = false
 		statsState = false
 		hasViewedStats = false
 		ResetEndRoundResults()
@@ -549,15 +578,27 @@ end
 --------------------------
 function ToggleStatsScreen()
 	statsState = true
-
-	ShowEndRoundResults()
 	
-	hasViewedStats = true
+	entireRoundEndUI.visibility = Visibility.FORCE_ON
+
+	statsWindow.visibility = Visibility.INHERIT
+
+	if not hasViewedStats then
+		hasViewedStats = true
+		ShowEndRoundResults()
+	end
 end
 
 function ToggleVictoryScreen()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
 	statsWindow.visibility = Visibility.FORCE_OFF
+	
+	if hasViewedStats and not skipAnimation then
+	
+		skipAnimation = true
+		Events.Broadcast("SkipAnimation")
+		
+	end
 end
 
 

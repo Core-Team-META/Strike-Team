@@ -9,6 +9,19 @@ local ConfirmationPanel
 local PurchaseClientManager = {}
 PurchaseClientManager.__index = PurchaseClientManager
 
+function ShowOtherButtons()
+    ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().visibility = Visibility.FORCE_ON
+    ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().visibility = Visibility.FORCE_ON
+    ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().visibility = Visibility.FORCE_OFF
+end
+
+function HideOtherButton()
+    ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().visibility = Visibility.FORCE_OFF
+    ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().visibility = Visibility.FORCE_OFF
+    ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().visibility = Visibility.FORCE_ON
+end
+
+
 function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     if PurchaseClientManager then PurchaseClientManager.ClosePanel() end
     ConfirmationPanel = World.SpawnAsset(PurchaseConfirmationBox)
@@ -18,12 +31,14 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     ConfirmationPanel.clientUserData.Button = ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject()
     if Skin then
         ConfirmationPanel.clientUserData.type = "Skin"
-        ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
-        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format( PurchasePanel_Texts.PurchaseableSkin,Skin.name,Weapon.data.name,Skin.rarity:GetCost())
+        --ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format( PurchasePanel_Texts.PurchaseableSkin,Skin.name,Weapon.data.name,Skin.rarity:GetCost(), Skin.rarity:GetPremiumCost() )
+        ShowOtherButtons()
+
     else 
         ConfirmationPanel.clientUserData.type = "Weapon"
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseWeapon,Weapon)
-        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeapon,Weapon.data.name)
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeapon,Weapon.data.name, Weapon:GetCost())
     end
 end
 
@@ -106,7 +121,6 @@ function PurchaseClientManager.PurchaseError(Code)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
-        ConfirmationPanel:GetCustomProperty("PurchaseCreditButton"):WaitForObject().visibility = Visibility.FORCE_ON
 
     end
     ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)

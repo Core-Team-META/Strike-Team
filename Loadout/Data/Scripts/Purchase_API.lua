@@ -25,7 +25,7 @@ function PurchaseAPI.VerifyWeapon(player, Weapon)
     if Weapon then 
         if PurchaseAPI.GetStorage(player):HasWeapon(Weapon.data.id) then return 3 
         else
-            if 1 > player:GetResource('Credits') then 
+            if Weapon:GetCost() > player:GetResource('Cash') then 
                 return 2 
             else 
                 return 1 
@@ -47,9 +47,18 @@ if Environment.IsServer() then
         local Skin = Weapon:GetSkinByID(skinid)
         
         local Code = PurchaseAPI.VerifySkin(player,Weapon,Skin)
-
         if Code == 1 then
             local price = Skin.rarity:GetCost()
+            PurchaseAPI.RemoveMoney(player,price,"Cash")
+        end
+        
+        if Code == 37 then
+            local price = Skin.rarity:GetPremiumCost()
+            PurchaseAPI.RemoveMoney(player,price,"StrikeCoins")
+        end
+
+        if Code == (1 or 37) then
+            
             PurchaseAPI.RemoveMoney(player,price,"Cash")
             PurchaseAPI.SaveMoney(player)
 
@@ -65,7 +74,7 @@ if Environment.IsServer() then
         local Code = PurchaseAPI.VerifyWeapon(player, Weapon) 
 
         if Code == 1 then
-            PurchaseAPI.RemoveMoney(player,1,"Credits")
+            PurchaseAPI.RemoveMoney(player,Weapon:GetCost(),"Cash")
             PurchaseAPI.SaveMoney(player)
 
             PurchaseAPI.GetStorage(player):AddWeapon(Weaponid)
@@ -90,7 +99,7 @@ if Environment.IsServer() then
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         data["Cash"] = player:GetResource("Cash")
-        data["Credits"] = player:GetResource("Credits")
+        data["StrikeCoins"] = player:GetResource("StrikeCoins")
         Storage.SetSharedPlayerData(_G["StatKey"],player,data)
     end
 
@@ -98,7 +107,7 @@ if Environment.IsServer() then
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         player:SetResource("Cash", data["Cash"] or 0)
-        player:SetResource("Credits", data["Credits"] or 0)
+        player:SetResource("StrikeCoins", data["StrikeCoins"] or 0)
         player:SetResource("Level", data["Level"] or 0)
     end
 
