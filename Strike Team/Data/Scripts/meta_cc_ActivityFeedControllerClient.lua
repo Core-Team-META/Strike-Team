@@ -159,6 +159,7 @@ function AddLine(line, color)
 	lines[1].killerColor = line[7] or color
 	lines[1].killedColor = line[8] or color
 	lines[1].displayTime = time()
+
 end
 
 
@@ -548,11 +549,19 @@ end
 
 Events.Connect("PlayerKilled", OnKill)
 
+function ResetFeed()
+	for i = 1, NUM_LINES do
+		if lines[i] then
+			local feedLines = lineTemplates[i]:GetChildren()
+			for _, element in ipairs(feedLines) do
+				if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+			end
+		end
+	end
+end
 
 --[[
-
 	SHOW JOIN AND LEAVE
-
 ]]
 
 -- nil OnPlayerJoined(Player)
@@ -569,6 +578,7 @@ function OnPlayerLeft(player)
 	AddLine({"", string.format("%s left the game", player.name), "", "PlayerLeft"}, TEXT_COLOR)
 end
 
+Game.roundEndEvent:Connect(ResetFeed)
 
 if SHOW_JOIN_AND_LEAVE then
 	Game.playerJoinedEvent:Connect(OnPlayerJoined)

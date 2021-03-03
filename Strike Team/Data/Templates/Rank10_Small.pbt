@@ -1,13 +1,13 @@
 Assets {
-  Id: 18038694607673579013
-  Name: "SmallIcon_RankFancy"
+  Id: 12863629710650729689
+  Name: "Rank10_Small"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 6314712311500560310
+      RootId: 15445436060172532807
       Objects {
-        Id: 6314712311500560310
-        Name: "SmallIcon_RankFancy"
+        Id: 15445436060172532807
+        Name: "Rank10_Small"
         Transform {
           Scale {
             X: 1
@@ -15,8 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17101762729083545150
-        ChildIds: 16781764477282968606
+        ParentId: 1740522433144907480
+        ChildIds: 1624309971972045989
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -48,7 +48,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16781764477282968606
+        Id: 1624309971972045989
         Name: "Chevron"
         Transform {
           Location {
@@ -61,9 +61,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6314712311500560310
-        ChildIds: 15762153613966018051
-        ChildIds: 8395521226218496273
+        ParentId: 15445436060172532807
+        ChildIds: 11936889021671071556
+        ChildIds: 5939313911445245011
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -82,7 +82,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 8197207422933057384
+              Id: 2640316907363900924
             }
             Color {
               R: 0.068
@@ -108,7 +108,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15762153613966018051
+        Id: 11936889021671071556
         Name: "Chevron"
         Transform {
           Location {
@@ -121,7 +121,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16781764477282968606
+        ParentId: 1624309971972045989
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -142,7 +142,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 8197207422933057384
+              Id: 2640316907363900924
             }
             Color {
               R: 0.392676026
@@ -168,7 +168,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8395521226218496273
+        Id: 5939313911445245011
         Name: "Chevron"
         Transform {
           Location {
@@ -181,8 +181,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16781764477282968606
-        ChildIds: 3038954022745320688
+        ParentId: 1624309971972045989
+        ChildIds: 4859122228246835910
+        ChildIds: 6162565832365871080
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -203,12 +204,12 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 8197207422933057384
+              Id: 2640316907363900924
             }
             Color {
-              R: 0.518241048
-              G: 0.681000054
-              B: 0.621321857
+              R: 0.185174033
+              G: 0.209
+              B: 0.200263813
               A: 1
             }
             TeamSettings {
@@ -229,7 +230,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3038954022745320688
+        Id: 4859122228246835910
         Name: "Chevron"
         Transform {
           Location {
@@ -242,9 +243,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8395521226218496273
-        ChildIds: 11757452599313761517
-        ChildIds: 4764907527847221000
+        ParentId: 5939313911445245011
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -252,9 +251,6 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -4
-          Height: -6
-          UIY: -4.1872263
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -265,12 +261,12 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 13585355101979615416
+              Id: 2497677980808383983
             }
             Color {
-              R: 0.055818
-              G: 0.063
-              B: 0.0603666045
+              R: 0.614884
+              G: 0.694
+              B: 0.664990842
               A: 1
             }
             TeamSettings {
@@ -291,8 +287,8 @@ Assets {
         }
       }
       Objects {
-        Id: 11757452599313761517
-        Name: "Chevron"
+        Id: 6162565832365871080
+        Name: "Rank 10 Small"
         Transform {
           Location {
           }
@@ -304,7 +300,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3038954022745320688
+        ParentId: 5939313911445245011
+        ChildIds: 10653853492396169591
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -312,30 +309,18 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -2
-          Height: -2
-          UIX: 0.05
-          UIY: -0.747768462
+          Width: 30
+          Height: 30
+          UIX: -4.29931641
+          UIY: 16.1281128
+          RotationAngle: 108
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 13585355101979615416
-            }
-            Color {
-              R: 0.518241048
-              G: 0.681000054
-              B: 0.621321857
-              A: 1
-            }
-            TeamSettings {
-            }
+          Panel {
+            IsClipping: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -352,7 +337,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4764907527847221000
+        Id: 10653853492396169591
         Name: "Chevron"
         Transform {
           Location {
@@ -365,7 +350,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3038954022745320688
+        ParentId: 6162565832365871080
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -373,11 +358,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -6
-          Height: -8
-          UIX: 0.05
-          UIY: -0.747768462
-          RotationAngle: 180
+          UIX: -16.1530609
+          UIY: 1.2604084
+          RotationAngle: -108
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -388,12 +371,12 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 1409475161769918181
+              Id: 2497677980808383983
             }
             Color {
-              R: 0.720667064
-              G: 0.947
-              B: 0.864011407
+              R: 0.31896
+              G: 0.36
+              B: 0.344952017
               A: 1
             }
             TeamSettings {
@@ -415,30 +398,21 @@ Assets {
       }
     }
     Assets {
-      Id: 8197207422933057384
-      Name: "Icon Plaque"
+      Id: 2640316907363900924
+      Name: "Icon Star"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Plaque"
+        AssetId: "Icon_Star"
       }
     }
     Assets {
-      Id: 13585355101979615416
-      Name: "Emblem 005"
+      Id: 2497677980808383983
+      Name: "Emblem Star"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Military_Icon_055"
-      }
-    }
-    Assets {
-      Id: 1409475161769918181
-      Name: "Center Arrow 010 Wedge"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "CenterArrow_010Wedge"
+        AssetId: "UI_Military_Icon_059"
       }
     }
     PrimaryAssetId {

@@ -1,6 +1,10 @@
 
 local WEAPON = script:FindAncestorByType("Weapon")
+
 local THROW_ABILITY = WEAPON:GetAbilities()[1]
+if script:GetCustomProperty("Throw") then
+    THROW_ABILITY = script:GetCustomProperty("Throw"):WaitForObject()
+end
 
 local WEAPON_TYPE = script:GetCustomProperty("WeaponType")
 

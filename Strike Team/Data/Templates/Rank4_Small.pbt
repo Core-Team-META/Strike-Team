@@ -1,13 +1,13 @@
 Assets {
-  Id: 1971320457932808294
-  Name: "SmallIcon_Rank5"
+  Id: 12494197539304253630
+  Name: "Rank4_Small"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12859573784132191014
+      RootId: 16866257164963483366
       Objects {
-        Id: 12859573784132191014
-        Name: "SmallIcon_Rank5"
+        Id: 16866257164963483366
+        Name: "Rank4_Small"
         Transform {
           Scale {
             X: 1
@@ -15,8 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 12180714246269776288
+        ParentId: 1740522433144907480
+        ChildIds: 17837241316458546953
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -48,7 +48,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12180714246269776288
+        Id: 17837241316458546953
         Name: "Chevron"
         Transform {
           Location {
@@ -61,8 +61,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12859573784132191014
-        ChildIds: 12853300984952884845
+        ParentId: 16866257164963483366
+        ChildIds: 4780270475955192978
+        ChildIds: 13643242192723257519
+        ChildIds: 12668467997040442360
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -109,7 +111,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12853300984952884845
+        Id: 4780270475955192978
         Name: "Chevron"
         Transform {
           Location {
@@ -122,8 +124,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12180714246269776288
-        ChildIds: 11066149073436187176
+        ParentId: 17837241316458546953
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -131,8 +132,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 10
-          UIY: -1.19859588
+          Width: 8
+          Height: -20
+          UIY: -10.0428314
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -146,9 +148,9 @@ Assets {
               Id: 3350850441690232447
             }
             Color {
-              R: 0.392676026
-              G: 0.516000032
-              B: 0.470781296
+              R: 0.229000017
+              G: 0.0374643952
+              B: 0.00366399414
               A: 1
             }
             TeamSettings {
@@ -169,7 +171,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11066149073436187176
+        Id: 13643242192723257519
         Name: "Chevron"
         Transform {
           Location {
@@ -182,7 +184,127 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12853300984952884845
+        ParentId: 17837241316458546953
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 8
+          Height: -20
+          UIY: 8.34881496
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 3350850441690232447
+            }
+            Color {
+              R: 0.229000017
+              G: 0.0374643952
+              B: 0.00366399414
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12668467997040442360
+        Name: "Chevron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17837241316458546953
+        ChildIds: 6155266887030488295
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 8
+          Height: -20
+          UIY: -0.764587581
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 3350850441690232447
+            }
+            Color {
+              R: 0.454000026
+              G: 0.355633378
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6155266887030488295
+        Name: "Chevron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12668467997040442360
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -191,7 +313,10 @@ Assets {
         }
         Control {
           Width: -5
-          Height: -5
+          Height: 2
+          UIX: 1.69812119
+          UIY: 1.09036338
+          RotationAngle: 180
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -205,9 +330,8 @@ Assets {
               Id: 1010737327138341279
             }
             Color {
-              R: 0.660956
-              G: 0.746000051
-              B: 0.714817286
+              R: 0.963000059
+              G: 0.529650033
               A: 1
             }
             TeamSettings {

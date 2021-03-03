@@ -70,13 +70,13 @@ function FindItem(player)
     end
     local percent = math.random(100)
     if percent <= 50  then
-        GiveMoney(player,500, "MS")
+        GiveMoney(player,1500, "MS")
         return
     elseif percent <= 85 then
-        GiveMoney(player,1000, "MM")
+        GiveMoney(player,5000, "MM")
         return
     else
-        GiveMoney(player,2500, "ML")
+        GiveMoney(player,15000, "ML")
         return
     end
 end

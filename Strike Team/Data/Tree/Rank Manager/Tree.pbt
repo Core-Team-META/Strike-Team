@@ -82,6 +82,9 @@ Objects {
   ChildIds: 13569314577849664014
   ChildIds: 13604510572832177781
   ChildIds: 17479389506015592094
+  ChildIds: 16377028238097052633
+  ChildIds: 4953302552526177729
+  ChildIds: 2193406331332715251
   ChildIds: 10529577260681714102
   UnregisteredParameters {
   }
@@ -113,7 +116,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 100
+      Int: 50
     }
     Overrides {
       Name: "cs:MaxLevel"
@@ -122,13 +125,184 @@ Objects {
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 18038694607673579013
+        Id: 9006746904471052712
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 6206695451198255795
+        Id: 5817253659607419480
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 15867500514693436262
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 2193406331332715251
+  Name: "Rank10"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 45
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 49
+    }
+    Overrides {
+      Name: "cs:SmallRankIcon"
+      AssetReference {
+        Id: 12863629710650729689
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 12349231471752820263
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 11059270527174102125
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 4953302552526177729
+  Name: "Rank9"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 40
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 44
+    }
+    Overrides {
+      Name: "cs:SmallRankIcon"
+      AssetReference {
+        Id: 7212918376377627913
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 14750409854262784100
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 15488453803563036100
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2893761781180628874
+    }
+  }
+}
+Objects {
+  Id: 16377028238097052633
+  Name: "Rank8"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10707650566617624806
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MinLevel"
+      Int: 35
+    }
+    Overrides {
+      Name: "cs:MaxLevel"
+      Int: 39
+    }
+    Overrides {
+      Name: "cs:SmallRankIcon"
+      AssetReference {
+        Id: 4199697846800287897
+      }
+    }
+    Overrides {
+      Name: "cs:LargeRankIcon"
+      AssetReference {
+        Id: 14607161776633735426
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 12309692384200925382
       }
     }
   }
@@ -162,22 +336,28 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 90
+      Int: 30
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 99
+      Int: 34
     }
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 2341986401574800100
+        Id: 17522905265635573699
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 7905391753481335299
+        Id: 6590716691316691742
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 8768134870772704756
       }
     }
   }
@@ -211,22 +391,28 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 70
+      Int: 25
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 89
+      Int: 29
     }
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 6990757834058209262
+        Id: 12346830977779954617
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 1858224861193319401
+        Id: 10021987152125489027
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 11193421392147770028
       }
     }
   }
@@ -260,22 +446,28 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 50
+      Int: 20
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 69
+      Int: 24
     }
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 1971320457932808294
+        Id: 8047278241115218266
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 11588335871885242546
+        Id: 13143365103230173695
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 603466221403959114
       }
     }
   }
@@ -309,22 +501,28 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 30
+      Int: 15
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 49
+      Int: 19
     }
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 13475578394421058443
+        Id: 12494197539304253630
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 5460760313332313700
+        Id: 16044300762559394628
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 16431823694720267158
       }
     }
   }
@@ -358,22 +556,28 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:MinLevel"
-      Int: 15
+      Int: 10
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 29
+      Int: 14
     }
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 16464293629172070287
+        Id: 9868635598729909032
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 4999959790974616417
+        Id: 13537399154269467777
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 6979534147942131960
       }
     }
   }
@@ -411,18 +615,24 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxLevel"
-      Int: 14
+      Int: 9
     }
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 12963037428172175792
+        Id: 18124630474588117119
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 2091995963699318591
+        Id: 6040270537226444541
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 2716535327352744320
       }
     }
   }
@@ -469,13 +679,19 @@ Objects {
     Overrides {
       Name: "cs:SmallRankIcon"
       AssetReference {
-        Id: 1071269884770329892
+        Id: 17552513854983087143
       }
     }
     Overrides {
       Name: "cs:LargeRankIcon"
       AssetReference {
-        Id: 16645119797037747200
+        Id: 10661108433172173940
+      }
+    }
+    Overrides {
+      Name: "cs:MedRankIcon"
+      AssetReference {
+        Id: 16317074618882866322
       }
     }
   }

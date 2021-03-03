@@ -8,11 +8,11 @@ Assets {
   }
 }
 Assets {
-  Id: 9810847745923780896
-  Name: "Frame Ring 1x 004"
+  Id: 7057957939250648142
+  Name: "Center Arrow 003 Wedge"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameRing1x_004"
+    AssetId: "CenterArrow_003Wedge"
   }
 }
