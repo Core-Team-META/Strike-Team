@@ -24,8 +24,8 @@ Objects {
   ChildIds: 10671565427701169845
   ChildIds: 10713213961821925461
   ChildIds: 14036186774430242210
-  ChildIds: 7666426452109523765
   ChildIds: 9151753919777912365
+  ChildIds: 7666426452109523765
   ChildIds: 10996531461860900982
   ChildIds: 1229943756454095254
   ChildIds: 13957708681624490865
@@ -119,32 +119,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9151753919777912365
-  Name: "Brent"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Brent"
-  }
-}
-Objects {
   Id: 7666426452109523765
   Name: "Konz"
   Transform {
@@ -168,6 +142,32 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Konz"
+  }
+}
+Objects {
+  Id: 9151753919777912365
+  Name: "Brent"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Brent"
   }
 }
 Objects {
