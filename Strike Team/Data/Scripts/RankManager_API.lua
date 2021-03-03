@@ -36,6 +36,7 @@ function API.RegisterRanks(list)
     if not next(ranks) then
         for i, child in ipairs(list:GetChildren()) do
             local rankIcon = child:GetCustomProperty("SmallRankIcon")
+            local medRankIcon = child:GetCustomProperty("MedRankIcon")
             local largeRankIcon = child:GetCustomProperty("LargeRankIcon")
             local minLevel = child:GetCustomProperty("MinLevel")
             local maxLevel = child:GetCustomProperty("MaxLevel")
@@ -44,6 +45,7 @@ function API.RegisterRanks(list)
 
             local rank = {
                 icon = rankIcon,
+                medIcon, medRankIcon,
                 largeIcon = largeRankIcon,
                 name = rankName,
                 minLevel = minLevel,
@@ -83,6 +85,11 @@ end
 function API.GetLargeRankIcon(player)
     local rankData = API.GetPlayerRankData(player)
     return rankData.largeIcon
+end
+
+function API.GetMediumRankIcon(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.medIcon
 end
 
 function API.GetSmallRankIcon(player)
