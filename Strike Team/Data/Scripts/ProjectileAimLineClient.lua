@@ -77,11 +77,11 @@ function AbilityTick(ability, deltaTime)
         --end
 
         local velocity = projectileSpeed * direction
-
+		local GRAVITY = 1200 --980
         for i = 1, nPoints do
             local t = 0.05
 
-            velocity.z = velocity.z - 980 * gravityScale * t
+            velocity.z = velocity.z - GRAVITY * gravityScale * t
             velocity = velocity - (velocity * (projectileDrag) * t)
             position = position + velocity * t
 
