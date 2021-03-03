@@ -32,45 +32,42 @@ local function SetPlayerFlags(player)
     player.serverUserData.ACH_killCount = 0
 end
 
-local function PlayerKilled(player, target, type, isHeadShot)
-    if isHeadShot then
-        ACH_API.AddProgress(player, "AS_Sharpshooter", 1)
+local function PlayerKilled(player, target, weaponType, isHeadShot)
+     
+    if weaponType == "Assault Rifle" then
+        ACH_API.AddProgress(player, "AS_Rifle", 1)
+
+
+    elseif weaponType == "SMG" then
+        ACH_API.AddProgress(player, "AS_SMG", 1)
+
+
+    elseif weaponType == "Sniper" then
+        ACH_API.AddProgress(player, "AS_Sniper", 1)
+
+
+    elseif weaponType == "Melee" then
+        ACH_API.AddProgress(player, "AS_Melee", 1)
+
+
+    elseif weaponType == "LMG" then
+        ACH_API.AddProgress(player, "AS_LMG", 1)
+
+
+    elseif weaponType == "Shotgun" then
+        ACH_API.AddProgress(player, "AS_Shotgun", 1)
+
+
+    elseif weaponType == "Pistol" then
+        ACH_API.AddProgress(player, "AS_Pistol", 1)
     end
 
     if player.isDead then
         ACH_API.AddProgress(player, "AS_Revenge", 1)
     end
 
-    if type == "Assault Rifle" then
-        ACH_API.AddProgress(player, "AS_Rifle", 1)
-    end
-
-    if type == "Melee" then
-        ACH_API.AddProgress(player, "AS_Melee", 1)
-    end
-
-    if type == "SMG" then
-        ACH_API.AddProgress(player, "AS_SMG", 1)
-    end
-
-    if type == "LMG" then
-        ACH_API.AddProgress(player, "AS_LMG", 1)
-    end
-
-    if type == "Sniper" then
-        ACH_API.AddProgress(player, "AS_Sniper", 1)
-    end
-
-    if type == "Rocket Launcher" then
-        ACH_API.AddProgress(player, "AS_Rockets", 1)
-    end
-
-    if type == "Shotgun" then
-        ACH_API.AddProgress(player, "AS_Shotgun", 1)
-    end
-
-    if type == "Pistol" then
-        ACH_API.AddProgress(player, "AS_Pistol", 1)
+    if isHeadShot then
+        ACH_API.AddProgress(player, "AS_Sharpshooter", 1)
     end
 
     ACH_API.AddProgress(player, "AS_Recruit", 1)
@@ -80,16 +77,21 @@ local function PlayerKilled(player, target, type, isHeadShot)
 
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
+
+    --[[ if weaponType == "Rocket Launcher" then
+        ACH_API.AddProgress(player, "AS_Rockets", 1)
+    end ]]
+ --
 end
 
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
-function PlayerDamaged(player, target, type, isHeadShot)
+function PlayerDamaged(player, target, weaponType, isHeadShot)
     if IsValidPlayer(player) and IsValidPlayer(target) then
         if (target.isDead) and not target.serverUserData.ACH_killCredited then
-            PlayerKilled(player, target, type, isHeadShot)
+            PlayerKilled(player, target, weaponType, isHeadShot)
         end
     end
 end
