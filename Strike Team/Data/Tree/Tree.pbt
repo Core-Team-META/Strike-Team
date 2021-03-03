@@ -29,7 +29,6 @@ Objects {
   ChildIds: 10996531461860900982
   ChildIds: 1229943756454095254
   ChildIds: 13957708681624490865
-  ChildIds: 10910474478249969427
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,33 +38,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 10910474478249969427
-  Name: "GrenadeLOS"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 18045273018505054026
-      value {
-        Overrides {
-          Name: "Name"
-          String: "GrenadeLOS"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9947807875728528770
-    }
   }
 }
 Objects {
