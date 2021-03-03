@@ -53,7 +53,7 @@ function AbilityTick(ability, deltaTime)
         --------------------------------------------------------------
         local targetData = AIM_ABILITY:GetTargetData()
 
-        local startPosition = LOCAL_PLAYER:GetWorldPosition() + LOCAL_PLAYER:GetLookWorldRotation() * Vector3.New(50, 50, 100)
+        local startPosition = LOCAL_PLAYER:GetWorldPosition() + LOCAL_PLAYER:GetLookWorldRotation() * Vector3.New(50, 24, 80)
         local hitPosition = AIM_ABILITY:GetTargetData():GetHitPosition()
         local direction = (hitPosition-startPosition):GetNormalized()
 
