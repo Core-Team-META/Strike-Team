@@ -2264,7 +2264,7 @@ Objects {
     Overrides {
       Name: "cs:PlayerNameText"
       ObjectReference {
-        SelfId: 10653456515632429104
+        SelfId: 13776998967694611956
       }
     }
     Overrides {

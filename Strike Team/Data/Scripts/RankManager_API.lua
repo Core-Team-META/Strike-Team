@@ -45,7 +45,7 @@ function API.RegisterRanks(list)
 
             local rank = {
                 icon = rankIcon,
-                medIcon, medRankIcon,
+                medIcon = medRankIcon,
                 largeIcon = largeRankIcon,
                 name = rankName,
                 minLevel = minLevel,
