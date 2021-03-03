@@ -1291,11 +1291,39 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7211147244113034258
+      value {
+        Overrides {
+          Name: "cs:Weapon"
+          AssetReference {
+            Id: 15359102498670542219
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9138667974128995378
+      value {
+        Overrides {
+          Name: "cs:Weapon"
+          AssetReference {
+            Id: 16866294686352594257
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11200075862270066853
       value {
         Overrides {
           Name: "Name"
           String: "Flash Grenade"
+        }
+        Overrides {
+          Name: "cs:Weapon"
+          AssetReference {
+            Id: 16312634010414853466
+          }
         }
       }
     }

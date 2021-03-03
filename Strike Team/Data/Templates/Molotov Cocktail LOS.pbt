@@ -1,13 +1,13 @@
 Assets {
-  Id: 9947807875728528770
-  Name: "GrenadeLOS"
+  Id: 16866294686352594257
+  Name: "Molotov Cocktail LOS"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 18045273018505054026
+      RootId: 7876709741865721864
       Objects {
-        Id: 18045273018505054026
-        Name: "GrenadeLOS"
+        Id: 7876709741865721864
+        Name: "Molotov Cocktail LOS"
         Transform {
           Scale {
             X: 1
@@ -16,34 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 11488199520564762561
-        ChildIds: 6698035183165842641
-        ChildIds: 17817004249988036281
-        ChildIds: 13322884209301963452
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:PickupSound"
-            AssetReference {
-              Id: 6795206535065158887
-            }
-          }
-          Overrides {
-            Name: "cs:ReticleTemplate"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:EquipmentIcon"
-            AssetReference {
-              Id: 12570125024485235394
-            }
-          }
-          Overrides {
-            Name: "cs:WeaponType"
-            String: "Grenade"
-          }
-        }
+        ChildIds: 17897905770455014369
+        ChildIds: 12636821329737771212
+        ChildIds: 6136523077571787392
+        ChildIds: 14566772174438550388
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -54,13 +30,14 @@ Assets {
         Equipment {
           SocketName: "right_prop"
           PickupTrigger {
+            SelfId: 841534158063459245
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 841534158063459245
+              Id: 14482320207318663573
             }
             MuzzleFlashAssetRef {
-              Id: 8113725433182133795
+              Id: 841534158063459245
             }
             TrailAssetRef {
               Id: 841534158063459245
@@ -71,21 +48,23 @@ Assets {
             Muzzle {
               Location {
               }
+              Rotation {
+              }
             }
             OutOfAmmoSfxAssetRef {
-              Id: 1683114021203363022
+              Id: 841534158063459245
             }
             ReloadSfxAssetRef {
-              Id: 12107734285812188601
+              Id: 841534158063459245
             }
             ImpactProjectileAssetRef {
-              Id: 841534158063459245
+              Id: 14550734067781877594
             }
             BeamAssetRef {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 1
+            BurstDuration: 4
             Range: 100000
             ImpactPlayerAssetRef {
               Id: 841534158063459245
@@ -97,14 +76,18 @@ Assets {
             AmmoType: "rounds"
             MultiShot: 1
             ProjectileSpeed: 3200
-            ProjectileLifeSpan: 4
+            ProjectileLifeSpan: 10
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12
-            ProjectileBounces: 2
-            ProjectileDrag: 0.12
+            ProjectileDrag: 0.06
+            SpreadMin: 1
+            SpreadMax: 90
+            SpreadDecreaseSpeed: 6
+            SpreadIncreasePerShot: 2
+            SpreadPenaltyPerShot: 1.5
             DefaultAbility {
-              SubObjectId: 6698035183165842641
+              SubObjectId: 6136523077571787392
             }
             ReloadAbility {
               SelfId: 841534158063459245
@@ -116,7 +99,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11488199520564762561
+        Id: 17897905770455014369
         Name: "ClientContext"
         Transform {
           Location {
@@ -129,8 +112,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18045273018505054026
-        ChildIds: 7831518001712466099
+        ParentId: 7876709741865721864
+        ChildIds: 1940343787515684868
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -142,7 +125,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7831518001712466099
+        Id: 1940343787515684868
         Name: "ProjectileAimLineClient"
         Transform {
           Location {
@@ -155,18 +138,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11488199520564762561
+        ParentId: 17897905770455014369
         UnregisteredParameters {
           Overrides {
             Name: "cs:Aim"
             ObjectReference {
-              SubObjectId: 6698035183165842641
+              SubObjectId: 6136523077571787392
             }
           }
           Overrides {
             Name: "cs:Throw"
             ObjectReference {
-              SubObjectId: 17817004249988036281
+              SubObjectId: 14566772174438550388
             }
           }
           Overrides {
@@ -189,7 +172,59 @@ Assets {
         }
       }
       Objects {
-        Id: 6698035183165842641
+        Id: 12636821329737771212
+        Name: "Molotov Cocktail"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7876709741865721864
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:MolotovCocktail"
+            ObjectReference {
+              SubObjectId: 7876709741865721864
+            }
+          }
+          Overrides {
+            Name: "cs:MolotovDamage"
+            AssetReference {
+              Id: 5077433776659593135
+            }
+          }
+          Overrides {
+            Name: "cs:DamagePerSecond"
+            Float: 75
+          }
+          Overrides {
+            Name: "cs:AttackAbility"
+            ObjectReference {
+              SubObjectId: 14566772174438550388
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 8190291046518781771
+          }
+        }
+      }
+      Objects {
+        Id: 6136523077571787392
         Name: "Aim"
         Transform {
           Location {
@@ -202,9 +237,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18045273018505054026
-        UnregisteredParameters {
-        }
+        ParentId: 7876709741865721864
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -214,7 +247,6 @@ Assets {
         }
         Ability {
           IsEnabled: true
-          KeyBinding: "ability_primary"
           CastPhaseSettings {
             Duration: 5
             CanMove: true
@@ -238,6 +270,7 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -248,7 +281,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 30
+            Duration: 10
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -265,7 +298,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17817004249988036281
+        Id: 14566772174438550388
         Name: "Throw"
         Transform {
           Location {
@@ -278,9 +311,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18045273018505054026
-        UnregisteredParameters {
-        }
+        ParentId: 7876709741865721864
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -290,7 +321,6 @@ Assets {
         }
         Ability {
           IsEnabled: true
-          KeyBinding: "ability_primary"
           CastPhaseSettings {
             Duration: 0.15
             CanMove: true
@@ -314,6 +344,7 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
+            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -339,55 +370,6 @@ Assets {
             Value: "mc:egameaction:invalid"
           }
         }
-      }
-      Objects {
-        Id: 13322884209301963452
-        Name: "FragGrenadeServer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18045273018505054026
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:WeaponType"
-            String: "Grenade"
-          }
-          Overrides {
-            Name: "cs:Throw"
-            ObjectReference {
-              SubObjectId: 17817004249988036281
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 8825587260083121956
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 12570125024485235394
-      Name: "Icon Grenade"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Grenade"
       }
     }
     PrimaryAssetId {
