@@ -35,7 +35,7 @@ Assets {
               Id: 14482320207318663573
             }
             MuzzleFlashAssetRef {
-              Id: 841534158063459245
+              Id: 8113725433182133795
             }
             TrailAssetRef {
               Id: 841534158063459245
@@ -62,7 +62,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 4
+            BurstDuration: 1
             Range: 100000
             ImpactPlayerAssetRef {
               Id: 841534158063459245
@@ -73,16 +73,12 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 3000
+            ProjectileSpeed: 3200
             ProjectileLifeSpan: 10
-            ProjectileGravity: 2
-            ProjectileLength: 100
-            ProjectileRadius: 4
-            SpreadMin: 1
-            SpreadMax: 90
-            SpreadDecreaseSpeed: 6
-            SpreadIncreasePerShot: 2
-            SpreadPenaltyPerShot: 1.5
+            ProjectileGravity: 1.9
+            ProjectileLength: 12
+            ProjectileRadius: 12
+            ProjectileDrag: 0.06
             DefaultAbility {
               SubObjectId: 17626433247873066362
             }
@@ -149,7 +145,7 @@ Assets {
       }
       Objects {
         Id: 17626433247873066362
-        Name: "AttackAbility"
+        Name: "Throw"
         Transform {
           Location {
           }
