@@ -375,7 +375,7 @@ Objects {
 }
 Objects {
   Id: 16534756673854649923
-  Name: "LifetimeOBJECTIVES"
+  Name: "LifetimeOjectives"
   Transform {
     Location {
     }
@@ -1137,7 +1137,7 @@ Objects {
 }
 Objects {
   Id: 15040601248434552375
-  Name: "OBJECTIVES"
+  Name: "Objectives"
   Transform {
     Location {
     }
@@ -1590,7 +1590,7 @@ Objects {
 }
 Objects {
   Id: 14797426944352587653
-  Name: "LifetimeKDR"
+  Name: "LifetimeOjectives"
   Transform {
     Location {
     }
@@ -1606,12 +1606,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceForEntry"
-      String: "KDR"
+      String: "Objective"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "B52D00317BC6795E"
+        Key: "FA8F043AB76A90AB"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -1800,7 +1800,7 @@ Objects {
 }
 Objects {
   Id: 6797050645391217480
-  Name: "KDR"
+  Name: "Objectives"
   Transform {
     Location {
     }
@@ -1816,12 +1816,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceForEntry"
-      String: "KDR"
+      String: "Objective"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "A0E7E480C0D2C4C9"
+        Key: "0542E06377020DEA"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
