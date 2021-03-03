@@ -44,39 +44,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15447997501885534168
-  Name: "Sci-fi Ability Red 005"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Ability_Red_005"
-  }
-}
-Assets {
-  Id: 14954002686605865816
-  Name: "Fantasy Ability Red 006"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Red_006"
-  }
-}
-Assets {
   Id: 13913059803195293947
   Name: "Survival Money 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Equip_Money_001"
-  }
-}
-Assets {
-  Id: 13575128885289472533
-  Name: "Frame Outlined Thick 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameFlat_020"
   }
 }
 Assets {
@@ -107,30 +80,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11558416342040965384
-  Name: "Sci-fi Ability Red 013"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Ability_Red_013"
-  }
-}
-Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "PlayBold_ref"
-  }
-}
-Assets {
-  Id: 10643752160806927946
-  Name: "Fantasy Ability Purple 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Purple_015"
   }
 }
 Assets {
@@ -152,66 +107,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8765361168471121388
-  Name: "Fantasy Ability Yellow 022"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Yellow_022"
-  }
-}
-Assets {
-  Id: 8480194176532022475
-  Name: "Fantasy Ability Yellow 008"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Yellow_008"
-  }
-}
-Assets {
-  Id: 7887978635932231235
-  Name: "Fantasy Ability Blue 006"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Blue_006"
-  }
-}
-Assets {
-  Id: 5797719873306616824
-  Name: "Sci-fi Ability Blue 007"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Ability_Blue_007"
-  }
-}
-Assets {
-  Id: 5729643459947937238
-  Name: "Fantasy Ability Purple 010"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Purple_010"
-  }
-}
-Assets {
   Id: 5161641800464711927
   Name: "Fantasy Gold 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Gold_002"
-  }
-}
-Assets {
-  Id: 4115963281290827947
-  Name: "Sci-fi Ability Green 004"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Ability_Green_004"
   }
 }
 Assets {
@@ -257,15 +158,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
-  }
-}
-Assets {
-  Id: 1641512795081380093
-  Name: "Oswald"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "OswaldRegular_ref"
   }
 }
 Assets {
