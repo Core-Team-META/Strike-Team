@@ -114,6 +114,7 @@ Assets {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          UseParentWidth: true
           Panel {
           }
           AnchorLayout {
