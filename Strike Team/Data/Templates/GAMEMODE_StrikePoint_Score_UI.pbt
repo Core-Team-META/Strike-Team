@@ -2625,7 +2625,7 @@ Assets {
             }
           }
           Text {
-            Label: "20"
+            Label: "00"
             Color {
               R: 1
               G: 1
@@ -2689,7 +2689,6 @@ Assets {
             }
           }
           Text {
-            Label: "POINT UNLOCKS IN"
             Color {
               R: 1
               G: 1
