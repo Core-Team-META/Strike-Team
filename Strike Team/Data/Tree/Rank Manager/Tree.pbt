@@ -16,6 +16,7 @@ Objects {
   }
   ParentId: 15549939467812718615
   ChildIds: 16501987622516674451
+  ChildIds: 3714840214433711546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -23,6 +24,47 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 3714840214433711546
+  Name: "Rank_EndGameUI_Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13987852842266953839
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:Insignia"
+      ObjectReference {
+        SelfId: 5888703191258211335
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9228186964385686692
+    }
   }
 }
 Objects {

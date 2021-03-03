@@ -71,39 +71,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11652084105335519183
-  Name: "Center Arrow 008 Wedge"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterArrow_008Wedge"
-  }
-}
-Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "PlayBold_ref"
-  }
-}
-Assets {
-  Id: 10375365990357638103
-  Name: "Center Arrow 005 Wedge"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterArrow_005Wedge"
-  }
-}
-Assets {
-  Id: 9521457602767586341
-  Name: "Center Arrow 012 Wedge"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterArrow_012Wedge"
   }
 }
 Assets {
@@ -125,24 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3260833742141390182
-  Name: "Frame Line 002a Corner"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameLine_002aHalf"
-  }
-}
-Assets {
-  Id: 3117671084169122382
-  Name: "Center Arrow 012a Wedge"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterArrow_012aWedge"
-  }
-}
-Assets {
   Id: 2990917165450855258
   Name: "Oswald Italic"
   PlatformAssetType: 28
@@ -158,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
-  }
-}
-Assets {
-  Id: 1600196789462442746
-  Name: "Emblem 007"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Icon_057"
   }
 }
 Assets {
