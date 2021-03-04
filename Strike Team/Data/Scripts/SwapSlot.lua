@@ -43,8 +43,12 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
     end
 end)
 
-while not _G["ABGS"]  do Task.Wait() end
+Events.Connect("SwapPanelForceOpen",ToggleOn)
+Events.Connect("SwapPanelForceClose",ToggleOff)
 
+
+
+while not _G["ABGS"]  do Task.Wait() end
 
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
     if newState == _G["ABGS"].GAME_STATE_ROUND_VOTING or _G["ABGS"].GAME_STATE_ROUND_END or _G["ABGS"].GAME_STATE_ROUND_STATS   then 
@@ -54,8 +58,5 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     end
 end
 Events.Connect("GameStateChanged", OnGameStateChanged)
-Events.Connect("SwapPanelForceOpen",ToggleOn)
-Events.Connect("SwapPanelForceClose",ToggleOff)
-
 
 
