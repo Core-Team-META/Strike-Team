@@ -28,6 +28,7 @@ local RoundEndUIDisplayTemplate = script:GetCustomProperty("RoundEndUIDisplay")
 
 local shouldShowTimer = false
 local listeners = {}
+local activePanels = {}
 
 local function DisconnectListeners()
     for _, listener in ipairs(listeners) do
@@ -51,16 +52,27 @@ local function UpdateTimeRemaining(remainingTime)
     end
 end
 
+local function ClearActivePanels()
+    for _, panel in pairs(activePanels) do
+        if Object.IsValid(panel) then
+            panel.visibility = Visibility.FORCE_OFF
+        end
+    end
+end
+
 function OnButtonPressed(button)
+    ClearActivePanels()
+    
     if button == VICTORY_SCREEN_BUTTON then
+        activePanels["VICTORY_SCREEN"].visibility = Visibility.FORCE_ON
         -- Victory Screen
         Events.Broadcast("ShowVictoryScreen")
-    end
-    if button == STATS_SCREEN_BUTTON then
+    elseif button == STATS_SCREEN_BUTTON then
+        activePanels["STATS_SCREEN"].visibility = Visibility.FORCE_ON
         -- Stats Screen
         Events.Broadcast("ShowStatsScreen")
-    end
-    if button == SCOREBOARD_BUTTON then
+    elseif button == SCOREBOARD_BUTTON then
+        activePanels["SCORE_BOARD"].visibility = Visibility.FORCE_ON
         -- Scoreboard
         Events.Broadcast("ShowScoreboardScreen")
     end
@@ -77,6 +89,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         UI.SetCursorVisible(false)
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         World.SpawnAsset(RoundEndUIDisplayTemplate)
+        ClearActivePanels()
         Task.Wait(5)
 
         shouldShowTimer = true
@@ -96,6 +109,12 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         -- Cursor and Button setup
         UI.SetCanCursorInteractWithUI(true)
         UI.SetCursorVisible(true)
+
+        activePanels["VICTORY_SCREEN"] = VICTORY_SCREEN_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["STATS_SCREEN"] = STATS_SCREEN_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["SCORE_BOARD"] = SCOREBOARD_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+
+        activePanels["VICTORY_SCREEN"].visibility = Visibility.FORCE_ON
 
         listeners[#listeners + 1] = VICTORY_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
         listeners[#listeners + 1] = STATS_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
