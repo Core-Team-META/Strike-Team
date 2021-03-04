@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13181704607944528788
+  Name: "Survival Pot 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Pot_002"
+  }
+}
+Assets {
   Id: 12577597540670242942
   Name: "Survival Tool Pickaxe 002"
   PlatformAssetType: 9

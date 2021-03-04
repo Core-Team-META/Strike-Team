@@ -518,6 +518,125 @@ Objects {
   }
 }
 Objects {
+  Id: 1432410517337355618
+  Name: "Pan"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 17419868764283913739
+      }
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 13181704607944528788
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 13181704607944528788
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 17582367140764135335
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.546
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 16194584868840822723
+    SubobjectId: 8427935816344805884
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
   Id: 8786342230990518860
   Name: "Bat"
   Transform {
@@ -664,7 +783,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 15941196163952459759
+        Id: 9947807875728528770
       }
     }
     Overrides {
@@ -796,7 +915,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 10706991407395748906
+        Id: 16866294686352594257
       }
     }
     Overrides {
