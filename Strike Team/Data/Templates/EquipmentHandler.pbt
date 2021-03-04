@@ -5622,6 +5622,12 @@ Assets {
         }
         ParentId: 10065095363855225092
         ChildIds: 15394827217863815071
+        ChildIds: 2080684013145081958
+        ChildIds: 4652453720744788153
+        ChildIds: 8297301311363447406
+        ChildIds: 4041972631444464198
+        ChildIds: 14882477821164350885
+        ChildIds: 5630368539969828154
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -5707,6 +5713,240 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 2080684013145081958
+        Name: "Paddle "
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16751775279551766866
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "PA"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 4652453720744788153
+        Name: "Copper "
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16918214859871187629
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CU"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 8297301311363447406
+        Name: "CastIron"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 4195266103501872306
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CI"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 4041972631444464198
+        Name: "Toy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16052298965304784488
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "TY"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14882477821164350885
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10900610800810382319
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 5630368539969828154
+        Name: "Cathy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1914249054340158099
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CA"
           }
         }
         Collidable_v2 {
@@ -8816,6 +9056,7 @@ Assets {
         ChildIds: 3068707792704928713
         ChildIds: 18334224967386857407
         ChildIds: 6228452794533672425
+        ChildIds: 13648137261775052584
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -9144,6 +9385,75 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "Increases Reload Speed"
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Roll: 90
+            }
+          }
+          Overrides {
+            Name: "cs:Level"
+            Int: 40
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 13648137261775052584
+        Name: "Martyrdom"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7860471800508521256
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "MD"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "RHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 2753103022218687394
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 1046193506233485157
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 16632137313192406544
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "Drop live"
           }
           Overrides {
             Name: "cs:RotationOffset"
@@ -11694,6 +12004,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_SciFi_Ability_Blue_031"
+      }
+    }
+    Assets {
+      Id: 16632137313192406544
+      Name: "Sci-fi Ability Red 023"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Ability_Red_023"
       }
     }
     Assets {
