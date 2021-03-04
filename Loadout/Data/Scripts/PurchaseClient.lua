@@ -40,8 +40,8 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
         ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject():GetCustomProperty("PurchaseText"):WaitForObject().text = string.format("Purchase for $%d",Skin.rarity:GetCost())
         ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject():GetCustomProperty("PurchaseText"):WaitForObject().text = string.format("Purchase for %d SC",Skin.rarity:GetPremiumCost())
         ShowOtherButtons()
-        ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
-        ConfirmationPanel.clientUserData.buttonEventOther = ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
+        ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin,"Cash")
+        ConfirmationPanel.clientUserData.buttonEventOther = ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin,"StrikeCoins")
 
     else 
         ConfirmationPanel.clientUserData.type = "Weapon"
@@ -143,17 +143,19 @@ function PurchaseClientManager.OpenFailed(Code)
 end
 
 
-function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin)
+function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin,type)
+    HideOtherButton()
     ConfirmationPanel.clientUserData.buttonEvent:Disconnect()
     ConfirmationPanel.clientUserData.buttonEventOther:Disconnect()
     ConfirmationPanel.clientUserData.SuccessEvent = Events.Connect("PurchaseAPI_PurchaseSuccessful", PurchaseClientManager.PurchaseSuccessful)
     ConfirmationPanel.clientUserData.ErrorEvent = Events.Connect("PurchaseAPI_PurchaseError", PurchaseClientManager.PurchaseError)
     ConfirmationPanel.clientUserData.Button.text = "Purchasing..."
-    local Code = Purchase_API.BuySkin(Weapon,Skin)  
+
+    local Code = Purchase_API.BuySkin(Weapon,Skin,type)
+
     if Code ~= 1 then 
         PurchaseClientManager.PurchaseError(Code)
     end
-    --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),Skin.name)
 
 	if _G.Funnel then
 		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
