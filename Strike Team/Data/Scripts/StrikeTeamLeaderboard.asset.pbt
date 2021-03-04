@@ -11,29 +11,13 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:ResourceToTrack"
-        String: "KillStreak"
-      }
-      Overrides {
-        Name: "cs:LeaderboardReference"
-        NetReference {
-          Key: "4D4536DFCEEE0D16"
-          Type {
-            Value: "mc:enetreferencetype:leaderboard"
-          }
+        Name: "cs:LeaderboardInfo"
+        ObjectReference {
         }
       }
       Overrides {
-        Name: "cs:IsWeekly"
-        Bool: false
-      }
-      Overrides {
-        Name: "cs:IsGlobal"
-        Bool: true
-      }
-      Overrides {
         Name: "cs:RowCount"
-        Int: 10
+        Int: 15
       }
       Overrides {
         Name: "cs:RowDistance"
@@ -41,7 +25,25 @@ Assets {
       }
       Overrides {
         Name: "cs:PadTop"
-        Int: 10
+        Int: -10
+      }
+      Overrides {
+        Name: "cs:NameColorOther"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:NameColorLocal"
+        Color {
+          R: 0.956862807
+          G: 0.356862754
+          B: 0.00784313772
+          A: 1
+        }
       }
     }
   }

@@ -842,6 +842,12 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 14797426944352587653
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1500,6 +1506,12 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 2265442582384896716
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1595,9 +1607,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 640
+    Height: 625
     UIX: 625
-    UIY: -190
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2218,6 +2230,12 @@ Objects {
       Name: "cs:IsGlobal"
       Bool: false
     }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 5624944219274807550
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2262,9 +2280,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 640
+    Height: 625
     UIX: 305
-    UIY: -190
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2885,6 +2903,12 @@ Objects {
       Name: "cs:IsGlobal"
       Bool: false
     }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 9240722280857962136
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2929,9 +2953,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 640
+    Height: 625
     UIX: -15
-    UIY: -190
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3552,6 +3576,12 @@ Objects {
       Name: "cs:IsGlobal"
       Bool: false
     }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 6797050645391217480
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3596,9 +3626,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 640
+    Height: 625
     UIX: -335
-    UIY: -190
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4206,6 +4236,12 @@ Objects {
       Name: "cs:IsGlobal"
       Bool: false
     }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 1433209535925160565
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4250,9 +4286,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 640
+    Height: 625
     UIX: -650
-    UIY: -190
+    UIY: -200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4872,6 +4908,12 @@ Objects {
     Overrides {
       Name: "cs:IsGlobal"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:LeaderboardInfo"
+      ObjectReference {
+        SelfId: 9878525961060559826
+      }
     }
   }
   Collidable_v2 {
