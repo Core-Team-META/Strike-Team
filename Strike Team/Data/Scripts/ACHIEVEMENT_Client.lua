@@ -156,7 +156,9 @@ function Int()
 end
 
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
-    if newState ~= ABGS.GAME_STATE_ROUND then
+    if newState == ABGS.GAME_STATE_LOBBY then
+        ACHIEVEMENTS_DETAILS_UI.visibility = Visibility.FORCE_OFF
+    elseif newState ~= ABGS.GAME_STATE_ROUND then
         shouldShow = true
         NOTIFICATION.visibility = Visibility.FORCE_ON
     else

@@ -92,8 +92,12 @@ end
 
 function OnBeginOverlap(trigger, object)
     if trigger == TRIGGER and object:IsA("Player") and not object.isDead then
-        playersOnHill[object] = object.team
-        CheckPlayersOnHill()
+        local triggerPos = ROOT:GetWorldPosition()
+        local objectPos = object:GetWorldPosition()
+        if triggerPos.z <= objectPos.z then
+            playersOnHill[object] = object.team
+            CheckPlayersOnHill()
+        end
     end
 end
 
