@@ -25,7 +25,7 @@ end
 
 function Commands.greedisgood(player, message)
     player:SetResource("Cash",100000)
-    player:SetResource("Credits",1000)
+    player:SetResource("StrikeCoins",10000)
 end
 
 

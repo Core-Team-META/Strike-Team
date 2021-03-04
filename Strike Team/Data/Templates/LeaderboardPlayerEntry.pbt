@@ -15,9 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6859939380899418041
+        ParentId: 8694728719021372099
+        ChildIds: 5402490903893439211
         ChildIds: 16515489829761371584
         ChildIds: 10129015426118223837
+        ChildIds: 5945562105975218830
         UnregisteredParameters {
           Overrides {
             Name: "cs:PlayerName"
@@ -41,7 +43,7 @@ Assets {
         Control {
           Width: 100
           Height: 35
-          UIY: 40
+          UIY: 105
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -59,6 +61,63 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5402490903893439211
+        Name: "BG"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5672885568492043509
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 6
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 2604353830693238371
+            }
+            Color {
+              G: 0.0156953353
+              B: 0.0299999714
+              A: 0.381
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -89,6 +148,7 @@ Assets {
           Width: 215
           Height: 60
           UIX: 15
+          UIY: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -103,7 +163,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 20
+            Size: 15
             Justification {
               Value: "mc:etextjustify:left"
             }
@@ -151,6 +211,7 @@ Assets {
           Width: 55
           Height: 60
           UIX: -15
+          UIY: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -165,7 +226,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 22
+            Size: 15
             Justification {
               Value: "mc:etextjustify:right"
             }
@@ -186,6 +247,70 @@ Assets {
             }
           }
         }
+      }
+      Objects {
+        Id: 5945562105975218830
+        Name: "BOTTOM"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5672885568492043509
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 1
+          Height: 1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          Image {
+            Brush {
+            }
+            Color {
+              G: 0.126357585
+              B: 0.179999948
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+    }
+    Assets {
+      Id: 2604353830693238371
+      Name: "BG Highlighted 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundHighlighted_020"
       }
     }
     Assets {
