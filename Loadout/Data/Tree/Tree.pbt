@@ -23,7 +23,6 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 5087704922136027764
   ChildIds: 4297970923383946370
   ChildIds: 10670408207515956261
   ChildIds: 7325714028980024580
@@ -792,41 +791,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 336823580396764239
-    }
-  }
-}
-Objects {
-  Id: 5087704922136027764
-  Name: "ChatHooks"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Commands"
-      AssetReference {
-        Id: 4480426034829824473
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17154672043655382137
     }
   }
 }
