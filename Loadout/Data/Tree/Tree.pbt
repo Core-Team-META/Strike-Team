@@ -17,6 +17,8 @@ Objects {
   ChildIds: 6278672628054296791
   ChildIds: 7367735074338159388
   ChildIds: 17257846423230686053
+  ChildIds: 2531340925404137440
+  ChildIds: 18308817065163253870
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
@@ -31353,6 +31355,58 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+  }
+}
+Objects {
+  Id: 18308817065163253870
+  Name: "XPLevels"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10037209255759379067
+      value {
+        Overrides {
+          Name: "Name"
+          String: "XPLevels"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13776718265531983768
+    }
+  }
+}
+Objects {
+  Id: 2531340925404137440
+  Name: "Rank Manager"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16674151735511252933
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rank Manager"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15930087830757616918
+    }
   }
 }
 Objects {
