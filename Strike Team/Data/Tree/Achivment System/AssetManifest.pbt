@@ -134,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10698833128597864431
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}
+Assets {
   Id: 10293868230383892927
   Name: "Fantasy Sword 005"
   PlatformAssetType: 9
@@ -275,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Weapon_MachineGun_001"
+  }
+}
+Assets {
+  Id: 1958653091562318230
+  Name: "Center Tri 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterTri_001"
   }
 }
 Assets {
