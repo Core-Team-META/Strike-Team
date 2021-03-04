@@ -413,6 +413,7 @@ Objects {
   ChildIds: 7224756548663269671
   ChildIds: 3022889814022185315
   ChildIds: 7243330689145725114
+  ChildIds: 10119697349422740832
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -421,6 +422,36 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10119697349422740832
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -5622.70703
+      Y: -1075.23193
+      Z: 90.9924
+    }
+    Rotation {
+      Yaw: -41.9360352
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16178623774537817549
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 2
+    PlayerScaleMultiplier: 1
   }
 }
 Objects {
@@ -488,12 +519,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -219.942749
-      Y: -4918.17676
-      Z: 19.7539063
+      X: -182.991516
+      Y: -6379.57227
+      Z: -7.9777832
     }
     Rotation {
-      Yaw: 108.35482
+      Yaw: 38.0017967
     }
     Scale {
       X: 1
@@ -518,9 +549,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 6938.80615
-      Y: -2788.45654
-      Z: 738.905396
+      X: 5156.05811
+      Y: -3723.84741
+      Z: 678.046
     }
     Rotation {
       Yaw: 165.838455
@@ -580,7 +611,7 @@ Objects {
     Location {
       X: 5826.49219
       Y: 2359.05566
-      Z: 1143.771
+      Z: 1168.00854
     }
     Rotation {
       Yaw: -157.217484
@@ -608,8 +639,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2841.31445
-      Y: 4123.08789
+      X: 2795.72314
+      Y: 4068.76563
       Z: 83.2258148
     }
     Rotation {
@@ -638,9 +669,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1301.31458
-      Y: 5578.14648
-      Z: 70.6359863
+      X: 2689.50781
+      Y: 4262.41
+      Z: 707.03186
     }
     Rotation {
       Yaw: -84.921875
@@ -699,7 +730,7 @@ Objects {
   Transform {
     Location {
       X: -6288.68555
-      Y: 4158.84473
+      Y: 2963.17383
       Z: 674.339722
     }
     Rotation {
@@ -727,9 +758,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -9531.61719
-      Y: -1849.84082
-      Z: -41.7526855
+      X: -9377.67676
+      Y: -1883.12646
+      Z: 67.4238281
     }
     Rotation {
     }
@@ -756,12 +787,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -5705.03809
-      Y: 632.09375
-      Z: 864.716919
+      X: -5352.43848
+      Y: -224.598633
+      Z: 948.404175
     }
     Rotation {
-      Yaw: -66.7724
+      Yaw: 101.380058
     }
     Scale {
       X: 1
@@ -786,9 +817,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -6616.13184
-      Y: -4731.02246
-      Z: -59.6807251
+      X: -6244.36475
+      Y: -4656.43164
+      Z: -24.6217041
     }
     Rotation {
     }
@@ -816,8 +847,8 @@ Objects {
   Transform {
     Location {
       X: -2072.1709
-      Y: -5521.86328
-      Z: 17.0979
+      Y: -5309.31201
+      Z: 50.4437561
     }
     Rotation {
       Yaw: 46.6009254
@@ -845,12 +876,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -3859.69922
-      Y: 3537.84766
+      X: -4706.97803
+      Y: 3312.68945
       Z: 69.8293152
     }
     Rotation {
-      Yaw: 2.0170691
+      Yaw: 55.4292488
     }
     Scale {
       X: 1
