@@ -2239,6 +2239,36 @@ Objects {
         Id: 15837158783339302967
       }
     }
+    Overrides {
+      Name: "cs:TOP_BAR"
+      ObjectReference {
+        SelfId: 1378518058296032287
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_ROUND_END"
+      ObjectReference {
+        SelfId: 13643534113358739453
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_Networked"
+      ObjectReference {
+        SelfId: 10857687478960459655
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_GAME_MODE_NAME"
+      ObjectReference {
+        SelfId: 3568005841186694090
+      }
+    }
+    Overrides {
+      Name: "cs:match_lenght"
+      ObjectReference {
+        SelfId: 12574216786017689353
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

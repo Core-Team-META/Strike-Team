@@ -30,11 +30,13 @@ local SHOW_DURING_ROUND_END = COMPONENT_ROOT:GetCustomProperty("ShowDuringRoundE
 -- nil UpdateTimeRemaining(int)
 -- Displays time remaining in hh:mm:ss format
 function UpdateTimeRemaining(remainingTime)
-    if remainingTime then
+    if remainingTime and  remainingTime ~= "" then
         STATE_TIME_TEXT.visibility = Visibility.INHERIT
         local minutes = math.floor(remainingTime) // 60 % 60
         local seconds = math.floor(remainingTime) % 60
         STATE_TIME_TEXT.text = string.format("%02d:%02d", minutes, seconds)
+    else
+        STATE_TIME_TEXT.text = ""
     end
 end
 
@@ -59,8 +61,8 @@ function Tick(deltaTime)
         end
 
         if currentState == ABGS.GAME_STATE_ROUND_END and SHOW_DURING_ROUND_END then
-            STATE_NAME_TEXT.text = "End"
-            UpdateTimeRemaining(remainingTime)
+            STATE_NAME_TEXT.text = ""
+            UpdateTimeRemaining("")
         end
     end
 end
