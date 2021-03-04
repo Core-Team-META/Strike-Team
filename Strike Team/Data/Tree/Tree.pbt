@@ -22,7 +22,6 @@ Objects {
   ChildIds: 15084389731420460127
   ChildIds: 10477958480793043052
   ChildIds: 10671565427701169845
-  ChildIds: 10713213961821925461
   ChildIds: 14036186774430242210
   ChildIds: 9151753919777912365
   ChildIds: 7666426452109523765
@@ -194,32 +193,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Patrick"
-  }
-}
-Objects {
-  Id: 10713213961821925461
-  Name: "Roaming Camera"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14615287023044260272
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Roaming Camera"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10441457064630480018
-    }
   }
 }
 Objects {

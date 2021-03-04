@@ -148,8 +148,8 @@ Module.titles = {
 		prefix = "Manticore",
 		prefixColor = Module.Color.ORANGE,
 		showPrefixColorWhileStatic = true,
-		--icon = script:GetCustomProperty("Manticore"),
-		--iconColor = Module.Color.ORANGE,
+		icon = script:GetCustomProperty("Manticore"),
+		iconColor = Module.Color.ORANGE,
 		isModerator = true,
 		playerMUIDs = {
 			"be501d1b587e4e6a81f301c72c8364a7", -- aBomb
@@ -261,7 +261,6 @@ Module.titles = {
 			"94d3fd50c4824f019421895ec8dbf099", -- Mucusinator
 			"91166471c6ea4d17be6772da4973e6b7", -- mjcortes782
 			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman
-			"581ff579fd864966aec56450754db1fb", -- Waffle
 			"e730c40ae54d4c588658667927acc6d8", -- WitcherSilver
 
 			-- "fdae8d1d32b040d792dc589edda59ced", -- Shhteve
