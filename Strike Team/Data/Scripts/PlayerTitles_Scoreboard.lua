@@ -259,7 +259,7 @@ local function CreatePlayerEntry(player)
 		socialIconImage:SetImage(title.icon or "")
 		socialIconImage:SetColor(title.iconColor or COLOR_DEFAULT)
 		socialIconImage.rotationAngle = tonumber(title.iconRotation) or 0
-		socialIconImage.width = socialIconImage.width + (title.extraWidth or 0)
+		socialIconImage.width = socialIconImage.width + 25 -- (title.extraWidth or 0)
 		socialIconImage.height = socialIconImage.height + (title.extraHeight or 0)
 
 		playerNameText.x = playerNameText.x + 26
