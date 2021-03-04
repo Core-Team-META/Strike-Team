@@ -2357,6 +2357,12 @@ Objects {
         SelfId: 12574216786017689353
       }
     }
+    Overrides {
+      Name: "cs:PLAYER_PANELS"
+      ObjectReference {
+        SelfId: 5530959566149203070
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

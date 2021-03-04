@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10671565427701169845
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -3940,6 +3940,7 @@ Assets {
         ChildIds: 15116588184109938732
         ChildIds: 10053730851248644140
         ChildIds: 12950377110039375135
+        ChildIds: 14977314262883720725
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -4519,6 +4520,49 @@ Assets {
             Name: "cs:SKIN"
             AssetReference {
               Id: 11054108068673477950
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14977314262883720725
+        Name: "SteamPunkTo"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "S2"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 8921104371560315070
             }
           }
           Overrides {

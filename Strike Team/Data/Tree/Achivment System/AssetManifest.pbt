@@ -26,6 +26,33 @@ Assets {
   }
 }
 Assets {
+  Id: 16080437900078114139
+  Name: "Survival Shotgun 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Shotgun_002"
+  }
+}
+Assets {
+  Id: 15102808600489961866
+  Name: "Fantasy Crown 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Crown_001"
+  }
+}
+Assets {
+  Id: 14759442090699897862
+  Name: "Weapon Sniper Rifle 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SniperRifle_003"
+  }
+}
+Assets {
   Id: 13674166041910731120
   Name: "Sci-fi Ability Red 020"
   PlatformAssetType: 9
@@ -35,12 +62,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13533117987219502857
+  Name: "Fantasy Crossbow 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Crossbow_003"
+  }
+}
+Assets {
   Id: 12302064936883739148
   Name: "Weapon Sub MG 004"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Weapon_SubMG_004"
+  }
+}
+Assets {
+  Id: 11753621366940477556
+  Name: "Fantasy Card 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Card_001"
   }
 }
 Assets {
@@ -59,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Ability_Red_020"
+  }
+}
+Assets {
+  Id: 11003755840746783835
+  Name: "Survival Craft Bones 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Crafting_Bones_003"
   }
 }
 Assets {
@@ -86,6 +140,33 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Basic_Corners_001"
+  }
+}
+Assets {
+  Id: 9823496921708851556
+  Name: "Survival Shotgun 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Shotgun_001"
+  }
+}
+Assets {
+  Id: 9532212054162413688
+  Name: "Survival Bat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Bat_001"
+  }
+}
+Assets {
+  Id: 9494927095817957209
+  Name: "Fantasy Cannon 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Cannon_002"
   }
 }
 Assets {
@@ -167,6 +248,24 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 2417593569095758378
+  Name: "Survival Machine Gun 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_MachineGun_001"
+  }
+}
+Assets {
+  Id: 1577908654407312898
+  Name: "Fantasy Gun 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Gun_005"
   }
 }
 Assets {
