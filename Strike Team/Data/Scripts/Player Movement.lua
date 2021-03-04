@@ -25,6 +25,7 @@ function AddSprintBoost(player)
 end
 
 function WillAffectMovement(player)
+    if not player.serverUserData.EquippedWeapon then return false end
     if not player.serverUserData.EquippedWeapon:IsA("Weapon") and player.serverUserData.EquippedWeapon:IsA("Equipment") then
         
         return false
