@@ -170,7 +170,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -5263,7 +5263,7 @@ Objects {
   }
   Control {
     Width: 414
-    Height: 38
+    Height: 48
     UIX: 349.305847
     UIY: 325.790283
     RenderTransformPivot {
@@ -5529,15 +5529,16 @@ Objects {
   }
   Control {
     Width: 375
-    Height: 30
-    UIY: -9.67691
+    Height: 48
+    UIX: 1.63571167
+    UIY: 0.140411377
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
-      Label: "dummy text, how to describe a map if it\'s selfexplaining?"
+      Label: "MINIMAP OF THE BATTLEFIELD. YOUR ICON IS YELLOW.  ALLIES ARE BLUE.  ENEMIES ARE RED (AND ONLY SHOW WHEN VISIBLE)"
       Color {
         R: 0.710000038
         G: 0.879006505
@@ -5589,10 +5590,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 39
-    Height: 398
-    UIX: -12.8000793
-    UIY: -11.5131788
+    Width: 55
+    Height: 460
+    UIX: 16.6435547
+    UIY: -1.69582653
     RotationAngle: 90
     RenderTransformPivot {
       Anchor {
@@ -5652,7 +5653,7 @@ Objects {
   }
   Control {
     Width: 100
-    Height: 100
+    Height: 147
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5700,6 +5701,8 @@ Objects {
   Control {
     Width: 1
     Height: 1
+    UIX: -1.63586426
+    UIY: 14.7259827
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5756,6 +5759,8 @@ Objects {
   Control {
     Width: 1
     Height: 1
+    UIX: -1.63586426
+    UIY: 14.7259827
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5812,6 +5817,8 @@ Objects {
   Control {
     Width: 1
     Height: 1
+    UIX: -1.63586426
+    UIY: 14.7259827
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6259,7 +6266,7 @@ Objects {
       }
     }
     Text {
-      Label: "Killfeet, get some nice additional words for this one."
+      Label: "LOOK HERE TO SEE WHO KILLED WHOM WITH WHAT"
       Color {
         R: 0.710000038
         G: 0.879006505
@@ -6980,7 +6987,7 @@ Objects {
       }
     }
     Text {
-      Label: "REPRESENTATION OF THE ACTUAL MATCHES SCORE. "
+      Label: "CURRENT MATCH SCORE.  YOU ARE THE BLUE TEAM"
       Color {
         R: 0.710000038
         G: 0.879006505
@@ -8906,7 +8913,7 @@ Objects {
       }
     }
     Text {
-      Label: "PRESS \"E\" TO THROW GRANADES, MOLOTOVS OR SMOKE GRANADES. THIS SKILL HAS A COOLDOWN TIME. WHICH INDICATED BY THE NUMBER IN TOP RIGHT CORNER."
+      Label: "PRESS \"E\" TO THROW GRENADES, MOLOTOVS OR SMOKE GRENADES. THIS SKILL HAS A COOLDOWN TIME WHICH IS INDICATED BY THE NUMBER IN TOP RIGHT CORNER."
       Color {
         R: 0.710000038
         G: 0.879006505
@@ -9975,7 +9982,7 @@ Objects {
       }
     }
     Text {
-      Label: "PER LOADOUT YOU CAN CHOOSE A SEPARATE PASSIVE SKILL WHICH IS ALWAYS ACTIVE AND SUPPORTS YOU AUTOMATICALLY WITHOUT ACTIVATING IT MANUALLY."
+      Label: "THIS IS YOUR PASSIVE SKILL. IT IS ALWAYS ACTIVE AND SUPPORTS YOU AUTOMATICALLY WITHOUT ANY NEED FOR MANUAL ACTIVATION."
       Color {
         R: 0.710000038
         G: 0.879006505
@@ -10765,7 +10772,7 @@ Objects {
       }
     }
     Text {
-      Label: "PRESS \"L\" TO OPEN THE LOADOUT MENU. YOU CAN CHANGE TO ONE OF YOUR PRESET LOADOUTS. ON YOUR NEXT RESPAWN YOU WILL BE SPAWNED WITH THE CHOSEN LOADOUT."
+      Label: "PRESS \"L\" TO OPEN THE LOADOUT MENU. YOU CAN SELECT ONE OF YOUR PRESET LOADOUTS. ON YOUR NEXT RESPAWN YOU WILL BE SPAWNED WITH THE SELECTED LOADOUT."
       Color {
         R: 0.710000038
         G: 0.879006505

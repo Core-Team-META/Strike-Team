@@ -136,7 +136,8 @@ end
 -- nil OnExecute(Ability)
 -- Moves player's look using recoil's min and max values
 function OnExecute(ability)
-    if not ENABLE_RECOIL then return end
+    Task.Spawn(function()
+	if not ENABLE_RECOIL then return end
     if not Object.IsValid(WEAPON) then return end
     if not Object.IsValid(LOCAL_PLAYER) then return end
     if ability.owner ~= LOCAL_PLAYER then return end
@@ -167,6 +168,7 @@ function OnExecute(ability)
         accumulatedRecoil = accumulatedRecoil + newRecoil
         RecoverFromRecoil()
     end
+    end)
 end
 
 -- nil OnWeaponAiming(Player, bool)
