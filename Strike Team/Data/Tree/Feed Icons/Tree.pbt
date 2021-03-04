@@ -2167,15 +2167,15 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 20
+        X: 17
+        Y: 17
       }
     }
     Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
-        X: 16
-        Y: 16
+        X: 13
+        Y: 13
       }
     }
     Overrides {
