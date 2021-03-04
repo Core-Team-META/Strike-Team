@@ -47,22 +47,26 @@ function GenerateLeaderboard()
 	local endIndex = ROW_COUNT
 	local halfRowCount = math.floor(ROW_COUNT / 2)
 	if localPlayerIndex < 0 then
+		-- Case where player is below the data / not on the table
 		startIndex = #leaderboardData - ROW_COUNT + 2
 		endIndex = #leaderboardData + 1
 		
 	elseif localPlayerIndex >= #leaderboardData - halfRowCount then
+		-- Case where player is on the table, but at the bottom of it
 		startIndex = #leaderboardData - ROW_COUNT + 1
 		endIndex = #leaderboardData
 			
 	elseif localPlayerIndex > halfRowCount then
+		-- Case where player is in the middle of the table, not at the top
 		startIndex = localPlayerIndex - halfRowCount
 		endIndex = startIndex + ROW_COUNT - 1
+	--else
+	  -- Default case is from 1 to ROW_COUNT; Player is at the top of the table
 	end
 	
 	if startIndex < 1 then startIndex = 1 end
 	if endIndex > #leaderboardData + 1 then endIndex = #leaderboardData + 1 end
 	
-	--for i, entry in ipairs(leaderboardData) do
 	local rowsAdded = 0
 	for i = startIndex, endIndex do
 		if rowsAdded >= ROW_COUNT then
@@ -81,6 +85,7 @@ function GenerateLeaderboard()
 				if RESOURCE_TO_TRACK == "KDR" then
 					_s = _s / 10000
 				end
+				-- Fake leaderboard entry
 				entry = {name = LOCAL_PLAYER.name, score = _s}
 			else
 				break
@@ -103,13 +108,15 @@ function GenerateLeaderboard()
 		entryName = row:FindDescendantByName("PlayerName")
 		entryValue = row:FindDescendantByName("PlayerScore")
 		
-		-- Name
+		-- Write text data to UI
 		if localPlayerIndex < 0 and rowsAdded == ROW_COUNT - 1 then
+			-- Case where player is at the bottom
 			-- Separator elipsis row at the bottom, before player
 			entryName.text = ". . ."
 			entryName:SetColor(NAME_COLOR_OTHER)
 			entryValue.text = ""
 		else
+			-- Name
 			entryName.text = entry.name
 		
 			-- Name Color

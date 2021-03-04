@@ -62,6 +62,7 @@ function OnRoundEndUpdateEntries()
 end
 
 function SaveToWeeklyStorage(player, resource, score)
+	-- Saving to storage
 	local data = Storage.GetPlayerData(player)
 	
 	-- Init if needed
@@ -113,6 +114,7 @@ Events.Connect("GameStateChanged", OnGameStateChanged)
 
 
 function TransferWeeklyStorageToPlayer(player)
+	-- Loading from storage
 	local data = Storage.GetPlayerData(player)
 	if not data[STORAGE_KEY] then return end
 	
