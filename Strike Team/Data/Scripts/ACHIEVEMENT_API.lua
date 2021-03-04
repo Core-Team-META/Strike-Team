@@ -62,7 +62,7 @@ function API.RegisterAchievements(list)
             local rewardIcon = child:GetCustomProperty("RewardIcon")
             local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
             local givesReward = child:GetCustomProperty("GivesReward") or false
-            local Family = script:GetCustomProperty("Family")
+            local Family = child:GetCustomProperty("Family")
             
 
             local achievement = {
@@ -212,6 +212,7 @@ function API.CheckUnlockedAchievements(player)
         for _, achievement in pairs(tbl) do
             if achievement.required > lastCount then
                 highestAchievement = achievement
+                lastCount = achievement.required
             end
         end
         if highestAchievement then
@@ -233,6 +234,10 @@ function API.AddProgress(player, id, value)
 
         --Return if achievement finished
         if currentProgress == 1 then
+            return
+        end
+
+        if not achievements[id] then
             return
         end
 
