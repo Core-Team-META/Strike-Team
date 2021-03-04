@@ -36,13 +36,7 @@ function GenerateLeaderboard()
 			if leaderboard then
 		
 				for slot, entry in ipairs(leaderboard) do
-				
-					if slot > 10 then
-					
-						break
-						
-					end
-					
+									
 					if leaderboardEntries[leaderboardEntryNumber][slot] then
 					
 						entryName = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerName")
@@ -50,6 +44,15 @@ function GenerateLeaderboard()
 						entryValue = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
 						
 						entryName.text = entry.name
+						
+						if entry.name == localPlayer.name then
+						
+							entryName:SetColor(Color.FromStandardHex("F45B02FF"))
+						else 
+						
+							entryName:SetColor(Color.FromStandardHex("FFFFFFFF"))
+						
+						end
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
@@ -73,6 +76,15 @@ function GenerateLeaderboard()
 						entryValue = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
 						
 						entryName.text = entry.name
+						
+						if entry.name == localPlayer.name then
+						
+							entryName:SetColor(Color.FromStandardHex("F45B02FF"))
+						else 
+						
+							entryName:SetColor(Color.FromStandardHex("FFFFFFFF"))
+						
+						end
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
@@ -128,6 +140,15 @@ function GenerateLeaderboard()
 						
 						entryName.text = entry.name
 						
+						if entry.name == localPlayer.name then
+						
+							entryName:SetColor(Color.FromStandardHex("F45B02FF"))
+						else 
+						
+							entryName:SetColor(Color.FromStandardHex("FFFFFFFF"))
+						
+						end
+						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						
 							entryValue.text = string.format("%0.1f", entry.score)
@@ -150,6 +171,15 @@ function GenerateLeaderboard()
 						entryValue = lifetimeEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerScore")
 						
 						entryName.text = entry.name
+						
+						if entry.name == localPlayer.name then
+						
+							entryName:SetColor(Color.FromStandardHex("F45B02FF"))
+						else 
+						
+							entryName:SetColor(Color.FromStandardHex("FFFFFFFF"))
+						
+						end
 						
 						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
 						

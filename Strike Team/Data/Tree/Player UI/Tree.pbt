@@ -7732,8 +7732,8 @@ Objects {
       Label: "Weapon Name"
       Color {
         R: 1
-        G: 0.318546832
-        B: 0.0137020834
+        G: 0.31764707
+        B: 0.011764707
         A: 1
       }
       Size: 14
