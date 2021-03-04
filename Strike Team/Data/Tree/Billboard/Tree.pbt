@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Screenshot Index"
-      Int: 3
+      Int: 4
     }
     Overrides {
       Name: "bp:Color A"

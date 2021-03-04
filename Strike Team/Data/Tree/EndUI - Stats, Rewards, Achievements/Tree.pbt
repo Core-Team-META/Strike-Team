@@ -1618,7 +1618,7 @@ Objects {
       }
     }
     Text {
-      Label: "QUIT & BACK TO HQ"
+      Label: "QUIT TO EDIT LOADOUT"
       Color {
         A: 1
       }

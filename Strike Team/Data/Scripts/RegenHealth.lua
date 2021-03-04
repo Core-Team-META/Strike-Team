@@ -45,5 +45,6 @@ Task.Spawn(function() Regen() end)
 
 
 Events.Connect("ActivateRegen", function(player)
+	if not Object.IsValid(player) then return end
     player.serverUserData["Regen"]["LastDamage"] = 0
 end)
