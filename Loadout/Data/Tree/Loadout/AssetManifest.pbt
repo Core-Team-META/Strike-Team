@@ -80,11 +80,11 @@ Assets {
   }
 }
 Assets {
-  Id: 1364597305327011649
-  Name: "Oswald"
+  Id: 1144950805409236433
+  Name: "Play Bold"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
-    AssetId: "OswaldRegular_ref"
+    AssetId: "PlayBold_ref"
   }
 }
