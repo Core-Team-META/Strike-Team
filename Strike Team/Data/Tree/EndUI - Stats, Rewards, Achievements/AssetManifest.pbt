@@ -1,4 +1,22 @@
 Assets {
+  Id: 18078876033136395499
+  Name: "Sci-fi Parts 030"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Equip_Parts_030"
+  }
+}
+Assets {
+  Id: 17295190023580670108
+  Name: "Fantasy Medal 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Medal_002"
+  }
+}
+Assets {
   Id: 17289448223043935888
   Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
@@ -50,15 +68,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Equip_Money_001"
-  }
-}
-Assets {
-  Id: 12541359550459868453
-  Name: "Fantasy Trophy 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Trophy_001"
   }
 }
 Assets {
