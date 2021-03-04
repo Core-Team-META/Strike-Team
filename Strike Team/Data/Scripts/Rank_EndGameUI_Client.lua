@@ -25,7 +25,10 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     if newState == ABGS.GAME_STATE_ROUND_END then
         ChangePlayerInsignia()
     end
-    if newState == ABGS.GAME_STATE_LOBBY then
+    
+    if newState == ABGS.GAME_STATE_LOBBY 
+    and SCOREBOARD.context 
+    and SCOREBOARD.context.ForceOff then
         SCOREBOARD.context.ForceOff()
     end
 end
