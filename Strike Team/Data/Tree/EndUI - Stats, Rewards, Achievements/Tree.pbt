@@ -2017,11 +2017,8 @@ Objects {
     }
   }
   ParentId: 17651137787856869016
-  ChildIds: 17839331642477001655
-  ChildIds: 6074395665911666359
   ChildIds: 16028602221201255926
   ChildIds: 14677885928178376697
-  ChildIds: 8682956107302149214
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2029,7 +2026,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 229
+    Width: 358
     Height: 29
     UIX: -8.49730206
     UIY: 9.87778
@@ -2056,73 +2053,6 @@ Objects {
   InstanceHistory {
     SelfId: 17558430966251534152
     SubobjectId: 2955795213404554438
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 8682956107302149214
-  Name: "TITLE_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17558430966251534152
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 127
-    Height: 25
-    UIX: 64.4637146
-    UIY: -1.92449951
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "EARN YOU A CHEST"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 12
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8682956107302149214
-    SubobjectId: 11684876661809934288
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }
@@ -2158,8 +2088,9 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
     Text {
-      Label: "10 x"
+      Label: "10 REQUISITION POINTS EARN YOU A CHEST!"
       Color {
         R: 1
         G: 1
@@ -2225,8 +2156,9 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
     Text {
-      Label: "10 x"
+      Label: "10 REQUISITION POINTS EARN YOU A CHEST!"
       Color {
         A: 0.627000034
       }
@@ -2254,250 +2186,6 @@ Objects {
   InstanceHistory {
     SelfId: 14677885928178376697
     SubobjectId: 1232676252438342775
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 6074395665911666359
-  Name: "TITLE_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17558430966251534152
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 127
-    Height: 25
-    UIX: 66.6132507
-    UIY: -0.849365234
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "EARN YOU A CHEST"
-      Color {
-        A: 0.627000034
-      }
-      Size: 12
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8682956107302149214
-    SubobjectId: 11684876661809934288
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 17839331642477001655
-  Name: "GOLD"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17558430966251534152
-  ChildIds: 1096389789915899011
-  ChildIds: 15737004589535072848
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 20
-    Height: 20
-    UIX: 35.7570801
-    UIY: 2.19156981
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17839331642477001655
-    SubobjectId: 3259201391559264313
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 15737004589535072848
-  Name: "GOLD_BG"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17839331642477001655
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 5161641800464711927
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 15737004589535072848
-    SubobjectId: 57449150304575966
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 1096389789915899011
-  Name: "GOLD_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17839331642477001655
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    UIX: 1
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 5161641800464711927
-      }
-      Color {
-        A: 0.509
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 1096389789915899011
-    SubobjectId: 15392779390491170573
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }
@@ -3723,15 +3411,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 132
+    Width: 153
     Height: 51
+    UIX: 10.359045
+    UIY: 0.245492622
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
-      Label: "BONUS BARS WHEN YOUR TEAM WINS!"
+      Label: "BONUS REQUISITION POINTS WHEN YOUR TEAM WINS!"
       Color {
         G: 1
         A: 1
@@ -3797,9 +3487,9 @@ Objects {
       }
     }
     Text {
-      Label: "BONUS BARS WHEN YOUR TEAM WINS!"
+      Label: "BONUS REQUISITION POINTS WHEN YOUR TEAM WINS!"
       Color {
-        A: 0.373000026
+        A: 0.368000031
       }
       Size: 12
       Justification {
@@ -3854,9 +3544,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 50
-    Height: 50
-    UIX: 34.9044075
+    Width: 65
+    Height: 65
+    UIX: 24.0738277
     UIY: 20.0556793
     RenderTransformPivot {
       Anchor {
@@ -3917,7 +3607,7 @@ Objects {
     UseParentHeight: true
     Image {
       Brush {
-        Id: 12541359550459868453
+        Id: 17295190023580670108
       }
       Color {
         R: 1
@@ -3982,7 +3672,7 @@ Objects {
     UseParentHeight: true
     Image {
       Brush {
-        Id: 12541359550459868453
+        Id: 17295190023580670108
       }
       Color {
         A: 0.43
@@ -4429,15 +4119,17 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
+    UseParentHeight: true
     Image {
       Brush {
-        Id: 5161641800464711927
+        Id: 18078876033136395499
       }
       Color {
         R: 1
         G: 1
         B: 1
-        A: 0.07
+        A: 0.415000021
       }
       TeamSettings {
       }
@@ -6198,15 +5890,17 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
+    UseParentHeight: true
     Image {
       Brush {
-        Id: 5161641800464711927
+        Id: 18078876033136395499
       }
       Color {
         R: 1
         G: 1
         B: 1
-        A: 0.07
+        A: 0.436000019
       }
       TeamSettings {
       }
