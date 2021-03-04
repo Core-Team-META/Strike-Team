@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Player Titles - Scoreboard (Client)
 	1.0.2 - 2020/10/13
@@ -431,7 +431,11 @@ local function UpdatePlayer(player)
 			end
 			leaderstat.text.text = tostring(killDeathRatio)
 		elseif (leaderstatType == "RESOURCE") then
-			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource) or 0)
+			if leaderstat.resource == "Objective" then
+				leaderstat.text.text = tostring(math.ceil(player:GetResource(leaderstat.resource)/5) or 0)
+			else 
+				leaderstat.text.text = tostring(math.ceil(player:GetResource(leaderstat.resource)/5) or 0)
+			end
 		end
 	end
 end
