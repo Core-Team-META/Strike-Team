@@ -5663,11 +5663,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ShowTitleIcon"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:ShowTitlePrefix"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:GapBetweenEntries"
