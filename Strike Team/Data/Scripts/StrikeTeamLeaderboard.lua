@@ -6,6 +6,7 @@ local IS_WEEKLY = script:GetCustomProperty("IsWeekly")
 local IS_GLOBAL = script:GetCustomProperty("IsGlobal")
 local ROW_COUNT = script:GetCustomProperty("RowCount")
 local ROW_DISTANCE = script:GetCustomProperty("RowDistance")
+local PAD_TOP = script:GetCustomProperty("PadTop")
 local PANEL = script.parent
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -36,7 +37,7 @@ function GenerateLeaderboard()
 			rows[i] = row
 		end
 		
-		row.y = i * ROW_DISTANCE
+		row.y = i * ROW_DISTANCE + PAD_TOP
 		row.x = 0
 		
 		entryName = row:FindDescendantByName("PlayerName")

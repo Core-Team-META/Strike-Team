@@ -39,6 +39,10 @@ Assets {
         Name: "cs:RowDistance"
         Int: 40
       }
+      Overrides {
+        Name: "cs:PadTop"
+        Int: 10
+      }
     }
   }
   SerializationVersion: 76

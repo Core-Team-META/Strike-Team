@@ -212,25 +212,13 @@ Objects {
     }
   }
   ParentId: 14625700635018229880
+  ChildIds: 1484088649104397726
   ChildIds: 4416437397582910187
   ChildIds: 2593005538924336834
   ChildIds: 6848435990507802642
   ChildIds: 4396170930800836356
   ChildIds: 6377229283935019047
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "Objective"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "FA8F043AB76A90AB"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -826,6 +814,48 @@ Objects {
   }
 }
 Objects {
+  Id: 1484088649104397726
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16534756673854649923
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "Objective"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "FA8F043AB76A90AB"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 8161018431931106809
   Name: "LifetimeKILLS"
   Transform {
@@ -840,25 +870,13 @@ Objects {
     }
   }
   ParentId: 14625700635018229880
+  ChildIds: 144142056589631669
   ChildIds: 11917378420909924803
   ChildIds: 1096313309675447984
   ChildIds: 6378860456492923303
   ChildIds: 8156103080972325870
   ChildIds: 5086996947441708657
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "KILLS"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "F2A946E773BF7FF1"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1454,6 +1472,48 @@ Objects {
   }
 }
 Objects {
+  Id: 144142056589631669
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8161018431931106809
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "KILLS"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "F2A946E773BF7FF1"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 5832793112159791047
   Name: "RoundStats"
   Transform {
@@ -1519,25 +1579,13 @@ Objects {
     }
   }
   ParentId: 5832793112159791047
+  ChildIds: 17146033551590278185
   ChildIds: 8725180428149571414
   ChildIds: 1111432481343649003
   ChildIds: 1825892804134609499
   ChildIds: 7741427427454511694
   ChildIds: 10951955538596912930
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "Headshots"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "A3E8B34C72EAE159"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2133,6 +2181,56 @@ Objects {
   }
 }
 Objects {
+  Id: 17146033551590278185
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6859939380899418041
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "Headshots"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "A3E8B34C72EAE159"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsGlobal"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 10349829829254696725
   Name: "DamageDone"
   Transform {
@@ -2147,25 +2245,13 @@ Objects {
     }
   }
   ParentId: 5832793112159791047
+  ChildIds: 16352269572159276949
   ChildIds: 2731889933165010081
   ChildIds: 8723068444055514362
   ChildIds: 585689620472333125
   ChildIds: 15309104205423608290
   ChildIds: 12117010063550674995
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "DamageDone"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "C486A5253D05AB03"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2761,6 +2847,56 @@ Objects {
   }
 }
 Objects {
+  Id: 16352269572159276949
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10349829829254696725
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "DamageDone"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "C486A5253D05AB03"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsGlobal"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 15040601248434552375
   Name: "Objectives"
   Transform {
@@ -2775,25 +2911,13 @@ Objects {
     }
   }
   ParentId: 5832793112159791047
+  ChildIds: 8446536930909294221
   ChildIds: 10110799692894047553
   ChildIds: 10106549888892744001
   ChildIds: 8639739672854270580
   ChildIds: 6547441733694075264
   ChildIds: 4877560334977253107
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "Objective"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "0542E06377020DEA"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3389,6 +3513,56 @@ Objects {
   }
 }
 Objects {
+  Id: 8446536930909294221
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15040601248434552375
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "Objective"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "0542E06377020DEA"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsGlobal"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 4604593127870534387
   Name: "KillStreak"
   Transform {
@@ -3403,25 +3577,13 @@ Objects {
     }
   }
   ParentId: 5832793112159791047
+  ChildIds: 15374839831777775762
   ChildIds: 6461371604510506696
   ChildIds: 8979056718010477892
   ChildIds: 9635075356206051589
   ChildIds: 7333250357321024513
   ChildIds: 11346536064935274716
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "KillStreak"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "4D4536DFCEEE0D16"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4017,6 +4179,43 @@ Objects {
   }
 }
 Objects {
+  Id: 15374839831777775762
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4604593127870534387
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsGlobal"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 8694728719021372099
   Name: "KILLS"
   Transform {
@@ -4031,25 +4230,13 @@ Objects {
     }
   }
   ParentId: 5832793112159791047
+  ChildIds: 10945873888762132261
   ChildIds: 11930586350768639261
   ChildIds: 12830116601889202749
   ChildIds: 3996514461797044888
   ChildIds: 5729688975539962255
   ChildIds: 15130693964069943064
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "KILLS"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "55BBF922E5126916"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4645,6 +4832,56 @@ Objects {
   }
 }
 Objects {
+  Id: 10945873888762132261
+  Name: "StrikeTeamLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8694728719021372099
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceToTrack"
+      String: "KILLS"
+    }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "55BBF922E5126916"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsGlobal"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10787698050977242227
+    }
+  }
+}
+Objects {
   Id: 15236437261496160818
   Name: "BG"
   Transform {
@@ -4724,24 +4961,6 @@ Objects {
       Name: "cs:LeaderboardMainPanel"
       ObjectReference {
         SelfId: 8148767369087913423
-      }
-    }
-    Overrides {
-      Name: "cs:RoundStats"
-      ObjectReference {
-        SelfId: 5832793112159791047
-      }
-    }
-    Overrides {
-      Name: "cs:LifetimeStats"
-      ObjectReference {
-        SelfId: 14625700635018229880
-      }
-    }
-    Overrides {
-      Name: "cs:LeaderboardPlayerEntry"
-      AssetReference {
-        Id: 15991324075709254525
       }
     }
   }
@@ -4916,6 +5135,10 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4957,6 +5180,10 @@ Objects {
           Value: "mc:enetreferencetype:leaderboard"
         }
       }
+    }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -5000,6 +5227,10 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5042,6 +5273,10 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5083,6 +5318,10 @@ Objects {
           Value: "mc:enetreferencetype:leaderboard"
         }
       }
+    }
+    Overrides {
+      Name: "cs:IsWeekly"
+      Bool: true
     }
   }
   Collidable_v2 {
