@@ -434,7 +434,7 @@ local function UpdatePlayer(player)
 			if leaderstat.resource == "Objective" then
 				leaderstat.text.text = tostring(math.ceil(player:GetResource(leaderstat.resource)/5) or 0)
 			else 
-				leaderstat.text.text = tostring(math.ceil(player:GetResource(leaderstat.resource)/5) or 0)
+				leaderstat.text.text = tostring(math.ceil(player:GetResource(leaderstat.resource)) or 0)
 			end
 		end
 	end
