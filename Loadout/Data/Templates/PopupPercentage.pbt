@@ -718,6 +718,7 @@ Assets {
         Control {
           Width: -15
           Height: 60
+          UIX: 12
           UIY: 54
           RenderTransformPivot {
             Anchor {
@@ -843,7 +844,7 @@ Assets {
         Control {
           Width: -15
           Height: 60
-          UIX: 25
+          UIX: 35
           UIY: 55.6870232
           RenderTransformPivot {
             Anchor {
