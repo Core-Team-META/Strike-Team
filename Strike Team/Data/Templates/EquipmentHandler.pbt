@@ -244,6 +244,7 @@ Assets {
         ChildIds: 15377105601640679223
         ChildIds: 6896876039293333936
         ChildIds: 12033786241752632171
+        ChildIds: 16228378625661976367
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -834,6 +835,48 @@ Assets {
         }
       }
       Objects {
+        Id: 16228378625661976367
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 8885650813372827558
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2411214559175194743
         Name: "Sub Machine Gun"
         Transform {
@@ -887,6 +930,7 @@ Assets {
         ChildIds: 14781493409224552311
         ChildIds: 10524150285256626470
         ChildIds: 8955338102029626002
+        ChildIds: 11595213589801554203
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1442,6 +1486,48 @@ Assets {
         }
       }
       Objects {
+        Id: 11595213589801554203
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2514080662409936833
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -1495,6 +1581,7 @@ Assets {
         ChildIds: 12800976062018265072
         ChildIds: 788112577786817097
         ChildIds: 6945816794623217933
+        ChildIds: 764195614407751581
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -2046,6 +2133,48 @@ Assets {
         }
       }
       Objects {
+        Id: 764195614407751581
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 9110735269433092858
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksman Rifle"
         Transform {
@@ -2099,6 +2228,7 @@ Assets {
         ChildIds: 5885776251729320786
         ChildIds: 4172235778799919362
         ChildIds: 10151690123081697405
+        ChildIds: 7883491361687764135
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -2646,6 +2776,48 @@ Assets {
         }
       }
       Objects {
+        Id: 7883491361687764135
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 815991886066802717
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -2699,6 +2871,7 @@ Assets {
         ChildIds: 9979469375288137586
         ChildIds: 17679011691289659038
         ChildIds: 3440923479958056126
+        ChildIds: 15712503114798744751
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -3254,6 +3427,48 @@ Assets {
         }
       }
       Objects {
+        Id: 15712503114798744751
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 11000765826198556478
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 3857468657531597669
         Name: "Light Machine Guns"
         Transform {
@@ -3307,6 +3522,7 @@ Assets {
         ChildIds: 7084968894483961746
         ChildIds: 14289760653215196090
         ChildIds: 564424040335815950
+        ChildIds: 16423119712215107903
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -3858,6 +4074,48 @@ Assets {
         }
       }
       Objects {
+        Id: 16423119712215107903
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 8130436886784444117
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 12192491190375546086
         Name: "Secondary"
         Transform {
@@ -3942,6 +4200,7 @@ Assets {
         ChildIds: 12950377110039375135
         ChildIds: 14977314262883720725
         ChildIds: 13864794314769469768
+        ChildIds: 13319191760978226880
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -4626,6 +4885,48 @@ Assets {
         }
       }
       Objects {
+        Id: 13319191760978226880
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5049277137543789729
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 5401514240224850671
         Name: "MJC 782"
         Transform {
@@ -4652,6 +4953,7 @@ Assets {
         ChildIds: 2350274989249886278
         ChildIds: 15543438019606007822
         ChildIds: 2115288901080316371
+        ChildIds: 2662100665199952392
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -5207,6 +5509,48 @@ Assets {
         }
       }
       Objects {
+        Id: 2662100665199952392
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5401514240224850671
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10189915141287478410
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 11838387021516346748
         Name: "Melee"
         Transform {
@@ -5259,6 +5603,7 @@ Assets {
         }
         Folder {
           IsFilePartition: true
+          FilePartitionName: "Pan"
         }
       }
       Objects {
@@ -5464,6 +5809,7 @@ Assets {
         ChildIds: 16718915923472253600
         ChildIds: 13233013819662498860
         ChildIds: 17792380080501429245
+        ChildIds: 6773594261217510646
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -7362,6 +7708,48 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "CP"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 6773594261217510646
+        Name: "Demon Hunter"
+        Transform {
+          Location {
+            X: 173.22522
+            Y: -233.090118
+            Z: 128.120773
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12473910542475180098
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DE"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16812796540317962298
+            }
           }
         }
         Collidable_v2 {

@@ -8,4 +8,11 @@ function Pressed()
     
 end
 
+function Close()
+    Events.Broadcast("CreditPurchaseClose")
+end
+
 Button.releasedEvent:Connect(Pressed)
+
+
+Game.GetLocalPlayer().perkChangedEvent:Connect(Close)

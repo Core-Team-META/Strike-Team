@@ -974,7 +974,7 @@ Assets {
             }
           }
           Text {
-            Label: "STRIKE TOKENS"
+            Label: "STRIKE COINS"
             Color {
               R: 1
               G: 1
@@ -1154,7 +1154,7 @@ Assets {
             }
           }
           Text {
-            Label: "Standard Pac"
+            Label: "Standard Pack"
             Color {
               R: 0.00121410796
               G: 0.73791039
@@ -1889,7 +1889,7 @@ Assets {
             }
           }
           Text {
-            Label: "STRIKE TOKENS"
+            Label: "STRIKE COINS"
             Color {
               R: 1
               G: 1
@@ -2802,7 +2802,7 @@ Assets {
             }
           }
           Text {
-            Label: "STRIKE TOKENS"
+            Label: "STRIKE COINS"
             Color {
               R: 1
               G: 1

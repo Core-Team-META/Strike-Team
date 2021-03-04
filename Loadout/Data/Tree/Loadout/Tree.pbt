@@ -1196,6 +1196,7 @@ Objects {
   ChildIds: 16564750678633576762
   ChildIds: 18131314453509860071
   ChildIds: 17209077381806335211
+  ChildIds: 1934178880412011450
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1229,6 +1230,91 @@ Objects {
     InstanceId: 1379315390660862341
     TemplateId: 8560337618291391252
     WasRoot: true
+  }
+}
+Objects {
+  Id: 1934178880412011450
+  Name: "PurchaseCreditButton"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14933729121853623480
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3365917242327634657
+      value {
+        Overrides {
+          Name: "Label"
+          String: "Purchase Strike Coins"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8391273575596516368
+      value {
+        Overrides {
+          Name: "Name"
+          String: "PurchaseCreditButton"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Width"
+          Int: 182
+        }
+        Overrides {
+          Name: "Height"
+          Int: 83
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 127.869278
+            Y: -175.538971
+            Z: 207.378189
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -174.26236
+          }
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomleft"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomleft"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 262
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -15
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4340041180145955302
+    }
   }
 }
 Objects {
@@ -1441,8 +1527,8 @@ Objects {
   Control {
     Width: 175
     Height: 58
-    UIX: 49.3859
-    UIY: -33.0366058
+    UIX: 32.8072052
+    UIY: -44.3699341
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1494,9 +1580,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 50
-    Height: 50
-    UIX: 2.8322103
+    Width: 48
+    Height: 48
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1557,10 +1642,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 50
-    Height: 50
-    UIX: 4.99609756
-    UIY: 3.26475763
+    Width: 48
+    Height: 48
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1620,8 +1703,7 @@ Objects {
   Control {
     Width: 100
     Height: 22
-    UIX: -5.5041213
-    UIY: -11.060358
+    UIY: -11.06
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1635,7 +1717,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 25
+      Size: 24
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -1997,8 +2079,7 @@ Objects {
   Control {
     Width: 175
     Height: 54
-    UIX: 50.2422867
-    UIY: -103.182228
+    UIX: 32.8072052
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2052,8 +2133,7 @@ Objects {
   Control {
     Width: 100
     Height: 22
-    UIX: -5.5041213
-    UIY: -11.060358
+    UIY: -11.06
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2067,7 +2147,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 25
+      Size: 24
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -2184,9 +2264,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 60
-    Height: 60
-    UIX: 2.8322103
+    Width: 48
+    Height: 48
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2247,10 +2326,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 60
-    Height: 60
-    UIX: 4.99609756
-    UIY: 3.26475763
+    Width: 48
+    Height: 48
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5658,6 +5735,20 @@ Objects {
           Name: "Size"
           Int: 22
         }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
+        }
       }
     }
     TemplateAsset {
@@ -5765,6 +5856,20 @@ Objects {
         Overrides {
           Name: "Size"
           Int: 22
+        }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
         }
       }
     }
@@ -5874,6 +5979,20 @@ Objects {
           Name: "Size"
           Int: 22
         }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
+        }
       }
     }
     TemplateAsset {
@@ -5981,6 +6100,20 @@ Objects {
         Overrides {
           Name: "Size"
           Int: 22
+        }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
         }
       }
     }
@@ -6090,6 +6223,20 @@ Objects {
           Name: "Size"
           Int: 22
         }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
+        }
       }
     }
     TemplateAsset {
@@ -6188,6 +6335,20 @@ Objects {
           Name: "Size"
           Int: 22
         }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
+        }
       }
     }
     TemplateAsset {
@@ -6274,6 +6435,20 @@ Objects {
           Name: "Size"
           Int: 22
         }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
+        }
       }
     }
     TemplateAsset {
@@ -6345,6 +6520,20 @@ Objects {
         Overrides {
           Name: "Size"
           Int: 22
+        }
+        Overrides {
+          Name: "AutoWrapText"
+          Bool: false
+        }
+        Overrides {
+          Name: "Justification"
+          Enum {
+            Value: "mc:etextjustify:center"
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 76.4911194
         }
       }
     }
