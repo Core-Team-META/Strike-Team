@@ -156,9 +156,9 @@ end
 function OnRoundStart()
     for _, player in ipairs(Game.GetPlayers()) do
         SetPlayerFlags(player)
-        for _, achievement in pairs(ACH_API.GetAchievements()) do
+        --[[for _, achievement in pairs(ACH_API.GetAchievements()) do
             ACH_API.UnlockAchievement(player, achievement.id)
-        end
+        end]]--
     end
 end
 

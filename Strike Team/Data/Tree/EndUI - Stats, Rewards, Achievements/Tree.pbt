@@ -2547,7 +2547,7 @@ Objects {
   Control {
     Width: 193
     Height: 27
-    UIY: 1.84989929
+    UIY: 4.06660652
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2567,6 +2567,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -4699,7 +4700,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 5161641800464711927
+        Id: 18078876033136395499
       }
       Color {
         R: 1
@@ -5830,7 +5831,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 5161641800464711927
+        Id: 18078876033136395499
       }
       Color {
         R: 1
@@ -7544,8 +7545,8 @@ Objects {
     }
   }
   ParentId: 6168330156322610553
-  ChildIds: 3175211258030798382
   ChildIds: 17333716712513927805
+  ChildIds: 3175211258030798382
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7579,6 +7580,138 @@ Objects {
   InstanceHistory {
     SelfId: 11001340350322509197
     SubobjectId: 4757374864086955523
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 3175211258030798382
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11001340350322509197
+  ChildIds: 8953924218324456691
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 230
+    Height: 60
+    UIY: 21.7190418
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "YOU DESTROYED"
+      Color {
+        R: 0.88
+        G: 0.0524505153
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3175211258030798382
+    SubobjectId: 17778406109390587296
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 8953924218324456691
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3175211258030798382
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 230
+    Height: 16
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "YOU DESTROYED"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      ClipTextToSize: true
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8953924218324456691
+    SubobjectId: 12027902236867454845
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }
@@ -7733,8 +7866,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
-    Height: 30
+    Width: 25
+    Height: 25
     UIX: -45
     RenderTransformPivot {
       Anchor {
@@ -7743,10 +7876,12 @@ Objects {
     }
     Image {
       Brush {
-        Id: 15918351247767818628
+        Id: 11003755840746783835
       }
       Color {
-        R: 0.700000048
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       TeamSettings {
@@ -7995,8 +8130,9 @@ Objects {
     Text {
       Label: "AVeryLongUsername"
       Color {
-        R: 0.74
-        G: 0.367549717
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       Size: 12
@@ -8237,7 +8373,6 @@ Objects {
   Control {
     Width: 189
     Height: 43
-    UIX: -1
     UIY: -40
     RenderTransformPivot {
       Anchor {
@@ -8275,139 +8410,6 @@ Objects {
   }
 }
 Objects {
-  Id: 3175211258030798382
-  Name: "TITLE"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11001340350322509197
-  ChildIds: 8953924218324456691
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 230
-    Height: 60
-    UIY: 19.3538513
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "YOU DESTROYED"
-      Color {
-        R: 0.603000045
-        G: 0.603000045
-        B: 0.603000045
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 3175211258030798382
-    SubobjectId: 17778406109390587296
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 8953924218324456691
-  Name: "TITLE"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3175211258030798382
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 230
-    Height: 16
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "YOU DESTROYED"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      ClipTextToSize: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8953924218324456691
-    SubobjectId: 12027902236867454845
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
   Id: 11655701403915660268
   Name: "YOUR NEMESIS"
   Transform {
@@ -8422,8 +8424,8 @@ Objects {
     }
   }
   ParentId: 6168330156322610553
-  ChildIds: 9684833828749268177
   ChildIds: 15117484212448288023
+  ChildIds: 9684833828749268177
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8457,6 +8459,139 @@ Objects {
   InstanceHistory {
     SelfId: 11655701403915660268
     SubobjectId: 8892451289867835490
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 9684833828749268177
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11655701403915660268
+  ChildIds: 6505744792658073468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 230
+    Height: 60
+    UIY: 21.7190418
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "YOUR NEMESIS"
+      Color {
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9684833828749268177
+    SubobjectId: 6687417699580651359
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 6505744792658073468
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9684833828749268177
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 230
+    Height: 16
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "YOUR NEMESIS"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      ClipTextToSize: true
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6505744792658073468
+    SubobjectId: 9286430759090398450
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }
@@ -8611,8 +8746,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
-    Height: 30
+    Width: 25
+    Height: 25
     UIX: -45
     RenderTransformPivot {
       Anchor {
@@ -8621,10 +8756,12 @@ Objects {
     }
     Image {
       Brush {
-        Id: 15918351247767818628
+        Id: 11003755840746783835
       }
       Color {
-        R: 0.700000048
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       TeamSettings {
@@ -8873,8 +9010,9 @@ Objects {
     Text {
       Label: "AVeryLongUsername"
       Color {
-        R: 0.74
-        G: 0.367549717
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       Size: 12
@@ -9115,7 +9253,6 @@ Objects {
   Control {
     Width: 189
     Height: 43
-    UIX: -1
     UIY: -40
     RenderTransformPivot {
       Anchor {
@@ -9148,139 +9285,6 @@ Objects {
   InstanceHistory {
     SelfId: 1128843148733924190
     SubobjectId: 15349251754047320272
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 9684833828749268177
-  Name: "TITLE"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11655701403915660268
-  ChildIds: 6505744792658073468
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 230
-    Height: 60
-    UIY: 19.3538513
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "YOUR NEMESIS"
-      Color {
-        R: 0.603000045
-        G: 0.603000045
-        B: 0.603000045
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9684833828749268177
-    SubobjectId: 6687417699580651359
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 6505744792658073468
-  Name: "TITLE"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9684833828749268177
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 230
-    Height: 16
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "YOUR NEMESIS"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      ClipTextToSize: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 6505744792658073468
-    SubobjectId: 9286430759090398450
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
   }

@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 7543633964822552777
+        ChildIds: 13325006157804306022
         Lifespan: 2
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -52,10 +53,53 @@ Assets {
           AudioAsset {
             Id: 6809107799149399795
           }
-          AutoPlay: true
           Volume: 1
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 13325006157804306022
+        Name: "Stylish Raging Rock Music Stinger Set 01"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13546236597896377046
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:emx_stylish_raging_rock_stingers:54"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 10739119405349962922
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Volume: 0.6
+            Falloff: 3600
+            Radius: 400
+            FadeInTime: 0.2
+          }
         }
       }
     }
@@ -66,6 +110,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_ui_bright_notification_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 10739119405349962922
+      Name: "Stylish Raging Rock Music Stinger Set 01"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_stinger_stylish_raging_rock_stingers_01_ref"
       }
     }
     PrimaryAssetId {
