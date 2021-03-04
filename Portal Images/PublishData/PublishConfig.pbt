@@ -5,8 +5,8 @@ Description: "Blank project for holding portal images."
 MaxPlayers: 8
 Tags: "Other"
 ScreenshotPaths: "C:\\Users\\gbsus\\Documents\\My Games\\CORE\\Saved\\Maps\\Sniper-Duty\\Portal Images\\Screenshots\\strike_team_discord.jpg"
-ScreenshotPaths: "C:\\Users\\gbsus\\Documents\\My Games\\CORE\\Saved\\Maps\\Sniper-Duty\\Portal Images\\Screenshots\\striketeam_community.jpg"
 ScreenshotPaths: "C:\\Users\\gbsus\\Documents\\My Games\\CORE\\Saved\\Maps\\Sniper-Duty\\Portal Images\\Screenshots\\Invitational 1.jpg"
 ScreenshotPaths: "C:\\Users\\gbsus\\Documents\\My Games\\CORE\\Saved\\Maps\\Sniper-Duty\\Portal Images\\Screenshots\\Epic Game Store.jpg"
+ScreenshotPaths: "C:\\Users\\gbsus\\Documents\\My Games\\CORE\\Saved\\Maps\\Sniper-Duty\\Portal Images\\Screenshots\\city_building_jam.jpg"
 OwnerId: "ef18f7661bf14d0eae60d7f31ea769af"
 SerializationVersion: 1

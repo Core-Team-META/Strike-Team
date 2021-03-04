@@ -149,7 +149,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Screenshot Index"
-      Int: 2
+      Int: 4
     }
     Overrides {
       Name: "bp:Color A"
@@ -673,7 +673,7 @@ Objects {
     }
     Overrides {
       Name: "bp:V Scale"
-      Float: 0.896011233
+      Float: 0.89
     }
     Overrides {
       Name: "bp:Mask Color"
