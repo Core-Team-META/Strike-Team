@@ -375,26 +375,27 @@ Objects {
   Control {
     Width: 269
     Height: 60
-    UIY: 12
+    UIY: 18
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
-      Label: "Return To Loadout"
+      Label: "RETURN TO LOADOUT"
       Color {
         R: 0.00972121768
         G: 0.00972121768
         B: 0.00972121768
         A: 1
       }
-      Size: 20
+      Size: 15
       Justification {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
