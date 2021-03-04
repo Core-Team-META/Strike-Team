@@ -1,4 +1,4 @@
-﻿while not _G["LoadoutKey"] do Task.Wait() end
+while not _G["LoadoutKey"] do Task.Wait() end
 local LoadoutKey =  _G["LoadoutKey"]
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
@@ -101,10 +101,17 @@ function EquipPlayer(player)
     player.serverUserData.Weapons.PerkWeapon.name = "Equipment"
 
     Task.Wait()
+    if not Object.IsValid(player) then return end
+    
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
 
-    Task.Spawn(function() 
-        while not player.serverUserData.NetworkSpawn do Task.Wait() end
+    Task.Spawn(function()
+    	if not Object.IsValid(player) then return end
+    	
+        while not player.serverUserData.NetworkSpawn do
+        	Task.Wait()
+        	if not Object.IsValid(player) then return end
+        end
         player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("EquippedLoadout", EquipString)
     end)
 
