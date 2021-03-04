@@ -1,6 +1,75 @@
 Name: "Perk"
 RootId: 2827970233747119726
 Objects {
+  Id: 17820490847099476590
+  Name: "Martyrdom"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2827970233747119726
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ID"
+      String: "MD"
+    }
+    Overrides {
+      Name: "cs:Hoister"
+      String: "RHip"
+    }
+    Overrides {
+      Name: "cs:Weapon"
+      AssetReference {
+        Id: 2753103022218687394
+      }
+    }
+    Overrides {
+      Name: "cs:DefaultSkin"
+      AssetReference {
+        Id: 1046193506233485157
+      }
+    }
+    Overrides {
+      Name: "cs:ICON"
+      AssetReference {
+        Id: 16632137313192406544
+      }
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Drop live"
+    }
+    Overrides {
+      Name: "cs:RotationOffset"
+      Rotator {
+        Roll: 90
+      }
+    }
+    Overrides {
+      Name: "cs:Level"
+      Int: 40
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6101204973524491137
+    }
+  }
+}
+Objects {
   Id: 2037630704210079919
   Name: "Fast Hands"
   Transform {

@@ -124,8 +124,8 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17089030081286704685
-    SubobjectId: 12033786241752632171
+    SelfId: 7987513228311267150
+    SubobjectId: 2662100665199952392
     InstanceId: 9054774325255140997
     TemplateId: 12469272091380785429
   }
@@ -835,8 +835,8 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17089030081286704685
-    SubobjectId: 12033786241752632171
+    SelfId: 17509908300110736262
+    SubobjectId: 13319191760978226880
     InstanceId: 9054774325255140997
     TemplateId: 12469272091380785429
   }
