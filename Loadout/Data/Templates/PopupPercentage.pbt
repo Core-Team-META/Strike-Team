@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12259390245759194628
+        ParentId: 11974384019634633110
         ChildIds: 90280426444863294
         ChildIds: 12429357900210697243
         ChildIds: 17122073496422367730
@@ -368,8 +368,9 @@ Assets {
           }
         }
         ParentId: 6463513330397525932
-        ChildIds: 10225344333647757808
-        ChildIds: 246645506234768864
+        ChildIds: 9685833336476417518
+        ChildIds: 5404581613421888328
+        ChildIds: 3216364368766868159
         ChildIds: 13457547618832404935
         ChildIds: 3921361867886230491
         Collidable_v2 {
@@ -405,70 +406,6 @@ Assets {
         }
       }
       Objects {
-        Id: 10225344333647757808
-        Name: "1"
-        Transform {
-          Location {
-            X: -0.000213623047
-            Z: -3.05175781e-05
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17122073496422367730
-        ChildIds: 9685833336476417518
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: -15
-          Height: 60
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          Text {
-            Label: "\342\221\240  Complete matches to get           Golden Bars."
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 13
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 9685833336476417518
         Name: "GOLDBAR"
         Transform {
@@ -485,7 +422,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10225344333647757808
+        ParentId: 17122073496422367730
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -493,9 +430,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 30
-          Height: 30
-          UIX: 192.5
+          Width: 80
+          Height: 80
+          UIX: -8.29284859
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -503,7 +440,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 1832806668449724969
+              Id: 9399995988735389280
             }
             Color {
               R: 1
@@ -517,12 +454,64 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topright"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topright"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5404581613421888328
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: 455.757721
+            Y: -201.568787
+            Z: 17.2951355
+          }
+          Rotation {
+            Yaw: 171.172256
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17122073496422367730
+        ChildIds: 246645506234768864
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: 30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -544,8 +533,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17122073496422367730
-        ChildIds: 1880873374755152740
+        ParentId: 5404581613421888328
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -553,9 +541,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -25
+          Width: 342
           Height: 60
-          UIX: -5
           UIY: 28
           RenderTransformPivot {
             Anchor {
@@ -563,9 +550,8 @@ Assets {
             }
           }
           AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
           Text {
-            Label: "\342\221\241  Collect 10x           Golden Bars to claim one Champion\'s Crate."
+            Label: "\342\221\241  Collect 10 Req Points to claim one Champion\'s Crate."
             Color {
               R: 1
               G: 1
@@ -582,6 +568,57 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3216364368766868159
+        Name: "UI Panel"
+        Transform {
+          Location {
+            X: -235.218079
+            Y: 147.671936
+            Z: -1125.3092
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17122073496422367730
+        ChildIds: 10225344333647757808
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: -10
+          Height: 30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
                 Value: "mc:euianchor:topcenter"
               }
             }
@@ -594,12 +631,11 @@ Assets {
         }
       }
       Objects {
-        Id: 1880873374755152740
-        Name: "GOLDBAR"
+        Id: 10225344333647757808
+        Name: "1"
         Transform {
           Location {
-            X: 0.000152587891
-            Y: -2.28881836e-05
+            X: -0.000213623047
             Z: -3.05175781e-05
           }
           Rotation {
@@ -610,7 +646,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 246645506234768864
+        ParentId: 3216364368766868159
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -618,26 +654,27 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 30
-          Height: 30
-          UIX: 102.5
-          UIY: -0.839832306
+          Width: 342
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          Image {
-            Brush {
-              Id: 1832806668449724969
-            }
+          Text {
+            Label: "\342\221\240  Complete matches to get Requisition Points"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            TeamSettings {
+            Size: 13
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+            Font {
             }
           }
           AnchorLayout {
@@ -690,7 +727,7 @@ Assets {
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           Text {
-            Label: "\342\221\242                            to unlock equipment or           cash."
+            Label: "\342\221\242                       to unlock equipment or cash."
             Color {
               R: 1
               G: 1
@@ -746,7 +783,7 @@ Assets {
         Control {
           Width: 30
           Height: 30
-          UIX: 280
+          UIX: 306.298096
           UIY: -0.239212036
           RenderTransformPivot {
             Anchor {
@@ -807,7 +844,7 @@ Assets {
           Width: -15
           Height: 60
           UIX: 25
-          UIY: 54
+          UIY: 55.6870232
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2867,12 +2904,12 @@ Assets {
       }
     }
     Assets {
-      Id: 1832806668449724969
-      Name: "Fantasy Gold 001"
+      Id: 9399995988735389280
+      Name: "Sci-fi Parts 030"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Equip_Gold_002"
+        AssetId: "UI_SciFi_Equip_Parts_030"
       }
     }
     Assets {
