@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3656251806563655309
+  Name: "Icon Leaderboard"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Leaderboard"
+  }
+}
+Assets {
   Id: 1814707273787853473
   Name: "BG Flat 001"
   PlatformAssetType: 9
