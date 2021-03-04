@@ -1826,6 +1826,10 @@ Objects {
   ChildIds: 15468750116622997602
   ChildIds: 5274753737232856143
   ChildIds: 11672091578870787425
+  ChildIds: 8049809342654256103
+  ChildIds: 3151137125621554544
+  ChildIds: 11169699087706568
+  ChildIds: 10123266565652794471
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1834,6 +1838,298 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10123266565652794471
+  Name: "This Is My Rifle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the Assault Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRAR4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 12959683438091425192
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRAR"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 11169699087706568
+  Name: "Fully Automatic "
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with the Assault Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRAR3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 12959683438091425192
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRAR"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 3151137125621554544
+  Name: "The Best Defense"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with the Assault Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRAR2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 12959683438091425192
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRAR"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 8049809342654256103
+  Name: "First In The Door"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with the Assault Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRAR1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 12959683438091425192
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRAR"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
   }
 }
 Objects {
