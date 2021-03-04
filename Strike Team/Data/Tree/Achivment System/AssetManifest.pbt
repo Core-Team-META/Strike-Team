@@ -125,6 +125,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10293868230383892927
+  Name: "Fantasy Sword 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Sword_005"
+  }
+}
+Assets {
   Id: 10258515349694145501
   Name: "BG Flat 002"
   PlatformAssetType: 9

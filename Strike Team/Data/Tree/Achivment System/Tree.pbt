@@ -1824,6 +1824,9 @@ Objects {
   ChildIds: 12280595187614984390
   ChildIds: 13986949626528903165
   ChildIds: 14037322702811239317
+  ChildIds: 15468750116622997602
+  ChildIds: 5274753737232856143
+  ChildIds: 11672091578870787425
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1832,6 +1835,225 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 11672091578870787425
+  Name: "Justice"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get at least 9 kills while dead"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 9
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRREV3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10293868230383892927
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRREV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5274753737232856143
+  Name: "Judge And Jury"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get at least 6 kills while dead"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 6
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRREV2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10293868230383892927
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRREV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 15468750116622997602
+  Name: "Vengeful Spirit"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get at least 3 kills while dead"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRREV1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10293868230383892927
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRREV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
   }
 }
 Objects {
