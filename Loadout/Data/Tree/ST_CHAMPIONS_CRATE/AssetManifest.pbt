@@ -8,12 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9034770064803050122
-  Name: "Survival Crate 005"
+  Id: 9399995988735389280
+  Name: "Sci-fi Parts 030"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Equip_Crate_005"
+    AssetId: "UI_SciFi_Equip_Parts_030"
   }
 }
 Assets {
@@ -26,12 +26,21 @@ Assets {
   }
 }
 Assets {
-  Id: 1832806668449724969
-  Name: "Fantasy Gold 001"
+  Id: 2419688022477305652
+  Name: "Sci-fi Container 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Gold_002"
+    AssetId: "UI_SciFi_Equip_Container_002"
+  }
+}
+Assets {
+  Id: 1144950805409236433
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
   }
 }
 Assets {

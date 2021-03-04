@@ -797,7 +797,7 @@ Objects {
   Control {
     Width: -160
     Height: 60
-    UIY: 5.59706831
+    UIY: 9.99281883
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -819,6 +819,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
+        Id: 1144950805409236433
       }
     }
     AnchorLayout {
@@ -861,7 +862,9 @@ Objects {
   }
   ParentId: 12259390245759194628
   ChildIds: 11286193117855036146
+  ChildIds: 2469599504549274923
   ChildIds: 15146147050269344957
+  ChildIds: 13811734283796545764
   ChildIds: 1112894779923630288
   ChildIds: 6193861837942669802
   UnregisteredParameters {
@@ -969,6 +972,7 @@ Objects {
   }
   ParentId: 13192451163507438649
   ChildIds: 6982921114325362421
+  ChildIds: 11438155602377659519
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -988,9 +992,8 @@ Objects {
         Id: 112181103824863239
       }
       Color {
-        R: 0.776
-        G: 0.632517099
-        B: 0.234352
+        R: 0.73
+        G: 0.377086133
         A: 1
       }
       TeamSettings {
@@ -1017,12 +1020,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6982921114325362421
+  Id: 11438155602377659519
   Name: "UI Image"
   Transform {
     Location {
     }
     Rotation {
+      Yaw: -6.83018789e-06
     }
     Scale {
       X: 1
@@ -1038,22 +1042,25 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 50
-    Height: 50
-    UIX: -2.86816406
-    UIY: 8.60044861
+    Width: -15
+    Height: -15
+    UIY: 4.82731438
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
     Image {
       Brush {
-        Id: 9034770064803050122
+        Id: 2419688022477305652
       }
       Color {
-        R: 0.543000042
-        G: 0.215761662
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       TeamSettings {
@@ -1075,6 +1082,135 @@ Objects {
   InstanceHistory {
     SelfId: 6982921114325362421
     SubobjectId: 3570852652235665958
+    InstanceId: 14426319141699216976
+    TemplateId: 1526186610335564444
+  }
+}
+Objects {
+  Id: 6982921114325362421
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1112894779923630288
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: -15
+    Height: -15
+    UIX: 0.76607722
+    UIY: 9.05402088
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 2419688022477305652
+      }
+      Color {
+        R: 0.0199999809
+        G: 0.00278145401
+        A: 0.844000041
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6982921114325362421
+    SubobjectId: 3570852652235665958
+    InstanceId: 14426319141699216976
+    TemplateId: 1526186610335564444
+  }
+}
+Objects {
+  Id: 13811734283796545764
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -6.83018789e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13192451163507438649
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 64
+    Height: 64
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 9399995988735389280
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15146147050269344957
+    SubobjectId: 9464185073710796910
     InstanceId: 14426319141699216976
     TemplateId: 1526186610335564444
   }
@@ -1110,13 +1246,75 @@ Objects {
     }
     Image {
       Brush {
-        Id: 1832806668449724969
+        Id: 9399995988735389280
       }
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15146147050269344957
+    SubobjectId: 9464185073710796910
+    InstanceId: 14426319141699216976
+    TemplateId: 1526186610335564444
+  }
+}
+Objects {
+  Id: 2469599504549274923
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -6.83018789e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13192451163507438649
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 64
+    Height: 64
+    UIX: 3.03754687
+    UIY: 0.880360126
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 9399995988735389280
+      }
+      Color {
+        A: 0.59800005
       }
       TeamSettings {
       }
@@ -1169,7 +1367,7 @@ Objects {
   Control {
     Width: 193
     Height: 27
-    UIY: -2.45094299
+    UIY: 1.57376575
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1189,6 +1387,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
+        Id: 1144950805409236433
       }
     }
     AnchorLayout {
