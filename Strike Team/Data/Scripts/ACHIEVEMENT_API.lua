@@ -181,16 +181,18 @@ function API.GetCurrentProgress(player, id)
     end
 end
 
-function API.IsUnlocked(player, id)
+function API.IsUnlocked(player, id, value)
+    value = value or API.GetCurrentProgress(player, id)
     if
         IsValidPlayer(player) and API.GetAchievementInfo(id) and
-            API.GetCurrentProgress(player, id) >= API.GetAchievementRequired(id)
+        value >= API.GetAchievementRequired(id)
      then
         return true
     else
         return false
     end
 end
+
 
 function API.GetUnlockedAchievements(player)
     local tempTbl = {}

@@ -17,7 +17,7 @@ function MoveReturnParent(ability)
         return
     end
 
-    local executeDuration = ability.executePhaseSettings.duration
+    local executeDuration = 0.11  --ability.executePhaseSettings.duration
     local recoveryDuration = ability.recoveryPhaseSettings.duration + ability.cooldownPhaseSettings.duration
 
     PARENT:StopMove()

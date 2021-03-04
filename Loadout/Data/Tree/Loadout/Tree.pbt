@@ -454,14 +454,14 @@ Objects {
   Name: "Pan"
   Transform {
     Location {
-      X: 183.309891
-      Y: -365.052979
-      Z: 143.763794
+      X: 178.843597
+      Y: -354.805817
+      Z: 139.971817
     }
     Rotation {
-      Pitch: -79.8237
-      Yaw: -113.202026
-      Roll: -138.77121
+      Pitch: -58.6842651
+      Yaw: -51.8171082
+      Roll: -33.8781738
     }
     Scale {
       X: 0.1
@@ -695,7 +695,7 @@ Objects {
     Location {
       X: 146.035904
       Y: -317.976898
-      Z: 126.999893
+      Z: 129.584442
     }
     Rotation {
       Pitch: -7.63925171
@@ -1196,7 +1196,7 @@ Objects {
   ChildIds: 16564750678633576762
   ChildIds: 18131314453509860071
   ChildIds: 17209077381806335211
-  ChildIds: 1934178880412011450
+  ChildIds: 16102199774347456865
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1233,9 +1233,17 @@ Objects {
   }
 }
 Objects {
-  Id: 1934178880412011450
+  Id: 16102199774347456865
   Name: "PurchaseCreditButton"
   Transform {
+    Location {
+      X: 127.869278
+      Y: -175.538971
+      Z: 207.378189
+    }
+    Rotation {
+      Yaw: -174.26236
+    }
     Scale {
       X: 1
       Y: 1
@@ -1243,77 +1251,833 @@ Objects {
     }
   }
   ParentId: 14933729121853623480
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3365917242327634657
-      value {
-        Overrides {
-          Name: "Label"
-          String: "Purchase Strike Coins"
+  ChildIds: 17863617381651271928
+  ChildIds: 13069646934703565605
+  ChildIds: 3132974585120897558
+  ChildIds: 10067623230549575734
+  ChildIds: 1802509432101174092
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Control {
+    Width: 182
+    Height: 83
+    UIX: 262
+    UIY: -15
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.8796224
+        G: 0.291770637
+        B: 0.0152085144
+        A: 1
+      }
+      HoveredColor {
+        R: 0.052
+        G: 0.052
+        B: 0.052
+        A: 1
+      }
+      PressedColor {
+        A: 1
+      }
+      DisabledColor {
+        A: 1
+      }
+      Brush {
+        Id: 12804716500201279526
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
-    ParameterOverrideMap {
-      key: 8391273575596516368
-      value {
-        Overrides {
-          Name: "Name"
-          String: "PurchaseCreditButton"
+  }
+  InstanceHistory {
+    SelfId: 16102199774347456865
+    SubobjectId: 8391273575596516368
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1802509432101174092
+  Name: "UI Panel"
+  Transform {
+    Location {
+      X: 109.679459
+      Y: -187.443054
+      Z: -207.378189
+    }
+    Rotation {
+      Yaw: -174.26236
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16102199774347456865
+  ChildIds: 6177255536312216576
+  ChildIds: 10547213624341785366
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 34
+    Height: 34
+    UIX: -13.7514801
+    UIY: 8.63607
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Width"
-          Int: 182
-        }
-        Overrides {
-          Name: "Height"
-          Int: 83
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 127.869278
-            Y: -175.538971
-            Z: 207.378189
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -174.26236
-          }
-        }
-        Overrides {
-          Name: "Anchor"
-          Enum {
-            Value: "mc:euianchor:bottomleft"
-          }
-        }
-        Overrides {
-          Name: "Dock"
-          Enum {
-            Value: "mc:euianchor:bottomleft"
-          }
-        }
-        Overrides {
-          Name: "UIX"
-          Float: 262
-        }
-        Overrides {
-          Name: "UIY"
-          Float: -15
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
         }
       }
     }
-    TemplateAsset {
-      Id: 4340041180145955302
+  }
+}
+Objects {
+  Id: 10547213624341785366
+  Name: "Icon"
+  Transform {
+    Location {
+      X: 254.280624
+      Y: 491.247437
+      Z: -155.300842
+    }
+    Rotation {
+      Yaw: 174.26236
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1802509432101174092
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 32
+    Height: 32
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 10117964992090160592
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9898090918363078415
+    SubobjectId: 14059023812613610750
+    InstanceId: 1736845678661253780
+    TemplateId: 10006038514561667178
+  }
+}
+Objects {
+  Id: 6177255536312216576
+  Name: "Icon"
+  Transform {
+    Location {
+      X: 254.280624
+      Y: 491.247437
+      Z: -155.300842
+    }
+    Rotation {
+      Yaw: 174.26236
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1802509432101174092
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 32
+    Height: 32
+    UIX: 2.21670699
+    UIY: 3.51613569
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 10117964992090160592
+      }
+      Color {
+        A: 0.493000031
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9898090918363078415
+    SubobjectId: 14059023812613610750
+    InstanceId: 1736845678661253780
+    TemplateId: 10006038514561667178
+  }
+}
+Objects {
+  Id: 10067623230549575734
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: 109.679459
+      Y: -187.443054
+      Z: -207.378189
+    }
+    Rotation {
+      Yaw: -174.26236
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16102199774347456865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 4
+    Height: 4
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 3481758651789323561
+      }
+      Color {
+        R: 0.871367335
+        G: 0.278894424
+        B: 0.0122865
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3132974585120897558
+  Name: "PerkButton"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16102199774347456865
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ButtonSFX"
+      AssetReference {
+        Id: 12158755182003592593
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5653279162251628414
+    }
+  }
+  InstanceHistory {
+    SelfId: 3132974585120897558
+    SubobjectId: 9259335357879725927
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+  }
+}
+Objects {
+  Id: 13069646934703565605
+  Name: "Text Panel"
+  Transform {
+    Location {
+      X: 109.679459
+      Y: -187.443054
+      Z: -207.378189
+    }
+    Rotation {
+      Yaw: -174.26236
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16102199774347456865
+  ChildIds: 9634158772735346576
+  ChildIds: 9398676709253565792
+  ChildIds: 3951906368665143948
+  ChildIds: 186724821576344793
+  ChildIds: 1707584989337624691
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    UIX: 14.4687347
+    UIY: 13.2763014
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1707584989337624691
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -0.000108429245
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13069646934703565605
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 169
+    Height: 111
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentHeight: true
+    Text {
+      Label: "Purchase Strike Coins"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9634158772735346576
+    SubobjectId: 3365917242327634657
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+  }
+}
+Objects {
+  Id: 186724821576344793
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -7.76933957e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13069646934703565605
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 169
+    Height: 111
+    UIX: 1
+    UIY: 1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentHeight: true
+    Text {
+      Label: "Purchase Strike Coins"
+      Color {
+        R: 0.161458328
+        G: 0.0510321669
+        B: 0.00216494966
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9634158772735346576
+    SubobjectId: 3365917242327634657
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+  }
+}
+Objects {
+  Id: 3951906368665143948
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -4.78113179e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13069646934703565605
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 169
+    Height: 111
+    UIX: 1
+    UIY: -1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentHeight: true
+    Text {
+      Label: "Purchase Strike Coins"
+      Color {
+        R: 0.161458328
+        G: 0.0510321669
+        B: 0.00216494966
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9634158772735346576
+    SubobjectId: 3365917242327634657
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+  }
+}
+Objects {
+  Id: 9398676709253565792
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -1.7075472e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13069646934703565605
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 169
+    Height: 111
+    UIX: -1
+    UIY: 1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentHeight: true
+    Text {
+      Label: "Purchase Strike Coins"
+      Color {
+        R: 0.161458328
+        G: 0.0510321669
+        B: 0.00216494966
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9634158772735346576
+    SubobjectId: 3365917242327634657
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+  }
+}
+Objects {
+  Id: 9634158772735346576
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13069646934703565605
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 169
+    Height: 111
+    UIX: -1
+    UIY: -1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentHeight: true
+    Text {
+      Label: "Purchase Strike Coins"
+      Color {
+        R: 0.161458328
+        G: 0.0510321669
+        B: 0.00216494966
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9634158772735346576
+    SubobjectId: 3365917242327634657
+    InstanceId: 1934178880412011450
+    TemplateId: 4340041180145955302
+  }
+}
+Objects {
+  Id: 17863617381651271928
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: 109.679459
+      Y: -187.443054
+      Z: -207.378189
+    }
+    Rotation {
+      Yaw: -174.262329
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16102199774347456865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 841534158063459245
+      }
+      Color {
+        R: 0.871367335
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.593000054
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
     }
   }
 }
@@ -1654,7 +2418,7 @@ Objects {
         Id: 10117964992090160592
       }
       Color {
-        A: 0.567000031
+        A: 0.661
       }
     }
     AnchorLayout {
@@ -2932,14 +3696,14 @@ Objects {
       FontSize: 49
       ButtonColor {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
+        G: 0.278894424
+        B: 0.0122865
         A: 1
       }
       HoveredColor {
         R: 0.386429518
-        G: 0.122138798
-        B: 0.00518151606
+        G: 0.122138858
+        B: 0.00518152537
         A: 1
       }
       PressedColor {
@@ -3117,8 +3881,8 @@ Objects {
       }
       Color {
         R: 0.386429518
-        G: 0.122138798
-        B: 0.00518151606
+        G: 0.122138858
+        B: 0.00518152537
         A: 1
       }
       TeamSettings {

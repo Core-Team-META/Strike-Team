@@ -1,4 +1,17 @@
 Assets {
+  Id: 18426199145520671077
+  Name: "8625 Strike Coins"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "f72d4bdae38648848ca6b65db8422fb7"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -384,6 +397,19 @@ Assets {
   }
 }
 Assets {
+  Id: 9066003771723965358
+  Name: "3000 Strike Coins"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "d47f41aff3fa4c3ca2c3532a0db16683"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
   Id: 9012634881940008866
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2
@@ -417,6 +443,19 @@ Assets {
   NetReferenceAsset {
     NetReference {
       Key: "961ac6713ade4960a6f4639fca25d3a1"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
+  Id: 8311069857538131653
+  Name: "39000 Strike Coins"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "0d68fcc9f84a4c58a6baefe872e7cad4"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
       }

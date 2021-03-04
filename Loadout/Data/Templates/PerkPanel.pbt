@@ -505,8 +505,7 @@ Assets {
         }
         ParentId: 17653083209715265370
         ChildIds: 12251855011198681547
-        ChildIds: 14240456271866956336
-        ChildIds: 11023113848890273140
+        ChildIds: 3045999711297658455
         ChildIds: 3412669812708088150
         ChildIds: 13645646988671080770
         ChildIds: 17863635728212613280
@@ -601,8 +600,8 @@ Assets {
         }
       }
       Objects {
-        Id: 14240456271866956336
-        Name: "UI Button"
+        Id: 3045999711297658455
+        Name: "UI Panel"
         Transform {
           Location {
           }
@@ -615,6 +614,7 @@ Assets {
           }
         }
         ParentId: 3449872191352574247
+        ChildIds: 15000321830421449756
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -622,250 +622,66 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 230
-          Height: 70
-          UIY: -10
+          Width: 100
+          Height: 100
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          Button {
-            FontColor {
-              A: 1
+          UseParentWidth: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
             }
-            FontSize: 20
-            ButtonColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
             }
-            HoveredColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
+          }
+        }
+      }
+      Objects {
+        Id: 15000321830421449756
+        Name: "UI Perk Purchase Button"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3045999711297658455
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 255
+          Height: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
             }
-            PressedColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
-            }
-            DisabledColor {
-              R: 1
-              G: 1
-              B: 1
-            }
-            Brush {
-              Id: 841534158063459245
-            }
+          }
+          PurchaseButton {
             IsButtonEnabled: true
-            ClickMode {
-              Value: "mc:ebuttonclickmode:default"
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
+            PerkReference {
+              Key: "d47f41aff3fa4c3ca2c3532a0db16683"
+              Type {
+                Value: "mc:enetreferencetype:creatorperk"
               }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11023113848890273140
-        Name: "UI Button"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3449872191352574247
-        ChildIds: 11853689136368351875
-        ChildIds: 4036914683582860377
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 230
-          Height: 70
-          UIY: -20
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Button {
-            FontColor {
-              A: 1
-            }
-            FontSize: 20
-            ButtonColor {
-              R: 0.871367335
-              G: 0.278894335
-              B: 0.0122864898
-              A: 1
-            }
-            HoveredColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
-            }
-            PressedColor {
-              R: 1
-              G: 0.318546832
-              B: 0.0137020834
-              A: 1
-            }
-            DisabledColor {
-              R: 1
-              G: 1
-              B: 1
-            }
-            Brush {
-              Id: 841534158063459245
-            }
-            IsButtonEnabled: true
-            ClickMode {
-              Value: "mc:ebuttonclickmode:default"
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11853689136368351875
-        Name: "UI Text Box"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11023113848890273140
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 220
-          Height: 40
-          UIY: 5
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "300 Core Credits"
-            Color {
-              A: 1
-            }
-            Size: 19
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 13265086121326640350
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4036914683582860377
-        Name: "SHINE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11023113848890273140
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 220
-          Height: 16
-          UIY: -7
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "300 Core Credits"
-            Color {
-              R: 0.04
-              G: 0.04
-              B: 0.04
-              A: 1
-            }
-            Size: 19
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            ClipTextToSize: true
-            Font {
-              Id: 13265086121326640350
             }
           }
           AnchorLayout {
@@ -1420,8 +1236,7 @@ Assets {
         }
         ParentId: 17653083209715265370
         ChildIds: 17840490759915289086
-        ChildIds: 560548555514272426
-        ChildIds: 9399518458753258406
+        ChildIds: 14475097385051577845
         ChildIds: 12416670520798086995
         ChildIds: 8779279768480792568
         ChildIds: 2480683068583855953
@@ -1516,8 +1331,8 @@ Assets {
         }
       }
       Objects {
-        Id: 560548555514272426
-        Name: "UI Button"
+        Id: 14475097385051577845
+        Name: "UI Panel"
         Transform {
           Location {
           }
@@ -1530,6 +1345,7 @@ Assets {
           }
         }
         ParentId: 16072838225608755051
+        ChildIds: 3731588736162229401
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1537,250 +1353,66 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 230
-          Height: 70
-          UIY: -10
+          Width: 100
+          Height: 100
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          Button {
-            FontColor {
-              A: 1
+          UseParentWidth: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
             }
-            FontSize: 20
-            ButtonColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
             }
-            HoveredColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
+          }
+        }
+      }
+      Objects {
+        Id: 3731588736162229401
+        Name: "UI Perk Purchase Button"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14475097385051577845
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 255
+          Height: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
             }
-            PressedColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
-            }
-            DisabledColor {
-              R: 1
-              G: 1
-              B: 1
-            }
-            Brush {
-              Id: 841534158063459245
-            }
+          }
+          PurchaseButton {
             IsButtonEnabled: true
-            ClickMode {
-              Value: "mc:ebuttonclickmode:default"
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
+            PerkReference {
+              Key: "f72d4bdae38648848ca6b65db8422fb7"
+              Type {
+                Value: "mc:enetreferencetype:creatorperk"
               }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9399518458753258406
-        Name: "UI Button"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16072838225608755051
-        ChildIds: 2565770379098222432
-        ChildIds: 9270215701003977077
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 230
-          Height: 70
-          UIY: -20
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Button {
-            FontColor {
-              A: 1
-            }
-            FontSize: 20
-            ButtonColor {
-              R: 0.871367335
-              G: 0.278894335
-              B: 0.0122864898
-              A: 1
-            }
-            HoveredColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
-            }
-            PressedColor {
-              R: 1
-              G: 0.318546832
-              B: 0.0137020834
-              A: 1
-            }
-            DisabledColor {
-              R: 1
-              G: 1
-              B: 1
-            }
-            Brush {
-              Id: 841534158063459245
-            }
-            IsButtonEnabled: true
-            ClickMode {
-              Value: "mc:ebuttonclickmode:default"
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2565770379098222432
-        Name: "UI Text Box"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9399518458753258406
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 220
-          Height: 40
-          UIY: 5
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "750 Core Credits"
-            Color {
-              A: 1
-            }
-            Size: 19
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 13265086121326640350
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9270215701003977077
-        Name: "SHINE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9399518458753258406
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 220
-          Height: 16
-          UIY: -7
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "750 Core Credits"
-            Color {
-              R: 0.04
-              G: 0.04
-              B: 0.04
-              A: 1
-            }
-            Size: 19
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            ClipTextToSize: true
-            Font {
-              Id: 13265086121326640350
             }
           }
           AnchorLayout {
@@ -2335,8 +1967,7 @@ Assets {
         }
         ParentId: 17653083209715265370
         ChildIds: 14237420861029900184
-        ChildIds: 14184183329150081604
-        ChildIds: 5714833152326767463
+        ChildIds: 958130892756185207
         ChildIds: 8599101761450401257
         ChildIds: 7275164912016977909
         ChildIds: 16568530937353042328
@@ -2431,8 +2062,8 @@ Assets {
         }
       }
       Objects {
-        Id: 14184183329150081604
-        Name: "UI Button"
+        Id: 958130892756185207
+        Name: "UI Panel"
         Transform {
           Location {
           }
@@ -2445,6 +2076,7 @@ Assets {
           }
         }
         ParentId: 5460949333151523531
+        ChildIds: 11874619426192963237
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2452,248 +2084,66 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 230
-          Height: 70
-          UIY: -10
+          Width: 100
+          Height: 100
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          Button {
-            FontColor {
-              A: 1
+          UseParentWidth: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
             }
-            FontSize: 20
-            ButtonColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
             }
-            HoveredColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
+          }
+        }
+      }
+      Objects {
+        Id: 11874619426192963237
+        Name: "UI Perk Purchase Button"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 958130892756185207
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 255
+          Height: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
             }
-            PressedColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
-            }
-            DisabledColor {
-              R: 1
-              G: 1
-              B: 1
-            }
-            Brush {
-              Id: 841534158063459245
-            }
+          }
+          PurchaseButton {
             IsButtonEnabled: true
-            ClickMode {
-              Value: "mc:ebuttonclickmode:default"
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
+            PerkReference {
+              Key: "0d68fcc9f84a4c58a6baefe872e7cad4"
+              Type {
+                Value: "mc:enetreferencetype:creatorperk"
               }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5714833152326767463
-        Name: "UI Button"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5460949333151523531
-        ChildIds: 12703081080795846006
-        ChildIds: 14928251695665042568
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 230
-          Height: 70
-          UIY: -20
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Button {
-            FontColor {
-              A: 1
-            }
-            FontSize: 20
-            ButtonColor {
-              R: 0.871367335
-              G: 0.278894335
-              B: 0.0122864898
-              A: 1
-            }
-            HoveredColor {
-              R: 0.386429518
-              G: 0.122138798
-              B: 0.00518151606
-              A: 1
-            }
-            PressedColor {
-              R: 1
-              G: 0.318546832
-              B: 0.0137020834
-              A: 1
-            }
-            DisabledColor {
-              R: 1
-              G: 1
-              B: 1
-            }
-            Brush {
-              Id: 841534158063459245
-            }
-            IsButtonEnabled: true
-            ClickMode {
-              Value: "mc:ebuttonclickmode:default"
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12703081080795846006
-        Name: "UI Text Box"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5714833152326767463
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 220
-          Height: 40
-          UIY: 5
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "3000 Core Credits"
-            Color {
-              A: 1
-            }
-            Size: 19
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            Font {
-              Id: 13265086121326640350
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14928251695665042568
-        Name: "SHINE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5714833152326767463
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 220
-          Height: 16
-          UIY: -7
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "3000 Core Credits"
-            Color {
-              R: 0.04
-              G: 0.04
-              B: 0.04
-              A: 1
-            }
-            Size: 19
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            ClipTextToSize: true
-            Font {
-              Id: 13265086121326640350
             }
           }
           AnchorLayout {
@@ -3417,15 +2867,6 @@ Assets {
             Id: 8621172325285470240
           }
         }
-      }
-    }
-    Assets {
-      Id: 13265086121326640350
-      Name: "Roboto Black"
-      PlatformAssetType: 28
-      PrimaryAsset {
-        AssetType: "FontAssetRef"
-        AssetId: "RobotoBlack_ref"
       }
     }
     Assets {

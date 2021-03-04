@@ -59,8 +59,11 @@ function SkinStorage:HasSkin(Weapon,Skin)
 end
 
 function SkinStorage:HasWeapon(Weapon)
+    while not _G["DataBase"] do Task.Wait() end
     --if true then return true end
     if not Weapon then return true end
+    local Item = _G["DataBase"]:ReturnEquipmentById(Weapon) 
+    if Item == "Perk" then return true end
     if self.StorageTable[Weapon] then return true end
 end
 

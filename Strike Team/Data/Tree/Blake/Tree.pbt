@@ -933,41 +933,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4046000927248889314
-  Name: "ChatHooks"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Commands"
-      AssetReference {
-        Id: 4480426034829824473
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17154672043655382137
-    }
-  }
-}
-Objects {
   Id: 4357706706468832932
   Name: "KillManager"
   Transform {
@@ -1254,13 +1219,9 @@ Objects {
   }
 }
 Objects {
-  Id: 4674814645706292939
+  Id: 9054774325255140997
   Name: "EquipmentHandler"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -1274,16 +1235,29 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EquipmentHandler"
-  }
-  InstanceHistory {
-    SelfId: 4674814645706292939
-    SubobjectId: 777066251803753357
-    InstanceId: 9054774325255140997
-    TemplateId: 12469272091380785429
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12469272091380785429
+    }
   }
 }
 Objects {

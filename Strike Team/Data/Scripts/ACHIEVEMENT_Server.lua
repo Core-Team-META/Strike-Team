@@ -32,24 +32,34 @@ local function SetPlayerFlags(player)
     player.serverUserData.ACH_killCount = 0
 end
 
-local function SetResourceBasedAchievements(player)
-    local damageDone = player:GetResource("DamageDone")
-    player.clientUserData.damageDone = player.clientUserData.damageDone or damageDone
-    damageDone = damageDone - player.clientUserData.damageDone
-    player.clientUserData.damageDone = damageDone
-    --local assists = player:GetResource("Assists")
-    local objective = player:GetResource("Objective")
-    player.clientUserData.objective = player.clientUserData.objective or objective
-    objective = objective - player.clientUserData.objective
-    player.clientUserData.objective = objective
-   
-
-    ACH_API.AddProgress(player, "AS_NRDMG1", damageDone)
-    ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
-    ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
-
-    ACH_API.AddProgress(player, "AS_NRSC1", objective)
-    ACH_API.AddProgress(player, "AS_NRSC2", objective)
+local function OnResourceChanged(player, resName, resAmt)
+    if resAmt == 0 then
+        return
+    end
+    if resName == "Objective" then
+        if ACH_API.IsUnlocked(player, "AS_NRSC1", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRSC1")
+        end
+        if ACH_API.IsUnlocked(player, "AS_NRSC2", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRSC2")
+        end
+        if ACH_API.IsUnlocked(player, "AS_NRSC3", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRSC3")
+        end
+    elseif resName == "DamageDone" then
+        if ACH_API.IsUnlocked(player, "AS_NRDMG1", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRDMG1")
+        end
+        if ACH_API.IsUnlocked(player, "AS_NRDMG2", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRDMG2")
+        end
+        if ACH_API.IsUnlocked(player, "AS_NRDMG3", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRDMG3")
+        end
+        if ACH_API.IsUnlocked(player, "AS_NRDMG4", resAmt) then
+            ACH_API.UnlockAchievement(player, "AS_NRDMG4")
+        end
+    end
 end
 
 local function PlayerKilled(player, target, weaponType, isHeadShot)
@@ -112,8 +122,6 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
 
-    SetResourceBasedAchievements(player)
-
     if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
         ACH_API.AddProgress(player, "AS_Blackjack", 21)
     end
@@ -165,7 +173,8 @@ function OnRoundStart()
         SetPlayerFlags(player)
         --[[for _, achievement in pairs(ACH_API.GetAchievements()) do
             ACH_API.UnlockAchievement(player, achievement.id)
-        end]]--
+        end]]
+        --
     end
 end
 
@@ -195,15 +204,20 @@ end
 --#TODO Needs to be changed to cross key
 function OnPlayerJoined(player)
     ACH_API.LoadAchievementStorage(player)
-    listeners[player] = player.respawnedEvent:Connect(OnPlayerRespawn)
+    listeners[player.id] = {}
+    listeners[player.id]["Respawn"] = player.respawnedEvent:Connect(OnPlayerRespawn)
+    listeners[player.id]["Resource"] = player.resourceChangedEvent:Connect(OnResourceChanged)
+
     SetPlayerFlags(player)
 end
 
 function OnPlayerLeft(player)
     ACH_API.SaveAchievementStorage(player)
-    if listeners[player] then
-        listeners[player]:Disconnect()
-        listeners[player] = nil
+    if listeners[player.id] then
+        for _, listener in pairs(listeners[player.id]) do
+            listener:Disconnect()
+        end
+        listeners[player.id] = nil
     end
 end
 
