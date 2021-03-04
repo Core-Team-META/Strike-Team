@@ -42,33 +42,6 @@ Objects {
   }
   ParentId: 1044176828553661530
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Buy15Credits"
-      NetReference {
-        Key: "5c90d9e30f9b46ec9fe7b483b3c54211"
-        Type {
-          Value: "mc:enetreferencetype:creatorperk"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Buy1Credits"
-      NetReference {
-        Key: "4a2776a6eacd4c39a99fe01c56f5759a"
-        Type {
-          Value: "mc:enetreferencetype:creatorperk"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Buy3Credits"
-      NetReference {
-        Key: "3506e66ee3d84a399db596ed39f7e60e"
-        Type {
-          Value: "mc:enetreferencetype:creatorperk"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
