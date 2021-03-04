@@ -5,6 +5,7 @@ local UI_OPEN_SOUND = script:GetCustomProperty("UI_OPEN_SOUND")
 local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
 
 local CanActivate = true
+local ABGS = require(script:GetCustomProperty("ABGS"))
 
 UI.SetCursorLockedToViewport(true)
 local function ToggleOn()
@@ -46,12 +47,17 @@ end)
 Events.Connect("SwapPanelForceOpen",ToggleOn)
 Events.Connect("SwapPanelForceClose",ToggleOff)
 
+showTable = {
+    [ABGS.GAME_STATE_ROUND_VOTING] = true,
+    [ABGS.GAME_STATE_ROUND_END] = true,
+    [ABGS.GAME_STATE_ROUND_STATS] = true,
+}
 
 
-while not _G["ABGS"]  do Task.Wait() end
+function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
+    print(showTable[newState]  )
+    if showTable[newState]   then 
 
-function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
-    if newState == _G["ABGS"].GAME_STATE_ROUND_VOTING or _G["ABGS"].GAME_STATE_ROUND_END or _G["ABGS"].GAME_STATE_ROUND_STATS   then 
         CanActivate = false
     else
         CanActivate = true
