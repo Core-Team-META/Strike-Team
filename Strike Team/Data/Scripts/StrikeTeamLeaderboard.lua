@@ -13,7 +13,7 @@ local NAME_COLOR_OTHER = script:GetCustomProperty("NameColorOther")
 local NAME_COLOR_LOCAL = script:GetCustomProperty("NameColorLocal")
 local PANEL = script.parent
 
-local USE_DEBUG_DATA = true
+local USE_DEBUG_DATA = false
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -97,20 +97,30 @@ function GenerateLeaderboard()
 		entryValue = row:FindDescendantByName("PlayerScore")
 		
 		-- Name
-		entryName.text = entry.name
-		
-		-- Name Color
-		if entry.name == LOCAL_PLAYER.name then
-			entryName:SetColor(NAME_COLOR_LOCAL)
-		else
+		if localPlayerIndex < 0 and rowsAdded == ROW_COUNT - 1 then
+			-- Separator elipsis row at the bottom, before player
+			entryName.text = ". . ."
 			entryName:SetColor(NAME_COLOR_OTHER)
-		end
-		
-		-- Score
-		if RESOURCE_TO_TRACK == "KDR" then
-			entryValue.text = string.format("%0.1f", entry.score)
+			entryValue.text = ""
 		else
-			entryValue.text = string.format("%d", entry.score)
+			entryName.text = entry.name
+		
+			-- Name Color
+			if entry.name == LOCAL_PLAYER.name then
+				entryName:SetColor(NAME_COLOR_LOCAL)
+			else
+				entryName:SetColor(NAME_COLOR_OTHER)
+			end
+			
+			-- Score
+			if RESOURCE_TO_TRACK == "KDR" then
+				entryValue.text = string.format("%0.1f", entry.score)
+				
+	        elseif RESOURCE_TO_TRACK == "Objective" then
+	            entryValue.text = string.format("%d", math.ceil(entry.score/5))
+			else
+				entryValue.text = string.format("%d", entry.score)
+			end
 		end
 	end
 end
