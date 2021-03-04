@@ -223,11 +223,14 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
 end
 
 function SortPanels(a,b)
-    if a == b then return end
+    if a == b then return false end
 
     if Storage:HasWeapon(a.data.id) == true and not Storage:HasWeapon(b.data.id)  then return true end
     if not Storage:HasWeapon(a.data.id)  and Storage:HasWeapon(b.data.id) == true then return false end
     
+    if a:GetLevel() < b:GetLevel() then return true  end 
+    if a:GetLevel() > b:GetLevel() then return false end 
+
     if a.data.name == b.data.name then return false end
     return a.data.name <= b.data.name 
 

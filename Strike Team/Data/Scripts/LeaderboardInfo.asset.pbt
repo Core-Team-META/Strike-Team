@@ -16,6 +16,10 @@ Assets {
           }
         }
       }
+      Overrides {
+        Name: "cs:IsWeekly"
+        Bool: false
+      }
     }
   }
   SerializationVersion: 76

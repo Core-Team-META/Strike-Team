@@ -302,7 +302,7 @@ Assets {
         Control {
           Width: 313
           Height: 2
-          UIY: -89.1877441
+          UIY: 44
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -324,12 +324,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
