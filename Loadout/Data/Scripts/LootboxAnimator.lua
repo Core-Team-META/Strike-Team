@@ -1,7 +1,8 @@
-local LOCAL_PLAYER = Game.GetLocalPlayer()
+	local LOCAL_PLAYER = Game.GetLocalPlayer()
 local RollEvent = script:GetCustomProperty("RollEvent")
 local MovementSpeed = script:GetCustomProperty("MovementSpeed")
 local NumberOfLoops = script:GetCustomProperty("NumberOfLoops")
+local DefaultSpawn = script:GetCustomProperty("DefaultSpawn")
 
 local SelectedWeapon = script:GetCustomProperty("SelectedWeapon"):WaitForObject()
 local OtherWeapons = script:GetCustomProperty("OtherWeapons"):WaitForObject()
@@ -382,15 +383,21 @@ end
 function Roll(MainWeapon, others)
 	for _, v in pairs(others) do
 		local weapon = v:ForceSpawnEquipment()
-		if v:GetSlot() == ("Primary" or "Secondary" or "Melee") then
-			weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0, 90, 0))
-		else
-			--weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0, 0, 0))
+		if not weapon then 
+			weapon = World.SpawnAsset(DefaultSpawn)
 		end
-		weapon.parent = OtherWeapons
+			if v:GetSlot() == ("Primary" or "Secondary" or "Melee") then
+				weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0, 90, 0))
+			else
+				--weapon:SetRotation(v.data.Rotation_Offset + Rotation.New(0, 0, 0))
+			end
+			weapon.parent = OtherWeapons
 	end
 
 	local Main = MainWeapon:ForceSpawnEquipment()
+	if not Main then 
+		Main = World.SpawnAsset(DefaultSpawn)
+	end
 	Main.parent = SelectedWeapon
 	if MainWeapon:GetSlot() == ("Primary" or "Secondary" or "Melee") then
 		Main:SetRotation(MainWeapon.data.Rotation_Offset + Rotation.New(0, 90, 0))

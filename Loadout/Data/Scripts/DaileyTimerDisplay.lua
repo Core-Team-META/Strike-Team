@@ -1,4 +1,4 @@
-local DailyTimer = script:GetCustomProperty("DailyTimer"):WaitForObject()
+    local DailyTimer = script:GetCustomProperty("DailyTimer"):WaitForObject()
 
 function Show()
     DailyTimer.visibility = Visibility.INHERIT

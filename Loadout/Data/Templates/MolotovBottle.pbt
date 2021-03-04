@@ -87,7 +87,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7017607377705421184
+            Id: 15389123512634345687
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -122,7 +122,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 1778446291070997431
             }
           }
           Overrides {
@@ -142,7 +142,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17951992793618514894
+            Id: 9372939288148738240
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -177,7 +177,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 1778446291070997431
             }
           }
           Overrides {
@@ -231,7 +231,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 1778446291070997431
             }
           }
           Overrides {
@@ -251,7 +251,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16598762979971943472
+            Id: 4794041361382728409
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -464,7 +464,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7017607377705421184
+      Id: 15389123512634345687
       Name: "Crescent - 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -473,7 +473,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17951992793618514894
+      Id: 9372939288148738240
       Name: "Cone - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -482,7 +482,7 @@ Assets {
       }
     }
     Assets {
-      Id: 643713811288060970
+      Id: 1778446291070997431
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -500,7 +500,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16598762979971943472
+      Id: 4794041361382728409
       Name: "Cylinder - Chamfered Polished"
       PlatformAssetType: 1
       PrimaryAsset {

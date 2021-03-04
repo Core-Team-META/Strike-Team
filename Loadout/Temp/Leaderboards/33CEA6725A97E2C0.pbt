@@ -1,4 +1,11 @@
 GlobalEntries {
+  Id: "0ea6612ceab7456a8a3a963a94808295"
+  Name: "blaking707"
+  ScoreFormatted: "8389116.0"
+  AdditionalData: "061200006"
+  DateTime: "2021-03-04T02:33:26.149Z"
+}
+GlobalEntries {
   Id: "c9e565064a8142d897bcf2a4e53e81c3"
   Name: "Buckmonster"
   ScoreFormatted: "8389116.0"
@@ -18,13 +25,6 @@ GlobalEntries {
   ScoreFormatted: "510.0"
   AdditionalData: "041020061"
   DateTime: "2021-02-10T07:21:41.731Z"
-}
-GlobalEntries {
-  Id: "0ea6612ceab7456a8a3a963a94808295"
-  Name: "blaking707"
-  ScoreFormatted: "508.0"
-  AdditionalData: "061200006"
-  DateTime: "2021-03-02T20:42:23.953Z"
 }
 GlobalEntries {
   Id: "4137d03037c34d43b7a4e1565f087ab3"

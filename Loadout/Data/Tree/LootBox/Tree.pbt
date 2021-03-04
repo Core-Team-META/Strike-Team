@@ -11490,6 +11490,12 @@ Objects {
         Id: 3949190775138756950
       }
     }
+    Overrides {
+      Name: "cs:DefaultSpawn"
+      AssetReference {
+        Id: 626333341864315551
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

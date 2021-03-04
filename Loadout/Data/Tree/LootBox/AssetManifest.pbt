@@ -404,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 626333341864315551
+  Name: "Ball - Soccer 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_ball_soccer_01_ref"
+  }
+}
+Assets {
   Id: 539670975280601370
   Name: "Chain Link 01"
   PlatformAssetType: 2
