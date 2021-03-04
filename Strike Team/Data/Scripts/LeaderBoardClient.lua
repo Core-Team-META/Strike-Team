@@ -86,9 +86,9 @@ function GenerateLeaderboard()
 						
 						end
 						
-						if panel:GetCustomProperty("ResourceToTrack") == "KDR" then
+						if panel:GetCustomProperty("ResourceToTrack") == "Objective" then
 						
-							entryValue.text = string.format("%0.1f", entry.score)
+							entryValue.text = string.format("%d", math.ceil(entry.score/5))
 							
 						else 
 						
