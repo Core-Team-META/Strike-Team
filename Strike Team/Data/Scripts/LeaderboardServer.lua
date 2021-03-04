@@ -8,6 +8,7 @@ local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
 local leaderboardList = script:GetCustomProperty("LeaderboardList"):WaitForObject()
 
+local STORAGE_KEY = "LeaderboardSupport"
 local ONE_WEEK = 7 * 24 * 60 * 60
 local currentTimestamp
 
@@ -54,17 +55,20 @@ function OnRoundEndUpdateEntries()
 			end
 		end
 	end
+	
+	for _,player in ipairs(Game.GetPlayers()) do
+		TransferWeeklyStorageToPlayer(player)
+	end
 end
 
 function SaveToWeeklyStorage(player, resource, score)
 	local data = Storage.GetPlayerData(player)
 	
 	-- Init if needed
-	local KEY = "LeaderboardSupport"
-	if not data[KEY] then
-		data[KEY] = {}
+	if not data[STORAGE_KEY] then
+		data[STORAGE_KEY] = {}
 	end
-	local leaderboardData = data[KEY][resource]
+	local leaderboardData = data[STORAGE_KEY][resource]
 	
 	-- Decide if we are going to save this score
 	local setNewData = false
@@ -92,7 +96,7 @@ function SaveToWeeklyStorage(player, resource, score)
 		leaderboardData = {}
 		leaderboardData["Score"] = score
 		leaderboardData["Timestamp"] = currentTimestamp
-		data[KEY][resource] = leaderboardData
+		data[STORAGE_KEY][resource] = leaderboardData
 	
 		-- Save data
 		Storage.SetPlayerData(player, data)
@@ -106,4 +110,44 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
+
+
+function TransferWeeklyStorageToPlayer(player)
+	local data = Storage.GetPlayerData(player)
+	if not data[STORAGE_KEY] then return end
+	
+	currentTimestamp = os.time(os.date('!*t'))
+	
+	for _, leaderboardSection in ipairs(leaderboardList:GetChildren()) do
+		leaderboardRef = leaderboardSection:GetCustomProperty("LeaderboardReference")
+		resource = leaderboardSection:GetCustomProperty("ResourceForEntry")
+		isWeekly = leaderboardSection:GetCustomProperty("IsWeekly")
+		
+		if isWeekly then
+			local leaderboardData = data[STORAGE_KEY][resource]
+			if leaderboardData then
+				local resourceKey = "Leaderboard_" .. resource
+				
+				local prevTimestamp = leaderboardData["Timestamp"]
+				
+				local deltaTime = os.difftime(currentTimestamp, prevTimestamp)
+				if deltaTime > ONE_WEEK then
+					player:SetResource(resourceKey, 0)
+				else
+					local score = leaderboardData["Score"]
+					if resource == "KDR" then
+						score = CoreMath.Round(score * 10000)
+					end
+					player:SetResource(resourceKey, score)
+				end
+			end
+		end
+	end
+end
+
+function OnPlayerJoined(player)
+	TransferWeeklyStorageToPlayer(player)
+end
+
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
 

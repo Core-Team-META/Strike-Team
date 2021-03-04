@@ -2,7 +2,7 @@
 local ROW_TEMPLATE = script:GetCustomProperty("LeaderboardRowTemplate")
 
 local LEADERBOARD_INFO = script:GetCustomProperty("LeaderboardInfo"):WaitForObject()
-local RESOURCE_TO_TRACK = LEADERBOARD_INFO:GetCustomProperty("ResourceToEntry")
+local RESOURCE_TO_TRACK = LEADERBOARD_INFO:GetCustomProperty("ResourceForEntry")
 local LEADERBOARD_REF = LEADERBOARD_INFO:GetCustomProperty("LeaderboardReference")
 local IS_WEEKLY = LEADERBOARD_INFO:GetCustomProperty("IsWeekly")
 
@@ -71,10 +71,17 @@ function GenerateLeaderboard()
 		
 		local entry = leaderboardData[i]
 		
-		-- In the case where the player is below the leaderboard
+		-- In the case where the player is below the leaderboard, grab
+		-- their data from Storage (sent via Resources)
 		if not entry then
 			if localPlayerIndex < 0 then
-				entry = {name = LOCAL_PLAYER.name, score = 0} -- TODO : Get from storage
+				local resourceKey = "Leaderboard_" .. RESOURCE_TO_TRACK
+				local _s = LOCAL_PLAYER:GetResource(resourceKey)
+				
+				if RESOURCE_TO_TRACK == "KDR" then
+					_s = _s / 10000
+				end
+				entry = {name = LOCAL_PLAYER.name, score = _s}
 			else
 				break
 			end

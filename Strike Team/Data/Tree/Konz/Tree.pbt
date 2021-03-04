@@ -830,19 +830,6 @@ Objects {
   ParentId: 16534756673854649923
   UnregisteredParameters {
     Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "Objective"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "FA8F043AB76A90AB"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
         SelfId: 14797426944352587653
@@ -1493,19 +1480,6 @@ Objects {
   }
   ParentId: 8161018431931106809
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "KILLS"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "F2A946E773BF7FF1"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
     Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
@@ -2267,27 +2241,6 @@ Objects {
   ParentId: 6859939380899418041
   UnregisteredParameters {
     Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "Headshots"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "A3E8B34C72EAE159"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:IsWeekly"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsGlobal"
-      Bool: false
-    }
-    Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
         SelfId: 5624944219274807550
@@ -2996,27 +2949,6 @@ Objects {
   }
   ParentId: 10349829829254696725
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "DamageDone"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "C486A5253D05AB03"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:IsWeekly"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsGlobal"
-      Bool: false
-    }
     Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
@@ -3727,27 +3659,6 @@ Objects {
   ParentId: 15040601248434552375
   UnregisteredParameters {
     Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "Objective"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "0542E06377020DEA"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:IsWeekly"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsGlobal"
-      Bool: false
-    }
-    Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
         SelfId: 6797050645391217480
@@ -4457,14 +4368,6 @@ Objects {
   ParentId: 4604593127870534387
   UnregisteredParameters {
     Overrides {
-      Name: "cs:IsWeekly"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsGlobal"
-      Bool: false
-    }
-    Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
         SelfId: 1433209535925160565
@@ -5173,27 +5076,6 @@ Objects {
   }
   ParentId: 8694728719021372099
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceToTrack"
-      String: "KILLS"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "55BBF922E5126916"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:IsWeekly"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsGlobal"
-      Bool: false
-    }
     Overrides {
       Name: "cs:LeaderboardInfo"
       ObjectReference {
