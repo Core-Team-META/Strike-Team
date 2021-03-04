@@ -62,8 +62,7 @@ if Environment.IsServer() then
         end
 
         if Code == (1 or 37) then
-            
-            PurchaseAPI.RemoveMoney(player,price,"Cash")
+
             PurchaseAPI.SaveMoney(player)
 
             player.serverUserData.Storage:AddSkin(Weaponid,skinid)

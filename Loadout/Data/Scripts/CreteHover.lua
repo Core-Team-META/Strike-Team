@@ -5,7 +5,6 @@ local Panel
 
 function openPanel()
     Panel = World.SpawnAsset(PopupText,{parent = Root})
-
 end
 
 

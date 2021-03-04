@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4926463013892911400
+        ParentId: 13897893943081087324
         ChildIds: 15829173403227810389
         ChildIds: 313612000913956663
         ChildIds: 17811248920901255164
@@ -372,6 +372,7 @@ Assets {
           }
         }
         ParentId: 12168859284952890558
+        ChildIds: 3776004916501028464
         ChildIds: 7543284320193690396
         ChildIds: 12172530171423847447
         Collidable_v2 {
@@ -402,6 +403,63 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3776004916501028464
+        Name: "ACHIEVEMENT_BG"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11029119428673372053
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 110
+          Height: 110
+          UIY: -6
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 3884726409041590116
+            }
+            Color {
+              R: 0.988344729
+              G: 0.874134958
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -1431,6 +1489,7 @@ Assets {
           }
         }
         ParentId: 10977538147425335169
+        ChildIds: 15305437524303144489
         ChildIds: 5475673069233736894
         ChildIds: 11712288119684567855
         ChildIds: 8522769525757653927
@@ -1460,6 +1519,64 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middleleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15305437524303144489
+        Name: "ACHIEVEMENT_BG"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5317476835278025517
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 110
+          Height: 110
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 3884726409041590116
+            }
+            Color {
+              R: 0.988344729
+              G: 0.874134958
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -2454,6 +2571,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
+      Id: 3884726409041590116
+      Name: "Sci-fi Ability Green 025"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Ability_Green_025"
       }
     }
     Assets {
