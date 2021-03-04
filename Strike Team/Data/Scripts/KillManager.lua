@@ -72,7 +72,10 @@ function UpdateResouces(player,damage)
 end
 
 function DamageUpdate(player,damage)
-    if Object.IsValid(damage.sourcePlayer) and damage.amount > 1 then
+    if not Object.IsValid(damage.sourcePlayer) or Object.IsValid(damage.sourcePlayer) and player == damage.sourcePlayer then
+        return
+    end
+    if damage.amount > 1 then
         damage.sourcePlayer:AddResource("DamageDone", math.floor( damage.amount))
         if(not player.serverUserData.Assists) then player.serverUserData.Assists = {} end
         player.serverUserData.Assists[damage.sourcePlayer] = damage.sourcePlayer
