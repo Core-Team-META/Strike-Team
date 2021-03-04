@@ -33,31 +33,20 @@ local function SetPlayerFlags(player)
 end
 
 local function PlayerKilled(player, target, weaponType, isHeadShot)
-     
     if weaponType == "Assault Rifle" then
         ACH_API.AddProgress(player, "AS_Rifle", 1)
-
-
     elseif weaponType == "SMG" then
         ACH_API.AddProgress(player, "AS_SMG", 1)
-
-
+    elseif weaponType == "Grenade" then
+        ACH_API.AddProgress(player, "AS_Grenade", 1)
     elseif weaponType == "Sniper" then
         ACH_API.AddProgress(player, "AS_Sniper", 1)
-
-
     elseif weaponType == "Melee" then
         ACH_API.AddProgress(player, "AS_Melee", 1)
-
-
     elseif weaponType == "LMG" then
         ACH_API.AddProgress(player, "AS_LMG", 1)
-
-
     elseif weaponType == "Shotgun" then
         ACH_API.AddProgress(player, "AS_Shotgun", 1)
-
-
     elseif weaponType == "Pistol" then
         ACH_API.AddProgress(player, "AS_Pistol", 1)
     end
@@ -70,7 +59,6 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_Sharpshooter", 1)
     end
 
-
     ACH_API.AddProgress(player, "AS_Recruit", 1)
     ACH_API.AddProgress(player, "AS_Killer", 1)
     ACH_API.AddProgress(player, "AS_Professional", 1)
@@ -82,7 +70,13 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     --[[ if weaponType == "Rocket Launcher" then
         ACH_API.AddProgress(player, "AS_Rockets", 1)
     end ]]
- --
+    --
+end
+
+local function SetResourceBasedAchievements(player)
+    local damageDone = player:GetResource("DamageDone")
+    local assists = player:GetResource("Assists")
+    local objective = player:GetResource("Objective")
 end
 
 ------------------------------------------------------------------------------------------------------------------------

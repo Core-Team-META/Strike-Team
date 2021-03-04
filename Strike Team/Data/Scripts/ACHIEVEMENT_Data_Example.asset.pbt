@@ -13,6 +13,10 @@ Assets {
         String: ""
       }
       Overrides {
+        Name: "cs:Family"
+        String: ""
+      }
+      Overrides {
         Name: "cs:IsRepeatable"
         Bool: false
       }
