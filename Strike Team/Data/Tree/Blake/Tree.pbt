@@ -1254,9 +1254,13 @@ Objects {
   }
 }
 Objects {
-  Id: 9071171406811434630
+  Id: 4674814645706292939
   Name: "EquipmentHandler"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -1270,29 +1274,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12469272091380785429
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EquipmentHandler"
+  }
+  InstanceHistory {
+    SelfId: 4674814645706292939
+    SubobjectId: 777066251803753357
+    InstanceId: 9054774325255140997
+    TemplateId: 12469272091380785429
+    WasRoot: true
   }
 }
 Objects {
@@ -1314,16 +1305,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "a82c9c593b0d474b9a538e0bd95e4680"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "62e90670ac2549c49ed0b7ae7931fb4d"
+        Key: "f3aca06731e04858bca356f132d21792"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1332,7 +1314,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "5a3ea05146bd4a758c1408c294d05c38"
+        Key: "e03cb32f106d4d938fec834918210c54"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1341,7 +1323,16 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "3b7b3b964255409887f17adcf3c9b7eb"
+        Key: "622a1fb067b54cafac0b23f9a200451c"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "0b19aaed23174f448a5aed32da3e8121"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

@@ -146,6 +146,7 @@ Objects {
     }
   }
   ParentId: 4463644292296476551
+  ChildIds: 15112980631173529129
   ChildIds: 15997547429754835651
   ChildIds: 13142432751381074788
   ChildIds: 4289105691248877521
@@ -1029,7 +1030,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "STATS"
+      Label: "STATS & REWARDS"
       Color {
         R: 0.879622579
         G: 0.456411064
@@ -1090,7 +1091,7 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "STATS"
+      Label: "STATS & REWARDS"
       Color {
         R: 0.570000052
         G: 0.283112645
@@ -1151,7 +1152,7 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "STATS"
+      Label: "STATS & REWARDS"
       Color {
         A: 0.465000033
       }
@@ -1259,7 +1260,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "STATS"
+      Label: "STATS & REWARDS"
       Color {
         R: 1
         G: 1
@@ -1321,7 +1322,7 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "STATS"
+      Label: "STATS & REWARDS"
       Color {
         R: 0.45600003
         G: 0.45600003
@@ -1383,7 +1384,7 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "STATS"
+      Label: "STATS & REWARDS"
       Color {
         A: 0.465000033
       }
@@ -2212,6 +2213,69 @@ Objects {
   }
 }
 Objects {
+  Id: 15112980631173529129
+  Name: "UNDER MENU GRADIENT"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7792924192418409054
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 219
+    UIY: -4.40600443
+    RotationAngle: 180
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 3827265796245897469
+      }
+      Color {
+        A: 0.73300004
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12211347479299799929
+    SubobjectId: 8349216501754349815
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+  }
+}
+Objects {
   Id: 6955198926915536292
   Name: "Endgame_ToggleUI_Client"
   Transform {
@@ -2291,6 +2355,12 @@ Objects {
       Name: "cs:match_lenght"
       ObjectReference {
         SelfId: 12574216786017689353
+      }
+    }
+    Overrides {
+      Name: "cs:PLAYER_PANELS"
+      ObjectReference {
+        SelfId: 5530959566149203070
       }
     }
   }

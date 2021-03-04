@@ -570,12 +570,14 @@ function OnPlayerJoined(player)
 	if time() > JOIN_MESSAGE_START then
 		AddLine({"", string.format("%s joined the game", player.name), "", "PlayerJoined"}, TEXT_COLOR)
 	end
+	NEEDS_UPDATE = true
 end
 
 -- nil OnPlayerLeft(Player)
 -- if ShowJoinAndLeave, add a message for a player leaving the game
 function OnPlayerLeft(player)
 	AddLine({"", string.format("%s left the game", player.name), "", "PlayerLeft"}, TEXT_COLOR)
+	NEEDS_UPDATE = true
 end
 
 Game.roundEndEvent:Connect(ResetFeed)
