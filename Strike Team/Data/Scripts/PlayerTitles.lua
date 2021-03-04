@@ -328,6 +328,9 @@ end
 function Module.GetPlayerTeamColor(player1, player2, neutralTeamColor, friendlyTeamColor, enemyTeamColor)
 	local teamRelation = Module.GetTeamRelation(player1, player2)
 
+	if (player1.name == player2.name) then
+		return Color.ORANGE
+	end
 	if(teamRelation == Module.TeamRelation.SELF) then
 		return friendlyTeamColor
 	elseif(teamRelation == Module.TeamRelation.SELF_NEUTRAL) then
