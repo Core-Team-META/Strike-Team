@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Achievement System Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/26
--- Version 0.1.3
+-- Date: 2021/3/4
+-- Version 0.1.4
 ------------------------------------------------------------------------------------------------------------------------
 local ROOT = script:GetCustomProperty("AchievementSystem"):WaitForObject()
 local isEnabled = ROOT:GetCustomProperty("Enabled")
@@ -63,6 +63,11 @@ local function OnResourceChanged(player, resName, resAmt)
 end
 
 local function PlayerKilled(player, target, weaponType, isHeadShot)
+
+    if player == target then
+        return
+    end
+
     if weaponType == "Assault Rifle" then
         ACH_API.AddProgress(player, "AS_NRAR1", 1)
         ACH_API.AddProgress(player, "AS_NRAR2", 1)
@@ -91,9 +96,9 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRMEL3", 1)
     elseif weaponType == "LMG" then
         ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 2)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 3)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 4)
+        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
     elseif weaponType == "Shotgun" then
         ACH_API.AddProgress(player, "AS_NRSHOTTY1", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY2", 1)
@@ -105,7 +110,7 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRPISTOL3", 1)
     end
 
-    if player.isDead and player ~= target then
+    if player.isDead then
         ACH_API.AddProgress(player, "AS_NRREV1", 1)
         ACH_API.AddProgress(player, "AS_NRREV2", 1)
         ACH_API.AddProgress(player, "AS_NRREV3", 1)
