@@ -14,14 +14,24 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
+local GT_API = _G.META_GAME_MODES
+
 -- Internal custom properties --
 local ENEMY_PROGRESS_TEXT = script:GetCustomProperty("ENEMY_PROGRESS_TEXT"):WaitForObject()
 local TEAM_PROGRESS_TEXT = script:GetCustomProperty("TEAM_PROGRESS_TEXT"):WaitForObject()
 -- local MAX_SCORE_TEXT = script:GetCustomProperty("MAX_SCORE"):WaitForObject()
 local TEAM_SCORE = script:GetCustomProperty("TEAM_SCORE"):WaitForObject()
 local ENEMY_SCORE = script:GetCustomProperty("ENEMY_SCORE"):WaitForObject()
+local WAIT_TEXT = script:GetCustomProperty("WAIT"):WaitForObject()
+local POINT_UNLOCKS_TEXT = script:GetCustomProperty("POINT_UNLOCKS"):WaitForObject()
 
-local lastTeamScore, lastEnemyScore
+local MAIN_FLAG_INDICATOR = script:GetCustomProperty("MAIN_FLAG_INDICATOR"):WaitForObject()
+local SPAWNED_OBJECTS = script:GetCustomProperty("Spawned_Objects"):WaitForObject()
+
+local lastTeamScore, lastEnemyScore, currentPoint, lastTimer
 
 -- User exposed properties --
 local SHOW_MAX_SCORE = false
@@ -38,11 +48,62 @@ if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     MAX_SCORE = 100
 end
 
+local function AddNewCapturePoint()
+    Task.Wait(0.2)
+    for _, point in ipairs(SPAWNED_OBJECTS:GetChildren()) do
+        local shouldShow = point:GetCustomProperty("ShouldShow")
+        if shouldShow then
+            currentPoint = point
+            break
+        end
+    end
+end
+
+local function UpdateTimer()
+    if not Object.IsValid(currentPoint) then
+        return
+    end
+    --if not pointTeam then
+    local str = currentPoint:GetCustomProperty("DATA")
+    local data
+    if str ~= "" then
+        data = GT_API.ConvertStringToTable(str)
+    end
+    if not data then
+        return
+    end
+    local currentTime = tonumber(data[4] - time())
+    if currentTime >= 0 then
+        if MAIN_FLAG_INDICATOR.visibility == Visibility.FORCE_ON then
+            MAIN_FLAG_INDICATOR.visibility = Visibility.FORCE_OFF
+        end
+        local seconds = (currentTime % 3600) % 60
+        WAIT_TEXT.text = tostring(CoreMath.Round(seconds))
+        POINT_UNLOCKS_TEXT.text = "POINT UNLOCKS IN"
+        lastTimer = currentTime
+    else
+        if MAIN_FLAG_INDICATOR.visibility == Visibility.FORCE_OFF then
+            MAIN_FLAG_INDICATOR.visibility = Visibility.FORCE_ON
+        end
+        WAIT_TEXT.text = ""
+        POINT_UNLOCKS_TEXT.text = ""
+    end
+end
+
 local function GetEnemyTeam()
     if LOCAL_PLAYER.team == 1 then
         return 2
     elseif LOCAL_PLAYER.team == 2 then
         return 1
+    end
+end
+
+local function ResetFlagIcons()
+    for _, child in ipairs(ENEMY_SCORE:GetChildren()) do
+        child.visibility = Visibility.FORCE_OFF
+    end
+    for _, child in ipairs(TEAM_SCORE:GetChildren()) do
+        child.visibility = Visibility.FORCE_OFF
     end
 end
 
@@ -67,24 +128,8 @@ local function UpdateTeamFlag(score)
 end
 
 function Int()
-    local teamScore = Game.GetTeamScore(LOCAL_PLAYER.team)
-    for i, child in ipairs(TEAM_SCORE:GetChildren()) do
-        if i <= teamScore then
-            child.visibility = Visibility.FORCE_ON
-        else
-            child.visibility = Visibility.FORCE_OFF
-        end
-    end
-
-    local enemyScore = Game.GetTeamScore(GetEnemyTeam())
-
-    for i, child in ipairs(ENEMY_SCORE:GetChildren()) do
-        if i <= enemyScore then
-            child.visibility = Visibility.FORCE_ON
-        else
-            child.visibility = Visibility.FORCE_OFF
-        end
-    end
+    AddNewCapturePoint()
+    ResetFlagIcons()
     lastTeamScore, lastEnemyScore = nil, nil
 end
 
@@ -112,6 +157,8 @@ function Tick(deltaTime)
 
     lastTeamScore = teamScore
     lastEnemyScore = enemyScore
+    UpdateTimer()
 end
 
+SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewCapturePoint)
 Int()

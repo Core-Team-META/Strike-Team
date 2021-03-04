@@ -1,39 +1,6 @@
 Name: "Brent"
 RootId: 9151753919777912365
 Objects {
-  Id: 17921811018455282508
-  Name: "EndUI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9151753919777912365
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EndUI"
-  }
-  InstanceHistory {
-    SelfId: 17921811018455282508
-    SubobjectId: 12468429385579287823
-    InstanceId: 17062914421354910301
-    TemplateId: 12784020134702693331
-    WasRoot: true
-  }
-}
-Objects {
   Id: 15549939467812718615
   Name: "Rank Manager"
   Transform {
@@ -173,5 +140,33 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Game Mode Manager"
+  }
+}
+Objects {
+  Id: 1372466132249557023
+  Name: "Game State UI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9151753919777912365
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Game State UI"
   }
 }

@@ -230,7 +230,6 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -240,7 +239,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -251,14 +249,12 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -455,7 +451,7 @@ Assets {
         ChildIds: 9268603658093252770
         ChildIds: 15494752328031442508
         ChildIds: 110788476358619259
-        ChildIds: 4701555205911936464
+        ChildIds: 9961493714644037585
         ChildIds: 7072625529179786660
         ChildIds: 9013636594582731208
         ChildIds: 18154958446711881973
@@ -664,48 +660,38 @@ Assets {
         }
       }
       Objects {
-        Id: 4701555205911936464
-        Name: "WeaponRecoilClient"
+        Id: 9961493714644037585
+        Name: "Recoil"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
+            X: 1
+            Y: 1
             Z: 1
           }
         }
         ParentId: 4861632680637020456
         UnregisteredParameters {
           Overrides {
-            Name: "cs:RecoilYMax"
-            Float: 62
+            Name: "cs:AMMOUNT"
+            Float: 0.8
           }
           Overrides {
-            Name: "cs:RecoilYMin"
-            Float: 21
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.5
+            }
           }
           Overrides {
-            Name: "cs:RecoilXMin"
-            Float: -5
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 0.6
           }
           Overrides {
-            Name: "cs:RecoilXMax"
-            Float: 5
-          }
-          Overrides {
-            Name: "cs:EnableRecovery"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:AimYReduction"
-            Float: 0.65
-          }
-          Overrides {
-            Name: "cs:AimXReduction"
-            Float: 0.25
+            Name: "cs:DURATION"
+            Float: 0.08
           }
         }
         Collidable_v2 {
@@ -716,7 +702,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 4156168509254213209
+            Id: 17374269570626674164
           }
         }
       }

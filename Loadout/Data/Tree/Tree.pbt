@@ -21,7 +21,10 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 1671268894188365002
+  ChildIds: 5087704922136027764
+  ChildIds: 4297970923383946370
+  ChildIds: 9136329465692806999
+  ChildIds: 7325714028980024580
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
   ChildIds: 17855751618251119169
@@ -667,8 +670,8 @@ Objects {
   }
 }
 Objects {
-  Id: 1671268894188365002
-  Name: "EquipmentHandler"
+  Id: 7325714028980024580
+  Name: "PurchaseCredits"
   Transform {
     Location {
     }
@@ -687,6 +690,22 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PurchaseCredits"
+  }
+}
+Objects {
+  Id: 9136329465692806999
+  Name: "EquipmentHandler"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -708,7 +727,98 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 2061105466214076613
+      Id: 12469272091380785429
+    }
+  }
+}
+Objects {
+  Id: 4297970923383946370
+  Name: "PerkHooks"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StrikeCoin300"
+      NetReference {
+        Key: "961ac6713ade4960a6f4639fca25d3a1"
+        Type {
+          Value: "mc:enetreferencetype:creatorperk"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin750"
+      NetReference {
+        Key: "5cdab6cfe83a463b8bfe074d316a7a3c"
+        Type {
+          Value: "mc:enetreferencetype:creatorperk"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin3000"
+      NetReference {
+        Key: "be73b67c768341c5ba1df5788b0ea0a7"
+        Type {
+          Value: "mc:enetreferencetype:creatorperk"
+        }
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 336823580396764239
+    }
+  }
+}
+Objects {
+  Id: 5087704922136027764
+  Name: "ChatHooks"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Commands"
+      AssetReference {
+        Id: 4480426034829824473
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17154672043655382137
     }
   }
 }
@@ -31342,7 +31452,7 @@ Objects {
       EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
-          Value: "mc:echatmode:none"
+          Value: "mc:echatmode:teamonly"
         }
         ChatPosition {
           Y: -83.7797852
@@ -31389,7 +31499,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "61926a2ce4fb417dbe0d0e114e437380"
+        Key: "a82c9c593b0d474b9a538e0bd95e4680"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31398,16 +31508,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "d001f4cd01b84fb1bcd1b3a01572d039"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Storage"
-      NetReference {
-        Key: "fb5a6479f93640f0b8a2f7b579ca5a9f"
+        Key: "62e90670ac2549c49ed0b7ae7931fb4d"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31416,7 +31517,16 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "a7512c1e650a43faa1490acf56ecc1e1"
+        Key: "5a3ea05146bd4a758c1408c294d05c38"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "3b7b3b964255409887f17adcf3c9b7eb"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

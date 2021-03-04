@@ -159,6 +159,7 @@ function AddLine(line, color)
 	lines[1].killerColor = line[7] or color
 	lines[1].killedColor = line[8] or color
 	lines[1].displayTime = time()
+
 end
 
 
@@ -314,24 +315,30 @@ function Tick(deltaTime)
 
 				for _, element in ipairs(feedLines) do
 					if (element.name == "KilledText") then
+						if (lines[i].killed ~= "") then
+							local textBox = element:FindDescendantByName("Text Box")
+							textBox.text = lines[i].killed
+							textBox.justification = TextJustify.LEFT
 
-						local textBox = element:FindDescendantByName("Text Box")
-						textBox.text = lines[i].killed
-						textBox.justification = TextJustify.LEFT
+							-- do text shadow
+							for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
+								textShadow.text = lines[i].killed
+								textShadow.justification = TextJustify.LEFT
+							end
 
-						-- do text shadow
-						for _, textShadow in pairs(element:FindDescendantByName("Text Shadow"):GetChildren()) do
-							textShadow.text = lines[i].killed
-							textShadow.justification = TextJustify.LEFT
-						end
+							if (lines[i].killedColor ~= color) then
+								textBox:SetColor(lines[i].killedColor)
+							else
+								textBox:SetColor(color)
+							end
+							feedElements["KilledText"] = element
+							feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
 
-						if (lines[i].killedColor ~= color) then
-							textBox:SetColor(lines[i].killedColor)
+							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
 						else
-							textBox:SetColor(color)
+							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
 						end
-						feedElements["KilledText"] = element
-						feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
+
 					end
 					if (element.name == "WeaponImage") then
 						if (lines[i].weaponUsed ~= "") then
@@ -542,11 +549,19 @@ end
 
 Events.Connect("PlayerKilled", OnKill)
 
+function ResetFeed()
+	for i = 1, NUM_LINES do
+		if lines[i] then
+			local feedLines = lineTemplates[i]:GetChildren()
+			for _, element in ipairs(feedLines) do
+				if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
+			end
+		end
+	end
+end
 
 --[[
-
 	SHOW JOIN AND LEAVE
-
 ]]
 
 -- nil OnPlayerJoined(Player)
@@ -555,14 +570,17 @@ function OnPlayerJoined(player)
 	if time() > JOIN_MESSAGE_START then
 		AddLine({"", string.format("%s joined the game", player.name), "", "PlayerJoined"}, TEXT_COLOR)
 	end
+	NEEDS_UPDATE = true
 end
 
 -- nil OnPlayerLeft(Player)
 -- if ShowJoinAndLeave, add a message for a player leaving the game
 function OnPlayerLeft(player)
 	AddLine({"", string.format("%s left the game", player.name), "", "PlayerLeft"}, TEXT_COLOR)
+	NEEDS_UPDATE = true
 end
 
+Game.roundEndEvent:Connect(ResetFeed)
 
 if SHOW_JOIN_AND_LEAVE then
 	Game.playerJoinedEvent:Connect(OnPlayerJoined)

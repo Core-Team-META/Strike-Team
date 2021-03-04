@@ -11,6 +11,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:MedRankIcon"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
         Name: "cs:LargeRankIcon"
         AssetReference {
           Id: 841534158063459245

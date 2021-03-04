@@ -4,7 +4,12 @@ local UI_CONTAINER = script:GetCustomProperty("UIContainer"):WaitForObject()
 local UI_OPEN_SOUND = script:GetCustomProperty("UI_OPEN_SOUND")
 local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
 
+local CanActivate = true
+local ABGS = require(script:GetCustomProperty("ABGS"))
+
+UI.SetCursorLockedToViewport(true)
 local function ToggleOn()
+    if not CanActivate then return end
     UI.SetCanCursorInteractWithUI(true)
     UI.SetCursorLockedToViewport(true)
     UI.SetCursorVisible(true)
@@ -15,10 +20,12 @@ end
 local function ToggleOff()
     UI.SetCanCursorInteractWithUI(false)
     UI.SetCursorLockedToViewport(true)
-    UI.SetCursorVisible(false)
     Events.Broadcast("SwapPanelClose")
     UI_CONTAINER.visibility = Visibility.FORCE_OFF
     World.SpawnAsset(UI_CLOSE_SOUND)
+    
+    if not CanActivate then return end
+    UI.SetCursorVisible(false)
 end
 
 local function ToggleWeaponSlot()
@@ -37,7 +44,25 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
     end
 end)
 
-
-
 Events.Connect("SwapPanelForceOpen",ToggleOn)
 Events.Connect("SwapPanelForceClose",ToggleOff)
+
+showTable = {
+    [ABGS.GAME_STATE_ROUND_VOTING] = true,
+    [ABGS.GAME_STATE_ROUND_END] = true,
+    [ABGS.GAME_STATE_ROUND_STATS] = true,
+}
+
+
+function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
+    print(showTable[newState]  )
+    if showTable[newState]   then 
+
+        CanActivate = false
+    else
+        CanActivate = true
+    end
+end
+Events.Connect("GameStateChanged", OnGameStateChanged)
+
+

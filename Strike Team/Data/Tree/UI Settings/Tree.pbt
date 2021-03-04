@@ -48,7 +48,7 @@ Objects {
     Overrides {
       Name: "cs:UITemplate"
       AssetReference {
-        Id: 15431214324246582683
+        Id: 9771893285123067376
       }
     }
   }
@@ -248,8 +248,8 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
-    Width: 50
-    Height: 50
+    Width: 45
+    Height: 45
     UIX: 1
     UIY: 1
     RotationAngle: 45
@@ -260,7 +260,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 6311522453009581627
+        Id: 15192468558682982554
       }
       Color {
         A: 1
@@ -304,6 +304,7 @@ Objects {
   }
   ParentId: 17954891103220294628
   ChildIds: 6295248767446162043
+  ChildIds: 13782616196241186500
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -326,9 +327,74 @@ Objects {
     UseParentHeight: true
     Image {
       Brush {
-        Id: 6311522453009581627
+        Id: 15192468558682982554
       }
       Color {
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17954891103220294628
+    SubobjectId: 60500734892315015
+    InstanceId: 5164628646408382285
+    TemplateId: 12984678018063706940
+  }
+}
+Objects {
+  Id: 13782616196241186500
+  Name: "Hit Indicator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11947999964836458477
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 22
+    Height: 22
+    UIX: 1
+    UIY: 1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 15266094661921614944
+      }
+      Color {
+        R: 0.919999957
+        G: 4.38690165e-07
         A: 1
       }
       TeamSettings {
@@ -391,7 +457,7 @@ Objects {
     UseParentHeight: true
     Image {
       Brush {
-        Id: 6311522453009581627
+        Id: 15192468558682982554
       }
       Color {
         R: 0.919999957
@@ -33137,33 +33203,5 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Player UI"
-  }
-}
-Objects {
-  Id: 1372466132249557023
-  Name: "Game State UI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15900364157994414074
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Game State UI"
   }
 }

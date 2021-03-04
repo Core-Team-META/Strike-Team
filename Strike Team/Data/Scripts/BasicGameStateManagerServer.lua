@@ -80,9 +80,6 @@ function SetGameState(newState)
 	elseif newState == ABGS.GAME_STATE_ROUND_END then
 		stateHasduration = ROUND_END_HAS_DURATION
 		stateDuration = ROUND_END_DURATION
-	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
-		stateHasduration = VOTING_HAS_DURATION
-		stateDuration = VOTING_DURATION
 	elseif newState ==  ABGS.GAME_STATE_ROUND_STATS then
 		stateHasduration = STATS_HAS_DURATION
 		stateDuration = STATS_DURATION
@@ -142,11 +139,11 @@ function Tick(deltaTime)
 		elseif previousState == ABGS.GAME_STATE_ROUND then
 			nextState = ABGS.GAME_STATE_ROUND_END
 		elseif previousState == ABGS.GAME_STATE_ROUND_END then
-			nextState = ABGS.GAME_STATE_ROUND_STATS
-		elseif previousState == ABGS.GAME_STATE_ROUND_STATS then
+			nextState = ABGS.GAME_STATE_LOBBY
+		--[[elseif previousState == ABGS.GAME_STATE_ROUND_STATS then
 			nextState = ABGS.GAME_STATE_ROUND_VOTING
 		elseif previousState == ABGS.GAME_STATE_ROUND_VOTING then
-			nextState = ABGS.GAME_STATE_LOBBY
+			nextState = ABGS.GAME_STATE_LOBBY]]--
 		end
 
 		SetGameState(nextState)

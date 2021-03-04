@@ -4,18 +4,26 @@ local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 PurchaseAPI.__index = PurchaseAPI
 while not _G["DataBase"] do Task.Wait() end
 
-function PurchaseAPI.VerifySkin(player, Weapon,skin)
+function PurchaseAPI.VerifySkin(player, Weapon,skin,Type)
     if skin and Weapon then 
         if PurchaseAPI.GetStorage(player):HasSkin(Weapon.data.id,skin.id) then 
             return 3 
         elseif player:GetResource('Level') < skin.level then 
             return 4
         else
-            if skin.rarity:GetCost() > player:GetResource('Cash') then 
-                return 2 
-            else 
-                return 1 
-            end 
+            if Type == "Cash" then
+                if skin.rarity:GetCost() > player:GetResource('Cash') then 
+                    return 2 
+                else 
+                    return 1 
+                end 
+            elseif  Type == "StrikeCoins" then
+                if skin.rarity:GetPremiumCost() > player:GetResource('StrikeCoins') then 
+                    return 2 
+                else 
+                    return 1 
+                end 
+            end
         end
     end 
     return 5  
@@ -23,9 +31,13 @@ end
 
 function PurchaseAPI.VerifyWeapon(player, Weapon)
     if Weapon then 
-        if PurchaseAPI.GetStorage(player):HasWeapon(Weapon.data.id) then return 3 
+       
+        if player:GetResource('Level') < Weapon:GetLevel() then 
+            return 4
+        elseif PurchaseAPI.GetStorage(player):HasWeapon(Weapon.data.id) then 
+            return 3 
         else
-            if 1 > player:GetResource('Credits') then 
+            if Weapon:GetCost() > player:GetResource('Cash') then 
                 return 2 
             else 
                 return 1 
@@ -42,17 +54,23 @@ if Environment.IsServer() then
         return player.serverUserData.Storage 
     end
 
-    function PurchaseAPI.BuySkin(player, Weaponid,skinid)
+    function PurchaseAPI.BuySkin(player, Weaponid,skinid,type )
         local Weapon = _G["DataBase"]:ReturnEquipmentById(Weaponid)
         local Skin = Weapon:GetSkinByID(skinid)
         
-        local Code = PurchaseAPI.VerifySkin(player,Weapon,Skin)
+        local Code = PurchaseAPI.VerifySkin(player,Weapon,Skin,type)
 
-        if Code == 1 then
+        
+        if Code == 1  then
+            if type == "Cash" then
             local price = Skin.rarity:GetCost()
             PurchaseAPI.RemoveMoney(player,price,"Cash")
-            PurchaseAPI.SaveMoney(player)
+            elseif  type == "StrikeCoins" then
+                local price = Skin.rarity:GetPremiumCost()  
+                PurchaseAPI.RemoveMoney(player,price,"StrikeCoins")
+            end
 
+            PurchaseAPI.SaveMoney(player)            
             player.serverUserData.Storage:AddSkin(Weaponid,skinid)
             ReliableEvents.BroadcastToPlayer(player,"PurchaseAPI_PurchaseSuccessful")
         else
@@ -65,7 +83,7 @@ if Environment.IsServer() then
         local Code = PurchaseAPI.VerifyWeapon(player, Weapon) 
 
         if Code == 1 then
-            PurchaseAPI.RemoveMoney(player,1,"Credits")
+            PurchaseAPI.RemoveMoney(player,Weapon:GetCost(),"Cash")
             PurchaseAPI.SaveMoney(player)
 
             PurchaseAPI.GetStorage(player):AddWeapon(Weaponid)
@@ -90,7 +108,7 @@ if Environment.IsServer() then
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         data["Cash"] = player:GetResource("Cash")
-        data["Credits"] = player:GetResource("Credits")
+        data["StrikeCoins"] = player:GetResource("StrikeCoins")
         Storage.SetSharedPlayerData(_G["StatKey"],player,data)
     end
 
@@ -98,7 +116,7 @@ if Environment.IsServer() then
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         player:SetResource("Cash", data["Cash"] or 0)
-        player:SetResource("Credits", data["Credits"] or 0)
+        player:SetResource("StrikeCoins", data["StrikeCoins"] or 0)
         player:SetResource("Level", data["Level"] or 0)
     end
 
@@ -115,10 +133,11 @@ if Environment.IsClient() then
         return player.clientUserData.Storage 
     end
         
-    function PurchaseAPI.BuySkin(Weapon,skin)
-        local returnCall = PurchaseAPI.VerifySkin(Game.GetLocalPlayer(), Weapon,skin) 
+    function PurchaseAPI.BuySkin(Weapon,skin,type)
+        local returnCall = PurchaseAPI.VerifySkin(Game.GetLocalPlayer(), Weapon,skin,type) 
+
         if returnCall == 1 then
-            ReliableEvents.BroadcastToServer("PurchaseAPI.BuySkin", Weapon.data.id,skin.id)
+            ReliableEvents.BroadcastToServer("PurchaseAPI.BuySkin", Weapon.data.id,skin.id,type)
         end
         return returnCall
     end

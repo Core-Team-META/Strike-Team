@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10128884331981734128
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
+  }
+}
+Assets {
   Id: 1527224994251334627
   Name: "Urban Pipe Flange 02"
   PlatformAssetType: 1

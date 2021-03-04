@@ -1,49 +1,6 @@
 Name: "Kurtis"
 RootId: 17277774771838165488
 Objects {
-  Id: 8649434162254108880
-  Name: "UI Container"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17277774771838165488
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 14035635797863954528
   Name: "ClientContext"
   Transform {
@@ -1428,7 +1385,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Game ID"
-      String: "3af6bd/striketeam-screens-cubemap"
+      String: "7a9123/strike-team-dev"
     }
     Overrides {
       Name: "bp:Use Cubemap"
@@ -1440,7 +1397,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Screenshot Index"
-      Int: 5
+      Int: 1
     }
     Overrides {
       Name: "bp:Mask Range"

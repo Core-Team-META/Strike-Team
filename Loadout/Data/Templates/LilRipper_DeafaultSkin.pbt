@@ -16,7 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3702233957645308351
         ChildIds: 5739141171056945763
         UnregisteredParameters {
         }
@@ -31,12 +30,45 @@ Assets {
         }
       }
       Objects {
+        Id: 5739141171056945763
+        Name: "Handle"
+        Transform {
+          Location {
+            X: -1.96166992
+            Y: 3.64355469
+            Z: 11.3150635
+          }
+          Rotation {
+            Pitch: 17.6862011
+            Yaw: 5.09316301
+            Roll: 24.2808361
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14467761617109185170
+        ChildIds: 3702233957645308351
+        ChildIds: 12385256873017938689
+        ChildIds: 2891076828216463173
+        ChildIds: 5666323135442182202
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 3702233957645308351
         Name: "Blade"
         Transform {
           Location {
-            X: 5
-            Z: 5
           }
           Rotation {
           }
@@ -46,7 +78,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14467761617109185170
+        ParentId: 5739141171056945763
         ChildIds: 17797413215430275701
         ChildIds: 17304698114966000246
         Collidable_v2 {
@@ -194,36 +226,6 @@ Assets {
             Physics {
             }
           }
-        }
-      }
-      Objects {
-        Id: 5739141171056945763
-        Name: "Handle"
-        Transform {
-          Location {
-            X: 5
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 14467761617109185170
-        ChildIds: 12385256873017938689
-        ChildIds: 2891076828216463173
-        ChildIds: 5666323135442182202
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
       Objects {

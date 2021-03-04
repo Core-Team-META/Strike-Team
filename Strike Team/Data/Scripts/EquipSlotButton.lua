@@ -1,5 +1,6 @@
 ﻿Button = script.parent
 local BACKGROUNDIMAGE = script:GetCustomProperty("BackgroundImage"):WaitForObject()
+local IsEnabled = script:GetCustomProperty("IsEnabled")
 
 local Slot = script:GetCustomProperty("Slot")
 local Level = script:GetCustomProperty("Level")
@@ -19,7 +20,16 @@ function UpdateSelected()
     end
 end
 
+
+
 function UpdateLevel()
+    if not IsEnabled then 
+        Button.isInteractable = false
+        Button.text = string.format( "LOADOUT INACTIVE")
+        Button.fontSize = 8
+        return 
+    end
+
     if LOCAL_PLAYER:GetResource("Level") >= Level then
         Button.isInteractable = true
         Button.text = string.format( "LOADOUT %d", Slot)

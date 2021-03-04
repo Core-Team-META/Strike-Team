@@ -16,6 +16,10 @@ local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local NETWORKED = script:GetCustomProperty("NETWORKED"):WaitForObject()
 local HILL_MARKERS = script:GetCustomProperty("HillMarkers"):WaitForObject()
 local SPAWNED_OBJECTS = script:GetCustomProperty("Hills"):WaitForObject()
+local enabled = ROOT:GetCustomProperty("ENABLED")
+if not enabled then
+    return
+end
 ------------------------------------------------------------------------------------------------------------------------
 -- Custom Properties
 ------------------------------------------------------------------------------------------------------------------------
@@ -37,7 +41,7 @@ local function GetData(object)
 end
 
 local function Log(message, ...)
-    print("GameType Server [" .. GT_API.GetGameTypeName(myId) .. "] " .. message, ...)
+    print("GameMode Server [" .. ROOT.name .. "] " .. message, ...)
 end
 
 local function SpawnNewHill()
@@ -125,4 +129,4 @@ Int()
 Events.Connect("GM.START", OnGameStart)
 NETWORKED.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
 Game.roundEndEvent:Connect(Cleanup)
-print("Initialized GameType Server " .. myId)
+print("Initialized GameMode Server " .. ROOT.name)

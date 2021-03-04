@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
--- RankManager API
+-- RankManager Client Side API
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/28
--- Version 0.1.0
+-- Date: 2021/3/1
+-- Version 0.1.1
 ------------------------------------------------------------------------------------------------------------------------
 local API = {}
 local Rank_List = script:GetCustomProperty("Ranks"):WaitForObject()
@@ -19,7 +19,7 @@ local function IsValidPlayer(object)
 end
 
 local function GetRankDataByLevel(level)
-    for rankId, rank in ipairs(ranks) do
+    for _, rank in ipairs(ranks) do
         if rank.minLevel <= level and rank.maxLevel >= level then
             return rank
         end
@@ -34,16 +34,18 @@ end
 
 function API.RegisterRanks(list)
     if not next(ranks) then
-        local sort = 0
         for i, child in ipairs(list:GetChildren()) do
             local rankIcon = child:GetCustomProperty("SmallRankIcon")
+            local medRankIcon = child:GetCustomProperty("MedRankIcon")
             local largeRankIcon = child:GetCustomProperty("LargeRankIcon")
             local minLevel = child:GetCustomProperty("MinLevel")
             local maxLevel = child:GetCustomProperty("MaxLevel")
             local acronym = child:GetCustomProperty("RankAcronym")
             local rankName = child.name
+
             local rank = {
                 icon = rankIcon,
+                medIcon = medRankIcon,
                 largeIcon = largeRankIcon,
                 name = rankName,
                 minLevel = minLevel,
@@ -78,6 +80,31 @@ function API.ShouldUpdatePlayerRank(player)
     else
         return false
     end
+end
+
+function API.GetLargeRankIcon(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.largeIcon
+end
+
+function API.GetMediumRankIcon(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.medIcon
+end
+
+function API.GetSmallRankIcon(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.icon
+end
+
+function API.GetRankName(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.name
+end
+
+function API.GetRankAcroynm(player)
+    local rankData = API.GetPlayerRankData(player)
+    return rankData.acronym
 end
 
 API.RegisterRanks(Rank_List)

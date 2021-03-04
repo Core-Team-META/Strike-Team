@@ -10,6 +10,7 @@ local API = {}
 -- CONSTANTS
 ------------------------------------------------------------------------------------------------------------------------
 local achievements = {}
+local repeaTableAchievements = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -42,6 +43,15 @@ local function IsValidPlayer(object)
     return Object.IsValid(object) and object:IsA("Player")
 end
 
+local function InfiniteLoopProtect(count)
+    count = count + 1
+    if count >= 50 then
+        count = 0
+        Task.Wait()
+    end
+    return count
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- PUBLIC API
 ------------------------------------------------------------------------------------------------------------------------
@@ -49,6 +59,7 @@ end
 function API.RegisterAchievements(list)
     if not next(achievements) then
         local sort = 0
+        local repeatCount = 0
         for _, child in ipairs(list:GetChildren()) do
             local enabled = child:GetCustomProperty("Enabled")
             local id = child:GetCustomProperty("ID")
@@ -58,6 +69,9 @@ function API.RegisterAchievements(list)
             local rewardName = child:GetCustomProperty("RewardName")
             local rewardAmmount = child:GetCustomProperty("RewardAmount")
             local rewardIcon = child:GetCustomProperty("RewardIcon")
+            local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
+            local givesReward = child:GetCustomProperty("GivesReward") or false
+            local Family = child:GetCustomProperty("Family")
 
             local achievement = {
                 id = id,
@@ -65,14 +79,21 @@ function API.RegisterAchievements(list)
                 name = child.name,
                 required = required + 1,
                 description = description,
+                family = Family,
                 icon = icon,
                 rewardName = rewardName,
                 rewardAmt = rewardAmmount,
-                rewardIcon = rewardIcon
+                rewardIcon = rewardIcon,
+                isRepeatable = isRepeatable,
+                givesReward = givesReward
             }
             if enabled then
                 sort = sort + 1
                 achievements[id] = achievement
+            end
+            if isRepeatable then
+                repeatCount = repeatCount + 1
+                repeaTableAchievements[repeatCount] = achievement
             end
         end
     end
@@ -161,11 +182,57 @@ function API.GetCurrentProgress(player, id)
 end
 
 function API.IsUnlocked(player, id)
-    if IsValidPlayer(player) and API.GetAchievementInfo(id) and API.GetCurrentProgress(player, id) >= API.GetAchievementRequired(id) then
+    if
+        IsValidPlayer(player) and API.GetAchievementInfo(id) and
+            API.GetCurrentProgress(player, id) >= API.GetAchievementRequired(id)
+     then
         return true
     else
         return false
     end
+end
+
+function API.GetUnlockedAchievements(player)
+    local tempTbl = {}
+    local count = 0
+    for id, achievement in pairs(API.GetAchievements()) do
+        if API.IsUnlocked(player, id) then
+            tempTbl[id] = achievement
+        end
+        count = InfiniteLoopProtect(count)
+    end
+    return tempTbl
+end
+
+function API.CheckUnlockedAchievements(player)
+    local unlockedTbl = API.GetUnlockedAchievements(player)
+    local familyTbl = {}
+    local tempTbl = {}
+    local count = 0
+    for id, achievement in pairs(unlockedTbl) do
+        if achievement.family then
+            familyTbl[achievement.family] = familyTbl[achievement.family] or {}
+            familyTbl[achievement.family][achievement.id] = achievement
+        else
+            tempTbl[#tempTbl + 1] = achievement
+        end
+        count = InfiniteLoopProtect(count)
+    end
+    for family, tbl in pairs(familyTbl) do
+        local lastCount = 0
+        local highestAchievement
+        for _, achievement in pairs(tbl) do
+            if achievement.required > lastCount then
+                highestAchievement = achievement
+                lastCount = achievement.required
+            end
+        end
+        if highestAchievement then
+            tempTbl[#tempTbl + 1] = highestAchievement
+        end
+        count = InfiniteLoopProtect(count)
+    end
+    return tempTbl
 end
 
 function API.UnlockAchievement(player, id)
@@ -180,6 +247,10 @@ function API.AddProgress(player, id, value)
 
         --Return if achievement finished
         if currentProgress == 1 then
+            return
+        end
+
+        if not achievements[id] then
             return
         end
 
@@ -203,13 +274,24 @@ function API.LoadAchievementStorage(player)
         end
     end
 end
+
+function API.ResetRepeatable(player)
+    for id, achievement in pairs(API.GetAchievements()) do
+        if achievement.isRepeatable then
+            player:SetResource(id, 0)
+        end
+    end
+end
+
 function API.SaveAchievementStorage(player)
     local data = Storage.GetPlayerData(player)
     local tempTbl = {}
     for id, achievement in pairs(API.GetAchievements()) do
-        tempTbl[id] = player:GetResource(id)
+        if not achievement.isRepeatable then
+            tempTbl[id] = player:GetResource(id)
+        end
     end
-    
+
     data.ACHIEVEMENT = tempTbl
     Storage.SetPlayerData(player, data)
 end
@@ -322,6 +404,5 @@ function API.FormatInt(number)
     int = int:reverse():gsub("(%d%d%d)", "%1,")
     return minus .. int:reverse():gsub("^,", "") .. fraction
 end
-
 
 return API

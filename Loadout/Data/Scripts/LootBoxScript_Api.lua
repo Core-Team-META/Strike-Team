@@ -52,7 +52,7 @@ if Environment.IsServer() then
         Storage.SetPlayerData(player,data)
         return CountdownTimer
     end
-
+    
     function LootBox.Save(player)
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
@@ -75,6 +75,7 @@ if Environment.IsServer() then
     end
 
     function LootBox.Load(player)
+        
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
         player:SetResource("Gold", data["Gold"] or 0)
@@ -92,24 +93,29 @@ if Environment.IsServer() then
         end
     end
     
+    Events.Connect("Lootbox.Save",LootBox.Save)
     Events.ConnectForPlayer("Lootbox.Claim",LootBox.Claim)
-    Game.playerJoinedEvent:Connect(LootBox.Load)
+    Events.ConnectForPlayer("Lootbox.PlayerJoined",LootBox.Load )
+    --Game.playerJoinedEvent:Connect(LootBox.Load)
 end
 
 
 if Environment.IsClient() then
-    
+    Task.Wait()
     function LootBox.Lock() 
         Events.Broadcast("Lootbox.Close")
     end 
 
     function LootBox.Unlock() 
-        Task.Wait(1)
         if Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
             Events.Broadcast("Lootbox.Open")
         else
             LootBox.Lock() 
         end
+    end
+
+    function LootBox.Joined()
+        Events.BroadcastToServer("Lootbox.PlayerJoined")
     end
 
     function LootBox.Update()
@@ -126,14 +132,15 @@ if Environment.IsClient() then
     function LootBox.Claim()
         if LootBox.Verify(Game.GetLocalPlayer())  then
             ReliableEvents.BroadcastToServer("Lootbox.Claim")
+            Events.Broadcast("ShowSkipButton")
         end
     end
 
     Events.Connect("LootBox.Lock", LootBox.Lock)
     Events.Connect("LootBox.UnLock", LootBox.Unlock)
     Game.GetLocalPlayer().resourceChangedEvent:Connect(LootBox.Update)
-    Task.Wait()
     LootBox.Update()
+    LootBox.Joined()
 end
 
 _G["LootBox"] = LootBox

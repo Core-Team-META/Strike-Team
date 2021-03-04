@@ -9,8 +9,25 @@ local ConfirmationPanel
 local PurchaseClientManager = {}
 PurchaseClientManager.__index = PurchaseClientManager
 
+function ShowOtherButtons()
+    ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().visibility = Visibility.FORCE_ON
+    ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().visibility = Visibility.FORCE_ON
+    ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().visibility = Visibility.FORCE_OFF
+end
+
+function HideOtherButton()
+    ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().visibility = Visibility.FORCE_OFF
+    ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().visibility = Visibility.FORCE_OFF
+    ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().visibility = Visibility.FORCE_ON
+end
+
+
 function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     if PurchaseClientManager then PurchaseClientManager.ClosePanel() end
+    if Game.GetLocalPlayer():GetResource('Level') < Weapon:GetLevel() then 
+        PurchaseClientManager.OpenFailed()
+        return 
+    end
     ConfirmationPanel = World.SpawnAsset(PurchaseConfirmationBox)
     ConfirmationPanel:GetCustomProperty("CloseButton"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     ConfirmationPanel.clientUserData.Skin = Skin
@@ -18,12 +35,18 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
     ConfirmationPanel.clientUserData.Button = ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject()
     if Skin then
         ConfirmationPanel.clientUserData.type = "Skin"
-        ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
-        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format( PurchasePanel_Texts.PurchaseableSkin,Skin.name,Weapon.data.name,Skin.rarity:GetCost())
+        --ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin)
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format( PurchasePanel_Texts.PurchaseableSkin,Skin.name,Weapon.data.name,Skin.rarity:GetCost(), Skin.rarity:GetPremiumCost() )
+        ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject():GetCustomProperty("PurchaseText"):WaitForObject().text = string.format("Purchase for $%d",Skin.rarity:GetCost())
+        ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject():GetCustomProperty("PurchaseText"):WaitForObject().text = string.format("Purchase for %d SC",Skin.rarity:GetPremiumCost())
+        ShowOtherButtons()
+        ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin,"Cash")
+        ConfirmationPanel.clientUserData.buttonEventOther = ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin,"StrikeCoins")
+
     else 
         ConfirmationPanel.clientUserData.type = "Weapon"
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseWeapon,Weapon)
-        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeapon,Weapon.data.name)
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeapon,Weapon.data.name, Weapon:GetCost())
     end
 end
 
@@ -56,7 +79,8 @@ function GetWeaponText(Code)
         [1] = PurchasePanel_Texts.PurchaseableWeaponPending,
         [2] = PurchasePanel_Texts.PurchaseableWeaponFailed,
         [3] = PurchasePanel_Texts.PurchaseableWeaponAlreadyOwned,
-        [4] = PurchasePanel_Texts.PurchaseableWeaponError,
+        [4] = PurchasePanel_Texts.PurchaseableSkinLowLevel,
+        [5] = PurchasePanel_Texts.PurchaseableWeaponLowLevel,
     }
 
     return ReturnText[Code]
@@ -106,21 +130,32 @@ function PurchaseClientManager.PurchaseError(Code)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
+
     end
     ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
 end
 
-function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin)
+
+function PurchaseClientManager.OpenFailed(Code)
+    Task.Wait()
+    World.SpawnAsset(PURCHASE_FAIL_SOUND)
+end
+
+
+function PurchaseClientManager.PurchaseSkin(_,Weapon,Skin,type)
+    HideOtherButton()
     ConfirmationPanel.clientUserData.buttonEvent:Disconnect()
+    ConfirmationPanel.clientUserData.buttonEventOther:Disconnect()
     ConfirmationPanel.clientUserData.SuccessEvent = Events.Connect("PurchaseAPI_PurchaseSuccessful", PurchaseClientManager.PurchaseSuccessful)
     ConfirmationPanel.clientUserData.ErrorEvent = Events.Connect("PurchaseAPI_PurchaseError", PurchaseClientManager.PurchaseError)
     ConfirmationPanel.clientUserData.Button.text = "Purchasing..."
-    local Code = Purchase_API.BuySkin(Weapon,Skin)  
+
+    local Code = Purchase_API.BuySkin(Weapon,Skin,type)
+
     if Code ~= 1 then 
         PurchaseClientManager.PurchaseError(Code)
     end
-    --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),Skin.name)
 
 	if _G.Funnel then
 		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
@@ -143,6 +178,6 @@ function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
 	end
 end
 
-
+Events.Connect("ClosePurchasePanel",PurchaseClientManager.ClosePanel)
 Events.Connect("PurchaseItem",PurchaseClientManager.SetUpPanel)
 _G["PurchaseClientManager"] = PurchaseClientManager

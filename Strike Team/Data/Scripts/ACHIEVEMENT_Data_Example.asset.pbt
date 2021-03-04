@@ -13,6 +13,14 @@ Assets {
         String: ""
       }
       Overrides {
+        Name: "cs:Family"
+        String: ""
+      }
+      Overrides {
+        Name: "cs:IsRepeatable"
+        Bool: false
+      }
+      Overrides {
         Name: "cs:Icon"
         AssetReference {
           Id: 841534158063459245
@@ -25,6 +33,10 @@ Assets {
       Overrides {
         Name: "cs:Description"
         String: ""
+      }
+      Overrides {
+        Name: "cs:GivesReward"
+        Bool: false
       }
       Overrides {
         Name: "cs:RewardName"

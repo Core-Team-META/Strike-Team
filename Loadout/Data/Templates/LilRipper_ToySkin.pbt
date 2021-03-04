@@ -15,10 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3683469295896433806
-        ChildIds: 798698025687299032
-        ChildIds: 11729533674520923872
-        ChildIds: 12663275299693076439
+        ParentId: 4781671109827199097
+        ChildIds: 8386812029162162143
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -32,18 +30,52 @@ Assets {
         }
       }
       Objects {
+        Id: 8386812029162162143
+        Name: "Group"
+        Transform {
+          Location {
+            X: 0.296569824
+            Y: -4.08203125
+            Z: -16.4538269
+          }
+          Rotation {
+            Pitch: 17.1093216
+            Yaw: 6.4473896
+            Roll: 25.0644665
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4090748358425047399
+        ChildIds: 798698025687299032
+        ChildIds: 11729533674520923872
+        ChildIds: 12663275299693076439
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 798698025687299032
         Name: "Knife - Handle"
         Transform {
           Location {
-            X: -3.9085083
-            Y: 2.62719727
-            Z: -10.4262924
+            X: -0.376803398
+            Y: 0.371898651
+            Z: 9.91073
           }
           Rotation {
             Pitch: -13.486969
-            Yaw: 3.6491065
-            Roll: -15.2939453
+            Yaw: 3.64910769
+            Roll: -15.2939758
           }
           Scale {
             X: 0.868072212
@@ -51,18 +83,18 @@ Assets {
             Z: 0.868072212
           }
         }
-        ParentId: 4090748358425047399
+        ParentId: 8386812029162162143
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -109,14 +141,14 @@ Assets {
         Name: "Knife - Handle"
         Transform {
           Location {
-            X: -2.39825439
-            Y: 4.42456055
-            Z: -17.2032394
+            X: 1.13348293
+            Y: 2.17042732
+            Z: 3.13392305
           }
           Rotation {
             Pitch: 4.09811328e-05
-            Yaw: 1.95798793e-06
-            Roll: -14.8623352
+            Yaw: 1.95798771e-06
+            Roll: -14.8623657
           }
           Scale {
             X: 0.868072212
@@ -124,18 +156,18 @@ Assets {
             Z: 0.710011303
           }
         }
-        ParentId: 4090748358425047399
+        ParentId: 8386812029162162143
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -182,13 +214,13 @@ Assets {
         Name: "Knife - Blade"
         Transform {
           Location {
-            X: -0.334533691
-            Y: -1.43249512
-            Z: 4.87020874
+            X: 3.19724035
+            Y: -3.68734384
+            Z: 25.2073154
           }
           Rotation {
             Pitch: -19.1902161
-            Yaw: 5.2994442
+            Yaw: 5.29944658
             Roll: -15.7588501
           }
           Scale {
@@ -197,18 +229,18 @@ Assets {
             Z: 1.41102302
           }
         }
-        ParentId: 4090748358425047399
+        ParentId: 8386812029162162143
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 643713811288060970
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -273,7 +305,7 @@ Assets {
       }
     }
     Assets {
-      Id: 643713811288060970
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {

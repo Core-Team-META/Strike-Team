@@ -42,6 +42,18 @@ Assets {
               SubObjectId: 9497826314261336095
             }
           }
+          Overrides {
+            Name: "cs:PurchaseMoney"
+            ObjectReference {
+              SubObjectId: 8365620890663554084
+            }
+          }
+          Overrides {
+            Name: "cs:PurchaseOtherMeans"
+            ObjectReference {
+              SubObjectId: 14191704880622756035
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -96,6 +108,8 @@ Assets {
         ChildIds: 16327069857349182301
         ChildIds: 17348237672967562807
         ChildIds: 14427932866260289569
+        ChildIds: 8365620890663554084
+        ChildIds: 14191704880622756035
         ChildIds: 4258708074416363251
         UnregisteredParameters {
         }
@@ -106,7 +120,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 400
+          Width: 578
           Height: 277
           RenderTransformPivot {
             Anchor {
@@ -467,7 +481,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 201
@@ -573,6 +587,328 @@ Assets {
               A: 1
             }
             Size: 18
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8365620890663554084
+        Name: "PurchaseMoney"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.02452823e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2515449912817747963
+        ChildIds: 12691091589307408678
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PurchaseText"
+            ObjectReference {
+              SubObjectId: 12691091589307408678
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 220
+          Height: 55
+          UIX: -127
+          UIY: 89
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Button {
+            FontColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            FontSize: 49
+            ButtonColor {
+              R: 0.871367335
+              G: 0.278894335
+              B: 0.0122864898
+              A: 1
+            }
+            HoveredColor {
+              R: 0.386429518
+              G: 0.122138798
+              B: 0.00518151606
+              A: 1
+            }
+            PressedColor {
+              R: 1
+              G: 0.318546832
+              B: 0.0137020834
+              A: 1
+            }
+            DisabledColor {
+              R: 1
+              G: 1
+              B: 1
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12691091589307408678
+        Name: "PurchaseText"
+        Transform {
+          Location {
+            X: -48.506485
+            Y: 48.5534859
+            Z: 34.374939
+          }
+          Rotation {
+            Yaw: -3.32085586
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8365620890663554084
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 269
+          Height: 37
+          UIY: 10.7554932
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Label: "Purchase for $30000"
+            Color {
+              R: 0.00972121768
+              G: 0.00972121768
+              B: 0.00972121768
+              A: 1
+            }
+            Size: 16
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14191704880622756035
+        Name: "PurchaseOtherMeans"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.02452823e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2515449912817747963
+        ChildIds: 12902059799400008695
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PurchaseText"
+            ObjectReference {
+              SubObjectId: 12902059799400008695
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 220
+          Height: 55
+          UIX: 133
+          UIY: 89.1876831
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Button {
+            FontColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            FontSize: 49
+            ButtonColor {
+              R: 0.871367335
+              G: 0.278894335
+              B: 0.0122864898
+              A: 1
+            }
+            HoveredColor {
+              R: 0.386429518
+              G: 0.122138798
+              B: 0.00518151606
+              A: 1
+            }
+            PressedColor {
+              R: 1
+              G: 0.318546832
+              B: 0.0137020834
+              A: 1
+            }
+            DisabledColor {
+              R: 1
+              G: 1
+              B: 1
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12902059799400008695
+        Name: "PurchaseText"
+        Transform {
+          Location {
+            X: -48.506485
+            Y: 48.5534859
+            Z: 34.374939
+          }
+          Rotation {
+            Yaw: -3.32085586
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14191704880622756035
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PurchaseOtherMeans"
+            ObjectReference {
+              SubObjectId: 14191704880622756035
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 269
+          Height: 37
+          UIY: 10.7554932
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Label: "Purchase for 30000 SC "
+            Color {
+              R: 0.00972121768
+              G: 0.00972121768
+              B: 0.00972121768
+              A: 1
+            }
+            Size: 16
             Justification {
               Value: "mc:etextjustify:center"
             }

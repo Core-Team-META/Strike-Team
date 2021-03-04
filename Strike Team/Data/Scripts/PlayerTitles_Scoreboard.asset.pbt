@@ -1,5 +1,5 @@
 Assets {
-  Id: 7998556348612197568
+  Id: 735067567584463486
   Name: "PlayerTitles_Scoreboard"
   PlatformAssetType: 3
   TextAsset {
@@ -7,31 +7,31 @@ Assets {
       Overrides {
         Name: "cs:PlayerTitles"
         AssetReference {
-          Id: 3188923653713247666
+          Id: 15054746282440886363
         }
       }
       Overrides {
         Name: "cs:EaseUI"
         AssetReference {
-          Id: 1953446882420386915
+          Id: 12045507068401926921
         }
       }
       Overrides {
         Name: "cs:ScoreboardEntryTemplate"
         AssetReference {
-          Id: 4996083630135322235
+          Id: 15470680638991640411
         }
       }
       Overrides {
         Name: "cs:ScoreboardLeaderstatHeaderTemplate"
         AssetReference {
-          Id: 1932674136380284570
+          Id: 397569832168989839
         }
       }
       Overrides {
         Name: "cs:ScoreboardLeaderstatPlayerTemplate"
         AssetReference {
-          Id: 17653408521166154205
+          Id: 15420813460130049231
         }
       }
       Overrides {
@@ -71,11 +71,6 @@ Assets {
       }
       Overrides {
         Name: "cs:HeaderLeaderstats"
-        ObjectReference {
-        }
-      }
-      Overrides {
-        Name: "cs:Leaderstats"
         ObjectReference {
         }
       }

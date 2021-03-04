@@ -16218,7 +16218,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 14582790818618070150
+        Id: 2278902287318737937
       }
     }
     Overrides {
@@ -16236,9 +16236,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.493000031
+        G: 0.493000031
+        B: 0.493000031
         A: 1
       }
     }
@@ -16257,6 +16257,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {

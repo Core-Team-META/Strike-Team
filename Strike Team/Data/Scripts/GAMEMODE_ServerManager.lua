@@ -100,8 +100,10 @@ function OnPlayerLeft(player)
                 shouldEnd = false
             end
         end
-        if #players <= 1 or shouldEnd then
+        if lastTeam and #players <= 1 or lastTeam and shouldEnd then
             _G["GameWinner"] = lastTeam
+            Game.SetTeamScore(lastTeam, 5)
+            Task.Wait()
             Events.Broadcast("TeamVictory", lastTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
@@ -151,6 +153,9 @@ end
 function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         SetCurrentGameId(0) -- Used to reset Game Modes
+        if not roundStartTime then
+            roundStartTime = 0
+        end
         SetRoundDuration(time() - roundStartTime)
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then

@@ -149,13 +149,13 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         end
     else
         if(skin) then 
-            if skin.level > Game.GetLocalPlayer():GetResource("Level") then
-                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Level %d is required", skin.level)
-            else
-                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d ", skin.rarity:GetCost())
-            end
+            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d or %d Strike Coins", skin.rarity:GetCost(), skin.rarity:GetPremiumCost())
         else
-            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Buy for 1 Credit")
+            if item:GetLevel() > Game.GetLocalPlayer():GetResource("Level") then
+                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Level %d is required", item:GetLevel())
+            else
+                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d", item:GetCost() )
+            end
         end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
             Events.Broadcast("PurchaseItem",item,skin)
@@ -223,10 +223,11 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
 end
 
 function SortPanels(a,b)
+    if a == b then return end
+
     if Storage:HasWeapon(a.data.id) == true and not Storage:HasWeapon(b.data.id)  then return true end
     if not Storage:HasWeapon(a.data.id)  and Storage:HasWeapon(b.data.id) == true then return false end
     
-
     if a.data.name == b.data.name then return false end
     return a.data.name <= b.data.name 
 
@@ -260,8 +261,10 @@ function SpawnPanels(Type)
     end)
     SlotChange( #items )
     for i=Sort+1, math.min((Sort + PanelLimit),#items)  do
+        local Active = not CheckWeapon(items[i].data.id) or (items[i]:GetLevel() > LOCAL_PLAYER:GetResource("LeveL"))
+
         local newItem = Database:SetupItemWithSkin(items[i].data.id.."_00")
-        local newpanel = SpawnPanel(SPAWN,newItem, nil, i-(Sort),not CheckWeapon(items[i].data.id))
+        local newpanel = SpawnPanel(SPAWN,newItem, nil, i-(Sort), Active )
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
 
@@ -327,7 +330,9 @@ function SpawnIconPanel(Type)
     end)
     SlotChange( #items )    
     for i=Sort+1, math.min((Sort + PanelLimit), #items) do
-        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),not CheckWeapon(items[i].data.id))
+        local Active = not CheckWeapon(items[i].data.id) or (items[i]:GetLevel() > LOCAL_PLAYER:GetResource("LeveL"))
+
+        local newpanel = SpawnPanel(SmallerPanelIcon,items[i], nil,  i-(Sort),Active)
         local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
         local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
         local ICON = newpanel:GetCustomProperty("ICON"):WaitForObject()

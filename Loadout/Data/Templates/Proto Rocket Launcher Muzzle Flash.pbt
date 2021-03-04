@@ -19,7 +19,7 @@ Assets {
         ChildIds: 12227039236440401715
         UnregisteredParameters {
         }
-        Lifespan: 1
+        Lifespan: 1.5
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -291,7 +291,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 0.8
+            Float: 0.6
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.681461036
           }
         }
         Collidable_v2 {

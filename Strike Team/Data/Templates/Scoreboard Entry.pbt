@@ -166,7 +166,10 @@ Assets {
             Brush {
             }
             Color {
-              A: 0.5
+              R: 0.000653703406
+              G: 0.00842550211
+              B: 0.010416667
+              A: 0.801000059
             }
             TeamSettings {
             }
@@ -388,7 +391,7 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "Morticai"
+            Label: "PlayerName"
             Color {
               R: 1
               G: 1
@@ -439,27 +442,27 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -48
-          UIX: 10
+          Width: 30
+          UIX: 7.5
+          UIY: 1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
           UseParentHeight: true
           Text {
-            Label: "10"
+            Label: "999"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 15
+            Size: 14
             Justification {
-              Value: "mc:etextjustify:left"
+              Value: "mc:etextjustify:right"
             }
             ClipTextToSize: true
             Font {
@@ -504,7 +507,7 @@ Assets {
         Control {
           Width: 30
           Height: 30
-          UIX: 50
+          UIX: 55
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
