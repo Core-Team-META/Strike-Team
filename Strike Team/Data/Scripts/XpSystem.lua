@@ -181,6 +181,8 @@ if Environment.IsServer() then
 
     function XP:Save()
         while not _G["StatKey"] do Task.Wait() end
+        if not Object.IsValid(self.owner) then return end
+        
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
         data["XP"] = self.xp
         data["Level"] = self.level
@@ -204,6 +206,8 @@ if Environment.IsServer() then
 
     function XP:Load()
         while not _G["StatKey"] do Task.Wait() end
+        if not Object.IsValid(self.owner) then return end
+        
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
         self.xp = data["XP"] or 0
         self.level = data["level"] or 1
