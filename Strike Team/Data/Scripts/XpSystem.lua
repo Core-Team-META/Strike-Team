@@ -162,7 +162,7 @@ if Environment.IsServer() then
     function XP:UpdateResource()
         self.owner:SetResource("LastGained", self.lastgained)
         self.owner:SetResource("XP", self.xp)
-        self.owner:SetResource("level", self.level)
+        self.owner:SetResource("Level", self.level)
         self.owner:SetResource("Prestige", self.level)
     end
 
@@ -210,12 +210,12 @@ if Environment.IsServer() then
         
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
         self.xp = data["XP"] or 0
-        self.level = data["level"] or 1
+        self.level = data["Level"] or 1
         self.Prestige = data["Prestige"] or 0
         Task.Spawn(function()
             self.owner:SetResource("XP", self.xp)
             self.owner:SetResource("Level", self.level)
-            self.owner:SetResource("Prstige", self.Prestige)
+            self.owner:SetResource("Prestige", self.Prestige)
         end,2)
     end
 
