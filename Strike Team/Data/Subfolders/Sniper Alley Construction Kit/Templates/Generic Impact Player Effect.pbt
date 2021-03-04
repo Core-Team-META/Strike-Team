@@ -7,12 +7,8 @@ Assets {
       RootId: 12323403659833456060
       Objects {
         Id: 12323403659833456060
-        Name: "Weapon Player Impact Effect"
+        Name: "Generic Impact Player Effect"
         Transform {
-          Location {
-          }
-          Rotation {
-          }
           Scale {
             X: 1
             Y: 1
@@ -23,6 +19,7 @@ Assets {
         ChildIds: 11352976760511440785
         UnregisteredParameters {
         }
+        Lifespan: 2
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

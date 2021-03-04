@@ -19,6 +19,7 @@ Assets {
         ChildIds: 4214912732193155472
         UnregisteredParameters {
         }
+        Lifespan: 3
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
