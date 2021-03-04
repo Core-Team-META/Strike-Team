@@ -1,4 +1,4 @@
-﻿local RUN_SPEED = script:GetCustomProperty("RunSpeed")
+local RUN_SPEED = script:GetCustomProperty("RunSpeed")
 local SPRINT_SPEED = script:GetCustomProperty("SprintSpeed")
 local SCOPE_SPEED = script:GetCustomProperty("ScopeSpeed")
 local SLIDING_DURATION = script:GetCustomProperty("SlidingDuration")
@@ -189,11 +189,12 @@ end
 
 function UpdatePlayerStance(player)
     --print(playerStances[player]["Sprinting"], playerStances[player]["Aiming"])
-    if player.serverUserData.playerStatus and player.serverUserData.playerStatus["Sprinting"] then
-        if player.serverUserData.playerStatus["Crouching"] then return end
+    if not player.serverUserData.playerStatus then return end
+    if player.serverUserData.playerStatus["Crouching"] then return end
+    
+    if player.serverUserData.playerStatus["Sprinting"] then
         player.animationStance = playerStances[player]["Sprinting"]
     else
-        if player.serverUserData.playerStatus["Crouching"] then return end
         player.animationStance = playerStances[player]["Aiming"]
     end
 end
@@ -215,7 +216,10 @@ function OnEquipWeapon(owner, weapon)
     end
     playerStances[owner]["Sprinting"] = sprintingStance or "2hand_rifle_stance"
     playerStances[owner]["Aiming"] = aimingStance or "2hand_rifle_aim_shoulder"
+    
     Task.Wait()
+    if not Object.IsValid(owner) then return end
+    
     UpdatePlayerStance(owner)
     UpdatePlayerSprinting(owner)
 end
