@@ -20,6 +20,7 @@ local NOTIFICATION = script:GetCustomProperty("NOTIFICATION"):WaitForObject()
 local NOTIFICATION_ICON = NOTIFICATION:GetCustomProperty("ICON"):WaitForObject()
 local ACHIEVEMENT_NAME_TEXT = NOTIFICATION:GetCustomProperty("ACHIEVEMENT_NAME_TEXT"):WaitForObject()
 local ACHIEVEMENT_CONTAINER = script:GetCustomProperty("CONTAINER"):WaitForObject()
+local ACHIEVEMENTS_DETAILS_UI = script:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -73,42 +74,43 @@ local function OnDetailsHover(button)
     if not button.clientUserData.detailPanel then
         return
     end
-    button.clientUserData.detailPanel.visibility = Visibility.FORCE_ON
+    local achievement = button.clientUserData.achievement
+    ACHIEVEMENTS_DETAILS_UI.visibility = Visibility.FORCE_OFF
+    ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject():SetImage(achievement.icon)
+    ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("TITLE"):WaitForObject().text = achievement.name
+    ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("DESCRIPTION"):WaitForObject().text = achievement.description
+    ACHIEVEMENTS_DETAILS_UI.visibility = Visibility.FORCE_ON
 end
 
 local function OnDetailsUnhover(button)
     if not button.clientUserData.detailPanel then
         return
     end
-    button.clientUserData.detailPanel.visibility = Visibility.FORCE_OFF
+    ACHIEVEMENTS_DETAILS_UI.visibility = Visibility.FORCE_OFF
 end
 
 local function BuildAchievementInfoPanel()
     local count = 0
     for _, achievement in pairs(ACH_API.CheckUnlockedAchievements(LOCAL_PLAYER)) do
+        if count >= 10 then
+            break
+        end
         local achievementPanel = World.SpawnAsset(AchievementPanelTemplate, {parent = ACHIEVEMENT_CONTAINER})
         local icon = achievementPanel:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject()
         local name = achievementPanel:GetCustomProperty("ACHIEVEMENT_NAME"):WaitForObject()
         local button = achievementPanel:GetCustomProperty("BUTTON"):WaitForObject()
 
-        local details = achievementPanel:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
-        details.visibility = Visibility.FORCE_OFF
-        local detailsIcon = details:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject()
-        local detailsTitle = details:GetCustomProperty("TITLE"):WaitForObject()
-        local detilsDescription = details:GetCustomProperty("DESCRIPTION"):WaitForObject()
-
-        button.clientUserData.detailPanel = details
+        button.clientUserData.detailPanel = achievementPanel:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
+        button.clientUserData.achievement = achievement
 
         listeners[#listeners + 1] = button.hoveredEvent:Connect(OnDetailsHover)
         listeners[#listeners + 1] = button.unhoveredEvent:Connect(OnDetailsUnhover)
 
         icon:SetImage(achievement.icon)
-        detailsIcon:SetImage(achievement.icon)
+        
 
         name.text = achievement.name
-        detailsTitle.text = achievement.name
-        detilsDescription.text = achievement.description
-
+     
         if count < 5 then
             achievementPanel.x = count * 130
             count = count + 1
@@ -118,6 +120,7 @@ local function BuildAchievementInfoPanel()
             count = count + 1
         end
     end
+    ACHIEVEMENTS_DETAILS_UI.visibility = Visibility.FORCE_OFF
 end
 
 local function AnimateNotification(id)

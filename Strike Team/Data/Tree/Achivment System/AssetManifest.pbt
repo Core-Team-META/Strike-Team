@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13575128885289472533
+  Name: "Frame Outlined Thick 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_020"
+  }
+}
+Assets {
   Id: 13533117987219502857
   Name: "Fantasy Crossbow 003"
   PlatformAssetType: 9
@@ -131,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Weapon_MachineGun_002"
+  }
+}
+Assets {
+  Id: 10698833128597864431
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
   }
 }
 Assets {
@@ -215,6 +233,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7887978635932231235
+  Name: "Fantasy Ability Blue 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_006"
+  }
+}
+Assets {
   Id: 6569410210520716887
   Name: "Fantasy Ability Teal 014"
   PlatformAssetType: 9
@@ -260,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3884726409041590116
+  Name: "Sci-fi Ability Green 025"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Green_025"
+  }
+}
+Assets {
   Id: 2604353830693238371
   Name: "BG Highlighted 001"
   PlatformAssetType: 9
@@ -278,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1958653091562318230
+  Name: "Center Tri 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterTri_001"
+  }
+}
+Assets {
   Id: 1577908654407312898
   Name: "Fantasy Gun 005"
   PlatformAssetType: 9
@@ -293,6 +338,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Gold_002"
+  }
+}
+Assets {
+  Id: 622433789355555801
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {

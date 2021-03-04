@@ -32,7 +32,6 @@ local function SetPlayerFlags(player)
     player.serverUserData.ACH_killCount = 0
 end
 
-
 local function SetResourceBasedAchievements(player)
     local damageDone = player:GetResource("DamageDone")
     --local assists = player:GetResource("Assists")
@@ -52,52 +51,37 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRAR2", 1)
         ACH_API.AddProgress(player, "AS_NRAR3", 1)
         ACH_API.AddProgress(player, "AS_NRAR4", 1)
-
-
     elseif weaponType == "SMG" then
         ACH_API.AddProgress(player, "AS_NRSMG1", 1)
         ACH_API.AddProgress(player, "AS_NRSMG2", 1)
         ACH_API.AddProgress(player, "AS_NRSMG3", 1)
         ACH_API.AddProgress(player, "AS_NRSMG4", 1)
-
-
     elseif weaponType == "Grenade" then
         ACH_API.AddProgress(player, "AS_Grenade", 1)
-
-
     elseif weaponType == "Sniper" then
         ACH_API.AddProgress(player, "AS_NRSNIPE1", 1)
         ACH_API.AddProgress(player, "AS_NRSNIPE2", 1)
         ACH_API.AddProgress(player, "AS_NRSNIPE3", 1)
         ACH_API.AddProgress(player, "AS_NRSNIPE4", 1)
-
     elseif weaponType == "Marksman" then
         ACH_API.AddProgress(player, "AS_NRMM1", 1)
         ACH_API.AddProgress(player, "AS_NRMM2", 1)
         ACH_API.AddProgress(player, "AS_NRMM3", 1)
         ACH_API.AddProgress(player, "AS_NRMM4", 1)
-
-
     elseif weaponType == "Melee" then
         ACH_API.AddProgress(player, "AS_NRMEL1", 1)
         ACH_API.AddProgress(player, "AS_NRMEL2", 1)
         ACH_API.AddProgress(player, "AS_NRMEL3", 1)
-
-
     elseif weaponType == "LMG" then
         ACH_API.AddProgress(player, "AS_NRLMG1", 1)
         ACH_API.AddProgress(player, "AS_NRLMG1", 2)
         ACH_API.AddProgress(player, "AS_NRLMG1", 3)
         ACH_API.AddProgress(player, "AS_NRLMG1", 4)
-
-
     elseif weaponType == "Shotgun" then
         ACH_API.AddProgress(player, "AS_NRSHOTTY1", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY2", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY3", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY4", 1)
-
-
     elseif weaponType == "Pistol" then
         ACH_API.AddProgress(player, "AS_NRPISTOL1", 1)
         ACH_API.AddProgress(player, "AS_NRPISTOL2", 1)
@@ -126,7 +110,7 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
         ACH_API.AddProgress(player, "AS_Blackjack", 21)
     end
-    
+
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
 
@@ -135,7 +119,6 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     end ]]
     --
 end
-
 
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
@@ -173,6 +156,9 @@ end
 function OnRoundStart()
     for _, player in ipairs(Game.GetPlayers()) do
         SetPlayerFlags(player)
+        for _, achievement in pairs(ACH_API.GetAchievements()) do
+            ACH_API.UnlockAchievement(player, achievement.id)
+        end
     end
 end
 
@@ -180,8 +166,7 @@ end
 function OnRoundEnd()
     local team1 = Game.GetTeamScore(1)
     local team2 = Game.GetTeamScore(2)
-    for _, player in ipairs(Game.GetPlayers()) do
-
+    for _, player in ipairs(Game.GetPlayers()) do --
         --#TODO Temp turned off
         --[[if (team1 > team2 and player.team == team1) or (team1 < team2 and player.team == team2) then
             ACH_API.AddProgress(player, "AS_10WINS", 1)
@@ -194,10 +179,8 @@ function OnRoundEnd()
                 not player.serverUserData.ACH_diedInRound
          then
             ACH_API.AddProgress(player, "AS_UNKILLABLE", 1)
-        end]]--
-
-    
-        player.serverUserData.ACH_killCount = 0
+        end]] player.serverUserData.ACH_killCount =
+            0
         player.serverUserData.ACH_diedInRound = false
     end
 end
