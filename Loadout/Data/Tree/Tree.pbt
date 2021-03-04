@@ -35,6 +35,7 @@ Objects {
   ChildIds: 4844186550665608289
   ChildIds: 17512947565365309920
   ChildIds: 17277774771838165488
+  ChildIds: 13246378773896768805
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -44,6 +45,49 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13246378773896768805
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -750,7 +794,7 @@ Objects {
     Overrides {
       Name: "cs:StrikeCoin300"
       NetReference {
-        Key: "961ac6713ade4960a6f4639fca25d3a1"
+        Key: "d47f41aff3fa4c3ca2c3532a0db16683"
         Type {
           Value: "mc:enetreferencetype:creatorperk"
         }
@@ -759,7 +803,7 @@ Objects {
     Overrides {
       Name: "cs:StrikeCoin750"
       NetReference {
-        Key: "5cdab6cfe83a463b8bfe074d316a7a3c"
+        Key: "f72d4bdae38648848ca6b65db8422fb7"
         Type {
           Value: "mc:enetreferencetype:creatorperk"
         }
@@ -768,7 +812,7 @@ Objects {
     Overrides {
       Name: "cs:StrikeCoin3000"
       NetReference {
-        Key: "be73b67c768341c5ba1df5788b0ea0a7"
+        Key: "0d68fcc9f84a4c58a6baefe872e7cad4"
         Type {
           Value: "mc:enetreferencetype:creatorperk"
         }
