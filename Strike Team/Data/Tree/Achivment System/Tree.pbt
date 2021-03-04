@@ -1782,6 +1782,3283 @@ Objects {
     }
   }
   ParentId: 16180529362581302619
+  ChildIds: 5457313247597616644
+  ChildIds: 8578625138387057231
+  ChildIds: 10520236751416439531
+  ChildIds: 14164920016458507979
+  ChildIds: 5766063083101094761
+  ChildIds: 5859264662934942959
+  ChildIds: 9529991276533282482
+  ChildIds: 15437103294174181562
+  ChildIds: 4128885145464169621
+  ChildIds: 16820877708994921726
+  ChildIds: 15469201875988202055
+  ChildIds: 16987004868824947882
+  ChildIds: 5397977096440558238
+  ChildIds: 17533706911868270040
+  ChildIds: 370613908150375581
+  ChildIds: 11346755905250513291
+  ChildIds: 6924428050454477233
+  ChildIds: 8672911228979212228
+  ChildIds: 13680049878917667940
+  ChildIds: 18351732169050301400
+  ChildIds: 6315232468430446480
+  ChildIds: 3768025769885814408
+  ChildIds: 9114422984646444111
+  ChildIds: 12021524134928975345
+  ChildIds: 7201780402294173182
+  ChildIds: 2083999272102157466
+  ChildIds: 7679029935226290710
+  ChildIds: 12323209144946499234
+  ChildIds: 7352318981606378456
+  ChildIds: 6992430554221012734
+  ChildIds: 15329356320129028511
+  ChildIds: 3240543567183893094
+  ChildIds: 10050998240857910835
+  ChildIds: 8772513443719670072
+  ChildIds: 2579378814216124956
+  ChildIds: 16215774710515972066
+  ChildIds: 9462273518518349428
+  ChildIds: 18046034901519066761
+  ChildIds: 12280595187614984390
+  ChildIds: 13986949626528903165
+  ChildIds: 14037322702811239317
+  ChildIds: 15468750116622997602
+  ChildIds: 5274753737232856143
+  ChildIds: 11672091578870787425
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11672091578870787425
+  Name: "Justice"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get at least 9 kills while dead"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 9
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRREV3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10293868230383892927
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRREV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5274753737232856143
+  Name: "Judge And Jury"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get at least 6 kills while dead"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 6
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRREV2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10293868230383892927
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRREV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 15468750116622997602
+  Name: "Vengeful Spirit"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get at least 3 kills while dead"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRREV1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10293868230383892927
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRREV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 14037322702811239317
+  Name: "Mighty Monarch"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Capture at least 5 Strike Points yourself"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 25
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSC1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 15102808600489961866
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSC"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 13986949626528903165
+  Name: "King Of The Hills"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Capture at least 4 Strike Points yourself"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSC1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 15102808600489961866
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSC"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 12280595187614984390
+  Name: "Hill Hero"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Capture at least 3 Strike Points yourself"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSC1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 15102808600489961866
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSC"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 18046034901519066761
+  Name: "Revolving Rampage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with any any Pistol"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRPISTOL3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 1577908654407312898
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRPISTOL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 9462273518518349428
+  Name: "Sidearm Slayer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with any Pistol"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRPISTOL2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 1577908654407312898
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRPISTOL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 16215774710515972066
+  Name: "Deadly Duelist"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with any Pistol"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRPISTOL1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 1577908654407312898
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRPISTOL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 2579378814216124956
+  Name: "PC 245"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with any melee weapon"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMEL3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9532212054162413688
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMEL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 8772513443719670072
+  Name: "Biggle Batter"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with any melee weapon"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMEL2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9532212054162413688
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMEL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 10050998240857910835
+  Name: "Stabby McStab"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with any melee weapon"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMEL1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9532212054162413688
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMEL"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 3240543567183893094
+  Name: "Bullseye Bill"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the Marksman Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMM4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9823496921708851556
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMM"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 15329356320129028511
+  Name: "Designated Hitter"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with the Marksman Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMM3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9823496921708851556
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMM"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 6992430554221012734
+  Name: "Nail Driver"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the Marksman Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMM2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9823496921708851556
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMM"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 7352318981606378456
+  Name: "Overwatch"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with the Marksman Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRMM1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9823496921708851556
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRMM"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 12323209144946499234
+  Name: "Awk and Rol"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the LMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRLMG4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10719288243058469548
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRLMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 7679029935226290710
+  Name: "Large Numbers"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with the LMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRLMG3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10719288243058469548
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRLMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 2083999272102157466
+  Name: "Lead Legion"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with the LMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRLMG2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10719288243058469548
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRLMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 7201780402294173182
+  Name: "Pray Spray"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with the LMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRLMG1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10719288243058469548
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRLMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 12021524134928975345
+  Name: "Sub Samurai"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the SMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSMG4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2417593569095758378
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 9114422984646444111
+  Name: "Sub Slayer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with the SMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSMG3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2417593569095758378
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 3768025769885814408
+  Name: "Empty Clip"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with the SMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSMG2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2417593569095758378
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 6315232468430446480
+  Name: "Rata Tat"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with the SMG"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSMG1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2417593569095758378
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 18351732169050301400
+  Name: "Shot Shogun"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the Shotgun"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSHOTTY4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 16080437900078114139
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSHOTTY"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 13680049878917667940
+  Name: "Buck Buck"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with the Shotgun"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSHOTTY3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 16080437900078114139
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSHOTTY"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 8672911228979212228
+  Name: "Pow Pow"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with the Shotgun"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSHOTTY2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 16080437900078114139
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSHOTTY"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 6924428050454477233
+  Name: "Boom Boom"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with the Shotgun"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSHOTTY1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 16080437900078114139
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSHOTTY"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 11346755905250513291
+  Name: "Elite Sniper"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 40 kills with the Sniper Rifle "
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSNIPE4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 14759442090699897862
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSNIPE"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 370613908150375581
+  Name: "Sharpshooter"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 30 kills with the Sniper Rifle "
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSNIPE3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 14759442090699897862
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSNIPE"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 17533706911868270040
+  Name: "Hawkeye"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 kills with the Sniper Rifle "
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSNIPE2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 14759442090699897862
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSNIPE"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5397977096440558238
+  Name: "Sniper"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 kills with the Sniper Rifle "
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRSNIPE1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 14759442090699897862
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRSNIPE"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 16987004868824947882
+  Name: "Reaper"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Deal 8000 or more damage in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 8000
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRDMG4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9494927095817957209
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRDMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 15469201875988202055
+  Name: "Berserker"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Deal 6000 or more damage in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 6000
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRDMG3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9494927095817957209
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRDMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 16820877708994921726
+  Name: "Warrior"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Deal 4000 or more damage in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 4000
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRDMG2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9494927095817957209
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRDMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 4128885145464169621
+  Name: "Soldier"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Deal 2000 or more damage in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 2000
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRDMG1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9494927095817957209
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRDMG"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 15437103294174181562
+  Name: "Head Hunter"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 20 fatal headshots or more in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRHS4"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13533117987219502857
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRHS"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 9529991276533282482
+  Name: "Assassin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 15 fatal headshots or more in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRHS3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13533117987219502857
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRHS"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5859264662934942959
+  Name: "Terminator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 10 fatal headshots or more in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRHS2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13533117987219502857
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRHS"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5766063083101094761
+  Name: "Eagle Eye"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 5 fatal headshots or more in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 5
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRHS1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13533117987219502857
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRHS"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 14164920016458507979
+  Name: "Elite Ops"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 50 or more kills in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 50
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRKill3"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 11003755840746783835
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRKill"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 10520236751416439531
+  Name: "Rampage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 25 or more kills in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 25
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRKill2"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 11003755840746783835
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRKill"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 8578625138387057231
+  Name: "Special Ops"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get 15 or more kills in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_NRKill1"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 11003755840746783835
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "NRKill"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5457313247597616644
+  Name: "Blackjack"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Get exactly 21 kills in one round"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 21
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_Blackjack"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 11753621366940477556
+      }
+    }
+    Overrides {
+      Name: "cs:RewardName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:RewardAmount"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      AssetReference {
+        Id: 16466079658499434425
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 945304107415219870
+  Name: "PermanentAchievements"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16180529362581302619
   ChildIds: 16538584883756006468
   ChildIds: 4367643095943717674
   ChildIds: 14640174237898594314
@@ -1825,7 +5102,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -1890,7 +5167,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -1955,7 +5232,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2020,7 +5297,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2085,7 +5362,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2150,7 +5427,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2215,7 +5492,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2280,7 +5557,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2345,7 +5622,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2410,7 +5687,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2475,7 +5752,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2540,7 +5817,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2605,7 +5882,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2670,7 +5947,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2735,7 +6012,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2800,7 +6077,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2865,7 +6142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2930,7 +6207,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -2999,7 +6276,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4621019112986440625
+  ParentId: 945304107415219870
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
