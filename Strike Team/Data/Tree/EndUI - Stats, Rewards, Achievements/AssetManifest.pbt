@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15918351247767818628
-  Name: "Icon Skull"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Skull"
-  }
-}
-Assets {
   Id: 15883708854494611084
   Name: "Sci-fi Container 002"
   PlatformAssetType: 9
@@ -77,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Scifi_Corners_001"
+  }
+}
+Assets {
+  Id: 11003755840746783835
+  Name: "Survival Craft Bones 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Crafting_Bones_003"
   }
 }
 Assets {
