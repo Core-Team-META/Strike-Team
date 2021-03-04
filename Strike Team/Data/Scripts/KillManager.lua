@@ -1,9 +1,11 @@
-﻿while not _G["DataBase"] do Task.Wait() end
+while not _G["DataBase"] do Task.Wait() end
 local database = _G["DataBase"]
 
 function UpdateWeapon(player,damage)
-    if damage.sourceAbility  and damage.sourcePlayer then 
+    if damage.sourceAbility and Object.IsValid(damage.sourcePlayer) then 
         local equipment = damage.sourceAbility:FindAncestorByType("Equipment")
+        if not Object.IsValid(equipment) then return end
+        
         for k,v in pairs(database:GetDatabase()) do
              if(equipment.sourceTemplateId ..":".. equipment.name == v["weapon"]) then 
                 damage.sourcePlayer:AddResource(v["type"].." Kills", 1)  
@@ -13,29 +15,30 @@ function UpdateWeapon(player,damage)
 end
 
 function RewardAssists(player,damage)
-        for key, Player in pairs(player.serverUserData.Assists) do
-            if(damage.sourcePlayer ~= Player) then
-                Player:AddResource("Assists", 1)
-                Player:AddResource("Score", 50)
-            end
+    for key, otherPlayer in pairs(player.serverUserData.Assists) do
+        if Object.IsValid(otherPlayer) and damage.sourcePlayer ~= otherPlayer then
+            otherPlayer:AddResource("Assists", 1)
+            otherPlayer:AddResource("Score", 50)
         end
-        player.serverUserData.Assists = {}
+    end
+    player.serverUserData.Assists = {}
 end
 
 function AddScore(_,damage)
-    if damage.sourcePlayer then 
+    if Object.IsValid(damage.sourcePlayer) then 
         damage.sourcePlayer:AddResource("Score", 100)
     end
 end
     
 function CheckHeadshots(player,damage)
-    if(damage:GetHitResult()) then
-        local hit = damage:GetHitResult()
-        if(Object.IsValid(hit.other) and hit.other:IsA("Player")) then
-            if(hit.socketName == "head") then
-                damage.sourcePlayer:AddResource("Headshots", 1)
-                damage.sourcePlayer:AddResource("Score", 10)
-            end
+	local hit = damage:GetHitResult()
+    if hit then
+        if Object.IsValid(hit.other) 
+        and hit.other:IsA("Player") 
+        and Object.IsValid(damage.sourcePlayer)
+        and hit.socketName == "head" then
+            damage.sourcePlayer:AddResource("Headshots", 1)
+            damage.sourcePlayer:AddResource("Score", 10)
         end
     end
 end
@@ -51,7 +54,7 @@ end
 function UpdateKillDeath(player,damage)
     SetKD(player)
     player:SetResource("KillStreak", 0)
-    if damage.sourcePlayer then 
+    if Object.IsValid(damage.sourcePlayer) then 
         SetKD(damage.sourcePlayer)
         if( damage.sourcePlayer ~= player) then 
             damage.sourcePlayer:AddResource("KillStreak", 1)
@@ -69,7 +72,7 @@ function UpdateResouces(player,damage)
 end
 
 function DamageUpdate(player,damage)
-    if(damage.sourcePlayer and damage.amount > 1) then
+    if Object.IsValid(damage.sourcePlayer) and damage.amount > 1 then
         damage.sourcePlayer:AddResource("DamageDone", math.floor( damage.amount))
         if(not player.serverUserData.Assists) then player.serverUserData.Assists = {} end
         player.serverUserData.Assists[damage.sourcePlayer] = damage.sourcePlayer
@@ -80,6 +83,8 @@ function DamageUpdate(player,damage)
 end
 
 function ResetData(player)
+	if not Object.IsValid(player) then return end
+	
     for k,v in pairs(database:GetDatabase()) do
         player:SetResource(v["type"].." Kills", 0) 
     end
