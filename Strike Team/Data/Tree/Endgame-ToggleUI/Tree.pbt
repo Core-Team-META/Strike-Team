@@ -200,6 +200,14 @@ Objects {
   ParentId: 7792924192418409054
   ChildIds: 5389678028690860789
   ChildIds: 10187473320377106470
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ACTIVE"
+      ObjectReference {
+        SelfId: 10187473320377106470
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -291,7 +299,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -806,6 +814,14 @@ Objects {
   ParentId: 7792924192418409054
   ChildIds: 17772630052543736526
   ChildIds: 494041981940768248
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ACTIVE"
+      ObjectReference {
+        SelfId: 494041981940768248
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -896,7 +912,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -1411,6 +1427,14 @@ Objects {
   ParentId: 7792924192418409054
   ChildIds: 10597939185111007521
   ChildIds: 2809022592613005129
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ACTIVE"
+      ObjectReference {
+        SelfId: 2809022592613005129
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1481,7 +1505,7 @@ Objects {
 }
 Objects {
   Id: 2809022592613005129
-  Name: "IDLE"
+  Name: "ACTIVE"
   Transform {
     Location {
     }
@@ -1502,7 +1526,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -1790,7 +1814,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 100

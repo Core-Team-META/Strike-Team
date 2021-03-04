@@ -1,6 +1,65 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
+  Id: 1767098222894358513
+  Name: "EndgameUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Endgame-ToggleUI"
+  }
+}
+Objects {
+  Id: 8620392774914385537
+  Name: "EndUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EndUI - Stats, Rewards, Achievements"
+  }
+  InstanceHistory {
+    SelfId: 8620392774914385537
+    SubobjectId: 12468429385579287823
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+    WasRoot: true
+  }
+}
+Objects {
   Id: 13897893943081087324
   Name: "UI Container"
   Transform {
