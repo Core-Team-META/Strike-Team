@@ -2262,7 +2262,7 @@ Assets {
           Width: 216
           Height: 32
           UIX: -10
-          UIY: -14
+          UIY: -8.02575779
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2281,6 +2281,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 1144950805409236433
             }
           }
           AnchorLayout {
@@ -4597,7 +4598,7 @@ Assets {
           Width: 216
           Height: 32
           UIX: -10
-          UIY: -14
+          UIY: -8.02575779
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -4616,6 +4617,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 1144950805409236433
             }
           }
           AnchorLayout {
@@ -6931,7 +6933,7 @@ Assets {
           Width: 216
           Height: 32
           UIX: -10
-          UIY: -14
+          UIY: -8.02575779
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -6950,6 +6952,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 1144950805409236433
             }
           }
           AnchorLayout {
@@ -13610,6 +13613,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_WeaponAssaultRifle"
+      }
+    }
+    Assets {
+      Id: 1144950805409236433
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
       }
     }
     Assets {

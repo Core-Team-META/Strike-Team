@@ -1110,6 +1110,7 @@ Assets {
         Control {
           Width: -7
           UIX: 7
+          UIY: 4.24461842
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1132,6 +1133,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 1144950805409236433
             }
           }
           AnchorLayout {
@@ -1230,6 +1232,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
+      Id: 1144950805409236433
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
       }
     }
     PrimaryAssetId {
