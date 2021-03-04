@@ -1428,6 +1428,7 @@ Objects {
   ParentId: 2546043814955587125
   ChildIds: 5413472480730285552
   ChildIds: 5488219571136977736
+  ChildIds: 6544091192156766262
   ChildIds: 12753431546636593107
   UnregisteredParameters {
   }
@@ -1438,10 +1439,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 42
+    Width: 175
     Height: 58
-    UIX: 19.9270935
-    UIY: -0.698486328
+    UIX: 49.3859
+    UIY: -33.0366058
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1493,9 +1494,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
-    Height: 40
-    UIY: -2.51220703
+    Width: 50
+    Height: 50
+    UIX: 2.8322103
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1515,12 +1516,73 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9898090918363078415
+    SubobjectId: 14059023812613610750
+    InstanceId: 1736845678661253780
+    TemplateId: 10006038514561667178
+  }
+}
+Objects {
+  Id: 6544091192156766262
+  Name: "Icon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11785960102569884782
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 50
+    Height: 50
+    UIX: 4.99609756
+    UIY: 3.26475763
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 10117964992090160592
+      }
+      Color {
+        A: 0.567000031
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
         }
       }
     }
@@ -1558,8 +1620,8 @@ Objects {
   Control {
     Width: 100
     Height: 22
-    UIX: 49.9532471
-    UIY: -4.43591309
+    UIX: -5.5041213
+    UIY: -11.060358
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1573,22 +1635,23 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 25
       Justification {
         Value: "mc:etextjustify:left"
       }
       Font {
+        Id: 1144950805409236433
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
@@ -1919,6 +1982,7 @@ Objects {
     }
   }
   ParentId: 3916408719873070741
+  ChildIds: 11954772497497978538
   ChildIds: 9898090918363078415
   ChildIds: 18268698000139856108
   ChildIds: 17424194132942764270
@@ -1931,10 +1995,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 38
+    Width: 175
     Height: 54
-    UIX: 19.9270935
-    UIY: -53.1762085
+    UIX: 50.2422867
+    UIY: -103.182228
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1988,8 +2052,8 @@ Objects {
   Control {
     Width: 100
     Height: 22
-    UIX: 51.5785522
-    UIY: -20.6378937
+    UIX: -5.5041213
+    UIY: -11.060358
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2003,22 +2067,23 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 25
       Justification {
         Value: "mc:etextjustify:left"
       }
       Font {
+        Id: 1144950805409236433
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
@@ -2119,8 +2184,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
-    Height: 40
+    Width: 60
+    Height: 60
+    UIX: 2.8322103
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2140,12 +2206,73 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9898090918363078415
+    SubobjectId: 14059023812613610750
+    InstanceId: 1736845678661253780
+    TemplateId: 10006038514561667178
+  }
+}
+Objects {
+  Id: 11954772497497978538
+  Name: "Icon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5943155747562884727
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 60
+    UIX: 4.99609756
+    UIY: 3.26475763
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 3664507400955153403
+      }
+      Color {
+        A: 0.676000059
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
         }
       }
     }
@@ -2838,7 +2965,7 @@ Objects {
   Control {
     Width: 449
     Height: 60
-    UIY: 1.8894043
+    UIY: 7.7771821
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2858,7 +2985,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 1364597305327011649
+        Id: 1144950805409236433
       }
     }
     AnchorLayout {
@@ -5517,6 +5644,20 @@ Objects {
           Name: "Label"
           String: "LOADOUT 8"
         }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
+        }
       }
     }
     TemplateAsset {
@@ -5610,6 +5751,20 @@ Objects {
         Overrides {
           Name: "Label"
           String: "LOADOUT 7"
+        }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
         }
       }
     }
@@ -5705,6 +5860,20 @@ Objects {
           Name: "Label"
           String: "LOADOUT 6"
         }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
+        }
       }
     }
     TemplateAsset {
@@ -5798,6 +5967,20 @@ Objects {
         Overrides {
           Name: "Label"
           String: "LOADOUT 5"
+        }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
         }
       }
     }
@@ -5893,6 +6076,20 @@ Objects {
           Name: "Label"
           String: "LOADOUT 4"
         }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
+        }
       }
     }
     TemplateAsset {
@@ -5977,6 +6174,20 @@ Objects {
           Name: "Label"
           String: "LOADOUT 3"
         }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
+        }
       }
     }
     TemplateAsset {
@@ -6049,6 +6260,20 @@ Objects {
           Name: "Label"
           String: "LOADOUT 2"
         }
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
+        }
       }
     }
     TemplateAsset {
@@ -6101,6 +6326,25 @@ Objects {
           AssetReference {
             Id: 9290807348879592559
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17206380566806567051
+      value {
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 1144950805409236433
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 2.21538019
+        }
+        Overrides {
+          Name: "Size"
+          Int: 22
         }
       }
     }
@@ -6210,6 +6454,7 @@ Objects {
   }
   ParentId: 2230467940728350875
   ChildIds: 14310728808632846805
+  ChildIds: 4894856905848190356
   ChildIds: 5514358951138636924
   ChildIds: 9833817729661437822
   Collidable_v2 {
@@ -6289,7 +6534,7 @@ Objects {
       }
       Size: 20
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
@@ -6324,6 +6569,7 @@ Objects {
     }
   }
   ParentId: 3492736814808180865
+  ChildIds: 15983000044954931910
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6331,7 +6577,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 350
+    Width: 401
     Height: 49
     UIY: -60.212059
     RenderTransformPivot {
@@ -6349,10 +6595,131 @@ Objects {
       }
       Size: 36
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 15983000044954931910
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5514358951138636924
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 401
+    Height: 30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "LOADOUT ROOM"
+      Color {
+        R: 1
+        G: 0.597698867
+        B: 0.416666687
+        A: 0.593000054
+      }
+      Size: 36
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      ClipTextToSize: true
+      Font {
+        Id: 1144950805409236433
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4894856905848190356
+  Name: "TITLE"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3492736814808180865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 401
+    Height: 49
+    UIX: 2.42971754
+    UIY: -59.1318855
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "LOADOUT ROOM"
+      Color {
+        A: 0.561000049
+      }
+      Size: 36
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1144950805409236433
       }
     }
     AnchorLayout {
