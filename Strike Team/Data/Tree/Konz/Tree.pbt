@@ -1481,7 +1481,7 @@ Objects {
   }
   Control {
     Width: 100
-    Height: 521
+    Height: 1082
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1547,9 +1547,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 480
+    Height: 640
     UIX: 625
-    UIY: -30
+    UIY: -190
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1595,7 +1595,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1656,7 +1656,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1716,7 +1716,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 5
+    UIY: -15
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1776,13 +1776,14 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 100
+    Height: 20
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     UseParentHeight: true
     Panel {
@@ -2175,9 +2176,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 480
+    Height: 640
     UIX: 305
-    UIY: -30
+    UIY: -190
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2223,7 +2224,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2284,7 +2285,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2344,7 +2345,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 5
+    UIY: -15
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2404,13 +2405,14 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 100
+    Height: 20
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     UseParentHeight: true
     Panel {
@@ -2803,9 +2805,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 480
+    Height: 640
     UIX: -15
-    UIY: -30
+    UIY: -190
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2851,7 +2853,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2912,7 +2914,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2972,7 +2974,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 5
+    UIY: -15
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3032,13 +3034,14 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 100
+    Height: 20
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     UseParentHeight: true
     Panel {
@@ -3431,9 +3434,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 480
+    Height: 640
     UIX: -335
-    UIY: -30
+    UIY: -190
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3479,7 +3482,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3540,7 +3543,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3600,7 +3603,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 5
+    UIY: -15
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3660,13 +3663,14 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 100
+    Height: 20
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     UseParentHeight: true
     Panel {
@@ -4059,9 +4063,9 @@ Objects {
   }
   Control {
     Width: 290
-    Height: 480
+    Height: 640
     UIX: -650
-    UIY: -30
+    UIY: -190
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4107,7 +4111,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4168,7 +4172,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 3
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4228,7 +4232,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 5
+    UIY: -15
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4288,13 +4292,14 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 100
-    Height: 100
+    Height: 20
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     UseParentHeight: true
     Panel {

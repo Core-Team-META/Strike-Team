@@ -36,13 +36,7 @@ function GenerateLeaderboard()
 			if leaderboard then
 		
 				for slot, entry in ipairs(leaderboard) do
-				
-					if slot > 10 then
-					
-						break
-						
-					end
-					
+									
 					if leaderboardEntries[leaderboardEntryNumber][slot] then
 					
 						entryName = leaderboardEntries[leaderboardEntryNumber][slot]:FindDescendantByName("PlayerName")
