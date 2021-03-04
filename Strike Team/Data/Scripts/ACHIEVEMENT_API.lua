@@ -62,6 +62,8 @@ function API.RegisterAchievements(list)
             local rewardIcon = child:GetCustomProperty("RewardIcon")
             local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
             local givesReward = child:GetCustomProperty("GivesReward") or false
+            local Family = script:GetCustomProperty("Family")
+            
 
             local achievement = {
                 id = id,
@@ -69,6 +71,7 @@ function API.RegisterAchievements(list)
                 name = child.name,
                 required = required + 1,
                 description = description,
+                family = Family,
                 icon = icon,
                 rewardName = rewardName,
                 rewardAmt = rewardAmmount,
@@ -181,11 +184,38 @@ function API.IsUnlocked(player, id)
     end
 end
 
-function API.CheckUnlockedAchievements(player)
+function API.GetUnlockedAchievements(player)
     local tempTbl = {}
     for id, achievement in pairs(API.GetAchievements()) do
         if API.IsUnlocked(player, id) then
             tempTbl[id] = achievement
+        end
+    end
+    return tempTbl
+end
+
+function API.CheckUnlockedAchievements(player)
+    local unlockedTbl = API.GetUnlockedAchievements(player)
+    local familyTbl = {}
+    local tempTbl = {}
+    for id, achievement in pairs(unlockedTbl) do
+        if achievement.family then
+            familyTbl[achievement.family] = familyTbl[achievement.family] or {}
+            familyTbl[achievement.family][achievement.id] = achievement
+        else
+            tempTbl[#tempTbl + 1] = achievement
+        end
+    end
+    for family, tbl in pairs(familyTbl) do
+        local lastCount = 0
+        local highestAchievement
+        for _, achievement in pairs(tbl) do
+            if achievement.required > lastCount then
+                highestAchievement = achievement
+            end
+        end
+        if highestAchievement then
+            tempTbl[#tempTbl + 1] = highestAchievement
         end
     end
     return tempTbl
