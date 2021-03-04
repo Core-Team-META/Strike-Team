@@ -6,6 +6,7 @@ local spawnPanel
 
 function OpenPanel(player, binding)
     if binding ~= OpenBinding then return end
+    print("binding pressed")
     spawnPanel = World.SpawnAsset(propUITemplate)
 end
 

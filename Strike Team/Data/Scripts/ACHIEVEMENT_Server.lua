@@ -32,9 +32,26 @@ local function SetPlayerFlags(player)
     player.serverUserData.ACH_killCount = 0
 end
 
+
+local function SetResourceBasedAchievements(player)
+    local damageDone = player:GetResource("DamageDone")
+    --local assists = player:GetResource("Assists")
+    local objective = player:GetResource("Objective")
+
+    ACH_API.AddProgress(player, "AS_NRDMG1", damageDone)
+    ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
+    ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
+
+    ACH_API.AddProgress(player, "AS_NRSC1", objective)
+    ACH_API.AddProgress(player, "AS_NRSC2", objective)
+end
+
 local function PlayerKilled(player, target, weaponType, isHeadShot)
     if weaponType == "Assault Rifle" then
-        ACH_API.AddProgress(player, "AS_Rifle", 1)
+        ACH_API.AddProgress(player, "AS_NRAR1", 1)
+        ACH_API.AddProgress(player, "AS_NRAR2", 1)
+        ACH_API.AddProgress(player, "AS_NRAR3", 1)
+        ACH_API.AddProgress(player, "AS_NRAR4", 1)
 
 
     elseif weaponType == "SMG" then
@@ -53,6 +70,12 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRSNIPE2", 1)
         ACH_API.AddProgress(player, "AS_NRSNIPE3", 1)
         ACH_API.AddProgress(player, "AS_NRSNIPE4", 1)
+
+    elseif weaponType == "Marksman" then
+        ACH_API.AddProgress(player, "AS_NRMM1", 1)
+        ACH_API.AddProgress(player, "AS_NRMM2", 1)
+        ACH_API.AddProgress(player, "AS_NRMM3", 1)
+        ACH_API.AddProgress(player, "AS_NRMM4", 1)
 
 
     elseif weaponType == "Melee" then
@@ -98,7 +121,11 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
 
+    SetResourceBasedAchievements(player)
 
+    if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
+        ACH_API.AddProgress(player, "AS_Blackjack", 21)
+    end
     
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
@@ -109,18 +136,6 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     --
 end
 
-local function SetResourceBasedAchievements(player)
-    local damageDone = player:GetResource("DamageDone")
-    --local assists = player:GetResource("Assists")
-    local objective = player:GetResource("Objective")
-
-    ACH_API.AddProgress(player, "AS_NRDMG1", damageDone)
-    ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
-    ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
-
-    ACH_API.AddProgress(player, "AS_NRSC1", objective)
-    ACH_API.AddProgress(player, "AS_NRSC2", objective)
-end
 
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
@@ -181,11 +196,7 @@ function OnRoundEnd()
             ACH_API.AddProgress(player, "AS_UNKILLABLE", 1)
         end]]--
 
-        SetResourceBasedAchievements(player)
-        if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
-            ACH_API.AddProgress(player, "AS_Blackjack", 21)
-        end
-
+    
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
     end

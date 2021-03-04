@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12959683438091425192
+  Name: "Weapon Assault Rifle 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_AssaultRifle_001"
+  }
+}
+Assets {
   Id: 12302064936883739148
   Name: "Weapon Sub MG 004"
   PlatformAssetType: 9

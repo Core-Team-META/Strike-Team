@@ -43,6 +43,15 @@ local function IsValidPlayer(object)
     return Object.IsValid(object) and object:IsA("Player")
 end
 
+local function InfiniteLoopProtect(count)
+    count = count + 1
+    if count >= 50 then
+        count = 0
+        Task.Wait()
+    end
+    return count
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- PUBLIC API
 ------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +72,6 @@ function API.RegisterAchievements(list)
             local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
             local givesReward = child:GetCustomProperty("GivesReward") or false
             local Family = child:GetCustomProperty("Family")
-            
 
             local achievement = {
                 id = id,
@@ -186,10 +194,12 @@ end
 
 function API.GetUnlockedAchievements(player)
     local tempTbl = {}
+    local count = 0
     for id, achievement in pairs(API.GetAchievements()) do
         if API.IsUnlocked(player, id) then
             tempTbl[id] = achievement
         end
+        count = InfiniteLoopProtect(count)
     end
     return tempTbl
 end
@@ -198,6 +208,7 @@ function API.CheckUnlockedAchievements(player)
     local unlockedTbl = API.GetUnlockedAchievements(player)
     local familyTbl = {}
     local tempTbl = {}
+    local count = 0
     for id, achievement in pairs(unlockedTbl) do
         if achievement.family then
             familyTbl[achievement.family] = familyTbl[achievement.family] or {}
@@ -205,6 +216,7 @@ function API.CheckUnlockedAchievements(player)
         else
             tempTbl[#tempTbl + 1] = achievement
         end
+        count = InfiniteLoopProtect(count)
     end
     for family, tbl in pairs(familyTbl) do
         local lastCount = 0
@@ -218,6 +230,7 @@ function API.CheckUnlockedAchievements(player)
         if highestAchievement then
             tempTbl[#tempTbl + 1] = highestAchievement
         end
+        count = InfiniteLoopProtect(count)
     end
     return tempTbl
 end
