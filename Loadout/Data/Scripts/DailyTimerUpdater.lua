@@ -21,8 +21,6 @@ end
 function Tick()
     local Difference = os.difftime(openTime , os.time())
     updateTimer(Difference)
-
-
 end
 
 function SetOpenTime( Time)

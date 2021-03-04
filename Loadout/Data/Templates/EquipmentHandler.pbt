@@ -7545,7 +7545,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 841534158063459245
+              Id: 9947807875728528770
             }
           }
           Overrides {
@@ -7609,13 +7609,13 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 841534158063459245
+              Id: 10706991407395748906
             }
           }
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 841534158063459245
+              Id: 3109845709490378550
             }
           }
           Overrides {
@@ -7706,7 +7706,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 841534158063459245
+              Id: 16312634010414853466
             }
           }
           Overrides {

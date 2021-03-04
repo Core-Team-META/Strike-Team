@@ -6,11 +6,11 @@ end
 
 function RewardPerk(player,NetReference)
     if NetReference == _G["perk.StrikeCoin300"]  then
-        AddStrikeCoins(player,1)
+        AddStrikeCoins(player,3000)
     elseif NetReference == _G["perk.StrikeCoin750"]  then
-        AddStrikeCoins(player,3)
+        AddStrikeCoins(player,8625)
     elseif NetReference == _G["perk.StrikeCoin3000"]  then 
-        AddStrikeCoins(player,15)
+        AddStrikeCoins(player,39000)
     end
 end
 

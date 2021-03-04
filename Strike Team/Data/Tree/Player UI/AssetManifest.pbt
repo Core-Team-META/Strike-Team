@@ -52,3 +52,12 @@ Assets {
     AssetId: "BackgroundNoOutline_020"
   }
 }
+Assets {
+  Id: 427020157720506906
+  Name: "Sci-fi Ability Blue 007"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Blue_007"
+  }
+}

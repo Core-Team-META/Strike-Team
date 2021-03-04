@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 76
   CustomMaterialAsset {
-    BaseMaterialId: 2877326018475520009
+    BaseMaterialId: 14564523191402256365
     ParameterOverrides {
       Overrides {
         Name: "damage_amount"
@@ -67,7 +67,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2877326018475520009
+      Id: 14564523191402256365
       Name: "Wallpaper Damask 01"
       PlatformAssetType: 2
       PrimaryAsset {

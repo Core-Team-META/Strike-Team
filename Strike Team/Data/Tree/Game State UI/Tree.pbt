@@ -129,7 +129,7 @@ Objects {
         }
         Overrides {
           Name: "UIY"
-          Float: 135
+          Float: 16.0596
         }
         Overrides {
           Name: "Width"
