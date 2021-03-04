@@ -2728,8 +2728,8 @@ Objects {
       FontSize: 49
       ButtonColor {
         R: 0.871367335
-        G: 0.278894424
-        B: 0.0122865
+        G: 0.278894335
+        B: 0.0122864898
         A: 1
       }
       HoveredColor {
