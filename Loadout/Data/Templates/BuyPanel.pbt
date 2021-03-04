@@ -625,6 +625,14 @@ Assets {
         }
         ParentId: 2515449912817747963
         ChildIds: 12691091589307408678
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PurchaseText"
+            ObjectReference {
+              SubObjectId: 12691091589307408678
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -774,6 +782,14 @@ Assets {
         }
         ParentId: 2515449912817747963
         ChildIds: 12902059799400008695
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PurchaseText"
+            ObjectReference {
+              SubObjectId: 12902059799400008695
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -859,6 +875,14 @@ Assets {
           }
         }
         ParentId: 14191704880622756035
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:PurchaseOtherMeans"
+            ObjectReference {
+              SubObjectId: 14191704880622756035
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
