@@ -50,8 +50,12 @@ function UpdateArrows( LeftNum,RightNum)
     end
 end
 
+
 function UpdatePanels()
+    Task.Wait()
+    if( _G["LoadoutState"] == _G["LOADOUTSTATEENUMS"][3]) then
     Func(Data)
+    end
 end
 
 function SlotChange( max )
