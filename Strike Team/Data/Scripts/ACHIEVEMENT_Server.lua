@@ -34,8 +34,15 @@ end
 
 local function SetResourceBasedAchievements(player)
     local damageDone = player:GetResource("DamageDone")
+    player.clientUserData.damageDone = player.clientUserData.damageDone or damageDone
+    damageDone = damageDone - player.clientUserData.damageDone
+    player.clientUserData.damageDone = damageDone
     --local assists = player:GetResource("Assists")
     local objective = player:GetResource("Objective")
+    player.clientUserData.objective = player.clientUserData.objective or objective
+    objective = objective - player.clientUserData.objective
+    player.clientUserData.objective = objective
+   
 
     ACH_API.AddProgress(player, "AS_NRDMG1", damageDone)
     ACH_API.AddProgress(player, "AS_NRDMG2", damageDone)
