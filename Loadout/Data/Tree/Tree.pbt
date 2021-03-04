@@ -706,6 +706,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -713,6 +719,16 @@ Objects {
         Overrides {
           Name: "Name"
           String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }

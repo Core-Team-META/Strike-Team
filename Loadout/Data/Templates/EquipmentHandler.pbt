@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10671565427701169845
+        ParentId: 4781671109827199097
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -9056,7 +9056,6 @@ Assets {
         ChildIds: 3068707792704928713
         ChildIds: 18334224967386857407
         ChildIds: 6228452794533672425
-        ChildIds: 13648137261775052584
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -9385,75 +9384,6 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "Increases Reload Speed"
-          }
-          Overrides {
-            Name: "cs:RotationOffset"
-            Rotator {
-              Roll: 90
-            }
-          }
-          Overrides {
-            Name: "cs:Level"
-            Int: 40
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 13648137261775052584
-        Name: "Martyrdom"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7860471800508521256
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ID"
-            String: "MD"
-          }
-          Overrides {
-            Name: "cs:Hoister"
-            String: "RHip"
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 2753103022218687394
-            }
-          }
-          Overrides {
-            Name: "cs:DefaultSkin"
-            AssetReference {
-              Id: 1046193506233485157
-            }
-          }
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 16632137313192406544
-            }
-          }
-          Overrides {
-            Name: "cs:Description"
-            String: "Drop live"
           }
           Overrides {
             Name: "cs:RotationOffset"
@@ -11366,6 +11296,7 @@ Assets {
         ChildIds: 5460288732415748419
         ChildIds: 3252224371202183145
         ChildIds: 15653515459291747245
+        ChildIds: 13648137261775052584
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -11529,6 +11460,75 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "Close Range knive good for stabbing."
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 13648137261775052584
+        Name: "Martyrdom"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17723065100047878281
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "MD"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "RHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 2753103022218687394
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 1046193506233485157
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 16632137313192406544
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "Drop live"
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Roll: 90
+            }
+          }
+          Overrides {
+            Name: "cs:Level"
+            Int: 40
           }
         }
         Collidable_v2 {
@@ -12007,15 +12007,6 @@ Assets {
       }
     }
     Assets {
-      Id: 16632137313192406544
-      Name: "Sci-fi Ability Red 023"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Red_023"
-      }
-    }
-    Assets {
       Id: 1466402641614590712
       Name: "Icon Weapon Rocket Launcher"
       PlatformAssetType: 9
@@ -12031,6 +12022,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_WeaponAxe"
+      }
+    }
+    Assets {
+      Id: 16632137313192406544
+      Name: "Sci-fi Ability Red 023"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Ability_Red_023"
       }
     }
     Assets {
