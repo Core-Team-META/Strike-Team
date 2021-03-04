@@ -8,6 +8,8 @@ local GAME_MODES = _G.META_GAME_MODES
 ------------
 -- Objects
 ------------
+-- Player panels
+local PLAYER_PANELS = script:GetCustomProperty("PLAYER_PANELS"):WaitForObject()
 
 -- UI Toggle Buttons
 local TEMP_BUTTON_PANEL = script:GetCustomProperty("TEMP_BUTTON_PANEL"):WaitForObject()
@@ -65,14 +67,17 @@ function OnButtonPressed(button)
     
     if button == VICTORY_SCREEN_BUTTON then
         activePanels["VICTORY_SCREEN"].visibility = Visibility.FORCE_ON
+        PLAYER_PANELS.visibility = Visibility.FORCE_ON
         -- Victory Screen
         Events.Broadcast("ShowVictoryScreen")
     elseif button == STATS_SCREEN_BUTTON then
         activePanels["STATS_SCREEN"].visibility = Visibility.FORCE_ON
+        PLAYER_PANELS.visibility = Visibility.FORCE_OFF
         -- Stats Screen
         Events.Broadcast("ShowStatsScreen")
     elseif button == SCOREBOARD_BUTTON then
         activePanels["SCORE_BOARD"].visibility = Visibility.FORCE_ON
+        PLAYER_PANELS.visibility = Visibility.FORCE_OFF
         -- Scoreboard
         Events.Broadcast("ShowScoreboardScreen")
     end
@@ -89,6 +94,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         UI.SetCursorVisible(false)
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         World.SpawnAsset(RoundEndUIDisplayTemplate)
+        PLAYER_PANELS.visibility = Visibility.FORCE_ON
         ClearActivePanels()
         Task.Wait(5)
 
