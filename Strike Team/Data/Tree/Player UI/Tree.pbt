@@ -4650,7 +4650,7 @@ Objects {
   Control {
     Width: 1100
     Height: 512
-    UIY: -17.8327179
+    UIY: -79.5909
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4699,7 +4699,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: -417
