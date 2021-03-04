@@ -27,6 +27,10 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:MaximumSafeSpeed"
+          Float: 1500
+        }
       }
     }
     TemplateAsset {

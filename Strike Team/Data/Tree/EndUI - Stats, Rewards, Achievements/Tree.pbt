@@ -8119,15 +8119,14 @@ Objects {
   }
   Control {
     Width: 175
-    Height: 60
+    Height: 20
     UIX: 5
-    UIY: 6
+    UIY: 10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentHeight: true
     Text {
       Label: "AVeryLongUsername"
       Color {
@@ -8136,11 +8135,10 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 15
+      Size: 12
       Justification {
         Value: "mc:etextjustify:center"
       }
-      AutoWrapText: true
       Font {
       }
     }
@@ -9001,15 +8999,14 @@ Objects {
   }
   Control {
     Width: 175
-    Height: 60
+    Height: 20
     UIX: 5
-    UIY: 6
+    UIY: 10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentHeight: true
     Text {
       Label: "AVeryLongUsername"
       Color {
@@ -9018,11 +9015,10 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 15
+      Size: 12
       Justification {
         Value: "mc:etextjustify:center"
       }
-      AutoWrapText: true
       Font {
       }
     }
