@@ -74,19 +74,24 @@ function Tick(deltaTime)
             if weapon ~= nil then
                 --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
                 if weapon.clientUserData.Ammo then
+                    AMMO_PANEL.visibility = Visibility.FORCE_ON
                     AMMO_TEXT.fontSize = AmmoSize
                     AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
-                else AMMO_TEXT.text = "" end
+                else 
+                    AMMO_TEXT.text = "" 
+                    AMMO_PANEL.visibility = Visibility.FORCE_OFF
+                end
                 if weapon.clientUserData.MaxAmmo then
+                    AMMO_PANEL.visibility = Visibility.FORCE_ON
                     MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo 
                 else
                     MAX_AMMO_TEXT.text = ""
+                    AMMO_PANEL.visibility = Visibility.FORCE_OFF
                 end
             else
                 AMMO_TEXT.text = tostring("∞")
                 MAX_AMMO_TEXT.text = tostring("")
             end
-            AMMO_PANEL.visibility = Visibility.INHERIT
         else
             AMMO_PANEL.visibility = Visibility.FORCE_OFF
         end
