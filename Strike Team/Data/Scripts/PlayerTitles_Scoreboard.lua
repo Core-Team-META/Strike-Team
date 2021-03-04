@@ -261,7 +261,7 @@ local function CreatePlayerEntry(player)
 		socialIconImage.rotationAngle = tonumber(title.iconRotation) or 0
 		socialIconImage.width = socialIconImage.width + (title.extraWidth or 0)
 		socialIconImage.height = socialIconImage.height + (title.extraHeight or 0)
-
+		socialIconImage.x = socialIconImage.x + 25
 		playerNameText.x = playerNameText.x + 26
 		playerNameText.width = playerNameText.width - 26
 	end

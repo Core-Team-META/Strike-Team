@@ -1,7 +1,7 @@
 local PurchasePanelText = {}
 PurchasePanelText.PurchaseableSkin =  "Purchase %s for the Weapon %s?\n $%d or for %d Strike Coins"
 PurchasePanelText.PurchaseableSkinPending = "Processing purchase...."
-PurchasePanelText.PurchaseableSkinFailed =  "You do not have enough cash or Strike Coins to purchase %s skin.\n Earn more cash by completing game rounds."
+PurchasePanelText.PurchaseableSkinFailed =  "You do not have enough cash or Strike Coins to purchase %s skin.\n Earn more cash by completing game rounds. \n Purchase Strike Coins for Core Credits"
 PurchasePanelText.PurchaseableSkinSuccess =  "Successfully purchased %s skin."
 PurchasePanelText.PurchaseableSkinAlreadyOwned =  "%s is already owned."
 PurchasePanelText.PurchaseableSkinError =  "Can not purchase skin.\n An error has occurred."

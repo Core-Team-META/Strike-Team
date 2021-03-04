@@ -128,6 +128,8 @@ function PurchaseClientManager.PurchaseError(Code)
     ConfirmationPanel.clientUserData.Button.text = "Okay"
     if  ConfirmationPanel.clientUserData.type == "Skin" then
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
+        ConfirmationPanel:GetCustomProperty("PurchaseCreditButton"):WaitForObject().visibility = Visibility.FORCE_ON
+
     else
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
 
