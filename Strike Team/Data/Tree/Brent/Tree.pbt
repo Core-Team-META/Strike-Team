@@ -201,3 +201,31 @@ Objects {
     FilePartitionName: "Game Mode Manager"
   }
 }
+Objects {
+  Id: 1372466132249557023
+  Name: "Game State UI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9151753919777912365
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Game State UI"
+  }
+}

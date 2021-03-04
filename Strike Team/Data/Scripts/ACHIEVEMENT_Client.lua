@@ -118,7 +118,6 @@ local function BuildAchievementInfoPanel()
             count = count + 1
         end
     end
-    print(#listeners)
 end
 
 local function AnimateNotification(id)
