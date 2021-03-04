@@ -11878,8 +11878,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
-              Yaw: 90
+              Pitch: -60
             }
           }
         }
@@ -11938,8 +11937,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
-              Yaw: 90
+              Pitch: -60
             }
           }
         }
@@ -11998,8 +11996,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
-              Yaw: 90
+              Pitch: -60
             }
           }
         }

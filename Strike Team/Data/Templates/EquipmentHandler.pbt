@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10671565427701169845
+        ParentId: 4781671109827199097
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -477,7 +477,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -520,7 +520,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -779,6 +779,10 @@ Assets {
               Id: 2326906542163117023
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -821,6 +825,10 @@ Assets {
               Id: 11293254844283970427
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -862,6 +870,10 @@ Assets {
             AssetReference {
               Id: 8885650813372827558
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -1128,7 +1140,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -1171,7 +1183,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -1387,6 +1399,10 @@ Assets {
               Id: 7600429476808229674
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1428,6 +1444,10 @@ Assets {
             AssetReference {
               Id: 4784429603465859280
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -1513,6 +1533,10 @@ Assets {
             AssetReference {
               Id: 2514080662409936833
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -1775,7 +1799,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -1990,7 +2014,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -2077,6 +2101,10 @@ Assets {
               Id: 10010096164672087044
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2119,6 +2147,10 @@ Assets {
               Id: 12312623409106417463
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2160,6 +2192,10 @@ Assets {
             AssetReference {
               Id: 9110735269433092858
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2418,7 +2454,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -2633,7 +2669,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -2720,6 +2756,10 @@ Assets {
               Id: 5204716471187685472
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2762,6 +2802,10 @@ Assets {
               Id: 2860656842035671681
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2803,6 +2847,10 @@ Assets {
             AssetReference {
               Id: 815991886066802717
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3069,7 +3117,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -3284,7 +3332,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -3371,6 +3419,10 @@ Assets {
               Id: 17525059394381632877
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3413,6 +3465,10 @@ Assets {
               Id: 461323489834490904
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3454,6 +3510,10 @@ Assets {
             AssetReference {
               Id: 11000765826198556478
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3716,7 +3776,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -3931,7 +3991,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -4018,6 +4078,10 @@ Assets {
               Id: 10545030678868756033
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4060,6 +4124,10 @@ Assets {
               Id: 15479185482107206343
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4101,6 +4169,10 @@ Assets {
             AssetReference {
               Id: 8130436886784444117
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4398,7 +4470,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -4613,7 +4685,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -4743,6 +4815,10 @@ Assets {
               Id: 10677535483527493712
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4801,7 +4877,7 @@ Assets {
       }
       Objects {
         Id: 14977314262883720725
-        Name: "SteamPunkTo"
+        Name: "Steam Shock"
         Transform {
           Location {
           }
@@ -4871,6 +4947,10 @@ Assets {
               Id: 6933575089370104472
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4912,6 +4992,10 @@ Assets {
             AssetReference {
               Id: 5049277137543789729
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5151,7 +5235,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -5366,7 +5450,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -5409,6 +5493,10 @@ Assets {
             AssetReference {
               Id: 15759112733138872107
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -5495,6 +5583,10 @@ Assets {
               Id: 14654259748358588629
             }
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5536,6 +5628,10 @@ Assets {
             AssetReference {
               Id: 10189915141287478410
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5712,7 +5808,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5752,6 +5848,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "PA"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -5831,6 +5931,10 @@ Assets {
             Name: "cs:ID"
             String: "CI"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5869,6 +5973,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "TY"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5909,6 +6017,10 @@ Assets {
             Name: "cs:ID"
             String: "CP"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5947,6 +6059,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "CA"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -7085,7 +7201,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -7733,7 +7849,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -7750,7 +7866,7 @@ Assets {
       }
       Objects {
         Id: 17085941895626234840
-        Name: "SteamPunk"
+        Name: "Steam Shock"
         Transform {
           Location {
           }
@@ -7949,6 +8065,10 @@ Assets {
             Name: "cs:ID"
             String: "CP"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7990,6 +8110,10 @@ Assets {
             AssetReference {
               Id: 16812796540317962298
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -8142,6 +8266,10 @@ Assets {
             Name: "cs:ID"
             String: "CP"
           }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8222,7 +8350,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -8382,7 +8510,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -8442,7 +8570,7 @@ Assets {
       }
       Objects {
         Id: 2996749330965974363
-        Name: "SteamPunk"
+        Name: "Steam Shock"
         Transform {
           Location {
           }
@@ -8597,6 +8725,10 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "WI"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -9056,7 +9188,6 @@ Assets {
         ChildIds: 3068707792704928713
         ChildIds: 18334224967386857407
         ChildIds: 6228452794533672425
-        ChildIds: 13648137261775052584
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -9410,75 +9541,6 @@ Assets {
         }
       }
       Objects {
-        Id: 13648137261775052584
-        Name: "Martyrdom"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7860471800508521256
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ID"
-            String: "MD"
-          }
-          Overrides {
-            Name: "cs:Hoister"
-            String: "RHip"
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 2753103022218687394
-            }
-          }
-          Overrides {
-            Name: "cs:DefaultSkin"
-            AssetReference {
-              Id: 1046193506233485157
-            }
-          }
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 16632137313192406544
-            }
-          }
-          Overrides {
-            Name: "cs:Description"
-            String: "Drop live"
-          }
-          Overrides {
-            Name: "cs:RotationOffset"
-            Rotator {
-              Roll: 90
-            }
-          }
-          Overrides {
-            Name: "cs:Level"
-            Int: 40
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
         Id: 1626208827454051622
         Name: "Special"
         Transform {
@@ -9758,7 +9820,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -10020,7 +10082,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -10106,6 +10168,10 @@ Assets {
             AssetReference {
               Id: 1672763015584584190
             }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -10895,7 +10961,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -11036,7 +11102,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -11366,6 +11432,7 @@ Assets {
         ChildIds: 5460288732415748419
         ChildIds: 3252224371202183145
         ChildIds: 15653515459291747245
+        ChildIds: 13648137261775052584
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -11529,6 +11596,75 @@ Assets {
           Overrides {
             Name: "cs:Description"
             String: "Close Range knive good for stabbing."
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 13648137261775052584
+        Name: "Martyrdom"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17723065100047878281
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "MD"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "RHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 2753103022218687394
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 1046193506233485157
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 16632137313192406544
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "Drop live"
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Roll: 90
+            }
+          }
+          Overrides {
+            Name: "cs:Level"
+            Int: 40
           }
         }
         Collidable_v2 {
@@ -11742,8 +11878,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
-              Yaw: 90
+              Pitch: -60
             }
           }
         }
@@ -11802,8 +11937,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
-              Yaw: 90
+              Pitch: -60
             }
           }
         }
@@ -11862,8 +11996,7 @@ Assets {
           Overrides {
             Name: "cs:RotationOffset"
             Rotator {
-              Pitch: 90
-              Yaw: 90
+              Pitch: -60
             }
           }
         }
@@ -12007,15 +12140,6 @@ Assets {
       }
     }
     Assets {
-      Id: 16632137313192406544
-      Name: "Sci-fi Ability Red 023"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Red_023"
-      }
-    }
-    Assets {
       Id: 1466402641614590712
       Name: "Icon Weapon Rocket Launcher"
       PlatformAssetType: 9
@@ -12031,6 +12155,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_WeaponAxe"
+      }
+    }
+    Assets {
+      Id: 16632137313192406544
+      Name: "Sci-fi Ability Red 023"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Ability_Red_023"
       }
     }
     Assets {

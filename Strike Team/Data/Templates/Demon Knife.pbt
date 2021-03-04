@@ -15,8 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14671155899247437824
-        ChildIds: 11768442816831244527
+        ParentId: 4781671109827199097
         ChildIds: 15483663217681688596
         UnregisteredParameters {
         }
@@ -31,12 +30,44 @@ Assets {
         }
       }
       Objects {
+        Id: 15483663217681688596
+        Name: "Handle"
+        Transform {
+          Location {
+            X: 5
+            Y: 2.03610229
+            Z: 5
+          }
+          Rotation {
+            Roll: 7.29619122
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3766489357377430815
+        ChildIds: 11768442816831244527
+        ChildIds: 10960663893761095133
+        ChildIds: 16079263842503462285
+        ChildIds: 4469664643819625805
+        ChildIds: 8762916204088757248
+        ChildIds: 381406381607646515
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
         Id: 11768442816831244527
         Name: "Blade"
         Transform {
           Location {
-            X: 5
-            Z: 5
           }
           Rotation {
           }
@@ -46,7 +77,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3766489357377430815
+        ParentId: 15483663217681688596
         ChildIds: 15543654836258550494
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -151,37 +182,6 @@ Assets {
             Physics {
             }
           }
-        }
-      }
-      Objects {
-        Id: 15483663217681688596
-        Name: "Handle"
-        Transform {
-          Location {
-            X: 5
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3766489357377430815
-        ChildIds: 10960663893761095133
-        ChildIds: 16079263842503462285
-        ChildIds: 4469664643819625805
-        ChildIds: 8762916204088757248
-        ChildIds: 381406381607646515
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
         }
       }
       Objects {
