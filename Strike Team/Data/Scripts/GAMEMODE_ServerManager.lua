@@ -70,9 +70,8 @@ local function OnGameTypeChanged(object, string)
 end
 
 local function CleanUp(player)
-    if not listeners[player.id] then
-        return
-    end
+    if not Object.IsValid(player) then return end
+    if not listeners[player.id] then return end
     for _, listener in pairs(listeners[player.id]) do
         if listener.isConnected then
             listener:Disconnect()
@@ -104,6 +103,7 @@ function OnPlayerDamaged(player, damage)
 end
 
 function OnPlayerLeft(player)
+    CleanUp(player)
     Task.Wait() -- Wait one frame to make sure player that left is no longer in game
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
         local players = Game.GetPlayers()
@@ -123,7 +123,6 @@ function OnPlayerLeft(player)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
     end
-    CleanUp(player)
 end
 
 -- nil OnPlayerJoined(Player)
