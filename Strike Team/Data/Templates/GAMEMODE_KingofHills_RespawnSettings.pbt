@@ -84,7 +84,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MINRESPAWNTIME"
-            Float: 5
+            Float: 8
           }
         }
         Collidable_v2 {
