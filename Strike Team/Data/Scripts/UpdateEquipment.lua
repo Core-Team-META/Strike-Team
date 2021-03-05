@@ -27,6 +27,13 @@ function WriteData(data)
     local Eqitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Equipment")) or Database:SetupItemWithSkin("EL") 
     local Passitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Perk")) or Database:SetupItemWithSkin("EP") 
 
+    if not Primitem then return end
+    if not Secitem then return end
+    if not Melitem then return end
+    if not Eqitem then return end
+    if not Passitem then return end
+
+
     EquipImage:SetImage(Eqitem.data.icon)
     PassiveImge:SetImage(Passitem.data.icon)
     PrimText.text = Primitem.data.type  .. " - " ..  Primitem.data.name
