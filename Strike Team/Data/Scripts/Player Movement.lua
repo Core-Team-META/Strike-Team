@@ -9,6 +9,7 @@ local SLIDING_COOLDOWN = script:GetCustomProperty("SlidingCooldown")
 local DEFAULT_BRAKING = script:GetCustomProperty("DefaultBraking")
 local DEFAULT_FRICTION = script:GetCustomProperty("DefaultFriction")
 local DEFAULT_MOVEMENT_MODE = MovementControlMode.LOOK_RELATIVE
+local ABGS = require(script:GetCustomProperty("ABGS"))
 
 local playerStances = {}
 local slidingTimers = {}
@@ -260,3 +261,21 @@ end
 Game.playerJoinedEvent:Connect(PlayerJoined)
 Game.playerLeftEvent:Connect(PlayerLeft)
 Events.Connect("EquipWeapon", OnEquipWeapon)
+
+
+
+showTable = {
+    [ABGS.GAME_STATE_ROUND_VOTING] = true,
+    [ABGS.GAME_STATE_ROUND_END] = true,
+    [ABGS.GAME_STATE_ROUND_STATS] = true,
+}
+
+
+function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
+    if showTable[newState]   then 
+        _G["MovementCanControl"] = false
+    else
+        _G["MovementCanControl"] = true
+    end
+end
+Events.Connect("GameStateChanged", OnGameStateChanged)
