@@ -406,11 +406,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 1
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 20
+      Int: 40
     }
   }
   Collidable_v2 {
@@ -447,7 +447,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 10000
+      Int: 35
     }
   }
   Collidable_v2 {
@@ -480,11 +480,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
+      Float: 2
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 20
+      Int: 40
     }
   }
   Collidable_v2 {
@@ -517,7 +517,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 5
     }
     Overrides {
       Name: "cs:MaxAmount"
