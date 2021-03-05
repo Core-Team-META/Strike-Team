@@ -141,7 +141,7 @@ function Tick(deltaTime)
             UpdateTimeRemaining(remainingTime)
 
             if
-                not hasClickedScoreScreen and remainingTime < 45 and
+                next(activePanels) and not hasClickedScoreScreen and remainingTime < 45 and
                     activePanels["STATS_SCREEN"].visibility == Visibility.FORCE_OFF
              then
                 ClearActivePanels()
