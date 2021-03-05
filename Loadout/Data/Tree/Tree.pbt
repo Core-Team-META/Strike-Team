@@ -31476,7 +31476,7 @@ Objects {
       EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
-          Value: "mc:echatmode:teamonly"
+          Value: "mc:echatmode:none"
         }
         ChatPosition {
           Y: -83.7797852

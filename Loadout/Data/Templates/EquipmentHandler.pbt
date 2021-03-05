@@ -709,7 +709,7 @@ Assets {
       }
       Objects {
         Id: 15377105601640679223
-        Name: "Energy Buster HK Replacement"
+        Name: "Energy Buster"
         Transform {
           Location {
           }
@@ -3530,7 +3530,7 @@ Assets {
       }
       Objects {
         Id: 3857468657531597669
-        Name: "Light Machine Guns"
+        Name: "Light Machine Gun"
         Transform {
           Location {
           }
