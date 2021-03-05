@@ -21,6 +21,12 @@ Assets {
         Bool: false
       }
       Overrides {
+        Name: "cs:IconBG"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
         Name: "cs:Icon"
         AssetReference {
           Id: 841534158063459245
@@ -51,6 +57,10 @@ Assets {
         AssetReference {
           Id: 841534158063459245
         }
+      }
+      Overrides {
+        Name: "cs:AchievementTier"
+        Int: 1
       }
     }
   }

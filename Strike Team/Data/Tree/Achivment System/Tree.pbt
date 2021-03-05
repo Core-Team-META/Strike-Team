@@ -4209,10 +4209,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4225,6 +4221,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRAR"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4282,10 +4284,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4298,6 +4296,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRAR"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4355,10 +4359,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4371,6 +4371,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRAR"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4428,10 +4434,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4444,6 +4446,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRAR"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4501,10 +4509,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4517,6 +4521,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRREV"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4574,10 +4584,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4590,6 +4596,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRREV"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4647,10 +4659,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4663,6 +4671,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRREV"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4720,10 +4734,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4736,6 +4746,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSC"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4793,10 +4809,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4809,6 +4821,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSC"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4866,10 +4884,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4882,6 +4896,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSC"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -4939,10 +4959,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -4955,6 +4971,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRPISTOL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5012,10 +5034,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5028,6 +5046,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRPISTOL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5085,10 +5109,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5101,6 +5121,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRPISTOL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5158,10 +5184,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5174,6 +5196,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMEL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5231,10 +5259,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5247,6 +5271,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMEL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5304,10 +5334,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5320,6 +5346,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMEL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5377,10 +5409,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5393,6 +5421,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMM"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5450,10 +5484,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5466,6 +5496,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMM"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5523,10 +5559,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5539,6 +5571,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMM"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5596,10 +5634,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5612,6 +5646,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRMM"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5669,10 +5709,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5685,6 +5721,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRLMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5742,10 +5784,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5758,6 +5796,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRLMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5815,10 +5859,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5831,6 +5871,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRLMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5888,10 +5934,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5904,6 +5946,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRLMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -5961,10 +6009,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -5977,6 +6021,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6034,10 +6084,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6050,6 +6096,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6107,10 +6159,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6123,6 +6171,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6180,10 +6234,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6196,6 +6246,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6253,10 +6309,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6269,6 +6321,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSHOTTY"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6326,10 +6384,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6342,6 +6396,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSHOTTY"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6399,10 +6459,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6415,6 +6471,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSHOTTY"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6472,10 +6534,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6488,6 +6546,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSHOTTY"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6545,10 +6609,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6561,6 +6621,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSNIPE"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6618,10 +6684,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6634,6 +6696,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSNIPE"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6691,10 +6759,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6707,6 +6771,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSNIPE"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6764,10 +6834,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6780,6 +6846,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRSNIPE"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6837,10 +6909,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6853,6 +6921,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRDMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6910,10 +6984,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6926,6 +6996,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRDMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -6983,10 +7059,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -6999,6 +7071,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRDMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7056,10 +7134,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7072,6 +7146,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRDMG"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7129,10 +7209,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7145,6 +7221,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRHS"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7202,10 +7284,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7218,6 +7296,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRHS"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7275,10 +7359,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7291,6 +7371,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRHS"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7348,10 +7434,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7364,6 +7446,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRHS"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7421,10 +7509,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7437,6 +7521,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRKill"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7494,10 +7584,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7510,6 +7596,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRKill"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7567,10 +7659,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7583,6 +7671,12 @@ Objects {
     Overrides {
       Name: "cs:Family"
       String: "NRKill"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7612,6 +7706,10 @@ Objects {
     }
   }
   ParentId: 4621019112986440625
+  ChildIds: 12903778566178196287
+  ChildIds: 8223101114109824845
+  ChildIds: 10065210624858364671
+  ChildIds: 11394724253018652849
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -7640,10 +7738,6 @@ Objects {
       String: "Cash"
     }
     Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
       Name: "cs:RewardIcon"
       AssetReference {
         Id: 16466079658499434425
@@ -7652,6 +7746,12 @@ Objects {
     Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
     }
   }
   Collidable_v2 {
@@ -7663,6 +7763,114 @@ Objects {
   Script {
     ScriptAsset {
       Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 11394724253018652849
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5457313247597616644
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 10065210624858364671
+  Name: "StrikeCoin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5457313247597616644
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14710773115253770148
+    }
+  }
+}
+Objects {
+  Id: 8223101114109824845
+  Name: "Experience"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5457313247597616644
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14710773115253770148
+    }
+  }
+}
+Objects {
+  Id: 12903778566178196287
+  Name: "Cash"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5457313247597616644
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14710773115253770148
     }
   }
 }
@@ -8899,6 +9107,10 @@ Objects {
     }
   }
   ParentId: 945304107415219870
+  ChildIds: 9905399617802359494
+  ChildIds: 15787070213838049266
+  ChildIds: 4563929869849793803
+  ChildIds: 14030829778994179676
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
@@ -8950,6 +9162,114 @@ Objects {
   Script {
     ScriptAsset {
       Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 14030829778994179676
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16538584883756006468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 4563929869849793803
+  Name: "StrikeCoin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16538584883756006468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14710773115253770148
+    }
+  }
+}
+Objects {
+  Id: 15787070213838049266
+  Name: "Experience"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16538584883756006468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14710773115253770148
+    }
+  }
+}
+Objects {
+  Id: 9905399617802359494
+  Name: "Cash"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16538584883756006468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14710773115253770148
     }
   }
 }

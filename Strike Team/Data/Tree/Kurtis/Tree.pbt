@@ -1,6 +1,99 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
+  Id: 16776867802497188801
+  Name: "Utils"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  ChildIds: 1707627438380732084
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1707627438380732084
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16776867802497188801
+  ChildIds: 14699343568560412482
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 14699343568560412482
+  Name: "GetWeaponSkinCodesClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1707627438380732084
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ShowSkinsAtRun"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:EquipmentDataBase"
+      ObjectReference {
+        SelfId: 18058618599955452748
+        SubObjectId: 12733346808813737482
+        InstanceId: 9054774325255140997
+        TemplateId: 12469272091380785429
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1182110238251737409
+    }
+  }
+}
+Objects {
   Id: 1767098222894358513
   Name: "EndgameUI"
   Transform {
@@ -24,39 +117,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Endgame-ToggleUI"
-  }
-}
-Objects {
-  Id: 8620392774914385537
-  Name: "EndUI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10477958480793043052
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EndUI - Stats, Rewards, Achievements"
-  }
-  InstanceHistory {
-    SelfId: 8620392774914385537
-    SubobjectId: 12468429385579287823
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-    WasRoot: true
   }
 }
 Objects {
@@ -100,6 +160,39 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 8620392774914385537
+  Name: "EndUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EndUI - Stats, Rewards, Achievements"
+  }
+  InstanceHistory {
+    SelfId: 8620392774914385537
+    SubobjectId: 12468429385579287823
+    InstanceId: 7449925265991994361
+    TemplateId: 12784020134702693331
+    WasRoot: true
   }
 }
 Objects {
