@@ -2853,16 +2853,16 @@ Assets {
         Name: "Pipe"
         Transform {
           Location {
-            X: 18.5135498
+            X: 10.7992706
             Z: 15
           }
           Rotation {
             Pitch: -90
           }
           Scale {
-            X: 0.0790445283
-            Y: 0.0790445805
-            Z: 0.348095059
+            X: 0.12042468
+            Y: 0.0909587592
+            Z: 0.409965187
           }
         }
         ParentId: 4780878490026271983
@@ -2885,7 +2885,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1600288174066419638
+              Id: 17424022318384404616
             }
           }
           Overrides {

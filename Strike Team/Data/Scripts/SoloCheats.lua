@@ -41,8 +41,9 @@ local PlayerHandler =
 
 if(Environment.IsServer()) then
     function RecieveMessage(player,message)
+        local textmessage = tostring( message.message)
+        print(textmessage)
         if VerifyPlayer(player) == false then return end 
-        local textmessage = tostring( message["message"])
         if not (string.sub(textmessage, 1, 1) == "/") then return end
         message.message = ""
         textmessage = string.sub(textmessage, 2, #textmessage)

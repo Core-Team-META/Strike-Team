@@ -40,4 +40,12 @@ function OnWeaponAim(player, isAiming)
 
 end
 
-Events.Connect("WeaponAiming", OnWeaponAim)
+local weaponAimingListener = Events.Connect("WeaponAiming", OnWeaponAim)
+
+-- Cleanup
+script.destroyEvent:Connect(function()
+	if weaponAimingListener then
+		weaponAimingListener:Disconnect()
+		weaponAimingListener = nil
+	end
+end)

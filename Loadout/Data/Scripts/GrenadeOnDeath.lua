@@ -23,23 +23,20 @@ local PROJECTILE_PIERCES = script:GetCustomProperty("ProjectilePierces")
 local killEvent = nil
 
 function OnEquipped(Equipment, player)
-    if Object.IsValid(killEvent) then
-        killEvent:Disconnect()
-    end
-
-    player.diedEvent:Connect(OnPlayerDied)
+    killEvent = player.diedEvent:Connect(OnPlayerDied)
 end
 
 function OnPlayerDied(player, damage)
     -- spawn Grenade!
-    print ("On player died!")
+    --print ("On player died!")
+    CleanupEvent()
     SpawnGrenade(player)
 end
 
 
-function DestroyedEvent()
-    print ("Equipment was destroyed")
-    if Object.IsValid(killEvent) then
+function CleanupEvent()
+    --print ("Equipment was destroyed")
+    if killEvent then
         killEvent:Disconnect()
         killEvent = nil
     end
@@ -138,5 +135,5 @@ end
 
 
 EQUIPMENT.equippedEvent:Connect(OnEquipped)
-EQUIPMENT.destroyEvent:Connect(DestroyedEvent)
+EQUIPMENT.destroyEvent:Connect(CleanupEvent)
 
