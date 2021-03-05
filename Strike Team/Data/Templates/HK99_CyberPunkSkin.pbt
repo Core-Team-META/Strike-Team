@@ -2684,34 +2684,26 @@ Assets {
         Name: "Pipe"
         Transform {
           Location {
-            X: 10.8080149
-            Z: 17.9923477
+            X: 13.2464771
+            Z: 14.1218109
           }
           Rotation {
             Pitch: -90
-            Yaw: -62.7434464
+            Yaw: -62.7434387
             Roll: 62.7434387
           }
           Scale {
-            X: 0.0356089622
-            Y: 0.0343709774
-            Z: 0.469482481
+            X: 0.143668503
+            Y: 0.126366332
+            Z: 0.457498103
           }
         }
         ParentId: 16744119797106230062
         UnregisteredParameters {
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 2.45000696
-              B: 3
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1600288174066419638
+              Id: 17424022318384404616
             }
           }
         }

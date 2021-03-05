@@ -184,4 +184,12 @@ end
 
 -- Initialize
 ATTACK_ABILITY.executeEvent:Connect(OnExecute)
-Events.Connect("WeaponAiming", OnWeaponAiming)
+local weaponAimingListener = Events.Connect("WeaponAiming", OnWeaponAiming)
+
+-- Cleanup
+script.destroyEvent:Connect(function()
+	if weaponAimingListener then
+		weaponAimingListener:Disconnect()
+		weaponAimingListener = nil
+	end
+end)

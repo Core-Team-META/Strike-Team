@@ -2070,14 +2070,14 @@ Assets {
             Z: 27.7237854
           }
           Rotation {
-            Pitch: -44.9999619
-            Yaw: -89.9999771
+            Pitch: -44.9999695
+            Yaw: -89.9999695
             Roll: 89.9999542
           }
           Scale {
-            X: 0.132337317
-            Y: 0.132337332
-            Z: 0.316224039
+            X: 0.241621792
+            Y: 0.241621867
+            Z: 0.620379925
           }
         }
         ParentId: 10399850263095072969
@@ -2086,14 +2086,6 @@ Assets {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
               Id: 11471846247630721355
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 2.45000696
-              B: 3
-              A: 1
             }
           }
           Overrides {
@@ -2133,7 +2125,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1600288174066419638
+              Id: 17424022318384404616
             }
           }
         }

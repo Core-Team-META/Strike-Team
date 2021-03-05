@@ -31,6 +31,7 @@ function Database.ReturnSkinRarity(Skin)
 end
 
 function Database:SetupItemWithSkin(id)
+    if not id then return end
     local eq,sk = CoreString.Split(id,"_")
     local item = self:ReturnEquipmentById(eq)
     if(item) then

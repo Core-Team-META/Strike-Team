@@ -1,12 +1,12 @@
 Assets {
-  Id: 42724797881781975
+  Id: 5612067076796280963
   Name: "Cheats"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4575249400513576115
+      RootId: 6184471972196350148
       Objects {
-        Id: 4575249400513576115
+        Id: 6184471972196350148
         Name: "Cheats"
         Transform {
           Scale {
@@ -15,48 +15,21 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 2678161113794054575
-        ChildIds: 14368036213780258900
+        ParentId: 10671565427701169845
+        ChildIds: 7369699770531640132
+        ChildIds: 2841853220237638647
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        NetworkContext {
-          Type: RuntimeStatic
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
-        Id: 2678161113794054575
-        Name: "SoloCheats"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4575249400513576115
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3005482162195496081
-          }
-        }
-      }
-      Objects {
-        Id: 14368036213780258900
+        Id: 7369699770531640132
         Name: "ChatHooks"
         Transform {
           Location {
@@ -69,12 +42,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4575249400513576115
+        ParentId: 6184471972196350148
         UnregisteredParameters {
           Overrides {
             Name: "cs:Commands"
             AssetReference {
-              Id: 13042670944452376853
+              Id: 4480426034829824473
             }
           }
           Overrides {
@@ -93,6 +66,33 @@ Assets {
         Script {
           ScriptAsset {
             Id: 17154672043655382137
+          }
+        }
+      }
+      Objects {
+        Id: 2841853220237638647
+        Name: "SoloCheats"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6184471972196350148
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3005482162195496081
           }
         }
       }

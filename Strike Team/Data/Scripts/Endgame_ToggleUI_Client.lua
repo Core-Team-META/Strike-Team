@@ -133,6 +133,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 function Tick(deltaTime)
+    if not next(activePanels) then return end
     if shouldShowTimer and ABGS.IsGameStateManagerRegistered() then
         local currentState = ABGS.GetGameState()
         local remainingTime = ABGS.GetTimeRemainingInState()

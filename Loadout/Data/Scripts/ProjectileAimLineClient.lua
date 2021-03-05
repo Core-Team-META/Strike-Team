@@ -47,6 +47,9 @@ function AbilityTick(ability, deltaTime)
             AIM_ABILITY:AdvancePhase()
             return
         end
+        if LOCAL_PLAYER:IsBindingPressed("ability_secondary") then
+            AIM_ABILITY:Interrupt()
+        end
 
         UpdateAbilityTarget(AIM_ABILITY)
 
@@ -140,6 +143,7 @@ AIM_ABILITY.tickEvent:Connect(AbilityTick)
 AIM_ABILITY.executeEvent:Connect(OnExecuteAbility)
 AIM_ABILITY.castEvent:Connect(OnCastAbility)
 AIM_ABILITY.interruptedEvent:Connect(OnInterruptAbility)
+
 
 -- On destroy, if an aim line exists, destroy it
 script.destroyEvent:Connect(

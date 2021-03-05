@@ -44,6 +44,12 @@ Assets {
         Name: "cs:SlidingDuration"
         Float: 0.5
       }
+      Overrides {
+        Name: "cs:ABGS"
+        AssetReference {
+          Id: 11974742996071064388
+        }
+      }
     }
   }
   SerializationVersion: 76

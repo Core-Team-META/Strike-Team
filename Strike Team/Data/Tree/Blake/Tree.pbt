@@ -256,7 +256,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 25
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -330,7 +330,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 20
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -371,11 +371,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:WIN"
-      Int: 100
+      Int: 250
     }
     Overrides {
       Name: "cs:LOSS"
-      Int: 50
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -406,7 +406,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 1
+      Float: 3
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -443,7 +443,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 30
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -480,7 +480,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 2
+      Float: 5
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -517,7 +517,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
+      Float: 20
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -1108,39 +1108,6 @@ Objects {
     ScriptAsset {
       Id: 12253275289281417314
     }
-  }
-}
-Objects {
-  Id: 4355175678147851601
-  Name: "LoadoutEquipment"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "LoadoutEquipment"
-  }
-  InstanceHistory {
-    SelfId: 4355175678147851601
-    SubobjectId: 15973117888364099070
-    InstanceId: 4975704287466969891
-    TemplateId: 10798511928395917419
-    WasRoot: true
   }
 }
 Objects {

@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8081949559778062726
+        ParentId: 4781671109827199097
         ChildIds: 3656304657277248101
         ChildIds: 8948929766891833388
         WantsNetworking: true
@@ -861,16 +861,16 @@ Assets {
         Name: "Pipe"
         Transform {
           Location {
-            X: -32.8201294
-            Z: 18.6003036
+            X: -28.8707581
+            Z: 13.5496063
           }
           Rotation {
             Pitch: -90
           }
           Scale {
-            X: 0.0532311648
-            Y: 0.0909050629
-            Z: 0.284691453
+            X: 0.174447924
+            Y: 0.13119784
+            Z: 0.234969169
           }
         }
         ParentId: 3656304657277248101
@@ -878,15 +878,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1600288174066419638
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 2.45000696
-              B: 3
-              A: 1
+              Id: 17424022318384404616
             }
           }
           Overrides {
