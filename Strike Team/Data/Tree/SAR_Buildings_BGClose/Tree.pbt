@@ -13200,7 +13200,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 1036725943543811742
+        Id: 5390120376389660115
       }
     }
   }
@@ -13208,7 +13208,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {

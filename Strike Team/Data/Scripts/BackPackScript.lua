@@ -95,5 +95,5 @@ Events.Connect("AddWeaponToBackPack",function( player, weapon, holster, extraDat
     table.insert( player.serverUserData.Backpack, {["Weapon"] = weapon,["Holser"] = holster, ["Offset"] = extraData.rotation or Rotation.New(0,0,0)})
     AttatchWeapon(player, weapon)
 end)    
-Game.playerLeftEvent:Connect(RemovePlayer)
 Game.playerJoinedEvent:Connect(JoinedPlayer)
+Game.playerLeftEvent:Connect(RemovePlayer)
