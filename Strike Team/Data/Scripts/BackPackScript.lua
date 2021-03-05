@@ -84,6 +84,14 @@ function RemovePlayer(player)
             Weapon["Weapon"]:Destroy()
         end
     end
+
+    -- Loop everything on the player and tell it to be destroyed so scripts call
+    for _, attached in pairs(player:GetAttachedObjects()) do
+        if Object.IsValid(attached) then
+            attached:Destroy()
+        end
+    end
+
     player.serverUserData.Backpack = nil
 end
 
