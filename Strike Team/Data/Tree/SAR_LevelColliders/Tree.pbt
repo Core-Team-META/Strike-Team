@@ -607,6 +607,14 @@ Objects {
     }
   }
   ParentId: 3844101252731550927
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16934956479094795360
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -635,7 +643,7 @@ Objects {
   Transform {
     Location {
       X: 8275
-      Y: 12040
+      Y: 12110
       Z: -210
     }
     Rotation {
@@ -857,12 +865,6 @@ Objects {
   }
   ParentId: 3844101252731550927
   UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15467319859233525149
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2073,12 +2075,6 @@ Objects {
   }
   ParentId: 3844101252731550927
   UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15435266645019974066
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
