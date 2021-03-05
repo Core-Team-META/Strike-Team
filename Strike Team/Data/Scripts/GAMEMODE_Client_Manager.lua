@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Manager Client
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/01
--- Version 0.1.1
+-- Date: 2021/3/4
+-- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -27,6 +27,17 @@ local TEAM_DEATH_MATCH_SCORE_UI = script:GetCustomProperty("GAMEMODE_TeamDeathMa
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+local listeners = {}
+
+
+local function CleanUp()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+end
+
 
 local function ClearScoreDisplay()
     for _, panel in ipairs(PARENT_PANEL:GetChildren()) do
@@ -97,5 +108,6 @@ end
 Task.Wait(1)
 Int()
 
-NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
-SPAWNED_OBJECTS.childAddedEvent:Connect(OnChildAdded)
+listeners[#listeners + 1] = NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+listeners[#listeners + 1] = SPAWNED_OBJECTS.childAddedEvent:Connect(OnChildAdded)
+listeners[#listeners + 1] = script.destroyEvent:Connect(CleanUp)

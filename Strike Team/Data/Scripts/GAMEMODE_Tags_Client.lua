@@ -1,5 +1,9 @@
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
-
+local ROOT = script:GetCustomProperty("Tags"):WaitForObject()
+local isEnabled = ROOT:GetCustomProperty("ENABLED")
+if not isEnabled then
+    return
+end
 local AMMOUNT = script:GetCustomProperty("AMMOUNT"):WaitForObject()
 local UIPanel = script:GetCustomProperty("UIPanel"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()

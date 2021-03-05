@@ -1,14 +1,16 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Manager Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/31
--- Version 0.1.1
+-- Date: 2021/3/4
+-- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -25,6 +27,7 @@ local currentGameTypeId
 local currentGameInfo = {}
 local scoreLimit
 local roundStartTime = nil
+local listeners = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -64,6 +67,18 @@ local function OnGameTypeChanged(object, string)
     if object == NETWORKED then
         GetCurrentGameId()
     end
+end
+
+local function CleanUp(player)
+    if not listeners[player.id] then
+        return
+    end
+    for _, listener in pairs(listeners[player.id]) do
+        if listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+    listeners[player.id] = nil
 end
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -108,13 +123,15 @@ function OnPlayerLeft(player)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
     end
+    CleanUp(player)
 end
 
 -- nil OnPlayerJoined(Player)
 -- Register the diedEvent when a player joins
 function OnPlayerJoined(player)
-    player.diedEvent:Connect(OnPlayerDied)
-    player.damagedEvent:Connect(OnPlayerDamaged)
+    listeners[player.id] = {}
+    listeners[player.id]["diedEvent"] = player.diedEvent:Connect(OnPlayerDied)
+    listeners[player.id]["damagedEvent"] = player.damagedEvent:Connect(OnPlayerDamaged)
     SetRespawnFlag(player)
 end
 

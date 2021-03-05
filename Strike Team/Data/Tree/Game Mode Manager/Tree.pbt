@@ -1358,6 +1358,12 @@ Objects {
         Id: 646199659253971358
       }
     }
+    Overrides {
+      Name: "cs:Tags"
+      ObjectReference {
+        SelfId: 7775707010924774461
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

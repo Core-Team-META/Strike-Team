@@ -8,6 +8,7 @@ local RANKS = _G.PLAYER_RANKS
 local INSIGNIA = script:GetCustomProperty("Insignia"):WaitForObject()
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+local listeners = {}
 
 local function ChangePlayerInsignia()
     for _, child in ipairs(INSIGNIA:GetChildren()) do
@@ -16,9 +17,8 @@ local function ChangePlayerInsignia()
         end
     end
 
-
-   local icon = World.SpawnAsset(RANKS.GetMediumRankIcon(LOCAL_PLAYER))
-   icon.parent = INSIGNIA
+    local icon = World.SpawnAsset(RANKS.GetMediumRankIcon(LOCAL_PLAYER))
+    icon.parent = INSIGNIA
 end
 
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
@@ -33,4 +33,14 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     end
 end
 
-Events.Connect("GameStateChanged", OnGameStateChanged)
+listeners[#listeners + 1] = Events.Connect("GameStateChanged", OnGameStateChanged)
+listeners[#listeners + 1] =
+    script.destroyEvent:Connect(
+    function()
+        for _, listener in ipairs(listeners) do
+            if listener.isConnected then
+                listener:Disconnect()
+            end
+        end
+    end
+)

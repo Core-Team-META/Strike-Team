@@ -3,8 +3,8 @@
 -- Author:
 --       Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 --       standardcombo (MANTICORE) - (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
--- Date: 2021/2/26
--- Version 0.1.1
+-- Date: 2021/3/4
+-- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -33,10 +33,18 @@ local MARGIN = 65
 
 --
 local points = {}
-
+local listeners = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+local function CleanUp()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+end
+
 
 local function AddNewPoints()
     Task.Wait(0.2)
@@ -222,5 +230,6 @@ end
 -- EVENTS & LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
-SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewPoints)
-SPAWNED_OBJECTS.childRemovedEvent:Connect(OnChildRemoved)
+listeners[#listeners + 1] = SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewPoints)
+listeners[#listeners + 1] = SPAWNED_OBJECTS.childRemovedEvent:Connect(OnChildRemoved)
+listeners[#listeners + 1] = script.destroyEvent:Connect(CleanUp)
