@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:Commands"
         AssetReference {
-          Id: 841534158063459245
+          Id: 4480426034829824473
         }
       }
     }
