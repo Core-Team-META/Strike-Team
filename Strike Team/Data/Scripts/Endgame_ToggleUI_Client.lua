@@ -133,6 +133,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 function Tick(deltaTime)
+    if not next(activePanels) then return end
     if shouldShowTimer and ABGS.IsGameStateManagerRegistered() then
         local currentState = ABGS.GetGameState()
         local remainingTime = ABGS.GetTimeRemainingInState()
@@ -141,7 +142,7 @@ function Tick(deltaTime)
             UpdateTimeRemaining(remainingTime)
 
             if
-                next(activePanels) and not hasClickedScoreScreen and remainingTime < 45 and
+                not hasClickedScoreScreen and remainingTime < 45 and
                     activePanels["STATS_SCREEN"].visibility == Visibility.FORCE_OFF
              then
                 ClearActivePanels()
