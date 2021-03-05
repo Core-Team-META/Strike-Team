@@ -1,21 +1,23 @@
 Name: "SAR_LevelColliders"
 RootId: 3844101252731550927
 Objects {
-  Id: 15505719905634206274
-  Name: "Cube - bottom aligned"
+  Id: 1211672583262411966
+  Name: "ColStairs"
   Transform {
     Location {
-      X: -805
-      Y: 7665
-      Z: 4830
+      X: 3744.04736
+      Y: 2221.53516
+      Z: 36.088974
     }
     Rotation {
-      Yaw: 179.633453
+      Pitch: 19.6694622
+      Yaw: -157.042831
+      Roll: -41.3569946
     }
     Scale {
-      X: 250.999939
-      Y: 230.25
-      Z: 1
+      X: 1.30000532
+      Y: 2.09681392
+      Z: 0.499997616
     }
   }
   ParentId: 3844101252731550927
@@ -27,7 +29,801 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 10128884331981734128
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13860338748159700462
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 3440
+      Y: 1995
+      Z: 30
+    }
+    Rotation {
+      Yaw: -135
+      Roll: -36.7032471
+    }
+    Scale {
+      X: 6.79999924
+      Y: 2.60000014
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 12290321387442157287
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -4500
+      Y: 6445
+      Z: -59.999939
+    }
+    Rotation {
+      Yaw: 67.5000076
+      Roll: -36.7026367
+    }
+    Scale {
+      X: 3.9
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1253399659601619851
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -5795
+      Y: 8595
+      Z: 255.000061
+    }
+    Rotation {
+      Yaw: 90
+      Roll: -36.7026978
+    }
+    Scale {
+      X: 3.9
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10182434599119370566
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -4510
+      Y: 4300
+      Z: 775.000061
+    }
+    Rotation {
+      Yaw: 44.9999847
+      Roll: -36.7027588
+    }
+    Scale {
+      X: 3.9
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11362526879375218928
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -3025
+      Y: 2750
+      Z: 255.000061
+    }
+    Rotation {
+      Yaw: 45
+      Roll: -36.7027893
+    }
+    Scale {
+      X: 3.9
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5426185352601426503
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -2455
+      Y: 3060
+      Z: -59.9999084
+    }
+    Rotation {
+      Yaw: 135
+      Roll: -36.7028809
+    }
+    Scale {
+      X: 3.9
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16793458694409305416
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -1155
+      Y: 1425
+      Z: 385
+    }
+    Rotation {
+      Yaw: -90
+      Roll: -36.7028503
+    }
+    Scale {
+      X: 3.9
+      Y: 6.9
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18430920578203090161
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -1470
+      Y: 2070
+      Z: -35
+    }
+    Rotation {
+      Yaw: 180
+      Roll: -36.7029419
+    }
+    Scale {
+      X: 3.9
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8703729647085215609
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 740
+      Y: 1710
+      Z: 270
+    }
+    Rotation {
+      Yaw: 135
+      Roll: -36.7030029
+    }
+    Scale {
+      X: 4.59999943
+      Y: 10.8
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13428647805654686805
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 4332.12744
+      Y: 2446.24414
+      Z: 262.535797
+    }
+    Rotation {
+      Yaw: -90
+      Roll: -36.7033081
+    }
+    Scale {
+      X: 4.00802708
+      Y: 10
+      Z: 0.49999997
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 11763582857373296355
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 7290
+      Y: 6225
+      Z: 290
+    }
+    Rotation {
+      Yaw: 135
+      Roll: -36.3668213
+    }
+    Scale {
+      X: 2.60000014
+      Y: 10
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13914919014608320290
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 7855
+      Y: 5525
+      Z: 225
+    }
+    Rotation {
+      Yaw: -179.999969
+      Roll: -36.3668823
+    }
+    Scale {
+      X: 4.20000029
+      Y: 10
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2972498553035067466
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 4255
+      Y: 13125
+      Z: -210
+    }
+    Rotation {
+      Roll: -36.3668213
+    }
+    Scale {
+      X: 3.86773276
+      Y: 10.0105324
+      Z: 0.533309519
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6409767067077479829
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 6260
+      Y: 13125
+      Z: -210
+    }
+    Rotation {
+      Roll: -36.3668518
+    }
+    Scale {
+      X: 3.86773276
+      Y: 10.0105324
+      Z: 0.533309519
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2603952243088367766
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 8275
+      Y: 12040
+      Z: -210
+    }
+    Rotation {
+      Roll: -36.3668823
+    }
+    Scale {
+      X: 3.86773276
+      Y: 10.0105324
+      Z: 0.533309519
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13925162160567172169
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 7410
+      Y: 10850
+      Z: 280
+    }
+    Rotation {
+      Yaw: 180
+      Roll: -36.3669128
+    }
+    Scale {
+      X: 4.20000029
+      Y: 10
+      Z: 0.5
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13491640931484449445
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 6790
+      Y: 11075
+      Z: -45
+    }
+    Rotation {
+      Yaw: -90
+      Roll: -36.3670044
+    }
+    Scale {
+      X: 3.86773276
+      Y: 10.0105324
+      Z: 0.533309519
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8859424875642627408
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: 1200
+      Y: 12495
+      Z: 270.882813
+    }
+    Rotation {
+      Yaw: 90
+      Roll: -36.3671875
+    }
+    Scale {
+      X: 4.11849451
+      Y: 10.0105324
+      Z: 0.533309519
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 923974512344779266
+  Name: "ColStairs"
+  Transform {
+    Location {
+      X: -1619.41699
+      Y: 11850
+      Z: 280
+    }
+    Rotation {
+      Roll: -36.3671875
+    }
+    Scale {
+      X: 4.11849451
+      Y: 10.0105324
+      Z: 0.533309519
+    }
+  }
+  ParentId: 3844101252731550927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true

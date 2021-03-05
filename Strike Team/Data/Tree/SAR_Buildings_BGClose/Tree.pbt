@@ -13165,6 +13165,7 @@ Objects {
   ChildIds: 9723598724948037701
   ChildIds: 2661975505203858194
   ChildIds: 6497996745046811256
+  ChildIds: 9962762089903214067
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13173,6 +13174,55 @@ Objects {
   }
   Folder {
     Model {
+    }
+  }
+}
+Objects {
+  Id: 9962762089903214067
+  Name: "Extra Collider"
+  Transform {
+    Location {
+      X: -105
+      Y: -5
+    }
+    Rotation {
+      Yaw: 89.9999466
+      Roll: 2.04905573e-05
+    }
+    Scale {
+      X: 12
+      Y: 12.8
+      Z: 7.59999847
+    }
+  }
+  ParentId: 11697727570043537264
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1036725943543811742
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
@@ -13899,7 +13949,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -28632,9 +28682,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7145
+            X: 8660
             Y: 22530
-            Z: 800
+            Z: 360
           }
         }
         Overrides {
@@ -28687,9 +28737,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7245
+            X: 8760
             Y: 20390
-            Z: 800
+            Z: 360
           }
         }
         Overrides {
@@ -49643,7 +49693,7 @@ Objects {
     Location {
       X: 12292.9668
       Y: 19568.6484
-      Z: 975.000244
+      Z: 275
     }
     Rotation {
       Yaw: -67.5000305
@@ -91813,13 +91863,13 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 15435266645019974066
+        Id: 1526264640232633132
       }
     }
     Overrides {
       Name: "ma:Shared_Detail1:id"
       AssetReference {
-        Id: 17500648384538540572
+        Id: 1526264640232633132
       }
     }
   }

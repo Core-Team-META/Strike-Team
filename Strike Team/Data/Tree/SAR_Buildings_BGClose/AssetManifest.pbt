@@ -125,15 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15435266645019974066
-  Name: "Bricks Layered Stone Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_floor_layered_001"
-  }
-}
-Assets {
   Id: 15210171892498863686
   Name: "Bricks Mortar Thick 01"
   PlatformAssetType: 2
