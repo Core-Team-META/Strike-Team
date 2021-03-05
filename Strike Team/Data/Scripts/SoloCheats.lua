@@ -48,17 +48,9 @@ if(Environment.IsServer()) then
         textmessage = string.sub(textmessage, 2, #textmessage)
         Newmessage = seperateMessage(textmessage)
         if(Commands[Newmessage[1]]) then 
-            local ReturnMessage = "Command successful"
-            if(Newmessage[2]) then
-                if(PlayerHandler[Newmessage[2]]) then  PlayerHandler[Newmessage[2]](Commands[Newmessage[1]],player,Newmessage) 
-                else
-                    if not ReturnPlayerByName(Newmessage[2]) then return end
-                    ReturnMessage = Commands[Newmessage[1]](ReturnPlayerByName(Newmessage[2]), Newmessage) or ReturnMessage
-                end
-            elseif (not Newmessage[2]) then
-                ReturnMessage = Commands[Newmessage[1]](player, Newmessage) or ReturnMessage
-            end
+            ReturnMessage = Commands[Newmessage[1]](player, Newmessage)
         end
     end
     Chat.receiveMessageHook:Connect(RecieveMessage)
 end
+

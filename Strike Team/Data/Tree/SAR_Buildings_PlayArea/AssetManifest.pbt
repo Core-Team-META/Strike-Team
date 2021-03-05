@@ -872,6 +872,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5390120376389660115
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
   Id: 5356997660449093087
   Name: "Fantasy Castle Stairs 01"
   PlatformAssetType: 1

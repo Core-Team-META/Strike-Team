@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5390120376389660115
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
   Id: 3406058221900252173
   Name: "Grid Basic"
   PlatformAssetType: 2
