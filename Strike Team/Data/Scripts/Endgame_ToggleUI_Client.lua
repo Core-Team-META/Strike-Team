@@ -29,6 +29,8 @@ local GAMEMODE_NETWORKED = script:GetCustomProperty("GAMEMODE_Networked"):WaitFo
 local RoundEndUIDisplayTemplate = script:GetCustomProperty("RoundEndUIDisplay")
 
 local shouldShowTimer = false
+local hasClickedScoreScreen = false
+local autoToggle = true
 local listeners = {}
 local activePanels = {}
 
@@ -64,7 +66,6 @@ end
 
 function OnButtonPressed(button)
     ClearActivePanels()
-    
     if button == VICTORY_SCREEN_BUTTON then
         activePanels["VICTORY_SCREEN"].visibility = Visibility.FORCE_ON
         PLAYER_PANELS.visibility = Visibility.FORCE_ON
@@ -81,6 +82,8 @@ function OnButtonPressed(button)
         -- Scoreboard
         Events.Broadcast("ShowScoreboardScreen")
     end
+    hasClickedScoreScreen = true
+    autoToggle = false
 end
 
 --#TODO Redo this it's a mess
@@ -89,6 +92,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         TEMP_BUTTON_PANEL.visibility = Visibility.FORCE_OFF
         TOP_BAR.visibility = Visibility.FORCE_OFF
         shouldShowTimer = false
+        hasClickedScoreScreen = false
         DisconnectListeners()
         UI.SetCanCursorInteractWithUI(false)
         UI.SetCursorVisible(false)
@@ -135,6 +139,18 @@ function Tick(deltaTime)
 
         if currentState == ABGS.GAME_STATE_ROUND_END then
             UpdateTimeRemaining(remainingTime)
+
+            if
+                not hasClickedScoreScreen and remainingTime < 45 and
+                    activePanels["STATS_SCREEN"].visibility == Visibility.FORCE_OFF
+             then
+                ClearActivePanels()
+                activePanels["STATS_SCREEN"].visibility = Visibility.FORCE_ON
+                PLAYER_PANELS.visibility = Visibility.FORCE_OFF
+                -- Stats Screen
+                Events.Broadcast("ShowStatsScreen")
+                Task.Wait()
+            end
         end
     end
 end

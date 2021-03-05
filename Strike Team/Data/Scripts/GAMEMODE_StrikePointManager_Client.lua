@@ -54,7 +54,7 @@ local IDLE_COLOR = script:GetCustomProperty("IDLE_COLOR")
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
-
+local listeners = {}
 local flagPos = FLAG:GetPosition()
 local groundScale = GROUND:GetScale()
 local currentTeam = 0
@@ -67,6 +67,13 @@ local teamProgress, enemyProgress, centerFlag
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+local function CleanUp()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+end
 
 local function GetData()
     if ROOT and not Object.IsValid(ROOT) then
@@ -207,4 +214,5 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 Task.Wait()
 Int()
-ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+listeners[#listeners + 1] = ROOT.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
+listeners[#listeners + 1] = ROOT.destroyEvent:Connect(CleanUp)

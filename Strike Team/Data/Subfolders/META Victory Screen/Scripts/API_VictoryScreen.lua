@@ -178,6 +178,7 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		player:SetWorldRotation(spawnRotation)
 		
 		Task.Wait(.1)
+		if not Object.IsValid(player) then return end
 
 		player:ResetVelocity()
 		player:SetWorldPosition(spawnPosition)
@@ -188,16 +189,17 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		end
 
 		Task.Wait()
+		if not Object.IsValid(player) then return end
 		
 		player.animationStance = "unarmed_stance"
 		
 		for i=1,5 do
 			Task.Wait(.1)
+			if not Object.IsValid(player) then return end
 
 			player:ResetVelocity()
 			player:SetWorldPosition(spawnPosition)
-			player:SetWorldRotation(spawnRotation)	
-			
+			player:SetWorldRotation(spawnRotation)
 		end
 end
 
@@ -227,6 +229,7 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 	player:Respawn()
 	
 	Task.Wait(.1)
+	if not Object.IsValid(player) then return end
 
 	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 		equipment:Destroy()
@@ -240,8 +243,10 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 
 	if(duration > 0) then
 		tasks[player] = Task.Spawn(function()
-			API.OnPlayerRestored(victoryScreen, player, data)
-			API.playerRestoredEvent:_Fire(player, data)
+			if Object.IsValid(player) then
+				API.OnPlayerRestored(victoryScreen, player, data)
+				API.playerRestoredEvent:_Fire(player, data)
+			end
 		end, duration)
 	end
 
@@ -270,6 +275,8 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 		tasks[player] = nil
 	end
 	Task.Wait()
+	if not Object.IsValid(player) then return end
+	
 	player.lookControlMode = data.originalLookControlMode 
 end
 

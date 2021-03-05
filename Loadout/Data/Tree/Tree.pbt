@@ -17,13 +17,13 @@ Objects {
   ChildIds: 6278672628054296791
   ChildIds: 7367735074338159388
   ChildIds: 17257846423230686053
+  ChildIds: 2531340925404137440
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
-  ChildIds: 5087704922136027764
   ChildIds: 4297970923383946370
-  ChildIds: 9136329465692806999
+  ChildIds: 10670408207515956261
   ChildIds: 7325714028980024580
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
@@ -696,7 +696,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9136329465692806999
+  Id: 10670408207515956261
   Name: "EquipmentHandler"
   Transform {
     Scale {
@@ -706,6 +706,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 777066251803753357
@@ -750,7 +756,7 @@ Objects {
     Overrides {
       Name: "cs:StrikeCoin300"
       NetReference {
-        Key: "961ac6713ade4960a6f4639fca25d3a1"
+        Key: "d47f41aff3fa4c3ca2c3532a0db16683"
         Type {
           Value: "mc:enetreferencetype:creatorperk"
         }
@@ -759,7 +765,7 @@ Objects {
     Overrides {
       Name: "cs:StrikeCoin750"
       NetReference {
-        Key: "5cdab6cfe83a463b8bfe074d316a7a3c"
+        Key: "f72d4bdae38648848ca6b65db8422fb7"
         Type {
           Value: "mc:enetreferencetype:creatorperk"
         }
@@ -768,7 +774,7 @@ Objects {
     Overrides {
       Name: "cs:StrikeCoin3000"
       NetReference {
-        Key: "be73b67c768341c5ba1df5788b0ea0a7"
+        Key: "0d68fcc9f84a4c58a6baefe872e7cad4"
         Type {
           Value: "mc:enetreferencetype:creatorperk"
         }
@@ -784,41 +790,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 336823580396764239
-    }
-  }
-}
-Objects {
-  Id: 5087704922136027764
-  Name: "ChatHooks"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Commands"
-      AssetReference {
-        Id: 4480426034829824473
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17154672043655382137
     }
   }
 }
@@ -31350,6 +31321,32 @@ Objects {
   }
 }
 Objects {
+  Id: 2531340925404137440
+  Name: "Rank Manager"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16674151735511252933
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rank Manager"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15930087830757616918
+    }
+  }
+}
+Objects {
   Id: 17257846423230686053
   Name: "Player Settings"
   Transform {
@@ -31452,7 +31449,7 @@ Objects {
       EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
-          Value: "mc:echatmode:teamonly"
+          Value: "mc:echatmode:none"
         }
         ChatPosition {
           Y: -83.7797852
@@ -31499,7 +31496,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "a82c9c593b0d474b9a538e0bd95e4680"
+        Key: "02099a9ad11e4ae3b4443adf78c87879"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31508,7 +31505,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "62e90670ac2549c49ed0b7ae7931fb4d"
+        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31517,7 +31514,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "5a3ea05146bd4a758c1408c294d05c38"
+        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31526,7 +31523,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "3b7b3b964255409887f17adcf3c9b7eb"
+        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

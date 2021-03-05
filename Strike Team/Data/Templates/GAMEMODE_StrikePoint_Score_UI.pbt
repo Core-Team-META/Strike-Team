@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13897893943081087324
+        ParentId: 4781671109827199097
         ChildIds: 17862374400451381473
         UnregisteredParameters {
           Overrides {
@@ -9770,6 +9770,12 @@ Assets {
             Name: "cs:MAIN_FLAG_INDICATOR"
             ObjectReference {
               SubObjectId: 7222416891580657222
+            }
+          }
+          Overrides {
+            Name: "cs:ROOT"
+            ObjectReference {
+              SubObjectId: 1305319815708312239
             }
           }
         }

@@ -83,7 +83,7 @@ function UTIL.CalculateWidth(str, fontSize)
 		if WIDTHS[glyph] then
 			width = width + WIDTHS[glyph] / 50 * fontSize / 20 * 1.18
 		else
-			width = width + WIDTHS["-"]
+			width = width + WIDTHS["-"] / 50 * fontSize / 20 * 1.18
 			warn("Unknown width for glyph '" .. glyph .. "'")
 		end
 	end

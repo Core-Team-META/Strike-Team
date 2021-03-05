@@ -406,11 +406,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 1
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 20
+      Int: 40
     }
   }
   Collidable_v2 {
@@ -447,7 +447,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 10000
+      Int: 35
     }
   }
   Collidable_v2 {
@@ -480,11 +480,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
+      Float: 2
     }
     Overrides {
       Name: "cs:MaxAmount"
-      Int: 20
+      Int: 40
     }
   }
   Collidable_v2 {
@@ -517,7 +517,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 5
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -933,41 +933,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4046000927248889314
-  Name: "ChatHooks"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Commands"
-      AssetReference {
-        Id: 4480426034829824473
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17154672043655382137
-    }
-  }
-}
-Objects {
   Id: 4357706706468832932
   Name: "KillManager"
   Transform {
@@ -1254,13 +1219,9 @@ Objects {
   }
 }
 Objects {
-  Id: 4674814645706292939
+  Id: 9054774325255140997
   Name: "EquipmentHandler"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -1274,16 +1235,29 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EquipmentHandler"
-  }
-  InstanceHistory {
-    SelfId: 4674814645706292939
-    SubobjectId: 777066251803753357
-    InstanceId: 9054774325255140997
-    TemplateId: 12469272091380785429
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 777066251803753357
+      value {
+        Overrides {
+          Name: "Name"
+          String: "EquipmentHandler"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12469272091380785429
+    }
   }
 }
 Objects {
@@ -1305,7 +1279,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "a8f360a302cb40bd8669684952aacd87"
+        Key: "02099a9ad11e4ae3b4443adf78c87879"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1314,7 +1288,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "2419bb1f04a442e092b0bd4b3f78745c"
+        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1323,7 +1297,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "a1a35fac377245378734c5807fb5fafb"
+        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1332,7 +1306,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "4340806d8ab648f88886e43bec9ba4a5"
+        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

@@ -1,4 +1,17 @@
 Assets {
+  Id: 18426199145520671077
+  Name: "8625 Strike Coins"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "f72d4bdae38648848ca6b65db8422fb7"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -134,6 +147,19 @@ Assets {
   }
 }
 Assets {
+  Id: 15490312989307728458
+  Name: "st_lifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "02099a9ad11e4ae3b4443adf78c87879"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 14631716589231304463
   Name: "Sci-fi Base Trim 02 4m"
   PlatformAssetType: 1
@@ -149,6 +175,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_001_ref"
+  }
+}
+Assets {
+  Id: 14048824468427476937
+  Name: "st_loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -296,12 +335,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10522512622236453323
-  Name: "kb_lifetime"
+  Id: 11247339383402324546
+  Name: "st_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "a82c9c593b0d474b9a538e0bd95e4680"
+      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -315,19 +354,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_tire_worn_02_ref"
-  }
-}
-Assets {
-  Id: 9577122860049471132
-  Name: "kb_storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "3b7b3b964255409887f17adcf3c9b7eb"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -371,6 +397,19 @@ Assets {
   }
 }
 Assets {
+  Id: 9066003771723965358
+  Name: "3000 Strike Coins"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "d47f41aff3fa4c3ca2c3532a0db16683"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
   Id: 9012634881940008866
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2
@@ -398,25 +437,25 @@ Assets {
   }
 }
 Assets {
-  Id: 8530009853949162621
-  Name: "kb_stats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "62e90670ac2549c49ed0b7ae7931fb4d"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 8444988906755860980
   Name: "StrikeCoin300"
   PlatformAssetType: 24
   NetReferenceAsset {
     NetReference {
       Key: "961ac6713ade4960a6f4639fca25d3a1"
+      Type {
+        Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
+  Id: 8311069857538131653
+  Name: "39000 Strike Coins"
+  PlatformAssetType: 24
+  NetReferenceAsset {
+    NetReference {
+      Key: "0d68fcc9f84a4c58a6baefe872e7cad4"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
       }
@@ -599,19 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5543723702933423004
-  Name: "kb_loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "5a3ea05146bd4a758c1408c294d05c38"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 5525139013811408427
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -744,6 +770,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_radio_01_01_ref"
+  }
+}
+Assets {
+  Id: 1232000216436792872
+  Name: "st_statkey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {

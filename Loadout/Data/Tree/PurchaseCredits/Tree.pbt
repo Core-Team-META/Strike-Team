@@ -70,6 +70,7 @@ Objects {
     }
   }
   ParentId: 7325714028980024580
+  ChildIds: 3030726978272244941
   ChildIds: 13489158920696445560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -112,6 +113,41 @@ Objects {
   Script {
     ScriptAsset {
       Id: 9986613342432394644
+    }
+  }
+}
+Objects {
+  Id: 3030726978272244941
+  Name: "ResourceChangeSoundEffect"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8071645797724770318
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Sound"
+      AssetReference {
+        Id: 4918876394001508497
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3950340338573681455
     }
   }
 }

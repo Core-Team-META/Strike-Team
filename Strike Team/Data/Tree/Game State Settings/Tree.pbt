@@ -37,128 +37,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9633782329139087673
-  Name: "Team Autobalancer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15718157928396756218
-  ChildIds: 3756783288036243102
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:TeamCount"
-      Int: 2
-    }
-    Overrides {
-      Name: "cs:MaxTeamSizeDifference"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:OnlySwitchDeadPlayers"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:KillOnTeamSwitch"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:ScrambleAtRoundEnd"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:TeamCount:tooltip"
-      String: "How many teams does this game have. We assume they are teams 1 through this number."
-    }
-    Overrides {
-      Name: "cs:MaxTeamSizeDifference:tooltip"
-      String: "Teams can be at most this different in size before players will get swapped if they are eligable"
-    }
-    Overrides {
-      Name: "cs:OnlySwitchDeadPlayers:tooltip"
-      String: "Only switch players who are already dead"
-    }
-    Overrides {
-      Name: "cs:KillOnTeamSwitch:tooltip"
-      String: "If we can swap live players, kill them when we do"
-    }
-    Overrides {
-      Name: "cs:ScrambleAtRoundEnd:tooltip"
-      String: "Also scramble teams entirely at the end of the round"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9633782329139087673
-    SubobjectId: 8101005287434700507
-    InstanceId: 15194599660256664735
-    TemplateId: 3035707431314987134
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 3756783288036243102
-  Name: "TeamAutobalancerServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9633782329139087673
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 9633782329139087673
-      }
-    }
-    Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7407597744590636425
-    }
-  }
-  InstanceHistory {
-    SelfId: 3756783288036243102
-    SubobjectId: 13978147265183234428
-    InstanceId: 15194599660256664735
-    TemplateId: 3035707431314987134
-  }
-}
-Objects {
   Id: 7535562993660984744
   Name: "Lobby Required Players"
   Transform {
@@ -216,7 +94,7 @@ Objects {
         }
         Overrides {
           Name: "cs:RequiredPlayers"
-          Int: 1
+          Int: 2
         }
         Overrides {
           Name: "cs:CountdownTime"

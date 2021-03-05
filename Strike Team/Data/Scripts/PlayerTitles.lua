@@ -148,19 +148,12 @@ Module.titles = {
 		prefix = "Manticore",
 		prefixColor = Module.Color.ORANGE,
 		showPrefixColorWhileStatic = true,
-		--icon = script:GetCustomProperty("Manticore"),
-		--iconColor = Module.Color.ORANGE,
+		icon = script:GetCustomProperty("Manticore"),
+		iconColor = Module.Color.ORANGE,
 		isModerator = true,
 		playerMUIDs = {
-			"be501d1b587e4e6a81f301c72c8364a7", -- aBomb
-			"aabd84ef7a6448a69c331121b5909cff", -- Anna
-			"e61732710715477db69aacaff214104f", -- apaiva
-			"c14f61b74826471f974f06ff7e42d97b", -- Basilisk
-			"63036b51a02c4b5b88e4b75f55b12864", -- Bae
-			"400d8e7acb154e5bb64368411824b61d", -- Bigglebuns
-			"6d62c19885084f168ec78ce5f6111ac5", -- Blackdheart
+--[[
 			"715fd60981e84a479d5828ae8b05672b", -- Breadman
-			"901b7628983c4c8db4282f24afeda57a", -- Buckmonster
 			"c643c92a06e943c4aef66a283f5dc1e0", -- Bumblebear
 			"9e16f55a3e0743c2a4c763877e70222e", -- Bunnychen
 			"91f0b0c8756d41e9a30834cb4975599f", -- Buffry
@@ -181,9 +174,7 @@ Module.titles = {
 			"8aa6e0c558be4a1c98e80229b73ffeb9", -- Dracowolfie
 			"31f09de9539843a996ba240763f76641", -- featurecreeper
 			"ae06e23c1b3143129e2751454a6b51c0", -- Fezzinate
-			"cb055adaf34a4b72b7bd02c8ae5f3ec8", -- Gabunir
 			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin
-			"967fb2d379954fb688dd5fca37d25a12", -- Getch
 			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin
 			"f207385c066b429581e6fe11ac8795bf", -- Holy
 			"db65673b8fe94bf599ad07853953dc75", -- Hex/Steve
@@ -207,7 +198,6 @@ Module.titles = {
 			"597116a231124b10a02ffb32b5eba6c9", -- pbmaynard
 			"93f2a0b4af184fdda935311f463ff421", -- plasmabacon
 			"ba70f301ec0d4d8f9fb19b5ba8612751", -- priyanka
-			"5a7a3a3d8ccb4dc5837880f2df3002fc", -- pchiu
 			"dabe472c0b2e4d5a9f4edcec4a63ad8a", -- Poippels
 			"83ef77fc3dc1409992d549a68dd616dd", -- qualispec
 			"20dba0f31f1b4f889b6bd70cdaaab192", -- Robotron
@@ -215,20 +205,33 @@ Module.titles = {
 			"6f6cd3bb2fd243ba80c0dac577699478", -- Riffraff
 			"54419f3e9852437b9f23d426bfd65885", -- RebherCore
 			"5a7c111a5d7a4866892497528c02e186", -- RyanZ
-			"c078c42a742146bd99404099e4781e88", -- Scav
 			"c6701fa2d791470bb0d4fde602a6b007", -- Sasha
 			"667ddca103824fb7bb834667b9c02a4a", -- Seanzawi
-			"9b1e28cbd1d74f5fb4c2ddea6d81fd39", -- Sobchak
 			"ddbb067e186742eeb3e787a980571f92", -- Squirtle
 			"1670ca1dee674b79b7d24296f89053df", -- Sumoflab
+			"be501d1b587e4e6a81f301c72c8364a7", -- aBomb
+			"aabd84ef7a6448a69c331121b5909cff", -- Anna
+			"e61732710715477db69aacaff214104f", -- apaiva
+			"63036b51a02c4b5b88e4b75f55b12864", -- Bae
+			"aea40b9e2fae46908e37b42d44f3b004", -- Turbo
+			"093c6d09ca2245af850d22bc3ea2cc1b", -- Vcareil
+ ]]
+
+			"901b7628983c4c8db4282f24afeda57a", -- Buckmonster
+			"cb055adaf34a4b72b7bd02c8ae5f3ec8", -- Gabunir
+			"967fb2d379954fb688dd5fca37d25a12", -- Getch
+			"c14f61b74826471f974f06ff7e42d97b", -- Basilisk
+			"400d8e7acb154e5bb64368411824b61d", -- Bigglebuns
+			"6d62c19885084f168ec78ce5f6111ac5", -- Blackdheart
+			"5a7a3a3d8ccb4dc5837880f2df3002fc", -- pchiu
+			"c078c42a742146bd99404099e4781e88", -- Scav
+			"9b1e28cbd1d74f5fb4c2ddea6d81fd39", -- Sobchak
 			"b4c6e32137e54571814b5e8f27aa2fcd", -- standardcombo
 			"9bb9612e564644c58b2286a6853fb91e", -- Stanzilla
 			"1c73b87d2d374264ab0eb4d89edc4b72", -- Stephano
 			"54d6c37e71a546f7bfd480d8e654f45e", -- Tobs
 			"6a76449f4341427c832789c6c0fac68d", -- Twixler
-			"aea40b9e2fae46908e37b42d44f3b004", -- Turbo
 			"581ff579fd864966aec56450754db1fb", -- Waffle
-			"093c6d09ca2245af850d22bc3ea2cc1b", -- Vcareil
 			"4572e450dd044619891fd1fb51bc1193", -- Vitriol
 			"fc93f85ad76f49f6984403e2f5162bce", -- zurishmi
 		},
@@ -261,7 +264,6 @@ Module.titles = {
 			"94d3fd50c4824f019421895ec8dbf099", -- Mucusinator
 			"91166471c6ea4d17be6772da4973e6b7", -- mjcortes782
 			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman
-			"581ff579fd864966aec56450754db1fb", -- Waffle
 			"e730c40ae54d4c588658667927acc6d8", -- WitcherSilver
 
 			-- "fdae8d1d32b040d792dc589edda59ced", -- Shhteve
@@ -329,6 +331,9 @@ end
 function Module.GetPlayerTeamColor(player1, player2, neutralTeamColor, friendlyTeamColor, enemyTeamColor)
 	local teamRelation = Module.GetTeamRelation(player1, player2)
 
+	if (player1.name == player2.name) then
+		return Color.ORANGE
+	end
 	if(teamRelation == Module.TeamRelation.SELF) then
 		return friendlyTeamColor
 	elseif(teamRelation == Module.TeamRelation.SELF_NEUTRAL) then

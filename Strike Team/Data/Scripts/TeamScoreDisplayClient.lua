@@ -27,6 +27,7 @@ local TEAM_SCORE = script:GetCustomProperty("TEAM_SCORE"):WaitForObject()
 local ENEMY_SCORE = script:GetCustomProperty("ENEMY_SCORE"):WaitForObject()
 local WAIT_TEXT = script:GetCustomProperty("WAIT"):WaitForObject()
 local POINT_UNLOCKS_TEXT = script:GetCustomProperty("POINT_UNLOCKS"):WaitForObject()
+local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 
 local MAIN_FLAG_INDICATOR = script:GetCustomProperty("MAIN_FLAG_INDICATOR"):WaitForObject()
 local SPAWNED_OBJECTS = script:GetCustomProperty("Spawned_Objects"):WaitForObject()
@@ -43,9 +44,19 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local TEAM
 -- Check user properties
 
+local listeners = {}
+
 if SHOW_MAX_SCORE and MAX_SCORE <= 0 then
     warn("MaxScore must be a positive")
     MAX_SCORE = 100
+end
+
+local function CleanUp()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listener:Disconnect()
+        end
+    end
 end
 
 local function AddNewCapturePoint()
@@ -160,5 +171,6 @@ function Tick(deltaTime)
     UpdateTimer()
 end
 
-SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewCapturePoint)
+listeners[#listeners + 1] = SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewCapturePoint)
+listeners[#listeners + 1] = ROOT.destroyEvent:Connect(CleanUp)
 Int()

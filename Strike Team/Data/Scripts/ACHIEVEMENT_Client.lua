@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Achievement System Client
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/26
--- Version 0.0.2
+-- Date: 2021/3/4
+-- Version 0.1.3
 ------------------------------------------------------------------------------------------------------------------------
 local ROOT = script:GetCustomProperty("AchievementSystem"):WaitForObject()
 local isEnabled = ROOT:GetCustomProperty("Enabled")
@@ -33,6 +33,7 @@ local shouldShow = false
 local achievementQueue = {}
 local achievementIds = {}
 local listeners = {}
+local scriptListeners = {}
 
 NOTIFICATION.visibility = Visibility.FORCE_OFF
 ------------------------------------------------------------------------------------------------------------------------
@@ -53,7 +54,7 @@ local function IsAchievement(id)
     return false
 end
 
-local function ClearListeners()
+local function ClearListeners(listeners)
     for _, listener in ipairs(listeners) do
         if listener and listener.isConnected then
             listeners:Disconnect()
@@ -100,17 +101,17 @@ local function BuildAchievementInfoPanel()
         local name = achievementPanel:GetCustomProperty("ACHIEVEMENT_NAME"):WaitForObject()
         local button = achievementPanel:GetCustomProperty("BUTTON"):WaitForObject()
 
-        button.clientUserData.detailPanel = achievementPanel:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
+        button.clientUserData.detailPanel =
+            achievementPanel:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
         button.clientUserData.achievement = achievement
 
         listeners[#listeners + 1] = button.hoveredEvent:Connect(OnDetailsHover)
         listeners[#listeners + 1] = button.unhoveredEvent:Connect(OnDetailsUnhover)
 
         icon:SetImage(achievement.icon)
-        
 
         name.text = achievement.name
-     
+
         if count < 5 then
             achievementPanel.x = count * 130
             count = count + 1
@@ -169,7 +170,7 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
         BuildAchievementInfoPanel()
     else
         ClearAchievements()
-        ClearListeners()
+        ClearListeners(listeners)
     end
 end
 
@@ -183,5 +184,12 @@ function Tick()
 end
 
 Int()
-LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
-Events.Connect("GameStateChanged", OnGameStateChanged)
+scriptListeners[#scriptListeners + 1] = LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
+scriptListeners[#scriptListeners + 1] = Events.Connect("GameStateChanged", OnGameStateChanged)
+
+scriptListeners[#scriptListeners + 1] =
+    script.destroyEvent:Connect(
+    function()
+        ClearListeners(scriptListeners)
+    end
+)

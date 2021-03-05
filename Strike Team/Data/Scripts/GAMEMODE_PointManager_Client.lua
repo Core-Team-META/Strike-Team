@@ -3,8 +3,8 @@
 -- Author:
 --       Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 --       standardcombo (MANTICORE) - (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
--- Date: 2021/2/26
--- Version 0.1.1
+-- Date: 2021/3/4
+-- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
@@ -33,10 +33,18 @@ local MARGIN = 65
 
 --
 local points = {}
-
+local listeners = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+local function CleanUp()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+end
+
 
 local function AddNewPoints()
     Task.Wait(0.2)
@@ -54,8 +62,10 @@ local function AddNewPoints()
                 pointData.COUNT_DOWN_TEXT = indicator:GetCustomProperty("COUNT_DOWN_TEXT"):WaitForObject()
                 pointData.LEFT_INNER = indicator:GetCustomProperty("LEFT_INNER"):WaitForObject()
                 pointData.RIGHT_INNER = indicator:GetCustomProperty("RIGHT_INNER"):WaitForObject()
+                pointData.LEFT_INNER_IMAGE = pointData.LEFT_INNER:GetChildren()[1]
                 pointData.LEFT_IMAGE = indicator:GetCustomProperty("LEFT_IMAGE"):WaitForObject()
                 pointData.RIGHT_IMAGE = indicator:GetCustomProperty("RIGHT_IMAGE"):WaitForObject()
+                pointData.RIGHT_INNER_IMAGE = pointData.RIGHT_INNER:GetChildren()[1]
 
                 pointData.LEFT_INNER.visibility = Visibility.FORCE_OFF
                 pointData.RIGHT_INNER.visibility = Visibility.FORCE_OFF
@@ -93,6 +103,8 @@ local function SetTeamColor(point, indicator)
     local RIGHT_INNER = pointData.RIGHT_INNER
     local LEFT_IMAGE = pointData.LEFT_IMAGE
     local RIGHT_IMAGE = pointData.RIGHT_IMAGE
+    local LEFT_INNER_IMAGE = pointData.LEFT_INNER_IMAGE
+    local RIGHT_INNER_IMAGE = pointData.RIGHT_INNER_IMAGE 
 
     if data[4] <= time() then
         if indicator.clientUserData.needsUpdate == false then
@@ -125,6 +137,8 @@ local function SetTeamColor(point, indicator)
 
     RIGHT_INNER.rotationAngle = math.min(1, progress * 2) * 180 - 180
     LEFT_INNER.rotationAngle = math.max(0, math.min(1, progress * 2 - 1)) * 180 - 180
+    RIGHT_INNER_IMAGE.rotationAngle = -RIGHT_INNER.rotationAngle
+    LEFT_INNER_IMAGE.rotationAngle = -LEFT_INNER.rotationAngle
 
     -- end
     if Object.IsValid(ICON) and Object.IsValid(BOARDER) then
@@ -216,5 +230,6 @@ end
 -- EVENTS & LISTENERS
 ------------------------------------------------------------------------------------------------------------------------
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
-SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewPoints)
-SPAWNED_OBJECTS.childRemovedEvent:Connect(OnChildRemoved)
+listeners[#listeners + 1] = SPAWNED_OBJECTS.childAddedEvent:Connect(AddNewPoints)
+listeners[#listeners + 1] = SPAWNED_OBJECTS.childRemovedEvent:Connect(OnChildRemoved)
+listeners[#listeners + 1] = script.destroyEvent:Connect(CleanUp)

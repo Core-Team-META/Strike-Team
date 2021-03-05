@@ -1,4 +1,4 @@
-﻿local RUN_SPEED = script:GetCustomProperty("RunSpeed")
+local RUN_SPEED = script:GetCustomProperty("RunSpeed")
 local SPRINT_SPEED = script:GetCustomProperty("SprintSpeed")
 local SCOPE_SPEED = script:GetCustomProperty("ScopeSpeed")
 local SLIDING_DURATION = script:GetCustomProperty("SlidingDuration")
@@ -18,7 +18,7 @@ local sprintboost = SPRINT_SPEED * 1.2
 function AddSprintBoost(player)
     if not player.serverUserData.EquippedWeapon then return SPRINT_SPEED end
     if not player.serverUserData.EquippedWeapon:IsA("Weapon") and player.serverUserData.EquippedWeapon:IsA("Equipment") then
-        
+
         return sprintboost
     end
     return SPRINT_SPEED
@@ -27,7 +27,7 @@ end
 function WillAffectMovement(player)
     if not player.serverUserData.EquippedWeapon then return false end
     if not player.serverUserData.EquippedWeapon:IsA("Weapon") and player.serverUserData.EquippedWeapon:IsA("Equipment") then
-        
+
         return false
     end
     return true
@@ -36,27 +36,23 @@ end
 
 function Tick(dt)
     if _G["MovementCanControl"] == false then return end
-    Task.Spawn(function()
-        for _, player in pairs(Game.GetPlayers()) do
-            if player.isCrouching ~= player.serverUserData.playerStatus["Crouching"] then
-                player.serverUserData.playerStatus["Crouching"] = player.isCrouching
-                UpdatePlayerSliding(player)
-            end 
-        end
-    end)
+    for _, player in pairs(Game.GetPlayers()) do
+        if player.isCrouching ~= player.serverUserData.playerStatus["Crouching"] then
+            player.serverUserData.playerStatus["Crouching"] = player.isCrouching
+            UpdatePlayerSliding(player)
+        end 
+    end
 
-    Task.Spawn(function()   
-        for player, slidingTimer in pairs(slidingTimers) do
-            if Object.IsValid(player) then 
-                if player.serverUserData.playerStatus and player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
-                player.serverUserData.playerStatus["Sliding"] = false
-                UpdatePlayerSliding(player)
-                UpdatePlayerAiming(player)
-                slidingTimers[player] = nil
-                end
+    for player, slidingTimer in pairs(slidingTimers) do
+        if Object.IsValid(player) then 
+            if player.serverUserData.playerStatus and player.serverUserData.playerStatus["Sliding"] and time() >= slidingTimer then
+            player.serverUserData.playerStatus["Sliding"] = false
+            UpdatePlayerSliding(player)
+            UpdatePlayerAiming(player)
+            slidingTimers[player] = nil
             end
         end
-    end)
+    end
 end
 
 function OnBindingPressed(player, key)
@@ -189,11 +185,12 @@ end
 
 function UpdatePlayerStance(player)
     --print(playerStances[player]["Sprinting"], playerStances[player]["Aiming"])
-    if player.serverUserData.playerStatus and player.serverUserData.playerStatus["Sprinting"] then
-        if player.serverUserData.playerStatus["Crouching"] then return end
+    if not player.serverUserData.playerStatus then return end
+    if player.serverUserData.playerStatus["Crouching"] then return end
+
+    if player.serverUserData.playerStatus["Sprinting"] then
         player.animationStance = playerStances[player]["Sprinting"]
     else
-        if player.serverUserData.playerStatus["Crouching"] then return end
         player.animationStance = playerStances[player]["Aiming"]
     end
 end
@@ -215,7 +212,10 @@ function OnEquipWeapon(owner, weapon)
     end
     playerStances[owner]["Sprinting"] = sprintingStance or "2hand_rifle_stance"
     playerStances[owner]["Aiming"] = aimingStance or "2hand_rifle_aim_shoulder"
+    
     Task.Wait()
+    if not Object.IsValid(owner) then return end
+    
     UpdatePlayerStance(owner)
     UpdatePlayerSprinting(owner)
 end

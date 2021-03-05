@@ -14,7 +14,7 @@ function updateTimer(Time)
         local Hours =  Time/(60*60) % 24
         local Minutes = Time/60 % 60
         local Seconds = Time % 60
-        DailyTimer.text = string.format("%d:%d:%d",math.floor(Hours),math.floor(Minutes),math.floor(Seconds))
+        DailyTimer.text = string.format("%02d:%02d:%02d",math.floor(Hours),math.floor(Minutes),math.floor(Seconds))
     end  
 end
 

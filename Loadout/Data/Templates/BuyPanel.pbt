@@ -54,6 +54,12 @@ Assets {
               SubObjectId: 14191704880622756035
             }
           }
+          Overrides {
+            Name: "cs:PurchaseCreditButton"
+            ObjectReference {
+              SubObjectId: 16374967814967297223
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -107,6 +113,7 @@ Assets {
         ChildIds: 8685427729476949344
         ChildIds: 16327069857349182301
         ChildIds: 17348237672967562807
+        ChildIds: 16374967814967297223
         ChildIds: 14427932866260289569
         ChildIds: 8365620890663554084
         ChildIds: 14191704880622756035
@@ -120,8 +127,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 578
-          Height: 277
+          Width: 663
+          Height: 345
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -295,7 +302,7 @@ Assets {
         Control {
           Width: 313
           Height: 2
-          UIY: -89.1877441
+          UIY: 44
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -317,12 +324,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -461,6 +468,181 @@ Assets {
         }
       }
       Objects {
+        Id: 16374967814967297223
+        Name: "PurchaseCreditButton"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2515449912817747963
+        ChildIds: 13401159179647119926
+        ChildIds: 1671852306732896176
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 304
+          Height: 58
+          UIY: 189
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Button {
+            FontColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            FontSize: 20
+            ButtonColor {
+              R: 0.8796224
+              G: 0.291770637
+              B: 0.0152085144
+              A: 1
+            }
+            HoveredColor {
+              R: 0.052
+              G: 0.052
+              B: 0.052
+              A: 1
+            }
+            PressedColor {
+              A: 1
+            }
+            DisabledColor {
+              A: 1
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+            ClickMode {
+              Value: "mc:ebuttonclickmode:default"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13401159179647119926
+        Name: "UI Text Box"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16374967814967297223
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 481
+          Height: 111
+          UIY: 10.9318085
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Label: "Purchase Strike Coins"
+            Color {
+              A: 1
+            }
+            Size: 20
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 1144950805409236433
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1671852306732896176
+        Name: "PerkButton"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16374967814967297223
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ButtonSFX"
+            AssetReference {
+              Id: 12158755182003592593
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 5653279162251628414
+          }
+        }
+      }
+      Objects {
         Id: 14427932866260289569
         Name: "PurchaseButtion"
         Transform {
@@ -484,9 +666,9 @@ Assets {
           Value: "mc:evisibilitysetting:forceon"
         }
         Control {
-          Width: 201
+          Width: 242
           Height: 53
-          UIY: 89.1876831
+          UIY: -32
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -531,12 +713,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
           }
@@ -643,7 +825,7 @@ Assets {
           Width: 220
           Height: 55
           UIX: -127
-          UIY: 89
+          UIY: -32.1876831
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -688,12 +870,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
           }
@@ -800,7 +982,7 @@ Assets {
           Width: 220
           Height: 55
           UIX: 133
-          UIY: 89.1876831
+          UIY: -32
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -845,12 +1027,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
           }
@@ -1023,6 +1205,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_020"
+      }
+    }
+    Assets {
+      Id: 1144950805409236433
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
       }
     }
     Assets {

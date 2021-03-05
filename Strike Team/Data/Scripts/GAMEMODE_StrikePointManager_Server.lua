@@ -22,6 +22,7 @@ while not tonumber(ROOT.name) do
     Task.Wait()
 end
 local ID = tonumber(ROOT.name)
+local listeners = {}
 local isActive = false
 local isEnabled = false
 local currentTeam
@@ -38,6 +39,14 @@ local GracePeriod = ROOT:GetCustomProperty("GracePeriod") or 20
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+local function CleanUp()
+    for _, listener in ipairs(listeners) do
+        if listener and listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+end
+
 
 local function GetData()
     local str = ROOT:GetCustomProperty("DATA")
@@ -153,11 +162,11 @@ function OnDestroyed(object)
             player:AddResource("Score", 50)
         end
     end
+    CleanUp()
 end
-
-ROOT.destroyEvent:Connect(OnDestroyed)
-TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
-TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
+listeners[#listeners + 1] = ROOT.destroyEvent:Connect(OnDestroyed)
+listeners[#listeners + 1] = TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
+listeners[#listeners + 1] = TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
 SetData({0, 0, MAX_RESOURCE, time() + GracePeriod})
 Task.Wait(GracePeriod)
 isEnabled = true
