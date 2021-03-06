@@ -7,7 +7,6 @@
 	+ WitcherSilver (META) (Art) (https://www.coregames.com/user/e730c40ae54d4c588658667927acc6d8)
 
 --]]
-
 ------------------------------------------------------------------------------------------------------------------------
 --	EXTERNAL SCRIPTS AND APIS
 ------------------------------------------------------------------------------------------------------------------------
@@ -32,8 +31,12 @@ local DEACTIVATE_EVENT = RootGroup:GetCustomProperty("DeactivateEvent")
 --	nil Activate()
 --	Forcefully activates the victory Screen
 function Activate(playerList)
-	Task.Wait(5)
-	VictoryScreenAPI.TeleportPlayers(RootGroup, playerList)
+	Task.Spawn(
+		function()
+			VictoryScreenAPI.TeleportPlayers(RootGroup, playerList)
+		end,
+		5
+	)
 end
 
 --	nil Activate()
@@ -51,15 +54,15 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 
 --	Connect Game.roundEndEvent to teleport players if ACTIVATE_AUTOMATICALLY is true
-if(ACTIVATE_AUTOMATICALLY) then
+if (ACTIVATE_AUTOMATICALLY) then
 	Game.roundEndEvent:Connect(Activate)
 end
 
 --	Connect ACTIVATE_EVENT to teleport players
-if(ACTIVATE_EVENT and (#ACTIVATE_EVENT > 0)) then
+if (ACTIVATE_EVENT and (#ACTIVATE_EVENT > 0)) then
 	Events.Connect(ACTIVATE_EVENT, Activate)
 end
 --	Connect DEACTIVATE_EVENT to restore players
-if(DEACTIVATE_EVENT and (#DEACTIVATE_EVENT > 0)) then
+if (DEACTIVATE_EVENT and (#DEACTIVATE_EVENT > 0)) then
 	Events.Connect(DEACTIVATE_EVENT, Deactivate)
 end

@@ -31,6 +31,7 @@ local RoundEndUIDisplayTemplate = script:GetCustomProperty("RoundEndUIDisplay")
 local shouldShowTimer = false
 local hasClickedScoreScreen = false
 local autoToggle = true
+local stateTime = 45
 local listeners = {}
 local activePanels = {}
 
@@ -142,7 +143,7 @@ function Tick(deltaTime)
             UpdateTimeRemaining(remainingTime)
 
             if
-                not hasClickedScoreScreen and remainingTime < 45 and
+                not hasClickedScoreScreen and remainingTime < stateTime - 15 and
                     activePanels["STATS_SCREEN"].visibility == Visibility.FORCE_OFF
              then
                 ClearActivePanels()
