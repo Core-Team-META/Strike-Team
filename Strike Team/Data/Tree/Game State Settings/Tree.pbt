@@ -202,7 +202,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RoundEndDuration"
-      Float: 60
+      Float: 45
     }
     Overrides {
       Name: "cs:StatsHasDuration"
