@@ -608,12 +608,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:GetTextLengthUTIL"
-      AssetReference {
-        Id: 5983722790795397515
-      }
-    }
-    Overrides {
       Name: "cs:FeedIcons"
       ObjectReference {
         SelfId: 12865564118021892379

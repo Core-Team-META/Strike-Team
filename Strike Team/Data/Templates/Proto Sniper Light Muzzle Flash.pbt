@@ -286,7 +286,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: 2400
-            Volume: 1.99737298
+            Volume: 1.33140612
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -333,7 +333,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: 451.008301
-            Volume: 2.55087185
+            Volume: 2.09202123
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true

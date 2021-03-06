@@ -62,14 +62,4 @@ function Blast(center)
             end
         end
     end
-
-    local vases = World.FindObjectsByName("Destructible Vase")
-    for _,v in pairs(vases) do
-        if ((center - v:GetWorldPosition()).size <= EXPLOSION_RADIUS) then
-            -- break the vase
-            Task.Spawn(function() 
-                destructableMgr.DamageObject(10, v)
-            end)
-        end
-    end
 end
