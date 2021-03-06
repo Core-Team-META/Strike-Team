@@ -47,6 +47,7 @@ end
 -- nil OnUnequipped()
 -- Returns the object back to original parent
 function OnUnequipped()
+	if not Object.IsValid(OBJECT) then return end
     if Object.IsValid(PARENT) then
         OBJECT:Detach()
         OBJECT.parent = PARENT
@@ -58,3 +59,10 @@ end
 
 EQUIPMENT.equippedEvent:Connect(OnEquipped)
 EQUIPMENT.unequippedEvent:Connect(OnUnequipped)
+
+script.destroyEvent:Connect(function()
+    if Object.IsValid(OBJECT) then  
+	    OBJECT:Destroy()
+    end
+	OBJECT = nil
+end)
