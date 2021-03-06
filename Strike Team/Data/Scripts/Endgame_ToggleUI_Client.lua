@@ -100,7 +100,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         World.SpawnAsset(RoundEndUIDisplayTemplate)
         PLAYER_PANELS.visibility = Visibility.FORCE_ON
-        stateTime = ABGS.GetTimeRemainingInState()
+        stateTime = ABGS.GetTimeRemainingInState() or 45
         ClearActivePanels()
         Task.Wait(5)
 
