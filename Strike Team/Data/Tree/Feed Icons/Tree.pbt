@@ -2309,8 +2309,8 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 20
+        X: 17
+        Y: 17
       }
     }
     Overrides {
@@ -2337,8 +2337,8 @@ Objects {
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 15
-        Y: 15
+        X: 12
+        Y: 12
       }
     }
     Overrides {

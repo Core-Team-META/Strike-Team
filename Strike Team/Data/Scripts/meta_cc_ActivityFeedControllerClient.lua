@@ -7,8 +7,6 @@
 	
 --]]
 
-local TEXT_CALC = require(script:GetCustomProperty("GetTextLengthUTIL"))
-
 -- Internal custom properties
 local AF_PANEL = script:GetCustomProperty("ActivityFeedPanel"):WaitForObject()
 local AF_LINE_TEMPLATE = script:GetCustomProperty("ActivityFeedLineTemplate")
@@ -332,7 +330,7 @@ function Tick(deltaTime)
 								textBox:SetColor(color)
 							end
 							feedElements["KilledText"] = element
-							feedElements["KilledText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
+							feedElements["KilledText"].width = textBox:ComputeApproximateSize().x
 
 							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
 						else
@@ -390,7 +388,7 @@ function Tick(deltaTime)
 								textBox:SetColor(color)
 							end
 							feedElements["KillerText"] = element
-							feedElements["KillerText"].width = TEXT_CALC.CalculateWidth(textBox.text,textBox.fontSize)
+							feedElements["KillerText"].width = textBox:ComputeApproximateSize().x
 							if (not element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_ON end
 						else
 							if (element:IsVisibleInHierarchy()) then element.visibility = Visibility.FORCE_OFF end
