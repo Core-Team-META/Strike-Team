@@ -146,7 +146,7 @@ Assets {
             UseReticle: true
             Muzzle {
               Location {
-                X: 80
+                X: 86
                 Z: 14
               }
             }

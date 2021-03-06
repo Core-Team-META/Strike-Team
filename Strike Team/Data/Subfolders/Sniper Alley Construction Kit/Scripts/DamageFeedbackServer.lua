@@ -83,7 +83,7 @@ end
 function OnPlayerDamaged(player, damage)
     if damage.sourcePlayer then
         CheckQueueTable(player,damage)
-        Task.Spawn(ClearQueues)
+        ClearQueues()
     end
 end
 
