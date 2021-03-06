@@ -31,6 +31,7 @@ local RoundEndUIDisplayTemplate = script:GetCustomProperty("RoundEndUIDisplay")
 local shouldShowTimer = false
 local hasClickedScoreScreen = false
 local autoToggle = true
+local stateTime = nil
 local listeners = {}
 local activePanels = {}
 
@@ -99,6 +100,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     elseif newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         World.SpawnAsset(RoundEndUIDisplayTemplate)
         PLAYER_PANELS.visibility = Visibility.FORCE_ON
+        stateTime = ABGS.GetTimeRemainingInState() or 45
         ClearActivePanels()
         Task.Wait(5)
 
@@ -142,7 +144,7 @@ function Tick(deltaTime)
             UpdateTimeRemaining(remainingTime)
 
             if
-                not hasClickedScoreScreen and remainingTime < 45 and
+                not hasClickedScoreScreen and remainingTime < stateTime - 15 and
                     activePanels["STATS_SCREEN"].visibility == Visibility.FORCE_OFF
              then
                 ClearActivePanels()
