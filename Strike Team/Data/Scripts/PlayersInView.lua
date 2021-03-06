@@ -18,7 +18,7 @@ end
 
 
 function CheckVisible(player,otherplayer)
-    if not player then return end
+    if not Object.IsValid(player) or not Object.IsValid(otherplayer) then return end
     local viewdirection = (player:GetWorldRotation() * Vector3.FORWARD):GetNormalized()  
     local directionTowards = (otherplayer:GetWorldPosition() - player:GetWorldPosition()):GetNormalized()
     local Dot = viewdirection .. directionTowards

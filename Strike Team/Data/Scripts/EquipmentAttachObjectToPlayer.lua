@@ -47,6 +47,7 @@ end
 -- nil OnUnequipped()
 -- Returns the object back to original parent
 function OnUnequipped()
+	if not Object.IsValid(OBJECT) then return end
     if Object.IsValid(PARENT) then
         OBJECT:Detach()
         OBJECT.parent = PARENT
@@ -56,14 +57,12 @@ function OnUnequipped()
     end
 end
 
--- Initialize
-local Connections
+EQUIPMENT.equippedEvent:Connect(OnEquipped)
+EQUIPMENT.unequippedEvent:Connect(OnUnequipped)
 
-Connections = {
 script.destroyEvent:Connect(function()
-	for k,v in pairs(Connections) do
-		v:Disconnect()
-	end end),
-EQUIPMENT.equippedEvent:Connect(OnEquipped),
-EQUIPMENT.unequippedEvent:Connect(OnUnequipped),
-}
+    if Object.IsValid(OBJECT) then  
+	    OBJECT:Destroy()
+    end
+	OBJECT = nil
+end)

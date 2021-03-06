@@ -4458,9 +4458,9 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 0.0594035946
-            Y: 0.088403292
-            Z: 0.481166124
+            X: 0.105995029
+            Y: 0.157739818
+            Z: 0.727139354
           }
         }
         ParentId: 12555943241003096818
@@ -4502,14 +4502,6 @@ Assets {
             Float: 8
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 2.45000696
-              B: 3
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
             Float: 8
           }
@@ -4520,7 +4512,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1600288174066419638
+              Id: 17424022318384404616
             }
           }
         }

@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10671565427701169845
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -287,7 +287,7 @@ Assets {
       }
       Objects {
         Id: 15838891544207407126
-        Name: "LeatherBound"
+        Name: "Leather Bound"
         Transform {
           Location {
           }
@@ -520,7 +520,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -563,7 +563,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -606,7 +606,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -735,7 +735,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -873,7 +873,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -1140,7 +1140,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -1226,7 +1226,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -1269,7 +1269,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -1536,7 +1536,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -1842,7 +1842,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -1885,7 +1885,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2014,7 +2014,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2195,7 +2195,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -2497,7 +2497,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2540,7 +2540,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2669,7 +2669,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2850,7 +2850,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -3160,7 +3160,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3203,7 +3203,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3332,7 +3332,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3513,7 +3513,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -3819,7 +3819,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3862,7 +3862,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3991,7 +3991,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4172,7 +4172,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -4513,7 +4513,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4556,7 +4556,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4728,7 +4728,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4745,7 +4745,7 @@ Assets {
       }
       Objects {
         Id: 15116588184109938732
-        Name: "LeatherBound"
+        Name: "Leather Bound"
         Transform {
           Location {
           }
@@ -4903,7 +4903,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -4995,7 +4995,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -5278,7 +5278,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5321,7 +5321,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5450,7 +5450,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5631,7 +5631,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -5724,6 +5724,10 @@ Assets {
         ChildIds: 4041972631444464198
         ChildIds: 14882477821164350885
         ChildIds: 5630368539969828154
+        ChildIds: 17433119713215083741
+        ChildIds: 2760539336311039185
+        ChildIds: 10945934532375176547
+        ChildIds: 10289307472104123285
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -5907,7 +5911,7 @@ Assets {
       }
       Objects {
         Id: 8297301311363447406
-        Name: "CastIron"
+        Name: "Cast Iron"
         Transform {
           Location {
           }
@@ -6059,6 +6063,178 @@ Assets {
           Overrides {
             Name: "cs:ID"
             String: "CA"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 17433119713215083741
+        Name: "Raw Chicken"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 6781371901743496834
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "RD"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 2760539336311039185
+        Name: "Chicken Dinner"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 11310372561799153810
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CD"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 10945934532375176547
+        Name: "Turkey Dinner"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 3534014750410879160
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "TD"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 10289307472104123285
+        Name: "Fish Dinner"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3060115540773037701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2910249148736204078
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "FD"
           }
           Overrides {
             Name: "cs:Rarity"
@@ -8113,7 +8289,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -8183,6 +8359,7 @@ Assets {
         ChildIds: 3395916084643068518
         ChildIds: 17783400764688954256
         ChildIds: 1896452198088528538
+        ChildIds: 3406589016357581641
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -8510,7 +8687,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -8553,7 +8730,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -8772,6 +8949,49 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 3406589016357581641
+        Name: "Turkey Leg"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7771605384388490917
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 289051353967150378
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "TL"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {

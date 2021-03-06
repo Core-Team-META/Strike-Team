@@ -256,7 +256,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 25
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -330,7 +330,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 20
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -371,11 +371,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:WIN"
-      Int: 100
+      Int: 250
     }
     Overrides {
       Name: "cs:LOSS"
-      Int: 50
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -406,7 +406,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 1
+      Float: 3
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -443,7 +443,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 30
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -480,7 +480,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 2
+      Float: 5
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -517,7 +517,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
+      Float: 20
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -1111,8 +1111,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4355175678147851601
-  Name: "LoadoutEquipment"
+  Id: 11798300948541012873
+  Name: "SDUtilities"
   Transform {
     Location {
     }
@@ -1133,50 +1133,14 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "LoadoutEquipment"
+    FilePartitionName: "SDUtilities"
   }
   InstanceHistory {
-    SelfId: 4355175678147851601
-    SubobjectId: 15973117888364099070
-    InstanceId: 4975704287466969891
-    TemplateId: 10798511928395917419
+    SelfId: 11798300948541012873
+    SubobjectId: 12718548997188726446
+    InstanceId: 9594168207497404638
+    TemplateId: 1203951522902028190
     WasRoot: true
-  }
-}
-Objects {
-  Id: 9594168207497404638
-  Name: "SDUtilities"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10671565427701169845
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12718548997188726446
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SDUtilities"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1203951522902028190
-    }
   }
 }
 Objects {

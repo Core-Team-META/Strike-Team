@@ -7,7 +7,13 @@ Assets {
       Overrides {
         Name: "cs:Commands"
         AssetReference {
-          Id: 4480426034829824473
+          Id: 841534158063459245
+        }
+      }
+      Overrides {
+        Name: "cs:Verified_Players"
+        AssetReference {
+          Id: 841534158063459245
         }
       }
     }

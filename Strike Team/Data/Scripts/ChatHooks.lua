@@ -1,11 +1,16 @@
 local Commands = require(script:GetCustomProperty("Commands"))
+local VerifiedPlayers = require(script:GetCustomProperty("Verified_Players"))
 
 function seperateMessage(Message)
     return {CoreString.Split(Message, " ")}
 end
 
-function VerifyPlayer()
-
+function VerifyPlayer(player)
+    if Environment.IsPreview() then return true end 
+    for _,v in pairs(VerifiedPlayers) do
+        if player.id == v then return true end
+    end
+    return false
 end
 
 function ReturnPlayerByName(name)  
@@ -36,10 +41,12 @@ local PlayerHandler =
 
 if(Environment.IsServer()) then
     function RecieveMessage(player,message)
-        message = tostring( message["message"])
-        if not (string.sub(message, 1, 1) == "/") then return end
-        message = string.sub(message, 2, #message)
-        Newmessage = seperateMessage(message)
+        if VerifyPlayer(player) == false then return end 
+        local textmessage = tostring( message["message"])
+        if not (string.sub(textmessage, 1, 1) == "/") then return end
+        message.message = ""
+        textmessage = string.sub(textmessage, 2, #textmessage)
+        Newmessage = seperateMessage(textmessage)
         if(Commands[Newmessage[1]]) then 
             local ReturnMessage = "Command successful"
             if(Newmessage[2]) then
@@ -53,23 +60,5 @@ if(Environment.IsServer()) then
             end
         end
     end
+    Chat.receiveMessageHook:Connect(RecieveMessage)
 end
-
-if(Environment.IsClient())then 
-    Events.Connect("CommandPanel.Submit", function(message)
-        Newmessage = seperateMessage(message)
-        if(Commands[Newmessage[1]]) then 
-            if(Commands[Newmessage[1]] == "HELP") then return Events.Broadcast("CommandPanel.WriteToPanel", ReturnCommandsAsString()) end
-            ReliableEvents.BroadcastToServer("CommandPanel.Recieve", message)
-        else
-            Events.Broadcast("CommandPanel.WriteToPanel", "404, Not Found")
-        end
-    end )
-
-    Events.Connect("CommandPanel.Reply", function(Text)
-        Events.Broadcast("CommandPanel.WriteToPanel", Text)
-    end )
-end
-
-
-Chat.receiveMessageHook:Connect(RecieveMessage)

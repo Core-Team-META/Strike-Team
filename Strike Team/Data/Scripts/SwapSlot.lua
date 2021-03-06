@@ -55,7 +55,6 @@ showTable = {
 
 
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
-    print(showTable[newState]  )
     if showTable[newState]   then 
 
         CanActivate = false

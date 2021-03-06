@@ -84,6 +84,14 @@ function RemovePlayer(player)
             Weapon["Weapon"]:Destroy()
         end
     end
+
+    -- Loop everything on the player and tell it to be destroyed so scripts call
+    for _, attached in pairs(player:GetAttachedObjects()) do
+        if Object.IsValid(attached) then
+            attached:Destroy()
+        end
+    end
+
     player.serverUserData.Backpack = nil
 end
 
@@ -95,5 +103,5 @@ Events.Connect("AddWeaponToBackPack",function( player, weapon, holster, extraDat
     table.insert( player.serverUserData.Backpack, {["Weapon"] = weapon,["Holser"] = holster, ["Offset"] = extraData.rotation or Rotation.New(0,0,0)})
     AttatchWeapon(player, weapon)
 end)    
-Game.playerLeftEvent:Connect(RemovePlayer)
 Game.playerJoinedEvent:Connect(JoinedPlayer)
+Game.playerLeftEvent:Connect(RemovePlayer)

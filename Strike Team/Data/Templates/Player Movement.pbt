@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8568336417442047963
+        ParentId: 4565846863626438544
         ChildIds: 12296091099848911402
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

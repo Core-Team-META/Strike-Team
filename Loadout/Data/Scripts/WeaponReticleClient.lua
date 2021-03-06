@@ -84,4 +84,12 @@ end
 
 -- Initialize
 WEAPON.unequippedEvent:Connect(RemoveReticle)
-Events.Connect("WeaponAiming", OnWeaponAimChanged)
+local weaponAimingListener = Events.Connect("WeaponAiming", OnWeaponAimChanged)
+
+-- Cleanup
+script.destroyEvent:Connect(function()
+	if weaponAimingListener then
+		weaponAimingListener:Disconnect()
+		weaponAimingListener = nil
+	end
+end)

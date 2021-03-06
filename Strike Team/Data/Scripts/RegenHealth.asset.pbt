@@ -6,11 +6,11 @@ Assets {
     CustomParameters {
       Overrides {
         Name: "cs:TimeBeforeHealing"
-        Float: 1
+        Float: 4
       }
       Overrides {
         Name: "cs:HealinigPerSecond"
-        Float: 50
+        Float: 25
       }
     }
   }

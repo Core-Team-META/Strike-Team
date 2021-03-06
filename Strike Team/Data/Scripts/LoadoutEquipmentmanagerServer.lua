@@ -107,9 +107,12 @@ function EquipPlayer(player)
 
     Task.Spawn(function()
     	if not Object.IsValid(player) then return end
-    	
+        local giveUpTime = time() + 5
         while not player.serverUserData.NetworkSpawn do
-        	Task.Wait()
+            if time() > giveUpTime then
+                return
+            end
+        	Task.Wait(0.1)
         	if not Object.IsValid(player) then return end
         end
         player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("EquippedLoadout", EquipString)
