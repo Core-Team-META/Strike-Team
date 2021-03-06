@@ -1,6 +1,47 @@
 Name: "Bigglebuns"
 RootId: 1229943756454095254
 Objects {
+  Id: 13244858924417107668
+  Name: "Invisible Collider"
+  Transform {
+    Location {
+      X: 4638.56152
+      Y: 11218.3994
+      Z: 286.008209
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.175625026
+      Y: 7.25371
+      Z: 2.9222312
+    }
+  }
+  ParentId: 1229943756454095254
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 1626609097989359509
   Name: "Invisible Collider"
   Transform {

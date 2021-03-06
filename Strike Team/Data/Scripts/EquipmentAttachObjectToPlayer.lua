@@ -61,6 +61,8 @@ EQUIPMENT.equippedEvent:Connect(OnEquipped)
 EQUIPMENT.unequippedEvent:Connect(OnUnequipped)
 
 script.destroyEvent:Connect(function()
-	OBJECT:Destroy()
+    if Object.IsValid(OBJECT) then  
+	    OBJECT:Destroy()
+    end
 	OBJECT = nil
 end)
