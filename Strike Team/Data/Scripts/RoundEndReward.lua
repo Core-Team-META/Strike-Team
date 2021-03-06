@@ -80,12 +80,10 @@ end
 
 function RoundEndHandler.GameEnd()
     for _,player in pairs(Game.GetPlayers()) do
-        Task.Spawn(function() 
-            local Win = _G["GameWinner"] == player.team
-            RoundEndHandler.CalculateCash(player,Win)
-            RoundEndHandler.CalculateGold(player,Win)
-            RoundEndHandler.CalculateXP(player,Win)
-        end)
+        local Win = _G["GameWinner"] == player.team
+        RoundEndHandler.CalculateCash(player,Win)
+        RoundEndHandler.CalculateGold(player,Win)
+        RoundEndHandler.CalculateXP(player,Win)
     end
 end
 
