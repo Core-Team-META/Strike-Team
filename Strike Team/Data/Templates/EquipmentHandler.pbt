@@ -4685,7 +4685,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5786,7 +5786,7 @@ Assets {
       }
       Objects {
         Id: 15394827217863815071
-        Name: "Bacon\'n\'Egg"
+        Name: "Bacon\'N\'Egg"
         Transform {
           Location {
           }
@@ -6152,7 +6152,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -6195,7 +6195,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -6238,7 +6238,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -6442,7 +6442,7 @@ Assets {
       }
       Objects {
         Id: 9395429950999217797
-        Name: "HotEdge"
+        Name: "Hot Edge"
         Transform {
           Location {
           }
@@ -6793,7 +6793,7 @@ Assets {
       }
       Objects {
         Id: 14526070409029323025
-        Name: "BumbleBee"
+        Name: "Bumble Bee"
         Transform {
           Location {
           }
@@ -7195,7 +7195,7 @@ Assets {
       }
       Objects {
         Id: 18226726662314449143
-        Name: "Ice cold"
+        Name: "Ice Cold"
         Transform {
           Location {
           }
@@ -7519,7 +7519,7 @@ Assets {
       }
       Objects {
         Id: 6866831403478106549
-        Name: "HoloBlade"
+        Name: "Holoblade"
         Transform {
           Location {
           }
@@ -7839,7 +7839,7 @@ Assets {
       }
       Objects {
         Id: 3994927184366818071
-        Name: "Hologram green"
+        Name: "Hologram Green"
         Transform {
           Location {
           }
@@ -7878,7 +7878,7 @@ Assets {
       }
       Objects {
         Id: 5116382499787745962
-        Name: "SnowCone"
+        Name: "Snow Cone"
         Transform {
           Location {
           }
@@ -8025,7 +8025,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -8068,7 +8068,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Epic"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -8197,7 +8197,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -8346,6 +8346,7 @@ Assets {
           }
         }
         ParentId: 14217987289201631810
+        ChildIds: 3705137147794835768
         ChildIds: 6656122681752114511
         ChildIds: 12702947652671362523
         ChildIds: 15468831990202450658
@@ -8411,6 +8412,49 @@ Assets {
         Script {
           ScriptAsset {
             Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 3705137147794835768
+        Name: "WSJN09"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7771605384388490917
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5715172478645235563
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "WB"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
           }
         }
       }
