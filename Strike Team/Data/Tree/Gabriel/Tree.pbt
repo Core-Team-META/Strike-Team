@@ -1,6 +1,33 @@
 Name: "Gabriel"
 RootId: 10996531461860900982
 Objects {
+  Id: 15387487776500949676
+  Name: "ServerAnalysis"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10996531461860900982
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10932134586341208386
+    }
+  }
+}
+Objects {
   Id: 14541080373739301823
   Name: "Team Balancing"
   Transform {
