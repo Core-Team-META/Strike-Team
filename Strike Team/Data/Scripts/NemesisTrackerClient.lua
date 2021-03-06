@@ -9,6 +9,8 @@ local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
 local PlayerKilledEvent = script:GetCustomProperty("PlayerKilledEvent")
 
+local nemesisTrackerServer = script:GetCustomProperty("NemesisTrackerServer"):WaitForObject()
+
 local YourNemesisText = script:GetCustomProperty("YourNemesisText"):WaitForObject()
 local YourNemesisKillsText = script:GetCustomProperty("YourNemesisKillsText"):WaitForObject()
 
@@ -22,6 +24,8 @@ local nemesisOfStatText = script:GetCustomProperty("NemesisOfStatText"):WaitForO
 local nemesisMarker = script:GetCustomProperty("NemesisVictoryScreenMarker")
 
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+
+local printTableWithN = script:GetCustomProperty("PrintTableWithN")
 
 local localPlayer = Game.GetLocalPlayer()
 
@@ -356,6 +360,10 @@ end
 function CalculateNemesis()
 
 	nemesisList = {}
+	
+	--[[
+	
+	--OLD VER.
 
 	local selectedNemesis = nil
 	local nemesisKills = 0
@@ -399,7 +407,46 @@ function CalculateNemesis()
 		end
 							
 	end
-			
+	
+	]]--
+	
+	while not nemesisTrackerServer:GetCustomProperty("ListSet") do
+	
+		Task.Wait()
+		
+	end
+	
+	local providedString = ""
+	
+	for i = 1, 12 do
+	
+		providedString = nemesisTrackerServer:GetCustomProperty("P" .. tostring(i)) 
+		
+	    local result = {}
+	    
+	    local insertThis = true
+	    
+	    for section in (providedString..":"):gmatch("(.-):") do
+	    
+	    	if section == "" then
+	    	
+	    		insertThis = false
+	    	
+	    		break
+	    		
+	    	end
+	    
+	        table.insert(result, section)
+	        
+	    end	
+	    
+	    if insertThis then
+	    
+	   		table.insert(nemesisList, {result[1], result[2], tonumber(result[3]), tonumber(result[4])})
+	   		
+	   	end
+	    
+	end
 end
 
 function MarkNemesis()
@@ -675,6 +722,42 @@ function OnSkipAnimation()
 	
 end
 
+function PrintNemesisIndex(player, binding)
+
+	if binding ~= "ability_extra_44" then
+	
+		return
+		
+	end
+	
+	if not nemesisIndex then
+	
+		return
+		
+	end
+	
+	print("--------------------NEMESIS INDEX TABLE--------------------")
+	
+	local nemesisString = ""
+	
+	for victim, killerList in pairs(nemesisIndex) do
+	
+		nemesisString = "VICTIM " .. GetPlayer(victim).name .. " Killed by: "
+	
+		for killer, killCount in pairs(killerList) do
+		
+			nemesisString = nemesisString .. GetPlayer(killer).name .. " " .. killCount .. " times, "
+		
+		end
+		
+		print(nemesisString)
+		
+	end
+
+	print("-----------------------------------------------------------")
+
+end
+
 function InitializeVictoryScreenMarkers()
 
 	for _, entry in pairs(victoryScreenContainer:GetChildren()) do
@@ -695,14 +778,20 @@ function InitializeVictoryScreenMarkers()
 	       	
 	YourNemesisText.text = ""
 	YourNemesisKillsText.text = "0"
+	
+	if printTableWithN then
+	
+		localPlayer.bindingPressedEvent:Connect(PrintNemesisIndex)
+		
+	end
 
 end
 
 InitializeVictoryScreenMarkers()
 
-Events.Connect(PlayerKilledEvent, TrackKill)
+--Events.Connect(PlayerKilledEvent, TrackKill)
 
-Game.playerLeftEvent:Connect(RemoveFromTable)
+--Game.playerLeftEvent:Connect(RemoveFromTable)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("ShowNemesis", ShowNemesis)
