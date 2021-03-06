@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16558952592433488756
+  Name: "Fantasy Bowl 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Bowl_004"
+  }
+}
+Assets {
   Id: 15337799720467641762
   Name: "Weapon Knife 005"
   PlatformAssetType: 9
@@ -68,15 +77,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Stone_028"
-  }
-}
-Assets {
-  Id: 13181704607944528788
-  Name: "Survival Pot 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Equip_Pot_002"
   }
 }
 Assets {
@@ -248,6 +248,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Weapon_Bazooka_003"
+  }
+}
+Assets {
+  Id: 367155900824895840
+  Name: "Survival Tool Wrench 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Tool_025"
   }
 }
 Assets {

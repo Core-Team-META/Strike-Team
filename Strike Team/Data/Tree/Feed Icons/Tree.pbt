@@ -546,13 +546,13 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 13181704607944528788
+        Id: 367155900824895840
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 13181704607944528788
+        Id: 16558952592433488756
       }
     }
     Overrides {
@@ -592,17 +592,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Layer_03_Rotate"
-      Float: 30
+      Float: 0
     }
     Overrides {
       Name: "cs:Layer_04_Rotate"
-      Float: 30
-    }
-    Overrides {
-      Name: "cs:Layer_03_Color"
-      Color {
-        A: 0.786
-      }
+      Float: -35
     }
     Overrides {
       Name: "cs:Layer_01_WidthHeight"
@@ -614,7 +608,103 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_Offset"
       Vector2 {
-        Y: 3
+        X: -8
+        Y: 11
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: -10
+        Y: -10
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Offset"
+      Vector2 {
+        X: 4
+        Y: -3
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06"
+      AssetReference {
+        Id: 16558952592433488756
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05"
+      AssetReference {
+        Id: 367155900824895840
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Offset"
+      Vector2 {
+        X: -9
+        Y: 11
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_WidthHeight"
+      Vector2 {
+        X: -10
+        Y: -10
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Offset"
+      Vector2 {
+        X: 5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Rotate"
+      Float: -35
+    }
+    Overrides {
+      Name: "cs:Layer_06_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Color"
+      Color {
+        R: 0.702
+        G: 0.386332452
+        B: 0.210600019
+        A: 1
       }
     }
   }
