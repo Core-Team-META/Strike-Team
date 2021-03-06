@@ -22,11 +22,11 @@ function Reload()
     WEAPON.clientUserData.Ammo = MAX_AMMO
     if(RELOAD_SOUND) then
         local Sound = World.SpawnAsset(RELOAD_SOUND, {position = WEAPON:GetWorldPosition()})
-        Task.Spawn(function()
+        --[[Task.Spawn(function()
             if(Object.IsValid(Sound)) then 
                 Sound:Destroy()
             end
-        end, 1)
+        end, 1)]]--
     end
     WEAPON.clientUserData.reloading = false
 end
@@ -45,11 +45,11 @@ function CheckFire()
 
         if(RELOAD_SOUND) then
             local Sound = World.SpawnAsset(OUT_OF_AMMO, {position = WEAPON:GetWorldPosition()})
-            Task.Spawn(function()
+            --[[Task.Spawn(function()
                 if(Object.IsValid(Sound)) then 
                     Sound:Destroy()
                 end 
-            end, 1)
+            end, 1)]]--
         end
         return false
     else
