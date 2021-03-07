@@ -75,7 +75,7 @@ end
 function RefreshCheck()
 	if TRANSFER_PLAYERS then
 		roundsPlayed = roundsPlayed + 1
-		if roundsPlayed > 1 then
+		if roundsPlayed > ROUNDS_BEFORE_LOCKING then
 			-- "Note that players already in the process of joining the server will still be accepted
 			-- and Game.playerJoinedEvent may still fire for a short period of time after a call to this function returns."
 			Game.StopAcceptingPlayers()
