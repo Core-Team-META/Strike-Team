@@ -1268,7 +1268,6 @@ Objects {
     }
   }
   ParentId: 5723566900376747960
-  ChildIds: 5022503526126086415
   ChildIds: 7205318940452338248
   ChildIds: 17353932514154092254
   ChildIds: 5545416829348895081
@@ -2031,9 +2030,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -2098,9 +2097,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -2165,9 +2164,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -2232,9 +2231,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -2397,63 +2396,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5022503526126086415
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000863166701
-      Y: 0.000517901732
-    }
-    Rotation {
-      Yaw: -3.07358459e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6652934295581642637
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 120
-    Height: 120
-    UIY: -20.574
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 15871727560503513495
   Name: "Player7"
   Transform {
@@ -2558,7 +2500,6 @@ Objects {
     }
   }
   ParentId: 15871727560503513495
-  ChildIds: 683679635562727390
   ChildIds: 10986133814558821856
   ChildIds: 12645779441703309861
   ChildIds: 3269037720531055904
@@ -3321,9 +3262,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -3388,9 +3329,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -3455,9 +3396,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -3522,9 +3463,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -3687,63 +3628,6 @@ Objects {
   }
 }
 Objects {
-  Id: 683679635562727390
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000863166817
-      Y: 0.000517901499
-    }
-    Rotation {
-      Yaw: -1.70754702e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12949393337662953908
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 120
-    Height: 120
-    UIY: -20.5735512
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 1464533678794873841
   Name: "Player6"
   Transform {
@@ -3848,7 +3732,6 @@ Objects {
     }
   }
   ParentId: 1464533678794873841
-  ChildIds: 1411658391773124949
   ChildIds: 14707500364864233410
   ChildIds: 14359000791433289947
   ChildIds: 3816678861555381151
@@ -4611,9 +4494,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -4678,9 +4561,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -4745,9 +4628,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -4812,9 +4695,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -4977,63 +4860,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1411658391773124949
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000863167
-      Y: 0.000517901266
-    }
-    Rotation {
-      Yaw: -6.83018834e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8851066573275506961
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 120
-    Height: 120
-    UIY: -20.5735512
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 2144905604503381087
   Name: "Player5"
   Transform {
@@ -5138,7 +4964,6 @@ Objects {
     }
   }
   ParentId: 2144905604503381087
-  ChildIds: 15487334177611360323
   ChildIds: 17541233860621261759
   ChildIds: 5734428130895204091
   ChildIds: 1309165761323039881
@@ -5901,9 +5726,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -5968,9 +5793,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -6035,9 +5860,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -6102,9 +5927,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -6267,63 +6092,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15487334177611360323
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000863167
-      Y: 0.00051790115
-    }
-    Rotation {
-      Yaw: 3.41509417e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6678140602454429159
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 140
-    Height: 140
-    UIY: -21.0819225
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 8589389083670957857
   Name: "Player4"
   Transform {
@@ -6428,7 +6196,6 @@ Objects {
     }
   }
   ParentId: 8589389083670957857
-  ChildIds: 6870454139095486173
   ChildIds: 9882715810994430837
   ChildIds: 643408788571472251
   ChildIds: 5030207453824374728
@@ -7191,9 +6958,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -7258,9 +7025,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -7325,9 +7092,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -7392,9 +7159,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -7557,63 +7324,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6870454139095486173
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000830798293
-      Y: 0.00055026979
-    }
-    Rotation {
-      Yaw: 1.02452823e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10340808434140279985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 140
-    Height: 140
-    UIY: -21.0819225
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 9078727606175875165
   Name: "Player3"
   Transform {
@@ -7717,7 +7427,6 @@ Objects {
     }
   }
   ParentId: 9078727606175875165
-  ChildIds: 16360603521287494568
   ChildIds: 8426217769507018636
   ChildIds: 15312056251167268053
   ChildIds: 2900062514907807274
@@ -8548,9 +8257,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -8615,9 +8324,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -8682,9 +8391,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -8749,9 +8458,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -8843,63 +8552,6 @@ Objects {
     SubobjectId: 9472717936789278423
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
-  }
-}
-Objects {
-  Id: 16360603521287494568
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000798429654
-      Y: 0.000582638371
-    }
-    Rotation {
-      Yaw: 2.3905659e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13011518123325099975
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 190
-    Height: 190
-    UIY: -30.711216
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
   }
 }
 Objects {
@@ -9012,7 +8664,6 @@ Objects {
   ChildIds: 11290309821877951831
   ChildIds: 5752626348790400814
   ChildIds: 16997382398134826079
-  ChildIds: 2474614739501278189
   ChildIds: 10792649040250480080
   ChildIds: 16947016167609337366
   ChildIds: 5146184775016362510
@@ -9730,63 +9381,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2474614739501278189
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.000927904795
-      Y: 0.000453163288
-    }
-    Rotation {
-      Yaw: 1.70754702e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2476936349695455540
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 190
-    Height: 190
-    UIY: -30.711216
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 16997382398134826079
   Name: "FRAME_RIGHT"
   Transform {
@@ -9826,9 +9420,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -9893,9 +9487,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -9960,9 +9554,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -10027,9 +9621,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -10295,10 +9889,10 @@ Objects {
     }
   }
   ParentId: 17237569339051846686
+  ChildIds: 14977423575303324591
   ChildIds: 1738616525715759041
   ChildIds: 16894823374904547657
   ChildIds: 6855875867408621891
-  ChildIds: 3348595923944567112
   ChildIds: 4019426029522628628
   ChildIds: 387437444880506922
   ChildIds: 16972842531684028892
@@ -10326,7 +9920,7 @@ Objects {
         Id: 841534158063459245
       }
       Color {
-        A: 0.741176486
+        A: 0.788000047
       }
       TeamSettings {
       }
@@ -11086,63 +10680,6 @@ Objects {
   }
 }
 Objects {
-  Id: 3348595923944567112
-  Name: "CROWN_SHADOW"
-  Transform {
-    Location {
-      X: -0.00100343197
-      Y: 0.00037763617
-    }
-    Rotation {
-      Yaw: 6.83018834e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12785837880691629025
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 250
-    Height: 250
-    UIY: -40.3945694
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7218644607194852594
-      }
-      Color {
-        A: 0.397
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 6855875867408621891
   Name: "FRAME_RIGHT"
   Transform {
@@ -11182,9 +10719,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -11249,9 +10786,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -11316,9 +10853,9 @@ Objects {
       }
       Color {
         R: 0.871367335
-        G: 0.278894335
-        B: 0.0122864898
-        A: 1
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.775000036
       }
       TeamSettings {
       }
@@ -11341,6 +10878,67 @@ Objects {
     SubobjectId: 9472717936789278423
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 14977423575303324591
+  Name: "FRAME_TOP"
+  Transform {
+    Location {
+      X: 4175.46631
+      Y: -4026.97559
+      Z: -950
+    }
+    Rotation {
+      Yaw: 44.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12785837880691629025
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    Image {
+      Brush {
+        Id: 622433789355555801
+      }
+      Color {
+        R: 0.871367335
+        G: 0.278894424
+        B: 0.0122865
+        A: 0.655000031
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
   }
 }
 Objects {
