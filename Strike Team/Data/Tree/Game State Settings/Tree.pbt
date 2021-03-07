@@ -384,7 +384,7 @@ Objects {
     }
     Overrides {
       Name: "cs:TransferPlayers"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:RoundsBeforeLocking"
