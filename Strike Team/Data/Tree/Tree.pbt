@@ -29,6 +29,7 @@ Objects {
   ChildIds: 1229943756454095254
   ChildIds: 13957708681624490865
   ChildIds: 16700493030671677123
+  ChildIds: 11465192532139812295
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +39,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11465192532139812295
+  Name: "Cheats"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6184471972196350148
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cheats"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5612067076796280963
+    }
   }
 }
 Objects {
