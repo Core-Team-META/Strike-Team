@@ -63,10 +63,12 @@ local function OnResourceChanged(player, resName, resAmt)
 end
 
 local function PlayerKilled(player, target, weaponType, isHeadShot)
-
     if player == target then
         return
     end
+
+    player.serverUserData.ACH_killCount =
+        player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount + 1 or 1
 
     if weaponType == "Assault Rifle" then
         ACH_API.AddProgress(player, "AS_NRAR1", 1)
@@ -126,10 +128,6 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     ACH_API.AddProgress(player, "AS_NRKill1", 1)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
-
-    if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
-        ACH_API.AddProgress(player, "AS_Blackjack", 21)
-    end
 
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
@@ -200,8 +198,12 @@ function OnRoundEnd()
                 not player.serverUserData.ACH_diedInRound
          then
             ACH_API.AddProgress(player, "AS_UNKILLABLE", 1)
-        end]] player.serverUserData.ACH_killCount =
-            0
+        end]]
+        if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
+            ACH_API.AddProgress(player, "AS_Blackjack", 21)
+        end
+
+        player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
     end
 end
