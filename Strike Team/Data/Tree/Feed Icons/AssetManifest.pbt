@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14040275802819979174
+  Name: "Emblem Cross"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_061"
+  }
+}
+Assets {
   Id: 13586096600253432719
   Name: "Fantasy Craft Stone 028"
   PlatformAssetType: 9
