@@ -2490,19 +2490,20 @@ Objects {
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 3426494528448305421
+        Id: 14040275802819979174
       }
     }
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 3426494528448305421
+        Id: 14040275802819979174
       }
     }
     Overrides {
       Name: "cs:Layer_04_Color"
       Color {
-        R: 0.86
+        R: 0.820000052
+        G: 0.342119247
         A: 1
       }
     }
