@@ -1,10 +1,10 @@
 Assets {
-  Id: 13814694794152247962
-  Name: "st_lifetime"
+  Id: 15498785167959182952
+  Name: "RKStorage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "02099a9ad11e4ae3b4443adf78c87879"
+      Key: "f30c444234ca4141b01b01a58941e6a3"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11823956090002470478
-  Name: "st_loadout"
+  Id: 12589248189172594157
+  Name: "RKStatKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+      Key: "267da196327f40548d4f1f68d8f10646"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,25 @@ Assets {
   }
 }
 Assets {
-  Id: 9864115505048245055
-  Name: "st_statkey"
+  Id: 10320510856815676509
+  Name: "RKLoadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+      Key: "d4181639b16e4a3591fd16f3c6c5387f"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 1538584477947879091
+  Name: "RKLifetimeStats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "7535923a5ade487492db3129830d0a2a"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -44,18 +57,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
-  }
-}
-Assets {
-  Id: 816923657989222415
-  Name: "st_storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
