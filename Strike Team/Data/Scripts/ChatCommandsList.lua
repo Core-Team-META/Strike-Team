@@ -23,6 +23,7 @@ commands = {
         requireMessage = true,
         adminOnly = true
     },
+--[[
     ["/nemesis"] = {
         OnCommandCalledClient = function (player, message)
         end,
@@ -35,6 +36,7 @@ commands = {
         requireMessage = false,
         adminOnly = true
     },
+]]
     ["/help"] = {
         OnCommandCalledClient = function (player, message)
             for i, v in pairs(commands) do
