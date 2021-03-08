@@ -1298,69 +1298,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 1182866270013029485
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2061278447804926435
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5676328151497008060
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7615345712002682155
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9554237938363600979
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14549819746773039667
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17797202136349572526
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
     TemplateAsset {
       Id: 12469272091380785429
     }
