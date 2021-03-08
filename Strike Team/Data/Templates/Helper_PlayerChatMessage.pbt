@@ -25,7 +25,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 250
@@ -91,9 +91,9 @@ Assets {
               Id: 17289448223043935888
             }
             Color {
-              G: 0.194617391
-              B: 0.799102962
-              A: 0.7
+              G: 0.376262099
+              B: 0.467783839
+              A: 0.932000041
             }
             TeamSettings {
             }
@@ -148,9 +148,9 @@ Assets {
               Id: 4638899201218271044
             }
             Color {
-              G: 0.194617391
-              B: 0.799102962
-              A: 0.7
+              G: 0.376262099
+              B: 0.467783839
+              A: 0.932000041
             }
             TeamSettings {
             }
@@ -262,6 +262,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 2044747135125227812
             }
           }
           AnchorLayout {
@@ -295,6 +296,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Basic_Shape_Triangle"
+      }
+    }
+    Assets {
+      Id: 2044747135125227812
+      Name: "Play"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayRegular_ref"
       }
     }
     PrimaryAssetId {
