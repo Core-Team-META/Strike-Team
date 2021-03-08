@@ -56,7 +56,7 @@ function GetPlayer(playerId)
 
 end
 
-function TrackKill(killer, damage)
+function TrackKill(victim, damage)
 
 	if not damage.sourcePlayer then
 	
@@ -64,7 +64,7 @@ function TrackKill(killer, damage)
 		
 	end
 	
-	local victim = damage.sourcePlayer
+	local killer = damage.sourcePlayer
 
 	if not killer or not victim or not killer:IsA("Player") or not victim:IsA("Player") then
 	
