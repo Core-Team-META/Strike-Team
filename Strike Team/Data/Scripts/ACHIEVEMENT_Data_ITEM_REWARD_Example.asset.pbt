@@ -9,6 +9,10 @@ Assets {
         Bool: true
       }
       Overrides {
+        Name: "cs:WeaponId"
+        String: ""
+      }
+      Overrides {
         Name: "cs:SkinId"
         String: ""
       }

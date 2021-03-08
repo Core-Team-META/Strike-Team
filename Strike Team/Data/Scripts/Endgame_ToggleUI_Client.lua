@@ -30,7 +30,6 @@ local RoundEndUIDisplayTemplate = script:GetCustomProperty("RoundEndUIDisplay")
 
 local shouldShowTimer = false
 local hasClickedScoreScreen = false
-local autoToggle = true
 local stateTime = 45
 local listeners = {}
 local activePanels = {}
@@ -84,7 +83,6 @@ function OnButtonPressed(button)
         Events.Broadcast("ShowScoreboardScreen")
     end
     hasClickedScoreScreen = true
-    autoToggle = false
 end
 
 --#TODO Redo this it's a mess

@@ -7386,7 +7386,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceName"
-      String: "Experience"
+      String: "XP"
     }
     Overrides {
       Name: "cs:Amount"
