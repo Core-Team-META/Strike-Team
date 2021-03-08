@@ -49,7 +49,7 @@ commands = {
         end,
         OnCommandReceivedClient = function (player, message)
         end,
-        description = "shows a list of available commands",
+        description = "shows a list of available commands, none currently available",
         requireMessage = false,
         adminOnly = false
     },
