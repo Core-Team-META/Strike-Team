@@ -65,12 +65,12 @@ function OnReceiveMessage(player, params)
     if isNameCommand then
         if name == LOCAL_PLAYER.name or player == LOCAL_PLAYER then
             local trimmedMessage = CoreString.Trim(params.message, command)
-            SpawnChatMessage(player, trimmedMessage, Color.ORANGE)
+            -- SpawnChatMessage(player, trimmedMessage, Color.ORANGE)
         end
         return
     end
 
-    SpawnChatMessage(player, params.message)
+    -- SpawnChatMessage(player, params.message)
 end
 
 function SpawnChatMessage(player, message, color, players)
@@ -95,4 +95,4 @@ end
 Chat.sendMessageHook:Connect(OnSendMessage)
 Chat.receiveMessageHook:Connect(OnReceiveMessage)
 
-Events.Connect("SpawnChatMessage", SpawnChatMessage)
+-- Events.Connect("SpawnChatMessage", SpawnChatMessage)
