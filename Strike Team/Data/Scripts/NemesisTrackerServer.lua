@@ -9,13 +9,7 @@ local nemesisIndex = {}
 
 local nemesisList = {}
 
-function PrintNemesisIndex(player, binding)
-
-	if binding ~= "ability_extra_44" then
-	
-		return
-		
-	end
+function PrintNemesisIndex(player)
 	
 	if not nemesisIndex then
 	
@@ -23,25 +17,23 @@ function PrintNemesisIndex(player, binding)
 		
 	end
 	
-	print("--------------------NEMESIS INDEX TABLE--------------------")
+	Chat.BroadcastMessage("NEMESIS INDEX TABLE:", {players = {player}})
 	
 	local nemesisString = ""
 	
 	for victim, killerList in pairs(nemesisIndex) do
 	
-		nemesisString = "VICTIM " .. GetPlayer(victim).name .. " Killed by: "
+		nemesisString = GetPlayer(victim).name .. " Killed by: "
 	
 		for killer, killCount in pairs(killerList) do
 		
-			nemesisString = nemesisString .. GetPlayer(killer).name .. " " .. killCount .. " times, "
+			nemesisString = nemesisString .. GetPlayer(killer).name .. ": " .. killCount .. ", "
 		
 		end
 		
-		print(nemesisString)
+		Chat.BroadcastMessage(nemesisString, {players = {player}})
 		
 	end
-
-	print("-----------------------------------------------------------")
 
 end
 
@@ -109,7 +101,7 @@ end
 function Setup(player)
 
 	player.diedEvent:Connect(TrackKill)
-	player.bindingPressedEvent:Connect(PrintNemesisIndex)
+	--player.bindingPressedEvent:Connect(PrintNemesisIndex)
 
 end
 
@@ -270,3 +262,4 @@ Game.playerJoinedEvent:Connect(Setup)
 Game.playerLeftEvent:Connect(RemoveFromTable)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
+Events.Connect("PrintNemesis", PrintNemesisIndex)

@@ -23,6 +23,18 @@ commands = {
         requireMessage = true,
         adminOnly = true
     },
+    ["/nemesis"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)
+        	Events.Broadcast("PrintNemesis", player)
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Print the nemesis index table",
+        requireMessage = false,
+        adminOnly = true
+    },
     ["/help"] = {
         OnCommandCalledClient = function (player, message)
             for i, v in pairs(commands) do
