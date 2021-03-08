@@ -4,14 +4,14 @@ local messagePrefix = "[SERVER]"
 local ragdollData = {}
 
 commands = {
-    ["/amsg"] = {
+    ["/announce"] = {
         OnCommandCalledClient = function (player, message)
         end,
         OnCommandCalledServer = function (player, message)
             local split = {CoreString.Split(message)}
             local trimMessage = CoreString.Trim(message, split[1])
             local players = Game.FindPlayersInSphere(player:GetWorldPosition(), 3000)
-            Chat.BroadcastMessage(string.format("[Shout] %s:%s", player.name, trimMessage), {players = players})
+            Chat.BroadcastMessage(string.format("[ADMIN] %s:%s", player.name, trimMessage), {players = players})
         end,
         OnCommandReceivedClient = function (player, message)
             local split = {CoreString.Split(message)}
@@ -38,9 +38,9 @@ commands = {
     ["/help"] = {
         OnCommandCalledClient = function (player, message)
             for i, v in pairs(commands) do
-                Chat.LocalMessage(i .. ": " .. v.description)
-
-
+                if (i ~= "/announce") then
+                    Chat.LocalMessage(i .. ": " .. v.description)
+                end
             end
         end,
         OnCommandCalledServer = function (player, message)

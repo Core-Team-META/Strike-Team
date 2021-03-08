@@ -669,6 +669,85 @@ Objects {
   }
 }
 Objects {
+  Id: 5275192067228570809
+  Name: "Storage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  ChildIds: 6727302963592679419
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6727302963592679419
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5275192067228570809
+  ChildIds: 9331821406101556803
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
+  Id: 9331821406101556803
+  Name: "ServerStorage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6727302963592679419
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1446949125359162070
+    }
+  }
+}
+Objects {
   Id: 638249065725457675
   Name: "PlayersInView"
   Transform {
@@ -1219,69 +1298,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 1182866270013029485
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2061278447804926435
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5676328151497008060
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7615345712002682155
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9554237938363600979
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14549819746773039667
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17797202136349572526
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
     TemplateAsset {
       Id: 12469272091380785429
     }
@@ -1306,7 +1322,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "a82c9c593b0d474b9a538e0bd95e4680"
+        Key: "02099a9ad11e4ae3b4443adf78c87879"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1315,7 +1331,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "5a3ea05146bd4a758c1408c294d05c38"
+        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1324,7 +1340,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "62e90670ac2549c49ed0b7ae7931fb4d"
+        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1333,7 +1349,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "3b7b3b964255409887f17adcf3c9b7eb"
+        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

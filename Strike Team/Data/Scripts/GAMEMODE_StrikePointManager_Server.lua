@@ -26,7 +26,6 @@ local listeners = {}
 local isActive = false
 local isEnabled = false
 local currentTeam
-local lastTeam
 local playersOnHill = {}
 local TIME_PER_TICK = 0.1
 local MAX_PROGRESS = 100
@@ -157,7 +156,6 @@ end
 function OnDestroyed(object)
     for player, team in pairs(playersOnHill) do
         if currentTeam == team then
-            lastTeam = team
             player:AddResource("Objective", 5)
             player:AddResource("Score", 50)
         end
