@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Achievement API
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/15
--- Version 0.1.2
+-- Date: 2021/3/7
+-- Version 0.1.3
 ------------------------------------------------------------------------------------------------------------------------
 local API = {}
 
@@ -25,6 +25,10 @@ local function Split(s, delimiter)
     return result
 end
 
+--@param object player
+--@param string key
+--@param int value
+-- Sets the progress of a achievement for a player
 local function SetProgress(player, key, value)
     local currentProgress = player:GetResource(key)
     if currentProgress == 1 then
@@ -39,10 +43,15 @@ local function SetProgress(player, key, value)
     end
 end
 
+--@param object Player
+--@return bool true if player
 local function IsValidPlayer(object)
     return Object.IsValid(object) and object:IsA("Player")
 end
 
+--@param int count
+--@return int count
+--Used to protect from InfiniteLoops. If count = 50 do a task.wait
 local function InfiniteLoopProtect(count)
     count = count + 1
     if count >= 50 then
@@ -56,6 +65,7 @@ end
 -- PUBLIC API
 ------------------------------------------------------------------------------------------------------------------------
 
+--@param table list
 function API.RegisterAchievements(list)
     if not next(achievements) then
         local sort = 0
@@ -67,16 +77,15 @@ function API.RegisterAchievements(list)
             local description = child:GetCustomProperty("Description")
             local iconBG = child:GetCustomProperty("IconBG")
             local icon = child:GetCustomProperty("Icon")
-            local rewardName = child:GetCustomProperty("RewardName")
-            local rewardAmmount = child:GetCustomProperty("RewardAmount")
-            local rewardIcon = child:GetCustomProperty("RewardIcon")
             local isRepeatable = child:GetCustomProperty("IsRepeatable") or false
             local givesReward = child:GetCustomProperty("GivesReward") or false
             local Family = child:GetCustomProperty("Family")
             local tier = child:GetCustomProperty("AchievementTier")
+            local saveCount = child:GetCustomProperty("SaveCompletedCount")
 
             local achievement = {
                 id = id,
+                countId = id .. "C",
                 sort = sort,
                 name = child.name,
                 required = required + 1,
@@ -84,13 +93,22 @@ function API.RegisterAchievements(list)
                 family = Family,
                 iconBG = iconBG,
                 icon = icon,
-                rewardName = rewardName,
-                rewardAmt = rewardAmmount,
-                rewardIcon = rewardIcon,
                 isRepeatable = isRepeatable,
                 givesReward = givesReward,
-                tier = tier
+                tier = tier,
+                saveCount = saveCount
             }
+            if givesReward then
+                local rewardsTbl = {}
+                for i, reward in ipairs(child:GetChildren()) do
+                    local rewardEnabled = reward:GetCustomProperty("Enabled")
+                    if rewardEnabled then
+                        rewardsTbl[i] = reward
+                    end
+                end
+                achievement.rewards = rewardsTbl
+            end
+
             if enabled then
                 sort = sort + 1
                 achievements[id] = achievement
@@ -167,37 +185,75 @@ end
 -- CHECKS
 ------------------------------------------------------------------------------------------------------------------------
 
-function API.CollectReward(player, id)
+function API.HasRewards(id)
+    return achievements[id].givesReward and next(achievements[id].rewards)
+end
+
+--@param object player
+--@param string id
+-- Give rewards to a player for a certain achievement
+function API.GiveRewards(player, id)
     if achievements[id] then
         local achievement = achievements[id]
-        if player:GetResource(id) >= API.GetAchievementRequired(id) then
-            player:SetResource(id, 1)
-            if achievement.rewardName and achievement.rewardAmt then
-                player:AddResource(achievement.rewardName, achievement.rewardAmt)
+        if API.IsUnlocked(player, id) and API.HasRewards(id) then
+            -- Check to see if player unlocked achievement
+            for _, reward in ipairs(achievements[id].rewards) do
+                print("GivingRewards")
+                local resourceName = reward:GetCustomProperty("ResourceName")
+                local rewardAmount = reward:GetCustomProperty("Amount")
+                local skinId = reward:GetCustomProperty("SkinId")
+                if resourceName and rewardAmount then
+                    player:AddResource(resourceName, rewardAmount)
+                elseif skinId then
+                --##FIXME Needs to get the skinId and give it to the player
+                end
             end
+            API.SetClaimed(player, id)
         end
     end
 end
 
+--@param object player
+-- Gives a player all rewards for every unlocked achievement
+function API.GiveAllRewards(player)
+    local unlockedTbl = API.CheckUnlockedAchievements(player)
+    for _, achievement in pairs(unlockedTbl) do
+        if API.HasRewards(achievement.id) then
+            API.GiveRewards(player, achievement.id)
+        end
+    end
+end
+
+--@param object player
+--@param string id
+function API.SetClaimed(player, id)
+    player:SetResource(id, 1)
+end
+
+--@param object player
+--@param string id
+--@return int currentProgress for an achievement
 function API.GetCurrentProgress(player, id)
     if IsValidPlayer(player) then
         return player:GetResource(id)
     end
 end
 
+--@param object player
+--@param string id
+--@param int value
+--@return bool true if player has enough to unlock achievement
 function API.IsUnlocked(player, id, value)
     value = value or API.GetCurrentProgress(player, id)
-    if
-        IsValidPlayer(player) and API.GetAchievementInfo(id) and
-        value >= API.GetAchievementRequired(id)
-     then
+    if IsValidPlayer(player) and API.GetAchievementInfo(id) and value >= API.GetAchievementRequired(id) then
         return true
     else
         return false
     end
 end
 
-
+--@param object player
+--@return table of achievements the player has current unlocked
 function API.GetUnlockedAchievements(player)
     local tempTbl = {}
     local count = 0
@@ -210,11 +266,14 @@ function API.GetUnlockedAchievements(player)
     return tempTbl
 end
 
+--@param object player
+--@param table of currently unlocked achievements for the player that have been filtered based on FamilyType
 function API.CheckUnlockedAchievements(player)
     local unlockedTbl = API.GetUnlockedAchievements(player)
     local familyTbl = {}
     local tempTbl = {}
     local count = 0
+    --Loop through unlocked achievements and filter out achievements with a family
     for id, achievement in pairs(unlockedTbl) do
         if achievement.family then
             familyTbl[achievement.family] = familyTbl[achievement.family] or {}
@@ -224,6 +283,8 @@ function API.CheckUnlockedAchievements(player)
         end
         count = InfiniteLoopProtect(count)
     end
+
+    --Loop through family achievements and only give credit to the player for the highest value in the family
     for family, tbl in pairs(familyTbl) do
         local lastCount = 0
         local highestAchievement
@@ -241,17 +302,26 @@ function API.CheckUnlockedAchievements(player)
     return tempTbl
 end
 
+--@param object player
+--@param string id
 function API.UnlockAchievement(player, id)
-    if IsValidPlayer(player) and API.GetAchievementInfo(id) then
+    local achievement = API.GetAchievementInfo(id)
+    if IsValidPlayer(player) and achievement then
         SetProgress(player, id, API.GetAchievementRequired(id))
+        if achievement.isRepeatable and achievement.saveCount then
+            API.AddCompletedCount(player, achievement)
+        end
     end
 end
 
+--@param object player
+--@param string id
+--@param int value
 function API.AddProgress(player, id, value)
     if IsValidPlayer(player) and API.GetAchievementInfo(id) then
         local currentProgress = player:GetResource(id)
 
-        --Return if achievement finished
+        --Return if achievement finished - 1 is stored as completed
         if currentProgress == 1 then
             return
         end
@@ -271,6 +341,24 @@ function API.AddProgress(player, id, value)
     end
 end
 
+--@param object player
+--@param table achievement
+function API.AddCompletedCount(player, achievement)
+    if API.IsUnlocked(player, achievement.id) then
+        player:AddResource(achievement.countId, 1)
+    end
+end
+
+--@param object player
+function API.ResetRepeatable(player)
+    for id, achievement in pairs(API.GetAchievements()) do
+        if achievement.isRepeatable then
+            player:SetResource(id, 0)
+        end
+    end
+end
+
+--@param object player
 function API.LoadAchievementStorage(player)
     local data = Storage.GetPlayerData(player)
     if data.ACHIEVEMENT then
@@ -281,20 +369,15 @@ function API.LoadAchievementStorage(player)
     end
 end
 
-function API.ResetRepeatable(player)
-    for id, achievement in pairs(API.GetAchievements()) do
-        if achievement.isRepeatable then
-            player:SetResource(id, 0)
-        end
-    end
-end
-
+--@param object player
 function API.SaveAchievementStorage(player)
     local data = Storage.GetPlayerData(player)
     local tempTbl = {}
     for id, achievement in pairs(API.GetAchievements()) do
-        if not achievement.isRepeatable then
+        if not achievement.isRepeatable and not achievement.saveCount then
             tempTbl[id] = player:GetResource(id)
+        elseif achievement.isRepeatable and achievement.saveCount and achievement.countId then
+            tempTbl[achievement.countId] = player:GetResource(achievement.countId)
         end
     end
 
@@ -302,7 +385,6 @@ function API.SaveAchievementStorage(player)
     Storage.SetPlayerData(player, data)
 end
 
---#TODO Get progress, unlock and isUnlocked functions
 ------------------------------------------------------------------------------------------------------------------------
 -- STORAGE API
 ------------------------------------------------------------------------------------------------------------------------

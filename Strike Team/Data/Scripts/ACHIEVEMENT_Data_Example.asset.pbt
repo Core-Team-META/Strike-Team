@@ -21,6 +21,10 @@ Assets {
         Bool: false
       }
       Overrides {
+        Name: "cs:SaveCompletedCount"
+        Bool: false
+      }
+      Overrides {
         Name: "cs:IconBG"
         AssetReference {
           Id: 841534158063459245
@@ -43,20 +47,6 @@ Assets {
       Overrides {
         Name: "cs:GivesReward"
         Bool: false
-      }
-      Overrides {
-        Name: "cs:RewardName"
-        String: ""
-      }
-      Overrides {
-        Name: "cs:RewardAmount"
-        Int: 0
-      }
-      Overrides {
-        Name: "cs:RewardIcon"
-        AssetReference {
-          Id: 841534158063459245
-        }
       }
       Overrides {
         Name: "cs:AchievementTier"

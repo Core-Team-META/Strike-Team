@@ -5,7 +5,7 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:GivesReward"
+        Name: "cs:Enabled"
         Bool: true
       }
       Overrides {
@@ -15,6 +15,10 @@ Assets {
       Overrides {
         Name: "cs:Amount"
         Int: 0
+      }
+      Overrides {
+        Name: "cs:ResourceName"
+        String: ""
       }
     }
   }

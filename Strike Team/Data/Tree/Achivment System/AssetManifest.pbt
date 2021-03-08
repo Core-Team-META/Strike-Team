@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16466079658499434425
-  Name: "Survival Money 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Equip_Money_002"
-  }
-}
-Assets {
   Id: 16452085222527001410
   Name: "Fantasy Ability Red 013"
   PlatformAssetType: 9

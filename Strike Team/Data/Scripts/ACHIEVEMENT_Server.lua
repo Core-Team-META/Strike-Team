@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Achievement System Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/3/4
--- Version 0.1.4
+-- Date: 2021/3/7
+-- Version 0.1.5
 ------------------------------------------------------------------------------------------------------------------------
 local ROOT = script:GetCustomProperty("AchievementSystem"):WaitForObject()
 local isEnabled = ROOT:GetCustomProperty("Enabled")
@@ -199,12 +199,13 @@ function OnRoundEnd()
          then
             ACH_API.AddProgress(player, "AS_UNKILLABLE", 1)
         end]]
+
         if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
             ACH_API.AddProgress(player, "AS_Blackjack", 21)
         end
-
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
+        ACH_API.GiveAllRewards(player)
     end
 end
 

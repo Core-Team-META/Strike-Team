@@ -174,7 +174,12 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
         NOTIFICATION.visibility = Visibility.FORCE_ON
     end
     if newState == ABGS.GAME_STATE_ROUND_END then
-        BuildAchievementInfoPanel()
+        Task.Spawn(
+            function()
+                BuildAchievementInfoPanel()
+            end,
+            2
+        )
     else
         ClearAchievements()
         ClearListeners(listeners)

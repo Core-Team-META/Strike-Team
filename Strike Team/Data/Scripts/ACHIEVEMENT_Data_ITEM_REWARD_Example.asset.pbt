@@ -5,14 +5,12 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:GivesReward"
+        Name: "cs:Enabled"
         Bool: true
       }
       Overrides {
-        Name: "cs:ItemReference"
-        AssetReference {
-          Id: 841534158063459245
-        }
+        Name: "cs:SkinId"
+        String: ""
       }
     }
   }

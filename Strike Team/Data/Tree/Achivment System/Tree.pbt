@@ -4205,16 +4205,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -4277,16 +4267,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 12959683438091425192
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -4355,16 +4335,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -4427,16 +4397,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 12959683438091425192
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -4505,16 +4465,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -4577,16 +4527,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 10293868230383892927
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -4655,16 +4595,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -4727,16 +4657,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 15102808600489961866
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -4805,16 +4725,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -4877,16 +4787,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 15102808600489961866
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -4955,16 +4855,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5027,16 +4917,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 1577908654407312898
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -5105,16 +4985,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5177,16 +5047,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9532212054162413688
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -5255,16 +5115,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5327,16 +5177,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9532212054162413688
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -5405,16 +5245,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5477,16 +5307,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9823496921708851556
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -5555,16 +5375,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5627,16 +5437,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9823496921708851556
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -5705,16 +5505,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5777,16 +5567,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 10719288243058469548
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -5855,16 +5635,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -5927,16 +5697,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 10719288243058469548
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6005,16 +5765,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6077,16 +5827,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 2417593569095758378
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6155,16 +5895,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6227,16 +5957,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 2417593569095758378
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6305,16 +6025,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6377,16 +6087,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 16080437900078114139
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6455,16 +6155,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6527,16 +6217,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 16080437900078114139
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6605,16 +6285,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6677,16 +6347,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 14759442090699897862
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6755,16 +6415,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6827,16 +6477,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 14759442090699897862
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -6905,16 +6545,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -6977,16 +6607,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9494927095817957209
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -7055,16 +6675,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -7127,16 +6737,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9494927095817957209
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -7205,16 +6805,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -7277,16 +6867,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 13533117987219502857
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -7355,16 +6935,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -7427,16 +6997,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 13533117987219502857
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -7505,16 +7065,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -7580,16 +7130,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -7652,16 +7192,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 11003755840746783835
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -7734,16 +7264,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:IsRepeatable"
       Bool: true
     }
@@ -7752,6 +7272,14 @@ Objects {
       AssetReference {
         Id: 3884726409041590116
       }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:SaveCompletedCount"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -7781,6 +7309,16 @@ Objects {
     }
   }
   ParentId: 5457313247597616644
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "TEST"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: false
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7808,6 +7346,16 @@ Objects {
     }
   }
   ParentId: 5457313247597616644
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "Unknown"
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 1666
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7835,6 +7383,16 @@ Objects {
     }
   }
   ParentId: 5457313247597616644
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "Experience"
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 10000
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7862,6 +7420,16 @@ Objects {
     }
   }
   ParentId: 5457313247597616644
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "Cash"
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 500
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7953,20 +7521,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:Enabled"
       Bool: false
     }
@@ -8015,20 +7569,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 4297852791511374283
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -8083,20 +7623,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:Enabled"
       Bool: false
     }
@@ -8145,20 +7671,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 4297852791511374283
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -8213,20 +7725,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:Enabled"
       Bool: false
     }
@@ -8278,20 +7776,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:Enabled"
       Bool: false
     }
@@ -8340,20 +7824,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 10719288243058469548
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -8411,20 +7881,6 @@ Objects {
         Id: 12302064936883739148
       }
     }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8476,20 +7932,6 @@ Objects {
         Id: 3994329569018597371
       }
     }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8535,20 +7977,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9084852752205607158
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -8603,20 +8031,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:Enabled"
       Bool: false
     }
@@ -8668,20 +8082,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
       Name: "cs:Enabled"
       Bool: false
     }
@@ -8729,20 +8129,6 @@ Objects {
     Overrides {
       Name: "cs:Enabled"
       Bool: false
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
     }
     Overrides {
       Name: "cs:Icon"
@@ -8801,20 +8187,6 @@ Objects {
         Id: 13674166041910731120
       }
     }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8864,20 +8236,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 9330387688631166988
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
   }
@@ -8931,20 +8289,6 @@ Objects {
         Id: 9299577150874846566
       }
     }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8991,20 +8335,6 @@ Objects {
       AssetReference {
         Id: 11074002944006108218
       }
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 100
     }
     Overrides {
       Name: "cs:Enabled"
@@ -9059,20 +8389,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 101582251860649597
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
@@ -9132,20 +8448,6 @@ Objects {
       Name: "cs:Icon"
       AssetReference {
         Id: 11558416342040965384
-      }
-    }
-    Overrides {
-      Name: "cs:RewardName"
-      String: "Cash"
-    }
-    Overrides {
-      Name: "cs:RewardAmount"
-      Int: 10000
-    }
-    Overrides {
-      Name: "cs:RewardIcon"
-      AssetReference {
-        Id: 16466079658499434425
       }
     }
     Overrides {
