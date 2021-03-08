@@ -17,23 +17,55 @@ function PrintNemesisIndex(player)
 		
 	end
 	
-	Chat.BroadcastMessage("NEMESIS INDEX TABLE:", {players = {player}})
-	
 	local nemesisString = ""
+	local fullString = "NEMESIS INDEX TABLE:"
+	local playerName = ""
+	local shortenedName = ""
 	
 	for victim, killerList in pairs(nemesisIndex) do
 	
-		nemesisString = GetPlayer(victim).name .. " Killed by: "
+		playerName = GetPlayer(victim).name
+		
+		shortenedName = ""
+		
+		for x = 1, 4 do
+		
+			if string.sub(playerName, x, x) then
+			
+				shortenedName = shortenedName .. string.sub(playerName, x, x)
+				
+			end
+			
+		end
+	
+		nemesisString = " \n " .. shortenedName .. " KB: "
+
 	
 		for killer, killCount in pairs(killerList) do
 		
-			nemesisString = nemesisString .. GetPlayer(killer).name .. ": " .. killCount .. ", "
+			playerName = GetPlayer(killer).name
+			
+			shortenedName = ""
+		
+			for x = 1, 4 do
+			
+				if string.sub(playerName, x, x) then
+				
+					shortenedName = shortenedName .. string.sub(playerName, x, x)
+					
+				end
+				
+			end
+		
+			nemesisString = nemesisString .. shortenedName .. ": " .. killCount .. ", "
 		
 		end
 		
-		Chat.BroadcastMessage(nemesisString, {players = {player}})
+		fullString = fullString .. nemesisString
 		
 	end
+	
+	Chat.BroadcastMessage(fullString, {players = {player}})
 
 end
 
@@ -101,7 +133,6 @@ end
 function Setup(player)
 
 	player.diedEvent:Connect(TrackKill)
-	--player.bindingPressedEvent:Connect(PrintNemesisIndex)
 
 end
 
@@ -172,6 +203,9 @@ function CalculateNemesis()
 	local selectedNemesis = nil
 	local nemesisKills = 0
 	local otherNemesisCount = 0
+	local victimHighestKills = {}
+	
+	
 	
 	-- Calculate who is the nemeis of who
 	for victim, killerList in pairs(nemesisIndex) do

@@ -4,7 +4,7 @@ local messagePrefix = "[SERVER]"
 local ragdollData = {}
 
 commands = {
-    ["/announce"] = {
+    ["/adminall"] = {
         OnCommandCalledClient = function (player, message)
         end,
         OnCommandCalledServer = function (player, message)
@@ -17,12 +17,13 @@ commands = {
             local split = {CoreString.Split(message)}
             local trimMessage = CoreString.Trim(message, split[1])
             local players = Game.FindPlayersInSphere(player:GetWorldPosition(), 3000)
-            Events.Broadcast("SpawnChatMessage", player, trimMessage, Color.ORANGE, players)
+            -- Events.Broadcast("SpawnChatMessage", player, trimMessage, Color.ORANGE, players)
         end,
         description = "Shows admin message in chat to all players",
         requireMessage = true,
         adminOnly = true
     },
+--[[
     ["/nemesis"] = {
         OnCommandCalledClient = function (player, message)
         end,
@@ -35,10 +36,11 @@ commands = {
         requireMessage = false,
         adminOnly = true
     },
+]]
     ["/help"] = {
         OnCommandCalledClient = function (player, message)
             for i, v in pairs(commands) do
-                if (i ~= "/announce") then
+                if (i ~= "/adminall") then
                     Chat.LocalMessage(i .. ": " .. v.description)
                 end
             end
@@ -47,7 +49,7 @@ commands = {
         end,
         OnCommandReceivedClient = function (player, message)
         end,
-        description = "shows a list of available commands",
+        description = "shows a list of available commands, none currently available",
         requireMessage = false,
         adminOnly = false
     },
