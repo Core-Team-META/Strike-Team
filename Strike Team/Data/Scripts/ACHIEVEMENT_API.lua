@@ -10,7 +10,6 @@ local API = {}
 -- CONSTANTS
 ------------------------------------------------------------------------------------------------------------------------
 local achievements = {}
-local repeaTableAchievements = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -69,7 +68,6 @@ end
 function API.RegisterAchievements(list)
     if not next(achievements) then
         local sort = 0
-        local repeatCount = 0
         for _, child in ipairs(list:GetChildren()) do
             local enabled = child:GetCustomProperty("Enabled")
             local id = child:GetCustomProperty("ID")
@@ -112,10 +110,6 @@ function API.RegisterAchievements(list)
             if enabled then
                 sort = sort + 1
                 achievements[id] = achievement
-            end
-            if isRepeatable then
-                repeatCount = repeatCount + 1
-                repeaTableAchievements[repeatCount] = achievement
             end
         end
     end

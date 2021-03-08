@@ -199,9 +199,8 @@ function OnRoundEnd()
          then
             ACH_API.AddProgress(player, "AS_UNKILLABLE", 1)
         end]]
-
         if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
-            ACH_API.AddProgress(player, "AS_Blackjack", 21)
+            ACH_API.UnlockAchievement(player, "AS_Blackjack")
         end
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
