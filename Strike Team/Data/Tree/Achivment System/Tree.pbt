@@ -7353,7 +7353,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 1666
+      Int: 0
     }
   }
   Collidable_v2 {
@@ -7390,7 +7390,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 10000
+      Int: 0
     }
   }
   Collidable_v2 {
@@ -7427,7 +7427,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 500
+      Int: 0
     }
   }
   Collidable_v2 {

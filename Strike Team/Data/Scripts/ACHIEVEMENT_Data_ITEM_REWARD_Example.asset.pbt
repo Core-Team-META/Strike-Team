@@ -12,6 +12,14 @@ Assets {
         Name: "cs:SkinId"
         String: ""
       }
+      Overrides {
+        Name: "cs:Enabled:tooltip"
+        String: "Set to true if the reward is enabled."
+      }
+      Overrides {
+        Name: "cs:SkinId:tooltip"
+        String: "The skind ID that the player will unlock upon claiming this reward."
+      }
     }
   }
   SerializationVersion: 76
