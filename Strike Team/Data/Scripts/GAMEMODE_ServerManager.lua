@@ -147,7 +147,7 @@ function OnPlayerJoined(player)
                 equipment:Destroy()
             end
         end
-
+        Events.Broadcast("EmptyBackpack", player )
         player.movementControlMode = MovementControlMode.NONE
         player.lookControlMode = LookControlMode.NONE
         Task.Spawn(
