@@ -210,7 +210,6 @@ Objects {
     }
   }
   ParentId: 10477958480793043052
-  ChildIds: 16715403073475792032
   ChildIds: 15244880827608853350
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -963,33 +962,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 14286833678750044082
-    }
-  }
-}
-Objects {
-  Id: 16715403073475792032
-  Name: "KillFeedbackServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10139885653258044757
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14944724524581749827
     }
   }
 }

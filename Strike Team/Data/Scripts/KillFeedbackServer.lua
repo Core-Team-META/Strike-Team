@@ -5,7 +5,7 @@
 	
 	Shows a red skull each time you get a kill. Shows kill spree number in a text under the skull.
 --]]
-
+--[[ 
 function OnPlayerDied(player, dmg)
 	if Object.IsValid(dmg.sourcePlayer) then
 		Events.BroadcastToPlayer(dmg.sourcePlayer, "KillFeedback")
@@ -15,4 +15,4 @@ end
 function OnPlayerJoined(player)
 	player.diedEvent:Connect(OnPlayerDied)
 end
-Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Game.playerJoinedEvent:Connect(OnPlayerJoined) ]]
