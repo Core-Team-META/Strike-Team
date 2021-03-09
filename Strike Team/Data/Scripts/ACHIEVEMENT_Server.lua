@@ -205,6 +205,7 @@ function OnRoundEnd()
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
         ACH_API.GiveAllRewards(player)
+        ACH_API.ResetRepeatable(player)
     end
 end
 

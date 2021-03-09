@@ -346,10 +346,12 @@ end
 
 --@param object player
 function API.ResetRepeatable(player)
+    local count = 0
     for id, achievement in pairs(API.GetAchievements()) do
         if achievement.isRepeatable then
             player:SetResource(id, 0)
         end
+        count = InfiniteLoopProtect(count)
     end
 end
 
