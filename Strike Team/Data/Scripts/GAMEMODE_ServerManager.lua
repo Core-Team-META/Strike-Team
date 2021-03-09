@@ -117,6 +117,11 @@ function OnPlayerLeft(player)
             Events.Broadcast("TeamVictory", lastTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
+    elseif ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+        local players = Game.GetPlayers()
+        if #players <= 1 then
+            ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
+        end
     end
 end
 
@@ -136,7 +141,9 @@ function Tick(deltaTime)
         return
     end
 
-    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND and currentGameTypeId > 0 then
+    
+
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
         local winningTeam = nil
         for i = 0, 4 do
             if Game.GetTeamScore(i) >= GT_API.GetCurrentScoreLimit(currentGameTypeId) then
