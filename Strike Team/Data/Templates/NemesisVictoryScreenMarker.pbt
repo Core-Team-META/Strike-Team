@@ -1590,10 +1590,6 @@ Assets {
         }
         ParentId: 2725466387286679747
         ChildIds: 10948693670690151605
-        ChildIds: 6014059405361823851
-        ChildIds: 4351729984971430612
-        ChildIds: 14428501069106470315
-        ChildIds: 84572776247430276
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1641,6 +1637,10 @@ Assets {
           }
         }
         ParentId: 8538674644365357627
+        ChildIds: 6014059405361823851
+        ChildIds: 4351729984971430612
+        ChildIds: 14428501069106470315
+        ChildIds: 84572776247430276
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1701,7 +1701,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8538674644365357627
+        ParentId: 10948693670690151605
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1711,8 +1711,7 @@ Assets {
         Control {
           Width: 200
           Height: 50
-          UIX: 1
-          UIY: -1
+          UIX: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1762,7 +1761,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8538674644365357627
+        ParentId: 10948693670690151605
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1772,8 +1771,7 @@ Assets {
         Control {
           Width: 200
           Height: 50
-          UIX: -1
-          UIY: 1
+          UIY: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1823,7 +1821,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8538674644365357627
+        ParentId: 10948693670690151605
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1833,8 +1831,8 @@ Assets {
         Control {
           Width: 200
           Height: 50
-          UIX: 1
-          UIY: 1
+          UIX: 2
+          UIY: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1884,7 +1882,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8538674644365357627
+        ParentId: 10948693670690151605
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1894,6 +1892,8 @@ Assets {
         Control {
           Width: 200
           Height: 50
+          UIX: 1
+          UIY: 1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
