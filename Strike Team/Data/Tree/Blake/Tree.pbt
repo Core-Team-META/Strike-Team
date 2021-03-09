@@ -1298,15 +1298,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 11931106142039068659
-      value {
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
     TemplateAsset {
       Id: 12469272091380785429
     }
