@@ -117037,7 +117037,7 @@ Objects {
   Name: "OutDoorTiles"
   Transform {
     Location {
-      X: 7405
+      X: 7411.37744
       Y: 9765
       Z: -97.7364807
     }
@@ -117106,7 +117106,7 @@ Objects {
   Name: "OutDoorTiles"
   Transform {
     Location {
-      X: 6880
+      X: 6884.89697
       Y: 9765
       Z: -97.7364807
     }
