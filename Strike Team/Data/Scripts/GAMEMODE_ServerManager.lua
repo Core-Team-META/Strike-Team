@@ -22,9 +22,7 @@ local DEFAULT_GAME_STATE = ROOT:GetCustomProperty("DEFAULT_GAME_ID")
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
-local gameTypes = {}
 local currentGameTypeId
-local currentGameInfo = {}
 local scoreLimit
 local roundStartTime = nil
 local listeners = {}
@@ -59,7 +57,6 @@ end
 
 local function GetCurrentGameId()
     currentGameTypeId = NETWORKED:GetCustomProperty("GAME_TYPE_ID")
-    currentGameInfo = GT_API.GetGameTypeInfo(currentGameTypeId)
     return currentGameTypeId
 end
 
@@ -86,8 +83,6 @@ end
 
 function Int()
     GT_API.RegisterGameTypes(GAME_TYPE_LIST)
-    gameTypes = GT_API.GetGameTypeList()
-    currentGameInfo = GT_API.GetGameTypeInfo(DEFAULT_GAME_STATE)
     Task.Wait(1)
     SetCurrentGameId(DEFAULT_GAME_STATE)
 end

@@ -69,6 +69,12 @@ Assets {
               Z: 0.1
             }
           }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 3220212599885881278
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {

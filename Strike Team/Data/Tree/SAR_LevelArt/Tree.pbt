@@ -23970,13 +23970,14 @@ Objects {
           Name: "Position"
           Vector {
             X: 1825
-            Y: 6855
+            Y: 6830
             Z: 1770
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 180
           }
         }
         Overrides {
@@ -24024,6 +24025,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 180
           }
         }
         Overrides {
@@ -24165,9 +24167,9 @@ Objects {
   Name: "Military Sandbag Wall - End 01"
   Transform {
     Location {
-      X: 1785
+      X: 1775
       Y: 5915
-      Z: 1780
+      Z: 1770
     }
     Rotation {
       Yaw: -179.999985
@@ -68071,18 +68073,19 @@ Objects {
   Name: "Corrugated Sheet Large"
   Transform {
     Location {
-      X: -2530.34473
-      Y: 12365.3057
+      X: -2592.35425
+      Y: 12280
       Z: 615
     }
     Rotation {
-      Yaw: -74.999939
-      Roll: -13.5578356
+      Pitch: -2.80352783
+      Yaw: -75.2579956
+      Roll: -3.02713013
     }
     Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
+      X: 0.749992907
+      Y: 0.208005458
+      Z: 0.749999762
     }
   }
   ParentId: 16373807130785117515
@@ -68252,14 +68255,14 @@ Objects {
   Name: "SAR_Girder"
   Transform {
     Location {
-      X: -3840.24585
-      Y: 8611.34375
-      Z: 1109.97644
+      X: -3841.99243
+      Y: 8638.02344
+      Z: 1119.24561
     }
     Rotation {
-      Pitch: -21.9376526
-      Yaw: -86.4483
-      Roll: -1.16470337
+      Pitch: -21.7467651
+      Yaw: -86.4528503
+      Roll: -1.1519165
     }
     Scale {
       X: 1
@@ -68333,17 +68336,17 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: -348.666718
-      Y: -58.8749695
-      Z: -4.57763672e-05
+      X: -280.768982
+      Y: -58.8750305
+      Z: 3.43322754e-05
     }
     Rotation {
       Roll: 89.9999924
     }
     Scale {
-      X: 0.98690021
-      Y: 1.00001168
-      Z: 1.13722301
+      X: 0.806323647
+      Y: 1.00001431
+      Z: 1.13721919
     }
   }
   ParentId: 10174414336380775515

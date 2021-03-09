@@ -62,8 +62,9 @@ local MAX_PROGRESS = 100
 local TEAM = 1
 local PROGRESS = 2
 local RESOURCE = 3
+local WAIT_TIME = 4
 local lastProgress
-local teamProgress, enemyProgress, centerFlag
+local teamProgress, enemyProgress, centerFlag, pointActiveTime, showActiveAlert
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -123,6 +124,19 @@ local function ToggleObject(bool)
     Flag1JointColor.isTeamColorUsed = bool
 end
 
+local function ChangeObjectTeam(team)
+    ChopSpot.team = team
+    ChopSpotRoot.team = team
+    EDGE.team = team
+    GROUND.team = team
+    Light.team = team
+    FlagRootColor.team = team
+    Flag1Color.team = team
+    Flag2Color.team = team
+    FlagJointColor.team = team
+    Flag1JointColor.team = team
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -135,7 +149,8 @@ function Int()
     enemyProgress = child:GetCustomProperty("TEAM_PROGRESS"):WaitForObject()
     teamProgress = child:GetCustomProperty("ENEMY_PROGRESS"):WaitForObject()
     centerFlag = child:GetCustomProperty("IDLE"):WaitForObject()
-
+    showActiveAlert = false
+    pointActiveTime = nil
     UpdateCenterFlagColor(0)
     OnNetworkChanged(ROOT)
 end
@@ -156,16 +171,7 @@ function OnNetworkChanged(object, string)
             end
             if data[TEAM] > 0 and data[PROGRESS] >= 0 then
                 ToggleObject(true)
-                ChopSpot.team = data[TEAM]
-                ChopSpotRoot.team = data[TEAM]
-                EDGE.team = data[TEAM]
-                GROUND.team = data[TEAM]
-                Light.team = data[TEAM]
-                FlagRootColor.team = data[TEAM]
-                Flag1Color.team = data[TEAM]
-                Flag2Color.team = data[TEAM]
-                FlagJointColor.team = data[TEAM]
-                Flag1JointColor.team = data[TEAM]
+                ChangeObjectTeam(data[TEAM])
                 Events.Broadcast("Minimap.UpdateItem", ROOT, ChopSpot.team)
             else
                 ToggleObject(false)
@@ -206,6 +212,19 @@ function OnNetworkChanged(object, string)
 
             UpdateProgress(data[PROGRESS])
         end
+    end
+end
+
+function Tick()
+    if not pointActiveTime then
+        local data = GetData()
+        if data ~= "" then
+            pointActiveTime = data[WAIT_TIME]
+        end
+    end
+    if not showActiveAlert and pointActiveTime and pointActiveTime <= time() then
+        
+        showActiveAlert = true
     end
 end
 

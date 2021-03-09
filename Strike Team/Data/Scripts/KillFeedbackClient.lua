@@ -4,10 +4,8 @@
 	by: standardcombo
 --]]
 
-local uiImageBG = script:GetCustomProperty("SkullBG"):WaitForObject()
-local uiImage = script:GetCustomProperty("Skull"):WaitForObject()
-local killSpreeBG = script:GetCustomProperty("KillSpreeBG"):WaitForObject()
-local killSpreeLabel = script:GetCustomProperty("KillSpree"):WaitForObject()
+local iconPanel = script:GetCustomProperty("SkullPanel"):WaitForObject()
+local killSpreePanel = script:GetCustomProperty("KillSpreePanel"):WaitForObject()
 
 local STARTING_SCALE = 5
 local SCALE_LERP = 19
@@ -20,14 +18,11 @@ local elapsedTime = 0
 local killCooldown = 0
 local killSpreeCount = 0
 
-local initialWidth = uiImage.width
-local initialHeight = uiImage.height
+local initialWidth = iconPanel.width
+local initialHeight = iconPanel.height
 
-uiImageBG.visibility = Visibility.FORCE_OFF
-uiImage.visibility = Visibility.FORCE_OFF
-killSpreeBG.visibility = Visibility.FORCE_OFF
-killSpreeLabel.visibility = Visibility.FORCE_OFF
-
+iconPanel.visibility = Visibility.FORCE_OFF
+killSpreePanel.visibility = Visibility.FORCE_OFF
 
 function Tick(deltaTime)
 	elapsedTime = elapsedTime + deltaTime
@@ -40,37 +35,47 @@ end
 
 function UpdateImage()
 	if elapsedTime > SOLID_DURATION + FADE_OUT_DURATION then
-		uiImageBG.visibility = Visibility.FORCE_OFF
-		uiImage.visibility = Visibility.FORCE_OFF
-		killSpreeBG.visibility = Visibility.FORCE_OFF
-		killSpreeLabel.visibility = Visibility.FORCE_OFF
+		iconPanel.visibility = Visibility.FORCE_OFF
+		killSpreePanel.visibility = Visibility.FORCE_OFF
 		return
 	end
-	uiImage.width = CoreMath.Round(currentScale * initialWidth)
-	uiImage.height = CoreMath.Round(currentScale * initialHeight)
-	uiImageBG.width = uiImage.width
-	uiImageBG.height = uiImage.height
+	iconPanel.width = CoreMath.Round(currentScale * initialWidth)
+	iconPanel.height = CoreMath.Round(currentScale * initialHeight)
+
 	
 	local alpha = 1
 	if elapsedTime > SOLID_DURATION then
 		alpha = CoreMath.Lerp(1, 0, (elapsedTime - SOLID_DURATION) / (FADE_OUT_DURATION))
 	end
 	
-	local c = uiImage:GetColor()
-	c.a = alpha
-	uiImage:SetColor(c)
-	
-	c = uiImageBG:GetColor()
-	c.a = alpha
-	uiImageBG:SetColor(c)
+	for _, uiImage in pairs(iconPanel:GetChildren()) do
+		local c = uiImage:GetColor()
+		c.a = alpha
+		uiImage:SetColor(c)
+	end
+
 end
+
+
+local killSpreeSizes = {
+	{panelHeight = 50, fontSize = 25, color = Color.RED},
+	{panelHeight = 60, fontSize = 30, color = Color.ORANGE},
+	{panelHeight = 70, fontSize = 35, color = Color.YELLOW},
+	{panelHeight = 80, fontSize = 40, color = Color.GREEN},
+	{panelHeight = 90, fontSize = 45, color = Color.CYAN},
+	{panelHeight = 100, fontSize = 50, color = Color.MAGENTA},
+	{panelHeight = 110, fontSize = 55, color = Color.ORANGE},
+	{panelHeight = 120, fontSize = 60, color = Color.WHITE},
+
+}
+
+
 
 function Show()
 	currentScale = STARTING_SCALE
 	elapsedTime = 0
 		
-	uiImage.visibility = Visibility.FORCE_ON
-	uiImageBG.visibility = Visibility.FORCE_ON
+	iconPanel.visibility = Visibility.FORCE_ON
 	
 	UpdateImage()
 	
@@ -78,15 +83,59 @@ function Show()
 		killSpreeCount = killSpreeCount + 1
 		
 		local str = tostring(killSpreeCount) .. "x"
-		killSpreeBG.text = str
-		killSpreeLabel.text = str
-		killSpreeBG.visibility = Visibility.FORCE_ON
-		killSpreeLabel.visibility = Visibility.FORCE_ON
+		
+		killSpreePanel.height = 120
+		if (#killSpreeSizes >= killSpreeCount and killSpreeSizes[killSpreeCount].panelHeight) then
+			killSpreePanel.height = killSpreeSizes[killSpreeCount].panelHeight
+		end
+
+		local textFontSize = 60
+		if (#killSpreeSizes >= killSpreeCount and killSpreeSizes[killSpreeCount].fontSize) then
+			textFontSize = killSpreeSizes[killSpreeCount].fontSize
+		end
+
+		local textColor = Color.WHITE
+		if (#killSpreeSizes >= killSpreeCount and killSpreeSizes[killSpreeCount].color) then
+			textColor = killSpreeSizes[killSpreeCount].color
+		end
+
+		for _, uiText in pairs(killSpreePanel:GetChildren()) do
+			uiText.text = str
+			uiText.fontSize = textFontSize
+			if uiText.name == "Kill Spree" then
+				uiText:SetColor(textColor)
+			else
+				local shadowColor = Color.RED
+				shadowColor.r = textColor.r * 0.35
+				shadowColor.g = textColor.g * 0.35
+				shadowColor.b = textColor.b * 0.35
+				shadowColor.a = 0.9
+				uiText:SetColor(shadowColor)
+			end
+		end
+
+		killSpreePanel.visibility = Visibility.FORCE_ON
+
 	else
 		killSpreeCount = 1
 	end
+
 	killCooldown = KILL_SPREE_COOLDOWN
 end
 
 Events.Connect("KillFeedback", Show)
 
+
+-- KB DEBUG
+--[[
+function OnBindingPressed(player, binding)
+	if (binding == "ability_extra_9") then 
+		Show()
+	end
+end
+function OnPlayerJoined(player)
+	player.bindingPressedEvent:Connect(OnBindingPressed)
+end
+
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
+]]

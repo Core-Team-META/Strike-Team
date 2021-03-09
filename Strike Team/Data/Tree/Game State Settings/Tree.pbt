@@ -383,6 +383,22 @@ Objects {
       Float: 0
     }
     Overrides {
+      Name: "cs:TransferPlayers"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:RoundsBeforeLocking"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:SecondsBeforeTransfer"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:TransferGameId"
+      String: "14b0e1/strike-team-dev"
+    }
+    Overrides {
       Name: "cs:State:isrep"
       Bool: true
     }
@@ -392,6 +408,22 @@ Objects {
     }
     Overrides {
       Name: "cs:StateEndTime:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:RoundsBeforeLocking:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:SecondsBeforeTransfer:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TransferPlayers:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TransferGameId:isrep"
       Bool: true
     }
   }
