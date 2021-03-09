@@ -6,6 +6,7 @@ until GT_API
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
 local nemesisIndex = {}
+local victimIndex = {}
 
 local nemesisList = {}
 
@@ -110,6 +111,7 @@ function TrackKill(victim, damage)
 		
 	end
 
+	-- nemesis index
 	if not nemesisIndex[victim.id] then
 	
 		nemesisIndex[victim.id] = {}
@@ -125,6 +127,24 @@ function TrackKill(victim, damage)
 		nemesisIndex[victim.id][killer.id] = nemesisIndex[victim.id][killer.id] + 1
 		
 	end
+	
+	-- victim index
+	if not victimIndex[killer.id] then
+	
+		victimIndex[killer.id] = {}
+		
+	end
+	
+	if not victimIndex[killer.id][victim.id] then
+	
+		victimIndex[killer.id][victim.id] = 1
+		
+	else 
+	
+		victimIndex[killer.id][victim.id] = victimIndex[killer.id][victim.id] + 1
+		
+	end
+	
 	
 	--print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.id][killer.id]) .. " times.")
 
@@ -190,7 +210,20 @@ function CleanNemesisTable()
 		
 	end
 	
+	for killer, victimList in pairs(victimIndex) do
+	
+		for victim, killCount in pairs(victimList) do
+		
+			victimList[victim] = nil
+		
+		end
+		
+		nemesisIndex[killer] = nil
+		
+	end
+	
 	nemesisIndex = {}
+	victimIndex = {}
 	
 	resetting = false
 	
@@ -201,19 +234,22 @@ function CalculateNemesis()
 	nemesisList = {}
 
 	local selectedNemesis = nil
+	local victimKilledMost = " "
+	
 	local nemesisKills = 0
 	local otherNemesisCount = 0
-	local victimHighestKills = {}
-	
-	
+	local victimHighestKills = 0
 	
 	-- Calculate who is the nemeis of who
 	for victim, killerList in pairs(nemesisIndex) do
 	
 		selectedNemesis = nil
+		victimKilledMost = " "
 		
 		nemesisKills = 0
 		otherNemesisCount = 0
+		
+		victimHighestKills = 0
 	
 		for killer, killCount in pairs(killerList) do
 		
@@ -240,7 +276,23 @@ function CalculateNemesis()
 			
 			otherNemesisCount = otherNemesisCount - 1 -- removing the same nemesis from count
 			
-			table.insert(nemesisList, {selectedNemesis, victim, otherNemesisCount, nemesisKills})
+			if victimIndex[victim] then
+			
+				for victim2, victimKillCount in pairs(victimIndex[victim]) do
+				
+					if victimKillCount > victimHighestKills then
+					
+						victimHighestKills = victimKillCount
+						
+						victimKilledMost = victim2
+						
+					end
+					
+				end
+				
+			end
+			
+			table.insert(nemesisList, {selectedNemesis, victim, otherNemesisCount, nemesisKills, victimKilledMost, victimHighestKills})
 					
 		end
 							
@@ -258,6 +310,7 @@ function SetNemesis()
 		
 			nemesisString = nemesisList[i][1] .. ":" .. nemesisList[i][2]
 			nemesisString = nemesisString .. ":" .. tostring(nemesisList[i][3]) .. ":" .. tostring(nemesisList[i][4])
+			nemesisString = nemesisString .. ":" .. nemesisList[i][5] .. ":" .. tostring(nemesisList[i][6])
 		
 		else 
 		

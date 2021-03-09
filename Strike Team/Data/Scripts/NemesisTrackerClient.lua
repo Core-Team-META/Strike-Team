@@ -442,7 +442,7 @@ function CalculateNemesis()
 	    
 	    if insertThis then
 	    
-	   		table.insert(nemesisList, {result[1], result[2], tonumber(result[3]), tonumber(result[4])})
+	   		table.insert(nemesisList, {result[1], result[2], tonumber(result[3]), tonumber(result[4]), result[5], tonumber(result[6])})
 	   		
 	   	end
 	    
@@ -531,6 +531,52 @@ function MarkNemesis()
 				
 			end
 			
+		end
+	
+	end
+	
+	for number, panel in ipairs(victoryScreenContainer:GetChildren()) do
+		
+		if not theirNemesisOfEntryText[number] then
+		
+			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
+		
+			for _, entry in pairs(nemesisList) do
+			
+				if GetPlayer(entry[2]).name == nameText.text then
+				
+					theirNemesisOfEntryText[number] = {}
+						
+					theirNemesisOfEntryText[number][2] = 0
+					
+					theirNemesisOfEntryText[number][1] = GetPlayer(entry[5]).name
+					
+					theirNemesisOfEntryText[number][3] = entry[6]
+					
+					break
+				
+				end
+			
+			end	
+				
+		end
+	
+	end
+	
+	if youAreNemesisOf == "" then
+	
+		for _, entry in pairs(nemesisList) do
+		
+			if entry[2] == localPlayer.id and GetPlayer(entry[5]) then
+			
+				youAreNemesisOf = GetPlayer(entry[5]).name
+				
+				yourKillCountAsNemesis = entry[6]
+				
+				break
+			
+			end
+		
 		end
 	
 	end
