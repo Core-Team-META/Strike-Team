@@ -124,6 +124,7 @@ if Environment.IsServer() then
     Events.ConnectForPlayer("PurchaseAPI.BuyWeapon", PurchaseAPI.BuyWeapon)
     Events.Connect("PurchaseAPI.Save",PurchaseAPI.SaveMoney)
     Game.playerJoinedEvent:Connect(PurchaseAPI.LoadMoney)
+    Game.playerLeftEvent:Connect(PurchaseAPI.SaveMoney)
 end
 
 if Environment.IsClient() then
