@@ -8809,7 +8809,6 @@ Assets {
         ChildIds: 3406589016357581641
         ChildIds: 14455353341293232318
         ChildIds: 17793720900899514404
-        ChildIds: 5745996700742352439
         ChildIds: 3981829483090021092
         UnregisteredParameters {
           Overrides {
@@ -9528,7 +9527,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -9569,44 +9568,9 @@ Assets {
             Name: "cs:ID"
             String: "PL"
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 5745996700742352439
-        Name: "Lamp"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7771605384388490917
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 3072528606890617376
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "LA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
