@@ -133,7 +133,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Size Multiplier"
-            Float: 0.368708432
+            Float: 0.463594168
           }
           Overrides {
             Name: "bp:Number Of Flares"

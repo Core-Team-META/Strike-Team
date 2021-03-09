@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13479562566910306544
+        ParentId: 4781671109827199097
         ChildIds: 13847541799391088124
         WantsNetworking: true
         Collidable_v2 {
@@ -47,6 +47,8 @@ Assets {
         ChildIds: 4308165856164333984
         ChildIds: 10044666985408266810
         ChildIds: 4585053593299665915
+        ChildIds: 18248461543003916004
+        ChildIds: 17774560054836376003
         ChildIds: 7519838646678344364
         ChildIds: 3453076407239511985
         UnregisteredParameters {
@@ -1858,6 +1860,100 @@ Assets {
         }
       }
       Objects {
+        Id: 18248461543003916004
+        Name: "Decal Spray Manticore 01"
+        Transform {
+          Location {
+            X: 2.25634766
+            Y: 1.26953125
+            Z: 47.4752808
+          }
+          Rotation {
+            Yaw: 85.0202866
+            Roll: 89.9999924
+          }
+          Scale {
+            X: 0.0448716804
+            Y: 0.0448717736
+            Z: 0.00858132541
+          }
+        }
+        ParentId: 13847541799391088124
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13254890070021717962
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
+        Id: 17774560054836376003
+        Name: "Decal Spray Manticore 01"
+        Transform {
+          Location {
+            X: 6.30493164
+            Y: 1.26953125
+            Z: 47.4752808
+          }
+          Rotation {
+            Yaw: -94.9797516
+            Roll: 90
+          }
+          Scale {
+            X: 0.0448716804
+            Y: 0.0448717736
+            Z: 0.00858132541
+          }
+        }
+        ParentId: 13847541799391088124
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13254890070021717962
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
         Id: 7519838646678344364
         Name: "Decal Painted Lines 01"
         Transform {
@@ -1882,6 +1978,15 @@ Assets {
           Overrides {
             Name: "bp:Shape Index"
             Int: 0
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.8
+              G: 0.8
+              B: 0.8
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -1921,6 +2026,17 @@ Assets {
           }
         }
         ParentId: 13847541799391088124
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.8
+              G: 0.8
+              B: 0.8
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1981,6 +2097,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_scf_rubber_panels_004_uv"
+      }
+    }
+    Assets {
+      Id: 13254890070021717962
+      Name: "Decal Spray Manticore 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_spray_manticore_001"
       }
     }
     Assets {

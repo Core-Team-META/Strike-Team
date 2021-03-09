@@ -107,7 +107,7 @@ Assets {
           }
           Overrides {
             Name: "cs:WeaponType"
-            String: "LMG"
+            String: "Shotgun"
           }
           Overrides {
             Name: "cs:AimBinding:tooltip"

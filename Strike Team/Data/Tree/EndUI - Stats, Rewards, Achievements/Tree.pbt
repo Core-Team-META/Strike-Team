@@ -1720,6 +1720,7 @@ Objects {
     }
   }
   ParentId: 9058775223066187834
+  ChildIds: 16051509502710884260
   ChildIds: 2641473772137558235
   ChildIds: 5186537375737975212
   Collidable_v2 {
@@ -6758,6 +6759,53 @@ Objects {
     SubobjectId: 6545914521716591865
     InstanceId: 7449925265991994361
     TemplateId: 12784020134702693331
+  }
+}
+Objects {
+  Id: 16051509502710884260
+  Name: "UI Scroll Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9768360102774010114
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 684
+    Height: 280
+    UIX: 11.2155151
+    UIY: 72.4832153
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    ScrollPanel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {

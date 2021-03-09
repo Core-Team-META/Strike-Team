@@ -154,7 +154,6 @@ Module.titles = {
 		playerMUIDs = {
 --[[
 			"715fd60981e84a479d5828ae8b05672b", -- Breadman
-			"c643c92a06e943c4aef66a283f5dc1e0", -- Bumblebear
 			"9e16f55a3e0743c2a4c763877e70222e", -- Bunnychen
 			"91f0b0c8756d41e9a30834cb4975599f", -- Buffry
 			"5b6709c49ce14d72b17b3f0ea19dfa11", -- Carbide
@@ -165,7 +164,6 @@ Module.titles = {
 			"3819113b7af34fb786a56960fc08136a", -- coreslinkous
 			"22fd2579b76d4768b875c84510d0d95e", -- Danny
 			"7b357170119a4745929228fd5cde1e04", -- DesTroyer
-			"a7d7ce30daf349d0867192c436615a0c", -- DeviledCrab
 			"461d4bec6f184f529f0484bb2a6a435b", -- Dev0
 			"483613eb76d9419fb34c3f3b76665706", -- dilettante
 			"65f3dec3b6dd45c2845a55a7af240adc", -- deadlyfishesMC
@@ -174,8 +172,6 @@ Module.titles = {
 			"8aa6e0c558be4a1c98e80229b73ffeb9", -- Dracowolfie
 			"31f09de9539843a996ba240763f76641", -- featurecreeper
 			"ae06e23c1b3143129e2751454a6b51c0", -- Fezzinate
-			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin
-			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin
 			"f207385c066b429581e6fe11ac8795bf", -- Holy
 			"db65673b8fe94bf599ad07853953dc75", -- Hex/Steve
 			"8a40a1c2c94f4fb0bd1430f4e37b121f", -- JayDee
@@ -186,10 +182,6 @@ Module.titles = {
 			"c1754d0e214741a9b15e2446ee730e68", -- lodle
 			"978d4261ff404208ba49de799ce5362c", -- lokii
 			"21db3c6e27af40e2aa8d78a67d0c6a32", -- max
-			"3777a53de7fb49b9a5cda768d67dc265", -- Mcamp
-			"ffeca4a526934a118054565411b5e72c", -- MadGrin
-			"43522f2d40f5480e881ec7b89567007e", -- Mehaji
-			"f634b21c833b4fa79c2ee36db7938908", -- Memori
 			"4d64fe2c095a45ab905923395d72f51e", -- mrbigfists
 			"ba1d6454535b4bdc86ff97a7e99247ae", -- Nate362
 			"61a98dea64ab464dbc863af9a779bed1", -- nalzayer
@@ -203,7 +195,6 @@ Module.titles = {
 			"20dba0f31f1b4f889b6bd70cdaaab192", -- Robotron
 			"b06d130e5afd418d8ecfce2150450c69", -- rbrown
 			"6f6cd3bb2fd243ba80c0dac577699478", -- Riffraff
-			"54419f3e9852437b9f23d426bfd65885", -- RebherCore
 			"5a7c111a5d7a4866892497528c02e186", -- RyanZ
 			"c6701fa2d791470bb0d4fde602a6b007", -- Sasha
 			"667ddca103824fb7bb834667b9c02a4a", -- Seanzawi
@@ -215,25 +206,44 @@ Module.titles = {
 			"63036b51a02c4b5b88e4b75f55b12864", -- Bae
 			"aea40b9e2fae46908e37b42d44f3b004", -- Turbo
 			"093c6d09ca2245af850d22bc3ea2cc1b", -- Vcareil
- ]]
+			"3777a53de7fb49b9a5cda768d67dc265", -- Mcamp
 
-			"901b7628983c4c8db4282f24afeda57a", -- Buckmonster
-			"cb055adaf34a4b72b7bd02c8ae5f3ec8", -- Gabunir
-			"967fb2d379954fb688dd5fca37d25a12", -- Getch
-			"c14f61b74826471f974f06ff7e42d97b", -- Basilisk
-			"400d8e7acb154e5bb64368411824b61d", -- Bigglebuns
-			"6d62c19885084f168ec78ce5f6111ac5", -- Blackdheart
-			"5a7a3a3d8ccb4dc5837880f2df3002fc", -- pchiu
-			"c078c42a742146bd99404099e4781e88", -- Scav
-			"9b1e28cbd1d74f5fb4c2ddea6d81fd39", -- Sobchak
-			"b4c6e32137e54571814b5e8f27aa2fcd", -- standardcombo
-			"9bb9612e564644c58b2286a6853fb91e", -- Stanzilla
-			"1c73b87d2d374264ab0eb4d89edc4b72", -- Stephano
-			"54d6c37e71a546f7bfd480d8e654f45e", -- Tobs
-			"6a76449f4341427c832789c6c0fac68d", -- Twixler
-			"581ff579fd864966aec56450754db1fb", -- Waffle
-			"4572e450dd044619891fd1fb51bc1193", -- Vitriol
-			"fc93f85ad76f49f6984403e2f5162bce", -- zurishmi
+			]]
+
+			"901b7628983c4c8db4282f24afeda57a", -- Buckmonster (Kurtis)
+			"cb055adaf34a4b72b7bd02c8ae5f3ec8", -- Gabunir (Alisa)
+			"967fb2d379954fb688dd5fca37d25a12", -- Getch (Jason)
+			"611f39dd35c64e208c5e2422f8336acc", -- CoreVideo (Jason)
+			"c14f61b74826471f974f06ff7e42d97b", -- Basilisk (Jordan)
+			"400d8e7acb154e5bb64368411824b61d", -- Bigglebuns (Ryan)
+			"6d62c19885084f168ec78ce5f6111ac5", -- Blackdheart (Tung)
+			"5a7a3a3d8ccb4dc5837880f2df3002fc", -- pchiu (David)
+			"c078c42a742146bd99404099e4781e88", -- Scav (Matt F)
+			"9b1e28cbd1d74f5fb4c2ddea6d81fd39", -- Sobchak (Ted)
+			"b4c6e32137e54571814b5e8f27aa2fcd", -- standardcombo (Gabe)
+			"9bb9612e564644c58b2286a6853fb91e", -- Stanzilla (Ben)
+			"1c73b87d2d374264ab0eb4d89edc4b72", -- Stephano (Stephano)
+			"54d6c37e71a546f7bfd480d8e654f45e", -- Tobs (Tasha)
+			"6a76449f4341427c832789c6c0fac68d", -- Twixler (Robin)
+			"581ff579fd864966aec56450754db1fb", -- Waffle (Kyle)
+			"10b09054793e4428bde25e28817f1e65", -- Waff1e (Kyle)
+			"4572e450dd044619891fd1fb51bc1193", -- Vitriol (Frederic)
+			"b36d1cbf1fc9449fb5dc1d93d1161e86", -- Vitriol08 (Frederic)
+			"fc93f85ad76f49f6984403e2f5162bce", -- zurishmi (Eric M)
+			"74fd12a8ad1b4e3ca013946aa981b46e", -- Griffin (Patrick)
+			"f0a610aa57324ef087354ea213b8f4eb", -- Beekzor (Patrick)
+			"f634b21c833b4fa79c2ee36db7938908", -- Memori (Adam)
+			"ffeca4a526934a118054565411b5e72c", -- MadGrin (Aleks)
+			"c643c92a06e943c4aef66a283f5dc1e0", -- Bumblebear (Dixon)
+			"54419f3e9852437b9f23d426bfd65885", -- RebherCore (Brad Rebh)
+			"a7d7ce30daf349d0867192c436615a0c", -- DeviledCrab (Evan)
+			"5b22526b802a4852aeeffa27822895b5", -- VeritasEtUltio (Tony)
+			"8aa6e0c558be4a1c98e80229b73ffeb9", -- Dracowolfie (Sierra)
+			"43522f2d40f5480e881ec7b89567007e", -- Mehaji (Arash)
+
+
+
+
 		},
 	},
 

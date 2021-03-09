@@ -77,6 +77,9 @@ local function OnDetailsHover(button)
     end
     local achievement = button.clientUserData.achievement
     ACHIEVEMENTS_DETAILS_UI.visibility = Visibility.FORCE_OFF
+    if (iconBG) then
+        ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("ACHIEVEMENT_ICON_BG"):WaitForObject():SetImage(achievement.iconBG)
+    end
     ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject():SetImage(achievement.icon)
     ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("TITLE"):WaitForObject().text = achievement.name
     ACHIEVEMENTS_DETAILS_UI:GetCustomProperty("DESCRIPTION"):WaitForObject().text = achievement.description
@@ -97,6 +100,7 @@ local function BuildAchievementInfoPanel()
             break
         end
         local achievementPanel = World.SpawnAsset(AchievementPanelTemplate, {parent = ACHIEVEMENT_CONTAINER})
+        local iconBG = achievementPanel:GetCustomProperty("ACHIEVEMENT_ICON_BG"):WaitForObject()
         local icon = achievementPanel:GetCustomProperty("ACHIEVEMENT_ICON"):WaitForObject()
         local name = achievementPanel:GetCustomProperty("ACHIEVEMENT_NAME"):WaitForObject()
         local button = achievementPanel:GetCustomProperty("BUTTON"):WaitForObject()
@@ -108,6 +112,9 @@ local function BuildAchievementInfoPanel()
         listeners[#listeners + 1] = button.hoveredEvent:Connect(OnDetailsHover)
         listeners[#listeners + 1] = button.unhoveredEvent:Connect(OnDetailsUnhover)
 
+        if (iconBG) then
+            iconBG:SetImage(achievement.iconBG)
+        end
         icon:SetImage(achievement.icon)
 
         name.text = achievement.name
@@ -167,7 +174,12 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
         NOTIFICATION.visibility = Visibility.FORCE_ON
     end
     if newState == ABGS.GAME_STATE_ROUND_END then
-        BuildAchievementInfoPanel()
+        Task.Spawn(
+            function()
+                BuildAchievementInfoPanel()
+            end,
+            2
+        )
     else
         ClearAchievements()
         ClearListeners(listeners)
