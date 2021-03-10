@@ -105,8 +105,9 @@ function GenerateLeaderboard()
 		row.x = 0
 		
 		-- Grab the UI Text objects that are in the row's hierarchy
-		entryName = row:FindDescendantByName("PlayerName")
-		entryValue = row:FindDescendantByName("PlayerScore")
+		entryRank = row:GetCustomProperty("PlayerRank"):WaitForObject()
+		entryName = row:GetCustomProperty("PlayerName"):WaitForObject()
+		entryValue = row:GetCustomProperty("PlayerScore"):WaitForObject()
 		
 		-- Write text data to UI
 		if localPlayerIndex < 0 and rowsAdded == ROW_COUNT - 1 then
@@ -116,6 +117,9 @@ function GenerateLeaderboard()
 			entryName:SetColor(NAME_COLOR_OTHER)
 			entryValue.text = ""
 		else
+			-- Rank
+			entryRank.text = tostring(i) .. "."
+			
 			-- Name
 			entryName.text = entry.name
 		
