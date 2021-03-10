@@ -98,9 +98,9 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRMEL3", 1)
     elseif weaponType == "LMG" then
         ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG2", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG3", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG4", 1)
     elseif weaponType == "Shotgun" then
         ACH_API.AddProgress(player, "AS_NRSHOTTY1", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY2", 1)
