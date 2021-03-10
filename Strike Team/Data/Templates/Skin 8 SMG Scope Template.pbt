@@ -15,9 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 123408364741995530
+        ParentId: 4781671109827199097
         ChildIds: 9933896163678958041
         ChildIds: 4665572048460459972
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }

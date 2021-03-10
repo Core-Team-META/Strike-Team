@@ -1,12 +1,12 @@
 Assets {
-  Id: 3359160763028112386
+  Id: 1819227452901905242
   Name: "Skin_Golden_Bat"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 662495435476516745
+      RootId: 11666623731078487061
       Objects {
-        Id: 662495435476516745
+        Id: 11666623731078487061
         Name: "Skin_Golden_Bat"
         Transform {
           Scale {
@@ -16,26 +16,26 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 5689820412654312315
-        ChildIds: 12791555511384851627
+        ChildIds: 7121247403084844913
+        ChildIds: 15137579320643205972
+        WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        NetworkContext {
         }
       }
       Objects {
-        Id: 5689820412654312315
+        Id: 7121247403084844913
         Name: "Decals"
         Transform {
           Location {
-            X: 17.5870514
-            Y: 1.41693115
-            Z: 8.10198593
+            X: 10.5
+            Y: 0.5
+            Z: 35
           }
           Rotation {
           }
@@ -45,20 +45,20 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 662495435476516745
-        ChildIds: 7634415286244563518
-        ChildIds: 9413542058367739887
-        ChildIds: 4819097143388718307
-        ChildIds: 7523477281414806010
-        ChildIds: 14745867126464342543
-        ChildIds: 13019302062843488247
-        ChildIds: 14772684424379364149
-        ChildIds: 3646406648521974963
-        ChildIds: 4856964382900839319
-        ChildIds: 13784962142663084337
-        ChildIds: 17423331999451090392
-        ChildIds: 15185572008523454748
-        ChildIds: 2405324830956246732
+        ParentId: 11666623731078487061
+        ChildIds: 13388295809464253474
+        ChildIds: 9095044624284633498
+        ChildIds: 2930620793896751686
+        ChildIds: 11876578696635531188
+        ChildIds: 582024418183158126
+        ChildIds: 9456279063664577691
+        ChildIds: 17593077310678533132
+        ChildIds: 8433855939643945517
+        ChildIds: 1756593248376765078
+        ChildIds: 5553704395906348080
+        ChildIds: 16768219756637510642
+        ChildIds: 7505766732080986510
+        ChildIds: 4063114982125178206
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -70,7 +70,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7634415286244563518
+        Id: 13388295809464253474
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -89,7 +89,7 @@ Assets {
             Z: 0.0212293658
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -119,7 +119,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9413542058367739887
+        Id: 9095044624284633498
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -138,7 +138,7 @@ Assets {
             Z: 0.0212293658
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -168,7 +168,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4819097143388718307
+        Id: 2930620793896751686
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -187,7 +187,7 @@ Assets {
             Z: 0.0212293658
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -217,7 +217,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7523477281414806010
+        Id: 11876578696635531188
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -236,7 +236,7 @@ Assets {
             Z: 0.0212293658
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -266,7 +266,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14745867126464342543
+        Id: 582024418183158126
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -285,7 +285,7 @@ Assets {
             Z: 0.0212293658
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -315,7 +315,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13019302062843488247
+        Id: 9456279063664577691
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -334,7 +334,7 @@ Assets {
             Z: 0.0212293658
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -364,7 +364,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14772684424379364149
+        Id: 17593077310678533132
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -383,7 +383,7 @@ Assets {
             Z: 0.0404996574
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -413,7 +413,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3646406648521974963
+        Id: 8433855939643945517
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -431,7 +431,7 @@ Assets {
             Z: 0.0404996574
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -461,7 +461,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4856964382900839319
+        Id: 1756593248376765078
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -479,7 +479,7 @@ Assets {
             Z: 0.0404996574
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -509,7 +509,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13784962142663084337
+        Id: 5553704395906348080
         Name: "Decal Letters 01"
         Transform {
           Location {
@@ -527,7 +527,7 @@ Assets {
             Z: 0.0404996574
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -557,7 +557,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17423331999451090392
+        Id: 16768219756637510642
         Name: "Decal Military Symbols 01"
         Transform {
           Location {
@@ -576,7 +576,7 @@ Assets {
             Z: 0.0252764802
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -606,7 +606,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15185572008523454748
+        Id: 7505766732080986510
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
@@ -625,7 +625,7 @@ Assets {
             Z: 0.0671484172
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -667,7 +667,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2405324830956246732
+        Id: 4063114982125178206
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
@@ -686,7 +686,7 @@ Assets {
             Z: 0.0671484172
           }
         }
-        ParentId: 5689820412654312315
+        ParentId: 7121247403084844913
         UnregisteredParameters {
           Overrides {
             Name: "bp:Shape Index"
@@ -728,13 +728,12 @@ Assets {
         }
       }
       Objects {
-        Id: 12791555511384851627
+        Id: 15137579320643205972
         Name: "Geo"
         Transform {
           Location {
-            X: -3.41294861
-            Y: 0.416931152
-            Z: -26.8980141
+            X: -10.5
+            Y: -0.5
           }
           Rotation {
           }
@@ -744,13 +743,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 662495435476516745
-        ChildIds: 17005408744392097360
-        ChildIds: 7529708077806807707
-        ChildIds: 16062722206631364716
-        ChildIds: 1410250196631082686
-        ChildIds: 3911306175057866549
-        ChildIds: 12006517520452864107
+        ParentId: 11666623731078487061
+        ChildIds: 15808584379605190930
+        ChildIds: 12486570057742383302
+        ChildIds: 7947055704263206981
+        ChildIds: 7366302997638344895
+        ChildIds: 12695357412762840208
+        ChildIds: 10234058602380883136
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -762,7 +761,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17005408744392097360
+        Id: 15808584379605190930
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -780,7 +779,7 @@ Assets {
             Z: 0.0174631346
           }
         }
-        ParentId: 12791555511384851627
+        ParentId: 15137579320643205972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -850,7 +849,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7529708077806807707
+        Id: 12486570057742383302
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -868,7 +867,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12791555511384851627
+        ParentId: 15137579320643205972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -925,7 +924,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16062722206631364716
+        Id: 7947055704263206981
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -942,7 +941,7 @@ Assets {
             Z: 0.243072629
           }
         }
-        ParentId: 12791555511384851627
+        ParentId: 15137579320643205972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -999,7 +998,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1410250196631082686
+        Id: 7366302997638344895
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1015,7 +1014,7 @@ Assets {
             Z: 0.0102328956
           }
         }
-        ParentId: 12791555511384851627
+        ParentId: 15137579320643205972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1064,7 +1063,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3911306175057866549
+        Id: 12695357412762840208
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1080,7 +1079,7 @@ Assets {
             Z: 0.0102328956
           }
         }
-        ParentId: 12791555511384851627
+        ParentId: 15137579320643205972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1129,7 +1128,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12006517520452864107
+        Id: 10234058602380883136
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1147,7 +1146,7 @@ Assets {
             Z: 0.0174631346
           }
         }
-        ParentId: 12791555511384851627
+        ParentId: 15137579320643205972
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"

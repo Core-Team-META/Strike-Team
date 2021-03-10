@@ -9015,7 +9015,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 3359160763028112386
+              Id: 1819227452901905242
             }
           }
           Overrides {
