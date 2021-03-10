@@ -74,9 +74,9 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: 2.91699219
-            Y: -2.92529297
-            Z: 60.3782196
+            X: 2.00959778
+            Y: -3.69212341
+            Z: 60.7080078
           }
           Rotation {
             Pitch: -69.999939
@@ -123,12 +123,12 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: 1.20703125
-            Y: -2.92529297
-            Z: 55.679718
+            X: 0.299636841
+            Y: -3.69212341
+            Z: 56.0097656
           }
           Rotation {
-            Pitch: -69.9999619
+            Pitch: -69.9999695
             Yaw: -179.999954
             Roll: 38.4538422
           }
@@ -172,12 +172,12 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: -0.502929688
-            Y: -2.92529297
-            Z: 50.9812622
+            X: -1.4103241
+            Y: -3.69212341
+            Z: 51.3115234
           }
           Rotation {
-            Pitch: -69.9999619
+            Pitch: -69.9999695
             Yaw: -179.999954
             Roll: 38.4538422
           }
@@ -221,12 +221,12 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: -2.21313477
-            Y: -2.92529297
-            Z: 46.2827454
+            X: -3.12052917
+            Y: -3.69212341
+            Z: 46.6132813
           }
           Rotation {
-            Pitch: -69.9999619
+            Pitch: -69.9999695
             Yaw: -179.999954
             Roll: 38.4538422
           }
@@ -270,9 +270,9 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: -3.9230957
-            Y: -2.92529297
-            Z: 41.5842743
+            X: -4.83049
+            Y: -3.69212341
+            Z: 41.9140625
           }
           Rotation {
             Pitch: -69.9998779
@@ -319,9 +319,9 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: -5.31860352
-            Y: -2.65930176
-            Z: 36.771286
+            X: -6.22599792
+            Y: -3.4261322
+            Z: 37.1015625
           }
           Rotation {
             Pitch: -69.9998779
@@ -368,13 +368,12 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: 8.50439453
-            Y: 2.53900146
-            Z: 53.0237122
+            X: 8.5249176
+            Y: 2.55634308
+            Z: 53.015625
           }
           Rotation {
             Pitch: 69.9999924
-            Yaw: -4.99253565e-06
             Roll: 134.010254
           }
           Scale {
@@ -417,9 +416,9 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: 6.79418945
-            Y: 2.53900146
-            Z: 48.3252716
+            X: 6.8147049
+            Y: 2.55634308
+            Z: 48.3173828
           }
           Rotation {
             Pitch: 69.9999695
@@ -465,9 +464,9 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: 5.08422852
-            Y: 2.53900146
-            Z: 43.6267548
+            X: 5.10474396
+            Y: 2.55634308
+            Z: 43.6191406
           }
           Rotation {
             Pitch: 69.9999695
@@ -513,9 +512,9 @@ Assets {
         Name: "Decal Letters 01"
         Transform {
           Location {
-            X: 3.37402344
-            Y: 2.53900146
-            Z: 38.9283
+            X: 3.39453888
+            Y: 2.55634308
+            Z: 38.9209
           }
           Rotation {
             Pitch: 69.9999695
@@ -561,13 +560,12 @@ Assets {
         Name: "Decal Military Symbols 01"
         Transform {
           Location {
-            X: 11.0214844
-            Y: 2.99169922
-            Z: 58.7895966
+            X: 11.0420094
+            Y: 3.00904083
+            Z: 58.7822266
           }
           Rotation {
             Pitch: 70.0000076
-            Yaw: -1.49776261e-05
             Roll: 141.545609
           }
           Scale {
@@ -610,9 +608,9 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: -14.3752441
+            X: -13.9028702
             Y: -0.971984863
-            Z: 0.364387512
+            Z: 0.192382813
           }
           Rotation {
             Pitch: 69.9999695
@@ -673,17 +671,17 @@ Assets {
           Location {
             X: -11.1948242
             Y: -0.971984863
-            Z: 9.10192871
+            Z: 9.1015625
           }
           Rotation {
             Pitch: 69.9999695
             Yaw: 2.49626519e-05
-            Roll: -89.9999771
+            Roll: -89.9999695
           }
           Scale {
-            X: 0.0151405474
-            Y: 0.0671484172
-            Z: 0.0671484172
+            X: 0.0172672961
+            Y: 0.0765806
+            Z: 0.0765806
           }
         }
         ParentId: 7121247403084844913
@@ -769,14 +767,13 @@ Assets {
             Z: 35.1298828
           }
           Rotation {
-            Pitch: -20.0000076
-            Yaw: -4.33238487e-13
+            Pitch: -20
             Roll: 2.73207334e-05
           }
           Scale {
-            X: 0.0149333244
-            Y: 0.0149333319
-            Z: 0.0174631346
+            X: 0.0164754223
+            Y: 0.0164754298
+            Z: 0.0192664806
           }
         }
         ParentId: 15137579320643205972
@@ -862,8 +859,8 @@ Assets {
             Roll: 19.9999886
           }
           Scale {
-            X: 1
-            Y: 1
+            X: 1.2
+            Y: 1.2
             Z: 1
           }
         }
@@ -930,14 +927,14 @@ Assets {
           Location {
             X: 1.51977539
             Y: 0.129333496
-            Z: 21.2618942
+            Z: 21.2617188
           }
           Rotation {
-            Pitch: -20.0000076
+            Pitch: -20
           }
           Scale {
-            X: 0.0593083
-            Y: 0.0593075342
+            X: 0.071
+            Y: 0.070672892
             Z: 0.243072629
           }
         }
@@ -1003,15 +1000,15 @@ Assets {
         Transform {
           Location {
             X: -2.81005859
-            Z: 9.28957367
+            Z: 9.29003906
           }
           Rotation {
-            Pitch: -20.0000076
+            Pitch: -20
           }
           Scale {
-            X: 0.00772106647
-            Y: 0.00772006391
-            Z: 0.0102328956
+            X: 0.00836815406
+            Y: 0.0083670672
+            Z: 0.0110904947
           }
         }
         ParentId: 15137579320643205972
@@ -1067,16 +1064,16 @@ Assets {
         Name: "Hatchet - Blade"
         Transform {
           Location {
-            X: 5.82543945
-            Z: 33.1679
+            X: 5.78302383
+            Z: 33.1679688
           }
           Rotation {
-            Pitch: -20.0000076
+            Pitch: -20
           }
           Scale {
-            X: 0.00772106647
-            Y: 0.00772006391
-            Z: 0.0102328956
+            X: 0.00836815406
+            Y: 0.0083670672
+            Z: 0.0110904947
           }
         }
         ParentId: 15137579320643205972
@@ -1132,18 +1129,18 @@ Assets {
         Name: "Hatchet - Blade"
         Transform {
           Location {
-            X: -4.89135742
-            Z: 3.72359467
+            X: -5.03236389
+            Z: 3.17480469
           }
           Rotation {
-            Pitch: -19.9999752
+            Pitch: -19.9999695
             Yaw: 1.73295362e-12
             Roll: 2.73207443e-05
           }
           Scale {
-            X: 0.0149333244
-            Y: 0.0149333319
-            Z: 0.0174631346
+            X: 0.0178524312
+            Y: 0.0178524442
+            Z: 0.0208767727
           }
         }
         ParentId: 15137579320643205972

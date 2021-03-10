@@ -47,6 +47,7 @@ Assets {
         }
         ParentId: 9900840486956381809
         ChildIds: 513984964040700192
+        ChildIds: 4457873068539211086
         ChildIds: 15396767185053634363
         ChildIds: 6616628451817510529
         ChildIds: 15432076852580929260
@@ -111,6 +112,42 @@ Assets {
             MaxDistanceFadeRange: 1000
           }
           CastVolumetricShadows: true
+        }
+      }
+      Objects {
+        Id: 4457873068539211086
+        Name: "Advanced Muzzleflash VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.352023512
+            Y: 0.352023512
+            Z: 0.352023512
+          }
+        }
+        ParentId: 6260728294085416527
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11252187294642675795
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
         }
       }
       Objects {
@@ -344,6 +381,15 @@ Assets {
             IsAttenuationEnabled: true
           }
         }
+      }
+    }
+    Assets {
+      Id: 11252187294642675795
+      Name: "Advanced Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_muzzleflash_alt"
       }
     }
     Assets {
