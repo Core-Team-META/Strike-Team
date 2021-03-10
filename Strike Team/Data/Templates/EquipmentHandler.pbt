@@ -246,6 +246,7 @@ Assets {
         ChildIds: 12033786241752632171
         ChildIds: 16228378625661976367
         ChildIds: 2061278447804926435
+        ChildIds: 4606099385579927438
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -933,6 +934,53 @@ Assets {
         }
       }
       Objects {
+        Id: 4606099385579927438
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5891436708374530405
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2411214559175194743
         Name: "Sub Machine Gun"
         Transform {
@@ -988,6 +1036,7 @@ Assets {
         ChildIds: 8955338102029626002
         ChildIds: 11595213589801554203
         ChildIds: 5676328151497008060
+        ChildIds: 10436329105236863285
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1640,6 +1689,53 @@ Assets {
         }
       }
       Objects {
+        Id: 10436329105236863285
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5270409559142515742
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -1695,6 +1791,7 @@ Assets {
         ChildIds: 6945816794623217933
         ChildIds: 764195614407751581
         ChildIds: 9554237938363600979
+        ChildIds: 16466687462057546549
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -2343,6 +2440,53 @@ Assets {
         }
       }
       Objects {
+        Id: 16466687462057546549
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10007417039202852447
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksman Rifle"
         Transform {
@@ -2398,6 +2542,7 @@ Assets {
         ChildIds: 10151690123081697405
         ChildIds: 7883491361687764135
         ChildIds: 14549819746773039667
+        ChildIds: 5320443501407893137
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -3042,6 +3187,53 @@ Assets {
         }
       }
       Objects {
+        Id: 5320443501407893137
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10840945067574270705
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -3097,6 +3289,7 @@ Assets {
         ChildIds: 3440923479958056126
         ChildIds: 15712503114798744751
         ChildIds: 1182866270013029485
+        ChildIds: 6795119575436924213
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -3749,6 +3942,53 @@ Assets {
         }
       }
       Objects {
+        Id: 6795119575436924213
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 4112572695126706569
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 3857468657531597669
         Name: "Light Machine Gun"
         Transform {
@@ -3804,6 +4044,7 @@ Assets {
         ChildIds: 564424040335815950
         ChildIds: 16423119712215107903
         ChildIds: 7615345712002682155
+        ChildIds: 17195107688625861864
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -4452,6 +4693,53 @@ Assets {
         }
       }
       Objects {
+        Id: 17195107688625861864
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 8972765275368803594
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 12192491190375546086
         Name: "Secondary"
         Transform {
@@ -4539,6 +4827,7 @@ Assets {
         ChildIds: 13319191760978226880
         ChildIds: 17797202136349572526
         ChildIds: 11931106142039068659
+        ChildIds: 632559071575903300
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -5366,6 +5655,53 @@ Assets {
         }
       }
       Objects {
+        Id: 632559071575903300
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 14449531995356518344
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 5401514240224850671
         Name: "MJC 782"
         Transform {
@@ -5393,6 +5729,7 @@ Assets {
         ChildIds: 15543438019606007822
         ChildIds: 2115288901080316371
         ChildIds: 2662100665199952392
+        ChildIds: 15539755853362615464
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -5987,6 +6324,53 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 15539755853362615464
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5401514240224850671
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 17023431545889893587
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -8810,6 +9194,7 @@ Assets {
         ChildIds: 14455353341293232318
         ChildIds: 17793720900899514404
         ChildIds: 3981829483090021092
+        ChildIds: 5602401040832642862
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -9614,6 +9999,53 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 5602401040832642862
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7771605384388490917
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 15285627290830487871
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -10563,6 +10995,7 @@ Assets {
         ChildIds: 13141132846174009727
         ChildIds: 14754450698957807734
         ChildIds: 6221004824423975752
+        ChildIds: 17742434377562275300
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -11108,6 +11541,53 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 17742434377562275300
+        Name: "Easter"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9110716462400792456
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "EA"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 4412993133924537875
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {

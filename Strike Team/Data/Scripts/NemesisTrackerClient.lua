@@ -23,9 +23,9 @@ local nemesisOfStatText = script:GetCustomProperty("NemesisOfStatText"):WaitForO
 
 local nemesisMarker = script:GetCustomProperty("NemesisVictoryScreenMarker")
 
-local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
-
 local printTableWithN = script:GetCustomProperty("PrintTableWithN")
+
+local tickGroup = script:GetCustomProperty("TickGroup"):WaitForObject()
 
 local localPlayer = Game.GetLocalPlayer()
 
@@ -49,6 +49,29 @@ local passToTask = {}
 local skipAnimation = false
 
 local letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}
+
+local tickNumber = 1
+local tickList = tickGroup:GetChildren()
+
+function PlayTick()
+	
+	if tickNumber <= #tickList and Object.IsValid(tickList[tickNumber]) then
+	
+		if not tickList[tickNumber].isPlaying or tickList[tickNumber].currentPlaybackTime >= 0.25 then
+	
+			tickList[tickNumber]:Play()
+			
+		end
+		
+		tickNumber = tickNumber + 1
+		
+	else 
+	
+		tickNumber = 1
+		
+	end	
+		
+end
 
 function GetPlayer(playerId)
 	
@@ -106,9 +129,7 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 			
 			if allowTickSFX then
 			
-				local tickSFX = World.SpawnAsset(rollTextTickSFX)
-				
-				tickSFX.lifeSpan = 1
+				PlayTick()
 				
 			end
 							
@@ -262,10 +283,8 @@ function AnimateYourNemesis()
 				
 			end
 			
-			local tickSFX = World.SpawnAsset(rollTextTickSFX)
-			
-			tickSFX.lifeSpan = 1
-			
+			PlayTick()
+							
 			Task.Wait(0.07)	
 			
 			if skipAnimation then
@@ -320,11 +339,9 @@ function AnimateYouAsNemesis()
 				NemesisOfKillsText.text = tostring(displayKillCount)
 				
 			end
-			
-			local tickSFX = World.SpawnAsset(rollTextTickSFX)
-			
-			tickSFX.lifeSpan = 1
-			
+					
+			PlayTick()
+							
 			Task.Wait(0.05)	
 			
 			if skipAnimation then

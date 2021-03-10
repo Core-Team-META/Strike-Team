@@ -47,6 +47,7 @@ Assets {
         }
         ParentId: 8213872670711088445
         ChildIds: 5115968108621534008
+        ChildIds: 4871264697875609538
         ChildIds: 17010699306649709278
         UnregisteredParameters {
         }
@@ -130,6 +131,42 @@ Assets {
         }
       }
       Objects {
+        Id: 4871264697875609538
+        Name: "Advanced Muzzleflash VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14936388970026982867
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11252187294642675795
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
         Id: 17010699306649709278
         Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
         Transform {
@@ -188,6 +225,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_revolver_ref"
+      }
+    }
+    Assets {
+      Id: 11252187294642675795
+      Name: "Advanced Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_muzzleflash_alt"
       }
     }
     Assets {

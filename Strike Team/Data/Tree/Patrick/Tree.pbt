@@ -43,6 +43,7 @@ Objects {
   }
   ParentId: 9452796327274910131
   ChildIds: 6482860454702267807
+  ChildIds: 11008070703395971369
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -50,6 +51,381 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 11008070703395971369
+  Name: "TickGroup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10999427269299237569
+  ChildIds: 5312317352878460739
+  ChildIds: 3955485498623797974
+  ChildIds: 3134425098761624826
+  ChildIds: 1356792562903954927
+  ChildIds: 6353774394723510600
+  ChildIds: 3527893016343645581
+  ChildIds: 9002096419732761833
+  ChildIds: 3311275090230723735
+  ChildIds: 4486452300921807569
+  ChildIds: 16546010088505037144
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16546010088505037144
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 4486452300921807569
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 3311275090230723735
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 9002096419732761833
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 3527893016343645581
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 6353774394723510600
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 1356792562903954927
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 3134425098761624826
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 3955485498623797974
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 5312317352878460739
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11008070703395971369
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
   }
 }
 Objects {
@@ -131,15 +507,15 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:NemesisVictoryScreenMarker"
-      AssetReference {
-        Id: 9653194334873660604
+      Name: "cs:TickGroup"
+      ObjectReference {
+        SelfId: 11008070703395971369
       }
     }
     Overrides {
-      Name: "cs:RollTextTickSFX"
+      Name: "cs:NemesisVictoryScreenMarker"
       AssetReference {
-        Id: 3523787590995695701
+        Id: 9653194334873660604
       }
     }
   }
@@ -344,6 +720,9 @@ Objects {
   }
   ParentId: 12247658189946244701
   ChildIds: 15464630797222557757
+  ChildIds: 13011517936921234380
+  ChildIds: 9508132256677162870
+  ChildIds: 10331115960595169700
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -351,6 +730,565 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 10331115960595169700
+  Name: "GoldGroup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  ChildIds: 3948994188032426659
+  ChildIds: 5147283659912007433
+  ChildIds: 4935853477293247513
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4935853477293247513
+  Name: "GoldThumpSound"
+  Transform {
+    Location {
+      X: -4080
+      Y: 10345
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6273392873648266164
+    }
+    Pitch: 1164.29639
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 5147283659912007433
+  Name: "GoldThumpSound"
+  Transform {
+    Location {
+      X: -4080
+      Y: 10345
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6273392873648266164
+    }
+    Pitch: 1164.29639
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 3948994188032426659
+  Name: "GoldThumpSound"
+  Transform {
+    Location {
+      X: -4080
+      Y: 10345
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6273392873648266164
+    }
+    Pitch: 1164.29639
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 9508132256677162870
+  Name: "TickGroup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  ChildIds: 11694248358230743532
+  ChildIds: 15849919245228433483
+  ChildIds: 14518355256011689601
+  ChildIds: 11361961196771484748
+  ChildIds: 6981472703396594996
+  ChildIds: 9111100850428071318
+  ChildIds: 12161835671173491865
+  ChildIds: 1975051306134326068
+  ChildIds: 14671651718135399466
+  ChildIds: 8487655944844699173
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8487655944844699173
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 14671651718135399466
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 1975051306134326068
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 12161835671173491865
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 9111100850428071318
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 6981472703396594996
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 11361961196771484748
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 14518355256011689601
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 15849919245228433483
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 11694248358230743532
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 13011517936921234380
+  Name: "RollTextAnimationCompleteSFX"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  ChildIds: 13278708480817517257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13278708480817517257
+  Name: "SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13011517936921234380
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 268039330512986837
+    }
+    AutoPlay: true
+    Pitch: 500
+    Volume: 1
+    Falloff: -1
+    Radius: -1
   }
 }
 Objects {
@@ -496,21 +1434,21 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:RollTextAnimationCompleteSFX"
-      AssetReference {
-        Id: 17591386188657923609
+      Name: "cs:CompleteSFX"
+      ObjectReference {
+        SelfId: 13278708480817517257
       }
     }
     Overrides {
-      Name: "cs:RollTextTickSFX"
-      AssetReference {
-        Id: 3523787590995695701
+      Name: "cs:TickGroup"
+      ObjectReference {
+        SelfId: 9508132256677162870
       }
     }
     Overrides {
-      Name: "cs:Gold_SFX"
-      AssetReference {
-        Id: 1724109739056415583
+      Name: "cs:GoldGroup"
+      ObjectReference {
+        SelfId: 10331115960595169700
       }
     }
     Overrides {

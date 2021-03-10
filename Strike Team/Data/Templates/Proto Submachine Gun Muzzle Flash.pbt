@@ -47,6 +47,7 @@ Assets {
         }
         ParentId: 17033298466445978272
         ChildIds: 17616793892455375496
+        ChildIds: 8199098515508596130
         ChildIds: 7361243837954488935
         ChildIds: 5404125646895113474
         UnregisteredParameters {
@@ -106,6 +107,42 @@ Assets {
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 8199098515508596130
+        Name: "Advanced Muzzleflash VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.194431841
+            Y: 0.194431841
+            Z: 0.194431841
+          }
+        }
+        ParentId: 12391300809687005807
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11252187294642675795
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
           }
         }
       }
@@ -251,6 +288,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_smg_ref"
+      }
+    }
+    Assets {
+      Id: 11252187294642675795
+      Name: "Advanced Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_muzzleflash_alt"
       }
     }
     Assets {
