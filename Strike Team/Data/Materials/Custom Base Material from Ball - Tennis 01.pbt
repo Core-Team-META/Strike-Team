@@ -7,45 +7,10 @@ Assets {
     BaseMaterialId: 3483882565492624738
     ParameterOverrides {
       Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.266225129
-          G: 0.299999952
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "gradient_direction"
-        Vector {
-          Z: -1
-        }
-      }
-      Overrides {
-        Name: "gradient_falloff"
-        Float: 0.452560931
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.30786562
-      }
-      Overrides {
-        Name: "fresnel_brightness"
-        Float: 10.5832872
-      }
-      Overrides {
-        Name: "fresnel_exponent"
-        Float: 3.38777351
-      }
-      Overrides {
-        Name: "roughness_multiplier"
-        Float: 1
-      }
-      Overrides {
         Name: "color"
         Color {
-          R: 0.30794698
-          G: 1
-          B: 0.0500000119
+          R: 0.0927150771
+          G: 0.700000048
           A: 1
         }
       }
