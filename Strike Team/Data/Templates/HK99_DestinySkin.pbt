@@ -100,6 +100,7 @@ Assets {
         ChildIds: 15909585198675500741
         ChildIds: 17574389277556365881
         ChildIds: 16463653794491989461
+        ChildIds: 15044985870211734197
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1303,6 +1304,87 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 7024490427461832088
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15044985870211734197
+        Name: "Modern Weapon - Body 01"
+        Transform {
+          Location {
+            X: -32.1891937
+            Y: 1.18295684e-05
+            Z: -15.6502609
+          }
+          Rotation {
+            Yaw: -90
+            Roll: -6.5904541
+          }
+          Scale {
+            X: 0.635952234
+            Y: 1.16869509
+            Z: 1.38245952
+          }
+        }
+        ParentId: 10877894984082256009
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 132672053610873933
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 3596882112526293926
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 132672053610873933
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 2678429451232679370
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 3.00000191
+              B: 6
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.297360033
+              G: 0.335232317
+              B: 0.336000025
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11118609824896761765
           }
           Teams {
           }
