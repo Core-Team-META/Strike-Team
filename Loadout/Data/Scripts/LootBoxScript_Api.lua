@@ -46,8 +46,9 @@ if Environment.IsServer() then
     function LootBox.UpdateTime(player)
         local CountdownTimer = 60*60*8
         local data = Storage.GetPlayerData(player)
-        data["Lootbox.LastOpen"] = os.time()
-        data["Lootbox.OpenTime"] = os.time() + CountdownTimer
+        local time = os.time(os.date("!*t"))
+        data["Lootbox.LastOpen"] = time
+        data["Lootbox.OpenTime"] = time + CountdownTimer
         LootBox.UpdateOpenTime(player, CountdownTimer)
         Storage.SetPlayerData(player,data)
         if _G["CrateKey"] then
@@ -83,6 +84,7 @@ if Environment.IsServer() then
         
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
+        local time = os.time(os.date("!*t"))
         player:SetResource("Gold", data["Gold"] or 0)
         local data2 = Storage.GetPlayerData(player) --#TODO Swap this over to shared key loading
         --local opentime = data2["Lootbox.LastOpen"]
@@ -91,7 +93,7 @@ if Environment.IsServer() then
 
         if data2["Lootbox.CanOpen"] == 1 then
             Task.Spawn(function()  
-                LootBox.UpdateOpenTime(player,os.difftime(CloseTime,os.time())-1) 
+                LootBox.UpdateOpenTime(player,os.difftime(CloseTime,time)-1) 
                 LootBox.Lock(player) 
             end, 1)
            
