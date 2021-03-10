@@ -17,7 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 10663547416831530550
-        ChildIds: 4362449805984510050
+        ChildIds: 8918273251376039098
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -77,10 +77,12 @@ Assets {
         }
       }
       Objects {
-        Id: 4362449805984510050
-        Name: "Default_Assault_Scope_Skin1"
+        Id: 8918273251376039098
+        Name: "Geo"
         Transform {
           Location {
+            X: 20
+            Z: -32.6499023
           }
           Rotation {
           }
@@ -91,83 +93,6 @@ Assets {
           }
         }
         ParentId: 2195787417047818501
-        ChildIds: 14336275809568793741
-        ChildIds: 8918273251376039098
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 14336275809568793741
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 4362449805984510050
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 4362449805984510050
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -5
-              Z: 0.5
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16135316138749006068
-          }
-        }
-      }
-      Objects {
-        Id: 8918273251376039098
-        Name: "Geo"
-        Transform {
-          Location {
-            X: 20
-            Z: -32.6498947
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4362449805984510050
         ChildIds: 11996558404852993045
         ChildIds: 6204612477023455363
         ChildIds: 14406189246474560652
