@@ -240,6 +240,20 @@ function SortPanels(a,b)
 
 end
 
+function FilterItems(Weapon,items)
+    local NewTable = {}
+    for _,item in pairs(items) do
+        if item.event then 
+            if Storage:HasSkin(Weapon,item.id) then
+                table.insert( NewTable, item)
+            end
+        else
+            table.insert( NewTable, item)
+        end
+    end
+    return NewTable
+end
+
 function SkinSort(id,a,b)
 
     if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
@@ -263,9 +277,11 @@ function SpawnPanels(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
     if #items == 0 then return end
+    
     table.sort( items, function ( a,b )
         return SortPanels( a,b )
     end)
+
     SlotChange( #items )
     for i=Sort+1, math.min((Sort + PanelLimit),#items)  do
         local Active = not CheckWeapon(items[i].data.id) or (items[i]:GetLevel() > LOCAL_PLAYER:GetResource("LeveL"))
@@ -310,6 +326,7 @@ function SpawnPanelskins(itemid)
     local id, _ =  CoreString.Split(itemid ,"_")
     local item = Database:ReturnEquipmentById(id)
     local skins = item:GetSkins()
+    skins = FilterItems(item,skins)
     table.sort( skins, function ( a,b )
         return SkinSort(id, a,b )
     end)
