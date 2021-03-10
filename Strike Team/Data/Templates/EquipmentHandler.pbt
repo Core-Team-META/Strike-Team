@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10671565427701169845
+        ParentId: 4781671109827199097
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -247,6 +247,7 @@ Assets {
         ChildIds: 16228378625661976367
         ChildIds: 2061278447804926435
         ChildIds: 4606099385579927438
+        ChildIds: 17843945397814286214
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -966,6 +967,45 @@ Assets {
           Overrides {
             Name: "cs:EventSkin"
             Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 17843945397814286214
+        Name: "StarHopper"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 5131135765231027141
+            }
           }
         }
         Collidable_v2 {
