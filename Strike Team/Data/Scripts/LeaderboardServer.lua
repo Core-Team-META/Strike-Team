@@ -9,7 +9,8 @@ local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 local leaderboardList = script:GetCustomProperty("LeaderboardList"):WaitForObject()
 
 local STORAGE_KEY = "LeaderboardSupport"
-local ONE_WEEK = 7 * 24 * 60 * 60
+local ONE_DAY = 24 * 60 * 60
+local ONE_WEEK = ONE_DAY * 7
 local currentTimestamp
 
 
@@ -82,14 +83,6 @@ function SaveToWeeklyStorage(player, resource, score)
 		if score >= prevScore then
 			-- Save new score if it's better than the old one
 			setNewData = true
-		else
-			-- Overrite previous data if it's older than a week
-			local prevTimestamp = leaderboardData["Timestamp"]
-			
-			local deltaTime = os.difftime(currentTimestamp, prevTimestamp)
-			if deltaTime > ONE_WEEK then
-				setNewData = true
-			end
 		end
 	end
 	
@@ -118,8 +111,25 @@ function TransferWeeklyStorageToPlayer(player)
 	local data = Storage.GetPlayerData(player)
 	if not data[STORAGE_KEY] then return end
 	
-	currentTimestamp = os.time(os.date('!*t'))
+	-- Figure out the threshold when the weekly data was reset
+	local weekBeginDate = os.date('!*t')
+	weekBeginDate.hour = 0
+	weekBeginDate.min = 0
+	weekBeginDate.sec = 0
 	
+	local daysToRewind = 0
+	while weekBeginDate.wday ~= 7 do
+		weekBeginDate.wday = weekBeginDate.wday - 1
+		if weekBeginDate.wday < 1 then
+			weekBeginDate.wday = 7
+		end
+		daysToRewind = daysToRewind + 1
+	end
+	
+	local weekBeginTimestamp = os.time(weekBeginDate)
+	weekBeginTimestamp = weekBeginTimestamp - daysToRewind * ONE_DAY
+	
+	-- Go through each leaderboard type
 	for _, leaderboardSection in ipairs(leaderboardList:GetChildren()) do
 		leaderboardRef = leaderboardSection:GetCustomProperty("LeaderboardReference")
 		resource = leaderboardSection:GetCustomProperty("ResourceForEntry")
@@ -132,10 +142,11 @@ function TransferWeeklyStorageToPlayer(player)
 				
 				local prevTimestamp = leaderboardData["Timestamp"]
 				
-				local deltaTime = os.difftime(currentTimestamp, prevTimestamp)
-				if deltaTime > ONE_WEEK then
+				if prevTimestamp < weekBeginTimestamp then
+					-- Discard the old score
 					player:SetResource(resourceKey, 0)
 				else
+					-- Score still valid for this week. Send it to clients
 					local score = leaderboardData["Score"]
 					if resource == "KDR" then
 						score = CoreMath.Round(score * 10000)
