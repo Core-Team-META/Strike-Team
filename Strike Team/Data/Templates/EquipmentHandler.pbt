@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10671565427701169845
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -1925,6 +1925,7 @@ Assets {
         ChildIds: 9554237938363600979
         ChildIds: 16466687462057546549
         ChildIds: 10575009887118990161
+        ChildIds: 12199996850004470961
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -2648,6 +2649,51 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 12199996850004470961
+        Name: "Melted"
+        Transform {
+          Location {
+            Y: 1382.4668
+            Z: 289.671326
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "ME"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 14584481491040304424
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -3511,6 +3557,7 @@ Assets {
         ChildIds: 1182866270013029485
         ChildIds: 6795119575436924213
         ChildIds: 251264412658633999
+        ChildIds: 14773525529189950569
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -4238,6 +4285,51 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14773525529189950569
+        Name: "Melted"
+        Transform {
+          Location {
+            Y: 1382.4668
+            Z: 289.671326
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "ME"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 8872310424160725979
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -5964,7 +6056,7 @@ Assets {
       }
       Objects {
         Id: 632559071575903300
-        Name: "Easter"
+        Name: "Spring"
         Transform {
           Location {
           }
@@ -6038,6 +6130,7 @@ Assets {
         ChildIds: 2115288901080316371
         ChildIds: 2662100665199952392
         ChildIds: 15539755853362615464
+        ChildIds: 426292628173465319
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6648,7 +6741,7 @@ Assets {
       }
       Objects {
         Id: 15539755853362615464
-        Name: "Easter"
+        Name: "Spring"
         Transform {
           Location {
           }
@@ -6679,6 +6772,51 @@ Assets {
           Overrides {
             Name: "cs:EventSkin"
             Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 426292628173465319
+        Name: "Melted"
+        Transform {
+          Location {
+            Y: 1382.4668
+            Z: 289.671326
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5401514240224850671
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "ME"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 17769673969994310597
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -10323,7 +10461,7 @@ Assets {
       }
       Objects {
         Id: 5602401040832642862
-        Name: "Easter"
+        Name: "Spring"
         Transform {
           Location {
           }
