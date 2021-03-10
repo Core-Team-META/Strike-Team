@@ -259,7 +259,7 @@ Assets {
           Overrides {
             Name: "cs:DefaultSkin"
             AssetReference {
-              Id: 5131135765231027141
+              Id: 1867073637100929594
             }
           }
           Overrides {
