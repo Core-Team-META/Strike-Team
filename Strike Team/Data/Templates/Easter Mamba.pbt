@@ -741,7 +741,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 02"
         Transform {
           Location {
-            X: 30.7536011
+            X: 30.75354
             Z: 15
           }
           Rotation {
@@ -749,9 +749,9 @@ Assets {
             Roll: 180
           }
           Scale {
-            X: 0.914173722
-            Y: 0.914176047
-            Z: 1.46653175
+            X: 0.11800801
+            Y: 0.118008286
+            Z: 0.189310223
           }
         }
         ParentId: 10909767111221068819
@@ -792,7 +792,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -809,7 +809,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 02"
         Transform {
           Location {
-            X: 48.4794312
+            X: 48.4793701
             Z: 15
           }
           Rotation {
@@ -817,9 +817,9 @@ Assets {
             Roll: -179.999817
           }
           Scale {
-            X: 0.914173722
-            Y: 0.914176047
-            Z: 1.46653175
+            X: 0.11800801
+            Y: 0.118008286
+            Z: 0.189310223
           }
         }
         ParentId: 10909767111221068819
@@ -860,7 +860,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -877,7 +877,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 02"
         Transform {
           Location {
-            X: 65.0231323
+            X: 65.0230713
             Z: 15
           }
           Rotation {
@@ -886,9 +886,9 @@ Assets {
             Roll: 0.000183105469
           }
           Scale {
-            X: 0.914173722
-            Y: 0.914176047
-            Z: 1.46653175
+            X: 0.11800801
+            Y: 0.118008286
+            Z: 0.189310223
           }
         }
         ParentId: 10909767111221068819
@@ -929,7 +929,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -3509,12 +3509,12 @@ Assets {
       }
     }
     Assets {
-      Id: 7405624670898875333
-      Name: "Ball - Golf 01"
+      Id: 2591121229391008029
+      Name: "Sphere"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_urb_ball_golf_01_ref"
+        AssetId: "sm_sphere_002"
       }
     }
     Assets {
