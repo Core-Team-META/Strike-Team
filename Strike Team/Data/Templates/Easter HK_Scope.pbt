@@ -7,7 +7,7 @@ Assets {
       RootId: 4113836494665895535
       Objects {
         Id: 4113836494665895535
-        Name: "Easter HK_Scope"
+        Name: "Demon HK_Scope"
         Transform {
           Scale {
             X: 1
@@ -100,9 +100,7 @@ Assets {
         ChildIds: 14210442405211572796
         ChildIds: 5979374917642710128
         ChildIds: 1469534365150554815
-        ChildIds: 9676002157222028258
-        ChildIds: 15991811855780373145
-        ChildIds: 3989730908428209281
+        ChildIds: 515980961013951858
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -193,6 +191,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -280,6 +279,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -358,6 +358,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -436,6 +437,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -514,6 +516,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -592,6 +595,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -670,6 +674,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -677,140 +682,22 @@ Assets {
         }
       }
       Objects {
-        Id: 9676002157222028258
-        Name: "Modern Weapon - Scope 01"
-        Transform {
-          Location {
-            X: 30
-            Z: 32.7139511
-          }
-          Rotation {
-            Pitch: 44.9999771
-            Yaw: 89.9999771
-            Roll: 89.9999695
-          }
-          Scale {
-            X: 0.009
-            Y: 0.009
-            Z: 0.001
-          }
-        }
-        ParentId: 11938919732736197725
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17592276739556605565
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9176145884981181688
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15991811855780373145
-        Name: "Modern Weapon - Scope 01"
-        Transform {
-          Location {
-            X: 30
-            Z: 32.7139511
-          }
-          Rotation {
-            Pitch: -44.2499733
-            Yaw: 89.9999771
-            Roll: 89.9999771
-          }
-          Scale {
-            X: 0.009
-            Y: 0.009
-            Z: 0.001
-          }
-        }
-        ParentId: 11938919732736197725
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17592276739556605565
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9176145884981181688
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3989730908428209281
+        Id: 515980961013951858
         Name: "Modern Weapon - Body 01"
         Transform {
           Location {
-            X: 70.7746582
-            Z: 32.7139511
+            X: 21.2756348
+            Y: 0.122314453
+            Z: 32.675354
           }
           Rotation {
             Pitch: 90
-            Roll: 0.000107926302
+            Yaw: 75.7623367
+            Roll: 75.7625046
           }
           Scale {
-            X: 0.002
-            Y: 0.002
+            X: 0.00499999942
+            Y: 0.00499999942
             Z: 0.002
           }
         }
@@ -845,6 +732,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -904,24 +792,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ring_faceted_001"
-      }
-    }
-    Assets {
-      Id: 9176145884981181688
-      Name: "Pipe - Half Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_half-pipe_002"
-      }
-    }
-    Assets {
-      Id: 17592276739556605565
-      Name: "Asphalt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
       }
     }
     Assets {

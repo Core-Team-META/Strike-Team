@@ -1370,8 +1370,8 @@ Assets {
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
-            X: -74.064888
-            Y: 6.97584486
+            X: -74.0649567
+            Y: 6.97591257
             Z: -0.379130065
           }
           Rotation {
@@ -1380,9 +1380,9 @@ Assets {
             Roll: -90.0000916
           }
           Scale {
-            X: 2.28787613
-            Y: 2.28787851
-            Z: 3.60213685
+            X: 0.303189784
+            Y: 0.303189963
+            Z: 0.477356017
           }
         }
         ParentId: 17987346450919374231
@@ -1434,7 +1434,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1832,7 +1832,7 @@ Assets {
         Transform {
           Location {
             X: -36.9071503
-            Y: 6.97584486
+            Y: 6.97591257
             Z: -0.379130065
           }
           Rotation {
@@ -1841,9 +1841,9 @@ Assets {
             Roll: -90.0000916
           }
           Scale {
-            X: 2.45883942
-            Y: 2.45884275
-            Z: 3.87130952
+            X: 0.325846016
+            Y: 0.325846434
+            Z: 0.513026655
           }
         }
         ParentId: 17987346450919374231
@@ -1896,7 +1896,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1913,8 +1913,8 @@ Assets {
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
-            X: -4.79458332
-            Y: 6.97584486
+            X: -4.79451561
+            Y: 6.97591257
             Z: -0.379130065
           }
           Rotation {
@@ -1923,9 +1923,9 @@ Assets {
             Roll: -90.0000916
           }
           Scale {
-            X: 2.28787661
-            Y: 2.28787947
-            Z: 3.60213709
+            X: 0.303190053
+            Y: 0.30319044
+            Z: 0.477356255
           }
         }
         ParentId: 17987346450919374231
@@ -1978,7 +1978,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2480,12 +2480,12 @@ Assets {
       }
     }
     Assets {
-      Id: 7405624670898875333
-      Name: "Ball - Golf 01"
+      Id: 2591121229391008029
+      Name: "Sphere"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_urb_ball_golf_01_ref"
+        AssetId: "sm_sphere_002"
       }
     }
     Assets {
