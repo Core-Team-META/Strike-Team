@@ -332,13 +332,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 1778446291070997431
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3675826569702697702
+              Id: 1778446291070997431
             }
           }
           Overrides {
@@ -602,7 +602,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3675826569702697702
+              Id: 1778446291070997431
             }
           }
           Overrides {
@@ -620,6 +620,12 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 3.00070214
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 1778446291070997431
+            }
           }
         }
         Collidable_v2 {
@@ -733,7 +739,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3675826569702697702
+              Id: 1778446291070997431
             }
           }
           Overrides {
@@ -1318,9 +1324,9 @@ Assets {
             Pitch: 0.102493815
           }
           Scale {
-            X: 0.577806413
-            Y: 0.577806413
-            Z: 0.937235177
+            X: 0.0745811388
+            Y: 0.0745811388
+            Z: 0.120974883
           }
         }
         ParentId: 4533799685304627166
@@ -1369,7 +1375,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1461,16 +1467,16 @@ Assets {
         Name: "Modern Weapon - Foregrip 03"
         Transform {
           Location {
-            X: 16.413969
+            X: 16.414011
             Z: 7.79523659
           }
           Rotation {
             Pitch: 0.102493815
           }
           Scale {
-            X: 0.64658308
-            Y: 0.64658308
-            Z: 1.04879463
+            X: 0.083458595
+            Y: 0.083458595
+            Z: 0.135374665
           }
         }
         ParentId: 4533799685304627166
@@ -1519,7 +1525,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1543,9 +1549,9 @@ Assets {
             Pitch: 0.102493815
           }
           Scale {
-            X: 0.577806473
-            Y: 0.577806473
-            Z: 0.937235296
+            X: 0.074581176
+            Y: 0.074581176
+            Z: 0.120974936
           }
         }
         ParentId: 4533799685304627166
@@ -1594,7 +1600,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7405624670898875333
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1644,21 +1650,21 @@ Assets {
       }
     }
     Assets {
-      Id: 3242532795464898345
-      Name: "Sci-fi Base Pillar 02 - Base 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
-      }
-    }
-    Assets {
       Id: 1778446291070997431
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "plastic_shiny_001"
+      }
+    }
+    Assets {
+      Id: 3242532795464898345
+      Name: "Sci-fi Base Pillar 02 - Base 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
       }
     }
     Assets {
@@ -1734,12 +1740,12 @@ Assets {
       }
     }
     Assets {
-      Id: 7405624670898875333
-      Name: "Ball - Golf 01"
+      Id: 2591121229391008029
+      Name: "Sphere"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_urb_ball_golf_01_ref"
+        AssetId: "sm_sphere_002"
       }
     }
     PrimaryAssetId {
