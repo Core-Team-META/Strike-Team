@@ -31,7 +31,12 @@ function GenerateLeaderboard()
 	local leaderboardData = GetLeaderboardData()
 	if not leaderboardData then return end
 	if #leaderboardData == 0 then return end
-		
+	
+	-- Sort data based on score / numberOfEntries = average score
+	
+	-- TODO
+	
+	
 	-- Find local player in the data
 	local localPlayerName = LOCAL_PLAYER.name
 	local localPlayerIndex = -1
@@ -81,13 +86,16 @@ function GenerateLeaderboard()
 		if not entry then
 			if localPlayerIndex < 0 then
 				local resourceKey = "Leaderboard_" .. RESOURCE_TO_TRACK
-				local _s = LOCAL_PLAYER:GetResource(resourceKey)
+				local resourceEntriesKey = resourceKey .. "_E"
+				
+				local _score = LOCAL_PLAYER:GetResource(resourceKey)
+				local _numberOfEntries = LOCAL_PLAYER:GetResource(resourceEntriesKey)
 				
 				if RESOURCE_TO_TRACK == "KDR" then
-					_s = _s / 10000
+					_score = _score / 10000
 				end
 				-- Fake leaderboard entry
-				entry = {name = LOCAL_PLAYER.name, score = _s}
+				entry = {name = LOCAL_PLAYER.name, score = _score, additionalData = tostring(_numberOfEntries)}
 				
 				rankNumber = -1
 			else
@@ -138,13 +146,18 @@ function GenerateLeaderboard()
 			end
 			
 			-- Score
-			if RESOURCE_TO_TRACK == "KDR" then
-				entryValue.text = string.format("%0.1f", entry.score)
-				
-	        elseif RESOURCE_TO_TRACK == "Objective" then
-	            entryValue.text = string.format("%d", math.ceil(entry.score/5))
+			local score = entry.score
+			if entry.additionalData then
+				local numberOfEntries = tonumber(entry.additionalData)
+				if numberOfEntries and numberOfEntries > 0 then
+					score = score / numberOfEntries
+				end
+			end
+			
+			if RESOURCE_TO_TRACK == "Objective" then
+	            entryValue.text = string.format("%0.2f", math.ceil(score / 5))
 			else
-				entryValue.text = string.format("%d", entry.score)
+				entryValue.text = string.format("%0.2f", score)
 			end
 		end
 	end
