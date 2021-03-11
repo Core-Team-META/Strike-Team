@@ -4059,7 +4059,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "0542E06377020DEA"
+        Key: "83004DE9B3BF089E"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -4105,7 +4105,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "A3E8B34C72EAE159"
+        Key: "F9A8B25FBACE723E"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -4151,7 +4151,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "C486A5253D05AB03"
+        Key: "9597668E3034D531"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -4192,12 +4192,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceForEntry"
-      String: "Killstreak"
+      String: "Assists"
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "4D4536DFCEEE0D16"
+        Key: "69066410B2829170"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -4243,7 +4243,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "55BBF922E5126916"
+        Key: "D164A05CE37C6CEE"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
