@@ -32,11 +32,33 @@ function GenerateLeaderboard()
 	if not leaderboardData then return end
 	if #leaderboardData == 0 then return end
 	
+	-- Calculate average scores
+	local averageScores = {}
+	for i, entry in ipairs(leaderboardData) do
+		local score = entry.score
+		if entry.additionalData then
+			local numberOfEntries = tonumber(entry.additionalData)
+			if numberOfEntries and numberOfEntries > 0 then
+				score = score / numberOfEntries
+			end
+		end
+		averageScores[entry] = score
+	end
+	
 	-- Sort data based on score / numberOfEntries = average score
-	
-	-- TODO
-	
-	
+	local A = leaderboardData
+	local n = #A
+	local swapped = false
+	repeat
+		swapped = false
+		for i=2,n do
+			if averageScores[A[i-1]] < averageScores[A[i]] then
+				A[i-1],A[i] = A[i],A[i-1]
+				swapped = true
+			end
+		end
+	until not swapped
+  
 	-- Find local player in the data
 	local localPlayerName = LOCAL_PLAYER.name
 	local localPlayerIndex = -1
@@ -91,11 +113,16 @@ function GenerateLeaderboard()
 				local _score = LOCAL_PLAYER:GetResource(resourceKey)
 				local _numberOfEntries = LOCAL_PLAYER:GetResource(resourceEntriesKey)
 				
+				if _numberOfEntries <= 0 then
+					_numberOfEntries = 1
+				end
+				
 				if RESOURCE_TO_TRACK == "KDR" then
 					_score = _score / 10000
 				end
 				-- Fake leaderboard entry
 				entry = {name = LOCAL_PLAYER.name, score = _score, additionalData = tostring(_numberOfEntries)}
+				averageScores[entry] = _score / _numberOfEntries
 				
 				rankNumber = -1
 			else
@@ -146,14 +173,7 @@ function GenerateLeaderboard()
 			end
 			
 			-- Score
-			local score = entry.score
-			if entry.additionalData then
-				local numberOfEntries = tonumber(entry.additionalData)
-				if numberOfEntries and numberOfEntries > 0 then
-					score = score / numberOfEntries
-				end
-			end
-			
+			local score = averageScores[entry]
 			if RESOURCE_TO_TRACK == "Objective" then
 	            entryValue.text = string.format("%0.2f", math.ceil(score / 5))
 			else
