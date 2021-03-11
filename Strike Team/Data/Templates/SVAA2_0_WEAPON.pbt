@@ -181,7 +181,7 @@ Assets {
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
-            SpreadMax: 2
+            SpreadMax: 4
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 1
@@ -252,6 +252,7 @@ Assets {
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
+            Duration: 0.35
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -369,11 +370,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 62
+            Float: 58
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 124
+            Float: 116
           }
         }
         Collidable_v2 {
@@ -515,7 +516,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.5
+            Float: 0.3
           }
           Overrides {
             Name: "cs:SpreadWalkPrecision"
@@ -531,7 +532,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.45
+            Float: 0.65
           }
         }
         Collidable_v2 {
@@ -671,7 +672,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 0.8
+            Float: 0.5
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -681,7 +682,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 2.5
+            Float: 0.9
           }
           Overrides {
             Name: "cs:DURATION"
@@ -1096,7 +1097,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 12
+            Int: 14
           }
         }
         Collidable_v2 {
