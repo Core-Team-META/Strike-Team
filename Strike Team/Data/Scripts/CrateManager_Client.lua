@@ -34,6 +34,7 @@ end
 
 if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
     shouldShow = true
+    Events.Broadcast("HideUI")
 end
 
 Events.Connect("GameStateChanged", OnGameStateChanged)

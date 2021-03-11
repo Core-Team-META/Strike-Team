@@ -5,7 +5,7 @@ while not _G["CrateKey"] or count < 25 do
 end
 
 function OnPlayerJoined(player)
-    if _G["CrateKey"].isAssigned then
+    if _G["CrateKey"] and _G["CrateKey"].isAssigned then
         local data = Storage.GetSharedPlayerData(_G["CrateKey"], player)
         if data["Lootbox.OpenTime"] then
         
