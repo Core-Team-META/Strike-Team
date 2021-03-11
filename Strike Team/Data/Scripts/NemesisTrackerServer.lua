@@ -243,7 +243,7 @@ function CalculateNemesis()
 	-- Calculate who is the nemeis of who
 	for victim, killerList in pairs(nemesisIndex) do
 	
-		selectedNemesis = nil
+		selectedNemesis = " "
 		victimKilledMost = " "
 		
 		nemesisKills = 0
@@ -263,7 +263,7 @@ function CalculateNemesis()
 		
 		end
 		
-		if selectedNemesis then
+		if selectedNemesis ~= " " then
 		
 			for killer, killCount in pairs(killerList) do
 			

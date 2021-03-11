@@ -457,10 +457,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PrintTableWithN"
-      Bool: false
-    }
-    Overrides {
       Name: "cs:PlayerKilledEvent"
       String: "PlayerKilled"
     }
