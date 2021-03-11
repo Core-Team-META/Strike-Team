@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 14721333722550657248
+        ChildIds: 11052414084840757895
         ChildIds: 10007280648470417142
         ChildIds: 6848843898762756418
         ChildIds: 7927740488716824813
@@ -74,6 +75,39 @@ Assets {
             X: 9.71551323
             Y: 9.71551323
             Z: 9.71551323
+          }
+        }
+        ParentId: 4496491051667762757
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:sphere"
+          }
+        }
+      }
+      Objects {
+        Id: 11052414084840757895
+        Name: "SupportTrigger"
+        Transform {
+          Location {
+            Z: -4.95996094
+          }
+          Rotation {
+          }
+          Scale {
+            X: 20.25
+            Y: 20.25
+            Z: 20.25
           }
         }
         ParentId: 4496491051667762757
@@ -604,6 +638,12 @@ Assets {
             Name: "cs:ROOT"
             ObjectReference {
               SubObjectId: 4496491051667762757
+            }
+          }
+          Overrides {
+            Name: "cs:SupportTrigger"
+            ObjectReference {
+              SubObjectId: 11052414084840757895
             }
           }
         }

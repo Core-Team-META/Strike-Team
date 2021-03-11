@@ -29,6 +29,7 @@ function Tick()
             end
         end
     end
+    Task.Wait(0.5)
 end
 
 local listener = LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
