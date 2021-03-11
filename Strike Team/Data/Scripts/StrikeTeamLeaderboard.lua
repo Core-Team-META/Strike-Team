@@ -31,7 +31,7 @@ function GenerateLeaderboard()
 	local leaderboardData = GetLeaderboardData()
 	if not leaderboardData then return end
 	if #leaderboardData == 0 then return end
-	
+		
 	-- Find local player in the data
 	local localPlayerName = LOCAL_PLAYER.name
 	local localPlayerIndex = -1
@@ -74,6 +74,7 @@ function GenerateLeaderboard()
 		end
 		
 		local entry = leaderboardData[i]
+		local rankNumber = i
 		
 		-- In the case where the player is below the leaderboard, grab
 		-- their data from Storage (sent via Resources)
@@ -87,6 +88,8 @@ function GenerateLeaderboard()
 				end
 				-- Fake leaderboard entry
 				entry = {name = LOCAL_PLAYER.name, score = _s}
+				
+				rankNumber = -1
 			else
 				break
 			end
@@ -118,7 +121,11 @@ function GenerateLeaderboard()
 			entryValue.text = ""
 		else
 			-- Rank
-			entryRank.text = tostring(i) .. "."
+			if rankNumber < 0 then
+				entryRank.text = tostring(#leaderboardData + 1) .. "+"
+			else
+				entryRank.text = tostring(i) .. "."
+			end
 			
 			-- Name
 			entryName.text = entry.name
