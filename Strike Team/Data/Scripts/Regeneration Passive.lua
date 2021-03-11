@@ -14,9 +14,10 @@ function AddPlayer(player)
 end
 
 function RemovePlayer(player)
-    if(Object.IsValid(EQUIPMENT) ) then
-        if EQUIPMENT.serverUserData.KillEvents[player].isConnected then
-            EQUIPMENT.serverUserData.KillEvents[player]:Disconnect()
+    if Object.IsValid(EQUIPMENT) then
+		local listener = EQUIPMENT.serverUserData.KillEvents[player]
+        if listener and listener.isConnected then
+            listener:Disconnect()
         end
         EQUIPMENT.serverUserData.KillEvents[player] = nil
     end
