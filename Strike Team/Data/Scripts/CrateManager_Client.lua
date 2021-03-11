@@ -1,22 +1,25 @@
+local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CRATE_TIMER_PANEL = script:GetCustomProperty("CrateTimerPanel"):WaitForObject()
 local CRATE_TIMER_TEXT = script:GetCustomProperty("CrateTimerText"):WaitForObject()
 local nextCrateOpen = nil
+local shouldShow = false
 
-function OnResourceChanged(player, name, amount)
-    if name == "LootBox.OpenTime" then
-        nextCrateOpen = amount
+function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
+    if newState == ABGS.GAME_STATE_ROUND_END then
+        shouldShow = true
+    else
+        shouldShow = false
     end
 end
 
 function Tick()
-    --#TODO only do this during round end
-    if nextCrateOpen and nextCrateOpen > 0 then
+    if shouldShow then
+        nextCrateOpen = LOCAL_PLAYER:GetResource("LootBox.OpenTime")
         local remainingTime = nextCrateOpen - time()
-        if remainingTime > 0 then
-            if CRATE_TIMER_PANEL.visibility == Visibility.FORCE_OFF then
-                CRATE_TIMER_PANEL.visibility = Visibility.FORCE_ON
-            end
+        if nextCrateOpen and nextCrateOpen > 0 and remainingTime > 0 then
+            CRATE_TIMER_PANEL.visibility = Visibility.FORCE_ON
+
             local Days = remainingTime / (60 * 60 * 24)
             local Hours = remainingTime / (60 * 60) % 24
             local Minutes = remainingTime / 60 % 60
@@ -24,16 +27,13 @@ function Tick()
             CRATE_TIMER_TEXT.text =
                 string.format("%02d:%02d:%02d", math.floor(Hours), math.floor(Minutes), math.floor(Seconds))
         else
-            if CRATE_TIMER_PANEL.visibility == Visibility.FORCE_ON then
-                CRATE_TIMER_PANEL.visibility = Visibility.FORCE_OFF
-            end
+            CRATE_TIMER_PANEL.visibility = Visibility.FORCE_OFF
         end
     end
-    Task.Wait(0.5)
 end
 
-local listener = LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
-while not listener.isConnected do
-    Task.Wait()
-    nextCrateOpen = LOCAL_PLAYER:GetResource("LootBox.OpenTime")
+if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+    shouldShow = true
 end
+
+Events.Connect("GameStateChanged", OnGameStateChanged)
