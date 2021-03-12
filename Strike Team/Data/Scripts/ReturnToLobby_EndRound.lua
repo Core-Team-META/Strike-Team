@@ -28,3 +28,9 @@ COFIRM_BUTTON.clickedEvent:Connect(OnButtonPressed)
 DENY_BUTTON.clickedEvent:Connect(OnButtonPressed)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
+Events.Connect(
+    "HideUI",
+    function()
+        CONFIRM_PANEL.visibility = Visibility.FORCE_OFF
+    end
+)
