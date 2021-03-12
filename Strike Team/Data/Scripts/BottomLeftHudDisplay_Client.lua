@@ -28,9 +28,13 @@ function OnResourceChanged(player, name, amount)
     if name == "Level" then
         ChangeLevelText(amount)
     end
+    if name == "StrikeCoins" then
+        ChangeStrikeCoinText(amount)
+    end
 end
 
 local listener = LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
 Game.playerLeftEvent:Connect(function(player) if player == LOCAL_PLAYER then listener:Disconnect() end end)
 ChangeCashText(LOCAL_PLAYER:GetResource("Cash"))
 ChangeLevelText(LOCAL_PLAYER:GetResource("Level"))
+ChangeStrikeCoinText(LOCAL_PLAYER:GetResource("StrikeCoins"))
