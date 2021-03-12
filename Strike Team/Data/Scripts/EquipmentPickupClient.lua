@@ -34,7 +34,6 @@ local DEFAULT_LIFESPAN = 1
 
 -- nil OnEquipped(Equipment)
 function OnEquipped(equipment, player)
-    print(player.name .. " CLIENT: " .. EQUIPMENT.name .. " EQUIPPED")
 
     -- Spawn a pickup sound when a player picks up the weapon
     if PICKUP_SOUND then
@@ -47,13 +46,5 @@ function OnEquipped(equipment, player)
     end
 end
 
-
-function OnUnequipped(equipment, player)
-    print(player.name .. " CLIENT: " .. EQUIPMENT.name .. " UNEQUIPPED")
-
-end
-
-
 -- Initialize
 EQUIPMENT.equippedEvent:Connect(OnEquipped)
-EQUIPMENT.unequippedEvent:Connect(OnUnequipped)

@@ -62,20 +62,3 @@ end
 
 -- Initialize
 WEAPON.targetImpactedEvent:Connect(OnWeaponInteracted)
-
-function OnEquipped(equipment, player)
-    print(player.name .. " SERVER: " .. WEAPON.name .. " EQUIPPED")
-
-
-end
-
-
-function OnUnequipped(equipment, player)
-    print(player.name .. " SERVER: " .. WEAPON.name .. " UNEQUIPPED")
-
-end
-
-
--- Initialize
-WEAPON.equippedEvent:Connect(OnEquipped)
-WEAPON.unequippedEvent:Connect(OnUnequipped)
