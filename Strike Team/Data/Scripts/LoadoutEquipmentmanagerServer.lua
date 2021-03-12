@@ -38,6 +38,7 @@ function UnequipPlayer(player)
             if Object.IsValid(v) then
                 v:Unequip()
                 Task.Wait(0.1)
+                if not Object.IsValid(v) then return end
                 v:Destroy()
             end
         end
