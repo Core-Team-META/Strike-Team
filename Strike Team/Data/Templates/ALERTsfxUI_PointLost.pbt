@@ -15,10 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10477958480793043052
+        ParentId: 4781671109827199097
         ChildIds: 15796963157140098940
         ChildIds: 18383634490183049049
         ChildIds: 8926715440447508614
+        ChildIds: 12355496125424760114
         ChildIds: 13528783524974101519
         Lifespan: 5
         Collidable_v2 {
@@ -127,6 +128,39 @@ Assets {
           Volume: 0.907048404
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 12355496125424760114
+        Name: "Sci-fi Energy Impact Blast 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14317164440459576082
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 5048756063424639480
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -467,6 +501,12 @@ Assets {
             Name: "cs:OrchestralVictoryAchievementMusicStinger"
             ObjectReference {
               SubObjectId: 8926715440447508614
+            }
+          }
+          Overrides {
+            Name: "cs:Audio_Sting_4"
+            ObjectReference {
+              SubObjectId: 12355496125424760114
             }
           }
           Overrides {
@@ -3339,6 +3379,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_military_radio_vocal_call_short_01a_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 5048756063424639480
+      Name: "Sci-fi Energy Impact Blast 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_scifi_energy_impact_blast_01_Cue_ref"
       }
     }
     Assets {

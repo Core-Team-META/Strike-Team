@@ -15,9 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10477958480793043052
+        ParentId: 4781671109827199097
         ChildIds: 10324548713744956204
         ChildIds: 10975060694942481568
+        ChildIds: 6674702305406181635
         ChildIds: 12023604403723994645
         ChildIds: 13528783524974101519
         Lifespan: 5
@@ -90,6 +91,40 @@ Assets {
           Volume: 1
           Falloff: -1
           Radius: -1
+        }
+      }
+      Objects {
+        Id: 6674702305406181635
+        Name: "Sci-fi Meta Deep Laser Impact 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14317164440459576082
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 12247618272348951442
+          }
+          Pitch: 489.885742
+          Volume: 2
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -480,6 +515,12 @@ Assets {
           }
           Overrides {
             Name: "cs:OrchestralVictoryAchievementMusicStinger"
+            ObjectReference {
+              SubObjectId: 6674702305406181635
+            }
+          }
+          Overrides {
+            Name: "cs:Audio_Sting_4"
             ObjectReference {
               SubObjectId: 12023604403723994645
             }
@@ -3345,6 +3386,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_military_radio_vocal_call_short_02a_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 12247618272348951442
+      Name: "Sci-fi Meta Deep Laser Impact 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_meta_scifi_deep_laser_impact_01_Cue_ref"
       }
     }
     Assets {

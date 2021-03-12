@@ -30,6 +30,7 @@ local PANEL = script:GetCustomProperty("UIPanel"):WaitForObject()
 local AUDIO_STING_1 = script:GetCustomProperty("HeavyStingerActionCombatStingers01"):WaitForObject()
 local AUDIO_STING_2 = script:GetCustomProperty("BrassHitHighMusicStinger01"):WaitForObject()
 local AUDIO_STING_3 = script:GetCustomProperty("OrchestralVictoryAchievementMusicStinger"):WaitForObject()
+local AUDIO_STING_4 = script:GetCustomProperty("Audio_Sting_4"):WaitForObject()
 
 
 local animateOutDelay = script:GetCustomProperty("AnimateOutDelay")
@@ -252,6 +253,7 @@ function DoAnimations()
 	AUDIO_STING_1:Play()
 	AUDIO_STING_2:Play()
 	AUDIO_STING_3:Play()
+	AUDIO_STING_4:Play()
 
     Task.Wait(0.6)
 
