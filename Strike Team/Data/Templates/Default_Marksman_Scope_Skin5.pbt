@@ -59,7 +59,7 @@ Assets {
           Overrides {
             Name: "cs:LocalMoveOffset"
             Vector {
-              X: -35
+              X: -10
               Z: 0.75
             }
           }
