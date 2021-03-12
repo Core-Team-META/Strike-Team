@@ -36,7 +36,6 @@ function UnequipPlayer(player)
     if(player.serverUserData.Weapons) then
         for _,v in pairs(player.serverUserData.Weapons) do
             if Object.IsValid(v) then
-                v:Unequip()
                 v:Destroy()
             end
         end
@@ -81,8 +80,11 @@ function equipItem(player,equipstring,slot)
 end
 
 function EquipPlayer(player)
-    Task.Wait()
-    if not Object.IsValid(player) then return end
+    -- Task.Wait()
+    if not Object.IsValid(player) then 
+        print(script.name .. " -- PLAYER WASN'T VALID")        
+        return
+    end
     
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if( not Data["Loadouts"] ) then Data = FullSetup(player) end

@@ -129,6 +129,7 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
 
+
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
 
@@ -205,8 +206,15 @@ function OnRoundEnd()
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
         ACH_API.GiveAllRewards(player)
-        ACH_API.ResetRepeatable(player)
     end
+    Task.Spawn(
+        function()
+            for _, player in ipairs(Game.GetPlayers()) do
+                ACH_API.ResetRepeatable(player)
+            end
+        end,
+        10
+    )
 end
 
 --#TODO Needs to be changed to cross key

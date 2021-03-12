@@ -15,10 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10477958480793043052
+        ParentId: 4781671109827199097
         ChildIds: 1453503419967772227
         ChildIds: 5543514290317565507
         ChildIds: 14273643810133650559
+        ChildIds: 16587004396450068226
         ChildIds: 13911044767906818481
         Lifespan: 5
         Collidable_v2 {
@@ -155,6 +156,37 @@ Assets {
             StartTime: 0.1
             StopTime: 0.4
           }
+        }
+      }
+      Objects {
+        Id: 16587004396450068226
+        Name: "Sci-fi Meta Deep Laser Impact 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7103290513848576820
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 12247618272348951442
+          }
+          Transient: true
+          Volume: 2.5
+          Falloff: -1
+          Radius: -1
         }
       }
       Objects {
@@ -499,6 +531,12 @@ Assets {
           }
           Overrides {
             Name: "cs:OrchestralVictoryAchievementMusicStinger"
+            ObjectReference {
+              SubObjectId: 16587004396450068226
+            }
+          }
+          Overrides {
+            Name: "cs:Audio_Sting_4"
             ObjectReference {
               SubObjectId: 14273643810133650559
             }
@@ -3374,6 +3412,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "abp_stinger_orchestral_victory_achievement_01_ref"
+      }
+    }
+    Assets {
+      Id: 12247618272348951442
+      Name: "Sci-fi Meta Deep Laser Impact 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_meta_scifi_deep_laser_impact_01_Cue_ref"
       }
     }
     Assets {
