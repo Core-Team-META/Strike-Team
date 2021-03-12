@@ -80,6 +80,9 @@ function equipItem(player,equipstring,slot)
 end
 
 function EquipPlayer(player)
+    Task.Wait()
+    if not Object.IsValid(player) then return end
+    
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if( not Data["Loadouts"] ) then Data = FullSetup(player) end
     player.serverUserData.Weapons = {}
@@ -160,6 +163,9 @@ Events.ConnectForPlayer("EquipSlot",function ( player,slot)
 end)
 
 Game.playerJoinedEvent:Connect(function (player )
+	Task.Wait(0.5)
+	if not Object.IsValid(player) then return end
+	
     SetupPlayer(player)
     EquipPlayer(player)
     player:SetResource("WeaponSlot", 1)
