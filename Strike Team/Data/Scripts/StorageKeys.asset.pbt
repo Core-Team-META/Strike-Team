@@ -37,7 +37,7 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:CrateKey"
+        Name: "cs:MiscKey"
         NetReference {
           Type {
             Value: "mc:enetreferencetype:unknown"

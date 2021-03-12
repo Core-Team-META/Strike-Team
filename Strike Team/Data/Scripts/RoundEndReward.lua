@@ -66,9 +66,11 @@ function RoundEndHandler.Load(player)
     local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
     local Cash = data["Cash"] or 0
     local Gold = data["Gold"] or 0
+    local strikeCoin = data["StrikeCoins"] or 0
     player:SetResource("Cash", Cash)
     player:SetResource("OldGold", Gold)
     player:SetResource("Gold", Gold)
+    player:SetResource("StrikeCoins", strikeCoin)
 end
 
 function RoundEndHandler.Save(player)
