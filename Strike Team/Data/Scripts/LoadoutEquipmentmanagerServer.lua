@@ -81,8 +81,11 @@ function equipItem(player,equipstring,slot)
 end
 
 function EquipPlayer(player)
-    Task.Wait()
-    if not Object.IsValid(player) then return end
+    -- Task.Wait()
+    if not Object.IsValid(player) then 
+        print(script.name .. " -- PLAYER WASN'T VALID")        
+        return
+    end
     
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if( not Data["Loadouts"] ) then Data = FullSetup(player) end
