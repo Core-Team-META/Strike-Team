@@ -123,7 +123,7 @@ function Show()
 	killCooldown = KILL_SPREE_COOLDOWN
 end
 
-Events.Connect("PlayerKilled", Show)
+Events.Connect("KillFeedback", Show)
 
 
 -- KB DEBUG
