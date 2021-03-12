@@ -7,7 +7,7 @@ Assets {
       RootId: 4113836494665895535
       Objects {
         Id: 4113836494665895535
-        Name: "Demon HK_Scope"
+        Name: "Easter HK_Scope"
         Transform {
           Scale {
             X: 1
@@ -696,8 +696,8 @@ Assets {
             Roll: 75.7625046
           }
           Scale {
-            X: 0.00499999942
-            Y: 0.00499999942
+            X: 0.001
+            Y: 0.001
             Z: 0.002
           }
         }

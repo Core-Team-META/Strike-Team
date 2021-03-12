@@ -250,7 +250,6 @@ Assets {
         ChildIds: 8283718258097442649
         ChildIds: 10064666740694371786
         ChildIds: 7624794876160002999
-        ChildIds: 6587778637979201962
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1072,7 +1071,7 @@ Assets {
       }
       Objects {
         Id: 7624794876160002999
-        Name: "Burger HK"
+        Name: "Makin\'Me Hungry"
         Transform {
           Scale {
             X: 1
@@ -1092,44 +1091,13 @@ Assets {
               Id: 6531359982368071954
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 6587778637979201962
-        Name: "Easter HK"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11681069925855809076
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ID"
-            String: "EA"
-          }
-          Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 5891436708374530405
-            }
-          }
           Overrides {
             Name: "cs:Rarity"
-            String: "Common"
+            String: "Epic"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -1203,7 +1171,6 @@ Assets {
         ChildIds: 10436329105236863285
         ChildIds: 11358723674571180327
         ChildIds: 12019432721755322766
-        ChildIds: 12161988959932010622
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1947,7 +1914,7 @@ Assets {
       }
       Objects {
         Id: 12019432721755322766
-        Name: "Taco Machine"
+        Name: "Makin\'Me Hungry"
         Transform {
           Scale {
             X: 1
@@ -1967,40 +1934,13 @@ Assets {
               Id: 7478937511034316044
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 12161988959932010622
-        Name: "Easter SP99"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11678746403947088745
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 5270409559142515742
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -2075,7 +2015,6 @@ Assets {
         ChildIds: 10575009887118990161
         ChildIds: 12199996850004470961
         ChildIds: 2711103873005186397
-        ChildIds: 3188858535591446663
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -2860,7 +2799,7 @@ Assets {
       }
       Objects {
         Id: 2711103873005186397
-        Name: "Large Fries Shotgun"
+        Name: "Makin\' Me Hungry"
         Transform {
           Scale {
             X: 1
@@ -2880,40 +2819,13 @@ Assets {
               Id: 17885620580759666604
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 3188858535591446663
-        Name: "Easter Shotgun"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10395404097330835707
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 10007417039202852447
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -2987,7 +2899,6 @@ Assets {
         ChildIds: 5320443501407893137
         ChildIds: 12604005402735469428
         ChildIds: 10576981272665299191
-        ChildIds: 8641701260663926359
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -3723,7 +3634,7 @@ Assets {
       }
       Objects {
         Id: 10576981272665299191
-        Name: "Hot Dog SVAA"
+        Name: "Makin\'Me Hungry"
         Transform {
           Scale {
             X: 1
@@ -3743,40 +3654,13 @@ Assets {
               Id: 6521178492535715344
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 8641701260663926359
-        Name: "Easter SVAA"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15505157981418356007
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 10840945067574270705
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -3851,7 +3735,6 @@ Assets {
         ChildIds: 251264412658633999
         ChildIds: 14773525529189950569
         ChildIds: 3261521614590439168
-        ChildIds: 11388000572836175467
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -4640,7 +4523,7 @@ Assets {
       }
       Objects {
         Id: 3261521614590439168
-        Name: "Soda Pop Mamba"
+        Name: "Makin\'Me Hungry"
         Transform {
           Location {
           }
@@ -4664,40 +4547,13 @@ Assets {
               Id: 5462859084247045310
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 11388000572836175467
-        Name: "Easter Mamba"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8444259937277452191
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 4112572695126706569
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -4771,7 +4627,6 @@ Assets {
         ChildIds: 17195107688625861864
         ChildIds: 681616030673792003
         ChildIds: 4759057384474726879
-        ChildIds: 7184050390780675664
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -5511,7 +5366,7 @@ Assets {
       }
       Objects {
         Id: 4759057384474726879
-        Name: "Fish Fillet Nemo"
+        Name: "Makin\'Me Hungry"
         Transform {
           Location {
           }
@@ -5535,40 +5390,13 @@ Assets {
               Id: 1587858692602383441
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 7184050390780675664
-        Name: "Easter Nemo"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4737671664089453211
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 8972765275368803594
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -5674,7 +5502,6 @@ Assets {
         ChildIds: 632559071575903300
         ChildIds: 12751074300961114338
         ChildIds: 5275889357406158345
-        ChildIds: 4677416325394941390
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -6593,7 +6420,7 @@ Assets {
       }
       Objects {
         Id: 5275889357406158345
-        Name: "Mustard Burst "
+        Name: "Makin\'Me Hungry"
         Transform {
           Scale {
             X: 1
@@ -6613,40 +6440,13 @@ Assets {
               Id: 7595947990704056045
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 4677416325394941390
-        Name: "Easter 45"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16537645570733335601
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 14449531995356518344
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -6693,7 +6493,6 @@ Assets {
         ChildIds: 426292628173465319
         ChildIds: 13517366469277642284
         ChildIds: 7044721750932624561
-        ChildIds: 16122885237798442233
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -7439,7 +7238,7 @@ Assets {
       }
       Objects {
         Id: 7044721750932624561
-        Name: "Corn Dog "
+        Name: "Makin\'Me Hungry"
         Transform {
           Location {
           }
@@ -7463,40 +7262,13 @@ Assets {
               Id: 15696014545826487888
             }
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 16122885237798442233
-        Name: "Easter Burst Pistol"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5401514240224850671
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ID"
-            String: "EA"
+            Name: "cs:Rarity"
+            String: "Epic"
           }
           Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 17023431545889893587
-            }
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -10413,7 +10185,6 @@ Assets {
         ChildIds: 3981829483090021092
         ChildIds: 5602401040832642862
         ChildIds: 14367727106207192085
-        ChildIds: 6332747697156947686
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -11308,41 +11079,6 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16583515440227484556
-          }
-        }
-      }
-      Objects {
-        Id: 6332747697156947686
-        Name: "Easter Bunny Staff"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7771605384388490917
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:SKIN"
-            AssetReference {
-              Id: 15285627290830487871
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "EA"
           }
         }
         Collidable_v2 {

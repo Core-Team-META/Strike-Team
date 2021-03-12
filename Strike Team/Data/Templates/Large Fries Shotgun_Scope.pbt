@@ -19,6 +19,7 @@ Assets {
         ChildIds: 17387426955315195935
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -48,6 +49,7 @@ Assets {
         ParentId: 16013880324429685396
         ChildIds: 12253621626342566990
         ChildIds: 13466333856268910253
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
