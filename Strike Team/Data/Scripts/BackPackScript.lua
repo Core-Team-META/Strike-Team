@@ -48,7 +48,8 @@ end
 function EmptyBackpack(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
         if Object.IsValid( Weapon["Weapon"]) then
-            Weapon["Weapon"]:Unequip()            
+            Weapon["Weapon"]:Unequip()
+            Task.Wait(0.1)          
             Weapon["Weapon"]:Destroy()
         end
     end
@@ -59,6 +60,7 @@ function DeequipWeapon(player, weapon)
     local Weapon = MatchBackPack(player,weapon)
     if(Weapon)then
         Weapon["Weapon"]:Unequip()
+        Task.Wait(0.1)          
         AttatchWeapon(player, weapon)
     end
 end
@@ -82,6 +84,8 @@ end
 function RemovePlayer(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
         if Object.IsValid( Weapon["Weapon"]) then
+            Weapon["Weapon"]:Unequip()
+            Task.Wait(0.1)            
             Weapon["Weapon"]:Destroy()
         end
     end

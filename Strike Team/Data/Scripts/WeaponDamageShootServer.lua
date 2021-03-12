@@ -64,14 +64,14 @@ end
 WEAPON.targetImpactedEvent:Connect(OnWeaponInteracted)
 
 function OnEquipped(equipment, player)
-    print("SERVER: " .. WEAPON.name .. " EQUIPPED")
+    print(player.name .. " SERVER: " .. WEAPON.name .. " EQUIPPED")
 
 
 end
 
 
 function OnUnequipped(equipment, player)
-    print("SERVER: " .. WEAPON.name .. " UNEQUIPPED")
+    print(player.name .. " SERVER: " .. WEAPON.name .. " UNEQUIPPED")
 
 end
 
