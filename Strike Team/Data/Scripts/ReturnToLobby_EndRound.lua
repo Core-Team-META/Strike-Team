@@ -1,3 +1,4 @@
+local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 local OPEN_BUTTON = script:GetCustomProperty("ReturnToLobby"):WaitForObject()
 local CONFIRM_PANEL = script:GetCustomProperty("ConfirmPanel"):WaitForObject()
 local COFIRM_BUTTON = script:GetCustomProperty("Confirm"):WaitForObject()
@@ -6,16 +7,7 @@ local taskSpawn
 
 function OnButtonPressed(button)
     if button == OPEN_BUTTON then
-        CONFIRM_PANEL.visibility = Visibility.FORCE_ON
-        if taskSpawn and taskSpawn:GetStatus() == TaskStatus.SCHEDULED then
-            taskSpawn:Cancel()
-        end
-        taskSpawn = Task.Spawn(
-            function()
-                CONFIRM_PANEL.visibility = Visibility.FORCE_OFF
-            end,
-            60
-        )
+        CONFIRM_PANEL.visibility = Visibility.INHERIT
     end
     if button == DENY_BUTTON then
         CONFIRM_PANEL.visibility = Visibility.FORCE_OFF
@@ -25,6 +17,14 @@ function OnButtonPressed(button)
     end
 end
 
+function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
+    if newState ~= ABGS.GAME_STATE_ROUND_END then
+        CONFIRM_PANEL.visibility = Visibility.FORCE_OFF
+    end
+end
+
 OPEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
 COFIRM_BUTTON.clickedEvent:Connect(OnButtonPressed)
 DENY_BUTTON.clickedEvent:Connect(OnButtonPressed)
+
+Events.Connect("GameStateChanged", OnGameStateChanged)
