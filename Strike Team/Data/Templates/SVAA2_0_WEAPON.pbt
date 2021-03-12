@@ -161,6 +161,7 @@ Assets {
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
+            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
