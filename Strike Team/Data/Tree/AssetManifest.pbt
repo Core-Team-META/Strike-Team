@@ -39,7 +39,7 @@ Assets {
 }
 Assets {
   Id: 9826407275240099407
-  Name: "ST_CrateKey"
+  Name: "ST_Misc"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
