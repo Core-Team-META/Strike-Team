@@ -1,12 +1,12 @@
 local count = 0
-while not _G["CrateKey"] or count < 25 do
+while not _G["MiscKey"] or count < 25 do
     Task.Wait()
     count = count + 1
 end
 
 function OnPlayerJoined(player)
-    if _G["CrateKey"] and _G["CrateKey"].isAssigned then
-        local data = Storage.GetSharedPlayerData(_G["CrateKey"], player)
+    if _G["MiscKey"] and _G["MiscKey"].isAssigned then
+        local data = Storage.GetSharedPlayerData(_G["MiscKey"], player)
         if data["Lootbox.OpenTime"] then
         
             local remainingTime =  data["Lootbox.OpenTime"] - os.time(os.date("!*t"))
