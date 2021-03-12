@@ -16,7 +16,10 @@ while not ROOT.clientUserData.attackAbility do Task.Wait() end
 function Play() 
     GEO:MoveTo(EndPosition, Time, true)
     GEO:RotateTo(RotationOffset, Time, true)
+    
     Task.Wait(Time)
+    if not Object.IsValid(GEO) then return end
+    
     GEO:MoveTo(OriginalPos, RecoverTime, true)
     GEO:RotateTo(OriginalRotation, RecoverTime, true)
 end
