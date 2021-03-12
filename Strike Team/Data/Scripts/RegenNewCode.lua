@@ -32,9 +32,11 @@ Game.playerJoinedEvent:Connect(function(player)
     player.serverUserData["Regen"]["DamageEvent"] = player.damagedEvent:Connect(DMG)
 end)
 
-Game.playerLeftEvent:Connect(function(player) 
-    player.serverUserData["Regen"]["DamageEvent"]:Disconnect()
-    player.serverUserData["Regen"] = nil
+Game.playerLeftEvent:Connect(function(player)
+	if player.serverUserData["Regen"] then
+		player.serverUserData["Regen"]["DamageEvent"]:Disconnect()
+		player.serverUserData["Regen"] = nil
+	end
 end)
 
 Events.Connect("ActivateRegen", function(player)

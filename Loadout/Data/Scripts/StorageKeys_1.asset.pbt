@@ -36,6 +36,14 @@ Assets {
           }
         }
       }
+      Overrides {
+        Name: "cs:MiscKey"
+        NetReference {
+          Type {
+            Value: "mc:enetreferencetype:unknown"
+          }
+        }
+      }
     }
   }
   SerializationVersion: 76

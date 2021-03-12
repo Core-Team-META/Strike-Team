@@ -16,11 +16,11 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 7296388070838139068
-        ChildIds: 10186022244884627073
-        ChildIds: 9986829664930755320
-        ChildIds: 3170430318231727270
-        ChildIds: 7994857108220021988
+        ChildIds: 11754848533145725990
+        ChildIds: 5235555829287515909
+        ChildIds: 17082562124821654222
+        ChildIds: 4215910384719947041
+        ChildIds: 11380287031070236265
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -34,18 +34,18 @@ Assets {
         }
       }
       Objects {
-        Id: 7296388070838139068
+        Id: 11754848533145725990
         Name: "Weapon - Pipe"
         Transform {
           Location {
-            X: -7.55142212
-            Y: -2.40106201
-            Z: -21.9046478
+            X: -7.44726563
+            Y: -2.3671875
+            Z: -21.6008911
           }
           Rotation {
             Pitch: -19.881134
-            Yaw: 16.12817
-            Roll: 0.513660908
+            Yaw: 16.1281872
+            Roll: 0.513660669
           }
           Scale {
             X: 0.0482282117
@@ -120,9 +120,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -173,18 +173,18 @@ Assets {
         }
       }
       Objects {
-        Id: 10186022244884627073
+        Id: 5235555829287515909
         Name: "Weapon - Pipe"
         Transform {
           Location {
-            X: -7.58511353
-            Y: -2.4118042
-            Z: -22.0023804
+            X: -7.48046875
+            Y: -2.37792969
+            Z: -21.6986084
           }
           Rotation {
             Pitch: -19.881134
-            Yaw: 16.1282024
-            Roll: 0.513660908
+            Yaw: 16.1282196
+            Roll: 0.513660669
           }
           Scale {
             X: 0.0481483527
@@ -259,9 +259,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -312,18 +312,18 @@ Assets {
         }
       }
       Objects {
-        Id: 9986829664930755320
+        Id: 17082562124821654222
         Name: "Weapon - Pipe"
         Transform {
           Location {
-            X: 22.0898132
-            Y: 7.02355957
-            Z: 64.0764465
+            X: 22.1943359
+            Y: 7.05761719
+            Z: 64.380188
           }
           Rotation {
-            Pitch: -164.459839
-            Yaw: 157.877106
-            Roll: 12.5662842
+            Pitch: -15.5401611
+            Yaw: -22.1228638
+            Roll: -167.433685
           }
           Scale {
             X: 0.283705741
@@ -398,9 +398,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.681000054
-              G: 0.138229385
-              B: 0.11577002
+              R: 0.968000054
+              G: 0.196484685
+              B: 0.16456008
               A: 1
             }
           }
@@ -451,18 +451,18 @@ Assets {
         }
       }
       Objects {
-        Id: 3170430318231727270
+        Id: 4215910384719947041
         Name: "Weapon - Pipe"
         Transform {
           Location {
-            X: 17.5757446
-            Y: 5.58825684
-            Z: 50.9823
+            X: 17.6804199
+            Y: 5.62207031
+            Z: 51.2860718
           }
           Rotation {
             Pitch: -15.5401306
             Yaw: -22.1230469
-            Roll: -167.433456
+            Roll: -167.433426
           }
           Scale {
             X: 0.0709491074
@@ -537,9 +537,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.681000054
-              G: 0.138229385
-              B: 0.11577002
+              R: 0.968000054
+              G: 0.196484685
+              B: 0.16456008
               A: 1
             }
           }
@@ -590,17 +590,17 @@ Assets {
         }
       }
       Objects {
-        Id: 7994857108220021988
+        Id: 11380287031070236265
         Name: "Weapon - Pipe"
         Transform {
           Location {
-            X: 22.0596619
-            Y: 7.01397705
-            Z: 63.9889832
+            X: 22.1643066
+            Y: 7.04785156
+            Z: 64.2927246
           }
           Rotation {
-            Pitch: 19.8811016
-            Yaw: -163.871597
+            Pitch: 19.8810959
+            Yaw: -163.871552
             Roll: 179.486359
           }
           Scale {
@@ -676,9 +676,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.681000054
-              G: 0.138229385
-              B: 0.11577002
+              R: 0.968000054
+              G: 0.196484685
+              B: 0.16456008
               A: 1
             }
           }

@@ -38,7 +38,6 @@ function GetExtraCode(damage,theKilled)
         local hitRes = damage:GetHitResult()
         if(Object.IsValid(hitRes.other) and hitRes.other:IsA("Player")) then
             if(hitRes.socketName == "head") then
-                print(script.name .. " -- HEADSHOT")
                 return 1
             end
         end

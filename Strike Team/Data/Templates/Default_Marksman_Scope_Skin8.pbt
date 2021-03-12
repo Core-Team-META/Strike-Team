@@ -59,7 +59,7 @@ Assets {
           Overrides {
             Name: "cs:LocalMoveOffset"
             Vector {
-              X: -35
+              X: -10
               Z: 0.75
             }
           }
@@ -938,7 +938,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9012634881940008866
+              Id: 5351428073291024820
             }
           }
           Overrides {
@@ -2570,12 +2570,12 @@ Assets {
       }
     }
     Assets {
-      Id: 9012634881940008866
-      Name: "Emissive Glow Transparent"
+      Id: 5351428073291024820
+      Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetId: "fxma_opaque_emissive"
       }
     }
     Assets {

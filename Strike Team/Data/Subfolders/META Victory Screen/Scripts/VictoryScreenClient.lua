@@ -105,7 +105,7 @@ local function UpdatePanelForPlayer(panel, player)
 		return
 	end
 
-	local nameTextLabel, deathsValueLabel, killsValueLabel, resourceValueLabel, resourcePanel = 
+	local nameTextLabel, deathsValueLabel, killsValueLabel, resourceValueLabel, resourcePanel =
 		panel:GetCustomProperty("NameText"):WaitForObject(),
 		panel:GetCustomProperty("DeathsValue"):WaitForObject(),
 		panel:GetCustomProperty("KillsValue"):WaitForObject(),
@@ -125,7 +125,6 @@ local function UpdatePanelForPlayer(panel, player)
 	listeners[#listeners + 1] = confettiButton.clickedEvent:Connect(OnButtonPressed)
 	listeners[#listeners + 1] = chickenButton.clickedEvent:Connect(OnButtonPressed)
 	]]
-	
 	nameTextLabel.text = player.name
 	killsValueLabel.text = tostring(player.kills)
 	deathsValueLabel.text = tostring(player.deaths)
@@ -134,7 +133,6 @@ local function UpdatePanelForPlayer(panel, player)
 		resourceValueLabel.text = tostring(player:GetResource(WINNER_SORT_RESOURCE))
 		resourcePanel.visibility = Visibility.FORCE_ON
 	end
-
 
 	panel.visibility = Visibility.FORCE_ON
 end
@@ -233,3 +231,18 @@ WINNER_SORT_TYPE = GetProperty(WINNER_SORT_TYPE, WINNER_SORT_TYPES)
 --Events.Connect("SendToVictoryScreen", SendToVictoryScreen)
 Game.roundEndEvent:Connect(SendToVictoryScreen)
 Events.Connect("GameStateChanged", OnGameStateChanged)
+
+if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+	LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
+	LocalPlayer:SetOverrideCamera(OverrideCamera)
+	LocalPlayer.lookSensitivity = 0
+
+	if not UpdateUITask then
+		UpdateUITask = Task.Spawn(UpdateUI)
+		UpdateUITask.repeatCount = -1
+		UpdateUITask.repeatInterval = 0.1
+	end
+
+	Task.Wait(.1)
+	Events.Broadcast("HideUI")
+end

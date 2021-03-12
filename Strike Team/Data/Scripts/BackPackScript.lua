@@ -48,6 +48,7 @@ end
 function EmptyBackpack(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
         if Object.IsValid( Weapon["Weapon"]) then
+            Weapon["Weapon"]:Unequip()            
             Weapon["Weapon"]:Destroy()
         end
     end

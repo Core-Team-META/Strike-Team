@@ -103,6 +103,7 @@ Objects {
   }
   ParentId: 10883484660121133561
   ChildIds: 7792924192418409054
+  ChildIds: 15878671514843344018
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -116,6 +117,404 @@ Objects {
       }
     }
     Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 15878671514843344018
+  Name: "Confirm Panel"
+  Transform {
+    Location {
+      X: -681.355347
+      Y: -537.885742
+      Z: -374.529236
+    }
+    Rotation {
+      Yaw: -140.526138
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4463644292296476551
+  ChildIds: 8583481631373625180
+  ChildIds: 7331796254117270093
+  ChildIds: 12216018658044504281
+  ChildIds: 13553216288257173191
+  ChildIds: 7017776241451188224
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    Width: 497
+    Height: 230
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7017776241451188224
+  Name: "Deny"
+  Transform {
+    Location {
+      X: -0.000254111859
+      Y: 0.000609332288
+    }
+    Rotation {
+      Yaw: 78.9476547
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15878671514843344018
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 50
+    UIX: -25
+    UIY: -25
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Close"
+      FontColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.0593376905
+        G: 0.64
+        A: 1
+      }
+      HoveredColor {
+        R: 0.0132450098
+        G: 0.399999976
+        A: 1
+      }
+      PressedColor {
+        R: 0.0132450098
+        G: 0.399999976
+        A: 1
+      }
+      DisabledColor {
+        R: 0.0132450098
+        G: 0.399999976
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13553216288257173191
+  Name: "Confirm"
+  Transform {
+    Location {
+      X: -0.000254111888
+      Y: 0.000609332463
+    }
+    Rotation {
+      Yaw: 78.94767
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15878671514843344018
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 50
+    UIX: 25
+    UIY: -25
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Confirm"
+      FontColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.669999957
+        A: 1
+      }
+      HoveredColor {
+        R: 0.39
+        A: 1
+      }
+      PressedColor {
+        R: 0.39
+        A: 1
+      }
+      DisabledColor {
+        R: 0.39
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 12216018658044504281
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -0.000254111888
+      Y: 0.000609332463
+    }
+    Rotation {
+      Yaw: 78.94767
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15878671514843344018
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 450
+    Height: 129
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Are you sure you want to leave game and head to loadout?"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 841534158063459245
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7331796254117270093
+  Name: "Background"
+  Transform {
+    Location {
+      X: -0.000254111888
+      Y: 0.000609332463
+    }
+    Rotation {
+      Yaw: 78.94767
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15878671514843344018
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 230
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+      }
+      Color {
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 8583481631373625180
+  Name: "Background"
+  Transform {
+    Location {
+      X: -0.000244140625
+      Y: 0.000621795654
+      Z: 3.05175781e-05
+    }
+    Rotation {
+      Yaw: 78.9476547
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15878671514843344018
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 5000
+    Height: 5000
+    UIX: -1553.03772
+    UIY: -2709.99121
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+      }
+      Color {
+        A: 0.791
+      }
+      TeamSettings {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -205,6 +604,7 @@ Objects {
   }
   ParentId: 7792924192418409054
   ChildIds: 14735250328485891515
+  ChildIds: 330027634832771848
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipIcon"
@@ -253,6 +653,66 @@ Objects {
   }
 }
 Objects {
+  Id: 330027634832771848
+  Name: "ReturnToLobby_EndRound"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 3.4150944e-05
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17361348994242523535
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ConfirmPanel"
+      ObjectReference {
+        SelfId: 15878671514843344018
+      }
+    }
+    Overrides {
+      Name: "cs:Confirm"
+      ObjectReference {
+        SelfId: 13553216288257173191
+      }
+    }
+    Overrides {
+      Name: "cs:Deny"
+      ObjectReference {
+        SelfId: 7017776241451188224
+      }
+    }
+    Overrides {
+      Name: "cs:ReturnToLobby"
+      ObjectReference {
+        SelfId: 14735250328485891515
+      }
+    }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12287358722973676859
+    }
+  }
+}
+Objects {
   Id: 14735250328485891515
   Name: "ReturnToLobby"
   Transform {
@@ -269,7 +729,6 @@ Objects {
   }
   ParentId: 17361348994242523535
   ChildIds: 16763055101365345459
-  ChildIds: 7249878174221610123
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -279,8 +738,6 @@ Objects {
   Control {
     Width: 438
     Height: 53
-    UIX: 11.7724
-    UIY: 1.88076782
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -336,37 +793,6 @@ Objects {
           Value: "mc:euianchor:middlecenter"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 7249878174221610123
-  Name: "ReturnTolobby"
-  Transform {
-    Location {
-      X: -681.356
-      Y: -537.888
-      Z: -374.529236
-    }
-    Rotation {
-      Yaw: 140.526123
-    }
-    Scale {
-      X: -1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14735250328485891515
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6882489361405969713
     }
   }
 }

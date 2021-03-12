@@ -992,7 +992,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 40
+            Int: 32
           }
         }
         Collidable_v2 {

@@ -98,9 +98,9 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRMEL3", 1)
     elseif weaponType == "LMG" then
         ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG2", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG3", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG4", 1)
     elseif weaponType == "Shotgun" then
         ACH_API.AddProgress(player, "AS_NRSHOTTY1", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY2", 1)
@@ -205,6 +205,7 @@ function OnRoundEnd()
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
         ACH_API.GiveAllRewards(player)
+        ACH_API.ResetRepeatable(player)
     end
 end
 

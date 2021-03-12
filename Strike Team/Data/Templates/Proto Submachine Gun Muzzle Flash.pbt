@@ -47,7 +47,8 @@ Assets {
         }
         ParentId: 17033298466445978272
         ChildIds: 17616793892455375496
-        ChildIds: 13516272250397729926
+        ChildIds: 8199098515508596130
+        ChildIds: 7361243837954488935
         ChildIds: 5404125646895113474
         UnregisteredParameters {
         }
@@ -110,7 +111,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13516272250397729926
+        Id: 8199098515508596130
         Name: "Advanced Muzzleflash VFX"
         Transform {
           Location {
@@ -119,24 +120,91 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.194431841
+            Y: 0.194431841
+            Z: 0.194431841
+          }
+        }
+        ParentId: 12391300809687005807
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11252187294642675795
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7361243837954488935
+        Name: "Basic Explosion VFX"
+        Transform {
+          Location {
+            X: 1.54693604
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.0859197
+            Y: 0.0859197304
+            Z: 0.355301142
           }
         }
         ParentId: 12391300809687005807
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.167773962
+            Name: "bp:Enable Sparks"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Light"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Flash"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Enable Fire"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Ring"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Local Space"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 0.077000007
+              G: 0.019114729
+              B: 0.00464340718
+              A: 1
+            }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 5.98016548
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 2
+            Float: 28.9727478
           }
           Overrides {
             Name: "bp:Enable Smoke"
@@ -147,11 +215,11 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Blueprint {
           BlueprintAsset {
-            Id: 11252187294642675795
+            Id: 17069761961690292468
           }
           TeamSettings {
           }
@@ -229,6 +297,15 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_muzzleflash_alt"
+      }
+    }
+    Assets {
+      Id: 17069761961690292468
+      Name: "Basic Explosion VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_explosion"
       }
     }
     PrimaryAssetId {

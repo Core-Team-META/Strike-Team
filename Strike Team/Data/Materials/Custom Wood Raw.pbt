@@ -8,15 +8,7 @@ Assets {
     ParameterOverrides {
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0.89137888
-      }
-      Overrides {
-        Name: "gradient_color"
-        Color {
-          R: 0.210000038
-          G: 0.0917880759
-          A: 1
-        }
+        Float: 1
       }
       Overrides {
         Name: "gradient_falloff"
@@ -32,6 +24,15 @@ Assets {
           R: 1
           G: 0.6847682
           B: 0.65
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "gradient_color"
+        Color {
+          R: 0.749
+          G: 0.749
+          B: 0.749
           A: 1
         }
       }
