@@ -245,8 +245,8 @@ Objects {
     }
   }
   ParentId: 5315121789455908725
+  ChildIds: 12841471537971658920
   ChildIds: 8414239213864268654
-  ChildIds: 12824486269179964946
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -317,37 +317,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12824486269179964946
-  Name: "ReturnTolobby"
-  Transform {
-    Location {
-      X: -681.356
-      Y: -537.888
-      Z: -374.529236
-    }
-    Rotation {
-      Yaw: 140.526123
-    }
-    Scale {
-      X: -1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11807850982108079856
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6882489361405969713
-    }
-  }
-}
-Objects {
   Id: 8414239213864268654
   Name: "UI Text Box"
   Transform {
@@ -409,6 +378,69 @@ Objects {
           Value: "mc:euianchor:middlecenter"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 12841471537971658920
+  Name: "ReturnToLobby_EndRound"
+  Transform {
+    Location {
+      X: 6.10351563e-05
+      Y: 0.000122070313
+      Z: -3.05175781e-05
+    }
+    Rotation {
+      Yaw: 1.3660374e-05
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11807850982108079856
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ConfirmPanel"
+      ObjectReference {
+        SelfId: 15878671514843344018
+      }
+    }
+    Overrides {
+      Name: "cs:Confirm"
+      ObjectReference {
+        SelfId: 13553216288257173191
+      }
+    }
+    Overrides {
+      Name: "cs:Deny"
+      ObjectReference {
+        SelfId: 7017776241451188224
+      }
+    }
+    Overrides {
+      Name: "cs:ReturnToLobby"
+      ObjectReference {
+        SelfId: 11807850982108079856
+      }
+    }
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12287358722973676859
     }
   }
 }
