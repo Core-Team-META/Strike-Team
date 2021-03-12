@@ -47,11 +47,12 @@ end
 
 function EmptyBackpack(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
-        if Object.IsValid( Weapon["Weapon"]) then
-            Weapon["Weapon"]:Unequip()
+        local currentWeapon = Weapon["Weapon"]
+        if Object.IsValid( currentWeapon ) then
+            currentWeapon:Unequip()
             Task.Wait(0.1)       
-            if not Object.IsValid(Weapon["Weapon"]) then return end  
-            Weapon["Weapon"]:Destroy()
+            if not Object.IsValid(currentWeapon) then return end  
+            currentWeapon:Destroy()
         end
     end
     player.serverUserData.Backpack = {}
@@ -60,8 +61,10 @@ end
 function DeequipWeapon(player, weapon)
     local Weapon = MatchBackPack(player,weapon)
     if(Weapon)then
-        Weapon["Weapon"]:Unequip()
-        Task.Wait(0.1)          
+        local currentWeapon = Weapon["Weapon"]
+        currentWeapon:Unequip()
+        Task.Wait(0.1)
+        if not Object.IsValid(currentWeapon) then return end 
         AttatchWeapon(player, weapon)
     end
 end
@@ -84,9 +87,14 @@ end
 
 function RemovePlayer(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
-        if Object.IsValid( Weapon["Weapon"]) then            
-            Weapon["Weapon"]:Destroy()
-        end
+        local weapon = Weapon["Weapon"]
+        if not Object.IsValid(weapon) then return end 
+        weapon:Unequip()    
+      
+        Task.Wait()  
+        if not Object.IsValid(weapon) then return end    
+        weapon:Destroy()
+     
     end
 
     -- Loop everything on the player and tell it to be destroyed so scripts call

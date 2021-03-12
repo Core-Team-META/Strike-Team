@@ -36,9 +36,6 @@ function UnequipPlayer(player)
     if(player.serverUserData.Weapons) then
         for _,v in pairs(player.serverUserData.Weapons) do
             if Object.IsValid(v) then
-                v:Unequip()
-                Task.Wait(0.1)
-                if not Object.IsValid(v) then return end
                 v:Destroy()
             end
         end

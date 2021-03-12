@@ -58,6 +58,7 @@ function Reload()
 
         -- Checks when the weapon has empty ammo to reload
     if WEAPON.clientUserData.Ammo == 0 and not autoReloaded then
+        if not Object.IsValid(WEAPON.clientUserData.RELOAD_ABILITY) then return end
         WEAPON.clientUserData.RELOAD_ABILITY:Activate()
         SpawnReloadingAudio()
         autoReloaded = true
