@@ -1013,6 +1013,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1055,6 +1059,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Epic"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -1899,6 +1907,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2739,6 +2751,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2783,6 +2799,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Legendary"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -3618,6 +3638,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -4463,6 +4487,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4507,6 +4535,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Legendary"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -5350,6 +5382,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -6405,6 +6441,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7180,6 +7220,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Legendary"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7222,6 +7266,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -7964,6 +8012,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -10110,6 +10162,10 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11079,6 +11135,10 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
