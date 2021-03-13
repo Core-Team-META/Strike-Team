@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 76
   CustomMaterialAsset {
-    BaseMaterialId: 217392087323301115
+    BaseMaterialId: 5351428073291024820
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -21,12 +21,12 @@ Assets {
       }
     }
     Assets {
-      Id: 217392087323301115
-      Name: "Glow Detail"
+      Id: 5351428073291024820
+      Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_weap_mod_kit_set_01_auto_detail1"
+        AssetId: "fxma_opaque_emissive"
       }
     }
   }

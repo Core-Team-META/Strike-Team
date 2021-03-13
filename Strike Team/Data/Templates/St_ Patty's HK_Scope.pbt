@@ -755,8 +755,8 @@ Assets {
             Roll: -8.93005371
           }
           Scale {
-            X: 0.00285436306
-            Y: 0.00285436306
+            X: 0.001
+            Y: 0.001
             Z: 0.00114174536
           }
         }
@@ -772,6 +772,15 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 15387941303173424625
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.751
+              G: 1
+              B: 0.780050039
+              A: 1
             }
           }
         }
