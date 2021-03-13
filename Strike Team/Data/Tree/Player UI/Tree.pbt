@@ -151,6 +151,12 @@ Objects {
         SelfId: 13731691816849609796
       }
     }
+    Overrides {
+      Name: "cs:UIProgressBar"
+      ObjectReference {
+        SelfId: 12691544857177554012
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
