@@ -77,8 +77,8 @@ function EquipWeapon(player, weapon)
     local Weapon = MatchBackPack(player,weapon)
     if Object.IsValid(Weapon["Weapon"]) then
         Weapon["Weapon"]:Equip(player)
+        player.serverUserData.EquippedWeapon = weapon
     end
-    player.serverUserData.EquippedWeapon = weapon
 end
 
 function JoinedPlayer(player)

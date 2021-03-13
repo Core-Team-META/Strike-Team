@@ -192,7 +192,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -820
+          UIX: 205.6875
           UIY: 10
           RenderTransformPivot {
             Anchor {
@@ -209,7 +209,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -820,7 +820,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 473.423096
+          UIX: -556.065918
           UIY: 285.014954
           RenderTransformPivot {
             Anchor {
@@ -837,7 +837,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -1621,7 +1621,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -445.929871
+          UIX: 588.124451
           UIY: -275.951019
           RenderTransformPivot {
             Anchor {
@@ -1638,7 +1638,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -2639,7 +2639,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR TEAM\'S PROGRESS IS BLUE. THE ENEMY TEAM\'S IS RED."
+            Label: "ENEMY PROGRESS IS RED. YOUR TEAM IS BLUE."
             Color {
               R: 0.710000038
               G: 0.879006505
@@ -3732,7 +3732,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 557.012939
+          UIX: -474.758179
           UIY: 202.693008
           RenderTransformPivot {
             Anchor {
@@ -3749,7 +3749,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -4472,7 +4472,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 657.854675
+          UIX: -378.24292
           UIY: 82.0213165
           RenderTransformPivot {
             Anchor {
@@ -4489,7 +4489,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -4693,7 +4693,7 @@ Assets {
             }
           }
           Text {
-            Label: "HOLD \"SHIFT\" WHILE MOVING TO SPRINT."
+            Label: "RUN FASTER WITH YOUR MELEE WEAPON EQUIPPED."
             Color {
               R: 0.710000038
               G: 0.879006505
@@ -4864,7 +4864,7 @@ Assets {
             }
           }
           Text {
-            Label: "RUN FASTER WITH YOUR MELEE WEAPON EQUIPPED."
+            Label: "DEAL EXTRA DAMAGE TO ENEMIES FACING AWAY FROM YOU."
             Color {
               R: 0.710000038
               G: 0.879006505
@@ -5037,7 +5037,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 739.378357
+          UIX: -287.829407
           UIY: -49.3295174
           RenderTransformPivot {
             Anchor {
@@ -5054,7 +5054,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -5434,8 +5434,8 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -449.448273
-          UIY: 321.961
+          UIX: 546.685669
+          UIY: 277.292664
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -5451,7 +5451,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -5883,7 +5883,7 @@ Assets {
         Control {
           Width: 2
           Height: 31
-          UIX: -245.867844
+          UIX: -361.852051
           UIY: 144.635345
           RotationAngle: 180
           RenderTransformPivot {
@@ -6175,8 +6175,8 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -211.026276
-          UIY: 211.834488
+          UIX: -209.125793
+          UIY: 157.216339
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
