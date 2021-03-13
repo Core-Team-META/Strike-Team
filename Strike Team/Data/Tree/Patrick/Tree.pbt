@@ -1372,7 +1372,6 @@ Objects {
     Overrides {
       Name: "cs:ReturnToLoadout"
       ObjectReference {
-        SelfId: 841534158063459245
       }
     }
     Overrides {
@@ -1450,6 +1449,12 @@ Objects {
       Name: "cs:CASHROWTEMPLATE"
       AssetReference {
         Id: 17435404124068446469
+      }
+    }
+    Overrides {
+      Name: "cs:NEWS_WINDOW"
+      ObjectReference {
+        SelfId: 8925761786029294907
       }
     }
   }
