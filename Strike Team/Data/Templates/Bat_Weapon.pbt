@@ -23,7 +23,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:EquipmentStance"
-            String: "1hand_melee_stance"
+            String: "2hand_sword_ready"
           }
           Overrides {
             Name: "cs:PickupSound"
