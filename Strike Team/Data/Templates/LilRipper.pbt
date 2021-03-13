@@ -45,7 +45,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SprintingStance"
-            String: "2hand_sword_ready"
+            String: "1hand_melee_shield_block"
           }
           Overrides {
             Name: "cs:WeaponType"
