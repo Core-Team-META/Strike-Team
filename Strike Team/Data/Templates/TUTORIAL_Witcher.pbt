@@ -6616,9 +6616,10 @@ Assets {
         ChildIds: 10497608933635783730
         ChildIds: 16116433687971477174
         ChildIds: 18039580111552226709
-        ChildIds: 8816185259562194440
         ChildIds: 10396403314657704657
         ChildIds: 3640285439410798063
+        ChildIds: 14002078835551906511
+        ChildIds: 5378344179987889588
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7076,8 +7077,8 @@ Assets {
         }
         Control {
           Width: 2
-          Height: 195
-          UIX: 213.492813
+          Height: 129
+          UIX: 278.657532
           UIY: 126.547791
           RotationAngle: 90
           RenderTransformPivot {
@@ -7138,64 +7139,6 @@ Assets {
           UIX: 407.117615
           UIY: 125.097641
           RotationAngle: 180
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 1814707273787853473
-            }
-            Color {
-              G: 0.231655672
-              B: 0.330000043
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8816185259562194440
-        Name: "LINE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2295822284063307784
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 2
-          Height: 21
-          UIX: 213.492813
-          UIY: -3.76380157
-          RotationAngle: 270
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -7308,9 +7251,124 @@ Assets {
         }
         Control {
           Width: 2
-          Height: 129
-          UIX: 214.400116
-          UIY: 123.720764
+          Height: 68
+          UIX: 18.5948639
+          UIY: 115.241165
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 1814707273787853473
+            }
+            Color {
+              G: 0.231655672
+              B: 0.330000043
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14002078835551906511
+        Name: "LINE"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2295822284063307784
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 2
+          Height: 9
+          UIX: 343.264069
+          UIY: 125.097641
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 1814707273787853473
+            }
+            Color {
+              G: 0.231655672
+              B: 0.330000043
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5378344179987889588
+        Name: "LINE"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2295822284063307784
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 2
+          Height: 328
+          UIX: 17.6210327
+          UIY: 115.182816
+          RotationAngle: 90
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
