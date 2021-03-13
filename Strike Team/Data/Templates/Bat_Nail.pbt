@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 956549866407612512
+        ChildIds: 2660884865257327403
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -30,7 +30,7 @@ Assets {
         }
       }
       Objects {
-        Id: 956549866407612512
+        Id: 2660884865257327403
         Name: "Bat"
         Transform {
           Location {
@@ -46,9 +46,9 @@ Assets {
           }
         }
         ParentId: 9734057231076261033
-        ChildIds: 1261345491197379997
-        ChildIds: 13669134236149636828
-        ChildIds: 18239759334041689638
+        ChildIds: 6692091324774766710
+        ChildIds: 15000917559365351385
+        ChildIds: 12384879833922983013
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -60,7 +60,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1261345491197379997
+        Id: 6692091324774766710
         Name: "Decals"
         Transform {
           Location {
@@ -76,13 +76,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 956549866407612512
-        ChildIds: 6794783516149820996
-        ChildIds: 10667338277781291932
-        ChildIds: 3127007802166926342
-        ChildIds: 11836785683433867205
-        ChildIds: 16178028506684981392
-        ChildIds: 17781297238516931423
+        ParentId: 2660884865257327403
+        ChildIds: 2743300648832097525
+        ChildIds: 4050654478750124044
+        ChildIds: 690901552389576205
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -94,26 +91,26 @@ Assets {
         }
       }
       Objects {
-        Id: 6794783516149820996
+        Id: 2743300648832097525
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 15.0672073
+            X: 16.5598755
             Y: 4.42834473
             Z: 32.7088
           }
           Rotation {
-            Pitch: 13.7142811
-            Yaw: 69.4601212
-            Roll: 71.3454285
+            Pitch: 4.2002449
+            Yaw: 82.8104553
+            Roll: -98.4315186
           }
           Scale {
-            X: 0.0670373812
-            Y: 0.0670373812
-            Z: 0.0670373812
+            X: -0.0155755756
+            Y: 0.067037262
+            Z: 0.0271979757
           }
         }
-        ParentId: 1261345491197379997
+        ParentId: 6692091324774766710
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -140,26 +137,26 @@ Assets {
         }
       }
       Objects {
-        Id: 10667338277781291932
+        Id: 4050654478750124044
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 15.0672073
+            X: 16.5598755
             Y: 4.42834473
             Z: 32.7088
           }
           Rotation {
-            Pitch: 13.7142811
-            Yaw: 69.4601212
-            Roll: 71.3454285
+            Pitch: -6.24401855
+            Yaw: 15.2191448
+            Roll: -93.7026062
           }
           Scale {
-            X: 0.0670373812
-            Y: 0.0670373812
-            Z: 0.0670373812
+            X: -0.0155755756
+            Y: 0.067037262
+            Z: 0.0271979757
           }
         }
-        ParentId: 1261345491197379997
+        ParentId: 6692091324774766710
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -186,30 +183,31 @@ Assets {
         }
       }
       Objects {
-        Id: 3127007802166926342
+        Id: 690901552389576205
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 8.83369064
-            Y: 4.42834473
-            Z: 20.343689
+            X: 16.5598755
+            Y: -0.990510941
+            Z: 32.7088
           }
           Rotation {
-            Pitch: 13.7142811
-            Yaw: 69.4601212
-            Roll: 71.3454285
+            Pitch: -6.24401855
+            Yaw: 15.2191801
+            Roll: -93.7025757
           }
           Scale {
-            X: 0.0428815968
-            Y: 0.0428815968
-            Z: 0.0428815968
+            X: -0.0155755756
+            Y: 0.067037262
+            Z: 0.0271979757
           }
         }
-        ParentId: 1261345491197379997
+        ParentId: 6692091324774766710
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
             Color {
+              R: 0.120000005
               A: 1
             }
           }
@@ -231,189 +229,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11836785683433867205
-        Name: "Decal Stone Cracks Variants 01"
-        Transform {
-          Location {
-            X: -20.4712029
-            Y: -5.17260742
-            Z: 24.2191925
-          }
-          Rotation {
-            Pitch: -16.594059
-            Yaw: -44.6983566
-            Roll: -59.2085304
-          }
-          Scale {
-            X: 0.14902544
-            Y: 0.14902544
-            Z: 0.14902544
-          }
-        }
-        ParentId: 1261345491197379997
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.029000001
-              A: 0.676000059
-            }
-          }
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 0
-          }
-          Overrides {
-            Name: "bp:Color Emissive"
-            Color {
-              R: 0.450000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3538553104197291884
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 16178028506684981392
-        Name: "Decal Stone Cracks Variants 01"
-        Transform {
-          Location {
-            X: -20.4712029
-            Y: -5.17260742
-          }
-          Rotation {
-            Pitch: -22.5624905
-            Yaw: 72.6407547
-            Roll: -116.93734
-          }
-          Scale {
-            X: 0.112797983
-            Y: 0.112797983
-            Z: 0.112797983
-          }
-        }
-        ParentId: 1261345491197379997
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.029000001
-              A: 0.676000059
-            }
-          }
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 0
-          }
-          Overrides {
-            Name: "bp:Color Emissive"
-            Color {
-              R: 0.450000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3538553104197291884
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 17781297238516931423
-        Name: "Decal Stone Cracks Variants 01"
-        Transform {
-          Location {
-            X: 1.97430038
-            Y: -2.93988037
-            Z: 41.9006882
-          }
-          Rotation {
-            Pitch: -22.5624981
-            Yaw: 72.6407547
-            Roll: -116.93734
-          }
-          Scale {
-            X: 0.0730977505
-            Y: 0.0730977505
-            Z: 0.0730977505
-          }
-        }
-        ParentId: 1261345491197379997
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.029000001
-              A: 0.676000059
-            }
-          }
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 0
-          }
-          Overrides {
-            Name: "bp:Color Emissive"
-            Color {
-              R: 0.450000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 0
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3538553104197291884
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 13669134236149636828
+        Id: 15000917559365351385
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -432,7 +248,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 956549866407612512
+        ParentId: 2660884865257327403
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -443,7 +259,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8134098186047685242
+              Id: 18343579990421126041
             }
           }
           Overrides {
@@ -452,18 +268,18 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2.13357973
+            Float: 1.57681704
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 3.0875957
+            Float: 2.69930863
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.227000013
-              G: 0.227000013
-              B: 0.227000013
+              R: 0.081
+              G: 0.081
+              B: 0.081
               A: 1
             }
           }
@@ -483,8 +299,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.795364261
+              B: 0.7
               A: 1
             }
           }
@@ -503,8 +319,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -512,7 +326,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18239759334041689638
+        Id: 12384879833922983013
         Name: "Nails"
         Transform {
           Location {
@@ -528,30 +342,30 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 956549866407612512
-        ChildIds: 110120052417241635
-        ChildIds: 4775439981077267145
-        ChildIds: 4662584118694124204
-        ChildIds: 16030692131700772289
-        ChildIds: 16851561900873730622
-        ChildIds: 8907795653208658347
-        ChildIds: 4718957231456978797
-        ChildIds: 14203494729083558077
-        ChildIds: 13474094549671137357
-        ChildIds: 928946760832028941
-        ChildIds: 14134144867938427005
-        ChildIds: 13379332306174392497
-        ChildIds: 5340411810618842133
-        ChildIds: 561513562918648922
-        ChildIds: 3910682715331785533
-        ChildIds: 6942268996776986494
-        ChildIds: 10239143254658710269
-        ChildIds: 3018307746248006280
-        ChildIds: 12940124927474434144
-        ChildIds: 3910780948636483290
-        ChildIds: 1253489739266975633
-        ChildIds: 16284213925847908305
-        ChildIds: 5727574706922069171
+        ParentId: 2660884865257327403
+        ChildIds: 9390228502299630297
+        ChildIds: 14077826356606144428
+        ChildIds: 14577617793394207964
+        ChildIds: 5256857155849378284
+        ChildIds: 5577345060641081350
+        ChildIds: 17246745523268164903
+        ChildIds: 15027895644089245770
+        ChildIds: 16193016625434807305
+        ChildIds: 15822537278068122504
+        ChildIds: 6407815538037665993
+        ChildIds: 13805017174315378408
+        ChildIds: 4800324951360690436
+        ChildIds: 8214749382342074039
+        ChildIds: 12516835841880462105
+        ChildIds: 2734553605481966743
+        ChildIds: 3739212244355666879
+        ChildIds: 6147825971946514893
+        ChildIds: 16351787614918323942
+        ChildIds: 17976921732514817451
+        ChildIds: 7506244257832859075
+        ChildIds: 9123762377271165572
+        ChildIds: 7038838287833161900
+        ChildIds: 14744050214130874856
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -564,7 +378,7 @@ Assets {
         }
       }
       Objects {
-        Id: 110120052417241635
+        Id: 9390228502299630297
         Name: "Nail"
         Transform {
           Location {
@@ -583,9 +397,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 2174032659360866115
-        ChildIds: 5909791239385817246
+        ParentId: 12384879833922983013
+        ChildIds: 3520959694643471639
+        ChildIds: 16752141739943006937
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -597,7 +411,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2174032659360866115
+        Id: 3520959694643471639
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -615,7 +429,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 110120052417241635
+        ParentId: 9390228502299630297
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -665,8 +479,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -674,7 +487,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5909791239385817246
+        Id: 16752141739943006937
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -691,7 +504,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 110120052417241635
+        ParentId: 9390228502299630297
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -741,8 +554,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -750,7 +562,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4775439981077267145
+        Id: 14077826356606144428
         Name: "Nail"
         Transform {
           Location {
@@ -768,9 +580,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 4316313668911111067
-        ChildIds: 1722801430836487833
+        ParentId: 12384879833922983013
+        ChildIds: 5888107117199917594
+        ChildIds: 8129883258361025156
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -782,7 +594,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4316313668911111067
+        Id: 5888107117199917594
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -800,7 +612,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 4775439981077267145
+        ParentId: 14077826356606144428
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -850,8 +662,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -859,7 +670,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1722801430836487833
+        Id: 8129883258361025156
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -876,7 +687,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 4775439981077267145
+        ParentId: 14077826356606144428
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -887,7 +698,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 10116354385741115006
             }
           }
           Overrides {
@@ -926,8 +737,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -935,7 +745,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4662584118694124204
+        Id: 14577617793394207964
         Name: "Nail"
         Transform {
           Location {
@@ -954,9 +764,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 12594744186116528120
-        ChildIds: 7237021658754242713
+        ParentId: 12384879833922983013
+        ChildIds: 719806740291616437
+        ChildIds: 2676372716672792576
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -968,7 +778,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12594744186116528120
+        Id: 719806740291616437
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -986,7 +796,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 4662584118694124204
+        ParentId: 14577617793394207964
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1036,8 +846,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1045,7 +854,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7237021658754242713
+        Id: 2676372716672792576
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1062,7 +871,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 4662584118694124204
+        ParentId: 14577617793394207964
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1073,7 +882,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17742572886206846684
+              Id: 13909276548079333532
             }
           }
           Overrides {
@@ -1097,15 +906,6 @@ Assets {
               A: 1
             }
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.54
-              G: 0.54
-              B: 0.54
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1121,8 +921,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1130,7 +929,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16030692131700772289
+        Id: 5256857155849378284
         Name: "Nail"
         Transform {
           Location {
@@ -1149,9 +948,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 14870092892437986060
-        ChildIds: 13870333962718222501
+        ParentId: 12384879833922983013
+        ChildIds: 16907198706084419486
+        ChildIds: 1259201755055657402
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1163,7 +962,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14870092892437986060
+        Id: 16907198706084419486
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1182,7 +981,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 16030692131700772289
+        ParentId: 5256857155849378284
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1232,8 +1031,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1241,7 +1039,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13870333962718222501
+        Id: 1259201755055657402
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1258,7 +1056,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 16030692131700772289
+        ParentId: 5256857155849378284
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1308,8 +1106,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1317,7 +1114,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16851561900873730622
+        Id: 5577345060641081350
         Name: "Nail"
         Transform {
           Location {
@@ -1336,9 +1133,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 2717862805842213007
-        ChildIds: 9325902690168882973
+        ParentId: 12384879833922983013
+        ChildIds: 1388995189802015226
+        ChildIds: 15677883020872001697
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1350,7 +1147,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2717862805842213007
+        Id: 1388995189802015226
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1369,7 +1166,7 @@ Assets {
             Z: 0.206698239
           }
         }
-        ParentId: 16851561900873730622
+        ParentId: 5577345060641081350
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1419,8 +1216,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1428,7 +1224,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9325902690168882973
+        Id: 15677883020872001697
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1447,7 +1243,7 @@ Assets {
             Z: 0.00584900659
           }
         }
-        ParentId: 16851561900873730622
+        ParentId: 5577345060641081350
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1458,7 +1254,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17742572886206846684
+              Id: 13909276548079333532
             }
           }
           Overrides {
@@ -1506,8 +1302,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1515,7 +1310,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8907795653208658347
+        Id: 17246745523268164903
         Name: "Nail"
         Transform {
           Location {
@@ -1534,9 +1329,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 12878556758237013153
-        ChildIds: 7710685494967677308
+        ParentId: 12384879833922983013
+        ChildIds: 2821607821812824157
+        ChildIds: 18409990566771776336
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1548,7 +1343,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12878556758237013153
+        Id: 2821607821812824157
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1566,7 +1361,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 8907795653208658347
+        ParentId: 17246745523268164903
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1616,8 +1411,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1625,7 +1419,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7710685494967677308
+        Id: 18409990566771776336
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1642,7 +1436,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 8907795653208658347
+        ParentId: 17246745523268164903
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1692,8 +1486,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1701,7 +1494,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4718957231456978797
+        Id: 15027895644089245770
         Name: "Nail"
         Transform {
           Location {
@@ -1720,9 +1513,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 4074583122316879537
-        ChildIds: 678453659809072787
+        ParentId: 12384879833922983013
+        ChildIds: 7914279953939840463
+        ChildIds: 1003799682038430687
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1734,7 +1527,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4074583122316879537
+        Id: 7914279953939840463
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1752,7 +1545,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 4718957231456978797
+        ParentId: 15027895644089245770
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1802,8 +1595,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1811,7 +1603,7 @@ Assets {
         }
       }
       Objects {
-        Id: 678453659809072787
+        Id: 1003799682038430687
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1828,7 +1620,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 4718957231456978797
+        ParentId: 15027895644089245770
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1878,8 +1670,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1887,7 +1678,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14203494729083558077
+        Id: 16193016625434807305
         Name: "Nail"
         Transform {
           Location {
@@ -1906,9 +1697,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 16712332752899526106
-        ChildIds: 10153546060109827017
+        ParentId: 12384879833922983013
+        ChildIds: 16935964865423069609
+        ChildIds: 17542298321903660761
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1920,7 +1711,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16712332752899526106
+        Id: 16935964865423069609
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -1939,7 +1730,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 14203494729083558077
+        ParentId: 16193016625434807305
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1989,8 +1780,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -1998,7 +1788,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10153546060109827017
+        Id: 17542298321903660761
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2015,7 +1805,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 14203494729083558077
+        ParentId: 16193016625434807305
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2065,8 +1855,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2074,7 +1863,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13474094549671137357
+        Id: 15822537278068122504
         Name: "Nail"
         Transform {
           Location {
@@ -2093,9 +1882,9 @@ Assets {
             Z: 0.349029809
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 8543899192703715793
-        ChildIds: 686958212648781463
+        ParentId: 12384879833922983013
+        ChildIds: 2835044632471383138
+        ChildIds: 16332929138702770970
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2107,7 +1896,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8543899192703715793
+        Id: 2835044632471383138
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2126,7 +1915,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 13474094549671137357
+        ParentId: 15822537278068122504
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2176,8 +1965,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2185,7 +1973,7 @@ Assets {
         }
       }
       Objects {
-        Id: 686958212648781463
+        Id: 16332929138702770970
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2202,7 +1990,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 13474094549671137357
+        ParentId: 15822537278068122504
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2252,8 +2040,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2261,7 +2048,7 @@ Assets {
         }
       }
       Objects {
-        Id: 928946760832028941
+        Id: 6407815538037665993
         Name: "Nail"
         Transform {
           Location {
@@ -2280,9 +2067,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 6918818717741395111
-        ChildIds: 12462032135262537119
+        ParentId: 12384879833922983013
+        ChildIds: 7611303782469296973
+        ChildIds: 8721431149067249645
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2294,7 +2081,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6918818717741395111
+        Id: 7611303782469296973
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2313,7 +2100,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 928946760832028941
+        ParentId: 6407815538037665993
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2363,8 +2150,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2372,7 +2158,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12462032135262537119
+        Id: 8721431149067249645
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2389,7 +2175,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 928946760832028941
+        ParentId: 6407815538037665993
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2439,8 +2225,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2448,7 +2233,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14134144867938427005
+        Id: 13805017174315378408
         Name: "Nail"
         Transform {
           Location {
@@ -2467,9 +2252,9 @@ Assets {
             Z: 0.349029809
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 9917533274133204622
-        ChildIds: 3829132714729501796
+        ParentId: 12384879833922983013
+        ChildIds: 16636462255097354735
+        ChildIds: 6697474370429042708
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2481,7 +2266,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9917533274133204622
+        Id: 16636462255097354735
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2500,7 +2285,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 14134144867938427005
+        ParentId: 13805017174315378408
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2550,8 +2335,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2559,7 +2343,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3829132714729501796
+        Id: 6697474370429042708
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2576,7 +2360,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 14134144867938427005
+        ParentId: 13805017174315378408
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2626,8 +2410,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2635,7 +2418,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13379332306174392497
+        Id: 4800324951360690436
         Name: "Nail"
         Transform {
           Location {
@@ -2654,9 +2437,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 15182650847515883412
-        ChildIds: 6845487993411182725
+        ParentId: 12384879833922983013
+        ChildIds: 4410226413757477189
+        ChildIds: 17197426833612012490
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2668,7 +2451,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15182650847515883412
+        Id: 4410226413757477189
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2686,7 +2469,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 13379332306174392497
+        ParentId: 4800324951360690436
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2736,8 +2519,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2745,7 +2527,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6845487993411182725
+        Id: 17197426833612012490
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2762,7 +2544,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 13379332306174392497
+        ParentId: 4800324951360690436
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2812,8 +2594,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
+          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -2821,7 +2602,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5340411810618842133
+        Id: 8214749382342074039
         Name: "Nail"
         Transform {
           Location {
@@ -2840,9 +2621,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 16974666449156089826
-        ChildIds: 432447038869775264
+        ParentId: 12384879833922983013
+        ChildIds: 15827487428881879490
+        ChildIds: 11578393091101245549
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2854,7 +2635,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16974666449156089826
+        Id: 15827487428881879490
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2873,7 +2654,7 @@ Assets {
             Z: 0.382378697
           }
         }
-        ParentId: 5340411810618842133
+        ParentId: 8214749382342074039
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2923,8 +2704,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2932,7 +2711,7 @@ Assets {
         }
       }
       Objects {
-        Id: 432447038869775264
+        Id: 11578393091101245549
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -2951,7 +2730,7 @@ Assets {
             Z: 0.00584900659
           }
         }
-        ParentId: 5340411810618842133
+        ParentId: 8214749382342074039
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3001,8 +2780,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3010,7 +2787,7 @@ Assets {
         }
       }
       Objects {
-        Id: 561513562918648922
+        Id: 12516835841880462105
         Name: "Nail"
         Transform {
           Location {
@@ -3029,9 +2806,9 @@ Assets {
             Z: 0.349029809
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 2487893746735693195
-        ChildIds: 17362332030646734502
+        ParentId: 12384879833922983013
+        ChildIds: 2884061654730608080
+        ChildIds: 6948183253784555143
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3043,7 +2820,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2487893746735693195
+        Id: 2884061654730608080
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3061,7 +2838,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 561513562918648922
+        ParentId: 12516835841880462105
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3111,8 +2888,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3120,7 +2895,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17362332030646734502
+        Id: 6948183253784555143
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3137,7 +2912,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 561513562918648922
+        ParentId: 12516835841880462105
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3187,8 +2962,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3196,7 +2969,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3910682715331785533
+        Id: 2734553605481966743
         Name: "Nail"
         Transform {
           Location {
@@ -3215,9 +2988,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 16082364682269030677
-        ChildIds: 7176994769738053652
+        ParentId: 12384879833922983013
+        ChildIds: 4431057907823019151
+        ChildIds: 17421350225734180163
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3229,7 +3002,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16082364682269030677
+        Id: 4431057907823019151
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3247,7 +3020,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 3910682715331785533
+        ParentId: 2734553605481966743
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3297,8 +3070,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3306,7 +3077,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7176994769738053652
+        Id: 17421350225734180163
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3323,7 +3094,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 3910682715331785533
+        ParentId: 2734553605481966743
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3373,8 +3144,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3382,7 +3151,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6942268996776986494
+        Id: 3739212244355666879
         Name: "Nail"
         Transform {
           Location {
@@ -3401,9 +3170,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 10320495557684900046
-        ChildIds: 16566895147967808623
+        ParentId: 12384879833922983013
+        ChildIds: 722433681218245816
+        ChildIds: 14245586698727326270
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3415,13 +3184,13 @@ Assets {
         }
       }
       Objects {
-        Id: 10320495557684900046
+        Id: 722433681218245816
         Name: "Hatchet - Blade"
         Transform {
           Location {
-            X: -1.26830118e-05
-            Y: -0.0414473861
-            Z: 0.00069990271
+            X: 0.532560945
+            Y: -1.08839762
+            Z: -0.175090671
           }
           Rotation {
             Pitch: 19.8811226
@@ -3434,7 +3203,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 6942268996776986494
+        ParentId: 3739212244355666879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3484,8 +3253,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3493,11 +3260,13 @@ Assets {
         }
       }
       Objects {
-        Id: 16566895147967808623
+        Id: 14245586698727326270
         Name: "Hatchet - Blade"
         Transform {
           Location {
-            Y: 0.0414428711
+            X: 0.532574892
+            Y: -1.00551271
+            Z: -0.175792336
           }
           Rotation {
             Pitch: 19.8811092
@@ -3510,7 +3279,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 6942268996776986494
+        ParentId: 3739212244355666879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3560,8 +3329,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3569,7 +3336,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10239143254658710269
+        Id: 6147825971946514893
         Name: "Nail"
         Transform {
           Location {
@@ -3588,9 +3355,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 9988434332893285035
-        ChildIds: 13519301516442303931
+        ParentId: 12384879833922983013
+        ChildIds: 12947924848412869800
+        ChildIds: 3437817584741865951
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3602,7 +3369,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9988434332893285035
+        Id: 12947924848412869800
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3621,7 +3388,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 10239143254658710269
+        ParentId: 6147825971946514893
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3671,8 +3438,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3680,7 +3445,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13519301516442303931
+        Id: 3437817584741865951
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3697,7 +3462,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 10239143254658710269
+        ParentId: 6147825971946514893
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3747,8 +3512,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3756,7 +3519,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3018307746248006280
+        Id: 16351787614918323942
         Name: "Nail"
         Transform {
           Location {
@@ -3775,9 +3538,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 6949036819716512649
-        ChildIds: 14587729070421670008
+        ParentId: 12384879833922983013
+        ChildIds: 3143537025588790575
+        ChildIds: 11609806786513535874
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3789,7 +3552,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6949036819716512649
+        Id: 3143537025588790575
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3808,7 +3571,7 @@ Assets {
             Z: 0.0986516327
           }
         }
-        ParentId: 3018307746248006280
+        ParentId: 16351787614918323942
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3858,8 +3621,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3867,7 +3628,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14587729070421670008
+        Id: 11609806786513535874
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3886,7 +3647,7 @@ Assets {
             Z: 0.00498746615
           }
         }
-        ParentId: 3018307746248006280
+        ParentId: 16351787614918323942
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -3936,8 +3697,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3945,7 +3704,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12940124927474434144
+        Id: 17976921732514817451
         Name: "Nail"
         Transform {
           Location {
@@ -3964,9 +3723,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 13933806552486405096
-        ChildIds: 7123753983573190950
+        ParentId: 12384879833922983013
+        ChildIds: 14493461772571145372
+        ChildIds: 11856836598672772347
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3978,7 +3737,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13933806552486405096
+        Id: 14493461772571145372
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -3996,7 +3755,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 12940124927474434144
+        ParentId: 17976921732514817451
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4046,8 +3805,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4055,7 +3812,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7123753983573190950
+        Id: 11856836598672772347
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4072,7 +3829,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 12940124927474434144
+        ParentId: 17976921732514817451
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4122,8 +3879,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4131,7 +3886,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3910780948636483290
+        Id: 7506244257832859075
         Name: "Nail"
         Transform {
           Location {
@@ -4150,9 +3905,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 6696087744033967221
-        ChildIds: 2347232507157470554
+        ParentId: 12384879833922983013
+        ChildIds: 16443732973614736706
+        ChildIds: 1502503128093862228
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4164,7 +3919,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6696087744033967221
+        Id: 16443732973614736706
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4183,7 +3938,7 @@ Assets {
             Z: 0.206698239
           }
         }
-        ParentId: 3910780948636483290
+        ParentId: 7506244257832859075
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4233,8 +3988,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4242,7 +3995,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2347232507157470554
+        Id: 1502503128093862228
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4261,7 +4014,7 @@ Assets {
             Z: 0.00584900659
           }
         }
-        ParentId: 3910780948636483290
+        ParentId: 7506244257832859075
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4320,8 +4073,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4329,7 +4080,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1253489739266975633
+        Id: 9123762377271165572
         Name: "Nail"
         Transform {
           Location {
@@ -4347,9 +4098,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 16157893500064695710
-        ChildIds: 1794958934135453953
+        ParentId: 12384879833922983013
+        ChildIds: 15302059082281445303
+        ChildIds: 4301782689330690205
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4361,7 +4112,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16157893500064695710
+        Id: 15302059082281445303
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4379,7 +4130,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 1253489739266975633
+        ParentId: 9123762377271165572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4429,8 +4180,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4438,7 +4187,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1794958934135453953
+        Id: 4301782689330690205
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4455,7 +4204,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 1253489739266975633
+        ParentId: 9123762377271165572
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4505,8 +4254,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4514,7 +4261,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16284213925847908305
+        Id: 7038838287833161900
         Name: "Nail"
         Transform {
           Location {
@@ -4533,9 +4280,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 11690546972405920043
-        ChildIds: 2749935950417342801
+        ParentId: 12384879833922983013
+        ChildIds: 4534556453486254114
+        ChildIds: 10724536161411537850
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4547,7 +4294,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11690546972405920043
+        Id: 4534556453486254114
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4565,7 +4312,7 @@ Assets {
             Z: 0.0850340948
           }
         }
-        ParentId: 16284213925847908305
+        ParentId: 7038838287833161900
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4615,8 +4362,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4624,7 +4369,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2749935950417342801
+        Id: 10724536161411537850
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4641,7 +4386,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 16284213925847908305
+        ParentId: 7038838287833161900
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4691,8 +4436,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4700,7 +4443,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5727574706922069171
+        Id: 14744050214130874856
         Name: "Nail"
         Transform {
           Location {
@@ -4719,9 +4462,9 @@ Assets {
             Z: 0.533988118
           }
         }
-        ParentId: 18239759334041689638
-        ChildIds: 10049148489242445632
-        ChildIds: 16638292574602285072
+        ParentId: 12384879833922983013
+        ChildIds: 1361806222738396219
+        ChildIds: 16333462589434341194
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4733,7 +4476,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10049148489242445632
+        Id: 1361806222738396219
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4752,7 +4495,7 @@ Assets {
             Z: 0.157307699
           }
         }
-        ParentId: 5727574706922069171
+        ParentId: 14744050214130874856
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4802,8 +4545,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4811,7 +4552,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16638292574602285072
+        Id: 16333462589434341194
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -4828,7 +4569,7 @@ Assets {
             Z: 0.00705039175
           }
         }
-        ParentId: 5727574706922069171
+        ParentId: 14744050214130874856
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -4878,8 +4619,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4894,15 +4633,6 @@ Assets {
       PrimaryAsset {
         AssetType: "DecalBlueprintAssetRef"
         AssetId: "bp_decal_stain_round_001"
-      }
-    }
-    Assets {
-      Id: 3538553104197291884
-      Name: "Decal Stone Cracks Variants 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_stone_cracks_001"
       }
     }
     Assets {
@@ -4969,21 +4699,21 @@ Assets {
       }
     }
     Assets {
-      Id: 17742572886206846684
-      Name: "Metal Iron 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
-      }
-    }
-    Assets {
       Id: 4034288542561480967
       Name: "Cone - Truncated Narrow"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cone_truncated_002"
+      }
+    }
+    Assets {
+      Id: 17742572886206846684
+      Name: "Metal Iron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_001"
       }
     }
     PrimaryAssetId {

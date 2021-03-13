@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 1062077192568787167
+        ChildIds: 18396431535309586453
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -30,7 +30,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1062077192568787167
+        Id: 18396431535309586453
         Name: "Bat"
         Transform {
           Location {
@@ -46,8 +46,8 @@ Assets {
           }
         }
         ParentId: 15859065264299557718
-        ChildIds: 9624045527166931564
-        ChildIds: 10809650768978980787
+        ChildIds: 12811138976656630742
+        ChildIds: 5404575569045273059
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -59,7 +59,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9624045527166931564
+        Id: 12811138976656630742
         Name: "Decals"
         Transform {
           Location {
@@ -75,10 +75,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1062077192568787167
-        ChildIds: 18116737780980357726
-        ChildIds: 16633724517613352321
-        ChildIds: 11773271967556459635
+        ParentId: 18396431535309586453
+        ChildIds: 15931004554038971957
+        ChildIds: 1042193336510887399
+        ChildIds: 8949734961145723444
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -90,7 +90,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18116737780980357726
+        Id: 15931004554038971957
         Name: "Decal Stains Round 01"
         Transform {
           Location {
@@ -99,17 +99,17 @@ Assets {
             Z: 32.7088
           }
           Rotation {
-            Pitch: 13.7142811
-            Yaw: 69.4601212
-            Roll: 71.3454285
+            Pitch: 13.7142477
+            Yaw: 85.0199127
+            Roll: 71.3452
           }
           Scale {
-            X: 0.0981067866
-            Y: 0.0981067866
-            Z: 0.0981067866
+            X: 0.0402403
+            Y: 0.0832244456
+            Z: 0.0402397364
           }
         }
-        ParentId: 9624045527166931564
+        ParentId: 12811138976656630742
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -136,7 +136,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16633724517613352321
+        Id: 1042193336510887399
         Name: "Decal Stains Round 01"
         Transform {
           Location {
@@ -145,17 +145,17 @@ Assets {
             Z: 32.7088
           }
           Rotation {
-            Pitch: 13.7142811
-            Yaw: 69.4601212
-            Roll: 71.3454285
+            Pitch: 13.7142477
+            Yaw: 85.0199127
+            Roll: 71.3452
           }
           Scale {
-            X: 0.0981067866
-            Y: 0.0981067866
-            Z: 0.0981067866
+            X: 0.0402403
+            Y: 0.0832244456
+            Z: 0.0402397364
           }
         }
-        ParentId: 9624045527166931564
+        ParentId: 12811138976656630742
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -182,26 +182,26 @@ Assets {
         }
       }
       Objects {
-        Id: 11773271967556459635
+        Id: 8949734961145723444
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 8.8336792
-            Y: 4.42834473
+            X: 9.06213379
+            Y: 2.75619888
             Z: 20.343689
           }
           Rotation {
-            Pitch: 13.7142811
-            Yaw: 69.4601212
-            Roll: 71.3454285
+            Pitch: 13.7142477
+            Yaw: 85.0199127
+            Roll: 71.3452
           }
           Scale {
-            X: 0.062755689
-            Y: 0.062755689
-            Z: 0.062755689
+            X: 0.0257403664
+            Y: 0.0532359108
+            Z: 0.0257400256
           }
         }
-        ParentId: 9624045527166931564
+        ParentId: 12811138976656630742
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -227,7 +227,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10809650768978980787
+        Id: 5404575569045273059
         Name: "Hatchet - Blade"
         Transform {
           Location {
@@ -246,7 +246,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1062077192568787167
+        ParentId: 18396431535309586453
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -317,8 +317,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }

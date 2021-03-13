@@ -998,8 +998,134 @@ Objects {
   }
 }
 Objects {
+  Id: 3870191110640755827
+  Name: "Invisible Collider"
+  Transform {
+    Location {
+      X: -393.303864
+      Y: 67.5788574
+      Z: 335.727936
+    }
+    Rotation {
+    }
+    Scale {
+      X: 8.42852116
+      Y: 13.0624781
+      Z: 31.6062393
+    }
+  }
+  ParentId: 3844101252731550927
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15568281925168100818
+  Name: "Invisible Collider"
+  Transform {
+    Location {
+      X: -1163.52881
+      Y: 569.554932
+      Z: 335.727936
+    }
+    Rotation {
+    }
+    Scale {
+      X: 9.48561
+      Y: 13.0624781
+      Z: 31.6062393
+    }
+  }
+  ParentId: 3844101252731550927
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16681865929727453827
+  Name: "Invisible Collider"
+  Transform {
+    Location {
+      X: 183.084839
+      Y: 569.554932
+      Z: 335.727936
+    }
+    Rotation {
+    }
+    Scale {
+      X: 8.42852116
+      Y: 13.0624781
+      Z: 31.6062393
+    }
+  }
+  ParentId: 3844101252731550927
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 14092413820429011271
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 5615
@@ -1042,7 +1168,7 @@ Objects {
 }
 Objects {
   Id: 613057438802019419
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 2685.15894
@@ -1085,7 +1211,7 @@ Objects {
 }
 Objects {
   Id: 5573908797762630725
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 9884.59082
@@ -1128,7 +1254,7 @@ Objects {
 }
 Objects {
   Id: 13350839790005167923
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 9940
@@ -1171,7 +1297,7 @@ Objects {
 }
 Objects {
   Id: 3771812068486495475
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 9099.69727
@@ -1214,7 +1340,7 @@ Objects {
 }
 Objects {
   Id: 9545042459955885543
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 9620.63
@@ -1263,7 +1389,7 @@ Objects {
 }
 Objects {
   Id: 16211546605729990805
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -603.163696
@@ -1306,7 +1432,7 @@ Objects {
 }
 Objects {
   Id: 17893937114737612250
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -4494.22363
@@ -1349,7 +1475,7 @@ Objects {
 }
 Objects {
   Id: 1370098052485429182
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -2421.18335
@@ -1392,7 +1518,7 @@ Objects {
 }
 Objects {
   Id: 6839463218178419166
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -3400
@@ -1435,7 +1561,7 @@ Objects {
 }
 Objects {
   Id: 1972291269026712041
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -5086.84619
@@ -1478,7 +1604,7 @@ Objects {
 }
 Objects {
   Id: 2509741393705619745
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -6105.59473
@@ -1521,7 +1647,7 @@ Objects {
 }
 Objects {
   Id: 9698495259819431847
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -5550.40234
@@ -1564,7 +1690,7 @@ Objects {
 }
 Objects {
   Id: 2243399803096040149
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -6245.03809
@@ -1607,7 +1733,7 @@ Objects {
 }
 Objects {
   Id: 12369790882967152798
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -6946.14209
@@ -1650,7 +1776,7 @@ Objects {
 }
 Objects {
   Id: 8592999715780979711
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -340.15625
@@ -1692,7 +1818,7 @@ Objects {
 }
 Objects {
   Id: 8043698724425807646
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -7348.62158
@@ -1735,7 +1861,7 @@ Objects {
 }
 Objects {
   Id: 11070449919581949448
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 1556.44348
@@ -1777,7 +1903,7 @@ Objects {
 }
 Objects {
   Id: 6042471899960973103
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 3594.25
@@ -1819,7 +1945,7 @@ Objects {
 }
 Objects {
   Id: 6759361555162834525
-  Name: "Cube"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -908.346252
@@ -1861,7 +1987,7 @@ Objects {
 }
 Objects {
   Id: 10914920065026564142
-  Name: "Cube"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -535
@@ -1904,7 +2030,7 @@ Objects {
 }
 Objects {
   Id: 11044301985405331672
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -3795.15674
@@ -1947,7 +2073,7 @@ Objects {
 }
 Objects {
   Id: 17207196694739741664
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 3773.89185
@@ -1989,7 +2115,7 @@ Objects {
 }
 Objects {
   Id: 8484977920206966469
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -7753.3
@@ -2032,7 +2158,7 @@ Objects {
 }
 Objects {
   Id: 8295098375417523228
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -8587.49316
@@ -2075,7 +2201,7 @@ Objects {
 }
 Objects {
   Id: 9619045850019758462
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -1285.37939
@@ -2118,7 +2244,7 @@ Objects {
 }
 Objects {
   Id: 18166480016328673959
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: -1849.90662
@@ -2161,7 +2287,7 @@ Objects {
 }
 Objects {
   Id: 3162506844086639311
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 635
@@ -2204,7 +2330,7 @@ Objects {
 }
 Objects {
   Id: 3531758614987916641
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 5260.68066
@@ -2247,7 +2373,7 @@ Objects {
 }
 Objects {
   Id: 4495203370226211398
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 8738.00781
@@ -2290,7 +2416,7 @@ Objects {
 }
 Objects {
   Id: 6893043467261504017
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 9340.14551
@@ -2333,7 +2459,7 @@ Objects {
 }
 Objects {
   Id: 14570826172488864560
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 8921.5459
@@ -2376,7 +2502,7 @@ Objects {
 }
 Objects {
   Id: 11452079447013402209
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 10222.9727
@@ -2425,7 +2551,7 @@ Objects {
 }
 Objects {
   Id: 14104173404940135070
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 8321.05078
@@ -2474,7 +2600,7 @@ Objects {
 }
 Objects {
   Id: 575725130991249774
-  Name: "Cube - bottom aligned"
+  Name: "Invisible Collider"
   Transform {
     Location {
       X: 8534.87305

@@ -15,4 +15,4 @@ end
 function OnPlayerJoined(player)
 	player.diedEvent:Connect(OnPlayerDied)
 end
-Game.playerJoinedEvent:Connect(OnPlayerJoined)
+Game.playerJoinedEvent:Connect(OnPlayerJoined) 

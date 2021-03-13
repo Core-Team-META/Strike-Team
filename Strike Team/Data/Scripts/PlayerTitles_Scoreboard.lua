@@ -598,3 +598,4 @@ end ]]
 Events.Connect("ShowScoreboardScreen", ForceOn)
 Events.Connect("ShowStatsScreen", ForceOff)
 Events.Connect("ShowVictoryScreen", ForceOff)
+Events.Connect("ShowNewsScreen", ForceOff)

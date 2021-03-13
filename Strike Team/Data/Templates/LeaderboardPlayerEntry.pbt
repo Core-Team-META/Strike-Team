@@ -17,10 +17,17 @@ Assets {
         }
         ParentId: 8694728719021372099
         ChildIds: 5402490903893439211
+        ChildIds: 7163164114026153887
         ChildIds: 16515489829761371584
         ChildIds: 10129015426118223837
         ChildIds: 5945562105975218830
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:PlayerRank"
+            ObjectReference {
+              SubObjectId: 7163164114026153887
+            }
+          }
           Overrides {
             Name: "cs:PlayerName"
             ObjectReference {
@@ -124,6 +131,69 @@ Assets {
         }
       }
       Objects {
+        Id: 7163164114026153887
+        Name: "PlayerRank"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5672885568492043509
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 215
+          Height: 60
+          UIX: 15
+          UIY: 2
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentHeight: true
+          Text {
+            Label: "99."
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            ClipTextToSize: true
+            Font {
+              Id: 9411408650235230850
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 16515489829761371584
         Name: "PlayerName"
         Transform {
@@ -147,7 +217,7 @@ Assets {
         Control {
           Width: 215
           Height: 60
-          UIX: 15
+          UIX: 45
           UIY: 2
           RenderTransformPivot {
             Anchor {

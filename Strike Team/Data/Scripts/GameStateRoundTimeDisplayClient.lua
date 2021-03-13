@@ -14,7 +14,6 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
-
 -- Internal custom properties
 local ABGS = require(script:GetCustomProperty("API"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
@@ -30,7 +29,7 @@ local SHOW_DURING_ROUND_END = COMPONENT_ROOT:GetCustomProperty("ShowDuringRoundE
 -- nil UpdateTimeRemaining(int)
 -- Displays time remaining in hh:mm:ss format
 function UpdateTimeRemaining(remainingTime)
-    if remainingTime and  remainingTime ~= "" then
+    if remainingTime and remainingTime ~= "" then
         STATE_TIME_TEXT.visibility = Visibility.INHERIT
         local minutes = math.floor(remainingTime) // 60 % 60
         local seconds = math.floor(remainingTime) % 60
@@ -49,10 +48,17 @@ function Tick(deltaTime)
         STATE_TIME_TEXT.visibility = Visibility.FORCE_OFF
         local currentState = ABGS.GetGameState()
         local remainingTime = ABGS.GetTimeRemainingInState()
-
         if currentState == ABGS.GAME_STATE_LOBBY and SHOW_DURING_LOBBY then
-            STATE_NAME_TEXT.text = "Lobby"
-            UpdateTimeRemaining(remainingTime)
+            local players = Game.GetPlayers()
+            if #players > 1 then
+                STATE_NAME_TEXT.text = "Lobby"
+                UpdateTimeRemaining(remainingTime)
+                STATE_NAME_TEXT.fontSize = 14
+            else
+                STATE_NAME_TEXT.text = "Waiting For Players"
+                STATE_NAME_TEXT.fontSize = 13
+                UpdateTimeRemaining()
+            end
         end
 
         if currentState == ABGS.GAME_STATE_ROUND and SHOW_DURING_ROUND then

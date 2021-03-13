@@ -208,7 +208,7 @@ Objects {
           Vector {
             X: 2060
             Y: 25000
-            Z: 95
+            Z: 271.084961
           }
         }
         Overrides {
@@ -28809,6 +28809,27 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16209300944322883776
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -233.134521
+            Y: -579.998596
+            Z: 610
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 8.21769619
+            Y: 28.8999958
+            Z: 0.5
           }
         }
       }
@@ -92255,14 +92276,14 @@ Objects {
   Name: "Fantasy Castle Trim - Parapet 01"
   Transform {
     Location {
-      X: 475
-      Y: 520
+      X: 440.556213
+      Y: 519.923218
       Z: 1495
     }
     Rotation {
     }
     Scale {
-      X: 0.718667
+      X: 0.838971794
       Y: 0.8
       Z: 0.8
     }

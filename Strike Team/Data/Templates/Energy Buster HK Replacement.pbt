@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9037448256415623816
+        ParentId: 4781671109827199097
         ChildIds: 12028499263297606174
         ChildIds: 3017448411180789406
         WantsNetworking: true
@@ -2983,7 +2983,7 @@ Assets {
           Overrides {
             Name: "cs:ScopeTemplate"
             AssetReference {
-              Id: 2876434669009403276
+              Id: 9590300037225488664
             }
           }
           Overrides {

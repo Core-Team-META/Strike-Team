@@ -6,6 +6,7 @@ Events.Connect("HideClaimBox", function()
 end)
 
 Events.Connect("ShowClaimBox", function() 
-
+    Task.Spawn(function()
     UIChampionCrate.visibility = Visibility.INHERIT
+    end, 4)
 end)

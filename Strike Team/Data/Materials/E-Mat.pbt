@@ -9,9 +9,9 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.161000013
-          G: 0.0749481618
-          B: 0.0536129959
+          R: 0.568
+          G: 0.264413387
+          B: 0.189143971
           A: 1
         }
       }
@@ -78,7 +78,7 @@ Assets {
       }
       Overrides {
         Name: "roughness"
-        Float: 0.570856154
+        Float: 1
       }
       Overrides {
         Name: "u_offset"
@@ -87,6 +87,22 @@ Assets {
       Overrides {
         Name: "v_offset"
         Float: 0.766730964
+      }
+      Overrides {
+        Name: "color_secondary"
+        Color {
+          R: 0.516000032
+          G: 0.194136724
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "color_accent"
+        Color {
+          R: 0.672000051
+          G: 0.333770841
+          A: 1
+        }
       }
     }
     Assets {

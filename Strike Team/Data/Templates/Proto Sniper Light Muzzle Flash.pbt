@@ -4,10 +4,10 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11849674454856236106
+      RootId: 3949730406865326438
       Objects {
-        Id: 11849674454856236106
-        Name: "Proto Sniper Light Muzzle Flash"
+        Id: 3949730406865326438
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,52 +16,18 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3949730406865326438
-        UnregisteredParameters {
-        }
-        Lifespan: 3
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3949730406865326438
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11849674454856236106
         ChildIds: 4830060901979893044
-        ChildIds: 11150861978723312827
+        ChildIds: 12996217071285140997
         ChildIds: 4814135690681172435
         ChildIds: 8210747865621629975
         ChildIds: 502640409887200536
         ChildIds: 12440495779633185040
-        ChildIds: 5478153731394958219
-        ChildIds: 12385753087561565310
-        ChildIds: 17768085163899742953
-        ChildIds: 3904881719168351620
         ChildIds: 11300330759860338906
         UnregisteredParameters {
         }
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -115,31 +81,24 @@ Assets {
         }
       }
       Objects {
-        Id: 11150861978723312827
-        Name: "Generic Muzzleflash VFX"
+        Id: 12996217071285140997
+        Name: "Advanced Muzzleflash VFX"
         Transform {
           Location {
+            X: 109.62471
+            Y: 1.52587891e-05
+            Z: 18.5361328
           }
           Rotation {
             Pitch: -90
           }
           Scale {
-            X: 1.00000012
-            Y: 1
-            Z: 2.40851641
+            X: 0.394984037
+            Y: 0.394983977
+            Z: 0.951325417
           }
         }
         ParentId: 3949730406865326438
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 4
-          }
-        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -148,7 +107,9 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 16322635077100878811
+            Id: 11252187294642675795
+          }
+          TeamSettings {
           }
           Vfx {
             AutoPlay: true
@@ -343,198 +304,6 @@ Assets {
         }
       }
       Objects {
-        Id: 5478153731394958219
-        Name: "Generic Muzzleflash VFX"
-        Transform {
-          Location {
-            X: -20.3762817
-            Y: -2.9486084
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 16.6992588
-            Roll: -106.699341
-          }
-          Scale {
-            X: 0.415895641
-            Y: 0.415895522
-            Z: 0.496841222
-          }
-        }
-        ParentId: 3949730406865326438
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 4
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16322635077100878811
-          }
-          Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:medium"
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12385753087561565310
-        Name: "Generic Muzzleflash VFX"
-        Transform {
-          Location {
-            X: -9.58575439
-            Y: -2.9486084
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 16.6992588
-            Roll: -106.699341
-          }
-          Scale {
-            X: 0.415895641
-            Y: 0.415895522
-            Z: 0.496841222
-          }
-        }
-        ParentId: 3949730406865326438
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 4
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16322635077100878811
-          }
-          Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:medium"
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17768085163899742953
-        Name: "Generic Muzzleflash VFX"
-        Transform {
-          Location {
-            X: -9.58578491
-            Y: 3.67321777
-          }
-          Rotation {
-            Pitch: 90
-            Yaw: -4.76364136
-            Roll: 85.2361679
-          }
-          Scale {
-            X: 0.415895641
-            Y: 0.415895522
-            Z: 0.496841222
-          }
-        }
-        ParentId: 3949730406865326438
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 4
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16322635077100878811
-          }
-          Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:medium"
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3904881719168351620
-        Name: "Generic Muzzleflash VFX"
-        Transform {
-          Location {
-            X: -20.3763123
-            Y: 3.67321777
-          }
-          Rotation {
-            Pitch: 90
-            Yaw: -4.76364136
-            Roll: 85.2361679
-          }
-          Scale {
-            X: 0.415895641
-            Y: 0.415895522
-            Z: 0.496841222
-          }
-        }
-        ParentId: 3949730406865326438
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 4
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16322635077100878811
-          }
-          Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:medium"
-            }
-          }
-        }
-      }
-      Objects {
         Id: 11300330759860338906
         Name: "Shell Ejection VFX"
         Transform {
@@ -633,12 +402,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16322635077100878811
-      Name: "Generic Muzzleflash VFX"
+      Id: 11252187294642675795
+      Name: "Advanced Muzzleflash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_generic_muzzleflash"
+        AssetId: "fxbp_muzzleflash_alt"
       }
     }
     Assets {

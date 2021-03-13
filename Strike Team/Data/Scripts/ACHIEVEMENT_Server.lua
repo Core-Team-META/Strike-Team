@@ -98,9 +98,9 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRMEL3", 1)
     elseif weaponType == "LMG" then
         ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
-        ACH_API.AddProgress(player, "AS_NRLMG1", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG2", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG3", 1)
+        ACH_API.AddProgress(player, "AS_NRLMG4", 1)
     elseif weaponType == "Shotgun" then
         ACH_API.AddProgress(player, "AS_NRSHOTTY1", 1)
         ACH_API.AddProgress(player, "AS_NRSHOTTY2", 1)
@@ -128,6 +128,7 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     ACH_API.AddProgress(player, "AS_NRKill1", 1)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
+
 
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
@@ -206,6 +207,14 @@ function OnRoundEnd()
         player.serverUserData.ACH_diedInRound = false
         ACH_API.GiveAllRewards(player)
     end
+    Task.Spawn(
+        function()
+            for _, player in ipairs(Game.GetPlayers()) do
+                ACH_API.ResetRepeatable(player)
+            end
+        end,
+        10
+    )
 end
 
 --#TODO Needs to be changed to cross key

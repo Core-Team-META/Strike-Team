@@ -17,7 +17,6 @@ Objects {
   ChildIds: 6278672628054296791
   ChildIds: 7367735074338159388
   ChildIds: 17257846423230686053
-  ChildIds: 2531340925404137440
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
@@ -36,6 +35,7 @@ Objects {
   ChildIds: 17512947565365309920
   ChildIds: 17277774771838165488
   ChildIds: 6820215483491735348
+  ChildIds: 12255050178053443099
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,6 +45,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12255050178053443099
+  Name: "Brent"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Brent"
   }
 }
 Objects {
@@ -31348,32 +31374,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2531340925404137440
-  Name: "Rank Manager"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16674151735511252933
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Rank Manager"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15930087830757616918
-    }
-  }
-}
-Objects {
   Id: 17257846423230686053
   Name: "Player Settings"
   Transform {
@@ -31479,6 +31479,7 @@ Objects {
           Value: "mc:echatmode:allonly"
         }
         ChatPosition {
+          X: 40
           Y: -83.7797852
         }
         ChatSize {
@@ -31521,18 +31522,9 @@ Objects {
   ParentId: 4781671109827199097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:LifetimeStats"
+      Name: "cs:Storage"
       NetReference {
-        Key: "02099a9ad11e4ae3b4443adf78c87879"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+        Key: "4340806d8ab648f88886e43bec9ba4a5"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -31541,16 +31533,34 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+        Key: "2419bb1f04a442e092b0bd4b3f78745c"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:Storage"
+      Name: "cs:StatKey"
       NetReference {
-        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
+        Key: "a1a35fac377245378734c5807fb5fafb"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LifetimeStats"
+      NetReference {
+        Key: "a8f360a302cb40bd8669684952aacd87"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MiscKey"
+      NetReference {
+        Key: "205fcba93ae84a0f85256d4eeef18847"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }

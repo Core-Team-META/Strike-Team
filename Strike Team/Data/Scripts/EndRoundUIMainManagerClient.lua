@@ -32,9 +32,8 @@ local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 
 local statsWindow = script:GetCustomProperty("StatsWindow"):WaitForObject()
 
-local returnToLoadout = script:GetCustomProperty("ReturnToLoadout"):WaitForObject()
-
 local mainWindow = script:GetCustomProperty("MainWindow"):WaitForObject()
+local newsWindow = script:GetCustomProperty("NEWS_WINDOW"):WaitForObject()
 
 local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
 
@@ -47,7 +46,7 @@ local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimation
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
 local Gold_SFX = script:GetCustomProperty("Gold_SFX")
 
-local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
+--local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
 
 local Rows = {}
 local GoldPercentBar = script:GetCustomProperty("GoldPercentBar"):WaitForObject()
@@ -57,6 +56,10 @@ local SMALL_GOLD = script:GetCustomProperty("SMALL_GOLD"):WaitForObject()
 
 local CASHROWTEMPLATE = script:GetCustomProperty("CASHROWTEMPLATE")
 local CASHPANEL = script:GetCustomProperty("CashPanel"):WaitForObject()
+
+local completeSFX = script:GetCustomProperty("CompleteSFX"):WaitForObject()
+local tickGroup = script:GetCustomProperty("TickGroup"):WaitForObject()
+local goldGroup = script:GetCustomProperty("GoldGroup"):WaitForObject()
 
 local winValue = 100
 local lossValue = 50
@@ -108,7 +111,10 @@ local statsTimer = nil
 
 local hasViewedStats = false
 
-local defaultReturnButtonY = returnToLoadout.y
+local tickNumber = 1
+local tickList = tickGroup:GetChildren()
+
+local goldList = goldGroup:GetChildren()
 
 function SetChildrenText(uiObj, _text) -- <-- generic children text function by AJ
 	if Object.IsValid(uiObj) and uiObj:IsA("UIText") then
@@ -122,7 +128,25 @@ function SetChildrenText(uiObj, _text) -- <-- generic children text function by 
 	end
 end
 
-local defaultReturnButtonY = returnToLoadout.y
+function PlayTick()
+	
+	if tickNumber <= #tickList and Object.IsValid(tickList[tickNumber]) then
+	
+		if not tickList[tickNumber].isPlaying or tickList[tickNumber].currentPlaybackTime >= 0.25 then
+	
+			tickList[tickNumber]:Play()
+			
+		end
+		
+		tickNumber = tickNumber + 1
+		
+	else 
+	
+		tickNumber = 1
+		
+	end	
+		
+end
 
 function CountThisTextUp(givenText, targetNumber, extra, allowTickSFX)
 	if targetNumber == 0 then
@@ -150,9 +174,9 @@ function CountThisTextUp(givenText, targetNumber, extra, allowTickSFX)
 				SetChildrenText(givenText, givenText.text)
 
 				if allowTickSFX then
-					local tickSFX = World.SpawnAsset(rollTextTickSFX)
-
-					tickSFX.lifeSpan = 1
+				
+					PlayTick()
+					
 				end
 				Task.Wait(0.05)
 				
@@ -207,9 +231,9 @@ function CountThisFloat(givenText, targetFloat, extra, allowTickSFX)
 				SetChildrenText(givenText, givenText.text)
 
 				if allowTickSFX then
-					local tickSFX = World.SpawnAsset(rollTextTickSFX)
-
-					tickSFX.lifeSpan = 1
+				
+					PlayTick()
+					
 				end
 
 				Task.Wait(0.05)
@@ -261,9 +285,9 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 					SetChildrenText(givenText, displayText .. letters[math.random(1, #letters)])
 
 					if allowTickSFX then
-						local tickSFX = World.SpawnAsset(rollTextTickSFX)
-
-						tickSFX.lifeSpan = 1
+					
+						PlayTick()
+						
 					end
 
 					Task.Wait(0.07)
@@ -373,9 +397,8 @@ function AnimatePlayerLevel()
 				
 	end
 		
-	local endSFX = World.SpawnAsset(rollTextAnimationCompleteSFX)
-
-	endSFX.lifeSpan = 2
+	completeSFX:Play()
+	
 end
 
 function CalculateCashTotal()
@@ -454,11 +477,11 @@ function AnimateGold()
 	
 	if not skipAnimation then
 		Task.Wait(.3)
-		World.SpawnAsset(Gold_SFX)
+		goldList[1]:Play()
 		Task.Wait(.1)
-		World.SpawnAsset(Gold_SFX)
+		goldList[2]:Play()
 		Task.Wait(.1)
-		World.SpawnAsset(Gold_SFX)
+		goldList[3]:Play()
 		Task.Wait(.1)
 	end
 	GoldAmount.text = string.format("%d/%d", math.min(Gold + 1, 10), 10)
@@ -474,11 +497,11 @@ function AnimateGold()
 		
 		if not skipAnimation then
 			Task.Wait(.2)
-			World.SpawnAsset(Gold_SFX)
+			goldList[1]:Play()
 			Task.Wait(.1)
-			World.SpawnAsset(Gold_SFX)
+			goldList[2]:Play()
 			Task.Wait(.1)
-			World.SpawnAsset(Gold_SFX)
+			goldList[3]:Play()
 		end
 		
 		GoldAmount.text = string.format("%d/%d", math.min(Gold + 2, 10), 10)
@@ -495,9 +518,7 @@ function ShowEndRoundResults()
 	local Gold = localPlayer:GetResource("OldGold")
 	GoldAmount.text = string.format("%d/%d", Gold, 10)
 	GoldPercentBar.progress = Gold / 10
-
-	returnToLoadout.y = returnToLoadout.y + 2000
-		
+	
 	EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 		
 	AnimateWordText(playerNameText, localPlayer.name, true)
@@ -577,7 +598,7 @@ end
 
 function OnLeaveToLoadout(button)
 	ReliableEvents.BroadcastToServer("LEAVETOLOADOUT")
-	returnToLoadout.isInterractable = false
+	--returnToLoadout.isInterractable = false
 end
 
 
@@ -588,6 +609,7 @@ function ToggleStatsScreen()
 	statsState = true
 	
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
+	newsWindow.visibility = Visibility.FORCE_OFF
 
 	statsWindow.visibility = Visibility.INHERIT
 
@@ -600,7 +622,20 @@ end
 function ToggleVictoryScreen()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
 	statsWindow.visibility = Visibility.FORCE_OFF
+	newsWindow.visibility = Visibility.FORCE_OFF
 	
+	if hasViewedStats and not skipAnimation then
+	
+		skipAnimation = true
+		Events.Broadcast("SkipAnimation")
+		
+	end
+end
+
+function ToggleNewsScreen()
+	entireRoundEndUI.visibility = Visibility.FORCE_ON
+	statsWindow.visibility = Visibility.FORCE_OFF
+	newsWindow.visibility = Visibility.FORCE_ON
 	if hasViewedStats and not skipAnimation then
 	
 		skipAnimation = true
@@ -613,7 +648,7 @@ end
 ResetEndRoundResults()
 RecordCurrentXP()
 
-backToLoadoutButton.clickedEvent:Connect(OnLeaveToLoadout)
+--backToLoadoutButton.clickedEvent:Connect(OnLeaveToLoadout)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 
 --------------------------
@@ -622,3 +657,4 @@ Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("ShowStatsScreen", ToggleStatsScreen)
 Events.Connect("ShowVictoryScreen", ToggleVictoryScreen)
 Events.Connect("ShowScoreboardScreen", ToggleVictoryScreen)
+Events.Connect("ShowNewsScreen", ToggleNewsScreen)

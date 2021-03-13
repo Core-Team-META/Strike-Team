@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16873054259561342990
-  Name: "Frame Outline Thin 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
-  }
-}
-Assets {
   Id: 15883708854494611084
   Name: "Sci-fi Container 002"
   PlatformAssetType: 9
@@ -107,12 +98,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2604353830693238371
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
   Id: 1814707273787853473
   Name: "BG Flat 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 1641512795081380093
+  Name: "Oswald"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OswaldRegular_ref"
   }
 }
 Assets {

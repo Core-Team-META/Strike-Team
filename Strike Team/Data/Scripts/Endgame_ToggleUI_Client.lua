@@ -16,6 +16,7 @@ local TEMP_BUTTON_PANEL = script:GetCustomProperty("TEMP_BUTTON_PANEL"):WaitForO
 local VICTORY_SCREEN_BUTTON = script:GetCustomProperty("VICTORY_SCREEN_BUTTON"):WaitForObject()
 local STATS_SCREEN_BUTTON = script:GetCustomProperty("STATS_SCREEN_BUTTON"):WaitForObject()
 local SCOREBOARD_BUTTON = script:GetCustomProperty("SCOREBOARD_BUTTON"):WaitForObject()
+local NEWS_BUTTON = script:GetCustomProperty("NEWS_BUTTON"):WaitForObject()
 
 -- Top Bar
 local TOP_BAR = script:GetCustomProperty("TOP_BAR"):WaitForObject()
@@ -41,6 +42,7 @@ local function DisconnectListeners()
         end
     end
 end
+
 
 local function FormatTimeToString(remainingTime)
     local minutes = math.floor(remainingTime) // 60 % 60
@@ -81,6 +83,11 @@ function OnButtonPressed(button)
         PLAYER_PANELS.visibility = Visibility.FORCE_OFF
         -- Scoreboard
         Events.Broadcast("ShowScoreboardScreen")
+    elseif button == NEWS_BUTTON then
+        activePanels["NEWS_SCREEN"].visibility = Visibility.FORCE_ON
+        PLAYER_PANELS.visibility = Visibility.FORCE_OFF
+        -- Scoreboard
+        Events.Broadcast("ShowNewsScreen")
     end
     hasClickedScoreScreen = true
 end
@@ -119,20 +126,27 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         UI.SetCanCursorInteractWithUI(true)
         UI.SetCursorVisible(true)
 
+        activePanels["LATE_JOIN"] = nil
         activePanels["VICTORY_SCREEN"] = VICTORY_SCREEN_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
         activePanels["STATS_SCREEN"] = STATS_SCREEN_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
         activePanels["SCORE_BOARD"] = SCOREBOARD_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["NEWS_SCREEN"] = NEWS_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
 
         activePanels["VICTORY_SCREEN"].visibility = Visibility.FORCE_ON
+
+        STATS_SCREEN_BUTTON.isInteractable = true
 
         listeners[#listeners + 1] = VICTORY_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
         listeners[#listeners + 1] = STATS_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
         listeners[#listeners + 1] = SCOREBOARD_BUTTON.clickedEvent:Connect(OnButtonPressed)
+        listeners[#listeners + 1] = NEWS_BUTTON.clickedEvent:Connect(OnButtonPressed)
     end
 end
 
 function Tick(deltaTime)
-    if not next(activePanels) then return end
+    if not next(activePanels) then
+        return
+    end
     if shouldShowTimer and ABGS.IsGameStateManagerRegistered() then
         local currentState = ABGS.GetGameState()
         local remainingTime = ABGS.GetTimeRemainingInState()
@@ -141,7 +155,7 @@ function Tick(deltaTime)
             UpdateTimeRemaining(remainingTime)
 
             if
-                not hasClickedScoreScreen and remainingTime < stateTime - 15 and
+                not hasClickedScoreScreen and not activePanels["LATE_JOIN"] and remainingTime < stateTime - 15 and
                     activePanels["STATS_SCREEN"].visibility == Visibility.FORCE_OFF
              then
                 ClearActivePanels()
@@ -156,7 +170,41 @@ function Tick(deltaTime)
 end
 
 if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
-    shouldShowTimer = true
+    Task.Wait()
+    ClearActivePanels()
+    while not next(GAME_MODES.GetGameTypeList()) do
+        Task.Wait()
+    end
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+        -- Turn panels on
+        TEMP_BUTTON_PANEL.visibility = Visibility.FORCE_ON
+        TOP_BAR.visibility = Visibility.FORCE_ON
+        activePanels["LATE_JOIN"] = true
+        -- Top bar info
+        local matchTime = GAMEMODE_NETWORKED:GetCustomProperty("ROUND_DURATION")
+        MATCH_LENGTH.text = FormatTimeToString(matchTime)
+
+        --#FIXME Currently hardset to Strike Points
+        TITLE_GAME_MODE_NAME.text = GAME_MODES.GetGameTypeName(3)
+
+        activePanels["VICTORY_SCREEN"] = VICTORY_SCREEN_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["STATS_SCREEN"] = STATS_SCREEN_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["SCORE_BOARD"] = SCOREBOARD_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["NEWS_SCREEN"] = NEWS_BUTTON:GetCustomProperty("ACTIVE"):WaitForObject()
+        activePanels["VICTORY_SCREEN"].visibility = Visibility.FORCE_ON
+        
+        -- Connect button listeners
+        listeners[#listeners + 1] = VICTORY_SCREEN_BUTTON.clickedEvent:Connect(OnButtonPressed)
+        listeners[#listeners + 1] = SCOREBOARD_BUTTON.clickedEvent:Connect(OnButtonPressed)
+        listeners[#listeners + 1] = NEWS_BUTTON.clickedEvent:Connect(OnButtonPressed)
+
+        STATS_SCREEN_BUTTON.isInteractable = false
+
+        -- Cursor and Button setup
+        UI.SetCanCursorInteractWithUI(true)
+        UI.SetCursorVisible(true)
+        shouldShowTimer = true
+    end
 end
 
 Events.Connect("GameStateChanged", OnGameStateChanged)

@@ -8,6 +8,33 @@ Assets {
   }
 }
 Assets {
+  Id: 14400738210255419518
+  Name: "Sci-fi Parts 023"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Equip_Parts_023"
+  }
+}
+Assets {
+  Id: 14313942351760538822
+  Name: "Icon Player Mount"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerMount"
+  }
+}
+Assets {
+  Id: 13913059803195293947
+  Name: "Survival Money 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Money_001"
+  }
+}
+Assets {
   Id: 13412254246467982067
   Name: "Fantasy Ability Green 032"
   PlatformAssetType: 9

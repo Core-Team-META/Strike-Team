@@ -67,8 +67,12 @@ local function OnGameTypeChanged(object, string)
 end
 
 local function CleanUp(player)
-    if not Object.IsValid(player) then return end
-    if not listeners[player.id] then return end
+    if not Object.IsValid(player) then
+        return
+    end
+    if not listeners[player.id] then
+        return
+    end
     for _, listener in pairs(listeners[player.id]) do
         if listener.isConnected then
             listener:Disconnect()
@@ -117,6 +121,11 @@ function OnPlayerLeft(player)
             Events.Broadcast("TeamVictory", lastTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
+    elseif ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+        local players = Game.GetPlayers()
+        if #players <= 1 then
+            ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
+        end
     end
 end
 
@@ -127,6 +136,30 @@ function OnPlayerJoined(player)
     listeners[player.id]["diedEvent"] = player.diedEvent:Connect(OnPlayerDied)
     listeners[player.id]["damagedEvent"] = player.damagedEvent:Connect(OnPlayerDamaged)
     SetRespawnFlag(player)
+    Task.Wait()
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+        if not Object.IsValid(player) then
+            return
+        end
+
+        for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
+            if Object.IsValid(equipment) then
+                equipment:Destroy()
+            end
+        end
+        Events.Broadcast("EmptyBackpack", player )
+        player.movementControlMode = MovementControlMode.NONE
+        player.lookControlMode = LookControlMode.NONE
+        Task.Spawn(
+            function()
+                while ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END do
+                    Task.Wait()
+                end
+                player.movementControlMode = MovementControlMode.LOOK_RELATIVE
+                player.lookControlMode = LookControlMode.RELATIVE
+            end
+        )
+    end
 end
 
 -- nil Tick(float)
@@ -136,7 +169,7 @@ function Tick(deltaTime)
         return
     end
 
-    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND and currentGameTypeId > 0 then
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
         local winningTeam = nil
         for i = 0, 4 do
             if Game.GetTeamScore(i) >= GT_API.GetCurrentScoreLimit(currentGameTypeId) then

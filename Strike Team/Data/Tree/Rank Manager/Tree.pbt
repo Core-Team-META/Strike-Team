@@ -60,6 +60,12 @@ Objects {
         SelfId: 6136997686353458719
       }
     }
+    Overrides {
+      Name: "cs:RANK_PANEL"
+      ObjectReference {
+        SelfId: 4482462946224314045
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

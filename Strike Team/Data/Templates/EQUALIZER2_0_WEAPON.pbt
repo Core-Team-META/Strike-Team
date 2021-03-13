@@ -107,7 +107,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SprintingStance"
-            String: "2hand_sword_ready"
+            String: "1hand_pistol_stance"
           }
           Overrides {
             Name: "cs:WeaponType"
@@ -879,9 +879,9 @@ Assets {
           Overrides {
             Name: "bp:Size"
             Vector {
-              X: 0.4
-              Y: 0.4
-              Z: 0.4
+              X: 0.45
+              Y: 0.45
+              Z: 0.45
             }
           }
           Overrides {
@@ -896,8 +896,8 @@ Assets {
             Name: "bp:Ejection Velocity High"
             Vector {
               X: -200
-              Y: 200
-              Z: 200
+              Y: 500
+              Z: 500
             }
           }
         }

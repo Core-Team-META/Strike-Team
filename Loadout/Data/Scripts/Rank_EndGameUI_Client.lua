@@ -1,5 +1,5 @@
-local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
-local SCOREBOARD = script:GetCustomProperty("PlayerTitles_Scoreboard"):WaitForObject()
+--local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+--local SCOREBOARD = script:GetCustomProperty("PlayerTitles_Scoreboard"):WaitForObject()
 while not _G.PLAYER_RANKS do
     Task.Wait()
 end
@@ -20,14 +20,5 @@ local function ChangePlayerInsignia()
    local icon = World.SpawnAsset(RANKS.GetMediumRankIcon(LOCAL_PLAYER))
    icon.parent = INSIGNIA
 end
-
-function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
-    if newState == ABGS.GAME_STATE_ROUND_END then
-        ChangePlayerInsignia()
-    end
-    if newState == ABGS.GAME_STATE_LOBBY then
-        SCOREBOARD.context.ForceOff()
-    end
-end
-
-Events.Connect("GameStateChanged", OnGameStateChanged)
+Task.Wait(1)
+ChangePlayerInsignia()

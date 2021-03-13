@@ -25,7 +25,7 @@ Assets {
         Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -203,9 +203,9 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
         ParentId: 17731318846953981081
