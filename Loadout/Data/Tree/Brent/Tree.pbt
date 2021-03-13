@@ -153,6 +153,11 @@ Objects {
             SelfId: 6586882182140410260
           }
         }
+        Overrides {
+          Name: "cs:PlayerTitles_Scoreboard"
+          ObjectReference {
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -1578,21 +1583,9 @@ Objects {
   ParentId: 5747719008559987129
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Cash"
-      ObjectReference {
-        SelfId: 15227504664849783083
-      }
-    }
-    Overrides {
       Name: "cs:CurrentRank"
       ObjectReference {
         SelfId: 2393607358278278836
-      }
-    }
-    Overrides {
-      Name: "cs:StrikeCoin"
-      ObjectReference {
-        SelfId: 12276426223962762655
       }
     }
     Overrides {
