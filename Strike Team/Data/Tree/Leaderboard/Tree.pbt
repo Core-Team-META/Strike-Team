@@ -87,9 +87,7 @@ Objects {
   ParentId: 15270438536502603641
   ChildIds: 15236437261496160818
   ChildIds: 5832793112159791047
-  ChildIds: 11925557764016249377
-  ChildIds: 2773953104349879518
-  ChildIds: 8076482730215814445
+  ChildIds: 12267693596556160649
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -124,6 +122,55 @@ Objects {
   }
 }
 Objects {
+  Id: 12267693596556160649
+  Name: "Title Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8148767369087913423
+  ChildIds: 11925557764016249377
+  ChildIds: 2773953104349879518
+  ChildIds: 8076482730215814445
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    UIY: -355
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 8076482730215814445
   Name: "TITLE"
   Transform {
@@ -137,7 +184,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8148767369087913423
+  ParentId: 12267693596556160649
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -147,7 +194,6 @@ Objects {
   Control {
     Width: 500
     Height: 20
-    UIY: 169.253326
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -198,7 +244,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8148767369087913423
+  ParentId: 12267693596556160649
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -208,7 +254,6 @@ Objects {
   Control {
     Width: 500
     Height: 36
-    UIY: 169.253326
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -257,7 +302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8148767369087913423
+  ParentId: 12267693596556160649
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -267,7 +312,6 @@ Objects {
   Control {
     Width: 500
     Height: 36
-    UIY: 171.253326
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -276,7 +320,7 @@ Objects {
     Text {
       Label: "WEEKLY LEADERBOARDS"
       Color {
-        A: 0.373000026
+        A: 0.692000031
       }
       Size: 28
       Justification {
@@ -341,12 +385,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -659,7 +703,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 1.92085159
+    UIY: -2.44847083
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -684,12 +728,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -1533,7 +1577,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 1.92085159
+    UIY: -2.44847083
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1558,12 +1602,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -2407,7 +2451,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 1.92085159
+    UIY: -2.44847083
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2432,12 +2476,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -3281,7 +3325,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 1.92085159
+    UIY: -2.44847083
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3306,12 +3350,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -4155,7 +4199,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 1.92085159
+    UIY: -2.44847083
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4180,12 +4224,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
