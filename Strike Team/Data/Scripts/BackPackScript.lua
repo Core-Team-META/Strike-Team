@@ -75,10 +75,10 @@ function EquipWeapon(player, weapon)
         DeequipWeapon(player, Equipment)
     end
     local Weapon = MatchBackPack(player,weapon)
-    if(Weapon)then
+    if Object.IsValid(Weapon["Weapon"]) then
         Weapon["Weapon"]:Equip(player)
+        player.serverUserData.EquippedWeapon = weapon
     end
-    player.serverUserData.EquippedWeapon = weapon
 end
 
 function JoinedPlayer(player)
@@ -87,13 +87,10 @@ end
 
 function RemovePlayer(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
-        local weapon = Weapon["Weapon"]
-        if not Object.IsValid(weapon) then return end 
-        weapon:Unequip()    
-      
-        Task.Wait()  
-        if not Object.IsValid(weapon) then return end    
-        weapon:Destroy()
+        if Object.IsValid(Weapon["Weapon"]) then
+            Weapon["Weapon"]:Unequip()     
+            Weapon["Weapon"]:Destroy()
+        end
      
     end
 

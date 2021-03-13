@@ -4,10 +4,10 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11849674454856236106
+      RootId: 3949730406865326438
       Objects {
-        Id: 11849674454856236106
-        Name: "Proto Sniper Light Muzzle Flash"
+        Id: 3949730406865326438
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,36 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3949730406865326438
-        UnregisteredParameters {
-        }
-        Lifespan: 3
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3949730406865326438
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11849674454856236106
         ChildIds: 4830060901979893044
         ChildIds: 12996217071285140997
         ChildIds: 4814135690681172435
@@ -57,7 +27,7 @@ Assets {
         }
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"

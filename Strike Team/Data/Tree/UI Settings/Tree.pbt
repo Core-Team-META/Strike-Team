@@ -48,7 +48,7 @@ Objects {
     Overrides {
       Name: "cs:UITemplate"
       AssetReference {
-        Id: 9771893285123067376
+        Id: 3570930232410596823
       }
     }
   }

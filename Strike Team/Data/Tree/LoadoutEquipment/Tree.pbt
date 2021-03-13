@@ -245,8 +245,10 @@ Objects {
     }
   }
   ParentId: 5315121789455908725
+  ChildIds: 6571719761743313798
+  ChildIds: 8597785788024668323
   ChildIds: 12841471537971658920
-  ChildIds: 8414239213864268654
+  ChildIds: 18359739636550237132
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -274,33 +276,348 @@ Objects {
       }
       FontSize: 49
       ButtonColor {
-        R: 0.871367335
-        G: 0.278894424
-        B: 0.0122865
-        A: 1
+        R: 1
+        G: 0.317647278
+        B: 0.0117647052
       }
       HoveredColor {
-        R: 0.386429518
-        G: 0.122138798
-        B: 0.00518151606
-        A: 1
+        R: 1
+        G: 0.316070199
+        B: 0.0134087205
       }
       PressedColor {
         R: 1
-        G: 0.318546832
-        B: 0.0137020834
-        A: 1
+        G: 0.31854707
+        B: 0.0137020946
       }
       DisabledColor {
         R: 0.0440000035
         G: 0.0288962666
         B: 0.0201519988
-        A: 1
       }
       Brush {
         Id: 841534158063459245
       }
       IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 18359739636550237132
+  Name: "UI Panel"
+  Transform {
+    Location {
+      X: -681.355225
+      Y: -537.885742
+      Z: -374.529236
+    }
+    Rotation {
+      Yaw: -140.526154
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11807850982108079856
+  ChildIds: 8414239213864268654
+  ChildIds: 1713269661538307580
+  ChildIds: 5407609597066138171
+  ChildIds: 5198900877612089655
+  ChildIds: 11698484067807477947
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIY: 9.70875549
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11698484067807477947
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -48.5064697
+      Y: 48.5534897
+      Z: 34.374939
+    }
+    Rotation {
+      Yaw: -3.32084918
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18359739636550237132
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "QUIT TO LOADOUT"
+      Color {
+        R: 0.00972121768
+        G: 0.00972121768
+        B: 0.00972121768
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5198900877612089655
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -48.5064697
+      Y: 48.5534897
+      Z: 34.374939
+    }
+    Rotation {
+      Yaw: -3.32084918
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18359739636550237132
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIX: 1
+    UIY: 1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "QUIT TO LOADOUT"
+      Color {
+        R: 1
+        G: 0.472987294
+        A: 0.462
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5407609597066138171
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -48.5064697
+      Y: 48.5534897
+      Z: 34.374939
+    }
+    Rotation {
+      Yaw: -3.32084918
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18359739636550237132
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIX: -1
+    UIY: 1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "QUIT TO LOADOUT"
+      Color {
+        R: 1
+        G: 0.472987294
+        A: 0.462
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1713269661538307580
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -48.5064697
+      Y: 48.5534897
+      Z: 34.374939
+    }
+    Rotation {
+      Yaw: -3.32084918
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18359739636550237132
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    UIX: 1
+    UIY: -1
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "QUIT TO LOADOUT"
+      Color {
+        R: 1
+        G: 0.472987294
+        A: 0.462
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -334,7 +651,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11807850982108079856
+  ParentId: 18359739636550237132
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -342,21 +659,22 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 269
-    Height: 60
-    UIY: 18
+    UIX: -1
+    UIY: -1
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
     Text {
-      Label: "RETURN TO LOADOUT"
+      Label: "QUIT TO LOADOUT"
       Color {
-        R: 0.00972121768
-        G: 0.00972121768
-        B: 0.00972121768
-        A: 1
+        R: 1
+        G: 0.472987294
+        A: 0.462
       }
       Size: 15
       Justification {
@@ -441,6 +759,128 @@ Objects {
   Script {
     ScriptAsset {
       Id: 12287358722973676859
+    }
+  }
+}
+Objects {
+  Id: 8597785788024668323
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: -681.355225
+      Y: -537.885742
+      Z: -374.529236
+    }
+    Rotation {
+      Yaw: -140.526154
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11807850982108079856
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 2604353830693238371
+      }
+      Color {
+        R: 1
+        G: 0.680529833
+        B: 0.279999971
+        A: 0.290000021
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 6571719761743313798
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: -681.355164
+      Y: -537.885742
+      Z: -374.529175
+    }
+    Rotation {
+      Yaw: -140.526199
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11807850982108079856
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 841534158063459245
+      }
+      Color {
+        R: 1
+        G: 0.317647278
+        B: 0.0117647052
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
     }
   }
 }

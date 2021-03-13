@@ -18,7 +18,6 @@ local function FormatInt(number)
 end
 
 local function UpdateXpBar()
-    Task.Wait(5)
     local xp = playerXp:ReturnGainedXP()
     local totalLevelXP = playerXp:GetXPInCurrentLevel() + playerXp:GetXPUntilNextLevel()
     local currentInLevel = playerXp:GetXPInCurrentLevel()

@@ -17,7 +17,6 @@ Objects {
   ChildIds: 6278672628054296791
   ChildIds: 7367735074338159388
   ChildIds: 17257846423230686053
-  ChildIds: 2531340925404137440
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 12221334923749965969
@@ -36,6 +35,7 @@ Objects {
   ChildIds: 17512947565365309920
   ChildIds: 17277774771838165488
   ChildIds: 6820215483491735348
+  ChildIds: 12255050178053443099
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,6 +45,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12255050178053443099
+  Name: "Brent"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Brent"
   }
 }
 Objects {
@@ -31348,32 +31374,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2531340925404137440
-  Name: "Rank Manager"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16674151735511252933
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Rank Manager"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15930087830757616918
-    }
-  }
-}
-Objects {
   Id: 17257846423230686053
   Name: "Player Settings"
   Transform {
@@ -31479,6 +31479,7 @@ Objects {
           Value: "mc:echatmode:allonly"
         }
         ChatPosition {
+          X: 40
           Y: -83.7797852
         }
         ChatSize {
