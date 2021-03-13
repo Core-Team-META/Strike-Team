@@ -107,7 +107,7 @@ Assets {
           }
           Overrides {
             Name: "cs:WeaponType"
-            String: "LMG"
+            String: "Shotgun"
           }
           Overrides {
             Name: "cs:AimBinding:tooltip"
@@ -388,7 +388,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 40
+            Float: 46
           }
           Overrides {
             Name: "cs:BlendAmount"
@@ -396,7 +396,7 @@ Assets {
           }
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 46
           }
         }
         Collidable_v2 {

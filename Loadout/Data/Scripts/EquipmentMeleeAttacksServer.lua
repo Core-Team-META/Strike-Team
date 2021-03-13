@@ -68,7 +68,9 @@ end
 -- Detect players within hitbox to apply damage
 function MeleeAttack(player, abilityInfo)
     local ability = abilityInfo.ability
-
+	
+	if not Object.IsValid(ability.owner) then return end
+	
     -- Ignore if the hitbox is overlapping with the owner
     if player == ability.owner then
         return

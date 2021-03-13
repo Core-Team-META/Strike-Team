@@ -111,6 +111,32 @@ Assets {
   }
 }
 Assets {
+  Id: 16342389553274137747
+  Name: "st_loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 16254379236711114385
+  Name: "st_statkey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 16021887436431412755
   Name: "Girder Medium Angled"
   PlatformAssetType: 1
@@ -309,6 +335,19 @@ Assets {
   }
 }
 Assets {
+  Id: 10407390538368520766
+  Name: "st_lifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "02099a9ad11e4ae3b4443adf78c87879"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -333,6 +372,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
+  Id: 9436243151697350683
+  Name: "st_misc"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "c5fb03576a6c43939301da448ca2640e"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -500,19 +552,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6734148943009880357
-  Name: "ST_Misc"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "205fcba93ae84a0f85256d4eeef18847"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 6403825671868418028
   Name: "Military Tank Modern Armorplate 01"
   PlatformAssetType: 1
@@ -612,19 +651,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5660033252698723163
-  Name: "ST-Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "4340806d8ab648f88886e43bec9ba4a5"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 5525139013811408427
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -640,6 +666,19 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 5351629988790136251
+  Name: "st_storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
@@ -661,19 +700,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4357513882690818087
-  Name: "ST-LifetimeStats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "a8f360a302cb40bd8669684952aacd87"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 4297505030264945500
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
@@ -692,38 +718,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3614489688757336855
-  Name: "ST-StatKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "a1a35fac377245378734c5807fb5fafb"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 3570691589230629264
   Name: "Sci-fi Base Pillar 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_001_ref"
-  }
-}
-Assets {
-  Id: 3434096529513823129
-  Name: "ST-Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "2419bb1f04a442e092b0bd4b3f78745c"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
