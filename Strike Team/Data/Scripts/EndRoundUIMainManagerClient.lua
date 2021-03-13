@@ -33,6 +33,7 @@ local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 local statsWindow = script:GetCustomProperty("StatsWindow"):WaitForObject()
 
 local mainWindow = script:GetCustomProperty("MainWindow"):WaitForObject()
+local newsWindow = script:GetCustomProperty("NEWS_WINDOW"):WaitForObject()
 
 local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
 
@@ -608,6 +609,7 @@ function ToggleStatsScreen()
 	statsState = true
 	
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
+	newsWindow.visibility = Visibility.FORCE_OFF
 
 	statsWindow.visibility = Visibility.INHERIT
 
@@ -620,6 +622,7 @@ end
 function ToggleVictoryScreen()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
 	statsWindow.visibility = Visibility.FORCE_OFF
+	newsWindow.visibility = Visibility.FORCE_OFF
 	
 	if hasViewedStats and not skipAnimation then
 	
@@ -632,7 +635,7 @@ end
 function ToggleNewsScreen()
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
 	statsWindow.visibility = Visibility.FORCE_OFF
-	
+	newsWindow.visibility = Visibility.FORCE_ON
 	if hasViewedStats and not skipAnimation then
 	
 		skipAnimation = true
