@@ -63,7 +63,7 @@ function PrintReport()
 			.. ",\"roundDuration\":" .. tostring(roundDuration)
 			.. ",\"scoreA\":" .. tostring(scoreA)
 			.. ",\"scoreB\":" .. tostring(scoreB)
-			.. ",\"playerCountHistory\":\"" .. report.playerCountHistory .. "\""
+			.. ",\"playerCountHistory\":\"" .. tostring(report.playerCountHistory) .. "\""
 	
 	-- Players
 	str = str .. ",\"players\":["
@@ -77,7 +77,7 @@ function PrintReport()
 		end
 		
 		-- ID
-		str = str .. "\"id\":\"" .. playerId .. "\""
+		str = str .. "\"id\":\"" .. tostring(playerId) .. "\""
 		
 		-- Time
 		local relativeJoinTime = entry.joinTime - report.startTime
@@ -111,7 +111,7 @@ function PrintReport()
 			if weaponsWritten > 1 then
 				str = str .. ","
 			end
-			str = str .. "\"" .. weaponName .. "\":" .. tostring(weaponTime)
+			str = str .. "\"" .. tostring(weaponName) .. "\":" .. tostring(weaponTime)
 		end
 		str = str .. "}}"
 	end
