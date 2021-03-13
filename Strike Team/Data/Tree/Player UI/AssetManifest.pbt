@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14313942351760538822
+  Name: "Icon Player Mount"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerMount"
+  }
+}
+Assets {
   Id: 13412254246467982067
   Name: "Fantasy Ability Green 032"
   PlatformAssetType: 9

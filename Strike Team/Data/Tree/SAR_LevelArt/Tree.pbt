@@ -27407,6 +27407,7 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
+  ChildIds: 15202286052611128065
   ChildIds: 5996947000232597808
   ChildIds: 15843699505088062922
   Collidable_v2 {
@@ -27515,6 +27516,58 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15202286052611128065
+  Name: "Wedge"
+  Transform {
+    Location {
+      X: -443.172333
+      Y: 46.783783
+      Z: -85.3249359
+    }
+    Rotation {
+      Pitch: 5.32425499
+      Yaw: -91.09021
+      Roll: -32.5353394
+    }
+    Scale {
+      X: 2.39214516
+      Y: 0.612572372
+      Z: 0.248622701
+    }
+  }
+  ParentId: 11920318695666840171
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5390120376389660115
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2727467945905195560
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
     }
   }
@@ -27964,6 +28017,7 @@ Objects {
   ParentId: 16373807130785117515
   ChildIds: 1659443367399015645
   ChildIds: 11519866675881670695
+  ChildIds: 7693397534052829094
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27972,6 +28026,58 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 7693397534052829094
+  Name: "Wedge"
+  Transform {
+    Location {
+      X: 585.901
+      Y: 40.3786
+      Z: -16.92276
+    }
+    Rotation {
+      Pitch: 0.290645033
+      Yaw: 90.5742569
+      Roll: -5.98687744
+    }
+    Scale {
+      X: 1.98940051
+      Y: 0.330847889
+      Z: 0.248624802
+    }
+  }
+  ParentId: 16236483565241266054
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5390120376389660115
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2727467945905195560
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {

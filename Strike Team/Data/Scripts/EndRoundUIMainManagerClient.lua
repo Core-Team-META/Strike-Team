@@ -32,9 +32,8 @@ local cashTotalText = script:GetCustomProperty("CashTotal"):WaitForObject()
 
 local statsWindow = script:GetCustomProperty("StatsWindow"):WaitForObject()
 
-local returnToLoadout = script:GetCustomProperty("ReturnToLoadout"):WaitForObject()
-
 local mainWindow = script:GetCustomProperty("MainWindow"):WaitForObject()
+local newsWindow = script:GetCustomProperty("NEWS_WINDOW"):WaitForObject()
 
 local entireRoundEndUI = script:GetCustomProperty("EntireRoundEndUI"):WaitForObject()
 
@@ -47,7 +46,7 @@ local rollTextAnimationCompleteSFX = script:GetCustomProperty("RollTextAnimation
 local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
 local Gold_SFX = script:GetCustomProperty("Gold_SFX")
 
-local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
+--local backToLoadoutButton = script:GetCustomProperty("BackToLoadoutButton"):WaitForObject()
 
 local Rows = {}
 local GoldPercentBar = script:GetCustomProperty("GoldPercentBar"):WaitForObject()
@@ -116,8 +115,6 @@ local tickNumber = 1
 local tickList = tickGroup:GetChildren()
 
 local goldList = goldGroup:GetChildren()
-
-local defaultReturnButtonY = returnToLoadout.y
 
 function SetChildrenText(uiObj, _text) -- <-- generic children text function by AJ
 	if Object.IsValid(uiObj) and uiObj:IsA("UIText") then
@@ -521,9 +518,7 @@ function ShowEndRoundResults()
 	local Gold = localPlayer:GetResource("OldGold")
 	GoldAmount.text = string.format("%d/%d", Gold, 10)
 	GoldPercentBar.progress = Gold / 10
-
-	returnToLoadout.y = returnToLoadout.y + 2000
-		
+	
 	EaseUI.EaseY(mainWindow, -40, 1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
 		
 	AnimateWordText(playerNameText, localPlayer.name, true)
@@ -603,7 +598,7 @@ end
 
 function OnLeaveToLoadout(button)
 	ReliableEvents.BroadcastToServer("LEAVETOLOADOUT")
-	returnToLoadout.isInterractable = false
+	--returnToLoadout.isInterractable = false
 end
 
 
@@ -614,6 +609,7 @@ function ToggleStatsScreen()
 	statsState = true
 	
 	entireRoundEndUI.visibility = Visibility.FORCE_ON
+	newsWindow.visibility = Visibility.FORCE_OFF
 
 	statsWindow.visibility = Visibility.INHERIT
 
@@ -626,7 +622,20 @@ end
 function ToggleVictoryScreen()
 	entireRoundEndUI.visibility = Visibility.FORCE_OFF
 	statsWindow.visibility = Visibility.FORCE_OFF
+	newsWindow.visibility = Visibility.FORCE_OFF
 	
+	if hasViewedStats and not skipAnimation then
+	
+		skipAnimation = true
+		Events.Broadcast("SkipAnimation")
+		
+	end
+end
+
+function ToggleNewsScreen()
+	entireRoundEndUI.visibility = Visibility.FORCE_ON
+	statsWindow.visibility = Visibility.FORCE_OFF
+	newsWindow.visibility = Visibility.FORCE_ON
 	if hasViewedStats and not skipAnimation then
 	
 		skipAnimation = true
@@ -639,7 +648,7 @@ end
 ResetEndRoundResults()
 RecordCurrentXP()
 
-backToLoadoutButton.clickedEvent:Connect(OnLeaveToLoadout)
+--backToLoadoutButton.clickedEvent:Connect(OnLeaveToLoadout)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 
 --------------------------
@@ -648,3 +657,4 @@ Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("ShowStatsScreen", ToggleStatsScreen)
 Events.Connect("ShowVictoryScreen", ToggleVictoryScreen)
 Events.Connect("ShowScoreboardScreen", ToggleVictoryScreen)
+Events.Connect("ShowNewsScreen", ToggleNewsScreen)

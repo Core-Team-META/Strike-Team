@@ -160,6 +160,7 @@ Objects {
   ParentId: 18415335796963721514
   ChildIds: 5199441699910998654
   ChildIds: 8967390032511064187
+  ChildIds: 13130342614645722052
   ChildIds: 18022485974224380779
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -224,15 +225,77 @@ Objects {
     Text {
       Label: "You will be kicked in (10) Seconds"
       Color {
-        R: 0.88
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
-      Size: 35
+      Size: 25
       Justification {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13130342614645722052
+  Name: "TitleText"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4056933503570384974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 689
+    Height: 39
+    UIY: -10.6003275
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "(AFK)"
+      Color {
+        R: 0.97
+        A: 1
+      }
+      Size: 25
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -280,17 +343,18 @@ Objects {
       }
     }
     Text {
-      Label: "Your Are  AFK"
+      Label: "LACK OF SKILL DETECTED"
       Color {
-        R: 0.88
+        R: 0.97
         A: 1
       }
-      Size: 45
+      Size: 35
       Justification {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -340,7 +404,9 @@ Objects {
       Brush {
       }
       Color {
-        A: 0.681000054
+        G: 0.376262099
+        B: 0.467783839
+        A: 0.105882362
       }
       TeamSettings {
       }

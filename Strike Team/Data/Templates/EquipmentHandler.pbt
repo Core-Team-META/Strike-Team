@@ -1143,6 +1143,14 @@ Assets {
               Id: 7312934759837088579
             }
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2025,6 +2033,14 @@ Assets {
             AssetReference {
               Id: 4909284662784549606
             }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -2955,6 +2971,14 @@ Assets {
               Id: 8869995433973581610
             }
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3829,6 +3853,14 @@ Assets {
             AssetReference {
               Id: 16948279086718229286
             }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -4767,6 +4799,14 @@ Assets {
               Id: 638441753571348320
             }
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5649,6 +5689,14 @@ Assets {
             AssetReference {
               Id: 3938450675150512523
             }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
@@ -6744,6 +6792,14 @@ Assets {
               Id: 6311404238755074437
             }
           }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7613,6 +7669,14 @@ Assets {
             AssetReference {
               Id: 11736814423379836127
             }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
           }
         }
         Collidable_v2 {
