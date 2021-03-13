@@ -4,10 +4,10 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 17033298466445978272
+      RootId: 12391300809687005807
       Objects {
-        Id: 17033298466445978272
-        Name: "Proto Submachine Gun Muzzle Flash"
+        Id: 12391300809687005807
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,36 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 12391300809687005807
-        UnregisteredParameters {
-        }
-        Lifespan: 1
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12391300809687005807
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17033298466445978272
         ChildIds: 17616793892455375496
         ChildIds: 8199098515508596130
         ChildIds: 7361243837954488935
@@ -54,7 +24,7 @@ Assets {
         }
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
