@@ -4,10 +4,10 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9900840486956381809
+      RootId: 6260728294085416527
       Objects {
-        Id: 9900840486956381809
-        Name: "Pistol Muzzle Flash_Spectator"
+        Id: 6260728294085416527
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,41 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6260728294085416527
-        UnregisteredParameters {
-        }
-        Lifespan: 1
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6260728294085416527
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9900840486956381809
         ChildIds: 513984964040700192
         ChildIds: 4457873068539211086
         ChildIds: 15396767185053634363
         ChildIds: 6616628451817510529
-        ChildIds: 15432076852580929260
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -250,137 +219,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 15432076852580929260
-        Name: "Modern Weapon Ammo - Bullet 02 Casing"
-        Transform {
-          Location {
-            X: 18.0234375
-            Y: 4.04394531
-            Z: 8.23892212
-          }
-          Rotation {
-            Pitch: 51.8828354
-          }
-          Scale {
-            X: 0.822223842
-            Y: 0.822223842
-            Z: 0.822223842
-          }
-        }
-        ParentId: 6260728294085416527
-        ChildIds: 2196427177093697032
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 13425107253614129883
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 962099196015237473
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              IsEnabled: true
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2196427177093697032
-        Name: "EjectCasingClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15432076852580929260
-        ChildIds: 4850934747694636935
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:CasingSound"
-            ObjectReference {
-              SubObjectId: 4850934747694636935
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 5172357167881959486
-          }
-        }
-      }
-      Objects {
-        Id: 4850934747694636935
-        Name: "Bullet Shell Casing Drop Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2196427177093697032
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_bullet_shells_casings_drop_01:2"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 1566294819570033529
-          }
-          AudioBP {
-            Transient: true
-            Volume: 0.6
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
     }
     Assets {
       Id: 11252187294642675795
@@ -407,33 +245,6 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_smg_ref"
-      }
-    }
-    Assets {
-      Id: 962099196015237473
-      Name: "Modern Weapon Ammo - Bullet 02 Casing"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_ammo_bullet_case_002"
-      }
-    }
-    Assets {
-      Id: 13425107253614129883
-      Name: "Metal Gold 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_gold_001"
-      }
-    }
-    Assets {
-      Id: 1566294819570033529
-      Name: "Bullet Shell Casing Drop Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_bullet_shell_casings_drop_ref"
       }
     }
     PrimaryAssetId {

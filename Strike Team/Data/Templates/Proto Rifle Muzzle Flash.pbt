@@ -4,10 +4,10 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 17035684860207208329
+      RootId: 11736491869790306490
       Objects {
-        Id: 17035684860207208329
-        Name: "Proto Rifle Muzzle Flash"
+        Id: 11736491869790306490
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,36 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 11736491869790306490
-        UnregisteredParameters {
-        }
-        Lifespan: 1
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11736491869790306490
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17035684860207208329
         ChildIds: 9124873603230429680
         ChildIds: 7490835438398097832
         ChildIds: 18161609088861503931
