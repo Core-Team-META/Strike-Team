@@ -31479,6 +31479,7 @@ Objects {
           Value: "mc:echatmode:allonly"
         }
         ChatPosition {
+          X: 40
           Y: -83.7797852
         }
         ChatSize {
