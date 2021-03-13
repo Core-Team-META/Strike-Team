@@ -34,7 +34,7 @@ local function ChangePlayerInsignia()
     local icon = World.SpawnAsset(RANKS.GetMediumRankIcon(LOCAL_PLAYER))
     icon.parent = INSIGNIA
 
-    local iconSmall = World.SpawnAsset(RANKS.GetSmallRankIcon(LOCAL_PLAYER))
+    local iconSmall = World.SpawnAsset(RANKS.GetMediumRankIcon(LOCAL_PLAYER))
     iconSmall.parent = RANK_PANEL
 end
 
