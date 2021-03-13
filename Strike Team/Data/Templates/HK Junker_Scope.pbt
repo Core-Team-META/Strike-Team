@@ -824,8 +824,8 @@ Assets {
             Roll: -10.0249634
           }
           Scale {
-            X: 0.00415160181
-            Y: 0.00415160181
+            X: 0.001
+            Y: 0.001
             Z: 0.00166064082
           }
         }
@@ -840,7 +840,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15387941303173424625
+              Id: 5351428073291024820
             }
           }
         }
@@ -1310,6 +1310,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
+      Id: 5351428073291024820
+      Name: "Emissive Glow Opaque"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxma_opaque_emissive"
       }
     }
     Assets {

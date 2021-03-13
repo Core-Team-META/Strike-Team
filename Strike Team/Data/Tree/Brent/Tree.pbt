@@ -18,15 +18,15 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:GameId"
-      String: "d44cf9/strike-team-loadout"
+      String: "615d97/strike-team-loadout-test"
     }
     Overrides {
       Name: "cs:TimeUntilKick"
-      Int: 180
+      Int: 60
     }
     Overrides {
       Name: "cs:DisplayWarning"

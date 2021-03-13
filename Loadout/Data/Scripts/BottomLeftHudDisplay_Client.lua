@@ -66,4 +66,5 @@ Game.playerLeftEvent:Connect(
 ChangeCashText(LOCAL_PLAYER:GetResource("Cash"))
 ChangeLevelText(LOCAL_PLAYER:GetResource("Level"))
 ChangeStrikeCoinText(LOCAL_PLAYER:GetResource("StrikeCoins"))
+Task.Wait(1)
 UpdateXpBar()
