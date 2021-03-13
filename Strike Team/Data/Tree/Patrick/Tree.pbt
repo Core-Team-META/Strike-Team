@@ -1384,7 +1384,6 @@ Objects {
     Overrides {
       Name: "cs:BackToLoadoutButton"
       ObjectReference {
-        SelfId: 2945295935520822181
       }
     }
     Overrides {
