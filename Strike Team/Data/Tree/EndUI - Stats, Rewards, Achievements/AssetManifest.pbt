@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1641512795081380093
+  Name: "Oswald"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OswaldRegular_ref"
+  }
+}
+Assets {
   Id: 622433789355555801
   Name: "BG Flat 001"
   PlatformAssetType: 9

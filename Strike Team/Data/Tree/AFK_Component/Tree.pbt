@@ -343,7 +343,7 @@ Objects {
       }
     }
     Text {
-      Label: "LACK OF SKILL DETECTED"
+      Label: "YOU CAN\'T WIN WHILE"
       Color {
         R: 0.97
         A: 1
@@ -404,9 +404,9 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.376262099
-        B: 0.467783839
-        A: 0.105882362
+        G: 0.0377039127
+        B: 0.046875
+        A: 0.743000031
       }
       TeamSettings {
       }

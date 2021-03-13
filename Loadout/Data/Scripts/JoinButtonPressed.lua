@@ -1,12 +1,18 @@
 ﻿local Join_Match = script:GetCustomProperty("Join_Match"):WaitForObject()
-local TEXT_BOX = script:GetCustomProperty("TEXT_BOX"):WaitForObject()
+local TEXT_PANEL = script:GetCustomProperty("TEXT_PANEL"):WaitForObject()
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 local CLICK_SOUND = script:GetCustomProperty("CLICK_SOUND")
+local BUTTON_SHINE = script:GetCustomProperty("BUTTONSHINE"):WaitForObject()
+
 
 Join_Match.pressedEvent:Connect(function(player)
     World.SpawnAsset(CLICK_SOUND)
+    BUTTON_SHINE.visibility = Visibility.FORCE_OFF
     Events.Broadcast("JoinGame")
-    TEXT_BOX.text = "Joining..."
+    for _, v in pairs(TEXT_PANEL:GetChildren()) do
+        v:SetColor(Color.WHITE)
+        v.text = "JOINING..."
+    end
     Join_Match.isInteractable = false
 end)
 function Hover()

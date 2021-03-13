@@ -403,9 +403,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 453
           Height: 30
-          UIX: -9.10303688
+          UIX: 36.2740021
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -574,9 +574,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 453
           Height: 30
-          UIX: -9.10303688
+          UIX: 36.2740021
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -1033,9 +1033,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 431
           Height: 30
-          UIX: 9.103
+          UIX: -16.067131
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -1205,9 +1205,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 431
           Height: 30
-          UIX: 9.103
+          UIX: -16.067131
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -1327,7 +1327,7 @@ Assets {
         Control {
           Width: 2
           Height: 38
-          UIX: 201.973206
+          UIX: 199.848907
           UIY: 129.763641
           RotationAngle: 90
           RenderTransformPivot {
@@ -1385,7 +1385,7 @@ Assets {
         Control {
           Width: 2
           Height: 102
-          UIX: 201.973206
+          UIX: 201.174149
           UIY: 129.763641
           RenderTransformPivot {
             Anchor {
@@ -2236,8 +2236,6 @@ Assets {
         ChildIds: 5006432849749358634
         ChildIds: 11028060333101508882
         ChildIds: 9151595540383526494
-        ChildIds: 14687303237222565092
-        ChildIds: 494106817280649588
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2692,8 +2690,8 @@ Assets {
         }
         Control {
           Width: 2
-          Height: 200
-          UIX: 193.077698
+          Height: 201
+          UIX: 194.406357
           UIY: 48.8884506
           RotationAngle: 270
           RenderTransformPivot {
@@ -2810,121 +2808,6 @@ Assets {
           Height: 20
           UIX: 192.61705
           UIY: 47.7036743
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 1814707273787853473
-            }
-            Color {
-              G: 0.231655672
-              B: 0.330000043
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14687303237222565092
-        Name: "LINE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12082551938117897706
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 2
-          Height: 15
-          UIX: 157.149094
-          UIY: 64.3010712
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 1814707273787853473
-            }
-            Color {
-              G: 0.231655672
-              B: 0.330000043
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 494106817280649588
-        Name: "LINE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12082551938117897706
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 2
-          Height: 26
-          UIX: 157.609741
-          UIY: 63.1742287
-          RotationAngle: 270
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -3201,9 +3084,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 392
+          Width: 424
           Height: 30
-          UIX: -2.13584328
+          UIX: 14.208004
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -3373,9 +3256,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 424
           Height: 30
-          UIX: -9.10303688
+          UIX: 14.208004
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -3609,7 +3492,7 @@ Assets {
         Control {
           Width: 2
           Height: 11
-          UIX: 108.688148
+          UIX: 145.230743
           UIY: 68.2423325
           RotationAngle: 270
           RenderTransformPivot {
@@ -3667,7 +3550,7 @@ Assets {
         Control {
           Width: 2
           Height: 147
-          UIX: 110.101563
+          UIX: 146.644165
           UIY: 70.1316605
           RenderTransformPivot {
             Anchor {
@@ -3943,9 +3826,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 473
           Height: 30
-          UIX: 9.103
+          UIX: -41.9724541
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -4114,9 +3997,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 473
           Height: 30
-          UIX: 9.103
+          UIX: -41.9724541
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -4683,9 +4566,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 516
           Height: 30
-          UIX: 9.103
+          UIX: -64.5542
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -4854,9 +4737,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 516
           Height: 30
-          UIX: 9.103
+          UIX: -64.5542
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -5247,9 +5130,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 463
           Height: 30
-          UIX: 9.103
+          UIX: -34.5600281
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -5647,9 +5530,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 435
+          Width: 462
           Height: 30
-          UIX: 20.4479294
+          UIX: 31.0462208
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -5819,9 +5702,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 396
           Height: 30
-          UIX: -9.10303688
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -6842,9 +6724,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 429
           Height: 30
-          UIX: 9.103
+          UIX: -16.8573112
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -7309,7 +7191,7 @@ Assets {
         Control {
           Width: 2
           Height: 9
-          UIX: 343.264069
+          UIX: 345.753021
           UIY: 125.097641
           RenderTransformPivot {
             Anchor {
