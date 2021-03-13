@@ -1,8 +1,8 @@
-local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+--local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
-local CASH = script:GetCustomProperty("Cash"):WaitForObject()
+--local CASH = script:GetCustomProperty("Cash"):WaitForObject()
 local CURRENT_RANK = script:GetCustomProperty("CurrentRank"):WaitForObject()
-local STRIKE_COIN = script:GetCustomProperty("StrikeCoin"):WaitForObject()
+--local STRIKE_COIN = script:GetCustomProperty("StrikeCoin"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -54,6 +54,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
     end
 end
 
+
 local listener = LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Game.playerLeftEvent:Connect(
@@ -63,7 +64,8 @@ Game.playerLeftEvent:Connect(
         end
     end
 )
-ChangeCashText(LOCAL_PLAYER:GetResource("Cash"))
+--ChangeCashText(LOCAL_PLAYER:GetResource("Cash"))
 ChangeLevelText(LOCAL_PLAYER:GetResource("Level"))
-ChangeStrikeCoinText(LOCAL_PLAYER:GetResource("StrikeCoins"))
+--ChangeStrikeCoinText(LOCAL_PLAYER:GetResource("StrikeCoins"))
+Task.Wait(1)
 UpdateXpBar()

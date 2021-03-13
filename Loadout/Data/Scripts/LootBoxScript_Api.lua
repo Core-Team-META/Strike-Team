@@ -6,6 +6,7 @@ local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 
 local function SavePlayerCrateStorage(player, data)
     if _G["MiscKey"] and _G["MiscKey"].isAssigned then
+    print(data)
         Storage.SetSharedPlayerData(_G["MiscKey"], player, data)
     end
 end
@@ -66,7 +67,7 @@ if Environment.IsServer() then
 
     function LootBox.UpdateTime(player)
         local CountdownTimer = 60*60*8
-        local data = Storage.GetPlayerData(player)
+        local data = GetPlayerCrateStorage(player)
         local time = os.time(os.date("!*t"))
         data["Lootbox.LastOpen"] = time
         data["Lootbox.OpenTime"] = time + CountdownTimer
@@ -85,7 +86,6 @@ if Environment.IsServer() then
         -- Porting data from player storage to shared storage
         local data2 = GetPlayerCrateStorage(player)
         data2["Lootbox.CanOpen"] = player:GetResource("Lootbox.CanOpen")
-
         SavePlayerCrateStorage(player, data2)
     end
     

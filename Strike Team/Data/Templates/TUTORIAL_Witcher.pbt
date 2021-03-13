@@ -3201,9 +3201,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 392
           Height: 30
-          UIX: -9.10303688
+          UIX: -2.13584328
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -5647,9 +5647,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 435
           Height: 30
-          UIX: -9.10303688
+          UIX: 20.4479294
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {
@@ -6385,9 +6385,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 375
+          Width: 404
           Height: 30
-          UIX: -9.10303688
+          UIX: 7.29752922
           UIY: -9.67691
           RenderTransformPivot {
             Anchor {

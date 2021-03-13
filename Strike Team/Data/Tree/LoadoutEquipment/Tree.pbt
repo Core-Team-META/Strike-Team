@@ -1099,7 +1099,7 @@ Objects {
     Width: 200
     Height: 60
     UIX: -1.86513281
-    UIY: 11.6004028
+    UIY: 15.275877
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1121,7 +1121,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 841534158063459245
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -1353,7 +1353,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 9878439610815201128
+        Id: 15266094661921614944
       }
       Color {
         R: 1
@@ -1524,7 +1524,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 9878439610815201128
+        Id: 15266094661921614944
       }
       Color {
         R: 1
@@ -1700,7 +1700,7 @@ Objects {
   Control {
     Width: 200
     Height: 60
-    UIX: -59.1074867
+    UIX: -86.1381073
     UIY: 18.4181957
     RenderTransformPivot {
       Anchor {
@@ -1709,7 +1709,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Respawing in"
+      Label: "AUTO SPAWN IN"
       Color {
         R: 0.828000069
         G: 0.828000069
@@ -12422,8 +12422,6 @@ Objects {
   ChildIds: 3542376217071725424
   ChildIds: 10916459089424951020
   ChildIds: 4239331727047137780
-  ChildIds: 3986317862657881347
-  ChildIds: 5104808667903801302
   ChildIds: 10264553075246313664
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -12506,123 +12504,6 @@ Objects {
         G: 0.141263306
         B: 0.174647421
         A: 0.371000022
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 5104808667903801302
-  Name: "GRADIENT_TURQ_L"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 5.80565975e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17162306457679031153
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 74
-    Height: 200
-    UIX: -445.78479
-    UIY: -106.715958
-    RotationAngle: -90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 3827265796245897469
-      }
-      Color {
-        R: 0.0109600965
-        G: 0.141263306
-        B: 0.174647421
-        A: 0.371000022
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 3986317862657881347
-  Name: "GRADIENT_BLACK_L"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 3.75660384e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17162306457679031153
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 94
-    Height: 443
-    UIX: -445.78479
-    UIY: -28.5300293
-    RotationAngle: -90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 3827265796245897469
-      }
-      Color {
-        A: 1
       }
       TeamSettings {
       }
@@ -13402,7 +13283,7 @@ Objects {
   Control {
     Width: 200
     Height: 60
-    UIY: 11.6004028
+    UIY: 15.3526087
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -13424,7 +13305,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 841534158063459245
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -13656,7 +13537,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 9878439610815201128
+        Id: 15266094661921614944
       }
       Color {
         R: 1
@@ -13827,7 +13708,7 @@ Objects {
     }
     Image {
       Brush {
-        Id: 9878439610815201128
+        Id: 15266094661921614944
       }
       Color {
         R: 1
@@ -13934,7 +13815,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Respawn unlocked in ..."
+      Label: "YOU CAN RESPAWN IN ..."
       Color {
         R: 0.828000069
         G: 0.828000069

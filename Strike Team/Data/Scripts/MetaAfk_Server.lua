@@ -79,8 +79,6 @@ function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
         for _, player in ipairs(Game.GetPlayers()) do
             playersIdleTime[player.id].time = time() + AFK_TIME + ABGS.GetTimeRemainingInState()
             playersIdleTime[player.id].warning = false
-            warn("Player Time: " .. tostring(playersIdleTime[player.id].time))
-            warn("Time: " .. tostring(time()))
         end
     end
     if newState ~= ABGS.GAME_STATE_ROUND_END then
