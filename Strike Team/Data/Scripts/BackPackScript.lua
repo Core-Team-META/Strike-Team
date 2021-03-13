@@ -75,7 +75,7 @@ function EquipWeapon(player, weapon)
         DeequipWeapon(player, Equipment)
     end
     local Weapon = MatchBackPack(player,weapon)
-    if(Weapon)then
+    if Object.IsValid(Weapon["Weapon"]) then
         Weapon["Weapon"]:Equip(player)
     end
     player.serverUserData.EquippedWeapon = weapon
