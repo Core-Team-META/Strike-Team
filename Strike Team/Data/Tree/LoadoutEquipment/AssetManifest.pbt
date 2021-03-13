@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2604353830693238371
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
   Id: 2174001044181150947
   Name: "Center Arrow 005 Wedge"
   PlatformAssetType: 9

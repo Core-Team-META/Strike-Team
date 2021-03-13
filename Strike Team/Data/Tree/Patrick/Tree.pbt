@@ -1372,7 +1372,7 @@ Objects {
     Overrides {
       Name: "cs:ReturnToLoadout"
       ObjectReference {
-        SelfId: 11843789355136474232
+        SelfId: 841534158063459245
       }
     }
     Overrides {
