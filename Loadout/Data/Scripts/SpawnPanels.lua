@@ -156,7 +156,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d or %d Strike Coins", skin.rarity:GetCost(), skin.rarity:GetPremiumCost())
         else
             if item:GetLevel() > Game.GetLocalPlayer():GetResource("Level") then
-                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Level %d is required", item:GetLevel())
+                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Rank %d is required", item:GetLevel())
             else
                 newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d", item:GetCost() )
             end

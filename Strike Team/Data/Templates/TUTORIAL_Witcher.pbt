@@ -192,7 +192,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -820
+          UIX: 205.6875
           UIY: 10
           RenderTransformPivot {
             Anchor {
@@ -209,7 +209,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -820,7 +820,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 473.423096
+          UIX: -556.065918
           UIY: 285.014954
           RenderTransformPivot {
             Anchor {
@@ -837,7 +837,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -1621,7 +1621,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -445.929871
+          UIX: 588.124451
           UIY: -275.951019
           RenderTransformPivot {
             Anchor {
@@ -1638,7 +1638,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -1718,7 +1718,6 @@ Assets {
         ParentId: 12371478534396940678
         ChildIds: 11858051189905860340
         ChildIds: 778088176633672204
-        ChildIds: 7599185919831635728
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1873,67 +1872,6 @@ Assets {
         }
       }
       Objects {
-        Id: 7599185919831635728
-        Name: "YELLOW"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12660854709858441264
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 375
-          Height: 30
-          UIX: 256.094818
-          UIY: -9.67691
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "YELLOW"
-            Color {
-              R: 0.72
-              G: 0.514966905
-              A: 1
-            }
-            Size: 12
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 10855410782531724175
         Name: "ALLIES AND ENEMIES"
         Transform {
@@ -1950,8 +1888,6 @@ Assets {
         ParentId: 12371478534396940678
         ChildIds: 5202729778051882253
         ChildIds: 10373587193663290159
-        ChildIds: 12723081772327196965
-        ChildIds: 16880587540841849126
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2081,127 +2017,6 @@ Assets {
               R: 0.710000038
               G: 0.879006505
               B: 1
-              A: 1
-            }
-            Size: 12
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12723081772327196965
-        Name: "BLUE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10855410782531724175
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 375
-          Height: 30
-          UIX: 58.083828
-          UIY: -9.67691
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "BLUE"
-            Color {
-              G: 0.172450081
-              B: 0.840000033
-              A: 1
-            }
-            Size: 12
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16880587540841849126
-        Name: "RED"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10855410782531724175
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 375
-          Height: 30
-          UIX: 319.767151
-          UIY: -9.67691
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "RED"
-            Color {
-              R: 0.539999962
               A: 1
             }
             Size: 12
@@ -2700,8 +2515,6 @@ Assets {
         ParentId: 12082551938117897706
         ChildIds: 17104979046935990246
         ChildIds: 10440062466155579256
-        ChildIds: 16369917654244793729
-        ChildIds: 11933974380172677168
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2826,132 +2639,11 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR TEAM\'S PROGRESS IS BLUE. THE ENEMY TEAM\'S IS RED."
+            Label: "ENEMY PROGRESS IS RED. YOUR TEAM IS BLUE."
             Color {
               R: 0.710000038
               G: 0.879006505
               B: 1
-              A: 1
-            }
-            Size: 12
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16369917654244793729
-        Name: "BLUE"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6076905518732946646
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 375
-          Height: 30
-          UIX: 153.810364
-          UIY: -9.67691
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "BLUE"
-            Color {
-              G: 0.172450081
-              B: 0.840000033
-              A: 1
-            }
-            Size: 12
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 841534158063459245
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11933974380172677168
-        Name: "RED"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6076905518732946646
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 375
-          Height: 30
-          UIX: 317.176086
-          UIY: -9.67691
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "RED"
-            Color {
-              R: 0.539999962
               A: 1
             }
             Size: 12
@@ -4040,7 +3732,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 557.012939
+          UIX: -474.758179
           UIY: 202.693008
           RenderTransformPivot {
             Anchor {
@@ -4057,7 +3749,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -4780,7 +4472,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 657.854675
+          UIX: -378.24292
           UIY: 82.0213165
           RenderTransformPivot {
             Anchor {
@@ -4797,7 +4489,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -5001,7 +4693,7 @@ Assets {
             }
           }
           Text {
-            Label: "HOLD \"SHIFT\" WHILE MOVING TO SPRINT."
+            Label: "RUN FASTER WITH YOUR MELEE WEAPON EQUIPPED."
             Color {
               R: 0.710000038
               G: 0.879006505
@@ -5172,7 +4864,7 @@ Assets {
             }
           }
           Text {
-            Label: "RUN FASTER WITH YOUR MELEE WEAPON EQUIPPED."
+            Label: "DEAL EXTRA DAMAGE TO ENEMIES FACING AWAY FROM YOU."
             Color {
               R: 0.710000038
               G: 0.879006505
@@ -5345,7 +5037,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 739.378357
+          UIX: -287.829407
           UIY: -49.3295174
           RenderTransformPivot {
             Anchor {
@@ -5362,7 +5054,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
@@ -5742,8 +5434,8 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -449.448273
-          UIY: 321.961
+          UIX: 546.685669
+          UIY: 277.292664
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -5759,7 +5451,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -6191,7 +5883,7 @@ Assets {
         Control {
           Width: 2
           Height: 31
-          UIX: -245.867844
+          UIX: -361.852051
           UIY: 144.635345
           RotationAngle: 180
           RenderTransformPivot {
@@ -6483,8 +6175,8 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: -211.026276
-          UIY: 211.834488
+          UIX: -209.125793
+          UIY: 157.216339
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -6936,7 +6628,7 @@ Assets {
         Control {
           Width: 414
           Height: 38
-          UIX: 448.397095
+          UIX: -579.951172
           UIY: 354.366272
           RenderTransformPivot {
             Anchor {
@@ -6953,7 +6645,7 @@ Assets {
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:middleright"
               }
             }
           }
