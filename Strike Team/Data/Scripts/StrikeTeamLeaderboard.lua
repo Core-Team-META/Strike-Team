@@ -151,13 +151,14 @@ function GenerateLeaderboard()
 		if localPlayerIndex < 0 and rowsAdded == ROW_COUNT - 1 then
 			-- Case where player is at the bottom
 			-- Separator elipsis row at the bottom, before player
+			entryRank.text = ""
 			entryName.text = ". . ."
 			entryName:SetColor(NAME_COLOR_OTHER)
 			entryValue.text = ""
 		else
 			-- Rank
 			if rankNumber < 0 then
-				entryRank.text = tostring(#leaderboardData + 1) .. "+"
+				entryRank.text = tostring(#leaderboardData) .. "+"
 			else
 				entryRank.text = tostring(i) .. "."
 			end
@@ -175,7 +176,7 @@ function GenerateLeaderboard()
 			-- Score
 			local score = averageScores[entry]
 			if RESOURCE_TO_TRACK == "Objective" then
-	            entryValue.text = string.format("%0.2f", math.ceil(score / 5))
+	            entryValue.text = string.format("%0.2f", score / 5)
 			else
 				entryValue.text = string.format("%0.2f", score)
 			end
