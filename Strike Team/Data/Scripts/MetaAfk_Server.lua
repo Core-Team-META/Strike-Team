@@ -91,7 +91,9 @@ function Tick(dt)
     if shouldUpdate then
         for _, player in ipairs(Game.GetPlayers()) do
             if playersIdleTime[player.id].time <= time() then
-                player:TransferToGame(GAME_TRANSFER)
+                --player:TransferToGame(GAME_TRANSFER)
+                local gameId = _G["LoadoutGameId"]
+                player:TransferToGame(gameId)
             elseif
                 SHOULD_DISPLAY_WARNING and (playersIdleTime[player.id].time - AFK_WARNING_TIME) <= time() and
                     not playersIdleTime[player.id].warning

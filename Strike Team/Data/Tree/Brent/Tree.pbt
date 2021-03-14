@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:GameId"
-      String: "615d97/strike-team-loadout-test"
+      String: ""
     }
     Overrides {
       Name: "cs:TimeUntilKick"

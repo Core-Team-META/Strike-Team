@@ -79,7 +79,9 @@ function ReturnToLoadout(player)
 
 	while Object.IsValid(player) do
 	
-		player:TransferToGame(loadoutLink)
+		--player:TransferToGame(loadoutLink)
+		local gameId = _G["LoadoutGameId"]
+		player:TransferToGame(gameId)
 		
 		Task.Wait()
 		
