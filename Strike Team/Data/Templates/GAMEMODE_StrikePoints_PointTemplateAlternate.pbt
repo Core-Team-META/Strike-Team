@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10477958480793043052
         ChildIds: 14721333722550657248
         ChildIds: 11052414084840757895
         ChildIds: 10007280648470417142
@@ -14563,6 +14563,10 @@ Assets {
         ChildIds: 9009043476384977395
         ChildIds: 7980816588149681631
         ChildIds: 13419083643513424648
+        ChildIds: 6150154496451981420
+        ChildIds: 9917911282782869111
+        ChildIds: 6259087120726710406
+        ChildIds: 10469963423329051225
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -15533,9 +15537,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.822
-              G: 0.433515191
-              B: 0.0501419455
+              R: 0.97
+              G: 0.308344394
               A: 1
             }
           }
@@ -15589,7 +15592,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 704483541081345999
             }
           }
           Overrides {
@@ -15599,6 +15602,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -15611,7 +15617,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12235551212621628069
+            Id: 11692130059731908639
           }
           Teams {
           }
@@ -15646,7 +15652,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 704483541081345999
             }
           }
           Overrides {
@@ -15656,6 +15662,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -15668,7 +15677,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12235551212621628069
+            Id: 11692130059731908639
           }
           Teams {
           }
@@ -15713,8 +15722,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 0.458013237
-              B: 0.0699999928
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -15728,6 +15737,246 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 2810379255825890868
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6150154496451981420
+        Name: "eye"
+        Transform {
+          Location {
+            X: 26.2426834
+            Y: 14.0279102
+            Z: 57.7367744
+          }
+          Rotation {
+            Pitch: -26.6117554
+            Yaw: 7.2824776e-05
+            Roll: -3.05175781e-05
+          }
+          Scale {
+            X: 0.0506350622
+            Y: 0.0506350622
+            Z: 0.0506350622
+          }
+        }
+        ParentId: 5694774540334379045
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 704483541081345999
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11692130059731908639
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9917911282782869111
+        Name: "eye"
+        Transform {
+          Location {
+            X: 25.9581261
+            Y: -12.7083721
+            Z: 57.7371407
+          }
+          Rotation {
+            Pitch: -26.6117554
+            Yaw: 7.2824776e-05
+            Roll: -3.05175781e-05
+          }
+          Scale {
+            X: 0.0506350622
+            Y: 0.0506350622
+            Z: 0.0506350622
+          }
+        }
+        ParentId: 5694774540334379045
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 704483541081345999
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11692130059731908639
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6259087120726710406
+        Name: "eye"
+        Transform {
+          Location {
+            X: 30.360508
+            Y: -7.29786396
+            Z: 61.6125145
+          }
+          Rotation {
+            Pitch: -9.87496948
+            Yaw: 14.8470354
+            Roll: -66.3734131
+          }
+          Scale {
+            X: 0.0225469675
+            Y: 0.0503673367
+            Z: 0.0225466024
+          }
+        }
+        ParentId: 5694774540334379045
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 704483541081345999
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 8617818292148704575
+          }
+          Teams {
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10469963423329051225
+        Name: "eye"
+        Transform {
+          Location {
+            X: 29.9082165
+            Y: 5.91826248
+            Z: 61.1243515
+          }
+          Rotation {
+            Pitch: -6.20700073
+            Yaw: -16.6830139
+            Roll: 60.8866234
+          }
+          Scale {
+            X: 0.0225469675
+            Y: 0.0503673367
+            Z: 0.0225466024
+          }
+        }
+        ParentId: 5694774540334379045
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 704483541081345999
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 8617818292148704575
           }
           Teams {
           }
@@ -17784,21 +18033,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12235551212621628069
-      Name: "Dodecahedron"
+      Id: 11692130059731908639
+      Name: "Sphere"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_dodecahedron_001"
-      }
-    }
-    Assets {
-      Id: 1778446291070997431
-      Name: "Plastic Shiny"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "plastic_shiny_001"
+        AssetId: "sm_sphere_002"
       }
     }
     Assets {
@@ -17808,6 +18048,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_gem_heart_polished_001"
+      }
+    }
+    Assets {
+      Id: 8617818292148704575
+      Name: "Craftsman Stairs 01 Pillar"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
       }
     }
     Assets {

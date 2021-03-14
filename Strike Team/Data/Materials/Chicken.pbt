@@ -9,27 +9,27 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.697
-          G: 0.475714058
-          B: 0.341530025
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
       Overrides {
         Name: "color_secondary"
         Color {
-          R: 0.467
-          G: 0.213916987
-          B: 0.106476024
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
       Overrides {
         Name: "gradient_color"
         Color {
-          R: 0.478000015
-          G: 0.195263013
-          B: 0.0430199876
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
