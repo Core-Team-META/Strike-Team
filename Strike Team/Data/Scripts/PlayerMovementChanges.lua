@@ -1,3 +1,6 @@
+
+warning("DEPRECATED?")
+
 local RUN_SPEED = script:GetCustomProperty("RunSpeed")
 local SPRINT_SPEED = script:GetCustomProperty("SprintSpeed")
 local SCOPE_SPEED = script:GetCustomProperty("ScopeSpeed")

@@ -68,7 +68,7 @@ function OnBindingPressed(player, key)
         return
     end
     if key == "ability_feet" then -- Shift
-        player.serverUserData.playerStatus["ShiftDown"] = true
+        --player.serverUserData.playerStatus["ShiftDown"] = true
         UpdatePlayerSprinting(player)
     elseif key == "ability_primary" then -- Left Click
         player.serverUserData.playerStatus["LMBDown"] = true
@@ -84,7 +84,7 @@ function OnBindingReleased(player, key)
         return
     end
     if key == "ability_feet" then -- Shift
-        player.serverUserData.playerStatus["ShiftDown"] = false
+        --player.serverUserData.playerStatus["ShiftDown"] = false
         UpdatePlayerSprinting(player)
     elseif key == "ability_primary" then -- Left Click
         player.serverUserData.playerStatus["LMBDown"] = false
@@ -95,12 +95,16 @@ function OnBindingReleased(player, key)
     end
 end
 
+function IsShiftDown(player)
+	return player:IsBindingPressed("ability_feet")
+end
+
 function UpdatePlayerSprinting(player)
     if _G["MovementCanControl"] == false then
         return
     end
 
-    if player.serverUserData.playerStatus["ShiftDown"] then
+    if IsShiftDown(player) then
         if not player.serverUserData.playerStatus["Aiming"] and not player.serverUserData.playerStatus["Sliding"] then
             player.serverUserData.playerStatus["Sprinting"] = true
             player.maxWalkSpeed = AddSprintBoost(player)
