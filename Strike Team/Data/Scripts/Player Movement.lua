@@ -253,8 +253,9 @@ function OnEquipWeapon(owner, weapon)
     playerStances[owner]["Sprinting"] = sprintingStance or "2hand_rifle_stance"
     playerStances[owner]["Aiming"] = aimingStance or "2hand_rifle_aim_shoulder"
 
-    Task.Wait()
-    if not Object.IsValid(owner) then
+    Task.Wait(0.11)
+    if not Object.IsValid(owner) or not Object.IsValid(weapon)
+    or weapon ~= owner.serverUserData.EquippedWeapon then
         return
     end
 
