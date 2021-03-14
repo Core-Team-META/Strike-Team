@@ -176,7 +176,7 @@ function GenerateLeaderboard()
 			-- Score
 			local score = averageScores[entry]
 			if RESOURCE_TO_TRACK == "Objective" then
-	            entryValue.text = string.format("%0.2f", math.ceil(score / 5))
+	            entryValue.text = string.format("%0.2f", score / 5)
 			else
 				entryValue.text = string.format("%0.2f", score)
 			end
