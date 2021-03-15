@@ -1608,13 +1608,10 @@ Objects {
       Z: 736.449646
     }
     Rotation {
-      Pitch: -19.2224674
-      Yaw: -49.6607628
-      Roll: -45.4526176
     }
     Scale {
       X: 5.92644024
-      Y: 3.60739946
+      Y: 1.90685332
       Z: 5.41109657
     }
   }
@@ -1675,10 +1672,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "bp:Align with Sun"
-      Bool: true
-    }
-    Overrides {
       Name: "bp:Camera Depth Fade Distance"
       Float: 2.59456587
     }
@@ -1689,6 +1682,10 @@ Objects {
     Overrides {
       Name: "bp:Color Offset B"
       Float: 0.454808474
+    }
+    Overrides {
+      Name: "bp:Align with Sun"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -1706,7 +1703,7 @@ Objects {
     Vfx {
       AutoPlay: true
       Relevance {
-        Value: "mc:evfxrelevance:medium"
+        Value: "mc:evfxrelevance:high"
       }
     }
   }
