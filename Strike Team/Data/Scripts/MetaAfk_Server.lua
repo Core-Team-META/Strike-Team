@@ -18,7 +18,7 @@ local SHOULD_DISPLAY_WARNING = AFK_SETTINGS:GetCustomProperty("DisplayWarning")
 if not ENABLE_AFK then
     return
 end
-local GAME_TRANSFER = AFK_SETTINGS:GetCustomProperty("GameId") or "b983bc/core-plaza"
+local GAME_TRANSFER = AFK_SETTINGS:GetCustomProperty("GameId") or "d44cf9/strike-team-loadout"
 local AFK_TIME = AFK_SETTINGS:GetCustomProperty("TimeUntilKick") or 180
 local AFK_WARNING_TIME = AFK_SETTINGS:GetCustomProperty("AfkWarningTime") or 30
 local AFK_TICK_TIME = AFK_SETTINGS:GetCustomProperty("TimePerTick") or 1
