@@ -14820,7 +14820,7 @@ Assets {
       }
       Objects {
         Id: 11522806283404821684
-        Name: "$500"
+        Name: "$1500"
         Transform {
           Location {
           }
@@ -14879,7 +14879,7 @@ Assets {
       }
       Objects {
         Id: 92314205325438637
-        Name: "$1000"
+        Name: "$5000"
         Transform {
           Location {
           }
@@ -14938,7 +14938,7 @@ Assets {
       }
       Objects {
         Id: 8483789499645505697
-        Name: "$2500"
+        Name: "$15000"
         Transform {
           Location {
           }
