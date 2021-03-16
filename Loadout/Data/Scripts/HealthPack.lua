@@ -2,6 +2,7 @@ local Trigger = script.parent
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local HealAmount = script:GetCustomProperty("HealAmount")
 local DestroyOnPickUp = script:GetCustomProperty("DestroyOnPickUp")
+local HealSound = script:GetCustomProperty("HealSound")
 
 function PickUp()
     Root:Destroy()
@@ -11,10 +12,14 @@ function HealPlayer(player)
     player:ApplyDamage(Damage.New(-HealAmount))
 end
 
+function PlaySound()
+    World.SpawnAsset(HealSound,{position = script.parent:GetWorldPosition()})
+end
 
 function CheckPlayer(player)
-    if player.team == Root:GetCustomProperty("Team") then
+    if player.team == Root:GetCustomProperty("Team") and player.hitPoints < player.maxHitPoints then
         HealPlayer(player)
+        PlaySound()
         if DestroyOnPickUp then
             PickUp()
         end
