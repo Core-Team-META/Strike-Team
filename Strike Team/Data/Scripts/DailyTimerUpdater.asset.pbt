@@ -1,13 +1,13 @@
 Assets {
-  Id: 12993513268349947204
-  Name: "GoldProgress"
+  Id: 8224936136170523720
+  Name: "DailyTimerUpdater"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:NextCreatePercentage"
+        Name: "cs:DailyTimer"
         ObjectReference {
-          SelfId: 7471738672941200267
+          SelfId: 17955207837547032666
         }
       }
     }

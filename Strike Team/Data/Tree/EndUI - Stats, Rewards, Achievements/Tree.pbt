@@ -2567,6 +2567,7 @@ Objects {
   ChildIds: 17651137787856869016
   ChildIds: 7658830488535506684
   ChildIds: 7762177589840785660
+  ChildIds: 3678529828686634293
   ChildIds: 16779063350627383903
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3532,6 +3533,224 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 3678529828686634293
+  Name: "Claim"
+  Transform {
+    Location {
+      X: -12.1008263
+      Y: -79.4401855
+      Z: 72.1145477
+    }
+    Rotation {
+      Yaw: -24.7430267
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5186537375737975212
+  ChildIds: 4339806521705234565
+  ChildIds: 14620142697164585215
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 211
+    Height: 26
+    UIX: 24.1401367
+    UIY: 126.225342
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.871367335
+        G: 0.278894424
+        B: 0.0122865
+        A: 1
+      }
+      HoveredColor {
+        R: 0.871367335
+        G: 0.332318395
+        B: 0.0897508264
+        A: 1
+      }
+      PressedColor {
+        R: 0.631000042
+        G: 0.20196119
+        B: 0.00889726076
+        A: 1
+      }
+      DisabledColor {
+        R: 0.225000009
+        G: 0.225000009
+        B: 0.225000009
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12017567185633983597
+    SubobjectId: 17843437637787855038
+    InstanceId: 14426319141699216976
+    TemplateId: 1526186610335564444
+  }
+}
+Objects {
+  Id: 14620142697164585215
+  Name: "ClaimButton"
+  Transform {
+    Location {
+      X: 193.508514
+      Y: 196.947235
+      Z: -1214.71887
+    }
+    Rotation {
+      Yaw: -146.429214
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3678529828686634293
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Claim"
+      ObjectReference {
+        SelfId: 3678529828686634293
+      }
+    }
+    Overrides {
+      Name: "cs:HOVER_SOUND"
+      AssetReference {
+        Id: 13564860908462472063
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10111245461003075629
+    }
+  }
+}
+Objects {
+  Id: 4339806521705234565
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -119.550079
+      Y: -135.04071
+      Z: -33.2134094
+    }
+    Rotation {
+      Yaw: 41.9988823
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3678529828686634293
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 23
+    UIY: -2.5215466
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "CLAIM CRATE"
+      Color {
+        A: 1
+      }
+      Size: 17
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5971427796391088867
+    SubobjectId: 268144092229944880
+    InstanceId: 14426319141699216976
+    TemplateId: 1526186610335564444
   }
 }
 Objects {

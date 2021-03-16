@@ -1,13 +1,13 @@
 Assets {
-  Id: 12993513268349947204
-  Name: "GoldProgress"
+  Id: 5592295963361509372
+  Name: "HideAndShowPanel"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:NextCreatePercentage"
+        Name: "cs:UIChampionCrate"
         ObjectReference {
-          SelfId: 7471738672941200267
+          SelfId: 9866171089931711129
         }
       }
     }

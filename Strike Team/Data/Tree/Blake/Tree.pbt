@@ -582,6 +582,73 @@ Objects {
   }
 }
 Objects {
+  Id: 10410376947064173486
+  Name: "LootBoxUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LootBoxUI"
+  }
+}
+Objects {
+  Id: 5617173817285069347
+  Name: "LootBox"
+  Transform {
+    Location {
+      Y: 2672.61377
+      Z: -3971.25049
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LootBox"
+  }
+  InstanceHistory {
+    SelfId: 11909944240055752873
+    SubobjectId: 435484125338290023
+    InstanceId: 9162538045503945134
+    TemplateId: 11001523082904345942
+    WasRoot: true
+  }
+}
+Objects {
   Id: 15952907263910400118
   Name: "XPLevels"
   Transform {

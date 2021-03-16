@@ -66,6 +66,14 @@ local function ClearActivePanels()
     end
 end
 
+function ShowPlayerPanels( Show )
+    PLAYER_PANELS.visibility = Visibility.FORCE_OFF
+    
+    if Show then 
+        PLAYER_PANELS.visibility = Visibility.FORCE_ON
+    end
+end
+
 function OnButtonPressed(button)
     ClearActivePanels()
     if button == VICTORY_SCREEN_BUTTON then
@@ -208,3 +216,4 @@ if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
 end
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
+Events.Connect("ShowPlayerPanels", ShowPlayerPanels)
