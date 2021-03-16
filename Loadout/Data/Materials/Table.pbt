@@ -2,7 +2,7 @@ Assets {
   Id: 2278902287318737937
   Name: "Table"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 14582790818618070150
     ParameterOverrides {
