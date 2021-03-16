@@ -26,6 +26,7 @@ local currentGameTypeId
 local scoreLimit
 local roundStartTime = nil
 local listeners = {}
+local joinedTimes = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -79,6 +80,14 @@ local function CleanUp(player)
         end
     end
     listeners[player.id] = nil
+end
+
+local function SetGameTimePlayed(matchTime)
+    for _, player in ipairs(Game.GetPlayers()) do
+        if joinedTimes[player] >= time() - matchTime / 2 then
+            player.serverUserData.playedHalfRound = true
+        end
+    end
 end
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -135,6 +144,7 @@ function OnPlayerJoined(player)
     listeners[player.id] = {}
     listeners[player.id]["diedEvent"] = player.diedEvent:Connect(OnPlayerDied)
     listeners[player.id]["damagedEvent"] = player.damagedEvent:Connect(OnPlayerDamaged)
+    joinedTimes[player] = time()
     SetRespawnFlag(player)
     Task.Wait()
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
@@ -147,7 +157,7 @@ function OnPlayerJoined(player)
                 equipment:Destroy()
             end
         end
-        Events.Broadcast("EmptyBackpack", player )
+        Events.Broadcast("EmptyBackpack", player)
         player.movementControlMode = MovementControlMode.NONE
         player.lookControlMode = LookControlMode.NONE
         Task.Spawn(
@@ -201,6 +211,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
             roundStartTime = 0
         end
         SetRoundDuration(time() - roundStartTime)
+        SetGameTimePlayed(roundStartTime)
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
         local currentState = GetCurrentGameId()
