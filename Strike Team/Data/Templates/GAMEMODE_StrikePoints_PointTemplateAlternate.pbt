@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10477958480793043052
+        ParentId: 4781671109827199097
         ChildIds: 14721333722550657248
         ChildIds: 11052414084840757895
         ChildIds: 10007280648470417142
@@ -728,6 +728,7 @@ Assets {
         ChildIds: 13925742593928447225
         ChildIds: 7146780488147448480
         ChildIds: 11791059512147408375
+        ChildIds: 15264577953522311805
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -18145,6 +18146,79 @@ Assets {
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 15264577953522311805
+        Name: "Support Point Border"
+        Transform {
+          Location {
+            X: -2925.97119
+            Y: 2447.6416
+            Z: 385.963928
+          }
+          Rotation {
+          }
+          Scale {
+            X: 7.94817
+            Y: 7.94817
+            Z: 3.16740012
+          }
+        }
+        ParentId: 7927740488716824813
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0.003
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Stroke Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+            }
+          }
+          Overrides {
+            Name: "bp:Slice Size"
+            Float: 360
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12704764869057814971
+          }
+          TeamSettings {
+            UseTeamColor: true
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
     }
