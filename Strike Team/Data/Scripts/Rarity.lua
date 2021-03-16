@@ -32,6 +32,7 @@ end
 
 function Rarity:GetSortValue()
     return self.sortvalue
+    
 end
 
 return Rarity

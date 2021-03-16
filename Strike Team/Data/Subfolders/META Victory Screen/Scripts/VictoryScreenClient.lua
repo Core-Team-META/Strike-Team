@@ -220,6 +220,24 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 	end
 end
 
+
+function ForceCamera()
+	if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+		LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
+		LocalPlayer:SetOverrideCamera(OverrideCamera)
+		LocalPlayer.lookSensitivity = 0
+
+		if not UpdateUITask then
+			UpdateUITask = Task.Spawn(UpdateUI)
+			UpdateUITask.repeatCount = -1
+			UpdateUITask.repeatInterval = 0.1
+		end
+
+		Task.Wait(.1)
+		Events.Broadcast("HideUI")
+	end
+end
+ForceCamera()
 ------------------------------------------------------------------------------------------------------------------------
 --	INITIALIZATION
 ------------------------------------------------------------------------------------------------------------------------
@@ -231,18 +249,4 @@ WINNER_SORT_TYPE = GetProperty(WINNER_SORT_TYPE, WINNER_SORT_TYPES)
 --Events.Connect("SendToVictoryScreen", SendToVictoryScreen)
 Game.roundEndEvent:Connect(SendToVictoryScreen)
 Events.Connect("GameStateChanged", OnGameStateChanged)
-
-if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
-	LocalPlayer:SetLookWorldRotation(OverrideCamera:GetWorldRotation())
-	LocalPlayer:SetOverrideCamera(OverrideCamera)
-	LocalPlayer.lookSensitivity = 0
-
-	if not UpdateUITask then
-		UpdateUITask = Task.Spawn(UpdateUI)
-		UpdateUITask.repeatCount = -1
-		UpdateUITask.repeatInterval = 0.1
-	end
-
-	Task.Wait(.1)
-	Events.Broadcast("HideUI")
-end
+Events.Connect("VictoryUI.ForceCamera",ForceCamera)

@@ -17,6 +17,12 @@ Assets {
         Name: "cs:DestroyOnPickUp"
         Bool: true
       }
+      Overrides {
+        Name: "cs:HealSound"
+        AssetReference {
+          Id: 53953853604014350
+        }
+      }
     }
   }
   SerializationVersion: 78

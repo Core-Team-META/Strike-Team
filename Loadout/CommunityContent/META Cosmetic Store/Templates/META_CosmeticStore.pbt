@@ -5654,6 +5654,8 @@ Assets {
               Id: 1814707273787853473
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6138,6 +6140,8 @@ Assets {
               Id: 16020038083592938182
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -6574,6 +6578,8 @@ Assets {
               Id: 9933879321394361768
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7423,6 +7429,8 @@ Assets {
               Id: 1814707273787853473
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

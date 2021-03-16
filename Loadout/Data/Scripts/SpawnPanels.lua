@@ -18,6 +18,8 @@ local Data
 while not LOCAL_PLAYER.clientUserData.Storage do Task.Wait() end
 local Storage =  LOCAL_PLAYER.clientUserData.Storage
 local StarsUI = script:GetCustomProperty("Stars")
+local EventUI = script:GetCustomProperty("EventIcon")
+
 local SpawnPanelSFX = script:GetCustomProperty("SpawnPanelSFX"):WaitForObject()
 
 local DEFAULT_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("DEFAULT_EQUIP_SOUND")
@@ -95,6 +97,7 @@ function ReturRarityColour( rarity )
     local Rarity_Rare = script:GetCustomProperty("Rarity_Rare")
     local Rarity_Common = script:GetCustomProperty("Rarity_Common")
     local Rarity_None = script:GetCustomProperty("Rarity_None")
+    local Rarity_Event = script:GetCustomProperty("Rarity_Event")
 
     local VALUETABLE = {
         ["None"] = Rarity_None,
@@ -102,6 +105,7 @@ function ReturRarityColour( rarity )
         ["Rare"] = Rarity_Rare,
         ["Epic"] = Rarity_Epic,
         ["Legendary"] = Rarity_Legendary,
+        ["Event"] = Rarity_Event,
     }
     return VALUETABLE[rarity.name] or Color.WHITE
 end
@@ -259,14 +263,14 @@ function SkinSort(id,a,b)
     if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
     if Storage:HasSkin(id,a.id) == false and Storage:HasSkin(id,b.id) == true then return false end
     
-    if Database.ReturnSkinRarity(a) == Database.ReturnSkinRarity(b) then
+    if Database.ReturnSkinSort(a) == Database.ReturnSkinSort(b) then
         if a.name == b.name then return false end
         return a.name <= b.name 
     else 
         if Storage:HasSkin(id,a.id) then
-            return Database.ReturnSkinRarity(a) >= Database.ReturnSkinRarity(b) 
+            return Database.ReturnSkinSort(a) >= Database.ReturnSkinSort(b) 
         else
-            return Database.ReturnSkinRarity(a) <= Database.ReturnSkinRarity(b) 
+            return Database.ReturnSkinSort(a) <= Database.ReturnSkinSort(b) 
         end
     end
     
@@ -306,9 +310,11 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
     local HilightPanel = newpanel:GetCustomProperty("HilightPanel"):WaitForObject()
+    local Icon = StarsUI
+    if skins[i].rarity:GetName() == "Event" then Icon = EventUI end
     
     for i=1,ReturRarityCount(skins[i].rarity) do
-        local star = World.SpawnAsset(StarsUI,{parent = newpanel } )
+        local star = World.SpawnAsset(Icon,{parent = newpanel } )
         star.x = -30 * (i-1) - 10
         star.y = -10
     end

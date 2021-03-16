@@ -88,6 +88,7 @@ end
 
 -- Loops through players to check their last keypress time against current time
 function Tick(dt)
+    if Environment.IsPreview() or Environment.IsMultiplayerPreview() then return end 
     if shouldUpdate then
         for _, player in ipairs(Game.GetPlayers()) do
             if playersIdleTime[player.id].time <= time() then

@@ -84,7 +84,7 @@ end
 
 local function SetGameTimePlayed(matchTime)
     for _, player in ipairs(Game.GetPlayers()) do
-        if joinedTimes[player] >= time() - matchTime / 2 then
+        if joinedTimes[player.id] >= time() - matchTime / 2 then
             player.serverUserData.playedHalfRound = true
         end
     end
@@ -144,7 +144,7 @@ function OnPlayerJoined(player)
     listeners[player.id] = {}
     listeners[player.id]["diedEvent"] = player.diedEvent:Connect(OnPlayerDied)
     listeners[player.id]["damagedEvent"] = player.damagedEvent:Connect(OnPlayerDamaged)
-    joinedTimes[player] = time()
+    joinedTimes[player.id] = time()
     SetRespawnFlag(player)
     Task.Wait()
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
