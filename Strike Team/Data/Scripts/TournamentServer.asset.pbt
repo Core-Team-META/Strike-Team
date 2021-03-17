@@ -1,6 +1,6 @@
 Assets {
   Id: 16344617059821561240
-  Name: "TournamentScore"
+  Name: "TournamentServer"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

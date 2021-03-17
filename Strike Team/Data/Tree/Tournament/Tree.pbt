@@ -92,7 +92,7 @@ Objects {
 }
 Objects {
   Id: 14000305356795983416
-  Name: "TournamentScore"
+  Name: "TournamentServer"
   Transform {
     Location {
     }
