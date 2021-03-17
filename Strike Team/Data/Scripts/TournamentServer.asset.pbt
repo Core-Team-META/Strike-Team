@@ -8,6 +8,10 @@ Assets {
         Name: "cs:Enabled"
         Bool: false
       }
+      Overrides {
+        Name: "cs:EventID"
+        String: "GunsNGlory"
+      }
     }
   }
   SerializationVersion: 78
