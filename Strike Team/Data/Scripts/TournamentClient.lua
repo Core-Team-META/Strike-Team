@@ -2,6 +2,8 @@
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
 
+local EVENT_ID = SERVER_SCRIPT:GetCustomProperty("EventID")
+
 local NORMAL_PANEL = script:GetCustomProperty("NormalPanel"):WaitForObject()
 local NORMAL_TITLE = script:GetCustomProperty("NormalTitle"):WaitForObject()
 local TOURNAMENT_PANEL = script:GetCustomProperty("TournamentPanel"):WaitForObject()
@@ -18,3 +20,23 @@ else
 	TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
 	TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
 end
+
+local POPUP_ROOT = script:GetCustomProperty("PopupRoot"):WaitForObject()
+local NEW_1 = script:GetCustomProperty("NewScore1"):WaitForObject()
+local NEW_2 = script:GetCustomProperty("NewScore2"):WaitForObject()
+local BEST_1 = script:GetCustomProperty("BestScore1"):WaitForObject()
+local BEST_2 = script:GetCustomProperty("BestScore2"):WaitForObject()
+
+
+function OnScore(newScore, bestScore)
+	NEW_1.text = tostring(newScore)
+	NEW_2.text = tostring(newScore)
+	BEST_1.text = tostring(bestScore)
+	BEST_2.text = tostring(bestScore)
+	
+	POPUP_ROOT.visibility = Visibility.FORCE_ON
+	Task.Wait(4)
+	POPUP_ROOT.visibility = Visibility.FORCE_OFF
+end
+
+Events.Connect(EVENT_ID, OnScore)

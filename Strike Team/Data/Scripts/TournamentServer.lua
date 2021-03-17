@@ -31,8 +31,10 @@ function SubmitScore(player, score)
 	
 	Leaderboards.SubmitPlayerScore(LEADERBOARD_REF, player, score)
 	
-	SetPlayerScoreToStorage(player, score)
+	local bestScore = SetPlayerScoreToStorage(player, score)
 	TransferStorageToPlayer(player)
+	
+	Events.BroadcastToPlayer(player, EVENT_ID, score, bestScore)
 end
 
 
@@ -134,6 +136,10 @@ function SetPlayerScoreToStorage(player, score)
 		leaderboardData["EventID"] = EVENT_ID
 		data[STORAGE_KEY] = leaderboardData
 		Storage.SetPlayerData(player, data)
+		
+		return score --New score
+	else
+		return leaderboardData["Score"] --Best score
 	end
 end
 
