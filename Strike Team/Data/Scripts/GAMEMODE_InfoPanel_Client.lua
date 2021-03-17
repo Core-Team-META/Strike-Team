@@ -1,6 +1,7 @@
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 local INFOPANEL = script:GetCustomProperty("INFOPANEL"):WaitForObject()
-
+local CAPTUREINFO = script:GetCustomProperty("CAPTUREINFO"):WaitForObject()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local GT_API
 local GAME_TABLE 
@@ -29,7 +30,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         INFOPANEL.visibility = Visibility.FORCE_OFF
     end
 end
-
+LOCAL_PLAYER.clientUserData.pointStatusUI = CAPTUREINFO
 NETWORKED.networkedPropertyChangedEvent:Connect(OnNetworkChanged)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 OnNetworkChanged(NETWORKED)

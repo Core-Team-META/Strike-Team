@@ -82,6 +82,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 6621926890735536071
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:inheritfromparent"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11397727575064778677
       value {
         Overrides {

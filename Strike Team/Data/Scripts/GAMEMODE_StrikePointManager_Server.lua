@@ -39,6 +39,8 @@ local GracePeriod = ROOT:GetCustomProperty("GracePeriod") or 20
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+
+
 local function CleanUp()
     for _, listener in ipairs(listeners) do
         if listener and listener.isConnected then
@@ -53,9 +55,11 @@ local function GetData()
     return GT_API.ConvertStringToTable(str)
 end
 
+
 local function SetData(data)
     ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
 end
+
 
 local function SetCurrentProgress(ammount)
     local data = GetData()
@@ -64,11 +68,13 @@ local function SetCurrentProgress(ammount)
     GT_API.BroadcastCaptureProgress(ROOT, ammount)
 end
 
+
 local function SetCurrentTeam(team)
     local data = GetData()
     data[TEAM] = team
     ROOT:SetNetworkedCustomProperty("DATA", GT_API.ConvertTableToString(data))
 end
+
 
 local function SetCurrentResource(ammount)
     local data = GetData()
@@ -79,6 +85,34 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+
+
+function Int()
+    playersOnPoint = {}
+    supportPlayers = {}
+    for _, object in ipairs(TRIGGER:GetOverlappingObjects()) do
+        local shouldCheck = false
+        if object:IsA("Player") then
+            shouldCheck = true
+            object.serverUserData.onStrikePoint = true
+            playersOnPoint[object] = object.team
+        end
+        if shouldCheck then
+            CheckPlayersOnPoint()
+        end
+    end
+
+    for _, object in ipairs(SUPPORT_TRIGGER:GetOverlappingObjects()) do
+        if object:IsA("Player") then
+            object.serverUserData.supportCapture = true
+            supportPlayers[object] = object.team
+        end
+    end
+    SetData({0, 0, MAX_RESOURCE, time() + GracePeriod})
+    Task.Wait(GracePeriod)
+    isEnabled = true
+end
+
 
 function CheckPlayersOnPoint()
     local lastTeam
@@ -100,6 +134,7 @@ function CheckPlayersOnPoint()
     isActive = shouldActivate
 end
 
+
 function OnBeginOverlap(trigger, object)
     if trigger == TRIGGER and object:IsA("Player") and not object.isDead then
         local triggerPos = ROOT:GetWorldPosition()
@@ -116,6 +151,7 @@ function OnBeginOverlap(trigger, object)
     end
 end
 
+
 function OnEndOverlap(trigger, object)
     local data = GetData()
     local progress = tonumber(data[PROGRESS])
@@ -124,11 +160,12 @@ function OnEndOverlap(trigger, object)
         object.serverUserData.onStrikePoint = false
         CheckPlayersOnPoint()
     end
-    if trigger == SUPPORT_TRIGGER and object:IsA("Player") then
+    if trigger == SUPPORT_TRIGGER and object:IsA("Player") and supportPlayers[object] and progress < 100 then
         object.serverUserData.supportCapture = false
         supportPlayers[object] = nil
     end
 end
+
 
 function Tick()
     if isEnabled then
@@ -155,22 +192,6 @@ function Tick()
     end
 end
 
-for _, object in ipairs(TRIGGER:GetOverlappingObjects()) do
-    local shouldCheck = false
-    if object:IsA("Player") then
-        shouldCheck = true
-        object.serverUserData.onStrikePoint = true
-    end
-    if shouldCheck then
-        CheckPlayersOnPoint()
-    end
-end
-
-for _, object in ipairs(SUPPORT_TRIGGER:GetOverlappingObjects()) do
-    if object:IsA("Player") then
-        object.serverUserData.supportCapture = true
-    end
-end
 
 function OnDestroyed(object)
     for _, player in ipairs(Game.GetPlayers()) do
@@ -181,17 +202,17 @@ function OnDestroyed(object)
             countSupport = false
         end
         if player.serverUserData.supportCapture and countSupport and currentTeam == player.team then
-           -- player:AddResource("Objective", 1) #TODO currently shows a float 0.20 on scoreboard
+            -- player:AddResource("Objective", 1) #TODO currently shows a float 0.20 on scoreboard
             player:AddResource("Score", 25)
         end
     end
     CleanUp()
 end
+
+
 listeners[#listeners + 1] = ROOT.destroyEvent:Connect(OnDestroyed)
 listeners[#listeners + 1] = TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 listeners[#listeners + 1] = TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
 listeners[#listeners + 1] = SUPPORT_TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 listeners[#listeners + 1] = SUPPORT_TRIGGER.endOverlapEvent:Connect(OnEndOverlap)
-SetData({0, 0, MAX_RESOURCE, time() + GracePeriod})
-Task.Wait(GracePeriod)
-isEnabled = true
+Int()
