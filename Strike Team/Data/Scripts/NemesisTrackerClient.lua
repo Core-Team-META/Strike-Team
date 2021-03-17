@@ -41,8 +41,6 @@ local nemesisList = {}
 
 local markerList = {}
 
-local playerNameList = {}
-
 local passComplete = false
 local passToTask = {}
 
@@ -174,29 +172,6 @@ function CleanNemesisTable()
 	
 	resetting = false
 	
-end
-
-function GetAllPlayerNames()
-
-	for x, p in pairs(playerNameList) do
-	
-		playerNameList[x] = nil
-	
-	end
-	
-	for _, p in ipairs(Game.GetPlayers()) do
-	
-		playerNameList[p.id] = p.name
-		
-	end
-
-
-end
-
-function AddToList(player)
-
-	playerNameList[player.id] = player.name
-
 end
 
 function AnimateYourNemesis()
@@ -373,27 +348,27 @@ function MarkNemesis()
 	for _, entry in pairs(nemesisList) do
 		
 		-- Finding your nemesis
-		if entry[1] == localPlayer.id and playerNameList[entry[2]] then
+		if entry[1] == localPlayer.name and youAreNemesisOf  == "No Kills" and #entry[2] >= 3 then
 		
-			youAreNemesisOf = tostring(playerNameList[entry[2]])
+			youAreNemesisOf = entry[2]
 			
 			yourKillCountAsNemesis = entry[4]
 			
-		elseif entry[1] == localPlayer.id and youAreNemesisOf then
+		elseif entry[1] == localPlayer.name and youAreNemesisOf  ~= "No Kills" then
 		
 			countOfBeingNemesis = countOfBeingNemesis + 1
 			
 		end
 		
-		if entry[2] == localPlayer.id then
+		if entry[2] == localPlayer.name then
 		
-			yourNemesisIs = tostring(playerNameList[entry[1]])
+			yourNemesisIs = entry[1]
 			
 			yourNemesisKillCount = entry[4]
 			
 			if entry[3] > 0 then
 			
-				yourNemesisIs = tostring(playerNameList[entry[1]]) .. " + " .. tostring(entry[3]) .. " more"
+				yourNemesisIs = entry[1] .. " + " .. tostring(entry[3]) .. " more"
 				
 			end
 			
@@ -404,11 +379,11 @@ function MarkNemesis()
 		
 			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
 			
-			local player1 = tostring(playerNameList[entry[1]])
+			local player1 = entry[1]
 			
-			local player2 = tostring(playerNameList[entry[2]])
+			local player2 = entry[2]
 			
-			if player1 == nameText.text and player2 then
+			if player1 == nameText.text and #player2 >= 3 then
 			
 				if not theirNemesisOfEntryText[number] then
 			
@@ -452,15 +427,15 @@ function MarkNemesis()
 		
 			for _, entry in pairs(nemesisList) do
 			
-				if tostring(playerNameList[entry[2]]) == nameText.text then
+				if entry[2] == nameText.text then
 				
 					theirNemesisOfEntryText[number] = {}
 						
 					theirNemesisOfEntryText[number][2] = 0
 					
-					if playerNameList[entry[5]] then
+					if entry[5] then
 					
-						theirNemesisOfEntryText[number][1] = tostring(playerNameList[entry[5]])
+						theirNemesisOfEntryText[number][1] = entry[5]
 						
 					else 
 					
@@ -484,9 +459,9 @@ function MarkNemesis()
 	
 		for _, entry in pairs(nemesisList) do
 		
-			if entry[2] == localPlayer.id and tostring(playerNameList[entry[5]]) then
+			if entry[2] == localPlayer.name and entry[5] then
 			
-				youAreNemesisOf = tostring(playerNameList[entry[5]])
+				youAreNemesisOf = entry[5]
 				
 				yourKillCountAsNemesis = entry[6]
 				
@@ -530,7 +505,7 @@ function MarkNemesis()
 				
 				AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1] .. " + " .. tostring(theirNemesisOfEntryText[number][2]) .. " more", true)
 					
-			elseif theirNemesisOfEntryText[number][1] ~= "" then
+			elseif #theirNemesisOfEntryText[number][1] >= 3 then
 				
 				AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1], true)
 					
@@ -654,10 +629,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         YourNemesisText.text = ""
         YourNemesisKillsText.text = "0"
         
-        CleanNemesisTable()
-        
-        GetAllPlayerNames()
-        
+        CleanNemesisTable()        
     end
 end
 
@@ -668,8 +640,6 @@ function OnSkipAnimation()
 end
 
 function InitializeVictoryScreenMarkers()
-
-	GetAllPlayerNames()
 
 	for _, entry in pairs(victoryScreenContainer:GetChildren()) do
 	
@@ -693,8 +663,6 @@ function InitializeVictoryScreenMarkers()
 end
 
 InitializeVictoryScreenMarkers()
-
-Game.playerJoinedEvent:Connect(AddToList)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("ShowNemesis", ShowNemesis)
