@@ -6,7 +6,18 @@ local spawnPanel
 local Active = true
 
 
+function ActiveCheck()
+    Task.Wait()
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+        Active = false
+        ClosePanel()
+    elseif ABGS.GetGameState() == (ABGS.GAME_STATE_LOBBY or API.GAME_STATE_ROUND) then
+        Active = true
+    end
+end
+
 function OpenPanel(player, binding)
+    ActiveCheck()
     if Active == false then return end 
     if binding ~= OpenBinding then return end
     spawnPanel = World.SpawnAsset(propUITemplate)
@@ -26,15 +37,6 @@ function ReleaseButton(player, binding)
 end
 
 
-function ActiveCheck(oldState, newState, stateHasDuration, stateEndTime)
-    Task.Wait()
-    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
-        Active = false
-        ClosePanel()
-    elseif ABGS.GetGameState() == (ABGS.GAME_STATE_LOBBY or API.GAME_STATE_ROUND) then
-        Active = true
-    end
-end
 ActiveCheck()
 
 Events.Connect("GameStateChanged", ActiveCheck)
