@@ -2,6 +2,7 @@
 local ENABLED = script:GetCustomProperty("Enabled")
 if not ENABLED then return end
 
+local MIN_PLAYERS_TO_SUBMIT = 2 --TODO: 6
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
 local POINTS_PER_KILL_TO_DEFENDER = 10
@@ -119,6 +120,9 @@ end
 
 
 function OnRoundEnded()
+	-- Points are only valid if the minimum player count is met
+	if #Game.GetPlayers() < MIN_PLAYERS_TO_SUBMIT then return end
+
 	-- Wait for some calculations in other scripts
 	Task.Wait()
 	
