@@ -76,9 +76,8 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 function ReturnToLoadout(player)
-
+	player:SetResource("IsReturningToLoadout", 1)
 	while Object.IsValid(player) do
-	
 		--player:TransferToGame(loadoutLink)
 		local gameId = _G["LoadoutGameId"]
 		player:TransferToGame(gameId)
