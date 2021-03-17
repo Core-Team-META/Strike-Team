@@ -159,9 +159,9 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 665
-    Height: 105
-    UIX: -32.9512329
+    Width: 685
+    Height: 150
+    UIX: -51.4744263
     UIY: -302.266296
     RenderTransformPivot {
       Anchor {
@@ -169,7 +169,7 @@ Objects {
       }
     }
     Text {
-      Label: "Play in three of Core\'s top shooters, all with custom leaderboards created just for this occasion."
+      Label: "Play in three of Core\'s top shooters to test your aim and take home the glory! The top 10 players of each game (as determined by the global leaderboards) will be rewarded with fame and funds."
       Color {
         R: 1
         G: 1
@@ -226,7 +226,7 @@ Objects {
   }
   Control {
     Width: 906
-    Height: 55
+    Height: 50
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -290,7 +290,7 @@ Objects {
   }
   Control {
     Width: 906
-    Height: 75
+    Height: 60
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -546,7 +546,7 @@ Objects {
   }
   Control {
     Width: 906
-    Height: 75
+    Height: 60
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -610,7 +610,7 @@ Objects {
   }
   Control {
     Width: 906
-    Height: 40
+    Height: 35
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -737,7 +737,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 627
+    Width: 686
     Height: 2
     RenderTransformPivot {
       Anchor {
@@ -795,7 +795,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 655
+    Width: 702
     Height: 100
     UIY: 15
     RenderTransformPivot {
@@ -1104,7 +1104,7 @@ Objects {
   Control {
     Width: 290
     Height: 625
-    UIX: -233.981873
+    UIX: -252.505066
     UIY: 342
     RenderTransformPivot {
       Anchor {
