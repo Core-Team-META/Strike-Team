@@ -110,6 +110,15 @@ Objects {
       Name: "cs:Enabled"
       Bool: true
     }
+    Overrides {
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "E51F21AA8E227D05"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

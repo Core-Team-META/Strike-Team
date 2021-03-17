@@ -1113,6 +1113,12 @@ Objects {
         Id: 8325663084446315138
       }
     }
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 14000305356795983416
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
