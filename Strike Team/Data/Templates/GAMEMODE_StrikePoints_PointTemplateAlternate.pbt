@@ -729,6 +729,7 @@ Assets {
         ChildIds: 7146780488147448480
         ChildIds: 11791059512147408375
         ChildIds: 15264577953522311805
+        ChildIds: 10372033951582595015
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -18219,6 +18220,50 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 10372033951582595015
+        Name: "GAMEMODE_PointStatus_Client"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7927740488716824813
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Trigger"
+            ObjectReference {
+              SubObjectId: 14721333722550657248
+            }
+          }
+          Overrides {
+            Name: "cs:SupportTrigger"
+            ObjectReference {
+              SubObjectId: 11052414084840757895
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 12304002151205339030
+          }
         }
       }
     }
