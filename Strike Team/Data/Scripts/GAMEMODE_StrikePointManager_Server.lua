@@ -195,14 +195,13 @@ end
 
 function OnDestroyed(object)
     for _, player in ipairs(Game.GetPlayers()) do
-        local countSupport = true
         if player.serverUserData.onStrikePoint and currentTeam == player.team then
             player:AddResource("Objective", 5)
             player:AddResource("Score", 50)
-            countSupport = false
-        end
-        if player.serverUserData.supportCapture and countSupport and currentTeam == player.team then
+            
+        elseif player.serverUserData.supportCapture and currentTeam == player.team then
             -- player:AddResource("Objective", 1) #TODO currently shows a float 0.20 on scoreboard
+            player:AddResource("Support", 1)
             player:AddResource("Score", 25)
         end
     end
