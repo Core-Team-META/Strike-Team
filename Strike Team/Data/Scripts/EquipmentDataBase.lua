@@ -83,6 +83,7 @@ function Database:SpawnAllweapons()
 end
 
 function Database:SplitString(String)
+    if not String then return end 
     return {CoreString.Split(String ,"-")}
 end
 

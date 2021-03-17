@@ -4,6 +4,8 @@ local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
 local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")
 
+local DefaultString = "HK_00-S4_00-LI_00-EL_00-EP_00"
+
 function SetUp(player)
     return {
         ["1"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
@@ -90,7 +92,8 @@ function EquipPlayer(player)
     if( not Data["Loadouts"] ) then Data = FullSetup(player) end
     player.serverUserData.Weapons = {}
     
-    local EquipString = GetSlot(player,tostring( player:GetResource("EquipSlot")))
+    local EquipString = GetSlot(player,tostring(player:GetResource("EquipSlot") or 1))
+    if not EquipString then EquipString = DefaultString end 
     equipItem(player,EquipString,"Primary")
     equipItem(player,EquipString,"Secondary")
     equipItem(player,EquipString,"Melee")
@@ -151,7 +154,7 @@ end
 function SetupPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if(not Data["Loadouts"] ) then  Data = FullSetup(player) end
-    player:SetResource("EquipSlot", Data["EquipSlot"])
+    player:SetResource("EquipSlot", Data["EquipSlot"] or 1)
     Storage.SetSharedPlayerData(LoadoutKey,player, Data)
 end
 
