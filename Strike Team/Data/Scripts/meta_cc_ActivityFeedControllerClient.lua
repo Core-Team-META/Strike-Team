@@ -574,7 +574,11 @@ end
 -- nil OnPlayerLeft(Player)
 -- if ShowJoinAndLeave, add a message for a player leaving the game
 function OnPlayerLeft(player)
-	AddLine({"", string.format("%s headed to the loadout", player.name), "", "PlayerLeft"}, TEXT_COLOR)
+	if player:GetResource("IsReturningToLoadout") == 1 then
+		AddLine({"", string.format("%s headed to the loadout", player.name), "", "PlayerLoadout"}, TEXT_COLOR)
+	else
+		AddLine({"", string.format("%s has left the game", player.name), "", "PlayerLeft"}, TEXT_COLOR)
+	end
 	NEEDS_UPDATE = true
 end
 
