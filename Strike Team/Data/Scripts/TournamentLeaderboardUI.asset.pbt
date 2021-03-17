@@ -11,11 +11,8 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:LeaderboardReference"
-        NetReference {
-          Type {
-            Value: "mc:enetreferencetype:unknown"
-          }
+        Name: "cs:ServerScript"
+        ObjectReference {
         }
       }
       Overrides {

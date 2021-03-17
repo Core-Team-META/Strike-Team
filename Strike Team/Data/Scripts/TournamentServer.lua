@@ -2,6 +2,9 @@
 local ENABLED = script:GetCustomProperty("Enabled")
 if not ENABLED then return end
 
+local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
+local EVENT_ID = script:GetCustomProperty("EventID")
+
 local MIN_PLAYERS_TO_SUBMIT = 2 --TODO: 6
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
@@ -20,11 +23,16 @@ local MAX_UNIQUE_COUNT = 6
 local POINTS_FOR_VICTORY = 100
 local POINTS_PER_ENEMY_FLAG = 20
 
+local STORAGE_KEY = "TournamentSupport"
 
-function SubmitPoints(player, points)
-	-- TODO
+
+function SubmitScore(player, score)
+	--print("##### Submit Score for " .. player.name .. " = " .. tostring(score))
 	
-	print("##### Submit Points for " .. player.name .. " = " .. tostring(points))
+	Leaderboards.SubmitPlayerScore(LEADERBOARD_REF, player, score)
+	
+	SetPlayerScoreToStorage(player, score)
+	TransferStorageToPlayer(player)
 end
 
 
@@ -94,14 +102,67 @@ end
 Events.Connect("AS.PlayerDamaged", OnPlayerDamaged)
 
 
-function OnPlayerRespawn(player)
-    player.serverUserData.tournament.killCredited = false
-end
-
-
 function ClearData(player)
 	player.serverUserData.tournament = {}
 	player.serverUserData.tournament.points = 0
+end
+
+
+function SetPlayerScoreToStorage(player, score)
+	-- Saving to storage
+	local data = Storage.GetPlayerData(player)
+	
+	local leaderboardData
+	local doSave = false
+	
+	if not data[STORAGE_KEY] then
+		-- Create data table
+		leaderboardData = {}
+		doSave = true
+	else
+		-- Replace existing?
+		leaderboardData = data[STORAGE_KEY]
+		local oldScore = leaderboardData["Score"]
+		local eventId = leaderboardData["EventID"]
+		if eventId ~= EVENT_ID or score > oldScore then
+			doSave = true
+		end
+	end
+	-- Save data
+	if doSave then
+		leaderboardData["Score"] = score
+		leaderboardData["EventID"] = EVENT_ID
+		data[STORAGE_KEY] = leaderboardData
+		Storage.SetPlayerData(player, data)
+	end
+end
+
+
+function TransferStorageToPlayer(player)
+	-- Loading from storage
+	local data = Storage.GetPlayerData(player)
+	if not data[STORAGE_KEY] then return end
+		
+	local leaderboardData = data[STORAGE_KEY]
+	if leaderboardData then
+		local resourceKey = "TournamentBestScore"
+		
+		local eventId = leaderboardData["EventID"]
+		
+		if eventId ~= EVENT_ID then
+			-- Discard the old score
+			player:SetResource(resourceKey, 0)
+		else
+			-- Send it to clients
+			local score = leaderboardData["Score"] or 0
+			player:SetResource(resourceKey, score)
+		end
+	end
+end
+
+
+function OnPlayerRespawn(player)
+    player.serverUserData.tournament.killCredited = false
 end
 
 
@@ -109,6 +170,8 @@ function OnPlayerJoined(player)
 	ClearData(player)
 	
 	player.respawnedEvent:Connect(OnPlayerRespawn)
+	
+	TransferStorageToPlayer(player)
 end
 
 
@@ -182,7 +245,7 @@ function OnRoundEnded()
 	for _,player in ipairs(Game.GetPlayers()) do
 		if player.serverUserData.playedHalfRound then
 			local playerData = player.serverUserData.tournament
-			SubmitPoints(player, playerData.points)
+			SubmitScore(player, playerData.points)
 		end
 	end
 end

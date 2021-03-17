@@ -1,7 +1,8 @@
 
 local ROW_TEMPLATE = script:GetCustomProperty("LeaderboardRowTemplate")
 
-local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
+local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
+local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
 
 local ROW_COUNT = script:GetCustomProperty("RowCount")
 local ROW_DISTANCE = script:GetCustomProperty("RowDistance")

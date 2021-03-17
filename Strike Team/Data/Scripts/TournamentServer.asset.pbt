@@ -9,6 +9,14 @@ Assets {
         Bool: false
       }
       Overrides {
+        Name: "cs:LeaderboardReference"
+        NetReference {
+          Type {
+            Value: "mc:enetreferencetype:unknown"
+          }
+        }
+      }
+      Overrides {
         Name: "cs:EventID"
         String: "GunsNGlory"
       }
