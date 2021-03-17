@@ -233,6 +233,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1267408161283801911
+  Name: "Icon Player Walk"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerWalk"
+  }
+}
+Assets {
   Id: 906141242737558317
   Name: "Weapon Assault Rifle 008"
   PlatformAssetType: 9
