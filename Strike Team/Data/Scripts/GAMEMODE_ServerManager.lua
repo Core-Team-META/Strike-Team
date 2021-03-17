@@ -82,9 +82,11 @@ local function CleanUp(player)
     listeners[player.id] = nil
 end
 
-local function SetGameTimePlayed(matchTime)
+local function MarkPlayersWhoPlayedMoreThanHalf()
+    local duration = time() - roundStartTime
+    local roundMidTime = roundStartTime + duration / 2
     for _, player in ipairs(Game.GetPlayers()) do
-        if joinedTimes[player.id] >= time() - matchTime / 2 then
+        if joinedTimes[player.id] <= roundMidTime then
             player.serverUserData.playedHalfRound = true
         end
     end
@@ -211,7 +213,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
             roundStartTime = 0
         end
         SetRoundDuration(time() - roundStartTime)
-        SetGameTimePlayed(roundStartTime)
+        MarkPlayersWhoPlayedMoreThanHalf()
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
         local currentState = GetCurrentGameId()

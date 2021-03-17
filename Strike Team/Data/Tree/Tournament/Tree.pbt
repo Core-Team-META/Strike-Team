@@ -97,6 +97,7 @@ Objects {
   ChildIds: 3631575888784177477
   ChildIds: 5124183822544990992
   ChildIds: 4614254507728622444
+  ChildIds: 16250074205398905577
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,7 +110,7 @@ Objects {
   Control {
     Width: 400
     Height: 400
-    UIY: -33.3216553
+    UIY: -33.322
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -133,7 +134,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4614254507728622444
+  Id: 16250074205398905577
   Name: "K Label"
   Transform {
     Location {
@@ -159,7 +160,7 @@ Objects {
   Control {
     Width: 700
     Height: 36
-    UIY: 370.703674
+    UIY: 370
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -168,11 +169,72 @@ Objects {
     Text {
       Label: "Press [K] for full standings"
       Color {
-        R: 0.73791039
-        G: 0.386429429
+        R: 0.827
+        G: 0.433083892
         A: 1
       }
-      Size: 16
+      Size: 17
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4614254507728622444
+  Name: "K Label - shadow"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9551871372588380956
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 700
+    Height: 36
+    UIX: -1
+    UIY: 371
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Press [K] for full standings"
+      Color {
+        A: 0.8
+      }
+      Size: 17
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -398,7 +460,7 @@ Objects {
   Control {
     Width: 100
     Height: 100
-    UIY: -33.4441528
+    UIY: -29.6179199
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -630,7 +692,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: 128.782288
+    UIY: 137.260742
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -694,7 +756,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 128.782288
+    UIY: 137.260742
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -757,7 +819,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: 130.782288
+    UIY: 139.260742
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -817,7 +879,7 @@ Objects {
   Control {
     Width: 200
     Height: 20
-    UIY: -17
+    UIY: -19
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -881,7 +943,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: -17
+    UIY: -19
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -944,7 +1006,7 @@ Objects {
   Control {
     Width: 200
     Height: 36
-    UIY: -15
+    UIY: -17
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1299,7 +1361,7 @@ Objects {
   Control {
     Width: 1
     Height: 45
-    UIY: 143.699768
+    UIY: 155.178223
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1360,7 +1422,7 @@ Objects {
   Control {
     Width: 1
     Height: 45
-    UIY: 143.699768
+    UIY: 155.178223
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2115,6 +2177,12 @@ Objects {
       Name: "cs:BestScore2"
       ObjectReference {
         SelfId: 15250092982484507807
+      }
+    }
+    Overrides {
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 1953446882420386915
       }
     }
   }

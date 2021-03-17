@@ -178,6 +178,13 @@ function OnPlayerJoined(player)
 	player.respawnedEvent:Connect(OnPlayerRespawn)
 	
 	TransferStorageToPlayer(player)
+	
+	-- TODO: Debuging
+	--[[player.bindingPressedEvent:Connect(function(player, action)
+		if action == "ability_extra_0" then
+			SubmitScore(player, 100)
+		end
+	end)--]]
 end
 
 
