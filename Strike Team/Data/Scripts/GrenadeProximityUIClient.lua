@@ -24,14 +24,18 @@ function Tick()
     local closestGrenade = nil
     local closestDistanceSquared = nil
     for _, grenade in pairs(GRENADE_INSTANCES) do
-        local delta = grenade:GetWorldPosition() - LOCAL_PLAYER:GetWorldPosition()
+        if Object.IsValid(grenade) then
+            local delta = grenade:GetWorldPosition() - LOCAL_PLAYER:GetWorldPosition()
 
-        local distanceSquared = delta.sizeSquared
-        if delta.sizeSquared < PROXIMITY_SQUARED then
-            if closestDistanceSquared == nil or distanceSquared < closestDistanceSquared then
-                closestGrenade = grenade
-                closestDistanceSquared = distanceSquared
+            local distanceSquared = delta.sizeSquared
+            if delta.sizeSquared < PROXIMITY_SQUARED then
+                if closestDistanceSquared == nil or distanceSquared < closestDistanceSquared then
+                    closestGrenade = grenade
+                    closestDistanceSquared = distanceSquared
+                end
             end
+        elseif grenade then -- If the grenade is destroyed (and therefore not valid), but exists as a reference, remve it from table
+            GRENADE_INSTANCES[grenade] = nil
         end
     end
 
