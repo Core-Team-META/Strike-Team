@@ -2911,7 +2911,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3213,7 +3213,6 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "YOU ARE IN THE SUPPORT CAPTURE ZONE THIS AREA GETS 90% OF SCORE ON CAPTURE"
       Color {
         R: 1
         G: 1
