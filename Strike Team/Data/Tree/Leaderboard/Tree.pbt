@@ -209,7 +209,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 500
+    Width: 700
     Height: 20
     RenderTransformPivot {
       Anchor {
@@ -272,7 +272,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 500
+    Width: 700
     Height: 36
     RenderTransformPivot {
       Anchor {
@@ -333,7 +333,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 500
+    Width: 700
     Height: 36
     RenderTransformPivot {
       Anchor {
@@ -705,8 +705,9 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.126357585
-        B: 0.179999948
+        R: 0.039501
+        G: 0.133
+        B: 0.0846921876
         A: 1
       }
       TeamSettings {
@@ -763,8 +764,9 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.126357585
-        B: 0.179999948
+        R: 0.039501
+        G: 0.133
+        B: 0.0846921876
         A: 1
       }
       TeamSettings {
@@ -821,8 +823,9 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.126357585
-        B: 0.179999948
+        R: 0.039501
+        G: 0.133
+        B: 0.0846921876
         A: 1
       }
       TeamSettings {
@@ -879,8 +882,9 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.126357585
-        B: 0.179999948
+        R: 0.039501
+        G: 0.133
+        B: 0.0846921876
         A: 1
       }
       TeamSettings {
@@ -938,8 +942,9 @@ Objects {
         Id: 2604353830693238371
       }
       Color {
-        G: 0.208402261
-        B: 0.296875
+        R: 0.0700800046
+        G: 0.24000001
+        B: 0.14088
         A: 1
       }
       TeamSettings {
@@ -996,8 +1001,9 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.126357585
-        B: 0.179999948
+        R: 0.039501
+        G: 0.133
+        B: 0.0846921876
         A: 1
       }
       TeamSettings {
@@ -1055,8 +1061,8 @@ Objects {
       Brush {
       }
       Color {
-        G: 0.00212468905
-        B: 0.00477695325
+        G: 0.00477695325
+        B: 0.00262732524
         A: 0.741176486
       }
       TeamSettings {
