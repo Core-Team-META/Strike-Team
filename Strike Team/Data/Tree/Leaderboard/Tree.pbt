@@ -382,7 +382,7 @@ Objects {
     }
   }
   ParentId: 8148767369087913423
-  ChildIds: 14258661337671604273
+  ChildIds: 11999967761369486384
   ChildIds: 15741006869660521055
   ChildIds: 4305170564703517302
   ChildIds: 9698732167630800929
@@ -1083,8 +1083,8 @@ Objects {
   }
 }
 Objects {
-  Id: 14258661337671604273
-  Name: "StrikeTeamLeaderboard"
+  Id: 11999967761369486384
+  Name: "TournamentLeaderboardUI"
   Transform {
     Location {
     }
@@ -1099,9 +1099,18 @@ Objects {
   ParentId: 9283767093654463469
   UnregisteredParameters {
     Overrides {
-      Name: "cs:LeaderboardInfo"
-      ObjectReference {
-        SelfId: 17729225223418795224
+      Name: "cs:LeaderboardReference"
+      NetReference {
+        Key: "E51F21AA8E227D05"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderboardRowTemplate"
+      AssetReference {
+        Id: 8325663084446315138
       }
     }
   }
@@ -1116,7 +1125,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 10787698050977242227
+      Id: 14263161779259714417
     }
   }
 }
@@ -6141,7 +6150,6 @@ Objects {
   ChildIds: 9240722280857962136
   ChildIds: 5624944219274807550
   ChildIds: 6797050645391217480
-  ChildIds: 17729225223418795224
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceForEntry"
@@ -6167,55 +6175,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 17729225223418795224
-  Name: "TournamentPoints"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5022122371631555670
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ResourceForEntry"
-      String: "TournamentPoints"
-    }
-    Overrides {
-      Name: "cs:LeaderboardReference"
-      NetReference {
-        Key: "E51F21AA8E227D05"
-        Type {
-          Value: "mc:enetreferencetype:leaderboard"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:IsWeekly"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5596060685076278071
-    }
   }
 }
 Objects {
