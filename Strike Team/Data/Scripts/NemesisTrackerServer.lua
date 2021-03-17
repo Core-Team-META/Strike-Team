@@ -346,7 +346,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 Game.playerJoinedEvent:Connect(Setup)
-Game.playerLeftEvent:Connect(RemoveFromTable)
+--Game.playerLeftEvent:Connect(RemoveFromTable)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("PrintNemesis", PrintNemesisIndex)
