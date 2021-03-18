@@ -19,6 +19,9 @@ Assets {
             Z: 1
           }
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           BundleDummy {
             ReferencedAssets {
@@ -40,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Version 2.0 of my Quick Weapon Switcher\r\n\r\nBuilt for testing, but can be used for a game.  I\'ll continue to update.\r\n\r\n- Automatically assigns weapon hotkeys based upon folder order\r\n- Duplicate weapon group (Children of QuickWeaponSwitch script)\r\n- Set weapon template, name, icon, icon_color, frame color\r\n\r\nRun and you\'re good to go\r\n"
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

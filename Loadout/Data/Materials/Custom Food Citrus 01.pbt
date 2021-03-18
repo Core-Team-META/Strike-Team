@@ -2,9 +2,9 @@ Assets {
   Id: 5209471528298078501
   Name: "Custom Food Citrus 01"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 6348953427985704596
+    BaseMaterialId: 9168165080034035860
     ParameterOverrides {
       Overrides {
         Name: "fresnel_color"
@@ -16,7 +16,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6348953427985704596
+      Id: 9168165080034035860
       Name: "Food Citrus 01"
       PlatformAssetType: 2
       PrimaryAsset {

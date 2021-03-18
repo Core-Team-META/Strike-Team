@@ -2,9 +2,9 @@ Assets {
   Id: 5010235995680372204
   Name: "Melted Additive Axis Aligned Soft Edge Z_1"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 18354828068684121957
+    BaseMaterialId: 13071035348074642709
     ParameterOverrides {
       Overrides {
         Name: "vertical fade"
@@ -39,7 +39,7 @@ Assets {
       }
     }
     Assets {
-      Id: 18354828068684121957
+      Id: 13071035348074642709
       Name: "Additive Axis Aligned Soft Edge Z"
       PlatformAssetType: 2
       PrimaryAsset {

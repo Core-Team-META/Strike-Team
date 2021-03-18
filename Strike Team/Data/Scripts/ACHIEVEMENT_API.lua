@@ -203,7 +203,7 @@ function API.GiveRewards(player, id)
                     player.serverUserData.Storage:AddSkin(weaponId, skinId)
                 end
             end
-            API.SetClaimed(player, id)
+            --API.SetClaimed(player, id)
         end
     end
 end

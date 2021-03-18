@@ -26,6 +26,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         NetworkContext {
         }
       }
@@ -58,6 +61,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -97,6 +103,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -226,9 +235,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -364,9 +376,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -502,9 +517,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -640,9 +658,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -770,9 +791,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -900,9 +924,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1030,9 +1057,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1160,9 +1190,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1294,7 +1327,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 9806867731167406304
             }
           }
           Overrides {
@@ -1311,6 +1344,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1465,6 +1501,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 9998053448246673054
@@ -1604,6 +1643,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 10415104586946721638
@@ -1620,7 +1662,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17385851098226992227
+      Id: 2810379255825890868
       Name: "Gem - Heart Polished"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1656,7 +1698,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5649073660380182267
+      Id: 9806867731167406304
       Name: "Bark Dead 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1705,5 +1747,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

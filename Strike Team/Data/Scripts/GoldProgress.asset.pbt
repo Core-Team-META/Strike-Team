@@ -7,10 +7,10 @@ Assets {
       Overrides {
         Name: "cs:NextCreatePercentage"
         ObjectReference {
-          SelfId: 16241322896229351781
+          SelfId: 7471738672941200267
         }
       }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

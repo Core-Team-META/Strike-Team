@@ -19,6 +19,9 @@ Assets {
             Z: 1
           }
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           BundleDummy {
             ReferencedAssets {
@@ -39,5 +42,5 @@ Assets {
     OwnerName: "Blaking707"
     Description: "dfamdokasmiodmaipdnmiu0anuihdbayusbdal;sm dlkpoasnjipfdnuasnl;kmaslkn kj kjashbdibashdb hsabudyihaij nduiansidk  jasijoamo  asid aa daninui9  kjanuin eaklmo [al[pd=p a,onm niowa  al ,kjwahijdam, niundak kjabuibdka ,mj as ahiuhdian awdhankja njklbuyhabu bijaw a wqa asddas"
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

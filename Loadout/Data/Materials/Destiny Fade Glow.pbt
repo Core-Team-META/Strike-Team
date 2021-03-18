@@ -2,9 +2,9 @@ Assets {
   Id: 242059628553530182
   Name: "Destiny Fade Glow"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 11217161908744906916
+    BaseMaterialId: 17958961814962950436
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -38,7 +38,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11217161908744906916
+      Id: 17958961814962950436
       Name: "Additive Edgeline Top Fade"
       PlatformAssetType: 2
       PrimaryAsset {

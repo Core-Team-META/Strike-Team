@@ -8,7 +8,7 @@ LeaderboardConfigs {
     }
     Name: "Funnel1"
     Id: "1AB289C12AE4B8D9"
-    EntryLimit: 500
+    EntryLimit: 450
   }
   Config {
     HasWeekly: true
@@ -68,6 +68,17 @@ LeaderboardConfigs {
     }
     Name: "WeeklyKills"
     Id: "D164A05CE37C6CEE"
+    EntryLimit: 50
+  }
+  Config {
+    SortType {
+      Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
+    }
+    FormatType {
+      Value: "mc:ecoresdkleaderboardformat:numeric"
+    }
+    Name: "Tournament"
+    Id: "E51F21AA8E227D05"
     EntryLimit: 50
   }
 }

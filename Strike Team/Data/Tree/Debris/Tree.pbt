@@ -27,6 +27,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -35,6 +38,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -63,6 +69,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -71,6 +80,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -98,6 +110,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -106,6 +121,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -133,6 +151,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -141,6 +162,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -167,6 +191,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -175,6 +202,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -204,6 +234,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -212,6 +245,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -241,6 +277,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -249,6 +288,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -276,6 +318,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -284,6 +329,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -311,6 +359,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -319,6 +370,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -346,6 +400,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -354,6 +411,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -380,6 +440,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -388,6 +451,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -414,6 +480,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -422,6 +491,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -448,6 +520,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -456,6 +531,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -482,6 +560,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -490,6 +571,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -516,6 +600,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -524,6 +611,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -552,6 +642,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -560,6 +653,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -587,6 +683,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -595,6 +694,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -621,6 +723,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -629,6 +734,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -655,6 +763,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -663,6 +774,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -689,6 +803,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -697,6 +814,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -723,6 +843,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -731,6 +854,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -757,6 +883,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -765,6 +894,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -794,6 +926,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -802,6 +937,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -831,6 +969,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -839,6 +980,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -868,6 +1012,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -876,6 +1023,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -905,6 +1055,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -913,6 +1066,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -942,6 +1098,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -950,6 +1109,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -978,6 +1140,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -986,6 +1151,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1014,6 +1182,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1022,6 +1193,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1051,6 +1225,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1059,6 +1236,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1088,6 +1268,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1096,6 +1279,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1123,6 +1309,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1131,6 +1320,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1158,6 +1350,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1166,6 +1361,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1193,6 +1391,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1201,6 +1402,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1227,6 +1431,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1235,6 +1442,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1264,6 +1474,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1272,6 +1485,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1301,6 +1517,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1309,6 +1528,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1336,6 +1558,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1344,6 +1569,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1372,6 +1600,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1380,6 +1611,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1409,6 +1643,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -1417,6 +1654,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1446,6 +1686,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1454,6 +1697,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1483,6 +1729,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1491,6 +1740,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1518,6 +1770,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1526,6 +1781,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1555,6 +1813,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1563,6 +1824,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1592,6 +1856,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -1600,6 +1867,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1629,6 +1899,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1637,6 +1910,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1666,6 +1942,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -1674,6 +1953,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1703,6 +1985,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1711,6 +1996,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1740,6 +2028,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -1748,6 +2039,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1777,6 +2071,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1785,6 +2082,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1814,6 +2114,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -1822,6 +2125,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1851,6 +2157,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1859,6 +2168,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1888,6 +2200,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1896,6 +2211,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1925,6 +2243,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -1933,6 +2254,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1962,6 +2286,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -1970,6 +2297,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1999,6 +2329,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2007,6 +2340,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2036,6 +2372,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2044,6 +2383,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2073,6 +2415,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2081,6 +2426,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2110,6 +2458,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2118,6 +2469,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2147,6 +2501,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2155,6 +2512,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2184,6 +2544,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2192,6 +2555,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2221,6 +2587,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2229,6 +2598,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2258,6 +2630,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2266,6 +2641,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2295,6 +2673,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2303,6 +2684,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2332,6 +2716,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2340,6 +2727,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2369,6 +2759,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2377,6 +2770,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2406,6 +2802,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2414,6 +2813,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2443,6 +2845,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2451,6 +2856,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2480,6 +2888,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2488,6 +2899,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2517,6 +2931,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2525,6 +2942,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2554,6 +2974,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2562,6 +2985,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2591,6 +3017,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2599,6 +3028,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2628,6 +3060,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2636,6 +3071,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2665,6 +3103,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2673,6 +3114,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2702,6 +3146,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2710,6 +3157,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2739,6 +3189,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2747,6 +3200,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2776,6 +3232,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2784,6 +3243,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2813,6 +3275,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2821,6 +3286,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2850,6 +3318,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2858,6 +3329,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2887,6 +3361,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2895,6 +3372,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2924,6 +3404,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -2932,6 +3415,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2961,6 +3447,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -2969,6 +3458,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -2998,6 +3490,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3006,6 +3501,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3033,6 +3531,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3041,6 +3542,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3068,6 +3572,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3076,6 +3583,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3102,6 +3612,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3110,6 +3623,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3137,6 +3653,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3145,6 +3664,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3172,6 +3694,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3180,6 +3705,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3207,6 +3735,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3215,6 +3746,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3244,6 +3778,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3252,6 +3789,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3281,6 +3821,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3289,6 +3832,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3318,6 +3864,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3326,6 +3875,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3355,6 +3907,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3363,6 +3918,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3392,6 +3950,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3400,6 +3961,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3429,6 +3993,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3437,6 +4004,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3466,6 +4036,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3474,6 +4047,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3503,6 +4079,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3511,6 +4090,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3540,6 +4122,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3548,6 +4133,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3575,6 +4163,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3583,6 +4174,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3609,6 +4203,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -3617,6 +4214,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3646,6 +4246,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3654,6 +4257,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3683,6 +4289,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3691,6 +4300,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3720,6 +4332,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3728,6 +4343,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3757,6 +4375,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3765,6 +4386,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3794,6 +4418,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3802,6 +4429,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3831,6 +4461,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3839,6 +4472,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3868,6 +4504,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3876,6 +4515,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3905,6 +4547,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3913,6 +4558,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3942,6 +4590,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3950,6 +4601,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -3979,6 +4633,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -3987,6 +4644,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4016,6 +4676,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4024,6 +4687,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4053,6 +4719,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4061,6 +4730,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4090,6 +4762,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4098,6 +4773,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4127,6 +4805,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4135,6 +4816,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4164,6 +4848,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4172,6 +4859,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4201,6 +4891,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4209,6 +4902,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4238,6 +4934,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4246,6 +4945,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4275,6 +4977,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4283,6 +4988,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4309,6 +5017,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4317,6 +5028,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4344,6 +5058,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4352,6 +5069,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4379,6 +5099,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4387,6 +5110,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4414,6 +5140,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4422,6 +5151,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4448,6 +5180,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4456,6 +5191,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4483,6 +5221,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4491,6 +5232,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4517,6 +5261,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4525,6 +5272,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4551,6 +5301,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4559,6 +5312,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4586,6 +5342,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4594,6 +5353,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4620,6 +5382,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4628,6 +5393,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4654,6 +5422,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4662,6 +5433,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4688,6 +5462,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -4696,6 +5473,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4723,6 +5503,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4731,6 +5514,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4758,6 +5544,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4766,6 +5555,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4792,6 +5584,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4800,6 +5595,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4826,6 +5624,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4834,6 +5635,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4861,6 +5665,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4869,6 +5676,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4896,6 +5706,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4904,6 +5717,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4930,6 +5746,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4938,6 +5757,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -4967,6 +5789,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -4975,6 +5800,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5002,6 +5830,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -5010,6 +5841,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5038,6 +5872,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -5046,6 +5883,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5072,6 +5912,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -5080,6 +5923,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5106,6 +5952,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -5114,6 +5963,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5143,6 +5995,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -5151,6 +6006,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5177,6 +6035,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 12977585700991343703
@@ -5185,6 +6046,9 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -5211,6 +6075,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 9786462415611388372
@@ -5219,5 +6086,8 @@ Objects {
     }
     DecalBP {
     }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

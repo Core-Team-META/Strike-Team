@@ -2,9 +2,9 @@ Assets {
   Id: 4123902394179286005
   Name: "Custom Ceramic Tiles Square 01"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 12537868752084607232
+    BaseMaterialId: 14872484542810276313
     ParameterOverrides {
       Overrides {
         Name: "accent_color"
@@ -24,7 +24,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12537868752084607232
+      Id: 14872484542810276313
       Name: "Ceramic Tiles Square 01"
       PlatformAssetType: 2
       PrimaryAsset {

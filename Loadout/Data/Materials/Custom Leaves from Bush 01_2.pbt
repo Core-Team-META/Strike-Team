@@ -2,9 +2,9 @@ Assets {
   Id: 2790702081606474307
   Name: "Custom Leaves from Bush 01_2"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 4632948014714388163
+    BaseMaterialId: 17947257741601911542
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -20,7 +20,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4632948014714388163
+      Id: 17947257741601911542
       Name: "Birch Branch (default)"
       PlatformAssetType: 2
       PrimaryAsset {

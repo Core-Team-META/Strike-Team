@@ -2,9 +2,9 @@ Assets {
   Id: 9598390644336602565
   Name: "Custom Leaves from Bush 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 4632948014714388163
+    BaseMaterialId: 2780633502934514076
     ParameterOverrides {
       Overrides {
         Name: "wind_weight"
@@ -12,7 +12,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4632948014714388163
+      Id: 2780633502934514076
       Name: "Birch Branch (default)"
       PlatformAssetType: 2
       PrimaryAsset {
