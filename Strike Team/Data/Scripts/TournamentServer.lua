@@ -5,7 +5,7 @@ if not ENABLED then return end
 local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
 local EVENT_ID = script:GetCustomProperty("EventID")
 
-local MIN_PLAYERS_TO_SUBMIT = 2 --TODO: 6
+local MIN_PLAYERS_TO_SUBMIT = 4
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
 local POINTS_PER_KILL_TO_DEFENDER = 10
