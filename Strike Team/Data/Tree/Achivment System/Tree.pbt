@@ -4365,6 +4365,7 @@ Objects {
   ChildIds: 3151137125621554544
   ChildIds: 11169699087706568
   ChildIds: 10123266565652794471
+  ChildIds: 8088519337650755589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4376,6 +4377,123 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8088519337650755589
+  Name: "Whatever Dude"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 16186646855465007886
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Disrespected The Greatest of All Time!"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLMORT"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 12594236804975569020
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 16186646855465007886
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8088519337650755589
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "LA"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "HK"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
   }
 }
 Objects {

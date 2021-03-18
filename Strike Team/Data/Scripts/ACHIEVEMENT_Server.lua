@@ -125,6 +125,10 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRHS4", 1)
     end
 
+    if target.name == "Morticai" then
+        ACH_API.AddProgress(player, "AS_KILLMORT", 1)
+    end
+
     ACH_API.AddProgress(player, "AS_NRKill1", 1)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)

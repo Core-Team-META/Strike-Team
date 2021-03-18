@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12594236804975569020
+  Name: "Fantasy Chicken 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Chicken_001"
+  }
+}
+Assets {
   Id: 12302064936883739148
   Name: "Weapon Sub MG 004"
   PlatformAssetType: 9
