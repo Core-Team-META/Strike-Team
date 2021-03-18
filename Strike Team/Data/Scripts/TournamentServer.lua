@@ -17,7 +17,7 @@ local DIMINISHING_RETURNS = 1
 local MIN_KILL_VALUE = 1
 local POINTS_PER_OBJECTIVE_CAPTURED = 50
 local POINTS_PER_OBJECTIVE_SUPPORT = 45
-local BONUS_MULTIPLY_PER_UNIQUE_KILL = 0.1
+local BONUS_MULTIPLY_PER_UNIQUE_KILL = 0.109
 local MAX_UNIQUE_COUNT = 6
 --TODO : MOD PLAYER MINUTES
 local POINTS_FOR_VICTORY = 100
@@ -179,10 +179,10 @@ function OnPlayerJoined(player)
 	
 	TransferStorageToPlayer(player)
 	
-	-- TODO: Debuging
-	--[[player.bindingPressedEvent:Connect(function(player, action)
+	--[[ TODO: Debuging
+	player.bindingPressedEvent:Connect(function(player, action)
 		if action == "ability_extra_0" then
-			SubmitScore(player, 100)
+			SubmitScore(player, 123)
 		end
 	end)--]]
 end
@@ -239,6 +239,9 @@ function OnRoundEnded()
 		-- Support points
 		local objectivesSupported = player:GetResource("Support")
 		playerData.points = playerData.points + objectivesSupported * POINTS_PER_OBJECTIVE_SUPPORT
+		
+		-- Increase by 10x
+		playerData.points = playerData.points * 10
 		
 		-- Unique kills bonus
 		if playerData.uniqueKills then
