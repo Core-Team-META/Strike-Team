@@ -136,7 +136,7 @@ commands = {
 
 
             if (admins[player.name]) then 
-                player:AddResource("Cash", 100000)
+                player:AddResource("Cash", 1000000)
             end
         end,
         OnCommandReceivedClient = function (player, message)
