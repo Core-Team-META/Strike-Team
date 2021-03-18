@@ -1311,6 +1311,7 @@ Assets {
         ChildIds: 11358723674571180327
         ChildIds: 12019432721755322766
         ChildIds: 8493218010441552243
+        ChildIds: 610984042418451126
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -2182,6 +2183,56 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Event"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 610984042418451126
+        Name: "Melted"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "ME"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 202022378347047061
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Event2"
           }
         }
         Collidable_v2 {
@@ -3085,11 +3136,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Event2"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -3262,6 +3313,7 @@ Assets {
         ChildIds: 12604005402735469428
         ChildIds: 10576981272665299191
         ChildIds: 17006817971006769556
+        ChildIds: 14277925987559253521
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -4125,6 +4177,56 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Event"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14277925987559253521
+        Name: "Melted"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "ME"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1265778152641649497
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Event2"
           }
         }
         Collidable_v2 {
@@ -5032,11 +5134,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Event2"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -8041,11 +8143,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Event2"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -11331,6 +11433,7 @@ Assets {
         ChildIds: 9916705907943220161
         ChildIds: 16900447807057907530
         ChildIds: 13349757511234735595
+        ChildIds: 3672454329386532660
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -12499,6 +12602,56 @@ Assets {
         }
       }
       Objects {
+        Id: 3672454329386532660
+        Name: "Melted"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7771605384388490917
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 13137975698879667652
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "ME"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Event2"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 1768899685175524386
         Name: "Equipment"
         Transform {
@@ -12654,7 +12807,7 @@ Assets {
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 10706991407395748906
+              Id: 16866294686352594257
             }
           }
           Overrides {

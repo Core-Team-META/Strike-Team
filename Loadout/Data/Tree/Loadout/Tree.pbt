@@ -5212,6 +5212,13 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity_Event2"
+      Color {
+        R: 0.350000024
+        A: 1
+      }
+    }
+    Overrides {
       Name: "cs:Stars"
       AssetReference {
         Id: 5369031841527769802
@@ -5221,6 +5228,12 @@ Objects {
       Name: "cs:EventIcon"
       AssetReference {
         Id: 972271611067364083
+      }
+    }
+    Overrides {
+      Name: "cs:Event2Icon"
+      AssetReference {
+        Id: 4603182008044739582
       }
     }
     Overrides {

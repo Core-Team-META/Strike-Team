@@ -10,6 +10,7 @@ local Raritys = {
     ["Epic"]  =Rarity.New("Epic",25000,625,3,3,10),
     ["Legendary"]  =Rarity.New("Legendary",100000,2500,4,4,15),
     ["Event"] = Rarity.New("Event",0,0,0,1,0),
+    ["Event2"] = Rarity.New("Event2",0,0,0,1,0),
 }
 
 local Database = {} 
