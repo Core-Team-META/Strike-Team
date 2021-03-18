@@ -4394,7 +4394,7 @@ Objects {
 }
 Objects {
   Id: 8718754846646702422
-  Name: "Kill Vitriol08"
+  Name: "Vitriol08 Win"
   Transform {
     Location {
     }
@@ -4511,7 +4511,7 @@ Objects {
 }
 Objects {
   Id: 2495306490441641483
-  Name: "Kill Ooccoo"
+  Name: "Ooccoo Win"
   Transform {
     Location {
     }
@@ -4628,7 +4628,7 @@ Objects {
 }
 Objects {
   Id: 9508784971789719093
-  Name: "Kill Basilisk"
+  Name: "Basilisk Win"
   Transform {
     Location {
     }
@@ -4745,7 +4745,7 @@ Objects {
 }
 Objects {
   Id: 15339137689362547094
-  Name: "Kill Mucusinator"
+  Name: "Mucusinator Win"
   Transform {
     Location {
     }
@@ -4862,7 +4862,7 @@ Objects {
 }
 Objects {
   Id: 7305643264517592147
-  Name: "Kill Bigglebuns"
+  Name: "Bigglebuns Win"
   Transform {
     Location {
     }
@@ -4979,7 +4979,7 @@ Objects {
 }
 Objects {
   Id: 17441027790967437236
-  Name: "Kill Aggripina"
+  Name: "Aggripina Win"
   Transform {
     Location {
     }
@@ -5096,7 +5096,7 @@ Objects {
 }
 Objects {
   Id: 17063760838501821596
-  Name: "Kill standardcombo"
+  Name: "standardcombo Win"
   Transform {
     Location {
     }
@@ -5213,7 +5213,7 @@ Objects {
 }
 Objects {
   Id: 17262648538806326950
-  Name: "Kill Coderz"
+  Name: "Coderz Win"
   Transform {
     Location {
     }
@@ -5330,7 +5330,7 @@ Objects {
 }
 Objects {
   Id: 14983550505645937187
-  Name: "Kill Rolok"
+  Name: "Rolok Win"
   Transform {
     Location {
     }
@@ -5447,7 +5447,7 @@ Objects {
 }
 Objects {
   Id: 13783545874883682024
-  Name: "Kill AwkwardGameDev"
+  Name: "AwkwardGameDev Win"
   Transform {
     Location {
     }
@@ -5564,7 +5564,7 @@ Objects {
 }
 Objects {
   Id: 18075565352971449546
-  Name: "Kill WitcherSilver"
+  Name: "WitcherSilver Win"
   Transform {
     Location {
     }
@@ -5681,7 +5681,7 @@ Objects {
 }
 Objects {
   Id: 2196457576583395080
-  Name: "Kill blaking707"
+  Name: "blaking707 Win"
   Transform {
     Location {
     }
@@ -5798,7 +5798,7 @@ Objects {
 }
 Objects {
   Id: 8969863629118001734
-  Name: "Kill Buckmonster"
+  Name: "Buckmonster Win"
   Transform {
     Location {
     }
@@ -5915,7 +5915,7 @@ Objects {
 }
 Objects {
   Id: 8088519337650755589
-  Name: "Kill Morticai"
+  Name: "Morticai Win"
   Transform {
     Location {
     }

@@ -125,41 +125,6 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRHS4", 1)
     end
 
-    if target.id == "d1073dbcc404405cbef8ce728e53d380" then --Morticai
-        ACH_API.AddProgress(player, "AS_KILLMORT", 1)
-    elseif target.id == "901b7628983c4c8db4282f24afeda57a" then --Buckmonster
-        ACH_API.AddProgress(player, "AS_KILLBUCK", 1)
-    elseif target.id == "b4c6e32137e54571814b5e8f27aa2fcd" then --standardcombo
-        ACH_API.AddProgress(player, "AS_KILLSTANDARD", 1)
-    elseif target.id == "0ea6612ceab7456a8a3a963a94808295" then --blaking707
-        ACH_API.AddProgress(player, "AS_KILLBLAKE", 1)
-    elseif target.id == "e730c40ae54d4c588658667927acc6d8" then --WitcherSilver
-        ACH_API.AddProgress(player, "AS_KILLWITCHER", 1)
-    elseif target.id == "557d4f1ae17646579646dfd20dcb7b66" then --AwkwardGameDev
-        ACH_API.AddProgress(player, "AS_KILLAWKWARD", 1)
-    elseif target.id == "1f67a03d5a8f478b993aad1c79b45640" then --Rolok
-        ACH_API.AddProgress(player, "AS_KILLROLOK", 1)
-    elseif target.id == "d5daea732ee3422fbe85aecb900e73ec" then --Coderz
-        ACH_API.AddProgress(player, "AS_KILLCODERZ", 1)
-    elseif target.id == "d6d9d578840a44c79a3f05c15de23bf8" then --Aggripina
-        ACH_API.AddProgress(player, "AS_KILLAGGRIPINA", 1)
-    elseif target.id == "400d8e7acb154e5bb64368411824b61d" then --Bigglebuns
-        ACH_API.AddProgress(player, "AS_KILLBIGGLE", 1)
-    elseif target.id == "94d3fd50c4824f019421895ec8dbf099" then --Mucusinator
-        ACH_API.AddProgress(player, "AS_KILLMUCU", 1)
-    elseif target.id == "c14f61b74826471f974f06ff7e42d97b" then --Basilisk
-        ACH_API.AddProgress(player, "AS_KILLBASK", 1)
-    elseif target.id == "a136c0d1d9454d539c9932354198fc29" then --Ooccoo
-        ACH_API.AddProgress(player, "AS_KILLOOCOO", 1)
-    elseif target.id == "b36d1cbf1fc9449fb5dc1d93d1161e86" then --Vitriol08
-        ACH_API.AddProgress(player, "AS_KILLVITRIOL", 1)
-    end
-
-
-
-
-
-
     ACH_API.AddProgress(player, "AS_NRKill1", 1)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
@@ -220,20 +185,49 @@ end
 function OnRoundEnd()
     local team1 = Game.GetTeamScore(1)
     local team2 = Game.GetTeamScore(2)
+    local tempTbl = {}
+    for _, target in ipairs(Game.GetPlayers()) do
+        if target.id == "d1073dbcc404405cbef8ce728e53d380" then --Morticai
+            tempTbl[target] = "AS_KILLMORT"
+        elseif target.id == "901b7628983c4c8db4282f24afeda57a" then --Buckmonster
+            tempTbl[target] = "AS_KILLBUCK"
+        elseif target.id == "b4c6e32137e54571814b5e8f27aa2fcd" then --standardcombo
+            tempTbl[target] = "AS_KILLSTANDARD"
+        elseif target.id == "0ea6612ceab7456a8a3a963a94808295" then --blaking707
+            tempTbl[target] = "AS_KILLBLAKE"
+        elseif target.id == "e730c40ae54d4c588658667927acc6d8" then --WitcherSilver
+            tempTbl[target] = "AS_KILLWITCHER"
+        elseif target.id == "557d4f1ae17646579646dfd20dcb7b66" then --AwkwardGameDev
+            tempTbl[target] = "AS_KILLAWKWARD"
+        elseif target.id == "1f67a03d5a8f478b993aad1c79b45640" then --Rolok
+            tempTbl[target] = "AS_KILLROLOK"
+        elseif target.id == "d5daea732ee3422fbe85aecb900e73ec" then --Coderz
+            tempTbl[target] = "AS_KILLCODERZ"
+        elseif target.id == "d6d9d578840a44c79a3f05c15de23bf8" then --Aggripina
+            tempTbl[target] = "AS_KILLAGGRIPINA"
+        elseif target.id == "400d8e7acb154e5bb64368411824b61d" then --Bigglebuns
+            tempTbl[target] = "AS_KILLBIGGLE"
+        elseif target.id == "94d3fd50c4824f019421895ec8dbf099" then --Mucusinator
+            tempTbl[target] = "AS_KILLMUCU"
+        elseif target.id == "c14f61b74826471f974f06ff7e42d97b" then --Basilisk
+            tempTbl[target] = "AS_KILLBASK"
+        elseif target.id == "a136c0d1d9454d539c9932354198fc29" then --Ooccoo
+            tempTbl[target] = "AS_KILLOOCOO"
+        elseif target.id == "b36d1cbf1fc9449fb5dc1d93d1161e86" then --Vitriol08
+            tempTbl[target] = "AS_KILLVITRIOL"
+        end
+    end
+
     for _, player in ipairs(Game.GetPlayers()) do --
-        --#TODO Temp turned off
-        --[[if (team1 > team2 and player.team == team1) or (team1 < team2 and player.team == team2) then
-            ACH_API.AddProgress(player, "AS_10WINS", 1)
-            ACH_API.AddProgress(player, "AS_100WINS", 1)
+        if
+            (team1 > team2 and player.team == team1 and #tempTbl > 0) or
+                (team1 < team2 and player.team == team2 and #tempTbl > 0)
+         then
+            for target, achievementId in pairs(tempTbl) do
+                ACH_API.AddProgress(player, achievementId, 1)
+            end
         end
 
-        ACH_API.AddProgress(player, "AS_500MATCHES", 1)
-        if
-            player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount >= 1 and
-                not player.serverUserData.ACH_diedInRound
-         then
-            ACH_API.AddProgress(player, "AS_UNKILLABLE", 1)
-        end]]
         if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
             ACH_API.UnlockAchievement(player, "AS_Blackjack")
         end
