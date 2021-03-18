@@ -3,7 +3,7 @@
 # Strike Team
 
 [![Build Status](https://github.com/Core-Team-META/Strike-Team/workflows/CI/badge.svg)](https://github.com/Core-Team-META/Strike-Team/actions?query=workflow%3A%22Build+%26+Deploy+%28Development%29%22)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/Strike-Team?style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/Strike-Team/?style=plastic)
 
 [![](https://i.imgur.com/ye2nNA4l.jpg)](https://www.coregames.com/games/9442a4/strike-team)
 
