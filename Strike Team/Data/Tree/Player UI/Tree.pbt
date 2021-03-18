@@ -2314,8 +2314,8 @@ Objects {
   Control {
     Width: 48
     Height: 48
-    UIX: -36.8781738
-    UIY: -308.688477
+    UIX: -101.603119
+    UIY: -328.061432
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2365,9 +2365,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 19
+    Width: 120
     Height: 16
-    UIX: 0.158225238
     UIY: 35.0953407
     RenderTransformPivot {
       Anchor {
@@ -2377,18 +2376,20 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "LEADERBOARDS"
+      Label: "GUNS N\' GLORY TOURNAMENT STANDINGS"
       Color {
-        R: 0.416666657
-        G: 0.228164867
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
-      Size: 8
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
-      ClipTextToSize: true
+      AutoWrapText: true
       Font {
+        Id: 10698833128597864431
       }
     }
     AnchorLayout {

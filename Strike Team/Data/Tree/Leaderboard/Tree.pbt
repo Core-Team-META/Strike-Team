@@ -804,7 +804,7 @@ Objects {
       }
     }
     Text {
-      Label: "Scoring in  Strike Team  is based on a combination of kills and points captured, with bonus for variety of players killed, headshots and penalties for dying."
+      Label: "Scoring in  Strike Team  is based on a combination of points captured, wins, kills, and bonus points for variety of players killed, headshots and penalties for dying."
       Color {
         R: 1
         G: 1
