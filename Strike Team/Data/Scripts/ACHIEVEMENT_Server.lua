@@ -149,6 +149,10 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_KILLMUCU", 1)
     elseif target.id == "c14f61b74826471f974f06ff7e42d97b" then --Basilisk
         ACH_API.AddProgress(player, "AS_KILLBASK", 1)
+    elseif target.id == "a136c0d1d9454d539c9932354198fc29" then --Ooccoo
+        ACH_API.AddProgress(player, "AS_KILLOOCOO", 1)
+    elseif target.id == "b36d1cbf1fc9449fb5dc1d93d1161e86" then --Vitriol08
+        ACH_API.AddProgress(player, "AS_KILLVITRIOL", 1)
     end
 
 

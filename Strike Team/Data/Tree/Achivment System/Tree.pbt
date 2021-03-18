@@ -4377,6 +4377,8 @@ Objects {
   ChildIds: 7305643264517592147
   ChildIds: 15339137689362547094
   ChildIds: 9508784971789719093
+  ChildIds: 2495306490441641483
+  ChildIds: 8718754846646702422
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4388,6 +4390,240 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8718754846646702422
+  Name: "Kill Vitriol08"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 14356572621132904330
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLVITRIOL"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13586096600253432719
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLVITRIOL"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 14356572621132904330
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8718754846646702422
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 2495306490441641483
+  Name: "Kill Ooccoo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 9400605080079939561
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Makeshift Machette"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLOOCOO"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 4791209051584479532
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLOOCOO"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 9400605080079939561
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2495306490441641483
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "JK"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "LI"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
   }
 }
 Objects {
@@ -4435,7 +4671,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLBASK"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -4526,7 +4762,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the WW2 skin for the Sub Machine Gun"
     }
     Overrides {
       Name: "cs:Required"
@@ -4552,7 +4788,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLMUCU"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -4643,7 +4879,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Biggle Bat skin"
     }
     Overrides {
       Name: "cs:Required"
@@ -4669,7 +4905,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLBIGGLE"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -4760,7 +4996,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Plunger skin for the Bat"
     }
     Overrides {
       Name: "cs:Required"
@@ -4768,7 +5004,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ID"
-      String: "AS_KILLAGGRIPINA"
+      String: "AS_KILLSTANDARD"
     }
     Overrides {
       Name: "cs:Enabled"
@@ -4786,7 +5022,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLSTANDARD"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -4877,7 +5113,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Fren skin for the Sub Machine Gun "
     }
     Overrides {
       Name: "cs:Required"
@@ -4903,7 +5139,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLSTANDARD"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -4994,7 +5230,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Dark Devout skin for the Sub Machine Gun  "
     }
     Overrides {
       Name: "cs:Required"
@@ -5020,7 +5256,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLCODERZ"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -5111,7 +5347,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Demon Hunter skin for the Knife"
     }
     Overrides {
       Name: "cs:Required"
@@ -5137,7 +5373,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLROLOK"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -5228,7 +5464,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the GraFiXX skin for the Sub Machine Gun"
     }
     Overrides {
       Name: "cs:Required"
@@ -5254,7 +5490,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLAWKWARD"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -5345,7 +5581,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the StarHopper skin for the Assault Rifle"
     }
     Overrides {
       Name: "cs:Required"
@@ -5371,7 +5607,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLWITCHER"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -5462,7 +5698,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Dark Devout Sub Machine Gun"
     }
     Overrides {
       Name: "cs:Required"
@@ -5488,7 +5724,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLBLAKE"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -5579,7 +5815,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Toy skin for the Assault Rifle"
     }
     Overrides {
       Name: "cs:Required"
@@ -5605,7 +5841,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLBUCK"
     }
     Overrides {
       Name: "cs:IconBG"
@@ -5696,7 +5932,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Laser skin for the Assault Rifle"
     }
     Overrides {
       Name: "cs:Required"
@@ -5722,7 +5958,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: ""
+      String: "KILLMORT"
     }
     Overrides {
       Name: "cs:IconBG"
