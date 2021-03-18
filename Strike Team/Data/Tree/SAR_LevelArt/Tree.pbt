@@ -24225,7 +24225,7 @@ Objects {
   Name: "Hills 01"
   Transform {
     Location {
-      X: 8101.97461
+      X: 8036.18066
       Y: -4799.2
       Z: 570.000244
     }
@@ -61568,7 +61568,6 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  ChildIds: 10505987919052214397
   ChildIds: 12927073856624667494
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -61588,67 +61587,17 @@ Objects {
   Name: "Girder Medium 4m"
   Transform {
     Location {
-      X: -21.1543159
-      Y: -58.0518379
-      Z: 0.0793082714
+      X: -157.372375
+      Y: -58.0515938
+      Z: 0.0793004
     }
     Rotation {
       Roll: 89.9999771
     }
     Scale {
-      X: 0.800679684
-      Y: 1.00000024
-      Z: 0.999997437
-    }
-  }
-  ParentId: 1270981561135005956
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1783293305347824158
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14056018732352046755
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10505987919052214397
-  Name: "Girder Medium 4m"
-  Transform {
-    Location {
-      X: -168.384521
-      Y: -57.2379
-      Z: 3.43322754e-05
-    }
-    Rotation {
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 0.75
-      Y: 1
-      Z: 1
+      X: 1.13547409
+      Y: 1.0000006
+      Z: 1.00000226
     }
   }
   ParentId: 1270981561135005956
@@ -64534,7 +64483,7 @@ Objects {
   ChildIds: 14872439672389305583
   ChildIds: 2907581234258997501
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -64968,7 +64917,7 @@ Objects {
   ChildIds: 16731548843002907042
   ChildIds: 16461750489927409878
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -75918,6 +75867,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -79697,7 +79652,7 @@ Objects {
   Name: "Hills 01"
   Transform {
     Location {
-      X: 10530
+      X: 10464.2061
       Y: -5255
       Z: 570.000244
     }

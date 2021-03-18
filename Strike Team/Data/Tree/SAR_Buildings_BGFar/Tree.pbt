@@ -3365,7 +3365,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: 10208.2734
+      X: 10142.4805
       Y: -22097.6484
       Z: 2280
     }
