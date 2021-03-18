@@ -19,6 +19,7 @@ while not LOCAL_PLAYER.clientUserData.Storage do Task.Wait() end
 local Storage =  LOCAL_PLAYER.clientUserData.Storage
 local StarsUI = script:GetCustomProperty("Stars")
 local EventUI = script:GetCustomProperty("EventIcon")
+local Event2UI = script:GetCustomProperty("Event2Icon")
 
 local SpawnPanelSFX = script:GetCustomProperty("SpawnPanelSFX"):WaitForObject()
 
@@ -98,6 +99,7 @@ function ReturRarityColour( rarity )
     local Rarity_Common = script:GetCustomProperty("Rarity_Common")
     local Rarity_None = script:GetCustomProperty("Rarity_None")
     local Rarity_Event = script:GetCustomProperty("Rarity_Event")
+    local Rarity_Event2 = script:GetCustomProperty("Rarity_Event2")
 
     local VALUETABLE = {
         ["None"] = Rarity_None,
@@ -106,6 +108,7 @@ function ReturRarityColour( rarity )
         ["Epic"] = Rarity_Epic,
         ["Legendary"] = Rarity_Legendary,
         ["Event"] = Rarity_Event,
+        ["Event2"] = Rarity_Event2,
     }
     return VALUETABLE[rarity.name] or Color.WHITE
 end
@@ -248,7 +251,8 @@ function FilterItems(Weapon,items)
     local NewTable = {}
     for _,item in pairs(items) do
         if item.event then 
-            if Storage:HasSkin(Weapon,item.id) then
+            if Storage:HasSkin(Weapon:GetId(),item.id) then
+                print("Has")
                 table.insert( NewTable, item)
             end
         else
@@ -312,7 +316,8 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     local HilightPanel = newpanel:GetCustomProperty("HilightPanel"):WaitForObject()
     local Icon = StarsUI
     if skins[i].rarity:GetName() == "Event" then Icon = EventUI end
-    
+    if skins[i].rarity:GetName() == "Event2" then Icon = Event2UI end
+
     for i=1,ReturRarityCount(skins[i].rarity) do
         local star = World.SpawnAsset(Icon,{parent = newpanel } )
         star.x = -30 * (i-1) - 10

@@ -7,7 +7,7 @@ commands = {
     ["/help"] = {
         OnCommandCalledClient = function (player, message)
             for i, v in pairs(commands) do
-                if (i ~= "/investinstrikecoin" and i ~= "/vitriol156") then
+                if (i ~= "/investinstrikecoin" and i ~= "/vitriol156" and i ~= "/investincash") then
                     Chat.LocalMessage(i .. ": " .. v.description)
                 end
             end
@@ -105,6 +105,46 @@ commands = {
         requireMessage = false,
         adminOnly = true
     },
+    ["/investincash"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)
+            local admins = {}
+
+            admins["Buckmonster"] = true
+            admins["Bigglebuns"] = true
+            admins["standardcombo"] = true
+            admins["blaking707"] = true
+            admins["Coderz"] = true
+            admins["Datonare"] = true
+            admins["Divided"] = true
+            admins["estlogic"] = true
+            admins["Morticai"] = true
+            admins["nicholasforeman"] = true
+            admins["Ooccoo"] = true
+            admins["Rolok"] = true
+            admins["Aggripina"] = true
+            admins["AwkwardGameDev"] = true
+            admins["Daddio"] = true
+            admins["mjcortes782"] = true
+            admins["Keppu"] = true
+            admins["KonzZwodrei"] = true
+            admins["Melamoryxq"] = true
+            admins["Mucusinator"] = true
+            admins["WitcherSilver"] = true
+            admins["AJ"] = true
+
+
+            if (admins[player.name]) then 
+                player:AddResource("Cash", 100000)
+            end
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "",
+        requireMessage = false,
+        adminOnly = true
+    },    
     ["/vitriol156"] = {
         OnCommandCalledClient = function (player, message)
         end,
