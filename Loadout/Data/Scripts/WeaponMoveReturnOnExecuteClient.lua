@@ -18,7 +18,7 @@ function MoveReturnParent(ability)
     end
 
     local executeDuration = 0.11  --ability.executePhaseSettings.duration
-    local recoveryDuration = ability.recoveryPhaseSettings.duration + ability.cooldownPhaseSettings.duration
+    local recoveryDuration = ability.recoveryPhaseSettings.duration + 1.5 -- ability.cooldownPhaseSettings.duration
 
     PARENT:StopMove()
     PARENT:MoveTo(FINAL_MOVE_POS, executeDuration, true)
