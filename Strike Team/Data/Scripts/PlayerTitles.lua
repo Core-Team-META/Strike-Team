@@ -257,7 +257,7 @@ Module.titles = {
 		isModerator = false,
 		playerMUIDs = {
 			"ef18f7661bf14d0eae60d7f31ea769af", -- TeamMETA
-
+			"eaba4947069846dbb72fc5efb0f04f47", -- Divided
 			"d6d9d578840a44c79a3f05c15de23bf8", -- Aggripina
 			"a136c0d1d9454d539c9932354198fc29", -- Ooccoo
 			"0b63f4ffba9c4518b50e4f815a9ec51a", -- Datonare

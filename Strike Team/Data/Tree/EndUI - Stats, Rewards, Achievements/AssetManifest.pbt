@@ -53,6 +53,24 @@ Assets {
   }
 }
 Assets {
+  Id: 12570125024485235394
+  Name: "Icon Grenade"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Grenade"
+  }
+}
+Assets {
+  Id: 12518523058896282728
+  Name: "Flag Pole"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_038"
+  }
+}
+Assets {
   Id: 11933328948886938037
   Name: "Sci-fi Corners 001"
   PlatformAssetType: 9
@@ -77,6 +95,24 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "PlayBold_ref"
+  }
+}
+Assets {
+  Id: 7294692278211928688
+  Name: "Unlock"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Urban_Icon_061"
+  }
+}
+Assets {
+  Id: 5117682363935586293
+  Name: "Icon Chest"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Chest"
   }
 }
 Assets {
@@ -140,5 +176,14 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_Explosion"
+  }
+}
+Assets {
+  Id: 96162478431907100
+  Name: "UI Gradient Circular 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Shape_001"
   }
 }

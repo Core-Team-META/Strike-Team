@@ -2,25 +2,26 @@ Assets {
   Id: 15867991597074239554
   Name: "Custom Fabric Burlap Old 01"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 8898917516799173949
     ParameterOverrides {
       Overrides {
         Name: "gradient_color"
         Color {
-          R: 0.159999967
-          G: 0.0985430256
+          R: 1
+          G: 0.627019882
+          B: 0.120000005
           A: 1
         }
       }
       Overrides {
         Name: "gradient_shift"
-        Float: 0.078201443
+        Float: 0
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0.107879438
+        Float: 1
       }
       Overrides {
         Name: "color"

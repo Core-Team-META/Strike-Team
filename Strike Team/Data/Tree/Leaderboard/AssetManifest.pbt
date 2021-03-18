@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2044747135125227812
+  Name: "Play"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayRegular_ref"
+  }
+}
+Assets {
   Id: 1814707273787853473
   Name: "BG Flat 001"
   PlatformAssetType: 9

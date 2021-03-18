@@ -1,12 +1,14 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/2/2
--- Version 0.1.1
+-- Date: 2021/3/16
+-- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 ------------------------------------------------------------------------------------------------------------------------
@@ -76,6 +78,13 @@ local function IsVaildId(id)
     return true
 end
 
+local function ClearPlayerFlags()
+    for _, player in ipairs(Game.GetPlayers()) do
+        player.serverUserData.onStrikePoint = false
+        player.serverUserData.supportCapture = false
+    end
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -90,6 +99,7 @@ end
 function OnGameTypeEnd(id)
     if IsVaildId(id) then
         Log("Disabling")
+        ClearPlayerFlags()
         Cleanup()
     end
 end
@@ -105,6 +115,7 @@ function OnGameTypeChanged(object, string)
         local hillResource = GetData(object)
         if hillResource[3] <= 0 and Object.IsValid(currentHill) then
             currentHill:Destroy()
+            ClearPlayerFlags()
             SpawnNewHill()
         end
     end

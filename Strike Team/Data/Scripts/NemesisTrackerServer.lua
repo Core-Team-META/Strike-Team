@@ -112,41 +112,41 @@ function TrackKill(victim, damage)
 	end
 
 	-- nemesis index
-	if not nemesisIndex[victim.id] then
+	if not nemesisIndex[victim.name] then
 	
-		nemesisIndex[victim.id] = {}
+		nemesisIndex[victim.name] = {}
 		
 	end
 	
-	if not nemesisIndex[victim.id][killer.id] then
+	if not nemesisIndex[victim.name][killer.name] then
 	
-		nemesisIndex[victim.id][killer.id] = 1
+		nemesisIndex[victim.name][killer.name] = 1
 		
 	else 
 	
-		nemesisIndex[victim.id][killer.id] = nemesisIndex[victim.id][killer.id] + 1
+		nemesisIndex[victim.name][killer.name] = nemesisIndex[victim.name][killer.name] + 1
 		
 	end
 	
 	-- victim index
-	if not victimIndex[killer.id] then
+	if not victimIndex[killer.name] then
 	
-		victimIndex[killer.id] = {}
+		victimIndex[killer.name] = {}
 		
 	end
 	
-	if not victimIndex[killer.id][victim.id] then
+	if not victimIndex[killer.name][victim.name] then
 	
-		victimIndex[killer.id][victim.id] = 1
+		victimIndex[killer.name][victim.name] = 1
 		
 	else 
 	
-		victimIndex[killer.id][victim.id] = victimIndex[killer.id][victim.id] + 1
+		victimIndex[killer.name][victim.name] = victimIndex[killer.name][victim.name] + 1
 		
 	end
 	
 	
-	--print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.id][killer.id]) .. " times.")
+	--print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.name][killer.name]) .. " times.")
 
 end
 
@@ -346,7 +346,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
 end
 
 Game.playerJoinedEvent:Connect(Setup)
-Game.playerLeftEvent:Connect(RemoveFromTable)
+--Game.playerLeftEvent:Connect(RemoveFromTable)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("PrintNemesis", PrintNemesisIndex)

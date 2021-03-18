@@ -2,7 +2,7 @@ Assets {
   Id: 7223390112882136517
   Name: "Trim from Modern Weapon - Body 03"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 18175195491993203160
     ParameterOverrides {

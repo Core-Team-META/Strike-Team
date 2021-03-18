@@ -124,10 +124,11 @@ function OnCastAbility(ability)
     end
 
     Task.Wait(0.2)
-
-    if ability:GetCurrentPhase() == AbilityPhase.CAST then
-        if Object.IsValid(aimLine) then
-            aimLine.visibility = Visibility.INHERIT
+    if Object.IsValid(ability) then
+        if ability:GetCurrentPhase() == AbilityPhase.CAST then
+            if Object.IsValid(aimLine) then
+                aimLine.visibility = Visibility.INHERIT
+            end
         end
     end
 end

@@ -44,7 +44,15 @@ Assets {
           }
         }
       }
+      Overrides {
+        Name: "cs:MainGameId"
+        String: "9442a4/strike-team"
+      }
+      Overrides {
+        Name: "cs:LoadoutGameId"
+        String: "d44cf9/strike-team-loadout"
+      }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

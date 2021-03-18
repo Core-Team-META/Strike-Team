@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 17968997720740810451
-        ChildIds: 5726132740274440566
+        ChildIds: 3102743743046777759
+        ChildIds: 11456748931007616135
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -27,17 +27,20 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         NetworkContext {
         }
       }
       Objects {
-        Id: 17968997720740810451
+        Id: 3102743743046777759
         Name: "Group"
         Transform {
           Location {
-            X: 7.7658844
-            Y: 3.11187744
-            Z: -15.9045563
+            X: 7.71435547
+            Y: 3.11230469
+            Z: -15.9995117
           }
           Rotation {
           }
@@ -48,27 +51,30 @@ Assets {
           }
         }
         ParentId: 7684284360114232332
-        ChildIds: 212233916765599229
-        ChildIds: 1818531591183902728
-        ChildIds: 6049975717604504698
-        ChildIds: 3093046427354002693
-        ChildIds: 2818188672286183543
-        ChildIds: 15239599861158928353
-        ChildIds: 12374146224270498268
-        ChildIds: 17049987158320133032
-        ChildIds: 9559250969127774782
+        ChildIds: 1211248475533187078
+        ChildIds: 11656453376347821318
+        ChildIds: 16677095924665990070
+        ChildIds: 16617577058969139428
+        ChildIds: 10643786425627097135
+        ChildIds: 2943646272440130234
+        ChildIds: 7543600654803032544
+        ChildIds: 13856910049579605423
+        ChildIds: 820362381391310765
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 212233916765599229
+        Id: 1211248475533187078
         Name: "Group"
         Transform {
           Location {
@@ -83,21 +89,23 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17968997720740810451
-        ChildIds: 15754140585856726818
-        ChildIds: 459598218024702610
+        ParentId: 3102743743046777759
+        ChildIds: 5905279460974997378
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 15754140585856726818
+        Id: 5905279460974997378
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -115,7 +123,7 @@ Assets {
             Z: 0.918496609
           }
         }
-        ParentId: 212233916765599229
+        ParentId: 1211248475533187078
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -180,15 +188,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -219,6 +218,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -235,146 +237,7 @@ Assets {
         }
       }
       Objects {
-        Id: 459598218024702610
-        Name: "Weapon - Pipe"
-        Transform {
-          Location {
-            X: 17.9942799
-            Y: 5.72144556
-            Z: 89.2469101
-          }
-          Rotation {
-            Pitch: -19.881134
-            Yaw: 16.1282349
-            Roll: 0.513660669
-          }
-          Scale {
-            X: 0.0481483527
-            Y: 0.0481483527
-            Z: 0.0481483527
-          }
-        }
-        ParentId: 212233916765599229
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 9957969701091698435
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 15312384478167344315
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 1.04952431
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 1.90888679
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.269999981
-              G: 0.107284769
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:id"
-            AssetReference {
-              Id: 14227389810073475588
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:utile"
-            Float: 15.4894476
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:vtile"
-            Float: 12.6614723
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:utile"
-            Float: 14.9776602
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:vtile"
-            Float: 20.9586601
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail3:id"
-            AssetReference {
-              Id: 18339968451170207572
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail3:color"
-            Color {
-              R: 0.27
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail3:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_Detail3:utile"
-            Float: 5.11094856
-          }
-          Overrides {
-            Name: "ma:Shared_Detail3:vtile"
-            Float: 6.04590416
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5944393796542654307
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1818531591183902728
+        Id: 11656453376347821318
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -393,7 +256,7 @@ Assets {
             Z: -0.0286462028
           }
         }
-        ParentId: 17968997720740810451
+        ParentId: 3102743743046777759
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -404,7 +267,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17742572886206846684
+              Id: 13844995264650658061
             }
           }
           Overrides {
@@ -458,15 +321,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.19600001
-              G: 0.19600001
-              B: 0.19600001
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -498,6 +352,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 10431978243425830506
@@ -506,7 +363,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -514,7 +370,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6049975717604504698
+        Id: 16677095924665990070
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -533,7 +389,7 @@ Assets {
             Z: -0.0286462028
           }
         }
-        ParentId: 17968997720740810451
+        ParentId: 3102743743046777759
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -544,7 +400,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17742572886206846684
+              Id: 13844995264650658061
             }
           }
           Overrides {
@@ -598,15 +454,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.19600001
-              G: 0.19600001
-              B: 0.19600001
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -638,6 +485,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 10431978243425830506
@@ -646,7 +496,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableReceiveDecals: true
           StaticMesh {
             Physics {
             }
@@ -654,7 +503,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3093046427354002693
+        Id: 16617577058969139428
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -673,7 +522,7 @@ Assets {
             Z: -0.0453115366
           }
         }
-        ParentId: 17968997720740810451
+        ParentId: 3102743743046777759
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -738,15 +587,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -778,6 +618,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 14418436273660014664
@@ -793,7 +636,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2818188672286183543
+        Id: 10643786425627097135
         Name: "Ball"
         Transform {
           Location {
@@ -809,21 +652,23 @@ Assets {
             Z: 1.25498867
           }
         }
-        ParentId: 17968997720740810451
-        ChildIds: 8797228348772386837
-        ChildIds: 6519282048759287968
+        ParentId: 3102743743046777759
+        ChildIds: 7362537883582588575
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 8797228348772386837
+        Id: 7362537883582588575
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -842,7 +687,7 @@ Assets {
             Z: 0.424230218
           }
         }
-        ParentId: 2818188672286183543
+        ParentId: 10643786425627097135
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -912,17 +757,17 @@ Assets {
             Float: 6.04590416
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.692185402
-              G: 0.78
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 2431930573571638561
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.433333278
+              G: 1
+              A: 1
             }
           }
         }
@@ -931,6 +776,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -947,54 +795,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6519282048759287968
-        Name: "Decal Burnt Streaks 01"
-        Transform {
-          Location {
-            X: -0.678513467
-            Y: -0.0312674046
-            Z: -0.12636447
-          }
-          Rotation {
-            Pitch: -12.0545959
-            Yaw: 26.228672
-            Roll: 168.837555
-          }
-          Scale {
-            X: 0.0224003978
-            Y: 0.0140004493
-            Z: 0.0266523436
-          }
-        }
-        ParentId: 2818188672286183543
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.200397372
-              G: 0.340000033
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13615266602471424216
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 15239599861158928353
+        Id: 2943646272440130234
         Name: "Ball"
         Transform {
           Location {
@@ -1010,21 +811,23 @@ Assets {
             Z: 1.25498867
           }
         }
-        ParentId: 17968997720740810451
-        ChildIds: 11196037914959553929
-        ChildIds: 12857057619718240570
+        ParentId: 3102743743046777759
+        ChildIds: 17249742811782489390
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 11196037914959553929
+        Id: 17249742811782489390
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -1043,7 +846,7 @@ Assets {
             Z: 0.424230218
           }
         }
-        ParentId: 15239599861158928353
+        ParentId: 2943646272440130234
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -1113,17 +916,17 @@ Assets {
             Float: 6.04590416
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.692185402
-              G: 0.78
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 2431930573571638561
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.433333278
+              G: 1
+              A: 1
             }
           }
         }
@@ -1132,6 +935,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1148,54 +954,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12857057619718240570
-        Name: "Decal Burnt Streaks 01"
-        Transform {
-          Location {
-            X: -0.678513467
-            Y: -0.0312674046
-            Z: -0.12636447
-          }
-          Rotation {
-            Pitch: -12.0545959
-            Yaw: 26.228672
-            Roll: 168.837555
-          }
-          Scale {
-            X: 0.0224003978
-            Y: 0.0140004493
-            Z: 0.0266523436
-          }
-        }
-        ParentId: 15239599861158928353
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.200397372
-              G: 0.340000033
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13615266602471424216
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 12374146224270498268
+        Id: 7543600654803032544
         Name: "Ball"
         Transform {
           Location {
@@ -1214,21 +973,23 @@ Assets {
             Z: 1.25498867
           }
         }
-        ParentId: 17968997720740810451
-        ChildIds: 17519911366782787563
-        ChildIds: 3737253896847756975
+        ParentId: 3102743743046777759
+        ChildIds: 13174750959576645219
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 17519911366782787563
+        Id: 13174750959576645219
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -1244,7 +1005,7 @@ Assets {
             Z: 0.424230218
           }
         }
-        ParentId: 12374146224270498268
+        ParentId: 7543600654803032544
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -1314,17 +1075,17 @@ Assets {
             Float: 6.04590416
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.692185402
-              G: 0.78
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 2431930573571638561
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.433333278
+              G: 1
+              A: 1
             }
           }
         }
@@ -1333,6 +1094,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1349,54 +1113,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3737253896847756975
-        Name: "Decal Burnt Streaks 01"
-        Transform {
-          Location {
-            X: -0.468154728
-            Y: 0.963233888
-            Z: -0.0992625281
-          }
-          Rotation {
-            Pitch: -12.0545959
-            Yaw: 26.228672
-            Roll: 168.837555
-          }
-          Scale {
-            X: 0.030577682
-            Y: 0.0255144946
-            Z: 0.0192033984
-          }
-        }
-        ParentId: 12374146224270498268
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.74
-              G: 0.646887422
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13615266602471424216
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 17049987158320133032
+        Id: 13856910049579605423
         Name: "Ball"
         Transform {
           Location {
@@ -1415,21 +1132,23 @@ Assets {
             Z: 1.25498867
           }
         }
-        ParentId: 17968997720740810451
-        ChildIds: 12650942234212506598
-        ChildIds: 4820705617686670499
+        ParentId: 3102743743046777759
+        ChildIds: 15556690479975997849
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 12650942234212506598
+        Id: 15556690479975997849
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -1448,7 +1167,7 @@ Assets {
             Z: 0.424230218
           }
         }
-        ParentId: 17049987158320133032
+        ParentId: 13856910049579605423
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -1518,18 +1237,17 @@ Assets {
             Float: 6.04590416
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.493806481
-              G: 0.799999952
-              B: 0.175199971
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 2431930573571638561
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.433333278
+              G: 1
+              A: 1
             }
           }
         }
@@ -1538,6 +1256,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1554,54 +1275,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4820705617686670499
-        Name: "Decal Burnt Streaks 01"
-        Transform {
-          Location {
-            X: -0.876484036
-            Y: 0.762046
-            Z: -0.00205805
-          }
-          Rotation {
-            Pitch: -12.0545959
-            Yaw: 26.228672
-            Roll: 168.837555
-          }
-          Scale {
-            X: 0.0150983399
-            Y: 0.0255150031
-            Z: 0.0192035045
-          }
-        }
-        ParentId: 17049987158320133032
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.200397372
-              G: 0.340000033
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13615266602471424216
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-      }
-      Objects {
-        Id: 9559250969127774782
+        Id: 820362381391310765
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -1620,7 +1294,7 @@ Assets {
             Z: -0.0453115366
           }
         }
-        ParentId: 17968997720740810451
+        ParentId: 3102743743046777759
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1685,15 +1359,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -1725,6 +1390,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 14418436273660014664
@@ -1740,13 +1408,13 @@ Assets {
         }
       }
       Objects {
-        Id: 5726132740274440566
+        Id: 11456748931007616135
         Name: "handle"
         Transform {
           Location {
-            X: 2.20002747
-            Y: 1.70306396
-            Z: -26.3685913
+            X: 2.1484375
+            Y: 1.703125
+            Z: -26.463562
           }
           Rotation {
           }
@@ -1757,19 +1425,22 @@ Assets {
           }
         }
         ParentId: 7684284360114232332
-        ChildIds: 6642703729326582164
+        ChildIds: 1131630955468409225
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 6642703729326582164
+        Id: 1131630955468409225
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -1788,9 +1459,9 @@ Assets {
             Z: 0.0430655293
           }
         }
-        ParentId: 5726132740274440566
-        ChildIds: 17980827857030295849
-        ChildIds: 11083330559506493030
+        ParentId: 11456748931007616135
+        ChildIds: 14875858931132757442
+        ChildIds: 10079682402347349470
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1855,15 +1526,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.05
-              G: 0.05
-              B: 0.05
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -1895,6 +1557,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 743618866504987571
@@ -1910,7 +1575,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17980827857030295849
+        Id: 14875858931132757442
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -1919,7 +1584,7 @@ Assets {
             Z: -41.204113
           }
           Rotation {
-            Pitch: -0.000280037755
+            Pitch: -0.000274658203
             Yaw: 0.000155173402
             Roll: 179.999969
           }
@@ -1929,7 +1594,7 @@ Assets {
             Z: 0.830010533
           }
         }
-        ParentId: 6642703729326582164
+        ParentId: 1131630955468409225
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1994,15 +1659,6 @@ Assets {
             Float: 20.9586601
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.389000028
-              G: 0.389000028
-              B: 0.389000028
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
               Id: 18339968451170207572
@@ -2034,6 +1690,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 5944393796542654307
@@ -2049,7 +1708,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11083330559506493030
+        Id: 10079682402347349470
         Name: "Weapon - Pipe"
         Transform {
           Location {
@@ -2068,7 +1727,7 @@ Assets {
             Z: 1.00000012
           }
         }
-        ParentId: 6642703729326582164
+        ParentId: 1131630955468409225
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -2173,6 +1832,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
         CoreMesh {
           MeshAsset {
             Id: 743618866504987571
@@ -2225,15 +1887,6 @@ Assets {
       }
     }
     Assets {
-      Id: 5944393796542654307
-      Name: "Capsule"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_capsule_001"
-      }
-    }
-    Assets {
       Id: 10431978243425830506
       Name: "Arch Fancy 3m"
       PlatformAssetType: 1
@@ -2243,12 +1896,12 @@ Assets {
       }
     }
     Assets {
-      Id: 17742572886206846684
-      Name: "Metal Iron 01"
+      Id: 13844995264650658061
+      Name: "Metal Diamond Plates 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_001"
+        AssetId: "mi_metal_rust_diamond-plate_001"
       }
     }
     Assets {
@@ -2261,21 +1914,21 @@ Assets {
       }
     }
     Assets {
+      Id: 17742572886206846684
+      Name: "Metal Iron 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_iron_001"
+      }
+    }
+    Assets {
       Id: 14513766052227501202
       Name: "Ball - Tennis 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_urb_ball_tennis_01_ref"
-      }
-    }
-    Assets {
-      Id: 13615266602471424216
-      Name: "Decal Burnt Streaks 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_burned_streak_002_ref"
       }
     }
     Assets {
@@ -2296,10 +1949,19 @@ Assets {
         AssetId: "mi_scf_rubber_panels_002_uv"
       }
     }
+    Assets {
+      Id: 5944393796542654307
+      Name: "Capsule"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_capsule_001"
+      }
+    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

@@ -25,7 +25,7 @@ local function UpdateXpBar()
 end
 
 local function ChangeCashText(amount)
-    CASH.text = "" .. FormatInt(amount)
+    --CASH.text = "" .. FormatInt(amount)
 end
 
 local function ChangeStrikeCoinText(amount)

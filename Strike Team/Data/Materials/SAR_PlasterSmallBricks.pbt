@@ -2,7 +2,7 @@ Assets {
   Id: 1751123364316479961
   Name: "SAR_PlasterSmallBricks"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

@@ -168,21 +168,23 @@ function API.CalculateWinners(winnerSortType, winnerSortResource)
 	return winners
 end
 
+
 function API.TeleportWinners( player, spawnObject, overrideCamera)
 	local spawnPosition = spawnObject:GetWorldPosition()
 	local spawnRotation = spawnObject:GetWorldRotation()
 		player:Respawn({position = spawnPosition, rotation = spawnRotation})
+		local LookDirection = Rotation.New(overrideCamera:GetWorldPosition()-spawnPosition, Vector3.UP)
 
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
-		player:SetWorldRotation(spawnRotation)
+		player:SetWorldRotation(LookDirection)
 		
 		Task.Wait(.1)
 		if not Object.IsValid(player) then return end
 
 		player:ResetVelocity()
 		player:SetWorldPosition(spawnPosition)
-		player:SetWorldRotation(spawnRotation)	
+		player:SetWorldRotation(LookDirection)	
 		
 		for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 			equipment:Destroy()
@@ -199,7 +201,7 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 
 			player:ResetVelocity()
 			player:SetWorldPosition(spawnPosition)
-			player:SetWorldRotation(spawnRotation)
+			player:SetWorldRotation(LookDirection)
 		end
 end
 
