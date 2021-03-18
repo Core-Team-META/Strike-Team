@@ -91,6 +91,9 @@ function Tick(dt)
     if Environment.IsPreview() or Environment.IsMultiplayerPreview() then return end 
     if shouldUpdate then
         for _, player in ipairs(Game.GetPlayers()) do
+            if playersIdleTime[player.id].time <= time() + 0.5 then
+                player:SetResource("IsReturningToLoadout", 1)
+            end
             if playersIdleTime[player.id].time <= time() then
                 --player:TransferToGame(GAME_TRANSFER)
                 local gameId = _G["LoadoutGameId"]
