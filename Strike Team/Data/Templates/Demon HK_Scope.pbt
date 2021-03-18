@@ -129,7 +129,6 @@ Assets {
         }
         ParentId: 13393121255628758190
         ChildIds: 18061688669173117576
-        ChildIds: 15649456814648546280
         ChildIds: 688958345605486266
         ChildIds: 8943535876199246245
         ChildIds: 12202006787582882476
@@ -452,119 +451,12 @@ Assets {
         }
       }
       Objects {
-        Id: 15649456814648546280
-        Name: "Modern Weapon - Body 01"
-        Transform {
-          Location {
-            X: 14.5461426
-            Y: 0.256835938
-            Z: 26.5866699
-          }
-          Rotation {
-            Yaw: -3.9167061e-13
-            Roll: 9.56226577e-05
-          }
-          Scale {
-            X: 0.220311344
-            Y: -0.523062229
-            Z: 0.580333412
-          }
-        }
-        ParentId: 15042809430149637502
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:id"
-            AssetReference {
-              Id: 5390120376389660115
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 7283825798727192743
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7283825798727192743
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 7283825798727192743
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              R: 0.332000017
-              G: 0.332000017
-              B: 0.332000017
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.332000017
-              G: 0.332000017
-              B: 0.332000017
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.332000017
-              G: 0.332000017
-              B: 0.332000017
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2.24262929
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 3.30657148
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17869324957276669748
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 688958345605486266
         Name: "Modern Weapon - Body 01"
         Transform {
           Location {
             X: 10.7441864
-            Y: 0.336792
-            Z: 27.2285461
+            Z: 27.2285156
           }
           Rotation {
             Yaw: -1.55664826e-12
@@ -659,8 +551,7 @@ Assets {
         Transform {
           Location {
             X: 10.2590485
-            Y: 0.336792
-            Z: 32.5209045
+            Z: 32.5209961
           }
           Rotation {
             Pitch: 90
@@ -740,7 +631,6 @@ Assets {
         Transform {
           Location {
             X: 21.4859
-            Y: 0.336792
             Z: 32.5205078
           }
           Rotation {
@@ -821,8 +711,7 @@ Assets {
         Transform {
           Location {
             X: 3.97886658
-            Y: 0.336792
-            Z: 18.3111267
+            Z: 18.3110352
           }
           Rotation {
             Pitch: -9.56226431e-05
@@ -903,7 +792,6 @@ Assets {
         Transform {
           Location {
             X: 10.3626709
-            Y: 0.336914063
             Z: 26.8525391
           }
           Rotation {
@@ -1190,15 +1078,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_invisible_001"
-      }
-    }
-    Assets {
-      Id: 7283825798727192743
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {
