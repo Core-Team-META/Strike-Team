@@ -2615,7 +2615,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10773252250967993722
+  Id: 12244024961621090639
   Name: "PlayerLeft"
   Transform {
     Location {
@@ -2633,6 +2633,85 @@ Objects {
     Overrides {
       Name: "cs:Name"
       String: "Left"
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 1267408161283801911
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 1267408161283801911
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 0.0550289676
+        G: 0.328615844
+        B: 0.663000047
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 2
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 0.00520833349
+        G: 0.00520833349
+        B: 0.00520833349
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 10721048094489838524
+    SubobjectId: 36138378962957699
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 10773252250967993722
+  Name: "PlayerLoadout"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Loadout"
     }
     Overrides {
       Name: "cs:Layer_04"

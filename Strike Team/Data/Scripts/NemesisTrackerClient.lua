@@ -71,24 +71,6 @@ function PlayTick()
 		
 end
 
-function GetPlayer(playerId)
-	
-	local playerList = Game.GetPlayers()
-	
-	for _, player in pairs(playerList) do
-	
-		if player.id == playerId then
-		
-			return player 
-			
-		end
-		
-	end
-	
-	return nil
-
-end
-
 function SetChildrenText(uiObj,_text) -- <-- generic children text function by AJ
     if Object.IsValid(uiObj) and uiObj:IsA("UIText") then
         uiObj.text = _text
@@ -163,70 +145,6 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 	return task
 	
 end 
-
-function TrackKill(killer, victim, otherstuff1, otherstuff2)
-
-	if not killer or not victim or not killer:IsA("Player") or not victim:IsA("Player") then
-	
-		return
-		
-	end
-
-	if resetting then
-	
-		return
-		
-	end
-
-	if not nemesisIndex[victim.id] then
-	
-		nemesisIndex[victim.id] = {}
-		
-	end
-	
-	if not nemesisIndex[victim.id][killer.id] then
-	
-		nemesisIndex[victim.id][killer.id] = 1
-		
-	else 
-	
-		nemesisIndex[victim.id][killer.id] = nemesisIndex[victim.id][killer.id] + 1
-		
-	end
-	
-	--print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.id][killer.id]) .. " times.")
-
-end
-
-function RemoveFromTable(player)
-
-	for victim, killerList in pairs(nemesisIndex) do
-	
-		for killer, killCount in pairs(killerList) do
-		
-			if player.id == killer then
-			
-				killerList[killer] = nil
-				
-			end
-		
-		end
-		
-		if player.id == victim then
-		
-			for killer, killCount in pairs(killerList) do
-			
-				killerList[killer] = nil
-			
-			end	
-			
-			nemesisIndex[victim] = nil
-			
-		end
-		
-	end
-	
-end
 
 function CleanNemesisTable()
 
@@ -376,55 +294,6 @@ function CalculateNemesis()
 
 	nemesisList = {}
 	
-	--[[
-	
-	--OLD VER.
-
-	local selectedNemesis = nil
-	local nemesisKills = 0
-	local otherNemesisCount = 0
-	
-	-- Calculate who is the nemeis of who
-	for victim, killerList in pairs(nemesisIndex) do
-	
-		selectedNemesis = nil
-		
-		nemesisKills = 0
-		otherNemesisCount = 0
-	
-		for killer, killCount in pairs(killerList) do
-		
-			if killCount > nemesisKills then
-			
-				nemesisKills = killCount
-				
-				selectedNemesis = killer 
-				
-			end
-		
-		end
-		
-		if selectedNemesis then
-		
-			for killer, killCount in pairs(killerList) do
-			
-				if killCount == nemesisKills then
-				
-					otherNemesisCount = otherNemesisCount + 1					
-				end
-			
-			end
-			
-			otherNemesisCount = otherNemesisCount - 1 -- removing the same nemesis from count
-			
-			table.insert(nemesisList, {selectedNemesis, victim, otherNemesisCount, nemesisKills})
-					
-		end
-							
-	end
-	
-	]]--
-	
 	while not nemesisTrackerServer:GetCustomProperty("ListSet") do
 	
 		Task.Wait()
@@ -479,27 +348,27 @@ function MarkNemesis()
 	for _, entry in pairs(nemesisList) do
 		
 		-- Finding your nemesis
-		if entry[1] == localPlayer.id and GetPlayer(entry[2]) then
+		if entry[1] == localPlayer.name and youAreNemesisOf  == "No Kills" and #entry[2] >= 3 then
 		
-			youAreNemesisOf = GetPlayer(entry[2]).name
+			youAreNemesisOf = entry[2]
 			
 			yourKillCountAsNemesis = entry[4]
 			
-		elseif entry[1] == localPlayer.id and youAreNemesisOf then
+		elseif entry[1] == localPlayer.name and youAreNemesisOf  ~= "No Kills" then
 		
 			countOfBeingNemesis = countOfBeingNemesis + 1
 			
 		end
 		
-		if entry[2] == localPlayer.id then
+		if entry[2] == localPlayer.name then
 		
-			yourNemesisIs = GetPlayer(entry[1]).name
+			yourNemesisIs = entry[1]
 			
 			yourNemesisKillCount = entry[4]
 			
 			if entry[3] > 0 then
 			
-				yourNemesisIs = GetPlayer(entry[1]).name .. " + " .. tostring(entry[3]) .. " more"
+				yourNemesisIs = entry[1] .. " + " .. tostring(entry[3]) .. " more"
 				
 			end
 			
@@ -510,11 +379,11 @@ function MarkNemesis()
 		
 			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
 			
-			local player1 = GetPlayer(entry[1])
+			local player1 = entry[1]
 			
-			local player2 = GetPlayer(entry[2])
-	
-			if player1.name == nameText.text and player2 then
+			local player2 = entry[2]
+			
+			if player1 == nameText.text and #player2 >= 3 then
 			
 				if not theirNemesisOfEntryText[number] then
 			
@@ -524,23 +393,23 @@ function MarkNemesis()
 					
 				end
 				
-				theirNemesisOfEntryText[number][1] = player2.name
+				theirNemesisOfEntryText[number][1] = player2
 				
 				theirNemesisOfEntryText[number][3] = entry[4]
 				
-			elseif player1.name == nameText.text and theirNemesisOfEntryText[number] then
+			elseif player1 == nameText.text and theirNemesisOfEntryText[number] then
 			
 				theirNemesisOfEntryText[number][2] = theirNemesisOfEntryText[number][2] + 1
 				
 			end
 			
-			if player2 and player2.name == nameText.text then
+			if player2 == nameText.text then
 			
-				theirNemesisEntryText[number] = player1.name
+				theirNemesisEntryText[number] = player1
 				
 				if entry[3] > 0 then
 				
-					theirNemesisEntryText[number] = player1.name .. " + " .. tostring(entry[3]) .. " more"
+					theirNemesisEntryText[number] = player1 .. " + " .. tostring(entry[3]) .. " more"
 					
 				end
 				
@@ -558,15 +427,15 @@ function MarkNemesis()
 		
 			for _, entry in pairs(nemesisList) do
 			
-				if GetPlayer(entry[2]).name == nameText.text then
+				if entry[2] == nameText.text then
 				
 					theirNemesisOfEntryText[number] = {}
 						
 					theirNemesisOfEntryText[number][2] = 0
 					
-					if GetPlayer(entry[5]) then
+					if entry[5] then
 					
-						theirNemesisOfEntryText[number][1] = GetPlayer(entry[5]).name
+						theirNemesisOfEntryText[number][1] = entry[5]
 						
 					else 
 					
@@ -590,9 +459,9 @@ function MarkNemesis()
 	
 		for _, entry in pairs(nemesisList) do
 		
-			if entry[2] == localPlayer.id and GetPlayer(entry[5]) then
+			if entry[2] == localPlayer.name and entry[5] then
 			
-				youAreNemesisOf = GetPlayer(entry[5]).name
+				youAreNemesisOf = entry[5]
 				
 				yourKillCountAsNemesis = entry[6]
 				
@@ -636,7 +505,7 @@ function MarkNemesis()
 				
 				AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1] .. " + " .. tostring(theirNemesisOfEntryText[number][2]) .. " more", true)
 					
-			elseif theirNemesisOfEntryText[number][1] ~= "" then
+			elseif #theirNemesisOfEntryText[number][1] >= 3 then
 				
 				AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1], true)
 					
@@ -760,8 +629,7 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         YourNemesisText.text = ""
         YourNemesisKillsText.text = "0"
         
-        CleanNemesisTable()
-        
+        CleanNemesisTable()        
     end
 end
 
@@ -795,10 +663,6 @@ function InitializeVictoryScreenMarkers()
 end
 
 InitializeVictoryScreenMarkers()
-
---Events.Connect(PlayerKilledEvent, TrackKill)
-
---Game.playerLeftEvent:Connect(RemoveFromTable)
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("ShowNemesis", ShowNemesis)

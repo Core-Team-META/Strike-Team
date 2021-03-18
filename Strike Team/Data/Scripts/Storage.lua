@@ -91,6 +91,7 @@ if Environment.IsServer() then
     function SkinStorage:AddSkin(Weapon,Skin)
         if not Skin or not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
+        if self.StorageTable[Weapon][Skin] then return end 
         table.insert( self.StorageTable[Weapon], Skin )
         self:Save()
     end

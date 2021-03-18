@@ -7,7 +7,7 @@ Assets {
       RootId: 7611573265587124880
       Objects {
         Id: 7611573265587124880
-        Name: "Default_SMG_Scope_CartoonSkin"
+        Name: "Default_SMG_Scope_GraFiXXSkin"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 7625382804772008570
+              Id: 5390120376389660115
             }
           }
           Overrides {
@@ -194,15 +194,6 @@ Assets {
               G: 0.829000056
               B: 0.0522269718
               A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:color"
-            Color {
-              R: 0.5
-              G: 0.5
-              B: 0.5
-              A: 0.862000048
             }
           }
           Overrides {
@@ -269,7 +260,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 7625382804772008570
+              Id: 5390120376389660115
             }
           }
           Overrides {
@@ -292,15 +283,6 @@ Assets {
               R: 8
               G: 6.93333387
               A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:color"
-            Color {
-              R: 0.5
-              G: 0.5
-              B: 0.5
-              A: 0.862000048
             }
           }
           Overrides {
@@ -2822,12 +2804,12 @@ Assets {
       }
     }
     Assets {
-      Id: 7625382804772008570
-      Name: "Glass 01 (no distortion)"
+      Id: 5390120376389660115
+      Name: "Invisible"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_glass_001"
+        AssetId: "mi_invisible_001"
       }
     }
     Assets {
