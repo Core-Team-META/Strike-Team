@@ -44,12 +44,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13972299485965921295
+  Name: "Survival Bottle 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Bottle_001"
+  }
+}
+Assets {
   Id: 13674166041910731120
   Name: "Sci-fi Ability Red 020"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_SciFi_Ability_Red_020"
+  }
+}
+Assets {
+  Id: 13586096600253432719
+  Name: "Fantasy Craft Stone 028"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_028"
   }
 }
 Assets {
@@ -71,21 +89,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13211565500630064749
+  Name: "Fantasy Ability Teal 011"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Teal_011"
+  }
+}
+Assets {
+  Id: 13069388880459404192
+  Name: "Fantasy Ability Yellow 011"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Yellow_011"
+  }
+}
+Assets {
   Id: 12959683438091425192
   Name: "Weapon Assault Rifle 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Weapon_AssaultRifle_001"
-  }
-}
-Assets {
-  Id: 12594236804975569020
-  Name: "Fantasy Chicken 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Chicken_001"
   }
 }
 Assets {
@@ -113,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_SciFi_Ability_Red_013"
+  }
+}
+Assets {
+  Id: 11109013307728689954
+  Name: "Fantasy Ability Purple 015"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Purple_015"
   }
 }
 Assets {
@@ -188,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9614483286995208589
+  Name: "Fantasy Package 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Package_004"
+  }
+}
+Assets {
   Id: 9532212054162413688
   Name: "Survival Bat 001"
   PlatformAssetType: 9
@@ -233,12 +278,48 @@ Assets {
   }
 }
 Assets {
+  Id: 8480194176532022475
+  Name: "Fantasy Ability Yellow 008"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Yellow_008"
+  }
+}
+Assets {
+  Id: 8256096841454222062
+  Name: "Survival Bandage 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Bandage_001"
+  }
+}
+Assets {
   Id: 7887978635932231235
   Name: "Fantasy Ability Blue 006"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Ability_Blue_006"
+  }
+}
+Assets {
+  Id: 7297745671983508467
+  Name: "Fantasy Ability Green 021"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Green_021"
+  }
+}
+Assets {
+  Id: 6920475546474804266
+  Name: "Fantasy Bread 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Cheese_003"
   }
 }
 Assets {
@@ -266,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameOutline_020"
+  }
+}
+Assets {
+  Id: 4368479957251991493
+  Name: "Fantasy Ability Green 013"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Green_013"
   }
 }
 Assets {
@@ -347,6 +437,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 580746033284534240
+  Name: "Ice Cream"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Urban_Icon_033"
   }
 }
 Assets {

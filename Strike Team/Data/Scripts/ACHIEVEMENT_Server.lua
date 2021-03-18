@@ -125,14 +125,40 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
         ACH_API.AddProgress(player, "AS_NRHS4", 1)
     end
 
-    if target.name == "Morticai" then
+    if target.id == "d1073dbcc404405cbef8ce728e53d380" then --Morticai
         ACH_API.AddProgress(player, "AS_KILLMORT", 1)
+    elseif target.id == "901b7628983c4c8db4282f24afeda57a" then --Buckmonster
+        ACH_API.AddProgress(player, "AS_KILLBUCK", 1)
+    elseif target.id == "b4c6e32137e54571814b5e8f27aa2fcd" then --standardcombo
+        ACH_API.AddProgress(player, "AS_KILLSTANDARD", 1)
+    elseif target.id == "0ea6612ceab7456a8a3a963a94808295" then --blaking707
+        ACH_API.AddProgress(player, "AS_KILLBLAKE", 1)
+    elseif target.id == "e730c40ae54d4c588658667927acc6d8" then --WitcherSilver
+        ACH_API.AddProgress(player, "AS_KILLWITCHER", 1)
+    elseif target.id == "557d4f1ae17646579646dfd20dcb7b66" then --AwkwardGameDev
+        ACH_API.AddProgress(player, "AS_KILLAWKWARD", 1)
+    elseif target.id == "1f67a03d5a8f478b993aad1c79b45640" then --Rolok
+        ACH_API.AddProgress(player, "AS_KILLROLOK", 1)
+    elseif target.id == "d5daea732ee3422fbe85aecb900e73ec" then --Coderz
+        ACH_API.AddProgress(player, "AS_KILLCODERZ", 1)
+    elseif target.id == "d6d9d578840a44c79a3f05c15de23bf8" then --Aggripina
+        ACH_API.AddProgress(player, "AS_KILLAGGRIPINA", 1)
+    elseif target.id == "400d8e7acb154e5bb64368411824b61d" then --Bigglebuns
+        ACH_API.AddProgress(player, "AS_KILLBIGGLE", 1)
+    elseif target.id == "94d3fd50c4824f019421895ec8dbf099" then --Mucusinator
+        ACH_API.AddProgress(player, "AS_KILLMUCU", 1)
+    elseif target.id == "c14f61b74826471f974f06ff7e42d97b" then --Basilisk
+        ACH_API.AddProgress(player, "AS_KILLBASK", 1)
     end
+
+
+
+
+
 
     ACH_API.AddProgress(player, "AS_NRKill1", 1)
     ACH_API.AddProgress(player, "AS_NRKill2", 1)
     ACH_API.AddProgress(player, "AS_NRKill3", 1)
-
 
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
