@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13584772241984237348
+        ParentId: 4781671109827199097
         ChildIds: 17403480673677832297
         ChildIds: 17535295939861350281
         UnregisteredParameters {
@@ -69,7 +69,6 @@ Assets {
         ChildIds: 10744346103708937229
         ChildIds: 14357886331009811839
         ChildIds: 4667438057939469186
-        ChildIds: 2443913144963091420
         ChildIds: 2811727043440996614
         ChildIds: 5223085181161449604
         ChildIds: 4723716673949667286
@@ -1989,96 +1988,6 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 9933034030368674416
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2443913144963091420
-        Name: "Modern Weapon - Magazine 01"
-        Transform {
-          Location {
-            X: -17.0292206
-            Z: 1.02178955
-          }
-          Rotation {
-            Pitch: -11.2499695
-          }
-          Scale {
-            X: 1.02654648
-            Y: 1
-            Z: 1.27786446
-          }
-        }
-        ParentId: 17403480673677832297
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 6777447344140592468
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6777447344140592468
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 8
-              G: 8
-              B: 8
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 8
-              G: 8
-              B: 8
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 3
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 3
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:utile"
-            Float: 3
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:vtile"
-            Float: 3
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6183130606669934264
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -5876,15 +5785,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_grip_002"
-      }
-    }
-    Assets {
-      Id: 6183130606669934264
-      Name: "Modern Weapon - Magazine 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_mag_001"
       }
     }
     Assets {

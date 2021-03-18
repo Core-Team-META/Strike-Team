@@ -434,6 +434,11 @@ Assets {
           }
         }
         ParentId: 7312526507178108097
+        ChildIds: 5161089474746032575
+        ChildIds: 18148158607541185236
+        ChildIds: 7977537804525175144
+        ChildIds: 9055158583282512983
+        ChildIds: 10679260672827120968
         ChildIds: 708374461002236997
         ChildIds: 12553025573536532296
         ChildIds: 8161150775394043098
@@ -443,10 +448,6 @@ Assets {
         ChildIds: 12746711904496220104
         ChildIds: 1218544716168934727
         ChildIds: 10233797040268845088
-        ChildIds: 11856572441631851614
-        ChildIds: 6763998176846542380
-        ChildIds: 8547920483652883320
-        ChildIds: 7631867870346748023
         ChildIds: 12950897114451822647
         ChildIds: 853049780901453528
         ChildIds: 5993084307594472274
@@ -482,6 +483,366 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5161089474746032575
+        Name: "Fantasy Sword Guard 01"
+        Transform {
+          Location {
+            X: 26.5235901
+            Y: -0.0784301758
+            Z: 10.6567993
+          }
+          Rotation {
+            Yaw: -89.9999695
+            Roll: 39.663929
+          }
+          Scale {
+            X: 0.483840138
+            Y: 0.5844
+            Z: 0.762093
+          }
+        }
+        ParentId: 16091545774971951637
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.282985687
+              G: 0.282985687
+              B: 0.282985687
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 15.643096
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 53.9434624
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1920010878601219178
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 18148158607541185236
+        Name: "Fantasy Sword Guard 01"
+        Transform {
+          Location {
+            X: 8.2791748
+            Y: -0.0784301758
+            Z: 13.2389526
+          }
+          Rotation {
+            Yaw: -89.999939
+            Roll: 45.1741791
+          }
+          Scale {
+            X: 0.410603225
+            Y: 0.384176433
+            Z: 0.456530958
+          }
+        }
+        ParentId: 16091545774971951637
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.248263672
+              G: 0.248263672
+              B: 0.248263672
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 15.643096
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 44.13237
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1920010878601219178
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7977537804525175144
+        Name: "Fantasy Sword Guard 01"
+        Transform {
+          Location {
+            X: 16.7932129
+            Y: -0.0784301758
+            Z: 11.5792542
+          }
+          Rotation {
+            Yaw: -90
+            Roll: 33.7865639
+          }
+          Scale {
+            X: 0.40730387
+            Y: 0.462816775
+            Z: 0.56613338
+          }
+        }
+        ParentId: 16091545774971951637
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.248263672
+              G: 0.248263672
+              B: 0.248263672
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 15.643096
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 26.7179565
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1920010878601219178
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9055158583282512983
+        Name: "Fantasy Sword Guard 01"
+        Transform {
+          Location {
+            X: 11.9641113
+            Y: -0.0784301758
+            Z: 12.0819397
+          }
+          Rotation {
+            Yaw: -90
+            Roll: 41.0557213
+          }
+          Scale {
+            X: 0.397459805
+            Y: 0.407134295
+            Z: 0.528751135
+          }
+        }
+        ParentId: 16091545774971951637
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.248263672
+              G: 0.248263672
+              B: 0.248263672
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 15.643096
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 31.5833454
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1920010878601219178
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10679260672827120968
+        Name: "Fantasy Sword Guard 01"
+        Transform {
+          Location {
+            X: 21.8100586
+            Y: -0.0784301758
+            Z: 11.2430725
+          }
+          Rotation {
+            Yaw: -89.9999695
+            Roll: 34.6811562
+          }
+          Scale {
+            X: 0.432351321
+            Y: 0.527615786
+            Z: 0.647466123
+          }
+        }
+        ParentId: 16091545774971951637
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.213541672
+              G: 0.213541672
+              B: 0.213541672
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 15.643096
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 29.5388699
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1920010878601219178
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
         }
       }
       Objects {
@@ -1183,302 +1544,12 @@ Assets {
         }
       }
       Objects {
-        Id: 11856572441631851614
-        Name: "Fantasy Sword Guard 01"
-        Transform {
-          Location {
-            X: 8.55932617
-            Y: -0.410430908
-            Z: 12.0248718
-          }
-          Rotation {
-            Pitch: 0.762296855
-            Yaw: -89.9860535
-            Roll: 46.2226067
-          }
-          Scale {
-            X: 0.30498597
-            Y: 0.400922984
-            Z: 0.549352765
-          }
-        }
-        ParentId: 16091545774971951637
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.248263672
-              G: 0.248263672
-              B: 0.248263672
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9497951731488909799
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 15.643096
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 44.13237
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 15569338977597403090
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6763998176846542380
-        Name: "Fantasy Sword Guard 01"
-        Transform {
-          Location {
-            X: 11.1340332
-            Y: -0.410430908
-            Z: 10.3114319
-          }
-          Rotation {
-            Yaw: -90
-            Roll: 45.0246887
-          }
-          Scale {
-            X: 0.273780674
-            Y: 0.50250119
-            Z: 0.728773057
-          }
-        }
-        ParentId: 16091545774971951637
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.248263672
-              G: 0.248263672
-              B: 0.248263672
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9497951731488909799
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 15.643096
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 31.5833454
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 15569338977597403090
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8547920483652883320
-        Name: "Fantasy Sword Guard 01"
-        Transform {
-          Location {
-            X: 16.522583
-            Y: -0.410430908
-            Z: 9.49847412
-          }
-          Rotation {
-            Pitch: -6.83018879e-06
-            Yaw: -89.9999924
-            Roll: 44.1933479
-          }
-          Scale {
-            X: 0.302566558
-            Y: 0.543437243
-            Z: 0.85898459
-          }
-        }
-        ParentId: 16091545774971951637
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.296875
-              G: 0.296875
-              B: 0.296875
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9497951731488909799
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 15.643096
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 31.5833454
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 15569338977597403090
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7631867870346748023
-        Name: "Fantasy Sword Guard 01"
-        Transform {
-          Location {
-            X: 24.3605957
-            Y: -0.410430908
-            Z: 8.83233643
-          }
-          Rotation {
-            Yaw: -89.9999313
-            Roll: 39.3914795
-          }
-          Scale {
-            X: 0.325702161
-            Y: 0.748689353
-            Z: 0.915822327
-          }
-        }
-        ParentId: 16091545774971951637
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.338541657
-              G: 0.338541657
-              B: 0.338541657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9497951731488909799
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 15.643096
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 26.7179565
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 15569338977597403090
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
         Id: 12950897114451822647
         Name: "Fantasy Sword Guard 01"
         Transform {
           Location {
             X: 35.746582
-            Y: -0.410430908
+            Y: -0.0684814453
             Z: 6.41885376
           }
           Rotation {
@@ -1486,9 +1557,9 @@ Assets {
             Roll: 37.9322777
           }
           Scale {
-            X: 0.350539565
-            Y: 1.22319901
-            Z: 1.13448286
+            X: 0.503723204
+            Y: 1.0492065
+            Z: 1.13448262
           }
         }
         ParentId: 16091545774971951637
@@ -1529,7 +1600,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1550,15 +1621,15 @@ Assets {
         Transform {
           Location {
             X: 37.8781738
-            Y: -0.410461426
+            Y: -0.209655762
             Z: 8.16882324
           }
           Rotation {
-            Yaw: -89.9999924
+            Yaw: -90
             Roll: 60.1720581
           }
           Scale {
-            X: 0.348950535
+            X: 0.396125853
             Y: 0.683948696
             Z: 0.847630203
           }
@@ -1601,7 +1672,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1655,7 +1726,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16048367406070731799
+            Id: 14021425836031181800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1708,7 +1779,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16048367406070731799
+            Id: 14021425836031181800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2342,7 +2413,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2427,7 +2498,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3216,7 +3287,6 @@ Assets {
         }
         ParentId: 7312526507178108097
         ChildIds: 13778652110084697102
-        ChildIds: 4292141699156318035
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3310,36 +3380,6 @@ Assets {
             Physics {
             }
           }
-        }
-      }
-      Objects {
-        Id: 4292141699156318035
-        Name: "Point_MuzzleAccessory"
-        Transform {
-          Location {
-            X: 21.524765
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.700000048
-            Y: 0.700000048
-            Z: 0.700000048
-          }
-        }
-        ParentId: 2180717761323724516
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
       Objects {
@@ -3603,6 +3643,24 @@ Assets {
       }
     }
     Assets {
+      Id: 1920010878601219178
+      Name: "Fantasy Sword Guard 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_fan_guard_sword_001"
+      }
+    }
+    Assets {
+      Id: 9497951731488909799
+      Name: "Metal Basic 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_basic_001"
+      }
+    }
+    Assets {
       Id: 9498823304973238158
       Name: "Modern Weapon Barrel 01"
       PlatformAssetType: 1
@@ -3693,25 +3751,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15569338977597403090
-      Name: "Fantasy Sword Guard 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_fan_guard_sword_001"
-      }
-    }
-    Assets {
-      Id: 9497951731488909799
-      Name: "Metal Basic 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_basic_001"
-      }
-    }
-    Assets {
-      Id: 16048367406070731799
+      Id: 14021425836031181800
       Name: "Plane 1m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3756,7 +3796,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10759972527112030472
+      Id: 17237692812658431496
       Name: "Fantasy Staff Head 01"
       PlatformAssetType: 1
       PrimaryAsset {
