@@ -12562,7 +12562,7 @@ Assets {
       }
       Objects {
         Id: 16900447807057907530
-        Name: "French Bread"
+        Name: "Baguette"
         Transform {
           Location {
           }
