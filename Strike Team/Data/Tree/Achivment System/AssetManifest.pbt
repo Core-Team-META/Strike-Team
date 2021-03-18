@@ -350,6 +350,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4791209051584479532
+  Name: "Icon Player Crouch"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerCrouch"
+  }
+}
+Assets {
   Id: 4368479957251991493
   Name: "Fantasy Ability Green 013"
   PlatformAssetType: 9
