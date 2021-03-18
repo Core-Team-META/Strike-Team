@@ -5698,7 +5698,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "You have unlocked the Dark Devout Sub Machine Gun"
+      String: "You have unlocked the Unicorn skin for the Marksman Rifle"
     }
     Overrides {
       Name: "cs:Required"
