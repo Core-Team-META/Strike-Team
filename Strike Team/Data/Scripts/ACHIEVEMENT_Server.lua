@@ -185,7 +185,7 @@ end
 function OnRoundEnd()
     local team1 = Game.GetTeamScore(1)
     local team2 = Game.GetTeamScore(2)
-    --[[local tempTbl = {}
+    local tempTbl = {}
     for _, target in ipairs(Game.GetPlayers()) do
         if target.id == "d1073dbcc404405cbef8ce728e53d380" then --Morticai
             tempTbl[target] = "AS_KILLMORT"
@@ -216,23 +216,22 @@ function OnRoundEnd()
         elseif target.id == "b36d1cbf1fc9449fb5dc1d93d1161e86" then --Vitriol08
             tempTbl[target] = "AS_KILLVITRIOL"
         end
-    end]]--
+    end
 
     for _, player in ipairs(Game.GetPlayers()) do --
-       --[[ if
-            (team1 > team2 and player.team == 1 and #tempTbl > 0) or
-                (team1 < team2 and player.team == 2 and #tempTbl > 0)
-         then
+        if (team1 > team2 and player.team == 1) or (team1 < team2 and player.team == 2) then
             for target, achievementId in pairs(tempTbl) do
-                ACH_API.AddProgress(player, achievementId, 1)
+                ACH_API.UnlockAchievement(player, achievementId)
+                print(achievementId)
             end
-        end]]--
+        end
 
         if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
             ACH_API.UnlockAchievement(player, "AS_Blackjack")
         end
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
+        Task.Wait()
         ACH_API.GiveAllRewards(player)
     end
     Task.Spawn(

@@ -178,7 +178,7 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
             function()
                 BuildAchievementInfoPanel()
             end,
-            2
+            3
         )
     else
         ClearAchievements()
