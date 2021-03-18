@@ -33,7 +33,7 @@ local HIDDEN_X = 400
 local IN_DELAY = 3
 local IN_DURATION = 0.7
 local OUT_DURATION = 0.9
-local WAITING_MAX_DURATION = 10
+local WAITING_MAX_DURATION = 40
 
 local STATE_HIDDEN = 0
 local STATE_IN_DELAY = 1
