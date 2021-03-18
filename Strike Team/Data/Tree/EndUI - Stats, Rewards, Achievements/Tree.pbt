@@ -1304,7 +1304,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     UIY: 180
     RenderTransformPivot {
@@ -1370,7 +1370,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     UIY: 120
     RenderTransformPivot {
@@ -1555,7 +1555,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     UIY: 90
     RenderTransformPivot {
@@ -1740,7 +1740,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     UIY: 60
     RenderTransformPivot {
@@ -1925,7 +1925,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     UIY: 30
     RenderTransformPivot {
@@ -2110,7 +2110,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     RenderTransformPivot {
       Anchor {
@@ -2293,7 +2293,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 813
+    Width: 820
     Height: 30
     UIX: -15
     UIY: -40
