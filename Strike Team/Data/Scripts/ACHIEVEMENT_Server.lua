@@ -220,8 +220,8 @@ function OnRoundEnd()
 
     for _, player in ipairs(Game.GetPlayers()) do --
         if
-            (team1 > team2 and player.team == team1 and #tempTbl > 0) or
-                (team1 < team2 and player.team == team2 and #tempTbl > 0)
+            (team1 > team2 and player.team == 1 and #tempTbl > 0) or
+                (team1 < team2 and player.team == 2 and #tempTbl > 0)
          then
             for target, achievementId in pairs(tempTbl) do
                 ACH_API.AddProgress(player, achievementId, 1)
