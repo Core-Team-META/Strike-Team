@@ -1,7 +1,7 @@
 Name: "Gameplay Settings"
 RootId: 16962308734055015238
 Objects {
-  Id: 1707190303206462119
+  Id: 5643621584690699170
   Name: "Fall Damage"
   Transform {
     Scale {
@@ -11,34 +11,180 @@ Objects {
     }
   }
   ParentId: 16962308734055015238
+  ChildIds: 3138148297700067768
+  ChildIds: 15556342398574729193
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MaximumSafeSpeed"
+      Float: 1500
+    }
+    Overrides {
+      Name: "cs:LethalSpeed"
+      Float: 3500
+    }
+    Overrides {
+      Name: "cs:HearOtherPlayersDamageSounds"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:MaximumSafeSpeed:tooltip"
+      String: "Maximum falling speed (cm/s) that a player can collide with the ground with and not take damage."
+    }
+    Overrides {
+      Name: "cs:LethalSpeed:tooltip"
+      String: "Falling speed at which collision with the ground kills a player."
+    }
+    Overrides {
+      Name: "cs:HearOtherPlayersDamageSounds:tooltip"
+      String: "Whether everyone hears the fall damage sound (true) or just the victim (false)."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7840478093453456171
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fall Damage"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:MaximumSafeSpeed"
-          Float: 1500
-        }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5643621584690699170
+    SubobjectId: 7840478093453456171
+    InstanceId: 1707190303206462119
+    TemplateId: 8585645546693573788
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 15556342398574729193
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5643621584690699170
+  ChildIds: 11412514347703215723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 15556342398574729193
+    SubobjectId: 17690113337143344992
+    InstanceId: 1707190303206462119
+    TemplateId: 8585645546693573788
+  }
+}
+Objects {
+  Id: 11412514347703215723
+  Name: "FallDamageClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15556342398574729193
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:FallDamageSoundTemplateMale"
+      AssetReference {
+        Id: 322298636036782150
       }
     }
-    TemplateAsset {
-      Id: 8585645546693573788
+    Overrides {
+      Name: "cs:FallDamageSoundTemplateFemale"
+      AssetReference {
+        Id: 2401117903199210763
+      }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4128634987527119358
+    }
+  }
+  InstanceHistory {
+    SelfId: 11412514347703215723
+    SubobjectId: 13618243099847757538
+    InstanceId: 1707190303206462119
+    TemplateId: 8585645546693573788
+  }
+}
+Objects {
+  Id: 3138148297700067768
+  Name: "FallDamageServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5643621584690699170
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TemplateRoot"
+      ObjectReference {
+        SelfId: 5643621584690699170
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8228003416186533383
+    }
+  }
+  InstanceHistory {
+    SelfId: 3138148297700067768
+    SubobjectId: 653061421539123505
+    InstanceId: 1707190303206462119
+    TemplateId: 8585645546693573788
   }
 }
 Objects {

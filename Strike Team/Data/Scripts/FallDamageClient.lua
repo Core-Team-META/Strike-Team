@@ -16,7 +16,12 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 --]]
 
 -- Internal custom properties
-local FALL_DAMAGE_SOUND_TEMPLATE = script:GetCustomProperty("FallDamageSoundTemplate")
+
+local FALL_DAMAGE_SOUND_TEMPLATE_MALE = script:GetCustomProperty("FallDamageSoundTemplateMale")
+local FALL_DAMAGE_SOUND_TEMPLATE_FEMALE = script:GetCustomProperty("FallDamageSoundTemplateFemale")
+
+local FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_TEMPLATE_MALE
+
 
 -- nil OnFallDamage(Player)
 -- Handles a player damage event and plays the corresponding sound

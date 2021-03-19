@@ -1,4 +1,13 @@
 Assets {
+  Id: 17498508561126447581
+  Name: "Icon Gender Female"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_GenderFemale"
+  }
+}
+Assets {
   Id: 16075623993800484681
   Name: "Survival Grenade 001"
   PlatformAssetType: 9
@@ -41,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Ability_Green_032"
+  }
+}
+Assets {
+  Id: 10970301708826848486
+  Name: "Icon Gender Male"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_GenderMale"
   }
 }
 Assets {

@@ -55,7 +55,7 @@ end
 -- nil Tick(float)
 -- Checks for any players that hit the ground since last frame, applies damage if appropriate, and sends events
 function Tick(deltaTime)
-	for _, player in pairs(Game.GetPlayers()) do
+	for _, player in ipairs(Game.GetPlayers()) do
 		local fallingSpeed = math.max(0.0, -player:GetVelocity().z)
 		local isGrounded = player.isGrounded
 
