@@ -5,6 +5,8 @@ if not ENABLED then return end
 local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
 local EVENT_ID = script:GetCustomProperty("EventID")
 
+local ADDITIONAL_DATA = require( script:GetCustomProperty("AdditionalData") )
+
 local MIN_PLAYERS_TO_SUBMIT = 4
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
@@ -29,7 +31,7 @@ local STORAGE_KEY = "TournamentSupport"
 function SubmitScore(player, score, totalKills, headshots, uniquePlayersKilled)
 	--print("##### Submit Score for " .. player.name .. " = " .. tostring(score))
 	
-	local additionalData = SerializeAdditionalData(totalKills, headshots, uniquePlayersKilled)
+	local additionalData = ADDITIONAL_DATA.Serialize(totalKills, headshots, uniquePlayersKilled)
 	Leaderboards.SubmitPlayerScore(LEADERBOARD_REF, player, score, additionalData)
 	
 	local bestScore = SetPlayerScoreToStorage(player, score)
@@ -283,67 +285,4 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.roundStartEvent:Connect(OnRoundStarted)
 Game.roundEndEvent:Connect(OnRoundEnded)
-
-
-function SerializeAdditionalData(totalKills, headshots, uniquePlayersKilled)
-	if totalKills > 999 then
-		totalKills = 999
-	end
-	if headshots > 999 then
-		headshots = 999
-	end
-	if uniquePlayersKilled > 99 then
-		uniquePlayersKilled = 99
-	end
-	local value = 
-		100000 * totalKills + 
-		100 * headshots + 
-		uniquePlayersKilled
-	
-	return tostring(value)
-end
-
-function ParseAdditionalData(data)
-	if not data then
-		return 0, 0, 0
-	end
-	
-	local value = tonumber(data)
-	if not value then
-		return -1, -1, -1
-	end
-	
-	local totalKills = math.floor(value / 100000)
-	local headshots = value - totalKills * 100000
-	headshots = math.floor(headshots / 100)
-	local uniquePlayersKilled = value - totalKills * 100000 - headshots * 100
-	
-	return totalKills, headshots, uniquePlayersKilled
-end
-
-function TestAdditionalData()
-	print("##### Testing Additional Data Parse/Serialize")
-	for i = 1,1000 do
-		local totalKills = math.random(1, 999)
-		local headshots = math.random(1, 999)
-		local uniquePlayersKilled = math.random(1, 99)
-		
-		local serialized = SerializeAdditionalData(totalKills, headshots, uniquePlayersKilled)
-		local _tk, _hs, _dpk = ParseAdditionalData(serialized)
-		
-		if _tk ~= totalKills
-		or _hs ~= headshots
-		or _dpk ~= uniquePlayersKilled then
-			error("Mismatch in serialization/parsing of values: " ..
-				tostring(totalKills) .. ", " ..
-				tostring(headshots) .. ", " ..
-				tostring(uniquePlayersKilled) ..
-				"; Serialized value = " .. serialized)
-		end
-	end
-	print("##### Test complete.")
-end
-
---TestAdditionalData()
-
 
