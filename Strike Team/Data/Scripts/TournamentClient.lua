@@ -113,6 +113,30 @@ end
 Events.Connect(EVENT_ID, OnScore)
 
 
+local admins = {}
+admins["Buckmonster"] = true
+admins["Bigglebuns"] = true
+admins["standardcombo"] = true
+admins["blaking707"] = true
+admins["Coderz"] = true
+admins["Datonare"] = true
+admins["Divided"] = true
+admins["estlogic"] = true
+admins["Morticai"] = true
+admins["nicholasforeman"] = true
+admins["Ooccoo"] = true
+admins["Rolok"] = true
+admins["Aggripina"] = true
+admins["AwkwardGameDev"] = true
+admins["Daddio"] = true
+admins["mjcortes782"] = true
+admins["Keppu"] = true
+admins["KonzZwodrei"] = true
+admins["Melamoryxq"] = true
+admins["Mucusinator"] = true
+admins["WitcherSilver"] = true
+admins["AJ"] = true
+
 function OnBindingPressed(player, action)
 	if currentState == STATE_WAITING and action == "ability_extra_37" then -- K
 		SetState(STATE_OUT)
@@ -123,7 +147,7 @@ function OnBindingPressed(player, action)
 	end--]]
 	
 	-- Log the leaderboard data
-	if LEADERBOARD_REF and action == "ability_extra_37" 
+	if LEADERBOARD_REF and action == "ability_extra_37" and admins[player.name]
 	and (player:IsBindingPressed("ability_extra_12") or player:IsBindingPressed("ability_extra_13")) then -- Shift + K
 		print("##### Tournament Leaderboard #####")
 		local leaderboardData = Leaderboards.GetLeaderboard(LEADERBOARD_REF, LEADERBOARD_TYPE)
