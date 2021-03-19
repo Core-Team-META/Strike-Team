@@ -12,15 +12,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10128884331981734128
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 5225512479484356360
   Name: "st_lifetime"
   PlatformAssetType: 23
