@@ -2,6 +2,7 @@
 local ROW_TEMPLATE = script:GetCustomProperty("LeaderboardRowTemplate")
 
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
+local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
 local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
 
 local SHOW_TOP_PLAYERS = script:GetCustomProperty("ShowTopPlayers")
@@ -21,7 +22,7 @@ local rows = {}
 
 
 function GenerateLeaderboard()
-	if not LEADERBOARD_REF then return end
+	if not LEADERBOARD_REF or not ENABLED then return end
 	
 	local leaderboardData = GetLeaderboardData()
 	if not leaderboardData then return end
@@ -74,10 +75,10 @@ function GenerateLeaderboard()
 			if endIndex > #leaderboardData then
 				endIndex = #leaderboardData
 			end
-			script.parent.visibility = Visibility.FORCE_ON
+			script.parent.visibility = Visibility.INHERIT
 		end
 	else
-		script.parent.visibility = Visibility.FORCE_ON
+		script.parent.visibility = Visibility.INHERIT
 	end
 	
 	-- Build the UI rows
