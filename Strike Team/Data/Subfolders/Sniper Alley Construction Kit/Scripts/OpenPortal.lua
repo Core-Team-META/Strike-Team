@@ -1,4 +1,4 @@
-﻿local trigger = script.parent
+local trigger = script.parent
 local propPortalVFX = script:GetCustomProperty("PortalVFX")
 
 function OnBeginOverlap(whichTrigger, other)

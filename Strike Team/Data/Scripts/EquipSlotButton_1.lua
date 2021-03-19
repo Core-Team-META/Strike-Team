@@ -1,4 +1,4 @@
-﻿Button = script.parent
+Button = script.parent
 local Slot = script:GetCustomProperty("Slot")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local CurrentSlot = 1

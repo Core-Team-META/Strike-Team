@@ -1,4 +1,4 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 function GetplayerbyId(ID)
     for k,v in pairs(Game.GetPlayers()) do

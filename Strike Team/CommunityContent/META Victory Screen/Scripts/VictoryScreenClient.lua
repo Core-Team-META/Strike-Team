@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Victory Screen - Client
 	1.0.0 - 2020/10/01

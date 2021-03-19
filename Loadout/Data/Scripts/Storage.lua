@@ -1,4 +1,4 @@
-﻿local SkinStorage = {}
+local SkinStorage = {}
 SkinStorage.__index = SkinStorage
 
 function SkinStorage.New(owner)

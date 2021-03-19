@@ -1,4 +1,4 @@
-﻿local GRAVITY_SCALE = script:GetCustomProperty("GravityScale")
+local GRAVITY_SCALE = script:GetCustomProperty("GravityScale")
 function Tick(dt) 
 	if (Object.IsValid(script.parent) and script.parent.GetVelocity ~= nil and script.parent.SetVelocity ~= nil) then
 		local v = script.parent:GetVelocity()

@@ -1,4 +1,4 @@
-﻿local BackButton = script.parent
+local BackButton = script.parent
 while not _G["LoadoutState"]  do Task.Wait() end
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 local CLICK_SOUND = script:GetCustomProperty("CLICK_SOUND")

@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	FPS Meter - Server
 	v1.0
 	by: standardcombo

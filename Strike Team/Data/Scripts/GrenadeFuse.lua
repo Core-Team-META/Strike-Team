@@ -1,4 +1,4 @@
-﻿local EXPLOSION_TEMPLATE = script:GetCustomProperty("Explosion")
+local EXPLOSION_TEMPLATE = script:GetCustomProperty("Explosion")
 local FUSE_TIME = script:GetCustomProperty("FuseTime")
 owner = nil
 sourceAbility = nil

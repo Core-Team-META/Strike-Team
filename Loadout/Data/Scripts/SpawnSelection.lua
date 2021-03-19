@@ -1,4 +1,4 @@
-﻿local SlotType = script:GetCustomProperty("SlotType")
+local SlotType = script:GetCustomProperty("SlotType")
 local Button = script:GetCustomProperty("Button")
 local ScrollPanel = script:GetCustomProperty("ScrollPanel"):WaitForObject()
 LOCAL_PLAYER = Game.GetLocalPlayer()

@@ -1,4 +1,4 @@
-﻿local AUU = require(script:GetCustomProperty("ApiUIUtilities"))
+local AUU = require(script:GetCustomProperty("ApiUIUtilities"))
 local REACTIONS = require(script:GetCustomProperty("ReactionsModule"))
 local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()

@@ -1,4 +1,4 @@
-﻿local BUTTON = script.parent
+local BUTTON = script.parent
 local PROPERTIES = script:GetCustomProperties()
 local HOVER_SOUND_EFFECT = script:GetCustomProperty("HOVERSOUNDEFFECT")
 local BUTTON_COLOUR = script:GetCustomProperty("BUTTON_COLOUR")

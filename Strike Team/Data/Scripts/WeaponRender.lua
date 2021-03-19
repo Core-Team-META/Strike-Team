@@ -1,4 +1,4 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local ScreenObject = script:GetCustomProperty("ScreenObject")
 local TEXT = script:GetCustomProperty("TEXT"):WaitForObject()
 local IMAGE = script:GetCustomProperty("IMAGE"):WaitForObject()

@@ -1,4 +1,4 @@
-﻿local Ability = script:GetCustomProperty("Abiltiy"):WaitForObject()
+local Ability = script:GetCustomProperty("Abiltiy"):WaitForObject()
 local DIRECTION = script:GetCustomProperty("Direction")*-1
 
 local BindingToSlot = {

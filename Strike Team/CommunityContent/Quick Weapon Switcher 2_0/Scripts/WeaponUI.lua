@@ -1,4 +1,4 @@
-﻿local WEAPON = script:GetCustomProperty("Weapon"):WaitForObject()
+local WEAPON = script:GetCustomProperty("Weapon"):WaitForObject()
 
 local WEAPON_NAME = WEAPON:GetCustomProperty("WeaponName")
 local WEAPON_ICON = WEAPON:GetCustomProperty("Icon")

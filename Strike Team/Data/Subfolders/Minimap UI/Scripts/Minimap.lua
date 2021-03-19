@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Minimap UI
 v1.0
 by: standardcombo

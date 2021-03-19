@@ -1,4 +1,4 @@
-﻿
+
 local equip = script.parent
 local THROW_STRENGTH = script.parent:GetCustomProperty("Strength")
 local ability = script.parent:GetCustomProperty("Ability"):WaitForObject()

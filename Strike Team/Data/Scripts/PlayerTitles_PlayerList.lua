@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Player Titles - PlayerList (Client)
 	1.0.2 - 2020/10/13

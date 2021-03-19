@@ -1,4 +1,4 @@
-﻿local BUTTON = script.parent
+local BUTTON = script.parent
 local propButtonSelected = script:GetCustomProperty("ButtonSelected"):WaitForObject()
 local propButtonHover = script:GetCustomProperty("ButtonHover"):WaitForObject()
 local propSelectedFrame = script:GetCustomProperty("SelectedFrame"):WaitForObject()

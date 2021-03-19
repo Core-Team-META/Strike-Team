@@ -1,4 +1,4 @@
-﻿local trigger = script.parent
+local trigger = script.parent
 local propGameID = script:GetCustomProperty("GameID")
 
 function OnBeginOverlap(whichTrigger, other)

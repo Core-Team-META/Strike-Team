@@ -1,4 +1,4 @@
-﻿local sendString = ""
+local sendString = ""
 local DIRECTION = script:GetCustomProperty("Direction")
 local Dat = {}
 

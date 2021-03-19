@@ -1,4 +1,4 @@
-﻿
+
 local API = {}
 
 API.FindDepthOfFieldObject = function()

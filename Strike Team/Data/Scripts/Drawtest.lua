@@ -1,4 +1,4 @@
-﻿local player = Game.GetLocalPlayer()
+local player = Game.GetLocalPlayer()
 while true do
 
     local pos =  (player:GetViewWorldRotation() * Vector3.FORWARD)

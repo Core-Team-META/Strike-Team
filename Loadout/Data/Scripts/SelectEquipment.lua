@@ -1,4 +1,4 @@
-﻿local button = script.parent
+local button = script.parent
 local TYPE = script:GetCustomProperty("TYPE")
 while not _G["LoadoutState"]  do Task.Wait() end
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")

@@ -1,4 +1,4 @@
-﻿local GlobalPixel = {}
+local GlobalPixel = {}
 
 function CalcX(input)
     if((input % 3) == 0) then

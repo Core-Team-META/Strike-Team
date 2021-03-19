@@ -1,4 +1,4 @@
-﻿function IsRunningOnClient()
+function IsRunningOnClient()
 	local a, b = pcall(function() local p = Game.GetLocalPlayer() end)
 	return a
 end

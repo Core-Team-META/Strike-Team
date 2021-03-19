@@ -1,4 +1,4 @@
-﻿local TEXTBOX = script:GetCustomProperty("TextBox"):WaitForObject()
+local TEXTBOX = script:GetCustomProperty("TextBox"):WaitForObject()
 local PANEL = script:GetCustomProperty("NewPanel")
 local PANELPARENT = script:GetCustomProperty("PanelParent"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()

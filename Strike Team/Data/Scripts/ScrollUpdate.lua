@@ -1,4 +1,4 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local Time = 0
 local SwapTask 
 local CanSwap = true

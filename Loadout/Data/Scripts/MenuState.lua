@@ -1,4 +1,4 @@
-﻿local LOADOUT_UI = script:GetCustomProperty("LOADOUT_UI"):WaitForObject()
+local LOADOUT_UI = script:GetCustomProperty("LOADOUT_UI"):WaitForObject()
 local MAIN_MENU_UI = script:GetCustomProperty("MAIN_MENU_UI"):WaitForObject()
 
 function HideAllUI()

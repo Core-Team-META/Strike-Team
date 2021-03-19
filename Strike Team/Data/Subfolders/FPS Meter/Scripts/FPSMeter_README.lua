@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	FPS Meter
 	v1.0 - 2020/10/15
 	by: standardcombo

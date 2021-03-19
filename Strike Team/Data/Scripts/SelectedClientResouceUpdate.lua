@@ -1,4 +1,4 @@
-﻿
+
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 LOCAL_PLAYER.clientUserData.PrevouslySelected = 1
 LOCAL_PLAYER.clientUserData.CurrentlySelected = 1

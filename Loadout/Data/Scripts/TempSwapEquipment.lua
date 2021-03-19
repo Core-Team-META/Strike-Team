@@ -1,4 +1,4 @@
-﻿LOCAL_PLAYER = Game.GetLocalPlayer()
+LOCAL_PLAYER = Game.GetLocalPlayer()
 local ButtonMatrix = {
     ["ability_extra_1"] = 1,
     ["ability_extra_2"] = 2,

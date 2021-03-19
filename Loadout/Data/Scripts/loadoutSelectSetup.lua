@@ -1,4 +1,4 @@
-﻿local Root = script.parent
+local Root = script.parent
 local propUITextBox = Root:GetCustomProperty("UITextBox"):WaitForObject()
 local propEquippedIcon = Root:GetCustomProperty("EquippedIcon"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
