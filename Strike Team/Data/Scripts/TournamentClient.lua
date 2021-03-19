@@ -2,7 +2,12 @@
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
 
+local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
 local EVENT_ID = SERVER_SCRIPT:GetCustomProperty("EventID")
+
+local ADDITIONAL_DATA = require( SERVER_SCRIPT:GetCustomProperty("AdditionalData") )
+
+local LEADERBOARD_TYPE = LeaderboardType.GLOBAL
 
 local NORMAL_PANEL = script:GetCustomProperty("NormalPanel"):WaitForObject()
 local NORMAL_TITLE = script:GetCustomProperty("NormalTitle"):WaitForObject()
@@ -116,6 +121,34 @@ function OnBindingPressed(player, action)
 	if currentState == STATE_HIDDEN and action == "ability_extra_0" then
 		Show()
 	end--]]
+	
+	-- Log the leaderboard data
+	if LEADERBOARD_REF and action == "ability_extra_37" 
+	and (player:IsBindingPressed("ability_extra_12") or player:IsBindingPressed("ability_extra_13")) then -- Shift + K
+		print("##### Tournament Leaderboard #####")
+		local leaderboardData = Leaderboards.GetLeaderboard(LEADERBOARD_REF, LEADERBOARD_TYPE)
+		if not leaderboardData then
+			print("No leaderboard data available.")
+			return
+		end
+		if #leaderboardData <= 0 then
+			print("Leaderboard is empty.")
+			return
+		end
+		
+		for i,entry in ipairs(leaderboardData) do
+			local name = entry.name
+			local score = entry.score
+			local additionalData = entry.additionalData
+			local totalKills, headshots, uniquePlayersKilled = ADDITIONAL_DATA.Parse(additionalData)
+			print(tostring(i) .. ") " .. name .. 
+				", score = " .. score ..
+				", +data = " .. additionalData ..
+				", totalKills = " .. totalKills ..
+				", headshots = " .. headshots ..
+				", uniqueKills = " .. uniquePlayersKilled)
+		end
+	end
 end
 
 Game.GetLocalPlayer().bindingPressedEvent:Connect(OnBindingPressed)
