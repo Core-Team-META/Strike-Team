@@ -1,13 +1,13 @@
 Assets {
-  Id: 2401117903199210763
-  Name: "Helper_FallDamageSoundFemale"
+  Id: 322298636036782150
+  Name: "Helper_FallDamageSound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 6836033209207078122
       Objects {
         Id: 6836033209207078122
-        Name: "Helper_FallDamageSoundFemale"
+        Name: "Helper_FallDamageSound"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10477958480793043052
+        ParentId: 4781671109827199097
         Lifespan: 1
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -28,11 +28,12 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 2894832343281932865
+            Id: 7302246634419215840
           }
           AutoPlay: true
           Transient: true
-          Volume: 1.2
+          Pitch: -200
+          Volume: 0.7
           Falloff: 2000
           Radius: 400
           IsSpatializationEnabled: true
@@ -41,12 +42,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2894832343281932865
-      Name: "Female Generic Pain Groan 01 SFX"
+      Id: 7302246634419215840
+      Name: "Bullet Body Flesh 02 Impact SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_female_generic_pain_groan_01a_Cue_ref"
+        AssetId: "sfx_bullet_impact_body_flesh_02_Cue_ref"
       }
     }
     PrimaryAssetId {
