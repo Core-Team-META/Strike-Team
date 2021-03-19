@@ -2185,12 +2185,6 @@ Objects {
         Id: 1953446882420386915
       }
     }
-    Overrides {
-      Name: "cs:InfoPanel"
-      ObjectReference {
-        SelfId: 10052807019503568626
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

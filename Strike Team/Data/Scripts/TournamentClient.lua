@@ -8,20 +8,17 @@ local NORMAL_PANEL = script:GetCustomProperty("NormalPanel"):WaitForObject()
 local NORMAL_TITLE = script:GetCustomProperty("NormalTitle"):WaitForObject()
 local TOURNAMENT_PANEL = script:GetCustomProperty("TournamentPanel"):WaitForObject()
 local TOURNAMENT_TITLE = script:GetCustomProperty("TournamentTitle"):WaitForObject()
-local INFO_PANEL = script:GetCustomProperty("InfoPanel"):WaitForObject()
 
 if ENABLED then
 	NORMAL_PANEL.visibility = Visibility.FORCE_OFF
 	NORMAL_TITLE.visibility = Visibility.FORCE_OFF
-	TOURNAMENT_PANEL.visibility = Visibility.INHERIT
-	TOURNAMENT_TITLE.visibility = Visibility.INHERIT
-	INFO_PANEL.visibility = Visibility.INHERIT
+	TOURNAMENT_PANEL.visibility = Visibility.FORCE_ON
+	TOURNAMENT_TITLE.visibility = Visibility.FORCE_ON
 else
-	NORMAL_PANEL.visibility = Visibility.INHERIT
-	NORMAL_TITLE.visibility = Visibility.INHERIT
+	NORMAL_PANEL.visibility = Visibility.FORCE_ON
+	NORMAL_TITLE.visibility = Visibility.FORCE_ON
 	TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
 	TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
-	INFO_PANEL.visibility = Visibility.FORCE_OFF
 end
 
 local POPUP_ROOT = script:GetCustomProperty("PopupRoot"):WaitForObject()
