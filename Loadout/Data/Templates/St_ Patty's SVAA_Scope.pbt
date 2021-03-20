@@ -293,7 +293,6 @@ Assets {
           }
         }
         ParentId: 10386996112159713381
-        ChildIds: 12264097157720851237
         ChildIds: 7929807431176874362
         ChildIds: 12693568907422232444
         WantsNetworking: true
@@ -311,96 +310,13 @@ Assets {
         }
       }
       Objects {
-        Id: 12264097157720851237
-        Name: "Modern Weapon - Body 01"
-        Transform {
-          Location {
-            X: 45
-            Z: 19.3054504
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: 89.9999847
-            Roll: 89.9999924
-          }
-          Scale {
-            X: 0.00845196657
-            Y: -0.037698485
-            Z: 0.0401153937
-          }
-        }
-        ParentId: 15950371865038289918
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 3770287877712236950
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 8120533963385098208
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.330000043
-              B: 0.0611920804
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 1.75942051
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 1.52102733
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:utile"
-            Float: 1.77988684
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:vtile"
-            Float: 2.5020535
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2247888389600537611
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
         Id: 7929807431176874362
         Name: "Modern Weapon - Body 01"
         Transform {
           Location {
             X: 15.7753906
             Y: 0.001953125
-            Z: 27.4113922
+            Z: 26.4715576
           }
           Rotation {
             Roll: 0.000100745223
@@ -593,7 +509,7 @@ Assets {
         ParentId: 17632925754980590368
         ChildIds: 604629494631008288
         ChildIds: 6761240635000385890
-        ChildIds: 10445386837803057071
+        ChildIds: 11339274104299012170
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -613,9 +529,9 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: 3.58358765
+            X: -0.936088562
             Y: -0.0658569336
-            Z: 0.471740723
+            Z: 0.471801758
           }
           Rotation {
             Pitch: -90
@@ -623,8 +539,8 @@ Assets {
           }
           Scale {
             X: 0.114711039
-            Y: 0.120983087
-            Z: 0.154411882
+            Y: 0.12098255
+            Z: 0.0536364578
           }
         }
         ParentId: 6857604211055469368
@@ -632,7 +548,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10260597922063654733
             }
           }
           Overrides {
@@ -668,7 +584,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14863336189048463612
+            Id: 2954037056948186721
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1249,22 +1165,22 @@ Assets {
         }
       }
       Objects {
-        Id: 10445386837803057071
+        Id: 11339274104299012170
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: 3.58358765
+            X: -6.76380157
             Y: -0.0658569336
-            Z: 0.471740723
+            Z: 0.471801758
           }
           Rotation {
             Pitch: -90
             Roll: -179.99971
           }
           Scale {
-            X: 0.12681891
-            Y: 0.13375169
-            Z: 0.0832682475
+            X: 0.116452388
+            Y: 0.122819088
+            Z: 0.0544506721
           }
         }
         ParentId: 6857604211055469368
@@ -1272,14 +1188,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10260597922063654733
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.330000043
-              B: 0.0611920804
+              R: 0.00843707845
+              G: 0.0910000056
               A: 1
             }
           }
@@ -1308,7 +1224,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14863336189048463612
+            Id: 11525850364699686476
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1408,33 +1324,6 @@ Assets {
       }
     }
     Assets {
-      Id: 2247888389600537611
-      Name: "Sci-fi Base HVAC 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_scf_acc_hvac_001_ref"
-      }
-    }
-    Assets {
-      Id: 3770287877712236950
-      Name: "Metal Painted 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_painted_new_001_uv"
-      }
-    }
-    Assets {
-      Id: 8120533963385098208
-      Name: "Metal Old Beaten Gold 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_gold_002"
-      }
-    }
-    Assets {
       Id: 17869324957276669748
       Name: "Modern Weapon - Foregrip 02"
       PlatformAssetType: 1
@@ -1462,21 +1351,48 @@ Assets {
       }
     }
     Assets {
-      Id: 14863336189048463612
-      Name: "Pipe - 8-Sided"
+      Id: 2247888389600537611
+      Name: "Sci-fi Base HVAC 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_eightsided_002"
+        AssetId: "sm_ts_scf_acc_hvac_001_ref"
       }
     }
     Assets {
-      Id: 4270565736417276453
-      Name: "Plastic Shiny"
+      Id: 3770287877712236950
+      Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "plastic_shiny_001"
+        AssetId: "mi_metal_painted_new_001_uv"
+      }
+    }
+    Assets {
+      Id: 8120533963385098208
+      Name: "Metal Old Beaten Gold 02"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_gold_002"
+      }
+    }
+    Assets {
+      Id: 2954037056948186721
+      Name: "Pipe - Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_pipe_003"
+      }
+    }
+    Assets {
+      Id: 10260597922063654733
+      Name: "Ceramic Terracotta Pots 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_fan_terracotta_pots_001_uv"
       }
     }
     Assets {
@@ -1516,12 +1432,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2954037056948186721
-      Name: "Pipe - Thin"
+      Id: 11525850364699686476
+      Name: "Ring - Beveled"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_003"
+        AssetId: "sm_ring_faceted_001"
       }
     }
     Assets {
