@@ -334,7 +334,6 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "$0"
       Color {
         R: 1
         G: 1
@@ -827,7 +826,6 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "$99999999999"
       Color {
         R: 1
         G: 1
@@ -1745,7 +1743,6 @@ Objects {
       }
     }
     Text {
-      Label: "999"
       Color {
         R: 1
         G: 1
