@@ -24,7 +24,8 @@ local FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
 -- nil OnFallDamage(Player)
 -- Handles a player damage event and plays the corresponding sound
 function OnFallDamage(player, modelGender)
-	if (modelGender and modelGender == "Female") then
+	print(player.name .. " - " .. tostring(modelGender))
+	if (modelGender ~= nil and modelGender == "Female") then
 		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_FEMALE
 	else
 		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE

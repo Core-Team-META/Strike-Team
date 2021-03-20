@@ -52,8 +52,10 @@ function AttachPoints(player)
     Right:AttachToPlayer(player, "right_clavicle")
     
     if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
+		print("server - sound female")
         modelGender = "Female" -- Female
     else
+		print("server - sound male")		
         modelGender = "Male" -- Male
     end
 
