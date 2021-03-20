@@ -38,7 +38,7 @@ if LETHAL_SPEED < MAXIMUM_SAFE_SPEED then
 end
 
 function AttachPoints(player)
-	Task.Wait(0.25)
+	Task.Wait(1)
 
     local Left = World.SpawnAsset(SPHERE)
     local Right = World.SpawnAsset(SPHERE)

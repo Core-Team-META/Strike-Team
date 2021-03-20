@@ -17,6 +17,7 @@ local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 ------------------------------------------------------------------------------------------------------------------------
 local ACHIEVEMENT_LIST = script:GetCustomProperty("Achievement_List"):WaitForObject()
 local NOTIFICATION = script:GetCustomProperty("NOTIFICATION"):WaitForObject()
+local NOTIFICATION_ICON_BG = NOTIFICATION:GetCustomProperty("ICONBG"):WaitForObject()
 local NOTIFICATION_ICON = NOTIFICATION:GetCustomProperty("ICON"):WaitForObject()
 local ACHIEVEMENT_NAME_TEXT = NOTIFICATION:GetCustomProperty("ACHIEVEMENT_NAME_TEXT"):WaitForObject()
 local ACHIEVEMENT_CONTAINER = script:GetCustomProperty("CONTAINER"):WaitForObject()
@@ -133,6 +134,7 @@ end
 
 local function AnimateNotification(id)
     NOTIFICATION_ICON:SetImage(ACH_API.GetAchievementIcon(id))
+    NOTIFICATION_ICON_BG:SetImage(ACH_API.GetAchievementIconBG(id))    
     ACHIEVEMENT_NAME_TEXT.text = (ACH_API.GetAchievementName(id))
     EaseUI.EaseX(NOTIFICATION, 10, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.OUT)
     Task.Wait(0.5)

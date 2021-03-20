@@ -449,15 +449,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5223287246289902870
-  Name: "Frame Outline Thin 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
-  }
-}
-Assets {
   Id: 5119950607460411518
   Name: "Military Ability Aim"
   PlatformAssetType: 9
@@ -554,15 +545,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Weapon_MachineGun_001"
-  }
-}
-Assets {
-  Id: 1958653091562318230
-  Name: "Center Tri 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterTri_001"
   }
 }
 Assets {
