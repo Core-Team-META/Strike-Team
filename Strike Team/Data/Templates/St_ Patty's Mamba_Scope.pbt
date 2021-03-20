@@ -7,7 +7,7 @@ Assets {
       RootId: 9133326201364501324
       Objects {
         Id: 9133326201364501324
-        Name: "St. Patty\'s Mamba_Scope"
+        Name: "St_ Patty\'s Mamba_Scope"
         Transform {
           Scale {
             X: 1
@@ -1070,6 +1070,7 @@ Assets {
         }
         ParentId: 14904384017335505352
         ChildIds: 8860157588905075905
+        ChildIds: 4374867560221016315
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1145,7 +1146,81 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14863336189048463612
+            Id: 2954037056948186721
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4374867560221016315
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            X: -9.19709778
+            Y: 0.196289063
+            Z: 7.3717041
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.0908668637
+            Y: 0.0908668488
+            Z: 0.0240224823
+          }
+        }
+        ParentId: 2361309263031287105
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8120533963385098208
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.30660367
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.548918724
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.457000017
+              G: 0.457000017
+              B: 0.457000017
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11525850364699686476
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2257,12 +2332,12 @@ Assets {
       }
     }
     Assets {
-      Id: 14863336189048463612
-      Name: "Pipe - 8-Sided"
+      Id: 2954037056948186721
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_eightsided_002"
+        AssetId: "sm_pipe_003"
       }
     }
     Assets {
@@ -2272,6 +2347,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_gold_002"
+      }
+    }
+    Assets {
+      Id: 11525850364699686476
+      Name: "Ring - Beveled"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ring_faceted_001"
       }
     }
     Assets {
@@ -2299,15 +2383,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_sight_forw_002"
-      }
-    }
-    Assets {
-      Id: 2954037056948186721
-      Name: "Pipe - Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_003"
       }
     }
     Assets {

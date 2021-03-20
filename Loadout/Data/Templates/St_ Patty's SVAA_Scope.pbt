@@ -1,6 +1,6 @@
 Assets {
   Id: 1346158666908562405
-  Name: "St. Patty\'s SVAA_Scope"
+  Name: "St_ Patty\'s SVAA_Scope"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -124,8 +124,8 @@ Assets {
         Transform {
           Location {
             X: -1.93481445
-            Y: -0.286193848
-            Z: -0.292037964
+            Y: -0.0660705566
+            Z: -0.291992188
           }
           Rotation {
           }
@@ -530,7 +530,7 @@ Assets {
         Transform {
           Location {
             X: -0.936088562
-            Y: -0.0658569336
+            Y: 0.154266357
             Z: 0.471801758
           }
           Rotation {
@@ -689,7 +689,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5351428073291024820
+              Id: 6721774561700172060
             }
           }
           Overrides {
@@ -1170,7 +1170,7 @@ Assets {
         Transform {
           Location {
             X: -6.76380157
-            Y: -0.0658569336
+            Y: 0.154266357
             Z: 0.471801758
           }
           Rotation {
@@ -1405,7 +1405,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5351428073291024820
+      Id: 6721774561700172060
       Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
