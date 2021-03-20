@@ -16,13 +16,42 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 --]]
 
 -- Internal custom properties
-local FALL_DAMAGE_SOUND_TEMPLATE = script:GetCustomProperty("FallDamageSoundTemplate")
+local FALL_DAMAGE_SOUND_MALE = script:GetCustomProperty("FallDamageSoundTemplateMale")
+local FALL_DAMAGE_SOUND_FEMALE = script:GetCustomProperty("FallDamageSoundTemplateFemale")
+
+local FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
 
 -- nil OnFallDamage(Player)
 -- Handles a player damage event and plays the corresponding sound
-function OnFallDamage(player)
+function OnFallDamage(player, modelGender)
+	print(player.name .. " - " .. tostring(modelGender))
+	if (modelGender ~= nil and modelGender == "Female") then
+		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_FEMALE
+	else
+		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
+	end
 	World.SpawnAsset(FALL_DAMAGE_SOUND_TEMPLATE, {position = player:GetWorldPosition()})
 end
 
 -- Initialize
 Events.Connect("FallDamage", OnFallDamage)
+
+
+local lastModal = 0
+
+function OnCoreModalToggle(modal)
+	local LOCAL_PLAYER = Game.GetLocalPlayer()
+	if (modal ~= nil and lastModal ~= modal) then
+		lastModal = modal
+	end
+
+    if modal == nil then
+        -- after closing modal
+		if (lastModal == CoreModalType.CHARACTER_PICKER) then
+			Events.BroadcastToServer("UpdateSkin", LOCAL_PLAYER)
+		end
+	end
+
+end
+
+UI.coreModalChangedEvent:Connect(OnCoreModalToggle)

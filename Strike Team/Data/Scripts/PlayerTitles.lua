@@ -190,7 +190,6 @@ Module.titles = {
 			"597116a231124b10a02ffb32b5eba6c9", -- pbmaynard
 			"93f2a0b4af184fdda935311f463ff421", -- plasmabacon
 			"ba70f301ec0d4d8f9fb19b5ba8612751", -- priyanka
-			"dabe472c0b2e4d5a9f4edcec4a63ad8a", -- Poippels
 			"83ef77fc3dc1409992d549a68dd616dd", -- qualispec
 			"20dba0f31f1b4f889b6bd70cdaaab192", -- Robotron
 			"b06d130e5afd418d8ecfce2150450c69", -- rbrown

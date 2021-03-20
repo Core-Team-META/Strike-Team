@@ -155,11 +155,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:XP_MULTIPLY"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:CASH_MULTIPLY"
-      Int: 1
+      Int: 2
     }
   }
   Collidable_v2 {

@@ -117,7 +117,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: -2.56286621
+            X: -2.69775391
+            Y: -0.854492188
           }
           Rotation {
           }
@@ -2005,8 +2006,8 @@ Assets {
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
-            X: 40.8377686
-            Z: -7.65339661
+            X: 40.8378906
+            Z: -7.65344238
           }
           Rotation {
             Yaw: -179.999893
@@ -2014,7 +2015,7 @@ Assets {
           Scale {
             X: 0.325966448
             Y: 0.302524537
-            Z: 1.54085493
+            Z: 1.42146754
           }
         }
         ParentId: 11035348926983381507
@@ -2064,8 +2065,8 @@ Assets {
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
-            X: -7.64434814
-            Z: -6.18069458
+            X: -7.64428711
+            Z: -6.18066406
           }
           Rotation {
             Yaw: -179.999893
@@ -2073,7 +2074,7 @@ Assets {
           Scale {
             X: 0.325966448
             Y: 0.302524537
-            Z: 1.54085493
+            Z: 1.25465906
           }
         }
         ParentId: 11035348926983381507
