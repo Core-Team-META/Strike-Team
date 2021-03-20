@@ -92,8 +92,8 @@ Assets {
           Overrides {
             Name: "cs:LocalMoveOffset"
             Vector {
-              X: -2.5
-              Z: 0.2
+              X: -5
+              Z: 0.5
             }
           }
         }
@@ -159,8 +159,8 @@ Assets {
         Transform {
           Location {
             X: -1.65637207
-            Y: 0.258056641
-            Z: -0.940979
+            Y: 0.00646972656
+            Z: -0.940917969
           }
           Rotation {
             Yaw: 179.999954
@@ -457,11 +457,10 @@ Assets {
         Transform {
           Location {
             X: 14.5461426
-            Y: 0.256835938
+            Y: 0.00524902344
             Z: 26.5866699
           }
           Rotation {
-            Yaw: -3.9167061e-13
             Roll: 9.56226577e-05
           }
           Scale {
@@ -481,19 +480,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 13909276548079333532
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 13909276548079333532
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 13909276548079333532
             }
           }
           Overrides {
@@ -563,11 +562,10 @@ Assets {
         Transform {
           Location {
             X: 10.7441864
-            Y: 0.336792
-            Z: 27.2285461
+            Y: 0.0852050781
+            Z: 27.2285156
           }
           Rotation {
-            Yaw: -1.55664826e-12
             Roll: 9.56226286e-05
           }
           Scale {
@@ -659,13 +657,13 @@ Assets {
         Transform {
           Location {
             X: 10.2590485
-            Y: 0.336792
-            Z: 32.5209045
+            Y: 0.0852050781
+            Z: 32.520874
           }
           Rotation {
             Pitch: 90
-            Yaw: -3.37221861
-            Roll: -3.37191772
+            Yaw: -0.0527038574
+            Roll: -0.0524292
           }
           Scale {
             X: 0.0856607109
@@ -740,13 +738,13 @@ Assets {
         Transform {
           Location {
             X: 21.4859
-            Y: 0.336792
+            Y: 0.0852050781
             Z: 32.5205078
           }
           Rotation {
             Pitch: 90
-            Yaw: -174.948944
-            Roll: -174.948669
+            Yaw: -179.841537
+            Roll: -179.841263
           }
           Scale {
             X: 0.0801509097
@@ -783,9 +781,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.297105968
-              G: 0.123250008
-              B: 0.493000031
+              R: 0.0325430445
+              G: 0.0135
+              B: 0.054
               A: 1
             }
           }
@@ -821,12 +819,12 @@ Assets {
         Transform {
           Location {
             X: 3.97886658
-            Y: 0.336792
-            Z: 18.3111267
+            Y: 0.0852050781
+            Z: 18.3111572
           }
           Rotation {
-            Pitch: -9.56226431e-05
-            Yaw: -89.9999237
+            Pitch: -9.15527344e-05
+            Yaw: -89.999939
             Roll: 89.9999084
           }
           Scale {
@@ -903,7 +901,7 @@ Assets {
         Transform {
           Location {
             X: 10.3626709
-            Y: 0.336914063
+            Y: 0.0853271484
             Z: 26.8525391
           }
           Rotation {
@@ -1145,7 +1143,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5351428073291024820
+              Id: 6721774561700172060
             }
           }
         }
@@ -1193,7 +1191,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7283825798727192743
+      Id: 13909276548079333532
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1274,7 +1272,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5351428073291024820
+      Id: 6721774561700172060
       Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {

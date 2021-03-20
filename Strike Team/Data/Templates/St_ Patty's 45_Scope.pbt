@@ -1,6 +1,6 @@
 Assets {
   Id: 9661436720063996476
-  Name: "St. Patty\'s 45_Scope"
+  Name: "St_ Patty\'s 45_Scope"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -36,16 +36,16 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 44.5977783
-            Y: 0.0275268555
-            Z: -16.9251099
+            X: 131.413574
+            Y: 0.669921875
+            Z: -50.6921387
           }
           Rotation {
           }
           Scale {
-            X: 0.700000048
-            Y: 0.700000048
-            Z: 0.700000048
+            X: 2.20094681
+            Y: 2.20094681
+            Z: 2.20094681
           }
         }
         ParentId: 8716150266393785152
@@ -194,17 +194,17 @@ Assets {
         Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
-            X: 23.3676167
-            Z: 9.56571388
+            X: 23.3677483
+            Z: 9.56578
           }
           Rotation {
             Yaw: -90
             Roll: -89.999939
           }
           Scale {
-            X: 0.0116099035
-            Y: 0.064956829
-            Z: 0.0429639667
+            X: 0.0116098579
+            Y: 0.0337751918
+            Z: 0.0429639705
           }
         }
         ParentId: 10219634638221171436
@@ -574,7 +574,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -632,7 +632,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -689,7 +689,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -781,7 +781,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -839,7 +839,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -896,7 +896,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17385851098226992227
+            Id: 2810379255825890868
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1350,8 +1350,7 @@ Assets {
           Overrides {
             Name: "cs:PositionOffset"
             Vector {
-              X: 1
-              Z: 1
+              X: -10
             }
           }
           Overrides {
@@ -1361,6 +1360,12 @@ Assets {
           Overrides {
             Name: "cs:RecoverTime"
             Float: 0.1
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 3094170466052031469
+            }
           }
         }
         Collidable_v2 {
@@ -1443,7 +1448,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17385851098226992227
+      Id: 2810379255825890868
       Name: "Gem - Heart Polished"
       PlatformAssetType: 1
       PrimaryAsset {
