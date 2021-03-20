@@ -24,7 +24,7 @@ local LETHAL_SPEED = TEMPLATE_ROOT:GetCustomProperty("LethalSpeed")
 local HEAR_OTHER_PLAYERS_DAMAGE_SOUNDS = TEMPLATE_ROOT:GetCustomProperty("HearOtherPlayersDamageSounds")
 
 local SPHERE = script:GetCustomProperty("Sphere")
-local modelGender = false
+local modelGender = "Male"
 
 -- Check user properties
 if MAXIMUM_SAFE_SPEED <= 0.0 then
@@ -52,9 +52,9 @@ function AttachPoints(player)
     Right:AttachToPlayer(player, "right_clavicle")
     
     if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
-        modelGender = true -- Female
+        modelGender = "Female" -- Female
     else
-        modelGender = false -- Male
+        modelGender = "Male" -- Male
     end
 
 	if (Object.IsValid(Left)) then

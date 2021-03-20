@@ -4379,6 +4379,13 @@ Objects {
   ChildIds: 9508784971789719093
   ChildIds: 2495306490441641483
   ChildIds: 8718754846646702422
+  ChildIds: 15858395606596283021
+  ChildIds: 8481710250898101868
+  ChildIds: 11599640281683997055
+  ChildIds: 7117466178471167738
+  ChildIds: 18115618375245930355
+  ChildIds: 16959034601184445277
+  ChildIds: 6296649969808758169
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4390,6 +4397,825 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 6296649969808758169
+  Name: "Scav Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 5355267092752243946
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Legion of Light skin for the Marksman Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLSCAV"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 14881791628571254911
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLSCAV"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 14881791628571254911
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 5355267092752243946
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6296649969808758169
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "LO"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "SV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 16959034601184445277
+  Name: "AJ Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 10052612777986687125
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the WSJUN09 skin for the Bat"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLAJ"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9532212054162413688
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLAJ"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 13160217803603342438
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 10052612777986687125
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16959034601184445277
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "WB"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "BA"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 18115618375245930355
+  Name: "Divide Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 13403226184406722664
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Toy skin for the Marksman Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLDIVIDE"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 11834938224351838128
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLDIVIDE"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 2670971431510838123
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 13403226184406722664
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18115618375245930355
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "TY"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "SV"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 7117466178471167738
+  Name: "Melamory Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 13781726301460167912
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Unicorn skin for the Sub Machine Gun "
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLMELAMORY"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 2468780069866060834
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLMELAMORY"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 13781726301460167912
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7117466178471167738
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "UC"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "SP"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 11599640281683997055
+  Name: "Estlogic Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 7148807903216395344
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Steam Punk skin for the Sub Machine Gun"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLESTLOGIC"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10614095398046354114
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLESTLOGIC"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 7148807903216395344
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11599640281683997055
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "SP"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "SP"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 8481710250898101868
+  Name: "Griffin Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 11470870549247125013
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Legion of Light skin for the Assault Rifle"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLGRIFFIN"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9299577150874846566
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLGRIFFIN"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 11470870549247125013
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8481710250898101868
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "LO"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "HK"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
+  }
+}
+Objects {
+  Id: 15858395606596283021
+  Name: "Mehaji Win"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4621019112986440625
+  ChildIds: 16204274387607582352
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Description"
+      String: "You have unlocked the Demon Hunter skin for the Sub Machine Gun"
+    }
+    Overrides {
+      Name: "cs:Required"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:ID"
+      String: "AS_KILLMEHAJI"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10581025595471415869
+      }
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Family"
+      String: "KILLMEHAJI"
+    }
+    Overrides {
+      Name: "cs:IconBG"
+      AssetReference {
+        Id: 3884726409041590116
+      }
+    }
+    Overrides {
+      Name: "cs:GivesReward"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4954130354820301591
+    }
+  }
+}
+Objects {
+  Id: 16204274387607582352
+  Name: "Skin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15858395606596283021
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SkinId"
+      String: "DE"
+    }
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WeaponId"
+      String: "SP"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14834846586282254744
+    }
   }
 }
 Objects {
@@ -4411,7 +5237,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Baguette skin for the Bat"
     }
     Overrides {
       Name: "cs:Required"
@@ -4428,7 +5254,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 13586096600253432719
+        Id: 17192063539394616353
       }
     }
     Overrides {
@@ -4442,7 +5268,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 9205467461832957081
       }
     }
     Overrides {
@@ -4483,15 +5309,15 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SkinId"
-      String: ""
+      String: "FB"
     }
     Overrides {
       Name: "cs:Enabled"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:WeaponId"
-      String: ""
+      String: "BA"
     }
   }
   Collidable_v2 {
@@ -4528,7 +5354,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "You have unlocked the Makeshift Machette"
+      String: "You have unlocked the Makeshift Machete skin for the Knife"
     }
     Overrides {
       Name: "cs:Required"
@@ -4559,7 +5385,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 10746377977067585988
       }
     }
     Overrides {
@@ -4645,7 +5471,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Description"
-      String: "Share a screenshot of your Achievements in the Player Discord: discord.gg/CoreGames"
+      String: "You have unlocked the Gold skin for the Sub Machine Gun"
     }
     Overrides {
       Name: "cs:Required"
@@ -4676,7 +5502,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 5119950607460411518
       }
     }
     Overrides {
@@ -4793,7 +5619,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 8213756710197580854
       }
     }
     Overrides {
@@ -4896,7 +5722,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 6920475546474804266
+        Id: 16639438294200189897
       }
     }
     Overrides {
@@ -4910,7 +5736,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 17683611682831965898
       }
     }
     Overrides {
@@ -5027,7 +5853,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 10269934151114891256
       }
     }
     Overrides {
@@ -5130,7 +5956,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 13211565500630064749
+        Id: 11247262735616360412
       }
     }
     Overrides {
@@ -5729,7 +6555,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 6252166141571935028
       }
     }
     Overrides {
@@ -5832,7 +6658,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 4368479957251991493
+        Id: 2593742631329398939
       }
     }
     Overrides {
@@ -5846,7 +6672,7 @@ Objects {
     Overrides {
       Name: "cs:IconBG"
       AssetReference {
-        Id: 3884726409041590116
+        Id: 3700504067858442078
       }
     }
     Overrides {
