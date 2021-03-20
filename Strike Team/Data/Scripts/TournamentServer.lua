@@ -255,13 +255,18 @@ function OnRoundEnded()
 		playerData.points = playerData.points * 10
 		
 		-- Unique kills bonus
-		if #playerData.uniqueKills > 0 then
-			local uniqueCount = 0
-			for k,v in pairs(playerData.uniqueKills) do
-				uniqueCount = uniqueCount + 1
-				if uniqueCount == MAX_UNIQUE_COUNT then break end
-			end
-			
+		local uniqueCount = 0
+		for k,v in pairs(playerData.uniqueKills) do
+			uniqueCount = uniqueCount + 1
+		end
+		
+		playerData.uniqueCount = uniqueCount
+		
+		if uniqueCount > MAX_UNIQUE_COUNT then
+			uniqueCount = MAX_UNIQUE_COUNT
+		end
+		
+		if uniqueCount > 0 then
 			local uniqueKillsBonus = playerData.points * uniqueCount * BONUS_MULTIPLY_PER_UNIQUE_KILL
 			uniqueKillsBonus = CoreMath.Round(uniqueKillsBonus)
 			playerData.points = playerData.points + uniqueKillsBonus
@@ -277,7 +282,7 @@ function OnRoundEnded()
 				playerData.points, 
 				playerData.totalKills, 
 				playerData.headshots,
-				#playerData.uniqueKills)
+				playerData.uniqueCount or 0)
 		end
 	end
 end
