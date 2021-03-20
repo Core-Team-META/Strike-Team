@@ -87,9 +87,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 10.9029541
-            Y: 26.7640381
-            Z: -25.4387817
+            X: 10.7800293
+            Y: 27.0068359
+            Z: -25.9510498
           }
           Rotation {
           }
@@ -238,6 +238,12 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 9.6179924
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 5390120376389660115
+            }
           }
         }
         WantsNetworking: true

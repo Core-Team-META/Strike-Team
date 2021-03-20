@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13187462702901732575
+  Name: "Money"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Urban_Icon_046"
+  }
+}
+Assets {
   Id: 12570125024485235394
   Name: "Icon Grenade"
   PlatformAssetType: 9
@@ -104,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Urban_Icon_061"
+  }
+}
+Assets {
+  Id: 6806410714965076892
+  Name: "Icon Trophy"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Trophy"
   }
 }
 Assets {
@@ -167,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 548299815801291290
+  Name: "BG Highlighted 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_019"
   }
 }
 Assets {

@@ -5,6 +5,8 @@ if not ENABLED then return end
 local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
 local EVENT_ID = script:GetCustomProperty("EventID")
 
+local ADDITIONAL_DATA = require( script:GetCustomProperty("AdditionalData") )
+
 local MIN_PLAYERS_TO_SUBMIT = 4
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
@@ -26,10 +28,11 @@ local POINTS_PER_ENEMY_FLAG = 20
 local STORAGE_KEY = "TournamentSupport"
 
 
-function SubmitScore(player, score)
+function SubmitScore(player, score, totalKills, headshots, uniquePlayersKilled)
 	--print("##### Submit Score for " .. player.name .. " = " .. tostring(score))
 	
-	Leaderboards.SubmitPlayerScore(LEADERBOARD_REF, player, score)
+	local additionalData = ADDITIONAL_DATA.Serialize(totalKills, headshots, uniquePlayersKilled)
+	Leaderboards.SubmitPlayerScore(LEADERBOARD_REF, player, score, additionalData)
 	
 	local bestScore = SetPlayerScoreToStorage(player, score)
 	TransferStorageToPlayer(player)
@@ -44,9 +47,12 @@ function OnPlayerDamaged(player, target, weaponType, isHeadShot)
 	if not target:IsA("Player") then return end
 	if not target.isDead then return end
 	
+	local playerData = player.serverUserData.tournament
+	local targetData = target.serverUserData.tournament
+	
 	-- Avoid double crediting when shooting the corpse
-	if target.serverUserData.tournament.killCredited then return end
-	target.serverUserData.tournament.killCredited = true
+	if targetData.killCredited then return end
+	targetData.killCredited = true
 	
 	-- Suicide special case
 	if player == target then
@@ -59,6 +65,8 @@ function OnPlayerDamaged(player, target, weaponType, isHeadShot)
 	if player.team == target.team then return end
 	
 	-- Points for getting the kill
+	playerData.totalKills = playerData.totalKills + 1
+	
 	local killPoints = POINTS_PER_KILL_WILD
 	
 	if player.serverUserData.supportCapture or player.serverUserData.onStrikePoint then
@@ -69,6 +77,8 @@ function OnPlayerDamaged(player, target, weaponType, isHeadShot)
 	end
 	
 	if isHeadShot then
+		playerData.headshots = playerData.headshots + 1
+		
 		killPoints = killPoints + POINTS_PER_HEADSHOT
 	end
 	
@@ -88,15 +98,10 @@ function OnPlayerDamaged(player, target, weaponType, isHeadShot)
 	end
 	
 	-- Apply points
-	local playerData = player.serverUserData.tournament
-	local targetData = target.serverUserData.tournament
 	playerData.points = playerData.points + killPoints
 	targetData.points = targetData.points + deathPoints
 	
 	-- Track unique kills bonus
-	if not playerData.uniqueKills then
-		playerData.uniqueKills = {}
-	end
 	local targetId = target.id
 	playerData.uniqueKills[targetId] = true
 end
@@ -105,8 +110,14 @@ Events.Connect("AS.PlayerDamaged", OnPlayerDamaged)
 
 
 function ClearData(player)
-	player.serverUserData.tournament = {}
-	player.serverUserData.tournament.points = 0
+	local playerData = {}
+	
+	playerData.points = 0
+	playerData.totalKills = 0
+	playerData.headshots = 0
+	playerData.uniqueKills = {}
+	
+	player.serverUserData.tournament = playerData
 end
 
 
@@ -244,7 +255,7 @@ function OnRoundEnded()
 		playerData.points = playerData.points * 10
 		
 		-- Unique kills bonus
-		if playerData.uniqueKills then
+		if #playerData.uniqueKills > 0 then
 			local uniqueCount = 0
 			for k,v in pairs(playerData.uniqueKills) do
 				uniqueCount = uniqueCount + 1
@@ -261,7 +272,12 @@ function OnRoundEnded()
 	for _,player in ipairs(Game.GetPlayers()) do
 		if player.serverUserData.playedHalfRound then
 			local playerData = player.serverUserData.tournament
-			SubmitScore(player, playerData.points)
+			
+			SubmitScore(player, 
+				playerData.points, 
+				playerData.totalKills, 
+				playerData.headshots,
+				#playerData.uniqueKills)
 		end
 	end
 end

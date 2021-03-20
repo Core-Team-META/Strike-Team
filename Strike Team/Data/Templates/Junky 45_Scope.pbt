@@ -129,8 +129,10 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
+            Z: -2.52755308
           }
           Rotation {
+            Pitch: -2.109375
           }
           Scale {
             X: 1
@@ -175,9 +177,7 @@ Assets {
         ParentId: 18170872741051933145
         ChildIds: 4860578025879375751
         ChildIds: 15374382419371434846
-        ChildIds: 765703777984293110
         ChildIds: 13269481372859647737
-        ChildIds: 16382935339981021633
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -306,13 +306,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5907350535281183261
+              Id: 9806867731167406304
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 5907350535281183261
+              Id: 9806867731167406304
             }
           }
           Overrides {
@@ -374,36 +374,6 @@ Assets {
         }
       }
       Objects {
-        Id: 765703777984293110
-        Name: "Front Accessory"
-        Transform {
-          Location {
-            X: 26.9131927
-            Z: 10.5550232
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.7
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 6892395650050292705
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
         Id: 13269481372859647737
         Name: "Frame"
         Transform {
@@ -421,11 +391,6 @@ Assets {
         ParentId: 6892395650050292705
         ChildIds: 6334284481919950953
         ChildIds: 17172421364070160734
-        ChildIds: 4178874701951255837
-        ChildIds: 4959910636761706815
-        ChildIds: 16128583391706105682
-        ChildIds: 4188563364224851434
-        ChildIds: 16909480118887332399
         ChildIds: 9752527682108740411
         ChildIds: 11254314323060646079
         ChildIds: 7336123030810930474
@@ -559,156 +524,6 @@ Assets {
             Physics {
             }
           }
-        }
-      }
-      Objects {
-        Id: 4178874701951255837
-        Name: "Point_Muzzle"
-        Transform {
-          Location {
-            X: 36.2057953
-            Z: 3.82651234
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 13269481372859647737
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 4959910636761706815
-        Name: "Point_Grip"
-        Transform {
-          Location {
-            X: -2.50000024
-            Z: -1.22783124
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13269481372859647737
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 16128583391706105682
-        Name: "Point_Sights"
-        Transform {
-          Location {
-            X: 12.9123373
-            Z: 10.5596495
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 13269481372859647737
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 4188563364224851434
-        Name: "Point_FrontAccessory"
-        Transform {
-          Location {
-            X: 26.9131927
-            Z: -3.32351708
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 13269481372859647737
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 16909480118887332399
-        Name: "Point_BarrelAccessory"
-        Transform {
-          Location {
-            X: 35.1838951
-            Z: 3.56587029
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 13269481372859647737
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
       Objects {
@@ -1189,7 +1004,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 13909276548079333532
             }
           }
           Overrides {
@@ -1386,9 +1201,9 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 03"
         Transform {
           Location {
-            X: 29.6504192
-            Y: -0.342739552
-            Z: 12.9209042
+            X: 29.6504154
+            Y: 0.0582094118
+            Z: 12.9209185
           }
           Rotation {
             Pitch: -1.98110962
@@ -1396,9 +1211,9 @@ Assets {
             Roll: 12.7997179
           }
           Scale {
-            X: 0.0134717496
-            Y: 0.0792754143
-            Z: 0.0193268266
+            X: 0.0134713491
+            Y: 0.0792720094
+            Z: 0.0146693103
           }
         }
         ParentId: 13269481372859647737
@@ -1509,9 +1324,9 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 03"
         Transform {
           Location {
-            X: 29.6478901
-            Y: -0.0135400156
-            Z: 12.9956474
+            X: 29.6479187
+            Y: 0.387219131
+            Z: 12.9956007
           }
           Rotation {
             Pitch: -1.98110962
@@ -1519,9 +1334,9 @@ Assets {
             Roll: 12.7997179
           }
           Scale {
-            X: 0.013471771
-            Y: 0.0792755336
-            Z: 0.0193268601
+            X: 0.0134713706
+            Y: 0.0792721286
+            Z: 0.0146693364
           }
         }
         ParentId: 13269481372859647737
@@ -1574,36 +1389,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 16382935339981021633
-        Name: "Barrel Accessory"
-        Transform {
-          Location {
-            X: 24.9132843
-            Z: 11.6290874
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.7
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 6892395650050292705
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
     }
     Assets {
       Id: 15552769917126078605
@@ -1615,7 +1400,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5907350535281183261
+      Id: 9806867731167406304
       Name: "Bark Dead 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1687,7 +1472,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7283825798727192743
+      Id: 13909276548079333532
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
