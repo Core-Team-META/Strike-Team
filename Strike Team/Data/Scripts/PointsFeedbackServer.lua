@@ -23,4 +23,4 @@ function ConnectPlayer(player)
 
 end
 
-Game.playerJoinedEvent:Connect(ConnectPlayer)
+-- Game.playerJoinedEvent:Connect(ConnectPlayer)

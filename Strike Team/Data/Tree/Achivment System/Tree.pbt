@@ -5156,7 +5156,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ID"
-      String: "AS_KILLSTANDARD"
+      String: "AS_KILLAGGRIPINA"
     }
     Overrides {
       Name: "cs:Enabled"
@@ -5174,7 +5174,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Family"
-      String: "KILLSTANDARD"
+      String: "KILLAGGRIPINA"
     }
     Overrides {
       Name: "cs:IconBG"

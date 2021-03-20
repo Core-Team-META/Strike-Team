@@ -38,7 +38,6 @@ if LETHAL_SPEED < MAXIMUM_SAFE_SPEED then
 end
 
 function AttachPoints(player)
-	Task.Wait(1)
 
     local Left = World.SpawnAsset(SPHERE)
     local Right = World.SpawnAsset(SPHERE)
@@ -51,7 +50,11 @@ function AttachPoints(player)
     Left:AttachToPlayer(player, "left_clavicle")
     Right:AttachToPlayer(player, "right_clavicle")
     
-    if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
+	Task.Wait(0.75)
+
+	print("Server - if less than six, should be female: " .. tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
+
+	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
 		print("server - sound female")
         modelGender = "Female" -- Female
     else
@@ -71,6 +74,13 @@ function AttachPoints(player)
 end
 
 
+function OnBindingPressed(player, binding)
+	if (binding == "ability_extra_0") then 
+		AttachPoints(player)
+	end
+end
+
+
 -- Variables
 local previousFallingSpeeds = {}		-- Player -> float
 local previousGroundedStates = {}		-- Player -> bool
@@ -78,6 +88,7 @@ local previousGroundedStates = {}		-- Player -> bool
 -- nil OnPlayerJoined(Player)
 -- Sets up data for a new player
 function OnPlayerJoined(player)
+	player.bindingPressedEvent:Connect(OnBindingPressed)
 	AttachPoints(player)
 	previousFallingSpeeds[player] = 0.0
 	previousGroundedStates[player] = true
@@ -133,3 +144,5 @@ Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
 
 Events.Connect("UpdateSkin", AttachPoints)
+
+
