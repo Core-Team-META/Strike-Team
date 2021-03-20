@@ -5751,6 +5751,7 @@ Objects {
     }
   }
   ParentId: 5186537375737975212
+  ChildIds: 10224953598336420148
   ChildIds: 4339806521705234565
   ChildIds: 14620142697164585215
   Collidable_v2 {
@@ -5764,9 +5765,9 @@ Objects {
   }
   Control {
     Width: 211
-    Height: 26
-    UIX: 24.1401367
-    UIY: 126.225342
+    Height: 48
+    UIX: 19.2619171
+    UIY: 59.2848663
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5778,21 +5779,17 @@ Objects {
       }
       FontSize: 20
       ButtonColor {
-        R: 0.871367335
-        G: 0.278894424
-        B: 0.0122865
+        G: 1
         A: 1
       }
       HoveredColor {
-        R: 0.871367335
-        G: 0.332318395
-        B: 0.0897508264
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
         A: 1
       }
       PressedColor {
-        R: 0.631000042
-        G: 0.20196119
-        B: 0.00889726076
+        G: 0.53125
         A: 1
       }
       DisabledColor {
@@ -5948,6 +5945,70 @@ Objects {
     SubobjectId: 268144092229944880
     InstanceId: 14426319141699216976
     TemplateId: 1526186610335564444
+  }
+}
+Objects {
+  Id: 10224953598336420148
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: -22.2597275
+      Y: 77.2119
+      Z: -72.1145477
+    }
+    Rotation {
+      Yaw: 24.7430019
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3678529828686634293
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 548299815801291290
+      }
+      Color {
+        R: 0.370387077
+        G: 1
+        B: 0.0203347802
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {

@@ -188,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 548299815801291290
+  Name: "BG Highlighted 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_019"
+  }
+}
+Assets {
   Id: 112181103824863239
   Name: "Icon Explosion"
   PlatformAssetType: 9
