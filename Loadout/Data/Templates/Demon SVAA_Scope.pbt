@@ -22,6 +22,7 @@ Assets {
         ChildIds: 10057391836994431277
         ChildIds: 5092456361755694955
         ChildIds: 544281761524691895
+        ChildIds: 17883502430934674933
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -775,9 +776,9 @@ Assets {
         Name: "Modern Weapon - Body 01"
         Transform {
           Location {
-            X: 20.8297424
+            X: 20.8297729
             Y: 0.163818359
-            Z: -6.06811523
+            Z: -6.72851563
           }
           Rotation {
             Roll: 0.000100745223
@@ -879,9 +880,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.773377478
-              G: 0.420000017
-              B: 1
+              R: 0.0386688747
+              G: 0.0210000016
+              B: 0.05
               A: 1
             }
           }
@@ -902,7 +903,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13271880292242037774
+            Id: 2954037056948186721
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -999,6 +1000,71 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 17883502430934674933
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            X: 20.7206421
+            Z: 0.226196289
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -179.999344
+            Roll: -0.000396728516
+          }
+          Scale {
+            X: 0.107381284
+            Y: 0.124884367
+            Z: -0.0671879873
+          }
+        }
+        ParentId: 10684009606509158760
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0386688747
+              G: 0.0210000016
+              B: 0.05
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11525850364699686476
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 3294723259559680467
@@ -1091,21 +1157,21 @@ Assets {
       }
     }
     Assets {
-      Id: 13271880292242037774
-      Name: "Pipe - 6-Sided"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_sixsided_002"
-      }
-    }
-    Assets {
       Id: 16603338841063986226
       Name: "Radial Blur Post Process"
       PlatformAssetType: 20
       PrimaryAsset {
         AssetType: "BlueprintAssetRef"
         AssetId: "fxbp_ppm_radial_blur"
+      }
+    }
+    Assets {
+      Id: 11525850364699686476
+      Name: "Ring - Beveled"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ring_faceted_001"
       }
     }
     PrimaryAssetId {
