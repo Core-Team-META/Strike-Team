@@ -1241,7 +1241,6 @@ Objects {
   ChildIds: 14226319090942352465
   ChildIds: 5952370083883614687
   ChildIds: 16983053269146900066
-  ChildIds: 1695802645625397308
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1276,133 +1275,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1695802645625397308
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 955743405706420001
-  ChildIds: 10945280326119092604
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 860
-    Height: 30
-    UIX: -15
-    UIY: -40
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "3/18/2021"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 10945280326119092604
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1695802645625397308
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    Height: 2
-    UIY: 5
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    Image {
-      Brush {
-        Id: 17289448223043935888
-      }
-      Color {
-        R: 1
-        G: 0.31854707
-        B: 0.0137020946
-        A: 0.995000064
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 16983053269146900066
   Name: "Single Update Panel"
   Transform {
@@ -1421,7 +1293,6 @@ Objects {
   ChildIds: 5419880120907168987
   ChildIds: 3341130201005550149
   ChildIds: 9831159393440929917
-  ChildIds: 2188643974651972012
   ChildIds: 9772289849701032069
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1434,7 +1305,7 @@ Objects {
   }
   Control {
     Height: 235
-    UIY: 336.680023
+    UIY: 401.814667
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1516,191 +1387,6 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 2188643974651972012
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16983053269146900066
-  ChildIds: 5686687072546465147
-  ChildIds: 16151466117891691780
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 860
-    Height: 30
-    UIY: 120
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Kill the devs, get cool skins. Basilisk, Vitriol08, Buckmonster, Bigglebuns, Rolok, Blaking707, Morticai, AwkwardGameDev, Mucusinator, WitcherSilver, Aggripina, Coderz, AJ, Estlogic, and more to come.* "
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 1641512795081380093
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 16151466117891691780
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2188643974651972012
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 20
-    Height: 20
-    UIX: -30
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7294692278211928688
-      }
-      Color {
-        R: 1
-        G: 0.31854707
-        B: 0.0137020946
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 5686687072546465147
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2188643974651972012
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 40
-    Height: 40
-    UIX: -40
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 96162478431907100
-      }
-      Color {
-        G: 0.376262
-        B: 0.467783839
-        A: 0.195000008
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
         }
       }
     }
@@ -2416,7 +2102,7 @@ Objects {
   }
   Control {
     Height: 235
-    UIY: 202.121674
+    UIY: 278.322113
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2953,6 +2639,7 @@ Objects {
   ChildIds: 17304034491678049329
   ChildIds: 10416517501185115715
   ChildIds: 16095418791495410720
+  ChildIds: 18219560049661432823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2982,6 +2669,191 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 18219560049661432823
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14226319090942352465
+  ChildIds: 2042991417078540617
+  ChildIds: 4178236307037170605
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 860
+    Height: 30
+    UIY: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Win with or against the Devs and get cool skins! Watch out for Basilisk, Vitriol08, Buckmonster, Bigglebuns, Rolok, Blaking707, Morticai, AwkwardGameDev, Mucusinator, WitcherSilver, Aggripina, Coderz, AJ, Divided, Estlogic, Griffin, Scav, Standardcombo, Ooccoo, Mehaji, Melamory, and more to come"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 1641512795081380093
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4178236307037170605
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18219560049661432823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 20
+    Height: 20
+    UIX: -30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 7294692278211928688
+      }
+      Color {
+        R: 1
+        G: 0.31854707
+        B: 0.0137020946
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 2042991417078540617
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18219560049661432823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 40
+    Height: 40
+    UIX: -40
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 96162478431907100
+      }
+      Color {
+        G: 0.376262
+        B: 0.467783839
+        A: 0.195000008
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
         }
       }
     }
@@ -3207,7 +3079,7 @@ Objects {
       }
     }
     Text {
-      Label: "Double XP & Cash weekend!  2 x experience, and 2 x cash earned from now until Monday 3/22/2021 @ 9am PST"
+      Label: "Double XP & Cash during the tourney!  2 x experience, and 2 x cash earned from now until 3/25/2021 @ 12 noon PST"
       Color {
         R: 1
         G: 1
@@ -3392,7 +3264,7 @@ Objects {
       }
     }
     Text {
-      Label: "3/19/2021"
+      Label: "3/20/2021"
       Color {
         R: 1
         G: 1

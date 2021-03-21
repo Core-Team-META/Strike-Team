@@ -166,15 +166,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:SphereRED"
+      Name: "cs:Sphere"
       AssetReference {
-        Id: 8730931663283108807
-      }
-    }
-    Overrides {
-      Name: "cs:SphereBLUE"
-      AssetReference {
-        Id: 2167946149879564683
+        Id: 11692130059731908639
       }
     }
   }

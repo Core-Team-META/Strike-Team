@@ -24,13 +24,14 @@ local FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
 -- nil OnFallDamage(Player)
 -- Handles a player damage event and plays the corresponding sound
 function OnFallDamage(player, modelGender)
-	print(player.name .. " - " .. tostring(modelGender))
-	if (modelGender ~= nil and modelGender == "Female") then
+
+--[[ 	if (modelGender ~= nil and modelGender == "Female") then
 		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_FEMALE
 	else
 		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
 	end
-	World.SpawnAsset(FALL_DAMAGE_SOUND_TEMPLATE, {position = player:GetWorldPosition()})
+ ]]
+ 	World.SpawnAsset(FALL_DAMAGE_SOUND_TEMPLATE, {position = player:GetWorldPosition()})
 end
 
 -- Initialize
@@ -54,4 +55,4 @@ function OnCoreModalToggle(modal)
 
 end
 
-UI.coreModalChangedEvent:Connect(OnCoreModalToggle)
+-- UI.coreModalChangedEvent:Connect(OnCoreModalToggle)

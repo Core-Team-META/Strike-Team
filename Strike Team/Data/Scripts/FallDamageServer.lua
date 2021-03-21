@@ -23,8 +23,7 @@ local MAXIMUM_SAFE_SPEED = TEMPLATE_ROOT:GetCustomProperty("MaximumSafeSpeed")
 local LETHAL_SPEED = TEMPLATE_ROOT:GetCustomProperty("LethalSpeed")
 local HEAR_OTHER_PLAYERS_DAMAGE_SOUNDS = TEMPLATE_ROOT:GetCustomProperty("HearOtherPlayersDamageSounds")
 
-local sphereRED = script:GetCustomProperty("SphereRED")
-local sphereBLUE = script:GetCustomProperty("SphereBLUE")
+local SPHERE = script:GetCustomProperty("Sphere")
 local modelGender = "Male"
 
 -- Check user properties
@@ -40,74 +39,35 @@ end
 
 function AttachPoints(player)
 
-	if (Object.IsValid(Left)) then
-		-- Left:Detach()
-		Left:Destroy()
-	end
-	if (Object.IsValid(Right)) then
-		-- Right:Detach()
-		Right:Destroy()
-	end
-
-	if (Object.IsValid(Left1)) then
-		-- Left:Detach()
-		Left1:Destroy()
-	end
-	if (Object.IsValid(Right1)) then
-		-- Right:Detach()
-		Right1:Destroy()
-	end	
-
-    local Left = World.SpawnAsset(sphereRED, {scale = Vector3.New(0.25,0.25,0.25)})
-    local Right = World.SpawnAsset(sphereRED, {scale = Vector3.New(0.25,0.25,0.25)})
-    local Left1 = World.SpawnAsset(sphereBLUE, {scale = Vector3.New(0.25,0.25,0.25)})
-    local Right1 = World.SpawnAsset(sphereBLUE, {scale = Vector3.New(0.25,0.25,0.25)})
+    local Left = World.SpawnAsset(SPHERE)
+    local Right = World.SpawnAsset(SPHERE)
 
     Left.collision = Collision.FORCE_OFF
     Right.collision = Collision.FORCE_OFF
-    Left1.collision = Collision.FORCE_OFF
-    Right1.collision = Collision.FORCE_OFF
-
-    -- Left.visibility = Visibility.FORCE_OFF
-    -- Right.visibility = Visibility.FORCE_OFF
+    Left.visibility = Visibility.FORCE_OFF
+    Right.visibility = Visibility.FORCE_OFF
 
 	Task.Wait(1)
 
 	Left:AttachToPlayer(player, "left_clavicle")
     Right:AttachToPlayer(player, "right_clavicle")
-	print("FIRST SET " .. player.name)
-	print(script.name .. " - Server| GetWorldPosition: " .. tostring(player:GetWorldPosition()))
-	print(script.name .. " - Server| should be <= 6 for female, >=8 for male: " .. tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
-
-	Task.Wait(2)
-
-	Left1:AttachToPlayer(player, "left_shoulder")
-    Right1:AttachToPlayer(player, "right_shoulder")
-
-	print("SECOND SET " .. player.name)
-	print(script.name .. " - Server| GetWorldPosition: " .. tostring(player:GetWorldPosition()))
-	print(script.name .. " - Server| Attached to shoulder: " .. tostring((Left1:GetWorldPosition() - Right1:GetWorldPosition()).size))	
-
-
-	print("_____________________________________________________________________")
 
 	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
-		print("server - sound female")
         modelGender = "Female" -- Female
     else
-		print("server - sound male")		
         modelGender = "Male" -- Male
     end
-   
-end
 
-
-function OnBindingPressed(player, binding)
-	if (binding == "ability_extra_0") then 
-		AttachPoints(player)
+	if (Object.IsValid(Left)) then
+		Left:Detach()
+		Left:Destroy()
 	end
+	if (Object.IsValid(Right)) then
+		Right:Detach()
+		Right:Destroy()
+	end
+    
 end
-
 
 -- Variables
 local previousFallingSpeeds = {}		-- Player -> float
@@ -116,7 +76,6 @@ local previousGroundedStates = {}		-- Player -> bool
 -- nil OnPlayerJoined(Player)
 -- Sets up data for a new player
 function OnPlayerJoined(player)
-	player.bindingPressedEvent:Connect(OnBindingPressed)
 	AttachPoints(player)
 	previousFallingSpeeds[player] = 0.0
 	previousGroundedStates[player] = true
