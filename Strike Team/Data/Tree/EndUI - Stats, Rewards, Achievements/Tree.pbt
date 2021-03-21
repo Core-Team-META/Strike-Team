@@ -14537,7 +14537,6 @@ Objects {
   }
   ParentId: 13330496965326984574
   ChildIds: 8275263761362869956
-  ChildIds: 3183451348656017132
   ChildIds: 9727727790578188709
   ChildIds: 5326457157541193602
   Collidable_v2 {
@@ -14716,77 +14715,6 @@ Objects {
   }
 }
 Objects {
-  Id: 3183451348656017132
-  Name: "CASH_TOTAL"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13838189916763410324
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 474
-    Height: 40
-    UIX: -311.181
-    UIY: -8.16795635
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "2x"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:right"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8275263761362869956
-    SubobjectId: 12141334552044973386
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
-}
-Objects {
   Id: 8275263761362869956
   Name: "CASH_TOTAL"
   Transform {
@@ -14820,7 +14748,7 @@ Objects {
       }
     }
     Text {
-      Label: "With a           bonus, you earned you a total of"
+      Label: "With a DOUBLE CASH BONUS, you earned you a total of"
       Color {
         R: 0.982250869
         G: 0.407240301
