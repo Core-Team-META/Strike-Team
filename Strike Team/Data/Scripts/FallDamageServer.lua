@@ -63,10 +63,10 @@ function AttachPoints(player)
     local Left1 = World.SpawnAsset(sphereBLUE, {scale = Vector3.New(0.25,0.25,0.25)})
     local Right1 = World.SpawnAsset(sphereBLUE, {scale = Vector3.New(0.25,0.25,0.25)})
 
-    -- Left.collision = Collision.FORCE_OFF
-    -- Right.collision = Collision.FORCE_OFF
-    -- Left1.collision = Collision.FORCE_OFF
-    -- Right1.collision = Collision.FORCE_OFF
+    Left.collision = Collision.FORCE_OFF
+    Right.collision = Collision.FORCE_OFF
+    Left1.collision = Collision.FORCE_OFF
+    Right1.collision = Collision.FORCE_OFF
 
     -- Left.visibility = Visibility.FORCE_OFF
     -- Right.visibility = Visibility.FORCE_OFF
