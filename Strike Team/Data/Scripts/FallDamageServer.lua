@@ -41,19 +41,32 @@ function AttachPoints(player)
 
     local Left = World.SpawnAsset(SPHERE)
     local Right = World.SpawnAsset(SPHERE)
+    local Left1 = World.SpawnAsset(SPHERE)
+    local Right1 = World.SpawnAsset(SPHERE)
 
     Left.collision = Collision.FORCE_OFF
     Right.collision = Collision.FORCE_OFF
-    Left.visibility = Visibility.FORCE_OFF
-    Right.visibility = Visibility.FORCE_OFF
-	print(script.name .. " - Server/Falling Pre Wait")
+    Left1.collision = Collision.FORCE_OFF
+    Right1.collision = Collision.FORCE_OFF
+
+    -- Left.visibility = Visibility.FORCE_OFF
+    -- Right.visibility = Visibility.FORCE_OFF
+
 	Task.Wait(1)
-	print(script.name .. " - Server/Falling After Wait")
-    Left:AttachToPlayer(player, "left_clavicle")
+
+	Left:AttachToPlayer(player, "left_clavicle")
     Right:AttachToPlayer(player, "right_clavicle")
-	print(script.name .. " - Server/Falling After Attach")
-    
-	print(script.name .. " - Server/Falling should be <= 6 for female, >=8 for male: " .. tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
+
+	print(script.name .. " - Server| GetWorldPosition: " .. tostring(player:GetWorldPosition()))
+	print(script.name .. " - Server| should be <= 6 for female, >=8 for male: " .. tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
+
+	Task.Wait(2)
+
+	Left1:AttachToPlayer(player, "left_shoulder")
+    Right1:AttachToPlayer(player, "right_shoulder")
+
+	print(script.name .. " - Server| GetWorldPosition: " .. tostring(player:GetWorldPosition()))
+	print(script.name .. " - Server| Attached to shoulder: " .. tostring((Left1:GetWorldPosition() - Right1:GetWorldPosition()).size))	
 
 	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
 		print("server - sound female")
@@ -64,11 +77,11 @@ function AttachPoints(player)
     end
 
 	if (Object.IsValid(Left)) then
-		Left:Detach()
+		-- Left:Detach()
 		Left:Destroy()
 	end
 	if (Object.IsValid(Right)) then
-		Right:Detach()
+		-- Right:Detach()
 		Right:Destroy()
 	end
     
