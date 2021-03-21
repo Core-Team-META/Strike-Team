@@ -1,4 +1,4 @@
-﻿LOCAL_PLAYER = Game.GetLocalPlayer()
+LOCAL_PLAYER = Game.GetLocalPlayer()
 
 LOCAL_PLAYER.clientUserData.Loadouts = {}
 Events.Connect("RecieveData", function(key) 

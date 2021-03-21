@@ -5,6 +5,12 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:AdditionalData"
+        AssetReference {
+          Id: 13334721424893823960
+        }
+      }
+      Overrides {
         Name: "cs:Enabled"
         Bool: false
       }

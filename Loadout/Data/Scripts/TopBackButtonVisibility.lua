@@ -1,4 +1,4 @@
-﻿local ACTIVE = script:GetCustomProperty("PanelButtonActive"):WaitForObject()
+local ACTIVE = script:GetCustomProperty("PanelButtonActive"):WaitForObject()
 local INACTIVE = script:GetCustomProperty("PanelButtonInactive"):WaitForObject()
 
 

@@ -1,4 +1,4 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local METHODNAME = script:GetCustomProperty("MethodName")
 local Points = script:GetCustomProperty("Points"):WaitForObject()
 

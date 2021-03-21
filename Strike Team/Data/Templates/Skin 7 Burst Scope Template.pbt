@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16646642480150900954
+        ChildIds: 14787502554047587689
         ChildIds: 9793291277640083195
         WantsNetworking: true
         Collidable_v2 {
@@ -32,34 +32,47 @@ Assets {
         }
       }
       Objects {
-        Id: 16646642480150900954
-        Name: "WeaponMoveReturnOnExecuteClient"
+        Id: 14787502554047587689
+        Name: "ScopeAnimation"
         Transform {
           Location {
-            X: 45
-            Z: 5
+            X: 2236.48291
+            Y: 3888.5752
+            Z: -59.8883057
           }
           Rotation {
           }
           Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
         ParentId: 13754320947068629115
         UnregisteredParameters {
           Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 13754320947068629115
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 1
             }
           }
           Overrides {
-            Name: "cs:LocalMoveOffset"
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 9793291277640083195
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
             Vector {
-              X: -2
-              Z: 1.5
+              X: -5
+              Z: 0.1
+            }
+          }
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 13754320947068629115
             }
           }
         }
@@ -74,7 +87,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 16135316138749006068
+            Id: 3786383836679515830
           }
         }
       }
@@ -83,8 +96,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.1016846
-            Z: -17.1274643
+            X: 43.5856934
+            Z: -17.276001
           }
           Rotation {
           }

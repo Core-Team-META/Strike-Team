@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	FPS Meter - Client
 	v1.0
 	by: standardcombo

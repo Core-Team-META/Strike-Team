@@ -1,4 +1,4 @@
-﻿-- Internal custom properties
+-- Internal custom properties
 local WEAPON = script:FindAncestorByType('Weapon')
 local ATTACK_ABILITY = script:GetCustomProperty("AttackAbility"):WaitForObject()
 

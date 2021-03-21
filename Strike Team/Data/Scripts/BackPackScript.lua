@@ -1,4 +1,4 @@
-﻿
+
 local HolsterPoints = {
     ["LHip"]    = "left_hip",
     ["RHip"]    = "right_hip",

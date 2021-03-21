@@ -1,10 +1,37 @@
 Assets {
+  Id: 17683611682831965898
+  Name: "Military Ability Punch"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Yellow_011"
+  }
+}
+Assets {
+  Id: 17192063539394616353
+  Name: "Fantasy Bread 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Bread_001"
+  }
+}
+Assets {
   Id: 17066449609679557524
   Name: "Frame Outline Thin 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameOutline_019"
+  }
+}
+Assets {
+  Id: 16639438294200189897
+  Name: "Survival Bat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Baton_001"
   }
 }
 Assets {
@@ -32,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Crown_001"
+  }
+}
+Assets {
+  Id: 14881791628571254911
+  Name: "Military Ability Target"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Red_006"
   }
 }
 Assets {
@@ -89,12 +125,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13211565500630064749
-  Name: "Fantasy Ability Teal 011"
+  Id: 13160217803603342438
+  Name: "Military Ability Explosion 005"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Teal_011"
+    AssetId: "Icon_Military_Ability_Red_018"
   }
 }
 Assets {
@@ -125,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11834938224351838128
+  Name: "Fantasy Train 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Train_001"
+  }
+}
+Assets {
   Id: 11753621366940477556
   Name: "Fantasy Card 001"
   PlatformAssetType: 9
@@ -140,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_SciFi_Ability_Red_013"
+  }
+}
+Assets {
+  Id: 11247262735616360412
+  Name: "Military Ability Night Vision"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Blue_012"
   }
 }
 Assets {
@@ -170,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10746377977067585988
+  Name: "Military Ability Radar"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Green_006"
+  }
+}
+Assets {
   Id: 10719288243058469548
   Name: "Weapon Machine Gun 002"
   PlatformAssetType: 9
@@ -188,12 +251,39 @@ Assets {
   }
 }
 Assets {
+  Id: 10614095398046354114
+  Name: "Military Ability Weapon Fire 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Red_011"
+  }
+}
+Assets {
+  Id: 10581025595471415869
+  Name: "Fantasy Ability Red 023"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_023"
+  }
+}
+Assets {
   Id: 10293868230383892927
   Name: "Fantasy Sword 005"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Weapon_Sword_005"
+  }
+}
+Assets {
+  Id: 10269934151114891256
+  Name: "Military Ability Explosion 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Red_014"
   }
 }
 Assets {
@@ -269,6 +359,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9205467461832957081
+  Name: "Military Ability Parachute"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Blue_015"
+  }
+}
+Assets {
   Id: 9084852752205607158
   Name: "Fantasy Ability Blue 016"
   PlatformAssetType: 9
@@ -296,6 +395,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8213756710197580854
+  Name: "Military Ability Choking"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Blue_002"
+  }
+}
+Assets {
   Id: 7887978635932231235
   Name: "Fantasy Ability Blue 006"
   PlatformAssetType: 9
@@ -311,15 +419,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Ability_Green_021"
-  }
-}
-Assets {
-  Id: 6920475546474804266
-  Name: "Fantasy Bread 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Cheese_003"
   }
 }
 Assets {
@@ -341,12 +440,21 @@ Assets {
   }
 }
 Assets {
-  Id: 5223287246289902870
-  Name: "Frame Outline Thin 001"
+  Id: 6252166141571935028
+  Name: "Military Ability Rescue"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
+    AssetId: "Icon_Military_Ability_Blue_014"
+  }
+}
+Assets {
+  Id: 5119950607460411518
+  Name: "Military Ability Aim"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Purple_001"
   }
 }
 Assets {
@@ -356,15 +464,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_PlayerCrouch"
-  }
-}
-Assets {
-  Id: 4368479957251991493
-  Name: "Fantasy Ability Green 013"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Green_013"
   }
 }
 Assets {
@@ -395,6 +494,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3700504067858442078
+  Name: "Military Ability Decode"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Military_Ability_Green_007"
+  }
+}
+Assets {
+  Id: 2670971431510838123
+  Name: "Sci-fi Ability Blue 029"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Blue_029"
+  }
+}
+Assets {
   Id: 2604353830693238371
   Name: "BG Highlighted 001"
   PlatformAssetType: 9
@@ -404,21 +521,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2593742631329398939
+  Name: "Deer"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_icon_Deer"
+  }
+}
+Assets {
+  Id: 2468780069866060834
+  Name: "Fantasy Ability Teal 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Teal_003"
+  }
+}
+Assets {
   Id: 2417593569095758378
   Name: "Survival Machine Gun 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Weapon_MachineGun_001"
-  }
-}
-Assets {
-  Id: 1958653091562318230
-  Name: "Center Tri 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterTri_001"
   }
 }
 Assets {

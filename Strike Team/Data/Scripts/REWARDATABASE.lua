@@ -5,7 +5,7 @@ local Database = {}
 
 local MultiplyTable = {
     ["XP"] =  script:GetCustomProperty("XP_MULTIPLY"),
-    ["CASH"] = script:GetCustomProperty("CASH_MULTIPLY")
+    ["Cash"] = script:GetCustomProperty("CASH_MULTIPLY")
 }
 
 function rewardsDatabase.SetUp()
@@ -27,7 +27,6 @@ end
 function rewardsDatabase.ReturnValues(Type)
     local Multiply = 1
     if MultiplyTable[Type] then Multiply = MultiplyTable[Type] end
-
     if Database[Type] then
         local Values = {}
         for name,Folder in pairs(Database[Type]) do
@@ -36,22 +35,27 @@ function rewardsDatabase.ReturnValues(Type)
                 ["Max"] = Folder["Max"]
             }
         end
+        
         return Values
     end
 end
 
 function rewardsDatabase.ReturnWin(Type)
+    local Multiply = 1
+    if MultiplyTable[Type] then Multiply = MultiplyTable[Type] end
     local Child = script:FindChildByName(Type)
     if Child then 
-        return Child:GetCustomProperty("WIN")
+        return Child:GetCustomProperty("WIN") * Multiply
     end
     return 0
 end
 
 function rewardsDatabase.ReturnLoss(Type)
+    local Multiply = 1
+    if MultiplyTable[Type] then Multiply = MultiplyTable[Type] end
     local Child = script:FindChildByName(Type)
     if Child then 
-        return Child:GetCustomProperty("LOSS")
+        return Child:GetCustomProperty("LOSS") * Multiply
     end
     return 0
 end

@@ -132,8 +132,8 @@ Objects {
   }
 }
 Objects {
-  Id: 13897893943081087324
-  Name: "UI Container"
+  Id: 11161596542682807598
+  Name: "Event Double XP Cash Notifier"
   Transform {
     Location {
     }
@@ -147,7 +147,7 @@ Objects {
   }
   ParentId: 10477958480793043052
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -155,26 +155,7 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
+  NetworkContext {
   }
 }
 Objects {

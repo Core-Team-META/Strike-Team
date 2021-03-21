@@ -1,4 +1,4 @@
-﻿local sprayindex = {
+local sprayindex = {
     script:GetCustomProperty("Spray1"),
     script:GetCustomProperty("Spray2"),
     script:GetCustomProperty("Spray3"),

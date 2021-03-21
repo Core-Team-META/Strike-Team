@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2020 Manticore Games, Inc. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -23,6 +23,9 @@ local MAXIMUM_SAFE_SPEED = TEMPLATE_ROOT:GetCustomProperty("MaximumSafeSpeed")
 local LETHAL_SPEED = TEMPLATE_ROOT:GetCustomProperty("LethalSpeed")
 local HEAR_OTHER_PLAYERS_DAMAGE_SOUNDS = TEMPLATE_ROOT:GetCustomProperty("HearOtherPlayersDamageSounds")
 
+local SPHERE = script:GetCustomProperty("Sphere")
+local modelGender = "Male"
+
 -- Check user properties
 if MAXIMUM_SAFE_SPEED <= 0.0 then
 	warn("MaximumSafeSpeed must be positive")
@@ -34,6 +37,38 @@ if LETHAL_SPEED < MAXIMUM_SAFE_SPEED then
 	LETHAL_SPEED = MAXIMUM_SAFE_SPEED
 end
 
+function AttachPoints(player)
+
+    local Left = World.SpawnAsset(SPHERE)
+    local Right = World.SpawnAsset(SPHERE)
+
+    Left.collision = Collision.FORCE_OFF
+    Right.collision = Collision.FORCE_OFF
+    Left.visibility = Visibility.FORCE_OFF
+    Right.visibility = Visibility.FORCE_OFF
+
+	Task.Wait(1)
+
+	Left:AttachToPlayer(player, "left_clavicle")
+    Right:AttachToPlayer(player, "right_clavicle")
+
+	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
+        modelGender = "Female" -- Female
+    else
+        modelGender = "Male" -- Male
+    end
+
+	if (Object.IsValid(Left)) then
+		Left:Detach()
+		Left:Destroy()
+	end
+	if (Object.IsValid(Right)) then
+		Right:Detach()
+		Right:Destroy()
+	end
+    
+end
+
 -- Variables
 local previousFallingSpeeds = {}		-- Player -> float
 local previousGroundedStates = {}		-- Player -> bool
@@ -41,6 +76,7 @@ local previousGroundedStates = {}		-- Player -> bool
 -- nil OnPlayerJoined(Player)
 -- Sets up data for a new player
 function OnPlayerJoined(player)
+	AttachPoints(player)
 	previousFallingSpeeds[player] = 0.0
 	previousGroundedStates[player] = true
 end
@@ -55,7 +91,7 @@ end
 -- nil Tick(float)
 -- Checks for any players that hit the ground since last frame, applies damage if appropriate, and sends events
 function Tick(deltaTime)
-	for _, player in pairs(Game.GetPlayers()) do
+	for _, player in ipairs(Game.GetPlayers()) do
 		local fallingSpeed = math.max(0.0, -player:GetVelocity().z)
 		local isGrounded = player.isGrounded
 
@@ -77,9 +113,9 @@ function Tick(deltaTime)
 
 				-- Send an event so the client can play sounds
 				if HEAR_OTHER_PLAYERS_DAMAGE_SOUNDS then
-					Events.BroadcastToAllPlayers("FallDamage", player)
+					Events.BroadcastToAllPlayers("FallDamage", player, modelGender)
 				else
-					Events.BroadcastToPlayer(player, "FallDamage", player)
+					Events.BroadcastToPlayer(player, "FallDamage", player, modelGender)
 				end
 			end
 		end
@@ -93,3 +129,7 @@ end
 -- Initialize
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
+
+Events.Connect("UpdateSkin", AttachPoints)
+
+

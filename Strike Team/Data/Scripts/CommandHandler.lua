@@ -1,4 +1,4 @@
-﻿
+
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 local Commands = require(script:GetCustomProperty("Commands"))
 

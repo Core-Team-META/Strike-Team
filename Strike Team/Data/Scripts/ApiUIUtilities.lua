@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     ApiUIUtilities v1.2
     author: Aj
 

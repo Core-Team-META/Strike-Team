@@ -4,6 +4,8 @@ local ROW_TEMPLATE = script:GetCustomProperty("LeaderboardRowTemplate")
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
 
+local SHOW_TOP_PLAYERS = script:GetCustomProperty("ShowTopPlayers")
+
 local ROW_COUNT = script:GetCustomProperty("RowCount")
 local ROW_DISTANCE = script:GetCustomProperty("RowDistance")
 local PAD_TOP = script:GetCustomProperty("PadTop")
@@ -24,7 +26,7 @@ function GenerateLeaderboard()
 	local leaderboardData = GetLeaderboardData()
 	if not leaderboardData then return end
 	if #leaderboardData == 0 then return end
-	  
+	
 	-- Find local player in the data
 	local localPlayerName = LOCAL_PLAYER.name
 	local localPlayerIndex = -1
@@ -60,6 +62,25 @@ function GenerateLeaderboard()
 	if startIndex < 1 then startIndex = 1 end
 	if endIndex > #leaderboardData + 1 then endIndex = #leaderboardData + 1 end
 	
+	-- Special case for top players
+	if SHOW_TOP_PLAYERS then
+		if localPlayerIndex > 0 and localPlayerIndex <= ROW_COUNT then
+			
+			script.parent.visibility = Visibility.FORCE_OFF
+			return
+		else
+			startIndex = 1
+			endIndex = ROW_COUNT
+			if endIndex > #leaderboardData then
+				endIndex = #leaderboardData
+			end
+			script.parent.visibility = Visibility.FORCE_ON
+		end
+	else
+		script.parent.visibility = Visibility.FORCE_ON
+	end
+	
+	-- Build the UI rows
 	local rowsAdded = 0
 	for i = startIndex, endIndex do
 		if rowsAdded >= ROW_COUNT then
@@ -104,7 +125,7 @@ function GenerateLeaderboard()
 		entryValue = row:GetCustomProperty("PlayerScore"):WaitForObject()
 		
 		-- Write text data to UI
-		if localPlayerIndex < 0 and rowsAdded == ROW_COUNT - 1 then
+		if localPlayerIndex < 0 and rowsAdded == ROW_COUNT - 1 and not SHOW_TOP_PLAYERS then
 			-- Case where player is at the bottom
 			-- Separator elipsis row at the bottom, before player
 			entryRank.text = ""

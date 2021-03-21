@@ -1,4 +1,4 @@
-﻿
+
 local ROOT = script.parent
 local CIRCLE_BG = script:GetCustomProperty("CircleLocalPlayerBG"):WaitForObject()
 local CIRCLE = script:GetCustomProperty("Circle"):WaitForObject()

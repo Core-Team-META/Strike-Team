@@ -1,4 +1,4 @@
-﻿    local LOCAL_PLAYER = Game.GetLocalPlayer()
+    local LOCAL_PLAYER = Game.GetLocalPlayer()
 local SelectionMatrix = 
 {
     ["Primary"] = 1,

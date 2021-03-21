@@ -1,4 +1,4 @@
-﻿UIParent = script.parent
+UIParent = script.parent
 EaseUI = require(script:GetCustomProperty("EaseUI"))
 
 function UpdatePanelPosition()

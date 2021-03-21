@@ -1,4 +1,4 @@
-﻿-- To use, attach this script as a child of any networked object you wish to rotate
+-- To use, attach this script as a child of any networked object you wish to rotate
 -- Set parameters as desired
 -- Created by Bigglebuns
 -- Modified and updated by Blackdheart

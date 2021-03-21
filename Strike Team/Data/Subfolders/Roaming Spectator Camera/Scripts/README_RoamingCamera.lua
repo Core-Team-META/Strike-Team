@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Roaming Camera
 v1.0.1
 by: standardcombo

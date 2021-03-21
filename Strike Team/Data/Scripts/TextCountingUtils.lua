@@ -1,4 +1,4 @@
-﻿
+
 local UTIL = {}
 
 local WIDTHS = {}

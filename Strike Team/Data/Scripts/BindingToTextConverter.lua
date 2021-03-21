@@ -1,4 +1,4 @@
-﻿local  bindings =
+local  bindings =
 {
     ["ability_extra_0"]     = "0",
     ["ability_extra_1"]     = "1",

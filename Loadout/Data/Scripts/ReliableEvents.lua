@@ -1,4 +1,4 @@
-﻿local Deque = require(script:GetCustomProperty("Deque"))
+local Deque = require(script:GetCustomProperty("Deque"))
 
 local txQueue = Deque.New()
 

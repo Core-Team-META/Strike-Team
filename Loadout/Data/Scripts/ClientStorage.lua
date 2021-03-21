@@ -1,4 +1,4 @@
-﻿local STORE = require(script:GetCustomProperty("Storage"))
+local STORE = require(script:GetCustomProperty("Storage"))
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 while not LOCAL_PLAYER.clientUserData.NetworkSpawn do Task.Wait() end
 

@@ -1,4 +1,4 @@
-﻿local EQUIPMENT = script:FindAncestorByType("Equipment")
+local EQUIPMENT = script:FindAncestorByType("Equipment")
 local ABILITY = script.parent
 local SPRAY = script:GetCustomProperty("SPRAY")
 local Spawn

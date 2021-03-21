@@ -1,4 +1,4 @@
-﻿-- EasingEquations.lua
+-- EasingEquations.lua
 -- Lua implementation of easing equations
 -- Created by Nicholas Foreman (https://www.coregames.com/user/f9df3457225741c89209f6d484d0eba8)
 

@@ -1,4 +1,4 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local SIGN = script:GetCustomProperty("Sign")
 local Ability = script:GetCustomProperty("Abilty"):WaitForObject()

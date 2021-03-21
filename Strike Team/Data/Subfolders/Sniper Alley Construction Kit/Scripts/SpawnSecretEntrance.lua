@@ -1,1 +1,1 @@
-﻿World.SpawnAsset(script:GetCustomProperty("SecretTombEntrance"),{position=script:GetWorldPosition()})
+World.SpawnAsset(script:GetCustomProperty("SecretTombEntrance"),{position=script:GetWorldPosition()})

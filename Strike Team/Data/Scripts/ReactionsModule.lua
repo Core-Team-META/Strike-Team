@@ -1,4 +1,4 @@
-﻿local API = {}
+local API = {}
 
 --Will react with one of these lines if there are no other options.
 --should not be using any {arg}

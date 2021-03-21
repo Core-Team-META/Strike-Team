@@ -1,4 +1,4 @@
-﻿local Binding = require(script:GetCustomProperty("Bindings"))
+local Binding = require(script:GetCustomProperty("Bindings"))
 local TextBox = script:GetCustomProperty("TextBox"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 

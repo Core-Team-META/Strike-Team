@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10128884331981734128
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
+  Id: 10698833128597864431
+  Name: "Play Bold"
+  PlatformAssetType: 28
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
   }
 }
 Assets {

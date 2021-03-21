@@ -1,4 +1,4 @@
-﻿while not _G["LoadoutKey"] do Task.Wait() end
+while not _G["LoadoutKey"] do Task.Wait() end
 while not _G["StorageKey"] do Task.Wait() end
 local LoadoutKey =  _G["LoadoutKey"] 
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))

@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	ScreenObject v1.0 by Waffle
 
 	screenObject = ScreenObject.New(object[, dimensionTable]) attaches a given object to the screen and allows for configuration of its size and position.
