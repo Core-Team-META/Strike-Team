@@ -52,13 +52,9 @@ function AttachPoints(player)
 	Left:AttachToPlayer(player, "left_clavicle")
     Right:AttachToPlayer(player, "right_clavicle")
 
-	print("<=6 means female >=8 means male " ..tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
-
 	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
-		print("female")
         modelGender = "Female" -- Female
     else
-		print("male")
         modelGender = "Male" -- Male
     end
 
@@ -80,7 +76,7 @@ local previousGroundedStates = {}		-- Player -> bool
 -- nil OnPlayerJoined(Player)
 -- Sets up data for a new player
 function OnPlayerJoined(player)
-	AttachPoints(player)
+	-- AttachPoints(player)
 	previousFallingSpeeds[player] = 0.0
 	previousGroundedStates[player] = true
 end
