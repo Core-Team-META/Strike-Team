@@ -1,4 +1,4 @@
-﻿local Root = script.parent
+local Root = script.parent
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 

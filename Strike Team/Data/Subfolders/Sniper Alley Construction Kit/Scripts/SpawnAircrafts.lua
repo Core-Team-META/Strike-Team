@@ -1,4 +1,4 @@
-﻿local airplane = nil
+local airplane = nil
 local propTargetLocation = script:GetCustomProperty("TargetLocation")
 local spawnMin = script:GetCustomProperty("SpawnMinTime")
 local spawnMax = script:GetCustomProperty("SpawnMaxTime")

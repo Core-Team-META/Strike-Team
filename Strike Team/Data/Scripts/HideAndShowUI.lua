@@ -1,4 +1,4 @@
-﻿local Parent = script.parent
+local Parent = script.parent
 local AllEvents 
 AllEvents = {
     Events.Connect("HideUI", function() 

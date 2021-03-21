@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	META_CosmeticStore - README
 	
 	v 0.1.2 - 12/22/2020

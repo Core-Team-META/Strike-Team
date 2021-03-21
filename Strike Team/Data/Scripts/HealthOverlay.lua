@@ -1,4 +1,4 @@
-﻿local Post = script:GetCustomProperty("Post"):WaitForObject()
+local Post = script:GetCustomProperty("Post"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local PROPERTIES = Post:GetCustomProperties()
 

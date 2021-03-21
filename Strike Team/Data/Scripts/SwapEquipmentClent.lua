@@ -1,4 +1,4 @@
-﻿LOCAL_PLAYER = Game.GetLocalPlayer()
+LOCAL_PLAYER = Game.GetLocalPlayer()
 local BindingToSlot = {
     ["ability_extra_1"] = "PrimaryWeapon",
     ["ability_extra_2"] = "SecondaryWeapon",

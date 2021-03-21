@@ -1,4 +1,4 @@
-﻿Button = script.parent
+Button = script.parent
 local BACKGROUNDIMAGE = script:GetCustomProperty("BackgroundImage"):WaitForObject()
 local IsEnabled = script:GetCustomProperty("IsEnabled")
 

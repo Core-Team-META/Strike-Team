@@ -1,4 +1,4 @@
-﻿Events.Connect("LivingStateChange",
+Events.Connect("LivingStateChange",
 function(state)
     if(not state) then 
         Events.Broadcast("HealthOverlayFoceSetValue",100) 

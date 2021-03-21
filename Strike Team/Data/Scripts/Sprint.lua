@@ -1,4 +1,4 @@
-﻿local WALK_SPEED = script:GetCustomProperty("WalkSpeed")
+local WALK_SPEED = script:GetCustomProperty("WalkSpeed")
 local SPRINT_SPEED = script:GetCustomProperty("SprintSpeed")
 
 function SetServer(player,state)

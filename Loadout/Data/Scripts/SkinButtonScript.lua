@@ -1,4 +1,4 @@
-﻿local Primary = script:GetCustomProperty("Primary"):WaitForObject()
+local Primary = script:GetCustomProperty("Primary"):WaitForObject()
 local Secondary = script:GetCustomProperty("Secondary"):WaitForObject()
 local Melee = script:GetCustomProperty("Melee"):WaitForObject()
 local CustomLoadoutContents = script:GetCustomProperty("CustomLoadoutContents"):WaitForObject()

@@ -1,4 +1,4 @@
-﻿local Loadout = script:GetCustomProperty("Loadout")
+local Loadout = script:GetCustomProperty("Loadout")
 local Storage = script:GetCustomProperty("Storage")
 local StatKey = script:GetCustomProperty("StatKey")
 

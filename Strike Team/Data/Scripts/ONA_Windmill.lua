@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     Joviex - amorano@gmail.com
 --]]
 

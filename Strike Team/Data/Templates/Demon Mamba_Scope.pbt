@@ -219,6 +219,7 @@ Assets {
         ParentId: 16933164457434354486
         ChildIds: 2849929552917906990
         ChildIds: 8435217396785555438
+        ChildIds: 4339664530288896919
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -239,8 +240,8 @@ Assets {
         Transform {
           Location {
             X: -11.2157593
-            Y: -5.16125488
-            Z: 8.1947937
+            Y: -5.73646545
+            Z: 8.19482422
           }
           Rotation {
             Pitch: -90
@@ -264,21 +265,20 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 13909276548079333532
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 13909276548079333532
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.195000008
-              G: 0.152849033
-              B: 0.0955500081
+              R: 0.0662252381
+              B: 0.0800000429
               A: 1
             }
           }
@@ -358,6 +358,79 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
+              R: 0.0471523926
+              B: 0.0800000429
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2954037056948186721
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4339664530288896919
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            X: -14.2265015
+            Z: 8.5534668
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.0929406732
+            Y: 0.0986024
+            Z: 0.0521247424
+          }
+        }
+        ParentId: 17744902953993088485
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9497951731488909799
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.734469
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.724961936
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
               R: 0.195000008
               G: 0.152849033
               B: 0.0955500081
@@ -377,7 +450,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13271880292242037774
+            Id: 11525850364699686476
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1690,7 +1763,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7283825798727192743
+      Id: 13909276548079333532
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1699,12 +1772,21 @@ Assets {
       }
     }
     Assets {
-      Id: 13271880292242037774
-      Name: "Pipe - 6-Sided"
+      Id: 2954037056948186721
+      Name: "Pipe - Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_sixsided_002"
+        AssetId: "sm_pipe_003"
+      }
+    }
+    Assets {
+      Id: 11525850364699686476
+      Name: "Ring - Beveled"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ring_faceted_001"
       }
     }
     Assets {
@@ -1732,15 +1814,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_sight_forw_002"
-      }
-    }
-    Assets {
-      Id: 2954037056948186721
-      Name: "Pipe - Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_003"
       }
     }
     Assets {

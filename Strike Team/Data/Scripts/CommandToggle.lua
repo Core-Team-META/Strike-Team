@@ -1,4 +1,4 @@
-﻿local Panel = script:GetCustomProperty("Panel"):WaitForObject()
+local Panel = script:GetCustomProperty("Panel"):WaitForObject()
 local OpenButton = script:GetCustomProperty("OpenButton")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 LOCAL_PLAYER.clientUserData.CommmandPanelOpen = true

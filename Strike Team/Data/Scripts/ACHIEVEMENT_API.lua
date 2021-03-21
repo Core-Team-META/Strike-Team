@@ -167,6 +167,14 @@ function API.GetAchievementIcon(id)
     return achievements[id].icon
 end
 
+function API.GetAchievementIconBG(id)
+    if not achievements then
+        warn("Achievement IconBG Doesn't Exsist id: " .. id)
+        return nil
+    end
+    return achievements[id].iconBG
+end
+
 function API.GetRewardIcon(id)
     if not achievements then
         warn("Achievement Reward Icon Doesn't Exsist")

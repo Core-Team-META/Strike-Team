@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Roaming Camera - Client
 v1.0.1
 by: standardcombo

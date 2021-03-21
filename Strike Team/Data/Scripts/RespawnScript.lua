@@ -1,4 +1,4 @@
-﻿Button = script.parent
+Button = script.parent
 local LastPressed = 0
 
 Button.pressedEvent:Connect(function()

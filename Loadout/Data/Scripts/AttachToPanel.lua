@@ -1,4 +1,4 @@
-﻿local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
+local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
 local GlobalPixel = require(script:GetCustomProperty("GlobalPixel"))
 local Panel = script:GetCustomProperty("Panel"):WaitForObject()
 local x,y = GlobalPixel.ToWorld(Panel)

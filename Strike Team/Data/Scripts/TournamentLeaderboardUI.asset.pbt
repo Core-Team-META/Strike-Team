@@ -16,6 +16,10 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:ShowTopPlayers"
+        Bool: false
+      }
+      Overrides {
         Name: "cs:RowCount"
         Int: 15
       }

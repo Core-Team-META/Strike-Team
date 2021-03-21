@@ -1,4 +1,4 @@
-﻿WEAPON = script:FindAncestorByType("Weapon")
+WEAPON = script:FindAncestorByType("Weapon")
 assert(WEAPON, "Please Add to the child of a weapon")
 
 local SHOOT_ABILITY 

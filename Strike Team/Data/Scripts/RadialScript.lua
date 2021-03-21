@@ -1,4 +1,4 @@
-﻿local MainTask
+local MainTask
 local Slots
 local Spike = script:GetCustomProperty("Spike")
 local AngleMeter = script:GetCustomProperty("AngleMeter")

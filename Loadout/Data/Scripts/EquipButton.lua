@@ -1,4 +1,4 @@
-﻿local BackButton = script.parent
+local BackButton = script.parent
 local Root = BackButton.parent
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 

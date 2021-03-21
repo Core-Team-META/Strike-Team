@@ -99,9 +99,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 38.9322281
-            Y: 0.409469604
-            Z: -17.2226334
+            X: 38.9322128
+            Y: 0.409505218
+            Z: -18.5091553
           }
           Rotation {
           }
@@ -138,6 +138,7 @@ Assets {
         ChildIds: 6696712502019774697
         ChildIds: 3780718289946591128
         ChildIds: 16866126623638097200
+        ChildIds: 12334851781518546401
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -159,8 +160,9 @@ Assets {
         Name: "Cube - Chamfered Large Polished"
         Transform {
           Location {
-            X: 13.625248
-            Z: 9.71943092
+            X: 13.6252184
+            Y: -0.37318778
+            Z: 9.71942329
           }
           Rotation {
             Pitch: 89.0564194
@@ -353,9 +355,9 @@ Assets {
         Name: "Text 06: ("
         Transform {
           Location {
-            X: 15.481472
-            Y: -3.28222752
-            Z: 14.0421143
+            X: 15.4814959
+            Y: -3.21801019
+            Z: 14.0421181
           }
           Rotation {
             Pitch: 83.2022705
@@ -442,9 +444,9 @@ Assets {
         Name: "Text 06: ("
         Transform {
           Location {
-            X: 15.481472
-            Y: 0.517963409
-            Z: 14.0421143
+            X: 15.4814959
+            Y: 0.582197666
+            Z: 14.0421181
           }
           Rotation {
             Pitch: 83.2015839
@@ -1729,9 +1731,9 @@ Assets {
         Name: "Prism - 6-Sided Half"
         Transform {
           Location {
-            X: 51.8735619
-            Y: -0.207163543
-            Z: 15.5927763
+            X: 51.8735657
+            Y: -0.317225069
+            Z: 15.5927639
           }
           Rotation {
             Pitch: 90
@@ -1739,8 +1741,8 @@ Assets {
             Roll: 1.26574707
           }
           Scale {
-            X: 0.0655526891
-            Y: 0.0116910059
+            X: 0.0523690954
+            Y: 0.0116910599
             Z: 0.0532711633
           }
         }
@@ -1895,6 +1897,87 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 12334851781518546401
+        Name: "Text 04: {"
+        Transform {
+          Location {
+            X: 9.30851555
+            Y: -1.47265399
+            Z: 17.0345383
+          }
+          Rotation {
+            Pitch: -100.70224
+          }
+          Scale {
+            X: 0.0395367704
+            Y: 0.0834741592
+            Z: 0.0784804448
+          }
+        }
+        ParentId: 4499344881717195889
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Font.Faces:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Sides:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Bevel:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Faces:color"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Bevel:color"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Sides:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10205657496296634984
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 16965777294932964901
@@ -2029,6 +2112,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "plastic_matte_001"
+      }
+    }
+    Assets {
+      Id: 10205657496296634984
+      Name: "Text 04: {"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "F7_Text_051"
       }
     }
     PrimaryAssetId {

@@ -2741,12 +2741,12 @@ Objects {
   Name: "Invisible Collider"
   Transform {
     Location {
-      X: -9521.96875
-      Y: -1264.7373
+      X: -9516.95313
+      Y: -1268.70068
       Z: 14.3225098
     }
     Rotation {
-      Yaw: -135.366486
+      Yaw: -134.791275
     }
     Scale {
       X: 17.75
@@ -2758,7 +2758,7 @@ Objects {
   UnregisteredParameters {
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"

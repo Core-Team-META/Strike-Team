@@ -52,7 +52,7 @@ Assets {
           Overrides {
             Name: "cs:ComponentRoot"
             ObjectReference {
-              SelfId: 210791194254658402
+              SubObjectId: 3281271546433233406
             }
           }
           Overrides {
@@ -83,7 +83,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: -2.56298828
+            X: 39.5134277
+            Y: -0.94921875
+            Z: -27.1591797
           }
           Rotation {
           }

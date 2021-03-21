@@ -1,4 +1,4 @@
-﻿
+
 Events.Connect("LivingStateChange",function(state)
     if (state) then    
         Task.Wait(3)

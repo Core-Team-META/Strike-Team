@@ -1,4 +1,4 @@
-﻿local Join_Match = script:GetCustomProperty("Join_Match"):WaitForObject()
+local Join_Match = script:GetCustomProperty("Join_Match"):WaitForObject()
 local TEXT_PANEL = script:GetCustomProperty("TEXT_PANEL"):WaitForObject()
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 local CLICK_SOUND = script:GetCustomProperty("CLICK_SOUND")

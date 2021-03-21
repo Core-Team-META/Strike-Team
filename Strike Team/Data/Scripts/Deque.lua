@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     Deque
     A double ended queue object.
 --]]

@@ -1,4 +1,4 @@
-﻿local LOCAL_PLAYER = Game.GetLocalPlayer()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local MENU_BUTTON = script:GetCustomProperty("MenuButton")
 local UI_CONTAINER = script:GetCustomProperty("UIContainer"):WaitForObject()
 local UI_OPEN_SOUND = script:GetCustomProperty("UI_OPEN_SOUND")

@@ -1,4 +1,4 @@
-﻿-- EaseUI.lua
+-- EaseUI.lua
 -- Handles easing (interpolation) of UI, interactable with FluidUI.
 -- Created by Nicholas Foreman (https://www.coregames.com/user/f9df3457225741c89209f6d484d0eba8)
 

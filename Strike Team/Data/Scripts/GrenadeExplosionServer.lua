@@ -1,4 +1,4 @@
-﻿
+
 -- Exposed variables
 local FRIENDLY_EXPLOSION = script:GetCustomProperty("FriendlyExplosionDamage")
 local EXPLOSION_DAMAGE_RANGE = script:GetCustomProperty("ExplosionDamageRange")

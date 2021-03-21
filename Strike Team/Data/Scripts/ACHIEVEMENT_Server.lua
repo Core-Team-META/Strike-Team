@@ -185,7 +185,7 @@ end
 function OnRoundEnd()
     local team1 = Game.GetTeamScore(1)
     local team2 = Game.GetTeamScore(2)
-    --[[local tempTbl = {}
+    local tempTbl = {}
     for _, target in ipairs(Game.GetPlayers()) do
         if target.id == "d1073dbcc404405cbef8ce728e53d380" then --Morticai
             tempTbl[target] = "AS_KILLMORT"
@@ -215,24 +215,36 @@ function OnRoundEnd()
             tempTbl[target] = "AS_KILLOOCOO"
         elseif target.id == "b36d1cbf1fc9449fb5dc1d93d1161e86" then --Vitriol08
             tempTbl[target] = "AS_KILLVITRIOL"
+        elseif target.id == "43522f2d40f5480e881ec7b89567007e" then --Mehaji
+            tempTbl[target] = "AS_KILLMEHAJI"
+        elseif target.id == "74fd12a8ad1b4e3ca013946aa981b46e" then --Griffin
+            tempTbl[target] = "AS_KILLGRIFFIN"
+        elseif target.id == "385b45d7abdb499f8664c6cb01df521b" then --Estlogic
+            tempTbl[target] = "AS_KILLESTLOGIC"
+        elseif target.id == "9cc8d222e6d14da68dc2ba0a9a4f0439" then --Melamory
+            tempTbl[target] = "AS_KILLMELAMORY"
+        elseif target.id == "eaba4947069846dbb72fc5efb0f04f47" then --Divide
+            tempTbl[target] = "AS_KILLDIVIDE"
+        elseif target.id == "c078c42a742146bd99404099e4781e88" then --Scav
+            tempTbl[target] = "AS_KILLSCAV"
         end
-    end]]--
+    end
+    
 
     for _, player in ipairs(Game.GetPlayers()) do --
-       --[[ if
-            (team1 > team2 and player.team == 1 and #tempTbl > 0) or
-                (team1 < team2 and player.team == 2 and #tempTbl > 0)
-         then
+        if (team1 > team2 and player.team == 1) or (team1 < team2 and player.team == 2) then
             for target, achievementId in pairs(tempTbl) do
-                ACH_API.AddProgress(player, achievementId, 1)
+                ACH_API.UnlockAchievement(player, achievementId)
+                print(achievementId)
             end
-        end]]--
+        end
 
         if player.serverUserData.ACH_killCount and player.serverUserData.ACH_killCount == 21 then
             ACH_API.UnlockAchievement(player, "AS_Blackjack")
         end
         player.serverUserData.ACH_killCount = 0
         player.serverUserData.ACH_diedInRound = false
+        Task.Wait()
         ACH_API.GiveAllRewards(player)
     end
     Task.Spawn(

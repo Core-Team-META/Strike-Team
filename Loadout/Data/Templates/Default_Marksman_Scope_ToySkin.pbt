@@ -991,7 +991,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5351428073291024820
+              Id: 6721774561700172060
             }
           }
           Overrides {
@@ -1101,8 +1101,8 @@ Assets {
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 19.685257
-            Y: -4.22265625
+            X: 19.6853027
+            Y: -4.046
             Z: 28.8051758
           }
           Rotation {
@@ -1876,7 +1876,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5351428073291024820
+      Id: 6721774561700172060
       Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {

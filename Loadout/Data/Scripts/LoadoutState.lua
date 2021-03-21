@@ -1,4 +1,4 @@
-﻿
+
 _G["LOADOUTSTATEENUMS"] = 
 {
     "ChangingLoadout",

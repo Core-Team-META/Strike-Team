@@ -1,4 +1,4 @@
-﻿    while not _G["DataBase"] do
+    while not _G["DataBase"] do
     Task.Wait()
 end
 

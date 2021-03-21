@@ -7,7 +7,7 @@ Assets {
       RootId: 6641744986603766413
       Objects {
         Id: 6641744986603766413
-        Name: "Unicorn Pistol Scope "
+        Name: "Unicorn Pistol Scope"
         Transform {
           Scale {
             X: 3
@@ -99,8 +99,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.6852417
-            Z: -17.2226334
+            X: 43.6852226
+            Z: -17.7003174
           }
           Rotation {
           }
@@ -134,8 +134,8 @@ Assets {
         Transform {
           Location {
             X: 3.88113856
-            Y: -0.117710665
-            Z: -0.646820128
+            Y: -0.262741834
+            Z: -1.46687829
           }
           Rotation {
           }
@@ -985,16 +985,16 @@ Assets {
         Name: "Modern Weapon - Sight Rear 01"
         Transform {
           Location {
-            X: 16.4700928
-            Y: 0.114990234
-            Z: 16.5166168
+            X: 16.4700603
+            Y: 0.115037642
+            Z: 16.5166054
           }
           Rotation {
             Yaw: -179.999969
           }
           Scale {
-            X: 0.999999523
-            Y: 0.354387224
+            X: 0.999999285
+            Y: 0.125793487
             Z: 1.10682452
           }
         }
@@ -2475,18 +2475,18 @@ Assets {
         Name: "Prism - 6-Sided Half"
         Transform {
           Location {
-            X: 18.1035767
-            Y: 0.152099609
-            Z: 15.5922241
+            X: 18.1035442
+            Y: 0.152038053
+            Z: 15.592226
           }
           Rotation {
             Pitch: 90
             Roll: -90
           }
           Scale {
-            X: 0.0478198938
-            Y: 0.021930851
-            Z: 0.0240781326
+            X: 0.047819905
+            Y: 0.0219308492
+            Z: 0.0143711017
           }
         }
         ParentId: 8312154420482728603
