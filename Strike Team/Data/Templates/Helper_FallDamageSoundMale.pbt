@@ -32,7 +32,7 @@ Assets {
           }
           AutoPlay: true
           Transient: true
-          Pitch: 497.424805
+          Pitch: 227.46875
           Volume: 1
           Falloff: 2000
           Radius: 400
