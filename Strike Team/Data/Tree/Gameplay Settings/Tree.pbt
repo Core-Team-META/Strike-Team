@@ -11,7 +11,7 @@ Objects {
     }
   }
   ParentId: 16962308734055015238
-  ChildIds: 3138148297700067768
+  ChildIds: 17062503797121474466
   ChildIds: 15556342398574729193
   UnregisteredParameters {
     Overrides {
@@ -144,6 +144,35 @@ Objects {
   }
 }
 Objects {
+  Id: 17062503797121474466
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5643621584690699170
+  ChildIds: 3138148297700067768
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
   Id: 3138148297700067768
   Name: "FallDamageServer"
   Transform {
@@ -157,7 +186,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5643621584690699170
+  ParentId: 17062503797121474466
   UnregisteredParameters {
     Overrides {
       Name: "cs:TemplateRoot"

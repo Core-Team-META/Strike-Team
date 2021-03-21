@@ -52,9 +52,13 @@ function AttachPoints(player)
 	Left:AttachToPlayer(player, "left_clavicle")
     Right:AttachToPlayer(player, "right_clavicle")
 
+	print("<=6 means female >=8 means male " ..tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
+
 	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
+		print("female")
         modelGender = "Female" -- Female
     else
+		print("male")
         modelGender = "Male" -- Male
     end
 
