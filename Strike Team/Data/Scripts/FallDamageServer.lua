@@ -46,13 +46,14 @@ function AttachPoints(player)
     Right.collision = Collision.FORCE_OFF
     Left.visibility = Visibility.FORCE_OFF
     Right.visibility = Visibility.FORCE_OFF
-    
+	print(script.name .. " - Server/Falling Pre Wait")
+	Task.Wait(1)
+	print(script.name .. " - Server/Falling After Wait")
     Left:AttachToPlayer(player, "left_clavicle")
     Right:AttachToPlayer(player, "right_clavicle")
+	print(script.name .. " - Server/Falling After Attach")
     
-	Task.Wait(0.75)
-
-	print("Server - if less than six, should be female: " .. tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
+	print(script.name .. " - Server/Falling should be <= 6 for female, >=8 for male: " .. tostring((Left:GetWorldPosition() - Right:GetWorldPosition()).size))
 
 	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
 		print("server - sound female")
