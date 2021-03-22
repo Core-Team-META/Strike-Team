@@ -10,18 +10,22 @@ local pointsFeedbacKMainPanel = script:GetCustomProperty("PointsFeedbacKMainPane
 local mainReasonText = mainMessage:GetCustomProperty("ReasonText"):WaitForObject()
 local mainPointsText = mainMessage:GetCustomProperty("PointsText"):WaitForObject()
 
+local allText = pointsFeedbacKMainPanel:FindDescendantsByType("UIText")
+
 local messages = cyclingMessages:GetChildren()
 local messagePositions = {}
 
 local originalValue = {}
 
-local fadeTracker = {}
+local oc = {}
 
 local passToTask = {}
 local passComplete = false
 
 local resetTask = nil
 local erasing = false
+
+local faded = true
 
 local addingScore = 0
 local previousAddingScore = 0
@@ -56,6 +60,66 @@ function PopQueue()
 	
 	return value
 	
+end
+
+function FadeIn()
+	
+	local alpha = 0
+	
+	for i = 1, 20 do
+	
+		alpha = i/20
+		
+		alpha = alpha * alpha
+
+		for _, text in ipairs(allText) do
+		
+			if i < 20 then
+		
+				text:SetColor(Color.New(oc[text.id].r, oc[text.id].g, oc[text.id].b, alpha))
+					
+			else 
+				
+				text:SetColor(oc[text.id])
+					
+			end
+		
+		end
+		
+		Task.Wait(0.025)
+		
+	end
+
+end
+
+function FadeOut()
+	
+	local alpha = 1
+	
+	for i = 20, 1, -1 do
+	
+		alpha = i/20
+		
+		alpha = alpha * alpha
+
+		for _, text in ipairs(allText) do
+			
+			if i > 1 then
+		
+				text:SetColor(Color.New(oc[text.id].r, oc[text.id].g, oc[text.id].b, alpha))
+					
+			else 
+				
+				text:SetColor(Color.New(oc[text.id].r, oc[text.id].g, oc[text.id].b, 0))
+					
+			end
+		
+		end
+		
+		Task.Wait(0.025)
+		
+	end
+
 end
 
 function SetChildrenText(uiObj, _text)
@@ -127,7 +191,8 @@ function ResetAllText()
 	
 	erasing = true
 	
-	pointsFeedbacKMainPanel.visibility = Visibility.FORCE_OFF
+	FadeOut()
+	faded = true
 	
 	SetChildrenText(mainReasonText, "")
 	SetChildrenText(mainPointsText, "")
@@ -262,7 +327,12 @@ function CycleAnimation(givenResource, givenValue)
 		
 	end
 	
-	pointsFeedbacKMainPanel.visibility = Visibility.INHERIT
+	if faded then
+	
+		Task.Spawn(FadeIn, 0)
+		faded = false
+		
+	end
 	
 	if addingScore > 0 then
 	
@@ -359,7 +429,11 @@ end
 
 function Initialize()
 
-	pointsFeedbacKMainPanel.visibility = Visibility.FORCE_OFF
+	for _, text in ipairs(allText) do
+	
+		oc[text.id] = text:GetColor()
+		
+	end
 
 	for x, m in ipairs(messages) do
 	
