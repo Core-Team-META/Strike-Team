@@ -106,6 +106,7 @@ Assets {
           Location {
           }
           Rotation {
+            Yaw: 1
           }
           Scale {
             X: 1
@@ -9145,7 +9146,7 @@ Assets {
       }
       Objects {
         Id: 12473910542475180098
-        Name: "LilRipper"
+        Name: "Hunting Knife"
         Transform {
           Location {
           }
