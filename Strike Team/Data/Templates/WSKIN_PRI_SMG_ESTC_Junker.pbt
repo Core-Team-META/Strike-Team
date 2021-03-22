@@ -7,7 +7,7 @@ Assets {
       RootId: 3383285067706743930
       Objects {
         Id: 3383285067706743930
-        Name: "Junker SP99"
+        Name: "WSKIN_PRI_SMG_ESTC_Junker"
         Transform {
           Scale {
             X: 1
@@ -35,7 +35,7 @@ Assets {
       }
       Objects {
         Id: 11084264285140079805
-        Name: "SP99_Skin"
+        Name: "Geo"
         Transform {
           Location {
             X: 16.9868679

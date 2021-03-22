@@ -7,7 +7,7 @@ Assets {
       RootId: 7267535472639719671
       Objects {
         Id: 7267535472639719671
-        Name: "HK99_DestinySkin"
+        Name: "WSKIN_PRI_AR_MRCi-88_Star-Hopper"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 15567021823656397876
-        Name: "HK99_DestinySkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: 3.63154697

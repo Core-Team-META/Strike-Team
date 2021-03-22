@@ -7,7 +7,7 @@ Assets {
       RootId: 16099166695021673165
       Objects {
         Id: 16099166695021673165
-        Name: "Nemo_ToySkin"
+        Name: "WSKIN_PRI_LMG_AWKR_Toy"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 330208849575222817
-        Name: "Nemo_ToySkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: -3.18955421

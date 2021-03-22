@@ -7,7 +7,7 @@ Assets {
       RootId: 14139000484804823844
       Objects {
         Id: 14139000484804823844
-        Name: "Soda Pop Mamba"
+        Name: "WSKIN_PRI_SR_T055_Soda-Pop"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 15138480057832174949
-        Name: "Mamba_SPR_Default"
+        Name: "Geo"
         Transform {
           Location {
           }

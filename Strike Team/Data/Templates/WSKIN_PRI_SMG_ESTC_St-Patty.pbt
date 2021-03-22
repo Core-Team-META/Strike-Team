@@ -7,7 +7,7 @@ Assets {
       RootId: 13547917255996898841
       Objects {
         Id: 13547917255996898841
-        Name: "St. Patty\'s SP99"
+        Name: "WSKIN_PRI_SMG_ESTC_St-Patty"
         Transform {
           Scale {
             X: 1
@@ -35,7 +35,7 @@ Assets {
       }
       Objects {
         Id: 10943528389980288055
-        Name: "SP99_Skin"
+        Name: "Geo"
         Transform {
           Location {
             X: 16.9868679

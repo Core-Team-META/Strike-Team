@@ -7,7 +7,7 @@ Assets {
       RootId: 889204042753912189
       Objects {
         Id: 889204042753912189
-        Name: "Spector 45_DefaultSkin"
+        Name: "WSKIN_SEC_PISTOL_KZ99_Default"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 16215788518466666776
-        Name: "Spector 45_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
           }

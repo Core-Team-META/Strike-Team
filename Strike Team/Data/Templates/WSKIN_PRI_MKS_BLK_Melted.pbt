@@ -7,7 +7,7 @@ Assets {
       RootId: 1573298787674173053
       Objects {
         Id: 1573298787674173053
-        Name: "Marksman_MeltedSkin"
+        Name: "WSKIN_PRI_MKS_BLK_Melted"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 17899837399973256604
-        Name: "Marksman_MeltedSkin"
+        Name: "Geo"
         Transform {
           Location {
             X: 0.944458

@@ -7,7 +7,7 @@ Assets {
       RootId: 12190636161961800249
       Objects {
         Id: 12190636161961800249
-        Name: "Proto Shotgun Skin 3"
+        Name: "WSKIN_PRI_SG_BCK_Camo"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 14411442069489113556
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 22.4663792

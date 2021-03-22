@@ -7,7 +7,7 @@ Assets {
       RootId: 16914661415689135859
       Objects {
         Id: 16914661415689135859
-        Name: "Burger HK99"
+        Name: "WSKIN_PRI_AR_MRCi-88_Burger"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 9656968775385980231
-        Name: "HK99_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: -65.7114868

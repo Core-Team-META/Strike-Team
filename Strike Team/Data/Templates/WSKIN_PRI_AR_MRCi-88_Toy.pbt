@@ -7,7 +7,7 @@ Assets {
       RootId: 2713589661965932726
       Objects {
         Id: 2713589661965932726
-        Name: "HK99_ToySkin"
+        Name: "WSKIN_PRI_AR_MRCi-88_Toy"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 1690167452712784729
-        Name: "HK99_ToySkin"
+        Name: "Geo"
         Transform {
           Location {
           }

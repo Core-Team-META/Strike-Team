@@ -7,7 +7,7 @@ Assets {
       RootId: 13302646443971245399
       Objects {
         Id: 13302646443971245399
-        Name: "Demon  SP99"
+        Name: "WSKIN_PRI_SMG_ESTC_Demon-Hunter"
         Transform {
           Scale {
             X: 1
@@ -35,7 +35,7 @@ Assets {
       }
       Objects {
         Id: 9871653614963928691
-        Name: "SP99_Skin"
+        Name: "Geo"
         Transform {
           Location {
             X: 16.9868679

@@ -7,7 +7,7 @@ Assets {
       RootId: 13052329848275686036
       Objects {
         Id: 13052329848275686036
-        Name: "Easter HK99"
+        Name: "WSKIN_PRI_AR_MRCi-88_Easter"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 9072056767340344272
-        Name: "HK99_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: 3.63154697

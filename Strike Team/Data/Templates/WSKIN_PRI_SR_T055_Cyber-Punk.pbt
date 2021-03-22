@@ -7,7 +7,7 @@ Assets {
       RootId: 5196597912491910842
       Objects {
         Id: 5196597912491910842
-        Name: "Mamba_SPR_CyberPunkSkin"
+        Name: "WSKIN_PRI_SR_T055_Cyber-Punk"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 12555943241003096818
-        Name: "Mamba_SPR_CyberPunkSkin"
+        Name: "Geo"
         Transform {
           Location {
           }

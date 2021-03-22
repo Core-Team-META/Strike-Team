@@ -7,7 +7,7 @@ Assets {
       RootId: 9671939753522216926
       Objects {
         Id: 9671939753522216926
-        Name: "Demon HK"
+        Name: "WSKIN_PRI_AR_MRCi-88_Demon"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 1057515846672415258
-        Name: "HK99_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: 3.63154697

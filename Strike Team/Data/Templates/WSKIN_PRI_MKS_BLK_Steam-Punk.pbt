@@ -7,7 +7,7 @@ Assets {
       RootId: 5584021480938777500
       Objects {
         Id: 5584021480938777500
-        Name: "Proto Marksman Skin 7"
+        Name: "WSKIN_PRI_MKS_BLK_Steam-Punk"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 2531576921804875683
-        Name: "Proto Marksman Skin 7"
+        Name: "Geo"
         Transform {
           Location {
           }

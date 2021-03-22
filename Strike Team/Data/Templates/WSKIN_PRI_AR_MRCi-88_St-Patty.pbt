@@ -7,7 +7,7 @@ Assets {
       RootId: 1897922168553010511
       Objects {
         Id: 1897922168553010511
-        Name: "St. Patty\'s HK"
+        Name: "WSKIN_PRI_AR_MRCi-88_St-Patty"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 18113314766409755368
-        Name: "HK99_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: 3.63154697

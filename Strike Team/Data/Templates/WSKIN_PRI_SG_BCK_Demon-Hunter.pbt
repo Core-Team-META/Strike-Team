@@ -7,7 +7,7 @@ Assets {
       RootId: 9996867379145985130
       Objects {
         Id: 9996867379145985130
-        Name: "Demon Shotgun"
+        Name: "WSKIN_PRI_SG_BCK_Demon-Hunter"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 16726256888153859665
-        Name: "Levi Manteo_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
           }
