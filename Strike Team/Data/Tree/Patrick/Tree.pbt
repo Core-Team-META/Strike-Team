@@ -15,6 +15,7 @@ Objects {
     }
   }
   ParentId: 14036186774430242210
+  ChildIds: 809709288647503928
   ChildIds: 13250780612184071406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1321,6 +1322,36 @@ Objects {
   Script {
     ScriptAsset {
       Id: 5067110347379818947
+    }
+  }
+}
+Objects {
+  Id: 809709288647503928
+  Name: "PointsFeedbackServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10931546969682583101
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4855917917653476659
     }
   }
 }
