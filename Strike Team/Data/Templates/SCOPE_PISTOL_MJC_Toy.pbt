@@ -1,13 +1,13 @@
 Assets {
-  Id: 13414399215943697119
-  Name: "WSKIN_SEC_Pistol_MJC_Junker"
+  Id: 1541965361038703556
+  Name: "SCOPE_PISTOL_MJC_Toy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1885918636661414023
+      RootId: 14064976796941334045
       Objects {
-        Id: 1885918636661414023
-        Name: "WSKIN_SEC_Pistol_MJC_Junker"
+        Id: 14064976796941334045
+        Name: "Burst Pistol Scope ToySkin"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16369415612279821452
-        ChildIds: 3556475084162247832
-        ChildIds: 17870296713169527031
+        ChildIds: 9037824877175831360
+        ChildIds: 8278402827258350098
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -36,7 +35,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16369415612279821452
+        Id: 9037824877175831360
         Name: "ScopeAnimation"
         Transform {
           Location {
@@ -52,12 +51,12 @@ Assets {
             Z: 3
           }
         }
-        ParentId: 1885918636661414023
+        ParentId: 14064976796941334045
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 1885918636661414023
+              SubObjectId: 14064976796941334045
             }
           }
           Overrides {
@@ -67,16 +66,16 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:GEO"
-            ObjectReference {
-              SubObjectId: 17870296713169527031
-            }
-          }
-          Overrides {
             Name: "cs:PositionOffset"
             Vector {
               X: -5
               Z: 0.1
+            }
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 8278402827258350098
             }
           }
         }
@@ -97,60 +96,12 @@ Assets {
         }
       }
       Objects {
-        Id: 3556475084162247832
-        Name: "WeaponAimScopeClient template"
+        Id: 8278402827258350098
+        Name: "Geo"
         Transform {
           Location {
-            X: 25
-            Y: -175
-            Z: -13.7590332
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1885918636661414023
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ScopeTemplate"
-            AssetReference {
-              Id: 11647812439028724708
-            }
-          }
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SubObjectId: 17870296713169527031
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 13511250510657008800
-          }
-        }
-      }
-      Objects {
-        Id: 17870296713169527031
-        Name: "Geoart"
-        Transform {
-          Location {
-            X: -1.86505127
-            Z: 0.0535583496
+            X: 43.6852417
+            Z: -17.2226257
           }
           Rotation {
           }
@@ -160,12 +111,26 @@ Assets {
             Z: 0.7
           }
         }
-        ParentId: 1885918636661414023
-        ChildIds: 3943766491932827867
-        ChildIds: 16569463006066921145
-        ChildIds: 1412123959830244176
-        ChildIds: 6975025478765937803
-        ChildIds: 7472952406650644175
+        ParentId: 14064976796941334045
+        ChildIds: 8123704822773613609
+        ChildIds: 4115155472007904260
+        ChildIds: 1502842414467473473
+        ChildIds: 14279811827523270652
+        ChildIds: 11057331549033944131
+        ChildIds: 6487931830180654679
+        ChildIds: 7115977279184165508
+        ChildIds: 414399916110241106
+        ChildIds: 11793673465843783214
+        ChildIds: 862723102373624582
+        ChildIds: 6057568797210338755
+        ChildIds: 2079261298451108149
+        ChildIds: 7092964047481405798
+        ChildIds: 209507436939102201
+        ChildIds: 13615313884785089992
+        ChildIds: 15795593020298657629
+        ChildIds: 8266146734679475727
+        ChildIds: 5883433232770541036
+        ChildIds: 801576831444881185
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -183,157 +148,50 @@ Assets {
         }
       }
       Objects {
-        Id: 3943766491932827867
-        Name: "Sights Movement"
+        Id: 8123704822773613609
+        Name: "Sci-fi Console 01"
         Transform {
           Location {
-            X: 12.9123373
-            Z: 21.7874832
+            X: 30.5873356
+            Z: 20.7782879
           }
           Rotation {
+            Yaw: -89.9999695
+            Roll: -89.9999084
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
+            X: 0.0116099007
+            Y: 0.0555836633
+            Z: 0.0429640114
           }
         }
-        ParentId: 17870296713169527031
-        ChildIds: 5356116944489477068
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5356116944489477068
-        Name: "MovementGroup"
-        Transform {
-          Location {
-            X: -5.69279242
-            Z: -10.5749941
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.99999994
-            Y: 0.99999994
-            Z: 0.99999994
-          }
-        }
-        ParentId: 3943766491932827867
-        ChildIds: 222404919575022792
-        ChildIds: 15124593543521270103
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 222404919575022792
-        Name: "Modern Weapon - Sight Forward 02"
-        Transform {
-          Location {
-            X: 19.2637215
-            Z: 7.4212656
-          }
-          Rotation {
-            Pitch: -60.1168823
-          }
-          Scale {
-            X: 1.00000012
-            Y: 0.359668076
-            Z: 1.00000012
-          }
-        }
-        ParentId: 5356116944489477068
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4909850481099204290
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6045540826292531006
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15124593543521270103
-        Name: "Modern Weapon - Sight Forward 02"
-        Transform {
-          Location {
-            X: 23.3676167
-            Z: 9.56571388
-          }
-          Rotation {
-            Yaw: -90
-            Roll: -89.999939
-          }
-          Scale {
-            X: 0.0116098719
-            Y: 0.0384352282
-            Z: 0.0429640077
-          }
-        }
-        ParentId: 5356116944489477068
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
+              A: 1
             }
           }
         }
@@ -345,7 +203,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -355,7 +213,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -363,24 +220,40 @@ Assets {
         }
       }
       Objects {
-        Id: 16569463006066921145
-        Name: "Grip"
+        Id: 4115155472007904260
+        Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
-            X: -2.50000024
-            Z: 10.000001
+            X: 26.4832668
+            Z: 18.6337566
           }
           Rotation {
+            Pitch: -60.116848
           }
           Scale {
             X: 1.00000012
-            Y: 1.00000012
+            Y: 0.359668076
             Z: 1.00000012
           }
         }
-        ParentId: 17870296713169527031
-        ChildIds: 6073296615353009855
-        ChildIds: 10401008682316094337
+        ParentId: 8278402827258350098
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
+              A: 1
+            }
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -389,55 +262,67 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
-        Folder {
-          IsGroup: true
+        CoreMesh {
+          MeshAsset {
+            Id: 6045540826292531006
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
         }
       }
       Objects {
-        Id: 6073296615353009855
+        Id: 1502842414467473473
         Name: "Modern Weapon - Grip 04"
         Transform {
           Location {
-            X: 2.27791905
-            Z: -1.35358524
+            X: -0.222080797
+            Z: 8.64641571
           }
           Rotation {
           }
           Scale {
-            X: 1.0928303
-            Y: 0.719354272
-            Z: 1.00000012
+            X: 1.09283054
+            Y: 0.719354391
+            Z: 1.00000024
           }
         }
-        ParentId: 16569463006066921145
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:color"
             Color {
-              R: 0.217000008
-              G: 0.217000008
-              B: 0.217000008
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.139999986
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -461,7 +346,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -469,68 +353,68 @@ Assets {
         }
       }
       Objects {
-        Id: 10401008682316094337
-        Name: "Modern Weapon - Grip 04"
+        Id: 14279811827523270652
+        Name: "Sci-fi Base Pillar 02 - Base 01"
         Transform {
           Location {
-            X: -2.61335135
-            Z: -23.3757477
+            X: -5.11335135
+            Z: -13.3757496
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: -89.9998093
-            Roll: 10.326066
+            Yaw: -89.9998169
+            Roll: 10.3260975
           }
           Scale {
-            X: 0.0382194631
-            Y: 0.0382196344
-            Z: 0.0539601706
+            X: 0.0382194705
+            Y: 0.0382196419
+            Z: 0.0539601818
           }
         }
-        ParentId: 16569463006066921145
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:color"
             Color {
-              R: 0.332000017
-              G: 0.276791334
-              B: 0.0630800053
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.332000017
-              G: 0.276791334
-              B: 0.0630800053
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 7283825798727192743
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.0400000028
-              G: 0.0333483517
-              B: 0.00760000292
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -554,7 +438,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -562,110 +445,41 @@ Assets {
         }
       }
       Objects {
-        Id: 1412123959830244176
-        Name: "Front Accessory"
-        Transform {
-          Location {
-            X: 26.9131927
-            Z: 7.90431499
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 17870296713169527031
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6975025478765937803
-        Name: "Frame"
-        Transform {
-          Location {
-            Z: 11.2278328
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17870296713169527031
-        ChildIds: 2437806453527591849
-        ChildIds: 525569836368856689
-        ChildIds: 15840243207407319528
-        ChildIds: 2178833790318090691
-        ChildIds: 18419836638567037030
-        ChildIds: 4115155768001429028
-        ChildIds: 4240125543074899968
-        ChildIds: 9357770414520682762
-        ChildIds: 17692278186562315852
-        ChildIds: 16232350879365339595
-        ChildIds: 5463136158632505785
-        ChildIds: 15986292283772882569
-        ChildIds: 12751406549734929236
-        ChildIds: 7994959470502043095
-        ChildIds: 2920285886155053517
-        ChildIds: 6409642477958158914
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 2437806453527591849
+        Id: 11057331549033944131
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
             X: 5.07311201
-            Z: 3.27440572
+            Z: 14.3675737
           }
           Rotation {
           }
           Scale {
             X: 1.0806483
-            Y: 0.485073298
+            Y: 0.485073328
             Z: 1.00000012
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
             }
           }
         }
@@ -677,7 +491,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -687,7 +501,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -695,12 +508,12 @@ Assets {
         }
       }
       Objects {
-        Id: 525569836368856689
-        Name: "Trigger - Rear"
+        Id: 6487931830180654679
+        Name: "Sci-fi Cockpit Console 001"
         Transform {
           Location {
             X: -7.34754372
-            Z: -1.96544123
+            Z: 9.26239109
           }
           Rotation {
             Pitch: 12.6852112
@@ -709,36 +522,38 @@ Assets {
           }
           Scale {
             X: 0.0699367374
-            Y: 0.0303389542
-            Z: 0.19913049
+            Y: 0.030338956
+            Z: 0.19913052
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 7.17898703
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 3.67821074
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -762,7 +577,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -770,36 +584,51 @@ Assets {
         }
       }
       Objects {
-        Id: 15840243207407319528
-        Name: "Modern Weapon - Barrel Tip 03"
+        Id: 7115977279184165508
+        Name: "Modern Weapon - Barrel Tip 02"
         Transform {
           Location {
             X: 38.9088249
-            Z: 3.77216935
+            Z: 15.0000019
           }
           Rotation {
             Yaw: -179.999893
           }
           Scale {
-            X: 0.657150626
-            Y: 0.657150805
-            Z: 0.657150626
+            X: 0.657150686
+            Y: 0.657150865
+            Z: 0.657150686
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.131000012
-              G: 0.131000012
-              B: 0.131000012
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
               A: 1
             }
           }
@@ -812,7 +641,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -822,7 +651,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -830,47 +658,47 @@ Assets {
         }
       }
       Objects {
-        Id: 2178833790318090691
+        Id: 414399916110241106
         Name: "Modern Weapon - Body 02"
         Transform {
           Location {
             X: 9.08599949
             Y: -0.129917711
-            Z: 5.05724287
+            Z: 16.2850742
           }
           Rotation {
-            Yaw: 180
-            Roll: 27
+            Yaw: -179.999969
+            Roll: 26.9999561
           }
           Scale {
-            X: 0.508168817
-            Y: 0.722000241
+            X: 0.508168876
+            Y: 0.72200036
             Z: 0.722116113
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2.76164722
+            Float: 0.667014122
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
@@ -879,27 +707,17 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.664900661
-              B: 0.0799999833
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.332000017
-              G: 0.276791334
-              B: 0.0630800053
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:color"
             Color {
-              R: 0.332000017
-              G: 0.276791334
-              B: 0.0630800053
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -912,7 +730,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -922,7 +740,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -930,41 +747,50 @@ Assets {
         }
       }
       Objects {
-        Id: 18419836638567037030
+        Id: 11793673465843783214
         Name: "Modern Weapon - Foregrip 03"
         Transform {
           Location {
             X: 15.0000019
-            Z: 3.77216935
+            Z: 15.0000019
           }
           Rotation {
             Roll: -0.000274658203
           }
           Scale {
-            X: 1.06174612
-            Y: 1.06174612
-            Z: 1.06174612
+            X: 1.06174636
+            Y: 1.06174636
+            Z: 1.06174636
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0299999714
-              G: 0.0298012979
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -977,7 +803,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -987,7 +813,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -995,46 +820,37 @@ Assets {
         }
       }
       Objects {
-        Id: 4115155768001429028
+        Id: 862723102373624582
         Name: "Modern Weapon - Barrel Tip 03"
         Transform {
           Location {
             X: 35.9445648
-            Z: 3.77216935
+            Z: 15.0000019
           }
           Rotation {
             Yaw: -179.999893
           }
           Scale {
-            X: 2.30503893
-            Y: 0.999998391
+            X: 2.30503917
+            Y: 0.99999845
             Z: 1.00000012
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.086
-              G: 0.086
-              B: 0.086
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2.28133607
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 2.63283372
           }
         }
         WantsNetworking: true
@@ -1045,7 +861,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1055,7 +871,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1063,42 +878,42 @@ Assets {
         }
       }
       Objects {
-        Id: 4240125543074899968
+        Id: 6057568797210338755
         Name: "Modern Weapon - Body 02"
         Transform {
           Location {
             X: 9.08678436
             Y: 0.129917711
-            Z: 5.05724287
+            Z: 16.2850742
           }
           Rotation {
-            Yaw: 180
-            Roll: -27
+            Yaw: -179.999969
+            Roll: -26.9999561
           }
           Scale {
             X: 0.508168876
-            Y: 0.72200042
+            Y: 0.72200048
             Z: 0.722116113
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1116,27 +931,17 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.279
-              G: 0.279
-              B: 0.279
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.279
-              G: 0.279
-              B: 0.279
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:color"
             Color {
-              R: 0.279
-              G: 0.279
-              B: 0.279
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -1149,7 +954,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1159,7 +964,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1167,283 +971,82 @@ Assets {
         }
       }
       Objects {
-        Id: 9357770414520682762
-        Name: "Point_Muzzle"
+        Id: 2079261298451108149
+        Name: "Military Tank Historic Hull 01 - Front"
         Transform {
           Location {
-            X: 36.2057953
-            Z: 3.82651234
+            X: -7.26150608
+            Z: 18.1514206
           }
           Rotation {
+            Pitch: 64.698967
+            Yaw: -179.999985
+            Roll: -179.999985
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
+            X: 0.0163727812
+            Y: 0.0118982354
+            Z: 0.0358011089
           }
         }
-        ParentId: 6975025478765937803
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 17692278186562315852
-        Name: "Point_Grip"
-        Transform {
-          Location {
-            X: -2.50000024
-            Z: -1.22783124
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6975025478765937803
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 16232350879365339595
-        Name: "Point_Sights"
-        Transform {
-          Location {
-            X: 12.9123373
-            Z: 10.5596495
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 6975025478765937803
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5463136158632505785
-        Name: "Point_FrontAccessory"
-        Transform {
-          Location {
-            X: 26.9131927
-            Z: -3.32351708
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 6975025478765937803
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 15986292283772882569
-        Name: "Point_BarrelAccessory"
-        Transform {
-          Location {
-            X: 35.1838951
-            Z: 3.56587029
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 6975025478765937803
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12751406549734929236
-        Name: "Slide"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
-          }
-        }
-        ParentId: 6975025478765937803
-        ChildIds: 734293248153685025
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 734293248153685025
-        Name: "MovementGroup"
-        Transform {
-          Location {
-            X: 7.21954298
-            Z: -0.0153459813
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.99999994
-            Y: 0.99999994
-            Z: 0.99999994
-          }
-        }
-        ParentId: 12751406549734929236
-        ChildIds: 17547235661766560986
-        ChildIds: 16143608577814795764
-        ChildIds: 11600362755126284035
-        ChildIds: 1125030176709672271
-        ChildIds: 12498961289000776792
-        ChildIds: 12876621919631123795
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 17547235661766560986
-        Name: "Trigger - Rear"
-        Transform {
-          Location {
-            X: -14.4810505
-            Z: 6.93893528
-          }
-          Rotation {
-            Pitch: 115.300957
-          }
-          Scale {
-            X: 0.0163727794
-            Y: 0.0118982336
-            Z: 0.0358011052
-          }
-        }
-        ParentId: 734293248153685025
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
-              Id: 7283825798727192743
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 1.88456082
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 4.24493313
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
-              A: 1
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail3:color"
+            Color {
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
             }
           }
         }
@@ -1466,7 +1069,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1474,30 +1076,30 @@ Assets {
         }
       }
       Objects {
-        Id: 16143608577814795764
-        Name: "Sci-fi Base Pillar 01"
+        Id: 7092964047481405798
+        Name: "Sci-fi Base Capsule 01 Base"
         Transform {
           Location {
-            X: 25.6456242
-            Z: 6.78017807
+            X: 32.8651695
+            Z: 17.9926643
           }
           Rotation {
-            Pitch: -3.05175781e-05
+            Pitch: -2.73207552e-05
             Yaw: -89.9998169
             Roll: -89.9998779
           }
           Scale {
-            X: 0.0111659868
-            Y: 0.0126984734
-            Z: 0.0410721488
+            X: 0.0111659877
+            Y: 0.0126984743
+            Z: 0.0410721526
           }
         }
-        ParentId: 734293248153685025
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12812544484525035720
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1518,36 +1120,22 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 12812544484525035720
+              Id: 10498479629754026470
             }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.471642
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.54431051
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:color"
             Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
           }
@@ -1560,7 +1148,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1570,7 +1158,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1578,59 +1165,66 @@ Assets {
         }
       }
       Objects {
-        Id: 11600362755126284035
+        Id: 209507436939102201
         Name: "Sci-fi Base Pillar 01"
         Transform {
           Location {
-            X: -14.704504
-            Z: 6.2458806
+            X: -7.48496
+            Z: 17.4583664
           }
           Rotation {
-            Pitch: -3.05175781e-05
+            Pitch: -2.73207552e-05
             Yaw: 90.0002
-            Roll: -89.9998169
+            Roll: -89.9998093
           }
           Scale {
-            X: 0.0504734926
-            Y: 0.037527319
-            Z: 0.0220049657
+            X: 0.0605546869
+            Y: 0.0375273675
+            Z: 0.0220049676
           }
         }
-        ParentId: 734293248153685025
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 9781174597633755215
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:color"
-            Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
-              A: 1
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.258000016
+              G: 0.258000016
+              B: 0.258000016
               A: 1
             }
           }
@@ -1643,7 +1237,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1653,7 +1247,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1661,30 +1254,30 @@ Assets {
         }
       }
       Objects {
-        Id: 1125030176709672271
-        Name: "Sci-fi Base Pillar 01"
+        Id: 13615313884785089992
+        Name: "Sci-fi Base Capsule 01 Base"
         Transform {
           Location {
-            X: 13.3714523
-            Z: 6.78017807
+            X: 20.5909977
+            Z: 17.9926643
           }
           Rotation {
-            Pitch: -3.05175781e-05
+            Pitch: -2.73207552e-05
             Yaw: -89.9998169
             Roll: -89.9998779
           }
           Scale {
-            X: 0.0111659868
-            Y: 0.0126984743
-            Z: 0.0410721526
+            X: 0.0111659877
+            Y: 0.0126984753
+            Z: 0.0410721563
           }
         }
-        ParentId: 734293248153685025
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12812544484525035720
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1713,25 +1306,23 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 6806064550854901916
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
             }
           }
         }
@@ -1743,7 +1334,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1753,7 +1344,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1761,72 +1351,83 @@ Assets {
         }
       }
       Objects {
-        Id: 12498961289000776792
-        Name: "Trigger - Rear"
+        Id: 15795593020298657629
+        Name: "Military Tank Historic Hull 01 - Front"
         Transform {
           Location {
-            X: -15.1535053
-            Z: 7.43990278
+            X: -7.93396091
+            Z: 18.6523895
           }
           Rotation {
-            Pitch: 141.131165
+            Pitch: 38.8688087
+            Yaw: -179.999985
+            Roll: -179.999985
           }
           Scale {
-            X: 0.0163728241
-            Y: 0.00593144959
-            Z: 0.0358011797
+            X: 0.016372826
+            Y: 0.00593145052
+            Z: 0.0358011834
           }
         }
-        ParentId: 734293248153685025
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
+              A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:color"
             Color {
-              R: 0.19600001
-              G: 0.19600001
-              B: 0.19600001
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail3:color"
             Color {
-              R: 0.117000006
-              G: 0.117000006
-              B: 0.117000006
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
               A: 1
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
-              R: 0.185
-              G: 0.185
-              B: 0.185
+              R: 1
+              G: 0.296138167
+              B: 0.0159962773
               A: 1
             }
           }
@@ -1850,7 +1451,6 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1858,227 +1458,12 @@ Assets {
         }
       }
       Objects {
-        Id: 12876621919631123795
-        Name: "Sci-fi Base Pillar 01"
-        Transform {
-          Location {
-            X: 4.41654778
-            Z: 7.25034523
-          }
-          Rotation {
-            Pitch: -3.05175781e-05
-            Yaw: -89.9998169
-            Roll: -89.9998779
-          }
-          Scale {
-            X: 0.0392629504
-            Y: 0.0238837637
-            Z: 0.142799824
-          }
-        }
-        ParentId: 734293248153685025
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 15387941303173424625
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail2:color"
-            Color {
-              R: 0.359375
-              G: 0.291129
-              B: 0.187908
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 3596882112526293926
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.440282613
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.667014122
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7994959470502043095
-        Name: "Modern Weapon - Foregrip 03"
+        Id: 8266146734679475727
+        Name: "Crowbar"
         Transform {
           Location {
             X: 34.8713722
-            Z: -19.3695087
-          }
-          Rotation {
-            Yaw: -90
-            Roll: -51.6538086
-          }
-          Scale {
-            X: 0.352931082
-            Y: 0.537231505
-            Z: 0.301727355
-          }
-        }
-        ParentId: 6975025478765937803
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 3596882112526293926
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7283825798727192743
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 1.97676444
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.110000014
-              G: 0.0458940491
-              A: 1
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6369524675921355830
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2920285886155053517
-        Name: "Modern Weapon - Foregrip 03"
-        Transform {
-          Location {
-            X: 16.7153511
-            Z: -5.74521828
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.129919648
-            Y: 0.28643778
-            Z: 0.129919648
-          }
-        }
-        ParentId: 6975025478765937803
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 3596882112526293926
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7283825798727192743
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.514
-              G: 0.277628
-              B: 0.19532
-              A: 1
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7608987118958824704
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6409642477958158914
-        Name: "Modern Weapon - Foregrip 03"
-        Transform {
-          Location {
-            X: 35.3752403
-            Z: -18.716629
+            Z: -8.1416769
           }
           Rotation {
             Yaw: -90
@@ -2090,7 +1475,7 @@ Assets {
             Z: 0.301727384
           }
         }
-        ParentId: 6975025478765937803
+        ParentId: 8278402827258350098
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -2101,22 +1486,20 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7283825798727192743
+              Id: 10498479629754026470
             }
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 1.97676444
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.110000014
-              G: 0.0458940491
+              G: 0.0640499443
+              B: 0.549
               A: 1
             }
           }
@@ -2129,7 +1512,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2139,7 +1522,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2147,22 +1529,44 @@ Assets {
         }
       }
       Objects {
-        Id: 7472952406650644175
-        Name: "Barrel Accessory"
+        Id: 5883433232770541036
+        Name: "Military Tank Historic Gear 01"
         Transform {
           Location {
-            X: 35.1838951
-            Z: 14.7937031
+            X: 16.7153301
+            Z: 5.48261452
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
-            Z: 1.00000012
+            X: 0.137561858
+            Y: 0.137561858
+            Z: 0.137561858
           }
         }
-        ParentId: 17870296713169527031
+        ParentId: 8278402827258350098
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 3596882112526293926
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2171,29 +1575,93 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14455261130435937098
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 801576831444881185
+        Name: "Crowbar"
+        Transform {
+          Location {
+            X: 35.3752441
+            Z: -7.48879671
+          }
+          Rotation {
+            Pitch: -6.83018879e-06
+            Yaw: -89.9999924
+            Roll: -51.6538773
+          }
+          Scale {
+            X: 0.352931142
+            Y: 0.537231565
+            Z: 0.301727414
+          }
+        }
+        ParentId: 8278402827258350098
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 3596882112526293926
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10498479629754026470
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0640499443
+              B: 0.549
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
-      }
-    }
-    Assets {
-      Id: 6045540826292531006
-      Name: "Modern Weapon - Sight Forward 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_sight_forw_002"
-      }
-    }
-    Assets {
-      Id: 4909850481099204290
-      Name: "Metal Iron Rusted 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_002"
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6369524675921355830
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
       }
     }
     Assets {
@@ -2206,6 +1674,24 @@ Assets {
       }
     }
     Assets {
+      Id: 10498479629754026470
+      Name: "Plastic Shiny"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "plastic_shiny_001"
+      }
+    }
+    Assets {
+      Id: 6045540826292531006
+      Name: "Modern Weapon - Sight Forward 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_sight_forw_002"
+      }
+    }
+    Assets {
       Id: 15552769917126078605
       Name: "Modern Weapon - Grip 04"
       PlatformAssetType: 1
@@ -2215,30 +1701,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3770287877712236950
-      Name: "Metal Painted 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_painted_new_001_uv"
-      }
-    }
-    Assets {
       Id: 3242532795464898345
       Name: "Sci-fi Base Pillar 02 - Base 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
-      }
-    }
-    Assets {
-      Id: 7283825798727192743
-      Name: "Metal Iron Rusted 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
       }
     }
     Assets {
@@ -2314,39 +1782,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12812544484525035720
-      Name: "Metal Diamond Plates 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_rust_diamond-plate_002"
-      }
-    }
-    Assets {
       Id: 3570691589230629264
       Name: "Sci-fi Base Pillar 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_scf_base_pillar_001_ref"
-      }
-    }
-    Assets {
-      Id: 6806064550854901916
-      Name: "Metal Diamond Plates 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_rust_diamond-plate_001"
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
       }
     }
     Assets {
@@ -2359,12 +1800,12 @@ Assets {
       }
     }
     Assets {
-      Id: 7608987118958824704
-      Name: "Sci-fi Gear Large 01"
+      Id: 14455261130435937098
+      Name: "Military Tank Historic Gear 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sf_gen_gear_large_01"
+        AssetId: "sm_mil_tank_hst_gear_001_ref"
       }
     }
     PrimaryAssetId {
