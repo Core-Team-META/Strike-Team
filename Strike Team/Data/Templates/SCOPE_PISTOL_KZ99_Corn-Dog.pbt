@@ -1,6 +1,6 @@
 Assets {
   Id: 18081673793442713652
-  Name: "Corn Dog Pistol_Scope"
+  Name: "SCOPE_PISTOL_KZ99_Corn-Dog"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
