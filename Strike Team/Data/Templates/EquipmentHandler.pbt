@@ -13412,7 +13412,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Description"
-            String: "Bullet spread wiill be reduced."
+            String: "Bullet spread will be reduced."
           }
           Overrides {
             Name: "cs:RotationOffset"
