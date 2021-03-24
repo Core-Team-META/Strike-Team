@@ -1,13 +1,13 @@
 Assets {
   Id: 13667569163543846913
-  Name: "SCOPE_MKS_BLK_Dark-Devout"
+  Name: "SCOPE_SG_BLK_Dark-Devout"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 9652635947286099053
       Objects {
         Id: 9652635947286099053
-        Name: "Default_Shotgun_Scope_Skin6"
+        Name: "SCOPE_MKS_BLK_Dark-Devout"
         Transform {
           Scale {
             X: 1
@@ -566,7 +566,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 7235567560467317478

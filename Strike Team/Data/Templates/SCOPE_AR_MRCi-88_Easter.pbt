@@ -7,7 +7,7 @@ Assets {
       RootId: 4113836494665895535
       Objects {
         Id: 4113836494665895535
-        Name: "Easter HK_Scope"
+        Name: "SCOPE_AR_MRCi-88_Easter"
         Transform {
           Scale {
             X: 1
@@ -129,7 +129,6 @@ Assets {
         Transform {
           Location {
             X: 3.77044678
-            Y: 0.122314453
             Z: 19.2668762
           }
           Rotation {
@@ -148,13 +147,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -216,7 +215,6 @@ Assets {
         Transform {
           Location {
             X: 14.9967041
-            Y: 0.13659668
             Z: 30.0141602
           }
           Rotation {
@@ -307,7 +305,6 @@ Assets {
         Transform {
           Location {
             X: 12.2867432
-            Y: 0.122314453
             Z: 32.6753845
           }
           Rotation {
@@ -389,7 +386,6 @@ Assets {
         Transform {
           Location {
             X: 10.0492554
-            Y: 0.122314453
             Z: 32.6753845
           }
           Rotation {
@@ -414,7 +410,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -471,7 +467,6 @@ Assets {
         Transform {
           Location {
             X: 21.2756348
-            Y: 0.122314453
             Z: 32.6753845
           }
           Rotation {
@@ -553,7 +548,6 @@ Assets {
         Transform {
           Location {
             X: 23.1017456
-            Y: 0.137207031
             Z: 32.6791077
           }
           Rotation {
@@ -635,7 +629,6 @@ Assets {
         Transform {
           Location {
             X: 23.491272
-            Y: 0.122314453
             Z: 32.6771851
           }
           Rotation {
@@ -660,7 +653,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -717,7 +710,6 @@ Assets {
         Transform {
           Location {
             X: 21.2756348
-            Y: 0.122314453
             Z: 32.675354
           }
           Rotation {
@@ -783,7 +775,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1778446291070997431
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {

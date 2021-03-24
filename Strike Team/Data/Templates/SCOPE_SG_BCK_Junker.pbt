@@ -7,7 +7,7 @@ Assets {
       RootId: 6116893951025246308
       Objects {
         Id: 6116893951025246308
-        Name: "Junker Shotgun_Scope"
+        Name: "SCOPE_SG_BCK_Junker"
         Transform {
           Scale {
             X: 1
@@ -38,10 +38,11 @@ Assets {
         Name: "ClientContext"
         Transform {
           Location {
-            X: 37.7492676
-            Z: -27.0726471
+            X: 35.6242294
+            Z: -29.4590454
           }
           Rotation {
+            Pitch: -4.48260498
           }
           Scale {
             X: 1
@@ -117,7 +118,6 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: -7.25073242
           }
           Rotation {
           }
@@ -149,9 +149,6 @@ Assets {
         Name: "Levi Manteo_DefaultSkin"
         Transform {
           Location {
-            X: 23.6671143
-            Y: -0.220458984
-            Z: -1.04100037
           }
           Rotation {
           }
@@ -648,7 +645,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -666,7 +663,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -786,7 +783,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -804,7 +801,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -856,7 +853,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -984,17 +981,19 @@ Assets {
         Name: "Sign Bracket - Round"
         Transform {
           Location {
-            X: -35.9329224
+            X: -36.0435066
             Y: 0.00842285156
-            Z: 6.77670288
+            Z: 8.18729
           }
           Rotation {
-            Pitch: 94.812645
+            Pitch: 85.1872787
+            Yaw: 180
+            Roll: 180
           }
           Scale {
-            X: 0.621960163
-            Y: 0.328678787
-            Z: 0.572679579
+            X: 0.376168668
+            Y: 0.328678757
+            Z: 0.572676122
           }
         }
         ParentId: 6986537884760055608
@@ -1002,7 +1001,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1048,18 +1047,19 @@ Assets {
         Name: "Sign Bracket - Round"
         Transform {
           Location {
-            X: -35.9329224
+            X: -36.0435066
             Y: -0.140258789
-            Z: 6.77670288
+            Z: 8.18729
           }
           Rotation {
-            Pitch: 94.812
-            Roll: 180
+            Pitch: 85.1879349
+            Yaw: 180
+            Roll: 1.3660363e-05
           }
           Scale {
-            X: 0.621960163
-            Y: 0.328678787
-            Z: 0.572679579
+            X: 0.376168668
+            Y: 0.328678757
+            Z: 0.572676122
           }
         }
         ParentId: 6986537884760055608
@@ -1067,7 +1067,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1459,7 +1459,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4909850481099204290
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {

@@ -7,7 +7,7 @@ Assets {
       RootId: 12419459738720732540
       Objects {
         Id: 12419459738720732540
-        Name: "Pistol Scope CyberPunk"
+        Name: "SCOPE_PISTOL_KZ99_Cyberpunk"
         Transform {
           Scale {
             X: 3
@@ -1615,11 +1615,11 @@ Assets {
         Transform {
           Location {
             X: 21.8104553
-            Z: 14.5719452
+            Z: 15.2269058
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: -89.9999313
+            Yaw: -90
+            Roll: -89.999939
           }
           Scale {
             X: 0.0081269322

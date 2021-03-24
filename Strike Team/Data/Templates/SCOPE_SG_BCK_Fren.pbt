@@ -7,7 +7,7 @@ Assets {
       RootId: 12768261365883588466
       Objects {
         Id: 12768261365883588466
-        Name: "Default_Shotgun_Scope_Skin4"
+        Name: "SCOPE_SG_BCK_Fren"
         Transform {
           Scale {
             X: 1
@@ -594,7 +594,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 5941713784129418329

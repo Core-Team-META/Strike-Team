@@ -7,7 +7,7 @@ Assets {
       RootId: 14729944050770581591
       Objects {
         Id: 14729944050770581591
-        Name: "Pistol Scope GraFiXX Skin"
+        Name: "SCOPE_PISTOL_KZ99_GraFiXX"
         Transform {
           Scale {
             X: 3
@@ -472,11 +472,11 @@ Assets {
         Transform {
           Location {
             X: 21.8104248
-            Z: 14.5719452
+            Z: 14.9481268
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: -89.9999313
+            Yaw: -90
+            Roll: -89.999939
           }
           Scale {
             X: 0.0081269322

@@ -7,7 +7,7 @@ Assets {
       RootId: 849745902799685561
       Objects {
         Id: 849745902799685561
-        Name: "Default_Shotgun_Scope_Skin7"
+        Name: "SCOPE_SG_BCK_Steam-Punk"
         Transform {
           Scale {
             X: 1
@@ -609,7 +609,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 2188134202052732472

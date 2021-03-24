@@ -7,7 +7,7 @@ Assets {
       RootId: 2673809910503793402
       Objects {
         Id: 2673809910503793402
-        Name: "Spector 45_CyberPunkSkin"
+        Name: "WSKIN_SEC_PISTOL_KZ99_Cyberpunk"
         Transform {
           Scale {
             X: 1
@@ -1532,11 +1532,11 @@ Assets {
         Transform {
           Location {
             X: 21.8104553
-            Z: 14.5719452
+            Z: 15.3268433
           }
           Rotation {
-            Yaw: -89.9999924
-            Roll: -89.9999313
+            Yaw: -90
+            Roll: -89.999939
           }
           Scale {
             X: 0.0081269322

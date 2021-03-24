@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 13071035348074642709
+    BaseMaterialId: 18354828068684121957
     ParameterOverrides {
       Overrides {
         Name: "vertical fade"
@@ -39,7 +39,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13071035348074642709
+      Id: 18354828068684121957
       Name: "Additive Axis Aligned Soft Edge Z"
       PlatformAssetType: 2
       PrimaryAsset {

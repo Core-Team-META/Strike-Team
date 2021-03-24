@@ -1,13 +1,13 @@
 Assets {
   Id: 15671368750633731029
-  Name: "SCOPE_MKS_BLK_Cyber-Punk"
+  Name: "SCOPE_SG_BLK_Cyber-Punk"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 7159954584154903395
       Objects {
         Id: 7159954584154903395
-        Name: "Default_Shotgun_Scope_CyberPunkSkin"
+        Name: "SCOPE_MKS_BLK_Cyber-Punk"
         Transform {
           Scale {
             X: 1
@@ -576,7 +576,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 7594552530041244872
