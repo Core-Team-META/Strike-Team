@@ -1395,13 +1395,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "SDUtilities"
   }
-  InstanceHistory {
-    SelfId: 11798300948541012873
-    SubobjectId: 12718548997188726446
-    InstanceId: 9594168207497404638
-    TemplateId: 1203951522902028190
-    WasRoot: true
-  }
 }
 Objects {
   Id: 3242084157255297486
