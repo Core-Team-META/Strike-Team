@@ -38,6 +38,12 @@ function ResetFire()
     Firing = false 
 end
 
+function ActivateFire()
+    if WEAPON.clientUserData.SHOOT_ABILITY:GetCurrentPhase() == AbilityPhase.READY then
+        WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+    end
+end
+
 function FireAbility()   
     if(BURST_COUNT >= 0 ) then
         for i=1,BURST_COUNT do
@@ -45,7 +51,7 @@ function FireAbility()
                 ResetFire()
                 return 
             end
-            WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+            ActivateFire()
             Task.Wait(1/WEAPON.shotsPerSecond )
         end
     else
@@ -54,7 +60,7 @@ function FireAbility()
                 ResetFire()
                 return 
             end
-            WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+            ActivateFire()
             FrameDelay = 0
             Task.Wait(1/WEAPON.shotsPerSecond - FrameDelay)
         end

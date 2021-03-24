@@ -387,7 +387,7 @@ end
 
 function Roll(MainWeapon, others)
 	for _, v in pairs(others) do
-		local weapon = v:ForceSpawnEquipment()
+		local weapon = v:SpawnSkin()
 		if not weapon then 
 			weapon = World.SpawnAsset(DefaultSpawn)
 		end
@@ -399,7 +399,7 @@ function Roll(MainWeapon, others)
 			weapon.parent = OtherWeapons
 	end
 
-	local Main = MainWeapon:ForceSpawnEquipment()
+	local Main = MainWeapon:SpawnSkin()
 	if not Main then 
 		Main = World.SpawnAsset(DefaultSpawn)
 	end
