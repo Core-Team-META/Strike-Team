@@ -2225,7 +2225,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:LeaderboardReference"
