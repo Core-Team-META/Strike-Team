@@ -19,7 +19,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Fires an event for the client to display fly up text when hit the enemy player
 function OnPlayerDamaged(player, damage)
     if damage.sourcePlayer then
-        Events.BroadcastToAllPlayers("PlayerDamage_Internal", damage.amount, player, damage.sourcePlayer)
+        Events.BroadcastToAllPlayers("PDmg", damage.amount, player, damage.sourcePlayer)
     end
 end
 
