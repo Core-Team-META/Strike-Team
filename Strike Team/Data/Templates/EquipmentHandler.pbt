@@ -224,6 +224,7 @@ Assets {
         }
         ParentId: 4447638200582142379
         ChildIds: 11681069925855809076
+        ChildIds: 2136086721307223701
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1297,6 +1298,64 @@ Assets {
         Script {
           ScriptAsset {
             Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 2136086721307223701
+        Name: "HLR"
+        Transform {
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9626286238985043611
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 6891319963479194532
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 4468981728458785899
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HL"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "Back"
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 17229161342885666158
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 5000
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
           }
         }
       }
@@ -2395,7 +2454,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 8000
+            Int: 3000
           }
         }
         Collidable_v2 {
@@ -4312,6 +4371,7 @@ Assets {
         }
         ParentId: 4447638200582142379
         ChildIds: 8444259937277452191
+        ChildIds: 17180424648927893776
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4393,7 +4453,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 15000
+            Int: 4000
           }
         }
         Collidable_v2 {
@@ -5305,6 +5365,68 @@ Assets {
         }
       }
       Objects {
+        Id: 17180424648927893776
+        Name: "RailGun"
+        Transform {
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13075212196391470810
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Description"
+            String: "Long ranged weapon. Low ammo count."
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "RG"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "Back"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 11800016107628846849
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18193008955287381545
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 16835747442882308796
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 7000
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
         Id: 3857468657531597669
         Name: "Light Machine Gun"
         Transform {
@@ -5396,7 +5518,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 12500
+            Int: 4000
           }
         }
         Collidable_v2 {
@@ -7498,7 +7620,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 7000
+            Int: 2000
           }
         }
         Collidable_v2 {
@@ -8498,7 +8620,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 16000
+            Int: 5000
           }
         }
         Collidable_v2 {
@@ -11525,7 +11647,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 9000
+            Int: 3000
           }
         }
         Collidable_v2 {
@@ -12886,7 +13008,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 12000
+            Int: 4000
           }
         }
         Collidable_v2 {
@@ -12987,6 +13109,10 @@ Assets {
               Roll: 90
             }
           }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 2500
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -13061,7 +13187,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 5000
+            Int: 3000
           }
         }
         Collidable_v2 {
@@ -13720,6 +13846,10 @@ Assets {
           Overrides {
             Name: "cs:Scale"
             Float: 0.756
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 8000
           }
         }
         Collidable_v2 {
@@ -14429,6 +14559,10 @@ Assets {
             Name: "cs:Scale"
             Float: 1.616
           }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 5000
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -14871,6 +15005,10 @@ Assets {
             Name: "cs:Scale"
             Float: 1.616
           }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 5000
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -15273,6 +15411,10 @@ Assets {
             Name: "cs:Scale"
             Float: 1.616
           }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 5000
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -15586,6 +15728,10 @@ Assets {
           Overrides {
             Name: "cs:Scale"
             Float: 2
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 5000
           }
         }
         Collidable_v2 {
@@ -15945,6 +16091,10 @@ Assets {
             Rotator {
               Roll: 90
             }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 6000
           }
         }
         Collidable_v2 {
