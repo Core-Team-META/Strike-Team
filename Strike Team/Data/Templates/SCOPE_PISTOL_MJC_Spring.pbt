@@ -7,7 +7,7 @@ Assets {
       RootId: 9522267827135021357
       Objects {
         Id: 9522267827135021357
-        Name: "Easter Burst Pistol_Scope"
+        Name: "SCOPE_PISTOL_MJC_Spring"
         Transform {
           Scale {
             X: 1
@@ -83,9 +83,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.0340576
+            X: 43.0341759
             Y: -0.00183105469
-            Z: -16.9017334
+            Z: -17.17
           }
           Rotation {
           }

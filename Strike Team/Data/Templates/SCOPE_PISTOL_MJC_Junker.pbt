@@ -82,8 +82,8 @@ Assets {
         Name: "Geoart"
         Transform {
           Location {
-            X: 43.1016846
-            Z: -17.1274414
+            X: 43.1015587
+            Z: -16.127
           }
           Rotation {
           }

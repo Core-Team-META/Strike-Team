@@ -7,7 +7,7 @@ Assets {
       RootId: 17720454733043110325
       Objects {
         Id: 17720454733043110325
-        Name: "Mustard Burst Pistol_Scope"
+        Name: "SCOPE_PISTOL_MJC_MakinMeHungry"
         Transform {
           Scale {
             X: 1
@@ -83,9 +83,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.0340576
-            Y: -0.00183105469
-            Z: -16.9017334
+            X: 43.0341759
+            Y: -0.148
+            Z: -17.1699982
           }
           Rotation {
           }

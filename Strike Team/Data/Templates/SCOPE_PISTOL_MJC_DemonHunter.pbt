@@ -7,7 +7,7 @@ Assets {
       RootId: 485160575974172566
       Objects {
         Id: 485160575974172566
-        Name: "Burst Pistol Scope Demon"
+        Name: "SCOPE_PISTOL_MJC_DemonHunter"
         Transform {
           Scale {
             X: 1
@@ -100,8 +100,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.5888672
-            Z: -17.2543945
+            X: 43.5888634
+            Z: -17.094
           }
           Rotation {
           }

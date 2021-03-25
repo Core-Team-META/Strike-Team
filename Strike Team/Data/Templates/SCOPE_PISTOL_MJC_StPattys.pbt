@@ -7,7 +7,7 @@ Assets {
       RootId: 13985383202685212276
       Objects {
         Id: 13985383202685212276
-        Name: "St. Patty\'s Burst_Scope"
+        Name: "SCOPE_PISTOL_MJC_StPattys"
         Transform {
           Scale {
             X: 1
@@ -83,9 +83,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.0340576
-            Y: -0.00183105469
-            Z: -16.9017334
+            X: 43.0341759
+            Y: -0.170013428
+            Z: -16.6
           }
           Rotation {
           }

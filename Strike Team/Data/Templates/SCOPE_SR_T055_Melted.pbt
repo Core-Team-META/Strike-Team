@@ -7,7 +7,7 @@ Assets {
       RootId: 7793821824835179044
       Objects {
         Id: 7793821824835179044
-        Name: "Melted_Sniper_Scope"
+        Name: "SCOPE_SR_T055_Melted"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }

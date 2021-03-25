@@ -7,7 +7,7 @@ Assets {
       RootId: 18117628786095770959
       Objects {
         Id: 18117628786095770959
-        Name: "Default_Marksman_Scope_v2"
+        Name: "SCOPE_MKS_BLK_Default"
         Transform {
           Scale {
             X: 1
@@ -89,7 +89,7 @@ Assets {
         Transform {
           Location {
             X: 6.54760742
-            Z: -28.830307
+            Z: -28.806
           }
           Rotation {
           }

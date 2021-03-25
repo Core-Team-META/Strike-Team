@@ -7,7 +7,7 @@ Assets {
       RootId: 7179886263252776151
       Objects {
         Id: 7179886263252776151
-        Name: "Melted Burst Scope"
+        Name: "SCOPE_PISTOL_MJC_Melted"
         Transform {
           Scale {
             X: 1
@@ -83,9 +83,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 41.8227539
-            Y: 0.0540771484
-            Z: -18.2136612
+            X: 41.8222618
+            Y: 0.094
+            Z: -18.4339981
           }
           Rotation {
           }

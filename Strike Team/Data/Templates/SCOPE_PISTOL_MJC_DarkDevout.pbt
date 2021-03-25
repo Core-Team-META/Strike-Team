@@ -7,7 +7,7 @@ Assets {
       RootId: 16722628928102044286
       Objects {
         Id: 16722628928102044286
-        Name: "Skin 6 Burst Scope Template"
+        Name: "SCOPE_PISTOL_MJC_DarkDevout"
         Transform {
           Scale {
             X: 1
@@ -83,8 +83,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.0218506
-            Z: -17.2945328
+            X: 43.0214767
+            Y: 3.81469727e-06
+            Z: -17.15
           }
           Rotation {
           }

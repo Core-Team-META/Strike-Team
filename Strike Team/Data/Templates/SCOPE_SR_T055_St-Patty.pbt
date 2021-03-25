@@ -7,7 +7,7 @@ Assets {
       RootId: 9133326201364501324
       Objects {
         Id: 9133326201364501324
-        Name: "St_ Patty\'s Mamba_Scope"
+        Name: "SCOPE_SR_T055_St-Patty"
         Transform {
           Scale {
             X: 1
@@ -124,7 +124,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }

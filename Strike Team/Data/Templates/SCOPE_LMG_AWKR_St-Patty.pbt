@@ -7,7 +7,7 @@ Assets {
       RootId: 16801634385425881445
       Objects {
         Id: 16801634385425881445
-        Name: "St. Patty\'s Nemo_Scope"
+        Name: "SCOPE_LMG_AWKR_St-Patty"
         Transform {
           Scale {
             X: 1
@@ -87,9 +87,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 39.8742676
-            Y: -0.922851563
-            Z: -26.3302
+            X: 39.8740196
+            Y: -0.977
+            Z: -26.3499985
           }
           Rotation {
           }

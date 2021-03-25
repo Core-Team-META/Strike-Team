@@ -7,7 +7,7 @@ Assets {
       RootId: 13829240619728862203
       Objects {
         Id: 13829240619728862203
-        Name: "Default_Burst_Scope_Skin_9"
+        Name: "SCOPE_PISTOL_MJC_WW2"
         Transform {
           Scale {
             X: 1
@@ -83,8 +83,9 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 43.5402832
-            Z: -14.2865448
+            X: 43.5400352
+            Y: -0.045
+            Z: -13.6999969
           }
           Rotation {
           }

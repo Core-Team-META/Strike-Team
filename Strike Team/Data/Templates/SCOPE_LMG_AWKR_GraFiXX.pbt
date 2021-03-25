@@ -7,7 +7,7 @@ Assets {
       RootId: 10264745854666106364
       Objects {
         Id: 10264745854666106364
-        Name: "Default_LMG_Scope_GraFiXXSkin"
+        Name: "SCOPE_LMG_AWKR_GraFiXX"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 39.8234253
-            Z: -26.0801544
+            Z: -26.23
           }
           Rotation {
           }
