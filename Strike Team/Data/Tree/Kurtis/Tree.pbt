@@ -1486,12 +1486,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Feed Icons"
   }
-  InstanceHistory {
-    SelfId: 5043987132528961649
-    SubobjectId: 15111657338641964622
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
   Id: 13315988494094812095
