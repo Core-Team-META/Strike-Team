@@ -7,7 +7,7 @@ Assets {
       RootId: 15002529827320138304
       Objects {
         Id: 15002529827320138304
-        Name: "Demon SVAA"
+        Name: "WSKIN_PRI_MKS_BLK_Demon-Hunter"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 7798375298825976024
-        Name: "SVAA_Defaultskin"
+        Name: "Geo"
         Transform {
           Location {
           }

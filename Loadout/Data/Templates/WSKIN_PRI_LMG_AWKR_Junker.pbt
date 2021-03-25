@@ -7,7 +7,7 @@ Assets {
       RootId: 8463950746989853163
       Objects {
         Id: 8463950746989853163
-        Name: "Junker Nemo"
+        Name: "WSKIN_PRI_LMG_AWKR_Junker"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 14941866472620666675
-        Name: "Nemo_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
           }

@@ -7,7 +7,7 @@ Assets {
       RootId: 10185861440717840438
       Objects {
         Id: 10185861440717840438
-        Name: "St. Patty\'s SVAA"
+        Name: "WSKIN_PRI_MKS_BLK_St-Patty"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 6937850107780086112
-        Name: "SVAA_Defaultskin"
+        Name: "Geo"
         Transform {
           Location {
           }

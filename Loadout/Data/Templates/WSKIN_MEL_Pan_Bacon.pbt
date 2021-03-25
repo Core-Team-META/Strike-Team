@@ -1,6 +1,6 @@
 Assets {
   Id: 1627333988980896669
-  Name: "WSKIN_MEL_Pan_Bacon"
+  Name: "WSKIN_MEL_PAN_Bacon"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

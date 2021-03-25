@@ -7,7 +7,7 @@ Assets {
       RootId: 16271200167598796618
       Objects {
         Id: 16271200167598796618
-        Name: "Proto Assault Skin 2"
+        Name: "WSKIN_PRI_AR_MRCi-88_Laser"
         Transform {
           Scale {
             X: 1
@@ -15,9 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 11365621536282787003
+        ParentId: 10681546951413339953
         ChildIds: 5973706855052438888
+        ChildIds: 11365621536282787003
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -32,52 +32,8 @@ Assets {
         }
       }
       Objects {
-        Id: 11365621536282787003
-        Name: "WeaponAimScopeClient"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16271200167598796618
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ScopeTemplate"
-            AssetReference {
-              Id: 12693918460160594294
-            }
-          }
-          Overrides {
-            Name: "cs:ClientArt"
-            ObjectReference {
-              SubObjectId: 5973706855052438888
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 13511250510657008800
-          }
-        }
-      }
-      Objects {
         Id: 5973706855052438888
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 20.7704391
@@ -3381,6 +3337,50 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11365621536282787003
+        Name: "WeaponAimScopeClient"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16271200167598796618
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ScopeTemplate"
+            AssetReference {
+              Id: 12693918460160594294
+            }
+          }
+          Overrides {
+            Name: "cs:ClientArt"
+            ObjectReference {
+              SubObjectId: 5973706855052438888
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13511250510657008800
+          }
         }
       }
     }

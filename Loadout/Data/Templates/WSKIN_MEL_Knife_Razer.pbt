@@ -1,6 +1,6 @@
 Assets {
   Id: 10060993073365970392
-  Name: "WSKIN_MEL_Knife_Razer"
+  Name: "WSKIN_MEL_KNIFE_Razer"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

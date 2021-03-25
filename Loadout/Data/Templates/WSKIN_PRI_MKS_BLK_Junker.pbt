@@ -7,7 +7,7 @@ Assets {
       RootId: 8529496789054627636
       Objects {
         Id: 8529496789054627636
-        Name: "SVAA Junker"
+        Name: "WSKIN_PRI_MKS_BLK_Junker"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 16988967230656709986
-        Name: "SVAA_Defaultskin"
+        Name: "Geo"
         Transform {
           Location {
           }

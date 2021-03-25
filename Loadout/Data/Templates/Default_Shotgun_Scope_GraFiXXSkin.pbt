@@ -1,13 +1,13 @@
 Assets {
   Id: 14532044637761726491
-  Name: "Default_Shotgun_Scope_GraFiXXSkin"
+  Name: "SCOPE_SG_BCK_GraFiXX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 7532175546152335187
       Objects {
         Id: 7532175546152335187
-        Name: "Default_Shotgun_Scope_GraFiXXSkin"
+        Name: "SCOPE_SG_BCK_GraFiXX"
         Transform {
           Scale {
             X: 1
@@ -342,7 +342,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 18065199644485906030
@@ -486,7 +486,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13078053896687535652
+            Id: 9787240979878824711
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -7465,7 +7465,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13078053896687535652
+      Id: 9787240979878824711
       Name: "Modern Weapon - Stock 03"
       PlatformAssetType: 1
       PrimaryAsset {

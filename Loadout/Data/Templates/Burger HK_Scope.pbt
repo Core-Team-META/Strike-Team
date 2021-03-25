@@ -1,13 +1,13 @@
 Assets {
   Id: 13110851390067502381
-  Name: "Burger HK_Scope"
+  Name: "SCOPE_AR_MRCi-88_Burger"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 295787242853850901
       Objects {
         Id: 295787242853850901
-        Name: "Burger HK_Scope"
+        Name: "SCOPE_AR_MRCi-88_Burger"
         Transform {
           Scale {
             X: 1
@@ -129,7 +129,6 @@ Assets {
         Transform {
           Location {
             X: 11.6526031
-            Y: 0.127258301
             Z: 32.8057404
           }
           Rotation {
@@ -154,7 +153,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -209,7 +208,6 @@ Assets {
         Transform {
           Location {
             X: 9.41513062
-            Y: 0.127319336
             Z: 32.8057709
           }
           Rotation {
@@ -234,7 +232,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -288,7 +286,6 @@ Assets {
         Transform {
           Location {
             X: 16.245224
-            Y: 0.156982422
             Z: 22.9713593
           }
           Rotation {
@@ -313,7 +310,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -355,7 +352,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14206340078306334922
+            Id: 16859847473235526859
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -374,7 +371,6 @@ Assets {
         Transform {
           Location {
             X: 20.64151
-            Y: 0.127258301
             Z: 32.8057404
           }
           Rotation {
@@ -399,7 +395,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -453,7 +449,6 @@ Assets {
         Transform {
           Location {
             X: 22.4676361
-            Y: 0.142150879
             Z: 32.8094635
           }
           Rotation {
@@ -478,7 +473,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -533,7 +528,6 @@ Assets {
         Transform {
           Location {
             X: 22.626236
-            Y: 0.132263184
             Z: 32.8082733
           }
           Rotation {
@@ -558,7 +552,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -612,7 +606,6 @@ Assets {
         Transform {
           Location {
             X: 3.77044678
-            Y: 0.122314453
             Z: 19.2668762
           }
           Rotation {
@@ -631,13 +624,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -697,7 +690,6 @@ Assets {
         Transform {
           Location {
             X: 21.2756348
-            Y: 0.122314453
             Z: 32.675354
           }
           Rotation {
@@ -772,7 +764,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4270565736417276453
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -790,7 +782,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14206340078306334922
+      Id: 16859847473235526859
       Name: "Barrier Reflector"
       PlatformAssetType: 1
       PrimaryAsset {

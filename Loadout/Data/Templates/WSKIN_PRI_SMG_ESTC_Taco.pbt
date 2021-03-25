@@ -7,7 +7,7 @@ Assets {
       RootId: 11657959985167989249
       Objects {
         Id: 11657959985167989249
-        Name: "Taco SP99"
+        Name: "WSKIN_PRI_SMG_ESTC_Taco"
         Transform {
           Scale {
             X: 1
@@ -35,7 +35,7 @@ Assets {
       }
       Objects {
         Id: 5677588237688473749
-        Name: "SP99_Skin"
+        Name: "Geo"
         Transform {
           Location {
             X: 16.9868679

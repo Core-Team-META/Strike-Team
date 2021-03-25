@@ -1,13 +1,13 @@
 Assets {
   Id: 3282923326708807799
-  Name: "Default_Shotgun_Scope_Skin_9"
+  Name: "SCOPE_SG_BCK_WW2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 13818130717396986594
       Objects {
         Id: 13818130717396986594
-        Name: "Default_Shotgun_Scope_Skin_9"
+        Name: "SCOPE_SG_BCK_WW2"
         Transform {
           Scale {
             X: 1
@@ -224,7 +224,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -358,7 +358,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -483,7 +483,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -777,9 +777,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.1384927
-            Y: 0.612110198
-            Z: 0.388990641
+            X: 0.910794199
+            Y: 0.341270328
+            Z: 0.698201
           }
         }
         ParentId: 3231756406307027258
@@ -1014,7 +1014,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1851,7 +1851,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10134678328629422968
+      Id: 3294723259559680467
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {

@@ -1,13 +1,13 @@
 Assets {
   Id: 2706022327214594580
-  Name: "Default_Pistol_Scope_Skin_9"
+  Name: "SCOPE_PISTOL_KZ99_WW2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 8006547361765612035
       Objects {
         Id: 8006547361765612035
-        Name: "Default_Pistol_Scope_Skin_9"
+        Name: "SCOPE_PISTOL_KZ99_WW2"
         Transform {
           Scale {
             X: 1
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 12369190017609397721
         ChildIds: 13378971785048299380
+        ChildIds: 11599374514891622120
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -29,53 +29,6 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 12369190017609397721
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 8006547361765612035
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 8006547361765612035
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -2
-              Z: 1.5
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16135316138749006068
-          }
         }
       }
       Objects {
@@ -812,7 +765,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6397124427435148503
+            Id: 4191189716791684405
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1021,6 +974,70 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 11599374514891622120
+        Name: "ScopeAnimation"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8006547361765612035
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 8006547361765612035
+            }
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 2
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
+            Vector {
+              X: -10
+            }
+          }
+          Overrides {
+            Name: "cs:Time"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "cs:RecoverTime"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 13378971785048299380
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3786383836679515830
+          }
+        }
+      }
     }
     Assets {
       Id: 13155471131385409602
@@ -1095,7 +1112,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6397124427435148503
+      Id: 4191189716791684405
       Name: "Pipe - Thick"
       PlatformAssetType: 1
       PrimaryAsset {

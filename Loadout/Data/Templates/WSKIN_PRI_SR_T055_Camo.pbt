@@ -7,7 +7,7 @@ Assets {
       RootId: 10676252592432465821
       Objects {
         Id: 10676252592432465821
-        Name: "Proto Sniper Skin 3"
+        Name: "WSKIN_PRI_SR_T055_Camo"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 16628160518652199503
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 22.7393093

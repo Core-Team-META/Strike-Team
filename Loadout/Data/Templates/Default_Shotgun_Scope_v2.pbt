@@ -1,13 +1,13 @@
 Assets {
   Id: 3511442609291253411
-  Name: "Default_Shotgun_Scope_v2"
+  Name: "SCOPE_SG_BCK_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 8383112253350142066
       Objects {
         Id: 8383112253350142066
-        Name: "Default_Shotgun_Scope_v2"
+        Name: "SCOPE_SG_BCK_Default"
         Transform {
           Scale {
             X: 1
@@ -565,7 +565,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 03"
         Transform {
           Location {
-            X: 73.8556671
+            X: 73.8556519
             Z: 22.7446747
           }
           Rotation {
@@ -573,7 +573,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 3709743678815934965

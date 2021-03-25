@@ -7,7 +7,7 @@ Assets {
       RootId: 2269475992922385720
       Objects {
         Id: 2269475992922385720
-        Name: "Proto SMG Skin 7"
+        Name: "WSKIN_PRI_SMG_ESTC_Steam-Punk"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 6188220604248592691
-        Name: "Proto SMG Skin 7"
+        Name: "Geo"
         Transform {
           Location {
           }

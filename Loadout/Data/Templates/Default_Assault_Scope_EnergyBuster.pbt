@@ -1,13 +1,13 @@
 Assets {
   Id: 9590300037225488664
-  Name: "Default_Assault_Scope_EnergyBuster"
+  Name: "SCOPE_AR_MRCi-88_Junker"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 11146779791231873837
       Objects {
         Id: 11146779791231873837
-        Name: "Default_Assault_Scope_EnergyBuster"
+        Name: "SCOPE_AR_MRCi-88_Junker"
         Transform {
           Scale {
             X: 1
@@ -377,7 +377,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -1695,7 +1695,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -1776,7 +1776,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -2180,9 +2180,8 @@ Assets {
         Name: "Reticle"
         Transform {
           Location {
-            X: -23.259882
-            Y: 1.26778905e-05
-            Z: -5.53491
+            X: -23.2598667
+            Z: -5.39999199
           }
           Rotation {
             Yaw: 179.999954
@@ -2510,7 +2509,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3605030238014728915
+      Id: 15501818394444556140
       Name: "Wood Planks"
       PlatformAssetType: 2
       PrimaryAsset {

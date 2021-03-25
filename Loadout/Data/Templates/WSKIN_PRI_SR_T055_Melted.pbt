@@ -7,7 +7,7 @@ Assets {
       RootId: 9987260214892605102
       Objects {
         Id: 9987260214892605102
-        Name: "Mamba_SPR_MeltedSkin"
+        Name: "WSKIN_PRI_SR_T055_Melted"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 4063215033351758357
-        Name: "Mamba_SPR_MeltedSkin"
+        Name: "Geo"
         Transform {
           Location {
             X: -0.414550781

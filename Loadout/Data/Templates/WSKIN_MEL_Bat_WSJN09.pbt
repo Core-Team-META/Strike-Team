@@ -1,6 +1,6 @@
 Assets {
   Id: 5715172478645235563
-  Name: "WSKIN_MEL_Bat_WSJN09"
+  Name: "WSKIN_MEL_BAT_WSJN09"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

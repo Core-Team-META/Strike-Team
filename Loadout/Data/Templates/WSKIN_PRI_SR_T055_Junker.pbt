@@ -7,7 +7,7 @@ Assets {
       RootId: 14866212848200919988
       Objects {
         Id: 14866212848200919988
-        Name: "Junker Mamba"
+        Name: "WSKIN_PRI_SR_T055_Junker"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 6737619840853030800
-        Name: "Mamba_SPR_Default"
+        Name: "Geo"
         Transform {
           Location {
           }

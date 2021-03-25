@@ -1,13 +1,13 @@
 Assets {
   Id: 7560595171574397772
-  Name: "Demon Shotgun_Scope"
+  Name: "SCOPE_SG_BCK_Demon-Hunter"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 2603263352643639739
       Objects {
         Id: 2603263352643639739
-        Name: "Demon Shotgun_Scope"
+        Name: "SCOPE_SG_BCK_Demon-Hunter"
         Transform {
           Scale {
             X: 1
@@ -149,8 +149,7 @@ Assets {
         Name: "Levi Manteo_DefaultSkin"
         Transform {
           Location {
-            X: -1.99667549
-            Y: -0.344482422
+            X: -1.99667358
             Z: -6.73893738
           }
           Rotation {
@@ -827,7 +826,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1425,7 +1424,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1736,7 +1735,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13623297126733972691
+            Id: 8886444384822756582
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1796,7 +1795,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13623297126733972691
+            Id: 8886444384822756582
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1815,8 +1814,8 @@ Assets {
         Name: "Bone Human Spine 01"
         Transform {
           Location {
-            X: 31.6882019
-            Y: -0.0522460938
+            X: 31.6882191
+            Y: -0.0522296615
             Z: 26.1219559
           }
           Rotation {
@@ -1824,9 +1823,9 @@ Assets {
             Roll: 91.1819382
           }
           Scale {
-            X: 0.543654144
-            Y: 0.342422754
-            Z: 0.514066517
+            X: 0.543649435
+            Y: 0.556238472
+            Z: 0.51406759
           }
         }
         ParentId: 16337020517366130422
@@ -1946,7 +1945,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4909850481099204290
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1982,7 +1981,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13623297126733972691
+      Id: 8886444384822756582
       Name: "Bone Human Skull 01"
       PlatformAssetType: 1
       PrimaryAsset {

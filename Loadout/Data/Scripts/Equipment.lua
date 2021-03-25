@@ -31,6 +31,13 @@ function Equipment:ForceSpawnEquipment()
     end
 end
 
+function Equipment:SpawnSkin()
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self:GetEquippedSkin())
+        return self.data.spawnItem
+    end
+end
+
 function Equipment:SpawnEmpty()
     if(self.data.weapon) then
         self.data.spawnItem = World.SpawnAsset(self.data.weapon)

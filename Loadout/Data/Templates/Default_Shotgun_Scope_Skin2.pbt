@@ -1,13 +1,13 @@
 Assets {
   Id: 2911792334354918514
-  Name: "Default_Shotgun_Scope_Skin2"
+  Name: "SCOPE_SG_BCK_Laser"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 10308862901501153117
       Objects {
         Id: 10308862901501153117
-        Name: "Default_Shotgun_Scope_Skin2"
+        Name: "SCOPE_SG_BCK_Laser"
         Transform {
           Scale {
             X: 1
@@ -593,7 +593,7 @@ Assets {
           Scale {
             X: 0.910794199
             Y: 0.341270328
-            Z: 0.552921832
+            Z: 0.698201
           }
         }
         ParentId: 11415013288727900510

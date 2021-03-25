@@ -7,7 +7,7 @@ Assets {
       RootId: 4641848428541715577
       Objects {
         Id: 4641848428541715577
-        Name: "Fish Fillet Nemo"
+        Name: "WSKIN_PRI_LMG_AWKR_Fish-Fillet"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 9524884191532665259
-        Name: "Nemo_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
           }

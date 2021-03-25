@@ -1,13 +1,13 @@
 Assets {
   Id: 2196043246274351966
-  Name: "WSKIN_SEC_Pistol_KZ99_Snow"
+  Name: "WSKIN_SEC_PISTOL_KZ99_Snow"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 3914270577210246819
       Objects {
         Id: 3914270577210246819
-        Name: "Proto Pistol Skin 1"
+        Name: "WSKIN_SEC_PISTOL_KZ99_Snow"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 16038175273190971461
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 10.1513186

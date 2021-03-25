@@ -7,7 +7,7 @@ Assets {
       RootId: 13011211784164279047
       Objects {
         Id: 13011211784164279047
-        Name: "Large Fries Shotgun"
+        Name: "WSKIN_PRI_SG_BCK_Large-Fries"
         Transform {
           Scale {
             X: 1
@@ -33,7 +33,7 @@ Assets {
       }
       Objects {
         Id: 18253904207186205663
-        Name: "Levi Manteo_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
           }

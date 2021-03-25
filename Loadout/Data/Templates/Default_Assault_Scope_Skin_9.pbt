@@ -1,6 +1,6 @@
 Assets {
   Id: 16030874760567633685
-  Name: "Default_Assault_Scope_Skin_9"
+  Name: "SCOPE_AR_MRCi-88_WW2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -1763,7 +1763,7 @@ Assets {
           Overrides {
             Name: "cs:ScopeTemplate"
             AssetReference {
-              Id: 14156451649989931624
+              Id: 841534158063459245
             }
           }
         }
