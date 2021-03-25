@@ -7,7 +7,7 @@ Assets {
       RootId: 5778306307189592430
       Objects {
         Id: 5778306307189592430
-        Name: "Skin 7 Pistol Scope Template"
+        Name: "SCOPE_PISTOL_KZ99_Steampunk"
         Transform {
           Scale {
             X: 1
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3610280080300694182
         ChildIds: 7856138878133854322
+        ChildIds: 10151286695736439949
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -29,53 +29,6 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 3610280080300694182
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 5778306307189592430
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 5778306307189592430
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -2
-              Z: 1.5
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16135316138749006068
-          }
         }
       }
       Objects {
@@ -668,7 +621,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14987793296099989703
+            Id: 14805929512282111496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2693,6 +2646,70 @@ Assets {
           IsGroup: true
         }
       }
+      Objects {
+        Id: 10151286695736439949
+        Name: "ScopeAnimation"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5778306307189592430
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 5778306307189592430
+            }
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 2
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
+            Vector {
+              X: -10
+            }
+          }
+          Overrides {
+            Name: "cs:Time"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "cs:RecoverTime"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 7856138878133854322
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3786383836679515830
+          }
+        }
+      }
     }
     Assets {
       Id: 6045540826292531006
@@ -2749,7 +2766,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14987793296099989703
+      Id: 14805929512282111496
       Name: "Urban Pipe Clamp 02"
       PlatformAssetType: 1
       PrimaryAsset {

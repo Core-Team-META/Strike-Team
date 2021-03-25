@@ -1749,8 +1749,7 @@ Assets {
           Overrides {
             Name: "cs:PositionOffset"
             Vector {
-              X: 1
-              Z: 1
+              X: -10
             }
           }
           Overrides {
@@ -1760,6 +1759,12 @@ Assets {
           Overrides {
             Name: "cs:RecoverTime"
             Float: 0.1
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 1651389270203726772
+            }
           }
         }
         Collidable_v2 {
