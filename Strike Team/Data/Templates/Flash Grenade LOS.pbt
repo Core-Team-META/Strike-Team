@@ -7,7 +7,7 @@ Assets {
       RootId: 4418681977952473803
       Objects {
         Id: 4418681977952473803
-        Name: "Flash Grenade LOS"
+        Name: "EQUIP_UTILITY_FLASH-GRENADE"
         Transform {
           Scale {
             X: 1
@@ -83,7 +83,7 @@ Assets {
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12
-            ProjectileBounces: 1000
+            ProjectileBounces: 2
             ProjectileDrag: 0.12
             DefaultAbility {
               SubObjectId: 1785287684594526394
