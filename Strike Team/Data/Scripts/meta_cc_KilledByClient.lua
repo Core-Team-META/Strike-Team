@@ -72,7 +72,12 @@ local deathCode = {
 function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 
     KILLER_PLAYER_IMAGE:SetImage(killerPlayer)
-    DEATH_REASON.text = deathCode[extraCode]
+    if (extraCode > 0) then
+        DEATH_REASON.text = deathCode[extraCode]
+    else
+        DEATH_REASON.text = "Boom!"
+    end
+    
     KILLER_NAME.text = killerPlayer.name
  
     local sourceObject = nil
