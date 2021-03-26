@@ -84,12 +84,12 @@ Assets {
           Overrides {
             Name: "cs:ReticleTemplate"
             AssetReference {
-              Id: 15515637826283224864
+              Id: 17582487388209634325
             }
           }
           Overrides {
             Name: "cs:HideReticleOnAim"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:AimZoomFOV"
@@ -181,7 +181,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 20000
+            ProjectileSpeed: 18000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -597,7 +597,7 @@ Assets {
           Overrides {
             Name: "cs:ReticleTemplate"
             AssetReference {
-              Id: 15515637826283224864
+              Id: 17582487388209634325
             }
           }
         }

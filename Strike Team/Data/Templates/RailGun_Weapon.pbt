@@ -462,6 +462,7 @@ Assets {
           }
         }
         ParentId: 5633464491628854342
+        ChildIds: 704970427972981742
         ChildIds: 6381540929328117388
         ChildIds: 2888262729725622652
         ChildIds: 15027881354114282473
@@ -489,6 +490,44 @@ Assets {
         }
       }
       Objects {
+        Id: 704970427972981742
+        Name: "ChargeUpSound"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15456911305517113678
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Shoot"
+            ObjectReference {
+              SubObjectId: 15612639122716044461
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14180521636078300890
+          }
+        }
+      }
+      Objects {
         Id: 6381540929328117388
         Name: "WeaponChargeFire"
         Transform {
@@ -508,6 +547,12 @@ Assets {
             Name: "cs:Shoot"
             ObjectReference {
               SubObjectId: 15612639122716044461
+            }
+          }
+          Overrides {
+            Name: "cs:WeaponFireController"
+            ObjectReference {
+              SubObjectId: 13439319657068906618
             }
           }
         }

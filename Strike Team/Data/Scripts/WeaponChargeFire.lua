@@ -3,7 +3,6 @@ if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end 
 local WeaponFireController = script:GetCustomProperty("WeaponFireController"):WaitForObject()
-
 local SHOOT_ABILITY = script:GetCustomProperty("Shoot"):WaitForObject()
 local BoundEvent
 
