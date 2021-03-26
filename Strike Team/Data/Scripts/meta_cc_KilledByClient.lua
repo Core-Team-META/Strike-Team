@@ -23,9 +23,7 @@ function GetDistance(playerFrom, playerTo)
 end
 
 function ResetData(player)
-    print("RESET1")
 	if not Object.IsValid(player) then return end
-    print("RESET2")
 	
     player.clientUserData.KilledBy = {}
     local cleanUpRows = DAMAGER_ROWS:GetChildren()
@@ -34,13 +32,9 @@ function ResetData(player)
             row:Destroy()
         end
     end
-    print("RESET3 - rows gone")
 
     if (MAIN_PANEL:IsVisibleInHierarchy()) then
-        print("RESET4 - panel off")
         MAIN_PANEL.visibility = Visibility.FORCE_OFF
-    else
-        print("RESET5 - panel wasn't visible")
     end
 end
 
@@ -185,18 +179,15 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
             MAIN_PANEL.visibility = Visibility.FORCE_ON
         end
 
-        -- -- If reset timer is already running and player receives damage, cancel and start a new one
-        -- if (killedByTask[killedPlayer.name]:GetStatus() == TaskStatus.RUNNING) then
-        --     killedByTask[killedPlayer.name]:Cancel()
-        -- end
+        -- If reset timer is already running and player receives damage, cancel and start a new one
+        if (killedByTask:GetStatus() == TaskStatus.RUNNING) then
+            killedByTask:Cancel()
+        end
 
-        -- -- Reset killedBy table if x seconds have gone by without taking damage or dying
-        -- killedByTask[killedPlayer.name] = Task.Spawn(function()
-        --     killedPlayer.clientUserData.KilledBy = {}
-        --     if (MAIN_PANEL:IsVisibleInHierarchy()) then
-        --         MAIN_PANEL.visibility = Visibility.FORCE_OFF
-        --     end            
-        -- end, 7)
+        -- Reset killedBy table if x seconds have gone by without taking damage or dying
+        killedByTask = Task.Spawn(function()
+         ResetData(killedPlayer)
+        end, 7)
 
     end
 end
@@ -256,4 +247,3 @@ end
 Events.Connect("PDmg", OnDamaged)
 Events.Connect("PlayerKilled", ShowKilledByScreen)
 
-LOCAL_PLAYER.respawnedEvent:Connect(ResetData)
