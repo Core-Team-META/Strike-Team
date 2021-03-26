@@ -413,11 +413,6 @@ function MarkNemesis()
 
 	end
 	
-<<<<<<< HEAD
-=======
-	SetChildrenText(nemesisOfStatText, "CRUSHED")
-					
->>>>>>> e4c98b0f (Updated tournament UI)
 	if yourKillCountAsNemesis <= 3 then
 				
 		SetChildrenText(nemesisOfStatText, "CRUSHED")
