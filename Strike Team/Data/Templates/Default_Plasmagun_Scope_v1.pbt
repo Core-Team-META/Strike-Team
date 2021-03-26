@@ -97,8 +97,6 @@ Assets {
           }
         }
         ParentId: 1447812853413598403
-        ChildIds: 10163475213404097632
-        ChildIds: 729133055905479798
         ChildIds: 7538465392275141470
         UnregisteredParameters {
         }
@@ -113,132 +111,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10163475213404097632
-        Name: "Modern Weapon - Scope 01"
-        Transform {
-          Location {
-            X: 30
-            Z: 32.7139511
-          }
-          Rotation {
-            Pitch: 135
-            Yaw: -90
-            Roll: -90
-          }
-          Scale {
-            X: 0.009
-            Y: 0.009
-            Z: 0.001
-          }
-        }
-        ParentId: 5660025774556643593
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17592276739556605565
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9176145884981181688
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 729133055905479798
-        Name: "Modern Weapon - Scope 01"
-        Transform {
-          Location {
-            X: 30
-            Z: 32.7139511
-          }
-          Rotation {
-            Pitch: -44.25
-            Yaw: 90
-            Roll: 90
-          }
-          Scale {
-            X: 0.009
-            Y: 0.009
-            Z: 0.001
-          }
-        }
-        ParentId: 5660025774556643593
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17592276739556605565
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9176145884981181688
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-          }
         }
       }
       Objects {
@@ -2340,24 +2212,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 9176145884981181688
-      Name: "Pipe - Half Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_half-pipe_002"
-      }
-    }
-    Assets {
-      Id: 17592276739556605565
-      Name: "Asphalt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
       }
     }
     Assets {

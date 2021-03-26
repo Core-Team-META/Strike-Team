@@ -1,13 +1,13 @@
 Assets {
-  Id: 3405705387746121216
-  Name: "RailGunReticle"
+  Id: 17582487388209634325
+  Name: "HighLatencyRifleReticle"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1904853378642201972
+      RootId: 4178043068597518759
       Objects {
-        Id: 1904853378642201972
-        Name: "RailGunReticle"
+        Id: 4178043068597518759
+        Name: "HighLatencyRifleReticle"
         Transform {
           Scale {
             X: 1
@@ -16,17 +16,17 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16689747196534207559
-        ChildIds: 7992142024289210452
-        ChildIds: 10713191326253276213
-        ChildIds: 13709900616969155860
-        ChildIds: 15837877259231228174
+        ChildIds: 11981603510326107858
+        ChildIds: 18421305049154517603
+        ChildIds: 16584207527855593200
         UnregisteredParameters {
           Overrides {
-            Name: "cs:RailGunBuildupReticle"
-            ObjectReference {
-              SubObjectId: 16689747196534207559
-            }
+            Name: "cs:ExtraRadius"
+            Float: 15
+          }
+          Overrides {
+            Name: "cs:StartAngle"
+            Float: 0
           }
         }
         WantsNetworking: true
@@ -62,8 +62,8 @@ Assets {
         }
       }
       Objects {
-        Id: 16689747196534207559
-        Name: "RailGunBuildupReticle"
+        Id: 11981603510326107858
+        Name: "WeaponReticleUIClient"
         Transform {
           Location {
           }
@@ -75,30 +75,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1904853378642201972
+        ParentId: 4178043068597518759
         UnregisteredParameters {
           Overrides {
-            Name: "cs:OutterRing"
+            Name: "cs:ComponentRoot"
             ObjectReference {
-              SubObjectId: 13709900616969155860
+              SubObjectId: 4178043068597518759
             }
           }
           Overrides {
-            Name: "cs:innerRing"
+            Name: "cs:SegmentsRoot"
             ObjectReference {
-              SubObjectId: 10713191326253276213
-            }
-          }
-          Overrides {
-            Name: "cs:OutterPanel"
-            ObjectReference {
-              SubObjectId: 15837877259231228174
-            }
-          }
-          Overrides {
-            Name: "cs:InnerPanel"
-            ObjectReference {
-              SubObjectId: 12946980361670180038
+              SubObjectId: 16584207527855593200
             }
           }
         }
@@ -114,13 +102,13 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 6475545150446603898
+            Id: 10139659402558168400
           }
         }
       }
       Objects {
-        Id: 7992142024289210452
-        Name: "Center"
+        Id: 18421305049154517603
+        Name: "Segment"
         Transform {
           Location {
           }
@@ -132,7 +120,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1904853378642201972
+        ParentId: 4178043068597518759
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -146,8 +134,8 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 4
-          Height: 4
+          Width: 5
+          Height: 5
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -155,13 +143,13 @@ Assets {
           }
           Image {
             Brush {
-              Id: 17586365689296088662
+              Id: 7049270386928608003
             }
             Color {
-              R: 0.749
-              G: 0.749
-              B: 0.749
-              A: 0.739
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -179,8 +167,8 @@ Assets {
         }
       }
       Objects {
-        Id: 10713191326253276213
-        Name: "innerRing"
+        Id: 16584207527855593200
+        Name: "Segments"
         Transform {
           Location {
           }
@@ -192,7 +180,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1904853378642201972
+        ParentId: 4178043068597518759
+        ChildIds: 16776618377191326639
+        ChildIds: 4510612101487340186
+        ChildIds: 14128028853137961830
+        ChildIds: 4001950371211810741
+        ChildIds: 13022746623236398732
+        ChildIds: 15145325715479973451
+        ChildIds: 8978442345684718221
+        ChildIds: 14326183446671223157
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -203,9 +201,40 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
+        Folder {
+          IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 16776618377191326639
+        Name: "Invinsible Segment"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Control {
-          Width: 40
-          Height: 40
+          Width: 20
+          Height: 20
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -213,15 +242,13 @@ Assets {
           }
           Image {
             Brush {
-              Id: 5147564383035754332
+              Id: 8774739198122657390
             }
             Color {
-              R: 0.749
-              G: 0.749
-              B: 0.749
-              A: 0.739
-            }
-            TeamSettings {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -239,12 +266,13 @@ Assets {
         }
       }
       Objects {
-        Id: 13709900616969155860
-        Name: "BackGround"
+        Id: 4510612101487340186
+        Name: "Segment"
         Transform {
           Location {
           }
           Rotation {
+            Yaw: -3.41509417e-06
           }
           Scale {
             X: 1
@@ -252,7 +280,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1904853378642201972
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -264,10 +294,8 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 100
-          Height: 100
-          UIY: 10
-          RotationAngle: 90
+          Width: 20
+          Height: 20
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -275,15 +303,13 @@ Assets {
           }
           Image {
             Brush {
-              Id: 18079781300913430849
+              Id: 8774739198122657390
             }
             Color {
-              R: 0.749
-              G: 0.749
-              B: 0.749
-              A: 0.488000035
-            }
-            TeamSettings {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -301,16 +327,13 @@ Assets {
         }
       }
       Objects {
-        Id: 15837877259231228174
-        Name: "UI Panel"
+        Id: 14128028853137961830
+        Name: "Invinsible Segment"
         Transform {
           Location {
-            X: 2471.49048
-            Y: 13105.8525
-            Z: 2605.95605
           }
           Rotation {
-            Yaw: 64.755722
+            Yaw: -3.41509417e-06
           }
           Scale {
             X: 1
@@ -318,130 +341,22 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1904853378642201972
-        ChildIds: 12946980361670180038
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 100
-          Height: 100
-          UIY: 100
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Panel {
-            IsClipping: true
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12946980361670180038
-        Name: "UI Panel"
-        Transform {
-          Location {
-            X: 2471.49048
-            Y: 13105.8525
-            Z: 2605.95605
-          }
-          Rotation {
-            Yaw: 64.7557602
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15837877259231228174
-        ChildIds: 4215645111733770411
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 100
-          Height: 100
-          UIY: -100
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Panel {
-            IsClipping: true
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4215645111733770411
-        Name: "Front"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12946980361670180038
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 100
-          Height: 100
-          UIY: 10
-          RotationAngle: 90
+          Width: 20
+          Height: 20
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -449,15 +364,313 @@ Assets {
           }
           Image {
             Brush {
-              Id: 18079781300913430849
+              Id: 8774739198122657390
             }
             Color {
-              R: 2
-              G: 2
-              B: 2
-              A: 0.537
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
             }
-            TeamSettings {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4001950371211810741
+        Name: "Segment"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 20
+          Height: 20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 8774739198122657390
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13022746623236398732
+        Name: "Invinsible Segment"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 20
+          Height: 20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 8774739198122657390
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15145325715479973451
+        Name: "Segment"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 20
+          Height: 20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 8774739198122657390
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8978442345684718221
+        Name: "Invinsible Segment"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 20
+          Height: 20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 8774739198122657390
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14326183446671223157
+        Name: "Segment"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16584207527855593200
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 20
+          Height: 20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 8774739198122657390
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -476,30 +689,21 @@ Assets {
       }
     }
     Assets {
-      Id: 17586365689296088662
-      Name: "BG Gradient 001"
+      Id: 7049270386928608003
+      Name: "BG Flat 006"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundFlat_020"
+        AssetId: "BackgroundNoOutline_015"
       }
     }
     Assets {
-      Id: 5147564383035754332
-      Name: "Frame Hex 002"
+      Id: 8774739198122657390
+      Name: "Frame Ring 026 Wedge"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "FrameHex_002"
-      }
-    }
-    Assets {
-      Id: 18079781300913430849
-      Name: "Fantasy Shape 005"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Shape_005"
+        AssetId: "FrameRing_026Wedge"
       }
     }
     PrimaryAssetId {
