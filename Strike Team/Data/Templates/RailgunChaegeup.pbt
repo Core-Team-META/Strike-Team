@@ -1,13 +1,13 @@
 Assets {
-  Id: 12741789090147671218
-  Name: "Railgun out of ammo"
+  Id: 8381445094077682076
+  Name: "RailgunChaegeup"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16533694169174241963
+      RootId: 17481144147770776097
       Objects {
-        Id: 16533694169174241963
-        Name: "Railgun out of ammo"
+        Id: 17481144147770776097
+        Name: "Industrial Room Tone Loop 01 SFX"
         Transform {
           Scale {
             X: 1
@@ -16,7 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        Lifespan: 0.6
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -28,9 +27,10 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 126661419305389362
+            Id: 8315733232829171540
           }
           AutoPlay: true
+          Pitch: -472.133423
           Volume: 1
           Falloff: -1
           Radius: -1
@@ -41,12 +41,12 @@ Assets {
       }
     }
     Assets {
-      Id: 126661419305389362
-      Name: "Small Metal Object Impact Hit 01 SFX"
+      Id: 8315733232829171540
+      Name: "Magic Dark Beam Energy Loop 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_small_metal_object_impact_hit_01a_Cue_ref"
+        AssetId: "sfx_magic_dark_beam_energy_loop_01_Cue_ref"
       }
     }
     PrimaryAssetId {

@@ -10,6 +10,10 @@ Assets {
           Id: 841534158063459245
         }
       }
+      Overrides {
+        Name: "cs:TotalCount"
+        Int: 3
+      }
     }
   }
   SerializationVersion: 78
