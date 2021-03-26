@@ -24,7 +24,10 @@ end
 
 function ResetData(player)
 	if not Object.IsValid(player) then return end
-	
+
+    EaseUI.EaseX(MAIN_PANEL, 720, 0.5, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+    
+    
     player.clientUserData.KilledBy = {}
     local cleanUpRows = DAMAGER_ROWS:GetChildren()
     if (#cleanUpRows > 0) then
@@ -33,6 +36,7 @@ function ResetData(player)
         end
     end
 
+    Task.Wait(0.5)
     if (MAIN_PANEL:IsVisibleInHierarchy()) then
         MAIN_PANEL.visibility = Visibility.FORCE_OFF
     end
@@ -48,7 +52,7 @@ local deathCode = {
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 LOCAL_PLAYER.clientUserData.KilledBy = {}
 
-local killedByTask = {}
+local killedByTask = nil
 function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 
     -- ignore anything not releated to local player
@@ -179,8 +183,12 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
             MAIN_PANEL.visibility = Visibility.FORCE_ON
         end
 
+
+        EaseUI.EaseX(MAIN_PANEL, 0, 0.5, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
+ 
+
         -- If reset timer is already running and player receives damage, cancel and start a new one
-        if (killedByTask:GetStatus() == TaskStatus.RUNNING) then
+        if (killedByTask and killedByTask:GetStatus() == TaskStatus.RUNNING) then
             killedByTask:Cancel()
         end
 
@@ -192,10 +200,15 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
     end
 end
 
+local damageResetTask = nil
 function OnDamaged(damageAmount, player, sourcePlayer, weapon)
 
     -- ignore anything not releated to local player
     if (player ~= LOCAL_PLAYER) then return end
+    if (player.hitPoints == player.maxHitPoints) then
+        -- if player has healed all the way back to full HP, then reset damage tracking
+        player.clientUserData.KilledBy = {}
+    end
     
     if Object.IsValid(sourcePlayer) and damageAmount ~= 0 then
    
@@ -236,11 +249,6 @@ function OnDamaged(damageAmount, player, sourcePlayer, weapon)
 end
 
 function Tick(deltaTime)
-
-    -- if (LOCAL_PLAYER.hitPoints == LOCAL_PLAYER.maxHitPoints) then
-    --     ResetData(LOCAL_PLAYER)
-    -- end
-
 end
 
 -- Initialize
