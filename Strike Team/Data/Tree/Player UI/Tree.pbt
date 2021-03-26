@@ -2311,7 +2311,7 @@ Objects {
   Control {
     Width: 48
     Height: 48
-    UIX: -101.603119
+    UIX: -65.2929153
     UIY: -328.061432
     RenderTransformPivot {
       Anchor {
@@ -2373,7 +2373,7 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "GUNS N\' GLORY TOURNAMENT STANDINGS"
+      Label: "LEADERBOARDS"
       Color {
         R: 1
         G: 1

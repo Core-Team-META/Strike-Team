@@ -881,7 +881,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR NEMESIS"
+            Label: "NEMESIS"
             Color {
               R: 0.026041666
               G: 0.0083350325
@@ -946,7 +946,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR NEMESIS"
+            Label: "NEMESIS"
             Color {
               R: 0.026041666
               G: 0.0083350325
@@ -1011,7 +1011,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR NEMESIS"
+            Label: "NEMESIS"
             Color {
               R: 0.026041666
               G: 0.0083350325
@@ -1076,7 +1076,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR NEMESIS"
+            Label: "NEMESIS"
             Color {
               R: 0.026041666
               G: 0.0083350325
@@ -1139,7 +1139,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOUR NEMESIS"
+            Label: "NEMESIS"
             Color {
               R: 0.871367335
               G: 0.278894424
@@ -1745,7 +1745,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU CRUSHED"
+            Label: "CURSHED"
             Color {
               G: 0.0670291409
               B: 0.0833333358
@@ -1808,7 +1808,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU CRUSHED"
+            Label: "CRUSHED"
             Color {
               G: 0.0670291409
               B: 0.0833333358
@@ -1871,7 +1871,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU CRUSHED"
+            Label: "CRUSHED"
             Color {
               G: 0.0670291409
               B: 0.0833333358
@@ -1935,7 +1935,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU CRUSHED"
+            Label: "CRUSHED"
             Color {
               G: 0.0670291409
               B: 0.0833333358
@@ -1999,7 +1999,7 @@ Assets {
             }
           }
           Text {
-            Label: "YOU CRUSHED"
+            Label: "CRUSHED"
             Color {
               G: 0.960000038
               B: 0.654834628
