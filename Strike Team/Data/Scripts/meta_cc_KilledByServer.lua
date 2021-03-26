@@ -96,9 +96,6 @@ function ShowKilledBy(player, damage)
 
 end
 
-
-
-
 --[[
         -- If reset timer is already running and player receives damage, cancel and start a new one
         if (killedByTask[player.name]:GetStatus() == TaskStatus.RUNNING) then

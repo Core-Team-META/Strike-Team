@@ -25,6 +25,7 @@ end
 function ResetData(player)
 	if not Object.IsValid(player) then return end
 	
+    print(player.name .. " - should be resetting")
     player.clientUserData.KilledBy = {}
     local cleanUpRows = DAMAGER_ROWS:GetChildren()
     if (#cleanUpRows > 0) then
@@ -32,9 +33,15 @@ function ResetData(player)
             row:Destroy()
         end
     end
+    print(player.name .. " - rows should be gone")
 
     if (MAIN_PANEL:IsVisibleInHierarchy()) then
+        print(player.name .. " - panel should be off now")
+
         MAIN_PANEL.visibility = Visibility.FORCE_OFF
+    else
+        print(player.name .. " - panel not visible")
+
     end
 end
 
@@ -48,7 +55,7 @@ local deathCode = {
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 LOCAL_PLAYER.clientUserData.KilledBy = {}
 
-
+local killedBy = nil
 function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCode)
 
     -- ignore anything not releated to local player
@@ -178,6 +185,19 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
         if (not MAIN_PANEL:IsVisibleInHierarchy()) then
             MAIN_PANEL.visibility = Visibility.FORCE_ON
         end
+
+        -- If reset timer is already running and player receives damage, cancel and start a new one
+        if (killedByTask[player.name]:GetStatus() == TaskStatus.RUNNING) then
+            killedByTask[player.name]:Cancel()
+        end
+
+        -- Reset killedBy table if x seconds have gone by without taking damage or dying
+        killedByTask[player.name] = Task.Spawn(function()
+            player.clientUserData.KilledBy = {}
+            if (MAIN_PANEL:IsVisibleInHierarchy()) then
+                MAIN_PANEL.visibility = Visibility.FORCE_OFF
+            end            
+        end, 7)
 
     end
 end
