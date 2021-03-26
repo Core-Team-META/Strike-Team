@@ -1457,6 +1457,23 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 16201183298445873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 777066251803753357
       value {
         Overrides {
@@ -1472,6 +1489,108 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1448898992099340375
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2807744746534346922
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6688808145073517127
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7987575143605262003
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8600314252840915190
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14524186626704711202
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tiger Strike"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Epic"
         }
       }
     }

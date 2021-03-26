@@ -1,6 +1,6 @@
 Assets {
   Id: 12817388927583376118
-  Name: "Default_Assault_Scope_GraFiXXSkin"
+  Name: "SCOPE_AR_MRCi-88_GraFiXX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
