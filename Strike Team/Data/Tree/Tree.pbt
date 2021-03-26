@@ -2053,7 +2053,7 @@ Objects {
 }
 Objects {
   Id: 13023898239296000475
-  Name: "GamemodeExplination"
+  Name: "GamemodeExplanation"
   Transform {
     Location {
     }

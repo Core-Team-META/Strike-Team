@@ -58,9 +58,10 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
     -- ignore anything not releated to local player
      if (killedPlayer ~= LOCAL_PLAYER) then return end
 
+     print(killedPlayer.name)
     -- Grab player titles
     local playerTitle = PlayerTitles.GetPlayerTitle(killerPlayer)
-
+    _G.META_GAME_MODES.TablePrint(playerTitle)
     --Set Killer player image, and social image if applicable
     KILLER_PLAYER_IMAGE:SetImage(killerPlayer)
     KILLER_PLAYER_SOCIAL:SetImage(playerTitle.icon)

@@ -1,6 +1,6 @@
 Assets {
   Id: 17430684817498432525
-  Name: "GamemodeExplination"
+  Name: "GamemodeExplanation"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
