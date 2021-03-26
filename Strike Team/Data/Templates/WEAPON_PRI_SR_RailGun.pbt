@@ -1,13 +1,13 @@
 Assets {
   Id: 11800016107628846849
-  Name: "RailGun_Weapon"
+  Name: "WEAPON_PRI_SR_RailGun"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 5633464491628854342
       Objects {
         Id: 5633464491628854342
-        Name: "RailGun_Weapon"
+        Name: "WEAPON_PRI_SR_RailGun"
         Transform {
           Scale {
             X: 0.99999994
@@ -144,7 +144,7 @@ Assets {
               Id: 7762529374219666319
             }
             TrailAssetRef {
-              Id: 9645319328156205427
+              Id: 11671962466991922228
             }
             ImpactAssetRef {
               Id: 13960277523134132513

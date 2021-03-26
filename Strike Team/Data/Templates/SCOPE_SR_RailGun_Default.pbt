@@ -1,6 +1,6 @@
 Assets {
   Id: 4615290667474463856
-  Name: "Default_Railgun_Scope_v1"
+  Name: "SCOPE_SR_RailGun_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

@@ -1,6 +1,6 @@
 Assets {
   Id: 3190559965475228458
-  Name: "Default_Plasmagun_Scope_v1"
+  Name: "SCOPE_AR_HLR_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

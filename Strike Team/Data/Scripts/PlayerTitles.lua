@@ -437,7 +437,6 @@ end
 --	table GetPlayerTitle(Player)
 --	Gets a title for a specific player
 function Module.GetPlayerTitle(player)
-	print("made it here")
 	local title = Module.GetPlayerTitleByMUID(player)
 	if(not title) then
 		title = Module.GetPlayerTitleByName(player)

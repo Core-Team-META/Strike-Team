@@ -1,6 +1,6 @@
 Assets {
   Id: 17856652879371526845
-  Name: "HLR"
+  Name: "WEAPON_PRI_AR_HLR"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

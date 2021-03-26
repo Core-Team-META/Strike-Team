@@ -1218,7 +1218,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3371,7 +3371,6 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "Death BY"
       Color {
         R: 1
         G: 1
@@ -3491,7 +3490,6 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "Weapon Name"
       Color {
         A: 1
       }
@@ -3614,7 +3612,6 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "PlayerName"
       Color {
         R: 1
         G: 1
@@ -3681,7 +3678,6 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "Manticore"
       Color {
         R: 1
         G: 1

@@ -29,6 +29,9 @@ function ResetData(player)
     
     
     player.clientUserData.KilledBy = {}
+
+    Task.Wait(0.5)
+
     local cleanUpRows = DAMAGER_ROWS:GetChildren()
     if (#cleanUpRows > 0) then
         for _, row in ipairs(cleanUpRows) do
@@ -36,18 +39,52 @@ function ResetData(player)
         end
     end
 
-    Task.Wait(0.5)
     if (MAIN_PANEL:IsVisibleInHierarchy()) then
         MAIN_PANEL.visibility = Visibility.FORCE_OFF
     end
 end
 
-local deathCode = {
-    "Eliminated by headshot",
-    "Fell to their death",
-    "Blew themselves up"
+local fallingDeath = {
+    "Fell to your death",
+    "Slipped and fell",
+    "Tried to parkour and failed",
 }
 
+local headShotDeath = {
+    "You took one to the brain pan",
+    "Used your head for target practice",
+    "Eliminated by headshot",
+}
+
+local suicideDeath = {
+    "You are supposed to throw those",
+    "Great job, you killed yourself :)",
+    "What do you mean 'whoops'?",
+    "That's not how that works",
+    "You blew yourself up"
+}
+
+local gotJacked = {
+    "You zigged when you should have zagged",
+    "Time to get revenge",
+    "Ouch, that looked like it hurt",
+    "Now you know and knowing is half the battle",
+    "You might want to try another weapon"
+}
+
+function GetDeathText(code)
+    if (code > 0) then
+        local deathCode = {
+            headShotDeath[math.random(1, #headShotDeath)],
+            fallingDeath[math.random(1, #fallingDeath)],
+            suicideDeath[math.random(1, #suicideDeath)]
+        }
+
+        return deathCode[code]
+    else
+        return gotJacked[math.random(1, #gotJacked)]
+    end
+end
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 LOCAL_PLAYER.clientUserData.KilledBy = {}
@@ -58,29 +95,35 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
     -- ignore anything not releated to local player
      if (killedPlayer ~= LOCAL_PLAYER) then return end
 
-     print(killedPlayer.name)
+
     -- Grab player titles
     local playerTitle = PlayerTitles.GetPlayerTitle(killerPlayer)
-    _G.META_GAME_MODES.TablePrint(playerTitle)
+
     --Set Killer player image, and social image if applicable
     KILLER_PLAYER_IMAGE:SetImage(killerPlayer)
-    KILLER_PLAYER_SOCIAL:SetImage(playerTitle.icon)
-    KILLER_PLAYER_SOCIAL:SetColor(playerTitle.iconColor)
+
+    if (playerTitle) then
+        KILLER_PLAYER_SOCIAL:SetImage(playerTitle.icon)
+        KILLER_PLAYER_SOCIAL:SetColor(playerTitle.iconColor)
+    else
+        KILLER_PLAYER_SOCIAL:SetImage("")
+    end
 
     -- TEMP, if extraCode = 0 (normal weapon)
-    if (extraCode > 0) then
-        DEATH_REASON.text = deathCode[extraCode]
-    else
-        DEATH_REASON.text = "Weapon"
-    end
+    DEATH_REASON.text = GetDeathText(extraCode)
 
     -- Set Killer name and player title prefix
     KILLER_NAME.text = killerPlayer.name
-    KILLER_TITLE.text = playerTitle.prefix
 
-    -- Set prefix name color
-    if (playerTitle.prefixColor) then
-        KILLER_TITLE:SetColor(playerTitle.prefixColor)
+    if (playerTitle) then
+        KILLER_TITLE.text = playerTitle.prefix
+
+        -- Set prefix name color
+        if (playerTitle.prefixColor) then
+            KILLER_TITLE:SetColor(playerTitle.prefixColor)
+        end
+    else
+        KILLER_TITLE.text = ""
     end
 
 
@@ -140,8 +183,13 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
 
         -- Set player title icon and icon color
         local playerTitle = PlayerTitles.GetPlayerTitle(damageTable.damager)
-        socialIcon:SetImage(playerTitle.icon)
-        socialIcon:SetColor(playerTitle.iconColor)
+
+        if (playerTitle) then
+            socialIcon:SetImage(playerTitle.icon)
+            socialIcon:SetColor(playerTitle.iconColor)
+        else
+            socialIcon:SetImage("")
+        end
 
         
         -- _G.META_GAME_MODES.TablePrint(playerTitle)
@@ -150,7 +198,7 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
         damagerName.text = damageTable.damager.name
 
         -- Set player title color
-        if (playerTitle.prefixColor) then
+        if (playerTitle and playerTitle.prefixColor) then
             damagerName:SetColor(playerTitle.prefixColor)
         end
 

@@ -30,6 +30,10 @@ end
 
 function GetSlot(player,slot)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
+
+    -- customize loadout for testing local, set desired weapons in SetUp() above
+    -- Data = FullSetup(player)
+
     if(not Data["Loadouts"]) then Data = FullSetup(player) end
     return Data["Loadouts"][tostring(slot)]
 end
