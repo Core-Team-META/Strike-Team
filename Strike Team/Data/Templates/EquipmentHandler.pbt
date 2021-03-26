@@ -276,6 +276,7 @@ Assets {
         ChildIds: 17377284886689947005
         ChildIds: 1766782966093182782
         ChildIds: 591544359013713613
+        ChildIds: 8600314252840915190
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1353,6 +1354,55 @@ Assets {
         }
       }
       Objects {
+        Id: 8600314252840915190
+        Name: "TigerStrike_Assault_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -100
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 9983154513128525002
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2136086721307223701
         Name: "HLR"
         Transform {
@@ -1475,6 +1525,7 @@ Assets {
         ChildIds: 8493218010441552243
         ChildIds: 610984042418451126
         ChildIds: 12929855613603820741
+        ChildIds: 1448898992099340375
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -2464,6 +2515,55 @@ Assets {
         }
       }
       Objects {
+        Id: 1448898992099340375
+        Name: "TigerStrike_SMG_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 15719565332592257820
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -2528,6 +2628,7 @@ Assets {
         ChildIds: 2711103873005186397
         ChildIds: 14424382974968768589
         ChildIds: 7558541208204905782
+        ChildIds: 16201183298445873
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -3515,6 +3616,55 @@ Assets {
         }
       }
       Objects {
+        Id: 16201183298445873
+        Name: "TigerStrike_Shotgun_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 12509547690189984482
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksman Rifle"
         Transform {
@@ -3579,6 +3729,7 @@ Assets {
         ChildIds: 17006817971006769556
         ChildIds: 14277925987559253521
         ChildIds: 13456731546943212770
+        ChildIds: 14524186626704711202
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -4560,6 +4711,55 @@ Assets {
         }
       }
       Objects {
+        Id: 14524186626704711202
+        Name: "TigerStrike_Marksman_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -200
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 35426242575912700
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -4625,6 +4825,7 @@ Assets {
         ChildIds: 3261521614590439168
         ChildIds: 1502303244234143583
         ChildIds: 13040720441297012128
+        ChildIds: 2807744746534346922
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -5620,6 +5821,55 @@ Assets {
         }
       }
       Objects {
+        Id: 2807744746534346922
+        Name: "TigerStrike_Sniper_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 11017295045838724742
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 17180424648927893776
         Name: "RailGun"
         Transform {
@@ -5745,6 +5995,7 @@ Assets {
         ChildIds: 4759057384474726879
         ChildIds: 16060087819199806012
         ChildIds: 14776210883022795957
+        ChildIds: 7987575143605262003
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -6684,6 +6935,55 @@ Assets {
         }
       }
       Objects {
+        Id: 7987575143605262003
+        Name: "TigerStrike_LMG_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 902590288236556029
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 12192491190375546086
         Name: "Secondary"
         Transform {
@@ -6782,6 +7082,7 @@ Assets {
         ChildIds: 7044721750932624561
         ChildIds: 777263062239339411
         ChildIds: 17424445686539239399
+        ChildIds: 6688808145073517127
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -7894,6 +8195,55 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 6688808145073517127
+        Name: "TigerStrike_Pistol_Skin_Template"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 4159845379156397012
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
           }
         }
         Collidable_v2 {
