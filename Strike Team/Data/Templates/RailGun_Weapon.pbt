@@ -511,6 +511,16 @@ Assets {
               SubObjectId: 15612639122716044461
             }
           }
+          Overrides {
+            Name: "cs:SoundSpawn"
+            AssetReference {
+              Id: 8381445094077682076
+            }
+          }
+          Overrides {
+            Name: "cs:TotalCount"
+            Int: 4
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
