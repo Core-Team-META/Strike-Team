@@ -40,6 +40,8 @@ local WEAPON_ART = script:GetCustomProperty("ClientArt"):WaitForObject(2)
 while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
 while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
 
+local SHOOT_ABILITY =  WEAPON.clientUserData.SHOOT_ABILITY
+
 -- Exposed variables --
 local CAN_AIM = WEAPON:GetCustomProperty("EnableAim")
 local AIM_BINDING = WEAPON:GetCustomProperty("AimBinding")
@@ -79,6 +81,7 @@ function Tick(deltaTime)
         connected = true
     end
     if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if SHOOT_ABILITY.owner ~= LOCAL_PLAYER then ForceReset(LOCAL_PLAYER) return end 
     -- Smoothly lerps the camera distance and FOV when player aims
     LerpCamera(deltaTime)
 end
@@ -87,7 +90,6 @@ end
 function LerpScope(deltaTime)
     if not activeCamera then return end
     if not scopeInstance then return end
-
     scopeInstance:SetPosition(activeCamera:GetPositionOffset() - cameraResetPosOffset)
     scopeInstance:SetRotation(activeCamera:GetRotationOffset() - cameraResetRotOffset)
 end
@@ -121,6 +123,8 @@ function EnableScoping(player)
     if WEAPON.owner ~= LOCAL_PLAYER then return end
     if player.isDead then return end
     if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.CAST then return end
+    if SHOOT_ABILITY.isEnabled == false then return end
+    if not SHOOT_ABILITY.owner then return end
 
     -- Set camera scoping values
     cameraTargetDistance = ZOOM_DISTANCE
@@ -188,9 +192,9 @@ function ResetScoping(player)
     if Object.IsValid(WEAPON) then
     if Object.IsValid(ZOOM_SOUND) and player == LOCAL_PLAYER then
     
-        if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.CAST then
-            ZOOM_SOUND:Play()
-        end
+    if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.CAST then
+        ZOOM_SOUND:Play()
+    end
         
     end
     end

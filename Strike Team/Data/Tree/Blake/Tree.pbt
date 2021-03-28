@@ -1457,23 +1457,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 16201183298445873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 777066251803753357
       value {
         Overrides {
@@ -1493,109 +1476,54 @@ Objects {
       }
     }
     ParameterOverrideMap {
-      key: 1448898992099340375
+      key: 17514011301416320851
       value {
         Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2807744746534346922
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6688808145073517127
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7987575143605262003
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8600314252840915190
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14524186626704711202
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tiger Strike"
-        }
-        Overrides {
-          Name: "cs:EventSkin"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:Rarity"
-          String: "Epic"
+          Name: "cs:ID"
+          String: "DB"
         }
       }
     }
     TemplateAsset {
       Id: 12469272091380785429
+    }
+  }
+}
+Objects {
+  Id: 12941955144698183788
+  Name: "PlayerStateMovement"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ABGS"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 199656811523686429
     }
   }
 }

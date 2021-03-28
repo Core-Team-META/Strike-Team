@@ -278,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 133430148063762197
+  Name: "Icon Alert"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Alert"
+  }
+}
+Assets {
   Id: 96162478431907100
   Name: "UI Gradient Circular 001"
   PlatformAssetType: 9

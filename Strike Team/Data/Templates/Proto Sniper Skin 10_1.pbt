@@ -7,7 +7,7 @@ Assets {
       RootId: 13898861700809502031
       Objects {
         Id: 13898861700809502031
-        Name: "WSKIN_PRI_SR_T055_TigerStrike"
+        Name: "Proto Sniper Skin 10_1"
         Transform {
           Scale {
             X: 1
@@ -3271,7 +3271,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 1084806847283155322
+            Id: 13511250510657008800
           }
         }
       }

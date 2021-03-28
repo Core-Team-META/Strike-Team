@@ -1,16 +1,15 @@
 Assets {
-  Id: 1084806847283155322
-  Name: "WeaponAimScopeClient"
+  Id: 894888113830175842
+  Name: "TimeVisibility"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:ScopeTemplate"
-        AssetReference {
-        }
+        Name: "cs:Time"
+        Float: 0.2
       }
       Overrides {
-        Name: "cs:ClientArt"
+        Name: "cs:DiscoBall"
         ObjectReference {
         }
       }

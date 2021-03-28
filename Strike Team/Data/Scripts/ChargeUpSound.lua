@@ -22,12 +22,12 @@ function SpawnSound()
     if not SOUND_SPAWN then return end
 
     local NewSound = World.SpawnAsset(SOUND_SPAWN,{parent = script})
-    NewSound.pitch = 1 + #SoundTable/TOTAL_COUNT
+    NewSound.pitch = 1 + #SoundTable/TOTAL_COUNT * 100
     table.insert( SoundTable, NewSound )
 end
 
 function Buildup()
-    while SHOOT:GetCurrentPhase() == AbilityPhase.CAST do
+    while Object.IsValid(SHOOT) and SHOOT:GetCurrentPhase() == AbilityPhase.CAST do
         if not Object.IsValid(WEAPON) or not SHOOT  then return end 
 
         local Power = math.min(SHOOT.castPhaseSettings.duration - SHOOT:GetPhaseTimeRemaining(), ChargeTime)
@@ -41,3 +41,5 @@ end
 
 SHOOT.castEvent:Connect(Buildup)
 SHOOT.executeEvent:Connect(ClearSounds)
+WEAPON.unequippedEvent:Connect(ClearSounds)
+WEAPON.destroyEvent:Connect(ClearSounds)

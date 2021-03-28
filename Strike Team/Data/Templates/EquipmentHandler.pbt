@@ -1355,7 +1355,7 @@ Assets {
       }
       Objects {
         Id: 8600314252840915190
-        Name: "TigerStrike_Assault_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -1384,7 +1384,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -2516,7 +2520,7 @@ Assets {
       }
       Objects {
         Id: 1448898992099340375
-        Name: "TigerStrike_SMG_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -2545,7 +2549,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -3617,7 +3625,7 @@ Assets {
       }
       Objects {
         Id: 16201183298445873
-        Name: "TigerStrike_Shotgun_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -3646,7 +3654,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -4712,7 +4724,7 @@ Assets {
       }
       Objects {
         Id: 14524186626704711202
-        Name: "TigerStrike_Marksman_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -4741,7 +4753,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -5822,7 +5838,7 @@ Assets {
       }
       Objects {
         Id: 2807744746534346922
-        Name: "TigerStrike_Sniper_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -5851,7 +5867,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -6936,7 +6956,7 @@ Assets {
       }
       Objects {
         Id: 7987575143605262003
-        Name: "TigerStrike_LMG_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -6965,7 +6985,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -8214,7 +8238,7 @@ Assets {
       }
       Objects {
         Id: 6688808145073517127
-        Name: "TigerStrike_Pistol_Skin_Template"
+        Name: "Tiger Strike"
         Transform {
           Location {
             X: 900
@@ -8243,7 +8267,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -13906,6 +13934,7 @@ Assets {
         ParentId: 1768899685175524386
         ChildIds: 11200075862270066853
         ChildIds: 9987066493247879885
+        ChildIds: 17514011301416320851
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -14032,6 +14061,82 @@ Assets {
             Name: "cs:ICON"
             AssetReference {
               Id: 12175762712311518774
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A medical kit that is used to restore health."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Roll: -90
+            }
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 0.5
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 3000
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 17514011301416320851
+        Name: "DiscoBall"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12902320370261631311
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DB"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 10828500421841856690
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18168340960820893564
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 1821615506503460799
             }
           }
           Overrides {
@@ -17304,6 +17409,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Survival_Equip_FirstAid_002"
+      }
+    }
+    Assets {
+      Id: 1821615506503460799
+      Name: "Sci-fi Parts 032"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Equip_Parts_032"
       }
     }
     Assets {
