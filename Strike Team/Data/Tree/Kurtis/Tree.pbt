@@ -235,13 +235,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "EndUI - Stats, Rewards, Achievements"
   }
-  InstanceHistory {
-    SelfId: 8620392774914385537
-    SubobjectId: 12468429385579287823
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-    WasRoot: true
-  }
 }
 Objects {
   Id: 10139885653258044757
