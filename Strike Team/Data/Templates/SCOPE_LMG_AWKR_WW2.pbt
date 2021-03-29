@@ -7,7 +7,7 @@ Assets {
       RootId: 3159842112604184166
       Objects {
         Id: 3159842112604184166
-        Name: "SCOPE_LMG_AWKR_WW2"
+        Name: "Default_LMG_Scope_Skin_9"
         Transform {
           Scale {
             X: 1
@@ -87,9 +87,8 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 59.728508
-            Y: 3.81469727e-06
-            Z: -23.5
+            X: 59.7282715
+            Z: -23.9447937
           }
           Rotation {
           }

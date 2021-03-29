@@ -1,55 +1,6 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
-  Id: 1157562701670756106
-  Name: "UI Container"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10477958480793043052
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-      ContentType {
-        Value: "mc:ecanvascontenttype:dynamic"
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 16776867802497188801
   Name: "Utils"
   Transform {
@@ -234,13 +185,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "EndUI - Stats, Rewards, Achievements"
-  }
-  InstanceHistory {
-    SelfId: 8620392774914385537
-    SubobjectId: 12468429385579287823
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-    WasRoot: true
   }
 }
 Objects {
@@ -1226,7 +1170,6 @@ Objects {
   Control {
     Width: 700
     Height: 500
-    UIX: 720
     UIY: -130
     RenderTransformPivot {
       Anchor {
@@ -1264,12 +1207,12 @@ Objects {
     }
   }
   ParentId: 5114672776973393949
-  ChildIds: 7808642234195586142
   ChildIds: 17223822961177720940
   ChildIds: 15850697341962871786
   ChildIds: 9431616777447161875
   ChildIds: 15174696369162695251
-  ChildIds: 8858566258583539776
+  ChildIds: 7808642234195586142
+  ChildIds: 3926745488640578992
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1308,7 +1251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8858566258583539776
+  Id: 3926745488640578992
   Name: "Damager Rows"
   Transform {
     Location {
@@ -1332,8 +1275,59 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Height: 249
-    UIY: 68.151413
+    Height: 205
+    UIY: 300
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7808642234195586142
+  Name: " Title Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9725871931707172352
+  ChildIds: 16138378740262922472
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Height: 100
+    UIX: -29.8363457
+    UIY: 14.5966644
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1346,12 +1340,466 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:topcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomcenter"
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16138378740262922472
+  Name: "UI Panel"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7808642234195586142
+  ChildIds: 9872357480169929038
+  ChildIds: 10122412591164378322
+  ChildIds: 17565416021299656761
+  ChildIds: 18066245145488135785
+  ChildIds: 3469602897521187333
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -20
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3469602897521187333
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16138378740262922472
+  ChildIds: 11201943985318391002
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -20
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "DEATH CARD"
+      Color {
+        R: 0.588541687
+        G: 0.588541687
+        B: 0.588541687
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11201943985318391002
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3469602897521187333
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Height: 23
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "DEATH CARD"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      ClipTextToSize: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 18066245145488135785
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16138378740262922472
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -20
+    Height: 60
+    UIX: 2
+    UIY: 2
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "DEATH CARD"
+      Color {
+        R: 0.0416666679
+        G: 0.0416260175
+        B: 0.0391358733
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17565416021299656761
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16138378740262922472
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -20
+    Height: 60
+    UIX: -2
+    UIY: 2
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "DEATH CARD"
+      Color {
+        R: 0.0416666679
+        G: 0.0416260175
+        B: 0.0391358733
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10122412591164378322
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16138378740262922472
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -20
+    Height: 60
+    UIX: 2
+    UIY: -2
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "DEATH CARD"
+      Color {
+        R: 0.0416666679
+        G: 0.0416260175
+        B: 0.0391358733
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9872357480169929038
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16138378740262922472
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -20
+    Height: 60
+    UIX: -2
+    UIY: -2
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "DEATH CARD"
+      Color {
+        R: 0.0416666679
+        G: 0.0416260175
+        B: 0.0391358733
+        A: 1
+      }
+      Size: 30
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 10698833128597864431
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -1422,8 +1870,6 @@ Objects {
   ChildIds: 14626300759611757713
   ChildIds: 14675585048712074755
   ChildIds: 3589043752489288825
-  ChildIds: 7046502484130288074
-  ChildIds: 10700654993203147009
   ChildIds: 10526595436181825560
   ChildIds: 17638949268404377196
   ChildIds: 8281249555180524173
@@ -1490,7 +1936,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 55
+    Width: 70
     UIX: -11
     RenderTransformPivot {
       Anchor {
@@ -1667,8 +2113,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 55
-    UIX: -76.1418457
+    Width: 70
+    UIX: -91
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1844,8 +2290,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 55
-    UIX: -140.812378
+    Width: 70
+    UIX: -171
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1995,360 +2441,6 @@ Objects {
   }
 }
 Objects {
-  Id: 10700654993203147009
-  Name: "Distance"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1490978849263801812
-  ChildIds: 2737267223288549853
-  ChildIds: 9112012257071006824
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 55
-    UIX: -205.112122
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9112012257071006824
-  Name: "Distance Text"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10700654993203147009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    UIY: 5.25126839
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Text {
-      Label: "Dist"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 2737267223288549853
-  Name: "BG Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10700654993203147009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 8
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-      }
-      Color {
-        R: 0.03125
-        G: 0.03125
-        B: 0.03125
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 7046502484130288074
-  Name: "Weapon"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1490978849263801812
-  ChildIds: 17841586799761856839
-  ChildIds: 17364815264902841586
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 100
-    UIX: -270.219788
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 17364815264902841586
-  Name: "Damage Text"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7046502484130288074
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    UIY: 5.25126839
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Text {
-      Label: "Weapon"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 17841586799761856839
-  Name: "BG Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7046502484130288074
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 8
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-      }
-      Color {
-        R: 0.03125
-        G: 0.03125
-        B: 0.03125
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 3589043752489288825
   Name: "Name"
   Transform {
@@ -2375,7 +2467,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 210
+    Width: 339
     UIX: 90
     RenderTransformPivot {
       Anchor {
@@ -3296,9 +3388,8 @@ Objects {
     }
   }
   ParentId: 17223822961177720940
-  ChildIds: 10011742272729180682
   ChildIds: 15744114668977036518
-  ChildIds: 6203825782143694961
+  ChildIds: 11197222327609141036
   ChildIds: 16687708531151156038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3371,6 +3462,7 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
+      Label: "Death BY"
       Color {
         R: 1
         G: 1
@@ -3401,58 +3493,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6203825782143694961
-  Name: "UI Panel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12300203923837462907
-  ChildIds: 5229479115470989423
-  ChildIds: 11197222327609141036
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Height: 30
-    UIY: 11.2287703
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 11197222327609141036
   Name: "Weapon Name"
   Transform {
@@ -3466,7 +3506,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6203825782143694961
+  ParentId: 12300203923837462907
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3479,8 +3519,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    UIX: 10
-    UIY: 2.35878682
+    Height: 30
+    UIY: 9.33511543
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3488,9 +3528,12 @@ Objects {
     }
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
-    UseParentHeight: true
     Text {
+      Label: "Weapon Name"
       Color {
+        R: 1
+        G: 0.317647278
+        B: 0.0117647052
         A: 1
       }
       Size: 15
@@ -3505,71 +3548,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middlecenter"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 5229479115470989423
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6203825782143694961
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-      }
-      Color {
-        R: 0.208333328
-        G: 0.208333328
-        B: 0.208333328
-        A: 0.619
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
@@ -3612,6 +3596,7 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
+      Label: "PlayerName"
       Color {
         R: 1
         G: 1
@@ -3619,72 +3604,6 @@ Objects {
         A: 1
       }
       Size: 35
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 10011742272729180682
-  Name: "Killer Title"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12300203923837462907
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Height: 80
-    UIY: -31.7218895
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 15
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -3857,6 +3776,9 @@ Objects {
       Brush {
       }
       Color {
+        R: 1
+        G: 0.317647278
+        B: 0.0117647052
         A: 0.76
       }
       TeamSettings {
@@ -4024,515 +3946,12 @@ Objects {
       Brush {
       }
       Color {
+        R: 1
+        G: 0.317647278
+        B: 0.0117647052
         A: 0.76
       }
       TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 7808642234195586142
-  Name: " Title Panel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9725871931707172352
-  ChildIds: 16138378740262922472
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Height: 100
-    UIX: -29.8363457
-    UIY: 14.5966644
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 16138378740262922472
-  Name: "UI Panel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7808642234195586142
-  ChildIds: 9872357480169929038
-  ChildIds: 10122412591164378322
-  ChildIds: 17565416021299656761
-  ChildIds: 18066245145488135785
-  ChildIds: 3469602897521187333
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 60
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 3469602897521187333
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16138378740262922472
-  ChildIds: 11201943985318391002
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 60
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Label: "DEATH CARD"
-      Color {
-        R: 0.588541687
-        G: 0.588541687
-        B: 0.588541687
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 11201943985318391002
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3469602897521187333
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Height: 23
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Label: "DEATH CARD"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      ClipTextToSize: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 18066245145488135785
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16138378740262922472
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 60
-    UIX: 2
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Label: "DEATH CARD"
-      Color {
-        R: 0.0416666679
-        G: 0.0416260175
-        B: 0.0391358733
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 17565416021299656761
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16138378740262922472
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 60
-    UIX: -2
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Label: "DEATH CARD"
-      Color {
-        R: 0.0416666679
-        G: 0.0416260175
-        B: 0.0391358733
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 10122412591164378322
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16138378740262922472
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 60
-    UIX: 2
-    UIY: -2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Label: "DEATH CARD"
-      Color {
-        R: 0.0416666679
-        G: 0.0416260175
-        B: 0.0391358733
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9872357480169929038
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16138378740262922472
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 60
-    UIX: -2
-    UIY: -2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Text {
-      Label: "DEATH CARD"
-      Color {
-        R: 0.0416666679
-        G: 0.0416260175
-        B: 0.0391358733
-        A: 1
-      }
-      Size: 30
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
       }
     }
     AnchorLayout {
@@ -4598,13 +4017,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12704879963396176341
-    SubobjectId: 10548695496954741752
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-    WasRoot: true
-  }
 }
 Objects {
   Id: 14571091716681709476
@@ -4664,12 +4076,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14571091716681709476
-    SubobjectId: 16718022752363597193
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 18081231211568818753
@@ -4722,12 +4128,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18081231211568818753
-    SubobjectId: 15625762636089987180
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 7396400174882790331
@@ -4778,12 +4178,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7396400174882790331
-    SubobjectId: 4941004510055260566
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -4845,12 +4239,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6270774079352660726
-    SubobjectId: 8445076564457953499
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 8045932745873840926
@@ -4903,12 +4291,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8045932745873840926
-    SubobjectId: 5592440070327673139
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 6523475829496276373
@@ -4959,12 +4341,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6523475829496276373
-    SubobjectId: 8700032114680930232
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5026,12 +4402,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2756580308737366281
-    SubobjectId: 321414215805199140
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 9205563008925140053
@@ -5083,12 +4453,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9205563008925140053
-    SubobjectId: 6770046455274110584
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5142,12 +4506,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10280918324923723329
-    SubobjectId: 12437142372772811884
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5209,12 +4567,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15168851493073867608
-    SubobjectId: 17345092494326933877
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 16443668843546598725
@@ -5267,12 +4619,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16443668843546598725
-    SubobjectId: 14269398245006649192
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 1216681078875314845
@@ -5323,12 +4669,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1216681078875314845
-    SubobjectId: 3663176196276461744
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5390,12 +4730,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5715912323797406883
-    SubobjectId: 7883072105393958542
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 16284882791133770896
@@ -5446,12 +4780,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16284882791133770896
-    SubobjectId: 14108428768973590205
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 8466519342689085825
@@ -5500,12 +4828,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 8466519342689085825
-    SubobjectId: 6290312435949638572
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5567,12 +4889,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9397784843000430197
-    SubobjectId: 11555972953332237400
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 9030880652699788281
@@ -5623,12 +4939,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9030880652699788281
-    SubobjectId: 6872653225307838932
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 15322494304301290172
@@ -5677,12 +4987,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15322494304301290172
-    SubobjectId: 17766943291982997649
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5744,12 +5048,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7168735354399152510
-    SubobjectId: 4704226945280910163
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 2255391562425007896
@@ -5799,12 +5097,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2255391562425007896
-    SubobjectId: 4429414495583307061
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -5881,12 +5173,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13692051229243706432
-    SubobjectId: 11256540171907200621
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 9650486478556722347
@@ -5947,12 +5233,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9650486478556722347
-    SubobjectId: 12094937947680378502
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 4346440570808360215
@@ -6003,12 +5283,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4346440570808360215
-    SubobjectId: 2190186491799676730
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 2729262389372730010
@@ -6057,12 +5331,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 2729262389372730010
-    SubobjectId: 564350765570834615
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6123,12 +5391,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 626469370768637568
-    SubobjectId: 3063882866928075949
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6191,12 +5453,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5667519168350338948
-    SubobjectId: 7823774062610073001
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 8107864934586028729
@@ -6249,12 +5505,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8107864934586028729
-    SubobjectId: 5958367423369078932
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 7510905423594217392
@@ -6305,12 +5555,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7510905423594217392
-    SubobjectId: 5334701882970973597
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6372,12 +5616,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2743070585363474441
-    SubobjectId: 298903888862204452
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 10299400221117590287
@@ -6430,12 +5668,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10299400221117590287
-    SubobjectId: 12455375779024326946
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 1357773322129496068
@@ -6486,12 +5718,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1357773322129496068
-    SubobjectId: 3522786935551762985
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6553,12 +5779,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2713359645215748721
-    SubobjectId: 545913645784238172
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 18167896711141408414
@@ -6610,12 +5830,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 18167896711141408414
-    SubobjectId: 16002950169048302771
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6669,12 +5883,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13362871154116265225
-    SubobjectId: 11188849310934433572
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6736,12 +5944,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3453766498988289990
-    SubobjectId: 998266388716164587
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 3544558194738803685
@@ -6794,12 +5996,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 3544558194738803685
-    SubobjectId: 1370360154728417736
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 17087840802819684282
@@ -6850,12 +6046,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 17087840802819684282
-    SubobjectId: 14920574024941227415
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -6917,12 +6107,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8394230430841477486
-    SubobjectId: 6218063380320641859
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 5963073475006553786
@@ -6973,12 +6157,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5963073475006553786
-    SubobjectId: 8139592300782494871
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 12621443108568663584
@@ -7027,12 +6205,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12621443108568663584
-    SubobjectId: 10168261594459241485
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -7094,12 +6266,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2129061778719081988
-    SubobjectId: 4593462444249938985
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 16887244907012467976
@@ -7150,12 +6316,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16887244907012467976
-    SubobjectId: 14442824566817707813
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 1630733072399453498
@@ -7204,12 +6364,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 1630733072399453498
-    SubobjectId: 3788992660475033367
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -7271,12 +6425,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2875589038635520877
-    SubobjectId: 422378867401189696
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 7557144528602694009
@@ -7326,12 +6474,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7557144528602694009
-    SubobjectId: 5392195521195703124
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -7408,12 +6550,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11172870236119589085
-    SubobjectId: 13347176028385417968
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 11596493139878424172
@@ -7474,12 +6610,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11596493139878424172
-    SubobjectId: 9429331149664146497
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 17154860068567037713
@@ -7530,12 +6660,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17154860068567037713
-    SubobjectId: 14710724502926150972
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 7499861745005514168
@@ -7584,12 +6708,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 7499861745005514168
-    SubobjectId: 5341391394045736853
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -7651,12 +6769,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10901474805229200761
-    SubobjectId: 13077716896390471508
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 12382993582439566685
@@ -7717,12 +6829,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12382993582439566685
-    SubobjectId: 9938750203629959024
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 18118348693931734816
@@ -7775,12 +6881,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 18118348693931734816
-    SubobjectId: 15656198463627087117
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 9135626942402798641
@@ -7831,12 +6931,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9135626942402798641
-    SubobjectId: 6700502904272117276
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -7898,12 +6992,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4321672677533529841
-    SubobjectId: 1859170593796082908
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 9707292766457904464
@@ -7956,12 +7044,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9707292766457904464
-    SubobjectId: 11854469276667070333
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 4240816949527493111
@@ -8012,12 +7094,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4240816949527493111
-    SubobjectId: 1796614244032988122
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8079,12 +7155,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8987288698601447329
-    SubobjectId: 6813366644500424076
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 14775504865860790574
@@ -8136,12 +7206,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14775504865860790574
-    SubobjectId: 17237968259236811523
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8195,12 +7259,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 14547258824381778806
-    SubobjectId: 16993925800481108315
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8262,12 +7320,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8200029463388719860
-    SubobjectId: 6050842220602421465
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 17194723993151057757
@@ -8320,12 +7372,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17194723993151057757
-    SubobjectId: 14747984724107679088
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 13542315896283625474
@@ -8376,12 +7422,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 13542315896283625474
-    SubobjectId: 11086537541227676207
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8443,12 +7483,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15850373548803519280
-    SubobjectId: 17997340044701632797
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 5026988534803317764
@@ -8499,12 +7533,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5026988534803317764
-    SubobjectId: 7491668543883001385
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 4385614426278755335
@@ -8553,12 +7581,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4385614426278755335
-    SubobjectId: 2227142976056362538
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8620,12 +7642,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17608217224710343654
-    SubobjectId: 15449677614208430539
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 10134384764950340705
@@ -8676,12 +7692,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 10134384764950340705
-    SubobjectId: 12578591790980537932
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 10798376745007218497
@@ -8730,12 +7740,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10798376745007218497
-    SubobjectId: 13253875754615866732
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8797,12 +7801,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12316848979116123625
-    SubobjectId: 9861351885153083332
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 10756178272383430464
@@ -8852,12 +7850,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 10756178272383430464
-    SubobjectId: 13218395375171573101
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8909,12 +7901,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16687529211625399634
-    SubobjectId: 14241139372556951423
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -8976,12 +7962,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 6061727498198614901
-    SubobjectId: 8514941998248786264
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 12351345265616180620
@@ -9032,12 +8012,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12351345265616180620
-    SubobjectId: 9897918834209566625
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 4028105856217178760
@@ -9086,12 +8060,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 4028105856217178760
-    SubobjectId: 1572327217580087461
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -9153,12 +8121,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 14080369883705313830
-    SubobjectId: 16236380900960104459
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 15209752932170640371
@@ -9219,12 +8181,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 15209752932170640371
-    SubobjectId: 17376952366238552542
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
   }
 }
 Objects {
@@ -9321,12 +8277,6 @@ Objects {
       Id: 17935486875684081204
     }
   }
-  InstanceHistory {
-    SelfId: 4845354679858985320
-    SubobjectId: 6992572628841104197
-    InstanceId: 3455661885854364585
-    TemplateId: 2348750220152293039
-  }
 }
 Objects {
   Id: 9833366669907600819
@@ -9347,7 +8297,7 @@ Objects {
     Overrides {
       Name: "cs:PlayerTitles"
       AssetReference {
-        Id: 15054746282440886363
+        Id: 13870978605392379144
       }
     }
     Overrides {
@@ -9375,12 +8325,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:KillerTitle"
-      ObjectReference {
-        SelfId: 10011742272729180682
-      }
-    }
-    Overrides {
       Name: "cs:KillerName"
       ObjectReference {
         SelfId: 15744114668977036518
@@ -9401,7 +8345,7 @@ Objects {
     Overrides {
       Name: "cs:DamagerRows"
       ObjectReference {
-        SelfId: 8858566258583539776
+        SelfId: 3926745488640578992
       }
     }
     Overrides {
@@ -9447,7 +8391,7 @@ Objects {
     Overrides {
       Name: "cs:ReliableEvents"
       AssetReference {
-        Id: 1680988108412715813
+        Id: 8403333844578818074
       }
     }
   }

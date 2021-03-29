@@ -2219,7 +2219,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:LeaderboardReference"

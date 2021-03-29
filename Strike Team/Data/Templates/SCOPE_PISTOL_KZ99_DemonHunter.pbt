@@ -7,7 +7,7 @@ Assets {
       RootId: 2769308346882548597
       Objects {
         Id: 2769308346882548597
-        Name: "SCOPE_PISTOL_KZ99_DemonHunter"
+        Name: "Demon 45_Scope"
         Transform {
           Scale {
             X: 1
@@ -153,7 +153,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2606200893917864133
+              Id: 3770287877712236950
             }
           }
           Overrides {
@@ -212,19 +212,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 2606200893917864133
+              Id: 3770287877712236950
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 2606200893917864133
+              Id: 3770287877712236950
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2606200893917864133
+              Id: 3770287877712236950
             }
           }
           Overrides {
@@ -313,7 +313,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2606200893917864133
+              Id: 3770287877712236950
             }
           }
           Overrides {
@@ -386,7 +386,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2606200893917864133
+              Id: 3770287877712236950
             }
           }
           Overrides {
@@ -1194,7 +1194,8 @@ Assets {
           Overrides {
             Name: "cs:PositionOffset"
             Vector {
-              X: -10
+              X: 1
+              Z: 1
             }
           }
           Overrides {
@@ -1232,7 +1233,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2606200893917864133
+      Id: 3770287877712236950
       Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {

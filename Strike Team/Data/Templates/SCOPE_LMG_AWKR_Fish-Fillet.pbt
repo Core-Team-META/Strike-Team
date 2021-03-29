@@ -7,7 +7,7 @@ Assets {
       RootId: 12257131056223421509
       Objects {
         Id: 12257131056223421509
-        Name: "SCOPE_LMG_AWKR_Fish-Fillet"
+        Name: "Fish Fillet Nemo_Scope"
         Transform {
           Scale {
             X: 1
@@ -87,9 +87,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 39.8740196
-            Y: -1
-            Z: -27.1
+            X: 39.8742676
+            Z: -26.3301926
           }
           Rotation {
           }

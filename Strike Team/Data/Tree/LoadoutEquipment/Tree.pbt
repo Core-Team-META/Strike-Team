@@ -14779,14 +14779,6 @@ Objects {
         Id: 2920198739919870258
       }
     }
-    Overrides {
-      Name: "cs:OverrideKey"
-      String: "HK_00-S4_00-LI_00-DB_00-EP_00"
-    }
-    Overrides {
-      Name: "cs:Override"
-      Bool: false
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

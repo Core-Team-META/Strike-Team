@@ -7,7 +7,7 @@ Assets {
       RootId: 15741227392084429090
       Objects {
         Id: 15741227392084429090
-        Name: "SCOPE_LMG_AWKR_Unicorn"
+        Name: "Unicorn_LMG_Scope"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 39.8742676
-            Z: -27
+            Z: -26.3301926
           }
           Rotation {
           }

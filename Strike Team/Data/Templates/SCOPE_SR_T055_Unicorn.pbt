@@ -7,7 +7,7 @@ Assets {
       RootId: 9983972154347541747
       Objects {
         Id: 9983972154347541747
-        Name: "SCOPE_SR_T055_Unicorn"
+        Name: "Unicorn_Sniper_Scope"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.81
+            Z: -28.830307
           }
           Rotation {
           }

@@ -7,7 +7,7 @@ Assets {
       RootId: 5602805523315778211
       Objects {
         Id: 5602805523315778211
-        Name: "SCOPE_SR_T055_Default"
+        Name: "Default_Sniper_Scope_v2"
         Transform {
           Scale {
             X: 1
@@ -87,8 +87,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 6.54760742
-            Z: -28.805
+            X: 6.54766846
+            Z: -28.830307
           }
           Rotation {
           }

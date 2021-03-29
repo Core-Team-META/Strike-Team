@@ -7,7 +7,7 @@ Assets {
       RootId: 17115398265314802968
       Objects {
         Id: 17115398265314802968
-        Name: "SCOPE_LMG_AWKR_Toy"
+        Name: "Default_LMG_Scope_ToySkin"
         Transform {
           Scale {
             X: 1
@@ -87,8 +87,8 @@ Assets {
         Name: "Nemo_ToySkin"
         Transform {
           Location {
-            X: 39.8234253
-            Z: -26.25
+            X: 39.8234406
+            Z: -26.0801525
           }
           Rotation {
           }

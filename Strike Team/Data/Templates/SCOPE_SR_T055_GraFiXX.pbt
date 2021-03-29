@@ -7,7 +7,7 @@ Assets {
       RootId: 10631192762006380503
       Objects {
         Id: 10631192762006380503
-        Name: "SCOPE_SR_T055_GraFiXX"
+        Name: "Default_Sniper_Scope_GraFiXXSkin"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.81
+            Z: -28.830307
           }
           Rotation {
           }

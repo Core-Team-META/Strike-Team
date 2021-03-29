@@ -7,7 +7,7 @@ Assets {
       RootId: 5209480047213166359
       Objects {
         Id: 5209480047213166359
-        Name: "SCOPE_SR_T055_Toy"
+        Name: "Default_Sniper_Scope_ToySkin"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.81
+            Z: -28.830307
           }
           Rotation {
           }

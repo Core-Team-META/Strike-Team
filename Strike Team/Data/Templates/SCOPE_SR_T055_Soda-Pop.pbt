@@ -7,7 +7,7 @@ Assets {
       RootId: 15748047749798474641
       Objects {
         Id: 15748047749798474641
-        Name: "SCOPE_SR_T055_Soda-Pop"
+        Name: "Soda Pop Mamba_Scope"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.81
+            Z: -28.830307
           }
           Rotation {
           }

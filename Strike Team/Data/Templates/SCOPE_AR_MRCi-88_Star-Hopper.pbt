@@ -7,7 +7,7 @@ Assets {
       RootId: 16736441945684040327
       Objects {
         Id: 16736441945684040327
-        Name: "SCOPE_AR_MRCi-88_Star-Hopper"
+        Name: "Destiny_Skin_Scope"
         Transform {
           Scale {
             X: 1
@@ -61,8 +61,8 @@ Assets {
           Overrides {
             Name: "cs:LocalMoveOffset"
             Vector {
-              X: -5
-              Z: 0.5
+              X: -2.5
+              Z: 0.2
             }
           }
         }

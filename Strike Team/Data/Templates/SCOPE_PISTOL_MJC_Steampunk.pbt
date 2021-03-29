@@ -7,7 +7,7 @@ Assets {
       RootId: 13754320947068629115
       Objects {
         Id: 13754320947068629115
-        Name: "SCOPE_PISTOL_MJC_Steampunk"
+        Name: "Skin 7 Burst Scope Template"
         Transform {
           Scale {
             X: 1
@@ -96,8 +96,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.5859337
-            Z: -17.1
+            X: 43.5856934
+            Z: -17.276001
           }
           Rotation {
           }

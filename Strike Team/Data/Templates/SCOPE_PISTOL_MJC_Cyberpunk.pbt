@@ -7,7 +7,7 @@ Assets {
       RootId: 12300771815709501493
       Objects {
         Id: 12300771815709501493
-        Name: "SCOPE_PISTOL_MJC_Cyberpunk"
+        Name: "Burst Pistol Scope Cyber Punk Skin"
         Transform {
           Scale {
             X: 1
@@ -100,8 +100,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.6855431
-            Z: -17.329
+            X: 43.6852417
+            Z: -17.6313477
           }
           Rotation {
           }
