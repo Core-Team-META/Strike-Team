@@ -41,5 +41,6 @@ end
 
 SHOOT.castEvent:Connect(Buildup)
 SHOOT.executeEvent:Connect(ClearSounds)
+SHOOT.interruptedEvent:Connect(ClearSounds)
 WEAPON.unequippedEvent:Connect(ClearSounds)
 WEAPON.destroyEvent:Connect(ClearSounds)

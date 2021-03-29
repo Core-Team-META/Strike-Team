@@ -16,7 +16,10 @@ local function ToggleAbiltiy(player, toggle)
         for k,Ability in pairs(Equipment:GetAbilities()) do
             if Ability then
                 Ability.owner = nil
-                if toggle then Ability.owner = player end
+                Ability:Interrupt()
+                if toggle then 
+                    Ability.owner = player 
+                end
             end
         end
     end
@@ -25,6 +28,7 @@ end
 function NewState:Enter(player, time)
     if not Object.IsValid(player) then return end 
     StateBase.Enter(self)
+    ToggleAbiltiy(player, false)
     self.FinishTask = Task.Spawn(function()
         if player.serverUserData.MovementStateMachime then
             player.serverUserData.MovementStateMachime:ChangeState("Walk")
@@ -36,7 +40,6 @@ function NewState:Enter(player, time)
         "unarmed_waiting",
     }
     player.animationStance = Stances[math.random(#Stances)]
-    ToggleAbiltiy(player, false)
 end
 
 function NewState:Exit(player)

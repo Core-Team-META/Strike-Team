@@ -6,7 +6,7 @@ NewState.__index = NewState
 setmetatable(NewState, StateBase)
 NewState.name = "End"
 NewState.possibleStates = {
-    "Ready",
+    "Idle",
 }
 
 function NewState:Enter(player)

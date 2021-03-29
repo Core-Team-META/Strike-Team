@@ -62,20 +62,23 @@ end
 
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     if newState == ABGS.GAME_STATE_ROUND_END then 
-       for k,StateManager in pairs(AllStatesManager) do
+       for _,StateManager in pairs(AllStatesManager) do
             if StateManager then
                 StateManager:ChangeState("End")
             end
        end
-    elseif newState == API.GAME_STATE_LOBBY then 
-        for k,StateManager in pairs(AllStatesManager) do
+    end
+    if newState == ABGS.GAME_STATE_LOBBY then 
+        for _,StateManager in pairs(AllStatesManager) do
             if StateManager then
                 StateManager:ChangeState("Idle")
                 StateManager:ChangeState("Walk")
-            end
+                print(StateManager:GetCurrentState().name)
+            end 
        end
     end 
 end
 
+Events.Connect("GameStateChanged", OnGameStateChanged)
 Game.playerJoinedEvent:Connect(JoinPlayer)
 Game.playerLeftEvent:Connect(LeavePlayer)
