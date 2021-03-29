@@ -7,7 +7,7 @@ Assets {
       RootId: 16146407652946672352
       Objects {
         Id: 16146407652946672352
-        Name: "Junker Nemo_Scope"
+        Name: "SCOPE_LMG_AWKR_Junker"
         Transform {
           Scale {
             X: 1
@@ -39,7 +39,7 @@ Assets {
         Transform {
           Location {
             X: 42.4371338
-            Z: -26.3301926
+            Z: -26.53
           }
           Rotation {
           }
@@ -117,8 +117,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: -2.69775391
-            Y: -0.854492188
+            X: -2.69726539
+            Y: -0.81
+            Z: -0.25
           }
           Rotation {
           }

@@ -7,7 +7,7 @@ Assets {
       RootId: 14064976796941334045
       Objects {
         Id: 14064976796941334045
-        Name: "Burst Pistol Scope ToySkin"
+        Name: "SCOPE_PISTOL_MJC_Toy"
         Transform {
           Scale {
             X: 1
@@ -100,8 +100,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.6852417
-            Z: -17.2226257
+            X: 43.6855431
+            Z: -16.81
           }
           Rotation {
           }

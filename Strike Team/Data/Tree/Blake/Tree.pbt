@@ -1476,142 +1476,54 @@ Objects {
       }
     }
     ParameterOverrideMap {
-      key: 3060115540773037701
+      key: 17514011301416320851
       value {
         Overrides {
-          Name: "cs:Cost"
-          Int: 5000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4737671664089453211
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 4000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5401514240224850671
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 2000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7211147244113034258
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 6000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7771605384388490917
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 3000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8207036558026796051
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 5000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8444259937277452191
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 4000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9110716462400792456
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 8000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9138667974128995378
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 4000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9987066493247879885
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 3000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10395404097330835707
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 3000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10971413914366603644
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 5000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11200075862270066853
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 2500
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11540109332908334588
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 5000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13343810145808513024
-      value {
-        Overrides {
-          Name: "cs:Cost"
-          Int: 5000
+          Name: "cs:ID"
+          String: "DB"
         }
       }
     }
     TemplateAsset {
       Id: 12469272091380785429
+    }
+  }
+}
+Objects {
+  Id: 12941955144698183788
+  Name: "PlayerStateMovement"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10671565427701169845
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ABGS"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 199656811523686429
     }
   }
 }

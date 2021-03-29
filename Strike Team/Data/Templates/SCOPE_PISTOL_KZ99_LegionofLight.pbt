@@ -7,7 +7,7 @@ Assets {
       RootId: 2063539294930821744
       Objects {
         Id: 2063539294930821744
-        Name: "Skin 5 Pistol Scope Template"
+        Name: "SCOPE_PISTOL_KZ99_LegionofLight"
         Transform {
           Scale {
             X: 1
@@ -2279,8 +2279,7 @@ Assets {
           Overrides {
             Name: "cs:PositionOffset"
             Vector {
-              X: 1
-              Z: 1
+              X: -10
             }
           }
           Overrides {

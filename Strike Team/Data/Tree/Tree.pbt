@@ -18,7 +18,6 @@ Objects {
   ChildIds: 7678757230154100751
   ChildIds: 16962308734055015238
   ChildIds: 15900364157994414074
-  ChildIds: 4565846863626438544
   ChildIds: 15084389731420460127
   ChildIds: 10477958480793043052
   ChildIds: 10671565427701169845
@@ -32,7 +31,6 @@ Objects {
   ChildIds: 6719238595563650157
   ChildIds: 13973119890939008183
   ChildIds: 17929813013966814706
-  ChildIds: 8852870369849276941
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,36 +43,6 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 8852870369849276941
-  Name: "TestScript"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 18355897043671469170
-    }
   }
 }
 Objects {
@@ -2084,7 +2052,7 @@ Objects {
 }
 Objects {
   Id: 13023898239296000475
-  Name: "GamemodeExplination"
+  Name: "GamemodeExplanation"
   Transform {
     Location {
     }
@@ -2867,35 +2835,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Keppu(Antti)"
-  }
-}
-Objects {
-  Id: 4565846863626438544
-  Name: "Knar"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Knar"
   }
 }
 Objects {

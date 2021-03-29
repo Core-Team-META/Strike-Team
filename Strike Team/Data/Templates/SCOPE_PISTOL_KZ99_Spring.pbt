@@ -7,7 +7,7 @@ Assets {
       RootId: 9295342907715279495
       Objects {
         Id: 9295342907715279495
-        Name: "Easter 45_Scope"
+        Name: "SCOPE_PISTOL_KZ99_Spring"
         Transform {
           Scale {
             X: 1
@@ -154,7 +154,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 534462005993080748
+              Id: 697130077529532955
             }
           }
           Overrides {
@@ -214,19 +214,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 534462005993080748
+              Id: 697130077529532955
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 534462005993080748
+              Id: 697130077529532955
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 534462005993080748
+              Id: 697130077529532955
             }
           }
           Overrides {
@@ -322,7 +322,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -841,25 +841,25 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail3:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1319,8 +1319,7 @@ Assets {
           Overrides {
             Name: "cs:PositionOffset"
             Vector {
-              X: 1
-              Z: 1
+              X: -10
             }
           }
           Overrides {
@@ -1330,6 +1329,12 @@ Assets {
           Overrides {
             Name: "cs:RecoverTime"
             Float: 0.1
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 16348180281887173251
+            }
           }
         }
         Collidable_v2 {
@@ -1358,7 +1363,7 @@ Assets {
       }
     }
     Assets {
-      Id: 534462005993080748
+      Id: 697130077529532955
       Name: "Metal Painted Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1385,7 +1390,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3770287877712236950
+      Id: 2606200893917864133
       Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1421,7 +1426,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1778446291070997431
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {

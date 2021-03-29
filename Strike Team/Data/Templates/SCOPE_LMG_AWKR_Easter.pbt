@@ -7,7 +7,7 @@ Assets {
       RootId: 11902311485173597088
       Objects {
         Id: 11902311485173597088
-        Name: "Easter Nemo_Scope"
+        Name: "SCOPE_LMG_AWKR_Easter"
         Transform {
           Scale {
             X: 1
@@ -87,8 +87,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 39.8742676
-            Z: -26.3301926
+            X: 39.8740196
+            Y: -1.41998291
+            Z: -27.2
           }
           Rotation {
           }

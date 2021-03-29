@@ -1272,7 +1272,6 @@ Objects {
     }
   }
   ParentId: 7775707010924774461
-  ChildIds: 10326534648487364037
   ChildIds: 10585263366887521770
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1320,51 +1319,6 @@ Objects {
     }
     Teams {
       TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10326534648487364037
-  Name: "Team1"
-  Transform {
-    Location {
-      X: 5040.11572
-      Y: 7052.50635
-      Z: 4.5321579
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3877340571319651575
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7126240526640323471
-    }
-    Teams {
-      TeamInt: 1
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }

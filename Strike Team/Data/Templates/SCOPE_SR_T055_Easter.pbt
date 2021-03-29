@@ -7,7 +7,7 @@ Assets {
       RootId: 6140102532710196450
       Objects {
         Id: 6140102532710196450
-        Name: "Easter Mamba_Scope"
+        Name: "SCOPE_SR_T055_Easter"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }
