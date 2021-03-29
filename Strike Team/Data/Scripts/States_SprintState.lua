@@ -104,9 +104,7 @@ function NewState:Enter(player)
 end
 
 function NewState:Exit(player)
-    if not Object.IsValid(player) then return end 
-    StateBase.Exit(self)
-    player.maxWalkSpeed = 640
+
     if self.weaponSwapEvent then
         self.weaponSwapEvent:Disconnect()
         self.weaponSwapEvent = nil
@@ -119,6 +117,9 @@ function NewState:Exit(player)
         self.KeyReleaseBinding:Disconnect()
         self.KeyReleaseBinding = nil 
     end
+    StateBase.Exit(self)
+    if not Object.IsValid(player) then return end 
+    player.maxWalkSpeed = 640
 end
 
 function NewState:Update(player)

@@ -74,9 +74,7 @@ function NewState:Update(player)
 end
 
 function NewState:Exit(player)
-    if not Object.IsValid(player) then return end 
 
-    StateBase.Exit(self)
     if self.KeyBinding then
         self.KeyBinding:Disconnect()
         self.KeyBinding = nil 
@@ -85,6 +83,9 @@ function NewState:Exit(player)
         self.weaponSwapEvent:Disconnect()
         self.weaponSwapEvent = nil
     end
+    StateBase.Exit(self)
+    if not Object.IsValid(player) then return end 
+
 end
 
 

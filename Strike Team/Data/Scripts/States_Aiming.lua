@@ -45,9 +45,9 @@ local function ChangeSpeed(self, player)
 end
 
 function NewState:Enter(player)
-    self.defaultSpeed = player.maxSpeed
-    if not Object.IsValid(player) then return end 
     StateBase.Enter(self) 
+    if not Object.IsValid(player) then return end 
+    self.defaultSpeed = player.maxSpeed
     ChangeStance(self, player)
     ChangeSpeed(self,player)
     NewState.KeyReleaseBinding = player.bindingReleasedEvent:Connect(BindingReleaseManager)
@@ -61,9 +61,6 @@ function NewState:Enter(player)
 end
 
 function NewState:Exit(player)
-    if not Object.IsValid(player) then return end 
-    StateBase.Exit(self)
-    player.maxWalkSpeed = self.defaultSpeed or 640
     if self.weaponSwapEvent then
         self.weaponSwapEvent:Disconnect()
         self.weaponSwapEvent = nil
@@ -72,6 +69,9 @@ function NewState:Exit(player)
         self.KeyReleaseBinding:Disconnect()
         self.KeyReleaseBinding = nil 
     end
+    StateBase.Exit(self)
+    if not Object.IsValid(player) then return end 
+    player.maxWalkSpeed = self.defaultSpeed or 640
 end
 
 return NewState

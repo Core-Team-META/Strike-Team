@@ -40,13 +40,13 @@ function NewState:Enter(player, time)
 end
 
 function NewState:Exit(player)
-    if not Object.IsValid(player) then return end 
-    StateBase.Exit(self)
     if self.FinishTask then
         self.FinishTask:Cancel()
         self.FinishTask = nil
     end
-
+    
+    StateBase.Exit(self)
+    if not Object.IsValid(player) then return end 
     player.animationStance = "unarmed_stance"
     
     ToggleAbiltiy(player, true)
