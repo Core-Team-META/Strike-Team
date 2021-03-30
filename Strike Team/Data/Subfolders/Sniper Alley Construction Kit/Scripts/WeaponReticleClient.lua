@@ -21,6 +21,7 @@ if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
 
+
 -- Exposed variables
 local HIDE_ON_AIM = WEAPON:GetCustomProperty("HideReticleOnAim")
 local RETICLE_TEMPLATE = WEAPON:GetCustomProperty("ReticleTemplate")
@@ -56,9 +57,12 @@ function Tick()
                     reticleInstance.visibility = Visibility.INHERIT
                 end
             end
+            print( WEAPON:GetAbilities()[1].owner == LOCAL_PLAYER)
+
         end
     end
-end
+
+ end
 
 function SpawnReticle()
     if RETICLE_TEMPLATE and reticleInstance == nil then

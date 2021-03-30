@@ -73,7 +73,6 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
             if StateManager then
                 StateManager:ChangeState("Idle")
                 StateManager:ChangeState("Walk")
-                print(StateManager:GetCurrentState().name)
             end 
        end
     end 
