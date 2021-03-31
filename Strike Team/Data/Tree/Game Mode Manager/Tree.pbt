@@ -2340,6 +2340,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Chopper"
+      AssetReference {
+        Id: 9253170342008343433
+      }
+    }
+    Overrides {
       Name: "cs:Hills"
       ObjectReference {
         SelfId: 13963835752669516336
