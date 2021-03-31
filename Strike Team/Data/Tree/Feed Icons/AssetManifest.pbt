@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16452505777127434540
+  Name: "Survival Crossbow 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Weapon_Crossbow_001"
+  }
+}
+Assets {
   Id: 15337799720467641762
   Name: "Weapon Knife 005"
   PlatformAssetType: 9

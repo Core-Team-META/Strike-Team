@@ -51,6 +51,56 @@ Objects {
   }
 }
 Objects {
+  Id: 15608269119779616876
+  Name: "PinBat"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14326453384951500623
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1641711563873740608
+      value {
+        Overrides {
+          Name: "Name"
+          String: "PinBat"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12425193883379893225
+    }
+  }
+}
+Objects {
   Id: 11103642370459607824
   Name: "BWLR"
   Transform {

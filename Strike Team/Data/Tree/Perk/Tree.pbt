@@ -44,7 +44,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Drop live grenades on death."
+      String: "Equip a bowling pin costume"
     }
     Overrides {
       Name: "cs:RotationOffset"
