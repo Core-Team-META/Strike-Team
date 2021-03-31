@@ -8,7 +8,8 @@ NewState.name = "Dance"
 NewState.possibleStates = {
     "Idle",
     "End",
-    "Walk"
+    "Walk",
+    "Ragdoll"
 }
 
 local function ToggleAbiltiy(player, toggle)

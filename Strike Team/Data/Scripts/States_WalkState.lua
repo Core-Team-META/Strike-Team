@@ -16,6 +16,7 @@ NewState.possibleStates = {
     "Aiming",
     "Fire",
     "End",
+    "Ragdoll"
 }
 
 local function Run(player)

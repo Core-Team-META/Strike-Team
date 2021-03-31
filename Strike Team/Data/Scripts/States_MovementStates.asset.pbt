@@ -52,6 +52,12 @@ Assets {
           Id: 9426636459703443944
         }
       }
+      Overrides {
+        Name: "cs:StatesRagdoll"
+        AssetReference {
+          Id: 3410976181673742271
+        }
+      }
     }
   }
   SerializationVersion: 78

@@ -13,6 +13,7 @@ NewState.possibleStates = {
     "Firing",
     "Scoping",
     "End",
+    "Ragdoll"
 }
 
 return NewState

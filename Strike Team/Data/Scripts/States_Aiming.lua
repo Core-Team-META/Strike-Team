@@ -16,6 +16,7 @@ NewState.possibleStates = {
     "Sprint",
     "Firing",
     "End",
+    "Ragdoll"
 }
 
 

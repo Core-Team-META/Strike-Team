@@ -1,4 +1,13 @@
 Assets {
+  Id: 17713255755326306709
+  Name: "Fantasy Cannonball 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Cannonball_003"
+  }
+}
+Assets {
   Id: 17582367140764135335
   Name: "Center Rect 001 Outline"
   PlatformAssetType: 9
@@ -185,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Weapon_SubMG_005"
+  }
+}
+Assets {
+  Id: 5155934221834272696
+  Name: "Icon Pawn"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Pawn"
   }
 }
 Assets {

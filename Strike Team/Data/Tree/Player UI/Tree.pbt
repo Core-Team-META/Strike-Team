@@ -7525,7 +7525,8 @@ Objects {
     Overrides {
       Name: "cs:Offset"
       Vector2 {
-        Y: -5
+        X: 31.4637661
+        Y: -28.0279331
       }
     }
   }

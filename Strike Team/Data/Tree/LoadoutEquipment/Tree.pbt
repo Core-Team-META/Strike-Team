@@ -14781,11 +14781,11 @@ Objects {
     }
     Overrides {
       Name: "cs:OverrideKey"
-      String: "RG_00-S4_00-LI_00-DB_00-EP_00"
+      String: "BW_00-PX_00-LI_00-DB_00-PC_00"
     }
     Overrides {
       Name: "cs:Override"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {

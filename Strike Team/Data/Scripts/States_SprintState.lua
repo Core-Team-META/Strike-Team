@@ -21,6 +21,7 @@ NewState.possibleStates = {
     "Slide",
     "Aiming",
     "Firing",
+    "Ragdoll"
 }
 
 
