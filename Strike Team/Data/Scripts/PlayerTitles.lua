@@ -311,6 +311,35 @@ Module.titles = {
 			]]
 		},
 	},
+
+	{
+		name = "Core Affiliate",
+		prefix = "Core Affiliate",
+		prefixColor = Module.Color.PINK,
+		icon = script:GetCustomProperty("CoreAffiliate"),
+		iconColor = Module.Color.PINK,
+		isModerator = false,
+		playerMUIDs = {
+			"a7fa1014cab64595bee90b0049070c8e", -- Aphrim (https://www.youtube.com/channel/UCqKcZtFh25bg2JyjoKkf4mg)
+			"1f0588bf88d14c258d7384902f71f132", -- Daddio (https://www.twitch.tv/daddio66)
+			"fdb45035857a4e87b17344cd891c48c5", -- KonzZwodrei (https://www.twitch.tv/konz23)
+			"cda3ab2fe8e14d4cb0d99eb4f6bd3312", -- LiaTheKoalaBear (https://www.twitch.tv/liathekoalabear_)
+			"d1073dbcc404405cbef8ce728e53d380", -- Morticai (https://www.twitch.tv/morticai)
+			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman (https://www.twitch.tv/nicholas_foreman)
+
+			"a299961f22cf4ef1a7247951e254481f", -- Devoun (https://www.youtube.com/channel/UCalHWE_nqBsJL3iaWTe3F8Q)
+			"7b1649183ca24a9c9fa43bdf5f6cf4bf", -- Esfand (https://www.twitch.tv/esfandtv)
+			"fb1aa0b5124147febdfe7e16869fbdb1", -- Maya (https://www.twitch.tv/maya)
+			"3130137db35f449d94f607b234785f7e", -- Mizkif (https://www.twitch.tv/mizkif)
+
+			"7643e906555c41fcb6dfcff77396b0ce", -- BryceLovesGaming (https://www.twitch.tv/brycelovesgaming)
+			"4201c90059e44d1e97e36e2c7bac5a23", -- LanaLux (https://www.twitch.tv/lana_lux)
+			"2835315b26b14ecba60945876774c718", -- Mezzanine (https://www.twitch.tv/antoinedaniellive)
+			"58523f4c55d04b96977c1fe5018e1b62", -- Phenns (https://www.twitch.tv/phenns)
+			"9b74b9b6e1b44f2cb9d0e32542f45dd0", -- TheBronzeSword (https://www.twitch.tv/thebronzesword)
+			"f261f4bb05b44bb2bf465b8a8346491f", -- WaveParadigm (https://www.twitch.tv/waveparadigm)
+		},
+	},		
 }
 
 ------------------------------------------------------------------------------------------------------------------------

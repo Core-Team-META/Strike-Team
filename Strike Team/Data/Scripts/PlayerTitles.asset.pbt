@@ -41,6 +41,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:CoreAffiliate"
+        AssetReference {
+          Id: 17007875622654289030
+        }
+      }
+      Overrides {
         Name: "cs:ContentCreator"
         AssetReference {
           Id: 6595698929899861519
@@ -99,6 +105,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_SciFI_Icon_030"
+      }
+    }
+    Assets {
+      Id: 17007875622654289030
+      Name: "Television"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Urban_Icon_053"
       }
     }
     Assets {
