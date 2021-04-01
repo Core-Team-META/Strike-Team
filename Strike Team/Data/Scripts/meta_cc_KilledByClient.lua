@@ -133,12 +133,13 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
 		sourceObject = World.FindObjectById(sourceObjectId)
 	end
 
-    if (sourceObject:GetCustomProperty("WeaponType") == "Grenade") then
-        WEAPON_NAME.text = "Grenade"
-    else
-        WEAPON_NAME.text = sourceObject.name
+    if sourceObject then
+        if (sourceObject:GetCustomProperty("WeaponType") == "Grenade") then
+            WEAPON_NAME.text = "Grenade"
+        else
+            WEAPON_NAME.text = sourceObject.name
+        end
     end
-
     -- Sort entries with highest damage first
     local sortTable = {}
     for name, damageTable in pairs(killedPlayer.clientUserData.KilledBy) do

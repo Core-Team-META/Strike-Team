@@ -387,6 +387,10 @@ Assets {
               Id: 2019158117356727809
             }
           }
+          Overrides {
+            Name: "cs:DanceTime"
+            Float: 5
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
