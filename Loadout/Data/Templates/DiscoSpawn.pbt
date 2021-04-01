@@ -25,7 +25,7 @@ Assets {
         ChildIds: 16390989055268553752
         ChildIds: 3390230082698545608
         ChildIds: 4741278201184460569
-        Lifespan: 10
+        Lifespan: 5
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -538,7 +538,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 25.7403
+          Intensity: 19.885046
           Color {
             G: 0.00543010281
             B: 0.820000052
@@ -591,7 +591,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 32.2082176
+          Intensity: 14.2741604
           Color {
             R: 0.791788
             G: 0.98
@@ -644,7 +644,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 23.7999229
+          Intensity: 15.294322
           Color {
             G: 0.88
             B: 0.075761795
@@ -1176,6 +1176,10 @@ Assets {
             Name: "bp:Loop Duration"
             Float: 0.398383409
           }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 9
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1284,6 +1288,10 @@ Assets {
             Name: "bp:Loop Duration"
             Float: 2
           }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 9
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1388,6 +1396,10 @@ Assets {
               G: 1
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 9
           }
         }
         Collidable_v2 {
