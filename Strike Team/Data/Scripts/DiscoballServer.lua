@@ -19,8 +19,7 @@ local EXPLOSION_FUNCTION = require(script:GetCustomProperty("ExplosionFunction")
 
 function Blast(center, projectileOwner)
     if IMPACT then
-        local Ball = World.SpawnAsset(IMPACT, {position = center})
-        Ball.lifeSpan = DANCE_TIME
+        World.SpawnAsset(IMPACT, {position = center})
     end
 	
     -- If owner left the server by the time the blast happens, stop the script

@@ -1235,7 +1235,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -1281,7 +1281,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -2400,7 +2400,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -2450,7 +2450,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
         }
         Collidable_v2 {
@@ -3459,7 +3459,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -3555,7 +3555,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -4604,7 +4604,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -4654,7 +4654,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
         }
         Collidable_v2 {
@@ -5668,7 +5668,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -5768,7 +5768,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -6886,7 +6886,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -8168,7 +8168,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -9053,7 +9053,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -9207,7 +9207,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -13648,7 +13648,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
         }
         Collidable_v2 {
