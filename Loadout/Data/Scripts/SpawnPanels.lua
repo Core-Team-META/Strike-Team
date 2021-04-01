@@ -32,6 +32,11 @@ local PASSIVE_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("PASSIVE_EQUIP_SOUND
 local SKIN_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("SKIN_EQUIP_SOUND")
 local HOVER_SOUND = SpawnPanelSFX:GetCustomProperty("HOVER_SOUND")
 
+local RichTextMgr = require(script:GetCustomProperty("_RichTextMgr"))
+local IMAGE_FOLDER = script:GetCustomProperty("ImageFolder"):WaitForObject()
+RichTextMgr.SetImageSource(IMAGE_FOLDER)
+
+
 local SoundToSlot = {
     ["Primary"] = WEAPON_EQUIP_SOUND,
     ["Secondary"] = SECONDARY_EQUIP_SOUND,
@@ -160,12 +165,18 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         end
     else
         if(skin) then 
-            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d or %d Strike Coins", skin.rarity:GetCost(), skin.rarity:GetPremiumCost())
+            local textbox = newpanel:GetCustomProperty("UnlockText"):WaitForObject()
+            textbox.text = ""
+            local newText = string.format("$%d <image Cash> or %d <image StrikeCoin> ", skin.rarity:GetCost(), skin.rarity:GetPremiumCost())
+            RichTextMgr.DisplayText(textbox , newText,{leftMargin = 0, topMargin = 0, rightMargin = 0, size=14})
         else
             if item:GetLevel() > Game.GetLocalPlayer():GetResource("Level") then
                 newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Rank %d is required", item:GetLevel())
             else
-                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d", item:GetCost() )
+                local textbox = newpanel:GetCustomProperty("UnlockText"):WaitForObject()
+                textbox.text = ""
+                local newText = string.format("$%d <image Cash>", item:GetCost() )
+                RichTextMgr.DisplayText(textbox , newText,{leftMargin = 0, topMargin = 0, rightMargin = 0, size=14})
             end
         end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 

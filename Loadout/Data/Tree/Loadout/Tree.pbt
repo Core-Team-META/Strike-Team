@@ -5124,6 +5124,7 @@ Objects {
   }
   ParentId: 2189234789624158377
   ChildIds: 16351736331632694558
+  ChildIds: 13396854458686026278
   UnregisteredParameters {
     Overrides {
       Name: "cs:Parent"
@@ -5242,6 +5243,18 @@ Objects {
         SelfId: 16351736331632694558
       }
     }
+    Overrides {
+      Name: "cs:_RichTextMgr"
+      AssetReference {
+        Id: 15167260956848044040
+      }
+    }
+    Overrides {
+      Name: "cs:ImageFolder"
+      ObjectReference {
+        SelfId: 13396854458686026278
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5256,6 +5269,49 @@ Objects {
     ScriptAsset {
       Id: 2406649152342681503
     }
+  }
+}
+Objects {
+  Id: 13396854458686026278
+  Name: "ImageFolder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18393449720337225452
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Cash"
+      AssetReference {
+        Id: 3664507400955153403
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin"
+      AssetReference {
+        Id: 10117964992090160592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ImageFolder"
   }
 }
 Objects {
