@@ -78,7 +78,7 @@ function BindReload()
     if(not WEAPON.owner or LOCAL_PLAYER ~= WEAPON.owner) then return end
     ReloadEvent = ReloadEvent or WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
         if(binding == RELOAD and WEAPON.clientUserData.reloading == false and  WEAPON.clientUserData.Ammo < MAX_AMMO) then
-            if(WEAPON.clientUserData.RELOAD_ABILITY == LOCAL_PLAYER) then
+            if(WEAPON.owner == LOCAL_PLAYER) then
                 WEAPON.clientUserData.RELOAD_ABILITY:Activate()
             end
         end
