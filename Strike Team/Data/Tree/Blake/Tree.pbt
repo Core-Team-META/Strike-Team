@@ -1573,6 +1573,10 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:LoadoutGameId"
+      String: "9442a4/strike-team"
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

@@ -413,14 +413,14 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "QUIT TO LOADOUT"
+      Label: "QUIT TO MAIN GAME"
       Color {
         R: 0.00972121768
         G: 0.00972121768
         B: 0.00972121768
         A: 1
       }
-      Size: 15
+      Size: 14
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -483,13 +483,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "QUIT TO LOADOUT"
+      Label: "QUIT TO MAIN GAME"
       Color {
         R: 1
         G: 0.472987294
         A: 0.462
       }
-      Size: 15
+      Size: 14
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -552,13 +552,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "QUIT TO LOADOUT"
+      Label: "QUIT TO MAIN GAME"
       Color {
         R: 1
         G: 0.472987294
         A: 0.462
       }
-      Size: 15
+      Size: 14
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -621,13 +621,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "QUIT TO LOADOUT"
+      Label: "QUIT TO MAIN GAME"
       Color {
         R: 1
         G: 0.472987294
         A: 0.462
       }
-      Size: 15
+      Size: 14
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -690,13 +690,13 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "QUIT TO LOADOUT"
+      Label: "QUIT TO MAIN GAME"
       Color {
         R: 1
         G: 0.472987294
         A: 0.462
       }
-      Size: 15
+      Size: 14
       Justification {
         Value: "mc:etextjustify:center"
       }
