@@ -7,7 +7,7 @@ Assets {
       RootId: 1230800553748600029
       Objects {
         Id: 1230800553748600029
-        Name: "HK2.0_WEAPON"
+        Name: "WEAPON_PRI_AR_MRCI-88"
         Transform {
           Scale {
             X: 0.99999994
@@ -387,11 +387,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 30
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 70
+            Float: 55
           }
         }
         Collidable_v2 {

@@ -1,13 +1,13 @@
 Assets {
   Id: 1551230855044826703
-  Name: "Default_Sniper_Scope_CyberPunkSkin"
+  Name: "SCOPE_SR_T055_Cyber-Punk"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 7863218660476105039
       Objects {
         Id: 7863218660476105039
-        Name: "Default_Sniper_Scope_CyberPunkSkin"
+        Name: "SCOPE_SR_T055_Cyber-Punk"
         Transform {
           Scale {
             X: 1
@@ -89,7 +89,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }

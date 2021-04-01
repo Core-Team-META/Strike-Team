@@ -1,13 +1,13 @@
 Assets {
   Id: 5249672705099541392
-  Name: "Default_Sniper_Scope_Skin3"
+  Name: "SCOPE_SR_T055_Camo"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 2499051969709661566
       Objects {
         Id: 2499051969709661566
-        Name: "Default_Sniper_Scope_Skin3"
+        Name: "SCOPE_SR_T055_Camo"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }

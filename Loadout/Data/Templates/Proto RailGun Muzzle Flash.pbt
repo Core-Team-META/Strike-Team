@@ -23,8 +23,10 @@ Assets {
         ChildIds: 4702666558111253467
         ChildIds: 5196442570721984093
         ChildIds: 8806854403017137460
+        ChildIds: 15982230204742877920
         UnregisteredParameters {
         }
+        Lifespan: 1
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -443,6 +445,44 @@ Assets {
           StopTime: 0.9
         }
       }
+      Objects {
+        Id: 15982230204742877920
+        Name: "Electrical Zap Explosion SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2340084525827694245
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 13333668606182998702
+          }
+          AutoPlay: true
+          Pitch: -848.139404
+          Volume: 1
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
     }
     Assets {
       Id: 17109694252662996424
@@ -496,6 +536,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_designer_ground_shaking_deep_impact_hit_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 13333668606182998702
+      Name: "Electrical Zap Explosion SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_zapsplosion"
       }
     }
     PrimaryAssetId {

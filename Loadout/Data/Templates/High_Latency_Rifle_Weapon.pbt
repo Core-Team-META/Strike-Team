@@ -1,13 +1,13 @@
 Assets {
   Id: 6891319963479194532
-  Name: "High_Latency_Rifle_Weapon"
+  Name: "WEAPON_PRI_AR_HLR"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 8334015303539050296
       Objects {
         Id: 8334015303539050296
-        Name: "High_Latency_Rifle_Weapon"
+        Name: "WEAPON_PRI_AR_HLR"
         Transform {
           Scale {
             X: 0.99999994
@@ -84,12 +84,12 @@ Assets {
           Overrides {
             Name: "cs:ReticleTemplate"
             AssetReference {
-              Id: 15515637826283224864
+              Id: 17582487388209634325
             }
           }
           Overrides {
             Name: "cs:HideReticleOnAim"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:AimZoomFOV"
@@ -181,7 +181,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 20000
+            ProjectileSpeed: 18000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -386,11 +386,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 60
+            Float: 40
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 80
+            Float: 60
           }
         }
         Collidable_v2 {
@@ -597,7 +597,7 @@ Assets {
           Overrides {
             Name: "cs:ReticleTemplate"
             AssetReference {
-              Id: 15515637826283224864
+              Id: 17582487388209634325
             }
           }
         }

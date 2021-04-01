@@ -276,6 +276,7 @@ Assets {
         ChildIds: 17377284886689947005
         ChildIds: 1766782966093182782
         ChildIds: 591544359013713613
+        ChildIds: 8600314252840915190
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1353,6 +1354,59 @@ Assets {
         }
       }
       Objects {
+        Id: 8600314252840915190
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -100
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11681069925855809076
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 9983154513128525002
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 2136086721307223701
         Name: "HLR"
         Transform {
@@ -1475,6 +1529,7 @@ Assets {
         ChildIds: 8493218010441552243
         ChildIds: 610984042418451126
         ChildIds: 12929855613603820741
+        ChildIds: 1448898992099340375
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -2464,6 +2519,59 @@ Assets {
         }
       }
       Objects {
+        Id: 1448898992099340375
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11678746403947088745
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 15719565332592257820
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13470515154200900978
         Name: "Shotgun"
         Transform {
@@ -2528,6 +2636,7 @@ Assets {
         ChildIds: 2711103873005186397
         ChildIds: 14424382974968768589
         ChildIds: 7558541208204905782
+        ChildIds: 16201183298445873
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -3515,6 +3624,59 @@ Assets {
         }
       }
       Objects {
+        Id: 16201183298445873
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10395404097330835707
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 12509547690189984482
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 15614263461814736871
         Name: "Marksman Rifle"
         Transform {
@@ -3579,6 +3741,7 @@ Assets {
         ChildIds: 17006817971006769556
         ChildIds: 14277925987559253521
         ChildIds: 13456731546943212770
+        ChildIds: 14524186626704711202
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -4560,6 +4723,59 @@ Assets {
         }
       }
       Objects {
+        Id: 14524186626704711202
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -200
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15505157981418356007
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 35426242575912700
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 13075212196391470810
         Name: "Sniper Rifle"
         Transform {
@@ -4625,6 +4841,7 @@ Assets {
         ChildIds: 3261521614590439168
         ChildIds: 1502303244234143583
         ChildIds: 13040720441297012128
+        ChildIds: 2807744746534346922
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -5620,6 +5837,59 @@ Assets {
         }
       }
       Objects {
+        Id: 2807744746534346922
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8444259937277452191
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 11017295045838724742
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 17180424648927893776
         Name: "RailGun"
         Transform {
@@ -5745,6 +6015,7 @@ Assets {
         ChildIds: 4759057384474726879
         ChildIds: 16060087819199806012
         ChildIds: 14776210883022795957
+        ChildIds: 7987575143605262003
         UnregisteredParameters {
           Overrides {
             Name: "cs:DefaultSkin"
@@ -6684,6 +6955,59 @@ Assets {
         }
       }
       Objects {
+        Id: 7987575143605262003
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4737671664089453211
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 902590288236556029
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
         Id: 12192491190375546086
         Name: "Secondary"
         Transform {
@@ -6782,6 +7106,7 @@ Assets {
         ChildIds: 7044721750932624561
         ChildIds: 777263062239339411
         ChildIds: 17424445686539239399
+        ChildIds: 6688808145073517127
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
@@ -7894,6 +8219,59 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 6688808145073517127
+        Name: "Tiger Strike"
+        Transform {
+          Location {
+            X: 900
+            Y: -300
+            Z: 25.0000229
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16537645570733335601
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TS"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 4159845379156397012
+            }
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -13556,6 +13934,7 @@ Assets {
         ParentId: 1768899685175524386
         ChildIds: 11200075862270066853
         ChildIds: 9987066493247879885
+        ChildIds: 17514011301416320851
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -13682,6 +14061,82 @@ Assets {
             Name: "cs:ICON"
             AssetReference {
               Id: 12175762712311518774
+            }
+          }
+          Overrides {
+            Name: "cs:Description"
+            String: "A medical kit that is used to restore health."
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Roll: -90
+            }
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 0.5
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 3000
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 17514011301416320851
+        Name: "DiscoBall"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12902320370261631311
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "DB"
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: "LHip"
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 10828500421841856690
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultSkin"
+            AssetReference {
+              Id: 18168340960820893564
+            }
+          }
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 1821615506503460799
             }
           }
           Overrides {
@@ -16954,6 +17409,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Survival_Equip_FirstAid_002"
+      }
+    }
+    Assets {
+      Id: 1821615506503460799
+      Name: "Sci-fi Parts 032"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_SciFi_Equip_Parts_032"
       }
     }
     Assets {

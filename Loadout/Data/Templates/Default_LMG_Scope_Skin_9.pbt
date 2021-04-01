@@ -1,13 +1,13 @@
 Assets {
   Id: 4412495172002758423
-  Name: "Default_LMG_Scope_Skin_9"
+  Name: "SCOPE_LMG_AWKR_WW2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 3159842112604184166
       Objects {
         Id: 3159842112604184166
-        Name: "Default_LMG_Scope_Skin_9"
+        Name: "SCOPE_LMG_AWKR_WW2"
         Transform {
           Scale {
             X: 1
@@ -87,8 +87,9 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 59.7282715
-            Z: -23.9447937
+            X: 59.728508
+            Y: 3.81469727e-06
+            Z: -23.5
           }
           Rotation {
           }

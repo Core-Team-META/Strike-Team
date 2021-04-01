@@ -1,6 +1,6 @@
 Assets {
   Id: 4468981728458785899
-  Name: "HLR_Default_Skin"
+  Name: "WSKIN_PRI_AR_HLR_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

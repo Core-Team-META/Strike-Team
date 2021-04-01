@@ -1,6 +1,6 @@
 Assets {
   Id: 18193008955287381545
-  Name: "RailGun_DefaultSkin"
+  Name: "WSKIN_PRI_SR_RailGun_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

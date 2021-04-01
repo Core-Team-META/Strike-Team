@@ -3,7 +3,6 @@ if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end 
 local WeaponFireController = script:GetCustomProperty("WeaponFireController"):WaitForObject()
-
 local SHOOT_ABILITY = script:GetCustomProperty("Shoot"):WaitForObject()
 local BoundEvent
 
@@ -15,8 +14,7 @@ end
 
 function ReleaseBinding(player, binding)
     if not player == WEAPON.owner then return end
-    if binding == WeaponFireController:GetCustomProperty("PRIMARYFIRE")
-    then
+    if binding == WeaponFireController:GetCustomProperty("PRIMARYFIRE") and not player.isDead then
         ReleaseFire()
     end
 end

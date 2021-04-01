@@ -1,13 +1,13 @@
 Assets {
   Id: 189671969713589876
-  Name: "Demon Mamba_Scope"
+  Name: "SCOPE_SR_T055_Demon-Hunter"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 14114284006936051336
       Objects {
         Id: 14114284006936051336
-        Name: "Demon Mamba_Scope"
+        Name: "SCOPE_SR_T055_Demon-Hunter"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }

@@ -1,13 +1,13 @@
 Assets {
   Id: 2876434669009403276
-  Name: "Default_Assault_Scope_v2"
+  Name: "SCOPE_AR_MRCi-88_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 16005093596642490505
       Objects {
         Id: 16005093596642490505
-        Name: "Default_Assault_Scope_v2"
+        Name: "SCOPE_AR_MRCi-88_Default"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 20
-            Z: -32.6498947
+            Z: -32.72
           }
           Rotation {
           }

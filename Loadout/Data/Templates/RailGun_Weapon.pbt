@@ -1,13 +1,13 @@
 Assets {
   Id: 11800016107628846849
-  Name: "RailGun_Weapon"
+  Name: "WEAPON_PRI_SR_RailGun"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 5633464491628854342
       Objects {
         Id: 5633464491628854342
-        Name: "RailGun_Weapon"
+        Name: "WEAPON_PRI_SR_RailGun"
         Transform {
           Scale {
             X: 0.99999994
@@ -111,7 +111,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ChargeUpTime"
-            Float: 2
+            Float: 2.5
           }
           Overrides {
             Name: "cs:AimBinding:tooltip"
@@ -144,7 +144,7 @@ Assets {
               Id: 7762529374219666319
             }
             TrailAssetRef {
-              Id: 9645319328156205427
+              Id: 11671962466991922228
             }
             ImpactAssetRef {
               Id: 13960277523134132513
@@ -462,6 +462,7 @@ Assets {
           }
         }
         ParentId: 5633464491628854342
+        ChildIds: 704970427972981742
         ChildIds: 6381540929328117388
         ChildIds: 2888262729725622652
         ChildIds: 15027881354114282473
@@ -489,6 +490,54 @@ Assets {
         }
       }
       Objects {
+        Id: 704970427972981742
+        Name: "ChargeUpSound"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15456911305517113678
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Shoot"
+            ObjectReference {
+              SubObjectId: 15612639122716044461
+            }
+          }
+          Overrides {
+            Name: "cs:SoundSpawn"
+            AssetReference {
+              Id: 8381445094077682076
+            }
+          }
+          Overrides {
+            Name: "cs:TotalCount"
+            Int: 4
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14180521636078300890
+          }
+        }
+      }
+      Objects {
         Id: 6381540929328117388
         Name: "WeaponChargeFire"
         Transform {
@@ -508,6 +557,12 @@ Assets {
             Name: "cs:Shoot"
             ObjectReference {
               SubObjectId: 15612639122716044461
+            }
+          }
+          Overrides {
+            Name: "cs:WeaponFireController"
+            ObjectReference {
+              SubObjectId: 13439319657068906618
             }
           }
         }
