@@ -44,7 +44,7 @@ end
 function NewState:Enter(player)
     StateBase.Enter(self)
     if not Object.IsValid(player) then return end
-    NewState.KeyBinding = player.bindingPressedEvent:Connect(BindingManager)
+    self.KeyBinding = player.bindingPressedEvent:Connect(BindingManager)
     player.maxWalkSpeed = 0
     local Stances = {
         "2hand_rifle_stance",

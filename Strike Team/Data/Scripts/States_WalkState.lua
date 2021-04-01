@@ -57,7 +57,7 @@ function NewState:Enter(player)
     StateBase.Enter(self)
     ChangeStance(self, player)
     self.KeyBinding = player.bindingPressedEvent:Connect(BindingManager)
-    NewState.weaponSwapEvent = Events.Connect("EquipWeapon",
+    self.weaponSwapEvent = Events.Connect("EquipWeapon",
     function ( owner,weapon)
         if not owner == player then return end
         ChangeStance(self, owner, weapon )

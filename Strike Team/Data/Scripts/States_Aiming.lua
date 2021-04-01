@@ -50,8 +50,8 @@ function NewState:Enter(player)
     self.defaultSpeed = player.maxSpeed
     ChangeStance(self, player)
     ChangeSpeed(self,player)
-    NewState.KeyReleaseBinding = player.bindingReleasedEvent:Connect(BindingReleaseManager)
-    NewState.weaponSwapEvent = Events.Connect("EquipWeapon",
+    self.KeyReleaseBinding = player.bindingReleasedEvent:Connect(BindingReleaseManager)
+    self.weaponSwapEvent = Events.Connect("EquipWeapon",
     function ( owner,weapon)
         if not owner == player then return end
         if not player.serverUserData.MovementStateMachime then return end
