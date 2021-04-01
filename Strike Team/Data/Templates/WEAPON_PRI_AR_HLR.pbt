@@ -7,7 +7,7 @@ Assets {
       RootId: 8334015303539050296
       Objects {
         Id: 8334015303539050296
-        Name: "High_Latency_Rifle_Weapon"
+        Name: "WEAPON_PRI_AR_HLR"
         Transform {
           Scale {
             X: 0.99999994
@@ -386,11 +386,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 60
+            Float: 40
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 80
+            Float: 60
           }
         }
         Collidable_v2 {

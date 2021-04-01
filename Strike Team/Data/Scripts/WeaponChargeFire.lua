@@ -14,8 +14,7 @@ end
 
 function ReleaseBinding(player, binding)
     if not player == WEAPON.owner then return end
-    if binding == WeaponFireController:GetCustomProperty("PRIMARYFIRE")
-    then
+    if binding == WeaponFireController:GetCustomProperty("PRIMARYFIRE") and not player.isDead then
         ReleaseFire()
     end
 end

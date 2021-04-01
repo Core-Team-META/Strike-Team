@@ -111,7 +111,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ChargeUpTime"
-            Float: 2
+            Float: 2.5
           }
           Overrides {
             Name: "cs:AimBinding:tooltip"
