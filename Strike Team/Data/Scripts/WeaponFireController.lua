@@ -40,7 +40,9 @@ end
 
 function ActivateFire()
     if WEAPON.clientUserData.SHOOT_ABILITY:GetCurrentPhase() == AbilityPhase.READY then
-        WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+        if LOCAL_PLAYER == WEAPON.clientUserData.SHOOT_ABILITY.owner then 
+            WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+        end
     end
 end
 
