@@ -15,7 +15,7 @@ function TurnOff()
     if Object.IsValid(LIGHTS) then
         LIGHTS.visibility = Visibility.FORCE_OFF
     else
-        warn(script.name .. " - LIGHTS TurnOff():  Attempted to access an object that has been destroyed.")
+--        warn(script.name .. " - LIGHTS TurnOff():  Attempted to access an object that has been destroyed.")
     end
 end
 
@@ -23,7 +23,7 @@ function TurnOn()
     if Object.IsValid(LIGHTS) then
         LIGHTS.visibility = Visibility.INHERIT
     else
-        warn(script.name .. " - LIGHTS TurnOn():  Attempted to access an object that has been destroyed.")
+        --warn(script.name .. " - LIGHTS TurnOn():  Attempted to access an object that has been destroyed.")
     end
 end
 

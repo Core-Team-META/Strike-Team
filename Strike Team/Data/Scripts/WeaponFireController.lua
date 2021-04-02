@@ -59,7 +59,7 @@ function FireAbility()
     else
         while true do
             if not Object.IsValid(WEAPON) then
-                warn(script.name .. " - FireAbility():  Attempted to access an object that has been destroyed.")
+                --warn(script.name .. " - FireAbility():  Attempted to access an object that has been destroyed.")
                 return
             end
             if CheckFiring() or WEAPON.clientUserData.SHOOT_ABILITY.owner ~= LOCAL_PLAYER then
