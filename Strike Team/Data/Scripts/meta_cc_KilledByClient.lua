@@ -233,10 +233,8 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
             MAIN_PANEL.visibility = Visibility.FORCE_ON
         end
 
-
         EaseUI.EaseX(MAIN_PANEL, 0, 0.5, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.INOUT)
  
-
         -- If reset timer is already running and player receives damage, cancel and start a new one
         if (killedByTask and killedByTask:GetStatus() == TaskStatus.RUNNING) then
             killedByTask:Cancel()
@@ -263,7 +261,7 @@ function OnDamaged(damageAmount, player, sourcePlayer, weapon)
     if Object.IsValid(sourcePlayer) and damageAmount ~= 0 then
    
         -- Set initial damage to self, 
-        if (player.clientUserData.KilledBy or player.clientUserData.KilledBy[sourcePlayer.name] == nil) then
+        if (not player.clientUserData.KilledBy or player.clientUserData.KilledBy[sourcePlayer.name] == nil) then
 
             player.clientUserData.KilledBy[sourcePlayer.name] = {}
             player.clientUserData.KilledBy[sourcePlayer.name].damager = sourcePlayer
