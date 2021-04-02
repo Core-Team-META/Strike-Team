@@ -348,7 +348,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: 675.683105
-            Volume: 1
+            Volume: 0.9
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
@@ -476,7 +476,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -615.810181
-            Volume: 1.55653143
+            Volume: 1.2
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
@@ -515,9 +515,9 @@ Assets {
           }
           AutoPlay: true
           Pitch: -1158.27258
-          Volume: 2.28847671
-          Falloff: -1
-          Radius: -1
+          Volume: 1.5
+          Falloff: 3600
+          Radius: 400
           EnableOcclusion: true
           FadeOutTime: 0.4
           IsSpatializationEnabled: true
@@ -555,8 +555,8 @@ Assets {
           }
           AutoPlay: true
           Volume: 1
-          Falloff: -1
-          Radius: -1
+          Falloff: 3600
+          Radius: 400
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
