@@ -7,7 +7,7 @@ Assets {
       RootId: 18237460221345951666
       Objects {
         Id: 18237460221345951666
-        Name: "Plasma Ball Projectile VFX"
+        Name: "Plasma Ball Projectile"
         Transform {
           Scale {
             X: 1
@@ -19,11 +19,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 2
+            Float: 0
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 0.534603238
+            Float: 0.229848981
           }
           Overrides {
             Name: "bp:Color"

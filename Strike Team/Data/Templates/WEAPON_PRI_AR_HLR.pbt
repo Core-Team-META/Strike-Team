@@ -168,7 +168,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 6
+            BurstDuration: 3.5
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 1e+07

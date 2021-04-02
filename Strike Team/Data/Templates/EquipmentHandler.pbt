@@ -1039,11 +1039,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -1231,11 +1231,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -1281,7 +1281,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -2509,11 +2509,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -2651,11 +2651,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -2705,7 +2705,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
         }
         Collidable_v2 {
@@ -3612,11 +3612,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -3714,7 +3714,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -3806,11 +3806,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -4713,11 +4713,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -4855,11 +4855,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -4909,7 +4909,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
         }
         Collidable_v2 {
@@ -5820,11 +5820,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -5922,7 +5922,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -6018,11 +6018,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -6928,11 +6928,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -7074,11 +7074,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -8210,11 +8210,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -8356,11 +8356,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -9193,11 +9193,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -9245,7 +9245,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -9395,11 +9395,11 @@ Assets {
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
         }
         Collidable_v2 {
@@ -13840,7 +13840,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event2"
+            String: "Melted"
           }
         }
         Collidable_v2 {
@@ -14291,7 +14291,7 @@ Assets {
       }
       Objects {
         Id: 17514011301416320851
-        Name: "DiscoBall"
+        Name: "Disco Ball"
         Transform {
           Location {
           }
@@ -14333,7 +14333,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Description"
-            String: "A medical kit that is used to restore health."
+            String: "A funky jam that makes people bust-a-groove"
           }
           Overrides {
             Name: "cs:RotationOffset"

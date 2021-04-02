@@ -14785,7 +14785,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Override"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
