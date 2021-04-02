@@ -37,7 +37,6 @@ function NewState:Enter(player, time)
     local Stances = {
         "unarmed_dance_party",
         "unarmed_dance_basic",
-        "unarmed_waiting",
     }
     player.animationStance = Stances[math.random(#Stances)]
 end

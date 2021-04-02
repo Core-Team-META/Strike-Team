@@ -139,9 +139,9 @@ Assets {
           }
           AutoPlay: true
           Pitch: 1366.87378
-          Volume: 0.674205482
-          Falloff: -1
-          Radius: -1
+          Volume: 0.5
+          Falloff: 3600
+          Radius: 400
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -435,9 +435,9 @@ Assets {
           }
           AutoPlay: true
           Pitch: 2400
-          Volume: 1
-          Falloff: -1
-          Radius: -1
+          Volume: 1.2
+          Falloff: 4000
+          Radius: 600
           EnableOcclusion: true
           FadeOutTime: 0.6
           IsSpatializationEnabled: true
@@ -475,9 +475,9 @@ Assets {
           }
           AutoPlay: true
           Pitch: -848.139404
-          Volume: 1
-          Falloff: -1
-          Radius: -1
+          Volume: 0.6
+          Falloff: 3600
+          Radius: 400
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true

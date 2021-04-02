@@ -824,10 +824,6 @@ Objects {
   Id: 16650749309047732800
   Name: "EquipmentHandler"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
