@@ -1497,7 +1497,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Uncommon"
+            String: "Common"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -1547,7 +1547,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Uncommon"
+            String: "Rare"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -1597,7 +1597,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Uncommon"
+            String: "Common"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -6239,7 +6239,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Uncommon"
+            String: "Common"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -6289,7 +6289,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Uncommon"
+            String: "Rare"
           }
           Overrides {
             Name: "cs:EventSkin"
@@ -6339,7 +6339,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Uncommon"
+            String: "Rare"
           }
           Overrides {
             Name: "cs:EventSkin"
