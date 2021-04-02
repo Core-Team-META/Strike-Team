@@ -63,7 +63,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 16.6326714
+            Float: 2.57039189
           }
           Overrides {
             Name: "bp:Enable Electrical Elements"
@@ -120,9 +120,9 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 0.9
-            Y: 0.3
-            Z: 0.9
+            X: 0.370723665
+            Y: 0.123574704
+            Z: 0.370723665
           }
         }
         ParentId: 1569533411714719327
@@ -133,7 +133,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 16.6326714
+            Float: 2.57039189
           }
           Overrides {
             Name: "bp:Enable Electrical Elements"
@@ -476,7 +476,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -615.810181
-            Volume: 1.2
+            Volume: 0.533846676
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
@@ -554,7 +554,7 @@ Assets {
             Id: 1038992673504898225
           }
           AutoPlay: true
-          Volume: 1
+          Volume: 0.555727661
           Falloff: 3600
           Radius: 400
           EnableOcclusion: true
