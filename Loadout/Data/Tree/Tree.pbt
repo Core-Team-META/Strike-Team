@@ -839,6 +839,45 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 426292628173465319
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 610984042418451126
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 632559071575903300
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 777066251803753357
       value {
         Overrides {
@@ -854,6 +893,292 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 777263062239339411
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1502303244234143583
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1766782966093182782
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3672454329386532660
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4606099385579927438
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5320443501407893137
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5602401040832642862
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6795119575436924213
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8493218010441552243
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9069956626039869401
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10436329105236863285
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12199996850004470961
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14277925987559253521
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14424382974968768589
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14773525529189950569
+      value {
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Melted"
+        }
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15539755853362615464
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16060087819199806012
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16466687462057546549
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17006817971006769556
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17195107688625861864
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17377284886689947005
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Stpat"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17742434377562275300
+      value {
+        Overrides {
+          Name: "cs:EventSkin"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:Rarity"
+          String: "Easter"
         }
       }
     }

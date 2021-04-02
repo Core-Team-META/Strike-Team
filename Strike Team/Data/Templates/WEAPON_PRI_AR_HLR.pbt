@@ -168,7 +168,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 3
+            BurstDuration: 6
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
             Range: 1e+07
@@ -181,11 +181,10 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 2000
+            ProjectileSpeed: 8000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
-            ProjectileBounces: 1
             SpreadMax: 1
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.3
