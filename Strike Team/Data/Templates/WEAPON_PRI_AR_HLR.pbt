@@ -135,7 +135,7 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 6588076049927265668
+              Id: 3657063835826879147
             }
             MuzzleFlashAssetRef {
               Id: 16969577080400235451
@@ -181,10 +181,11 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 10000
+            ProjectileSpeed: 25000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
+            ProjectileDrag: -0.5
             SpreadMax: 1
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.3

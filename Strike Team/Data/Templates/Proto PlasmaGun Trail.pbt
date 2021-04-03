@@ -17,7 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 10058871816029399416
-        ChildIds: 12294946726047245669
+        ChildIds: 2879621207993195654
         UnregisteredParameters {
         }
         Lifespan: 2
@@ -39,13 +39,14 @@ Assets {
         Name: "Magic Projectile VFX"
         Transform {
           Location {
+            X: -275
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.55
+            Y: 0.55
+            Z: 0.55
           }
         }
         ParentId: 1038488096197204418
@@ -61,7 +62,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 14.4094486
+            Float: 13.409
           }
           Overrides {
             Name: "bp:Secondary Color"
@@ -73,7 +74,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Secondary Emissive Boost"
-            Float: 18.661417
+            Float: 13.661
           }
           Overrides {
             Name: "bp:Density"
@@ -81,11 +82,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 1.2
+            Float: 1.1
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.239909694
+            Float: 0.32
           }
           Overrides {
             Name: "bp:Color"
@@ -94,6 +95,18 @@ Assets {
               B: 14.5000114
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Enable Main Trail"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Enable Center Trail"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Enable Sparks"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -120,59 +133,57 @@ Assets {
         }
       }
       Objects {
-        Id: 12294946726047245669
-        Name: "Railgun Projectile"
+        Id: 2879621207993195654
+        Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
+            X: -275
           }
           Rotation {
           }
           Scale {
-            X: 0.25
-            Y: 0.25
-            Z: 0.25
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 1038488096197204418
         UnregisteredParameters {
           Overrides {
+            Name: "bp:Color"
+            Color {
+              G: 15
+              B: 14.5000114
+              A: 1
+            }
+          }
+          Overrides {
             Name: "bp:ColorB"
             Color {
-              R: 0.191069975
-              G: 0.990000069
-              B: 0.963369668
+              G: 0.635416687
+              B: 0.614236772
               A: 1
             }
           }
           Overrides {
             Name: "bp:ColorC"
             Color {
-              R: 0.0580929928
-              G: 0.301000029
-              B: 0.292903304
+              G: 0.34375
+              B: 0.33229202
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 25.1181087
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 0.25
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.45
-              G: 0.83609271
-              B: 1
-              A: 1
-            }
+            Float: 7
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 1.15
+            Float: 0.55
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.32
           }
         }
         Collidable_v2 {
@@ -195,7 +206,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:critical"
+          Value: "mc:eproxyrelevance:high"
         }
       }
     }
