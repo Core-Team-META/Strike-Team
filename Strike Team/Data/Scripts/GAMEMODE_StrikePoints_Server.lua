@@ -28,6 +28,7 @@ end
 local myId = ROOT:GetCustomProperty("ID")
 local HILL_TEMPLATE = script:GetCustomProperty("KingOfHills_HillTemplate")
 local CHOPPER_TEMPLATE = script:GetCustomProperty("Chopper")
+local CHOPPER_START_POSITION = script:GetCustomProperty("ChopperStartPosition"):WaitForObject():GetWorldPosition()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -102,7 +103,8 @@ function OnGameTypeStart(id)
         Log("Enabling")
         GT_API.CleanUp(SPAWNED_OBJECTS)
         GT_API.SpawnAsset(GT_API.GetRespawnSettings(myId), {parent = SPAWNED_OBJECTS})
-        chopper = GT_API.SpawnAsset(CHOPPER_TEMPLATE, {position = Vector3.New(-7000,7000,4500)})
+        
+        chopper = GT_API.SpawnAsset(CHOPPER_TEMPLATE, {position = CHOPPER_START_POSITION})
     end
 end
 

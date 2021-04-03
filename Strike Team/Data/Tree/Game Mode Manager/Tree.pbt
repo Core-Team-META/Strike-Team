@@ -1806,6 +1806,7 @@ Objects {
   ParentId: 11044040963800678350
   ChildIds: 16063919945274937568
   ChildIds: 15343589142564657865
+  ChildIds: 18130579162734350207
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
@@ -1852,6 +1853,37 @@ Objects {
       Int: 5
     }
   }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18130579162734350207
+  Name: "ChopperMapCenter"
+  Transform {
+    Location {
+      X: 700
+      Y: 7200
+      Z: 4500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2422145611934173127
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2292,6 +2324,7 @@ Objects {
   }
   ParentId: 2422145611934173127
   ChildIds: 16411445417820320033
+  ChildIds: 10647260650836179145
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2303,6 +2336,37 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+}
+Objects {
+  Id: 10647260650836179145
+  Name: "Chopper Start Position"
+  Transform {
+    Location {
+      X: -5500
+      Y: 7200
+      Z: 4500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16063919945274937568
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
   }
 }
 Objects {
@@ -2343,6 +2407,12 @@ Objects {
       Name: "cs:Chopper"
       AssetReference {
         Id: 9253170342008343433
+      }
+    }
+    Overrides {
+      Name: "cs:ChopperStartPosition"
+      ObjectReference {
+        SelfId: 10647260650836179145
       }
     }
     Overrides {
