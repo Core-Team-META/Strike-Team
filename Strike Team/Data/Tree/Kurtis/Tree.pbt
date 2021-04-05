@@ -1,9 +1,13 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
-  Id: 11752930811346936600
-  Name: "Proto PlasmaGun Muzzle Flash"
+  Id: 15948567674480456216
+  Name: "RichTextExample"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -11,36 +15,79 @@ Objects {
     }
   }
   ParentId: 10477958480793043052
+  ChildIds: 9472390524251662853
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1569533411714719327
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Proto PlasmaGun Muzzle Flash"
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 15948567674480456216
+    SubobjectId: 8542794916495500624
+    InstanceId: 222179726257204090
+    TemplateId: 17186813151703232486
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 9472390524251662853
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15948567674480456216
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:static"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 36.284317
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
         }
       }
     }
-    TemplateAsset {
-      Id: 16969577080400235451
-    }
+  }
+  InstanceHistory {
+    SelfId: 9472390524251662853
+    SubobjectId: 2931310664181792077
+    InstanceId: 222179726257204090
+    TemplateId: 17186813151703232486
   }
 }
 Objects {

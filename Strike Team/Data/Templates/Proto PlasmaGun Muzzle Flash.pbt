@@ -250,7 +250,7 @@ Assets {
             Id: 14705322724095957857
           }
           AutoPlay: true
-          Pitch: 6000
+          Pitch: -138.075195
           Volume: 0.907018065
           Falloff: 3600
           Radius: 400
