@@ -15,10 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 17890723864280631686
-        ChildIds: 13413222894026340784
-        ChildIds: 3483879329026451088
+        ParentId: 10477958480793043052
+        ChildIds: 3267214802592589088
         ChildIds: 10314513506134131887
         ChildIds: 10284508990012734494
         ChildIds: 3183456010115657079
@@ -39,147 +37,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17890723864280631686
-        Name: "RailGun Muzzleflash"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.2
-            Y: 0.9
-            Z: 0.02
-          }
-        }
-        ParentId: 1569533411714719327
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 2.57039189
-          }
-          Overrides {
-            Name: "bp:Enable Electrical Elements"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Plasma Elements"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Ring"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.191069975
-              G: 0.990000069
-              B: 0.963369846
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17109694252662996424
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:high"
-        }
-      }
-      Objects {
-        Id: 13413222894026340784
-        Name: "RailGun Muzzleflash"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.370723665
-            Y: 0.123574704
-            Z: 0.370723665
-          }
-        }
-        ParentId: 1569533411714719327
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.204795718
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 2.57039189
-          }
-          Overrides {
-            Name: "bp:Enable Electrical Elements"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Plasma Elements"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Ring"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.191069975
-              G: 0.990000069
-              B: 0.963369846
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17109694252662996424
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:low"
-        }
-      }
-      Objects {
-        Id: 3483879329026451088
+        Id: 3267214802592589088
         Name: "Advanced Muzzleflash VFX"
         Transform {
           Location {
@@ -188,8 +46,8 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 0.2
-            Y: 0.5
+            X: 1
+            Y: 1
             Z: 1
           }
         }
@@ -202,15 +60,22 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.191069975
-              G: 0.990000069
-              B: 0.963369846
+              G: 0.682119131
+              B: 1
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 12
+            Float: 9.15206242
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.563934445
+          }
+          Overrides {
+            Name: "bp:Base Flare Rotation"
+            Float: 0.0754098892
           }
         }
         Collidable_v2 {
@@ -265,7 +130,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life Max"
-            Float: 0.5
+            Float: 0.727237165
           }
           Overrides {
             Name: "bp:Edge Color"
@@ -274,6 +139,12 @@ Assets {
               G: 0.990000069
               B: 0.963369846
               A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Appearance"
+            Enum {
+              Value: "mc:ecastringappearance:newenumerator0"
             }
           }
         }
@@ -464,15 +335,6 @@ Assets {
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
-      }
-    }
-    Assets {
-      Id: 17109694252662996424
-      Name: "Plasma Muzzleflash VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_plasma_muzzleflash"
       }
     }
     Assets {

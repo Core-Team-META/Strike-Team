@@ -1,6 +1,49 @@
 Name: "Kurtis"
 RootId: 10477958480793043052
 Objects {
+  Id: 11752930811346936600
+  Name: "Proto PlasmaGun Muzzle Flash"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10477958480793043052
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1569533411714719327
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Proto PlasmaGun Muzzle Flash"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 36.284317
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16969577080400235451
+    }
+  }
+}
+Objects {
   Id: 1157562701670756106
   Name: "UI Container"
   Transform {
@@ -178,33 +221,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Endgame-ToggleUI"
-  }
-}
-Objects {
-  Id: 11161596542682807598
-  Name: "Event Double XP Cash Notifier"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10477958480793043052
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
   }
 }
 Objects {

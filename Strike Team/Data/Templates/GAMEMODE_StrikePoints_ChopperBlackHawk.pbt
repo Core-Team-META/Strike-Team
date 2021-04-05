@@ -15337,7 +15337,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 704483541081345999
+              Id: 11436023202306815330
             }
           }
           Overrides {
@@ -15400,7 +15400,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 704483541081345999
+              Id: 11436023202306815330
             }
           }
           Overrides {
@@ -15525,7 +15525,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 704483541081345999
+              Id: 11436023202306815330
             }
           }
           Overrides {
@@ -15585,7 +15585,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 704483541081345999
+              Id: 11436023202306815330
             }
           }
           Overrides {
@@ -15661,7 +15661,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
+              R: 0.309999943
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10184847056121543272
             }
           }
         }
@@ -15727,7 +15734,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:color"
             Color {
+              R: 0.309999943
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 10184847056121543272
             }
           }
         }
@@ -16381,6 +16395,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_sphere_002"
+      }
+    }
+    Assets {
+      Id: 11436023202306815330
+      Name: "Plastic Matte"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "plastic_matte_001"
       }
     }
     Assets {
