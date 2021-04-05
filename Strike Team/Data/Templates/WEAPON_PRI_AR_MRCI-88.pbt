@@ -391,7 +391,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 55
+            Float: 70
           }
         }
         Collidable_v2 {
