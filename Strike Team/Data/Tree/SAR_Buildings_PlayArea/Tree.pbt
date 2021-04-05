@@ -49701,6 +49701,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 8308395600659800317
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 8614467501951046886
       value {
         Overrides {
@@ -49708,6 +49719,17 @@ Objects {
           Vector {
             X: 172.817383
             Y: 135.992676
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11385629123079754079
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }
@@ -49770,6 +49792,28 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 8308395600659800317
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11385629123079754079
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16517545823905491799
       value {
         Overrides {
@@ -49818,6 +49862,28 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 8308395600659800317
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11385629123079754079
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16517545823905491799
       value {
@@ -49929,6 +49995,28 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 8308395600659800317
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11385629123079754079
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16517545823905491799
       value {
@@ -144466,6 +144554,17 @@ Objects {
             X: 1.02612662
             Y: 1.02612662
             Z: 1.02612662
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5844585477050518955
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }
