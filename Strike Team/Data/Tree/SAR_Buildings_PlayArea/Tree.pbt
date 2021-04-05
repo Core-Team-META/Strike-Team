@@ -144564,7 +144564,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:low"
           }
         }
       }
@@ -152711,8 +152711,8 @@ Objects {
   Name: "Extra Collider"
   Transform {
     Location {
-      X: 8.54785156
-      Y: -201.496582
+      X: 9.47900391
+      Y: -202.427734
       Z: 694.089783
     }
     Rotation {

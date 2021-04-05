@@ -387,7 +387,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 30
+            Float: 40
           }
           Overrides {
             Name: "cs:HeadshotDamage"

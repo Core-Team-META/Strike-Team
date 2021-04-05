@@ -1269,7 +1269,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:medium"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
