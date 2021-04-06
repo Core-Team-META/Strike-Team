@@ -75581,6 +75581,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1408403857211212292
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:critical"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4157976811336164832
       value {
         Overrides {
@@ -75612,6 +75623,17 @@ Objects {
           Name: "Rotation"
           Rotator {
             Roll: 4.47764349
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17199658923983500617
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -152722,7 +152744,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -152800,7 +152822,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -152839,7 +152861,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -152916,7 +152938,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -152953,7 +152975,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153031,7 +153053,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153062,7 +153084,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153122,7 +153144,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153161,7 +153183,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153224,7 +153246,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153261,7 +153283,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -153324,7 +153346,7 @@ Objects {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
-            Value: "mc:eproxyrelevance:medium"
+            Value: "mc:eproxyrelevance:critical"
           }
         }
       }

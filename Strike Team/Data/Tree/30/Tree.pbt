@@ -38,8 +38,8 @@ Objects {
       Name: "bp:Scene Tint"
       Color {
         R: 1
-        G: 0.316999972
-        B: 0.316999972
+        G: 0.6
+        B: 0.6
         A: 1
       }
     }

@@ -37,9 +37,9 @@ Objects {
     Overrides {
       Name: "bp:Scene Tint"
       Color {
-        R: 0.624
-        G: 0.123551972
-        B: 0.123551972
+        R: 1
+        G: 0.5
+        B: 0.5
         A: 1
       }
     }
