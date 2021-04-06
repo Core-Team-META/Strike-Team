@@ -55,7 +55,12 @@ Assets {
         Name: "cs:DanceTime"
         Float: 10
       }
+      Overrides {
+        Name: "cs:Throw"
+        ObjectReference {
+        }
+      }
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

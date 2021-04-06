@@ -343,7 +343,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9635608271034126615
+              Id: 4892551394762131903
             }
           }
           Overrides {
@@ -4628,7 +4628,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9635608271034126615
+      Id: 4892551394762131903
       Name: "Rubber Pattern 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -4902,5 +4902,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

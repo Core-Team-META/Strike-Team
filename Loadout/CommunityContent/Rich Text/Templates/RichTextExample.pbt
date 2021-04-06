@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -424,6 +424,6 @@ Assets {
   Marketplace {
     Description: "Create fancy text fields with markup!\r\n\r\nSupports a bunch of cool stuff:\r\n\r\n* Colors\r\n* Fonts\r\n* Text Size\r\n* Bold text\r\n* Drop Shadows\r\n* Embedded Images\r\n\r\nAnd more!"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

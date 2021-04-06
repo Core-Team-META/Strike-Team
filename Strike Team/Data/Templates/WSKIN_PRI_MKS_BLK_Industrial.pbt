@@ -329,13 +329,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 9635608271034126615
+              Id: 4892551394762131903
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9635608271034126615
+              Id: 4892551394762131903
             }
           }
           Overrides {
@@ -3151,7 +3151,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3998592366905403415
+              Id: 6882436735629485049
             }
           }
           Overrides {
@@ -4060,7 +4060,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9635608271034126615
+      Id: 4892551394762131903
       Name: "Rubber Pattern 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -4267,7 +4267,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3998592366905403415
+      Id: 6882436735629485049
       Name: "Glass 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -4298,5 +4298,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

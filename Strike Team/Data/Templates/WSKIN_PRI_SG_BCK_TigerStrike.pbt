@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1987,7 +1987,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7021087920380913262
+            Id: 13757155357564992657
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2507,7 +2507,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7021087920380913262
+      Id: 13757155357564992657
       Name: "Urban Vehicle Car - Single Exhaust 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2556,5 +2556,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

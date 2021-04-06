@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -275,7 +275,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 10512577683718946604
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -306,7 +306,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10512577683718946604
+      Id: 14075923036479255644
       Name: "Scorch Mark Decal"
       PlatformAssetType: 14
       PrimaryAsset {
@@ -319,5 +319,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

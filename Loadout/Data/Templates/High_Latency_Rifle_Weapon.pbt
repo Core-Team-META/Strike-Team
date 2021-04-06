@@ -135,7 +135,7 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 6588076049927265668
+              Id: 3657063835826879147
             }
             MuzzleFlashAssetRef {
               Id: 16969577080400235451
@@ -181,10 +181,11 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 8000
+            ProjectileSpeed: 25000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
+            ProjectileDrag: -0.5
             SpreadMax: 1
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.3
@@ -229,7 +230,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Ability {
           IsEnabled: true
@@ -299,7 +300,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Ability {
           IsEnabled: true
@@ -386,11 +387,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 40
+            Float: 52
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 60
+            Float: 75
           }
         }
         Collidable_v2 {
@@ -483,7 +484,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1194,5 +1195,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

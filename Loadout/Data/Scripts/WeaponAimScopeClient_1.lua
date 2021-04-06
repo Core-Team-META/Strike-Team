@@ -98,7 +98,7 @@ end
 function LerpCamera(deltaTime)
     if not activeCamera then return end
     if lerpTime >= 1 then
-        if isScoping and scopeInstance and not scopeInstance:IsVisibleInHierarchy() then
+        if isScoping and Object.IsValid(scopeInstance) and not scopeInstance:IsVisibleInHierarchy() then
             scopeInstance.visibility = Visibility.INHERIT
         end
         return
@@ -111,9 +111,8 @@ end
 
  -- Gets player current active camera
 function GetPlayerActiveCamera(player)
-    if not Object.IsValid(player) then
-        return nil
-    end
+    if not Object.IsValid(player)  then return end
+    if not player:IsA("Player") then return end
     
     return player:GetDefaultCamera()
     

@@ -2,7 +2,7 @@ Assets {
   Id: 1600288174066419638
   Name: "Custom Electric Surface_cyber punk"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3430737035052705761
     ParameterOverrides {

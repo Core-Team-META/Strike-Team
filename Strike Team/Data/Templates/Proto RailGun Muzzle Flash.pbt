@@ -34,7 +34,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -223,7 +223,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 24329612952316757
+            Id: 1338486902032220300
           }
           TeamSettings {
           }
@@ -512,7 +512,7 @@ Assets {
       }
     }
     Assets {
-      Id: 24329612952316757
+      Id: 1338486902032220300
       Name: "Gunshot Assault Rifle Carbine Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
@@ -552,5 +552,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

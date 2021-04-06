@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -407,7 +407,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12113219327625627380
+            Id: 3449887364502239720
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -512,7 +512,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12113219327625627380
+            Id: 3449887364502239720
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2143,7 +2143,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6992134707689981462
+            Id: 11118609824896761765
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2218,7 +2218,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6992134707689981462
+            Id: 11118609824896761765
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2639,7 +2639,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13335321871186276755
+            Id: 5998725190506767023
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2691,7 +2691,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13335321871186276755
+            Id: 5998725190506767023
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3056,7 +3056,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12113219327625627380
+      Id: 3449887364502239720
       Name: "Gem - Round Polished"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3236,7 +3236,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6992134707689981462
+      Id: 11118609824896761765
       Name: "Mouse"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3245,7 +3245,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13335321871186276755
+      Id: 5998725190506767023
       Name: "Barrier Triangle Base"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3258,5 +3258,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -89,11 +89,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Primary Density"
-            Float: 5.00081444
+            Float: 4.17020082
           }
           Overrides {
             Name: "bp:Flash Scale Multiplier"
-            Float: 2.20508289
+            Float: 1.66160965
           }
           Overrides {
             Name: "bp:Enable Secondary Lines"
@@ -117,7 +117,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Primary Line Width Multiplier"
-            Float: 4.35911894
+            Float: 4.25129557
           }
           Overrides {
             Name: "bp:Color Offset A"
@@ -129,15 +129,15 @@ Assets {
           }
           Overrides {
             Name: "bp:Secondary Density"
-            Float: 3.2534821
+            Float: 2.71171737
           }
           Overrides {
             Name: "bp:Primary Line Length Multiplier"
-            Float: 0.1
+            Float: 0.15
           }
           Overrides {
             Name: "bp:Life"
-            Float: 4.21279287
+            Float: 1.79340374
           }
           Overrides {
             Name: "bp:Color B"
@@ -156,6 +156,18 @@ Assets {
               B: 0.607215
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 13.485137
+          }
+          Overrides {
+            Name: "bp:Secondary Line Width Multiplier"
+            Float: 0.5
+          }
+          Overrides {
+            Name: "bp:Secondary Line Length Multiplier"
+            Float: 0.9
           }
         }
         Collidable_v2 {
@@ -263,6 +275,14 @@ Assets {
             Name: "bp:Hot Spot Fade Time"
             Float: 2
           }
+          Overrides {
+            Name: "bp:Fade Delay"
+            Float: 0.15
+          }
+          Overrides {
+            Name: "bp:Fade Time"
+            Float: 0.8
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -319,5 +339,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -2485,7 +2485,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15706826202622395249
+            Id: 3342157363460252450
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3076,7 +3076,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15706826202622395249
+      Id: 3342157363460252450
       Name: "Modern Weapon Accessory - Laser 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3098,5 +3098,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

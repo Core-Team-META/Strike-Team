@@ -22,7 +22,7 @@ Objects {
   ChildIds: 12221334923749965969
   ChildIds: 5402828117076190083
   ChildIds: 4297970923383946370
-  ChildIds: 1445096514156745641
+  ChildIds: 2747168212937678526
   ChildIds: 7325714028980024580
   ChildIds: 11461366442528337505
   ChildIds: 12611728433761790103
@@ -45,7 +45,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
   }
@@ -360,7 +360,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -727,7 +727,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -821,7 +821,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1445096514156745641
+  Id: 2747168212937678526
   Name: "EquipmentHandler"
   Transform {
     Location {

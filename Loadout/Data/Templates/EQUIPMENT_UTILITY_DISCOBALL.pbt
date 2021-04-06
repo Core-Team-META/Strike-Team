@@ -41,7 +41,7 @@ Assets {
           }
           Overrides {
             Name: "cs:WeaponType"
-            String: "Grenade"
+            String: "Utility"
           }
         }
         WantsNetworking: true
@@ -104,6 +104,7 @@ Assets {
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12
+            ProjectileDrag: 0.12
             DefaultAbility {
               SubObjectId: 15831973873445212260
             }
@@ -140,7 +141,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -331,7 +332,6 @@ Assets {
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:none"
             }
@@ -342,7 +342,6 @@ Assets {
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:none"
             }
@@ -391,6 +390,12 @@ Assets {
             Name: "cs:DanceTime"
             Float: 5
           }
+          Overrides {
+            Name: "cs:Throw"
+            ObjectReference {
+              SubObjectId: 4915960162478971499
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -423,5 +428,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }
