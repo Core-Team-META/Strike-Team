@@ -37,9 +37,9 @@ Objects {
     Overrides {
       Name: "bp:Scene Tint"
       Color {
-        R: 0.624
-        G: 0.123551972
-        B: 0.123551972
+        R: 1
+        G: 0.5
+        B: 0.5
         A: 1
       }
     }
@@ -59,12 +59,6 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 1460971056933877881
-    SubobjectId: 8051289949539720
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }
 Objects {
@@ -110,11 +104,5 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 3281518031789491767
-    SubobjectId: 4166032751672996806
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

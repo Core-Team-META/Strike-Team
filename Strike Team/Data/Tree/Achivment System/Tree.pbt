@@ -59,7 +59,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -10843,7 +10843,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -10882,7 +10882,7 @@ Objects {
     Overrides {
       Name: "cs:EaseUI"
       AssetReference {
-        Id: 1458786537451628614
+        Id: 1953446882420386915
       }
     }
     Overrides {

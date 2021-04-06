@@ -98,7 +98,7 @@ function Tick(deltaTime)
 		-- Did this player hit the ground since last frame
 		if not player.serverUserData.FallResistant then
 		if isGrounded and not previousGroundedStates[player] then
-			if previousFallingSpeeds[player] > MAXIMUM_SAFE_SPEED then
+			if (previousFallingSpeeds[player] or 0 ) > MAXIMUM_SAFE_SPEED then
 				-- How much damage should we deal, from none (0.0) to all (1.0)
 				local t = 1.0
 

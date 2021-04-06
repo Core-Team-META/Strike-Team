@@ -20,6 +20,7 @@ local Storage =  LOCAL_PLAYER.clientUserData.Storage
 local StarsUI = script:GetCustomProperty("Stars")
 local EventUI = script:GetCustomProperty("EventIcon")
 local Event2UI = script:GetCustomProperty("Event2Icon")
+local Rarity = {}
 
 local SpawnPanelSFX = script:GetCustomProperty("SpawnPanelSFX"):WaitForObject()
 
@@ -31,6 +32,14 @@ local EQUIPMENT_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("EQUIPMENT_EQUIP_S
 local PASSIVE_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("PASSIVE_EQUIP_SOUND")
 local SKIN_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("SKIN_EQUIP_SOUND")
 local HOVER_SOUND = SpawnPanelSFX:GetCustomProperty("HOVER_SOUND")
+local SPAWN_PANELS_RARITYS = script:GetCustomProperty("SpawnPanelsRaritys"):WaitForObject()
+
+
+
+local RichTextMgr = require(script:GetCustomProperty("_RichTextMgr"))
+local IMAGE_FOLDER = script:GetCustomProperty("ImageFolder"):WaitForObject()
+RichTextMgr.SetImageSource(IMAGE_FOLDER)
+
 
 local SoundToSlot = {
     ["Primary"] = WEAPON_EQUIP_SOUND,
@@ -92,25 +101,29 @@ function AddSort(dir)
     Sort = math.max(Sort + PanelLimit * dir,0)
     UpdatePanels()
 end
-function ReturRarityColour( rarity )
-    local Rarity_Legendary = script:GetCustomProperty("Rarity_Legendary")
-    local Rarity_Epic = script:GetCustomProperty("Rarity_Epic")
-    local Rarity_Rare = script:GetCustomProperty("Rarity_Rare")
-    local Rarity_Common = script:GetCustomProperty("Rarity_Common")
-    local Rarity_None = script:GetCustomProperty("Rarity_None")
-    local Rarity_Event = script:GetCustomProperty("Rarity_Event")
-    local Rarity_Event2 = script:GetCustomProperty("Rarity_Event2")
 
-    local VALUETABLE = {
-        ["None"] = Rarity_None,
-        ["Common"] = Rarity_Common,
-        ["Rare"] = Rarity_Rare,
-        ["Epic"] = Rarity_Epic,
-        ["Legendary"] = Rarity_Legendary,
-        ["Event"] = Rarity_Event,
-        ["Event2"] = Rarity_Event2,
-    }
-    return VALUETABLE[rarity.name] or Color.WHITE
+function RaritySetup()
+    for _,NewRarity in pairs(SPAWN_PANELS_RARITYS:GetChildren()) do 
+        Rarity[NewRarity.name] = {
+            Colour = NewRarity:GetCustomProperty("RarityColour"), 
+            Icon = NewRarity:GetCustomProperty("RarityIcon"),
+        }
+    end
+end
+RaritySetup()
+
+function ReturRarityColour( rarity )
+    if Rarity[rarity.name] then
+        return Rarity[rarity.name].Colour or Color.WHITE
+    end
+    return Color.WHITE
+end
+
+function ReturRarityIcon( rarity )
+    if Rarity[rarity.name] then
+        return Rarity[rarity.name].Icon or StarsUI
+    end
+    return StarsUI
 end
 
 function ReturRarityCount( rarity )
@@ -160,12 +173,18 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         end
     else
         if(skin) then 
-            newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d or %d Strike Coins", skin.rarity:GetCost(), skin.rarity:GetPremiumCost())
+            local textbox = newpanel:GetCustomProperty("UnlockText"):WaitForObject()
+            textbox.text = ""
+            local newText = string.format("$%d <image Cash> or %d <image StrikeCoin> ", skin.rarity:GetCost(), skin.rarity:GetPremiumCost())
+            RichTextMgr.DisplayText(textbox , newText,{leftMargin = 0, topMargin = 0, rightMargin = 0, size=14})
         else
             if item:GetLevel() > Game.GetLocalPlayer():GetResource("Level") then
                 newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("Rank %d is required", item:GetLevel())
             else
-                newpanel:GetCustomProperty("UnlockText"):WaitForObject().text = string.format("$%d", item:GetCost() )
+                local textbox = newpanel:GetCustomProperty("UnlockText"):WaitForObject()
+                textbox.text = ""
+                local newText = string.format("$%d <image Cash>", item:GetCost() )
+                RichTextMgr.DisplayText(textbox , newText,{leftMargin = 0, topMargin = 0, rightMargin = 0, size=14})
             end
         end
         newpanel.clientUserData.ButtonEvent = Button.releasedEvent:Connect(function() 
@@ -252,7 +271,6 @@ function FilterItems(Weapon,items)
     for _,item in pairs(items) do
         if item.event then 
             if Storage:HasSkin(Weapon:GetId(),item.id) then
-                print("Has")
                 table.insert( NewTable, item)
             end
         else
@@ -314,9 +332,7 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     local Ntext = newpanel:GetCustomProperty("NAME_TEXT"):WaitForObject()
     local Ttext = newpanel:GetCustomProperty("TYPE_TEXT"):WaitForObject()
     local HilightPanel = newpanel:GetCustomProperty("HilightPanel"):WaitForObject()
-    local Icon = StarsUI
-    if skins[i].rarity:GetName() == "Event" then Icon = EventUI end
-    if skins[i].rarity:GetName() == "Event2" then Icon = Event2UI end
+    local Icon = ReturRarityIcon( skins[i].rarity)
 
     for i=1,ReturRarityCount(skins[i].rarity) do
         local star = World.SpawnAsset(Icon,{parent = newpanel } )

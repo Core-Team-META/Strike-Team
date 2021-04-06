@@ -10,26 +10,117 @@ local pointsFeedbacKMainPanel = script:GetCustomProperty("PointsFeedbacKMainPane
 local mainReasonText = mainMessage:GetCustomProperty("ReasonText"):WaitForObject()
 local mainPointsText = mainMessage:GetCustomProperty("PointsText"):WaitForObject()
 
+local allText = pointsFeedbacKMainPanel:FindDescendantsByType("UIText")
+
 local messages = cyclingMessages:GetChildren()
 local messagePositions = {}
 
-local readyMessage = nil
-local readyPosition = 0
-
 local originalValue = {}
 
-local fadeTracker = {}
+local oc = {}
 
 local passToTask = {}
 local passComplete = false
 
-local skipAnimation = false
-local animationInProgress = false
-
-local fadeTask = nil
+local resetTask = nil
 local erasing = false
 
+local faded = true
+
+local addingScore = 0
+local previousAddingScore = 0
+
 local localPlayer = Game.GetLocalPlayer()
+
+local queue = {first = 0, last = -1}
+
+function PushQueue(value)
+
+	local first = queue.first - 1
+	
+	queue.first = first
+	queue[first] = value
+	
+end
+
+function PopQueue()
+
+	local last = queue.last
+	
+	if queue.first > last then 
+	
+		return nil
+		
+	end
+	
+	local value = queue[last]
+	
+	queue[last] = nil
+	queue.last = last - 1
+	
+	return value
+	
+end
+
+function FadeIn()
+	
+	local alpha = 0
+	
+	for i = 1, 20 do
+	
+		alpha = i/20
+		
+		alpha = alpha * alpha
+
+		for _, text in ipairs(allText) do
+		
+			if i < 20 then
+		
+				text:SetColor(Color.New(oc[text.id].r, oc[text.id].g, oc[text.id].b, alpha))
+					
+			else 
+				
+				text:SetColor(oc[text.id])
+					
+			end
+		
+		end
+		
+		Task.Wait(0.025)
+		
+	end
+
+end
+
+function FadeOut()
+	
+	local alpha = 1
+	
+	for i = 20, 1, -1 do
+	
+		alpha = i/20
+		
+		alpha = alpha * alpha
+
+		for _, text in ipairs(allText) do
+			
+			if i > 1 then
+		
+				text:SetColor(Color.New(oc[text.id].r, oc[text.id].g, oc[text.id].b, alpha))
+					
+			else 
+				
+				text:SetColor(Color.New(oc[text.id].r, oc[text.id].g, oc[text.id].b, 0))
+					
+			end
+		
+		end
+		
+		Task.Wait(0.025)
+		
+	end
+
+end
 
 function SetChildrenText(uiObj, _text)
 	if Object.IsValid(uiObj) and uiObj:IsA("UIText") then
@@ -43,7 +134,7 @@ function SetChildrenText(uiObj, _text)
 	end
 end
 
-function CountThisTextUp(givenText, targetNumber, extra)
+function CountThisTextUp(givenText, startingNumber, targetNumber, extra)
 	if targetNumber == 0 then
 		SetChildrenText(givenText, extra .. "0")
 
@@ -51,23 +142,28 @@ function CountThisTextUp(givenText, targetNumber, extra)
 	end
 
 	passComplete = false
-	passToTask = {givenText, targetNumber, extra}
+	passToTask = {givenText, startingNumber, targetNumber, extra}
 
 	local task =
 		Task.Spawn(
 		function()
 			local givenText = passToTask[1]
-			local targetNumber = passToTask[2]
-			local extra = passToTask[3]
+			local startingNumber = passToTask[2]
+			local targetNumber = passToTask[3]
+			local extra = passToTask[4]
 
 			passComplete = true
+			
+			if startingNumber < targetNumber then
 
-			for i = 1, targetNumber, math.ceil(targetNumber / 10) do
-				givenText.text = extra .. tostring(i)
-
-				SetChildrenText(givenText, givenText.text)
-
-				Task.Wait(0.05)
+				for i = startingNumber, targetNumber, math.ceil(math.abs(targetNumber - startingNumber) / 10) do
+					givenText.text = extra .. tostring(i)
+	
+					SetChildrenText(givenText, givenText.text)
+	
+					Task.Wait(0.05)
+					
+				end
 				
 			end
 
@@ -89,112 +185,14 @@ function CountThisTextUp(givenText, targetNumber, extra)
 	return task
 end
 
-function FadeText(givenText, fade) -- fade = true: fade in, fade = false: fade out
-
-	if not Object.IsValid(givenText) or not givenText:IsA("UIText") then
-	
-		return
-		
-	end
-	
-	if fadeTracker[givenText.id] == true then
-	
-		return
-		
-	end
-	
-	fadeTracker[givenText.id] = true
-
-	passComplete = false
-	passToTask = {givenText, fade}
-	
-	local task = 
-		Task.Spawn(
-		function()
-
-			local text = passToTask[1]
-			local fadeType = passToTask[2]
-
-			passComplete = true
-						
-			local originalColor = text:GetColor()
-			
-			local noAlpha = Color.New(originalColor.r, originalColor.g, originalColor.b, 0)
-			
-			local alphaValue = 0
-			
-			if fadeType then
-			
-				for i = 1, 20 do
-				
-					alphaValue = i/20
-					
-					alphaValue = alphaValue * alphaValue
-									
-					text:SetColor(noAlpha + Color.New(0, 0, 0, alphaValue))
-					
-					Task.Wait(0.05)
-					
-					if skipAnimation then
-				
-						return
-						
-					end
-					
-				end
-				
-				text:SetColor(noAlpha + Color.New(0, 0, 0, 1))
-				
-			else 
-			
-				for i = 20, 1, -1 do
-				
-					alphaValue = i/20
-					
-					alphaValue = alphaValue * alphaValue
-									
-					text:SetColor(noAlpha + Color.New(0, 0, 0, alphaValue))	
-					
-					Task.Wait(0.05)
-					
-					if skipAnimation then
-				
-						return
-						
-					end
-					
-				end	
-								
-				text:SetColor(noAlpha)
-				
-			end
-					
-			fadeTracker[givenText.id] = false
-		end,
-		0
-	)
-	
-	while not passComplete do
-		Task.Wait()
-	end
-
-	for i, x in pairs(passToTask) do
-		passToTask[i] = nil
-	end
-
-	passToTask = {}
-
-	return Task
-	
-end
-
-function FadeAndResetAllText()
+function ResetAllText()
 
 	Task.Wait(3)
 	
 	erasing = true
 	
-	pointsFeedbacKMainPanel.visibility = Visibility.FORCE_OFF
+	FadeOut()
+	faded = true
 	
 	SetChildrenText(mainReasonText, "")
 	SetChildrenText(mainPointsText, "")
@@ -205,6 +203,9 @@ function FadeAndResetAllText()
 	
 	end	
 	
+	addingScore = 0
+	previousAddingScore = 0
+	
 	erasing = false
 
 end
@@ -214,26 +215,33 @@ function EditResourceChangedMessage(resource, value)
 	local newResource = resource
 	local newValue = value
 	
+	local allowPlus = true
+	
 	if resource == "DamageDone" then
 	
-		newResource = "Enemy Hit +"
+		newResource = "Hit "
 		
 	elseif resource == "KillStreak" then
 	
 		newResource = "KillStreak x"
+		allowPlus = false
+		newValue = localPlayer:GetResource(resource)
 		
 	elseif resource == "Kills" then
-	
-		newResource = "Enemy Killed +"
+		
+		newResource = "Enemy Killed x"
+		allowPlus = false
 		newValue = 1
 		
-	elseif resource == "Score" then
-	
-		newResource = "Points +"
+	elseif resource == "Score" then	
+		
+		newResource = "Points "
+		addingScore = addingScore + value
 		
 	elseif resource == "Objective" then
 	
-		newResource = "Point Capped +"
+		newResource = "Point Captured x"
+		allowPlus = false
 		newValue = 1
 		
 	else 
@@ -243,19 +251,61 @@ function EditResourceChangedMessage(resource, value)
 		
 	end
 	
+	if newValue > 0 and allowPlus then
+	
+		newResource = newResource .. " +"
+		
+	end
+	
 	return {newResource, newValue}
 
 end
-	
 
+function CheckResource(resource, value)
+	
+	local pass = false
+	
+	if resource == "DamageDone" then
+	
+		pass = true
+		
+	elseif resource == "KillStreak" then
+	
+		pass = true	
+		
+	elseif resource == "Kills" then
+		
+		pass = true		
+		
+	elseif resource == "Score" then	
+		
+		pass = true	
+		
+	elseif resource == "Objective" then
+	
+		pass = true	
+				
+	end
+	
+	if pass and value > 0 then
+	
+		return true
+		
+	end
+	
+	return false
+
+end
+	
 function CycleAnimation(givenResource, givenValue)
 		
 	local result = EditResourceChangedMessage(givenResource, givenValue)
 	
-	local resource = result[1]
+	local reason = result[1]
 	local value = result[2]
 	
-	print("value: " .. tostring(value))
+	--print(givenResource .. " value: " .. tostring(value))
+	--print("addingScore: " .. tostring(addingScore))
 	
 	if value == 0 then
 	
@@ -263,27 +313,7 @@ function CycleAnimation(givenResource, givenValue)
 		
 	end
 	
-	-- Wait for current running animation to finish.
-	
-	if animationInProgress then
-
-		skipAnimation = true
-		
-		while animationInProgress do
-		
-			Task.Wait()
-			
-		end
-		
-		Task.Wait(0.2)
-		
-		skipAnimation = false
-		
-	end
-	
-	animationInProgress = true
-	
-	if fadeTask then
+	if resetTask then
 	
 		if erasing then
 		
@@ -291,25 +321,30 @@ function CycleAnimation(givenResource, givenValue)
 			
 		else 
 	
-			fadeTask:Cancel()
+			resetTask:Cancel()
 			
 		end
 		
 	end
 	
-	pointsFeedbacKMainPanel.visibility = Visibility.INHERIT
+	if faded then
 	
-	-- Fade in and set large message
+		Task.Spawn(FadeIn, 0)
+		faded = false
+		
+	end
 	
-	local reason = resource
+	if addingScore > 0 then
 	
-	SetChildrenText(mainPointsText, tostring(value))	
+		CountThisTextUp(mainPointsText, previousAddingScore, addingScore, "")
+		
+	else 
 	
-	-- Fade in and set message that will move down
-	
-	CountThisTextUp( messages[1]:GetCustomProperty("ReasonText"):WaitForObject(), value, reason)
-	
-	-- Move all messages down
+		CountThisTextUp(mainPointsText, 0, value, "")
+		
+	end
+
+	CountThisTextUp(messages[1]:GetCustomProperty("ReasonText"):WaitForObject(), 0, value, reason)
 	
 	local lastMessage = table.remove(messages)
 	table.insert(messages, 1, lastMessage)
@@ -323,31 +358,27 @@ function CycleAnimation(givenResource, givenValue)
 			
 		else 
 		
-			EaseUI.EaseY(m, messagePositions[x], 0.5, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
+			EaseUI.EaseY(m, messagePositions[x], 0.3, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.INOUT)
 		
 		end
 		
 	end
 	
-	-- Start timer to fade and erase messages
+	previousAddingScore = addingScore
 	
-	Task.Wait(0.5)
+	Task.Wait(0.3)
 	
-	fadeTask = Task.Spawn(FadeAndResetAllText, 0)
-	
-	animationInProgress = false
+	resetTask = Task.Spawn(ResetAllText, 0)
 
 end
 
 function OnResourceChanged(player, resourceName, resourceValue)
 
-	if resourceName == "Score Total" or resourceValue == 0 then 
+	if not CheckResource(resourceName, resourceValue) then
 	
 		return
 		
 	end
-
-	print("Resource Changed " .. resourceName)
 	
 	if not originalValue[resourceName] then
 	
@@ -355,15 +386,54 @@ function OnResourceChanged(player, resourceName, resourceValue)
 		
 	end
 	
-	CycleAnimation(resourceName, resourceValue - originalValue[resourceName])
+	--print("Resource " .. resourceName .. " has value " .. tostring(resourceValue) .. " Difference: " .. tostring(resourceValue - originalValue[resourceName]))
+	
+	PushQueue({resourceName, resourceValue - originalValue[resourceName]})
 	
 	originalValue[resourceName] = resourceValue
 
 end
 
+function ResetResources()
+
+	Task.Wait(1)
+	
+	--print("Resetting Resources")
+
+	for resource, value in pairs(originalValue) do
+	
+		--print(resource .. ": " .. tostring(value))
+	
+		if localPlayer:GetResource(resource) == 0 then
+		
+			originalValue[resource] = 0
+			
+		end
+		
+	end
+
+
+end
+
+function HideFeed()
+
+	pointsFeedbacKMainPanel.parent.visibility = Visibility.FORCE_OFF
+
+end
+
+function ShowFeed()
+
+	pointsFeedbacKMainPanel.parent.visibility = Visibility.INHERIT
+
+end
+
 function Initialize()
 
-	pointsFeedbacKMainPanel.visibility = Visibility.FORCE_OFF
+	for _, text in ipairs(allText) do
+	
+		oc[text.id] = text:GetColor()
+		
+	end
 
 	for x, m in ipairs(messages) do
 	
@@ -376,10 +446,28 @@ function Initialize()
 		table.insert(messagePositions, m.y)
 		
 	end
+end
 
+function Tick()
+
+	local newMessage = PopQueue()
 	
-	localPlayer.resourceChangedEvent:Connect(OnResourceChanged)
+	if not newMessage then
+	
+		return
+		
+	end
+	
+	CycleAnimation(newMessage[1], newMessage[2])
+	
+	Task.Wait(0.1)
 
 end
 
--- Initialize()
+Initialize()
+
+localPlayer.resourceChangedEvent:Connect(OnResourceChanged)
+Game.roundStartEvent:Connect(ResetResources)
+
+Events.Connect("HideUI", HideFeed)
+Events.Connect("ShowUI", ShowFeed)

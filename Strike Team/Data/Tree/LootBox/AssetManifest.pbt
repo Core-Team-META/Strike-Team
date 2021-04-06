@@ -143,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11436023202306815330
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
   Id: 11174893708574738367
   Name: "Military Ammo Crate Small"
   PlatformAssetType: 1

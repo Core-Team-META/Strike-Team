@@ -266,13 +266,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 1178817802251444676
-    SubobjectId: 16086570097188718822
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
-    WasRoot: true
-  }
 }
 Objects {
   Id: 4142355757297100730
@@ -302,12 +295,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 4142355757297100730
-    SubobjectId: 17734718294272544408
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
   }
 }
 Objects {
@@ -352,12 +339,6 @@ Objects {
     ScriptAsset {
       Id: 18347967775460952926
     }
-  }
-  InstanceHistory {
-    SelfId: 12164164054030005643
-    SubobjectId: 7470680187010079913
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
   }
 }
 Objects {
@@ -459,12 +440,6 @@ Objects {
     ScriptAsset {
       Id: 2116866938673166392
     }
-  }
-  InstanceHistory {
-    SelfId: 4422093152864602407
-    SubobjectId: 17454989556266754053
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
   }
 }
 Objects {

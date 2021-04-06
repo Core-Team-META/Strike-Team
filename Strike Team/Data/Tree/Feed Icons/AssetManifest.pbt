@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17289448223043935888
+  Name: "UI Gradient Rectangular 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Shape_002"
+  }
+}
+Assets {
   Id: 16879127747257565034
   Name: "Planet"
   PlatformAssetType: 9
@@ -203,6 +212,24 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Weapon_SniperRifle_004"
+  }
+}
+Assets {
+  Id: 4122335080923778541
+  Name: "Sci-fi Weapon Gun 023"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Weapon_Gun_023"
+  }
+}
+Assets {
+  Id: 4118856167718178250
+  Name: "Weapon Sniper Rifle 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_SniperRifle_001"
   }
 }
 Assets {

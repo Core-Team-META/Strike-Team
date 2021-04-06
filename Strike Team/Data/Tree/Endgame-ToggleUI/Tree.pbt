@@ -53,7 +53,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -77,7 +77,7 @@ Objects {
     Overrides {
       Name: "cs:Confetti_Victory_Template"
       AssetReference {
-        Id: 8396697839431648410
+        Id: 841534158063459245
       }
     }
   }
@@ -4078,12 +4078,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16248654295671479212
-    SubobjectId: 4312155992633436194
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
   Id: 13142432751381074788
@@ -4142,12 +4136,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 6365350350994169273
-    SubobjectId: 9439350833189301815
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
   }
 }
 Objects {
@@ -4209,12 +4197,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12211347479299799929
-    SubobjectId: 8349216501754349815
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
-  }
 }
 Objects {
   Id: 15112980631173529129
@@ -4274,12 +4256,6 @@ Objects {
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 12211347479299799929
-    SubobjectId: 8349216501754349815
-    InstanceId: 7449925265991994361
-    TemplateId: 12784020134702693331
   }
 }
 Objects {
@@ -4389,44 +4365,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 16003379672833972719
-    }
-  }
-}
-Objects {
-  Id: 15556606984996189360
-  Name: "VictoryScreen_Actions_Server"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1767098222894358513
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:MageElfAnimorphPotionAttachmentBasic"
-      AssetReference {
-        Id: 4202313060147102476
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4210065117582636762
     }
   }
 }

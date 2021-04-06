@@ -27,6 +27,10 @@ function OnProjectileImpact(projectile, other, hitResult)
 	else
 		World.SpawnAsset(BOUNCE_SOUND, {position = pos})
 	end
+
+	if projectile.bouncesRemaining == 0 then
+        Blast(projectile:GetWorldPosition(), projectile.owner)
+	end
 end
 
 

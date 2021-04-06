@@ -25,15 +25,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 11800027962501352336
-    SubobjectId: 13229584614921043553
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }
 Objects {
@@ -102,12 +96,6 @@ Objects {
     ScriptAsset {
       Id: 5005906046061439436
     }
-  }
-  InstanceHistory {
-    SelfId: 3003587611444483940
-    SubobjectId: 4464211755105460885
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }
 Objects {
@@ -205,11 +193,5 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Post"
-  }
-  InstanceHistory {
-    SelfId: 13762199270860055975
-    SubobjectId: 12297031120696266838
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

@@ -104,6 +104,7 @@ if Environment.IsClient() then
     local LOCAL_PLAYER = Game.GetLocalPlayer()
     
     function Playerjoined(player)
+        if not Object.IsValid(player) then return end 
         player.clientUserData.XP = XP.New(player)
     end
 

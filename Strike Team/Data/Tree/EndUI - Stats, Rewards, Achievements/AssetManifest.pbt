@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17696531540460943644
+  Name: "Fantasy Trophy 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Trophy_003"
+  }
+}
+Assets {
   Id: 17295190023580670108
   Name: "Fantasy Medal 002"
   PlatformAssetType: 9
@@ -53,30 +62,21 @@ Assets {
   }
 }
 Assets {
-  Id: 13187462702901732575
-  Name: "Money"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Urban_Icon_046"
-  }
-}
-Assets {
-  Id: 12570125024485235394
-  Name: "Icon Grenade"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Grenade"
-  }
-}
-Assets {
   Id: 12518523058896282728
   Name: "Flag Pole"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Military_Icon_038"
+  }
+}
+Assets {
+  Id: 12175762712311518774
+  Name: "Survival First Aid 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_FirstAid_002"
   }
 }
 Assets {
@@ -107,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7387673503276873905
+  Name: "UI Basic Shape Square"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Shape_Square"
+  }
+}
+Assets {
   Id: 7294692278211928688
   Name: "Unlock"
   PlatformAssetType: 9
@@ -116,30 +125,30 @@ Assets {
   }
 }
 Assets {
-  Id: 6806410714965076892
-  Name: "Icon Trophy"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Trophy"
-  }
-}
-Assets {
-  Id: 5117682363935586293
-  Name: "Icon Chest"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Chest"
-  }
-}
-Assets {
   Id: 3827265796245897469
   Name: "BG Highlighted 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 3590154927362776677
+  Name: "Weapon Grenade 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Weapon_Grenade_002"
+  }
+}
+Assets {
+  Id: 3031555368145541451
+  Name: "Fantasy Chest 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Chest_003"
   }
 }
 Assets {
@@ -170,15 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1641512795081380093
-  Name: "Oswald"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "OswaldRegular_ref"
-  }
-}
-Assets {
   Id: 622433789355555801
   Name: "BG Flat 001"
   PlatformAssetType: 9
@@ -203,14 +203,5 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_Explosion"
-  }
-}
-Assets {
-  Id: 96162478431907100
-  Name: "UI Gradient Circular 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_001"
   }
 }

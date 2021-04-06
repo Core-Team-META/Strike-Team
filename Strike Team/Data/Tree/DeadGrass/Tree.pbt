@@ -37,7 +37,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -77,7 +77,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -118,7 +118,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -159,7 +159,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -200,7 +200,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -241,7 +241,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -282,7 +282,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -323,7 +323,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -364,7 +364,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -405,7 +405,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -446,7 +446,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -486,7 +486,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -526,7 +526,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -566,7 +566,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -606,7 +606,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -646,7 +646,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -686,7 +686,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -726,7 +726,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -766,7 +766,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -806,7 +806,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -846,7 +846,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -886,7 +886,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -926,7 +926,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -966,7 +966,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -1006,7 +1006,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -1046,7 +1046,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -1086,7 +1086,7 @@ Objects {
     }
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -1139,6 +1139,12 @@ Objects {
             X: 1.16412389
             Y: 1.16412389
             Z: 1.16412389
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }
@@ -1199,6 +1205,12 @@ Objects {
             Z: 1.16412389
           }
         }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -1255,6 +1267,12 @@ Objects {
             X: 1.16412389
             Y: 1.16412389
             Z: 1.16412389
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }
@@ -1316,6 +1334,12 @@ Objects {
             Z: 1.16412389
           }
         }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -1375,6 +1399,12 @@ Objects {
             Z: 1.16412389
           }
         }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -1424,6 +1454,12 @@ Objects {
             X: 1.16412389
             Y: 1.16412389
             Z: 1.16412389
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }
@@ -1483,6 +1519,12 @@ Objects {
             X: 1.16412389
             Y: 1.16412389
             Z: 1.16412389
+          }
+        }
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }

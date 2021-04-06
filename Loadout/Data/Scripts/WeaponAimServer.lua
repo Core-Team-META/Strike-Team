@@ -70,7 +70,7 @@ function SetAimingSpeed(player)
             speedReduced = player.maxWalkSpeed * AIM_WALK_SPEED_PERCENTAGE
             player.maxWalkSpeed = player.maxWalkSpeed - speedReduced
         end
-        player.animationStance = AIM_ACTIVE_STANCE
+        --player.animationStance = AIM_ACTIVE_STANCE
     end
 end
 
@@ -81,7 +81,7 @@ function ResetPlayerSpeed(player)
             player.maxWalkSpeed = player.maxWalkSpeed + speedReduced
             speedReduced = 0
         end
-        player.animationStance = WEAPON.animationStance
+        --player.animationStance = WEAPON.animationStance
     end
 end
 
@@ -123,7 +123,7 @@ function OnUnequipped(weapon, player)
 
     -- Reset player speed and animation stance on unequip
     ResetPlayerSpeed(player)
-    player.animationStance = UNARMED_STANCE
+    --player.animationStance = UNARMED_STANCE
 end
 
 -- Connecting weapon event to functions

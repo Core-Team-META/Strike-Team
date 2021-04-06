@@ -60,12 +60,6 @@ Objects {
     TeamSettings {
     }
   }
-  InstanceHistory {
-    SelfId: 5399139026910008178
-    SubobjectId: 6825042104925677187
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
-  }
 }
 Objects {
   Id: 2533864862438987519
@@ -110,11 +104,5 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 2533864862438987519
-    SubobjectId: 3994951659850801934
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

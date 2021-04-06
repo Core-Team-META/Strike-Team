@@ -51,13 +51,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 5643621584690699170
-    SubobjectId: 7840478093453456171
-    InstanceId: 1707190303206462119
-    TemplateId: 8585645546693573788
-    WasRoot: true
-  }
 }
 Objects {
   Id: 15556342398574729193
@@ -85,12 +78,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 15556342398574729193
-    SubobjectId: 17690113337143344992
-    InstanceId: 1707190303206462119
-    TemplateId: 8585645546693573788
   }
 }
 Objects {
@@ -136,12 +123,6 @@ Objects {
       Id: 4128634987527119358
     }
   }
-  InstanceHistory {
-    SelfId: 11412514347703215723
-    SubobjectId: 13618243099847757538
-    InstanceId: 1707190303206462119
-    TemplateId: 8585645546693573788
-  }
 }
 Objects {
   Id: 3138148297700067768
@@ -186,12 +167,6 @@ Objects {
       Id: 8228003416186533383
     }
   }
-  InstanceHistory {
-    SelfId: 3138148297700067768
-    SubobjectId: 653061421539123505
-    InstanceId: 1707190303206462119
-    TemplateId: 8585645546693573788
-  }
 }
 Objects {
   Id: 12602302228844087170
@@ -226,13 +201,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12602302228844087170
-    SubobjectId: 18143788354451018607
-    InstanceId: 10714508735548485755
-    TemplateId: 15791224694864524763
-    WasRoot: true
-  }
 }
 Objects {
   Id: 14293672205386529631
@@ -262,12 +230,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 14293672205386529631
-    SubobjectId: 10624734070703239090
-    InstanceId: 10714508735548485755
-    TemplateId: 15791224694864524763
   }
 }
 Objects {
@@ -316,12 +278,6 @@ Objects {
     }
     MinPitch: -89
     MaxPitch: 89
-  }
-  InstanceHistory {
-    SelfId: 1383438913860080450
-    SubobjectId: 5052201122922792879
-    InstanceId: 10714508735548485755
-    TemplateId: 15791224694864524763
   }
 }
 Objects {
@@ -520,12 +476,6 @@ Objects {
       CanMoveDown: true
       MaxHitpoints: 100
     }
-  }
-  InstanceHistory {
-    SelfId: 6040031201152220356
-    SubobjectId: 503681998163126313
-    InstanceId: 10714508735548485755
-    TemplateId: 15791224694864524763
   }
 }
 Objects {
@@ -1229,8 +1179,8 @@ Objects {
       RelevanceSettings {
         key: "decal"
         value {
-          LowDistance: 4500
-          MediumDistance: 7000
+          LowDistance: 2000
+          MediumDistance: 5800
           HighDistance: 9000
         }
       }
