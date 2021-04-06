@@ -8,7 +8,7 @@ setmetatable(NewState, StateBase)
 NewState.KeyBinding = nil 
 NewState.name = "Walk"
 NewState.weaponSwapEvent = nil
-
+NewState.UpdateEquipment = nil
 NewState.possibleStates = {
     "Idle",
     "Sprint",
@@ -62,6 +62,7 @@ function NewState:Enter(player)
         if not owner == player then return end
         ChangeStance(self, owner, weapon )
     end)
+    self.UpdateEquipment = Task.Spawn(function() ChangeStance(self, player) end,.2)
 end
 
 function NewState:Update(player)
@@ -74,6 +75,9 @@ function NewState:Update(player)
 end
 
 function NewState:Exit(player)
+    if self.UpdateEquipment then
+        self.UpdateEquipment:Cancel()
+    end
 
     if self.KeyBinding then
         self.KeyBinding:Disconnect()
