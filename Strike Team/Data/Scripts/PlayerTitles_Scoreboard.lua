@@ -207,6 +207,7 @@ end
 --	nil CreatePlayerEntry(Player)
 --	Creates an entry on the Scoreboard for a player
 local function CreatePlayerEntry(player)
+	if not Object.IsValid(player) then return end 
 	if entries[player] then
 		return
 	end
@@ -303,6 +304,8 @@ end
 --	nil DeletePlayerEntry(Player)
 --	Deletes an entry on the Scoreboard for a player
 local function DeletePlayerEntry(player)
+	if not player then return end
+
 	playerTeams[player] = nil
 
 	entries[player] = nil
