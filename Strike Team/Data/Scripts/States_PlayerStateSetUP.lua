@@ -20,7 +20,6 @@ local ReleaseTree = {
 
 function EndRound()
     Task.Wait()
-    print(ABGS.GetGameState())
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
        return true
     end

@@ -111,9 +111,8 @@ end
 
  -- Gets player current active camera
 function GetPlayerActiveCamera(player)
-    if not Object.IsValid(player) then
-        return nil
-    end
+    if not Object.IsValid(player)  then return end
+    if not player:IsA("Player") then return end
     
     return player:GetDefaultCamera()
     

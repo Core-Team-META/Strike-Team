@@ -49,12 +49,14 @@ function NewState:Enter(player)
     local Stances = {
         "2hand_rifle_stance",
         "2hand_rifle_aim_shoulder",
-        "unarmed_carry_object_low",
-        
     }
     player.animationStance = Stances[math.random(#Stances)]
-    Task.Wait(.1) 
-    ToggleAbiltiy(player, false)
+    while player.serverUserData.MovementStateMachime:GetCurrentState():GetName() == "End" do
+        if not player then return end 
+        if not player.serverUserData.MovementStateMachime then return end
+        ToggleAbiltiy(player, false)
+        Task.Wait()
+    end
 end
 
 

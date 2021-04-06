@@ -41,7 +41,7 @@ function Blast(center, projectileOwner)
         end
 
         if projectileOwner == player then
-            canDamage = true
+            --canDamage = true
         end
         -- If canDamage is true and there is no objects obstructing the explosion then damage the player
         if canDamage then
@@ -58,7 +58,7 @@ function OnProjectileImpact(projectile, other, hitResult)
 	
 	World.SpawnAsset(BOUNCE_SOUND, {position = pos})
 	
-	if projectile.bouncesRemaining == 0 or other:IsA("Player") then
+	if projectile.bouncesRemaining == 0 then
 		Blast(pos, projectile.owner)
 		
 		projectile:Destroy()
@@ -82,8 +82,7 @@ function OnThrowExecute(ability)
    -- local rotation = ability.owner:GetLookWorldRotation()
 
    -- local projectileLocalPosition = (Transform.New(rotation, playerPosition, Vector3.ONE)):GetInverse():TransformPosition(startPos)
-    --print (projectileLocalPosition)
-
+    --print (projectileLocalPosition) 
 	local projectile = Projectile.Spawn(PROJECTILE_BODY, startPos, direction)
     
     projectile.owner = WEAPON.owner
@@ -97,7 +96,7 @@ function OnThrowExecute(ability)
     projectile.bouncesRemaining = WEAPON.projectileBounceCount
     projectile.piercesRemaining = WEAPON.projectilePierceCount
     projectile.bounciness = PROJECTILE_BOUNCINESS
-    
+
     projectile.shouldDieOnImpact = false
     
     projectile.impactEvent:Connect(OnProjectileImpact)

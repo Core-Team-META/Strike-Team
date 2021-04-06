@@ -41,7 +41,7 @@ Assets {
           }
           Overrides {
             Name: "cs:WeaponType"
-            String: "Grenade"
+            String: "Utility"
           }
         }
         WantsNetworking: true
@@ -332,7 +332,6 @@ Assets {
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:none"
             }
@@ -343,7 +342,6 @@ Assets {
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
-            IsTargetDataUpdated: true
             Facing_V2 {
               Value: "mc:eabilitysetfacing:none"
             }
@@ -391,6 +389,12 @@ Assets {
           Overrides {
             Name: "cs:DanceTime"
             Float: 5
+          }
+          Overrides {
+            Name: "cs:Throw"
+            ObjectReference {
+              SubObjectId: 4915960162478971499
+            }
           }
         }
         WantsNetworking: true
