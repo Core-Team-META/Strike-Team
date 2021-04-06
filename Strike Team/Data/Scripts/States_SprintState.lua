@@ -35,24 +35,26 @@ local function WillAffectMovement(player)
 end
 
 
-local function BindingManager(player, binding)
+local function BindingManager(self, player, binding)
     if binding == "ability_primary" then
         if not player then return end 
         if not player.serverUserData.MovementStateMachime then return end
         
         if WillAffectMovement(player) then
             player.serverUserData.MovementStateMachime:ChangeState("Walk")
+            self:Disconnect()
             return
         end
     end
 end
 
-local function BindingReleaseManager(player, binding)
+local function BindingReleaseManager(self,player, binding)
     if binding == SPRINT_KEY then
         if not player then return end 
         if not player.serverUserData.MovementStateMachime then return end
 
         player.serverUserData.MovementStateMachime:ChangeState("Walk")
+        self:Disconnect()
         return
     end
 end
@@ -87,23 +89,7 @@ local function ChangeSpeed(self, player,weapon)
     player.maxWalkSpeed = self.sprintSpeed
 end
 
-function NewState:Enter(player)
-    if not Object.IsValid(player) then return end 
-    StateBase.Enter(self)
-    ChangeSpeed(self,player)
-    ChangeStance(self, player, player.serverUserData.EquippedWeapon)
-
-    self.weaponSwapEvent = Events.Connect("EquipWeapon", function ( owner,weapon)
-        if not owner == player then return end
-        ChangeSpeed(self, owner, weapon)
-        ChangeStance(self, owner, weapon)
-    end)
-
-    self.KeyBinding = player.bindingPressedEvent:Connect(BindingManager)
-    self.KeyReleaseBinding = player.bindingReleasedEvent:Connect(BindingReleaseManager)
-end
-
-function NewState:Exit(player)
+function NewState:Disconnect()
 
     if self.weaponSwapEvent then
         self.weaponSwapEvent:Disconnect()
@@ -117,6 +103,26 @@ function NewState:Exit(player)
         self.KeyReleaseBinding:Disconnect()
         self.KeyReleaseBinding = nil 
     end
+end
+
+function NewState:Enter(player)
+    if not Object.IsValid(player) then return end 
+    StateBase.Enter(self)
+    ChangeSpeed(self,player)
+    ChangeStance(self, player, player.serverUserData.EquippedWeapon)
+
+    self.weaponSwapEvent = Events.Connect("EquipWeapon", function ( owner,weapon)
+        if not owner == player then return end
+        ChangeSpeed(self, owner, weapon)
+        ChangeStance(self, owner, weapon)
+    end)
+
+    self.KeyBinding = player.bindingPressedEvent:Connect(function(player, binding) BindingManager(self, player, binding)    end )
+    self.KeyReleaseBinding = player.bindingReleasedEvent:Connect(function(player, binding) BindingReleaseManager(self, player, binding)    end )
+end
+
+function NewState:Exit(player)
+    self:Disconnect()
     StateBase.Exit(self)
     if not Object.IsValid(player) then return end 
     player.maxWalkSpeed = 640
