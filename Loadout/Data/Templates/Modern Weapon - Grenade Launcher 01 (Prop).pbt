@@ -740,5 +740,5 @@ Assets {
       AssetId: "Modern_Weapon_-_Grenade_Launcher_01"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

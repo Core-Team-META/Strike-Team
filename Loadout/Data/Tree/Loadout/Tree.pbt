@@ -128,7 +128,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -224,7 +224,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -319,7 +319,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -409,7 +409,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -503,7 +503,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -548,7 +548,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -599,7 +599,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -650,7 +650,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -701,7 +701,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -752,7 +752,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -803,7 +803,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -854,7 +854,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -905,7 +905,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -956,7 +956,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -1007,7 +1007,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -1058,7 +1058,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -1109,7 +1109,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -1160,7 +1160,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -1211,7 +1211,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -5123,7 +5123,9 @@ Objects {
     }
   }
   ParentId: 2189234789624158377
+  ChildIds: 5588017143449963467
   ChildIds: 16351736331632694558
+  ChildIds: 13396854458686026278
   UnregisteredParameters {
     Overrides {
       Name: "cs:Parent"
@@ -5242,6 +5244,24 @@ Objects {
         SelfId: 16351736331632694558
       }
     }
+    Overrides {
+      Name: "cs:_RichTextMgr"
+      AssetReference {
+        Id: 15167260956848044040
+      }
+    }
+    Overrides {
+      Name: "cs:ImageFolder"
+      ObjectReference {
+        SelfId: 13396854458686026278
+      }
+    }
+    Overrides {
+      Name: "cs:SpawnPanelsRaritys"
+      ObjectReference {
+        SelfId: 5588017143449963467
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5256,6 +5276,49 @@ Objects {
     ScriptAsset {
       Id: 2406649152342681503
     }
+  }
+}
+Objects {
+  Id: 13396854458686026278
+  Name: "ImageFolder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18393449720337225452
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Cash"
+      AssetReference {
+        Id: 3664507400955153403
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin"
+      AssetReference {
+        Id: 10117964992090160592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ImageFolder"
   }
 }
 Objects {
@@ -5295,6 +5358,443 @@ Objects {
   Script {
     ScriptAsset {
       Id: 6838689994872539640
+    }
+  }
+}
+Objects {
+  Id: 5588017143449963467
+  Name: "SpawnPanelsRaritys"
+  Transform {
+    Location {
+      X: -9.15527344e-05
+      Y: 3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18393449720337225452
+  ChildIds: 8579314368225093949
+  ChildIds: 1010517218398866437
+  ChildIds: 15224784758915190557
+  ChildIds: 9033986631003656348
+  ChildIds: 16342090548480009776
+  ChildIds: 15697860190967436902
+  ChildIds: 6673541807550486506
+  ChildIds: 3896699126076615168
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14883171956918278951
+    }
+  }
+}
+Objects {
+  Id: 3896699126076615168
+  Name: "Easter"
+  Transform {
+    Location {
+      X: -0.00048828125
+      Y: -0.000274658174
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.868609726
+        G: 0.38
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 12130996827657338578
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 6673541807550486506
+  Name: "Stpat"
+  Transform {
+    Location {
+      X: -0.00048828125
+      Y: -0.000274658174
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.0860925615
+        G: 0.65
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 972271611067364083
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 15697860190967436902
+  Name: "Melted"
+  Transform {
+    Location {
+      X: -0.000396728516
+      Y: -0.000213623032
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.350000024
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 4603182008044739582
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 16342090548480009776
+  Name: "None"
+  Transform {
+    Location {
+      X: -0.000305175781
+      Y: -0.000152587891
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.016
+        G: 0.016
+        B: 0.016
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 5369031841527769802
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 9033986631003656348
+  Name: "Common"
+  Transform {
+    Location {
+      X: -0.000213623047
+      Y: -9.15527417e-05
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.0603815652
+        G: 0.237000018
+        B: 0.0334169976
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 5369031841527769802
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 15224784758915190557
+  Name: "Rare"
+  Transform {
+    Location {
+      X: -0.000122070313
+      Y: -3.05175818e-05
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.0275009796
+        G: 0.0573285893
+        B: 0.309000015
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 5369031841527769802
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 1010517218398866437
+  Name: "Epic"
+  Transform {
+    Location {
+      X: -3.05175781e-05
+      Y: 3.05175745e-05
+    }
+    Rotation {
+      Yaw: 1.01777744e-13
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.153115302
+        G: 0.0234989878
+        B: 0.373000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 5369031841527769802
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
+    }
+  }
+}
+Objects {
+  Id: 8579314368225093949
+  Name: "Legendary"
+  Transform {
+    Location {
+      X: -3.05175781e-05
+      Y: 3.05175781e-05
+    }
+    Rotation {
+      Yaw: -1.70754697e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5588017143449963467
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColour"
+      Color {
+        R: 0.295000017
+        G: 0.222469345
+        B: 0.0230099857
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RarityIcon"
+      AssetReference {
+        Id: 5369031841527769802
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9270835348380198492
     }
   }
 }

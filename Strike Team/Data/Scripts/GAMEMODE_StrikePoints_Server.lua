@@ -27,6 +27,8 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 local myId = ROOT:GetCustomProperty("ID")
 local HILL_TEMPLATE = script:GetCustomProperty("KingOfHills_HillTemplate")
+local CHOPPER_TEMPLATE = script:GetCustomProperty("Chopper")
+local CHOPPER_START_POSITION = script:GetCustomProperty("ChopperStartPosition"):WaitForObject():GetWorldPosition()
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
@@ -34,6 +36,7 @@ local oldGameId, currentHill
 local listeners = {}
 local hillPositions = {}
 local oldPosition
+local chopper
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -69,6 +72,13 @@ end
 local function Cleanup()
     GT_API.CleanUp(SPAWNED_OBJECTS)
     GT_API.DisableListeners(listeners)
+    
+    Task.Spawn(function()
+    	if Object.IsValid(chopper) then
+	    	chopper:Destroy()
+	    end
+    end,
+    15)
 end
 
 local function IsVaildId(id)
@@ -93,6 +103,8 @@ function OnGameTypeStart(id)
         Log("Enabling")
         GT_API.CleanUp(SPAWNED_OBJECTS)
         GT_API.SpawnAsset(GT_API.GetRespawnSettings(myId), {parent = SPAWNED_OBJECTS})
+        
+        chopper = GT_API.SpawnAsset(CHOPPER_TEMPLATE, {position = CHOPPER_START_POSITION})
     end
 end
 

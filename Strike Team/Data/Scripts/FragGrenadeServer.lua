@@ -74,7 +74,7 @@ function OnProjectileImpact(projectile, other, hitResult)
 	
 	World.SpawnAsset(BOUNCE_SOUND, {position = pos})
 	
-	if projectile.bouncesRemaining == 0 or other:IsA("Player") then
+	if projectile.bouncesRemaining == 0 then
 		Blast(pos, projectile.owner)
 		
 		projectile:Destroy()

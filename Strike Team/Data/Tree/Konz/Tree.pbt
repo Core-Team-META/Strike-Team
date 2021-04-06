@@ -28,13 +28,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "LoadoutEquipment"
   }
-  InstanceHistory {
-    SelfId: 4355175678147851601
-    SubobjectId: 15973117888364099070
-    InstanceId: 4975704287466969891
-    TemplateId: 10798511928395917419
-    WasRoot: true
-  }
 }
 Objects {
   Id: 5520905606491532745

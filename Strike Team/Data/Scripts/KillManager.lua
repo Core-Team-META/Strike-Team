@@ -51,6 +51,12 @@ function SetKD(player)
     end     
 end
 
+function UpdateTotal(player)
+    if player:GetResource("KillStreak") > player:GetResource("HighestKillStreak") then
+        player:SetResource("HighestKillStreak",  player:GetResource("KillStreak"))
+    end
+end
+
 function UpdateKillDeath(player,damage)
     SetKD(player)
     player:SetResource("KillStreak", 0)
@@ -58,6 +64,7 @@ function UpdateKillDeath(player,damage)
         SetKD(damage.sourcePlayer)
         if( damage.sourcePlayer ~= player) then 
             damage.sourcePlayer:AddResource("KillStreak", 1)
+            UpdateTotal(damage.sourcePlayer)
             damage.sourcePlayer:AddResource("Kills", 1)
         end 
     end 
@@ -95,6 +102,7 @@ function ResetData(player)
     player:SetResource("Backstab", 0)
     player:SetResource("Headshots", 0)
     player:SetResource("KillStreak", 0)
+    player:SetResource("HighestKillStreak", 0)
     player:SetResource("Assists", 0)
     player:SetResource("Score", 0)
     player:SetResource("Objective", 0)

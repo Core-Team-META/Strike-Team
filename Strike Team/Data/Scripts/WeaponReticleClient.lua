@@ -47,6 +47,10 @@ function Tick()
 
         -- Reticle visibility is based on player's health status
         if (Object.IsValid(reticleInstance)) then
+            if Object.IsValid(WEAPON:GetAbilities()[1]) and WEAPON:GetAbilities()[1].owner == nil then 
+                reticleInstance.visibility = Visibility.FORCE_OFF
+                return
+            end
             if HIDE_ON_AIM and isAiming then
                 reticleInstance.visibility = Visibility.FORCE_OFF
             else

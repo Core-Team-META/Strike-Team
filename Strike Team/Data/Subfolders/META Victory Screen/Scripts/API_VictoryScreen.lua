@@ -186,14 +186,8 @@ function API.TeleportWinners( player, spawnObject, overrideCamera)
 		player:SetWorldPosition(spawnPosition)
 		player:SetWorldRotation(LookDirection)	
 		
-		for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
-			equipment:Destroy()
-		end
-
 		Task.Wait()
 		if not Object.IsValid(player) then return end
-		
-		player.animationStance = "unarmed_stance"
 		
 		for i=1,5 do
 			Task.Wait(.1)
@@ -210,10 +204,6 @@ end
 --	nil API.OnPlayerTeleported(Player, CoreObject, table, float, CoreObject, bool)
 --	Callback, overwriteable, called when a player is spawned
 function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, duration, respawnOnDeactivate)
-	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
-		equipment:Destroy()
-	end
-
 	
 	local data = {
 		originalMovementControlMode = player.movementControlMode,
@@ -233,9 +223,6 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 	Task.Wait(.1)
 	if not Object.IsValid(player) then return end
 
-	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
-		equipment:Destroy()
-	end
 	
 	player.movementControlMode = MovementControlMode.NONE
 	player.lookControlMode = LookControlMode.NONE

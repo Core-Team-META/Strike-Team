@@ -33,13 +33,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 11672034699445184076
-    SubobjectId: 844971259386137953
-    InstanceId: 16381468907225126229
-    TemplateId: 12583880760460104857
-    WasRoot: true
-  }
 }
 Objects {
   Id: 7405913273997586035
@@ -86,14 +79,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 7405913273997586035
-    SubobjectId: 14737330180035921246
-    InstanceId: 16381468907225126229
-    TemplateId: 12583880760460104857
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -146,14 +133,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 16768808018380597100
-    SubobjectId: 4824572746180234305
-    InstanceId: 16381468907225126229
-    TemplateId: 12583880760460104857
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -190,13 +171,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12399420738003114568
-    SubobjectId: 844971259386137953
-    InstanceId: 7811941233813251989
-    TemplateId: 12549570745128384164
-    WasRoot: true
   }
 }
 Objects {
@@ -273,14 +247,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 11581011868217569807
-    SubobjectId: 509579083967456550
-    InstanceId: 7811941233813251989
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -356,14 +324,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 1685455972824042717
-    SubobjectId: 12738878851507379188
-    InstanceId: 7811941233813251989
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -439,14 +401,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 18042124002633593912
-    SubobjectId: 6757905936841417489
-    InstanceId: 7811941233813251989
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -503,14 +459,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 16527705736318491496
-    SubobjectId: 4824572746180234305
-    InstanceId: 7811941233813251989
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -554,6 +504,61 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5356712299392028010
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6764432029842358694
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7897194777586724567
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9155663116183397697
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14473134907200322464
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }
@@ -686,7 +691,7 @@ Objects {
     TemplateId: 13990777641947009039
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -769,7 +774,7 @@ Objects {
     TemplateId: 13990777641947009039
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -852,7 +857,7 @@ Objects {
     TemplateId: 13990777641947009039
   }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -888,13 +893,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 13605557329315776948
-    SubobjectId: 844971259386137953
-    InstanceId: 8085162915732739756
-    TemplateId: 12549570745128384164
-    WasRoot: true
   }
 }
 Objects {
@@ -970,14 +968,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 549650802422128417
-    SubobjectId: 12738878851507379188
-    InstanceId: 8085162915732739756
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -1053,14 +1045,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 16906989130332497860
-    SubobjectId: 6757905936841417489
-    InstanceId: 8085162915732739756
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -1117,14 +1103,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 17698308663299459220
-    SubobjectId: 4824572746180234305
-    InstanceId: 8085162915732739756
-    TemplateId: 12549570745128384164
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -1159,13 +1139,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 15790012566340643451
-    SubobjectId: 844971259386137953
-    InstanceId: 3355224718513312807
-    TemplateId: 12583880760460104857
-    WasRoot: true
   }
 }
 Objects {
@@ -1241,14 +1214,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 10182765760347079691
-    SubobjectId: 6757905936841417489
-    InstanceId: 3355224718513312807
-    TemplateId: 12583880760460104857
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -1301,14 +1268,8 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 10551027375155096411
-    SubobjectId: 4824572746180234305
-    InstanceId: 3355224718513312807
-    TemplateId: 12583880760460104857
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:low"
   }
 }
 Objects {
@@ -1341,13 +1302,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9361236174981267890
-    SubobjectId: 844971259386137953
-    InstanceId: 3849325146704722518
-    TemplateId: 12583880760460104857
-    WasRoot: true
   }
 }
 Objects {
@@ -1400,13 +1354,7 @@ Objects {
     DecalBP {
     }
   }
-  InstanceHistory {
-    SelfId: 14457796220878389394
-    SubobjectId: 4824572746180234305
-    InstanceId: 3849325146704722518
-    TemplateId: 12583880760460104857
-  }
   Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    Value: "mc:eproxyrelevance:medium"
   }
 }

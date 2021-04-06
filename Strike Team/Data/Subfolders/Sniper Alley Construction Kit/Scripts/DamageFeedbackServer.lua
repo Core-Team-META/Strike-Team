@@ -19,7 +19,19 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Fires an event for the client to display fly up text when hit the enemy player
 function OnPlayerDamaged(player, damage)
     if damage.sourcePlayer then
-        Events.BroadcastToAllPlayers("PlayerDamage_Internal", damage.amount, player, damage.sourcePlayer)
+        if damage.sourceAbility then
+            -- Temp code
+            local weapon = nil
+            if (damage.sourceAbility.parent:GetCustomProperty("WeaponType") == "Grenade") then
+                weapon = "Grenade"
+            else
+                weapon = damage.sourceAbility.parent.name                
+            end
+                
+            Events.BroadcastToAllPlayers("PDmg", damage.amount, player, damage.sourcePlayer, weapon)
+        else
+            Events.BroadcastToAllPlayers("PDmg", damage.amount, player, damage.sourcePlayer)
+        end
     end
 end
 

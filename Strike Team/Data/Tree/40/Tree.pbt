@@ -38,8 +38,8 @@ Objects {
       Name: "bp:Scene Tint"
       Color {
         R: 1
-        G: 0.385
-        B: 0.385
+        G: 0.64
+        B: 0.64
         A: 1
       }
     }
@@ -59,12 +59,6 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 12405227260751411386
-    SubobjectId: 13290909214996352331
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }
 Objects {
@@ -110,11 +104,5 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 17183417845662292426
-    SubobjectId: 18027118251137936443
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

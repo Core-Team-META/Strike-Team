@@ -75,4 +75,4 @@ function DisplayDamage(damage, targetPlayer, sourcePlayer)
 end
 
 -- Initialize
-Events.Connect("PlayerDamage_Internal", DisplayDamage)
+Events.Connect("PDmg", DisplayDamage)

@@ -30,7 +30,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1052,7 +1052,7 @@ Assets {
           Overrides {
             Name: "cs:EaseUI2"
             AssetReference {
-              Id: 5650554527613804010
+              Id: 1953446882420386915
             }
           }
           Overrides {
@@ -1260,5 +1260,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

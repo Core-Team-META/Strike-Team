@@ -348,5 +348,5 @@ Assets {
       AssetId: "Mililtary_Mobile_Radar_01_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

@@ -46,5 +46,5 @@ Assets {
     Version: "1.1.0"
     Description: "This module calculates players\' frame rates and can display their FPS on screen. While it\'s possible to see frame rate through other means and Core provides good optimization tools, you may want your game to either:\r\n\r\n1. Show the FPS (frames per second) to the players.\r\n2. Detect players with low FPS and automatically reduce visual quality to improve their FPS.\r\n\r\nSee the enclosed README for more information\r\n\r\nv1.0"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

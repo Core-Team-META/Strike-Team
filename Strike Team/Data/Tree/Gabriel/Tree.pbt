@@ -175,6 +175,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2193872303667578198
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6686738985933109444
       value {
         Overrides {
@@ -195,6 +206,39 @@ Objects {
             Pitch: 90
             Yaw: 7.12502289
             Roll: 142.125061
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9167624152597241522
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10453266754980022333
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15749297207313121974
+      value {
+        Overrides {
+          Name: "CoreProxy.Relevance"
+          Enum {
+            Value: "mc:eproxyrelevance:medium"
           }
         }
       }

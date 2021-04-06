@@ -29,12 +29,6 @@ Objects {
       Id: 3741526529024671057
     }
   }
-  InstanceHistory {
-    SelfId: 2394216526907103196
-    SubobjectId: 3603820752929784571
-    InstanceId: 9594168207497404638
-    TemplateId: 1203951522902028190
-  }
 }
 Objects {
   Id: 6244487442600463627

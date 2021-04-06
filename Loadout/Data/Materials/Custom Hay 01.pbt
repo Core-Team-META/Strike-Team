@@ -2,7 +2,7 @@ Assets {
   Id: 2686553079945805987
   Name: "Custom Hay 01"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 16234793674573807764
     ParameterOverrides {

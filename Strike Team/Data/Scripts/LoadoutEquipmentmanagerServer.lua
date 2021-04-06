@@ -4,6 +4,9 @@ local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
 local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")
 
+local OVERRIDE = script:GetCustomProperty("Override")
+local OVERRIDE_KEY = script:GetCustomProperty("OverrideKey")
+
 local DefaultString = "HK_00-S4_00-LI_00-EL_00-EP_00"
 
 function SetUp(player)
@@ -93,6 +96,11 @@ function EquipPlayer(player)
     player.serverUserData.Weapons = {}
     
     local EquipString = GetSlot(player,tostring(player:GetResource("EquipSlot") or 1))
+    
+    if OVERRIDE then 
+        EquipString = OVERRIDE_KEY
+    end
+
     if not EquipString then EquipString = DefaultString end 
     equipItem(player,EquipString,"Primary")
     equipItem(player,EquipString,"Secondary")

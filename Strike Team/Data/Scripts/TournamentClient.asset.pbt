@@ -29,7 +29,12 @@ Assets {
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:InfoPanel"
+        ObjectReference {
+        }
+      }
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

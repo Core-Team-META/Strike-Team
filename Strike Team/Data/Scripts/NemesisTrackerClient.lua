@@ -146,34 +146,6 @@ function AnimateWordText(givenText, targetText, allowTickSFX)
 	
 end 
 
-function CleanNemesisTable()
-
-	for _, marker in ipairs(markerList) do
-	
-		marker.visibility = Visibility.FORCE_OFF
-		
-	end
-
-	resetting = true
-
-	for victim, killerList in pairs(nemesisIndex) do
-	
-		for killer, killCount in pairs(killerList) do
-		
-			killerList[killer] = nil
-		
-		end
-		
-		nemesisIndex[victim] = nil
-		
-	end
-	
-	nemesisIndex = {}
-	
-	resetting = false
-	
-end
-
 function AnimateYourNemesis()
 
 	local displayText = ""
@@ -326,7 +298,7 @@ function CalculateNemesis()
 	    
 	    if insertThis then
 	    
-	   		table.insert(nemesisList, {result[1], result[2], tonumber(result[3]), tonumber(result[4]), result[5], tonumber(result[6])})
+	   		table.insert(nemesisList, {result[1], result[2], tonumber(result[3]), result[4], tonumber(result[5])})
 	   		
 	   	end
 	    
@@ -340,7 +312,6 @@ function MarkNemesis()
 	
 	youAreNemesisOf = "No Kills"
 	yourKillCountAsNemesis = 0
-	local countOfBeingNemesis = 0
 	
 	yourNemesisIs = "No Deaths"
 	yourNemesisKillCount = 0
@@ -348,137 +319,40 @@ function MarkNemesis()
 	for _, entry in pairs(nemesisList) do
 		
 		-- Finding your nemesis
-		if entry[1] == localPlayer.name and youAreNemesisOf  == "No Kills" and #entry[2] >= 3 then
+		if entry[1] == localPlayer.name then
 		
-			youAreNemesisOf = entry[2]
+			yourNemesisIs = entry[2]
 			
-			yourKillCountAsNemesis = entry[4]
+			yourNemesisKillCount = entry[3]
 			
-		elseif entry[1] == localPlayer.name and youAreNemesisOf  ~= "No Kills" then
-		
-			countOfBeingNemesis = countOfBeingNemesis + 1
+			youAreNemesisOf = entry[4]
 			
+			yourKillCountAsNemesis = entry[5]
+					
 		end
 		
-		if entry[2] == localPlayer.name then
-		
-			yourNemesisIs = entry[1]
-			
-			yourNemesisKillCount = entry[4]
-			
-			if entry[3] > 0 then
-			
-				yourNemesisIs = entry[1] .. " + " .. tostring(entry[3]) .. " more"
-				
-			end
-			
-		end
-		
-		-- setting markers
+		-- Setting marker info
 		for number, panel in ipairs(victoryScreenContainer:GetChildren()) do
 		
 			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
 			
-			local player1 = entry[1]
+			if entry[1] == nameText.text then
 			
-			local player2 = entry[2]
+				theirNemesisEntryText[number] = entry[2]
+				
+				theirNemesisOfEntryText[number] = {}
 			
-			if player1 == nameText.text and #player2 >= 3 then
-			
-				if not theirNemesisOfEntryText[number] then
-			
-					theirNemesisOfEntryText[number] = {}
-					
-					theirNemesisOfEntryText[number][2] = 0
-					
-				end
+				theirNemesisOfEntryText[number][1] = entry[4]
 				
-				theirNemesisOfEntryText[number][1] = player2
-				
-				theirNemesisOfEntryText[number][3] = entry[4]
-				
-			elseif player1 == nameText.text and theirNemesisOfEntryText[number] then
-			
-				theirNemesisOfEntryText[number][2] = theirNemesisOfEntryText[number][2] + 1
-				
-			end
-			
-			if player2 == nameText.text then
-			
-				theirNemesisEntryText[number] = player1
-				
-				if entry[3] > 0 then
-				
-					theirNemesisEntryText[number] = player1 .. " + " .. tostring(entry[3]) .. " more"
-					
-				end
-				
+				theirNemesisOfEntryText[number][2] = entry[5]
+											
 			end
 			
 		end
 	
 	end
-	
-	for number, panel in ipairs(victoryScreenContainer:GetChildren()) do
 		
-		if not theirNemesisOfEntryText[number] then
-		
-			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
-		
-			for _, entry in pairs(nemesisList) do
-			
-				if entry[2] == nameText.text then
-				
-					theirNemesisOfEntryText[number] = {}
-						
-					theirNemesisOfEntryText[number][2] = 0
-					
-					if entry[5] then
-					
-						theirNemesisOfEntryText[number][1] = entry[5]
-						
-					else 
-					
-						theirNemesisOfEntryText[number][1] = ""
-						
-					end
-					
-					theirNemesisOfEntryText[number][3] = entry[6]
-					
-					break
-				
-				end
-			
-			end	
-				
-		end
-	
-	end
-	
-	if youAreNemesisOf == "No Kills" then
-	
-		for _, entry in pairs(nemesisList) do
-		
-			if entry[2] == localPlayer.name and entry[5] then
-			
-				youAreNemesisOf = entry[5]
-				
-				yourKillCountAsNemesis = entry[6]
-				
-				break
-			
-			end
-		
-		end
-	
-	end
-	
-	if countOfBeingNemesis > 0 then
-	
-		youAreNemesisOf = youAreNemesisOf .. " + " .. tostring(countOfBeingNemesis) .. " more"
-		
-	end
-	
+	-- Animate markers
 	for number, marker in ipairs(markerList) do
 	
 		local nemesisLabelText = marker:GetCustomProperty("NemesisText"):WaitForObject()
@@ -491,9 +365,9 @@ function MarkNemesis()
 			
 		marker.y = -1000
 			
-		nemesisNameText.text = "No Deaths"
+		nemesisNameText.text = ""
 			
-		nemesisOfNameText.text = "No Kills"
+		nemesisOfNameText.text = ""
 		
 		marker.visibility = Visibility.FORCE_ON
 						
@@ -501,41 +375,33 @@ function MarkNemesis()
 			
 		if theirNemesisOfEntryText[number] then
 				
-			if theirNemesisOfEntryText[number][2] > 0 then
+			AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1], true)
 				
-				AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1] .. " + " .. tostring(theirNemesisOfEntryText[number][2]) .. " more", true)
-					
-			elseif #theirNemesisOfEntryText[number][1] >= 3 then
+			if theirNemesisOfEntryText[number][2] <= 3 then
 				
-				AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1], true)
-					
-			end
+				SetChildrenText(nemesisOfLabelText, "CRUSHED")
 				
-			if theirNemesisOfEntryText[number][3] <= 3 then
+			elseif theirNemesisOfEntryText[number][2] <= 5 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU CRUSHED")
-				
-			elseif theirNemesisOfEntryText[number][3] <= 5 then
-				
-				SetChildrenText(nemesisOfLabelText, "YOU WRECKED")
+				SetChildrenText(nemesisOfLabelText, "WRECKED")
 
-			elseif theirNemesisOfEntryText[number][3] <= 7 then
+			elseif theirNemesisOfEntryText[number][2] <= 7 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU PULVERIZED")
+				SetChildrenText(nemesisOfLabelText, "PULVERIZED")
 					
-			elseif theirNemesisOfEntryText[number][3] <= 10 then
+			elseif theirNemesisOfEntryText[number][2] <= 10 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU DECIMATED")
+				SetChildrenText(nemesisOfLabelText, "DECIMATED")
 					
 			else
 				
-				SetChildrenText(nemesisOfLabelText, "YOU HUMILIATED")
+				SetChildrenText(nemesisOfLabelText, "HUMILIATED")
 					
 			end
 				
 		else 
 			
-			SetChildrenText(nemesisOfLabelText, "YOU CRUSHED")
+			SetChildrenText(nemesisOfLabelText, "CRUSHED")
 				
 		end 
 			
@@ -547,30 +413,28 @@ function MarkNemesis()
 
 	end
 	
-	SetChildrenText(nemesisOfStatText, "YOU CRUSHED")
-					
 	if yourKillCountAsNemesis <= 3 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU CRUSHED")
+		SetChildrenText(nemesisOfStatText, "CRUSHED")
 				
 	elseif yourKillCountAsNemesis <= 5 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU WRECKED")
+		SetChildrenText(nemesisOfStatText, "WRECKED")
 
 	elseif yourKillCountAsNemesis <= 7 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU PULVERIZED")
+		SetChildrenText(nemesisOfStatText, "PULVERIZED")
 					
 	elseif yourKillCountAsNemesis <= 10 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU DECIMATED")
+		SetChildrenText(nemesisOfStatText, "DECIMATED")
 					
 	else
 				
-		SetChildrenText(nemesisOfStatText, "YOU HUMILIATED")
+		SetChildrenText(nemesisOfStatText, "HUMILIATED")
 					
 	end
-
+	
 end
 
 function ShowNemesis()
@@ -629,7 +493,24 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         YourNemesisText.text = ""
         YourNemesisKillsText.text = "0"
         
-        CleanNemesisTable()        
+		if #nemesisList > 0 then
+	
+			for x, slot in pairs(nemesisList) do
+			
+				for y, entry in pairs(slot) do
+				
+					nemesisList[x][y] = nil
+					
+				end
+				
+				nemesisList[x] = nil
+				
+			end
+		
+		end
+				
+		nemesisList = {}    
+		
     end
 end
 

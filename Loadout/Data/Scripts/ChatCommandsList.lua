@@ -132,7 +132,11 @@ commands = {
             admins["Melamoryxq"] = true
             admins["Mucusinator"] = true
             admins["WitcherSilver"] = true
-            admins["AJ"] = true
+            admins["Aj"] = true
+            admins["Basilisk"] = true
+            admins["Chris"] = true
+            admins["KidEgg"] = true
+
 
 
             if (admins[player.name]) then 

@@ -96,6 +96,7 @@ end
 -- nil OnPlayerJoined(Player)
 -- Creates a nameplate for the local player to see the target player's status
 function OnPlayerJoined(player)
+	if not Object.IsValid(player) then return end 
 	local nameplateRoot = World.SpawnAsset(NAMEPLATE_TEMPLATE)
 
 	nameplates[player] = {}
