@@ -19,6 +19,8 @@ local ReleaseTree = {
 } 
 
 function EndRound()
+    Task.Wait()
+    print(ABGS.GetGameState())
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
        return true
     end
@@ -67,6 +69,7 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
                 StateManager:ChangeState("End")
             end
        end
+       return
     end
     if newState == ABGS.GAME_STATE_LOBBY then 
         for _,StateManager in pairs(AllStatesManager) do
@@ -75,6 +78,7 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime)
                 StateManager:ChangeState("Walk")
             end 
        end
+       return
     end 
 end
 
