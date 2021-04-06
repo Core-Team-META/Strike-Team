@@ -98,7 +98,7 @@ end
 function LerpCamera(deltaTime)
     if not activeCamera then return end
     if lerpTime >= 1 then
-        if isScoping and scopeInstance and not scopeInstance:IsVisibleInHierarchy() then
+        if isScoping and Object.IsValid(scopeInstance) and not scopeInstance:IsVisibleInHierarchy() then
             scopeInstance.visibility = Visibility.INHERIT
         end
         return
