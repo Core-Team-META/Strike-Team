@@ -51,12 +51,16 @@ function NewState:Enter(player)
         "2hand_rifle_aim_shoulder",
     }
     player.animationStance = Stances[math.random(#Stances)]
-    while player.serverUserData.MovementStateMachime:GetCurrentState():GetName() == "End" do
-        if not player then return end 
-        if not player.serverUserData.MovementStateMachime then return end
-        ToggleAbiltiy(player, false)
-        Task.Wait()
-    end
+    Task.Spawn(function()
+        if Object.IsValid(player) and player.serverUserData.MovementStateMachime then
+            while Object.IsValid(player) and player.serverUserData.MovementStateMachime:GetCurrentState():GetName() == "End" do
+                if not player then return end 
+                if not player.serverUserData.MovementStateMachime then return end
+                ToggleAbiltiy(player, false)
+                Task.Wait()
+            end
+        end
+    end)
 end
 
 
