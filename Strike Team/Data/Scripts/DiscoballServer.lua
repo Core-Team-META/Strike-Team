@@ -41,7 +41,7 @@ function Blast(center, projectileOwner)
         end
 
         if projectileOwner == player then
-            --canDamage = true
+            canDamage = true
         end
         -- If canDamage is true and there is no objects obstructing the explosion then damage the player
         if canDamage then
