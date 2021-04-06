@@ -104,6 +104,7 @@ Assets {
             ProjectileGravity: 1.9
             ProjectileLength: 12
             ProjectileRadius: 12
+            ProjectileDrag: 0.12
             DefaultAbility {
               SubObjectId: 15831973873445212260
             }
