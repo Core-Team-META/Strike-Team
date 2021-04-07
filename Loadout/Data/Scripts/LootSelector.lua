@@ -16,9 +16,6 @@ function AllUnlockableWeaponsSetup()
     for k,v in pairs(_G["DataBase"]:ReturnBySlot("Melee")) do
         table.insert(AllUnlockableWeapons,v)
     end
-    for k,v in pairs(_G["DataBase"]:ReturnBySlot("Equipment")) do
-        table.insert(AllUnlockableWeapons,v)
-    end
 end
 
 function AllUnlockableSkinSetUp()
