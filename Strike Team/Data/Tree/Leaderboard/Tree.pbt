@@ -149,7 +149,7 @@ Objects {
     }
   }
   ParentId: 8148767369087913423
-  ChildIds: 4450659592303803784
+  ChildIds: 13795818418445755266
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -170,7 +170,7 @@ Objects {
       }
     }
     Text {
-      Label: "Play in three of Core\'s top shooters to test your aim and take home the glory! The top 10 players of each game (as determined by the global leaderboards) will be rewarded with fame and funds."
+      Label: "In this 4-week tournament, each week has new games, new winners, and new prizes. Just play the active games and score high enough in the leaderboards to win! Each week will cover a new genre and have a new focus."
       Color {
         R: 1
         G: 1
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4450659592303803784
+  Id: 13795818418445755266
   Name: "UI Text Box"
   Transform {
     Location {
@@ -215,6 +215,70 @@ Objects {
     }
   }
   ParentId: 10052807019503568626
+  ChildIds: 4450659592303803784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 906
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "This week - STRENGTH:"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 2044747135125227812
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4450659592303803784
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13795818418445755266
   ChildIds: 7413747768572058333
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -227,14 +291,14 @@ Objects {
   }
   Control {
     Width: 906
-    Height: 50
+    Height: 40
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
-      Label: "Prize pool: $6000"
+      Label: "Prize pool: $25,000"
       Color {
         R: 1
         G: 1
@@ -298,7 +362,7 @@ Objects {
       }
     }
     Text {
-      Label: "From: March 18 to 25 at noon (Pacific)"
+      Label: "From: April 15 to 21 at noon (Pacific)"
       Color {
         R: 1
         G: 1
@@ -471,70 +535,6 @@ Objects {
     }
   }
   ParentId: 13449941098465283635
-  ChildIds: 18383718509610865303
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 906
-    Height: 40
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "- Freeze Tag"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 2044747135125227812
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 18383718509610865303
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1053561174826429197
   ChildIds: 5897714680895010105
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -547,14 +547,14 @@ Objects {
   }
   Control {
     Width: 906
-    Height: 60
+    Height: 70
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
-      Label: "- Arsenal of Guns"
+      Label: "- Infinity Arena"
       Color {
         R: 1
         G: 1
@@ -598,7 +598,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18383718509610865303
+  ParentId: 1053561174826429197
   ChildIds: 3904302687045274266
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -682,7 +682,7 @@ Objects {
       }
     }
     Text {
-      Label: "gunsnglory.coregames.com"
+      Label: "coretrials.coregames.com"
       Color {
         R: 1
         G: 1
