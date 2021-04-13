@@ -5,7 +5,7 @@ local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
 local CLOCK_SCRIPT = script:GetCustomProperty("ClockScript"):WaitForObject()
 local SCORE_CUTOFF_TIME = CLOCK_SCRIPT:GetCustomProperty("ScoreCutoffTime")
 local CLOCK_AT_START_DURATION = 20
-local CLOCK_STAY_AT_END_DURATION = 660--120
+local CLOCK_STAY_AT_END_DURATION = 120
 
 local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
 local EVENT_ID = SERVER_SCRIPT:GetCustomProperty("EventID")
