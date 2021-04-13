@@ -27,6 +27,8 @@ local POINTS_PER_ENEMY_FLAG = 0
 
 local STORAGE_KEY = "TournamentSupport"
 
+local isMeasuring = false
+
 
 function SubmitScore(player, score, totalKills, headshots, uniquePlayersKilled)
 	--print("##### Submit Score for " .. player.name .. " = " .. tostring(score))
@@ -200,6 +202,8 @@ end
 
 
 function OnRoundStarted()
+	isMeasuring = true
+	
 	for _,player in ipairs(Game.GetPlayers()) do
 		ClearData(player)
 	end
@@ -207,6 +211,9 @@ end
 
 
 function OnRoundEnded()
+	if not isMeasuring then return end
+	isMeasuring = false
+	
 	-- Points are only valid if the minimum player count is met
 	if #Game.GetPlayers() < MIN_PLAYERS_TO_SUBMIT then return end
 
@@ -217,12 +224,15 @@ function OnRoundEnded()
 	local scoreTeam1 = Game.GetTeamScore(1)
 	local scoreTeam2 = Game.GetTeamScore(2)
 	
-	if scoreTeam1 == scoreTeam2 then return end
-	
-	local winningTeam = 1
-	local winningScore = scoreTeam1
-	local losingScore = scoreTeam2
-	if scoreTeam2 > scoreTeam1 then
+	local winningTeam = 0
+	local winningScore = 0
+	local losingScore = 0
+	if scoreTeam1 > scoreTeam2 and scoreTeam1 == 5 then
+		winningTeam = 1
+		winningScore = scoreTeam1
+		losingScore = scoreTeam2
+		
+	elseif scoreTeam2 > scoreTeam1 and scoreTeam2 == 5 then
 		winningTeam = 2
 		winningScore = scoreTeam2
 		losingScore = scoreTeam1
@@ -236,9 +246,7 @@ function OnRoundEnded()
 		local roundPoints = 0
 		
 		if player.team == winningTeam then
-			roundPoints = POINTS_FOR_VICTORY + POINTS_PER_ENEMY_FLAG * losingScore
-		else
-			roundPoints = POINTS_PER_ENEMY_FLAG * winningScore
+			roundPoints = POINTS_FOR_VICTORY
 		end
 		playerData.points = playerData.points + roundPoints
 		
@@ -285,7 +293,14 @@ function OnRoundEnded()
 	end
 end
 
+
+function OnClockEnded()
+	OnRoundEnded()
+end
+
+
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.roundStartEvent:Connect(OnRoundStarted)
 Game.roundEndEvent:Connect(OnRoundEnded)
+Events.Connect("Tournament_ClockEnded", OnClockEnded)
 

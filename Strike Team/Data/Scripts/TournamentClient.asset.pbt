@@ -10,6 +10,11 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:ClockScript"
+        ObjectReference {
+        }
+      }
+      Overrides {
         Name: "cs:NormalPanel"
         ObjectReference {
         }
