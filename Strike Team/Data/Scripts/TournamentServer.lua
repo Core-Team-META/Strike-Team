@@ -275,15 +275,13 @@ function OnRoundEnded()
 	
 	-- Submit points for valid players
 	for _,player in ipairs(Game.GetPlayers()) do
-		if player.serverUserData.playedHalfRound then
-			local playerData = player.serverUserData.tournament
-			
-			SubmitScore(player, 
-				playerData.points, 
-				playerData.totalKills, 
-				playerData.headshots,
-				playerData.uniqueCount or 0)
-		end
+		local playerData = player.serverUserData.tournament
+		
+		SubmitScore(player, 
+			playerData.points, 
+			playerData.totalKills, 
+			playerData.headshots,
+			playerData.uniqueCount or 0)
 	end
 end
 
