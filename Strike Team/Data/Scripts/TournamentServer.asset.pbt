@@ -26,6 +26,10 @@ Assets {
         Name: "cs:EventID"
         String: "GunsNGlory"
       }
+      Overrides {
+        Name: "cs:DisplayName"
+        String: "GUNS N\' GLORY"
+      }
     }
   }
   SerializationVersion: 81

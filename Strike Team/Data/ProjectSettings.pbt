@@ -8,7 +8,7 @@ LeaderboardConfigs {
     }
     Name: "Funnel1"
     Id: "1AB289C12AE4B8D9"
-    EntryLimit: 450
+    EntryLimit: 440
   }
   Config {
     HasWeekly: true
@@ -77,9 +77,9 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Tournament"
-    Id: "E51F21AA8E227D05"
-    EntryLimit: 50
+    Name: "Tournament2"
+    Id: "B093F7AF11FFD3FE"
+    EntryLimit: 60
   }
 }
 MaxPlayers: 12

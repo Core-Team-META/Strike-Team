@@ -1883,6 +1883,7 @@ Objects {
     }
   }
   ParentId: 9551871372588380956
+  ChildIds: 3583603356550021657
   ChildIds: 590717893429526567
   ChildIds: 9654335673247484128
   ChildIds: 5610354158506321482
@@ -1922,7 +1923,7 @@ Objects {
 }
 Objects {
   Id: 5610354158506321482
-  Name: "TITLE"
+  Name: "TITLE - 3"
   Transform {
     Location {
     }
@@ -1985,7 +1986,7 @@ Objects {
 }
 Objects {
   Id: 9654335673247484128
-  Name: "TITLE"
+  Name: "TITLE - 2"
   Transform {
     Location {
     }
@@ -2046,7 +2047,7 @@ Objects {
 }
 Objects {
   Id: 590717893429526567
-  Name: "TITLE"
+  Name: "TITLE - 1"
   Transform {
     Location {
     }
@@ -2100,6 +2101,66 @@ Objects {
           Value: "mc:euianchor:topcenter"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 3583603356550021657
+  Name: "TournamentTitle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14547356381425284461
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 14000305356795983416
+      }
+    }
+    Overrides {
+      Name: "cs:Title1"
+      ObjectReference {
+        SelfId: 590717893429526567
+      }
+    }
+    Overrides {
+      Name: "cs:Title2"
+      ObjectReference {
+        SelfId: 9654335673247484128
+      }
+    }
+    Overrides {
+      Name: "cs:Title3"
+      ObjectReference {
+        SelfId: 5610354158506321482
+      }
+    }
+    Overrides {
+      Name: "cs:Suffix"
+      String: ""
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2389901534261825883
     }
   }
 }
@@ -2180,15 +2241,15 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:EaseUI"
-      AssetReference {
-        Id: 1953446882420386915
-      }
-    }
-    Overrides {
       Name: "cs:InfoPanel"
       ObjectReference {
         SelfId: 10052807019503568626
+      }
+    }
+    Overrides {
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 1953446882420386915
       }
     }
   }
@@ -2225,16 +2286,24 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "E51F21AA8E227D05"
+        Key: "B093F7AF11FFD3FE"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
       }
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "CORE TRIALS"
+    }
+    Overrides {
+      Name: "cs:EventID"
+      String: "CoreTrials"
     }
   }
   Collidable_v2 {

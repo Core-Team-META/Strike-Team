@@ -850,6 +850,7 @@ Objects {
     }
   }
   ParentId: 8148767369087913423
+  ChildIds: 5461426698459499107
   ChildIds: 12052766565221974561
   ChildIds: 16094224341160781681
   ChildIds: 6132716858072260145
@@ -889,7 +890,7 @@ Objects {
 }
 Objects {
   Id: 6132716858072260145
-  Name: "TITLE"
+  Name: "TITLE - 3"
   Transform {
     Location {
     }
@@ -952,7 +953,7 @@ Objects {
 }
 Objects {
   Id: 16094224341160781681
-  Name: "TITLE"
+  Name: "TITLE - 2"
   Transform {
     Location {
     }
@@ -1013,7 +1014,7 @@ Objects {
 }
 Objects {
   Id: 12052766565221974561
-  Name: "TITLE"
+  Name: "TITLE - 1"
   Transform {
     Location {
     }
@@ -1067,6 +1068,66 @@ Objects {
           Value: "mc:euianchor:topcenter"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 5461426698459499107
+  Name: "TournamentTitle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15576610328328067816
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 14000305356795983416
+      }
+    }
+    Overrides {
+      Name: "cs:Title1"
+      ObjectReference {
+        SelfId: 12052766565221974561
+      }
+    }
+    Overrides {
+      Name: "cs:Title2"
+      ObjectReference {
+        SelfId: 16094224341160781681
+      }
+    }
+    Overrides {
+      Name: "cs:Title3"
+      ObjectReference {
+        SelfId: 6132716858072260145
+      }
+    }
+    Overrides {
+      Name: "cs:Suffix"
+      String: " - TOURNAMENT"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2389901534261825883
     }
   }
 }
