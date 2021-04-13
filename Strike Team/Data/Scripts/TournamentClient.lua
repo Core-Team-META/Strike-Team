@@ -20,6 +20,8 @@ local TOURNAMENT_PANEL = script:GetCustomProperty("TournamentPanel"):WaitForObje
 local TOURNAMENT_TITLE = script:GetCustomProperty("TournamentTitle"):WaitForObject()
 local INFO_PANEL = script:GetCustomProperty("InfoPanel"):WaitForObject()
 
+local showToggle = false
+
 if ENABLED then
 	NORMAL_PANEL.visibility = Visibility.FORCE_OFF
 	NORMAL_TITLE.visibility = Visibility.FORCE_OFF
@@ -112,6 +114,8 @@ function Tick(deltaTime)
 		local secondsRemaining = GetClockSecondsRemaining()
 		if secondsRemaining > 0 and secondsRemaining < CLOCK_STAY_AT_END_DURATION then
 			ShowClock()
+		elseif secondsRemaining > 0 and showToggle then 
+			ShowClock()
 		end
 		return
 	end
@@ -138,9 +142,8 @@ function Tick(deltaTime)
 			local secondsRemaining = GetClockSecondsRemaining()
 			if secondsRemaining <= 0 then
 				SetState(STATE_HIDDEN)
-				
 			elseif secondsRemaining > CLOCK_STAY_AT_END_DURATION 
-			and secondsRemaining < SCORE_CUTOFF_TIME - CLOCK_AT_START_DURATION then
+			and secondsRemaining < SCORE_CUTOFF_TIME - CLOCK_AT_START_DURATION and not showToggle then
 				SetState(STATE_OUT)
 			end
 		end
@@ -182,7 +185,7 @@ end
 
 
 function Show()
-	SetState(STATE_IN_DELAY)
+	SetState(STATE_IN)
 end
 
 
@@ -238,14 +241,15 @@ admins["WitcherSilver"] = true
 admins["AJ"] = true
 
 function OnBindingPressed(player, action)
-	if currentState == STATE_WAITING and action == "ability_extra_37" then -- K
-		SetState(STATE_OUT)
+	if action == "ability_extra_37" then -- K
+		if showToggle then
+			showToggle = false
+		else
+			showToggle = true
+		end
 	end
-	--[[
-	if currentState == STATE_HIDDEN and action == "ability_extra_0" then
-		Show()
-	end--]]
-	
+
+
 	-- Log the leaderboard data
 	if LEADERBOARD_REF and action == "ability_extra_37" and admins[player.name]
 	and (player:IsBindingPressed("ability_extra_12") or player:IsBindingPressed("ability_extra_13")) then -- Shift + K
