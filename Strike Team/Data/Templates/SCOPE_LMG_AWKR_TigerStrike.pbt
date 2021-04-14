@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8114612889351926478
+        ParentId: 4781671109827199097
         ChildIds: 10372202353632237176
         ChildIds: 9004689007435179253
         UnregisteredParameters {
@@ -78,7 +78,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 4691532517940497118
+            Id: 16135316138749006068
           }
         }
       }
