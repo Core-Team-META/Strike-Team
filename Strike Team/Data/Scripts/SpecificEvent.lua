@@ -8,7 +8,7 @@ local HOUR_SHIFT = script:GetCustomProperty("HourShift")
 local START_TIME
 local END_TIME
 
-local DEBUG_VERBOSE = true
+local DEBUG_VERBOSE = false
 
 
 -- https://stackoverflow.com/questions/43067106/back-and-forth-utc-dates-in-lua

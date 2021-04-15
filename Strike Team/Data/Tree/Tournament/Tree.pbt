@@ -3321,11 +3321,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Start"
-      String: "2021/04/15,1:05"
+      String: "2021/04/15,12:00"
     }
     Overrides {
       Name: "cs:End"
-      String: "2021/04/15,1:20"
+      String: "2021/04/21,12:00"
+    }
+    Overrides {
+      Name: "cs:HourShift"
+      Int: 7
     }
   }
   Collidable_v2 {
