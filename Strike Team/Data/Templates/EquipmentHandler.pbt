@@ -1428,6 +1428,7 @@ Assets {
         ChildIds: 16343596422628324832
         ChildIds: 17233609458550393347
         ChildIds: 11899338146173791034
+        ChildIds: 10415766659623510045
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -2000,6 +2001,56 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 10415766659623510045
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2136086721307223701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 15060675988251880471
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -15270,6 +15321,7 @@ Assets {
         ChildIds: 14947812311197093140
         ChildIds: 12900285973859464039
         ChildIds: 7144292133154885112
+        ChildIds: 8209246546168043858
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -15696,6 +15748,56 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 8209246546168043858
+        Name: "Cyber Punk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17180424648927893776
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "CP"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 2068923759581498442
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: false
           }
         }
         Collidable_v2 {
