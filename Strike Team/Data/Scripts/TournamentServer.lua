@@ -1,17 +1,28 @@
 
-local ENABLED = script:GetCustomProperty("Enabled")
-if not ENABLED then return end
-
-local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
-local EVENT_ID = script:GetCustomProperty("EventID")
-
 local ADDITIONAL_DATA = require( script:GetCustomProperty("AdditionalData") )
+local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
+
+local EVENT_SCRIPT = script:GetCustomProperty("EventScript"):WaitForObject()
+local CLOCK_SCRIPT = script:GetCustomProperty("ClockScript"):WaitForObject()
+
+local _isEnabled = false
+function UpdateIsEnabled()
+	while not EVENT_SCRIPT.context
+	or not EVENT_SCRIPT.context.IsActive do
+		Task.Wait()
+	end
+	_isEnabled = EVENT_SCRIPT.context.IsActive()
+	CLOCK_SCRIPT:SetNetworkedCustomProperty("IsEventEnabled", _isEnabled)
+end
+UpdateIsEnabled()
+
+local EVENT_ID = EVENT_SCRIPT:GetCustomProperty("EventID")
 
 local MIN_PLAYERS_TO_SUBMIT = 4
 local POINTS_PER_SUICIDE = -5
 local POINTS_PER_KILL_WILD = 5
-local POINTS_PER_KILL_TO_DEFENDER = 10
-local POINTS_PER_KILL_WHILE_SUPPORT = 15
+local POINTS_PER_KILL_TO_DEFENDER = 15
+local POINTS_PER_KILL_WHILE_SUPPORT = 10
 local POINTS_PER_DEATH_WILD = -4
 local POINTS_PER_DEATH_WHILE_SUPPORT = -2
 local POINTS_PER_HEADSHOT = 2
@@ -23,9 +34,11 @@ local BONUS_MULTIPLY_PER_UNIQUE_KILL = 0.109
 local MAX_UNIQUE_COUNT = 6
 --TODO : MOD PLAYER MINUTES
 local POINTS_FOR_VICTORY = 100
-local POINTS_PER_ENEMY_FLAG = 20
+local POINTS_PER_ENEMY_FLAG = 0
 
 local STORAGE_KEY = "TournamentSupport"
+
+local isMeasuring = false
 
 
 function SubmitScore(player, score, totalKills, headshots, uniquePlayersKilled)
@@ -42,6 +55,8 @@ end
 
 
 function OnPlayerDamaged(player, target, weaponType, isHeadShot)
+	if not _isEnabled then return end
+	
 	if not Object.IsValid(player) then return end
 	if not Object.IsValid(target) then return end
 	if not target:IsA("Player") then return end
@@ -188,7 +203,9 @@ function OnPlayerJoined(player)
 	
 	player.respawnedEvent:Connect(OnPlayerRespawn)
 	
-	TransferStorageToPlayer(player)
+	if _isEnabled then
+		TransferStorageToPlayer(player)
+	end
 	
 	--[[ TODO: Debuging
 	player.bindingPressedEvent:Connect(function(player, action)
@@ -200,6 +217,13 @@ end
 
 
 function OnRoundStarted()
+	if not _isEnabled then
+		isMeasuring = false
+		return
+	end
+	
+	isMeasuring = true
+	
 	for _,player in ipairs(Game.GetPlayers()) do
 		ClearData(player)
 	end
@@ -207,6 +231,9 @@ end
 
 
 function OnRoundEnded()
+	if not isMeasuring then return end
+	isMeasuring = false
+	
 	-- Points are only valid if the minimum player count is met
 	if #Game.GetPlayers() < MIN_PLAYERS_TO_SUBMIT then return end
 
@@ -217,12 +244,15 @@ function OnRoundEnded()
 	local scoreTeam1 = Game.GetTeamScore(1)
 	local scoreTeam2 = Game.GetTeamScore(2)
 	
-	if scoreTeam1 == scoreTeam2 then return end
-	
-	local winningTeam = 1
-	local winningScore = scoreTeam1
-	local losingScore = scoreTeam2
-	if scoreTeam2 > scoreTeam1 then
+	local winningTeam = 0
+	local winningScore = 0
+	local losingScore = 0
+	if scoreTeam1 > scoreTeam2 and scoreTeam1 == 5 then
+		winningTeam = 1
+		winningScore = scoreTeam1
+		losingScore = scoreTeam2
+		
+	elseif scoreTeam2 > scoreTeam1 and scoreTeam2 == 5 then
 		winningTeam = 2
 		winningScore = scoreTeam2
 		losingScore = scoreTeam1
@@ -236,9 +266,7 @@ function OnRoundEnded()
 		local roundPoints = 0
 		
 		if player.team == winningTeam then
-			roundPoints = POINTS_FOR_VICTORY + POINTS_PER_ENEMY_FLAG * losingScore
-		else
-			roundPoints = POINTS_PER_ENEMY_FLAG * winningScore
+			roundPoints = POINTS_FOR_VICTORY
 		end
 		playerData.points = playerData.points + roundPoints
 		
@@ -275,19 +303,40 @@ function OnRoundEnded()
 	
 	-- Submit points for valid players
 	for _,player in ipairs(Game.GetPlayers()) do
-		if player.serverUserData.playedHalfRound then
-			local playerData = player.serverUserData.tournament
-			
-			SubmitScore(player, 
-				playerData.points, 
-				playerData.totalKills, 
-				playerData.headshots,
-				playerData.uniqueCount or 0)
+		local playerData = player.serverUserData.tournament
+		
+		SubmitScore(player, 
+			playerData.points, 
+			playerData.totalKills, 
+			playerData.headshots,
+			playerData.uniqueCount or 0)
+	end
+end
+
+
+function CheckEventForChangeInEnabled()
+	local wasEnabled = _isEnabled
+	
+	Task.Wait(30) -- Victory screen, etc. Should activate before round starts
+	
+	UpdateIsEnabled()
+	
+	if _isEnabled and not wasEnabled then
+		for _,player in ipairs(Game.GetPlayers()) do
+			TransferStorageToPlayer(player)
 		end
 	end
 end
 
+
+function OnClockEnded()
+	OnRoundEnded()
+end
+
+
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.roundStartEvent:Connect(OnRoundStarted)
 Game.roundEndEvent:Connect(OnRoundEnded)
+Game.roundEndEvent:Connect(CheckEventForChangeInEnabled)
+Events.Connect("Tournament_ClockEnded", OnClockEnded)
 

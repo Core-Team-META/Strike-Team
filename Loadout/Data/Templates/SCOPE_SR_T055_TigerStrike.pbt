@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8114612889351926478
+        ParentId: 4781671109827199097
         ChildIds: 6981380158097337822
         ChildIds: 16104180849998753388
         UnregisteredParameters {
@@ -78,7 +78,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 4691532517940497118
+            Id: 16135316138749006068
           }
         }
       }
@@ -97,7 +97,6 @@ Assets {
           }
         }
         ParentId: 1626283914808230304
-        ChildIds: 5190219970174723133
         ChildIds: 2522125610442707479
         ChildIds: 10237505831891490058
         UnregisteredParameters {
@@ -114,54 +113,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5190219970174723133
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 16104180849998753388
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 16104180849998753388
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -35
-              Z: 0.75
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 4691532517940497118
-          }
         }
       }
       Objects {

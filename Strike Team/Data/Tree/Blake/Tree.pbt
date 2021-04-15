@@ -237,7 +237,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 5
+      Float: 10
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -277,7 +277,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 25
+      Float: 50
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -317,7 +317,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 20
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -357,7 +357,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 40
     }
     Overrides {
       Name: "cs:MaxAmount"

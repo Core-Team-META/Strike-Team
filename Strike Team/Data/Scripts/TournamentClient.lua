@@ -1,9 +1,14 @@
 
+local EVENT_SCRIPT = script:GetCustomProperty("EventScript"):WaitForObject()
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
-local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
+
+local CLOCK_SCRIPT = script:GetCustomProperty("ClockScript"):WaitForObject()
+local SCORE_CUTOFF_TIME = CLOCK_SCRIPT:GetCustomProperty("ScoreCutoffTime")
+local CLOCK_AT_START_DURATION = 20
+local CLOCK_STAY_AT_END_DURATION = 120
 
 local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
-local EVENT_ID = SERVER_SCRIPT:GetCustomProperty("EventID")
+local EVENT_ID = EVENT_SCRIPT:GetCustomProperty("EventID")
 
 local ADDITIONAL_DATA = require( SERVER_SCRIPT:GetCustomProperty("AdditionalData") )
 
@@ -15,25 +20,17 @@ local TOURNAMENT_PANEL = script:GetCustomProperty("TournamentPanel"):WaitForObje
 local TOURNAMENT_TITLE = script:GetCustomProperty("TournamentTitle"):WaitForObject()
 local INFO_PANEL = script:GetCustomProperty("InfoPanel"):WaitForObject()
 
-if ENABLED then
-	NORMAL_PANEL.visibility = Visibility.FORCE_OFF
-	NORMAL_TITLE.visibility = Visibility.FORCE_OFF
-	TOURNAMENT_PANEL.visibility = Visibility.INHERIT
-	TOURNAMENT_TITLE.visibility = Visibility.INHERIT
-	INFO_PANEL.visibility = Visibility.INHERIT
-else
-	NORMAL_PANEL.visibility = Visibility.INHERIT
-	NORMAL_TITLE.visibility = Visibility.INHERIT
-	TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
-	TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
-	INFO_PANEL.visibility = Visibility.FORCE_OFF
-end
+local showToggle = false
 
 local POPUP_ROOT = script:GetCustomProperty("PopupRoot"):WaitForObject()
+local SCORE_ROOT = script:GetCustomProperty("ScoreRoot"):WaitForObject()
+local CLOCK_ROOT = script:GetCustomProperty("ClockRoot"):WaitForObject()
 local NEW_1 = script:GetCustomProperty("NewScore1"):WaitForObject()
 local NEW_2 = script:GetCustomProperty("NewScore2"):WaitForObject()
 local BEST_1 = script:GetCustomProperty("BestScore1"):WaitForObject()
 local BEST_2 = script:GetCustomProperty("BestScore2"):WaitForObject()
+local CLOCK_1 = script:GetCustomProperty("Clock1"):WaitForObject()
+local CLOCK_2 = script:GetCustomProperty("Clock2"):WaitForObject()
 
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
@@ -52,6 +49,16 @@ local STATE_OUT = 4
 local currentState = STATE_HIDDEN
 local stateElapsedTime = 0
 
+local MODE_CLOCK = 1
+local MODE_SCORE = 2
+
+local currentMode = nil
+
+
+function IsTournamentEnabled()
+	return CLOCK_SCRIPT:GetCustomProperty("IsEventEnabled")
+end
+
 
 function SetState(newState)
 	--print("TournamentClient SetState() = " .. tostring(newState))
@@ -63,6 +70,7 @@ function SetState(newState)
 		POPUP_ROOT.x = HIDDEN_X
 		
 	elseif newState == STATE_IN then
+		POPUP_ROOT.x = HIDDEN_X
 		POPUP_ROOT.visibility = Visibility.FORCE_ON
 		
 		EaseUI.EaseX(POPUP_ROOT, 0, IN_DURATION, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
@@ -79,19 +87,81 @@ function SetState(newState)
 end
 
 
+function SetMode(newMode)
+	if newMode == MODE_SCORE then
+		SCORE_ROOT.visibility = Visibility.FORCE_ON
+		CLOCK_ROOT.visibility = Visibility.FORCE_OFF
+		
+	elseif newMode == MODE_CLOCK then
+		SCORE_ROOT.visibility = Visibility.FORCE_OFF
+		CLOCK_ROOT.visibility = Visibility.FORCE_ON
+	end
+	currentMode = newMode
+end
+
+
+local visibilityCheckDelay = 0
+function UpdateVisibilityOfTournamentUI(deltaTime)
+	visibilityCheckDelay = visibilityCheckDelay - deltaTime
+	if visibilityCheckDelay > 0 then return end
+	visibilityCheckDelay = 5
+	
+	if IsTournamentEnabled() then
+		NORMAL_PANEL.visibility = Visibility.FORCE_OFF
+		NORMAL_TITLE.visibility = Visibility.FORCE_OFF
+		TOURNAMENT_PANEL.visibility = Visibility.INHERIT
+		TOURNAMENT_TITLE.visibility = Visibility.INHERIT
+		INFO_PANEL.visibility = Visibility.INHERIT
+	else
+		NORMAL_PANEL.visibility = Visibility.INHERIT
+		NORMAL_TITLE.visibility = Visibility.INHERIT
+		TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
+		TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
+		INFO_PANEL.visibility = Visibility.FORCE_OFF
+	end
+end
+
+
 function Tick(deltaTime)
-	if currentState == STATE_HIDDEN then return end
+	if currentState == STATE_HIDDEN then
+		UpdateVisibilityOfTournamentUI(deltaTime)
+		
+		local secondsRemaining = GetClockSecondsRemaining()
+		if secondsRemaining > 0 and secondsRemaining < CLOCK_STAY_AT_END_DURATION then
+			ShowClock()
+		elseif secondsRemaining > 0 and showToggle then 
+			ShowClock()
+		end
+		return
+	end
 	
 	stateElapsedTime = stateElapsedTime + deltaTime
 	
+	-- Update mode
+	if currentMode == MODE_CLOCK then
+		UpdateClock(deltaTime)
+	end
+	
+	-- Update state
 	if currentState == STATE_IN_DELAY and stateElapsedTime >= IN_DELAY then
 		SetState(STATE_IN)
 		
 	elseif currentState == STATE_IN and stateElapsedTime >= IN_DURATION then
 		SetState(STATE_WAITING)
 		
-	elseif currentState == STATE_WAITING and stateElapsedTime >= WAITING_MAX_DURATION then
-		SetState(STATE_OUT)
+	elseif currentState == STATE_WAITING then
+		if currentMode == MODE_SCORE and stateElapsedTime >= WAITING_MAX_DURATION then
+			SetState(STATE_OUT)
+			
+		elseif currentMode == MODE_CLOCK then
+			local secondsRemaining = GetClockSecondsRemaining()
+			if secondsRemaining <= 0 then
+				SetState(STATE_HIDDEN)
+			elseif secondsRemaining > CLOCK_STAY_AT_END_DURATION 
+			and secondsRemaining < SCORE_CUTOFF_TIME - CLOCK_AT_START_DURATION and not showToggle then
+				SetState(STATE_OUT)
+			end
+		end
 		
 	elseif currentState == STATE_OUT and stateElapsedTime >= OUT_DURATION then
 		SetState(STATE_HIDDEN)
@@ -99,8 +169,38 @@ function Tick(deltaTime)
 end
 
 
+function GetClockSecondsRemaining()
+	return CLOCK_SCRIPT:GetCustomProperty("ScoreEndTime") - time()
+end
+
+local clockUpdateDelay = 0
+function UpdateClock(deltaTime)
+	clockUpdateDelay = clockUpdateDelay - deltaTime
+	if clockUpdateDelay > 0 then return end
+	clockUpdateDelay = 0.2
+	
+	local timeStr
+	
+	local secondsRemaining = GetClockSecondsRemaining()
+	
+	if secondsRemaining <= 0 then
+		timeStr = "0s"
+	else
+		local minutes = CoreMath.Round(math.floor(secondsRemaining / 60))
+		local seconds = CoreMath.Round(math.floor(secondsRemaining - minutes * 60))
+		
+		timeStr = tostring(seconds) .. "s"
+		if minutes > 0 then
+			timeStr = tostring(minutes) .. "m " .. timeStr
+		end
+	end
+	CLOCK_1.text = timeStr
+	CLOCK_2.text = timeStr
+end
+
+
 function Show()
-	SetState(STATE_IN_DELAY)
+	SetState(STATE_IN)
 end
 
 
@@ -110,10 +210,27 @@ function OnScore(newScore, bestScore)
 	BEST_1.text = tostring(bestScore)
 	BEST_2.text = tostring(bestScore)
 	
+	SetMode(MODE_SCORE)
 	Show()
 end
 
 Events.Connect(EVENT_ID, OnScore)
+
+
+function ShowClock()
+	SetMode(MODE_CLOCK)
+	UpdateClock(1)
+	Show()
+end
+
+
+function OnRoundStart()
+	if IsTournamentEnabled() then
+		ShowClock()
+	end
+end
+
+Game.roundStartEvent:Connect(OnRoundStart)
 
 
 local admins = {}
@@ -141,14 +258,16 @@ admins["WitcherSilver"] = true
 admins["AJ"] = true
 
 function OnBindingPressed(player, action)
-	if currentState == STATE_WAITING and action == "ability_extra_37" then -- K
-		SetState(STATE_OUT)
+	if action == "ability_extra_37" -- K
+	and IsTournamentEnabled() then
+		if showToggle then
+			showToggle = false
+		else
+			showToggle = true
+		end
 	end
-	--[[
-	if currentState == STATE_HIDDEN and action == "ability_extra_0" then
-		Show()
-	end--]]
-	
+
+
 	-- Log the leaderboard data
 	if LEADERBOARD_REF and action == "ability_extra_37" and admins[player.name]
 	and (player:IsBindingPressed("ability_extra_12") or player:IsBindingPressed("ability_extra_13")) then -- Shift + K
