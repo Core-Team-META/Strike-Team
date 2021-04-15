@@ -1425,6 +1425,9 @@ Assets {
         ChildIds: 2538983546841194580
         ChildIds: 14911383720396035464
         ChildIds: 8281176061757728399
+        ChildIds: 16343596422628324832
+        ChildIds: 17233609458550393347
+        ChildIds: 11899338146173791034
         UnregisteredParameters {
           Overrides {
             Name: "cs:Weapon"
@@ -1855,6 +1858,148 @@ Assets {
           Overrides {
             Name: "cs:EventSkin"
             Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 16343596422628324832
+        Name: "Industrial"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2136086721307223701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "IN"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 9430142071829026358
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 17233609458550393347
+        Name: "GraFiXX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2136086721307223701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "GF"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 6691295487661794486
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 11899338146173791034
+        Name: "Toy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2136086721307223701
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TY"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 10487249814279710945
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -13697,11 +13842,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Easter"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -13797,11 +13942,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -13847,11 +13992,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Event"
+            String: "Stpat"
           }
           Overrides {
             Name: "cs:EventSkin"
-            Bool: false
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -15122,6 +15267,9 @@ Assets {
         ChildIds: 2158213175594460956
         ChildIds: 9154454223948297388
         ChildIds: 17118012168274349952
+        ChildIds: 14947812311197093140
+        ChildIds: 12900285973859464039
+        ChildIds: 7144292133154885112
         UnregisteredParameters {
           Overrides {
             Name: "cs:Description"
@@ -15406,6 +15554,148 @@ Assets {
           Overrides {
             Name: "cs:EventSkin"
             Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 14947812311197093140
+        Name: "Industrial"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17180424648927893776
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "IN"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 16528962632325830093
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 12900285973859464039
+        Name: "GraFiXX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17180424648927893776
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "GF"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 6601177112177951010
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:EventSkin"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16583515440227484556
+          }
+        }
+      }
+      Objects {
+        Id: 7144292133154885112
+        Name: "Toy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17180424648927893776
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ID"
+            String: "TY"
+          }
+          Overrides {
+            Name: "cs:SKIN"
+            AssetReference {
+              Id: 1085726118238324881
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
           }
         }
         Collidable_v2 {

@@ -9,7 +9,9 @@ local showToggle = false
 function GenerateLeaderboard()
 	local leaderboardControllers = MAIN_PANEL:FindDescendantsByType("Script")
 	for _,v in ipairs(leaderboardControllers) do
-		v.context.GenerateLeaderboard()
+		if v.context and v.context.GenerateLeaderboard then
+			v.context.GenerateLeaderboard()
+		end
 	end
 end
 

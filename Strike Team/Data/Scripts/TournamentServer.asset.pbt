@@ -11,10 +11,6 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:Enabled"
-        Bool: false
-      }
-      Overrides {
         Name: "cs:LeaderboardReference"
         NetReference {
           Type {
@@ -23,8 +19,14 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:EventID"
-        String: "GunsNGlory"
+        Name: "cs:EventScript"
+        ObjectReference {
+        }
+      }
+      Overrides {
+        Name: "cs:ClockScript"
+        ObjectReference {
+        }
       }
     }
   }
