@@ -1,9 +1,6 @@
 
-local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
-local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
-if not ENABLED then return end
-
-local EVENT_DISPLAY_NAME = SERVER_SCRIPT:GetCustomProperty("DisplayName")
+local EVENT_SCRIPT = script:GetCustomProperty("EventScript"):WaitForObject()
+local EVENT_DISPLAY_NAME = EVENT_SCRIPT:GetCustomProperty("DisplayName")
 
 local TITLE_1 = script:GetCustomProperty("Title1"):WaitForObject()
 local TITLE_2 = script:GetCustomProperty("Title2"):WaitForObject()

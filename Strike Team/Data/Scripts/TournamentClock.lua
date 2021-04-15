@@ -1,24 +1,32 @@
 
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
-local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
-if not ENABLED then return end
 
 local SCORE_CUTOFF_TIME = script:GetCustomProperty("ScoreCutoffTime")
 
 local scoreEndTime = 0
 
 
+function IsTournamentEnabled()
+	return script:GetCustomProperty("IsEventEnabled")
+end
+
+
 function Tick()
-	if time() > scoreEndTime and scoreEndTime > 0 then
+	if scoreEndTime > 0 and time() > scoreEndTime then
 		OnRoundEnded()
-		Events.Broadcast("Tournament_ClockEnded")
+		
+		if IsTournamentEnabled() then
+			Events.Broadcast("Tournament_ClockEnded")
+		end
 	end
 end
 
 
 function OnRoundStarted()
-	scoreEndTime = time() + SCORE_CUTOFF_TIME
-	script:SetNetworkedCustomProperty("ScoreEndTime", scoreEndTime)
+	if IsTournamentEnabled() then
+		scoreEndTime = time() + SCORE_CUTOFF_TIME
+		script:SetNetworkedCustomProperty("ScoreEndTime", scoreEndTime)
+	end
 end
 
 

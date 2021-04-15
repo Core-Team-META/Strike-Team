@@ -16,6 +16,11 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:ClockScript"
+        ObjectReference {
+        }
+      }
+      Overrides {
         Name: "cs:ShowTopPlayers"
         Bool: false
       }

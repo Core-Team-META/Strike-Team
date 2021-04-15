@@ -3012,9 +3012,9 @@ Objects {
   ParentId: 14547356381425284461
   UnregisteredParameters {
     Overrides {
-      Name: "cs:ServerScript"
+      Name: "cs:EventScript"
       ObjectReference {
-        SelfId: 14000305356795983416
+        SelfId: 10218415432492591634
       }
     }
     Overrides {
@@ -3173,6 +3173,12 @@ Objects {
         SelfId: 8180109016982215602
       }
     }
+    Overrides {
+      Name: "cs:EventScript"
+      ObjectReference {
+        SelfId: 10218415432492591634
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3249,10 +3255,6 @@ Objects {
   ParentId: 2805157618680573865
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Enabled"
-      Bool: true
-    }
-    Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
         Key: "B093F7AF11FFD3FE"
@@ -3262,12 +3264,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:DisplayName"
-      String: "CORE TRIALS"
-    }
-    Overrides {
-      Name: "cs:EventID"
-      String: "CoreTrials"
+      Name: "cs:EventScript"
+      ObjectReference {
+        SelfId: 10218415432492591634
+      }
     }
   }
   Collidable_v2 {
@@ -3282,6 +3282,58 @@ Objects {
   Script {
     ScriptAsset {
       Id: 16344617059821561240
+    }
+  }
+}
+Objects {
+  Id: 10218415432492591634
+  Name: "SpecificEvent"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2805157618680573865
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EventID"
+      String: "CoreTrials"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "CORE TRIALS"
+    }
+    Overrides {
+      Name: "cs:UtcStart"
+      String: "2021/04/15,19:00"
+    }
+    Overrides {
+      Name: "cs:UtcEnd"
+      String: "2021/04/21,19:00"
+    }
+    Overrides {
+      Name: "cs:ForceEnable"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 449413310102696208
     }
   }
 }

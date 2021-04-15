@@ -1,11 +1,23 @@
 
-local ENABLED = script:GetCustomProperty("Enabled")
-if not ENABLED then return end
-
-local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
-local EVENT_ID = script:GetCustomProperty("EventID")
-
 local ADDITIONAL_DATA = require( script:GetCustomProperty("AdditionalData") )
+local LEADERBOARD_REF = script:GetCustomProperty("LeaderboardReference")
+
+local EVENT_SCRIPT = script:GetCustomProperty("EventScript"):WaitForObject()
+local CLOCK_SCRIPT = script:GetCustomProperty("ClockScript"):WaitForObject()
+
+local _isEnabled = false
+function UpdateIsEnabled()
+	while not EVENT_SCRIPT.context
+	or not EVENT_SCRIPT.context.IsActive do
+		Task.Wait()
+	end
+	local isEventActive = EVENT_SCRIPT.context.IsActive()
+	CLOCK_SCRIPT:SetNetworkedCustomProperty("IsEventEnabled", isEventActive)
+	return isEventActive
+end
+UpdateIsEnabled()
+
+local EVENT_ID = EVENT_SCRIPT:GetCustomProperty("EventID")
 
 local MIN_PLAYERS_TO_SUBMIT = 4
 local POINTS_PER_SUICIDE = -5
@@ -44,6 +56,8 @@ end
 
 
 function OnPlayerDamaged(player, target, weaponType, isHeadShot)
+	if not _isEnabled then return end
+	
 	if not Object.IsValid(player) then return end
 	if not Object.IsValid(target) then return end
 	if not target:IsA("Player") then return end
@@ -190,7 +204,9 @@ function OnPlayerJoined(player)
 	
 	player.respawnedEvent:Connect(OnPlayerRespawn)
 	
-	TransferStorageToPlayer(player)
+	if _isEnabled then
+		TransferStorageToPlayer(player)
+	end
 	
 	--[[ TODO: Debuging
 	player.bindingPressedEvent:Connect(function(player, action)
@@ -202,6 +218,11 @@ end
 
 
 function OnRoundStarted()
+	if not _isEnabled then
+		isMeasuring = false
+		return
+	end
+	
 	isMeasuring = true
 	
 	for _,player in ipairs(Game.GetPlayers()) do
@@ -294,6 +315,21 @@ function OnRoundEnded()
 end
 
 
+function CheckEventForChangeInEnabled()
+	local wasEnabled = _isEnabled
+	
+	Task.Wait(30) -- Victory screen, etc. Should activate before round starts
+	
+	UpdateIsEnabled()
+	
+	if _isEnabled and not wasEnabled then
+		for _,player in ipairs(Game.GetPlayers()) do
+			TransferStorageToPlayer(player)
+		end
+	end
+end
+
+
 function OnClockEnded()
 	OnRoundEnded()
 end
@@ -302,5 +338,6 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.roundStartEvent:Connect(OnRoundStarted)
 Game.roundEndEvent:Connect(OnRoundEnded)
+Game.roundEndEvent:Connect(CheckEventForChangeInEnabled)
 Events.Connect("Tournament_ClockEnded", OnClockEnded)
 

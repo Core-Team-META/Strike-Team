@@ -18,7 +18,15 @@ Assets {
         Float: 0
       }
       Overrides {
+        Name: "cs:IsEventEnabled"
+        Bool: false
+      }
+      Overrides {
         Name: "cs:ScoreEndTime:isrep"
+        Bool: true
+      }
+      Overrides {
+        Name: "cs:IsEventEnabled:isrep"
         Bool: true
       }
     }

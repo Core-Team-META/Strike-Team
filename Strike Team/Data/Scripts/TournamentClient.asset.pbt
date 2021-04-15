@@ -5,6 +5,11 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:EventScript"
+        ObjectReference {
+        }
+      }
+      Overrides {
         Name: "cs:ServerScript"
         ObjectReference {
         }

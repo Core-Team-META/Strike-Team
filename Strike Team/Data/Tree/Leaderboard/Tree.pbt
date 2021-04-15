@@ -1088,9 +1088,9 @@ Objects {
   ParentId: 15576610328328067816
   UnregisteredParameters {
     Overrides {
-      Name: "cs:ServerScript"
+      Name: "cs:EventScript"
       ObjectReference {
-        SelfId: 14000305356795983416
+        SelfId: 10218415432492591634
       }
     }
     Overrides {
@@ -1875,6 +1875,12 @@ Objects {
         SelfId: 14000305356795983416
       }
     }
+    Overrides {
+      Name: "cs:ClockScript"
+      ObjectReference {
+        SelfId: 8180109016982215602
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2638,6 +2644,12 @@ Objects {
     Overrides {
       Name: "cs:ShowTopPlayers"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:ClockScript"
+      ObjectReference {
+        SelfId: 8180109016982215602
+      }
     }
   }
   Collidable_v2 {

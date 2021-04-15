@@ -1,6 +1,6 @@
 
+local EVENT_SCRIPT = script:GetCustomProperty("EventScript"):WaitForObject()
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
-local ENABLED = SERVER_SCRIPT:GetCustomProperty("Enabled")
 
 local CLOCK_SCRIPT = script:GetCustomProperty("ClockScript"):WaitForObject()
 local SCORE_CUTOFF_TIME = CLOCK_SCRIPT:GetCustomProperty("ScoreCutoffTime")
@@ -8,7 +8,7 @@ local CLOCK_AT_START_DURATION = 20
 local CLOCK_STAY_AT_END_DURATION = 120
 
 local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
-local EVENT_ID = SERVER_SCRIPT:GetCustomProperty("EventID")
+local EVENT_ID = EVENT_SCRIPT:GetCustomProperty("EventID")
 
 local ADDITIONAL_DATA = require( SERVER_SCRIPT:GetCustomProperty("AdditionalData") )
 
@@ -21,20 +21,6 @@ local TOURNAMENT_TITLE = script:GetCustomProperty("TournamentTitle"):WaitForObje
 local INFO_PANEL = script:GetCustomProperty("InfoPanel"):WaitForObject()
 
 local showToggle = false
-
-if ENABLED then
-	NORMAL_PANEL.visibility = Visibility.FORCE_OFF
-	NORMAL_TITLE.visibility = Visibility.FORCE_OFF
-	TOURNAMENT_PANEL.visibility = Visibility.INHERIT
-	TOURNAMENT_TITLE.visibility = Visibility.INHERIT
-	INFO_PANEL.visibility = Visibility.INHERIT
-else
-	NORMAL_PANEL.visibility = Visibility.INHERIT
-	NORMAL_TITLE.visibility = Visibility.INHERIT
-	TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
-	TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
-	INFO_PANEL.visibility = Visibility.FORCE_OFF
-end
 
 local POPUP_ROOT = script:GetCustomProperty("PopupRoot"):WaitForObject()
 local SCORE_ROOT = script:GetCustomProperty("ScoreRoot"):WaitForObject()
@@ -67,6 +53,11 @@ local MODE_CLOCK = 1
 local MODE_SCORE = 2
 
 local currentMode = nil
+
+
+function IsTournamentEnabled()
+	return CLOCK_SCRIPT:GetCustomProperty("IsEventEnabled")
+end
 
 
 function SetState(newState)
@@ -109,8 +100,32 @@ function SetMode(newMode)
 end
 
 
+local visibilityCheckDelay = 0
+function UpdateVisibilityOfTournamentUI(deltaTime)
+	visibilityCheckDelay = visibilityCheckDelay - deltaTime
+	if visibilityCheckDelay > 0 then return end
+	visibilityCheckDelay = 5
+	
+	if IsTournamentEnabled() then
+		NORMAL_PANEL.visibility = Visibility.FORCE_OFF
+		NORMAL_TITLE.visibility = Visibility.FORCE_OFF
+		TOURNAMENT_PANEL.visibility = Visibility.INHERIT
+		TOURNAMENT_TITLE.visibility = Visibility.INHERIT
+		INFO_PANEL.visibility = Visibility.INHERIT
+	else
+		NORMAL_PANEL.visibility = Visibility.INHERIT
+		NORMAL_TITLE.visibility = Visibility.INHERIT
+		TOURNAMENT_PANEL.visibility = Visibility.FORCE_OFF
+		TOURNAMENT_TITLE.visibility = Visibility.FORCE_OFF
+		INFO_PANEL.visibility = Visibility.FORCE_OFF
+	end
+end
+
+
 function Tick(deltaTime)
 	if currentState == STATE_HIDDEN then
+		UpdateVisibilityOfTournamentUI(deltaTime)
+		
 		local secondsRemaining = GetClockSecondsRemaining()
 		if secondsRemaining > 0 and secondsRemaining < CLOCK_STAY_AT_END_DURATION then
 			ShowClock()
@@ -241,7 +256,8 @@ admins["WitcherSilver"] = true
 admins["AJ"] = true
 
 function OnBindingPressed(player, action)
-	if action == "ability_extra_37" then -- K
+	if action == "ability_extra_37" -- K
+	and IsTournamentEnabled() then
 		if showToggle then
 			showToggle = false
 		else
