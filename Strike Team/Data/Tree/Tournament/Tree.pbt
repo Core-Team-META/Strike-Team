@@ -3269,6 +3269,12 @@ Objects {
         SelfId: 10218415432492591634
       }
     }
+    Overrides {
+      Name: "cs:ClockScript"
+      ObjectReference {
+        SelfId: 8180109016982215602
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

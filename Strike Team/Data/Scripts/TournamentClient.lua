@@ -225,7 +225,9 @@ end
 
 
 function OnRoundStart()
-	ShowClock()
+	if IsTournamentEnabled() then
+		ShowClock()
+	end
 end
 
 Game.roundStartEvent:Connect(OnRoundStart)

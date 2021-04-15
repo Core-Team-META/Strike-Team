@@ -11,9 +11,8 @@ function UpdateIsEnabled()
 	or not EVENT_SCRIPT.context.IsActive do
 		Task.Wait()
 	end
-	local isEventActive = EVENT_SCRIPT.context.IsActive()
-	CLOCK_SCRIPT:SetNetworkedCustomProperty("IsEventEnabled", isEventActive)
-	return isEventActive
+	_isEnabled = EVENT_SCRIPT.context.IsActive()
+	CLOCK_SCRIPT:SetNetworkedCustomProperty("IsEventEnabled", _isEnabled)
 end
 UpdateIsEnabled()
 

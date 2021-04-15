@@ -23,6 +23,11 @@ Assets {
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:ClockScript"
+        ObjectReference {
+        }
+      }
     }
   }
   SerializationVersion: 81
