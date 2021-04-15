@@ -3316,16 +3316,16 @@ Objects {
       String: "CORE TRIALS"
     }
     Overrides {
-      Name: "cs:UtcStart"
-      String: "2021/04/15,19:00"
-    }
-    Overrides {
-      Name: "cs:UtcEnd"
-      String: "2021/04/21,19:00"
-    }
-    Overrides {
       Name: "cs:ForceEnable"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:Start"
+      String: "2021/04/15,1:05"
+    }
+    Overrides {
+      Name: "cs:End"
+      String: "2021/04/15,1:20"
     }
   }
   Collidable_v2 {

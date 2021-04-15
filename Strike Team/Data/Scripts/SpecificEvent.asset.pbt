@@ -17,12 +17,16 @@ Assets {
         String: "GUNS N\' GLORY"
       }
       Overrides {
-        Name: "cs:UtcStart"
+        Name: "cs:Start"
         String: "2021/03/15,19:00"
       }
       Overrides {
-        Name: "cs:UtcEnd"
+        Name: "cs:End"
         String: "2021/03/21,19:00"
+      }
+      Overrides {
+        Name: "cs:HourShift"
+        Int: 8
       }
     }
   }
