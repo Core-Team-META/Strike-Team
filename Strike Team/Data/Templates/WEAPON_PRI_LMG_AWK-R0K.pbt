@@ -7,7 +7,7 @@ Assets {
       RootId: 1760752495282157727
       Objects {
         Id: 1760752495282157727
-        Name: "NEMO2.0_WEAPON"
+        Name: "WEAPON_PRI_LMG_AWK-R0K"
         Transform {
           Scale {
             X: 0.99999994
@@ -188,7 +188,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 75000
+            ProjectileSpeed: 45000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5

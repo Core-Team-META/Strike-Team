@@ -38,6 +38,8 @@ Assets {
         Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
+            X: -1101.89
+            Z: 11.359
           }
           Rotation {
           }
@@ -60,40 +62,40 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 0.35
+            Float: 0.25
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.14
+            Float: 0.15
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 1.6
+            Float: 1.2
           }
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.598958313
-              G: 0.598958313
-              B: 0.598958313
+              R: 0.442708343
+              G: 0.442708343
+              B: 0.442708343
               A: 1
             }
           }
           Overrides {
             Name: "bp:ColorB"
             Color {
-              R: 0.609375
-              G: 0.609375
-              B: 0.609375
+              R: 0.494791657
+              G: 0.494791657
+              B: 0.494791657
               A: 1
             }
           }
           Overrides {
             Name: "bp:ColorC"
             Color {
-              R: 0.536458313
-              G: 0.536458313
-              B: 0.536458313
+              R: 0.708333313
+              G: 0.708333313
+              B: 0.708333313
               A: 1
             }
           }
@@ -118,7 +120,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:critical"
         }
       }
     }
