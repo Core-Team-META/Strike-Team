@@ -77,8 +77,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Tournament2"
-    Id: "B093F7AF11FFD3FE"
+    Name: "Tournament2b"
+    Id: "3AE9313D57601A97"
     EntryLimit: 60
   }
 }
