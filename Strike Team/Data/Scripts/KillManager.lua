@@ -106,6 +106,7 @@ function ResetData(player)
     player:SetResource("Assists", 0)
     player:SetResource("Score", 0)
     player:SetResource("Objective", 0)
+    player:SetResource("Support", 0)
     player:SetResource("Kills", 0)
     player:SetResource("Deaths", 0)
     player.kills = 0
