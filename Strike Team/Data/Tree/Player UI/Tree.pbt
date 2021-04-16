@@ -2355,7 +2355,7 @@ Objects {
     AddSizeToParentIfUsingParentSize: true
     UseParentWidth: true
     Text {
-      Label: "LEADERBOARDS"
+      Label: "TOURNAMENT LEADERBOARD"
       Color {
         R: 1
         G: 1
