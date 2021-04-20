@@ -8,7 +8,7 @@ local BUTTON_SHINE = script:GetCustomProperty("BUTTONSHINE"):WaitForObject()
 Join_Match.pressedEvent:Connect(function(player)
     World.SpawnAsset(CLICK_SOUND)
     BUTTON_SHINE.visibility = Visibility.FORCE_OFF
-    Events.Broadcast("JoinGame")
+    Events.BroadcastToServer("RequestToJoinMatch")
     for _, v in pairs(TEXT_PANEL:GetChildren()) do
         v:SetColor(Color.WHITE)
         v.text = "JOINING..."

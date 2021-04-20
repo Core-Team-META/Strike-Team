@@ -1,8 +1,5 @@
-Events.Connect("RequestToJoinMatch", function (player)
+Events.ConnectForPlayer("RequestToJoinMatch", function (player)
     print("Sending player to game")
-    while Object.IsValid(player) do
-    	local gameId = _G["MainGameId"]
-        player:TransferToGame(gameId)
-        Task.Wait()
-    end
+    local gameId = _G["MainGameId"]
+    player:TransferToGame(gameId)
 end)
