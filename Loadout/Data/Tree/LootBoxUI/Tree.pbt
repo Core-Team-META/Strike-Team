@@ -583,11 +583,4 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "ST_CHAMPIONS_CRATE"
   }
-  InstanceHistory {
-    SelfId: 14438528731526493836
-    SubobjectId: 11041017800974721631
-    InstanceId: 14426319141699216976
-    TemplateId: 1526186610335564444
-    WasRoot: true
-  }
 }

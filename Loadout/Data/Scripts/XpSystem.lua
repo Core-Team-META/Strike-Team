@@ -124,11 +124,12 @@ if Environment.IsClient() then
     end
 
     function UpdateResource(_,Rname)
-        if LOCAL_PLAYER.clientUserData.XP  then 
+        if LOCAL_PLAYER.clientUserData.XP then 
             LOCAL_PLAYER.clientUserData.XP:Load()
         end
     end
 
+    Task.Spawn(function() LOCAL_PLAYER.clientUserData.XP:Load() end, 3)
 
     LOCAL_PLAYER.resourceChangedEvent:Connect(UpdateResource)
 end 
@@ -158,11 +159,10 @@ if Environment.IsServer() then
         self.xp = 0
     end
 
-     
     function XP:UpdateResource()
         self.owner:SetResource("LastGained", self.lastgained)
         self.owner:SetResource("XP", self.xp)
-        self.owner:SetResource("level", self.level)
+        self.owner:SetResource("Level", self.level)
         self.owner:SetResource("Prestige", self.level)
     end
 
@@ -180,12 +180,7 @@ if Environment.IsServer() then
     end
 
     function XP:Save()
-        while not _G["StatKey"] do Task.Wait() end
-        local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
-        data["XP"] = self.xp
-        data["Level"] = self.level
-        data["Prestige"] = self.Prestige
-        Storage.SetSharedPlayerData(_G["StatKey"],self.owner,data)
+
     end
 
     function XP:GetPrestige()
@@ -204,15 +199,15 @@ if Environment.IsServer() then
 
     function XP:Load()
         while not _G["StatKey"] do Task.Wait() end
+        if not Object.IsValid(self.owner) then return end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],self.owner)
         self.xp = data["XP"] or 0
-        self.level = data["level"] or 1
+        self.level = data["Level"] or 1
         self.Prestige = data["Prestige"] or 0
-        Task.Spawn(function()
-            self.owner:SetResource("XP", self.xp)
-            self.owner:SetResource("Level", self.level)
-            self.owner:SetResource("Prstige", self.Prestige)
-        end,2)
+        self.owner:SetResource("XP", self.xp)
+        self.owner:SetResource("Level", self.level)
+        self.owner:SetResource("Prestige", self.Prestige)
+
     end
 
     function Playerjoined(player)
@@ -220,6 +215,7 @@ if Environment.IsServer() then
     end
 
     function PlayerLeft(player)
+        if not player.serverUserData.XP then return end
         player.serverUserData.XP:Save()
     end
 

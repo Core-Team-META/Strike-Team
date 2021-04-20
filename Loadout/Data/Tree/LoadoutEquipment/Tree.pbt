@@ -27,12 +27,6 @@ Objects {
   }
   NetworkContext {
   }
-  InstanceHistory {
-    SelfId: 6523287940111032258
-    SubobjectId: 8133759007287390333
-    InstanceId: 2889041290310694249
-    TemplateId: 10798511928395917419
-  }
 }
 Objects {
   Id: 15079671044116579591
@@ -62,12 +56,6 @@ Objects {
     ScriptAsset {
       Id: 12457309027452680951
     }
-  }
-  InstanceHistory {
-    SelfId: 15079671044116579591
-    SubobjectId: 18096155455583152824
-    InstanceId: 2889041290310694249
-    TemplateId: 10798511928395917419
   }
 }
 Objects {
@@ -106,11 +94,5 @@ Objects {
     ScriptAsset {
       Id: 10240097888301914466
     }
-  }
-  InstanceHistory {
-    SelfId: 3488921277052089435
-    SubobjectId: 1877040087555513316
-    InstanceId: 2889041290310694249
-    TemplateId: 10798511928395917419
   }
 }
