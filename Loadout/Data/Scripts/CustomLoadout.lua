@@ -16,9 +16,19 @@ while not _G["DataBase"] or not LOCAL_PLAYER.clientUserData.Loadouts[tostring(SL
 local Database = _G["DataBase"] 
 assert(SLOT > 0, "slot cannot be less then 1")
 
+-----------------------------------------------------------|
+--[[
+    Custom Panels
+
+    Loadout select button
+--]]
+-----------------------------------------------------------|
+
+
 local lastpressedTime = os.clock()-20
 local panel 
 local Spawns = {}
+
 function ClearSpawns()
     for _,obj in pairs(Spawns) do
         if Object.IsValid(obj) then

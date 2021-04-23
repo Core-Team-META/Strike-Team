@@ -1,8 +1,16 @@
 local Spawn
 local UISpawn = script:GetCustomProperty("UISpawn")
 
+-----------------------------------------------------------|
+--[[
+    Purchase credits
+
+    Client PopUp Panel
+]]
+-----------------------------------------------------------|
 
 
+--Opens Panel
 function OpenPanel()
     Events.Broadcast("AllloadoutPanelsClose")
     _G["LoadoutState"] = _G["LOADOUTSTATEENUMS"][1]
@@ -13,6 +21,7 @@ function OpenPanel()
     Spawn = World.SpawnAsset(UISpawn)
 end
 
+--Closes perkPanel
 function ClosePanel()
     Events.Broadcast("UpdateMenuState","LOADOUT")
     Events.Broadcast("ShowClaimBox")
@@ -23,7 +32,8 @@ function ClosePanel()
     end
 end
 
-function Purchase(Value)
+--On purchase close panel
+function Purchase(_)
 
     ClosePanel()
 end

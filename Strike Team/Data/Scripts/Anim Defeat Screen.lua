@@ -9,6 +9,7 @@ local propMetalArmorHitImpactKlang01SFX = script:GetCustomProperty("MetalArmorHi
 local propActionCombatStingers01 = script:GetCustomProperty("ActionCombatStingers01"):WaitForObject()
 local propStylishRagingRockMusicStingerSet01 = script:GetCustomProperty("StylishRagingRockMusicStingerSet01"):WaitForObject()
 
+--Animate Defeate Popup
 function Play()
     Task.Wait()
     EaseUI.EaseY(Gradient, 2000, 1.5, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.INOUT)

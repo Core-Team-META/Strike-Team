@@ -6,8 +6,15 @@
  ]]
 
 local COMMANDS_LIST = require(script:GetCustomProperty("CommandsList"))
-local propContainer = script:GetCustomProperty("Container"):WaitForObject()
-local propHelper = script:GetCustomProperty("Helper")
+local AdminData = require(script:GetCustomProperty("AdminData"))
+
+-----------------------------------------------------------|
+--[[
+    Chat commands client
+
+    Commands for the chat
+--]]
+-----------------------------------------------------------|
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local WAIT_LOAD_TIME = 3
@@ -25,6 +32,7 @@ function IsNameComamnd(text)
     return false
 end
 
+--Check if command 
 function IsComamnd(text)
     if string.find(text, "/") == 1 then
         return true
@@ -65,34 +73,13 @@ function OnReceiveMessage(player, params)
     if isNameCommand then
         if name == LOCAL_PLAYER.name or player == LOCAL_PLAYER then
             local trimmedMessage = CoreString.Trim(params.message, command)
-            -- SpawnChatMessage(player, trimmedMessage, Color.ORANGE)
         end
         return
     end
 
-    -- SpawnChatMessage(player, params.message)
 end
 
-function SpawnChatMessage(player, message, color, players)
-    if players then
-        local canSpawn = false
-        for _, value in ipairs(players) do
-            if value == LOCAL_PLAYER then
-                canSpawn = true
-            end
-        end
-        if not canSpawn then
-            return
-        end
-    end
-    
-    local instance = World.SpawnAsset(propHelper, {parent = propContainer})
-    instance.clientUserData.player = player
-    instance.clientUserData.message = message
-    instance.clientUserData.color = color
-end
+
 
 Chat.sendMessageHook:Connect(OnSendMessage)
 Chat.receiveMessageHook:Connect(OnReceiveMessage)
-
--- Events.Connect("SpawnChatMessage", SpawnChatMessage)

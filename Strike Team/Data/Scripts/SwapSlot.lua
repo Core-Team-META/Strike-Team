@@ -7,7 +7,17 @@ local UI_CLOSE_SOUND = script:GetCustomProperty("UI_CLOSE_SOUND")
 local CanActivate = true
 local ABGS = require(script:GetCustomProperty("ABGS"))
 
+-----------------------------------------------------------|
+--[[
+    Loadout Panel
+
+    Displays a Loadout panel for clients
+--]]
+-----------------------------------------------------------|
+
 UI.SetCursorLockedToViewport(true)
+
+--Turn Panel on
 local function ToggleOn()
     if not CanActivate then return end
     UI.SetCanCursorInteractWithUI(true)
@@ -17,6 +27,8 @@ local function ToggleOn()
     UI_CONTAINER.visibility = Visibility.FORCE_ON
     World.SpawnAsset(UI_OPEN_SOUND)
 end
+
+--Turn panel off
 local function ToggleOff()
     UI.SetCanCursorInteractWithUI(false)
     UI.SetCursorLockedToViewport(true)
@@ -28,6 +40,7 @@ local function ToggleOff()
     UI.SetCursorVisible(false)
 end
 
+
 local function ToggleWeaponSlot()
     if (UI_CONTAINER.visibility == Visibility.FORCE_OFF) then
         ToggleOn()
@@ -38,6 +51,9 @@ local function ToggleWeaponSlot()
     end
 end
 
+
+--@Params player, String
+--Toggle pannel
 LOCAL_PLAYER.bindingPressedEvent:Connect(function(player, bindingPressed)
     if bindingPressed == MENU_BUTTON then
        ToggleWeaponSlot()

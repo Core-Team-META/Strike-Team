@@ -9,16 +9,24 @@ while not LOCAL_PLAYER.clientUserData.Loadouts["1"] or LOCAL_PLAYER:GetResource(
     Task.Wait() 
 end
 
+-----------------------------------------------------------|
+--[[
+    Gun Marker
 
+    Renders loadout of player
+--]]
+-----------------------------------------------------------|
 
 local GlobalWeapon 
 
+--gets equipment based on type
 function GetPoint(Type)
     local point = Points:FindDescendantByName(Type) or script.parent
     return point
 end
 
 
+--Table converter of type
 function GetItem()
     local Methods = {   
         ["GetPrimary"] =  _G["DataBase"]:GetPrimary(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot or  LOCAL_PLAYER:GetResource("Equipslot"))] ),
@@ -29,6 +37,7 @@ function GetItem()
    return Methods[METHODNAME] 
 end
 
+--Spawns item
 function SpawnItem(SpawnedItem)
     local primary 
 
@@ -52,6 +61,7 @@ end
 
 SpawnItem()
 
+--Update connection
 Events.Connect("UpdatedLoadouts",function()
     if(Object.IsValid( GlobalWeapon)) then GlobalWeapon:Destroy() end
     SpawnItem()

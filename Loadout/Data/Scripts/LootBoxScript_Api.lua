@@ -3,7 +3,7 @@ LootBox.__index = LootBox
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 
 
-
+--Save
 local function SavePlayerCrateStorage(player, data)
     if _G["MiscKey"] and _G["MiscKey"].isAssigned then
     print(data)
@@ -31,23 +31,28 @@ end
 
 if Environment.IsServer() then
 
+    --Disallow use of lootbox
     function LootBox.Lock(player) 
         ReliableEvents.BroadcastToPlayer(player,"LootBox.Lock")
         player:SetResource("Lootbox.CanOpen",1) 
         LootBox.Save(player)
     end 
 
+    --Allow use of lootbox
     function LootBox.Unlock(player) 
         ReliableEvents.BroadcastToPlayer(player,"LootBox.UnLock")
         player:SetResource("Lootbox.CanOpen",0)
         LootBox.Save(player) 
     end
 
+
+    --Reward player
     function LootBox.Gift(player)
         Events.Broadcast("Lootbox.GiveItem",player)
         LootBox.ResetGold(player)
     end
 
+    --Claim lootbox
     function LootBox.Claim(player)
         if LootBox.Verify(player)  then
             LootBox.Gift(player)
@@ -65,6 +70,7 @@ if Environment.IsServer() then
         end, Time)
     end
 
+    --Update can open timer
     function LootBox.UpdateTime(player)
         local CountdownTimer = 60*60*8
         local data = GetPlayerCrateStorage(player)
@@ -77,6 +83,7 @@ if Environment.IsServer() then
         return CountdownTimer
     end
     
+    --Save lootbox data
     function LootBox.Save(player)
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
@@ -89,16 +96,19 @@ if Environment.IsServer() then
         SavePlayerCrateStorage(player, data2)
     end
     
+    --After opening set gold to 0
     function LootBox.ResetGold(player)
         player:SetResource("Gold", 0)
         LootBox.Save(player)
     end
         
+    --Reward gold
     function LootBox.AddGold(player,Amount)
         player:SetResource("Gold", math.min(player:GetResource("Gold") + Amount,10) )
         LootBox.Save(player)
     end
 
+    --Load player data
     function LootBox.Load(player)
         while not _G["StatKey"] do Task.Wait() end
         local data = Storage.GetSharedPlayerData(_G["StatKey"],player)
@@ -130,10 +140,12 @@ end
 
 if Environment.IsClient() then
     Task.Wait()
+    --Tell client lootbox is closed
     function LootBox.Lock() 
         Events.Broadcast("Lootbox.Close")
     end 
 
+    --Open lootbox
     function LootBox.Unlock() 
         if Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") ~= 1 then 
             Events.Broadcast("Lootbox.Open")
@@ -142,10 +154,12 @@ if Environment.IsClient() then
         end
     end
 
+    --Update player on join
     function LootBox.Joined()
         Events.BroadcastToServer("Lootbox.PlayerJoined")
     end
 
+    --Update player to see if they can claim
     function LootBox.Update()
         if Game.GetLocalPlayer():GetResource("Lootbox.CanOpen") == 0 then 
             if Game.GetLocalPlayer():GetResource("Gold") >= 10 then
@@ -157,6 +171,7 @@ if Environment.IsClient() then
         end
     end
 
+    --Claim lootbox
     function LootBox.Claim()
         if LootBox.Verify(Game.GetLocalPlayer())  then
             ReliableEvents.BroadcastToServer("Lootbox.Claim")

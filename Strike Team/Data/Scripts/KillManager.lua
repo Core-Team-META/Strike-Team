@@ -1,6 +1,14 @@
 while not _G["DataBase"] do Task.Wait() end
 local database = _G["DataBase"]
+-----------------------------------------------------------
+--[[
+    Kill Manager
 
+    Manages the player resources for rewards and kills
+]]
+-----------------------------------------------------------
+
+--Grabs the weapon and adds kills based on what weapon in case
 function UpdateWeapon(player,damage)
     if damage.sourceAbility and Object.IsValid(damage.sourcePlayer) then 
         local equipment = damage.sourceAbility:FindAncestorByType("Equipment")
@@ -14,6 +22,7 @@ function UpdateWeapon(player,damage)
     end
 end
 
+--Adds resource based on if another player did damage before the main damaged player heals
 function RewardAssists(player,damage)
     for key, otherPlayer in pairs(player.serverUserData.Assists) do
         if Object.IsValid(otherPlayer) and damage.sourcePlayer ~= otherPlayer then
@@ -24,12 +33,15 @@ function RewardAssists(player,damage)
     player.serverUserData.Assists = {}
 end
 
+
 function AddScore(_,damage)
     if Object.IsValid(damage.sourcePlayer) then 
         damage.sourcePlayer:AddResource("Score", 100)
     end
 end
-    
+ 
+
+--Adds resource based on Headshots
 function CheckHeadshots(player,damage)
 	local hit = damage:GetHitResult()
     if hit then
@@ -43,6 +55,8 @@ function CheckHeadshots(player,damage)
     end
 end
 
+
+--Calculate Kill death ratio 
 function SetKD(player)
     if(player.deaths == 0) then 
         player.serverUserData.KD =  CoreMath.Round(player.kills, 2)
@@ -51,12 +65,14 @@ function SetKD(player)
     end     
 end
 
+--Update highest killstreak
 function UpdateTotal(player)
     if player:GetResource("KillStreak") > player:GetResource("HighestKillStreak") then
         player:SetResource("HighestKillStreak",  player:GetResource("KillStreak"))
     end
 end
 
+--Updates kills and killstreaks
 function UpdateKillDeath(player,damage)
     SetKD(player)
     player:SetResource("KillStreak", 0)
@@ -70,6 +86,7 @@ function UpdateKillDeath(player,damage)
     end 
 end
 
+--Calls all Resources to be updated
 function UpdateResouces(player,damage)
     UpdateKillDeath(player,damage)
     UpdateWeapon(player,damage)
@@ -78,6 +95,7 @@ function UpdateResouces(player,damage)
     AddScore(player,damage)
 end
 
+--Adds Damage Resource based on damage
 function DamageUpdate(player,damage)
     if not Object.IsValid(damage.sourcePlayer) or Object.IsValid(damage.sourcePlayer) and player == damage.sourcePlayer then
         return
@@ -92,6 +110,7 @@ function DamageUpdate(player,damage)
     end
 end
 
+--clear All set resource on round end
 function ResetData(player)
 	if not Object.IsValid(player) then return end
 	
@@ -114,6 +133,8 @@ function ResetData(player)
     player.serverUserData.Assists = {}
 end
 
+
+--Connections
 Game.playerLeftEvent:Connect(function(player) ResetData(player) end)
 Game.playerJoinedEvent:Connect(function(player) 
     ResetData(player) 

@@ -1,3 +1,8 @@
+-----------------------------------------------------------
+--[[
+    this is where all global keys are assigned to the global table to change in one location
+]]
+-----------------------------------------------------------
 local Loadout = script:GetCustomProperty("Loadout")
 local Storage = script:GetCustomProperty("Storage")
 local StatKey = script:GetCustomProperty("StatKey")

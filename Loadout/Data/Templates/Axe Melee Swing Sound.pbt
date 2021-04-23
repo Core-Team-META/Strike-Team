@@ -1,0 +1,85 @@
+Assets {
+  Id: 15382879434847562985
+  Name: "Axe Melee Swing Sound"
+  PlatformAssetType: 5
+  TemplateAsset {
+    ObjectBlock {
+      RootId: 9996501860016096164
+      Objects {
+        Id: 9996501860016096164
+        Name: "Axe Melee Swing Sound"
+        Transform {
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4781671109827199097
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Sword/Blade Type"
+            Enum {
+              Value: "mc:esfx_swordbladeswipes:18"
+            }
+          }
+          Overrides {
+            Name: "bp:Air Swoosh Type"
+            Enum {
+              Value: "mc:esfx_airswooshes:13"
+            }
+          }
+          Overrides {
+            Name: "bp:Sword/Blade Pitch"
+            Float: -155.833252
+          }
+          Overrides {
+            Name: "bp:Air Swoosh Volume"
+            Float: 6.56122351
+          }
+          Overrides {
+            Name: "bp:Sword/Blade Volume"
+            Float: 22.1915417
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 5588725286865802105
+          }
+          AudioBP {
+            AutoPlay: true
+            Transient: true
+            Volume: 1
+            Falloff: 2100
+            Radius: 600
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+    }
+    Assets {
+      Id: 5588725286865802105
+      Name: "Sword & Blade - Swings Swipes Air Swooshes Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_sword_blade_swooshes_ref"
+      }
+    }
+    PrimaryAssetId {
+      AssetType: "None"
+      AssetId: "None"
+    }
+  }
+  SerializationVersion: 81
+}

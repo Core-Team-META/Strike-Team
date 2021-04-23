@@ -14,42 +14,42 @@ end
 
 while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
 while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
+-----------------------------------------------------------
+--[[
+    Client Ammo System
 
+    Handles ammo for the client and reloading.
+]]
+-----------------------------------------------------------
 
 WEAPON.clientUserData.reloading = false 
 
+--Resets tge weapon ammo and finish reloading
 function Reload()
     WEAPON.clientUserData.Ammo = MAX_AMMO
     if(RELOAD_SOUND) then
         local Sound = World.SpawnAsset(RELOAD_SOUND, {position = WEAPON:GetWorldPosition()})
-        --[[Task.Spawn(function()
-            if(Object.IsValid(Sound)) then 
-                Sound:Destroy()
-            end
-        end, 1)]]--
     end
     WEAPON.clientUserData.reloading = false
 end
 
+--Sets the weapon to reloading
 function PrepReload()
     WEAPON.clientUserData.reloading = true
 end
 
+--Subtracts ammo from the weapon
 function LoseAmmo()
     WEAPON.clientUserData.Ammo = WEAPON.clientUserData.Ammo -1
 end
 
-
+--@Returns Bool
+--Check if weapon can fire by checking ammo
 function CheckFire()
     if WEAPON.clientUserData.Ammo <= 0 then
 
-        if(RELOAD_SOUND) then
+        if(OUT_OF_AMMO) then
             local Sound = World.SpawnAsset(OUT_OF_AMMO, {position = WEAPON:GetWorldPosition()})
-            --[[Task.Spawn(function()
-                if(Object.IsValid(Sound)) then 
-                    Sound:Destroy()
-                end 
-            end, 1)]]--
         end
         return false
     else
@@ -57,22 +57,25 @@ function CheckFire()
     end
 end
 
+--Stops Reloading
 function Reset()
     WEAPON.clientUserData.reloading = false
 end
 
+--Stops reloading to amke sure weapon can fire
 function PrepFire()
     reloading = false   
     CheckFire()
 end
 
-
+--Run the whole lose ammo upon fire
 function Fire()
     if CheckFire() then   
         LoseAmmo()
     end
 end
 
+--Binds Player events for the weapon
 function BindReload()
     if not WEAPON then return end
     if(not WEAPON.owner or LOCAL_PLAYER ~= WEAPON.owner) then return end
@@ -86,6 +89,7 @@ function BindReload()
     table.insert( ConnectedEvents,ReloadEvent )
 end
 
+--Unbind Reload event directly
 function UnBindReload()
     WEAPON.clientUserData.reloading = false 
     if ReloadEvent then
@@ -94,12 +98,15 @@ function UnBindReload()
     end
 end
 
+--SetUp Weapon Data 
 function Setup()
     WEAPON.clientUserData.Ammo = MAX_AMMO
     WEAPON.clientUserData.MaxAmmo = MAX_AMMO
     BindReload()
 end
 
+
+--Table of connected events
 ConnectedEvents = {
     WEAPON.equippedEvent:Connect(BindReload),
     WEAPON.unequippedEvent:Connect(UnBindReload),

@@ -1,6 +1,56 @@
 Name: "UISystems"
 RootId: 15900364157994414074
 Objects {
+  Id: 17450326200040241075
+  Name: "MotionBlurRemoval"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15900364157994414074
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Blend Weight"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Max"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Per Object Amount"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3471881598561556181
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 6108886443765963531
   Name: "FPSMeter"
   Transform {
@@ -83,58 +133,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17450326200040241075
-  Name: "MotionBlurRemoval"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15900364157994414074
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Blend Weight"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Max"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Per Object Amount"
-      Float: 0
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 3471881598561556181
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
   Id: 10410376947064173486
-  Name: "LootBoxUI"
+  Name: "LootBox"
   Transform {
     Location {
     }
@@ -192,7 +192,7 @@ Objects {
 }
 Objects {
   Id: 4355175678147851601
-  Name: "LoadoutEquipment"
+  Name: "Loadout Equipment"
   Transform {
     Location {
     }
@@ -3349,7 +3349,7 @@ Objects {
 }
 Objects {
   Id: 17799892976779399155
-  Name: "META KilledByUI"
+  Name: "META KilledBy UI"
   Transform {
     Location {
     }
@@ -11706,7 +11706,7 @@ Objects {
 }
 Objects {
   Id: 1845295134910618124
-  Name: "PopUpTipPanel"
+  Name: "PopUp Tip Panel"
   Transform {
     Location {
     }
@@ -46054,64 +46054,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1767098222894358513
-  Name: "EndgameUI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15900364157994414074
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Endgame-ToggleUI"
-  }
-}
-Objects {
-  Id: 8620392774914385537
-  Name: "EndUI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15900364157994414074
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EndUI - Stats, Rewards, Achievements"
-  }
-}
-Objects {
   Id: 6153464260326768231
   Name: "Player UI"
   Transform {
@@ -46140,6 +46082,964 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Player UI"
+  }
+}
+Objects {
+  Id: 12247658189946244701
+  Name: "End Round UI Manager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15900364157994414074
+  ChildIds: 13980112003110647475
+  ChildIds: 17866006467930106659
+  ChildIds: 1767098222894358513
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:UpdateWinnersEvent"
+      String: "TeamVictory"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1767098222894358513
+  Name: "EndgameUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12247658189946244701
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Endgame-ToggleUI"
+  }
+}
+Objects {
+  Id: 17866006467930106659
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12247658189946244701
+  ChildIds: 15464630797222557757
+  ChildIds: 13011517936921234380
+  ChildIds: 9508132256677162870
+  ChildIds: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10331115960595169700
+  Name: "GoldGroup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  ChildIds: 3948994188032426659
+  ChildIds: 5147283659912007433
+  ChildIds: 4935853477293247513
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4935853477293247513
+  Name: "GoldThumpSound"
+  Transform {
+    Location {
+      X: -4080
+      Y: 10345
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6273392873648266164
+    }
+    Pitch: 1164.29639
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 5147283659912007433
+  Name: "GoldThumpSound"
+  Transform {
+    Location {
+      X: -4080
+      Y: 10345
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6273392873648266164
+    }
+    Pitch: 1164.29639
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 3948994188032426659
+  Name: "GoldThumpSound"
+  Transform {
+    Location {
+      X: -4080
+      Y: 10345
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10331115960595169700
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6273392873648266164
+    }
+    Pitch: 1164.29639
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 9508132256677162870
+  Name: "TickGroup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  ChildIds: 11694248358230743532
+  ChildIds: 15849919245228433483
+  ChildIds: 14518355256011689601
+  ChildIds: 11361961196771484748
+  ChildIds: 6981472703396594996
+  ChildIds: 9111100850428071318
+  ChildIds: 12161835671173491865
+  ChildIds: 1975051306134326068
+  ChildIds: 14671651718135399466
+  ChildIds: 8487655944844699173
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8487655944844699173
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 14671651718135399466
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 1975051306134326068
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 12161835671173491865
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 9111100850428071318
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 6981472703396594996
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 11361961196771484748
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 14518355256011689601
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 15849919245228433483
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 11694248358230743532
+  Name: "SFX"
+  Transform {
+    Location {
+      X: -4120
+      Y: 10145
+      Z: 585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9508132256677162870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11459567137536615475
+    }
+    Pitch: -250
+    Volume: 0.7
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 13011517936921234380
+  Name: "RollTextAnimationCompleteSFX"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  ChildIds: 13278708480817517257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13278708480817517257
+  Name: "SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13011517936921234380
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 268039330512986837
+    }
+    AutoPlay: true
+    Pitch: 500
+    Volume: 1
+    Falloff: -1
+    Radius: -1
+  }
+}
+Objects {
+  Id: 15464630797222557757
+  Name: "EndRoundUIMainManagerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17866006467930106659
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 1953446882420386915
+      }
+    }
+    Overrides {
+      Name: "cs:ReliableEvents"
+      AssetReference {
+        Id: 1680988108412715813
+      }
+    }
+    Overrides {
+      Name: "cs:GAMEMODE_Networked"
+      ObjectReference {
+        SelfId: 10857687478960459655
+      }
+    }
+    Overrides {
+      Name: "cs:GainedXP"
+      ObjectReference {
+        SelfId: 2799794553980787474
+      }
+    }
+    Overrides {
+      Name: "cs:ProgressBarText"
+      ObjectReference {
+        SelfId: 1510472419341970552
+      }
+    }
+    Overrides {
+      Name: "cs:ProgressBar"
+      ObjectReference {
+        SelfId: 5447133888027003637
+      }
+    }
+    Overrides {
+      Name: "cs:CashTotal"
+      ObjectReference {
+        SelfId: 9727727790578188709
+      }
+    }
+    Overrides {
+      Name: "cs:EndRoundUIMainManager"
+      ObjectReference {
+        SelfId: 13980112003110647475
+      }
+    }
+    Overrides {
+      Name: "cs:StatsWindow"
+      ObjectReference {
+        SelfId: 9058775223066187834
+      }
+    }
+    Overrides {
+      Name: "cs:EntireRoundEndUI"
+      ObjectReference {
+        SelfId: 2217523191625957913
+      }
+    }
+    Overrides {
+      Name: "cs:ReturnToLoadout"
+      ObjectReference {
+      }
+    }
+    Overrides {
+      Name: "cs:MainWindow"
+      ObjectReference {
+        SelfId: 9058775223066187834
+      }
+    }
+    Overrides {
+      Name: "cs:BackToLoadoutButton"
+      ObjectReference {
+      }
+    }
+    Overrides {
+      Name: "cs:GoldPercentBar"
+      ObjectReference {
+        SelfId: 7958455081865811112
+      }
+    }
+    Overrides {
+      Name: "cs:GoldAmount"
+      ObjectReference {
+        SelfId: 17253997679615827659
+      }
+    }
+    Overrides {
+      Name: "cs:CashPanel"
+      ObjectReference {
+        SelfId: 4678716333014790151
+      }
+    }
+    Overrides {
+      Name: "cs:BIG_GOLD"
+      ObjectReference {
+        SelfId: 16681493659596828848
+      }
+    }
+    Overrides {
+      Name: "cs:SMALL_GOLD"
+      ObjectReference {
+        SelfId: 3109539861677786823
+      }
+    }
+    Overrides {
+      Name: "cs:LevelNumberText"
+      ObjectReference {
+        SelfId: 13682052115332707394
+      }
+    }
+    Overrides {
+      Name: "cs:PlayerNameText"
+      ObjectReference {
+        SelfId: 13776998967694611956
+      }
+    }
+    Overrides {
+      Name: "cs:CompleteSFX"
+      ObjectReference {
+        SelfId: 13278708480817517257
+      }
+    }
+    Overrides {
+      Name: "cs:TickGroup"
+      ObjectReference {
+        SelfId: 9508132256677162870
+      }
+    }
+    Overrides {
+      Name: "cs:GoldGroup"
+      ObjectReference {
+        SelfId: 10331115960595169700
+      }
+    }
+    Overrides {
+      Name: "cs:CASHROWTEMPLATE"
+      AssetReference {
+        Id: 17435404124068446469
+      }
+    }
+    Overrides {
+      Name: "cs:NEWS_WINDOW"
+      ObjectReference {
+        SelfId: 8925761786029294907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7099151320755576349
+    }
+  }
+}
+Objects {
+  Id: 13980112003110647475
+  Name: "EndRoundUIMainManager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12247658189946244701
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:APIBasicGameState"
+      AssetReference {
+        Id: 11974742996071064388
+      }
+    }
+    Overrides {
+      Name: "cs:EndRoundUIManager"
+      ObjectReference {
+        SelfId: 12247658189946244701
+      }
+    }
+    Overrides {
+      Name: "cs:LoadoutLink"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:WinningTeam"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:MatchTime"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:WinningTeam:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:MatchTime:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13455170921015006522
+    }
   }
 }
 Objects {
@@ -47494,1646 +48394,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 4855917917653476659
-    }
-  }
-}
-Objects {
-  Id: 9452796327274910131
-  Name: "NemesisTracker"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15900364157994414074
-  ChildIds: 4404283565158261633
-  ChildIds: 10999427269299237569
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 10999427269299237569
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9452796327274910131
-  ChildIds: 6482860454702267807
-  ChildIds: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 11008070703395971369
-  Name: "TickGroup"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10999427269299237569
-  ChildIds: 5312317352878460739
-  ChildIds: 3955485498623797974
-  ChildIds: 3134425098761624826
-  ChildIds: 1356792562903954927
-  ChildIds: 6353774394723510600
-  ChildIds: 3527893016343645581
-  ChildIds: 9002096419732761833
-  ChildIds: 3311275090230723735
-  ChildIds: 4486452300921807569
-  ChildIds: 16546010088505037144
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 16546010088505037144
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 4486452300921807569
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 3311275090230723735
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 9002096419732761833
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 3527893016343645581
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 6353774394723510600
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 1356792562903954927
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 3134425098761624826
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 3955485498623797974
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 5312317352878460739
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11008070703395971369
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 6482860454702267807
-  Name: "NemesisTrackerClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10999427269299237569
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
-    }
-    Overrides {
-      Name: "cs:EaseUI"
-      AssetReference {
-        Id: 1953446882420386915
-      }
-    }
-    Overrides {
-      Name: "cs:PlayerKilledEvent"
-      String: "PlayerKilled"
-    }
-    Overrides {
-      Name: "cs:NemesisTrackerServer"
-      ObjectReference {
-        SelfId: 4404283565158261633
-      }
-    }
-    Overrides {
-      Name: "cs:YourNemesisText"
-      ObjectReference {
-        SelfId: 15998310223323152968
-      }
-    }
-    Overrides {
-      Name: "cs:YourNemesisKillsText"
-      ObjectReference {
-        SelfId: 12654122584371922915
-      }
-    }
-    Overrides {
-      Name: "cs:NemesisOfText"
-      ObjectReference {
-        SelfId: 13038125114687881407
-      }
-    }
-    Overrides {
-      Name: "cs:NemesisOfKillsText"
-      ObjectReference {
-        SelfId: 14548562874819411334
-      }
-    }
-    Overrides {
-      Name: "cs:VictoryScreenContainer"
-      ObjectReference {
-        SelfId: 5530959566149203070
-      }
-    }
-    Overrides {
-      Name: "cs:NemesisOfStatText"
-      ObjectReference {
-        SelfId: 3175211258030798382
-      }
-    }
-    Overrides {
-      Name: "cs:TickGroup"
-      ObjectReference {
-        SelfId: 11008070703395971369
-      }
-    }
-    Overrides {
-      Name: "cs:NemesisVictoryScreenMarker"
-      AssetReference {
-        Id: 9653194334873660604
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13015194634821144853
-    }
-  }
-}
-Objects {
-  Id: 4404283565158261633
-  Name: "NemesisTrackerServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9452796327274910131
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
-    }
-    Overrides {
-      Name: "cs:ListSet"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:P1"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P2"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P3"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P4"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P5"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P6"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P7"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P8"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P9"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P10"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P11"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P12"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:P1:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P2:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ListSet:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P3:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P4:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P5:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P6:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P7:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P8:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P9:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P10:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P11:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:P12:isrep"
-      Bool: true
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12866426948029032868
-    }
-  }
-}
-Objects {
-  Id: 12247658189946244701
-  Name: "End Round UI Manager"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15900364157994414074
-  ChildIds: 13980112003110647475
-  ChildIds: 17866006467930106659
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:UpdateWinnersEvent"
-      String: "TeamVictory"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 17866006467930106659
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12247658189946244701
-  ChildIds: 15464630797222557757
-  ChildIds: 13011517936921234380
-  ChildIds: 9508132256677162870
-  ChildIds: 10331115960595169700
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 10331115960595169700
-  Name: "GoldGroup"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17866006467930106659
-  ChildIds: 3948994188032426659
-  ChildIds: 5147283659912007433
-  ChildIds: 4935853477293247513
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 4935853477293247513
-  Name: "GoldThumpSound"
-  Transform {
-    Location {
-      X: -4080
-      Y: 10345
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10331115960595169700
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 6273392873648266164
-    }
-    Pitch: 1164.29639
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 5147283659912007433
-  Name: "GoldThumpSound"
-  Transform {
-    Location {
-      X: -4080
-      Y: 10345
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10331115960595169700
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 6273392873648266164
-    }
-    Pitch: 1164.29639
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 3948994188032426659
-  Name: "GoldThumpSound"
-  Transform {
-    Location {
-      X: -4080
-      Y: 10345
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10331115960595169700
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 6273392873648266164
-    }
-    Pitch: 1164.29639
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 9508132256677162870
-  Name: "TickGroup"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17866006467930106659
-  ChildIds: 11694248358230743532
-  ChildIds: 15849919245228433483
-  ChildIds: 14518355256011689601
-  ChildIds: 11361961196771484748
-  ChildIds: 6981472703396594996
-  ChildIds: 9111100850428071318
-  ChildIds: 12161835671173491865
-  ChildIds: 1975051306134326068
-  ChildIds: 14671651718135399466
-  ChildIds: 8487655944844699173
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8487655944844699173
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 14671651718135399466
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 1975051306134326068
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 12161835671173491865
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 9111100850428071318
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 6981472703396594996
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 11361961196771484748
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 14518355256011689601
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 15849919245228433483
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 11694248358230743532
-  Name: "SFX"
-  Transform {
-    Location {
-      X: -4120
-      Y: 10145
-      Z: 585
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9508132256677162870
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11459567137536615475
-    }
-    Pitch: -250
-    Volume: 0.7
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 13011517936921234380
-  Name: "RollTextAnimationCompleteSFX"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17866006467930106659
-  ChildIds: 13278708480817517257
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13278708480817517257
-  Name: "SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13011517936921234380
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 268039330512986837
-    }
-    AutoPlay: true
-    Pitch: 500
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-  }
-}
-Objects {
-  Id: 15464630797222557757
-  Name: "EndRoundUIMainManagerClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17866006467930106659
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
-    }
-    Overrides {
-      Name: "cs:EaseUI"
-      AssetReference {
-        Id: 1953446882420386915
-      }
-    }
-    Overrides {
-      Name: "cs:ReliableEvents"
-      AssetReference {
-        Id: 1680988108412715813
-      }
-    }
-    Overrides {
-      Name: "cs:GAMEMODE_Networked"
-      ObjectReference {
-        SelfId: 10857687478960459655
-      }
-    }
-    Overrides {
-      Name: "cs:GainedXP"
-      ObjectReference {
-        SelfId: 2799794553980787474
-      }
-    }
-    Overrides {
-      Name: "cs:ProgressBarText"
-      ObjectReference {
-        SelfId: 1510472419341970552
-      }
-    }
-    Overrides {
-      Name: "cs:ProgressBar"
-      ObjectReference {
-        SelfId: 5447133888027003637
-      }
-    }
-    Overrides {
-      Name: "cs:CashTotal"
-      ObjectReference {
-        SelfId: 9727727790578188709
-      }
-    }
-    Overrides {
-      Name: "cs:EndRoundUIMainManager"
-      ObjectReference {
-        SelfId: 13980112003110647475
-      }
-    }
-    Overrides {
-      Name: "cs:StatsWindow"
-      ObjectReference {
-        SelfId: 9058775223066187834
-      }
-    }
-    Overrides {
-      Name: "cs:EntireRoundEndUI"
-      ObjectReference {
-        SelfId: 2217523191625957913
-      }
-    }
-    Overrides {
-      Name: "cs:ReturnToLoadout"
-      ObjectReference {
-      }
-    }
-    Overrides {
-      Name: "cs:MainWindow"
-      ObjectReference {
-        SelfId: 9058775223066187834
-      }
-    }
-    Overrides {
-      Name: "cs:BackToLoadoutButton"
-      ObjectReference {
-      }
-    }
-    Overrides {
-      Name: "cs:GoldPercentBar"
-      ObjectReference {
-        SelfId: 7958455081865811112
-      }
-    }
-    Overrides {
-      Name: "cs:GoldAmount"
-      ObjectReference {
-        SelfId: 17253997679615827659
-      }
-    }
-    Overrides {
-      Name: "cs:CashPanel"
-      ObjectReference {
-        SelfId: 4678716333014790151
-      }
-    }
-    Overrides {
-      Name: "cs:BIG_GOLD"
-      ObjectReference {
-        SelfId: 16681493659596828848
-      }
-    }
-    Overrides {
-      Name: "cs:SMALL_GOLD"
-      ObjectReference {
-        SelfId: 3109539861677786823
-      }
-    }
-    Overrides {
-      Name: "cs:LevelNumberText"
-      ObjectReference {
-        SelfId: 13682052115332707394
-      }
-    }
-    Overrides {
-      Name: "cs:PlayerNameText"
-      ObjectReference {
-        SelfId: 13776998967694611956
-      }
-    }
-    Overrides {
-      Name: "cs:CompleteSFX"
-      ObjectReference {
-        SelfId: 13278708480817517257
-      }
-    }
-    Overrides {
-      Name: "cs:TickGroup"
-      ObjectReference {
-        SelfId: 9508132256677162870
-      }
-    }
-    Overrides {
-      Name: "cs:GoldGroup"
-      ObjectReference {
-        SelfId: 10331115960595169700
-      }
-    }
-    Overrides {
-      Name: "cs:CASHROWTEMPLATE"
-      AssetReference {
-        Id: 17435404124068446469
-      }
-    }
-    Overrides {
-      Name: "cs:NEWS_WINDOW"
-      ObjectReference {
-        SelfId: 8925761786029294907
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7099151320755576349
-    }
-  }
-}
-Objects {
-  Id: 13980112003110647475
-  Name: "EndRoundUIMainManager"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12247658189946244701
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:APIBasicGameState"
-      AssetReference {
-        Id: 11974742996071064388
-      }
-    }
-    Overrides {
-      Name: "cs:EndRoundUIManager"
-      ObjectReference {
-        SelfId: 12247658189946244701
-      }
-    }
-    Overrides {
-      Name: "cs:LoadoutLink"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:WinningTeam"
-      Int: 0
-    }
-    Overrides {
-      Name: "cs:MatchTime"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:WinningTeam:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:MatchTime:isrep"
-      Bool: true
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13455170921015006522
     }
   }
 }

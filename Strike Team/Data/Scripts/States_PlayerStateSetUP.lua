@@ -1,6 +1,13 @@
+-----------------------------------------------------------|
+--[[
+    Movement State Manager
+]]
+-----------------------------------------------------------|
+
 local StateManager = require(script:GetCustomProperty("StateManager"))
 local StatesMovementStates = require(script:GetCustomProperty("StatesMovementStates"))
 local ABGS = require(script:GetCustomProperty("ABGS"))
+
 
 local AllStatesManager = {}
 function NewState(player)

@@ -1,13 +1,20 @@
---[[
-    Equipment.lua
-
-    This is a customized class to handle player weapons/equipment
-]]
 local Equipment = {} 
 Equipment.__index = Equipment
+function Equipment:__tostring()
+    return tostring(self:GetName())
+end
 
---Equipment.New(???)
---returns an Equipment class
+-----------------------------------------------------------
+--[[
+    Equipment.
+
+    Equipment is an Item type that the Equipment Handler uses for every equipment.
+    Equipment has its own data and functions that can be called.
+]]
+-----------------------------------------------------------
+
+--@Params Table
+--Creates a new Equipment
 function Equipment.New(data)
     local self = setmetatable({},Equipment)
     self.data = data
@@ -15,153 +22,169 @@ function Equipment.New(data)
     return self
 end
 
---this function spawns an instance of this equipment
---returns a refrence to the spawned equipment
+--@Returns CoreObject
+--Spawns the equipment with a skin attached (ignore for Perk and Equipment)
 function Equipment:SpawnEquipment()
-    if(self.data.weapon) then --if there's a weapon for this Equipment
-        self.data.spawnItem = World.SpawnAsset(self.data.weapon) --spawn it
-        if not (self:GetSlot() == "Perks" or self:GetSlot() == "Equipment") then --check for slot?
-            if(self:GetEquippedSkin() ) then --check for equipped skin
-                World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem}) --spawn it
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self.data.weapon)
+        if not (self:GetSlot() == "Perks" or self:GetSlot() == "Equipment") then
+            if(self:GetEquippedSkin() ) then
+                World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
             end
         end
-        return self.data.spawnItem 
+        return self.data.spawnItem
     end
 end
 
---this function uhhh????
+--@Returns CoreObject
+--Spawns the equipment with a skin attached 
 function Equipment:ForceSpawnEquipment()
-    if(self.data.weapon) then --if there's a weapon for this Equipment
-        self.data.spawnItem = World.SpawnAsset(self.data.weapon) --spawn it
-        if(self:GetEquippedSkin()) then --check for equipped skin
-            World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem}) --spawn it
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self.data.weapon)
+        if(self:GetEquippedSkin()) then
+            World.SpawnAsset(self:GetEquippedSkin(),{parent = self.data.spawnItem})
         end
         return self.data.spawnItem
     end
 end
 
---this function spawns only the currently equipped skin
+--@Returns Skin
+--Spawns the equipment skin
 function Equipment:SpawnSkin()
-    if(self.data.weapon) then --if there's a weapon for this Equipment
-        self.data.spawnItem = World.SpawnAsset(self:GetEquippedSkin()) --spawn the skin for this weapon
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self:GetEquippedSkin())
         return self.data.spawnItem
     end
 end
 
---this function spawns only the weapon
+--@Returns CoreObject
+--Spawns the equipment without a skin
 function Equipment:SpawnEmpty()
-    if(self.data.weapon) then --if there's a weapon for this Equipment
-        self.data.spawnItem = World.SpawnAsset(self.data.weapon) --spawn it
+    if(self.data.weapon) then
+        self.data.spawnItem = World.SpawnAsset(self.data.weapon)
         return self.data.spawnItem
     end
 end
 
---this function spawns this Equipment with the corresponding skin
+--@Param String
+--@Returns CoreObject
+--Shorcut to spawn an Equipment with a skin without calling other functions
 function Equipment:SpawnEquipmentWithSkin(skinid)
-    self:EquipSkinByID(skinid) --equip given skin
-    self:SpawnEquipment() --spawn the equipment
-    return self.data.spawnItem 
+    self:EquipSkinByID(skinid)
+    self:SpawnEquipment()
+    return self.data.spawnItem
 end
 
---this function equips a random skin to this Equipment
+
+--Equips a rendom skin to the Equipment
 function Equipment:EquipSkinByRandom()
-    if(self:HasSkins()) then --if there's skins for this Equipment
-        self.data.EquippedSkin = self.data.skins[ math.random( #self.data.skins) ] --get a random number between 1 and the total skin count
-        if(math.random( #self.data.skins + 1) >  #self.data.skins ) then --what does this line do?
-            self.data.EquippedSkin = self.data.defaultSkin 
-        end
+    if(self:HasSkins()) then
+        self.data.EquippedSkin = self.data.skins[ math.random( #self.data.skins) ]
+        if(math.random( #self.data.skins + 1) >  #self.data.skins ) then self.data.EquippedSkin = self.data.defaultSkin end
     end
     
 end
 
---this function equips a skin based on the given id
+--@Param String
+--Equip a skin onto an Equipment
 function Equipment:EquipSkinByID(skinid)
-    for _, skin in pairs(self.data.skins) do --iteration through all the skins
-        if(skin.id == skinid) then --if the skins match,
-            self.data.EquippedSkin = skin --set the skin
-            return --exit function
+    for _, skin in pairs(self.data.skins) do
+        if(skin.id == skinid) then
+            self.data.EquippedSkin = skin
+            return
         end
     end
-    self.data.EquippedSkin = self.data.defaultSkin --if id is invalid, then set the default
+    self.data.EquippedSkin = self.data.defaultSkin
 end
 
---this function sets the current skin to the default skin
+--Resets to default skin
 function Equipment:UnequipSkin()
     self.data.EquippedSkin = self.data.defaultSkin
 end
 
---this function returns the id of the currently equipped skin
+--@Returns String
+--Returns an Equipment's string (used for storage)
 function Equipment:ReturnIDs()
-    if(self.data.EquippedSkin) then  --if there's a skin equipped
-        return tostring(self.data.id .."_"..(self.data.EquippedSkin.id)) --return a formated string of the id
+    if(self.data.EquippedSkin) then 
+        return tostring(self.data.id .."_"..(self.data.EquippedSkin.id))
     else
-        return tostring(self.data.id .."_".."00") --return a default formatted string of the id
+        return tostring(self.data.id .."_".."00")
     end
 end
 
---this funciton checks if this Equipment has any skins
---returns bool
+--@Returns bool
+--Check if skin id is found in Equipment
 function Equipment:HasSkins()
     if(#self.data.skins > 0) then return true else return false end
 end
 
---this function checks if this Equipment has an "Aim Down Sights" geometry
---returns bool
+--@Returns bool
+--Check if it has Aim down site
 function Equipment:HasADS()
     if(self.data.ads_skin) then return true else return false end
 end
 
---returns a refrence to the "Aim Down Sights" geometry for this Equipment's skin
+--@Returns Skin
+--Check if it has Aim down site
 function Equipment:HasADS()
     return self.data.ads_skin 
 end
 
---returns the name of the Equipment
+--@Returns String
+--Get Equipment name
 function Equipment:GetName()
     return self.data.name
 end
 
---returns the cost of the Equipment
+--@Returns Int
+--Get Equipment cost
 function Equipment:GetCost()
     return self.data.cost
 end
 
---returns the level of the Equipment
+--@Returns Int
+--Get Equipment level
 function Equipment:GetLevel()
     return self.data.level
 end
 
---returns the rotational offset? for this Equipment
+--@Returns Rotation
+--Get Equipment offset to align with other Equipment
 function Equipment:GetRotationOffset()
     return self.data.Rotation_Offset
 end
-
---returns the slot? for this Equipment
+--@Returns String
+--Get Equipment Slot
 function Equipment:GetSlot()
     return self.data.slot
 end
 
---returns the Weapon for this Equipment
+--@Returns AssetRef
+--Get Equipment Spawn
 function Equipment:GetWeapon()
     return self.data.weapon
 end
 
---returns the description for this Equipment (mainly used in Loadout)
+--@Returns String
+--Get Equipment description
 function Equipment:GetDescription()
     return self.data.description
 end
 
---returns ???
+--@Returns String
+--Get Equipment type
 function Equipment:GetType()
     return self.data.type
 end
-
---returns the id? for this Equipment
+--@Returns String
+--Get Equipment id
 function Equipment:GetId()
     return self.data.id
 end
 
---returns a skin refrence based on the id given, or nil
+--@Param String
+--@Returns Skin
+--Get Equipment skin
 function Equipment:GetSkinByID(skinid)
     for _, skin in pairs(self.data.skins) do
         if(skin.id == skinid) then
@@ -170,12 +193,14 @@ function Equipment:GetSkinByID(skinid)
     end
 end
 
---returns the default skin for this Equipment
+--@Returns Skin
+--Get Equipment default skin
 function Equipment:GetDefaultSkin()
     return self.data.defaultSkin
 end
 
---returns the currently equipped skin for this Equipment
+--@Returns Skin
+--Get Equipment current skin equipped
 function Equipment:GetEquippedSkin()
     if(self.data.EquippedSkin) then
         return self.data.EquippedSkin.skin
@@ -184,25 +209,23 @@ function Equipment:GetEquippedSkin()
     end
 end
 
---returns the name of the currently equipped skin
+--@Returns String
+--Get name of the skin Equipment has equipped
 function Equipment:GetEquippedSkinName()
     return self.data.EquippedSkin.name
 end
 
---returns a table of all the skins for this Equipment
+--@Returns {Skins}
+--Get all the Equipment skins
 function Equipment:GetSkins()
     return self.data.skins
 end
 
---what does this do?
+--@Returns String
+--Get Equipment position where on the body it will sit
 function Equipment:GetHoiseter()
     return self.data.hoiseter
 end
---[[
 
-    function Equipment:__tostring()
-        return tostring(self:GetName())
-    end
-    ]]
 
 return Equipment

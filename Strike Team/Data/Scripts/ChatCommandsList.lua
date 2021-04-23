@@ -1,46 +1,49 @@
 local commands = {}
 local messagePrefix = "[SERVER]"
 
-local ragdollData = {}
+local AdminData = require(script:GetCustomProperty("AdminData"))
+
+----------------------------------------------------------------------------------------------------------------
+-- LOCAL HELPER FUNCTIONS
+----------------------------------------------------------------------------------------------------------------
+
+local function ReturnPlayerByName(Name)
+    if not Name then
+        return
+    end
+    for _, player in pairs(Game.GetPlayers()) do
+        if (string.find(string.upper(player.name), string.upper(Name))) then
+            return player
+        end
+    end
+end
 
 commands = {
     ["/adminall"] = {
         OnCommandCalledClient = function (player, message)
         end,
+
         OnCommandCalledServer = function (player, message)
-            local split = {CoreString.Split(message)}
-            local trimMessage = CoreString.Trim(message, split[1])
-            local players = Game.FindPlayersInSphere(player:GetWorldPosition(), 3000)
-            Chat.BroadcastMessage(string.format("[ADMIN] %s:%s", player.name, trimMessage), {players = players})
+        local split = {CoreString.Split(message)}
+        local trimMessage = CoreString.Trim(message, split[1])
+        local players = Game.FindPlayersInSphere(player:GetWorldPosition(), 3000)
+        Chat.BroadcastMessage(string.format("[ADMIN] %s:%s", player.name, trimMessage), {players = players})
         end,
+
         OnCommandReceivedClient = function (player, message)
-            local split = {CoreString.Split(message)}
-            local trimMessage = CoreString.Trim(message, split[1])
-            local players = Game.FindPlayersInSphere(player:GetWorldPosition(), 3000)
-            -- Events.Broadcast("SpawnChatMessage", player, trimMessage, Color.ORANGE, players)
         end,
+
         description = "Shows admin message in chat to all players",
         requireMessage = true,
-        adminOnly = true
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.Admin,
     },
---[[
-    ["/nemesis"] = {
-        OnCommandCalledClient = function (player, message)
-        end,
-        OnCommandCalledServer = function (player, message)
-        	Events.Broadcast("PrintNemesis", player)
-        end,
-        OnCommandReceivedClient = function (player, message)
-        end,
-        description = "Print the nemesis index table",
-        requireMessage = false,
-        adminOnly = true
-    },
-]]
+
     ["/help"] = {
         OnCommandCalledClient = function (player, message)
             for i, v in pairs(commands) do
-                if (i ~= "/adminall") then
+                local playerRank = AdminData.Rank[player.name] or AdminData.AdminRanks.None
+                if v.adminRank <= playerRank then
                     Chat.LocalMessage(i .. ": " .. v.description)
                 end
             end
@@ -51,35 +54,174 @@ commands = {
         end,
         description = "shows a list of available commands, none currently available",
         requireMessage = false,
-        adminOnly = false
+        adminOnly = false,
+        adminRank = AdminData.AdminRanks.None,
     },
---[[     ["/ragdoll"] = {
+
+    ["/broadcast"] = {
+
         OnCommandCalledClient = function (player, message)
-            Chat.LocalMessage(messagePrefix.." toggle player ragdoll")
         end,
         OnCommandCalledServer = function (player, message)
-            if not ragdollData[player] then
-                player:EnableRagdoll("lower_spine", .4)
-                player:EnableRagdoll("right_shoulder", .2)
-                player:EnableRagdoll("left_shoulder", .6)
-                player:EnableRagdoll("right_hip", .6)
-                player:EnableRagdoll("left_hip", .6)
-                ragdollData[player] = true
-            else
-                player:DisableRagdoll()
-                ragdollData[player] = nil
+            local split = {CoreString.Split(message)}
+            local trimMessage = CoreString.Trim(message, split[1])
+            Chat.BroadcastMessage(string.format("[BROADCAST]: %s", trimMessage), Game.GetPlayers())
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+
+        description = "Shows a broadcast in chat to all players",
+        requireMessage = true,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.Admin,
+
+    },
+
+    ["/kick"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)
+            local split = {CoreString.Split(message)}
+            if not split[2] then return end
+
+            local TargetPlayer = ReturnPlayerByName(split[2])
+
+            if TargetPlayer then
+                TargetPlayer:TransferToGame(_G["LoadoutGameId"])
             end
         end,
         OnCommandReceivedClient = function (player, message)
         end,
-        description = "ragdoll player",
-        requireMessage = false,
-        adminOnly = false
+
+        description = "Kicks the player back to Lobby",
+        requireMessage = true,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.Admin,
+
     },
-]]
 
+    ["/kill"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)  
+            player:ApplyDamage(Damage.New(player.hitPoints))
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Kills the player",
+        requireMessage = false,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.HigherAdmin,
+    },
 
+    ["/respawn"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)  
+            player:Respawn()
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Respawns the player",
+        requireMessage = false,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.HigherAdmin,
+    },
 
+    ["/fly"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)  
+            player:ActivateFlying()
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Activate flying",
+        requireMessage = false,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.HigherAdmin,
+    },
+  
+    ["/walk"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)  
+            player:ActivateWalking()
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Dectivate flying",
+        requireMessage = false,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.HigherAdmin,
+    },
+
+    ["/setresource"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+
+        OnCommandCalledServer = function (player, message)
+        local split = {CoreString.Split(message)}
+        local Value = tonumber(split[3])
+
+            if Value then
+                player:SetResource( split[2], Value)
+            end
+        end,
+
+        OnCommandReceivedClient = function (player, message)
+        end,
+
+        description = "Changes a resource",
+        requireMessage = true,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.UltraAdmin,
+    },
+    
+    ["/tp"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)  
+            local split = {CoreString.Split(message)}
+            if not split[2] then return end 
+
+            local TargetPlayer = ReturnPlayerByName(split[2])
+
+            if TargetPlayer then
+                player:SetWorldPosition(TargetPlayer:GetWorldPosition())
+            end
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Teleport to a player",
+        requireMessage = true,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.HigherAdmin,
+    },
+
+    ["/gift"] = {
+        OnCommandCalledClient = function (player, message)
+        end,
+        OnCommandCalledServer = function (player, message)  
+            local split = {CoreString.Split(message)}
+            if not split[2] then return end 
+            if not split[3] then return end 
+            if not split[4] then split[4] = "00" end 
+            local TargetPlayer = ReturnPlayerByName(split[2])
+
+            if TargetPlayer then
+                if TargetPlayer.serverUserData.Storage then 
+                    TargetPlayer.serverUserData.Storage:AddSkin(split[3],split[4])
+                end
+            end
+        end,
+        OnCommandReceivedClient = function (player, message)
+        end,
+        description = "Gifts a weapon and skin to the target player",
+        requireMessage = true,
+        adminOnly = true,
+        adminRank = AdminData.AdminRanks.UltraAdmin,
+    },
 }
 
 return commands

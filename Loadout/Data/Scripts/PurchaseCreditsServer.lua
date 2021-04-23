@@ -1,9 +1,19 @@
+-----------------------------------------------------------|
+--[[
+    Purchase credits server
 
+    Handles what credit is being purchased
+--]]
+-----------------------------------------------------------|
 
+--@Param player, amount
+--Adds strike coins to the player
 function AddStrikeCoins(player,amount)
     player:AddResource("StrikeCoins", amount)
 end
 
+--@Param player
+--Saves players money
 function Save(player)
     while not _G["StatKey"] do Task.Wait() end
     local data = Storage.GetSharedPlayerData(_G["StatKey"], player)
@@ -11,7 +21,8 @@ function Save(player)
     Storage.SetSharedPlayerData(_G["StatKey"],player,data)
 end
 
-
+--@Param player, PerkReference
+--Gifts money based on perk purchased
 function RewardPerk(player,NetReference)
     if NetReference == _G["perk.StrikeCoin300"]  then
         AddStrikeCoins(player,3000)

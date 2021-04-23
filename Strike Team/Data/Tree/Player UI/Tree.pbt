@@ -2,7 +2,7 @@ Name: "Player UI"
 RootId: 6153464260326768231
 Objects {
   Id: 2925534956440551700
-  Name: "WeaponUII"
+  Name: "WeaponUI"
   Transform {
     Location {
     }

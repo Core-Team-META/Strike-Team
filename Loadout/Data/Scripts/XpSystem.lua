@@ -1,3 +1,12 @@
+-----------------------------------------------------------|
+--[[
+    XP system
+
+    Player progression and level system
+    It is in an Object oriented fashion to have better expandability and Syncing to the player
+]]
+-----------------------------------------------------------|
+
 local XPTable = {
     0,
     2000,
@@ -27,6 +36,8 @@ XP.__index = XP
 
 _G["XPClass"] = XP
 
+--@Prams player 
+--Sets up xp system to the player
 function XP.New(player)
     local o = setmetatable({}, XP)
     assert(player:IsA("Player"), "Error trying to assign Xp Storage to NonPlayer")
@@ -35,29 +46,20 @@ function XP.New(player)
     return o
 end
 
-function CalculateLevel(val)
-    return val
-end
-
-function XpInNextLevel(val)
-    local XpTotal = 0
-    for Level,XP in ipairs(XPTable) do
-        XpTotal = XpTotal + XP
-        if val < XpTotal then
-            return XP
-        end
-    end
-    return XPTable[#XPTable]
-end
-
+--@Returns int
+--Gets Xp in level
 function XP:GetXPInCurrentLevel()
     return self.xp
 end
 
+--@Returns int
+---Calculate Xp until next level
 function XP:GetXPUntilNextLevel()
     return self:GetNextLevelXP() - self.xp 
 end
 
+--@Returns int
+--Gets level in next level
 function XP:GetNextLevelXP()
     local level = self:GetLevel()
     if XPTable[level] then 
@@ -66,35 +68,52 @@ function XP:GetNextLevelXP()
         return XPTable[#XPTable] 
     end
 end
-    
+
+--@Returns int
+--Get the xp before adding xp
 function XP:ReturnLastXPAmount()
     return self.lastamount
 end
 
+--@Returns player
+--Return Xpsystem owner
 function XP:GetOwner()
     return self.owner
 end
 
+--@Returns int
+--Get xp that has been gained
 function XP:ReturnGainedXP() 
     return self.lastgained
 end
 
+--@Returns int
+-- Return level
 function XP:CalculateLevel()
     return self.level
 end
 
+--@Returns int
+--Gets max Level
 function XP:GetMaxLevel()
     return MAXLEVEL
 end
 
+--@Returns int
+--Gets max prestiege
 function XP:GetMaxPrestige()
     return MAXPrestige
 end
 
+--@Returns int
+---Returns xp
 function XP:GetXP()
     return self.xp or 0
 end
 
+
+--@Returns int
+--Returns Prestige
 function XP:GetPrestige()
     return self.Prestige
 end
@@ -103,18 +122,26 @@ end
 if Environment.IsClient() then
     local LOCAL_PLAYER = Game.GetLocalPlayer()
     
+    --@Param player
+    --sets up player xp system
     function Playerjoined(player)
+        if not Object.IsValid(player) then return end 
         player.clientUserData.XP = XP.New(player)
     end
 
+    --@Returns int
+    --Gets Xp
     function XP:GetXP()
         return self.owner:GetResource("XP")
     end
 
+    --@Returns int
+    --Gets Level
     function XP:GetLevel()
         return self.level
     end
 
+    --Loads up data for xp system
     function XP:Load()
         self.lastamount = self.xp or 0
         self.lastgained = self.owner:GetResource("LastGained")
@@ -123,6 +150,8 @@ if Environment.IsClient() then
         self.Prestige = self.owner:GetResource("Prestige")
     end
 
+    --@Param nil, Resourcename
+    --Updates data for xp system
     function UpdateResource(_,Rname)
         if LOCAL_PLAYER.clientUserData.XP then 
             LOCAL_PLAYER.clientUserData.XP:Load()
@@ -136,6 +165,8 @@ end
 
 if Environment.IsServer() then
 
+    --@Param int
+    --Adds Xp to the player
     function XP:AddXP(Value)     
         self.lastgained = Value    
         self.lastamount = self:GetXP()
@@ -144,6 +175,8 @@ if Environment.IsServer() then
         self:Save()
     end
     
+    --@Param int
+    --Handles overflow to the Xp System
     function XP:HandleGain(Value)
         if self.level >= self:GetMaxLevel() then return end
         local XPCapped = math.min(Value, self:GetXPUntilNextLevel()) 
@@ -154,11 +187,13 @@ if Environment.IsServer() then
         end
     end
 
+    --Level Up and reset xp
     function XP:LevelUp()
         self.level = self.level + 1
         self.xp = 0
     end
 
+    --Updates player Resource
     function XP:UpdateResource()
         self.owner:SetResource("LastGained", self.lastgained)
         self.owner:SetResource("XP", self.xp)
@@ -166,6 +201,7 @@ if Environment.IsServer() then
         self.owner:SetResource("Prestige", self.level)
     end
 
+    --Reset the xp entireley
     function XP:Reset()
         self.xp = 0
         self.level = 0
@@ -174,19 +210,25 @@ if Environment.IsServer() then
         self:Save()
     end
 
+    --@Returns int
+    --Returns player level
     function XP:GetLevel()
         self.owner:SetResource("Level", self.level)
         return self.level
     end
 
+    --Saves the player data
     function XP:Save()
 
     end
 
+    --@Returns int
+    --Returns players prestige 
     function XP:GetPrestige()
         return self.Prestige
     end
 
+    --Prestieges player
     function XP:Prestige()
         if Prestige >= MAXPrestige then return end
         if self:GetLevel() >= MAXLEVEL then
@@ -197,6 +239,8 @@ if Environment.IsServer() then
         end
     end
 
+
+    -- Loads the data for the Xp system
     function XP:Load()
         while not _G["StatKey"] do Task.Wait() end
         if not Object.IsValid(self.owner) then return end
@@ -210,10 +254,12 @@ if Environment.IsServer() then
 
     end
 
+    --Assigns Xp system to player
     function Playerjoined(player)
         player.serverUserData.XP = XP.New(player)
     end
 
+    --saves when player leaves
     function PlayerLeft(player)
         if not player.serverUserData.XP then return end
         player.serverUserData.XP:Save()

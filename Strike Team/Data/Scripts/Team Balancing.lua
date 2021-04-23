@@ -2,6 +2,14 @@ local ABGS = require( script:GetCustomProperty("GameStateAPI") )
 --local PROGRESSION = require( script:GetCustomProperty("ProgressionAPI") )
 local DEBUG_SAME_TEAM = script:GetCustomProperty("DebugSameTeam")
 
+-----------------------------------------------------------|
+--[[
+	Team Balance
+
+    Balances teams on round end.
+]]
+-----------------------------------------------------------|
+
 local BASE_VALUE_PER_PLAYER = 100
 local TOTAL_CLASS_VALUE_EXPONENT = 0.5 -- Higher value means that ability leveling is ever-more powerful
 local TOTAL_CLASS_VALUE_COEFFICIENT = 6 -- Higher value means players with progression are considered much more powerful
@@ -10,7 +18,9 @@ local WIN_RATE_MAX = 0.8
 local WIN_RATE_EXPONENT = 1
 local WIN_RATE_COEFFICIENT = 500
 
-
+--@Param player
+--@Return int
+--Calculates Player value
 function ComputePlayerValue(player)
 	-- Return the cached value
 	if player.serverUserData.balanceValue then
@@ -58,7 +68,9 @@ function ClearCachedPlayerValues()
 	end
 end
 
-
+--@Param {player}
+--@Return int
+--Calculates Team value
 function ComputeTeamValue(teamOfPlayers)
 	local value = 0
 	for _,player in ipairs(teamOfPlayers) do
@@ -67,7 +79,9 @@ function ComputeTeamValue(teamOfPlayers)
 	return value
 end
 
-
+--@Param player
+--@Return {players}
+--Goes through allplayers and compute their balance and if they need to be swapped
 function ComputePlayersToSwitchTeam(playerToIgnore)
 	local playersThatCouldBeSwitched = {}
 	local bestDelta
@@ -119,6 +133,7 @@ function ComputePlayersToSwitchTeam(playerToIgnore)
 end
 
 
+--Swap player teams
 function SwitchTeam(player)
 	if player.team == 1 then
 		player.team = 2
@@ -131,7 +146,8 @@ function SwitchTeam(player)
 	--print(player.name.." was switched to team "..tostring(player.team))
 end
 
-
+--@Return Bool
+--Check if the game state is in lobby
 function IsLobby()
 	local gameState = ABGS.GetGameState()
 	return gameState == ABGS.GAME_STATE_LOBBY
@@ -139,6 +155,7 @@ function IsLobby()
 end
 
 
+--Todo
 function OfferSwitchChoice()
 	--[[
 		TODO
@@ -149,7 +166,8 @@ function OfferSwitchChoice()
 	--]]
 end
 
-
+--@Param player
+--Autobalances the Teams
 function DoRebalance(playerToIgnore)
 	--print("DoRebalance()")
 	
@@ -172,22 +190,20 @@ function DoRebalance(playerToIgnore)
 end
 
 
-function OnResourceChanged(player, resourceName, newValue)
-	--
-end
-
-
+--@Param player
+--Handle player joining 
 function OnPlayerJoin(player)
 	if DEBUG_SAME_TEAM then
 		player.team = 1
 		return
 	end
-	
-	player.resourceChangedEvent:Connect(OnResourceChanged)
+	 
 	
 	Task.Wait(0.15)
 	if not Object.IsValid(player) then return end
 	
+
+	--Handle players to switch
 	local playersToSwitch = ComputePlayersToSwitchTeam()
 	
 	if #playersToSwitch == 0 then
@@ -202,7 +218,8 @@ function OnPlayerJoin(player)
 	end
 end
 
-
+--@Param player
+--Handle player leaving  to rebalance team
 function OnPlayerLeft(playerToIgnore)
 	--print("Player left")
 	

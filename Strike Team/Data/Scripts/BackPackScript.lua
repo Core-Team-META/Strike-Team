@@ -1,4 +1,14 @@
+-----------------------------------------------------------|
+--[[
+    BackPack
 
+    A way to store equipemnt onto the player and have reference to everything a player has
+]]
+-----------------------------------------------------------|
+
+
+
+-- Setup Points position offsets and rotations to the points
 local HolsterPoints = {
     ["LHip"]    = "left_hip",
     ["RHip"]    = "right_hip",
@@ -23,7 +33,9 @@ local HolsterRotations = {
     ["Back"]    = Rotation.New(-5.79,-53.21,85.586),
 }
 
-
+--@Param Player, Cire 
+--@Returns Weapon
+--Finds Weapon in backpack and returns it 
 function MatchBackPack(player, weapon)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
         if(Weapon["Weapon"] == weapon) then
@@ -32,6 +44,9 @@ function MatchBackPack(player, weapon)
     end
 end
 
+--@Param Player, weapon 
+--@Returns Weapon
+--Finds Weapon in backpack and returns it 
 function AttatchWeapon(player, weapon)
     local Weapon = MatchBackPack(player,weapon)
     if(Weapon)then
@@ -45,6 +60,8 @@ function AttatchWeapon(player, weapon)
     end
 end
 
+--@Param Player
+--Empty the players backpack
 function EmptyBackpack(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
         local currentWeapon = Weapon["Weapon"]
@@ -58,6 +75,8 @@ function EmptyBackpack(player)
     player.serverUserData.Backpack = {}
 end
 
+--@Param Player, weapon 
+--Unequip a player
 function DeequipWeapon(player, weapon)
     local Weapon = MatchBackPack(player,weapon)
     if(Weapon)then
@@ -69,6 +88,8 @@ function DeequipWeapon(player, weapon)
     end
 end
 
+--@Param Player, weapon 
+--Equips a weapon to player
 function EquipWeapon(player, weapon)
     if(player.serverUserData.EquippedWeapon == weapon) then return end
     for _,Equipment in pairs(player:GetEquipment()) do
@@ -81,10 +102,14 @@ function EquipWeapon(player, weapon)
     end
 end
 
+--@Param Player
+--SetupBackPack
 function JoinedPlayer(player)
     player.serverUserData.Backpack = {}
 end
 
+--@Param Player
+--Destoys every weapon in the backpack and Destroys the weapon
 function RemovePlayer(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
         if Object.IsValid(Weapon["Weapon"]) then

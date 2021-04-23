@@ -1,5 +1,13 @@
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
+
+-----------------------------------------------------------|
+--[[
+    Camera zoom converter 
+
+    Takes a camera distance and converts it to a direction within a frame
+]]
+-----------------------------------------------------------|
 local function signum(number)
     if number > 0 then
        return 1
@@ -10,6 +18,8 @@ local function signum(number)
     end
  end
 
+
+--On a tick convet camera distance to a direction by getting more or less then 0 
 function Tick()
    local sign = signum(LOCAL_PLAYER:GetActiveCamera().currentDistance)
    if( sign ~= 0) then

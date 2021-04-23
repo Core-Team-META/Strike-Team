@@ -5,6 +5,7 @@ local AllUnlockableWeapons = {}
 
 local AllUnlockableSkins = {}
 
+--Adds items to the lootbox
 function AllUnlockableWeaponsSetup()
     AllUnlockableWeapons = {}
     for k,v in pairs(_G["DataBase"]:ReturnBySlot("Primary")) do
@@ -31,6 +32,7 @@ AllUnlockableWeaponsSetup()
 AllUnlockableSkinSetUp()
 
 
+--Filter lootbox based on players equipment
 function FilterWeaponList(player)
     local NewList = {}
     for _,v in pairs(AllUnlockableWeapons) do
@@ -41,6 +43,8 @@ function FilterWeaponList(player)
     return NewList
 end
 
+
+--Fill out panels 
 function RecieveItem(Item)
     Events.Broadcast("AllloadoutPanelsClose")
     local Weapon = _G["DataBase"]:ReturnEquipmentById(Item)

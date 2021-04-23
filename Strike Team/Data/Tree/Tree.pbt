@@ -16,6 +16,7 @@ Objects {
   }
   ChildIds: 11471976360075692302
   ChildIds: 7678757230154100751
+  ChildIds: 5772718884362665646
   ChildIds: 12364641759754756525
   ChildIds: 16962308734055015238
   ChildIds: 15900364157994414074
@@ -1777,6 +1778,36 @@ Objects {
   Script {
     ScriptAsset {
       Id: 15034763667884300923
+    }
+  }
+}
+Objects {
+  Id: 5772718884362665646
+  Name: "ReadMe"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6265978111211671184
     }
   }
 }

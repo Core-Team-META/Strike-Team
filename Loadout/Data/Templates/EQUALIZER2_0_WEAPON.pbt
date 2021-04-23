@@ -1,13 +1,13 @@
 Assets {
   Id: 4887686027475991779
-  Name: "EQUALIZER2.0_WEAPON"
+  Name: "WEAPON_SEC_PISTOL_MJC-782"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 13485202857273345291
       Objects {
         Id: 13485202857273345291
-        Name: "EQUALIZER2.0_WEAPON"
+        Name: "WEAPON_SEC_PISTOL_MJC-782"
         Transform {
           Scale {
             X: 0.99999994
@@ -185,7 +185,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 55000
+            ProjectileSpeed: 45000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5

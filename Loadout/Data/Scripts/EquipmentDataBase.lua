@@ -1,9 +1,24 @@
---[[
-    EquipmentDataBase.lua
-
-    This script does......
-]]
 _G["EquipmentData"] = {}
+
+-----------------------------------------------------------|
+--[[
+    Equipment handler as the name suggests handles the equipment.
+
+    Any gun, equipment, skin, passive and equipment are stored here.
+    They are then assigned a rarity, Equipment type, cost ect ect and can be accessed at _G["EquipmentData"].
+
+    _G["EquipmentData"] is treated as a module/ one big table so things are accesed through their functions without a require.
+    for example _G["EquipmentData"]:ReturnByType(type) will search for the type and return items* of that type.
+
+    *Items are gun, equipment, passive and equipment. They are a custom table like Database. Please visit "Equipment" script for more info
+
+
+    To add an Item to the database Add a weapon template as a child of Root (Equipment Database), Make sure the ID does not match others.
+
+]]
+-----------------------------------------------------------|
+
+
 local Root = script:GetCustomProperty("Root"):WaitForObject()
 local Equipment = require(script:GetCustomProperty("Equipment"))
 local Rarity = require(script:GetCustomProperty("Rarity"))
@@ -22,6 +37,8 @@ local Raritys = {
 local Database = {} 
 Database.__index = Database
 
+--@Returns Class Database
+--SetUp the database.
 function Database:_Init()
     local self = setmetatable({},Database)
     self.data = {}
@@ -30,38 +47,48 @@ function Database:_Init()
     return self
 end
 
+--@Returns Table 
 function Database:GetDatabase()
-    return self.data
+    return self.data --Gets everything
 end
 
+--@Param Skin
+--@Returns String
 function Database.ReturnSkinRarity(Skin)
-    return Skin.rarity:GetRank()
+    return Skin.rarity:GetRank() --Get a skins rarity.
 end
 
-
+--@Param Skin
+--@Returns Int
 function Database.ReturnSkinSort(Skin)
-    return Skin.rarity:GetSortValue()
+    return Skin.rarity:GetSortValue()--Get the sorting order of a skin.
 end
 
+--@Param String
+--@Returns Item
 function Database:SetupItemWithSkin(id)
     if not id then return end
     local eq,sk = CoreString.Split(id,"_")
     local item = self:ReturnEquipmentById(eq)
     if(item) then
         item:EquipSkinByID(sk)
-        return item
+        return item  --Returns a new Item with the skin equipped.
     end
 end
 
+--@Param String
+--@Returns Item
 function Database:ReturnEquipmentById(id)
     for _, eqp in pairs(self.data) do
         if(eqp["id"] == id ) then
-            local item = Equipment.New(eqp)
-            return item
+            local item = Equipment.New(eqp) --spawns new item
+            return item --Returns an Item with id.
         end
     end
 end
 
+--@Param String
+--@Returns {Items}
 function Database:ReturnBySlot(slot)
     local Data = {}
     for _, eqp in pairs(self.data) do
@@ -69,9 +96,12 @@ function Database:ReturnBySlot(slot)
             table.insert( Data, Equipment.New(eqp))
         end
     end
-    return Data
+    return Data 
+
 end
 
+--@Param String
+--@Returns {Items}
 function Database:ReturnByType(type)
     local Data = {}
     for _, eqp in pairs(self.data) do
@@ -79,21 +109,21 @@ function Database:ReturnByType(type)
             table.insert( Data,Equipment.New(eqp))
         end
     end
-    return Data
+    return Data 
 end
 
 
-function Database:SpawnAllweapons()
-    for _, value in pairs(self.data) do
-        table.insert(self.items, value)
-    end
-end
-
+--@Param String
+--@Returns {Strings}
+ -- splits a key for storage to be read
 function Database:SplitString(String)
     if not String then return end 
     return {CoreString.Split(String ,"-")}
 end
 
+--@Param String, String
+--@Returns {Strings}
+--Gets the slot based on the storage split.
 function Database:GetSlot(weaponString,Slot)
     local SlotIndex = {
         ["Primary"] = 1,
@@ -106,6 +136,9 @@ function Database:GetSlot(weaponString,Slot)
     return weapons[SlotIndex[Slot]]
 end
 
+--@Param String
+--@Returns String
+-- Quick shortcut for grabbing the Item based on slot.
 function Database:GetPrimary(weaponString)
     local weapons = self:SplitString(weaponString)
     return weapons[1]
@@ -131,7 +164,10 @@ function Database:GetPerk(weaponString)
     return weapons[5]
 end
 
-function VerifyID(Data, NewItem)
+
+
+--Check to make sure no Item Id are clashing.
+local function VerifyID(Data, NewItem)
     for k,Item in pairs(Data) do
         if(Item["id"] == NewItem["id"]) then return false end 
     end
@@ -139,7 +175,8 @@ function VerifyID(Data, NewItem)
     return true
 end
 
-function Database.SetupSkin(Owner,id, skin, level, ads, name, rarity,isEvent )
+--Set-up for a new skin.
+local function SetupSkin(Owner,id, skin, level, ads, name, rarity,isEvent )
     local NewSkin = {}
     NewSkin["owner"] = Owner
     NewSkin["id"] = id
@@ -152,6 +189,7 @@ function Database.SetupSkin(Owner,id, skin, level, ads, name, rarity,isEvent )
     return NewSkin
 end
 
+--Iterates through the folders of the Root and set up Items based on the custom properties.
 function Database:RegisterEquipment()
     local NewData = {}
     for _, Slot in pairs(Root:GetChildren()) do
@@ -173,7 +211,7 @@ function Database:RegisterEquipment()
                 NewItem["cost"] = Item:GetCustomProperty("Cost")
                 local ItemSkins = {}
 
-                NewItem["defaultSkin"] = Database.SetupSkin( 
+                NewItem["defaultSkin"] = SetupSkin( 
                     NewItem["id"] ,
                     "00",
                     Item:GetCustomProperty("DefaultSkin"),
@@ -186,7 +224,7 @@ function Database:RegisterEquipment()
                 table.insert( ItemSkins, NewItem["defaultSkin"])
                 
                 for _, Skin in pairs(Item:GetChildren()) do
-                    local NewSkin = Database.SetupSkin(
+                    local NewSkin = SetupSkin(
                         NewItem["id"],
                         Skin:GetCustomProperty("ID"), 
                         Skin:GetCustomProperty("SKIN"),
@@ -210,7 +248,5 @@ function Database:RegisterEquipment()
     end
     self.data = NewData
 end
-
---_G["EquipmentData"] = RegisterEquipment()
 
 _G["DataBase"] = Database:_Init()

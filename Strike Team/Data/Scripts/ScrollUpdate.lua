@@ -3,6 +3,17 @@ local Time = 0
 local SwapTask 
 local CanSwap = true
 
+
+-----------------------------------------------------------|
+--[[
+    Scrolling Update 
+
+    Updates the equipped weapon
+]]
+-----------------------------------------------------------|
+
+--@Param Int
+--Locks the scrolling until the last scroll has been locked 
 function StartTimer(Slot)
     Time = 0
     while Time < 0.2 do
@@ -15,6 +26,8 @@ function StartTimer(Slot)
     CanSwap = true
 end
 
+--@Param Int
+--Swaps through the selections/equipment and updates the UI based on direction.  
 Events.Connect("ScrollChange",function(DIRECTION) 
     if CanSwap then
     Time = 0

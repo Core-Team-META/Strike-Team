@@ -1,6 +1,8 @@
 local LOADOUT_UI = script:GetCustomProperty("LOADOUT_UI"):WaitForObject()
 local MAIN_MENU_UI = script:GetCustomProperty("MAIN_MENU_UI"):WaitForObject()
 
+
+--Hide default ui
 function HideAllUI()
     for key, value in pairs(script:GetCustomProperties()) do
         value = value:GetObject()
@@ -10,11 +12,13 @@ function HideAllUI()
     end
 end
 
+--Swap to menu view
 function MENU()
     HideAllUI()
     MAIN_MENU_UI.visibility = Visibility.FORCE_ON
 end
 
+--Swap to loadout view
 function LOADOUT()
     HideAllUI()
     LOADOUT_UI.visibility = Visibility.FORCE_ON

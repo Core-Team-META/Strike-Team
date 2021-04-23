@@ -1,6 +1,35 @@
 Name: "Endgame-ToggleUI"
 RootId: 1767098222894358513
 Objects {
+  Id: 8620392774914385537
+  Name: "EndUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1767098222894358513
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EndUI - Stats, Rewards, Achievements"
+  }
+}
+Objects {
   Id: 18434938065660476816
   Name: "ServerContext"
   Transform {
