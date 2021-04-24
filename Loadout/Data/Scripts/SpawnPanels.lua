@@ -34,13 +34,19 @@ local SKIN_EQUIP_SOUND = SpawnPanelSFX:GetCustomProperty("SKIN_EQUIP_SOUND")
 local HOVER_SOUND = SpawnPanelSFX:GetCustomProperty("HOVER_SOUND")
 local SPAWN_PANELS_RARITYS = script:GetCustomProperty("SpawnPanelsRaritys"):WaitForObject()
 
-
-
 local RichTextMgr = require(script:GetCustomProperty("_RichTextMgr"))
+
+-----------------------------------------------------------|
+--[[
+    Spawn Panels
+
+    Updates right side panels with information
+--]]
+-----------------------------------------------------------|
 local IMAGE_FOLDER = script:GetCustomProperty("ImageFolder"):WaitForObject()
 RichTextMgr.SetImageSource(IMAGE_FOLDER)
 
-
+--Update sounds depending on slot
 local SoundToSlot = {
     ["Primary"] = WEAPON_EQUIP_SOUND,
     ["Secondary"] = SECONDARY_EQUIP_SOUND,
@@ -49,6 +55,7 @@ local SoundToSlot = {
     ["Perks"] = PASSIVE_EQUIP_SOUND,
 }
 
+--Handles visibility for swapping arrows .
 function UpdateArrows( LeftNum,RightNum)
     if(LeftNum == 1) then
         LESSARROW.visibility = Visibility.FORCE_OFF
@@ -63,6 +70,7 @@ function UpdateArrows( LeftNum,RightNum)
 end
 
 
+--Uodates panels 
 function UpdatePanels()
     Task.Wait()
     if( _G["LoadoutState"] == _G["LOADOUTSTATEENUMS"][3]) then
@@ -70,6 +78,7 @@ function UpdatePanels()
     end
 end
 
+--Change Row
 function SlotChange( max )
     Sort = math.min(Sort, max)
     Sort = math.max(Sort,0)
@@ -81,6 +90,7 @@ function SlotChange( max )
     UpdateArrows( LeftNum,RightNum)
 end
 
+--Destroys spawned panels. 
 function DestroyPanels()
     for _,panel in pairs(Panels) do
         if(Object.IsValid(panel)) then
@@ -93,15 +103,18 @@ function DestroyPanels()
     Panels = {}
 end
 
+--Goto First row
 function ResetSort()
     Sort = 0
 end
 
+--Moves row selection along
 function AddSort(dir)
     Sort = math.max(Sort + PanelLimit * dir,0)
     UpdatePanels()
 end
 
+-- Sets up Panel rarity 
 function RaritySetup()
     for _,NewRarity in pairs(SPAWN_PANELS_RARITYS:GetChildren()) do 
         Rarity[NewRarity.name] = {
@@ -112,6 +125,8 @@ function RaritySetup()
 end
 RaritySetup()
 
+
+-- Sets up Rarity colour
 function ReturRarityColour( rarity )
     if Rarity[rarity.name] then
         return Rarity[rarity.name].Colour or Color.WHITE
@@ -119,6 +134,7 @@ function ReturRarityColour( rarity )
     return Color.WHITE
 end
 
+--Get rarity Icon
 function ReturRarityIcon( rarity )
     if Rarity[rarity.name] then
         return Rarity[rarity.name].Icon or StarsUI
@@ -126,23 +142,28 @@ function ReturRarityIcon( rarity )
     return StarsUI
 end
 
+--Returns rarity rank
 function ReturRarityCount( rarity )
     return rarity:GetRank()
 end
 
+--Returns rarity colour from skin
 function ReturnSkinRarityColour( skin )
     return ReturRarityColour(skin.rarity)
 end
 
+--Check if weapon is owned
 function CheckWeapon(item)
     return Storage:HasWeapon(item)
 end
 
+--Check if skin is owned
 function CheckSkin(item,skin)
     skin = skin or  "00"
     return Storage:HasSkin(item, skin)
 end
 
+--Spawns a panel based on type
 function SpawnPanel(panelType  ,item, skin , index, locked)
     local newpanel = World.SpawnAsset(panelType,{parent = PARENT})
         newpanel.y = ((index-1)*200) + 5
@@ -172,6 +193,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
             Lock:Destroy()
         end
     else
+        --Displays Cost if not unlocked
         if(skin) then 
             local textbox = newpanel:GetCustomProperty("UnlockText"):WaitForObject()
             textbox.text = ""
@@ -196,6 +218,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         end)
         --Button:SetPressedColor( Button:GetHoveredColor())
     end
+    --Hover for skins. 
     newpanel.clientUserData.HoverEvent = Button.hoveredEvent:Connect(function() 
             if(skin) then item:EquipSkinByID(skin.id) end
             Events.Broadcast("HoverItem",item:ReturnIDs(),item.data.slot)
@@ -210,7 +233,9 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
         if(skin) then item:EquipSkinByID(skin.id) end
         Events.Broadcast("UnHoverItem")
         --print(LOCAL_PLAYER.clientUserData.Loadouts[tostring(LOCAL_PLAYER.clientUserData.SelectedSlot)])
-    end)   
+    end) 
+    
+    --Renders weapon/skin in the panel 
     if item:GetSlot() == "Perks" or item:GetSlot() == "Equipment" then return newpanel end
     local curScale = .08
     local object = World.SpawnAsset(item:GetEquippedSkin() ,{scale = Vector3.New(curScale,curScale,curScale) * item.data.scale , rotation = Rotation.New(0,0,-90) })
@@ -252,6 +277,7 @@ function SpawnPanel(panelType  ,item, skin , index, locked)
     return newpanel
 end
 
+--sort panels by owning, levels then name
 function SortPanels(a,b)
     if a == b then return false end
 
@@ -266,6 +292,7 @@ function SortPanels(a,b)
 
 end
 
+--Filters owning item
 function FilterItems(Weapon,items)
     local NewTable = {}
     for _,item in pairs(items) do
@@ -280,6 +307,7 @@ function FilterItems(Weapon,items)
     return NewTable
 end
 
+--Sort skin by owning, ratiry = throw if a == b
 function SkinSort(id,a,b)
 
     if Storage:HasSkin(id,a.id) == true and Storage:HasSkin(id,b.id) == false then return true end
@@ -299,6 +327,7 @@ function SkinSort(id,a,b)
 end
 
 
+--Spawn Item panel 
 function SpawnPanels(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)
@@ -323,7 +352,7 @@ function SpawnPanels(Type)
         table.insert( Panels, newpanel )
     end
 end
-
+--Setup for panel for skins
 function SetupSkinPanel(item,id,skins,i,Locked)
     local newItem  =  Database:ReturnEquipmentById(id)
     newItem:EquipSkinByID(skins[i].id)  
@@ -346,7 +375,7 @@ function SetupSkinPanel(item,id,skins,i,Locked)
     table.insert( Panels, newpanel )
 end
 
-
+--Spawn panels for skins
 function SpawnPanelskins(itemid)
 
     DestroyPanels()
@@ -371,7 +400,7 @@ function SpawnPanelskins(itemid)
     end
 end
 
-
+--Spawn Icon Panel
 function SpawnIconPanel(Type)
     DestroyPanels()
     local items = Database:ReturnBySlot(Type)

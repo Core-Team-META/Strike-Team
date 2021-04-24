@@ -1,3 +1,4 @@
+--Connects events to others 
 function ClosePanels()
     Events.Broadcast("AllloadoutPanelsClose")
     Events.Broadcast("UpdateMenuState","MENU")

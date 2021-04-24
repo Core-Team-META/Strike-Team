@@ -10,7 +10,7 @@ local function SavePlayerCrateStorage(player, data)
         Storage.SetSharedPlayerData(_G["MiscKey"], player, data)
     end
 end
-
+--load
 local function GetPlayerCrateStorage(player)
     local data
     if _G["MiscKey"] and _G["MiscKey"].isAssigned then

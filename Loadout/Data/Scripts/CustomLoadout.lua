@@ -29,6 +29,8 @@ local lastpressedTime = os.clock()-20
 local panel 
 local Spawns = {}
 
+
+--Clear items
 function ClearSpawns()
     for _,obj in pairs(Spawns) do
         if Object.IsValid(obj) then
@@ -40,6 +42,7 @@ end
 
 
 
+--Setup panel data
 function Setdata(pan,slottype)
     local SLOTTYPE = {
         ["P"] = Database:GetPrimary(LOCAL_PLAYER.clientUserData.Loadouts[tostring(SLOT)]),
@@ -90,6 +93,7 @@ function Setdata(pan,slottype)
     TYPE.text = item.data.type
 end
 
+--Fills in data to panel 
 function FillInData()
     local SLOTTYPE = {
         ["P"] = Database:GetPrimary(LOCAL_PLAYER.clientUserData.Loadouts[tostring(SLOT)]),
@@ -130,13 +134,14 @@ function FillInData()
 end
 
 
+--Equip selected item
 function EquipOnSelected()
     Events.BroadcastToServer("EquipSlot", LOCAL_PLAYER.clientUserData.SelectedSlot)
     LOCAL_PLAYER.clientUserData.EquipSlot = LOCAL_PLAYER.clientUserData.SelectedSlot
     Events.Broadcast("UpdateEquipped")
 end
 
-
+--Equip loadout slot to player
 function EquipSlot(slot)
     World.SpawnAsset(CLICK_SOUND)
     if(os.clock() - lastpressedTime < .1) then return end
@@ -154,6 +159,7 @@ function EquipSlot(slot)
 	end
 end
 
+--Spawns main panel
 function SpawnPanel() 
     World.SpawnAsset(HOVER_SOUND)
     Events.Broadcast("UpdatedLoadoutState")
@@ -170,6 +176,7 @@ function SpawnPanel()
 	end
 end
 
+--Destroys sub panel
 function DestroyPanel()
     if( _G["LoadoutState"] == "ChangingLoadout") then
         if(Object.IsValid(panel)) then
@@ -180,8 +187,9 @@ function DestroyPanel()
 end
 
 
+--Setup button  if Prestige is high enough
 function Setup()
-if Game.GetLocalPlayer():GetResource("Level") >= LEVELLOCK then
+if Game.GetLocalPlayer():GetResource("Prestige") >= LEVELLOCK then
     if connected then return end
         LoadoutText.text = string.format( "LOADOUT %d", SLOT )
         BUTTON.pressedEvent:Connect(EquipSlot)
@@ -204,6 +212,7 @@ end
 
 Setup()
 
+--Update has equipped icon
 function Updateemb()
     local emb = script.parent:GetCustomProperty("EquipIcon"):WaitForObject()
     if(Game.GetLocalPlayer().clientUserData.EquipSlot == SLOT) then

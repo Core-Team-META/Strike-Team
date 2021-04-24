@@ -11,7 +11,7 @@ local function SetUpTick(self)
     return NewTick
 end
 
-
+--Creates a new Manager
 function StateManager.New(owner,states,defaultState)
     local NewManager = setmetatable({}, StateManager)
     NewManager.states = states
@@ -23,50 +23,61 @@ function StateManager.New(owner,states,defaultState)
     return NewManager
 end
 
+--Returns default state
 function StateManager:GetDefaultState()
     return self.defaultState
 end
 
+--Sets the default state
 function StateManager:SetDefaultState(state)
     self.defaultState = self:GetState(state)
 end
 
+--Sets current state
 function StateManager:SetCurrentState(state)
     self.currentState = self:GetState(state)
 end
 
+--Returns current state
 function StateManager:GetCurrentState()
     return self.currentState
 end
 
+--Returns all states
 function StateManager:GetStates()
     return self.states
 end
 
+--Gets state based on name
 function StateManager:GetState(state)
     return self:GetStates()[state]
 end
 
+--Calls Update every frame
 function StateManager:Update()
     if self:GetCurrentState() then
         self:GetCurrentState():Update(self:GetOwner())
     end
 end
 
+--Returns owner
 function StateManager:GetOwner()
     return self.owner
 end
 
+--Calls enter on state and passes args
 function StateManager:CallEnter(...)
     if not self:GetCurrentState() then return end
     self:GetCurrentState():Enter(self:GetOwner(),...)
 end
 
+--Basic isA for null checks
 function StateManager:IsA(object)
     if object == "StateManager" then return true end
     return false
 end
 
+--Swap states based on name
 function StateManager:ChangeState(state, ... )
     if not self:GetCurrentState() then 
         self:SetCurrentState(state)
@@ -80,6 +91,7 @@ function StateManager:ChangeState(state, ... )
     end
 end 
 
+--Destroys state
 function StateManager:Destroy()
     if self.UpdateTick then 
         self.UpdateTick:Cancel() 

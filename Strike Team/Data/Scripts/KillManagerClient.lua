@@ -1,6 +1,7 @@
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local LastLivingState
 
+--Update local player death.
 function Tick()
     if(LastLivingState == LOCAL_PLAYER.isDead) then
         return

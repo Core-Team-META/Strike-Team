@@ -5,6 +5,7 @@ local CRATE_TIMER_TEXT = script:GetCustomProperty("CrateTimerText"):WaitForObjec
 local nextCrateOpen = nil
 local shouldShow = false
 
+--Updates showing.
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) --
     if newState == ABGS.GAME_STATE_ROUND_END then
         shouldShow = true
@@ -13,6 +14,7 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     end
 end
 
+--Updates timer on client.
 function Tick()
     if shouldShow then
         nextCrateOpen = LOCAL_PLAYER:GetResource("LootBox.OpenTime")

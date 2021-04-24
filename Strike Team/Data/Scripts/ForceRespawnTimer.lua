@@ -1,5 +1,7 @@
 local RadialTimer = script:GetCustomProperty("RadialTimer"):WaitForObject()
 
+
+--Renders respawn timer
 Events.Connect("LivingStateChange",function(state)
     local player = Game.GetLocalPlayer()
     if (state) then

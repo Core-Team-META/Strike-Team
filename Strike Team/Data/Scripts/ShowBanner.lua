@@ -1,5 +1,6 @@
 local BANNER = script:GetCustomProperty("Banner"):WaitForObject()
 
+
 Events.Connect("LivingStateChange",function(state)
     local player = Game.GetLocalPlayer()
     if (state) then

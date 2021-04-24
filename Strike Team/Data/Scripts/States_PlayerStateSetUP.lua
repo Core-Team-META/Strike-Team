@@ -10,6 +10,8 @@ local ABGS = require(script:GetCustomProperty("ABGS"))
 
 
 local AllStatesManager = {}
+
+--Sets up player state manager 
 function NewState(player)
     local NewSMachine = StateManager.New(player,StatesMovementStates:SetupStates(), "Idle")
     AllStatesManager[player.id] = NewSMachine
@@ -25,6 +27,7 @@ local ReleaseTree = {
 
 } 
 
+-- Checks if player is reset
 function EndRound()
     Task.Wait()
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
@@ -32,6 +35,7 @@ function EndRound()
     end
 end
 
+---Sets default and controls the bindings 
 function JoinPlayer(player)
     local StateMach = NewState(player)
     
@@ -40,18 +44,21 @@ function JoinPlayer(player)
         StateMach:ChangeState("End")
     end
 
-
+    --If pressed do thing
     player.bindingPressedEvent:Connect(function(player,binding) 
         if BindTree[binding] then 
             BindTree[binding](player)
         end
     end)
     
+    --On realease do thing
     player.bindingReleasedEvent:Connect(function(player,binding) 
         if ReleaseTree[binding] then 
             ReleaseTree[binding](player)
         end
     end)
+    
+    --Death handler reset
     player.respawnedEvent:Connect(function(player)
         if AllStatesManager[player.id] then 
             if EndRound() then 
@@ -63,11 +70,13 @@ function JoinPlayer(player)
     end)
 end
 
+--Handle player leaving
 function LeavePlayer(player)
     AllStatesManager[player.id]:Destroy()
     AllStatesManager[player.id] = nil
 end
 
+--Stops the player on round end
 function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     if newState == ABGS.GAME_STATE_ROUND_END then 
        for _,StateManager in pairs(AllStatesManager) do

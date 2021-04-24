@@ -4,6 +4,8 @@ while not _G["MiscKey"] or count < 25 do
     count = count + 1
 end
 
+
+--Loads how long left on loot box
 function OnPlayerJoined(player)
     if _G["MiscKey"] and _G["MiscKey"].isAssigned then
         local data = Storage.GetSharedPlayerData(_G["MiscKey"], player)

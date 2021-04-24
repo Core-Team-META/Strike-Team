@@ -46,6 +46,8 @@ local function CleanUp()
 end
 
 
+
+--Adds a new point
 local function AddNewPoints()
     Task.Wait(0.2)
     for _, interest in ipairs(SPAWNED_OBJECTS:GetChildren()) do

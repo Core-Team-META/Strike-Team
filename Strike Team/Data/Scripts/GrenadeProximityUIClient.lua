@@ -16,10 +16,12 @@ UI_CONTAINER.visibility = Visibility.FORCE_OFF
 local PROXIMITY = 2000
 local PROXIMITY_SQUARED = PROXIMITY * PROXIMITY
 
+--Falloff calculation
 function InverseLerp(a, b, c)
     return CoreMath.Clamp((c-a)/(b-a))
 end
 
+--Checks for grenade around player
 function Tick()
     local closestGrenade = nil
     local closestDistanceSquared = nil
@@ -73,6 +75,7 @@ end
 local HEIGHT_OFFSET = 50
 local MARGIN = 65
 
+--Updates Grenade position based on angle
 function UpdatePoint(point, indicator)
     local pointPos = point:GetWorldPosition()
     pointPos.z = pointPos.z + HEIGHT_OFFSET

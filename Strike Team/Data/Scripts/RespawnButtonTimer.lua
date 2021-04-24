@@ -1,6 +1,7 @@
 local RadialTimer = script:GetCustomProperty("RadialTimer"):WaitForObject()
 local BANNER = script:GetCustomProperty("BANNER"):WaitForObject()
 
+--Show Respawn button timer 
 Events.Connect("LivingStateChange",function(state)
     local player = Game.GetLocalPlayer()
     if (state) then

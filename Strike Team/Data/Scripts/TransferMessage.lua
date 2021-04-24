@@ -1,4 +1,6 @@
 local MESSAGE_UI = script:GetCustomProperty("TransferMessage"):WaitForObject()
+
+--Show banner
 function OnTransferMessageEvent()
     MESSAGE_UI.visibility = Visibility.FORCE_ON
     Task.Wait(5)

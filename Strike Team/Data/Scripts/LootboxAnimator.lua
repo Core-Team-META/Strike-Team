@@ -1,5 +1,11 @@
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
+-----------------------------------------------------------|
+--[[
+    Loot Box animator 
 
+	Moves the roulette wheel
+]]
+-----------------------------------------------------------|
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local RollEvent = script:GetCustomProperty("RollEvent")
 local MovementSpeed = script:GetCustomProperty("MovementSpeed")
@@ -35,6 +41,9 @@ local numberOfHolders = 0
 local animationTask = nil
 local passToTask = {}
 
+
+
+--Initilizes lootbox
 function InitializeLootBox()
 	local isDestination = false
 	local isReload = false
@@ -61,6 +70,7 @@ function InitializeLootBox()
 	numberOfHolders = #WeaponRackHolders:GetChildren()
 end
 
+--does introduction for lootbox
 function IntroAnimation()
 	--Door1:MoveTo(Vector3.New(0, 100, 0), 1, true)
 	--Door2:MoveTo(Vector3.New(0, -100, 0), 1, true)
@@ -98,6 +108,7 @@ function IntroAnimation()
 	--Task.Wait(1.5)
 end
 
+--Moves holders to the proper position 
 function MoveHolders(movementPercentage)
 	local next = 0
 	local firstReload = holderEntry[1].atReload
@@ -125,6 +136,7 @@ function MoveHolders(movementPercentage)
 	Task.Wait(MovementSpeed * movementPercentage)
 end
 
+--Attaches items to the wheel
 function LoadHolder(selectedHolderEntry, weaponToLoad)
 	local currentWeapon = selectedHolderEntry.weaponPosition:GetChildren()
 
@@ -139,6 +151,7 @@ function LoadHolder(selectedHolderEntry, weaponToLoad)
 	end
 end
 
+--Animates the winning item
 function AnimateSelection(selectedHolderEntry, player, Main)
 	-- setup
 
@@ -234,6 +247,7 @@ function AnimateSelection(selectedHolderEntry, player, Main)
 	selectedHolderEntry.holder:SetRotation(originalRotation)
 end
 
+--Skips the animation
 function Skip()
 	if not animationTask:GetStatus() == TaskStatus.RUNNING then return end
 	-- reset
@@ -272,6 +286,7 @@ function Skip()
 	Events.Broadcast("HideSkipButton")
 end
 
+--Empties the lootbox holders
 function CleanLootBox()
 	local currentWeapon = nil
 
@@ -294,6 +309,7 @@ function CleanLootBox()
 	LootBoxCamera:SetRotation(Rotation.New(0, 15, 180))
 end
 
+--Animates the Roll
 function RollAnimation(player, Main)
 
 	passToTask[1] = player 
@@ -385,6 +401,7 @@ function RollAnimation(player, Main)
 	end, 0)
 end
 
+--Calls the inisilization of the lootbox
 function Roll(MainWeapon, others)
 	for _, v in pairs(others) do
 		local weapon = v:SpawnSkin()

@@ -5,7 +5,7 @@ local OpenBinding = script:GetCustomProperty("OpenBinding")
 local spawnPanel
 local Active = true
 
-
+--Hides Ui on round end
 function ActiveCheck()
     Task.Wait()
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
@@ -16,6 +16,7 @@ function ActiveCheck()
     end
 end
 
+--Checks if openen binding for player 
 function OpenPanel(player, binding)
     ActiveCheck()
     if Active == false then return end 
@@ -23,7 +24,7 @@ function OpenPanel(player, binding)
     spawnPanel = World.SpawnAsset(propUITemplate)
 end
 
-
+--Hide info panel
 function ClosePanel()
     if Object.IsValid(spawnPanel) then
         spawnPanel:Destroy()
@@ -31,6 +32,7 @@ function ClosePanel()
     end
 end
 
+--Binding released 
 function ReleaseButton(player, binding)
     if binding ~= OpenBinding then return end
     ClosePanel()
