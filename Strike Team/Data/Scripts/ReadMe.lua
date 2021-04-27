@@ -32,7 +32,7 @@
             @Adding state Machine
 
         Equipment Handler:
-            Manages equipment/skins that the player can use and any data the creator desires. Other scripts can acces the equipment/skins stored in this.
+            Manages equipment/skins that the player can use and any data the creator desires. Other scripts can access the equipment/skins stored in this.
             @Adding Weapons and equipment
 
         Kill Manager:
@@ -77,8 +77,8 @@
             Looks at the player who killed you upon death.
 
         SDUtilities:
-            Regen: Recovers player health after damages is taken after a time period 
-            Backpack: Attaches weapons the player is not using to their body, unequiping and equiping.
+            Regen: Recovers player health after damage is taken after a time period 
+            Backpack: Attaches weapons the player is not using to their body, unequiping and equipping.
             AGBS to global: assigns agbs to a global table.
             Deltatime: Tick function that assigns the DT to global.
             Respawn: Controls the player respawning when the respawn button is left.
@@ -222,11 +222,11 @@
                     ID - Independent id of item for storage and equipping. Must not clash with another id. *Note: Has to be 2 char long
                     Hoister - Where on the body is the item placed if not equipped.
                     RotationOffset - Used to align Equipment rotation.
-                    Scale - Scales the Equipment in the renderer
+                    Scale - Scales the Equipment in the renderer.
                     Level - makes it so the Equipment cannot be used unless the level is reached
-                    Prestige - makes it so the Equipment cannot be used unless the Prestige is reached
-                    Cost - Cost of Equipment 
-                    Icon - Unused. Icon for the weapon
+                    Prestige - makes it so the Equipment cannot be used unless the Prestige is reached.
+                    Cost - Cost of Equipment.
+                    Icon - Unused. Icon for the weapon.
                 The weapons are modifided versions of the default weapons but the default will work also. 
                 The only real difference that will need to take note of is that the weapons art will need to be seperated and used as a skin.
                 You will need to Add the custom properties that are strings.
@@ -237,13 +237,13 @@
                 Skins are empty geometry with scoping scripts on them. And the scopes Geo. 
                 Skin Template is for storing the data in the handler:
                     Skin - The skin object.
-                    Level - Locks the skin to a level
+                    Level - Locks the skin to a level.
                     ID - The skins independent id. Note this can match with other skin id as long as the other skin is on a different weapon. *Note: Has to be 2 char long
                     Rarity - The skin rarity that will show in the loadout it will affect the cost. 
-                    EventSkin - A booleon that will hide the skin in the loadout if the player doesnt have it. Used for events. 
+                    EventSkin - A booleon that will hide the skin in the loadout if the player doesn't have it. Used for events. 
 
         Adding Gamemodes:
-            *note this system is still undevelopment so somethings may behave weirdly and some things may be misplaced
+            *note this system is still under development so somethings may behave weirdly and some things may be misplaced.
             To Add a gamemode to the system add a folder under Game Mode System. It would be easier to copy an existing one.
             Each folder contains:
                     ENABLED - Is gameMode enabled
