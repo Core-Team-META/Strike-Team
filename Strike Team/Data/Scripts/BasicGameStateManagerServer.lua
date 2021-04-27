@@ -72,23 +72,6 @@ function GetTimeRemainingInState()
 	return math.max(endTime - time(), 0.0)
 end
 
-function RefreshCheck()
-	if TRANSFER_PLAYERS then
-		roundsPlayed = roundsPlayed + 1
-		if roundsPlayed > ROUNDS_BEFORE_LOCKING then
-			-- "Note that players already in the process of joining the server will still be accepted
-			-- and Game.playerJoinedEvent may still fire for a short period of time after a call to this function returns."
-			Game.StopAcceptingPlayers()
-			-- send message to all players.
-			Events.BroadcastToAllPlayers("TransferMessage")
-			local bootPlayers = Task.Spawn(function()
-				Game.TransferAllPlayersToGame(TRANSFER_GAME_ID)
-			end, SECONDS_BEFORE_TRANSFER)
-		end
-	end
-	return
-end
-
 -- nil SetGameState()
 -- Sets the state and configures timing. Passed to API
 function SetGameState(newState)
@@ -97,7 +80,6 @@ function SetGameState(newState)
 
 	-- Get new state duration information
 	if newState == ABGS.GAME_STATE_LOBBY then
-		RefreshCheck()
 		stateHasduration = LOBBY_HAS_DURATION
 		stateDuration = LOBBY_DURATION
 	elseif newState == ABGS.GAME_STATE_ROUND then

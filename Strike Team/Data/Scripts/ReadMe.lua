@@ -43,13 +43,15 @@
             @Adding Gamemodes 
 
         Chat Cheats:
-            Cheats. Lets the admin have powers to control the game such as gifting skins, kicking players, flying.
+            Lets the admin have powers to control the game such as gifting skins, kicking players, flying.
+            Individual commands are within ChatCommandsList, and are limited by the user rank.
+            AdminData provides a list of users with their rank.
 
         Team Balancer:
             Controls the balance of the teams based on the value of each player.
 
         Server Analytics:
-            Prints a server report to the log.
+            Prints a json formatted line to the server log.
 
         LifeTime Stats:
             Stores player data over the course of their strike team career.
@@ -59,6 +61,8 @@
 
         Tournament Manager:
             Manages The Tournament based on what action the players take and where, it modifies their round score.
+            To create a new tournament, fill in custom properties in SpecificEvent.lua.  HourShift represents the timezone (include shift of daylight savings if need be)
+            Create a new leaderboard for TournamentServer.lua and set the custom property.  This also has scoring criteria.
 
         Rank Manager: 
             Manages ranks from what min to max level and returns an image based on the scale you need such as in end screen or player list
@@ -97,9 +101,11 @@
 
         End Game Rewards:
             Rewards players after a game. Caps players on total of type of reward. 
+            REWARDDATABASE allows for whatever multiplier you like for XP or Cash for special events.
 
         Victory Screen:
             Puts the winners in a row depending on how well they performed they will go in the center.
+            See VictoryScreen_README
 
         Point Indicator:
             Controls the in world ui icon for the capture points so the player knows where the capture point is.
@@ -140,9 +146,6 @@
         Game State UI:
             Additional UI for game (mostly used for lobby time).
 
-        Transfer Message:
-            Upon receiving a message, the message will show on screen.
-        
         Grenade Proximity:
             A grenade icon that shows location of a tossed grenade.
 
