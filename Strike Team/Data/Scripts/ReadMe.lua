@@ -12,7 +12,7 @@
             It is the main game. 
 
         Screenshots:
-            This is an empty project that houses the billboard's images
+            This is an empty project that houses the billboard's images.
 
 
     #Systems
@@ -23,23 +23,23 @@
             Manages Fall damage. 
 
         Player Movemnt State Machine:
-            Manages the player movement depending on their action. walking, running, Dance, End, Sliding, Aiming, shooting.
+            Manages the player movement depending on their action: walking; running; Dance; End; Sliding; Aiming; shooting.
             It will shift the animations and what the player can do in that state such as running going into slide. 
 
         Player State Machine:
-            Player Movemnt State Machine is built upon this. This is a template that tells what states can go where. 
+            Player Movement State Machine is built upon this. This is a template that tells what states can go where. 
             If it is unable to go the state it will stay in the state it is already in.  
             @Adding state Machine
 
         Equipment Handler:
-            Manages equipment/skins that the player can use and any data the creator desires. Other scripts can acces the equipment/skins stored into this.
+            Manages equipment/skins that the player can use and any data the creator desires. Other scripts can acces the equipment/skins stored in this.
             @Adding Weapons and equipment
 
         Kill Manager:
-            Controls the player Resources for killing, Deaths, assists, kill weapon ect. And resets after round end.
+            Controls the player Resources for killing, deaths, assists, kill weapon etc. And resets after round end.
 
         Game Mode Manager:
-            Manages the Game Modes in the game, And everything to do with it such as adding ui, points. 
+            Manages the Game Modes in the game, and everything to do with it such as adding ui, points. 
             @Adding Gamemodes 
 
         Chat Cheats:
@@ -49,16 +49,16 @@
             Controls the balance of the teams based on the value of each player.
 
         Server Analytics:
-            Prints a server report to the log
+            Prints a server report to the log.
 
         LifeTime Stats:
-            Stores player data over the course of their strike team caree
+            Stores player data over the course of their strike team career.
 
         Funnel:
             Manages the player funnel of where the hangups and pauses are. d1 only.
 
         Tournament Manager:
-            Manages The Tournament based on what action the players take it adds and subracts to their round score
+            Manages The Tournament based on what action the players take and where, it modifies their round score.
 
         Rank Manager: 
             Manages ranks from what min to max level and returns an image based on the scale you need such as in end screen or player list
@@ -71,16 +71,16 @@
             Tracks who you killed the most and who killed you the most.
 
         META_AFK_Component:
-            Kicks the player if they have been afk too long back to the loadout.
+            Kicks the player to the loadout if they have been afk too long.
 
         Death Camera:
-            Looks at the player who killed you upon death .
+            Looks at the player who killed you upon death.
 
         SDUtilities:
-            Regen: Recovers player after damages is taken after a time period 
-            Backpack: Attaches weapons the player is not using to their bodym, Unequiping and Equiping.
+            Regen: Recovers player health after damages is taken after a time period 
+            Backpack: Attaches weapons the player is not using to their body, unequiping and equiping.
             AGBS to global: assigns agbs to a global table.
-            Deltatime: Tick function that assigns the DT to global .
+            Deltatime: Tick function that assigns the DT to global.
             Respawn: Controls the player respawning when the respawn button is left.
 
         Scroll:
@@ -93,7 +93,7 @@
             Manages Equipment that players have and transfers that to the client. 
                 
         XP Systen:
-            Managers the player level and any iformation that can be gain from it such as level gained difference
+            Managers the player level and any information that can be gained from it, such as level gained difference.
 
         End Game Rewards:
             Rewards players after a game. Caps players on total of type of reward. 
@@ -102,30 +102,30 @@
             Puts the winners in a row depending on how well they performed they will go in the center.
 
         Point Indicator:
-            Controls the in world ui icon for the points so the player knows where they are.
+            Controls the in world ui icon for the capture points so the player knows where the capture point is.
 
         PointsFeedback:
-            Updates the client with what is happening with the points feedback
+            Updates the client with what is happening with the points feedback.
 
         End Round UI Manager:
             Manages the round end ui to display the round and buttons. 
 
         Player UI:
-            NamePlates: Displays the persons name above their head
-            Healthbar: Displays the ammo count and health(hidden)
-            TeamScore: Displays Team score
-            Healthscreen: Displays players current health by having blood* splatter on the screen 
-            WeaponUI: Displays 3d weaponry in the bottom right corner and currently selected
+            NamePlates: Displays the persons name above their head.
+            Healthbar: Displays the ammo count and health(hidden).
+            TeamScore: Displays Team score.
+            Healthscreen: Displays players current health by having red splatter on the screen.
+            WeaponUI: Displays 3d weaponry in the bottom right corner and shows currently selected weapon.
 
         Minimap UI:
             Renders the minimap from 3d planes and renders each person on the minimap, 
-            Some players are hidden if they are against you and no one on your team sees them using players in view.
+            Some players are hidden if they are on the other team and no one on your team sees them using players in view.
 
         Damage Feedback:
             Danage popup and hit markers. 
 
         PopUp Tip Panel:
-            F1 panel that gives you information on where everything is 
+            F1 panel that gives you information on where everything is.
 
         META Activity Feed Enhanced:
             Killfeed that shows the weapon, How much health the killer had, And any events such as player left.
@@ -135,22 +135,22 @@
             Popup panel that shows who killed the player and their level.
 
         Kill Feedback UI:
-            A red skull that appears when the player kills someone
+            A red skull that appears when the player kills someone.
 
         Game State UI:
-            Added UI for game (mostly used for lobby time)
+            Additional UI for game (mostly used for lobby time).
 
         Transfer Message:
-            Upon receiving a message, the message will show on screen
+            Upon receiving a message, the message will show on screen.
         
         Grenade Proximity:
-            A grenade icon that shows location of a tossed grenade
+            A grenade icon that shows location of a tossed grenade.
 
         Scoreboard snipers:
-            CC scoreboard that displays players information such as rank and name
+            CC scoreboard that displays players information such as rank and name.
 
         Leaderboard:
-            Manages the leaderboard based on averages per round
+            Manages the leaderboard based on averages per round.
 
         Loadout Equipment:
             Controls Equipment that gets equipped to the player based on their storage.
@@ -158,18 +158,18 @@
             *note L/death Menu 
 
         Reload Castbar:
-            Controls the UI bar when the player reloads
+            Controls the UI bar when the player reloads.
 
         LootBox:
             Rewards players a loot crate item.
 
         FPS Meter: 
-            Displays the client Frames Per second
+            Displays the client Frames Per second.
 
     #Information:
         Adding state Machine:
-            A new state machine starts with the State_StateBase. 
-                For a new state you would require the StateBase and set metatable of statebase to new state. 
+            A new state machine starts with the State_StateBase.
+                For a new state you would require the StateBase and set metatable of statebase to new state.
                 So the start of a new State would looks like this. 
 
                     local StateBase = require(script:GetCustomProperty("StatesStateBase"))
@@ -185,9 +185,9 @@
                         "Walk"
                     }
                 
-                So the possible states are the Idle, End, Walk. these are the name of the State,
+                So the possible states are the Idle, End, Walk. these are the names of the State,
                 
-                You will then override what is in the Statebase depending on what you want to do for example:
+                You will then override what is in the Statebase depending on what you want to do. For example:
                     
                     function NewState:Enter(player, time)
                         if not Object.IsValid(player) then return end 
@@ -199,7 +199,7 @@
                 Will override the base so when that state is called it does this action instead.
 
             Next After making several states you would want to make a place to store the states.
-                States_MovemntStates is the Movement system uses. All it does is returns the custom properties that added.
+                States_MovementStates is the Movement system uses. All it does is return the custom properties that were added.
                 Cloning this script to use as a state storage will work. And to add states just add the state as a custom property.
             
             Finally would be the State Manager
@@ -215,13 +215,13 @@
             Adding weapons/equipment and skins to the equipment handler. 
             Adding Weapons:
                 Weapon template is the basis for data storage of equipment and on there you will find:
-                    scipt - ignore
+                    script - ignore
                     Weapon - The item that will be equipped to the player.
                     DefaultSkin -  The Skin that will be the default when equipping the player if no other skin is found. Please see adding skins.
                     Description - Description of the item. 
-                    ID - Independent id of item for storage and equiping. Must not clash with anothers id. *Note: Has to be 2 char long
+                    ID - Independent id of item for storage and equipping. Must not clash with another id. *Note: Has to be 2 char long
                     Hoister - Where on the body is the item placed if not equipped.
-                    RotationOffset - Used to align Equipment rotation 
+                    RotationOffset - Used to align Equipment rotation.
                     Scale - Scales the Equipment in the renderer
                     Level - makes it so the Equipment cannot be used unless the level is reached
                     Prestige - makes it so the Equipment cannot be used unless the Prestige is reached
