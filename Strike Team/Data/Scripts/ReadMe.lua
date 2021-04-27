@@ -105,7 +105,7 @@
             Controls the in world ui icon for the capture points so the player knows where the capture point is.
 
         PointsFeedback:
-            Updates the client with what is happening with the points feedback.
+            Updates the client with what is happening with the points feedback. Such as capture percent and score change.
 
         End Round UI Manager:
             Manages the round end ui to display the round and buttons. 
