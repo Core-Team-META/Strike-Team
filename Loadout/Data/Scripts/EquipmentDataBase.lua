@@ -5,15 +5,15 @@ _G["EquipmentData"] = {}
     Equipment handler as the name suggests handles the equipment.
 
     Any gun, equipment, skin, passive and equipment are stored here.
-    They are then assigned a rarity, Equipment type, cost ect ect and can be accessed at _G["EquipmentData"].
+    They are then assigned a rarity, Equipment type, cost etc. etc. and can be accessed at _G["EquipmentData"].
 
-    _G["EquipmentData"] is treated as a module/ one big table so things are accesed through their functions without a require.
+    _G["EquipmentData"] is treated as a module/ one big table so things are accessed through their functions without a require.
     for example _G["EquipmentData"]:ReturnByType(type) will search for the type and return items* of that type.
 
-    *Items are gun, equipment, passive and equipment. They are a custom table like Database. Please visit "Equipment" script for more info
+    *Items are gun, equipment, passive and equipment. They are a custom table like Database. Please visit "Equipment" script for more info.
 
 
-    To add an Item to the database Add a weapon template as a child of Root (Equipment Database), Make sure the ID does not match others.
+    To add an Item to the database: Add a weapon template as a child of Root (Equipment Database); Make sure the ID does not match others.
 
 ]]
 -----------------------------------------------------------|

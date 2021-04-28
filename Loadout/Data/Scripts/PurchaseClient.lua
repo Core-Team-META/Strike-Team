@@ -39,7 +39,7 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
         PurchaseClientManager.OpenFailed()
         return 
     end
-    --Setup confirmation panel cnnections and easy acess
+    --Setup confirmation panel connections and easy acess
     ConfirmationPanel = World.SpawnAsset(PurchaseConfirmationBox)
     ConfirmationPanel:GetCustomProperty("CloseButton"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     ConfirmationPanel.clientUserData.Skin = Skin
