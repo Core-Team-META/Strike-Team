@@ -305,5 +305,18 @@
             if after adding the weapon to the killfeed and not showing it could be that the projectile damage is not assigning
             damagesource to an abilty that is a child of the weapon template.
 
+    #Publishing:
+        There are several steps needed to be taken to publish the game.
+            You will need to create storage keys.
+            See the StorageKeys file in the hierarcy which is where those keys are stored (there are 5)
+            The link for the published game should be in the MainGameId.
+            The link for the Loadout game should be in the LoadoutGameId.
+            The Game Portal Settings will need to have links to the screenshots game and the Screenshot Index set to the image you'd like
+            In order to do this, it is easiest to 
+                1) publish the screenshot game and save the link from that.
+                2) publish the loadout game and save the link from that.
+                3) publish the main game, after setting the keys and the Ids in StorageKeys, and setting up the 3 Game Portal settings
+                4) publish the loadout game again, but now updating with the links for the main game and the loadout.
+
 ]]
 -----------------------------------------------------------|
