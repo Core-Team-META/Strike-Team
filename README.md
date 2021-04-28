@@ -42,3 +42,12 @@ If you are interested in fixing issues and contributing directly to the code bas
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE) license.
+
+## About
+
+There are 3 top level folders here: Loadout; Portal Images; Strike Team.  Each of those is a game that is published.  
+Strike Team is the main game where you run around.
+Loadout is where you go to customize your loadout.
+Portal Images is a placeholder game that has images that are shown on the computers and the billboard in the main game.
+
+For details, look for the ReadMe in the hierarchy of Strike Team and also Loadout for more details of each.
