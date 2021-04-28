@@ -23,14 +23,7 @@ local FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
 
 -- nil OnFallDamage(Player)
 -- Handles a player damage event and plays the corresponding sound
-function OnFallDamage(player, modelGender)
-
---[[ 	if (modelGender ~= nil and modelGender == "Female") then
-		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_FEMALE
-	else
-		FALL_DAMAGE_SOUND_TEMPLATE = FALL_DAMAGE_SOUND_MALE
-	end
- ]]
+function OnFallDamage(player)
  	World.SpawnAsset(FALL_DAMAGE_SOUND_TEMPLATE, {position = player:GetWorldPosition()})
 end
 
