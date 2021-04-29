@@ -13,6 +13,18 @@ In this fast-paced FPS, two teams compete for control of Strike Points on a fier
 
 Earn experience and level up to unlock passive abilities. Use in-game cash rewards to unlock weapon choices. More maps, modes and mayhem coming soon!
 
+## Project Structure
+
+Strike Team consists of three games, each of those are in their respective top level folder of the project:
+
+- Strike Team, the main game.
+- Loadout, the part of the game where you go to customize your loadout.
+- Portal Images, a placeholder game that has images that are shown on the computers and the billboard in the main game.
+
+For details, look for the ReadMe in the hierarchy of Strike Team and also Loadout for more details of each.
+
+## Credits
+
 Created via the hard work of these Core creators:
 
 - META Lead: Buckmonster
@@ -42,12 +54,3 @@ If you are interested in fixing issues and contributing directly to the code bas
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE) license.
-
-## About
-
-There are 3 top level folders here: Loadout; Portal Images; Strike Team.  Each of those is a game that is published.  
-Strike Team is the main game where you run around.
-Loadout is where you go to customize your loadout.
-Portal Images is a placeholder game that has images that are shown on the computers and the billboard in the main game.
-
-For details, look for the ReadMe in the hierarchy of Strike Team and also Loadout for more details of each.
