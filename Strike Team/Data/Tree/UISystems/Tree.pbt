@@ -45816,6 +45816,7 @@ Objects {
   ParentId: 15900364157994414074
   ChildIds: 13980112003110647475
   ChildIds: 17866006467930106659
+  ChildIds: 8620392774914385537
   ChildIds: 1767098222894358513
   UnregisteredParameters {
     Overrides {
@@ -45863,6 +45864,35 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Endgame-ToggleUI"
+  }
+}
+Objects {
+  Id: 8620392774914385537
+  Name: "EndUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12247658189946244701
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EndUI - Stats, Rewards, Achievements"
   }
 }
 Objects {
