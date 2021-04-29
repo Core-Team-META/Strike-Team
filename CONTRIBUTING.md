@@ -37,7 +37,7 @@ it is:
 
 - **Small features and bugs** can be crafted and directly submitted as a Pull
   Request. However, there is no guarantee that your feature will make it into
-  the `master`, as it's always a matter of opinion whether if benefits the
+  the `main` branch, as it's always a matter of opinion whether if benefits the
   overall functionality of the project.
 
 ## Submission guidelines
@@ -71,7 +71,7 @@ go ahead.
    are no errors. This is a mandatory requirement for your PR to get accepted.
 
 3. **Pull Request**: After making sure everything passes, commit your changes,
-   push your branch to GitHub and send a PR to `Core-Team-META/Strike-Team:Dev`.
+   push your branch to GitHub and send a PR to `Core-Team-META/Strike-Team:dev`.
    If we suggest changes, make the required updates, rebase your branch and push the
    changes to your GitHub repository, which will automatically update your PR.
 
