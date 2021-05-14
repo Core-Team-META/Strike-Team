@@ -234,5 +234,5 @@ Assets {
     Version: "1.0.0"
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 81
+  SerializationVersion: 84
 }

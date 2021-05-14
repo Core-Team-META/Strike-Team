@@ -2,7 +2,7 @@ Assets {
   Id: 6665863709646738069
   Name: "SAR_Loadouts_Emissive"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 9012634881940008866
     ParameterOverrides {

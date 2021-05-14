@@ -86,6 +86,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -142,6 +143,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +200,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -254,6 +257,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -272,5 +276,5 @@ Assets {
       AssetId: "Military_Tire_Stack_02_Template"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 84
 }

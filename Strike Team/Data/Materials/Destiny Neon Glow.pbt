@@ -2,7 +2,7 @@ Assets {
   Id: 2678429451232679370
   Name: "Destiny Neon Glow"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 6003420450397346262
     ParameterOverrides {

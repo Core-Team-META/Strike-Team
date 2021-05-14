@@ -2,7 +2,7 @@ Assets {
   Id: 17500648384538540572
   Name: "SAR_BricksDitchBig"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
