@@ -205,21 +205,27 @@ Module.titles = {
 
 			"d6d9d578840a44c79a3f05c15de23bf8", -- Aggripina
 			"a136c0d1d9454d539c9932354198fc29", -- Ooccoo
-			"fdae8d1d32b040d792dc589edda59ced", -- Shhteve
 
 			"eea739085f20445392c0ab999ab87bb6", -- Aj
 			"557d4f1ae17646579646dfd20dcb7b66", -- AwkwardGameDev
+			"05844b173bca411582347a1d07d953f2", -- Burnzie
 			"d5daea732ee3422fbe85aecb900e73ec", -- Coderz
 			"1f0588bf88d14c258d7384902f71f132", -- Daddio
+			"0b63f4ffba9c4518b50e4f815a9ec51a", -- Datonare
+			"eaba4947069846dbb72fc5efb0f04f47", -- Divided
+			"385b45d7abdb499f8664c6cb01df521b", -- estlogic
+			"fc5fca8d934b4e5f9120f67dd7eb7449", -- Jarsa
 			"1f3edd620c904e30a4e0223dd64bcc2a", -- Keppu
-			"5c3b7b02607c4e368fc063c410123697", -- Knar
+			"df38a4dc4cf245e48f6b961570137dc2", -- KidEgg
+			"fdb45035857a4e87b17344cd891c48c5", -- KonzZodrei
 			"9cc8d222e6d14da68dc2ba0a9a4f0439", -- Melamoryxq
+			"91166471c6ea4d17be6772da4973e6b7", -- mjcortes782
 			"d1073dbcc404405cbef8ce728e53d380", -- Morticai
 			"94d3fd50c4824f019421895ec8dbf099", -- Mucusinator
-			"91166471c6ea4d17be6772da4973e6b7", -- mjcortes782
 			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman
-			"581ff579fd864966aec56450754db1fb", -- Waffle
-			"e730c40ae54d4c588658667927acc6d8", -- WitcherSilver
+			"1f67a03d5a8f478b993aad1c79b45640", -- Rolok
+			"0e0d7d0be7fa44d296dae3d2b26410f5", -- StayPunny
+			"e730c40ae54d4c588658667927acc6d8", -- WindfallDrifter
 		},
 	},
 
@@ -231,24 +237,36 @@ Module.titles = {
 		iconColor = Module.Color.TAN,
 		isModerator = false,
 		playerMUIDs = {
-			"a7fa1014cab64595bee90b0049070c8e", -- Aphrim (https://www.youtube.com/channel/UCqKcZtFh25bg2JyjoKkf4mg)
-			"1f0588bf88d14c258d7384902f71f132", -- Daddio (https://www.twitch.tv/daddio66)
-			"fdb45035857a4e87b17344cd891c48c5", -- KonzZwodrei (https://www.twitch.tv/konz23)
-			"cda3ab2fe8e14d4cb0d99eb4f6bd3312", -- LiaTheKoalaBear (https://www.twitch.tv/liathekoalabear_)
-			"d1073dbcc404405cbef8ce728e53d380", -- Morticai (https://www.twitch.tv/morticai)
-			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman (https://www.twitch.tv/nicholas_foreman)
-
-			"a299961f22cf4ef1a7247951e254481f", -- Devoun (https://www.youtube.com/channel/UCalHWE_nqBsJL3iaWTe3F8Q)
-			"7b1649183ca24a9c9fa43bdf5f6cf4bf", -- Esfand (https://www.twitch.tv/esfandtv)
-			"fb1aa0b5124147febdfe7e16869fbdb1", -- Maya (https://www.twitch.tv/maya)
-			"3130137db35f449d94f607b234785f7e", -- Mizkif (https://www.twitch.tv/mizkif)
-
-			"7643e906555c41fcb6dfcff77396b0ce", -- BryceLovesGaming (https://www.twitch.tv/brycelovesgaming)
+			"e21aadb442b44ccaa39b2c4b12929f85", -- LuckofBuck (https://www.tiktok.com/@luckofbuckdev)
+			"2966d17cd7734da19e882335efffc4b8", -- marcepan (https://www.tiktok.com/@rippleoverdrive)
+			"6035ae98674b45b690520eac49b0e78f", -- OwndogGames (https://www.twitch.tv/owndoggames)
+			"ad3780ec764745e1b74d9372e44b62fc", -- mtgnerdgirl (https://sullygnome.com/channel/mtgnerdgirl)
 			"4201c90059e44d1e97e36e2c7bac5a23", -- LanaLux (https://www.twitch.tv/lana_lux)
-			"2835315b26b14ecba60945876774c718", -- Mezzanine (https://www.twitch.tv/antoinedaniellive)
-			"58523f4c55d04b96977c1fe5018e1b62", -- Phenns (https://www.twitch.tv/phenns)
+			"9bbb9aa699574f38a343965288ea3631", -- Jaxboxchick (https://www.twitch.tv/thatJaxboxchick)
 			"9b74b9b6e1b44f2cb9d0e32542f45dd0", -- TheBronzeSword (https://www.twitch.tv/thebronzesword)
-			"f261f4bb05b44bb2bf465b8a8346491f", -- WaveParadigm (https://www.twitch.tv/waveparadigm)
+			"3f3df1fed0e94e3fb104565b105719b1", -- MetsuRjKen (https://www.twitch.tv/metsurjken)
+			"a7fa1014cab64595bee90b0049070c8e", -- Aphrim (https://www.youtube.com/c/Aphrim/videos)
+			"d1073dbcc404405cbef8ce728e53d380", -- Morticai (https://www.youtube.com/c/GamerTitanYT/videos)
+			"7430e37520c048f6b5a2f1bed6ffe806", -- YoinkedGaming (https://www.youtube.com/c/YoinkedGaming/videos)
+			"5359877205574a7eaff309a89f7b3ba2", -- Ducain23 (https://www.youtube.com/c/DucainPlays/videos)
+			"5404592aaf464226a7d5d854df570ee1", -- StormHawk (https://www.youtube.com/c/StormHawk/videos)
+			"d71bfcddd01347a4ae597d5cf6d9e644", -- RayBenefield (https://www.youtube.com/c/RayBenefield/videos)
+			"a299961f22cf4ef1a7247951e254481f", -- Devoun (https://www.youtube.com/c/devoun)
+			"eb1c0ef104ec431aa943946ff2c44f58", -- DVPlays (https://www.youtube.com/c/DVwastaken/videos)
+			"5d18ee73e6a4425daf1ff036dc341db7", -- Matworks (https://www.youtube.com/c/MATHIEU_YT/videos)
+			"111fdb0a14b0407cb48f5856cf6f8f6e", -- LotusCracker (https://www.youtube.com/c/lotuscracker)
+			"634f2c4edc2d468da55bd1f678381643", -- pinkpockettv (https://www.youtube.com/c/pinkpocketTV/videos)
+			"d9f857d1115340268b03028e448e7022", -- Noangy (https://www.youtube.com/c/BetronerGames/videos)
+			"ff38c9b715124d9a98273b11be6e3ca7", -- ICEARROW_YOUTUBE (https://www.youtube.com/c/IceArrow/videos)
+			"94d3fd50c4824f019421895ec8dbf099", -- Mucusinator (https://www.youtube.com/c/Arkpoint/videos)
+			"d8b4a33bd7474f88b15dc615b0d1b493", -- FLEX_CHADWELL (https://www.twitch.tv/flex_chadwell )
+			"bb257393aaae4c85bb9456f26997b302", -- GGJay (https://www.twitch.tv/ggjay)
+			"1b180f2e6e5e44dea53e90a75f6bb77f", -- Twitch-RaynRaps (https://www.twitch.tv/raynraps/)
+			"45a7ca3b086645679b2acf7721b060bf", -- KainAkin
+			"c3c1d0532c564d70850b992a1c2f2fb7", -- AtariKafa (https://www.twitch.tv/atarikafa)
+			"f8bb887d774c486cb5c8f66625a8f011", -- MrViirtuoz (https://www.youtube.com/user/MrVirTuoZLP/videos)
+			"94473ebbd6ea41fa81c165f7a73d3acb", -- Vilva (https://youtube.com/c/vilva1)
+			"29f056813e1e491eafe7d6e258cfc010", -- Bearskopff (https://www.youtube.com/c/BearlyRegal)
 		},
 	},
 }
