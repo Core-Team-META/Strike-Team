@@ -49,5 +49,5 @@ Assets {
     Version: "1.7.0"
     Description: "Allows a user to fly around the map with a free roaming camera while the game is being played.\r\n\r\nv1.0.1\r\n- Fixed a crash if the roaming player leaves the game.\r\n\r\nv1.0\r\n- Added support for Depth of Field post-process (DOF).\r\n- FOV now adjusts continuously when buttons are held instead of adjusting in steps.\r\n\r\nv0.3\r\n- No longer need to hold F to adjust FOV.\r\n\r\nv0.2\r\n- Pressing U now disables all client-side UI.\r\n- Changed Shift/Alt to be speed steps instead of having to be held down. Steps through 5 different speeds.\r\n- Q/E now move the camera up/down relative to the camera\'s axis. Control/Space continue to move up/down relative to world."
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }

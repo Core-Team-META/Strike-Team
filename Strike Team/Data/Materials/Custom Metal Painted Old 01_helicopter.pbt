@@ -2,7 +2,7 @@ Assets {
   Id: 10703983624153363726
   Name: "Custom Metal Painted Old 01_helicopter"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 18339968451170207572
     ParameterOverrides {

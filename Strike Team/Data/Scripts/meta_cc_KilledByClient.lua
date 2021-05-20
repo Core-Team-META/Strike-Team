@@ -100,7 +100,7 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
     local playerTitle = PlayerTitles.GetPlayerTitle(killerPlayer)
 
     --Set Killer player image, and social image if applicable
-    KILLER_PLAYER_IMAGE:SetImage(killerPlayer)
+    KILLER_PLAYER_IMAGE:SetPlayerProfile(killerPlayer)
 
     if (playerTitle) then
         KILLER_PLAYER_SOCIAL:SetImage(playerTitle.icon)
@@ -180,7 +180,7 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
         local healingAmount = newRow:GetCustomProperty("HealingText"):WaitForObject()
   
         -- Set player image
-        playerImage:SetImage(damageTable.damager)
+        playerImage:SetPlayerProfile(damageTable.damager)
 
         -- Set player title icon and icon color
         local playerTitle = PlayerTitles.GetPlayerTitle(damageTable.damager)

@@ -1,3 +1,6 @@
+local Enabled = script:GetCustomProperty("Enabled")
+if not Enabled then return end
+
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 function GetplayerbyId(ID)

@@ -165,7 +165,7 @@ local iconBGOutline = script:GetCustomProperty("iconBGOutline")
 local IconBGOutlineColor = script:GetCustomProperty("IconBGOutlineColor") or Color.ORANGE
 
 
-IconBGOutlineRef:SetImage(iconBGOutline)
+IconBGOutlineRef:SetPlayerProfile(iconBGOutline)
 IconBGOutlineRef:SetColor(IconBGOutlineColor)
 
 

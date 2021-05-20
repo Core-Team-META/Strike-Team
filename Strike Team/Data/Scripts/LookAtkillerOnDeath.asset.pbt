@@ -3,6 +3,12 @@ Assets {
   Name: "LookAtkillerOnDeath"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+      Overrides {
+        Name: "cs:Enabled"
+        Bool: true
+      }
+    }
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }

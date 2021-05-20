@@ -2,7 +2,7 @@ Assets {
   Id: 8339236779796389830
   Name: "SAR_ConcretePanelsPlaster"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

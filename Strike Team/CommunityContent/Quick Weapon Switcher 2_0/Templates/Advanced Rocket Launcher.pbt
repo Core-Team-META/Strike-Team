@@ -4479,5 +4479,5 @@ Assets {
       AssetId: "Advanced_Rocket_Launcher"
     }
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }

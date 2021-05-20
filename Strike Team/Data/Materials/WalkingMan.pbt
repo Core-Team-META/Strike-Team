@@ -2,7 +2,7 @@ Assets {
   Id: 1931106351282508191
   Name: "WalkingMan"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 13646099196810092480
     ParameterOverrides {

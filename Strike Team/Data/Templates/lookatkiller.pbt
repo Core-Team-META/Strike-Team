@@ -7,7 +7,7 @@ Assets {
       RootId: 9374846198566407657
       Objects {
         Id: 9374846198566407657
-        Name: "lookatkiller"
+        Name: "Death Camera"
         Transform {
           Scale {
             X: 1
@@ -74,6 +74,12 @@ Assets {
           }
         }
         ParentId: 5668932479257377967
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Enabled"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -125,5 +131,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }

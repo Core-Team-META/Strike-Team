@@ -2,7 +2,7 @@ Assets {
   Id: 8711828700078394333
   Name: "Custom Base Material from Military Sandbag 01"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 9348337653675090965
     ParameterOverrides {

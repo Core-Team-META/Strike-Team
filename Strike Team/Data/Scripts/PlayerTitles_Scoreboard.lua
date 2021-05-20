@@ -254,7 +254,7 @@ local function CreatePlayerEntry(player)
 		PlayerTitles.GetPlayerTeamColor(LocalPlayer, player, NEUTRAL_TEAM_COLOR, FRIENDLY_TEAM_COLOR, ENEMY_TEAM_COLOR)
 	teamColorImage:SetColor(teamColor)
 
-	playerIconImage:SetImage(player)
+	playerIconImage:SetPlayerProfile(player)
 
 	if (SHOW_TITLE_ICON and title and title.icon) then
 		socialIconImage:SetImage(title.icon or "")
