@@ -35,6 +35,9 @@ Assets {
             RespawnMode_v2 {
               Value: "mc:erespawnmode:farthestfromenemy"
             }
+            SpawnMode {
+              Value: "mc:erespawnmode:atclosestspawnpoint"
+            }
           }
         }
       }

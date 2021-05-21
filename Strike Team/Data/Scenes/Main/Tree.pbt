@@ -22,7 +22,7 @@ Objects {
   ChildIds: 15900364157994414074
   ChildIds: 15084389731420460127
   ChildIds: 17929813013966814706
-  ChildIds: 9637250869964107896
+  ChildIds: 4755617798809002381
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,8 +38,8 @@ Objects {
   }
 }
 Objects {
-  Id: 9637250869964107896
-  Name: "KillScript"
+  Id: 4755617798809002381
+  Name: "Spawn Settings"
   Transform {
     Location {
     }
@@ -52,6 +52,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 1303465600335858650
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -64,9 +65,87 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:random"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:erespawnmode:farthestfromenemy"
+      }
+    }
+  }
+}
+Objects {
+  Id: 1303465600335858650
+  Name: "StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4755617798809002381
+  ChildIds: 409624579151474354
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+}
+Objects {
+  Id: 409624579151474354
+  Name: "RespawnTimeSetup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1303465600335858650
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RESPAWNTIME"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:MINRESPAWNTIME"
+      Float: 8
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
-      Id: 12464169351362984411
+      Id: 17261934592455900959
     }
   }
 }

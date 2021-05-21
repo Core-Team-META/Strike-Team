@@ -102,7 +102,7 @@ function OnGameTypeStart(id)
     if IsVaildId(id) then
         Log("Enabling")
         GT_API.CleanUp(SPAWNED_OBJECTS)
-        GT_API.SpawnAsset(GT_API.GetRespawnSettings(myId), {parent = SPAWNED_OBJECTS})
+        --GT_API.SpawnAsset(GT_API.GetRespawnSettings(myId), {parent = SPAWNED_OBJECTS})
         
         chopper = GT_API.SpawnAsset(CHOPPER_TEMPLATE, {position = CHOPPER_START_POSITION})
     end
