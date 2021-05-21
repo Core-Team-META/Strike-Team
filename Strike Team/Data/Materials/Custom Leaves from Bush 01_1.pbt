@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 85
   CustomMaterialAsset {
-    BaseMaterialId: 2780633502934514076
+    BaseMaterialId: 17947257741601911542
     ParameterOverrides {
       Overrides {
         Name: "wind_weight"
@@ -12,7 +12,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2780633502934514076
+      Id: 17947257741601911542
       Name: "Birch Branch (default)"
       PlatformAssetType: 2
       PrimaryAsset {

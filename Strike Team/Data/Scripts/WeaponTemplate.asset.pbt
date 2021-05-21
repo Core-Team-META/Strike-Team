@@ -32,6 +32,15 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Offset"
+        Vector {
+        }
+      }
+      Overrides {
+        Name: "cs:Rarity"
+        String: ""
+      }
+      Overrides {
         Name: "cs:Scale"
         Float: 1
       }

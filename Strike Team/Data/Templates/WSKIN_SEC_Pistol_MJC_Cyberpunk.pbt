@@ -695,7 +695,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10306372201280469432
+            Id: 6401267888352383342
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -782,7 +782,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10306372201280469432
+            Id: 6401267888352383342
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1137,7 +1137,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15308732615554893201
+            Id: 11163553518068168146
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1245,7 +1245,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15308732615554893201
+            Id: 11163553518068168146
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2025,7 +2025,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10306372201280469432
+      Id: 6401267888352383342
       Name: "Military Tank Modern Gear 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2052,7 +2052,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15308732615554893201
+      Id: 11163553518068168146
       Name: "Fantasy Shield 03"
       PlatformAssetType: 1
       PrimaryAsset {

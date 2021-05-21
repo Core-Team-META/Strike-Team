@@ -1,6 +1,6 @@
 Assets {
   Id: 14560516591693034961
-  Name: "Pick_Skin"
+  Name: "Pick_Skin_2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -97,7 +97,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -124,7 +124,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5117227874850617562
+            Id: 6722267691116138132
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -250,7 +250,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -285,7 +285,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4801985963367974663
+            Id: 7532887057692828593
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -330,7 +330,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -365,7 +365,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4801985963367974663
+            Id: 7532887057692828593
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -454,7 +454,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3682206342183528038
+            Id: 9969516154188733547
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -498,7 +498,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5117227874850617562
+      Id: 6722267691116138132
       Name: "Fantasy Staff Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -507,7 +507,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17758469563435218554
+      Id: 4248821402812702112
       Name: "Burning Wood"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -525,7 +525,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4801985963367974663
+      Id: 7532887057692828593
       Name: "Fantasy Sword Blade 03"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -534,7 +534,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3682206342183528038
+      Id: 9969516154188733547
       Name: "Fantasy Sword Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {

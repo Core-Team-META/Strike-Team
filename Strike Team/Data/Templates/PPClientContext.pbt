@@ -2137,7 +2137,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15004442386415965197
+            Id: 7409974748338403079
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2196,7 +2196,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15004442386415965197
+            Id: 7409974748338403079
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2255,7 +2255,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15004442386415965197
+            Id: 7409974748338403079
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2979,7 +2979,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15004442386415965197
+      Id: 7409974748338403079
       Name: "Modern Weapon - Grenade Canister 01"
       PlatformAssetType: 1
       PrimaryAsset {

@@ -1153,7 +1153,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12548297003412668183
+            Id: 9874586955558241234
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1218,7 +1218,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12548297003412668183
+            Id: 9874586955558241234
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2039,7 +2039,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12548297003412668183
+            Id: 9874586955558241234
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2104,7 +2104,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12548297003412668183
+            Id: 9874586955558241234
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2547,7 +2547,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12548297003412668183
+      Id: 9874586955558241234
       Name: "Cylinder - Chamfered Small Polished"
       PlatformAssetType: 1
       PrimaryAsset {

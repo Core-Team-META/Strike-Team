@@ -2438,7 +2438,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 13616996243251670751
+              Id: 12512318175188821203
             }
           }
           Overrides {
@@ -2799,7 +2799,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13616996243251670751
+      Id: 12512318175188821203
       Name: "Car Paint 01"
       PlatformAssetType: 2
       PrimaryAsset {

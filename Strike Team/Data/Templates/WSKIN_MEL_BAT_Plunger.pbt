@@ -67,7 +67,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15312384478167344315
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -93,7 +93,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -210,7 +210,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15312384478167344315
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -236,7 +236,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -309,7 +309,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5944393796542654307
+            Id: 7335960303673242490
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -379,7 +379,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -452,7 +452,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13455217693085166429
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -522,7 +522,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -665,7 +665,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -762,7 +762,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15312384478167344315
+      Id: 9453208125063489190
       Name: "Wood Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -771,7 +771,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14227389810073475588
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -789,7 +789,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5944393796542654307
+      Id: 7335960303673242490
       Name: "Capsule"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -798,7 +798,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13455217693085166429
+      Id: 9777668559945867957
       Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {

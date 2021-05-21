@@ -1,6 +1,60 @@
 Name: "Gameplay Settings"
 RootId: 16962308734055015238
 Objects {
+  Id: 16392366717281177648
+  Name: "CosmeticEquiper"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16962308734055015238
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 452116494493330957
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CosmeticEquiper"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5923195015160557143
+    }
+  }
+}
+Objects {
   Id: 6011919655460826900
   Name: "EndGameRewards"
   Transform {

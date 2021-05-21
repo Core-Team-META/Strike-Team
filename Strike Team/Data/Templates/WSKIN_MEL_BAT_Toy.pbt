@@ -63,7 +63,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5093997287680426773
+              Id: 9824737880183349067
             }
           }
           Overrides {
@@ -141,7 +141,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5093997287680426773
+      Id: 9824737880183349067
       Name: "Food Cheese 01"
       PlatformAssetType: 2
       PrimaryAsset {

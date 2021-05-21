@@ -1933,7 +1933,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5189225254023917
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -1995,7 +1995,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5189225254023917
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -2057,7 +2057,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5189225254023917
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -3082,7 +3082,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5189225254023917
+      Id: 880438725694603599
       Name: "Rubber Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {

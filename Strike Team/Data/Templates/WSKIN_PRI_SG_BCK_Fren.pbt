@@ -441,7 +441,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
@@ -2453,7 +2453,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3397288839576986238
+      Id: 10184847056121543272
       Name: "Basic Material"
       PlatformAssetType: 2
       PrimaryAsset {

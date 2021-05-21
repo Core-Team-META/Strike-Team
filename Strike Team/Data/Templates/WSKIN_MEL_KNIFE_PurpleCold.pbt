@@ -361,7 +361,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -457,7 +457,7 @@ Assets {
       }
     }
     Assets {
-      Id: 350693845910654013
+      Id: 22301539990582901
       Name: "Bone Raw"
       PlatformAssetType: 2
       PrimaryAsset {

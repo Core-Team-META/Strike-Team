@@ -403,7 +403,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 2605295070901352170
+            Id: 5983425460981411439
           }
           TeamSettings {
           }
@@ -444,7 +444,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2605295070901352170
+      Id: 5983425460981411439
       Name: "Shell Ejection VFX"
       PlatformAssetType: 8
       PrimaryAsset {

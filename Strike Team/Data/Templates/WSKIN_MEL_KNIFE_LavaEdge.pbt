@@ -283,13 +283,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -365,7 +365,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -452,7 +452,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17758469563435218554
+      Id: 4248821402812702112
       Name: "Burning Wood"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -461,7 +461,7 @@ Assets {
       }
     }
     Assets {
-      Id: 350693845910654013
+      Id: 22301539990582901
       Name: "Bone Raw"
       PlatformAssetType: 2
       PrimaryAsset {

@@ -756,7 +756,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12363676297322450800
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -791,7 +791,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13455217693085166429
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -908,13 +908,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1029,13 +1029,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1151,13 +1151,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1273,13 +1273,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1394,13 +1394,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1618,13 +1618,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1739,13 +1739,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1861,13 +1861,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -1983,13 +1983,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -2104,13 +2104,13 @@ Assets {
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 5649073660380182267
+              Id: 5907350535281183261
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 13633434133251643745
+              Id: 18336430915384396752
             }
           }
           Overrides {
@@ -2236,7 +2236,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13455217693085166429
+      Id: 9777668559945867957
       Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2245,7 +2245,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12363676297322450800
+      Id: 22301539990582901
       Name: "Bone Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2281,7 +2281,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5649073660380182267
+      Id: 5907350535281183261
       Name: "Bark Dead 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2290,7 +2290,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13633434133251643745
+      Id: 18336430915384396752
       Name: "Food Fruit 01"
       PlatformAssetType: 2
       PrimaryAsset {

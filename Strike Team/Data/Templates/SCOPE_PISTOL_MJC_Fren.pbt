@@ -297,7 +297,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 16478774808708567776
+              Id: 7046531213084076619
             }
           }
         }
@@ -647,7 +647,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16478774808708567776
+              Id: 7046531213084076619
             }
           }
           Overrides {
@@ -828,7 +828,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16478774808708567776
+              Id: 7046531213084076619
             }
           }
           Overrides {
@@ -1254,7 +1254,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16478774808708567776
+              Id: 7046531213084076619
             }
           }
           Overrides {
@@ -1821,7 +1821,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16478774808708567776
+      Id: 7046531213084076619
       Name: "Metal Complex Tech Panel Wall 02"
       PlatformAssetType: 2
       PrimaryAsset {

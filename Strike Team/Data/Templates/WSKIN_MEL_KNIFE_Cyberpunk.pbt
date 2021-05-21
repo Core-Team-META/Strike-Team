@@ -1191,7 +1191,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5998725190506767023
+            Id: 11808734604510287716
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1514,7 +1514,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5998725190506767023
+            Id: 11808734604510287716
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1583,7 +1583,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5998725190506767023
+      Id: 11808734604510287716
       Name: "Barrier Triangle Base"
       PlatformAssetType: 1
       PrimaryAsset {

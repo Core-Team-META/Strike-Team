@@ -401,7 +401,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2727467945905195560
+            Id: 7414958887319323293
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1209,7 +1209,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2727467945905195560
+            Id: 7414958887319323293
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1398,7 +1398,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2727467945905195560
+            Id: 7414958887319323293
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1654,7 +1654,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15706826202622395249
+            Id: 3342157363460252450
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -7282,7 +7282,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2727467945905195560
+      Id: 7414958887319323293
       Name: "Wedge"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -7372,7 +7372,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15706826202622395249
+      Id: 3342157363460252450
       Name: "Modern Weapon Accessory - Laser 01"
       PlatformAssetType: 1
       PrimaryAsset {

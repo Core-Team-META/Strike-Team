@@ -106,7 +106,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8182956438163314786
+              Id: 697130077529532955
             }
           }
           Overrides {
@@ -131,7 +131,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -170,7 +170,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8182956438163314786
+              Id: 697130077529532955
             }
           }
           Overrides {
@@ -368,7 +368,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8182956438163314786
+              Id: 697130077529532955
             }
           }
           Overrides {
@@ -728,7 +728,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17951992793618514894
+            Id: 9372939288148738240
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -795,7 +795,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17951992793618514894
+            Id: 9372939288148738240
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1370,7 +1370,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8182956438163314786
+              Id: 697130077529532955
             }
           }
           Overrides {
@@ -1571,7 +1571,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10843801298595352566
+      Id: 2570663251012235268
       Name: "Cube - Rounded"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1580,7 +1580,7 @@ Assets {
       }
     }
     Assets {
-      Id: 8182956438163314786
+      Id: 697130077529532955
       Name: "Metal Painted Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1625,7 +1625,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17951992793618514894
+      Id: 9372939288148738240
       Name: "Cone - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {

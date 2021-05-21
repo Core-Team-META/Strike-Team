@@ -240,7 +240,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -312,7 +312,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -563,7 +563,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -639,7 +639,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -974,7 +974,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -1049,7 +1049,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -1122,7 +1122,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -1740,13 +1740,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -1844,7 +1844,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -1996,7 +1996,7 @@ Assets {
       }
     }
     Assets {
-      Id: 8120533963385098208
+      Id: 5825015806398044810
       Name: "Metal Old Beaten Gold 02"
       PlatformAssetType: 2
       PrimaryAsset {

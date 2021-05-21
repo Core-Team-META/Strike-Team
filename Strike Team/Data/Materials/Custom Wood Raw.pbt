@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 85
   CustomMaterialAsset {
-    BaseMaterialId: 15312384478167344315
+    BaseMaterialId: 9453208125063489190
     ParameterOverrides {
       Overrides {
         Name: "roughness_multiplier"
@@ -38,7 +38,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15312384478167344315
+      Id: 9453208125063489190
       Name: "Wood Raw"
       PlatformAssetType: 2
       PrimaryAsset {

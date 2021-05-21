@@ -365,7 +365,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13071035348074642709
+              Id: 18354828068684121957
             }
           }
           Overrides {
@@ -461,7 +461,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13071035348074642709
+      Id: 18354828068684121957
       Name: "Additive Axis Aligned Soft Edge Z"
       PlatformAssetType: 2
       PrimaryAsset {

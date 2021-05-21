@@ -100,7 +100,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -172,7 +172,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -277,7 +277,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -810,7 +810,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -882,7 +882,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -955,7 +955,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1027,7 +1027,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1100,7 +1100,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1172,7 +1172,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1341,7 +1341,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1368,7 +1368,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4795181257653602097
+      Id: 2805121172112350453
       Name: "Metal 9 Slice Lockers 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1377,7 +1377,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10843801298595352566
+      Id: 2570663251012235268
       Name: "Cube - Rounded"
       PlatformAssetType: 1
       PrimaryAsset {

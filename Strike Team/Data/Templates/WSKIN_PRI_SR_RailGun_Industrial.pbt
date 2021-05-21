@@ -1355,7 +1355,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13649551301663614743
+            Id: 11597592556193149105
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4272,7 +4272,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13649551301663614743
+      Id: 11597592556193149105
       Name: "Hatchet - Handle"
       PlatformAssetType: 1
       PrimaryAsset {
