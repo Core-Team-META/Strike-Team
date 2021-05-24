@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 85
   CustomMaterialAsset {
-    BaseMaterialId: 16959665425430576486
+    BaseMaterialId: 16123746187444787367
     ParameterOverrides {
       Overrides {
         Name: "gradient_color"
@@ -35,7 +35,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16959665425430576486
+      Id: 16123746187444787367
       Name: "Metal Grates 02"
       PlatformAssetType: 2
       PrimaryAsset {

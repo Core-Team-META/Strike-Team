@@ -1,6 +1,6 @@
 Assets {
   Id: 4674297849129816015
-  Name: "Proto Knife Skin 40"
+  Name: "WSKIN_MEL_KNIFE_Amethyst"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -287,7 +289,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1023518095417019009
+              Id: 2877326018475520009
             }
           }
           Overrides {
@@ -346,6 +348,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -380,7 +383,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12560888016404393231
+              Id: 12083003595834001863
             }
           }
           Overrides {
@@ -434,6 +437,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -475,7 +479,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1023518095417019009
+      Id: 2877326018475520009
       Name: "Wallpaper Damask 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -484,7 +488,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12560888016404393231
+      Id: 12083003595834001863
       Name: "Amethyst"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -497,5 +501,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

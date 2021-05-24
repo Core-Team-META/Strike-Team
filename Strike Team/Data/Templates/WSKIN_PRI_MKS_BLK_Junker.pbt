@@ -520,7 +520,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13148505073156703051
+            Id: 18283854895705349800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2699,7 +2699,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14099160434253553821
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3119,7 +3119,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13148505073156703051
+      Id: 18283854895705349800
       Name: "Urban Pipe Clamp 04"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3299,7 +3299,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14099160434253553821
+      Id: 2570663251012235268
       Name: "Cube - Rounded"
       PlatformAssetType: 1
       PrimaryAsset {

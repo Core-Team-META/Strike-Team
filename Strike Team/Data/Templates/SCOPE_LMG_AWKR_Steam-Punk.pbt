@@ -1472,7 +1472,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12455293356321247304
+            Id: 8123524760134064856
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3652,7 +3652,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13649551301663614743
+            Id: 11597592556193149105
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4413,7 +4413,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12455293356321247304
+      Id: 8123524760134064856
       Name: "Modern Weapon - Magazine 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -4566,7 +4566,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13649551301663614743
+      Id: 11597592556193149105
       Name: "Hatchet - Handle"
       PlatformAssetType: 1
       PrimaryAsset {

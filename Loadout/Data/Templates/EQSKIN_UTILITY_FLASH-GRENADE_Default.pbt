@@ -100,7 +100,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -144,6 +144,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -171,7 +172,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -215,6 +216,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -275,7 +277,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -287,6 +289,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -353,6 +356,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -445,6 +449,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -561,6 +566,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -631,6 +637,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -698,6 +705,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -764,6 +772,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -801,7 +810,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -836,6 +845,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -872,7 +882,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -907,6 +917,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -944,7 +955,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -979,6 +990,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1015,7 +1027,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1050,6 +1062,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1087,7 +1100,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1122,6 +1135,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1158,7 +1172,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4795181257653602097
+              Id: 2805121172112350453
             }
           }
           Overrides {
@@ -1193,6 +1207,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1264,6 +1279,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1325,7 +1341,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1337,6 +1353,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1351,7 +1368,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4795181257653602097
+      Id: 2805121172112350453
       Name: "Metal 9 Slice Lockers 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1360,7 +1377,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10843801298595352566
+      Id: 2570663251012235268
       Name: "Cube - Rounded"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1445,5 +1462,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

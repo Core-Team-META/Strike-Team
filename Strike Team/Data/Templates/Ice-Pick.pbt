@@ -95,7 +95,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17177425172148499381
+              Id: 6777447344140592468
             }
           }
           Overrides {
@@ -276,7 +276,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17177425172148499381
+      Id: 6777447344140592468
       Name: "Metal Steel Brushed"
       PlatformAssetType: 2
       PrimaryAsset {

@@ -771,7 +771,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6397124427435148503
+            Id: 4191189716791684405
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1102,7 +1102,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6397124427435148503
+      Id: 4191189716791684405
       Name: "Pipe - Thick"
       PlatformAssetType: 1
       PrimaryAsset {

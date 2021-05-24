@@ -289,7 +289,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1023518095417019009
+              Id: 2877326018475520009
             }
           }
           Overrides {
@@ -383,7 +383,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12560888016404393231
+              Id: 12083003595834001863
             }
           }
           Overrides {
@@ -479,7 +479,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1023518095417019009
+      Id: 2877326018475520009
       Name: "Wallpaper Damask 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -488,7 +488,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12560888016404393231
+      Id: 12083003595834001863
       Name: "Amethyst"
       PlatformAssetType: 2
       PrimaryAsset {

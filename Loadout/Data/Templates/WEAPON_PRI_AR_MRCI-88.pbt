@@ -182,7 +182,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 45000
+            ProjectileSpeed: 85000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 2
@@ -1195,5 +1195,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

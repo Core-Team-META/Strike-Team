@@ -2,7 +2,7 @@ Assets {
   Id: 12995710089580070565
   Name: "Custom Base Material from Curtains Straight"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 16935986695289001649
     ParameterOverrides {

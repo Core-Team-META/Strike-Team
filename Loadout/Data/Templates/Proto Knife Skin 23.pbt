@@ -1,6 +1,6 @@
 Assets {
   Id: 8745169786634251511
-  Name: "Proto Knife Skin 23"
+  Name: "WSKIN_MEL_KNIFE_YellowLantern"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -287,7 +289,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13325599530657377410
+              Id: 5540833436413775703
             }
           }
           Overrides {
@@ -324,6 +326,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -358,7 +361,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13325599530657377410
+              Id: 5540833436413775703
             }
           }
           Overrides {
@@ -412,6 +415,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -444,7 +448,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13325599530657377410
+      Id: 5540833436413775703
       Name: "Clear Coat Reflector Hex 03"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -457,5 +461,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

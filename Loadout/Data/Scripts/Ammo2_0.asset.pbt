@@ -1,6 +1,6 @@
 Assets {
   Id: 17411507071286499031
-  Name: "Ammo2.0"
+  Name: "Ammo2_0"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
@@ -26,5 +26,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

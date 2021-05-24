@@ -16,6 +16,7 @@ local SelectionMatrix =
 -----------------------------------------------------------|
 
 Events.Connect("UpdateEquipment",function(ID, Slot , key)
+    
     --Updata data from key
     local Dat = { CoreString.Split(LOCAL_PLAYER.clientUserData.Loadouts[tostring(key)], "-")}
     local Conversion 

@@ -1,6 +1,6 @@
 Assets {
   Id: 16235250473068165562
-  Name: "LilRipper_CyberPunkSkin"
+  Name: "WSKIN_MEL_KNIFE_Cyberpunk"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -159,6 +159,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -238,6 +239,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -325,6 +327,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -412,6 +415,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -499,6 +503,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -586,6 +591,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -673,6 +679,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -760,6 +767,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -838,6 +846,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -916,6 +925,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1014,6 +1024,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1113,6 +1124,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1179,7 +1191,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5998725190506767023
+            Id: 11808734604510287716
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1188,6 +1200,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1292,6 +1305,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1360,6 +1374,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1428,6 +1443,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1498,7 +1514,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5998725190506767023
+            Id: 11808734604510287716
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1507,6 +1523,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1566,7 +1583,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5998725190506767023
+      Id: 11808734604510287716
       Name: "Barrier Triangle Base"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1606,5 +1623,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

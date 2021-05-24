@@ -1,6 +1,6 @@
 Assets {
   Id: 15800765799678458886
-  Name: "The Iron Manticore "
+  Name: "The Iron Manticore"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -472,7 +472,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4546767263164352281
+              Id: 824691453083282317
             }
           }
           Overrides {
@@ -675,7 +675,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4546767263164352281
+              Id: 824691453083282317
             }
           }
           Overrides {
@@ -737,7 +737,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -867,7 +867,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1028,7 +1028,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -1146,7 +1146,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -1199,7 +1199,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -1252,7 +1252,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -1437,7 +1437,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1944,7 +1944,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -2003,7 +2003,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -2018,7 +2018,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17951992793618514894
+            Id: 9372939288148738240
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2093,7 +2093,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -2105,7 +2105,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -2490,25 +2490,25 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -2559,13 +2559,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -2620,7 +2620,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4909850481099204290
+              Id: 16586416883488109888
             }
           }
         }
@@ -2809,7 +2809,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4546767263164352281
+      Id: 824691453083282317
       Name: "Frosted Glass No Distortion"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2845,7 +2845,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4909850481099204290
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2935,7 +2935,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17951992793618514894
+      Id: 9372939288148738240
       Name: "Cone - Truncated"
       PlatformAssetType: 1
       PrimaryAsset {

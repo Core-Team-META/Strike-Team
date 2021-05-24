@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 85
   CustomMaterialAsset {
-    BaseMaterialId: 13909276548079333532
+    BaseMaterialId: 7283825798727192743
     ParameterOverrides {
       Overrides {
         Name: "roughness_multiplier"
@@ -12,7 +12,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13909276548079333532
+      Id: 7283825798727192743
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {

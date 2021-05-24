@@ -95,7 +95,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -121,7 +121,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -194,7 +194,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4837165233344645303
+            Id: 1604785055505655735
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -269,7 +269,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4837165233344645303
+      Id: 1604785055505655735
       Name: "Weapon - Pipe"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -278,7 +278,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13909276548079333532
+      Id: 7283825798727192743
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -287,7 +287,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14227389810073475588
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {

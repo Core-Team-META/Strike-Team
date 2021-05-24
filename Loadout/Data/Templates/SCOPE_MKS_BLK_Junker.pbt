@@ -175,7 +175,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -213,7 +213,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -238,7 +238,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13148505073156703051
+            Id: 18283854895705349800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -248,6 +248,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -274,7 +275,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -316,6 +317,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -420,6 +422,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -481,6 +484,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -542,6 +546,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -605,6 +610,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -668,6 +674,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -730,6 +737,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -792,6 +800,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -853,6 +862,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -943,7 +953,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13148505073156703051
+      Id: 18283854895705349800
       Name: "Urban Pipe Clamp 04"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -952,7 +962,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13909276548079333532
+      Id: 7283825798727192743
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1028,5 +1038,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

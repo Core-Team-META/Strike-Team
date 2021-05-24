@@ -289,7 +289,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13325599530657377410
+              Id: 5540833436413775703
             }
           }
           Overrides {
@@ -361,7 +361,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13325599530657377410
+              Id: 5540833436413775703
             }
           }
           Overrides {
@@ -448,7 +448,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13325599530657377410
+      Id: 5540833436413775703
       Name: "Clear Coat Reflector Hex 03"
       PlatformAssetType: 2
       PrimaryAsset {

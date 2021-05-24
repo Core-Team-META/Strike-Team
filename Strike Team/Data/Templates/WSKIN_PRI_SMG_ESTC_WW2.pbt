@@ -592,7 +592,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -659,7 +659,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -793,7 +793,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1956,7 +1956,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10134678328629422968
+      Id: 3294723259559680467
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {

@@ -40,7 +40,6 @@ local StatesEnum = {
 
 
 Events.Connect("UpdateMenuState",function(newState)
-    print("s")
     if(StatesEnum[newState] and newState ~= state ) then     
         state = newState
         StatesEnum[state]()

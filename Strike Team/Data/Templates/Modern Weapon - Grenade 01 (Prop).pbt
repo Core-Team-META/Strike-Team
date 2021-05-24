@@ -112,7 +112,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5544820850613172301
+            Id: 6459311386242561683
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -137,7 +137,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5544820850613172301
+      Id: 6459311386242561683
       Name: "Modern Weapon - Grenade Handle 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -146,8 +146,8 @@ Assets {
       }
     }
     PrimaryAssetId {
-      AssetType: "TemplateAssetRef"
-      AssetId: "Grenade_01"
+      AssetType: "None"
+      AssetId: "None"
     }
   }
   SerializationVersion: 85

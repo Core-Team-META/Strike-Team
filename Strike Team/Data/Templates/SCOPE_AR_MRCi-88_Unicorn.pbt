@@ -252,7 +252,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13913062282643868615
+            Id: 2436935561650724394
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2319,7 +2319,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13913062282643868615
+      Id: 2436935561650724394
       Name: "Urban Pipe Valve 01"
       PlatformAssetType: 1
       PrimaryAsset {

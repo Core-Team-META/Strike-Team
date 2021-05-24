@@ -1,6 +1,6 @@
 Assets {
   Id: 680351888004574619
-  Name: "SteamPunkto Knife"
+  Name: "WSKIN_MEL_KNIFE_SteamShock"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -193,7 +193,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -203,6 +203,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -241,7 +242,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 17174374724690350639
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -313,6 +314,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -351,7 +353,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 17174374724690350639
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -423,6 +425,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -547,6 +550,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -617,7 +621,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -627,6 +631,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -745,6 +750,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -863,6 +869,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -990,6 +997,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1051,7 +1059,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17332935050335372837
+            Id: 18345313529173953901
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1062,6 +1070,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1123,7 +1132,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17332935050335372837
+            Id: 18345313529173953901
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1134,6 +1143,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1265,6 +1275,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1383,6 +1394,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1464,6 +1476,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1552,12 +1565,13 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 12746395962898980674
+      Id: 5386842465317264650
       Name: "Fantasy Crossbow Stock 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1584,7 +1598,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17174374724690350639
+      Id: 2606200893917864133
       Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1620,7 +1634,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17332935050335372837
+      Id: 18345313529173953901
       Name: "Sci-fi Base Capsule Top 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1660,5 +1674,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

@@ -313,7 +313,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9498823304973238158
+            Id: 11860040597399652835
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2072,7 +2072,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16628730901845472849
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2489,7 +2489,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9498823304973238158
+      Id: 11860040597399652835
       Name: "Modern Weapon Barrel 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2660,7 +2660,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16628730901845472849
+      Id: 3294723259559680467
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {

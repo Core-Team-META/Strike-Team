@@ -289,7 +289,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11217161908744906916
+              Id: 17958961814962950436
             }
           }
           Overrides {
@@ -361,7 +361,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11217161908744906916
+              Id: 17958961814962950436
             }
           }
           Overrides {
@@ -448,7 +448,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11217161908744906916
+      Id: 17958961814962950436
       Name: "Additive Edgeline Top Fade"
       PlatformAssetType: 2
       PrimaryAsset {

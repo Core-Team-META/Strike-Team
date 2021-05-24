@@ -95,7 +95,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 13623079726590113418
+            Id: 9112875346641836542
           }
           TeamSettings {
           }
@@ -196,7 +196,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13623079726590113418
+      Id: 9112875346641836542
       Name: "Liquid Decal"
       PlatformAssetType: 14
       PrimaryAsset {
@@ -227,5 +227,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

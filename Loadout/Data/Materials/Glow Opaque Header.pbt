@@ -2,7 +2,7 @@ Assets {
   Id: 7668498930497737926
   Name: "Glow Opaque Header"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 6721774561700172060
     ParameterOverrides {

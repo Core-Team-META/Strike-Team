@@ -1,6 +1,6 @@
 Assets {
   Id: 16751775279551766866
-  Name: "Default_Pan_PaddleSkin"
+  Name: "WSKIN_MEL_PAN_Paddle"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -100,7 +100,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -136,6 +136,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -170,7 +171,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -206,6 +207,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -240,7 +242,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -276,6 +278,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -347,7 +350,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -383,6 +386,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -417,7 +421,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -453,6 +457,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -487,7 +492,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -523,6 +528,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -595,7 +601,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -640,6 +646,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -673,7 +680,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -718,6 +725,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -752,7 +760,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -797,6 +805,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -831,7 +840,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -876,6 +885,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -910,7 +920,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -952,6 +962,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -986,7 +997,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -1028,6 +1039,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1062,7 +1074,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -1104,6 +1116,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1138,7 +1151,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -1180,6 +1193,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1252,7 +1266,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1297,6 +1311,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1331,7 +1346,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1376,6 +1391,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1410,7 +1426,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1455,6 +1471,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1488,7 +1505,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1533,6 +1550,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1567,7 +1585,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1612,6 +1630,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1646,7 +1665,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1691,6 +1710,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1725,7 +1745,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1770,6 +1790,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1803,7 +1824,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14114170470414603054
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1848,6 +1869,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1881,7 +1903,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -1917,6 +1939,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2149,7 +2172,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14114170470414603054
+      Id: 9453208125063489190
       Name: "Wood Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2176,7 +2199,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17247144728659008027
+      Id: 880438725694603599
       Name: "Rubber Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -2207,5 +2230,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

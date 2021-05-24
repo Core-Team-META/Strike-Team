@@ -1,6 +1,6 @@
 Assets {
   Id: 16966591703088843978
-  Name: "ShockRock"
+  Name: "WSKIN_MEL_BAT_Shockrock"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -168,7 +168,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -240,7 +240,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -249,6 +249,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -309,7 +310,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -381,7 +382,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -390,6 +391,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -450,7 +452,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -522,7 +524,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -531,6 +533,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -591,7 +594,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -663,7 +666,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -672,6 +675,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -724,7 +728,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -796,7 +800,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -805,6 +809,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -857,7 +862,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -929,7 +934,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -938,6 +943,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -990,7 +996,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1062,7 +1068,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1071,6 +1077,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1123,7 +1130,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1195,7 +1202,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2810379255825890868
+            Id: 17385851098226992227
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1204,6 +1211,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1263,7 +1271,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1327,7 +1335,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 9806867731167406304
+              Id: 5907350535281183261
             }
           }
           Overrides {
@@ -1350,7 +1358,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3682206342183528038
+            Id: 9969516154188733547
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1359,6 +1367,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1419,7 +1428,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1515,6 +1524,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1549,7 +1559,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17174374724690350639
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1575,7 +1585,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1657,12 +1667,13 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 2810379255825890868
+      Id: 17385851098226992227
       Name: "Gem - Heart Polished"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1671,7 +1682,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14227389810073475588
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1689,7 +1700,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3682206342183528038
+      Id: 9969516154188733547
       Name: "Fantasy Sword Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1698,7 +1709,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9806867731167406304
+      Id: 5907350535281183261
       Name: "Bark Dead 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1734,7 +1745,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17174374724690350639
+      Id: 2606200893917864133
       Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1747,5 +1758,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

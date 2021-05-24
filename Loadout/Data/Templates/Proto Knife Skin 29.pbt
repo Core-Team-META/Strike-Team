@@ -1,6 +1,6 @@
 Assets {
   Id: 6346641801123018223
-  Name: "Proto Knife Skin 29"
+  Name: "WSKIN_MEL_KNIFE_Holoblade"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -287,7 +289,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11217161908744906916
+              Id: 17958961814962950436
             }
           }
           Overrides {
@@ -324,6 +326,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -358,7 +361,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11217161908744906916
+              Id: 17958961814962950436
             }
           }
           Overrides {
@@ -412,6 +415,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -444,7 +448,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11217161908744906916
+      Id: 17958961814962950436
       Name: "Additive Edgeline Top Fade"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -457,5 +461,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

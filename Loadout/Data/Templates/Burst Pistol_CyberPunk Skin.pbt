@@ -1,6 +1,6 @@
 Assets {
   Id: 14654259748358588629
-  Name: "Burst Pistol_CyberPunk Skin"
+  Name: "WSKIN_SEC_Pistol_MJC_Cyberpunk"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -341,6 +341,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -430,6 +431,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -519,6 +521,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -615,6 +618,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -691,7 +695,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10306372201280469432
+            Id: 6401267888352383342
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -700,6 +704,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -777,7 +782,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10306372201280469432
+            Id: 6401267888352383342
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -786,6 +791,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -876,6 +882,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -959,6 +966,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1042,6 +1050,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1128,7 +1137,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15308732615554893201
+            Id: 11163553518068168146
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1139,6 +1148,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1235,7 +1245,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15308732615554893201
+            Id: 11163553518068168146
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1246,6 +1256,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1330,6 +1341,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1411,6 +1423,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1476,6 +1489,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1579,6 +1593,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1658,6 +1673,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1734,6 +1750,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1800,6 +1817,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1880,6 +1898,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1946,6 +1965,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2005,7 +2025,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10306372201280469432
+      Id: 6401267888352383342
       Name: "Military Tank Modern Gear 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2032,7 +2052,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15308732615554893201
+      Id: 11163553518068168146
       Name: "Fantasy Shield 03"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2126,5 +2146,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

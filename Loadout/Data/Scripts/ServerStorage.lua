@@ -5,4 +5,6 @@ Game.playerJoinedEvent:Connect(function ( player)
     player.serverUserData.Storage:Load() 
     player.serverUserData.Storage:Save()
     player.serverUserData.Storage:TransferToClient()
+
+    player.serverUserData.Storage.updateEvent:Connect(function()player.serverUserData.Storage:TransferToClient() end)
 end)

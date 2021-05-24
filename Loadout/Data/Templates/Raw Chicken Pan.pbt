@@ -1,6 +1,6 @@
 Assets {
   Id: 6781371901743496834
-  Name: "Raw Chicken Pan"
+  Name: "WSKIN_MEL_PAN_RawChicken"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -200,6 +200,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -265,6 +266,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -339,6 +341,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -473,6 +476,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -518,6 +522,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -584,6 +589,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -650,6 +656,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -784,6 +791,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -829,6 +837,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -895,6 +904,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -961,6 +971,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1061,6 +1072,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1126,6 +1138,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1200,6 +1213,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1266,6 +1280,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1320,7 +1335,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13455217693085166429
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1332,6 +1347,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1438,6 +1454,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1508,6 +1525,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1578,6 +1596,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1612,7 +1631,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -1657,6 +1676,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1736,6 +1756,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1815,6 +1836,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1874,7 +1896,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13455217693085166429
+      Id: 9777668559945867957
       Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1928,7 +1950,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3605030238014728915
+      Id: 15501818394444556140
       Name: "Wood Planks"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1950,5 +1972,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

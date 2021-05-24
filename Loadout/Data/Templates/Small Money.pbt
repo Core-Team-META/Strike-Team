@@ -176,6 +176,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -247,6 +248,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -307,7 +309,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -319,6 +321,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -453,7 +456,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -465,6 +468,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -572,6 +576,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -643,6 +648,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -703,7 +709,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -715,6 +721,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -849,7 +856,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -861,6 +868,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -969,6 +977,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1040,6 +1049,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1100,7 +1110,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1112,6 +1122,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1246,7 +1257,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1258,6 +1269,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1365,6 +1377,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1436,6 +1449,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1496,7 +1510,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1508,6 +1522,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1642,7 +1657,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1654,6 +1669,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1761,6 +1777,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1832,6 +1849,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1892,7 +1910,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1904,6 +1922,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2038,7 +2057,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2050,6 +2069,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2159,6 +2179,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2230,6 +2251,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2290,7 +2312,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2302,6 +2324,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2436,7 +2459,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2448,6 +2471,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2522,6 +2546,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2630,6 +2655,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2701,6 +2727,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2761,7 +2788,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2773,6 +2800,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2907,7 +2935,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2919,6 +2947,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3031,6 +3060,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3102,6 +3132,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3162,7 +3193,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7770727764991876123
+            Id: 17425644544221082906
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3174,6 +3205,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3308,7 +3340,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10843801298595352566
+            Id: 2570663251012235268
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3320,6 +3352,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3394,6 +3427,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3468,6 +3502,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3500,7 +3535,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7770727764991876123
+      Id: 17425644544221082906
       Name: "Column Segment 1m"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3509,7 +3544,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10843801298595352566
+      Id: 2570663251012235268
       Name: "Cube - Rounded"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3531,5 +3566,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

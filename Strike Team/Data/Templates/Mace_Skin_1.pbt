@@ -1,6 +1,6 @@
 Assets {
   Id: 15994525195581391826
-  Name: "Mace_Skin"
+  Name: "Mace_Skin_6"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -123,7 +123,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5117227874850617562
+            Id: 6722267691116138132
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -299,7 +299,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3682206342183528038
+            Id: 9969516154188733547
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -343,7 +343,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5117227874850617562
+      Id: 6722267691116138132
       Name: "Fantasy Staff Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -370,7 +370,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3682206342183528038
+      Id: 9969516154188733547
       Name: "Fantasy Sword Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {

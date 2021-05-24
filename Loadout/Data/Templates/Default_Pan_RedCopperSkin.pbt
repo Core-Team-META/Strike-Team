@@ -1,6 +1,6 @@
 Assets {
   Id: 16918214859871187629
-  Name: "Default_Pan_RedCopperSkin"
+  Name: "WSKIN_MEL_PAN_Copper"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -144,6 +144,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -222,6 +223,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -300,6 +302,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -370,6 +373,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -404,7 +408,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -440,6 +444,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -519,6 +524,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -598,6 +604,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -674,6 +681,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -750,6 +758,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -812,6 +821,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -880,7 +890,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17247144728659008027
+      Id: 880438725694603599
       Name: "Rubber Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -911,5 +921,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

@@ -648,7 +648,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13078053896687535652
+            Id: 9787240979878824711
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1470,7 +1470,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13078053896687535652
+      Id: 9787240979878824711
       Name: "Modern Weapon - Stock 03"
       PlatformAssetType: 1
       PrimaryAsset {

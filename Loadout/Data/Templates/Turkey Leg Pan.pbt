@@ -1,6 +1,6 @@
 Assets {
   Id: 3534014750410879160
-  Name: "Turkey Leg Pan"
+  Name: "WSKIN_MEL_PAN_TurkeyDinner"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -166,6 +166,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -236,6 +237,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -306,6 +308,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -340,7 +343,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -385,6 +388,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -464,6 +468,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -543,6 +548,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -676,6 +682,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -720,6 +727,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -785,6 +793,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -837,7 +846,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 5931224016695282927
+            Id: 9112875346641836542
           }
           TeamSettings {
           }
@@ -895,7 +904,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3605030238014728915
+      Id: 15501818394444556140
       Name: "Wood Planks"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -949,7 +958,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5931224016695282927
+      Id: 9112875346641836542
       Name: "Liquid Decal"
       PlatformAssetType: 14
       PrimaryAsset {
@@ -962,5 +971,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

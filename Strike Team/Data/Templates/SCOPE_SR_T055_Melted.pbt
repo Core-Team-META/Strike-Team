@@ -2049,7 +2049,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2152,7 +2152,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2255,7 +2255,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2358,7 +2358,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2461,7 +2461,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2564,7 +2564,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2718,7 +2718,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16048367406070731799
+            Id: 14021425836031181800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3534,7 +3534,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10759972527112030472
+      Id: 17237692812658431496
       Name: "Fantasy Staff Head 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3570,7 +3570,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16048367406070731799
+      Id: 14021425836031181800
       Name: "Plane 1m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {

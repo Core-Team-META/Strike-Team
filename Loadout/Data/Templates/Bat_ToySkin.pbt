@@ -1,6 +1,6 @@
 Assets {
   Id: 7105940813882761551
-  Name: "Bat_ToySkin"
+  Name: "WSKIN_MEL_BAT_Toy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -63,7 +63,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5093997287680426773
+              Id: 9824737880183349067
             }
           }
           Overrides {
@@ -117,6 +117,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -140,7 +141,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5093997287680426773
+      Id: 9824737880183349067
       Name: "Food Cheese 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -153,5 +154,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

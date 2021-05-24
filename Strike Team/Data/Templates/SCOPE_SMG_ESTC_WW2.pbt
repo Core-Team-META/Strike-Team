@@ -620,7 +620,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -688,7 +688,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -824,7 +824,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10134678328629422968
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1976,7 +1976,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16628730901845472849
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2438,7 +2438,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10134678328629422968
+      Id: 3294723259559680467
       Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2552,15 +2552,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_body_003"
-      }
-    }
-    Assets {
-      Id: 16628730901845472849
-      Name: "Cylinder"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_002"
       }
     }
     Assets {
