@@ -1,6 +1,6 @@
 Assets {
   Id: 14735709782571926079
-  Name: "Obsidian Shank"
+  Name: "WSKIN_MEL_KNIFE_ObsidianShank"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -135,6 +135,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -231,6 +232,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -293,7 +295,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9647781754724625447
+              Id: 608238971399249484
             }
           }
           Overrides {
@@ -350,7 +352,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 1887639588059751363
+            Id: 3338615341473811267
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -359,6 +361,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -391,7 +394,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1887639588059751363
+      Id: 3338615341473811267
       Name: "Gem - Pear Polished"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -400,7 +403,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9647781754724625447
+      Id: 608238971399249484
       Name: "Rock Obsidian 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -413,5 +416,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

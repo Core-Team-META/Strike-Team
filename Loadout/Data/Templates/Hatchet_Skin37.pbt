@@ -122,7 +122,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5117227874850617562
+            Id: 6722267691116138132
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -211,6 +212,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -310,6 +312,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -376,6 +379,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -409,7 +413,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5117227874850617562
+      Id: 6722267691116138132
       Name: "Fantasy Staff Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -458,5 +462,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

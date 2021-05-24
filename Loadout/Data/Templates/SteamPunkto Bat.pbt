@@ -1,6 +1,6 @@
 Assets {
   Id: 12840881461591684004
-  Name: "SteamPunkto Bat"
+  Name: "WSKIN_MEL_BAT_SteamShock"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -148,7 +148,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -158,6 +158,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -274,6 +275,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -353,7 +355,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3398678523391239520
+            Id: 11268727523737474223
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -363,6 +365,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -434,7 +437,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3398678523391239520
+            Id: 11268727523737474223
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -444,6 +447,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -523,7 +527,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3398678523391239520
+            Id: 11268727523737474223
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -533,6 +537,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -632,6 +637,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -756,6 +762,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -846,6 +853,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -931,7 +939,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -941,6 +949,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1040,6 +1049,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1130,6 +1140,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1229,12 +1240,13 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 12746395962898980674
+      Id: 5386842465317264650
       Name: "Fantasy Crossbow Stock 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1261,7 +1273,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3398678523391239520
+      Id: 11268727523737474223
       Name: "Fantasy Staff Guard 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1292,5 +1304,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

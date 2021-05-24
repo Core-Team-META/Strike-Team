@@ -1,6 +1,6 @@
 Assets {
   Id: 12743354851674439579
-  Name: "Proto Knife Skin 34"
+  Name: "WSKIN_MEL_KNIFE_LavaEdge"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -281,13 +283,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -328,6 +330,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -362,7 +365,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -416,6 +419,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -448,7 +452,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17758469563435218554
+      Id: 4248821402812702112
       Name: "Burning Wood"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -457,7 +461,7 @@ Assets {
       }
     }
     Assets {
-      Id: 350693845910654013
+      Id: 22301539990582901
       Name: "Bone Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -470,5 +474,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

@@ -1,6 +1,6 @@
 Assets {
   Id: 17110158000185320468
-  Name: "French Bread"
+  Name: "WSKIN_MEL_BAT_Baguette"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -170,7 +170,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -258,7 +258,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -360,7 +360,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -448,7 +448,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -550,7 +550,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -638,7 +638,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -736,7 +736,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -824,7 +824,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 1816353653878386801
+            Id: 14075923036479255644
           }
           TeamSettings {
           }
@@ -926,7 +926,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1022,6 +1022,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1082,7 +1083,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1169,7 +1170,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 11692130059731908639
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1178,6 +1179,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1238,7 +1240,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1325,7 +1327,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 11692130059731908639
+            Id: 2591121229391008029
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1334,12 +1336,13 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 1816353653878386801
+      Id: 14075923036479255644
       Name: "Scorch Mark Decal"
       PlatformAssetType: 14
       PrimaryAsset {
@@ -1357,7 +1360,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14227389810073475588
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1384,7 +1387,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11692130059731908639
+      Id: 2591121229391008029
       Name: "Sphere"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1397,5 +1400,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

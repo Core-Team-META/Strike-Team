@@ -2,9 +2,9 @@ Assets {
   Id: 3033064354123194892
   Name: "Corner Store Apartment Wallpaper"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
-    BaseMaterialId: 14564523191402256365
+    BaseMaterialId: 2877326018475520009
     ParameterOverrides {
       Overrides {
         Name: "damage_amount"
@@ -67,7 +67,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14564523191402256365
+      Id: 2877326018475520009
       Name: "Wallpaper Damask 01"
       PlatformAssetType: 2
       PrimaryAsset {

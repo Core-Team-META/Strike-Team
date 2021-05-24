@@ -1,6 +1,6 @@
 Assets {
   Id: 3208157796627293474
-  Name: "Proto Knife Skin 17"
+  Name: "WSKIN_MEL_KNIFE_NeverEat"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -140,6 +140,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -214,6 +215,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -340,6 +342,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -374,7 +377,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12560888016404393231
+              Id: 12083003595834001863
             }
           }
           Overrides {
@@ -428,6 +431,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -460,7 +464,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12560888016404393231
+      Id: 12083003595834001863
       Name: "Amethyst"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -473,5 +477,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

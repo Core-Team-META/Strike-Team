@@ -1,6 +1,6 @@
 Assets {
   Id: 1914249054340158099
-  Name: "Default_Pan_Cathy Skin"
+  Name: "WSKIN_MEL_PAN_Cathy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -137,6 +137,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -222,6 +223,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -292,6 +294,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -362,6 +365,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -437,6 +441,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -501,7 +506,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7824398506640847424
+            Id: 12177931337905683858
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -512,6 +517,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -588,6 +594,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -650,6 +657,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -718,7 +726,7 @@ Assets {
       }
     }
     Assets {
-      Id: 7824398506640847424
+      Id: 12177931337905683858
       Name: "Fantasy Shield Strap 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -740,5 +748,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

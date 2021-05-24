@@ -7,7 +7,7 @@ Assets {
       RootId: 13485202857273345291
       Objects {
         Id: 13485202857273345291
-        Name: "WEAPON_SEC_PISTOL_KZ99"
+        Name: "SPECTOR452.0_WEAPON"
         Transform {
           Scale {
             X: 0.99999994
@@ -185,7 +185,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 45000
+            ProjectileSpeed: 65000
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
@@ -1207,5 +1207,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

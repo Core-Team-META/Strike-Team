@@ -95,7 +95,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17177425172148499381
+              Id: 6777447344140592468
             }
           }
           Overrides {
@@ -153,6 +153,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -232,6 +233,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -274,7 +276,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17177425172148499381
+      Id: 6777447344140592468
       Name: "Metal Steel Brushed"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -314,5 +316,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

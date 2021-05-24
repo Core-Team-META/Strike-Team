@@ -1,6 +1,8 @@
 local SkinStorage = {}
 SkinStorage.__index = SkinStorage
 
+local EventSetUp = require(script:GetCustomProperty("EventSetUp"))
+
 -----------------------------------------------------------|
 --[[
     Storage server
@@ -16,6 +18,7 @@ function SkinStorage.New(owner)
     assert(owner, "Player not found for grabbing skins")
     local o = setmetatable({}, SkinStorage)
     o.owner = owner
+    o.updateEvent =  EventSetUp.New()
     return o
 end
 
@@ -58,7 +61,7 @@ end
 --@Return String
 --sets default key if nothing is found
 function SkinStorage:SetDefault()
-    self.key = "HK_LI_S4_EL_EP_SP_SV"
+    self.key = "HK_LI_S4_EL_EP_SP_SV_N1_N2_N3"
     return self.key
 end 
 
@@ -127,6 +130,7 @@ if Environment.IsServer() then
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
         if self.StorageTable[Weapon][Skin] then return end 
         table.insert( self.StorageTable[Weapon], Skin )
+        self.updateEvent:_Fire(self)
         self:Save()
     end
 
@@ -134,6 +138,7 @@ if Environment.IsServer() then
     function SkinStorage:Reset()
         self:SetDefault()
         self:Decode()
+        self.updateEvent:_Fire(self)
         return self.key
     end 
 
@@ -142,6 +147,7 @@ if Environment.IsServer() then
     function SkinStorage:AddWeapon(Weapon)
         if not Weapon then return end
         if not self.StorageTable[Weapon] then self.StorageTable[Weapon] = {} end
+        self.updateEvent:_Fire(self)
         self:Save()
     end
 
@@ -175,6 +181,7 @@ if Environment.IsClient() then
     function SkinStorage:Load( )
         self.key = self.owner.clientUserData.NetworkSpawn:GetCustomProperty("SkinStorage")
         self:Decode()
+        self.updateEvent:_Fire(self)
     end
 
 end

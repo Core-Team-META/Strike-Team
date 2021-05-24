@@ -1,6 +1,6 @@
 Assets {
   Id: 4507785395030122949
-  Name: "Proto Knife Skin 38"
+  Name: "WSKIN_MEL_KNIFE_HologramGreen"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -328,6 +330,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -362,7 +365,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13071035348074642709
+              Id: 18354828068684121957
             }
           }
           Overrides {
@@ -416,6 +419,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -457,7 +461,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13071035348074642709
+      Id: 18354828068684121957
       Name: "Additive Axis Aligned Soft Edge Z"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -470,5 +474,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

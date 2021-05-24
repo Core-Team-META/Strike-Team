@@ -1,6 +1,6 @@
 Assets {
   Id: 16052298965304784488
-  Name: "Default_Pan_ToySkin"
+  Name: "WSKIN_MEL_PAN_Toy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -156,6 +156,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -234,6 +235,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -313,6 +315,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -392,6 +395,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -471,6 +475,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -550,6 +555,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -611,7 +617,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6518868976406674526
+            Id: 8270678220364927290
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -620,6 +626,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -689,7 +696,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18186375229096139814
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -698,6 +705,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -752,7 +760,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18186375229096139814
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -763,6 +771,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -828,6 +837,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -881,7 +891,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18186375229096139814
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -892,6 +902,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -946,7 +957,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18186375229096139814
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -957,6 +968,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1011,7 +1023,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18186375229096139814
+            Id: 9777668559945867957
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1022,6 +1034,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1089,6 +1102,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1457,7 +1471,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6518868976406674526
+      Id: 8270678220364927290
       Name: "Hill 05"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1466,7 +1480,7 @@ Assets {
       }
     }
     Assets {
-      Id: 18186375229096139814
+      Id: 9777668559945867957
       Name: "Sphere - Half"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1497,5 +1511,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

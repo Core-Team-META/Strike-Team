@@ -1,6 +1,6 @@
 Assets {
   Id: 2694236597732603331
-  Name: "Proto Knife Skin 30"
+  Name: "WSKIN_MEL_KNIFE_Spice"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -94,7 +94,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15065464593564885032
+              Id: 608238971399249484
             }
           }
           Overrides {
@@ -123,6 +123,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -151,7 +152,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15065464593564885032
+              Id: 608238971399249484
             }
           }
           Overrides {
@@ -180,6 +181,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -269,7 +271,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -306,6 +308,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -340,7 +343,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -393,6 +396,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -407,7 +411,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15065464593564885032
+      Id: 608238971399249484
       Name: "Rock Obsidian 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -425,7 +429,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17758469563435218554
+      Id: 4248821402812702112
       Name: "Burning Wood"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -438,5 +442,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

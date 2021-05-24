@@ -2,9 +2,9 @@ Assets {
   Id: 6110151164091798177
   Name: "Custom Barbed Wire 01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
-    BaseMaterialId: 15311694679467806527
+    BaseMaterialId: 2316907993494907313
     ParameterOverrides {
       Overrides {
         Name: "rotate_material"
@@ -12,7 +12,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15311694679467806527
+      Id: 2316907993494907313
       Name: "Barbed Wire 01"
       PlatformAssetType: 2
       PrimaryAsset {

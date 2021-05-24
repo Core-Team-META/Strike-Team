@@ -1,6 +1,6 @@
 Assets {
   Id: 7046818509651255788
-  Name: "Proto Knife Skin 37"
+  Name: "WSKIN_MEL_KNIFE_RumandLime"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -94,7 +94,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13616996243251670751
+              Id: 12512318175188821203
             }
           }
           Overrides {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -160,7 +161,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13616996243251670751
+              Id: 12512318175188821203
             }
           }
           Overrides {
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -324,6 +326,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -413,6 +416,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -427,7 +431,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13616996243251670751
+      Id: 12512318175188821203
       Name: "Car Paint 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -467,5 +471,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

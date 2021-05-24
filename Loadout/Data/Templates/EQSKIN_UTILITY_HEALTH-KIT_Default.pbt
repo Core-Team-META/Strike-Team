@@ -121,6 +121,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -159,19 +160,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 11184139379736440764
+              Id: 7869911014675848015
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 11184139379736440764
+              Id: 7869911014675848015
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
@@ -214,6 +215,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -249,19 +251,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
@@ -271,7 +273,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11184139379736440764
+              Id: 7869911014675848015
             }
           }
           Overrides {
@@ -305,6 +307,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -341,19 +344,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
@@ -363,7 +366,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11184139379736440764
+              Id: 7869911014675848015
             }
           }
           Overrides {
@@ -397,6 +400,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -433,19 +437,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
@@ -455,7 +459,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11184139379736440764
+              Id: 7869911014675848015
             }
           }
           Overrides {
@@ -489,6 +493,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -524,19 +529,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3397288839576986238
+              Id: 10184847056121543272
             }
           }
           Overrides {
@@ -546,7 +551,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 11184139379736440764
+              Id: 7869911014675848015
             }
           }
           Overrides {
@@ -580,6 +585,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -634,6 +640,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -688,6 +695,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -740,6 +748,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -802,6 +811,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -864,6 +874,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -908,7 +919,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3301632288377765084
+            Id: 7804240550473033271
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -918,6 +929,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -980,6 +992,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1012,7 +1025,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11184139379736440764
+      Id: 7869911014675848015
       Name: "Clear Coat 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1021,7 +1034,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3397288839576986238
+      Id: 10184847056121543272
       Name: "Basic Material"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1066,7 +1079,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3301632288377765084
+      Id: 7804240550473033271
       Name: "Military Tank Historic Track 01 - End"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1088,5 +1101,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

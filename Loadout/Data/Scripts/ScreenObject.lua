@@ -26,8 +26,7 @@ function ScreenObject.New(object, dimensionTable)
 	local group = World.SpawnAsset(SCREEN_OBJECT_GROUP, {parent = object.parent})
 	group:AttachToLocalView()
 	object.parent = group
-	
-	
+	object.destroyEvent:Connect(function()  object.parent = nil if Object.IsValid(group) then group:Destroy() end end)
 	local screenObject = setmetatable({
 		group = group,
 		object = object,
@@ -40,7 +39,7 @@ function ScreenObject.New(object, dimensionTable)
 	
 	screenObject:UpdatePosition(dimensionTable)
 	
-	return screenObject
+	return screenObject, group
 end
 
 function ScreenObject:UpdatePosition(newDimensionTable)

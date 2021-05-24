@@ -1,6 +1,6 @@
 Assets {
   Id: 10394215706627192772
-  Name: "Buck Cane"
+  Name: "WSKIN_MEL_BAT_BuckCane"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -134,7 +134,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15312384478167344315
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -160,7 +160,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -233,6 +233,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -267,7 +268,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13844995264650658061
+              Id: 6806064550854901916
             }
           }
           Overrides {
@@ -293,7 +294,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -366,6 +367,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -400,7 +402,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13844995264650658061
+              Id: 6806064550854901916
             }
           }
           Overrides {
@@ -426,7 +428,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -499,6 +501,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -533,7 +536,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17742572886206846684
+              Id: 11139281994056519750
             }
           }
           Overrides {
@@ -559,7 +562,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -632,6 +635,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -704,7 +708,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -791,6 +795,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -863,7 +868,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -950,6 +955,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1022,7 +1028,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1109,6 +1115,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1184,7 +1191,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1271,6 +1278,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1305,7 +1313,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17742572886206846684
+              Id: 11139281994056519750
             }
           }
           Overrides {
@@ -1331,7 +1339,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1404,6 +1412,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1498,7 +1507,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1571,6 +1580,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1605,7 +1615,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15312384478167344315
+              Id: 9453208125063489190
             }
           }
           Overrides {
@@ -1631,7 +1641,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1695,7 +1705,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5944393796542654307
+            Id: 7335960303673242490
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1704,6 +1714,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1764,7 +1775,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 14227389810073475588
+              Id: 16586416883488109888
             }
           }
           Overrides {
@@ -1846,6 +1857,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1860,7 +1872,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15312384478167344315
+      Id: 9453208125063489190
       Name: "Wood Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1869,7 +1881,7 @@ Assets {
       }
     }
     Assets {
-      Id: 14227389810073475588
+      Id: 16586416883488109888
       Name: "Metal Iron Rusted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1896,7 +1908,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13844995264650658061
+      Id: 6806064550854901916
       Name: "Metal Diamond Plates 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1914,7 +1926,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17742572886206846684
+      Id: 11139281994056519750
       Name: "Metal Iron 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1950,7 +1962,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5944393796542654307
+      Id: 7335960303673242490
       Name: "Capsule"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1963,5 +1975,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

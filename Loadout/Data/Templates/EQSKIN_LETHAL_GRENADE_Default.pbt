@@ -117,7 +117,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8762770251388164140
+              Id: 13765173131658808212
             }
           }
         }
@@ -142,6 +142,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -183,7 +184,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5544820850613172301
+            Id: 6459311386242561683
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -193,6 +194,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -207,7 +209,7 @@ Assets {
       }
     }
     Assets {
-      Id: 8762770251388164140
+      Id: 13765173131658808212
       Name: "Camouflage - Digital"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -216,7 +218,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5544820850613172301
+      Id: 6459311386242561683
       Name: "Modern Weapon - Grenade Handle 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -229,5 +231,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

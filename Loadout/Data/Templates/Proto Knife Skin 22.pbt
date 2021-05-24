@@ -1,6 +1,6 @@
 Assets {
   Id: 12698786962229438285
-  Name: "Proto Knife Skin 22"
+  Name: "WSKIN_MEL_KNIFE_PurpleCold"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -132,6 +132,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -324,6 +326,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -358,7 +361,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 350693845910654013
+              Id: 22301539990582901
             }
           }
           Overrides {
@@ -412,6 +415,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -453,7 +457,7 @@ Assets {
       }
     }
     Assets {
-      Id: 350693845910654013
+      Id: 22301539990582901
       Name: "Bone Raw"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -466,5 +470,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

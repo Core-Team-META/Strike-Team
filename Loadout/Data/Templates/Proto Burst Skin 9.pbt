@@ -1,6 +1,6 @@
 Assets {
   Id: 15759112733138872107
-  Name: "Proto Burst Skin 9"
+  Name: "WSKIN_SEC_Pistol_MJC_WW2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -174,6 +174,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -255,6 +256,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -333,6 +335,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -435,6 +438,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -516,6 +520,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -588,6 +593,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -655,6 +661,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -724,6 +731,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -790,6 +798,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -855,6 +864,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -920,6 +930,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -987,6 +998,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1036,7 +1048,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9299265961697968177
+            Id: 3625134777617575654
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1046,6 +1058,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1106,6 +1119,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1177,6 +1191,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1244,6 +1259,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1392,7 +1408,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9299265961697968177
+      Id: 3625134777617575654
       Name: "Cube - Chamfered Large"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1432,5 +1448,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

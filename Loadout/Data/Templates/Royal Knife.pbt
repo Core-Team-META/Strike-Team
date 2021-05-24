@@ -1,6 +1,6 @@
 Assets {
   Id: 6170736738974705385
-  Name: "Royal Knife"
+  Name: "WSKIN_MEL_KNIFE_Royal"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -179,7 +179,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -188,6 +188,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -309,6 +310,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -392,7 +394,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -401,6 +403,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -480,7 +483,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -489,6 +492,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -572,7 +576,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -581,6 +585,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -664,7 +669,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -673,6 +678,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -752,7 +758,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -761,6 +767,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -861,6 +868,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -961,12 +969,13 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 12746395962898980674
+      Id: 5386842465317264650
       Name: "Fantasy Crossbow Stock 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -997,5 +1006,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

@@ -93,7 +93,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15389123512634345687
+            Id: 10283052260842444306
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -104,6 +104,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -127,7 +128,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -161,6 +162,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -184,7 +186,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -218,6 +220,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -240,7 +243,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -274,6 +277,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -339,6 +343,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -404,6 +409,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -450,7 +456,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
         }
@@ -476,12 +482,13 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 15389123512634345687
+      Id: 10283052260842444306
       Name: "Crescent - 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -499,7 +506,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1778446291070997431
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -553,7 +560,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17758469563435218554
+      Id: 4248821402812702112
       Name: "Burning Wood"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -566,5 +573,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

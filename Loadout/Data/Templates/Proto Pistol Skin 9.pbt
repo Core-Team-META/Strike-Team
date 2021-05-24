@@ -1,6 +1,6 @@
 Assets {
   Id: 10677535483527493712
-  Name: "Proto Pistol Skin 9"
+  Name: "WSKIN_SEC_PISTOL_KZ99_WW2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -174,6 +174,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -255,6 +256,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -333,6 +335,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -431,6 +434,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -512,6 +516,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -584,6 +589,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -651,6 +657,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -711,6 +718,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -763,7 +771,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6397124427435148503
+            Id: 4191189716791684405
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -773,6 +781,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -839,6 +848,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -904,6 +914,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -969,6 +980,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1090,7 +1102,7 @@ Assets {
       }
     }
     Assets {
-      Id: 6397124427435148503
+      Id: 4191189716791684405
       Name: "Pipe - Thick"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1121,5 +1133,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

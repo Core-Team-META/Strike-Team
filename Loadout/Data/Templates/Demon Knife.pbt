@@ -1,6 +1,6 @@
 Assets {
   Id: 16812796540317962298
-  Name: "Demon Knife"
+  Name: "WSKIN_MEL_KNIFE_DemonHunter"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -192,6 +192,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -279,6 +280,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -388,7 +390,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 217094956185289111
+            Id: 17677837148037018153
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -397,6 +399,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -455,7 +458,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13623297126733972691
+            Id: 8886444384822756582
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -466,6 +469,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -523,7 +527,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13623297126733972691
+            Id: 8886444384822756582
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -534,6 +538,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -584,7 +589,7 @@ Assets {
       }
     }
     Assets {
-      Id: 217094956185289111
+      Id: 17677837148037018153
       Name: "Fantasy Crossbow Bow 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -593,7 +598,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13623297126733972691
+      Id: 8886444384822756582
       Name: "Bone Human Skull 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -606,5 +611,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }
