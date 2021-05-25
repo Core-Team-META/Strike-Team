@@ -16,12 +16,14 @@ Objects {
   }
   ChildIds: 11471976360075692302
   ChildIds: 7678757230154100751
+  ChildIds: 591896094925860239
   ChildIds: 5772718884362665646
   ChildIds: 12364641759754756525
   ChildIds: 16962308734055015238
   ChildIds: 15900364157994414074
   ChildIds: 15084389731420460127
   ChildIds: 17929813013966814706
+  ChildIds: 8051191139138894688
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +36,130 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 8051191139138894688
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 5324248021063274159
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 20
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:none"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:erespawnmode:none"
+      }
+    }
+  }
+}
+Objects {
+  Id: 5324248021063274159
+  Name: "StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8051191139138894688
+  ChildIds: 2489686705561384892
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 5324248021063274159
+    SubobjectId: 8413650045585838724
+    InstanceId: 2313262699387080062
+    TemplateId: 12053913829146888381
+  }
+}
+Objects {
+  Id: 2489686705561384892
+  Name: "RespawnTimeSetup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5324248021063274159
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RESPAWNTIME"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:MINRESPAWNTIME"
+      Float: 8
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17261934592455900959
+    }
+  }
+  InstanceHistory {
+    SelfId: 2489686705561384892
+    SubobjectId: 2282737459666480023
+    InstanceId: 2313262699387080062
+    TemplateId: 12053913829146888381
   }
 }
 Objects {
@@ -1720,51 +1846,6 @@ Objects {
   }
   ParentId: 4781671109827199097
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "02099a9ad11e4ae3b4443adf78c87879"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Storage"
-      NetReference {
-        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:MiscKey"
-      NetReference {
-        Key: "c5fb03576a6c43939301da448ca2640e"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1808,6 +1889,70 @@ Objects {
   Script {
     ScriptAsset {
       Id: 6265978111211671184
+    }
+  }
+}
+Objects {
+  Id: 591896094925860239
+  Name: "Scripts to be loaded"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6174836342024239138
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 6174836342024239138
+  Name: "JSON"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 591896094925860239
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7541650775654773469
     }
   }
 }

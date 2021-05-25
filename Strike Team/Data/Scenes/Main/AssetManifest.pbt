@@ -1,17 +1,4 @@
 Assets {
-  Id: 15797661490370571986
-  Name: "st_loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
@@ -79,5 +66,18 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 1186999109634887429
+  Name: "loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e03cb32f106d4d938fec834918210c54"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }

@@ -1,7 +1,6 @@
     while not _G["DataBase"] do Task.Wait() end
 local Database = _G["DataBase"]
 
-
 local JSON = require(script:GetCustomProperty("JSON"))
 local EventSetUp = require(script:GetCustomProperty("EventSetUp"))
 

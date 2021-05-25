@@ -12,6 +12,58 @@ Assets {
   }
 }
 Assets {
+  Id: 16130756219291047358
+  Name: "storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "622a1fb067b54cafac0b23f9a200451c"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 15685842331933966085
+  Name: "lifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "f3aca06731e04858bca356f132d21792"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 14272866346472689332
+  Name: "loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e03cb32f106d4d938fec834918210c54"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 13278419134147897285
+  Name: "statkey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "0b19aaed23174f448a5aed32da3e8121"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 9141261384756223387
   Name: "StrikeCoin3000"
   PlatformAssetType: 24
@@ -77,64 +129,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6734148943009880357
-  Name: "ST_Misc"
+  Id: 7099228659197369566
+  Name: "Misc"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "205fcba93ae84a0f85256d4eeef18847"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 5660033252698723163
-  Name: "ST-Storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "4340806d8ab648f88886e43bec9ba4a5"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 4357513882690818087
-  Name: "ST-LifetimeStats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "a8f360a302cb40bd8669684952aacd87"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 3614489688757336855
-  Name: "ST-StatKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "a1a35fac377245378734c5807fb5fafb"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 3434096529513823129
-  Name: "ST-Loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "2419bb1f04a442e092b0bd4b3f78745c"
+      Key: "da947128d53a40c08be68c05dabc3459"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

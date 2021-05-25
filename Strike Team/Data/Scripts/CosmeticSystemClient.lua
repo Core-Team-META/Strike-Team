@@ -12,6 +12,25 @@ local function FindPlayer(id)
     end
 end
 
+function SpawnEquipment(player)
+
+    for key, value in pairs(DataFolder:GetCustomProperties()) do
+        local Data = DataFolder:GetCustomProperty(key)
+        if Data == "" then return end
+        local Decode = JSON.Decode(Data)
+        
+        local p = FindPlayer( Decode.owner)
+        if not p then return end
+        if p == player then 
+            local Strge = CosmeticApi.LoadData(p ,Data)
+            Strge:SpawnAllEquipment()
+            p.clientUserData.CosStorage = Strge
+            return 
+        end 
+        
+    end
+end
+
 function UpdateData(_,property)
     Task.Wait()
     local Data = DataFolder:GetCustomProperty(property)
@@ -37,6 +56,8 @@ end
 Game.playerLeftEvent:Connect(Playerrleft)
 
 DataFolder.networkedPropertyChangedEvent:Connect( UpdateData)
+
+Game.playerJoinedEvent:Connect(SpawnEquipment)
 
 Task.Wait()
 for key, value in pairs(DataFolder:GetCustomProperties()) do

@@ -14,6 +14,7 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 5667468790395907360
   ChildIds: 16221939146698205984
   ChildIds: 6278672628054296791
   ChildIds: 7078901676156771597
@@ -175,7 +176,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "4340806d8ab648f88886e43bec9ba4a5"
+        Key: "622a1fb067b54cafac0b23f9a200451c"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -184,7 +185,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "2419bb1f04a442e092b0bd4b3f78745c"
+        Key: "e03cb32f106d4d938fec834918210c54"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -193,7 +194,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "a1a35fac377245378734c5807fb5fafb"
+        Key: "0b19aaed23174f448a5aed32da3e8121"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -202,7 +203,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "a8f360a302cb40bd8669684952aacd87"
+        Key: "f3aca06731e04858bca356f132d21792"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -211,7 +212,7 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "205fcba93ae84a0f85256d4eeef18847"
+        Key: "da947128d53a40c08be68c05dabc3459"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -260,6 +261,70 @@ Objects {
   Script {
     ScriptAsset {
       Id: 6265978111211671184
+    }
+  }
+}
+Objects {
+  Id: 5667468790395907360
+  Name: "ScriptLoading"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 5276149671678218367
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 5276149671678218367
+  Name: "JSON"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5667468790395907360
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7541650775654773469
     }
   }
 }
