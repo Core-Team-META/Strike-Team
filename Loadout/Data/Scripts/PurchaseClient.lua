@@ -133,9 +133,14 @@ function PurchaseClientManager.PurchaseSuccessful()
 
     --Equips player with the purchase
     local LOCAL_PLAYER = Game.GetLocalPlayer()
-    Events.BroadcastToServer("UpdateEquipment", Weapon:ReturnIDs(), Weapon.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
-    Events.Broadcast("UpdateEquipment",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
-    Events.Broadcast("UpdateDataPanel")
+    if Weapon.data.slot ~= "Cosmetics" then
+        Events.BroadcastToServer("UpdateEquipment", Weapon:ReturnIDs(), Weapon.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+        Events.Broadcast("UpdateEquipment",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+        Events.Broadcast("UpdateDataPanel")
+
+    else 
+        Events.Broadcast("UpdateCosmetics",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.CosmeticSlot) )
+    end
 
     --Changes confirmation panel so the players understand what went wrong
     ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"

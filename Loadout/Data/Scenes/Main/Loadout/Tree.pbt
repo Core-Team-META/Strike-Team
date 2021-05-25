@@ -6746,9 +6746,9 @@ Objects {
     Overrides {
       Name: "cs:RarityColour"
       Color {
-        R: 0.016
-        G: 0.016
-        B: 0.016
+        R: 0.133
+        G: 0.133
+        B: 0.133
         A: 1
       }
     }

@@ -199,7 +199,7 @@ end
 
 function SetupColour(item)
     if not item then return end
-    local rarity = item:GetRarity()
+    local rarity = item:GetRarity():GetName()
     for _, value in pairs(Raritys:GetChildren()) do
         if value.name == rarity then
             return value:GetCustomProperty("RarityColour")
@@ -291,6 +291,18 @@ function SetUpButtons(button, slot)
 
 end
 
+function SkinSort(a,b)
+
+    if a:GetRarity():GetSortValue() == b:GetRarity():GetSortValue() then
+        if a:GetName() == b:GetName() then return false end
+        return a:GetName() <= b:GetName()
+    else 
+        return a:GetRarity():GetSortValue() > b:GetRarity():GetSortValue()
+    end
+end
+    
+
+
 
 function Open(panelsType)
     if Object.IsValid(ColourPanel) then ColourPanel:Destroy() end
@@ -302,6 +314,7 @@ function Open(panelsType)
     grid = NewGrid
     local items = Database:ReturnByType(panelsType)
     --SortForRarity
+    table.sort(items, SkinSort)
 
     local Filtereditems = {}
     if ShowOnlyOwned then
