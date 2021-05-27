@@ -24,10 +24,10 @@ function RenderPart()
     local y = AbsoluteLocation.y
     local scale = data:GetScale()
     local offset = data:GetOffset()
-
+    
     item:SetScale(Vector3.New( panel.width/1001*scale,panel.width/1001*scale, panel.width/1001*scale))
     screenObject = ScreenObject.New(item, {
-        objectWidth = panel.width/9,
+        objectWidth = panel.width/10,
         pixelWidth = panel.width,
         pixelPosX = x + panel.width/2+offset.x,
         pixelPosY = y + panel.height/2+offset.z,
@@ -43,7 +43,7 @@ function Tick()
         local y = AbsoluteLocation.y
         local scale = ObjData:GetScale()
         local offset = ObjData:GetOffset()
-
+        print(y)
         screenObject:UpdatePosition({
             pixelPosX = x + panel.width/2+offset.x,
             pixelPosY = y + panel.height/2+offset.z,

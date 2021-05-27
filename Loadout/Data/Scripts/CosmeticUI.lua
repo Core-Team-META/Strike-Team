@@ -140,6 +140,9 @@ function UpdateScroll(scroll, percent)
     end
     Update()
 end
+function ResetScroll()
+    Scroll:SetPercent(0)
+end
 
 function SetupRender(item, panel,data)
     if not item then return end 
@@ -194,8 +197,7 @@ function Destroy()
     OpenedPanels = {}
 end
 
-function ResetScroll()
-end
+
 
 function SetupColour(item)
     if not item then return end
@@ -256,7 +258,7 @@ function SetUpButtons(button, slot)
         if HoverItem then
             CosmeticStorage:HideSlot(slot)
             --Come back to this when bug is fixed
-            Task.Wait(.05)
+            --Task.Wait(.05)
             if HoverItem then
             HoverItem:AttachToPlayer(LOCAL_PLAYER, HoverItem.socket)
             end
@@ -305,6 +307,7 @@ end
 
 
 function Open(panelsType)
+    ResetScroll()
     if Object.IsValid(ColourPanel) then ColourPanel:Destroy() end
     local panelsType, panelsSlot = CoreString.Split(panelsType,",")
     OpenedSlot = panelsSlot

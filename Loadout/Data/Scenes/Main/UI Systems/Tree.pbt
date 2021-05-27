@@ -549,16 +549,14 @@ Objects {
   }
   Control {
     Width: 500
-    Height: -109
-    UIX: -30
-    UIY: 10
+    Height: 980
+    UIX: -20
+    UIY: 20
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
     Panel {
     }
     AnchorLayout {
@@ -592,7 +590,7 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -700,7 +698,7 @@ Objects {
   Control {
     Width: 20
     Height: 984
-    UIX: 5
+    UIX: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -770,6 +768,7 @@ Objects {
   Control {
     Width: 25
     Height: 136
+    UIY: 230
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1702,14 +1701,13 @@ Objects {
   }
   Control {
     Width: 609
-    Height: 100
+    Height: 1080
     UIX: -680
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentHeight: true
     Panel {
     }
     AnchorLayout {
@@ -4777,6 +4775,7 @@ Objects {
     }
   }
   ParentId: 11850883212744047850
+  ChildIds: 18262578648507666556
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4862,6 +4861,59 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 18262578648507666556
+  Name: "GenericButtonScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5694626007067346865
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IncludedVariables"
+      String: "Accessory,Accessory3"
+    }
+    Overrides {
+      Name: "cs:BroadcastString"
+      String: "CosmeticSetupPanel"
+    }
+    Overrides {
+      Name: "cs:OnReleased"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7641244062269779132
+    }
+  }
+  InstanceHistory {
+    SelfId: 14675866505204196300
+    SubobjectId: 15448806659351275161
+    InstanceId: 13541626255191705882
+    TemplateId: 10229582444342949214
   }
 }
 Objects {
@@ -5148,6 +5200,7 @@ Objects {
     }
   }
   ParentId: 8473175085895258190
+  ChildIds: 16565369687666159497
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5233,6 +5286,59 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 16565369687666159497
+  Name: "GenericButtonScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 188517922388439346
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IncludedVariables"
+      String: "Accessory,Accessory2"
+    }
+    Overrides {
+      Name: "cs:BroadcastString"
+      String: "CosmeticSetupPanel"
+    }
+    Overrides {
+      Name: "cs:OnReleased"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7641244062269779132
+    }
+  }
+  InstanceHistory {
+    SelfId: 14675866505204196300
+    SubobjectId: 15448806659351275161
+    InstanceId: 13541626255191705882
+    TemplateId: 10229582444342949214
   }
 }
 Objects {
@@ -5519,6 +5625,7 @@ Objects {
     }
   }
   ParentId: 15175740255217366614
+  ChildIds: 162141755002088525
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5604,6 +5711,59 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 162141755002088525
+  Name: "GenericButtonScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17626223712054830550
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IncludedVariables"
+      String: "Accessory,Accessory1"
+    }
+    Overrides {
+      Name: "cs:BroadcastString"
+      String: "CosmeticSetupPanel"
+    }
+    Overrides {
+      Name: "cs:OnReleased"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7641244062269779132
+    }
+  }
+  InstanceHistory {
+    SelfId: 14675866505204196300
+    SubobjectId: 15448806659351275161
+    InstanceId: 13541626255191705882
+    TemplateId: 10229582444342949214
   }
 }
 Objects {
@@ -5890,6 +6050,7 @@ Objects {
     }
   }
   ParentId: 11732258670232185223
+  ChildIds: 1885311474117696131
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5975,6 +6136,59 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 1885311474117696131
+  Name: "GenericButtonScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5387465784201764616
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:BroadcastString"
+      String: "CosmeticSetupPanel"
+    }
+    Overrides {
+      Name: "cs:IncludedVariables"
+      String: "Body,Body"
+    }
+    Overrides {
+      Name: "cs:OnReleased"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7641244062269779132
+    }
+  }
+  InstanceHistory {
+    SelfId: 6641202670432122586
+    SubobjectId: 4747994394229404559
+    InstanceId: 13541626255191705882
+    TemplateId: 10229582444342949214
   }
 }
 Objects {
@@ -6261,6 +6475,7 @@ Objects {
     }
   }
   ParentId: 8021849780339551522
+  ChildIds: 11964425417331630643
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6346,6 +6561,59 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 11964425417331630643
+  Name: "GenericButtonScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 903025160212408701
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IncludedVariables"
+      String: "Hats,Hats"
+    }
+    Overrides {
+      Name: "cs:BroadcastString"
+      String: "CosmeticSetupPanel"
+    }
+    Overrides {
+      Name: "cs:OnReleased"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7641244062269779132
+    }
+  }
+  InstanceHistory {
+    SelfId: 14675866505204196300
+    SubobjectId: 15448806659351275161
+    InstanceId: 13541626255191705882
+    TemplateId: 10229582444342949214
   }
 }
 Objects {
