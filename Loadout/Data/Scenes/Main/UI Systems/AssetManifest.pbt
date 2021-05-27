@@ -26,6 +26,42 @@ Assets {
   }
 }
 Assets {
+  Id: 14172403084197323001
+  Name: "Roboto Black"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "RobotoBlack_ref"
+  }
+}
+Assets {
+  Id: 12804716500201279526
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 11878241706226237245
+  Name: "Roboto"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "RobotoRegular_ref"
+  }
+}
+Assets {
+  Id: 9527087293920313745
+  Name: "Roboto Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "RobotoBold_ref"
+  }
+}
+Assets {
   Id: 5330642875517921893
   Name: "Center Arrow 005 Wedge"
   PlatformAssetType: 9

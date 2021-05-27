@@ -52,8 +52,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 200
-          Height: 200
+          Width: 160
+          Height: 160
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -163,8 +163,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 200
-          Height: 200
+          Width: 160
+          Height: 160
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -480,8 +480,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 200
-          Height: 200
+          Width: 160
+          Height: 160
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
