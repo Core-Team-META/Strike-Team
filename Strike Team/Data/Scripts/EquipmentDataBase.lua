@@ -162,7 +162,7 @@ function Database:RegisterEquipment()
                 NewItem["id"] = Item:GetCustomProperty("ID")
                 NewItem["ads_skin"] = Item:GetCustomProperty("ADSSkin")
                 NewItem["Hoister"] = Item:GetCustomProperty("Hoister")
-                NewItem["rarity"] = Item:GetCustomProperty("Rarity")
+                NewItem["rarity"] = Raritys[Item:GetCustomProperty("Rarity")] or Raritys["None"]
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
                 NewItem["offset"] = Item:GetCustomProperty("Offset")
                 NewItem["scale"] = Item:GetCustomProperty("Scale")

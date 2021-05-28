@@ -4354,7 +4354,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17130504642240885911
+            Id: 2801050667471875383
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4460,7 +4460,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17130504642240885911
+            Id: 2801050667471875383
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4566,7 +4566,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17130504642240885911
+            Id: 2801050667471875383
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4672,7 +4672,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17130504642240885911
+            Id: 2801050667471875383
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4778,7 +4778,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17130504642240885911
+            Id: 2801050667471875383
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -5239,7 +5239,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17130504642240885911
+      Id: 2801050667471875383
       Name: "Prism - 8-Sided"
       PlatformAssetType: 1
       PrimaryAsset {

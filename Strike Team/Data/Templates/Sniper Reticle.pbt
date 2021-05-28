@@ -242,7 +242,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 622433789355555801
+              Id: 1814707273787853473
             }
             Color {
               R: 1
@@ -363,7 +363,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 622433789355555801
+              Id: 1814707273787853473
             }
             Color {
               R: 1
@@ -483,7 +483,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 622433789355555801
+              Id: 1814707273787853473
             }
             Color {
               R: 1
@@ -603,7 +603,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 622433789355555801
+              Id: 1814707273787853473
             }
             Color {
               R: 1
@@ -637,7 +637,7 @@ Assets {
       }
     }
     Assets {
-      Id: 622433789355555801
+      Id: 1814707273787853473
       Name: "BG Flat 001"
       PlatformAssetType: 9
       PrimaryAsset {

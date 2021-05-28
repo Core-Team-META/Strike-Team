@@ -1856,7 +1856,7 @@ Assets {
           Overrides {
             Name: "ma:Font_Neon:id"
             AssetReference {
-              Id: 13171200732535708403
+              Id: 10503926720614915525
             }
           }
           Overrides {
@@ -2252,7 +2252,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13171200732535708403
+      Id: 10503926720614915525
       Name: "Metal Corrugated 01"
       PlatformAssetType: 2
       PrimaryAsset {
