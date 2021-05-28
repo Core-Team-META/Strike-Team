@@ -74,6 +74,35 @@ function PurchaseAPI.VerifyWeapon(player, Weapon)
     end  
 end 
 
+
+
+--@Params nil, Weapon, skin
+--@Returns int
+--Verification if player can buy skin
+function PurchaseAPI.VerifyCosmetic(player, Weapon)
+    if Weapon then 
+        --Return if level is too low
+        if player:GetResource('Level') < Weapon:GetLevel() then 
+            return 4
+        --Return if already own skin
+        elseif PurchaseAPI.GetStorage(player):HasWeapon(Weapon.data.id) then 
+            return 3 
+        else
+            --return if not enough cash
+            if Weapon:GetCost() > player:GetResource('StrikeCoins') then 
+                return 2 
+            else 
+                --Return success
+                return 1 
+            end 
+        end
+    else 
+        --Throw error was found but unknown
+        return 5
+    end  
+end 
+
+
 if Environment.IsServer() then
     --@Params player
     --Returns player storage
@@ -131,6 +160,27 @@ if Environment.IsServer() then
         end
     end
 
+        --@Params player, Weapon
+    --@Returns Broadcast
+    --Buys Equipment
+    function PurchaseAPI.BuyCosmetic(player, Weaponid)
+        local Weapon = _G["DataBase"]:ReturnEquipmentById(Weaponid)
+        --Check code
+        local Code = PurchaseAPI.VerifyCosmetic(player, Weapon) 
+
+        -- if success remove and save cash 
+        if Code == 1 then
+            PurchaseAPI.RemoveMoney(player,Weapon:GetCost(),"StrikeCoins")
+            PurchaseAPI.SaveMoney(player)
+
+            --Add weapon and send to client.
+            PurchaseAPI.GetStorage(player):AddWeapon(Weaponid)
+            ReliableEvents.BroadcastToPlayer(player,"PurchaseAPI_PurchaseSuccessful")
+        else
+            ReliableEvents.BroadcastToPlayer(player,"PurchaseAPI_PurchaseError",Code)
+        end
+    end
+
     --@Params player, int, currency
     --Adds currency 
     function PurchaseAPI.AddMoney(player,amount,type)
@@ -171,6 +221,7 @@ if Environment.IsServer() then
 
     Events.ConnectForPlayer("PurchaseAPI.BuySkin", PurchaseAPI.BuySkin)
     Events.ConnectForPlayer("PurchaseAPI.BuyWeapon", PurchaseAPI.BuyWeapon)
+    Events.ConnectForPlayer("PurchaseAPI.BuyCosmetic", PurchaseAPI.BuyCosmetic)
     Events.Connect("PurchaseAPI.Save",PurchaseAPI.SaveMoney)
     Game.playerJoinedEvent:Connect(PurchaseAPI.LoadMoney)
     Game.playerLeftEvent:Connect(PurchaseAPI.SaveMoney)
@@ -204,6 +255,18 @@ if Environment.IsClient() then
         local returnCall = PurchaseAPI.VerifyWeapon(Game.GetLocalPlayer(),  Weapon) 
         if returnCall == 1 then
             ReliableEvents.BroadcastToServer("PurchaseAPI.BuyWeapon", Weapon.data.id)
+        end
+        return returnCall
+    end
+
+    
+    --@Params player, Cosmetic
+    --@Returns Broadcast,int
+    --Sends to server to purchase Weapon
+    function PurchaseAPI.BuyCosmetic(Weapon)
+        local returnCall = PurchaseAPI.VerifyCosmetic(Game.GetLocalPlayer(),  Weapon) 
+        if returnCall == 1 then
+            ReliableEvents.BroadcastToServer("PurchaseAPI.BuyCosmetic", Weapon.data.id)
         end
         return returnCall
     end

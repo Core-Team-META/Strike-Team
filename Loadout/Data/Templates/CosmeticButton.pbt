@@ -340,9 +340,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 200
+          Width: 133
           Height: 60
-          UIY: -1.61418152
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -358,7 +357,7 @@ Assets {
             }
             Size: 18
             Justification {
-              Value: "mc:etextjustify:center"
+              Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
             Font {
@@ -411,7 +410,7 @@ Assets {
         }
         Control {
           Width: 175
-          Height: 60
+          Height: 36
           UIY: -0.511856079
           RenderTransformPivot {
             Anchor {

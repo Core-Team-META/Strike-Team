@@ -8,7 +8,6 @@ function CalcX(input)
     elseif(((input -2) % 3) == 0) then
         return 2
     end
-    print((input -1) % 3)
 end
 
 function CalcY(input)

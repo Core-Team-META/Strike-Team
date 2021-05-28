@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10117964992090160592
+  Name: "Sci-fi Parts 023"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Equip_Parts_023"
+  }
+}
+Assets {
   Id: 9527087293920313745
   Name: "Roboto Bold"
   PlatformAssetType: 28
@@ -68,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "CenterArrow_005Wedge"
+  }
+}
+Assets {
+  Id: 3664507400955153403
+  Name: "Survival Money 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Money_001"
   }
 }
 Assets {

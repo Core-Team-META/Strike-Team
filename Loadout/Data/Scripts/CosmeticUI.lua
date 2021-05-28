@@ -9,8 +9,10 @@ local UIGrid = require(script:GetCustomProperty("UIGrid"))
 local GetAbsoluteUI = require(script:GetCustomProperty("GetAbsoluteUI"))
 local ScreenObject = require(script:GetCustomProperty("ScreenObject"))
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
+local RichTextMgr = require(script:GetCustomProperty("_RichTextMgr"))
+local IMAGE_FOLDER = script:GetCustomProperty("ImageFolder"):WaitForObject()
+RichTextMgr.SetImageSource(IMAGE_FOLDER)
 
-UI.SetCursorVisible(true)
 local Cosmetic_API = require(script:GetCustomProperty("Cosmetic_API"))
 local ScreenSizeChanged = require(script:GetCustomProperty("ScreenSizeChanged"))
 
@@ -225,8 +227,10 @@ function SpawnPanel( item,Grid)
     end
 
     local id =  newButton.clientUserData.item:GetId()
-    newButton:GetCustomProperty("Price"):GetObject().text = string.format("$%s", item:GetCost())
-
+    local Textbox = newButton:GetCustomProperty("Price"):GetObject()
+    local newText = string.format(" %s <image StrikeCoin> ", item:GetCost())
+    Textbox.text = ""
+    RichTextMgr.DisplayText(Textbox, newText,{leftMargin = 60, topMargin = 5, rightMargin = -3, size=12})
     local UpdateEvent = WeaponStorage.updateEvent:Connect(
         function()
             if  WeaponStorage:HasWeapon(id) then 

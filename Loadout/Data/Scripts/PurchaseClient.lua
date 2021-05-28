@@ -55,6 +55,11 @@ function PurchaseClientManager.SetUpPanel(Weapon,Skin)
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseMoney"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin,"Cash")
         ConfirmationPanel.clientUserData.buttonEventOther = ConfirmationPanel:GetCustomProperty("PurchaseOtherMeans"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseSkin,Weapon,Skin,"StrikeCoins")
 
+    elseif Weapon:GetSlot() == "Cosmetics" then
+        ConfirmationPanel.clientUserData.type = "Cosmetics"
+        ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseCosmetic,Weapon)
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeapon,Weapon.data.name, Weapon:GetCost())
+    
     else 
         ConfirmationPanel.clientUserData.type = "Weapon"
         ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect( PurchaseClientManager.PurchaseWeapon,Weapon)
@@ -98,12 +103,29 @@ function GetWeaponText(Code)
         [1] = PurchasePanel_Texts.PurchaseableWeaponPending,
         [2] = PurchasePanel_Texts.PurchaseableWeaponFailed,
         [3] = PurchasePanel_Texts.PurchaseableWeaponAlreadyOwned,
-        [4] = PurchasePanel_Texts.PurchaseableSkinLowLevel,
+        [4] = PurchasePanel_Texts.PurchaseableWeaponLowLevel,
         [5] = PurchasePanel_Texts.PurchaseableWeaponLowLevel,
     }
 
     return ReturnText[Code]
 end
+
+--@Params int
+--@Returns string
+--returns a string based on codes
+function GetCosmeticText(Code)
+
+    local ReturnText ={
+        [1] = PurchasePanel_Texts.PurchaseableCosmeticPending,
+        [2] = PurchasePanel_Texts.PurchaseableCosmeticFailed,
+        [3] = PurchasePanel_Texts.PurchaseableCosmeticAlreadyOwned,
+        [4] = PurchasePanel_Texts.PurchaseableCosmeticLowLevel,
+        [5] = PurchasePanel_Texts.PurchaseableCosmeticLowLevel,
+    }
+
+    return ReturnText[Code]
+end
+
 
 --Disconnects events of successful/failed purchases
 function PurchaseClientManager.DisconnectEvents()
@@ -120,27 +142,26 @@ end
 function PurchaseClientManager.PurchaseSuccessful()
     Task.Wait()
     --Updates confirmation panel
+    local LOCAL_PLAYER = Game.GetLocalPlayer()
     World.SpawnAsset(PURCHASE_SUCCESS_SOUND)
     local Weapon = ConfirmationPanel.clientUserData.Weapon
     local skin = ConfirmationPanel.clientUserData.Skin 
     if  ConfirmationPanel.clientUserData.type == "Skin" then
         Weapon:EquipSkinByID(skin.id)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableSkinSuccess, ConfirmationPanel.clientUserData.Skin.name)
-
-    else
-        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
-    end
-
-    --Equips player with the purchase
-    local LOCAL_PLAYER = Game.GetLocalPlayer()
-    if Weapon.data.slot ~= "Cosmetics" then
         Events.BroadcastToServer("UpdateEquipment", Weapon:ReturnIDs(), Weapon.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
         Events.Broadcast("UpdateEquipment",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
         Events.Broadcast("UpdateDataPanel")
-
-    else 
+    elseif  ConfirmationPanel.clientUserData.type == "Weapon" then
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
+        Events.BroadcastToServer("UpdateEquipment", Weapon:ReturnIDs(), Weapon.data.slot , tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+        Events.Broadcast("UpdateEquipment",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.SelectedSlot) )
+        Events.Broadcast("UpdateDataPanel")
+    elseif  ConfirmationPanel.clientUserData.type == "Cosmetics" then
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(PurchasePanel_Texts.PurchaseableWeaponSuccess, ConfirmationPanel.clientUserData.Weapon.data.name)
         Events.Broadcast("UpdateCosmetics",Weapon:ReturnIDs(), Weapon.data.slot, tostring(LOCAL_PLAYER.clientUserData.CosmeticSlot) )
     end
+
 
     --Changes confirmation panel so the players understand what went wrong
     ConfirmationPanel:GetCustomProperty("ButtonText"):WaitForObject().text = "Okay"
@@ -161,11 +182,14 @@ function PurchaseClientManager.PurchaseError(Code)
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetSkinText(Code),ConfirmationPanel.clientUserData.Skin.name)
         ConfirmationPanel:GetCustomProperty("PurchaseCreditButton"):WaitForObject().visibility = Visibility.FORCE_ON
 
-    else---Sets up Weapon error and tells why it failed
+    --Sets up Weapon error and tells why it failed
+    elseif  ConfirmationPanel.clientUserData.type == "Weapon" then
         ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
-
+    --Sets up Cosmetic error and tells why it failed
+    elseif  ConfirmationPanel.clientUserData.type == "Cosmetics" then
+        ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetCosmeticText(Code),ConfirmationPanel.clientUserData.Weapon.data.name)
     end
-    --Okay button to say it has failed
+    --Okay button to say it has failed-
     ConfirmationPanel.clientUserData.buttonEvent = ConfirmationPanel:GetCustomProperty("PurchaseButtion"):WaitForObject().releasedEvent:Connect(PurchaseClientManager.ClosePanel)
     PurchaseClientManager.DisconnectEvents()
 end
@@ -218,6 +242,26 @@ function PurchaseClientManager.PurchaseWeapon(_,Weapon,Skin)
 		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
 	end
 end
+
+
+--@Params nil, Weapon, skin
+--Sends message to the api that the local player wants to buy a Weapon
+function PurchaseClientManager.PurchaseCosmetic(_,Weapon,Skin)
+    ConfirmationPanel.clientUserData.Button.text = "Purchasing..."
+    ConfirmationPanel.clientUserData.buttonEvent:Disconnect()
+    ConfirmationPanel.clientUserData.SuccessEvent = Events.Connect("PurchaseAPI_PurchaseSuccessful", PurchaseClientManager.PurchaseSuccessful)
+    ConfirmationPanel.clientUserData.ErrorEvent = Events.Connect("PurchaseAPI_PurchaseError", PurchaseClientManager.PurchaseError)
+    local Code = Purchase_API.BuyCosmetic(Weapon)
+    --ConfirmationPanel:GetCustomProperty("StateText"):WaitForObject().text = string.format(GetWeaponText(Code),Weapon.data.name)
+    if Code ~= 1 then 
+        PurchaseClientManager.PurchaseError(Code)
+    end
+    
+    if _G.Funnel then
+		_G.Funnel.SetPlayerStepComplete(Game.GetLocalPlayer(), 9)
+	end
+end
+
 
 Events.Connect("ClosePurchasePanel",PurchaseClientManager.ClosePanel)
 Events.Connect("PurchaseItem",PurchaseClientManager.SetUpPanel)

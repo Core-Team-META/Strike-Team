@@ -1392,7 +1392,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1460,7 +1460,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1528,7 +1528,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1596,7 +1596,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1664,7 +1664,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1732,7 +1732,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1800,7 +1800,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1868,7 +1868,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -1936,7 +1936,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2004,7 +2004,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2072,7 +2072,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2144,7 +2144,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2216,7 +2216,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2288,7 +2288,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2360,7 +2360,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2428,7 +2428,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2496,7 +2496,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"
@@ -2568,7 +2568,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 0
+      Int: 1000
     }
     Overrides {
       Name: "cs:Weapon"

@@ -248,5 +248,6 @@ WINNER_SORT_TYPE = GetProperty(WINNER_SORT_TYPE, WINNER_SORT_TYPES)
 --	Connect events appropriately
 --Events.Connect("SendToVictoryScreen", SendToVictoryScreen)
 Game.roundEndEvent:Connect(SendToVictoryScreen)
+Game.roundStartEvent:Connect((listener), ...)
 Events.Connect("GameStateChanged", OnGameStateChanged)
 Events.Connect("VictoryUI.ForceCamera",ForceCamera)

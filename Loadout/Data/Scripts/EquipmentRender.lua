@@ -43,7 +43,6 @@ function Tick()
         local y = AbsoluteLocation.y
         local scale = ObjData:GetScale()
         local offset = ObjData:GetOffset()
-        print(y)
         screenObject:UpdatePosition({
             pixelPosX = x + panel.width/2+offset.x,
             pixelPosY = y + panel.height/2+offset.z,

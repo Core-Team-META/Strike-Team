@@ -29,7 +29,9 @@ local function ChangeCashText(amount)
 end
 
 local function ChangeStrikeCoinText(amount)
-    STRIKE_COIN.text = FormatInt(amount)
+    if STRIKE_COIN then
+        STRIKE_COIN.text = FormatInt(amount)
+    end
 end
 
 local function ChangeLevelText(amount)

@@ -14,4 +14,13 @@ PurchasePanelText.PurchaseableWeaponSuccess =  "Successfully purchased %s."
 PurchasePanelText.PurchaseableWeaponAlreadyOwned = "%s is already owned."
 PurchasePanelText.PurchaseableWeaponError =  "Can not purchase.\n An error has occurred."
 PurchasePanelText.PurchaseableWeaponLowLevel =  "Level is too low to purchase.\n Level up by completing game rounds."
+
+
+PurchasePanelText.PurchaseableCosmeticPending = "Processing purchase...."
+PurchasePanelText.PurchaseableCosmetic = "Purchase %s for %d Strike Coins?"
+PurchasePanelText.PurchaseableCosmeticFailed = "You do not have enough StrikeCoins.\n Purchase Strike Coins for Core Credits."
+PurchasePanelText.PurchaseableCosmeticSuccess =  "Successfully purchased %s."
+PurchasePanelText.PurchaseableCosmeticAlreadyOwned = "%s is already owned."
+PurchasePanelText.PurchaseableCosmeticError =  "Can not purchase.\n An error has occurred."
+PurchasePanelText.PurchaseableCosmeticLowLevel =  "Level is too low to purchase.\n Level up by completing game rounds."
 return PurchasePanelText

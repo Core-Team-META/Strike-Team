@@ -2413,7 +2413,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "ImageFolder"
+    FilePartitionName: "ImageFolder_1"
   }
 }
 Objects {

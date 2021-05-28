@@ -34,8 +34,17 @@ PlayerCosmeticStorage.__tostring = function(t)
     
 end
 
-local function Verify(id)
-    return true
+local function Verify(id,player)
+    local Stg
+
+    if Environment.IsClient() then 
+        Stg = player.clientUserData.Storage
+    elseif Environment.IsServer then 
+        Stg = player.serverUserData.Storage 
+    end
+    if not Stg then return false end
+       
+    return Stg:HasWeapon(id) 
 end
 
 function PlayerCosmeticStorage:GetData()
@@ -147,7 +156,7 @@ function PlayerCosmeticStorage:ColourPartFromSlot(part, slot)
 
 end
     function PlayerCosmeticStorage:SetSlot(id, slot)
-        if not Verify(id) then return end
+        if not Verify(id,self.owner) then return end
         local item = Database:ReturnEquipmentById(id)
         if not item then return end
         self.data[slot] = {}
@@ -206,7 +215,7 @@ end
 
 if Environment.IsClient() then
     function PlayerCosmeticStorage:AskToEquip(id,slot)
-        if Verify(id) then 
+        if Verify(id,Game.GetLocalPlayer()) then 
             Events.BroadcastToServer("Cosmetic.EquipItem", id,slot)
         end
     end

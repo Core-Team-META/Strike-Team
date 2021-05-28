@@ -24,7 +24,6 @@ function Tick()
 end
 
 function SetOpenTime( Time)
-    print(Time)
     openTime = os.time() + Time or 0
 end
 

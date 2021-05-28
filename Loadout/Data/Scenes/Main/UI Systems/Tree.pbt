@@ -18,6 +18,7 @@ Objects {
   ChildIds: 18039195227900749707
   ChildIds: 15898918904200050413
   ChildIds: 17655135149302427299
+  ChildIds: 12684295134426022027
   ChildIds: 8722528574966815435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -234,6 +235,52 @@ Objects {
   }
 }
 Objects {
+  Id: 12684295134426022027
+  Name: "ImageFolder"
+  Transform {
+    Location {
+      X: -9.15527344e-05
+      Y: -6.10351563e-05
+    }
+    Rotation {
+      Yaw: -1.70754686e-06
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13720803418978635402
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Cash"
+      AssetReference {
+        Id: 3664507400955153403
+      }
+    }
+    Overrides {
+      Name: "cs:StrikeCoin"
+      AssetReference {
+        Id: 10117964992090160592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ImageFolder"
+  }
+}
+Objects {
   Id: 17655135149302427299
   Name: "CosmeticUI"
   Transform {
@@ -353,6 +400,18 @@ Objects {
       Name: "cs:ColourSelector"
       AssetReference {
         Id: 15376547909677114959
+      }
+    }
+    Overrides {
+      Name: "cs:ImageFolder"
+      ObjectReference {
+        SelfId: 12684295134426022027
+      }
+    }
+    Overrides {
+      Name: "cs:_RichTextMgr"
+      AssetReference {
+        Id: 15167260956848044040
       }
     }
   }
