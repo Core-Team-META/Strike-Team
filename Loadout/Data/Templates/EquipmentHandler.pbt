@@ -18441,48 +18441,47 @@ Assets {
         ParentId: 13476379198594206914
         ChildIds: 1073281727072305016
         ChildIds: 3775115737639557808
-        ChildIds: 474240566588518570
-        ChildIds: 12149791917863806777
         ChildIds: 14737460216971562583
-        ChildIds: 1630336988356858999
         ChildIds: 11187949147472526371
-        ChildIds: 12664299569715999804
-        ChildIds: 7157072372198988983
-        ChildIds: 17230426322688548730
         ChildIds: 1814405342966195485
-        ChildIds: 10701705723402748186
-        ChildIds: 6131660291915681766
-        ChildIds: 10285958773269840642
-        ChildIds: 17854648538689583186
-        ChildIds: 3821519090137008179
-        ChildIds: 166326545138680996
-        ChildIds: 2806739814058045598
-        ChildIds: 10202055086572818163
-        ChildIds: 12959106021827769228
-        ChildIds: 3266856614479951561
-        ChildIds: 3901464906843425004
-        ChildIds: 7808830238121973661
-        ChildIds: 12965233355436541668
         ChildIds: 12978073838914548785
-        ChildIds: 7152129562952905911
         ChildIds: 7691413553410801421
-        ChildIds: 14414139892368084111
+        ChildIds: 7152129562952905911
+        ChildIds: 8315032974326220489
+        ChildIds: 10202055086572818163
+        ChildIds: 6131660291915681766
+        ChildIds: 10701705723402748186
+        ChildIds: 17230426322688548730
+        ChildIds: 1630336988356858999
+        ChildIds: 12149791917863806777
+        ChildIds: 474240566588518570
+        ChildIds: 17854648538689583186
+        ChildIds: 166326545138680996
+        ChildIds: 12959106021827769228
+        ChildIds: 3901464906843425004
+        ChildIds: 12965233355436541668
         ChildIds: 16780724374266736463
         ChildIds: 1510386675906218603
-        ChildIds: 8315032974326220489
         ChildIds: 4816359857901497682
         ChildIds: 12459377811043182833
-        ChildIds: 2123946717327320646
-        ChildIds: 8226701324565034391
-        ChildIds: 17155429627993220554
         ChildIds: 5234536224426484346
-        ChildIds: 10592473142247691484
-        ChildIds: 5733418052774796153
-        ChildIds: 16067505632226454330
         ChildIds: 6614470545649412134
         ChildIds: 1438303402840179264
-        ChildIds: 5559997491953961835
         ChildIds: 14323740801427589961
+        ChildIds: 5559997491953961835
+        ChildIds: 16067505632226454330
+        ChildIds: 5733418052774796153
+        ChildIds: 10592473142247691484
+        ChildIds: 17155429627993220554
+        ChildIds: 8226701324565034391
+        ChildIds: 2123946717327320646
+        ChildIds: 3266856614479951561
+        ChildIds: 3821519090137008179
+        ChildIds: 12664299569715999804
+        ChildIds: 10285958773269840642
+        ChildIds: 14414139892368084111
+        ChildIds: 7157072372198988983
+        ChildIds: 2806739814058045598
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -18586,7 +18585,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 1000
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -18606,135 +18605,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 474240566588518570
-        Name: "AstroHelm"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 9847786229086379613
-            }
-          }
-          Overrides {
-            Name: "cs:Hoister"
-            String: ""
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HM"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 12149791917863806777
-        Name: "AxedContent"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 8914172921574340721
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HC"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -18754,7 +18625,7 @@ Assets {
       }
       Objects {
         Id: 14737460216971562583
-        Name: "Hat_BeatsbyBlake"
+        Name: "BHeadphone"
         Transform {
           Location {
           }
@@ -18776,7 +18647,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 1000
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -18796,73 +18667,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 1630336988356858999
-        Name: "ArtificialPlume"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 12244092418835675982
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HQ"
-          }
-          Overrides {
-            Name: "cs:Scale"
-            Float: 0.65
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -18904,7 +18709,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 1000
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -18928,201 +18733,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 12664299569715999804
-        Name: "PlumeBringerHeraldofApocalypse"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 9826465273848621636
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "PA"
-          }
-          Overrides {
-            Name: "cs:Scale"
-            Float: 0.65
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 7157072372198988983
-        Name: "TheOneTruePlume"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 6644991286497480815
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HN"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Scale"
-            Float: 0.65
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 17230426322688548730
-        Name: "BeatsbyBlakeFancy"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 16512448625628331910
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HF"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -19142,7 +18753,7 @@ Assets {
       }
       Objects {
         Id: 1814405342966195485
-        Name: "BeatsbyDrake"
+        Name: "D-Headphones"
         Transform {
           Location {
           }
@@ -19164,7 +18775,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 1000
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -19184,813 +18795,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 10701705723402748186
-        Name: "BeatsbyDrakeFancy"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 8065083479333090217
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "H2"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 6131660291915681766
-        Name: "Birdo"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 8548137520893320928
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HI"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 10285958773269840642
-        Name: "ChickenBucket"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 6585705542631752213
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HY"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 17854648538689583186
-        Name: "ClassicHorns"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 12339635727731053732
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HH"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 3821519090137008179
-        Name: "Cyberpunk"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 5070145300176413945
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "QD"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 166326545138680996
-        Name: "DemonHorns"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 4490502318749348765
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "JJ"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 2806739814058045598
-        Name: "Froggo"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 14846028877084717157
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "KG"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 10202055086572818163
-        Name: "Gungir"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 1000
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 4326287433535930464
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "GT"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 12959106021827769228
-        Name: "Hazmat"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 4512294065473397056
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HZ"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 3266856614479951561
-        Name: "KatsbyKate"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 66951919531239699
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "KK"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 3901464906843425004
-        Name: "Knight"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 6443833364749379680
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "KN"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 7808830238121973661
-        Name: "Parasite"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 9847786229086379613
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "BG"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 12965233355436541668
-        Name: "Pinehat"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 5437674830923659339
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "OT"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 50
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -20032,7 +18837,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -20048,68 +18853,6 @@ Assets {
             Name: "cs:Offset"
             Vector {
               Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 7152129562952905911
-        Name: "Roasted"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 1856131834636080801
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "RD"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 63.0247269
             }
           }
           Overrides {
@@ -20156,7 +18899,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -20195,8 +18938,8 @@ Assets {
         }
       }
       Objects {
-        Id: 14414139892368084111
-        Name: "SmallFrog"
+        Id: 7152129562952905911
+        Name: "Roasted"
         Transform {
           Location {
           }
@@ -20218,151 +18961,27 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
             AssetReference {
-              Id: 18261577894079948436
+              Id: 1856131834636080801
             }
           }
           Overrides {
             Name: "cs:ID"
-            String: "CD"
+            String: "RD"
           }
           Overrides {
             Name: "cs:Offset"
             Vector {
-              Z: 30
+              Z: 63.0247269
             }
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 16780724374266736463
-        Name: "SpaceOfficer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 7749138907475912343
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "MY"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Legendary"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 1510386675906218603
-        Name: "Spacer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 7325896083705028347
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "KU"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -20404,7 +19023,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -20424,7 +19043,935 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Common"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 10202055086572818163
+        Name: "Gungir"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 150
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 4326287433535930464
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "GT"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Common"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 6131660291915681766
+        Name: "Birdo"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 8548137520893320928
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HI"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 10701705723402748186
+        Name: "D-Headphones+"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 8065083479333090217
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "H2"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 17230426322688548730
+        Name: "B-Headphones+"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 16512448625628331910
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HF"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 1630336988356858999
+        Name: "ArtificialPlume"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 12244092418835675982
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HQ"
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 0.65
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 12149791917863806777
+        Name: "AxedContent"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 8914172921574340721
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HC"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 474240566588518570
+        Name: "AstroHelm"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 9847786229086379613
+            }
+          }
+          Overrides {
+            Name: "cs:Hoister"
+            String: ""
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HM"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 17854648538689583186
+        Name: "ClassicHorns"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 12339635727731053732
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HH"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 166326545138680996
+        Name: "DemonHorns"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 4490502318749348765
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "JJ"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 12959106021827769228
+        Name: "Hazmat"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 4512294065473397056
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HZ"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 3901464906843425004
+        Name: "Knight"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 6443833364749379680
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "KN"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 12965233355436541668
+        Name: "Pineapple"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 5437674830923659339
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "OT"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 50
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 16780724374266736463
+        Name: "SpaceOfficer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 7749138907475912343
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "MY"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 1510386675906218603
+        Name: "Spacer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 7325896083705028347
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "KU"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -20466,7 +20013,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -20490,7 +20037,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -20532,7 +20083,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -20556,193 +20107,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Legendary"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 2123946717327320646
-        Name: "Steampunk"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 332098325992494869
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "MJ"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Legendary"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 8226701324565034391
-        Name: " Tactical"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 4883919829008411331
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "GF"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
             String: "Rare"
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 17155429627993220554
-        Name: " tankhat"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 18415239194948090852
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "JT"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
+            Name: "cs:Event"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -20784,7 +20153,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -20806,191 +20175,9 @@ Assets {
             Name: "cs:Rarity"
             String: "Rare"
           }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 10592473142247691484
-        Name: "titan"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
           Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 6862786168407942430
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "PU"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 5733418052774796153
-        Name: "Windmill"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 17614156386148725345
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "HW"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Easter"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 16067505632226454330
-        Name: "Donut"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 15637481726767017583
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "DT"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Easter"
+            Name: "cs:Event"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -21032,7 +20219,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21052,7 +20239,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Easter"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -21094,7 +20285,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21114,69 +20305,11 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Easter"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 5559997491953961835
-        Name: "Top Hat"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11104468685180151017
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
+            String: "Rare"
           }
           Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 13886638957957319183
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "TH"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Easter"
+            Name: "cs:Event"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -21218,7 +20351,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21238,7 +20371,887 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Easter"
+            String: "Rare"
+          }
+          Overrides {
+            Name: "cs:Event"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 5559997491953961835
+        Name: "Top Hat"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 13886638957957319183
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "TH"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 16067505632226454330
+        Name: "Donut"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 15637481726767017583
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "DT"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 5733418052774796153
+        Name: "Windmill"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 17614156386148725345
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HW"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 10592473142247691484
+        Name: "titan"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 6862786168407942430
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "PU"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 17155429627993220554
+        Name: " tankhat"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 18415239194948090852
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "JT"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 8226701324565034391
+        Name: " Tactical"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 4883919829008411331
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "GF"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 2123946717327320646
+        Name: "Steampunk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 332098325992494869
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "MJ"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 3266856614479951561
+        Name: "KatsbyKate"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 66951919531239699
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "KK"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 3821519090137008179
+        Name: "Cyberpunk"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 5070145300176413945
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "QD"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 12664299569715999804
+        Name: "PlumeBringerHeraldofApocalypse"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 9826465273848621636
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "PA"
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 0.65
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 10285958773269840642
+        Name: "ChickenBucket"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 400
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 6585705542631752213
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HY"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Epic"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 14414139892368084111
+        Name: "SmallFrog"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 500
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 18261577894079948436
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CD"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 7157072372198988983
+        Name: "TheOneTruePlume"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 500
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 6644991286497480815
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "HN"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Scale"
+            Float: 0.65
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 2806739814058045598
+        Name: "Froggo"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 500
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 14846028877084717157
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "KG"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -21273,12 +21286,12 @@ Assets {
         ParentId: 13476379198594206914
         ChildIds: 16853018092836930805
         ChildIds: 11115614150150666814
-        ChildIds: 13814396478247590946
-        ChildIds: 5963826133306407668
+        ChildIds: 12866392117613170991
+        ChildIds: 6128466103011427249
         ChildIds: 16557645452959737648
         ChildIds: 13882059093683571939
-        ChildIds: 6128466103011427249
-        ChildIds: 12866392117613170991
+        ChildIds: 13814396478247590946
+        ChildIds: 5963826133306407668
         ChildIds: 5043839273171763121
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -21321,7 +21334,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21383,7 +21396,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21398,6 +21411,252 @@ Assets {
           Overrides {
             Name: "cs:Offset"
             Vector {
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Common"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 12866392117613170991
+        Name: "Reactor"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18324134503938871822
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 150
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 14722335422583995567
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "QY"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Common"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 6128466103011427249
+        Name: "Operations"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18324134503938871822
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 150
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 9799965092285257203
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "RQ"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Common"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 16557645452959737648
+        Name: "Lifesaver"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18324134503938871822
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 150
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 2851361410990045655
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "CZ"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: -58.341877
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Common"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 13882059093683571939
+        Name: "OctoInflate"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18324134503938871822
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 250
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 13283580633539307124
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "QF"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: -58.341877
             }
           }
           Overrides {
@@ -21444,7 +21703,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21506,7 +21765,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 500
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21525,253 +21784,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 16557645452959737648
-        Name: "Lifesaver"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18324134503938871822
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 2851361410990045655
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "CZ"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: -58.341877
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 13882059093683571939
-        Name: "OctoInflate"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18324134503938871822
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 13283580633539307124
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "QF"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: -58.341877
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 6128466103011427249
-        Name: "Operations"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18324134503938871822
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 9799965092285257203
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "RQ"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 12866392117613170991
-        Name: "Reactor"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18324134503938871822
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 14722335422583995567
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "QY"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -21813,7 +21826,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 500
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21837,7 +21850,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Rare"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
@@ -21874,8 +21887,8 @@ Assets {
         ChildIds: 7095480801368407715
         ChildIds: 15949297785453090708
         ChildIds: 13557022515813622560
-        ChildIds: 8057748032849284126
         ChildIds: 109307885846678431
+        ChildIds: 8057748032849284126
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -21979,7 +21992,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 400
           }
           Overrides {
             Name: "cs:Weapon"
@@ -21999,7 +22012,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Rarity"
-            String: "Easter"
+            String: "Epic"
           }
         }
         Collidable_v2 {
@@ -22041,7 +22054,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -22103,7 +22116,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 250
           }
           Overrides {
             Name: "cs:Weapon"
@@ -22124,6 +22137,68 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Rare"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 109307885846678431
+        Name: "Sweat Band"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8324065793108475554
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 150
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 4583011626322396138
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "YT"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Common"
           }
         }
         Collidable_v2 {
@@ -22165,7 +22240,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Cost"
-            Int: 0
+            Int: 150
           }
           Overrides {
             Name: "cs:Weapon"
@@ -22186,68 +22261,6 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Common"
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6101204973524491137
-          }
-        }
-      }
-      Objects {
-        Id: 109307885846678431
-        Name: "Sweatbandforsweatygamers"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8324065793108475554
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ICON"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Cost"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:Weapon"
-            AssetReference {
-              Id: 4583011626322396138
-            }
-          }
-          Overrides {
-            Name: "cs:ID"
-            String: "YT"
-          }
-          Overrides {
-            Name: "cs:Offset"
-            Vector {
-              Z: 30
-            }
-          }
-          Overrides {
-            Name: "cs:Rarity"
-            String: "Rare"
           }
         }
         Collidable_v2 {

@@ -36,6 +36,7 @@ local function Update()
 end
 
 local function Checkmouse(mouse)
+    if not Object.IsValid(Bar) then return end
     if mouse.x >= Slider.x and mouse.x <= Slider.x+Bar.width then
         if mouse.y >= Slider.y and mouse.y <= Slider.y + Bar.height then
             return true

@@ -51,6 +51,20 @@ function PlayerCosmeticStorage:GetData()
     return self.data
 end
 
+function PlayerCosmeticStorage:IsEquipped(id)
+    for key, value in pairs(self.data) do
+       if value.id == id then return true end 
+    end
+    return false
+end
+
+function PlayerCosmeticStorage:IsEquippedSlot(id,slot)
+    if self.data[slot] then 
+       if self.data[slot].id == id then return true end 
+    end
+    return false
+end
+
 function PlayerCosmeticStorage:SpawnAllEquipment()
     for key, value in pairs(self.data) do
         self:SpawnSlot(key)
@@ -139,7 +153,11 @@ function PlayerCosmeticStorage:TakeOff(slot)
         Item:Destroy()
     end
 end
-
+function PlayerCosmeticStorage:TakeoffAllEquipment()
+    for key, value in pairs(self.data) do
+        self:TakeOff(key)
+    end
+end
 
 function PlayerCosmeticStorage:ColourPartFromSlot(part, slot)
     local slotData = self.data[slot]

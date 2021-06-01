@@ -141,6 +141,10 @@ function Equipment:GetId()
     return self.data.id
 end
 
+function Equipment:IsEvent()
+    return self.data.event
+end
+
 
 function Equipment:GetSkinByID(skinid)
     for _, skin in pairs(self.data.skins) do

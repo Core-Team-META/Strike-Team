@@ -12,3 +12,4 @@ end
 
 Events.Connect("Cosmetics.Open", Open)
 Events.Connect("Cosmetics.Close", Close)
+Events.Connect("UpdateMenuState", Close)

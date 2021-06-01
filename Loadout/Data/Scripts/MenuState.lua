@@ -15,7 +15,6 @@ end
 --Swap to menu view
 function MENU()
     HideAllUI()
-    MAIN_MENU_UI.visibility = Visibility.FORCE_ON
 end
 
 --Swap to loadout view

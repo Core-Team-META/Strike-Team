@@ -60,6 +60,12 @@ local ColourPanel
 local ColourSlotSelected
 local OpenedSlot
 
+local function CloseColourPicker()
+    if Object.IsValid(ColourPanel) then  
+        ColourPanel:Destroy()
+    end
+end
+
 function SetupColourButton(button)
     button.visibility = Visibility.INHERIT
     local colorimage = button:GetCustomProperty("Colour"):WaitForObject(.1)
@@ -75,8 +81,9 @@ function SetupColourButton(button)
     
 end
 
+
 function SpawnColourPanel(button, slot)
-    if Object.IsValid(ColourPanel) then ColourPanel:Destroy() end
+    CloseColourPicker()
     ColourSlotSelected = slot
     ColourPanel = World.SpawnAsset(ColourSelector,{parent = button})
     if ColourPanel.clientUserData.ColourSelector then 
@@ -211,7 +218,7 @@ function SetupColour(item)
     end
 end
 
-function SpawnPanel( item,Grid)
+function SpawnPanel( item,slot,Grid)
     local newButton = World.SpawnAsset(CosmeticButton)
     local spawn = item:SpawnEquipment()
     Grid:AddChild(newButton)
@@ -239,14 +246,32 @@ function SpawnPanel( item,Grid)
         end
     )
 
+    local EquipEvent = CosmeticStorage.updateEvent:Connect(
+        function()
+            if CosmeticStorage:IsEquippedSlot(id,slot) then  
+                newButton:GetCustomProperty("UIEquipped"):GetObject().visibility = Visibility.FORCE_ON
+            else 
+                newButton:GetCustomProperty("UIEquipped"):GetObject().visibility = Visibility.FORCE_OFF
+            end
+        end
+    )
+
     newButton.destroyEvent:Connect(function() 
         UpdateEvent:Disconnect()
+        EquipEvent:Disconnect()
     end)
 
     if  WeaponStorage:HasWeapon(id) then 
         newButton:GetCustomProperty("Lock"):GetObject().visibility = Visibility.FORCE_OFF
+        
     end
     
+    if CosmeticStorage:IsEquippedSlot(id,slot) then  
+        newButton:GetCustomProperty("UIEquipped"):GetObject().visibility = Visibility.FORCE_ON
+    else 
+        newButton:GetCustomProperty("UIEquipped"):GetObject().visibility = Visibility.FORCE_OFF
+    end
+
     table.insert(OpenedPanels,newButton)
 
     local screenObject = SetupRender(spawn, newButton,item)
@@ -331,11 +356,19 @@ function Open(panelsType)
             end
         end
     else 
-        Filtereditems = items
+        for _, item in ipairs(items) do
+            if not WeaponStorage:HasWeapon(item:GetId()) then 
+                if not item:IsEvent() then 
+                    table.insert(Filtereditems, item)
+                end
+            else
+                table.insert(Filtereditems, item)
+            end
+        end
     end
     
     for _, item in ipairs(Filtereditems) do
-        local newbutton = SpawnPanel(item,NewGrid)
+        local newbutton = SpawnPanel(item,OpenedSlot,NewGrid)
         SetUpButtons(newbutton, panelsSlot)
     end
     UpdateColourProperties(panelsSlot)
@@ -381,3 +414,15 @@ end
 
 Events.Connect("Cosmetics.Open", SlideIn)
 Events.Connect("Cosmetics.Close", SlideOut)
+Events.Connect("UpdateMenuState", SlideOut)
+LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,binding) 
+    if binding == "ability_primary" then 
+        if Object.IsValid(ColourPanel) then 
+            local mousepos = UI.GetCursorPosition()
+            local panelpos = GetAbsoluteUI.GetAbsoluteLocation(ColourPanel)
+            if (mousepos.x < panelpos.x or mousepos.y < panelpos.y) or (mousepos.x > panelpos.x +ColourPanel.width   or mousepos.y >  panelpos.y + ColourPanel.height) then
+                CloseColourPicker()
+            end
+        end
+    end
+end)

@@ -1,7 +1,6 @@
 local CosmeticApi = require(script:GetCustomProperty("Cosmetic_API"))
 local DataFolder = script:GetCustomProperty("DataFolder"):WaitForObject()
 local JSON = require(script:GetCustomProperty("JSON"))
-
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local function FindPlayer(id)
@@ -21,10 +20,11 @@ function SpawnEquipment(player)
         
         local p = FindPlayer( Decode.owner)
         if not p then return end
+        local Strge = CosmeticApi.LoadData(p ,Data)
+        p.clientUserData.CosStorage = Strge
+        if p == LOCAL_PLAYER then return end 
         if p == player then 
-            local Strge = CosmeticApi.LoadData(p ,Data)
             Strge:SpawnAllEquipment()
-            p.clientUserData.CosStorage = Strge
             return 
         end 
         
@@ -38,12 +38,12 @@ function UpdateData(_,property)
     local Decode = JSON.Decode(Data)
     
     local p = FindPlayer( Decode.owner)
-    if p == LOCAL_PLAYER then return end 
     if not p then return end
-    
     local Strge = CosmeticApi.LoadData(p ,Data)
-    Strge:SpawnAllEquipment()
     p.clientUserData.CosStorage = Strge
+    if p == LOCAL_PLAYER then return end 
+    
+    Strge:SpawnAllEquipment()
 
 end
 

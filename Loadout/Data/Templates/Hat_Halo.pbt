@@ -124,7 +124,6 @@ Assets {
         }
         ParentId: 14607230258698030692
         ChildIds: 5004139434089730692
-        ChildIds: 11732221389378734964
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -241,109 +240,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 11732221389378734964
-        Name: "Hemisphere"
-        Transform {
-          Location {
-            X: -1.08750558
-            Z: 63.5079498
-          }
-          Rotation {
-            Yaw: 90.0000076
-            Roll: 175.515533
-          }
-          Scale {
-            X: 0.111515306
-            Y: 0.111515306
-            Z: 0.111515306
-          }
-        }
-        ParentId: 17187637844337394363
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Colour"
-            Color {
-              R: 0.259
-              G: 0.234026283
-              B: 0.0233099926
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.125
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.125
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 17757107077331896001
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              R: 0.145833
-              G: 0.145833
-              B: 0.145833
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.259
-              G: 0.234026283
-              B: 0.0233099926
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4242083850353116850
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7445456641610868219
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-      }
     }
     Assets {
       Id: 7445456641610868219
@@ -370,15 +266,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_basic_001"
-      }
-    }
-    Assets {
-      Id: 4242083850353116850
-      Name: "Force Field"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_forceField"
       }
     }
     PrimaryAssetId {

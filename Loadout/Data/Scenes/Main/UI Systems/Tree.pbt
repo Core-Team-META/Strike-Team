@@ -1033,8 +1033,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
-    UIX: -48.0944824
-    UIY: 305.052399
+    UIX: -50
+    UIY: 190
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1251,8 +1251,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
-    UIX: -48.0944824
-    UIY: 235.052414
+    UIX: -50
+    UIY: 130
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1474,8 +1474,8 @@ Objects {
   Control {
     Width: 50
     Height: 50
-    UIX: -48.0944824
-    UIY: 165.052414
+    UIX: -50
+    UIY: 70
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1569,7 +1569,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 200
+    Width: 69
     Height: 60
     UIX: 60.3772964
     UIY: -41.4360504
@@ -1579,7 +1579,7 @@ Objects {
       }
     }
     Text {
-      Label: "Colour"
+      Label: "Color"
       Color {
         R: 1
         G: 1
@@ -1588,7 +1588,7 @@ Objects {
       }
       Size: 20
       Justification {
-        Value: "mc:etextjustify:right"
+        Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
@@ -5108,6 +5108,12 @@ Objects {
       Name: "cs:OnReleased"
       Bool: true
     }
+    Overrides {
+      Name: "cs:PressedSound"
+      AssetReference {
+        Id: 14421173726486050771
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5532,6 +5538,12 @@ Objects {
     Overrides {
       Name: "cs:OnReleased"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:PressedSound"
+      AssetReference {
+        Id: 14421173726486050771
+      }
     }
   }
   Collidable_v2 {
@@ -5958,6 +5970,12 @@ Objects {
       Name: "cs:OnReleased"
       Bool: true
     }
+    Overrides {
+      Name: "cs:PressedSound"
+      AssetReference {
+        Id: 14421173726486050771
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6383,6 +6401,12 @@ Objects {
       Name: "cs:OnReleased"
       Bool: true
     }
+    Overrides {
+      Name: "cs:PressedSound"
+      AssetReference {
+        Id: 14421173726486050771
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6807,6 +6831,12 @@ Objects {
     Overrides {
       Name: "cs:OnReleased"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:PressedSound"
+      AssetReference {
+        Id: 14421173726486050771
+      }
     }
   }
   Collidable_v2 {

@@ -30,14 +30,6 @@ Assets {
           Overrides {
             Name: "cs:Colour_2"
             Color {
-              G: 0.114238225
-              B: 0.690000057
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "cs:Colour_3"
-            Color {
               R: 0.2106
               G: 0.234
               B: 0.22425
@@ -981,6 +973,14 @@ Assets {
             Name: "bp:Blur"
             Float: 0
           }
+          Overrides {
+            Name: "cs:Colour"
+            Color {
+              G: 0.114238225
+              B: 0.690000057
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1212,6 +1212,14 @@ Assets {
           Overrides {
             Name: "bp:Blur"
             Float: 0
+          }
+          Overrides {
+            Name: "cs:Colour"
+            Color {
+              G: 0.114238225
+              B: 0.690000057
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -1575,6 +1583,14 @@ Assets {
           Overrides {
             Name: "bp:Blur"
             Float: 0
+          }
+          Overrides {
+            Name: "cs:Colour"
+            Color {
+              G: 0.114238225
+              B: 0.690000057
+              A: 1
+            }
           }
         }
         Collidable_v2 {

@@ -174,6 +174,9 @@ local function SendToVictoryScreen() -- topThreePlayerStats
 
 	Task.Wait(.1)
 	Events.Broadcast("HideUI")
+	if LocalPlayer.clientUserData.CosStorage then
+		LocalPlayer.clientUserData.CosStorage:SpawnAllEquipment()
+	end
 end
 
 --	nil SendToVictoryScreen(string)
@@ -196,6 +199,9 @@ local function RestoreFromPodium()
 
 		local resourcePanel = panel:GetCustomProperty("ResourcePanel"):WaitForObject()
 		resourcePanel.visibility = Visibility.FORCE_OFF
+	end
+	if LocalPlayer.clientUserData.CosStorage then
+		LocalPlayer.clientUserData.CosStorage:TakeoffAllEquipment()
 	end
 end
 

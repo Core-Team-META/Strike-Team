@@ -9243,6 +9243,7 @@ Objects {
   }
   ParentId: 5572585090989607201
   ChildIds: 16587399745843336603
+  ChildIds: 4839022957254451927
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9325,6 +9326,47 @@ Objects {
     SubobjectId: 6884333129294924813
     InstanceId: 8407770843039933942
     TemplateId: 8101106359021042753
+  }
+}
+Objects {
+  Id: 4839022957254451927
+  Name: "GenericButtonScript_1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5458984487498918660
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:PressedSound"
+      AssetReference {
+        Id: 9290807348879592559
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7641244062269779132
+    }
   }
 }
 Objects {

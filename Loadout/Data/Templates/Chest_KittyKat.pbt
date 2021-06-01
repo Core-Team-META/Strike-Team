@@ -28,7 +28,7 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:Colour_3"
+            Name: "cs:Colour_2"
             Color {
               R: 0.65625
               G: 0.65625

@@ -168,6 +168,7 @@ function Database:RegisterEquipment()
                 NewItem["scale"] = Item:GetCustomProperty("Scale")
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
                 NewItem["level"] = Item:GetCustomProperty("Level")
+                NewItem["event"] = Item:GetCustomProperty("Event")
                 NewItem["cost"] = Item:GetCustomProperty("Cost")
                 local ItemSkins = {}
 

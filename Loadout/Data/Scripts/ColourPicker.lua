@@ -100,6 +100,7 @@ local function Update()
 end
 
 local function Checkmouse(mouse)
+    if not Object.IsValid(Window) then return end 
     if mouse.x >= colourPicker.x and mouse.x <= colourPicker.x + Window.width then
         if mouse.y >= colourPicker.y and mouse.y <= colourPicker.y + Window.height then
             return true
