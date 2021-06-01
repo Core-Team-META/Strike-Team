@@ -218,6 +218,10 @@ Objects {
         }
       }
     }
+    Overrides {
+      Name: "cs:MainGameId"
+      String: "ace269/strike-team-staging"
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

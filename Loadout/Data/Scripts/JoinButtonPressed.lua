@@ -13,7 +13,7 @@ Join_Match.pressedEvent:Connect(function(player)
         v:SetColor(Color.WHITE)
         v.text = "JOINING..."
     end
-    Join_Match.isInteractable = false
+    --Join_Match.isInteractable = false
 end)
 function Hover()
     World.SpawnAsset(HOVER_SOUND)

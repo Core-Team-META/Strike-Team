@@ -71,11 +71,11 @@ Objects {
     RespawnSettings {
       RespawnDelay: 20
       RespawnMode_v2 {
-        Value: "mc:erespawnmode:none"
+        Value: "mc:erespawnmode:random"
       }
       StartSpawned: true
       SpawnMode {
-        Value: "mc:erespawnmode:none"
+        Value: "mc:erespawnmode:random"
       }
     }
   }
