@@ -42,6 +42,7 @@ Objects {
     UseParentWidth: true
     Panel {
       IsClipping: true
+      Opacity: 1
     }
     AnchorLayout {
       SelfAnchor {

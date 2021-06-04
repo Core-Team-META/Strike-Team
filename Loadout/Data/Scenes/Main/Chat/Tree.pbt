@@ -93,6 +93,7 @@ Objects {
       ContentType {
         Value: "mc:ecanvascontenttype:static"
       }
+      Opacity: 1
     }
     AnchorLayout {
       SelfAnchor {

@@ -2,7 +2,7 @@ Assets {
   Id: 13809642894536784205
   Name: "SAR_IvyBrown"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 4112319411581861084
     ParameterOverrides {

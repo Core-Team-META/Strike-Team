@@ -1855,6 +1855,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
   DirectlyPublished: true
 }

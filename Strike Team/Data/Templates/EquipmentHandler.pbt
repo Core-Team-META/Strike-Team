@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9720719631736950161
+        ParentId: 16962308734055015238
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -18483,6 +18483,7 @@ Assets {
         ChildIds: 1438303402840179264
         ChildIds: 5559997491953961835
         ChildIds: 14323740801427589961
+        ChildIds: 12072761765932047699
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -21257,6 +21258,68 @@ Assets {
         }
       }
       Objects {
+        Id: 12072761765932047699
+        Name: "Bull"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 500
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 18410810227111814677
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "JS"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
         Id: 18324134503938871822
         Name: "Body"
         Transform {
@@ -22442,6 +22505,6 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
   DirectlyPublished: true
 }

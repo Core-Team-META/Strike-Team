@@ -4545,7 +4545,7 @@ Assets {
     }
     Assets {
       Id: 5607204438265284916
-      Name: "Sci-fi CockPit Control Yoke"
+      Name: "Sci-fi Cockpit Control Yoke"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -4557,5 +4557,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

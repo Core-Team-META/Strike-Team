@@ -2,7 +2,7 @@ Assets {
   Id: 2403501390777126259
   Name: "Plumin Material"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 8010551865339404400
     ParameterOverrides {

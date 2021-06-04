@@ -57,6 +57,10 @@ Assets {
         Int: 10000
       }
       Overrides {
+        Name: "cs:Event"
+        Bool: false
+      }
+      Overrides {
         Name: "cs:ICON"
         AssetReference {
           Id: 841534158063459245
@@ -64,5 +68,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

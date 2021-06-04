@@ -18482,6 +18482,7 @@ Assets {
         ChildIds: 14414139892368084111
         ChildIds: 7157072372198988983
         ChildIds: 2806739814058045598
+        ChildIds: 5630498053835355935
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -21270,6 +21271,68 @@ Assets {
         }
       }
       Objects {
+        Id: 5630498053835355935
+        Name: "Bull"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 500
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 18410810227111814677
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "JS"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
         Id: 18324134503938871822
         Name: "Body"
         Transform {
@@ -22455,6 +22518,6 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
   DirectlyPublished: true
 }

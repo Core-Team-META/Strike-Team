@@ -2,7 +2,7 @@ Assets {
   Id: 15383164767118502040
   Name: "E-RoseGold"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 18339968451170207572
     ParameterOverrides {

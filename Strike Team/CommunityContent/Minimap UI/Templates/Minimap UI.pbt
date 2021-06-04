@@ -7123,6 +7123,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -7177,6 +7178,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -7210,6 +7212,6 @@ Assets {
   Marketplace {
     Description: "Minimap component that converts from 3D geometry to 2D images."
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
   DirectlyPublished: true
 }

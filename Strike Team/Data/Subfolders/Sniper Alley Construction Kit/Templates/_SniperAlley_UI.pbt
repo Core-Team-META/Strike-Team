@@ -295,6 +295,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -347,6 +348,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -565,6 +567,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -617,6 +620,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -733,6 +737,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -948,6 +953,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
         }
       }
@@ -1039,6 +1045,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1331,6 +1338,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1387,6 +1395,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1815,6 +1824,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1867,6 +1877,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2058,6 +2069,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2109,6 +2121,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2345,6 +2358,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2401,6 +2415,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2657,6 +2672,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3004,6 +3020,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3055,6 +3072,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3386,6 +3404,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
         }
       }
@@ -3661,6 +3680,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3719,6 +3739,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4017,6 +4038,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4069,6 +4091,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4179,6 +4202,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4587,6 +4611,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4645,6 +4670,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4878,6 +4904,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -4930,6 +4957,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -5040,6 +5068,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -5476,6 +5505,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
         }
       }
@@ -5558,6 +5588,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -5868,6 +5899,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
         }
       }
@@ -5946,6 +5978,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6425,6 +6458,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
   DirectlyPublished: true
 }

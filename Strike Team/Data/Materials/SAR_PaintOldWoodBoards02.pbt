@@ -2,7 +2,7 @@ Assets {
   Id: 211095931207534132
   Name: "SAR_PaintOldWoodBoards02"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -83,7 +83,7 @@ Assets {
     }
     Assets {
       Id: 10634098119816284342
-      Name: "Wood Planks Dark"
+      Name: "Wood Planks"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
