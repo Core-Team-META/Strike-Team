@@ -342,7 +342,7 @@ function Open(panelsType)
     OpenedSlot = panelsSlot
     ScrollBar.visibility = Visibility.FORCE_ON
     Destroy()
-    local NewGrid = UIGrid.New(CosmeticPanelHolder,{rows = 6,columns = 4, rowGap = 1, columnGap = 1  })
+    local NewGrid = UIGrid.New(CosmeticPanelHolder,{rows = 6,columns = 4, rowGap = 0, columnGap = 0  })
     grid = NewGrid
     local items = Database:ReturnByType(panelsType)
     --SortForRarity
