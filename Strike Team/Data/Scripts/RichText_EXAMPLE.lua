@@ -24,6 +24,13 @@ Text that has an image (<image sword>) which I think is very nice!</font>
 
 
 local text2 = [[
+
+<size 25><font play_bold>6/11/2021</font></size>
+<image gradient -1 3 #FF3300>
+<panel -1 #FF330022>A new chapter for Strike Team has been released!  Strike Team: Sector 9.</panel>
+<panel -1 #FF330022>It's a cyberpunk theme with much more open sight lines.  Check it out!</panel>
+    
+
 <size 25><font play_bold>4/06/2021</font></size>
 <image gradient -1 3 #FF3300>
 <image unlock 50 50><panel -1 #FF330022>Unlock the new HLR (High Latency Rifle) and Disco Ball grenade (guaranteed to make you dance)</panel>
