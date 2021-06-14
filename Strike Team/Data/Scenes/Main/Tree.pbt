@@ -1853,36 +1853,26 @@ Objects {
   ParentId: 4781671109827199097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Loadout"
+      Name: "cs:LifetimeStats"
       NetReference {
-        Key: "e03cb32f106d4d938fec834918210c54"
+        Key: "11256b4712be4090aafc4f045dde3dfe"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
+    }
+    Overrides {
+      Name: "cs:LoadoutGameId"
+      String: "d44cf9/strike-team-loadout"
+    }
+    Overrides {
+      Name: "cs:Sector9GameId"
+      String: "d41902/strike-team-cyberpunk"
     }
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "622a1fb067b54cafac0b23f9a200451c"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "0b19aaed23174f448a5aed32da3e8121"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "f3aca06731e04858bca356f132d21792"
+        Key: "0614df367f2c463c99aea38245c65768"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1891,7 +1881,25 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "da947128d53a40c08be68c05dabc3459"
+        Key: "da3b427656de45498f2bc800a3933c3a"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "7bf8942c1f3d4343a255a13c70c47ae2"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "f97cadca8e514bef92a61930b4cdfdba"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
