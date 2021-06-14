@@ -1,10 +1,23 @@
 Assets {
-  Id: 14552645724736445702
-  Name: "cyber_lifetimeStats"
+  Id: 18112181854124328241
+  Name: "rk_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "11256b4712be4090aafc4f045dde3dfe"
+      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 16394173622944938877
+  Name: "rk_lifetimeStats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "c2715efc42804192adb3a7a61f6a5a54"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -34,12 +47,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8596995190340451925
-  Name: "cyberStats"
+  Id: 4913206872551839941
+  Name: "rk_miscKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "7bf8942c1f3d4343a255a13c70c47ae2"
+      Key: "2f22de0638f947c5a5a29230715bb425"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -47,38 +60,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4732401509718136674
-  Name: "cyber_miscKey"
+  Id: 1879301948648079173
+  Name: "rk_statKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "da3b427656de45498f2bc800a3933c3a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 4142247769249197525
-  Name: "cyber_storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0614df367f2c463c99aea38245c65768"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 2792441043426950249
-  Name: "cyber_statkey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "b98d958ee5c14580a68ffa5d844dc2bc"
+      Key: "5136aed1ee224d43ae31f585325283fa"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

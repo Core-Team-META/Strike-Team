@@ -12,51 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16130756219291047358
-  Name: "storage"
+  Id: 17098867804061942109
+  Name: "rk_statKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "622a1fb067b54cafac0b23f9a200451c"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 15685842331933966085
-  Name: "lifetime"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "f3aca06731e04858bca356f132d21792"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 14272866346472689332
-  Name: "loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e03cb32f106d4d938fec834918210c54"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 13278419134147897285
-  Name: "statkey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0b19aaed23174f448a5aed32da3e8121"
+      Key: "5136aed1ee224d43ae31f585325283fa"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -90,6 +51,19 @@ Assets {
   }
 }
 Assets {
+  Id: 8537936999811835718
+  Name: "rk_miscKey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "2f22de0638f947c5a5a29230715bb425"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 8444988906755860980
   Name: "StrikeCoin300"
   PlatformAssetType: 24
@@ -116,6 +90,19 @@ Assets {
   }
 }
 Assets {
+  Id: 8259021577697424281
+  Name: "rk_loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "f97cadca8e514bef92a61930b4cdfdba"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 7531652432943028459
   Name: "StrikeCoin750"
   PlatformAssetType: 24
@@ -129,12 +116,25 @@ Assets {
   }
 }
 Assets {
-  Id: 7099228659197369566
-  Name: "Misc"
+  Id: 5164536321356144652
+  Name: "rk_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "da947128d53a40c08be68c05dabc3459"
+      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 1643888927919101274
+  Name: "rk_lifetimeStats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "c2715efc42804192adb3a7a61f6a5a54"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

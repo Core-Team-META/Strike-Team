@@ -174,9 +174,22 @@ Objects {
   ParentId: 4781671109827199097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Storage"
+      Name: "cs:LifetimeStats"
       NetReference {
-        Key: "622a1fb067b54cafac0b23f9a200451c"
+        Key: "c2715efc42804192adb3a7a61f6a5a54"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MainGameId"
+      String: "f27503/strike-team-rk"
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "5136aed1ee224d43ae31f585325283fa"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -185,25 +198,16 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "e03cb32f106d4d938fec834918210c54"
+        Key: "f97cadca8e514bef92a61930b4cdfdba"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
     }
     Overrides {
-      Name: "cs:StatKey"
+      Name: "cs:Storage"
       NetReference {
-        Key: "0b19aaed23174f448a5aed32da3e8121"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "f3aca06731e04858bca356f132d21792"
+        Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -212,15 +216,11 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "da947128d53a40c08be68c05dabc3459"
+        Key: "2f22de0638f947c5a5a29230715bb425"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
-    }
-    Overrides {
-      Name: "cs:MainGameId"
-      String: "ace269/strike-team-staging"
     }
   }
   Collidable_v2 {

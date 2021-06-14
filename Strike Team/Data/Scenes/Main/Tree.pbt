@@ -1853,44 +1853,17 @@ Objects {
   ParentId: 4781671109827199097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:LifetimeStats"
-      NetReference {
-        Key: "11256b4712be4090aafc4f045dde3dfe"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:LoadoutGameId"
-      String: "d44cf9/strike-team-loadout"
+      String: "c87dfd/strike-team-loadout-live"
     }
     Overrides {
       Name: "cs:Sector9GameId"
       String: "d41902/strike-team-cyberpunk"
     }
     Overrides {
-      Name: "cs:Storage"
-      NetReference {
-        Key: "0614df367f2c463c99aea38245c65768"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:MiscKey"
-      NetReference {
-        Key: "da3b427656de45498f2bc800a3933c3a"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "7bf8942c1f3d4343a255a13c70c47ae2"
+        Key: "5136aed1ee224d43ae31f585325283fa"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1904,6 +1877,37 @@ Objects {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
+    }
+    Overrides {
+      Name: "cs:LifetimeStats"
+      NetReference {
+        Key: "c2715efc42804192adb3a7a61f6a5a54"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MiscKey"
+      NetReference {
+        Key: "2f22de0638f947c5a5a29230715bb425"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MainGameId"
+      String: "f27503/strike-team-rk"
     }
   }
   Collidable_v2 {
