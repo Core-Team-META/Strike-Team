@@ -225,6 +225,7 @@ Assets {
             RespawnMode_v2 {
               Value: "mc:erespawnmode:farthestfromotherplayers"
             }
+            StartSpawned: true
           }
         }
       }
@@ -1225,6 +1226,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
   DirectlyPublished: true
 }

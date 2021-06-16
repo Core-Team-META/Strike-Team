@@ -2,7 +2,7 @@ Assets {
   Id: 17214688575159178028
   Name: "Custom Food Strawberry 01"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 6278985560465791740
     ParameterOverrides {

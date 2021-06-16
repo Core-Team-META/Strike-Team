@@ -243,6 +243,10 @@ Objects {
       BackgroundColor {
         A: 0.577
       }
+      FillBrush {
+      }
+      BackgroundBrush {
+      }
     }
     AnchorLayout {
       SelfAnchor {

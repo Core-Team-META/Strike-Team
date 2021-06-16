@@ -4,6 +4,8 @@ local Database = _G["DataBase"]
 local JSON = require(script:GetCustomProperty("JSON"))
 local EventSetUp = require(script:GetCustomProperty("EventSetUp"))
 
+local HeadScale = 1.4
+
 local BaseCosmeticTable = {
     Head = {
         id, 
@@ -92,7 +94,8 @@ function PlayerCosmeticStorage:SpawnSlot(slot)
     if not item then return end
     
     local Part = item:SpawnEquipment()
-    if Part then
+    if Part then 
+        if slot == "Hats" then Part:SetScale(Vector3.New(HeadScale)) end
         Part:AttachToPlayer(self.owner, Part.socket)
         self.SpawnedItems = self.SpawnedItems or {}
         self.SpawnedItems[slot] = Part
@@ -112,7 +115,8 @@ function PlayerCosmeticStorage:SpawnSlotThrowaway(slot)
     local item = Database:ReturnEquipmentById(slotData.id)
     if not item then return end
     local Part = item:SpawnEquipment()
-    if Part then
+    if Part then 
+        if slot == "Hats" then Part:SetScale(Vector3.New(HeadScale)) end
         Part:AttachToPlayer(self.owner, Part.socket)
         self:ColourPartFromSlot(Part, slot)
         return Part, item

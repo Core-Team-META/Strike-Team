@@ -34,6 +34,7 @@ Assets {
             RespawnMode_v2 {
               Value: "mc:erespawnmode:none"
             }
+            StartSpawned: true
           }
         }
       }
@@ -113,5 +114,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }

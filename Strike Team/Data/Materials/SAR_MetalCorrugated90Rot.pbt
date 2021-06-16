@@ -2,7 +2,7 @@ Assets {
   Id: 14217004057577764274
   Name: "SAR_MetalCorrugated90Rot"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 15845978494127635071
     ParameterOverrides {

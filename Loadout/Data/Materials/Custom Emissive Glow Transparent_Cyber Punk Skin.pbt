@@ -2,7 +2,7 @@ Assets {
   Id: 3411044214816919471
   Name: "Custom Emissive Glow Transparent_Cyber Punk Skin"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 9012634881940008866
     ParameterOverrides {

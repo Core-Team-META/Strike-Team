@@ -2,7 +2,7 @@ Assets {
   Id: 8351192741792323115
   Name: "Kustom Weapon Metallic Mat"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 8976318233260387419
     ParameterOverrides {

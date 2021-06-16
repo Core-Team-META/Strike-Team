@@ -2,7 +2,7 @@ Assets {
   Id: 7851600519218198864
   Name: "E-Flourish"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 2877326018475520009
     ParameterOverrides {

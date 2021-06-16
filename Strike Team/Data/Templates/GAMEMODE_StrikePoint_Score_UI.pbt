@@ -1062,6 +1062,10 @@ Assets {
               G: 0.0520833321
               B: 0.0520833321
             }
+            FillBrush {
+            }
+            BackgroundBrush {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1826,6 +1830,10 @@ Assets {
               R: 0.0520833321
               G: 0.0520833321
               B: 0.0520833321
+            }
+            FillBrush {
+            }
+            BackgroundBrush {
             }
           }
           AnchorLayout {
@@ -10425,5 +10433,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }

@@ -3234,6 +3234,10 @@ Objects {
         A: 1
       }
       Percent: 0.274275094
+      FillBrush {
+      }
+      BackgroundBrush {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4762,6 +4766,10 @@ Objects {
         B: 0.5
         A: 1
       }
+      FillBrush {
+      }
+      BackgroundBrush {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -5253,6 +5261,10 @@ Objects {
         G: 0.5
         B: 0.5
         A: 1
+      }
+      FillBrush {
+      }
+      BackgroundBrush {
       }
     }
     AnchorLayout {

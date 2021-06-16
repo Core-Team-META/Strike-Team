@@ -10,7 +10,13 @@ Assets {
           Id: 7541650775654773469
         }
       }
+      Overrides {
+        Name: "cs:EventSetUp"
+        AssetReference {
+          Id: 7590394335736721718
+        }
+      }
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }

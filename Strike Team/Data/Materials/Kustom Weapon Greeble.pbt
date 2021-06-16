@@ -2,7 +2,7 @@ Assets {
   Id: 241736841081696399
   Name: "Kustom Weapon Greeble"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 9763074187360337054
     ParameterOverrides {

@@ -24,6 +24,8 @@ local ColourSelector = script:GetCustomProperty("ColourSelector")
 
 local ShowOnlyOwned = script:GetCustomProperty("ShowOnlyOwned")
 
+local HeadSize = 1.4
+
 
 local ButtonMap = {
     ["Colour_1"] = ColourButton_1,
@@ -284,6 +286,7 @@ function SetUpButtons(button, slot)
     
     button.hoveredEvent:Connect(function()
         HoverItem = button.clientUserData.item:SpawnEquipment()
+        if slot == "Hats" then HoverItem:SetScale(Vector3.New(HeadSize)) end
         if HoverItem then
             CosmeticStorage:HideSlot(slot)
             --Come back to this when bug is fixed

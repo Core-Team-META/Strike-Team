@@ -35,6 +35,7 @@ Assets {
             RespawnMode_v2 {
               Value: "mc:erespawnmode:farthestfromenemy"
             }
+            StartSpawned: true
             SpawnMode {
               Value: "mc:erespawnmode:atclosestspawnpoint"
             }
@@ -117,5 +118,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }

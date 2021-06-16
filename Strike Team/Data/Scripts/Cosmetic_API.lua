@@ -1,8 +1,10 @@
-while not _G["DataBase"] do Task.Wait() end
+    while not _G["DataBase"] do Task.Wait() end
 local Database = _G["DataBase"]
 
-
 local JSON = require(script:GetCustomProperty("JSON"))
+local EventSetUp = require(script:GetCustomProperty("EventSetUp"))
+
+local HeadScale = 1.4
 
 local BaseCosmeticTable = {
     Head = {
@@ -24,7 +26,9 @@ local BaseCosmeticTable = {
 
 local CosmeticApi = {}
 
-local PlayerCosmeticStorage = {}
+local PlayerCosmeticStorage = {
+    updateEvent = EventSetUp.New()
+}
 PlayerCosmeticStorage.__index = PlayerCosmeticStorage
 PlayerCosmeticStorage.__tostring = function(t)
     local a = JSON.Encode(t.data)
@@ -32,23 +36,40 @@ PlayerCosmeticStorage.__tostring = function(t)
     
 end
 
-local function Verify(id)
-    return true
+local function Verify(id,player)
+    local Stg
+
+    if Environment.IsClient() then 
+        Stg = player.clientUserData.Storage
+    elseif Environment.IsServer then 
+        Stg = player.serverUserData.Storage 
+    end
+    if not Stg then return false end
+       
+    return Stg:HasWeapon(id) 
 end
 
 function PlayerCosmeticStorage:GetData()
     return self.data
 end
 
+function PlayerCosmeticStorage:IsEquipped(id)
+    for key, value in pairs(self.data) do
+       if value.id == id then return true end 
+    end
+    return false
+end
+
+function PlayerCosmeticStorage:IsEquippedSlot(id,slot)
+    if self.data[slot] then 
+       if self.data[slot].id == id then return true end 
+    end
+    return false
+end
+
 function PlayerCosmeticStorage:SpawnAllEquipment()
     for key, value in pairs(self.data) do
         self:SpawnSlot(key)
-    end
-end
-
-function PlayerCosmeticStorage:TakeoffAllEquipment()
-    for key, value in pairs(self.data) do
-        self:TakeOff(key)
     end
 end
 
@@ -73,7 +94,8 @@ function PlayerCosmeticStorage:SpawnSlot(slot)
     if not item then return end
     
     local Part = item:SpawnEquipment()
-    if Part then
+    if Part then 
+        if slot == "Hats" then Part:SetScale(Vector3.New(HeadScale)) end
         Part:AttachToPlayer(self.owner, Part.socket)
         self.SpawnedItems = self.SpawnedItems or {}
         self.SpawnedItems[slot] = Part
@@ -82,6 +104,25 @@ function PlayerCosmeticStorage:SpawnSlot(slot)
     end
     
 end
+
+
+
+function PlayerCosmeticStorage:SpawnSlotThrowaway(slot)
+    local slotData = self.data[slot]
+    if not slotData then return end
+    if not slotData.id then return end
+    
+    local item = Database:ReturnEquipmentById(slotData.id)
+    if not item then return end
+    local Part = item:SpawnEquipment()
+    if Part then 
+        if slot == "Hats" then Part:SetScale(Vector3.New(HeadScale)) end
+        Part:AttachToPlayer(self.owner, Part.socket)
+        self:ColourPartFromSlot(Part, slot)
+        return Part, item
+    end 
+end
+
 
 function PlayerCosmeticStorage:HideSlot(slot)
     if not slot then return end
@@ -116,7 +157,11 @@ function PlayerCosmeticStorage:TakeOff(slot)
         Item:Destroy()
     end
 end
-
+function PlayerCosmeticStorage:TakeoffAllEquipment()
+    for key, value in pairs(self.data) do
+        self:TakeOff(key)
+    end
+end
 
 function PlayerCosmeticStorage:ColourPartFromSlot(part, slot)
     local slotData = self.data[slot]
@@ -133,11 +178,12 @@ function PlayerCosmeticStorage:ColourPartFromSlot(part, slot)
 
 end
     function PlayerCosmeticStorage:SetSlot(id, slot)
-        if not Verify(id) then return end
+        if not Verify(id,self.owner) then return end
         local item = Database:ReturnEquipmentById(id)
         if not item then return end
         self.data[slot] = {}
         self.data[slot].id = id
+        self.updateEvent:_Fire(self)
     end
 
     function PlayerCosmeticStorage:ClearColorSlot(slot, value)
@@ -147,6 +193,7 @@ end
             self.data[slot]["Colour"..value] = nil
             return
         end
+        self.updateEvent:_Fire(self)
     end
 
 
@@ -159,6 +206,7 @@ end
             return 
         end 
         self.data[slot]["Colour"..value] = newColour
+        self.updateEvent:_Fire(self)
     end
 
 
@@ -189,7 +237,7 @@ end
 
 if Environment.IsClient() then
     function PlayerCosmeticStorage:AskToEquip(id,slot)
-        if Verify(id) then 
+        if Verify(id,Game.GetLocalPlayer()) then 
             Events.BroadcastToServer("Cosmetic.EquipItem", id,slot)
         end
     end

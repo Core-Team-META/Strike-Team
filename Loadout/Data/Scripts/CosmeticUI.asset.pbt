@@ -11,7 +11,7 @@ Assets {
       Overrides {
         Name: "cs:CosmeticPanelHolder"
         ObjectReference {
-          SelfId: 14176925872793247997
+          SelfId: 8916008824758475134
         }
       }
       Overrides {
@@ -65,31 +65,31 @@ Assets {
       Overrides {
         Name: "cs:ScrollBar"
         ObjectReference {
-          SelfId: 6744925014553433750
+          SelfId: 2485337917361953655
         }
       }
       Overrides {
         Name: "cs:ColourButton_1"
         ObjectReference {
-          SelfId: 6717235304866117153
+          SelfId: 14544100128512213444
         }
       }
       Overrides {
         Name: "cs:ColourButton_2"
         ObjectReference {
-          SelfId: 10010340932533385648
+          SelfId: 1488928669324571201
         }
       }
       Overrides {
         Name: "cs:ColourButton_3"
         ObjectReference {
-          SelfId: 9224145339214938804
+          SelfId: 10502981380752957818
         }
       }
       Overrides {
         Name: "cs:CosmeticUI"
         ObjectReference {
-          SelfId: 17655135149302427299
+          SelfId: 7135802367887905613
         }
       }
       Overrides {
@@ -101,7 +101,7 @@ Assets {
       Overrides {
         Name: "cs:CosmeticSlotSelectPanels"
         ObjectReference {
-          SelfId: 12455349670347266553
+          SelfId: 2293076863331418771
         }
       }
       Overrides {
@@ -113,7 +113,7 @@ Assets {
       Overrides {
         Name: "cs:ImageFolder"
         ObjectReference {
-          SelfId: 12684295134426022027
+          SelfId: 10129214997555157612
         }
       }
       Overrides {
@@ -124,5 +124,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }
