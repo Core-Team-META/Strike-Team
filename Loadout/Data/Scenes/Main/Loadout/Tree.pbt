@@ -9584,11 +9584,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 9999
+          Int: 0
         }
         Overrides {
           Name: "cs:IsEnabled"
-          Bool: false
+          Bool: true
         }
       }
     }
@@ -9709,11 +9709,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 9999
+          Int: 0
         }
         Overrides {
           Name: "cs:IsEnabled"
-          Bool: false
+          Bool: true
         }
       }
     }
@@ -9830,7 +9830,7 @@ Objects {
       value {
         Overrides {
           Name: "cs:LevelLock"
-          Int: 9999
+          Int: 0
         }
         Overrides {
           Name: "cs:Slot"
@@ -9838,7 +9838,7 @@ Objects {
         }
         Overrides {
           Name: "cs:IsEnabled"
-          Bool: false
+          Bool: true
         }
       }
     }
@@ -9959,11 +9959,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 9999
+          Int: 0
         }
         Overrides {
           Name: "cs:IsEnabled"
-          Bool: false
+          Bool: true
         }
       }
     }
@@ -10084,11 +10084,11 @@ Objects {
         }
         Overrides {
           Name: "cs:LevelLock"
-          Int: 9999
+          Int: 0
         }
         Overrides {
           Name: "cs:IsEnabled"
-          Bool: false
+          Bool: true
         }
       }
     }
@@ -10205,6 +10205,10 @@ Objects {
           Name: "cs:LevelLock"
           Int: 0
         }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: true
+        }
       }
     }
     ParameterOverrideMap {
@@ -10308,6 +10312,10 @@ Objects {
           Name: "cs:LevelLock"
           Int: 0
         }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: true
+        }
       }
     }
     ParameterOverrideMap {
@@ -10400,6 +10408,14 @@ Objects {
           AssetReference {
             Id: 9290807348879592559
           }
+        }
+        Overrides {
+          Name: "cs:LevelLock"
+          Int: 0
+        }
+        Overrides {
+          Name: "cs:IsEnabled"
+          Bool: true
         }
       }
     }

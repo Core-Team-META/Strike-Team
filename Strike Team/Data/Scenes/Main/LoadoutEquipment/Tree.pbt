@@ -6061,7 +6061,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 10
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
@@ -6071,7 +6071,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IsEnabled"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -7033,7 +7033,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 10
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
@@ -7043,7 +7043,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IsEnabled"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -8005,7 +8005,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 10
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
@@ -8015,7 +8015,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IsEnabled"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -8977,7 +8977,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 10
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
@@ -8987,7 +8987,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IsEnabled"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -9949,7 +9949,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 10
+      Int: 0
     }
     Overrides {
       Name: "cs:BackgroundImage"
@@ -9959,7 +9959,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IsEnabled"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -10929,6 +10929,10 @@ Objects {
         SelfId: 14248876017231916467
       }
     }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11897,6 +11901,10 @@ Objects {
         SelfId: 4493751857567755252
       }
     }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -12859,6 +12867,10 @@ Objects {
     Overrides {
       Name: "cs:Level"
       Int: 0
+    }
+    Overrides {
+      Name: "cs:IsEnabled"
+      Bool: true
     }
   }
   Collidable_v2 {
