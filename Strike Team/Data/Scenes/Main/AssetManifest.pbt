@@ -1,36 +1,10 @@
 Assets {
-  Id: 18112181854124328241
-  Name: "rk_storage"
+  Id: 14493788940556567060
+  Name: "st_statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 16394173622944938877
-  Name: "rk_lifetimeStats"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "c2715efc42804192adb3a7a61f6a5a54"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 10725124968412774365
-  Name: "rk_loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "f97cadca8e514bef92a61930b4cdfdba"
+      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -47,12 +21,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4913206872551839941
-  Name: "rk_miscKey"
+  Id: 7072743535490727809
+  Name: "st_loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "2f22de0638f947c5a5a29230715bb425"
+      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -60,12 +34,38 @@ Assets {
   }
 }
 Assets {
-  Id: 1879301948648079173
-  Name: "rk_statKey"
+  Id: 3361893309589346056
+  Name: "st_lifetime"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5136aed1ee224d43ae31f585325283fa"
+      Key: "02099a9ad11e4ae3b4443adf78c87879"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 2991868887436413725
+  Name: "st_misc"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "c5fb03576a6c43939301da448ca2640e"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 2856178175105670194
+  Name: "st_storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

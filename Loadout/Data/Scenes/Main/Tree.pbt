@@ -176,7 +176,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "c2715efc42804192adb3a7a61f6a5a54"
+        Key: "02099a9ad11e4ae3b4443adf78c87879"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -184,30 +184,12 @@ Objects {
     }
     Overrides {
       Name: "cs:MainGameId"
-      String: "f27503/strike-team-rk"
-    }
-    Overrides {
-      Name: "cs:StatKey"
-      NetReference {
-        Key: "5136aed1ee224d43ae31f585325283fa"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "f97cadca8e514bef92a61930b4cdfdba"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
+      String: "9442a4/strike-team"
     }
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
+        Key: "14e8666bb5fc4042bd0625b1a7b87e05"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -216,7 +198,25 @@ Objects {
     Overrides {
       Name: "cs:MiscKey"
       NetReference {
-        Key: "2f22de0638f947c5a5a29230715bb425"
+        Key: "c5fb03576a6c43939301da448ca2640e"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:StatKey"
+      NetReference {
+        Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
