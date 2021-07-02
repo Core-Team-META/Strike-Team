@@ -198,7 +198,7 @@ function OnDestroyed(object)
         if player.serverUserData.onStrikePoint and currentTeam == player.team then
             player:AddResource("Objective", 5)
             player:AddResource("Score", 50)
-            
+            Events.Broadcast("AddRewardPointsProgress", player, 3, 1)
         elseif player.serverUserData.supportCapture and currentTeam == player.team then
             -- player:AddResource("Objective", 1) #TODO currently shows a float 0.20 on scoreboard
             player:AddResource("Support", 1)

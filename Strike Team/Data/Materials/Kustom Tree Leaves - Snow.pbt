@@ -2,7 +2,7 @@ Assets {
   Id: 15487543338840681538
   Name: "Kustom Tree Leaves - Snow"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 91
   CustomMaterialAsset {
     BaseMaterialId: 18007341658034626973
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 13394320204891036662
   Name: "Custom Plastic Shiny_wiffle bat"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 91
   CustomMaterialAsset {
     BaseMaterialId: 10498479629754026470
     ParameterOverrides {

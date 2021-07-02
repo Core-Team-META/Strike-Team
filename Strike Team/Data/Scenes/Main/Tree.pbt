@@ -75,7 +75,7 @@ Objects {
       }
       StartSpawned: true
       SpawnMode {
-        Value: "mc:erespawnmode:random"
+        Value: "mc:espawnmode:random"
       }
     }
   }
@@ -2051,6 +2051,7 @@ Objects {
     VoxelSize: 200
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
+    MaxLOD: 32
   }
 }
 Objects {
@@ -2134,5 +2135,6 @@ Objects {
         Max: 102400
       }
     }
+    MaxLOD: 32
   }
 }

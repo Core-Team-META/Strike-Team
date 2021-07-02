@@ -1,5 +1,5 @@
 GameId: "34253646444D2E3604C92F9573041504"
 DisplayName: "Strike Team Live"
-GameSerializationVersion: 89
+GameSerializationVersion: 91
 Framework: "Empty Project"
 StorageVersion: 2

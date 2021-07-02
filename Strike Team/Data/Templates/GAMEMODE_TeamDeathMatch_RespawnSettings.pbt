@@ -37,7 +37,7 @@ Assets {
             }
             StartSpawned: true
             SpawnMode {
-              Value: "mc:erespawnmode:atclosestspawnpoint"
+              Value: "mc:espawnmode:random"
             }
           }
         }
@@ -118,5 +118,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 91
 }
