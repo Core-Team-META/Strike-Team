@@ -2,7 +2,7 @@ Assets {
   Id: 13269812142514884752
   Name: "SAR_StoreFloor"
   PlatformAssetType: 13
-  SerializationVersion: 91
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 1621043139137004612
     ParameterOverrides {

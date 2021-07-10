@@ -2,7 +2,7 @@ Assets {
   Id: 17350508361531197669
   Name: "Custom Base Material from Modern Weapon - Barrel 02"
   PlatformAssetType: 13
-  SerializationVersion: 91
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 11695317953937133531
     ParameterOverrides {

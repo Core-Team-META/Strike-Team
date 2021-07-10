@@ -2,7 +2,7 @@ Assets {
   Id: 16855290770339385385
   Name: "SAR_PaintOldWallWornPlasterYellow"
   PlatformAssetType: 13
-  SerializationVersion: 91
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

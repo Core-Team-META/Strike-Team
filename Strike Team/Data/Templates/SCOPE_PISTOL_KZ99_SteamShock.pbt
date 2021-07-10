@@ -4839,7 +4839,7 @@ Assets {
     }
     Assets {
       Id: 17530944656157844219
-      Name: "Animated Neon Sign- Sun"
+      Name: "Animated Neon Sign - Sun"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -4968,5 +4968,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 91
+  SerializationVersion: 92
 }

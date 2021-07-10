@@ -27,6 +27,7 @@ function AddRewardPoints(player, rewardId)
             data[StorageKey] = data[StorageKey] or {}
             data[StorageKey][rewardId] = yearDay
             player:GrantRewardPoints(CoreMath.Round(RewardPoints[rewardId].amount), RewardPoints[rewardId].name)
+            player:SetPrivateNetworkedData("RewardPoints", RewardPoints[rewardId])
             Storage.SetPlayerData(player, data)
         end
     end
@@ -36,12 +37,19 @@ end
 --@params Int rewardId
 --@params Int value
 function AddRewardPointsProgress(player, rewardId, value)
+    if not Object.IsValid(player) then
+        return
+    end
     local playerRewardData = player.serverUserData.rewardPointsProgress or {}
+    if playerRewardData[rewardId] and playerRewardData[rewardId] == "Claimed" then
+        return
+    end
     playerRewardData[rewardId] = playerRewardData[rewardId] or 0
     playerRewardData[rewardId] = playerRewardData[rewardId] + value
 
-    if playerRewardData[rewardId] == RewardPoints[rewardId].required then
+    if playerRewardData[rewardId] >= RewardPoints[rewardId].required then
         AddRewardPoints(player, rewardId)
+        playerRewardData[rewardId] = "Claimed"
     end
     player.serverUserData.rewardPointsProgress = playerRewardData
 end

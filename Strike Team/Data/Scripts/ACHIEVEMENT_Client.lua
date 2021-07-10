@@ -19,7 +19,10 @@ local ACHIEVEMENT_LIST = script:GetCustomProperty("Achievement_List"):WaitForObj
 local NOTIFICATION = script:GetCustomProperty("NOTIFICATION"):WaitForObject()
 local NOTIFICATION_ICON_BG = NOTIFICATION:GetCustomProperty("ICONBG"):WaitForObject()
 local NOTIFICATION_ICON = NOTIFICATION:GetCustomProperty("ICON"):WaitForObject()
+local NOTIFICATION_TITLE = NOTIFICATION:GetCustomProperty("TITLE_TEXT"):WaitForObject()
 local ACHIEVEMENT_NAME_TEXT = NOTIFICATION:GetCustomProperty("ACHIEVEMENT_NAME_TEXT"):WaitForObject()
+
+
 local ACHIEVEMENT_CONTAINER = script:GetCustomProperty("CONTAINER"):WaitForObject()
 local ACHIEVEMENTS_DETAILS_UI = script:GetCustomProperty("ACHIEVEMENTS_DETAILS_UI"):WaitForObject()
 
@@ -32,6 +35,7 @@ local AchievementPanelTemplate = script:GetCustomProperty("Achievement_EndScreen
 ------------------------------------------------------------------------------------------------------------------------
 local shouldShow = false
 local achievementQueue = {}
+local rewardQueue = {}
 local achievementIds = {}
 local listeners = {}
 local scriptListeners = {}
@@ -133,9 +137,23 @@ local function BuildAchievementInfoPanel()
 end
 
 local function AnimateNotification(id)
+    NOTIFICATION_TITLE.text = "Achievement Unlocked!"
     NOTIFICATION_ICON:SetImage(ACH_API.GetAchievementIcon(id))
     NOTIFICATION_ICON_BG:SetImage(ACH_API.GetAchievementIconBG(id))    
     ACHIEVEMENT_NAME_TEXT.text = (ACH_API.GetAchievementName(id))
+    EaseUI.EaseX(NOTIFICATION, 10, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.OUT)
+    Task.Wait(0.5)
+    World.SpawnAsset(SFX)
+    Task.Wait(5)
+    EaseUI.EaseX(NOTIFICATION, 400, 1, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.OUT)
+    Task.Wait(1)
+end
+
+local function RewardNotification(reward)
+    NOTIFICATION_TITLE.text = "(" .. tostring(reward.amount) .. ") Reward Points Granted"
+    NOTIFICATION_ICON:SetImage(reward.icon)
+    --NOTIFICATION_ICON_BG:SetImage(ACH_API.GetAchievementIconBG(id))    
+    ACHIEVEMENT_NAME_TEXT.text = reward.name .. " Completed"
     EaseUI.EaseX(NOTIFICATION, 10, 1, EaseUI.EasingEquation.BACK, EaseUI.EasingDirection.OUT)
     Task.Wait(0.5)
     World.SpawnAsset(SFX)
@@ -188,6 +206,10 @@ function OnGameStateChanged(oldState, newState, stateHasDuration, stateEndTime) 
     end
 end
 
+function OnRewardPoints(reward)
+    rewardQueue[#rewardQueue+1] = reward
+end
+
 function Tick()
     if shouldShow and #achievementQueue > 0 then
         for _, id in ipairs(achievementQueue) do
@@ -195,12 +217,18 @@ function Tick()
         end
         achievementQueue = {}
     end
+    if shouldShow and #rewardQueue > 0 then
+        for _, reward in ipairs(rewardQueue) do
+            RewardNotification(reward)
+        end
+        rewardQueue = {}
+    end
 end
 
 Int()
 scriptListeners[#scriptListeners + 1] = LOCAL_PLAYER.resourceChangedEvent:Connect(OnResourceChanged)
 scriptListeners[#scriptListeners + 1] = Events.Connect("GameStateChanged", OnGameStateChanged)
-
+scriptListeners[#scriptListeners + 1] = Events.Connect("RewardPoints", OnRewardPoints) 
 scriptListeners[#scriptListeners + 1] =
     script.destroyEvent:Connect(
     function()

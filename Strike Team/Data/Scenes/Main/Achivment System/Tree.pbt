@@ -1399,7 +1399,6 @@ Objects {
   ChildIds: 4316491756630905114
   ChildIds: 2704440777066524312
   ChildIds: 6067290820026880157
-  ChildIds: 12351778427323255311
   ChildIds: 12040943256766121099
   ChildIds: 11273796401398672734
   UnregisteredParameters {
@@ -1419,6 +1418,12 @@ Objects {
       Name: "cs:ICONBG"
       ObjectReference {
         SelfId: 2704440777066524312
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_TEXT"
+      ObjectReference {
+        SelfId: 12040943256766121099
       }
     }
   }
@@ -1524,7 +1529,7 @@ Objects {
 }
 Objects {
   Id: 12040943256766121099
-  Name: "MAKRO_TEXT"
+  Name: "TITLE_TEXT"
   Transform {
     Location {
     }
@@ -1547,10 +1552,10 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 250
-    Height: 35
-    UIX: -19.3081055
-    UIY: -39.7037964
+    Width: 266
+    Height: 29
+    UIX: -3.36938477
+    UIY: -45.8356781
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1569,70 +1574,16 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
+      ClipTextToSize: true
       Font {
         Id: 10698833128597864431
       }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomright"
-        }
+      ShadowColor {
+        A: 1
       }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 12351778427323255311
-  Name: "MAKRO_TEXT_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1296034572037722118
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 248
-    Height: 35
-    UIX: -22.6364746
-    UIY: -38.2863808
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Achievement Unlocked!"
-      Color {
-        A: 0.614
-      }
-      Size: 16
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 10698833128597864431
+      ShadowOffset {
+        X: 2
+        Y: 2
       }
     }
     AnchorLayout {
@@ -10949,6 +10900,12 @@ Objects {
       Name: "cs:ACHIEVEMENTS_DETAILS_UI"
       ObjectReference {
         SelfId: 4686191015628418938
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_TEXT"
+      ObjectReference {
+        SelfId: 12040943256766121099
       }
     }
   }
