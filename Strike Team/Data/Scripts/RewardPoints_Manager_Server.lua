@@ -1,6 +1,6 @@
 local StorageKey = "RewardPoints"
 local RewardPoints = {
-    [1] = {name = "Play 3 Rounds", amount = 200, required = 3},
+    [1] = {name = "Get 5 Kills", amount = 200, required = 5},
     [2] = {name = "Win 1 Round", amount = 100, required = 1},
     [3] = {name = "Capture 3 Points", amount = 100, required = 3}
 }

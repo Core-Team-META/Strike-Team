@@ -29,16 +29,12 @@ function OnRoundEnd()
 		player:AddResource( STAT_KILLS, player.kills) -- Kills
 		player:AddResource( STAT_DEATHS, player.deaths) -- Deaths
 
-		-- Grant Reward Points
-		Events.Broadcast("AddRewardPointsProgress", player, 1, 1)
 	end
 
 	local winners = Game.GetPlayers({includeTeams = _G["GameWinner"]})
 	for _,player in ipairs(winners) do
 		player:AddResource( STAT_WINS, 1) -- Wins
 
-		-- Grant Reward Points
-		Events.Broadcast("AddRewardPointsProgress", player, 3, 1)
 	end
 	
 	local losers = Game.GetPlayers({ignoreTeams = _G["GameWinner"]})

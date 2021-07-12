@@ -132,6 +132,8 @@ local function PlayerKilled(player, target, weaponType, isHeadShot)
     target.serverUserData.ACH_killCredited = true
     target.serverUserData.ACH_diedInRound = true
 
+    -- Grant Reward Points
+    Events.Broadcast("AddRewardPointsProgress", player, 1, 1)
     --[[ if weaponType == "Rocket Launcher" then
         ACH_API.AddProgress(player, "AS_Rockets", 1)
     end ]]
@@ -229,10 +231,11 @@ function OnRoundEnd()
             tempTbl[target] = "AS_KILLSCAV"
         end
     end
-    
 
     for _, player in ipairs(Game.GetPlayers()) do --
         if (team1 > team2 and player.team == 1) or (team1 < team2 and player.team == 2) then
+            -- Grant Reward Points
+            Events.Broadcast("AddRewardPointsProgress", player, 2, 1)
             for target, achievementId in pairs(tempTbl) do
                 ACH_API.UnlockAchievement(player, achievementId)
                 print(achievementId)
