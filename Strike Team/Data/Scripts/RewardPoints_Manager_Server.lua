@@ -1,6 +1,6 @@
 local StorageKey = "RewardPoints"
 local RewardPoints = {
-    [1] = {name = "Get 5 Kills", amount = 200, required = 5},
+    [1] = {name = "Get 5 Kill", amount = 200, required = 5},
     [2] = {name = "Win 1 Round", amount = 100, required = 1},
     [3] = {name = "Capture 3 Points", amount = 100, required = 3}
 }
@@ -27,7 +27,7 @@ function AddRewardPoints(player, rewardId)
             data[StorageKey] = data[StorageKey] or {}
             data[StorageKey][rewardId] = yearDay
             player:GrantRewardPoints(CoreMath.Round(RewardPoints[rewardId].amount), RewardPoints[rewardId].name)
-            player:SetPrivateNetworkedData("RewardPoints", RewardPoints[rewardId])
+            player:SetPrivateNetworkedData("RewardPoints" .. tostring(rewardId), RewardPoints[rewardId])
             Storage.SetPlayerData(player, data)
         end
     end
@@ -52,6 +52,35 @@ function AddRewardPointsProgress(player, rewardId, value)
         playerRewardData[rewardId] = "Claimed"
     end
     player.serverUserData.rewardPointsProgress = playerRewardData
+    player:SetPrivateNetworkedData("RewardPointClient", playerRewardData)
+end
+
+function OnPlayerJoined(player)
+    local data = Storage.GetPlayerData(player)
+    local yearDay = os.date("*t").yday
+    local playerRewardData = {}
+    if data[StorageKey] then
+        for i, day in pairs(data[StorageKey]) do
+            warn(tostring(i) .. " Day: " .. tostring(day))
+            if yearDay == day then
+                playerRewardData[i] = "Claimed"
+            else
+                playerRewardData[i] = 0
+            end
+        end
+        for i, _ in ipairs(RewardPoints) do
+            if not playerRewardData[i] then
+                playerRewardData[i] = 0
+            end
+        end
+    else
+        for i, _ in ipairs(RewardPoints) do
+            playerRewardData[i] = 0
+        end
+    end
+    player.serverUserData.rewardPointsProgress = playerRewardData
+    player:SetPrivateNetworkedData("RewardPointClient", playerRewardData)
 end
 
 Events.Connect("AddRewardPointsProgress", AddRewardPointsProgress)
+Game.playerJoinedEvent:Connect(OnPlayerJoined)

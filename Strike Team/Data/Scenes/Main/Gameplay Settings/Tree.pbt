@@ -1,7 +1,7 @@
 Name: "Gameplay Settings"
 RootId: 16962308734055015238
 Objects {
-  Id: 14209816769198922176
+  Id: 9123196610976380828
   Name: "Reward Points "
   Transform {
     Location {
