@@ -50,10 +50,10 @@ function OnDataChanged(player, key)
 end
 
 function OnBindingPressed(player, keybind)
-    if keybind == "ability_extra_37" and RewardsPanelMini:IsVisibleInHierarchy() then
+    if keybind == "ability_extra_29" and RewardsPanelMini:IsVisibleInHierarchy() then
         RewardsPanelMini.visibility = Visibility.FORCE_OFF
         RewardsPanel.visibility = Visibility.FORCE_ON
-    elseif keybind == "ability_extra_37" then
+    elseif keybind == "ability_extra_29" then
         RewardsPanelMini.visibility = Visibility.FORCE_ON
         RewardsPanel.visibility = Visibility.FORCE_OFF
     end

@@ -236,7 +236,7 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "[K] View RP Objectives"
+      Label: "[P] View RP Objectives"
       Color {
         R: 1
         G: 1
