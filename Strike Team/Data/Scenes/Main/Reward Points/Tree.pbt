@@ -119,6 +119,7 @@ Objects {
   Control {
     Width: 266
     Height: 50
+    UIX: 110.802765
     UIY: -169.064545
     RenderTransformPivot {
       Anchor {
@@ -131,12 +132,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
@@ -458,12 +459,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
