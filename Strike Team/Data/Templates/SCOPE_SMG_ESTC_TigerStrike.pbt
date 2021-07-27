@@ -87,7 +87,7 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 35.9570313
+            X: 35.9570312
             Z: -50.2278938
           }
           Rotation {
@@ -1199,7 +1199,7 @@ Assets {
         Transform {
           Location {
             X: -6.34667969
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 30.5947418
           }
           Rotation {
@@ -1261,7 +1261,7 @@ Assets {
         Transform {
           Location {
             X: -5.99292
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 34.2058105
           }
           Rotation {
@@ -2733,5 +2733,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

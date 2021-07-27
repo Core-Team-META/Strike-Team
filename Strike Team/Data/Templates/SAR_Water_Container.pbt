@@ -35,7 +35,7 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 3.05175781e-05
           }
           Rotation {
@@ -668,7 +668,7 @@ Assets {
         Name: "Cylinder - Chamfered Polished"
         Transform {
           Location {
-            X: -0.0825195313
+            X: -0.0825195312
             Y: 0.348754883
             Z: 13.2248077
           }
@@ -936,7 +936,7 @@ Assets {
         Name: "Cylinder - Chamfered Polished"
         Transform {
           Location {
-            X: -0.0825195313
+            X: -0.0825195312
             Y: 0.348754883
             Z: 42.809433
           }
@@ -1005,7 +1005,7 @@ Assets {
         Name: "Cylinder - Chamfered Polished"
         Transform {
           Location {
-            X: -0.0825195313
+            X: -0.0825195312
             Y: 0.348754883
             Z: 61.7583771
           }
@@ -1068,7 +1068,7 @@ Assets {
         Name: "Cylinder - Chamfered Polished"
         Transform {
           Location {
-            X: -0.0825195313
+            X: -0.0825195312
             Y: 0.348754883
             Z: 33.2576752
           }
@@ -1442,7 +1442,7 @@ Assets {
         Transform {
           Location {
             X: 4.72814941
-            Y: 58.9101563
+            Y: 58.9101562
             Z: 156.777939
           }
           Rotation {
@@ -1794,5 +1794,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

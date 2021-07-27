@@ -43,7 +43,7 @@ Assets {
         Transform {
           Location {
             Y: 200
-            Z: -0.000122070313
+            Z: -0.000122070312
           }
           Rotation {
             Yaw: -89.9999924
@@ -397,7 +397,7 @@ Assets {
         Transform {
           Location {
             X: 200
-            Z: -0.000122070313
+            Z: -0.000122070312
           }
           Rotation {
           }
@@ -475,5 +475,5 @@ Assets {
       AssetId: "Military_Sandbag_Wall_-_Corner_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

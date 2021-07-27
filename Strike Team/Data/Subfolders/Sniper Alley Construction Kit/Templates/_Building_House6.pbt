@@ -3255,7 +3255,7 @@ Assets {
         Transform {
           Location {
             X: -1191.64648
-            Y: -731.039063
+            Y: -731.039062
             Z: 585
           }
           Rotation {
@@ -4382,7 +4382,7 @@ Assets {
             Color {
               R: 0.321003884
               G: 0.703125
-              B: 0.278320313
+              B: 0.278320312
               A: 1
             }
           }
@@ -5241,7 +5241,7 @@ Assets {
         Transform {
           Location {
             X: -415.858276
-            Y: -649.476563
+            Y: -649.476562
             Z: 15.2595825
           }
           Rotation {
@@ -5670,7 +5670,7 @@ Assets {
         Transform {
           Location {
             X: -1191.64648
-            Y: -731.039063
+            Y: -731.039062
             Z: 15.259613
           }
           Rotation {
@@ -11578,7 +11578,7 @@ Assets {
         Name: "Large Wood Beam 8m"
         Transform {
           Location {
-            X: -1070.39063
+            X: -1070.39062
             Y: -1201.46838
             Z: 363.999023
           }
@@ -17837,7 +17837,7 @@ Assets {
         Name: "Craftsman Interior Door 01"
         Transform {
           Location {
-            X: -5.49414063
+            X: -5.49414062
             Y: -4.55566406
             Z: -6.40991974
           }
@@ -18365,7 +18365,7 @@ Assets {
         Name: "Spawn Point"
         Transform {
           Location {
-            X: 0.969726563
+            X: 0.969726562
             Y: 3.33447266
             Z: 4.06744385
           }
@@ -18862,6 +18862,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

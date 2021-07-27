@@ -284,7 +284,7 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 6.20021674e-05
           }
           Scale {
@@ -1463,7 +1463,7 @@ Assets {
         Transform {
           Location {
             X: 109.127197
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15
           }
           Rotation {
@@ -2168,7 +2168,7 @@ Assets {
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
-            X: 29.9257813
+            X: 29.9257812
             Y: -0.0231628418
             Z: 5.66854095
           }
@@ -3709,7 +3709,7 @@ Assets {
         Transform {
           Location {
             X: 76.6148071
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15.2422638
           }
           Rotation {
@@ -4002,7 +4002,7 @@ Assets {
             Z: 23.310379
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -0.000274658203
             Roll: 179.999939
           }
@@ -4100,7 +4100,7 @@ Assets {
             Z: 25.8041077
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -0.000274658203
             Roll: 179.999939
           }
@@ -4274,7 +4274,7 @@ Assets {
         Transform {
           Location {
             X: 130.307922
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15
           }
           Rotation {
@@ -5381,5 +5381,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

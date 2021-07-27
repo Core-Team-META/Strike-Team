@@ -2,7 +2,7 @@ Assets {
   Id: 7827657251871891381
   Name: "winchlock Inner"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 10187108102538876064
     ParameterOverrides {

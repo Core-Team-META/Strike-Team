@@ -1947,7 +1947,7 @@ Assets {
         Name: "Modern Weapon - Grenade Canister 01"
         Transform {
           Location {
-            X: -50.9257813
+            X: -50.9257812
             Y: 5.09728241
             Z: 6.91311646
           }
@@ -2291,5 +2291,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -7012,7 +7012,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -7386,7 +7386,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -7625,7 +7625,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -8035,7 +8035,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -15171,7 +15171,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -15581,7 +15581,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -20671,7 +20671,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -29403,6 +29403,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

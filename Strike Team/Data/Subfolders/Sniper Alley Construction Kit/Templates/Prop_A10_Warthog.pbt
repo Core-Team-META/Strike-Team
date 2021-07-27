@@ -252,7 +252,7 @@ Assets {
         Name: "Cylinder - bottom aligned"
         Transform {
           Location {
-            X: 262.195313
+            X: 262.195312
           }
           Rotation {
             Pitch: 84.4948273
@@ -317,7 +317,7 @@ Assets {
         Name: "Arch Fancy 3m"
         Transform {
           Location {
-            X: 324.726563
+            X: 324.726562
             Y: -35.3828125
             Z: 30.5798645
           }
@@ -377,8 +377,8 @@ Assets {
         Name: "Arch Fancy 3m"
         Transform {
           Location {
-            X: 392.320313
-            Y: -22.1757813
+            X: 392.320312
+            Y: -22.1757812
             Z: 39.8865967
           }
           Rotation {
@@ -489,7 +489,7 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -114.320313
+            X: -114.320312
           }
           Rotation {
             Roll: -89.999939
@@ -558,7 +558,7 @@ Assets {
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -114.320313
+            X: -114.320312
             Y: -514.316406
             Z: 16.3867493
           }
@@ -629,7 +629,7 @@ Assets {
         Name: "Cylinder - Rounded"
         Transform {
           Location {
-            X: -114.320313
+            X: -114.320312
             Y: 514.316
             Z: 16.3867493
           }
@@ -828,7 +828,7 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -347.257813
+            X: -347.257812
             Y: -41.9648438
             Z: 109.513763
           }
@@ -890,7 +890,7 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -347.257813
+            X: -347.257812
             Y: 41.965
             Z: 109.513763
           }
@@ -952,7 +952,7 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            X: -264.320313
+            X: -264.320312
             Y: 149.8125
             Z: 130.841553
           }
@@ -1086,7 +1086,7 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -304.320313
+            X: -304.320312
             Y: 149.8125
             Z: 130.841553
           }
@@ -1816,7 +1816,7 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            X: -304.320313
+            X: -304.320312
             Y: -149.812
             Z: 130.841553
           }
@@ -1877,7 +1877,7 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            X: -264.320313
+            X: -264.320312
             Y: -149.812
             Z: 130.841553
           }
@@ -2062,7 +2062,7 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            X: 408.039063
+            X: 408.039062
             Z: -15.1226654
           }
           Rotation {
@@ -2469,7 +2469,7 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            X: 408.039063
+            X: 408.039062
             Z: -15.1226654
           }
           Rotation {
@@ -3166,6 +3166,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

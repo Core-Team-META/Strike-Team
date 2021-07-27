@@ -1775,7 +1775,7 @@ Assets {
         Name: "Modern Weapon - Body 02"
         Transform {
           Location {
-            X: 7.35351563
+            X: 7.35351562
             Y: -2.00601196
             Z: 16.267746
           }
@@ -1830,7 +1830,7 @@ Assets {
         Name: "Movement_Group"
         Transform {
           Location {
-            X: 7.35351563
+            X: 7.35351562
             Y: -2.00601196
             Z: 16.267746
           }
@@ -3052,7 +3052,7 @@ Assets {
         Transform {
           Location {
             X: 6.39453125
-            Y: 0.891601563
+            Y: 0.891601562
             Z: 4.78761292
           }
           Rotation {
@@ -3549,5 +3549,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

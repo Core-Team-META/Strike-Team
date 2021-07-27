@@ -7302,7 +7302,7 @@ Assets {
         Name: "SciFi Trim 01 bend 90"
         Transform {
           Location {
-            X: -98.3320313
+            X: -98.3320312
             Y: -98.1174927
           }
           Rotation {
@@ -7355,7 +7355,7 @@ Assets {
         Name: "SciFi Trim 01 bend 90"
         Transform {
           Location {
-            X: -98.3320313
+            X: -98.3320312
             Y: 101.882507
           }
           Rotation {
@@ -9936,7 +9936,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -10941,6 +10941,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

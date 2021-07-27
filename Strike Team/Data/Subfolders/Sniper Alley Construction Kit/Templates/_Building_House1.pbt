@@ -4578,7 +4578,7 @@ Assets {
             Z: -0.25958252
           }
           Rotation {
-            Pitch: -4.92382813
+            Pitch: -4.92382812
             Yaw: -169.962082
             Roll: -90.8703
           }
@@ -12942,7 +12942,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -13314,7 +13314,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -13424,7 +13424,7 @@ Assets {
         Name: "Point Light"
         Transform {
           Location {
-            X: 6.22070313
+            X: 6.22070312
             Y: -198.584473
             Z: 393.36084
           }
@@ -13479,7 +13479,7 @@ Assets {
         Name: "Point Light"
         Transform {
           Location {
-            X: 6.22070313
+            X: 6.22070312
             Y: -861.568359
             Z: 393.36084
           }
@@ -13959,6 +13959,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

@@ -1194,7 +1194,7 @@ Assets {
         Control {
           Width: 98
           Height: 30
-          UIX: -207.695313
+          UIX: -207.695312
           UIY: -9
           RenderTransformPivot {
             Anchor {
@@ -3009,5 +3009,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

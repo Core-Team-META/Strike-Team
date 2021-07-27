@@ -42,7 +42,7 @@ Assets {
         Name: "Decal Military Posters 01"
         Transform {
           Location {
-            Z: 0.0532226563
+            Z: 0.0532226562
           }
           Rotation {
           }
@@ -3121,5 +3121,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

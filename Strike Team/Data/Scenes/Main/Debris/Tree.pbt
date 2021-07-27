@@ -1707,7 +1707,7 @@ Objects {
   Name: "Decal Debris 02"
   Transform {
     Location {
-      X: -10063.7813
+      X: -10063.7812
       Y: -3933.0376
       Z: 28.0593262
     }
@@ -1925,7 +1925,7 @@ Objects {
       Z: -24.3009033
     }
     Rotation {
-      Pitch: -4.79101563
+      Pitch: -4.79101562
       Yaw: -151.071426
       Roll: 14.419138
     }
@@ -2394,7 +2394,7 @@ Objects {
   Transform {
     Location {
       X: -2940.17065
-      Y: -7188.45313
+      Y: -7188.45312
       Z: -156.170227
     }
     Rotation {
@@ -4957,7 +4957,7 @@ Objects {
     Location {
       X: 2988.75195
       Y: 1194.23975
-      Z: -159.101563
+      Z: -159.101562
     }
     Rotation {
       Pitch: 1.97311175
@@ -6056,7 +6056,7 @@ Objects {
   Name: "Decal Debris 02"
   Transform {
     Location {
-      X: 79.8320313
+      X: 79.8320312
       Y: -1290.70264
       Z: -104.818024
     }

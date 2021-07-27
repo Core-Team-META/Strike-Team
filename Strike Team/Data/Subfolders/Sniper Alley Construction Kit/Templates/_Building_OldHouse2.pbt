@@ -2204,7 +2204,7 @@ Assets {
             Z: 169.534302
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999802
             Roll: -179.999954
           }
@@ -2371,7 +2371,7 @@ Assets {
             Z: 169.534302
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 89.9999924
             Roll: -179.999954
           }
@@ -2756,7 +2756,7 @@ Assets {
             Z: 169.534302
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -89.9997559
             Roll: -179.999954
           }
@@ -2813,7 +2813,7 @@ Assets {
             Z: 169.534302
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 0.000343216932
             Roll: -179.999954
           }
@@ -2870,7 +2870,7 @@ Assets {
             Z: 754.534302
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 89.9999542
             Roll: -179.999954
           }
@@ -6746,7 +6746,7 @@ Assets {
             Z: -0.25958252
           }
           Rotation {
-            Pitch: -4.92382813
+            Pitch: -4.92382812
             Yaw: -169.962082
             Roll: -90.8703
           }
@@ -10769,7 +10769,7 @@ Assets {
         Name: "Trim Large Brick 8m"
         Transform {
           Location {
-            X: -798.851563
+            X: -798.851562
             Y: -1594.75586
             Z: 9.99997711
           }
@@ -10823,7 +10823,7 @@ Assets {
         Name: "Square Column Base 01"
         Transform {
           Location {
-            X: -833.851563
+            X: -833.851562
             Y: -1609.75586
             Z: -2.28881836e-05
           }
@@ -10874,7 +10874,7 @@ Assets {
         Name: "Square Column Base 01"
         Transform {
           Location {
-            X: -828.851563
+            X: -828.851562
             Y: -1614.75586
             Z: 620
           }
@@ -16777,6 +16777,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

@@ -1563,7 +1563,7 @@ Assets {
         Name: "Decal Stains Round 01"
         Transform {
           Location {
-            X: 2.18945313
+            X: 2.18945312
             Y: -114.899414
             Z: 21.3336334
           }
@@ -2836,5 +2836,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

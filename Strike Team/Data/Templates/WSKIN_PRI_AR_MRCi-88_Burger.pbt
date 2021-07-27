@@ -335,7 +335,7 @@ Assets {
           }
           Rotation {
             Pitch: -0.000213623047
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: -135.00029
           }
           Scale {
@@ -404,7 +404,7 @@ Assets {
             Z: -15.9124069
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 0.000191244952
             Roll: 134.999557
           }
@@ -628,7 +628,7 @@ Assets {
         Name: "Modern Weapon - Body 01"
         Transform {
           Location {
-            Y: -0.00708007813
+            Y: -0.00708007812
             Z: -3.05175781e-05
           }
           Rotation {
@@ -849,7 +849,7 @@ Assets {
         Transform {
           Location {
             X: -4.57763672e-05
-            Y: 0.00610351563
+            Y: 0.00610351562
             Z: 5.99807739
           }
           Rotation {
@@ -1093,7 +1093,7 @@ Assets {
         Transform {
           Location {
             X: -4.57763672e-05
-            Y: 0.00610351563
+            Y: 0.00610351562
             Z: 9.20983887
           }
           Rotation {
@@ -1214,7 +1214,7 @@ Assets {
         Transform {
           Location {
             X: 8.1396637
-            Y: 0.00610351563
+            Y: 0.00610351562
             Z: 12.6355896
           }
           Rotation {
@@ -1567,7 +1567,7 @@ Assets {
         Transform {
           Location {
             X: -4.57763672e-05
-            Y: 0.00610351563
+            Y: 0.00610351562
             Z: 10.7187195
           }
           Rotation {
@@ -4676,7 +4676,7 @@ Assets {
         Transform {
           Location {
             X: -4.3910675
-            Y: 0.00415039063
+            Y: 0.00415039062
             Z: -8.26297
           }
           Rotation {
@@ -4755,7 +4755,7 @@ Assets {
         Transform {
           Location {
             X: 4.59783936
-            Y: 0.00415039063
+            Y: 0.00415039062
             Z: -8.26297
           }
           Rotation {
@@ -5923,5 +5923,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

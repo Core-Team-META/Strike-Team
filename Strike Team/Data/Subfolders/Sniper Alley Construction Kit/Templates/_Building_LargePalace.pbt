@@ -1441,7 +1441,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 0.000109283021
-            Roll: 6.10351563e-05
+            Roll: 6.10351562e-05
           }
           Scale {
             X: 0.550142169
@@ -3725,7 +3725,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 0.000109283021
-            Roll: 6.10351563e-05
+            Roll: 6.10351562e-05
           }
           Scale {
             X: 0.550142169
@@ -11470,7 +11470,7 @@ Assets {
           Location {
             X: -1219.94727
             Y: 1670.22424
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Pitch: 1.37271082
@@ -15887,7 +15887,7 @@ Assets {
             Z: -275
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 1.28065335e-06
           }
           Scale {
@@ -18163,7 +18163,7 @@ Assets {
           }
           Rotation {
             Pitch: 1.37271082
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: 1.11119584e-06
           }
           Scale {
@@ -22557,7 +22557,7 @@ Assets {
         Name: "Ring - Beveled"
         Transform {
           Location {
-            X: -1.53320313
+            X: -1.53320312
             Y: -0.00525911478
             Z: 253.791992
           }
@@ -28982,7 +28982,7 @@ Assets {
           Location {
             X: -1169.98462
             Y: -2915.00537
-            Z: 431.539063
+            Z: 431.539062
           }
           Rotation {
             Pitch: -2.74377441
@@ -34784,7 +34784,7 @@ Assets {
         Name: "Trim Bottom 8m"
         Transform {
           Location {
-            X: -0.0102539063
+            X: -0.0102539062
             Y: 1905.224
             Z: 470.419434
           }
@@ -44738,7 +44738,7 @@ Assets {
             Z: 325
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 90.0003
             Roll: -179.999954
           }
@@ -45229,7 +45229,7 @@ Assets {
           Location {
             X: -360.029663
             Y: 4285.21826
-            Z: 431.539063
+            Z: 431.539062
           }
           Rotation {
             Pitch: -2.74377441
@@ -62871,7 +62871,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -63787,7 +63787,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -64580,7 +64580,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -65612,7 +65612,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -69920,7 +69920,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -70836,7 +70836,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -71629,7 +71629,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 1
@@ -73753,7 +73753,7 @@ Assets {
         Name: "Road Edge"
         Transform {
           Location {
-            X: -2.93945313
+            X: -2.93945312
           }
           Rotation {
           }
@@ -73963,7 +73963,7 @@ Assets {
         Name: "Road Edge"
         Transform {
           Location {
-            X: -2.93945313
+            X: -2.93945312
           }
           Rotation {
           }
@@ -74173,7 +74173,7 @@ Assets {
         Name: "Road Edge"
         Transform {
           Location {
-            X: -2.93945313
+            X: -2.93945312
           }
           Rotation {
           }
@@ -85707,7 +85707,7 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 12.8632813
+            X: 12.8632812
             Y: -273.716919
           }
           Rotation {
@@ -95998,7 +95998,7 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 12.8632813
+            X: 12.8632812
             Y: -273.716919
           }
           Rotation {
@@ -97774,7 +97774,7 @@ Assets {
         Name: "Road Edge"
         Transform {
           Location {
-            X: -2.93945313
+            X: -2.93945312
           }
           Rotation {
           }
@@ -97984,7 +97984,7 @@ Assets {
         Name: "Road Edge"
         Transform {
           Location {
-            X: -2.93945313
+            X: -2.93945312
           }
           Rotation {
           }
@@ -98194,7 +98194,7 @@ Assets {
         Name: "Road Edge"
         Transform {
           Location {
-            X: -2.93945313
+            X: -2.93945312
           }
           Rotation {
           }
@@ -98923,7 +98923,7 @@ Assets {
         Transform {
           Location {
             X: -11.027832
-            Y: 14.8945313
+            Y: 14.8945312
             Z: 20.2744598
           }
           Rotation {
@@ -99106,7 +99106,7 @@ Assets {
         Transform {
           Location {
             X: -11.027832
-            Y: 14.8945313
+            Y: 14.8945312
             Z: 197.897934
           }
           Rotation {
@@ -104571,7 +104571,7 @@ Assets {
         Transform {
           Location {
             X: 862.635254
-            Y: -7089.95313
+            Y: -7089.95312
             Z: 37.9360352
           }
           Rotation {
@@ -118484,6 +118484,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

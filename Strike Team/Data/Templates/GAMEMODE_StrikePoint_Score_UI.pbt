@@ -3336,7 +3336,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -3699,7 +3699,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -4062,7 +4062,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -4425,7 +4425,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -4788,7 +4788,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -5239,7 +5239,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -5602,7 +5602,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -5965,7 +5965,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -6328,7 +6328,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -6691,7 +6691,7 @@ Assets {
         Name: "BG"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -9839,7 +9839,7 @@ Assets {
         Name: "IDLE"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -9900,7 +9900,7 @@ Assets {
         Name: "DEFEND_RED"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -10020,7 +10020,7 @@ Assets {
         Name: "ATTACK_BLUE"
         Transform {
           Location {
-            X: 0.00122070313
+            X: 0.00122070312
           }
           Rotation {
           }
@@ -10433,5 +10433,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

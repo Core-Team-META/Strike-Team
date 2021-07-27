@@ -2,7 +2,7 @@ Assets {
   Id: 16280113279026806375
   Name: "SAR_PaintOld"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

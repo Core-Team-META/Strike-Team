@@ -2,7 +2,7 @@ Assets {
   Id: 15345672343808294743
   Name: "Custom Trim - Inner from Wall 01 Doorway Mainstreet"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 13295483477265734693
     ParameterOverrides {

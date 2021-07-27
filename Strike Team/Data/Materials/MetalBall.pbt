@@ -2,7 +2,7 @@ Assets {
   Id: 7995345121363070550
   Name: "MetalBall"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 11205328885942583695
     ParameterOverrides {

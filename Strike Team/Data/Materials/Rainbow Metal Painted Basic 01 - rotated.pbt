@@ -2,7 +2,7 @@ Assets {
   Id: 12316476245271666986
   Name: "Rainbow Metal Painted Basic 01 - rotated"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 697130077529532955
     ParameterOverrides {

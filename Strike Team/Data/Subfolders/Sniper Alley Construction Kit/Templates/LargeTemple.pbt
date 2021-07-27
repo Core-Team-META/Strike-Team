@@ -10095,7 +10095,7 @@ Assets {
         Transform {
           Location {
             X: -23.0241699
-            Y: -29.0664063
+            Y: -29.0664062
             Z: 1605.17383
           }
           Rotation {
@@ -10911,7 +10911,7 @@ Assets {
         Transform {
           Location {
             X: 1.01953125
-            Y: 614.976563
+            Y: 614.976562
             Z: 542.141846
           }
           Rotation {
@@ -11102,7 +11102,7 @@ Assets {
         Transform {
           Location {
             X: 159.996582
-            Y: 386.851563
+            Y: 386.851562
             Z: 468.211914
           }
           Rotation {
@@ -13363,7 +13363,7 @@ Assets {
         Transform {
           Location {
             X: -23.0241699
-            Y: -29.0664063
+            Y: -29.0664062
             Z: 1605.17383
           }
           Rotation {
@@ -14179,7 +14179,7 @@ Assets {
         Transform {
           Location {
             X: 1.01953125
-            Y: 614.976563
+            Y: 614.976562
             Z: 542.141846
           }
           Rotation {
@@ -14370,7 +14370,7 @@ Assets {
         Transform {
           Location {
             X: 159.996582
-            Y: 386.851563
+            Y: 386.851562
             Z: 468.211914
           }
           Rotation {
@@ -46884,6 +46884,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

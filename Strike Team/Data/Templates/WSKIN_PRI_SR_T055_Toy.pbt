@@ -390,7 +390,7 @@ Assets {
         Name: "Modern Weapon - Stock 02"
         Transform {
           Location {
-            X: 3.39257813
+            X: 3.39257812
             Z: 17.0820026
           }
           Rotation {
@@ -840,7 +840,7 @@ Assets {
         Transform {
           Location {
             X: 57.9716797
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.3571339
           }
           Rotation {
@@ -1297,8 +1297,8 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 01"
         Transform {
           Location {
-            X: 72.9257813
-            Y: 0.000122070313
+            X: 72.9257812
+            Y: 0.000122070312
             Z: 14.3571339
           }
           Rotation {
@@ -1425,7 +1425,7 @@ Assets {
         Transform {
           Location {
             X: 49.7822266
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.4528522
           }
           Rotation {
@@ -1784,7 +1784,7 @@ Assets {
         Transform {
           Location {
             X: 88.3126526
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.4391499
           }
           Rotation {
@@ -1924,7 +1924,7 @@ Assets {
         Transform {
           Location {
             X: 130
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15.0000019
           }
           Rotation {
@@ -2298,7 +2298,7 @@ Assets {
         Transform {
           Location {
             X: 130.307861
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15.0000019
           }
           Rotation {
@@ -2902,5 +2902,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

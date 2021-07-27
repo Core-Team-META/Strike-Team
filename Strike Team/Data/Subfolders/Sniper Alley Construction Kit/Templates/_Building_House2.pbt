@@ -648,7 +648,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -7686,7 +7686,7 @@ Assets {
             Z: 730
           }
           Rotation {
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
           }
           Scale {
             X: 1
@@ -9614,7 +9614,7 @@ Assets {
           }
           Rotation {
             Pitch: -0.961639404
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: 3.69568988e-06
           }
           Scale {
@@ -11756,7 +11756,7 @@ Assets {
             Z: -0.25958252
           }
           Rotation {
-            Pitch: -4.92382813
+            Pitch: -4.92382812
             Yaw: -169.962082
             Roll: -90.8703
           }
@@ -12542,7 +12542,7 @@ Assets {
         Transform {
           Location {
             X: -470
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 1.69067383
           }
           Rotation {
@@ -12652,7 +12652,7 @@ Assets {
         Transform {
           Location {
             X: 467.519897
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 1.69067383
           }
           Rotation {
@@ -16839,7 +16839,7 @@ Assets {
         Transform {
           Location {
             X: -1314.99902
-            Y: -902.570313
+            Y: -902.570312
             Z: 20.0611877
           }
           Rotation {
@@ -21358,7 +21358,7 @@ Assets {
             Color {
               R: 0.321003884
               G: 0.703125
-              B: 0.278320313
+              B: 0.278320312
               A: 1
             }
           }
@@ -26433,7 +26433,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -27726,6 +27726,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

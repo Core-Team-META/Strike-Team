@@ -580,7 +580,7 @@ Assets {
             Z: 0.563247681
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 89.9999313
             Roll: -179.999893
           }
@@ -651,7 +651,7 @@ Assets {
         Transform {
           Location {
             X: -5.73150635
-            Y: -0.333007813
+            Y: -0.333007812
             Z: 1.05992889
           }
           Rotation {
@@ -1098,7 +1098,7 @@ Assets {
         Transform {
           Location {
             X: -6.7668457
-            Y: 0.196289063
+            Y: 0.196289062
             Z: 7.3717041
           }
           Rotation {
@@ -1173,7 +1173,7 @@ Assets {
         Transform {
           Location {
             X: -9.19709778
-            Y: 0.196289063
+            Y: 0.196289062
             Z: 7.3717041
           }
           Rotation {
@@ -1551,7 +1551,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
           }
           Rotation {
@@ -1614,7 +1614,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 6.59924316
           }
@@ -1678,7 +1678,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 2.88684082
           }
@@ -1742,7 +1742,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 2.61474609
           }
@@ -1805,7 +1805,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 2.41479492
           }
@@ -1868,7 +1868,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 2.21472168
           }
@@ -1931,7 +1931,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 2.01477051
           }
@@ -2128,7 +2128,7 @@ Assets {
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -0.817382813
+            X: -0.817382812
             Y: -0.015625
             Z: 2.85266113
           }
@@ -2440,5 +2440,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -1007,7 +1007,7 @@ Objects {
     Location {
       X: -653.087891
       Y: 5825.11084
-      Z: 480.882813
+      Z: 480.882812
     }
     Rotation {
       Yaw: 90
@@ -2796,7 +2796,7 @@ Objects {
   Name: "Invisible Collider"
   Transform {
     Location {
-      X: -9516.95313
+      X: -9516.95312
       Y: -1268.70068
       Z: 14.3225098
     }

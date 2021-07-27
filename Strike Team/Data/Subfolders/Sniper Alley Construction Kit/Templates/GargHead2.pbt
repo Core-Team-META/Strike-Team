@@ -189,7 +189,7 @@ Assets {
         Transform {
           Location {
             X: -10.0864258
-            Y: -12.9726563
+            Y: -12.9726562
             Z: 7.13983154
           }
           Rotation {
@@ -2890,7 +2890,7 @@ Assets {
           Location {
             X: -0.3828125
             Y: -17.2353516
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: 1.29022944
@@ -2956,7 +2956,7 @@ Assets {
           Location {
             X: -9.61767578
             Y: -16.2978516
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: -0.852940321
@@ -3219,7 +3219,7 @@ Assets {
         Transform {
           Location {
             X: 17.2060547
-            Y: -8.74414063
+            Y: -8.74414062
             Z: 1.93182373
           }
           Rotation {
@@ -3812,8 +3812,8 @@ Assets {
         Name: "Gargbody"
         Transform {
           Location {
-            X: 0.411132813
-            Y: -9.80664063
+            X: 0.411132812
+            Y: -9.80664062
             Z: 22.916687
           }
           Rotation {
@@ -4145,7 +4145,7 @@ Assets {
         Name: "Gargbody"
         Transform {
           Location {
-            X: -0.461914063
+            X: -0.461914062
             Y: -19.9560547
             Z: 13.8380737
           }
@@ -4344,7 +4344,7 @@ Assets {
         Transform {
           Location {
             X: -4.51464844
-            Y: -11.1132813
+            Y: -11.1132812
             Z: 19.6716919
           }
           Rotation {
@@ -4475,7 +4475,7 @@ Assets {
         Name: "Gargbody"
         Transform {
           Location {
-            X: 18.6445313
+            X: 18.6445312
             Y: -3.97558594
             Z: 14.0026245
           }
@@ -4542,7 +4542,7 @@ Assets {
         Transform {
           Location {
             X: 19.8242188
-            Y: -1.08007813
+            Y: -1.08007812
             Z: 9.33404541
           }
           Rotation {
@@ -6588,7 +6588,7 @@ Assets {
         Transform {
           Location {
             X: 10.9609375
-            Y: -4.65039063
+            Y: -4.65039062
             Z: -10.8284302
           }
           Rotation {
@@ -7247,7 +7247,7 @@ Assets {
         Name: "Gargarch"
         Transform {
           Location {
-            X: 0.676757813
+            X: 0.676757812
             Y: -10.9046631
             Z: 13.121521
           }
@@ -7866,7 +7866,7 @@ Assets {
           }
           Rotation {
             Pitch: 46.2275352
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -176.354843
           }
           Scale {
@@ -7953,7 +7953,7 @@ Assets {
           }
           Rotation {
             Pitch: 43.38908
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 176.651093
           }
           Scale {
@@ -8155,6 +8155,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

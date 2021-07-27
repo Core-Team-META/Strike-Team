@@ -2,7 +2,7 @@ Assets {
   Id: 8940321820899528626
   Name: "Background"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 18434937860384168447
     ParameterOverrides {

@@ -396,7 +396,7 @@ Assets {
         Name: "Cube - Arcade 03"
         Transform {
           Location {
-            X: 54.7226563
+            X: 54.7226562
             Y: 37.4973145
             Z: 455.370361
           }
@@ -1855,6 +1855,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

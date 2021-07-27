@@ -2438,7 +2438,7 @@ Assets {
             Z: -10
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 5
@@ -2493,7 +2493,7 @@ Assets {
             Z: -10
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 5
@@ -2548,7 +2548,7 @@ Assets {
             Z: -10
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 5
@@ -2603,7 +2603,7 @@ Assets {
             Z: -5
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 2.5
@@ -2658,7 +2658,7 @@ Assets {
             Z: -5
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 1.25
@@ -3204,7 +3204,7 @@ Assets {
         Transform {
           Location {
             X: -3609.73462
-            Y: -7975.45313
+            Y: -7975.45312
             Z: -20
           }
           Rotation {
@@ -7212,6 +7212,6 @@ Assets {
   Marketplace {
     Description: "Minimap component that converts from 3D geometry to 2D images."
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

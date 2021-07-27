@@ -1041,7 +1041,7 @@ Assets {
         Name: "Modern Weapon - Foregrip 03"
         Transform {
           Location {
-            X: 9.75976563
+            X: 9.75976562
             Z: 12.4093323
           }
           Rotation {
@@ -2490,5 +2490,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -1067,7 +1067,7 @@ Assets {
         Transform {
           Location {
             X: 90.0005417
-            Y: -401.101563
+            Y: -401.101562
             Z: 630.692871
           }
           Rotation {
@@ -3067,7 +3067,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 0.000109283021
-            Roll: 6.10351563e-05
+            Roll: 6.10351562e-05
           }
           Scale {
             X: 0.550142169
@@ -5351,7 +5351,7 @@ Assets {
           Rotation {
             Pitch: -90
             Yaw: 0.000109283021
-            Roll: 6.10351563e-05
+            Roll: 6.10351562e-05
           }
           Scale {
             X: 0.550142169
@@ -22934,7 +22934,7 @@ Assets {
         Transform {
           Location {
             X: 30
-            Y: -0.00122070313
+            Y: -0.00122070312
           }
           Rotation {
             Yaw: 89.9998474
@@ -23076,7 +23076,7 @@ Assets {
         Transform {
           Location {
             X: 260.538574
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 571.268616
           }
           Rotation {
@@ -24524,7 +24524,7 @@ Assets {
         Transform {
           Location {
             X: -60.000061
-            Y: -0.000122070313
+            Y: -0.000122070312
           }
           Rotation {
             Yaw: 89.9998474
@@ -24861,7 +24861,7 @@ Assets {
             Y: 6099.91309
           }
           Rotation {
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
           }
           Scale {
             X: 1
@@ -26227,7 +26227,7 @@ Assets {
         Transform {
           Location {
             X: 1670.0061
-            Y: -4.60351563
+            Y: -4.60351562
             Z: 0.000915527344
           }
           Rotation {
@@ -26813,7 +26813,7 @@ Assets {
         Name: "Sphere - Half Thick"
         Transform {
           Location {
-            X: 0.00219726563
+            X: 0.00219726562
             Y: 0.0009765625
             Z: -5
           }
@@ -26864,7 +26864,7 @@ Assets {
         Name: "Sphere - Half Thick"
         Transform {
           Location {
-            X: 0.00219726563
+            X: 0.00219726562
             Y: 0.0009765625
             Z: 85
           }
@@ -27264,7 +27264,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -27582,7 +27582,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -27900,7 +27900,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -28218,7 +28218,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -28535,7 +28535,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -28852,7 +28852,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -31619,7 +31619,7 @@ Assets {
         Name: "Whitebox Window Insert - Arch Top"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 0.000122070312
             Y: -505
           }
           Rotation {
@@ -35314,7 +35314,7 @@ Assets {
         Name: "FancyArchDoor"
         Transform {
           Location {
-            X: -5.65820313
+            X: -5.65820312
             Y: -468.09375
           }
           Rotation {
@@ -36253,7 +36253,7 @@ Assets {
         Name: "FancyArchDoor"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 539.999939
           }
           Rotation {
@@ -36803,7 +36803,7 @@ Assets {
         Name: "Decorations"
         Transform {
           Location {
-            X: 9.33789063
+            X: 9.33789062
             Y: 2.0078125
             Z: 65
           }
@@ -37005,7 +37005,7 @@ Assets {
         Transform {
           Location {
             X: -194.996094
-            Y: -447.007813
+            Y: -447.007812
             Z: 155
           }
           Rotation {
@@ -37669,7 +37669,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -38078,7 +38078,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -38765,7 +38765,7 @@ Assets {
         Name: "Sphere - Half Thick"
         Transform {
           Location {
-            X: 0.00219726563
+            X: 0.00219726562
             Y: 0.0009765625
             Z: -5
           }
@@ -38816,7 +38816,7 @@ Assets {
         Name: "Sphere - Half Thick"
         Transform {
           Location {
-            X: 0.00219726563
+            X: 0.00219726562
             Y: 0.0009765625
             Z: 85
           }
@@ -39216,7 +39216,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -39534,7 +39534,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -39852,7 +39852,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -40170,7 +40170,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -40487,7 +40487,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -40804,7 +40804,7 @@ Assets {
             Z: 1549.49438
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -179.999954
           }
           Scale {
@@ -43571,7 +43571,7 @@ Assets {
         Name: "Whitebox Window Insert - Arch Top"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 0.000122070312
             Y: -505
           }
           Rotation {
@@ -47266,7 +47266,7 @@ Assets {
         Name: "FancyArchDoor"
         Transform {
           Location {
-            X: -5.65820313
+            X: -5.65820312
             Y: -468.09375
           }
           Rotation {
@@ -48205,7 +48205,7 @@ Assets {
         Name: "FancyArchDoor"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 539.999939
           }
           Rotation {
@@ -48755,7 +48755,7 @@ Assets {
         Name: "Decorations"
         Transform {
           Location {
-            X: 9.33789063
+            X: 9.33789062
             Y: 2.0078125
             Z: 65
           }
@@ -48957,7 +48957,7 @@ Assets {
         Transform {
           Location {
             X: -194.996094
-            Y: -447.007813
+            Y: -447.007812
             Z: 155
           }
           Rotation {
@@ -49621,7 +49621,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -50030,7 +50030,7 @@ Assets {
           Location {
             X: 0.119140625
             Y: -10.7702637
-            Z: 9.50976563
+            Z: 9.50976562
           }
           Rotation {
             Roll: 18.2099609
@@ -60436,7 +60436,7 @@ Assets {
           Location {
             X: 841.90271
             Y: 818.786743
-            Z: -2.63476563
+            Z: -2.63476562
           }
           Rotation {
             Yaw: -85.1019669
@@ -60598,7 +60598,7 @@ Assets {
           Location {
             X: 765.34082
             Y: 1712.20508
-            Z: -2.63476563
+            Z: -2.63476562
           }
           Rotation {
             Yaw: -85.1019669
@@ -60652,7 +60652,7 @@ Assets {
           Location {
             X: -505.742584
             Y: 2021.34314
-            Z: -2.63476563
+            Z: -2.63476562
           }
           Rotation {
             Yaw: -85.1019669
@@ -60814,7 +60814,7 @@ Assets {
           Location {
             X: -582.304321
             Y: 2914.76123
-            Z: -2.63476563
+            Z: -2.63476562
           }
           Rotation {
             Yaw: -85.1019669
@@ -60922,7 +60922,7 @@ Assets {
           Location {
             X: 2066.49658
             Y: 2107.39746
-            Z: -2.63476563
+            Z: -2.63476562
           }
           Rotation {
             Yaw: 179.999954
@@ -60976,7 +60976,7 @@ Assets {
           Location {
             X: 1169.80176
             Y: 2107.39819
-            Z: -2.63476563
+            Z: -2.63476562
           }
           Rotation {
             Yaw: 179.999954
@@ -62505,6 +62505,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

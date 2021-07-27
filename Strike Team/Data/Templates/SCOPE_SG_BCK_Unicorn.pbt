@@ -2966,7 +2966,7 @@ Assets {
         Name: "Prism - 6-Sided - Rounded"
         Transform {
           Location {
-            X: 68.2070313
+            X: 68.2070312
             Y: 0.0192871094
             Z: 18.9550095
           }
@@ -3119,7 +3119,7 @@ Assets {
         Transform {
           Location {
             X: 78.4503174
-            Y: -0.00805664063
+            Y: -0.00805664062
             Z: 19.0510635
           }
           Rotation {
@@ -3340,8 +3340,8 @@ Assets {
         Name: "Prism - 6-Sided - Rounded"
         Transform {
           Location {
-            X: 68.2070313
-            Y: -0.00805664063
+            X: 68.2070312
+            Y: -0.00805664062
             Z: 12.3177261
           }
           Rotation {
@@ -3415,7 +3415,7 @@ Assets {
         Transform {
           Location {
             X: 73.5248413
-            Y: -0.00805664063
+            Y: -0.00805664062
             Z: 19.0510559
           }
           Rotation {
@@ -6334,5 +6334,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

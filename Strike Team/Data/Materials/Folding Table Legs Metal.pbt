@@ -2,7 +2,7 @@ Assets {
   Id: 15550654863282616016
   Name: "Folding Table Legs Metal"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 14054176190919042885
     ParameterOverrides {

@@ -13053,7 +13053,7 @@ Objects {
   Transform {
     Location {
       X: 5524.85156
-      Y: 3299.14063
+      Y: 3299.14062
       Z: -1.48657227
     }
     Rotation {
@@ -14153,7 +14153,7 @@ Objects {
   Name: "Floor"
   Transform {
     Location {
-      X: 6913.32813
+      X: 6913.32812
       Y: -9481.11
       Z: -574.524414
     }
@@ -15129,7 +15129,7 @@ Objects {
   Transform {
     Location {
       X: 3774.75513
-      Y: -9031.76563
+      Y: -9031.76562
       Z: -574.524414
     }
     Rotation {
@@ -20296,7 +20296,7 @@ Objects {
   Transform {
     Location {
       X: 10050.501
-      Y: -7847.51563
+      Y: -7847.51562
       Z: 462.896
     }
     Rotation {
@@ -29712,7 +29712,7 @@ Objects {
   Name: "upper"
   Transform {
     Location {
-      X: -8085.89063
+      X: -8085.89062
       Y: -7646.8623
       Z: -272.150452
     }
@@ -32518,7 +32518,7 @@ Objects {
   Name: "upper"
   Transform {
     Location {
-      X: 4524.20313
+      X: 4524.20312
       Y: 2537.98242
       Z: 40.2250977
     }
@@ -43321,7 +43321,7 @@ Objects {
   Name: "Floor"
   Transform {
     Location {
-      X: 6819.45313
+      X: 6819.45312
       Y: -5548.39355
       Z: 292.379395
     }
@@ -43932,7 +43932,7 @@ Objects {
   Transform {
     Location {
       X: 1544.48389
-      Y: -4602.51563
+      Y: -4602.51562
       Z: 50.4527588
     }
     Rotation {
@@ -59537,6 +59537,7 @@ Objects {
     }
     MinPitch: -89
     MaxPitch: 89
+    UseAsAudioListener: true
   }
   InstanceHistory {
     SelfId: 5642162953896365942

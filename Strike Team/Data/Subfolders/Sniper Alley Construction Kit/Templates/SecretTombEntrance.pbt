@@ -1106,7 +1106,7 @@ Assets {
           Location {
             X: -212.116455
             Y: -226.47316
-            Z: 508.226563
+            Z: 508.226562
           }
           Rotation {
             Yaw: 89.9999695
@@ -2537,6 +2537,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

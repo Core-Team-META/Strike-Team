@@ -10854,7 +10854,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -11175,7 +11175,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -19467,7 +19467,7 @@ Assets {
           Rotation {
             Pitch: -74.9996338
             Yaw: 90.0001
-            Roll: -0.000122070313
+            Roll: -0.000122070312
           }
           Scale {
             X: 0.54020983
@@ -42808,7 +42808,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -43398,7 +43398,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -55301,7 +55301,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -55622,7 +55622,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -63914,7 +63914,7 @@ Assets {
           Rotation {
             Pitch: -74.9996338
             Yaw: 90.0001
-            Roll: -0.000122070313
+            Roll: -0.000122070312
           }
           Scale {
             X: 0.54020983
@@ -81172,7 +81172,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -81493,7 +81493,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -89785,7 +89785,7 @@ Assets {
           Rotation {
             Pitch: -74.9996338
             Yaw: 90.0001
-            Roll: -0.000122070313
+            Roll: -0.000122070312
           }
           Scale {
             X: 0.54020983
@@ -107095,7 +107095,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -107416,7 +107416,7 @@ Assets {
         Name: "ColumnEdges"
         Transform {
           Location {
-            Z: 902.757813
+            Z: 902.757812
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -115708,7 +115708,7 @@ Assets {
           Rotation {
             Pitch: -74.9996338
             Yaw: 90.0001
-            Roll: -0.000122070313
+            Roll: -0.000122070312
           }
           Scale {
             X: 0.54020983
@@ -122168,7 +122168,7 @@ Assets {
         Transform {
           Location {
             X: 1710.00244
-            Y: 1111.14063
+            Y: 1111.14062
             Z: -113.427246
           }
           Rotation {
@@ -123645,6 +123645,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

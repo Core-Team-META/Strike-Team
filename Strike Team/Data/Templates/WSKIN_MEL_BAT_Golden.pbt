@@ -247,7 +247,7 @@ Assets {
           Location {
             X: -3.12052917
             Y: -3.69212341
-            Z: 46.6132813
+            Z: 46.6132812
           }
           Rotation {
             Pitch: -69.9999695
@@ -682,7 +682,7 @@ Assets {
           Location {
             X: -13.9028702
             Y: -0.971984863
-            Z: 0.192382813
+            Z: 0.192382812
           }
           Rotation {
             Pitch: 69.9999695
@@ -1419,5 +1419,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

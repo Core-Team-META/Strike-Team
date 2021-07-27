@@ -2090,7 +2090,7 @@ Objects {
   Name: "Marker"
   Transform {
     Location {
-      X: 8277.70313
+      X: 8277.70312
       Y: 2129.60718
       Z: 574.811
     }

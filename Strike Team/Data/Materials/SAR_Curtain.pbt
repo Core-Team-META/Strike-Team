@@ -2,7 +2,7 @@ Assets {
   Id: 13468074497763587438
   Name: "SAR_Curtain"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 6416678235699851564
     ParameterOverrides {

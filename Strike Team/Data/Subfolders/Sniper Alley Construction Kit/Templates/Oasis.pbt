@@ -76,7 +76,7 @@ Assets {
         Transform {
           Location {
             X: 855.600098
-            Y: 2003.95313
+            Y: 2003.95312
             Z: 852.820435
           }
           Rotation {
@@ -496,7 +496,7 @@ Assets {
         Name: "Prop_PalmTree"
         Transform {
           Location {
-            X: 55.0195313
+            X: 55.0195312
             Y: 919.392578
             Z: 921.042
           }
@@ -4496,7 +4496,7 @@ Assets {
         Transform {
           Location {
             X: 248.907715
-            Y: 95.9726563
+            Y: 95.9726562
             Z: 622.82251
           }
           Rotation {
@@ -4548,7 +4548,7 @@ Assets {
         Transform {
           Location {
             X: 170.606934
-            Y: 137.226563
+            Y: 137.226562
             Z: 532.25293
           }
           Rotation {
@@ -4767,7 +4767,7 @@ Assets {
         Name: "Fern 03"
         Transform {
           Location {
-            X: 379.601563
+            X: 379.601562
             Y: -312.796875
             Z: 1464.38733
           }
@@ -7149,7 +7149,7 @@ Assets {
         Transform {
           Location {
             X: -59.9311523
-            Y: -71.0664063
+            Y: -71.0664062
             Z: 1433.2655
           }
           Rotation {
@@ -7277,7 +7277,7 @@ Assets {
         Transform {
           Location {
             X: 235.467773
-            Y: -77.5820313
+            Y: -77.5820312
             Z: 817.057
           }
           Rotation {
@@ -7367,7 +7367,7 @@ Assets {
             Z: 442.250244
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -17.8409119
             Roll: -89.999939
           }
@@ -7999,7 +7999,7 @@ Assets {
         Transform {
           Location {
             X: -807.855469
-            Y: -512.289063
+            Y: -512.289062
             Z: 866.373352
           }
           Rotation {
@@ -8047,7 +8047,7 @@ Assets {
         Transform {
           Location {
             X: 193.454102
-            Y: -512.289063
+            Y: -512.289062
             Z: 775.102051
           }
           Rotation {
@@ -8476,7 +8476,7 @@ Assets {
         Transform {
           Location {
             X: -78.3969727
-            Y: -512.289063
+            Y: -512.289062
             Z: 738.727478
           }
           Rotation {
@@ -9011,7 +9011,7 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: -60.4257813
+            X: -60.4257812
             Y: -339.353516
             Z: 159.973694
           }
@@ -12249,6 +12249,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

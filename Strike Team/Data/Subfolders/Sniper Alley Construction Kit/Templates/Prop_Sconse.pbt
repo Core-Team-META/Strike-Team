@@ -264,7 +264,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -441,6 +441,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

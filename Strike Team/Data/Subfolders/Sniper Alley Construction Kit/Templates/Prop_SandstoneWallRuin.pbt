@@ -1131,7 +1131,7 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: 254.257813
+            X: 254.257812
             Y: -81.4000854
             Z: 3.81469727e-06
           }
@@ -1688,6 +1688,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

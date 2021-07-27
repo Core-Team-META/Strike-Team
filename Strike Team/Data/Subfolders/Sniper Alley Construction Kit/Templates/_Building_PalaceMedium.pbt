@@ -437,7 +437,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -808,7 +808,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -1180,7 +1180,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -1552,7 +1552,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -1924,7 +1924,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -2296,7 +2296,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -2640,7 +2640,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -3228,7 +3228,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -3816,7 +3816,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -4405,7 +4405,7 @@ Assets {
             Z: 198.749512
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999893
             Roll: -179.999893
           }
@@ -6014,8 +6014,8 @@ Assets {
         Name: "Trim Bottom 8m"
         Transform {
           Location {
-            X: -9.98632813
-            Y: 6414.89063
+            X: -9.98632812
+            Y: 6414.89062
             Z: 73.8080673
           }
           Rotation {
@@ -11898,7 +11898,7 @@ Assets {
         Name: "Trim Crenellated 4m 01"
         Transform {
           Location {
-            X: -460.007813
+            X: -460.007812
             Y: -399.705566
             Z: 721.43457
           }
@@ -14875,7 +14875,7 @@ Assets {
         Transform {
           Location {
             X: -748.269043
-            Y: -536.570313
+            Y: -536.570312
             Z: 292.422363
           }
           Rotation {
@@ -15127,7 +15127,7 @@ Assets {
         Transform {
           Location {
             X: -698.989258
-            Y: 339.039063
+            Y: 339.039062
             Z: 887.401855
           }
           Rotation {
@@ -16388,7 +16388,7 @@ Assets {
           Location {
             X: 280.454102
             Y: 5.2199707
-            Z: -284.351563
+            Z: -284.351562
           }
           Rotation {
             Yaw: 6.64067325e-12
@@ -16492,7 +16492,7 @@ Assets {
           Location {
             X: -282.013672
             Y: 5.21948242
-            Z: -284.351563
+            Z: -284.351562
           }
           Rotation {
             Yaw: 6.64067325e-12
@@ -17608,7 +17608,7 @@ Assets {
         Transform {
           Location {
             X: -1573.99365
-            Y: 1084.01563
+            Y: 1084.01562
             Z: 297.331543
           }
           Rotation {
@@ -18165,13 +18165,13 @@ Assets {
         Transform {
           Location {
             X: -703.991699
-            Y: 249.039063
+            Y: 249.039062
             Z: 922.422363
           }
           Rotation {
             Pitch: 90
             Yaw: -0.00122943404
-            Roll: -0.00122070313
+            Roll: -0.00122070312
           }
           Scale {
             X: 0.6
@@ -20990,7 +20990,7 @@ Assets {
             Z: -275
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 1.28065335e-06
           }
           Scale {
@@ -21775,7 +21775,7 @@ Assets {
           }
           Rotation {
             Pitch: 1.37271082
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: 1.11119584e-06
           }
           Scale {
@@ -29900,8 +29900,8 @@ Assets {
         Name: "Trim Bottom 8m"
         Transform {
           Location {
-            X: -9.98632813
-            Y: 6414.89063
+            X: -9.98632812
+            Y: 6414.89062
             Z: 73.8080673
           }
           Rotation {
@@ -36287,7 +36287,7 @@ Assets {
         Name: "Trim Crenellated 4m 01"
         Transform {
           Location {
-            X: -460.007813
+            X: -460.007812
             Y: -399.705566
             Z: 721.43457
           }
@@ -41851,7 +41851,7 @@ Assets {
           Location {
             X: 280.454102
             Y: 5.2199707
-            Z: -284.351563
+            Z: -284.351562
           }
           Rotation {
             Yaw: 6.64067325e-12
@@ -41955,7 +41955,7 @@ Assets {
           Location {
             X: -282.013672
             Y: 5.21948242
-            Z: -284.351563
+            Z: -284.351562
           }
           Rotation {
             Yaw: 6.64067325e-12
@@ -42634,7 +42634,7 @@ Assets {
             Z: 1064.97974
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 90.0000229
             Roll: -179.999954
           }
@@ -43632,7 +43632,7 @@ Assets {
             Z: -40
           }
           Rotation {
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
           }
           Scale {
             X: 1
@@ -48424,7 +48424,7 @@ Assets {
             Z: -275
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 1.28065335e-06
           }
           Scale {
@@ -49797,7 +49797,7 @@ Assets {
           }
           Rotation {
             Pitch: 1.37271082
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: 1.11119584e-06
           }
           Scale {
@@ -54294,6 +54294,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

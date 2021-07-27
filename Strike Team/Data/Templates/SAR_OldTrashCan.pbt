@@ -134,7 +134,7 @@ Assets {
           Location {
             X: -29.1201172
             Y: 47.8261719
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999542
@@ -190,7 +190,7 @@ Assets {
           Location {
             X: -29.1201172
             Y: 51.0068359
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999542
@@ -971,5 +971,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

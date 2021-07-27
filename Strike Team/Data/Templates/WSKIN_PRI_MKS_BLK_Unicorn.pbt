@@ -3600,7 +3600,7 @@ Assets {
         Transform {
           Location {
             X: 14.276062
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 28.7666931
           }
           Rotation {
@@ -3684,7 +3684,7 @@ Assets {
             Z: 20.2272034
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -89.9999084
             Roll: 89.9999466
           }
@@ -5074,5 +5074,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

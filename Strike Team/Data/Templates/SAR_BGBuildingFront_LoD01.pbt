@@ -146,7 +146,7 @@ Assets {
             Y: -570.220703
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -894,7 +894,7 @@ Assets {
             Z: 515
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -945,7 +945,7 @@ Assets {
             Y: -895.220703
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -997,7 +997,7 @@ Assets {
             Z: 1020
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -1048,7 +1048,7 @@ Assets {
             Y: -240.220703
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -1100,7 +1100,7 @@ Assets {
             Z: 1210
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 9.40000057
@@ -1375,7 +1375,7 @@ Assets {
             Z: 610
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 8.7
@@ -1427,7 +1427,7 @@ Assets {
             Z: 610
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 16.5
@@ -1614,7 +1614,7 @@ Assets {
             Z: -110
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 9.40000057
@@ -1753,7 +1753,7 @@ Assets {
             Y: -570.220703
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -1805,7 +1805,7 @@ Assets {
             Z: 515
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -1856,7 +1856,7 @@ Assets {
             Y: -895.220703
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -1908,7 +1908,7 @@ Assets {
             Z: 1020
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -1959,7 +1959,7 @@ Assets {
             Y: -240.220703
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2011,7 +2011,7 @@ Assets {
             Z: 1210
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 9.40000057
@@ -2155,7 +2155,7 @@ Assets {
             Y: -408.609314
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2207,7 +2207,7 @@ Assets {
             Z: 515
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2258,7 +2258,7 @@ Assets {
             Y: -733.609375
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2310,7 +2310,7 @@ Assets {
             Z: 1020
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2361,7 +2361,7 @@ Assets {
             Y: -78.609436
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2413,7 +2413,7 @@ Assets {
             Z: 1210
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 9.40000057
@@ -2770,7 +2770,7 @@ Assets {
             Y: -408.609314
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2822,7 +2822,7 @@ Assets {
             Z: 515
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2873,7 +2873,7 @@ Assets {
             Y: -733.609375
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2925,7 +2925,7 @@ Assets {
             Z: 1020
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -2976,7 +2976,7 @@ Assets {
             Y: -78.609436
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 4.4
@@ -3028,7 +3028,7 @@ Assets {
             Z: 1210
           }
           Rotation {
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
           }
           Scale {
             X: 9.40000057
@@ -3367,5 +3367,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

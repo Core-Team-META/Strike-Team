@@ -443,7 +443,7 @@ Assets {
           Rotation {
             Pitch: -74.9996338
             Yaw: 90.0001
-            Roll: -0.000122070313
+            Roll: -0.000122070312
           }
           Scale {
             X: 0.54020983
@@ -2111,6 +2111,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

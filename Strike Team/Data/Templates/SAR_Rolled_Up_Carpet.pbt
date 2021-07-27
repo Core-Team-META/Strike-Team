@@ -44,7 +44,7 @@ Assets {
         Name: "Cone - Truncated Hollow Concave"
         Transform {
           Location {
-            Y: -135.601563
+            Y: -135.601562
           }
           Rotation {
             Pitch: 86.6040649
@@ -788,5 +788,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 4068101131485653312
   Name: "SAR_BasicMaterialBlackGradient"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 211821385602626091
     ParameterOverrides {

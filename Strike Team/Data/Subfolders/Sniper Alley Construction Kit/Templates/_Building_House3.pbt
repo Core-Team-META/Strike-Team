@@ -4315,7 +4315,7 @@ Assets {
         Name: "Craftsman Roof 01 Eaves"
         Transform {
           Location {
-            X: -1184.39063
+            X: -1184.39062
             Y: -543.785767
             Z: 509.837524
           }
@@ -4349,7 +4349,7 @@ Assets {
             Color {
               R: 0.321003884
               G: 0.703125
-              B: 0.278320313
+              B: 0.278320312
               A: 1
             }
           }
@@ -11422,7 +11422,7 @@ Assets {
         Name: "Large Wood Beam 8m"
         Transform {
           Location {
-            X: -1871.32813
+            X: -1871.32812
             Y: -1938.89917
             Z: 673.998901
           }
@@ -15818,7 +15818,7 @@ Assets {
             Z: 470
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 96.7364731
             Roll: -179.999954
           }
@@ -16040,7 +16040,7 @@ Assets {
             Z: 470
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 6.7362752
             Roll: -179.999954
           }
@@ -16097,7 +16097,7 @@ Assets {
             Z: 1070
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 6.73626089
             Roll: -179.999954
           }
@@ -16415,7 +16415,7 @@ Assets {
             Z: 470
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -83.2636108
             Roll: -179.999954
           }
@@ -18791,7 +18791,7 @@ Assets {
         Name: "Craftsman Interior Door 01"
         Transform {
           Location {
-            X: -5.49414063
+            X: -5.49414062
             Y: -4.55566406
             Z: -6.40991974
           }
@@ -20498,6 +20498,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

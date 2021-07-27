@@ -288,7 +288,7 @@ Assets {
         Transform {
           Location {
             X: 258.736664
-            Y: -21.6601563
+            Y: -21.6601562
             Z: 913.891968
           }
           Rotation {
@@ -1980,5 +1980,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

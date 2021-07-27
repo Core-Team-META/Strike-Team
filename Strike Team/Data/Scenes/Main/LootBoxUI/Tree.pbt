@@ -237,7 +237,7 @@ Objects {
   Name: "SkipLootAnimation"
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Z: -3.05175781e-05
     }
     Rotation {

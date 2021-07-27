@@ -403,7 +403,7 @@ Assets {
         Name: "Cube - bottom aligned"
         Transform {
           Location {
-            X: 18.8320313
+            X: 18.8320312
             Y: 12.5546875
             Z: 294.999939
           }
@@ -588,5 +588,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

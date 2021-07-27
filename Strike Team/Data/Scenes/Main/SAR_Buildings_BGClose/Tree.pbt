@@ -420,7 +420,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -656,7 +656,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -902,7 +902,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -953,7 +953,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1005,7 +1005,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1106,7 +1106,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1206,7 +1206,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1612,7 +1612,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1663,7 +1663,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1715,7 +1715,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1816,7 +1816,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -1916,7 +1916,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -5657,7 +5657,7 @@ Objects {
   Transform {
     Location {
       X: 382.016846
-      Y: 902.382813
+      Y: 902.382812
     }
     Rotation {
       Yaw: 157.499969
@@ -5755,7 +5755,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -5806,7 +5806,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -5858,7 +5858,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -5959,7 +5959,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -6059,7 +6059,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -6386,7 +6386,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -6624,7 +6624,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -6971,7 +6971,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -7022,7 +7022,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -7074,7 +7074,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -7175,7 +7175,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -7275,7 +7275,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -8364,7 +8364,7 @@ Objects {
       Z: 269.999939
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -8417,7 +8417,7 @@ Objects {
       Z: 1360
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -8470,7 +8470,7 @@ Objects {
       Z: 995
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -9206,7 +9206,7 @@ Objects {
       Z: 995
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -17041,7 +17041,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -405
-            Y: 104.914063
+            Y: 104.914062
             Z: 725.000305
           }
         }
@@ -18551,7 +18551,7 @@ Objects {
   Transform {
     Location {
       X: 115.900391
-      Y: 97.6445313
+      Y: 97.6445312
       Z: 45.000061
     }
     Rotation {
@@ -18768,7 +18768,7 @@ Objects {
     Location {
       X: 915
       Y: 150.006836
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -44.9999924
@@ -19581,7 +19581,7 @@ Objects {
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
-      X: 665.976563
+      X: 665.976562
       Y: 125.003906
       Z: 20.0009766
     }
@@ -21099,7 +21099,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -21150,7 +21150,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -21202,7 +21202,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -21303,7 +21303,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -21403,7 +21403,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -21722,7 +21722,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -21960,7 +21960,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -22307,7 +22307,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -22358,7 +22358,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -22410,7 +22410,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -22511,7 +22511,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -22611,7 +22611,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -22955,7 +22955,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -23006,7 +23006,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -23058,7 +23058,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -23159,7 +23159,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -23259,7 +23259,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -23586,7 +23586,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -23824,7 +23824,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -24171,7 +24171,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24222,7 +24222,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24274,7 +24274,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24375,7 +24375,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24475,7 +24475,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24831,7 +24831,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24882,7 +24882,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -24934,7 +24934,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -25035,7 +25035,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -25135,7 +25135,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -25462,7 +25462,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -25700,7 +25700,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -26047,7 +26047,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26098,7 +26098,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26150,7 +26150,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26251,7 +26251,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26351,7 +26351,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26726,7 +26726,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26777,7 +26777,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26829,7 +26829,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -26930,7 +26930,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -27030,7 +27030,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -27357,7 +27357,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -27595,7 +27595,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -27942,7 +27942,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -27993,7 +27993,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28045,7 +28045,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28146,7 +28146,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28246,7 +28246,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28601,7 +28601,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28652,7 +28652,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28704,7 +28704,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28805,7 +28805,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -28905,7 +28905,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -29232,7 +29232,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -29470,7 +29470,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -29817,7 +29817,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -29868,7 +29868,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -29920,7 +29920,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -30021,7 +30021,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -30121,7 +30121,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -32866,7 +32866,7 @@ Objects {
     Location {
       X: -926.283203
       Y: 140.074707
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.46138939e-06
@@ -33127,7 +33127,7 @@ Objects {
     Location {
       X: -894.472656
       Y: -282.921387
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: 90.0000076
@@ -33271,7 +33271,7 @@ Objects {
   Name: "Foundation 01 Mainstreet"
   Transform {
     Location {
-      X: -908.632813
+      X: -908.632812
       Y: -909.991211
       Z: 560.000488
     }
@@ -33789,8 +33789,8 @@ Objects {
   Transform {
     Location {
       X: -466.672852
-      Y: 140.070313
-      Z: -6.10351563e-05
+      Y: 140.070312
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.31102013e-06
@@ -34505,7 +34505,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -34556,7 +34556,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -34608,7 +34608,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -34709,7 +34709,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -34809,7 +34809,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -35128,7 +35128,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -35366,7 +35366,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -35713,7 +35713,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -35764,7 +35764,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -35816,7 +35816,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -35917,7 +35917,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -36017,7 +36017,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -36629,7 +36629,7 @@ Objects {
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
-      X: 665.976563
+      X: 665.976562
       Y: 125.001953
       Z: 20.0011597
     }
@@ -37757,7 +37757,7 @@ Objects {
     Location {
       X: 915
       Y: 150.006836
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
       Yaw: -45.0000038
@@ -38130,7 +38130,7 @@ Objects {
     Location {
       X: -920.000732
       Y: 140.03125
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
     }
@@ -38217,7 +38217,7 @@ Objects {
     Location {
       X: 379.998535
       Y: 139.999023
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: 1.21745165e-06
@@ -39798,7 +39798,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -39849,7 +39849,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -39901,7 +39901,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -40002,7 +40002,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -40102,7 +40102,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -40319,7 +40319,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -40557,7 +40557,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -40902,7 +40902,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -40953,7 +40953,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -41005,7 +41005,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -41106,7 +41106,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -41399,7 +41399,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -41451,7 +41451,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -41552,7 +41552,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -41652,7 +41652,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -42005,7 +42005,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -42056,7 +42056,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -42108,7 +42108,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -42525,7 +42525,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -42710,7 +42710,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -42758,7 +42758,7 @@ Objects {
   Transform {
     Location {
       X: -185.000015
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: -39.0031738
     }
     Rotation {
@@ -42954,7 +42954,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -43005,7 +43005,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -43057,7 +43057,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -43258,7 +43258,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -43978,7 +43978,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -44029,7 +44029,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -44081,7 +44081,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -44182,7 +44182,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -44282,7 +44282,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -44609,7 +44609,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -44847,7 +44847,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -45192,7 +45192,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -45244,7 +45244,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -45345,7 +45345,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -45445,7 +45445,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -45800,7 +45800,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -45851,7 +45851,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -45903,7 +45903,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -46004,7 +46004,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -46104,7 +46104,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -46431,7 +46431,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -46669,7 +46669,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -47016,7 +47016,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -47067,7 +47067,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -47119,7 +47119,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -47220,7 +47220,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -47320,7 +47320,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -49173,7 +49173,7 @@ Objects {
       Z: 1210
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -49225,7 +49225,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -49276,7 +49276,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -49328,7 +49328,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -49380,7 +49380,7 @@ Objects {
       Z: 1210
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -49430,7 +49430,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -49530,7 +49530,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -49857,7 +49857,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -50095,7 +50095,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -50442,7 +50442,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -50493,7 +50493,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -50545,7 +50545,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -50646,7 +50646,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -50747,7 +50747,7 @@ Objects {
       Y: -779.588623
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -51102,7 +51102,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -51153,7 +51153,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -51205,7 +51205,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -51306,7 +51306,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -51406,7 +51406,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -51731,7 +51731,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -51866,7 +51866,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -52114,7 +52114,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52165,7 +52165,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52217,7 +52217,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52318,7 +52318,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52418,7 +52418,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52830,7 +52830,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52881,7 +52881,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -52933,7 +52933,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -53034,7 +53034,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -53134,7 +53134,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -53351,7 +53351,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -53589,7 +53589,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -53934,7 +53934,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -53985,7 +53985,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54037,7 +54037,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54138,7 +54138,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54238,7 +54238,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54481,7 +54481,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54532,7 +54532,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54584,7 +54584,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54685,7 +54685,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -54785,7 +54785,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -55002,7 +55002,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -55240,7 +55240,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -55585,7 +55585,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -55636,7 +55636,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -55688,7 +55688,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -55789,7 +55789,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -55889,7 +55889,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -56603,7 +56603,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -56654,7 +56654,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -56706,7 +56706,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -56807,7 +56807,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -56907,7 +56907,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -57124,7 +57124,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -57362,7 +57362,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -57707,7 +57707,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -57758,7 +57758,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -57810,7 +57810,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -57911,7 +57911,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58011,7 +58011,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58254,7 +58254,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58305,7 +58305,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58357,7 +58357,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58458,7 +58458,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58558,7 +58558,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -58775,7 +58775,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -59011,7 +59011,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -59324,7 +59324,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -59375,7 +59375,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -59427,7 +59427,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -59528,7 +59528,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -59628,7 +59628,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -61624,7 +61624,7 @@ Objects {
     Location {
       X: 690.000488
       Y: -4.99902344
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
       Pitch: -3.4150944e-05
@@ -61830,7 +61830,7 @@ Objects {
   Transform {
     Location {
       X: -549.908691
-      Y: -5.08789063
+      Y: -5.08789062
       Z: 565.000122
     }
     Rotation {
@@ -62143,7 +62143,7 @@ Objects {
       Z: 995
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905391e-05
     }
     Scale {
@@ -63530,7 +63530,7 @@ Objects {
       Z: 570
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -65948,7 +65948,7 @@ Objects {
       Z: 570
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -67000,7 +67000,7 @@ Objects {
       Z: 580
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.049053e-05
     }
     Scale {
@@ -68454,7 +68454,7 @@ Objects {
       Z: 570
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -68507,7 +68507,7 @@ Objects {
       Z: 570
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -69248,7 +69248,7 @@ Objects {
   Transform {
     Location {
       X: 382.016846
-      Y: 902.382813
+      Y: 902.382812
     }
     Rotation {
       Yaw: 157.499969
@@ -69346,7 +69346,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -69397,7 +69397,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -69449,7 +69449,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -69550,7 +69550,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -69650,7 +69650,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -69977,7 +69977,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -70215,7 +70215,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -70562,7 +70562,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -70613,7 +70613,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -70665,7 +70665,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -70766,7 +70766,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -70866,7 +70866,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -71314,7 +71314,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -71550,7 +71550,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -71796,7 +71796,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -71847,7 +71847,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -71899,7 +71899,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72000,7 +72000,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72100,7 +72100,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72506,7 +72506,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72557,7 +72557,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72609,7 +72609,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72710,7 +72710,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -72810,7 +72810,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -73185,7 +73185,7 @@ Objects {
   Transform {
     Location {
       X: -159.395447
-      Y: -128.132813
+      Y: -128.132812
       Z: 855
     }
     Rotation {
@@ -73255,7 +73255,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -73493,7 +73493,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -73840,7 +73840,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -73891,7 +73891,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -73943,7 +73943,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74044,7 +74044,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74144,7 +74144,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74448,7 +74448,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74499,7 +74499,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74551,7 +74551,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74652,7 +74652,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -74752,7 +74752,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75230,7 +75230,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75281,7 +75281,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75333,7 +75333,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75385,7 +75385,7 @@ Objects {
       Z: 1209.9
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -75435,7 +75435,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75536,7 +75536,7 @@ Objects {
       Y: -324.999878
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.39999676
@@ -75730,7 +75730,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75781,7 +75781,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75833,7 +75833,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -75885,7 +75885,7 @@ Objects {
       Z: 1210
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -75935,7 +75935,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -76035,7 +76035,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -76389,7 +76389,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -76440,7 +76440,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -76541,7 +76541,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -76641,7 +76641,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -76968,7 +76968,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -77206,7 +77206,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -77552,7 +77552,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -77603,7 +77603,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -77655,7 +77655,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -77756,7 +77756,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -77856,7 +77856,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -78183,7 +78183,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -78422,7 +78422,7 @@ Objects {
       Z: 610.1
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -82592,7 +82592,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -82643,7 +82643,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -82695,7 +82695,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -82746,7 +82746,7 @@ Objects {
       Z: 1225
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -82796,7 +82796,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -82896,7 +82896,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -83222,7 +83222,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -83460,7 +83460,7 @@ Objects {
       Z: 625
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -83806,7 +83806,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -83857,7 +83857,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -83909,7 +83909,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -83960,7 +83960,7 @@ Objects {
       Z: 1225
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -84010,7 +84010,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -84110,7 +84110,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -84487,7 +84487,7 @@ Objects {
       Z: 1225
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -84537,7 +84537,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -84637,7 +84637,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -84936,7 +84936,7 @@ Objects {
       Y: -105.720703
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -84988,7 +84988,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -85039,7 +85039,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -85140,7 +85140,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -85240,7 +85240,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -85480,7 +85480,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -85580,7 +85580,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -85926,7 +85926,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -86165,7 +86165,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.5
@@ -86587,7 +86587,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -86825,7 +86825,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -87246,7 +87246,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -87591,7 +87591,7 @@ Objects {
       Z: 625
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -87937,7 +87937,7 @@ Objects {
       Z: 1209.99988
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.5
@@ -87988,7 +87988,7 @@ Objects {
       Y: -2077.36914
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.5
@@ -88040,7 +88040,7 @@ Objects {
       Z: 1210
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.5
@@ -88090,7 +88090,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -88190,7 +88190,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -88795,7 +88795,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -88981,7 +88981,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -89271,7 +89271,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -89322,7 +89322,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -89374,7 +89374,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -89475,7 +89475,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -89840,7 +89840,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -89891,7 +89891,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -89943,7 +89943,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -90044,7 +90044,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -90144,7 +90144,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -90360,7 +90360,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -90546,7 +90546,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -90840,7 +90840,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -90891,7 +90891,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -90943,7 +90943,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91044,7 +91044,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91144,7 +91144,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91334,7 +91334,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91385,7 +91385,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91486,7 +91486,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91586,7 +91586,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -91801,7 +91801,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -91987,7 +91987,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -92236,7 +92236,7 @@ Objects {
   Transform {
     Location {
       X: 506.680664
-      Y: 54.0507813
+      Y: 54.0507812
       Z: 97.5498047
     }
     Rotation {
@@ -92332,7 +92332,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -92384,7 +92384,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -92435,7 +92435,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -92487,7 +92487,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -92588,7 +92588,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -92688,7 +92688,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -94001,7 +94001,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -0.961914063
+      X: -0.961914062
       Y: -208.681641
       Z: 14.9301758
     }
@@ -94224,7 +94224,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -0.961914063
+      X: -0.961914062
       Y: -18.6816406
       Z: 14.9311523
     }
@@ -95446,7 +95446,7 @@ Objects {
     Location {
       X: 915
       Y: 150.005859
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -44.9999847
@@ -98693,7 +98693,7 @@ Objects {
     Location {
       X: -1255
       Y: -275
-      Z: -0.000122070313
+      Z: -0.000122070312
     }
     Rotation {
       Yaw: -179.999954
@@ -99846,7 +99846,7 @@ Objects {
       Z: 1200
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -101087,7 +101087,7 @@ Objects {
       Z: 790
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -101285,7 +101285,7 @@ Objects {
       Z: 790
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 2.04905427e-05
     }
     Scale {
@@ -102197,7 +102197,7 @@ Objects {
   Transform {
     Location {
       X: 929.823242
-      Y: -844.851563
+      Y: -844.851562
       Z: 1160.00049
     }
     Rotation {
@@ -106027,7 +106027,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106079,7 +106079,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106180,7 +106180,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106280,7 +106280,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106635,7 +106635,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106686,7 +106686,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106738,7 +106738,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106839,7 +106839,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -106939,7 +106939,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -107923,7 +107923,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -0.961914063
+      X: -0.961914062
       Y: -208.681641
       Z: 14.9301758
     }
@@ -108164,7 +108164,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -0.961914063
+      X: -0.961914062
       Y: -18.6816406
       Z: 14.9311523
     }
@@ -109371,7 +109371,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -0.961914063
+      X: -0.961914062
       Y: -208.681641
       Z: 14.9301758
     }
@@ -109612,7 +109612,7 @@ Objects {
   Name: "Cube - bottom aligned"
   Transform {
     Location {
-      X: -0.961914063
+      X: -0.961914062
       Y: -18.6816406
       Z: 14.9311523
     }
@@ -110052,7 +110052,7 @@ Objects {
       Z: -110
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -110290,7 +110290,7 @@ Objects {
       Z: 610
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 9.40000057
@@ -110637,7 +110637,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -110688,7 +110688,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -110740,7 +110740,7 @@ Objects {
       Z: -45
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -110841,7 +110841,7 @@ Objects {
       Y: 330
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4
@@ -110941,7 +110941,7 @@ Objects {
       Y: -325
     }
     Rotation {
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
     }
     Scale {
       X: 4.4

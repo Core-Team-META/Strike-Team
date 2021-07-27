@@ -595,7 +595,7 @@ Assets {
         Name: "Modern Weapon - Stock 02"
         Transform {
           Location {
-            X: -16.8632813
+            X: -16.8632812
             Y: 0.3543396
             Z: -1.31248474
           }
@@ -726,5 +726,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

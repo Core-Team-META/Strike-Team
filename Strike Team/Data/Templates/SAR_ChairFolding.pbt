@@ -764,7 +764,7 @@ Assets {
         Name: "Foot Stopper"
         Transform {
           Location {
-            X: -463.976563
+            X: -463.976562
             Y: 484.802277
             Z: -888.220276
           }
@@ -946,5 +946,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

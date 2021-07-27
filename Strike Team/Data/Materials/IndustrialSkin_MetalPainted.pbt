@@ -2,7 +2,7 @@ Assets {
   Id: 9873348723882882043
   Name: "IndustrialSkin_MetalPainted"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 12512318175188821203
     ParameterOverrides {

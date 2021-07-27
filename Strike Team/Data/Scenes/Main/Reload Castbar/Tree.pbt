@@ -267,7 +267,7 @@ Objects {
   Name: "Background"
   Transform {
     Location {
-      X: -834.070313
+      X: -834.070312
       Y: 9914.71875
       Z: 710
     }

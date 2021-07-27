@@ -2100,7 +2100,7 @@ Assets {
         Transform {
           Location {
             X: 62.8393555
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 190.565918
           }
           Rotation {
@@ -2165,7 +2165,7 @@ Assets {
         Transform {
           Location {
             X: 68.7336426
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 196.777573
           }
           Rotation {
@@ -2231,7 +2231,7 @@ Assets {
         Transform {
           Location {
             X: 115.80127
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 396.297455
           }
           Rotation {
@@ -2538,7 +2538,7 @@ Assets {
         Transform {
           Location {
             X: 99.373291
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 428.113647
           }
           Rotation {
@@ -2702,7 +2702,7 @@ Assets {
         Transform {
           Location {
             X: 9.15527344e-05
-            Y: -3.22070313
+            Y: -3.22070312
             Z: -28.2626953
           }
           Rotation {
@@ -4737,7 +4737,7 @@ Assets {
         Transform {
           Location {
             X: 62.8393555
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 190.565918
           }
           Rotation {
@@ -4790,7 +4790,7 @@ Assets {
         Transform {
           Location {
             X: 68.7336426
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 196.777573
           }
           Rotation {
@@ -4844,7 +4844,7 @@ Assets {
         Transform {
           Location {
             X: 115.80127
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 396.297455
           }
           Rotation {
@@ -5151,7 +5151,7 @@ Assets {
         Transform {
           Location {
             X: 99.373291
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 428.113647
           }
           Rotation {
@@ -5369,5 +5369,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

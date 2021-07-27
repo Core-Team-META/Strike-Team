@@ -299,7 +299,7 @@ Assets {
           Location {
             X: -0.00048828125
             Y: 0.00048828125
-            Z: -0.000122070313
+            Z: -0.000122070312
           }
           Rotation {
             Yaw: 2.52968857e-05
@@ -737,7 +737,7 @@ Assets {
         Name: "Bush 01"
         Transform {
           Location {
-            X: 4.13476563
+            X: 4.13476562
             Y: -1.21191406
             Z: 76.4043
           }
@@ -887,5 +887,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

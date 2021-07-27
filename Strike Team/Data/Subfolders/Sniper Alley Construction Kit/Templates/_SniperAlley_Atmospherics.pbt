@@ -1134,7 +1134,7 @@ Assets {
         Transform {
           Location {
             X: 14993.4
-            Y: -5977.51563
+            Y: -5977.51562
           }
           Rotation {
           }
@@ -2772,7 +2772,7 @@ Assets {
         Transform {
           Location {
             X: -12593.1699
-            Y: 9024.45313
+            Y: 9024.45312
             Z: 1207.98071
           }
           Rotation {
@@ -3910,6 +3910,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }

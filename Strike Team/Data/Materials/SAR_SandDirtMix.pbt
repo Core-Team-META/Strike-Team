@@ -2,7 +2,7 @@ Assets {
   Id: 18027507994091655023
   Name: "SAR_SandDirtMix"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

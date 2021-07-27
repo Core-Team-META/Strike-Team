@@ -4670,7 +4670,7 @@ Assets {
           }
           Rotation {
             Pitch: -90
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: -0.000427246094
           }
           Scale {
@@ -12836,7 +12836,7 @@ Assets {
           Location {
             X: -1190.00049
             Y: 2479.99585
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -9.15527344e-05
@@ -14607,7 +14607,7 @@ Assets {
             Color {
               R: 0.321003884
               G: 0.703125
-              B: 0.278320313
+              B: 0.278320312
               A: 1
             }
           }
@@ -15141,7 +15141,7 @@ Assets {
             Color {
               R: 0.321003884
               G: 0.703125
-              B: 0.278320313
+              B: 0.278320312
               A: 1
             }
           }
@@ -23818,7 +23818,7 @@ Assets {
           Location {
             X: -1169.98462
             Y: -2915.00537
-            Z: 431.539063
+            Z: 431.539062
           }
           Rotation {
             Pitch: -2.74377441
@@ -28699,7 +28699,7 @@ Assets {
             Z: 325
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 90.0003
             Roll: -179.999954
           }
@@ -34820,7 +34820,7 @@ Assets {
         Name: "Pipe (thin)"
         Transform {
           Location {
-            X: 0.958007813
+            X: 0.958007812
             Y: -21.1264648
             Z: -21.2642517
           }
@@ -35528,6 +35528,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
   DirectlyPublished: true
 }
