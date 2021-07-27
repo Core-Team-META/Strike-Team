@@ -3497,7 +3497,7 @@ Objects {
       }
       VoiceChatSettings {
         VoiceChatMode {
-          Value: "mc:evoicechatmode:none"
+          Value: "mc:evoicechatmode:team"
         }
         VoiceChannelType {
           Value: "mc:evoicechanneltype:normal"
