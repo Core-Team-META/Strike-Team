@@ -7,7 +7,7 @@ Assets {
       RootId: 12391300809687005807
       Objects {
         Id: 12391300809687005807
-        Name: "Client Context"
+        Name: "Proto Submachine Gun Muzzle Flash"
         Transform {
           Scale {
             X: 1
@@ -18,7 +18,6 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 17616793892455375496
         ChildIds: 8199098515508596130
-        ChildIds: 7361243837954488935
         ChildIds: 5404125646895113474
         UnregisteredParameters {
         }
@@ -126,94 +125,6 @@ Assets {
         }
       }
       Objects {
-        Id: 7361243837954488935
-        Name: "Basic Explosion VFX"
-        Transform {
-          Location {
-            X: 1.54693604
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.0859197
-            Y: 0.0859197304
-            Z: 0.355301142
-          }
-        }
-        ParentId: 12391300809687005807
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Enable Sparks"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Light"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Flash"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Fire"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Ring"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Wind Speed"
-            Vector {
-            }
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.077000007
-              G: 0.019114729
-              B: 0.00464340718
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 28.9727478
-          }
-          Overrides {
-            Name: "bp:Enable Smoke"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17069761961690292468
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-      }
-      Objects {
         Id: 5404125646895113474
         Name: "Gunshot SMG Sub-Machine Gun Set 01 SFX"
         Transform {
@@ -282,15 +193,6 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_muzzleflash_alt"
-      }
-    }
-    Assets {
-      Id: 17069761961690292468
-      Name: "Basic Explosion VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_explosion"
       }
     }
     PrimaryAssetId {
