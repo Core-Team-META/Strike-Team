@@ -2,7 +2,7 @@ Assets {
   Id: 176336906599936429
   Name: "SAR_BrickMixSmallGradient"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 13591156004429461265
   Name: "Melted Metal Basic 01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 9497951731488909799
     ParameterOverrides {

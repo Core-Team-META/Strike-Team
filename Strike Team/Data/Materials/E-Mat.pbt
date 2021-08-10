@@ -2,7 +2,7 @@ Assets {
   Id: 8735925593815548070
   Name: "E-Mat"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 18336430915384396752
     ParameterOverrides {

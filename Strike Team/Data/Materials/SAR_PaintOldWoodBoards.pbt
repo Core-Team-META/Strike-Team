@@ -2,7 +2,7 @@ Assets {
   Id: 14457488546648838430
   Name: "SAR_PaintOldWoodBoards"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

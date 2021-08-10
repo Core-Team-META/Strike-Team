@@ -2,7 +2,7 @@ Assets {
   Id: 3675826569702697702
   Name: "Dots"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 445867743109748230
     ParameterOverrides {

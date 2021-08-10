@@ -2,7 +2,7 @@ Assets {
   Id: 13056290923161690250
   Name: "White Base Material from Sci-fi Base Pillar 01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 9209049408078235536
     ParameterOverrides {
