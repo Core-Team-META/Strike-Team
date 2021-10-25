@@ -796,7 +796,7 @@ Assets {
         Transform {
           Location {
             X: 107.501709
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15
           }
           Rotation {
@@ -1573,7 +1573,7 @@ Assets {
             Z: 0.563247681
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 89.9999313
             Roll: -179.999893
           }
@@ -2060,7 +2060,7 @@ Assets {
         Transform {
           Location {
             X: 23.7426453
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: -0.121536255
           }
           Rotation {
@@ -2867,7 +2867,7 @@ Assets {
         Name: "Pipe - Half"
         Transform {
           Location {
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999924
@@ -2925,7 +2925,7 @@ Assets {
         Name: "Pipe - Half"
         Transform {
           Location {
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999847
@@ -2984,7 +2984,7 @@ Assets {
         Name: "Pipe - Half"
         Transform {
           Location {
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999771
@@ -3043,7 +3043,7 @@ Assets {
         Name: "Pipe - Half"
         Transform {
           Location {
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999619
@@ -3835,5 +3835,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

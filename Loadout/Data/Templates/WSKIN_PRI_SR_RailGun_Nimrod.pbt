@@ -3225,10 +3225,10 @@ Assets {
           Location {
             X: 50.9425697
             Y: -3.1552434
-            Z: 9.83007813
+            Z: 9.83007812
           }
           Rotation {
-            Pitch: -68.2695313
+            Pitch: -68.2695312
             Yaw: 112.264511
             Roll: 70.4260635
           }
@@ -3304,10 +3304,10 @@ Assets {
           Location {
             X: 50.9426346
             Y: 2.94946289
-            Z: 9.83007813
+            Z: 9.83007812
           }
           Rotation {
-            Pitch: -68.2695313
+            Pitch: -68.2695312
             Yaw: -112.264465
             Roll: -70.4260559
           }
@@ -4060,5 +4060,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

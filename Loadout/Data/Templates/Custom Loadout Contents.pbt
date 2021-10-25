@@ -11955,7 +11955,7 @@ Assets {
         Transform {
           Location {
             X: 1.52587891e-05
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
           }
           Rotation {
             Yaw: 2.71024855e-05
@@ -14512,5 +14512,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

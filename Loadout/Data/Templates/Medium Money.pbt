@@ -7543,7 +7543,7 @@ Assets {
         Name: "Money"
         Transform {
           Location {
-            X: -3.87695313
+            X: -3.87695312
             Y: 43.1243
             Z: 35.5615387
           }
@@ -11433,5 +11433,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

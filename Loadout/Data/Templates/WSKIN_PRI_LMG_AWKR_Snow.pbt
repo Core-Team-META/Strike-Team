@@ -1812,7 +1812,7 @@ Assets {
         Transform {
           Location {
             X: 21.4627686
-            Z: 10.8476563
+            Z: 10.8476562
           }
           Rotation {
           }
@@ -2407,7 +2407,7 @@ Assets {
         Transform {
           Location {
             X: -4.65731812
-            Z: 10.8476563
+            Z: 10.8476562
           }
           Rotation {
           }
@@ -2753,11 +2753,11 @@ Assets {
         Name: "Modern Weapon - Magazine 01"
         Transform {
           Location {
-            X: -1.75976563
+            X: -1.75976562
             Y: -9.60998535
           }
           Rotation {
-            Pitch: -0.000122070313
+            Pitch: -0.000122070312
             Yaw: 179.999802
             Roll: 45.5488472
           }
@@ -2953,7 +2953,7 @@ Assets {
         Name: "Modern Weapon - Magazine 01"
         Transform {
           Location {
-            X: -1.75976563
+            X: -1.75976562
             Y: 9.61010742
             Z: 0.0738830566
           }
@@ -3019,7 +3019,7 @@ Assets {
             Z: 13.0967865
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -179.999954
             Roll: -90.0002441
           }
@@ -3075,7 +3075,7 @@ Assets {
         Name: "Modern Weapon - Magazine 01"
         Transform {
           Location {
-            X: -1.75976563
+            X: -1.75976562
             Y: 9.61010742
             Z: 16.6121216
           }
@@ -3831,5 +3831,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

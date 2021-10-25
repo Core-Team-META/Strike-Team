@@ -1896,7 +1896,7 @@ Objects {
   Name: "Art"
   Transform {
     Location {
-      X: -0.000122070313
+      X: -0.000122070312
       Y: -9.15527344e-05
     }
     Rotation {

@@ -156,7 +156,7 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: -2.08789063
+            X: -2.08789062
             Y: 1.28953171
             Z: -0.598976135
           }
@@ -1024,5 +1024,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

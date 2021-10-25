@@ -20498,6 +20498,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
   DirectlyPublished: true
 }

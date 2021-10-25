@@ -2955,9 +2955,9 @@ Assets {
             Z: 3.00480652
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 6.4699434e-13
-            Roll: -0.000122070313
+            Roll: -0.000122070312
           }
           Scale {
             X: 2.3349359
@@ -3148,8 +3148,8 @@ Assets {
             Z: 14.8240738
           }
           Rotation {
-            Pitch: -6.10351563e-05
-            Yaw: -6.10351563e-05
+            Pitch: -6.10351562e-05
+            Yaw: -6.10351562e-05
             Roll: -151.056
           }
           Scale {
@@ -3736,7 +3736,7 @@ Assets {
     }
     Assets {
       Id: 3673793620995448378
-      Name: "Modern Weapon Ammo - Cannister 01"
+      Name: "Modern Weapon Ammo - Canister 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3856,5 +3856,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

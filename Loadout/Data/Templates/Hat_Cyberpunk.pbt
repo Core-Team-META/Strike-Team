@@ -914,7 +914,7 @@ Assets {
         Name: "5Hemisphere"
         Transform {
           Location {
-            X: -4.24414063
+            X: -4.24414062
             Y: -0.00109863281
             Z: 10.1685791
           }
@@ -4259,5 +4259,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

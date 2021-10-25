@@ -3736,7 +3736,7 @@ Assets {
     }
     Assets {
       Id: 3673793620995448378
-      Name: "Modern Weapon Ammo - Cannister 01"
+      Name: "Modern Weapon Ammo - Canister 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3856,5 +3856,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

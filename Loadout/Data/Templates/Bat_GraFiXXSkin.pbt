@@ -881,7 +881,7 @@ Assets {
         Name: "Pyramid - 8-Sided Truncated Hollow Thick"
         Transform {
           Location {
-            X: 12.9882813
+            X: 12.9882812
             Y: 0.543457031
             Z: 44.8598022
           }
@@ -1411,7 +1411,7 @@ Assets {
           }
           Rotation {
             Pitch: -20.4049072
-            Roll: -7.54101563
+            Roll: -7.54101562
           }
           Scale {
             X: 0.228374034
@@ -1599,5 +1599,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

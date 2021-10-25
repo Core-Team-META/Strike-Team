@@ -3878,7 +3878,7 @@ Objects {
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
-      X: -67.1914063
+      X: -67.1914062
       Y: 6.36364746
       Z: 12.2065182
     }
@@ -4068,7 +4068,7 @@ Objects {
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
-      X: -67.1914063
+      X: -67.1914062
       Y: 6.36364746
       Z: 12.2065182
     }
@@ -4257,7 +4257,7 @@ Objects {
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
-      X: -67.1914063
+      X: -67.1914062
       Y: 6.36364746
       Z: 12.2065182
     }
@@ -4620,7 +4620,7 @@ Objects {
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
-      X: -67.1914063
+      X: -67.1914062
       Y: 6.36364746
       Z: 12.2065182
     }
@@ -4810,7 +4810,7 @@ Objects {
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
-      X: -67.1914063
+      X: -67.1914062
       Y: 6.36364746
       Z: 12.2065182
     }
@@ -4999,7 +4999,7 @@ Objects {
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
-      X: -67.1914063
+      X: -67.1914062
       Y: 6.36364746
       Z: 12.2065182
     }
@@ -5496,7 +5496,7 @@ Objects {
     Location {
       X: -64.7571793
       Y: -268.759247
-      Z: -4.22851563
+      Z: -4.22851562
     }
     Rotation {
       Roll: 89.9999619
@@ -11196,6 +11196,7 @@ Objects {
     }
     MinPitch: -89
     MaxPitch: 89
+    UseAsAudioListener: true
   }
 }
 Objects {
@@ -11237,6 +11238,14 @@ Objects {
     }
     Canvas {
       Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {

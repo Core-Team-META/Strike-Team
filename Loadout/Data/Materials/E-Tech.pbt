@@ -2,7 +2,7 @@ Assets {
   Id: 10598032663507440712
   Name: "E-Tech"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 4239314267907773969
     ParameterOverrides {

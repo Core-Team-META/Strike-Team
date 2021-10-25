@@ -728,7 +728,7 @@ Assets {
         Transform {
           Location {
             X: -6.34667969
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 30.5947418
           }
           Rotation {
@@ -789,7 +789,7 @@ Assets {
         Transform {
           Location {
             X: -5.99292
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 34.2058105
           }
           Rotation {
@@ -1727,7 +1727,7 @@ Assets {
         Name: "Modern Weapon - Grip 03"
         Transform {
           Location {
-            X: 6.36132813
+            X: 6.36132812
             Y: 2.26342773
             Z: 16.5005798
           }
@@ -2451,7 +2451,7 @@ Assets {
         Name: "Modern Weapon - Body 02"
         Transform {
           Location {
-            X: 14.8476563
+            X: 14.8476562
             Z: 34.8916321
           }
           Rotation {
@@ -3135,5 +3135,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

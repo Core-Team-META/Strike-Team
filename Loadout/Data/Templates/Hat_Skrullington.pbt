@@ -589,7 +589,7 @@ Assets {
         Name: "5Hemisphere"
         Transform {
           Location {
-            X: -4.24414063
+            X: -4.24414062
             Y: -0.00109863281
             Z: 10.1685791
           }
@@ -925,7 +925,7 @@ Assets {
         Transform {
           Location {
             X: -8.44586182
-            Y: -0.00317382813
+            Y: -0.00317382812
             Z: 8.03987122
           }
           Rotation {
@@ -1636,7 +1636,7 @@ Assets {
           }
           Rotation {
             Pitch: -1.85821533
-            Yaw: -91.1601563
+            Yaw: -91.1601562
             Roll: -63.513855
           }
           Scale {
@@ -2176,7 +2176,7 @@ Assets {
           }
           Rotation {
             Pitch: -1.85821533
-            Yaw: -91.1601563
+            Yaw: -91.1601562
             Roll: -63.5138855
           }
           Scale {
@@ -2558,5 +2558,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

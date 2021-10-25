@@ -3243,7 +3243,7 @@ Assets {
         Name: "Modern Weapon - Body 02"
         Transform {
           Location {
-            X: -12.7851563
+            X: -12.7851562
             Z: -12.8513107
           }
           Rotation {
@@ -3637,5 +3637,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

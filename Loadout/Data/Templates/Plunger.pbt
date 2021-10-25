@@ -41,7 +41,7 @@ Assets {
         Name: "Weapon - Pipe"
         Transform {
           Location {
-            X: -7.44726563
+            X: -7.44726562
             Y: -2.3671875
             Z: -21.6008911
           }
@@ -838,5 +838,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

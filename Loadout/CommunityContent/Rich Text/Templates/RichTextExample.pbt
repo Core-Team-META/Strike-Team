@@ -67,6 +67,14 @@ Assets {
               Value: "mc:ecanvascontenttype:static"
             }
             Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -426,6 +434,6 @@ Assets {
   Marketplace {
     Description: "Create fancy text fields with markup!\r\n\r\nSupports a bunch of cool stuff:\r\n\r\n* Colors\r\n* Fonts\r\n* Text Size\r\n* Bold text\r\n* Drop Shadows\r\n* Embedded Images\r\n\r\nAnd more!"
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
   DirectlyPublished: true
 }

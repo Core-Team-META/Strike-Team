@@ -285,7 +285,7 @@ Assets {
         Transform {
           Location {
             X: 109.127197
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 15
           }
           Rotation {
@@ -421,7 +421,7 @@ Assets {
         Transform {
           Location {
             X: 57.9716797
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.357132
           }
           Rotation {
@@ -879,8 +879,8 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 02"
         Transform {
           Location {
-            X: 72.9257813
-            Y: 0.000122070313
+            X: 72.9257812
+            Y: 0.000122070312
             Z: 14.357132
           }
           Rotation {
@@ -1010,7 +1010,7 @@ Assets {
         Transform {
           Location {
             X: 49.7822266
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.4528503
           }
           Rotation {
@@ -1442,7 +1442,7 @@ Assets {
         Transform {
           Location {
             X: 88.3126526
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.357132
           }
           Rotation {
@@ -1698,7 +1698,7 @@ Assets {
         Transform {
           Location {
             X: 55.2530518
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 3.03527069
           }
           Rotation {
@@ -2457,7 +2457,7 @@ Assets {
         Transform {
           Location {
             X: 23.4347839
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: -0.121536255
           }
           Rotation {
@@ -2530,7 +2530,7 @@ Assets {
         Transform {
           Location {
             X: 13.4347839
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: -0.121536255
           }
           Rotation {
@@ -2603,7 +2603,7 @@ Assets {
         Transform {
           Location {
             X: 3.43478394
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: -0.121536255
           }
           Rotation {
@@ -2783,7 +2783,7 @@ Assets {
         Transform {
           Location {
             X: 23.7426453
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: -0.121536255
           }
           Rotation {
@@ -3614,5 +3614,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

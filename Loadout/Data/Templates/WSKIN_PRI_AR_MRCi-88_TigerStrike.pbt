@@ -467,7 +467,7 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 7.97324537e-05
           }
           Scale {
@@ -613,7 +613,7 @@ Assets {
           }
           Rotation {
             Pitch: 90
-            Yaw: -6.10351563e-05
+            Yaw: -6.10351562e-05
             Roll: 6.20021674e-05
           }
           Scale {
@@ -1923,7 +1923,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 01"
         Transform {
           Location {
-            X: 30.6445313
+            X: 30.6445312
             Y: 1.09139364e-11
             Z: 15.9124451
           }
@@ -2841,5 +2841,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

@@ -2762,7 +2762,7 @@ Assets {
         Name: "Cube - Arched"
         Transform {
           Location {
-            X: -24.9101563
+            X: -24.9101562
             Z: 8.52410889
           }
           Rotation {
@@ -6769,7 +6769,7 @@ Assets {
         Name: "Cube - Arched"
         Transform {
           Location {
-            X: 34.4882813
+            X: 34.4882812
             Z: 13.7660217
           }
           Rotation {
@@ -7018,7 +7018,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 60.8945313
+            X: 60.8945312
             Z: 15.3226929
           }
           Rotation {
@@ -7101,7 +7101,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 60.8945313
+            X: 60.8945312
             Z: 6.20553589
           }
           Rotation {
@@ -7466,5 +7466,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

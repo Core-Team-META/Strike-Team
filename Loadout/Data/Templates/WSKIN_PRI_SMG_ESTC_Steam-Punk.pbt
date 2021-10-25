@@ -620,7 +620,7 @@ Assets {
         Transform {
           Location {
             X: 19.0071411
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 9.20581055
           }
           Rotation {
@@ -1501,7 +1501,7 @@ Assets {
           }
           Rotation {
             Pitch: 0.000136603776
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: -89.9999084
           }
           Scale {
@@ -1576,7 +1576,7 @@ Assets {
           }
           Rotation {
             Pitch: 0.000136603776
-            Yaw: -0.000122070313
+            Yaw: -0.000122070312
             Roll: -89.9999084
           }
           Scale {
@@ -2603,7 +2603,7 @@ Assets {
         Transform {
           Location {
             X: 3.68237305
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 6.42234039
           }
           Rotation {
@@ -2772,7 +2772,7 @@ Assets {
         Transform {
           Location {
             X: 17.1451416
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: -3.94643402
           }
           Rotation {
@@ -4090,7 +4090,7 @@ Assets {
     }
     Assets {
       Id: 3673793620995448378
-      Name: "Modern Weapon Ammo - Cannister 01"
+      Name: "Modern Weapon Ammo - Canister 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -4111,5 +4111,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

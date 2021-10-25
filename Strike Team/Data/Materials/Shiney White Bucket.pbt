@@ -2,7 +2,7 @@ Assets {
   Id: 7856653630228724966
   Name: "Shiney White Bucket"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 10498479629754026470
     ParameterOverrides {

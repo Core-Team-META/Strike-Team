@@ -131,6 +131,41 @@ Objects {
           HighDistance: 9000
         }
       }
+      VoiceChatSettings {
+        VoiceChatMode {
+          Value: "mc:evoicechatmode:none"
+        }
+        VoiceChannelType {
+          Value: "mc:evoicechanneltype:normal"
+        }
+        AudibleDistance: 6000
+        ConversationalDistance: 1500
+        AudioFadeModel {
+          Value: "mc:evoiceaudiofademodel:inverse"
+        }
+        AudioFadeIntensityByDistance: 1
+        VoiceChatPosition {
+          X: -40
+          Y: 40
+        }
+        VoiceChatHorizontalAlignment {
+          Value: "mc:ecorehorizontalalign:right"
+        }
+        VoiceChatVerticalAlignment {
+          Value: "mc:ecoreverticalalign:top"
+        }
+        VoiceChatEntryHorizontalFlow {
+          Value: "mc:ecorehorizontalflow:righttoleft"
+        }
+        VoiceChatEntryVerticalFlow {
+          Value: "mc:ecoreverticalflow:toptobottom"
+        }
+      }
+      PlayerInteractDistance: 500
+      PlayerInteractAngleDeg: 50
+      PlayerStorageMode {
+        Value: "mc:eplayerstoragemode:none"
+      }
     }
   }
 }
@@ -205,6 +240,7 @@ Objects {
       CanMoveUp: true
       CanMoveDown: true
       MaxHitpoints: 100
+      PlayerMasterVolumeMultiplier: 1
     }
   }
 }
@@ -769,9 +805,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2747168212937678526
+  Id: 3795882603113553250
   Name: "EquipmentHandler"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -785,29 +825,19 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12469272091380785429
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EquipmentHandler"
+  }
+  InstanceHistory {
+    SelfId: 3795882603113553250
+    SubobjectId: 777066251803753357
+    InstanceId: 2747168212937678526
+    TemplateId: 12469272091380785429
+    WasRoot: true
   }
 }
 Objects {

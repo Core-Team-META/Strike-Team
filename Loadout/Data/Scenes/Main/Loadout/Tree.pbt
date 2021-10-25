@@ -130,6 +130,7 @@ Objects {
     }
     MinPitch: -89
     MaxPitch: 89
+    UseAsAudioListener: true
   }
 }
 Objects {
@@ -1227,6 +1228,14 @@ Objects {
     }
     Canvas {
       Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {
@@ -2751,7 +2760,7 @@ Objects {
   Name: "Rare"
   Transform {
     Location {
-      X: -0.000122070313
+      X: -0.000122070312
       Y: -3.05175818e-05
     }
     Rotation {
@@ -4440,6 +4449,14 @@ Objects {
     }
     Canvas {
       Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {
@@ -4997,6 +5014,14 @@ Objects {
     }
     Canvas {
       Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {
@@ -8039,7 +8064,7 @@ Objects {
   Name: "BUTTONSHINE"
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Yaw: 2.73207515e-05

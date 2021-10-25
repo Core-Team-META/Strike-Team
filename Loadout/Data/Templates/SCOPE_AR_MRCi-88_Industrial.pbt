@@ -1135,7 +1135,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 01"
         Transform {
           Location {
-            X: -4.77539063
+            X: -4.77539062
             Y: -1.8421936
             Z: 19.3244781
           }
@@ -1198,7 +1198,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 01"
         Transform {
           Location {
-            X: -4.77539063
+            X: -4.77539062
             Y: 1.58914185
             Z: 19.3244781
           }
@@ -3140,5 +3140,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

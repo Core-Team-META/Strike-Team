@@ -1371,7 +1371,7 @@ Assets {
         Name: "Wedge - Convex Polished"
         Transform {
           Location {
-            X: 18.6132813
+            X: 18.6132812
             Z: 21.8018341
           }
           Rotation {
@@ -2572,5 +2572,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }

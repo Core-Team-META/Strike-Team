@@ -189,6 +189,7 @@ Assets {
             CanMoveDown: true
             IsMountEnabled: true
             MaxHitpoints: 100
+            PlayerMasterVolumeMultiplier: 1
           }
         }
       }
@@ -1227,6 +1228,6 @@ Assets {
   Marketplace {
     Description: "Sniper Alley Demo kit!"
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
   DirectlyPublished: true
 }

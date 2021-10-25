@@ -82,6 +82,7 @@ Objects {
     }
     MinPitch: -89
     MaxPitch: 89
+    UseAsAudioListener: true
   }
 }
 Objects {
@@ -240,7 +241,7 @@ Objects {
   Transform {
     Location {
       X: -9.15527344e-05
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -1.70754686e-06
@@ -511,6 +512,7 @@ Objects {
     }
     MinPitch: -89
     MaxPitch: 89
+    UseAsAudioListener: true
   }
 }
 Objects {
@@ -553,6 +555,14 @@ Objects {
         Value: "mc:ecanvascontenttype:dynamic"
       }
       Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {
@@ -4584,7 +4594,7 @@ Objects {
   Transform {
     Location {
       X: 1.52587891e-05
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 2.71024855e-05

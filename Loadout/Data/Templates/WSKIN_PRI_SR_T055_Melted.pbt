@@ -107,7 +107,7 @@ Assets {
         Name: "Modern Weapon - Barrel Tip 02"
         Transform {
           Location {
-            X: 3.41601563
+            X: 3.41601562
             Y: 0.0219421387
           }
           Rotation {
@@ -2274,7 +2274,7 @@ Assets {
         Transform {
           Location {
             X: 92.7866211
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 14.549324
           }
           Rotation {
@@ -2619,11 +2619,11 @@ Assets {
         Transform {
           Location {
             X: 18.3939209
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 14.4528503
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: -3.05175781e-05
             Roll: -179.999954
           }
@@ -5591,7 +5591,7 @@ Assets {
             Z: -0.360641479
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 89.9999313
             Roll: -179.999893
           }
@@ -5660,7 +5660,7 @@ Assets {
             Z: -0.360641479
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 89.9999313
             Roll: -179.999893
           }
@@ -5781,7 +5781,7 @@ Assets {
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: -0.450195313
+            X: -0.450195312
             Y: -4.60095215
             Z: 6.8899231
           }
@@ -8561,5 +8561,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 100
 }
