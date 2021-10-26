@@ -10,11 +10,6 @@ UserSettings/
 # Comment out if you want to synchronize screenshots
 Screenshots/
 
-# Directory created when publishing a game, excluding this allows anyone to publish without
-# the "You aren't authorized" message
-# No need to synchronize
-PublishData/
-
 # Folder created when you export templates from a game project
 # No need to synchronize
 Exports/
