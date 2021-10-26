@@ -2,7 +2,7 @@ Assets {
   Id: 1237576448022555363
   Name: "Weapon_Material_GunMetal1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8712110816554883928
     ParameterOverrides {

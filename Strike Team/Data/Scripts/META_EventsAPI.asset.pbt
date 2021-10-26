@@ -6,7 +6,7 @@ Assets {
     CustomParameters {
       Overrides {
         Name: "cs:GameId"
-        String: "/9442a4/strike-team"
+        String: "9442a42166c6429d9a45901856fd53c3"
       }
       Overrides {
         Name: "cs:UseGlobal"
@@ -14,5 +14,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

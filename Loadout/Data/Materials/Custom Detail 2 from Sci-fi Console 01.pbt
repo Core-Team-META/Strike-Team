@@ -2,7 +2,7 @@ Assets {
   Id: 17781250949081897869
   Name: "Custom Detail 2 from Sci-fi Console 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 12231647912396294327
     ParameterOverrides {

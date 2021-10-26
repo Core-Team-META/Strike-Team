@@ -2,7 +2,7 @@ Assets {
   Id: 16703493352990103549
   Name: "SAR_LightBulb"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13206135842285396679
     ParameterOverrides {

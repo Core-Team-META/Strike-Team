@@ -2,7 +2,7 @@ Assets {
   Id: 2431930573571638561
   Name: "Custom Base Material from Ball - Tennis 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 3483882565492624738
     ParameterOverrides {
