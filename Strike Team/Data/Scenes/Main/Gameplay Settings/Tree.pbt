@@ -128,8 +128,8 @@ Objects {
     }
   }
   ParentId: 5167301868571935543
-  ChildIds: 1583736298759259543
-  ChildIds: 896247482797355755
+  ChildIds: 12981487116349030341
+  ChildIds: 6588845735205876
   UnregisteredParameters {
     Overrides {
       Name: "cs:XP_MULTIPLY"
@@ -156,7 +156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 896247482797355755
+  Id: 6588845735205876
   Name: "XP"
   Transform {
     Location {
@@ -170,10 +170,10 @@ Objects {
     }
   }
   ParentId: 66410351394342440
-  ChildIds: 15145806300056321273
-  ChildIds: 981725232103542972
-  ChildIds: 12608993722101478362
-  ChildIds: 3590238856382596942
+  ChildIds: 10439009123654352858
+  ChildIds: 2816118407672307335
+  ChildIds: 4558712267720895024
+  ChildIds: 2736459665606423303
   UnregisteredParameters {
     Overrides {
       Name: "cs:WIN"
@@ -198,7 +198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3590238856382596942
+  Id: 2736459665606423303
   Name: "Assists"
   Transform {
     Location {
@@ -211,11 +211,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 896247482797355755
+  ParentId: 6588845735205876
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 20
+      Float: 10
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -238,7 +238,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12608993722101478362
+  Id: 4558712267720895024
   Name: "Objective"
   Transform {
     Location {
@@ -251,11 +251,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 896247482797355755
+  ParentId: 6588845735205876
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 100
+      Float: 50
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -278,7 +278,7 @@ Objects {
   }
 }
 Objects {
-  Id: 981725232103542972
+  Id: 2816118407672307335
   Name: "Kills"
   Transform {
     Location {
@@ -291,7 +291,47 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 896247482797355755
+  ParentId: 6588845735205876
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Value"
+      Float: 20
+    }
+    Overrides {
+      Name: "cs:MaxAmount"
+      Int: 25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6842197944340676077
+    }
+  }
+}
+Objects {
+  Id: 10439009123654352858
+  Name: "Headshots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6588845735205876
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
@@ -318,47 +358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15145806300056321273
-  Name: "Headshots"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 896247482797355755
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Value"
-      Float: 80
-    }
-    Overrides {
-      Name: "cs:MaxAmount"
-      Int: 25
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6842197944340676077
-    }
-  }
-}
-Objects {
-  Id: 1583736298759259543
+  Id: 12981487116349030341
   Name: "Cash"
   Transform {
     Location {
@@ -372,10 +372,10 @@ Objects {
     }
   }
   ParentId: 66410351394342440
-  ChildIds: 14623244994459890772
-  ChildIds: 1831952270868744551
-  ChildIds: 4406784971154654279
-  ChildIds: 4242859826993106405
+  ChildIds: 17943409334542173321
+  ChildIds: 2851619593363996607
+  ChildIds: 563973707824453362
+  ChildIds: 9256189747017510551
   UnregisteredParameters {
     Overrides {
       Name: "cs:WIN"
@@ -400,7 +400,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4242859826993106405
+  Id: 9256189747017510551
   Name: "Assists"
   Transform {
     Location {
@@ -413,11 +413,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1583736298759259543
+  ParentId: 12981487116349030341
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 6
+      Float: 3
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -440,7 +440,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4406784971154654279
+  Id: 563973707824453362
   Name: "Objective"
   Transform {
     Location {
@@ -453,11 +453,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1583736298759259543
+  ParentId: 12981487116349030341
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 15
+      Float: 30
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -480,7 +480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1831952270868744551
+  Id: 2851619593363996607
   Name: "Kills"
   Transform {
     Location {
@@ -493,11 +493,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1583736298759259543
+  ParentId: 12981487116349030341
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 10
+      Float: 5
     }
     Overrides {
       Name: "cs:MaxAmount"
@@ -520,7 +520,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14623244994459890772
+  Id: 17943409334542173321
   Name: "Headshots"
   Transform {
     Location {
@@ -533,11 +533,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1583736298759259543
+  ParentId: 12981487116349030341
   UnregisteredParameters {
     Overrides {
       Name: "cs:Value"
-      Float: 30
+      Float: 20
     }
     Overrides {
       Name: "cs:MaxAmount"
