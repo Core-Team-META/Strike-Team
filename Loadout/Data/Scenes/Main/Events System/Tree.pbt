@@ -17,7 +17,7 @@ Objects {
   ParentId: 9328698234732558167
   ChildIds: 16165131741078527008
   ChildIds: 17472755710955406689
-  ChildIds: 1230907435972893869
+  ChildIds: 1762880007575243864
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1230907435972893869
+  Id: 1762880007575243864
   Name: "Halloween"
   Transform {
     Location {
@@ -49,9 +49,9 @@ Objects {
     }
   }
   ParentId: 11714623028485260490
-  ChildIds: 17317638253949532242
-  ChildIds: 9967880802404344748
-  ChildIds: 4496871123505825756
+  ChildIds: 8238146074520594568
+  ChildIds: 11426740150282677278
+  ChildIds: 7920818014285895878
   UnregisteredParameters {
     Overrides {
       Name: "cs:Key"
@@ -81,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4496871123505825756
+  Id: 7920818014285895878
   Name: "EventRewardDoubleResource"
   Transform {
     Location {
@@ -94,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1230907435972893869
+  ParentId: 1762880007575243864
   UnregisteredParameters {
     Overrides {
       Name: "cs:Resource"
@@ -120,7 +120,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9967880802404344748
+  Id: 11426740150282677278
   Name: "EventRewardDoubleResource"
   Transform {
     Location {
@@ -133,7 +133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1230907435972893869
+  ParentId: 1762880007575243864
   UnregisteredParameters {
     Overrides {
       Name: "cs:Resource"
@@ -159,7 +159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17317638253949532242
+  Id: 8238146074520594568
   Name: "EventRewardSkin"
   Transform {
     Location {
@@ -172,7 +172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1230907435972893869
+  ParentId: 1762880007575243864
   UnregisteredParameters {
     Overrides {
       Name: "cs:Weapon"

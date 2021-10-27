@@ -27,4 +27,10 @@ end
 for key, player in pairs(Game.GetPlayers()) do
     OnPlayerJoined(player)
 end
-Game.playerJoinedEvent:Connect(OnPlayerJoined)
+local playerJoin =  Game.playerJoinedEvent:Connect(OnPlayerJoined)
+
+while META_EventsAPI.IsEventKeyActive(EventKey) do
+    Task.Wait()
+end
+ 
+playerJoin:Disconnect()
