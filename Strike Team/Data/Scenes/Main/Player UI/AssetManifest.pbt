@@ -1,4 +1,13 @@
 Assets {
+  Id: 18078876033136395499
+  Name: "Sci-fi Parts 030"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Equip_Parts_030"
+  }
+}
+Assets {
   Id: 16075623993800484681
   Name: "Survival Grenade 001"
   PlatformAssetType: 9

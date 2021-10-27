@@ -1,7 +1,7 @@
 Name: "Events System"
-RootId: 1442639417845340074
+RootId: 10463019364948376351
 Objects {
-  Id: 2238674119231988614
+  Id: 11208464585345769422
   Name: "Event Keys - keys cannot have underscores - must be unique"
   Transform {
     Location {
@@ -14,10 +14,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1442639417845340074
-  ChildIds: 7404211228486052680
-  ChildIds: 13702898022270149565
-  ChildIds: 7047965892249495596
+  ParentId: 10463019364948376351
+  ChildIds: 1329895894632434977
+  ChildIds: 15602456061310158599
+  ChildIds: 17452323072895631838
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7047965892249495596
+  Id: 17452323072895631838
   Name: "Halloween"
   Transform {
     Location {
@@ -48,10 +48,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2238674119231988614
-  ChildIds: 4406538283819244869
-  ChildIds: 7949425890969138232
-  ChildIds: 11217634145320871444
+  ParentId: 11208464585345769422
+  ChildIds: 11303290626249403794
+  ChildIds: 17673938029045303765
+  ChildIds: 5846323401918920743
   UnregisteredParameters {
     Overrides {
       Name: "cs:Key"
@@ -81,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11217634145320871444
+  Id: 5846323401918920743
   Name: "EventRewardDoubleResource"
   Transform {
     Location {
@@ -94,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7047965892249495596
+  ParentId: 17452323072895631838
   UnregisteredParameters {
     Overrides {
       Name: "cs:Resource"
@@ -120,7 +120,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7949425890969138232
+  Id: 17673938029045303765
   Name: "EventRewardDoubleResource"
   Transform {
     Location {
@@ -133,7 +133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7047965892249495596
+  ParentId: 17452323072895631838
   UnregisteredParameters {
     Overrides {
       Name: "cs:Resource"
@@ -159,7 +159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4406538283819244869
+  Id: 11303290626249403794
   Name: "EventRewardSkin"
   Transform {
     Location {
@@ -172,7 +172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7047965892249495596
+  ParentId: 17452323072895631838
   UnregisteredParameters {
     Overrides {
       Name: "cs:Weapon"
@@ -202,7 +202,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13702898022270149565
+  Id: 15602456061310158599
   Name: "Double Gold"
   Transform {
     Location {
@@ -215,8 +215,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2238674119231988614
-  ChildIds: 8403960396991268900
+  ParentId: 11208464585345769422
+  ChildIds: 17708788308957841149
   UnregisteredParameters {
     Overrides {
       Name: "cs:Key"
@@ -246,7 +246,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8403960396991268900
+  Id: 17708788308957841149
   Name: "EventRewardDoubleResource"
   Transform {
     Location {
@@ -259,7 +259,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13702898022270149565
+  ParentId: 15602456061310158599
   UnregisteredParameters {
     Overrides {
       Name: "cs:Resource"
@@ -285,7 +285,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7404211228486052680
+  Id: 1329895894632434977
   Name: "Double XP"
   Transform {
     Location {
@@ -298,8 +298,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2238674119231988614
-  ChildIds: 1728693059050823418
+  ParentId: 11208464585345769422
+  ChildIds: 2957636418870679139
   UnregisteredParameters {
     Overrides {
       Name: "cs:Key"
@@ -329,7 +329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1728693059050823418
+  Id: 2957636418870679139
   Name: "EventRewardDoubleResource"
   Transform {
     Location {
@@ -342,7 +342,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7404211228486052680
+  ParentId: 1329895894632434977
   UnregisteredParameters {
     Overrides {
       Name: "cs:Resource"
