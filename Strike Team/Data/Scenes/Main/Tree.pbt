@@ -24,8 +24,8 @@ Objects {
   ChildIds: 15084389731420460127
   ChildIds: 17929813013966814706
   ChildIds: 8051191139138894688
-  ChildIds: 10463019364948376351
   ChildIds: 16271869066787901046
+  ChildIds: 10463019364948376351
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +38,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10463019364948376351
+  Name: "Events System"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Events System"
   }
 }
 Objects {
@@ -189,7 +221,7 @@ Objects {
     Overrides {
       Name: "cs:EventKeysKeysCannotHaveUnderscoresMustBe"
       ObjectReference {
-        SelfId: 2238674119231988614
+        SelfId: 11208464585345769422
       }
     }
   }
@@ -236,7 +268,7 @@ Objects {
     Overrides {
       Name: "cs:EventKeysKeysCannotHaveUnderscoresMustBe"
       ObjectReference {
-        SelfId: 2238674119231988614
+        SelfId: 11208464585345769422
       }
     }
   }
@@ -256,38 +288,6 @@ Objects {
     ScriptAsset {
       Id: 4243414991817554786
     }
-  }
-}
-Objects {
-  Id: 10463019364948376351
-  Name: "Events System"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Events System"
   }
 }
 Objects {

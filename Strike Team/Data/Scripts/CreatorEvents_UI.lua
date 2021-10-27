@@ -16,9 +16,10 @@ local lastCount = CHECK_TIME
 
 function Tick(dt)
     lastCount = lastCount + dt
+   
     if lastCount >= CHECK_TIME then
         local isEventActive = META_EventsAPI.IsEventKeyActive("HAL")
-    
+        print("Count" ,isEventActive)
         local currentCashMultiplier = CASH_MULTIPLY
         local currentXPMultiplier = XP_MULTIPLY
 
