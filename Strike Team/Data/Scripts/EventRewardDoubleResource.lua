@@ -3,7 +3,7 @@ local META_EventsAPI = require(script:GetCustomProperty("META_EventsAPI"))
 
 local EventKey = script.parent:GetCustomProperty("Key")
 
-local CHECK_TIME = 60
+local CHECK_TIME = 15
 local isEventActive = false
 local totalDeltaTime = CHECK_TIME
 

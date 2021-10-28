@@ -11,7 +11,7 @@ local REWARDATABASE = script:GetCustomProperty("REWARDATABASE"):WaitForObject()
 local XP_MULTIPLY = REWARDATABASE:GetCustomProperty("XP_MULTIPLY")
 local CASH_MULTIPLY = REWARDATABASE:GetCustomProperty("CASH_MULTIPLY")
 
-local CHECK_TIME = 60
+local CHECK_TIME = 15
 local lastCount = CHECK_TIME
 
 function Tick(dt)
@@ -27,6 +27,8 @@ function Tick(dt)
             currentCashMultiplier = currentCashMultiplier + 1
             currentXPMultiplier = currentXPMultiplier + 1
         end
+        _G["REWARDDATABASE"].MultiplyTable.XP = currentCashMultiplier
+        _G["REWARDDATABASE"].MultiplyTable.Cash = currentXPMultiplier
 
         CashMultiplier.text = tostring(currentCashMultiplier) .. "x"
         XPMultiplier.text = tostring(currentXPMultiplier) .. "x"

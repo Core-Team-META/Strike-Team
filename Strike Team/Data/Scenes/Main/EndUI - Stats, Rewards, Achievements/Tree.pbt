@@ -12433,10 +12433,10 @@ Objects {
     }
   }
   ParentId: 7937013335912062037
-  ChildIds: 2788998180995295635
   ChildIds: 2015560557830008376
-  ChildIds: 1682559705120641455
   ChildIds: 2799794553980787474
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12520,7 +12520,14 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       AutoWrapText: true
+      ClipTextToSize: true
       Font {
+      }
+      ShadowColor {
+      }
+      ShadowOffset {
+        X: 2
+        Y: 2
       }
     }
     AnchorLayout {
@@ -12585,70 +12592,11 @@ Objects {
       ClipTextToSize: true
       Font {
       }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
+      ShadowColor {
       }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 1682559705120641455
-  Name: "GAINED_EXP_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1468010426265195634
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 100
-    Height: 25
-    UIX: -5
-    UIY: 3
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentHeight: true
-    Text {
-      Label: "+ 99"
-      Color {
-        R: 0.000630100432
-        G: 0.00814846717
-        B: 0.0100000007
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:right"
-      }
-      AutoWrapText: true
-      Font {
+      ShadowOffset {
+        X: 2
+        Y: 2
       }
     }
     AnchorLayout {
@@ -12714,7 +12662,14 @@ Objects {
         Value: "mc:etextjustify:right"
       }
       AutoWrapText: true
+      ClipTextToSize: true
       Font {
+      }
+      ShadowColor {
+      }
+      ShadowOffset {
+        X: 2
+        Y: 2
       }
     }
     AnchorLayout {
@@ -12777,68 +12732,6 @@ Objects {
       }
       AutoWrapText: true
       ClipTextToSize: true
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 2788998180995295635
-  Name: "TITLE_GAINED_EXP_SHADOW"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1468010426265195634
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 208
-    Height: 40
-    UIX: -61.8226318
-    UIY: 3
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentHeight: true
-    Text {
-      Label: "2 x GAINED XP:"
-      Color {
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:right"
-      }
-      AutoWrapText: true
       Font {
       }
     }

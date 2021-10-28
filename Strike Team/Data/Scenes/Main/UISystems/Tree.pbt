@@ -47466,6 +47466,24 @@ Objects {
         SelfId: 8925761786029294907
       }
     }
+    Overrides {
+      Name: "cs:TITLE_GAINED_EXP_SHADOW"
+      ObjectReference {
+        SelfId: 2015560557830008376
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_GAINED_EXP"
+      ObjectReference {
+        SelfId: 2392578995929705228
+      }
+    }
+    Overrides {
+      Name: "cs:CASH_TOTAL"
+      ObjectReference {
+        SelfId: 8275263761362869956
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

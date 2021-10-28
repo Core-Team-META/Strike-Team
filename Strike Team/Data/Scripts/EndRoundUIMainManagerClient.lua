@@ -61,6 +61,11 @@ local completeSFX = script:GetCustomProperty("CompleteSFX"):WaitForObject()
 local tickGroup = script:GetCustomProperty("TickGroup"):WaitForObject()
 local goldGroup = script:GetCustomProperty("GoldGroup"):WaitForObject()
 
+local TITLE_GAINED_EXP_SHADOW = script:GetCustomProperty("TITLE_GAINED_EXP_SHADOW"):WaitForObject()
+local TITLE_GAINED_EXP = script:GetCustomProperty("TITLE_GAINED_EXP"):WaitForObject()
+local CASH_TOTAL = script:GetCustomProperty("CASH_TOTAL"):WaitForObject()
+
+
 local winValue = 100
 local lossValue = 50
 
@@ -566,11 +571,23 @@ function ResetEndRoundResults()
 end
 
 function RecordCurrentXP()
+
+	--#TODO Sloppy should be somewhere else
+	TITLE_GAINED_EXP_SHADOW.text = tostring(_G["REWARDDATABASE"].MultiplyTable.XP) .. " x GAINED XP:"
+	TITLE_GAINED_EXP.text = tostring(_G["REWARDDATABASE"].MultiplyTable.XP) .. " x GAINED XP:"  
+	if _G["REWARDDATABASE"].MultiplyTable.Cash > 1 then
+		CASH_TOTAL.text = "With the CASH BONUS, you earned you a total of: "
+	else
+		CASH_TOTAL.text = "You earned a total of: "
+	end
+
 	roundXP = localPlayerXP:GetXP()
 
 	oldLvl = localPlayerXP:CalculateLevel()
 
 	oldXP = localPlayerXP:GetXPInCurrentLevel() + localPlayerXP:GetXPUntilNextLevel()
+
+
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
