@@ -1,2 +1,4 @@
-# Core saves .pbt files as LF by default
-*.pbt text eol=lf
+# Auto detect text files and perform LF normalization
+* text=auto
+*.pbt text eol=lf -delta linguist-language=Protobuf-Text-Format
+*.terrain binary -delta
