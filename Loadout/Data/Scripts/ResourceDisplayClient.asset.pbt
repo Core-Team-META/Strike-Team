@@ -3,6 +3,8 @@ Assets {
   Name: "ResourceDisplayClient"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

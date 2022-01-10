@@ -34,6 +34,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 8867512968139725298
@@ -88,6 +91,9 @@ Assets {
           }
           CastVolumetricShadows: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1238684160300323888
@@ -139,6 +145,9 @@ Assets {
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -194,6 +203,9 @@ Assets {
             IsAttenuationEnabled: true
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 10338283310524471027
@@ -241,6 +253,9 @@ Assets {
         Relevance {
           Value: "mc:eproxyrelevance:high"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -263,7 +278,7 @@ Assets {
     }
     Assets {
       Id: 16322635077100878811
-      Name: "Generic Muzzleflash VFX"
+      Name: "Generic Muzzle Flash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
@@ -275,5 +290,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

@@ -34,6 +34,9 @@ Objects {
   }
   Folder {
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4087818592609908158
@@ -62,6 +65,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "LevelArt"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -92,6 +98,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "UI Systems"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9720719631736950161
@@ -120,6 +129,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gameplay Systems"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -155,6 +167,9 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -237,6 +252,9 @@ Objects {
       Id: 17382814861319731826
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16221939146698205984
@@ -266,6 +284,9 @@ Objects {
     ScriptAsset {
       Id: 6265978111211671184
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -297,6 +318,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -330,5 +354,8 @@ Objects {
     ScriptAsset {
       Id: 7541650775654773469
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

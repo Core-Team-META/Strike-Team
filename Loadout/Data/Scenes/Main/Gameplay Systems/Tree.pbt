@@ -53,6 +53,9 @@ Objects {
       Id: 5923195015160557143
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7367735074338159388
@@ -131,7 +134,45 @@ Objects {
           HighDistance: 9000
         }
       }
+      VoiceChatSettings {
+        VoiceChatMode {
+          Value: "mc:evoicechatmode:none"
+        }
+        VoiceChannelType {
+          Value: "mc:evoicechanneltype:normal"
+        }
+        AudibleDistance: 6000
+        ConversationalDistance: 1500
+        AudioFadeModel {
+          Value: "mc:evoiceaudiofademodel:inverse"
+        }
+        AudioFadeIntensityByDistance: 1
+        VoiceChatPosition {
+          X: -40
+          Y: 40
+        }
+        VoiceChatHorizontalAlignment {
+          Value: "mc:ecorehorizontalalign:right"
+        }
+        VoiceChatVerticalAlignment {
+          Value: "mc:ecoreverticalalign:top"
+        }
+        VoiceChatEntryHorizontalFlow {
+          Value: "mc:ecorehorizontalflow:righttoleft"
+        }
+        VoiceChatEntryVerticalFlow {
+          Value: "mc:ecoreverticalflow:toptobottom"
+        }
+      }
+      PlayerInteractDistance: 500
+      PlayerInteractAngleDeg: 50
+      PlayerStorageMode {
+        Value: "mc:eplayerstoragemode:writable"
+      }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -205,7 +246,11 @@ Objects {
       CanMoveUp: true
       CanMoveDown: true
       MaxHitpoints: 100
+      PlayerMasterVolumeMultiplier: 1
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -237,6 +282,9 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1620205075292783190
@@ -265,6 +313,9 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -296,6 +347,9 @@ Objects {
       Id: 7547505263523674818
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3000378062385624770
@@ -323,6 +377,9 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -354,6 +411,9 @@ Objects {
       Id: 7547505263523674818
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17855751618251119169
@@ -382,6 +442,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "LoadoutEquipment"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -446,6 +509,9 @@ Objects {
       Id: 15930087830757616918
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6820215483491735348
@@ -474,6 +540,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Chat"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -504,6 +573,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "LootBox"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2738064225425655875
@@ -533,6 +605,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Funnel"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11379882086625636037
@@ -561,6 +636,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Lifetime Stats"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -592,6 +670,9 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9556497154854044989
@@ -620,6 +701,9 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -651,6 +735,9 @@ Objects {
       Id: 1446949125359162070
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5141681808947700192
@@ -678,6 +765,9 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -709,6 +799,9 @@ Objects {
       Id: 13946925081248859053
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11461366442528337505
@@ -738,6 +831,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Purchase"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7325714028980024580
@@ -766,6 +862,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "PurchaseCredits"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -808,6 +907,9 @@ Objects {
     TemplateAsset {
       Id: 12469272091380785429
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -868,6 +970,9 @@ Objects {
       Id: 336823580396764239
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5402828117076190083
@@ -897,5 +1002,8 @@ Objects {
     ScriptAsset {
       Id: 9370157671289778790
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

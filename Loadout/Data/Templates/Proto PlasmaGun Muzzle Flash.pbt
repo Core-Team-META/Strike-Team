@@ -35,6 +35,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 3267214802592589088
@@ -99,6 +102,9 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -170,6 +176,9 @@ Assets {
         Relevance {
           Value: "mc:eproxyrelevance:low"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 10284508990012734494
@@ -218,6 +227,9 @@ Assets {
             IsAttenuationEnabled: true
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 3183456010115657079
@@ -257,6 +269,9 @@ Assets {
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -298,6 +313,9 @@ Assets {
           IsAttenuationEnabled: true
           StopTime: 0.3
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 14752315899370711527
@@ -335,11 +353,14 @@ Assets {
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
       Id: 11252187294642675795
-      Name: "Advanced Muzzleflash VFX"
+      Name: "Advanced Muzzle Flash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
@@ -396,5 +417,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

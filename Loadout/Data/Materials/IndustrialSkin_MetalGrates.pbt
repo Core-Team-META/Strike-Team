@@ -2,7 +2,7 @@ Assets {
   Id: 14241014470924499351
   Name: "IndustrialSkin_MetalGrates"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 16123746187444787367
     ParameterOverrides {

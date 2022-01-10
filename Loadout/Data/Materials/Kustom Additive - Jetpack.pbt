@@ -2,7 +2,7 @@ Assets {
   Id: 17772750146922016034
   Name: "Kustom Additive - Jetpack"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 9134579743160012638
     ParameterOverrides {

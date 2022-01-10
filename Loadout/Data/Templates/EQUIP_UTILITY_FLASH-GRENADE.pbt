@@ -75,6 +75,8 @@ Assets {
             ReticleType {
               Value: "mc:ereticletype:none"
             }
+            AttackSfxAssetRef {
+            }
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
@@ -95,6 +97,9 @@ Assets {
               Value: "mc:eweapontrajectorymode:followlookvector"
             }
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -124,6 +129,9 @@ Assets {
           Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -174,6 +182,9 @@ Assets {
           ScriptAsset {
             Id: 6342549352078680519
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -251,6 +262,9 @@ Assets {
             Value: "mc:egameaction:extraaction_32"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 10656147590025219270
@@ -327,6 +341,9 @@ Assets {
             Value: "mc:egameaction:invalid"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12273542651432139699
@@ -366,6 +383,9 @@ Assets {
             Id: 4968015600947116273
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -373,5 +393,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

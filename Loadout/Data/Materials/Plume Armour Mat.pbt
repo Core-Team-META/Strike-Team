@@ -2,7 +2,7 @@ Assets {
   Id: 186663673633210942
   Name: "Plume Armour Mat"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 10932061221845969254
     ParameterOverrides {

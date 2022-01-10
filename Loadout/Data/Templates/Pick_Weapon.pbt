@@ -83,6 +83,9 @@ Assets {
           PickupTrigger {
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 11086491858562709730
@@ -148,6 +151,9 @@ Assets {
           TriggerShape_v2 {
             Value: "mc:etriggershape:sphere"
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -268,6 +274,9 @@ Assets {
             Value: "mc:egameaction:primaryaction"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2723908955583120053
@@ -300,6 +309,9 @@ Assets {
         NetworkContext {
           Type: Server
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 8986981690783987628
@@ -329,6 +341,9 @@ Assets {
           ScriptAsset {
             Id: 1427829216143793458
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -361,6 +376,9 @@ Assets {
           ScriptAsset {
             Id: 5082628058110625875
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -404,6 +422,9 @@ Assets {
             Id: 12439034694186114331
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2368450491063107045
@@ -434,6 +455,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1173093911495631377
@@ -463,6 +487,9 @@ Assets {
           ScriptAsset {
             Id: 440168262593430639
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -496,6 +523,9 @@ Assets {
             Id: 12971704803185333098
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -503,5 +533,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

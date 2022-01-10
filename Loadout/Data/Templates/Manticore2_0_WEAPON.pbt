@@ -180,6 +180,8 @@ Assets {
             ReticleType {
               Value: "mc:ereticletype:none"
             }
+            AttackSfxAssetRef {
+            }
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
@@ -200,6 +202,9 @@ Assets {
               Value: "mc:eweapontrajectorymode:followlookvector"
             }
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -268,6 +273,9 @@ Assets {
             Value: "mc:egameaction:invalid"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12225205146995319638
@@ -329,6 +337,9 @@ Assets {
             Value: "mc:egameaction:invalid"
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 17942156733439312411
@@ -386,6 +397,9 @@ Assets {
             Id: 9036132385997964291
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1083105868864905060
@@ -417,6 +431,9 @@ Assets {
         }
         NetworkContext {
           Type: Server
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -453,6 +470,9 @@ Assets {
           ScriptAsset {
             Id: 2472577150731722024
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -493,6 +513,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 732961892633615077
@@ -530,6 +553,9 @@ Assets {
           ScriptAsset {
             Id: 440168262593430639
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -583,6 +609,9 @@ Assets {
             Id: 6652974207271369531
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 14438924656766484721
@@ -621,6 +650,9 @@ Assets {
             Id: 17169051963161242240
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 8343015193942131741
@@ -652,6 +684,9 @@ Assets {
           ScriptAsset {
             Id: 8163343952479535019
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -704,6 +739,9 @@ Assets {
             Id: 17374269570626674164
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4386669990835637117
@@ -736,6 +774,9 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Effects_3"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -772,6 +813,9 @@ Assets {
           ScriptAsset {
             Id: 7766883827523033344
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -817,6 +861,9 @@ Assets {
             Id: 11739187330987241719
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 11508179033440532627
@@ -850,6 +897,9 @@ Assets {
           Falloff: -1
           Radius: -1
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 3381081742710101118
@@ -882,6 +932,9 @@ Assets {
           Volume: 0.7
           Falloff: -1
           Radius: -1
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -924,6 +977,9 @@ Assets {
           ScriptAsset {
             Id: 17411507071286499031
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -973,6 +1029,9 @@ Assets {
             Id: 10670409415717259294
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4553896314413490880
@@ -1017,6 +1076,9 @@ Assets {
             Id: 3881651977092051116
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -1042,5 +1104,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

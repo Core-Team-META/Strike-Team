@@ -30,6 +30,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2931310664181792077
@@ -67,6 +70,14 @@ Assets {
               Value: "mc:ecanvascontenttype:static"
             }
             Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -80,6 +91,9 @@ Assets {
               }
             }
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -140,6 +154,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 13630842651758069362
@@ -196,6 +213,9 @@ Assets {
               }
             }
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -258,6 +278,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4493518818899862469
@@ -307,6 +330,9 @@ Assets {
           ScriptAsset {
             Id: 12843428159875533114
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -361,6 +387,9 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
     }
@@ -426,6 +455,6 @@ Assets {
   Marketplace {
     Description: "Create fancy text fields with markup!\r\n\r\nSupports a bunch of cool stuff:\r\n\r\n* Colors\r\n* Fonts\r\n* Text Size\r\n* Bold text\r\n* Drop Shadows\r\n* Embedded Images\r\n\r\nAnd more!"
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
   DirectlyPublished: true
 }

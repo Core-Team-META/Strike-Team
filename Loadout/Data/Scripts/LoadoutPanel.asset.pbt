@@ -3,6 +3,8 @@ Assets {
   Name: "LoadoutPanel"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

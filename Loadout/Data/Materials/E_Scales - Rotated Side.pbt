@@ -2,7 +2,7 @@ Assets {
   Id: 8858644940972737582
   Name: "E_Scales - Rotated Side"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 11168369628247622951
     ParameterOverrides {

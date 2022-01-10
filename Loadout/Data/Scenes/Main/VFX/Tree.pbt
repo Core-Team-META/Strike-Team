@@ -46,4 +46,7 @@ Objects {
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

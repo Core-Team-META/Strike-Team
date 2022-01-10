@@ -37,6 +37,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4830060901979893044
@@ -85,6 +88,9 @@ Assets {
             IsAttenuationEnabled: true
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12996217071285140997
@@ -126,6 +132,9 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -174,6 +183,9 @@ Assets {
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -225,6 +237,9 @@ Assets {
             IsAttenuationEnabled: true
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 502640409887200536
@@ -272,6 +287,9 @@ Assets {
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -322,6 +340,9 @@ Assets {
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -414,6 +435,9 @@ Assets {
         Relevance {
           Value: "mc:eproxyrelevance:medium"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -427,7 +451,7 @@ Assets {
     }
     Assets {
       Id: 11252187294642675795
-      Name: "Advanced Muzzleflash VFX"
+      Name: "Advanced Muzzle Flash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
@@ -457,5 +481,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 103
 }

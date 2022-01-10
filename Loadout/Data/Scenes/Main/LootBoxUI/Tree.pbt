@@ -29,6 +29,9 @@ Objects {
   NetworkContext {
     Type: Server
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9849239730052840535
@@ -61,6 +64,9 @@ Objects {
       Id: 11546633816005294545
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5017800131318480730
@@ -90,6 +96,9 @@ Objects {
     ScriptAsset {
       Id: 15150034159433817472
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -128,6 +137,9 @@ Objects {
   }
   NetworkContext {
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11913351715711052357
@@ -165,6 +177,14 @@ Objects {
     }
     Canvas {
       Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {
@@ -178,6 +198,9 @@ Objects {
         }
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -234,13 +257,16 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 764135634268285871
   Name: "SkipLootAnimation"
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Z: -3.05175781e-05
     }
     Rotation {
@@ -279,6 +305,9 @@ Objects {
     ScriptAsset {
       Id: 13676001661832345975
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -374,6 +403,9 @@ Objects {
       }
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13843858524529694290
@@ -415,6 +447,9 @@ Objects {
       Id: 5592295963361509372
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13703079821703078009
@@ -447,6 +482,9 @@ Objects {
     ScriptAsset {
       Id: 11546633816005294545
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -493,6 +531,9 @@ Objects {
       Id: 7773270456778289387
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9535519928880354544
@@ -525,6 +566,9 @@ Objects {
     ScriptAsset {
       Id: 12286405720167867672
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -559,6 +603,9 @@ Objects {
       Id: 12570153350421845829
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14438528731526493836
@@ -590,5 +637,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "ST_CHAMPIONS_CRATE"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

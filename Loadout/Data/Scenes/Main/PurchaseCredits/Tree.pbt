@@ -28,6 +28,9 @@ Objects {
   NetworkContext {
     Type: Server
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10688056149047235075
@@ -60,6 +63,9 @@ Objects {
       Id: 9090806042284620976
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8071645797724770318
@@ -88,6 +94,9 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -127,6 +136,9 @@ Objects {
       Id: 9986613342432394644
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3030726978272244941
@@ -164,5 +176,8 @@ Objects {
     ScriptAsset {
       Id: 3950340338573681455
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

@@ -5,3 +5,4 @@ ObjectSettings {
     }
   }
 }
+LastSavedScene: "Main"
