@@ -29,6 +29,9 @@ Objects {
   }
   NetworkContext {
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12354726766493377029
@@ -58,6 +61,9 @@ Objects {
     ScriptAsset {
       Id: 15412717926472817745
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -96,6 +102,9 @@ Objects {
     ScriptAsset {
       Id: 5005906046061439436
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -193,5 +202,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Post"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

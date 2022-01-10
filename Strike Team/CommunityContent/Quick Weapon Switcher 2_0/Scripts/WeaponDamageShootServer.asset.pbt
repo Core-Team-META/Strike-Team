@@ -3,6 +3,8 @@ Assets {
   Name: "WeaponDamageShootServer"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 103
 }

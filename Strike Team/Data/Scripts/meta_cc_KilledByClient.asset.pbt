@@ -3,6 +3,8 @@ Assets {
   Name: "meta_cc_KilledByClient"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 103
 }

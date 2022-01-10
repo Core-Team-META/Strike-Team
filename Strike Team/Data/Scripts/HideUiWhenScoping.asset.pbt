@@ -3,6 +3,8 @@ Assets {
   Name: "HideUiWhenScoping"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 103
 }

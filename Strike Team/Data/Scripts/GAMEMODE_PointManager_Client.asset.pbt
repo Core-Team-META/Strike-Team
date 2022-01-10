@@ -3,6 +3,8 @@ Assets {
   Name: "GAMEMODE_PointManager_Client"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 103
 }

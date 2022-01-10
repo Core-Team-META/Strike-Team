@@ -3,6 +3,8 @@ Assets {
   Name: "EndRoundUIMainManagerClient"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 103
 }

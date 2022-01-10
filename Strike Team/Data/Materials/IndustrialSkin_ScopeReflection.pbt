@@ -2,7 +2,7 @@ Assets {
   Id: 8663632123525726235
   Name: "IndustrialSkin_ScopeReflection"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 8801513157551410576
     ParameterOverrides {

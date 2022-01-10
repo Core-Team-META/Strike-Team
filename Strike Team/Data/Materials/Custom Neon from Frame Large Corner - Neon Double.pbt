@@ -2,7 +2,7 @@ Assets {
   Id: 295700071464732207
   Name: "Custom Neon from Frame Large Corner - Neon Double"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 6003420450397346262
     ParameterOverrides {

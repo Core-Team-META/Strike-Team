@@ -2,7 +2,7 @@ Assets {
   Id: 12677512695886412351
   Name: "Terrain Material_1"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 1766288375643485995
     ParameterOverrides {
@@ -33,7 +33,7 @@ Assets {
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 16307885738901788481
+          Id: 17256809799784720885
         }
       }
       Overrides {
@@ -95,15 +95,24 @@ Assets {
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 0.770000041
-          G: 0.559494734
-          B: 0.501270056
+          R: 0.88
+          G: 0.956
+          B: 1
           A: 1
         }
       }
       Overrides {
         Name: "material3side_scale"
         Float: 2
+      }
+      Overrides {
+        Name: "cmpc:Material2"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
       }
     }
     Assets {
@@ -152,12 +161,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16307885738901788481
-      Name: "Dirt 01"
+      Id: 17256809799784720885
+      Name: "Snow 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "dirt_001"
+        AssetId: "mi_snow_001_uv"
       }
     }
     Assets {

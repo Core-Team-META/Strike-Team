@@ -3,6 +3,8 @@ Assets {
   Name: "RewardPoints_Manager_Server"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 94
+  SerializationVersion: 103
 }
