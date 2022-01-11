@@ -5400,7 +5400,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Falloff"
-      Float: 0.502501309
+      Float: 0.244987309
     }
     Overrides {
       Name: "bp:Fog Density"
@@ -5452,7 +5452,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.83285022
+      Float: 2.19015646
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
@@ -5470,7 +5470,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Size"
-      Float: 4.95168495
+      Float: 10
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -5583,9 +5583,8 @@ Objects {
     Overrides {
       Name: "bp:Horizon Color"
       Color {
-        R: 0.159610376
-        G: 0.199478775
-        B: 0.302083343
+        G: 0.279831171
+        B: 1
         A: 0.9
       }
     }
@@ -5620,15 +5619,15 @@ Objects {
       Name: "bp:Cloud Ambient Color"
       Color {
         R: 1
-        G: 0.684527397
-        B: 0.393950462
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "bp:Cloud Shape"
       Enum {
-        Value: "mc:ecloudshapes:5"
+        Value: "mc:ecloudshapes:1"
       }
     }
     Overrides {
@@ -5637,11 +5636,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Lighting Brightness"
-      Float: 22
+      Float: 21.5186386
     }
     Overrides {
       Name: "bp:Cloud Opacity"
-      Float: 0.457136333
+      Float: 1
     }
     Overrides {
       Name: "bp:Brightness"
@@ -5672,6 +5671,18 @@ Objects {
         B: 0.251000017
         A: 0.6
       }
+    }
+    Overrides {
+      Name: "bp:Cloud Ambient Brightness"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Sky Influence On Clouds"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Haze Falloff"
+      Float: 15
     }
   }
   Collidable_v2 {

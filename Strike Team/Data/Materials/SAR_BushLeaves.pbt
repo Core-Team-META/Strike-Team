@@ -7,20 +7,11 @@ Assets {
     BaseMaterialId: 17956201822540550512
     ParameterOverrides {
       Overrides {
-        Name: "color"
-        Color {
-          R: 0.25678
-          G: 0.347
-          B: 0.343415141
-          A: 1
-        }
-      }
-      Overrides {
         Name: "color_accent"
         Color {
-          R: 0.0939220041
-          G: 0.311000019
-          B: 0.302374452
+          R: 10
+          G: 10
+          B: 10
           A: 1
         }
       }
@@ -40,6 +31,15 @@ Assets {
       Overrides {
         Name: "wind_speed"
         Float: 0.6
+      }
+      Overrides {
+        Name: "color"
+        Color {
+          R: 0.115117319
+          G: 0.135
+          B: 0.0822149962
+          A: 1
+        }
       }
     }
     Assets {

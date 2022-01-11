@@ -105899,6 +105899,31 @@ Objects {
             Value: "mc:eproxyrelevance:medium"
           }
         }
+        Overrides {
+          Name: "bp:Color"
+          Color {
+            R: 33
+            G: 33
+            B: 33
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6.66210938
+            Y: 23.7314453
+            Z: 37.6149902
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.59101218
+            Y: 0.391905189
+            Z: -0.0746383145
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -106231,6 +106256,21 @@ Objects {
             Value: "mc:eproxyrelevance:medium"
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 85.0000458
+            Y: 119.999969
+            Z: 190
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -52.5000916
+            Roll: 89.9999084
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -106240,6 +106280,14 @@ Objects {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15.0000019
+            Y: -4.99999428
+            Z: 15
           }
         }
       }
@@ -106253,6 +106301,14 @@ Objects {
             Value: "mc:eproxyrelevance:medium"
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50.0000305
+            Y: -84.9999847
+            Z: 165
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -106264,6 +106320,14 @@ Objects {
             Value: "mc:eproxyrelevance:medium"
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15.0000019
+            Y: -4.99999428
+            Z: 15
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -106273,6 +106337,14 @@ Objects {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15.0000019
+            Y: -4.99999428
+            Z: 260
           }
         }
       }
@@ -106315,6 +106387,14 @@ Objects {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -119.999977
+            Y: 70.0000458
+            Z: 165
           }
         }
       }
