@@ -9,25 +9,27 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.26000002
-          G: 0.225333363
+          R: 0.25678
+          G: 0.347
+          B: 0.343415141
           A: 1
         }
       }
       Overrides {
         Name: "color_accent"
         Color {
-          R: 0.957666636
-          G: 1
-          B: 0.36499995
+          R: 0.0939220041
+          G: 0.311000019
+          B: 0.302374452
           A: 1
         }
       }
       Overrides {
         Name: "SSS"
         Color {
-          R: 0.86
-          G: 0.546755
+          R: 0.271602
+          G: 0.474000037
+          B: 0.463880152
           A: 1
         }
       }

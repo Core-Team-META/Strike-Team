@@ -35183,8 +35183,11 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  CameraCollidable {
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -35208,22 +35211,11 @@ Objects {
             Yaw: 120.017281
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
       Id: 4857531975019691845
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -64655,8 +64647,11 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
-  CameraCollidable {
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -64679,22 +64674,11 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.6
-            Y: 0.6
-            Z: 0.6
-          }
-        }
       }
     }
     TemplateAsset {
       Id: 2921289206971681161
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -79959,30 +79943,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1408403857211212292
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:critical"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4157976811336164832
-      value {
-        Overrides {
-          Name: "DisableDistanceFieldLighting"
-          Bool: true
-        }
-        Overrides {
-          Name: "DisableCastShadows"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -80001,17 +79961,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Roll: 4.47764349
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17199658923983500617
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -128977,21 +128926,7 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 1658185979699101608
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 8673932528201026438
       value {
@@ -129015,23 +128950,9 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 13166332927205168157
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:medium"
-          }
-        }
-      }
-    }
     TemplateAsset {
       Id: 208453740496807497
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -162212,35 +162133,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1408403857211212292
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:critical"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1886849175240990126
-      value {
-        Overrides {
-          Name: "DisableReceiveDecals"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4157976811336164832
-      value {
-        Overrides {
-          Name: "DisableReceiveDecals"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 7904855526696816715
       value {
         Overrides {
@@ -162261,26 +162153,6 @@ Objects {
             Pitch: 4.60329437
             Yaw: -98.86409
             Roll: 6.42402426e-07
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7906924300235917409
-      value {
-        Overrides {
-          Name: "DisableReceiveDecals"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17199658923983500617
-      value {
-        Overrides {
-          Name: "CoreProxy.Relevance"
-          Enum {
-            Value: "mc:eproxyrelevance:critical"
           }
         }
       }
@@ -162935,15 +162807,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4299095625223753362
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.75000006
-        A: 1
+        Id: 17256809799784720885
       }
     }
   }
@@ -162997,15 +162861,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4299095625223753362
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.75000006
-        A: 1
+        Id: 17256809799784720885
       }
     }
   }
@@ -163059,15 +162915,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4299095625223753362
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.75000006
-        A: 1
+        Id: 17256809799784720885
       }
     }
   }
@@ -163121,15 +162969,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4299095625223753362
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.75000006
-        A: 1
+        Id: 17256809799784720885
       }
     }
   }
@@ -164595,39 +164435,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13359579191009339570
-  Name: "SAR_Foliage"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16373807130785117515
-  ChildIds: 7560471041159094325
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    Model {
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 7560471041159094325
   Name: "SAR_Foliage"
   Transform {
@@ -164641,7 +164448,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13359579191009339570
+  ParentId: 16373807130785117515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

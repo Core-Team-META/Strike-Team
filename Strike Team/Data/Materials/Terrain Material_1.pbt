@@ -33,7 +33,7 @@ Assets {
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 17256809799784720885
+          Id: 3219224863253674403
         }
       }
       Overrides {
@@ -95,9 +95,9 @@ Assets {
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 0.88
-          G: 0.956
-          B: 1
+          R: 1
+          G: 0.81955
+          B: 0.599
           A: 1
         }
       }
@@ -161,12 +161,12 @@ Assets {
       }
     }
     Assets {
-      Id: 17256809799784720885
-      Name: "Snow 01"
+      Id: 3219224863253674403
+      Name: "Granite 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_snow_001_uv"
+        AssetId: "mi_rock_granite_001_uv_ref"
       }
     }
     Assets {

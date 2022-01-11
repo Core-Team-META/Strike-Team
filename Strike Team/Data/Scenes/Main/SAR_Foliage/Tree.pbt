@@ -1,13 +1,13 @@
 Name: "SAR_Foliage"
 RootId: 7560471041159094325
 Objects {
-  Id: 612199423538572622
+  Id: 4604920692599146866
   Name: "Bushes"
   Transform {
     Location {
-      X: 1747.38855
-      Y: 7637.0835
-      Z: -296.167755
+      X: 1916.12097
+      Y: 7484.95605
+      Z: -375
     }
     Rotation {
     }
@@ -131,17 +131,19 @@ Objects {
   ChildIds: 14753270293214681855
   ChildIds: 6763446285727357372
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Folder {
-    Model {
-    }
+    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -152,12 +154,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6232.87549
-      Y: 4789.59033
-      Z: 124.145508
+      X: 6064.14307
+      Y: 4941.71777
+      Z: 202.977753
     }
     Rotation {
-      Yaw: 103.968086
+      Yaw: 103.968109
     }
     Scale {
       X: 1
@@ -165,7 +167,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -176,8 +178,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -216,9 +219,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2229.09814
-      Y: 5837.28
-      Z: 41.1252441
+      X: 2060.36572
+      Y: 5989.40723
+      Z: 119.957489
     }
     Rotation {
     }
@@ -228,7 +231,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -239,8 +242,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -279,9 +283,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 8196.28223
-      Y: -4328.90479
-      Z: 868.075317
+      X: 8027.55
+      Y: -4176.77734
+      Z: 946.907593
     }
     Rotation {
       Yaw: -136.868683
@@ -292,13 +296,14 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -343,9 +348,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -132.509888
-      Y: -7.92334
-      Z: 518.722534
+      X: -301.24231
+      Y: 144.204102
+      Z: 597.55481
     }
     Rotation {
       Yaw: -71.5203171
@@ -356,7 +361,7 @@ Objects {
       Z: 0.781377792
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -367,8 +372,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -407,9 +413,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -115.09314
-      Y: 201.686523
-      Z: 518.722534
+      X: -283.825562
+      Y: 353.813965
+      Z: 597.55481
     }
     Rotation {
     }
@@ -419,7 +425,7 @@ Objects {
       Z: 0.781377792
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -430,8 +436,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -470,14 +477,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -842.55127
-      Y: 4612.59912
-      Z: 249.394226
+      X: -1011.28369
+      Y: 4764.72656
+      Z: 328.226471
     }
     Rotation {
       Pitch: 12.5104609
       Yaw: 135.072891
-      Roll: -0.254394531
+      Roll: -0.254394799
     }
     Scale {
       X: 1.34337413
@@ -485,7 +492,7 @@ Objects {
       Z: 1.34337413
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -496,8 +503,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -536,12 +544,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3665.9585
-      Y: -2089.47852
-      Z: 221.124329
+      X: 3497.22607
+      Y: -1937.35107
+      Z: 299.956573
     }
     Rotation {
-      Yaw: -4.94846344
+      Yaw: -4.94846535
     }
     Scale {
       X: 1
@@ -549,7 +557,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -560,8 +568,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -600,12 +609,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2878.8042
-      Y: -2764.46484
-      Z: 221.124329
+      X: 2710.07178
+      Y: -2612.3374
+      Z: 299.956573
     }
     Rotation {
-      Yaw: -4.94846344
+      Yaw: -4.94846535
     }
     Scale {
       X: 1
@@ -613,7 +622,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -624,8 +633,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -664,9 +674,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -7316.16357
-      Y: 3725.35498
-      Z: 847.04126
+      X: -7484.896
+      Y: 3877.48242
+      Z: 925.873535
     }
     Rotation {
       Yaw: 117.102058
@@ -677,7 +687,7 @@ Objects {
       Z: 1.25534332
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -688,8 +698,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -728,14 +739,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5521.69434
-      Y: 4309.771
-      Z: 91.2809143
+      X: 5352.96191
+      Y: 4461.89844
+      Z: 170.113159
     }
     Rotation {
       Pitch: 0.259683788
       Yaw: 177.087448
-      Roll: 5.09112501
+      Roll: 5.09112787
     }
     Scale {
       X: 1.24475753
@@ -743,7 +754,7 @@ Objects {
       Z: 1.24475753
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -754,8 +765,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -794,12 +806,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3849.22168
-      Y: -3392.13672
-      Z: 221.124207
+      X: 3680.48926
+      Y: -3240.00928
+      Z: 299.956451
     }
     Rotation {
-      Yaw: -4.94846344
+      Yaw: -4.94846535
     }
     Scale {
       X: 1
@@ -807,7 +819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -818,8 +830,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -858,12 +871,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2145.22217
-      Y: -2001.83691
-      Z: 507.756775
+      X: 1976.48987
+      Y: -1849.70947
+      Z: 586.589
     }
     Rotation {
-      Yaw: -90.2685776
+      Yaw: -90.2685699
     }
     Scale {
       X: 0.675930142
@@ -871,7 +884,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -882,8 +895,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -922,9 +936,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: -1499.19775
-      Z: 507.756714
+      X: 1994.6261
+      Y: -1347.07031
+      Z: 586.589
     }
     Rotation {
       Yaw: -122.743423
@@ -935,7 +949,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -946,8 +960,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -986,12 +1001,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: -1082.61572
-      Z: 507.756714
+      X: 1994.6261
+      Y: -930.488281
+      Z: 586.589
     }
     Rotation {
-      Yaw: -165.211685
+      Yaw: -165.21167
     }
     Scale {
       X: 0.675930142
@@ -999,7 +1014,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1010,8 +1025,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1050,9 +1066,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: -35.6186523
-      Z: 507.756714
+      X: 1994.6261
+      Y: 116.508789
+      Z: 586.589
     }
     Rotation {
       Yaw: -122.040146
@@ -1063,7 +1079,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1074,8 +1090,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1114,12 +1131,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: 389.328613
-      Z: 507.756714
+      X: 1994.6261
+      Y: 541.456055
+      Z: 586.589
     }
     Rotation {
-      Yaw: -72.1018677
+      Yaw: -72.10186
     }
     Scale {
       X: 0.675930142
@@ -1127,7 +1144,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1138,8 +1155,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1178,9 +1196,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2163.3584
-      Y: 858.05127
-      Z: 507.756714
+      X: 1994.6261
+      Y: 1010.17871
+      Z: 586.589
     }
     Rotation {
     }
@@ -1190,7 +1208,7 @@ Objects {
       Z: 0.675930142
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1201,8 +1219,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1241,9 +1260,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3141.70801
-      Y: 1931.54834
-      Z: 185.997131
+      X: -3310.44043
+      Y: 2083.67578
+      Z: 264.829376
     }
     Rotation {
     }
@@ -1253,7 +1272,7 @@ Objects {
       Z: 1.38548839
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1264,8 +1283,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1304,9 +1324,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -1941.55359
-      Y: 2380.95264
-      Z: 164.29599
+      X: -2110.28613
+      Y: 2533.08
+      Z: 243.128235
     }
     Rotation {
     }
@@ -1316,7 +1336,7 @@ Objects {
       Z: 1.57035387
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1327,8 +1347,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1367,14 +1388,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5810.32031
-      Y: -3575.33496
-      Z: 121.603851
+      X: 5641.58789
+      Y: -3423.20752
+      Z: 200.436096
     }
     Rotation {
       Pitch: -15.9684486
-      Yaw: 4.07900667
-      Roll: -14.5325174
+      Yaw: 4.07900858
+      Roll: -14.5325384
     }
     Scale {
       X: 1.7615124
@@ -1382,7 +1403,7 @@ Objects {
       Z: 1.7615124
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1393,8 +1414,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1433,14 +1455,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3706.26392
-      Y: 4174.90283
-      Z: 122.868439
+      X: -3874.99634
+      Y: 4327.03027
+      Z: 201.700684
     }
     Rotation {
       Pitch: -6.25928068
-      Yaw: -36.5855293
-      Roll: 12.60005
+      Yaw: -36.5855217
+      Roll: 12.6000681
     }
     Scale {
       X: 1.64753
@@ -1448,7 +1470,7 @@ Objects {
       Z: 1.64753
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1459,8 +1481,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1499,14 +1522,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4883.99805
-      Y: 4275.25146
-      Z: 201.77301
+      X: -5052.73047
+      Y: 4427.37891
+      Z: 280.605255
     }
     Rotation {
       Pitch: 13.6108589
-      Yaw: -51.1840858
-      Roll: 2.51137733
+      Yaw: -51.1841
+      Roll: 2.51137781
     }
     Scale {
       X: 1.29399049
@@ -1514,7 +1537,7 @@ Objects {
       Z: 1.29399049
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1525,8 +1548,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1565,9 +1589,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6531.13574
-      Y: -2817.49219
-      Z: 754.789429
+      X: 6362.40332
+      Y: -2665.36475
+      Z: 833.621704
     }
     Rotation {
       Pitch: 14.6046104
@@ -1580,7 +1604,7 @@ Objects {
       Z: 1.7042805
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1591,8 +1615,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1631,9 +1656,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4596.15186
-      Y: -3014.6958
-      Z: 221.124237
+      X: 4427.41943
+      Y: -2862.56836
+      Z: 299.956482
     }
     Rotation {
     }
@@ -1643,7 +1668,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1654,8 +1679,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1694,14 +1720,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5997.56836
-      Y: -3074.48145
-      Z: 778.366211
+      X: 5828.83594
+      Y: -2922.354
+      Z: 857.198486
     }
     Rotation {
-      Pitch: 1.4640919
+      Pitch: 1.4640851
       Yaw: -156.925293
-      Roll: 14.6564684
+      Roll: 14.6564875
     }
     Scale {
       X: 0.840561092
@@ -1709,7 +1735,7 @@ Objects {
       Z: 0.840561092
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1720,8 +1746,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1760,13 +1787,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5991.19727
-      Y: -3341.4082
-      Z: 764.687
+      X: 5822.46484
+      Y: -3189.28076
+      Z: 843.519287
     }
     Rotation {
       Yaw: -144.451874
-      Roll: -9.87868118
+      Roll: -9.87869453
     }
     Scale {
       X: 0.838154256
@@ -1774,7 +1801,7 @@ Objects {
       Z: 0.838154256
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1785,8 +1812,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1825,12 +1853,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5940.5542
-      Y: -3566.90625
-      Z: 764.524536
+      X: 5771.82178
+      Y: -3414.77881
+      Z: 843.356812
     }
     Rotation {
-      Yaw: -69.4383545
+      Yaw: -69.4383621
     }
     Scale {
       X: 0.838154256
@@ -1838,7 +1866,7 @@ Objects {
       Z: 0.838154256
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1849,8 +1877,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1889,9 +1918,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5718.88867
-      Y: -3739.69043
-      Z: 804.96167
+      X: 5550.15625
+      Y: -3587.56299
+      Z: 883.793945
     }
     Rotation {
     }
@@ -1901,7 +1930,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1912,8 +1941,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -1952,9 +1982,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6619.41602
-      Y: -4191.77197
-      Z: 824.110596
+      X: 6450.68359
+      Y: -4039.64453
+      Z: 902.942871
     }
     Rotation {
     }
@@ -1964,7 +1994,7 @@ Objects {
       Z: 1.28494346
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -1975,8 +2005,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2015,9 +2046,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6742.61133
-      Y: -7032.0835
-      Z: 755.191162
+      X: 6573.87891
+      Y: -6879.95605
+      Z: 834.023438
     }
     Rotation {
       Pitch: 9.02469444
@@ -2028,7 +2059,7 @@ Objects {
       Z: 1.46567857
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2039,8 +2070,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2079,9 +2111,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5203.27051
-      Y: -6029.24854
-      Z: 844.816406
+      X: 5034.53809
+      Y: -5877.12109
+      Z: 923.648682
     }
     Rotation {
     }
@@ -2091,7 +2123,7 @@ Objects {
       Z: 1.02510118
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2102,8 +2134,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2142,12 +2175,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4746.33789
-      Y: -4741.6123
-      Z: 870.478882
+      X: 4577.60547
+      Y: -4589.48486
+      Z: 949.311157
     }
     Rotation {
-      Yaw: -62.7123566
+      Yaw: -62.712368
     }
     Scale {
       X: 1.18995225
@@ -2155,7 +2188,7 @@ Objects {
       Z: 1.18995225
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2166,8 +2199,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2206,12 +2240,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2852.15723
-      Y: -7106.51709
-      Z: 418.619354
+      X: 2683.4248
+      Y: -6954.38965
+      Z: 497.451599
     }
     Rotation {
-      Roll: 13.7492838
+      Roll: 13.7493038
     }
     Scale {
       X: 1.21509826
@@ -2219,7 +2253,7 @@ Objects {
       Z: 1.21509826
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2230,8 +2264,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2270,9 +2305,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 1372.38586
-      Y: -4664.63818
-      Z: 247.024612
+      X: 1203.65344
+      Y: -4512.51074
+      Z: 325.856873
     }
     Rotation {
     }
@@ -2282,7 +2317,7 @@ Objects {
       Z: 0.754020393
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2293,8 +2328,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2333,13 +2369,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -905.015686
-      Y: -4358.67188
-      Z: 241.532806
+      X: -1073.74805
+      Y: -4206.54443
+      Z: 320.365051
     }
     Rotation {
-      Yaw: -123.353851
-      Roll: 9.86446
+      Yaw: -123.353867
+      Roll: 9.8644743
     }
     Scale {
       X: 1
@@ -2347,7 +2383,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2358,8 +2394,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2398,9 +2435,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -457.960449
-      Y: -4875.08496
-      Z: 236.211517
+      X: -626.692871
+      Y: -4722.95752
+      Z: 315.043762
     }
     Rotation {
       Yaw: -123.353699
@@ -2411,7 +2448,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2422,8 +2459,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2462,12 +2500,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 1375.16125
-      Y: -6076.99756
-      Z: 284.336487
+      X: 1206.42883
+      Y: -5924.87
+      Z: 363.168732
     }
     Rotation {
-      Yaw: -24.9356899
+      Yaw: -24.9356689
     }
     Scale {
       X: 1.17877543
@@ -2475,7 +2513,7 @@ Objects {
       Z: 1.17877543
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2486,8 +2524,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2526,9 +2565,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 532.242554
-      Y: -5586.04736
-      Z: 97.4183044
+      X: 363.510132
+      Y: -5433.92
+      Z: 176.250549
     }
     Rotation {
       Yaw: 176.472168
@@ -2539,7 +2578,7 @@ Objects {
       Z: 1.55030155
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2550,8 +2589,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2590,9 +2630,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 675.230591
-      Y: -7100.15576
-      Z: 116.606171
+      X: 506.498169
+      Y: -6948.02832
+      Z: 195.438416
     }
     Rotation {
       Pitch: -19.4902916
@@ -2603,7 +2643,7 @@ Objects {
       Z: 1.75137246
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2614,8 +2654,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2654,13 +2695,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 284.021729
-      Y: -7078.58643
-      Z: 183.446564
+      X: 115.289307
+      Y: -6926.45898
+      Z: 262.278809
     }
     Rotation {
       Yaw: -86.3956146
-      Roll: -11.2098198
+      Roll: -11.209837
     }
     Scale {
       X: 1.78772235
@@ -2668,7 +2709,7 @@ Objects {
       Z: 1.78772235
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2679,8 +2720,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2719,9 +2761,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -119.543213
-      Y: -7078.75293
-      Z: 194.674347
+      X: -288.275635
+      Y: -6926.62549
+      Z: 273.506592
     }
     Rotation {
     }
@@ -2731,14 +2773,30 @@ Objects {
       Z: 1.82960796
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14633748508747893171
       }
     }
   }
@@ -2776,9 +2834,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 264.352295
-      Y: -6304.4873
-      Z: 99.2713318
+      X: 95.619873
+      Y: -6152.36
+      Z: 178.103577
     }
     Rotation {
     }
@@ -2788,7 +2846,7 @@ Objects {
       Z: 1.55030155
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2799,8 +2857,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2839,9 +2898,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -741.109619
-      Y: -6180.979
-      Z: 224.525055
+      X: -909.842041
+      Y: -6028.85156
+      Z: 303.3573
     }
     Rotation {
     }
@@ -2851,7 +2910,7 @@ Objects {
       Z: 1.31842518
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2862,8 +2921,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2902,9 +2962,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3573.44385
-      Y: -6220.44531
-      Z: 289.316223
+      X: -3742.17627
+      Y: -6068.31787
+      Z: 368.148468
     }
     Rotation {
     }
@@ -2914,7 +2974,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2925,8 +2985,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -2965,14 +3026,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4131.31836
-      Y: -7219.28418
-      Z: 22.2843323
+      X: -4300.05078
+      Y: -7067.15674
+      Z: 101.116577
     }
     Rotation {
       Pitch: -9.50436497
       Yaw: -71.8366852
-      Roll: -3.10080218
+      Roll: -3.10080266
     }
     Scale {
       X: 1.34638774
@@ -2980,7 +3041,7 @@ Objects {
       Z: 1.34638774
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -2991,8 +3052,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3031,12 +3093,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4431.39551
-      Y: -7138.02393
-      Z: 22.2843323
+      X: -4600.12793
+      Y: -6985.89648
+      Z: 101.116577
     }
     Rotation {
-      Roll: -9.99303532
+      Roll: -9.99304867
     }
     Scale {
       X: 1.34638774
@@ -3044,7 +3106,7 @@ Objects {
       Z: 1.34638774
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3055,8 +3117,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3095,9 +3158,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4589.74072
-      Y: -6147.01709
-      Z: 215.824554
+      X: -4758.47314
+      Y: -5994.88965
+      Z: 294.656799
     }
     Rotation {
     }
@@ -3107,7 +3170,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3118,8 +3181,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3158,9 +3222,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -5799.22266
-      Y: -5824.36621
-      Z: 48.9819946
+      X: -5967.95508
+      Y: -5672.23877
+      Z: 127.81424
     }
     Rotation {
     }
@@ -3170,7 +3234,7 @@ Objects {
       Z: 1.35752356
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3181,8 +3245,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3221,12 +3286,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -5608.78906
-      Y: -5965.354
-      Z: 8.47927856
+      X: -5777.52148
+      Y: -5813.22656
+      Z: 87.3115234
     }
     Rotation {
-      Roll: -9.38856792
+      Roll: -9.38857937
     }
     Scale {
       X: 1.22632432
@@ -3234,7 +3299,7 @@ Objects {
       Z: 1.22632432
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3245,8 +3310,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3285,9 +3351,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -5941.55371
-      Y: -4793.09033
-      Z: 221.915344
+      X: -6110.28613
+      Y: -4640.96289
+      Z: 300.747589
     }
     Rotation {
     }
@@ -3297,7 +3363,7 @@ Objects {
       Z: 1.18434632
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3308,8 +3374,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3348,8 +3415,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -7002.14502
-      Y: -5434.98584
+      X: -7170.87744
+      Y: -5282.8584
+      Z: 78.8322449
     }
     Rotation {
     }
@@ -3359,7 +3427,7 @@ Objects {
       Z: 1.62562907
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3370,8 +3438,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3410,9 +3479,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -7650.47852
-      Y: -4150.98975
-      Z: 193.177551
+      X: -7819.21094
+      Y: -3998.8623
+      Z: 272.009796
     }
     Rotation {
     }
@@ -3422,7 +3491,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3433,8 +3502,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3473,13 +3543,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -8376.04199
-      Y: -3599.24438
-      Z: 116.570892
+      X: -8544.77441
+      Y: -3447.11694
+      Z: 195.403137
     }
     Rotation {
       Pitch: 8.23274
-      Yaw: -47.5359955
+      Yaw: -47.5359726
+      Roll: 2.15665921e-07
     }
     Scale {
       X: 1.67320859
@@ -3487,7 +3558,7 @@ Objects {
       Z: 1.67320859
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3498,8 +3569,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3538,12 +3610,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -8620.39844
-      Y: -3811.34204
-      Z: 88.8211365
+      X: -8789.13086
+      Y: -3659.2146
+      Z: 167.653381
     }
     Rotation {
-      Roll: 14.3139095
+      Roll: 14.3139315
     }
     Scale {
       X: 1.67320859
@@ -3551,7 +3623,7 @@ Objects {
       Z: 1.67320859
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3562,8 +3634,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3602,9 +3675,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -8851.05273
-      Y: -2382.38916
-      Z: 93.6520691
+      X: -9019.78516
+      Y: -2230.26172
+      Z: 172.484314
     }
     Rotation {
     }
@@ -3614,7 +3687,7 @@ Objects {
       Z: 1.36587024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3625,8 +3698,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3665,9 +3739,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -9474.91797
-      Y: -2941.76318
-      Z: 93.6520691
+      X: -9643.65
+      Y: -2789.63574
+      Z: 172.484314
     }
     Rotation {
     }
@@ -3677,7 +3751,7 @@ Objects {
       Z: 1.36587024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3688,8 +3762,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3728,12 +3803,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10250.9287
-      Y: -1386.0332
-      Z: 64.2431946
+      X: -10419.6611
+      Y: -1233.90576
+      Z: 143.075439
     }
     Rotation {
-      Yaw: 164.561356
+      Yaw: 164.56134
     }
     Scale {
       X: 1.56706417
@@ -3741,7 +3816,7 @@ Objects {
       Z: 1.56706417
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3752,8 +3827,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3792,9 +3868,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10453.8115
-      Y: -1839.26904
-      Z: 64.2431946
+      X: -10622.5439
+      Y: -1687.1416
+      Z: 143.075439
     }
     Rotation {
     }
@@ -3804,7 +3880,7 @@ Objects {
       Z: 1.56706417
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3815,8 +3891,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3855,9 +3932,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6352.05859
-      Y: 1311.17432
-      Z: 229.087814
+      X: -6520.79102
+      Y: 1463.30176
+      Z: 307.920044
     }
     Rotation {
     }
@@ -3867,7 +3944,7 @@ Objects {
       Z: 1.64515662
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3878,8 +3955,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3918,9 +3996,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4688.34473
-      Y: 651.165527
-      Z: 228.379608
+      X: -4857.07715
+      Y: 803.292969
+      Z: 307.211853
     }
     Rotation {
     }
@@ -3930,7 +4008,7 @@ Objects {
       Z: 1.33502424
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -3941,8 +4019,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -3981,9 +4060,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4442.75
-      Y: 1722.6626
-      Z: 251.176727
+      X: -4611.48242
+      Y: 1874.79
+      Z: 330.008972
     }
     Rotation {
     }
@@ -3993,7 +4072,7 @@ Objects {
       Z: 1.08378136
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4004,8 +4083,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4044,12 +4124,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4606.11084
-      Y: 2773.85693
-      Z: 294.936554
+      X: -4774.84326
+      Y: 2925.98438
+      Z: 373.768799
     }
     Rotation {
-      Yaw: -110.551514
+      Yaw: -110.551506
     }
     Scale {
       X: 1.41612649
@@ -4057,7 +4137,7 @@ Objects {
       Z: 1.41612649
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4068,8 +4148,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4108,9 +4189,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3693.00684
-      Y: 4471.80225
-      Z: 189.126129
+      X: -3861.73926
+      Y: 4623.92969
+      Z: 267.958374
     }
     Rotation {
     }
@@ -4120,7 +4201,7 @@ Objects {
       Z: 1.78762877
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4131,8 +4212,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4171,9 +4253,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6968.89404
-      Y: 4261.9292
-      Z: 847.041382
+      X: -7137.62646
+      Y: 4414.05664
+      Z: 925.873657
     }
     Rotation {
       Yaw: 117.102058
@@ -4184,7 +4266,7 @@ Objects {
       Z: 1.25534332
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4195,8 +4277,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4235,9 +4318,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6251.57275
-      Y: 4927.70264
-      Z: 847.04126
+      X: -6420.30518
+      Y: 5079.83
+      Z: 925.873535
     }
     Rotation {
       Yaw: 117.102058
@@ -4248,7 +4331,7 @@ Objects {
       Z: 1.25534332
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4259,8 +4342,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4299,9 +4383,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -6045.55762
-      Y: 5294.43896
-      Z: 847.04126
+      X: -6214.29
+      Y: 5446.56641
+      Z: 925.873535
     }
     Rotation {
       Yaw: 117.102058
@@ -4312,7 +4396,7 @@ Objects {
       Z: 1.49291396
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4323,8 +4407,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4363,12 +4448,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -3537.07617
-      Y: 5489.14893
-      Z: 847.04126
+      X: -3705.80859
+      Y: 5641.27637
+      Z: 925.873535
     }
     Rotation {
-      Yaw: 67.3128357
+      Yaw: 67.312851
     }
     Scale {
       X: 1.24869537
@@ -4376,7 +4461,7 @@ Objects {
       Z: 1.24869537
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4387,8 +4472,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4427,9 +4513,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2968.79541
-      Y: 5735.48682
-      Z: 847.04126
+      X: -3137.52783
+      Y: 5887.61426
+      Z: 925.873535
     }
     Rotation {
       Yaw: 135.136047
@@ -4440,7 +4526,7 @@ Objects {
       Z: 1.24869537
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4451,8 +4537,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4491,9 +4578,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2957.22949
-      Y: 4746.01318
-      Z: 913.282
+      X: -3125.96191
+      Y: 4898.14062
+      Z: 992.114258
     }
     Rotation {
     }
@@ -4503,7 +4590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4514,8 +4601,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4554,9 +4642,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2358.20654
-      Y: 5485.50244
-      Z: 847.041138
+      X: -2526.93896
+      Y: 5637.63
+      Z: 925.873413
     }
     Rotation {
       Yaw: -92.1023712
@@ -4567,7 +4655,7 @@ Objects {
       Z: 1.24869537
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4578,8 +4666,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4618,9 +4707,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -1815.4082
-      Y: 6111.24561
-      Z: 859.056763
+      X: -1984.14062
+      Y: 6263.37305
+      Z: 937.889038
     }
     Rotation {
       Yaw: -110.176987
@@ -4631,7 +4720,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4642,8 +4731,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4683,9 +4773,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -354.686646
-      Y: 6128.14893
-      Z: 794.349548
+      X: -523.419067
+      Y: 6280.27637
+      Z: 873.181763
     }
     Rotation {
     }
@@ -4695,7 +4785,7 @@ Objects {
       Z: 1.36326349
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4706,8 +4796,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4746,14 +4837,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -174.350586
-      Y: 5352.74951
-      Z: 802.831909
+      X: -343.083
+      Y: 5504.87695
+      Z: 881.664185
     }
     Rotation {
       Pitch: -7.22323179
-      Yaw: -150.569733
-      Roll: 20.1235847
+      Yaw: -150.569717
+      Roll: 20.1235828
     }
     Scale {
       X: 1
@@ -4761,7 +4852,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4772,8 +4863,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4812,14 +4904,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -85.4520264
-      Y: 5389.62744
-      Z: 914.287964
+      X: -254.184448
+      Y: 5541.75488
+      Z: 993.120239
     }
     Rotation {
       Pitch: -6.78661919
-      Yaw: -26.9058037
-      Roll: 9.94835567
+      Yaw: -26.9057846
+      Roll: 9.94836903
     }
     Scale {
       X: 1
@@ -4827,7 +4919,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4838,8 +4930,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4878,9 +4971,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 164.845337
-      Y: 5349.22705
-      Z: 267.195648
+      X: -3.88708496
+      Y: 5501.35449
+      Z: 346.027893
     }
     Rotation {
       Pitch: 12.5104609
@@ -4893,7 +4986,7 @@ Objects {
       Z: 1.34337413
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4904,8 +4997,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -4944,9 +5038,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 500.388306
-      Y: 5642.83447
-      Z: 267.195648
+      X: 331.655884
+      Y: 5794.96191
+      Z: 346.027893
     }
     Rotation {
       Yaw: 131.599747
@@ -4957,7 +5051,7 @@ Objects {
       Z: 1.34337413
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -4968,8 +5062,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5008,9 +5103,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2476.88574
-      Y: 5092.96338
-      Z: 192.541992
+      X: 2308.15332
+      Y: 5245.09082
+      Z: 271.374237
     }
     Rotation {
     }
@@ -5020,7 +5115,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5031,8 +5126,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5071,9 +5167,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2894.50391
-      Y: 5875.73486
-      Z: 41.1252441
+      X: 2725.77148
+      Y: 6027.8623
+      Z: 119.957489
     }
     Rotation {
     }
@@ -5083,7 +5179,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5094,8 +5190,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5134,9 +5231,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4226.71191
-      Y: 5783.23291
-      Z: 66.1683655
+      X: 4057.97949
+      Y: 5935.36035
+      Z: 145.00061
     }
     Rotation {
     }
@@ -5146,7 +5243,7 @@ Objects {
       Z: 1.24302125
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5157,8 +5254,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5197,12 +5295,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5002.8125
-      Y: 4789.59033
-      Z: 144.730255
+      X: 4834.08
+      Y: 4941.71777
+      Z: 223.5625
     }
     Rotation {
-      Yaw: 103.96804
+      Yaw: 103.968071
     }
     Scale {
       X: 1
@@ -5210,7 +5308,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5221,8 +5319,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5261,9 +5360,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 4611.11768
-      Y: 4352.82861
-      Z: 260.693909
+      X: 4442.38525
+      Y: 4504.95605
+      Z: 339.526154
     }
     Rotation {
     }
@@ -5273,7 +5372,7 @@ Objects {
       Z: 0.715041041
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5284,8 +5383,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5324,13 +5424,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6598.96094
-      Y: 3692.9165
-      Z: -8.83224487
+      X: 6430.22852
+      Y: 3845.04395
+      Z: 70
     }
     Rotation {
       Pitch: 6.72695065
-      Yaw: 67.4640884
+      Yaw: 67.4640961
       Roll: -2.7828064
     }
     Scale {
@@ -5339,7 +5439,7 @@ Objects {
       Z: 1.24475753
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5350,8 +5450,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5390,12 +5491,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5848.83545
-      Y: 3715.33936
-      Z: 227.976929
+      X: 5680.10303
+      Y: 3867.4668
+      Z: 306.809174
     }
     Rotation {
-      Pitch: -14.4604492
+      Pitch: -14.4604521
     }
     Scale {
       X: 1
@@ -5403,7 +5504,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5414,8 +5515,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5454,9 +5556,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6007.18
-      Y: 2767.10498
-      Z: 293.060577
+      X: 5838.44775
+      Y: 2919.23242
+      Z: 371.892822
     }
     Rotation {
     }
@@ -5466,7 +5568,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5477,8 +5579,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5517,9 +5620,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6644.72656
-      Y: 2527.55615
-      Z: 119.65097
+      X: 6475.99414
+      Y: 2679.68359
+      Z: 198.483215
     }
     Rotation {
       Pitch: -10.704463
@@ -5530,7 +5633,7 @@ Objects {
       Z: 1.34644079
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5541,8 +5644,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5581,9 +5685,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6580.64355
-      Y: 927.778809
-      Z: 188.647797
+      X: 6411.91113
+      Y: 1079.90625
+      Z: 267.480042
     }
     Rotation {
     }
@@ -5593,7 +5697,7 @@ Objects {
       Z: 1.18447053
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5604,8 +5708,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5644,9 +5749,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6494.63965
-      Y: 701.617676
-      Z: 279.378357
+      X: 6325.90723
+      Y: 853.745117
+      Z: 358.210602
     }
     Rotation {
       Yaw: -70.5562744
@@ -5657,7 +5762,7 @@ Objects {
       Z: 0.885349035
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5668,8 +5773,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5708,9 +5814,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6751.38379
-      Y: 671.874512
-      Z: 279.378357
+      X: 6582.65137
+      Y: 824.001953
+      Z: 358.210602
     }
     Rotation {
       Yaw: -54.1229248
@@ -5721,7 +5827,7 @@ Objects {
       Z: 1.25392699
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5732,8 +5838,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5772,9 +5879,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 6907.32129
-      Y: 548.302246
-      Z: 279.378357
+      X: 6738.58887
+      Y: 700.429688
+      Z: 358.210602
     }
     Rotation {
     }
@@ -5784,7 +5891,7 @@ Objects {
       Z: 0.885349035
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5795,8 +5902,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5835,9 +5943,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 7652.61133
-      Y: -167.083496
-      Z: 296.167755
+      X: 7483.87891
+      Y: -14.9560547
+      Z: 375
     }
     Rotation {
     }
@@ -5847,7 +5955,7 @@ Objects {
       Z: 0.885349035
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5858,8 +5966,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5898,9 +6007,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: 832.916504
-      Z: 507.756714
+      X: 2569.89551
+      Y: 985.043945
+      Z: 586.589
     }
     Rotation {
     }
@@ -5910,7 +6019,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5921,8 +6030,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -5961,12 +6071,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -132.083496
-      Z: 507.756714
+      X: 2569.89551
+      Y: 20.0439453
+      Z: 586.589
     }
     Rotation {
-      Yaw: -137.535767
+      Yaw: -137.535736
     }
     Scale {
       X: 1
@@ -5974,7 +6084,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -5985,8 +6095,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6025,9 +6136,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: 82.1069336
-      Z: 507.756714
+      X: 2569.89551
+      Y: 234.234375
+      Z: 586.589
     }
     Rotation {
     }
@@ -6037,7 +6148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6048,8 +6159,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6088,9 +6200,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -1992.0835
-      Z: 507.756714
+      X: 2569.89551
+      Y: -1839.95605
+      Z: 586.589
     }
     Rotation {
       Yaw: -179.999954
@@ -6101,7 +6213,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6112,8 +6224,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6152,9 +6265,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -1197.0835
-      Z: 507.756714
+      X: 2569.89551
+      Y: -1044.95605
+      Z: 586.589
     }
     Rotation {
       Yaw: -179.999954
@@ -6165,7 +6278,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6176,8 +6289,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6216,12 +6330,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 2738.62793
-      Y: -982.893066
-      Z: 528.098938
+      X: 2569.89551
+      Y: -830.765625
+      Z: 606.931152
     }
     Rotation {
-      Yaw: 42.4641113
+      Yaw: 42.4641304
     }
     Scale {
       X: 1
@@ -6229,7 +6343,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6240,8 +6354,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6280,9 +6395,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -155.979736
-      Y: -1043.9707
-      Z: 508.134338
+      X: -324.712158
+      Y: -891.843262
+      Z: 586.966553
     }
     Rotation {
       Yaw: -71.5203171
@@ -6293,7 +6408,7 @@ Objects {
       Z: 0.508324742
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6304,8 +6419,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6344,9 +6460,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -132.509888
-      Y: -1357.0835
-      Z: 518.722534
+      X: -301.24231
+      Y: -1204.95605
+      Z: 597.55481
     }
     Rotation {
       Yaw: -71.5203171
@@ -6357,7 +6473,7 @@ Objects {
       Z: 0.781377792
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Nature_Leaves:id"
@@ -6368,8 +6484,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6408,14 +6525,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10985.1895
-      Y: -3260.56982
-      Z: 264.979736
+      X: -11153.9219
+      Y: -3108.44238
+      Z: 343.811981
     }
     Rotation {
       Pitch: 12.4612427
-      Yaw: 71.1147842
-      Roll: 9.74398
+      Yaw: 71.1147766
+      Roll: 9.74399281
     }
     Scale {
       X: 1.89663374
@@ -6423,13 +6540,14 @@ Objects {
       Z: 1.89663374
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6474,14 +6592,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -10495.9746
-      Y: -2855.14355
-      Z: 264.979736
+      X: -10664.707
+      Y: -2703.01611
+      Z: 343.811981
     }
     Rotation {
       Pitch: 12.4612427
-      Yaw: 71.1148148
-      Roll: 9.74395275
+      Yaw: 71.1148
+      Roll: 9.7439661
     }
     Scale {
       X: 1.89663374
@@ -6489,13 +6607,14 @@ Objects {
       Z: 1.89663374
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6540,9 +6659,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 5302.61133
-      Y: -6377.0835
-      Z: 826.168945
+      X: 5133.87891
+      Y: -6224.95605
+      Z: 905.001221
     }
     Rotation {
       Yaw: -157.500031
@@ -6553,13 +6672,14 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6604,12 +6724,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 8202.61133
-      Y: -5207.0835
-      Z: 826.168091
+      X: 8033.87891
+      Y: -5054.95605
+      Z: 905.000366
     }
     Rotation {
-      Yaw: -136.868698
+      Yaw: -136.868683
     }
     Scale {
       X: 1.2
@@ -6617,13 +6737,14 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6668,9 +6789,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 8407.61133
-      Y: -1782.0835
-      Z: 316.167755
+      X: 8238.87891
+      Y: -1629.95605
+      Z: 395
     }
     Rotation {
     }
@@ -6680,13 +6801,14 @@ Objects {
       Z: 1.39999974
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6731,13 +6853,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -2022.38867
-      Y: 10407.916
-      Z: 736.167725
+      X: -2191.12109
+      Y: 10560.0439
+      Z: 815
     }
     Rotation {
       Yaw: -135
-      Roll: -14.6003723
+      Roll: -14.6003942
     }
     Scale {
       X: 1.90000021
@@ -6745,13 +6867,14 @@ Objects {
       Z: 1.90000021
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6796,13 +6919,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -587.38855
-      Y: 8842.91602
-      Z: 834.67688
+      X: -756.121
+      Y: 8995.04395
+      Z: 913.509155
     }
     Rotation {
       Yaw: 44.9999924
-      Roll: -14.6001215
+      Roll: -14.6001415
     }
     Scale {
       X: 1.90000021
@@ -6810,13 +6933,14 @@ Objects {
       Z: 1.90000021
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6861,12 +6985,12 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -437.38855
-      Y: 6927.9165
-      Z: 834.67688
+      X: -606.121
+      Y: 7080.04395
+      Z: 913.509155
     }
     Rotation {
-      Roll: -14.6000595
+      Roll: -14.6000786
     }
     Scale {
       X: 1.90000021
@@ -6874,13 +6998,14 @@ Objects {
       Z: 1.90000021
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6925,9 +7050,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3187.61133
-      Y: 8587.91602
-      Z: 51.1673279
+      X: 3018.87891
+      Y: 8740.04395
+      Z: 129.999573
     }
     Rotation {
     }
@@ -6937,13 +7062,14 @@ Objects {
       Z: 2.50000024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -6988,9 +7114,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 1847.61121
-      Y: 7147.9165
-      Z: 51.167572
+      X: 1678.87878
+      Y: 7300.04395
+      Z: 129.999817
     }
     Rotation {
     }
@@ -7000,13 +7126,14 @@ Objects {
       Z: 2.50000024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -7051,9 +7178,9 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3187.61133
-      Y: 7387.9165
-      Z: 51.1673279
+      X: 3018.87891
+      Y: 7540.04395
+      Z: 129.999573
     }
     Rotation {
     }
@@ -7063,13 +7190,14 @@ Objects {
       Z: 2.50000024
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -7114,9 +7242,8 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: 3487.61133
-      Y: 5851.12549
-      Z: -78.8322449
+      X: 3318.87891
+      Y: 6003.25293
     }
     Rotation {
     }
@@ -7126,13 +7253,14 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -7177,13 +7305,13 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -4413.9165
-      Y: -5032.84961
-      Z: 129.00882
+      X: -4582.64893
+      Y: -4880.72217
+      Z: 207.841064
     }
     Rotation {
-      Yaw: -37.9253235
-      Roll: -22.499464
+      Yaw: -37.9253044
+      Roll: -22.4994488
     }
     Scale {
       X: 1.49999988
@@ -7191,13 +7319,14 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -7242,14 +7371,14 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -11720.583
-      Y: -3906.27612
-      Z: 264.979736
+      X: -11889.3154
+      Y: -3754.14868
+      Z: 343.811981
     }
     Rotation {
       Pitch: 12.4612427
       Yaw: 71.114769
-      Roll: 9.74400711
+      Roll: 9.74401951
     }
     Scale {
       X: 1.89663374
@@ -7257,13 +7386,14 @@ Objects {
       Z: 1.89663374
     }
   }
-  ParentId: 612199423538572622
+  ParentId: 4604920692599146866
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.26000002
-        G: 0.225333363
+        R: 0.25678
+        G: 0.347
+        B: 0.343415141
         A: 1
       }
     }
@@ -16422,7 +16552,7 @@ Objects {
           Vector {
             X: 1.08353591
             Y: 1.43349075
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -16430,7 +16560,7 @@ Objects {
           Rotator {
             Pitch: 11.4238873
             Yaw: -107.525467
-            Roll: -3.57910395
+            Roll: -3.57910156
           }
         }
         Overrides {
@@ -16495,7 +16625,7 @@ Objects {
           Vector {
             X: 1
             Y: 1
-            Z: 1
+            Z: 0.848796427
           }
         }
         Overrides {
@@ -16565,7 +16695,7 @@ Objects {
           Vector {
             X: 1.08353591
             Y: 1.43349075
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -16573,7 +16703,7 @@ Objects {
           Rotator {
             Pitch: 11.4238873
             Yaw: -107.525467
-            Roll: -3.57910395
+            Roll: -3.57910156
           }
         }
         Overrides {
@@ -16643,7 +16773,7 @@ Objects {
           Vector {
             X: 1.08353591
             Y: 1.43349075
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -16721,7 +16851,7 @@ Objects {
           Vector {
             X: 1.08353591
             Y: 1.43349075
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -16797,7 +16927,7 @@ Objects {
           Vector {
             X: 1.08353591
             Y: 1.43349075
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -16873,7 +17003,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.04911757
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -16946,7 +17076,7 @@ Objects {
           Vector {
             X: 1.2501334
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17018,7 +17148,7 @@ Objects {
           Vector {
             X: 1.2501334
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17090,7 +17220,7 @@ Objects {
           Vector {
             X: 1.2501334
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17162,7 +17292,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17234,7 +17364,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17306,7 +17436,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17378,7 +17508,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 2.60035729
+            Z: 2.2071743
           }
         }
         Overrides {
@@ -17450,7 +17580,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 2.30335665
+            Z: 1.95508051
           }
         }
         Overrides {
@@ -17522,7 +17652,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 1.98156416
+            Z: 1.68194449
           }
         }
         Overrides {
@@ -17594,7 +17724,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 1.98156416
+            Z: 1.68194449
           }
         }
         Overrides {
@@ -17666,7 +17796,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 1.98156416
+            Z: 1.68194449
           }
         }
         Overrides {
@@ -17738,7 +17868,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -17810,7 +17940,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -17875,7 +18005,7 @@ Objects {
           Vector {
             X: 0.904879332
             Y: 0.970992446
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -17947,7 +18077,7 @@ Objects {
           Vector {
             X: 1.24853599
             Y: 1.10681546
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -18019,7 +18149,7 @@ Objects {
           Vector {
             X: 0.972916305
             Y: 1.26377082
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -18091,7 +18221,7 @@ Objects {
           Vector {
             X: 0.972916305
             Y: 1.26377082
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -18156,7 +18286,7 @@ Objects {
           Vector {
             X: 0.972916305
             Y: 1.26377082
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -18228,7 +18358,7 @@ Objects {
           Vector {
             X: 1.17058957
             Y: 0.857379138
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -18293,7 +18423,7 @@ Objects {
           Vector {
             X: 1.17058957
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -18365,7 +18495,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.919461787
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18437,7 +18567,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.919461787
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18509,7 +18639,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.919461787
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18581,7 +18711,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.919461787
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18653,7 +18783,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.919461787
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18725,7 +18855,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18797,7 +18927,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18869,7 +18999,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -18941,7 +19071,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -19013,7 +19143,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -19085,7 +19215,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -19157,7 +19287,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -19222,7 +19352,7 @@ Objects {
           Vector {
             X: 1.23649025
             Y: 0.754735112
-            Z: 2.59491277
+            Z: 2.2025528
           }
         }
         Overrides {
@@ -19295,7 +19425,7 @@ Objects {
           Vector {
             X: 1.07259405
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19369,7 +19499,7 @@ Objects {
           Vector {
             X: 1.07259405
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19443,7 +19573,7 @@ Objects {
           Vector {
             X: 1.07259405
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19516,7 +19646,7 @@ Objects {
           Vector {
             X: 1.07259405
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19582,7 +19712,7 @@ Objects {
           Vector {
             X: 1.07259405
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19654,7 +19784,7 @@ Objects {
           Vector {
             X: 1.35971296
             Y: 0.871275723
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19726,7 +19856,7 @@ Objects {
           Vector {
             X: 1.35971296
             Y: 0.871275723
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19791,7 +19921,7 @@ Objects {
           Vector {
             X: 1.35971296
             Y: 0.871275723
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19856,7 +19986,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.865245461
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19921,7 +20051,7 @@ Objects {
           Vector {
             X: 0.986265719
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -19994,13 +20124,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.00503051
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -28.4718189
+            Yaw: -28.4718323
           }
         }
         Overrides {
@@ -20060,13 +20190,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.00503051
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -28.4718189
+            Yaw: -28.4718323
           }
         }
         Overrides {
@@ -20126,7 +20256,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.09984982
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20191,7 +20321,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.758931756
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20261,7 +20391,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20321,7 +20451,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.0373987
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20386,7 +20516,7 @@ Objects {
           Vector {
             X: 1.05005479
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20451,7 +20581,7 @@ Objects {
           Vector {
             X: 0.968599856
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20516,7 +20646,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.06366813
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20589,7 +20719,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20662,7 +20792,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20735,7 +20865,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20808,7 +20938,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20880,7 +21010,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -20952,7 +21082,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21024,7 +21154,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21096,7 +21226,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21161,7 +21291,7 @@ Objects {
           Vector {
             X: 1.01535296
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21234,7 +21364,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.13794577
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21300,7 +21430,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.13794577
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21366,13 +21496,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.969976842
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -34.0840797
+            Yaw: -34.0840759
           }
         }
         Overrides {
@@ -21432,13 +21562,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.36809218
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -38.0153351
+            Yaw: -38.0153198
           }
         }
         Overrides {
@@ -21498,7 +21628,7 @@ Objects {
           Vector {
             X: 1.00770128
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21570,7 +21700,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.04911757
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21636,7 +21766,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.04911757
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21708,7 +21838,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.4334923
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -21774,7 +21904,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.4334923
-            Z: 2.13531351
+            Z: 1.81244612
           }
         }
         Overrides {
@@ -21846,7 +21976,7 @@ Objects {
           Vector {
             X: 1.59381425
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21918,7 +22048,7 @@ Objects {
           Vector {
             X: 1.59381425
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -21983,7 +22113,7 @@ Objects {
           Vector {
             X: 1.59381425
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22048,7 +22178,7 @@ Objects {
           Vector {
             X: 1.11263788
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22113,7 +22243,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.32205665
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22178,7 +22308,7 @@ Objects {
           Vector {
             X: 1.18560171
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22243,7 +22373,7 @@ Objects {
           Vector {
             X: 1.15743124
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22308,13 +22438,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.5969373
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -34.7344513
+            Yaw: -34.734436
           }
         }
         Overrides {
@@ -22374,13 +22504,13 @@ Objects {
           Vector {
             X: 1.26539052
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -12.4210587
+            Yaw: -12.421051
           }
         }
         Overrides {
@@ -22438,7 +22568,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -40.0613747
+            Yaw: -40.0613708
           }
         }
         Overrides {
@@ -22446,7 +22576,7 @@ Objects {
           Vector {
             X: 0.55738
             Y: 1.12388706
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22506,7 +22636,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.10681546
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22576,7 +22706,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22636,13 +22766,13 @@ Objects {
           Vector {
             X: 2.01862907
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -47.130703
+            Yaw: -47.1307068
           }
         }
         Overrides {
@@ -22702,7 +22832,7 @@ Objects {
           Vector {
             X: 0.245240942
             Y: 0.245240942
-            Z: 1.2149328
+            Z: 1.03123069
           }
         }
         Overrides {
@@ -22775,7 +22905,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.28293562
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22841,7 +22971,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.28293562
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22907,7 +23037,7 @@ Objects {
           Vector {
             X: 1.01568961
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -22980,7 +23110,7 @@ Objects {
           Vector {
             X: 1.11013794
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23051,7 +23181,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23117,7 +23247,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23182,7 +23312,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23242,7 +23372,7 @@ Objects {
           Vector {
             X: 0.957128823
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23312,7 +23442,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23372,13 +23502,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.909742415
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -48.21661
+            Yaw: -48.2166138
           }
         }
         Overrides {
@@ -23436,7 +23566,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -20.5942574
+            Yaw: -20.5942688
           }
         }
         Overrides {
@@ -23444,7 +23574,7 @@ Objects {
           Vector {
             X: 0.998978496
             Y: 0.557378769
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23502,7 +23632,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -29.3128319
+            Yaw: -29.3128357
           }
         }
         Overrides {
@@ -23510,7 +23640,7 @@ Objects {
           Vector {
             X: 0.911209345
             Y: 0.557378829
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23570,7 +23700,7 @@ Objects {
           Vector {
             X: 0.902076483
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23634,7 +23764,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -29.9263725
+            Yaw: -29.9263611
           }
         }
         Overrides {
@@ -23642,7 +23772,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23707,7 +23837,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23779,7 +23909,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23846,7 +23976,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.959351838
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -23918,13 +24048,13 @@ Objects {
           Vector {
             X: 0.797799051
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -8.76195717
+            Pitch: -8.76196289
           }
         }
         Overrides {
@@ -23996,7 +24126,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24068,7 +24198,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24140,7 +24270,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24212,7 +24342,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24284,7 +24414,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24356,7 +24486,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24428,7 +24558,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24494,7 +24624,7 @@ Objects {
           Vector {
             X: 0.557384729
             Y: 1.14412069
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24554,7 +24684,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.02410758
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24625,7 +24755,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24690,7 +24820,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24755,7 +24885,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24820,7 +24950,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -24878,8 +25008,8 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -0.919678092
-            Roll: -6.54612303
+            Pitch: -0.919677734
+            Roll: -6.54611206
           }
         }
         Overrides {
@@ -24887,7 +25017,7 @@ Objects {
           Vector {
             X: 0.557387531
             Y: 0.955236614
-            Z: 1.82673216
+            Z: 1.550524
           }
         }
         Overrides {
@@ -24947,13 +25077,13 @@ Objects {
           Vector {
             X: 0.990934
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -12.6300707
+            Pitch: -12.6300659
           }
         }
         Overrides {
@@ -25013,7 +25143,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.22896111
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25078,13 +25208,13 @@ Objects {
           Vector {
             X: 0.847428083
             Y: 1.12720346
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -12.4041758
+            Pitch: -12.4041748
           }
         }
         Overrides {
@@ -25149,7 +25279,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25215,7 +25345,7 @@ Objects {
           Vector {
             X: 0.860308468
             Y: 0.557379186
-            Z: 1.8267318
+            Z: 1.55052364
           }
         }
         Overrides {
@@ -25275,7 +25405,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.16083622
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25340,13 +25470,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.10089493
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -19.3528481
+            Yaw: -19.3528442
           }
         }
         Overrides {
@@ -25406,7 +25536,7 @@ Objects {
           Vector {
             X: 1.34233046
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25471,13 +25601,13 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.29011357
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -24.5410023
+            Yaw: -24.5410156
           }
         }
         Overrides {
@@ -25537,7 +25667,7 @@ Objects {
           Vector {
             X: 1.28530407
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25602,7 +25732,7 @@ Objects {
           Vector {
             X: 1.51506
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25667,7 +25797,7 @@ Objects {
           Vector {
             X: 1.50987923
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25732,7 +25862,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 1.61277008
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25797,7 +25927,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.989957094
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25862,7 +25992,7 @@ Objects {
           Vector {
             X: 1.39151347
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25927,7 +26057,7 @@ Objects {
           Vector {
             X: 1.72718894
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -25999,7 +26129,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.822594047
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -26071,7 +26201,7 @@ Objects {
           Vector {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.55052328
           }
         }
         Overrides {
@@ -26112,8 +26242,11 @@ Objects {
     }
   }
   ParentId: 13610813917753045510
-  CameraCollidable {
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -26136,33 +26269,10 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.557379186
-            Y: 0.557379186
-            Z: 1.82673144
-          }
-        }
-        Overrides {
-          Name: "DisableDistanceFieldLighting"
-          Bool: true
-        }
-        Overrides {
-          Name: "DisableCastShadows"
-          Bool: true
-        }
-        Overrides {
-          Name: "DisableReceiveDecals"
-          Bool: true
-        }
       }
     }
     TemplateAsset {
       Id: 16500060695330538452
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
 }

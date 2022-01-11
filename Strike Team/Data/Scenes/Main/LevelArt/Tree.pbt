@@ -5369,10 +5369,6 @@ Objects {
       Float: 1
     }
     Overrides {
-      Name: "bp:Fog Density"
-      Float: 4.02710533
-    }
-    Overrides {
       Name: "bp:Start"
       Float: 0
     }
@@ -5391,24 +5387,28 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
-      Float: 2.50006437
+      Float: 2.63989043
     }
     Overrides {
       Name: "bp:Albedo"
       Color {
-        R: 0.447
-        G: 0.638
+        R: 0.733999968
+        G: 0.884733319
         B: 1
         A: 1
       }
     }
     Overrides {
-      Name: "bp:Layered Fog Density"
-      Float: 0
+      Name: "bp:Falloff"
+      Float: 0.502501309
     }
     Overrides {
-      Name: "bp:Falloff"
-      Float: 0.49255693
+      Name: "bp:Fog Density"
+      Float: 2.32747459
+    }
+    Overrides {
+      Name: "bp:Layered Fog Density"
+      Float: 3.75590348
     }
   }
   Collidable_v2 {
@@ -5452,7 +5452,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 6
+      Float: 3.83285022
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
@@ -5465,12 +5465,12 @@ Objects {
     Overrides {
       Name: "bp:Shape"
       Enum {
-        Value: "mc:esundiscshapes:0"
+        Value: "mc:esundiscshapes:1"
       }
     }
     Overrides {
       Name: "bp:Size"
-      Float: 7.69662523
+      Float: 4.95168495
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -5490,7 +5490,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Shaft Bloom Scale"
-      Float: 8.47500134
+      Float: 1.93068862
     }
     Overrides {
       Name: "bp:Cast Shadows"
@@ -5498,7 +5498,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
-      Float: 1
+      Float: 3
     }
     Overrides {
       Name: "bp:Shadow Cascade Count"
@@ -5511,9 +5511,9 @@ Objects {
     Overrides {
       Name: "bp:Light Color"
       Color {
-        R: 0.765625
-        G: 0.580353916
-        B: 0.283281267
+        R: 0.283281267
+        G: 0.661117077
+        B: 0.765625
         A: 1
       }
     }
@@ -5521,8 +5521,8 @@ Objects {
       Name: "bp:Light Shaft Bloom Tint"
       Color {
         R: 1
-        G: 0.612450361
-        B: 0.230000019
+        G: 0.746331215
+        B: 0.496
         A: 1
       }
     }
@@ -5533,6 +5533,14 @@ Objects {
     Overrides {
       Name: "bp:Draw Sun"
       Bool: true
+    }
+    Overrides {
+      Name: "bp:Use Temperature"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Temperature"
+      Float: 50000
     }
   }
   Collidable_v2 {
@@ -5572,15 +5580,6 @@ Objects {
   }
   ParentId: 17525193500194171463
   UnregisteredParameters {
-    Overrides {
-      Name: "bp:Zenith Color"
-      Color {
-        R: 0.0688923076
-        G: 0.131782889
-        B: 0.35
-        A: 0.6
-      }
-    }
     Overrides {
       Name: "bp:Horizon Color"
       Color {
@@ -5666,6 +5665,14 @@ Objects {
       Name: "bp:Cloud Wisp Speed"
       Float: 1
     }
+    Overrides {
+      Name: "bp:Zenith Color"
+      Color {
+        G: 0.0649898723
+        B: 0.251000017
+        A: 0.6
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5729,7 +5736,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Volumetric Intensity"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "bp:Occlusion Contrast"
@@ -5742,8 +5749,8 @@ Objects {
     Overrides {
       Name: "bp:Occlusion Tint"
       Color {
-        R: 0.0364583321
-        G: 0.0231788084
+        G: 0.0340277702
+        B: 0.0364583321
         A: 0.00500000035
       }
     }

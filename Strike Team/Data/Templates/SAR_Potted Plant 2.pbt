@@ -15,13 +15,13 @@ Assets {
             Z: 0.6
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 7775346017324105023
+        ParentId: 16373807130785117515
         ChildIds: 9616156780206545546
         ChildIds: 16709902807094985482
         ChildIds: 11819766744704250348
         ChildIds: 11444572947764591851
         ChildIds: 12666940220130168701
+        ChildIds: 5738291993731936571
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -33,55 +33,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 7775346017324105023
-        Name: "Bush 02"
-        Transform {
-          Location {
-            X: 2.53710938
-            Y: 3.19750977
-            Z: 13.4883728
-          }
-          Rotation {
-            Pitch: 3.45785141
-            Yaw: -101.244453
-            Roll: -0.686981142
-          }
-          Scale {
-            X: 0.515839219
-            Y: 0.515839219
-            Z: 0.515839219
-          }
-        }
-        ParentId: 15852198691852231495
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3249839256999270199
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -323,7 +274,8 @@ Assets {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 0.585000038
-              G: 0.348675549
+              G: 0.439660519
+              B: 0.225225016
               A: 1
             }
           }
@@ -423,14 +375,72 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
-    }
-    Assets {
-      Id: 3249839256999270199
-      Name: "Bush 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bush_generic_002"
+      Objects {
+        Id: 5738291993731936571
+        Name: "Branches Cluster Big"
+        Transform {
+          Location {
+            X: 2.88492823
+            Y: -2.67903638
+            Z: -41.3256836
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.0879243091
+            Y: 0.0879243091
+            Z: 0.0879243091
+          }
+        }
+        ParentId: 15852198691852231495
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Trunk:id"
+            AssetReference {
+              Id: 17743160960146116138
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Trunk:color"
+            Color {
+              R: 0.377755523
+              G: 0.426000029
+              B: 0.361674
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16412084781549429509
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -494,6 +504,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_hq_test_001"
+      }
+    }
+    Assets {
+      Id: 16412084781549429509
+      Name: "Tree Oak Bare 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_tree_oak_002"
       }
     }
     PrimaryAssetId {

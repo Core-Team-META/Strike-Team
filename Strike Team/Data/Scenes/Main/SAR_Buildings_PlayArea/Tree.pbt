@@ -8500,7 +8500,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -8784,9 +8784,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -9642,9 +9642,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -9730,9 +9730,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -9818,9 +9818,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -9977,9 +9977,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10065,9 +10065,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10153,9 +10153,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10241,9 +10241,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10329,9 +10329,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10413,9 +10413,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10497,9 +10497,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10660,9 +10660,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10744,9 +10744,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10828,9 +10828,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -10912,9 +10912,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -11683,9 +11683,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -11760,9 +11760,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -12123,9 +12123,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -17587,9 +17587,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -17665,9 +17665,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -18447,9 +18447,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -18525,9 +18525,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -18602,9 +18602,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -18679,9 +18679,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -18973,9 +18973,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -19333,9 +19333,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -19883,9 +19883,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -19961,9 +19961,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -20039,9 +20039,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -20117,9 +20117,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -27014,9 +27014,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -28125,9 +28125,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -30085,7 +30085,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -30093,6 +30093,14 @@ Objects {
       AssetReference {
         Id: 15505603493108819243
       }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -34003,7 +34011,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -34269,9 +34277,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -34510,9 +34518,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -34650,9 +34658,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -35503,7 +35511,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -35564,7 +35572,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -35635,7 +35643,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -36644,9 +36652,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -38709,9 +38717,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -39000,9 +39008,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -39132,9 +39140,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -39210,9 +39218,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -39921,9 +39929,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -40218,9 +40226,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -40351,9 +40359,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -42180,9 +42188,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -42257,9 +42265,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -42707,9 +42715,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -43243,9 +43251,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -44319,9 +44327,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -44723,9 +44731,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45183,9 +45191,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45267,9 +45275,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45351,9 +45359,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45439,9 +45447,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45527,9 +45535,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45615,9 +45623,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -45703,9 +45711,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -46016,9 +46024,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -46175,9 +46183,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -46259,9 +46267,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -46418,9 +46426,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -46502,9 +46510,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -46674,9 +46682,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:color"
       Color {
-        R: 0.929999948
-        G: 0.432496458
-        B: 0.164609984
+        R: 0.674
+        G: 0.446188
+        B: 0.323519975
         A: 1
       }
     }
@@ -47353,7 +47361,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -58437,7 +58445,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 12841693225497865048
+        Id: 16826264376886319022
       }
     }
   }
@@ -72974,7 +72982,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -73039,7 +73047,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
   }
@@ -73096,7 +73104,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
   }
@@ -73153,7 +73161,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
     Overrides {
@@ -73267,7 +73275,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
   }
@@ -73456,7 +73464,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
   }
@@ -73513,7 +73521,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8568697174726512881
+        Id: 16826264376886319022
       }
     }
   }
@@ -77676,9 +77684,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -77739,9 +77747,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.634229958
-        G: 0.87
-        B: 0.846579254
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -77863,9 +77871,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -77932,9 +77940,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.267795
-        G: 0.541
-        B: 0.513860643
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -77996,9 +78004,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78060,9 +78068,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78124,9 +78132,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78188,9 +78196,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.634229958
-        G: 0.87
-        B: 0.846579254
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78252,9 +78260,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78316,9 +78324,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78379,9 +78387,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.634229958
-        G: 0.87
-        B: 0.846579254
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78443,9 +78451,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78726,9 +78734,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.634229958
-        G: 0.87
-        B: 0.846579254
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78789,9 +78797,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78858,9 +78866,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.267795
-        G: 0.541
-        B: 0.513860643
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -78991,18 +78999,18 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79069,9 +79077,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.267795
-        G: 0.541
-        B: 0.513860643
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79259,9 +79267,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79386,9 +79394,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79450,9 +79458,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79514,9 +79522,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79578,9 +79586,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -79642,9 +79650,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -85770,9 +85778,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -87319,9 +87327,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -87390,9 +87398,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -87460,9 +87468,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -87661,9 +87669,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }
@@ -87924,9 +87932,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.43065
-        G: 0.87
-        B: 0.826356173
+        R: 0.419063
+        G: 0.619
+        B: 0.599138916
         A: 1
       }
     }

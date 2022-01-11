@@ -253,6 +253,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -586,8 +587,9 @@ Assets {
           Overrides {
             Name: "ma:Nature_Leaves:color"
             Color {
-              R: 0.120000005
-              G: 0.0381457
+              R: 0.546860039
+              G: 0.739
+              B: 0.731365383
               A: 1
             }
           }
@@ -597,6 +599,12 @@ Assets {
               R: 0.100000024
               G: 0.0317880884
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 11616711661642823863
             }
           }
         }
@@ -617,6 +625,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableReceiveDecals: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -633,19 +642,19 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: -6.51306152
-            Y: -84.0232468
+            X: -6.51314545
+            Y: -84.0233917
             Z: -1248.71741
           }
           Rotation {
-            Pitch: -2.13465261
+            Pitch: -2.13464355
             Yaw: 32.2868843
-            Roll: -2.4218235
+            Roll: -2.42181396
           }
           Scale {
-            X: 1.19617
-            Y: 1.30199993
-            Z: 2.78005886
+            X: 1.19616449
+            Y: 1.30199981
+            Z: 1.57631481
           }
         }
         ParentId: 9342976340696151817
@@ -653,9 +662,9 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.0805509537
-              G: 0.0885416642
-              B: 0.0109086651
+              R: 0.284160018
+              G: 0.384
+              B: 0.380032897
               A: 1
             }
           }
@@ -679,6 +688,7 @@ Assets {
           }
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
+          DisableReceiveDecals: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -737,8 +747,9 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.123
-              G: 0.118900008
+              R: 0.375970036
+              G: 0.410000026
+              B: 0.408647865
               A: 1
             }
           }
@@ -817,8 +828,9 @@ Assets {
           Overrides {
             Name: "ma:Nature_Grass:color"
             Color {
-              R: 0.123
-              G: 0.118900008
+              R: 0.375970036
+              G: 0.410000026
+              B: 0.408647865
               A: 1
             }
           }

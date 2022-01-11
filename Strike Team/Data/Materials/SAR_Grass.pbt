@@ -9,16 +9,31 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.574
-          G: 0.296503335
+          R: 0.546860039
+          G: 0.739
+          B: 0.731365383
           A: 1
         }
       }
       Overrides {
         Name: "color_roots"
         Color {
-          R: 0.480000019
-          G: 0.247947052
+          R: 0.165796012
+          G: 0.229000017
+          B: 0.16895622
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 50
+      }
+      Overrides {
+        Name: "sss"
+        Color {
+          R: 0.373429984
+          G: 0.535
+          B: 0.502686083
           A: 1
         }
       }

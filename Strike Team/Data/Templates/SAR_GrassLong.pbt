@@ -12,19 +12,11 @@ Assets {
           Scale {
             X: 0.557379186
             Y: 0.557379186
-            Z: 1.82673144
+            Z: 1.2794261
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 13610813917753045510
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Grass:color"
-            Color {
-              R: 0.384
-              G: 0.205986768
-              A: 1
-            }
-          }
           Overrides {
             Name: "ma:Nature_Grass:id"
             AssetReference {
@@ -49,6 +41,9 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {

@@ -134,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17256809799784720885
+  Name: "Snow 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_snow_001_uv"
+  }
+}
+Assets {
   Id: 17167473041082958233
   Name: "Wedge - Convex Polished"
   PlatformAssetType: 1
