@@ -10010,6 +10010,17 @@ Objects {
     }
   }
   ParentId: 16373807130785117515
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.375
+        G: 0.339282
+        B: 0.295905
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26915,6 +26926,34 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 3519499805968123779
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.353000015
+            G: 0.219502628
+            B: 0.123197
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10706835851587813684
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.353000015
+            G: 0.219502628
+            B: 0.123197
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 4173411840998073227
     }
@@ -26976,6 +27015,15 @@ Objects {
           Name: "DisableReceiveDecals"
           Bool: true
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.353000015
+            G: 0.219502628
+            B: 0.123197
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -26993,6 +27041,15 @@ Objects {
         Overrides {
           Name: "DisableReceiveDecals"
           Bool: true
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.353000015
+            G: 0.219502628
+            B: 0.123197
+            A: 1
+          }
         }
       }
     }
@@ -59754,9 +59811,6 @@ Objects {
   ParentId: 2957671981665303305
   ChildIds: 15819763407950269632
   ChildIds: 1324773221382860423
-  ChildIds: 18286544471692899193
-  ChildIds: 13977323244663771409
-  ChildIds: 17003458052042993944
   ChildIds: 17373142337567977562
   ChildIds: 3755880500239329942
   ChildIds: 16656062983943116355
@@ -60139,1058 +60193,6 @@ Objects {
       Physics {
       }
       BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17003458052042993944
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5483.27734
-      Y: 7978.55078
-      Z: 2.26351929
-    }
-    Rotation {
-      Yaw: 32.8486252
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10996136603158897712
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -723.369141
-            Y: -3627.7998
-            Z: 107.107491
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -2.42791367
-            Yaw: -0.0793456882
-            Roll: 0.0443978868
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8108090804749457474
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -0.324462891
-            Y: -0.274414062
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13977323244663771409
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5440.80322
-      Y: 8356.16602
-      Z: 2.26351929
-    }
-    Rotation {
-      Yaw: 32.8486252
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10996136603158897712
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 728393700732652711
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 976260505690867141
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1671440995973735463
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2188534552773033863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2861705277083395841
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2903699622858844085
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3300470116919326782
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3545768540742671906
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3593243620919193398
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3685792703808696423
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4038562425167167582
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4378350474384003587
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4486262956200993471
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -793.935547
-            Y: -3323.39404
-            Z: 2.26351929
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 32.8486633
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5415963846203428939
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5856803663308808899
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6506744038487862531
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7531815893978732138
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8108090804749457474
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8125643616820736058
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9347229531763147725
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11556645078416662130
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12271161263313951274
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13115246248375386385
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13180758933643730863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13373971284878838124
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13822759973632562104
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13996569811320587910
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17351539629395126435
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18009577860967134746
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18432167320432983714
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 1
-            B: 0.327883363
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 18286544471692899193
-  Name: "SAR_Plastic Container"
-  Transform {
-    Location {
-      X: 5483.27734
-      Y: 7978.55078
-      Z: 2.26351929
-    }
-    Rotation {
-      Yaw: 32.8486252
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10996136603158897712
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 728393700732652711
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 976260505690867141
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1671440995973735463
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2188534552773033863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2861705277083395841
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2903699622858844085
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3300470116919326782
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3545768540742671906
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3593243620919193398
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3685792703808696423
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4038562425167167582
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4378350474384003587
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4486262956200993471
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5174660683043004675
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SAR_Plastic Container"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -770.575684
-            Y: -3003.83398
-            Z: 2.26351929
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 0.212685272
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5415963846203428939
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5856803663308808899
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6506744038487862531
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7531815893978732138
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8108090804749457474
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8125643616820736058
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9347229531763147725
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11556645078416662130
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12271161263313951274
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13115246248375386385
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13180758933643730863
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13373971284878838124
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13822759973632562104
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13996569811320587910
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17351539629395126435
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18009577860967134746
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18432167320432983714
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.176999986
-            G: 0.437616408
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5392455809090379132
     }
   }
   NetworkRelevanceDistance {
@@ -105354,6 +104356,20 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 3166988338317641089
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4451770670104080433
       value {
         Overrides {
@@ -105387,12 +104403,63 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7418588941088093172
+      value {
+        Overrides {
+          Name: "ma:Prop_Top:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8140697872344978958
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10508400668931408023
       value {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14877525523923744856
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
           }
         }
       }
@@ -123188,6 +122255,20 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 3166988338317641089
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4451770670104080433
       value {
         Overrides {
@@ -123221,12 +122302,63 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7418588941088093172
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Prop_Top:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8140697872344978958
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10508400668931408023
       value {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14877525523923744856
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
           }
         }
       }
@@ -127105,12 +126237,68 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7256975086687735262
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10164101487733082398
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11619847083526070436
       value {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12869799733231303359
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13894457261309119237
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
           }
         }
       }
@@ -127290,6 +126478,20 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 3166988338317641089
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4451770670104080433
       value {
         Overrides {
@@ -127323,12 +126525,63 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7418588941088093172
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Prop_Top:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8140697872344978958
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10508400668931408023
       value {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14877525523923744856
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.60800004
+            G: 0.533542216
+            B: 0.363584
+            A: 1
           }
         }
       }
@@ -127510,6 +126763,20 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 6721889669297980642
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.30524
+            G: 0.587
+            B: 0.570206404
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6974255113129462607
       value {
         Overrides {
@@ -127667,6 +126934,48 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 122976128785600638
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.6
+            G: 0.190799981
+            B: 0.190799981
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3007529909434142711
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.6
+            G: 0.190799981
+            B: 0.190799981
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5306229775923001909
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.6
+            G: 0.190799981
+            B: 0.190799981
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 8868629231076689304
       value {
         Overrides {
@@ -127702,6 +127011,34 @@ Objects {
             X: 0.526720762
             Y: 0.526720762
             Z: 0.526720762
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13516639385706898064
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.6
+            G: 0.190799981
+            B: 0.190799981
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17102969695614653422
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.65
+            G: 0.18264997
+            B: 0.18264997
+            A: 1
           }
         }
       }
@@ -128988,12 +128325,166 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1476373819711053670
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2898109642999702002
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6324023411938847998
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9413320219169931754
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12136842531373876206
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13852061476809232878
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14073120886830027537
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 14525823915265800772
       value {
         Overrides {
           Name: "CoreProxy.Relevance"
           Enum {
             Value: "mc:eproxyrelevance:medium"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14528729686520811151
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15172620472074966581
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15202935606711712002
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17174245387714948569
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.138475016
+            G: 0.162111223
+            B: 0.191000015
+            A: 1
           }
         }
       }

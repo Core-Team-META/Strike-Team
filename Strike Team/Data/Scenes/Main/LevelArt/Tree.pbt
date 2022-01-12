@@ -105,6 +105,11 @@ Objects {
   ChildIds: 5983366581447901859
   ChildIds: 12233010616011899252
   ChildIds: 1579124738066358111
+  ChildIds: 11673892561198867229
+  ChildIds: 5036251101161171850
+  ChildIds: 13965835272933953551
+  ChildIds: 13081056134415593015
+  ChildIds: 903399531996851814
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -122,6 +127,520 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 903399531996851814
+  Name: "Snowshovel"
+  Transform {
+    Location {
+      X: -1303.60095
+      Y: -947.277344
+      Z: -80.7578735
+    }
+    Rotation {
+      Pitch: -7.81771851
+      Yaw: -82.5674744
+      Roll: -1.0161438
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1072556460156247998
+  ChildIds: 17143785257231474662
+  ChildIds: 988732193322462690
+  ChildIds: 13271850507333536638
+  ChildIds: 17564015617091995327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17564015617091995327
+  Name: "SnowShovel"
+  Transform {
+    Location {
+      X: 6.65087891
+      Y: -11.3139648
+      Z: 79.9019165
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.0609937
+      Y: 0.0609937
+      Z: 1.35753429
+    }
+  }
+  ParentId: 903399531996851814
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 8866663491217360549
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16371622500121573784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13271850507333536638
+  Name: "SnowShovel"
+  Transform {
+    Location {
+      X: 6.59667969
+      Y: -10.7036133
+      Z: 12.0991821
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.0354272947
+      Y: 0.0339548662
+      Z: 0.787827253
+    }
+  }
+  ParentId: 903399531996851814
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 8866663491217360549
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16371622500121573784
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 988732193322462690
+  Name: "SnowShovel"
+  Transform {
+    Location {
+      X: -11.1088867
+      Y: 28.5185547
+      Z: 4.43273926
+    }
+    Rotation {
+      Pitch: 63.4360275
+      Yaw: -179.999954
+      Roll: 89.9999466
+    }
+    Scale {
+      X: 0.565942824
+      Y: 0.411905318
+      Z: 0.784919083
+    }
+  }
+  ParentId: 903399531996851814
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14217004057577764274
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.278786689
+        G: 0.515000045
+        B: 0.1854
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13662191397276538134
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17143785257231474662
+  Name: "SnowShovel"
+  Transform {
+    Location {
+      X: 6.65087891
+      Y: -11.3139648
+      Z: 164.897827
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.93647289
+      Y: 2.93647289
+      Z: 2.93647289
+    }
+  }
+  ParentId: 903399531996851814
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5635417991178029864
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12510064410993333055
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13081056134415593015
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 3639.37183
+      Y: -3463.7356
+      Z: 570.111328
+    }
+    Rotation {
+      Yaw: 8.2334
+    }
+    Scale {
+      X: 1.10390353
+      Y: 1.50497079
+      Z: 1.09184992
+    }
+  }
+  ParentId: 1072556460156247998
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.0605
+        G: 1.37547457
+        B: 1.5
+        A: 0.880000055
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14075465413141390957
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 13965835272933953551
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: -900.211121
+      Y: -1637.41504
+      Z: 847.440491
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.60117888
+      Y: 1.74721694
+      Z: 2.22464037
+    }
+  }
+  ParentId: 1072556460156247998
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.0605
+        G: 1.37547457
+        B: 1.5
+        A: 0.880000055
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14075465413141390957
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 5036251101161171850
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 6797.91064
+      Y: -3663.75024
+      Z: 593.529907
+    }
+    Rotation {
+      Pitch: 5.02101517
+      Yaw: -58.2016602
+      Roll: -8.03527832
+    }
+    Scale {
+      X: 0.370414883
+      Y: 0.826789439
+      Z: 1.44916463
+    }
+  }
+  ParentId: 1072556460156247998
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.0605
+        G: 1.37547457
+        B: 1.5
+        A: 0.880000055
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14075465413141390957
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 11673892561198867229
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 6659.3208
+      Y: -3465.0249
+      Z: 961.169678
+    }
+    Rotation {
+      Yaw: -31.180481
+    }
+    Scale {
+      X: 0.602825344
+      Y: 0.82679379
+      Z: 1.05271327
+    }
+  }
+  ParentId: 1072556460156247998
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.0605
+        G: 1.37547457
+        B: 1.5
+        A: 0.880000055
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14075465413141390957
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -10839,7 +11358,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 5.81007814
+      Float: 9.56203461
     }
   }
   Collidable_v2 {
@@ -10939,18 +11458,18 @@ Objects {
     Overrides {
       Name: "bp:Color Saturation"
       Color {
-        R: 0.748
-        G: 0.748
-        B: 0.748
+        R: 0.75
+        G: 0.954166651
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "bp:Color Contrast"
       Color {
-        R: 1.3
-        G: 1.3
-        B: 1.3
+        R: 0.823
+        G: 0.95575
+        B: 1
         A: 1
       }
     }
@@ -10961,6 +11480,10 @@ Objects {
     Overrides {
       Name: "bp:Expand Gamut"
       Float: 1
+    }
+    Overrides {
+      Name: "bp:Unbounded"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -11132,9 +11655,9 @@ Objects {
     Location {
     }
     Rotation {
-      Pitch: -23.7429199
-      Yaw: -31.0205078
-      Roll: 1.20424366
+      Pitch: -21.8934021
+      Yaw: -30.5568542
+      Roll: 0.008745878
     }
     Scale {
       X: 1
@@ -11159,12 +11682,12 @@ Objects {
     Overrides {
       Name: "bp:Shape"
       Enum {
-        Value: "mc:esundiscshapes:1"
+        Value: "mc:esundiscshapes:0"
       }
     }
     Overrides {
       Name: "bp:Size"
-      Float: 10
+      Float: 9.09412861
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -11234,7 +11757,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Temperature"
-      Float: 8000
+      Float: 6555
     }
   }
   Collidable_v2 {
@@ -11361,7 +11884,8 @@ Objects {
     Overrides {
       Name: "bp:Zenith Color"
       Color {
-        G: 0.0649898723
+        R: 0.0614949912
+        G: 0.110562339
         B: 0.251000017
         A: 0.6
       }
@@ -11372,11 +11896,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Sky Influence On Clouds"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "bp:Haze Falloff"
-      Float: 15
+      Float: 8.07845592
     }
     Overrides {
       Name: "bp:Horizon Falloff"
@@ -11433,7 +11957,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 2.641
+      Float: 3.50477362
     }
     Overrides {
       Name: "bp:Cast Shadows"

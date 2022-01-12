@@ -9,13 +9,13 @@ Assets {
       Overrides {
         Name: "cmp:Material4_Sides"
         AssetReference {
-          Id: 6456790297586556291
+          Id: 3219224863253674403
         }
       }
       Overrides {
         Name: "cmp:Material4"
         AssetReference {
-          Id: 6456790297586556291
+          Id: 3219224863253674403
         }
       }
       Overrides {
@@ -105,6 +105,15 @@ Assets {
           A: 1
         }
       }
+      Overrides {
+        Name: "cmpc:Material4"
+        Color {
+          R: 0.18
+          G: 0.18
+          B: 0.18
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 1766288375643485995
@@ -116,21 +125,21 @@ Assets {
       }
     }
     Assets {
-      Id: 6456790297586556291
-      Name: "Asphalt 01"
+      Id: 3219224863253674403
+      Name: "Granite 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_rock_granite_001_uv_ref"
       }
     }
     Assets {
-      Id: 6456790297586556291
-      Name: "Asphalt 01"
+      Id: 3219224863253674403
+      Name: "Granite 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_rock_granite_001_uv_ref"
       }
     }
     Assets {
