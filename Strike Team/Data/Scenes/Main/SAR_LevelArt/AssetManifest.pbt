@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18014941405078390650
-  Name: "Kelp Tall Bush 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_kelp_tall_bush_01"
-  }
-}
-Assets {
   Id: 18005806658245892960
   Name: "Decal Stains Top 01"
   PlatformAssetType: 14
@@ -95,15 +86,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_sandbag_001"
-  }
-}
-Assets {
-  Id: 17829956314758502204
-  Name: "Ellipsoid - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ellipsoid_truncated_001"
   }
 }
 Assets {
@@ -188,15 +170,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16628730901845472849
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
   Id: 16586908890029824577
   Name: "Cube - Rounded"
   PlatformAssetType: 1
@@ -221,15 +194,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_foundation_001_ref"
-  }
-}
-Assets {
-  Id: 16402944291752128359
-  Name: "Lens - Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_lense_001"
   }
 }
 Assets {
@@ -332,15 +296,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15311550138640852139
-  Name: "Cone - Truncated Hollow Concave"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_hollow_convex_001"
-  }
-}
-Assets {
   Id: 15210171892498863686
   Name: "Bricks Mortar Thick 01"
   PlatformAssetType: 2
@@ -392,15 +347,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_wallpaper_002"
-  }
-}
-Assets {
-  Id: 14643090495247569259
-  Name: "Dirt 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "dirt_001"
   }
 }
 Assets {
@@ -518,15 +464,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_wall_int_001_corner"
-  }
-}
-Assets {
-  Id: 13904304706208065102
-  Name: "Container - Square Thin 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_square_thin_ref"
   }
 }
 Assets {
@@ -683,15 +620,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12792204639440691452
-  Name: "Decal Leaves 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_leaves_002"
-  }
-}
-Assets {
   Id: 12758036443323469769
   Name: "Urban Fence Pole - Extender End"
   PlatformAssetType: 1
@@ -716,15 +644,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
-  }
-}
-Assets {
-  Id: 12617664793519417206
-  Name: "Cone - Truncated Concave"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_concave_001"
   }
 }
 Assets {
@@ -1232,15 +1151,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6588567122613861857
-  Name: "Metal 9 Slice Frame 005"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_005"
-  }
-}
-Assets {
   Id: 6515192203865619302
   Name: "Text 02: R"
   PlatformAssetType: 1
@@ -1313,15 +1223,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5944393796542654307
-  Name: "Capsule"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_capsule_001"
-  }
-}
-Assets {
   Id: 5931224016695282927
   Name: "Liquid Decal"
   PlatformAssetType: 14
@@ -1364,15 +1265,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
-  Id: 5704998740082466501
-  Name: "Fern 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fern_generic_004"
   }
 }
 Assets {
@@ -1466,15 +1358,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4880170813277602281
-  Name: "Car Paint 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_car-paint_001"
-  }
-}
-Assets {
   Id: 4794041361382728409
   Name: "Cylinder - Chamfered Polished"
   PlatformAssetType: 1
@@ -1529,15 +1412,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4156576600873206312
-  Name: "Metal Floor Panel 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_simple_floor_panel_001_uv"
-  }
-}
-Assets {
   Id: 4054211681159130604
   Name: "Hill 01"
   PlatformAssetType: 1
@@ -1583,33 +1457,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3738850035184511142
-  Name: "Decal Leaves 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_leaves_001"
-  }
-}
-Assets {
-  Id: 3715487088176351191
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
-  }
-}
-Assets {
-  Id: 3702365963781758101
-  Name: "Teardrop - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_truncated_teardrop_001"
-  }
-}
-Assets {
   Id: 3511944487587149772
   Name: "Curb 8m"
   PlatformAssetType: 1
@@ -1643,15 +1490,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_002_ref"
-  }
-}
-Assets {
-  Id: 3249839256999270199
-  Name: "Bush 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bush_generic_002"
   }
 }
 Assets {
@@ -1745,15 +1583,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2344375418771611947
-  Name: "Metal 9 Slice Lockers 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_advanced_9slice_lockers_001_ref"
-  }
-}
-Assets {
   Id: 1739996898153061063
   Name: "Small Open Crate"
   PlatformAssetType: 1
@@ -1841,6 +1670,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_002"
+  }
+}
+Assets {
+  Id: 402893533354015122
+  Name: "Terrain - Snow"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-snow_001_wa"
   }
 }
 Assets {

@@ -4983,15 +4983,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.518700063
-        B: 0.2774
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
     }
@@ -5055,15 +5046,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 2899842837741361229
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.518700063
-        B: 0.2774
-        A: 1
       }
     }
     Overrides {
@@ -5133,15 +5115,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.518700063
-        B: 0.2774
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
     }
@@ -5205,15 +5178,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 2899842837741361229
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.518700063
-        B: 0.2774
-        A: 1
       }
     }
     Overrides {
@@ -5283,15 +5247,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.518700063
-        B: 0.2774
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
     }
@@ -5355,15 +5310,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 2899842837741361229
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.76000005
-        G: 0.518700063
-        B: 0.2774
-        A: 1
       }
     }
     Overrides {
@@ -5608,6 +5554,17 @@ Objects {
     }
   }
   ParentId: 10345764058470990187
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.708333
+        G: 0.55917269
+        B: 0.398791462
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5853,6 +5810,17 @@ Objects {
     }
   }
   ParentId: 10345764058470990187
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.708333
+        G: 0.55917269
+        B: 0.398791462
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5901,6 +5869,17 @@ Objects {
     }
   }
   ParentId: 10345764058470990187
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.708333
+        G: 0.55917269
+        B: 0.398791462
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15638,16 +15617,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 1036725943543811742
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.517
-        G: 0.517
-        B: 0.517
-        A: 1
+        Id: 16826264376886319022
       }
     }
   }
@@ -50407,6 +50377,15 @@ Objects {
         Id: 8568697174726512881
       }
     }
+    Overrides {
+      Name: "ma:Shared_DamagedEdge:color"
+      Color {
+        R: 2.5
+        G: 2.5
+        B: 2.5
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50462,6 +50441,15 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 8568697174726512881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_DamagedEdge:color"
+      Color {
+        R: 2.5
+        G: 2.5
+        B: 2.5
+        A: 1
       }
     }
   }
@@ -50521,6 +50509,15 @@ Objects {
         Id: 8568697174726512881
       }
     }
+    Overrides {
+      Name: "ma:Shared_DamagedEdge:color"
+      Color {
+        R: 2.5
+        G: 2.5
+        B: 2.5
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50576,6 +50573,15 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 8568697174726512881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_DamagedEdge:color"
+      Color {
+        R: 2.5
+        G: 2.5
+        B: 2.5
+        A: 1
       }
     }
   }
@@ -67859,9 +67865,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -67924,9 +67930,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -67990,9 +67996,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -68055,9 +68061,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -68121,9 +68127,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -68186,9 +68192,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -68251,9 +68257,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -68317,9 +68323,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_DamagedEdge:color"
       Color {
-        R: 0.940000057
-        G: 0.731270254
-        B: 0.48974
+        R: 2.5
+        G: 2.5
+        B: 2.5
         A: 1
       }
     }
@@ -103140,7 +103146,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 8173848993185204084
+        Id: 16826264376886319022
       }
     }
     Overrides {

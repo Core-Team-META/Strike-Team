@@ -248,14 +248,6 @@ Assets {
               Id: 8327237471500940677
             }
           }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -309,14 +301,6 @@ Assets {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
               Id: 8327237471500940677
-            }
-          }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
             }
           }
         }
@@ -374,14 +358,6 @@ Assets {
               Id: 8327237471500940677
             }
           }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -435,14 +411,6 @@ Assets {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
               Id: 8327237471500940677
-            }
-          }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
             }
           }
         }
@@ -500,14 +468,6 @@ Assets {
               Id: 8327237471500940677
             }
           }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -563,14 +523,6 @@ Assets {
               Id: 8327237471500940677
             }
           }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -620,14 +572,6 @@ Assets {
         }
         ParentId: 7495305104493651218
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.134
-              G: 0.109433345
-              A: 1
-            }
-          }
           Overrides {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
@@ -684,14 +628,6 @@ Assets {
         ParentId: 7495305104493651218
         UnregisteredParameters {
           Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
-            }
-          }
-          Overrides {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
               Id: 8327237471500940677
@@ -746,14 +682,6 @@ Assets {
         }
         ParentId: 7495305104493651218
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.640000045
-              G: 0.320000023
-              A: 1
-            }
-          }
           Overrides {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
@@ -813,15 +741,6 @@ Assets {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
               Id: 8327237471500940677
-            }
-          }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.0800000057
-              G: 0.0648960099
-              B: 0.02336
-              A: 1
             }
           }
         }

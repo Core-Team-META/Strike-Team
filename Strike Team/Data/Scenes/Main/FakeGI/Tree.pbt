@@ -1,64 +1,6 @@
 Name: "FakeGI"
 RootId: 10734059996242719164
 Objects {
-  Id: 6347394349298036180
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -4885
-      Y: 1085
-      Z: 480
-    }
-    Rotation {
-      Yaw: 180
-      Roll: 180
-    }
-    Scale {
-      X: 1
-      Y: 2
-      Z: 1
-    }
-  }
-  ParentId: 10734059996242719164
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 26.8573532
-    Color {
-      R: 1
-      G: 0.857
-      B: 0.714
-      A: 1
-    }
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 742.60437
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 1198.30994
-          SourceHeight: 718.62915
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 6060249532366615043
   Name: "Point Light (Area)"
   Transform {
@@ -88,9 +30,9 @@ Objects {
   Light {
     Intensity: 6.70211029
     Color {
-      R: 1
-      G: 0.691470265
-      B: 0.386999965
+      R: 0.495
+      G: 0.856916547
+      B: 1
       A: 1
     }
     TeamSettings {
@@ -202,9 +144,9 @@ Objects {
   Light {
     Intensity: 5.08633
     Color {
-      R: 0.497999966
-      G: 1
-      B: 0.960105956
+      R: 0.433152
+      G: 0.752000034
+      B: 0.726661146
       A: 1
     }
     TeamSettings {
@@ -259,9 +201,9 @@ Objects {
   Light {
     Intensity: 5.08633
     Color {
-      R: 0.497999966
-      G: 1
-      B: 0.960105956
+      R: 0.433152
+      G: 0.752000034
+      B: 0.726661146
       A: 1
     }
     TeamSettings {
@@ -316,9 +258,9 @@ Objects {
   Light {
     Intensity: 12.6266394
     Color {
-      R: 0.18
-      G: 1
-      B: 0.93483448
+      R: 0.433152
+      G: 0.752000034
+      B: 0.726661146
       A: 1
     }
     TeamSettings {
@@ -430,9 +372,9 @@ Objects {
   Light {
     Intensity: 33.0931969
     Color {
-      R: 1
-      G: 0.335761547
-      B: 0.149999976
+      R: 0.339
+      G: 0.713566661
+      B: 1
       A: 1
     }
     TeamSettings {
@@ -544,9 +486,9 @@ Objects {
   Light {
     Intensity: 33.0931969
     Color {
-      R: 0.18
+      R: 0.867
       G: 1
-      B: 0.93483448
+      B: 0.989430487
       A: 1
     }
     TeamSettings {
@@ -601,9 +543,9 @@ Objects {
   Light {
     Intensity: 48.1738167
     Color {
-      R: 0.497999966
+      R: 0.719
       G: 1
-      B: 0.960105956
+      B: 0.977668881
       A: 1
     }
     TeamSettings {
@@ -660,9 +602,9 @@ Objects {
   Light {
     Intensity: 23.9371052
     Color {
-      R: 1
-      G: 0.673642397
-      B: 0.295999944
+      R: 0.295999944
+      G: 0.60106647
+      B: 1
       A: 1
     }
     TeamSettings {
@@ -718,9 +660,9 @@ Objects {
   Light {
     Intensity: 33.0931969
     Color {
-      R: 1
-      G: 0.673642397
-      B: 0.295999944
+      R: 0.295999944
+      G: 0.495466411
+      B: 1
       A: 1
     }
     TeamSettings {
@@ -776,9 +718,9 @@ Objects {
   Light {
     Intensity: 98.2630157
     Color {
-      R: 0.93785
-      G: 1
-      B: 0.661
+      R: 0.516755342
+      G: 0.551
+      B: 0.364211
       A: 1
     }
     TeamSettings {
@@ -835,8 +777,9 @@ Objects {
   Light {
     Intensity: 100
     Color {
-      R: 1
-      G: 0.496688783
+      R: 0.410000026
+      G: 0.261835247
+      B: 0.115619987
       A: 1
     }
     TeamSettings {
@@ -952,9 +895,9 @@ Objects {
   Light {
     Intensity: 66.2103271
     Color {
-      R: 1
-      G: 0.814357519
-      B: 0.562
+      R: 0.302702
+      G: 0.413709193
+      B: 0.493000031
       A: 1
     }
     TeamSettings {
@@ -968,64 +911,6 @@ Objects {
           BarnDoorLength: 20
           SourceWidth: 797.34082
           SourceHeight: 524.573792
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13826142975209852163
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -4003.64453
-      Y: -3423.74
-      Z: 184.999023
-    }
-    Rotation {
-      Yaw: 135
-      Roll: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10734059996242719164
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 21.2441368
-    Color {
-      R: 1
-      G: 0.690596
-      B: 0.269999981
-      A: 1
-    }
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 973.609497
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 276.881226
-          SourceHeight: 360.913574
         }
       }
       MaxDrawDistance: 5000
@@ -1144,65 +1029,6 @@ Objects {
           BarnDoorLength: 20
           SourceWidth: 1370.15161
           SourceHeight: 2406.66626
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13267564645842103305
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -3725.73511
-      Y: 1697.07227
-      Z: 447.617676
-    }
-    Rotation {
-      Pitch: -4.09811328e-05
-      Yaw: 89.9999924
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10734059996242719164
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 55.7141228
-    Color {
-      R: 1
-      G: 0.673642397
-      B: 0.295999944
-      A: 1
-    }
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1201.97058
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 1070.10791
-          SourceHeight: 360.913574
         }
       }
       MaxDrawDistance: 5000
@@ -1363,9 +1189,9 @@ Objects {
   Light {
     Intensity: 44.314476
     Color {
-      R: 1
-      G: 1
-      B: 1
+      R: 0.692000031
+      G: 0.692000031
+      B: 0.692000031
       A: 1
     }
     TeamSettings {
@@ -1481,9 +1307,9 @@ Objects {
   Light {
     Intensity: 100
     Color {
-      R: 1
-      G: 1
-      B: 1
+      R: 0.567000031
+      G: 0.567000031
+      B: 0.567000031
       A: 1
     }
     TeamSettings {
@@ -1540,9 +1366,9 @@ Objects {
   Light {
     Intensity: 84.1385422
     Color {
-      R: 0.929999948
-      G: 0.622939825
-      B: 0.319919974
+      R: 0.587
+      G: 0.587
+      B: 0.587
       A: 1
     }
     TeamSettings {
@@ -1717,9 +1543,9 @@ Objects {
   Light {
     Intensity: 100
     Color {
-      R: 1
-      G: 0.523907304
-      B: 0.0899999738
+      R: 0.452999949
+      G: 0.708266497
+      B: 1
       A: 1
     }
     TeamSettings {
@@ -1776,9 +1602,9 @@ Objects {
   Light {
     Intensity: 49.7698288
     Color {
-      R: 1
-      G: 0.523907304
-      B: 0.0899999738
+      R: 0.271999955
+      G: 0.271999955
+      B: 1
       A: 1
     }
     TeamSettings {

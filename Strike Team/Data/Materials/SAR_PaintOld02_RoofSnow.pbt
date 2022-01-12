@@ -12,7 +12,7 @@ Assets {
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.493285894
+        Float: 0.696988463
       }
       Overrides {
         Name: "gradient_shift"
@@ -41,12 +41,6 @@ Assets {
         Float: 1
       }
       Overrides {
-        Name: "cmp:Material1"
-        AssetReference {
-          Id: 841534158063459245
-        }
-      }
-      Overrides {
         Name: "invert_height"
         Bool: true
       }
@@ -64,11 +58,11 @@ Assets {
         }
       }
       Overrides {
-        Name: "cmpc:Material2"
+        Name: "cmpc:Material1"
         Color {
-          R: 1.3
-          G: 1.3
-          B: 1.3
+          R: 0.69600004
+          G: 0.69600004
+          B: 0.69600004
           A: 1
         }
       }

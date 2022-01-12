@@ -21,7 +21,7 @@ Assets {
       Overrides {
         Name: "cmp:Material1"
         AssetReference {
-          Id: 2923520979152270376
+          Id: 3713504403173644544
         }
       }
       Overrides {
@@ -46,15 +46,6 @@ Assets {
         Name: "cmp:Material3"
         AssetReference {
           Id: 3713504403173644544
-        }
-      }
-      Overrides {
-        Name: "cmpc:Material3"
-        Color {
-          R: 1
-          G: 0.688733339
-          B: 0.332999885
-          A: 1
         }
       }
       Overrides {
@@ -93,15 +84,6 @@ Assets {
         Float: 2
       }
       Overrides {
-        Name: "cmpc:Material1"
-        Color {
-          R: 1
-          G: 0.81955
-          B: 0.599
-          A: 1
-        }
-      }
-      Overrides {
         Name: "material3side_scale"
         Float: 2
       }
@@ -111,6 +93,15 @@ Assets {
           R: 1
           G: 1
           B: 1
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material3"
+        Color {
+          R: 1.3
+          G: 1.3
+          B: 1.3
           A: 1
         }
       }
@@ -143,12 +134,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2923520979152270376
-      Name: "Bricks Rough Stone Floor 02"
+      Id: 3713504403173644544
+      Name: "Rocky Ground 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_brick_stone_floor_rough_002"
+        AssetId: "rocky_001"
       }
     }
     Assets {

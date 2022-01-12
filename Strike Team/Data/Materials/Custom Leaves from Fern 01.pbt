@@ -7,18 +7,33 @@ Assets {
     BaseMaterialId: 13204959317183337169
     ParameterOverrides {
       Overrides {
-        Name: "sss"
+        Name: "color_accent"
         Color {
-          R: 0.147152334
-          G: 0.220000029
+          R: 0.0780492276
+          G: 0.114000008
+          B: 0.076038
           A: 1
         }
       }
       Overrides {
-        Name: "color_accent"
+        Name: "color"
         Color {
-          R: 0.109271497
-          G: 0.149999976
+          R: 0.330750018
+          G: 0.378000021
+          B: 0.35988754
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "emissive_boost"
+        Float: 0
+      }
+      Overrides {
+        Name: "sss"
+        Color {
+          R: 0.014
+          G: 0.013356817
+          B: 0.007658
           A: 1
         }
       }

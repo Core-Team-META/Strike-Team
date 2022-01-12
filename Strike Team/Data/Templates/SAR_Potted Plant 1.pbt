@@ -10,9 +10,9 @@ Assets {
         Name: "SAR_Potted Plant 1"
         Transform {
           Scale {
-            X: 0.438979208
-            Y: 0.438979208
-            Z: 0.438979208
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
           }
         }
         ParentId: 4781671109827199097
@@ -300,6 +300,14 @@ Assets {
           }
         }
         ParentId: 8561705713689738974
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 8327237471500940677
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -347,6 +355,14 @@ Assets {
           }
         }
         ParentId: 8561705713689738974
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 8327237471500940677
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -394,6 +410,14 @@ Assets {
           }
         }
         ParentId: 8561705713689738974
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 8327237471500940677
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }

@@ -58,6 +58,15 @@ Assets {
         Name: "invert_height"
         Bool: true
       }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 6620060143328752136

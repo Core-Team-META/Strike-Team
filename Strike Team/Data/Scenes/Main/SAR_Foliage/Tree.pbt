@@ -7440,7 +7440,7 @@ Objects {
     Location {
       X: 7645
       Y: 4485
-      Z: 340
+      Z: 322.878448
     }
     Rotation {
       Pitch: 6.83018879e-06
@@ -7448,35 +7448,32 @@ Objects {
       Roll: 89.9999619
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 0.739599526
+      Y: 0.999999404
       Z: 1
     }
   }
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
+        R: 0.29903239
+        G: 0.301000029
+        B: 0.281134039
         A: 1
       }
     }
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 15487543338840681538
       }
     }
   }
@@ -7497,6 +7494,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7531,15 +7529,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -7551,7 +7540,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -7572,6 +7561,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7589,8 +7579,8 @@ Objects {
   Transform {
     Location {
       X: 7645
-      Y: 4585
-      Z: 390
+      Y: 4551.16
+      Z: 372.878448
     }
     Rotation {
       Pitch: 6.83018879e-06
@@ -7598,35 +7588,32 @@ Objects {
       Roll: 89.9999542
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 0.739599526
+      Y: 0.999999404
       Z: 1
     }
   }
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
+        R: 0.29903239
+        G: 0.301000029
+        B: 0.281134039
         A: 1
       }
     }
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 15487543338840681538
       }
     }
   }
@@ -7647,6 +7634,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7664,8 +7652,8 @@ Objects {
   Transform {
     Location {
       X: 7645
-      Y: 4776.89404
-      Z: 497.622253
+      Y: 4797.77686
+      Z: 499.096558
     }
     Rotation {
       Pitch: 4.03834915
@@ -7681,15 +7669,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -7701,7 +7680,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -7722,6 +7701,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7756,15 +7736,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -7776,7 +7747,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -7797,6 +7768,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7814,8 +7786,8 @@ Objects {
   Transform {
     Location {
       X: 7645
-      Y: 5075
-      Z: 420
+      Y: 5107.51
+      Z: 402.878448
     }
     Rotation {
       Pitch: 6.83018879e-06
@@ -7823,35 +7795,32 @@ Objects {
       Roll: 89.9999542
     }
     Scale {
-      X: 1.00000024
-      Y: 0.607471943
+      X: 0.739599705
+      Y: 0.607471645
       Z: 1.00000012
     }
   }
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 15487543338840681538
       }
     }
     Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
+        R: 0.29903239
+        G: 0.301000029
+        B: 0.281134039
         A: 1
       }
     }
     Overrides {
-      Name: "ma:Nature_Leaves:id"
+      Name: "ma:Shared_Detail1:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -7872,6 +7841,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7905,15 +7875,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -7925,7 +7886,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
     Overrides {
@@ -7952,6 +7913,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7986,15 +7948,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -8006,7 +7959,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -8027,6 +7980,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8060,15 +8014,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -8080,7 +8025,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -8101,6 +8046,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8135,15 +8081,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -8155,7 +8092,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -8176,6 +8113,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8210,15 +8148,6 @@ Objects {
   ParentId: 7560471041159094325
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Leaves:color"
-      Color {
-        R: 0.580000043
-        G: 0.20532
-        B: 0.461351037
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Detail1:color"
       Color {
         R: 0.580000043
@@ -8230,7 +8159,7 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:id"
       AssetReference {
-        Id: 13809642894536784205
+        Id: 15487543338840681538
       }
     }
   }
@@ -8251,6 +8180,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

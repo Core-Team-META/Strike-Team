@@ -10,9 +10,9 @@ Assets {
         Name: "SAR_Potted Plant 3"
         Transform {
           Scale {
-            X: 0.471874654
-            Y: 0.471874654
-            Z: 0.471874654
+            X: 0.644961774
+            Y: 0.644961774
+            Z: 0.644961774
           }
         }
         ParentId: 4781671109827199097
@@ -63,7 +63,7 @@ Assets {
           Overrides {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
-              Id: 2990952851577250343
+              Id: 15487543338840681538
             }
           }
         }
